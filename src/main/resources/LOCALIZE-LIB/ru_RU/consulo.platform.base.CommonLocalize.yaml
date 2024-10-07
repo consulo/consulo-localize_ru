@@ -1,15 +1,15 @@
 button.yes:
-  text: '&Да'
+  text: "&Да"
 button.no:
-  text: '&Нет'
+  text: "&Нет"
 dialog.options.do.not.show:
-  text: не показывать этот диалог в будущем
+  text: Не показывать этот диалог в будущем
 dialog.options.do.not.ask:
   text: Помните, больше не спрашивайте
 dialog.title.choose.date:
   text: Выберите дату
 dialog.ioexception.proxy:
-  text: настройка параметров прокси-сервера HTTP
+  text: Настройка параметров прокси-сервера HTTP
 dialog.ioexception.tryagain:
   text: Попробуйте еще раз
 button.cancel:
@@ -23,31 +23,31 @@ button.back:
 button.help:
   text: Помощь
 button.retry:
-  text: '& Повторить'
+  text: "&Повторить"
 button.skip:
   text: Пропустить
 editbox.password:
-  text: '& Пароль:'
+  text: "&Пароль:"
 checkbox.remember.password:
-  text: '& Запомнить пароль'
+  text: "&Запомнить пароль"
 editbox.login:
-  text: '& Логин:'
+  text: "&Логин:"
 checkbox.use.http.proxy:
-  text: '& Использовать прокси'
+  text: "&Использовать прокси"
 checkbox.proxy.authentication:
   text: Прокси и аутентификация
 checkbox.use.http.proxy.pac:
   text: Автоматическое определение настроек прокси
 tooltip.http.proxy.pac:
-  text: при этом будет предпринята попытка использовать настройки вашей системы, что полезно, если в вашей системе используется файл автоконфигурации прокси (.pac).
+  text: Будет предпринята попытка использовать настройки вашей системы, что полезно, если в вашей системе используется файл автоконфигурации прокси (.pac).
 editbox.port.number:
-  text: 'Порт и номер:'
+  text: "Порт и номер:"
 editbox.host.name:
-  text: '& Имя хоста:'
+  text: "&Имя хоста:"
 title.http.proxy.settings:
   text: Настройки HTTP-прокси
 tree.node.loading:
-  text: Загрузка ...
+  text: Загрузка...
 title.error:
   text: Ошибка
 title.warning:
@@ -55,37 +55,37 @@ title.warning:
 button.continue:
   text: Продолжить
 button.yes.for.all:
-  text: Да для & всех
-номер кнопки для всех:
-  text: N&O for All
+  text: "&Да для всех"
+button.no.for.all:
+  text: "&Нет для всех"
 button.apply:
-  text: '& Применить'
+  text: "&Применить"
 action.close:
-  text: '& Закрыть'
+  text: "&Закрыть"
 action.help:
   text: Помощь
 action.rerun:
   text: Повторить
 button.reset:
-  text: '& Reset'
+  text: "&Сброс"
 button.reset.to.default:
-  text: '& Восстановить значения по умолчанию'
+  text: "&Восстановить значения по умолчанию"
 button.delete:
   text: Удалить
 button.copy:
-  text: Копировать ...
+  text: Копировать...
 button.close:
-  text: '& Закрыть'
+  text: "&Закрыть"
 exception.directory.can.not.create:
   text: Невозможно создать каталог {0}
-исключение.directory.is.not.readable:
+exception.directory.is.not.readable:
   text: Каталог не читается {0}
 exception.directory.is.invalid:
   text: Каталог недействителен {0}
 button.add:
   text: Добавить
 button.add.a:
-  text: '& Добавить'
+  text: "&Добавить"
 action.refresh:
   text: Обновить
 close.action.name:
@@ -95,15 +95,15 @@ button.edit:
 button.remove:
   text: Удалить
 button.remove.r:
-  text: '& Удалить'
+  text: "&Удалить"
 title.settings:
   text: Настройки
 title.settings.mac:
   text: Настройки
 action.settings:
-  text: Настройки ...
+  text: Настройки...
 action.settings.mac:
-  text: Предпочтения ...
+  text: Предпочтения...
 action.settings.description:
   text: Изменить настройки приложения
 action.settings.description.mac:
@@ -117,129 +117,129 @@ date.format.less.than.a.minute:
 date.format.right.now:
   text: прямо сейчас
 date.format.minutes.ago:
-  text: '{0, choice, 0 # Moments | 1 # A minute | 2 # {0, number} minutes | 60 # 1 hour} ago'
+  text: "{0,choice, 0#Меньше минуты|1#Минуту|2#{0,number} минут|60#час} назад"
 date.format.today:
   text: Сегодня
-дата.формат.вчера:
+date.format.yesterday:
   text: Вчера
 date.format.a.few.moments.ago:
-  text: минуту назад
+  text: меньше минуты назад
 date.format.in.a.few.moments:
   text: через несколько минут
 date.format.n.days:
-  text: '{0, choice, 0 # нулевые дни | 1 # один день | 2 # {0, number} days}'
+  text: "{0,choice, 0#ноль дней|1#один день|2#{0,number} дней}"
 date.format.n.minutes:
-  text: '{0, choice, 0 # ноль минут | 1 # одна минута | 2 # {0, number} минут}'
+  text: "{0,choice, 0#ноль минут|1#одна минута|2#{0,number} минут}"
 date.format.n.hours:
-  text: '{0, choice, 0 # ноль часов | 1 # один час | 2 # {0, number} часов}'
+  text: "{0,choice, 0#ноль часов|1#один час|2#{0,number} часов}"
 date.format.n.months:
-  text: '{0, choice, 0 # ноль месяцев | 1 # один месяц | 2 # {0, number} месяцев}'
+  text: "{0,choice, 0#ноль месяцев|1#один месяц|2#{0,number} месяцев}"
 date.format.n.weeks:
-  text: '{0, choice, 0 # ноль недель | 1 # одна неделя | 2 # {0, number} недель}'
+  text: "{0,choice, 0#ноль недель|1#одну неделя|2#{0,number} недель}"
 date.format.n.years:
-  text: '{0, choice, 0 # ноль лет | 1 # один год | 2 # {0, number} лет}'
+  text: "{0,choice, 0#ноль лет|1#один год|2#{0,number} лет}"
 date.format.in.n.days:
-  text: in {0, choice, 0 # zero days | 1 # one day | 2 # {0, number} days}
+  text: "через {0,choice, 0#ноль дней|1#один день|2#{0,number} дней}"
 date.format.in.n.minutes:
-  text: через {0, choice, 0 # ноль минут | 1 # одна минута | 2 # {0, number} минут}
+  text: "через {0,choice, 0#ноль минут|1#одну минуту|2#{0,number} минут}"
 date.format.in.n.hours:
-  text: in {0, choice, 0 # ноль часов | 1 # один час | 2 # {0, number} часов}
+  text: "через {0,choice, 0#ноль часов|1#один час|2#{0,number} часов}"
 date.format.in.n.months:
-  text: in {0, choice, 0 # ноль месяцев | 1 # один месяц | 2 # {0, number} месяцев}
+  text: "через {0,choice, 0#ноль месяцев|1#один месяц|2#{0,number} месяцев}"
 date.format.in.n.weeks:
-  text: in {0, choice, 0 # zero weeks | 1 # one week | 2 # {0, number} weeks}
+  text: "через {0,choice, 0#ноль недель|1#одну неделю|2#{0,number} недель}"
 date.format.in.n.years:
-  text: in {0, choice, 0 # ноль лет | 1 # один год | 2 # {0, number} лет}
+  text: "через {0,choice, 0#ноль лет|1#один год|2#{0,number} лет}"
 date.format.n.days.ago:
-  text: '{0, choice, 0 # zero days | 1 # one day | 2 # {0, number} days} назад'
+  text: "{0,choice, 0#ноль дней|1#один день|2#{0,number} дней} назад"
 date.format.n.minutes.ago:
-  text: '{0, choice, 0 # ноль минут | 1 # одна минута | 2 # {0, number} минут} назад'
+  text: "{0,choice, 0#ноль минут|1#одну минуту|2#{0,number} минут} назад"
 date.format.n.hours.ago:
-  text: '{0, choice, 0 # ноль часов | 1 # один час | 2 # {0, number} часов} назад'
+  text: "{0,choice, 0#ноль часов|1#один час|2#{0,number} часов} назад"
 date.format.n.months.ago:
-  text: '{0, choice, 0 # ноль месяцев | 1 # один месяц | 2 # {0, number} месяцев} назад'
+  text: "{0,choice, 0#ноль месяцев|1#один месяц|2#{0,number} месяцев} назад"
 date.format.n.weeks.ago:
-  text: '{0, choice, 0 # ноль недель | 1 # одна неделя | 2 # {0, number} недель} назад'
+  text: "{0,choice, 0#ноль недель|1#одну неделю|2#{0,number} недель} назад"
 date.format.n.years.ago:
-  text: '{0, choice, 0 # ноль лет | 1 # один год | 2 # {0, number} лет} назад'
-неправильное.функция.ошибка. сообщение:
+  text: "{0,choice, 0#ноль лет|1#один год|2#{0,number} лет} назад"
+incorrect.function.error.message:
   text: Неправильная функция.
-Системе не удается найти указанное в файле сообщение об ошибке:
-  text: система не может найти указанный файл.
-система. не может найти. указанный путь. сообщение об ошибке:
-  text: система не может найти указанный путь.
-система не может открыть сообщение об ошибке файла:
-  text: система не может открыть файл.
+the.system.cannot.find.the.file.specified.error.message:
+  text: Система не может найти указанный файл.
+the.system.cannot.find.the.path.specified.error.message:
+  text: Система не может найти указанный путь.
+the.system.cannot.open.the.file.error.message:
+  text: Система не может открыть файл.
 access.is.denied.error.message:
   text: Доступ запрещен.
-сообщение.handle.is.invalid.error:
-  text: дескриптор недействителен.
-сообщение.storage.control.blocks.were.destroyed.error.:
+the.handle.is.invalid.error.message:
+  text: Дескриптор недействителен.
+the.storage.control.blocks.were.destroyed.error.message:
   text: Блоки управления хранилищем были уничтожены.
 not.enough.storage.is.available.to.process.this.command.error.message:
   text: Недостаточно памяти для обработки этой команды.
-сообщение.storage.control.block.address.is.invalid.error.message:
+the.storage.control.block.address.is.invalid.error.message:
   text: Недопустимый адрес блока управления хранилищем.
-сообщение об ошибке:
+the.environment.is.incorrect.error.message:
   text: Среда неверна.
-Произведена попытка загрузки программы с сообщением об ошибке неправильного формата:
-  text: Была сделана попытка загрузить программу в неверном формате.
-сообщение.access.code.invalid.error.message:
+an.attempt.was.made.to.load.a.program.with.an.incorrect.format.error.message:
+  text: Сделана попытка загрузить программу в неверном формате.
+the.access.code.is.invalid.error.message:
   text: Код доступа недействителен.
 the.data.is.invalid.error.message:
-  text: данные недействительны.
-not.enough.storage.is.available.to.complete.This.operation.error.message:
-  text: Недостаточно памяти для выполнения этой операции.
-Системе не удается найти сообщение об ошибке указанного привода:
+  text: Данные некорректны.
+not.enough.storage.is.available.to.complete.this.operation.error.message:
+  text: Недостаточно памяти для выполнения операции.
+the.system.cannot.find.the.drive.specified.error.message:
   text: Система не может найти указанный диск.
 the.directory.cannot.be.removed.error.message:
-  text: каталог не может быть удален.
-система не может переместить файл на другой диск. сообщение об ошибке:
+  text: Каталог не может быть удален.
+the.system.cannot.move.the.file.to.a.different.disk.drive.error.message:
   text: Система не может переместить файл на другой диск.
 there.are.no.more.files.error.message:
   text: Больше нет файлов.
-сообщение.media.is.write.protected.error.message:
-  text: носитель защищен от записи.
-Системе не удается найти указанное на устройстве сообщение об ошибке:
+the.media.is.write.protected.error.message:
+  text: Носитель защищен от записи.
+the.system.cannot.find.the.device.specified.error.message:
   text: Система не может найти указанное устройство.
-сообщение.device.is.not.ready.error:
+the.device.is.not.ready.error.message:
   text: Устройство не готово.
-сообщение об ошибке не распознается устройством:
+the.device.does.not.recognize.the.command.error.message:
   text: устройство не распознает команду.
 data.error.cyclic.redundancy.check.error.message:
   text: Ошибка данных (циклический контроль избыточности).
-сообщение об ошибке, выданное программой, но длина команды неверно:
+the.program.issued.a.command.but.the.command.length.is.incorrect.error.message:
   text: Программа выдала команду, но длина команды неверна.
-привод не может найти конкретную область или отслеживать сообщение об ошибке диска:
+the.drive.cannot.locate.a.specific.area.or.track.on.the.disk.error.message:
   text: Привод не может найти определенную область или дорожку на диске.
-сообщение об ошибке или доступе к указанному диску:
-  text: к указанному диску или дискете нет доступа.
-Дисковод не может найти запрошенное сообщение об ошибке сектора:
+the.specified.disk.or.diskette.cannot.be.accessed.error.message:
+  text: К указанному диску или дискете нет доступа.
+the.drive.cannot.find.the.sector.requested.error.message:
   text: Привод не может найти запрошенный сектор.
-не удалось создать сообщение о том, что следующие файлы записываются. ошибка:
-  text: 'Не удалось сделать следующие файлы доступными для записи: {0}'
+failed.to.make.the.following.files.writable.error.message:
+  text: "Не удалось сделать следующие файлы доступными для записи: {0}"
 failed.to.make.file.writeable.error.message:
   text: Не удалось сделать {0} доступным для записи.
 format.file.size.bytes:
-  text: '{0} b'
+  text: "{0} b"
 format.file.size.kbytes:
-  text: '{0} КБ'
+  text: "{0} КБ"
 format.file.size.mbytes:
-  text: '{0} МБ'
+  text: "{0} МБ"
 profiling.captured.cpu.snapshot.message.text:
-  text: 'Захваченный снимок ЦП:' '' '{0}' '' 'помещается в домашний каталог пользователя.'
+  text: "Захваченный снимок ЦП: '{0}' помещается в домашний каталог пользователя."
 profiling.captured.allocations.snapshot.message.text:
-  text: 'Снимок захваченного распределения:' '' '{0}' '' 'помещается в домашний каталог пользователя.'
+  text: "Снимок захваченного распределения: '{0}' помещается в домашний каталог пользователя."
 information.dialog.title:
   text: Информация
-захваченный.memory.snapshot.placed.in.user.home.directory.message.text:
-  text: 'Записанный снимок памяти:' '' '{0}' '' 'помещается в домашний каталог пользователя.'
+captured.memory.snapshot.placed.in.user.home.directory.message.text:
+  text: "Записанный снимок памяти: '{0}' помещается в домашний каталог пользователя."
 cannot.undo.dialog.title:
   text: Невозможно отменить
 cannot.undo.error.other.affected.files.changed.message:
-  text: 'Следующие файлы, затронутые этим действием, уже были изменены:'
+  text: "Следующие файлы, затронутые этим действием, уже были изменены:"
 cannot.undo.error.contains.nonundoable.changes.message:
-  text: 'В следующих файлах есть изменения, которые нельзя отменить:'
+  text: "В следующих файлах есть изменения, которые нельзя отменить:"
 undo.dialog.title:
   text: Отменить
 redo.command.confirmation.text:
@@ -251,7 +251,7 @@ undo.command.confirmation.text:
 cannot.redo.dialog.title:
   text: Невозможно повторить
 drop.undo.history.command.name:
-  text: Dummy
+  text: Пустышка
 cannot.undo.message:
   text: Невозможно отменить
 cannot.redo.message:
@@ -262,48 +262,48 @@ local.vcs.action.name.redo.command:
   text: Повторить {0}
 error.reading.color.scheme.from.file.error.message:
   text: Ошибка чтения цветовой схемы из {0}
-поврежденный.scheme.file.message.title:
+corrupted.scheme.file.message.title:
   text: Поврежденный файл
 button.background:
-  text: '& Фон'
+  text: "&Фон"
 vcs.configurable.general.tab.title:
   text: Общие
 cannot.start.other.instance.is.running.error.message:
-  text: | -
+  text: |-
     {0} не смог создать локальное соединение, чтобы проверить,
     другой экземпляр {0} в настоящее время работает на том же компьютере.
     Запуск нескольких экземпляров {0} на одном компьютере может вызвать непредсказуемые
     результаты из-за совместного использования системных папок.
-    Пожалуйста, устраните неполадки в конфигурации TCP / IP и / или настройках локального брандмауэра.
+    Пожалуйста, устраните неполадки в конфигурации TCP/IP и/или настройках локального брандмауэра.
     и прикрепите {1}
 button.load.file:
   text: Загрузить файл
 date.frequency:
   text: Один раз {0}
 name.label.text:
-  text: 'На и я:'
+  text: "&Имя:"
 smth.already.exist.error.message:
-  text: '{0} с именем' '' '{1}' '' 'уже существует.'
-сравнение.policy.default.name:
+  text: "{0} с именем '{1}' уже существует."
+comparison.policy.default.name:
   text: По умолчанию
-сравнение.policy.trim.space.name:
+comparison.policy.trim.space.name:
   text: Обрезать пространство
-compare.policy.ignore.spaces.name:
-  text: игнорировать пробелы
-сравнение.ignore.whitespace.acton.name:
-  text: 'Игнорировать пробелы:'
+comparison.policy.ignore.spaces.name:
+  text: Игнорировать пробелы
+comparison.ignore.whitespace.acton.name:
+  text: "Игнорировать пробелы:"
 safe.write.failed:
-  text: | -
+  text: |-
     Невозможно сохранить {0}.
     Невозможно создать файл резервной копии ({1}).
     Файл остался без изменений.
 safe.write.rename.original:
-  text: | -
+  text: |-
     Невозможно сохранить {0}.
     Файл остался без изменений.
     Ваши изменения были записаны в {1}.
 safe.write.rename.backup:
-  text: | -
+  text: |-
     Невозможно сохранить {0}.
     Файл был переименован в {1}.
     Ваши изменения были записаны в {2}.
@@ -312,47 +312,42 @@ safe.write.drop.temp:
 vfs.broken.link:
   text: Неработающая ссылка
 label.system.proxy.used:
-  text: для свойства JVM java.net.useSystemProxies установлено значение true. 
-Это приведет к тому, что некоторые сетевые вызовы будут проходить через прокси-сервер, определенный операционной системой. 
-Если вы не собирались использовать системный прокси, отключите это свойство
+  text: <html>Для свойства JVM 'java.net.useSystemProxies' установлено значение true.<br>Это приведет к тому, что некоторые сетевые вызовы будут проходить через прокси-сервер, определенный операционной системой.<br>Если вы не собирались использовать системный прокси, отключите это свойство
 http.noproxy:
-  text: без прокси
+  text: Без прокси
 http.proxy.type:
   text: HTTP
 socks.proxy.type:
-  text: НОСКИ
+  text: SOCKS
 autodetected.proxies.clear.button:
   text: Очистить пароли
 label.old.way.jvm.property.used:
-  text: 'Для свойства JVM "{0}" установлено значение "{1}". 
-Это может привести к неправильному поведению. Прокси должен быть установлен в Настройках | HTTP-прокси. 
-Это свойство JVM устарело, и Oracle не рекомендует его использование. 
-(Примечание: он мог быть назначен некоторым кодом динамически.) '
+  text: '<html>Для свойства JVM "{0}" установлено значение "{1}".<br>Это может привести к неправильному поведению. Прокси должен быть установлен в Настройках | HTTP-прокси.<br>Это свойство JVM устарело, и Oracle не рекомендует его использование.<br>(Примечание: оно могло быть динамически назначено каким-то кодом.)'
 label.proxy.exceptions.text:
-  text: 'Пример: * .domain.com, 192.168. *'
+  text: "Пример: *.domain.com, 192.168.*"
 checkbox.automatic.proxy.configuration.url:
-  text: 'URL автоматической настройки прокси:'
+  text: "URL автоматической настройки прокси:"
 safe.write.backup:
-  text: | -
+  text: |-
     Невозможно сохранить {0}.
     Невозможно создать файл резервной копии ({1}).
     Файл остался без изменений.
 safe.write.open:
-  text: | -
+  text: |-
     Невозможно сохранить {0}.
     Невозможно открыть файл для записи.
 safe.write.junk:
-  text: | -
+  text: |-
     Невозможно сохранить {0}.
     Невозможно записать данные.
     Возможно, файл поврежден.
 safe.write.junk.backup:
-  text: | -
+  text: |-
     Невозможно сохранить {0}.
     Невозможно записать данные.
     Файл может быть поврежден; резервная копия была создана в {1}.
 safe.write.restored:
-  text: | -
+  text: |-
     Невозможно сохранить {0}.
     Невозможно записать данные.
     Исходный контент был восстановлен из резервной копии.
