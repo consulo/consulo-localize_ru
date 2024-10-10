@@ -309,7 +309,7 @@ action.EditorSetRtlBidiTextDirection.text:
 action.EditorToggleInsertState.text:
   text: Toggle Insert/Overwrite
 action.EditorToggleColumnMode.text:
-  text: Режим выбора столбца _Mode
+  text: Режим выбора _столбца
 action.EditorToggleColumnMode.description:
   text: Переключить режим выбора столбца в текущем редакторе
 action.EditorToggleShowWhitespaces.text:
@@ -555,7 +555,7 @@ action.Exit.text:
 action.Exit.description:
   text: Выйти из IDE
 group.EditMenu.text:
-  text: _Редактировать
+  text: Пр_авка
 group.FindMenuGroup.text:
   text: _Поиск
 action.undo.text:
@@ -825,7 +825,7 @@ action.CollapseBlock.description:
 action.RecentChanges.text:
   text: _Недавние изменения
 group.GoToMenu.text:
-  text: _Перейти
+  text: Пере_йти
 action.GotoClass.text:
   text: _Класс…
 action.GotoClass.description:
@@ -1025,7 +1025,7 @@ action.MoveLineUp.text:
 action.MoveLineUp.description:
   text: Переместить выделенные строки на одну строку вверх
 group.AnalyzeMenu.text:
-  text: _Анализировать
+  text: А_нализ
 action.InspectCode.text:
   text: _Проверить код…
 action.InspectCode.description:
@@ -1147,7 +1147,7 @@ action.ExtractInclude.text:
 action.ExtractInclude.description:
   text: Превратить выделенный фрагмент кода во подключённый файл
 group.BuildMenu.text:
-  text: _Собрать
+  text: С_борка
 action.CompileProject.text:
   text: _Пересобрать проект
 action.CompileProject.description:
@@ -1265,17 +1265,17 @@ action.ExportThreads.text:
 action.ExportThreads.description:
   text: Сохранить всю информацию о нитях в текстовый файл или буфер обмена
 action.Runner.RestoreLayout.text:
-  text: Восстановить макет
+  text: Восстановить схему расположения
 action.Runner.RestoreLayout.description:
-  text: Восстановить визуальные элементы сеанса отладчика до состояния по умолчанию
+  text: Восстановить визуальные элементы отладчика до состояния по умолчанию
 action.Runner.ToggleToolbarLayout.text:
   text: Горизонтальные панели инструментов
 action.Runner.ToggleToolbarLayout.description:
   text: Переключает горизонтальную/вертикальную ориентацию панели инструментов
 group.Runner.Layout.text:
-  text: Макет
+  text: Схема расположения
 group.Runner.Layout.description:
-  text: Конфигурация макета
+  text: Конфигурация схемы расположения
 action.Runner.MinimizeView.text:
   text: Скрыть
 action.Runner.MinimizeView.description:
@@ -1325,7 +1325,7 @@ action.Debugger.FocusOnBreakpoint.text:
 action.Debugger.FocusOnBreakpoint.description:
   text: по умолчанию сфокусировать это представление при достижении точки останова
 group.ToolsMenu.text:
-  text: _Инструменты
+  text: С_ервис
 action.SaveAsTemplate.text:
   text: Сохранить как L_ive Template…
 action.SaveAsTemplate.description:
@@ -1421,9 +1421,9 @@ action.AutoShowProcessWindow.text:
 action.AutoShowProcessWindow.description:
   text: Показывать окно фоновых задач при запуске любого прогресса
 action.StoreDefaultLayout.text:
-  text: Сохранить текущий La_yout по умолчанию
+  text: Сохранить текущую _схему расположения как умолчальную
 action.StoreDefaultLayout.description:
-  text: Сохранить текущий макет по умолчанию
+  text: Сохранить текущую схему расположения как умолчальную
 action.MinimizeCurrentWindow.text:
   text: Свернуть
 action.MinimizeCurrentWindow.description:
@@ -1445,9 +1445,9 @@ action.ToggleFullScreen.text:
 action.ToggleFullScreen.description:
   text: Переключить полноэкранный режим
 action.RestoreDefaultLayout.text:
-  text: Восстановить макет по _умолчанию
+  text: Восстановить схему расположения по _умолчанию
 action.RestoreDefaultLayout.description:
-  text: Восстановить макет по умолчанию
+  text: Восстановить схему расположения по умолчанию
 action.HideActiveWindow.text:
   text: Окно активного инструмента Hi_de
 action.HideActiveWindow.description:
@@ -2041,9 +2041,9 @@ action.SendFeedback.text:
 action.SendFeedback.description:
   text: Отправьте отзыв на веб-сайт Consulo
 action.ShowLog.text:
-  text: Открыть файл журнала
+  text: Открыть лог-файл
 action.ShowLog.description:
-  text: Открывает папку с файлом журнала
+  text: Открывает папку с лог-файлом
 action.TechnicalSupport.text:
   text: Связаться с командой _техподдержки
 action.TechnicalSupport.description:
@@ -2629,6 +2629,10 @@ action.Scratch.ChangeLanguage.text:
 action.Scratch.ChangeLanguage.description:
   text: Изменить язык файла
 show.log.in.action.text:
-  text: Показать вход {0}
+  text: Показать файл журнала в {0}
 action.Help.JoinDiscordChannel.text:
   text: Присоединиться к каналу Discord
+group.FilePropertiesGroup.text:
+  text: Свойства файла
+action.ChangesView.ApplyPatchFromClipboard.text:
+  text: Применить патч из буфера обмена…
