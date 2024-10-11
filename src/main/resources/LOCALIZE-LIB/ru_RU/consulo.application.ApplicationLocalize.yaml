@@ -517,9 +517,9 @@ checkbox.spaces.try.parentheses:
 checkbox.spaces.catch.parentheses:
   text: '''catch'' скобки'
 checkbox.spaces.switch.parentheses:
-  text: '''switch'' скобки
+  text: '''switch'' скобки'
 checkbox.spaces.synchronized.parentheses:
-  text: '''synchronized'' скобки
+  text: '''synchronized'' скобки'
 checkbox.spaces.annotation.parameters:
   text: Параметры аннотации
 checkbox.spaces.assignment.operators:
@@ -559,21 +559,21 @@ checkbox.spaces.switch.left.brace:
 checkbox.spaces.try.left.brace:
   text: '''try'' левая фигурная скобка'
 checkbox.spaces.catch.left.brace:
-  text: '''catch'' левая скобка
+  text: '''catch'' левая скобка'
 checkbox.spaces.finally.left.brace:
-  text: '''finally'' левая скобка
+  text: '''finally'' левая скобка'
 checkbox.spaces.synchronized.left.brace:
-  text: '''synchronized'' левая скобка
+  text: '''synchronized'' левая скобка'
 checkbox.spaces.array.initializer.left.brace:
   text: Инициализатор массива левая скобка
 checkbox.spaces.annotation.array.initializer.left.brace:
   text: Инициализатор массива левая скобка
 checkbox.spaces.else.keyword:
-  text: '''else'' ключевое слово
+  text: '''else'' ключевое слово'
 checkbox.spaces.while.keyword:
-  text: '''while'' ключевое слово
+  text: '''while'' ключевое слово'
 checkbox.spaces.catch.keyword:
-  text: '''catch'' ключевое слово
+  text: '''catch'' ключевое слово'
 checkbox.spaces.finally.keyword:
   text: '''finally'' ключевое слово'
 checkbox.spaces.within.brackets:
@@ -1149,7 +1149,7 @@ watcher.exe.not.found:
 watcher.exe.not.exists:
   text: Native file watcher не поддерживается на этой платформе
 watcher.exe.not.exe:
-  text: «Native file watcher не является исполняемым файлом: <a href="{0}">{0}</a>»
+  text: '«Native file watcher не является исполняемым файлом: <a href="{0}">{0}</a>»'
 watcher.failed.to.start:
   text: Не удалось запустить File watcher
 watcher.gave.up:
@@ -1379,7 +1379,7 @@ error.plugins.should.not.have.cyclic.dependencies:
 error.plugin.was.not.installed:
   text: "Плагин {0} не установлен: {1}"
 error.required.plugin.not.installed:
-  text: «Плагин "{0}" не загружен: требуемый плагин "{1}" не установлен».
+  text: '«Плагин "{0}" не загружен: требуемый плагин "{1}" не установлен».'
 error.required.plugin.disabled:
   text: 'Плагин "{0}" не загружен: требуемый плагин "{1}" отключен.'
 message.duplicate.plugin.id:
