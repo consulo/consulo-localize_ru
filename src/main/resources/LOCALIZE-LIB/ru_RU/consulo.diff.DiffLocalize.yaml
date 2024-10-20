@@ -63,7 +63,7 @@ diff.highlighting.disabled.text:
 diff.all.differences.ignored.text:
   text: Различия проигнорированы
 diff.count.differences.status.text:
-  text: '{0, выбор, 0#нет различий|1#1 различие|2#{0, number} различий}'
+  text: '{0, choice, 0#нет различий|1#1 различие|2#{0, number} различий}'
 cant.launch.diff.tool.error.message:
   text: Невозможно запустить инструмент сравнения
 binary.files.are.identical.message:
@@ -213,9 +213,9 @@ option.ignore.policy.none:
 option.ignore.policy.trim:
   text: Игнорировать пробелы в начале и конце строки
 option.ignore.policy.whitespaces:
-  text: Игнорировать проблеы
+  text: Игнорировать все пробелы
 option.ignore.policy.whitespaces.empty.lines:
-  text: Игнорировать пробелы и пустые строки
+  text: Игнорировать все пробелы и пустые строки
 option.highlighting.level.inspections:
   text: Инспекции
 option.highlighting.level.syntax:
