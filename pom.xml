@@ -35,7 +35,7 @@
             <url>https://maven.consulo.io/repository/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
-                <updatePolicy>interval:60</updatePolicy>
+                <updatePolicy>always</updatePolicy>
             </snapshots>
         </repository>
     </repositories>
@@ -45,6 +45,7 @@
             <plugin>
                 <groupId>consulo.maven</groupId>
                 <artifactId>maven-consulo-plugin</artifactId>
+                <version>3.4-SNAPSHOT</version>
                 <extensions>true</extensions>
                 <configuration>
                     <packaging>
@@ -54,6 +55,14 @@
                 </configuration>
                 <executions>
                     <execution>
+                        <id>validate</id>
+                        <phase>generate-sources</phase>
+                        <goals>
+                            <goal>validate-localize</goal>
+                        </goals>
+                    </execution>
+                    <execution>
+                        <id>package</id>
                         <phase>package</phase>
                         <goals>
                             <goal>workspace</goal>
