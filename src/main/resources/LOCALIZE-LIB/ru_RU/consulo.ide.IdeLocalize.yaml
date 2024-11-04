@@ -79,7 +79,7 @@ action.descriptor.keystroke:
 title.edit.macros:
   text: Редактировать макросы
 macro.noname:
-  text: <noname>
+  text: <без имени>
 message.macro.exists:
   text: Макрос с именем ''{0}'' уже существует. Перезаписать его?
 title.macro.name.already.used:
@@ -901,13 +901,13 @@ action.toolwindow.ant.build:
 action.toolwindow.debug:
   text: Отладка
 action.toolwindow.run:
-  text: '&Run'
+  text: '&Запустить'
 action.toolwindow.find:
-  text: F&ind
+  text: &Искать
 action.toolwindow.cvs:
   text: C&VS
 action.toolwindow.hierarchy:
-  text: Иерархия
+  text: &Иерархия
 action.toolwindow.todo:
   text: TODO
 action.toolwindow.inspection:
@@ -1320,7 +1320,7 @@ text.todo.no.patterns:
 text.todo.no.filters:
   text: Фильтры не настроены
 node.todo.group:
-  text: '{0} {0,choice,0#items|1#item|2#items}'
+  text: '{0} {0,choice,0#элементов|1#элемент|2#элементов}'
 node.todo.summary:
   text: Найдено {0} TODO {0,choice,0#items|1#item|2#items} в {1} {1,choice,0#files|1#file|2#files}
 node.todo.no.items.found:
@@ -1328,11 +1328,11 @@ node.todo.no.items.found:
 node.todo.found.items:
   text: '{0} (найдено {1} {1,choice,1#элемен|2#элементов})'
 node.todo.items:
-  text: '{0} {0, choice, 0#items|1#item|2#items}'
+  text: '{0} {0, choice, 0#элементов|1#элемент|2#элементов}'
 title.appearance:
   text: Внешний вид
 node.todo.more.items:
-  text: '...more...'
+  text: '...ещё...'
 group.window.options:
   text: Параметры окна
 checkbox.show.memory.indicator:
@@ -1492,7 +1492,7 @@ prompt.please.select.project.jdk:
 label.project.jdk:
   text: 'Project SDK:'
 button.configure:
-  text: '&Configure...'
+  text: '&Настроить…'
 prompt.confirm.project.no.jdk:
   text: |-
     Хотите создать проект без назначенного SDK?
@@ -1813,27 +1813,27 @@ search.for.usages.and.delete.elements:
 prompt.delete.and:
   text: и
 prompt.delete.directory:
-  text: '{0,choice,1#directory|2#directories}'
+  text: '{0,choice,1#папка|2#папок}'
 prompt.delete.file:
-  text: '{0,choice,1#file|2#files}'
+  text: '{0,choice,1#файл|2#файлов}'
 prompt.delete.symlink:
   text: '{0,choice,1#symlink|2#symlinks}'
 prompt.delete.class:
-  text: '{0,choice,1#class|2#classes}'
+  text: '{0,choice,1#класс|2#классов}'
 prompt.delete.interface:
-  text: '{0,choice,1#interface|2#interfaces}'
+  text: '{0,choice,1#интерфейс|2#интерфейсов}'
 prompt.delete.method:
-  text: '{0,choice,1#method|2#methods}'
+  text: '{0,choice,1#метод|2#методов}'
 prompt.delete.field:
-  text: '{0,choice,1#field|2#fields}'
+  text: '{0,choice,1#поле|2#полей}'
 prompt.delete.package:
-  text: '{0,choice,1#package|2#packages}'
+  text: '{0,choice,1#пакет|2#пакетов}'
 prompt.delete.directory.paren:
-  text: ({0} {0,choice,1#directory|2#directories})
+  text: ({0} {0,choice,1#папка|2#папок})
 prompt.delete.property:
-  text: '{0,choice,1#property|2#properties}'
+  text: '{0,choice,1#свойство|2#свойств}'
 prompt.delete.type.parameter:
-  text: '{0,choice,1#type parameter|2#type settings}'
+  text: '{0,choice,1#параметр типа|2#параметров типа}'
 checkbox.safe.delete.with.usage.search:
   text: Безопасное удаление (с поиском по использованию)
 checkbox.search.in.comments.and.strings:
@@ -1844,15 +1844,15 @@ label.method:
   text: Метод {0}
 label.overrides.method.of_class_or_interface.name:
   text: переопределяет {0} {1} {2}.
-метка.реализации.метода.имени.класса.или.интерфейса:
+label.implements.method.of_class_or_interface.name:
   text: реализует {0} {1} {2}.
-метка.реализации.метода.интерфейсов:
+label.implements.method.of_interfaces:
   text: 'реализует методы следующих классов/интерфейсов:'
-элемент.метода:
+element.method:
   text: метод
-элемент.интерфейса:
+element.of.interface:
   text: интерфейса
-элемент.класса:
+element.of.class:
   text: класса
 prompt.do.you.want.to.action_verb.the.method.from_class:
   text: Хотите {0} базовый {1,choice,1#method|2#methods}?
@@ -2626,3 +2626,45 @@ label.appearance.show.trailing.whitespaces:
   text: Показать конечные пробелы
 label.tabs.show.directory.for.non.unique.filenames:
   text: Показать каталог во вкладках редактора для неуникальных имен файлов
+command.fixing.line.separators:
+  text: исправление разделителей строк
+action.Anonymous.text.rename:
+  text: Переименовать
+action.Anonymous.text.new.group:
+  text: Новая группа…
+command.switch.active.editor:
+  text: Переключить активный редактор
+change.encoding.command.name:
+  text: "Изменить кодировку для ''{0}''"
+action.Anonymous.text.live.templates:
+  text: Живые шаблоны
+dialog.title.choose.color:
+  text: Выбрать цвет
+progress.performing.indexing.tasks:
+  text: Выполнение задач индексирования
+dumb.service.indexing.paused.due.to:
+  text: Индексирование приостановлено из-за {0}
+action.Anonymous.text.add.keyboard.shortcut:
+  text: Добавить клавиатуру Ярлык
+action.Anonymous.text.add.mouse.shortcut:
+  text: Добавить ярлык мыши
+action.Anonymous.text.add.abbreviation:
+  text: Добавить сокращение
+action.Anonymous.text.reset.shortcuts:
+  text: Сбросить ярлыки
+dialog.title.abbreviation:
+  text: Сокращение
+label.enter.new.abbreviation:
+  text: "Введите новое сокращение:"
+action.text.remove.abbreviation.0:
+  text: Удалить сокращение ''{0}''
+action.text.remove.0:
+  text: Удалить {0}
+popup.title.edit.shortcuts:
+  text: Изменить ярлыки
+project.directory.is.not.writable:
+  text: Каталог ''{0}'', похоже, недоступен для записи. Выберите другое местоположение.
+action.ToggleAction.pin.window.text:
+  text: Закрепить окно
+action.ToggleAction.pin.window.description:
+  text: Закрепить окно

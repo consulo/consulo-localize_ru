@@ -2615,15 +2615,15 @@ action.RecentLocations.text:
 action.RecentLocations.description:
   text: Показать список недавно просмотренных / измененных местоположений
 action.NewScratchFile.text:
-  text: Scratch File
+  text: Временный файл
 action.NewScratchFile.text.with.new:
-  text: Scratch File
+  text: Временный файл
 action.NewScratchFile.description:
   text: Создаёт новый рабочий файл с выбранным языком
 action.NewScratchBuffer.text:
-  text: New Scratch Buffer
+  text: Новый буфер
 action.NewScratchBuffer.description:
-  text: Создаёт новый или повторно использует существующий рабочий буфер
+  text: Создает новый или повторно использует существующий буфер памяти
 action.Scratch.ChangeLanguage.text:
   text: Изменить язык файла
 action.Scratch.ChangeLanguage.description:
@@ -2631,8 +2631,232 @@ action.Scratch.ChangeLanguage.description:
 show.log.in.action.text:
   text: Показать файл журнала в {0}
 action.Help.JoinDiscordChannel.text:
-  text: Присоединиться к каналу Discord
+  text: Присоединиться к Discord-каналу
+group.Copy.Paste.Special.text:
+  text: Копировать / Вставить как
+group.Copy.Paste.Special.description:
+  text: Действия «Вставить как» для редактора
+action.CopyAbsolutePath.text:
+  text: Абсолютный путь
+action.CopyPathWithLineNumber.text:
+  text: Путь с номером строки
+action.CopyContentRootPath.text:
+  text: Путь из корня содержимого
+action.CopySourceRootPath.text:
+  text: Путь из корня источника
+action.CopyFileName.text:
+  text: Имя файла
+group.CopyReferencePopupGroup.text:
+  text: Копировать путь…
+group.RevealGroup.text:
+  text: Открыть в
 group.FilePropertiesGroup.text:
   text: Свойства файла
+group.PasteGroup.text:
+  text: Вставить
+group.ViewToolbarNewGroup.text:
+  text: Главная панель инструментов
+group.ViewStatusBarWidgetsGroup.text:
+  text: Виджеты строки состояния
+group.ViewStatusBarWidgetsGroup.description:
+  text: Показать/скрыть виджеты строки состояния
+action.StopBackgroundProcesses.text:
+  text: Остановить фоновые процессы…
+action.StopBackgroundProcesses.description:
+  text: Остановить фоновые процессы
+action.IdeScriptingConsole.text:
+  text: Консоль сценариев IDE
+action.IdeScriptingConsole.description:
+  text: Открыть консоль сценариев IDE
+action.Vcs.QuickListPopupAction.text:
+  text: Всплывающее окно операций VCS…
+action.Vcs.QuickListPopupAction.description:
+  text: Всплывающее окно с контекстной информацией и списком часто используемых действий VCS
 action.ChangesView.ApplyPatchFromClipboard.text:
   text: Применить патч из буфера обмена…
+action.ChangesView.ApplyPatchFromClipboard.description:
+  text: Применить патч к источникам проекта
+action.SearchEverywhere.text:
+  text: Поиск везде
+action.OpenInRightSplit.text:
+  text: Открыть в правой части
+action.OpenInRightSplit.description:
+  text: Разделить область редактора на 2 группы вкладок и открыть текущий файл в правой группе
+action.Diff.FocusOppositePane.description:
+  text: Выбрать противоположную панель в представлении различий
+action.Diff.FocusOppositePaneAndScroll.text:
+  text: Выбрать позицию в противоположной панели различий
+action.Diff.FocusOppositePaneAndScroll.description:
+  text: Выбрать ту же позицию в противоположной панели в представлении различий
+action.Diff.ApplyLeftSide.text:
+  text: Принять левую сторону
+action.Diff.ApplyRightSide.text:
+  text: Принять правую сторону
+action.Diff.AppendLeftSide.text:
+  text: Добавить левую сторону
+action.Diff.AppendRightSide.text:
+  text: Добавить правую сторону
+action.Diff.IgnoreLeftSide.text:
+  text: Игнорировать левую сторону
+action.Diff.IgnoreRightSide.text:
+  text: Игнорировать правую сторону
+action.Diff.ResolveConflict.text:
+  text: Разрешить автоматически
+action.Diff.ApplyNonConflicts.text:
+  text: Применить все неконфликтующие изменения
+action.Diff.ApplyNonConflicts.Left.text:
+  text: Применить неконфликтующие изменения с левой стороны
+action.Diff.ApplyNonConflicts.Right.text:
+  text: Применить неконфликтующие изменения с правой стороны
+action.Diff.MagicResolveConflicts.text:
+  text: Разрешить простые конфликты
+action.Diff.ComparePartial.Base.Left.text:
+  text: Левый и средний
+action.Diff.ComparePartial.Base.Right.text:
+  text: Средний и правый
+action.Diff.ComparePartial.Left.Right.text:
+  text: Левый и правый
+action.Diff.CompareWithBase.Left.text:
+  text: Базовый и левый
+action.Diff.CompareWithBase.Result.text:
+  text: Базовый и средний
+action.Diff.CompareWithBase.Right.text:
+  text: Базовый и правый
+action.Diff.ComparePartial.Generic:
+  text: '{0,choice,0#Левый|1#Средний|2#Правый} и {1,choice,0#левый|1#средний|2#правый}'
+action.Diff.ShowDiff.text:
+  text: Показать разницу
+action.Diff.ShowDiff.description:
+  text: Сравнить файлы или ревизии
+action.Diff.NextConflict.text:
+  text: Следующий конфликт
+action.Diff.NextConflict.description:
+  text: Перейти к следующему неразрешенному конфликту
+action.Diff.PreviousConflict.text:
+  text: Предыдущий конфликт
+action.Diff.PreviousConflict.description:
+  text: Перейти к предыдущему неразрешенному конфликту
+action.OverrideFileTypeAction.text:
+  text: Переопределить тип файла
+action.OverrideFileTypeAction.description:
+  text: Обрабатывать текущий файл как файл другого типа
+action.OverrideFileTypeAction.verbose.description:
+  text: Обрабатывать файл ''{0}''{1,choice,0#|1# (и еще {1} файлов)} как файл другого типа файла
+action.ReverteOverrideFileTypeAction.text:
+  text: Отменить переопределение типа файла
+action.ReverteOverrideFileTypeAction.description:
+  text: Отменить действие "Переопределить тип файла" и восстановить старый тип файла
+action.ReverteOverrideFileTypeAction.verbose.description:
+  text: Отменить действие "Переопределить тип файла" и восстановить старый тип файла для файла ''{0}''{1,choice,0#|1# (и еще {1} файлов)}
+group.OverrideFileTypeAction.title:
+  text: Выбрать тип файла
+group.OverrideFileTypeAction.bundledPlugin:
+  text: bundled
+group.OverrideFileTypeAction.fromNamedPlugin:
+  text: from ''{0}'' дополнение
+action.ChangeToThisFileTypeAction.description:
+  text: Переопределить тип файла на ''{0}'
+action.AnalyzeStacktrace.text:
+  text: _Stack Trace или Thread Dump…
+action.RunDashboard.AddType.text:
+  text: Run Configuration Type…
+group.ServiceView.AddService.text:
+  text: Добавить службу
+action.RunDashboard.Run.text:
+  text: Запустить
+action.RunDashboard.Debug.text:
+  text: Отладить
+action.RunDashboard.Stop.text:
+  text: Остановить действие
+action.RunDashboard.EditConfiguration.text:
+  text: Изменить конфигурацию
+action.RunDashboard.CopyConfiguration.text:
+  text: Копировать конфигурацию
+action.RunDashboard.HideConfiguration.text:
+  text: Скрыть конфигурацию
+action.RunDashboard.RestoreHiddenConfigurations.text:
+  text: Восстановить скрытое Конфигурации
+action.RunDashboard.RemoveType.text:
+  text: Удалить тип конфигурации из служб
+action.RunDashboard.OpenRunningConfigInNewTab.text:
+  text: Открыть текущую конфигурацию в новой вкладке
+action.RunDashboard.ClearContent.text:
+  text: Очистить содержимое
+action.RunDashboard.RestoreConfiguration.text:
+  text: Восстановить конфигурацию
+action.RunDashboard.GroupConfigurations.text:
+  text: Групповые конфигурации
+action.RunDashboard.UngroupConfigurations.text:
+  text: Разгруппировать конфигурации
+action.ServiceView.GroupByContributor.text:
+  text: Тип службы
+action.ServiceView.GroupByServiceGroups.text:
+  text: Группы служб
+action.ServiceView.OpenInNewTab.text:
+  text: Открыть в новой вкладке
+action.ServiceView.OpenEachInNewTab.text:
+  text: Открыть каждую в новой Вкладка
+action.ServiceView.SplitByType.text:
+  text: Открыть каждый тип в новой вкладке
+action.ServiceView.OpenInToolWindow.text:
+  text: Открыть в отдельном окне инструментов
+action.ServiceView.JumpToServices.text:
+  text: Перейти к службам
+action.ServiceView.ShowServices.text:
+  text: Показать дерево служб
+action.ServiceView.SelectActiveService.text:
+  text: Всегда
+action.ServiceView.ConfigureServices.text:
+  text: Настроить окно инструментов служб
+action.RunDashboard.GroupByType.text:
+  text: Тип
+action.RunDashboard.GroupByStatus.text:
+  text: Статус
+action.UpdateRunningApplication.text:
+  text: Обновить запущенное приложение
+group.TouchBar.text:
+  text: Сенсорная панель
+group.TodoMainGroup.text:
+  text: TODO
+group.TodoViewGroupByGroup.text:
+  text: Группировать по
+group.TouchBarDebug.ForceStepButtons.text:
+  text: Отладчик ForceStep Действия
+group.TouchBarDebug_alt.text:
+  text: Отладчик с клавишей Alt
+group.TouchBarDebug.StepButtons.text:
+  text: Отладчик Step Действия
+group.TouchBarDebug.text:
+  text: Отладчик
+group.TouchBarDefault_shift.text:
+  text: По умолчанию с клавишей Shift
+group.TouchBarDefault_cmd.alt.text:
+  text: По умолчанию с клавишей Alt+Cmd
+group.TouchBarDefault_cmd.text:
+  text: По умолчанию с клавишей Cmd
+group.TouchBarDefault_alt.text:
+  text: По умолчанию с клавишей Alt
+group.TouchBarDefault_ctrl.text:
+  text: По умолчанию с клавишей Ctrl
+group.TouchBarDefaultOptionalGroup.text:
+  text: Дополнительные действия
+group.RunnerActionsTouchbar.text:
+  text: Действия запуска/отладки сенсорной палени
+group.TouchBarDefault.text:
+  text: По умолчанию
+group.RunDashboard.Filter.text:
+  text: Состояние конфигурации
+group.RunDashboard.GroupBy.text:
+  text: Конфигурация
+group.ServiceView.OpenInNewTabGroup.text:
+  text: Открыть в новой вкладке
+group.ServiceView.Filter.text:
+  text: Фильтр
+group.ServiceView.GroupBy.text:
+  text: Группировать по
+group.ShowAnnotateOperationsPopupGroup.text:
+  text: Аннотированная строка
+action.serviceview.groupbyservicegroup.text:
+  text: Группы служб
+action.ConfigureTemplatesAction.text:
+  text: Настроить живые шаблоны…
