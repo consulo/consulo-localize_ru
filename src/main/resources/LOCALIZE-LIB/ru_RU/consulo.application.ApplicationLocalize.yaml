@@ -19,7 +19,7 @@ error.selected.current.installation.home:
     Вы выбрали текущую домашнюю папку установки {0}.
     Выберите предыдущую домашнюю папку установки {1}
 error.does.not.appear.to.be.installation.home:
-  text: «{0} не является папкой конфигурации {1} или домашней папкой установки»
+  text: "{0} не является папкой конфигурации {1} или домашней папкой установки"
 error.no.read.permissions:
   text: У вас нет прав на чтение {0}
 radio.do.not.import:
@@ -149,13 +149,13 @@ label.name.prefix:
 label.name.suffix:
   text: 'Суффикс имени:'
 label.naming.local.variable:
-  text: «Локальная переменная:»
+  text: "Локальная переменная:"
 label.naming.field:
-  text: «Поле:»
+  text: "Поле:"
 label.naming.static.field:
-  text: «Статическое поле:»
+  text: "Статическое поле:"
 label.naming.parameter:
-  text: «Параметр:»
+  text: "Параметр:"
 checkbox.prefer.longer.names:
   text: Предпочитать более длинные имена
 title.lookup.list:
@@ -183,7 +183,7 @@ checkbox.rename.local.variables.inplace:
 checkbox.rename.local.variables.preselect:
   text: Предварительно выбрать старое имя
 editbox.keep.blank.lines:
-  text: «Оставить пустые строки:»
+  text: "Оставить пустые строки:"
 checkbox.keep.white.spaces:
   text: Оставить пробелы
 checkbox.align.text:
@@ -259,11 +259,11 @@ radio.prefer.one.import.statement.per.page.directive:
 title.jsp.imports.layout:
   text: JSP imports layout
 button.add.package.p:
-  text: Add &Package
+  text: Добавить &пакет
 button.remove.r:
-  text: '&Remove'
+  text: '&Удалить'
 wrapping.and.braces:
-  text: Wrapping and Braces
+  text: Переносы и фигурные скобки
 wrapping.keep.when.reformatting:
   text: Сохранить при переформатировании
 wrapping.keep.line.breaks:
@@ -673,7 +673,7 @@ checkbox.right.margin:
 checkbox.use.block.caret:
   text: Использовать блочный каретку
 checkbox.caret.blinking.ms:
-  text: «Мигание каретки (мс):»
+  text: 'Мигание каретки (мс):'
 checkbox.mark.modified.tabs.with.asterisk:
   text: Пометить измененные вкладки звездочкой
 checkbox.show.tabs.tooltips:
@@ -683,15 +683,15 @@ group.code.folding:
 checkbox.collapse.xml.tags:
   text: XML теги
 checkbox.collapse.html.style.attribute:
-  text: HTML-атрибут 'style'
+  text: HTML-атрибут «style»
 checkbox.collapse.anonymous.classes:
   text: <html>Анонимные классы</html>
 checkbox.collapse.closures:
-  text: <html>"Замыкания" (анонимные классы, реализующие один метод)</html>
+  text: <html>«Замыкания» (анонимные классы, реализующие один метод)</html>
 checkbox.collapse.generic.constructor.parameters:
   text: <html>Универсальные параметры конструктора и метода</html>
 checkbox.collapse.i18n.messages:
-  text: <html>Строки I18n</html>
+  text: <html>Строки локализации</html>
 checkbox.collapse.annotations:
   text: <html>Аннотации</html>
 checkbox.collapse.inner.classes:
@@ -707,15 +707,15 @@ checkbox.collapse.title.imports:
 checkbox.collapse.file.header:
   text: Заголовок файла
 label.collapse.by.default:
-  text: «Свернуть по умолчанию:»
+  text: "Свернуть по умолчанию:"
 checkbox.show.code.folding.outline:
   text: Показать контур сворачивания кода
 group.tab.appearance:
   text: Внешний вид вкладки
 editbox.tab.limit:
-  text: «Ограничение вкладок:»
+  text: "Ограничение вкладок:"
 combobox.editor.tab.placement:
-  text: «Размещение:»
+  text: "Размещение:"
 checkbox.editor.tabs.in.single.row:
   text: Показать вкладки в одну строку
 checkbox.editor.tabs.show.close.button:
@@ -757,7 +757,7 @@ checkbox.optimize.imports.on.the.fly:
 checkbox.add.unambiguous.imports.on.the.fly:
   text: Добавить однозначный импорт на лету
 combobox.strip.trailing.spaces.on.save:
-  text: «Удалять конечные пробелы при сохранении:»
+  text: "Удалять конечные пробелы при сохранении:"
 checkbox.show.quick.doc.on.mouse.over:
   text: 'Показать краткий документ при наведении мыши на элемент (мс):'
 group.limits:
@@ -963,175 +963,175 @@ editbox.enter.tag.name:
 title.tag.name:
   text: Имя тега
 title.xml:
-  текст: XML
+  text: XML
 title.html:
-  текст: HTML
+  text: HTML
 action.add:
-  текст: Добавить
+  text: Добавить
 action.edit:
-  текст: Изменить
+  text: Изменить
 action.remove:
-  текст: У&даление
+  text: У&даление
 checkbox.color.background:
-  текст: Фон
+  text: Фон
 checkbox.color.foreground:
-  текст: Передний план
+  text: Передний план
 checkbox.color.effects:
-  текст: Эффекты
+  text: Эффекты
 checkbox.color.error.stripe.mark:
-  текст: Ошибка Полоса Метка
+  text: Ошибка Полоса Метка
 combobox.effect.bordered:
-  текст: Границы
+  text: Границы
 combobox.effect.underscored:
-  текст: Подчеркнутый
+  text: Подчеркнутый
 combobox.effect.boldunderscored:
-  текст: Жирный Подчеркнутый
+  text: Жирный Подчеркнутый
 combobox.effect.underwaved:
-  текст: Подчеркнутый
+  text: Подчеркнутый
 combobox.effect.strikeout:
-  текст: Зачеркнутый
+  text: Зачеркнутый
 combobox.effect.bold.dottedline:
-  текст: Пунктир Строка
+  text: Пунктир Строка
 checkbox.font.bold:
-  текст: Жирный
+  text: Жирный
 checkbox.font.italic:
-  текст: Курсив
+  text: Курсив
 label.font.type:
-  текст: 'Тип шрифта:'
+  text: 'Тип шрифта:'
 label.inherit.attributes:
-  текст: 'Наследовать атрибуты из:'
+  text: 'Наследовать атрибуты из:'
 title.diff:
-  текст: Diff
+  text: Diff
 title.file.status:
-  текст: Состояние файла
+  text: Состояние файла
 title.scope.based:
-  текст: Основано на области действия
+  text: Основано на области действия
 title.colors.and.fonts:
-  текст: Цвета \& Шрифты
+  text: Цвета \& Шрифты
 progress.analysing.font:
-  текст: 'Анализ шрифта: {0}'
+  text: 'Анализ шрифта: {0}'
 button.edit.scopes:
-  текст: Редактировать области действия...
+  text: Редактировать области действия...
 group.editor.font:
-  текст: Шрифт редактора
+  text: Шрифт редактора
 title.font.available:
-  текст: 'Доступные шрифты:'
+  text: 'Доступные шрифты:'
 title.font.selected:
-  текст: 'Выбрано fonts:'
+  text: 'Выбрано fonts:'
 label.fallback.fonts.list.description:
   text: IDE пытается использовать следующий шрифт из списка «Выбранные шрифты» для отображения символа, если текущий шрифт не может этого сделать
 quickdoc.tooltip.font.size.by.wheel:
   text: Изменение размера шрифта с помощью ползунка или Ctrl+Wheel
 label.font.size:
-  text: «Размер шрифта:»
+  text: "Размер шрифта:"
 label.font.name:
-  text: «Название:»
+  text: "Название:"
 primary.font:
-  text: «Основной шрифт:»
+  text: "Основной шрифт:"
 secondary.font:
-  text: «Дополнительный шрифт:»
+  text: "Дополнительный шрифт:"
 use.ligatures:
   text: Включить лигатуры шрифтов
 editbox.font.size:
-  text: «Размер:»
+  text: "Размер:"
 editbox.line.spacing:
-  text: «Межстрочный интервал:»
+  text: "Межстрочный интервал:"
 combobox.scheme.name:
-  text: «Схема имя:»
+  text: "Название схемы:"
 progress.analyzing.fonts:
-  текст: Анализ шрифтов
+  text: Анализ шрифтов
 error.readonly.scheme.cannot.be.modified:
-  текст: Схему только для чтения изменить нельзя. Сначала выполните «Сохранить как...».
+  text: Схему только для чтения изменить нельзя. Сначала выполните «Сохранить как...».
 error.shared.scheme.cannot.be.modified:
-  текст: Общая схема не может быть изменена. Сначала выполните «Сохранить как...».
+  text: Общая схема не может быть изменена. Сначала выполните «Сохранить как...».
 title.cannot.modify.readonly.scheme:
-  текст: Невозможно изменить схему только для чтения
+  text: Невозможно изменить схему только для чтения
 title.save.color.scheme.as:
-  текст: Сохранить цветовую схему как
+  text: Сохранить цветовую схему как
 title.path.variables:
-  текст: Переменные пути
+  text: Переменные пути
 editbox.path.macro.value:
-  текст: 'Значение:'
+  text: 'Значение:'
 editbox.path.macro.name:
-  текст: 'Имя:'
+  text: 'Имя:'
 button.edit:
-  текст: '&Изменить'
+  text: '&Изменить'
 button.edit.dialog:
-  текст: '&Изменить...'
+  text: '&Изменить...'
 button.add:
-  текст: '&Добавить...'
+  text: '&Добавить...'
 error.variable.already.exists:
-  текст: Переменная с именем {0} уже существует
+  text: Переменная с именем {0} уже существует
 column.name:
-  текст: Имя
+  text: Имя
 column.value:
-  текст: Значение
+  text: Значение
 title.add.variable:
-  текст: Добавить переменную
+  text: Добавить переменную
 title.edit.variable:
-  текст: Изменить Переменная
+  text: Изменить Переменная
 error.path.variable.is.undefined:
-  текст: Переменная пути "{0}" не определена
+  text: Переменная пути "{0}" не определена
 text.no.path.variables:
-  текст: Нет переменных пути
+  text: Нет переменных пути
 config.import.invalid.directory.error:
-  текст: '{0} не является каталогом!'
+  text: '{0} не является каталогом!'
 command.exit:
-  текст: Выход
+  text: Выход
 application.save.settings.error:
-  текст: 'Не удалось сохранить настройки приложения: {0}'
+  text: 'Не удалось сохранить настройки приложения: {0}'
 exit.confirm.title:
-  текст: Подтвердите выход
+  text: Подтвердите выход
 exit.confirm.prompt:
-  текст: Вы уверены, что хотите выйти из {0}?
+  text: Вы уверены, что хотите выйти из {0}?
 exit.confirm.prompt.tasks:
-  текст: У вас запущены фоновые задачи. Вы уверены, что хотите остановить их и выйти из {0}?
+  text: У вас запущены фоновые задачи. Вы уверены, что хотите остановить их и выйти из {0}?
 exclude.from.completion.group:
-  текст: Исключить из импорта и завершения
+  text: Исключить из импорта и завершения
 exclude.from.completion.prompt:
-  текст: «Введите имя пакета или класса для исключения из автоимпорта и завершения имени класса:»
+  text: "Введите имя пакета или класса для исключения из автоимпорта и завершения имени класса:"
 exclude.from.completion.title:
-  текст: Исключить пакет
+  text: Исключить пакет
 exclude.from.imports.add:
-  текст: A&dd
+  text: &Добавить
 exclude.from.imports.no.exclusions:
-  текст: Нет шаблонов исключения
+  text: Нет шаблонов исключения
 inline.elements:
-  текст: «Встроенные элементы:»
+  text: "Встроенные элементы:"
 don.t.break.if.inline.content:
-  текст: «Не разрывать, если встроенное содержимое:»
+  text: "Не разрывать, если встроенное содержимое:"
 edit.code.folding.options:
-  текст: Открыть параметры сворачивания кода
+  text: Открыть параметры сворачивания кода
 button.new:
-  текст: «&Новый...»
+  text: "&Новый..."
 building.include.indices:
-  текст: Создание индексов включения...
+  text: Создание индексов включения...
 loading.include.indices:
-  текст: Загрузка включения индексы...
+  text: Загрузка включения индексы...
 use.external.annotations:
-  текст: Использовать &внешние аннотации
+  text: Использовать &внешние аннотации
 insert.override.annotation:
-  текст: Вставить аннотацию @&Override
+  text: Вставить аннотацию @&Override
 auto.import:
-  текст: Автоматический импорт
+  text: Автоматический импорт
 checkbox.collapse.suppress.warnings:
-  текст: <html>@SuppressWarnings</html>
+  text: <html>@SuppressWarnings</html>
 checkbox.collapse.end.of.line.comments:
-  текст: <html>Последовательность комментариев в конце строки</html>
+  text: <html>Последовательность комментариев в конце строки</html>
 title.other.languages:
-  текст: Другие языки
+  text: Другие языки
 launcher.script.overwrite:
-  текст: Файл ''{0}'' уже существует. Хотите перезаписать его?
+  text: Файл ''{0}'' уже существует. Хотите перезаписать его?
 launcher.script.sudo.prompt:
-  текст: Введите пароль, чтобы создать скрипт запуска в ''{0}''
+  text: Введите пароль, чтобы создать скрипт запуска в ''{0}''
 desktop.entry.success:
-  текст: Теперь вы можете выйти из {0} и запустить его из системного меню<br/> (перезапустите сеанс, если новая запись не появляется).
+  text: Теперь вы можете выйти из {0} и запустить его из системного меню<br/> (перезапустите сеанс, если новая запись не появляется).
 desktop.entry.xdg.missing:
-  текст: К сожалению, xdg-utils, похоже, недоступен в вашей системе.
+  text: К сожалению, xdg-utils, похоже, недоступен в вашей системе.
 desktop.entry.icon.missing:
-  текст: Не удалось найти подходящий значок приложения в ''{0}''.
+  text: Не удалось найти подходящий значок приложения в ''{0}''.
 desktop.entry.script.missing:
-  текст: Не удалось найти подходящий скрипт запуска в ''{0}''.
+  text: Не удалось найти подходящий скрипт запуска в ''{0}''.
 desktop.entry.checking:
   text: Проверка...
 desktop.entry.preparing:
@@ -1149,35 +1149,35 @@ watcher.exe.not.found:
 watcher.exe.not.exists:
   text: Native file watcher не поддерживается на этой платформе
 watcher.exe.not.exe:
-  text: '«Native file watcher не является исполняемым файлом: <a href="{0}">{0}</a>»'
+  text: 'Native file watcher не является исполняемым файлом: <a href="{0}">{0}</a>'
 watcher.failed.to.start:
   text: Не удалось запустить File watcher
 watcher.gave.up:
-  text: Файл watcher отказался от работы
+  text: File watcher не смог отработать
 watcher.non.watchable.project:
-  текст: Содержимое проекта находится в сетевом каталоге
+  text: Содержимое проекта находится в сетевом каталоге
 arrangement.title.settings.tab:
-  текст: Расположение
+  text: Расположение
 arrangement.text.empty.rule:
-  текст: <пустое правило>
+  text: <пустое правило>
 arrangement.text.type:
-  текст: Тип
+  text: Тип
 arrangement.text.modifier:
-  текст: Модификатор
+  text: Модификатор
 arrangement.text.name:
-  текст: Имя
+  text: Имя
 arrangement.order.name:
-  текст: Порядок
+  text: Порядок
 arrangement.action.rule.add.text:
-  текст: Добавить правило
+  text: Добавить правило
 arrangement.action.rule.add.description:
-  текст: Добавить новое правило расположения
+  text: Добавить новое правило расположения
 arrangement.action.rule.remove.text:
-  текст: Удалить правило(а)
+  text: Удалить правило(а)
 arrangement.action.rule.remove.description:
-  текст: Удалить выбранные правила расположения
+  text: Удалить выбранные правила расположения
 arrangement.action.rule.edit.text:
-  текст: Изменить rule
+  text: Изменить правило
 arrangement.action.rule.edit.description:
   text: Изменить выбранное правило расположения
 arrangement.action.rule.move.up.text:
@@ -1205,57 +1205,57 @@ arrangement.settings.order.type.keep:
 arrangement.settings.order.type.by.name:
   text: Сортировать по имя
 arrangement.settings.order.type.depth.first:
-  текст: порядок в глубину
+  text: порядок в глубину
 arrangement.settings.order.type.breadth.first:
-  текст: порядок в ширину
+  text: порядок в ширину
 arrangement.settings.text.general.type:
-  текст: 'Тип:'
+  text: 'Тип:'
 arrangement.settings.text.general.modifier:
-  текст: 'Модификатор:'
+  text: 'Модификатор:'
 arrangement.settings.text.general.name:
-  текст: 'Имя:'
+  text: 'Имя:'
 arrangement.settings.text.general.text:
-  текст: 'Текст:'
+  text: 'Текст:'
 arrangement.settings.text.general.order:
-  текст: 'Порядок:'
+  text: 'Порядок:'
 arrangement.settings.text.general.xml.namespace:
-  текст: 'Пространство имен:'
+  text: 'Пространство имен:'
 arrangement.settings.text.entry.type.xml.tag:
-  текст: тег
+  text: тег
 arrangement.settings.text.entry.type.xml.attribute:
-  текст: атрибут
+  text: атрибут
 checkbox.spaces.around.lambda.arrow:
-  текст: Лямбда-стрелка
+  text: Лямбда-стрелка
 checkbox.spaces.around.method.ref.dbl.colon.arrow:
-  текст: Ссылка на метод, двойное двоеточие
+  text: Ссылка на метод, двойное двоеточие
 settings.code.style.general.default.options:
-  текст: Параметры по умолчанию
+  text: Параметры по умолчанию
 settings.code.style.general.indents.detection:
-  текст: Определение отступов
+  text: Определение отступов
 settings.code.style.general.formatter.control:
-  текст: Управление форматированием
+  text: Управление форматированием
 settings.code.style.general.enable.formatter.tags:
-  текст: Включить маркеры форматирования в комментариях
+  text: Включить маркеры форматирования в комментариях
 settings.code.style.general.formatter.off.tag:
-  текст: 'Formatter off:'
+  text: 'Форматирование выключено:'
 settings.code.style.general.formatter.on.tag:
-  текст: 'Formatter on:'
+  text: 'Форматирование включено:'
 settings.code.style.general.formatter.marker.regexp:
-  текст: Регулярные выражения
+  text: Регулярные выражения
 settings.code.style.general.formatter.marker.invalid.regexp:
-  текст: Недопустимое регулярное выражение
+  text: Недопустимое регулярное выражение
 settings.code.style.general.formatter.marker.title:
-  текст: Маркеры
+  text: Маркеры
 settings.code.style.general.formatter.marker.options.title:
-  текст: Параметры
+  text: Параметры
 settings.code.style.general.autodetect.indents:
-  текст: Обнаруживать и использовать существующие отступы файла для редактирования
+  text: Обнаруживать и использовать существующие отступы файла для редактирования
 import.scheme.chooser.source:
-  текст: 'От:'
+  text: 'От:'
 import.scheme.chooser.destination:
-  текст: 'Кому:'
+  text: 'Кому:'
 checkbox.reformat.on.typing.rbrace:
-  текст: Переформатировать блок при наборе текста '}'
+  text: Переформатировать блок при вводе '}'
 settings.code.style.general.excluded.files:
   text: 'Не форматировать:'
 checkbox.indent.keep.indents.on.empty.lines:
@@ -1279,7 +1279,7 @@ wrapping.wrap.on.typing.wrap:
 wrapping.wrap.on.typing.default:
   text: По умолчанию
 group.richcopy:
-  text: Копирование в формате Rich-Text
+  text: Копирование с форматированием
 checkbox.richcopy.strip.whitespace.at.line.start:
   text: Убрать общий отступ
 combobox.richcopy.color.scheme:
@@ -1289,15 +1289,15 @@ combobox.richcopy.color.scheme.active:
 code.style.different.indent.size.detected:
   text: Этот файл имеет отступ в {0} пробелов вместо {1}
 code.style.tab.usage.detected:
-  text: Этот файл имеет отступ в табуляции вместо {0} пробелов
+  text: Этот файл имеет отступ табуляцией вместо {0} пробелов
 code.style.space.indent.detected:
   text: Этот файл имеет отступ в {0} пробелов вместо символа табуляции
 code.style.detector.use.spaces:
-  текст: Отступ с {0} пробелами
+  text: Отступ в {0} пробела
 code.style.detector.use.tabs:
-  текст: Отступ с табуляцией
+  text: Отступ табуляцией
 code.style.indents.detector.show.settings:
-  текст: Показать настройки
+  text: Показать настройки
 code.style.indents.detector.accept:
   text: OK
 remote.desktop.detected.title:
@@ -1331,31 +1331,31 @@ settings.default.value.prefix:
 project.code.style.migration.title:
   text: Настройки стиля кода проекта миграция
 project.code.style.migration.message:
-  текст: Настройки стиля кода вашего проекта {0} были перенесены в новый формат. Мы пока сохраняем старый формат для обратной совместимости.
+  text: Настройки стиля кода вашего проекта {0} были перенесены в новый формат. Мы пока сохраняем старый формат для обратной совместимости.
 margin.columns:
-  текст: columns
+  text: колонки
 combobox.lineseparator.for.new.files.hint:
-  текст: Применяется к новым файлам
+  text: Применяется к новым файлам
 configurable.breadcrumbs:
-  текст: Навигационная цепочка
+  text: Навигационная цепочка
 configure.breadcrumbs.colors:
-  текст: Управление цветами
+  text: Управление цветами
 checkbox.show.breadcrumbs:
-  текст: Показать навигационную цепочку
+  text: Показать навигационную цепочку
 radio.show.breadcrumbs.above:
-  текст: Верх
+  text: Сверху
 radio.show.breadcrumbs.below:
-  текст: Низ
+  text: Снизу
 label.breadcrumbs.placement:
-  текст: 'Размещение:'
+  text: 'Размещение:'
 label.breadcrumbs.languages:
-  текст: 'Языки:'
+  text: 'Языки:'
 settings.editor.font.none:
-  текст: <Нет>
+  text: <Нет>
 editorsearch.toomuch:
-  текст: '{0}+'
+  text: '{0}+'
 editorsearch.matches:
-  текст: '{0, choice, 0#0 результатов|1#1 результат|2#{0} результатов}'
+  text: '{0, choice, 0#0 результатов|1#1 результат|2#{0} результатов}'
 editorsearch.current.cursor.position:
   text: '{0}/{1}'
 editorsearch.noselection:
@@ -1374,13 +1374,13 @@ label.appearance.show.vertical.indent.guides:
   text: Показывать вертикальные направляющие отступа
 error.plugins.should.not.have.cyclic.dependencies:
   text: |-
-    Плагины не должны иметь циклических зависимостей:
+    Дополнения не должны иметь циклических зависимостей:
     {0}
 error.plugin.was.not.installed:
-  text: "Плагин {0} не установлен: {1}"
+  text: "Дополнение {0} не установлено: {1}"
 error.required.plugin.not.installed:
-  text: '«Плагин "{0}" не загружен: требуемый плагин "{1}" не установлен».'
+  text: 'Дополнение «{0}» не загружено: не установлено необходимое дополнение «{1}».'
 error.required.plugin.disabled:
-  text: 'Плагин "{0}" не загружен: требуемый плагин "{1}" отключен.'
+  text: 'Дополнение «{0}» не загружено: отключено необходимое дополнение «{1}».'
 message.duplicate.plugin.id:
-  text: 'Повторяющийся идентификатор плагина:'
+  text: 'Повторяющийся идентификатор дополнения:'

@@ -252,3 +252,21 @@ collapse.unchanged.fragments:
   text: Свернуть неизменные фрагменты
 synchronize.scrolling:
   text: Синхронизировать прокрутку
+merge.dialog.accept.change.command:
+  text: Принять изменение
+merge.dialog.ignore.change.command:
+  text: Игнорировать изменение
+merge.dialog.resolve.conflict.command:
+  text: Разрешить конфликт
+merge.dialog.apply.non.conflicted.changes.command:
+  text: Применить неконфликтующие изменения
+message.init.merge.content.command:
+  text: Инициировать слияние содержимого
+message.replace.change.command:
+  text: Заменить изменение
+message.use.selected.changes.command:
+  text: '{0} выбранных изменений'
+message.do.in.merge.command:
+  text: '{0} в слиянии'
+synchronize.document.and.its.fragment:
+  text: Синхронизировать документ и его фрагмент
