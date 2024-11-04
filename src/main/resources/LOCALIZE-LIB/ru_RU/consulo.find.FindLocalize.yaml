@@ -219,7 +219,7 @@ find.origin.entire.scope.radio:
 find.searching.for.string.in.file.progress:
   text: Поиск ''{0}'' в {1}...
 find.searching.for.string.in.file.occurrences.progress:
-  text: '{0,choice,0#No|1#{0}} {0,choice,0#вхождений|1#вхождение|2#вхождений} найдено на текущий момент'
+  text: '{0,choice,0#Нет|1#{0}} {0,choice,0#вхождений|1#вхождение|2#вхождений} найдено на текущий момент'
 find.excessive.total.size.prompt:
   text: Обнаружены вхождения в файлах общим размером {0}. {1} может перестать отвечать или даже выдать ошибку OutOfMemoryError, если вы продолжите. Продолжить?
 find.progress.search.completed:
