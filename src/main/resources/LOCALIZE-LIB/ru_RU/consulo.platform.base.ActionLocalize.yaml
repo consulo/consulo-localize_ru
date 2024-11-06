@@ -15,7 +15,7 @@ action.ContextHelp.text:
 action.ContextHelp.description:
   text: Показать контекстную справку
 action.ToggleReadOnlyAttribute.files:
-  text: "Сделать {2,choice,1#файл|2#файлы} {0,choice,0#только для чтения|1#записываемым}"
+  text: "Сделать {1,choice,1#файл|2#файлы} {0,choice,0#только для чтения|1#записываемым}"
 action.RunConfiguration.text:
   text: Выбрать конфигурацию запуска/отладки
 action.SwitchCoverage.text:
@@ -1313,7 +1313,7 @@ action.Runner.AttachCells.text:
 action.Runner.AttachCell.description:
   text: прикрепить выбранные представления к окну инструмента отладчика
 action.Runner.RestoreView.text:
-  text: Восстановить "{0}" Просмотр
+  text: Восстановить окошко «{0}»
 action.Runner.RestoreView.description:
   text: Восстановить представление в сетке отладчика
 action.Runner.FocusOnStartup.text:
@@ -1707,9 +1707,9 @@ action.XDebugger.CompareValueWithClipboard.text:
 action.XDebugger.CompareValueWithClipboard.description:
   text: Сравнить значение выбранного узла с текстом из буфера обмена
 action.XDebugger.CopyName.text:
-  text: Копировать имя
+  text: Копировать название
 action.XDebugger.CopyName.description:
-  text: Скопировать имя выбранного узла в буфер обмена
+  text: Скопировать название выбранного узла в буфер обмена
 action.XDebugger.JumpToSource.text:
   text: Перейти к источнику
 action.XDebugger.JumpToSource.description:
@@ -1721,7 +1721,7 @@ action.XDebugger.JumpToTypeSource.description:
 action.XDebugger.Inspect.text:
   text: Осмотреть…
 action.Debugger.Tree.AddToWatches.text:
-  text: Добавить в часы
+  text: Добавить в отслеживания
 action.Debugger.Tree.EvaluateInConsole.text:
   text: Оценить в консоли
 action.XDebugger.RemoveWatch.text:
@@ -1731,7 +1731,7 @@ action.XDebugger.RemoveAllWatches.text:
 action.XDebugger.NewWatch.text:
   text: Новое отслеживание…
 action.XDebugger.EditWatch.text:
-  text: Редактировать…
+  text: Редактировать отслеживание
 action.XDebugger.AutoTooltip.text:
   text: Автоматическая подсказка значения
 action.XDebugger.AutoTooltip.description:
@@ -1813,7 +1813,7 @@ action.Debugger.MarkObject.unmark.text:
 action.Debugger.MarkObject.description:
   text: Отметить/снять отметку с объекта, чтобы его можно было визуально различить в представлениях отладчика
 action.Debugger.AddToWatch.text:
-  text: Добавить в часы
+  text: Добавить в отслеживания
 action.Debugger.EvaluateInConsole.text:
   text: Оценить в консоли
 action.Debugger.UnmuteOnStop.text:
@@ -2107,7 +2107,7 @@ action.ChangesView.RemoveDeleted.description:
 action.ChangesView.Rename.text:
   text: Изменить список правок…
 action.ChangesView.Rename.description:
-  text: Редактировать имя и описание выбранного списка изменений
+  text: Редактировать название и описание выбранного списка изменений
 action.ChangesView.CreatePatch.text:
   text: Создать патч…
 action.ChangesView.CreatePatch.description:
@@ -2259,7 +2259,7 @@ action.WelcomeScreen.ImportProject.description:
 action.WelcomeScreen.Youtube.text:
   text: Смотрите видео на _YouTube
 action.WelcomeScreen.Plugins.text:
-  text: Плагины
+  text: Расширения
 action.WelcomeScreen.Plugins.description:
   text: управлять установленными плагинами и загружать новые из репозитория
 action.WelcomeScreen.Configure.Import.text:
@@ -2645,7 +2645,7 @@ action.CopyContentRootPath.text:
 action.CopySourceRootPath.text:
   text: Путь из корня источника
 action.CopyFileName.text:
-  text: Имя файла
+  text: Название файла
 group.CopyReferencePopupGroup.text:
   text: Копировать путь…
 group.RevealGroup.text:
@@ -2741,21 +2741,21 @@ action.OverrideFileTypeAction.text:
 action.OverrideFileTypeAction.description:
   text: Обрабатывать текущий файл как файл другого типа
 action.OverrideFileTypeAction.verbose.description:
-  text: Обрабатывать файл ''{0}''{1,choice,0#|1# (и еще {1} файлов)} как файл другого типа файла
+  text: Обрабатывать файл «{0}»{1,choice,0#|1# (и еще {1} файлов)} как файл другого типа файла
 action.ReverteOverrideFileTypeAction.text:
   text: Отменить переопределение типа файла
 action.ReverteOverrideFileTypeAction.description:
   text: Отменить действие "Переопределить тип файла" и восстановить старый тип файла
 action.ReverteOverrideFileTypeAction.verbose.description:
-  text: Отменить действие "Переопределить тип файла" и восстановить старый тип файла для файла ''{0}''{1,choice,0#|1# (и еще {1} файлов)}
+  text: Отменить действие "Переопределить тип файла" и восстановить старый тип файла для файла «{0}»{1,choice,0#|1# (и еще {1} файлов)}
 group.OverrideFileTypeAction.title:
   text: Выбрать тип файла
 group.OverrideFileTypeAction.bundledPlugin:
   text: bundled
 group.OverrideFileTypeAction.fromNamedPlugin:
-  text: from ''{0}'' дополнение
+  text: из расширения «{0}»
 action.ChangeToThisFileTypeAction.description:
-  text: Переопределить тип файла на ''{0}'
+  text: Переопределить тип файла на «{0}»
 action.AnalyzeStacktrace.text:
   text: _Stack Trace или Thread Dump…
 action.RunDashboard.AddType.text:

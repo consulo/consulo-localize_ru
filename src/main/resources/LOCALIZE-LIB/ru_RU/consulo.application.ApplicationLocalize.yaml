@@ -1,7 +1,7 @@
 error.invalid.installation.home:
-  text: Невозможно импортировать настройки. ''{0}'' не является допустимой домашней папкой установки {1}.
+  text: Невозможно импортировать настройки. «{0}» не является допустимой домашней папкой установки {1}.
 error.invalid.config.folder:
-  text: Невозможно импортировать настройки. ''{0}'' не является допустимой папкой конфигурации {1}.
+  text: Невозможно импортировать настройки. «{0}» не является допустимой папкой конфигурации {1}.
 error.no.settings.path:
   text: Невозможно импортировать настройки. {0} не существует.
 title.settings.import.failed:
@@ -181,7 +181,7 @@ checkbox.parentheses.around.method.arguments:
 checkbox.rename.local.variables.inplace:
   text: Включить режим на месте
 checkbox.rename.local.variables.preselect:
-  text: Предварительно выбрать старое имя
+  text: Предварительно выбрать старое название
 editbox.keep.blank.lines:
   text: "Оставить пустые строки:"
 checkbox.keep.white.spaces:
@@ -349,7 +349,7 @@ wrapping.if.statement:
 wrapping.while.statement:
   text: '''while()'' выражение'
 wrapping.dowhile.statement:
-  text: '''do ... while()'' выражение'
+  text: '''do … while()'' выражение'
 wrapping.switch.statement:
   text: '''switch'' выражение'
 wrapping.try.statement:
@@ -465,11 +465,11 @@ combobox.force.braces.for:
 combobox.force.braces.while:
   text: 'while ():'
 combobox.force.braces.do.while:
-  text: 'do ... while():'
+  text: 'do … while():'
 label.loading.page.please.wait:
-  text: Загрузка...
+  text: Загрузка…
 button.save.as:
-  text: Сохранить как...
+  text: Сохранить как…
 button.delete:
   text: Удалить
 editbox.scheme.name:
@@ -681,7 +681,7 @@ checkbox.show.tabs.tooltips:
 group.code.folding:
   text: Сворачивание кода
 checkbox.collapse.xml.tags:
-  text: XML теги
+  text: XML-теги
 checkbox.collapse.html.style.attribute:
   text: HTML-атрибут «style»
 checkbox.collapse.anonymous.classes:
@@ -699,7 +699,7 @@ checkbox.collapse.inner.classes:
 checkbox.collapse.simple.property.accessors:
   text: <html>Простые методы доступа к свойствам<html>
 checkbox.collapse.method.bodies:
-  text: Метод bodys
+  text: Тела методов
 checkbox.collapse.javadoc.comments:
   text: Комментарии к документации
 checkbox.collapse.title.imports:
@@ -791,9 +791,9 @@ checkbox.enable.ctrl.mousewheel.changes.font.size:
 checkbox.enable.ctrl.mousewheel.changes.font.size.macos:
   text: Изменить размер шрифта (масштаб) с помощью Command+колесико мыши
 checkbox.enable.drag.n.drop.functionity.in.editor:
-  text: Включить функцию Drag'n'Drop в редакторе
+  text: Включить функцию перетаскивания мышью в редакторе
 checkbox.honor.camelhumps.words.settings.on.double.click:
-  text: Honor Настройки слов "CamelHumps" при выборе по двойному щелчку
+  text: Учитывать настройки «CamelHumps» при выделении двойным щелчком
 combobox.smart.backspace:
   text: Убрать отступ
 combobox.smart.backspace.off:
@@ -805,7 +805,7 @@ combobox.smart.backspace.smart:
 group.smart.keys:
   text: Умные клавиши
 checkbox.use.camelhumps.words:
-  text: Использовать слова "CamelHumps"
+  text: Определять слова по смене регистра в идентификаторе (CamelHumps)
 checkbox.surround.selection.on.typing.quote.or.brace:
   text: Окружить выделение при вводе кавычки или фигурной скобки
 checkbox.insert.pair.quote:
@@ -837,7 +837,7 @@ editbox.error.stripe.mark.min.height.pixels:
 checkbox.suppress.with.suppresswarnings:
   text: Подавить с помощью @SuppressWarnings (только для Java 5.0)
 checkbox.next.error.action.goes.to.errors.first:
-  text: Действие '''Следующая ошибка'' переходит только к проблемам с высоким приоритетом'
+  text: Действие «Следующая ошибка» переходит только к проблемам с высоким приоритетом
 checkbox.show.import.popup:
   text: Показать импорт и всплывающее окно
 checkbox.indent.use.tab.character:
@@ -935,11 +935,11 @@ radio.use.per.project.code.style.scheme:
 radio.use.global.code.style:
   text: Используйте глобальный стиль кода
 button.import:
-  text: Импорт...
+  text: Импорт…
 button.export:
-  text: Экспорт...
+  text: Экспорт…
 button.edit.global.settings:
-  text: Изменить глобальные настройки...
+  text: Изменить глобальные настройки…
 label.edit.per.project.or.global.code.style:
   text: <html><body>Отметьте опцию выше для настройки стиля кода для каждого проекта<br>или используйте глобальный стиль кода. Глобальные параметры стиля кода можно настроить<br>в разделе Настройки IDE/Глобальный стиль кода</body></html>
 title.project.code.style:
@@ -947,21 +947,21 @@ title.project.code.style:
     Стиль
     кода проекта
 label.name:
-  text: 'Имя:'
+  text: 'Название:'
 error.scheme.must.have.a.name:
-  text: Схема должна иметь имя
+  text: Схема должна иметь название
 error.illegal.scheme.name:
-  text: Недопустимое имя схемы
+  text: Недопустимое название схемы
 error.a.scheme.with.this.name.already.exists.or.was.deleted.without.applying.the.changes:
-  text: Схема с таким именем уже существует или была удалена без применения изменений
+  text: Схема с таким названием уже существует или была удалена без применения изменений
 title.select.font:
   text: Выбрать шрифт
 checkbox.show.only.monospaced.fonts:
-  text: Показывать только моноширинные шрифты
+  text: Показать только моноширинные шрифты
 editbox.enter.tag.name:
-  text: 'Введите имя тега:'
+  text: 'Введите название тега:'
 title.tag.name:
-  text: Имя тега
+  text: Название тега
 title.xml:
   text: XML
 title.html:
@@ -979,19 +979,19 @@ checkbox.color.foreground:
 checkbox.color.effects:
   text: Эффекты
 checkbox.color.error.stripe.mark:
-  text: Ошибка Полоса Метка
+  text: Подчёркнутый как ошибка
 combobox.effect.bordered:
   text: Границы
 combobox.effect.underscored:
   text: Подчеркнутый
 combobox.effect.boldunderscored:
-  text: Жирный Подчеркнутый
+  text: Жирный и подчеркнутый
 combobox.effect.underwaved:
-  text: Подчеркнутый
+  text: Подчеркнутый волной
 combobox.effect.strikeout:
   text: Зачеркнутый
 combobox.effect.bold.dottedline:
-  text: Пунктир Строка
+  text: Пунктирное подчёркивание
 checkbox.font.bold:
   text: Жирный
 checkbox.font.italic:
@@ -1011,13 +1011,13 @@ title.colors.and.fonts:
 progress.analysing.font:
   text: 'Анализ шрифта: {0}'
 button.edit.scopes:
-  text: Редактировать области действия...
+  text: Редактировать области действия…
 group.editor.font:
   text: Шрифт редактора
 title.font.available:
   text: 'Доступные шрифты:'
 title.font.selected:
-  text: 'Выбрано fonts:'
+  text: 'Выбранные шрифты:'
 label.fallback.fonts.list.description:
   text: IDE пытается использовать следующий шрифт из списка «Выбранные шрифты» для отображения символа, если текущий шрифт не может этого сделать
 quickdoc.tooltip.font.size.by.wheel:
@@ -1041,9 +1041,9 @@ combobox.scheme.name:
 progress.analyzing.fonts:
   text: Анализ шрифтов
 error.readonly.scheme.cannot.be.modified:
-  text: Схему только для чтения изменить нельзя. Сначала выполните «Сохранить как...».
+  text: Схему только для чтения изменить нельзя. Сначала выполните «Сохранить как…».
 error.shared.scheme.cannot.be.modified:
-  text: Общая схема не может быть изменена. Сначала выполните «Сохранить как...».
+  text: Общая схема не может быть изменена. Сначала выполните «Сохранить как…».
 title.cannot.modify.readonly.scheme:
   text: Невозможно изменить схему только для чтения
 title.save.color.scheme.as:
@@ -1053,17 +1053,17 @@ title.path.variables:
 editbox.path.macro.value:
   text: 'Значение:'
 editbox.path.macro.name:
-  text: 'Имя:'
+  text: 'Название:'
 button.edit:
   text: '&Изменить'
 button.edit.dialog:
-  text: '&Изменить...'
+  text: '&Изменить…'
 button.add:
-  text: '&Добавить...'
+  text: '&Добавить…'
 error.variable.already.exists:
-  text: Переменная с именем {0} уже существует
+  text: Переменная с названием {0} уже существует
 column.name:
-  text: Имя
+  text: Название
 column.value:
   text: Значение
 title.add.variable:
@@ -1071,7 +1071,7 @@ title.add.variable:
 title.edit.variable:
   text: Изменить Переменная
 error.path.variable.is.undefined:
-  text: Переменная пути "{0}" не определена
+  text: Переменная пути «{0}» не определена
 text.no.path.variables:
   text: Нет переменных пути
 config.import.invalid.directory.error:
@@ -1089,7 +1089,7 @@ exit.confirm.prompt.tasks:
 exclude.from.completion.group:
   text: Исключить из импорта и завершения
 exclude.from.completion.prompt:
-  text: "Введите имя пакета или класса для исключения из автоимпорта и завершения имени класса:"
+  text: "Введите название пакета или класса для исключения из автоимпорта и завершения имени класса:"
 exclude.from.completion.title:
   text: Исключить пакет
 exclude.from.imports.add:
@@ -1103,11 +1103,11 @@ don.t.break.if.inline.content:
 edit.code.folding.options:
   text: Открыть параметры сворачивания кода
 button.new:
-  text: "&Новый..."
+  text: "&Новый…"
 building.include.indices:
-  text: Создание индексов включения...
+  text: Создание индексов включения…
 loading.include.indices:
-  text: Загрузка включения индексы...
+  text: Загрузка включения индексы…
 use.external.annotations:
   text: Использовать &внешние аннотации
 insert.override.annotation:
@@ -1121,23 +1121,23 @@ checkbox.collapse.end.of.line.comments:
 title.other.languages:
   text: Другие языки
 launcher.script.overwrite:
-  text: Файл ''{0}'' уже существует. Хотите перезаписать его?
+  text: Файл «{0}» уже существует. Хотите перезаписать его?
 launcher.script.sudo.prompt:
-  text: Введите пароль, чтобы создать скрипт запуска в ''{0}''
+  text: Введите пароль, чтобы создать скрипт запуска в «{0}»
 desktop.entry.success:
   text: Теперь вы можете выйти из {0} и запустить его из системного меню<br/> (перезапустите сеанс, если новая запись не появляется).
 desktop.entry.xdg.missing:
   text: К сожалению, xdg-utils, похоже, недоступен в вашей системе.
 desktop.entry.icon.missing:
-  text: Не удалось найти подходящий значок приложения в ''{0}''.
+  text: Не удалось найти подходящий значок приложения в «{0}».
 desktop.entry.script.missing:
-  text: Не удалось найти подходящий скрипт запуска в ''{0}''.
+  text: Не удалось найти подходящий скрипт запуска в «{0}».
 desktop.entry.checking:
-  text: Проверка...
+  text: Проверка…
 desktop.entry.preparing:
-  text: Подготовка записи...
+  text: Подготовка записи…
 desktop.entry.installing:
-  text: Установка записи...
+  text: Установка записи…
 desktop.entry.sudo.prompt:
   text: Введите пароль для создания записи рабочего стола
 title.tabs.and.indents:
@@ -1165,7 +1165,7 @@ arrangement.text.type:
 arrangement.text.modifier:
   text: Модификатор
 arrangement.text.name:
-  text: Имя
+  text: Название
 arrangement.order.name:
   text: Порядок
 arrangement.action.rule.add.text:
@@ -1203,7 +1203,7 @@ arrangement.settings.groups.getters.and.setters.together:
 arrangement.settings.order.type.keep:
   text: Сохранять порядок
 arrangement.settings.order.type.by.name:
-  text: Сортировать по имя
+  text: Сортировать по названию
 arrangement.settings.order.type.depth.first:
   text: порядок в глубину
 arrangement.settings.order.type.breadth.first:
@@ -1213,7 +1213,7 @@ arrangement.settings.text.general.type:
 arrangement.settings.text.general.modifier:
   text: 'Модификатор:'
 arrangement.settings.text.general.name:
-  text: 'Имя:'
+  text: 'Название:'
 arrangement.settings.text.general.text:
   text: 'Текст:'
 arrangement.settings.text.general.order:
@@ -1267,9 +1267,9 @@ reformat.changed.text.file.too.big.notification.title:
 reformat.changed.text.file.too.big.notification.text:
   text: Файл {0} слишком большой или в нем слишком много изменений
 bulk.reformat.prepare.progress.text:
-  text: Подготовка...
+  text: Подготовка…
 bulk.reformat.process.progress.text:
-  text: Обработка...
+  text: Обработка…
 wrapping.wrap.on.typing:
   text: Перенос по typing
 wrapping.wrap.on.typing.no.wrap:
@@ -1319,9 +1319,9 @@ fs.case.sensitivity.mismatch.message:
 integer.field.value.expected:
   text: Ожидается значение
 integer.field.value.out.of.range:
-  text: Значение ''{0}'' находится вне диапазона {1}..{2}
+  text: Значение «{0}» находится вне диапазона {1}..{2}
 integer.field.value.not.a.number:
-  text: Значение ''{0}'' не является целым числом
+  text: Значение «{0}» не является целым числом
 integer.field.value.default:
   text: По умолчанию
 settings.soft.margins.empty.list:

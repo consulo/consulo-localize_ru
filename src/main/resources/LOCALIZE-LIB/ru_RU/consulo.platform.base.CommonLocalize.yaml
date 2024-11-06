@@ -43,11 +43,11 @@ tooltip.http.proxy.pac:
 editbox.port.number:
   text: "Порт и номер:"
 editbox.host.name:
-  text: "&Имя хоста:"
+  text: "&Название хоста:"
 title.http.proxy.settings:
   text: Настройки HTTP-прокси
 tree.node.loading:
-  text: Загрузка...
+  text: Загрузка…
 title.error:
   text: Ошибка
 title.warning:
@@ -73,7 +73,7 @@ button.reset.to.default:
 button.delete:
   text: Удалить
 button.copy:
-  text: Копировать...
+  text: Копировать…
 button.close:
   text: "&Закрыть"
 exception.directory.can.not.create:
@@ -101,9 +101,9 @@ title.settings:
 title.settings.mac:
   text: Настройки
 action.settings:
-  text: Настройки...
+  text: Настройки…
 action.settings.mac:
-  text: Предпочтения...
+  text: Предпочтения…
 action.settings.description:
   text: Изменить настройки приложения
 action.settings.description.mac:
@@ -281,9 +281,9 @@ button.load.file:
 date.frequency:
   text: Один раз {0}
 name.label.text:
-  text: "&Имя:"
+  text: "&Название:"
 smth.already.exist.error.message:
-  text: "{0} с именем '{1}' уже существует."
+  text: "{0} с названием '{1}' уже существует."
 comparison.policy.default.name:
   text: По умолчанию
 comparison.policy.trim.space.name:
@@ -322,7 +322,7 @@ socks.proxy.type:
 autodetected.proxies.clear.button:
   text: Очистить пароли
 label.old.way.jvm.property.used:
-  text: '<html>Для свойства JVM "{0}" установлено значение "{1}".<br>Это может привести к неправильному поведению. Прокси должен быть установлен в Настройках | HTTP-прокси.<br>Это свойство JVM устарело, и Oracle не рекомендует его использование.<br>(Примечание: оно могло быть динамически назначено каким-то кодом.)'
+  text: '<html>Для свойства JVM «{0}» установлено значение «{1}».<br>Это может привести к неправильному поведению. Прокси должен быть установлен в Настройках | HTTP-прокси.<br>Это свойство JVM устарело, и Oracle не рекомендует его использование.<br>(Примечание: оно могло быть динамически назначено каким-то кодом.)'
 label.proxy.exceptions.text:
   text: "Пример: *.domain.com, 192.168.*"
 checkbox.automatic.proxy.configuration.url:

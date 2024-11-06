@@ -67,27 +67,27 @@ checkbox.synchronize.files.on.frame.activation:
 checkbox.reopen.last.project.on.startup:
   text: Переоткрыть последний проект при запуске
 treenode.loading:
-  text: загрузка...
+  text: загрузка…
 action.clear.list:
   text: _Очистить список
 action.descriptor.action:
   text: 'Действие: {0}'
 action.descriptor.typing:
-  text: 'Ввод: "{0}"'
+  text: 'Ввод: «{0}»'
 action.descriptor.keystroke:
-  text: 'Нажатие клавиши: "{0}"'
+  text: 'Нажатие клавиши: «{0}»'
 title.edit.macros:
   text: Редактировать макросы
 macro.noname:
   text: <без имени>
 message.macro.exists:
-  text: Макрос с именем ''{0}'' уже существует. Перезаписать его?
+  text: Макрос с названием «{0}» уже существует. Перезаписать его?
 title.macro.name.already.used:
-  text: Имя макроса уже используется
+  text: Название макроса уже используется
 title.macros:
   text: Макросы
 prompt.enter.new.name:
-  text: Введите новое имя
+  text: Введите новое название
 title.rename.macro:
   text: Переименовать макрос
 button.delete:
@@ -101,9 +101,9 @@ action.stop.macro.recording:
 action.start.macro.recording:
   text: Начать запись _макроса
 prompt.enter.macro.name:
-  text: Введите имя макроса. Оставьте пустым, если макрос временный.
+  text: Введите название макроса. Оставьте пустым, если макрос временный.
 title.enter.macro.name:
-  text: Введите имя макроса
+  text: Введите название макроса
 select.in.aspects:
   text: Аспекты
 action.flatten.packages:
@@ -139,7 +139,7 @@ action.bookmark.delete:
 action.bookmark.edit.description:
   text: Изменить описание
 action.bookmark.edit.description.description:
-  text: Назначьте краткое описание для закладки, которая будет отображаться вместе с именем файла
+  text: Назначьте краткое описание для закладки, которая будет отображаться вместе с названием файла
 action.bookmark.edit.description.dialog.message:
   text: Введите краткое описание закладки
 action.bookmark.edit.description.dialog.title:
@@ -187,11 +187,11 @@ action.add.all.open.tabs.to.new.favorites.list:
 action.add.to.new.favorites.list:
   text: Добавить в _новые избранные Список
 prompt.input.new.favorites.list.name:
-  text: Введите имя нового списка избранного
+  text: Введите название нового списка избранного
 title.add.new.favorites.list:
   text: Добавить новый список избранного
 error.favorites.list.already.exists:
-  text: Список избранного с именем ''{0}'' уже существует
+  text: Список избранного с названием «{0}» уже существует
 title.unable.to.add.favorites.list:
   text: Невозможно добавить список избранного
 favorites.list.unnamed:
@@ -215,9 +215,9 @@ action.show.members:
 action.show.hide.members:
   text: Показать/скрыть участников
 action.delete.favorites.list:
-  text: Удалить список избранного ''{0}''
+  text: Удалить список избранного «{0}»
 action.delete.all.favorites.lists.but.this:
-  text: Удалить все пользовательские списки, кроме ''{0}''
+  text: Удалить все пользовательские списки, кроме «{0}»
 select.in.favorites:
   text: Избранное
 action.send.to.new.favorites.list:
@@ -227,39 +227,39 @@ action.rename.favorites.list:
 title.rename.favorites.list:
   text: Переименовать
 prompt.input.favorites.list.new.name:
-  text: "Переименовать список избранного ''{0}'' в:"
+  text: "Переименовать список избранного «{0}» в:"
 command.create.class.from.template:
   text: Создать класс из шаблона
 command.create.file.from.template:
   text: Создать файл из шаблона
 action.create.new.class.name.field:
-  text: Имя
+  text: Название
 error.parsing.file.template:
   text: 'Ошибка анализа шаблона файла: {0}'
 title.velocity.error:
   text: Скорость Ошибка
 action.from.file.template:
-  text: Из шаблона файла ...
+  text: Из шаблона файла …
 action.edit.file.templates:
-  text: Изменить шаблоны файлов...
+  text: Изменить шаблоны файлов…
 error.unable.to.parse.template.message:
   text: |-
-    Невозможно проанализировать шаблон "{0}"
+    Невозможно проанализировать шаблон «{0}»
     Сообщение об ошибке: {1}
 error.invalid.template.file.name.or.extension:
-  text: Недопустимое имя или расширение файла шаблона
+  text: Недопустимое название или расширение файла шаблона
 title.cannot.create.file:
   text: Невозможно создать файл
 title.new.from.template:
   text: Новый {0}
 error.please.enter.a.file.name:
-  text: Введите имя файла
+  text: Введите название файла
 label.file.name:
-  text: "Имя файла:"
+  text: "Название файла:"
 title.select.template:
   text: Выберите шаблон
 label.name:
-  text: "Имя:"
+  text: "Название:"
 label.extension:
   text: "Расширение:"
 title.file.templates:
@@ -283,9 +283,9 @@ tab.filetemplates.code:
 tab.filetemplates.j2ee:
   text: Другое
 error.please.specify.template.name:
-  text: Укажите имя шаблона
+  text: Укажите название шаблона
 error.template.with.such.name.already.exists:
-  text: Шаблон с таким именем уже существует. Укажите другое имя шаблона
+  text: Шаблон с таким названием уже существует. Укажите другое название шаблона
 title.cannot.save.current.template:
   text: Невозможно сохранить текущий шаблон
 error.please.specify.template.extension:
@@ -307,7 +307,7 @@ prompt.reset.to.original.template:
 title.reset.template:
   text: Сброс шаблона
 error.unable.to.save.file.template.using.encoding:
-  text: Не удалось сохранить шаблон файла "{0}" с помощью {1}
+  text: Не удалось сохранить шаблон файла «{0}» с помощью {1}
 template.default.class.comment:
   text: |
     /*
@@ -421,7 +421,7 @@ filetype.description.xml:
 filetype.description.ant:
   text: ANT buildfiles
 error.name.cannot.be.empty:
-  text: Имя не может быть пустым
+  text: Название не может быть пустым
 editbox.customfiletype.line.comment:
   text: 'Комментарий строки:'
 editbox.customfiletype.block.comment.start:
@@ -435,9 +435,9 @@ editbox.customfiletype.number.postfixes:
 listbox.customfiletype.keywords:
   text: Ключевые слова
 button.add:
-  text: '&Добавить...'
+  text: '&Добавить…'
 editbox.customfiletype.name:
-  text: 'Имя:'
+  text: 'Название:'
 editbox.customfiletype.description:
   text: 'Описание:'
 group.customfiletype.syntax.highlighting:
@@ -505,9 +505,9 @@ title.cannot.convert.project:
 dialog.title.convert.project:
   text: Преобразовать проект
 conversion.dialog.text.1:
-  text: Проект ''{0}'' имеет старый формат и будет преобразован. Вы не сможете открыть проект с помощью более ранних версий {1}.
+  text: Проект «{0}» имеет старый формат и будет преобразован. Вы не сможете открыть проект с помощью более ранних версий {1}.
 conversion.dialog.text.2:
-  text: '<b> </b><a href="details">Подробности...</a><br/><br/>Старые версии файлов проекта будут сохранены в: ''''{0}'''''
+  text: '<b> </b><a href="details">Подробности…</a><br/><br/>Старые версии файлов проекта будут сохранены в: «{0}»'
 message.text.unlock.read.only.files:
   text: <html><body>Следующие файлы доступны только для чтения. {0} разблокирует их.<br>{1}</body></html>
 error.message.cannot.make.files.writable:
@@ -679,19 +679,19 @@ action.copy.path:
 action.copy.paths:
   text: Копировать пути
 message.reference.to.fqn.has.been.copied:
-  text: Ссылка на ''{0}'' скопирована.
+  text: Ссылка на «{0}» скопирована.
 command.pasting.reference:
   text: Вставка ссылки
 action.create.annotation.type:
   text: Создать @interface
 prompt.enter.annotation.type.name:
-  text: 'Введите новое имя @interface:'
+  text: 'Введите новое название @interface:'
 title.new.annotation.type:
   text: Новый @interface
 title.cannot.create.annotation.type:
   text: Невозможно создать @interface
 prompt.enter.new.class.name:
-  text: 'Введите новое имя класса:'
+  text: 'Введите новое название класса:'
 title.new.class:
   text: Новый класс
 command.close.active.editor:
@@ -711,7 +711,7 @@ action.package:
 action.directory:
   text: Каталог
 error.name.should.be.specified:
-  text: Имя должно быть указано
+  text: Название должно быть указано
 progress.creating.directory:
   text: Создание каталога {0}{1}{2}
 progress.creating.package:
@@ -733,7 +733,7 @@ action.create.new.file:
 action.create.new.file.description:
   text: Создать новый файл
 prompt.enter.new.file.name:
-  text: 'Введите новый файл имя:'
+  text: 'Введите новое название файла:'
 title.new.file:
   text: Новый файл
 progress.creating.file:
@@ -743,7 +743,7 @@ command.create.file:
 action.create.new.interface:
   text: Создать новый интерфейс
 prompt.enter.new.interface.name:
-  text: "Введите новое имя интерфейса:"
+  text: "Введите новое название интерфейса:"
 title.new.interface:
   text: Новый интерфейс
 title.cannot.create.interface:
@@ -753,7 +753,7 @@ progress.creating.interface:
 command.create.interface:
   text: Создать интерфейс
 action.delete.ellipsis:
-  text: _Удалить...
+  text: _Удалить…
 action.delete:
   text: _Удалить
 title.select.components.to.export:
@@ -761,7 +761,7 @@ title.select.components.to.export:
 prompt.please.check.all.components.to.export:
   text: 'Проверьте настройки для экспорта:'
 prompt.overwrite.settings.file:
-  text: Перезаписать ''{0}''?
+  text: Перезаписать «{0}»?
 title.file.already.exists:
   text: Файл уже существует
 message.settings.exported.successfully:
@@ -861,7 +861,7 @@ action.pin.active.tab:
 command.go.to.prev.split:
   text: Перейти к предыдущему разделению
 prompt.reload.file.from.disk:
-  text: Перезагрузить "{0}" с диска и потерять все изменения?
+  text: Перезагрузить «{0}» с диска и потерять все изменения?
 title.reload.file:
   text: Перезагрузить файл
 command.reload.from.disk:
@@ -885,7 +885,7 @@ action.split.horizontally:
 action.sync.completed.successfully:
   text: '{0} успешно завершено.'
 action.synchronize.file:
-  text: Синхронизировать ''{0}''
+  text: Синхронизировать «{0}»
 action.synchronize.selected.files:
   text: Синхронизировать выбранные файлы
 action.toolwindow.commander:
@@ -923,15 +923,15 @@ macro.column.number:
 exception.missing.data:
   text: 'Нет данных: {0}'
 macro.class.name:
-  text: Имя класса
+  text: Название класса
 macro.file.directory:
   text: Каталог файлов
 macro.file.directory.from.parent:
-  text: Путь к $FileDir$ из родительского каталога с именем, переданным в качестве параметра
+  text: Путь к $FileDir$ из родительского каталога с названием, переданным в качестве параметра
 macro.file.directory.name:
-  text: Имя каталога файлов
+  text: Название каталога файлов
 macro.file.parent.directory:
-  text: Родительский каталог файла. Принимает необязательный параметр (имя) для поиска родительского каталога
+  text: Родительский каталог файла. Принимает необязательный параметр (название) для поиска родительского каталога
 macro.file.dir.relative.to.root:
   text: Каталог файла относительно корня содержимого модуля, к которому принадлежит файл
 macro.file.dir.relative.to.root.fwd.slash:
@@ -945,11 +945,11 @@ macro.file.extension:
 macro.file.fully.qualified.package:
   text: Полностью определенный пакет файла
 macro.file.name:
-  text: Имя файла
+  text: Название файла
 macro.file.name.without.extension:
-  text: Имя файла без расширения
+  text: Название файла без расширения
 macro.file.name.without.all.extensions:
-  text: Имя файла без всех расширений
+  text: Название файла без всех расширений
 macro.file.package:
   text: Пакет файлов
 macro.file.path:
@@ -985,7 +985,7 @@ label.macro.preview:
 macro.module.file.directory:
   text: Каталог модуля
 macro.module.profile.name:
-  text: Имя текущего профиля модуля
+  text: Название текущего профиля модуля
 macro.module.file.path:
   text: Путь к модулю file
 macro.module.production.output.dir.path:
@@ -993,7 +993,7 @@ macro.module.production.output.dir.path:
 macro.module.test.output.dir.path:
   text: Путь к выходному каталогу тестирования модуля
 macro.module.file.name:
-  text: Имя файла модуля без расширения
+  text: Название файла модуля без расширения
 macro.module.source.path:
   text: Исходный путь модуля
 macro.output.path:
@@ -1003,7 +1003,7 @@ macro.project.file.directory:
 macro.project.file.path:
   text: Путь к файлу проекта
 macro.project.file.name:
-  text: Имя файла проекта без расширения
+  text: Название файла проекта без расширения
 macro.project.source.path:
   text: Исходный путь проекта
 macro.prompt:
@@ -1022,31 +1022,31 @@ macro.project.sourcepath:
   text: Исходный путь проекта
 error.plugins.should.not.have.cyclic.dependencies:
   text: |-
-    Плагины не должны иметь циклических зависимостей:
+    Расширения не должны иметь циклических зависимостей:
     {0}
 error.plugin.was.not.installed:
-  text: 'Плагин {0} не установлен: {1}'
+  text: 'Расширение {0} не установлено: {1}'
 title.failed.to.download:
   text: Не удалось загрузить
 error.plugins.were.not.loaded:
   text: |-
-    Ошибка загрузки плагинов:
+    Ошибка загрузки расширений:
     {0}
-    Дополнения не были загружены.
-    Исправьте указанную выше ошибку и перезапустите IDEA.
+    Расширения не были загружены.
+    Исправьте указанную выше ошибку и перезапустите Consulo.
 title.plugin.notification.title:
-  text: Менеджер плагинов
+  text: Менеджер расширений
 message.duplicate.plugin.id:
-  text: 'Повторный идентификатор плагина:'
+  text: 'Повторный идентификатор расширения:'
 error.required.plugin.not.installed:
-  text: 'Плагин "{0}" не загружен: требуемый плагин "{1}" не установлен.'
+  text: 'Расширение «{0}» не загружено: не установлено нужное расширение «{1}».'
 error.required.plugin.disabled:
-  text: 'Плагин "{0}" не загружен: требуемый плагин "{1}" отключен.'
+  text: 'Расширение «{0}» не загружено: отключено требуемое расширение «{1}».'
 error.plugins.without.id.found:
-  text: Были найдены плагины без идентификатора, все такие плагины были пропущены.
+  text: Были найдены расширения без идентификаторов, все такие расширения были пропущены.
 error.problems.found.loading.plugins:
   text: |
-    Обнаружены проблемы с загрузкой плагинов:
+    Обнаружены проблемы с загрузкой расширений:
 column.plugins.name:
   text: Название
 column.plugins.date:
@@ -1064,47 +1064,47 @@ plugin.info.not.available:
 plugin.info.unknown:
   text: неизвестно
 message.idea.shutdown.required:
-  text: Выключить {0}, чтобы активировать изменения в плагинах?
+  text: Выключить {0}, чтобы активировать изменения в расширениях?
 message.idea.restart.required:
-  text: Перезапустить {0}, чтобы активировать изменения в плагинах?
+  text: Перезапустить {0}, чтобы активировать изменения в расширениях?
 title.plugins:
-  text: Платформа и плагины
+  text: Платформа и расширения
 title.plugins.changed:
-  text: Плагины изменены
+  text: Расширения изменены
 title.web.services:
   text: Веб-сервисы
 plugin.status.not.specified:
   text: (не указано)
 error.list.of.plugins.was.not.loaded:
-  text: "Список плагинов не загружен: {0}"
+  text: "Список расширений не загружен: {0}"
 action.download.and.install.plugin:
   text: Загрузка и установка
 action.update.plugin:
-  text: Обновление плагина
+  text: Обновление расширения
 error.plugin.download.failed:
-  text: Загрузка плагина не удалась
+  text: Загрузка расширения не удалась
 prompt.download.and.install.plugin:
-  text: Хотите загрузить и установить плагин ''{0}''?
+  text: Хотите загрузить и установить расширение «{0}»?
 prompt.update.plugin:
-  text: Хотите обновить плагин ''{0}''?
+  text: Хотите обновить расширение «{0}»?
 prompt.install.several.plugins:
-  text: Установить или обновить {0} плагинов?
+  text: Установить или обновить {0} расширений?
 action.uninstall.plugin:
   text: Удалить
 prompt.uninstall.plugin:
-  text: Вы действительно хотите удалить плагин ''{0}''?
+  text: Вы действительно хотите удалить расширение «{0}»?
 prompt.uninstall.several.plugins:
-  text: Вы действительно хотите удалить эти {0} плагинов?
+  text: Вы действительно хотите удалить эти {0} расширений?
 title.plugin.uninstall:
-  text: Удаление плагина
+  text: Удаление расширения
 progress.downloading.list.of.plugins:
-  text: Загрузка списка плагинов
+  text: Загрузка списка расширений
 progress.download.plugins:
-  text: Загрузка...
+  text: Загрузка…
 progress.installing.plugins:
-  text: Установка плагинов...
+  text: Установка расширений…
 button.http.proxy.settings:
-  text: '&Настройки прокси-сервера HTTP...'
+  text: '&Настройки прокси-сервера HTTP…'
 ide.restart.action:
   text: Перезапустить
 ide.shutdown.action:
@@ -1118,15 +1118,15 @@ plugin.status.installed:
 progress.waiting.for.reply.from.plugin.manager:
   text: Ожидание ответа от {0}
 progress.connecting:
-  text: Подключение...
+  text: Подключение…
 progress.downloading.plugin:
-  text: Загрузка плагина ''{0}''
+  text: Загрузка расширения «{0}»
 progress.downloading.platform:
   text: Загрузка платформы
 progress.extracting.platform:
   text: Извлечение платформы
 error.cannot.create.temp.dir:
-  text: Не удалось создать временный каталог ''{0}''
+  text: Не удалось создать временный каталог «{0}»
 error.connection.failed.with.http.code.N:
   text: Не удалось установить соединение с кодом HTTP {0}
 error.connection.failed.redirects:
@@ -1136,7 +1136,7 @@ progress.connecting.to.plugin.manager:
 label.plugin.vendor.email:
   text: 'Эл. почта:'
 label.plugin.vendor.name:
-  text: 'Имя:'
+  text: 'Название:'
 label.plugin.vendor.home.page:
   text: 'Домашняя страница:'
 editbox.plugin.description:
@@ -1144,7 +1144,7 @@ editbox.plugin.description:
 editbox.plugin.change.notes:
   text: Изменить заметки
 label.plugin.home.page:
-  text: Домашняя страница плагина
+  text: Домашняя страница расширения
 action.move.module.to.this.group:
   text: В эту группу
 action.move.module.outside.any.group:
@@ -1152,24 +1152,24 @@ action.move.module.outside.any.group:
 message.move.modules.to.group:
   text: Переместить {0} в группу {1}
 message.module:
-  text: модуль ''{0}''
+  text: модуль «{0}»
 message.modules:
   text: модули
 action.move.module.new.top.level.group:
-  text: Новая группа верхнего уровня...
+  text: Новая группа верхнего уровня…
 action.move.module.to.new.sub.group:
-  text: В новую подгруппу...
+  text: В новую подгруппу…
 action.description.create.new.module.group:
   text: Создать новую группу модулей
 prompt.specify.name.of.module.subgroup:
   text: |+
-    Укажите имя подгруппы {0}, под которой будет отображаться {1}.
+    Укажите название подгруппы {0}, под которой будет отображаться {1}.
 
 title.module.sub.group:
   text: Подгруппа модулей
 prompt.specify.module.group.name:
   text: |+
-    Укажите имя группы, под которой будет отображаться {0}.
+    Укажите название группы, под которой будет отображаться {0}.
 
 title.module.group:
   text: Группа модулей
@@ -1196,7 +1196,7 @@ title.popup.views:
 title.project:
   text: Проект
 error.module.already.exists:
-  text: Модуль с именем ''{0}'' уже существует
+  text: Модуль с названием «{0}» уже существует
 title.rename.module:
   text: Переименовать модуль
 title.rename.library:
@@ -1204,9 +1204,9 @@ title.rename.library:
 command.renaming.module:
   text: Переименование модуля {0}
 prompt.enter.new.module.name:
-  text: Введите новое имя модуля
+  text: Введите новое название модуля
 prompt.enter.new.library.name:
-  text: Введите новое имя библиотеки
+  text: Введите новое название библиотеки
 tooltip.ui.designer.form:
   text: Форма конструктора пользовательского интерфейса
 node.projectview.libraries:
@@ -1220,11 +1220,11 @@ node.projectview.library:
 node.projectview.jdk:
   text: JDK
 progress.indexing:
-  text: Обновление индексов...
+  text: Обновление индексов…
 progress.indexing.scanning:
-  text: Сканирование файлов для индексации...
+  text: Сканирование файлов для индексации…
 progress.indexing.updating:
-  text: Индексирование...
+  text: Индексирование…
 action.structureview.show.fields:
   text: Показать поля
 action.structureview.show.inherited:
@@ -1262,21 +1262,21 @@ action.group.by.packages:
 title.todo.current.file:
   text: Текущий файл
 progress.looking.for.todos:
-  text: Поиск TODO...
+  text: Поиск TODO…
 column.todo.filter.pattern:
   text: Шаблон
 error.filter.name.should.be.specified:
-  text: Имя фильтра должно быть указан
+  text: Название фильтра должно быть указан
 error.filter.with.the.same.name.already.exists:
-  text: Фильтр с таким именем уже существует
+  text: Фильтр с таким названием уже существует
 error.filter.should.contain.at.least.one.pattern:
   text: Фильтр должен содержать хотя бы один шаблон
 label.todo.filter.name:
-  text: 'Имя:'
+  text: 'Название:'
 group.todo.filter.patterns:
   text: Шаблоны
 column.todo.filters.name:
-  text: Имя
+  text: Название
 column.todo.filter.patterns:
   text: Шаблоны
 checkbox.case.sensitive:
@@ -1302,15 +1302,15 @@ title.todo:
 title.add.todo.pattern:
   text: Добавить шаблон
 button.edit:
-  text: '&Изменить...'
+  text: '&Изменить…'
 label.todo.filters:
   text: Фильтры
 button.add.d:
-  text: Добавить...
+  text: Добавить…
 title.add.todo.filter:
   text: Добавить фильтр
 button.edit.t:
-  text: Изменить...
+  text: Изменить…
 button.remove.m:
   text: Удалить
 label.todo.patterns:
@@ -1332,7 +1332,7 @@ node.todo.items:
 title.appearance:
   text: Внешний вид
 node.todo.more.items:
-  text: '...ещё...'
+  text: '…ещё…'
 group.window.options:
   text: Параметры окна
 checkbox.show.memory.indicator:
@@ -1368,7 +1368,7 @@ checkbox.override.default.laf.fonts:
 label.override.laf.font:
   text: 'Шрифт:'
 label.font.name:
-  text: 'Имя:'
+  text: 'Название:'
 label.font.size:
   text: 'Размер:'
 combobox.look.and.feel:
@@ -1402,7 +1402,7 @@ error.adding.action.without.icon.to.toolbar:
 title.unable.to.add.action.without.icon.to.toolbar:
   text: Невозможно добавить действие без значка на панель инструментов
 error.please.specify.new.name.for.schema:
-  text: Пожалуйста, укажите новое имя для схемы ''{0}''.
+  text: Укажите новое название для схемы «{0}».
 title.browse.icon:
   text: Значок обзора
 prompt.browse.icon.for.selected.action:
@@ -1416,7 +1416,7 @@ button.set.icon:
 label.icon.path:
   text: '&Путь к значку:'
 button.edit.action.icon:
-  text: Изменить действие &значок...
+  text: Изменить действие &значок…
 button.add.separator:
   text: Добавить &разделитель
 button.move.up.u:
@@ -1424,7 +1424,7 @@ button.move.up.u:
 button.move.down.d:
   text: Переместить &вниз
 button.add.action.after:
-  text: Добавить &после...
+  text: Добавить &после…
 title.custom.actions.schemas:
   text: Меню и панели инструментов настройка
 title.customizations:
@@ -1432,9 +1432,9 @@ title.customizations:
 label.choosebyname.no.matches.found:
   text: Совпадений не найдено
 label.choosebyname.searching:
-  text: Поиск...
+  text: Поиск…
 prompt.gotoclass.enter.class.name:
-  text: "Введите имя класса:"
+  text: "Введите название класса:"
 checkbox.include.non.project.classes:
   text: Включить &непроектные классы
 label.no.matches.found.in.project:
@@ -1442,9 +1442,9 @@ label.no.matches.found.in.project:
 label.no.matches.found:
   text: Совпадений не найдено
 prompt.gotofile.enter.file.name:
-  text: "Введите имя файла:"
+  text: "Введите название файла:"
 prompt.gotoaction.enter.action:
-  text: "Введите имя действия или параметра:"
+  text: "Введите название действия или параметра:"
 checkbox.include.non.project.files:
   text: Включить &непроектные файлы
 checkbox.other.included:
@@ -1458,23 +1458,23 @@ label.no.files.found:
 label.no.actions.found:
   text: Действия не найдены
 prompt.gotosymbol.enter.symbol.name:
-  text: 'Введите имя символа:'
+  text: 'Введите название символа:'
 checkbox.include.non.project.symbols:
   text: Включить &непроектные символы
 promot.projectwizard.directory.does.not.exist:
   text: |-
-    {0}"{1}"
+    {0}«{1}»
     не существует. Он будет создан {2}.
 title.directory.does.not.exist:
   text: Каталог не существует
 error.failed.to.create.directory:
-  text: Не удалось создать каталог "{0}"
+  text: Не удалось создать каталог «{0}»
 label.select.compiler.output.path:
   text: 'Выберите выходной путь компилятора:'
 title.select.compiler.output.path:
   text: Выберите выходной путь компилятора
 label.project.name:
-  text: 'Имя проекта:'
+  text: 'Название проекта:'
 label.component.file.location:
   text: 'Расположение файла {0}:'
 label.project.files.location:
@@ -1484,7 +1484,7 @@ title.select.project.file.directory:
 description.select.project.file.directory:
   text: 'Файл {0} будет сохранен в этом каталоге'
 label.please.enter.project.name:
-  text: Введите имя для создания нового {0} {1}.
+  text: Введите название для создания нового {0} {1}.
 prompt.please.select.project.jdk:
   text: |-
     Выберите проект SDK.
@@ -1501,12 +1501,12 @@ prompt.confirm.project.no.jdk:
 title.no.jdk.specified:
   text: SDK не указан
 prompt.please.specify.module.name:
-  text: Укажите имя модуля
+  text: Укажите название модуля
 prompt.please.specify.module.name.and.content.root:
   text: |-
-    Укажите имя модуля и корневой каталог содержимого модуля.
+    Укажите название модуля и корневой каталог содержимого модуля.
     Корневой каталог содержимого модуля — это каталог, в котором хранятся файлы, принадлежащие модулю. label.module.name:
-  text: '&Имя модуля:'
+  text: '&Название модуля:'
 label.module.content.root:
   text: 'Содержимое модуля &root:'
 title.select.module.content.root:
@@ -1514,11 +1514,11 @@ title.select.module.content.root:
 label.module.file.will.be.saved.in:
   text: 'Файл модуля будет сохранен в:'
 button.change.directory:
-  text: Изменить каталог...
+  text: Изменить каталог…
 title.module.name.not.specified:
-  text: Имя модуля не указано
+  text: Название модуля не указано
 error.module.with.name.already.exists:
-  text: Модуль с именем "{0}" уже существует в проекте
+  text: Модуль с названием «{0}» уже существует в проекте
 title.module.already.exists:
   text: Модуль уже существует
 error.please.specify.module.file.location:
@@ -1527,7 +1527,7 @@ title.module.file.location.not.specified:
   text: Местоположение файла модуля не указано Указано
 error.content.root.already.defined.for.module:
   text: |-
-    Корневой каталог контента "{0}" уже определен для модуля "{1}".
+    Корневой каталог контента «{0}» уже определен для модуля «{1}».
     Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
 title.module.content.root.already.exists:
   text: Корневой каталог контента модуля уже существует
@@ -1554,9 +1554,9 @@ message.module.file.has.an.older.format.do.you.want.to.convert.it:
 dialog.title.convert.module:
   text: Преобразовать модуль
 error.message.cannot.modify.file.0:
-  text: Невозможно изменить файл ''{0}''
+  text: Невозможно изменить файл «{0}»
 message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
-  text: <html><body>Ваш модуль был успешно преобразован. <br>Старая версия была сохранена в ''{0}''</body></html>
+  text: <html><body>Ваш модуль был успешно преобразован. <br>Старая версия была сохранена в «{0}»</body></html>
 label.select.module.type:
   text: 'Тип модуля:'
 error.please.specify.path.to.module.file:
@@ -1569,7 +1569,7 @@ title.module.file.does.not.exist:
   text: 'Файл модуля не существует: {0}'
 error.module.not.iml:
   text: |-
-    "{0}"
+    «{0}»
     не является файлом модуля {1} (.iml)
 title.incorrect.file.type:
   text: Неверный тип файла
@@ -1616,7 +1616,7 @@ prompt.relative.path.to.sources.empty:
   text: |-
     Относительный путь к источникам пуст.
     Хотите отметить корневой каталог содержимого модуля
-    "{0}"
+    «{0}»
     как исходный каталог?
 title.mark.source.directory:
   text: Отметить исходный каталог
@@ -1631,7 +1631,7 @@ progress.searching.for.sources:
 prompt.select.source.directory:
   text: Выберите исходный каталог
 prompt.new.project.file.name:
-  text: Введите имя файла для создания нового {0} {1}
+  text: Введите название файла для создания нового {0} {1}
 prompt.enter.project.file.location:
   text: Введите местоположение файла {0}
 directory.project.file.directory:
@@ -1643,7 +1643,7 @@ prompt.overwrite.project.folder:
     Ее содержимое может быть перезаписано.
     Продолжить?
 warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
-  text: Файл модуля ''{0}'' уже существует.
+  text: Файл модуля «{0}» уже существует.
 warning.text.0.do.you.want.to.overwrite.these.files:
   text: |-
     {0}
@@ -1651,7 +1651,7 @@ warning.text.0.do.you.want.to.overwrite.these.files:
 title.select.jdk:
   text: Выбрать JDK
 button.configure.e:
-  text: Настроить...
+  text: Настроить…
 label.scope.pattern:
   text: '&Pattern:'
 action.add:
@@ -1703,7 +1703,7 @@ scope.open.files:
 prompt.choose.base.class.of.the.hierarchy:
   text: Выберите базовый класс иерархии для поиска
 progress.searching:
-  text: поиск...
+  text: поиск…
 title.tip.of.the.day:
   text: Совет дня
 action.previous.tip:
@@ -1713,7 +1713,7 @@ action.next.tip:
 error.unable.to.read.tip.of.the.day:
   text: <html><body>Не удалось прочитать Совет дня ({0}). Убедитесь, что {1} установлен правильно.</body></html>
 label.did.you.know:
-  text: Знаете ли вы ... ?
+  text: Знаете ли вы … ?
 checkbox.show.tips.on.startup:
   text: Показывать советы при запуске
 error.tips.not.found:
@@ -1767,11 +1767,11 @@ node.default:
 node.default.package:
   text: <Пакет по умолчанию>
 prompt.enter.a.new.package.name:
-  text: 'Введите новое имя пакета:'
+  text: 'Введите новое название пакета:'
 command.create.new.package:
   text: Создать новый пакет
 action.new.package:
-  text: Новый пакет...
+  text: Новый пакет…
 action.description.create.new.package:
   text: Создать новый пакет
 tab.chooser.project:
@@ -1779,7 +1779,7 @@ tab.chooser.project:
 tab.chooser.search.by.name:
   text: Поиск по имени
 prompt.filechooser.enter.file.name:
-  text: 'Введите имя файла:'
+  text: 'Введите название файла:'
 prompt.create.non.existing.package:
   text: |-
     Пакет {0} не существует.
@@ -1804,7 +1804,7 @@ warning.delete.all.files.and.subdirectories.in.the.selected.directory:
 warning.delete.all.files.and.subdirectories:
   text: |2-
 
-    Все файлы и подкаталоги в "{0}" будут удалены.
+    Все файлы и подкаталоги в «{0}» будут удалены.
     Вы не сможете полностью отменить эту операцию!
 prompt.delete.elements:
   text: Удалить {0}?
@@ -1857,7 +1857,7 @@ element.of.class:
 prompt.do.you.want.to.action_verb.the.method.from_class:
   text: Хотите {0} базовый {1,choice,1#method|2#methods}?
 help.topic.not.found.error:
-  text: Тема справки "{0}" не найдена
+  text: Тема справки «{0}» не найдена
 unscramble.use.unscrambler.checkbox:
   text: '&Расшифровать трассировку стека'
 unscramble.log.path.label:
@@ -1891,7 +1891,7 @@ updates.download.and.install.patch.button:
 updates.download.and.install.patch.button.restart:
   text: Обновить и перезапустить
 updates.more.info.button:
-  text: '&Подробнее...'
+  text: '&Подробнее…'
 updates.new.version.available:
   text: <html><h4>Доступна новая версия Consulo.</h4></html>
 updates.available.idea.version:
@@ -1901,7 +1901,7 @@ updates.build.number:
 updates.current.idea.version:
   text: 'Текущая версия:'
 updates.press.more.info.label:
-  text: <html><br>Нажмите <b>Подробнее...</b>, чтобы открыть веб-страницу, на которой можно вручную загрузить Consulo или узнать больше о его новой версии.</HTML>
+  text: <html><br>Нажмите <b>Подробнее…</b>, чтобы открыть веб-страницу, на которой можно вручную загрузить Consulo или узнать больше о его новой версии.</HTML>
 updates.check.manually.label:
   text: <html><br>Чтобы проверить наличие новых обновлений вручную, используйте <b>Справку | Команда «Проверить обновления».</b> </html>
 updates.settings.title:
@@ -1933,7 +1933,7 @@ hierarchy.call.next.occurence.name:
 hierarchy.call.prev.occurence.name:
   text: Перейти к предыдущему вызову
 error.file.not.found.message:
-  text: Файл ''{0}'' не найден
+  text: Файл «{0}» не найден
 predefined.scope.tests.name:
   text: Тесты
 predefined.scope.resources.name:
@@ -1953,7 +1953,7 @@ jar.build.on.make:
 jar.build.modules.to.jar:
   text: Выбор модулей для Jar
 jar.build.module.0.jar.settings:
-  text: Настройки Jar-файла модуля ''{0}''
+  text: Настройки Jar-файла модуля «{0}»
 jar.build.include.in.jar.file:
   text: 'Включить в файл Jar:'
 search.textfield.title:
@@ -1965,19 +1965,19 @@ scope.view.title:
 select.in.title.project.view:
   text: Вид проекта
 several.plugins.depend.on.0.continue.to.remove:
-  text: Несколько плагинов зависят от {0}. Продолжить удаление?
+  text: Несколько расширений зависят от {0}. Продолжить удаление?
 child.tag.0.should.be.defined:
-  text: '''''{0}'''' дочерний тег должен быть определен'
+  text: '«{0}» дочерний тег должен быть определён'
 attribute.0.should.be.defined:
-  text: '''''{0}'''' атрибут должен быть определен'
+  text: '«{0}» атрибут должен быть определён'
 value.must.not.be.empty:
   text: Значение не должно быть пустым
 value.must.be.identifier:
   text: Значение должно быть идентификатором
 model.highlighting.identity:
-  text: '{0} с таким именем уже существует'
+  text: '{0} с таким названием уже существует'
 model.highlighting.identity.in.other.file:
-  text: '{0} с таким именем уже существует в файле ''''{1}'''''
+  text: '{0} с таким названием уже существует в файле «{1}»'
 predefined.scope.problems.name:
   text: Проблемы
 dom.elements.tree.childs.contain.errors:
@@ -2003,11 +2003,11 @@ add.shared.scope.action.text:
 add.scope.popup.title:
   text: Добавить область
 add.scope.name.label:
-  text: Имя
+  text: Название
 add.scope.dialog.title:
   text: Добавить новую область
 scope.banner.text:
-  text: Область ''{0}''
+  text: Область «{0}»
 prompt.please.select.module.jdk:
   text: Выберите {0}, который будет установлен для этого module
 scopes.save.dialog.title.shared:
@@ -2022,7 +2022,7 @@ plugin.status.available:
   text: Доступно
 detach.library.from.module:
   text: |-
-    Отсоединить библиотеку ''{0}'' от модуля ''{1}''?
+    Отсоединить библиотеку «{0}» от модуля «{1}»?
     Ни один файл на диске не будет поврежден.
 detach.library:
   text: Отсоединить библиотеку
@@ -2033,11 +2033,11 @@ scope.unable.to.save.scope.title:
 predefined.scope.production.name:
   text: Производство
 plugin.manager.dependencies.detected.title:
-  text: Обнаружены зависимости плагина
+  text: Обнаружены зависимости расширения
 plugin.manager.dependencies.detected.message:
-  text: Плагин, который вы хотите установить, требует других плагинов{0, choice, 1#|2#s} ({1}), которые также должны быть установлены. Продолжить?
+  text: Расширение, которое вы хотите установить, требует другое расширени{0, choice, 1#е|2#я} ({1}), которые также должны быть установлены. Продолжить?
 plugin.manager.optional.dependencies.detected.message:
-  text: Плагин, который вы хотите установить, опционально требует других плагинов{0, choice, 1#|2#s} ({1}). Их также следует установить?
+  text: Расширение, которое вы хотите установить, опционально требует других расширени{0, choice, 1#е|2#й} ({1}). Их также следует установить?
 message.server.no.licenses:
   text: На сервере лицензий не осталось подходящих лицензий
 title.server.no.licenses:
@@ -2053,7 +2053,7 @@ title.server.protocol.hijacked:
 text.not.applicable:
   text: <N/A>
 error.message.unable.to.create.file:
-  text: Не удалось создать файл ''{0}''
+  text: Не удалось создать файл «{0}»
 message.text.error.creating.deployment.descriptor:
   text: 'Ошибка создания элемента развертывания: {0}'
 message.text.creating.deployment.descriptor:
@@ -2063,13 +2063,13 @@ button.facet.quickfix.text:
 progress.download.0.title:
   text: Загрузка {0}
 progress.download.file.text:
-  text: Загрузка ''{0}'' из ''{1}''...
+  text: Загрузка «{0}» из «{1}»…
 progress.connecting.to.download.file.text:
-  text: Подключение к ''{0}''...
+  text: Подключение к «{0}»…
 progress.locate.file.text:
-  text: Поиск ''{0}''...
+  text: Поиск «{0}»…
 progress.downloading.0.of.1.file.text:
-  text: Загрузка {0} из {1} {1, choice, 1#file|2#files}...
+  text: Загрузка {0} из {1} {1, choice, 1#файла|2#файлов}…
 dialog.directory.for.downloaded.files.title:
   text: Загруженные файлы будут скопированы в выбранный каталог
 error.file.download.failed:
@@ -2079,9 +2079,9 @@ maven.repository.presentable.name:
 label.missed.libraries.prefix:
   text: 'Следующие библиотеки отсутствуют:'
 label.missed.libraries.text:
-  text: '{0}.<br>Класс ''''{1}'''' не найден'
+  text: '{0}.<br>Класс «{1}» не найден'
 missing.libraries.fix.button:
-  text: Исправить...
+  text: Исправить…
 setup.library.dialog.title:
   text: Настройка библиотеки
 label.library.will.be.created.description.text:
@@ -2124,8 +2124,8 @@ project.import.show.settings.after:
   text: '&Открыть структуру проекта после import'
 project.import.open.existing:
   text: |-
-    В ''{1}'' есть {0}.
-    Вы хотите открыть существующий проект или удалить его и импортировать ''{2}''?
+    В «{1}» есть {0}.
+    Вы хотите открыть существующий проект или удалить его и импортировать «{2}»?
 project.import.open.existing.openExisting:
   text: Открыть существующий проект
 project.import.open.existing.reimport:
@@ -2143,17 +2143,17 @@ bean.property:
 plugin.manager.enable.column.title:
   text: Включить
 plugin.manager.tooltip.warning:
-  text: Требуемый плагин ''{0}'' не включен
+  text: Требуемое расширение «{0}» не включено
 plugin.manager.incompatible.not.loaded.tooltip:
-  text: Плагин не был загружен
+  text: Расширение не было загружено
 plugin.manager.incompatible.deps.tooltip:
-  text: Требуется {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} не включен
+  text: Требуемое {0, choice, 1#расширение|2#расширений} {1} не не {0,choice, 1#включено|2#включены}
 plugin.manager.incompatible.tooltip:
   text: Плагин несовместим с текущей установкой
 plugin.advestiser.notification.text:
-  text: 'Найдены {0, choice, 1#Plugin|2#Plugins}, поддерживающие текущий файл'
+  text: 'Найдены {0,choice, 1#расширение|2#расширений}, поддерживающие текущий файл'
 plugin.advestiser.notification.install.link:
-  text: Установить {0, choice, 1#plugin|2#plugins}
+  text: Установить {0,choice, 1#расширение|2#расширений}
 project.new.wizard.project.identification:
   text: проект
 project.new.wizard.module.identification:
@@ -2165,37 +2165,37 @@ hierarchy.scope.test:
 update.plugin.host.url.message:
   text: 'Репозиторий URL:'
 update.no.update.hosts:
-  text: Не настроены репозитории плагинов
+  text: Не настроены репозитории расширений
 update.edit.plugin.host.title:
   text: Изменить репозиторий
 update.add.new.plugin.host.title:
   text: Добавить репозиторий
 update.plugin.hosts.title:
-  text: Репозитории плагинов
+  text: Репозитории расширений
 update.uploading.plugin.progress.title:
-  text: Обновление плагинов
+  text: Обновление расширений
 update.downloading.patch.progress.title:
   text: Загрузка файла исправления
 file.structure.toggle.show.inherited:
   text: '&Показать унаследованные элементы'
 plugin.deleted.status.tooltip:
-  text: Плагин будет удален при следующем запуске
+  text: Расширение будет удалено при следующем запуске
 plugin.outdated.version.status.tooltip:
-  text: Плагин имеет более новую версию
+  text: Расширение имеет более новую версию
 plugin.download.status.tooltip:
-  text: Плагин будет активирован следующий запуск
+  text: Расширение будет активировано при следующем запуске
 plugin.is.already.installed.status.tooltip:
-  text: Плагин установлен
+  text: Расширение установлено
 update.plugins.update.action:
   text: '&Обновить'
 fail.open.project.message:
-  text: Невозможно открыть проект из ''{0}''
+  text: Невозможно открыть проект из «{0}»
 disabled.plugins.warning.message:
-  text: <li>Плагин <b>"{0}"</b> не сможет загрузиться, так как требуемые {2, choice, 1#plugin|2#plugins} {1} {2, choice, 1#is|2#are} отключены.</li>
+  text: <li>Расширение <b>«{0}»</b> не сможет загрузиться, так как требуемые {2, choice, 1#расширение|2#расширения} {1} {2, choice, 1#отключено|2#отключены}.</li>
 plugin.updated.status.tooltip:
-  text: Обновленный плагин будет активирован при следующем запуске
+  text: Обновлённое расширение будет активировано при следующем запуске
 connection.failed.message:
-  text: 'Не удалось загрузить описания плагинов из: "{0}"'
+  text: 'Не удалось загрузить описания расширений из: «{0}»'
 checkbox.show.icons.in.menu.items:
   text: Отображение значков в элементах меню
 custom.icon.validation.message:
@@ -2243,17 +2243,17 @@ updates.check.period.on.exit:
 use.sun.jdk.prompt:
   text: Версия Java не поддерживается, используйте Sun/Oracle JDK вместо OpenJDK
 prompt.goto.inspection.enter.name:
-  text: "Введите имя проверки:"
+  text: "Введите название проверки:"
 goto.inspection.action.text:
-  text: "&Запустить проверку по Имя..."
+  text: "&Запустить проверку по имени…"
 label.no.inspections.found:
   text: Не найдено ни одной проверки
 scripting.lib.name:
-  text: '&Имя:'
+  text: '&Название:'
 scripting.lib.file.title:
   text: Файлы
 scripting.lib.file.name:
-  text: Имя
+  text: Название
 scripting.lib.file.location:
   text: Расположение
 scripting.lib.file.type:
@@ -2261,19 +2261,19 @@ scripting.lib.file.type:
 scripting.lib.select.root:
   text: Выберите файлы или каталоги библиотеки
 scripting.lib.invalid.name:
-  text: Недопустимое имя библиотеки
+  text: Недопустимое название библиотеки
 scripting.lib.attach:
-  text: '&Присоединить...'
+  text: '&Присоединить…'
 scripting.lib.detach:
   text: '&Отсоединить'
 scripting.lib.add:
-  text: '&Добавить...'
+  text: '&Добавить…'
 scripting.lib.edit:
-  text: '&Изменить...'
+  text: '&Изменить…'
 scripting.lib.remove:
   text: '&Удалить'
 scripting.lib.docUrl.specify:
-  text: '&Указать...'
+  text: '&Указать…'
 scripting.lib.docUrl.remove:
   text: '&Удалить'
 scripting.lib.docUrl.title:
@@ -2295,9 +2295,9 @@ whatsnew.action.custom.text:
 whatsnew.action.custom.description:
   text: Узнать о новой функциональности этой версии {0}
 diff.dialog.title:
-  text: Различия между ''{0}'' и ''{1}''
+  text: Различия между «{0}» и «{1}»
 goto.custom.region.menu.item:
-  text: Пользовательский регион...
+  text: Пользовательский регион…
 goto.custom.region.command:
   text: Перейти в Пользовательский регион
 goto.custom.region.message.dumb.mode:
@@ -2321,7 +2321,7 @@ checkbox.allow.vcs.annotations:
 presentation.mode.fon.size:
   text: 'Размер шрифта:'
 plugin.install.dialog.title:
-  text: Установка плагина
+  text: Установка расширения
 update.available.group:
   text: Проверка обновлений
 update.available:
@@ -2359,13 +2359,13 @@ eap.configurable.warning.text:
 background.task.editor.header:
   text: '{0} : фоновая задача по изменению vfs доступна для этого файла'
 background.task.button.configure:
-  text: Настроить...
+  text: Настроить…
 background.task.button.cancel:
   text: Отмена
 loading.editors:
-  text: Загрузка файлов...
+  text: Загрузка файлов…
 button.fix:
-  text: Исправить...
+  text: Исправить…
 browsers.explorer:
   text: Internet Explorer
 browsers.safari:
@@ -2401,11 +2401,11 @@ searcheverywhere.run.configs.tab.name:
 searcheverywhere.textfield.hint:
   text: Введите {0}, чтобы увидеть команды
 searcheverywhere.found.matches.title:
-  text: Совпадения для ''{0}'' в [{1}]
+  text: Совпадения для «{0}» в [{1}]
 searcheverywhere.found.targets.title:
   text: Несортированные результаты
 searcheverywhere.found.matches.generated.code.title:
-  text: Совпадения для ''{0}'' в [{1}] в сгенерированном коде
+  text: Совпадения для «{0}» в [{1}] в сгенерированном коде
 searcheverywhere.history.shortcuts.hint:
   text: Нажмите {0} или {1} для навигации через историю поиска
 searcheverywhere.nothing.found.for.contributor:
@@ -2417,9 +2417,9 @@ searcheverywhere.nothing.found.for.all:
 searcheverywhere.nothing.found.for.all.anywhere:
   text: Ничего не найдено.
 searcheverywhere.indexing.mode.not.supported:
-  text: Поиск в ''{0}'' недоступен, пока {1} обновляет индексы
+  text: Поиск в «{0}» недоступен, пока {1} обновляет индексы
 searcheverywhere.indexing.incomplete.results:
-  text: Результаты поиска в ''{0}'' могут быть неполными, пока {1} обновляет индексы
+  text: Результаты поиска в «{0}» могут быть неполными, пока {1} обновляет индексы
 searcheverywhere.runconfigurations.command.run.description:
   text: Запустить конфигурацию запуска в режиме 'Выполнить'
 searcheverywhere.runconfigurations.command.debug.description:
@@ -2479,7 +2479,7 @@ run.anything.group.title.temporary:
 run.anything.group.title.permanent:
   text: Постоянные конфигурации
 run.anything.group.settings.title:
-  text: Показать ''{0}''
+  text: Показать «{0}»
 run.anything.custom.activity.rollback.action:
   text: Откат
 run.anything.custom.activity.notification.group.id:
@@ -2501,11 +2501,11 @@ run.anything.recent.project.help.group.title:
 run.anything.recent.project.completion.group.title:
   text: Последние проекты
 run.anything.recent.project.command.placeholder:
-  text: открыть <имя проекта>
+  text: открыть <название проекта>
 run.anything.actions.undefined:
   text: Не определено
 run.anything.notification.warning.content:
-  text: Не удалось выполнить команду ''{0}''.
+  text: Не удалось выполнить команду «{0}».
 run.anything.notification.warning.title:
   text: Неудачное выполнение команды
 run.anything.run.configurations.group.title:
@@ -2525,7 +2525,7 @@ run.anything.hint.initial.text:
 run.anything.indexing.mode.not.supported:
   text: Запустить что угодно недоступно во время обновления индексов
 run.anything.context.browse.directory:
-  text: Обзор каталога...
+  text: Обзор каталога…
 run.anything.context.project:
   text: Проект
 run.anything.context.title.working.directory:
@@ -2541,7 +2541,7 @@ web.search.label.layout:
 checksum.failed:
   text: Несоответствие контрольной суммы. Попробуйте еще раз позже
 message.path.to.fqn.has.been.copied:
-  text: "''{0}'' был скопирован."
+  text: "«{0}» был скопирован."
 action.DumbAware.BuildView.text.stop:
   text: BuildView
 action.DumbAware.CopyrightProfilesPanel.description.stop:
@@ -2575,11 +2575,11 @@ handle.ro.file.status.failed:
 dialog.title.clear.read.only.file.status:
   text: Очистить статус «Только для чтения»
 progress.text.reloading.file:
-  text: Перезагрузка файла...
+  text: Перезагрузка файла…
 progress.title.reload.files:
   text: Перезагрузка файлов
 progress.text.reloading.files:
-  text: Перезагрузка файлов...
+  text: Перезагрузка файлов…
 checkbox.use.preview.window:
   text: Перейти к предварительному просмотру
 ide.hide.navigation.on.focus.loss.description:
@@ -2635,7 +2635,7 @@ action.Anonymous.text.new.group:
 command.switch.active.editor:
   text: Переключить активный редактор
 change.encoding.command.name:
-  text: "Изменить кодировку для ''{0}''"
+  text: "Изменить кодировку для «{0}»"
 action.Anonymous.text.live.templates:
   text: Живые шаблоны
 dialog.title.choose.color:
@@ -2657,13 +2657,13 @@ dialog.title.abbreviation:
 label.enter.new.abbreviation:
   text: "Введите новое сокращение:"
 action.text.remove.abbreviation.0:
-  text: Удалить сокращение ''{0}''
+  text: Удалить сокращение «{0}»
 action.text.remove.0:
   text: Удалить {0}
 popup.title.edit.shortcuts:
   text: Изменить ярлыки
 project.directory.is.not.writable:
-  text: Каталог ''{0}'', похоже, недоступен для записи. Выберите другое местоположение.
+  text: Каталог «{0}», похоже, недоступен для записи. Выберите другое местоположение.
 action.ToggleAction.pin.window.text:
   text: Закрепить окно
 action.ToggleAction.pin.window.description:

@@ -1,0 +1,82 @@
+attempt.to.modify.read.only.document.error.message:
+  text: Попытка изменить документ, доступный только для чтения
+editing.read.only.file.hint:
+  text: Файл доступен только для чтения
+typing.in.editor.command.name:
+  text: Ввод
+errors.panel.go.to.errors.first.radio:
+  text: Перейти только к проблемам с высоким приоритетом
+errors.panel.go.to.next.error.warning.radio:
+  text: Перейти к следующей проблеме
+customize.highlighting.level.menu.item:
+  text: Настроить уровень подсветки
+move.caret.command.name:
+  text: Переместить курсор
+guarded.block.modification.attempt.error.message:
+  text: Невозможно выполнить действие, так как оно изменяет фрагменты текущего документа, доступные только для чтения
+guarded.block.modification.attempt.error.title:
+  text: Попытка изменения защищенного блока
+close.editor.annotations.action.name:
+  text: Закрыть аннотации
+editor.annotations.action.group.name:
+  text: Аннотации
+move.cursor.command.name:
+  text: Переместить курсор
+paste.command.name:
+  text: Вставить
+move.selection.command.name:
+  text: Переместить выделение
+typing.command.name:
+  text: Ввод
+hector.import.popup.checkbox:
+  text: Импорт &всплывающего окна
+hector.highlighting.level.title:
+  text: Уровень подсветки
+hector.none.slider.label:
+  text: Нет
+hector.syntax.slider.label:
+  text: Синтаксис
+hector.inspections.slider.label:
+  text: Инспекции
+action.duplicate.selection:
+  text: '&Дублировать Выделение'
+action.duplicate.line:
+  text: '&Повторная строка'
+increase.editor.font:
+  text: Увеличить размер шрифта
+decrease.editor.font:
+  text: Уменьшить размер шрифта
+forced.soft.wrap.message:
+  text: Этот документ содержит очень длинные строки. Мягкие переносы были принудительно включены для повышения производительности редактора.
+force.soft.wrap.hide.message:
+  text: Скрыть уведомление
+forced.soft.wrap.dont.show.again.message:
+  text: Больше не показывать
+editor.notification.default.action.name:
+  text: Действия с уведомлениями
+editor.notification.settings.option.name:
+  text: Настройки…
+editor.open.file.progress:
+  text: Открытие {0}
+editing.viewer.hint:
+  text: Это представление доступно только для чтения
+iw.show.import.tooltip:
+  text: Показать подсказку для автоматического импорта
+iw.compact.view:
+  text: Компактный вид
+iw.highlight.label:
+  text: 'Выделить:'
+iw.disable.powersave:
+  text: Отключить режим энергосбережения
+iw.level.none:
+  text: Нет
+iw.level.errors:
+  text: Ошибки Только
+iw.level.all:
+  text: Все проблемы
+iw.open.problems.view:
+  text: Открыть просмотр проблем
+iw.found.so.far.suffix:
+  text: Найдено до сих пор
+checkbox.show.editor.preview.popup:
+  text: Показать подсказку предварительного просмотра редактора

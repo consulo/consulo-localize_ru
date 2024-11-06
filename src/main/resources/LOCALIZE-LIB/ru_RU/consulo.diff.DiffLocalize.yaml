@@ -7,7 +7,7 @@ cannot.file.file.error:
 cannot.create.diff.error:
   text: 'Не могу создать элемент diff из: {0}'
 cannot.compare.error:
-  text: Менеджер различий не может сравнить ''{0}'' и ''{1}''
+  text: Менеджер различий не может сравнить «{0}» и «{1}»
 unknown.file.type.error:
   text: 'Неизвестный тип файла: {0}'
 save.merge.result.command.name:

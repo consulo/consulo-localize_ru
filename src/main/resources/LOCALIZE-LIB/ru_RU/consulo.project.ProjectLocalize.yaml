@@ -1,0 +1,732 @@
+project.configuration.save.file.not.found:
+  text: '{0} не найдено'
+project.macros.cancel.button:
+  text: Отменить загрузку проекта
+project.macros.variable.missing.error:
+  text: Значение переменной пути «{0}» не определено
+project.macros.variable.missing.title:
+  text: Неопределенная переменная пути
+project.macros.prompt:
+  text: 'TODO: message'
+project.macros.name.column:
+  text: Имя макроса
+project.macros.path.column:
+  text: Путь
+project.save.error:
+  text: |-
+    Не удалось сохранить проект:
+    {0}
+project.load.undefined.path.variables.error:
+  text: В файле проекта есть неопределенные переменные пути
+project.load.undefined.path.variables.message:
+  text: В файлах конфигурации проекта есть неопределенные переменные пути.
+project.load.undefined.path.variables.all.needed:
+  text: Все переменные пути должны быть определены
+project.load.undefined.path.variables.title:
+  text: Переменные пути не определены
+project.load.default.error:
+  text: Ошибка загрузки проекта по умолчанию
+project.load.progress:
+  text: Загрузка проекта
+project.load.waiting.watcher:
+  text: Сканирование каталогов проекта…
+project.reload.external.change.single:
+  text: |-
+    Файл проекта {0} был изменен извне.
+    Рекомендуется перезагрузить проект, чтобы изменения вступили в силу.
+project.reload.external.change.multiple:
+  text: |-
+    Файлы проекта:
+    {0}
+    были изменены извне.
+    Рекомендуется перезагрузить проект, чтобы изменения вступили в силу.
+project.reload.external.change.title:
+  text: Изменены файлы проекта
+project.reload.write.failed:
+  text: Ошибка записи в файл «{0}». Проект может быть перезагружен неправильно.
+project.reload.write.failed.title:
+  text: Ошибка записи
+project.reload.failed:
+  text: 'Ошибка при загрузке внешних изменений: {0}. Проект будет перезагружен.'
+project.reload.failed.title:
+  text: Ошибка перезагрузки
+project.convert.old.prompt:
+  text: |-
+    Проект {0}, который вы собираетесь открыть, имеет старый формат.
+    {1} автоматически преобразует его в новый формат.
+    Вы не сможете открыть его в более ранних версиях.
+    Старый файл проекта будет сохранен в {2}.
+    Продолжить преобразование?
+project.convert.problems.detected:
+  text: 'Во время преобразования вашего проекта были обнаружены следующие проблемы:'
+project.convert.problems.help:
+  text: |2-
+
+    Нажмите «Показать справку» для получения дополнительной информации.
+project.convert.problems.title:
+  text: Проблемы преобразования проекта
+project.convert.problems.help.button:
+  text: Показать справку
+project.load.new.version.warning:
+  text: Проект {0}, который вы собираетесь открыть, был создан более новой версией {1}. Если вы его откроете, ваш проект, скорее всего, будет поврежден. Продолжить?
+project.default.settings:
+  text: Настройки проекта по умолчанию
+project.configure.path.variables.title:
+  text: Настроить переменные пути
+project.configure.path.variables.description.title:
+  text: 'Описание:'
+project.configure.path.variables.no.description.text:
+  text: Нет описания
+project.convert.source.roots.not.under.project.roots.error:
+  text: Есть исходные корни, которые не находятся под корнями проекта.
+project.convert.javadoc.paths.error:
+  text: Пути JavaDoc не могут быть преобразованы.
+project.convert.multiple.output.paths.error:
+  text: Проект использует несколько выходных путей.
+framework.detected.info.text:
+  text: '{0} {1, choice, 1#framework is|2#frameworks are} обнаружен в проекте <a href="configure">Configure</a>'
+progress.text.searching.frameworks:
+  text: Поиск фреймворков. Пожалуйста, подождите.
+message.text.stop.searching.for.frameworks:
+  text: '{0} в настоящее время ищет фреймворки. Хотите остановить поиск?'
+label.text.the.following.frameworks.are.detected:
+  text: <html><body>В проекте обнаружено несколько фреймворков. Пожалуйста, просмотрите следующие элементы и исключите ошибочно обнаруженные.</body></html>
+label.text.no.frameworks.detected:
+  text: Фреймворки не обнаружены.
+sdk.java.name:
+  text: JDK
+sdk.java.unknown.name:
+  text: Неизвестно
+sdk.java.corrupt.error:
+  text: Вероятно, SDK, установленный в «{0}», поврежден
+sdk.java.corrupt.title:
+  text: Невозможно определить версию SDK
+sdk.java.name.template:
+  text: версия java «{0}»
+sdk.table.settings:
+  text: Таблица SDK
+sdk.unknown.name:
+  text: Неизвестный SDK
+sdk.list.name.required.error:
+  text: Укажите имя SDK
+sdk.list.unique.name.required.error:
+  text: Укажите другое имя SDK
+button.add:
+  text: Добавить
+button.remove:
+  text: Удалить
+sdk.paths.specify.url.button:
+  text: Укажите URL…
+sdk.configure.title:
+  text: Настроить SDK
+sdk.configure.save.settings.error:
+  text: Невозможно сохранить настройки
+sdk.configure.editor.title:
+  text: Редактор SDK
+sdk.configure.type.home.path:
+  text: 'Путь:'
+sdk.configure.general.home.path:
+  text: 'Домашний путь SDK:'
+sdk.configure.home.invalid.error:
+  text: Выбранный каталог не является допустимым домашним для {0}
+sdk.configure.home.file.invalid.error:
+  text: Выбранный файл не является допустимым home для {0}
+sdk.configure.home.title:
+  text: Выберите домашний каталог для {0}
+sdk.configure.javadoc.url.prompt:
+  text: 'Введите URL документации:'
+sdk.configure.javadoc.url.title:
+  text: Укажите URL документации
+project.index.scanning.files.progress:
+  text: Сканирование файлов…
+project.index.building.exclude.roots.progress:
+  text: Создание исключаемых корней…
+project.index.processing.module.content.progress:
+  text: Обработка содержимого модуля «{0}»…
+project.index.processing.module.sources.progress:
+  text: Обработка источников модуля «{0}»…
+project.index.processing.library.sources.progress:
+  text: Обработка библиотеки модуля «{0}» источники…
+project.index.processing.library.classes.progress:
+  text: Обработка классов библиотеки модуля «{0}»…
+project.root.module.source:
+  text: <Исходный модуль>
+project.language.level.reload.prompt:
+  text: |-
+    Изменения уровня языка вступят в силу при перезагрузке проекта.
+    Хотите перезагрузить проект «{0}» сейчас?
+project.language.level.reload.title:
+  text: Уровень языка изменен
+library.global.settings:
+  text: Глобальные библиотеки
+module.paths.title:
+  text: Источники
+module.paths.output.title:
+  text: Выберите путь вывода
+module.paths.test.output.title:
+  text: Выберите путь вывода теста
+module.paths.resource.output.title:
+  text: Выберите путь вывода ресурса
+module.paths.exclude.output.checkbox:
+  text: Исключить пути вывода
+module.paths.output.label:
+  text: 'Путь вывода:'
+module.paths.test.output.label:
+  text: 'Путь вывода теста:'
+module.paths.resource.output.label:
+  text: 'Путь вывода ресурса:'
+module.paths.test.resource.output.label:
+  text: 'Вывод ресурса теста path:'
+module.paths.searching.source.roots.progress:
+  text: Поиск исходных корней в {0}
+module.paths.searching.source.roots.title:
+  text: Добавление исходных корней
+module.paths.add.content.action:
+  text: Добавить _корень контента
+module.paths.add.content.action.description:
+  text: Добавить корневой контент в модуль
+module.paths.add.content.title:
+  text: Выберите корневой каталог контента
+module.paths.add.content.prompt:
+  text: Корень контента — это каталог, содержащий все файлы, связанные с этим модулем
+module.paths.add.content.already.exists.error:
+  text: Корень контента «{0}» уже существует
+module.paths.add.content.intersect.error:
+  text: |-
+    Добавляемый корневой контент «{0}»
+    расположен ниже существующего корневого контента «{1}».
+    Записи контента не должны пересекаться.
+module.paths.add.content.dominate.error:
+  text: |-
+    Добавляемый корневой каталог контента «{0}»
+    доминирует над существующим корневым каталогом контента «{1}».
+    Записи контента не должны пересекаться.
+module.paths.add.content.duplicate.error:
+  text: |-
+    Корневой каталог контента «{0}» уже определен для модуля «{1}».
+    Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
+module.paths.validation.duplicate.content.error:
+  text: |-
+    Корневой каталог контента «{0}» определен для модулей «{1}» и «{2}».
+    Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
+module.paths.validation.duplicate.source.root.error:
+  text: |-
+    Модуль «{0}»
+    не должен содержать исходный корневой каталог «{1}».
+    Корень уже принадлежит модулю «{2}»
+module.paths.validation.source.root.belongs.to.another.module.error:
+  text: |-
+    Исходный корень «{0}»
+    не может быть определен в модуле «{1}», поскольку он принадлежит содержимому вложенного модуля «{2}»
+module.paths.remove.content.prompt:
+  text: Удалить корень содержимого «{0}»?
+module.paths.remove.content.title:
+  text: Удалить корневой контент
+module.paths.empty.node:
+  text: <empty>
+module.paths.sources.group:
+  text: Исходные папки
+module.paths.resources.group:
+  text: Папки ресурсов
+module.paths.test.sources.group:
+  text: Тестовые исходные папки
+module.paths.test.resources.group:
+  text: Тестовые папки ресурсов
+module.paths.excluded.group:
+  text: Исключенные папки
+module.paths.remove.content.tooltip:
+  text: Удалить запись контента
+module.paths.unmark.0.tooltip:
+  text: Снять отметку {0}
+module.paths.include.excluded.tooltip:
+  text: Включить
+module.paths.remove.tooltip:
+  text: Удалить
+module.paths.properties.tooltip:
+  text: Свойства
+module.paths.add.properties.title:
+  text: Добавить свойство
+module.paths.add.properties.desc:
+  text: Выберите свойство
+module.dependencies.title:
+  text: Зависимости
+module.dependencies.caption:
+  text: Отметьте модули, от которых зависит этот модуль
+module.javadoc.title:
+  text: JavaDoc
+module.javadoc.add.path.button:
+  text: '&Добавить путь…'
+module.javadoc.add.url.button:
+  text: Добавить URL JavaDoc…
+module.javadoc.remove.button:
+  text: '&Удалить'
+module.javadoc.add.path.title:
+  text: Добавить путь к JavaDoc
+module.javadoc.add.path.prompt:
+  text: Выберите файлы jar/zip или каталоги, в которых Документация модуля javadoc находится
+sdk.combo.box.item:
+  text: <Нет SDK>
+module.libraries.javadoc.url.button:
+  text: Укажите URL документации…
+module.libraries.attach.sources.button:
+  text: Прикрепить &источники…
+module.libraries.attach.sources.immediately.button:
+  text: Прикрепить &источники
+module.libraries.attach.more.button:
+  text: Прикрепить &еще…
+attach.annotations.button:
+  text: Прикрепить аннотации…
+module.libraries.add.button:
+  text: '&Добавить библиотеку…'
+button.text.attach.files:
+  text: Прикрепить &файлы или каталоги…
+library.attach.files.action:
+  text: Прикрепить файлы или каталоги
+library.attach.files.to.library.action:
+  text: Прикрепить файлы или каталоги к библиотеке «{0}»
+library.attach.files.description:
+  text: Выберите файлы или каталоги, в которых находятся классы библиотеки, исходные тексты и документация
+library.sources.not.found:
+  text: Источники не найдены
+library.sources.not.attached:
+  text: Источники не прикреплены
+library.attach.sources.action:
+  text: Прикрепить источники
+library.attach.sources.action.busy.text:
+  text: Прикрепление…
+library.attach.sources.description:
+  text: Выберите файлы jar/zip или каталоги, в которых находятся исходные тексты библиотеки
+module.sdk.not.defined:
+  text: Модуль SDK не определен
+module.sdk.setup:
+  text: Настройка SDK
+module.module.language.level:
+  text: '&Уровень языка:'
+module.module.language.level.comment:
+  text: (эффективный при перезагрузке проекта)
+module.circular.dependency.warning.short:
+  text: Между модулями {0} есть циклическая зависимость
+module.circular.dependency.warning.description:
+  text: <html><b>Между модулями есть циклические зависимости:</b> {0}</html>
+module.add.error.message:
+  text: 'Ошибка добавления модуля в проект: {0}'
+module.add.error.title:
+  text: Добавить модуль
+module.add.action:
+  text: Добавить
+module.remove.action:
+  text: Удалить
+module.remove.last.confirmation:
+  text: |-
+    Вы уверены, что хотите удалить единственный модуль из этого проекта?
+    Никакие файлы не будут удалены с диска.
+module.remove.confirmation:
+  text: |-
+    Удалить модуль «{0}» из проекта?
+    Никакие файлы не будут удалены с диска.
+module.remove.confirmation.title:
+  text: Удалить модуль
+module.classpath.button.edit:
+  text: Изменить…
+module.libraries.include.all.button:
+  text: Включить все
+module.libraries.exclude.all.button:
+  text: Исключить все
+modules.order.export.title:
+  text: Заказ/Экспорт
+modules.classpath.title:
+  text: Зависимости
+modules.order.export.export.column:
+  text: Экспорт
+modules.order.export.scope.column:
+  text: Область
+module.classpath.button.move.up:
+  text: Переместить вверх
+module.classpath.button.move.down:
+  text: Переместить вниз
+module.remove.confirmation.prompt:
+  text: |-
+    Удалить {1, choice, 1#модуль|2#модули} {0} из проекта?
+    Файлы не будут удалены.
+module.remove.command:
+  text: Отсоединить модуль от проекта
+module.new.action:
+  text: Новый модуль
+module.new.action.description:
+  text: Добавить новый модуль в проект
+module.toggle.excluded.action:
+  text: Исключено
+module.toggle.excluded.action.description:
+  text: Включить/исключить каталог из модуля
+module.toggle.test.sources.action:
+  text: Тестовые источники
+module.toggle.resources.action:
+  text: Ресурсы
+module.toggle.sources.action:
+  text: Источники
+module.toggle.web.resources.action:
+  text: Веб-ресурсы
+module.toggle.test.resources.action:
+  text: Тестовые ресурсы
+module.toggle.0.action.description:
+  text: Отметить каталог как {0}
+library.binaries.node:
+  text: Двоичные файлы
+library.javadocs.node:
+  text: Документация
+library.empty.item:
+  text: <пустая библиотека>
+library.name.not.specified.error:
+  text: Пожалуйста, введите имя библиотеки
+library.name.not.specified.title:
+  text: Имя библиотеки не указано
+library.name.already.exists.error:
+  text: Библиотека «{0}» уже существует
+library.name.already.exists.title:
+  text: Библиотека уже существует
+classpath.add.new.library.action:
+  text: Новая библиотека…
+classpath.add.simple.module.library.action:
+  text: Файлы или каталоги…
+classpath.add.library.action:
+  text: Библиотека…
+classpath.add.module.dependency.action:
+  text: Зависимость модуля…
+classpath.chooser.title.add.module.dependency:
+  text: Выберите модули
+classpath.chooser.description.add.module.dependency:
+  text: 'Выберите модули, от которых должен зависеть текущий модуль:'
+classpath.title.adding.dependency:
+  text: Добавление зависимости
+classpath.message.library.already.added:
+  text: Библиотека «{0}» уже добавлена ​​в этот модуль
+message.no.module.dependency.candidates:
+  text: Не найдено модулей, от которых можно было бы зависеть
+library.configure.title:
+  text: Настроить библиотеку
+library.configure.module.title:
+  text: Настроить библиотеку модулей
+library.configure.project.title:
+  text: Настроить библиотеки проекта
+library.configure.global.title:
+  text: Настроить глобальные библиотеки
+library.remove.action:
+  text: Удалить
+library.root.node:
+  text: Root
+library.sources.node:
+  text: Sources
+project.order.entry.project:
+  text: <Project>
+unknown.sdk:
+  text: Unknown SDK
+library.empty.library.item:
+  text: Empty Library
+module.already.exists.error:
+  text: Module «{0}» уже существует в проекте.
+module.cannot.load.error:
+  text: |-
+    Невозможно загрузить модуль «{0}»:
+    {1}
+module.remove.from.project.confirmation:
+  text: Хотите удалить модуль «{0}» из проекта?
+element.kind.name.module:
+  text: module
+module.dir.does.not.exist.error:
+  text: Module dir «{0}» does not exist
+libraries.node.text.ide:
+  text: Библиотеки содержат классы, которые добавляют различные функциональные возможности в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам в разработке ваших проектов.<br><br>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br><br>Глобальные библиотеки используются во всем проекте и могут использоваться из всех модулей. Кроме того, они доступны для всех проектов, созданных локально на вашем компьютере.<br><br>Обратите внимание, что глобальные библиотеки недоступны никому, с кем вы делитесь своим проектом. Если вы делитесь проектом со своей командой, используйте вместо этого библиотеки проекта.<br><br>Разверните узел и выберите дочерние элементы для управления глобальными библиотеками. <br><br> Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щелкните вкладку Зависимости, щелкните Добавить и укажите местоположение библиотеки.
+libraries.node.text.project:
+  text: Библиотеки содержат классы, которые добавляют различные функциональные возможности в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам в разработке ваших проектов.<br><br>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br><br>Библиотеки проекта ссылаются на весь проект и могут использоваться из всех модулей. Кроме того, они доступны всем, с кем вы делитесь проектом.<br><br>Разверните узел и выберите дочерние элементы для управления библиотеками проекта.<br><br> Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щелкните вкладку Зависимости, щелкните Добавить и укажите местоположение библиотеки.
+libraries.node.text.module:
+  text: Библиотеки содержат классы, которые добавляют различные функции в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам разрабатывать ваши проекты.<br><br>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br><br>Библиотеки модулей ссылаются только из модуля, к которому они прикреплены. Разверните узел и выберите дочерние элементы для управления библиотеками модулей.<br><br> Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щелкните вкладку Зависимости, щелкните Добавить и укажите расположение библиотеки.
+global.bundles.display.name:
+  text: SDKs/Bundles/Tools
+global.bundles.empty.text:
+  text: Выберите пакет для просмотра или редактирования его данных здесь
+add.action.name:
+  text: Добавить новый …
+add.new.global.library.text:
+  text: Новая глобальная библиотека
+add.new.project.library.text:
+  text: Новая библиотека проекта
+project.roots.display.name:
+  text: Модули
+project.settings.display.name:
+  text: Структура проекта
+empty.module.selection.string:
+  text: Выберите модуль для просмотра или редактирования его данных здесь
+copy.module.dialog.title:
+  text: Копировать модуль
+enter.module.copy.name.error.message:
+  text: Введите имя копии модуля
+module.0.already.exists.error.message:
+  text: Модуль «{0}» уже есть существует
+path.0.is.invalid.error.message:
+  text: Путь «{0}» недействителен
+project.inherit.compile.output.path:
+  text: Наследовать выходной путь компиляции проекта
+project.module.compile.output.path:
+  text: Использовать выходной путь компиляции модуля
+project.compiler.output:
+  text: '<html><b>Выходные данные компилятора проекта:</b><br>Этот путь используется для хранения всех результатов компиляции проекта. <br>По этому пути создается каталог, соответствующий каждому модулю. <br>Этот каталог содержит два подкаталога: Production и Test для производственного кода и тестовых исходников соответственно.<br>Для каждого из модулей можно настроить путь вывода компилятора, специфичный для модуля, по мере необходимости</html>'
+find.usages.action.text:
+  text: Найти использования
+dependencies.used.in.popup.title:
+  text: Используется в
+classpath.panel.analyze:
+  text: Анализ
+classpath.panel.navigate.action.text:
+  text: Навигация
+output.tab.title:
+  text: Вывод
+project.roots.module.banner.text:
+  text: Модуль «{0}»
+global.library.display.name:
+  text: Глобальная {0, choice, 1#библиотека|2#библиотеки}
+project.library.display.name:
+  text: "{0, choice, 1#Библиотека|2#Библиотеки} проекта"
+module.library.display.name:
+  text: "{0, choice, 1#Библиотека|2#Библиотеки} модуля"
+project.roots.library.banner.text:
+  text: '{1} «{0}»'
+project.roots.project.banner.text:
+  text: Общие настройки для проекта «{0}»
+set.up.jdk.title:
+  text: Настройка SDK
+module.group.banner.text:
+  text: Группа модулей «{0}»
+sdk.banner.text:
+  text: '{0} «{1}»'
+project.roots.module.groups.text:
+  text: Группы модулей используются для логической организации модулей проекта.
+rename.message.prefix.scope:
+  text: Область действия
+rename.scope.title:
+  text: Переименовать область действия.
+rename.message.prefix.module:
+  text: Модуль
+rename.module.title:
+  text: Переименовать модуль
+project.roots.plain.mode.action.text.disabled:
+  text: Скрыть группы модулей
+project.roots.plain.mode.action.text.enabled:
+  text: Показать группы модулей
+project.roots.tooltip.library.has.broken.paths:
+  text: У библиотеки «{0}» некорректный {1, choice, 1#путь|2#пути}.
+project.roots.error.message.invalid.roots:
+  text: недопустимый {0} {1, choice, 1#корень|2#корни}
+choose.modules.dialog.title:
+  text: Выберите модули
+choose.modules.dialog.description:
+  text: Библиотека «{0}» будет добавлена ​​к выбранным модулям.
+project.roots.javadoc.tab.description:
+  text: <html>Управление внешними JavaDocs, прикрепленными к этому модулю. Внешние JavaDoc переопределяют аннотации JavaDoc, которые могут быть в вашем модуле.</html>
+project.roots.output.compiler.title:
+  text: Вывод компилятора
+project.roots.module.jdk.problem.message:
+  text: SDK модуля не определен.
+project.roots.module.duplicate.name.message:
+  text: дублирующее имя модуля
+project.roots.library.problem.message:
+  text: недопустимый элемент «{0}» в списке зависимостей
+project.roots.project.display.name:
+  text: Проект
+sdk.configuration.exception:
+  text: SDK «{0}» недопустим.
+project.roots.project.jdk.inherited:
+  text: Project SDK
+add.new.header.text:
+  text: Добавить
+add.new.module.text.full:
+  text: Модуль
+project.roots.replace.library.entry.message:
+  text: Вы действительно хотите заменить старую библиотеку «{0}»
+project.roots.replace.library.entry.title:
+  text: Библиотека уже добавлена
+project.roots.classpath.format.label:
+  text: 'Формат хранения зависимостей:'
+external.annotations.root.chooser.title:
+  text: Выберите внешний корень аннотаций для {0}
+external.annotations.root.chooser.description:
+  text: Внешние аннотации будут сохранены в соответствующей папке
+external.annotation.prompt:
+  text: Внешняя подсказка аннотации
+external.annotations.suggestion.message:
+  text: <html><body>Если вы не хотите аннотаций в своем коде, вы можете использовать внешнее хранилище.<br> Чтобы настроить внешние аннотации, укажите корневой каталог, в котором будут размещены файлы с аннотациями</body></html>
+sdk.configure.annotations.tab:
+  text: Аннотации
+project.roots.path.tab.title:
+  text: Пути компилятора
+project.roots.external.annotations.tab.title:
+  text: Внешние аннотации
+project.roots.external.annotations.description:
+  text: <html>Управление внешними аннотациями, прикрепленными к этому модулю.</html>
+add.external.annotations.path.title:
+  text: Добавить путь к внешнему annotations
+add.external.annotations.path.description:
+  text: Выберите путь, в котором находятся внешние аннотации для источников модуля
+dialog.title.packaging.choose.library:
+  text: Выберите библиотеку
+dialog.title.packaging.choose.module:
+  text: Выберите модуль
+action.name.facet.navigate:
+  text: Перейти
+error.message.unknown.facet.type.0:
+  text: 'Неизвестный тип фасета: «{0}»'
+error.message.cannot.load.facet.condiguration.0:
+  text: 'Невозможно загрузить конфигурацию фасета: {0}'
+error.message.facet.type.isn.t.specified:
+  text: Тип фасета не указан
+error.message.cannot.find.underlying.facet.type.for.0:
+  text: Невозможно найти базовый тип фасета для «{0}»
+error.message.0.facet.must.be.placed.under.1.facet:
+  text: '{0} фасет должен быть помещен под фасет {1}'
+error.message.0.cannot.be.placed.under.1:
+  text: '{0} не может быть помещен под {1}'
+error.message.0.facets.are.not.allowed.in.1:
+  text: '{0} фасеты не допускаются в {1}'
+button.text.remove.selected:
+  text: Удалить выбранное
+button.text.ignore.selected:
+  text: Игнорировать выбранное
+button.text.keep.all:
+  text: Сохранить все
+confirmation.message.would.you.like.to.ignore.facet:
+  text: Хотите ли вы игнорировать фасет «{0}» из модуля «{1}»?
+element.kind.name.facet:
+  text: facet
+error.message.configuration.cannot.load:
+  text: Невозможно загрузить
+label.text.0.cannot.be.loaded.remove:
+  text: '{0} не может быть загружен. Вы можете удалить их из проекта (файлы не будут удалены).'
+label.text.0.cannot.be.loaded.ignore:
+  text: '{0} не может быть загружен. Вы можете пометить их как игнорируемые, чтобы отключить это уведомление об ошибке.'
+display.name.artifacts:
+  text: Артефакты
+banner.slogan.artifact.0:
+  text: Артефакт «{0}»
+artifacts.add.copy.action:
+  text: Добавить
+label.text.output.directory:
+  text: 'Выходной каталог:'
+checkbox.text.build.on.make:
+  text: '&Сборка при сборке'
+action.name.remove.packaging.element:
+  text: Удалить
+action.description.remove.packaging.elements:
+  text: Удалить выбранные элементы
+artifacts.create.action:
+  text: Создать {0}
+action.name.extract.artifact:
+  text: Извлечь Артефакт…
+label.text.specify.artifact.name:
+  text: 'Укажите &имя артефакта:'
+dialog.title.extract.artifact:
+  text: Извлечь Артефакт
+action.name.inline.artifact:
+  text: Встроенный артефакт
+action.name.rename.packaging.element:
+  text: Переименовать
+drag.n.drop.text.0.packaging.elements:
+  text: '{0} элементов'
+artifact.source.items.tree.tooltip:
+  text: <html>Дважды щелкните элемент, чтобы поместить его в местоположение по умолчанию<br>Перетащите элемент, чтобы добавить его в желаемое местоположение<br>Дополнительные действия доступны во всплывающем меню</html>
+module.type.empty.name:
+  text: Пустой проект
+module.type.empty.description:
+  text: Откроется диалоговое окно «Структура проекта», которое поможет вам построить структуру проекта
+project.import.reuse.current.project.checkbox.name:
+  text: Импорт в &текущий проект
+project.new.wizard.progress.title:
+  text: Инициализация …
+project.new.wizard.from.scratch.title:
+  text: Создать {0} из &scratch
+project.new.wizard.from.scratch.description:
+  text: Создать новый {0} {1}
+project.new.wizard.import.title:
+  text: Импортировать {0} из внешней &модели
+project.new.wizard.import.description:
+  text: <html>Создать {0} {1} из внешней модели ({2})</html>
+project.new.wizard.from.existent.sources.title:
+  text: Создать {0} из &существующих источников
+project.new.wizard.from.existent.sources.description:
+  text: <html>Создать структуру {0} {1} над существующими источниками</html>
+project.new.wizard.from.template.title:
+  text: Создать {0} из &template
+project.new.wizard.from.template.description:
+  text: <html>Создайте {0} с предопределенной поддержкой для вашего любимого фреймворка/технологии</html>
+project.new.wizard.from.template.error:
+  text: 'Тип {0} не выбран'
+choose.module.home:
+  text: Выберите домашнюю директорию модуля
+project.new.wizard.module.name.title:
+  text: 'На&звание модуля:'
+project.new.wizard.module.root.title:
+  text: 'Содержание &root:'
+project.new.wizard.module.file.title:
+  text: 'Расположение файла модуля:'
+label.text.please.select.desired.technologies:
+  text: Выберите нужные технологии.
+label.text.framework.support.description:
+  text: Это загрузит все необходимые библиотеки и создаст Facets в конфигурации проекта.
+file.chooser.directory.for.downloaded.libraries.title:
+  text: Каталог для загруженных библиотек
+file.chooser.directory.for.downloaded.libraries.description:
+  text: Загруженные библиотеки будут скопированы в выбранный каталог
+dialog.title.library.downloading.settings:
+  text: Настройки загрузки библиотеки
+combobox.item.global.library:
+  text: Глобальная библиотека
+combobox.item.project.library:
+  text: Библиотека проекта
+combobox.item.module.library:
+  text: Библиотека модуля
+dialog.title.add.frameworks.support:
+  text: Добавить поддержку фреймворков
+dialog.title.add.framework.0.support:
+  text: Добавить поддержку {0}
+warning.message.some.required.libraries.wasn.t.downloaded:
+  text: Некоторая требуемая библиотека не была загружена. Хотите продолжить без нее?
+project.new.wizard.module.content.root.chooser.title:
+  text: Выберите корневой каталог содержимого модуля
+project.new.wizard.module.content.root.chooser.description:
+  text: Выбранный каталог будет отмечен как корневой каталог содержимого модуля
+project.new.wizard.module.file.chooser.title:
+  text: Выберите родительский каталог файла модуля
+project.new.wizard.module.file.description:
+  text: Файл модуля .iml будет помещен в выбранный каталог
+project.new.wizard.select.type.label:
+  text: Выберите тип
+project.new.wizard.description.title:
+  text: Описание
+external.annotations.in.code.option:
+  text: Добавить в &code
+external.annotations.external.option:
+  text: Добавить &externally
+project.new.wizard.import.footnote:
+  text: Импорт из внешней модели доступен из мастера создания проекта только
+loading.components.for:
+  text: Загрузка компонентов для «{0}»…
+library.docs.node:
+  text: Документация
+title.new.project:
+  text: Новый проект
+error.adding.module.to.project:
+  text: 'Ошибка добавления модуля в проект: {0}'
+title.add.module:
+  text: Новый модуль
+prompt.open.project.in.new.frame:
+  text: <html><body>Новые проекты можно открыть в новом окне или заменить проект в существующем окне.<br>Как вы хотите открыть проект?</body></html>
+button.newframe:
+  text: Новое &окно
+button.existingframe:
+  text: '&Это окно'
+title.open.project:
+  text: Открыть проект
+command.deleting.files:
+  text: Удаление файлов
+progress.title.deleting.files:
+  text: Удаление файлов…
+command.finish:
+  text: finish

@@ -1,7 +1,7 @@
 find.progress.stop.title:
   text: Стоп
 find.progress.searching.message:
-  text: Поиск в {0}...
+  text: Поиск в {0}…
 find.progress.stop.background.button:
   text: Остановить фоновый поиск
 find.replace.dialog.title:
@@ -81,11 +81,11 @@ cannot.search.for.usages.title:
 find.super.method.warning.action.verb:
   text: чтобы найти использование
 find.parameter.usages.in.overriding.methods.prompt:
-  text: Хотите выполнить поиск использования параметра ''{0}'' в переопределяющих методах?
+  text: Хотите выполнить поиск использования параметра «{0}» в переопределяющих методах?
 find.parameter.usages.in.overriding.methods.title:
   text: Поиск в переопределяющих методах
 find.field.accessors.prompt:
-  text: Хотите выполнить поиск методов доступа к полю ''{0}''?
+  text: Хотите выполнить поиск методов доступа к полю «{0}»?
 find.field.accessors.title:
   text: Искать методы доступа к полю
 find.pointcut.applications.not.found.title:
@@ -97,7 +97,7 @@ find.usages.of.element.tab.name:
 recent.find.usages.action.description:
   text: <html><body>{0} ''<b>{1}</b>'' в {2}</body></html>
 recent.find.usages.action.popup:
-  text: '{0} ''''{1}'''' в {2}'
+  text: '{0} «{1}» в {2}'
 recent.find.usages.action.title:
   text: Недавние поиски использований
 recent.find.usages.action.nothing:
@@ -121,7 +121,7 @@ find.usages.panel.title.overriding.methods:
 find.usages.of.element_type.element_name.not.found.message:
   text: Использований {0} {1} не найдено
 find.searching.for.references.to.class.progress:
-  text: Поиск ссылок на класс {0}...
+  text: Поиск ссылок на класс {0}…
 find.usage.view.no.usages.text:
   text: Использований не найдено
 find.replace.in.project.dialog.title:
@@ -169,7 +169,7 @@ find.empty.match.regular.expression.error:
 find.empty.search.text.error:
   text: Не введен текст поиска
 find.filter.invalid.file.mask.error:
-  text: Неправильная маска файла "{0}"
+  text: Неправильная маска файла «{0}»
 find.filter.empty.file.mask.error:
   text: Пустая маска файла
 find.options.case.sensitive:
@@ -217,7 +217,7 @@ find.origin.from.cursor.radio:
 find.origin.entire.scope.radio:
   text: &Вся область поиска
 find.searching.for.string.in.file.progress:
-  text: Поиск ''{0}'' в {1}...
+  text: Поиск «{0}» в {1}…
 find.searching.for.string.in.file.occurrences.progress:
   text: '{0,choice,0#Нет|1#{0}} {0,choice,0#вхождений|1#вхождение|2#вхождений} найдено на текущий момент'
 find.excessive.total.size.prompt:
@@ -227,13 +227,13 @@ find.progress.search.completed:
 find.scope.project.title:
   text: Проект
 find.scope.module.title:
-  text: Модуль ''{0}''
+  text: Модуль «{0}»
 find.scope.directory.title:
   text: Каталог {0}
 find.scope.files.with.mask:
-  text: с маской ''{0}''
+  text: с маской «{0}»
 find.replace.invalid.replacement.string:
-  text: 'Вы ввели неверную строку замены: ''''{0}'''''
+  text: 'Вы ввели неверную строку замены: «{0}»'
 find.replace.invalid.replacement.string.title:
   text: Ошибка замены
 find.highlight.no.more.highlights.found:
@@ -241,17 +241,17 @@ find.highlight.no.more.highlights.found:
 find.scope.all.project.classes:
   text: Все классы проекта
 find.usage.view.tab.text:
-  text: Вхождения ''{0}''{1}
+  text: Вхождения «{0}»{1}
 find.usage.view.toolwindow.title:
-  text: Вхождения ''{0}'' в {1}{2}
+  text: Вхождения «{0}» в {1}{2}
 find.usage.view.usages.text:
-  text: вхождения ''{0}''
+  text: вхождения «{0}»
 find.selection.only:
   text: В выделенном
 progress.text.scanning.non.indexed.files:
-  text: Сканирование неиндексированных файлов...
+  text: Сканирование неиндексированных файлов…
 progress.text.scanning.indexed.files:
-  text: Сканирование индексированных файлов...
+  text: Сканирование индексированных файлов…
 notification.title.regular.expression.failed.to.match:
   text: Не удалось сопоставить регулярное выражение
 notification.content.one.or.more.malformed.replacement.strings:
@@ -263,11 +263,11 @@ progress.title.finding.usages:
 message.file.masks.should.be.comma.separated:
   text: Маски файлов должны быть разделены запятыми
 empty.text.searching:
-  text: Поиск...
+  text: Поиск…
 label.use.0.and.1.to.select.usages:
   text: Используйте {0} и {1} для выбора использований
 progress.title.updating.usage.view:
-  text: Обновление представления использований...
+  text: Обновление представления использований…
 find.replace.occurrences.found.in.read.only.files.status:
   text: Найдены вхождения в файлах, доступных только для чтения
 find.replace.select.on.editor.command:
@@ -285,7 +285,7 @@ find.replace.this.file.action:
 find.replace.skip.this.file.action:
   text: '&Пропустить этот файл'
 find.replace.all.confirmation:
-  text: <html><body>Заменить {0} вхождений ''{1}''<br>в {2} файлах на ''{3}''?
+  text: <html><body>Заменить {0} вхождений «{1}»<br>в {2} файлах на «{3}»?
 find.replace.all.confirmation.title:
   text: Заменить всё
 find.replace.occurrences.in.read.only.files.prompt:
@@ -328,7 +328,7 @@ find.case.sensitive:
 find.popup.case.sensitive:
   text: С учётом &регистра
 find.whole.words:
-  text: С&орды
+  text: &Слово целиком
 find.regex:
   text: '&Регулярное выражение'
 find.popup.whole.words:

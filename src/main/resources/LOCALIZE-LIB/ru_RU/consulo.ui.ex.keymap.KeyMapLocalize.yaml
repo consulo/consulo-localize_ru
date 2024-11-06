@@ -1,0 +1,186 @@
+mouse.shortcut.label:
+  text: Нажмите здесь, чтобы ввести сочетание клавиш мыши
+prefix.key.pressed.message:
+  text: Нажата префиксная клавиша.
+key.maps.name:
+  text: Карты клавиш
+action.column.name:
+  text: Действие
+shortcuts.column.name:
+  text: Ярлыки
+main.menu.action.title:
+  text: Главное меню
+main.toolbar.title:
+  text: Главная панель инструментов
+editor.popup.menu.title:
+  text: Всплывающее меню редактора
+editor.tab.popup.menu.title:
+  text: Всплывающее меню вкладки редактора
+favorites.popup.title:
+  text: Всплывающее меню избранного
+project.view.popup.menu.title:
+  text: Всплывающее меню окна проекта
+commender.view.popup.menu.title:
+  text: Всплывающее меню файлового менеджера
+j2ee.view.popup.menu.title:
+  text: Всплывающее меню представления Java EE
+all.actions.group.title:
+  text: Все действия
+plugins.group.title:
+  text: Расширения
+version.control.group.title:
+  text: Системы контроля версий
+debugger.actions.group.title:
+  text: Действия отладчика
+editor.actions.group.title:
+  text: Действия редактора
+ant.targets.group.title:
+  text: Цели Ant
+macros.group.title:
+  text: Макросы
+quick.lists.group.title:
+  text: Быстрые списки
+other.group.title:
+  text: Другое
+no.quick.lists:
+  text: Нет быстрых списков
+edit.quick.list.dialog.title:
+  text: Редактировать быстрый список
+keyboard.shortcut.dialog.title:
+  text: Введите сочетание клавиш
+enable.second.keystroke.check.box:
+  text: 'Включить:'
+first.stroke.panel.title:
+  text: Первый штрих
+second.stroke.panel.title:
+  text: Второй штрих
+shortcut.preview.ide.border.factory.title:
+  text: Предварительный просмотр сочетания клавиш
+conflicts.ide.border.factory.title:
+  text: Конфликты
+action.description.ide.border.factory.title:
+  text: Описание действия
+keymaps.border.factory.title:
+  text: 'Раскладки клавиш:'
+quick.lists.ide.border.factory.title:
+  text: Быстрые списки
+no.conflict.info.message:
+  text: Нет конфликтов
+assigned.to.info.message:
+  text: Назначено {0}
+keymap.display.name:
+  text: Раскладка клавиш
+keymap.parent.display.name:
+  text: Невидимая родительская группа раскладок клавиш
+based.on.keymap.label:
+  text: 'На основе раскладки клавиш: {0}'
+shortcuts.keymap.label:
+  text: Сокращения
+shortcuts.keymap.no.shortcuts:
+  text: Нет shortcuts
+add.keymap.label:
+  text: A&dd
+remove.keymap.label:
+  text: Remove
+unnamed.list.display.name:
+  text: unnamed
+copy.keymap.button:
+  text: '&Копировать'
+delete.keymap.button:
+  text: Удалить
+use.non.english.keyboard.layout.support:
+  text: la&yout support
+parent.keymap.label:
+  text: 'Родительская раскладка:'
+disable.mnemonic.in.menu.check.box:
+  text: Отключить мнемоники в &menu
+add.keyboard.shortcut.button:
+  text: Добавить &сочетание клавиш…
+add.mouse.shortcut.button:
+  text: Добавить &сочетание клавиш…
+remove.shortcut.button:
+  text: '&Удалить'
+conflict.shortcut.dialog.message:
+  text: Ярлык уже назначен другим действиям. Хотите удалить другие назначения?
+conflict.shortcut.dialog.title:
+  text: Предупреждение
+conflict.shortcut.dialog.remove.button:
+  text: Удалить
+conflict.shortcut.dialog.leave.button:
+  text: Выйти
+conflict.shortcut.dialog.cancel.button:
+  text: Отмена
+editor.shortcut:
+  text: Редактор {0}
+keymap.no.name:
+  text: <Без имени>
+mouse.shortcut.dialog.title:
+  text: Ввести сочетание клавиш мыши
+mouse.shortcut.dialog.single.click.radio:
+  text: Один щелчок
+mouse.shortcut.dialog.double.click.radio:
+  text: Двойной щелчок
+mouse.shortcut.dialog.click.count.border:
+  text: Количество щелчков
+mouse.shortcut.dialog.click.pad.border:
+  text: Панель щелчков
+mouse.shortcut.dialog.shortcut.preview.border:
+  text: Предварительный просмотр сочетания клавиш
+mouse.shortcut.dialog.conflicts.border:
+  text: Конфликты
+mouse.shortcut.dialog.no.conflicts.area:
+  text: Нет конфликтов
+mouse.shortcut.dialog.assigned.to.area:
+  text: Назначено для {0}
+mouse.shortcut.dialog.side.buttons.with.double.click:
+  text: Двойной щелчок не поддерживается для кнопки {0}
+actions.tree.external.tools.group:
+  text: Внешние инструменты
+new.keymap.name:
+  text: '{0} копировать'
+new.indexed.keymap.name:
+  text: '{0} копировать {1}'
+delete.keymap.dialog.message:
+  text: Хотите удалить раскладку?
+delete.keymap.dialog.title:
+  text: Предупреждение
+keymap.noname.presentable.name:
+  text: <unnamed>
+quick.list.panel.move.down.button:
+  text: Переместить &вниз
+quick.list.panel.move.up.button:
+  text: Переместить &вверх
+quick.list.panel.add.separator.button:
+  text: Добавить разделитель
+quick.list.panel.description.label:
+  text: 'Описание:'
+quick.list.panel.display.name.label:
+  text: 'Отображаемое название:'
+no.actions:
+  text: Нет действий
+mouse.click.shortcut.text:
+  text: '{0}Кнопка{1} Щелчок'
+mouse.double.click.shortcut.text:
+  text: '{0}Кнопка{1} Двойной щелчок'
+configuration.all.keymaps.should.have.non.empty.names.error.message:
+  text: Все раскладки должны иметь непустые имена
+configuration.all.keymaps.should.have.unique.names.error.message:
+  text: Все раскладки должны иметь уникальные имена
+filter.clear.action.text:
+  text: Очистить фильтрацию
+filter.settings.popup.title:
+  text: Настройки фильтра
+filter.enable.second.stroke.checkbox:
+  text: Включить
+filter.first.stroke.input:
+  text: 'Первый штрих:'
+filter.second.stroke.input:
+  text: 'Второй штрих:'
+filter.shortcut.action.text:
+  text: Найти действия по сочетанию клавиш
+disable.mnemonic.in.controls.check.box:
+  text: Отключить мнемоники в элементы управления
+edit.shortcut.action.text:
+  text: Изменить сочетание клавиш
+edit.shortcut.action.description:
+  text: Изменить сочетание клавиш
