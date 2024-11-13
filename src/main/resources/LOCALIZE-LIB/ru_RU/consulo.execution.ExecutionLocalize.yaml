@@ -1,0 +1,881 @@
+no.module.defined.error.message:
+  text: Модуль не определён
+module.does.not.exist.error.message:
+  text: Модуль «{0}» не существует
+no.jdk.for.module.error.message:
+  text: Нет SDK для модуля «{0}»
+no.module.extension.error.message:
+  text: Нет расширения модуля «{0}» для модуля «{1}»
+no.sdk.for.module.extension.error.message:
+  text: Нет SDK для расширения модуля «{0}» для модуля «{1}»
+jdk.is.bad.configured.error.message:
+  text: "«{0}» плохо настроен"
+class.not.found.in.module.error.message:
+  text: Класс «{0}» не найден в модуле «{1}»
+package.not.found.error.message:
+  text: Пакет «{0}» не найден
+jdk.not.configured.error.message:
+  text: SDK «{0}» не настроен
+project.has.no.jdk.error.message:
+  text: В проекте выбран SDK
+some.modules.has.circular.dependency.error.message:
+  text: Некоторые модули имеют циклические зависимости.
+project.has.no.jdk.configured.error.message:
+  text: В проекте не настроен JDK.
+run.configuration.stop.action.name:
+  text: Стоп
+warning.common.title:
+  text: Предупреждение
+run.configuration.error.dialog.title:
+  text: Ошибка конфигурации запуска
+no.jdk.specified..error.message:
+  text: Не указан JDK
+home.directory.not.specified.for.jdk.error.message:
+  text: Для JDK не указан домашняя папка
+run.configuration.pause.output.action.name:
+  text: Приостановить вывод
+main.class.is.not.specified.error.message:
+  text: Главный класс не указан
+close.tab.action.name:
+  text: Закрыть
+run.configuration.show.command.line.action.name:
+  text: Показать командную строку
+multiple.specified:
+  text: Указано несколько
+node.default:
+  text: <default>
+searching.test.progress.title:
+  text: Поиск для тестов…
+diff.content.expected.title.with.file.url:
+  text: Ожидалось ({0})
+diff.content.actual.title.with.file.url:
+  text: По факту ({0})
+create.run.configuration.action.name:
+  text: Создать конфигурацию запуска
+create.run.configuration.for.item.action.name:
+  text: Создать «{0}»
+create.run.configuration.for.item.dialog.title:
+  text: 'Создать конфигурацию запуска/отладки: «{0}»'
+edit.configuration.action:
+  text: '&Изменить конфигурации'
+save.temporary.run.configuration.action.name:
+  text: '&Сохранить конфигурацию «{0}»'
+choose.run.configuration.action.description:
+  text: Выпадающий список «Открыть конфигурации запуска/отладки»
+perform.action.with.context.configuration.action.name:
+  text: 'Конфигурация контекста {0}'
+error.common.title:
+  text: Ошибка
+error.running.configuration.message:
+  text: Ошибка запуска {0}
+select.applet.policy.file.dialog.title:
+  text: Выберите файл политики апплета
+choose.html.file.dialog.title:
+  text: Выберите HTML-файл
+html.file.not.specified.error.message:
+  text: Не указан HTML-файл
+jre.not.valid.error.message:
+  text: '«{0}» не является допустимой домашней папкой JRE'
+applet.configuration.description:
+  text: Конфигурация Java-апплета
+applet.configuration.name:
+  text: Java-апплет
+run.configuration.norunner.selected.label:
+  text: Не выбрано ни одного исполнителя
+run.configuration.configuration.tab.title:
+  text: Конфигурация
+run.configuration.startup.connection.rab.title:
+  text: Запуск/Подключение
+add.new.run.configuration.action2.name:
+  text: Добавить новую конфигурацию
+add.new.run.configuration.action.name:
+  text: Добавить новую конфигурацию «{0}»
+remove.run.configuration.action.name:
+  text: Удалить конфигурацию
+no.parameters:
+  text: Без параметров
+tool.window.name.run:
+  text: Выполнить
+run.configuration.edit.default.configuration.settings.text:
+  text: Изменить настройки по умолчанию
+run.configuration.edit.default.configuration.settings.description:
+  text: Изменить настройки по умолчанию
+run.configuration.create.folder.text:
+  text: Создать новую папку
+run.configuration.create.folder.description:
+  text: Создать новую папку
+run.configuration.create.folder.description.move:
+  text: Переместить в новую папка
+run.configuration.rename.folder:
+  text: Переименовать папку «{0}»
+run.configuration.rename.folder.disclaimer:
+  text: 'Примечание: пустые папки не будут сохранены'
+default.settings.editor.dialog.title:
+  text: Настройки по умолчанию
+clear.all.from.console.action.name:
+  text: Очистить всё
+copy.selected.content.action.name:
+  text: Копировать выбранное содержимое
+copy.content.action.name:
+  text: Копировать содержимое
+run.debug.dialog.title:
+  text: Конфигурации запуска/отладки
+run.configuration.display.settings.checkbox:
+  text: Настройки отображения &перед запуском
+run.configurable.display.name:
+  text: Запустить
+apply.action.name:
+  text: '&Применить'
+invalid.data.dialog.title:
+  text: Недопустимые данные
+template.settings.configurable.display.name:
+  text: Настройки шаблона
+default.run.configuration.name:
+  text: <безымянный>
+title.cannot.open.file:
+  text: Невозможно открыть файл
+process.is.running.dialog.title:
+  text: Процесс «{0}» запущен
+button.disconnect:
+  text: Отключить
+button.terminate:
+  text: Завершить
+disconnect.process.confirmation.text:
+  text: Вы хотите отключиться от процесса «{0}»?
+terminate.process.confirmation.text:
+  text: Вы хотите завершить процесс «{0}»?
+terminate.after.disconnect.checkbox:
+  text: Завершить процесс после отключения
+copy.configuration.action.name:
+  text: Копировать конфигурацию
+junit.configuration.display.name:
+  text: JUnit
+junit.configuration.description:
+  text: Конфигурация JUnit-теста
+no.junit.error.message:
+  text: Нет junit.jar
+no.junit.in.scope.error.message:
+  text: Нет junit.jar в {0}
+junit.not.found.in.module.error.message:
+  text: JUnit не найден в модуле «{0}»
+cannot.browse.test.inheritors.dialog.title:
+  text: Невозможно просмотреть наследников TestCase
+seaching.test.progress.title:
+  text: Поиск тестов…
+configuration.not.speficied.message:
+  text: Тип теста конфигурации не указан
+test.in.scope.presentable.text:
+  text: Тесты в «{0}»
+all.tests.scope.presentable.text:
+  text: Все тесты
+module.does.not.exists:
+  text: Модуль «{0}» не существует в проекте «{1}»
+select.working.directory.message:
+  text: Выберите рабочую папку
+set.class.name.message:
+  text: Сперва пропишите имя класса
+cannot.browse.method.dialog.title:
+  text: Невозможно просмотреть методы
+class.does.not.exists.error.message:
+  text: Класс {0} не существует
+choose.package.dialog.title:
+  text: Выберите пакет
+choose.test.class.dialog.title:
+  text: Выберите тестовый класс
+choose.test.method.dialog.title:
+  text: Выберите тестовый метод
+test.cases.count.message:
+  text: '{0} {0,choice,1#тест|2#тестов}'
+diff.content.expected.title:
+  text: Ожидалось
+diff.content.expected.for.file.title:
+  text: 'Ожидалось	:'
+diff.content.actual.title:
+  text: По факту
+junit.actual.text.label:
+  text: 'По факту	:'
+junit.click.to.see.diff.link:
+  text: <Нажмите, чтобы увидеть разницу>
+output.tab.title:
+  text: Вывод
+statistics.tab.title:
+  text: Статистика
+test.not.started.progress.text:
+  text: Тесты не были запущены
+starting.jvm.progress.text:
+  text: Запуск JVM…
+instantiating.tests.progress.text:
+  text: Создание экземпляров тестов…
+next.faled.test.action.name:
+  text: К следующему упавшему тесту
+prev.faled.test.action.name:
+  text: К предыдущему упавшему тесту
+junit.runing.info.memory.available.kb.message:
+  text: '{0} кб.'
+junit.runing.info.memory.available.mb.message:
+  text: '{0} мб.'
+junit.runing.info.time.sec.message:
+  text: '{0} с'
+junit.runing.info.total.label:
+  text: 'Всего:'
+junit.runing.info.starting.label:
+  text: Запуск…
+junit.runing.info.running.label:
+  text: Запущено
+junit.runing.info.passed.label:
+  text: Успешно
+junit.runing.info.terminated.label:
+  text: Прекращено
+junit.runing.info.assertion.tree.node:
+  text: Утверждение
+junit.runing.info.error.tree.node:
+  text: Ошибка
+junit.runing.info.ignored.label:
+  text: Пропущено
+junit.runing.info.ignored.console.message:
+  text: Тест ''{0}.{1}'' пропущен
+junit.runing.info.left.to.run.count.tree.node:
+  text: 'Осталось: {0}'
+junit.runing.info.failed.count.message:
+  text: Н:{0}
+junit.runing.info.errors.count.message:
+  text: О:{0}
+junit.runing.info.passed.count.message:
+  text: У:{0}
+junit.runing.info.ignored.count.message:
+  text: П:{0}
+junit.runing.info.status.completed.from.total.failed:
+  text: '{0} из {1} Не удалось: {2}'
+junit.runing.info.status.completed.from.total:
+  text: '{0} из {1}'
+junit.runing.info.status.running.number.with.name:
+  text: 'Выполняется: {0} {1}'
+junit.runing.info.failed.to.start.error.message:
+  text: Не удалось запустить
+junit.runing.info.tests.failed.label:
+  text: Тесты не пройдены
+junit.runing.info.tests.passed.label:
+  text: Тесты успешно пройдены
+tests.passed.with.warnings.message:
+  text: Тесты успешно пройдены (с предупреждениями)
+junit.run.hide.passed.action.name:
+  text: Скрыть успешные
+junit.run.hide.ignored.action.name:
+  text: Скрыть пропущенные
+junit.run.hide.passed.action.description:
+  text: Скрыть успешно пройденные тесты
+junit.runing.info.track.test.action.name:
+  text: Отслеживать выполнение теста
+junit.runing.info.sort.alphabetically.action.name:
+  text: Сортировать по алфавиту
+junit.runing.info.sort.alphabetically.action.description:
+  text: Сортировать тесты или наборы по алфавиту
+junit.runing.info.track.test.action.description:
+  text: Выбрать текущий запущенный тест в дереве
+junit.runing.info.collapse.test.action.name:
+  text: Свернуть все наборы тестов
+junit.runing.info.expand.test.action.name:
+  text: Развернуть все наборы тестов
+junit.runing.info.select.first.failed.action.name:
+  text: Выбрать первый не пройденный тест по окончании
+junit.runing.info.include.non.started.in.rerun.failed.action.name:
+  text: Не удалось включить не запущенные тесты в повторный запуск
+junit.runing.info.scroll.to.stacktrace.action.name:
+  text: Прокрутить до трассировки стека
+junit.runing.info.scroll.to.stacktrace.action.description:
+  text: Прокрутить консоль к началу трассировки стека утверждений или исключений
+junit.runing.info.open.source.at.exception.action.name:
+  text: Открыть исходный код при исключении
+junit.runing.info.open.source.at.exception.action.description:
+  text: Перейти к строке, вызвавшей исключение при открытии исходного кода теста
+junit.all.tests.passed.label:
+  text: Все тесты пройдены
+junit.tests.in.progress.label:
+  text: Тесты в процессе
+junit.auto.scroll.to.source.action.name:
+  text: Автоматически прокрутить к исходнику
+junit.open.text.in.editor.action.name:
+  text: Открыть выбранный тест в редакторе
+run.configuration.java.vm.parameters.label:
+  text: '&Параметры виртуальной машины:'
+run.configuration.program.parameters:
+  text: 'Аргументы программы:'
+run.configuration.working.directory.label:
+  text: '&Рабочая папка:'
+run.configuration.use.alternate.jre.checkbox:
+  text: 'Использовать альтернативный &JRE:'
+run.configuration.select.alternate.jre.label:
+  text: Выбрать альтернативный JRE
+run.configuration.select.jre.dir.label:
+  text: Выберите каталог с JRE для запуска
+run.configuration.arguments.help.panel.copy.action.name:
+  text: Копировать
+terminating.process.progress.title:
+  text: Завершение «{0}»
+terminating.process.progress.kill:
+  text: Убить процесс
+waiting.for.vm.detach.progress.text:
+  text: Ожидание отсоединения процесса
+restart.error.message.title:
+  text: Ошибка перезапуска
+rerun.configuration.action.name:
+  text: Повторный запуск «{0}»
+stop.configuration.action.name:
+  text: Остановить «{0}»
+stop.all:
+  text: Остановить все ({0}}
+rerun.singleton.confirmation.message:
+  text: |-
+    «{0}» — это конфигурация запуска одного экземпляра.
+    Вы уверены, что хотите остановить {1, choice, 1#уже запущенный|2#{1, number} запущенных}?
+rerun.confirmation.button.text:
+  text: Остановить и перезапустить
+incompatible.configuration.is.running.dialog.title:
+  text: "{0, choice, 1#Запущена несовместимая конфигурация|2#Запущены несовместимые конфигурации}"
+rerun.confirmation.checkbox:
+  text: Подтвердить перезапуск в случае завершения процесса или несовместимости
+stop.incompatible.confirmation.message:
+  text: |-
+    Конфигурация запуска «{0}» несовместима {2,choice,1#с текущей запущенной конфигурацией {1}.|2#со следующими запущенными конфигурациями:
+    {1}}
+    Вы уверены, что хотите остановить {2,choice,1#несовместимый запущенный экземпляр|2#{2, number} несовместимых запущенных экземпляров}?
+stop.incompatible.confirmation.button.text:
+  text: Остановить несовместимое
+run.configuration.dump.threads.action.name:
+  text: Снимок памяти потоков
+run.configuration.exit.action.name:
+  text: Выход
+run.error.message.title:
+  text: Ошибка запуска
+default.runner.start.action.text:
+  text: "&Запуск"
+default.runner.start.action.text.0:
+  text: "&Запустить {0}"
+remote.debug.configuration.description:
+  text: Удалённая конфигурация отладки
+remote.debug.configuration.display.name:
+  text: Удалённая
+show.running.list.action.name:
+  text: Показать список выполнения
+show.running.list.action.description:
+  text: Показать список конфигураций выполнения, работающих в данный момент
+show.running.list.balloon.title:
+  text: Список выполнения
+show.running.list.balloon.nothing:
+  text: Нечего показать
+show.running.list.balloon.hint:
+  text: Щелкните для навигации
+run.configuration.no.name:
+  text: <Без имени>
+applet.configuration.url.label:
+  text: '&URL'
+applet.configuration.applet.class.border:
+  text: Класс апплета
+applet.configuration.applet.parameters.label:
+  text: Параметры апплета
+applet.configuration.applet.class.option:
+  text: '&Класс апплета'
+applet.configuration.applet.class.label:
+  text: 'Класс &апплета:'
+button.remove:
+  text: '&Удалить'
+button.add:
+  text: '&Добавить'
+applet.configuration.height.label:
+  text: '&Высота:'
+applet.configuration.width.label:
+  text: '&Ширина:'
+applet.configuration.url.html.file.label:
+  text: 'URL/HTML-&файл:'
+applet.configuration.url.border:
+  text: URL
+applet.configuration.vm.parameters.for.appletviewer.label:
+  text: '&Параметры виртуальной машины для appletviewer:'
+applet.configuration.policy.file.label:
+  text: '&Файл политики:'
+applet.configuration.parameter.name.column:
+  text: Название
+applet.configuration.parameter.value.column:
+  text: Значение
+class.not.specified.error.message:
+  text: Класс не указан.
+failed.to.generate.wrapper.error.message:
+  text: Не удалось сгенерировать временную HTML-оболочку для класса апплета
+application.configuration.use.classpath.and.jdk.of.module.label:
+  text: 'Использовать classpath для &модуля:'
+application.configuration.main.class.label:
+  text: 'Основной &класс:'
+jre.path.is.not.valid.jre.home.error.mesage:
+  text: '«{0}» не является допустимой домашней папкой JRE'
+main.method.not.found.in.class.error.message:
+  text: Основной метод не найден в классе {0}
+no.user.process.input.error.message:
+  text: Нет входных данных процесса
+fix.run.configuration.problem.button:
+  text: Исправить
+class.isnt.test.class.error.message:
+  text: '{0} не является тестовым классом'
+class.isnt.inheritor.of.testcase.error.message:
+  text: '{0} не является наследником TestCase'
+junit.jar.not.found.in.module.class.path.error.message:
+  text: junit.jar не найден в пути класса модуля «{0}».
+method.name.not.specified.error.message:
+  text: Имя метода не указано
+test.method.doesnt.exist.error.message:
+  text: Тестовый метод «{0}» не существует
+no.tests.found.in.package.error.message:
+  text: В пакете «{0}» не найдено ни одного теста
+package.does.not.exist.error.message:
+  text: Пакет «{0}» не существует
+choose.main.class.dialog.title:
+  text: Выберите основной класс
+choose.applet.class.dialog.title:
+  text: Выберите класс апплета
+junit.configuration.test.runner.parameters.label:
+  text: '&Параметры исполнителя тестов:'
+junit.configuration.test.border:
+  text: Тест
+junit.configuration.across.module.dependencies.radio:
+  text: &По зависимостям модулей
+junit.configuration.in.single.module.radio:
+  text: В &конкретном модуле
+junit.configuration.in.whole.project.radio:
+  text: По &всему проекту
+junit.configuration.search.for.tests.label:
+  text: 'Поиск тестов:'
+junit.configuration.package.label:
+  text: 'Пакет:'
+junit.configuration.method.label:
+  text: 'Метод:'
+junit.configuration.class.label:
+  text: '&Класс:'
+junit.configuration.configure.junit.test.label:
+  text: 'Тест:'
+junit.configuration.test.method.radio:
+  text: Тестовый метод
+junit.configuration.test.class.radio:
+  text: Тестовый класс
+junit.configuration.class.radio:
+  text: "&Класс"
+junit.configuration.method.radio:
+  text: "&Метод"
+jnit.configuration.all.tests.in.package.radio:
+  text: Все тесты в пакете
+junit.configuration.all.in.package.radio:
+  text: Все в &пакете
+no.jdk.specified.for.module.warning.text:
+  text: JDK не указан для модуля «{0}»
+module.not.specified.error.text:
+  text: Модуль не указан
+module.is.unloaded.from.project.error.text:
+  text: Модуль «{0}» выгружен из проекта
+module.doesn.t.exist.in.project.error.text:
+  text: В проекте нет модуля «{0}»
+run.configuration.unnamed.name.prefix:
+  text: Безымянный
+no.applet.class.specified.error.message:
+  text: Не указан класс апплета
+no.main.class.specified.error.text:
+  text: Не указан основной класс
+action.name.save.configuration:
+  text: Сохранить конфигурацию
+empty.run.configuration.panel.text.label1:
+  text: Нажмите
+empty.run.configuration.panel.text.label2:
+  text: <html><a href="add{1}"><img src="{0}" border="0"></a></html>
+empty.run.configuration.panel.text.label3:
+  text: кнопка для создания нового {0} на основе настроек по умолчанию
+default.package.presentable.name:
+  text: <default>
+default.package.configuration.name:
+  text: пакет по умолчанию
+no.test.class.specified.error.text:
+  text: Не указан тестовый класс
+edit.run.configuration.run.configuration.name.label:
+  text: '&Название:'
+default.junit.configuration.name:
+  text: "<безымянный>"
+strings.equal.failed.dialog.title:
+  text: Ошибка сравнения
+junit.runing.info.test.column.name:
+  text: Тест
+junit.runing.info.time.elapsed.column.name:
+  text: Прошло времени
+junit.runing.info.usage.delta.column.name:
+  text: Использование прошло
+junit.runing.info.usage.before.column.name:
+  text: Использование до
+junit.runing.info.usage.after.column.name:
+  text: Использование после
+junit.runing.info.results.column.name:
+  text: Результаты
+junit.runing.info.loading.tree.node.text:
+  text: загрузка
+remote.configuration.settings.border:
+  text: Настройки
+remote.configuration.transport.label:
+  text: 'Транспорт:'
+remote.configuration.listen.radio:
+  text: Прослушивание
+remote.configuration.attach.radio:
+  text: Прикрепить
+remote.configuration.debugger.mode.label:
+  text: 'Режим отладки:'
+remote.configuration.shared.memory.radio:
+  text: Общая память
+remote.configuration.socket.radio:
+  text: Сокет
+remote.configuration.shared.memory.address.label:
+  text: 'Адрес общей памяти:'
+remote.configuration.port.label:
+  text: 'Порт:'
+remote.configuration.host.label:
+  text: 'Хост:'
+remote.configuration.remote.debugging.allows.you.to.connect.idea.to.a.running.jvm.label:
+  text: '&Аргументы командной строки для запуска удалённой JVM'
+standard.runner.description:
+  text: Запустить выбранную конфигурацию
+environment.variables.helper.use.arguments.label:
+  text: <html><body>Используйте следующие аргументы командной строки для запуска удалённой JVM</body></html>
+environment.variables.helper.use.arguments.jdk13.label:
+  text: <html><body>Для JDK 1.3.x или более ранних версий</body></html>
+environment.variables.helper.use.arguments.jdk14.label:
+  text: <html><body>Для JDK 1.4.x</body></html>
+select.run.configuration.for.item.action.name:
+  text: Выберите «{0}»
+save.run.configuration.for.item.action.name:
+  text: Сохранить «{0}»
+junit.runing.info.status.done.count:
+  text: 'Готово: {0}'
+junit.runing.info.status.terminated.count:
+  text: 'Прекращено: {0}'
+junit.runing.info.tests.in.progress.done.tree.node:
+  text: 'Тесты в процессе: выполнено'
+junit.runing.info.tests.in.progress.terminated.tre.node:
+  text: 'Тесты в процессе: завершено'
+delete.confirmation.dialog.title:
+  text: Подтверждение удаления
+move.up.action.name:
+  text: Переместить вверх
+move.down.action.name:
+  text: Переместить вниз
+memory.available.message:
+  text: '{0} Кб'
+enable.coverage.with.emma:
+  text: Запись кода и информации о покрытии
+merge.coverage.data:
+  text: '&Объединить собранное покрытие с набором, выбранным ниже'
+record.coverage.filters.title:
+  text: Пакеты и классы для записи данных о покрытии
+coverage.tab.title:
+  text: Покрытие кода
+show.swing.inspector:
+  text: '&Включить захват снимков форм'
+show.swing.inspector.disabled:
+  text: '&Включить захват снимков форм (требуется JRE 5.0 или выше)'
+before.run.property.make:
+  text: Сборка
+run.configuration.store.place.option:
+  text: '&Поделиться'
+run.configuration.singleton:
+  text: Только один экземпляр
+run.configuration.default.type.description:
+  text: конфигурация
+run.configuration.error.no.jdk.specified:
+  text: JDK не указан
+run.configuration.cannot.find.vm.executable:
+  text: Не удается найти исполняемый файл виртуальной машины
+logs.tab.title:
+  text: Журналы
+logs.show.console.on.stdout:
+  text: Показать консоль при изменении stdout
+logs.show.console.on.stderr:
+  text: Показать консоль при изменении stderr
+before.launch.panel.title:
+  text: '&Перед запуском'
+before.launch.panel.empty:
+  text: Нет задач перед запуском
+before.launch.panel.cyclic_dependency_warning:
+  text: |-
+    «{0}» уже настроен на запуск до {1}.
+    Такие циклические зависимости не допускаются.
+before.launch.run.another.configuration.choose:
+  text: Выберите конфигурацию для выполнения
+before.launch.run.another.configuration:
+  text: Запустить другую конфигурацию
+before.launch.run.certain.configuration:
+  text: Запустить «{0}»
+before.launch.run.unknown.task:
+  text: Неизвестная задача
+action.name.save.as.configuration:
+  text: Сохранить как
+default.junit.config.name.all.in.module:
+  text: Все в {0}
+default.junit.config.name.all.in.package.in.module:
+  text: '{0} в {1}'
+down.the.stack.trace:
+  text: Вниз по трассировке стека
+up.the.stack.trace:
+  text: Вверх по трассировке стека
+configuration.action.chooser.title:
+  text: Выберите тип конфигурации для запуска
+env.vars.checkbox.title:
+  text: '&Включить родительские переменные среды'
+before.launch.compile.step:
+  text: Сборка
+before.launch.compile.step.no.error.check:
+  text: Сборка, без проверки ошибок
+execute.before.run.debug.dialog.title:
+  text: Выполнить {0} перед запуском/отладкой
+export.test.results.filename:
+  text: Результаты теста — {0}
+export.test.results.succeeded:
+  text: <html>Результаты теста успешно экспортированы в <a href="#a">{0}</a></html>
+export.test.results.failed:
+  text: 'Экспорт результатов теста не удался: {0}'
+export.test.results.custom.template.chooser.title:
+  text: Выбрать пользовательский шаблон
+export.test.results.output.folder.chooser.title:
+  text: Выберите папку вывода
+export.test.results.custom.template.path.empty:
+  text: Пустой путь к определенному пользователем шаблону
+export.test.results.custom.template.not.found:
+  text: Не найден определенный пользователем файл шаблона «{0}»
+export.test.results.task.name:
+  text: Экспорт результатов теста
+export.test.results.open.editor:
+  text: Открыть экспортированный файл в редакторе
+export.test.results.open.browser:
+  text: Открыть экспортированный файл в браузере
+export.test.results.dialog.title:
+  text: Экспорт результатов теста
+export.test.results.output.path.empty:
+  text: Пустой путь к выходным данным
+export.test.results.output.filename.empty:
+  text: Имя выходного файла пустое
+export.test.results.footer:
+  text: Сгенерировано {0} в {1}
+export.test.results.file.exists.message:
+  text: |-
+    Файл «{0}» уже существует.
+    Хотите перезаписать его?
+export.test.results.file.exists.title:
+  text: Экспорт результатов теста
+configuration.edit.before.run:
+  text: Показать эту страницу
+configuration.singleton:
+  text: Проверьте, не запущены ли другие экземпляры
+failed.to.create.output.file:
+  text: Не удалось создать выходной файл «{0}»
+script.execution.timeout:
+  text: Выполнение скрипта заняло более {0} секунд.
+junit.configuration.configure.junit.test.kind.label:
+  text: '&Тип теста:'
+environment.variables.dialog.title:
+  text: Переменные среды
+environment.variables.system.dialog.title:
+  text: Системная среда
+environment.variables.component.title:
+  text: '&Переменные среды'
+env.vars.show.system:
+  text: Показать
+sm.test.runner.magnitude.completed.failed.title:
+  text: Завершено
+sm.test.runner.magnitude.passed.title:
+  text: Успешно
+sm.test.runner.magnitude.skipped.failed.title:
+  text: Пропущено
+sm.test.runner.magnitude.not.run.failed.title:
+  text: Не запущено
+sm.test.runner.magnitude.running.failed.title:
+  text: Выполнение…
+sm.test.runner.magnitude.terminated.failed.title:
+  text: Прервано
+sm.test.runner.magnitude.ignored.failed.title:
+  text: Пропущено
+sm.test.runner.magnitude.assertion.failed.title:
+  text: Ошибочных утверждений
+sm.test.runner.magnitude.testerror.title:
+  text: Ошибка
+run.dashboard.empty.selection.message:
+  text: Выберите конфигурацию запуска в дереве для просмотра подробностей
+run.dashboard.not.started.configuration.message:
+  text: Конфигурация запуска не запущена
+run.dashboard.group.by.type.action.name:
+  text: Группировка по типу
+run.dashboard.group.by.status.action.name:
+  text: Группировка по статусу
+run.dashboard.group.by.folder.action.name:
+  text: Группировка по папке
+run.dashboard.run.action.name:
+  text: (Пере)запустить
+run.dashboard.run.action.description:
+  text: (Пере)запустить выбранные конфигурации запуска
+run.dashboard.debug.action.name:
+  text: (Пере)запустить в режиме отладки
+run.dashboard.debug.action.description:
+  text: (Пере)запустить выбранные конфигурации запуска в режиме отладки
+run.dashboard.stop.action.name:
+  text: Остановить
+run.dashboard.stop.action.description:
+  text: Остановить выбранные конфигурации запуска
+run.dashboard.edit.configuration.action.name:
+  text: Изменить конфигурацию
+run.dashboard.edit.configuration.dialog.title:
+  text: Изменить конфигурацию запуска
+run.dashboard.remove.configuration.action.name:
+  text: Удалить конфигурацию запуска
+run.dashboard.remove.configuration.action.description:
+  text: Удалить конфигурацию запуска
+run.dashboard.remove.configuration.dialog.title:
+  text: Удалить конфигурацию запуска
+run.dashboard.remove.configuration.dialog.message:
+  text: Вы уверены, что хотите удалить выбранные конфигурации запуска?
+run.dashboard.started.group.name:
+  text: Запущено
+run.dashboard.stopped.group.name:
+  text: Остановлено
+run.dashboard.failed.group.name:
+  text: Не удалось
+run.dashboard.configurable.add.configuration.type:
+  text: Добавить тип конфигурации
+run.dashboard.configurable.types.panel.hint:
+  text: Выберите один или несколько типов
+run.dashboard.remove.run.configuration.type.confirmation:
+  text: Удалить {0} из служб?
+run.dashboard.remove.run.configuration.types.confirmation:
+  text: Удалить {0} типов конфигурации из служб?
+confirm.process.stop:
+  text: Подтвердить остановку процесса
+stop.process:
+  text: Остановить процесс
+action.terminating.process.progress.kill.description:
+  text: Убить процесс
+confirm.background.process.stop:
+  text: Подтвердить остановку фонового процесса
+stop.background.process:
+  text: Остановить фоновый процесс
+message.cannot.find.file.0:
+  text: Не удается найти файл {0}
+popup.title.choose.target.file:
+  text: Выбрать целевой файл
+log.console.filter.show.errors:
+  text: ошибок
+log.console.filter.show.errors.and.warnings:
+  text: предупреждений
+log.console.filter.show.all:
+  text: всего
+log.console.filter.show.errors.warnings.and.infos:
+  text: информационных сообщений
+junit.running.info.failed.to.start.error.message:
+  text: Не удалось запустить
+junit.running.info.tests.failed.label:
+  text: Тесты не пройдены
+junit.running.info.tests.failed.with.test.name.label:
+  text: Тесты не пройдены {0}
+junit.running.info.tests.passed.label:
+  text: Тесты успешно пройдены
+junit.running.info.tests.passed.with.test.name.label:
+  text: Тесты успешно пройдены {0}
+junit.runing.info.sort.group.name:
+  text: Параметры сортировки
+junit.runing.info.sort.by.statistics.action.name:
+  text: Сортировать по длительности
+junit.runing.info.sort.by.statistics.action.description:
+  text: Сортировать тесты или наборы по продолжительности
+junit.runing.info.folders.on.top.action.name:
+  text: Наборы всегда сверху
+junit.runing.info.folders.on.top.action.description:
+  text: Сортировать наборы сверху
+junit.runing.info.test.runner.options.group.name:
+  text: Параметры тестового запуска
+junit.runing.info.hide.successful.config.action.name:
+  text: Скрыть успешные setUp/tearDown
+log.monitor.no.files:
+  text: Нет прикрепленных лог-файлов
+log.monitor.remove.button:
+  text: "&Удалить"
+log.monitor.add.button:
+  text: "&Добавить"
+log.monitor.group:
+  text: Лог-файлы, которые будут показаны в консоли
+log.monitor.log.file.column:
+  text: Запись лог-файла
+log.monitor.is.active.column:
+  text: Является активным
+log.monitor.is.skipped.column:
+  text: Пропустить содержимое
+log.monitor.edit.aliases.title:
+  text: Изменить псевдонимы лог-файлов
+log.monitor.edit.aliases.name:
+  text: '&Псевдоним:'
+log.monitor.edit.aliases.location:
+  text: '&Расположение лог-файла:'
+log.monitor.edit.aliases.show.all.checkbox.title:
+  text: '&Показать все файлы, охватываемые шаблоном'
+title.submitting.error.report:
+  text: Отправка отчёта об ошибке
+service.view.open.in.new.tab.ad.text:
+  text: Перетащите узел на заголовок окна инструмента, чтобы открыть новую вкладку
+service.view.empty.tree.text:
+  text: Нет настроенных служб.
+service.view.empty.tab.text:
+  text: Нет доступного контента
+service.view.empty.selection.text:
+  text: Выберите службу для просмотра сведений
+service.view.add.service.action.name:
+  text: Добавить службу
+service.view.delete.confirmation:
+  text: "Удалить {0}?"
+service.view.items:
+  text: "{0, choice, 1#1 элемент|1<{0,number,integer} элементов}"
+service.view.group.label:
+  text: "Название группы:"
+service.view.group.title:
+  text: Групповые службы
+service.view.all.services:
+  text: Все службы
+service.view.scroll.from.editor.action.name:
+  text: Выбрать открытую службу
+service.view.scroll.from.editor.action.description:
+  text: Выбрать открытую службу в активном редакторе
+service.view.activate.tool.window.action.name:
+  text: "{0} (Службы)"
+service.view.activate.tool.window.action.description:
+  text: Окно активации служб
+service.view.include.into.services.action.text:
+  text: Добавить в окно инструментов служб
+service.view.configure.dialog.title:
+  text: Окно инструментов настройки служб
+service.view.configure.dialog.description:
+  text: "Исключить службу, чтобы показать её как отдельное окно инструмента. <br>Исключить тип конфигурации запуска, чтобы показать ее вывод в окне инструмента запуска/отладки."
+service.view.configure.exclude.button.text:
+  text: "&Исключить >"
+service.view.configure.include.button.text:
+  text: "< &Включить"
+service.view.configure.included.label.text:
+  text: "Окно инструментов служб:"
+service.view.configure.excluded.label.text:
+  text: "Отдельные окна инструментов:"
+service.view.configure.run.configuration.types:
+  text: Типы конфигураций запуска/отладки
+service.view.configure.run.tool.windows:
+  text: Запуск/отладка
+run.combo.box.add.configuration:
+  text: Добавить конфигурацию…
+show.irrelevant.configurations.action.name:
+  text: "{0} элементов осталось…"
+run.dashboard.configured.group.name:
+  text: Не запущено
+run.dashboard.configurations.message:
+  text: Запустить/Остановить выбранные конфигурации
+run.dashboard.rerun.action.name:
+  text: Перезапустить
+run.dashboard.rerun.action.description:
+  text: Перезапустить выбранные конфигурации
+run.dashboard.restart.debugger.action.name:
+  text: Перезапустить в режиме отладки
+run.dashboard.restart.debugger.action.description:
+  text: Перезапустить выбранные конфигурации в режиме отладки
+open.message.view:
+  text: Открыть список сообщений
