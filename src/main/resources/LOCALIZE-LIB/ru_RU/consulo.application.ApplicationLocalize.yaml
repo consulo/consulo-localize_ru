@@ -671,7 +671,7 @@ checkbox.show.line.numbers:
 checkbox.right.margin:
   text: Показать правое поле (настраивается в параметрах стиля кода)
 checkbox.use.block.caret:
-  text: Использовать блочный каретку
+  text: Использовать блочный курсор
 checkbox.caret.blinking.ms:
   text: 'Мигание каретки (мс):'
 checkbox.mark.modified.tabs.with.asterisk:
@@ -747,9 +747,9 @@ checkbox.use.soft.wraps.at.console:
 checkbox.use.custom.soft.wraps.indent:
   text: Использовать отступ для пользовательских мягких переносов
 checkbox.allow.placement.of.caret.after.end.of.line:
-  text: Разрешить размещение каретки после конца строки
+  text: Разрешить размещение курсора после конца строки
 checkbox.allow.placement.of.caret.inside.tabs:
-  text: Разрешить размещение каретки внутри вкладок
+  text: Разрешить размещение курсора внутри вкладок
 checkbox.show.virtual.space.at.file.bottom:
   text: Показывать виртуальное пространство внизу файла
 checkbox.optimize.imports.on.the.fly:

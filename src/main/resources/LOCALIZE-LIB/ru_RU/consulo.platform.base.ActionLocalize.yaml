@@ -141,9 +141,9 @@ action.EditorDelete.text:
 action.EditorBackSpace.text:
   text: Backspace
 action.EditorHungryBackSpace.text:
-  text: Hungry Backspace
+  text: Жадный Backspace
 action.EditorHungryBackSpace.description:
-  text: Действует как Backspace, за исключением того, что удаляет все символы пробелов перед кареткой (если есть)
+  text: Действует как Backspace, за исключением того, что удаляет все пробельные символы перед курсором (если есть)
 action.EditorMoveToPageTop.text:
   text: Переместить курсор в начало страницы
 action.EditorMoveToPageBottom.text:
@@ -209,9 +209,9 @@ action.EditorMoveDownAndScrollWithSelection.text:
 action.EditorAddOrRemoveCaret.text:
   text: Добавить или удалить курсор
 action.EditorCloneCaretBelow.text:
-  text: Клонировать каретку ниже
+  text: Клонировать курсор ниже
 action.EditorCloneCaretAbove.text:
-  text: Clone Caret Above
+  text: Клонировать курсор выше
 action.SelectNextOccurrence.text:
   text: Добавить следующее вхождение в выделение
 action.SelectAllOccurrences.text:
@@ -723,7 +723,7 @@ action.FixDocComment.description:
 action.QuickJavaDoc.text:
   text: Быстрая _документация
 action.QuickJavaDoc.description:
-  text: Показать всплывающее окно с документацией для символа в каретке
+  text: Показать всплывающее окно с документацией для символа под курсором
 action.QuickImplementations.text:
   text: Быстрое _определение
 action.QuickImplementations.description:
@@ -789,31 +789,31 @@ action.CallHierarchy.text:
 action.CallHierarchy.description:
   text: Просмотреть иерархию вызовов для выбранного метода
 group.FoldingGroup.text:
-  text: Свёртывание
+  text: Сворачивание
 action.ExpandRegion.text:
   text: _Развернуть
 action.ExpandRegion.description:
-  text: Развернуть область складывания по каретке
+  text: Развернуть сворачивающуюся область под курсором
 action.CollapseRegion.text:
   text: _Свернуть
 action.CollapseRegion.description:
-  text: Свернуть складывающуюся область у курсора
+  text: Свернуть сворачивающуюся область под курсором
 action.ExpandAllRegions.text:
   text: _Развернуть всё
 action.ExpandAllRegions.description:
-  text: Развернуть все области складывания
+  text: Развернуть все области сворачивания
 action.CollapseAllRegions.text:
   text: Свернуть _всё
 action.CollapseAllRegions.description:
-  text: Свернуть все складывающиеся области
+  text: Свернуть все сворачивающиеся области
 action.ExpandDocComments.text:
-  text: _Развернуть комментарии к документации
+  text: _Развернуть документирующие комментарии
 action.ExpandDocComments.description:
-  text: Развернуть все комментарии к документации
+  text: Развернуть все документирующие комментарии
 action.CollapseDocComments.text:
-  text: _Свернуть комментарии к документации
+  text: _Свернуть документирующие комментарии
 action.CollapseDocComments.description:
-  text: Свернуть все комментарии к документации
+  text: Свернуть все документирующие комментарии
 action.CollapseSelection.text:
   text: Свернуть _выделение / Удалить регион
 action.CollapseSelection.description:
@@ -2629,7 +2629,7 @@ action.Scratch.ChangeLanguage.text:
 action.Scratch.ChangeLanguage.description:
   text: Изменить язык файла
 show.log.in.action.text:
-  text: Показать файл журнала в {0}
+  text: Показать лог-файл в {0}
 action.Help.JoinDiscordChannel.text:
   text: Присоединиться к Discord-каналу
 group.Copy.Paste.Special.text:
