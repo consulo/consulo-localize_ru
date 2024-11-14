@@ -45,7 +45,7 @@ editbox.ignore.files.and.folders:
 checkbox.confirm.application.exit:
   text: Подтверждать закрытия приложения
 checkbox.support.screen.readers:
-  text: Поддержка экранных ридеров (требуется перезапуск)
+  text: Поддержка экранных читалок (требуется перезапуск)
 group.settings.process.tab.close:
   text: При закрытии окна инструментов с запущенным процессом
 radio.process.close.terminate:
@@ -879,9 +879,9 @@ title.popup.select.target:
 title.popup.recent.files:
   text: Недавние файлы
 action.split.vertically:
-  text: Разделить _по_вертикали
+  text: Разделить по _вертикали
 action.split.horizontally:
-  text: Разделить_по_горизонтали
+  text: Разделить по _горизонтали
 action.sync.completed.successfully:
   text: '{0} успешно завершено.'
 action.synchronize.file:
@@ -1861,7 +1861,7 @@ help.topic.not.found.error:
 unscramble.use.unscrambler.checkbox:
   text: '&Расшифровать трассировку стека'
 unscramble.log.path.label:
-  text: '&Файл журнала:'
+  text: '&Лог-файл:'
 unscramble.unscrambler.combobox:
   text: 'Расшифровать:'
 unscramble.stacktrace.caption:

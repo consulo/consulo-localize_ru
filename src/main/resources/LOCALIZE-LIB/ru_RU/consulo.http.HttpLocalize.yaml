@@ -1,0 +1,4 @@
+error.connection.failed.with.http.code.N:
+  text: "Сбой подключения с HTTP-кодом {0}"
+error.connection.failed.redirects:
+  text: "Сбой подключения: слишком много перенаправлений"
