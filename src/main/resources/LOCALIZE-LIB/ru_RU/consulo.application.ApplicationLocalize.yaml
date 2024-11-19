@@ -45,15 +45,15 @@ checkbox.show.signatures:
 checkbox.show.full.signatures:
   text: Показать полные подписи
 editbox.autopopup.in.ms:
-  text: 'Автовсплывающая документация через (мс):'
+  text: 'Автовсплывающее окошко через (мс):'
 title.parameter.info:
   text: Информация о параметрах
 radio.insert.both.parentheses:
-  text: Вставить '()'
+  text: "Вставить «()»"
 checkbox.insert.both.parentheses.when.no.arguments:
-  text: Вставить '()' при отсутствии аргументов
+  text: "Вставить «()» при отсутствии аргументов"
 radio.insert.left.parathesis:
-  text: Вставить '('
+  text: "Вставить «(»"
 label.complete.brackets:
   text: 'Скобки:'
 label.complete.autopopup:
@@ -77,19 +77,19 @@ combobox.autocomplete.case.sensitive.none:
 combobox.autocomplete.case.sensitive.first.letter:
   text: Первая буква
 editbox.blanklines.before.package.statement:
-  text: 'Перед оператором пакета:'
+  text: 'Перед выражением «package»:'
 editbox.blanklines.after.package.statement:
-  text: 'После оператора пакета:'
+  text: 'После выражения «package»:'
 editbox.blanklines.before.imports:
-  text: 'Перед импортом:'
+  text: 'Перед блоком импортов:'
 editbox.blanklines.after.imports:
-  text: 'После импорта:'
+  text: 'После блока импортов:'
 editbox.blanklines.around.class:
   text: 'Вокруг класса:'
 editbox.blanklines.around.field:
   text: 'Вокруг поля:'
 editbox.blanklines.around.method:
-  text: 'Вокруг method:'
+  text: 'Вокруг метода:'
 editbox.blanklines.before.method.body:
   text: 'Перед телом метода:'
 editbox.blanklines.after.class.header:
@@ -107,7 +107,7 @@ editbox.keep.blanklines.in.declarations:
 editbox.keep.blanklines.in.code:
   text: 'В коде:'
 editbox.keep.blanklines.before.rbrace:
-  text: 'Перед ''}'':'
+  text: "Перед «}»:"
 title.preview:
   text: Предварительный просмотр
 listbox.members.order.fields:
@@ -125,11 +125,11 @@ listbox.members.order.inner.classes:
 listbox.members.order.inner.static.classes:
   text: Статические внутренние классы
 title.naming.final.modifier:
-  text: Финальный модификатор
+  text: Модификатор «final»
 checkbox.make.generated.parameters.final:
-  text: Сделать сгенерированные параметры окончательными
+  text: Пометить сгенерированные параметры как «final»
 checkbox.make.generated.local.variables.final:
-  text: Сделать сгенерированные локальные переменные final
+  text: Пометить сгенерированные локальные переменные как «final»
 title.naming.comment.code:
   text: Код комментария
 checkbox.block.comment.at.first.column:
@@ -145,9 +145,9 @@ button.move.up:
 title.naming:
   text: Именование
 label.name.prefix:
-  text: 'Префикс имени:'
+  text: "Префикс названия:"
 label.name.suffix:
-  text: 'Суффикс имени:'
+  text: "Суффикс названия:"
 label.naming.local.variable:
   text: "Локальная переменная:"
 label.naming.field:
@@ -171,7 +171,7 @@ title.do.not.indent.children.of:
 title.inline.elements:
   text: Встроенные элементы
 title.keep.whitespaces.inside:
-  text: Сохранять пробелы Внутри
+  text: Сохранять пробелы внутри
 title.dont.wrap.if.inline.content:
   text: Не переносить, если только встроенный контент
 checkbox.wrap.text:
@@ -179,7 +179,7 @@ checkbox.wrap.text:
 checkbox.parentheses.around.method.arguments:
   text: Добавить скобки вокруг аргументов метода
 checkbox.rename.local.variables.inplace:
-  text: Включить режим на месте
+  text: Включить режим рефакторинга «на месте»
 checkbox.rename.local.variables.preselect:
   text: Предварительно выбрать старое название
 editbox.keep.blank.lines:
@@ -229,13 +229,13 @@ checkbox.use.fully.qualified.class.names:
 checkbox.insert.imports.for.inner.classes:
   text: Вставить импорт для внутренних классов
 checkbox.use.fully.qualified.class.names.in.javadoc:
-  text: Использовать полностью определенные имена классов в javadoc
+  text: Использовать полные названия классов в JavaDoc
 editbox.class.count.to.use.import.with.star:
-  text: 'Количество классов для использования импорта с ''*'':'
+  text: "Количество классов для использования импорта со «*»:"
 editbox.names.count.to.use.static.import.with.star:
-  text: 'Количество имен для использования статического импорта с ''*'':'
+  text: "Количество членов класса для использования статического импорта со «*»:"
 title.packages.to.use.import.with:
-  text: Пакеты для импорта с '*'
+  text: "Пакеты для импорта со «*»"
 title.import.layout:
   text: Импортировать макет
 button.add.package:
@@ -253,9 +253,9 @@ listbox.import.all.other.imports:
 listbox.import.blank.line:
   text: <пустая строка>
 radio.prefer.comma.separated.import.list:
-  text: Предпочитать список импорта, разделенный запятыми
+  text: Предпочитать список импортов, разделённых запятыми
 radio.prefer.one.import.statement.per.page.directive:
-  text: Предпочитать один оператор импорта на страницу директива
+  text: Предпочитать один оператор импорта на директиву page
 title.jsp.imports.layout:
   text: JSP imports layout
 button.add.package.p:
@@ -271,11 +271,11 @@ wrapping.keep.line.breaks:
 wrapping.keep.comment.at.first.column:
   text: Комментарий в первом столбце
 wrapping.keep.simple.classes.in.one.line:
-  text: Простые классы в одной строке
+  text: Простые однострочные классы
 wrapping.keep.simple.methods.in.one.line:
-  text: Простые методы в одной строке
+  text: Простые однострочные методы
 wrapping.keep.simple.lambdas.in.one.line:
-  text: Простые лямбды в одной строка
+  text: Простые однострочные лямбды
 wrapping.keep.multiple.expressions.in.one.line:
   text: Несколько выражений в одной строке
 wrapping.keep.simple.blocks.in.one.line:
@@ -303,15 +303,15 @@ wrapping.brace.placement.method.declaration:
 wrapping.brace.placement.other:
   text: Другое
 wrapping.brace.placement.end.of.line:
-  text: Конец строки
+  text: В конце строки
 wrapping.brace.placement.next.line.if.wrapped:
-  text: Следующая строка, если перенесено
+  text: На следующей строке, если перенесено
 wrapping.brace.placement.next.line:
-  text: Следующая строка
+  text: На следующей строке
 wrapping.brace.placement.next.line.shifted:
-  text: Следующая строка смещена
+  text: На следующей строке с отступом
 wrapping.brace.placement.next.line.each.shifted:
-  text: Следующая строка, каждая смещена
+  text: На следующей строке, все с отступом
 wrapping.align.when.multiline:
   text: Выровнять, когда многострочный
 wrapping.align.parenthesised.when.multiline:
@@ -319,19 +319,19 @@ wrapping.align.parenthesised.when.multiline:
 wrapping.align.in.columns:
   text: Выровнять по столбцам
 wrapping.else.on.new.line:
-  text: '''else'' на новой строке'
+  text: '«else» на новой строке'
 wrapping.while.on.new.line:
-  text: '''while'' на новой строке'
+  text: '«while» на новой строке'
 wrapping.catch.on.new.line:
-  text: '''catch'' на новой строке'
+  text: '«catch» на новой строке'
 wrapping.finally.on.new.line:
-  text: '''finally'' на новой строке'
+  text: '«finally» на новой строке'
 wrapping.method.parentheses:
-  text: Метод скобок
+  text: Круглые скобки метода
 wrapping.special.else.if.braces.treatment:
-  text: Специальная обработка 'else if'
+  text: Специальная обработка «else if»
 wrapping.indent.case.from.switch:
-  text: Отступ ветвей 'case'
+  text: Отступ ветвей «case»
 wrapping.force.braces:
   text: Принудительно скобки
 wrapping.chained.method.call.first.on.new.line:
@@ -343,33 +343,33 @@ wrapping.method.arguments:
 wrapping.chained.method.calls:
   text: Связанные вызовы методов
 wrapping.for.statement:
-  text: '''for()'' выражение'
+  text: "Выражение «for()»"
 wrapping.if.statement:
-  text: '''if()'' выражение'
+  text: "Выражение «if()»"
 wrapping.while.statement:
-  text: '''while()'' выражение'
+  text: "Выражение «while()»"
 wrapping.dowhile.statement:
-  text: '''do … while()'' выражение'
+  text: "Выражение «do … while()»"
 wrapping.switch.statement:
-  text: '''switch'' выражение'
+  text: "Выражение «switch»"
 wrapping.try.statement:
-  text: '''try'' выражение'
+  text: "Выражение «try»"
 wrapping.try.resources:
-  text: '''try-with-resources'''
+  text: "Выражение «try-with-resources»"
 wrapping.binary.operations:
-  text: Двоичные выражения
+  text: Бинарные операторы
 wrapping.extends.implements.list:
-  text: Список расширений/реализаций
+  text: Список родительских классов/интерфейсов
 wrapping.extends.implements.keyword:
-  text: Ключевое слово расширений/реализаций
+  text: Ключевые слова «extends»/«implements»
 wrapping.throws.list:
-  text: Список бросков
+  text: Список исключений
 wrapping.throws.keyword:
-  text: Ключевое слово бросков
+  text: Ключевое слово «throws»
 wrapping.align.throws.keyword:
-  text: Выровнять 'броски' по началу метода
+  text: Выровнять «throws» по началу метода
 wrapping.ternary.operation:
-  text: Тернарная операция
+  text: Тернарный оператор
 wrapping.assignment.variables.groups:
   text: Группы полей/переменных
 wrapping.assignment.statement:
@@ -379,27 +379,27 @@ wrapping.array.initializer:
 wrapping.modifier.list:
   text: Список модификаторов
 wrapping.assert.statement:
-  text: Assert-выражение
+  text: Выражение «assert»
 wrapping.new.line.after.lpar:
-  text: Новая строка после '('
+  text: Новая строка после «(»
 wrapping.rpar.on.new.line:
-  text: Поместите ')' на новую строку
+  text: "Поместить «)» на новую строку"
 wrapping.take.priority.over.call.chain.wrapping:
-  text: Приоритет над цепочкой вызовов wrapping
+  text: Имеет приоритет над сворачиванием цепочки вызовов
 wrapping.operation.sign.on.next.line:
   text: Знак операции на следующей строке
 wrapping.assignment.sign.on.next.line:
   text: Знак присваивания на следующей строке
 wrapping.quest.and.colon.signs.on.next.line:
-  text: Знаки '''?'' и '':'' на следующей строке'
+  text: "Знаки «?» и «:» со следующей строки"
 wrapping.new.line.after.lbrace:
-  text: Новая строка после '{'
+  text: "Новая строка после «'{'»"
 wrapping.rbrace.on.new.line:
-  text: Поместите '}' на новую строку
+  text: Поместить «}» на новую строку
 wrapping.after.modifier.list:
-  text: Перенос после модификатора список
+  text: Перенос после списка модификаторов
 wrapping.colon.signs.on.next.line:
-  text: ''':'' знаки на следующей строке'
+  text: "Знаки «:» на следующей строке"
 wrapping.classes.annotation:
   text: Аннотации классов
 wrapping.methods.annotation:
@@ -413,43 +413,43 @@ wrapping.local.variables.annotation:
 wrapping.enum.constants:
   text: Константы перечисления
 wrapping.long.lines:
-  text: Убедитесь, что правое поле не превышено
+  text: Убедиться, что правый край не перейден
 wrapping.comments:
   text: Комментарии
 wrapping.comments.wrap.at.right.margin:
-  text: Перенос по правому полю
+  text: Перенос по правому краю
 wrapping.align.fields.in.columns:
-  text: Выравнивание полей в столбцах
+  text: Выравнивать поля в единый столбец
 wrapping.align.variables.in.columns:
-  text: Выровнять переменные в столбцах
+  text: Выравнивать переменные в единый столбец
 wrapping.align.simple.methods.in.columns:
-  text: Выровнять простые методы в столбцах
+  text: Выравнивать простые методы в единый столбец
 group.spaces.in.type.arguments.block:
   text: Аргументы типа
 group.spaces.in.type.parameters.block:
   text: Параметры типа
 checkbox.align.multiline.chained.methods:
-  text: Связанные методы
+  text: Цепочки вызовов
 checkbox.align.multiline.method.parameters:
   text: Параметры метода
 checkbox.align.multiline.call.arguments:
   text: Аргументы вызова
 checkbox.align.multiline.extends.list:
-  text: Расширяет список
+  text: Список наследований
 checkbox.align.multiline.throws.list:
-  text: Список бросков
+  text: Список исключений
 checkbox.align.multiline.fields.groups:
   text: Группы полей
 checkbox.align.multiline.parenthesized.expression:
-  text: В скобках выражение
+  text: Выражение в скобках
 checkbox.align.multiline.binary.operation:
-  text: Двоичная операция
+  text: Бинарная операция
 checkbox.align.multiline.ternary.operation:
   text: Тернарная операция
 checkbox.align.multiline.assignments:
   text: Присваивания
 checkbox.align.multiline.for.statement:
-  text: Для оператора
+  text: "Оператор «'{'»"
 checkbox.align.multiline.array.initializer:
   text: Инициализатор массива
 title.place.on.new.line:
@@ -499,7 +499,7 @@ group.spaces.within:
 group.spaces.in.ternary.operator:
   text: Внутри тернарного оператора (?:)
 group.spaces.in.type.arguments:
-  text: Внутри типа Аргументы
+  text: Внутри аргументов типа
 group.spaces.other:
   text: Другое
 checkbox.spaces.method.call.parentheses:
@@ -507,19 +507,19 @@ checkbox.spaces.method.call.parentheses:
 checkbox.spaces.method.declaration.parentheses:
   text: Скобки объявления метода
 checkbox.spaces.if.parentheses:
-  text: '''if'' скобки'
+  text: 'Круглые скобки «if»'
 checkbox.spaces.while.parentheses:
-  text: '''while'' скобки'
+  text: 'Круглые скобки «while»'
 checkbox.spaces.for.parentheses:
-  text: '''for'' скобки'
+  text: 'Круглые скобки «for»'
 checkbox.spaces.try.parentheses:
-  text: '''try'' скобки'
+  text: 'Круглые скобки «try»'
 checkbox.spaces.catch.parentheses:
-  text: '''catch'' скобки'
+  text: 'Круглые скобки «catch»'
 checkbox.spaces.switch.parentheses:
-  text: '''switch'' скобки'
+  text: 'Круглые скобки «switch»'
 checkbox.spaces.synchronized.parentheses:
-  text: '''synchronized'' скобки'
+  text: 'Круглые скобки «synchronized»'
 checkbox.spaces.annotation.parameters:
   text: Параметры аннотации
 checkbox.spaces.assignment.operators:
@@ -533,79 +533,79 @@ checkbox.spaces.relational.operators:
 checkbox.spaces.bitwise.operators:
   text: Побитовые операторы (\&, |, ^)
 checkbox.spaces.additive.operators:
-  text: Аддитивные операторы (+, -)
+  text: Операторы сложения/вычитания (+, -)
 checkbox.spaces.multiplicative.operators:
-  text: Мультипликативный операторы (*, /, %)
+  text: Операторы умножения/деления (*, /, %)
 checkbox.spaces.shift.operators:
-  text: операторы сдвига (<<, >>, >>>)
+  text: Операторы сдвига (<<, >>, >>>)
 checkbox.spaces.around.unary.operator:
-  text: унарные операторы (!, -, +, ++, --)
+  text: Унарные операторы (!, -, +, ++, --)
 checkbox.spaces.class.left.brace:
-  text: открывающая скобка класса
+  text: Открывающая фигурная скобка класса
 checkbox.spaces.method.left.brace:
-  text: открывающая скобка метода
+  text: Открывающая фигурная скобка метода
 checkbox.spaces.if.left.brace:
-  text: '''if'' левая фигурная скобка'
+  text: "Открывающая фигурная скобка «if»"
 checkbox.spaces.else.left.brace:
-  text: '''else'' левая фигурная скобка'
+  text: "Открывающая фигурная скобка «else»"
 checkbox.spaces.while.left.brace:
-  text: '''while'' левая фигурная скобка'
+  text: "Открывающая фигурная скобка «while»"
 checkbox.spaces.for.left.brace:
-  text: '''for'' левая фигурная скобка'
+  text: "Открывающая фигурная скобка «for»"
 checkbox.spaces.do.left.brace:
-  text: '''do'' левая фигурная скобка'
+  text: "Открывающая фигурная скобка «do»"
 checkbox.spaces.switch.left.brace:
-  text: '''switch'' левая фигурная скобка'
+  text: "Открывающая фигурная скобка «switch»"
 checkbox.spaces.try.left.brace:
-  text: '''try'' левая фигурная скобка'
+  text: "Открывающая фигурная скобка «try»"
 checkbox.spaces.catch.left.brace:
-  text: '''catch'' левая скобка'
+  text: "Открывающая фигурная скобка «catch»"
 checkbox.spaces.finally.left.brace:
-  text: '''finally'' левая скобка'
+  text: "Открывающая фигурная скобка «finally»"
 checkbox.spaces.synchronized.left.brace:
-  text: '''synchronized'' левая скобка'
+  text: "Открывающая фигурная скобка «synchronized»"
 checkbox.spaces.array.initializer.left.brace:
-  text: Инициализатор массива левая скобка
+  text: Открывающая фигурная скобка инициализатора массива
 checkbox.spaces.annotation.array.initializer.left.brace:
-  text: Инициализатор массива левая скобка
+  text: Открывающая фигурная скобка в массиве аннотации
 checkbox.spaces.else.keyword:
-  text: '''else'' ключевое слово'
+  text: "Ключевое слово «else»"
 checkbox.spaces.while.keyword:
-  text: '''while'' ключевое слово'
+  text: "Ключевое слово «while»"
 checkbox.spaces.catch.keyword:
-  text: '''catch'' ключевое слово'
+  text: "Ключевое слово «catch»"
 checkbox.spaces.finally.keyword:
-  text: '''finally'' ключевое слово'
+  text: "Ключевое слово «finally»"
 checkbox.spaces.within.brackets:
-  text: Скобки
+  text: Квадратные скобки
 checkbox.spaces.within.braces:
-  text: Скобки кода
+  text: Фигурные скобки в коде
 checkbox.spaces.within.array.initializer.braces:
-  text: Скобки инициализатора массива
+  text: Фигурные скобки инициализатора массива
 checkbox.spaces.within.parentheses:
-  text: Группирующие скобки
+  text: Группирующие круглые скобки
 checkbox.spaces.checkbox.spaces.method.call.parentheses:
-  text: Скобки вызова метода
+  text: Круглые скобки вызова метода
 checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
-  text: Пустые скобки вызова метода
+  text: Круглые скобки вызова метода без параметров
 checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
-  text: Скобки объявления метода
+  text: Круглые скобки объявления метода
 checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
-  text: Пустые скобки объявления метода
+  text: Круглые скобки объявления метода без параметров
 checkbox.spaces.type.cast.parentheses:
-  text: Тип отлитые скобки
+  text: Круглые скобки приведения типа
 checkbox.spaces.annotation.parentheses:
-  text: Аннотационные скобки
+  text: Круглые скобки в аннотациях
 checkbox.spaces.before.question:
-  text: Перед '?'
+  text: Перед «?»
 checkbox.spaces.after.question:
-  text: После '?'
+  text: После «?»
 checkbox.spaces.before.colon:
-  text: Перед ':'
+  text: Перед «:»
 checkbox.spaces.after.colon:
-  text: После ':'
+  text: После «:»
 checkbox.spaces.after.colon.in.label.declaration:
-  text: После ':' в объявлении метки
+  text: После «:» в объявлении метки
 checkbox.spaces.after.comma:
   text: После запятой
 checkbox.spaces.before.comma:
@@ -621,7 +621,7 @@ title.warning:
 title.editor:
   text: Общие
 combobox.strip.modified.lines:
-  text: Измененные строки
+  text: Изменённые строки
 combobox.strip.all:
   text: Все
 combobox.strip.none:
@@ -665,15 +665,15 @@ checkbox.show.all.softwraps:
 checkbox.show.method.separators:
   text: Показать разделители методов
 checkbox.show.gutter.icons:
-  text: Показать переплет и значки
+  text: Показывать иконки в колонке номеров строк
 checkbox.show.line.numbers:
-  text: Показать номера строк
+  text: Показывать номера строк
 checkbox.right.margin:
-  text: Показать правое поле (настраивается в параметрах стиля кода)
+  text: Показывать правый край (настраивается в параметрах стиля кода)
 checkbox.use.block.caret:
   text: Использовать блочный курсор
 checkbox.caret.blinking.ms:
-  text: 'Мигание каретки (мс):'
+  text: "Мигание курсора (мс):"
 checkbox.mark.modified.tabs.with.asterisk:
   text: Пометить измененные вкладки звездочкой
 checkbox.show.tabs.tooltips:
@@ -701,7 +701,7 @@ checkbox.collapse.simple.property.accessors:
 checkbox.collapse.method.bodies:
   text: Тела методов
 checkbox.collapse.javadoc.comments:
-  text: Комментарии к документации
+  text: Документирующие комментарии
 checkbox.collapse.title.imports:
   text: Импорты
 checkbox.collapse.file.header:
@@ -713,9 +713,9 @@ checkbox.show.code.folding.outline:
 group.tab.appearance:
   text: Внешний вид вкладки
 editbox.tab.limit:
-  text: "Ограничение вкладок:"
+  text: "Ограничение количества вкладок:"
 combobox.editor.tab.placement:
-  text: "Размещение:"
+  text: "Разместить:"
 checkbox.editor.tabs.in.single.row:
   text: Показать вкладки в одну строку
 checkbox.editor.tabs.show.close.button:
@@ -737,7 +737,7 @@ radio.close.less.frequently.used.files:
 radio.close.non.modified.files.first:
   text: Сначала закрыть неизмененные файлы
 label.when.number.of.opened.editors.exceeds.tab.limit:
-  text: 'Когда количество открытых редакторов превышает вкладку limit:'
+  text: 'Когда количество открытых редакторов превышает лимит вкладок:'
 group.virtual.space:
   text: Виртуальное пространство
 checkbox.use.soft.wraps.at.editor:
@@ -749,21 +749,21 @@ checkbox.use.custom.soft.wraps.indent:
 checkbox.allow.placement.of.caret.after.end.of.line:
   text: Разрешить размещение курсора после конца строки
 checkbox.allow.placement.of.caret.inside.tabs:
-  text: Разрешить размещение курсора внутри вкладок
+  text: Разрешить размещение курсора внутри табуляции
 checkbox.show.virtual.space.at.file.bottom:
-  text: Показывать виртуальное пространство внизу файла
+  text: Показывать пустое виртуальное пространство внизу файла
 checkbox.optimize.imports.on.the.fly:
-  text: Оптимизировать импорт на лету
+  text: Оптимизировать импорты «на лету»
 checkbox.add.unambiguous.imports.on.the.fly:
-  text: Добавить однозначный импорт на лету
+  text: Добавлять однозначные импорты «на лету»
 combobox.strip.trailing.spaces.on.save:
-  text: "Удалять конечные пробелы при сохранении:"
+  text: "Удалять пробелы в конце строки при сохранении:"
 checkbox.show.quick.doc.on.mouse.over:
-  text: 'Показать краткий документ при наведении мыши на элемент (мс):'
+  text: "Показать краткую справку при наведении мыши на элемент (мс):"
 group.limits:
   text: Ограничения
 editbox.recent.files.limit:
-  text: 'Ограничение последних файлов:'
+  text: 'Ограничение количества последних файлов:'
 editbox.console.history.limit:
   text: 'Размер истории консольных команд:'
 editbox.maximum.number.of.contents.to.keep.in.clipboard:
@@ -771,15 +771,15 @@ editbox.maximum.number.of.contents.to.keep.in.clipboard:
 settings.code.style.visual.guides:
   text: Визуальные направляющие
 settings.code.style.general.visual.guides.hint:
-  text: Укажите одну направляющую (80) или несколько (80, 120)
+  text: Показать одну направляющую (80) или несколько (80, 120)
 group.brace.highlighting:
   text: Подсветка при перемещении курсора
 checkbox.highlight.matched.brace:
-  text: Подсветка соответствующей фигурной скобки
+  text: Подсветка парной скобки
 checkbox.highlight.current.scope:
   text: Выделить текущую область
 combobox.paste.insert.imports:
-  text: '&Вставить импорты при вставке:'
+  text: '&Добавлять импорты при вставке:'
 combobox.paste.reformat:
   text: Переформатировать при вставке
 checkbox.indent.on.paste:
@@ -809,31 +809,31 @@ checkbox.use.camelhumps.words:
 checkbox.surround.selection.on.typing.quote.or.brace:
   text: Окружить выделение при вводе кавычки или фигурной скобки
 checkbox.insert.pair.quote:
-  text: Вставить парную кавычку
+  text: Вставлять парную кавычку
 checkbox.insert.pair.bracket:
-  text: Вставить парную скобку
+  text: Вставлять парную скобку
 checkbox.javadoc.stub.after.slash.star.star:
-  text: Вставить комментарий к документации stub
+  text: Вставлять черновик документирующего комментария
 checkbox.insert.pair.percent.gt.in.jsp:
-  text: Вставить пару '%>' в JSP
+  text: Вставить парную «%>» в JSP
 checkbox.insert.pair.curly.brace:
-  text: Вставить пару '}'
+  text: Вставить парную «}»
 checkbox.smart.indent:
   text: Умный отступ
 label.smart.enter:
-  text: 'Умный ввод:'
+  text: 'Умный перевод строки:'
 checkbox.smart.end.on.blank.line:
   text: Конец (на пустой строке)
 checkbox.smart.home:
-  text: Главная
+  text: Home
 checkbox.indenting.backspace:
   text: Умный отступ Backspace
 group.error.highlighting:
   text: Подсветка ошибок
 editbox.autoreparse.delay.ms:
-  text: 'Задержка автоповтора (мс):'
+  text: 'Задержка повторного синтаксического разбора (мс):'
 editbox.error.stripe.mark.min.height.pixels:
-  text: 'Минимальная высота отметки полосы ошибки (пиксели):'
+  text: 'Минимальная высота полоски ошибки (пиксели):'
 checkbox.suppress.with.suppresswarnings:
   text: Подавить с помощью @SuppressWarnings (только для Java 5.0)
 checkbox.next.error.action.goes.to.errors.first:
@@ -843,23 +843,23 @@ checkbox.show.import.popup:
 checkbox.indent.use.tab.character:
   text: Использовать символ табуляции
 checkbox.indent.smart.tabs:
-  text: Умные вкладки
+  text: Умная табуляция
 editbox.indent.tab.size:
-  text: 'Размер вкладки:'
+  text: 'Размер символа табуляции:'
 editbox.indent.indent:
   text: 'Отступ:'
 editbox.indent.continuation.indent:
-  text: 'Отступ продолжения:'
+  text: 'Отступ после переноса:'
 editbox.indent.label.indent:
-  text: 'Метка отступ:'
+  text: 'Отступ метки:'
 checkbox.indent.absolute.label.indent:
   text: Абсолютный отступ метки
 checkbox.do.not.indent.top.level.class.members:
-  text: Не делать отступ членам класса верхнего уровня
+  text: Не делать отступ для членов класса верхнего уровня
 checkbox.use.relative.indents:
   text: Использовать отступы относительно начала выражения
 tooltip.indent.must.be.multiple.of.tab.size.for.smart.tabs.to.operate:
-  text: Отступ должен быть кратен размеру табуляции для работы смарт-вкладок
+  text: Отступ должен быть кратен размеру табуляции для работы умной табуляции
 combobox.crlf.system.dependent:
   text: Зависит от системы
 combobox.crlf.unix:
@@ -869,7 +869,7 @@ combobox.crlf.windows:
 combobox.crlf.mac:
   text: Классический Mac (\r)
 group.tabs.and.indents:
-  text: Вкладки и Отступы
+  text: Табуляция и отступы
 checkbox.indent.use.same.settings.for.all.file.types:
   text: Использовать параметры отступа по умолчанию (Общие)
 tab.indent.other:
@@ -877,7 +877,7 @@ tab.indent.other:
 combobox.line.separator.for.new.files:
   text: 'Разделитель строк (для новых файлов):'
 editbox.right.margin.columns:
-  text: 'Правое поле (столбцы):'
+  text: 'Правый край (столбцы):'
 checkbox.wrap.typing.on.right.margin:
   text: Перенос при наборе текста
 group.javadoc.other:
@@ -893,15 +893,15 @@ checkbox.enable.javadoc.formatting:
 checkbox.align.parameter.descriptions:
   text: Выровнять описания параметров
 checkbox.align.thrown.exception.descriptions:
-  text: Выровнять описания выданных исключений
+  text: Выровнять описания выбрасываемых исключений
 checkbox.after.description:
   text: После описания
 checkbox.after.parameter.descriptions:
   text: После описания параметров
 checkbox.after.return.tag:
-  text: После тега return
+  text: После тега @return
 checkbox.keep.invalid.tags:
-  text: Сохранить недопустимые теги
+  text: Сохранять недопустимые теги
 checkbox.keep.empty.param.tags:
   text: Сохранить пустые теги @param
 checkbox.keep.empty.return.tags:
@@ -911,7 +911,7 @@ checkbox.keep.empty.throws.tags:
 checkbox.enable.leading.asterisks:
   text: Включить ведущие звездочки
 checkbox.use.throws.rather.than.exception:
-  text: Используйте @throws вместо @exception
+  text: Использовать @throws вместо @exception
 checkbox.wrap.at.right.margin:
   text: Перенос по правому краю
 checkbox.generate.p.on.empty.lines:
@@ -923,11 +923,11 @@ checkbox.do.not.wrap.one.line.comments:
 checkbox.preserve.line.feeds:
   text: Сохранять переводы строк
 checkbox.param.description.on.new.line:
-  text: Описания параметров на новой строке
+  text: Описания параметров с новой строки
 title.javadoc:
   text: JavaDoc
 option.table.sizing.text:
-  text: Сократить, если длинный.
+  text: Перенести, если длинный.
 title.choose.code.style.scheme:
   text: Выберите схему стиля кода
 radio.use.per.project.code.style.scheme:
@@ -1007,7 +1007,7 @@ title.file.status:
 title.scope.based:
   text: Основано на области действия
 title.colors.and.fonts:
-  text: Цвета \& Шрифты
+  text: Цвета и шрифты
 progress.analysing.font:
   text: 'Анализ шрифта: {0}'
 button.edit.scopes:
@@ -1021,7 +1021,7 @@ title.font.selected:
 label.fallback.fonts.list.description:
   text: IDE пытается использовать следующий шрифт из списка «Выбранные шрифты» для отображения символа, если текущий шрифт не может этого сделать
 quickdoc.tooltip.font.size.by.wheel:
-  text: Изменение размера шрифта с помощью ползунка или Ctrl+Wheel
+  text: Изменение размера шрифта с помощью ползунка или Ctrl+колёсико
 label.font.size:
   text: "Размер шрифта:"
 label.font.name:
@@ -1075,7 +1075,7 @@ error.path.variable.is.undefined:
 text.no.path.variables:
   text: Нет переменных пути
 config.import.invalid.directory.error:
-  text: '{0} не является каталогом!'
+  text: '{0} не является папкой!'
 command.exit:
   text: Выход
 application.save.settings.error:
@@ -1127,7 +1127,7 @@ launcher.script.sudo.prompt:
 desktop.entry.success:
   text: Теперь вы можете выйти из {0} и запустить его из системного меню<br/> (перезапустите сеанс, если новая запись не появляется).
 desktop.entry.xdg.missing:
-  text: К сожалению, xdg-utils, похоже, недоступен в вашей системе.
+  text: Похоже, xdg-utils недоступны в вашей системе.
 desktop.entry.icon.missing:
   text: Не удалось найти подходящий значок приложения в «{0}».
 desktop.entry.script.missing:
@@ -1251,11 +1251,11 @@ settings.code.style.general.formatter.marker.options.title:
 settings.code.style.general.autodetect.indents:
   text: Обнаруживать и использовать существующие отступы файла для редактирования
 import.scheme.chooser.source:
-  text: 'От:'
+  text: 'Из:'
 import.scheme.chooser.destination:
-  text: 'Кому:'
+  text: 'В:'
 checkbox.reformat.on.typing.rbrace:
-  text: Переформатировать блок при вводе '}'
+  text: Переформатировать блок при вводе «}»
 settings.code.style.general.excluded.files:
   text: 'Не форматировать:'
 checkbox.indent.keep.indents.on.empty.lines:
@@ -1271,7 +1271,7 @@ bulk.reformat.prepare.progress.text:
 bulk.reformat.process.progress.text:
   text: Обработка…
 wrapping.wrap.on.typing:
-  text: Перенос по typing
+  text: Перенос по мере ввода
 wrapping.wrap.on.typing.no.wrap:
   text: 'Нет'
 wrapping.wrap.on.typing.wrap:
@@ -1315,7 +1315,7 @@ checkbox.show.parameter.name.hints:
 fs.case.sensitivity.mismatch.title:
   text: Несоответствие чувствительности к регистру в файловой системе
 fs.case.sensitivity.mismatch.message:
-  text: Похоже, что проект находится в файловой системе, чувствительной к регистру {0,choice,0#|1#in}.<br> Это не соответствует настройке IDE (управляется свойством "<tt>consulo.case.sensitive.fs</tt>")<br> <a href="https://confluence.jetbrains.com/display/IDEADEV/Filesystem+Case-Sensitivity+Mismatch">Подробнее.</a>
+  text: Похоже, что проект находится в файловой системе, чувствительной к регистру.<br> Это не соответствует настройке IDE (управляется свойством "<tt>consulo.case.sensitive.fs</tt>")<br> <a href="https://confluence.jetbrains.com/display/IDEADEV/Filesystem+Case-Sensitivity+Mismatch">Подробнее.</a>
 integer.field.value.expected:
   text: Ожидается значение
 integer.field.value.out.of.range:
@@ -1329,19 +1329,19 @@ settings.soft.margins.empty.list:
 settings.default.value.prefix:
   text: 'По умолчанию: {0}'
 project.code.style.migration.title:
-  text: Настройки стиля кода проекта миграция
+  text: Миграция настройки стиля кода проекта
 project.code.style.migration.message:
-  text: Настройки стиля кода вашего проекта {0} были перенесены в новый формат. Мы пока сохраняем старый формат для обратной совместимости.
+  text: Настройки стиля кода вашего проекта {0} были изменены на новые. Мы пока сохраняем старый стиль для обратной совместимости.
 margin.columns:
   text: колонки
 combobox.lineseparator.for.new.files.hint:
   text: Применяется к новым файлам
 configurable.breadcrumbs:
-  text: Навигационная цепочка
+  text: Цепочка навигации
 configure.breadcrumbs.colors:
   text: Управление цветами
 checkbox.show.breadcrumbs:
-  text: Показать навигационную цепочку
+  text: Показать цепочку навигации
 radio.show.breadcrumbs.above:
   text: Сверху
 radio.show.breadcrumbs.below:
@@ -1369,7 +1369,7 @@ editorsearch.in.selection.with.hint:
 nothing.here:
   text: Ничего здесь
 checkbox.show.softwraps.only.for.caret.line.action.text:
-  text: "Мягкие переносы: Показывать только для текущей строки"
+  text: "Мягкие переносы: показывать только для текущей строки"
 label.appearance.show.vertical.indent.guides:
   text: Показывать вертикальные направляющие отступа
 error.plugins.should.not.have.cyclic.dependencies:
@@ -1384,3 +1384,21 @@ error.required.plugin.disabled:
   text: 'Дополнение «{0}» не загружено: отключено необходимое дополнение «{1}».'
 message.duplicate.plugin.id:
   text: 'Повторяющийся идентификатор дополнения:'
+task.button.cancel:
+  text: Отмена
+code.style.indent.provider.notification.settings:
+  text: Настройки стиля кода
+code.style.indent.provider.notification.re.enable:
+  text: Отменить
+code.style.indent.detector.reject:
+  text: Отступ новых строк с помощью {0}
+code.style.indent.detector.disable:
+  text: Отключить обнаружение отступов для проекта
+code.style.indent.detector.apply:
+  text: <html>Отступ новых строк с помощью <span style="color:#{1}">обнаруженного</span> {0}
+code.style.indent.detector.reindent:
+  text: Сменить отступы в файле на {0}
+code.style.indent.detector.notification.content:
+  text: Отключено обнаружение отступов
+notification.group.automatic.indent.detection:
+  text: Автоматическое обнаружение отступов
