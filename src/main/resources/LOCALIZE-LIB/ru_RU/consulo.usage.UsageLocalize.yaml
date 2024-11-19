@@ -1,0 +1,168 @@
+node.targets:
+  text: Цели
+node.non.code.usages:
+  text: Использования в текстовых файлах
+node.usages.in.generated.code:
+  text: Использования в сгенерированном коде
+node.found.usages:
+  text: Найденные использования
+usage.name:
+  text: использование
+usages.title:
+  text: Использования
+usages.n:
+  text: "{0,choice, 0#нет использования|1#1 использование|2#{0,number} использований} найдено"
+action.show.import.statements:
+  text: Показать операторы импорта
+action.show.read.access:
+  text: Показать доступ для чтения
+action.show.write.access:
+  text: Показать доступ для записи
+action.group.by.file.structure:
+  text: Группировка по структуре файла
+action.group.by.usage.type:
+  text: Группировка по типу использования
+action.group.by.module:
+  text: Группировка по модулю
+action.group.by.package:
+  text: Группировать по пакету
+action.close:
+  text: Закрыть
+usage.view.cancel.button:
+  text: "&Отмена"
+action.merge.same.line:
+  text: Объединить использования из одной строки
+action.rerun:
+  text: Повторить
+action.description.rerun:
+  text: Повторить поиск
+dialog.rerun.search:
+  text: Хотите повторить поиск?
+action.next.occurrence:
+  text: К следующему вхождению
+action.previous.occurrence:
+  text: К предыдущему вхождению
+progress.searching.for:
+  text: Ищем {0}...
+progress.searching.for.in:
+  text: Ищем {0} в {1}{2}...
+dialog.no.usages.found.in:
+  text: Не найдено {0} в {1}
+dialog.title.information:
+  text: Информация
+dialog.button.ok:
+  text: ОК
+node.invalid:
+  text: НЕДОПУСТИМО
+node.readonly:
+  text: Только для чтения
+node.group.module:
+  text: "Модуль:"
+node.group.code.usages:
+  text: Использование кода
+usage.type.instanceof:
+  text: Использование в «instanceof»
+usage.type.import:
+  text: Использование в импортах
+usage.type.cast.target:
+  text: Использование в типе цели приведения
+usage.type.extends:
+  text: Использование в «extends/implements»
+usage.type.static.member:
+  text: Доступ к статическому члену класса
+usage.type.nested.class:
+  text: Доступ к вложенному классу
+usage.type.throws.list:
+  text: Список вызовов метода
+usage.type.class.object:
+  text: Использование в .class
+usage.type.field.declaration:
+  text: Объявление поля
+usage.type.local.declaration:
+  text: Объявление локальной переменной
+usage.type.parameter.declaration:
+  text: Объявление параметра метода
+usage.type.catch.declaration:
+  text: Объявление параметра выражения «catch»
+usage.type.return:
+  text: Тип возвращаемого значения метода
+usage.type.string.constant:
+  text: Использование в строковых константах
+usage.type.comment:
+  text: Использование в комментариях
+usage.type.unclassified:
+  text: Неклассифицированное использование
+occurence.info.usage:
+  text: "{0,choice, 0#Не найдено|1#1 использование|2#{0,number} использований}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах}"
+occurence.info.occurence:
+  text: "{0,choice, 0#Не найдено|1#1 вхождение|2#{0,number} вхождений}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах}"
+occurence.info.reference:
+  text: "{0,choice, 0#Не найдено|1#1 ссылка|2#{0,number} ссылок}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах} files}"
+default.package.presentable.name:
+  text: <default>
+changes.detected.error.title:
+  text: Обнаружены изменения
+usage.target.xml.tag.of.file:
+  text: "{0} файла {1}"
+usage.target.package.in.directory:
+  text: "{0} (в {1})"
+usage.target.exception:
+  text: Исключение
+usage.type.new:
+  text: Создание нового экземпляра
+usage.type.new.anonymous:
+  text: Создание нового анонимного наследника
+usage.type.new.array:
+  text: Создание нового массива
+usage.type.annotation:
+  text: Аннотация
+usage.type.type.parameter:
+  text: Параметр типа
+usage.type.read:
+  text: Чтение значения
+usage.type.write:
+  text: Запись значения
+preview.usages.action.text:
+  text: Предварительный просмотр использований
+select.the.usage.to.preview:
+  text: Выберите использование для предварительного просмотра
+usages.were.filtered.out:
+  text: "{0,number} {0,choice, 1#использование было|2#использования были} отфильтрованы"
+show.usages.only.usage:
+  text: Это единственное использование в {0}
+all.usages.are.in.this.line:
+  text: Все {0} использований в {1} находятся в этой строке
+no.usages.found.in:
+  text: Не найдено использований в {0}
+sort.alphabetically.action.text:
+  text: Сортировать элементы по алфавиту
+button.text.continue:
+  text: Продолжить
+button.text.abort:
+  text: Прервать
+find.excessive.usages.title:
+  text: Слишком много использований
+find.excessive.usage.count.prompt:
+  text: "Пока найдено {0} использований. Вы уверены, что хотите продолжить?"
+find.file.size.megabytes:
+  text: "{0} мегабайт"
+large.files.were.ignored:
+  text: "{0,choice, 0#Нет|1#1 слишком большой файл был проигнорирован|2#{0,number} слишком больших файлов были проигнорированы}"
+usage.excluded:
+  text: исключено
+several.occurrences.selected:
+  text: |-
+    Выбрано несколько файлов.
+    Выберите вхождения из одного файла для предварительного просмотра.
+action.group.by.title:
+  text: Группировать по
+occurrences.found.in.comments.strings.and.non.java.files:
+  text: Вхождения, найденные в комментариях, строках и текстовых файлах
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+  text: Вхождения, найденные в комментариях, строках, текстовых файлах и сгенерированном коде
+action.text.usage.view.settings:
+  text: Настройки…
+action.ShowSettings.show.settings.for.description:
+  text: Показать настройки для {0}
+action.ShowSettings.show.find.usages.settings.dialog.description:
+  text: Показать диалог настроек поиска использований
