@@ -63,7 +63,7 @@ action.AddToFavoritesPopup.description:
 group.AddToFavorites.text:
   text: Добавить в _избранное
 group.AddAllToFavorites.text:
-  text: Добавить все в избранное
+  text: Добавить всё в избранное
 action.AddNewFavoritesList.text:
   text: Добавить новый список избранного
 action.AddNewFavoritesList.description:
@@ -83,7 +83,7 @@ action.RenameFavoritesList.description:
 action.RemoveFavoritesList.text:
   text: Удалить список избранного
 action.RemoveFavoritesList.description:
-  text: Удалить все избранное, к которому принадлежит выбранный узел
+  text: Удалить всё избранное, к которому принадлежит выбранный узел
 action.RemoveAllFavoritesListsButThis.text:
   text: Удалить весь список избранного, кроме этого
 action.RemoveAllFavoritesListsButThis.description:
@@ -245,19 +245,19 @@ action.EditorTextEndWithSelection.text:
 action.EditorNextWord.text:
   text: Переместить курсор к следующему слову
 action.EditorNextWordInDifferentHumpsMode.text:
-  text: Переместить курсор к следующему слову в другом режиме "CamelHumps"
+  text: Переместить курсор к следующему слову в другом режиме «CamelHumps»
 action.EditorPreviousWord.text:
   text: Переместить курсор в предыдущее слово
 action.EditorPreviousWordInDifferentHumpsMode.text:
-  text: Переместить курсор к предыдущему слову в другом режиме "CamelHumps"
+  text: Переместить курсор к предыдущему слову в другом режиме «CamelHumps»
 action.EditorNextWordWithSelection.text:
   text: Переместить курсор в следующее слово с выделением
 action.EditorNextWordInDifferentHumpsModeWithSelection.text:
-  text: Переместить курсор к следующему слову с выделением в другом режиме "CamelHumps"
+  text: Переместить курсор к следующему слову с выделением в другом режиме «CamelHumps»
 action.EditorPreviousWordWithSelection.text:
   text: переместить курсор в предыдущее слово с выделением
 action.EditorPreviousWordInDifferentHumpsModeWithSelection.text:
-  text: Переместить курсор в предыдущее слово с выделением в другом режиме "CamelHumps"
+  text: Переместить курсор в предыдущее слово с выделением в другом режиме «CamelHumps»
 action.EditorCodeBlockStart.text:
   text: Переместить курсор в начало блока кода
 action.EditorCodeBlockEnd.text:
@@ -271,11 +271,11 @@ action.EditorMatchBrace.text:
 action.EditorDeleteToWordStart.text:
   text: Удалить до начала слова
 action.EditorDeleteToWordStartInDifferentHumpsMode.text:
-  text: Удалить до начала слова в другом режиме "CamelHumps"
+  text: Удалить до начала слова в другом режиме «CamelHumps»
 action.EditorDeleteToWordEnd.text:
   text: Удалить до конца слова
 action.EditorDeleteToWordEndInDifferentHumpsMode.text:
-  text: Удалить до конца слова в другом режиме "CamelHumps"
+  text: Удалить до конца слова в другом режиме «CamelHumps»
 action.EditorDeleteLine.text:
   text: Удалить строку
 action.EditorKillToWordStart.text:
@@ -569,7 +569,7 @@ action.redo.text:
 action.redo.description:
   text: Повторить {0}
 action.redo.description.empty:
-  text: последняя отмененная операция
+  text: последняя отменённая операция
 action.$Cut.text:
   text: Выреза_ть
 action.$Cut.description:
@@ -661,7 +661,7 @@ action.ShowUsages.description:
 action.ShowSettingsAndFindUsages.text:
   text: Найти настройки использования…
 action.ShowSettingsAndFindUsages.description:
-  text: Выбрать область действия и отредактировать параметры действия "Найти использования".
+  text: Выбрать область действия и отредактировать параметры действия «Найти использования».
 action.FindUsagesInFile.text:
   text: _Поиск использований в файле
 action.FindUsagesInFile.description:
@@ -829,23 +829,23 @@ group.GoToMenu.text:
 action.GotoClass.text:
   text: _Класс…
 action.GotoClass.description:
-  text: Быстро перейти к классу по имени
+  text: Быстро перейти к классу по названию
 action.GotoFile.text:
   text: _Файл…
 action.GotoFile.description:
-  text: Быстрый переход к файлу по имени
+  text: Быстрый переход к файлу по названию
 action.GotoSymbol.text:
   text: _Символ…
 action.GotoSymbol.description:
-  text: Быстро перехйти к любому символу по имени
+  text: Быстро перехйти к любому символу по названию
 action.GotoAction.text:
   text: _Найти действие…
 action.GotoAction.description:
-  text: Быстрый переход к действию по имени
+  text: Быстрый переход к действию по названию
 action.GotoLine.text:
   text: _Строка…
 action.GotoLine.description:
-  text: Перейти к строке в редакторе по ее номеру
+  text: Перейти к строке в редакторе по её номеру
 action.GotoDeclaration.text:
   text: _Объявление
 action.GotoDeclaration.description:
@@ -909,7 +909,7 @@ action.Back.description:
 action.Forward.text:
   text: _Вперёд
 action.Forward.description:
-  text: Вернуть последнюю отмененную операцию навигации
+  text: Вернуть последнюю отменённую операцию навигации
 action.JumpToLastChange.text:
   text: Место последней _правки
 action.JumpToLastChange.description:
@@ -1155,11 +1155,11 @@ action.CompileProject.description:
 action.CompileDirty.text:
   text: Собрать _проект
 action.CompileDirty.description:
-  text: Скомпилировать все измененные и зависимые файлы в проекте
+  text: Скомпилировать все изменённые и зависимые файлы в проекте
 action.MakeModule.text:
   text: Собрать _модуль
 action.MakeModule.description:
-  text: Скомпилировать все измененные и зависимые файлы в модуле
+  text: Скомпилировать все изменённые и зависимые файлы в модуле
 action.Compile.text:
   text: _Скомпилировать
 action.Compile.description:
@@ -1201,7 +1201,7 @@ action.StepInto.description:
 action.SmartStepInto.text:
   text: Войти внутрь с _умом
 action.SmartStepInto.description:
-  text: Войти внутрь определенного метода
+  text: Войти внутрь определённого метода
 action.StepOut.text:
   text: _Выйти
 action.StepOut.description:
@@ -1289,7 +1289,7 @@ action.Runner.CloseOtherViews.text:
 action.Runner.CloseOtherViews.description:
   text: закрыть другие представления
 action.Runner.CloseAllViews.text:
-  text: Закрыть все
+  text: Закрыть всё
 action.Runner.CloseAllViews.description:
   text: Закрыть все представления
 action.Runner.MoveViewToGrid.text:
@@ -1377,7 +1377,7 @@ action.VirtualFileInfo.text:
 action.Merge3Files.text:
   text: Слияние
 action.LocalizePlugin.text:
-  text: Локализация плагина
+  text: Локализация расширения
 group.MemoryManagement.text:
   text: Управление памятью
 action.DumpPsiMemoryCaches.text:
@@ -2229,7 +2229,7 @@ action.FileChooser.GotoModule.text:
 action.FileChooser.GotoModule.description:
   text: Перейти в каталог модуля
 action.WelcomeScreen.DevelopPlugins.text:
-  text: Разработка плагинов
+  text: Разработка расширений
 action.WelcomeScreen.DevelopPlugins.description:
   text: Начните разработку подключаемых модулей для {0}.
 action.WelcomeScreen.ReadHelp.text:
@@ -2261,7 +2261,7 @@ action.WelcomeScreen.Youtube.text:
 action.WelcomeScreen.Plugins.text:
   text: Расширения
 action.WelcomeScreen.Plugins.description:
-  text: управлять установленными плагинами и загружать новые из репозитория
+  text: управлять установленными расширениями и загружать новые из каталога
 action.WelcomeScreen.Configure.Import.text:
   text: Параметры импорта
 action.WelcomeScreen.Configure.Export.text:
@@ -2339,7 +2339,7 @@ group.CommentGroup.text:
 group.CodeFormatGroup.text:
   text: Действия по форматированию кода
 group.GoToTargetEx.text:
-  text: Перейти по имени Действия
+  text: Перейти по имени действия
 group.GoToErrorGroup.text:
   text: Перейти к ошибке/закладке
 group.GoToMenuEx.text:
@@ -2409,15 +2409,15 @@ action.WelcomeScreen.ShowTips.text:
 action.WelcomeScreen.ShowTips.description:
   text: Узнайте, как повысить продуктивность программирования.
 action.ShelvedChanges.ShowHideDeleted.text:
-  text: Показать / скрыть примененные изменения с полками
+  text: Показать/скрыть применённые изменения Shelve
 action.XDebugger.MuteBreakpoints.text:
   text: Отключить точки останова
 action.ShelvedChanges.DeleteDeleted.text:
-  text: Удалить примененные изменения с полками
+  text: Удалить применённые изменения Shelve
 action.Diff.IgnoreWhitespace.text:
   text: Включить/выключить игнорирование пробелов в Diff
 action.ShelvedChanges.Restore.text:
-  text: Восстановить примененное изменение полок
+  text: Восстановить применённое изменение Shelve
 action.Graph.Current.Node.Dependencies.Filter.text:
   text: Показать выбранные узлы с зависимостями
 group.VcsToobarActions.text:
@@ -2425,7 +2425,7 @@ group.VcsToobarActions.text:
 action.StartupWizard.text:
   text: Настроить дополнения…
 action.StartupWizard.description:
-  text: Запустить мастер для выбора набора включенных плагинов
+  text: Запустить мастер для выбора набора включённых расширений
 action.PopupHector.text:
   text: Настроить текущий анализ файлов…
 action.PopupHector.description:
@@ -2741,13 +2741,13 @@ action.OverrideFileTypeAction.text:
 action.OverrideFileTypeAction.description:
   text: Обрабатывать текущий файл как файл другого типа
 action.OverrideFileTypeAction.verbose.description:
-  text: Обрабатывать файл «{0}»{1,choice,0#|1# (и еще {1} файлов)} как файл другого типа файла
+  text: Обрабатывать файл «{0}»{1,choice,0#|1# (и ещё {1} файлов)} как файл другого типа файла
 action.ReverteOverrideFileTypeAction.text:
   text: Отменить переопределение типа файла
 action.ReverteOverrideFileTypeAction.description:
-  text: Отменить действие "Переопределить тип файла" и восстановить старый тип файла
+  text: Отменить действие «Переопределить тип файла» и восстановить старый тип файла
 action.ReverteOverrideFileTypeAction.verbose.description:
-  text: Отменить действие "Переопределить тип файла" и восстановить старый тип файла для файла «{0}»{1,choice,0#|1# (и еще {1} файлов)}
+  text: Отменить действие «Переопределить тип файла» и восстановить старый тип файла для файла «{0}»{1,choice,0#|1# (и ещё {1} файлов)}
 group.OverrideFileTypeAction.title:
   text: Выбрать тип файла
 group.OverrideFileTypeAction.bundledPlugin:

@@ -119,7 +119,7 @@ button.go.to:
 button.remove:
   text: '&Удалить'
 button.remove.all:
-  text: Удалить &все
+  text: Удалить &всё
 button.move.up:
   text: Переместить &вверх
 button.move.down:
@@ -201,7 +201,7 @@ action.remove.from.current.favorites:
 favorites.empty.screen:
   text: "Нечего отображать. Чтобы добавить элемент в список избранного, используйте: Главное меню -> Вид -> Добавить в избранное"
 action.abbreviate.qualified.package.names:
-  text: Сокращенные имена квалифицированных пакетов
+  text: Сокращённые имена квалифицированных пакетов
 action.hide.empty.middle.packages:
   text: Скрыть пустые средние пакеты
 action.show.hide.empty.middle.packages:
@@ -329,7 +329,7 @@ label.scope:
 hierarchy.scope.project:
   text: Производство
 hierarchy.scope.all:
-  text: Все
+  text: Везде
 hierarchy.scope.this.class:
   text: Этот класс
 action.refresh:
@@ -355,11 +355,11 @@ action.implement.methods:
 action.hide.non.implementations:
   text: Скрыть классы, в которых метод не реализован юридически
 hierarchy.legend.method.is.defined.in.class:
-  text: метод определен в классе
+  text: метод определён в классе
 hierarchy.legend.method.defined.in.superclass:
-  text: метод не определен в классе, но определен в суперклассе
+  text: метод не определён в классе, но определен в суперклассе
 hierarchy.legend.method.should.be.defined:
-  text: метод должен быть определен, так как класс не абстрактный
+  text: метод должен быть определён, так как класс не абстрактный
 action.override.method:
   text: Переопределить метод
 action.override.methods:
@@ -499,7 +499,7 @@ error.cannot.load.project:
 title.cannot.load.project:
   text: Невозможно загрузить проект
 error.project.file.is.corrupted:
-  text: Файл проекта поврежден
+  text: Файл проекта повреждён
 title.cannot.convert.project:
   text: Невозможно преобразовать проект
 dialog.title.convert.project:
@@ -585,7 +585,7 @@ message.license.is.corrupt:
 title.license.corrupt:
   text: Лицензия повреждена
 message.invalid.license.data:
-  text: Недействительные данные лицензии. Пожалуйста, попробуйте еще раз.
+  text: Недействительные данные лицензии. Попробуйте ещё раз.
 title.invalid.license.data:
   text: Неверные данные лицензии
 title.product.evaluation:
@@ -769,7 +769,7 @@ message.settings.exported.successfully:
     Ваши настройки успешно экспортированы.
     Вы можете импортировать настройки с помощью ''Файл|Импортировать настройки''.
 title.export.successful:
-  text: Экспорт завершен
+  text: Экспорт завершён
 error.writing.settings:
   text: |-
     Ошибка записи настроек.
@@ -943,7 +943,7 @@ macro.file.dir.relative.to.sourcepath.root.fwd.slash:
 macro.file.extension:
   text: Расширение файла
 macro.file.fully.qualified.package:
-  text: Полностью определенный пакет файла
+  text: Полностью определённый пакет файла
 macro.file.name:
   text: Название файла
 macro.file.name.without.extension:
@@ -1482,7 +1482,7 @@ label.project.files.location:
 title.select.project.file.directory:
   text: Выберите каталог файлов {0}
 description.select.project.file.directory:
-  text: 'Файл {0} будет сохранен в этом каталоге'
+  text: 'Файл {0} будет сохранён в этом каталоге'
 label.please.enter.project.name:
   text: Введите название для создания нового {0} {1}.
 prompt.please.select.project.jdk:
@@ -1512,7 +1512,7 @@ label.module.content.root:
 title.select.module.content.root:
   text: Выберите корневой каталог содержимого модуля
 label.module.file.will.be.saved.in:
-  text: 'Файл модуля будет сохранен в:'
+  text: 'Файл модуля будет сохранён в:'
 button.change.directory:
   text: Изменить каталог…
 title.module.name.not.specified:
@@ -1527,7 +1527,7 @@ title.module.file.location.not.specified:
   text: Местоположение файла модуля не указано Указано
 error.content.root.already.defined.for.module:
   text: |-
-    Корневой каталог контента «{0}» уже определен для модуля «{1}».
+    Корневой каталог контента «{0}» уже определён для модуля «{1}».
     Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
 title.module.content.root.already.exists:
   text: Корневой каталог контента модуля уже существует
@@ -1540,7 +1540,7 @@ directory.module.file:
 title.select.module.file.location:
   text: Выберите расположение файла модуля
 description.select.module.file.location:
-  text: Файл модуля будет сохранен в выбранном каталоге
+  text: Файл модуля будет сохранён в выбранном каталоге
 radio.create.new.module:
   text: '&Создать новый модуль'
 radio.import.existing.module:
@@ -1640,7 +1640,7 @@ directory.project.file.directory:
 prompt.overwrite.project.folder:
   text: |-
     Папка {0} уже существует в {1}.
-    Ее содержимое может быть перезаписано.
+    Её содержимое может быть перезаписано.
     Продолжить?
 warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
   text: Файл модуля «{0}» уже существует.
@@ -1681,9 +1681,9 @@ action.group.by.scope.type:
 action.description.group.by.scope:
   text: Группировать по типу области (производство, тестирование, библиотеки)
 action.show.included.only:
-  text: Показать только включенные
+  text: Показать только включённые
 action.description.show.included.only:
-  text: Показать только файлы, включенные в текущую выбранную область
+  text: Показать только файлы, включённые в текущую выбранную область
 scope.current.file:
   text: Текущий файл
 scope.selection:
@@ -1697,7 +1697,7 @@ scope.class.hierarchy:
 scope.hierarchy:
   text: Иерархия {0}
 scope.modified.files:
-  text: Изменено Файлы
+  text: Изменённые файлы
 scope.open.files:
   text: Открыть файлы
 prompt.choose.base.class.of.the.hierarchy:
@@ -1755,9 +1755,9 @@ action.select.none:
 action.show.classes:
   text: Показать классы
 action.expand.all:
-  text: Развернуть Все
+  text: Развернуть всё
 action.collapse.all:
-  text: Свернуть все
+  text: Свернуть всё
 checkbox.narrow.down.the.list.on.typing:
   text: "&Сузить список при вводе"
 checkbox.narrow.down.on.typing:
@@ -2009,7 +2009,7 @@ add.scope.dialog.title:
 scope.banner.text:
   text: Область «{0}»
 prompt.please.select.module.jdk:
-  text: Выберите {0}, который будет установлен для этого module
+  text: Выберите {0} для этого модуля
 scopes.save.dialog.title.shared:
   text: Сохранить как общую область
 scopes.save.dialog.title.local:
@@ -2023,7 +2023,7 @@ plugin.status.available:
 detach.library.from.module:
   text: |-
     Отсоединить библиотеку «{0}» от модуля «{1}»?
-    Ни один файл на диске не будет поврежден.
+    Ни один файл на диске не будет повреждён.
 detach.library:
   text: Отсоединить библиотеку
 scope.unable.to.save.scope.message:
@@ -2147,9 +2147,9 @@ plugin.manager.tooltip.warning:
 plugin.manager.incompatible.not.loaded.tooltip:
   text: Расширение не было загружено
 plugin.manager.incompatible.deps.tooltip:
-  text: Требуемое {0, choice, 1#расширение|2#расширений} {1} не не {0,choice, 1#включено|2#включены}
+  text: Требуемое {0, choice, 1#расширение|2#расширений} {1} не {0,choice, 1#включено|2#включены}
 plugin.manager.incompatible.tooltip:
-  text: Плагин несовместим с текущей установкой
+  text: Расширение несовместимо с текущей версией
 plugin.advestiser.notification.text:
   text: 'Найдены {0,choice, 1#расширение|2#расширений}, поддерживающие текущий файл'
 plugin.advestiser.notification.install.link:
@@ -2203,7 +2203,7 @@ custom.icon.validation.message:
 custom.icon.validation.title:
   text: Недопустимый размер значка
 run.canceled.by.user.message:
-  text: Запуск отменен пользователем
+  text: Запуск отменён пользователем
 run.configuration.error.executable.not.specified:
   text: Исполняемый файл не указан
 run.configuration.error.working.directory.does.not.exist:
@@ -2211,7 +2211,7 @@ run.configuration.error.working.directory.does.not.exist:
 run.configuration.error.working.directory.not.directory:
   text: Невозможно запустить процесс, указанный путь для рабочего каталога не является каталогом
 finished.with.exit.code.text.message:
-  text: Процесс завершен с кодом выхода {0}
+  text: Процесс завершён с кодом выхода {0}
 file.encodings.configurable:
   text: Кодировки файлов
 file.encodings.not.configured:
@@ -2281,7 +2281,7 @@ scripting.lib.docUrl.title:
 scripting.lib.usageScope:
   text: Область использования
 scripting.lib.usageScope.caption:
-  text: <html>Укажите, какие библиотеки используются в определенных файлах и/или каталогах</html>
+  text: <html>Укажите, какие библиотеки используются в определённых файлах и/или каталогах</html>
 scripting.lib.usageScope.tableTitle:
   text: Библиотека
 scripting.lib.usageScope.override.question:
@@ -2305,9 +2305,9 @@ goto.custom.region.message.dumb.mode:
 goto.custom.region.message.unavailable:
   text: В текущем файле нет пользовательских областей сворачивания.
 alphabetical.mode.is.on.warning:
-  text: Алфавитный порядок для вкладок ВКЛЮЧЕН. Выключить его?
+  text: Алфавитный порядок для вкладок ВКЛЮЧЁН. Выключить его?
 file.changed.externally.message:
-  text: Файл был изменен на диске.
+  text: Файл был изменён на диске.
 file.changed.externally.reload:
   text: Перезагрузить
 group.presentation.mode:
@@ -2345,7 +2345,7 @@ bundled.jre.version.message:
 ibus.blocking.warn.message:
   text: IBus до версии 1.5.11 может вызывать проблемы с вводом. Подробнее см. в <a href="https://youtrack.jetbrains.com/issue/IDEA-78860">IDEA-78860</a>.
 ide.sigint.ignored.message:
-  text: IDE игнорирует SIGINT - кнопка "Стоп" в конфигурациях запуска может не работать. Подробнее см. в <a href="https://youtrack.jetbrains.com/issue/IDEA-157989">IDEA-157989</a>.
+  text: IDE игнорирует SIGINT - кнопка «Стоп» в конфигурациях запуска может не работать. Подробнее см. в <a href="https://youtrack.jetbrains.com/issue/IDEA-157989">IDEA-157989</a>.
 sys.health.acknowledge.link:
   text: <br/><a href="ack">Больше не показывать</a>.
 low.disk.space.message:
@@ -2393,7 +2393,7 @@ error.0.browser.path.not.specified:
 show.in.find.window.button.name:
   text: Открыть в окне инструмента поиска
 searcheverywhere.allelements.tab.name:
-  text: Все
+  text: Везде
 searcheverywhere.commands.tab.name:
   text: Команды
 searcheverywhere.run.configs.tab.name:
@@ -2421,9 +2421,9 @@ searcheverywhere.indexing.mode.not.supported:
 searcheverywhere.indexing.incomplete.results:
   text: Результаты поиска в «{0}» могут быть неполными, пока {1} обновляет индексы
 searcheverywhere.runconfigurations.command.run.description:
-  text: Запустить конфигурацию запуска в режиме 'Выполнить'
+  text: Запустить конфигурацию запуска в режиме «Выполнить»
 searcheverywhere.runconfigurations.command.debug.description:
-  text: Запустить конфигурацию запуска в режиме 'Отладка'
+  text: Запустить конфигурацию запуска в режиме «Отладка»
 checkbox.include.non.project.items:
   text: Включить элементы, не входящие в {0}
 show.in.find.window.button.description:
@@ -2435,13 +2435,13 @@ go.to.file.toolwindow.title:
 go.to.class.toolwindow.title:
   text: '{0}, соответствующий шаблону'
 go.to.class.dumb.mode.message:
-  text: Действие "Перейти к {0}" недоступно, пока не будут построены индексы, вместо этого используется "Перейти к файлу"
+  text: "Действие «Перейти к {0}» недоступно, пока не будут построены индексы, вместо этого используется «Перейти к файлу»"
 go.to.class.action.description:
   text: Быстрый переход к {0} по имени
 checkbox.disabled.included:
   text: Включить &отключенные действия
 label.no.enabled.actions.found:
-  text: Включенных действий не найдено
+  text: Включённых действий не найдено
 recent.files.checkbox.label:
   text: Показать только измененные
 recent.locations.popup.title:
@@ -2459,7 +2459,7 @@ run.anything.command.empty.list.title:
 run.anything.console.process.finished:
   text: |2-
     
-    Процесс завершен с кодом выхода {0}.
+    Процесс завершён с кодом выхода {0}.
 run.anything.console.title:
   text: Запустить команду «что угодно»
 run.anything.console.error.title:
@@ -2515,7 +2515,7 @@ run.anything.help.list.empty.secondary.text:
 run.anything.main.list.empty.primary.text:
   text: Запустите команду или конфигурацию
 run.anything.main.list.empty.secondary.text:
-  text: Введите "?" для просмотра всех команд
+  text: Введите «?» для просмотра всех команд
 run.anything.action.tooltip.text:
   text: Запустить что угодно
 run.anything.double.ctrl.shortcut:
@@ -2539,7 +2539,7 @@ run.anything.context.tooltip:
 web.search.label.layout:
   text: Веб-поиск
 checksum.failed:
-  text: Несоответствие контрольной суммы. Попробуйте еще раз позже
+  text: Несоответствие контрольной суммы. Попробуйте ещё раз позже
 message.path.to.fqn.has.been.copied:
   text: "«{0}» был скопирован."
 action.DumbAware.BuildView.text.stop:
@@ -2625,7 +2625,7 @@ label.appearance.show.inner.whitespaces:
 label.appearance.show.trailing.whitespaces:
   text: Показать конечные пробелы
 label.tabs.show.directory.for.non.unique.filenames:
-  text: Показать каталог во вкладках редактора для неуникальных имен файлов
+  text: Показать каталог во вкладках редактора для неуникальных названий файлов
 command.fixing.line.separators:
   text: исправление разделителей строк
 action.Anonymous.text.rename:
