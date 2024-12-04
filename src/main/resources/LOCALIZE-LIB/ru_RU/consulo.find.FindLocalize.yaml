@@ -11,13 +11,13 @@ find.search.string.not.found.message:
 find.search.again.from.top.hotkey.message:
   text: '{0}, нажмите {1} для поиска сверху'
 find.search.again.from.top.action.message:
-  text: '{0}, выполните "Найти далее" еще раз для поиска сверху'
+  text: '{0}, выполните «Найти далее» ещё раз для поиска сверху'
 find.search.again.from.bottom.hotkey.message:
   text: '{0}, нажмите {1} для поиска снизу bottom'
 find.search.again.from.bottom.action.message:
-  text: '{0}, выполните "Найти предыдущий" еще раз, чтобы выполнить поиск снизу'
+  text: '{0}, выполните «Найти предыдущий» ещё раз, чтобы выполнить поиск снизу'
 select.next.occurence.not.found.message:
-  text: Не найдено, попробуйте еще раз, чтобы выполнить поиск сверху
+  text: Не найдено, попробуйте ещё раз, чтобы выполнить поиск сверху
 find.no.usages.at.cursor.error:
   text: "Невозможно выполнить поиск использований. \nПерейдите к элементу, для которого нужно найти использования, и повторите попытку."
 find.what.group:
@@ -95,7 +95,7 @@ find.usages.of.element.in.scope.panel.title:
 find.usages.of.element.tab.name:
   text: '{0} из {1}'
 recent.find.usages.action.description:
-  text: <html><body>{0} ''<b>{1}</b>'' в {2}</body></html>
+  text: <html><body>{0} «<b>{1}</b>» в {2}</body></html>
 recent.find.usages.action.popup:
   text: '{0} «{1}» в {2}'
 recent.find.usages.action.title:
@@ -141,7 +141,7 @@ find.text.to.find.label:
 find.replace.with.label:
   text: 'Заменить &на:'
 find.filter.file.name.group:
-  text: Фильтр по имени файла
+  text: Фильтр по названию файла
 find.filter.file.mask.checkbox:
   text: '&Маска(и) файла'
 find.context.combo.label:
@@ -167,7 +167,7 @@ find.invalid.regular.expression.error:
 find.empty.match.regular.expression.error:
   text: Регулярное выражение соответствует пустой строке
 find.empty.search.text.error:
-  text: Не введен текст поиска
+  text: Не введён текст поиска
 find.filter.invalid.file.mask.error:
   text: Неправильная маска файла «{0}»
 find.filter.empty.file.mask.error:

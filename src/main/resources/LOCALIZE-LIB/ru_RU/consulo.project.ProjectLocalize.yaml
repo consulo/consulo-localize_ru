@@ -5,7 +5,7 @@ project.macros.cancel.button:
 project.macros.variable.missing.error:
   text: Значение переменной пути «{0}» не определено
 project.macros.variable.missing.title:
-  text: Неопределенная переменная пути
+  text: Неопределённая переменная пути
 project.macros.prompt:
   text: 'TODO: message'
 project.macros.name.column:
@@ -17,9 +17,9 @@ project.save.error:
     Не удалось сохранить проект:
     {0}
 project.load.undefined.path.variables.error:
-  text: В файле проекта есть неопределенные переменные пути
+  text: В файле проекта есть неопределённые переменные пути
 project.load.undefined.path.variables.message:
-  text: В файлах конфигурации проекта есть неопределенные переменные пути.
+  text: В файлах конфигурации проекта есть неопределённые переменные пути.
 project.load.undefined.path.variables.all.needed:
   text: Все переменные пути должны быть определены
 project.load.undefined.path.variables.title:
@@ -32,7 +32,7 @@ project.load.waiting.watcher:
   text: Сканирование каталогов проекта…
 project.reload.external.change.single:
   text: |-
-    Файл проекта {0} был изменен извне.
+    Файл проекта {0} был изменён извне.
     Рекомендуется перезагрузить проект, чтобы изменения вступили в силу.
 project.reload.external.change.multiple:
   text: |-
@@ -55,7 +55,7 @@ project.convert.old.prompt:
     Проект {0}, который вы собираетесь открыть, имеет старый формат.
     {1} автоматически преобразует его в новый формат.
     Вы не сможете открыть его в более ранних версиях.
-    Старый файл проекта будет сохранен в {2}.
+    Старый файл проекта будет сохранён в {2}.
     Продолжить преобразование?
 project.convert.problems.detected:
   text: 'Во время преобразования вашего проекта были обнаружены следующие проблемы:'
@@ -68,7 +68,7 @@ project.convert.problems.title:
 project.convert.problems.help.button:
   text: Показать справку
 project.load.new.version.warning:
-  text: Проект {0}, который вы собираетесь открыть, был создан более новой версией {1}. Если вы его откроете, ваш проект, скорее всего, будет поврежден. Продолжить?
+  text: Проект {0}, который вы собираетесь открыть, был создан более новой версией {1}. Если вы его откроете, ваш проект, скорее всего, будет повреждён. Продолжить?
 project.default.settings:
   text: Настройки проекта по умолчанию
 project.configure.path.variables.title:
@@ -98,7 +98,7 @@ sdk.java.name:
 sdk.java.unknown.name:
   text: Неизвестно
 sdk.java.corrupt.error:
-  text: Вероятно, SDK, установленный в «{0}», поврежден
+  text: Вероятно, SDK, установленный в «{0}», повреждён
 sdk.java.corrupt.title:
   text: Невозможно определить версию SDK
 sdk.java.name.template:
@@ -156,7 +156,7 @@ project.language.level.reload.prompt:
     Изменения уровня языка вступят в силу при перезагрузке проекта.
     Хотите перезагрузить проект «{0}» сейчас?
 project.language.level.reload.title:
-  text: Уровень языка изменен
+  text: Уровень языка изменён
 library.global.settings:
   text: Глобальные библиотеки
 module.paths.title:
@@ -203,11 +203,11 @@ module.paths.add.content.dominate.error:
     Записи контента не должны пересекаться.
 module.paths.add.content.duplicate.error:
   text: |-
-    Корневой каталог контента «{0}» уже определен для модуля «{1}».
+    Корневой каталог контента «{0}» уже определён для модуля «{1}».
     Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
 module.paths.validation.duplicate.content.error:
   text: |-
-    Корневой каталог контента «{0}» определен для модулей «{1}» и «{2}».
+    Корневой каталог контента «{0}» определён для модулей «{1}» и «{2}».
     Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
 module.paths.validation.duplicate.source.root.error:
   text: |-
@@ -217,7 +217,7 @@ module.paths.validation.duplicate.source.root.error:
 module.paths.validation.source.root.belongs.to.another.module.error:
   text: |-
     Исходный корень «{0}»
-    не может быть определен в модуле «{1}», поскольку он принадлежит содержимому вложенного модуля «{2}»
+    не может быть определён в модуле «{1}», поскольку он принадлежит содержимому вложенного модуля «{2}»
 module.paths.remove.content.prompt:
   text: Удалить корень содержимого «{0}»?
 module.paths.remove.content.title:
@@ -273,7 +273,7 @@ module.libraries.attach.sources.button:
 module.libraries.attach.sources.immediately.button:
   text: Прикрепить &источники
 module.libraries.attach.more.button:
-  text: Прикрепить &еще…
+  text: Прикрепить &ещё…
 attach.annotations.button:
   text: Прикрепить аннотации…
 module.libraries.add.button:
@@ -297,7 +297,7 @@ library.attach.sources.action.busy.text:
 library.attach.sources.description:
   text: Выберите файлы jar/zip или каталоги, в которых находятся исходные тексты библиотеки
 module.sdk.not.defined:
-  text: Модуль SDK не определен
+  text: SDK модуля не определён
 module.sdk.setup:
   text: Настройка SDK
 module.module.language.level:
@@ -329,9 +329,9 @@ module.remove.confirmation.title:
 module.classpath.button.edit:
   text: Изменить…
 module.libraries.include.all.button:
-  text: Включить все
+  text: Включить всё
 module.libraries.exclude.all.button:
-  text: Исключить все
+  text: Исключить всё
 modules.order.export.title:
   text: Заказ/Экспорт
 modules.classpath.title:
@@ -525,7 +525,7 @@ project.roots.javadoc.tab.description:
 project.roots.output.compiler.title:
   text: Вывод компилятора
 project.roots.module.jdk.problem.message:
-  text: SDK модуля не определен.
+  text: SDK модуля не определён.
 project.roots.module.duplicate.name.message:
   text: дублирующее имя модуля
 project.roots.library.problem.message:
@@ -581,9 +581,9 @@ error.message.facet.type.isn.t.specified:
 error.message.cannot.find.underlying.facet.type.for.0:
   text: Невозможно найти базовый тип фасета для «{0}»
 error.message.0.facet.must.be.placed.under.1.facet:
-  text: '{0} фасет должен быть помещен под фасет {1}'
+  text: '{0} фасет должен быть помещён под фасет {1}'
 error.message.0.cannot.be.placed.under.1:
-  text: '{0} не может быть помещен под {1}'
+  text: '{0} не может быть помещён под {1}'
 error.message.0.facets.are.not.allowed.in.1:
   text: '{0} фасеты не допускаются в {1}'
 button.text.remove.selected:
@@ -591,7 +591,7 @@ button.text.remove.selected:
 button.text.ignore.selected:
   text: Игнорировать выбранное
 button.text.keep.all:
-  text: Сохранить все
+  text: Сохранить всё
 confirmation.message.would.you.like.to.ignore.facet:
   text: Хотите ли вы игнорировать фасет «{0}» из модуля «{1}»?
 element.kind.name.facet:
@@ -655,7 +655,7 @@ project.new.wizard.from.existent.sources.description:
 project.new.wizard.from.template.title:
   text: Создать {0} из &template
 project.new.wizard.from.template.description:
-  text: <html>Создайте {0} с предопределенной поддержкой для вашего любимого фреймворка/технологии</html>
+  text: <html>Создайте {0} с предопределённой поддержкой для вашего любимого фреймворка/технологии</html>
 project.new.wizard.from.template.error:
   text: 'Тип {0} не выбран'
 choose.module.home:
@@ -695,7 +695,7 @@ project.new.wizard.module.content.root.chooser.description:
 project.new.wizard.module.file.chooser.title:
   text: Выберите родительский каталог файла модуля
 project.new.wizard.module.file.description:
-  text: Файл модуля .iml будет помещен в выбранный каталог
+  text: Файл модуля .iml будет помещён в выбранный каталог
 project.new.wizard.select.type.label:
   text: Выберите тип
 project.new.wizard.description.title:

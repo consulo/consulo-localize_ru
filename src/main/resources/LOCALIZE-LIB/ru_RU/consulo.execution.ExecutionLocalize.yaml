@@ -233,7 +233,7 @@ junit.runing.info.error.tree.node:
 junit.runing.info.ignored.label:
   text: Пропущено
 junit.runing.info.ignored.console.message:
-  text: Тест ''{0}.{1}'' пропущен
+  text: "Тест «{0}.{1}» пропущен"
 junit.runing.info.left.to.run.count.tree.node:
   text: 'Осталось: {0}'
 junit.runing.info.failed.count.message:
@@ -462,7 +462,7 @@ junit.configuration.method.radio:
 jnit.configuration.all.tests.in.package.radio:
   text: Все тесты в пакете
 junit.configuration.all.in.package.radio:
-  text: Все в &пакете
+  text: Всё в &пакете
 no.jdk.specified.for.module.warning.text:
   text: JDK не указан для модуля «{0}»
 module.not.specified.error.text:
@@ -610,7 +610,7 @@ before.launch.run.unknown.task:
 action.name.save.as.configuration:
   text: Сохранить как
 default.junit.config.name.all.in.module:
-  text: Все в {0}
+  text: Всё в {0}
 default.junit.config.name.all.in.package.in.module:
   text: '{0} в {1}'
 down.the.stack.trace:
@@ -638,9 +638,9 @@ export.test.results.custom.template.chooser.title:
 export.test.results.output.folder.chooser.title:
   text: Выберите папку вывода
 export.test.results.custom.template.path.empty:
-  text: Пустой путь к определенному пользователем шаблону
+  text: Пустой путь к определённому пользователем шаблону
 export.test.results.custom.template.not.found:
-  text: Не найден определенный пользователем файл шаблона «{0}»
+  text: Не найден определённый пользователем файл шаблона «{0}»
 export.test.results.task.name:
   text: Экспорт результатов теста
 export.test.results.open.editor:

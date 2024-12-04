@@ -5,13 +5,13 @@ button.no:
 dialog.options.do.not.show:
   text: Не показывать этот диалог в будущем
 dialog.options.do.not.ask:
-  text: Помните, больше не спрашивайте
+  text: Запонмнить, больше не спрашивать
 dialog.title.choose.date:
   text: Выберите дату
 dialog.ioexception.proxy:
   text: Настройка параметров прокси-сервера HTTP
 dialog.ioexception.tryagain:
-  text: Попробуйте еще раз
+  text: Попробуйте ещё раз
 button.cancel:
   text: Отмена
 button.ok:
@@ -171,7 +171,7 @@ the.system.cannot.find.the.path.specified.error.message:
 the.system.cannot.open.the.file.error.message:
   text: Система не может открыть файл.
 access.is.denied.error.message:
-  text: Доступ запрещен.
+  text: Доступ запрещён.
 the.handle.is.invalid.error.message:
   text: Дескриптор недействителен.
 the.storage.control.blocks.were.destroyed.error.message:
@@ -193,13 +193,13 @@ not.enough.storage.is.available.to.complete.this.operation.error.message:
 the.system.cannot.find.the.drive.specified.error.message:
   text: Система не может найти указанный диск.
 the.directory.cannot.be.removed.error.message:
-  text: Каталог не может быть удален.
+  text: Каталог не может быть удалён.
 the.system.cannot.move.the.file.to.a.different.disk.drive.error.message:
   text: Система не может переместить файл на другой диск.
 there.are.no.more.files.error.message:
   text: Больше нет файлов.
 the.media.is.write.protected.error.message:
-  text: Носитель защищен от записи.
+  text: Носитель защищён от записи.
 the.system.cannot.find.the.device.specified.error.message:
   text: Система не может найти указанное устройство.
 the.device.is.not.ready.error.message:
@@ -211,7 +211,7 @@ data.error.cyclic.redundancy.check.error.message:
 the.program.issued.a.command.but.the.command.length.is.incorrect.error.message:
   text: Программа выдала команду, но длина команды неверна.
 the.drive.cannot.locate.a.specific.area.or.track.on.the.disk.error.message:
-  text: Привод не может найти определенную область или дорожку на диске.
+  text: Привод не может найти определённую область или дорожку на диске.
 the.specified.disk.or.diskette.cannot.be.accessed.error.message:
   text: К указанному диску или дискете нет доступа.
 the.drive.cannot.find.the.sector.requested.error.message:
@@ -283,7 +283,7 @@ date.frequency:
 name.label.text:
   text: "&Название:"
 smth.already.exist.error.message:
-  text: "{0} с названием '{1}' уже существует."
+  text: "{0} с названием «{1}» уже существует."
 comparison.policy.default.name:
   text: По умолчанию
 comparison.policy.trim.space.name:
@@ -312,7 +312,7 @@ safe.write.drop.temp:
 vfs.broken.link:
   text: Неработающая ссылка
 label.system.proxy.used:
-  text: <html>Для свойства JVM 'java.net.useSystemProxies' установлено значение true.<br>Это приведет к тому, что некоторые сетевые вызовы будут проходить через прокси-сервер, определенный операционной системой.<br>Если вы не собирались использовать системный прокси, отключите это свойство
+  text: <html>Для свойства JVM «java.net.useSystemProxies» установлено значение true.<br>Это приведет к тому, что некоторые сетевые вызовы будут проходить через прокси-сервер, определённый операционной системой.<br>Если вы не собирались использовать системный прокси, отключите это свойство
 http.noproxy:
   text: Без прокси
 http.proxy.type:
@@ -340,12 +340,12 @@ safe.write.junk:
   text: |-
     Невозможно сохранить {0}.
     Невозможно записать данные.
-    Возможно, файл поврежден.
+    Возможно, файл повреждён.
 safe.write.junk.backup:
   text: |-
     Невозможно сохранить {0}.
     Невозможно записать данные.
-    Файл может быть поврежден; резервная копия была создана в {1}.
+    Файл может быть повреждён; резервная копия была создана в {1}.
 safe.write.restored:
   text: |-
     Невозможно сохранить {0}.

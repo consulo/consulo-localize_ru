@@ -163,9 +163,9 @@ mouse.click.shortcut.text:
 mouse.double.click.shortcut.text:
   text: '{0}Кнопка{1} Двойной щелчок'
 configuration.all.keymaps.should.have.non.empty.names.error.message:
-  text: Все раскладки должны иметь непустые имена
+  text: Все раскладки должны иметь непустые названия
 configuration.all.keymaps.should.have.unique.names.error.message:
-  text: Все раскладки должны иметь уникальные имена
+  text: Все раскладки должны иметь уникальные названия
 filter.clear.action.text:
   text: Очистить фильтрацию
 filter.settings.popup.title:

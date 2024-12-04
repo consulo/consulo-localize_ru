@@ -197,7 +197,7 @@ checkbox.spaces.in.empty.tag:
 checkbox.spaces.around.tag.name:
   text: После имени тега
 checkbox.spaces.around.equals.in.attribute:
-  text: Вокруг "=" в атрибуте
+  text: Вокруг «=» в атрибуте
 label.wrap.attributes:
   text: 'Обернуть атрибуты:'
 label.keep.white.spaces.inside:
@@ -225,7 +225,7 @@ title.other.tabs.and.indents:
 checkbox.use.single.class.import:
   text: Использовать импорт одного класса
 checkbox.use.fully.qualified.class.names:
-  text: Использовать полностью определенные имена классов
+  text: Использовать полностью определённые названия классов
 checkbox.insert.imports.for.inner.classes:
   text: Вставить импорт для внутренних классов
 checkbox.use.fully.qualified.class.names.in.javadoc:
@@ -475,7 +475,7 @@ button.delete:
 editbox.scheme.name:
   text: 'Схема:'
 html.project.uses.own.code.style:
-  text: <html><body>Текущий проект настроен на использование собственного стиля кода.<br>Изменения, внесенные в глобальные настройки стиля кода, не повлияют на форматирование в текущем проекте.<br>См. Настройки проекта | Стиль кода.<br>Нажмите \&quot;Изменить глобальные настройки\&quot; кнопку ниже, если вы все еще хотите редактировать глобальные настройки.</body></html>
+  text: <html><body>Текущий проект настроен на использование собственного стиля кода.<br>Изменения, внесенные в глобальные настройки стиля кода, не повлияют на форматирование в текущем проекте.<br>См. Настройки проекта | Стиль кода.<br>Нажмите \&quot;Изменить глобальные настройки\&quot; кнопку ниже, если вы всё ещё хотите редактировать глобальные настройки.</body></html>
 title.edit.global.settings:
   text: Изменить &глобальные настройки
 title.settings:
@@ -915,7 +915,7 @@ checkbox.use.throws.rather.than.exception:
 checkbox.wrap.at.right.margin:
   text: Перенос по правому краю
 checkbox.generate.p.on.empty.lines:
-  text: Генерировать "<p/>" на пустых строках
+  text: Генерировать «<p/>» на пустых строках
 checkbox.keep.empty.lines:
   text: Сохранять пустые строки
 checkbox.do.not.wrap.one.line.comments:
@@ -1089,7 +1089,7 @@ exit.confirm.prompt.tasks:
 exclude.from.completion.group:
   text: Исключить из импорта и завершения
 exclude.from.completion.prompt:
-  text: "Введите название пакета или класса для исключения из автоимпорта и завершения имени класса:"
+  text: "Введите название пакета или класса для исключения из автоимпорта и завершения названия класса:"
 exclude.from.completion.title:
   text: Исключить пакет
 exclude.from.imports.add:
@@ -1197,7 +1197,7 @@ arrangement.settings.groups.property.field:
 arrangement.settings.groups.dependent.methods:
   text: Сохранять зависимые методы вместе
 arrangement.settings.groups.overridden.methods:
-  text: Сохранять переопределенные методы вместе
+  text: Сохранять переопределённые методы вместе
 arrangement.settings.groups.getters.and.setters.together:
   text: Сохранять геттеры и сеттеры вместе
 arrangement.settings.order.type.keep:
@@ -1219,7 +1219,7 @@ arrangement.settings.text.general.text:
 arrangement.settings.text.general.order:
   text: 'Порядок:'
 arrangement.settings.text.general.xml.namespace:
-  text: 'Пространство имен:'
+  text: 'Пространство имён:'
 arrangement.settings.text.entry.type.xml.tag:
   text: тег
 arrangement.settings.text.entry.type.xml.attribute:
@@ -1301,7 +1301,7 @@ code.style.indents.detector.show.settings:
 code.style.indents.detector.accept:
   text: OK
 remote.desktop.detected.title:
-  text: Обнаружен удаленный рабочий стол
+  text: Обнаружен удалённый рабочий стол
 remote.desktop.detected.message:
   text: Анимация отключена
 ligatures.more.info:
@@ -1311,11 +1311,11 @@ checkbox.line.comment.add.space:
 action.apply.editor.font.settings:
   text: Применить настройки шрифта редактора
 checkbox.show.parameter.name.hints:
-  text: Показать подсказки имен параметров
+  text: Показать подсказки названий параметров
 fs.case.sensitivity.mismatch.title:
   text: Несоответствие чувствительности к регистру в файловой системе
 fs.case.sensitivity.mismatch.message:
-  text: Похоже, что проект находится в файловой системе, чувствительной к регистру.<br> Это не соответствует настройке IDE (управляется свойством "<tt>consulo.case.sensitive.fs</tt>")<br> <a href="https://confluence.jetbrains.com/display/IDEADEV/Filesystem+Case-Sensitivity+Mismatch">Подробнее.</a>
+  text: Похоже, что проект находится в файловой системе, чувствительной к регистру.<br> Это не соответствует настройке IDE (управляется свойством «<tt>consulo.case.sensitive.fs</tt>»)<br> <a href="https://confluence.jetbrains.com/display/IDEADEV/Filesystem+Case-Sensitivity+Mismatch">Подробнее.</a>
 integer.field.value.expected:
   text: Ожидается значение
 integer.field.value.out.of.range:
@@ -1361,7 +1361,7 @@ editorsearch.current.cursor.position:
 editorsearch.noselection:
   text: Нет выбора
 editorsearch.empty.string.matches:
-  text: Неопределенный шаблон
+  text: Неопределённый шаблон
 editorsearch.in.selection:
   text: Поиск только в выделенном
 editorsearch.in.selection.with.hint:
