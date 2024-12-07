@@ -1,7 +1,7 @@
 color.panel.select.color.dialog.description:
   text: Выберите цвет
 color.panel.right.click.to.customize.tooltip.suffix:
-  text: Щелкните правой кнопкой мыши, чтобы настроить
+  text: Щёлкните правой кнопкой мыши, чтобы настроить
 insert.file.path.to.text.action.name:
   text: Вставить путь
 order.entries.panel.export.column.name:
@@ -11,11 +11,11 @@ tree.view.expand.all.action.name:
 tree.view.collapse.all.action.name:
   text: Свернуть всё
 component.with.browse.button.browse.button.tooltip.text:
-  text: Щелкните или нажмите Alt-Enter
+  text: Щёлкните или нажмите Alt-Enter
 there.is.no.help.for.this.dialog.error.message:
   text: Для этого диалога нет справки
 no.help.available.dialog.title:
-  text: Нет справки Доступно
+  text: Нет доступной справки
 invalid.user.input.dialog.title:
   text: Ошибка ввода
 splitter.down.tooltip.text:
@@ -37,7 +37,7 @@ autoscroll.to.source.action.name:
 autoscroll.to.source.action.description:
   text: Автоматическая прокрутка к источнику
 collapsible.panel.collapsed.state.tooltip.text:
-  text: Развернуть Панель
+  text: Развернуть панель
 collapsible.panel.expanded.state.tooltip.text:
   text: Свернуть панель
 idea.blue.metal.theme.name:
@@ -113,9 +113,9 @@ tool.window.name.module.dependencies:
 tool.window.name.tasks:
   text: Отслеживание времени
 tool.window.move.to.action.group.name:
-  text: Переместить в
+  text: Переместить
 tool.window.move.to.top.action.name:
-  text: Верх
+  text: Вверх
 tool.window.move.to.left.action.name:
   text: Влево
 tool.window.move.to.bottom.action.name:
@@ -139,7 +139,7 @@ go.to.line.command.name:
 go.to.line.command.name.with.shortkut:
   text: Перейти к строке ({0})
 go.to.line.command.double.click:
-  text: Щелкните, чтобы перейти к строке
+  text: Щёлкните, чтобы перейти к строке
 position.panel.caret.count:
   text: '{0} знаков вставки'
 position.panel.selected.chars.count:
@@ -153,15 +153,15 @@ status.bar.insert.status.text:
 status.bar.overwrite.status.text:
   text: Перезаписать
 popup.hints.panel.click.to.configure.highlighting.tooltip.text:
-  text: Щелкните, чтобы настроить подсветку для этого файла
+  text: Щёлкните, чтобы настроить подсветку для этого файла
 popup.hints.panel.click.to.configure.profile.text:
-  text: Щелкните, чтобы настроить профили проверки
+  text: Щёлкните, чтобы настроить профили проверки
 read.only.attr.panel.double.click.to.toggle.attr.tooltip.text:
-  text: Щелкните, чтобы переключить атрибут «только для чтения»
+  text: Щёлкните, чтобы переключить атрибут «только для чтения»
 welcome.screen.get.from.vcs.action.no.vcs.plugins.with.check.out.action.installed.action.name:
-  text: Не установлено ни одного расширения VCS с действием Check-out.
+  text: Не установлено ни одного расширения VCS с действием создания рабочей копии.
 welcome.screen.get.from.vcs.action.checkout.from.list.popup.title:
-  text: Оформить заказ из
+  text: Создать рабочую копию из
 welcome.screen.recent.projects.action.no.recent.projects.to.display.action.name:
   text: Нет недавних проектов для отображения.
 welcome.screen.quick.start.action.group.name:
@@ -187,7 +187,7 @@ welcome.screen.plugins.panel.learn.more.tooltip.text:
 welcome.screen.text.not.specified.message:
   text: Не указано
 welcome.screen.jetbrains.tv.action.description:
-  text: Посмотреть короткие живые демонстрации, представляющие возможности {0}.
+  text: Посмотреть короткие живые демонстрации, показывающие возможности {0}.
 file.chooser.default.title:
   text: Выберите путь
 file.chooser.save.dialog.default.title:
@@ -197,7 +197,7 @@ file.chooser.save.dialog.confirmation:
     {0} уже существует.
     Хотите заменить его?
 file.chooser.save.dialog.confirmation.title:
-  text: Подтвердить Сохранить как
+  text: Подтвердите «Сохранить как»
 file.chooser.select.object.title:
   text: Выбрать {0}
 delete.dialog.title:
@@ -213,7 +213,7 @@ are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
 are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
   text: Вы уверены, что хотите удалить {0} выбранных файлов?
 create.new.folder.enter.new.folder.name.prompt.text:
-  text: 'Введите новое название папки:'
+  text: 'Введите название для новой папки:'
 create.new.folder.folder.name.cannot.be.empty.error.message:
   text: Название папки не может быть пустым
 create.new.folder.could.not.create.folder.error.message:
@@ -221,7 +221,7 @@ create.new.folder.could.not.create.folder.error.message:
 new.folder.dialog.title:
   text: Новая папка
 create.new.file.enter.new.file.name.prompt.text:
-  text: 'Введите новое название файла:'
+  text: 'Введите название для нового файла:'
 create.new.file.file.name.cannot.be.empty.error.message:
   text: Название файла не может быть пустым
 create.new.file.could.not.create.file.error.message:
@@ -267,9 +267,9 @@ choose.content.to.paste.dialog.title:
 downloading.file.try.again.button:
   text: Повторить попытку
 downloading.file.change.http.proxy.settings:
-  text: Изменить настройки HTTP &прокси…
+  text: Изменить настройки HTTP-&прокси…
 remove.field.initializer.quick.fix:
-  text: Удалить поле инициализатор
+  text: Удалить инициализатор поля
 button.add.class:
   text: Добавить класс…
 button.add.pattern:
@@ -323,7 +323,7 @@ tool.window.quick.access.title:
 tool.window.quick.access.message:
   text: |-
     Наведите указатель мыши на значок ниже, чтобы открыть окна инструментов
-    Чтобы восстановить старую компоновку, просто щелкните на значок
+    Чтобы восстановить старую компоновку, просто щёлкните на значок
 got.it:
   text: Понятно!
 crombs.calculating.tooltip:

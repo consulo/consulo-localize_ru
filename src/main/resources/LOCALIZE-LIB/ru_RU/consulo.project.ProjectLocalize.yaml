@@ -144,13 +144,13 @@ project.index.building.exclude.roots.progress:
 project.index.processing.module.content.progress:
   text: Обработка содержимого модуля «{0}»…
 project.index.processing.module.sources.progress:
-  text: Обработка источников модуля «{0}»…
+  text: Обработка исходников модуля «{0}»…
 project.index.processing.library.sources.progress:
-  text: Обработка библиотеки модуля «{0}» источники…
+  text: Обработка исходников библиотек модуля «{0}»…
 project.index.processing.library.classes.progress:
-  text: Обработка классов библиотеки модуля «{0}»…
+  text: Обработка классов библиотек модуля «{0}»…
 project.root.module.source:
-  text: <Исходный модуль>
+  text: <Исходники модуля>
 project.language.level.reload.prompt:
   text: |-
     Изменения уровня языка вступят в силу при перезагрузке проекта.
@@ -160,7 +160,7 @@ project.language.level.reload.title:
 library.global.settings:
   text: Глобальные библиотеки
 module.paths.title:
-  text: Источники
+  text: Исходники
 module.paths.output.title:
   text: Выберите путь вывода
 module.paths.test.output.title:
@@ -170,17 +170,17 @@ module.paths.resource.output.title:
 module.paths.exclude.output.checkbox:
   text: Исключить пути вывода
 module.paths.output.label:
-  text: 'Путь вывода:'
+  text: 'Путь к результирующей папке с классами:'
 module.paths.test.output.label:
-  text: 'Путь вывода теста:'
+  text: 'Путь к результирующей папке с тестовыми классами:'
 module.paths.resource.output.label:
-  text: 'Путь вывода ресурса:'
+  text: 'Путь к результирующей папке с ресурсами:'
 module.paths.test.resource.output.label:
-  text: 'Вывод ресурса теста path:'
+  text: 'Путь к результирующей папке с тестовыми ресурсами:'
 module.paths.searching.source.roots.progress:
-  text: Поиск исходных корней в {0}
+  text: Поиск корневой папки исходников в {0}
 module.paths.searching.source.roots.title:
-  text: Добавление исходных корней
+  text: Добавление корневой папки исходников
 module.paths.add.content.action:
   text: Добавить _корень контента
 module.paths.add.content.action.description:
@@ -203,35 +203,35 @@ module.paths.add.content.dominate.error:
     Записи контента не должны пересекаться.
 module.paths.add.content.duplicate.error:
   text: |-
-    Корневой каталог контента «{0}» уже определён для модуля «{1}».
-    Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
+    Корневой каталог содержимого «{0}» уже определён для модуля «{1}».
+    Два модуля в проекте не могут совместно использовать один и тот же корневой каталог содержимого.
 module.paths.validation.duplicate.content.error:
   text: |-
-    Корневой каталог контента «{0}» определён для модулей «{1}» и «{2}».
-    Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
+    Корневой каталог содержимого «{0}» определён для модулей «{1}» и «{2}».
+    Два модуля в проекте не могут совместно использовать один и тот же корневой каталог содержимого.
 module.paths.validation.duplicate.source.root.error:
   text: |-
     Модуль «{0}»
-    не должен содержать исходный корневой каталог «{1}».
-    Корень уже принадлежит модулю «{2}»
+    не должен содержать корневой каталог исходников «{1}».
+    Корневой каталог уже принадлежит модулю «{2}»
 module.paths.validation.source.root.belongs.to.another.module.error:
   text: |-
-    Исходный корень «{0}»
+    Корневой каталог исходников «{0}»
     не может быть определён в модуле «{1}», поскольку он принадлежит содержимому вложенного модуля «{2}»
 module.paths.remove.content.prompt:
-  text: Удалить корень содержимого «{0}»?
+  text: Удалить корневой каталог содержимого «{0}»?
 module.paths.remove.content.title:
-  text: Удалить корневой контент
+  text: Удалить корневой каталог содержимого
 module.paths.empty.node:
   text: <empty>
 module.paths.sources.group:
-  text: Исходные папки
+  text: Папки с исходниками
 module.paths.resources.group:
   text: Папки ресурсов
 module.paths.test.sources.group:
-  text: Тестовые исходные папки
+  text: Папки с тестовыми исходниками
 module.paths.test.resources.group:
-  text: Тестовые папки ресурсов
+  text: Папки тестовых ресурсов
 module.paths.excluded.group:
   text: Исключенные папки
 module.paths.remove.content.tooltip:
@@ -263,15 +263,15 @@ module.javadoc.remove.button:
 module.javadoc.add.path.title:
   text: Добавить путь к JavaDoc
 module.javadoc.add.path.prompt:
-  text: Выберите файлы jar/zip или каталоги, в которых Документация модуля javadoc находится
+  text: Выберите файлы jar/zip или каталоги, в которых находится JavaDoc-документация модуля
 sdk.combo.box.item:
   text: <Нет SDK>
 module.libraries.javadoc.url.button:
   text: Укажите URL документации…
 module.libraries.attach.sources.button:
-  text: Прикрепить &источники…
+  text: Прикрепить &исходники…
 module.libraries.attach.sources.immediately.button:
-  text: Прикрепить &источники
+  text: Прикрепить &исходники
 module.libraries.attach.more.button:
   text: Прикрепить &ещё…
 attach.annotations.button:
@@ -287,11 +287,11 @@ library.attach.files.to.library.action:
 library.attach.files.description:
   text: Выберите файлы или каталоги, в которых находятся классы библиотеки, исходные тексты и документация
 library.sources.not.found:
-  text: Источники не найдены
+  text: Исходники не найдены
 library.sources.not.attached:
-  text: Источники не прикреплены
+  text: Исходники не прикреплены
 library.attach.sources.action:
-  text: Прикрепить источники
+  text: Прикрепить исходники
 library.attach.sources.action.busy.text:
   text: Прикрепление…
 library.attach.sources.description:
@@ -349,7 +349,7 @@ module.remove.confirmation.prompt:
     Удалить {1, choice, 1#модуль|2#модули} {0} из проекта?
     Файлы не будут удалены.
 module.remove.command:
-  text: Отсоединить модуль от проекта
+  text: Убрать модуль из проекта
 module.new.action:
   text: Новый модуль
 module.new.action.description:
@@ -359,15 +359,15 @@ module.toggle.excluded.action:
 module.toggle.excluded.action.description:
   text: Включить/исключить каталог из модуля
 module.toggle.test.sources.action:
-  text: Тестовые источники
+  text: Исходники тестов
 module.toggle.resources.action:
   text: Ресурсы
 module.toggle.sources.action:
-  text: Источники
+  text: Исходники
 module.toggle.web.resources.action:
   text: Веб-ресурсы
 module.toggle.test.resources.action:
-  text: Тестовые ресурсы
+  text: Ресурсы тестов
 module.toggle.0.action.description:
   text: Отметить каталог как {0}
 library.binaries.node:
@@ -435,13 +435,13 @@ element.kind.name.module:
 module.dir.does.not.exist.error:
   text: Module dir «{0}» does not exist
 libraries.node.text.ide:
-  text: Библиотеки содержат классы, которые добавляют различные функциональные возможности в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам в разработке ваших проектов.<br><br>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br><br>Глобальные библиотеки используются во всем проекте и могут использоваться из всех модулей. Кроме того, они доступны для всех проектов, созданных локально на вашем компьютере.<br><br>Обратите внимание, что глобальные библиотеки недоступны никому, с кем вы делитесь своим проектом. Если вы делитесь проектом со своей командой, используйте вместо этого библиотеки проекта.<br><br>Разверните узел и выберите дочерние элементы для управления глобальными библиотеками. <br><br> Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щелкните вкладку Зависимости, щелкните Добавить и укажите местоположение библиотеки.
+  text: Библиотеки содержат классы, которые добавляют различные функциональные возможности в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам в разработке ваших проектов.<br/><br/>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br/><br/>Глобальные библиотеки используются во всем проекте и могут использоваться из всех модулей. Кроме того, они доступны для всех проектов, созданных локально на вашем компьютере.<br/><br/>Обратите внимание, что глобальные библиотеки недоступны никому, с кем вы делитесь своим проектом. Если вы делитесь проектом со своей командой, используйте вместо этого библиотеки проекта.<br/><br/>Разверните узел и выберите дочерние элементы для управления глобальными библиотеками.<br/><br/>Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щёлкните вкладку «Зависимости», щёлкните «Добавить» и укажите местоположение библиотеки.
 libraries.node.text.project:
-  text: Библиотеки содержат классы, которые добавляют различные функциональные возможности в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам в разработке ваших проектов.<br><br>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br><br>Библиотеки проекта ссылаются на весь проект и могут использоваться из всех модулей. Кроме того, они доступны всем, с кем вы делитесь проектом.<br><br>Разверните узел и выберите дочерние элементы для управления библиотеками проекта.<br><br> Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щелкните вкладку Зависимости, щелкните Добавить и укажите местоположение библиотеки.
+  text: Библиотеки содержат классы, которые добавляют различные функциональные возможности в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам в разработке ваших проектов.<br/><br/>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br/><br/>Библиотеки проекта ссылаются на весь проект и могут использоваться из всех модулей. Кроме того, они доступны всем, с кем вы делитесь проектом.<br/><br/>Разверните узел и выберите дочерние элементы для управления библиотеками проекта.<br/><br/>Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щёлкните вкладку «Зависимости», щёлкните «Добавить» и укажите местоположение библиотеки.
 libraries.node.text.module:
-  text: Библиотеки содержат классы, которые добавляют различные функции в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам разрабатывать ваши проекты.<br><br>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br><br>Библиотеки модулей ссылаются только из модуля, к которому они прикреплены. Разверните узел и выберите дочерние элементы для управления библиотеками модулей.<br><br> Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щелкните вкладку Зависимости, щелкните Добавить и укажите расположение библиотеки.
+  text: Библиотеки содержат классы, которые добавляют различные функции в ваши приложения. Библиотеки также включают исходные файлы и JavaDocs, которые могут помочь вам разрабатывать ваши проекты.<br/><br/>Consulo использует библиотеки, чтобы помочь вам с автодополнением кода, проверкой, выделением ошибок и т. д.<br/><br/>Библиотеки модулей ссылаются только из модуля, к которому они прикреплены. Разверните узел и выберите дочерние элементы для управления библиотеками модулей.<br/><br/>Чтобы прикрепить библиотеку к модулю, выберите этот модуль, щёлкните вкладку «Зависимости», щелкните «Добавить» и укажите расположение библиотеки.
 global.bundles.display.name:
-  text: SDKs/Bundles/Tools
+  text: SDK/Пакеты/Инструменты
 global.bundles.empty.text:
   text: Выберите пакет для просмотра или редактирования его данных здесь
 add.action.name:
@@ -469,7 +469,7 @@ project.inherit.compile.output.path:
 project.module.compile.output.path:
   text: Использовать выходной путь компиляции модуля
 project.compiler.output:
-  text: '<html><b>Выходные данные компилятора проекта:</b><br>Этот путь используется для хранения всех результатов компиляции проекта. <br>По этому пути создается каталог, соответствующий каждому модулю. <br>Этот каталог содержит два подкаталога: Production и Test для производственного кода и тестовых исходников соответственно.<br>Для каждого из модулей можно настроить путь вывода компилятора, специфичный для модуля, по мере необходимости</html>'
+  text: '<html><b>Выходные данные компилятора проекта:</b/><br>Этот путь используется для хранения всех результатов компиляции проекта.<br/>По этому пути создается каталог, соответствующий каждому модулю.<br/>Этот каталог содержит два подкаталога: Production и Test для производственного кода и тестовых исходников соответственно.<br/>Для каждого из модулей можно настроить путь вывода компилятора, специфичный для модуля, по мере необходимости</html>'
 find.usages.action.text:
   text: Найти использования
 dependencies.used.in.popup.title:
@@ -513,9 +513,9 @@ project.roots.plain.mode.action.text.disabled:
 project.roots.plain.mode.action.text.enabled:
   text: Показать группы модулей
 project.roots.tooltip.library.has.broken.paths:
-  text: У библиотеки «{0}» некорректный {1, choice, 1#путь|2#пути}.
+  text: У библиотеки «{0}» некорректны{1, choice, 1#й путь|2#е пути}.
 project.roots.error.message.invalid.roots:
-  text: недопустимый {0} {1, choice, 1#корень|2#корни}
+  text: недопустимы{1, choice, 1#й корневой каталог|2#е корневые каталоги} {0}
 choose.modules.dialog.title:
   text: Выберите модули
 choose.modules.dialog.description:
@@ -527,7 +527,7 @@ project.roots.output.compiler.title:
 project.roots.module.jdk.problem.message:
   text: SDK модуля не определён.
 project.roots.module.duplicate.name.message:
-  text: дублирующее имя модуля
+  text: дублирующее название модуля
 project.roots.library.problem.message:
   text: недопустимый элемент «{0}» в списке зависимостей
 project.roots.project.display.name:
@@ -547,13 +547,13 @@ project.roots.replace.library.entry.title:
 project.roots.classpath.format.label:
   text: 'Формат хранения зависимостей:'
 external.annotations.root.chooser.title:
-  text: Выберите внешний корень аннотаций для {0}
+  text: Выберите корневой каталог с внешними аннотациями для {0}
 external.annotations.root.chooser.description:
   text: Внешние аннотации будут сохранены в соответствующей папке
 external.annotation.prompt:
-  text: Внешняя подсказка аннотации
+  text: Подсказка внешней аннотации
 external.annotations.suggestion.message:
-  text: <html><body>Если вы не хотите аннотаций в своем коде, вы можете использовать внешнее хранилище.<br> Чтобы настроить внешние аннотации, укажите корневой каталог, в котором будут размещены файлы с аннотациями</body></html>
+  text: <html><body>Если вы не имеете возможности добавлять аннотации в своём коде, вы можете использовать внешнее хранилище.<br/>Чтобы настроить внешние аннотации, укажите корневой каталог, в котором будут размещены файлы с аннотациями</body></html>
 sdk.configure.annotations.tab:
   text: Аннотации
 project.roots.path.tab.title:
@@ -563,39 +563,19 @@ project.roots.external.annotations.tab.title:
 project.roots.external.annotations.description:
   text: <html>Управление внешними аннотациями, прикрепленными к этому модулю.</html>
 add.external.annotations.path.title:
-  text: Добавить путь к внешнему annotations
+  text: Добавить путь к внешним аннотациям
 add.external.annotations.path.description:
-  text: Выберите путь, в котором находятся внешние аннотации для источников модуля
+  text: Выберите путь к папке, где будут храниться внешние аннотации модуля
 dialog.title.packaging.choose.library:
   text: Выберите библиотеку
 dialog.title.packaging.choose.module:
   text: Выберите модуль
-action.name.facet.navigate:
-  text: Перейти
-error.message.unknown.facet.type.0:
-  text: 'Неизвестный тип фасета: «{0}»'
-error.message.cannot.load.facet.condiguration.0:
-  text: 'Невозможно загрузить конфигурацию фасета: {0}'
-error.message.facet.type.isn.t.specified:
-  text: Тип фасета не указан
-error.message.cannot.find.underlying.facet.type.for.0:
-  text: Невозможно найти базовый тип фасета для «{0}»
-error.message.0.facet.must.be.placed.under.1.facet:
-  text: '{0} фасет должен быть помещён под фасет {1}'
-error.message.0.cannot.be.placed.under.1:
-  text: '{0} не может быть помещён под {1}'
-error.message.0.facets.are.not.allowed.in.1:
-  text: '{0} фасеты не допускаются в {1}'
 button.text.remove.selected:
   text: Удалить выбранное
 button.text.ignore.selected:
   text: Игнорировать выбранное
 button.text.keep.all:
   text: Сохранить всё
-confirmation.message.would.you.like.to.ignore.facet:
-  text: Хотите ли вы игнорировать фасет «{0}» из модуля «{1}»?
-element.kind.name.facet:
-  text: facet
 error.message.configuration.cannot.load:
   text: Невозможно загрузить
 label.text.0.cannot.be.loaded.remove:
@@ -619,11 +599,11 @@ action.description.remove.packaging.elements:
 artifacts.create.action:
   text: Создать {0}
 action.name.extract.artifact:
-  text: Извлечь Артефакт…
+  text: Извлечь артефакт…
 label.text.specify.artifact.name:
-  text: 'Укажите &имя артефакта:'
+  text: 'Укажите &название артефакта:'
 dialog.title.extract.artifact:
-  text: Извлечь Артефакт
+  text: Извлечь артефакт
 action.name.inline.artifact:
   text: Встроенный артефакт
 action.name.rename.packaging.element:
@@ -631,7 +611,7 @@ action.name.rename.packaging.element:
 drag.n.drop.text.0.packaging.elements:
   text: '{0} элементов'
 artifact.source.items.tree.tooltip:
-  text: <html>Дважды щелкните элемент, чтобы поместить его в местоположение по умолчанию<br>Перетащите элемент, чтобы добавить его в желаемое местоположение<br>Дополнительные действия доступны во всплывающем меню</html>
+  text: <html>Дважды щёлкните элемент, чтобы поместить его в местоположение по умолчанию<br>Перетащите элемент, чтобы добавить его в желаемое местоположение<br>Дополнительные действия доступны во всплывающем меню</html>
 module.type.empty.name:
   text: Пустой проект
 module.type.empty.description:
@@ -649,9 +629,9 @@ project.new.wizard.import.title:
 project.new.wizard.import.description:
   text: <html>Создать {0} {1} из внешней модели ({2})</html>
 project.new.wizard.from.existent.sources.title:
-  text: Создать {0} из &существующих источников
+  text: Создать {0} из &существующих исходников
 project.new.wizard.from.existent.sources.description:
-  text: <html>Создать структуру {0} {1} над существующими источниками</html>
+  text: <html>Создать структуру {0} {1} над существующими исходниками</html>
 project.new.wizard.from.template.title:
   text: Создать {0} из &template
 project.new.wizard.from.template.description:
