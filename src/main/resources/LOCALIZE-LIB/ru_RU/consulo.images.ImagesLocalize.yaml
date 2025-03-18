@@ -1,0 +1,86 @@
+action.Images.Convert.Svg.To.Png.text:
+    text: Преобразовать в PNG
+action.Images.Editor.Toggle.Grid.hide.text:
+    text: Скрыть сетку
+action.Images.Editor.Toggle.Grid.show.text:
+    text: Показать сетку
+action.Images.Editor.Toggle.Transparency.Chessboard.description:
+    text: Шахматная доска на прозрачных частях изображения
+action.Images.Editor.Toggle.Transparency.Chessboard.hide.text:
+    text: Скрыть шахматную доску
+action.Images.Editor.Toggle.Transparency.Chessboard.show.text:
+    text: Показать шахматную доску
+action.Images.Editor.Zoom.Actual.text:
+    text: Сбросить до фактического размера
+action.Images.Editor.Zoom.In.text:
+    text: Увеличить масштаб
+action.Images.Editor.Zoom.Out.text:
+    text: Уменьшить масштаб
+action.Images.Open.Settings.description:
+    text: Открыть страницу настроек просмотра изображений
+action.Images.Open.Settings.text:
+    text: Настройки просмотра изображений
+black.cell.color:
+    text: 'Цвет ''&чёрной'' ячейки:'
+black.cell.color.descriptor:
+    text: '''Чёрная'' ячейка'
+chessboard.cell.size:
+    text: 'Размер &ячейки шахматной доски (пиксели):'
+enable.mousewheel.zooming:
+    text: Масштабировать изображение с помощью колесика мыши ({0}+колёсико)
+error.broken.image.file.format:
+    text: <html><b>Изображение не загружено</b><br>Попробуйте открыть его извне, чтобы исправить проблему с форматом</html>
+error.empty.external.editor.path:
+    text: Настройте путь к исполняемому файлу внешнего редактора
+error.title.empty.external.editor.path:
+    text: Внешний редактор не настроен
+error.title.launching.external.editor:
+    text: Ошибка запуска внешнего исполняемого файла
+external.editor.border.title:
+    text: Внешний редактор
+external.editor.executable.path:
+    text: 'Путь к &исполнимому файлу:'
+grid.line.color.descriptor:
+    text: Линии сетки
+icon.dimensions:
+    text: '{0,number}x{1,number}x{2,number}'
+icons.count:
+    text: '{0,choice, 0#нет изображений|1#1 изображение|2#{0,number} изображений|100# > 100 изображений}'
+image.info:
+    text: '{0}x{1} {2} ({3}-битный цвет) {4}'
+images.filetype.description:
+    text: Файлы изображений
+main.page.border.title:
+    text: Редактор
+plugin.Images.description:
+    text: Просмотр изображений и показ миниатюр
+select.external.executable.message:
+    text: Выберите внешний графический редактор
+select.external.executable.title:
+    text: Выберите редактор
+settings.page.name:
+    text: Просмотр изображений
+settings.preffered.smart.zoom.height:
+    text: 'Предпочтительная минимальная высота для умного масштабирования (пиксели):'
+settings.preffered.smart.zoom.width:
+    text: 'Предпочтительная минимальная ширина для умного масштабирования (пиксели):'
+show.grid.every:
+    text: 'Показывать основную линию сетки после &каждых (пикселей):'
+show.grid.lines:
+    text: Показывать линии сетки по умолчанию
+show.grid.zoom.limit:
+    text: 'Показывать линии сетки только при коэффициенте масштабирования не менее:'
+show.transparency.chessboard:
+    text: Показывать прозрачную шахматную доску по умолчанию
+smart.zoom:
+    text: Включить умное масштабирование для небольших изображений
+svg.file.type.description:
+    text: Масштабируемая векторная графика (SVG)
+thumbnails.component.error.text:
+    text: Ошибка
+unknown.format:
+    text: Неизвестный формат
+white.cell.color:
+    text: 'Цвет ''&белой'' ячейки:'
+white.cell.color.descriptor:
+    text: '''Белая'' ячейка'
