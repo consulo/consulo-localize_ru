@@ -1,1404 +1,1406 @@
-error.invalid.installation.home:
-  text: Невозможно импортировать настройки. «{0}» не является допустимой домашней папкой установки {1}.
-error.invalid.config.folder:
-  text: Невозможно импортировать настройки. «{0}» не является допустимой папкой конфигурации {1}.
-error.no.settings.path:
-  text: Невозможно импортировать настройки. {0} не существует.
-title.settings.import.failed:
-  text: Не удалось импортировать настройки
-error.unable.to.import.settings:
-  text: Не удалось импортировать настройки. {0}
-title.complete.installation:
-  text: Завершить установку
-title.installation.home.required:
-  text: Требуется папка конфигурации или домашняя папка установки
-error.please.select.previous.installation.home:
-  text: Выберите предыдущую папку конфигурации {0} или домашнюю папку установки
-error.selected.current.installation.home:
-  text: |-
-    Вы выбрали текущую домашнюю папку установки {0}.
-    Выберите предыдущую домашнюю папку установки {1}
-error.does.not.appear.to.be.installation.home:
-  text: "{0} не является папкой конфигурации {1} или домашней папкой установки"
-error.no.read.permissions:
-  text: У вас нет прав на чтение {0}
-radio.do.not.import:
-  text: У меня нет предыдущей версии {0} или я не хочу импортировать свои настройки
-radio.import.auto:
-  text: Я хочу импортировать свои настройки из предыдущей версии ({0})
-radio.import:
-  text: Я хочу импортировать свои настройки из пользовательского расположения
-label.you.can.import:
-  text: Вы можете импортировать свои настройки из предыдущей версии {0}.
-button.ok:
-  text: ОК
-editbox.installation.home:
-  text: 'Укажите папку конфигурации или домашнюю папку установки предыдущей версии {0}:'
-title.code.completion:
-  text: Автодополнение кода
-editbox.lookup.height:
-  text: 'Высота поиска (элементы):'
-editbox.autopopup.javadoc.in.ms:
-  text: 'Автовсплывающая документация через (мс):'
-checkbox.show.signatures:
-  text: Показать подписи
-checkbox.show.full.signatures:
-  text: Показать полные подписи
-editbox.autopopup.in.ms:
-  text: 'Автовсплывающее окошко через (мс):'
-title.parameter.info:
-  text: Информация о параметрах
-radio.insert.both.parentheses:
-  text: "Вставить «()»"
-checkbox.insert.both.parentheses.when.no.arguments:
-  text: "Вставить «()» при отсутствии аргументов"
-radio.insert.left.parathesis:
-  text: "Вставить «(»"
-label.complete.brackets:
-  text: 'Скобки:'
-label.complete.autopopup:
-  text: 'Автовсплывающее окно:'
-label.autocomplete.when.only.one.choice:
-  text: 'Автозаполнение, когда только один выбор:'
-checkbox.show.static.members.after.instance.qualifier:
-  text: Показывать статические члены после квалификатора экземпляра
-checkbox.autocomplete.common.prefix:
-  text: Общий префикс автозаполнения
-checkbox.autocomplete.smart.type:
-  text: Умный тип
-checkbox.autocomplete.basic:
-  text: Базовый
-combobox.case.sensitive.completion:
-  text: 'Завершение с учетом регистра:'
-combobox.autocomplete.case.sensitive.all:
-  text: Все
-combobox.autocomplete.case.sensitive.none:
-  text: Нет
-combobox.autocomplete.case.sensitive.first.letter:
-  text: Первая буква
-editbox.blanklines.before.package.statement:
-  text: 'Перед выражением «package»:'
-editbox.blanklines.after.package.statement:
-  text: 'После выражения «package»:'
-editbox.blanklines.before.imports:
-  text: 'Перед блоком импортов:'
-editbox.blanklines.after.imports:
-  text: 'После блока импортов:'
-editbox.blanklines.around.class:
-  text: 'Вокруг класса:'
-editbox.blanklines.around.field:
-  text: 'Вокруг поля:'
-editbox.blanklines.around.method:
-  text: 'Вокруг метода:'
-editbox.blanklines.before.method.body:
-  text: 'Перед телом метода:'
-editbox.blanklines.after.class.header:
-  text: 'После заголовка класса:'
-editbox.blanklines.after.anonymous.class.header:
-  text: 'После заголовка анонимного класса:'
-title.blank.lines:
-  text: Пустые строки
-title.keep.blank.lines:
-  text: Сохраняйте максимальное количество пустых строк
-title.minimum.blank.lines:
-  text: Минимальное количество пустых строк
-editbox.keep.blanklines.in.declarations:
-  text: 'В объявлениях:'
-editbox.keep.blanklines.in.code:
-  text: 'В коде:'
-editbox.keep.blanklines.before.rbrace:
-  text: "Перед «}»:"
-title.preview:
-  text: Предварительный просмотр
-listbox.members.order.fields:
-  text: Поля экземпляра
-listbox.members.order.static.fields:
-  text: Статические поля
-listbox.members.order.methods:
-  text: Методы экземпляра
-listbox.members.order.static.methods:
-  text: Статические методы
-listbox.members.order.constructors:
-  text: Конструкторы
-listbox.members.order.inner.classes:
-  text: Внутренние классы
-listbox.members.order.inner.static.classes:
-  text: Статические внутренние классы
-title.naming.final.modifier:
-  text: Модификатор «final»
-checkbox.make.generated.parameters.final:
-  text: Пометить сгенерированные параметры как «final»
-checkbox.make.generated.local.variables.final:
-  text: Пометить сгенерированные локальные переменные как «final»
-title.naming.comment.code:
-  text: Код комментария
-checkbox.block.comment.at.first.column:
-  text: Блокировать комментарий в первом столбце
-checkbox.line.comment.at.first.column:
-  text: Строчный комментарий в первом столбце
-title.order.of.members:
-  text: Порядок членов
-button.move.down:
-  text: Переместить &вниз
-button.move.up:
-  text: Переместить &вверх
-title.naming:
-  text: Именование
-label.name.prefix:
-  text: "Префикс названия:"
-label.name.suffix:
-  text: "Суффикс названия:"
-label.naming.local.variable:
-  text: "Локальная переменная:"
-label.naming.field:
-  text: "Поле:"
-label.naming.static.field:
-  text: "Статическое поле:"
-label.naming.parameter:
-  text: "Параметр:"
-checkbox.prefer.longer.names:
-  text: Предпочитать более длинные имена
-title.lookup.list:
-  text: Список подстановки
-title.code.generation:
-  text: Генерация кода
-title.insert.new.line.before.tags:
-  text: Вставить новую строку перед тегами
-title.remove.line.breaks.before.tags:
-  text: Удалить переносы строк перед тегами
-title.do.not.indent.children.of:
-  text: Не делать отступ для дочерних элементов
-title.inline.elements:
-  text: Встроенные элементы
-title.keep.whitespaces.inside:
-  text: Сохранять пробелы внутри
-title.dont.wrap.if.inline.content:
-  text: Не переносить, если только встроенный контент
-checkbox.wrap.text:
-  text: Переносить текст
-checkbox.parentheses.around.method.arguments:
-  text: Добавить скобки вокруг аргументов метода
-checkbox.rename.local.variables.inplace:
-  text: Включить режим рефакторинга «на месте»
-checkbox.rename.local.variables.preselect:
-  text: Предварительно выбрать старое название
-editbox.keep.blank.lines:
-  text: "Оставить пустые строки:"
-checkbox.keep.white.spaces:
-  text: Оставить пробелы
-checkbox.align.text:
-  text: Выровнять текст
-checkbox.align.attributes:
-  text: Выровнять атрибуты
-title.spaces:
-  text: Пробелы
-checkbox.spaces.in.empty.tag:
-  text: В пустом теге
-checkbox.spaces.around.tag.name:
-  text: После имени тега
-checkbox.spaces.around.equals.in.attribute:
-  text: Вокруг «=» в атрибуте
-label.wrap.attributes:
-  text: 'Обернуть атрибуты:'
-label.keep.white.spaces.inside:
-  text: 'Сохранять пробелы внутри:'
-label.do.not.indent.children.of:
-  text: 'Не делать отступ для дочерних элементов:'
-label.remove.new.line.before:
-  text: 'Удалить новую строку перед:'
-label.insert.new.line.before:
-  text: 'Вставить новую строку перед:'
-label.lines:
-  text: строки
-label.or.if.tag.size.more.than:
-  text: или если размер тега больше, чем
-checkbox.keep.line.breaks:
-  text: Сохранять переносы строк
-checkbox.keep.line.breaks.in.text:
-  text: Сохранять переносы строк в text
-title.imports:
-  text: Импорт
-title.general:
-  text: Общие
-title.other.tabs.and.indents:
-  text: Другое
-checkbox.use.single.class.import:
-  text: Использовать импорт одного класса
-checkbox.use.fully.qualified.class.names:
-  text: Использовать полностью определённые названия классов
-checkbox.insert.imports.for.inner.classes:
-  text: Вставить импорт для внутренних классов
-checkbox.use.fully.qualified.class.names.in.javadoc:
-  text: Использовать полные названия классов в JavaDoc
-editbox.class.count.to.use.import.with.star:
-  text: "Количество классов для использования импорта со «*»:"
-editbox.names.count.to.use.static.import.with.star:
-  text: "Количество членов класса для использования статического импорта со «*»:"
-title.packages.to.use.import.with:
-  text: "Пакеты для импорта со «*»"
-title.import.layout:
-  text: Импортировать макет
-button.add.package:
-  text: Добавить пакет
-button.add.blank:
-  text: Добавить пустой
-button.remove:
-  text: У&даление
-listbox.import.package:
-  text: Пакет
-listbox.import.with.subpackages:
-  text: С подпакетами
-listbox.import.all.other.imports:
-  text: <все остальные импорты>
-listbox.import.blank.line:
-  text: <пустая строка>
-radio.prefer.comma.separated.import.list:
-  text: Предпочитать список импортов, разделённых запятыми
-radio.prefer.one.import.statement.per.page.directive:
-  text: Предпочитать один оператор импорта на директиву page
-title.jsp.imports.layout:
-  text: JSP imports layout
-button.add.package.p:
-  text: Добавить &пакет
-button.remove.r:
-  text: '&Удалить'
-wrapping.and.braces:
-  text: Переносы и фигурные скобки
-wrapping.keep.when.reformatting:
-  text: Сохранить при переформатировании
-wrapping.keep.line.breaks:
-  text: Разрывы строк
-wrapping.keep.comment.at.first.column:
-  text: Комментарий в первом столбце
-wrapping.keep.simple.classes.in.one.line:
-  text: Простые однострочные классы
-wrapping.keep.simple.methods.in.one.line:
-  text: Простые однострочные методы
-wrapping.keep.simple.lambdas.in.one.line:
-  text: Простые однострочные лямбды
-wrapping.keep.multiple.expressions.in.one.line:
-  text: Несколько выражений в одной строке
-wrapping.keep.simple.blocks.in.one.line:
-  text: Простые блоки в одной строке
-wrapping.do.not.wrap:
-  text: Не переносить
-wrapping.wrap.if.long:
-  text: Переносить, если длинный
-wrapping.chop.down.if.long:
-  text: Сокращать, если длинный
-wrapping.wrap.always:
-  text: Переносить всегда
-wrapping.force.braces.do.not.force:
-  text: Не принуждать
-wrapping.force.braces.when.multiline:
-  text: Когда многострочный
-wrapping.force.braces.always:
-  text: Всегда
-wrapping.brace.placement:
-  text: Размещение фигурных скобок
-wrapping.brace.placement.class.declaration:
-  text: В объявлении класса
-wrapping.brace.placement.method.declaration:
-  text: В объявлении метода
-wrapping.brace.placement.other:
-  text: Другое
-wrapping.brace.placement.end.of.line:
-  text: В конце строки
-wrapping.brace.placement.next.line.if.wrapped:
-  text: На следующей строке, если перенесено
-wrapping.brace.placement.next.line:
-  text: На следующей строке
-wrapping.brace.placement.next.line.shifted:
-  text: На следующей строке с отступом
-wrapping.brace.placement.next.line.each.shifted:
-  text: На следующей строке, все с отступом
-wrapping.align.when.multiline:
-  text: Выровнять, когда многострочный
-wrapping.align.parenthesised.when.multiline:
-  text: Выровнять скобки при многострочном
-wrapping.align.in.columns:
-  text: Выровнять по столбцам
-wrapping.else.on.new.line:
-  text: '«else» на новой строке'
-wrapping.while.on.new.line:
-  text: '«while» на новой строке'
-wrapping.catch.on.new.line:
-  text: '«catch» на новой строке'
-wrapping.finally.on.new.line:
-  text: '«finally» на новой строке'
-wrapping.method.parentheses:
-  text: Круглые скобки метода
-wrapping.special.else.if.braces.treatment:
-  text: Специальная обработка «else if»
-wrapping.indent.case.from.switch:
-  text: Отступ ветвей «case»
-wrapping.force.braces:
-  text: Принудительно скобки
-wrapping.chained.method.call.first.on.new.line:
-  text: Обернуть первый вызов
-wrapping.method.parameters:
-  text: Параметры объявления метода
-wrapping.method.arguments:
-  text: Аргументы вызова метода
-wrapping.chained.method.calls:
-  text: Связанные вызовы методов
-wrapping.for.statement:
-  text: "Выражение «for()»"
-wrapping.if.statement:
-  text: "Выражение «if()»"
-wrapping.while.statement:
-  text: "Выражение «while()»"
-wrapping.dowhile.statement:
-  text: "Выражение «do … while()»"
-wrapping.switch.statement:
-  text: "Выражение «switch»"
-wrapping.try.statement:
-  text: "Выражение «try»"
-wrapping.try.resources:
-  text: "Выражение «try-with-resources»"
-wrapping.binary.operations:
-  text: Бинарные операторы
-wrapping.extends.implements.list:
-  text: Список родительских классов/интерфейсов
-wrapping.extends.implements.keyword:
-  text: Ключевые слова «extends»/«implements»
-wrapping.throws.list:
-  text: Список исключений
-wrapping.throws.keyword:
-  text: Ключевое слово «throws»
-wrapping.align.throws.keyword:
-  text: Выровнять «throws» по началу метода
-wrapping.ternary.operation:
-  text: Тернарный оператор
-wrapping.assignment.variables.groups:
-  text: Группы полей/переменных
-wrapping.assignment.statement:
-  text: Оператор присваивания
-wrapping.array.initializer:
-  text: Инициализатор массива
-wrapping.modifier.list:
-  text: Список модификаторов
-wrapping.assert.statement:
-  text: Выражение «assert»
-wrapping.new.line.after.lpar:
-  text: Новая строка после «(»
-wrapping.rpar.on.new.line:
-  text: "Поместить «)» на новую строку"
-wrapping.take.priority.over.call.chain.wrapping:
-  text: Имеет приоритет над сворачиванием цепочки вызовов
-wrapping.operation.sign.on.next.line:
-  text: Знак операции на следующей строке
-wrapping.assignment.sign.on.next.line:
-  text: Знак присваивания на следующей строке
-wrapping.quest.and.colon.signs.on.next.line:
-  text: "Знаки «?» и «:» со следующей строки"
-wrapping.new.line.after.lbrace:
-  text: "Новая строка после «'{'»"
-wrapping.rbrace.on.new.line:
-  text: Поместить «}» на новую строку
-wrapping.after.modifier.list:
-  text: Перенос после списка модификаторов
-wrapping.colon.signs.on.next.line:
-  text: "Знаки «:» на следующей строке"
-wrapping.classes.annotation:
-  text: Аннотации классов
-wrapping.methods.annotation:
-  text: Аннотации методов
-wrapping.fields.annotation:
-  text: Аннотации полей
-wrapping.parameters.annotation:
-  text: Аннотации параметров
-wrapping.local.variables.annotation:
-  text: Аннотации локальных переменных
-wrapping.enum.constants:
-  text: Константы перечисления
-wrapping.long.lines:
-  text: Убедиться, что правый край не перейден
-wrapping.comments:
-  text: Комментарии
-wrapping.comments.wrap.at.right.margin:
-  text: Перенос по правому краю
-wrapping.align.fields.in.columns:
-  text: Выравнивать поля в единый столбец
-wrapping.align.variables.in.columns:
-  text: Выравнивать переменные в единый столбец
-wrapping.align.simple.methods.in.columns:
-  text: Выравнивать простые методы в единый столбец
-group.spaces.in.type.arguments.block:
-  text: Аргументы типа
-group.spaces.in.type.parameters.block:
-  text: Параметры типа
-checkbox.align.multiline.chained.methods:
-  text: Цепочки вызовов
-checkbox.align.multiline.method.parameters:
-  text: Параметры метода
-checkbox.align.multiline.call.arguments:
-  text: Аргументы вызова
-checkbox.align.multiline.extends.list:
-  text: Список наследований
-checkbox.align.multiline.throws.list:
-  text: Список исключений
-checkbox.align.multiline.fields.groups:
-  text: Группы полей
-checkbox.align.multiline.parenthesized.expression:
-  text: Выражение в скобках
-checkbox.align.multiline.binary.operation:
-  text: Бинарная операция
-checkbox.align.multiline.ternary.operation:
-  text: Тернарная операция
-checkbox.align.multiline.assignments:
-  text: Присваивания
-checkbox.align.multiline.for.statement:
-  text: "Оператор «'{'»"
-checkbox.align.multiline.array.initializer:
-  text: Инициализатор массива
-title.place.on.new.line:
-  text: Разместить на новой строке
-checkbox.keep.when.reformatting.control.statement.in.one.line:
-  text: Управляющий оператор в одной строке
-title.braces.placement:
-  text: Размещение фигурных скобок
-combobox.force.braces.if:
-  text: 'if ():'
-combobox.force.braces.for:
-  text: 'for ():'
-combobox.force.braces.while:
-  text: 'while ():'
-combobox.force.braces.do.while:
-  text: 'do … while():'
-label.loading.page.please.wait:
-  text: Загрузка…
-button.save.as:
-  text: Сохранить как…
-button.delete:
-  text: Удалить
-editbox.scheme.name:
-  text: 'Схема:'
-html.project.uses.own.code.style:
-  text: <html><body>Текущий проект настроен на использование собственного стиля кода.<br>Изменения, внесенные в глобальные настройки стиля кода, не повлияют на форматирование в текущем проекте.<br>См. Настройки проекта | Стиль кода.<br>Нажмите \&quot;Изменить глобальные настройки\&quot; кнопку ниже, если вы всё ещё хотите редактировать глобальные настройки.</body></html>
-title.edit.global.settings:
-  text: Изменить &глобальные настройки
-title.settings:
-  text: Настройки
-title.global.code.style:
-  text: |-
-    Глобальный
-    Стиль кода
-title.save.code.style.scheme.as:
-  text: Сохранить схему стиля кода как
-group.spaces.around.operators:
-  text: Вокруг операторов
-group.spaces.before.parentheses:
-  text: Перед круглыми скобками
-group.spaces.before.left.brace:
-  text: Перед левой фигурной скобкой
-group.spaces.after.right.brace:
-  text: Перед ключевыми словами
-group.spaces.within:
-  text: Внутри
-group.spaces.in.ternary.operator:
-  text: Внутри тернарного оператора (?:)
-group.spaces.in.type.arguments:
-  text: Внутри аргументов типа
-group.spaces.other:
-  text: Другое
-checkbox.spaces.method.call.parentheses:
-  text: Скобки вызова метода
-checkbox.spaces.method.declaration.parentheses:
-  text: Скобки объявления метода
-checkbox.spaces.if.parentheses:
-  text: 'Круглые скобки «if»'
-checkbox.spaces.while.parentheses:
-  text: 'Круглые скобки «while»'
-checkbox.spaces.for.parentheses:
-  text: 'Круглые скобки «for»'
-checkbox.spaces.try.parentheses:
-  text: 'Круглые скобки «try»'
-checkbox.spaces.catch.parentheses:
-  text: 'Круглые скобки «catch»'
-checkbox.spaces.switch.parentheses:
-  text: 'Круглые скобки «switch»'
-checkbox.spaces.synchronized.parentheses:
-  text: 'Круглые скобки «synchronized»'
-checkbox.spaces.annotation.parameters:
-  text: Параметры аннотации
-checkbox.spaces.assignment.operators:
-  text: Операторы присваивания (=, +=, ...)
-checkbox.spaces.logical.operators:
-  text: Логические операторы (\&\&, ||)
-checkbox.spaces.equality.operators:
-  text: Операторы равенства (==, !=)
-checkbox.spaces.relational.operators:
-  text: Операторы отношения (<, >, <=, >=)
-checkbox.spaces.bitwise.operators:
-  text: Побитовые операторы (\&, |, ^)
-checkbox.spaces.additive.operators:
-  text: Операторы сложения/вычитания (+, -)
-checkbox.spaces.multiplicative.operators:
-  text: Операторы умножения/деления (*, /, %)
-checkbox.spaces.shift.operators:
-  text: Операторы сдвига (<<, >>, >>>)
-checkbox.spaces.around.unary.operator:
-  text: Унарные операторы (!, -, +, ++, --)
-checkbox.spaces.class.left.brace:
-  text: Открывающая фигурная скобка класса
-checkbox.spaces.method.left.brace:
-  text: Открывающая фигурная скобка метода
-checkbox.spaces.if.left.brace:
-  text: "Открывающая фигурная скобка «if»"
-checkbox.spaces.else.left.brace:
-  text: "Открывающая фигурная скобка «else»"
-checkbox.spaces.while.left.brace:
-  text: "Открывающая фигурная скобка «while»"
-checkbox.spaces.for.left.brace:
-  text: "Открывающая фигурная скобка «for»"
-checkbox.spaces.do.left.brace:
-  text: "Открывающая фигурная скобка «do»"
-checkbox.spaces.switch.left.brace:
-  text: "Открывающая фигурная скобка «switch»"
-checkbox.spaces.try.left.brace:
-  text: "Открывающая фигурная скобка «try»"
-checkbox.spaces.catch.left.brace:
-  text: "Открывающая фигурная скобка «catch»"
-checkbox.spaces.finally.left.brace:
-  text: "Открывающая фигурная скобка «finally»"
-checkbox.spaces.synchronized.left.brace:
-  text: "Открывающая фигурная скобка «synchronized»"
-checkbox.spaces.array.initializer.left.brace:
-  text: Открывающая фигурная скобка инициализатора массива
-checkbox.spaces.annotation.array.initializer.left.brace:
-  text: Открывающая фигурная скобка в массиве аннотации
-checkbox.spaces.else.keyword:
-  text: "Ключевое слово «else»"
-checkbox.spaces.while.keyword:
-  text: "Ключевое слово «while»"
-checkbox.spaces.catch.keyword:
-  text: "Ключевое слово «catch»"
-checkbox.spaces.finally.keyword:
-  text: "Ключевое слово «finally»"
-checkbox.spaces.within.brackets:
-  text: Квадратные скобки
-checkbox.spaces.within.braces:
-  text: Фигурные скобки в коде
-checkbox.spaces.within.array.initializer.braces:
-  text: Фигурные скобки инициализатора массива
-checkbox.spaces.within.parentheses:
-  text: Группирующие круглые скобки
-checkbox.spaces.checkbox.spaces.method.call.parentheses:
-  text: Круглые скобки вызова метода
-checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
-  text: Круглые скобки вызова метода без параметров
-checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
-  text: Круглые скобки объявления метода
-checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
-  text: Круглые скобки объявления метода без параметров
-checkbox.spaces.type.cast.parentheses:
-  text: Круглые скобки приведения типа
-checkbox.spaces.annotation.parentheses:
-  text: Круглые скобки в аннотациях
-checkbox.spaces.before.question:
-  text: Перед «?»
-checkbox.spaces.after.question:
-  text: После «?»
-checkbox.spaces.before.colon:
-  text: Перед «:»
-checkbox.spaces.after.colon:
-  text: После «:»
-checkbox.spaces.after.colon.in.label.declaration:
-  text: После «:» в объявлении метки
-checkbox.spaces.after.comma:
-  text: После запятой
-checkbox.spaces.before.comma:
-  text: Перед запятой
-checkbox.spaces.after.semicolon:
-  text: После точки с запятой
-checkbox.spaces.before.semicolon:
-  text: Перед точкой с запятой
-checkbox.spaces.after.type.cast:
-  text: После приведения типа
-title.warning:
-  text: Предупреждение
-title.editor:
-  text: Общие
-combobox.strip.modified.lines:
-  text: Изменённые строки
-combobox.strip.all:
-  text: Все
-combobox.strip.none:
-  text: Нет
-combobox.insert.imports.all:
-  text: Все
-combobox.insert.imports.ask:
-  text: Спросить
-combobox.insert.imports.none:
-  text: Нет
-combobox.paste.reformat.none:
-  text: Нет
-combobox.paste.reformat.indent.block:
-  text: Отступ блока
-combobox.paste.reformat.indent.each.line:
-  text: Отступ каждой строки
-combobox.paste.reformat.reformat.block:
-  text: Переформатировать блок
-combobox.tab.placement.none:
-  text: Нет
-combobox.tab.placement.top:
-  text: Сверху
-combobox.tab.placement.left:
-  text: Слева
-combobox.tab.placement.bottom:
-  text: Снизу
-combobox.tab.placement.right:
-  text: Справа
-tab.editor.settings.behavior:
-  text: Поведение
-tab.editor.settings.appearance:
-  text: Внешний вид
-groupbox.display:
-  text: Отображение
-checkbox.smooth.scrolling:
-  text: Плавная прокрутка
-checkbox.show.whitespaces:
-  text: Показать пробелы
-checkbox.show.all.softwraps:
-  text: Показать все мягкие переносы
-checkbox.show.method.separators:
-  text: Показать разделители методов
-checkbox.show.gutter.icons:
-  text: Показывать иконки в колонке номеров строк
-checkbox.show.line.numbers:
-  text: Показывать номера строк
-checkbox.right.margin:
-  text: Показывать правый край (настраивается в параметрах стиля кода)
-checkbox.use.block.caret:
-  text: Использовать блочный курсор
-checkbox.caret.blinking.ms:
-  text: "Мигание курсора (мс):"
-checkbox.mark.modified.tabs.with.asterisk:
-  text: Пометить измененные вкладки звездочкой
-checkbox.show.tabs.tooltips:
-  text: Показать подсказки вкладок
-group.code.folding:
-  text: Сворачивание кода
-checkbox.collapse.xml.tags:
-  text: XML-теги
-checkbox.collapse.html.style.attribute:
-  text: HTML-атрибут «style»
-checkbox.collapse.anonymous.classes:
-  text: <html>Анонимные классы</html>
-checkbox.collapse.closures:
-  text: <html>«Замыкания» (анонимные классы, реализующие один метод)</html>
-checkbox.collapse.generic.constructor.parameters:
-  text: <html>Универсальные параметры конструктора и метода</html>
-checkbox.collapse.i18n.messages:
-  text: <html>Строки локализации</html>
-checkbox.collapse.annotations:
-  text: <html>Аннотации</html>
-checkbox.collapse.inner.classes:
-  text: Внутренние классы
-checkbox.collapse.simple.property.accessors:
-  text: <html>Простые методы доступа к свойствам<html>
-checkbox.collapse.method.bodies:
-  text: Тела методов
-checkbox.collapse.javadoc.comments:
-  text: Документирующие комментарии
-checkbox.collapse.title.imports:
-  text: Импорты
-checkbox.collapse.file.header:
-  text: Заголовок файла
-label.collapse.by.default:
-  text: "Свернуть по умолчанию:"
-checkbox.show.code.folding.outline:
-  text: Показать контур сворачивания кода
-group.tab.appearance:
-  text: Внешний вид вкладки
-editbox.tab.limit:
-  text: "Ограничение количества вкладок:"
-combobox.editor.tab.placement:
-  text: "Разместить:"
-checkbox.editor.tabs.in.single.row:
-  text: Показать вкладки в одну строку
-checkbox.editor.tabs.show.close.button:
-  text: Показать кнопку «Закрыть» на вкладках редактора
-checkbox.hide.file.extension.in.editor.tabs:
-  text: Скрыть расширение файла во вкладках редактора
-group.tab.closing.policy:
-  text: Политика закрытия вкладок
-radio.activate.most.recently.opened.tab:
-  text: Активировать последнюю открытую вкладку
-radio.activate.left.neighbouring.tab:
-  text: Активировать соседнюю вкладку слева
-radio.activate.right.neighbouring.tab:
-  text: Активировать соседнюю вкладку справа
-label.when.closing.active.editor:
-  text: 'При закрытии активного редактора:'
-radio.close.less.frequently.used.files:
-  text: Закрыть редко используемые файлы
-radio.close.non.modified.files.first:
-  text: Сначала закрыть неизмененные файлы
-label.when.number.of.opened.editors.exceeds.tab.limit:
-  text: 'Когда количество открытых редакторов превышает лимит вкладок:'
-group.virtual.space:
-  text: Виртуальное пространство
-checkbox.use.soft.wraps.at.editor:
-  text: Использовать мягкие переносы в редакторе
-checkbox.use.soft.wraps.at.console:
-  text: Использовать мягкие переносы в консоли
-checkbox.use.custom.soft.wraps.indent:
-  text: Использовать отступ для пользовательских мягких переносов
-checkbox.allow.placement.of.caret.after.end.of.line:
-  text: Разрешить размещение курсора после конца строки
-checkbox.allow.placement.of.caret.inside.tabs:
-  text: Разрешить размещение курсора внутри табуляции
-checkbox.show.virtual.space.at.file.bottom:
-  text: Показывать пустое виртуальное пространство внизу файла
-checkbox.optimize.imports.on.the.fly:
-  text: Оптимизировать импорты «на лету»
-checkbox.add.unambiguous.imports.on.the.fly:
-  text: Добавлять однозначные импорты «на лету»
-combobox.strip.trailing.spaces.on.save:
-  text: "Удалять пробелы в конце строки при сохранении:"
-checkbox.show.quick.doc.on.mouse.over:
-  text: "Показать краткую справку при наведении мыши на элемент (мс):"
-group.limits:
-  text: Ограничения
-editbox.recent.files.limit:
-  text: 'Ограничение количества последних файлов:'
-editbox.console.history.limit:
-  text: 'Размер истории консольных команд:'
-editbox.maximum.number.of.contents.to.keep.in.clipboard:
-  text: 'Максимальное количество содержимого для хранения в буфере обмена:'
-settings.code.style.visual.guides:
-  text: Визуальные направляющие
-settings.code.style.general.visual.guides.hint:
-  text: Показать одну направляющую (80) или несколько (80, 120)
-group.brace.highlighting:
-  text: Подсветка при перемещении курсора
-checkbox.highlight.matched.brace:
-  text: Подсветка парной скобки
-checkbox.highlight.current.scope:
-  text: Выделить текущую область
-combobox.paste.insert.imports:
-  text: '&Добавлять импорты при вставке:'
-combobox.paste.reformat:
-  text: Переформатировать при вставке
-checkbox.indent.on.paste:
-  text: Умный отступ вставленных строк
-group.advanced.mouse.usages:
-  text: Мышь
-checkbox.enable.ctrl.mousewheel.changes.font.size:
-  text: Изменить размер шрифта (масштаб) с помощью Ctrl+колесико мыши
-checkbox.enable.ctrl.mousewheel.changes.font.size.macos:
-  text: Изменить размер шрифта (масштаб) с помощью Command+колесико мыши
-checkbox.enable.drag.n.drop.functionity.in.editor:
-  text: Включить функцию перетаскивания мышью в редакторе
-checkbox.honor.camelhumps.words.settings.on.double.click:
-  text: Учитывать настройки «CamelHumps» при выделении двойным щелчком
-combobox.smart.backspace:
-  text: Убрать отступ
-combobox.smart.backspace.off:
-  text: Отключено
-combobox.smart.backspace.simple:
-  text: К ближайшему положению отступа
-combobox.smart.backspace.smart:
-  text: К правильному положению отступа
-group.smart.keys:
-  text: Умные клавиши
-checkbox.use.camelhumps.words:
-  text: Определять слова по смене регистра в идентификаторе (CamelHumps)
-checkbox.surround.selection.on.typing.quote.or.brace:
-  text: Окружить выделение при вводе кавычки или фигурной скобки
-checkbox.insert.pair.quote:
-  text: Вставлять парную кавычку
-checkbox.insert.pair.bracket:
-  text: Вставлять парную скобку
-checkbox.javadoc.stub.after.slash.star.star:
-  text: Вставлять черновик документирующего комментария
-checkbox.insert.pair.percent.gt.in.jsp:
-  text: Вставить парную «%>» в JSP
-checkbox.insert.pair.curly.brace:
-  text: Вставить парную «}»
-checkbox.smart.indent:
-  text: Умный отступ
-label.smart.enter:
-  text: 'Умный перевод строки:'
-checkbox.smart.end.on.blank.line:
-  text: Конец (на пустой строке)
-checkbox.smart.home:
-  text: Home
-checkbox.indenting.backspace:
-  text: Умный отступ Backspace
-group.error.highlighting:
-  text: Подсветка ошибок
-editbox.autoreparse.delay.ms:
-  text: 'Задержка повторного синтаксического разбора (мс):'
-editbox.error.stripe.mark.min.height.pixels:
-  text: 'Минимальная высота полоски ошибки (пиксели):'
-checkbox.suppress.with.suppresswarnings:
-  text: Подавить с помощью @SuppressWarnings (только для Java 5.0)
-checkbox.next.error.action.goes.to.errors.first:
-  text: Действие «Следующая ошибка» переходит только к проблемам с высоким приоритетом
-checkbox.show.import.popup:
-  text: Показать импорт и всплывающее окно
-checkbox.indent.use.tab.character:
-  text: Использовать символ табуляции
-checkbox.indent.smart.tabs:
-  text: Умная табуляция
-editbox.indent.tab.size:
-  text: 'Размер символа табуляции:'
-editbox.indent.indent:
-  text: 'Отступ:'
-editbox.indent.continuation.indent:
-  text: 'Отступ после переноса:'
-editbox.indent.label.indent:
-  text: 'Отступ метки:'
-checkbox.indent.absolute.label.indent:
-  text: Абсолютный отступ метки
-checkbox.do.not.indent.top.level.class.members:
-  text: Не делать отступ для членов класса верхнего уровня
-checkbox.use.relative.indents:
-  text: Использовать отступы относительно начала выражения
-tooltip.indent.must.be.multiple.of.tab.size.for.smart.tabs.to.operate:
-  text: Отступ должен быть кратен размеру табуляции для работы умной табуляции
-combobox.crlf.system.dependent:
-  text: Зависит от системы
-combobox.crlf.unix:
-  text: Unix и OS X (\n)
-combobox.crlf.windows:
-  text: Windows (\r\n)
-combobox.crlf.mac:
-  text: Классический Mac (\r)
-group.tabs.and.indents:
-  text: Табуляция и отступы
-checkbox.indent.use.same.settings.for.all.file.types:
-  text: Использовать параметры отступа по умолчанию (Общие)
-tab.indent.other:
-  text: Другое
-combobox.line.separator.for.new.files:
-  text: 'Разделитель строк (для новых файлов):'
-editbox.right.margin.columns:
-  text: 'Правый край (столбцы):'
-checkbox.wrap.typing.on.right.margin:
-  text: Перенос при наборе текста
-group.javadoc.other:
-  text: Другое
-group.javadoc.invalid.tags:
-  text: Недопустимые теги
-group.javadoc.blank.lines:
-  text: Пустые строки
-group.javadoc.alignment:
-  text: Выравнивание
-checkbox.enable.javadoc.formatting:
-  text: Включить форматирование JavaDoc
-checkbox.align.parameter.descriptions:
-  text: Выровнять описания параметров
-checkbox.align.thrown.exception.descriptions:
-  text: Выровнять описания выбрасываемых исключений
-checkbox.after.description:
-  text: После описания
-checkbox.after.parameter.descriptions:
-  text: После описания параметров
-checkbox.after.return.tag:
-  text: После тега @return
-checkbox.keep.invalid.tags:
-  text: Сохранять недопустимые теги
-checkbox.keep.empty.param.tags:
-  text: Сохранить пустые теги @param
-checkbox.keep.empty.return.tags:
-  text: Сохранить пустые теги @return
-checkbox.keep.empty.throws.tags:
-  text: Сохранить пустые теги @throws
-checkbox.enable.leading.asterisks:
-  text: Включить ведущие звездочки
-checkbox.use.throws.rather.than.exception:
-  text: Использовать @throws вместо @exception
-checkbox.wrap.at.right.margin:
-  text: Перенос по правому краю
-checkbox.generate.p.on.empty.lines:
-  text: Генерировать «<p/>» на пустых строках
-checkbox.keep.empty.lines:
-  text: Сохранять пустые строки
-checkbox.do.not.wrap.one.line.comments:
-  text: Не переносить однострочные комментарии
-checkbox.preserve.line.feeds:
-  text: Сохранять переводы строк
-checkbox.param.description.on.new.line:
-  text: Описания параметров с новой строки
-title.javadoc:
-  text: JavaDoc
-option.table.sizing.text:
-  text: Перенести, если длинный.
-title.choose.code.style.scheme:
-  text: Выберите схему стиля кода
-radio.use.per.project.code.style.scheme:
-  text: Используйте схему стиля кода для каждого проекта
-radio.use.global.code.style:
-  text: Используйте глобальный стиль кода
-button.import:
-  text: Импорт…
-button.export:
-  text: Экспорт…
-button.edit.global.settings:
-  text: Изменить глобальные настройки…
-label.edit.per.project.or.global.code.style:
-  text: <html><body>Отметьте опцию выше для настройки стиля кода для каждого проекта<br>или используйте глобальный стиль кода. Глобальные параметры стиля кода можно настроить<br>в разделе Настройки IDE/Глобальный стиль кода</body></html>
-title.project.code.style:
-  text: |-
-    Стиль
-    кода проекта
-label.name:
-  text: 'Название:'
-error.scheme.must.have.a.name:
-  text: Схема должна иметь название
-error.illegal.scheme.name:
-  text: Недопустимое название схемы
-error.a.scheme.with.this.name.already.exists.or.was.deleted.without.applying.the.changes:
-  text: Схема с таким названием уже существует или была удалена без применения изменений
-title.select.font:
-  text: Выбрать шрифт
-checkbox.show.only.monospaced.fonts:
-  text: Показать только моноширинные шрифты
-editbox.enter.tag.name:
-  text: 'Введите название тега:'
-title.tag.name:
-  text: Название тега
-title.xml:
-  text: XML
-title.html:
-  text: HTML
 action.add:
-  text: Добавить
-action.edit:
-  text: Изменить
-action.remove:
-  text: У&даление
-checkbox.color.background:
-  text: Фон
-checkbox.color.foreground:
-  text: Передний план
-checkbox.color.effects:
-  text: Эффекты
-checkbox.color.error.stripe.mark:
-  text: Подчёркнутый как ошибка
-combobox.effect.bordered:
-  text: Границы
-combobox.effect.underscored:
-  text: Подчеркнутый
-combobox.effect.boldunderscored:
-  text: Жирный и подчеркнутый
-combobox.effect.underwaved:
-  text: Подчеркнутый волной
-combobox.effect.strikeout:
-  text: Зачеркнутый
-combobox.effect.bold.dottedline:
-  text: Пунктирное подчёркивание
-checkbox.font.bold:
-  text: Жирный
-checkbox.font.italic:
-  text: Курсив
-label.font.type:
-  text: 'Тип шрифта:'
-label.inherit.attributes:
-  text: 'Наследовать атрибуты из:'
-title.diff:
-  text: Diff
-title.file.status:
-  text: Состояние файла
-title.scope.based:
-  text: Основано на области действия
-title.colors.and.fonts:
-  text: Цвета и шрифты
-progress.analysing.font:
-  text: 'Анализ шрифта: {0}'
-button.edit.scopes:
-  text: Редактировать области действия…
-group.editor.font:
-  text: Шрифт редактора
-title.font.available:
-  text: 'Доступные шрифты:'
-title.font.selected:
-  text: 'Выбранные шрифты:'
-label.fallback.fonts.list.description:
-  text: IDE пытается использовать следующий шрифт из списка «Выбранные шрифты» для отображения символа, если текущий шрифт не может этого сделать
-quickdoc.tooltip.font.size.by.wheel:
-  text: Изменение размера шрифта с помощью ползунка или Ctrl+колёсико
-label.font.size:
-  text: "Размер шрифта:"
-label.font.name:
-  text: "Название:"
-primary.font:
-  text: "Основной шрифт:"
-secondary.font:
-  text: "Дополнительный шрифт:"
-use.ligatures:
-  text: Включить лигатуры шрифтов
-editbox.font.size:
-  text: "Размер:"
-editbox.line.spacing:
-  text: "Межстрочный интервал:"
-combobox.scheme.name:
-  text: "Название схемы:"
-progress.analyzing.fonts:
-  text: Анализ шрифтов
-error.readonly.scheme.cannot.be.modified:
-  text: Схему только для чтения изменить нельзя. Сначала выполните «Сохранить как…».
-error.shared.scheme.cannot.be.modified:
-  text: Общая схема не может быть изменена. Сначала выполните «Сохранить как…».
-title.cannot.modify.readonly.scheme:
-  text: Невозможно изменить схему только для чтения
-title.save.color.scheme.as:
-  text: Сохранить цветовую схему как
-title.path.variables:
-  text: Переменные пути
-editbox.path.macro.value:
-  text: 'Значение:'
-editbox.path.macro.name:
-  text: 'Название:'
-button.edit:
-  text: '&Изменить'
-button.edit.dialog:
-  text: '&Изменить…'
-button.add:
-  text: '&Добавить…'
-error.variable.already.exists:
-  text: Переменная с названием {0} уже существует
-column.name:
-  text: Название
-column.value:
-  text: Значение
-title.add.variable:
-  text: Добавить переменную
-title.edit.variable:
-  text: Изменить Переменная
-error.path.variable.is.undefined:
-  text: Переменная пути «{0}» не определена
-text.no.path.variables:
-  text: Нет переменных пути
-config.import.invalid.directory.error:
-  text: '{0} не является папкой!'
-command.exit:
-  text: Выход
-application.save.settings.error:
-  text: 'Не удалось сохранить настройки приложения: {0}'
-exit.confirm.title:
-  text: Подтвердите выход
-exit.confirm.prompt:
-  text: Вы уверены, что хотите выйти из {0}?
-exit.confirm.prompt.tasks:
-  text: У вас запущены фоновые задачи. Вы уверены, что хотите остановить их и выйти из {0}?
-exclude.from.completion.group:
-  text: Исключить из импорта и завершения
-exclude.from.completion.prompt:
-  text: "Введите название пакета или класса для исключения из автоимпорта и завершения названия класса:"
-exclude.from.completion.title:
-  text: Исключить пакет
-exclude.from.imports.add:
-  text: "&Добавить"
-exclude.from.imports.no.exclusions:
-  text: Нет шаблонов исключения
-inline.elements:
-  text: "Встроенные элементы:"
-don.t.break.if.inline.content:
-  text: "Не разрывать, если встроенное содержимое:"
-edit.code.folding.options:
-  text: Открыть параметры сворачивания кода
-button.new:
-  text: "&Новый…"
-building.include.indices:
-  text: Создание индексов включения…
-loading.include.indices:
-  text: Загрузка включения индексы…
-use.external.annotations:
-  text: Использовать &внешние аннотации
-insert.override.annotation:
-  text: Вставить аннотацию @&Override
-auto.import:
-  text: Автоматический импорт
-checkbox.collapse.suppress.warnings:
-  text: <html>@SuppressWarnings</html>
-checkbox.collapse.end.of.line.comments:
-  text: <html>Последовательность комментариев в конце строки</html>
-title.other.languages:
-  text: Другие языки
-launcher.script.overwrite:
-  text: Файл «{0}» уже существует. Хотите перезаписать его?
-launcher.script.sudo.prompt:
-  text: Введите пароль, чтобы создать скрипт запуска в «{0}»
-desktop.entry.success:
-  text: Теперь вы можете выйти из {0} и запустить его из системного меню<br/> (перезапустите сеанс, если новая запись не появляется).
-desktop.entry.xdg.missing:
-  text: Похоже, xdg-utils недоступны в вашей системе.
-desktop.entry.icon.missing:
-  text: Не удалось найти подходящий значок приложения в «{0}».
-desktop.entry.script.missing:
-  text: Не удалось найти подходящий скрипт запуска в «{0}».
-desktop.entry.checking:
-  text: Проверка…
-desktop.entry.preparing:
-  text: Подготовка записи…
-desktop.entry.installing:
-  text: Установка записи…
-desktop.entry.sudo.prompt:
-  text: Введите пароль для создания записи рабочего стола
-title.tabs.and.indents:
-  text: Вкладки и отступы
-watcher.slow.sync:
-  text: Синхронизация внешних изменений файлов может быть медленной
-watcher.exe.not.found:
-  text: Не найден исполняемый файл Native file watcher
-watcher.exe.not.exists:
-  text: Native file watcher не поддерживается на этой платформе
-watcher.exe.not.exe:
-  text: 'Native file watcher не является исполняемым файлом: <a href="{0}">{0}</a>'
-watcher.failed.to.start:
-  text: Не удалось запустить File watcher
-watcher.gave.up:
-  text: File watcher не смог отработать
-watcher.non.watchable.project:
-  text: Содержимое проекта находится в сетевом каталоге
-arrangement.title.settings.tab:
-  text: Расположение
-arrangement.text.empty.rule:
-  text: <пустое правило>
-arrangement.text.type:
-  text: Тип
-arrangement.text.modifier:
-  text: Модификатор
-arrangement.text.name:
-  text: Название
-arrangement.order.name:
-  text: Порядок
-arrangement.action.rule.add.text:
-  text: Добавить правило
-arrangement.action.rule.add.description:
-  text: Добавить новое правило расположения
-arrangement.action.rule.remove.text:
-  text: Удалить правило(а)
-arrangement.action.rule.remove.description:
-  text: Удалить выбранные правила расположения
-arrangement.action.rule.edit.text:
-  text: Изменить правило
-arrangement.action.rule.edit.description:
-  text: Изменить выбранное правило расположения
-arrangement.action.rule.move.up.text:
-  text: Переместить вверх
-arrangement.action.rule.move.up.description:
-  text: Переместить выбранные правила расположения вверх
-arrangement.action.rule.move.down.text:
-  text: Переместить вниз
-arrangement.action.rule.move.down.description:
-  text: Переместить выбранные правила размещения вниз
-arrangement.settings.section.groups:
-  text: Правила группировки
-arrangement.settings.section.match:
-  text: Правила сопоставления
-arrangement.settings.groups.property.field:
-  text: Группировать поле свойства с соответствующим геттером/сеттером
-arrangement.settings.groups.dependent.methods:
-  text: Сохранять зависимые методы вместе
-arrangement.settings.groups.overridden.methods:
-  text: Сохранять переопределённые методы вместе
-arrangement.settings.groups.getters.and.setters.together:
-  text: Сохранять геттеры и сеттеры вместе
-arrangement.settings.order.type.keep:
-  text: Сохранять порядок
-arrangement.settings.order.type.by.name:
-  text: Сортировать по названию
-arrangement.settings.order.type.depth.first:
-  text: порядок в глубину
-arrangement.settings.order.type.breadth.first:
-  text: порядок в ширину
-arrangement.settings.text.general.type:
-  text: 'Тип:'
-arrangement.settings.text.general.modifier:
-  text: 'Модификатор:'
-arrangement.settings.text.general.name:
-  text: 'Название:'
-arrangement.settings.text.general.text:
-  text: 'Текст:'
-arrangement.settings.text.general.order:
-  text: 'Порядок:'
-arrangement.settings.text.general.xml.namespace:
-  text: 'Пространство имён:'
-arrangement.settings.text.entry.type.xml.tag:
-  text: тег
-arrangement.settings.text.entry.type.xml.attribute:
-  text: атрибут
-checkbox.spaces.around.lambda.arrow:
-  text: Лямбда-стрелка
-checkbox.spaces.around.method.ref.dbl.colon.arrow:
-  text: Ссылка на метод, двойное двоеточие
-settings.code.style.general.default.options:
-  text: Параметры по умолчанию
-settings.code.style.general.indents.detection:
-  text: Определение отступов
-settings.code.style.general.formatter.control:
-  text: Управление форматированием
-settings.code.style.general.enable.formatter.tags:
-  text: Включить маркеры форматирования в комментариях
-settings.code.style.general.formatter.off.tag:
-  text: 'Форматирование выключено:'
-settings.code.style.general.formatter.on.tag:
-  text: 'Форматирование включено:'
-settings.code.style.general.formatter.marker.regexp:
-  text: Регулярные выражения
-settings.code.style.general.formatter.marker.invalid.regexp:
-  text: Недопустимое регулярное выражение
-settings.code.style.general.formatter.marker.title:
-  text: Маркеры
-settings.code.style.general.formatter.marker.options.title:
-  text: Параметры
-settings.code.style.general.autodetect.indents:
-  text: Обнаруживать и использовать существующие отступы файла для редактирования
-import.scheme.chooser.source:
-  text: 'Из:'
-import.scheme.chooser.destination:
-  text: 'В:'
-checkbox.reformat.on.typing.rbrace:
-  text: Переформатировать блок при вводе «}»
-settings.code.style.general.excluded.files:
-  text: 'Не форматировать:'
-checkbox.indent.keep.indents.on.empty.lines:
-  text: Сохранять отступы на пустых строках
-reformat.changed.text.file.too.big.notification.groupId:
-  text: Переформатировать измененный текст
-reformat.changed.text.file.too.big.notification.title:
-  text: Не удалось рассчитать измененные диапазоны
-reformat.changed.text.file.too.big.notification.text:
-  text: Файл {0} слишком большой или в нем слишком много изменений
-bulk.reformat.prepare.progress.text:
-  text: Подготовка…
-bulk.reformat.process.progress.text:
-  text: Обработка…
-wrapping.wrap.on.typing:
-  text: Перенос по мере ввода
-wrapping.wrap.on.typing.no.wrap:
-  text: 'Нет'
-wrapping.wrap.on.typing.wrap:
-  text: 'Да'
-wrapping.wrap.on.typing.default:
-  text: По умолчанию
-group.richcopy:
-  text: Копирование с форматированием
-checkbox.richcopy.strip.whitespace.at.line.start:
-  text: Убрать общий отступ
-combobox.richcopy.color.scheme:
-  text: Цветовая схема
-combobox.richcopy.color.scheme.active:
-  text: Активная схема
-code.style.different.indent.size.detected:
-  text: Этот файл имеет отступ в {0} пробелов вместо {1}
-code.style.tab.usage.detected:
-  text: Этот файл имеет отступ табуляцией вместо {0} пробелов
-code.style.space.indent.detected:
-  text: Этот файл имеет отступ в {0} пробелов вместо символа табуляции
-code.style.detector.use.spaces:
-  text: Отступ в {0} пробела
-code.style.detector.use.tabs:
-  text: Отступ табуляцией
-code.style.indents.detector.show.settings:
-  text: Показать настройки
-code.style.indents.detector.accept:
-  text: OK
-remote.desktop.detected.title:
-  text: Обнаружен удалённый рабочий стол
-remote.desktop.detected.message:
-  text: Анимация отключена
-ligatures.more.info:
-  text: Дополнительная информация
-checkbox.line.comment.add.space:
-  text: Добавить пробел в начале комментария
+    text: Добавить
 action.apply.editor.font.settings:
-  text: Применить настройки шрифта редактора
-checkbox.show.parameter.name.hints:
-  text: Показать подсказки названий параметров
-fs.case.sensitivity.mismatch.title:
-  text: Несоответствие чувствительности к регистру в файловой системе
-fs.case.sensitivity.mismatch.message:
-  text: Похоже, что проект находится в файловой системе, чувствительной к регистру.<br> Это не соответствует настройке IDE (управляется свойством «<tt>consulo.case.sensitive.fs</tt>»)<br> <a href="https://confluence.jetbrains.com/display/IDEADEV/Filesystem+Case-Sensitivity+Mismatch">Подробнее.</a>
-integer.field.value.expected:
-  text: Ожидается значение
-integer.field.value.out.of.range:
-  text: Значение «{0}» находится вне диапазона {1}..{2}
-integer.field.value.not.a.number:
-  text: Значение «{0}» не является целым числом
-integer.field.value.default:
-  text: По умолчанию
-settings.soft.margins.empty.list:
-  text: Нет
-settings.default.value.prefix:
-  text: 'По умолчанию: {0}'
-project.code.style.migration.title:
-  text: Миграция настройки стиля кода проекта
-project.code.style.migration.message:
-  text: Настройки стиля кода вашего проекта {0} были изменены на новые. Мы пока сохраняем старый стиль для обратной совместимости.
-margin.columns:
-  text: колонки
-combobox.lineseparator.for.new.files.hint:
-  text: Применяется к новым файлам
-configurable.breadcrumbs:
-  text: Цепочка навигации
-configure.breadcrumbs.colors:
-  text: Управление цветами
+    text: Применить настройки шрифта редактора
+action.edit:
+    text: Изменить
+action.remove:
+    text: У&даление
+application.save.settings.error:
+    text: 'Не удалось сохранить настройки приложения: {0}'
+arrangement.action.rule.add.description:
+    text: Добавить новое правило расположения
+arrangement.action.rule.add.text:
+    text: Добавить правило
+arrangement.action.rule.edit.description:
+    text: Изменить выбранное правило расположения
+arrangement.action.rule.edit.text:
+    text: Изменить правило
+arrangement.action.rule.move.down.description:
+    text: Переместить выбранные правила размещения вниз
+arrangement.action.rule.move.down.text:
+    text: Переместить вниз
+arrangement.action.rule.move.up.description:
+    text: Переместить выбранные правила расположения вверх
+arrangement.action.rule.move.up.text:
+    text: Переместить вверх
+arrangement.action.rule.remove.description:
+    text: Удалить выбранные правила расположения
+arrangement.action.rule.remove.text:
+    text: Удалить правило(а)
+arrangement.order.name:
+    text: Порядок
+arrangement.settings.groups.dependent.methods:
+    text: Сохранять зависимые методы вместе
+arrangement.settings.groups.getters.and.setters.together:
+    text: Сохранять геттеры и сеттеры вместе
+arrangement.settings.groups.overridden.methods:
+    text: Сохранять переопределённые методы вместе
+arrangement.settings.groups.property.field:
+    text: Группировать поле свойства с соответствующим геттером/сеттером
+arrangement.settings.order.type.breadth.first:
+    text: порядок в ширину
+arrangement.settings.order.type.by.name:
+    text: Сортировать по названию
+arrangement.settings.order.type.depth.first:
+    text: порядок в глубину
+arrangement.settings.order.type.keep:
+    text: Сохранять порядок
+arrangement.settings.section.groups:
+    text: Правила группировки
+arrangement.settings.section.match:
+    text: Правила сопоставления
+arrangement.settings.text.entry.type.xml.attribute:
+    text: атрибут
+arrangement.settings.text.entry.type.xml.tag:
+    text: тег
+arrangement.settings.text.general.modifier:
+    text: 'Модификатор:'
+arrangement.settings.text.general.name:
+    text: 'Название:'
+arrangement.settings.text.general.order:
+    text: 'Порядок:'
+arrangement.settings.text.general.text:
+    text: 'Текст:'
+arrangement.settings.text.general.type:
+    text: 'Тип:'
+arrangement.settings.text.general.xml.namespace:
+    text: 'Пространство имён:'
+arrangement.text.empty.rule:
+    text: <пустое правило>
+arrangement.text.modifier:
+    text: Модификатор
+arrangement.text.name:
+    text: Название
+arrangement.text.type:
+    text: Тип
+arrangement.title.settings.tab:
+    text: Расположение
+auto.import:
+    text: Автоматический импорт
+building.include.indices:
+    text: Создание индексов включения…
+bulk.reformat.prepare.progress.text:
+    text: Подготовка…
+bulk.reformat.process.progress.text:
+    text: Обработка…
+button.add:
+    text: '&Добавить…'
+button.add.blank:
+    text: Добавить пустой
+button.add.package:
+    text: Добавить пакет
+button.add.package.p:
+    text: Добавить &пакет
+button.delete:
+    text: Удалить
+button.edit:
+    text: '&Изменить'
+button.edit.dialog:
+    text: '&Изменить…'
+button.edit.global.settings:
+    text: Изменить глобальные настройки…
+button.edit.scopes:
+    text: Редактировать области действия…
+button.export:
+    text: Экспорт…
+button.import:
+    text: Импорт…
+button.move.down:
+    text: Переместить &вниз
+button.move.up:
+    text: Переместить &вверх
+button.new:
+    text: '&Новый…'
+button.ok:
+    text: ОК
+button.remove:
+    text: У&даление
+button.remove.r:
+    text: '&Удалить'
+button.save.as:
+    text: Сохранить как…
+checkbox.add.unambiguous.imports.on.the.fly:
+    text: Добавлять однозначные импорты «на лету»
+checkbox.after.description:
+    text: После описания
+checkbox.after.parameter.descriptions:
+    text: После описания параметров
+checkbox.after.return.tag:
+    text: После тега @return
+checkbox.align.attributes:
+    text: Выровнять атрибуты
+checkbox.align.multiline.array.initializer:
+    text: Инициализатор массива
+checkbox.align.multiline.assignments:
+    text: Присваивания
+checkbox.align.multiline.binary.operation:
+    text: Бинарная операция
+checkbox.align.multiline.call.arguments:
+    text: Аргументы вызова
+checkbox.align.multiline.chained.methods:
+    text: Цепочки вызовов
+checkbox.align.multiline.extends.list:
+    text: Список наследований
+checkbox.align.multiline.fields.groups:
+    text: Группы полей
+checkbox.align.multiline.for.statement:
+    text: Оператор «'{'»
+checkbox.align.multiline.method.parameters:
+    text: Параметры метода
+checkbox.align.multiline.parenthesized.expression:
+    text: Выражение в скобках
+checkbox.align.multiline.ternary.operation:
+    text: Тернарная операция
+checkbox.align.multiline.throws.list:
+    text: Список исключений
+checkbox.align.parameter.descriptions:
+    text: Выровнять описания параметров
+checkbox.align.text:
+    text: Выровнять текст
+checkbox.align.thrown.exception.descriptions:
+    text: Выровнять описания выбрасываемых исключений
+checkbox.allow.placement.of.caret.after.end.of.line:
+    text: Разрешить размещение курсора после конца строки
+checkbox.allow.placement.of.caret.inside.tabs:
+    text: Разрешить размещение курсора внутри табуляции
+checkbox.autocomplete.basic:
+    text: Базовый
+checkbox.autocomplete.common.prefix:
+    text: Общий префикс автозаполнения
+checkbox.autocomplete.smart.type:
+    text: Умный тип
+checkbox.block.comment.at.first.column:
+    text: Блокировать комментарий в первом столбце
+checkbox.caret.blinking.ms:
+    text: 'Мигание курсора (мс):'
+checkbox.collapse.annotations:
+    text: <html>Аннотации</html>
+checkbox.collapse.anonymous.classes:
+    text: <html>Анонимные классы</html>
+checkbox.collapse.closures:
+    text: <html>«Замыкания» (анонимные классы, реализующие один метод)</html>
+checkbox.collapse.end.of.line.comments:
+    text: <html>Последовательность комментариев в конце строки</html>
+checkbox.collapse.file.header:
+    text: Заголовок файла
+checkbox.collapse.generic.constructor.parameters:
+    text: <html>Универсальные параметры конструктора и метода</html>
+checkbox.collapse.html.style.attribute:
+    text: HTML-атрибут «style»
+checkbox.collapse.i18n.messages:
+    text: <html>Строки локализации</html>
+checkbox.collapse.inner.classes:
+    text: Внутренние классы
+checkbox.collapse.javadoc.comments:
+    text: Документирующие комментарии
+checkbox.collapse.method.bodies:
+    text: Тела методов
+checkbox.collapse.simple.property.accessors:
+    text: <html>Простые методы доступа к свойствам<html>
+checkbox.collapse.suppress.warnings:
+    text: <html>@SuppressWarnings</html>
+checkbox.collapse.title.imports:
+    text: Импорты
+checkbox.collapse.xml.tags:
+    text: XML-теги
+checkbox.color.background:
+    text: Фон
+checkbox.color.effects:
+    text: Эффекты
+checkbox.color.error.stripe.mark:
+    text: Подчёркнутый как ошибка
+checkbox.color.foreground:
+    text: Передний план
+checkbox.do.not.indent.top.level.class.members:
+    text: Не делать отступ для членов класса верхнего уровня
+checkbox.do.not.wrap.one.line.comments:
+    text: Не переносить однострочные комментарии
+checkbox.editor.tabs.in.single.row:
+    text: Показать вкладки в одну строку
+checkbox.editor.tabs.show.close.button:
+    text: Показать кнопку «Закрыть» на вкладках редактора
+checkbox.enable.ctrl.mousewheel.changes.font.size:
+    text: Изменить размер шрифта (масштаб) с помощью Ctrl+колесико мыши
+checkbox.enable.ctrl.mousewheel.changes.font.size.macos:
+    text: Изменить размер шрифта (масштаб) с помощью Command+колесико мыши
+checkbox.enable.drag.n.drop.functionity.in.editor:
+    text: Включить функцию перетаскивания мышью в редакторе
+checkbox.enable.javadoc.formatting:
+    text: Включить форматирование JavaDoc
+checkbox.enable.leading.asterisks:
+    text: Включить ведущие звездочки
+checkbox.font.bold:
+    text: Жирный
+checkbox.font.italic:
+    text: Курсив
+checkbox.generate.p.on.empty.lines:
+    text: Генерировать «<p/>» на пустых строках
+checkbox.hide.file.extension.in.editor.tabs:
+    text: Скрыть расширение файла во вкладках редактора
+checkbox.highlight.current.scope:
+    text: Выделить текущую область
+checkbox.highlight.matched.brace:
+    text: Подсветка парной скобки
+checkbox.honor.camelhumps.words.settings.on.double.click:
+    text: Учитывать настройки «CamelHumps» при выделении двойным щелчком
+checkbox.indent.absolute.label.indent:
+    text: Абсолютный отступ метки
+checkbox.indent.keep.indents.on.empty.lines:
+    text: Сохранять отступы на пустых строках
+checkbox.indent.on.paste:
+    text: Умный отступ вставленных строк
+checkbox.indent.smart.tabs:
+    text: Умная табуляция
+checkbox.indent.use.same.settings.for.all.file.types:
+    text: Использовать параметры отступа по умолчанию (Общие)
+checkbox.indent.use.tab.character:
+    text: Использовать символ табуляции
+checkbox.indenting.backspace:
+    text: Умный отступ Backspace
+checkbox.insert.both.parentheses.when.no.arguments:
+    text: Вставить «()» при отсутствии аргументов
+checkbox.insert.imports.for.inner.classes:
+    text: Вставить импорт для внутренних классов
+checkbox.insert.pair.bracket:
+    text: Вставлять парную скобку
+checkbox.insert.pair.curly.brace:
+    text: Вставить парную «}»
+checkbox.insert.pair.percent.gt.in.jsp:
+    text: Вставить парную «%>» в JSP
+checkbox.insert.pair.quote:
+    text: Вставлять парную кавычку
+checkbox.javadoc.stub.after.slash.star.star:
+    text: Вставлять черновик документирующего комментария
+checkbox.keep.empty.lines:
+    text: Сохранять пустые строки
+checkbox.keep.empty.param.tags:
+    text: Сохранить пустые теги @param
+checkbox.keep.empty.return.tags:
+    text: Сохранить пустые теги @return
+checkbox.keep.empty.throws.tags:
+    text: Сохранить пустые теги @throws
+checkbox.keep.invalid.tags:
+    text: Сохранять недопустимые теги
+checkbox.keep.line.breaks:
+    text: Сохранять переносы строк
+checkbox.keep.line.breaks.in.text:
+    text: Сохранять переносы строк в text
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: Управляющий оператор в одной строке
+checkbox.keep.white.spaces:
+    text: Оставить пробелы
+checkbox.line.comment.add.space:
+    text: Добавить пробел в начале комментария
+checkbox.line.comment.at.first.column:
+    text: Строчный комментарий в первом столбце
+checkbox.make.generated.local.variables.final:
+    text: Пометить сгенерированные локальные переменные как «final»
+checkbox.make.generated.parameters.final:
+    text: Пометить сгенерированные параметры как «final»
+checkbox.mark.modified.tabs.with.asterisk:
+    text: Пометить измененные вкладки звездочкой
+checkbox.next.error.action.goes.to.errors.first:
+    text: Действие «Следующая ошибка» переходит только к проблемам с высоким приоритетом
+checkbox.optimize.imports.on.the.fly:
+    text: Оптимизировать импорты «на лету»
+checkbox.param.description.on.new.line:
+    text: Описания параметров с новой строки
+checkbox.parentheses.around.method.arguments:
+    text: Добавить скобки вокруг аргументов метода
+checkbox.prefer.longer.names:
+    text: Предпочитать более длинные имена
+checkbox.preserve.line.feeds:
+    text: Сохранять переводы строк
+checkbox.reformat.on.typing.rbrace:
+    text: Переформатировать блок при вводе «}»
+checkbox.rename.local.variables.inplace:
+    text: Включить режим рефакторинга «на месте»
+checkbox.rename.local.variables.preselect:
+    text: Предварительно выбрать старое название
+checkbox.richcopy.strip.whitespace.at.line.start:
+    text: Убрать общий отступ
+checkbox.right.margin:
+    text: Показывать правый край (настраивается в параметрах стиля кода)
+checkbox.show.all.softwraps:
+    text: Показать все мягкие переносы
 checkbox.show.breadcrumbs:
-  text: Показать цепочку навигации
-radio.show.breadcrumbs.above:
-  text: Сверху
-radio.show.breadcrumbs.below:
-  text: Снизу
-label.breadcrumbs.placement:
-  text: 'Размещение:'
-label.breadcrumbs.languages:
-  text: 'Языки:'
-settings.editor.font.none:
-  text: <Нет>
-editorsearch.toomuch:
-  text: '{0}+'
-editorsearch.matches:
-  text: '{0, choice, 0#0 результатов|1#1 результат|2#{0} результатов}'
-editorsearch.current.cursor.position:
-  text: '{0}/{1}'
-editorsearch.noselection:
-  text: Нет выбора
-editorsearch.empty.string.matches:
-  text: Неопределённый шаблон
-editorsearch.in.selection:
-  text: Поиск только в выделенном
-editorsearch.in.selection.with.hint:
-  text: Поиск в выделенном. {0} для поиска выделенного текста
-nothing.here:
-  text: Ничего здесь
+    text: Показать цепочку навигации
+checkbox.show.code.folding.outline:
+    text: Показать контур сворачивания кода
+checkbox.show.full.signatures:
+    text: Показать полные подписи
+checkbox.show.gutter.icons:
+    text: Показывать иконки в колонке номеров строк
+checkbox.show.import.popup:
+    text: Показать импорт и всплывающее окно
+checkbox.show.line.numbers:
+    text: Показывать номера строк
+checkbox.show.method.separators:
+    text: Показать разделители методов
+checkbox.show.only.monospaced.fonts:
+    text: Показать только моноширинные шрифты
+checkbox.show.parameter.name.hints:
+    text: Показать подсказки названий параметров
+checkbox.show.quick.doc.on.mouse.over:
+    text: 'Показать краткую справку при наведении мыши на элемент (мс):'
+checkbox.show.signatures:
+    text: Показать подписи
 checkbox.show.softwraps.only.for.caret.line.action.text:
-  text: "Мягкие переносы: показывать только для текущей строки"
-label.appearance.show.vertical.indent.guides:
-  text: Показывать вертикальные направляющие отступа
-error.plugins.should.not.have.cyclic.dependencies:
-  text: |-
-    Дополнения не должны иметь циклических зависимостей:
-    {0}
-error.plugin.was.not.installed:
-  text: "Дополнение {0} не установлено: {1}"
-error.required.plugin.not.installed:
-  text: 'Дополнение «{0}» не загружено: не установлено необходимое дополнение «{1}».'
-error.required.plugin.disabled:
-  text: 'Дополнение «{0}» не загружено: отключено необходимое дополнение «{1}».'
-message.duplicate.plugin.id:
-  text: 'Повторяющийся идентификатор дополнения:'
-task.button.cancel:
-  text: Отмена
-code.style.indent.provider.notification.settings:
-  text: Настройки стиля кода
-code.style.indent.provider.notification.re.enable:
-  text: Отменить
-code.style.indent.detector.reject:
-  text: Отступ новых строк с помощью {0}
-code.style.indent.detector.disable:
-  text: Отключить обнаружение отступов для проекта
+    text: 'Мягкие переносы: показывать только для текущей строки'
+checkbox.show.static.members.after.instance.qualifier:
+    text: Показывать статические члены после квалификатора экземпляра
+checkbox.show.tabs.tooltips:
+    text: Показать подсказки вкладок
+checkbox.show.virtual.space.at.file.bottom:
+    text: Показывать пустое виртуальное пространство внизу файла
+checkbox.show.whitespaces:
+    text: Показать пробелы
+checkbox.smart.end.on.blank.line:
+    text: Конец (на пустой строке)
+checkbox.smart.home:
+    text: Home
+checkbox.smart.indent:
+    text: Умный отступ
+checkbox.smooth.scrolling:
+    text: Плавная прокрутка
+checkbox.spaces.additive.operators:
+    text: Операторы сложения/вычитания (+, -)
+checkbox.spaces.after.colon:
+    text: После «:»
+checkbox.spaces.after.colon.in.label.declaration:
+    text: После «:» в объявлении метки
+checkbox.spaces.after.comma:
+    text: После запятой
+checkbox.spaces.after.question:
+    text: После «?»
+checkbox.spaces.after.semicolon:
+    text: После точки с запятой
+checkbox.spaces.after.type.cast:
+    text: После приведения типа
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: Открывающая фигурная скобка в массиве аннотации
+checkbox.spaces.annotation.parameters:
+    text: Параметры аннотации
+checkbox.spaces.annotation.parentheses:
+    text: Круглые скобки в аннотациях
+checkbox.spaces.around.equals.in.attribute:
+    text: Вокруг «=» в атрибуте
+checkbox.spaces.around.lambda.arrow:
+    text: Лямбда-стрелка
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: Ссылка на метод, двойное двоеточие
+checkbox.spaces.around.tag.name:
+    text: После имени тега
+checkbox.spaces.around.unary.operator:
+    text: Унарные операторы (!, -, +, ++, --)
+checkbox.spaces.array.initializer.left.brace:
+    text: Открывающая фигурная скобка инициализатора массива
+checkbox.spaces.assignment.operators:
+    text: Операторы присваивания (=, +=, ...)
+checkbox.spaces.before.colon:
+    text: Перед «:»
+checkbox.spaces.before.comma:
+    text: Перед запятой
+checkbox.spaces.before.question:
+    text: Перед «?»
+checkbox.spaces.before.semicolon:
+    text: Перед точкой с запятой
+checkbox.spaces.bitwise.operators:
+    text: Побитовые операторы (\&, |, ^)
+checkbox.spaces.catch.keyword:
+    text: Ключевое слово «catch»
+checkbox.spaces.catch.left.brace:
+    text: Открывающая фигурная скобка «catch»
+checkbox.spaces.catch.parentheses:
+    text: Круглые скобки «catch»
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: Круглые скобки вызова метода без параметров
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: Круглые скобки объявления метода без параметров
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: Круглые скобки вызова метода
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: Круглые скобки объявления метода
+checkbox.spaces.class.left.brace:
+    text: Открывающая фигурная скобка класса
+checkbox.spaces.do.left.brace:
+    text: Открывающая фигурная скобка «do»
+checkbox.spaces.else.keyword:
+    text: Ключевое слово «else»
+checkbox.spaces.else.left.brace:
+    text: Открывающая фигурная скобка «else»
+checkbox.spaces.equality.operators:
+    text: Операторы равенства (==, !=)
+checkbox.spaces.finally.keyword:
+    text: Ключевое слово «finally»
+checkbox.spaces.finally.left.brace:
+    text: Открывающая фигурная скобка «finally»
+checkbox.spaces.for.left.brace:
+    text: Открывающая фигурная скобка «for»
+checkbox.spaces.for.parentheses:
+    text: Круглые скобки «for»
+checkbox.spaces.if.left.brace:
+    text: Открывающая фигурная скобка «if»
+checkbox.spaces.if.parentheses:
+    text: Круглые скобки «if»
+checkbox.spaces.in.empty.tag:
+    text: В пустом теге
+checkbox.spaces.logical.operators:
+    text: Логические операторы (\&\&, ||)
+checkbox.spaces.method.call.parentheses:
+    text: Скобки вызова метода
+checkbox.spaces.method.declaration.parentheses:
+    text: Скобки объявления метода
+checkbox.spaces.method.left.brace:
+    text: Открывающая фигурная скобка метода
+checkbox.spaces.multiplicative.operators:
+    text: Операторы умножения/деления (*, /, %)
+checkbox.spaces.relational.operators:
+    text: Операторы отношения (<, >, <=, >=)
+checkbox.spaces.shift.operators:
+    text: Операторы сдвига (<<, >>, >>>)
+checkbox.spaces.switch.left.brace:
+    text: Открывающая фигурная скобка «switch»
+checkbox.spaces.switch.parentheses:
+    text: Круглые скобки «switch»
+checkbox.spaces.synchronized.left.brace:
+    text: Открывающая фигурная скобка «synchronized»
+checkbox.spaces.synchronized.parentheses:
+    text: Круглые скобки «synchronized»
+checkbox.spaces.try.left.brace:
+    text: Открывающая фигурная скобка «try»
+checkbox.spaces.try.parentheses:
+    text: Круглые скобки «try»
+checkbox.spaces.type.cast.parentheses:
+    text: Круглые скобки приведения типа
+checkbox.spaces.while.keyword:
+    text: Ключевое слово «while»
+checkbox.spaces.while.left.brace:
+    text: Открывающая фигурная скобка «while»
+checkbox.spaces.while.parentheses:
+    text: Круглые скобки «while»
+checkbox.spaces.within.array.initializer.braces:
+    text: Фигурные скобки инициализатора массива
+checkbox.spaces.within.braces:
+    text: Фигурные скобки в коде
+checkbox.spaces.within.brackets:
+    text: Квадратные скобки
+checkbox.spaces.within.parentheses:
+    text: Группирующие круглые скобки
+checkbox.suppress.with.suppresswarnings:
+    text: Подавить с помощью @SuppressWarnings (только для Java 5.0)
+checkbox.surround.selection.on.typing.quote.or.brace:
+    text: Окружить выделение при вводе кавычки или фигурной скобки
+checkbox.use.block.caret:
+    text: Использовать блочный курсор
+checkbox.use.camelhumps.words:
+    text: Определять слова по смене регистра в идентификаторе (CamelHumps)
+checkbox.use.custom.soft.wraps.indent:
+    text: Использовать отступ для пользовательских мягких переносов
+checkbox.use.fully.qualified.class.names:
+    text: Использовать полностью определённые названия классов
+checkbox.use.fully.qualified.class.names.in.javadoc:
+    text: Использовать полные названия классов в JavaDoc
+checkbox.use.relative.indents:
+    text: Использовать отступы относительно начала выражения
+checkbox.use.single.class.import:
+    text: Использовать импорт одного класса
+checkbox.use.soft.wraps.at.console:
+    text: Использовать мягкие переносы в консоли
+checkbox.use.soft.wraps.at.editor:
+    text: Использовать мягкие переносы в редакторе
+checkbox.use.throws.rather.than.exception:
+    text: Использовать @throws вместо @exception
+checkbox.wrap.at.right.margin:
+    text: Перенос по правому краю
+checkbox.wrap.text:
+    text: Переносить текст
+checkbox.wrap.typing.on.right.margin:
+    text: Перенос при наборе текста
+code.style.detector.use.spaces:
+    text: Отступ в {0} пробела
+code.style.detector.use.tabs:
+    text: Отступ табуляцией
+code.style.different.indent.size.detected:
+    text: Этот файл имеет отступ в {0} пробелов вместо {1}
 code.style.indent.detector.apply:
-  text: <html>Отступ новых строк с помощью <span style="color:#{1}">обнаруженного</span> {0}
-code.style.indent.detector.reindent:
-  text: Сменить отступы в файле на {0}
+    text: <html>Отступ новых строк с помощью <span style="color:#{1}">обнаруженного</span> {0}
+code.style.indent.detector.disable:
+    text: Отключить обнаружение отступов для проекта
 code.style.indent.detector.notification.content:
-  text: Отключено обнаружение отступов
+    text: Отключено обнаружение отступов
+code.style.indent.detector.reindent:
+    text: Сменить отступы в файле на {0}
+code.style.indent.detector.reject:
+    text: Отступ новых строк с помощью {0}
+code.style.indent.provider.notification.re.enable:
+    text: Отменить
+code.style.indent.provider.notification.settings:
+    text: Настройки стиля кода
+code.style.indents.detector.accept:
+    text: OK
+code.style.indents.detector.show.settings:
+    text: Показать настройки
+code.style.space.indent.detected:
+    text: Этот файл имеет отступ в {0} пробелов вместо символа табуляции
+code.style.tab.usage.detected:
+    text: Этот файл имеет отступ табуляцией вместо {0} пробелов
+column.name:
+    text: Название
+column.value:
+    text: Значение
+combobox.autocomplete.case.sensitive.all:
+    text: Все
+combobox.autocomplete.case.sensitive.first.letter:
+    text: Первая буква
+combobox.autocomplete.case.sensitive.none:
+    text: Нет
+combobox.case.sensitive.completion:
+    text: 'Завершение с учетом регистра:'
+combobox.crlf.mac:
+    text: CR — Классический Mac (\r)
+combobox.crlf.system.dependent:
+    text: Зависит от системы
+combobox.crlf.unix:
+    text: LF — Unix и OS X (\n)
+combobox.crlf.windows:
+    text: CRLF — Windows (\r\n)
+combobox.editor.tab.placement:
+    text: 'Разместить:'
+combobox.effect.bold.dottedline:
+    text: Пунктирное подчёркивание
+combobox.effect.boldunderscored:
+    text: Жирный и подчеркнутый
+combobox.effect.bordered:
+    text: Границы
+combobox.effect.strikeout:
+    text: Зачеркнутый
+combobox.effect.underscored:
+    text: Подчеркнутый
+combobox.effect.underwaved:
+    text: Подчеркнутый волной
+combobox.force.braces.do.while:
+    text: 'do … while():'
+combobox.force.braces.for:
+    text: 'for ():'
+combobox.force.braces.if:
+    text: 'if ():'
+combobox.force.braces.while:
+    text: 'while ():'
+combobox.insert.imports.all:
+    text: Все
+combobox.insert.imports.ask:
+    text: Спросить
+combobox.insert.imports.none:
+    text: Нет
+combobox.line.separator.for.new.files:
+    text: 'Разделитель строк (для новых файлов):'
+combobox.lineseparator.for.new.files.hint:
+    text: Применяется к новым файлам
+combobox.paste.insert.imports:
+    text: '&Добавлять импорты при вставке:'
+combobox.paste.reformat:
+    text: Переформатировать при вставке
+combobox.paste.reformat.indent.block:
+    text: Отступ блока
+combobox.paste.reformat.indent.each.line:
+    text: Отступ каждой строки
+combobox.paste.reformat.none:
+    text: Нет
+combobox.paste.reformat.reformat.block:
+    text: Переформатировать блок
+combobox.richcopy.color.scheme:
+    text: Цветовая схема
+combobox.richcopy.color.scheme.active:
+    text: Активная схема
+combobox.scheme.name:
+    text: 'Название схемы:'
+combobox.smart.backspace:
+    text: Убрать отступ
+combobox.smart.backspace.off:
+    text: Отключено
+combobox.smart.backspace.simple:
+    text: К ближайшему положению отступа
+combobox.smart.backspace.smart:
+    text: К правильному положению отступа
+combobox.strip.all:
+    text: Все
+combobox.strip.modified.lines:
+    text: Изменённые строки
+combobox.strip.none:
+    text: Нет
+combobox.strip.trailing.spaces.on.save:
+    text: 'Удалять пробелы в конце строки при сохранении:'
+combobox.tab.placement.bottom:
+    text: Снизу
+combobox.tab.placement.left:
+    text: Слева
+combobox.tab.placement.none:
+    text: Нет
+combobox.tab.placement.right:
+    text: Справа
+combobox.tab.placement.top:
+    text: Сверху
+command.exit:
+    text: Выход
+config.import.invalid.directory.error:
+    text: '{0} не является папкой!'
+configurable.breadcrumbs:
+    text: Цепочка навигации
+configure.breadcrumbs.colors:
+    text: Управление цветами
+desktop.entry.checking:
+    text: Проверка…
+desktop.entry.icon.missing:
+    text: Не удалось найти подходящий значок приложения в «{0}».
+desktop.entry.installing:
+    text: Установка записи…
+desktop.entry.preparing:
+    text: Подготовка записи…
+desktop.entry.script.missing:
+    text: Не удалось найти подходящий скрипт запуска в «{0}».
+desktop.entry.success:
+    text: Теперь вы можете выйти из {0} и запустить его из системного меню<br/> (перезапустите сеанс, если новая запись не появляется).
+desktop.entry.sudo.prompt:
+    text: Введите пароль для создания записи рабочего стола
+desktop.entry.xdg.missing:
+    text: Похоже, xdg-utils недоступны в вашей системе.
+don.t.break.if.inline.content:
+    text: 'Не разрывать, если встроенное содержимое:'
+edit.code.folding.options:
+    text: Открыть параметры сворачивания кода
+editbox.autopopup.in.ms:
+    text: 'Автовсплывающее окошко через (мс):'
+editbox.autopopup.javadoc.in.ms:
+    text: 'Автовсплывающая документация через (мс):'
+editbox.autoreparse.delay.ms:
+    text: 'Задержка повторного синтаксического разбора (мс):'
+editbox.blanklines.after.anonymous.class.header:
+    text: 'После заголовка анонимного класса:'
+editbox.blanklines.after.class.header:
+    text: 'После заголовка класса:'
+editbox.blanklines.after.imports:
+    text: 'После блока импортов:'
+editbox.blanklines.after.package.statement:
+    text: 'После выражения «package»:'
+editbox.blanklines.around.class:
+    text: 'Вокруг класса:'
+editbox.blanklines.around.field:
+    text: 'Вокруг поля:'
+editbox.blanklines.around.method:
+    text: 'Вокруг метода:'
+editbox.blanklines.before.imports:
+    text: 'Перед блоком импортов:'
+editbox.blanklines.before.method.body:
+    text: 'Перед телом метода:'
+editbox.blanklines.before.package.statement:
+    text: 'Перед выражением «package»:'
+editbox.class.count.to.use.import.with.star:
+    text: 'Количество классов для использования импорта со «*»:'
+editbox.console.history.limit:
+    text: 'Размер истории консольных команд:'
+editbox.enter.tag.name:
+    text: 'Введите название тега:'
+editbox.error.stripe.mark.min.height.pixels:
+    text: 'Минимальная высота полоски ошибки (пиксели):'
+editbox.font.size:
+    text: 'Размер:'
+editbox.indent.continuation.indent:
+    text: 'Отступ после переноса:'
+editbox.indent.indent:
+    text: 'Отступ:'
+editbox.indent.label.indent:
+    text: 'Отступ метки:'
+editbox.indent.tab.size:
+    text: 'Размер символа табуляции:'
+editbox.installation.home:
+    text: 'Укажите папку конфигурации или домашнюю папку установки предыдущей версии {0}:'
+editbox.keep.blank.lines:
+    text: 'Оставить пустые строки:'
+editbox.keep.blanklines.before.rbrace:
+    text: 'Перед «}»:'
+editbox.keep.blanklines.in.code:
+    text: 'В коде:'
+editbox.keep.blanklines.in.declarations:
+    text: 'В объявлениях:'
+editbox.line.spacing:
+    text: 'Межстрочный интервал:'
+editbox.lookup.height:
+    text: 'Высота поиска (элементы):'
+editbox.maximum.number.of.contents.to.keep.in.clipboard:
+    text: 'Максимальное количество содержимого для хранения в буфере обмена:'
+editbox.names.count.to.use.static.import.with.star:
+    text: 'Количество членов класса для использования статического импорта со «*»:'
+editbox.path.macro.name:
+    text: 'Название:'
+editbox.path.macro.value:
+    text: 'Значение:'
+editbox.recent.files.limit:
+    text: 'Ограничение количества последних файлов:'
+editbox.right.margin.columns:
+    text: 'Правый край (столбцы):'
+editbox.scheme.name:
+    text: 'Схема:'
+editbox.tab.limit:
+    text: 'Ограничение количества вкладок:'
+editorsearch.current.cursor.position:
+    text: '{0}/{1}'
+editorsearch.empty.string.matches:
+    text: Неопределённый шаблон
+editorsearch.in.selection:
+    text: Поиск только в выделенном
+editorsearch.in.selection.with.hint:
+    text: Поиск в выделенном. {0} для поиска выделенного текста
+editorsearch.matches:
+    text: '{0, choice, 0#0 результатов|1#1 результат|2#{0} результатов}'
+editorsearch.noselection:
+    text: Нет выбора
+editorsearch.toomuch:
+    text: '{0}+'
+error.a.scheme.with.this.name.already.exists.or.was.deleted.without.applying.the.changes:
+    text: Схема с таким названием уже существует или была удалена без применения изменений
+error.does.not.appear.to.be.installation.home:
+    text: '{0} не является папкой конфигурации {1} или домашней папкой установки'
+error.illegal.scheme.name:
+    text: Недопустимое название схемы
+error.invalid.config.folder:
+    text: Невозможно импортировать настройки. «{0}» не является допустимой папкой конфигурации {1}.
+error.invalid.installation.home:
+    text: Невозможно импортировать настройки. «{0}» не является допустимой домашней папкой установки {1}.
+error.monitor.too.many.errors:
+    text: Слишком много фатальных ошибок IDE. Мониторинг остановлен.
+error.no.read.permissions:
+    text: У вас нет прав на чтение {0}
+error.no.settings.path:
+    text: Невозможно импортировать настройки. {0} не существует.
+error.path.variable.is.undefined:
+    text: Переменная пути «{0}» не определена
+error.please.select.previous.installation.home:
+    text: Выберите предыдущую папку конфигурации {0} или домашнюю папку установки
+error.plugin.was.not.installed:
+    text: 'Расширение {0} не установлено: {1}'
+error.plugins.should.not.have.cyclic.dependencies:
+    text: |-
+        Расширения не должны иметь циклических зависимостей:
+        {0}
+error.readonly.scheme.cannot.be.modified:
+    text: Схему только для чтения изменить нельзя. Сначала выполните «Сохранить как…».
+error.required.plugin.disabled:
+    text: 'Расширение «{0}» не загружено: отключено необходимое расширение «{1}».'
+error.required.plugin.not.installed:
+    text: 'Расширение «{0}» не загружено: не установлено необходимое расширение «{1}».'
+error.scheme.must.have.a.name:
+    text: Схема должна иметь название
+error.selected.current.installation.home:
+    text: |-
+        Вы выбрали текущую домашнюю папку установки {0}.
+        Выберите предыдущую домашнюю папку установки {1}
+error.shared.scheme.cannot.be.modified:
+    text: Общая схема не может быть изменена. Сначала выполните «Сохранить как…».
+error.unable.to.import.settings:
+    text: Не удалось импортировать настройки. {0}
+error.variable.already.exists:
+    text: Переменная с названием {0} уже существует
+exclude.from.completion.group:
+    text: Исключить из импорта и завершения
+exclude.from.completion.prompt:
+    text: 'Введите название пакета или класса для исключения из автоимпорта и завершения названия класса:'
+exclude.from.completion.title:
+    text: Исключить пакет
+exclude.from.imports.add:
+    text: '&Добавить'
+exclude.from.imports.no.exclusions:
+    text: Нет шаблонов исключения
+exit.confirm.prompt:
+    text: Вы уверены, что хотите выйти из {0}?
+exit.confirm.prompt.tasks:
+    text: У вас запущены фоновые задачи. Вы уверены, что хотите остановить их и выйти из {0}?
+exit.confirm.title:
+    text: Подтвердите выход
+fs.case.sensitivity.mismatch.message:
+    text: Похоже, что проект находится в файловой системе, чувствительной к регистру.<br> Это не соответствует настройке IDE (управляется свойством «<tt>consulo.case.sensitive.fs</tt>»)<br> <a href="https://confluence.jetbrains.com/display/IDEADEV/Filesystem+Case-Sensitivity+Mismatch">Подробнее.</a>
+fs.case.sensitivity.mismatch.title:
+    text: Несоответствие чувствительности к регистру в файловой системе
+group.advanced.mouse.usages:
+    text: Мышь
+group.brace.highlighting:
+    text: Подсветка при перемещении курсора
+group.code.folding:
+    text: Сворачивание кода
+group.editor.font:
+    text: Шрифт редактора
+group.error.highlighting:
+    text: Подсветка ошибок
+group.javadoc.alignment:
+    text: Выравнивание
+group.javadoc.blank.lines:
+    text: Пустые строки
+group.javadoc.invalid.tags:
+    text: Недопустимые теги
+group.javadoc.other:
+    text: Другое
+group.limits:
+    text: Ограничения
+group.richcopy:
+    text: Копирование с форматированием
+group.smart.keys:
+    text: Умные клавиши
+group.spaces.after.right.brace:
+    text: Перед ключевыми словами
+group.spaces.around.operators:
+    text: Вокруг операторов
+group.spaces.before.left.brace:
+    text: Перед левой фигурной скобкой
+group.spaces.before.parentheses:
+    text: Перед круглыми скобками
+group.spaces.in.ternary.operator:
+    text: Внутри тернарного оператора (?:)
+group.spaces.in.type.arguments:
+    text: Внутри аргументов типа
+group.spaces.in.type.arguments.block:
+    text: Аргументы типа
+group.spaces.in.type.parameters.block:
+    text: Параметры типа
+group.spaces.other:
+    text: Другое
+group.spaces.within:
+    text: Внутри
+group.tab.appearance:
+    text: Внешний вид вкладки
+group.tab.closing.policy:
+    text: Политика закрытия вкладок
+group.tabs.and.indents:
+    text: Табуляция и отступы
+group.virtual.space:
+    text: Виртуальное пространство
+groupbox.display:
+    text: Отображение
+html.project.uses.own.code.style:
+    text: <html><body>Текущий проект настроен на использование собственного стиля кода.<br>Изменения, внесенные в глобальные настройки стиля кода, не повлияют на форматирование в текущем проекте.<br>См. Настройки проекта | Стиль кода.<br>Нажмите \&quot;Изменить глобальные настройки\&quot; кнопку ниже, если вы всё ещё хотите редактировать глобальные настройки.</body></html>
+import.scheme.chooser.destination:
+    text: 'В:'
+import.scheme.chooser.source:
+    text: 'Из:'
+inline.elements:
+    text: 'Встроенные элементы:'
+insert.override.annotation:
+    text: Вставить аннотацию @&Override
+integer.field.value.default:
+    text: По умолчанию
+integer.field.value.expected:
+    text: Ожидается значение
+integer.field.value.not.a.number:
+    text: Значение «{0}» не является целым числом
+integer.field.value.out.of.range:
+    text: Значение «{0}» находится вне диапазона {1}..{2}
+label.appearance.show.vertical.indent.guides:
+    text: Показывать вертикальные направляющие отступа
+label.autocomplete.when.only.one.choice:
+    text: 'Автозаполнение, когда только один выбор:'
+label.breadcrumbs.languages:
+    text: 'Языки:'
+label.breadcrumbs.placement:
+    text: 'Размещение:'
+label.collapse.by.default:
+    text: 'Свернуть по умолчанию:'
+label.complete.autopopup:
+    text: 'Автовсплывающее окно:'
+label.complete.brackets:
+    text: 'Скобки:'
+label.do.not.indent.children.of:
+    text: 'Не делать отступ для дочерних элементов:'
+label.edit.per.project.or.global.code.style:
+    text: <html><body>Отметьте опцию выше для настройки стиля кода для каждого проекта<br>или используйте глобальный стиль кода. Глобальные параметры стиля кода можно настроить<br>в разделе Настройки IDE/Глобальный стиль кода</body></html>
+label.fallback.fonts.list.description:
+    text: IDE пытается использовать следующий шрифт из списка «Выбранные шрифты» для отображения символа, если текущий шрифт не может этого сделать
+label.font.name:
+    text: 'Название:'
+label.font.size:
+    text: 'Размер шрифта:'
+label.font.type:
+    text: 'Тип шрифта:'
+label.inherit.attributes:
+    text: 'Наследовать атрибуты из:'
+label.insert.new.line.before:
+    text: 'Вставить новую строку перед:'
+label.keep.white.spaces.inside:
+    text: 'Сохранять пробелы внутри:'
+label.lines:
+    text: строки
+label.loading.page.please.wait:
+    text: Загрузка…
+label.name:
+    text: 'Название:'
+label.name.prefix:
+    text: 'Префикс названия:'
+label.name.suffix:
+    text: 'Суффикс названия:'
+label.naming.field:
+    text: 'Поле:'
+label.naming.local.variable:
+    text: 'Локальная переменная:'
+label.naming.parameter:
+    text: 'Параметр:'
+label.naming.static.field:
+    text: 'Статическое поле:'
+label.or.if.tag.size.more.than:
+    text: или если размер тега больше, чем
+label.remove.new.line.before:
+    text: 'Удалить новую строку перед:'
+label.smart.enter:
+    text: 'Умный перевод строки:'
+label.when.closing.active.editor:
+    text: 'При закрытии активного редактора:'
+label.when.number.of.opened.editors.exceeds.tab.limit:
+    text: 'Когда количество открытых редакторов превышает лимит вкладок:'
+label.wrap.attributes:
+    text: 'Обернуть атрибуты:'
+label.you.can.import:
+    text: Вы можете импортировать свои настройки из предыдущей версии {0}.
+launcher.script.overwrite:
+    text: Файл «{0}» уже существует. Хотите перезаписать его?
+launcher.script.sudo.prompt:
+    text: Введите пароль, чтобы создать скрипт запуска в «{0}»
+ligatures.more.info:
+    text: Дополнительная информация
+listbox.import.all.other.imports:
+    text: <все остальные импорты>
+listbox.import.blank.line:
+    text: <пустая строка>
+listbox.import.package:
+    text: Пакет
+listbox.import.with.subpackages:
+    text: С подпакетами
+listbox.members.order.constructors:
+    text: Конструкторы
+listbox.members.order.fields:
+    text: Поля экземпляра
+listbox.members.order.inner.classes:
+    text: Внутренние классы
+listbox.members.order.inner.static.classes:
+    text: Статические внутренние классы
+listbox.members.order.methods:
+    text: Методы экземпляра
+listbox.members.order.static.fields:
+    text: Статические поля
+listbox.members.order.static.methods:
+    text: Статические методы
+loading.include.indices:
+    text: Загрузка включения индексы…
+margin.columns:
+    text: колонки
+message.duplicate.plugin.id:
+    text: 'Повторяющийся идентификатор расширения:'
+nothing.here:
+    text: Ничего здесь
 notification.group.automatic.indent.detection:
-  text: Автоматическое обнаружение отступов
+    text: Автоматическое обнаружение отступов
+option.table.sizing.text:
+    text: Перенести, если длинный.
+primary.font:
+    text: 'Основной шрифт:'
+progress.analysing.font:
+    text: 'Анализ шрифта: {0}'
+progress.analyzing.fonts:
+    text: Анализ шрифтов
+project.code.style.migration.message:
+    text: Настройки стиля кода вашего проекта {0} были изменены на новые. Мы пока сохраняем старый стиль для обратной совместимости.
+project.code.style.migration.title:
+    text: Миграция настройки стиля кода проекта
+quickdoc.tooltip.font.size.by.wheel:
+    text: Изменение размера шрифта с помощью ползунка или Ctrl+колёсико
+radio.activate.left.neighbouring.tab:
+    text: Активировать соседнюю вкладку слева
+radio.activate.most.recently.opened.tab:
+    text: Активировать последнюю открытую вкладку
+radio.activate.right.neighbouring.tab:
+    text: Активировать соседнюю вкладку справа
+radio.close.less.frequently.used.files:
+    text: Закрыть редко используемые файлы
+radio.close.non.modified.files.first:
+    text: Сначала закрыть неизмененные файлы
+radio.do.not.import:
+    text: У меня нет предыдущей версии {0} или я не хочу импортировать свои настройки
+radio.import:
+    text: Я хочу импортировать свои настройки из пользовательского расположения
+radio.import.auto:
+    text: Я хочу импортировать свои настройки из предыдущей версии ({0})
+radio.insert.both.parentheses:
+    text: Вставить «()»
+radio.insert.left.parathesis:
+    text: Вставить «(»
+radio.prefer.comma.separated.import.list:
+    text: Предпочитать список импортов, разделённых запятыми
+radio.prefer.one.import.statement.per.page.directive:
+    text: Предпочитать один оператор импорта на директиву page
+radio.show.breadcrumbs.above:
+    text: Сверху
+radio.show.breadcrumbs.below:
+    text: Снизу
+radio.use.global.code.style:
+    text: Используйте глобальный стиль кода
+radio.use.per.project.code.style.scheme:
+    text: Используйте схему стиля кода для каждого проекта
+reformat.changed.text.file.too.big.notification.groupId:
+    text: Переформатировать измененный текст
+reformat.changed.text.file.too.big.notification.text:
+    text: Файл {0} слишком большой или в нем слишком много изменений
+reformat.changed.text.file.too.big.notification.title:
+    text: Не удалось рассчитать измененные диапазоны
+remote.desktop.detected.message:
+    text: Анимация отключена
+remote.desktop.detected.title:
+    text: Обнаружен удалённый рабочий стол
+secondary.font:
+    text: 'Дополнительный шрифт:'
+settings.code.style.general.autodetect.indents:
+    text: Обнаруживать и использовать существующие отступы файла для редактирования
+settings.code.style.general.default.options:
+    text: Параметры по умолчанию
+settings.code.style.general.enable.formatter.tags:
+    text: Включить маркеры форматирования в комментариях
+settings.code.style.general.excluded.files:
+    text: 'Не форматировать:'
+settings.code.style.general.formatter.control:
+    text: Управление форматированием
+settings.code.style.general.formatter.marker.invalid.regexp:
+    text: Недопустимое регулярное выражение
+settings.code.style.general.formatter.marker.options.title:
+    text: Параметры
+settings.code.style.general.formatter.marker.regexp:
+    text: Регулярные выражения
+settings.code.style.general.formatter.marker.title:
+    text: Маркеры
+settings.code.style.general.formatter.off.tag:
+    text: 'Форматирование выключено:'
+settings.code.style.general.formatter.on.tag:
+    text: 'Форматирование включено:'
+settings.code.style.general.indents.detection:
+    text: Определение отступов
+settings.code.style.general.visual.guides.hint:
+    text: Показать одну направляющую (80) или несколько (80, 120)
+settings.code.style.visual.guides:
+    text: Визуальные направляющие
+settings.default.value.prefix:
+    text: 'По умолчанию: {0}'
+settings.editor.font.none:
+    text: <Нет>
+settings.soft.margins.empty.list:
+    text: Нет
+tab.editor.settings.appearance:
+    text: Внешний вид
+tab.editor.settings.behavior:
+    text: Поведение
+tab.indent.other:
+    text: Другое
+task.button.cancel:
+    text: Отмена
+text.no.path.variables:
+    text: Нет переменных пути
+title.add.variable:
+    text: Добавить переменную
+title.blank.lines:
+    text: Пустые строки
+title.braces.placement:
+    text: Размещение фигурных скобок
+title.cannot.modify.readonly.scheme:
+    text: Невозможно изменить схему только для чтения
+title.choose.code.style.scheme:
+    text: Выберите схему стиля кода
+title.code.completion:
+    text: Автодополнение кода
+title.code.generation:
+    text: Генерация кода
+title.colors.and.fonts:
+    text: Цвета и шрифты
+title.complete.installation:
+    text: Завершить установку
+title.diff:
+    text: Diff
+title.do.not.indent.children.of:
+    text: Не делать отступ для дочерних элементов
+title.dont.wrap.if.inline.content:
+    text: Не переносить, если только встроенный контент
+title.edit.global.settings:
+    text: Изменить &глобальные настройки
+title.edit.variable:
+    text: Изменить Переменная
+title.editor:
+    text: Общие
+title.file.status:
+    text: Состояние файла
+title.font.available:
+    text: 'Доступные шрифты:'
+title.font.selected:
+    text: 'Выбранные шрифты:'
+title.general:
+    text: Общие
+title.global.code.style:
+    text: |-
+        Глобальный
+        Стиль кода
+title.html:
+    text: HTML
+title.import.layout:
+    text: Импортировать макет
+title.imports:
+    text: Импорт
+title.inline.elements:
+    text: Встроенные элементы
+title.insert.new.line.before.tags:
+    text: Вставить новую строку перед тегами
+title.installation.home.required:
+    text: Требуется папка конфигурации или домашняя папка установки
+title.javadoc:
+    text: JavaDoc
+title.jsp.imports.layout:
+    text: Расположение JSP-импортов
+title.keep.blank.lines:
+    text: Сохраняйте максимальное количество пустых строк
+title.keep.whitespaces.inside:
+    text: Сохранять пробелы внутри
+title.lookup.list:
+    text: Список подстановки
+title.minimum.blank.lines:
+    text: Минимальное количество пустых строк
+title.naming:
+    text: Именование
+title.naming.comment.code:
+    text: Код комментария
+title.naming.final.modifier:
+    text: Модификатор «final»
+title.order.of.members:
+    text: Порядок членов
+title.other.languages:
+    text: Другие языки
+title.other.tabs.and.indents:
+    text: Другое
+title.packages.to.use.import.with:
+    text: Пакеты для импорта со «*»
+title.parameter.info:
+    text: Информация о параметрах
+title.path.variables:
+    text: Переменные пути
+title.place.on.new.line:
+    text: Разместить на новой строке
+title.preview:
+    text: Предварительный просмотр
+title.project.code.style:
+    text: |-
+        Стиль
+        кода проекта
+title.remove.line.breaks.before.tags:
+    text: Удалить переносы строк перед тегами
+title.save.code.style.scheme.as:
+    text: Сохранить схему стиля кода как
+title.save.color.scheme.as:
+    text: Сохранить цветовую схему как
+title.scope.based:
+    text: Основано на области действия
+title.select.font:
+    text: Выбрать шрифт
+title.settings:
+    text: Настройки
+title.settings.import.failed:
+    text: Не удалось импортировать настройки
+title.spaces:
+    text: Пробелы
+title.tabs.and.indents:
+    text: Вкладки и отступы
+title.tag.name:
+    text: Название тега
+title.warning:
+    text: Предупреждение
+title.xml:
+    text: XML
+tooltip.indent.must.be.multiple.of.tab.size.for.smart.tabs.to.operate:
+    text: Отступ должен быть кратен размеру табуляции для работы умной табуляции
+use.external.annotations:
+    text: Использовать &внешние аннотации
+use.ligatures:
+    text: Включить лигатуры шрифтов
+watcher.exe.not.exe:
+    text: 'Native file watcher не является исполняемым файлом: <a href="{0}">{0}</a>'
+watcher.exe.not.exists:
+    text: Native file watcher не поддерживается на этой платформе
+watcher.exe.not.found:
+    text: Не найден исполняемый файл Native file watcher
+watcher.failed.to.start:
+    text: Не удалось запустить File watcher
+watcher.gave.up:
+    text: File watcher не смог отработать
+watcher.non.watchable.project:
+    text: Содержимое проекта находится в сетевом каталоге
+watcher.slow.sync:
+    text: Синхронизация внешних изменений файлов может быть медленной
+wrapping.after.modifier.list:
+    text: Перенос после списка модификаторов
+wrapping.align.fields.in.columns:
+    text: Выравнивать поля в единый столбец
+wrapping.align.in.columns:
+    text: Выровнять по столбцам
+wrapping.align.parenthesised.when.multiline:
+    text: Выровнять скобки при многострочном
+wrapping.align.simple.methods.in.columns:
+    text: Выравнивать простые методы в единый столбец
+wrapping.align.throws.keyword:
+    text: Выровнять «throws» по началу метода
+wrapping.align.variables.in.columns:
+    text: Выравнивать переменные в единый столбец
+wrapping.align.when.multiline:
+    text: Выровнять, когда многострочный
+wrapping.and.braces:
+    text: Переносы и фигурные скобки
+wrapping.array.initializer:
+    text: Инициализатор массива
+wrapping.assert.statement:
+    text: Выражение «assert»
+wrapping.assignment.sign.on.next.line:
+    text: Знак присваивания на следующей строке
+wrapping.assignment.statement:
+    text: Оператор присваивания
+wrapping.assignment.variables.groups:
+    text: Группы полей/переменных
+wrapping.binary.operations:
+    text: Бинарные операторы
+wrapping.brace.placement:
+    text: Размещение фигурных скобок
+wrapping.brace.placement.class.declaration:
+    text: В объявлении класса
+wrapping.brace.placement.end.of.line:
+    text: В конце строки
+wrapping.brace.placement.method.declaration:
+    text: В объявлении метода
+wrapping.brace.placement.next.line:
+    text: На следующей строке
+wrapping.brace.placement.next.line.each.shifted:
+    text: На следующей строке, все с отступом
+wrapping.brace.placement.next.line.if.wrapped:
+    text: На следующей строке, если перенесено
+wrapping.brace.placement.next.line.shifted:
+    text: На следующей строке с отступом
+wrapping.brace.placement.other:
+    text: Другое
+wrapping.catch.on.new.line:
+    text: «catch» на новой строке
+wrapping.chained.method.call.first.on.new.line:
+    text: Обернуть первый вызов
+wrapping.chained.method.calls:
+    text: Связанные вызовы методов
+wrapping.chop.down.if.long:
+    text: Сокращать, если длинный
+wrapping.classes.annotation:
+    text: Аннотации классов
+wrapping.colon.signs.on.next.line:
+    text: Знаки «:» на следующей строке
+wrapping.comments:
+    text: Комментарии
+wrapping.comments.wrap.at.right.margin:
+    text: Перенос по правому краю
+wrapping.do.not.wrap:
+    text: Не переносить
+wrapping.dowhile.statement:
+    text: Выражение «do … while()»
+wrapping.else.on.new.line:
+    text: «else» на новой строке
+wrapping.enum.constants:
+    text: Константы перечисления
+wrapping.extends.implements.keyword:
+    text: Ключевые слова «extends»/«implements»
+wrapping.extends.implements.list:
+    text: Список родительских классов/интерфейсов
+wrapping.fields.annotation:
+    text: Аннотации полей
+wrapping.finally.on.new.line:
+    text: «finally» на новой строке
+wrapping.for.statement:
+    text: Выражение «for()»
+wrapping.force.braces:
+    text: Принудительно скобки
+wrapping.force.braces.always:
+    text: Всегда
+wrapping.force.braces.do.not.force:
+    text: Не принуждать
+wrapping.force.braces.when.multiline:
+    text: Когда многострочный
+wrapping.if.statement:
+    text: Выражение «if()»
+wrapping.indent.case.from.switch:
+    text: Отступ ветвей «case»
+wrapping.keep.comment.at.first.column:
+    text: Комментарий в первом столбце
+wrapping.keep.line.breaks:
+    text: Разрывы строк
+wrapping.keep.multiple.expressions.in.one.line:
+    text: Несколько выражений в одной строке
+wrapping.keep.simple.blocks.in.one.line:
+    text: Простые блоки в одной строке
+wrapping.keep.simple.classes.in.one.line:
+    text: Простые однострочные классы
+wrapping.keep.simple.lambdas.in.one.line:
+    text: Простые однострочные лямбды
+wrapping.keep.simple.methods.in.one.line:
+    text: Простые однострочные методы
+wrapping.keep.when.reformatting:
+    text: Сохранить при переформатировании
+wrapping.local.variables.annotation:
+    text: Аннотации локальных переменных
+wrapping.long.lines:
+    text: Убедиться, что правый край не перейден
+wrapping.method.arguments:
+    text: Аргументы вызова метода
+wrapping.method.parameters:
+    text: Параметры объявления метода
+wrapping.method.parentheses:
+    text: Круглые скобки метода
+wrapping.methods.annotation:
+    text: Аннотации методов
+wrapping.modifier.list:
+    text: Список модификаторов
+wrapping.new.line.after.lbrace:
+    text: Новая строка после «'{'»
+wrapping.new.line.after.lpar:
+    text: Новая строка после «(»
+wrapping.operation.sign.on.next.line:
+    text: Знак операции на следующей строке
+wrapping.parameters.annotation:
+    text: Аннотации параметров
+wrapping.quest.and.colon.signs.on.next.line:
+    text: Знаки «?» и «:» со следующей строки
+wrapping.rbrace.on.new.line:
+    text: Поместить «}» на новую строку
+wrapping.rpar.on.new.line:
+    text: Поместить «)» на новую строку
+wrapping.special.else.if.braces.treatment:
+    text: Специальная обработка «else if»
+wrapping.switch.statement:
+    text: Выражение «switch»
+wrapping.take.priority.over.call.chain.wrapping:
+    text: Имеет приоритет над сворачиванием цепочки вызовов
+wrapping.ternary.operation:
+    text: Тернарный оператор
+wrapping.throws.keyword:
+    text: Ключевое слово «throws»
+wrapping.throws.list:
+    text: Список исключений
+wrapping.try.resources:
+    text: Выражение «try-with-resources»
+wrapping.try.statement:
+    text: Выражение «try»
+wrapping.while.on.new.line:
+    text: «while» на новой строке
+wrapping.while.statement:
+    text: Выражение «while()»
+wrapping.wrap.always:
+    text: Переносить всегда
+wrapping.wrap.if.long:
+    text: Переносить, если длинный
+wrapping.wrap.on.typing:
+    text: Перенос по мере ввода
+wrapping.wrap.on.typing.default:
+    text: По умолчанию
+wrapping.wrap.on.typing.no.wrap:
+    text: Нет
+wrapping.wrap.on.typing.wrap:
+    text: Да
