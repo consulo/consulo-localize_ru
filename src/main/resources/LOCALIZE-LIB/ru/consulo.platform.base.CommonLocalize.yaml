@@ -4,6 +4,8 @@ button.no:
   text: "&Нет"
 dialog.options.do.not.show:
   text: Не показывать этот диалог в будущем
+dialog.options.do.not.show.short:
+  text: Не показывать в будущем
 dialog.options.do.not.ask:
   text: Запомнить, больше не спрашивать
 dialog.title.choose.date:
@@ -221,7 +223,7 @@ failed.to.make.the.following.files.writable.error.message:
 failed.to.make.file.writeable.error.message:
   text: Не удалось сделать {0} доступным для записи.
 format.file.size.bytes:
-  text: "{0} b"
+  text: "{0} Б"
 format.file.size.kbytes:
   text: "{0} КБ"
 format.file.size.mbytes:
@@ -351,3 +353,7 @@ safe.write.restored:
     Невозможно сохранить {0}.
     Невозможно записать данные.
     Исходный контент был восстановлен из резервной копии.
+action.collapse:
+  text: Свернуть
+action.expand:
+  text: Развернуть

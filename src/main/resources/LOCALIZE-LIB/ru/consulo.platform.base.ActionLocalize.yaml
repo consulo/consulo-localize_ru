@@ -219,7 +219,7 @@ action.SelectAllOccurrences.text:
 action.UnselectPreviousOccurrence.text:
   text: Снять выделение с предыдущего вхождения
 action.EditorToggleStickySelection.text:
-  text: Toggle Sticky Selection
+  text: Переключить липкое выделение
 action.EditorSwapSelectionBoundaries.text:
   text: Поменять местами границы выделения
 action.EditorLineStart.text:
@@ -520,6 +520,10 @@ action.ImportSettings.text:
   text: Импорт настроек…
 action.ImportSettings.description:
   text: Импорт глобальных настроек
+action.ShowStartupManagerAction.text:
+  text: Менеджер настройки
+action.ShowStartupManagerAction.description:
+  text: Выбор темы
 action.ImportFromJBuilder.text:
   text: Импорт из _JBuilder…
 action.ImportFromJBuilder.description:
@@ -737,7 +741,7 @@ action.ExpressionTypeInfo.text:
 action.ExpressionTypeInfo.description:
   text: Показать тип выбранного выражения
 action.EditorContextInfo.text:
-  text: _Context Info
+  text: _Контекстная справка
 action.EditorContextInfo.description:
   text: Показать текущее объявление метода или класса, когда оно не отображается
 action.ShowErrorDescription.text:
@@ -867,9 +871,9 @@ action.GotoTest.text:
 action.GotoTest.description:
   text: Перейти к юнит-тесту выбранного класса
 action.GotoTestSubject.text:
-  text: T_est Subject
+  text: _Элемент теста
 action.GotoTestSubject.description:
-  text: Navigate to the subject of the selected test
+  text: Перейти к элементу выбранного теста
 action.GotoAspect.text:
   text: _Aspect
 action.GotoAspect.description:
@@ -1138,9 +1142,9 @@ action.Inline.text:
   text: _Встроить…
 action.Inline.description:
   text: Встроить выбранный метод или переменную
-action."Type Migration".text:
+action.Type Migration.text:
   text: Замена типов…
-action."Type Migration".description:
+action.Type Migration.description:
   text: Заменить один тип на другой
 action.ExtractInclude.text:
   text: _Include-файл…
@@ -1940,6 +1944,12 @@ action.Vcs.IncludeAction.description:
   text: Включить в коммит
 action.openAssertEqualsDiff.text:
   text: Просмотр разницы assertEquals
+geView.Include.text:
+  text: Включить
+action.UsageView.Rerun.text:
+  text: Искать заново
+action.UsageView.Rerun.description:
+  text: Искать заново
 action.UsageView.Include.text:
   text: Включить
 action.UsageView.Include.description:
@@ -1979,7 +1989,7 @@ action.Vcs.RefreshStatuses.description:
 action.ShowNavBar.text:
   text: _Перейти к панели навигации
 action.ScopeView.EditScopes.text:
-  text: Ed_it Scopes
+  text: _Изменить области
 action.ScopeView.EditScopes.description:
   text: Изменить области
 action.CodeInspection.OnEditor.text:
@@ -2036,10 +2046,6 @@ action.Graph.print:
   text: Распечатать график
 action.Graph.print.preview:
   text: Предварительный просмотр
-action.SendFeedback.text:
-  text: Отправить _отзыв
-action.SendFeedback.description:
-  text: Отправьте отзыв на веб-сайт Consulo
 action.ShowLog.text:
   text: Открыть лог-файл
 action.ShowLog.description:
@@ -2456,6 +2462,8 @@ group.AnalyzeJavaMenu.description:
   text: Анализ меню Java
 action.InvalidateCaches.text:
   text: Перезапустить со сбросом кешей…
+action.InvalidateCaches.norestart.text:
+  text: Сбросить кеши…
 action.InvalidateCaches.description:
   text: Принудительно пересобрать все кеши и индексы при следующем запуске
 group.ToolsBasicGroup.text:
@@ -2604,11 +2612,11 @@ action.ShowDiagram.text:
   text: Показать диаграмму
 action.Console.SplitLine.text:
   text: Split Line
-group."$LRU".text:
+group.$LRU.text:
   text: Открыть _недавние
 action.ManageRecentProjects.text:
   text: Управление проектами…
-group."$LRU".description:
+group.$LRU.description:
   text: Список недавно открытых проектов
 action.RecentLocations.text:
   text: Недавние местоположения
@@ -2756,8 +2764,6 @@ group.OverrideFileTypeAction.fromNamedPlugin:
   text: из расширения «{0}»
 action.ChangeToThisFileTypeAction.description:
   text: Переопределить тип файла на «{0}»
-action.AnalyzeStacktrace.text:
-  text: _Stack Trace или Thread Dump…
 action.RunDashboard.AddType.text:
   text: Run Configuration Type…
 group.ServiceView.AddService.text:
@@ -2846,6 +2852,8 @@ group.TouchBarDefault.text:
   text: По умолчанию
 group.RunDashboard.Filter.text:
   text: Состояние конфигурации
+group.ChangeLineSeparators.text:
+  text: Переводы строк
 group.RunDashboard.GroupBy.text:
   text: Конфигурация
 group.ServiceView.OpenInNewTabGroup.text:

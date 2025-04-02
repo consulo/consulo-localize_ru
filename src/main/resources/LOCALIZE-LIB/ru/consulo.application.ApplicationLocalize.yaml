@@ -559,13 +559,13 @@ combobox.autocomplete.case.sensitive.none:
 combobox.case.sensitive.completion:
     text: 'Завершение с учетом регистра:'
 combobox.crlf.mac:
-    text: Классический Mac (\r)
+    text: CR — Классический Mac (\r)
 combobox.crlf.system.dependent:
     text: Зависит от системы
 combobox.crlf.unix:
-    text: Unix и OS X (\n)
+    text: LF — Unix и OS X (\n)
 combobox.crlf.windows:
-    text: Windows (\r\n)
+    text: CRLF — Windows (\r\n)
 combobox.editor.tab.placement:
     text: 'Разместить:'
 combobox.effect.bold.dottedline:
@@ -768,6 +768,8 @@ error.invalid.config.folder:
     text: Невозможно импортировать настройки. «{0}» не является допустимой папкой конфигурации {1}.
 error.invalid.installation.home:
     text: Невозможно импортировать настройки. «{0}» не является допустимой домашней папкой установки {1}.
+error.monitor.too.many.errors:
+    text: Слишком много фатальных ошибок IDE. Мониторинг остановлен.
 error.no.read.permissions:
     text: У вас нет прав на чтение {0}
 error.no.settings.path:
@@ -777,17 +779,17 @@ error.path.variable.is.undefined:
 error.please.select.previous.installation.home:
     text: Выберите предыдущую папку конфигурации {0} или домашнюю папку установки
 error.plugin.was.not.installed:
-    text: 'Дополнение {0} не установлено: {1}'
+    text: 'Расширение {0} не установлено: {1}'
 error.plugins.should.not.have.cyclic.dependencies:
     text: |-
-        Дополнения не должны иметь циклических зависимостей:
+        Расширения не должны иметь циклических зависимостей:
         {0}
 error.readonly.scheme.cannot.be.modified:
     text: Схему только для чтения изменить нельзя. Сначала выполните «Сохранить как…».
 error.required.plugin.disabled:
-    text: 'Дополнение «{0}» не загружено: отключено необходимое дополнение «{1}».'
+    text: 'Расширение «{0}» не загружено: отключено необходимое расширение «{1}».'
 error.required.plugin.not.installed:
-    text: 'Дополнение «{0}» не загружено: не установлено необходимое дополнение «{1}».'
+    text: 'Расширение «{0}» не загружено: не установлено необходимое расширение «{1}».'
 error.scheme.must.have.a.name:
     text: Схема должна иметь название
 error.selected.current.installation.home:
@@ -989,7 +991,7 @@ loading.include.indices:
 margin.columns:
     text: колонки
 message.duplicate.plugin.id:
-    text: 'Повторяющийся идентификатор дополнения:'
+    text: 'Повторяющийся идентификатор расширения:'
 nothing.here:
     text: Ничего здесь
 notification.group.automatic.indent.detection:
