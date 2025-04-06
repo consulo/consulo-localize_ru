@@ -1751,7 +1751,7 @@ checkbox.insert.at.override:
 node.memberchooser.all.classes:
   text: Все классы
 action.select.none:
-  text: Выбрать &Ничего
+  text: "&Ничего не выбирать"
 action.show.classes:
   text: Показать классы
 action.expand.all:
@@ -2471,7 +2471,7 @@ run.anything.run.in.context.title:
 run.anything.run.in.context.debug.title:
   text: "Запустить в контексте с отладкой:"
 run.anything.run.anything.title:
-  text: Запустить что угодно
+  text: Выполнить что угодно
 run.anything.group.title.commands:
   text: Последние команды
 run.anything.group.title.temporary:
@@ -2483,7 +2483,7 @@ run.anything.group.settings.title:
 run.anything.custom.activity.rollback.action:
   text: Откат
 run.anything.custom.activity.notification.group.id:
-  text: Запустить что угодно
+  text: Выполнить что угодно
 run.anything.ad.run.action.with.default.settings:
   text: Нажмите {0}, чтобы запустить с настройками по умолчанию
 run.anything.ad.run.with.debug:
@@ -2509,21 +2509,21 @@ run.anything.notification.warning.content:
 run.anything.notification.warning.title:
   text: Неудачное выполнение команды
 run.anything.run.configurations.group.title:
-  text: Запуск конфигураций
+  text: Конфигурации запуска
 run.anything.help.list.empty.secondary.text:
   text: Выберите команду
 run.anything.main.list.empty.primary.text:
-  text: Запустите команду или конфигурацию
+  text: Выполнить команду или конфигурацию
 run.anything.main.list.empty.secondary.text:
   text: Введите «?» для просмотра всех команд
 run.anything.action.tooltip.text:
-  text: Запустить что угодно
+  text: "Выполнение операций: открытие проектов, запуск конфигураций выполнения, выполнение заданий Maven или Gradle, выполнение команд терминала и т.д."
 run.anything.double.ctrl.shortcut:
   text: Двойной {0}
 run.anything.hint.initial.text:
   text: Нажмите {0} или {1} для навигации по списку предложений
 run.anything.indexing.mode.not.supported:
-  text: Запустить что угодно недоступно во время обновления индексов
+  text: "Действие «Выполнить что угодно» недоступно во время обновления индексов"
 run.anything.context.browse.directory:
   text: Обзор каталога…
 run.anything.context.project:
