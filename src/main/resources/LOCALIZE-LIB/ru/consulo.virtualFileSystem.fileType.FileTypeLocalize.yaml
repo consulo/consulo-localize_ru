@@ -1,0 +1,60 @@
+filetype.plaintext.description:
+    text: Текстовые файлы
+filetype.chooser.title:
+    text: Регистрация новой ассоциации типа файла
+filetype.chooser.install.plugin:
+    text: Выбор \& установка плагина из репозитория
+filetype.chooser.prompt:
+    text: 'Файл «{0}» не ассоциирован ни с одним типом файла. Пожалуйста, определите ассоциацию:'
+filetype.registered.patterns.group:
+    text: Зарегистрированные шаблоны
+filetype.registered.pattern.remove.button:
+    text: &Удалить
+filetype.registered.pattern.add.button:
+    text: '&Добавить...'
+filetype.settings.title:
+    text: Типы файлов
+filetype.edit.existing.title:
+    text: Изменить тип файла
+filetype.edit.new.title:
+    text: Новый тип файла
+filetype.edit.add.pattern.prompt:
+    text: 'Введите новый &подстановочный знак (разрешены «*» и «?»):'
+filetype.edit.add.pattern.title:
+    text: Добавить подстановочный знак
+filetype.edit.edit.pattern.title:
+    text: Изменить подстановочный знак
+filetype.edit.add.pattern.exists.error:
+    text: Этот подстановочный знак зарезервирован для типа файла «{0}» и не может быть переназначен
+filetype.edit.add.pattern.exists.message:
+    text: Этот подстановочный знак уже зарегистрирован типом файла «{0}»
+filetype.edit.add.pattern.reassign.button:
+    text: '&Переназначить подстановочный знак'
+filetype.edit.add.pattern.exists.title:
+    text: Добавить подстановочный знак
+filetype.settings.component:
+    text: Типы файлов
+filetype.settings.cannot.save.error:
+    text: 'Невозможно сохранить типы файлов: {0}'
+filetype.settings.cannot.save.title:
+    text: Ошибка сохранения настроек
+filetype.settings.no.patterns:
+    text: Нет зарегистрированных шаблонов файлов
+filetypes.recognized.group:
+    text: Известные типы файлов
+filetypes.recognized.add.button:
+    text: Д&обавить...
+filetypes.recognized.remove.button:
+    text: '&Удалить'
+filetypes.recognized.edit.button:
+    text: '&Изменить...'
+filetype.chooser.file.pattern:
+    text: '&Шаблон файла:'
+unknown.file.type.description:
+    text: Неизвестный файл
+native.file.type.description:
+    text: Файлы открыты в связанных приложениях
+filetype.description.archive.files:
+    text: Архивные файлы
+filetype.description.zip.files:
+    text: ZIP-файлы
