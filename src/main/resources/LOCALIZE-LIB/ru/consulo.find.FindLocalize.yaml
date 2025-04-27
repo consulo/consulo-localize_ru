@@ -1,355 +1,355 @@
-find.progress.stop.title:
-  text: Стоп
-find.progress.searching.message:
-  text: Поиск в {0}…
-find.progress.stop.background.button:
-  text: Остановить фоновый поиск
-find.replace.dialog.title:
-  text: Заменить
-find.search.string.not.found.message:
-  text: '«{0}» не найдено'
-find.search.again.from.top.hotkey.message:
-  text: '{0}, нажмите {1} для поиска сверху'
-find.search.again.from.top.action.message:
-  text: '{0}, выполните «Найти далее» ещё раз для поиска сверху'
-find.search.again.from.bottom.hotkey.message:
-  text: '{0}, нажмите {1} для поиска снизу bottom'
-find.search.again.from.bottom.action.message:
-  text: '{0}, выполните «Найти предыдущий» ещё раз, чтобы выполнить поиск снизу'
-select.next.occurence.not.found.message:
-  text: Не найдено, попробуйте ещё раз, чтобы выполнить поиск сверху
-find.no.usages.at.cursor.error:
-  text: "Невозможно выполнить поиск использований. \nПерейдите к элементу, для которого нужно найти использования, и повторите попытку."
-find.what.group:
-  text: Найти
-find.what.usages.checkbox:
-  text: '&Использования'
-find.what.methods.usages.checkbox:
-  text: Использования &методов
-find.what.fields.usages.checkbox:
-  text: Использования &полей
-find.what.implementing.classes.checkbox:
-  text: '&Реализация классов'
-find.what.derived.interfaces.checkbox:
-  text: '&Производные интерфейсы'
-find.what.derived.classes.checkbox:
-  text: '&Производные классы'
-find.what.implementing.methods.checkbox:
-  text: '&Реализация методов'
-find.what.overriding.methods.checkbox:
-  text: '&Переопределение методов'
-find.what.implicit.to.string.checkbox:
-  text: Не&явные вызовы
-find.what.usages.of.classes.and.interfaces:
-  text: Использования &классов и интерфейсов
-find.dialog.find.button:
-  text: Найти
-find.popup.find.button:
-  text: Открыть в окне поиска
-find.popup.replace.all.button:
-  text: Заменить &всё
-find.popup.replace.selected.button:
-  text: Заменить{0,choice,0#|1#|2# {0} Вхождений}
-find.usages.in.file.dialog.title:
-  text: Найти использования в файле
-find.usages.dialog.title:
-  text: Найти использования
-find.open.in.new.tab.checkbox:
-  text: Открыть результаты в новой &вкладке
-find.open.in.new.tab.action:
-  text: Открыть результаты в новой &вкладке
-find.options.group:
-  text: Общие
-find.options.search.for.text.occurrences.checkbox:
-  text: Поиск текстовых &вхождений
-find.options.skip.results.tab.with.one.usage.checkbox:
-  text: '&Пропустить вкладку результатов с одним использованием'
-find.options.skip.results.tab.with.one.usage.action:
-  text: '&Пропустить вкладку результатов с одним использованием'
-find.options.skip.results.tab.with.one.occurrence.checkbox:
-  text: '&Пропустить вкладку результатов, если найдено только одно вхождение'
-find.options.include.overloaded.methods.checkbox:
-  text: Включить &перегруженные методы
-find.scope.label:
-  text: '&Область поиска'
-find.searched.elements.have.been.changed.error:
-  text: |-
-    Найденные элементы были изменены.
-    Невозможно выполнить поиск использований.
-cannot.search.for.usages.title:
-  text: Невозможно выполнить поиск использований
-find.super.method.warning.action.verb:
-  text: чтобы найти использование
-find.parameter.usages.in.overriding.methods.prompt:
-  text: Хотите выполнить поиск использования параметра «{0}» в переопределяющих методах?
-find.parameter.usages.in.overriding.methods.title:
-  text: Поиск в переопределяющих методах
-find.field.accessors.prompt:
-  text: Хотите выполнить поиск методов доступа к полю «{0}»?
-find.field.accessors.title:
-  text: Искать методы доступа к полю
-find.pointcut.applications.not.found.title:
-  text: Информация
-find.usages.of.element.in.scope.panel.title:
-  text: '{0} из {1} в {2}'
-find.usages.of.element.tab.name:
-  text: '{0} из {1}'
-recent.find.usages.action.description:
-  text: <html><body>{0} «<b>{1}</b>» в {2}</body></html>
-recent.find.usages.action.popup:
-  text: '{0} «{1}» в {2}'
-recent.find.usages.action.title:
-  text: Недавние поиски использований
-recent.find.usages.action.nothing:
-  text: Нет истории недавних поисков использований
-find.usages.panel.title.separator:
-  text: или
-find.usages.panel.title.usages:
-  text: Использования
-find.usages.panel.title.overloaded.methods.usages:
-  text: Использования перегруженных методов
-find.usages.panel.title.derived.classes:
-  text: Производные классы
-find.usages.panel.title.derived.interfaces:
-  text: Производные интерфейсы
-find.usages.panel.title.implementing.classes:
-  text: Реализации классов
-find.usages.panel.title.implementing.methods:
-  text: Реализации методов
-find.usages.panel.title.overriding.methods:
-  text: Переопределяющие методы
-find.usages.of.element_type.element_name.not.found.message:
-  text: Использований {0} {1} не найдено
-find.searching.for.references.to.class.progress:
-  text: Поиск ссылок на класс {0}…
-find.usage.view.no.usages.text:
-  text: Использований не найдено
-find.replace.in.project.dialog.title:
-  text: Заменить в пути
-find.replace.text.dialog.title:
-  text: Заменить текст
-find.in.path.dialog.title:
-  text: Найти в пути
-find.text.dialog.title:
-  text: Найти текст
-find.button:
-  text: Найти
-find.all.button:
-  text: Найти &всё
-find.text.to.find.label:
-  text: 'Текст для &поиска:'
-find.replace.with.label:
-  text: 'Заменить &на:'
-find.filter.file.name.group:
-  text: Фильтр по названию файла
-find.filter.file.mask.checkbox:
-  text: '&Маска(и) файла'
-find.context.combo.label:
-  text: '&Контекст: '
-find.context.anywhere.scope.label:
-  text: Везде
-find.context.in.comments.scope.label:
-  text: В комментариях
-find.context.in.literals.scope.label:
-  text: В строковых литералах
-find.context.except.comments.scope.label:
-  text: Кроме комментариев
-find.context.except.literals.scope.label:
-  text: Кроме строковых литералов
-find.context.except.comments.and.literals.scope.label:
-  text: Кроме комментариев и строковых литералов
-find.context.presentation.scope.label:
-  text: ' ({0})'
-find.directory.not.found.error:
-  text: Каталог не найден
-find.invalid.regular.expression.error:
-  text: 'Неправильный шаблон «{0}»: {1}'
-find.empty.match.regular.expression.error:
-  text: Регулярное выражение соответствует пустой строке
-find.empty.search.text.error:
-  text: Не введён текст поиска
-find.filter.invalid.file.mask.error:
-  text: Неправильная маска файла «{0}»
-find.filter.empty.file.mask.error:
-  text: Пустая маска файла
-find.options.case.sensitive:
-  text: '&С учётом регистра'
-find.options.replace.preserve.case:
-  text: '&Сохранять регистр'
-find.options.whole.words.only:
-  text: Только &целые слова (может быть быстрее)
-find.options.string.literals.only:
-  text: Только &строковые литералы
-find.options.comments.only:
-  text: Только &комментарии
-find.options.regular.expressions:
-  text: '&Регулярное выражение'
-find.direction.group:
-  text: Направление
-find.direction.forward.radio:
-  text: В&перед
-find.direction.backward.radio:
-  text: '&Назад'
-find.scope.group:
-  text: Область поиска
-find.scope.whole.project.radio:
-  text: '&Весь проект'
-find.scope.all.projects.radio:
-  text: 'В&се проекты'
-find.scope.module.radio:
-  text: '&Модуль:'
-find.scope.project.radio:
-  text: '&Проект'
-find.scope.directory.radio:
-  text: '&Каталог:'
-find.scope.directory.recursive.checkbox:
-  text: Рекурсивно
-find.recursively.hint:
-  text: Поиск рекурсивно в подкаталогах
-find.scope.global.radio:
-  text: '&Везде'
-find.scope.selected.text.radio:
-  text: '&В выбранном тексте'
-find.origin.group:
-  text: Origin
-find.origin.from.cursor.radio:
-  text: От &курсора
-find.origin.entire.scope.radio:
-  text: &Вся область поиска
-find.searching.for.string.in.file.progress:
-  text: Поиск «{0}» в {1}…
-find.searching.for.string.in.file.occurrences.progress:
-  text: '{0,choice,0#Нет|1#{0}} {0,choice,0#вхождений|1#вхождение|2#вхождений} найдено на текущий момент'
-find.excessive.total.size.prompt:
-  text: Обнаружены вхождения в файлах общим размером {0}. {1} может перестать отвечать или даже выдать ошибку OutOfMemoryError, если вы продолжите. Продолжить?
-find.progress.search.completed:
-  text: Поиск завершён
-find.scope.project.title:
-  text: Проект
-find.scope.module.title:
-  text: Модуль «{0}»
-find.scope.directory.title:
-  text: Каталог {0}
-find.scope.files.with.mask:
-  text: с маской «{0}»
-find.replace.invalid.replacement.string:
-  text: 'Вы ввели неверную строку замены: «{0}»'
-find.replace.invalid.replacement.string.title:
-  text: Ошибка замены
-find.highlight.no.more.highlights.found:
-  text: Выделений больше не найдено
-find.scope.all.project.classes:
-  text: Все классы проекта
-find.usage.view.tab.text:
-  text: Вхождения «{0}»{1}
-find.usage.view.toolwindow.title:
-  text: Вхождения «{0}» в {1}{2}
-find.usage.view.usages.text:
-  text: вхождения «{0}»
-find.selection.only:
-  text: В выделенном
-progress.text.scanning.non.indexed.files:
-  text: Сканирование неиндексированных файлов…
-progress.text.scanning.indexed.files:
-  text: Сканирование индексированных файлов…
-notification.title.regular.expression.failed.to.match:
-  text: Не удалось сопоставить регулярное выражение
-notification.content.one.or.more.malformed.replacement.strings:
-  text: Одна или несколько неправильно сформированных строк замены
-notification.find.usages.is.not.available.during.indexing:
-  text: Поиск использований недоступен во время индексации
-progress.title.finding.usages:
-  text: Поиск использований
-message.file.masks.should.be.comma.separated:
-  text: Маски файлов должны быть разделены запятыми
-empty.text.searching:
-  text: Поиск…
-label.use.0.and.1.to.select.usages:
-  text: Используйте {0} и {1} для выбора использований
-progress.title.updating.usage.view:
-  text: Обновление представления использований…
-find.replace.occurrences.found.in.read.only.files.status:
-  text: Найдены вхождения в файлах, доступных только для чтения
-find.replace.select.on.editor.command:
-  text: Выбрать в редакторе
-find.replace.found.usage.title:
-  text: Заменить использование {0} из {1} Найдено — {2}
-find.replace.command:
-  text: Заменить
-find.replace.all.action:
-  text: Заменить &всё
-find.replace.selected.action:
-  text: '&Заменить{0,choice,0#|1#|2# {0} вхождений}'
-find.replace.this.file.action:
-  text: Заменить всё в этом &файле
-find.replace.skip.this.file.action:
-  text: '&Пропустить этот файл'
-find.replace.all.confirmation:
-  text: <html><body>Заменить {0} вхождений «{1}»<br>в {2} файлах на «{3}»?
-find.replace.all.confirmation.title:
-  text: Заменить всё
-find.replace.occurrences.in.read.only.files.prompt:
-  text: |-
-    Вхождения найдены в файлах только для чтения.
-    Операция не повлияет на них.
-    Продолжить в любом случае?
-find.replace.occurrences.in.read.only.files.title:
-  text: Найдены файлы только для чтения
-find.scope.custom.radio:
-  text: '&Особый:'
-find.usages.ambiguous.title:
-  text: Найти использования
 0.occurrences.replaced:
-  text: '{0,choice,0#Ни одного|1#{0}} {0,choice,0#вхождения|1#вхождение|2#вхождений} заменены'
-found.occurrences:
-  text: Найденные вхождения
-occurrence:
-  text: вхождение
-results.options.group:
-  text: Параметры результата
-find.new.line:
-  text: Новая строка
-find.search.accessible.name:
-  text: Найти
-find.replace.accessible.name:
-  text: Заменить
-find.popup.found.element.accessible.name:
-  text: '{0} в {1}'
-tooltip.close.search.bar.escape:
-  text: Закрыть строку поиска (Escape)
+    text: '{0,choice,0#Ни одного|1#{0}} {0,choice,0#вхождения|1#вхождение|2#вхождений} заменены'
 button.exclude:
-  text: Исключить
+    text: Исключить
 button.include:
-  text: Включить
-link.click.to.highlight:
-  text: Щёлкните, чтобы выделить
+    text: Включить
+cannot.search.for.usages.title:
+    text: Невозможно выполнить поиск использований
+empty.text.searching:
+    text: Поиск…
+find.all.button:
+    text: Найти &всё
+find.button:
+    text: Найти
 find.case.sensitive:
-  text: С учётом &регистра
+    text: С учётом &регистра
+find.context.anywhere.scope.label:
+    text: Везде
+find.context.combo.label:
+    text: '&Контекст: '
+find.context.except.comments.and.literals.scope.label:
+    text: Кроме комментариев и строковых литералов
+find.context.except.comments.scope.label:
+    text: Кроме комментариев
+find.context.except.literals.scope.label:
+    text: Кроме строковых литералов
+find.context.in.comments.scope.label:
+    text: В комментариях
+find.context.in.literals.scope.label:
+    text: В строковых литералах
+find.context.presentation.scope.label:
+    text: ' ({0})'
+find.dialog.find.button:
+    text: Найти
+find.direction.backward.radio:
+    text: '&Назад'
+find.direction.forward.radio:
+    text: В&перед
+find.direction.group:
+    text: Направление
+find.directory.not.found.error:
+    text: Каталог не найден
+find.empty.match.regular.expression.error:
+    text: Регулярное выражение соответствует пустой строке
+find.empty.search.text.error:
+    text: Не введён текст поиска
+find.excessive.total.size.prompt:
+    text: Обнаружены вхождения в файлах общим размером {0}. {1} может перестать отвечать или даже выдать ошибку OutOfMemoryError, если вы продолжите. Продолжить?
+find.field.accessors.prompt:
+    text: Хотите выполнить поиск методов доступа к полю «{0}»?
+find.field.accessors.title:
+    text: Искать методы доступа к полю
+find.filter.empty.file.mask.error:
+    text: Пустая маска файла
+find.filter.file.mask.checkbox:
+    text: '&Маска(и) файла'
+find.filter.file.name.group:
+    text: Фильтр по названию файла
+find.filter.invalid.file.mask.error:
+    text: Неправильная маска файла «{0}»
+find.highlight.no.more.highlights.found:
+    text: Выделений больше не найдено
+find.in.path.dialog.title:
+    text: Найти в пути
+find.invalid.regular.expression.error:
+    text: 'Неправильный шаблон «{0}»: {1}'
+find.new.line:
+    text: Новая строка
+find.no.usages.at.cursor.error:
+    text: "Невозможно выполнить поиск использований. \nПерейдите к элементу, для которого нужно найти использования, и повторите попытку."
+find.open.in.new.tab.action:
+    text: Открыть результаты в новой &вкладке
+find.open.in.new.tab.checkbox:
+    text: Открыть результаты в новой &вкладке
+find.options.case.sensitive:
+    text: '&С учётом регистра'
+find.options.comments.only:
+    text: Только &комментарии
+find.options.group:
+    text: Общие
+find.options.include.overloaded.methods.checkbox:
+    text: Включить &перегруженные методы
+find.options.regular.expressions:
+    text: '&Регулярное выражение'
+find.options.replace.preserve.case:
+    text: '&Сохранять регистр'
+find.options.search.for.text.occurrences.checkbox:
+    text: Поиск текстовых &вхождений
+find.options.skip.results.tab.with.one.occurrence.checkbox:
+    text: '&Пропустить вкладку результатов, если найдено только одно вхождение'
+find.options.skip.results.tab.with.one.usage.action:
+    text: '&Пропустить вкладку результатов с одним использованием'
+find.options.skip.results.tab.with.one.usage.checkbox:
+    text: '&Пропустить вкладку результатов с одним использованием'
+find.options.string.literals.only:
+    text: Только &строковые литералы
+find.options.whole.words.only:
+    text: Только &целые слова (может быть быстрее)
+find.origin.entire.scope.radio:
+    text: область поиска
+find.origin.from.cursor.radio:
+    text: От &курсора
+find.origin.group:
+    text: Origin
+find.parameter.usages.in.overriding.methods.prompt:
+    text: Хотите выполнить поиск использования параметра «{0}» в переопределяющих методах?
+find.parameter.usages.in.overriding.methods.title:
+    text: Поиск в переопределяющих методах
+find.pointcut.applications.not.found.title:
+    text: Информация
 find.popup.case.sensitive:
-  text: С учётом &регистра
-find.whole.words:
-  text: &Слово целиком
-find.regex:
-  text: '&Регулярное выражение'
-find.popup.whole.words:
-  text: '&Слова'
-find.popup.regex:
-  text: '&Регулярное выражение'
+    text: С учётом &регистра
 find.popup.filemask:
-  text: 'Маска &файла:'
-find.popup.scope.project:
-  text: В &проекте
-find.popup.scope.module:
-  text: 'В &модуле'
+    text: 'Маска &файла:'
+find.popup.find.button:
+    text: Открыть в окне поиска
+find.popup.found.element.accessible.name:
+    text: '{0} в {1}'
+find.popup.regex:
+    text: '&Регулярное выражение'
+find.popup.replace.all.button:
+    text: Заменить &всё
+find.popup.replace.selected.button:
+    text: Заменить{0,choice,0#|1#|2# {0} Вхождений}
 find.popup.scope.directory:
-  text: 'В &каталоге'
+    text: В &каталоге
+find.popup.scope.module:
+    text: В &модуле
+find.popup.scope.project:
+    text: В &проекте
 find.popup.scope.scope:
-  text: '&Область поиска'
+    text: '&Область поиска'
 find.popup.show.filter.popup:
-  text: Показать всплывающее окно фильтра
+    text: Показать всплывающее окно фильтра
 find.popup.show.tab.options:
-  text: Показать параметры вкладки
-find.search.history:
-  text: История поиска
+    text: Показать параметры вкладки
+find.popup.whole.words:
+    text: '&Слова'
+find.progress.search.completed:
+    text: Поиск завершён
+find.progress.searching.message:
+    text: Поиск в {0}…
+find.progress.stop.background.button:
+    text: Остановить фоновый поиск
+find.progress.stop.title:
+    text: Стоп
+find.recursively.hint:
+    text: Поиск рекурсивно в подкаталогах
+find.regex:
+    text: '&Регулярное выражение'
+find.replace.accessible.name:
+    text: Заменить
+find.replace.all.action:
+    text: Заменить &всё
+find.replace.all.confirmation:
+    text: <html><body>Заменить {0} вхождений «{1}»<br>в {2} файлах на «{3}»?
+find.replace.all.confirmation.title:
+    text: Заменить всё
+find.replace.command:
+    text: Заменить
+find.replace.dialog.title:
+    text: Заменить
+find.replace.found.usage.title:
+    text: Заменить использование {0} из {1} Найдено — {2}
 find.replace.history:
-  text: История замен
+    text: История замен
+find.replace.in.project.dialog.title:
+    text: Заменить в пути
+find.replace.invalid.replacement.string:
+    text: 'Вы ввели неверную строку замены: «{0}»'
+find.replace.invalid.replacement.string.title:
+    text: Ошибка замены
+find.replace.occurrences.found.in.read.only.files.status:
+    text: Найдены вхождения в файлах, доступных только для чтения
+find.replace.occurrences.in.read.only.files.prompt:
+    text: |-
+        Вхождения найдены в файлах только для чтения.
+        Операция не повлияет на них.
+        Продолжить в любом случае?
+find.replace.occurrences.in.read.only.files.title:
+    text: Найдены файлы только для чтения
+find.replace.select.on.editor.command:
+    text: Выбрать в редакторе
+find.replace.selected.action:
+    text: '&Заменить{0,choice,0#|1#|2# {0} вхождений}'
+find.replace.skip.this.file.action:
+    text: '&Пропустить этот файл'
+find.replace.text.dialog.title:
+    text: Заменить текст
+find.replace.this.file.action:
+    text: Заменить всё в этом &файле
+find.replace.with.label:
+    text: 'Заменить &на:'
+find.scope.all.project.classes:
+    text: Все классы проекта
+find.scope.all.projects.radio:
+    text: В&се проекты
+find.scope.custom.radio:
+    text: '&Особый:'
+find.scope.directory.radio:
+    text: '&Каталог:'
+find.scope.directory.recursive.checkbox:
+    text: Рекурсивно
+find.scope.directory.title:
+    text: Каталог {0}
+find.scope.files.with.mask:
+    text: с маской «{0}»
+find.scope.global.radio:
+    text: '&Везде'
+find.scope.group:
+    text: Область поиска
+find.scope.label:
+    text: '&Область поиска'
+find.scope.module.radio:
+    text: '&Модуль:'
+find.scope.module.title:
+    text: Модуль «{0}»
+find.scope.project.radio:
+    text: '&Проект'
+find.scope.project.title:
+    text: Проект
+find.scope.selected.text.radio:
+    text: '&В выбранном тексте'
+find.scope.whole.project.radio:
+    text: '&Весь проект'
+find.search.accessible.name:
+    text: Найти
+find.search.again.from.bottom.action.message:
+    text: '{0}, выполните «Найти предыдущий» ещё раз, чтобы выполнить поиск снизу'
+find.search.again.from.bottom.hotkey.message:
+    text: '{0}, нажмите {1} для поиска снизу bottom'
+find.search.again.from.top.action.message:
+    text: '{0}, выполните «Найти далее» ещё раз для поиска сверху'
+find.search.again.from.top.hotkey.message:
+    text: '{0}, нажмите {1} для поиска сверху'
+find.search.history:
+    text: История поиска
+find.search.string.not.found.message:
+    text: «{0}» не найдено
+find.searched.elements.have.been.changed.error:
+    text: |-
+        Найденные элементы были изменены.
+        Невозможно выполнить поиск использований.
+find.searching.for.references.to.class.progress:
+    text: Поиск ссылок на класс {0}…
+find.searching.for.string.in.file.occurrences.progress:
+    text: '{0,choice,0#Нет|1#{0}} {0,choice,0#вхождений|1#вхождение|2#вхождений} найдено на текущий момент'
+find.searching.for.string.in.file.progress:
+    text: Поиск «{0}» в {1}…
+find.selection.only:
+    text: В выделенном
+find.super.method.warning.action.verb:
+    text: чтобы найти использование
+find.text.dialog.title:
+    text: Найти текст
+find.text.to.find.label:
+    text: 'Текст для &поиска:'
+find.usage.view.no.usages.text:
+    text: Использований не найдено
+find.usage.view.tab.text:
+    text: Вхождения «{0}»{1}
+find.usage.view.toolwindow.title:
+    text: Вхождения «{0}» в {1}{2}
+find.usage.view.usages.text:
+    text: вхождения «{0}»
+find.usages.ambiguous.title:
+    text: Найти использования
+find.usages.dialog.title:
+    text: Найти использования
+find.usages.in.file.dialog.title:
+    text: Найти использования в файле
+find.usages.of.element.in.scope.panel.title:
+    text: '{0} из {1} в {2}'
+find.usages.of.element.tab.name:
+    text: '{0} из {1}'
+find.usages.of.element_type.element_name.not.found.message:
+    text: Использований {0} {1} не найдено
+find.usages.panel.title.derived.classes:
+    text: Производные классы
+find.usages.panel.title.derived.interfaces:
+    text: Производные интерфейсы
+find.usages.panel.title.implementing.classes:
+    text: Реализации классов
+find.usages.panel.title.implementing.methods:
+    text: Реализации методов
+find.usages.panel.title.overloaded.methods.usages:
+    text: Использования перегруженных методов
+find.usages.panel.title.overriding.methods:
+    text: Переопределяющие методы
+find.usages.panel.title.separator:
+    text: или
+find.usages.panel.title.usages:
+    text: Использования
+find.what.derived.classes.checkbox:
+    text: '&Производные классы'
+find.what.derived.interfaces.checkbox:
+    text: '&Производные интерфейсы'
+find.what.fields.usages.checkbox:
+    text: Использования &полей
+find.what.group:
+    text: Найти
+find.what.implementing.classes.checkbox:
+    text: '&Реализация классов'
+find.what.implementing.methods.checkbox:
+    text: '&Реализация методов'
+find.what.implicit.to.string.checkbox:
+    text: Не&явные вызовы
+find.what.methods.usages.checkbox:
+    text: Использования &методов
+find.what.overriding.methods.checkbox:
+    text: '&Переопределение методов'
+find.what.usages.checkbox:
+    text: '&Использования'
+find.what.usages.of.classes.and.interfaces:
+    text: Использования &классов и интерфейсов
+find.whole.words:
+    text: целиком
+found.occurrences:
+    text: Найденные вхождения
+label.use.0.and.1.to.select.usages:
+    text: Используйте {0} и {1} для выбора использований
+link.click.to.highlight:
+    text: Щёлкните, чтобы выделить
+message.file.masks.should.be.comma.separated:
+    text: Маски файлов должны быть разделены запятыми
+notification.content.one.or.more.malformed.replacement.strings:
+    text: Одна или несколько неправильно сформированных строк замены
+notification.find.usages.is.not.available.during.indexing:
+    text: Поиск использований недоступен во время индексации
+notification.title.regular.expression.failed.to.match:
+    text: Не удалось сопоставить регулярное выражение
+occurrence:
+    text: вхождение
+progress.text.scanning.indexed.files:
+    text: Сканирование индексированных файлов…
+progress.text.scanning.non.indexed.files:
+    text: Сканирование неиндексированных файлов…
+progress.title.finding.usages:
+    text: Поиск использований
+progress.title.updating.usage.view:
+    text: Обновление представления использований…
+recent.find.usages.action.description:
+    text: <html><body>{0} «<b>{1}</b>» в {2}</body></html>
+recent.find.usages.action.nothing:
+    text: Нет истории недавних поисков использований
+recent.find.usages.action.popup:
+    text: '{0} «{1}» в {2}'
+recent.find.usages.action.title:
+    text: Недавние поиски использований
+results.options.group:
+    text: Параметры результата
+select.next.occurence.not.found.message:
+    text: Не найдено, попробуйте ещё раз, чтобы выполнить поиск сверху
+tooltip.close.search.bar.escape:
+    text: Закрыть строку поиска (Escape)
