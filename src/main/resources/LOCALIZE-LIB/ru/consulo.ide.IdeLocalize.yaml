@@ -1,2670 +1,2716 @@
-title.cannot.start.browser:
-  text: Невозможно запустить браузер
-error.malformed.url:
-  text: "Неправильный URL: {0}"
-error.cannot.start.browser:
-  text: "Невозможно запустить браузер: {0}"
-error.please.specify.path.to.web.browser:
-  text: Укажите путь к веб-браузеру в {0} | Веб-браузеры
-title.browser.not.found:
-  text: Браузер не найден
-title.browser.path.not.found:
-  text: Путь к браузеру не найден
-action.sort.alphabetically:
-  text: Сортировать по алфавиту
-button.finish:
-  text: '&Готово'
-button.ok:
-  text: '&OK'
-button.create:
-  text: '&Создать'
-button.wizard.previous:
-  text: '&Предыдущий'
-button.wizard.next:
-  text: '&Далее'
-title.system.error:
-  text: Системная ошибка
-title.select.path.to.browser:
-  text: Выберите путь к браузеру
-title.general:
-  text: Общие
-editbox.default.encoding.for.properties.files:
-  text: 'Кодировка по умолчанию для свойств files:'
-checkbox.transparent.native.to.ascii.conversion:
-  text: Прозрачное преобразование native-to-ascii
-checkbox.autodetect.utf:
-  text: Автоматическое определение файлов в кодировке UTF
-group.http.proxy:
-  text: HTTP-прокси
-group.web.browser:
-  text: Веб-браузер
-group.general.options:
-  text: Общие параметры
-editbox.ignore.files.and.folders:
-  text: Игнорировать файлы и папки
-checkbox.confirm.application.exit:
-  text: Подтверждать закрытия приложения
-checkbox.support.screen.readers:
-  text: Поддержка экранных читалок (требуется перезапуск)
-group.settings.process.tab.close:
-  text: При закрытии окна инструментов с запущенным процессом
-radio.process.close.terminate:
-  text: Завершить процесс
-radio.process.close.disconnect:
-  text: Отключиться (если доступно)
-radio.process.close.ask:
-  text: Спросить
-label.inactive.timeout.sec:
-  text: сек.
-search.in.the.background:
-  text: Поиск в фоновом режиме
-checkbox.save.files.automatically:
-  text: Автоматически сохранять файлы, если приложение бездействует в течение
-checkbox.save.files.on.frame.deactivation:
-  text: Сохранять файлы при деактивации фрейма
-checkbox.synchronize.files.on.frame.activation:
-  text: Синхронизировать файлы при активации фрейма
-checkbox.reopen.last.project.on.startup:
-  text: Переоткрыть последний проект при запуске
-treenode.loading:
-  text: загрузка…
-action.clear.list:
-  text: _Очистить список
-action.descriptor.action:
-  text: 'Действие: {0}'
-action.descriptor.typing:
-  text: 'Ввод: «{0}»'
-action.descriptor.keystroke:
-  text: 'Нажатие клавиши: «{0}»'
-title.edit.macros:
-  text: Редактировать макросы
-macro.noname:
-  text: <без имени>
-message.macro.exists:
-  text: Макрос с названием «{0}» уже существует. Перезаписать его?
-title.macro.name.already.used:
-  text: Название макроса уже используется
-title.macros:
-  text: Макросы
-prompt.enter.new.name:
-  text: Введите новое название
-title.rename.macro:
-  text: Переименовать макрос
-button.delete:
-  text: Удалить
-button.rename:
-  text: Переименовать
-button.remove.action:
-  text: Удалить действие
-action.stop.macro.recording:
-  text: Остановить запись _макроса
-action.start.macro.recording:
-  text: Начать запись _макроса
-prompt.enter.macro.name:
-  text: Введите название макроса. Оставьте пустым, если макрос временный.
-title.enter.macro.name:
-  text: Введите название макроса
-select.in.aspects:
-  text: Аспекты
-action.flatten.packages:
-  text: Свести пакеты
-action.flatten.view:
-  text: Свести вид
-group.group.by:
-  text: Группировать по
-group.view.options:
-  text: Параметры просмотра
-button.go.to:
-  text: '&Перейти к'
-button.remove:
-  text: '&Удалить'
-button.remove.all:
-  text: Удалить &всё
-button.move.up:
-  text: Переместить &вверх
-button.move.down:
-  text: Переместить &вниз
-column.description:
-  text: Описание
-bookmark.file.X.line.Y:
-  text: '{0}, строка {1}'
-button.view.source:
-  text: '&Просмотреть исходный код'
-action.bookmark.toggle:
-  text: Переключить _Bookmark
-action.bookmark.toggle.mnemonic:
-  text: Переключить закладку с помощью мнемоники
-action.bookmark.delete:
-  text: Удалить закладку
-action.bookmark.edit.description:
-  text: Изменить описание
-action.bookmark.edit.description.description:
-  text: Назначьте краткое описание для закладки, которая будет отображаться вместе с названием файла
-action.bookmark.edit.description.dialog.message:
-  text: Введите краткое описание закладки
-action.bookmark.edit.description.dialog.title:
-  text: Описание закладки
-progress.deleting:
-  text: Удаление
-select.in.commander:
-  text: Командир
-errortree.information:
-  text: 'Информация:'
-errortree.error:
-  text: 'Ошибка:'
-errortree.warning:
-  text: 'Предупреждение:'
-errortree.note:
-  text: 'Примечание:'
-action.hide.infos:
-  text: Скрыть информацию
-action.show.infos:
-  text: Показать информацию
-action.hide.warnings:
-  text: Скрыть предупреждения
-action.show.warnings:
-  text: Показать предупреждения
-action.next.message:
-  text: Следующее сообщение
-action.previous.message:
-  text: Предыдущее сообщение
-action.next.problem:
-  text: Следующая проблема
-action.previous.problem:
-  text: Предыдущая проблема
-action.stop:
-  text: Остановить
-errortree.prefix.line:
-  text: строка ({0})
-checkbox.errortree.export.details:
-  text: Подробности
-action.show.excluded.files:
-  text: Показать исключенные файлы
-action.show.hide.excluded.files:
-  text: Показать/скрыть исключенные файлы
-action.add.all.open.tabs.to.new.favorites.list:
-  text: Добавить все открытые вкладки в новый список избранного
-action.add.to.new.favorites.list:
-  text: Добавить в _новые избранные Список
-prompt.input.new.favorites.list.name:
-  text: Введите название нового списка избранного
-title.add.new.favorites.list:
-  text: Добавить новый список избранного
-error.favorites.list.already.exists:
-  text: Список избранного с названием «{0}» уже существует
-title.unable.to.add.favorites.list:
-  text: Невозможно добавить список избранного
-favorites.list.unnamed:
-  text: Безымянный{0}
-action.remove.from.current.favorites:
-  text: Удалить из текущего избранного
-favorites.empty.screen:
-  text: "Нечего отображать. Чтобы добавить элемент в список избранного, используйте: Главное меню -> Вид -> Добавить в избранное"
-action.abbreviate.qualified.package.names:
-  text: Сокращённые имена квалифицированных пакетов
-action.hide.empty.middle.packages:
-  text: Скрыть пустые средние пакеты
-action.show.hide.empty.middle.packages:
-  text: Показать/скрыть пустые средние пакеты
-action.compact.empty.middle.packages:
-  text: Сжать пустые средние пакеты
-action.show.compact.empty.middle.packages:
-  text: Показать/сжать пустые средние пакеты
-action.show.members:
-  text: Показать участников
-action.show.hide.members:
-  text: Показать/скрыть участников
-action.delete.favorites.list:
-  text: Удалить список избранного «{0}»
-action.delete.all.favorites.lists.but.this:
-  text: Удалить все пользовательские списки, кроме «{0}»
-select.in.favorites:
-  text: Избранное
-action.send.to.new.favorites.list:
-  text: Отправить в новый список избранного
-action.rename.favorites.list:
-  text: Переименовать список избранного
-title.rename.favorites.list:
-  text: Переименовать
-prompt.input.favorites.list.new.name:
-  text: "Переименовать список избранного «{0}» в:"
-command.create.class.from.template:
-  text: Создать класс из шаблона
-command.create.file.from.template:
-  text: Создать файл из шаблона
-action.create.new.class.name.field:
-  text: Название
-error.parsing.file.template:
-  text: 'Ошибка анализа шаблона файла: {0}'
-title.velocity.error:
-  text: Скорость Ошибка
-action.from.file.template:
-  text: Из шаблона файла …
-action.edit.file.templates:
-  text: Изменить шаблоны файлов…
-error.unable.to.parse.template.message:
-  text: |-
-    Невозможно проанализировать шаблон «{0}»
-    Сообщение об ошибке: {1}
-error.invalid.template.file.name.or.extension:
-  text: Недопустимое название или расширение файла шаблона
-title.cannot.create.file:
-  text: Невозможно создать файл
-title.new.from.template:
-  text: Новый {0}
-error.please.enter.a.file.name:
-  text: Введите название файла
-label.file.name:
-  text: "Название файла:"
-title.select.template:
-  text: Выберите шаблон
-label.name:
-  text: "Название:"
-label.extension:
-  text: "Расширение:"
-title.file.templates:
-  text: Шаблоны файлов и кодов
-checkbox.reformat.according.to.style:
-  text: Переформатировать в соответствии со стилем
-checkbox.enable.live.templates:
-  text: Включить &Live Templates
-label.description:
-  text: Описание
-title.edit.file.template:
-  text: Изменить шаблон файла
-item.file.templates:
-  text: Шаблоны файлов
-tab.filetemplates.templates:
-  text: Шаблоны
-tab.filetemplates.includes:
-  text: Включает
-tab.filetemplates.code:
-  text: Код
-tab.filetemplates.j2ee:
-  text: Другое
-error.please.specify.template.name:
-  text: Укажите название шаблона
-error.template.with.such.name.already.exists:
-  text: Шаблон с таким названием уже существует. Укажите другое название шаблона
-title.cannot.save.current.template:
-  text: Невозможно сохранить текущий шаблон
-error.please.specify.template.extension:
-  text: Укажите расширение шаблона
-action.create.template:
-  text: Создать шаблон
-action.copy.template:
-  text: Копировать шаблон
-action.reset.to.default:
-  text: Сбросить до значений по умолчанию
-action.remove.template:
-  text: Удалить шаблон
-template.unnamed:
-  text: Безымянный
-template.copy.N.of.T:
-  text: Копировать{0} из {1}
-prompt.reset.to.original.template:
-  text: Сбросить до исходного шаблона?
-title.reset.template:
-  text: Сброс шаблона
-error.unable.to.save.file.template.using.encoding:
-  text: Не удалось сохранить шаблон файла «{0}» с помощью {1}
-template.default.class.comment:
-  text: |
-    /*
-     * Создано {0}.
-     * Пользователь: $USER$
-     * Дата: $DATE$
-     * Время: $TIME$
-     */
-action.browse.call.hierarchy:
-  text: Просмотр иерархии вызовов
-action.browse.method.hierarchy:
-  text: Просмотр иерархии методов
-action.browse.type.hierarchy:
-  text: Просмотр иерархии типов
-action.base.on.this.method:
-  text: Основывать на этом методе
-label.scope:
-  text: 'Область:'
-hierarchy.scope.project:
-  text: Производство
-hierarchy.scope.all:
-  text: Везде
-hierarchy.scope.this.class:
-  text: Этот класс
-action.refresh:
-  text: Обновить
-action.callee.methods.hierarchy:
-  text: Иерархия вызываемых методов
-action.caller.methods.hierarchy:
-  text: Иерархия вызывающих методов
-node.hierarchy.invalid:
-  text: '[Недопустимо]'
-node.call.hierarchy.N.usages:
-  text: ({0} использований)
-node.call.hierarchy.unknown.jsp:
-  text: неизвестно jsp
-title.hierarchy.callees.of:
-  text: Вызываемые {0}
-title.hierarchy.callers.of:
-  text: Вызывающие {0}
-action.implement.method:
-  text: Реализовать метод
-action.implement.methods:
-  text: Реализовать методы
-action.hide.non.implementations:
-  text: Скрыть классы, в которых метод не реализован юридически
-hierarchy.legend.method.is.defined.in.class:
-  text: метод определён в классе
-hierarchy.legend.method.defined.in.superclass:
-  text: метод не определён в классе, но определен в суперклассе
-hierarchy.legend.method.should.be.defined:
-  text: метод должен быть определён, так как класс не абстрактный
-action.override.method:
-  text: Переопределить метод
-action.override.methods:
-  text: Переопределить методы
-title.hierarchy.method:
-  text: Метод {0}
-title.hierarchy.subtypes:
-  text: Подтипы {0}
-node.hierarchy.java.lang.object:
-  text: Все классы являются производными от java.lang.Object
-title.hierarchy.supertypes:
-  text: Супертипы {0}
-action.base.on.this.interface:
-  text: Основан на этом интерфейсе
-action.base.on.this.class:
-  text: Основан на этом классе
-progress.deleting.class:
-  text: Удаление класса {0}
-title.hierarchy.class:
-  text: Класс {0}
-action.view.class.hierarchy:
-  text: Иерархия классов
-action.description.view.class.hierarchy:
-  text: Переключиться на иерархию классов
-action.view.subtypes.hierarchy:
-  text: Иерархия подтипов
-action.description.view.subtypes.hierarchy:
-  text: Переключиться на Иерархия подтипов
-action.view.supertypes.hierarchy:
-  text: Иерархия супертипов
-action.description.view.supertypes.hierarchy:
-  text: Переключиться на иерархию супертипов
-filetype.description.dtd:
-  text: Определение типа документа XML
-filetype.description.gui.designer.form:
-  text: Формы конструктора GUI
-filetype.description.html:
-  text: Файлы HTML
-filetype.description.class:
-  text: Файлы классов Java
-filetype.description.java:
-  text: Исходные файлы Java
-filetype.description.jspx:
-  text: Файлы JSPx
-filetype.description.idea.module:
-  text: Модуль Consulo
-filetype.description.jsp:
-  text: Файлы страниц сервера Java
-filetype.description.idea.project:
-  text: Проект Consulo
-filetype.description.unknown:
-  text: НЕИЗВЕСТНО
-filetype.description.idea.workspace:
-  text: Consulo Workspace
-filetype.description.xhtml:
-  text: XHTML-файлы
-filetype.description.xml:
-  text: XML-файлы
-filetype.description.ant:
-  text: ANT buildfiles
-error.name.cannot.be.empty:
-  text: Название не может быть пустым
-editbox.customfiletype.line.comment:
-  text: 'Комментарий строки:'
-editbox.customfiletype.block.comment.start:
-  text: 'Начало комментария блока:'
-editbox.customfiletype.block.comment.end:
-  text: 'Конец комментария блока:'
-editbox.customfiletype.hex.prefix:
-  text: 'Шестнадцатеричный префикс:'
-editbox.customfiletype.number.postfixes:
-  text: 'Количество постфиксов:'
-listbox.customfiletype.keywords:
-  text: Ключевые слова
-button.add:
-  text: '&Добавить…'
-editbox.customfiletype.name:
-  text: 'Название:'
-editbox.customfiletype.description:
-  text: 'Описание:'
-group.customfiletype.syntax.highlighting:
-  text: Подсветка синтаксиса
-checkbox.customfiletype.ignore.case:
-  text: '&Игнорировать регистр'
-checkbox.customfiletype.support.paired.braces:
-  text: Поддержка парных b&races
-checkbox.customfiletype.support.paired.brackets:
-  text: Поддержка парных bra&ckets
-checkbox.customfiletype.support.paired.parens:
-  text: Поддержка парных &parens
-checkbox.customfiletype.support.string.escapes:
-  text: Поддержка строковых &escapes
-title.add.new.keyword:
-  text: Добавить новый Ключевое слово
-title.edit.keyword:
-  text: Изменить ключевое слово
-editbox.keyword:
-  text: 'Ключевое слово:'
-error.keyword.cannot.be.empty:
-  text: Ключевое слово не может быть пустым
-error.keyword.may.not.contain.spaces:
-  text: Ключевое слово не может содержать пробелы
-action.help:
-  text: Справка
-select.in.packages:
-  text: Пакеты
-select.in.project:
-  text: Проект
-select.in.nav.bar:
-  text: Панель навигации
-error.adding.module.to.project:
-  text: 'Ошибка добавления модуля в проект: {0}'
-title.add.module:
-  text: Новый модуль
-prompt.open.project.in.new.frame:
-  text: <html><body>Новые проекты можно открывать в новом окне или заменять проект в существующем окне.<br>Как бы вы хотели открыть проект?</body></html>
-title.new.project:
-  text: Новый проект
-button.newframe:
-  text: Новое &окно
-button.existingframe:
-  text: '&Это окно'
-button.yes:
-  text: _Да
-button.no:
-  text: _Нет
-error.project.file.does.not.exist:
-  text: Невозможно загрузить {0}. Файл не существует.
-error.file.does.not.exist:
-  text: Файл {0} не существует.
-title.open.project:
-  text: Открыть проект
-button.cancel:
-  text: '&Отмена'
-error.cannot.load.project:
-  text: 'Невозможно загрузить проект: {0}'
-title.cannot.load.project:
-  text: Невозможно загрузить проект
-error.project.file.is.corrupted:
-  text: Файл проекта повреждён
-title.cannot.convert.project:
-  text: Невозможно преобразовать проект
-dialog.title.convert.project:
-  text: Преобразовать проект
-conversion.dialog.text.1:
-  text: Проект «{0}» имеет старый формат и будет преобразован. Вы не сможете открыть проект с помощью более ранних версий {1}.
-conversion.dialog.text.2:
-  text: '<b> </b><a href="details">Подробности…</a><br/><br/>Старые версии файлов проекта будут сохранены в: «{0}»'
-message.text.unlock.read.only.files:
-  text: <html><body>Следующие файлы доступны только для чтения. {0} разблокирует их.<br>{1}</body></html>
-error.message.cannot.make.files.writable:
-  text: |-
-    Невозможно сделать следующие файлы доступными для записи:
-    {0}
-error.cannot.convert.project:
-  text: 'Невозможно преобразовать проект: {0}'
-message.files.doesn.t.exists.0.so.the.corresponding.modules.won.t.be.converted.do.you.want.to.continue:
-  text: '<html><body>Следующие файлы не существуют: <br>{0}Соответствующие модули не будут преобразованы. Хотите продолжить?</body></html>'
-select.in.project.settings:
-  text: Структура проекта
-select.in.file.structure:
-  text: Структура файла
-project.settings.separator:
-  text: Настройки проекта
-global.settings.separator:
-  text: Глобальные настройки
-global.libraries.display.name:
-  text: Библиотеки
-message.nothing.to.show.in.structure.view:
-  text: Нечего показывать в представлении структуры
-error.license.collision:
-  text: |-
-    Эта лицензия используется в другом месте сети {0}.
-    Только один активный компьютер может использовать лицензию одновременно.
-    Хотите повторно активировать этот компьютер?
-    Нажмите «Да» для повторной активации или «Нет» для выключения {1}.
-title.license.collision.detected:
-  text: Обнаружено столкновение лицензий
-message.licensed.to:
-  text: Лицензия действует на {0}
-title.enter.license.data:
-  text: Введите лицензию {0}
-message.purchase.or.upgrade:
-  text: Для получения информации о том, как обновить оценочное программное обеспечение, перейдите по адресу {0}
-message.expiration.date:
-  text: "Дата истечения срока действия: {0}"
-message.educational.license:
-  text: Образовательная лицензия сроком на 1 год. {0}
-message.open.source.project.license:
-  text: Лицензия проекта с открытым исходным кодом. {0}
-message.non.commercial.use.only:
-  text: Только для некоммерческого использования
-message.personal.license:
-  text: Персональная лицензия
-aboutbox.build.number:
-  text: 'Сборка №{0}'
-aboutbox.build.date:
-  text: ', построено на {0}'
-aboutbox.jdk:
-  text: 'JDK: {0}'
-aboutbox.vm:
-  text: 'VM: {0} by {1}'
-aboutbox.maintenance.due:
-  text: Право на бесплатные обновления и модернизации до {0,date,MMMM dd, yyyy}
-title.warning:
-  text: Предупреждение
-message.upgrade.from.previous.required:
-  text: Ваша лицензия недействительна для использования с этой версией {0}. <br/> Информацию о том, как обновить лицензию, см. на {1} <br/> Вы также можете выбрать бесплатную ограниченную по времени оценку.
-title.upgrade.needed:
-  text: Требуется обновление лицензии
-message.evaluation.has.expired:
-  text: Срок действия вашей оценки {0} истек. Ваш сеанс будет ограничен 30 минутами.<br>{1}
-title.evaluation.license.expired:
-  text: Срок действия оценочной лицензии истек
-message.evaluation.license.expired:
-  text: Срок действия вашей оценочной лицензии истек. {0} сейчас завершит работу.
-message.license.expired:
-  text: Срок действия вашей лицензии истек
-title.license.expired:
-  text: Срок действия лицензии истек
-message.license.is.corrupt:
-  text: Лицензия повреждена
-title.license.corrupt:
-  text: Лицензия повреждена
-message.invalid.license.data:
-  text: Недействительные данные лицензии. Попробуйте ещё раз.
-title.invalid.license.data:
-  text: Неверные данные лицензии
-title.product.evaluation:
-  text: '{0} Оценка'
-message.evaluation.N.days:
-  text: '{0} дней'
-message.evaluation.one.day:
-  text: 1 день
-message.evaluation.less.than.one.day:
-  text: меньше 1 дня
-message.evaluation.will.expire:
-  text: Спасибо за оценку {0}.<br>Срок действия вашей оценочной лицензии истекает через {1}<br><br>{2}
-title.license.will.expire:
-  text: 'Срок действия лицензии {0} скоро истекает'
-message.license.will.expire:
-  text: Ваша лицензия {0} истекает через {1}.
-error.saving.license.data:
-  text: |-
-    Ошибка сохранения данных лицензии.
-    {0}
-title.unable.to.save.data:
-  text: Невозможно сохранить данные
-link.click.here.to.license.server.info:
-  text: Дополнительная информация
-link.purchase.commercial.license:
-  text: Чтобы приобрести коммерческую лицензию, посетите
-license.panel.expirable.license.description:
-  text: Срок действия лицензии истекает {0,date,MMMM dd, yyyy}
-license.panel.maintenance.aware.license.description:
-  text: Право на бесплатные обновления и модернизации до {0,date,MMMM dd, yyyy}
-license.panel.perpetual.license.description:
-  text: Действительно для версии {0} {1}
-license.panel.current.permanent.ticket.description:
-  text: Получение постоянного билета
-license.panel.current.floating.ticket.description:
-  text: Получен плавающий билет
-license.panel.buildit.evaluation.expires.in.one:
-  text: Остался 1 день
-license.panel.buildit.evaluation.expires.in.many:
-  text: 'Осталось {0} дней'
-license.panel.discover.license.server.error.message:
-  text: Не удалось обнаружить URL-адрес сервера лицензий
-license.panel.ping.license.server.error.message:
-  text: Нет ответа от автоматически обнаруженного сервера лицензий {0}
-license.panel.ping.license.server.error.title:
-  text: 'Нет ответа от сервера'
-license.panel.default.server.discover:
-  text: Обнаружить
-editbox.license.user.name:
-  text: 'Пользователь name:'
-editbox.license.license.key:
-  text: 'Лицензионный ключ:'
-radio.license.server.address:
-  text: Введите адрес лицензии и сервера
-radio.license.data:
-  text: Введите данные лицензии
-radio.evaluate:
-  text: '&Оцените бесплатно в течение {0} дней'
-radio.default.license.server:
-  text: '&Сервер лицензий по умолчанию'
-action.activate.tool.window:
-  text: Активировать окно {0}
-error.checkforupdates.connection.failed:
-  text: Не удалось подключиться. Проверьте сетевое подключение и повторите попытку.
-title.connection.error:
-  text: Ошибка подключения
-editbox.export.settings.to:
-  text: "Экспорт настроек в:"
-title.export.file.location:
-  text: Расположение файла экспорта
-prompt.choose.export.settings.file.path:
-  text: Выберите путь к файлу экспорта или каталог, в котором будет создан новый файл
-command.close.all.editors:
-  text: Закрыть все редакторы
-action.close.all.editors.in.tab.group:
-  text: Закрыть _все в группе
-action.close.all.editors:
-  text: Закрыть _все
-command.close.all.unmodified.editors:
-  text: Закрыть все немодифицированные редакторы
-action.close.all.unmodified.editors.in.tab.group:
-  text: Закрыть _неизмененные в группе
-action.close.all.unmodified.editors:
-  text: Закрыть _Неизмененные
-action.close.all.unpinned.editors.in.tab.group:
-  text: Закрыть все, кроме закрепленных в группе
-action.close.all.unpinned.editors:
-  text: Закрыть все, кроме закрепленных
-action.copy.path:
-  text: Копировать путь
-action.copy.paths:
-  text: Копировать пути
-message.reference.to.fqn.has.been.copied:
-  text: Ссылка на «{0}» скопирована.
-command.pasting.reference:
-  text: Вставка ссылки
-action.create.annotation.type:
-  text: Создать @interface
-prompt.enter.annotation.type.name:
-  text: 'Введите новое название @interface:'
-title.new.annotation.type:
-  text: Новый @interface
-title.cannot.create.annotation.type:
-  text: Невозможно создать @interface
-prompt.enter.new.class.name:
-  text: 'Введите новое название класса:'
-title.new.class:
-  text: Новый класс
-command.close.active.editor:
-  text: Закрыть активный редактор
-action.close:
-  text: _Закрыть
-action.close.project:
-  text: Закрыть проект
-action.create.new.directory.or.package:
-  text: Создать новый каталог или пакет
-title.new.directory:
-  text: Новый каталог
-title.new.package:
-  text: Новый Пакет
-action.package:
-  text: Пакет
-action.directory:
-  text: Каталог
-error.name.should.be.specified:
-  text: Название должно быть указано
-progress.creating.directory:
-  text: Создание каталога {0}{1}{2}
-progress.creating.package:
-  text: Создание пакета {0}.{1}
-command.create.directory:
-  text: Создать каталог
-command.create.package:
-  text: Создать пакет
-action.create.new.enum:
-  text: Создать новый Enum
-title.new.enum:
-  text: Новый Enum
-title.cannot.create.enum:
-  text: Невозможно создать Enum
-command.create.enum:
-  text: Создать enum
-action.create.new.file:
-  text: Файл
-action.create.new.file.description:
-  text: Создать новый файл
-prompt.enter.new.file.name:
-  text: 'Введите новое название файла:'
-title.new.file:
-  text: Новый файл
-progress.creating.file:
-  text: Создание файла {0}{1}{2}
-command.create.file:
-  text: Создать файл
-action.create.new.interface:
-  text: Создать новый интерфейс
-prompt.enter.new.interface.name:
-  text: "Введите новое название интерфейса:"
-title.new.interface:
-  text: Новый интерфейс
-title.cannot.create.interface:
-  text: Невозможно создать интерфейс
-progress.creating.interface:
-  text: Создание интерфейса {0}.{1}
-command.create.interface:
-  text: Создать интерфейс
-action.delete.ellipsis:
-  text: _Удалить…
-action.delete:
-  text: _Удалить
-title.select.components.to.export:
-  text: Экспорт настроек
-prompt.please.check.all.components.to.export:
-  text: 'Проверьте настройки для экспорта:'
-prompt.overwrite.settings.file:
-  text: Перезаписать «{0}»?
-title.file.already.exists:
-  text: Файл уже существует
-message.settings.exported.successfully:
-  text: |-
-    Ваши настройки успешно экспортированы.
-    Вы можете импортировать настройки с помощью ''Файл|Импортировать настройки''.
-title.export.successful:
-  text: Экспорт завершён
-error.writing.settings:
-  text: |-
-    Ошибка записи настроек.
-
-    {0}
-title.error.writing.file:
-  text: Ошибка записи файла
-message.please.select.element.for.javadoc:
-  text: Выберите элемент, для которого вы хотите просмотреть документацию
-title.no.element.selected:
-  text: Элемент не выбран
-command.go.to.line:
-  text: Перейти к строке
-action.hide.all.windows:
-  text: Скрыть все _окна
-action.restore.windows:
-  text: Восстановить _окна
-message.settings.imported.successfully:
-  text: |-
-    Настройки успешно импортированы. Вам необходимо перезапустить {0}, чтобы перезагрузить настройки.
-    Выключить {1}?
-message.settings.imported.successfully.restart:
-  text: |-
-    Настройки успешно импортированы. Вам необходимо перезапустить {0}, чтобы перезагрузить настройки.
-    Перезапустить {1}?
-title.restart.needed:
-  text: Требуется перезагрузка
-title.import.file.location:
-  text: Расположение файла импорта
-prompt.choose.import.file.path:
-  text: Выберите файл настроек для импорта или каталог, в котором находится файл
-error.cannot.find.file:
-  text: Не удается найти файл {0}
-title.file.not.found:
-  text: Файл не найден
-error.file.contains.no.settings.to.import:
-  text: |-
-    Файл {0} не содержит настроек для импорта.
-    {1}
-title.invalid.file:
-  text: Недопустимый файл
-title.select.components.to.import:
-  text: Выберите компоненты для импорта
-prompt.check.components.to.import:
-  text: "Отметьте все компоненты для импорта:"
-error.reading.settings.file:
-  text: |-
-    Ошибка чтения файла {0}.
-    Был {1}
-
-    {2}
-error.reading.settings.file.2:
-  text: |-
-    Ошибка чтения файла {0}.
-
-    {1}
-title.error.reading.file:
-  text: Ошибка чтения файла
-message.please.ensure.correct.settings:
-  text: Убедитесь, что вы сгенерировали файл с помощью функции «Файл|Экспорт настроек».
-title.popup.new.element:
-  text: Новый
-title.popup.new.element.same.place:
-  text: Новый в текущем каталоге
-command.go.to.next.split:
-  text: Перейти к следующему разделению
-message.occurrence.N.of.M:
-  text: Вхождение {0} из {1}
-message.open.file.is.project:
-  text: |-
-    {0} — это файл проекта.
-    Хотите открыть этот проект?
-error.files.of.this.type.cannot.be.opened:
-  text: Файлы этого типа не могут быть открыты в {0}
-title.cannot.open.file:
-  text: Невозможно открыть файл
-filter.all.file.types:
-  text: Все типы файлов
-import.project.chooser.header:
-  text: <html>Выбрать {0}</html>
-action.unpin.tab:
-  text: Отменить вкладку
-action.pin.tab:
-  text: Вставить вкладку
-action.unpin.active.tab:
-  text: Отменить вкладку
-action.pin.active.tab:
-  text: Вставить вкладку
-command.go.to.prev.split:
-  text: Перейти к предыдущему разделению
-prompt.reload.file.from.disk:
-  text: Перезагрузить «{0}» с диска и потерять все изменения?
-title.reload.file:
-  text: Перезагрузить файл
-command.reload.from.disk:
-  text: Перезагрузить с диска
-command.find.next:
-  text: Найти следующий
-command.find.previous:
-  text: Найти предыдущий
-command.select.all:
-  text: Выбрать все
-message.no.targets.available:
-  text: Нет доступных целей в этом контексте
-title.popup.select.target:
-  text: Выбрать цель
-title.popup.recent.files:
-  text: Недавние файлы
-action.split.vertically:
-  text: Разделить по _вертикали
-action.split.horizontally:
-  text: Разделить по _горизонтали
-action.sync.completed.successfully:
-  text: '{0} успешно завершено.'
-action.synchronize.file:
-  text: Синхронизировать «{0}»
-action.synchronize.selected.files:
-  text: Синхронизировать выбранные файлы
-action.toolwindow.commander:
-  text: '&Commander'
-action.toolwindow.messages:
-  text: '&Сообщения'
-action.toolwindow.project:
-  text: '&Проект'
-action.toolwindow.structure:
-  text: '&Структура'
-action.toolwindow.ant.build:
-  text: Сборка &Ant
-action.toolwindow.debug:
-  text: Отладка
-action.toolwindow.run:
-  text: "&Запустить"
-action.toolwindow.find:
-  text: "&Искать"
-action.toolwindow.cvs:
-  text: C&VS
-action.toolwindow.hierarchy:
-  text: "&Иерархия"
-action.toolwindow.todo:
-  text: TODO
-action.toolwindow.inspection:
-  text: "&Инспекция"
-action.toolwindow.favorites:
-  text: Избранное
-macro.classpath.entry:
-  text: Запись в classpath, к которому принадлежит элемент
-macro.project.classpath:
-  text: Classpath проекта
-macro.column.number:
-  text: Номер столбца
-exception.missing.data:
-  text: 'Нет данных: {0}'
-macro.class.name:
-  text: Название класса
-macro.file.directory:
-  text: Каталог файлов
-macro.file.directory.from.parent:
-  text: Путь к $FileDir$ из родительского каталога с названием, переданным в качестве параметра
-macro.file.directory.name:
-  text: Название каталога файлов
-macro.file.parent.directory:
-  text: Родительский каталог файла. Принимает необязательный параметр (название) для поиска родительского каталога
-macro.file.dir.relative.to.root:
-  text: Каталог файла относительно корня содержимого модуля, к которому принадлежит файл
-macro.file.dir.relative.to.root.fwd.slash:
-  text: Каталог файла относительно корня содержимого модуля, к которому принадлежит файл (с косыми чертами)
-macro.file.dir.relative.to.sourcepath.root:
-  text: Каталог файла относительно корня исходного пути, к которому принадлежит файл
-macro.file.dir.relative.to.sourcepath.root.fwd.slash:
-  text: Каталог файла относительно корня исходного пути, к которому принадлежит файл (с косыми чертами)
-macro.file.extension:
-  text: Расширение файла
-macro.file.fully.qualified.package:
-  text: Полностью определённый пакет файла
-macro.file.name:
-  text: Название файла
-macro.file.name.without.extension:
-  text: Название файла без расширения
-macro.file.name.without.all.extensions:
-  text: Название файла без всех расширений
-macro.file.package:
-  text: Пакет файлов
-macro.file.path:
-  text: Путь к файлу
-macro.file.path.relative.to.root:
-  text: Путь к файлу относительно корня содержимого модуля, к которому принадлежит файл
-macro.file.path.relative.to.root.fwd.slash:
-  text: Путь к файлу относительно корня содержимого модуля, к которому принадлежит файл (с прямыми слешами)
-macro.file.path.relative.to.sourcepath.root:
-  text: Путь к файлу относительно корня исходного пути, к которому принадлежит файл
-macro.file.path.relative.to.sourcepath.root.fwd.slash:
-  text: Путь к файлу относительно корня исходного пути, к которому принадлежит файл (с прямыми слешами)
-macro.file.directory.relative:
-  text: Каталог файла относительно проекта file
-macro.file.directory.relative.fwd.slash:
-  text: Каталог файла относительно файла проекта (с прямыми слешами)
-macro.file.path.relative:
-  text: Путь к файлу относительно файла проекта
-macro.file.path.relative.fwd.slash:
-  text: Путь к файлу относительно файла проекта (с прямыми слешами)
-macro.file.encoding:
-  text: Кодировка файла
-macro.javadoc.output.directory:
-  text: Выходной каталог JavaDoc
-macro.line.number:
-  text: Номер строки
-button.insert:
-  text: Вставить
-label.macros:
-  text: Макросы
-label.macro.preview:
-  text: Предварительный просмотр макроса
-macro.module.file.directory:
-  text: Каталог модуля
-macro.module.profile.name:
-  text: Название текущего профиля модуля
-macro.module.file.path:
-  text: Путь к модулю file
-macro.module.production.output.dir.path:
-  text: Путь к выходному каталогу производства модуля
-macro.module.test.output.dir.path:
-  text: Путь к выходному каталогу тестирования модуля
-macro.module.file.name:
-  text: Название файла модуля без расширения
-macro.module.source.path:
-  text: Исходный путь модуля
-macro.output.path:
-  text: Выходной путь
-macro.project.file.directory:
-  text: Каталог файла проекта
-macro.project.file.path:
-  text: Путь к файлу проекта
-macro.project.file.name:
-  text: Название файла проекта без расширения
-macro.project.source.path:
-  text: Исходный путь проекта
-macro.prompt:
-  text: Отображает диалоговое окно ввода строки
-prompt.enter.parameters:
-  text: 'Введите параметры:'
-title.input:
-  text: Ввод
-macro.prompt.preview:
-  text: <params>
-macro.fileprompt.preview:
-  text: <filename>
-macro.sourcepath.entry:
-  text: Запись в sourcepath, к которому принадлежит элемент
-macro.project.sourcepath:
-  text: Исходный путь проекта
-error.plugins.should.not.have.cyclic.dependencies:
-  text: |-
-    Расширения не должны иметь циклических зависимостей:
-    {0}
-error.plugin.was.not.installed:
-  text: 'Расширение {0} не установлено: {1}'
-title.failed.to.download:
-  text: Не удалось загрузить
-error.plugins.were.not.loaded:
-  text: |-
-    Ошибка загрузки расширений:
-    {0}
-    Расширения не были загружены.
-    Исправьте указанную выше ошибку и перезапустите Consulo.
-title.plugin.notification.title:
-  text: Менеджер расширений
-message.duplicate.plugin.id:
-  text: 'Повторный идентификатор расширения:'
-error.required.plugin.not.installed:
-  text: 'Расширение «{0}» не загружено: не установлено нужное расширение «{1}».'
-error.required.plugin.disabled:
-  text: 'Расширение «{0}» не загружено: отключено требуемое расширение «{1}».'
-error.plugins.without.id.found:
-  text: Были найдены расширения без идентификаторов, все такие расширения были пропущены.
-error.problems.found.loading.plugins:
-  text: |
-    Обнаружены проблемы с загрузкой расширений:
-column.plugins.name:
-  text: Название
-column.plugins.date:
-  text: Дата
-column.plugins.downloads:
-  text: Загрузки
-column.plugins.category:
-  text: Категория
-column.plugins.tag:
-  text: Тег
-column.plugins.rate:
-  text: Рейтинг
-plugin.info.not.available:
-  text: n/a
-plugin.info.unknown:
-  text: неизвестно
-message.idea.shutdown.required:
-  text: Выключить {0}, чтобы активировать изменения в расширениях?
-message.idea.restart.required:
-  text: Перезапустить {0}, чтобы активировать изменения в расширениях?
-title.plugins:
-  text: Платформа и расширения
-title.plugins.changed:
-  text: Расширения изменены
-title.web.services:
-  text: Веб-сервисы
-plugin.status.not.specified:
-  text: (не указано)
-error.list.of.plugins.was.not.loaded:
-  text: "Список расширений не загружен: {0}"
-action.download.and.install.plugin:
-  text: Загрузка и установка
-action.update.plugin:
-  text: Обновление расширения
-error.plugin.download.failed:
-  text: Загрузка расширения не удалась
-prompt.download.and.install.plugin:
-  text: Хотите загрузить и установить расширение «{0}»?
-prompt.update.plugin:
-  text: Хотите обновить расширение «{0}»?
-prompt.install.several.plugins:
-  text: Установить или обновить {0} расширений?
-action.uninstall.plugin:
-  text: Удалить
-prompt.uninstall.plugin:
-  text: Вы действительно хотите удалить расширение «{0}»?
-prompt.uninstall.several.plugins:
-  text: Вы действительно хотите удалить эти {0} расширений?
-title.plugin.uninstall:
-  text: Удаление расширения
-progress.downloading.list.of.plugins:
-  text: Загрузка списка расширений
-progress.download.plugins:
-  text: Загрузка…
-progress.installing.plugins:
-  text: Установка расширений…
-button.http.proxy.settings:
-  text: '&Настройки прокси-сервера HTTP…'
-ide.restart.action:
-  text: Перезапустить
-ide.shutdown.action:
-  text: Завершение работы
-ide.postpone.action:
-  text: Отложить
-group.vendor:
-  text: Поставщик
-plugin.status.installed:
-  text: Установлено
-progress.waiting.for.reply.from.plugin.manager:
-  text: Ожидание ответа от {0}
-progress.connecting:
-  text: Подключение…
-progress.downloading.plugin:
-  text: Загрузка расширения «{0}»
-progress.downloading.platform:
-  text: Загрузка платформы
-progress.extracting.platform:
-  text: Извлечение платформы
-error.cannot.create.temp.dir:
-  text: Не удалось создать временный каталог «{0}»
-error.connection.failed.with.http.code.N:
-  text: Не удалось установить соединение с кодом HTTP {0}
-error.connection.failed.redirects:
-  text: "Не удалось установить соединение: слишком много перенаправлений"
-progress.connecting.to.plugin.manager:
-  text: Подключение к {0}
-label.plugin.vendor.email:
-  text: 'Эл. почта:'
-label.plugin.vendor.name:
-  text: 'Название:'
-label.plugin.vendor.home.page:
-  text: 'Домашняя страница:'
-editbox.plugin.description:
-  text: Описание
-editbox.plugin.change.notes:
-  text: Изменить заметки
-label.plugin.home.page:
-  text: Домашняя страница расширения
-action.move.module.to.this.group:
-  text: В эту группу
-action.move.module.outside.any.group:
-  text: Вне любой группы
-message.move.modules.to.group:
-  text: Переместить {0} в группу {1}
-message.module:
-  text: модуль «{0}»
-message.modules:
-  text: модули
-action.move.module.new.top.level.group:
-  text: Новая группа верхнего уровня…
-action.move.module.to.new.sub.group:
-  text: В новую подгруппу…
-action.description.create.new.module.group:
-  text: Создать новую группу модулей
-prompt.specify.name.of.module.subgroup:
-  text: |+
-    Укажите название подгруппы {0}, под которой будет отображаться {1}.
-
-title.module.sub.group:
-  text: Подгруппа модулей
-prompt.specify.module.group.name:
-  text: |+
-    Укажите название группы, под которой будет отображаться {0}.
-
-title.module.group:
-  text: Группа модулей
-title.packages:
-  text: Пакеты
-action.show.modules:
-  text: Показать модули
-action.description.show.modules:
-  text: Показать/скрыть модули
-action.show.libraries.contents:
-  text: Показать содержимое библиотек
-action.show.hide.library.contents:
-  text: Показать/скрыть содержимое библиотек
-action.sort.by.type:
-  text: Сортировать по типу
-action.manual.order:
-  text: Ручной порядок
-action.show.structure:
-  text: Показать структуру
-action.description.show.structure:
-  text: Показать вид структуры
-title.popup.views:
-  text: Виды
-title.project:
-  text: Проект
-error.module.already.exists:
-  text: Модуль с названием «{0}» уже существует
-title.rename.module:
-  text: Переименовать модуль
-title.rename.library:
-  text: Переименовать библиотеку
-command.renaming.module:
-  text: Переименование модуля {0}
-prompt.enter.new.module.name:
-  text: Введите новое название модуля
-prompt.enter.new.library.name:
-  text: Введите новое название библиотеки
-tooltip.ui.designer.form:
-  text: Форма конструктора пользовательского интерфейса
-node.projectview.libraries:
-  text: Библиотеки
-node.projectview.external.libraries:
-  text: Внешние библиотеки
-tooltip.module.group:
-  text: Группа модулей
-node.projectview.library:
-  text: '{0} библиотека'
-node.projectview.jdk:
-  text: JDK
-progress.indexing:
-  text: Обновление индексов…
-progress.indexing.scanning:
-  text: Сканирование файлов для индексации…
-progress.indexing.updating:
-  text: Индексирование…
-action.structureview.show.fields:
-  text: Показать поля
-action.structureview.show.inherited:
-  text: Показать унаследованные
-action.structureview.show.properties:
-  text: Показать свойства
-action.structureview.show.non.public:
-  text: Показать непубличные
-node.structureview.invalid:
-  text: <invalid>
-action.structureview.group.methods.by.defining.type:
-  text: Группировка методов по определяемому типу
-action.structureview.sort.by.visibility:
-  text: Сортировка по видимости
-tab.structureview.jsp.view:
-  text: JSP
-tab.structureview.baselanguage.view:
-  text: '{0}'
-action.next.todo:
-  text: Следующий TODO
-action.previous.todo:
-  text: Предыдущий TODO
-action.filter.todo.items:
-  text: Фильтр элементов TODO
-action.todo.show.all:
-  text: Показать все
-action.description.todo.show.all:
-  text: Показать все элементы TODO
-action.todo.edit.filters:
-  text: Изменить фильтры
-action.group.by.modules:
-  text: Группировать по модулям
-action.group.by.packages:
-  text: Группировать по пакетам
-title.todo.current.file:
-  text: Текущий файл
-progress.looking.for.todos:
-  text: Поиск TODO…
-column.todo.filter.pattern:
-  text: Шаблон
-error.filter.name.should.be.specified:
-  text: Название фильтра должно быть указан
-error.filter.with.the.same.name.already.exists:
-  text: Фильтр с таким названием уже существует
-error.filter.should.contain.at.least.one.pattern:
-  text: Фильтр должен содержать хотя бы один шаблон
-label.todo.filter.name:
-  text: 'Название:'
-group.todo.filter.patterns:
-  text: Шаблоны
-column.todo.filters.name:
-  text: Название
-column.todo.filter.patterns:
-  text: Шаблоны
-checkbox.case.sensitive:
-  text: Чувствителен к регистру
-checkbox.todo.use.default.colors:
-  text: Использовать цветовую схему TODO по умолчанию
-label.todo.pattern:
-  text: 'Шаблон:'
-label.todo.icon:
-  text: 'Значок:'
-column.todo.patterns.icon:
-  text: Значок
-column.todo.patterns.case.sensitive:
-  text: Чувствителен к регистру
-column.todo.patterns.pattern:
-  text: Шаблон
-title.edit.todo.filter:
-  text: Изменить фильтр
-title.edit.todo.pattern:
-  text: Изменить шаблон
-title.todo:
-  text: TODO
-title.add.todo.pattern:
-  text: Добавить шаблон
-button.edit:
-  text: '&Изменить…'
-label.todo.filters:
-  text: Фильтры
-button.add.d:
-  text: Добавить…
-title.add.todo.filter:
-  text: Добавить фильтр
-button.edit.t:
-  text: Изменить…
-button.remove.m:
-  text: Удалить
-label.todo.patterns:
-  text: Шаблоны
-text.todo.no.patterns:
-  text: Нет шаблонов настроено
-text.todo.no.filters:
-  text: Фильтры не настроены
-node.todo.group:
-  text: '{0} {0,choice,0#элементов|1#элемент|2#элементов}'
-node.todo.summary:
-  text: Найдено {0} TODO {0,choice,0#items|1#item|2#items} в {1} {1,choice,0#files|1#file|2#files}
-node.todo.no.items.found:
-  text: '{0} (элементы не найдены)'
-node.todo.found.items:
-  text: '{0} (найдено {1} {1,choice,1#элемен|2#элементов})'
-node.todo.items:
-  text: '{0} {0, choice, 0#элементов|1#элемент|2#элементов}'
-title.appearance:
-  text: Внешний вид
-node.todo.more.items:
-  text: '…ещё…'
-group.window.options:
-  text: Параметры окна
-checkbox.show.memory.indicator:
-  text: Показать индикатор памяти
-checkbox.show.tool.window.bars:
-  text: Показать панели окна инструментов
-checkbox.widescreen.tool.window.layout:
-  text: Широкоэкранная компоновка окна инструментов
-checkbox.left.toolwindow.layout:
-  text: Расположение бок о бок слева
-checkbox.right.toolwindow.layout:
-  text: Расположение бок о бок справа
-checkbox.show.editor.preview.popup:
-  text: Показать подсказку предварительного просмотра редактора
-checkbox.show.tool.window.numbers:
-  text: Показать номера окон инструментов
-checkbox.animate.windows:
-  text: Анимация окон
-group.transparency:
-  text: Прозрачность
-checkbox.use.transparent.mode.for.floating.windows:
-  text: Использовать прозрачный режим для плавающих окон
-label.transparency.ratio:
-  text: 'Соотношение:'
-label.transparency.delay.ms:
-  text: 'Задержка (мс):'
-group.ui.options:
-  text: Параметры пользовательского интерфейса
-checkbox.show.icons.in.quick.navigation:
-  text: Показывать значки в быстром navigation
-checkbox.override.default.laf.fonts:
-  text: 'Использовать пользовательский шрифт:'
-label.override.laf.font:
-  text: 'Шрифт:'
-label.font.name:
-  text: 'Название:'
-label.font.size:
-  text: 'Размер:'
-combobox.look.and.feel:
-  text: 'Тема пользовательского интерфейса'
-combobox.icon.theme:
-  text: Тема значков
-combobox.icon.theme.ui.default:
-  text: '<Из темы пользовательского интерфейса>'
-checkboox.cyclic.scrolling.in.lists:
-  text: Циклическая прокрутка в списке
-checkbox.position.cursor.on.default.button:
-  text: Автоматически размещать курсор мыши на кнопке по умолчанию
-checkbox.use.antialiased.font.in.editor:
-  text: Использовать сглаживание шрифт
-idea.dark.look.and.feel:
-  text: Darcula
-idea.intellij.look.and.feel:
-  text: IntelliJ
-modern.dark.intellij.look.and.feel:
-  text: Consulo Dark
-modern.white.intellij.look.and.feel:
-  text: Consulo Light
-native.modern.white.intellij.look.and.feel:
-  text: Consulo Light (системный цвет)
-confirm.set.look.and.feel:
-  text: Изменить &тему
-error.cannot.set.look.and.feel:
-  text: <html><body>Невозможно установить тему {0}:<br>{1}</body></html>
-error.adding.action.without.icon.to.toolbar:
-  text: Вы добавляете действие без значка на панель инструментов. К этому действию будет добавлен значок по умолчанию.
-title.unable.to.add.action.without.icon.to.toolbar:
-  text: Невозможно добавить действие без значка на панель инструментов
-error.please.specify.new.name.for.schema:
-  text: Укажите новое название для схемы «{0}».
-title.browse.icon:
-  text: Значок обзора
-prompt.browse.icon.for.selected.action:
-  text: Значок обзора для выбранного действия (*.png)
-title.choose.action.icon:
-  text: Выберите значок действия
-action.choose.actions.to.add:
-  text: Выберите действия для добавления
-button.set.icon:
-  text: '&Установить значок'
-label.icon.path:
-  text: '&Путь к значку:'
-button.edit.action.icon:
-  text: Изменить действие &значок…
-button.add.separator:
-  text: Добавить &разделитель
-button.move.up.u:
-  text: Переместить &вверх
-button.move.down.d:
-  text: Переместить &вниз
-button.add.action.after:
-  text: Добавить &после…
-title.custom.actions.schemas:
-  text: Меню и панели инструментов настройка
-title.customizations:
-  text: Меню и панели инструментов
-label.choosebyname.no.matches.found:
-  text: Совпадений не найдено
-label.choosebyname.searching:
-  text: Поиск…
-prompt.gotoclass.enter.class.name:
-  text: "Введите название класса:"
-checkbox.include.non.project.classes:
-  text: Включить &непроектные классы
-label.no.matches.found.in.project:
-  text: Совпадений не найдено в проекте
-label.no.matches.found:
-  text: Совпадений не найдено
-prompt.gotofile.enter.file.name:
-  text: "Введите название файла:"
-prompt.gotoaction.enter.action:
-  text: "Введите название действия или параметра:"
-checkbox.include.non.project.files:
-  text: Включить &непроектные файлы
-checkbox.other.included:
-  text: Включить &non-menu actions
-label.no.non.java.files.found:
-  text: Совпадений в проекте не найдено
-label.no.menu.actions.found:
-  text: Действия в главном меню не найдены
-label.no.files.found:
-  text: Файлы не найдены
-label.no.actions.found:
-  text: Действия не найдены
-prompt.gotosymbol.enter.symbol.name:
-  text: 'Введите название символа:'
-checkbox.include.non.project.symbols:
-  text: Включить &непроектные символы
-promot.projectwizard.directory.does.not.exist:
-  text: |-
-    {0}«{1}»
-    не существует. Он будет создан {2}.
-title.directory.does.not.exist:
-  text: Каталог не существует
-error.failed.to.create.directory:
-  text: Не удалось создать каталог «{0}»
-label.select.compiler.output.path:
-  text: 'Выберите выходной путь компилятора:'
-title.select.compiler.output.path:
-  text: Выберите выходной путь компилятора
-label.project.name:
-  text: 'Название проекта:'
-label.component.file.location:
-  text: 'Расположение файла {0}:'
-label.project.files.location:
-  text: 'Расположение файла &проекта:'
-title.select.project.file.directory:
-  text: Выберите каталог файлов {0}
-description.select.project.file.directory:
-  text: 'Файл {0} будет сохранён в этом каталоге'
-label.please.enter.project.name:
-  text: Введите название для создания нового {0} {1}.
-prompt.please.select.project.jdk:
-  text: |-
-    Выберите проект SDK.
-    Этот SDK будет использоваться по умолчанию всеми модулями проекта.
-label.project.jdk:
-  text: 'Project SDK:'
-button.configure:
-  text: '&Настроить…'
-prompt.confirm.project.no.jdk:
-  text: |-
-    Хотите создать проект без назначенного SDK?
-    SDK требуется для компиляции, отладки и запуска приложений,
-    а также для стандартного разрешения классов SDK.
-title.no.jdk.specified:
-  text: SDK не указан
-prompt.please.specify.module.name:
-  text: Укажите название модуля
-prompt.please.specify.module.name.and.content.root:
-  text: |-
-    Укажите название модуля и корневой каталог содержимого модуля.
-    Корневой каталог содержимого модуля — это каталог, в котором хранятся файлы, принадлежащие модулю. label.module.name:
-  text: '&Название модуля:'
-label.module.content.root:
-  text: 'Содержимое модуля &root:'
-title.select.module.content.root:
-  text: Выберите корневой каталог содержимого модуля
-label.module.file.will.be.saved.in:
-  text: 'Файл модуля будет сохранён в:'
-button.change.directory:
-  text: Изменить каталог…
-title.module.name.not.specified:
-  text: Название модуля не указано
-error.module.with.name.already.exists:
-  text: Модуль с названием «{0}» уже существует в проекте
-title.module.already.exists:
-  text: Модуль уже существует
-error.please.specify.module.file.location:
-  text: Укажите местоположение файла модуля
-title.module.file.location.not.specified:
-  text: Местоположение файла модуля не указано Указано
-error.content.root.already.defined.for.module:
-  text: |-
-    Корневой каталог контента «{0}» уже определён для модуля «{1}».
-    Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
-title.module.content.root.already.exists:
-  text: Корневой каталог контента модуля уже существует
-directory.module.content.root:
-  text: |
-    Корневой каталог контента модуля
-directory.module.file:
-  text: |
-    Каталог файла модуля
-title.select.module.file.location:
-  text: Выберите расположение файла модуля
-description.select.module.file.location:
-  text: Файл модуля будет сохранён в выбранном каталоге
-radio.create.new.module:
-  text: '&Создать новый модуль'
-radio.import.existing.module:
-  text: '&Импортировать существующий модуль'
-label.path.to.module.file:
-  text: 'Путь к файлу модуля {0} (.iml):'
-prompt.select.module.file.to.import:
-  text: Выберите файл модуля {0} (.iml) для импорта
-message.module.file.has.an.older.format.do.you.want.to.convert.it:
-  text: Файл модуля имеет старый формат. Хотите преобразовать его?
-dialog.title.convert.module:
-  text: Преобразовать модуль
-error.message.cannot.modify.file.0:
-  text: Невозможно изменить файл «{0}»
-message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
-  text: <html><body>Ваш модуль был успешно преобразован. <br>Старая версия была сохранена в «{0}»</body></html>
-label.select.module.type:
-  text: 'Тип модуля:'
-error.please.specify.path.to.module.file:
-  text: Укажите путь к файлу модуля {0} (.iml)
-title.module.file.path.not.specified:
-  text: Не указан путь к файлу модуля
-error.module.file.does.not.exist:
-  text: Указанный путь к файлу модуля не существует
-title.module.file.does.not.exist:
-  text: 'Файл модуля не существует: {0}'
-error.module.not.iml:
-  text: |-
-    «{0}»
-    не является файлом модуля {1} (.iml)
-title.incorrect.file.type:
-  text: Неверный тип файла
-button.stop.searching:
-  text: '&Остановить Поиск'
-prompt.please.specify.java.sources.directory:
-  text: |-
-    Укажите каталог, в котором находятся исходные файлы для вашего проекта.
-    Этот путь должен соответствовать пакету по умолчанию (корневой, безымянный, верхнего уровня).
-    Примечание: программа распознает только те исходные файлы, которые находятся в этом каталоге.
-radio.create.source.directory:
-  text: '&Создать исходный каталог'
-prompt.enter.relative.path.to.module.content.root:
-  text: 'Введите относительный путь к корневому каталогу содержимого модуля (пример: java{0}src):'
-radio.do.not.create.source.directory:
-  text: '&Не создавать исходный каталог'
-label.source.directory:
-  text: 'Следующий каталог будет отмечен как исходный каталог:'
-label.java.source.files.have.been.found:
-  text: |-
-    Исходные файлы для вашего модуля найдены. Выберите каталоги, которые будут
-    отмечены как исходные пути. Эти пути соответствуют пакетам по умолчанию (корневым, безымянным, верхнего уровня).
-    Примечание: программа распознает только те исходные файлы, которые находятся в исходных каталогах.
-button.mark.all:
-  text: '&Отметить все'
-button.unmark.all:
-  text: '&Снять отметку со всех'
-prompt.stop.searching.for.sources:
-  text: '{0} в настоящее время ищет исходные файлы. Хотите остановить поиск?'
-label.project.roots.have.been.found:
-  text: |-
-    Исходные файлы для вашего проекта найдены. Выберите каталоги, которые будут
-    добавлены в корни проекта. Эти пути соответствуют пакетам по умолчанию (корневым, безымянным, верхнего уровня).
-    Примечание: программа распознает только те исходные файлы, которые находятся в этих каталогах.
-label.project.roots.not.found:
-  text: Исходные файлы для вашего проекта не найдены.
-title.question:
-  text: Вопрос
-action.continue.searching:
-  text: Продолжить поиск
-action.stop.searching:
-  text: Остановить поиск
-prompt.relative.path.to.sources.empty:
-  text: |-
-    Относительный путь к источникам пуст.
-    Хотите отметить корневой каталог содержимого модуля
-    «{0}»
-    как исходный каталог?
-title.mark.source.directory:
-  text: Отметить исходный каталог
-action.mark:
-  text: Отметить
-action.do.not.mark:
-  text: Не отмечать
-error.source.directory.should.be.under.module.content.root.directory:
-  text: Исходный каталог должен находиться под корневым каталогом содержимого модуля
-progress.searching.for.sources:
-  text: Поиск источников в {0}. Пожалуйста, подождите.
-prompt.select.source.directory:
-  text: Выберите исходный каталог
-prompt.new.project.file.name:
-  text: Введите название файла для создания нового {0} {1}
-prompt.enter.project.file.location:
-  text: Введите местоположение файла {0}
-directory.project.file.directory:
-  text: |
-    Каталог файлов {0}
-prompt.overwrite.project.folder:
-  text: |-
-    Папка {0} уже существует в {1}.
-    Её содержимое может быть перезаписано.
-    Продолжить?
-warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
-  text: Файл модуля «{0}» уже существует.
-warning.text.0.do.you.want.to.overwrite.these.files:
-  text: |-
-    {0}
-    Хотите перезаписать {1,choice,1#it|2#these files}?
-title.select.jdk:
-  text: Выбрать JDK
-button.configure.e:
-  text: Настроить…
-label.scope.pattern:
-  text: '&Pattern:'
-action.add:
-  text: Добавить
-action.remove:
-  text: Удалить
-label.scope.editor.caret.position:
-  text: pos:{0}
-button.include:
-  text: Включить
-button.include.recursively:
-  text: Включить рекурсивно
-button.exclude:
-  text: Исключить
-button.exclude.recursively:
-  text: Исключить рекурсивно
-label.scope.contains.files:
-  text: Область содержит {0} из общего количества {1} файлов
-error.correct.pattern.syntax.errors.first:
-  text: Сначала исправить ошибки синтаксиса шаблона
-action.show.files:
-  text: Показать Файлы
-action.description.show.files:
-  text: Показать/скрыть файлы
-action.group.by.scope.type:
-  text: Группировать по типу области
-action.description.group.by.scope:
-  text: Группировать по типу области (производство, тестирование, библиотеки)
-action.show.included.only:
-  text: Показать только включённые
-action.description.show.included.only:
-  text: Показать только файлы, включённые в текущую выбранную область
-scope.current.file:
-  text: Текущий файл
-scope.selection:
-  text: Выборка
-scope.files.in.previous.search.result:
-  text: Файлы в предыдущем результате поиска
-scope.previous.search.results:
-  text: Предыдущие результаты поиска
-scope.class.hierarchy:
-  text: Иерархия классов
-scope.hierarchy:
-  text: Иерархия {0}
-scope.modified.files:
-  text: Изменённые файлы
-scope.open.files:
-  text: Открыть файлы
-prompt.choose.base.class.of.the.hierarchy:
-  text: Выберите базовый класс иерархии для поиска
-progress.searching:
-  text: поиск…
-title.tip.of.the.day:
-  text: Совет дня
-action.previous.tip:
-  text: '&Предыдущий совет'
-action.next.tip:
-  text: '&Следующий совет'
-error.unable.to.read.tip.of.the.day:
-  text: <html><body>Не удалось прочитать Совет дня ({0}). Убедитесь, что {1} установлен правильно.</body></html>
-label.did.you.know:
-  text: Знаете ли вы … ?
-checkbox.show.tips.on.startup:
-  text: Показывать советы при запуске
-error.tips.not.found:
-  text: Советы не найдены. Убедитесь, что вы правильно установили {0}.
-title.go.to.line:
-  text: Перейти к строке
-editbox.line.number:
-  text: 'Номер строки:'
-tooltip.syntax.linenumber.columnnumber:
-  text: 'Синтаксис: [<lineNumber>][:<columnNumber>] или [<lineNumber>][,<columnNumber]'
-error.text.file.already.exists:
-  text: |-
-    Файл {0} уже существует
-    Хотите перезаписать его или добавить?
-action.overwrite:
-  text: Перезаписать
-action.append:
-  text: Добавить
-error.writing.to.file:
-  text: "Ошибка записи в файл: {0}"
-title.export.preview:
-  text: Экспортировать предварительный просмотр
-button.save:
-  text: Сохранить
-editbox.export.to.file:
-  text: "Экспортировать в файл:"
-button.copy:
-  text: "&Копировать"
-description.copy.text.to.clipboard:
-  text: Копировать текст в буфер обмена
-checkbox.copy.javadoc:
-  text: Копировать &JavaDoc
-checkbox.insert.at.override:
-  text: Вставить @&Переопределить
-node.memberchooser.all.classes:
-  text: Все классы
-action.select.none:
-  text: "&Ничего не выбирать"
-action.show.classes:
-  text: Показать классы
-action.expand.all:
-  text: Развернуть всё
-action.collapse.all:
-  text: Свернуть всё
-checkbox.narrow.down.the.list.on.typing:
-  text: "&Сузить список при вводе"
-checkbox.narrow.down.on.typing:
-  text: "&Сузить при вводе"
-node.default:
-  text: <default>
-node.default.package:
-  text: <Пакет по умолчанию>
-prompt.enter.a.new.package.name:
-  text: 'Введите новое название пакета:'
-command.create.new.package:
-  text: Создать новый пакет
-action.new.package:
-  text: Новый пакет…
-action.description.create.new.package:
-  text: Создать новый пакет
-tab.chooser.project:
-  text: Проект
-tab.chooser.search.by.name:
-  text: Поиск по имени
-prompt.filechooser.enter.file.name:
-  text: 'Введите название файла:'
-prompt.create.non.existing.package:
-  text: |-
-    Пакет {0} не существует.
-    Вы хотите создать его?
-title.package.not.found:
-  text: Пакет не найден
-command.create.new.subdirectory:
-  text: Создать новый подкаталог
-title.choose.destination.directory:
-  text: Выберите целевой каталог
-title.delete:
-  text: Удалить
-prompt.delete.it.anyway:
-  text: Удалить его в любом случае?
-prompt.directory.contains.read.only.files:
-  text: Каталог {0} содержит файлы только для чтения. Удалить его в любом случае?
-warning.delete.all.files.and.subdirectories.in.the.selected.directory:
-  text: |2-
-
-    Все файлы и подкаталоги в выбранном каталоге будут удалены.
-    Вы не сможете полностью отменить эту операцию!
-warning.delete.all.files.and.subdirectories:
-  text: |2-
-
-    Все файлы и подкаталоги в «{0}» будут удалены.
-    Вы не сможете полностью отменить эту операцию!
-prompt.delete.elements:
-  text: Удалить {0}?
-search.for.usages.and.delete.elements:
-  text: Найти использования и удалить {0}?
-prompt.delete.and:
-  text: и
-prompt.delete.directory:
-  text: '{0,choice,1#папка|2#папок}'
-prompt.delete.file:
-  text: '{0,choice,1#файл|2#файлов}'
-prompt.delete.symlink:
-  text: '{0,choice,1#symlink|2#symlinks}'
-prompt.delete.class:
-  text: '{0,choice,1#класс|2#классов}'
-prompt.delete.interface:
-  text: '{0,choice,1#интерфейс|2#интерфейсов}'
-prompt.delete.method:
-  text: '{0,choice,1#метод|2#методов}'
-prompt.delete.field:
-  text: '{0,choice,1#поле|2#полей}'
-prompt.delete.package:
-  text: '{0,choice,1#пакет|2#пакетов}'
-prompt.delete.directory.paren:
-  text: ({0} {0,choice,1#папка|2#папок})
-prompt.delete.property:
-  text: '{0,choice,1#свойство|2#свойств}'
-prompt.delete.type.parameter:
-  text: '{0,choice,1#параметр типа|2#параметров типа}'
-checkbox.safe.delete.with.usage.search:
-  text: Безопасное удаление (с поиском по использованию)
-checkbox.search.in.comments.and.strings:
-  text: '&Поиск в комментариях и строках'
-checkbox.search.in.non.java.files:
-  text: Поиск некодовые использования
-label.method:
-  text: Метод {0}
-label.overrides.method.of_class_or_interface.name:
-  text: переопределяет {0} {1} {2}.
-label.implements.method.of_class_or_interface.name:
-  text: реализует {0} {1} {2}.
-label.implements.method.of_interfaces:
-  text: 'реализует методы следующих классов/интерфейсов:'
-element.method:
-  text: метод
-element.of.interface:
-  text: интерфейса
-element.of.class:
-  text: класса
-prompt.do.you.want.to.action_verb.the.method.from_class:
-  text: Хотите {0} базовый {1,choice,1#method|2#methods}?
-help.topic.not.found.error:
-  text: Тема справки «{0}» не найдена
-unscramble.use.unscrambler.checkbox:
-  text: '&Расшифровать трассировку стека'
-unscramble.log.path.label:
-  text: '&Лог-файл:'
-unscramble.unscrambler.combobox:
-  text: 'Расшифровать:'
-unscramble.stacktrace.caption:
-  text: 'Поместите трассировку стека или полный дамп потока сюда:'
-unscramble.dialog.title:
-  text: Анализ трассировки стека
-unscramble.no.unscrambler.item:
-  text: <Не расшифровывать>
-unscramble.normalize.button:
-  text: '&Нормализовать'
-unscramble.unscrambled.stacktrace.tab:
-  text: <Stacktrace>
-unscramble.unscrambled.threaddump.tab:
-  text: <Threads>
-unscramble.unscrambled.deadlock.tab:
-  text: <Deadlock>
-updates.info.dialog.title:
-  text: Информация об обновлении
-updates.no.updates.message:
-  text: <html><h4>Вы используете последнюю версию Consulo.</h4></html>
-updates.configure.label:
-  text: <html><head>{0}</head><br>Чтобы настроить параметры автоматического обновления, см. диалоговое окно <b><a href="updates">Обновления</a></b> в настройках IDE</html>
-updates.timeout.error:
-  text: Истекло время ожидания соединения
-updates.download.and.install.patch.button:
-  text: '&Загрузить исправление и Shutdown'
-updates.download.and.install.patch.button.restart:
-  text: Обновить и перезапустить
-updates.more.info.button:
-  text: '&Подробнее…'
-updates.new.version.available:
-  text: <html><h4>Доступна новая версия Consulo.</h4></html>
-updates.available.idea.version:
-  text: 'Новая версия:'
-updates.build.number:
-  text: '(Номер сборки:'
-updates.current.idea.version:
-  text: 'Текущая версия:'
-updates.press.more.info.label:
-  text: <html><br>Нажмите <b>Подробнее…</b>, чтобы открыть веб-страницу, на которой можно вручную загрузить Consulo или узнать больше о его новой версии.</HTML>
-updates.check.manually.label:
-  text: <html><br>Чтобы проверить наличие новых обновлений вручную, используйте <b>Справку | Команда «Проверить обновления».</b> </html>
-updates.settings.title:
-  text: Обновления
-updates.last.check.never:
-  text: Никогда
-updates.settings.caption.1:
-  text: <html>Consulo может автоматически проверять наличие новых и обновленных версий самого себя, используя ваше интернет-соединение (когда активно).<html>
-updates.settings.check.now.button:
-  text: "&Проверить сейчас"
-updates.settings.checkbox:
-  text: Проверить наличие обновлений в канале
-updates.settings.build.number:
-  text: "Номер сборки:"
-updates.settings.current.version:
-  text: "Текущая версия Consulo:"
-updates.settings.last.check:
-  text: "Последняя проверка обновлений:"
-hierarchy.method.next.occurence.name:
-  text: Перейти к следующему method
-hierarchy.method.prev.occurence.name:
-  text: Перейти к предыдущему методу
-hierarchy.type.next.occurence.name:
-  text: Перейти к следующему типу
-hierarchy.type.prev.occurence.name:
-  text: Перейти к предыдущему типу
-hierarchy.call.next.occurence.name:
-  text: Перейти к следующему вызову
-hierarchy.call.prev.occurence.name:
-  text: Перейти к предыдущему вызову
-error.file.not.found.message:
-  text: Файл «{0}» не найден
-predefined.scope.tests.name:
-  text: Тесты
-predefined.scope.resources.name:
-  text: Ресурсы
-predefined.scope.test.resources.name:
-  text: Тестовые ресурсы
-predefined.scope.sources.name:
-  text: Источники
-scope.editor.legend.recursively.included.label:
-  text: Рекурсивно включено
-scope.editor.legend.partly.included.label:
-  text: Частично включено
-toolwindow.palette:
-  text: Палитра
-jar.build.on.make:
-  text: Сборка jar-файлов на &make
-jar.build.modules.to.jar:
-  text: Выбор модулей для Jar
-jar.build.module.0.jar.settings:
-  text: Настройки Jar-файла модуля «{0}»
-jar.build.include.in.jar.file:
-  text: 'Включить в файл Jar:'
-search.textfield.title:
-  text: '&Поиск:'
-select.in.scope:
-  text: Область действия
-scope.view.title:
-  text: Области действия
-select.in.title.project.view:
-  text: Вид проекта
-several.plugins.depend.on.0.continue.to.remove:
-  text: Несколько расширений зависят от {0}. Продолжить удаление?
-child.tag.0.should.be.defined:
-  text: '«{0}» дочерний тег должен быть определён'
-attribute.0.should.be.defined:
-  text: '«{0}» атрибут должен быть определён'
-value.must.not.be.empty:
-  text: Значение не должно быть пустым
-value.must.be.identifier:
-  text: Значение должно быть идентификатором
-model.highlighting.identity:
-  text: '{0} с таким названием уже существует'
-model.highlighting.identity.in.other.file:
-  text: '{0} с таким названием уже существует в файле «{1}»'
-predefined.scope.problems.name:
-  text: Проблемы
-dom.elements.tree.childs.contain.errors:
-  text: Дочерние элементы содержат ошибки
-team.server.license.not.found:
-  text: Этот дистрибутив IDEA предназначен только лицензировано для использования с JetBrains TeamCity.
-unknown.error:
-  text: Неизвестная ошибка
-value.should.be.integer:
-  text: Значение должно быть целым числом
-shared.scopes.node.text:
-  text: Общие области
-local.scopes.node.text:
-  text: Локальные области
-scopes.display.name:
-  text: Области
-scopes.no.scoped:
-  text: Нет областей
-add.local.scope.action.text:
-  text: Локальная
-add.shared.scope.action.text:
-  text: Общая
-add.scope.popup.title:
-  text: Добавить область
-add.scope.name.label:
-  text: Название
-add.scope.dialog.title:
-  text: Добавить новую область
-scope.banner.text:
-  text: Область «{0}»
-prompt.please.select.module.jdk:
-  text: Выберите {0} для этого модуля
-scopes.save.dialog.title.shared:
-  text: Сохранить как общую область
-scopes.save.dialog.title.local:
-  text: Сохранить как локальную область
-plugin.version.label:
-  text: Версия
-plugin.size.label:
-  text: 'Размер:'
-plugin.status.available:
-  text: Доступно
-detach.library.from.module:
-  text: |-
-    Отсоединить библиотеку «{0}» от модуля «{1}»?
-    Ни один файл на диске не будет повреждён.
-detach.library:
-  text: Отсоединить библиотеку
-scope.unable.to.save.scope.message:
-  text: Сохранить область как общую?
-scope.unable.to.save.scope.title:
-  text: Невозможно использовать локальную область
-predefined.scope.production.name:
-  text: Производство
-plugin.manager.dependencies.detected.title:
-  text: Обнаружены зависимости расширения
-plugin.manager.dependencies.detected.message:
-  text: Расширение, которое вы хотите установить, требует другое расширени{0, choice, 1#е|2#я} ({1}), которые также должны быть установлены. Продолжить?
-plugin.manager.optional.dependencies.detected.message:
-  text: Расширение, которое вы хотите установить, опционально требует других расширени{0, choice, 1#е|2#й} ({1}). Их также следует установить?
-message.server.no.licenses:
-  text: На сервере лицензий не осталось подходящих лицензий
-title.server.no.licenses:
-  text: На сервере нет лицензий
-message.server.not.available:
-  text: Не удалось связаться с сервером лицензий
-title.server.not.available:
-  text: Ошибка подключения к серверу лицензий
-message.server.protocol.hijacked:
-  text: Ответ сервера лицензий не прошел проверку целостности данных. Сервер взломан?
-title.server.protocol.hijacked:
-  text: Проблема с ответом сервера лицензий
-text.not.applicable:
-  text: <N/A>
-error.message.unable.to.create.file:
-  text: Не удалось создать файл «{0}»
-message.text.error.creating.deployment.descriptor:
-  text: 'Ошибка создания элемента развертывания: {0}'
-message.text.creating.deployment.descriptor:
-  text: Создание дескриптора развертывания
-button.facet.quickfix.text:
-  text: '&Исправить'
-progress.download.0.title:
-  text: Загрузка {0}
-progress.download.file.text:
-  text: Загрузка «{0}» из «{1}»…
-progress.connecting.to.download.file.text:
-  text: Подключение к «{0}»…
-progress.locate.file.text:
-  text: Поиск «{0}»…
-progress.downloading.0.of.1.file.text:
-  text: Загрузка {0} из {1} {1, choice, 1#файла|2#файлов}…
-dialog.directory.for.downloaded.files.title:
-  text: Загруженные файлы будут скопированы в выбранный каталог
-error.file.download.failed:
-  text: 'Загрузка не удалась: {0}'
-maven.repository.presentable.name:
-  text: Репозиторий Maven
-label.missed.libraries.prefix:
-  text: 'Следующие библиотеки отсутствуют:'
-label.missed.libraries.text:
-  text: '{0}.<br>Класс «{1}» не найден'
-missing.libraries.fix.button:
-  text: Исправить…
-setup.library.dialog.title:
-  text: Настройка библиотеки
-label.library.will.be.created.description.text:
-  text: 'Библиотека уровня {0} <b>{1}</b> с {2} {2, choice, 1#file|2#files} будет создана'
-new.library.file.chooser.title:
-  text: Новые файлы библиотеки
-new.library.file.chooser.description:
-  text: Выберите файлы архива, в которых находятся файлы библиотеки
-create.default.library.type.action.name:
-  text: По умолчанию
-popup.title.select.library.type:
-  text: Выберите тип библиотеки
-file.chooser.show.path:
-  text: Показать путь
-file.chooser.hide.path:
-  text: Скрыть путь
-file.chooser.hide.path.tooltip.text:
-  text: Показать/скрыть текстовое поле пути
-file.chooser.completion.path.variables.text:
-  text: Путь Переменные
-file.chooser.completion.no.suggestions:
-  text: Нет предложений
-file.chooser.completion.ad.text:
-  text: Используйте {0}, чтобы сохранить конец пути
-progress.text.clickToViewProgressWindow:
-  text: Щёлкните, чтобы открыть окно задач
-progress.window.title:
-  text: Фоновые задачи
-progress.window.empty.text:
-  text: Нет активных фоновых задач
-project.import.wizard.title:
-  text: Импорт из {0}
-project.import.default.name:
-  text: Импортировано из{0}
-project.import.default.name.dotIdea:
-  text: Импортировано из {0}
-project.import.select.title:
-  text: Выберите {0} проектов для импорта
-project.import.show.settings.after:
-  text: '&Открыть структуру проекта после import'
-project.import.open.existing:
-  text: |-
-    В «{1}» есть {0}.
-    Вы хотите открыть существующий проект или удалить его и импортировать «{2}»?
-project.import.open.existing.openExisting:
-  text: Открыть существующий проект
-project.import.open.existing.reimport:
-  text: Удалить существующий проект и импортировать
-general.settings:
-  text: Общие настройки
-code.folding.settings:
-  text: Настройки сворачивания кода
-ui.settings:
-  text: Настройки пользовательского интерфейса
-share.scope.checkbox.title:
-  text: Поделиться областью действия
-bean.property:
-  text: Свойство компонента
-plugin.manager.enable.column.title:
-  text: Включить
-plugin.manager.tooltip.warning:
-  text: Требуемое расширение «{0}» не включено
-plugin.manager.incompatible.not.loaded.tooltip:
-  text: Расширение не было загружено
-plugin.manager.incompatible.deps.tooltip:
-  text: Требуемое {0, choice, 1#расширение|2#расширений} {1} не {0,choice, 1#включено|2#включены}
-plugin.manager.incompatible.tooltip:
-  text: Расширение несовместимо с текущей версией
-plugin.advestiser.notification.text:
-  text: 'Найдены {0,choice, 1#расширение|2#расширений}, поддерживающие текущий файл'
-plugin.advestiser.notification.install.link:
-  text: Установить {0,choice, 1#расширение|2#расширений}
-project.new.wizard.project.identification:
-  text: проект
-project.new.wizard.module.identification:
-  text: модуль
-changelist.todo.title:
-  text: '{0} Список изменений'
-hierarchy.scope.test:
-  text: Тест
-update.plugin.host.url.message:
-  text: 'Репозиторий URL:'
-update.no.update.hosts:
-  text: Не настроены репозитории расширений
-update.edit.plugin.host.title:
-  text: Изменить репозиторий
-update.add.new.plugin.host.title:
-  text: Добавить репозиторий
-update.plugin.hosts.title:
-  text: Репозитории расширений
-update.uploading.plugin.progress.title:
-  text: Обновление расширений
-update.downloading.patch.progress.title:
-  text: Загрузка файла исправления
-file.structure.toggle.show.inherited:
-  text: '&Показать унаследованные элементы'
-plugin.deleted.status.tooltip:
-  text: Расширение будет удалено при следующем запуске
-plugin.outdated.version.status.tooltip:
-  text: Расширение имеет более новую версию
-plugin.download.status.tooltip:
-  text: Расширение будет активировано при следующем запуске
-plugin.is.already.installed.status.tooltip:
-  text: Расширение установлено
-update.plugins.update.action:
-  text: '&Обновить'
-fail.open.project.message:
-  text: Невозможно открыть проект из «{0}»
-disabled.plugins.warning.message:
-  text: <li>Расширение <b>«{0}»</b> не сможет загрузиться, так как требуемые {2, choice, 1#расширение|2#расширения} {1} {2, choice, 1#отключено|2#отключены}.</li>
-plugin.updated.status.tooltip:
-  text: Обновлённое расширение будет активировано при следующем запуске
-connection.failed.message:
-  text: 'Не удалось загрузить описания расширений из: «{0}»'
-checkbox.show.icons.in.menu.items:
-  text: Отображение значков в элементах меню
-custom.icon.validation.message:
-  text: Значок слишком большой для отображения в меню
-custom.icon.validation.title:
-  text: Недопустимый размер значка
-run.canceled.by.user.message:
-  text: Запуск отменён пользователем
-run.configuration.error.executable.not.specified:
-  text: Исполняемый файл не указан
-run.configuration.error.working.directory.does.not.exist:
-  text: Невозможно запустить процесс, рабочий каталог {0} не существует
-run.configuration.error.working.directory.not.directory:
-  text: Невозможно запустить процесс, указанный путь для рабочего каталога не является каталогом
-finished.with.exit.code.text.message:
-  text: Процесс завершён с кодом выхода {0}
-file.encodings.configurable:
-  text: Кодировки файлов
-file.encodings.not.configured:
-  text: Кодировки не настроены
-encodings.dialog.caption:
-  text: "<html>Чтобы изменить кодировку, которую {0} использует для файла или каталога, щёлкните элемент и выберите кодировку из списка кодировок по умолчанию.<br/><br/>\nВстроенная кодировка файла (например, JSP, HTML или XML) переопределяет указанную здесь кодировку.<br/>\nЕсли не указано, файлы и каталоги наследуют настройки кодировки из родительского каталога или из кодировки проекта.</html>"
-encoding.name.system.default:
-  text: <Системное значение по умолчанию>
-quick.lists.presentable.name:
-  text: Быстрые списки
-error.saving.statistics:
-  text: 'Ошибка сохранения системной информации: {0}'
-error.saving.statistic.failed.to.create.folder:
-  text: Невозможно создать папку {0} для сохранения системная информация.
-FileChooser.viewMenuLabelText:
-  text: Просмотр
-FileChooser.newFolderActionLabelText:
-  text: Новая папка
-FileChooser.listViewActionLabelText:
-  text: Список
 FileChooser.detailsViewActionLabelText:
-  text: Подробности
+    text: Подробности
+FileChooser.listViewActionLabelText:
+    text: Список
+FileChooser.newFolderActionLabelText:
+    text: Новая папка
 FileChooser.refreshActionLabelText:
-  text: Обновить
-browsers.settings:
-  text: Веб-браузеры
-updates.check.period.on.exit:
-  text: При каждом выходе
-use.sun.jdk.prompt:
-  text: Версия Java не поддерживается, используйте Sun/Oracle JDK вместо OpenJDK
-prompt.goto.inspection.enter.name:
-  text: "Введите название проверки:"
-goto.inspection.action.text:
-  text: "&Запустить проверку по имени…"
-label.no.inspections.found:
-  text: Не найдено ни одной проверки
-scripting.lib.name:
-  text: '&Название:'
-scripting.lib.file.title:
-  text: Файлы
-scripting.lib.file.name:
-  text: Название
-scripting.lib.file.location:
-  text: Расположение
-scripting.lib.file.type:
-  text: Тип
-scripting.lib.select.root:
-  text: Выберите файлы или каталоги библиотеки
-scripting.lib.invalid.name:
-  text: Недопустимое название библиотеки
-scripting.lib.attach:
-  text: '&Присоединить…'
-scripting.lib.detach:
-  text: '&Отсоединить'
-scripting.lib.add:
-  text: '&Добавить…'
-scripting.lib.edit:
-  text: '&Изменить…'
-scripting.lib.remove:
-  text: '&Удалить'
-scripting.lib.docUrl.specify:
-  text: '&Указать…'
-scripting.lib.docUrl.remove:
-  text: '&Удалить'
-scripting.lib.docUrl.title:
-  text: URL-адреса документации
-scripting.lib.usageScope:
-  text: Область использования
-scripting.lib.usageScope.caption:
-  text: <html>Укажите, какие библиотеки используются в определённых файлах и/или каталогах</html>
-scripting.lib.usageScope.tableTitle:
-  text: Библиотека
-scripting.lib.usageScope.override.question:
-  text: Переопределить настройки библиотеки для дочерних каталогов и файлов?
-scripting.lib.usageScope.override.title:
-  text: Переопределить настройки библиотеки
-open.url.in.browser.tooltip:
-  text: Открыть в браузере
-whatsnew.action.custom.text:
-  text: Что _нового в {0}
-whatsnew.action.custom.description:
-  text: Узнать о новой функциональности этой версии {0}
-diff.dialog.title:
-  text: Различия между «{0}» и «{1}»
-goto.custom.region.menu.item:
-  text: Пользовательский регион…
-goto.custom.region.command:
-  text: Перейти в Пользовательский регион
-goto.custom.region.message.dumb.mode:
-  text: Действие «Перейти в Пользовательский регион» недоступно, пока не будут построены индексы.
-goto.custom.region.message.unavailable:
-  text: В текущем файле нет пользовательских областей сворачивания.
-alphabetical.mode.is.on.warning:
-  text: Алфавитный порядок для вкладок ВКЛЮЧЁН. Выключить его?
-file.changed.externally.message:
-  text: Файл был изменён на диске.
-file.changed.externally.reload:
-  text: Перезагрузить
-group.presentation.mode:
-  text: Режим презентации
-checkbox.allow.status.bar:
-  text: Разрешить строку состояния
-checkbox.allow.line.numbers:
-  text: Разрешить номера строк
-checkbox.allow.vcs.annotations:
-  text: Разрешить аннотации VCS
-presentation.mode.fon.size:
-  text: 'Размер шрифта:'
-plugin.install.dialog.title:
-  text: Установка расширения
-update.available.group:
-  text: Проверка обновлений
-update.available:
-  text: Доступны обновления
-update.view.updates:
-  text: Просмотреть обновления
-update.there.are.no.updates:
-  text: Нет обновлений
-vmoptions.warn.message:
-  text: Размер кэша кода {0}m слишком мал. Увеличьте его до {1}m (или больше), чтобы избежать снижения производительности. Как это сделать, читайте на <a href="https://github.com/consulo/consulo/wiki/VM-Options">wiki</a>.
-lower.jre.versions.11.message:
-  text: Версии Java ниже 11 не будут поддерживаться в ближайшем будущем. Пожалуйста, перейдите на JRE 11+(<a href="ignore">игнорировать</a>) или <a href="jre">используйте встроенный jre</a>(при следующем обновлении)
-unsupported.jvm.ea.message:
-  text: Версии Java раннего доступа могут вызывать проблемы с совместимостью. Пожалуйста, используйте стабильную версию.
-outdated.jre.version.message1:
-  text: Среда выполнения Java IDE ({0}) устарела — это может вызвать проблемы со стабильностью. Пожалуйста, <a href="switch">переключитесь</a> на связанную среду выполнения Java или обновитесь до {1} или более новой версии
-outdated.jre.version.message2:
-  text: Среда выполнения Java IDE ({0}) устарела — это может вызвать проблемы со стабильностью. Пожалуйста, обновитесь до {1} или более новой версии
-bundled.jre.version.message:
-  text: Пожалуйста, рассмотрите возможность <a href="switch">переключения</a> на связанную среду выполнения Java, которая лучше подходит для IDE (текущая среда выполнения Java — {0}).
-ibus.blocking.warn.message:
-  text: IBus до версии 1.5.11 может вызывать проблемы с вводом. Подробнее см. в <a href="https://youtrack.jetbrains.com/issue/IDEA-78860">IDEA-78860</a>.
-ide.sigint.ignored.message:
-  text: IDE игнорирует SIGINT - кнопка «Стоп» в конфигурациях запуска может не работать. Подробнее см. в <a href="https://youtrack.jetbrains.com/issue/IDEA-157989">IDEA-157989</a>.
-sys.health.acknowledge.link:
-  text: <br/><a href="ack">Больше не показывать</a>.
-low.disk.space.message:
-  text: Мало места на диске в разделе системного каталога {0}
-ide.set.hidpi.mode:
-  text: Возможно, вам придется вручную настроить режим HiDPI, чтобы предотвратить проблемы с масштабированием пользовательского интерфейса. См. руководство <a href="https://intellij-support.jetbrains.com/hc/en-us/articles/115001260010">по устранению неполадок</a>.
-eap.configurable.name:
-  text: Экспериментальные функции
-eap.configurable.warning.text:
-  text: Эти экспериментальные функции могут измениться, сломаться или исчезнуть в любое время. Мы не даем абсолютно никаких гарантий относительно того, что может произойти, если вы включите один из этих экспериментов, и ваша IDE может даже спонтанно возгореться.
-background.task.editor.header:
-  text: '{0} : фоновая задача по изменению vfs доступна для этого файла'
-background.task.button.configure:
-  text: Настроить…
-background.task.button.cancel:
-  text: Отмена
-loading.editors:
-  text: Загрузка файлов…
-button.fix:
-  text: Исправить…
-browsers.explorer:
-  text: Internet Explorer
-browsers.safari:
-  text: Safari
-browsers.opera:
-  text: Opera
-browsers.firefox:
-  text: Firefox
-browsers.chrome:
-  text: Chrome
-display.name.firefox.settings:
-  text: Настройки Firefox
-group.antialiasing.mode:
-  text: Сглаживание
-label.text.antialiasing.scope.ide:
-  text: 'IDE:'
-label.text.antialiasing.scope.editor:
-  text: 'Редактор:'
-activation.auth.title:
-  text: Несанкционированная операция
-activation.auth.message:
-  text: Запуск командной строки устарел. Обновите его (через Инструменты | Создать запуск командной строки).
-error.0.browser.path.not.specified:
-  text: '{0} путь браузера не указан.'
-show.in.find.window.button.name:
-  text: Открыть в окне инструмента поиска
-searcheverywhere.allelements.tab.name:
-  text: Везде
-searcheverywhere.commands.tab.name:
-  text: Команды
-searcheverywhere.run.configs.tab.name:
-  text: Запустить конфигурации
-searcheverywhere.textfield.hint:
-  text: Введите {0}, чтобы увидеть команды
-searcheverywhere.found.matches.title:
-  text: Совпадения для «{0}» в [{1}]
-searcheverywhere.found.targets.title:
-  text: Несортированные результаты
-searcheverywhere.found.matches.generated.code.title:
-  text: Совпадения для «{0}» в [{1}] в сгенерированном коде
-searcheverywhere.history.shortcuts.hint:
-  text: Нажмите {0} или {1} для навигации через историю поиска
-searcheverywhere.nothing.found.for.contributor:
-  text: Не найдено {0}.
-searcheverywhere.nothing.found.for.contributor.anywhere:
-  text: Не найдено {0}.
-searcheverywhere.nothing.found.for.all:
-  text: Ничего не найдено.
-searcheverywhere.nothing.found.for.all.anywhere:
-  text: Ничего не найдено.
-searcheverywhere.indexing.mode.not.supported:
-  text: Поиск в «{0}» недоступен, пока {1} обновляет индексы
-searcheverywhere.indexing.incomplete.results:
-  text: Результаты поиска в «{0}» могут быть неполными, пока {1} обновляет индексы
-searcheverywhere.runconfigurations.command.run.description:
-  text: Запустить конфигурацию запуска в режиме «Выполнить»
-searcheverywhere.runconfigurations.command.debug.description:
-  text: Запустить конфигурацию запуска в режиме «Отладка»
-checkbox.include.non.project.items:
-  text: Включить элементы, не входящие в {0}
-show.in.find.window.button.description:
-  text: Открыть результаты поиска в окне инструмента поиска
-go.to.class.kind.text:
-  text: класс
-go.to.file.toolwindow.title:
-  text: Файлы, соответствующие шаблону
-go.to.class.toolwindow.title:
-  text: '{0}, соответствующий шаблону'
-go.to.class.dumb.mode.message:
-  text: "Действие «Перейти к {0}» недоступно, пока не будут построены индексы, вместо этого используется «Перейти к файлу»"
-go.to.class.action.description:
-  text: Быстрый переход к {0} по имени
-checkbox.disabled.included:
-  text: Включить &отключенные действия
-label.no.enabled.actions.found:
-  text: Включённых действий не найдено
-recent.files.checkbox.label:
-  text: Показать только измененные
-recent.locations.popup.title:
-  text: Недавние местоположения
-recent.locations.changed.locations:
-  text: Недавние измененные местоположения
-recent.locations.popup.empty.text:
-  text: Недавние местоположения не найдены
-recent.locations.title.text:
-  text: Показать измененные только
-recent.locations.popup.empty.file.text:
-  text: Пустые строки
-run.anything.command.empty.list.title:
-  text: Нажмите ENTER, чтобы выполнить команду ввода
-run.anything.console.process.finished:
-  text: |2-
-    
-    Процесс завершён с кодом выхода {0}.
-run.anything.console.title:
-  text: Запустить команду «что угодно»
-run.anything.console.error.title:
-  text: Невозможно запустить команду
-run.anything.run.debug.title:
-  text: "Отладка:"
-run.anything.run.in.context.title:
-  text: "Запустить в контексте:"
-run.anything.run.in.context.debug.title:
-  text: "Запустить в контексте с отладкой:"
-run.anything.run.anything.title:
-  text: Выполнить что угодно
-run.anything.group.title.commands:
-  text: Последние команды
-run.anything.group.title.temporary:
-  text: Временные конфигурации
-run.anything.group.title.permanent:
-  text: Постоянные конфигурации
-run.anything.group.settings.title:
-  text: Показать «{0}»
-run.anything.custom.activity.rollback.action:
-  text: Откат
-run.anything.custom.activity.notification.group.id:
-  text: Выполнить что угодно
-run.anything.ad.run.action.with.default.settings:
-  text: Нажмите {0}, чтобы запустить с настройками по умолчанию
-run.anything.ad.run.with.debug:
-  text: '{0} для отладки'
-run.anything.ad.run.in.context:
-  text: Нажмите {0} для запуска в текущем контексте файла
-run.anything.ad.command.delete:
-  text: '{0} для удаления последней команды'
-run.anything.general.group.title:
-  text: Общие
-run.anything.recent.group.title:
-  text: Последние
-run.anything.recent.project.help.group.title:
-  text: Последние проекты
-run.anything.recent.project.completion.group.title:
-  text: Последние проекты
-run.anything.recent.project.command.placeholder:
-  text: открыть <название проекта>
-run.anything.actions.undefined:
-  text: Не определено
-run.anything.notification.warning.content:
-  text: Не удалось выполнить команду «{0}».
-run.anything.notification.warning.title:
-  text: Неудачное выполнение команды
-run.anything.run.configurations.group.title:
-  text: Конфигурации запуска
-run.anything.help.list.empty.secondary.text:
-  text: Выберите команду
-run.anything.main.list.empty.primary.text:
-  text: Выполнить команду или конфигурацию
-run.anything.main.list.empty.secondary.text:
-  text: Введите «?» для просмотра всех команд
-run.anything.action.tooltip.text:
-  text: "Выполнение операций: открытие проектов, запуск конфигураций выполнения, выполнение заданий Maven или Gradle, выполнение команд терминала и т.д."
-run.anything.double.ctrl.shortcut:
-  text: Двойной {0}
-run.anything.hint.initial.text:
-  text: Нажмите {0} или {1} для навигации по списку предложений
-run.anything.indexing.mode.not.supported:
-  text: "Действие «Выполнить что угодно» недоступно во время обновления индексов"
-run.anything.context.browse.directory:
-  text: Обзор каталога…
-run.anything.context.project:
-  text: Проект
-run.anything.context.title.working.directory:
-  text: Рабочий каталог
-run.anything.context.separator.directories:
-  text: Каталоги
-run.anything.context.separator.modules:
-  text: Модули
-run.anything.context.tooltip:
-  text: Выберите контекст, в котором будет выполнена текущая команда in
-web.search.label.layout:
-  text: Веб-поиск
-checksum.failed:
-  text: Несоответствие контрольной суммы. Попробуйте ещё раз позже
-message.path.to.fqn.has.been.copied:
-  text: "«{0}» был скопирован."
-action.DumbAware.BuildView.text.stop:
-  text: BuildView
-action.DumbAware.CopyrightProfilesPanel.description.stop:
-  text: Остановить
-action.ToggleAction.text.toggle.view:
-  text: Переключить вид
-action.ToggleAction.text.filter:
-  text: Фильтр
-file.encoding.option.global.encoding:
-  text: Глобальная кодировка
-file.encoding.option.project.encoding:
-  text: Кодировка проекта
-file.encoding.option.encoding.column:
-  text: Кодировка
-file.encoding.option.path.column:
-  text: Путь
-file.encoding.option.properties.files:
-  text: Файлы свойств (*.properties)
-file.encoding.option.create.utf8.files:
-  text: "Создать UTF-8-файлы:"
-file.encoding.option.warning.always:
-  text: "<html> {0} добавит <a>UTF-8 BOM</a> к каждому созданному файлу в кодировке UTF-8</html>"
-file.encoding.option.warning.never:
-  text: "<html> {0} НЕ добавит <a>UTF-8 BOM</a> к каждому созданному файлу в кодировке UTF-8</html>"
-file.encoding.option.warning.windows.only:
-  text: "<html> {0} добавит <a>UTF-8 BOM</a> к каждому созданному файлу UTF-8 только при запуске под Windows.</html>"
-handle.ro.file.status.type.using.file.system:
-  text: используя файловую систему
-handle.ro.file.status.failed:
-  text: "<html>Не удалось изменить статус «только для чтения» для следующих файлов:<br>{0}</html>"
-dialog.title.clear.read.only.file.status:
-  text: Очистить статус «Только для чтения»
-progress.text.reloading.file:
-  text: Перезагрузка файла…
-progress.title.reload.files:
-  text: Перезагрузка файлов
-progress.text.reloading.files:
-  text: Перезагрузка файлов…
-checkbox.use.preview.window:
-  text: Перейти к предварительному просмотру
-ide.hide.navigation.on.focus.loss.description:
-  text: Скрыть всплывающие окна навигации при потере фокуса
-dnd.with.alt.pressed.only:
-  text: Перетаскивание только с нажатой клавишей ALT
-small.labels.in.editor.tabs:
-  text: Небольшие метки на вкладках редактора
-allow.merging.dialog.buttons:
-  text: Разрешить кнопки слияния в диалоговых окнах
-display.balloon.notifications:
-  text: Отобразить всплывающее окно уведомления
-option.hide.tool.window.bars:
-  text: Скрыть панели инструментов
-show.main.toolbar:
-  text: Показать главную панель инструментов
-show.status.bar:
-  text: Показать строку состояния
-show.navigation.bar:
-  text: Показать панель навигации
-label.option.appearance:
-  text: "Внешний вид: {0}"
-label.option.mouse:
-  text: "Мышь: {0}"
-label.option.tabs:
-  text: "Вкладки: {0}"
-label.option.ui:
-  text: "Пользовательский интерфейс: {0}"
-label.option.view:
-  text: "Вид: {0}"
-label.option.virtual.space:
-  text: "Виртуальное пространство: {0}"
-label.option.window:
-  text: "Окно: {0}"
-label.appearance.caret.blinking:
-  text: Мигание курсора
-label.appearance.show.right.margin:
-  text: Показать правое поле
-label.appearance.show.leading.whitespaces:
-  text: Показать начальные пробелы
-label.appearance.show.inner.whitespaces:
-  text: Показать внутренние пробелы
-label.appearance.show.trailing.whitespaces:
-  text: Показать конечные пробелы
-label.tabs.show.directory.for.non.unique.filenames:
-  text: Показать каталог во вкладках редактора для неуникальных названий файлов
-command.fixing.line.separators:
-  text: исправление разделителей строк
-action.Anonymous.text.rename:
-  text: Переименовать
-action.Anonymous.text.new.group:
-  text: Новая группа…
-command.switch.active.editor:
-  text: Переключить активный редактор
-change.encoding.command.name:
-  text: "Изменить кодировку для «{0}»"
-action.Anonymous.text.live.templates:
-  text: Живые шаблоны
-dialog.title.choose.color:
-  text: Выбрать цвет
-progress.performing.indexing.tasks:
-  text: Выполнение задач индексирования
-dumb.service.indexing.paused.due.to:
-  text: Индексирование приостановлено из-за {0}
-action.Anonymous.text.add.keyboard.shortcut:
-  text: Добавить клавиатуру Ярлык
-action.Anonymous.text.add.mouse.shortcut:
-  text: Добавить ярлык мыши
+    text: Обновить
+FileChooser.viewMenuLabelText:
+    text: Просмотр
+aboutbox.build.date:
+    text: ', построено на {0}'
+aboutbox.build.number:
+    text: Сборка №{0}
+aboutbox.jdk:
+    text: 'JDK: {0}'
+aboutbox.maintenance.due:
+    text: Право на бесплатные обновления и модернизации до {0,date,MMMM dd, yyyy}
+aboutbox.vm:
+    text: 'VM: {0} by {1}'
 action.Anonymous.text.add.abbreviation:
-  text: Добавить сокращение
+    text: Добавить сокращение
+action.Anonymous.text.add.keyboard.shortcut:
+    text: Добавить клавиатуру Ярлык
+action.Anonymous.text.add.mouse.shortcut:
+    text: Добавить ярлык мыши
+action.Anonymous.text.live.templates:
+    text: Живые шаблоны
+action.Anonymous.text.new.group:
+    text: Новая группа…
+action.Anonymous.text.rename:
+    text: Переименовать
 action.Anonymous.text.reset.shortcuts:
-  text: Сбросить ярлыки
-dialog.title.abbreviation:
-  text: Сокращение
-label.enter.new.abbreviation:
-  text: "Введите новое сокращение:"
-action.text.remove.abbreviation.0:
-  text: Удалить сокращение «{0}»
-action.text.remove.0:
-  text: Удалить {0}
-popup.title.edit.shortcuts:
-  text: Изменить ярлыки
-project.directory.is.not.writable:
-  text: Каталог «{0}», похоже, недоступен для записи. Выберите другое местоположение.
-action.ToggleAction.pin.window.text:
-  text: Закрепить окно
+    text: Сбросить ярлыки
+action.DumbAware.BuildView.text.stop:
+    text: BuildView
+action.DumbAware.CopyrightProfilesPanel.description.stop:
+    text: Остановить
 action.ToggleAction.pin.window.description:
-  text: Закрепить окно
+    text: Закрепить окно
+action.ToggleAction.pin.window.text:
+    text: Закрепить окно
+action.ToggleAction.text.filter:
+    text: Фильтр
+action.ToggleAction.text.toggle.view:
+    text: Переключить вид
+action.abbreviate.qualified.package.names:
+    text: Сокращённые имена квалифицированных пакетов
+action.activate.tool.window:
+    text: Активировать окно {0}
+action.add:
+    text: Добавить
+action.add.all.open.tabs.to.new.favorites.list:
+    text: Добавить все открытые вкладки в новый список избранного
+action.add.repository:
+    text: Добавить репозиторий
+action.add.to.new.favorites.list:
+    text: Добавить в _новый список избранного
+action.append:
+    text: Добавить
+action.base.on.this.class:
+    text: Основан на этом классе
+action.base.on.this.interface:
+    text: Основан на этом интерфейсе
+action.base.on.this.method:
+    text: Основывать на этом методе
+action.bookmark.delete:
+    text: Удалить закладку
+action.bookmark.edit.description:
+    text: Изменить описание
+action.bookmark.edit.description.description:
+    text: Назначьте краткое описание для закладки, которая будет отображаться вместе с названием файла
+action.bookmark.edit.description.dialog.message:
+    text: Введите краткое описание закладки
+action.bookmark.edit.description.dialog.title:
+    text: Описание закладки
+action.bookmark.toggle:
+    text: Переключить _Bookmark
+action.bookmark.toggle.mnemonic:
+    text: Переключить закладку с помощью мнемоники
+action.browse.call.hierarchy:
+    text: Просмотр иерархии вызовов
+action.browse.method.hierarchy:
+    text: Просмотр иерархии методов
+action.browse.type.hierarchy:
+    text: Просмотр иерархии типов
+action.callee.methods.hierarchy:
+    text: Иерархия вызываемых методов
+action.caller.methods.hierarchy:
+    text: Иерархия вызывающих методов
+action.choose.actions.to.add:
+    text: Выберите действия для добавления
+action.clear.list:
+    text: _Очистить список
+action.close:
+    text: _Закрыть
+action.close.all.editors:
+    text: Закрыть _все
+action.close.all.editors.in.tab.group:
+    text: Закрыть _все в группе
+action.close.all.unmodified.editors:
+    text: Закрыть _Неизмененные
+action.close.all.unmodified.editors.in.tab.group:
+    text: Закрыть _неизмененные в группе
+action.close.all.unpinned.editors:
+    text: Закрыть все, кроме закрепленных
+action.close.all.unpinned.editors.in.tab.group:
+    text: Закрыть все, кроме закрепленных в группе
+action.close.project:
+    text: Закрыть проект
+action.collapse.all:
+    text: Свернуть всё
+action.compact.empty.middle.packages:
+    text: Сжать пустые средние пакеты
+action.continue.searching:
+    text: Продолжить поиск
+action.copy.path:
+    text: Копировать путь
+action.copy.paths:
+    text: Копировать пути
+action.copy.template:
+    text: Копировать шаблон
+action.create.annotation.type:
+    text: Создать @interface
+action.create.new.class.name.field:
+    text: Название
+action.create.new.directory.or.package:
+    text: Создать новый каталог или пакет
+action.create.new.enum:
+    text: Создать новый Enum
+action.create.new.file:
+    text: Файл
+action.create.new.file.description:
+    text: Создать новый файл
+action.create.new.interface:
+    text: Создать новый интерфейс
+action.create.template:
+    text: Создать шаблон
+action.delete:
+    text: _Удалить
+action.delete.all.favorites.lists.but.this:
+    text: Удалить все пользовательские списки, кроме «{0}»
+action.delete.ellipsis:
+    text: _Удалить…
+action.delete.favorites.list:
+    text: Удалить список избранного «{0}»
+action.description.create.new.module.group:
+    text: Создать новую группу модулей
+action.description.create.new.package:
+    text: Создать новый пакет
+action.description.group.by.scope:
+    text: Группировать по типу области (производство, тестирование, библиотеки)
+action.description.show.files:
+    text: Показать/скрыть файлы
+action.description.show.included.only:
+    text: Показать только файлы, включённые в текущую выбранную область
+action.description.show.modules:
+    text: Показать/скрыть модули
+action.description.show.structure:
+    text: Показать вид структуры
+action.description.todo.show.all:
+    text: Показать все элементы TODO
+action.description.view.class.hierarchy:
+    text: Переключиться на иерархию классов
+action.description.view.subtypes.hierarchy:
+    text: Переключиться на Иерархия подтипов
+action.description.view.supertypes.hierarchy:
+    text: Переключиться на иерархию супертипов
+action.descriptor.action:
+    text: 'Действие: {0}'
+action.descriptor.keystroke:
+    text: 'Нажатие клавиши: «{0}»'
+action.descriptor.typing:
+    text: 'Ввод: «{0}»'
+action.directory:
+    text: Каталог
+action.do.not.mark:
+    text: Не отмечать
+action.download.and.install.plugin:
+    text: Загрузка и установка
+action.edit.file.templates:
+    text: Изменить шаблоны файлов…
+action.edit.repository.url:
+    text: Редактировать URL репозитория
+action.expand.all:
+    text: Развернуть всё
+action.filter.todo.items:
+    text: Фильтр элементов TODO
+action.flatten.packages:
+    text: Свести пакеты
+action.flatten.view:
+    text: Свести вид
+action.from.file.template:
+    text: Из шаблона файла …
+action.group.by.modules:
+    text: Группировать по модулям
+action.group.by.packages:
+    text: Группировать по пакетам
+action.group.by.scope.type:
+    text: Группировать по типу области
+action.help:
+    text: Справка
+action.hide.all.windows:
+    text: Скрыть все _окна
+action.hide.empty.middle.packages:
+    text: Скрыть пустые средние пакеты
+action.hide.infos:
+    text: Скрыть информацию
+action.hide.non.implementations:
+    text: Скрыть классы, в которых метод не реализован юридически
+action.hide.warnings:
+    text: Скрыть предупреждения
+action.implement.method:
+    text: Реализовать метод
+action.implement.methods:
+    text: Реализовать методы
+action.manual.order:
+    text: Ручной порядок
+action.mark:
+    text: Отметить
+action.move.module.new.top.level.group:
+    text: Новая группа верхнего уровня…
+action.move.module.outside.any.group:
+    text: Вне любой группы
+action.move.module.to.new.sub.group:
+    text: В новую подгруппу…
+action.move.module.to.this.group:
+    text: В эту группу
+action.new.package:
+    text: Новый пакет…
+action.next.message:
+    text: Следующее сообщение
+action.next.problem:
+    text: Следующая проблема
+action.next.tip:
+    text: '&Следующий совет'
+action.next.todo:
+    text: Следующий TODO
+action.override.method:
+    text: Переопределить метод
+action.override.methods:
+    text: Переопределить методы
+action.overwrite:
+    text: Перезаписать
+action.package:
+    text: Пакет
+action.pin.active.tab:
+    text: Вставить вкладку
+action.pin.tab:
+    text: Вставить вкладку
+action.previous.message:
+    text: Предыдущее сообщение
+action.previous.problem:
+    text: Предыдущая проблема
+action.previous.tip:
+    text: '&Предыдущий совет'
+action.previous.todo:
+    text: Предыдущий TODO
+action.refresh:
+    text: Обновить
+action.remove:
+    text: Удалить
+action.remove.from.current.favorites:
+    text: Удалить из текущего избранного
+action.remove.repository.from.list:
+    text: Удалить репозиторий из списка
+action.remove.template:
+    text: Удалить шаблон
+action.rename.favorites.list:
+    text: Переименовать список избранного
+action.reset.to.default:
+    text: Сбросить до значений по умолчанию
+action.restore.windows:
+    text: Восстановить _окна
+action.select.none:
+    text: '&Ничего не выбирать'
+action.send.to.new.favorites.list:
+    text: Отправить в новый список избранного
+action.show.classes:
+    text: Показать классы
+action.show.compact.empty.middle.packages:
+    text: Показать/сжать пустые средние пакеты
+action.show.excluded.files:
+    text: Показать исключенные файлы
+action.show.files:
+    text: Показать Файлы
+action.show.hide.empty.middle.packages:
+    text: Показать/скрыть пустые средние пакеты
+action.show.hide.excluded.files:
+    text: Показать/скрыть исключенные файлы
+action.show.hide.library.contents:
+    text: Показать/скрыть содержимое библиотек
+action.show.hide.members:
+    text: Показать/скрыть участников
+action.show.included.only:
+    text: Показать только включённые
+action.show.infos:
+    text: Показать информацию
+action.show.libraries.contents:
+    text: Показать содержимое библиотек
+action.show.members:
+    text: Показать участников
+action.show.modules:
+    text: Показать модули
+action.show.structure:
+    text: Показать структуру
+action.show.warnings:
+    text: Показать предупреждения
+action.sort.alphabetically:
+    text: Сортировать по алфавиту
+action.sort.by.type:
+    text: Сортировать по типу
+action.split.horizontally:
+    text: Разделить по _горизонтали
+action.split.vertically:
+    text: Разделить по _вертикали
+action.start.macro.recording:
+    text: Начать запись _макроса
+action.stop:
+    text: Остановить
+action.stop.macro.recording:
+    text: Остановить запись _макроса
+action.stop.searching:
+    text: Остановить поиск
+action.structureview.group.methods.by.defining.type:
+    text: Группировка методов по определяемому типу
+action.structureview.show.fields:
+    text: Показать поля
+action.structureview.show.inherited:
+    text: Показать унаследованные
+action.structureview.show.non.public:
+    text: Показать непубличные
+action.structureview.show.properties:
+    text: Показать свойства
+action.structureview.sort.by.visibility:
+    text: Сортировка по видимости
+action.sync.completed.successfully:
+    text: 'Синхронизация файлов успешно завершена.'
+action.synchronize.file:
+    text: Синхронизировать «{0}»
+action.synchronize.selected.files:
+    text: Синхронизировать выбранные файлы
+action.text.remove.0:
+    text: Удалить {0}
+action.text.remove.abbreviation.0:
+    text: Удалить сокращение «{0}»
+action.todo.edit.filters:
+    text: Изменить фильтры
+action.todo.show.all:
+    text: Показать все
+action.toolwindow.ant.build:
+    text: Сборка &Ant
+action.toolwindow.commander:
+    text: '&Commander'
+action.toolwindow.cvs:
+    text: C&VS
+action.toolwindow.debug:
+    text: Отладка
+action.toolwindow.favorites:
+    text: Избранное
+action.toolwindow.find:
+    text: '&Искать'
+action.toolwindow.hierarchy:
+    text: '&Иерархия'
+action.toolwindow.inspection:
+    text: '&Инспекция'
+action.toolwindow.messages:
+    text: '&Сообщения'
+action.toolwindow.project:
+    text: '&Проект'
+action.toolwindow.run:
+    text: '&Запустить'
+action.toolwindow.structure:
+    text: '&Структура'
+action.toolwindow.todo:
+    text: TODO
+action.uninstall.plugin:
+    text: Удалить
+action.unpin.active.tab:
+    text: _Отменить пришпиливание активной вкладки
+action.unpin.tab:
+    text: Отменить пришпиливание вкладки
+action.unpin.tab.tooltip:
+    text: Отменить пришпиливание вкладки
+action.update.plugin:
+    text: Обновление расширения
+action.view.class.hierarchy:
+    text: Иерархия классов
+action.view.subtypes.hierarchy:
+    text: Иерархия подтипов
+action.view.supertypes.hierarchy:
+    text: Иерархия супертипов
+activation.auth.message:
+    text: Запуск командной строки устарел. Обновите его (через Инструменты | Создать запуск командной строки).
+activation.auth.title:
+    text: Несанкционированная операция
+add.BOM:
+    text: Добвить BOM
+add.byte.order.mark.to:
+    text: Добавить знак порядка байтов (BOM) в {0}
+add.local.scope.action.text:
+    text: Локальная
+add.scope.dialog.title:
+    text: Добавить новую область
+add.scope.name.label:
+    text: Название
+add.scope.popup.title:
+    text: Добавить область
+add.shared.scope.action.text:
+    text: Общая
+allow.merging.dialog.buttons:
+    text: Разрешить кнопки слияния в диалоговых окнах
+alphabetical.mode.is.on.warning:
+    text: Алфавитный порядок для вкладок ВКЛЮЧЁН. Выключить его?
+attribute.0.should.be.defined:
+    text: «{0}» атрибут должен быть определён
+available.packages.dialog.title:
+    text: Доступные пакеты
+background.task.button.cancel:
+    text: Отмена
+background.task.button.configure:
+    text: Настроить…
+background.task.editor.header:
+    text: '{0} : фоновая задача по изменению vfs доступна для этого файла'
+bean.property:
+    text: Свойство компонента
+bookmark.file.X.line.Y:
+    text: '{0}, строка {1}'
+browsers.chrome:
+    text: Chrome
+browsers.explorer:
+    text: Internet Explorer
+browsers.firefox:
+    text: Firefox
+browsers.opera:
+    text: Opera
+browsers.safari:
+    text: Safari
+browsers.settings:
+    text: Веб-браузеры
+bundled.jre.version.message:
+    text: Пожалуйста, рассмотрите возможность <a href="switch">переключения</a> на связанную среду выполнения Java, которая лучше подходит для IDE (текущая среда выполнения Java — {0}).
+button.add:
+    text: '&Добавить…'
+button.add.action.after:
+    text: Добавить &после…
+button.add.d:
+    text: Добавить…
+button.add.separator:
+    text: Добавить &разделитель
+button.cancel:
+    text: '&Отмена'
+button.change.directory:
+    text: Изменить каталог…
+button.configure:
+    text: '&Настроить…'
+button.configure.e:
+    text: Настроить…
+button.copy:
+    text: '&Копировать'
+button.create:
+    text: '&Создать'
+button.delete:
+    text: Удалить
+button.edit:
+    text: '&Изменить…'
+button.edit.action.icon:
+    text: Изменить действие &значок…
+button.edit.t:
+    text: Изменить…
+button.exclude:
+    text: Исключить
+button.exclude.recursively:
+    text: Исключить рекурсивно
+button.existingframe:
+    text: '&Это окно'
+button.facet.quickfix.text:
+    text: '&Исправить'
+button.finish:
+    text: '&Готово'
+button.fix:
+    text: Исправить…
+button.go.to:
+    text: '&Перейти к'
+button.http.proxy.settings:
+    text: '&Настройки прокси-сервера HTTP…'
+button.include:
+    text: Включить
+button.include.recursively:
+    text: Включить рекурсивно
+button.insert:
+    text: Вставить
+button.mark.all:
+    text: '&Отметить все'
+button.move.down:
+    text: Переместить &вниз
+button.move.down.d:
+    text: Переместить &вниз
+button.move.up:
+    text: Переместить &вверх
+button.move.up.u:
+    text: Переместить &вверх
+button.newframe:
+    text: Новое &окно
+button.no:
+    text: _Нет
+button.ok:
+    text: '&OK'
+button.remove:
+    text: '&Удалить'
+button.remove.action:
+    text: Удалить действие
+button.remove.all:
+    text: Удалить &всё
+button.remove.m:
+    text: Удалить
+button.rename:
+    text: Переименовать
+button.save:
+    text: Сохранить
+button.set.icon:
+    text: '&Установить значок'
+button.stop.searching:
+    text: '&Остановить Поиск'
+button.unmark.all:
+    text: '&Снять отметку со всех'
+button.view.source:
+    text: '&Просмотреть исходный код'
+button.wizard.next:
+    text: '&Далее'
+button.wizard.previous:
+    text: '&Предыдущий'
+button.yes:
+    text: _Да
+change.encoding.command.name:
+    text: Изменить кодировку для «{0}»
+changelist.todo.title:
+    text: '{0} Список изменений'
+checkboox.cyclic.scrolling.in.lists:
+    text: Циклическая прокрутка в списке
+checkbox.allow.line.numbers:
+    text: Разрешить номера строк
+checkbox.allow.status.bar:
+    text: Разрешить строку состояния
+checkbox.allow.vcs.annotations:
+    text: Разрешить аннотации VCS
+checkbox.animate.windows:
+    text: Анимация окон
+checkbox.autodetect.utf:
+    text: Автоматическое определение файлов в кодировке UTF
+checkbox.case.sensitive:
+    text: Чувствителен к регистру
+checkbox.confirm.application.exit:
+    text: Подтверждать закрытия приложения
+checkbox.copy.javadoc:
+    text: Копировать &JavaDoc
+checkbox.customfiletype.ignore.case:
+    text: '&Игнорировать регистр'
+checkbox.customfiletype.support.paired.braces:
+    text: Поддержка парных b&races
+checkbox.customfiletype.support.paired.brackets:
+    text: Поддержка парных bra&ckets
+checkbox.customfiletype.support.paired.parens:
+    text: Поддержка парных &parens
+checkbox.customfiletype.support.string.escapes:
+    text: Поддержка строковых &escapes
+checkbox.disabled.included:
+    text: Включить &отключенные действия
+checkbox.enable.live.templates:
+    text: Включить &Live Templates
+checkbox.errortree.export.details:
+    text: Подробности
+checkbox.include.non.project.classes:
+    text: Включить &непроектные классы
+checkbox.include.non.project.files:
+    text: Включить &непроектные файлы
+checkbox.include.non.project.items:
+    text: Включить элементы, не входящие в {0}
+checkbox.include.non.project.symbols:
+    text: Включить &непроектные символы
+checkbox.insert.at.override:
+    text: Вставить @&Переопределить
+checkbox.left.toolwindow.layout:
+    text: Расположение бок о бок слева
+checkbox.narrow.down.on.typing:
+    text: '&Сузить при вводе'
+checkbox.narrow.down.the.list.on.typing:
+    text: '&Сузить список при вводе'
+checkbox.other.included:
+    text: Включить &non-menu actions
+checkbox.override.default.laf.fonts:
+    text: 'Использовать пользовательский шрифт:'
+checkbox.position.cursor.on.default.button:
+    text: Автоматически размещать курсор мыши на кнопке по умолчанию
+checkbox.reformat.according.to.style:
+    text: Переформатировать в соответствии со стилем
+checkbox.reopen.last.project.on.startup:
+    text: Переоткрыть последний проект при запуске
+checkbox.right.toolwindow.layout:
+    text: Расположение бок о бок справа
+checkbox.safe.delete.with.usage.search:
+    text: Безопасное удаление (с поиском по использованию)
+checkbox.save.files.automatically:
+    text: Автоматически сохранять файлы, если приложение бездействует в течение
+checkbox.save.files.on.frame.deactivation:
+    text: Сохранять файлы при деактивации фрейма
+checkbox.search.in.comments.and.strings:
+    text: '&Поиск в комментариях и строках'
+checkbox.search.in.non.java.files:
+    text: Поиск некодовые использования
+checkbox.show.editor.preview.popup:
+    text: Показать подсказку предварительного просмотра редактора
+checkbox.show.icons.in.menu.items:
+    text: Отображение значков в элементах меню
+checkbox.show.icons.in.quick.navigation:
+    text: Показывать значки в быстром navigation
+checkbox.show.memory.indicator:
+    text: Показать индикатор памяти
+checkbox.show.tips.on.startup:
+    text: Показывать советы при запуске
+checkbox.show.tool.window.bars:
+    text: Показать панели окна инструментов
+checkbox.show.tool.window.numbers:
+    text: Показать номера окон инструментов
+checkbox.support.screen.readers:
+    text: Поддержка экранных читалок (требуется перезапуск)
+checkbox.synchronize.files.on.frame.activation:
+    text: Синхронизировать файлы при активации фрейма
+checkbox.todo.use.default.colors:
+    text: Использовать цветовую схему TODO по умолчанию
+checkbox.transparent.native.to.ascii.conversion:
+    text: Прозрачное преобразование native-to-ascii
+checkbox.use.antialiased.font.in.editor:
+    text: Использовать сглаживание шрифт
+checkbox.use.preview.window:
+    text: Перейти к предварительному просмотру
+checkbox.use.transparent.mode.for.floating.windows:
+    text: Использовать прозрачный режим для плавающих окон
+checkbox.widescreen.tool.window.layout:
+    text: Широкоэкранная компоновка окна инструментов
+checksum.failed:
+    text: Несоответствие контрольной суммы. Попробуйте ещё раз позже
+child.tag.0.should.be.defined:
+    text: «{0}» дочерний тег должен быть определён
+code.folding.settings:
+    text: Настройки сворачивания кода
+column.description:
+    text: Описание
+column.plugins.category:
+    text: Категория
+column.plugins.date:
+    text: Дата
+column.plugins.downloads:
+    text: Загрузки
+column.plugins.name:
+    text: Название
+column.plugins.rate:
+    text: Рейтинг
+column.plugins.tag:
+    text: Тег
+column.todo.filter.pattern:
+    text: Шаблон
+column.todo.filter.patterns:
+    text: Шаблоны
+column.todo.filters.name:
+    text: Название
+column.todo.patterns.case.sensitive:
+    text: Чувствителен к регистру
+column.todo.patterns.icon:
+    text: Значок
+column.todo.patterns.pattern:
+    text: Шаблон
+combobox.console.default.encoding.label:
+    text: 'Кодировка по умолчанию:'
+combobox.icon.theme:
+    text: Тема значков
+combobox.icon.theme.ui.default:
+    text: <Из темы пользовательского интерфейса>
+combobox.look.and.feel:
+    text: Тема пользовательского интерфейса
+command.close.active.editor:
+    text: Закрыть активный редактор
+command.close.all.editors:
+    text: Закрыть все редакторы
+command.close.all.unmodified.editors:
+    text: Закрыть все немодифицированные редакторы
+command.create.class.from.template:
+    text: Создать класс из шаблона
+command.create.directory:
+    text: Создать каталог
+command.create.enum:
+    text: Создать enum
+command.create.file:
+    text: Создать файл
+command.create.file.from.template:
+    text: Создать файл из шаблона
+command.create.interface:
+    text: Создать интерфейс
+command.create.new.package:
+    text: Создать новый пакет
+command.create.new.subdirectory:
+    text: Создать новый подкаталог
+command.create.package:
+    text: Создать пакет
+command.find.next:
+    text: Найти следующий
+command.find.previous:
+    text: Найти предыдущий
+command.fixing.line.separators:
+    text: исправление разделителей строк
+command.go.to.line:
+    text: Перейти к строке
+command.go.to.next.split:
+    text: Перейти к следующему разделению
+command.go.to.prev.split:
+    text: Перейти к предыдущему разделению
+command.pasting.reference:
+    text: Вставка ссылки
+command.reload.from.disk:
+    text: Перезагрузить с диска
+command.renaming.module:
+    text: Переименование модуля {0}
+command.select.all:
+    text: Выбрать все
+command.switch.active.editor:
+    text: Переключить активный редактор
+confirm.set.look.and.feel:
+    text: Изменить &тему
+connection.failed.message:
+    text: 'Не удалось загрузить описания расширений из: «{0}»'
+conversion.dialog.text.1:
+    text: Проект «{0}» имеет старый формат и будет преобразован. Вы не сможете открыть проект с помощью более ранних версий {1}.
+conversion.dialog.text.2:
+    text: '<b> </b><a href="details">Подробности…</a><br/><br/>Старые версии файлов проекта будут сохранены в: «{0}»'
+copy.reference:
+    text: Ко&пировать ссылку
+copy.references:
+    text: Ко&пировать ссылки
+copy.relative.path:
+    text: Ко&пировать относительный путь
+copy.relative.paths:
+    text: Ко&пировать относительные пути
+create.default.library.type.action.name:
+    text: По умолчанию
+custom.icon.validation.message:
+    text: Значок слишком большой для отображения в меню
+custom.icon.validation.title:
+    text: Недопустимый размер значка
+description.copy.text.to.clipboard:
+    text: Копировать текст в буфер обмена
+description.select.module.file.location:
+    text: Файл модуля будет сохранён в выбранном каталоге
+description.select.project.file.directory:
+    text: Файл {0} будет сохранён в этом каталоге
+detach.library:
+    text: Отсоединить библиотеку
+detach.library.from.module:
+    text: |-
+        Отсоединить библиотеку «{0}» от модуля «{1}»?
+        Ни один файл на диске не будет повреждён.
+dialog.directory.for.downloaded.files.title:
+    text: Загруженные файлы будут скопированы в выбранный каталог
+dialog.title.abbreviation:
+    text: Сокращение
+dialog.title.choose.color:
+    text: Выбрать цвет
+dialog.title.clear.read.only.file.status:
+    text: Очистить статус «Только для чтения»
+dialog.title.convert.module:
+    text: Преобразовать модуль
+dialog.title.convert.project:
+    text: Преобразовать проект
+diff.dialog.title:
+    text: Различия между «{0}» и «{1}»
+directory.module.content.root:
+    text: |
+        Корневой каталог контента модуля
+directory.module.file:
+    text: |
+        Каталог файла модуля
+directory.project.file.directory:
+    text: |
+        Каталог файлов {0}
+disabled.plugins.warning.message:
+    text: <li>Расширение <b>«{0}»</b> не сможет загрузиться, так как требуемые {2, choice, 1#расширение|2#расширения} {1} {2, choice, 1#отключено|2#отключены}.</li>
+display.balloon.notifications:
+    text: Отобразить всплывающее окно уведомления
+display.name.firefox.settings:
+    text: Настройки Firefox
+dnd.with.alt.pressed.only:
+    text: Перетаскивание только с нажатой клавишей ALT
+dom.elements.tree.childs.contain.errors:
+    text: Дочерние элементы содержат ошибки
+dumb.service.indexing.paused.due.to:
+    text: Индексирование приостановлено из-за {0}
+eap.configurable.name:
+    text: Экспериментальные функции
+eap.configurable.warning.text:
+    text: Эти экспериментальные функции могут измениться, сломаться или исчезнуть в любое время. Мы не даем абсолютно никаких гарантий относительно того, что может произойти, если вы включите один из этих экспериментов, и ваша IDE может даже спонтанно возгореться.
+editbox.customfiletype.block.comment.end:
+    text: 'Конец комментария блока:'
+editbox.customfiletype.block.comment.start:
+    text: 'Начало комментария блока:'
+editbox.customfiletype.description:
+    text: 'Описание:'
+editbox.customfiletype.hex.prefix:
+    text: 'Шестнадцатеричный префикс:'
+editbox.customfiletype.line.comment:
+    text: 'Комментарий строки:'
+editbox.customfiletype.name:
+    text: 'Название:'
+editbox.customfiletype.number.postfixes:
+    text: 'Количество постфиксов:'
+editbox.default.encoding.for.properties.files:
+    text: 'Кодировка по умолчанию для свойств files:'
+editbox.export.settings.to:
+    text: 'Экспорт настроек в:'
+editbox.export.to.file:
+    text: 'Экспортировать в файл:'
+editbox.ignore.files.and.folders:
+    text: Игнорировать файлы и папки
+editbox.keyword:
+    text: 'Ключевое слово:'
+editbox.license.license.key:
+    text: 'Лицензионный ключ:'
+editbox.license.user.name:
+    text: 'Пользователь name:'
+editbox.line.number:
+    text: 'Номер строки:'
+editbox.plugin.change.notes:
+    text: Изменить заметки
+editbox.plugin.description:
+    text: Описание
+element.method:
+    text: метод
+element.of.class:
+    text: класса
+element.of.interface:
+    text: интерфейса
+encoding.name.system.default:
+    text: <Системное значение по умолчанию>
+encodings.dialog.caption:
+    text: |-
+        <html>Чтобы изменить кодировку, которую {0} использует для файла или каталога, щёлкните элемент и выберите кодировку из списка кодировок по умолчанию.<br/><br/>
+        Встроенная кодировка файла (например, JSP, HTML или XML) переопределяет указанную здесь кодировку.<br/>
+        Если не указано, файлы и каталоги наследуют настройки кодировки из родительского каталога или из кодировки проекта.</html>
+error.0.browser.path.not.specified:
+    text: '{0} путь браузера не указан.'
+error.adding.action.without.icon.to.toolbar:
+    text: Вы добавляете действие без значка на панель инструментов. К этому действию будет добавлен значок по умолчанию.
+error.adding.module.to.project:
+    text: 'Ошибка добавления модуля в проект: {0}'
+error.cannot.convert.project:
+    text: 'Невозможно преобразовать проект: {0}'
+error.cannot.create.temp.dir:
+    text: Не удалось создать временный каталог «{0}»
+error.cannot.find.file:
+    text: Не удается найти файл {0}
+error.cannot.load.project:
+    text: 'Невозможно загрузить проект: {0}'
+error.cannot.set.look.and.feel:
+    text: <html><body>Невозможно установить тему {0}:<br>{1}</body></html>
+error.cannot.start.browser:
+    text: 'Невозможно запустить браузер: {0}'
+error.checkforupdates.connection.failed:
+    text: Не удалось подключиться. Проверьте сетевое подключение и повторите попытку.
+error.connection.failed.redirects:
+    text: 'Не удалось установить соединение: слишком много перенаправлений'
+error.connection.failed.with.http.code.N:
+    text: Не удалось установить соединение с кодом HTTP {0}
+error.content.root.already.defined.for.module:
+    text: |-
+        Корневой каталог контента «{0}» уже определён для модуля «{1}».
+        Два модуля в проекте не могут совместно использовать один и тот же корневой каталог контента.
+error.correct.pattern.syntax.errors.first:
+    text: Сначала исправить ошибки синтаксиса шаблона
+error.failed.to.create.directory:
+    text: Не удалось создать каталог «{0}»
+error.favorites.list.already.exists:
+    text: Список избранного с названием «{0}» уже существует
+error.file.contains.no.settings.to.import:
+    text: |-
+        Файл {0} не содержит настроек для импорта.
+        {1}
+error.file.does.not.exist:
+    text: Файл {0} не существует.
+error.file.download.failed:
+    text: 'Загрузка не удалась: {0}'
+error.file.not.found.message:
+    text: Файл «{0}» не найден
+error.files.of.this.type.cannot.be.opened:
+    text: Файлы этого типа не могут быть открыты в {0}
+error.filter.name.should.be.specified:
+    text: Название фильтра должно быть указан
+error.filter.should.contain.at.least.one.pattern:
+    text: Фильтр должен содержать хотя бы один шаблон
+error.filter.with.the.same.name.already.exists:
+    text: Фильтр с таким названием уже существует
+error.invalid.template.file.name.or.extension:
+    text: Недопустимое название или расширение файла шаблона
+error.keyword.cannot.be.empty:
+    text: Ключевое слово не может быть пустым
+error.keyword.may.not.contain.spaces:
+    text: Ключевое слово не может содержать пробелы
+error.license.collision:
+    text: |-
+        Эта лицензия используется в другом месте сети {0}.
+        Только один активный компьютер может использовать лицензию одновременно.
+        Хотите повторно активировать этот компьютер?
+        Нажмите «Да» для повторной активации или «Нет» для выключения {1}.
+error.list.of.plugins.was.not.loaded:
+    text: 'Список расширений не загружен: {0}'
+error.malformed.url:
+    text: 'Неправильный URL: {0}'
+error.message.cannot.make.files.writable:
+    text: |-
+        Невозможно сделать следующие файлы доступными для записи:
+        {0}
+error.message.cannot.modify.file.0:
+    text: Невозможно изменить файл «{0}»
+error.message.unable.to.create.file:
+    text: Не удалось создать файл «{0}»
+error.module.already.exists:
+    text: Модуль с названием «{0}» уже существует
+error.module.file.does.not.exist:
+    text: Указанный путь к файлу модуля не существует
+error.module.not.iml:
+    text: |-
+        «{0}»
+        не является файлом модуля {1} (.iml)
+error.module.with.name.already.exists:
+    text: Модуль с названием «{0}» уже существует в проекте
+error.name.cannot.be.empty:
+    text: Название не может быть пустым
+error.name.should.be.specified:
+    text: Название должно быть указано
+error.parsing.file.template:
+    text: 'Ошибка анализа шаблона файла: {0}'
+error.please.enter.a.file.name:
+    text: Введите название файла
+error.please.specify.module.file.location:
+    text: Укажите местоположение файла модуля
+error.please.specify.new.name.for.schema:
+    text: Укажите новое название для схемы «{0}».
+error.please.specify.path.to.module.file:
+    text: Укажите путь к файлу модуля {0} (.iml)
+error.please.specify.path.to.web.browser:
+    text: Укажите путь к веб-браузеру в {0} | Веб-браузеры
+error.please.specify.template.extension:
+    text: Укажите расширение шаблона
+error.please.specify.template.name:
+    text: Укажите название шаблона
+error.plugin.download.failed:
+    text: Загрузка расширения не удалась
+error.plugin.was.not.installed:
+    text: 'Расширение {0} не установлено: {1}'
+error.plugins.should.not.have.cyclic.dependencies:
+    text: |-
+        Расширения не должны иметь циклических зависимостей:
+        {0}
+error.plugins.were.not.loaded:
+    text: |-
+        Ошибка загрузки расширений:
+        {0}
+        Расширения не были загружены.
+        Исправьте указанную выше ошибку и перезапустите Consulo.
+error.plugins.without.id.found:
+    text: Были найдены расширения без идентификаторов, все такие расширения были пропущены.
+error.problems.found.loading.plugins:
+    text: |
+        Обнаружены проблемы с загрузкой расширений:
+error.project.file.does.not.exist:
+    text: Невозможно загрузить {0}. Файл не существует.
+error.project.file.is.corrupted:
+    text: Файл проекта повреждён
+error.reading.settings.file:
+    text: |-
+        Ошибка чтения файла {0}.
+        Был {1}
+
+        {2}
+error.reading.settings.file.2:
+    text: |-
+        Ошибка чтения файла {0}.
+
+        {1}
+error.required.plugin.disabled:
+    text: 'Расширение «{0}» не загружено: отключено требуемое расширение «{1}».'
+error.required.plugin.not.installed:
+    text: 'Расширение «{0}» не загружено: не установлено нужное расширение «{1}».'
+error.saving.license.data:
+    text: |-
+        Ошибка сохранения данных лицензии.
+        {0}
+error.saving.statistic.failed.to.create.folder:
+    text: Невозможно создать папку {0} для сохранения системная информация.
+error.saving.statistics:
+    text: 'Ошибка сохранения системной информации: {0}'
+error.source.directory.should.be.under.module.content.root.directory:
+    text: Исходный каталог должен находиться под корневым каталогом содержимого модуля
+error.template.with.such.name.already.exists:
+    text: Шаблон с таким названием уже существует. Укажите другое название шаблона
+error.text.file.already.exists:
+    text: |-
+        Файл {0} уже существует
+        Хотите перезаписать его или добавить?
+error.tips.not.found:
+    text: Советы не найдены. Убедитесь, что вы правильно установили {0}.
+error.unable.to.parse.template.message:
+    text: |-
+        Невозможно проанализировать шаблон «{0}»
+        Сообщение об ошибке: {1}
+error.unable.to.read.tip.of.the.day:
+    text: <html><body>Не удалось прочитать Совет дня ({0}). Убедитесь, что {1} установлен правильно.</body></html>
+error.unable.to.save.file.template.using.encoding:
+    text: Не удалось сохранить шаблон файла «{0}» с помощью {1}
+error.writing.settings:
+    text: |-
+        Ошибка записи настроек.
+
+        {0}
+error.writing.to.file:
+    text: 'Ошибка записи в файл: {0}'
+errortree.error:
+    text: 'Ошибка:'
+errortree.information:
+    text: 'Информация:'
+errortree.note:
+    text: 'Примечание:'
+errortree.prefix.line:
+    text: строка ({0})
+errortree.warning:
+    text: 'Предупреждение:'
+exception.missing.data:
+    text: 'Нет данных: {0}'
+fail.open.project.message:
+    text: Невозможно открыть проект из «{0}»
+failed.to.install.package.dialog.title:
+    text: Не удалось установить пакет ''{0}''
+failed.to.install.packages.dialog.title:
+    text: Не удалось установить пакеты
+favorites.empty.screen:
+    text: 'Нечего отображать. Чтобы добавить элемент в список избранного, используйте: Главное меню -> Вид -> Добавить в избранное'
+favorites.list.unnamed:
+    text: Безымянный{0}
+file.changed.externally.message:
+    text: Файл был изменён на диске.
+file.changed.externally.reload:
+    text: Перезагрузить
+file.chooser.completion.ad.text:
+    text: Используйте {0}, чтобы сохранить конец пути
+file.chooser.completion.no.suggestions:
+    text: Нет предложений
+file.chooser.completion.path.variables.text:
+    text: Путь Переменные
+file.chooser.hide.path:
+    text: Скрыть путь
+file.chooser.hide.path.tooltip.text:
+    text: Показать/скрыть текстовое поле пути
+file.chooser.show.path:
+    text: Показать путь
+file.encoding.option.create.utf8.files:
+    text: 'Создать UTF-8-файлы:'
+file.encoding.option.encoding.column:
+    text: Кодировка
+file.encoding.option.global.encoding:
+    text: Глобальная кодировка
+file.encoding.option.path.column:
+    text: Путь
+file.encoding.option.project.encoding:
+    text: Кодировка проекта
+file.encoding.option.properties.files:
+    text: Файлы свойств (*.properties)
+file.encoding.option.warning.always:
+    text: <html> {0} добавит <a>UTF-8 BOM</a> к каждому созданному файлу в кодировке UTF-8</html>
+file.encoding.option.warning.never:
+    text: <html> {0} НЕ добавит <a>UTF-8 BOM</a> к каждому созданному файлу в кодировке UTF-8</html>
+file.encoding.option.warning.windows.only:
+    text: <html> {0} добавит <a>UTF-8 BOM</a> к каждому созданному файлу UTF-8 только при запуске под Windows.</html>
+file.encodings.configurable:
+    text: Кодировки файлов
+file.encodings.not.configured:
+    text: Кодировки не настроены
+file.structure.toggle.show.inherited:
+    text: '&Показать унаследованные элементы'
+filetype.description.ant:
+    text: ANT buildfiles
+filetype.description.class:
+    text: Файлы классов Java
+filetype.description.dtd:
+    text: Определение типа документа XML
+filetype.description.gui.designer.form:
+    text: Формы конструктора GUI
+filetype.description.html:
+    text: Файлы HTML
+filetype.description.idea.module:
+    text: Модуль Consulo
+filetype.description.idea.project:
+    text: Проект Consulo
+filetype.description.idea.workspace:
+    text: Consulo Workspace
+filetype.description.java:
+    text: Исходные файлы Java
+filetype.description.jsp:
+    text: Файлы страниц сервера Java
+filetype.description.jspx:
+    text: Файлы JSPx
+filetype.description.unknown:
+    text: НЕИЗВЕСТНО
+filetype.description.xhtml:
+    text: XHTML-файлы
+filetype.description.xml:
+    text: XML-файлы
+filter.all.file.types:
+    text: Все типы файлов
+finished.with.exit.code.text.message:
+    text: Процесс завершён с кодом выхода {0}
+general.settings:
+    text: Общие настройки
+global.libraries.display.name:
+    text: Библиотеки
+global.settings.separator:
+    text: Глобальные настройки
+go.to.class.action.description:
+    text: Быстрый переход к {0} по имени
+go.to.class.dumb.mode.message:
+    text: Действие «Перейти к {0}» недоступно, пока не будут построены индексы, вместо этого используется «Перейти к файлу»
+go.to.class.kind.text:
+    text: класс
+go.to.class.toolwindow.title:
+    text: '{0}, соответствующий шаблону'
+go.to.file.toolwindow.title:
+    text: Файлы, соответствующие шаблону
+goto.custom.region.command:
+    text: Перейти в Пользовательский регион
+goto.custom.region.menu.item:
+    text: Пользовательский регион…
+goto.custom.region.message.dumb.mode:
+    text: Действие «Перейти в Пользовательский регион» недоступно, пока не будут построены индексы.
+goto.custom.region.message.unavailable:
+    text: В текущем файле нет пользовательских областей сворачивания.
+goto.inspection.action.text:
+    text: '&Запустить проверку по имени…'
+group.antialiasing.mode:
+    text: Сглаживание
+group.customfiletype.syntax.highlighting:
+    text: Подсветка синтаксиса
+group.general.options:
+    text: Общие параметры
+group.group.by:
+    text: Группировать по
+group.http.proxy:
+    text: HTTP-прокси
+group.presentation.mode:
+    text: Режим презентации
+group.settings.process.tab.close:
+    text: При закрытии окна инструментов с запущенным процессом
+group.todo.filter.patterns:
+    text: Шаблоны
+group.transparency:
+    text: Прозрачность
+group.ui.options:
+    text: Параметры пользовательского интерфейса
+group.vendor:
+    text: Поставщик
+group.view.options:
+    text: Параметры просмотра
+group.web.browser:
+    text: Веб-браузер
+group.window.options:
+    text: Параметры окна
+handle.ro.file.status.failed:
+    text: <html>Не удалось изменить статус «только для чтения» для следующих файлов:<br>{0}</html>
+handle.ro.file.status.type.using.file.system:
+    text: используя файловую систему
+help.topic.not.found.error:
+    text: Тема справки «{0}» не найдена
+hierarchy.call.next.occurence.name:
+    text: Перейти к следующему вызову
+hierarchy.call.prev.occurence.name:
+    text: Перейти к предыдущему вызову
+hierarchy.legend.method.defined.in.superclass:
+    text: метод не определён в классе, но определен в суперклассе
+hierarchy.legend.method.is.defined.in.class:
+    text: метод определён в классе
+hierarchy.legend.method.should.be.defined:
+    text: метод должен быть определён, так как класс не абстрактный
+hierarchy.method.next.occurence.name:
+    text: Перейти к следующему method
+hierarchy.method.prev.occurence.name:
+    text: Перейти к предыдущему методу
+hierarchy.scope.all:
+    text: Везде
+hierarchy.scope.project:
+    text: Производство
+hierarchy.scope.test:
+    text: Тест
+hierarchy.scope.this.class:
+    text: Этот класс
+hierarchy.type.next.occurence.name:
+    text: Перейти к следующему типу
+hierarchy.type.prev.occurence.name:
+    text: Перейти к предыдущему типу
+ibus.blocking.warn.message:
+    text: IBus до версии 1.5.11 может вызывать проблемы с вводом. Подробнее см. в <a href="https://youtrack.jetbrains.com/issue/IDEA-78860">IDEA-78860</a>.
+ide.hide.navigation.on.focus.loss.description:
+    text: Скрыть всплывающие окна навигации при потере фокуса
+ide.postpone.action:
+    text: Отложить
+ide.restart.action:
+    text: Перезапустить
+ide.set.hidpi.mode:
+    text: Возможно, вам придется вручную настроить режим HiDPI, чтобы предотвратить проблемы с масштабированием пользовательского интерфейса. См. руководство <a href="https://intellij-support.jetbrains.com/hc/en-us/articles/115001260010">по устранению неполадок</a>.
+ide.shutdown.action:
+    text: Завершение работы
+ide.sigint.ignored.message:
+    text: IDE игнорирует SIGINT - кнопка «Стоп» в конфигурациях запуска может не работать. Подробнее см. в <a href="https://youtrack.jetbrains.com/issue/IDEA-157989">IDEA-157989</a>.
+idea.dark.look.and.feel:
+    text: Darcula
+idea.intellij.look.and.feel:
+    text: IntelliJ
+import.project.chooser.header:
+    text: <html>Выбрать {0}</html>
+install.package.failure:
+    text: Произошла ошибка при установке пакета «{0}». <a href="xxx">Подробности...</a>
+item.file.templates:
+    text: Шаблоны файлов
+jar.build.include.in.jar.file:
+    text: 'Включить в файл Jar:'
+jar.build.module.0.jar.settings:
+    text: Настройки Jar-файла модуля «{0}»
+jar.build.modules.to.jar:
+    text: Выбор модулей для Jar
+jar.build.on.make:
+    text: Сборка jar-файлов на &make
+label.appearance.caret.blinking:
+    text: Мигание курсора
+label.appearance.show.inner.whitespaces:
+    text: Показать внутренние пробелы
+label.appearance.show.leading.whitespaces:
+    text: Показать начальные пробелы
+label.appearance.show.right.margin:
+    text: Показать правое поле
+label.appearance.show.trailing.whitespaces:
+    text: Показать конечные пробелы
+label.choosebyname.no.matches.found:
+    text: Совпадений не найдено
+label.choosebyname.searching:
+    text: Поиск…
+label.component.file.location:
+    text: 'Расположение файла {0}:'
+label.description:
+    text: Описание
+label.did.you.know:
+    text: Знаете ли вы … ?
+label.enter.new.abbreviation:
+    text: 'Введите новое сокращение:'
+label.extension:
+    text: 'Расширение:'
+label.file.name:
+    text: 'Название файла:'
+label.font.name:
+    text: 'Название:'
+label.font.size:
+    text: 'Размер:'
+label.icon.path:
+    text: '&Путь к значку:'
+label.implements.method.of_class_or_interface.name:
+    text: реализует {0} {1} {2}.
+label.implements.method.of_interfaces:
+    text: 'реализует методы следующих классов/интерфейсов:'
+label.inactive.timeout.sec:
+    text: сек.
+label.java.source.files.have.been.found:
+    text: |-
+        Исходные файлы для вашего модуля найдены. Выберите каталоги, которые будут
+        отмечены как исходные пути. Эти пути соответствуют пакетам по умолчанию (корневым, безымянным, верхнего уровня).
+        Примечание: программа распознает только те исходные файлы, которые находятся в исходных каталогах.
+label.library.will.be.created.description.text:
+    text: Библиотека уровня {0} <b>{1}</b> с {2} {2, choice, 1#file|2#files} будет создана
+label.macro.preview:
+    text: Предварительный просмотр макроса
+label.macros:
+    text: Макросы
+label.method:
+    text: Метод {0}
+label.missed.libraries.prefix:
+    text: 'Следующие библиотеки отсутствуют:'
+label.missed.libraries.text:
+    text: '{0}.<br>Класс «{1}» не найден'
+label.module.content.root:
+    text: 'Содержимое модуля &root:'
+label.module.file.will.be.saved.in:
+    text: 'Файл модуля будет сохранён в:'
+label.module.name:
+    text: '&Название модуля:'
+label.name:
+    text: 'Название:'
+label.no.actions.found:
+    text: Действия не найдены
+label.no.enabled.actions.found:
+    text: Включённых действий не найдено
+label.no.files.found:
+    text: Файлы не найдены
+label.no.inspections.found:
+    text: Не найдено ни одной проверки
+label.no.matches.found:
+    text: Совпадений не найдено
+label.no.matches.found.in.project:
+    text: Совпадений не найдено в проекте
+label.no.menu.actions.found:
+    text: Действия в главном меню не найдены
+label.no.non.java.files.found:
+    text: Совпадений в проекте не найдено
+label.option.appearance:
+    text: 'Внешний вид: {0}'
+label.option.mouse:
+    text: 'Мышь: {0}'
+label.option.tabs:
+    text: 'Вкладки: {0}'
+label.option.ui:
+    text: 'Пользовательский интерфейс: {0}'
+label.option.view:
+    text: 'Вид: {0}'
+label.option.virtual.space:
+    text: 'Виртуальное пространство: {0}'
+label.option.window:
+    text: 'Окно: {0}'
+label.override.laf.font:
+    text: 'Шрифт:'
+label.overrides.method.of_class_or_interface.name:
+    text: переопределяет {0} {1} {2}.
+label.path.to.module.file:
+    text: 'Путь к файлу модуля {0} (.iml):'
+label.please.enter.project.name:
+    text: Введите название для создания нового {0} {1}.
+label.plugin.home.page:
+    text: Домашняя страница расширения
+label.plugin.vendor.email:
+    text: 'Эл. почта:'
+label.plugin.vendor.home.page:
+    text: 'Домашняя страница:'
+label.plugin.vendor.name:
+    text: 'Название:'
+label.project.files.location:
+    text: 'Расположение файла &проекта:'
+label.project.jdk:
+    text: 'Project SDK:'
+label.project.name:
+    text: 'Название проекта:'
+label.project.roots.have.been.found:
+    text: |-
+        Исходные файлы для вашего проекта найдены. Выберите каталоги, которые будут
+        добавлены в корни проекта. Эти пути соответствуют пакетам по умолчанию (корневым, безымянным, верхнего уровня).
+        Примечание: программа распознает только те исходные файлы, которые находятся в этих каталогах.
+label.project.roots.not.found:
+    text: Исходные файлы для вашего проекта не найдены.
+label.scope:
+    text: 'Область:'
+label.scope.contains.files:
+    text: Область содержит {0} из общего количества {1} файлов
+label.scope.editor.caret.position:
+    text: pos:{0}
+label.scope.pattern:
+    text: '&Pattern:'
+label.select.compiler.output.path:
+    text: 'Выберите выходной путь компилятора:'
+label.select.module.type:
+    text: 'Тип модуля:'
+label.source.directory:
+    text: 'Следующий каталог будет отмечен как исходный каталог:'
+label.tabs.show.directory.for.non.unique.filenames:
+    text: Показать каталог во вкладках редактора для неуникальных названий файлов
+label.text.antialiasing.scope.editor:
+    text: 'Редактор:'
+label.text.antialiasing.scope.ide:
+    text: 'IDE:'
+label.todo.filter.name:
+    text: 'Название:'
+label.todo.filters:
+    text: Фильтры
+label.todo.icon:
+    text: 'Значок:'
+label.todo.pattern:
+    text: 'Шаблон:'
+label.todo.patterns:
+    text: Шаблоны
+label.transparency.delay.ms:
+    text: 'Задержка (мс):'
+label.transparency.ratio:
+    text: 'Соотношение:'
+license.panel.buildit.evaluation.expires.in.many:
+    text: Осталось {0} дней
+license.panel.buildit.evaluation.expires.in.one:
+    text: Остался 1 день
+license.panel.current.floating.ticket.description:
+    text: Получен плавающий билет
+license.panel.current.permanent.ticket.description:
+    text: Получение постоянного билета
+license.panel.default.server.discover:
+    text: Обнаружить
+license.panel.discover.license.server.error.message:
+    text: Не удалось обнаружить URL-адрес сервера лицензий
+license.panel.expirable.license.description:
+    text: Срок действия лицензии истекает {0,date,MMMM dd, yyyy}
+license.panel.maintenance.aware.license.description:
+    text: Право на бесплатные обновления и модернизации до {0,date,MMMM dd, yyyy}
+license.panel.perpetual.license.description:
+    text: Действительно для версии {0} {1}
+license.panel.ping.license.server.error.message:
+    text: Нет ответа от автоматически обнаруженного сервера лицензий {0}
+license.panel.ping.license.server.error.title:
+    text: Нет ответа от сервера
+link.click.here.to.license.server.info:
+    text: Дополнительная информация
+link.purchase.commercial.license:
+    text: Чтобы приобрести коммерческую лицензию, посетите
+listbox.customfiletype.keywords:
+    text: Ключевые слова
+loading.editors:
+    text: Загрузка файлов…
+loading.in.progress:
+    text: '<html><body style=''''text-align: center;padding-top:20px;''''>Загрузка...</body></html>'
+local.scopes.node.text:
+    text: Локальные области
+low.disk.space.message:
+    text: Мало места на диске в разделе системного каталога {0}
+lower.jre.versions.11.message:
+    text: Версии Java ниже 11 не будут поддерживаться в ближайшем будущем. Пожалуйста, перейдите на JRE 11+(<a href="ignore">игнорировать</a>) или <a href="jre">используйте встроенный jre</a>(при следующем обновлении)
+macro.class.name:
+    text: Название класса
+macro.classpath.entry:
+    text: Запись в classpath, к которому принадлежит элемент
+macro.column.number:
+    text: Номер столбца
+macro.file.dir.relative.to.root:
+    text: Каталог файла относительно корня содержимого модуля, к которому принадлежит файл
+macro.file.dir.relative.to.root.fwd.slash:
+    text: Каталог файла относительно корня содержимого модуля, к которому принадлежит файл (с косыми чертами)
+macro.file.dir.relative.to.sourcepath.root:
+    text: Каталог файла относительно корня исходного пути, к которому принадлежит файл
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: Каталог файла относительно корня исходного пути, к которому принадлежит файл (с косыми чертами)
+macro.file.directory:
+    text: Каталог файлов
+macro.file.directory.from.parent:
+    text: Путь к $FileDir$ из родительского каталога с названием, переданным в качестве параметра
+macro.file.directory.name:
+    text: Название каталога файлов
+macro.file.directory.relative:
+    text: Каталог файла относительно проекта file
+macro.file.directory.relative.fwd.slash:
+    text: Каталог файла относительно файла проекта (с прямыми слешами)
+macro.file.encoding:
+    text: Кодировка файла
+macro.file.extension:
+    text: Расширение файла
+macro.file.fully.qualified.package:
+    text: Полностью определённый пакет файла
+macro.file.name:
+    text: Название файла
+macro.file.name.without.all.extensions:
+    text: Название файла без всех расширений
+macro.file.name.without.extension:
+    text: Название файла без расширения
+macro.file.package:
+    text: Пакет файлов
+macro.file.parent.directory:
+    text: Родительский каталог файла. Принимает необязательный параметр (название) для поиска родительского каталога
+macro.file.path:
+    text: Путь к файлу
+macro.file.path.relative:
+    text: Путь к файлу относительно файла проекта
+macro.file.path.relative.fwd.slash:
+    text: Путь к файлу относительно файла проекта (с прямыми слешами)
+macro.file.path.relative.to.root:
+    text: Путь к файлу относительно корня содержимого модуля, к которому принадлежит файл
+macro.file.path.relative.to.root.fwd.slash:
+    text: Путь к файлу относительно корня содержимого модуля, к которому принадлежит файл (с прямыми слешами)
+macro.file.path.relative.to.sourcepath.root:
+    text: Путь к файлу относительно корня исходного пути, к которому принадлежит файл
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: Путь к файлу относительно корня исходного пути, к которому принадлежит файл (с прямыми слешами)
+macro.fileprompt.preview:
+    text: <название файла>
+macro.javadoc.output.directory:
+    text: Выходной каталог JavaDoc
+macro.line.number:
+    text: Номер строки
+macro.module.file.directory:
+    text: Каталог модуля
+macro.module.file.name:
+    text: Название файла модуля без расширения
+macro.module.file.path:
+    text: Путь к модулю file
+macro.module.production.output.dir.path:
+    text: Путь к выходному каталогу производства модуля
+macro.module.profile.name:
+    text: Название текущего профиля модуля
+macro.module.source.path:
+    text: Исходный путь модуля
+macro.module.test.output.dir.path:
+    text: Путь к выходному каталогу тестирования модуля
+macro.noname:
+    text: <без имени>
+macro.output.path:
+    text: Выходной путь
+macro.project.classpath:
+    text: Classpath проекта
+macro.project.file.directory:
+    text: Каталог файла проекта
+macro.project.file.name:
+    text: Название файла проекта без расширения
+macro.project.file.path:
+    text: Путь к файлу проекта
+macro.project.source.path:
+    text: Исходный путь проекта
+macro.project.sourcepath:
+    text: Исходный путь проекта
+macro.prompt:
+    text: Отображает диалоговое окно ввода строки
+macro.prompt.preview:
+    text: <параметры>
+macro.sourcepath.entry:
+    text: Запись в sourcepath, к которому принадлежит элемент
+maven.repository.presentable.name:
+    text: Репозиторий Maven
+message.duplicate.plugin.id:
+    text: 'Повторный идентификатор расширения:'
+message.educational.license:
+    text: Образовательная лицензия сроком на 1 год. {0}
+message.evaluation.N.days:
+    text: '{0} дней'
+message.evaluation.has.expired:
+    text: Срок действия вашей оценки {0} истек. Ваш сеанс будет ограничен 30 минутами.<br>{1}
+message.evaluation.less.than.one.day:
+    text: меньше 1 дня
+message.evaluation.license.expired:
+    text: Срок действия вашей оценочной лицензии истек. {0} сейчас завершит работу.
+message.evaluation.one.day:
+    text: 1 день
+message.evaluation.will.expire:
+    text: Спасибо за оценку {0}.<br>Срок действия вашей оценочной лицензии истекает через {1}<br><br>{2}
+message.expiration.date:
+    text: 'Дата истечения срока действия: {0}'
+message.files.doesn.t.exists.0.so.the.corresponding.modules.won.t.be.converted.do.you.want.to.continue:
+    text: '<html><body>Следующие файлы не существуют: <br>{0}Соответствующие модули не будут преобразованы. Хотите продолжить?</body></html>'
+message.idea.restart.required:
+    text: Перезапустить {0}, чтобы активировать изменения в расширениях?
+message.idea.shutdown.required:
+    text: Выключить {0}, чтобы активировать изменения в расширениях?
+message.invalid.license.data:
+    text: Недействительные данные лицензии. Попробуйте ещё раз.
+message.license.expired:
+    text: Срок действия вашей лицензии истек
+message.license.is.corrupt:
+    text: Лицензия повреждена
+message.license.will.expire:
+    text: Ваша лицензия {0} истекает через {1}.
+message.licensed.to:
+    text: Лицензия действует на {0}
+message.macro.exists:
+    text: Макрос с названием «{0}» уже существует. Перезаписать его?
+message.module:
+    text: модуль «{0}»
+message.module.file.has.an.older.format.do.you.want.to.convert.it:
+    text: Файл модуля имеет старый формат. Хотите преобразовать его?
+message.modules:
+    text: модули
+message.move.modules.to.group:
+    text: Переместить {0} в группу {1}
+message.no.targets.available:
+    text: Нет доступных целей в этом контексте
+message.non.commercial.use.only:
+    text: Только для некоммерческого использования
+message.nothing.to.show.in.structure.view:
+    text: Нечего показывать в представлении структуры
+message.occurrence.N.of.M:
+    text: Вхождение {0} из {1}
+message.open.file.is.project:
+    text: |-
+        {0} — это файл проекта.
+        Хотите открыть этот проект?
+message.open.source.project.license:
+    text: Лицензия проекта с открытым исходным кодом. {0}
+message.path.to.fqn.has.been.copied:
+    text: «{0}» был скопирован.
+message.personal.license:
+    text: Персональная лицензия
+message.please.ensure.correct.settings:
+    text: Убедитесь, что вы сгенерировали файл с помощью функции «Файл|Экспорт настроек».
+message.please.select.element.for.javadoc:
+    text: Выберите элемент, для которого вы хотите просмотреть документацию
+message.purchase.or.upgrade:
+    text: Для получения информации о том, как обновить оценочное программное обеспечение, перейдите по адресу {0}
+message.reference.to.fqn.has.been.copied:
+    text: Ссылка на «{0}» скопирована.
+message.server.no.licenses:
+    text: На сервере лицензий не осталось подходящих лицензий
+message.server.not.available:
+    text: Не удалось связаться с сервером лицензий
+message.server.protocol.hijacked:
+    text: Ответ сервера лицензий не прошел проверку целостности данных. Сервер взломан?
+message.settings.exported.successfully:
+    text: |-
+        Ваши настройки успешно экспортированы.
+        Вы можете импортировать настройки с помощью ''Файл|Импортировать настройки''.
+message.settings.imported.successfully:
+    text: |-
+        Настройки успешно импортированы. Вам необходимо перезапустить {0}, чтобы перезагрузить настройки.
+        Выключить {1}?
+message.settings.imported.successfully.restart:
+    text: |-
+        Настройки успешно импортированы. Вам необходимо перезапустить {0}, чтобы перезагрузить настройки.
+        Перезапустить {1}?
+message.text.creating.deployment.descriptor:
+    text: Создание дескриптора развертывания
+message.text.error.creating.deployment.descriptor:
+    text: 'Ошибка создания элемента развертывания: {0}'
+message.text.unlock.read.only.files:
+    text: <html><body>Следующие файлы доступны только для чтения. {0} разблокирует их.<br>{1}</body></html>
+message.upgrade.from.previous.required:
+    text: Ваша лицензия недействительна для использования с этой версией {0}. <br/> Информацию о том, как обновить лицензию, см. на {1} <br/> Вы также можете выбрать бесплатную ограниченную по времени оценку.
+message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
+    text: <html><body>Ваш модуль был успешно преобразован. <br>Старая версия была сохранена в «{0}»</body></html>
+missing.libraries.fix.button:
+    text: Исправить…
+model.highlighting.identity:
+    text: '{0} с таким названием уже существует'
+model.highlighting.identity.in.other.file:
+    text: '{0} с таким названием уже существует в файле «{1}»'
+modern.dark.intellij.look.and.feel:
+    text: Consulo Тёмная
+modern.white.intellij.look.and.feel:
+    text: Consulo Светлая
+native.modern.white.intellij.look.and.feel:
+    text: Consulo Светлая (системный цвет)
+new.library.file.chooser.description:
+    text: Выберите файлы архива, в которых находятся файлы библиотеки
+new.library.file.chooser.title:
+    text: Новые файлы библиотеки
+node.call.hierarchy.N.usages:
+    text: ({0} использований)
+node.call.hierarchy.unknown.jsp:
+    text: неизвестно jsp
+node.default:
+    text: <по умолчанию>
+node.default.package:
+    text: <Пакет по умолчанию>
+node.hierarchy.invalid:
+    text: '[Недопустимо]'
+node.hierarchy.java.lang.object:
+    text: Все классы являются производными от java.lang.Object
+node.memberchooser.all.classes:
+    text: Все классы
+node.projectview.external.libraries:
+    text: Внешние библиотеки
+node.projectview.jdk:
+    text: JDK
+node.projectview.libraries:
+    text: Библиотеки
+node.projectview.library:
+    text: '{0} библиотека'
+node.structureview.invalid:
+    text: <некорректно>
+node.todo.found.items:
+    text: '{0} (найдено {1} {1,choice,1#элемен|2#элементов})'
+node.todo.group:
+    text: '{0} {0,choice,0#элементов|1#элемент|2#элементов}'
+node.todo.items:
+    text: '{0} {0, choice, 0#элементов|1#элемент|2#элементов}'
+node.todo.more.items:
+    text: …ещё…
+node.todo.no.items.found:
+    text: '{0} (элементы не найдены)'
+node.todo.summary:
+    text: Найдено {0} TODO {0,choice,0#items|1#item|2#items} в {1} {1,choice,0#files|1#file|2#files}
+open.url.in.browser.tooltip:
+    text: Открыть в браузере
+option.hide.tool.window.bars:
+    text: Скрыть панели инструментов
+outdated.jre.version.message1:
+    text: Среда выполнения Java IDE ({0}) устарела — это может вызвать проблемы со стабильностью. Пожалуйста, <a href="switch">переключитесь</a> на связанную среду выполнения Java или обновитесь до {1} или более новой версии
+outdated.jre.version.message2:
+    text: Среда выполнения Java IDE ({0}) устарела — это может вызвать проблемы со стабильностью. Пожалуйста, обновитесь до {1} или более новой версии
+plugin.advestiser.notification.install.link:
+    text: Установить {0,choice, 1#расширение|2#расширений}
+plugin.advestiser.notification.text:
+    text: Найдены {0,choice, 1#расширение|2#расширений}, поддерживающие текущий файл
+plugin.deleted.status.tooltip:
+    text: Расширение будет удалено при следующем запуске
+plugin.download.status.tooltip:
+    text: Расширение будет активировано при следующем запуске
+plugin.info.not.available:
+    text: неприменимо
+plugin.info.unknown:
+    text: неизвестно
+plugin.install.dialog.title:
+    text: Установка расширения
+plugin.is.already.installed.status.tooltip:
+    text: Расширение установлено
+plugin.manager.dependencies.detected.message:
+    text: Расширение, которое вы хотите установить, требует другое расширени{0, choice, 1#е|2#я} ({1}), которые также должны быть установлены. Продолжить?
+plugin.manager.dependencies.detected.title:
+    text: Обнаружены зависимости расширения
+plugin.manager.enable.column.title:
+    text: Включить
+plugin.manager.incompatible.deps.tooltip:
+    text: Требуемое {0, choice, 1#расширение|2#расширений} {1} не {0,choice, 1#включено|2#включены}
+plugin.manager.incompatible.not.loaded.tooltip:
+    text: Расширение не было загружено
+plugin.manager.incompatible.tooltip:
+    text: Расширение несовместимо с текущей версией
+plugin.manager.optional.dependencies.detected.message:
+    text: Расширение, которое вы хотите установить, опционально требует других расширени{0, choice, 1#е|2#й} ({1}). Их также следует установить?
+plugin.manager.tooltip.warning:
+    text: Требуемое расширение «{0}» не включено
+plugin.outdated.version.status.tooltip:
+    text: Расширение имеет более новую версию
+plugin.size.label:
+    text: 'Размер:'
+plugin.status.available:
+    text: Доступно
+plugin.status.installed:
+    text: Установлено
+plugin.status.not.specified:
+    text: (не указано)
+plugin.updated.status.tooltip:
+    text: Обновлённое расширение будет активировано при следующем запуске
+plugin.version.label:
+    text: Версия
+popup.title.edit.shortcuts:
+    text: Изменить ярлыки
+popup.title.select.library.type:
+    text: Выберите тип библиотеки
+predefined.scope.problems.name:
+    text: Проблемы
+predefined.scope.production.name:
+    text: Производство
+predefined.scope.resources.name:
+    text: Ресурсы
+predefined.scope.sources.name:
+    text: Источники
+predefined.scope.test.resources.name:
+    text: Тестовые ресурсы
+predefined.scope.tests.name:
+    text: Тесты
+presentation.mode.fon.size:
+    text: 'Размер шрифта:'
+progress.connecting:
+    text: Подключение…
+progress.connecting.to.download.file.text:
+    text: Подключение к «{0}»…
+progress.connecting.to.plugin.manager:
+    text: Подключение к {0}
+progress.creating.directory:
+    text: Создание каталога {0}{1}{2}
+progress.creating.file:
+    text: Создание файла {0}{1}{2}
+progress.creating.interface:
+    text: Создание интерфейса {0}.{1}
+progress.creating.package:
+    text: Создание пакета {0}.{1}
+progress.deleting:
+    text: Удаление
+progress.deleting.class:
+    text: Удаление класса {0}
+progress.download.0.title:
+    text: Загрузка {0}
+progress.download.file.text:
+    text: Загрузка «{0}» из «{1}»…
+progress.download.plugins:
+    text: Загрузка…
+progress.downloading.0.of.1.file.text:
+    text: Загрузка {0} из {1} {1, choice, 1#файла|2#файлов}…
+progress.downloading.list.of.plugins:
+    text: Загрузка списка расширений
+progress.downloading.platform:
+    text: Загрузка платформы
+progress.downloading.plugin:
+    text: Загрузка расширения «{0}»
+progress.extracting.platform:
+    text: Извлечение платформы
+progress.indexing:
+    text: Обновление индексов…
+progress.indexing.scanning:
+    text: Сканирование файлов для индексации…
+progress.indexing.updating:
+    text: Индексирование…
+progress.installing.plugins:
+    text: Установка расширений…
+progress.locate.file.text:
+    text: Поиск «{0}»…
+progress.looking.for.todos:
+    text: Поиск TODO…
+progress.performing.indexing.tasks:
+    text: Выполнение задач индексирования
+progress.searching:
+    text: поиск…
+progress.searching.for.sources:
+    text: Поиск источников в {0}. Пожалуйста, подождите.
+progress.text.clickToViewProgressWindow:
+    text: Щёлкните, чтобы открыть окно задач
+progress.text.reloading.file:
+    text: Перезагрузка файла…
+progress.text.reloading.files:
+    text: Перезагрузка файлов…
+progress.title.reload.files:
+    text: Перезагрузка файлов
+progress.waiting.for.reply.from.plugin.manager:
+    text: Ожидание ответа от {0}
+progress.window.empty.text:
+    text: Нет активных фоновых задач
+progress.window.title:
+    text: Фоновые задачи
+project.directory.is.not.writable:
+    text: Каталог «{0}», похоже, недоступен для записи. Выберите другое местоположение.
+project.import.default.name:
+    text: Импортировано из{0}
+project.import.default.name.dotIdea:
+    text: Импортировано из {0}
+project.import.open.existing:
+    text: |-
+        В «{1}» есть {0}.
+        Вы хотите открыть существующий проект или удалить его и импортировать «{2}»?
+project.import.open.existing.openExisting:
+    text: Открыть существующий проект
+project.import.open.existing.reimport:
+    text: Удалить существующий проект и импортировать
+project.import.select.title:
+    text: Выберите {0} проектов для импорта
+project.import.show.settings.after:
+    text: '&Открыть структуру проекта после import'
+project.import.wizard.title:
+    text: Импорт из {0}
+project.new.wizard.module.identification:
+    text: модуль
+project.new.wizard.project.identification:
+    text: проект
+project.settings.separator:
+    text: Настройки проекта
+promot.projectwizard.directory.does.not.exist:
+    text: |-
+        {0}«{1}»
+        не существует. Он будет создан {2}.
+prompt.browse.icon.for.selected.action:
+    text: Значок обзора для выбранного действия (*.png)
+prompt.check.components.to.import:
+    text: 'Отметьте все компоненты для импорта:'
+prompt.choose.base.class.of.the.hierarchy:
+    text: Выберите базовый класс иерархии для поиска
+prompt.choose.export.settings.file.path:
+    text: Выберите путь к файлу экспорта или каталог, в котором будет создан новый файл
+prompt.choose.import.file.path:
+    text: Выберите файл настроек для импорта или каталог, в котором находится файл
+prompt.confirm.project.no.jdk:
+    text: |-
+        Хотите создать проект без назначенного SDK?
+        SDK требуется для компиляции, отладки и запуска приложений,
+        а также для стандартного разрешения классов SDK.
+prompt.create.non.existing.package:
+    text: |-
+        Пакет {0} не существует.
+        Вы хотите создать его?
+prompt.delete.and:
+    text: и
+prompt.delete.class:
+    text: '{0,choice,1#класс|2#классов}'
+prompt.delete.directory:
+    text: '{0,choice,1#папка|2#папок}'
+prompt.delete.directory.paren:
+    text: ({0} {0,choice,1#папка|2#папок})
+prompt.delete.elements:
+    text: Удалить {0}?
+prompt.delete.field:
+    text: '{0,choice,1#поле|2#полей}'
+prompt.delete.file:
+    text: '{0,choice,1#файл|2#файлов}'
+prompt.delete.interface:
+    text: '{0,choice,1#интерфейс|2#интерфейсов}'
+prompt.delete.it.anyway:
+    text: Удалить его в любом случае?
+prompt.delete.method:
+    text: '{0,choice,1#метод|2#методов}'
+prompt.delete.package:
+    text: '{0,choice,1#пакет|2#пакетов}'
+prompt.delete.property:
+    text: '{0,choice,1#свойство|2#свойств}'
+prompt.delete.symlink:
+    text: '{0,choice,1#символическая ссылка|2#символических ссылок}'
+prompt.delete.type.parameter:
+    text: '{0,choice,1#параметр типа|2#параметров типа}'
+prompt.directory.contains.read.only.files:
+    text: Каталог {0} содержит файлы только для чтения. Удалить его в любом случае?
+prompt.do.you.want.to.action_verb.the.method.from_class:
+    text: Хотите {0} базовый {1,choice,1#method|2#methods}?
+prompt.download.and.install.plugin:
+    text: Хотите загрузить и установить расширение «{0}»?
+prompt.enter.a.new.package.name:
+    text: 'Введите новое название пакета:'
+prompt.enter.annotation.type.name:
+    text: 'Введите новое название @interface:'
+prompt.enter.macro.name:
+    text: Введите название макроса. Оставьте пустым, если макрос временный.
+prompt.enter.new.class.name:
+    text: 'Введите новое название класса:'
+prompt.enter.new.file.name:
+    text: 'Введите новое название файла:'
+prompt.enter.new.interface.name:
+    text: 'Введите новое название интерфейса:'
+prompt.enter.new.library.name:
+    text: Введите новое название библиотеки
+prompt.enter.new.module.name:
+    text: Введите новое название модуля
+prompt.enter.new.name:
+    text: Введите новое название
+prompt.enter.parameters:
+    text: 'Введите параметры:'
+prompt.enter.project.file.location:
+    text: Введите местоположение файла {0}
+prompt.enter.relative.path.to.module.content.root:
+    text: 'Введите относительный путь к корневому каталогу содержимого модуля (пример: java{0}src):'
+prompt.filechooser.enter.file.name:
+    text: 'Введите название файла:'
+prompt.goto.inspection.enter.name:
+    text: 'Введите название проверки:'
+prompt.gotoaction.enter.action:
+    text: 'Введите название действия или параметра:'
+prompt.gotoclass.enter.class.name:
+    text: 'Введите название класса:'
+prompt.gotofile.enter.file.name:
+    text: 'Введите название файла:'
+prompt.gotosymbol.enter.symbol.name:
+    text: 'Введите название символа:'
+prompt.input.favorites.list.new.name:
+    text: 'Переименовать список избранного «{0}» в:'
+prompt.input.new.favorites.list.name:
+    text: Введите название нового списка избранного
+prompt.install.several.plugins:
+    text: Установить или обновить {0} расширений?
+prompt.new.project.file.name:
+    text: Введите название файла для создания нового {0} {1}
+prompt.open.project.in.new.frame:
+    text: <html><body>Новые проекты можно открывать в новом окне или заменять проект в существующем окне.<br>Как бы вы хотели открыть проект?</body></html>
+prompt.overwrite.project.folder:
+    text: |-
+        Папка {0} уже существует в {1}.
+        Её содержимое может быть перезаписано.
+        Продолжить?
+prompt.overwrite.settings.file:
+    text: Перезаписать «{0}»?
+prompt.please.check.all.components.to.export:
+    text: 'Проверьте настройки для экспорта:'
+prompt.please.select.module.jdk:
+    text: Выберите {0} для этого модуля
+prompt.please.select.project.jdk:
+    text: |-
+        Выберите проект SDK.
+        Этот SDK будет использоваться по умолчанию всеми модулями проекта.
+prompt.please.specify.java.sources.directory:
+    text: |-
+        Укажите каталог, в котором находятся исходные файлы для вашего проекта.
+        Этот путь должен соответствовать пакету по умолчанию (корневой, безымянный, верхнего уровня).
+        Примечание: программа распознает только те исходные файлы, которые находятся в этом каталоге.
+prompt.please.specify.module.name:
+    text: Укажите название модуля
+prompt.please.specify.module.name.and.content.root:
+    text: '&Название модуля:'
+prompt.relative.path.to.sources.empty:
+    text: |-
+        Относительный путь к источникам пуст.
+        Хотите отметить корневой каталог содержимого модуля
+        «{0}»
+        как исходный каталог?
+prompt.reload.file.from.disk:
+    text: Перезагрузить «{0}» с диска и потерять все изменения?
+prompt.reset.to.original.template:
+    text: Сбросить до исходного шаблона?
+prompt.select.module.file.to.import:
+    text: Выберите файл модуля {0} (.iml) для импорта
+prompt.select.source.directory:
+    text: Выберите исходный каталог
+prompt.specify.module.group.name:
+    text: |+
+        Укажите название группы, под которой будет отображаться {0}.
+
+prompt.specify.name.of.module.subgroup:
+    text: |+
+        Укажите название подгруппы {0}, под которой будет отображаться {1}.
+
+prompt.stop.searching.for.sources:
+    text: '{0} в настоящее время ищет исходные файлы. Хотите остановить поиск?'
+prompt.uninstall.plugin:
+    text: Вы действительно хотите удалить расширение «{0}»?
+prompt.uninstall.several.plugins:
+    text: Вы действительно хотите удалить эти {0} расширений?
+prompt.update.plugin:
+    text: Хотите обновить расширение «{0}»?
+quick.lists.presentable.name:
+    text: Быстрые списки
+radio.create.new.module:
+    text: '&Создать новый модуль'
+radio.create.source.directory:
+    text: '&Создать исходный каталог'
+radio.default.license.server:
+    text: '&Сервер лицензий по умолчанию'
+radio.do.not.create.source.directory:
+    text: '&Не создавать исходный каталог'
+radio.evaluate:
+    text: '&Оцените бесплатно в течение {0} дней'
+radio.import.existing.module:
+    text: '&Импортировать существующий модуль'
+radio.license.data:
+    text: Введите данные лицензии
+radio.license.server.address:
+    text: Введите адрес лицензии и сервера
+radio.process.close.ask:
+    text: Спросить
+radio.process.close.disconnect:
+    text: Отключиться (если доступно)
+radio.process.close.terminate:
+    text: Завершить процесс
+recent.files.checkbox.label:
+    text: Показать только измененные
+recent.locations.changed.locations:
+    text: Недавние измененные местоположения
+recent.locations.popup.empty.file.text:
+    text: Пустые строки
+recent.locations.popup.empty.text:
+    text: Недавние местоположения не найдены
+recent.locations.popup.title:
+    text: Недавние местоположения
+recent.locations.title.text:
+    text: Показать измененные только
+run.anything.action.tooltip.text:
+    text: 'Выполнение операций: открытие проектов, запуск конфигураций выполнения, выполнение заданий Maven или Gradle, выполнение команд терминала и т.д.'
+run.anything.actions.undefined:
+    text: Не определено
+run.anything.ad.command.delete:
+    text: '{0} для удаления последней команды'
+run.anything.ad.run.action.with.default.settings:
+    text: Нажмите {0}, чтобы запустить с настройками по умолчанию
+run.anything.ad.run.in.context:
+    text: Нажмите {0} для запуска в текущем контексте файла
+run.anything.ad.run.with.debug:
+    text: '{0} для отладки'
+run.anything.command.empty.list.title:
+    text: Нажмите ENTER, чтобы выполнить команду ввода
+run.anything.console.error.title:
+    text: Невозможно запустить команду
+run.anything.console.process.finished:
+    text: |4-
+
+        Процесс завершён с кодом выхода {0}.
+run.anything.console.title:
+    text: Запустить команду «что угодно»
+run.anything.context.browse.directory:
+    text: Обзор каталога…
+run.anything.context.project:
+    text: Проект
+run.anything.context.separator.directories:
+    text: Каталоги
+run.anything.context.separator.modules:
+    text: Модули
+run.anything.context.title.working.directory:
+    text: Рабочий каталог
+run.anything.context.tooltip:
+    text: Выберите контекст, в котором будет выполнена текущая команда in
+run.anything.custom.activity.notification.group.id:
+    text: Выполнить что угодно
+run.anything.custom.activity.rollback.action:
+    text: Откат
+run.anything.double.ctrl.shortcut:
+    text: Двойной {0}
+run.anything.general.group.title:
+    text: Общие
+run.anything.group.settings.title:
+    text: Показать «{0}»
+run.anything.group.title.commands:
+    text: Последние команды
+run.anything.group.title.permanent:
+    text: Постоянные конфигурации
+run.anything.group.title.temporary:
+    text: Временные конфигурации
+run.anything.help.list.empty.secondary.text:
+    text: Выберите команду
+run.anything.hint.initial.text:
+    text: Нажмите {0} или {1} для навигации по списку предложений
+run.anything.indexing.mode.not.supported:
+    text: Действие «Выполнить что угодно» недоступно во время обновления индексов
+run.anything.main.list.empty.primary.text:
+    text: Выполнить команду или конфигурацию
+run.anything.main.list.empty.secondary.text:
+    text: Введите «?» для просмотра всех команд
+run.anything.notification.warning.content:
+    text: Не удалось выполнить команду «{0}».
+run.anything.notification.warning.title:
+    text: Неудачное выполнение команды
+run.anything.recent.group.title:
+    text: Последние
+run.anything.recent.project.command.placeholder:
+    text: открыть <название проекта>
+run.anything.recent.project.completion.group.title:
+    text: Последние проекты
+run.anything.recent.project.help.group.title:
+    text: Последние проекты
+run.anything.run.anything.title:
+    text: Выполнить что угодно
+run.anything.run.configurations.group.title:
+    text: Конфигурации запуска
+run.anything.run.debug.title:
+    text: 'Отладка:'
+run.anything.run.in.context.debug.title:
+    text: 'Запустить в контексте с отладкой:'
+run.anything.run.in.context.title:
+    text: 'Запустить в контексте:'
+run.canceled.by.user.message:
+    text: Запуск отменён пользователем
+run.configuration.error.executable.not.specified:
+    text: Исполняемый файл не указан
+run.configuration.error.working.directory.does.not.exist:
+    text: Невозможно запустить процесс, рабочий каталог {0} не существует
+run.configuration.error.working.directory.not.directory:
+    text: Невозможно запустить процесс, указанный путь для рабочего каталога не является каталогом
+scope.banner.text:
+    text: Область «{0}»
+scope.class.hierarchy:
+    text: Иерархия классов
+scope.current.file:
+    text: Текущий файл
+scope.editor.legend.partly.included.label:
+    text: Частично включено
+scope.editor.legend.recursively.included.label:
+    text: Рекурсивно включено
+scope.files.in.previous.search.result:
+    text: Файлы в предыдущем результате поиска
+scope.hierarchy:
+    text: Иерархия {0}
+scope.modified.files:
+    text: Изменённые файлы
+scope.open.files:
+    text: Открыть файлы
+scope.previous.search.results:
+    text: Предыдущие результаты поиска
+scope.selection:
+    text: Выборка
+scope.unable.to.save.scope.message:
+    text: Сохранить область как общую?
+scope.unable.to.save.scope.title:
+    text: Невозможно использовать локальную область
+scope.view.title:
+    text: Области действия
+scopes.display.name:
+    text: Области
+scopes.no.scoped:
+    text: Нет областей
+scopes.save.dialog.title.local:
+    text: Сохранить как локальную область
+scopes.save.dialog.title.shared:
+    text: Сохранить как общую область
+scratches.and.consoles:
+    text: Заметки и консоли
+scripting.lib.add:
+    text: '&Добавить…'
+scripting.lib.attach:
+    text: '&Присоединить…'
+scripting.lib.detach:
+    text: '&Отсоединить'
+scripting.lib.docUrl.remove:
+    text: '&Удалить'
+scripting.lib.docUrl.specify:
+    text: '&Указать…'
+scripting.lib.docUrl.title:
+    text: URL-адреса документации
+scripting.lib.edit:
+    text: '&Изменить…'
+scripting.lib.file.location:
+    text: Расположение
+scripting.lib.file.name:
+    text: Название
+scripting.lib.file.title:
+    text: Файлы
+scripting.lib.file.type:
+    text: Тип
+scripting.lib.invalid.name:
+    text: Недопустимое название библиотеки
+scripting.lib.name:
+    text: '&Название:'
+scripting.lib.remove:
+    text: '&Удалить'
+scripting.lib.select.root:
+    text: Выберите файлы или каталоги библиотеки
+scripting.lib.usageScope:
+    text: Область использования
+scripting.lib.usageScope.caption:
+    text: <html>Укажите, какие библиотеки используются в определённых файлах и/или каталогах</html>
+scripting.lib.usageScope.override.question:
+    text: Переопределить настройки библиотеки для дочерних каталогов и файлов?
+scripting.lib.usageScope.override.title:
+    text: Переопределить настройки библиотеки
+scripting.lib.usageScope.tableTitle:
+    text: Библиотека
+search.for.usages.and.delete.elements:
+    text: Найти использования и удалить {0}?
+search.in.the.background:
+    text: Поиск в фоновом режиме
+search.textfield.title:
+    text: '&Поиск:'
+searcheverywhere.allelements.tab.name:
+    text: Везде
+searcheverywhere.commands.tab.name:
+    text: Команды
+searcheverywhere.found.matches.generated.code.title:
+    text: Совпадения для «{0}» в [{1}] в сгенерированном коде
+searcheverywhere.found.matches.title:
+    text: Совпадения для «{0}» в [{1}]
+searcheverywhere.found.targets.title:
+    text: Несортированные результаты
+searcheverywhere.history.shortcuts.hint:
+    text: Нажмите {0} или {1} для навигации через историю поиска
+searcheverywhere.indexing.incomplete.results:
+    text: Результаты поиска в «{0}» могут быть неполными, пока {1} обновляет индексы
+searcheverywhere.indexing.mode.not.supported:
+    text: Поиск в «{0}» недоступен, пока {1} обновляет индексы
+searcheverywhere.nothing.found.for.all:
+    text: Ничего не найдено.
+searcheverywhere.nothing.found.for.all.anywhere:
+    text: Ничего не найдено.
+searcheverywhere.nothing.found.for.contributor:
+    text: Не найдено {0}.
+searcheverywhere.nothing.found.for.contributor.anywhere:
+    text: Не найдено {0}.
+searcheverywhere.run.configs.tab.name:
+    text: Запустить конфигурации
+searcheverywhere.runconfigurations.command.debug.description:
+    text: Запустить конфигурацию запуска в режиме «Отладка»
+searcheverywhere.runconfigurations.command.run.description:
+    text: Запустить конфигурацию запуска в режиме «Выполнить»
+searcheverywhere.textfield.hint:
+    text: Введите {0}, чтобы увидеть команды
+select.in.aspects:
+    text: Аспекты
+select.in.commander:
+    text: Командир
+select.in.favorites:
+    text: Избранное
+select.in.file.structure:
+    text: Структура файла
+select.in.nav.bar:
+    text: Панель навигации
+select.in.packages:
+    text: Пакеты
+select.in.project:
+    text: Проект
+select.in.project.settings:
+    text: Структура проекта
+select.in.scope:
+    text: Область действия
+select.in.title.project.view:
+    text: Вид проекта
+settings.entry.point.tooltip:
+    text: Настройки IDE и проекта
+settings.entry.point.widget.name:
+    text: Настройки IDE и проекта
+setup.library.dialog.title:
+    text: Настройка библиотеки
+several.plugins.depend.on.0.continue.to.remove:
+    text: Несколько расширений зависят от {0}. Продолжить удаление?
+share.scope.checkbox.title:
+    text: Поделиться областью действия
+shared.scopes.node.text:
+    text: Общие области
+show.in.find.window.button.description:
+    text: Открыть результаты поиска в окне инструмента поиска
+show.in.find.window.button.name:
+    text: Открыть в окне инструмента поиска
+show.main.toolbar:
+    text: Показать главную панель инструментов
+show.navigation.bar:
+    text: Показать панель навигации
+show.status.bar:
+    text: Показать строку состояния
+small.labels.in.editor.tabs:
+    text: Небольшие метки на вкладках редактора
+sys.health.acknowledge.link:
+    text: <br/><a href="ack">Больше не показывать</a>.
+tab.chooser.project:
+    text: Проект
+tab.chooser.search.by.name:
+    text: Поиск по имени
+tab.filetemplates.code:
+    text: Код
+tab.filetemplates.includes:
+    text: Включает
+tab.filetemplates.j2ee:
+    text: Другое
+tab.filetemplates.templates:
+    text: Шаблоны
+tab.structureview.baselanguage.view:
+    text: '{0}'
+tab.structureview.jsp.view:
+    text: JSP
+team.server.license.not.found:
+    text: Этот дистрибутив IDEA предназначен только лицензировано для использования с JetBrains TeamCity.
+template.copy.N.of.T:
+    text: Копировать{0} из {1}
+template.default.class.comment:
+    text: |
+        /*
+         * Создано {0}.
+         * Пользователь: $USER$
+         * Дата: $DATE$
+         * Время: $TIME$
+         */
+template.unnamed:
+    text: Безымянный
+text.not.applicable:
+    text: <неприменимо>
+text.todo.no.filters:
+    text: Фильтры не настроены
+text.todo.no.patterns:
+    text: Нет шаблонов настроено
+title.add.module:
+    text: Новый модуль
+title.add.new.favorites.list:
+    text: Добавить новый список избранного
+title.add.new.keyword:
+    text: Добавить новый Ключевое слово
+title.add.todo.filter:
+    text: Добавить фильтр
+title.add.todo.pattern:
+    text: Добавить шаблон
+title.appearance:
+    text: Внешний вид
+title.browse.icon:
+    text: Значок обзора
+title.browser.not.found:
+    text: Браузер не найден
+title.browser.path.not.found:
+    text: Путь к браузеру не найден
+title.cannot.convert.project:
+    text: Невозможно преобразовать проект
+title.cannot.create.annotation.type:
+    text: Невозможно создать @interface
+title.cannot.create.enum:
+    text: Невозможно создать Enum
+title.cannot.create.file:
+    text: Невозможно создать файл
+title.cannot.create.interface:
+    text: Невозможно создать интерфейс
+title.cannot.load.project:
+    text: Невозможно загрузить проект
+title.cannot.open.file:
+    text: Невозможно открыть файл
+title.cannot.save.current.template:
+    text: Невозможно сохранить текущий шаблон
+title.cannot.start.browser:
+    text: Невозможно запустить браузер
+title.choose.action.icon:
+    text: Выберите значок действия
+title.choose.destination.directory:
+    text: Выберите целевой каталог
+title.connection.error:
+    text: Ошибка подключения
+title.custom.actions.schemas:
+    text: Меню и панели инструментов настройка
+title.customizations:
+    text: Меню и панели инструментов
+title.delete:
+    text: Удалить
+title.directory.does.not.exist:
+    text: Каталог не существует
+title.edit.file.template:
+    text: Изменить шаблон файла
+title.edit.keyword:
+    text: Изменить ключевое слово
+title.edit.macros:
+    text: Редактировать макросы
+title.edit.todo.filter:
+    text: Изменить фильтр
+title.edit.todo.pattern:
+    text: Изменить шаблон
+title.enter.license.data:
+    text: Введите лицензию {0}
+title.enter.macro.name:
+    text: Введите название макроса
+title.error.reading.file:
+    text: Ошибка чтения файла
+title.error.writing.file:
+    text: Ошибка записи файла
+title.evaluation.license.expired:
+    text: Срок действия оценочной лицензии истек
+title.export.file.location:
+    text: Расположение файла экспорта
+title.export.preview:
+    text: Экспортировать предварительный просмотр
+title.export.successful:
+    text: Экспорт завершён
+title.failed.to.download:
+    text: Не удалось загрузить
+title.file.already.exists:
+    text: Файл уже существует
+title.file.not.found:
+    text: Файл не найден
+title.file.templates:
+    text: Шаблоны файлов и кодов
+title.general:
+    text: Общие
+title.go.to.line:
+    text: Перейти к строке
+title.hierarchy.callees.of:
+    text: Вызываемые {0}
+title.hierarchy.callers.of:
+    text: Вызывающие {0}
+title.hierarchy.class:
+    text: Класс {0}
+title.hierarchy.method:
+    text: Метод {0}
+title.hierarchy.subtypes:
+    text: Подтипы {0}
+title.hierarchy.supertypes:
+    text: Супертипы {0}
+title.import.file.location:
+    text: Расположение файла импорта
+title.incorrect.file.type:
+    text: Неверный тип файла
+title.input:
+    text: Ввод
+title.invalid.file:
+    text: Недопустимый файл
+title.invalid.license.data:
+    text: Неверные данные лицензии
+title.license.collision.detected:
+    text: Обнаружено столкновение лицензий
+title.license.corrupt:
+    text: Лицензия повреждена
+title.license.expired:
+    text: Срок действия лицензии истек
+title.license.will.expire:
+    text: Срок действия лицензии {0} скоро истекает
+title.macro.name.already.used:
+    text: Название макроса уже используется
+title.macros:
+    text: Макросы
+title.mark.source.directory:
+    text: Отметить исходный каталог
+title.module.already.exists:
+    text: Модуль уже существует
+title.module.content.root.already.exists:
+    text: Корневой каталог контента модуля уже существует
+title.module.file.does.not.exist:
+    text: 'Файл модуля не существует: {0}'
+title.module.file.location.not.specified:
+    text: Местоположение файла модуля не указано Указано
+title.module.file.path.not.specified:
+    text: Не указан путь к файлу модуля
+title.module.group:
+    text: Группа модулей
+title.module.name.not.specified:
+    text: Название модуля не указано
+title.module.sub.group:
+    text: Подгруппа модулей
+title.new.annotation.type:
+    text: Новый @interface
+title.new.class:
+    text: Новый класс
+title.new.directory:
+    text: Новый каталог
+title.new.enum:
+    text: Новый Enum
+title.new.file:
+    text: Новый файл
+title.new.from.template:
+    text: Новый {0}
+title.new.interface:
+    text: Новый интерфейс
+title.new.package:
+    text: Новый Пакет
+title.new.project:
+    text: Новый проект
+title.no.element.selected:
+    text: Элемент не выбран
+title.no.jdk.specified:
+    text: SDK не указан
+title.open.project:
+    text: Открыть проект
+title.package.not.found:
+    text: Пакет не найден
+title.packages:
+    text: Пакеты
+title.plugin.notification.title:
+    text: Менеджер расширений
+title.plugin.uninstall:
+    text: Удаление расширения
+title.plugins:
+    text: Платформа и расширения
+title.plugins.changed:
+    text: Расширения изменены
+title.popup.new.element:
+    text: Новый
+title.popup.new.element.same.place:
+    text: Новый в текущем каталоге
+title.popup.recent.files:
+    text: Недавние файлы
+title.popup.select.target:
+    text: Выбрать цель
+title.popup.views:
+    text: Виды
+title.product.evaluation:
+    text: '{0} Оценка'
+title.project:
+    text: Проект
+title.question:
+    text: Вопрос
+title.reload.file:
+    text: Перезагрузить файл
+title.rename.favorites.list:
+    text: Переименовать
+title.rename.library:
+    text: Переименовать библиотеку
+title.rename.macro:
+    text: Переименовать макрос
+title.rename.module:
+    text: Переименовать модуль
+title.reset.template:
+    text: Сброс шаблона
+title.restart.needed:
+    text: Требуется перезагрузка
+title.select.compiler.output.path:
+    text: Выберите выходной путь компилятора
+title.select.components.to.export:
+    text: Экспорт настроек
+title.select.components.to.import:
+    text: Выберите компоненты для импорта
+title.select.jdk:
+    text: Выбрать JDK
+title.select.module.content.root:
+    text: Выберите корневой каталог содержимого модуля
+title.select.module.file.location:
+    text: Выберите расположение файла модуля
+title.select.path.to.browser:
+    text: Выберите путь к браузеру
+title.select.project.file.directory:
+    text: Выберите каталог файлов {0}
+title.select.template:
+    text: Выберите шаблон
+title.server.no.licenses:
+    text: На сервере нет лицензий
+title.server.not.available:
+    text: Ошибка подключения к серверу лицензий
+title.server.protocol.hijacked:
+    text: Проблема с ответом сервера лицензий
+title.system.error:
+    text: Системная ошибка
+title.tip.of.the.day:
+    text: Совет дня
+title.todo:
+    text: TODO
+title.todo.current.file:
+    text: Текущий файл
+title.unable.to.add.action.without.icon.to.toolbar:
+    text: Невозможно добавить действие без значка на панель инструментов
+title.unable.to.add.favorites.list:
+    text: Невозможно добавить список избранного
+title.unable.to.save.data:
+    text: Невозможно сохранить данные
+title.upgrade.needed:
+    text: Требуется обновление лицензии
+title.velocity.error:
+    text: Скорость Ошибка
+title.warning:
+    text: Предупреждение
+title.web.services:
+    text: Веб-сервисы
+tooltip.module.group:
+    text: Группа модулей
+tooltip.syntax.linenumber.columnnumber:
+    text: 'Синтаксис: [<lineNumber>][:<columnNumber>] или [<lineNumber>][,<columnNumber]'
+tooltip.ui.designer.form:
+    text: Форма конструктора пользовательского интерфейса
+toolwindow.palette:
+    text: Палитра
+treenode.loading:
+    text: загрузка…
+ui.settings:
+    text: Настройки пользовательского интерфейса
+uninstall.packages.failed:
+    text: Не удалось удалить пакеты. <a href="xxx">Подробности...</a>
+uninstall.packages.failed.dialog.title:
+    text: Не удалось удалить пакеты
+unknown.error:
+    text: Неизвестная ошибка
+unscramble.dialog.title:
+    text: Анализ трассировки стека
+unscramble.log.path.label:
+    text: '&Лог-файл:'
+unscramble.no.unscrambler.item:
+    text: <Не расшифровывать>
+unscramble.normalize.button:
+    text: '&Нормализовать'
+unscramble.stacktrace.caption:
+    text: 'Поместите трассировку стека или полный дамп потока сюда:'
+unscramble.unscrambled.deadlock.tab:
+    text: <Блокировка>
+unscramble.unscrambled.stacktrace.tab:
+    text: <Трассировка стека>
+unscramble.unscrambled.threaddump.tab:
+    text: <Потоки>
+unscramble.unscrambler.combobox:
+    text: 'Расшифровать:'
+unscramble.use.unscrambler.checkbox:
+    text: '&Расшифровать трассировку стека'
+unsupported.jvm.ea.message:
+    text: Версии Java раннего доступа могут вызывать проблемы с совместимостью. Пожалуйста, используйте стабильную версию.
+update.add.new.plugin.host.title:
+    text: Добавить репозиторий
+update.available:
+    text: Доступны обновления
+update.available.group:
+    text: Проверка обновлений
+update.downloading.patch.progress.title:
+    text: Загрузка файла исправления
+update.edit.plugin.host.title:
+    text: Изменить репозиторий
+update.no.update.hosts:
+    text: Не настроены репозитории расширений
+update.plugin.host.url.message:
+    text: 'Репозиторий URL:'
+update.plugin.hosts.title:
+    text: Репозитории расширений
+update.plugins.update.action:
+    text: '&Обновить'
+update.there.are.no.updates:
+    text: Нет обновлений
+update.uploading.plugin.progress.title:
+    text: Обновление расширений
+update.view.updates:
+    text: Просмотреть обновления
+updates.available.idea.version:
+    text: 'Новая версия:'
+updates.build.number:
+    text: '(Номер сборки:'
+updates.check.manually.label:
+    text: <html><br>Чтобы проверить наличие новых обновлений вручную, используйте <b>Справку | Команда «Проверить обновления».</b> </html>
+updates.check.period.on.exit:
+    text: При каждом выходе
+updates.configure.label:
+    text: <html><head>{0}</head><br>Чтобы настроить параметры автоматического обновления, см. диалоговое окно <b><a href="updates">Обновления</a></b> в настройках IDE</html>
+updates.current.idea.version:
+    text: 'Текущая версия:'
+updates.download.and.install.patch.button:
+    text: '&Загрузить исправление и Shutdown'
+updates.download.and.install.patch.button.restart:
+    text: Обновить и перезапустить
+updates.info.dialog.title:
+    text: Информация об обновлении
+updates.last.check.never:
+    text: Никогда
+updates.more.info.button:
+    text: '&Подробнее…'
+updates.new.version.available:
+    text: <html><h4>Доступна новая версия Consulo.</h4></html>
+updates.no.updates.message:
+    text: <html><h4>Вы используете последнюю версию Consulo.</h4></html>
+updates.press.more.info.label:
+    text: <html><br>Нажмите <b>Подробнее…</b>, чтобы открыть веб-страницу, на которой можно вручную загрузить Consulo или узнать больше о его новой версии.</HTML>
+updates.settings.build.number:
+    text: 'Номер сборки:'
+updates.settings.caption.1:
+    text: <html>Consulo может автоматически проверять наличие новых и обновленных версий самого себя, используя ваше интернет-соединение (когда активно).<html>
+updates.settings.check.now.button:
+    text: '&Проверить сейчас'
+updates.settings.checkbox:
+    text: Проверить наличие обновлений в канале
+updates.settings.current.version:
+    text: 'Текущая версия Consulo:'
+updates.settings.last.check:
+    text: 'Последняя проверка обновлений:'
+updates.settings.title:
+    text: Обновления
+updates.timeout.error:
+    text: Истекло время ожидания соединения
+upgrade.package.failed.title:
+    text: Обновление пакетов не удалось.
+upgrade.packages.failed:
+    text: Обновление пакетов не удалось. <a href="xxx">Подробности...</a>
+upgrade.packages.failed.dialog.title:
+    text: Обновление пакетов не удалось
+use.sun.jdk.prompt:
+    text: Версия Java не поддерживается, используйте Sun/Oracle JDK вместо OpenJDK
+value.must.be.identifier:
+    text: Значение должно быть идентификатором
+value.must.not.be.empty:
+    text: Значение не должно быть пустым
+value.should.be.integer:
+    text: Значение должно быть целым числом
+vmoptions.warn.message:
+    text: Размер кэша кода {0}m слишком мал. Увеличьте его до {1}m (или больше), чтобы избежать снижения производительности. Как это сделать, читайте на <a href="https://github.com/consulo/consulo/wiki/VM-Options">wiki</a>.
+warning.delete.all.files.and.subdirectories:
+    text: |4-
+
+        Все файлы и подкаталоги в «{0}» будут удалены.
+        Вы не сможете полностью отменить эту операцию!
+warning.delete.all.files.and.subdirectories.in.the.selected.directory:
+    text: |4-
+
+        Все файлы и подкаталоги в выбранном каталоге будут удалены.
+        Вы не сможете полностью отменить эту операцию!
+warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
+    text: Файл модуля «{0}» уже существует.
+warning.text.0.do.you.want.to.overwrite.these.files:
+    text: |-
+        {0}
+        Хотите перезаписать {1,choice,1#it|2#these files}?
+web.search.label.layout:
+    text: Веб-поиск

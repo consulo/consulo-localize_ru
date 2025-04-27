@@ -1,372 +1,380 @@
-color.panel.select.color.dialog.description:
-  text: Выберите цвет
-color.panel.right.click.to.customize.tooltip.suffix:
-  text: Щёлкните правой кнопкой мыши, чтобы настроить
-insert.file.path.to.text.action.name:
-  text: Вставить путь
-order.entries.panel.export.column.name:
-  text: Экспорт
-tree.view.expand.all.action.name:
-  text: Развернуть всё
-tree.view.collapse.all.action.name:
-  text: Свернуть всё
-component.with.browse.button.browse.button.tooltip.text:
-  text: Щёлкните или нажмите Alt-Enter
-there.is.no.help.for.this.dialog.error.message:
-  text: Для этого диалога нет справки
-no.help.available.dialog.title:
-  text: Нет доступной справки
-invalid.user.input.dialog.title:
-  text: Ошибка ввода
-splitter.down.tooltip.text:
-  text: Вниз
-splitter.right.tooltip.text:
-  text: Вправо
-splitter.center.tooltip.text:
-  text: Центр
-splitter.up.tooltip.text:
-  text: Вверх
-splitter.left.tooltip.text:
-  text: Влево
-autoscroll.from.source.action.name:
-  text: Автоматическая прокрутка от источника
-autoscroll.from.source.action.description:
-  text: Автоматическая прокрутка от источника
-autoscroll.to.source.action.name:
-  text: Автоматическая прокрутка к источнику
-autoscroll.to.source.action.description:
-  text: Автоматическая прокрутка к источнику
-collapsible.panel.collapsed.state.tooltip.text:
-  text: Развернуть панель
-collapsible.panel.expanded.state.tooltip.text:
-  text: Свернуть панель
-idea.blue.metal.theme.name:
-  text: beg blue
-replace.prompt.replace.button:
-  text: '&Заменить'
-replace.prompt.skip.button:
-  text: '&Пропустить'
-replace.prompt.all.in.this.file.button:
-  text: Всё в этом &файле
-replace.prompt.all.files.action:
-  text: '&Все файлы'
-replace.prompt.all.button:
-  text: '&Всё'
-replace.prompt.replace.occurrence.label:
-  text: Хотите заменить это вхождение?
-search.popup.search.for.label:
-  text: 'Искать:'
-tabbed.pane.close.all.action.name:
-  text: Закрыть всё
-tabbed.pane.close.all.but.this.action.name:
-  text: Закрыть все, кроме этого
-tabbed.pane.pin.tab.action.name:
-  text: Закрепить вкладку
-tabbed.pane.pin.tab.action.description:
-  text: Закрепить вкладку окна инструмента
-tabbed.pane.close.tab.action.name:
-  text: Закрыть вкладку
-tabbed.pane.close.all.tabs.but.this.action.name:
-  text: Закрыть другие вкладки
-file.is.read.only.message.text:
-  text: Файл «{0}» доступен только для чтения.
-files.are.read.only.message.text:
-  text: Файлы {0} доступны только для чтения.
-error.dialog.title:
-  text: Ошибка
-tool.window.name.commander:
-  text: Менеджер файлов
-tool.window.name.messages:
-  text: Сообщения
-tool.window.name.project:
-  text: Проект
-tool.window.name.structure:
-  text: Структура
-tool.window.name.favorites:
-  text: Избранное
-tool.window.name.ant.build:
-  text: Сборка Ant
-tool.window.name.debug:
-  text: Отладка
-tool.window.name.run:
-  text: Запустить
-tool.window.name.find:
-  text: Найти
-tool.window.name.cvs:
-  text: CVS
-tool.window.name.preview:
-  text: Предварительный просмотр
-tool.window.name.run.dashboard:
-  text: Запустить панель мониторинга
-tool.window.name.hierarchy:
-  text: Иерархия
-tool.window.name.inspection:
-  text: Проверка
-tool.window.name.todo:
-  text: TODO
-tool.window.name.dependency.viewer:
-  text: Просмотрщик зависимостей
-tool.window.name.version.control:
-  text: Контроль версий
-tool.window.name.module.dependencies:
-  text: Зависимости модулей
-tool.window.name.tasks:
-  text: Отслеживание времени
-tool.window.move.to.action.group.name:
-  text: Переместить
-tool.window.move.to.top.action.name:
-  text: Вверх
-tool.window.move.to.left.action.name:
-  text: Влево
-tool.window.move.to.bottom.action.name:
-  text: Вниз
-tool.window.move.to.right.action.name:
-  text: Вправо
-tool.window.hide.action.name:
-  text: Скрыть
-tool.window.hideSide.action.name:
-  text: Hide Side
-memory.usage.panel.statistics.message:
-  text: 'Выделенный размер кучи: {0}M Использовано: {1}M'
-memory.usage.panel.run.garbage.collector.action.name:
-  text: Запустить сборщик мусора
-memory.usage.panel.run.garbage.collector.action.description:
-  text: Запустить сборщик мусора
-memory.usage.panel.message.text:
-  text: '{0,number,####}M из {1,number,####}M'
-go.to.line.command.name:
-  text: Перейти к строке
-go.to.line.command.name.with.shortkut:
-  text: Перейти к строке ({0})
-go.to.line.command.double.click:
-  text: Щёлкните, чтобы перейти к строке
-position.panel.caret.count:
-  text: '{0} знаков вставки'
-position.panel.selected.chars.count:
-  text: '{0} символов'
-position.panel.selected.line.breaks.count:
-  text: '{0} строка {0,choice,1#перевод строки|2#переводов строк}'
-position.panel.selected.lines.count:
-  text: '{0} строк'
-status.bar.insert.status.text:
-  text: Вставить
-status.bar.overwrite.status.text:
-  text: Перезаписать
-popup.hints.panel.click.to.configure.highlighting.tooltip.text:
-  text: Щёлкните, чтобы настроить подсветку для этого файла
-popup.hints.panel.click.to.configure.profile.text:
-  text: Щёлкните, чтобы настроить профили проверки
-read.only.attr.panel.double.click.to.toggle.attr.tooltip.text:
-  text: Щёлкните, чтобы переключить атрибут «только для чтения»
-welcome.screen.get.from.vcs.action.no.vcs.plugins.with.check.out.action.installed.action.name:
-  text: Не установлено ни одного расширения VCS с действием создания рабочей копии.
-welcome.screen.get.from.vcs.action.checkout.from.list.popup.title:
-  text: Создать рабочую копию из
-welcome.screen.recent.projects.action.no.recent.projects.to.display.action.name:
-  text: Нет недавних проектов для отображения.
-welcome.screen.quick.start.action.group.name:
-  text: Быстрый старт
-welcome.screen.documentation.action.group.name:
-  text: Документация
-welcome.screen.plugins.panel.plugins.label:
-  text: Расширения
-welcome.screen.plugins.panel.manager.link:
-  text: <html><body><u>Открыть менеджер расширений</u></body></html>
-welcome.screen.plugins.panel.my.plugins.label:
-  text: 'Мои расширения:'
-welcome.screen.plugins.panel.bundled.plugins.label:
-  text: 'Связанные расширения:'
-welcome.screen.plugins.panel.no.plugins.currently.installed.message.text:
-  text: В настоящее время расширения не установлены.
-welcome.screen.plugins.panel.all.bundled.plugins.were.uninstalled.message.text:
-  text: Все связанные расширения были удалены.
-welcome.screen.plugins.panel.learn.more.link:
-  text: <html><body><u>…</u></body></html>
-welcome.screen.plugins.panel.learn.more.tooltip.text:
-  text: Узнать больше…
-welcome.screen.text.not.specified.message:
-  text: Не указано
-welcome.screen.jetbrains.tv.action.description:
-  text: Посмотреть короткие живые демонстрации, показывающие возможности {0}.
-file.chooser.default.title:
-  text: Выберите путь
-file.chooser.save.dialog.default.title:
-  text: Выберите файл для сохранения
-file.chooser.save.dialog.confirmation:
-  text: |-
-    {0} уже существует.
-    Хотите заменить его?
-file.chooser.save.dialog.confirmation.title:
-  text: Подтвердите «Сохранить как»
-file.chooser.select.object.title:
-  text: Выбрать {0}
-delete.dialog.title:
-  text: Удалить
-are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
-  text: Вы уверены, что хотите удалить папку «{0}»?
 are.you.sure.you.want.to.delete.selected.file.confirmation.message:
-  text: Удалить {0}?
+    text: Удалить {0}?
 are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
-  text: Вы уверены, что хотите удалить {0} выбранных файлов и папок?
-are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
-  text: Вы уверены, что хотите удалить {0} выбранных папок?
+    text: Вы уверены, что хотите удалить {0} выбранных файлов и папок?
 are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
-  text: Вы уверены, что хотите удалить {0} выбранных файлов?
-create.new.folder.enter.new.folder.name.prompt.text:
-  text: 'Введите название для новой папки:'
-create.new.folder.folder.name.cannot.be.empty.error.message:
-  text: Название папки не может быть пустым
-create.new.folder.could.not.create.folder.error.message:
-  text: Не удалось создать папку «{0}»
-new.folder.dialog.title:
-  text: Новая папка
-create.new.file.enter.new.file.name.prompt.text:
-  text: 'Введите название для нового файла:'
-create.new.file.file.name.cannot.be.empty.error.message:
-  text: Название файла не может быть пустым
-create.new.file.could.not.create.file.error.message:
-  text: Не удалось создать файл «{0}»
-new.file.dialog.title:
-  text: Новый файл
-file.chooser.create.new.folder.command.name:
-  text: Создать новую папку
-file.chooser.create.new.file.command.name:
-  text: Создать новый файл
-file.cache.conflict.action:
-  text: Перезагрузить с диска
-file.cache.conflict.message.text:
-  text: Изменения были внесены в «{0}» в памяти и на диске.
-file.cache.conflict.load.fs.changes.button:
-  text: '&Загрузить изменения файловой системы'
-file.cache.conflict.keep.memory.changes.button:
-  text: '&Сохранить изменения памяти'
-file.cache.conflict.show.difference.button:
-  text: '&Показать разницу'
-file.cache.conflict.for.file.dialog.title:
-  text: Конфликт кэша файлов {0}
-file.cache.conflict.dialog.title:
-  text: Конфликт кэша файлов
-file.cache.conflict.diff.content.file.system.content:
-  text: Содержимое файловой системы
-file.cache.conflict.diff.content.memory.content:
-  text: Содержимое памяти
-file.cache.conflict.save.changes.button:
-  text: Сохранить содержимое памяти
-cannot.save.files.dialog.title:
-  text: Невозможно сохранить файлы
-cannot.save.files.dialog.message:
-  text: 'При попытке сохранить файлы произошли следующие ошибки:'
-cannot.save.files.dialog.revert.changes:
-  text: '&Отменить изменения'
-cannot.save.files.dialog.ignore.changes:
-  text: '&Игнорировать изменения'
-status.bar.column.status.text:
-  text: Столбец
-choose.content.to.paste.dialog.title:
-  text: Выберите содержимое для вставки
-downloading.file.try.again.button:
-  text: Повторить попытку
-downloading.file.change.http.proxy.settings:
-  text: Изменить настройки HTTP-&прокси…
-remove.field.initializer.quick.fix:
-  text: Удалить инициализатор поля
-button.add.class:
-  text: Добавить класс…
-button.add.pattern:
-  text: Добавить шаблон…
-button.remove:
-  text: '&Удалить'
-no.patterns:
-  text: Шаблоны классов не настроены
-class.filter.editor.choose.class.title:
-  text: Выбрать класс
-class.filter.editor.add.dialog.title:
-  text: Новый фильтр
-label.class.filter.editor.add.dialog.filter.pattern:
-  text: 'Введите шаблон фильтра:'
-choose.class:
-  text: Выбрать класс
+    text: Вы уверены, что хотите удалить {0} выбранных файлов?
+are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
+    text: Вы уверены, что хотите удалить папку «{0}»?
+are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
+    text: Вы уверены, что хотите удалить {0} выбранных папок?
+autoscroll.from.source.action.description:
+    text: Автоматическая прокрутка от источника
+autoscroll.from.source.action.name:
+    text: Автоматическая прокрутка от источника
+autoscroll.to.source.action.description:
+    text: Автоматическая прокрутка к источнику
+autoscroll.to.source.action.name:
+    text: Автоматическая прокрутка к источнику
 big.text.control.window.title:
-  text: Текст
-tool.window.name.module.duplicates:
-  text: Дубликаты
-welcome.screen.disabled.plugins.description:
-  text: (отключено)
-welcome.screen.incompatible.plugins.description:
-  text: (несовместимо)
-row.add:
-  text: '&Добавить'
-row.remove:
-  text: '&Удалить'
-row.move.up:
-  text: Переместить &вверх
-row.move.down:
-  text: Переместить &вниз
-row.add.without.mnemonic:
-  text: Добавить
-row.remove.without.mnemonic:
-  text: Удалить
-row.move.up.without.mnemonic:
-  text: Переместить вверх
-row.move.down.without.mnemonic:
-  text: Переместить вниз
-move.up.action.name:
-  text: Переместить вверх
-move.down.action.name:
-  text: Переместить вниз
-file.chooser.save.dialog.file.name:
-  text: 'Название файла:'
-tool.window.name.documentation:
-  text: Документация
-tool.window.quick.access.title:
-  text: Быстрый доступ к окнам инструментов
-tool.window.quick.access.message:
-  text: |-
-    Наведите указатель мыши на значок ниже, чтобы открыть окна инструментов
-    Чтобы восстановить старую компоновку, просто щёлкните на значок
-got.it:
-  text: Понятно!
+    text: Текст
+button.add.class:
+    text: Добавить класс…
+button.add.pattern:
+    text: Добавить шаблон…
+button.remove:
+    text: '&Удалить'
+cannot.save.files.dialog.ignore.changes:
+    text: '&Игнорировать изменения'
+cannot.save.files.dialog.message:
+    text: 'При попытке сохранить файлы произошли следующие ошибки:'
+cannot.save.files.dialog.revert.changes:
+    text: '&Отменить изменения'
+cannot.save.files.dialog.title:
+    text: Невозможно сохранить файлы
+choose.class:
+    text: Выбрать класс
+choose.content.to.paste.dialog.title:
+    text: Выберите содержимое для вставки
+class.filter.editor.add.dialog.title:
+    text: Новый фильтр
+class.filter.editor.choose.class.title:
+    text: Выбрать класс
+collapsible.panel.collapsed.state.tooltip.text:
+    text: Развернуть панель
+collapsible.panel.expanded.state.tooltip.text:
+    text: Свернуть панель
+color.panel.right.click.to.customize.tooltip.suffix:
+    text: Щёлкните правой кнопкой мыши, чтобы настроить
+color.panel.select.color.dialog.description:
+    text: Выберите цвет
+component.with.browse.button.browse.button.tooltip.text:
+    text: Щёлкните или нажмите Alt-Enter
+create.new.file.could.not.create.file.error.message:
+    text: Не удалось создать файл «{0}»
+create.new.file.enter.new.file.name.prompt.text:
+    text: 'Введите название для нового файла:'
+create.new.file.file.name.cannot.be.empty.error.message:
+    text: Название файла не может быть пустым
+create.new.folder.could.not.create.folder.error.message:
+    text: Не удалось создать папку «{0}»
+create.new.folder.enter.new.folder.name.prompt.text:
+    text: 'Введите название для новой папки:'
+create.new.folder.folder.name.cannot.be.empty.error.message:
+    text: Название папки не может быть пустым
 crombs.calculating.tooltip:
-  text: Вычисляется…
-message.nothingToShow:
-  text: Нечего показать
-message.nothingToShow.with.problem:
-  text: Нечего показать ({0})
-message.noMatchesFound:
-  text: Совпадений не найдено
-message.matches:
-  text: '{0,choice, 0# совпадений|1# совпадение|2# совпадений}'
-message.files:
-  text: '{0,choice, 0# файлах|1# файл|2# файлах}'
-status.bar.hide.widget.action.name:
-  text: Скрыть «{0}»
-status.bar.position.widget.name:
-  text: Номера строки:столбца
-status.bar.line.separator.widget.name:
-  text: Разделитель строк
-status.bar.encoding.widget.name:
-  text: Кодировка файла
-status.bar.selection.mode.widget.name:
-  text: Режим выбора редактора
-status.bar.read.only.widget.name:
-  text: Атрибут «Только для чтения»
-status.bar.notifications.widget.name:
-  text: Уведомления
-status.bar.notifications.widget.tooltip:
-  text: '{0} {0,choice, 1#уведомление|2#уведомлений} в ожидании'
-status.bar.notifications.widget.no.notification.tooltip:
-  text: Нет новых уведомлений
-status.bar.fatal.error.widget.name:
-  text: Внутренняя ошибка
-status.bar.inspection.profile.widget.name:
-  text: Профиль проверки
-status.bar.code.style.widget.name:
-  text: Отступ
-status.bar.memory.usage.widget.name:
-  text: Индикатор памяти
-status.bar.write.thread.widget.name:
-  text: Запись потока
-status.bar.column.status.tooltip.text:
-  text: Режим выбора столбца
+    text: Вычисляется…
+delete.dialog.title:
+    text: Удалить
+downloading.file.change.http.proxy.settings:
+    text: Изменить настройки HTTP-&прокси…
+downloading.file.try.again.button:
+    text: Повторить попытку
+error.dialog.title:
+    text: Ошибка
+file.cache.conflict.action:
+    text: Перезагрузить с диска
+file.cache.conflict.dialog.title:
+    text: Конфликт кэша файлов
+file.cache.conflict.diff.content.file.system.content:
+    text: Содержимое файловой системы
+file.cache.conflict.diff.content.memory.content:
+    text: Содержимое памяти
+file.cache.conflict.for.file.dialog.title:
+    text: Конфликт кэша файлов {0}
+file.cache.conflict.keep.memory.changes.button:
+    text: '&Сохранить изменения памяти'
+file.cache.conflict.load.fs.changes.button:
+    text: '&Загрузить изменения файловой системы'
+file.cache.conflict.message.text:
+    text: Изменения были внесены в «{0}» в памяти и на диске.
+file.cache.conflict.save.changes.button:
+    text: Сохранить содержимое памяти
+file.cache.conflict.show.difference.button:
+    text: '&Показать разницу'
+file.chooser.create.new.file.command.name:
+    text: Создать новый файл
+file.chooser.create.new.folder.command.name:
+    text: Создать новую папку
+file.chooser.default.title:
+    text: Выберите путь
+file.chooser.save.dialog.confirmation:
+    text: |-
+        {0} уже существует.
+        Хотите заменить его?
+file.chooser.save.dialog.confirmation.title:
+    text: Подтвердите «Сохранить как»
+file.chooser.save.dialog.default.title:
+    text: Выберите файл для сохранения
+file.chooser.save.dialog.file.name:
+    text: 'Название файла:'
+file.chooser.select.object.title:
+    text: Выбрать {0}
+file.is.read.only.message.text:
+    text: Файл «{0}» доступен только для чтения.
+files.are.read.only.message.text:
+    text: Файлы {0} доступны только для чтения.
+go.to.line.command.double.click:
+    text: Щёлкните, чтобы перейти к строке
+go.to.line.command.name:
+    text: Перейти к строке
+go.to.line.command.name.with.shortkut:
+    text: Перейти к строке ({0})
+got.it:
+    text: Понятно!
+idea.blue.metal.theme.name:
+    text: beg blue
+insert.file.path.to.text.action.name:
+    text: Вставить путь
+integer.field.value.expected:
+    text: Ожидается значение
+integer.field.value.not.a.number:
+    text: Значение «{0}» не является целым числом
+integer.field.value.out.of.range:
+    text: Значение «{0}» находится вне диапазона {1}..{2}
+invalid.user.input.dialog.title:
+    text: Ошибка ввода
+label.class.filter.editor.add.dialog.filter.pattern:
+    text: 'Введите шаблон фильтра:'
 master.detail.err.empty.name:
-  text: Название должно содержать символы, не являющиеся пробелами
+    text: Название должно содержать символы, не являющиеся пробелами
+memory.usage.panel.message.text:
+    text: '{0,number,####}M из {1,number,####}M'
+memory.usage.panel.run.garbage.collector.action.description:
+    text: Запустить сборщик мусора
+memory.usage.panel.run.garbage.collector.action.name:
+    text: Запустить сборщик мусора
+memory.usage.panel.statistics.message:
+    text: 'Выделенный размер кучи: {0}M Использовано: {1}M'
+message.files:
+    text: '{0,choice, 0# файлах|1# файл|2# файлах}'
+message.matches:
+    text: '{0,choice, 0# совпадений|1# совпадение|2# совпадений}'
+message.noMatchesFound:
+    text: Совпадений не найдено
+message.nothingToShow:
+    text: Нечего показать
+message.nothingToShow.with.problem:
+    text: Нечего показать ({0})
+move.down.action.name:
+    text: Переместить вниз
+move.up.action.name:
+    text: Переместить вверх
+new.file.dialog.title:
+    text: Новый файл
+new.folder.dialog.title:
+    text: Новая папка
+no.help.available.dialog.title:
+    text: Нет доступной справки
+no.patterns:
+    text: Шаблоны классов не настроены
+order.entries.panel.export.column.name:
+    text: Экспорт
+popup.hints.panel.click.to.configure.highlighting.tooltip.text:
+    text: Щёлкните, чтобы настроить подсветку для этого файла
+popup.hints.panel.click.to.configure.profile.text:
+    text: Щёлкните, чтобы настроить профили проверки
+position.panel.caret.count:
+    text: '{0} знаков вставки'
+position.panel.selected.chars.count:
+    text: '{0,choice,1#символ|2#символов}'
+position.panel.selected.line.breaks.count:
+    text: '{0} строка {0,choice,1#перевод строки|2#переводов строк}'
+position.panel.selected.lines.count:
+    text: '{0} строк'
+read.only.attr.panel.double.click.to.toggle.attr.tooltip.text:
+    text: Щёлкните, чтобы переключить атрибут «только для чтения»
+remove.field.initializer.quick.fix:
+    text: Удалить инициализатор поля
+replace.prompt.all.button:
+    text: '&Всё'
+replace.prompt.all.files.action:
+    text: '&Все файлы'
+replace.prompt.all.in.this.file.button:
+    text: Всё в этом &файле
+replace.prompt.replace.button:
+    text: '&Заменить'
+replace.prompt.replace.occurrence.label:
+    text: Хотите заменить это вхождение?
+replace.prompt.skip.button:
+    text: '&Пропустить'
+row.add:
+    text: '&Добавить'
+row.add.without.mnemonic:
+    text: Добавить
+row.move.down:
+    text: Переместить &вниз
+row.move.down.without.mnemonic:
+    text: Переместить вниз
+row.move.up:
+    text: Переместить &вверх
+row.move.up.without.mnemonic:
+    text: Переместить вверх
+row.remove:
+    text: '&Удалить'
+row.remove.without.mnemonic:
+    text: Удалить
+search.popup.search.for.label:
+    text: 'Искать:'
+splitter.center.tooltip.text:
+    text: Центр
+splitter.down.tooltip.text:
+    text: Вниз
+splitter.left.tooltip.text:
+    text: Влево
+splitter.right.tooltip.text:
+    text: Вправо
+splitter.up.tooltip.text:
+    text: Вверх
+status.bar.code.style.widget.name:
+    text: Отступ
+status.bar.column.status.text:
+    text: Столбец
+status.bar.column.status.tooltip.text:
+    text: Режим выбора столбца
+status.bar.encoding.widget.name:
+    text: Кодировка файла
+status.bar.fatal.error.widget.name:
+    text: Внутренняя ошибка
+status.bar.hide.widget.action.name:
+    text: Скрыть «{0}»
+status.bar.insert.status.text:
+    text: Вставить
+status.bar.inspection.profile.widget.name:
+    text: Профиль проверки
+status.bar.line.separator.widget.name:
+    text: Разделитель строк
+status.bar.memory.usage.widget.name:
+    text: Индикатор памяти
+status.bar.notifications.widget.name:
+    text: Уведомления
+status.bar.notifications.widget.no.notification.tooltip:
+    text: Нет новых уведомлений
+status.bar.notifications.widget.tooltip:
+    text: '{0} {0,choice, 1#уведомление|2#уведомлений} в ожидании'
+status.bar.overwrite.status.text:
+    text: Перезаписать
+status.bar.position.widget.name:
+    text: Номера строки:столбца
+status.bar.read.only.widget.name:
+    text: Атрибут «Только для чтения»
+status.bar.selection.mode.widget.name:
+    text: Режим выбора редактора
+status.bar.write.thread.widget.name:
+    text: Запись потока
+tabbed.pane.close.all.action.name:
+    text: Закрыть всё
+tabbed.pane.close.all.but.this.action.name:
+    text: Закрыть все, кроме этого
+tabbed.pane.close.all.tabs.but.this.action.name:
+    text: Закрыть другие вкладки
+tabbed.pane.close.tab.action.name:
+    text: Закрыть вкладку
+tabbed.pane.pin.tab.action.description:
+    text: Закрепить вкладку окна инструмента
+tabbed.pane.pin.tab.action.name:
+    text: Закрепить вкладку
+there.is.no.help.for.this.dialog.error.message:
+    text: Для этого диалога нет справки
+tool.window.hide.action.name:
+    text: Скрыть
+tool.window.hideSide.action.name:
+    text: Hide Side
+tool.window.move.to.action.group.name:
+    text: Переместить
+tool.window.move.to.bottom.action.name:
+    text: Вниз
+tool.window.move.to.left.action.name:
+    text: Влево
+tool.window.move.to.right.action.name:
+    text: Вправо
+tool.window.move.to.top.action.name:
+    text: Вверх
+tool.window.name.ant.build:
+    text: Сборка Ant
+tool.window.name.build:
+    text: Сборка
+tool.window.name.commander:
+    text: Менеджер файлов
+tool.window.name.cvs:
+    text: CVS
+tool.window.name.debug:
+    text: Отладка
+tool.window.name.dependency.viewer:
+    text: Просмотрщик зависимостей
+tool.window.name.documentation:
+    text: Документация
+tool.window.name.favorites:
+    text: Избранное
+tool.window.name.find:
+    text: Найти
+tool.window.name.hierarchy:
+    text: Иерархия
+tool.window.name.inspection:
+    text: Проверка
+tool.window.name.messages:
+    text: Сообщения
+tool.window.name.module.dependencies:
+    text: Зависимости модулей
+tool.window.name.module.duplicates:
+    text: Дубликаты
+tool.window.name.preview:
+    text: Предварительный просмотр
+tool.window.name.project:
+    text: Проект
+tool.window.name.run:
+    text: Запустить
+tool.window.name.run.dashboard:
+    text: Запустить панель мониторинга
+tool.window.name.structure:
+    text: Структура
+tool.window.name.tasks:
+    text: Отслеживание времени
+tool.window.name.todo:
+    text: TODO
+tool.window.name.version.control:
+    text: Контроль версий
+tool.window.quick.access.message:
+    text: |-
+        Наведите указатель мыши на значок ниже, чтобы открыть окна инструментов
+        Чтобы восстановить старую компоновку, просто щёлкните на значок
+tool.window.quick.access.title:
+    text: Быстрый доступ к окнам инструментов
+tree.view.collapse.all.action.name:
+    text: Свернуть всё
+tree.view.expand.all.action.name:
+    text: Развернуть всё
+welcome.screen.disabled.plugins.description:
+    text: (отключено)
+welcome.screen.documentation.action.group.name:
+    text: Документация
+welcome.screen.get.from.vcs.action.checkout.from.list.popup.title:
+    text: Создать рабочую копию из
+welcome.screen.get.from.vcs.action.no.vcs.plugins.with.check.out.action.installed.action.name:
+    text: Не установлено ни одного расширения VCS с действием создания рабочей копии.
+welcome.screen.incompatible.plugins.description:
+    text: (несовместимо)
+welcome.screen.jetbrains.tv.action.description:
+    text: Посмотреть короткие живые демонстрации, показывающие возможности {0}.
+welcome.screen.plugins.panel.all.bundled.plugins.were.uninstalled.message.text:
+    text: Все связанные расширения были удалены.
+welcome.screen.plugins.panel.bundled.plugins.label:
+    text: 'Связанные расширения:'
+welcome.screen.plugins.panel.learn.more.link:
+    text: <html><body><u>…</u></body></html>
+welcome.screen.plugins.panel.learn.more.tooltip.text:
+    text: Узнать больше…
+welcome.screen.plugins.panel.manager.link:
+    text: <html><body><u>Открыть менеджер расширений</u></body></html>
+welcome.screen.plugins.panel.my.plugins.label:
+    text: 'Мои расширения:'
+welcome.screen.plugins.panel.no.plugins.currently.installed.message.text:
+    text: В настоящее время расширения не установлены.
+welcome.screen.plugins.panel.plugins.label:
+    text: Расширения
+welcome.screen.quick.start.action.group.name:
+    text: Быстрый старт
+welcome.screen.recent.projects.action.no.recent.projects.to.display.action.name:
+    text: Нет недавних проектов для отображения.
+welcome.screen.text.not.specified.message:
+    text: Не указано

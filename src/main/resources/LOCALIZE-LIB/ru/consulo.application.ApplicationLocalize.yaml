@@ -224,7 +224,7 @@ checkbox.enable.ctrl.mousewheel.changes.font.size:
     text: Изменить размер шрифта (масштаб) с помощью Ctrl+колесико мыши
 checkbox.enable.ctrl.mousewheel.changes.font.size.macos:
     text: Изменить размер шрифта (масштаб) с помощью Command+колесико мыши
-checkbox.enable.drag.n.drop.functionity.in.editor:
+checkbox.enable.drag.n.drop.functionality.in.editor:
     text: Включить функцию перетаскивания мышью в редакторе
 checkbox.enable.javadoc.formatting:
     text: Включить форматирование JavaDoc
@@ -542,10 +542,14 @@ code.style.indents.detector.accept:
     text: OK
 code.style.indents.detector.show.settings:
     text: Показать настройки
+code.style.other.file.types:
+    text: Другие типы файлов
 code.style.space.indent.detected:
     text: Этот файл имеет отступ в {0} пробелов вместо символа табуляции
 code.style.tab.usage.detected:
     text: Этот файл имеет отступ табуляцией вместо {0} пробелов
+code.style.widget.configure.indents:
+    text: Настроить отступы для {0}...
 column.name:
     text: Название
 column.value:
@@ -876,6 +880,12 @@ group.virtual.space:
     text: Виртуальное пространство
 groupbox.display:
     text: Отображение
+heavyProcess.type.indexing:
+    text: Индексируем...
+heavyProcess.type.processing:
+    text: Обрабатываем...
+heavyProcess.type.syncing:
+    text: Синхронизируем...
 html.project.uses.own.code.style:
     text: <html><body>Текущий проект настроен на использование собственного стиля кода.<br>Изменения, внесенные в глобальные настройки стиля кода, не повлияют на форматирование в текущем проекте.<br>См. Настройки проекта | Стиль кода.<br>Нажмите \&quot;Изменить глобальные настройки\&quot; кнопку ниже, если вы всё ещё хотите редактировать глобальные настройки.</body></html>
 import.scheme.chooser.destination:
@@ -888,12 +898,6 @@ insert.override.annotation:
     text: Вставить аннотацию @&Override
 integer.field.value.default:
     text: По умолчанию
-integer.field.value.expected:
-    text: Ожидается значение
-integer.field.value.not.a.number:
-    text: Значение «{0}» не является целым числом
-integer.field.value.out.of.range:
-    text: Значение «{0}» находится вне диапазона {1}..{2}
 label.appearance.show.vertical.indent.guides:
     text: Показывать вертикальные направляющие отступа
 label.autocomplete.when.only.one.choice:

@@ -1,272 +1,276 @@
-diff.application.usage.parameters.and.description:
-  text: 'Использование: {0} diff <левый файл> <правый файл> [<базовый файл>]'
-merge.application.usage.parameters.and.description:
-  text: 'Использование: {0} merge <левый файл> <правый файл> [<базовый файл>] <выходной файл>'
-cannot.file.file.error:
-  text: 'Не могу найти файл: {0}'
-cannot.create.diff.error:
-  text: 'Не могу создать элемент diff из: {0}'
-cannot.compare.error:
-  text: Менеджер различий не может сравнить «{0}» и «{1}»
-unknown.file.type.error:
-  text: 'Неизвестный тип файла: {0}'
-save.merge.result.command.name:
-  text: Слияние
-compare.file.vs.file.dialog.title:
-  text: '{0} с {1}'
-diff.content.editor.content.title:
-  text: Редактор
-diff.content.clipboard.content.title:
-  text: Буфер обмена
-diff.clipboard.vs.editor.dialog.title:
-  text: Буфер обмена с редактором
-diff.clipboard.vs.file.dialog.title:
-  text: Буфер обмена с {0}
-diff.content.selection.from.editor.content.title:
-  text: Выделение из редактора
-diff.content.selection.from.file.content.title:
-  text: Выделение из {0}
-diff.compare.element.type.with.editor.action.name:
-  text: Сравнить файл с редактором
-diff.element.qualified.name.vs.editor.dialog.title:
-  text: '{0} с редактором'
-diff.element.qualified.name.vs.file.dialog.title:
-  text: '{0} с {1}'
-diff.element.qualified.name.vs.element.qualified.name.dialog.title:
-  text: '{0} с {1}'
-diff.acton.ignore.whitespace.policy.do.not.ignore:
-  text: Не игнорировать
-diff.acton.ignore.whitespace.policy.leading.and.trailing:
-  text: В начале и в конце
-diff.acton.ignore.whitespace.policy.all:
-  text: Все
-ignore.whitespace.acton.name:
-  text: 'Игнорировать пробелы:'
-diff.panel.combo.box.action.not.available.action.name:
-  text: <Недоступно>
-diff.dialog.select.change.action.name:
-  text: Выбрать правку
-diff.dialog.select.change.action.description:
-  text: Выделить измененный текст в этой версии и соответствующий в других
-merge.files.dialog.title:
-  text: Слияние
-merge.dialog.cannot.load.file.error.message:
-  text: 'Не могу загрузить файл: {0}'
-merge.editor.replace.operation.name:
-  text: Заменить
-merge.editor.insert.operation.name:
-  text: Вставить
-merge.editor.remove.operation.name:
-  text: Удалить
-diff.highlighting.disabled.text:
-  text: Подсветка различий отключена
-diff.all.differences.ignored.text:
-  text: Различия проигнорированы
-diff.count.differences.status.text:
-  text: '{0, choice, 0#нет различий|1#1 различие|2#{0, number} различий}'
-cant.launch.diff.tool.error.message:
-  text: Невозможно запустить инструмент сравнения
-binary.files.are.identical.message:
-  text: Двоичные файлы идентичны
-files.are.identical.dialog.title:
-  text: Файлы идентичны
-binary.files.are.different.message:
-  text: Двоичные файлы отличаются
-files.are.different.dialog.title:
-  text: Файлы отличаются
-diff.options.diff.options.border:
-  text: Параметры сравнения
-diff.options.use.external.tool.for.files.checkbox:
-  text: 'Использовать внешний инструмент для сравнения файлов/папок:'
-diff.options.use.external.merge.tool.for.files.checkbox:
-  text: 'Использовать внешний инструмент слияния:'
-select.external.diff.program.dialog.title:
-  text: Выберите внешнюю программу сравнения
-select.external.merge.program.dialog.title:
-  text: Выберите внешнюю программу слияния
-diff.contents.are.identical.message.text:
-  text: Содержимое идентично
-diff.contents.have.differences.only.in.line.separators.message.text:
-  text: Содержимое отличается только переводами строк
-diff.contents.have.differences.only.in.line.separators.or.whitespaces:
-  text: Содержимое отличается только переводами строк или пробелами
-diff.contents.have.differences.only.in.charset.message.text:
-  text: Содержимое отличается только кодировкой
-diff.contents.have.differences.only.in.charset.and.line.separators.message.text:
-  text: Содержимое отличается только переводами строк и кодировкой
-show.diff.anyway.dialog.message:
-  text: Показать разницу в любом случае?
-no.differences.dialog.title:
-  text: Нет различий
-merge.dialog.apply.change.action.name:
-  text: Применить правку
-merge.dialog.append.change.action.name:
-  text: Применить правку с выбранной стороны
-merge.dialog.ignore.change.action.name:
-  text: Игнорировать правку
-merge.dialog.apply.all.non.conflicting.changes.action.name:
-  text: Применить все неконфликтующие изменения
-merge.dialog.apply.left.non.conflicting.changes.action.name:
-  text: Применить неконфликтующие изменения с левой стороны
-merge.dialog.apply.right.non.conflicting.changes.action.name:
-  text: Применить неконфликтующие изменения с правой стороны
-merge.dialog.all.conflicts.resolved.message.text:
-  text: Все конфликты разрешены
-merge.statistics.message:
-  text: '{0, choice, 0#Нет правок|1#Одна правка|2#{0, number} правок}. {1, choice, 0#Нет конфликтов|1#Один конфликт|2#{0, number} конфликтов}'
-merge.partial.diff.action.name:
-  text: Сравнение содержимого левой и правой панелей
-merge.partial.diff.action.name.0.1:
-  text: Сравнение содержимого левой и средней панелей
-merge.partial.diff.action.name.1.2:
-  text: Сравнение содержимого средней и правой панелей
-merge.dialog.exit.without.applying.changes.confirmation.message:
-  text: Вы уверены, что хотите выйти без применения изменений?
-cancel.visual.merge.dialog.title:
-  text: Отменить визуальное слияние
-apply.somehow.status.message.all.applied:
-  text: Все блоки решены
-apply.somehow.status.message.already.applied:
-  text: "{0, number} {0, choice, 1#блок | 2#блока} уже применены"
-apply.somehow.status.message.cant.apply:
-  text: "Невозможно применить {0, number} {0, choice, 1#блок | 2#блока}"
-apply.somehow.status.message.cant.apply.some:
-  text: "Невозможно применить {0, number} из {1, number} блоков"
-merge.dialog.apply.partially.resolved.changes.confirmation.message:
-  text: "Есть {0, choice, 0#|1#одна правка|2#{0, number} правок}{0, choice, 0#|1#'{1, choice, 0#|1# и }'}{1, choice, 0#|1#один конфликт|2#{1, number} конфликтов} остались необработанными.\nВы уверены, что хотите сохранить изменения и завершить слияние?"
-apply.patch.partially.resolved.changes.confirmation.message:
-  text: "Осталось {0, choice, 1#один блок|2#{0, number} блоков} необработанными.\nСохранить изменения и завершить разрешение?"
-apply.partially.resolved.merge.dialog.title:
-  text: Применить изменения
-merge.all.changes.processed.message.text:
-  text: "Все изменения обработаны.<br><a href=\"\">Сохраните изменения и завершите слияние</a>"
-apply.patch.all.changes.processed.message.text:
-  text: "Все фрагменты обработаны.<br><a href=\"\">Сохраните изменения и завершите разрешение</a>"
-merge.dialog.resolve.side.with.discard.title:
-  text: Принять изменения
-merge.dialog.resolve.side.with.discard.message:
-  text: Вы уверены, что хотите отменить свои правки и принять вариант {0, choice, 0#слева|1#справа}?
-merge.all.changes.have.processed.save.and.finish.confirmation.text:
-  text: |-
-    Все правки обработаны.
-    Хотите сохранить изменения и завершить слияние?
-all.changes.processed.dialog.title:
-  text: Все правки обработаны
-merge.save.and.finish.button:
-  text: Сохранить и &завершить
-merge.continue.button:
-  text: '&Продолжить'
-merge.init.merge.content.command.name:
-  text: initMergeContent
-merge.color.options.stripe.mark.color.label:
-  text: '&Цвета полос:'
-diff.content.read.only.content.title.suffix:
-  text: (Только для чтения)
-diff.type.inserted.name:
-  text: Вставлено
-diff.type.changed.name:
-  text: Изменено
-diff.type.deleted.name:
-  text: Удалено
-diff.type.conflict.name:
-  text: Конфликт
-diff.type.none.name:
-  text: Нет
-diff.content.selected.value:
-  text: Выбранное значение
-diff.clipboard.vs.value.dialog.title:
-  text: Буфер обмена с выбранным значением
-diff.can.not.show.unknown:
-  text: Невозможно показать разницу для неизвестного типа файла
-diff.can.not.show:
-  text: Невозможно показать разницу
-diff.acton.highlight.mode.action.by.word:
-  text: По слову
-diff.acton.highlight.mode.action.by.line:
-  text: По строке
-diff.acton.highlight.mode.action.no.highlighting:
-  text: Не выделять
-diff.acton.highlight.mode.action.name:
-  text: 'Выделить:'
-merge.color.options.background.color.label:
-  text: Важно
-merge.color.options.ignored.color.label:
-  text: Проигнорировано
-merge.color.options.dialog.title:
-  text: Цвета подсветки при слиянии
-option.inherit.ignored.color:
-  text: Наследовать игнорируемый цвет
-label.default.diff.editor.tab.name:
-  text: Различия
-diff.file.editor.name:
-  text: Различия
-filetype.diff.description:
-  text: Различия
-merge.dialog.resolve.change.action.name:
-  text: Разрешить
 action.presentation.diff.accept.text:
-  text: Принять
+    text: Принять
 action.presentation.diff.append.text:
-  text: Добавить
-option.ignore.policy.none:
-  text: Не игнорировать
-option.ignore.policy.trim:
-  text: Игнорировать пробелы в начале и конце строки
-option.ignore.policy.whitespaces:
-  text: Игнорировать все пробелы
-option.ignore.policy.whitespaces.empty.lines:
-  text: Игнорировать все пробелы и пустые строки
-option.highlighting.level.inspections:
-  text: Инспекции
-option.highlighting.level.syntax:
-  text: Синтаксис
-option.highlighting.level.none:
-  text: Ничего
-option.highlighting.policy.lines:
-  text: Подсвечивать строки
-option.highlighting.policy.words:
-  text: Подсвечивать слова
-option.highlighting.policy.split:
-  text: Подсвечивать различия разделения
-option.highlighting.policy.symbols:
-  text: Подсвечивать символы
-option.highlighting.policy.none:
-  text: Не подсвечивать
+    text: Добавить
+all.changes.processed.dialog.title:
+    text: Все правки обработаны
+apply.partially.resolved.merge.dialog.title:
+    text: Применить изменения
+apply.patch.all.changes.processed.message.text:
+    text: Все фрагменты обработаны.<br><a href="">Сохраните изменения и завершите разрешение</a>
+apply.patch.partially.resolved.changes.confirmation.message:
+    text: |-
+        Осталось {0, choice, 1#один блок|2#{0, number} блоков} необработанными.
+        Сохранить изменения и завершить разрешение?
+apply.somehow.status.message.all.applied:
+    text: Все блоки решены
+apply.somehow.status.message.already.applied:
+    text: '{0, number} {0, choice, 1#блок | 2#блока} уже применены'
+apply.somehow.status.message.cant.apply:
+    text: Невозможно применить {0, number} {0, choice, 1#блок | 2#блока}
+apply.somehow.status.message.cant.apply.some:
+    text: Невозможно применить {0, number} из {1, number} блоков
 binary.file.viewer:
-  text: Просмотрщик двоичных файлов
-directory.viewer:
-  text: Просмотрщик папок
-error.viewer:
-  text: Просмотрщик ошибок
-side.by.side.viewer:
-  text: Просмотр напротив
-unified.viewer:
-  text: Просмотр в одном
-error.message.cannot.show.diff:
-  text: Не могу показать diff
-highlighting.level:
-  text: Подсвечивать в коде
-editor.settings:
-  text: Настройки
+    text: Просмотрщик двоичных файлов
+binary.files.are.different.message:
+    text: Двоичные файлы отличаются
+binary.files.are.identical.message:
+    text: Двоичные файлы идентичны
+cancel.visual.merge.dialog.title:
+    text: Отменить визуальное слияние
+cannot.compare.error:
+    text: Менеджер различий не может сравнить «{0}» и «{1}»
+cannot.create.diff.error:
+    text: 'Не могу создать элемент diff из: {0}'
+cannot.file.file.error:
+    text: 'Не могу найти файл: {0}'
+cant.launch.diff.tool.error.message:
+    text: Невозможно запустить инструмент сравнения
 collapse.unchanged.fragments:
-  text: Свернуть неизменные фрагменты
-synchronize.scrolling:
-  text: Синхронизировать прокрутку
+    text: Свернуть неизменные фрагменты
+compare.file.vs.file.dialog.title:
+    text: '{0} с {1}'
+diff.acton.highlight.mode.action.by.line:
+    text: По строке
+diff.acton.highlight.mode.action.by.word:
+    text: По слову
+diff.acton.highlight.mode.action.name:
+    text: 'Выделить:'
+diff.acton.highlight.mode.action.no.highlighting:
+    text: Не выделять
+diff.acton.ignore.whitespace.policy.all:
+    text: Все
+diff.acton.ignore.whitespace.policy.do.not.ignore:
+    text: Не игнорировать
+diff.acton.ignore.whitespace.policy.leading.and.trailing:
+    text: В начале и в конце
+diff.all.differences.ignored.text:
+    text: Различия проигнорированы
+diff.application.usage.parameters.and.description:
+    text: 'Использование: {0} diff <левый файл> <правый файл> [<базовый файл>]'
+diff.can.not.show:
+    text: Невозможно показать разницу
+diff.can.not.show.unknown:
+    text: Невозможно показать разницу для неизвестного типа файла
+diff.clipboard.vs.editor.dialog.title:
+    text: Буфер обмена с редактором
+diff.clipboard.vs.file.dialog.title:
+    text: Буфер обмена с {0}
+diff.clipboard.vs.value.dialog.title:
+    text: Буфер обмена с выбранным значением
+diff.compare.element.type.with.editor.action.name:
+    text: Сравнить файл с редактором
+diff.content.clipboard.content.title:
+    text: Буфер обмена
+diff.content.editor.content.title:
+    text: Редактор
+diff.content.read.only.content.title.suffix:
+    text: (Только для чтения)
+diff.content.selected.value:
+    text: Выбранное значение
+diff.content.selection.from.editor.content.title:
+    text: Выделение из редактора
+diff.content.selection.from.file.content.title:
+    text: Выделение из {0}
+diff.contents.are.identical.message.text:
+    text: Содержимое идентично
+diff.contents.have.differences.only.in.charset.and.line.separators.message.text:
+    text: Содержимое отличается только переводами строк и кодировкой
+diff.contents.have.differences.only.in.charset.message.text:
+    text: Содержимое отличается только кодировкой
+diff.contents.have.differences.only.in.line.separators.message.text:
+    text: Содержимое отличается только переводами строк
+diff.contents.have.differences.only.in.line.separators.or.whitespaces:
+    text: Содержимое отличается только переводами строк или пробелами
+diff.count.differences.status.text:
+    text: '{0, choice, 0#нет различий|1#1 различие|2#{0, number} различий}'
+diff.dialog.select.change.action.description:
+    text: Выделить измененный текст в этой версии и соответствующий в других
+diff.dialog.select.change.action.name:
+    text: Выбрать правку
+diff.element.qualified.name.vs.editor.dialog.title:
+    text: '{0} с редактором'
+diff.element.qualified.name.vs.element.qualified.name.dialog.title:
+    text: '{0} с {1}'
+diff.element.qualified.name.vs.file.dialog.title:
+    text: '{0} с {1}'
+diff.file.editor.name:
+    text: Различия
+diff.highlighting.disabled.text:
+    text: Подсветка различий отключена
+diff.options.diff.options.border:
+    text: Параметры сравнения
+diff.options.use.external.merge.tool.for.files.checkbox:
+    text: 'Использовать внешний инструмент слияния:'
+diff.options.use.external.tool.for.files.checkbox:
+    text: 'Использовать внешний инструмент для сравнения файлов/папок:'
+diff.panel.combo.box.action.not.available.action.name:
+    text: <Недоступно>
+diff.type.changed.name:
+    text: Изменено
+diff.type.conflict.name:
+    text: Конфликт
+diff.type.deleted.name:
+    text: Удалено
+diff.type.inserted.name:
+    text: Вставлено
+diff.type.none.name:
+    text: Нет
+directory.viewer:
+    text: Просмотрщик папок
+editor.settings:
+    text: Настройки
+error.message.cannot.show.diff:
+    text: Не могу показать diff
+error.viewer:
+    text: Просмотрщик ошибок
+files.are.different.dialog.title:
+    text: Файлы отличаются
+files.are.identical.dialog.title:
+    text: Файлы идентичны
+filetype.diff.description:
+    text: Различия
+highlighting.level:
+    text: Подсвечивать в коде
+ignore.whitespace.acton.name:
+    text: 'Игнорировать пробелы:'
+label.default.diff.editor.tab.name:
+    text: Различия
+merge.all.changes.have.processed.save.and.finish.confirmation.text:
+    text: |-
+        Все правки обработаны.
+        Хотите сохранить изменения и завершить слияние?
+merge.all.changes.processed.message.text:
+    text: Все изменения обработаны.<br><a href="">Сохраните изменения и завершите слияние</a>
+merge.application.usage.parameters.and.description:
+    text: 'Использование: {0} merge <левый файл> <правый файл> [<базовый файл>] <выходной файл>'
+merge.color.options.background.color.label:
+    text: Важно
+merge.color.options.dialog.title:
+    text: Цвета подсветки при слиянии
+merge.color.options.ignored.color.label:
+    text: Проигнорировано
+merge.color.options.stripe.mark.color.label:
+    text: '&Цвета полос:'
+merge.continue.button:
+    text: '&Продолжить'
 merge.dialog.accept.change.command:
-  text: Принять изменение
-merge.dialog.ignore.change.command:
-  text: Игнорировать изменение
-merge.dialog.resolve.conflict.command:
-  text: Разрешить конфликт
+    text: Принять изменение
+merge.dialog.all.conflicts.resolved.message.text:
+    text: Все конфликты разрешены
+merge.dialog.append.change.action.name:
+    text: Применить правку с выбранной стороны
+merge.dialog.apply.all.non.conflicting.changes.action.name:
+    text: Применить все неконфликтующие изменения
+merge.dialog.apply.change.action.name:
+    text: Применить правку
+merge.dialog.apply.left.non.conflicting.changes.action.name:
+    text: Применить неконфликтующие изменения с левой стороны
 merge.dialog.apply.non.conflicted.changes.command:
-  text: Применить неконфликтующие изменения
-message.init.merge.content.command:
-  text: Инициировать слияние содержимого
-message.replace.change.command:
-  text: Заменить изменение
-message.use.selected.changes.command:
-  text: '{0} выбранных изменений'
+    text: Применить неконфликтующие изменения
+merge.dialog.apply.partially.resolved.changes.confirmation.message:
+    text: |-
+        Есть {0, choice, 0#|1#одна правка|2#{0, number} правок}{0, choice, 0#|1#'{1, choice, 0#|1# и }'}{1, choice, 0#|1#один конфликт|2#{1, number} конфликтов} остались необработанными.
+        Вы уверены, что хотите сохранить изменения и завершить слияние?
+merge.dialog.apply.right.non.conflicting.changes.action.name:
+    text: Применить неконфликтующие изменения с правой стороны
+merge.dialog.cannot.load.file.error.message:
+    text: 'Не могу загрузить файл: {0}'
+merge.dialog.exit.without.applying.changes.confirmation.message:
+    text: Вы уверены, что хотите выйти без применения изменений?
+merge.dialog.ignore.change.action.name:
+    text: Игнорировать правку
+merge.dialog.ignore.change.command:
+    text: Игнорировать изменение
+merge.dialog.resolve.change.action.name:
+    text: Разрешить
+merge.dialog.resolve.conflict.command:
+    text: Разрешить конфликт
+merge.dialog.resolve.side.with.discard.message:
+    text: Вы уверены, что хотите отменить свои правки и принять вариант {0, choice, 0#слева|1#справа}?
+merge.dialog.resolve.side.with.discard.title:
+    text: Принять изменения
+merge.editor.insert.operation.name:
+    text: Вставить
+merge.editor.remove.operation.name:
+    text: Удалить
+merge.editor.replace.operation.name:
+    text: Заменить
+merge.files.dialog.title:
+    text: Слияние
+merge.init.merge.content.command.name:
+    text: initMergeContent
+merge.partial.diff.action.name:
+    text: Сравнение содержимого левой и правой панелей
+merge.partial.diff.action.name.0.1:
+    text: Сравнение содержимого левой и средней панелей
+merge.partial.diff.action.name.1.2:
+    text: Сравнение содержимого средней и правой панелей
+merge.save.and.finish.button:
+    text: Сохранить и &завершить
+merge.statistics.message:
+    text: '{0, choice, 0#Нет правок|1#Одна правка|2#{0, number} правок}. {1, choice, 0#Нет конфликтов|1#Один конфликт|2#{0, number} конфликтов}'
 message.do.in.merge.command:
-  text: '{0} в слиянии'
+    text: '{0} в слиянии'
+message.init.merge.content.command:
+    text: Инициировать слияние содержимого
+message.replace.change.command:
+    text: Заменить изменение
+message.use.selected.changes.command:
+    text: '{0} выбранных изменений'
+no.differences.dialog.title:
+    text: Нет различий
+option.highlighting.level.inspections:
+    text: Инспекции
+option.highlighting.level.none:
+    text: Ничего
+option.highlighting.level.syntax:
+    text: Синтаксис
+option.highlighting.policy.lines:
+    text: Подсвечивать строки
+option.highlighting.policy.none:
+    text: Не подсвечивать
+option.highlighting.policy.split:
+    text: Подсвечивать различия разделения
+option.highlighting.policy.symbols:
+    text: Подсвечивать символы
+option.highlighting.policy.words:
+    text: Подсвечивать слова
+option.ignore.policy.none:
+    text: Не игнорировать
+option.ignore.policy.trim:
+    text: Игнорировать пробелы в начале и конце строки
+option.ignore.policy.whitespaces:
+    text: Игнорировать все пробелы
+option.ignore.policy.whitespaces.empty.lines:
+    text: Игнорировать все пробелы и пустые строки
+option.inherit.ignored.color:
+    text: Наследовать игнорируемый цвет
+save.merge.result.command.name:
+    text: Слияние
+select.external.diff.program.dialog.title:
+    text: Выберите внешнюю программу сравнения
+select.external.merge.program.dialog.title:
+    text: Выберите внешнюю программу слияния
+show.diff.anyway.dialog.message:
+    text: Показать разницу в любом случае?
+side.by.side.viewer:
+    text: Просмотр напротив
 synchronize.document.and.its.fragment:
-  text: Синхронизировать документ и его фрагмент
+    text: Синхронизировать документ и его фрагмент
+synchronize.scrolling:
+    text: Синхронизировать прокрутку
+unified.viewer:
+    text: Просмотр в одном
+unknown.file.type.error:
+    text: 'Неизвестный тип файла: {0}'
