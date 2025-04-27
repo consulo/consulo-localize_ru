@@ -126,6 +126,12 @@ idea.blue.metal.theme.name:
     text: beg blue
 insert.file.path.to.text.action.name:
     text: Вставить путь
+integer.field.value.expected:
+    text: Ожидается значение
+integer.field.value.not.a.number:
+    text: Значение «{0}» не является целым числом
+integer.field.value.out.of.range:
+    text: Значение «{0}» находится вне диапазона {1}..{2}
 invalid.user.input.dialog.title:
     text: Ошибка ввода
 label.class.filter.editor.add.dialog.filter.pattern:
@@ -171,7 +177,7 @@ popup.hints.panel.click.to.configure.profile.text:
 position.panel.caret.count:
     text: '{0} знаков вставки'
 position.panel.selected.chars.count:
-    text: '{0} символов'
+    text: '{0,choice,1#символ|2#символов}'
 position.panel.selected.line.breaks.count:
     text: '{0} строка {0,choice,1#перевод строки|2#переводов строк}'
 position.panel.selected.lines.count:
@@ -286,6 +292,8 @@ tool.window.move.to.top.action.name:
     text: Вверх
 tool.window.name.ant.build:
     text: Сборка Ant
+tool.window.name.build:
+    text: Сборка
 tool.window.name.commander:
     text: Менеджер файлов
 tool.window.name.cvs:

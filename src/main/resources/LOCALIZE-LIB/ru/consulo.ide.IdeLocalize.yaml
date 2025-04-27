@@ -52,8 +52,10 @@ action.add:
     text: Добавить
 action.add.all.open.tabs.to.new.favorites.list:
     text: Добавить все открытые вкладки в новый список избранного
+action.add.repository:
+    text: Добавить репозиторий
 action.add.to.new.favorites.list:
-    text: Добавить в _новые избранные Список
+    text: Добавить в _новый список избранного
 action.append:
     text: Добавить
 action.base.on.this.class:
@@ -178,6 +180,8 @@ action.download.and.install.plugin:
     text: Загрузка и установка
 action.edit.file.templates:
     text: Изменить шаблоны файлов…
+action.edit.repository.url:
+    text: Редактировать URL репозитория
 action.expand.all:
     text: Развернуть всё
 action.filter.todo.items:
@@ -258,6 +262,8 @@ action.remove:
     text: Удалить
 action.remove.from.current.favorites:
     text: Удалить из текущего избранного
+action.remove.repository.from.list:
+    text: Удалить репозиторий из списка
 action.remove.template:
     text: Удалить шаблон
 action.rename.favorites.list:
@@ -329,7 +335,7 @@ action.structureview.show.properties:
 action.structureview.sort.by.visibility:
     text: Сортировка по видимости
 action.sync.completed.successfully:
-    text: '{0} успешно завершено.'
+    text: 'Синхронизация файлов успешно завершена.'
 action.synchronize.file:
     text: Синхронизировать «{0}»
 action.synchronize.selected.files:
@@ -371,9 +377,11 @@ action.toolwindow.todo:
 action.uninstall.plugin:
     text: Удалить
 action.unpin.active.tab:
-    text: Отменить вкладку
+    text: _Отменить пришпиливание активной вкладки
 action.unpin.tab:
-    text: Отменить вкладку
+    text: Отменить пришпиливание вкладки
+action.unpin.tab.tooltip:
+    text: Отменить пришпиливание вкладки
 action.update.plugin:
     text: Обновление расширения
 action.view.class.hierarchy:
@@ -386,6 +394,10 @@ activation.auth.message:
     text: Запуск командной строки устарел. Обновите его (через Инструменты | Создать запуск командной строки).
 activation.auth.title:
     text: Несанкционированная операция
+add.BOM:
+    text: Добвить BOM
+add.byte.order.mark.to:
+    text: Добавить знак порядка байтов (BOM) в {0}
 add.local.scope.action.text:
     text: Локальная
 add.scope.dialog.title:
@@ -402,6 +414,8 @@ alphabetical.mode.is.on.warning:
     text: Алфавитный порядок для вкладок ВКЛЮЧЁН. Выключить его?
 attribute.0.should.be.defined:
     text: «{0}» атрибут должен быть определён
+available.packages.dialog.title:
+    text: Доступные пакеты
 background.task.button.cancel:
     text: Отмена
 background.task.button.configure:
@@ -656,6 +670,8 @@ column.todo.patterns.icon:
     text: Значок
 column.todo.patterns.pattern:
     text: Шаблон
+combobox.console.default.encoding.label:
+    text: 'Кодировка по умолчанию:'
 combobox.icon.theme:
     text: Тема значков
 combobox.icon.theme.ui.default:
@@ -716,6 +732,14 @@ conversion.dialog.text.1:
     text: Проект «{0}» имеет старый формат и будет преобразован. Вы не сможете открыть проект с помощью более ранних версий {1}.
 conversion.dialog.text.2:
     text: '<b> </b><a href="details">Подробности…</a><br/><br/>Старые версии файлов проекта будут сохранены в: «{0}»'
+copy.reference:
+    text: Ко&пировать ссылку
+copy.references:
+    text: Ко&пировать ссылки
+copy.relative.path:
+    text: Ко&пировать относительный путь
+copy.relative.paths:
+    text: Ко&пировать относительные пути
 create.default.library.type.action.name:
     text: По умолчанию
 custom.icon.validation.message:
@@ -1011,6 +1035,10 @@ exception.missing.data:
     text: 'Нет данных: {0}'
 fail.open.project.message:
     text: Невозможно открыть проект из «{0}»
+failed.to.install.package.dialog.title:
+    text: Не удалось установить пакет ''{0}''
+failed.to.install.packages.dialog.title:
+    text: Не удалось установить пакеты
 favorites.empty.screen:
     text: 'Нечего отображать. Чтобы добавить элемент в список избранного, используйте: Главное меню -> Вид -> Добавить в избранное'
 favorites.list.unnamed:
@@ -1193,6 +1221,8 @@ idea.intellij.look.and.feel:
     text: IntelliJ
 import.project.chooser.header:
     text: <html>Выбрать {0}</html>
+install.package.failure:
+    text: Произошла ошибка при установке пакета «{0}». <a href="xxx">Подробности...</a>
 item.file.templates:
     text: Шаблоны файлов
 jar.build.include.in.jar.file:
@@ -1262,6 +1292,8 @@ label.module.content.root:
     text: 'Содержимое модуля &root:'
 label.module.file.will.be.saved.in:
     text: 'Файл модуля будет сохранён в:'
+label.module.name:
+    text: '&Название модуля:'
 label.name:
     text: 'Название:'
 label.no.actions.found:
@@ -1387,6 +1419,8 @@ listbox.customfiletype.keywords:
     text: Ключевые слова
 loading.editors:
     text: Загрузка файлов…
+loading.in.progress:
+    text: '<html><body style=''''text-align: center;padding-top:20px;''''>Загрузка...</body></html>'
 local.scopes.node.text:
     text: Локальные области
 low.disk.space.message:
@@ -1448,7 +1482,7 @@ macro.file.path.relative.to.sourcepath.root:
 macro.file.path.relative.to.sourcepath.root.fwd.slash:
     text: Путь к файлу относительно корня исходного пути, к которому принадлежит файл (с прямыми слешами)
 macro.fileprompt.preview:
-    text: <filename>
+    text: <название файла>
 macro.javadoc.output.directory:
     text: Выходной каталог JavaDoc
 macro.line.number:
@@ -1486,7 +1520,7 @@ macro.project.sourcepath:
 macro.prompt:
     text: Отображает диалоговое окно ввода строки
 macro.prompt.preview:
-    text: <params>
+    text: <параметры>
 macro.sourcepath.entry:
     text: Запись в sourcepath, к которому принадлежит элемент
 maven.repository.presentable.name:
@@ -1596,11 +1630,11 @@ model.highlighting.identity:
 model.highlighting.identity.in.other.file:
     text: '{0} с таким названием уже существует в файле «{1}»'
 modern.dark.intellij.look.and.feel:
-    text: Consulo Dark
+    text: Consulo Тёмная
 modern.white.intellij.look.and.feel:
-    text: Consulo Light
+    text: Consulo Светлая
 native.modern.white.intellij.look.and.feel:
-    text: Consulo Light (системный цвет)
+    text: Consulo Светлая (системный цвет)
 new.library.file.chooser.description:
     text: Выберите файлы архива, в которых находятся файлы библиотеки
 new.library.file.chooser.title:
@@ -1610,7 +1644,7 @@ node.call.hierarchy.N.usages:
 node.call.hierarchy.unknown.jsp:
     text: неизвестно jsp
 node.default:
-    text: <default>
+    text: <по умолчанию>
 node.default.package:
     text: <Пакет по умолчанию>
 node.hierarchy.invalid:
@@ -1628,7 +1662,7 @@ node.projectview.libraries:
 node.projectview.library:
     text: '{0} библиотека'
 node.structureview.invalid:
-    text: <invalid>
+    text: <некорректно>
 node.todo.found.items:
     text: '{0} (найдено {1} {1,choice,1#элемен|2#элементов})'
 node.todo.group:
@@ -1658,7 +1692,7 @@ plugin.deleted.status.tooltip:
 plugin.download.status.tooltip:
     text: Расширение будет активировано при следующем запуске
 plugin.info.not.available:
-    text: n/a
+    text: неприменимо
 plugin.info.unknown:
     text: неизвестно
 plugin.install.dialog.title:
@@ -1853,7 +1887,7 @@ prompt.delete.package:
 prompt.delete.property:
     text: '{0,choice,1#свойство|2#свойств}'
 prompt.delete.symlink:
-    text: '{0,choice,1#symlink|2#symlinks}'
+    text: '{0,choice,1#символическая ссылка|2#символических ссылок}'
 prompt.delete.type.parameter:
     text: '{0,choice,1#параметр типа|2#параметров типа}'
 prompt.directory.contains.read.only.files:
@@ -2124,6 +2158,8 @@ scopes.save.dialog.title.local:
     text: Сохранить как локальную область
 scopes.save.dialog.title.shared:
     text: Сохранить как общую область
+scratches.and.consoles:
+    text: Заметки и консоли
 scripting.lib.add:
     text: '&Добавить…'
 scripting.lib.attach:
@@ -2222,6 +2258,10 @@ select.in.scope:
     text: Область действия
 select.in.title.project.view:
     text: Вид проекта
+settings.entry.point.tooltip:
+    text: Настройки IDE и проекта
+settings.entry.point.widget.name:
+    text: Настройки IDE и проекта
 setup.library.dialog.title:
     text: Настройка библиотеки
 several.plugins.depend.on.0.continue.to.remove:
@@ -2275,7 +2315,7 @@ template.default.class.comment:
 template.unnamed:
     text: Безымянный
 text.not.applicable:
-    text: <N/A>
+    text: <неприменимо>
 text.todo.no.filters:
     text: Фильтры не настроены
 text.todo.no.patterns:
@@ -2544,6 +2584,10 @@ treenode.loading:
     text: загрузка…
 ui.settings:
     text: Настройки пользовательского интерфейса
+uninstall.packages.failed:
+    text: Не удалось удалить пакеты. <a href="xxx">Подробности...</a>
+uninstall.packages.failed.dialog.title:
+    text: Не удалось удалить пакеты
 unknown.error:
     text: Неизвестная ошибка
 unscramble.dialog.title:
@@ -2557,11 +2601,11 @@ unscramble.normalize.button:
 unscramble.stacktrace.caption:
     text: 'Поместите трассировку стека или полный дамп потока сюда:'
 unscramble.unscrambled.deadlock.tab:
-    text: <Deadlock>
+    text: <Блокировка>
 unscramble.unscrambled.stacktrace.tab:
-    text: <Stacktrace>
+    text: <Трассировка стека>
 unscramble.unscrambled.threaddump.tab:
-    text: <Threads>
+    text: <Потоки>
 unscramble.unscrambler.combobox:
     text: 'Расшифровать:'
 unscramble.use.unscrambler.checkbox:
@@ -2636,6 +2680,12 @@ updates.settings.title:
     text: Обновления
 updates.timeout.error:
     text: Истекло время ожидания соединения
+upgrade.package.failed.title:
+    text: Обновление пакетов не удалось.
+upgrade.packages.failed:
+    text: Обновление пакетов не удалось. <a href="xxx">Подробности...</a>
+upgrade.packages.failed.dialog.title:
+    text: Обновление пакетов не удалось
 use.sun.jdk.prompt:
     text: Версия Java не поддерживается, используйте Sun/Oracle JDK вместо OpenJDK
 value.must.be.identifier:
@@ -2664,7 +2714,3 @@ warning.text.0.do.you.want.to.overwrite.these.files:
         Хотите перезаписать {1,choice,1#it|2#these files}?
 web.search.label.layout:
     text: Веб-поиск
-whatsnew.action.custom.description:
-    text: Узнать о новой функциональности этой версии {0}
-whatsnew.action.custom.text:
-    text: Что _нового в {0}
