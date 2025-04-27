@@ -1,0 +1,284 @@
+xdebugger.colors.page.name:
+    text: Отладчик
+debugger.configurable.display.name:
+    text: Отладчик
+debugger.dataViews.display.name:
+    text: Представления данных
+debugger.stepping.display.name:
+    text: Пошаговое выполнение
+debugger.hotswap.display.name:
+    text: HotSwap
+xdebugger.default.content.title:
+    text: Отладка
+xdebugger.debugger.tab.title:
+    text: Отладчик
+xdebugger.attach.popup.title:
+    text: Подключить с помощью {0} к
+xdebugger.attach.host.popup.title:
+    text: Просмотреть {0} процессов
+xdebugger.attach.toLocal.popup.selectDebugger.title:
+    text: Отладчик
+xdebugger.attach.toLocal.popup.recent:
+    text: Недавние
+xdebugger.attach.toLocal.action:
+    text: Подключиться к локальному процессу...
+xdebugger.attach.toLocal.action.description:
+    text: Подключиться к локально запущенному процессу с доступным отладчиком
+xdebugger.attach.toLocal.action.collectingProcesses:
+    text: Получаем список процессов...
+xdebugger.attach.popup.emptyText:
+    text: Нет процессов для подключения
+xdebugger.attach.popup.title.default:
+    text: Подключить к
+xdebugger.attach.toRemote.popup.title:
+    text: Показать {0} процессов
+xdebugger.attach.popup.selectDebugger.title:
+    text: Отладчик
+xdebugger.attach.popup.recent:
+    text: Недавние
+xdebugger.attach.action:
+    text: Подключиться к процессу...
+xdebugger.attach.action.description:
+    text: Подключитья к процессу с доступным отладчиком
+xdebugger.attach.action.collectingItems:
+    text: Сбор элементов для подключения...
+xdebugger.attach.action.items.error.title:
+    text: Не удалось получить процессы
+xdebugger.attach.action.items.error.message:
+    text: Не удалось получить список процессов, запущенных на хосте
+xdebugger.remove.line.breakpoint.action.text:
+    text: Удалить точку останова
+xdebugger.disable.breakpoint.action.text:
+    text: Отключить точку останова
+xdebugger.enable.breakpoint.action.text:
+    text: Включить точку останова
+xdebugger.view.breakpoint.properties.action:
+    text: Свойства
+xdebugger.view.breakpoint.reveal.action:
+    text: Показать диалоговое окно точек останова
+xdebugger.view.breakpoint.edit.action:
+    text: Изменить
+xbreakpoint.tooltip.suspend.policy.all:
+    text: 'Приостановить: всё'
+xbreakpoint.tooltip.suspend.policy.thread:
+    text: 'Приостановить: поток'
+xbreakpoint.tooltip.suspend.policy.none:
+    text: 'Приостановить: нет'
+xbreakpoint.tooltip.condition:
+    text: 'Условие:'
+xbreakpoint.tooltip.log.message:
+    text: 'Логировать сообщение: да'
+xbreakpoint.tooltip.log.expression:
+    text: 'Логировать выражение:'
+xbreakpoint.tooltip.depends.on:
+    text: 'Зависит от:'
+xbreakpoints.dialog.title:
+    text: Точки останова
+xbreakpoints.dialog.button.goto:
+    text: '&Перейти к'
+xbreakpoints.dialog.button.view.source:
+    text: '&Просмотреть исходный код'
+xbreakpoints.dialog.button.remove:
+    text: '&Удалить'
+xbreakpoints.dialog.button.add:
+    text: '&Добавить...'
+xbreakpoints.conditions.group.title:
+    text: Условия
+suspend.policy.panel.title:
+    text: Приостановить политику
+suspend.policy.panel.suspend:
+    text: '&Приостановить'
+suspend.policy.panel.all:
+    text: '&Все'
+suspend.policy.panel.thread:
+    text: '&Поток'
+suspend.policy.panel.makeDefault:
+    text: Установить по умолч&анию
+xbreakpoints.properties.actions.group.title:
+    text: Действия
+xbreakpoints.log.message.checkbox:
+    text: Запись &сообщения на консоль
+xbreakpoints.log.expression.checkbox:
+    text: 'Запись &выражения:'
+xbreakpoints.condition.checkbox:
+    text: '&Условие:'
+xbreakpoints.enabled.label:
+    text: Включить
+xbreakpoint.group.depends.on:
+    text: Зависит от
+xbreakpoint.label.after.breakpoint.was.hit:
+    text: После срабатывания точки останова
+xbreakpoint.radio.disable.again:
+    text: Отключить снова
+xbreakpoint.radio.leave.enabled:
+    text: Оставить включённым
+xbreakpoint.master.breakpoint.none:
+    text: <Нет>
+xbreakpoint.master.breakpoint.description:
+    text: "Отключено до достижения выбранной точки останова:"
+rule.name.group.by.file:
+    text: Группировать по файлу
+xbreakpoint.default.display.text:
+    text: Строка {0} в {1}
+xbreakpoint.label.empty:
+    text: Выберите точку останова
+xbreakpoint.reached.text:
+    text: "Достигнута точка останова:"
+xdebugger.evaluate.language.hint:
+    text: Нажмите, чтобы изменить язык
+xdebugger.evaluate.history.hint:
+    text: Показать историю
+xdebugger.evaluate.label.result:
+    text: "&Результат:"
+xdebugger.button.evaluate:
+    text: В&ычислить
+xdebugger.evaluate.dialog.close:
+    text: Закрыть
+xdebugger.dialog.title.evaluate.expression:
+    text: Вычислить выражение
+xdebugger.evaluate.label.expression:
+    text: "Выражение:"
+xdebugger.evaluate.addtowatches.hint:
+    text: Используйте Control+Shift+Enter для добавления в отслеживания
+dialog.title.evaluate.code.fragment:
+    text: Вычислить фрагмент кода
+button.text.code.fragment.mode:
+    text: Фрагмент кода и режим
+button.text.expression.mode:
+    text: Выражение и режим
+xdebugger.label.text.code.fragment:
+    text: "Фрагмент кода:"
+xdebugger.evaluate.result:
+    text: результат
+xdebugger.evaluate.stack.frame.has.not.evaluator:
+    text: Невозможно вычислить, текущий стековый кадр не поддерживает вычисление
+xdebugger.popup.value.tree.set.root.action.tooltip:
+    text: Установить как корневой
+xdebugger.building.tree.node.message:
+    text: Сбор данных…
+xdebugger.modifiyng.value.node.message:
+    text: Изменение значения…
+xdebugger.evaluating.expression.node.message:
+    text: Вычисляем…
+node.text.ellipsis.0.more.nodes.double.click.to.show:
+    text: … ({0} ещё {0, choice, 1#элемент|2#элементов}. Дважды щелкните, чтобы увидеть)
+node.text.ellipsis.0.unknown.more.nodes.double.click.to.show:
+    text: … (Дважды щёлкните, чтобы увидеть больше элементов)
+node.text.ellipsis.truncated:
+    text: '… (длина: {0})'
+node.test.show.full.value:
+    text: … Просмотр
+inspect.value.dialog.title:
+    text: "Инспектировать «{0}»"
+debugger.state.message.connected:
+    text: Подключено
+debugger.state.message.connecting:
+    text: Подключение
+debugger.state.message.disconnected:
+    text: Отключено
+debugger.runner.start.action.text:
+    text: '&Отладка'
+debugger.runner.start.action.text.0:
+    text: '&Отладка {0}'
+string.debugger.runner.description:
+    text: Отладка выбранной конфигурации
+debugger.session.tab.threads.title:
+    text: Потоки
+debugger.session.tab.frames.title:
+    text: Кадры
+debugger.session.tab.watches.title:
+    text: Отслеживания
+debugger.session.tab.variables.title:
+    text: Переменные
+debugger.session.tab.log.content.name:
+    text: 'Лог: {0}'
+debugger.session.tab.console.content.name:
+    text: Консоль
+debugger.session.tab.watches.title.with.size:
+    text: Отслеживания ({0})
+action.next.frame.text:
+    text: Следующий кадр
+action.previous.frame.text:
+    text: Предыдущий кадр
+stack.frame.loading.text:
+    text: Загрузка…
+invalid.frame:
+    text: <некорректный кадр>
+xdebugger.drag.text.0.elements:
+    text: '{0} элементов'
+xdebugger.drop.text.add.to.watches:
+    text: Добавить в отслеживания
+debugger.session.tab.show.watches.in.variables:
+    text: Показать отслеживания на вкладке переменных
+debugger.frames.not.available:
+    text: Кадры недоступны
+debugger.threads.not.available:
+    text: Потоки недоступны
+debugger.variables.not.available:
+    text: Переменные недоступны
+debugger.no.watches:
+    text: Нет отслеживаний
+debugger.no.breakpoints:
+    text: Нет точек останова
+debugger.no.results:
+    text: Введите выражение и нажмите «Enter»
+load.value.task.error:
+    text: 'Невозможно загрузить значение: {0}'
+load.value.task.text:
+    text: Загрузка значения
+scope.global:
+    text: Глобальный
+scope.local:
+    text: Локальный
+scope.with:
+    text: С блоком
+scope.closure:
+    text: Замыкание
+scope.catch:
+    text: Перехват
+scope.class:
+    text: Класс
+scope.instance:
+    text: Экземпляр
+scope.library:
+    text: Библиотека
+scope.block:
+    text: Блок
+scope.script:
+    text: Скрипт
+scope.unknown:
+    text: Неизвестно
+setting.value.tooltip.delay.label:
+    text: '&Задержка перед показом подсказки со значением (мс):'
+setting.enable.auto.expressions.label:
+    text: Включить автоматические выражения в представлении переменных
+setting.sort.alphabetically.label:
+    text: Сортировать значения по &алфавиту
+setting.hide.window.label:
+    text: Скрыть отладочное &окно при завершении процесса
+setting.focus.app.on.breakpoint.label:
+    text: Сфокусировать приложение на точке останова
+setting.single.click.for.disabling.breakpoint:
+    text: Один щелчок для отключения точки останова
+settings.show.window.label:
+    text: Показать окно &отладки на точке останова
+showReferring.dialog.title:
+    text: Объекты, ссылающиеся на {0}
+settings.show.values.inline:
+    text: Показать значения в той же строке
+settings.show.value.tooltip:
+    text: Показать подсказку со значением.
+settings.show.tooltip.on.selection:
+    text: Показать подсказку со значением при выделении кода
+settings.scroll.to.center:
+    text: Прокрутить точку выполнения в центр
+settings.tooltip.label:
+    text: "Если отключено, используйте «{0}», чтобы показать/скрыть подсказки"
+ad.extra.selection.shortcut:
+    text: "Вы также можете выбрать элемент с помощью: {0}"
+action.Debugger.PopFrame.text:
+    text: Сбросить _кадр
+action.Debugger.PopFrame.description:
+    text: Перемещает точку выполнения обратно к вызову метода, удаляя текущие кадры метода из стека
+xdebugger.reset.frame.title:
+    text: Сбросить кадр
