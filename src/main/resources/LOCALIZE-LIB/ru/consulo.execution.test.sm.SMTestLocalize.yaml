@@ -1,0 +1,172 @@
+checkbox.run.tests.before.commit:
+    text: Запустить «{0}»
+checkbox.run.tests.before.commit.no.configuration:
+    text: Запустить тесты
+dialog.message.target.does.not.exist:
+    text: Цель {0} не существует
+dialog.message.unable.to.parse.test.results:
+    text: Невозможно проанализировать результаты теста из «{0}». Ожидалось, что результаты теста хранятся в XML.
+dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
+    text: "Невозможно запустить конфигурацию: не удалось обнаружить тестовую среду"
+dialog.message.unable.to.run.configuration.settings.are.corrupted:
+    text: "Невозможно запустить конфигурацию: настройки повреждены"
+link.label.choose.configuration.before.commit:
+    text: Выберите конфигурацию
+progress.text.running.tests:
+    text: Выполняется «{0}»…
+sm.test.runner.abstract.import.test.error.title:
+    text: Импорт не удался
+sm.test.runner.import.test:
+    text: Импорт тестов из файла…
+sm.test.runner.import.test.choose.test.file.title:
+    text: Выберите файл с результатами тестов
+sm.test.runner.import.test.description:
+    text: Импорт результатов выполнения теста из XML-файла
+sm.test.runner.import.test.group.history:
+    text: История тестов
+sm.test.runner.import.test.group.open.recent.session:
+    text: Открыть недавнюю тестовую сессию
+sm.test.runner.imported.to.general.failed.to.parse.error.title:
+    text: Не удалось проанализировать {0}
+sm.test.runner.magnitude.assertion.failed.title:
+    text: Утверждение (assertion) не выполнено
+sm.test.runner.magnitude.completed.failed.title:
+    text: Завершено
+sm.test.runner.magnitude.ignored.failed.title:
+    text: Проигнорировано
+sm.test.runner.magnitude.not.run.failed.title:
+    text: Не запущено
+sm.test.runner.magnitude.passed.title:
+    text: Пройдено
+sm.test.runner.magnitude.running.failed.title:
+    text: Выполняется…
+sm.test.runner.magnitude.skipped.failed.title:
+    text: Пропущено
+sm.test.runner.magnitude.terminated.failed.title:
+    text: Прервано
+sm.test.runner.magnitude.testerror.title:
+    text: Ошибка
+sm.test.runner.notifications.tests.failed:
+    text: Тесты не пройдены
+sm.test.runner.notifications.tests.failed.with.errors:
+    text: Тесты не пройдены с ошибками
+sm.test.runner.notifications.tests.not.run:
+    text: Тесты не были запущены
+sm.test.runner.notifications.tests.not.run.with.errors:
+    text: Тесты не были запущены. Произошли ошибки
+sm.test.runner.notifications.tests.passed:
+    text: Тесты пройдены
+sm.test.runner.notifications.tests.passed.with.errors:
+    text: Тесты пройдены с ошибками
+sm.test.runner.notifications.tests.skipped:
+    text: Тесты пропущены
+sm.test.runner.notifications.tests.skipped.with.errors:
+    text: Тесты пропущены с ошибками
+sm.test.runner.results.form.save.test.results.title:
+    text: Сохранить результаты теста
+sm.test.runner.states.suite.is.empty:
+    text: Пустой набор тестов.
+sm.test.runner.states.test.is.ignored:
+    text: Тест проигнорирован.
+sm.test.runner.ui.tabs.statistics.columns.duration.no.tests:
+    text: <НЕТ ТЕСТОВ>
+sm.test.runner.ui.tabs.statistics.columns.duration.not.run:
+    text: <НЕ ЗАПУЩЕНО>
+sm.test.runner.ui.tabs.statistics.columns.duration.prefix.running:
+    text: ВЫПОЛНЯЕТСЯ
+sm.test.runner.ui.tabs.statistics.columns.duration.prefix.terminated:
+    text: ЗАВЕРШЕНО
+sm.test.runner.ui.tabs.statistics.columns.duration.title:
+    text: Прошло времени
+sm.test.runner.ui.tabs.statistics.columns.duration.unknown:
+    text: <НЕИЗВЕСТНО>
+sm.test.runner.ui.tabs.statistics.columns.results.count.msg.errors:
+    text: О:{0}
+sm.test.runner.ui.tabs.statistics.columns.results.count.msg.failed:
+    text: Н:{0}
+sm.test.runner.ui.tabs.statistics.columns.results.count.msg.ignored:
+    text: И:{0}
+sm.test.runner.ui.tabs.statistics.columns.results.count.msg.passed:
+    text: П:{0}
+sm.test.runner.ui.tabs.statistics.columns.results.no.tests:
+    text: <НЕТ ТЕСТОВ>
+sm.test.runner.ui.tabs.statistics.columns.results.title:
+    text: Результаты
+sm.test.runner.ui.tabs.statistics.columns.results.undefined:
+    text: <не определено>
+sm.test.runner.ui.tabs.statistics.columns.test.title:
+    text: Тест
+sm.test.runner.ui.tabs.statistics.columns.test.total.title:
+    text: 'Всего:'
+sm.test.runner.ui.tests.tree.presentation.accessible.status.error:
+    text: Ошибка
+sm.test.runner.ui.tests.tree.presentation.accessible.status.failed:
+    text: Не удалось
+sm.test.runner.ui.tests.tree.presentation.accessible.status.failed.with.errors:
+    text: Не удалось с ошибками
+sm.test.runner.ui.tests.tree.presentation.accessible.status.ignored:
+    text: Проигнорировано
+sm.test.runner.ui.tests.tree.presentation.accessible.status.ignored.with.errors:
+    text: Проигнорировано с ошибками
+sm.test.runner.ui.tests.tree.presentation.accessible.status.not.ran:
+    text: Не запущено
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed:
+    text: Пройдено
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed.with.errors:
+    text: Пройдено с ошибками
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed.with.ignored:
+    text: Пройдено с игнорированием
+sm.test.runner.ui.tests.tree.presentation.accessible.status.paused:
+    text: Приостановлено
+sm.test.runner.ui.tests.tree.presentation.accessible.status.paused.with.errors:
+    text: Приостановлено с ошибками
+sm.test.runner.ui.tests.tree.presentation.accessible.status.running:
+    text: Выполняется
+sm.test.runner.ui.tests.tree.presentation.accessible.status.running.with.errors:
+    text: Выполняется с ошибками
+sm.test.runner.ui.tests.tree.presentation.accessible.status.skipped:
+    text: Пропущено
+sm.test.runner.ui.tests.tree.presentation.accessible.status.skipped.with.errors:
+    text: Пропущено с ошибками
+sm.test.runner.ui.tests.tree.presentation.accessible.status.terminated:
+    text: Прервано
+sm.test.runner.ui.tests.tree.presentation.accessible.status.terminated.with.errors:
+    text: Прервано с ошибками
+sm.test.runner.ui.tests.tree.presentation.labels.all.but.ignored.passed:
+    text: Все тесты пройдены (кроме проигнорированных)
+sm.test.runner.ui.tests.tree.presentation.labels.all.tests.passed:
+    text: Все тесты пройдены
+sm.test.runner.ui.tests.tree.presentation.labels.done:
+    text: 'Готово:'
+sm.test.runner.ui.tests.tree.presentation.labels.empty.test.suite:
+    text: Пустой набор тестов
+sm.test.runner.ui.tests.tree.presentation.labels.failed:
+    text: 'Не удалось:'
+sm.test.runner.ui.tests.tree.presentation.labels.instantiating.tests:
+    text: Создание экземпляров тестов…
+sm.test.runner.ui.tests.tree.presentation.labels.milliseconds:
+    text: мс
+sm.test.runner.ui.tests.tree.presentation.labels.no.tests.were.found:
+    text: Тесты не найдены
+sm.test.runner.ui.tests.tree.presentation.labels.no.tests.were.found.with.errors:
+    text: Тесты не найдены. Произошли ошибки
+sm.test.runner.ui.tests.tree.presentation.labels.not.test.results:
+    text: Нет результатов теста
+sm.test.runner.ui.tests.tree.presentation.labels.of:
+    text: из
+sm.test.runner.ui.tests.tree.presentation.labels.running:
+    text: 'Выполняется:'
+sm.test.runner.ui.tests.tree.presentation.labels.running.tests:
+    text: Выполнение тестов…
+sm.test.runner.ui.tests.tree.presentation.labels.seconds:
+    text: с
+sm.test.runner.ui.tests.tree.presentation.labels.test.noname:
+    text: <без названия>
+sm.test.runner.ui.tests.tree.presentation.labels.test.reporter.not.attached:
+    text: Тестовый фреймворк завершен неожиданно
+sm.test.runner.ui.tests.tree.presentation.labels.test.results:
+    text: Результаты теста
+sm.test.runner.ui.tests.tree.presentation.labels.was.terminated:
+    text: Прекращено
+suffix.incomplete.index.was.used:
+    text: Некоторые тесты могут отсутствовать из-за неполного индекса
