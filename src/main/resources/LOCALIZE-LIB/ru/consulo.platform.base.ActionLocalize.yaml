@@ -2475,7 +2475,7 @@ action.XDebugger.NewWatch.text:
 action.XDebugger.RemoveAllWatches.text:
     text: Удалить все отслеживания
 action.XDebugger.RemoveWatch.text:
-    text: Удалить отслеживания
+    text: Удалить отслеживание
 action.XDebugger.SetValue.description:
     text: Изменить значение выбранного узла
 action.XDebugger.SetValue.text:
@@ -2485,7 +2485,7 @@ action.XDebugger.ToggleSortValues.description:
 action.XDebugger.ToggleSortValues.text:
     text: Сортировать значения по алфавиту
 action.XDebugger.UnmuteOnStop.text:
-    text: Включить звук в точках останова по окончании сеанса
+    text: Включить точки останова по окончании сеанса
 action.editRunConfigurations.description:
     text: Открыть диалоговое окно редактирования конфигураций запуска/отладки
 action.editRunConfigurations.text:
