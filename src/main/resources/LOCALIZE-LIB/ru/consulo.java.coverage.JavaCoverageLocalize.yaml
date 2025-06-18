@@ -1,0 +1,78 @@
+coverage.button.add.package:
+    text: Добавить пакет…
+coverage.classes:
+    text: классы
+coverage.classes.capitalised:
+    text: Классы
+coverage.error.jacoco.report.corrupted:
+    text: Файл отчёта Jacoco {0} может быть поврежден, попробуйте перезапустить
+coverage.error.jacoco.report.format:
+    text: 'Файл не в формате отчета Jacoco: {0}'
+coverage.pattern.filter.editor.choose.package.title:
+    text: Выбрать пакет
+coverage.recompile:
+    text: Перекомпилировать
+coverage.settings:
+    text: Показать параметры покрытия кода
+coverage.settings.exclude:
+    text: Исключить классы и пакеты
+coverage.settings.group:
+    text: Покрытие кода
+coverage.settings.include:
+    text: Указать классы и пакеты
+coverage.settings.menu:
+    text: Покрытие настройки
+coverage.view.column.branch:
+    text: Ветка, %
+coverage.view.column.class:
+    text: Класс, %
+coverage.view.column.line:
+    text: Строка, %
+coverage.view.column.method:
+    text: Метод, %
+coverage.view.text.classes.covered:
+    text: '{0}% классов'
+coverage.view.text.methods.covered:
+    text: '{0}% методов'
+coverage.xml.report.title:
+    text: XML-отчёты
+do.not.show.coverage.data.in.specified.classes.and.packages:
+    text: Не показывать данные о покрытии в указанных классах и пакетах
+download.coverage.report.from.target.failed:
+    text: Не удалось загрузить отчёт о покрытии из источника
+download.coverage.report.from.target.progress.title:
+    text: Загрузка отчёта о покрытии из источника…
+exclude.coverage.filters.title:
+    text: Пакеты и классы для исключения из данных покрытия
+generating.coverage.report:
+    text: Создание отчёта о покрытии…
+java.coverage.engine.presentable.text:
+    text: Покрытие Java-кода
+notification.group.coverage:
+    text: Ошибка загрузки или сбора данных о покрытии
+project.class.files.are.out.of.date:
+    text: Файлы классов проекта устарели, это может привести к неполной информации о покрытии. Хотите перекомпилировать?
+project.is.out.of.date:
+    text: Проект устарел
+record.coverage.filters.title:
+    text: Пакеты и классы для включения в данные о покрытии
+report.unknown.outcome:
+    text: 'Неизвестный результат: {0}'
+run.configuration.choose.coverage.runner:
+    text: 'Выберите движок покрытия:'
+run.configuration.coverage.branches:
+    text: Покрытие ветви
+run.configuration.coverage.branches.comment:
+    text: Собрать покрытие для всех ветвей операторов if/switch
+run.configuration.enable.coverage.in.test.folders:
+    text: Собрать покрытие в тестовых папках
+run.configuration.track.per.test.coverage:
+    text: Отслеживать покрытие по каждому тесту
+run.configuration.track.per.test.coverage.comment:
+    text: Собрать данные о том, какие строки кода были покрыты определенными тесты
+settings.coverage.java.ignore.implicitly.declared.default.constructors:
+    text: Игнорировать неявно объявленные конструкторы по умолчанию
+settings.coverage.java.java.coverage:
+    text: Покрытие Java-кода
+show.coverage.data.only.in.specified.classes.and.packages:
+    text: Показывать данные покрытия только в указанных классах и пакетах
