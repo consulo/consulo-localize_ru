@@ -1,0 +1,212 @@
+action.GenerateCoverageReport.description:
+    text: Экспортировать отчёт о покрытии в HTML
+action.GenerateCoverageReport.text:
+    text: _Сгенерировать отчёт о покрытии…
+action.HideCoverage.description:
+    text: Закрыть все открытые отчёты о покрытии
+action.HideCoverage.text:
+    text: Скрыть покрытие кода
+action.ImportCoverage.description:
+    text: Импортировать с диска отчёт, собранный в CI
+action.ImportCoverage.text:
+    text: Импортировать внешний отчёт о покрытии…
+action.SwitchCoverage.description:
+    text: Проверить ранее открытые отчёты о покрытии
+action.SwitchCoverage.text:
+    text: Управление отчётами о покрытии…
+action.description.show.tests.covering.line:
+    text: Показать тесты, покрывающие строку
+action.name.cover:
+    text: Покрытие
+action.text.show.tests.covering.line:
+    text: Показать тесты, покрывающие строку
+branch.coverage.message:
+    text: |-
+        Попаданий: {0}
+        Охвачено {1}/{2} ветвей
+cannot.show.coverage.reports.from.different.engines:
+    text: Невозможно показать отчёты о покрытии из разных движков.
+choose.coverage.suite.to.display:
+    text: Выберите набор покрытий для отображения
+code.coverage:
+    text: Покрытие кода
+configurable.CoverageOptionsConfigurable.display.name:
+    text: Покрытие
+configurable.name.editor.colors.page:
+    text: Редактор | {0} | {1}
+coverage.add.to.active.suites:
+    text: '&Добавить в активные комплекты'
+coverage.collecting.data:
+    text: Сбор данных о покрытии
+coverage.data.no.coverage.button:
+    text: '&Нет покрытия'
+coverage.data.not.found:
+    text: Данные о покрытии не найдены
+coverage.data.outdated:
+    text: Данные о покрытии устарели
+coverage.data.runner.name:
+    text: '{0} покрытие'
+coverage.data.show.selected.button:
+    text: Показать выбранное
+coverage.do.not.apply.collected.coverage:
+    text: Не применять &собранное покрытие
+coverage.edit.colors.action.name:
+    text: Изменить цвета покрытия
+coverage.edit.colors.description:
+    text: Изменить цвета покрытия
+coverage.error.collecting.data:
+    text: Ошибка сбора данных о покрытии
+coverage.error.collecting.data.text:
+    text: Ошибка сбора данных о покрытии
+coverage.error.loading.report:
+    text: Ошибка загрузки отчёта о покрытии
+coverage.files:
+    text: файлы
+coverage.files.capitalised:
+    text: Файлы
+coverage.filter.branch.gotit:
+    text: Отображаются только {0}, изменённые в текущей ветке. Здесь можно настроить фильтрацию.
+coverage.filter.gotit:
+    text: Отображаются только {0} с незафиксированными изменениями. Здесь можно настроить фильтрацию.
+coverage.flatten.packages:
+    text: Свести пакеты
+coverage.hide.coverage.link.name:
+    text: Скрыть покрытие
+coverage.hide.fully.covered.elements:
+    text: Скрыть полностью покрытое {0}
+coverage.import.report.toolwindow.empty.text:
+    text: Импортировать с диска отчет, собранный в CI
+coverage.info.string.file:
+    text: '{0,choice,1#файл|2#файлов}'
+coverage.is.not.importable:
+    text: Покрытие не может быть импортировано в эту среду. {0} coverage.py или {1} «{2}» в Настройках | Сборка, Выполнение, Развертывание | Покрытие.
+coverage.is.not.importable.option.enable:
+    text: включить
+coverage.is.not.importable.option.install:
+    text: Установить
+coverage.next.change.fully.covered:
+    text: Полностью охвачено
+coverage.next.change.partial.covered:
+    text: Частично охвачено
+coverage.next.change.uncovered:
+    text: Не охвачено
+coverage.next.mark:
+    text: Следующая отметка покрытия
+coverage.next.place:
+    text: Далее {0}
+coverage.previous.mark:
+    text: Предыдущая отметка покрытия
+coverage.previous.place:
+    text: Предыдущая {0}
+coverage.replace.active.suites:
+    text: '&Заменить активные комплекты'
+coverage.results.suite.name:
+    text: '{0} Результаты покрытия'
+coverage.show.fully.covered.elements:
+    text: Показать полностью охваченный {0}
+coverage.show.only.elements.in.feature.branch:
+    text: Показать только изменённые {0} (относительно ветви {1})
+coverage.show.only.modified.elements:
+    text: Показать только {0} с незафиксированными изменениями
+coverage.show.unmodified.elements:
+    text: Показать {0} без незафиксированных изменений
+coverage.tab.title:
+    text: Покрытие кода
+coverage.view.building.coverage.report:
+    text: Строим отчёт о покрытии...
+coverage.view.configuration.was.not.found:
+    text: Конфигурация «{0}» не найдена.
+coverage.view.edit.run.configuration.0:
+    text: Щёлкните
+coverage.view.edit.run.configuration.1:
+    text: Редактировать
+coverage.view.edit.run.configuration.2:
+    text: чтобы исправить настройки конфигурации.
+coverage.view.element:
+    text: Элемент
+coverage.view.filters.group:
+    text: Фильтры
+coverage.view.loading.data:
+    text: Загрузка данных о покрытии...
+coverage.view.no.coverage.results:
+    text: Результаты покрытия отсутствуют.
+coverage.view.packages.root:
+    text: всё
+coverage.view.text.covered:
+    text: покрыто
+coverage.view.text.files.covered:
+    text: '{0}% файлов'
+coverage.view.text.lines.covered:
+    text: '{0}% строк покрыто'
+coverage.view.title:
+    text: Покрытие
+delete.file:
+    text: Удалить файл
+dialog.message.would.you.like.to.delete.file.on.disk:
+    text: Хотите удалить файл «{0}» на диске?
+dialog.title.find.tests.by.names:
+    text: Найти тесты по названиям
+display.coverage.prompt:
+    text: Хотите отобразить данные о покрытии для «{0}»?
+extract.information.about.tests:
+    text: Извлечь информацию о тестах
+following.test.could.not.be.found.1:
+    text: 'Не удалось найти {0, choice, 1#следующий тест|2#следующие тесты}: {1}'
+generate.coverage.report.for:
+    text: 'Создать отчет о покрытии для: «{0}»'
+hint.text.failed.to.load.covered.tests:
+    text: Не удалось загрузить покрытые тесты
+hits.message:
+    text: 'попадания: {0}'
+hits.title:
+    text: 'Попадания: {0}'
+lines.covered.info.less.than.one.percent:
+    text: <1% покрытых строк
+lines.covered.info.no.lines.covered:
+    text: нет покрытых строк
+lines.covered.info.not.covered:
+    text: не охвачено
+lines.covered.info.percent.lines.covered:
+    text: '% строк охвачено'
+link.label.close:
+    text: Закрыть
+marker.code.coverage:
+    text: 'маркер: покрытие кода'
+no.coverage.runner.available.for:
+    text: Нет доступного движка покрытия для {0}
+no.coverage.suites.configured:
+    text: Нет настроенных наборов покрытия.
+node.summary.coverage.statistic:
+    text: '{0} в «{1}»'
+node.summary.no.coverage:
+    text: Нет покрытия в «{0}»
+popup.title.tests.covering.line:
+    text: Тесты, покрывающие строку {0}:{1}
+remote.suites.node:
+        text: Удалённый
+run.selected.configuration.with.coverage.enabled:
+    text: Запустить выбранную конфигурацию с включённым покрытием
+run.with.coverage:
+    text: Запустить с по_крытием
+run.with.coverage.mnemonic:
+    text: Запустить «{0}» с По_крытием
+settings.coverage.activate.coverage.view:
+    text: Активировать &просмотр покрытия
+settings.coverage.add.to.the.active.suites:
+    text: Д&обавить в активные наборы
+settings.coverage.do.not.apply.collected.coverage:
+    text: Не применять собранное покрытие
+settings.coverage.replace.active.suites.with.the.new.one:
+    text: '&Заменить активные наборы на новый'
+settings.coverage.show.in.project.view:
+    text: Показать покрытие в представлении проекта
+settings.coverage.show.options.before.applying.coverage.to.the.editor:
+    text: '&Показать варианты перед показом покрытия в редакторе'
+settings.coverage.when.new.coverage.is.gathered:
+    text: Когда собирается новое покрытие
+show.coverage.per.test.action.description:
+    text: Показать покрытие по каждому тесту
+show.coverage.per.test.action.text:
+    text: Показать покрытие по каждому тесту
+table.column.name.statistics:
+    text: Статистика, %
