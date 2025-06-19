@@ -1,0 +1,42 @@
+action.collapse.test.text:
+    text: Свернуть все наборы тестов
+action.expand.test.text:
+    text: Развернуть все наборы тестов
+action.open.source.at.exception.description:
+    text: Перейти к строке, вызвавшей исключение при открытии исходного кода теста
+action.open.source.at.exception.text:
+    text: Открыть исходный код при исключении
+action.passed.action.description:
+    text: Скрыть успешно пройденные тесты
+action.passed.action.text:
+    text: Скрыть успешные
+action.scroll.to.stacktrace.description:
+    text: Прокрутить консоль к началу трассировки стека утверждений или исключений
+action.scroll.to.stacktrace.text:
+    text: Прокрутить до трассировки стека
+action.select.first.failed.text:
+    text: Выбрать первый не пройденный тест по окончании
+action.show.ignored.description:
+    text: Показать игнорируемые
+action.show.ignored.text:
+    text: Показать игнорируемые
+action.show.inline.statistics.description:
+    text: Показать/скрыть длительность теста в дереве
+action.show.inline.statistics.text:
+    text: Показать статистику в дереве
+action.sort.alphabetically.description:
+    text: Сортировать тесты или наборы по алфавиту
+action.sort.alphabetically.text:
+    text: Сортировать по алфавиту
+action.sort.by.statistics.description:
+    text: Сортировать тесты или наборы по продолжительности
+action.sort.by.statistics.text:
+    text: Сортировать по длительности
+action.toggle.auto.test.description:
+    text: Включить автоматический перезапуск тестов по изменению кода
+action.toggle.auto.test.text:
+    text: Включить авто-тестирование
+action.track.test.description:
+    text: Выбрать текущий запущенный тест в дереве
+action.track.test.text:
+    text: Отслеживать выполнение теста
