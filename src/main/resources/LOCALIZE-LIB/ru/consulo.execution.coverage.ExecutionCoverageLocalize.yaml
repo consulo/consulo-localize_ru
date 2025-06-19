@@ -185,11 +185,11 @@ popup.title.tests.covering.line:
 remote.suites.node:
         text: Удалённый
 run.selected.configuration.with.coverage.enabled:
-    text: Запустить выбранную конфигурацию с включённым покрытием
+    text: Запустить выбранную конфигурацию с включённой проверкой покрытия
 run.with.coverage:
     text: Запустить с по_крытием
 run.with.coverage.mnemonic:
-    text: Запустить «{0}» с По_крытием
+    text: Запустить «{0}» с проверкой по_крытия
 settings.coverage.activate.coverage.view:
     text: Активировать &просмотр покрытия
 settings.coverage.add.to.the.active.suites:

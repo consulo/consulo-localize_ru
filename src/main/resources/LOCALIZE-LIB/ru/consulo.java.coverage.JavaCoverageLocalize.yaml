@@ -23,13 +23,13 @@ coverage.settings.include:
 coverage.settings.menu:
     text: Покрытие настройки
 coverage.view.column.branch:
-    text: Ветка, %
+    text: Ветки, %
 coverage.view.column.class:
-    text: Класс, %
+    text: Классы, %
 coverage.view.column.line:
-    text: Строка, %
+    text: Строки, %
 coverage.view.column.method:
-    text: Метод, %
+    text: Методы, %
 coverage.view.text.classes.covered:
     text: '{0}% классов'
 coverage.view.text.methods.covered:
