@@ -324,20 +324,12 @@ junit.open.text.in.editor.action.name:
     text: Открыть выбранный тест в редакторе
 junit.run.hide.ignored.action.name:
     text: Скрыть пропущенные
-junit.run.hide.passed.action.description:
-    text: Скрыть успешно пройденные тесты
-junit.run.hide.passed.action.name:
-    text: Скрыть успешные
 junit.runing.info.assertion.tree.node:
     text: Утверждение
-junit.runing.info.collapse.test.action.name:
-    text: Свернуть все наборы тестов
 junit.runing.info.error.tree.node:
     text: Ошибка
 junit.runing.info.errors.count.message:
     text: О:{0}
-junit.runing.info.expand.test.action.name:
-    text: Развернуть все наборы тестов
 junit.runing.info.failed.count.message:
     text: Н:{0}
 junit.runing.info.failed.to.start.error.message:
@@ -364,10 +356,6 @@ junit.runing.info.memory.available.kb.message:
     text: '{0} кб.'
 junit.runing.info.memory.available.mb.message:
     text: '{0} мб.'
-junit.runing.info.open.source.at.exception.action.description:
-    text: Перейти к строке, вызвавшей исключение при открытии исходного кода теста
-junit.runing.info.open.source.at.exception.action.name:
-    text: Открыть исходный код при исключении
 junit.runing.info.passed.count.message:
     text: У:{0}
 junit.runing.info.passed.label:
@@ -376,20 +364,6 @@ junit.runing.info.results.column.name:
     text: Результаты
 junit.runing.info.running.label:
     text: Запущено
-junit.runing.info.scroll.to.stacktrace.action.description:
-    text: Прокрутить консоль к началу трассировки стека утверждений или исключений
-junit.runing.info.scroll.to.stacktrace.action.name:
-    text: Прокрутить до трассировки стека
-junit.runing.info.select.first.failed.action.name:
-    text: Выбрать первый не пройденный тест по окончании
-junit.runing.info.sort.alphabetically.action.description:
-    text: Сортировать тесты или наборы по алфавиту
-junit.runing.info.sort.alphabetically.action.name:
-    text: Сортировать по алфавиту
-junit.runing.info.sort.by.statistics.action.description:
-    text: Сортировать тесты или наборы по продолжительности
-junit.runing.info.sort.by.statistics.action.name:
-    text: Сортировать по длительности
 junit.runing.info.sort.group.name:
     text: Параметры сортировки
 junit.runing.info.starting.label:
@@ -424,10 +398,6 @@ junit.runing.info.time.sec.message:
     text: '{0} с'
 junit.runing.info.total.label:
     text: 'Всего:'
-junit.runing.info.track.test.action.description:
-    text: Выбрать текущий запущенный тест в дереве
-junit.runing.info.track.test.action.name:
-    text: Отслеживать выполнение теста
 junit.runing.info.usage.after.column.name:
     text: Использование после
 junit.runing.info.usage.before.column.name:
