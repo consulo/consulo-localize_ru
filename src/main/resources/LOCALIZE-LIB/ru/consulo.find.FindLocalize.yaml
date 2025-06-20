@@ -101,7 +101,7 @@ find.origin.entire.scope.radio:
 find.origin.from.cursor.radio:
     text: От &курсора
 find.origin.group:
-    text: Origin
+    text: Исходный
 find.parameter.usages.in.overriding.methods.prompt:
     text: Хотите выполнить поиск использования параметра «{0}» в переопределяющих методах?
 find.parameter.usages.in.overriding.methods.title:
@@ -353,3 +353,5 @@ select.next.occurence.not.found.message:
     text: Не найдено, попробуйте ещё раз, чтобы выполнить поиск сверху
 tooltip.close.search.bar.escape:
     text: Закрыть строку поиска (Escape)
+toolwindow.find.display.name:
+    text: Поиск

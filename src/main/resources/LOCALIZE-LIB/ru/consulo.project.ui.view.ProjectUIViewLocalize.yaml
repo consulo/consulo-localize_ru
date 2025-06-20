@@ -1,0 +1,48 @@
+action.NewElement.ProjectView.text:
+    text: Новый файл или каталог…
+action.ProjectView.FileNesting.description:
+    text: Настроить вложение файлов
+action.ProjectView.FileNesting.text:
+    text: Вложение файлов…
+action.show.excluded.files:
+    text: Показать исключённые файлы
+action.show.hide.excluded.files:
+    text: Показать/скрыть исключённые файлы
+child.file.suffix.column.name:
+    text: Суффикс дочернего файла
+dialog.message.child.file.suffix.must.be.empty.see.row:
+    text: Суффикс дочернего файла не должен быть пустым (см. строку {0})
+dialog.message.parent.child.file.suffixes.must.be.equal.see.row:
+    text: Суффиксы родительского и дочернего файлов не должны быть равными («{0}», см. строку {1})
+dialog.message.parent.file.suffix.must.be.empty.see.row:
+    text: Суффикс родительского файла не должен быть пустым (см. строку {0})
+file.nesting.dialog.title:
+    text: Вложенность файлов
+file.nesting.feature.enabled.checkbox:
+    text: '&Показать файлы с такими же названиями, как у вложенных'
+file.nesting.reset.to.default.button:
+    text: '&Сбросить до значений по умолчанию'
+file.nesting.table.title:
+    text: 'Правила вложенности:'
+parent.file.suffix.column.name:
+    text: Суффикс родительского файла
+select.in.aspects:
+    text: Аспекты
+select.in.commander:
+    text: Файловый менеджер
+select.in.favorites:
+    text: Избранное
+select.in.nav.bar:
+    text: Панель навигации
+select.in.packages:
+    text: Пакеты
+select.in.project:
+    text: Проект
+select.in.scope:
+    text: Область действия
+toolwindow.messages.display.name:
+    text: Сообщения
+toolwindow.notifications.display.name:
+    text: Уведомления
+toolwindow.project.display.name:
+    text: Проект
