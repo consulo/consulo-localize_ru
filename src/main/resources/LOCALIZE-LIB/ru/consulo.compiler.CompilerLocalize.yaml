@@ -1,0 +1,451 @@
+action.compile.description.module:
+    text: Модуль «{0}»
+action.compile.description.selected.files:
+    text: Выбранные файлы
+action.compiler.properties.text:
+    text: Свойства компилятора
+action.description.package.file:
+    text: Обновить файл в соответствующих артефактах
+action.make.selected.modules.text:
+    text: Построить выбранные _модули
+action.name.exclude.from.validation:
+    text: Исключить из проверки
+action.name.package.file:
+    text: Пакетный файл
+action.name.package.files:
+    text: Пакетные файлы
+actions.exclude.from.compile.text:
+    text: Исключить из компиляции
+annotation.processing.compiler.description:
+    text: Компилятор Java-аннотаций
+artifact.type.plain:
+    text: Другое
+bad.resource.patterns.dialog.title:
+    text: Неправильно сформированные шаблоны ресурсов
+build.artifacts.before.run.description.empty:
+    text: Построить артефакты
+build.artifacts.before.run.description.multiple:
+    text: Построить {0} артефактов
+build.artifacts.before.run.description.single:
+    text: Построить артефакт «{0}»
+build.artifacts.before.run.selector.title:
+    text: Выбрать артефакты
+chooser.description.select.output.directory.for.0.artifact:
+    text: Выбрать выходной каталог для артефакта «{0}»
+class.parsing.error.wrong.record.tag.expected.another:
+    text: 'Неправильный тег записи: {0}; ожидалось: {1}'
+class.parsing.error.wrong.tag.annotation.member.value:
+    text: 'Неправильный тег для значения параметра аннотации: {0}'
+command.name.package.file:
+    text: Пакетный файл
+compile.progress.title:
+    text: Прогресс компиляции
+compiler.configurable.display.name:
+    text: Компилятор
+compiler.content.name.compile:
+    text: Компилировать
+compiler.content.name.make:
+    text: Собрать
+compiler.error.exception:
+    text: 'Ошибка: {0}'
+compiler.error.failed.to.delete:
+    text: Не удалось удалить {0}
+compiler.initial.scanning.progress.text:
+    text: Поиск источников для повторной компиляции
+compiler.javac.name:
+    text: Javac
+compiler.jikes.name:
+    text: Jikes
+compiler.results.export.text.prefix:
+    text: строка ({0})
+compiler.running.dialog.title:
+    text: Запуск компилятора
+dialog.title.choose.artifacts:
+    text: Выбор артефактов
+dialog.title.output.directory.for.artifact:
+    text: Выходной каталог для артефакта
+element.type.name.artifact:
+    text: Артефакт
+element.type.name.directory:
+    text: Каталог
+element.type.name.jar.archive:
+    text: JAR-архив
+element.type.name.library.files:
+    text: Файлы библиотек
+element.type.name.module.output:
+    text: Вывод модуля
+element.type.name.module.resource.output:
+    text: Вывод ресурсов модуля
+element.type.name.module.test.output:
+    text: Вывод тестов модуля
+element.type.name.module.test.resource.output:
+    text: Вывод тестовых ресурсов модуля
+element.type.name.zip.archive:
+    text: ZIP-архив
+error.annotation.processing.not.supported.for.module.cycles:
+    text: |-
+        Выполнение процессоров аннотаций не поддерживается для циклически зависящих модулей. Следующие модули образуют цикл:
+        {0}
+        Пожалуйста, обновите конфигурацию модулей или исключите эти модули из обработки аннотаций
+error.ant.files.backup.failed:
+    text: Не удалось создать резервную копию файла {0}
+error.ant.files.generate.failed:
+    text: 'Не удалось создать скрипт Ant-сборки: {0}'
+error.bad.class.file.format:
+    text: |-
+        Неправильный формат файла класса:
+        {0}
+error.bad.resource.patterns:
+    text: Следующие шаблоны ресурсов имеют неправильный формат:{0}
+error.caches.old.format:
+    text: Кэши компилятора на диске имеют старый формат. Требуется пересборка проекта.
+error.chunk.modules.must.have.same.jdk:
+    text: |-
+        Следующим модулям должен быть назначен тот же JDK из-за циклических зависимостей между ними:
+        {0}
+        Обновите конфигурацию модулей
+error.chunk.modules.must.have.same.language.level:
+    text: |-
+        Следующим модулям должен быть назначен тот же уровень языка из-за циклических зависимостей между ними:
+        {0}
+        Обновите конфигурацию модулей
+error.compiler.caches.corrupted:
+    text: Кэши компилятора повреждены. Начинается пересборка...
+error.compiler.configurable.malformed.patterns:
+    text: |-
+        Следующие шаблоны ресурсов имеют неправильный формат:
+        {0}
+error.compiler.internal.error:
+    text: Внутренняя ошибка компилятора. Процесс завершен с кодом выхода {0}
+error.compiler.process.not.started:
+    text: 'Компилятор не запущен: {0}'
+error.copying:
+    text: |-
+        Ошибка копирования {0}
+        в {1}:
+        {2}
+error.dependency.info.on.disk.corrupted:
+    text: Информация о зависимостях компилятора на диске повреждена. Требуется пересборка.
+error.failed.to.create.directory:
+    text: Не удалось создать каталог {0}
+error.javac.out.of.memory:
+    text: Недостаточно памяти. Увеличьте максимальный размер кучи в Свойствах проекта|Параметры компилятора.
+error.jdk.not.specified:
+    text: |-
+        Невозможно запустить компилятор: SDK не указан для {0,choice, 1#модуля|2#модулей} {1}.
+        Укажите SDK в диалоговом окне «Структура проекта».
+error.output.not.specified:
+    text: |-
+        Невозможно запустить компиляцию: выходной путь не указан для {0,choice, 1#модуля|2#модулей} {1}.
+        Укажите выходной путь в «Настройке проекта».
+error.previous.compilation.failed:
+    text: Предыдущая компиляция не была завершена должным образом. Возможно, кэши повреждены. Запуск пересборки...
+error.project.output.not.specified:
+    text: |-
+        Невозможно запустить компиляцию: некоторые компиляторы требуют, чтобы был определен путь к проекту.
+        Укажите выходной путь к проекту в «Настройке проекта».
+error.signature.parsing.expected.other.symbol:
+    text: 'Ожидался символ «{0}»: {1}'
+error.signature.parsing.unknown.type.signature:
+    text: Неизвестная сигнатура типа
+error.vfs.was.rebuilt:
+    text: Кэши файловой системы инвалидированы. Требуется перестроить кэши.
+exclude.from.compile.table.path.column.name:
+    text: Путь
+exclude.from.compile.table.recursively.column.name:
+    text: Рекурсивно
+file.copying.compiler.description:
+    text: Копирующий файлы компилятор
+generate.ant.build.custom.compiler.conflict.message:
+    text: <html>Перечисленные ниже фрагменты используют более одного пользовательского компилятора.<br/>Для них вам придется вручную разрешать конфликты между<br/>компиляторами. Задача компиляции также будет содержать<br/>задачу на случай сбоя.<ul>{0}</ul></html>
+generate.ant.build.custom.compiler.conflict.message.row:
+    text: <li>{0}</li>
+generate.ant.build.custom.compiler.conflict.title:
+    text: Конфликтующие пользовательские компиляторы для фрагмента(ов)
+generate.ant.build.dialog.cyclic.modules.table.description:
+    text: |-
+        Некоторые модули имеют циклические зависимости.
+        Чтобы сгенерировать скрипт Ant-сборки, выберите «основной» модуль для каждого из циклов зависимостей.
+        Исходный код для всех модулей в цикле будет скомпилирован в выходные папки основного модуля;
+        Все модули в цикле будут использовать JDK, назначенный основному модулю;
+        Все созданные JAR-архивы будут названы по имени основного модуля.
+generate.ant.build.dialog.cyclic.modules.table.name.column.header:
+    text: Основной модуль
+generate.ant.build.dialog.cyclic.modules.table.number.column.header:
+    text: Цикл
+generate.ant.build.dialog.cyclic.modules.table.title:
+    text: Циклические зависимости модулей
+generated.ant.build.bootclasspath.comment:
+    text: Пути, которые будут включены в компиляцию bootclasspath
+generated.ant.build.build.all.modules.target.name:
+    text: собрать все модули
+generated.ant.build.build.all.target.name:
+    text: собрать всё
+generated.ant.build.building.concrete.module.section.title:
+    text: Модуль {0}
+generated.ant.build.clean.all.task.comment:
+    text: очистить всё
+generated.ant.build.cleanup.module.task.comment:
+    text: модуль очистки
+generated.ant.build.compile.modules.fail.custom.compilers:
+    text: Конфликт между пользовательскими компиляторами следует разрешать вручную.
+generated.ant.build.compile.modules.main.target.comment:
+    text: Компиляция {0,choice, 1#модуля|2#модулей} {1}
+generated.ant.build.compile.modules.production.classes.target.comment:
+    text: Компиляция основных классов {0,choice, 1#модуля|2#модулей} {1}
+generated.ant.build.compile.modules.tests.target.comment:
+    text: компиляция тестовых классов {0,choice, 1#модуля|2#модулей} {1}
+generated.ant.build.compiler.options.comment:
+    text: Параметры компилятора
+generated.ant.build.custom.compilers.comment:
+    text: Регистрация пользовательских определений задач компилятора
+generated.ant.build.disable.tests.property.comment:
+    text: Раскомментируйте следующее свойство, если не требуется компиляция тестов
+generated.ant.build.global.libraries.comment:
+    text: Глобальные библиотеки
+generated.ant.build.initialization.section.comment:
+    text: Выполните любую инициализацию сборки в этой цели
+generated.ant.build.initialization.section.title:
+    text: Инициализация сборки
+generated.ant.build.jdk.definitions.comment:
+    text: Определения JDK
+generated.ant.build.modules.section.title:
+    text: Модули
+generated.ant.build.project.libraries.comment:
+    text: Проектные библиотеки
+java.compiler.description:
+    text: Java-компилятор
+java.compiler.option.additional.command.line.parameters:
+    text: 'Дополнительные параметры командной строки:'
+java.compiler.option.generate.debugging.info:
+    text: Создать отладочную информацию
+java.compiler.option.generate.no.warnings:
+    text: Не создавать предупреждений
+java.compiler.option.report.deprecated:
+    text: Сообщить об использовании устаревших функций
+javac.error.1_0_compilation.not.supported:
+    text: Компиляция не поддерживается для JDK 1.0
+javac.error.jdk.home.missing:
+    text: |-
+        Невозможно найти домашний каталог «{1}» для JDK «{0}».
+        Обновите конфигурацию JDK.
+javac.error.tools.jar.missing:
+    text: |-
+        Невозможно получить путь к классам javac для JDK {0}.
+        Обновите конфигурацию JDK.
+javac.error.unknown.jdk.version:
+    text: |-
+        Невозможно определить версию JDK {0}.
+        Обновите конфигурацию JDK.
+javac.error.vm.executable.missing:
+    text: |-
+        Невозможно получить путь к исполняемому файлу VM для JDK {0}.
+        Обновите конфигурацию JDK.
+javac.option.max.heap.size:
+    text: 'Максимальный размер кучи (МБ):'
+javac.options.group.title:
+    text: Параметры Javac
+jikes.error.path.to.compiler.missing:
+    text: |-
+        Невозможно запустить компилятор Jikes.
+        Файл {0} не найден.
+jikes.error.path.to.compiler.unspecified:
+    text: |-
+        Невозможно запустить компилятор Jikes.
+        Путь к исполняемому файлу компилятора не настроен
+jikes.option.path.to.executable:
+    text: 'Путь к исполняемому файлу Jikes:'
+jikes.options.group.title:
+    text: Параметры Jikes
+label.generate.ant.script.backup.files:
+    text: Резервное копирование ранее созданных файлов
+label.generate.ant.script.enable.ui.forms.compilation:
+    text: Включить компиляцию форм пользовательского интерфейса (требуется задача ant "javac2" из дистрибутива IDEA)
+label.generate.ant.script.filename:
+    text: 'Название выходного файла:'
+label.generate.ant.script.generate.idea.home:
+    text: Использовать текущий экземпляр IDEA для свойства idea.home
+label.generate.ant.script.generate.multiple.files:
+    text: Сгенерировать многофайловую Ant-сборку (требуется Ant 1.6 или более поздняя версия для execute)
+label.generate.ant.script.inline.runtime.classpaths:
+    text: Встроенные пути к классам во время выполнения
+label.generate.ant.script.overwrite.files:
+    text: Перезаписать ранее созданные файлы
+label.generate.ant.script.single.file:
+    text: Сгенерировать однофайловую Ant-сборку
+label.generate.ant.script.use.jdk.definitions:
+    text: Использовать определения JDK из файлов проекта
+label.option.autoshow.first.error:
+    text: Автоматически показывать первую ошибку в редакторе
+label.option.clear.output.directory.on.rebuild:
+    text: Очистить выходной каталог при пересборке
+label.option.compile.in.background:
+    text: С&компилировать в фоновом режиме
+label.option.deploy.always:
+    text: Всегда
+label.option.deploy.ask:
+    text: Спросить
+label.option.deploy.never:
+    text: Никогда
+label.option.deploy.text:
+    text: 'Развертывать веб-приложения на сервере после компиляции:'
+label.option.honor.dependencies:
+    text: Учитывать &зависимости команды «Компиляция»
+label.option.resource.patterns.text:
+    text: 'Шаблоны ресурсов:'
+label.text.class.path:
+    text: 'Путь к &классам:'
+label.text.main.class:
+    text: '&Основной класс:'
+mesage.text.deployment.descriptor.file.not.exist:
+    text: Файл дескриптора развёртывания «{0}» не существует
+message.ant.files.generated.ok:
+    text: |-
+        Файлы Ant-сборки успешно сгенерированы:
+        {0}
+message.category.error:
+    text: ОШИБКА
+message.category.information:
+    text: ИНФОРМАЦИЯ
+message.category.statistics:
+    text: СТАТИСТИКА
+message.category.warning:
+    text: ПРЕДУПРЕЖДЕНИЕ
+message.resource.patterns.format.changed:
+    text: |-
+        Формат шаблонов ресурсов изменился.
+        {0} не удалось преобразовать существующие шаблоны регулярных выражений:
+        {1}
+        Введите строку шаблона в новом формате.
+        Каждый шаблон ресурса может содержать следующие подстановочные знаки:
+        ? - один символ
+        * - ноль или более символов
+        ! - отрицание шаблона (разрешено только в начале шаблона)
+        Используйте «;» (точку с запятой) для разделения шаблонов ресурсов;
+        Экранируйте символ «!» с помощью обратной косой черты («\»).
+        Вам также может потребоваться изменить настройки проекта шаблона.
+        Нажмите «{2}», чтобы принять введенные шаблоны, «{3}», чтобы загрузить шаблоны по умолчанию в новом формате.
+message.tect.package.file.io.error:
+    text: |-
+        Ошибка ввода-вывода:
+        {0}
+message.text.compiling.item.deployment.descriptor.could.not.be.found:
+    text: 'Компиляция {0}: Элемент развертывания «{1}» не найден'
+message.text.compiling.module.message:
+    text: 'Компиляция {0}: {1}'
+message.text.deployment.description.invalid.file:
+    text: Недопустимый файл
+message.text.destination.is.directory:
+    text: '{0} Место назначения — каталог.'
+message.text.error.copying.file.to.file:
+    text: Ошибка копирования «{0}» в «{1}».
+message.text.xml.file.invalid:
+    text: XML-файл «{0}» недействителен
+no.excludes:
+    text: Исключений нет
+no.validators:
+    text: Нет доступных валидаторов
+node.text.0.1.compile.output:
+    text: '«{0}» {1} компилировать вывод'
+node.text.0.directory.content:
+    text: '«{0}» содержимое каталога'
+node.text.0.with.dependencies:
+    text: '«{0}» с зависимостями'
+option.use.compiler.text:
+    text: 'Использовать компилятор:'
+packaging.compiler.error.cannot.build.circular.dependency.found.between.0.and.1:
+    text: 'Невозможно выполнить сборку: обнаружена циклическая зависимость между «{0}» и «{1}»'
+packaging.compiler.message.building.0:
+    text: Сборка «{0}»...
+packaging.compiler.message.building.archives:
+    text: Сборка архивов...
+packaging.compiler.message.copying.archives:
+    text: Копирование архивов...
+packaging.compiler.message.deleting.outdated.files:
+    text: Удаление устаревших файлов...
+packaging.compiler.message.updating.caches:
+    text: Обновление кэшей компилятора артефактов...
+packaging.element.text.output.root:
+    text: <корень вывода>
+pattern.conversion.dialog.title:
+    text: Преобразование шаблона
+progress.checking.dependencies:
+    text: Проверка зависимостей...
+progress.clearing.output:
+    text: Очистка выходных каталогов...
+progress.compiling.class:
+    text: Компиляция {0}...
+progress.copying.resources:
+    text: Копирование ресурсов...
+progress.deleting.temp.files:
+    text: Удаление временных файлов...
+progress.executing.postcompile.tasks:
+    text: Выполнение задач после компиляции...
+progress.executing.precompile.tasks:
+    text: Выполнение задач перед компиляцией...
+progress.found.dependent.files:
+    text: Найдено {0} зависимых файлов
+progress.generating.rmi.stubs:
+    text: Генерация RMI-заглушек...
+progress.loading.classes:
+    text: Загрузка классов...
+progress.parsing.file:
+    text: Анализ {0}...
+progress.processing.outdated.files:
+    text: Обработка устаревших файлов...
+progress.saving.caches:
+    text: Сохраняем кэши...
+progress.synchronizing.output.directory:
+    text: Синхронизируем выходной каталог...
+progress.updating.caches:
+    text: Обновляем кэши...
+rebuild.lvcs.label.no.errors:
+    text: '«{0}» без ошибок'
+rebuild.lvcs.label.with.errors:
+    text: '«{0}» с ошибками'
+resource.compiler.description:
+    text: Компилятор ресурсов
+rmi.compiler.description:
+    text: RMI-компилятор
+rmic.option.enable.rmi.stubs:
+    text: Включить генерацию RMI-заглушек
+rmic.option.generate.iiop.stubs:
+    text: Генерация IIOP-заглушек
+statistics.error.count:
+    text: '{0} {0,choice, 0#ошибок|1#ошибка|2#ошибок}'
+statistics.files.classes:
+    text: 'Файлы: {0} - Классы: {1}'
+statistics.files.classes.module:
+    text: 'Файлы: {0} - Классы: {1} - Модуль: {2}'
+statistics.warnings.count:
+    text: '{0} {0,choice, 0#предупреждений|1#предупреждение|2#предупреждений}'
+status.all.up.to.date:
+    text: Все файлы обновлены
+status.compilation.aborted:
+    text: Компиляция прервана
+status.compilation.completed.successfully:
+    text: Компиляция успешно завершена
+status.compilation.completed.successfully.with.warnings:
+    text: Компиляция успешно завершена с {0} {0,choice, 0#предупреждений|1#предупреждением|2#предупреждениями}
+status.compilation.completed.successfully.with.warnings.and.errors:
+    text: Компиляция завершена с {0} {0,choice, 0#ошибок|1#ошибкой|2#ошибками} и {1} {1,choice, 0#предупреждений|1#предупреждением|2#предупреждениями}
+status.text.file.has.been.packaged:
+    text: '{0,choice, 1#Файл|2#Файлы} {1} {0,choice, 1#был упакован|2#были упакованы} в {2}.'
+validation.display.name:
+    text: Проверка
+value.undefined:
+    text: не определено
+toolwindow.build.display.name:
+    text: Сборка
+warning.compiler.running.on.project.close:
+    text: Запущена компиляция. Всё равно закрыть проект?
+warning.compiler.running.on.toolwindow.close:
+    text: Запущена компиляция. Завершить её?
+warning.sources.under.output.paths:
+    text: |-
+        В настоящее время включена опция компилятора «Очистить выходной каталог при пересборке».
+        Однако исходные файлы могут находиться в следующих выходных путях:
+        {0}
+        Компиляция будет продолжена без очистки выходных каталогов.
+warning.text.file.has.been.changed:
+    text: Файл был изменен во время компиляции, проверка инспекциями пропущена

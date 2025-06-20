@@ -1,0 +1,50 @@
+inlay.hints.show.settings:
+    text: Отключить подсказки для метода «{0}»
+settings.hints:
+    text: Встроенные подсказки
+settings.hints.group.annotations:
+    text: Аннотации
+settings.hints.group.annotations.description:
+    text: Показать аннотации, которых нет в коде.
+settings.hints.group.code.author:
+    text: Автор кода
+settings.hints.group.code.author.description:
+    text: Показать автора кода в соответствии с записями в системе контроля версий.<br><br>Автором считается тот, кто последним редактировал класс, метод или функцию. Если есть несколько коммитов от разных авторов, автором считается тот, кому принадлежит больше всего строк.
+settings.hints.group.code.vision:
+    text: Видение кода
+settings.hints.group.lambdas:
+    text: Лямбда-выражения
+settings.hints.group.lambdas.description:
+    text: Показывать неявные подробности в области действия лямбда-выражения.
+settings.hints.group.method.chains:
+    text: Цепочки методов
+settings.hints.group.other:
+    text: Другое
+settings.hints.group.parameters:
+    text: Имена параметров
+settings.hints.group.parameters.description:
+    text: Помогает передавать правильные аргументы, показывая имена параметров в местах вызова.
+settings.hints.group.types:
+    text: Типы
+settings.hints.group.types.description:
+    text: Предоставляет информацию о типе, если она не указана явно.
+settings.hints.group.url.path:
+    text: URL-путь
+settings.hints.group.url.path.description:
+    text: Позволяет быстро получить доступ к действиям, связанным с URL-адресами, например, протестировать сервер.
+settings.hints.group.values:
+    text: Значения
+settings.hints.group.values.description:
+    text: Определите места, где используются специальные значения (например, null).
+settings.hints.new.group.code.vision:
+    text: Видение кода
+settings.hints.new.group.code.vision.description:
+    text: 'Предоставьте информацию, полученную в результате анализа проекта: сведения об иерархии, проблемы и использование.'
+settings.inlay.hints.panel.name:
+    text: Подсказки по вкладкам
+settings.inlay.java.exclude.list:
+    text: Исключить список…
+settings.inlay.parameter.hints.panel.name:
+    text: Подсказки по параметрам
+toolwindow.structure.display.name:
+    text: Структура
