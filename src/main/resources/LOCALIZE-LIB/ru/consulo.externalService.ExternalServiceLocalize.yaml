@@ -1,0 +1,310 @@
+action.download.and.install.plugin:
+    text: Загрузить и установить
+action.uninstall.plugin:
+    text: Удалить
+action.update.plugin:
+    text: Обновить расширение
+checksum.failed:
+    text: Несоответствие контрольной суммы. Повторите попытку позже
+column.plugins.category:
+    text: Категория
+column.plugins.date:
+    text: Дата
+column.plugins.downloads:
+    text: Загрузки
+column.plugins.name:
+    text: Название
+column.plugins.rate:
+    text: Рейтинг
+diagnostic.error.report.additional.info.label:
+    text: '&Дополнительная информация (шаги для воспроизведения, что вы делали, когда произошло исключение):'
+diagnostic.error.report.description:
+    text: |-
+        Если вы хотите получать уведомления, когда отправленные вами исключения будут исправлены,
+        введите логин и пароль вашей учетной записи Consulo.
+diagnostic.error.report.include.attachment.warning:
+    text: 'Отчёт будет включать вложение: «<a>{0}</a>».'
+diagnostic.error.report.include.attachments.warning:
+    text: Отчёт будет включать вложения <a>{0}</a>.
+diagnostic.error.report.login.name:
+    text: '&Имя пользователя:'
+diagnostic.error.report.login.password:
+    text: '&Пароль:'
+diagnostic.error.report.send:
+    text: '&Отправить'
+diagnostic.error.report.submit.error.anonymously:
+    text: <html>Отправить отчёт анонимно или использовать <a>учётную запись Consulo...</a></html>
+diagnostic.error.report.submit.report.as:
+    text: <html>Отправить отчёт как <a>{0}</a></html>
+diagnostic.out.of.memory.continue:
+    text: Продолжить
+diagnostic.out.of.memory.currentValue:
+    text: '(текущее значение: {0})'
+diagnostic.out.of.memory.currentValue.unknown:
+    text: Неизвестно
+diagnostic.out.of.memory.dump:
+    text: Дамп памяти
+diagnostic.out.of.memory.error:
+    text: <html>Недостаточно памяти для выполнения запрошенной операции.<br>Увеличьте значение параметра «{0}» и перезапустите IDE, чтобы изменения вступили в силу.</html>
+diagnostic.out.of.memory.title:
+    text: Мало памяти
+diagnostic.out.of.memory.willBeSavedTo:
+    text: <html><b>Изменения будут сохранены в</b> «{0}»</html>
+error.attachments.tab.title:
+    text: Вложения
+error.cannot.create.temp.dir:
+    text: Невозможно создать временный каталог «{0}»
+error.comments.tab.title:
+    text: Комментарии
+error.details.tab.title:
+    text: Подробности
+error.dialog.attachment.include.column.title:
+    text: Включить
+error.dialog.attachment.path.column.title:
+    text: Путь
+error.dialog.clear.action:
+    text: '&Очистить'
+error.dialog.clear.all.action:
+    text: '&Очистить всё'
+error.dialog.comment.prompt:
+    text: '<html><u>Пожалуйста</u> заполните все важные сведения: шаги для воспроизведения, что вы делали, когда возникла проблема и т. д.:</html>'
+error.dialog.conflict.plugin.button.disable.all:
+    text: Отключить всё и перезапустить
+error.dialog.conflict.plugin.button.enable.and.restart:
+    text: Включить и перезапустить
+error.dialog.conflict.plugin.disable.all:
+    text: Нет, отключить все расширения выше
+error.dialog.conflict.plugin.header.each.other:
+    text: '<html><p style="line-height: 150%;">Расширения ниже не могут работать одновременно. Выберите, что включить:</p></html>'
+error.dialog.conflict.plugin.header.platform:
+    text: 'Следующ{0,choice,1#ее|2#ие} расширени{0,choice,1#е|2#я} конфликту{0,choice,1#ет|2#ют} с IDE:'
+error.dialog.conflict.plugin.title:
+    text: Конфликтующие расширения
+error.dialog.disable.plugin.action.disable:
+    text: '&Отключить'
+error.dialog.disable.plugin.action.disableAndRestart:
+    text: Отключить и &перезапустить
+error.dialog.disable.plugin.norestart:
+    text: После отключения расширения перезапустите {0}, чтобы применить изменения в конфигурации расширения.
+error.dialog.disable.plugin.prompt:
+    text: <html>Вы уверены, что хотите отключить расширение <b>{0}</b>?<br/>Функциональность, предоставляемая расширением, больше не будет доступна.</html>
+error.dialog.disable.plugin.prompt.dependants:
+    text: <html>Вы уверены, что хотите отключить расширение <b>{0}</b>?<br/>Функциональность, предоставляемая расширением и зависимыми расширениями, больше не будет доступна.</html>
+error.dialog.disable.plugin.restart:
+    text: Изменения в конфигурации расширения вступят в силу после перезапуска {0}.
+error.dialog.disable.plugin.title:
+    text: Отключить расширение
+error.dialog.error.prompt:
+    text: '&Сообщение об ошибке'
+error.dialog.filecontent.title:
+    text: Содержимое файла
+error.dialog.foreign.plugin.warning.text:
+    text: Это расширение не является продуктом Consulo. Пожалуйста, сообщите о проблеме поставщику расширения.
+error.dialog.foreign.plugin.warning.text.vendor:
+    text: 'Это расширение не является продуктом Consulo. Пожалуйста, сообщите о проблеме поставщику расширения:'
+error.http.result.code:
+    text: 'HTTP-код результата: {0}'
+error.itn.returns.wrong.data:
+    text: ITN возвращает неверные данные
+error.list.back.action:
+    text: Назад
+error.list.clear.action:
+    text: _Очистить и закрыть
+error.list.close.action:
+    text: З_акрыть
+error.list.disable.plugin:
+    text: '&Отключить расширение...'
+error.list.disable.plugin.0:
+    text: Отключить расширение {0}
+error.list.empty:
+    text: (ошибок нет)
+error.list.forward.action:
+    text: Переслать
+error.list.message.blame.core:
+    text: Исключение в платформе.
+error.list.message.blame.plugin:
+    text: Исключение в расширении <b>{0}</b>.
+error.list.message.blame.unknown.plugin:
+    text: Исключение в <b>неизвестном расширении</b>.
+error.list.message.duplicate:
+    text: '[Дубликат]'
+error.list.message.index.count:
+    text: '{0} из {1}'
+error.list.message.info:
+    text: '{0}. Произошло {1,choice,1#1 раз|2#{1} раз} с момента последней очистки.'
+error.list.message.submission.failed:
+    text: Отправка не удалась
+error.list.message.submitted:
+    text: Отправлено
+error.list.message.submitted.as.link:
+    text: Отправлено как <a href="{0}">{1}</a>
+error.list.message.unread:
+    text: Непрочитано.
+error.list.of.plugins.was.not.loaded:
+    text: 'Список расширений не загружен: {0}'
+error.list.popup.immediately.checkbox:
+    text: Показать это окно немедленно при возникновении внутренней ошибки
+error.list.restart.action:
+    text: _Перезапуск
+error.list.shutdown.action:
+    text: _Завершить работу
+error.list.submit.action:
+    text: Отправить
+error.list.title:
+    text: Фатальные ошибки IDE
+error.monitor.too.many.errors:
+    text: Слишком много фатальных ошибок IDE. Мониторинг остановлен.
+error.new.notification.link:
+    text: Просмотреть подробности и отправить отчёт
+error.new.notification.title:
+    text: Произошла ошибка IDE
+error.notification.empty.text:
+    text: Нет фатальных ошибок IDE
+error.notification.tooltip:
+    text: <html><body>Произошла внутренняя ошибка IDE.<br>Нажмите, чтобы просмотреть подробности и отправить отчёт об ошибке.</body></html>
+error.plugin.download.failed:
+    text: Не удалось загрузить расширение
+error.report.authentication.failed:
+    text: Не удалось выполнить аутентификацию учётной записи Consulo. Хотите попробовать еще раз?
+error.report.exception.title:
+    text: Отчёт об ошибке
+error.report.failure.message:
+    text: Не удалось отправить отчёт об ошибке.
+error.report.gratitude:
+    text: Спасибо за обратную связь!
+error.report.new.eap.build.message:
+    text: Доступна новая сборка {0}.
+error.report.posting.failed:
+    text: 'Отчёт не был отправлен: {0}. Хотите попробовать ещё раз?'
+error.report.sending.failure:
+    text: Отправка не удалась. Хотите попробовать ещё раз?
+error.report.title:
+    text: Отчёт об ошибке
+error.report.to.consulo.action:
+    text: Отправить отчёт
+error.report.update.required.message:
+    text: Отчёт об ошибке отклонен. Требуется обновление
+log.console.filter.show.all:
+    text: всё
+log.console.filter.show.errors:
+    text: ошибки
+log.console.filter.show.errors.and.warnings:
+    text: предупреждения
+log.console.filter.show.errors.warnings.and.infos:
+    text: информация
+log.monitor.add.button:
+    text: Д&обавить
+log.monitor.edit.aliases.location:
+    text: '&Расположение лог-файла:'
+log.monitor.edit.aliases.name:
+    text: '&Псевдоним:'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: '&Показать все файлы, охватываемые шаблоном'
+log.monitor.edit.aliases.title:
+    text: Изменить псевдонимы файлов журнала
+log.monitor.group:
+    text: Файлы журнала для отображения в консоли
+log.monitor.is.active.column:
+    text: Активно
+log.monitor.is.skipped.column:
+    text: Пропустить содержимое
+log.monitor.log.file.column:
+    text: Запись в лог-файле
+log.monitor.no.files:
+    text: Нет прикрепленных лог-файлов
+log.monitor.remove.button:
+    text: '&Удалить'
+message.idea.restart.required:
+    text: Перезапустить {0} для активации изменений в расширениях?
+message.idea.shutdown.required:
+    text: Выключить {0} для активации изменений в расширениях?
+plugin.advestiser.notification.install.link:
+    text: Установить {0, choice, 1#расширение|2#расширений}
+plugin.advestiser.notification.install.plugin.link:
+    text: Установить «{0}»
+plugin.advestiser.notification.text:
+    text: 'Найдены {0, choice, 1#расширение, поддерживающее|2#расширений, поддерживающих} текущий файл'
+plugin.info.unknown:
+    text: неизвестно
+plugin.install.dialog.title:
+    text: Установить расширение
+plugin.manager.incompatible.deps.tooltip:
+    text: Требуется {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} не включено
+plugin.manager.incompatible.not.loaded.tooltip:
+    text: Расширение не загружено
+plugin.manager.wrong.platform.not.loaded.tooltip:
+    text: Расширение «{0}» не загружено из-за не той версии платформы
+plugin.status.not.specified:
+    text: (не указано)
+progress.connecting.to.plugin.manager:
+    text: Подключение к {0}
+progress.download.plugins:
+    text: Загрузка...
+progress.downloading.list.of.plugins:
+    text: Загрузка списка расширений
+progress.downloading.platform:
+    text: Загрузка платформы
+progress.downloading.plugin:
+    text: Загрузка расширения «{0}»
+progress.extracting.platform:
+    text: Распаковка платформы
+progress.installing.plugins:
+    text: Установка расширение...
+prompt.download.and.install.plugin:
+    text: "Хотите загрузить и установить расширение «{0}»?"
+prompt.install.several.plugins:
+    text: "Установить или обновить {0} расширений?"
+prompt.uninstall.plugin:
+    text: Вы действительно хотите удалить расширение «{0}»?
+prompt.uninstall.several.plugins:
+    text: "Вы действительно хотите удалить эти {0} расширений?"
+prompt.update.plugin:
+    text: "Хотите обновить расширение «{0}»?"
+several.plugins.depend.on.0.continue.to.remove:
+    text: Несколько расширений зависят от {0}. Продолжить удаление?
+title.plugin.uninstall:
+    text: Удаление расширения
+title.plugins:
+    text: Платформа и расширения
+title.plugins.changed:
+    text: Изменены расширения
+title.submitting.error.report:
+    text: Отправка отчета об ошибке
+unknown.error:
+    text: Неизвестная ошибка
+update.available:
+    text: Доступны обновления
+update.available.group:
+    text: Проверка обновлений
+update.there.are.no.updates:
+    text: Нет обновлений
+update.view.updates:
+    text: Просмотреть обновления
+virus.scanning.dont.show.again:
+    text: Больше не показывать
+virus.scanning.dont.show.again.this.project:
+    text: Больше не показывать для этого проекта
+virus.scanning.fix.automatically:
+    text: Настроить автоматически
+virus.scanning.fix.explanation:
+    text: <html>Чтобы повысить производительность, {0} можете обновить конфигурацию Защитника Windows, чтобы исключить каталоги проектов из сканирования в реальном времени.<br>Для этого потребуется выполнить команду с правами администратора.<br>Кроме того, вы можете настроить Защитник Windows вручную, следуя <a href="{1}">инструкциям</a>.
+virus.scanning.fix.failed:
+    text: 'Не удалось обновить конфигурацию Защитника Windows: {0}'
+virus.scanning.fix.manually:
+    text: Настроить вручную
+virus.scanning.fix.success.notification:
+    text: Конфигурация Защитника Windows обновлена
+virus.scanning.fix.title:
+    text: Настроить Защитник Windows
+virus.scanning.warn.message:
+    text: Защитник Windows может влиять на производительность сборки и IDE. {0} проверил следующие каталоги:<br>{1}
+whatsnew.action.custom.description:
+    text: Узнайте о новых функциях в этой версии {0}
+whatsnew.action.custom.text:
+    text: Что нового в {0}
+whatsnew.loading.text:
+    text: Получение списка изменений...
+whatsnew.no.changes.text:
+    text: Без изменений
+whatsnew.platform.text:
+    text: Платформа
