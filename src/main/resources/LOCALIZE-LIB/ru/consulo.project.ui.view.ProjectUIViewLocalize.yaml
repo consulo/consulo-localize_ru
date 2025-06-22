@@ -4,6 +4,14 @@ action.ProjectView.FileNesting.description:
     text: Настроить вложение файлов
 action.ProjectView.FileNesting.text:
     text: Вложение файлов…
+action.open.library.settings.text:
+    text: Открыть настройки библиотек
+action.open.module.settings.text:
+    text: Открыть настройки модулей
+action.scroll.from.source.description:
+    text: Выбрать файл, открытый в активном редакторе
+action.scroll.from.source.text:
+    text: Прокрутить от источника
 action.show.excluded.files:
     text: Показать исключённые файлы
 action.show.hide.excluded.files:
@@ -24,6 +32,8 @@ file.nesting.reset.to.default.button:
     text: '&Сбросить до значений по умолчанию'
 file.nesting.table.title:
     text: 'Правила вложенности:'
+node.module.dependencies.text:
+    text: Зависимости модуля
 parent.file.suffix.column.name:
     text: Суффикс родительского файла
 select.in.aspects:

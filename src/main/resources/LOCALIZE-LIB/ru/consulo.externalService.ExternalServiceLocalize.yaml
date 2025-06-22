@@ -1,9 +1,15 @@
 action.download.and.install.plugin:
     text: Загрузить и установить
+action.restart.text:
+    text: Перезапустить {0}
 action.uninstall.plugin:
     text: Удалить
+action.update.platform.and.plugins.text:
+    text: Обновить {0} и расширения
 action.update.plugin:
     text: Обновить расширение
+action.update.plugins.text:
+    text: Обновить расширения
 checksum.failed:
     text: Несоответствие контрольной суммы. Повторите попытку позже
 column.plugins.category:
@@ -214,10 +220,14 @@ log.monitor.no.files:
     text: Нет прикрепленных лог-файлов
 log.monitor.remove.button:
     text: '&Удалить'
+message.idea.few.plugins.will.be.not.updated:
+    text: Часть расширений не будет обновлена. Эти расширения будут отключены после обновления. Вы согласны?
 message.idea.restart.required:
     text: Перезапустить {0} для активации изменений в расширениях?
 message.idea.shutdown.required:
     text: Выключить {0} для активации изменений в расширениях?
+notification.group.platform.or.plugins.update.display.name:
+    text: Обновление расширений или платформы
 plugin.advestiser.notification.install.link:
     text: Установить {0, choice, 1#расширение|2#расширений}
 plugin.advestiser.notification.install.plugin.link:
@@ -236,6 +246,8 @@ plugin.manager.wrong.platform.not.loaded.tooltip:
     text: Расширение «{0}» не загружено из-за не той версии платформы
 plugin.status.not.specified:
     text: (не указано)
+plugin.following.will.be.downloaded.label:
+    text: Следующие расширения будут скачаны и установлены
 progress.connecting.to.plugin.manager:
     text: Подключение к {0}
 progress.download.plugins:
@@ -260,6 +272,14 @@ prompt.uninstall.several.plugins:
     text: "Вы действительно хотите удалить эти {0} расширений?"
 prompt.update.plugin:
     text: "Хотите обновить расширение «{0}»?"
+settings.update.channel.label:
+    text: Канал
+settings.update.display.name:
+    text: Настройки обновлений
+settings.update.enable.updates.label:
+    text: Обновления включены
+settings.update.group.repository.settings.label:
+    text: Настройки репозитория
 several.plugins.depend.on.0.continue.to.remove:
     text: Несколько расширений зависят от {0}. Продолжить удаление?
 title.plugin.uninstall:
@@ -276,6 +296,8 @@ update.available:
     text: Доступны обновления
 update.available.group:
     text: Проверка обновлений
+update.checking:
+    text: Проверяем, есть ли обновления
 update.there.are.no.updates:
     text: Нет обновлений
 update.view.updates:
