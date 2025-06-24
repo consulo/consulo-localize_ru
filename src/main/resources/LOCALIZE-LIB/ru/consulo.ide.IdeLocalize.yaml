@@ -99,9 +99,9 @@ action.close.all.editors:
 action.close.all.editors.in.tab.group:
     text: Закрыть _все в группе
 action.close.all.unmodified.editors:
-    text: Закрыть _Неизмененные
+    text: Закрыть _не изменённые
 action.close.all.unmodified.editors.in.tab.group:
-    text: Закрыть _неизмененные в группе
+    text: Закрыть _не изменённые в группе
 action.close.all.unpinned.editors:
     text: Закрыть все, кроме закрепленных
 action.close.all.unpinned.editors.in.tab.group:
@@ -245,9 +245,9 @@ action.overwrite:
 action.package:
     text: Пакет
 action.pin.active.tab:
-    text: Вставить вкладку
+    text: _Закрепить активную вкладку
 action.pin.tab:
-    text: Вставить вкладку
+    text: _Закрепить вкладку
 action.previous.message:
     text: Предыдущее сообщение
 action.previous.problem:
@@ -377,9 +377,9 @@ action.toolwindow.todo:
 action.uninstall.plugin:
     text: Удалить
 action.unpin.active.tab:
-    text: _Отменить пришпиливание активной вкладки
+    text: _Открепить активную вкладку
 action.unpin.tab:
-    text: Отменить пришпиливание вкладки
+    text: _Открепить вкладку
 action.unpin.tab.tooltip:
     text: Отменить пришпиливание вкладки
 action.update.plugin:
