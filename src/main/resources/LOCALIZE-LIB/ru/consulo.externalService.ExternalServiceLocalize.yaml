@@ -1,7 +1,13 @@
 action.download.and.install.plugin:
     text: Загрузить и установить
-action.restart.text:
+action.postpone.text:
+    text: Отложить
+action.restart.app.text:
     text: Перезапустить {0}
+action.restart.text:
+    text: Перезапустить
+action.shutdown.text:
+    text: Выйти
 action.uninstall.plugin:
     text: Удалить
 action.update.platform.and.plugins.text:

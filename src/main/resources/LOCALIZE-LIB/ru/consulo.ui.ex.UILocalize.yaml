@@ -175,11 +175,11 @@ popup.hints.panel.click.to.configure.highlighting.tooltip.text:
 popup.hints.panel.click.to.configure.profile.text:
     text: Щёлкните, чтобы настроить профили проверки
 position.panel.caret.count:
-    text: '{0} знаков вставки'
+    text: '{0} позиций курсора'
 position.panel.selected.chars.count:
     text: '{0,choice,1#символ|2#символов}'
 position.panel.selected.line.breaks.count:
-    text: '{0} строка {0,choice,1#перевод строки|2#переводов строк}'
+    text: '{0} {0,choice,1#перевод строки|2#переводов строк}'
 position.panel.selected.lines.count:
     text: '{0} строк'
 read.only.attr.panel.double.click.to.toggle.attr.tooltip.text:
@@ -279,7 +279,7 @@ there.is.no.help.for.this.dialog.error.message:
 tool.window.hide.action.name:
     text: Скрыть
 tool.window.hideSide.action.name:
-    text: Hide Side
+    text: Скрыть сторону
 tool.window.move.to.action.group.name:
     text: Переместить
 tool.window.move.to.bottom.action.name:
@@ -344,6 +344,8 @@ tree.view.collapse.all.action.name:
     text: Свернуть всё
 tree.view.expand.all.action.name:
     text: Развернуть всё
+treenode.loading:
+    text: загрузка…
 welcome.screen.disabled.plugins.description:
     text: (отключено)
 welcome.screen.documentation.action.group.name:
