@@ -239,7 +239,9 @@ plugin.advestiser.notification.install.link:
 plugin.advestiser.notification.install.plugin.link:
     text: Установить «{0}»
 plugin.advestiser.notification.text:
-    text: 'Найдены {0, choice, 1#расширение, поддерживающее|2#расширений, поддерживающих} текущий файл'
+    text: Найдены {0, choice, 1#расширение, поддерживающее|2#расширений, поддерживающих} текущий файл
+plugin.following.will.be.downloaded.label:
+    text: Следующие расширения будут скачаны и установлены
 plugin.info.unknown:
     text: неизвестно
 plugin.install.dialog.title:
@@ -252,8 +254,6 @@ plugin.manager.wrong.platform.not.loaded.tooltip:
     text: Расширение «{0}» не загружено из-за не той версии платформы
 plugin.status.not.specified:
     text: (не указано)
-plugin.following.will.be.downloaded.label:
-    text: Следующие расширения будут скачаны и установлены
 progress.connecting.to.plugin.manager:
     text: Подключение к {0}
 progress.download.plugins:
@@ -269,15 +269,15 @@ progress.extracting.platform:
 progress.installing.plugins:
     text: Установка расширение...
 prompt.download.and.install.plugin:
-    text: "Хотите загрузить и установить расширение «{0}»?"
+    text: Хотите загрузить и установить расширение «{0}»?
 prompt.install.several.plugins:
-    text: "Установить или обновить {0} расширений?"
+    text: Установить или обновить {0} расширений?
 prompt.uninstall.plugin:
     text: Вы действительно хотите удалить расширение «{0}»?
 prompt.uninstall.several.plugins:
-    text: "Вы действительно хотите удалить эти {0} расширений?"
+    text: Вы действительно хотите удалить эти {0} расширений?
 prompt.update.plugin:
-    text: "Хотите обновить расширение «{0}»?"
+    text: Хотите обновить расширение «{0}»?
 settings.update.channel.label:
     text: Канал
 settings.update.display.name:
@@ -330,6 +330,8 @@ whatsnew.action.custom.description:
     text: Узнайте о новых функциях в этой версии {0}
 whatsnew.action.custom.text:
     text: Что нового в {0}
+whatsnew.commit.label:
+    text: коммит
 whatsnew.loading.text:
     text: Получение списка изменений...
 whatsnew.no.changes.text:
