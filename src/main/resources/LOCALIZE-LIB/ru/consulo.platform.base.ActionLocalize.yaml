@@ -221,7 +221,7 @@ action.ChangesView.SetDefault.text:
 action.ChangesView.Shelve.description:
     text: Сохранить изменения во внешний файл патча и удалить их из кода
 action.ChangesView.Shelve.text:
-    text: Shelve Changes…
+    text: Отложить изменения…
 action.CheckForUpdate.description:
     text: Проверить наличие доступных обновлений
 action.CheckForUpdate.text:
@@ -231,7 +231,7 @@ action.CheckStatusForFiles.text:
 action.CheckinFiles.text:
     text: Check _In
 action.CheckinProject.text:
-    text: Check _In Project
+    text: Check _In проект
 action.ClassNameCompletion.description:
     text: Полное название класса и добавление импорта для него
 action.ClassNameCompletion.text:
@@ -517,9 +517,9 @@ action.DecrementWindowHeight.text:
 action.DecrementWindowWidth.text:
     text: Уменьшить ширину
 action.DelegateMethods.description:
-    text: Создать метод делегата для поля/получателя
+    text: Создать метод делегата для поля/getter'а
 action.DelegateMethods.text:
-    text: _Delegate методы…
+    text: _Методы делегата…
 action.Diff.AppendLeftSide.text:
     text: Добавить левую сторону
 action.Diff.AppendRightSide.text:
@@ -1061,7 +1061,7 @@ action.GotoAction.text:
 action.GotoAspect.description:
     text: Перейти к объявлению совета, ошибки или предупреждения, которое влияет на точку соединения у курсора
 action.GotoAspect.text:
-    text: _Aspect
+    text: _Аспект
 action.GotoBookmark0.text:
     text: Перейти к закладке 0
 action.GotoBookmark1.text:
@@ -1296,6 +1296,8 @@ action.ImportFromJBuilder.text:
     text: Импорт из _JBuilder…
 action.ImportModule.description:
     text: Импортировать модуль из каталога с существующими исходниками или из существующей модели проекта
+action.ImportModule.text:
+    text: Создать модуль из исходников…
 action.ImportModuleFromImlFile.description:
     text: Импортировать iml-файл как модуль в проект
 action.ImportModuleFromImlFile.text:
@@ -1789,7 +1791,7 @@ action.RunConfiguration.description:
 action.RunConfiguration.text:
     text: Выбрать конфигурацию запуска/отладки
 action.RunDashboard.AddType.text:
-    text: Run Configuration Type…
+    text: Тип конфигурации запуска…
 action.RunDashboard.ClearContent.text:
     text: Очистить содержимое
 action.RunDashboard.CopyConfiguration.text:
@@ -1984,6 +1986,16 @@ action.ShowFilePath.text:
     text: _Путь к файлу
 action.ShowFilePath.tuned:
     text: Путь к {0,choice,0#файлу|1#каталогу}
+action.ShowFilterAction.description:
+    text: Показать всплывающее окно фильтрации
+action.ShowFilterAction.popup.button.all:
+    text: Всё
+action.ShowFilterAction.popup.button.invert:
+    text: Инвертировать
+action.ShowFilterAction.popup.button.none:
+    text: Ничего
+action.ShowFilterAction.text:
+    text: Фильтр
 action.ShowIntentionActions.text:
     text: Показать контекстные действия
 action.ShowLog.description:
@@ -2048,9 +2060,9 @@ action.SplitHorizontally.description:
     text: Разделить область редактора на 2 группы вкладок и переместить текущую вкладку в нижнюю группу
 action.SplitHorizontally.text:
     text: Разделить по горизонтали
-action.SplitVertical.description:
+action.SplitVertically.description:
     text: Разделить область редактора на 2 группы вкладок и переместить текущую вкладку в правую группу
-action.SplitVertical.text:
+action.SplitVertically.text:
     text: Разделить по вертикали
 action.StartStopMacroRecording.description:
     text: Начать/остановить запись нового макроса
@@ -2175,7 +2187,7 @@ action.ToggleLineBreakpoint.text:
 action.TogglePinnedMode.description:
     text: Прикрепить/открепить активное окно инструмента
 action.TogglePinnedMode.text:
-    text: _Pinned Mode
+    text: _Прикреплённый режим
 action.TogglePopupHints.text:
     text: Переключить всплывающие подсказки для текущего файла
 action.TogglePowerSave.description:
@@ -2468,6 +2480,8 @@ action.XDebugger.JumpToTypeSource.description:
     text: Открытый исходный код выбранного типа значения
 action.XDebugger.JumpToTypeSource.text:
     text: Перейти к типу источника
+action.XDebugger.MuteBreakpoints.description:
+    text: Игнорировать все точки останова
 action.XDebugger.MuteBreakpoints.text:
     text: Отключить точки останова
 action.XDebugger.NewWatch.text:
@@ -2484,6 +2498,8 @@ action.XDebugger.ToggleSortValues.description:
     text: Сортировать значения по алфавиту в представлениях отладчика
 action.XDebugger.ToggleSortValues.text:
     text: Сортировать значения по алфавиту
+action.XDebugger.UnmuteOnStop.description:
+    text: Отменить выключение точек останова по окончании сеанса отладки
 action.XDebugger.UnmuteOnStop.text:
     text: Включить точки останова по окончании сеанса
 action.editRunConfigurations.description:
@@ -2539,9 +2555,9 @@ group.ChangeLineSeparators.text:
 group.CloseEditorsGroup.text:
     text: Действия при закрытии редактора
 group.CodeCompletionGroup.text:
-    text: _Completion
+    text: _Дополнение кода
 group.CodeEditorBaseGroup.text:
-    text: Редактор кода Просмотр действий
+    text: Действия редактора/просмотра кода
 group.CodeEditorViewGroup.text:
     text: Действия просмотра кода
 group.CodeFormatGroup.text:
@@ -2549,9 +2565,9 @@ group.CodeFormatGroup.text:
 group.CodeMenu.text:
     text: _Код
 group.CommanderViewPopupMenu.text:
-    text: Всплывающее меню вида командующего
+    text: Всплывающее меню файлового менеджера
 group.CommentGroup.text:
-    text: Комментарий Действия
+    text: Действия комментирования
 group.ConvertIndentsGroup.text:
     text: Преобразовать отступы
 group.Copy.Paste.Special.description:
@@ -2569,15 +2585,15 @@ group.DebugMainMenu.text:
 group.EditBookmarksGroup.text:
     text: _Закладки
 group.EditCreateDeleteGroup.text:
-    text: Редактор Создать/Удалить Действия
+    text: Действия Создать/Удалить в редакторе
 group.EditMenu.text:
     text: Пр_авка
 group.EditSelectGroup.text:
-    text: Действия редактора для выбора
+    text: Действия выделения в редакторе
 group.EditSelectWordGroup.text:
-    text: Выберите действие со словами
+    text: Действия выделения слова
 group.EditSmartGroup.text:
-    text: Изменить действия кода
+    text: Действия редактирования кода
 group.EditorActions.text:
     text: Действия редактора
 group.EditorBidiTextDirection.description:
@@ -2676,6 +2692,8 @@ group.MoveModuleToGroup.text:
     text: Переместить модуль в группу
 group.NavbarPopupMenu.text:
     text: Панель навигации
+group.NewElementInMenu.text:
+    text: _Создать
 group.NewGroup.text:
     text: _Создать
 group.NewGroup1.text:
@@ -2783,9 +2801,9 @@ group.ToolbarNewElement.text:
 group.ToolbarRunGroup.text:
     text: Панель инструментов «Запуск»
 group.ToolsBasicGroup.description:
-    text: Tools Basic Group
+    text: Основная группа инструментов
 group.ToolsBasicGroup.text:
-    text: Tools Basic Group
+    text: Основная группа инструментов
 group.ToolsMenu.text:
     text: С_ервис
 group.ToolsXmlGroup.text:
@@ -2846,6 +2864,8 @@ group.WeighingNewGroup.text:
     text: _Создать
 group.WindowMenu.text:
     text: _Окно
+group.XDebugger.settings.description:
+    text: Настройки
 group.XDebugger.settings.text:
     text: Настройки
 group.XmlGenerateToolsGroup.text:
