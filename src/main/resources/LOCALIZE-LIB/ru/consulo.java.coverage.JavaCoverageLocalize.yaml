@@ -5,9 +5,9 @@ coverage.classes:
 coverage.classes.capitalised:
     text: Классы
 coverage.error.jacoco.report.corrupted:
-    text: Файл отчёта Jacoco {0} может быть поврежден, попробуйте перезапустить
+    text: Файл отчёта JaCoCo {0} может быть поврежден, попробуйте перезапустить
 coverage.error.jacoco.report.format:
-    text: 'Файл не в формате отчета Jacoco: {0}'
+    text: 'Файл не в формате отчёта JaCoCo: {0}'
 coverage.pattern.filter.editor.choose.package.title:
     text: Выбрать пакет
 coverage.recompile:
