@@ -248,6 +248,8 @@ action.pin.active.tab:
     text: _Закрепить активную вкладку
 action.pin.tab:
     text: _Закрепить вкладку
+action.presentation.EncodingPanel.text:
+    text: Кодировка файла
 action.previous.message:
     text: Предыдущее сообщение
 action.previous.problem:
@@ -456,6 +458,10 @@ button.configure:
     text: '&Настроить…'
 button.configure.e:
     text: Настроить…
+button.convert:
+    text: Преобразовать
+button.convert.anyway:
+    text: Конвертировать в любом случае
 button.copy:
     text: '&Копировать'
 button.create:
@@ -506,6 +512,10 @@ button.no:
     text: _Нет
 button.ok:
     text: '&OK'
+button.reload:
+    text: Перезагрузить
+button.reload.anyway:
+    text: Перезагрузить в любом случае
 button.remove:
     text: '&Удалить'
 button.remove.action:
@@ -760,6 +770,10 @@ detach.library.from.module:
         Ни один файл на диске не будет повреждён.
 dialog.directory.for.downloaded.files.title:
     text: Загруженные файлы будут скопированы в выбранный каталог
+dialog.message.cannot.save.the.file.0:
+    text: Невозможно сохранить файл {0}
+dialog.message.incompatible.encoding:
+    text: Выбранная вами кодировка («{0}») может изменить содержимое «{1}».<br>Хотите ли вы<br>1. <b>Перезагрузить</b> файл с диска в новой кодировке «{0}» и перезаписать содержимое редактора или<br>2. <b>Преобразовать</b> текст и перезаписать файл в новой кодировке?
 dialog.title.abbreviation:
     text: Сокращение
 dialog.title.choose.color:
@@ -770,6 +784,16 @@ dialog.title.convert.module:
     text: Преобразовать модуль
 dialog.title.convert.project:
     text: Преобразовать проект
+dialog.title.error.writing.file:
+    text: Ошибка записи файла
+dialog.title.file.0.can.t.be.reloaded:
+    text: Файл «{0}» не может быть перезагружен в кодировке «{1}».{2}
+dialog.title.file.0.most.likely.isn.t.stored:
+    text: Файл «{0}» скорее всего не сохранен в кодировке «{1}».{2}
+dialog.title.go.to.line.column:
+    text: Перейти к строке:столбцу
+dialog.title.unable.to.save:
+    text: Не удалось сохранить
 diff.dialog.title:
     text: Различия между «{0}» и «{1}»
 directory.module.content.root:
@@ -837,8 +861,14 @@ element.of.class:
     text: класса
 element.of.interface:
     text: интерфейса
+encoding.do.not.convert.message:
+    text: Please do not convert to «{0}».
 encoding.name.system.default:
     text: <Системное значение по умолчанию>
+encoding.not.available:
+    text: Не определено
+encoding.unsupported.characters.message:
+    text: Кодировка «{0}» не поддерживает некоторые символы из текста.
 encodings.dialog.caption:
     text: |-
         <html>Чтобы изменить кодировку, которую {0} использует для файла или каталога, щёлкните элемент и выберите кодировку из списка кодировок по умолчанию.<br/><br/>
@@ -910,6 +940,8 @@ error.license.collision:
         Нажмите «Да» для повторной активации или «Нет» для выключения {1}.
 error.list.of.plugins.was.not.loaded:
     text: 'Список расширений не загружен: {0}'
+error.loading.package.list:
+    text: Ошибка загрузки списка пакетов:{0}
 error.malformed.url:
     text: 'Неправильный URL: {0}'
 error.message.cannot.make.files.writable:
@@ -934,6 +966,8 @@ error.name.cannot.be.empty:
     text: Название не может быть пустым
 error.name.should.be.specified:
     text: Название должно быть указано
+error.occurred.please.check.your.internet.connection:
+    text: Произошла ошибка. Проверьте подключение к интернету.
 error.parsing.file.template:
     text: 'Ошибка анализа шаблона файла: {0}'
 error.please.enter.a.file.name:
@@ -1084,7 +1118,7 @@ file.encodings.not.configured:
 file.structure.toggle.show.inherited:
     text: '&Показать унаследованные элементы'
 filetype.description.ant:
-    text: ANT buildfiles
+    text: Файлы сборки ANT
 filetype.description.class:
     text: Файлы классов Java
 filetype.description.dtd:
@@ -1098,7 +1132,7 @@ filetype.description.idea.module:
 filetype.description.idea.project:
     text: Проект Consulo
 filetype.description.idea.workspace:
-    text: Consulo Workspace
+    text: Рабочее пространство Consulo
 filetype.description.java:
     text: Исходные файлы Java
 filetype.description.jsp:
@@ -1221,6 +1255,8 @@ idea.intellij.look.and.feel:
     text: IntelliJ
 import.project.chooser.header:
     text: <html>Выбрать {0}</html>
+incompatible.encoding.dialog.title:
+    text: 'Несовместимая кодировка: {0}'
 install.package.failure:
     text: Произошла ошибка при установке пакета «{0}». <a href="xxx">Подробности...</a>
 item.file.templates:
@@ -1278,6 +1314,8 @@ label.java.source.files.have.been.found:
         Примечание: программа распознает только те исходные файлы, которые находятся в исходных каталогах.
 label.library.will.be.created.description.text:
     text: Библиотека уровня {0} <b>{1}</b> с {2} {2, choice, 1#file|2#files} будет создана
+label.line.column:
+    text: '[Строка] [:столбец]:'
 label.macro.preview:
     text: Предварительный просмотр макроса
 label.macros:
@@ -1312,6 +1350,8 @@ label.no.menu.actions.found:
     text: Действия в главном меню не найдены
 label.no.non.java.files.found:
     text: Совпадений в проекте не найдено
+label.offset:
+    text: 'Отступ:'
 label.option.appearance:
     text: 'Внешний вид: {0}'
 label.option.mouse:
@@ -1345,7 +1385,7 @@ label.plugin.vendor.name:
 label.project.files.location:
     text: 'Расположение файла &проекта:'
 label.project.jdk:
-    text: 'Project SDK:'
+    text: 'Проектная SDK:'
 label.project.name:
     text: 'Название проекта:'
 label.project.roots.have.been.found:
@@ -1360,9 +1400,9 @@ label.scope:
 label.scope.contains.files:
     text: Область содержит {0} из общего количества {1} файлов
 label.scope.editor.caret.position:
-    text: pos:{0}
+    text: поз.:{0}
 label.scope.pattern:
-    text: '&Pattern:'
+    text: '&Шаблон:'
 label.select.compiler.output.path:
     text: 'Выберите выходной путь компилятора:'
 label.select.module.type:
@@ -1523,6 +1563,8 @@ macro.prompt.preview:
     text: <параметры>
 macro.sourcepath.entry:
     text: Запись в sourcepath, к которому принадлежит элемент
+manage.repositories.dialog.title:
+    text: Управление репозиториями
 maven.repository.presentable.name:
     text: Репозиторий Maven
 message.duplicate.plugin.id:
@@ -1639,6 +1681,20 @@ new.library.file.chooser.description:
     text: Выберите файлы архива, в которых находятся файлы библиотеки
 new.library.file.chooser.title:
     text: Новые файлы библиотеки
+no.charset.set.reason.charset.auto.detected.by.bom:
+    text: кодировка автоматически определена по BOM
+no.charset.set.reason.charset.auto.detected.from.content:
+    text: кодировка автоматически определена по содержимому
+no.charset.set.reason.charset.hard.coded.in.file:
+    text: кодировка жёстко закодирована в файле
+no.charset.set.reason.disabled.for.binary.file:
+    text: отключено для двоичного файла
+no.charset.set.reason.disabled.for.directory:
+    text: отключено для каталога
+no.charset.set.reason.disabled.for.file.type:
+    text: отключено для {0}
+no.information.available:
+    text: Информация отсутствует
 node.call.hierarchy.N.usages:
     text: ({0} использований)
 node.call.hierarchy.unknown.jsp:
@@ -1679,10 +1735,36 @@ open.url.in.browser.tooltip:
     text: Открыть в браузере
 option.hide.tool.window.bars:
     text: Скрыть панели инструментов
+options.locale.auto.locale:
+    text: <авто - {0}>
 outdated.jre.version.message1:
     text: Среда выполнения Java IDE ({0}) устарела — это может вызвать проблемы со стабильностью. Пожалуйста, <a href="switch">переключитесь</a> на связанную среду выполнения Java или обновитесь до {1} или более новой версии
 outdated.jre.version.message2:
     text: Среда выполнения Java IDE ({0}) устарела — это может вызвать проблемы со стабильностью. Пожалуйста, обновитесь до {1} или более новой версии
+package.0.installed.successfully:
+    text: Пакет «{0}» успешно установлен
+package.installed.successfully:
+    text: Пакет успешно установлен
+package.successfully.uninstalled:
+    text: Пакет «{0}» успешно удалён
+package.successfully.upgraded:
+    text: Пакет «{0}» успешно обновлён
+packages.settings.latest.version:
+    text: Последняя версия
+packages.settings.loading:
+    text: Загрузка списка пакетов
+packages.settings.package:
+    text: Пакет
+packages.settings.version:
+    text: Версия
+packages.successfully.uninstalled:
+    text: Пакеты успешно удалены
+packages.title:
+    text: Пакеты
+please.edit.repository.url:
+    text: Пожалуйста, измените URL репозитория
+please.input.repository.url:
+    text: Пожалуйста, введите URL репозитория
 plugin.advestiser.notification.install.link:
     text: Установить {0,choice, 1#расширение|2#расширений}
 plugin.advestiser.notification.text:
@@ -1805,6 +1887,8 @@ progress.text.reloading.file:
     text: Перезагрузка файла…
 progress.text.reloading.files:
     text: Перезагрузка файлов…
+progress.text.stopping:
+    text: Останавливаем — {0}
 progress.title.reload.files:
     text: Перезагрузка файлов
 progress.waiting.for.reply.from.plugin.manager:
@@ -1965,7 +2049,9 @@ prompt.please.specify.java.sources.directory:
 prompt.please.specify.module.name:
     text: Укажите название модуля
 prompt.please.specify.module.name.and.content.root:
-    text: '&Название модуля:'
+    text: |-
+        Укажите имя модуля и корневой каталог содержимого модуля.
+        Корневой каталог содержимого модуля — это каталог, в котором хранятся файлы, принадлежащие модулю.
 prompt.relative.path.to.sources.empty:
     text: |-
         Относительный путь к источникам пуст.
@@ -2032,6 +2118,8 @@ recent.locations.popup.title:
     text: Недавние местоположения
 recent.locations.title.text:
     text: Показать измененные только
+repository.url.title:
+    text: URL репозитория
 run.anything.action.tooltip.text:
     text: 'Выполнение операций: открытие проектов, запуск конфигураций выполнения, выполнение заданий Maven или Gradle, выполнение команд терминала и т.д.'
 run.anything.actions.undefined:
@@ -2282,6 +2370,8 @@ show.status.bar:
     text: Показать строку состояния
 small.labels.in.editor.tabs:
     text: Небольшие метки на вкладках редактора
+status.bar.text.file.encoding:
+    text: 'Кодировка файла: {0}'
 sys.health.acknowledge.link:
     text: <br/><a href="ack">Больше не показывать</a>.
 tab.chooser.project:
@@ -2572,6 +2662,8 @@ title.warning:
     text: Предупреждение
 title.web.services:
     text: Веб-сервисы
+tooltip.line.separator:
+    text: 'Разделитель строк: {0}'
 tooltip.module.group:
     text: Группа модулей
 tooltip.syntax.linenumber.columnnumber:
