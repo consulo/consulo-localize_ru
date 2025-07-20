@@ -64,20 +64,6 @@ action.base.on.this.interface:
     text: Основан на этом интерфейсе
 action.base.on.this.method:
     text: Основывать на этом методе
-action.bookmark.delete:
-    text: Удалить закладку
-action.bookmark.edit.description:
-    text: Изменить описание
-action.bookmark.edit.description.description:
-    text: Назначьте краткое описание для закладки, которая будет отображаться вместе с названием файла
-action.bookmark.edit.description.dialog.message:
-    text: Введите краткое описание закладки
-action.bookmark.edit.description.dialog.title:
-    text: Описание закладки
-action.bookmark.toggle:
-    text: Переключить _Bookmark
-action.bookmark.toggle.mnemonic:
-    text: Переключить закладку с помощью мнемоники
 action.browse.call.hierarchy:
     text: Просмотр иерархии вызовов
 action.browse.method.hierarchy:
@@ -426,8 +412,6 @@ background.task.editor.header:
     text: '{0} : фоновая задача по изменению vfs доступна для этого файла'
 bean.property:
     text: Свойство компонента
-bookmark.file.X.line.Y:
-    text: '{0}, строка {1}'
 browsers.chrome:
     text: Chrome
 browsers.explorer:

@@ -1,2 +1,46 @@
+action.bookmark.delete:
+    text: Удалить закладку
+action.bookmark.edit.description:
+    text: Изменить описание
+action.bookmark.edit.description.description:
+    text: Назначьте краткое описание для закладки, которая будет отображаться вместе с названием файла
+action.bookmark.goto.0.text:
+    text: Перейти к закладке {0}
+action.bookmark.goto.next.description:
+    text: Перейти к следующей закладке в активном редакторе
+action.bookmark.goto.next.text:
+    text: _Следующая закладка
+action.bookmark.goto.previous.description:
+    text: Перейти к предыдущей закладке в активном редакторе
+action.bookmark.goto.previous.text:
+    text: _Предыдущая закладка
+action.bookmark.toggle.0.text:
+    text: Переключить закладку {0}
+action.bookmark.toggle.description:
+    text: Переключить закладку в текущем месте
+action.bookmark.toggle.text:
+    text: Переключить _закладку
+action.bookmark.toggle.with.mnemonic.text:
+    text: Переключить закладку с мнемоникой
+action.bookmarks.show.description:
+    text: Показать список всех закладок
+action.bookmarks.show.text:
+    text: _Показать закладки
+bookmark.file.X.line.Y:
+    text: '{0}, строка {1}'
+dialog.bookmark.add.with.mnemonic.title:
+    text: Добавить закладку с мнемоникой
+dialog.bookmark.edit.description.message:
+    text: Введите краткое описание закладки
+dialog.bookmark.edit.description.title:
+    text: Описание закладки
+tooltip.bookmark:
+    text: Закладка
+tooltip.bookmark.0:
+    text: Закладка {0}
+tooltip.bookmark.0.with.description:
+    text: 'Закладка {0}: {1}'
+tooltip.bookmark.with.description:
+    text: 'Закладка: {0}'
 toolwindow.bookmarks.display.name:
     text: Закладки
