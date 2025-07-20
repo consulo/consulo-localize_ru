@@ -2,6 +2,12 @@ action.Debugger.PopFrame.description:
     text: Перемещает точку выполнения обратно к вызову метода, удаляя текущие кадры метода из стека
 action.Debugger.PopFrame.text:
     text: Сбросить _кадр
+action.choose.debug.configuration.popup.description:
+    text: Выбрать и отладить конфигурацию
+action.choose.debug.configuration.popup.text:
+    text: Отладить…
+action.memory.view.settings.text:
+    text: Настройки просмотра памяти
 action.next.frame.text:
     text: Следующий кадр
 action.previous.frame.text:
@@ -16,6 +22,8 @@ debugger.configurable.display.name:
     text: Отладчик
 debugger.dataViews.display.name:
     text: Представления данных
+debugger.evaluate.expression.or.add.a.watch.hint:
+    text: Вычислить выражение ({0}) или добавить отслеживание ({1})
 debugger.frames.not.available:
     text: Кадры недоступны
 debugger.hotswap.display.name:
@@ -26,6 +34,8 @@ debugger.no.results:
     text: Введите выражение и нажмите «Enter»
 debugger.no.watches:
     text: Нет отслеживаний
+debugger.result.node.name:
+    text: результат
 debugger.runner.start.action.text:
     text: '&Отладка'
 debugger.runner.start.action.text.0:
@@ -68,6 +78,30 @@ load.value.task.error:
     text: 'Невозможно загрузить значение: {0}'
 load.value.task.text:
     text: Загрузка значения
+memory.instances.close.text:
+    text: Закрыть
+memory.unable.to.get.instances.of.class:
+    text: Невозможно получить экземпляры класса {0}
+memory.view.empty.running:
+    text: Остановитесь на точке останова, чтобы загрузить список класса
+memory.view.empty.stopped:
+    text: Классы недоступны
+memory.view.instances.dialog.title:
+    text: Экземпляры {0}
+memory.view.instances.dialog.title.warning:
+    text: 'Экземпляры {0}. Предупреждение: {1}'
+memory.view.instances.warning.not.all.loaded:
+    text: Не все экземпляры будут загружены (только {0})
+memory.view.load.classes:
+    text: Загрузить классы
+memory.view.no.classes.loaded:
+    text: Классы не загружены.
+memory.view.table.column.name.class:
+    text: Класс
+memory.view.table.column.name.count:
+    text: Количество
+memory.view.table.column.name.diff:
+    text: Diff
 node.test.show.full.value:
     text: … Просмотр
 node.text.ellipsis.0.more.nodes.double.click.to.show:
