@@ -815,6 +815,8 @@ dnd.with.alt.pressed.only:
     text: Перетаскивание только с нажатой клавишей ALT
 dom.elements.tree.childs.contain.errors:
     text: Дочерние элементы содержат ошибки
+double.ctrl.or.shift.shortcut:
+    text: Двойной {0}
 dumb.service.indexing.paused.due.to:
     text: Индексирование приостановлено из-за {0}
 eap.configurable.name:
@@ -861,6 +863,18 @@ element.of.class:
     text: класса
 element.of.interface:
     text: интерфейса
+empty.text.drop.files.to.open:
+    text: Перетащите файлы сюда, чтобы открыть их
+empty.text.go.to.file:
+    text: Перейти к файлу
+empty.text.navigation.bar:
+    text: Навигационная строка
+empty.text.project.view:
+    text: Окно проекта
+empty.text.recent.files:
+    text: Недавние файлы
+empty.text.search.everywhere:
+    text: Искать везде
 encoding.do.not.convert.message:
     text: Please do not convert to «{0}».
 encoding.name.system.default:
