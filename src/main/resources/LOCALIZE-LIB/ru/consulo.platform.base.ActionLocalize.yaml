@@ -1062,26 +1062,6 @@ action.GotoAspect.description:
     text: Перейти к объявлению совета, ошибки или предупреждения, которое влияет на точку соединения у курсора
 action.GotoAspect.text:
     text: _Аспект
-action.GotoBookmark0.text:
-    text: Перейти к закладке 0
-action.GotoBookmark1.text:
-    text: Перейти к закладке 1
-action.GotoBookmark2.text:
-    text: Перейти к закладке 2
-action.GotoBookmark3.text:
-    text: Перейти к закладке 3
-action.GotoBookmark4.text:
-    text: Перейти к закладке 4
-action.GotoBookmark5.text:
-    text: Перейти к закладке 5
-action.GotoBookmark6.text:
-    text: Перейти к закладке 6
-action.GotoBookmark7.text:
-    text: Перейти к закладке 7
-action.GotoBookmark8.text:
-    text: Перейти к закладке 8
-action.GotoBookmark9.text:
-    text: Перейти к закладке 9
 action.GotoClass.description:
     text: Быстро перейти к классу по названию
 action.GotoClass.text:
@@ -1102,18 +1082,10 @@ action.GotoLine.description:
     text: Перейти к строке в редакторе по её номеру
 action.GotoLine.text:
     text: _Строка…
-action.GotoNextBookmark.description:
-    text: Перейти к следующей закладке в активном редакторе
-action.GotoNextBookmark.text:
-    text: _Следующая закладка
 action.GotoNextError.description:
     text: Переход к следующей подсвеченной ошибке в активном редакторе
 action.GotoNextError.text:
     text: _Следующая подсвеченная ошибка
-action.GotoPreviousBookmark.description:
-    text: Перейти к предыдущей закладке в активном редакторе
-action.GotoPreviousBookmark.text:
-    text: _Предыдущая закладка
 action.GotoPreviousError.description:
     text: Перейти к предыдущей подсвеченной ошибке в активном редакторе
 action.GotoPreviousError.text:
@@ -1960,10 +1932,6 @@ action.ShowBackwardPackageDeps.description:
     text: Просмотреть код, в котором используется выбранный элемент анализа
 action.ShowBackwardPackageDeps.text:
     text: _Обратные зависимости…
-action.ShowBookmarks.description:
-    text: Показать список всех закладок
-action.ShowBookmarks.text:
-    text: _Показать закладки
 action.ShowContent.description:
     text: Показать всплывающее окно со списком вкладок окна инструментов
 action.ShowContent.text:
@@ -2132,30 +2100,6 @@ action.TextComponent.ClearAction.description:
     text: Очистить текст в текстовых компонентах
 action.TextComponent.ClearAction.text:
     text: Открытый текст
-action.ToggleBookmark.description:
-    text: Переключить закладку в текущем месте
-action.ToggleBookmark.text:
-    text: Переключить _закладку
-action.ToggleBookmark0.text:
-    text: Переключить закладку 0
-action.ToggleBookmark1.text:
-    text: Переключить закладку 1
-action.ToggleBookmark2.text:
-    text: Переключить закладку 2
-action.ToggleBookmark3.text:
-    text: Переключить закладку 3
-action.ToggleBookmark4.text:
-    text: Переключить закладку 4
-action.ToggleBookmark5.text:
-    text: Переключить закладку 5
-action.ToggleBookmark6.text:
-    text: Переключить закладку 6
-action.ToggleBookmark7.text:
-    text: Переключить закладку 7
-action.ToggleBookmark8.text:
-    text: Переключить закладку 8
-action.ToggleBookmark9.text:
-    text: Переключить закладку 9
 action.ToggleBreakpointEnabled.description:
     text: Включить/отключить точку останова на текущей строке
 action.ToggleBreakpointEnabled.text:
