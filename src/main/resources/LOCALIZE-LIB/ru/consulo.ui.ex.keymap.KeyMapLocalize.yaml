@@ -79,17 +79,17 @@ shortcuts.keymap.label:
 shortcuts.keymap.no.shortcuts:
   text: Нет shortcuts
 add.keymap.label:
-  text: A&dd
+  text: &Добавить
 remove.keymap.label:
-  text: Remove
+  text: &Убрать
 unnamed.list.display.name:
-  text: unnamed
+  text: безымянный
 copy.keymap.button:
   text: '&Копировать'
 delete.keymap.button:
-  text: Удалить
+  text: &Удалить
 use.non.english.keyboard.layout.support:
-  text: la&yout support
+  text: &поддержка макета
 parent.keymap.label:
   text: 'Родительская раскладка:'
 disable.mnemonic.in.menu.check.box:
@@ -145,7 +145,7 @@ delete.keymap.dialog.message:
 delete.keymap.dialog.title:
   text: Предупреждение
 keymap.noname.presentable.name:
-  text: <unnamed>
+  text: <безымянный>
 quick.list.panel.move.down.button:
   text: Переместить &вниз
 quick.list.panel.move.up.button:
