@@ -1,0 +1,1210 @@
+action.NotificationAction.VcsRootProblemNotifier.text.configure:
+    text: Настроить…
+action.NotificationAction.VcsRootProblemNotifier.text.enable.integration:
+    text: Включить интеграцию
+action.NotificationAction.VcsRootProblemNotifier.text.ignore:
+    text: Игнорировать
+action.description.compare:
+    text: Сравнить версии
+action.description.compare.with.local:
+    text: Сравнить с локальной версией
+action.description.create.patch.for.selected.revisions:
+    text: Создаёт исправление для выбранных ревизий
+action.description.get.file.content.from.repository:
+    text: Получить версию из репозитория
+action.desctiption.refresh:
+    text: Обновить историю файлов
+action.display.name.check.scope.status:
+    text: Проверить статус {0}
+action.display.name.integrate.scope:
+    text: Интегрировать {0}
+action.display.name.update:
+    text: Обновить
+action.display.name.update.scope:
+    text: Обновить {0}
+action.enable.version.control.integration.text:
+    text: _Включить интеграцию с системой контроля версий...
+action.force.push:
+    text: '&Принудительная отправка'
+action.force.push.can.be.enabled.description:
+    text: <b>Принудительная отправка</b> может быть включена в настройках
+action.force.push.confirmation.text:
+    text: Вы собираетесь выполнить принудительную отправку. Это может перезаписать коммиты на удалённом сервере. Вы уверены, что хотите продолжить?
+action.force.push.is.prohibited.description:
+    text: Принудительная отправка в <b>{0}</b> запрещена.
+action.force.push.to.confirmation.text:
+    text: Вы собираетесь принудительно отправить в {0}. Это может перезаписать коммиты на удалённом сервере. Вы уверены, что хотите продолжить?
+action.name.check.scope.status:
+    text: Состояние Chec_k {0}
+action.name.check.status:
+    text: Состояние Chec_k
+action.name.checkin.directories:
+    text: 'Каталоги {0}'
+action.name.checkin.directory:
+    text: 'Каталог {0}'
+action.name.checkin.file:
+    text: 'Файл {0}'
+action.name.checkin.files:
+    text: 'Файлы {0}'
+action.name.commit.project:
+    text: Закоммитить изменения
+action.name.compare:
+    text: Сравнить
+action.name.compare.with.local:
+    text: Сравнить с локальным
+action.name.copy.old.text:
+    text: Копировать старый текст
+action.name.create.patch.for.selected.revisions:
+    text: Создать патч…
+action.name.file.history:
+    text: История файла {0}
+action.name.file.history.dir:
+    text: История каталога {0}
+action.name.for.file.get.version:
+    text: '{0}: Получить версию {1}'
+action.name.get.file.content.from.repository:
+    text: Получить
+action.name.group.by.packages:
+    text: Группировать по пакетам
+action.name.integrate:
+    text: Интегрировать
+action.name.integrate.scope:
+    text: Интегрировать {0}
+action.name.refresh:
+    text: Обновить
+action.name.rollback:
+    text: Откат
+action.name.show.difference:
+    text: Показать разницу
+action.name.show.files.as.tree:
+    text: Показать в виде дерева
+action.name.show.history.for.class:
+    text: Класс
+action.name.show.history.for.code.block:
+    text: Блок кода
+action.name.show.history.for.field:
+    text: Поле
+action.name.show.history.for.function:
+    text: Функция
+action.name.show.history.for.method:
+    text: Метод
+action.name.show.history.for.selection:
+    text: Выделение
+action.name.show.history.for.statement:
+    text: Оператор
+action.name.show.history.for.tag:
+    text: Тег
+action.name.show.history.for.text:
+    text: Текст
+action.name.update:
+    text: _Обновить
+action.name.update.scope:
+    text: _Обновить {0}
+action.push:
+    text: '&Отправить'
+action.revert.selected.changes.text:
+    text: Откатить выбранные изменения
+acton.name.get.revision:
+    text: Получить ревизию
+add.confirmation.label.text:
+    text: 'При создании файлов с помощью {0}:'
+all.vcs.init.message.text:
+    text: Инициализация VCS...
+annotate.action.description:
+    text: Добавить аннотацию к файлу
+annotate.action.name:
+    text: Добавить аннотацию
+annotation.commit.number:
+    text: Номер коммита
+annotation.original.revision.text:
+    text: 'Ревизия: {0}'
+annotation.switch.to.merged.text:
+    text: Показать источники слияния
+annotation.switch.to.original.text:
+    text: Скрыть источники слияния
+annotation.wrong.line.number.notification.text:
+    text: <html>Количество строк, аннотированных {0}, не равно количеству строк в файле. Проверьте кодировку файла и разделители строк.</html>
+apply.patch.create.dirs.prompt.footer:
+    text: Создать каталоги?
+apply.patch.create.dirs.prompt.header:
+    text: "Патч содержит файлы в следующих несуществующих каталогах:\n"
+apply.patch.progress.verifying:
+    text: Проверка...
+apply.patch.summary.title:
+    text: 'Краткое содержание:'
+background.operations.title:
+    text: Фоновые операции
+before.checkin.cleanup.code:
+    text: Очистка
+before.checkin.new.todo.check:
+    text: Проверка TODO ({0})
+before.checkin.new.todo.check.title:
+    text: Проверка TODO
+before.checkin.standard.options.check.smells:
+    text: Выполнить анализ кода
+before.commit.files.contain.code.smells.edit.them.confirm.text:
+    text: |-
+        Некоторые файлы содержат проблемы.
+        Найдено {0,choice, 0#ноль ошибок|1#одна ошибка|2#{0} ошибок} и {1,choice, 0#ноль предупреждений|1#одно предупреждение|2#{1} предупреждений}.
+        Хотите просмотреть их?
+border.changes.filter.change.number.filter:
+    text: Изменение
+border.changes.filter.date.filter:
+    text: Дата
+border.display.dialog.for.files.creation.deletion:
+    text: Создание/удаление файлов
+border.display.dialog.when.commands.invoked:
+    text: Отображать диалоговое окно параметров при вызове этих команд
+border.selected.revision.commit.message:
+    text: Комментарий к коммиту
+border.standard.after.checkin.options.group:
+    text: После {0}
+border.standard.checkin.options.group:
+    text: До {0}
+browse.changes.action:
+    text: Просмотреть изменения
+browse.changes.content.title:
+    text: Изменения в разделе {0}
+browse.changes.error.message:
+    text: 'Проблема с доступом к системе контроля версий: {0}'
+browse.changes.error.title:
+    text: Невозможно показать изменения
+browse.changes.filter.title:
+    text: Укажите критерии поиска
+browse.changes.no.filter.prompt:
+    text: Вы не указали критерии фильтрации. Вы уверены, что хотите просмотреть всю историю проекта?
+browse.changes.nothing.found:
+    text: Изменений, соответствующих критериям, не найдено.
+browse.changes.nothing.found.title:
+    text: Изменений не найдено.
+browse.changes.progress.title:
+    text: Поиск изменений.
+browse.changes.scope:
+    text: Изменения, затрагивающие {0}.
+browse.changes.show.all.button:
+    text: Показать все изменения.
+browse.changes.show.recent.button:
+    text: Показать последние изменения.
+browse.changes.title:
+    text: Просмотреть изменения
+button.configure:
+    text: '&Настроить VCS...'
+button.configure.history.cache:
+    text: Настроить &кэш истории...
+button.configure.ignored.files:
+    text: Настроить &игнорируемые файлы...
+button.search.again:
+    text: Искать снова
+button.text.overwrite.modified.file:
+    text: '&Перезаписать изменённый файл'
+button.text.overwrite.modified.files:
+    text: '&Перезаписать изменённые файлы'
+cache.settings.dialog.title:
+    text: Настройки кэша истории VCS
+cannot.apply.file.already.exists:
+    text: 'Невозможно применить исправление к файлу {0}: он уже существует.'
+cannot.find.file.to.patch:
+    text: 'Не удалось найти файл для исправления: {0}'
+change.file.copied.from.text:
+    text: '- скопирован из {0}'
+change.file.moved.from.text:
+    text: '- перемещён из {0}'
+change.file.moved.to.text:
+    text: '- перемещён в {0}'
+change.file.renamed.from.text:
+    text: '- переименован из {0}'
+change.file.renamed.to.text:
+    text: '- переименован в {0}'
+change.file.replaced.text:
+    text: '- заменён'
+change.list.manager.wait.lists.synchronization:
+    text: '{0}: Обновление локальных изменений'
+change.lists.manager.add.unversioned:
+    text: Добавить неверсионированные файлы
+change.lists.manager.move.changes.to.list:
+    text: Переместить изменения в список
+change.nodetitle.change.is.outdated:
+    text: Файл изменён на сервере
+change.type.deleted:
+    text: Удалён
+change.type.modified:
+    text: Изменён
+change.type.new:
+    text: Добавлен
+changelist.details.committed.format:
+    text: Закоммичено пользователем {0} {1}
+changelist.details.title:
+    text: Подробности списка изменений
+changes.action.rollback.custom.title:
+    text: 'Изменения {0}'
+changes.action.rollback.description:
+    text: Откат изменений
+changes.action.rollback.nothing:
+    text: Ничего не делать в {0}
+changes.action.rollback.text:
+    text: Откат
+changes.action.rollback.title:
+    text: '{0} Изменения'
+changes.action.setdefaultchangelist.description:
+    text: Установить список изменений, в который по умолчанию будут помещаться новые изменения
+changes.action.setdefaultchangelist.text:
+    text: Установить активный список изменений
+changes.action.show.directories.description:
+    text: Группировать изменения по каталогам и модулям
+changes.action.show.directories.text:
+    text: Группировать по каталогу
+changes.action.show.ignored.description:
+    text: Показать игнорируемые файлы
+changes.action.show.ignored.text:
+    text: Показать игнорируемые файлы
+changes.browser.details.marker:
+    text: Подробнее…
+changes.changelist.chooser.existing.changelist:
+    text: &Существующий список изменений
+changes.changelist.chooser.new.changelist:
+    text: &Новый список изменений
+changes.changelist.chooser.title:
+    text: Выбрать список изменений
+changes.checkbox.delete.locally.added.files:
+    text: '&Удалить локальные копии добавленных файлов'
+changes.commit.partial.offer.to.move.text:
+    text: |-
+        Вы исключили некоторые файлы из активного списка изменений при коммите.
+        Хотите ли вы перенести оставшиеся изменения в другой список изменений?
+changes.commit.partial.offer.to.move.title:
+    text: Частичный коммит активного списка изменений
+changes.default.changelist.name:
+    text: По умолчанию
+changes.dialog.editchangelist.error.already.exists:
+    text: Список изменений с названием «{0}» уже существует
+changes.dialog.editchangelist.title:
+    text: Редактировать список изменений
+changes.dialog.newchangelist.title:
+    text: Новый список изменений
+changes.newchangelist.warning.already.exists.text:
+    text: Список изменений «{0}» уже существует.
+changes.newchangelist.warning.already.exists.title:
+    text: Неверное название списка изменений
+changes.nodetitle.changecount:
+    text: ({0,choice, 0#Нет файлов|1#1 файл|2#{0} файлов})
+changes.nodetitle.directory.changecount:
+    text: ({0,choice, 0#Нет каталогов|1#1 каталог|2#{0} каталогов})
+changes.nodetitle.directory.file.changecount:
+    text: ({0,choice, 0#Нет каталогов|1#1 каталог|2#{0} каталогов} и {1,choice, 0#Нет файлов|1#1 файл|2#{1} файлов})
+changes.nodetitle.have.outdated.files:
+    text: Некоторые файлы изменены на сервере
+changes.nodetitle.ignored.files:
+    text: Игнорируемые файлы
+changes.nodetitle.locally.deleted.files:
+    text: Локально удалённые файлы
+changes.nodetitle.locked.folders:
+    text: Заблокированные каталоги рабочей копии
+changes.nodetitle.locked.folders.tooltip:
+    text: Некоторые каталоги заблокированы; операции VCS для них запрещены. Необходимо выполнить очистку.
+changes.nodetitle.logicallt.locked.folders:
+    text: Явно заблокированные файлы
+changes.nodetitle.modified.without.editing:
+    text: Изменено без извлечения
+changes.nodetitle.switched.files:
+    text: Переключённые файлы
+changes.nodetitle.switched.roots:
+    text: Переключения корней
+changes.nodetitle.unversioned.files:
+    text: Неверсированные файлы
+changes.nodetitle.updating:
+    text: (обновление...)
+changes.remove.active.empty.prompt:
+    text: 'Выберите список изменений, который нужно сделать активным:'
+changes.remove.active.prompt:
+    text: 'Выберите список изменений, в который следует перенести изменения:'
+changes.remove.active.title:
+    text: Удалить активный список изменений
+changes.removechangelist.multiple.warning.text:
+    text: |-
+        Вы уверены, что хотите удалить {0} списков изменений?
+        Все изменения будут перенесены в активный список изменений.
+changes.removechangelist.warning.text:
+    text: |-
+        Вы уверены, что хотите удалить список изменений «{0}»?
+        Все изменения будут перенесены в активный список изменений.
+changes.removechangelist.warning.title:
+    text: Удалить список изменений
+changes.toolwindow.name:
+    text: Изменения
+changes.update.progress.message:
+    text: 'Обновление: {0}'
+changes.view.dnd.label:
+    text: 'Файл(ы) {0}'
+checkbox.changelist.move.offer:
+    text: Предложить переместить незакоммиченные изменения в другой список изменений
+checkbox.checkin.options.check.files.up.to.date:
+    text: Проверить состояние удалённого доступа
+checkbox.checkin.options.optimize.imports:
+    text: '&Оптимизировать импорт'
+checkbox.checkin.options.rearrange.code:
+    text: Изменить порядок кодов
+checkbox.checkin.options.reformat.code:
+    text: '&Переформатировать код'
+checkbox.force.non.empty.messages:
+    text: Принудительно добавлять непустые комментарии
+checkbox.show.changed.revisions.only:
+    text: Только изменения
+checkbox.show.changes.after.date:
+    text: '&После'
+checkbox.show.changes.after.num:
+    text: '&От'
+checkbox.show.changes.before.date:
+    text: '&До'
+checkbox.show.changes.before.num:
+    text: '&До:'
+checkbox.show.clear.read.only.status.dialog:
+    text: Показать диалоговое окно «Очистить статус только для чтения»
+checking.code.smells.progress.title:
+    text: Выполнение анализа кода
+checkout.create.project.prompt:
+    text: Хотите создать проект для исходиков, которые вы извлекли в {0}?
+checkout.open.directory.prompt:
+    text: Хотите открыть каталог {0}?
+checkout.open.project.prompt:
+    text: |-
+        Вы извлекли известный файл проекта Consulo:
+        {0}
+        Хотите открыть его?
+checkout.title:
+    text: Извлечь из системы контроля версий
+close.tab.action.name:
+    text: Закрыть
+code.smells.error.messages.tab.name:
+    text: Анализ кода
+code.smells.review.button:
+    text: '&Проверить'
+column.info.configure.vcses.directory:
+    text: Каталог
+column.name.configure.vcses.vcs:
+    text: Система контроля версий
+column.name.revision.date:
+    text: Дата
+column.name.revision.list.author:
+    text: Автор
+column.name.revision.list.committer:
+    text: Пользователь
+column.name.revision.list.date:
+    text: Дата
+column.name.revision.list.description:
+    text: Описание
+column.name.revision.list.message:
+    text: Сообщение
+column.name.revision.list.number:
+    text: Номер
+column.name.revision.list.revision:
+    text: Ревизия
+column.name.revision.version:
+    text: Версия
+column.name.revisions.list.branch:
+    text: Ветвь
+column.name.revisions.list.filter:
+    text: Дата
+column.name.type:
+    text: Тип
+command.name.open.error.message.view:
+    text: Открыть окно сообщения
+command.name.rollback.change:
+    text: Откатить изменение
+commit.dialog.changed.files.label:
+    text: Изменённые &файлы
+commit.dialog.changelist.label:
+    text: 'Список &изменений:'
+commit.dialog.completed.successfully:
+    text: Успешно завершено
+commit.dialog.default.commit.operation.name:
+    text: &Коммит
+commit.dialog.failed.commit.template:
+    text: 'Не удалось закоммитить: {0}'
+commit.dialog.include.action.name:
+    text: Включить в коммит
+commit.dialog.no.changes.detected.text:
+    text: Изменения не обнаружены
+commit.dialog.no.changes.detected.title:
+    text: Нечего коммитить
+commit.dialog.refresh.files:
+    text: Синхронизация файлов...
+commit.dialog.rejected.commit.template:
+    text: 'Отклонённый коммит: {0}'
+commit.dialog.title:
+    text: Коммит изменений
+commit.failed.confirm.prompt:
+    text: Переместить в отдельный список изменений файлы, которые не удалось закоммитить?
+commit.failed.confirm.title:
+    text: Не удалось выполнить коммит
+commit.legend.deleted:
+    text: 'Удалено:'
+commit.legend.modified:
+    text: 'Изменено:'
+commit.legend.new:
+    text: 'Создано:'
+commit.legend.unversioned:
+    text: 'Неверсионируемые:'
+commit.wait.util.synced.message:
+    text: Дождитесь завершения синхронизации с VCS.
+commit.wait.util.synced.title:
+    text: Завершение обновления VCS
+commit.wait.util.synched.text:
+    text: Выполнение обновления VCS…
+committed.changes.empty.comment:
+    text: <без комментария>
+committed.changes.empty.message:
+    text: В репозитории нет зафиксированных изменений
+committed.changes.filter.all:
+    text: Все
+committed.changes.filter.none:
+    text: <нет>
+committed.changes.filter.title:
+    text: Фильтровать по
+committed.changes.group.title:
+    text: Группировать по
+committed.changes.incorrect.regex.message:
+    text: Используемое в фильтре регулярное выражение ненекорректно
+committed.changes.not.loaded.message:
+    text: Нажмите кнопку «Обновить», чтобы загрузить изменения в репозитории
+committed.changes.partial.list:
+    text: '[частично]'
+committed.changes.refresh.progress:
+    text: Обновление истории VCS
+committed.changes.regex.title:
+    text: Регулярное выражение
+composite.change.provider.include.vcs.checkbox:
+    text: Включить изменения из {0}
+configuration.commit.message.margin.prompt:
+    text: 'Правое поле сообщения о коммите (столбцы):'
+configuration.commit.message.margin.title:
+    text: Правое поле сообщения о коммите
+configuration.tab.name.general.settings:
+    text: Общие настройки
+confirmation.text.add.file:
+    text: |-
+        Хотите запланировать добавление следующего файла в систему контроля версий?
+        {0}
+confirmation.text.check.in.with.empty.comment:
+    text: Зарегистрировать с пустым комментарием?
+confirmation.title.add.file:
+    text: Запланировать добавление
+confirmation.title.add.multiple.files:
+    text: Выберите файлы для добавления в систему контроля версий
+confirmation.title.check.in.with.empty.comment:
+    text: Комментарий пуст
+create.changelist.on.failed.commit:
+    text: 'Создать список изменений при неудачном коммите:'
+create.patch.all.binary:
+    text: Все выбранные файлы являются двоичными. Двоичные файлы не могут быть включены в патчи. Патч не создан.
+create.patch.base.revision:
+    text: '&Включить текст(ы) базовой версии в файл патча'
+create.patch.commit.action.title:
+    text: Создать патч
+create.patch.encoding:
+    text: 'Кодировка:'
+create.patch.error.title:
+    text: 'Ошибка создания патча: {0}'
+create.patch.file.path:
+    text: '&Файл патча:'
+create.patch.loading.content.progress:
+    text: Загрузка версий контента
+create.patch.partial.success.confirmation:
+    text: Успешно создан патч {0}. {1} из выбранных файлов {1,choice,1#является|2#являются} двоичными, и не {1,choice,1#включён|2#включены} в патч.
+create.patch.reverse.checkbox:
+    text: '&Отменить патч'
+create.patch.success.confirmation:
+    text: Патч {0} успешно создан
+current.version.text:
+    text: '{4}<br/><br/>Текущая версия: {3}.<br/>Изменено {0}<br/>{1}<br/>{2}'
+date.group.last.week:
+    text: Прошлая неделя
+date.group.title:
+    text: Дата
+date.group.today:
+    text: Сегодня
+delete.all.already.unshelved:
+    text: Удалить все не отложенные
+delete.all.already.unshelved.confirmation:
+    text: |-
+        Удалить все не отложенные списки изменений?
+        Эту операцию нельзя отменить.
+dialog.enable.version.control.integration.hint.text:
+    text: 'Настройка контроля версий доступна по адресу: «Настройки | Контроль версий»'
+dialog.enable.version.control.integration.select.vcs.label.text:
+    text: |-
+        Выберите систему контроля версий,
+        чтобы ваш <Корень проекта> находился в:
+dialog.enable.version.control.integration.title:
+    text: Включить интеграцию с системой контроля версий
+dialog.title.changes.browser:
+    text: Просмотр изменений
+dialog.title.choose.commit.message.from.history:
+    text: История сообщений о коммите
+dialog.title.clear.read.only.file.status:
+    text: Очистить статус «Только для чтения»
+dialog.title.diff.for.range:
+    text: Различия для диапазона
+dialog.title.history.for.file:
+    text: История для файла {0}
+dialog.title.version.control.configurations:
+    text: Настройки системы контроля версий
+diff.commit.message.title:
+    text: Коммит Сообщение
+diff.content.title.current.range:
+    text: Текущий
+diff.content.title.repository.version:
+    text: '{0} (Версия репозитория)'
+diff.content.title.revision.number:
+    text: Версия {0}
+diff.content.title.up.to.date:
+    text: Базовая версия
+diff.title.local:
+    text: Локальный
+diff.title.local.with.number:
+    text: Локальный ({0})
+diff.type.name.added:
+    text: Добавлен
+diff.type.name.deleted:
+    text: Удалён
+diff.type.name.modified:
+    text: Изменён
+diff.unknown.file.type.associate:
+    text: Связать
+diff.unknown.file.type.prompt:
+    text: Файл «{0}» не относится к известному типу файлов. Хотите связать его с каким-то типом файлов?
+diff.unknown.file.type.title:
+    text: Невозможно показать различия
+diff.unknown.path.title:
+    text: Неизвестное различие
+directory.mapping.add.title:
+    text: Добавить сопоставление каталогов VCS
+directory.mapping.remove.title:
+    text: Изменить сопоставление каталогов VCS
+edit.changelist.description:
+    text: '&Комментарий:'
+edit.changelist.name:
+    text: '&Название:'
+edit.errors:
+    text: Ошибки редактирования
+error.adding.files.prompt:
+    text: 'При добавлении файлов произошли следующие проблемы:'
+error.adding.files.title:
+    text: Ошибка добавления файлов
+error.executing.commit:
+    text: 'Ошибка выполнения «''{0}''»: {1}'
+error.updating.changes:
+    text: 'Ошибка обновления изменений: {0}'
+exception.text.file.should.be.directory:
+    text: '{0} не является каталогом'
+exception.text.internal.error.method.should.not.be.called:
+    text: Не должнен был вызываться
+exception.text.internal.errror.could.not.implement.method:
+    text: Не удалось реализовать
+exception.text.unknown.error:
+    text: Неизвестная ошибка
+file.status.name.added:
+    text: Добавлен
+file.status.name.deleted:
+    text: Удален
+file.status.name.deleted.from.file.system:
+    text: Удалён из файловой системы
+file.status.name.hijacked:
+    text: Перехвачен
+file.status.name.ignored:
+    text: Игнорируется
+file.status.name.merged:
+    text: Объединён
+file.status.name.merged.with.both.conflicts:
+    text: Объединён с конфликтами текста и свойств
+file.status.name.merged.with.conflicts:
+    text: Объединён с конфликтами
+file.status.name.merged.with.property.conflicts:
+    text: Объединён со конфликтом свойств
+file.status.name.modified:
+    text: Изменён
+file.status.name.obsolete:
+    text: Устарел
+file.status.name.suppressed:
+    text: Подавлен
+file.status.name.switched:
+    text: Переключён
+file.status.name.unknown:
+    text: Неизвестно
+file.status.name.up.to.date:
+    text: Актуален
+file.status.name.up.to.date.immediate.children:
+    text: Имеются изменённые дочерние элементы
+file.status.name.up.to.date.recursive.children:
+    text: Имеются изменённые потомки
+filter.structure.name:
+    text: Структура
+get.committed.changes.intersecting.prompt:
+    text: |-
+        Файлы в выбранн{1,choice, 1#ом списке|2#ых списках} изменений также изменены в {0} друг{0,choice, 1#ом списке|2#их списках} изменений.
+        Изменения в выбранных файлах из этих списков изменений также будут загружены.
+get.committed.changes.title:
+    text: Получить список изменений
+group.name.version.control:
+    text: '&VCS'
+handle.ro.file.status.type.using.file.system:
+    text: Использует файловую систему
+handle.ro.file.status.type.using.vcs:
+    text: Использует {0}
+highlight.annotation.after.description:
+    text: Выделяет ревизии, следующие за выбранной или равные ей.
+highlight.annotation.after.not.selected.text:
+    text: Показать после...
+highlight.annotation.after.selected.text:
+    text: Показать после ({0})
+highlight.annotation.before.description:
+    text: Выделяет ревизии, следующие за выбранной или равные ей.
+highlight.annotation.before.not.selected.text:
+    text: Показать до...
+highlight.annotation.before.selected.text:
+    text: Показать до ({0})
+history.copy.revision.number:
+    text: Копировать номер версии
+history.empty:
+    text: История пуста
+ignored.configure.item.directory:
+    text: 'Каталог: {0}'
+ignored.configure.item.file:
+    text: 'Файл: {0}'
+ignored.configure.item.mask:
+    text: 'Маска: {0}'
+ignored.configure.title:
+    text: Настроить игнорируемые файлы
+ignored.edit.multiple.directories:
+    text: Выбрано {0} каталогов
+ignored.edit.multiple.files:
+    text: Выбрано {0} файлов
+ignored.edit.radio.directory:
+    text: Игнорировать все файлы в
+ignored.edit.radio.file:
+    text: Игнорировать указанный &файл
+ignored.edit.radio.mask:
+    text: Игнорировать все &соответствующие файлы
+ignored.edit.title:
+    text: Игнорировать неверсионированные файлы
+impl.vcs.initialization:
+    text: Инициализация системы контроля версий
+incoming.changes.empty.message:
+    text: Нет входящих изменений
+incoming.changes.indicator.tooltip:
+    text: '{0} входящих списков изменений доступно'
+incoming.changes.loading.progress:
+    text: Загрузка входящих изменений
+incoming.changes.not.loaded.message:
+    text: Нажмите кнопку «Обновить», чтобы загрузить входящие изменения.
+incoming.changes.refresh.progress:
+    text: Обновление входящих изменений.
+issue.link.add.title:
+    text: Добавить ссылку навигации по задаче.
+issue.link.delete.prompt:
+    text: Удалить выбранную ссылку навигации?
+issue.link.delete.title:
+    text: Удалить ссылку для навигации по задаче
+issue.link.edit.title:
+    text: Изменить ссылку для навигации по задаче
+issue.link.issue.column:
+    text: Задача
+issue.link.link.column:
+    text: Ссылка
+issue.link.no.patterns:
+    text: Шаблоны не настроены
+label.after.creation.:
+    text: 'При создании файлов с помощью Consulo:'
+label.after.deletion.group:
+    text: 'При удалении файлов с помощью Consulo:'
+label.commit.comment:
+    text: '&Сообщение о коммите'
+label.configure.vcses.available.vcses:
+    text: 'Настроить доступные системы контроля версий:'
+label.relative.project.path.presentation:
+    text: <Проект>/{0}
+label.selected.revision.commit.message:
+    text: Сообщение о коммите
+label.text.when.files.are.deleted.with.idea:
+    text: 'При удалении файлов с помощью {0}:'
+label.text.when.files.created.with.idea:
+    text: 'При создании файлов с помощью {0}:'
+line.annotation.aspect.author:
+    text: Автор
+line.annotation.aspect.date:
+    text: Дата
+line.annotation.aspect.revision:
+    text: Версия
+loading.file.history.progress:
+    text: Загрузка истории файлов
+local.history.update.from.vcs:
+    text: Обновление из VCS
+local.version.title:
+    text: Локальная версия
+lookup.title.vcs.file.revisions:
+    text: Версии файлов
+merge.version.title.last.version:
+    text: Изменения с сервера
+merge.version.title.last.version.number:
+    text: Изменения с сервера (ревизия {0})
+merge.version.title.local.changes:
+    text: Локальные изменения
+merge.version.title.merge.result:
+    text: Результат слияния
+message.text.all.files.are.up.to.date:
+    text: Все файлы актуальны
+message.text.binary.versions.are.different:
+    text: Версии двоичных файлов отличаются
+message.text.binary.versions.are.identical:
+    text: Версии двоичных файлов идентичны
+message.text.binary.versions.differ:
+    text: Версии двоичных файлов отличаются
+message.text.cannot.edit.file:
+    text: 'Невозможно редактировать файл(ы): {0}'
+message.text.cannot.load.revision:
+    text: 'Невозможно загрузить версию: {0}'
+message.text.cannot.load.version:
+    text: 'Невозможно загрузить версию: {0}'
+message.text.cannot.load.version.because.of.error:
+    text: Не удаётся загрузить версию {0}:{1}
+message.text.cannot.open.editor:
+    text: Не удаётся открыть текстовый редактор для файла {0}
+message.text.cannot.refresh.file.history:
+    text: 'Не удаётся обновить: {0}'
+message.text.cannot.save.content:
+    text: 'Не удаётся сохранить содержимое: {0}'
+message.text.cannot.show.differences:
+    text: 'Не удаётся показать различия: {0}'
+message.text.commit.failed.with.errors:
+    text: Коммит не удался из-за ошибок
+message.text.commit.failed.with.errors.and.warnings:
+    text: Коммит не удался из-за ошибок и предупреждений
+message.text.commit.finished.with.warnings:
+    text: Коммит успешно завершён с предупреждениями
+message.text.could.not.load.file.content:
+    text: Не удалось загрузить содержимое файла
+message.text.could.not.load.virtual.file.content:
+    text: 'Не удалось загрузить содержимое файла {0}: {1}'
+message.text.file.is.up.to.date:
+    text: Файл актуален
+message.text.file.locally.modified:
+    text: Файл {0} был изменён локально.
+message.text.several.files.locally.modified:
+    text: Некоторые файлы были изменены локально.
+message.text.unable.to.save.settings:
+    text: Не удалось сохранить настройки. {0}
+message.text.versions.are.identical:
+    text: Версии идентичны
+message.title.annotate:
+    text: Аннотировать
+message.title.cannot.open.editor:
+    text: Не удаётся открыть редактор
+message.title.commit:
+    text: Зафиксировать
+message.title.could.not.load.content:
+    text: Не удалось загрузить содержимое
+message.title.could.not.load.file.history:
+    text: Проблемы при загрузке истории файлов
+message.title.diff:
+    text: Различия
+message.title.edit.files:
+    text: Редактировать файлы
+message.title.get.revision.content:
+    text: Получить содержимое версии
+message.title.get.version:
+    text: Получить версию
+message.title.load.version:
+    text: Загрузить версию
+message.title.refresh.file.history:
+    text: Обновить
+message.title.show.differences:
+    text: Показать различия
+message.title.unable.to.save.settings:
+    text: Не удалось сохранить настройки
+message.title.vcs.update.errors:
+    text: 'Ошибки {0}'
+messge.text.cannot.save.settings:
+    text: 'Невозможно выполнить операцию: {0}'
+move.to.changelist:
+    text: '&Переместить изменения в активный список изменений («{0}»)'
+multiple.file.merge.accept.theirs:
+    text: Принять &их
+multiple.file.merge.accept.yours:
+    text: Принять &мой
+multiple.file.merge.column.name:
+    text: Название
+multiple.file.merge.column.type:
+    text: Тип
+multiple.file.merge.loading.progress.title:
+    text: Загрузка версий слияния…
+multiple.file.merge.merge:
+    text: '&Слияние'
+multiple.file.merge.properties.title:
+    text: Файлы объединены с конфликтами свойств
+multiple.file.merge.request.title:
+    text: Объединение версий для {0}
+multiple.file.merge.title:
+    text: Файлы объединены с конфликтами
+multiple.file.merge.type.binary:
+    text: Двоичный
+multiple.file.merge.type.text:
+    text: Текст
+new.changelist.duplicate.name.error:
+    text: Список изменений с таким названием уже существует существует
+new.changelist.make.active.checkbox:
+    text: Сделать этот список изменений &активным
+no.ignored.files:
+    text: Нет игнорируемых файлов
+none.vcs.presentation:
+    text: <нет>
+notification.title.vcs.name.repository.repositories.found:
+    text: 'Найден{1, choice, 1#|2#о} {0} {1, choice, 1#репозиторий|2#репозиториев}'
+open.repository.version.description:
+    text: Открыть редактор с выбранной ревизией файла
+open.repository.version.text:
+    text: Открыть версию репозитория
+operation.name.annotate:
+    text: Аннотировать
+options.background.processes.enable:
+    text: Включить фоновые процессы
+options.background.processes.title:
+    text: Фоновые процессы
+options.check.changed.on.server.title:
+    text: Конфликты «Изменено на сервере»
+outdated.version.pretty.date.text:
+    text: 'Устаревшая версия. Изменено пользователем {0} {1}: {2}'
+outdated.version.show.diff.action:
+    text: Показать различия
+outdated.version.text:
+    text: 'Устаревшая версия. Изменено пользователем {0} на {1}: {2}'
+outdated.version.text.deleted:
+    text: 'Устаревшая версия. Удалено пользователем {0} {1}: {2}'
+outdated.version.update.project.action:
+    text: Обновить проект
+patch.apply.already.applied:
+    text: Все изменения в указанном патче уже содержатся в коде
+patch.apply.base.directory.field:
+    text: '&Базовый каталог:'
+patch.apply.changes.in.patch.resolve:
+    text: '{0} в разрешении патча'
+patch.apply.command:
+    text: Применить патч
+patch.apply.conflict.local.version:
+    text: Локальная версия
+patch.apply.conflict.merged.version:
+    text: Результат слияния
+patch.apply.conflict.patch:
+    text: Исправить
+patch.apply.conflict.patched.somehow.version:
+    text: Результат
+patch.apply.conflict.patched.version:
+    text: Исправленная версия
+patch.apply.conflict.title:
+    text: Конфликт исправлений для {0}
+patch.apply.dialog.title:
+    text: Применить исправление
+patch.apply.error:
+    text: 'Не удалось применить исправление для файла {0}: {1}'
+patch.apply.file.name.field:
+    text: '&Название файла исправления:'
+patch.apply.load.error:
+    text: 'Ошибка загрузки файла исправления: {0}'
+patch.apply.load.error.line:
+    text: 'Ошибка загрузки файла исправления: {0} на строке {1}'
+patch.apply.no.patches.found:
+    text: Не удалось найти исправления в указанном файле
+patch.apply.open.error:
+    text: 'Ошибка открытия файла исправления: {0}'
+patch.apply.partially.applied:
+    text: Некоторые изменения в указанном исправлении были пропущены, поскольку они уже содержатся в коде
+patch.apply.select.base.directory.title:
+    text: Выберите базовый каталог
+patch.apply.select.title:
+    text: Выберите файл исправления
+patch.apply.somehow.diff.name:
+    text: Применить исправление каким-либо образом
+patch.apply.strip.leading.directories.field:
+    text: '&Удалить начальные каталоги'
+patch.apply.success.applied.text:
+    text: Исправление успешно применено
+patch.file.type.description:
+    text: Файлы исправлений
+patch.load.base.revision.error:
+    text: 'Не удалось загрузить базовую версию исправления для файла {0}: {1}'
+patch.load.progress:
+    text: Загрузка...
+patch.summary.changed.files:
+    text: "измен{0,choice,1#ён {0} файл|2#ено {0} файлов}"
+patch.summary.deleted.files:
+    text: "удал{0,choice,1#ён {0} файл|2#ено {0} файлов}"
+patch.summary.new.files:
+    text: "добавл{0,choice,1#ен {0} файл|2#ено {0} файлов}"
+paths.affected.in.revision:
+    text: Пути, затронутые в версии {0}
+perform.add.remove.in.background:
+    text: Выполнить добавление/удаление в фон
+perform.commit.in.bacground:
+    text: '&Выполнить коммит в VCS в фоновом режиме'
+perform.edit.in.background:
+    text: Выполнить редактирование/извлечение в фоновом режиме
+perform.rollback.in.background.option:
+    text: Выполнить откат в фоновом режиме
+perform.update.from.vcs.in.background:
+    text: Выполнить обновление из VCS в фоновом режиме
+progress.loading.diff.revisions:
+    text: Получение содержимого ревизий
+progress.text.searching.for.modified.files:
+    text: Поиск изменённых файлов
+progress.text.synchronizing.files:
+    text: Синхронизация файлов…
+progress.text.updating.canceled:
+    text: Обновление отменено
+progress.text.updating.done:
+    text: Обновление завершено
+progress.text2.loading.revision:
+    text: Загрузка ревизии {0}
+progress.title.loading.contents:
+    text: Загрузка содержимого
+progress.title.version.control.processing.changed.files:
+    text: 'Контроль версий: обработка изменённых файлов'
+push.dialog.push.commits.title:
+    text: Отправка коммитов
+push.process.pushing:
+    text: Отправка…
+radio.after.creation.add.silently:
+    text: '&Добавить без уведомления'
+radio.after.creation.do.not.add:
+    text: '&Не добавлять'
+radio.after.creation.show.options:
+    text: <html>Показать параметры перед добавлением<br/>в систему контроля версий</html>
+radio.after.deletion.do.not.remove:
+    text: &Не удалять
+radio.after.deletion.remove.silently:
+    text: &Удалить без уведомления
+radio.after.deletion.show.options:
+    text: <html>Показать &параметры перед удалением<br/>из системы контроля версий</html>
+refresh.failed.message:
+    text: 'Обновление не удалось: {0}'
+remove.confirmation.label.text:
+    text: 'При удалении файлов с помощью {0}:'
+retrieving.annotations:
+    text: Загрузка аннотаций
+revert.changes.default.name:
+    text: 'Вернуть: {0}'
+revert.changes.title:
+    text: Отменить изменения
+revision.changes.not.supported:
+    text: Текущая система контроля версий не поддерживает просмотр изменений по ревизиям
+rollback.modified.without.checkout.error.tab:
+    text: '{0} изменено без извлечения'
+rollback.modified.without.editing.confirm.multiple:
+    text: Хотите {0} применить изменения к {1} выбранным файлам?
+rollback.modified.without.editing.confirm.single:
+    text: Хотите ли вы {0} вернуть изменения в {1}?
+rolling.back.file:
+    text: Откат {0}
+roots.notification.content.directory.registered.as.root.but.no.repositories.were.found.there:
+    text: Каталог {0} зарегистрирован как корневой каталог {1}, но в нём не найдено ни одного репозитория {1}.
+roots.notification.title.invalid.vcs.root.choice.mapping.mappings:
+    text: Недопустим{0, choice, 1#ое сопоставление|2#ые сопоставления} корневого каталога VCS
+roots.notification.title.vcs.name.integration.enabled:
+    text: 'Интеграция {0} включена'
+roots.notification.title.vcs.root.configuration.problems:
+    text: Проблемы конфигурации корневого каталога VCS
+roots.the.following.directories.are.registered.as.vcs.roots.but.they.are.not:
+    text: 'Следующие каталоги зарегистрированы как корневые каталоги VCS, но они таковыми не являются:'
+scope.name.changelist.all.changed.files:
+    text: Все изменённые файлы
+searching.for.code.smells.processing.file.progress.text:
+    text: Обработка {0}
+settings.filter.update.project.info.by.scope:
+    text: Фильтрация информации об обновлении проекте по области действия
+shelf.tab:
+    text: Отложить
+shelve.changes.action:
+    text: Отложить изменения
+shelve.changes.delete.confirm:
+    text: Вы уверены, что хотите удалить отложенный список изменений с именем «{0}»? Эту операцию будет невозможно отменить.
+shelve.changes.delete.files.from.list:
+    text: Вы собираетесь удалить {0} файлов из отложенного списка изменений. Вы уверены?
+shelve.changes.delete.files.from.list.title:
+    text: Удалить файлы из отложенного списка изменений
+shelve.changes.delete.multiple.confirm:
+    text: Вы уверены, что хотите удалить {0} отложенных списков изменений? Эту операцию отменить невозможно.
+shelve.changes.only.directories:
+    text: Выбранные изменения затрагивают только каталоги, но не файлы, поэтому их нельзя отложить.
+shelve.changes.rename.prompt:
+    text: 'Введите название для списка изменений:'
+shelve.changes.rename.title:
+    text: Переименовать отложенный список изменений
+shelved.version.name:
+    text: Отложенная версия
+shelvedChanges.delete.title:
+    text: Удалить отложенный список изменений
+show.diff.progress.title:
+    text: Загрузка содержимого…
+show.diff.progress.title.detailed:
+    text: Загрузка содержимого для {0}
+show.diff.with.local.action.description:
+    text: Сравнить выбранную версию с локальной версией файла
+show.diff.with.local.action.text:
+    text: Показать разницу с локальной версией
+show.history.action.name.template:
+    text: Показать историю _для {0}
+show.history.dialog.title.template:
+    text: История для {0}
+status.group.name.changed:
+    text: Изменено
+status.group.name.changed.on.server:
+    text: Изменено на сервере
+status.group.name.created:
+    text: Создано
+status.group.name.deleted:
+    text: Удалено
+status.group.name.locally.added:
+    text: Добавлено локально
+status.group.name.locally.removed:
+    text: Удалено локально
+status.group.name.modified:
+    text: Изменено
+status.group.name.not.in.repository:
+    text: Отсутствует в репозитории
+status.group.name.skipped:
+    text: Пропущено
+status.group.name.switched:
+    text: Переключено
+status.group.name.will.be.merged:
+    text: Будет объединён
+status.group.name.will.be.merged.with.conflicts:
+    text: Будет объединён с конфликтами
+status.group.name.will.be.merged.with.property.conflicts:
+    text: Будет объединён с конфликтами свойств
+status.group.name.will.be.merged.with.tree.conflicts:
+    text: Будет объединён с конфликтами дерева
+status.group.name.will.be.restored:
+    text: Будет восстановлен
+switch.to.changelist:
+    text: Переключиться &на список изменений («{0}»)
+todo.handler.only.added:
+    text: <html><body><b>Найден {0,choice, 0#|1#один|2#{0}} добавленный или отредактированный TODO-{0,choice, 0#|1#элемент|2#элементов}.</b><br/>{1,choice, 0#|1#Один файл пропущен. | 2#{1} файлов пропущено.} Хотите просмотреть {0,choice,1#его|2#их}?</body></html>
+todo.handler.only.both:
+    text: <html><body><b>Было добавлено или отредактировано {0, choice, 1#один|2#{0}},</b><br/>и найдено {1, choice, 1#один|2#{1}} TODO-элементов в изменённ{1,choice, 1#ом фрагменте|2#ых фрагментах}.<br/>{2,choice, 0#|1#Один файл пропущен. | 2#{2} файлов пропущено.} Хотите просмотреть их?</body></html>
+todo.handler.only.in.changed:
+    text: <html><body>Найден{0,choice, 1#один TODO-элемент|2#о {0} TODO-элементов} в изменённ{0,choice, 1#ом фрагменте|2#ых фрагментах}.<br/>{1,choice, 0#|1#Один файл пропущен.|2#{1} файлов пропущено.}Хотите просмотреть {0,choice,1#его|2#их}?</body></html>
+todo.handler.only.skipped:
+    text: |-
+        <html><body>Проверка TODO пропустила {0,choice, 0#|1#один файл|2#{0} файлов}.<br/>
+        Не найдено новых, отредактированных или находящихся в изменённых фрагментах TODO-элементов.</body></html>
+todo.in.new.review.button:
+    text: '&Просмотр'
+tooltip.text.action.applicable.to.vcses:
+    text: 'Применимо к: {0}'
+tooltip.text.line.before.deleted:
+    text: Удалена строка перед {0}
+tooltip.text.line.changed:
+    text: Изменена строка {0}
+tooltip.text.lines.before.deleted:
+    text: 'Удалено {1} строк перед {0}'
+tooltip.text.lines.changed:
+    text: Изменены строки {0}-{1}
+toolwindow.title.update.action.canceled.info:
+    text: '{0} Информация (Отменено)'
+toolwindow.title.update.action.info:
+    text: '{0} Информация'
+toolwindow.title.update.project:
+    text: Обновить проект ({0})
+unknown.vcs.presentation:
+    text: <Неизвестная система контроля версий> ({0})
+unshelve.changelist.chooser.title:
+    text: Снять изменения с отложенного списка изменений
+unshelve.changes.dialog.title:
+    text: Снять изменения с отложенного списка изменений
+update.directories.scope.name:
+    text: Каталоги
+update.directory.scope.name:
+    text: Каталог
+update.file.scope.name:
+    text: Файл
+update.files.scope.name:
+    text: Файлы
+update.group.name.created:
+    text: Создано
+update.group.name.deleted:
+    text: Удалено
+update.group.name.locally.added:
+    text: Добавлено локально
+update.group.name.locally.removed:
+    text: Удалено локально
+update.group.name.merged:
+    text: Объединено
+update.group.name.merged.with.conflicts:
+    text: Объединено с конфликтами
+update.group.name.merged.with.property.conflicts:
+    text: Объединено с конфликтами свойств
+update.group.name.merged.with.tree.conflicts:
+    text: Объединено с конфликтами дерева
+update.group.name.modified:
+    text: Изменено
+update.group.name.not.in.repository:
+    text: Отсутствует в репозитории
+update.group.name.restored:
+    text: Восстановлено
+update.group.name.skipped:
+    text: Пропущено
+update.group.name.switched:
+    text: Переключено
+update.group.name.updated:
+    text: Обновлено
+update.group.name.updated.from.server:
+    text: Обновлено с сервера
+update.info.group.by.changelist:
+    text: Группировать по списку изменений
+update.info.loading.changelists:
+    text: Загрузка списков изменений...
+update.project.scope.name:
+    text: Проект
+update.tree.node.size.statistics:
+    text: '{0,choice, 0#нет элементов|1#1 элемент|2#{0, number} элементов}'
+user.group.title:
+    text: Пользователь
+vcs.command.name.add:
+    text: Добавить
+vcs.command.name.checkin:
+    text: Регистрация
+vcs.command.name.checkin.no.mnemonics:
+    text: Регистрация
+vcs.command.name.checkout:
+    text: Проверить
+vcs.command.name.edit:
+    text: Редактировать
+vcs.command.name.remove:
+    text: Удалить
+vcs.command.name.status:
+    text: Статус
+vcs.command.name.update:
+    text: Обновить
+vcs.common.labels.vcs:
+    text: 'VCS:'
+vcs.config.track.changed.on.server:
+    text: Проверить все
+vcs.console.toolwindow.display.name:
+    text: Консоль
+vcs.generic.name.with.mnemonic:
+    text: VC_S
+vcs.quicklist.popup.title:
+    text: Операции VCS
+vcs.quicklist.pupup.section.local.history:
+    text: Локальная история
+vcs.revision.name.current:
+    text: Текущий
+vcs.root.remove.prompt:
+    text: Удалить корневой каталог VCS «{0}» для удалённого модуля «{1}»?
+vcs.root.remove.title:
+    text: Удалить корень VCS
+vcs.shelf.action.restore.description:
+    text: Делает выбранные ранее отложенные списки изменений доступными для повторной откладки
+vcs.shelf.action.restore.text:
+    text: Восстановить
+version.control.main.configurable.name:
+    text: Управление версиями
+waiting.changelists.update.for.show.commit.dialog.message:
+    text: Диалог фиксации
