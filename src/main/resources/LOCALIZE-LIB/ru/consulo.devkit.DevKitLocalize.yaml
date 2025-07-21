@@ -66,7 +66,7 @@ jdk.type.incorrect.common:
     text: "Неправильный тип JDK для модуля расширения"
 incorrect.dependency.non.plugin.module:
     text: "Модуль не-расширения «{0}» не может зависеть от модуля расширения «{1}»."
-irregular.dependency.not.declared:
+incorrect.dependency.not.declared:
     text: "Модуль расширения «{0}» не указал зависимость от «{1}» в своём plugin.xml."
 error.file.not.found:
     text: "Файл не найден"
@@ -252,6 +252,12 @@ inspections.replace.with.xxxlocalize.title:
     text: "Заменить xBundle.message() на xLocalize"
 inspections.replace.with.xxxlocalize:
     text: "Заменить на {0}.{1}(...)"
+inspections.get.extension.point.validation.title:
+    text: Проверка вызова ConfigurationType.getExtensionPoint()
+inspections.get.extension.point.validation.no.annotation:
+    text: "{0} не снабжён аннотацией @ExtensionAPI"
+inspections.get.extension.point.validation.incorrect.scope:
+    text: "Неверная область расширения"
 InspectionUseGrayColor:
     text: "Использовать Gray"
 ant.build.jar.comment:
@@ -315,7 +321,7 @@ localize.editor.notification.sort.process.name:
 invocation.state.validate.inspection.display.name:
     text: "Инспекция проверки типа вызова (чтение, запись, отрисовка)"
 psi.member.modifier.property.stortcuts.inspection.display.name:
-    text: "PsiMember.hasModifierProperty() replacement with shortcut methods"
+    text: "Замена вызовов PsiMember.hasModifierProperty() сокращёнными методами"
 psi.member.replace.with.shortcut.fix:
     text: "Заменить на .{0}()"
 intention.metadata.missed.inspection.display.name:

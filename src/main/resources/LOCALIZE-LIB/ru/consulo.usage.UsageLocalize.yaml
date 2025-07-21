@@ -41,7 +41,7 @@ button.text.continue:
 changes.detected.error.title:
     text: Обнаружены изменения
 default.package.presentable.name:
-    text: <default>
+    text: <по умолчанию>
 dialog.button.ok:
     text: ОК
 dialog.no.usages.found.in:
@@ -58,6 +58,16 @@ find.file.size.megabytes:
     text: '{0} мегабайт'
 large.files.were.ignored:
     text: '{0,choice, 0#Нет|1#1 слишком большой файл был проигнорирован|2#{0,number} слишком больших файлов были проигнорированы}'
+message.part.large.number.of.unloaded.modules:
+    text: '{0} выгруженных модулей: {1} и {2} других выгруженных модулей'
+message.part.number.of.unloaded.modules:
+    text: '{0} выгруженных модулей'
+message.part.small.number.of.unloaded.modules:
+    text: '{0} выгруженных модулей: {1}'
+message.part.unloaded.module.0:
+    text: не загруженный модуль ''{0}''
+message.there.may.be.usages.in.0.load.all.modules.and.repeat:
+    text: В {0} могут быть использования. Загрузите все модули и повторите рефакторинг, чтобы убедиться, что все использования будут обновлены.
 no.usages.found.in:
     text: Не найдено использований в {0}
 node.found.usages:
@@ -76,6 +86,8 @@ node.targets:
     text: Цели
 node.usages.in.generated.code:
     text: Использования в сгенерированном коде
+notification.usage.search.is.not.available.until.indices.are.ready:
+    text: Поиск использований недоступен, пока не будут готовы индексы.
 occurence.info.occurence:
     text: '{0,choice, 0#Не найдено|1#1 вхождение|2#{0,number} вхождений}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах}'
 occurence.info.reference:
@@ -92,6 +104,8 @@ progress.searching.for:
     text: Ищем {0}...
 progress.searching.for.in:
     text: Ищем {0} в {1}{2}...
+references.to.be.changed:
+    text: Ссылки, которые будут изменены {0}
 select.the.usage.to.preview:
     text: Выберите использование для предварительного просмотра
 several.occurrences.selected:
@@ -102,6 +116,8 @@ show.usages.only.usage:
     text: Это единственное использование в {0}
 sort.alphabetically.action.text:
     text: Сортировать элементы по алфавиту
+usage.element.without.name:
+    text: <анонимный>
 usage.excluded:
     text: исключено
 usage.name:
@@ -122,6 +138,14 @@ usage.type.class.object:
     text: Использование в .class
 usage.type.comment:
     text: Использование в комментариях
+usage.type.delegate.to.another.instance.method:
+    text: Делегирование другому методу экземпляра
+usage.type.delegate.to.another.instance.method.parameters.changed:
+    text: Делегирование другому методу экземпляра, параметры изменены
+usage.type.delegate.to.super.method:
+    text: Делегирование суперметоду
+usage.type.delegate.to.super.method.parameters.changed:
+    text: Делегирование суперметоду, параметры изменены
 usage.type.extends:
     text: Использование в «extends/implements»
 usage.type.field.declaration:
@@ -144,6 +168,8 @@ usage.type.parameter.declaration:
     text: Объявление параметра метода
 usage.type.read:
     text: Чтение значения
+usage.type.recursion:
+    text: Рекурсия
 usage.type.return:
     text: Тип возвращаемого значения метода
 usage.type.static.member:

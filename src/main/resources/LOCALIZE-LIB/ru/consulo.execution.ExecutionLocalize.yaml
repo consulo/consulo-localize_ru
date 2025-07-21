@@ -2,6 +2,10 @@ action.AnalyzeStacktrace.text:
     text: Анализировать _трассировку стека или дамп потока…
 action.Runner.ToggleTabLabels.text:
     text: Показать подписи к вкладкам
+action.choose.run.configuration.popup.description:
+    text: Выбрать и запустить конфигурацию
+action.choose.run.configuration.popup.text:
+    text: Запуск...
 action.name.save.as.configuration:
     text: Сохранить как
 action.name.save.configuration:
@@ -180,6 +184,8 @@ down.the.stack.trace:
     text: Вниз по трассировке стека
 edit.configuration.action:
     text: '&Изменить конфигурации'
+edit.run.configuration.for.item.dialog.title:
+    text: 'Редактировать конфигурацию запуска: «{0}»'
 edit.run.configuration.run.configuration.name.label:
     text: '&Название:'
 empty.run.configuration.panel.text.label1:

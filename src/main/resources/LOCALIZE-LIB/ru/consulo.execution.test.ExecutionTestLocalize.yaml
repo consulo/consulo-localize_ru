@@ -2,14 +2,14 @@ action.collapse.test.text:
     text: Свернуть все наборы тестов
 action.expand.test.text:
     text: Развернуть все наборы тестов
+action.hide.passed.description:
+    text: Скрыть успешно пройденные тесты
+action.hide.passed.text:
+    text: Скрыть успешные
 action.open.source.at.exception.description:
     text: Перейти к строке, вызвавшей исключение при открытии исходного кода теста
 action.open.source.at.exception.text:
     text: Открыть исходный код при исключении
-action.passed.action.description:
-    text: Скрыть успешно пройденные тесты
-action.passed.action.text:
-    text: Скрыть успешные
 action.scroll.to.stacktrace.description:
     text: Прокрутить консоль к началу трассировки стека утверждений или исключений
 action.scroll.to.stacktrace.text:

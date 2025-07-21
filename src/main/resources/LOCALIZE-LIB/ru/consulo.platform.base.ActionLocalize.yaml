@@ -1752,12 +1752,6 @@ action.ReverteOverrideFileTypeAction.text:
     text: Отменить переопределение типа файла
 action.ReverteOverrideFileTypeAction.verbose.description:
     text: Отменить действие «Переопределить тип файла» и восстановить старый тип файла для файла «{0}»{1,choice,0#|1# (и ещё {1} файлов)}
-action.RunAPT.1.text:
-    text: Обработать {0} _аннотации
-action.RunAPT.description:
-    text: Запустить обработчики аннотаций в выбранной области
-action.RunAPT.text:
-    text: Обработать _аннотации
 action.RunConfiguration.description:
     text: Выбрать конфигурацию запуска/отладки
 action.RunConfiguration.text:
@@ -1927,7 +1921,7 @@ action.ShelvedChanges.ShowHideDeleted.text:
 action.ShelvedChanges.Unshelve.description:
     text: Применить сохраненные изменения к текущей кодовой базе
 action.ShelvedChanges.Unshelve.text:
-    text: Unshelve Changes
+    text: Применить отложенные изменения
 action.ShowBackwardPackageDeps.description:
     text: Просмотреть код, в котором используется выбранный элемент анализа
 action.ShowBackwardPackageDeps.text:

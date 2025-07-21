@@ -48,7 +48,7 @@ decrease.editor.font:
   text: Уменьшить размер шрифта
 forced.soft.wrap.message:
   text: Этот документ содержит очень длинные строки. Мягкие переносы были принудительно включены для повышения производительности редактора.
-force.soft.wrap.hide.message:
+forced.soft.wrap.hide.message:
   text: Скрыть уведомление
 forced.soft.wrap.dont.show.again.message:
   text: Больше не показывать
@@ -80,3 +80,41 @@ iw.found.so.far.suffix:
   text: Найдено до сих пор
 checkbox.show.editor.preview.popup:
   text: Показать подсказку предварительного просмотра редактора
+group.EditorStickyLinesSettings.text:
+  text: Прилипающие строки
+group.EditorStickyLinesSettings.description:
+  text: Включить/выключить настройки панели прилипающих строк
+action.EditorStickyConfigure.text:
+  text: Настроить прилипающие строки…
+action.EditorStickyConfigure.description:
+  text: Показать диалоговое окно настроек прилипания строк
+action.EditorStickyLinesDisableForLang.text:
+  text: Отключить для выбранного языка
+action.EditorStickyLinesDisableForLang.for.lang.text:
+  text: Отключить для {0}
+action.EditorStickyLinesDisableForLang.description:
+  text: Скрыть панель прилипающих строк для выбранного языка
+action.EditorStickyLinesDisable.text:
+  text: Отключить
+action.EditorStickyLinesDisable.description:
+  text: Скрыть панель прилипающих строк
+action.EditorGutterToggleGlobalStickyLines.text:
+  text: Показать прилипающие строки
+action.EditorGutterToggleGlobalStickyLines.description:
+  text: Показать панель прилипающих строк
+radio.editor.tab.long.arrow:
+  text: Длинная стрелка
+radio.editor.tab.arrow:
+  text: Символ '>'
+radio.editor.tab.horizontal.line:
+  text: Горизонтальная линия
+inlay.hints.declarative.enable.action.text:
+  text: Включить встроенные в текст подсказки «{0}»
+inlay.hints.declarative.disable.action.text:
+  text: Отключить встроенные в текст подсказки «{0}»
+inlay.hints.declarative.disable.action.no.provider.text:
+  text: Отключить встроенные в текст подсказки
+inlay.hints.declarative.enable.option.action.text:
+  text: Включить опцию «{0}» для встроенных в текст подсказок «{1}»
+inlay.hints.declarative.disable.option.action.text:
+  text: Отключить опцию «{0}» для встроенных в текст подсказок «{1}»

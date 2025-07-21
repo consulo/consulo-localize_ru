@@ -2,6 +2,8 @@ action.description.remove.packaging.elements:
     text: Удалить выбранные элементы
 action.name.extract.artifact:
     text: Извлечь артефакт…
+action.name.facet.navigate:
+    text: Перейти
 action.name.inline.artifact:
     text: Встроенный артефакт
 action.name.remove.packaging.element:
@@ -86,6 +88,8 @@ command.deleting.files:
     text: Удаление файлов
 command.finish:
     text: finish
+confirmation.message.would.you.like.to.ignore.facet:
+    text: Хотите ли вы игнорировать фасет «{0}» из модуля «{1}»?
 copy.module.dialog.title:
     text: Копировать модуль
 dependencies.used.in.popup.title:
@@ -102,20 +106,47 @@ dialog.title.packaging.choose.library:
     text: Выберите библиотеку
 dialog.title.packaging.choose.module:
     text: Выберите модуль
+dialog.unsaved.project.read.only.files:
+    text: |-
+        Файлы только для чтения:
+
+        {0}
+dialog.unsaved.project.text:
+    text: |-
+        {0} не удалось сохранить некоторые файлы проекта.
+        Вы уверены, что всё равно хотите закрыть проект?
+dialog.unsaved.project.title:
+    text: Unsaved Project
 display.name.artifacts:
     text: Артефакты
 drag.n.drop.text.0.packaging.elements:
     text: '{0} элементов'
+element.kind.name.facet:
+    text: фасет
 element.kind.name.module:
-    text: module
+    text: модуль
 empty.module.selection.string:
     text: Выберите модуль для просмотра или редактирования его данных здесь
 enter.module.copy.name.error.message:
     text: Введите имя копии модуля
 error.adding.module.to.project:
     text: 'Ошибка добавления модуля в проект: {0}'
+error.message.0.cannot.be.placed.under.1:
+    text: «{0} не может быть помещён под {1}»
+error.message.0.facet.must.be.placed.under.1.facet:
+    text: «Фасет {0} должен быть помещён под фасет {1}»
+error.message.0.facets.are.not.allowed.in.1:
+    text: «{0} фасетов не допускаются в {1}»
+error.message.cannot.find.underlying.facet.type.for.0:
+    text: Не удалось найти тип базового фасета для «{0}»
+error.message.cannot.load.facet.condiguration.0:
+    text: 'Не удалось загрузить конфигурацию фасета: {0}'
 error.message.configuration.cannot.load:
     text: Невозможно загрузить
+error.message.facet.type.isn.t.specified:
+    text: Тип фасета не указан
+error.message.unknown.facet.type.0:
+    text: 'Неизвестный тип фасета: «{0}»'
 external.annotation.prompt:
     text: Подсказка внешней аннотации
 external.annotations.external.option:
@@ -191,7 +222,7 @@ library.docs.node:
 library.empty.item:
     text: <пустая библиотека>
 library.empty.library.item:
-    text: Empty Library
+    text: Пустая библиотека
 library.global.settings:
     text: Глобальные библиотеки
 library.javadocs.node:
@@ -207,9 +238,9 @@ library.name.not.specified.title:
 library.remove.action:
     text: Удалить
 library.root.node:
-    text: Root
+    text: Корень
 library.sources.node:
-    text: Sources
+    text: Исходники
 library.sources.not.attached:
     text: Исходники не прикреплены
 library.sources.not.found:
@@ -437,6 +468,10 @@ progress.text.searching.frameworks:
     text: Поиск фреймворков. Пожалуйста, подождите.
 progress.title.deleting.files:
     text: Удаление файлов…
+progress.title.loading.modules:
+    text: Загрузка модулей…
+progress.title.preparing.workspace:
+    text: Подготовка рабочего пространства…
 project.compiler.output:
     text: '<html><b>Выходные данные компилятора проекта:</b/><br>Этот путь используется для хранения всех результатов компиляции проекта.<br/>По этому пути создается каталог, соответствующий каждому модулю.<br/>Этот каталог содержит два подкаталога: Production и Test для производственного кода и тестовых исходников соответственно.<br/>Для каждого из модулей можно настроить путь вывода компилятора, специфичный для модуля, по мере необходимости</html>'
 project.configuration.save.file.not.found:
@@ -462,6 +497,7 @@ project.convert.problems.detected:
     text: 'Во время преобразования вашего проекта были обнаружены следующие проблемы:'
 project.convert.problems.help:
     text: |4-
+
 
         Нажмите «Показать справку» для получения дополнительной информации.
 project.convert.problems.help.button:
@@ -519,7 +555,7 @@ project.macros.name.column:
 project.macros.path.column:
     text: Путь
 project.macros.prompt:
-    text: 'TODO: message'
+    text: 'Сообщение TODO:'
 project.macros.variable.missing.error:
     text: Значение переменной пути «{0}» не определено
 project.macros.variable.missing.title:
@@ -568,16 +604,10 @@ project.new.wizard.select.type.label:
     text: Выберите тип
 project.order.entry.project:
     text: <Project>
-project.reload.external.change.multiple:
+project.reload.external.change.message:
     text: |-
-        Файлы проекта:
-        {0}
-        были изменены извне.
-        Рекомендуется перезагрузить проект, чтобы изменения вступили в силу.
-project.reload.external.change.single:
-    text: |-
-        Файл проекта {0} был изменён извне.
-        Рекомендуется перезагрузить проект, чтобы изменения вступили в силу.
+        Компоненты проекта были изменены извне и не могут быть перезагружены.
+        Хотите перезагрузить проект?
 project.reload.external.change.title:
     text: Изменены файлы проекта
 project.reload.failed:
@@ -627,7 +657,7 @@ project.roots.project.banner.text:
 project.roots.project.display.name:
     text: Проект
 project.roots.project.jdk.inherited:
-    text: Project SDK
+    text: SDK проекта
 project.roots.replace.library.entry.message:
     text: Вы действительно хотите заменить старую библиотеку «{0}»
 project.roots.replace.library.entry.title:
@@ -642,6 +672,8 @@ project.settings.display.name:
     text: Структура проекта
 prompt.open.project.in.new.frame:
     text: <html><body>Новые проекты можно открыть в новом окне или заменить проект в существующем окне.<br>Как вы хотите открыть проект?</body></html>
+recent.project.0.opened.action.text:
+    text: '{0} (открыто)'
 rename.message.prefix.module:
     text: Модуль
 rename.message.prefix.scope:
@@ -707,6 +739,6 @@ title.new.project:
 title.open.project:
     text: Открыть проект
 unknown.sdk:
-    text: Unknown SDK
+    text: Неизвестный SDK
 warning.message.some.required.libraries.wasn.t.downloaded:
     text: Некоторая требуемая библиотека не была загружена. Хотите продолжить без нее?
