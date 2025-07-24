@@ -438,8 +438,6 @@ action.CreateRunConfiguration.text:
     text: Создать конфигурацию запуска
 action.DebugListen.text:
     text: Выбросить исключение отладки
-action.Debugger.AddToWatch.text:
-    text: Добавить в отслеживания
 action.Debugger.AdjustArrayRange.text:
     text: Настроить диапазон…
 action.Debugger.AutoRenderer.text:
@@ -462,8 +460,6 @@ action.Debugger.EditTypeSource.text:
     text: Перейти к источнику объекта
 action.Debugger.EditWatch.text:
     text: Редактировать отслеживание
-action.Debugger.EvaluateInConsole.text:
-    text: Оценить в консоли
 action.Debugger.FocusOnBreakpoint.description:
     text: По умолчанию сфокусировать это представление при достижении точки останова
 action.Debugger.FocusOnBreakpoint.text:
@@ -856,10 +852,6 @@ action.EditorUpWithSelection.text:
     text: Вверх с выделением
 action.EmacsStyleIndent.text:
     text: Отступ в стиле Emacs
-action.EvaluateExpression.description:
-    text: Вычислить произвольное выражение
-action.EvaluateExpression.text:
-    text: _Вычислить выражение…
 action.ExcludeFromProject.text:
     text: Исключить из проекта…
 action.Exit.description:
@@ -1022,18 +1014,6 @@ action.FixDocComment.description:
     text: Создать или исправить комментарий документа для текущего контекста
 action.FixDocComment.text:
     text: Исправить комментарий документа
-action.ForceRunToCursor.description:
-    text: Исполнять код, пока не дойдёт до текущей строки под курсором, игнорируя точки останова
-action.ForceRunToCursor.text:
-    text: Принудительно исполнять до курсора
-action.ForceStepInto.description:
-    text: Войти внутрь, игнорируя фильтры входа для библиотек, конструкторов и т. д.
-action.ForceStepInto.text:
-    text: Войти внутрь
-action.ForceStepOver.description:
-    text: Перейти через строку, игнорируя точки останова.
-action.ForceStepOver.text:
-    text: Принудительно перейти через строку
 action.Forward.description:
     text: Вернуть последнюю отменённую операцию навигации
 action.Forward.text:
@@ -1570,10 +1550,6 @@ action.PasteMultiple.description:
     text: Вставить из недавнего буфера обмена
 action.PasteMultiple.text:
     text: Вставить из _истории…
-action.Pause.description:
-    text: Приостановить выполнение программы и включить отладку
-action.Pause.text:
-    text: _Приостановить программу
 action.PerformanceReport.text:
     text: Отправить отчет об эффективности
 action.PinActiveTab.description:
@@ -1740,10 +1716,6 @@ action.RestoreDefaultLayout.description:
     text: Восстановить схему расположения по умолчанию
 action.RestoreDefaultLayout.text:
     text: Восстановить схему расположения по _умолчанию
-action.Resume.description:
-    text: Возобновить исполнение программы
-action.Resume.text:
-    text: Возобновить _исполнение
 action.RevealIn.text:
     text: Показать в проводнике/Finder/Konqueror/Nautilus
 action.ReverteOverrideFileTypeAction.description:
@@ -1790,10 +1762,6 @@ action.RunDashboard.UngroupConfigurations.text:
     text: Разгруппировать конфигурации
 action.RunGc.text:
     text: Запустить сборщик мусора
-action.RunToCursor.description:
-    text: Исполнять код, пока не дойдёт до текущей строки под курсором
-action.RunToCursor.text:
-    text: Исполнять до _курсора
 action.Runner.AttachCell.description:
     text: прикрепить выбранные представления к окну инструмента отладчика
 action.Runner.AttachCell.text:
@@ -1938,10 +1906,6 @@ action.ShowErrorDescription.description:
     text: Показать описание ошибки или предупреждения при вставке
 action.ShowErrorDescription.text:
     text: Описание _ошибки
-action.ShowExecutionPoint.description:
-    text: Показать текущую точку выполнения программы
-action.ShowExecutionPoint.text:
-    text: Показать место _исполнения
 action.ShowFilePath.description:
     text: Путь к текущему файлу для открытия во внешнем файловом менеджере
 action.ShowFilePath.text:
@@ -2010,10 +1974,6 @@ action.ShowUsages.text:
     text: _Показать использования
 action.ShowUserActivities.text:
     text: Показать действия
-action.SmartStepInto.description:
-    text: Войти внутрь определённого метода
-action.SmartStepInto.text:
-    text: Войти внутрь с _умом
 action.SmartTypeCompletion.description:
     text: Полный код на основе ожидаемого типа
 action.SmartTypeCompletion.text:
@@ -2034,18 +1994,6 @@ action.StartupWizard.description:
     text: Запустить мастер для выбора набора включённых расширений
 action.StartupWizard.text:
     text: Настроить дополнения…
-action.StepInto.description:
-    text: Войти внутрь исполняемого метода
-action.StepInto.text:
-    text: Войти внутрь
-action.StepOut.description:
-    text: Перейти к первой строке, выполняемой после возврата из этого метода
-action.StepOut.text:
-    text: _Выйти
-action.StepOver.description:
-    text: Перейти к следующей строке файла
-action.StepOver.text:
-    text: Перейти _через строку
 action.Stop.description:
     text: Остановить процесс
 action.Stop.text:
@@ -2118,10 +2066,6 @@ action.ToggleFullScreen.text.enter:
     text: Войти в полноэкранный режим
 action.ToggleFullScreen.text.exit:
     text: Выйти из полноэкранного режима
-action.ToggleLineBreakpoint.description:
-    text: Включить/отключить точку останова на строке курсора
-action.ToggleLineBreakpoint.text:
-    text: Включить/отключить точку останова на _строке
 action.TogglePinnedMode.description:
     text: Прикрепить/открепить активное окно инструмента
 action.TogglePinnedMode.text:
@@ -2150,10 +2094,6 @@ action.ToggleSideMode.description:
     text: Включить/выключить режим разделения окон инструментов
 action.ToggleSideMode.text:
     text: Режим разделения
-action.ToggleTemporaryLineBreakpoint.description:
-    text: Включить/отключить временную точку останова на строку курсором
-action.ToggleTemporaryLineBreakpoint.text:
-    text: Включить/отключить временную точку останова строки
 action.ToggleWindowedMode.description:
     text: Окно активного окна / без окна
 action.ToggleWindowedMode.text:
@@ -2290,10 +2230,6 @@ action.VcsShowPrevChangeMarker.description:
     text: Перейти к предыдущему изменению
 action.VcsShowPrevChangeMarker.text:
     text: Предыдущая пр_авка
-action.ViewBreakpoints.description:
-    text: Просмотр и управление всеми точками останова и наблюдения
-action.ViewBreakpoints.text:
-    text: Просмотреть точки останова…
 action.ViewImportPopups.description:
     text: Переключить отображение всплывающих окон импорта в текущем файле
 action.ViewImportPopups.text:

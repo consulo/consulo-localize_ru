@@ -1,17 +1,81 @@
-action.Debugger.PopFrame.description:
-    text: Перемещает точку выполнения обратно к вызову метода, удаляя текущие кадры метода из стека
-action.Debugger.PopFrame.text:
-    text: Сбросить _кадр
+action.add.to.watch.text:
+    text: Добавить в отслеживания
 action.choose.debug.configuration.popup.description:
     text: Выбрать и отладить конфигурацию
 action.choose.debug.configuration.popup.text:
     text: Отладить…
+action.evaluate.expression.description:
+    text: Вычислить произвольное выражение
+action.evaluate.expression.text:
+    text: _Вычислить выражение…
+action.evaluate.in.console.text:
+    text: Вычислить в консоли
+action.force.run.to.cursor.description:
+    text: Исполнять код, пока не дойдёт до строки под курсором, игнорируя точки останова
+action.force.run.to.cursor.text:
+    text: Принудительно исполнять до курсора
+action.force.step.into.description:
+    text: Войти внутрь, игнорируя фильтры входа для библиотек, конструкторов и т. д.
+action.force.step.into.text:
+    text: Войти внутрь
+action.force.step.over.description:
+    text: Перейти через строку, игнорируя точки останова.
+action.force.step.over.text:
+    text: Принудительно перейти через строку
 action.memory.view.settings.text:
     text: Настройки просмотра памяти
 action.next.frame.text:
     text: Следующий кадр
+action.pause.description:
+    text: Приостановить выполнение программы и включить отладку
+action.pause.text:
+    text: _Приостановить программу
+action.pop.frame.description:
+    text: Перемещает точку выполнения обратно к вызову метода, удаляя текущие кадры метода из стека
+action.pop.frame.text:
+    text: Сбросить _кадр
 action.previous.frame.text:
     text: Предыдущий кадр
+action.resume.description:
+    text: Возобновить исполнение программы
+action.resume.text:
+    text: Возобновить _исполнение
+action.run.to.cursor.description:
+    text: Исполнять код, пока не дойдёт до текущей строки под курсором
+action.run.to.cursor.text:
+    text: Исполнять до _курсора
+action.show.execution.point.description:
+    text: Показать текущую точку выполнения программы
+action.show.execution.point.text:
+    text: Показать место _исполнения
+action.smart.step.into.description:
+    text: Войти внутрь определённого метода
+action.smart.step.into.text:
+    text: Войти внутрь с _умом
+action.step.into.description:
+    text: Войти внутрь исполняемого метода
+action.step.into.text:
+    text: Войти внутрь
+action.step.out.description:
+    text: Перейти к первой строке, выполняемой после возврата из этого метода
+action.step.out.text:
+    text: _Выйти
+action.step.over.description:
+    text: Перейти к следующей строке файла
+action.step.over.text:
+    text: Перейти _через строку
+action.toggle.line.breakpoint.description:
+    text: Включить/отключить точку останова на строке под курсором
+action.toggle.line.breakpoint.text:
+    text: Включить/отключить точку останова на _строке
+action.toggle.temporary.line.breakpoint.description:
+    text: Включить/отключить временную точку останова на строке под курсором
+action.toggle.temporary.line.breakpoint.text:
+    text: Включить/отключить временную точку останова строки
+action.view.breakpoints.description:
+    text: Просмотр и управление всеми точками останова и наблюдения
+action.view.breakpoints.text:
+    text: Просмотреть точки останова…
 ad.extra.selection.shortcut:
     text: 'Вы также можете выбрать элемент с помощью: {0}'
 button.text.code.fragment.mode:
