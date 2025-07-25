@@ -613,9 +613,9 @@ checkbox.show.memory.indicator:
 checkbox.show.tips.on.startup:
     text: Показывать советы при запуске
 checkbox.show.tool.window.bars:
-    text: Показать панели окна инструментов
+    text: Показать панели инструментальных окон
 checkbox.show.tool.window.numbers:
-    text: Показать номера окон инструментов
+    text: Показать номера инструментальных окон
 checkbox.support.screen.readers:
     text: Поддержка экранных читалок (требуется перезапуск)
 checkbox.synchronize.files.on.frame.activation:
@@ -631,7 +631,7 @@ checkbox.use.preview.window:
 checkbox.use.transparent.mode.for.floating.windows:
     text: Использовать прозрачный режим для плавающих окон
 checkbox.widescreen.tool.window.layout:
-    text: Широкоэкранная компоновка окна инструментов
+    text: Широкоэкранная компоновка инструментальных окон
 checksum.failed:
     text: Несоответствие контрольной суммы. Попробуйте ещё раз позже
 child.tag.0.should.be.defined:
@@ -1186,7 +1186,7 @@ group.http.proxy:
 group.presentation.mode:
     text: Режим презентации
 group.settings.process.tab.close:
-    text: При закрытии окна инструментов с запущенным процессом
+    text: При закрытии инструментального окна с запущенным процессом
 group.todo.filter.patterns:
     text: Шаблоны
 group.transparency:
@@ -2357,9 +2357,9 @@ share.scope.checkbox.title:
 shared.scopes.node.text:
     text: Общие области
 show.in.find.window.button.description:
-    text: Открыть результаты поиска в окне инструмента поиска
+    text: Открыть результаты поиска в инструментальном окне поиска
 show.in.find.window.button.name:
-    text: Открыть в окне инструмента поиска
+    text: Открыть в инструментальном окне поиска
 show.main.toolbar:
     text: Показать главную панель инструментов
 show.navigation.bar:
