@@ -241,7 +241,7 @@ action.CloneElement.description:
 action.CloneElement.text:
     text: _Дублировать…
 action.CloseActiveTab.description:
-    text: Закрыть вкладку активного окна инструмента
+    text: Закрыть вкладку активного инструментального окна
 action.CloseActiveTab.text:
     text: _Закрыть активную вкладку
 action.CloseAllEditors.description:
@@ -1159,19 +1159,19 @@ action.HelpTopics.description:
 action.HelpTopics.text:
     text: _Справка
 action.HideActiveWindow.description:
-    text: Скрыть активное окно инструментов
+    text: Скрыть активное инструментальное окно
 action.HideActiveWindow.text:
     text: Скрыть активное инструментальное окно
 action.HideAllWindows.description:
-    text: Скрыть все окна инструментов
+    text: Скрыть все инструментальные окна
 action.HideAllWindows.text:
-    text: Скрыть _все окна инструментов
+    text: Скрыть _все инструментальные окна
 action.HideCoverageInfo.text:
-    text: Скрыть информацию о сотрудничестве
+    text: Скрыть информацию о покрытии
 action.HideSideWindows.description:
-    text: Скрыть все окна с этой стороны
+    text: Скрыть все инструментальные окна с этой стороны
 action.HideSideWindows.text:
-    text: Скрыть боковые окна инструментов
+    text: Скрыть боковые инструментальные окна
 action.HighlightUsagesInFile.description:
     text: Выделить использование символа курсором в активном редакторе
 action.HighlightUsagesInFile.not.ready:
@@ -1323,9 +1323,9 @@ action.JumpToLastChange.description:
 action.JumpToLastChange.text:
     text: Место последней _правки
 action.JumpToLastWindow.description:
-    text: Активировать последнее выделенное окно инструмента
+    text: Активировать последнее выделенное инструментальное окно
 action.JumpToLastWindow.text:
-    text: _Перейти к последнему окну инструмента
+    text: _Перейти к последнему инструментальному окну
 action.LocalHistory.PutLabel.text:
     text: _Пометить…
 action.LocalHistory.ShowHistory.text:
@@ -1553,7 +1553,7 @@ action.PasteMultiple.text:
 action.PerformanceReport.text:
     text: Отправить отчет об эффективности
 action.PinActiveTab.description:
-    text: Закрепить активное окно инструмента или вкладку редактора
+    text: Закрепить активное инструментальное окно или вкладку редактора
 action.PinActiveTab.text:
     text: За_крепить активную вкладку
 action.PlaySavedMacrosAction.description:
@@ -1669,7 +1669,7 @@ action.RemoveFromFavorites.description:
 action.RemoveFromFavorites.text:
     text: Удалить из избранного
 action.RemoveStripeButton.description:
-    text: Удалить кнопку окна инструментов с боковой панели
+    text: Удалить кнопку инструментального окна с боковой панели
 action.RemoveStripeButton.text:
     text: Удалить с боковой панели
 action.RenameElement.description:
@@ -1693,25 +1693,25 @@ action.RerunFailedTests.description:
 action.RerunFailedTests.text:
     text: Перезапустить упавшие тесты
 action.ResizeToolWindowDown.description:
-    text: Изменить размер активного окна инструмента вниз
+    text: Сдвинуть вниз границу активного инструментального окна
 action.ResizeToolWindowDown.text:
     text: Растянуть вниз
 action.ResizeToolWindowLeft.description:
-    text: Изменить размер активного окна инструментов влево
+    text: Сдвинуть влево границу активного инструментального окна
 action.ResizeToolWindowLeft.text:
     text: Растянуть влево
 action.ResizeToolWindowMaximize.text:
-    text: Развернуть окно инструмента
+    text: Развернуть инструментальное окно
 action.ResizeToolWindowMaximize.text.alternative:
-    text: Восстановить размер окна инструмента
+    text: Восстановить размер инструментального окна
 action.ResizeToolWindowRight.description:
-    text: Изменить размер активного окна инструментов вправо
+    text: Сдвинуть вправо границу активного инструментального окна
 action.ResizeToolWindowRight.text:
     text: Растянуть вправо
 action.ResizeToolWindowUp.description:
-    text: Изменить размер активного окна инструмента вверх
+    text: Сдвинуть вверх границу активного инструментального окна
 action.ResizeToolWindowUp.text:
-    text: Растянуть наверх
+    text: Растянуть вверх
 action.RestoreDefaultLayout.description:
     text: Восстановить схему расположения по умолчанию
 action.RestoreDefaultLayout.text:
@@ -1763,7 +1763,7 @@ action.RunDashboard.UngroupConfigurations.text:
 action.RunGc.text:
     text: Запустить сборщик мусора
 action.Runner.AttachCell.description:
-    text: прикрепить выбранные представления к окну инструмента отладчика
+    text: прикрепить выбранные представления к инструментальному окну отладчика
 action.Runner.AttachCell.text:
     text: Прикрепить
 action.Runner.AttachCells.text:
@@ -1853,7 +1853,7 @@ action.SelectIn.text:
 action.SelectNextOccurrence.text:
     text: Добавить следующее вхождение в выделение
 action.ServiceView.ConfigureServices.text:
-    text: Настроить окно инструментов служб
+    text: Настроить инструментальное окно служб
 action.ServiceView.GroupByContributor.text:
     text: Тип службы
 action.ServiceView.GroupByServiceGroups.text:
@@ -1865,7 +1865,7 @@ action.ServiceView.OpenEachInNewTab.text:
 action.ServiceView.OpenInNewTab.text:
     text: Открыть в новой вкладке
 action.ServiceView.OpenInToolWindow.text:
-    text: Открыть в отдельном окне инструментов
+    text: Открыть в отдельном инструментальном окне
 action.ServiceView.SelectActiveService.text:
     text: Всегда
 action.ServiceView.ShowServices.text:
@@ -1895,9 +1895,11 @@ action.ShowBackwardPackageDeps.description:
 action.ShowBackwardPackageDeps.text:
     text: _Обратные зависимости…
 action.ShowContent.description:
-    text: Показать всплывающее окно со списком вкладок окна инструментов
+    text: Показать всплывающее окно со списком вкладок инструментального окна
 action.ShowContent.text:
     text: Показать список вкладок
+action.ShowContent.views.text:
+    text: Показать список представлений
 action.ShowCoverageInfo.text:
     text: Показать информацию о компании
 action.ShowDiagram.text:
@@ -2051,13 +2053,13 @@ action.ToggleContentUiTypeMode.description:
 action.ToggleContentUiTypeMode.text:
     text: Групповые вкладки
 action.ToggleDockMode.description:
-    text: Прикрепить/открепить активное окно инструмента
+    text: Не сворачивать инструментальное окно при активации другого окна
 action.ToggleDockMode.text:
-    text: _Прикреплённый режим
+    text: _Не сворачивать
 action.ToggleFloatingMode.description:
-    text: Открепить/закрепить активное окно инструмента
+    text: Открепить активное инструментальное окно и сделать его плавающим
 action.ToggleFloatingMode.text:
-    text: _Откреплённый режим
+    text: _Плавающий режим
 action.ToggleFullScreen.description:
     text: Переключить полноэкранный режим
 action.ToggleFullScreen.text:
@@ -2067,7 +2069,7 @@ action.ToggleFullScreen.text.enter:
 action.ToggleFullScreen.text.exit:
     text: Выйти из полноэкранного режима
 action.TogglePinnedMode.description:
-    text: Прикрепить/открепить активное окно инструмента
+    text: Прикрепить активное инструментальное окно к границе экрана
 action.TogglePinnedMode.text:
     text: _Прикреплённый режим
 action.TogglePopupHints.text:
@@ -2255,7 +2257,7 @@ action.ViewToolBar.description:
 action.ViewToolBar.text:
     text: _Панель инструментов
 action.ViewToolButtons.description:
-    text: Показать/скрыть кнопки окна инструментов
+    text: Показать/скрыть кнопки инструментального окна
 action.ViewToolButtons.text:
     text: _Кнопки инструментов
 action.VirtualFileInfo.text:
@@ -2405,7 +2407,7 @@ group.$LRU.description:
 group.$LRU.text:
     text: Открыть _недавние
 group.ActiveToolwindowGroup.text:
-    text: Окно активного инструмента
+    text: Активное инструментальное окно
 group.AddAllToFavorites.text:
     text: Добавить всё в избранное
 group.AddToFavorites.text:
@@ -2665,7 +2667,7 @@ group.TodoViewGroupByGroup.text:
 group.ToggleBreakpointAction.text:
     text: Действия точки останова
 group.ToolWindowsGroup.text:
-    text: _Окна инструментов
+    text: _Инструментальные окна
 group.ToolbarFindGroup.text:
     text: Панель инструментов Найти Действия
 group.ToolbarMakeGroup.text:

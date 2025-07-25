@@ -753,17 +753,17 @@ service.view.add.service.action.name:
 service.view.all.services:
     text: Все службы
 service.view.configure.dialog.description:
-    text: Исключить службу, чтобы показать её как отдельное окно инструмента. <br>Исключить тип конфигурации запуска, чтобы показать ее вывод в окне инструмента запуска/отладки.
+    text: Исключить службу, чтобы показать её как отдельное инструментальное окно.<br/>Исключить тип конфигурации запуска, чтобы показать её вывод в инструментальном окне запуска/отладки.
 service.view.configure.dialog.title:
-    text: Окно инструментов настройки служб
+    text: Инструментальное окно настройки служб
 service.view.configure.exclude.button.text:
     text: '&Исключить >'
 service.view.configure.excluded.label.text:
-    text: 'Отдельные окна инструментов:'
+    text: 'Отдельные инструментальные окна:'
 service.view.configure.include.button.text:
     text: < &Включить
 service.view.configure.included.label.text:
-    text: 'Окно инструментов служб:'
+    text: 'Инструментальное окно служб:'
 service.view.configure.run.configuration.types:
     text: Типы конфигураций запуска/отладки
 service.view.configure.run.tool.windows:
@@ -781,11 +781,11 @@ service.view.group.label:
 service.view.group.title:
     text: Групповые службы
 service.view.include.into.services.action.text:
-    text: Добавить в окно инструментов служб
+    text: Добавить в инструментальное окно служб
 service.view.items:
     text: '{0, choice, 1#1 элемент|1<{0,number,integer} элементов}'
 service.view.open.in.new.tab.ad.text:
-    text: Перетащите узел на заголовок окна инструмента, чтобы открыть новую вкладку
+    text: Перетащите узел на заголовок инструментального окна, чтобы открыть новую вкладку
 service.view.scroll.from.editor.action.description:
     text: Выбрать открытую службу в активном редакторе
 service.view.scroll.from.editor.action.name:
