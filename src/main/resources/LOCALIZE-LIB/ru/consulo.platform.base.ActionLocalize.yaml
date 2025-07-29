@@ -1684,6 +1684,8 @@ action.RenameFavoritesList.description:
     text: переименовать список избранного, к которому принадлежит выбранный узел
 action.RenameFavoritesList.text:
     text: Переименовать список избранного
+action.ReopenClosedTab.text:
+    text: Переоткрыть закрытую вкладку
 action.Replace.description:
     text: Наменить строку в активном редакторе другой строкой
 action.Replace.text:
@@ -2032,6 +2034,18 @@ action.TabList.description:
     text: Показать раскрывающийся список со списком всех вкладок в однострочном макете вкладок
 action.TabList.text:
     text: Показать все вкладки
+action.TabsAlphabeticalMode.text:
+    text: Отсортировать вкладки по имени файла
+action.TabsPlacementBottom.text:
+    text: Снизу
+action.TabsPlacementLeft.text:
+    text: Слева
+action.TabsPlacementNone.text:
+    text: Нигде
+action.TabsPlacementRight.text:
+    text: Справа
+action.TabsPlacementTop.text:
+    text: Сверху
 action.TechnicalSupport.description:
     text: Доступ к технической поддержке на веб-сайте Consulo
 action.TechnicalSupport.text:
@@ -2664,6 +2678,8 @@ group.ShowRecentFindUsagesGroup.text:
     text: Последние найденные использования
 group.StandardMacroActions.text:
     text: Стандартные макрокоманды
+group.TabsPlacementGroup.text:
+    text: Разместить вкладки
 group.TodoMainGroup.text:
     text: TODO
 group.TodoViewGroupByGroup.text:
