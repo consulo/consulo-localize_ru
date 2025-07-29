@@ -685,7 +685,7 @@ action.EditorIncreaseFontSize.text:
 action.EditorIndentSelection.text:
     text: Увеличить отступ выделения
 action.EditorJoinLines.text:
-    text: Соединить линии
+    text: Объединить строки
 action.EditorKillRegion.text:
     text: Убить выбранный регион
 action.EditorKillRingSave.text:
@@ -811,7 +811,7 @@ action.EditorTextStart.text:
 action.EditorTextStartWithSelection.text:
     text: Переместить курсор в начало текста с выделением
 action.EditorToggleCase.text:
-    text: Переключить регистр
+    text: Сменить регистр выделения
 action.EditorToggleColumnMode.description:
     text: Переключить режим выбора столбца в текущем редакторе
 action.EditorToggleColumnMode.text:
@@ -971,7 +971,7 @@ action.FileStructurePopup.text:
 action.FillParagraph.description:
     text: Переформатировать строковый литерал или комментарий, чтобы он соответствовал максимальной ширине (обычно 80)
 action.FillParagraph.text:
-    text: Заполнить абзац
+    text: Выровнять абзац
 action.Find.description:
     text: Поиск строки в активном редакторе
 action.Find.text:
