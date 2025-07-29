@@ -596,8 +596,6 @@ action.DumpIntentionsDescriptions.text:
     text: Дамп описания намерений
 action.DumpPsiMemoryCaches.text:
     text: Дамп того, что кэшировано в PSI
-action.EditBreakpoint.text:
-    text: Изменить
 action.EditFavorites.description:
     text: Изменить
 action.EditFavorites.text:
@@ -1034,6 +1032,10 @@ action.GenerateDTD.text:
     text: Создать DTD из файла _XML
 action.GenerateSuperMethodCall.text:
     text: Вызов супер-метода
+action.GoToLinkTarget.description:
+    text: Открывает цель этой символической ссылки в окне проекта
+action.GoToLinkTarget.text:
+    text: Перейти к цели ссылки
 action.GotoAction.description:
     text: Быстрый переход к действию по названию
 action.GotoAction.text:
@@ -1606,6 +1608,8 @@ action.ProjectViewChangeView.description:
     text: Выберите дерево Проекта, Sourcepath или Classpath в окне Вида проекта.
 action.ProjectViewChangeView.text:
     text: Изменить вид…
+action.ProjectViewEditSource.text:
+    text: Редактировать источник
 action.PsiViewer.text:
     text: _Просмотр стрктуры PSI…
 action.PsiViewerForContext.text:
