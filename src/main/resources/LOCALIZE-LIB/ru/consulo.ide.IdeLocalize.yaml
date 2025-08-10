@@ -46,8 +46,6 @@ action.ToggleAction.text.toggle.view:
     text: Переключить вид
 action.abbreviate.qualified.package.names:
     text: Сокращённые имена квалифицированных пакетов
-action.activate.tool.window:
-    text: Активировать окно {0}
 action.add:
     text: Добавить
 action.add.all.open.tabs.to.new.favorites.list:
@@ -186,8 +184,6 @@ action.group.by.scope.type:
     text: Группировать по типу области
 action.help:
     text: Справка
-action.hide.all.windows:
-    text: Скрыть все _окна
 action.hide.empty.middle.packages:
     text: Скрыть пустые средние пакеты
 action.hide.infos:
@@ -258,8 +254,6 @@ action.rename.favorites.list:
     text: Переименовать список избранного
 action.reset.to.default:
     text: Сбросить до значений по умолчанию
-action.restore.windows:
-    text: Восстановить _окна
 action.select.none:
     text: '&Ничего не выбирать'
 action.send.to.new.favorites.list:
@@ -323,7 +317,7 @@ action.structureview.show.properties:
 action.structureview.sort.by.visibility:
     text: Сортировка по видимости
 action.sync.completed.successfully:
-    text: 'Синхронизация файлов успешно завершена.'
+    text: Синхронизация файлов успешно завершена.
 action.synchronize.file:
     text: Синхронизировать «{0}»
 action.synchronize.selected.files:
@@ -383,7 +377,7 @@ activation.auth.message:
 activation.auth.title:
     text: Несанкционированная операция
 add.BOM:
-    text: Добвить BOM
+    text: Добавить BOM
 add.byte.order.mark.to:
     text: Добавить знак порядка байтов (BOM) в {0}
 add.local.scope.action.text:
@@ -1811,6 +1805,8 @@ plugin.version.label:
     text: Версия
 popup.title.edit.shortcuts:
     text: Изменить ярлыки
+popup.title.play.saved.macros:
+    text: Выполнить сохранённый макрос
 popup.title.select.library.type:
     text: Выберите тип библиотеки
 predefined.scope.problems.name:
@@ -2105,9 +2101,9 @@ radio.process.close.disconnect:
 radio.process.close.terminate:
     text: Завершить процесс
 recent.files.checkbox.label:
-    text: Показать только измененные
+    text: Показать только изменённые
 recent.locations.changed.locations:
-    text: Недавние измененные местоположения
+    text: Недавние изменённые местоположения
 recent.locations.popup.empty.file.text:
     text: Пустые строки
 recent.locations.popup.empty.text:
@@ -2115,7 +2111,9 @@ recent.locations.popup.empty.text:
 recent.locations.popup.title:
     text: Недавние местоположения
 recent.locations.title.text:
-    text: Показать измененные только
+    text: Показать только изменённые
+remove.BOM:
+    text: Убрать BOM
 repository.url.title:
     text: URL репозитория
 run.anything.action.tooltip.text:

@@ -178,12 +178,6 @@ checkbox.block.comment.at.first.column:
     text: Блокировать комментарий в первом столбце
 checkbox.caret.blinking.ms:
     text: 'Мигание курсора (мс):'
-checkbox.collapse.annotations:
-    text: <html>Аннотации</html>
-checkbox.collapse.anonymous.classes:
-    text: <html>Анонимные классы</html>
-checkbox.collapse.closures:
-    text: <html>«Замыкания» (анонимные классы, реализующие один метод)</html>
 checkbox.collapse.end.of.line.comments:
     text: <html>Последовательность комментариев в конце строки</html>
 checkbox.collapse.file.header:
@@ -202,8 +196,6 @@ checkbox.collapse.method.bodies:
     text: Тела методов
 checkbox.collapse.simple.property.accessors:
     text: <html>Простые методы доступа к свойствам<html>
-checkbox.collapse.suppress.warnings:
-    text: <html>@SuppressWarnings</html>
 checkbox.collapse.title.imports:
     text: Импорты
 checkbox.collapse.xml.tags:
@@ -303,7 +295,7 @@ checkbox.make.generated.local.variables.final:
 checkbox.make.generated.parameters.final:
     text: Пометить сгенерированные параметры как «final»
 checkbox.mark.modified.tabs.with.asterisk:
-    text: Пометить измененные вкладки звездочкой
+    text: Пометить изменённые вкладки звездочкой
 checkbox.next.error.action.goes.to.errors.first:
     text: Действие «Следующая ошибка» переходит только к проблемам с высоким приоритетом
 checkbox.optimize.imports.on.the.fly:
@@ -1022,6 +1014,8 @@ launcher.script.overwrite:
     text: Файл «{0}» уже существует. Хотите перезаписать его?
 launcher.script.sudo.prompt:
     text: Введите пароль, чтобы создать скрипт запуска в «{0}»
+launcher.script.title:
+    text: Создать запускающий скрипт
 ligatures.more.info:
     text: Дополнительная информация
 listbox.import.all.other.imports:
@@ -1079,7 +1073,7 @@ radio.activate.right.neighbouring.tab:
 radio.close.less.frequently.used.files:
     text: Закрыть редко используемые файлы
 radio.close.non.modified.files.first:
-    text: Сначала закрыть неизмененные файлы
+    text: Сначала закрыть неизменённые файлы
 radio.do.not.import:
     text: У меня нет предыдущей версии {0} или я не хочу импортировать свои настройки
 radio.import:
@@ -1088,7 +1082,7 @@ radio.import.auto:
     text: Я хочу импортировать свои настройки из предыдущей версии ({0})
 radio.insert.both.parentheses:
     text: Вставить «()»
-radio.insert.left.parathesis:
+radio.insert.left.parenthesis:
     text: Вставить «(»
 radio.prefer.comma.separated.import.list:
     text: Предпочитать список импортов, разделённых запятыми
@@ -1103,11 +1097,11 @@ radio.use.global.code.style:
 radio.use.per.project.code.style.scheme:
     text: Используйте схему стиля кода для каждого проекта
 reformat.changed.text.file.too.big.notification.groupId:
-    text: Переформатировать измененный текст
+    text: Переформатировать изменённый текст
 reformat.changed.text.file.too.big.notification.text:
     text: Файл {0} слишком большой или в нем слишком много изменений
 reformat.changed.text.file.too.big.notification.title:
-    text: Не удалось рассчитать измененные диапазоны
+    text: Не удалось рассчитать изменённые диапазоны
 remote.desktop.detected.message:
     text: Анимация отключена
 remote.desktop.detected.title:

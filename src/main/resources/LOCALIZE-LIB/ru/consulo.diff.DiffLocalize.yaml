@@ -97,7 +97,7 @@ diff.contents.have.differences.only.in.line.separators.or.whitespaces:
 diff.count.differences.status.text:
     text: '{0, choice, 0#нет различий|1#1 различие|2#{0, number} различий}'
 diff.dialog.select.change.action.description:
-    text: Выделить измененный текст в этой версии и соответствующий в других
+    text: Выделить изменённый текст в этой версии и соответствующий в других
 diff.dialog.select.change.action.name:
     text: Выбрать правку
 diff.element.qualified.name.vs.editor.dialog.title:
@@ -182,7 +182,7 @@ merge.dialog.apply.non.conflicted.changes.command:
     text: Применить неконфликтующие изменения
 merge.dialog.apply.partially.resolved.changes.confirmation.message:
     text: |-
-        Есть {0, choice, 0#|1#одна правка|2#{0, number} правок}{0, choice, 0#|1#'{1, choice, 0#|1# и }'}{1, choice, 0#|1#один конфликт|2#{1, number} конфликтов} остались необработанными.
+        {0, choice, 0#|1#одна правка|2#{0, number} правок}{0, choice, 0#|1#'{1, choice, 0#|1# и }'}{1, choice, 0#|1#один конфликт|2#{1, number} конфликтов} остались необработанными.
         Вы уверены, что хотите сохранить изменения и завершить слияние?
 merge.dialog.apply.right.non.conflicting.changes.action.name:
     text: Применить неконфликтующие изменения с правой стороны
