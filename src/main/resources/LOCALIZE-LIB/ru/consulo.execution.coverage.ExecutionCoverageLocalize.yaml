@@ -1,25 +1,25 @@
-action.GenerateCoverageReport.description:
+action.generate.coverage.report.description:
     text: Экспортировать отчёт о покрытии в HTML
-action.GenerateCoverageReport.text:
+action.generate.coverage.report.text:
     text: _Сгенерировать отчёт о покрытии…
-action.HideCoverage.description:
+action.hide.coverage.description:
     text: Закрыть все открытые отчёты о покрытии
-action.HideCoverage.text:
+action.hide.coverage.text:
     text: Скрыть покрытие кода
 action.ImportCoverage.description:
     text: Импортировать с диска отчёт, собранный в CI
 action.ImportCoverage.text:
     text: Импортировать внешний отчёт о покрытии…
-action.SwitchCoverage.description:
-    text: Проверить ранее открытые отчёты о покрытии
-action.SwitchCoverage.text:
-    text: Управление отчётами о покрытии…
-action.description.show.tests.covering.line:
-    text: Показать тесты, покрывающие строку
 action.name.cover:
     text: Покрытие
-action.text.show.tests.covering.line:
+action.show.tests.covering.line.description:
     text: Показать тесты, покрывающие строку
+action.show.tests.covering.line.text:
+    text: Показать тесты, покрывающие строку
+action.switch.coverage.description:
+    text: Проверить ранее открытые отчёты о покрытии
+action.switch.coverage.text:
+    text: Управление отчётами о покрытии…
 branch.coverage.message:
     text: |-
         Попаданий: {0}
@@ -154,6 +154,8 @@ following.test.could.not.be.found.1:
     text: 'Не удалось найти {0, choice, 1#следующий тест|2#следующие тесты}: {1}'
 generate.coverage.report.for:
     text: 'Создать отчет о покрытии для: «{0}»'
+group.coverage.menu.text:
+    text: Действия по покрытию кода
 hint.text.failed.to.load.covered.tests:
     text: Не удалось загрузить покрытые тесты
 hits.message:
@@ -183,7 +185,7 @@ node.summary.no.coverage:
 popup.title.tests.covering.line:
     text: Тесты, покрывающие строку {0}:{1}
 remote.suites.node:
-        text: Удалённый
+    text: Удалённый
 run.selected.configuration.with.coverage.enabled:
     text: Запустить выбранную конфигурацию с включённой проверкой покрытия
 run.with.coverage:

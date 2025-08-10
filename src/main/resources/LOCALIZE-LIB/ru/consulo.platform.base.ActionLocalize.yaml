@@ -115,9 +115,9 @@ action.ChangeInspectionProfile.description:
 action.ChangeInspectionProfile.text:
     text: Переключить выделение ошибки
 action.ChangeKeymap.description:
-    text: Изменить текущую раскладку
+    text: Выбрать другую схему горячих клавиш
 action.ChangeKeymap.text:
-    text: Переключить раскладку
+    text: Изменить схему горячих клавиш
 action.ChangeLaf.description:
     text: Изменить текущий стиль интерфейса
 action.ChangeLaf.text:
@@ -1026,8 +1026,6 @@ action.GenerateAntBuild.description:
     text: Создать файл сборки Ant из проекта
 action.GenerateAntBuild.text:
     text: _Сгенерировать Ant-файл…
-action.GenerateCoverageReport.text:
-    text: _Сгенерировать отчёт о покрытии
 action.GenerateDTD.text:
     text: Создать DTD из файла _XML
 action.GenerateSuperMethodCall.text:
@@ -1168,8 +1166,6 @@ action.HideAllWindows.description:
     text: Скрыть все инструментальные окна
 action.HideAllWindows.text:
     text: Скрыть _все инструментальные окна
-action.HideCoverageInfo.text:
-    text: Скрыть информацию о покрытии
 action.HideSideWindows.description:
     text: Скрыть все инструментальные окна с этой стороны
 action.HideSideWindows.text:
@@ -1263,7 +1259,7 @@ action.ImportSettings.description:
 action.ImportSettings.text:
     text: Импорт настроек…
 action.IncomingChanges.Get.description:
-    text: Получить последнюю версию файлов, измененных в выбранном списке изменений
+    text: Получить последнюю версию файлов, изменённых в выбранном списке изменений
 action.IncomingChanges.Get.text:
     text: Получить Changelist
 action.IncomingChanges.Refresh.description:
@@ -1510,6 +1506,8 @@ action.NextTab.description:
     text: Активировать следующую вкладку
 action.NextTab.text:
     text: Выбрать следующую вкладку
+action.NextTemplateParameter.text:
+    text: Следующий параметр
 action.NextTemplateVariable.text:
     text: Следующая переменная шаблона или завершить рефакторинг на месте
 action.OnlineDocAction.description:
@@ -1576,6 +1574,8 @@ action.PrevSplitter.description:
     text: Перейти к предыдущему окну разделителя
 action.PrevSplitter.text:
     text: Перейти к предыдущему разделителю
+action.PrevTemplateParameter.text:
+    text: Предыдущий параметр
 action.PreviousDiff.description:
     text: К предыдущему различию
 action.PreviousDiff.text:
@@ -1635,9 +1635,9 @@ action.RearrangeCode.description:
 action.RearrangeCode.text:
     text: Изменить порядок кода
 action.RecentChangedFiles.description:
-    text: Показать список недавно измененных файлов
+    text: Показать список недавно изменённых файлов
 action.RecentChangedFiles.text:
-    text: Недавно измененные файлы
+    text: Недавно изменённые файлы
 action.RecentChanges.text:
     text: _Недавние изменения
 action.RecentFiles.description:
@@ -1645,9 +1645,13 @@ action.RecentFiles.description:
 action.RecentFiles.text:
     text: _Недавние файлы
 action.RecentLocations.description:
-    text: Показать список недавно просмотренных / измененных местоположений
+    text: Показать список недавно просмотренных / изменённых местоположений
 action.RecentLocations.text:
     text: Недавние местоположения
+action.Refactorings.QuickListPopupAction.description:
+    text: Контекстно-зависимое всплывающее окно со списком действий по рефакторингу
+action.Refactorings.QuickListPopupAction.text:
+    text: Отрефакторить…
 action.ReformatCode.description:
     text: Переформатировать код
 action.ReformatCode.text:
@@ -1906,8 +1910,6 @@ action.ShowContent.text:
     text: Показать список вкладок
 action.ShowContent.views.text:
     text: Показать список представлений
-action.ShowCoverageInfo.text:
-    text: Показать информацию о компании
 action.ShowDiagram.text:
     text: Показать диаграмму
 action.ShowErrorDescription.description:
@@ -2022,10 +2024,8 @@ action.SurroundWithLiveTemplate.description:
     text: окружает выделение одним из шаблонов
 action.SurroundWithLiveTemplate.text:
     text: Окружить при помощи Live Tem_plate…
-action.SwitchCoverage.text:
-    text: Показать данные о покрытии кода
 action.Synchronize.description:
-    text: Обнаружить все измененные вовне файлы и перезагрузить их с диска
+    text: Обнаружить все изменённые вовне файлы и перезагрузить их с диска
 action.Synchronize.text:
     text: _Синхронизировать
 action.SynchronizeCurrentFile.text:
@@ -2035,7 +2035,7 @@ action.TabList.description:
 action.TabList.text:
     text: Показать все вкладки
 action.TabsAlphabeticalMode.text:
-    text: Отсортировать вкладки по имени файла
+    text: Сортировать вкладки по названию файла
 action.TabsPlacementBottom.text:
     text: Снизу
 action.TabsPlacementLeft.text:
@@ -2096,6 +2096,8 @@ action.TogglePowerSave.description:
     text: Режим энергосбережения отключает фоновый анализ кода и другие фоновые операции
 action.TogglePowerSave.text:
     text: Режим энергосбережения
+action.TogglePresentationAssistant.text:
+    text: Показ горячих клавиш и действий мыши на экране
 action.TogglePresentationMode.description:
     text: Переключить режим презентации
 action.TogglePresentationMode.text:
@@ -2275,9 +2277,9 @@ action.ViewToolBar.description:
 action.ViewToolBar.text:
     text: _Панель инструментов
 action.ViewToolButtons.description:
-    text: Показать/скрыть кнопки инструментального окна
+    text: Показать/скрыть кнопки инструментальных окон
 action.ViewToolButtons.text:
-    text: _Кнопки инструментов
+    text: _Панели инструментов
 action.VirtualFileInfo.text:
     text: Информация о виртуальном файле
 action.WelcomeScreen.Configure.DesktopEntry.description:
@@ -2407,7 +2409,7 @@ action.openAssertEqualsDiff.text:
 action.redo.description:
     text: Повторить {0}
 action.redo.description.empty:
-    text: последняя отменённая операция
+    text: последнюю отменённую операцию
 action.redo.text:
     text: _Повторить {0}
 action.serviceview.groupbyservicegroup.text:
@@ -2415,7 +2417,7 @@ action.serviceview.groupbyservicegroup.text:
 action.undo.description:
     text: Отменить {0}
 action.undo.description.empty:
-    text: последняя операция
+    text: последнюю операцию
 action.undo.text:
     text: _Отменить {0}
 geView.Include.text:
@@ -2462,6 +2464,8 @@ group.CommanderViewPopupMenu.text:
     text: Всплывающее меню файлового менеджера
 group.CommentGroup.text:
     text: Действия комментирования
+group.CompareActions.text:
+    text: Сравнить
 group.ConvertIndentsGroup.text:
     text: Преобразовать отступы
 group.Copy.Paste.Special.description:
@@ -2470,8 +2474,6 @@ group.Copy.Paste.Special.text:
     text: Копировать / Вставить как
 group.CopyReferencePopupGroup.text:
     text: Копировать путь…
-group.CoverageMenu.text:
-    text: Действия по покрытию кода
 group.CutCopyPasteGroup.text:
     text: Действия Вырезать/Копировать/Вставить
 group.DebugMainMenu.text:
@@ -2483,7 +2485,7 @@ group.EditCreateDeleteGroup.text:
 group.EditMenu.text:
     text: Пр_авка
 group.EditSelectGroup.text:
-    text: Действия выделения в редакторе
+    text: Выделение в редакторе
 group.EditSelectWordGroup.text:
     text: Действия выделения слова
 group.EditSmartGroup.text:

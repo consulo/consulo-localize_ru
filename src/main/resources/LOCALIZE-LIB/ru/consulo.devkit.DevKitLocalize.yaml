@@ -37,8 +37,6 @@ prepare.for.deployment.all:
 saved.message.common:
     text: "{0} будет сохранён в выбранном каталоге"
 saved.message:
-    text: "{0} будет сохранён в выбранном каталоге"
-saved.message:
     text: "{0, choice, 1#Zip|2#Jar} для модуля «{1}» был сохранён в {2}"
 success.deployment.message:
     text: "Модуль расширения «{0}» успешно подготовлен к развертыванию"
