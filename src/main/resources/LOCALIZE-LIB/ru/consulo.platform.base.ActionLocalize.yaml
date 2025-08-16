@@ -91,17 +91,17 @@ action.CaptureMemorySnapShot.description:
 action.CaptureMemorySnapShot.text:
     text: Сделать снимок памяти
 action.ChangeCodeStyleScheme.description:
-    text: Изменить текущую схему стиля кода
+    text: Выбрать текущую схему стиля кода
 action.ChangeCodeStyleScheme.text:
-    text: Схема стилей кода переключателя
+    text: Сменить стиль кода
 action.ChangeColorScheme.description:
-    text: Изменить текущую цветовую схему
+    text: Выбрать текущую цветовую схему
 action.ChangeColorScheme.text:
-    text: Переключить цветовую схему
+    text: Сменить цветовую схему
 action.ChangeCustomizationSchema.description:
     text: Изменить текущую схему настройки
 action.ChangeCustomizationSchema.text:
-    text: Схема настройки переключателя
+    text: Сменить схему настройки
 action.ChangeFileEncodingAction.description:
     text: Изменить кодировку файла
 action.ChangeFileEncodingAction.text:
@@ -111,17 +111,19 @@ action.ChangeFileEncodingGroupAction.description:
 action.ChangeFileEncodingGroupAction.text:
     text: Изменить кодировку файла
 action.ChangeInspectionProfile.description:
-    text: Изменить текущий профиль проверки редактора
+    text: Выбрать текущий профиль проверки редактора
 action.ChangeInspectionProfile.text:
-    text: Переключить выделение ошибки
+    text: Сменить подсветку ошибок
 action.ChangeKeymap.description:
     text: Выбрать другую схему горячих клавиш
 action.ChangeKeymap.text:
-    text: Изменить схему горячих клавиш
+    text: Сменить схему горячих клавиш
 action.ChangeLaf.description:
-    text: Изменить текущий стиль интерфейса
+    text: Выбрать другой стиль интерфейса
 action.ChangeLaf.text:
-    text: Переключить стиль интерфейса
+    text: Сменить стиль интерфейса
+action.ChangeLocalization.text:
+    text: Сменить язык интерфейса
 action.ChangeSignature.description:
     text: Изменить сигнатуру выбранного метода или класса и поправить все ссылки
 action.ChangeSignature.text:
@@ -2682,12 +2684,16 @@ group.StandardMacroActions.text:
     text: Стандартные макрокоманды
 group.TabsPlacementGroup.text:
     text: Разместить вкладки
+group.TemplateParametersNavigation.text:
+    text: Навигация по параметрам шаблона
 group.TodoMainGroup.text:
     text: TODO
 group.TodoViewGroupByGroup.text:
     text: Группировать по
 group.ToggleBreakpointAction.text:
     text: Действия точки останова
+group.ToggleFullScreenGroup.text:
+    text: Полноэкранный режим
 group.ToolWindowsGroup.text:
     text: _Инструментальные окна
 group.ToolbarFindGroup.text:
@@ -2730,6 +2736,8 @@ group.TouchBarDefault_ctrl.text:
     text: По умолчанию с клавишей Ctrl
 group.TouchBarDefault_shift.text:
     text: По умолчанию с клавишей Shift
+group.UIToggleActions.text:
+    text: Действия-переключатели
 group.Vcs.Browse.text:
     text: Просмотр репозитория VCS
 group.Vcs.Checkout.text:
