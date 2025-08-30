@@ -1,0 +1,124 @@
+action.collapse.linear.branches.description:
+    text: Свернуть последовательные ветви
+action.collapse.linear.branches.text:
+    text: Свернуть последовательные ветви
+action.collapse.merges.description:
+    text: Свернуть слияния
+action.collapse.merges.text:
+    text: Свернуть слияния
+action.compact.references.view.description:
+    text: Показывать только первую ссылку на коммит в таблице
+action.compact.references.view.text:
+    text: Свернуть ссылочный вид
+action.enable.filter.by.regex.text:
+    text: Регулярное выражение
+action.expand.linear.branches.description:
+    text: Развернуть последовательные ветви
+action.expand.linear.branches.text:
+    text: Развернуть последовательные ветви
+action.expand.merges.description:
+    text: Развернуть слияния
+action.expand.merges.text:
+    text: Развернуть слияния
+action.focus.text.filter.description:
+    text: Активировать текстовый фильтр или вернуть фокус к списку коммитов
+action.focus.text.filter.text:
+    text: Активировать текстовый фильтр
+action.go.to.ref.description:
+    text: Укажите хэш, название ветки или тега для перехода к коммиту, на который он указывает
+action.go.to.ref.text:
+    text: Перейти к хэшу/ветке/тегу
+action.intelli.sort.chooser.description:
+    text: Включить/выключить IntelliSort
+action.intelli.sort.chooser.parametrized:
+    text: '{0,choice, 0#Вы|1#В}ключить умную сортировку: {1}.'
+action.intelli.sort.chooser.popup.description:
+    text: Изменить тип умной сортировки
+action.intelli.sort.chooser.popup.parametrized:
+    text: 'Умная сортировка: {0}'
+action.intelli.sort.chooser.popup.text:
+    text: Умная сортировка
+action.intelli.sort.chooser.text:
+    text: Умная сортировка
+action.match.case.only.supported:
+    text: Учитывать регистр (только {0})
+action.match.case.text:
+    text: Учитывать регистр
+action.open.another.tab.description:
+    text: Открыть другую вкладку журнала
+action.open.another.tab.text:
+    text: Открыть другую вкладку журнала
+action.refresh.log.description:
+    text: Проверить наличие новых коммитов и обновить журнал при необходимости
+action.refresh.log.text:
+    text: Обновить
+action.show.commit.tooltip.description:
+    text: Показать подсказку для текущего выбранного коммита в журнале
+action.show.commit.tooltip.text:
+    text: Показать подсказку коммита
+action.show.details.description:
+    text: Показать панель подробностей
+action.show.details.text:
+    text: Показать подробности
+action.show.graph.history.description:
+    text: Показать историю в виде графика
+action.show.graph.history.text:
+    text: Показать историю в виде графика
+action.show.log.text:
+    text: Показать журнал контроля версий
+action.show.long.edges.description:
+    text: Показывать длинные рёбра веток, даже если коммиты не видны в текущем представлении
+action.show.long.edges.text:
+    text: Показать длинные рёбра
+action.show.roots.column.text:
+    text: Показать корневые названия
+action.show.tag.names.description:
+    text: Показывать теги в таблице
+action.show.tag.names.text:
+    text: Показывать теги
+graph.sort.linear.description:
+    text: В случае слияния отображать входящие коммиты поверх коммитов основной ветки, как если бы они были перебазированы
+graph.sort.linear.name:
+    text: Последовательно
+graph.sort.off.description:
+    text: Сортировать коммиты топологически и по дате коммита
+graph.sort.off.name:
+    text: По дате коммита
+graph.sort.standard.description:
+    text: В случае слияния отображать входящие коммиты первыми, непосредственно под коммитом слияния
+graph.sort.standard.name:
+    text: Топологически
+group.context.menu.text:
+    text: Контекстное меню журнала контроля версий
+group.highlight.separator:
+    text: Подсветка
+group.highlight.text:
+    text: Подсветка действий
+group.keymap.text:
+    text: Журнал
+group.quick.settings.description:
+    text: Быстрые настройки
+group.quick.settings.text:
+    text: Быстрые настройки
+group.quick.text.filter.settings.description:
+    text: Настройки текстового фильтра
+group.quick.text.filter.settings.text:
+    text: Настройки текстового фильтра
+group.settings.description:
+    text: Настройки
+group.settings.text:
+    text: Настройки
+group.text.filter.settings.description:
+    text: Настройки текстового фильтра
+group.text.filter.settings.text:
+    text: Настройки текстового фильтра
+group.toolbar.text:
+    text: Панель инструментов журнала контроля версий
+process.collapsing.linear.branches:
+    text: Сворачиваем последовательные ветви…
+process.collapsing.merges:
+    text: Сворачиваем слияния…
+process.expanding.linear.branches:
+    text: Разворачиваем последовательные ветви…
+process.expanding.merges:
+    text: Разворачиваем слияния…
