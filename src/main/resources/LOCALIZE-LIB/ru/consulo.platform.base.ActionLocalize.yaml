@@ -173,7 +173,7 @@ action.ChangesView.CreatePatchFromChanges.description:
 action.ChangesView.CreatePatchFromChanges.text:
     text: Создать патч…
 action.ChangesView.DeleteUnversioned.description:
-    text: ''
+    text: Удалить
 action.ChangesView.DeleteUnversioned.text:
     text: Удалить
 action.ChangesView.Diff.description:
@@ -185,7 +185,7 @@ action.ChangesView.Edit.description:
 action.ChangesView.Edit.text:
     text: Проверить
 action.ChangesView.Ignore.description:
-    text: Не показывать выбранные файлы как неверсированные
+    text: Не показывать выбранные файлы как неверсионированные
 action.ChangesView.Ignore.text:
     text: Игнорировать…
 action.ChangesView.Move.description:
@@ -212,9 +212,9 @@ action.ChangesView.Rename.description:
     text: Редактировать название и описание выбранного списка изменений
 action.ChangesView.Rename.text:
     text: Изменить список правок…
-action.ChangesView.Rollback.description:
+action.ChangesView.Revert.description:
     text: Откат выбранных изменений
-action.ChangesView.Rollback.text:
+action.ChangesView.Revert.text:
     text: Откат
 action.ChangesView.SetDefault.description:
     text: установить список изменений, в который по умолчанию помещаются новые изменения.
@@ -231,13 +231,13 @@ action.CheckForUpdate.text:
 action.CheckStatusForFiles.text:
     text: _Проверить статус
 action.CheckinFiles.text:
-    text: Check _In
+    text: _Закоммитить
 action.CheckinProject.text:
-    text: Check _In проект
+    text: _Закоммитить проект
 action.ClassNameCompletion.description:
     text: Полное название класса и добавление импорта для него
 action.ClassNameCompletion.text:
-    text: Class _Name Завершение
+    text: _Завершить название класса
 action.CloneElement.description:
     text: Создать копию выбранного класса, файла или каталога в том же пакете/каталоге
 action.CloneElement.text:
@@ -277,9 +277,9 @@ action.CloseProject.text:
 action.CloseWindow.text:
     text: Закрыть активное окно
 action.CodeCompletion.description:
-    text: Дополнить код
+    text: Дополнение кода
 action.CodeCompletion.text:
-    text: _Basic
+    text: _Базовое
 action.CodeInspection.OnEditor.description:
     text: Проверить код с настройками редактора
 action.CodeInspection.OnEditor.text:
@@ -316,6 +316,10 @@ action.CommentByLineComment.description:
     text: Закомментировать/раскомментировать текущую строку или выбранный блок строчными комментариями
 action.CommentByLineComment.text:
     text: Закомментировать _строчным комментарием
+action.CommittedChanges.Clear.description:
+    text: Удалить закэшированные ревизии
+action.CommittedChanges.Clear.text:
+    text: Очистить
 action.CommittedChanges.Details.description:
     text: Просмотр полной информации о выбранном списке изменений
 action.CommittedChanges.Details.text:
@@ -385,7 +389,7 @@ action.Console.History.Previous.description:
 action.Console.History.Previous.text:
     text: Предыдущий
 action.Console.SplitLine.text:
-    text: Split Line
+    text: Разбить строку
 action.ContextHelp.description:
     text: Показать контекстную справку
 action.ContextHelp.text:
@@ -708,10 +712,16 @@ action.EditorLineStart.text:
     text: Переместить курсор в начало строки
 action.EditorLineStartWithSelection.text:
     text: Переместить курсор в начало строки с выделением
+action.EditorLookupDown.text:
+    text: Поиск _вниз
+action.EditorLookupUp.text:
+    text: Поиск _вверх
 action.EditorMatchBrace.text:
     text: Переместить курсор к парной скобке
 action.EditorMoveDownAndScroll.text:
     text: Вниз с прокруткой
+action.ScrollTreeToCenter.text:
+    text: Прокрутить дерево в центр
 action.EditorMoveDownAndScrollWithSelection.text:
     text: Вниз и прокрутка с выделением
 action.EditorMoveToPageBottom.text:
@@ -1620,6 +1630,8 @@ action.QuickChangeScheme.description:
     text: Изменение текущей схемы стиля кода, схемы цвета и шрифтов, раскладки клавиатуры или стиля интерфейса
 action.QuickChangeScheme.text:
     text: _Схема быстрого переключения…
+action.QuickDocCopy.text:
+    text: Быстрое копирование документации
 action.QuickEvaluateExpression.description:
     text: Вычислить выбранное выражение
 action.QuickEvaluateExpression.text:
@@ -1736,6 +1748,10 @@ action.ReverteOverrideFileTypeAction.text:
     text: Отменить переопределение типа файла
 action.ReverteOverrideFileTypeAction.verbose.description:
     text: Отменить действие «Переопределить тип файла» и восстановить старый тип файла для файла «{0}»{1,choice,0#|1# (и ещё {1} файлов)}
+action.RunAnything.description:
+    text: Запустить любую команду
+action.RunAnything.text:
+    text: Запустить что угодно
 action.RunConfiguration.description:
     text: Выбрать конфигурацию запуска/отладки
 action.RunConfiguration.text:
@@ -1854,6 +1870,8 @@ action.Scratch.ChangeLanguage.description:
     text: Изменить язык файла
 action.Scratch.ChangeLanguage.text:
     text: Изменить язык файла
+action.ScrollTreeToCenter.text:
+    text: Прокрутить дерево в центр
 action.SearchEverywhere.text:
     text: Поиск везде
 action.SelectAllOccurrences.text:
@@ -1896,8 +1914,10 @@ action.ShelvedChanges.Rename.text:
     text: Переименовать…
 action.ShelvedChanges.Restore.text:
     text: Восстановить применённое изменение Shelve
+action.ShelvedChanges.ShowHideDeleted.description:
+    text: Показать/скрыть применённые отложенные изменения
 action.ShelvedChanges.ShowHideDeleted.text:
-    text: Показать/скрыть применённые изменения Shelve
+    text: Показать/скрыть применённые отложенные изменения
 action.ShelvedChanges.Unshelve.description:
     text: Применить сохраненные изменения к текущей кодовой базе
 action.ShelvedChanges.Unshelve.text:
@@ -1906,6 +1926,8 @@ action.ShowBackwardPackageDeps.description:
     text: Просмотреть код, в котором используется выбранный элемент анализа
 action.ShowBackwardPackageDeps.text:
     text: _Обратные зависимости…
+action.ShowColorPicker.text:
+    text: Показать выбор цветов
 action.ShowContent.description:
     text: Показать всплывающее окно со списком вкладок инструментального окна
 action.ShowContent.text:
@@ -2026,6 +2048,8 @@ action.SurroundWithLiveTemplate.description:
     text: окружает выделение одним из шаблонов
 action.SurroundWithLiveTemplate.text:
     text: Окружить при помощи Live Tem_plate…
+action.Switcher.text:
+    text: Переключатель
 action.Synchronize.description:
     text: Обнаружить все изменённые вовне файлы и перезагрузить их с диска
 action.Synchronize.text:
@@ -2208,6 +2232,8 @@ action.Vcs.IntegrateProject.text:
     text: _Интегрировать проект
 action.Vcs.ProjectStatus.text:
     text: _Проверить статус проекта
+action.Vcs.Push.text:
+    text: Отправить…
 action.Vcs.QuickListPopupAction.description:
     text: Всплывающее окно с контекстной информацией и списком часто используемых действий VCS
 action.Vcs.QuickListPopupAction.text:
@@ -2450,6 +2476,10 @@ group.BuildMenu.text:
     text: С_борка
 group.ChangeLineSeparators.text:
     text: Переводы строк
+group.ChangesViewPopupMenu.text:
+    text: Просмотр изменений
+group.ChangesViewToolbar.text:
+    text: Просмотр изменений
 group.CloseEditorsGroup.text:
     text: Действия при закрытии редактора
 group.CodeCompletionGroup.text:
@@ -2466,6 +2496,8 @@ group.CommanderViewPopupMenu.text:
     text: Всплывающее меню файлового менеджера
 group.CommentGroup.text:
     text: Действия комментирования
+group.CommittedChangesToolbar.text:
+    text: Панель инструментов закомиченных изменений
 group.CompareActions.text:
     text: Сравнить
 group.ConvertIndentsGroup.text:
@@ -2564,6 +2596,8 @@ group.HelpMenu.text:
     text: _Справка
 group.HierarchyGroup.text:
     text: Действия иерархии
+group.IncomingChangesToolbar.text:
+    text: Входящие изменения
 group.IntroduceActionsGroup.text:
     text: _Выделить
 group.LocalHistory.text:
@@ -2674,6 +2708,10 @@ group.ServiceView.GroupBy.text:
     text: Группировать по
 group.ServiceView.OpenInNewTabGroup.text:
     text: Открыть в новой вкладке
+group.Shelve.KeymapGroup.text:
+    text: Отложить
+group.ShelvedChangesPopupMenu.text:
+    text: Отложенные изменения
 group.ShowAnnotateOperationsPopupGroup.text:
     text: Аннотированная строка
 group.ShowRecentFindUsagesGroup.description:
@@ -2738,12 +2776,22 @@ group.TouchBarDefault_shift.text:
     text: По умолчанию с клавишей Shift
 group.UIToggleActions.text:
     text: Действия-переключатели
+group.Unversioned.Files.Dialog.text:
+    text: Диалог неверсионированных файлов
+group.UpdateActionGroup.text:
+    text: Обновить действия
 group.Vcs.Browse.text:
     text: Просмотр репозитория VCS
 group.Vcs.Checkout.text:
     text: Check_out из системы контроля версий
+group.Vcs.History.text:
+    text: История версий
 group.Vcs.Import.text:
     text: Импортировать в систему контроля версий
+group.Vcs.MessageActionGroup.text:
+    text: Действия с сообщениями VCS
+group.Vcs.Show.Toolwindow.Tab.text:
+    text: Показать вкладку инструментального окна контроля версий
 group.VcsFileGroupPopup.text:
     text: Группа контроля версий
 group.VcsGlobalGroup.text:
@@ -2752,6 +2800,8 @@ group.VcsGroup.text:
     text: Контроль версий
 group.VcsGroups.text:
     text: VC_S
+group.VcsNavBarToobarActions.text:
+    text: Навигация VCS
 group.VcsToobarActions.text:
     text: Действия VCS
 group.VersionControlsGroup.text:

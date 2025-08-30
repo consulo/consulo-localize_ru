@@ -758,6 +758,8 @@ dialog.title.choose.color:
     text: Выбрать цвет
 dialog.title.clear.read.only.file.status:
     text: Очистить статус «Только для чтения»
+dialog.title.color.picker:
+    text: Выбор цветов
 dialog.title.convert.module:
     text: Преобразовать модуль
 dialog.title.convert.project:
@@ -2137,7 +2139,7 @@ run.anything.console.process.finished:
 
         Процесс завершён с кодом выхода {0}.
 run.anything.console.title:
-    text: Запустить команду «что угодно»
+    text: Запустить любую команду
 run.anything.context.browse.directory:
     text: Обзор каталога…
 run.anything.context.project:
