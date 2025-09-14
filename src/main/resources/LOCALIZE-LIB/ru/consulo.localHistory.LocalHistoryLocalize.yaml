@@ -1,0 +1,112 @@
+action.create.patch:
+    text: Создать патч...
+action.put.label.text:
+    text: Добавить _метку...
+action.revert:
+    text: Отменить
+action.revert.selection:
+    text: Отменить выбор
+action.show.difference:
+    text: Показать разницу
+action.show.history.text:
+    text: Показать историю
+action.show.selection.history.text:
+    text: Показать историю для выбранного
+config.dialog.title:
+    text: Локальная история
+config.period:
+    text: Сохранять локальную историю для (активных рабочих дней)
+config.put.label.group:
+    text: Автоматическая маркировка при
+config.put.label.on.file.package.compilation:
+    text: Компиляции файла/пакета
+config.put.label.on.project.compilation:
+    text: Компиляции проекта
+config.put.label.on.project.make:
+    text: Сборке проекта
+config.put.label.on.project.opening:
+    text: Открытии проекта
+config.put.label.on.running.debugging:
+    text: Запуске/отладке
+config.put.label.on.unit.tests.failed:
+    text: Неуспешном прохождении юнит-тестов
+config.put.label.on.unit.tests.passed:
+    text: Успешном прохождении юнит-тестов
+content.not.available:
+    text: Содержимое файла недоступно
+create.patch.dialog.title:
+    text: Создать патч
+current.revision:
+    text: Текущий
+file.does.not.exist:
+    text: Файл не существует
+group.local.history.text:
+    text: Локальная история
+message.cannot.create.patch.because.of.unavailable.content:
+    text: |-
+        Невозможно создать патч, поскольку содержимое некоторых
+        из выбранных файлов не было сохранено из-за большого размера.
+message.cannot.revert.because:
+    text: Невозможно отменить, потому что {0}
+message.do.you.want.to.proceed:
+    text: |-
+        {0}
+
+        Хотите продолжить?
+message.error.during.create.patch:
+    text: 'Ошибка при создании патча: {0}'
+message.error.during.revert:
+    text: 'Ошибка при отмене: {0}'
+message.patch.created:
+    text: Файл патча создан
+message.processing.left.revision:
+    text: Обработка левой версии...
+message.processing.revisions:
+    text: Обработка версий...
+message.processing.right.revision:
+    text: Обработка правой версии...
+put.label.dialog.title:
+    text: Добавить метку
+put.label.name:
+    text: '&Название метки:'
+recent.changes.popup.title:
+    text: Последние изменения
+recent.changes.to.changes:
+    text: Нет изменений
+revert.error.directory.was.moved:
+    text: каталог был перемещён
+revert.error.file.already.exists:
+    text: файл с таким именем уже существует
+revert.error.files.already.exist:
+    text: некоторые файлы уже существуют
+revert.error.files.are.read.only:
+    text: некоторые файлы доступны только для чтения
+revert.error.files.were.moved:
+    text: некоторые файлы были перемещены за пределы каталога или из него
+revert.error.parent.was.renamed:
+    text: родительский каталог был переименован
+revert.message.some.files.have.unversioned.content:
+    text: |-
+        Следующие файлы содержали большой объём содержимого, которое не было версионировано.
+        {0}
+        Содержимое этих файлов не будет изменено во время отката, что может привести к повреждению кода.
+revisions.table.date:
+    text: Дата
+revisions.table.filesCount:
+    text: '{0} файл'
+revisions.table.period.old:
+    text: Старые изменения
+revisions.table.period.older:
+    text: Более старые
+revisions.table.period.recent:
+    text: Последние {0} часов
+revisions.table.revision:
+    text: Ревизия
+system.label.external.change:
+    text: Внешнее изменение
+system.label.project.open:
+    text: Проект открыт
+system.label.revert.to.change.date:
+    text: Возврат к «{0}» в {1}
+system.label.revert.to.date:
+    text: Возврат к {0}
