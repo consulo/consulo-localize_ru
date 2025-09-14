@@ -1081,9 +1081,9 @@ radio.after.creation.do.not.add:
 radio.after.creation.show.options:
     text: <html>Показать параметры перед добавлением<br/>в систему контроля версий</html>
 radio.after.deletion.do.not.remove:
-    text: удалять
+    text: &Не удалять
 radio.after.deletion.remove.silently:
-    text: без уведомления
+    text: &Удалить без уведомления
 radio.after.deletion.show.options:
     text: <html>Показать &параметры перед удалением<br/>из системы контроля версий</html>
 refresh.failed.message:
