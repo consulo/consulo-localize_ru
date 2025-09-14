@@ -176,10 +176,6 @@ action.ChangesView.DeleteUnversioned.description:
     text: Удалить
 action.ChangesView.DeleteUnversioned.text:
     text: Удалить
-action.ChangesView.Diff.description:
-    text: Показать разницу для выбранного изменения
-action.ChangesView.Diff.text:
-    text: Показать разницу
 action.ChangesView.Edit.description:
     text: Проверить выбранные файлы для редактирования
 action.ChangesView.Edit.text:
@@ -204,10 +200,6 @@ action.ChangesView.RemoveChangeList.description:
     text: Удалить список изменений и переместить все изменения в значения по умолчанию
 action.ChangesView.RemoveChangeList.text:
     text: Удалить список изменений
-action.ChangesView.RemoveDeleted.description:
-    text: Запланировать удаление выбранных файлов из VCS
-action.ChangesView.RemoveDeleted.text:
-    text: Удалить из VCS
 action.ChangesView.Rename.description:
     text: Редактировать название и описание выбранного списка изменений
 action.ChangesView.Rename.text:
@@ -228,12 +220,6 @@ action.CheckForUpdate.description:
     text: Проверить наличие доступных обновлений
 action.CheckForUpdate.text:
     text: _Проверить наличие обновлений…
-action.CheckStatusForFiles.text:
-    text: _Проверить статус
-action.CheckinFiles.text:
-    text: _Закоммитить
-action.CheckinProject.text:
-    text: _Закоммитить проект
 action.ClassNameCompletion.description:
     text: Полное название класса и добавление импорта для него
 action.ClassNameCompletion.text:
@@ -336,10 +322,6 @@ action.CommittedChanges.Revert.description:
     text: Применить к рабочей копии, обратную выбранным изменениям.
 action.CommittedChanges.Revert.text:
     text: Отменить изменения
-action.Compare.LastVersion.text:
-    text: Сравнить с _последней версии из репозитория
-action.Compare.SameVersion.text:
-    text: Сравнить с _той же версией из репозитория
 action.Compare.Selected.text:
     text: _Сравнить с…
 action.CompareClipboardWithSelection.description:
@@ -586,10 +568,6 @@ action.Diff.ShowDiff.description:
     text: Сравнить файлы или ревизии
 action.Diff.ShowDiff.text:
     text: Показать разницу
-action.Diff.UpdatedFiles.description:
-    text: Показать разницу с версией перед обновлением
-action.Diff.UpdatedFiles.text:
-    text: Показать разницу
 action.DropAnError.text:
     text: Выбросить ошибку
 action.DropAnOutOfMemoryError.text:
@@ -720,8 +698,6 @@ action.EditorMatchBrace.text:
     text: Переместить курсор к парной скобке
 action.EditorMoveDownAndScroll.text:
     text: Вниз с прокруткой
-action.ScrollTreeToCenter.text:
-    text: Прокрутить дерево в центр
 action.EditorMoveDownAndScrollWithSelection.text:
     text: Вниз и прокрутка с выделением
 action.EditorMoveToPageBottom.text:
@@ -1298,10 +1274,6 @@ action.InspectCode.description:
     text: Проверить код
 action.InspectCode.text:
     text: _Проверить код…
-action.IntegrateFiles.description:
-    text: Интегрировать выбранные файлы или каталоги
-action.IntegrateFiles.text:
-    text: Интегрировать
 action.IntroduceConstant.description:
     text: Создать константу из выбранного выражения (static final поле)
 action.IntroduceConstant.text:
@@ -1336,12 +1308,6 @@ action.JumpToLastWindow.description:
     text: Активировать последнее выделенное инструментальное окно
 action.JumpToLastWindow.text:
     text: _Перейти к последнему инструментальному окну
-action.LocalHistory.PutLabel.text:
-    text: _Пометить…
-action.LocalHistory.ShowHistory.text:
-    text: Показать _историю
-action.LocalHistory.ShowSelectionHistory.text:
-    text: Показать историю выбора
 action.LocalVcs.ShowRepHistory.text:
     text: История репозитория
 action.LocalVcs.ShowStatistics.description:
@@ -1740,6 +1706,10 @@ action.RestoreDefaultLayout.description:
     text: Восстановить схему расположения по умолчанию
 action.RestoreDefaultLayout.text:
     text: Восстановить схему расположения по _умолчанию
+action.RevealIn.name.mac:
+    text: Показать в Finder
+action.RevealIn.name.other:
+    text: Показать в {0}
 action.RevealIn.text:
     text: Показать в проводнике/Finder/Konqueror/Nautilus
 action.ReverteOverrideFileTypeAction.description:
@@ -2178,8 +2148,6 @@ action.Unwrap.description:
     text: Безопасно разворачивает или удаляет выбранную область
 action.Unwrap.text:
     text: _Раскрыть/Удалить…
-action.UpdateFiles.text:
-    text: _Обновить
 action.UpdateRunningApplication.text:
     text: Обновить запущенное приложение
 action.UsageView.Exclude.description:
@@ -2222,26 +2190,10 @@ action.Vcs.FileView.description:
     text: Показать информацию, связанную с контролем версий, для всех локальных файлов.
 action.Vcs.FileView.text:
     text: Показать файловый вид
-action.Vcs.IncludeAction.description:
-    text: Включить в коммит
-action.Vcs.IncludeAction.text:
-    text: Включить в фиксацию
-action.Vcs.IntegrateProject.description:
-    text: Интегрировать проект
-action.Vcs.IntegrateProject.text:
-    text: _Интегрировать проект
 action.Vcs.ProjectStatus.text:
     text: _Проверить статус проекта
 action.Vcs.Push.text:
     text: Отправить…
-action.Vcs.QuickListPopupAction.description:
-    text: Всплывающее окно с контекстной информацией и списком часто используемых действий VCS
-action.Vcs.QuickListPopupAction.text:
-    text: Всплывающее окно операций VCS…
-action.Vcs.RefreshStatuses.description:
-    text: Обновить статус VCS для всех файлов в проекте
-action.Vcs.RefreshStatuses.text:
-    text: _Обновить статус файла
 action.Vcs.RollbackChangedLines.description:
     text: Откат изменений в выбранных строках
 action.Vcs.RollbackChangedLines.text:
@@ -2258,28 +2210,12 @@ action.Vcs.ShowHistoryForBlock.description:
     text: Показать историю выбора редактора
 action.Vcs.ShowHistoryForBlock.text:
     text: Показать историю _для выбора
-action.Vcs.ShowMessageHistory.description:
-    text: Показать историю сообщений фиксации
-action.Vcs.ShowMessageHistory.text:
-    text: История сообщений
-action.Vcs.ShowTabbedFileHistory.description:
-    text: Показать историю изменений файла
-action.Vcs.ShowTabbedFileHistory.text:
-    text: Показать _историю изменений
 action.Vcs.UpdateProject.text:
     text: _Обновить проект
 action.VcsHistory.ShowAllAffected.description:
     text: Показать все изменения, сделанные в выбранной ревизии
 action.VcsHistory.ShowAllAffected.text:
     text: Показать все затронутые файлы
-action.VcsShowNextChangeMarker.description:
-    text: Перейти к следующему изменению
-action.VcsShowNextChangeMarker.text:
-    text: Следующая _правка
-action.VcsShowPrevChangeMarker.description:
-    text: Перейти к предыдущему изменению
-action.VcsShowPrevChangeMarker.text:
-    text: Предыдущая пр_авка
 action.ViewImportPopups.description:
     text: Переключить отображение всплывающих окон импорта в текущем файле
 action.ViewImportPopups.text:
@@ -2580,8 +2516,6 @@ group.FoldingGroup.text:
     text: Сворачивание
 group.GenerateGroup.text:
     text: _Сгенерировать
-group.GoToChangeMarkerGroup.text:
-    text: Изменить действия навигации
 group.GoToCodeGroup.text:
     text: Перейти к действиям по ссылке
 group.GoToErrorGroup.text:
@@ -2600,8 +2534,6 @@ group.IncomingChangesToolbar.text:
     text: Входящие изменения
 group.IntroduceActionsGroup.text:
     text: _Выделить
-group.LocalHistory.text:
-    text: Локальная _история
 group.Macros.description:
     text: Просмотр, изменение, запись, воспроизведение макросов
 group.Macros.text:
@@ -2778,34 +2710,6 @@ group.UIToggleActions.text:
     text: Действия-переключатели
 group.Unversioned.Files.Dialog.text:
     text: Диалог неверсионированных файлов
-group.UpdateActionGroup.text:
-    text: Обновить действия
-group.Vcs.Browse.text:
-    text: Просмотр репозитория VCS
-group.Vcs.Checkout.text:
-    text: Check_out из системы контроля версий
-group.Vcs.History.text:
-    text: История версий
-group.Vcs.Import.text:
-    text: Импортировать в систему контроля версий
-group.Vcs.MessageActionGroup.text:
-    text: Действия с сообщениями VCS
-group.Vcs.Show.Toolwindow.Tab.text:
-    text: Показать вкладку инструментального окна контроля версий
-group.VcsFileGroupPopup.text:
-    text: Группа контроля версий
-group.VcsGlobalGroup.text:
-    text: Группа систем контроля версий
-group.VcsGroup.text:
-    text: Контроль версий
-group.VcsGroups.text:
-    text: VC_S
-group.VcsNavBarToobarActions.text:
-    text: Навигация VCS
-group.VcsToobarActions.text:
-    text: Действия VCS
-group.VersionControlsGroup.text:
-    text: Действия VCS/LVCS
 group.ViewMenu.text:
     text: _Вид
 group.ViewRecentActions.text:
@@ -2820,6 +2724,8 @@ group.WeighingNewGroup.text:
     text: _Создать
 group.WindowMenu.text:
     text: _Окно
+group.XDebugger.AttachGroup.description:
+    text: Вложение
 group.XDebugger.settings.description:
     text: Настройки
 group.XDebugger.settings.text:

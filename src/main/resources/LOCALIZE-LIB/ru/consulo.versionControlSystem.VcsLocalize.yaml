@@ -4,6 +4,26 @@ action.NotificationAction.VcsRootProblemNotifier.text.enable.integration:
     text: Включить интеграцию
 action.NotificationAction.VcsRootProblemNotifier.text.ignore:
     text: Игнорировать
+action.changes.view.diff.description:
+    text: Показать разницу для выбранного изменения
+action.changes.view.diff.text:
+    text: Показать разницу
+action.changes.view.remove.deleted.description:
+    text: Запланировать удаление выбранных файлов из VCS
+action.changes.view.remove.deleted.text:
+    text: Удалить из VCS
+action.check.in.files.text:
+    text: _Закоммитить
+action.check.in.project.text:
+    text: _Закоммитить проект
+action.check.status.for.files.text:
+    text: _Проверить статус
+action.compare.last.version.text:
+    text: Сравнить с _последней версии из репозитория
+action.compare.same.version.text:
+    text: Сравнить с _той же версией из репозитория
+action.compare.specified.text:
+    text: _Сравнить с указанной версией…
 action.description.compare:
     text: Сравнить версии
 action.description.compare.with.local:
@@ -14,6 +34,10 @@ action.description.get.file.content.from.repository:
     text: Получить версию из репозитория
 action.desctiption.refresh:
     text: Обновить историю файлов
+action.diff.updated.files.description:
+    text: Показать разницу с версией перед обновлением
+action.diff.updated.files.text:
+    text: Показать разницу
 action.display.name.check.scope.status:
     text: Проверить статус {0}
 action.display.name.integrate.scope:
@@ -34,6 +58,18 @@ action.force.push.is.prohibited.description:
     text: Принудительная отправка в <b>{0}</b> запрещена.
 action.force.push.to.confirmation.text:
     text: Вы собираетесь принудительно отправить в {0}. Это может перезаписать коммиты на удалённом сервере. Вы уверены, что хотите продолжить?
+action.include.description:
+    text: Включить в коммит
+action.include.text:
+    text: Включить в фиксацию
+action.integrate.files.description:
+    text: Интегрировать выбранные файлы или каталоги
+action.integrate.files.text:
+    text: Интегрировать
+action.integrate.project.description:
+    text: Интегрировать проект
+action.integrate.project.text:
+    text: _Интегрировать проект
 action.name.check.scope.status:
     text: Состояние Chec_k {0}
 action.name.check.status:
@@ -102,8 +138,42 @@ action.name.update.scope:
     text: _Обновить {0}
 action.push:
     text: '&Отправить'
+action.quick.list.popup.description:
+    text: Всплывающее окно с контекстной информацией и списком часто используемых действий VCS
+action.quick.list.popup.text:
+    text: Всплывающее окно операций VCS…
+action.refresh.statuses.description:
+    text: Обновить статус VCS для всех файлов в проекте
+action.refresh.statuses.text:
+    text: _Обновить статус файла
 action.revert.selected.changes.text:
     text: Откатить выбранные изменения
+action.show.current.revision.text:
+    text: Показать текущую версию
+action.show.local.changes.text:
+    text: Показать локальные изменения
+action.show.message.history.description:
+    text: Показать историю сообщений фиксации
+action.show.message.history.text:
+    text: История сообщений
+action.show.next.change.marker.description:
+    text: Перейти к следующему изменению
+action.show.next.change.marker.text:
+    text: Следующая _правка
+action.show.prev.change.marker.description:
+    text: Перейти к предыдущему изменению
+action.show.prev.change.marker.text:
+    text: Предыдущая пр_авка
+action.show.shelf.text:
+    text: Показать отложенное
+action.show.tabbed.file.history.description:
+    text: Показать историю изменений файла
+action.show.tabbed.file.history.text:
+    text: Показать _историю изменений
+action.toolbar.label.text:
+    text: Лого VCS
+action.update.files.text:
+    text: _Обновить
 acton.name.get.revision:
     text: Получить ревизию
 add.confirmation.label.text:
@@ -644,8 +714,38 @@ get.committed.changes.intersecting.prompt:
         Изменения в выбранных файлах из этих списков изменений также будут загружены.
 get.committed.changes.title:
     text: Получить список изменений
+group.browse.text:
+    text: Просмотр репозитория VCS
+group.checkout.text:
+    text: _Извлечь из системы контроля версий
+group.file.group.popup.text:
+    text: Группа контроля версий
+group.global.group.text:
+    text: Группа систем контроля версий
+group.go.to.change.marker.text:
+    text: Изменить действия навигации
+group.history.text:
+    text: История версий
+group.import.text:
+    text: Импортировать в систему контроля версий
+group.message.actions.text:
+    text: Действия с сообщениями VCS
 group.name.version.control:
     text: '&VCS'
+group.nav.bar.toobar.actions.text:
+    text: Навигация VCS
+group.show.toolwindow.tab.text:
+    text: Показать вкладку инструментального окна контроля версий
+group.toobar.actions.text:
+    text: Действия VCS
+group.update.actions.text:
+    text: Обновить действия
+group.vcs.group.text:
+    text: Контроль версий
+group.vcs.groups.text:
+    text: VC_S
+group.version.controls.group.text:
+    text: Действия VCS/LVCS
 handle.ro.file.status.type.using.file.system:
     text: Использует файловую систему
 handle.ro.file.status.type.using.vcs:
@@ -882,8 +982,12 @@ outdated.version.update.project.action:
     text: Обновить проект
 patch.apply.already.applied:
     text: Все изменения в указанном патче уже содержатся в коде
+patch.apply.analyze.from.clipboard.on.the.fly.checkbox:
+    text: Анализировать и применять патч из буфера обмена «на лету»
 patch.apply.base.directory.field:
     text: '&Базовый каталог:'
+patch.apply.cannot.apply.now:
+    text: Невозможно применить исправление
 patch.apply.changes.in.patch.resolve:
     text: '{0} в разрешении патча'
 patch.apply.command:
@@ -1040,6 +1144,8 @@ shelved.version.name:
     text: Отложенная версия
 shelvedChanges.delete.title:
     text: Удалить отложенный список изменений
+show.diff.from.annotation.action.error.can.not.load.data.to.show.diff:
+    text: Невозможно загрузить данные для отображения различий
 show.diff.progress.title:
     text: Загрузка содержимого…
 show.diff.progress.title.detailed:
@@ -1207,4 +1313,4 @@ vcs.shelf.action.restore.text:
 version.control.main.configurable.name:
     text: Управление версиями
 waiting.changelists.update.for.show.commit.dialog.message:
-    text: Диалог фиксации
+    text: Диалог коммита
