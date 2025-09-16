@@ -1252,7 +1252,7 @@ import.project.chooser.header:
 incompatible.encoding.dialog.title:
     text: 'Несовместимая кодировка: {0}'
 install.package.failure:
-    text: Произошла ошибка при установке пакета «{0}». <a href="xxx">Подробности...</a>
+    text: Произошла ошибка при установке пакета «{0}». <a href="xxx">Подробности…</a>
 item.file.templates:
     text: Шаблоны файлов
 jar.build.include.in.jar.file:
@@ -1454,7 +1454,7 @@ listbox.customfiletype.keywords:
 loading.editors:
     text: Загрузка файлов…
 loading.in.progress:
-    text: '<html><body style=''''text-align: center;padding-top:20px;''''>Загрузка...</body></html>'
+    text: '<html><body style=''''text-align: center;padding-top:20px;''''>Загрузка…</body></html>'
 local.scopes.node.text:
     text: Локальные области
 low.disk.space.message:
@@ -2675,7 +2675,7 @@ treenode.loading:
 ui.settings:
     text: Настройки пользовательского интерфейса
 uninstall.packages.failed:
-    text: Не удалось удалить пакеты. <a href="xxx">Подробности...</a>
+    text: Не удалось удалить пакеты. <a href="xxx">Подробности…</a>
 uninstall.packages.failed.dialog.title:
     text: Не удалось удалить пакеты
 unknown.error:
@@ -2773,7 +2773,7 @@ updates.timeout.error:
 upgrade.package.failed.title:
     text: Обновление пакетов не удалось.
 upgrade.packages.failed:
-    text: Обновление пакетов не удалось. <a href="xxx">Подробности...</a>
+    text: Обновление пакетов не удалось. <a href="xxx">Подробности…</a>
 upgrade.packages.failed.dialog.title:
     text: Обновление пакетов не удалось
 use.sun.jdk.prompt:

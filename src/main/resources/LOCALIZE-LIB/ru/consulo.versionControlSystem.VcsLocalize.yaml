@@ -47,7 +47,7 @@ action.display.name.update:
 action.display.name.update.scope:
     text: Обновить {0}
 action.enable.version.control.integration.text:
-    text: _Включить интеграцию с системой контроля версий...
+    text: _Включить интеграцию с системой контроля версий…
 action.force.push:
     text: '&Принудительная отправка'
 action.force.push.can.be.enabled.description:
@@ -179,7 +179,7 @@ acton.name.get.revision:
 add.confirmation.label.text:
     text: 'При создании файлов с помощью {0}:'
 all.vcs.init.message.text:
-    text: Инициализация VCS...
+    text: Инициализация VCS…
 annotate.action.description:
     text: Добавить аннотацию к файлу
 annotate.action.name:
@@ -199,7 +199,7 @@ apply.patch.create.dirs.prompt.footer:
 apply.patch.create.dirs.prompt.header:
     text: "Патч содержит файлы в следующих несуществующих каталогах:\n"
 apply.patch.progress.verifying:
-    text: Проверка...
+    text: Проверка…
 apply.patch.summary.title:
     text: 'Краткое содержание:'
 background.operations.title:
@@ -258,11 +258,11 @@ browse.changes.show.recent.button:
 browse.changes.title:
     text: Просмотреть изменения
 button.configure:
-    text: '&Настроить VCS...'
+    text: '&Настроить VCS…'
 button.configure.history.cache:
-    text: Настроить &кэш истории...
+    text: Настроить &кэш истории…
 button.configure.ignored.files:
-    text: Настроить &игнорируемые файлы...
+    text: Настроить &игнорируемые файлы…
 button.search.again:
     text: Искать снова
 button.text.overwrite.modified.file:
@@ -382,7 +382,7 @@ changes.nodetitle.switched.roots:
 changes.nodetitle.unversioned.files:
     text: Неверсионированные файлы
 changes.nodetitle.updating:
-    text: (обновление...)
+    text: (обновление…)
 changes.remove.active.empty.prompt:
     text: 'Выберите список изменений, который нужно сделать активным:'
 changes.remove.active.prompt:
@@ -497,7 +497,7 @@ commit.dialog.no.changes.detected.text:
 commit.dialog.no.changes.detected.title:
     text: Нечего коммитить
 commit.dialog.refresh.files:
-    text: Синхронизация файлов...
+    text: Синхронизация файлов…
 commit.dialog.rejected.commit.template:
     text: 'Отклонённый коммит: {0}'
 commit.dialog.title:
@@ -753,13 +753,13 @@ handle.ro.file.status.type.using.vcs:
 highlight.annotation.after.description:
     text: Выделяет ревизии, следующие за выбранной или равные ей.
 highlight.annotation.after.not.selected.text:
-    text: Показать после...
+    text: Показать после…
 highlight.annotation.after.selected.text:
     text: Показать после ({0})
 highlight.annotation.before.description:
     text: Выделяет ревизии, следующие за выбранной или равные ей.
 highlight.annotation.before.not.selected.text:
-    text: Показать до...
+    text: Показать до…
 highlight.annotation.before.selected.text:
     text: Показать до ({0})
 history.copy.revision.number:
@@ -1035,7 +1035,7 @@ patch.file.type.description:
 patch.load.base.revision.error:
     text: 'Не удалось загрузить базовую версию исправления для файла {0}: {1}'
 patch.load.progress:
-    text: Загрузка...
+    text: Загрузка…
 patch.summary.changed.files:
     text: "измен{0,choice,1#ён {0} файл|2#ено {0} файлов}"
 patch.summary.deleted.files:
@@ -1265,7 +1265,7 @@ update.group.name.updated.from.server:
 update.info.group.by.changelist:
     text: Группировать по списку изменений
 update.info.loading.changelists:
-    text: Загрузка списков изменений...
+    text: Загрузка списков изменений…
 update.project.scope.name:
     text: Проект
 update.tree.node.size.statistics:

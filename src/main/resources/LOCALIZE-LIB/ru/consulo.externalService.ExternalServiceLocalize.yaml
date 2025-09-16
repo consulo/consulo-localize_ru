@@ -45,7 +45,7 @@ diagnostic.error.report.login.password:
 diagnostic.error.report.send:
     text: '&Отправить'
 diagnostic.error.report.submit.error.anonymously:
-    text: <html>Отправить отчёт анонимно или использовать <a>учётную запись Consulo...</a></html>
+    text: <html>Отправить отчёт анонимно или использовать <a>учётную запись Consulo…</a></html>
 diagnostic.error.report.submit.report.as:
     text: <html>Отправить отчёт как <a>{0}</a></html>
 diagnostic.out.of.memory.continue:
@@ -125,7 +125,7 @@ error.list.clear.action:
 error.list.close.action:
     text: З_акрыть
 error.list.disable.plugin:
-    text: '&Отключить расширение...'
+    text: '&Отключить расширение…'
 error.list.disable.plugin.0:
     text: Отключить расширение {0}
 error.list.empty:
@@ -257,7 +257,7 @@ plugin.status.not.specified:
 progress.connecting.to.plugin.manager:
     text: Подключение к {0}
 progress.download.plugins:
-    text: Загрузка...
+    text: Загрузка…
 progress.downloading.list.of.plugins:
     text: Загрузка списка расширений
 progress.downloading.platform:
@@ -267,7 +267,7 @@ progress.downloading.plugin:
 progress.extracting.platform:
     text: Распаковка платформы
 progress.installing.plugins:
-    text: Установка расширение...
+    text: Установка расширение…
 prompt.download.and.install.plugin:
     text: Хотите загрузить и установить расширение «{0}»?
 prompt.install.several.plugins:
@@ -333,7 +333,7 @@ whatsnew.action.custom.text:
 whatsnew.commit.label:
     text: 'коммит:'
 whatsnew.loading.text:
-    text: Получение списка изменений...
+    text: Получение списка изменений…
 whatsnew.no.changes.text:
     text: Без изменений
 whatsnew.platform.text:
