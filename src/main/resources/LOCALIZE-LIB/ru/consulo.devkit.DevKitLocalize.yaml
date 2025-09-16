@@ -241,15 +241,15 @@ inspections.component.not.registered.quickfix.name:
 inspections.component.not.registered.quickfix.error:
     text: "Невозможно зарегистрировать {0}"
 inspections.annotation.0.is.required.at.owner.or.app.run:
-    text: "Нужна аннотация @Required{0}Action у владельца или запускайте код внутри Application#run{0}Action(...)"
+    text: "Нужна аннотация @Required{0}Action у владельца или запускайте код внутри Application#run{0}Action(…)"
 inspections.annotation.0.is.required.at.owner.or.app.run.dispath:
-    text: "Нужна аннотация @RequiredRequiredDispatchThread у владельца или запускайте код внутри UIUtil.invokeLaterIfNeeded(...)"
+    text: "Нужна аннотация @RequiredRequiredDispatchThread у владельца или запускайте код внутри UIUtil.invokeLaterIfNeeded(…)"
 inspections.annotation.0.is.required.at.owner.or.app.run.ui:
-    text: "Нужна аннотация @RequiredUIAcess у владельца или запускайте код внутри UIAccess.give(...)"
+    text: "Нужна аннотация @RequiredUIAcess у владельца или запускайте код внутри UIAccess.give(…)"
 inspections.replace.with.xxxlocalize.title:
     text: "Заменить xBundle.message() на xLocalize"
 inspections.replace.with.xxxlocalize:
-    text: "Заменить на {0}.{1}(...)"
+    text: "Заменить на {0}.{1}(…)"
 inspections.get.extension.point.validation.title:
     text: Проверка вызова ConfigurationType.getExtensionPoint()
 inspections.get.extension.point.validation.no.annotation:
@@ -283,7 +283,7 @@ copy.artifacts.before.run.description.single:
 copy.artifacts.before.run.description.multiple:
     text: "Копировать артефакты {0}"
 action.DownloadDependencies.text:
-    text: "Загрузить/обновить зависимости..."
+    text: "Загрузить/обновить зависимости…"
 label.program.parameters:
     text: "Параметры программы:"
 label.vm.parameters:
@@ -313,7 +313,7 @@ localize.editor.notification.locale.0.text:
 localize.editor.notification.sort.action:
     text: "Сортировать"
 localize.editor.notification.sort.in.progress:
-    text: "Сортируем..."
+    text: "Сортируем…"
 localize.editor.notification.sort.process.name:
     text: "Сортируем ключи"
 invocation.state.validate.inspection.display.name:
@@ -405,7 +405,7 @@ use.couple.inspection.message.constructor:
 use.dpi.aware.insets.inspection.display.name:
     text: "Использовать отступы с поддержкой DPI"
 use.dpi.aware.insets.inspection.message:
-    text: "Заменить на JBUI.insets(...)"
+    text: "Заменить на JBUI.insets(…)"
 use.gray.inspection.display.name:
     text: "Использовать new Color(a,a,a)"
 use.gray.inspection.message:
