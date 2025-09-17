@@ -580,6 +580,8 @@ action.DumpIntentionsDescriptions.text:
     text: Дамп описания намерений
 action.DumpPsiMemoryCaches.text:
     text: Дамп того, что кэшировано в PSI
+action.EditBreakpoint.text:
+    text: Редактировать точку останова
 action.EditFavorites.description:
     text: Изменить
 action.EditFavorites.text:
@@ -1958,6 +1960,8 @@ action.ShowQuickDocAtPinnedWindowFromTooltip.description:
     text: Показать полную документацию в закреплённом окне
 action.ShowQuickDocAtPinnedWindowFromTooltip.text:
     text: Полная документация в закреплённом окне
+action.ShowReformatFileDialog.text:
+    text: Переформатировать файл…
 action.ShowRegistry.text:
     text: Реестр
 action.ShowSettingsAndFindUsages.description:

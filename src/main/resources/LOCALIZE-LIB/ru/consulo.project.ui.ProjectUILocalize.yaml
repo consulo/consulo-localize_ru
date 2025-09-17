@@ -18,8 +18,32 @@ action.notification.show.balloons.description:
     text: Включить или отключить всплывающие уведомления
 action.notification.show.balloons.text:
     text: Показывать всплывающие уведомления
+action.recent.projects.edit.group.text:
+    text: Редактировать…
+action.recent.projects.move.to.group.text:
+    text: Переместить в группу
+action.recent.projects.new.group.text:
+    text: Создать группу
+action.recent.projects.open.selected.project.text:
+    text: Открыть
+action.recent.projects.open.selected.projects.text:
+    text: Открыть все
+action.recent.projects.remove.selected.text:
+    text: Удалить
 action.restore.windows:
     text: _Восстановить инструментальные окна
+dialog.message.recent.projects.project.group.name:
+    text: Название группы проектов
+dialog.title.recent.projects.change.group.name:
+    text: Изменить название группы
+dialog.title.recent.projects.create.new.project.group:
+    text: Создать новую группу проектов
+error.recent.projects.group.already.exists:
+    text: 'Группа «{0}» уже существует.'
+error.recent.projects.name.cannot.be.empty:
+    text: Название не должно быть пустым.
+label.recent.projects.enter.group.name:
+    text: 'Введите название группы:'
 toolwindow.messages.display.name:
     text: Сообщения
 toolwindow.notifications.display.name:
