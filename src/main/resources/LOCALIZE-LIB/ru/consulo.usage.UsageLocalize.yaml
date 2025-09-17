@@ -50,6 +50,8 @@ dialog.rerun.search:
     text: Хотите повторить поиск?
 dialog.title.information:
     text: Информация
+files.are.too.large.large.and.cannot.be.scanned:
+    text: '{0,choice, 1#Файл|2#Файлы} {1} слишком больш{0,choice, 1#ой|2#ие} и не могут быть просканированы'
 find.excessive.usage.count.prompt:
     text: Пока найдено {0} использований. Вы уверены, что хотите продолжить?
 find.excessive.usages.title:
@@ -58,6 +60,16 @@ find.file.size.megabytes:
     text: '{0} мегабайт'
 large.files.were.ignored:
     text: '{0,choice, 0#Нет|1#1 слишком большой файл был проигнорирован|2#{0,number} слишком больших файлов были проигнорированы}'
+link.display.name.find.options:
+    text: Свойства поиска…
+link.display.name.search.in.project:
+    text: Искать в проекте
+message.include.them:
+    text: Включить их
+message.occurrences.in.project.configuration.files.are.skipped:
+    text: Вхождения в файлах конфигурации проекта пропускаются.
+message.only.one.usage.found:
+    text: Найдено только одно использование.
 message.part.large.number.of.unloaded.modules:
     text: '{0} выгруженных модулей: {1} и {2} других выгруженных модулей'
 message.part.number.of.unloaded.modules:
@@ -68,6 +80,8 @@ message.part.unloaded.module.0:
     text: не загруженный модуль ''{0}''
 message.there.may.be.usages.in.0.load.all.modules.and.repeat:
     text: В {0} могут быть использования. Загрузите все модули и повторите рефакторинг, чтобы убедиться, что все использования будут обновлены.
+message.usage.search.was.canceled:
+    text: Поиск использований был отменён
 no.usages.found.in:
     text: Не найдено использований в {0}
 node.found.usages:

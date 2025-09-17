@@ -1,0 +1,88 @@
+action.description.todo.show.all:
+    text: Показать все элементы TODO
+action.filter.todo.items:
+    text: Фильтрация элементов TODO
+action.flatten.view:
+    text: Свести вид
+action.group.by.modules:
+    text: Группировать по модулям
+action.group.by.packages:
+    text: Группировать по пакетам
+action.next.todo:
+    text: Следующий TODO
+action.previous.todo:
+    text: Предыдущий TODO
+action.todo.edit.filters:
+    text: Изменить фильтры
+action.todo.show.all:
+    text: Показать все
+changelist.todo.title:
+    text: '{0} Список изменений'
+checkbox.case.sensitive:
+    text: Учитывать регистр
+checkbox.todo.use.default.colors:
+    text: Использовать цвета цветовой схемы TODO по умолчанию
+column.todo.filter.pattern:
+    text: Шаблон
+column.todo.filter.patterns:
+    text: Шаблоны
+column.todo.filters.name:
+    text: Имя
+column.todo.patterns.case.sensitive:
+    text: С учётом регистра
+column.todo.patterns.icon:
+    text: Значок
+column.todo.patterns.pattern:
+    text: Шаблон
+error.filter.name.should.be.specified:
+    text: Необходимо указать имя фильтра
+error.filter.should.contain.at.least.one.pattern:
+    text: Фильтр должен содержать хотя бы один шаблон
+error.filter.with.the.same.name.already.exists:
+    text: Фильтр с таким именем уже существует
+group.group.by:
+    text: Группировать по
+group.todo.filter.patterns:
+    text: Шаблоны
+group.view.options:
+    text: Параметры просмотра
+label.todo.filter.name:
+    text: 'Название:'
+label.todo.filters:
+    text: Фильтры
+label.todo.icon:
+    text: 'Значок:'
+label.todo.pattern:
+    text: 'Шаблон:'
+label.todo.patterns:
+    text: Шаблоны
+node.todo.found.items:
+    text: '{0} (найден{1,choice,1#|2#о} {1} {1,choice,1#элемент|2#элементов})'
+node.todo.group:
+    text: '{0} {0,choice,0#элементов|1#элемент|2#элементов}'
+node.todo.items:
+    text: '{0} {0, choice, 0#элементов|1#элемент|2#элементов}'
+node.todo.more.items:
+    text: '…ещё…'
+node.todo.no.items.found:
+    text: '{0} (не найдено ни одного элемента)'
+node.todo.summary:
+    text: 'Найдено {0} {0,choice,0#элементов|1#элемент|2#элементов} TODO в {1} {1,choice,0#файлах|1#файле|2#файлах}'
+text.todo.no.filters:
+    text: Фильтры не настроены
+text.todo.no.patterns:
+    text: Шаблоны не настроены
+title.add.todo.filter:
+    text: Добавить фильтр
+title.add.todo.pattern:
+    text: Добавить шаблон
+title.edit.todo.filter:
+    text: Редактировать фильтр
+title.edit.todo.pattern:
+    text: Редактировать шаблон
+title.project:
+    text: Проект
+title.todo:
+    text: TODO
+title.todo.current.file:
+    text: Текущий файл

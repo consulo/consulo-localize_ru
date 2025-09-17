@@ -6,6 +6,8 @@ action.hide.passed.description:
     text: Скрыть успешно пройденные тесты
 action.hide.passed.text:
     text: Скрыть успешные
+action.navigate.to.test.text:
+    text: Перейти в тест
 action.open.source.at.exception.description:
     text: Перейти к строке, вызвавшей исключение при открытии исходного кода теста
 action.open.source.at.exception.text:
@@ -24,6 +26,8 @@ action.show.inline.statistics.description:
     text: Показать/скрыть длительность теста в дереве
 action.show.inline.statistics.text:
     text: Показать статистику в дереве
+action.show.statistics.text:
+    text: Показать статистику
 action.sort.alphabetically.description:
     text: Сортировать тесты или наборы по алфавиту
 action.sort.alphabetically.text:
@@ -40,3 +44,9 @@ action.track.test.description:
     text: Выбрать текущий запущенный тест в дереве
 action.track.test.text:
     text: Отслеживать выполнение теста
+action.view.assert.equals.diff.text:
+    text: Просмотреть разницу assertEquals
+dialog.message.comparison.error.was.found:
+    text: Ошибка сравнения не найдена
+dialog.title.no.comparison.data.found:
+    text: Не найдены данные для сравнения
