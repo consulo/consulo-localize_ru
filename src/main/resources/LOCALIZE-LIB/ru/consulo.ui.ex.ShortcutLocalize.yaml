@@ -21,33 +21,33 @@ keyboard.asterisk:
 keyboard.at:
     text: Собака
 keyboard.backQuote:
-    text: Обратная кавычка
+    text: "~"
 keyboard.backSlash:
-    text: Обратная косая черта
+    text: "\\"
 keyboard.backSpace:
     text: Backspace
 keyboard.begin:
     text: Begin
 keyboard.braceLeft:
-    text: Левая фигурная скобка
+    text: "'{'"
 keyboard.braceRight:
-    text: Правая фигурная скобка
+    text: "'}'"
 keyboard.cancel:
     text: Break
 keyboard.capsLock:
     text: Caps Lock
 keyboard.circumflex:
-    text: Крышечка
+    text: ^
 keyboard.clear:
     text: Clear
 keyboard.closeBracket:
-    text: Правая квадр. скобка
+    text: "]"
 keyboard.codeInput:
     text: Code Input
 keyboard.colon:
-    text: Двоеточие
+    text: ":"
 keyboard.comma:
-    text: Запятая
+    text: ","
 keyboard.compose:
     text: Compose
 keyboard.context:
@@ -99,7 +99,7 @@ keyboard.delete:
 keyboard.divide:
     text: NumPad /
 keyboard.dollar:
-    text: Доллар
+    text: "$"
 keyboard.down:
     text: Вниз
 keyboard.end:
@@ -107,7 +107,7 @@ keyboard.end:
 keyboard.enter:
     text: Enter
 keyboard.equals:
-    text: Равно
+    text: "="
 keyboard.escape:
     text: Escape
 keyboard.euro:
@@ -239,7 +239,7 @@ keyboard.numpad.8:
 keyboard.numpad.9:
     text: NumPad 9
 keyboard.openBracket:
-    text: Левая квадр. скобка
+    text: "["
 keyboard.paste:
     text: Вставка
 keyboard.pause:
@@ -300,3 +300,5 @@ keyboard.windows:
     text: Windows
 mouse.button1:
     text: Кнопка 1
+shortcut.separator:
+    text: "\u200A+\u200A"
