@@ -1,0 +1,168 @@
+add.attribute.value.quickfix.text:
+    text: Добавить значение атрибута
+attribute.is.not.allowed.here:
+    text: Атрибут {0} здесь недопустим
+attribute.is.not.boolean:
+    text: Атрибут {0} не является логическим
+attribute.should.be.preceded.with.space:
+    text: Между атрибутом и предыдущим атрибутом должен быть пробел
+attribute.value.expected:
+    text: Ожидается значение атрибута
+cannot.resolve.taglib.uri:
+    text: Невозможно разрешить taglib с URI {0}.
+cdata.end.should.not.appear.in.content.unless.to.mark.end.of.cdata.section:
+    text: Последовательность символов «]]>» не должна встречаться в содержимом, за исключением случаев, когда она используется для обозначения конца раздела CDATA
+create.namespace.declaration.quickfix:
+    text: Создать объявление {0}
+create.tagfile.attribute.family:
+    text: Создать атрибут файла тегов
+create.tagfile.attribute.text:
+    text: Создать атрибут файла тегов {0}
+declare.id.in.comment.quickfix:
+    text: Объявить недопустимый идентификатор в аннотации комментария
+dtd.parser.message.left.paren.or.entityref.or.empty.or.any.expeded:
+    text: Ожидается «(» или мнемоника или ПУСТОТА или ЧТО_УГОДНО
+dtd.parser.message.literal.public.system.expected:
+    text: Ожидается литерал, ПУБЛИЧНЫЙ или СИСТЕМНЫЙ
+dtd.parser.message.name.expected:
+    text: Ожидается название XML
+dtd.parser.message.name.or.entity.ref.expected:
+    text: Ожидается название XML или ссылка на сущность
+dtd.parser.message.rbrace.expected:
+    text: Ожидается «)»
+dtd.parser.message.whitespace.expeded:
+    text: Ожидается пробел
+duplicate.attribute:
+    text: Дубликат атрибута {0}
+duplicate.declaration:
+    text: Неуникальное объявление названия {0}
+duplicate.id.reference:
+    text: Дублирующаяся ссылка на идентификатор
+element.doesnt.have.required.attribute:
+    text: У элемента {0} нет обязательного атрибута {1}
+element.is.not.allowed.here:
+    text: Элемент {0} здесь недопустим
+element.is.not.closed:
+    text: Элемент не закрыт
+element.must.be.declared:
+    text: Элемент {0} должен быть объявлен
+empty.attribute.is.not.allowed:
+    text: Пустой атрибут {0} недопустим
+escape.ampersand.quickfix:
+    text: Заэкранировать амперсанд
+expected.attribute.eq.sign:
+    text: Ожидается «=»
+expected.prologue.tag.termination.expected:
+    text: Ожидается «?>»
+expected.whitespace:
+    text: Ожидается пробел
+extra.closing.tag.for.empty.element:
+    text: Дополнительный закрывающий тег для пустого элемента
+finding.acceptable.uri:
+    text: Поиск допустимых URI
+insert.required.attribute.quickfix.family:
+    text: Вставить обязательный атрибут
+insert.required.attribute.quickfix.text:
+    text: Вставить обязательный атрибут {0}
+invalid.id.reference:
+    text: Неверная ссылка на идентификатор
+jsp.directive.end.expected:
+    text: Ожидается конец директивы
+jsp.unparseable.content:
+    text: Неанализируемое содержимое
+looking.in.schemas:
+    text: Поиск в зарегистрированных XML-схемах
+looking.in.tlds:
+    text: Поиск в доступных библиотеках тегов
+named.element.is.not.closed:
+    text: Элемент {0} не закрыт
+plugin.reference.message.problem:
+    text: Ссылка с классом «{0}» предоставляет недопустимый шаблон сообщения «{1}»
+quote.expected:
+    text: Ожидается кавычка
+registered.resource.is.not.recognized:
+    text: Ресурс, зарегистрированный по этому URI, не распознан (Настройки | Редактор | Схемы и DTD)
+remove.attribute.quickfix.family:
+    text: Удалить атрибут
+remove.attribute.quickfix.text:
+    text: Удалить атрибут {0}
+remove.extra.closing.tag.quickfix:
+    text: Удалить лишний закрывающий тег
+rename.end.tag.name.intention:
+    text: Переименовать закрывающий тег «{0}» в «{1}»
+rename.start.tag.name.intention:
+    text: Переименовать открывающий тег «{0}» в «{1}»
+select.namespace.location.title:
+    text: Выберите расположение пространства имён
+select.namespace.title:
+    text: '{0} Для импорта'
+should.have.fixed.value:
+    text: '{0} должен иметь фиксированное значение {1}'
+switch.to.html5.quickfix.text:
+    text: Переключиться на уровень языка HTML5
+tag.has.wrong.closing.tag.name:
+    text: Открывающему тегу соответствует неверный закрывающий тег
+tag.start.is.not.closed:
+    text: Начало тега не закрыто
+top.level.element.is.not.completed:
+    text: Элемент верхнего уровня не завершён
+unbound.namespace:
+    text: Пространство имён «{0}» не привязано
+unbound.namespace.no.param:
+    text: Пространство имён не привязано
+unescaped.ampersand.or.nonterminated.character.entity.reference:
+    text: Незаэкранированный «&» или незавершённая мнемоника
+unknown.encoding.0:
+    text: 'Неизвестная кодировка: «{0}»'
+unknown.html.tag:
+    text: Неизвестный HTML-тег {0}
+uri.is.not.registered:
+    text: URI не зарегистрирован (Настройки | Редактор | Схемы и DTD)
+way.too.unbalanced:
+    text: Слишком несбалансированный. Попытка корректно сбалансировать теги на данном этапе прекращена
+wrong.closing.tag.name:
+    text: Неверное название закрывающего тега
+wrong.root.element:
+    text: Неправильный корневой элемент
+wrong.value:
+    text: Неверное значение {0}
+xml.declaration.should.precede.all.document.content:
+    text: Объявление XML должно предшествовать всему содержимому документа
+xml.parsing.absent.root.tag:
+    text: Корректный XML-документ должен иметь корневой тег
+xml.parsing.attribute.value.expected:
+    text: Ожидается значение атрибута
+xml.parsing.bad.character:
+    text: Неверный символ
+xml.parsing.closing.tag.is.not.done:
+    text: Закрывающий тег не создан
+xml.parsing.closing.tag.matches.nothing:
+    text: Закрывающий тег ничему не соответствует
+xml.parsing.closing.tag.name.missing:
+    text: Имя закрывающего тега отсутствует
+xml.parsing.multiple.root.tags:
+    text: Несколько корневых тегов
+xml.parsing.processing.instruction.name.expected:
+    text: Ожидается название инструкции обработки
+xml.parsing.tag.name.expected:
+    text: Ожидается название тега
+xml.parsing.unclosed.attribute.value:
+    text: Значение атрибута не закрыто
+xml.parsing.unexpected.end.of.file:
+    text: Неожиданный конец файла
+xml.parsing.unexpected.token:
+    text: Неожиданный токен
+xml.parsing.unexpected.tokens:
+    text: Неожиданные токены
+xml.parsing.unterminated.processing.instruction:
+    text: Инструкция обработки не завершена
+xml.schema.validation.attr.not.allowed.with.ref:
+    text: Атрибут {0} не допускается здесь, если ссылка на элемент используется
+xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
+    text: Атрибуты «default» и «fixed» не должны присутствовать одновременно
+xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
+    text: Значение maxOccurs должно быть больше значения minOccurs
+xml.schema.validation.name.or.ref.should.present:
+    text: Должен присутствовать атрибут «name» или «ref»
+xml.validate.external.resource.is.not.registered:
+    text: Внешний ресурс {0} не зарегистрирован
