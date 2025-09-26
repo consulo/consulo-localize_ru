@@ -1,0 +1,486 @@
+action.document.to.xsd.text:
+    text: Сгенерировать XML-документ из XSD-схемы…
+action.escape.entities.description:
+    text: Экранировать специальные символы XML/HTML с помощью мнемоник
+action.escape.entities.text:
+    text: Кодировать специальные символы XML/HTML
+action.generate.dtd.text:
+    text: Сгенерировать DTD из _XML-файла
+action.generate.xml.tag.description:
+    text: Сгенерировать новый XML-тег в соответствии с информацией схемы
+action.generate.xml.tag.text:
+    text: XML-тег…
+action.new.html.file.description:
+    text: Создаёт новый HTML-файл
+action.new.html.file.text:
+    text: HTML-файл
+action.validate.xml.description:
+    text: Проверить текущий XML-файл
+action.validate.xml.text:
+    text: _Проверить
+action.xsd.to.document.text:
+    text: Сгенерировать схему XSD из XML-файла…
+add.custom.html.attribute:
+    text: Добавить {0} к пользовательским HTML-атрибутам
+add.custom.html.tag:
+    text: Добавить {0} к пользовательским HTML-тегам
+add.optional.html.attribute:
+    text: Добавить {0} к необязательным HTML-атрибутам
+add.xsi.schema.location.for.external.resource:
+    text: Добавить расположение схемы XSI для внешнего ресурса
+any.dialog.status:
+    text: Статус
+browse.button.tooltip:
+    text: Поиск локального файла
+browser.active:
+    text: Активно
+browser.default.settings:
+    text: По умолчанию
+browser.description:
+    text: Открыть файл в {0}
+browser.error:
+    text: Ошибка браузера
+browser.path.not.specified:
+    text: Укажите путь к браузеру в разделе «Настройки / Основное / Веб-браузеры / {0}»
+browser.path.not.specified.title:
+    text: Не указан путь к браузеру
+browser.select.in.default.name:
+    text: Веб-браузер
+browsers.chrome:
+    text: Chrome
+browsers.configuration.name:
+    text: Веб-браузеры
+browsers.explorer:
+    text: Internet Explorer
+browsers.firefox:
+    text: Firefox
+browsers.opera:
+    text: Opera
+browsers.safari:
+    text: Safari
+button.text.settings:
+    text: Настройки…
+cannot.resolve.anchor:
+    text: 'Невозможно разрешить ссылку #{0}'
+cannot.resolve.anchor.in.file:
+    text: 'Невозможно разрешить ссылку #{0} в файле {1}'
+cant.delete.file:
+    text: Невозможно удалить файл {0}
+cant.rename.file:
+    text: Невозможно переименовать {0} на {1}
+change.root.element.to:
+    text: Изменить название корневого тега на {0}
+choose.color.dialog.title:
+    text: Выбрать цвет
+choose.color.in.color.lookup:
+    text: Выбрать цвет…
+chooser.title.select.profiles.ini.file:
+    text: Выбрать файл «profiles.ini»
+color.name:
+    text: Название цвета:\&nbsp; {0}
+color.preview:
+    text: '<table cellpadding=0 cellspacing=0 border=0><tr><td>Предпросмотр цвета:\&nbsp;</td><td style="background-color: #000000; padding: 1px">{0}</td></tr></table>'
+color.rgb:
+    text: RGB-цвет:\&nbsp; {0}
+column.name.edit.external.resource.location:
+    text: Местоположение
+column.name.edit.external.resource.uri:
+    text: URI
+command.name.generate.xml.tag:
+    text: Сгенерировать XML-тег
+custom.html.tag:
+    text: Пользовательский HTML-тег
+dialog.title.external.resource:
+    text: Внешний ресурс
+display.name.edit.external.resource:
+    text: Схемы и DTD
+display.name.firefox.settings:
+    text: Настройки Firefox
+emmet.auto.insert.vendor.prefixes:
+    text: Автоматическая вставка префиксов и префиксов поставщика CSS
+emmet.configuration.title:
+    text: Emmet (Zen Coding)
+emmet.enable.bem.filter:
+    text: Включить фильтр и BEM по умолчанию
+emmet.expand.abbreviation.with:
+    text: Развернуть &аббревиатуру с помощью
+emmet.fuzzy.search:
+    text: Включить &нечёткий поиск среди сокращений CSS
+error:
+    text: Ошибка
+error.fetching.dependent.resource.title:
+    text: Ошибка при загрузке зависимого ресурса
+error.fetching.resource:
+    text: Ошибка при загрузке {0}
+error.fetching.title:
+    text: Ошибка при загрузке
+fetch.external.resource:
+    text: Извлечь внешний ресурс
+fetching.progress.indicator:
+    text: Извлечение {0}
+fetching.resource.title:
+    text: Извлечение ресурса
+file.doesnt.exist:
+    text: Файл {0} не существует
+filetype.description.dtd:
+    text: Определение типа документа XML
+filetype.description.html:
+    text: HTML-файлы
+filetype.description.xhtml:
+    text: XHTML-файлы
+filetype.description.xml:
+    text: XML-файлы
+fix.html.family:
+    text: Исправить HTML
+generate.instance.document.from.schema.dialog.title:
+    text: Сгенерировать пример документа из схемы
+generate.instance.document.from.schema.lvcslabel:
+    text: Сгенерировать пример документа из схемы
+generate.schema.from.instance.document.dialog.title:
+    text: Сгенерировать схему из примера документа
+generate.schema.from.instance.xml.document.lvcslabel:
+    text: Сгенерировать схему из примера XML-документа
+global.elements.local.types.option.name:
+    text: Глобальные элементы/локальные типы
+group.new.xml.descriptor.text:
+    text: Файл конфигурации XML
+group.tools.text:
+    text: XML-действия
+html.add.table.column.after.action:
+    text: Добавить новый столбец в таблицу после текущего
+html.add.table.column.before.action:
+    text: Добавить новый столбец в таблицу перед текущим
+html.annotators.non.existent.internet.resource:
+    text: Не удалось найти ресурс «{0}»
+html.deprecated.tag:
+    text: Устаревший HTML-тег
+html.inspection.extra.closing.tag:
+    text: Дополнительный закрывающий тег для пустого элемента
+html.inspections.check.deprecated.tag:
+    text: Устаревший HTML-тег
+html.inspections.check.empty.script.message:
+    text: Пустой тег не работает в некоторых браузерах
+html.inspections.check.empty.script.tag.fix.message:
+    text: Заменить пустой конец тега на пустое тело
+html.inspections.check.empty.tag:
+    text: Пустой тег
+html.inspections.check.image.height.fix.message:
+    text: Установить значение высоты в {0}
+html.inspections.check.image.height.message:
+    text: Исходная высота изображения — {0}
+html.inspections.check.image.size:
+    text: Несоответствие размера изображения
+html.inspections.check.image.width.fix.message:
+    text: Установить значение ширины в {0}
+html.inspections.check.image.width.message:
+    text: Исходная ширина изображения — {0}
+html.inspections.check.presentational.tag:
+    text: Презентационный HTML-тег
+html.inspections.check.valid.script.tag:
+    text: Некорректное содержимое тега <script>
+html.inspections.create.label.from.text.after.action:
+    text: Создать новую метку из текста после элемента {0}
+html.inspections.create.label.from.text.before.action:
+    text: Создать новую метку из текста перед элементом {0}
+html.inspections.create.new.label:
+    text: Связать новую метку с элементом {0}
+html.inspections.form.input.without.label:
+    text: Элемент ввода формы без связанной метки
+html.inspections.group.name:
+    text: HTML
+html.inspections.non.existent.internet.resource.name:
+    text: Несуществующий веб-ресурс
+html.inspections.unknown.anchor:
+    text: Проблемы со ссылками
+html.inspections.unknown.attribute:
+    text: Неизвестный атрибут HTML-тега
+html.inspections.unknown.boolean.attribute:
+    text: Неизвестный атрибут логического HTML-тега
+html.inspections.unknown.tag:
+    text: Неизвестный HTML-тег
+html.inspections.unknown.tag.attribute.checkbox.title:
+    text: "Пользовательские атрибуты HTML-тега:"
+html.inspections.unknown.tag.attribute.title:
+    text: Изменить пользовательские атрибуты
+html.inspections.unknown.tag.boolean.attribute.checkbox.title:
+    text: "Пользовательские атрибуты HTML-тега:"
+html.inspections.unknown.tag.boolean.attribute.title:
+    text: Изменить значение пользовательского логического атрибута
+html.inspections.unknown.tag.checkbox.title:
+    text: "Пользовательские HTML-теги:"
+html.inspections.unknown.tag.title:
+    text: Изменить пользовательские теги
+html.inspections.unknown.target:
+    text: Проблемы со ссылками на файлы
+html.quickdoc.additional.template:
+    text: Подробнее на <a href="{0}">сайте W3C</a>, <a href="{1}">сайте справки SitePoint</a>.
+html.replace.tag.with.another.quickfix.text:
+    text: Заменить тег {0} на тег {1}
+html.replace.tag.with.css.quickfix.text:
+    text: Заменить тег {0} на CSS
+html5.outline.mode:
+    text: Структура HTML5
+ignore.external.resource.family:
+    text: Игнорировать внешний ресурс
+ignore.external.resource.text:
+    text: Игнорировать внешний ресурс
+insert.required.tag.fix:
+    text: Вставить обязательный дочерний тег {0}
+inspection.required.attributes.display.name:
+    text: Отсутствует обязательный атрибут
+instance.2.xsd.dialog.title:
+    text: Пример в схему
+instance.document.file.is.not.exist:
+    text: Пример документа не существует
+instance.to.schema.generator.error:
+    text: Ошибка генератора схемы из примера
+instance2schema.dialog.design.type:
+    text: 'Тип дизайна:'
+instance2schema.dialog.detect.enumerations.limit:
+    text: 'Определение лимита перечислений:'
+instance2schema.dialog.detect.simple.content.type:
+    text: 'Определение простого Content-Type:'
+instance2schema.dialog.instance.document.path:
+    text: 'Путь к примеру документу:'
+invalid.number.validation.problem:
+    text: Недопустимое число
+invalid.url.message:
+    text: "Недопустимый URL: \n{0}"
+invalid.url.no.xml.file.at.location:
+    text: "Отсутствует XML по адресу: \n{0}"
+invalid.url.title:
+    text: Неверный URL
+jsp.inspections.group.name:
+    text: Инспекции JSP
+label.edit.external.resource.configure.external.resources:
+    text: '&Внешние схемы и DTD'
+label.edit.external.resource.configure.ignored.resources:
+    text: '&Игнорируемые схемы и DTD'
+label.edit.external.resource.path:
+    text: 'Путь:'
+label.edit.external.resource.uri:
+    text: 'URI:'
+label.text.path.to.profiles.ini:
+    text: 'Путь к «profiles.ini»:'
+label.text.profile:
+    text: '&Профиль:'
+local.elements.global.complex.types.option.name:
+    text: локальные элементы/глобальные сложные типы
+local.elements.types.option.name:
+    text: локальные элементы/типы
+manually.setup.external.resource:
+    text: Настроить внешний ресурс вручную
+namespace.alias:
+    text: Пространство имён
+negative.number.validation.problem:
+    text: Отрицательное число
+new.html.file.kind:
+    text: HTML-файл
+new.html4.file.kind:
+    text: HTML4-файл
+new.xhtml.file.kind:
+    text: XHTML-файл
+no.class.in.selected.text.editor.error.message:
+    text: В выбранном текстовом редакторе нет класса
+no.external.resources:
+    text: Нет внешних ресурсов
+no.ignored.resources:
+    text: Нет игнорируемых ресурсов
+open_in.list.popup.title:
+    text: Предварительный просмотр файла в…
+open_in.list.prefix:
+    text: Предварительный просмотр файла в
+popup.title.choose.tag.name:
+    text: Выберите название тега
+read.win.registry:
+    text: Получить настройки из реестра Windows
+rename.current.tag:
+    text: 'Переименовать {0} в:'
+result.schema.file.name.is.empty.validation.problem:
+    text: Пустое название для результирующего файла схемы
+schema.generator.process.title:
+    text: Генератор схемы
+schema2.instance.no.valid.root.element.name.validation.error:
+    text: Недопустимое название корневого элемента
+schema2.instance.output.file.name.is.empty.validation.problem:
+    text: Название выходного файла некорректно
+schema2instance.dialog.element.name:
+    text: 'Название элемента:'
+schema2instance.dialog.enable.restriction.check:
+    text: Включить проверку ограничений
+schema2instance.dialog.enable.unique.check:
+    text: Включить проверку уникальности
+schema2instance.dialog.instance.document.name:
+    text: 'Название примера документа:'
+schema2instance.dialog.schema.path:
+    text: 'Путь к схеме:'
+select.schema.document.dialog.title:
+    text: Выбрать документ схемы
+select.xml.document.dialog.title:
+    text: Выбрать XML-документ
+select.xsd.schema.dialog.title:
+    text: Выбрать XSD-схему
+settings.enable.html.xml.tag.tree.highlighting:
+    text: Включить подсветку дерева HTML/XML-тегов
+settings.levels.to.highlight:
+    text: 'Уровни для подсветки:'
+settings.opacity:
+    text: 'Непрозрачность (%):'
+tag.name.completion.display.name:
+    text: Дополнение названия тега
+tag.name.completion.hint:
+    text: Нажмите {0}, чтобы просмотреть теги из других пространств имён
+title.cannot.create.html.file:
+    text: Невозможно создать HTML-файл
+unescaped.xml.character:
+    text: Неэкранированный XML-символ
+unescaped.xml.character.fix.message:
+    text: Экранирование {0}
+unescaped.xml.character.fix.message.parameter:
+    text: Амперсанд
+unwrap.enclosing.tag.name.action.name:
+    text: Удалить вложенный тег {0}
+url.is.empty.validation.problem:
+    text: Пустой URL
+validate.xml.open.message.view.command.name:
+    text: Открыть окно сообщения
+webservice.status.tooltip:
+    text: Состояние текущих настроек, ошибки ввода и т. д.
+xml.create.xml.declaration.intention.type:
+    text: Создать объявление XML-элемента
+xml.dtd.create.dtd.element.intention.name:
+    text: Создать объявление элемента {0}
+xml.dtd.create.entity.intention.name:
+    text: Создать объявление мнемоники {0}
+xml.dtd.unresolved.element.reference:
+    text: Не найдена ссылка на DTD-элемент {0}
+xml.dtd.unresolved.entity.reference:
+    text: Не найдена ссылка на мнемонику {0}
+xml.editor.options.misc.title:
+    text: XML/HTML
+xml.folding.settings:
+    text: Настройки сворачивания кода
+xml.inspection.wrong.closing.tag:
+    text: Неправильне закрытый XML/XHTML-тег
+xml.inspection.wrong.root.element:
+    text: Неверный корневой элемент
+xml.inspections.check.dtd.references:
+    text: Не найденная DTD-ссылка
+xml.inspections.check.file.with.xerces:
+    text: Файл не проходит внешнюю проверку
+xml.inspections.check.tag.empty.body:
+    text: Пустое тело XML-тега
+xml.inspections.duplicate.id:
+    text: Дублирующийся идентификатор
+xml.inspections.group.name:
+    text: XML
+xml.inspections.invalid.id:
+    text: Неразрешенный идентификатор
+xml.inspections.path.resolve:
+    text: Определение пути к файлу в XML
+xml.inspections.replace.tag.empty.body.with.empty.end:
+    text: Заменить тег с пустым телом на тег без тела
+xml.inspections.tag.empty.body:
+    text: Пустое тело XML-тега
+xml.inspections.unbound.prefix:
+    text: Префикс несвязанного пространства имён XML
+xml.inspections.unused.schema:
+    text: Неиспользуемое объявление схемы XML
+xml.inspections.unused.schema.declaration:
+    text: Объявление пространства имён никогда не используется
+xml.inspections.unused.schema.declaration.remove:
+    text: Удалить неиспользуемое объявление пространства имён
+xml.inspections.unused.schema.location:
+    text: Расположение пространства имен никогда не используется
+xml.inspections.unused.schema.location.remove:
+    text: Удалить неиспользуемое расположение пространства имён
+xml.javadoc.attr.default.required.message:
+    text: Атрибут по умолчанию:\&nbsp;обязателен
+xml.javadoc.attr.type.message:
+    text: Тип атрибута:\&nbsp;{0}
+xml.javadoc.attribute.name.message:
+    text: Название атрибута
+xml.javadoc.complex.type.message:
+    text: Сложный тип
+xml.javadoc.defined.in.any.dtd.message:
+    text: Определено в:\&nbsp;любом DTD
+xml.javadoc.defined.in.frameset.dtd.message:
+    text: Определено в:\&nbsp;frameset DTD
+xml.javadoc.defined.in.loose.dtd.message:
+    text: Определено в:\&nbsp;loose DTD
+xml.javadoc.deprecated.message:
+    text: Устарело:\&nbsp;{0}
+xml.javadoc.description.message:
+    text: Описание
+xml.javadoc.end.tag.could.be.omitted.message:
+    text: Конечный тег:\&nbsp;может быть опущен
+xml.javadoc.enumeration.value.message:
+    text: Значение перечисления
+xml.javadoc.is.empty.message:
+    text: Пусто:\&nbsp;истина
+xml.javadoc.start.tag.could.be.omitted.message:
+    text: Начальный тег:\&nbsp;может быть опущен
+xml.javadoc.tag.name.message:
+    text: Название тега
+xml.javadoc.version.message:
+    text: Версия
+xml.options:
+    text: Параметры XML
+xml.schema.create.attribute.group.intention.name:
+    text: Создать группу атрибутов {0}
+xml.schema.create.attribute.intention.name:
+    text: Создать атрибут {0}
+xml.schema.create.complex.type.intention.name:
+    text: Создать сложный тип {0}
+xml.schema.create.element.intention.name:
+    text: Создать элемент {0}
+xml.schema.create.group.intention.name:
+    text: Создать группу {0}
+xml.schema.create.simple.type.intention.name:
+    text: Создать простой тип {0}
+xml.settings:
+    text: Настройки XML
+xml.split.tag.intention.action:
+    text: Разделить текущий тег
+xml.validate.no.errors.detected.status.message:
+    text: Ошибок не обнаружено
+xml.validate.tab.content.title:
+    text: Проверка
+xml.validate.validation.is.running.terminate.confirmation.text:
+    text: Проверка выполняется. Завершить её?
+xml.validate.validation.is.running.terminate.confirmation.title:
+    text: Проверка выполняется
+xml2xsd.generator.error:
+    text: Ошибка генератора примера в схему
+xml2xsd.generator.error.message:
+    text: Не удаётся сгенерировать схему из примера документа. Проверьте свой XML-документ
+xmlbeans.designtype.tooltip:
+    text: Тип конструкции XMLSchema
+xmlbeans.enumerations.tooltip:
+    text: "Обнаружено перечисление из следующего количества "
+xmlbeans.instance.document.name.tooltip:
+    text: Название файла генерируемого примера документа
+xmlbeans.instance2schema.result.schema.name:
+    text: Название файла результирующей схемы
+xmlbeans.instance2schema.url.tooltip:
+    text: Путь к примеру документа
+xmlbeans.particle.valid.tooltip:
+    text: Включить правило допустимости частиц (ограничение)
+xmlbeans.rootelement.tooltip:
+    text: Корневой элемент для генерации примера документа
+xmlbeans.schema2instance.url.tooltip:
+    text: Путь к схеме
+xmlbeans.simplecontenttype.tooltip:
+    text: Определение простых типов контента (конечный текст)
+xmlbeans.unique.particle.tooltip:
+    text: Включить правило уникальности частиц
+xmlbeans.url.tooltip:
+    text: Путь к схеме или WSDL для использования при генерации с помощью XmlBeans
+zen.coding.enable.label:
+    text: '&Включить Emmet'
+zen.coding.enter.abbreviation.dialog.label:
+    text: Введите аббревиатуру
+zen.coding.incorrect.abbreviation.error:
+    text: Неверное сокращение
+zen.coding.title:
+    text: Emmet (XML Zen Coding)
