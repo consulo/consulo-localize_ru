@@ -16,10 +16,252 @@ action.EditorStickyLinesDisableForLang.for.lang.text:
     text: Отключить для {0}
 action.EditorStickyLinesDisableForLang.text:
     text: Отключить для выбранного языка
+action.add.or.remove.caret.text:
+    text: Добавить или удалить курсор
+action.back.space.text:
+    text: Backspace
+action.choose.lookup.item.complete.statement.text:
+    text: Выбрать элемент поиска и вызвать полное выражение
+action.choose.lookup.item.replace.text:
+    text: Выбрать элемент поиска заменить
+action.choose.lookup.item.text:
+    text: Выбрать элемент поиска
+action.clone.caret.above.text:
+    text: Клонировать курсор выше
+action.clone.caret.below.text:
+    text: Клонировать курсор ниже
+action.code.block.end.text:
+    text: Переместить курсор в конец блока кода
+action.code.block.end.with.selection.text:
+    text: Переместить курсор в конец блока кода с выделением
+action.code.block.start.text:
+    text: Переместить курсор в начало блока кода
+action.code.block.start.with.selection.text:
+    text: Переместить курсор в начало блока кода с выделением
+action.complete.statement.text:
+    text: Завершить текущее выражение
+action.context.info.description:
+    text: Показать текущее объявление метода или класса, когда оно не отображается
+action.context.info.text:
+    text: _Контекстная справка
+action.copy.text:
+    text: Копировать
+action.cut.line.backward.text:
+    text: Вырезать строку и перейти на строку вверх
+action.cut.line.end.text:
+    text: Вырезать до конца строки
+action.cut.text:
+    text: Вырезать
+action.decrease.font.size.text:
+    text: Уменьшить размер шрифта
+action.delete.line.text:
+    text: Удалить строку
+action.delete.text:
+    text: Удалить
+action.delete.to.word.end.in.different.humps.mode.text:
+    text: Удалить до конца слова в другом режиме «CamelHumps»
+action.delete.to.word.end.text:
+    text: Удалить до конца слова
+action.delete.to.word.start.in.different.humps.mode.text:
+    text: Удалить до начала слова в другом режиме «CamelHumps»
+action.delete.to.word.start.text:
+    text: Удалить до начала слова
+action.down.text:
+    text: Вниз
+action.down.with.selection.text:
+    text: Вниз с выделением
 action.duplicate.line:
     text: '&Дублировать строку'
+action.duplicate.lines.text:
+    text: Удвоить строки
 action.duplicate.selection:
     text: '&Дублировать выделение'
+action.duplicate.text:
+    text: Удвоить строку под курсором или выделенный блок
+action.enter.text:
+    text: Enter
+action.escape.text:
+    text: Escape
+action.fill.paragraph.description:
+    text: Переформатировать строковый литерал или комментарий, чтобы он соответствовал максимальной ширине (обычно 80)
+action.fill.paragraph.text:
+    text: Выровнять абзац
+action.hungry.back.space.text:
+    text: Жадный Backspace
+action.hungry.backspace.description:
+    text: Действует как Backspace, за исключением того, что удаляет все пробельные символы перед курсором (если есть)
+action.increase.font.size.text:
+    text: Увеличить размер шрифта
+action.indent.selection.text:
+    text: Увеличить отступ выделения
+action.join.lines.text:
+    text: Объединить строки
+action.kill.region.text:
+    text: Убить выбранный регион
+action.kill.ring.save.text:
+    text: Сохранить в Kill Ring
+action.kill.to.word.end.text:
+    text: Убить до конца слова
+action.kill.to.word.start.text:
+    text: Убить до начала слова
+action.left.text:
+    text: Влево
+action.left.with.selection.text:
+    text: Влево с выделением
+action.line.end.text:
+    text: Переместить курсор в конец строки
+action.line.end.with.selection.text:
+    text: Переместить курсор в конец строки с выделением
+action.line.start.text:
+    text: Переместить курсор в начало строки
+action.line.start.with.selection.text:
+    text: Переместить курсор в начало строки с выделением
+action.lookup.down.text:
+    text: Поиск _вниз
+action.lookup.up.text:
+    text: Поиск _вверх
+action.match.brace.text:
+    text: Переместить курсор к парной скобке
+action.move.down.and.scroll.text:
+    text: Вниз с прокруткой
+action.move.down.and.scroll.with.selection.text:
+    text: Вниз и прокрутка с выделением
+action.move.to.page.bottom.text:
+    text: Переместить курсор в конец страницы
+action.move.to.page.bottom.with.selection.text:
+    text: Переместить курсор в конец страницы с выделением
+action.move.to.page.top.text:
+    text: Переместить курсор в начало страницы
+action.move.to.page.top.with.selection.text:
+    text: Переместить курсор в начало страницы с выделением
+action.move.up.and.scroll.text:
+    text: Вверх с прокруткой
+action.move.up.and.scroll.with.selection.text:
+    text: Вверх и прокрутка с выделением
+action.next.word.in.different.humps.mode.text:
+    text: Переместить курсор к следующему слову в другом режиме «CamelHumps»
+action.next.word.in.different.humps.mode.with.selection.text:
+    text: Переместить курсор к следующему слову с выделением в другом режиме «CamelHumps»
+action.next.word.text:
+    text: Переместить курсор к следующему слову
+action.next.word.with.selection.text:
+    text: Переместить курсор в следующее слово с выделением
+action.page.down.text:
+    text: Page Down
+action.page.down.with.selection.text:
+    text: Page Down с выделением
+action.page.up.text:
+    text: Page Up
+action.page.up.with.selection.text:
+    text: Page Up с выделением
+action.paste.from.x11.text:
+    text: Вставить из буфера обмена X
+action.paste.simple.description:
+    text: Вставка без форматирования, автоимпорта, буквального экранирования и т. д.
+action.paste.simple.text:
+    text: Вставить как _простой текст
+action.paste.text:
+    text: Вставить
+action.previous.word.in.different.humps.mode.text:
+    text: Переместить курсор к предыдущему слову в другом режиме «CamelHumps»
+action.previous.word.in.different.humps.mode.with.selection.text:
+    text: Переместить курсор в предыдущее слово с выделением в другом режиме «CamelHumps»
+action.previous.word.text:
+    text: Переместить курсор в предыдущее слово
+action.previous.word.with.selection.text:
+    text: переместить курсор в предыдущее слово с выделением
+action.reset.font.size.text:
+    text: Сбросить размер шрифта
+action.right.text:
+    text: Вправо
+action.right.with.selection.text:
+    text: Вправо с выделением
+action.scroll.bottom.text:
+    text: Прокрутить в конец
+action.scroll.down.and.move.text:
+    text: Прокрутить вниз и переместить, если необходимо
+action.scroll.down.text:
+    text: Прокрутить вниз
+action.scroll.left.text:
+    text: Прокрутить влево
+action.scroll.right.text:
+    text: Прокрутить вправо
+action.scroll.to.center.text:
+    text: Прокрутить до центра
+action.scroll.top.text:
+    text: Прокрутить в начало
+action.scroll.up.and.move.text:
+    text: Прокрутить вверх и переместить, если необходимо
+action.scroll.up.text:
+    text: Прокрутить вверх
+action.select.line.text:
+    text: Выделить строку под курсором
+action.select.word.text:
+    text: Выбрать слово под курсором
+action.set.content.based.bidi.text.direction.description:
+    text: Направление определяется начальным символом(ами)
+action.set.content.based.bidi.text.direction.text:
+    text: На основе содержания
+action.set.ltr.bidi.text.direction.text:
+    text: Слева направо
+action.set.rtl.bidi.text.direction.text:
+    text: Справа налево
+action.split.line.text:
+    text: Разбить строку
+action.start.new.line.before.text:
+    text: Вставить перевод строки перед текущей
+action.start.new.line.text:
+    text: Вставить перевод строки
+action.swap.selection.boundaries.text:
+    text: Поменять местами границы выделения
+action.tab.text:
+    text: Tab
+action.text.end.text:
+    text: Переместить курсор в конец текста
+action.text.end.with.selection.text:
+    text: Переместить курсор в конец текста с выделением
+action.text.start.text:
+    text: Переместить курсор в начало текста
+action.text.start.with.selection.text:
+    text: Переместить курсор в начало текста с выделением
+action.toggle.case.text:
+    text: Сменить регистр выделения
+action.toggle.column.mode.description:
+    text: Переключить режим выбора столбца в текущем редакторе
+action.toggle.column.mode.text:
+    text: Режим выбора _столбца
+action.toggle.insert.state.text:
+    text: Переключить режим вставки/перезаписи
+action.toggle.show.indent.lines.description:
+    text: Переключить отображение направляющих отступа в текущем редакторе
+action.toggle.show.indent.lines.text:
+    text: Показать _направляющие отступа
+action.toggle.show.line.numbers.description:
+    text: Переключить отображение номеров строк в текущем редакторе
+action.toggle.show.line.numbers.text:
+    text: Показать _номера строк
+action.toggle.show.whitespaces.description:
+    text: Переключить отображение пробелов в текущем редакторе
+action.toggle.show.whitespaces.text:
+    text: _Показать пробелы
+action.toggle.sticky.selection.text:
+    text: Переключить липкое выделение
+action.toggle.use.soft.wraps.description:
+    text: Переключить использование мягких переносов в текущем редакторе
+action.toggle.use.soft.wraps.in.preview.description:
+    text: Переключить использование мягких переносов в редакторах предварительного просмотра
+action.toggle.use.soft.wraps.in.preview.text:
+    text: Мягкие переносы в редакторе предварительного просмотра
+action.toggle.use.soft.wraps.text:
+    text: Использовать мягкие переносы
+action.un.select.word.text:
+    text: Отменить выделение слова под курсором
+action.unindent.selection.text:
+    text: Уменьшить отступ выделения
+action.up.text:
+    text: Вверх
+action.up.with.selection.text:
+    text: Вверх с выделением
 attempt.to.modify.read.only.document.error.message:
     text: Попытка изменить документ, доступный только для чтения
 checkbox.show.editor.preview.popup:
