@@ -774,8 +774,6 @@ action.GenerateAntBuild.description:
     text: Создать файл сборки Ant из проекта
 action.GenerateAntBuild.text:
     text: _Сгенерировать Ant-файл…
-action.GenerateDTD.text:
-    text: Создать DTD из файла _XML
 action.GenerateSuperMethodCall.text:
     text: Вызов супер-метода
 action.GoToLinkTarget.description:
@@ -1928,10 +1926,6 @@ action.UsageView.ShowRecentFindUsages.description:
     text: Выбрать и повторно запустить недавний поиск использований
 action.UsageView.ShowRecentFindUsages.text:
     text: _Последние найденные использования
-action.ValidateXml.description:
-    text: Проверить текущий XML-файл
-action.ValidateXml.text:
-    text: _Валидировать
 action.Vcs.ChangesView.description:
     text: Показать окно для управления изменениями и списками изменений
 action.Vcs.ChangesView.text:
