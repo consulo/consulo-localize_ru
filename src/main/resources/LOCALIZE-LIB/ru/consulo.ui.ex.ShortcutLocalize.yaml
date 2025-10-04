@@ -1,9 +1,9 @@
 keyboard.Less:
-    text: Меньше
+    text: "<"
 keyboard.accept:
     text: Accept
 keyboard.add:
-    text: NumPad +
+    text: ЦифрКлав +
 keyboard.again:
     text: Again
 keyboard.allCandidates:
@@ -15,9 +15,9 @@ keyboard.alt:
 keyboard.altGraph:
     text: Правый Alt
 keyboard.ampersand:
-    text: Амперсанд
+    text: "&"
 keyboard.asterisk:
-    text: Звёздочка
+    text: "*"
 keyboard.at:
     text: Собака
 keyboard.backQuote:
@@ -93,27 +93,27 @@ keyboard.deadTilde:
 keyboard.deadVoicedSound:
     text: Dead Voiced Sound
 keyboard.decimal:
-    text: NumPad .
+    text: ЦифрКлав .
 keyboard.delete:
     text: Delete
 keyboard.divide:
-    text: NumPad /
+    text: ЦифрКлав /
 keyboard.dollar:
     text: "$"
 keyboard.down:
-    text: Вниз
+    text: ↓
 keyboard.end:
     text: End
 keyboard.enter:
-    text: Enter
+    text: Ввод
 keyboard.equals:
     text: "="
 keyboard.escape:
     text: Escape
 keyboard.euro:
-    text: Евро
+    text: €
 keyboard.exclamationMark:
-    text: Восклицательный знак
+    text: !
 keyboard.f1:
     text: F1
 keyboard.f10:
@@ -169,7 +169,7 @@ keyboard.find:
 keyboard.fullWidth:
     text: Full-Width
 keyboard.greater:
-    text: Больше
+    text: >
 keyboard.halfWidth:
     text: Half-Width
 keyboard.help:
@@ -199,17 +199,17 @@ keyboard.kanji:
 keyboard.katakana:
     text: Катакана
 keyboard.left:
-    text: Влево
+    text: ←
 keyboard.leftParenthesis:
-    text: Левая скобка
+    text: "("
 keyboard.meta:
     text: Meta
 keyboard.minus:
-    text: Минус
+    text: "-"
 keyboard.modechange:
     text: Смена режима
 keyboard.multiply:
-    text: NumPad *
+    text: ЦифрКлав *
 keyboard.noconvert:
     text: Не конвертировать
 keyboard.numLock:
@@ -217,27 +217,27 @@ keyboard.numLock:
 keyboard.numberSign:
     text: Числовой символ
 keyboard.numpad:
-    text: NumPad
+    text: ЦифрКлав
 keyboard.numpad.0:
-    text: NumPad 0
+    text: ЦифрКлав 0
 keyboard.numpad.1:
-    text: NumPad 1
+    text: ЦифрКлав 1
 keyboard.numpad.2:
-    text: NumPad 2
+    text: ЦифрКлав 2
 keyboard.numpad.3:
-    text: NumPad 3
+    text: ЦифрКлав 3
 keyboard.numpad.4:
-    text: NumPad 4
+    text: ЦифрКлав 4
 keyboard.numpad.5:
-    text: NumPad 5
+    text: ЦифрКлав 5
 keyboard.numpad.6:
-    text: NumPad 6
+    text: ЦифрКлав 6
 keyboard.numpad.7:
-    text: NumPad 7
+    text: ЦифрКлав 7
 keyboard.numpad.8:
-    text: NumPad 8
+    text: ЦифрКлав 8
 keyboard.numpad.9:
-    text: NumPad 9
+    text: ЦифрКлав 9
 keyboard.openBracket:
     text: "["
 keyboard.paste:
@@ -245,7 +245,7 @@ keyboard.paste:
 keyboard.pause:
     text: Pause
 keyboard.period:
-    text: Точка
+    text: "."
 keyboard.pgdn:
     text: Page Down
 keyboard.pgup:
@@ -259,31 +259,31 @@ keyboard.printScreen:
 keyboard.props:
     text: Props
 keyboard.quote:
-    text: Кавычка
+    text: "'"
 keyboard.quoteDbl:
-    text: Двойная кавычка
+    text: "\""
 keyboard.right:
-    text: Вправо
+    text: →
 keyboard.rightParenthesis:
-    text: Правая скобка
+    text: ")"
 keyboard.romanCharacters:
     text: Латинские символы
 keyboard.scrollLock:
     text: Scroll Lock
 keyboard.semicolon:
-    text: Точка с запятой
+    text: ";"
 keyboard.separator:
-    text: NumPad ,
+    text: ЦифрКлав ,
 keyboard.shift:
     text: Shift
 keyboard.slash:
-    text: Косая черта
+    text: "/"
 keyboard.space:
-    text: Space
+    text: Пробел
 keyboard.stop:
     text: Stop
 keyboard.subtract:
-    text: NumPad -
+    text: ЦифрКлав -
 keyboard.tab:
     text: Tab
 keyboard.undefined:
@@ -295,7 +295,7 @@ keyboard.undo:
 keyboard.unknown.0:
     text: Неизвестно {0}
 keyboard.up:
-    text: Вверх
+    text: ↑
 keyboard.windows:
     text: Windows
 mouse.button1:
