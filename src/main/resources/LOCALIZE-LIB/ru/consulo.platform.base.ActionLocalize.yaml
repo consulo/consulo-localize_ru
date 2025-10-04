@@ -66,10 +66,6 @@ action.Back.text:
     text: _Назад
 action.BuildAllArtifacts.text:
     text: Собрать все артефакты
-action.BuildArtifact.description:
-    text: Выбрать и построить артефакты, настроенные в проекте
-action.BuildArtifact.text:
-    text: Собрать артефакты…
 action.CallHierarchy.BaseOnThisType.description:
     text: Показать иерархию вызовов для выбранного метода
 action.CallHierarchy.BaseOnThisType.text:
@@ -336,18 +332,6 @@ action.CompareTwoFiles.description:
     text: Сравнить два выбранных файла
 action.CompareTwoFiles.text:
     text: Сравнить два _файла
-action.Compile.description:
-    text: Скомпилировать выбранный файл или пакет
-action.Compile.text:
-    text: _Скомпилировать
-action.CompileDirty.description:
-    text: Скомпилировать все изменённые и зависимые файлы в проекте
-action.CompileDirty.text:
-    text: Собрать _проект
-action.CompileProject.description:
-    text: Перекомпилировать все файлы в проекте
-action.CompileProject.text:
-    text: _Пересобрать проект
 action.ConfigureFileDefaultEncoding.description:
     text: Настроить кодировку по умолчанию для файлов, файлов в каталогах или во всем проекте.
 action.ConfigureFileDefaultEncoding.text:
@@ -1082,10 +1066,6 @@ action.Lvcs.ShowLvcsDiffAction.description:
     text: Показать правки
 action.Lvcs.ShowLvcsDiffAction.text:
     text: Сравнить версии
-action.MakeModule.description:
-    text: Скомпилировать все изменённые и зависимые файлы в модуле
-action.MakeModule.text:
-    text: Собрать _модуль
 action.ManageRecentProjects.text:
     text: Управление проектами…
 action.MarkAsOriginalTypeAction.text:
@@ -2162,10 +2142,6 @@ group.BackgroundTasks.text:
     text: Фоновые задачи
 group.Bookmarks.text:
     text: Закладки
-group.BuildArtifactsGroup.text:
-    text: Собрать артефакт
-group.BuildMenu.text:
-    text: С_борка
 group.ChangeLineSeparators.text:
     text: Переводы строк
 group.ChangesViewPopupMenu.text:
