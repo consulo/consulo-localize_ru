@@ -1,15 +1,35 @@
+action.build.artifact.description:
+    text: Выбрать и собрать артефакты, настроенные в проекте
+action.build.artifact.text:
+    text: Собрать артефакты…
 action.compile.0.text:
     text: Скомпилировать «{0}»
 action.compile.default.text:
     text: Скомпилировать <по умолчанию>
+action.compile.description:
+    text: Скомпилировать выбранный файл или пакет
+action.compile.dirty.description:
+    text: Скомпилировать все изменённые и зависимые файлы в проекте
+action.compile.dirty.text:
+    text: Собрать _проект
 action.compile.module.text:
     text: Скомпилировать модуль «{0}»
+action.compile.project.description:
+    text: Перекомпилировать все файлы в проекте
+action.compile.project.text:
+    text: _Пересобрать проект
 action.compile.selected.files.text:
     text: Скомпилировать выбранные файлы
+action.compile.text:
+    text: _Скомпилировать
 action.compiler.properties.text:
     text: Свойства компилятора
 action.description.package.file:
     text: Обновить файл в соответствующих артефактах
+action.make.module.description:
+    text: Скомпилировать все изменённые и зависимые файлы в модуле
+action.make.module.text:
+    text: Собрать _модуль
 action.make.selected.modules.text:
     text: Собрать выбранные _модули
 action.name.exclude.from.validation:
@@ -24,6 +44,16 @@ annotation.processing.compiler.description:
     text: Компилятор Java-аннотаций
 artifact.type.plain:
     text: Другое
+artifacts.menu.item.all:
+    text: Все артефакты
+artifacts.menu.item.build:
+    text: Собрать
+artifacts.menu.item.clean:
+    text: Очистить
+artifacts.menu.item.edit:
+    text: Редактировать...
+artifacts.menu.item.rebuild:
+    text: Пересобрать
 bad.resource.patterns.dialog.title:
     text: Неправильно сформированные шаблоны ресурсов
 build.artifacts.before.run.description.empty:
@@ -64,8 +94,19 @@ compiler.results.export.text.prefix:
     text: строка ({0})
 compiler.running.dialog.title:
     text: Запуск компилятора
+dialog.message.output.dir.artifact:
+    text: |4
+         «{0}» артефакт («{1}»)
+dialog.message.output.dir.contains.source.roots:
+    text: Выходной каталог «{0}» артефакта «{1}» содержит исходные файлы проекта. Хотите продолжить и очистить его?
+dialog.message.output.dirs.contain.source.roots:
+    text: |-
+        Выходные каталоги следующих артефактов содержат исходные корневые каталоги:
+        {0}Продолжить и очистить эти каталоги?
 dialog.title.choose.artifacts:
     text: Выбор артефактов
+dialog.title.clean.artifacts:
+    text: Очистить артефакты
 dialog.title.output.directory.for.artifact:
     text: Выходной каталог для артефакта
 element.type.name.artifact:
@@ -217,6 +258,10 @@ generated.ant.build.modules.section.title:
     text: Модули
 generated.ant.build.project.libraries.comment:
     text: Проектные библиотеки
+group.build.artifacts.group.text:
+    text: Собрать артефакт
+group.build.menu.text:
+    text: С_борка
 java.compiler.description:
     text: Java-компилятор
 java.compiler.option.additional.command.line.parameters:
@@ -329,10 +374,8 @@ message.resource.patterns.format.changed:
         Экранируйте символ «!» с помощью обратной косой черты («\»).
         Вам также может потребоваться изменить настройки проекта шаблона.
         Нажмите «{2}», чтобы принять введенные шаблоны, «{3}», чтобы загрузить шаблоны по умолчанию в новом формате.
-message.tect.package.file.io.error:
-    text: |-
-        Ошибка ввода-вывода:
-        {0}
+message.text.cannot.delete.0:
+    text: невозможно удалить ''{0}''
 message.text.compiling.item.deployment.descriptor.could.not.be.found:
     text: 'Компиляция {0}: Элемент развертывания «{1}» не найден'
 message.text.compiling.module.message:
@@ -340,21 +383,31 @@ message.text.compiling.module.message:
 message.text.deployment.description.invalid.file:
     text: Недопустимый файл
 message.text.destination.is.directory:
-    text: 'Место назначения {0} — каталог.'
+    text: Место назначения {0} — каталог.
 message.text.error.copying.file.to.file:
     text: Ошибка копирования «{0}» в «{1}».
+message.text.package.file.io.error:
+    text: |-
+        Ошибка ввода-вывода:
+        {0}
 message.text.xml.file.invalid:
     text: XML-файл «{0}» недействителен
+message.title.cannot.clean.0.artifact:
+    text: Невозможно очистить артефакт «{0}»
+message.title.cannot.package.file:
+    text: Невозможно упаковать файл
 no.excludes:
     text: Исключений нет
 no.validators:
     text: Нет доступных валидаторов
 node.text.0.1.compile.output:
-    text: '«{0}» {1} компилировать вывод'
+    text: Вывод компиляции «{0}» {1}
 node.text.0.directory.content:
-    text: '«{0}» содержимое каталога'
+    text: Содержимое каталога «{0}»
 node.text.0.with.dependencies:
-    text: '«{0}» с зависимостями'
+    text: «{0}» с зависимостями
+notification.group.clean.artifact.display.name:
+    text: Очистить артефакт
 notification.group.compiler.display.name:
     text: Компилятор
 option.use.compiler.text:
@@ -375,6 +428,8 @@ packaging.element.text.output.root:
     text: <корень вывода>
 pattern.conversion.dialog.title:
     text: Преобразование шаблона
+popup.title.chosen.artifact.action:
+    text: Действие{0,choice,0# для {0} артефактов|1#|2# для {0} артефактов}
 progress.checking.dependencies:
     text: Проверка зависимостей…
 progress.clearing.output:
@@ -406,9 +461,9 @@ progress.synchronizing.output.directory:
 progress.updating.caches:
     text: Обновляем кэши…
 rebuild.lvcs.label.no.errors:
-    text: '«{0}» без ошибок'
+    text: «{0}» без ошибок
 rebuild.lvcs.label.with.errors:
-    text: '«{0}» с ошибками'
+    text: «{0}» с ошибками
 resource.compiler.description:
     text: Компилятор ресурсов
 rmi.compiler.description:
@@ -437,6 +492,10 @@ status.compilation.completed.successfully.with.warnings.and.errors:
     text: Компиляция завершена с {0} {0,choice, 0#ошибок|1#ошибкой|2#ошибками} и {1} {1,choice, 0#предупреждений|1#предупреждением|2#предупреждениями}
 status.text.file.has.been.packaged:
     text: '{0,choice, 1#Файл|2#Файлы} {1} {0,choice, 1#был упакован|2#были упакованы} в {2}.'
+task.cleaning.artifacts.title:
+    text: Очистка артефактов...
+task.packaging.files.title:
+    text: Упаковка файлов
 toolwindow.build.display.name:
     text: Сборка
 validation.display.name:

@@ -18,14 +18,16 @@ action.EditorStickyLinesDisableForLang.text:
     text: Отключить для выбранного языка
 action.add.or.remove.caret.text:
     text: Добавить или удалить курсор
-action.back.space.text:
+action.backspace.text:
     text: Backspace
 action.choose.lookup.item.complete.statement.text:
-    text: Выбрать элемент поиска и вызвать полное выражение
+    text: Выбрать элемент из подсказки и завершить выражение
+action.choose.lookup.item.dot.text:
+    text: Выбрать элемент из подсказки и вставить точку
 action.choose.lookup.item.replace.text:
-    text: Выбрать элемент поиска заменить
+    text: Выбрать элемент из подсказки и заменить слово
 action.choose.lookup.item.text:
-    text: Выбрать элемент поиска
+    text: Выбрать элемент из подсказки
 action.clone.caret.above.text:
     text: Клонировать курсор выше
 action.clone.caret.below.text:
@@ -58,6 +60,10 @@ action.delete.line.text:
     text: Удалить строку
 action.delete.text:
     text: Удалить
+action.delete.to.line.end.text:
+    text: Удалить до конца строки
+action.delete.to.line.start.text:
+    text: Удалить до начала строки
 action.delete.to.word.end.in.different.humps.mode.text:
     text: Удалить до конца слова в другом режиме «CamelHumps»
 action.delete.to.word.end.text:
@@ -70,12 +76,12 @@ action.down.text:
     text: Вниз
 action.down.with.selection.text:
     text: Вниз с выделением
-action.duplicate.line:
-    text: '&Дублировать строку'
+action.duplicate.line.text:
+    text: '&Удвоить строку'
 action.duplicate.lines.text:
     text: Удвоить строки
-action.duplicate.selection:
-    text: '&Дублировать выделение'
+action.duplicate.selection.text:
+    text: '&Удвоить выделение'
 action.duplicate.text:
     text: Удвоить строку под курсором или выделенный блок
 action.enter.text:
@@ -86,10 +92,10 @@ action.fill.paragraph.description:
     text: Переформатировать строковый литерал или комментарий, чтобы он соответствовал максимальной ширине (обычно 80)
 action.fill.paragraph.text:
     text: Выровнять абзац
-action.hungry.back.space.text:
-    text: Жадный Backspace
 action.hungry.backspace.description:
     text: Действует как Backspace, за исключением того, что удаляет все пробельные символы перед курсором (если есть)
+action.hungry.backspace.text:
+    text: Жадный Backspace
 action.increase.font.size.text:
     text: Увеличить размер шрифта
 action.indent.selection.text:
@@ -254,10 +260,10 @@ action.toggle.use.soft.wraps.in.preview.text:
     text: Мягкие переносы в редакторе предварительного просмотра
 action.toggle.use.soft.wraps.text:
     text: Использовать мягкие переносы
-action.un.select.word.text:
-    text: Отменить выделение слова под курсором
 action.unindent.selection.text:
     text: Уменьшить отступ выделения
+action.unselect.word.text:
+    text: Отменить выделение слова под курсором
 action.up.text:
     text: Вверх
 action.up.with.selection.text:
@@ -270,8 +276,6 @@ close.editor.annotations.action.name:
     text: Закрыть аннотации
 customize.highlighting.level.menu.item:
     text: Настроить уровень подсветки
-decrease.editor.font:
-    text: Уменьшить размер шрифта
 editing.read.only.file.hint:
     text: Файл доступен только для чтения
 editing.viewer.hint:
@@ -314,8 +318,6 @@ hector.none.slider.label:
     text: Нет
 hector.syntax.slider.label:
     text: Синтаксис
-increase.editor.font:
-    text: Увеличить размер шрифта
 inlay.hints.declarative.disable.action.no.provider.text:
     text: Отключить встроенные в текст подсказки
 inlay.hints.declarative.disable.action.text:
