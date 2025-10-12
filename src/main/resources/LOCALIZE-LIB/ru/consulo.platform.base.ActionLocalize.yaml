@@ -410,74 +410,6 @@ action.CreateRunConfiguration.text:
     text: Создать конфигурацию запуска
 action.DebugListen.text:
     text: Выбросить исключение отладки
-action.Debugger.AdjustArrayRange.text:
-    text: Настроить диапазон…
-action.Debugger.AutoRenderer.text:
-    text: Авто
-action.Debugger.CompareValueWithClipboard.description:
-    text: Сравнить значение выбранного узла с текстом из буфера обмена
-action.Debugger.CompareValueWithClipboard.text:
-    text: Сравнить значение с буфером обмена
-action.Debugger.CopyValue.text:
-    text: Копировать значение
-action.Debugger.CustomizeContextView.text:
-    text: Настроить представления данных…
-action.Debugger.CustomizeThreadsView.text:
-    text: Настроить просмотр цепочек…
-action.Debugger.EditFrameSource.text:
-    text: EditFrameSource
-action.Debugger.EditNodeSource.text:
-    text: EditNodeSource
-action.Debugger.EditTypeSource.text:
-    text: Перейти к источнику объекта
-action.Debugger.EditWatch.text:
-    text: Редактировать отслеживание
-action.Debugger.FocusOnBreakpoint.description:
-    text: По умолчанию сфокусировать это представление при достижении точки останова
-action.Debugger.FocusOnBreakpoint.text:
-    text: Фокус на точке останова
-action.Debugger.FreezeThread.text:
-    text: Заморозить
-action.Debugger.Inspect.text:
-    text: Проверить
-action.Debugger.InterruptThread.text:
-    text: Прервать
-action.Debugger.MarkObject.description:
-    text: Отметить/снять отметку с объекта, чтобы его можно было визуально различить в представлениях отладчика
-action.Debugger.MarkObject.text:
-    text: Отметить объект…
-action.Debugger.MarkObject.unmark.text:
-    text: Снять отметку с объекта
-action.Debugger.MuteBreakpoints.description:
-    text: Отключить/включить все точки останова в сеансе отладки.
-action.Debugger.MuteBreakpoints.text:
-    text: Отключить точки останова
-action.Debugger.NewWatch.text:
-    text: Новое отслеживание…
-action.Debugger.RemoveAllWatches.text:
-    text: Удалить все отслеживания
-action.Debugger.RemoveWatch.text:
-    text: Удалить отслеживание
-action.Debugger.ResumeThread.text:
-    text: Возобновить
-action.Debugger.SetValue.text:
-    text: Установить значение…
-action.Debugger.ShowFrame.text:
-    text: Показать рамку
-action.Debugger.ShowReferring.text:
-    text: Показать ссылающиеся объекты
-action.Debugger.Tree.AddToWatches.text:
-    text: Добавить в отслеживания
-action.Debugger.Tree.EvaluateInConsole.text:
-    text: Оценить в консоли
-action.Debugger.UnmuteOnStop.text:
-    text: Включить точки останова по окончании сеанса
-action.Debugger.ViewAsGroup.text:
-    text: Просмотреть как
-action.Debugger.ViewText.description:
-    text: Просмотреть текстовое значение выбранного узла на отдельной панели
-action.Debugger.ViewText.text:
-    text: Просмотр текста
 action.DecodeBytesAction.text:
     text: Декодировать байты
 action.DecrementWindowHeight.text:
@@ -2040,64 +1972,6 @@ action.WhatsNewAction.description:
     text: Узнайте о новых функциях в этой версии IDE
 action.WhatsNewAction.text:
     text: Что _нового?
-action.XDebugger.AutoTooltip.description:
-    text: Переключает автоматический показ подсказки значения при наведении курсора мыши
-action.XDebugger.AutoTooltip.text:
-    text: Автоматическая подсказка значения
-action.XDebugger.AutoTooltipOnSelection.description:
-    text: Переключает автоматическое отображение всплывающей подсказки значения при изменении выделения в редакторе
-action.XDebugger.AutoTooltipOnSelection.text:
-    text: Показать значение при изменении выбора
-action.XDebugger.CompareValueWithClipboard.description:
-    text: Сравнить значение выбранного узла с текстом из буфера обмена
-action.XDebugger.CompareValueWithClipboard.text:
-    text: Сравнить значение с буфером обмена
-action.XDebugger.CopyName.description:
-    text: Скопировать название выбранного узла в буфер обмена
-action.XDebugger.CopyName.text:
-    text: Копировать название
-action.XDebugger.CopyValue.description:
-    text: Скопировать значение выбранного узла в буфер обмена
-action.XDebugger.CopyValue.text:
-    text: Копировать значение
-action.XDebugger.EditWatch.text:
-    text: Редактировать отслеживание
-action.XDebugger.Inline.description:
-    text: Показать доступные значения сеанса отладчика внутри редактора
-action.XDebugger.Inline.text:
-    text: Показать значения в строке
-action.XDebugger.Inspect.text:
-    text: Осмотреть…
-action.XDebugger.JumpToSource.description:
-    text: Открытый исходный код выбранного элемента
-action.XDebugger.JumpToSource.text:
-    text: Перейти к источнику
-action.XDebugger.JumpToTypeSource.description:
-    text: Открытый исходный код выбранного типа значения
-action.XDebugger.JumpToTypeSource.text:
-    text: Перейти к типу источника
-action.XDebugger.MuteBreakpoints.description:
-    text: Игнорировать все точки останова
-action.XDebugger.MuteBreakpoints.text:
-    text: Отключить точки останова
-action.XDebugger.NewWatch.text:
-    text: Новое отслеживание…
-action.XDebugger.RemoveAllWatches.text:
-    text: Удалить все отслеживания
-action.XDebugger.RemoveWatch.text:
-    text: Удалить отслеживание
-action.XDebugger.SetValue.description:
-    text: Изменить значение выбранного узла
-action.XDebugger.SetValue.text:
-    text: Установить значение…
-action.XDebugger.ToggleSortValues.description:
-    text: Сортировать значения по алфавиту в представлениях отладчика
-action.XDebugger.ToggleSortValues.text:
-    text: Сортировать значения по алфавиту
-action.XDebugger.UnmuteOnStop.description:
-    text: Отменить выключение точек останова по окончании сеанса отладки
-action.XDebugger.UnmuteOnStop.text:
-    text: Включить точки останова по окончании сеанса
 action.editRunConfigurations.description:
     text: Открыть диалоговое окно редактирования конфигураций запуска/отладки
 action.editRunConfigurations.text:

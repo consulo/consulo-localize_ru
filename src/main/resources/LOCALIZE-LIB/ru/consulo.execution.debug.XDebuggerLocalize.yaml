@@ -1,17 +1,59 @@
 action.add.to.watch.text:
     text: Добавить в отслеживания
+action.adjust.array.range.text:
+    text: Настроить диапазон…
+action.auto.renderer.text:
+    text: Авто
+action.auto.tooltip.description:
+    text: Переключает автоматический показ подсказки значения при наведении курсора мыши
+action.auto.tooltip.on.selection.description:
+    text: Переключает автоматическое отображение всплывающей подсказки значения при изменении выделения в редакторе
+action.auto.tooltip.on.selection.text:
+    text: Показать значение при изменении выбора
+action.auto.tooltip.text:
+    text: Автоматическая подсказка значения
 action.choose.debug.configuration.popup.description:
     text: Выбрать и отладить конфигурацию
 action.choose.debug.configuration.popup.text:
     text: Отладить…
+action.compare.value.with.clipboard.description:
+    text: Сравнить значение выбранного узла с текстом из буфера обмена
+action.compare.value.with.clipboard.text:
+    text: Сравнить значение с буфером обмена
+action.copy.name.description:
+    text: Скопировать название выбранного узла в буфер обмена
+action.copy.name.text:
+    text: Копировать название
+action.copy.value.description:
+    text: Скопировать значение выбранного узла в буфер обмена
+action.copy.value.text:
+    text: Копировать значение
+action.copy.watch.text:
+    text: Копировать отслеживание
+action.customize.context.view.text:
+    text: Настроить представления данных…
+action.customize.threads.view.text:
+    text: Настроить просмотр цепочек…
 action.edit.breakpoint.text:
     text: Изменить
+action.edit.frame.source.text:
+    text: EditFrameSource
+action.edit.node.source.text:
+    text: EditNodeSource
+action.edit.type.source.text:
+    text: Перейти к источнику объекта
+action.edit.watch.text:
+    text: Редактировать отслеживание
 action.evaluate.expression.description:
     text: Вычислить произвольное выражение
 action.evaluate.expression.text:
     text: _Вычислить выражение…
 action.evaluate.in.console.text:
     text: Вычислить в консоли
+action.focus.on.breakpoint.description:
+    text: По умолчанию сфокусировать это представление при достижении точки останова
+action.focus.on.breakpoint.text:
+    text: Фокус на точке останова
 action.force.run.to.cursor.description:
     text: Исполнять код, пока не дойдёт до строки под курсором, игнорируя точки останова
 action.force.run.to.cursor.text:
@@ -24,8 +66,38 @@ action.force.step.over.description:
     text: Перейти через строку, игнорируя точки останова.
 action.force.step.over.text:
     text: Принудительно перейти через строку
+action.freeze.thread.text:
+    text: Заморозить
+action.inline.description:
+    text: Показать доступные значения сеанса отладчика внутри редактора
+action.inline.text:
+    text: Показать значения в строке
+action.inspect.text:
+    text: Осмотреть…
+action.interrupt.thread.text:
+    text: Прервать
+action.jump.to.source.description:
+    text: Открытый исходный код выбранного элемента
+action.jump.to.source.text:
+    text: Перейти к источнику
+action.jump.to.type.source.description:
+    text: Открытый исходный код выбранного типа значения
+action.jump.to.type.source.text:
+    text: Перейти к типу источника
+action.mark.object.description:
+    text: Отметить/снять отметку с объекта, чтобы его можно было визуально различить в представлениях отладчика
+action.mark.object.text:
+    text: Отметить объект…
+action.mark.object.unmark.text:
+    text: Снять отметку с объекта
 action.memory.view.settings.text:
     text: Настройки просмотра памяти
+action.mute.breakpoints.description:
+    text: Игнорировать все точки останова
+action.mute.breakpoints.text:
+    text: Отключить точки останова
+action.new.watch.text:
+    text: Новое отслеживание…
 action.next.frame.text:
     text: Следующий кадр
 action.pause.description:
@@ -38,18 +110,32 @@ action.pop.frame.text:
     text: Сбросить _кадр
 action.previous.frame.text:
     text: Предыдущий кадр
+action.remove.all.watches.text:
+    text: Удалить все отслеживания
+action.remove.watch.text:
+    text: Удалить отслеживание
 action.resume.description:
     text: Возобновить исполнение программы
 action.resume.text:
     text: Возобновить _исполнение
+action.resume.thread.text:
+    text: Возобновить
 action.run.to.cursor.description:
     text: Исполнять код, пока не дойдёт до текущей строки под курсором
 action.run.to.cursor.text:
     text: Исполнять до _курсора
+action.set.value.description:
+    text: Изменить значение выбранного узла
+action.set.value.text:
+    text: Установить значение…
 action.show.execution.point.description:
     text: Показать текущую точку выполнения программы
 action.show.execution.point.text:
     text: Показать место _исполнения
+action.show.frame.text:
+    text: Показать рамку
+action.show.referring.text:
+    text: Показать ссылающиеся объекты
 action.smart.step.into.description:
     text: Войти внутрь определённого метода
 action.smart.step.into.text:
@@ -70,14 +156,32 @@ action.toggle.line.breakpoint.description:
     text: Включить/отключить точку останова на строке под курсором
 action.toggle.line.breakpoint.text:
     text: Включить/отключить точку останова на _строке
+action.toggle.sort.values.description:
+    text: Сортировать значения по алфавиту в представлениях отладчика
+action.toggle.sort.values.text:
+    text: Сортировать значения по алфавиту
 action.toggle.temporary.line.breakpoint.description:
     text: Включить/отключить временную точку останова на строке под курсором
 action.toggle.temporary.line.breakpoint.text:
     text: Включить/отключить временную точку останова строки
+action.tree.add.to.watches.text:
+    text: Добавить в отслеживания
+action.tree.evaluate.in.console.text:
+    text: Оценить в консоли
+action.unmute.on.stop.description:
+    text: Отменить выключение точек останова по окончании сеанса отладки
+action.unmute.on.stop.text:
+    text: Включить точки останова по окончании сеанса
+action.view.as.group.text:
+    text: Просмотреть как
 action.view.breakpoints.description:
     text: Просмотр и управление всеми точками останова и наблюдения
 action.view.breakpoints.text:
     text: Просмотреть точки останова…
+action.view.text.description:
+    text: Просмотреть текстовое значение выбранного узла на отдельной панели
+action.view.text.text:
+    text: Просмотр текста
 ad.extra.selection.shortcut:
     text: 'Вы также можете выбрать элемент с помощью: {0}'
 button.text.code.fragment.mode:
