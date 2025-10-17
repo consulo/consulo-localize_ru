@@ -1,446 +1,446 @@
-plugin.descriptor:
-    text: "Описание расширения Consulo"
-deployment.title:
-    text: "Развёртывание расширения"
-deployment.cleanup:
-    text: "Очистить каталог {0}"
-deployment.directory.location:
-    text: "Выберите расположение каталога {0}"
-deployment.view.select:
-    text: "Выберите {0}"
-manifest.settings:
-    text: "Настройки манифеста"
-manifest.selection:
-    text: "Выбранные {0} будут включены в результирующий дистрибутив"
-manifest.use.user.defined:
-    text: "Использовать манифест пользователя:"
-deployment.view.delete:
-    text: "Удалить {0}?"
-deployment.view.meta.inf.label:
-    text: "Путь к {0}"
-suggest.to.delete:
-    text: "Хотите удалить «{0}»?"
-vm.parameters:
-    text: "&Параметры VM"
-program.parameters:
-    text: "&Аргументы программы"
-select.plugin.modules.title:
-    text: "Выбрать модули"
-select.plugin.modules.description:
-    text: "Выбрть модули для подготовки к развертыванию"
-prepare.for.deployment.common:
-    text: "Подготовка к развертыванию"
-prepare.for.deployment:
-    text: "Подготовка модуля расширения «{0}» для развертывания"
-prepare.for.deployment.all:
-    text: "Подготовка всех модулей расширения для развертывания"
-saved.message.common:
-    text: "{0} будет сохранён в выбранном каталоге"
-saved.message:
-    text: "{0, choice, 1#Zip|2#Jar} для модуля «{1}» был сохранён в {2}"
-success.deployment.message:
-    text: "Модуль расширения «{0}» успешно подготовлен к развертыванию"
-success.deployment.message.all:
-    text: "Все расширения успешно подготовлены к развертыванию"
-sdk.title:
-    text: "SDK для разработки расширений Consulo"
-sandbox.specification:
-    text: "Пожалуйста, настройте песочницу"
-sandbox.home:
-    text: "Домашняя страница песочницы"
-sandbox.home.label:
-    text: "Домашняя страница песочницы:"
-sandbox.no.configured:
-    text: "Не указана песочница для Consulo JDK"
-sandbox.purpose:
-    text: "Выбрать папку для размещения конфигурации, системы и расширения для целевой Consulo"
-error.occurred:
-    text: "Произошла ошибка"
-jdk.no.specified:
-    text: "Для модуля расширения «{0}» не указан JDK"
-jdk.type.incorrect:
-    text: "Неправильный тип JDK для модуля расширения «{0}»."
-jdk.type.incorrect.common:
-    text: "Неправильный тип JDK для модуля расширения"
-incorrect.dependency.non.plugin.module:
-    text: "Модуль не-расширения «{0}» не может зависеть от модуля расширения «{1}»."
-incorrect.dependency.not.declared:
-    text: "Модуль расширения «{0}» не указал зависимость от «{1}» в своём plugin.xml."
-error.file.not.found:
-    text: "Файл не найден"
-error.file.not.found.message:
-    text: "Файл «{0}» не найден"
-error.no.plugin.xml:
-    text: "Файл plugin.xml не найден"
-error.plugin.xml.readonly:
-    text: "Файл plugin.xml доступен только для чтения"
-run.configuration.classpath.from.module.choose:
-    text: "Использовать Classpath и JDK из модуля:"
-run.configuration.no.java.sdk:
-    text: "Нет Java SDK"
-run.configuration.no.consulo.sdk:
-    text: "Нет Consulo SDK"
-run.configuration.no.plugin.artifact:
-    text: "Нет артефакта расширения"
-run.configuration.title:
-    text: "Consulo в песочнице"
-test.run.configuration.title:
-    text: "Consulo в песочнице (тест)"
-run.configuration.type.description:
-    text: "Среда песочницы расширения"
-idea.log.tab.title:
-    text: "Лог Consulo"
-info.message:
-    text: "Информация"
-create.smth:
-    text: "Создать {0}"
-show.idea.log:
-    text: "&Показать consulo.log"
-presentable.plugin.module.name:
-    text: "Модуль расширения «{0}»"
-action.MakeJarAction.text:
-    text: "Подготовка к развертыванию"
+InspectionUseGrayColor:
+    text: Использовать Gray
+action.DownloadDependencies.text:
+    text: Загрузить/обновить зависимости…
 action.MakeAllJarsAction.text:
-    text: "Подготовка всех расширения к развертыванию"
+    text: Подготовка всех расширения к развертыванию
+action.MakeJarAction.text:
+    text: Подготовка к развертыванию
+alternative.consulo.sdk:
+    text: 'Альтернативный Consulo SDK:'
+ant.build.jar.comment:
+    text: Сборка архива для расширения «{0}»
+ant.build.jar.description:
+    text: Сборка архива расширения для модуля «{0}»
+awt.error.inspection.display.name:
+    text: Отчет об ошибках реализации AWT и Swing
+awt.error.inspection.message:
+    text: Невозможно использовать реализацию AWT и Swing. Пожалуйста, ознакомьтесь с руководством по написанию пользовательского интерфейса
+class.action:
+    text: действие
+class.implementation:
+    text: реализация
+class.interface:
+    text: интерфейс
+command.implement.externalizable:
+    text: Реализовать Externalizable
+complicated.logger.initialization.inspection.display.name:
+    text: Сложная инициализация логера
+complicated.logger.initialization.inspection.message:
+    text: Сложная инициализация логера
+complicated.logger.initialization.quickfix.name:
+    text: Заменить константой класса
+copy.artifacts.before.run.description.empty:
+    text: Копировать артефакты
+copy.artifacts.before.run.description.multiple:
+    text: Копировать артефакты {0}
+copy.artifacts.before.run.description.single:
+    text: Копировать артефакт «{0}»
+create.description.file:
+    text: Создать файл описания
+create.smth:
+    text: Создать {0}
+deployment.cleanup:
+    text: Очистить каталог {0}
+deployment.directory.location:
+    text: Выберите расположение каталога {0}
+deployment.title:
+    text: Развёртывание расширения
+deployment.view.delete:
+    text: Удалить {0}?
+deployment.view.meta.inf.label:
+    text: Путь к {0}
+deployment.view.select:
+    text: Выберите {0}
 dont.add.idea.libs.to.classpath:
-    text: "Библиотеки, связанные с Consulo ({0}), не должны добавляться в classpath модуля. Вместо этого добавьте их в Consulo JDK."
-new.action.id:
-    text: "&Идентификатор действия:"
-new.action.description:
-    text: "&Описание:"
-new.action.class.name:
-    text: "&Название класса:"
-new.action.text:
-    text: "&Название:"
+    text: Библиотеки, связанные с Consulo ({0}), не должны добавляться в classpath модуля. Вместо этого добавьте их в Consulo JDK.
+dont.use.new.pair.inspection.display.name:
+    text: Не используйте конструктор класса Pair
+dont.use.new.pair.inspection.message:
+    text: Заменить на Pair.create()
+error.cannot.resolve.plugin:
+    text: Невозможно обнаружить расширение {0}
+error.file.not.found:
+    text: Файл не найден
+error.file.not.found.message:
+    text: Файл «{0}» не найден
+error.no.plugin.xml:
+    text: Файл plugin.xml не найден
+error.occurred:
+    text: Произошла ошибка
+error.plugin.xml.readonly:
+    text: Файл plugin.xml доступен только для чтения
+extension.impl.is.not.annotated.inspection.display.name:
+    text: Реализация расширения не содержит аннотации @ExtensionImpl
+extension.impl.is.not.annotated.inspection.message:
+    text: Реализация расширения не содержит аннотации @ExtensionImpl
+file.equals.usage.inspection.display.name:
+    text: Использование File.equals()
+file.equals.usage.inspection.message:
+    text: Не используйте File.equals/hashCode/compareTo, так как они не учитывают регистр в MacOS. Вместо этого используйте FileUtil.filesEquals/fileHashCode/compareFiles
+group.PluginDeployActions.text:
+    text: Действия по развертыванию плагина
+idea.log.tab.title:
+    text: Лог Consulo
+incorrect.dependency.non.plugin.module:
+    text: Модуль не-расширения «{0}» не может зависеть от модуля расширения «{1}».
+incorrect.dependency.not.declared:
+    text: Модуль расширения «{0}» не указал зависимость от «{1}» в своём plugin.xml.
+info.message:
+    text: Информация
+inspection.description.not.found.inspection.display.name:
+    text: Проверка описания инспекции
+inspection.description.not.found.inspection.message:
+    text: У инспекции нет описания
+inspections.annotation.0.is.required.at.owner.or.app.run:
+    text: Нужна аннотация @Required{0}Action у владельца или запускайте код внутри Application#run{0}Action(…)
+inspections.annotation.0.is.required.at.owner.or.app.run.dispath:
+    text: Нужна аннотация @RequiredRequiredDispatchThread у владельца или запускайте код внутри UIUtil.invokeLaterIfNeeded(…)
+inspections.annotation.0.is.required.at.owner.or.app.run.ui:
+    text: Нужна аннотация @RequiredUIAccess у владельца или запускайте код внутри UIAccess.give(…)
+inspections.component.not.registered.message:
+    text: '{0} не зарегистрирован в plugin.xml'
+inspections.component.not.registered.name:
+    text: Component/Action не зарегистрирован
+inspections.component.not.registered.option.check.actions:
+    text: Проверить действия
+inspections.component.not.registered.option.ignore.non.public:
+    text: Игнорировать непубличные классы
+inspections.component.not.registered.quickfix.error:
+    text: Невозможно зарегистрировать {0}
+inspections.component.not.registered.quickfix.family:
+    text: Зарегистрировать компонент
+inspections.component.not.registered.quickfix.name:
+    text: Зарегистрировать {0}
+inspections.get.extension.point.validation.incorrect.scope:
+    text: Неверная область расширения
+inspections.get.extension.point.validation.no.annotation:
+    text: '{0} не снабжён аннотацией @ExtensionAPI'
+inspections.get.extension.point.validation.title:
+    text: Проверка вызова ConfigurationType.getExtensionPoint()
+inspections.group.name:
+    text: Инструментарий разработки расширений Consulo
+inspections.registration.problems.abstract:
+    text: Класс компонента расширения не должен быть абстрактным
+inspections.registration.problems.action.incompatible.class:
+    text: Класс Action должен быть унаследован от «{0}»
+inspections.registration.problems.cannot.resolve.class:
+    text: Невозможно определить класс {0}
+inspections.registration.problems.component.duplicate.interface:
+    text: Не разрешается иметь несколько компонентов, унаследованных от одного и того же интерфейс
+inspections.registration.problems.component.incompatible.interface:
+    text: Класс компонента не может быть однозначно определён по его интерфейсу «{0}»
+inspections.registration.problems.component.should.implement:
+    text: Класс компонента должен реализовывать «{0}»
+inspections.registration.problems.incompatible.message:
+    text: Согласно регистрации в plugin.xml, класс должен {0} «{1}»
+inspections.registration.problems.missing.implementation.class:
+    text: Отсутствует класс реализации
+inspections.registration.problems.missing.noarg.ctor:
+    text: Класс Action должен иметь конструктор без аргументов
+inspections.registration.problems.name:
+    text: Несоответствие типа компонента
+inspections.registration.problems.option.check.java.actions:
+    text: Проверить Java Actions
+inspections.registration.problems.option.check.java.code:
+    text: Проверить Java-код
+inspections.registration.problems.option.check.plugin.xml:
+    text: Проверить дескриптор расширения (plugin.xml)
+inspections.registration.problems.quickfix.create.constructor:
+    text: Создать конструктор без аргументов
+inspections.registration.problems.quickfix.make.public:
+    text: Сделать {0} public
+inspections.registration.problems.quickfix.read.only:
+    text: Класс «{0}» только для чтения
+inspections.replace.with.xxxlocalize:
+    text: Заменить на {0}.{1}(…)
+inspections.replace.with.xxxlocalize.title:
+    text: Заменить xBundle.message() на xLocalize
+intention.description.not.found.inspection.display.name:
+    text: Проверка описания намерения
+intention.description.not.found.inspection.message:
+    text: У намерения нет описания
+intention.description.not.found.inspection.message.before.after.template:
+    text: У намерения должны быть «before.*.template» и «after.*.template» рядом с «description.html»
+intention.meta.data.missed.inspection.display.name:
+    text: Отсутствует аннотация @IntentionMetaData
+intention.meta.data.missed.inspection.message:
+    text: Отсутствует аннотация @IntentionMetaData
+intention.metadata.missed.inspection.display.name:
+    text: Отсутствует аннотация @IntentionMetaData
+intention.metadata.missed.inspection.fix:
+    text: Отсутствует аннотация @IntentionMetaData
+invocation.state.validate.inspection.display.name:
+    text: Инспекция проверки типа вызова (чтение, запись, отрисовка)
+jdk.no.specified:
+    text: Для модуля расширения «{0}» не указан JDK
+jdk.type.incorrect:
+    text: Неправильный тип JDK для модуля расширения «{0}».
+jdk.type.incorrect.common:
+    text: Неправильный тип JDK для модуля расширения
+keyword.extend:
+    text: наследует
+keyword.implement:
+    text: реализует
+label.consulo.sdk:
+    text: 'Consulo SDK:'
+label.java.sdk:
+    text: 'Java SDK:'
+label.plugin.artifact:
+    text: 'Артефакт плагина:'
+label.program.parameters:
+    text: 'Параметры программы:'
+label.vm.parameters:
+    text: 'Параметры ВМ:'
+localize.editor.notification.compare.action:
+    text: Сравнить
+localize.editor.notification.compare.diff.current.title:
+    text: Текущая локализация
+localize.editor.notification.compare.diff.original.title:
+    text: Исходная локализация
+localize.editor.notification.compare.original.localization.not.found:
+    text: Исходный файл локализации не найден
+localize.editor.notification.locale.0.text:
+    text: 'Язык: {0}'
+localize.editor.notification.sort.action:
+    text: Сортировать
+localize.editor.notification.sort.in.progress:
+    text: Сортируем…
+localize.editor.notification.sort.process.name:
+    text: Сортируем ключи
+localize.todo.inspection.display.name:
+    text: Локализовать проверку TODO
+localize.todo.inspection.message:
+    text: «{0}» не локализован
+manifest.selection:
+    text: Выбранные {0} будут включены в результирующий дистрибутив
+manifest.settings:
+    text: Настройки манифеста
+manifest.use.user.defined:
+    text: 'Использовать манифест пользователя:'
+migrated.extensions.to.inspection.display.name:
+    text: Помощник @MigratedExtensionsTo
+migrated.extensions.to.inspection.message:
+    text: Метод делегирования вызовы
+migrated.extensions.to.inspection.quickfix.name:
+    text: Делегировать в новый класс
+new.action.action.name:
+    text: 'Создание нового действия: {0}.{1}'
 new.action.add.to.group:
-    text: "Добавить в группу"
+    text: Добавить в группу
+new.action.class.name:
+    text: '&Название класса:'
+new.action.command:
+    text: Создать действие
+new.action.description:
+    text: '&Описание:'
+new.action.dialog.title:
+    text: Новое действие
+new.action.error:
+    text: Невозможно создать действие
 new.action.group.actions:
-    text: "Действия:"
+    text: 'Действия:'
 new.action.group.anchor:
-    text: "Якорь:"
-new.action.group.anchor.first:
-    text: "В &начало"
-new.action.group.anchor.last:
-    text: "В &конец"
-new.action.group.anchor.before:
-    text: "&Перед"
+    text: 'Якорь:'
 new.action.group.anchor.after:
-    text: "По&сле"
+    text: По&сле
+new.action.group.anchor.before:
+    text: '&Перед'
+new.action.group.anchor.first:
+    text: В &начало
+new.action.group.anchor.last:
+    text: В &конец
 new.action.group.groups:
-    text: "&Группы:"
-new.action.keyboard.shortcuts:
-    text: "Сочетания клавиш"
-new.action.keyboard.first:
-    text: "Первый:"
-new.action.keyboard.second:
-    text: "Второй:"
+    text: '&Группы:'
+new.action.id:
+    text: '&Идентификатор действия:'
 new.action.keyboard.clear:
     text: X
 new.action.keyboard.clear.tooltip:
-    text: "Очистить горячую клавишу"
-command.implement.externalizable:
-    text: "Реализовать Externalizable"
-new.menu.action.text:
-    text: "Действие"
-new.menu.action.description:
-    text: "Создать новое действие"
-new.action.error:
-    text: "Невозможно создать действие"
-new.action.command:
-    text: "Создать действие"
-new.action.action.name:
-    text: "Создание нового действия: {0}.{1}"
-new.action.dialog.title:
-    text: "Новое действие"
-new.menu.application.component.text:
-    text: "Компонент приложения"
-new.menu.application.component.description:
-    text: "Создать новый компонент приложения"
-new.application.component.error:
-    text: "Невозможно создать компонент приложения"
-new.application.component.command:
-    text: "Создать компонент приложения"
-new.application.component.prompt.title:
-    text: "Новый компонент приложения"
-new.application.component.prompt:
-    text: "Введите имя нового компонента приложения:"
+    text: Очистить горячую клавишу
+new.action.keyboard.first:
+    text: 'Первый:'
+new.action.keyboard.second:
+    text: 'Второй:'
+new.action.keyboard.shortcuts:
+    text: Сочетания клавиш
+new.action.text:
+    text: '&Название:'
 new.application.component.action.name:
-    text: "Создание нового компонента приложения: {0}.{1}"
-new.menu.project.component.text:
-    text: "Компонент проекта"
+    text: 'Создание нового компонента приложения: {0}.{1}'
+new.application.component.command:
+    text: Создать компонент приложения
+new.application.component.error:
+    text: Невозможно создать компонент приложения
+new.application.component.prompt:
+    text: 'Введите имя нового компонента приложения:'
+new.application.component.prompt.title:
+    text: Новый компонент приложения
+new.menu.action.description:
+    text: Создать новое действие
+new.menu.action.text:
+    text: Действие
+new.menu.application.component.description:
+    text: Создать новый компонент приложения
+new.menu.application.component.text:
+    text: Компонент приложения
 new.menu.project.component.description:
-    text: "Создать новый компонент проекта"
-new.project.component.error:
-    text: "Невозможно создать компонент проекта"
-new.project.component.command:
-    text: "Создать компонент проекта"
-new.project.component.prompt.title:
-    text: "Новый компонент проекта"
-new.project.component.prompt:
-    text: "Введите имя нового компонента проекта:"
+    text: Создать новый компонент проекта
+new.menu.project.component.text:
+    text: Компонент проекта
 new.project.component.action.name:
-    text: "Создание нового компонента проекта: {0}.{1}"
-select.plugin.modules.to.patch:
-    text: "Выберите модули расширения для исправления"
-keyword.extend:
-    text: "наследует"
-keyword.implement:
-    text: "реализует"
-class.action:
-    text: "действие"
-class.interface:
-    text: "интерфейс"
-class.implementation:
-    text: "реализация"
-inspections.group.name:
-    text: "Инструментарий разработки расширений Consulo"
-inspections.registration.problems.name:
-    text: "Несоответствие типа компонента"
-inspections.registration.problems.option.check.plugin.xml:
-    text: "Проверить дескриптор расширения (plugin.xml)"
-inspections.registration.problems.option.check.java.actions:
-    text: "Проверить Java Actions"
-inspections.registration.problems.option.check.java.code:
-    text: "Проверить Java-код"
-inspections.registration.problems.quickfix.read.only:
-    text: "Класс «{0}» только для чтения"
-inspections.registration.problems.quickfix.make.public:
-    text: "Сделать {0} public"
-inspections.registration.problems.quickfix.create.constructor:
-    text: "Создать конструктор без аргументов"
-inspections.registration.problems.incompatible.message:
-    text: "Согласно регистрации в plugin.xml, класс должен {0} «{1}»"
-inspections.registration.problems.abstract:
-    text: "Класс компонента расширения не должен быть абстрактным"
-inspections.registration.problems.missing.noarg.ctor:
-    text: "Класс Action должен иметь конструктор без аргументов"
-inspections.registration.problems.missing.implementation.class:
-    text: "Отсутствует класс реализации"
-inspections.registration.problems.cannot.resolve.class:
-    text: "Невозможно определить класс {0}"
-inspections.registration.problems.component.should.implement:
-    text: "Класс компонента должен реализовывать «{0}»"
-inspections.registration.problems.component.incompatible.interface:
-    text: "Класс компонента не может быть однозначно определён по его интерфейсу «{0}»"
-inspections.registration.problems.component.duplicate.interface:
-    text: "Не разрешается иметь несколько компонентов, унаследованных от одного и того же интерфейс"
-inspections.registration.problems.action.incompatible.class:
-    text: "Класс Action должен быть унаследован от «{0}»"
-inspections.component.not.registered.name:
-    text: "Component/Action не зарегистрирован"
-inspections.component.not.registered.message:
-    text: "{0} не зарегистрирован в plugin.xml"
-inspections.component.not.registered.option.check.actions:
-    text: "Проверить действия"
-inspections.component.not.registered.option.ignore.non.public:
-    text: "Игнорировать непубличные классы"
-inspections.component.not.registered.quickfix.family:
-    text: "Зарегистрировать компонент"
-inspections.component.not.registered.quickfix.name:
-    text: "Зарегистрировать {0}"
-inspections.component.not.registered.quickfix.error:
-    text: "Невозможно зарегистрировать {0}"
-inspections.annotation.0.is.required.at.owner.or.app.run:
-    text: "Нужна аннотация @Required{0}Action у владельца или запускайте код внутри Application#run{0}Action(…)"
-inspections.annotation.0.is.required.at.owner.or.app.run.dispath:
-    text: "Нужна аннотация @RequiredRequiredDispatchThread у владельца или запускайте код внутри UIUtil.invokeLaterIfNeeded(…)"
-inspections.annotation.0.is.required.at.owner.or.app.run.ui:
-    text: "Нужна аннотация @RequiredUIAcess у владельца или запускайте код внутри UIAccess.give(…)"
-inspections.replace.with.xxxlocalize.title:
-    text: "Заменить xBundle.message() на xLocalize"
-inspections.replace.with.xxxlocalize:
-    text: "Заменить на {0}.{1}(…)"
-inspections.get.extension.point.validation.title:
-    text: Проверка вызова ConfigurationType.getExtensionPoint()
-inspections.get.extension.point.validation.no.annotation:
-    text: "{0} не снабжён аннотацией @ExtensionAPI"
-inspections.get.extension.point.validation.incorrect.scope:
-    text: "Неверная область расширения"
-InspectionUseGrayColor:
-    text: "Использовать Gray"
-ant.build.jar.comment:
-    text: "Сборка архива для расширения «{0}»"
-ant.build.jar.description:
-    text: "Сборка архива расширения для модуля «{0}»"
-project.title:
-    text: "Проект расширения"
-no.java.sdk.for.idea.sdk.found:
-    text: "Не найден Java SDK соответствующей версии. В дополнение к Consulo Plugin SDK необходимо определить JDK с той же версией Java ({0})."
+    text: 'Создание нового компонента проекта: {0}.{1}'
+new.project.component.command:
+    text: Создать компонент проекта
+new.project.component.error:
+    text: Невозможно создать компонент проекта
+new.project.component.prompt:
+    text: 'Введите имя нового компонента проекта:'
+new.project.component.prompt.title:
+    text: Новый компонент проекта
 no.idea.sdk.version.found:
-    text: "Не удалось обнаружить версию JDK, необходимую для Consulo Plugin SDK."
-group.PluginDeployActions.text:
-    text: "Действия по развертыванию плагина"
-error.cannot.resolve.plugin:
-    text: "Невозможно обнаружить расширение {0}"
-create.description.file:
-    text: "Создать файл описания"
-select.target.location.of.description:
-    text: "Выберите целевое расположение {0}"
-copy.artifacts.before.run.description.empty:
-    text: "Копировать артефакты"
-copy.artifacts.before.run.description.single:
-    text: "Копировать артефакт «{0}»"
-copy.artifacts.before.run.description.multiple:
-    text: "Копировать артефакты {0}"
-action.DownloadDependencies.text:
-    text: "Загрузить/обновить зависимости…"
-label.program.parameters:
-    text: "Параметры программы:"
-label.vm.parameters:
-    text: "Параметры ВМ:"
-label.plugin.artifact:
-    text: "Артефакт плагина:"
-label.consulo.sdk:
-    text: "Consulo SDK:"
-label.java.sdk:
-    text: "Java SDK:"
-alternative.consulo.sdk:
-    text: "Альтернативный Consulo SDK:"
-localize.todo.inspection.display.name:
-    text: "Локализовать проверку TODO"
-localize.todo.inspection.message:
-    text: "«{0}» не локализован"
-localize.editor.notification.compare.action:
-    text: "Сравнить"
-localize.editor.notification.compare.diff.current.title:
-    text: "Текущая локализация"
-localize.editor.notification.compare.diff.original.title:
-    text: "Исходная локализация"
-localize.editor.notification.compare.original.localization.not.found:
-    text: "Исходный файл локализации не найден"
-localize.editor.notification.locale.0.text:
-    text: "Язык: {0}"
-localize.editor.notification.sort.action:
-    text: "Сортировать"
-localize.editor.notification.sort.in.progress:
-    text: "Сортируем…"
-localize.editor.notification.sort.process.name:
-    text: "Сортируем ключи"
-invocation.state.validate.inspection.display.name:
-    text: "Инспекция проверки типа вызова (чтение, запись, отрисовка)"
-psi.member.modifier.property.stortcuts.inspection.display.name:
-    text: "Замена вызовов PsiMember.hasModifierProperty() сокращёнными методами"
-psi.member.replace.with.shortcut.fix:
-    text: "Заменить на .{0}()"
-intention.metadata.missed.inspection.display.name:
-    text: "Отсутствует аннотация @IntentionMetaData"
-intention.metadata.missed.inspection.fix:
-    text: "Отсутствует аннотация @IntentionMetaData"
-complicated.logger.initialization.inspection.display.name:
-    text: "Сложная инициализация логера"
-complicated.logger.initialization.inspection.message:
-    text: "Сложная инициализация логера"
-complicated.logger.initialization.quickfix.name:
-    text: "Заменить константой класса"
-dont.use.new.pair.inspection.display.name:
-    text: "Не используйте конструктор класса Pair"
-dont.use.new.pair.inspection.message:
-    text: "Заменить на Pair.create()"
-extension.impl.is.not.annotated.inspection.display.name:
-    text: "Реализация расширения не содержит аннотации @ExtensionImpl"
-extension.impl.is.not.annotated.inspection.message:
-    text: "Реализация расширения не содержит аннотации @ExtensionImpl"
-file.equals.usage.inspection.display.name:
-    text: "Использование File.equals()"
-file.equals.usage.inspection.message:
-    text: "Не используйте File.equals/hashCode/compareTo, так как они не учитывают регистр в MacOS. Вместо этого используйте FileUtil.filesEquals/fileHashCode/compareFiles"
-inspection.description.not.found.inspection.display.name:
-    text: "Проверка описания инспекции"
-inspection.description.not.found.inspection.message:
-    text: "У инспекции нет описания"
-intention.description.not.found.inspection.display.name:
-    text: "Проверка описания намерения"
-intention.description.not.found.inspection.message:
-    text: "У намерения нет описания"
-intention.description.not.found.inspection.message.before.after.template:
-    text: "У намерения должны быть «before.*.template» и «after.*.template» рядом с «description.html»"
-intention.meta.data.missed.inspection.display.name:
-    text: "Отсутствует аннотация @IntentionMetaData"
-intention.meta.data.missed.inspection.message:
-    text: "Отсутствует аннотация @IntentionMetaData"
-migrated.extensions.to.inspection.display.name:
-    text: "Помощник @MigratedExtensionsTo"
-migrated.extensions.to.inspection.message:
-    text: "Метод делегирования вызовы"
-migrated.extensions.to.inspection.quickfix.name:
-    text: "Делегировать в новый класс"
+    text: Не удалось обнаружить версию JDK, необходимую для Consulo Plugin SDK.
 no.inject.annotation.inspection.display.name:
-    text: "Отсутствует аннотация @Inject для служб и расширений"
+    text: Отсутствует аннотация @Inject для служб и расширений
 no.inject.annotation.inspection.message:
-    text: "Отсутствует аннотация @Inject"
+    text: Отсутствует аннотация @Inject
+no.java.sdk.for.idea.sdk.found:
+    text: Не найден Java SDK соответствующей версии. В дополнение к Consulo Plugin SDK необходимо определить JDK с той же версией Java ({0}).
 no.singleton.annotation.inspection.display.name:
-    text: "Отсутствует аннотация @Singleton для служб"
+    text: Отсутствует аннотация @Singleton для служб
 no.singleton.annotation.inspection.message:
-    text: "Отсутствует аннотация @Singleton"
+    text: Отсутствует аннотация @Singleton
 place.xaction.annotation.inspection.display.name:
-    text: "Инспекция на наличие аннотации типа вызова (чтение, запись, отрисовка)"
+    text: Инспекция на наличие аннотации типа вызова (чтение, запись, отрисовка)
 place.xaction.annotation.inspection.message:
-    text: "Отсутствует аннотация @{0}, указанная у super-метода"
+    text: Отсутствует аннотация @{0}, указанная у super-метода
 place.xaction.annotation.inspection.message.for.overridden:
-    text: "Переопределенные методы не снабжены аннотацией @{0}"
+    text: Переопределенные методы не снабжены аннотацией @{0}
 platform.error.inspection.display.name:
-    text: "Запрет на вызов методов Platform"
+    text: Запрет на вызов методов Platform
 platform.error.inspection.message:
-    text: "Вызывать метод Platform нельзя. Используйте 'consulo.platform.Platform.current()'"
+    text: Вызывать метод Platform нельзя. Используйте 'consulo.platform.Platform.current()'
+plugin.descriptor:
+    text: Описание расширения Consulo
+prepare.for.deployment:
+    text: Подготовка модуля расширения «{0}» для развертывания
+prepare.for.deployment.all:
+    text: Подготовка всех модулей расширения для развертывания
+prepare.for.deployment.common:
+    text: Подготовка к развертыванию
+presentable.plugin.module.name:
+    text: Модуль расширения «{0}»
+program.parameters:
+    text: '&Аргументы программы'
+project.title:
+    text: Проект расширения
+psi.member.modifier.property.stortcuts.inspection.display.name:
+    text: Замена вызовов PsiMember.hasModifierProperty() сокращёнными методами
+psi.member.replace.with.shortcut.fix:
+    text: Заменить на .{0}()
+run.configuration.classpath.from.module.choose:
+    text: 'Использовать Classpath и JDK из модуля:'
+run.configuration.no.consulo.sdk:
+    text: Нет Consulo SDK
+run.configuration.no.java.sdk:
+    text: Нет Java SDK
+run.configuration.no.plugin.artifact:
+    text: Нет артефакта расширения
+run.configuration.title:
+    text: Consulo в песочнице
+run.configuration.type.description:
+    text: Среда песочницы расширения
+sandbox.home:
+    text: Домашняя страница песочницы
+sandbox.home.label:
+    text: 'Домашняя страница песочницы:'
+sandbox.no.configured:
+    text: Не указана песочница для Consulo JDK
+sandbox.purpose:
+    text: Выбрать папку для размещения конфигурации, системы и расширения для целевой Consulo
+sandbox.specification:
+    text: Пожалуйста, настройте песочницу
+saved.message:
+    text: '{0, choice, 1#Zip|2#Jar} для модуля «{1}» был сохранён в {2}'
+saved.message.common:
+    text: '{0} будет сохранён в выбранном каталоге'
+sdk.title:
+    text: SDK для разработки расширений Consulo
+select.plugin.modules.description:
+    text: Выбрть модули для подготовки к развертыванию
+select.plugin.modules.title:
+    text: Выбрать модули
+select.plugin.modules.to.patch:
+    text: Выберите модули расширения для исправления
+select.target.location.of.description:
+    text: Выберите целевое расположение {0}
+show.idea.log:
+    text: '&Показать consulo.log'
 stateful.ep.inspection.display.name:
-    text: "Расширение с состоянием"
+    text: Расширение с состоянием
 stateful.ep.inspection.message:
-    text: "Не используйте {0} как поле в расширении"
+    text: Не используйте {0} как поле в расширении
 stateful.ep.inspection.message.dont.hold.psi.element:
-    text: "Потенциальная утечка памяти: не храните PsiElement, используйте SmartPsiElementPointer вместо {0, choice, 0#|1#; также см. LocalQuickFixOnPsiElement}"
-undesirable.class.usage.inspection.display.name:
-    text: "Нежелательное использование класса"
-undesirable.class.usage.inspection.message:
-    text: "Замените на «{0}»"
-unsafe.vfs.recursion.inspection.display.name:
-    text: "Небезопасная рекурсия VFS"
-unsafe.vfs.recursion.inspection.message:
-    text: "VirtualFile.getChildren() вызывается из рекурсивного метода. Это может привести к бесконечному циклу в циклических символических ссылках. Вместо этого используйте VfsUtilCore.visitChildrenRecursively()."
-use.couple.inspection.display.name:
-    text: "Использовать Couple<T> вместо Pair<T, T>"
-use.couple.inspection.message.type:
-    text: "Заменить на Couple<{0}>"
-use.couple.inspection.message.constructor:
-    text: "Заменить на Couple.of"
-use.dpi.aware.insets.inspection.display.name:
-    text: "Использовать отступы с поддержкой DPI"
-use.dpi.aware.insets.inspection.message:
-    text: "Заменить на JBUI.insets(…)"
-use.gray.inspection.display.name:
-    text: "Использовать new Color(a,a,a)"
-use.gray.inspection.message:
-    text: "Преобразовать в Gray._{0}"
-use.gray.inspection.quickfix.family.name:
-    text: "Преобразовать в Gray"
-use.jbcolor.inspection.display.name:
-    text: "Использовать JBColor, поддерживающий тёмную тему"
-use.jbcolor.inspection.message:
-    text: "Заменить на JBColor"
-use.jbcolor.inspection.message.change:
-    text: "Заменить на JBColor.{0}"
-use.primitive.types.inspection.display.name:
-    text: "Использовать .equals для примитивных типов"
-use.primitive.types.inspection.message:
-    text: "Примитивные типы следует сравнивать при помощи .equals"
-wrong.inject.binding.inspection.display.name:
-    text: "Неправильная привязка инъекции внутри конструктор"
-wrong.inject.binding.inspection.message.unknown:
-    text: "Неизвестная привязка инъекции {0}"
-wrong.inject.binding.inspection.message.too.high:
-    text: "Целевая область инъекции слишком велика. Текущая: {0}, цель: {1}"
-wrong.cast.require.explicit.conversion.inspection.display.name:
-    text: "Неправильное приведение типов — требуется явное преобразование"
-wrong.cast.require.explicit.conversion.inspection.message:
-    text: "Неправильное приведение типов — требуется явное преобразование"
+    text: 'Потенциальная утечка памяти: не храните PsiElement, используйте SmartPsiElementPointer вместо {0, choice, 0#|1#; также см. LocalQuickFixOnPsiElement}'
+success.deployment.message:
+    text: Модуль расширения «{0}» успешно подготовлен к развертыванию
+success.deployment.message.all:
+    text: Все расширения успешно подготовлены к развертыванию
+suggest.to.delete:
+    text: Хотите удалить «{0}»?
+test.run.configuration.title:
+    text: Consulo в песочнице (тест)
 title.capitalization.inspection.inspection.display.name:
-    text: "Заголовок диалогового окна не написан с заглавных букв"
+    text: Заголовок диалогового окна не написан с заглавных букв
 title.capitalization.inspection.inspection.message:
-    text: "Заголовок диалогового окна «{0}» не написан с заглавных букв. В английском языке все слова в заголовке должны быть написаны с заглавных букв"
-title.capitalization.inspection.inspection.quickfix.name:
-    text: "Привести к верхнему регистру ''{0}''"
+    text: Заголовок диалогового окна «{0}» не написан с заглавных букв. В английском языке все слова в заголовке должны быть написаны с заглавных букв
 title.capitalization.inspection.inspection.quickfix.family.name:
-    text: "Привести к верхнему регистру"
-awt.error.inspection.display.name:
-    text: "Отчет об ошибках реализации AWT и Swing"
-awt.error.inspection.message:
-    text: "Невозможно использовать реализацию AWT и Swing. Пожалуйста, ознакомьтесь с руководством по написанию пользовательского интерфейса"
+    text: Привести к верхнему регистру
+title.capitalization.inspection.inspection.quickfix.name:
+    text: Привести к верхнему регистру ''{0}''
+undesirable.class.usage.inspection.display.name:
+    text: Нежелательное использование класса
+undesirable.class.usage.inspection.message:
+    text: Замените на «{0}»
+unsafe.vfs.recursion.inspection.display.name:
+    text: Небезопасная рекурсия VFS
+unsafe.vfs.recursion.inspection.message:
+    text: VirtualFile.getChildren() вызывается из рекурсивного метода. Это может привести к бесконечному циклу в циклических символических ссылках. Вместо этого используйте VfsUtilCore.visitChildrenRecursively().
+use.couple.inspection.display.name:
+    text: Использовать Couple<T> вместо Pair<T, T>
+use.couple.inspection.message.constructor:
+    text: Заменить на Couple.of
+use.couple.inspection.message.type:
+    text: Заменить на Couple<{0}>
+use.dpi.aware.insets.inspection.display.name:
+    text: Использовать отступы с поддержкой DPI
+use.dpi.aware.insets.inspection.message:
+    text: Заменить на JBUI.insets(…)
+use.gray.inspection.display.name:
+    text: Использовать new Color(a,a,a)
+use.gray.inspection.message:
+    text: Преобразовать в Gray._{0}
+use.gray.inspection.quickfix.family.name:
+    text: Преобразовать в Gray
+use.jbcolor.inspection.display.name:
+    text: Использовать JBColor, поддерживающий тёмную тему
+use.jbcolor.inspection.message:
+    text: Заменить на JBColor
+use.jbcolor.inspection.message.change:
+    text: Заменить на JBColor.{0}
+use.primitive.types.inspection.display.name:
+    text: Использовать .equals для примитивных типов
+use.primitive.types.inspection.message:
+    text: Примитивные типы следует сравнивать при помощи .equals
+vm.parameters:
+    text: '&Параметры VM'
+wrong.cast.require.explicit.conversion.inspection.display.name:
+    text: Неправильное приведение типов — требуется явное преобразование
+wrong.cast.require.explicit.conversion.inspection.message:
+    text: Неправильное приведение типов — требуется явное преобразование
+wrong.inject.binding.inspection.display.name:
+    text: Неправильная привязка инъекции внутри конструктор
+wrong.inject.binding.inspection.message.too.high:
+    text: 'Целевая область инъекции слишком велика. Текущая: {0}, цель: {1}'
+wrong.inject.binding.inspection.message.unknown:
+    text: Неизвестная привязка инъекции {0}
