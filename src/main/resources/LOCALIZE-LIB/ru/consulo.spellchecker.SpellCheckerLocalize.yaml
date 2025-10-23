@@ -1,0 +1,78 @@
+add.0.to.dictionary:
+    text: 'Опечатка: сохранить «{0}» в словарь'
+add.directory.description:
+    text: Добавить папки для загрузки словарей (списков слов в простом тексте)
+add.directory.title:
+    text: Папка пользовательских словарей
+add.new.word:
+    text: Добавить новое слово
+add.to.dictionary:
+    text: Сохранить в словарь
+change.to:
+    text: 'Опечатка: заменить на…'
+change.to.0:
+    text: 'Опечатка: заменить на «{0}»'
+class.name.with.mistakes:
+    text: Название класса с ошибками
+comments.with.mistakes:
+    text: Комментарии с ошибками
+dictionaries.panel.description:
+    text: Включить/отключить словари для вашего проекта
+dictionaries.panel.title:
+    text: Словари
+directory.is.already.included:
+    text: Папка уже включена
+doccomment.with.mistakes:
+    text: Документационный комментарий с ошибкой
+enter.simple.word:
+    text: 'Введите слово:'
+entered.word.0.is.correct.you.no.need.to.add.this.in.list:
+    text: Слово «{0}» уже есть в словаре.
+entered.word.0.is.mixed.cased.you.must.enter.simple.word:
+    text: Слово «{0}» имеет смешанный регистр. Разделите его на простые слова.
+exact.rename.to:
+    text: 'Опечатка: переименовать в «{0}»'
+field.name.with.mistakes:
+    text: Название поля с ошибками
+ignored.words:
+    text: Игнорируемые слова
+link.to.inspection.settings:
+    text: Настроить инспекцию «Орфография»
+link.to.settings:
+    text: Управление словарями
+local.variable.name.with.mistakes:
+    text: Имя локальной переменной с ошибками
+method.name.with.mistakes:
+    text: Название метода с ошибками
+no.custom.folders:
+    text: Нет пользовательских папок
+no.dictionaries:
+    text: Словари не найдены
+no.suggestions:
+    text: <нет предложений>
+no.words:
+    text: Нет дополнительных слов
+process.code:
+    text: Обработать код
+process.comments:
+    text: Обработать комментарии
+process.literals:
+    text: Обработать литералы
+property.value.with.mistakes:
+    text: Значение свойства с ошибками
+rename.to:
+    text: 'Опечатка: переименовать в…'
+rename.to.0:
+    text: 'Опечатка: переименовать в «{0}»'
+spellchecking.inspection.name:
+    text: Опечатка
+spelling:
+    text: Орфография
+string.value.with.mistakes:
+    text: Литеральное выражение с ошибками
+typo.in.word.ref:
+    text: 'Опечатка: В слове «#ref»'
+user.dictionary:
+    text: Пользовательский словарь
+xml.with.mistakes:
+    text: XML с ошибками
