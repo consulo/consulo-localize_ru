@@ -51,7 +51,7 @@ artifacts.menu.item.build:
 artifacts.menu.item.clean:
     text: Очистить
 artifacts.menu.item.edit:
-    text: Редактировать...
+    text: Редактировать…
 artifacts.menu.item.rebuild:
     text: Пересобрать
 bad.resource.patterns.dialog.title:
@@ -493,7 +493,7 @@ status.compilation.completed.successfully.with.warnings.and.errors:
 status.text.file.has.been.packaged:
     text: '{0,choice, 1#Файл|2#Файлы} {1} {0,choice, 1#был упакован|2#были упакованы} в {2}.'
 task.cleaning.artifacts.title:
-    text: Очистка артефактов...
+    text: Очистка артефактов…
 task.packaging.files.title:
     text: Упаковка файлов
 toolwindow.build.display.name:
