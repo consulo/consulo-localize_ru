@@ -1,0 +1,382 @@
+action.data.description:
+    text: Заменить методы getter/setter/equals/hashcode/toString Lombok-аннотацией @Data
+action.data.text:
+    text: Стандартное @Data
+action.equals.and.hash.code.description:
+    text: Заменить методы equals и hashCode Lombok-аннотацией @EqualsAndHashcode
+action.equals.and.hash.code.text:
+    text: Стандартное @EqualsAndHashCode
+action.getter.description:
+    text: Заменить все методы getter Lombok-аннотацией @Getter
+action.getter.text:
+    text: Стандартный @Getter
+action.logger.description:
+    text: Заменить логгер Lombok-аннотацией @Log
+action.logger.text:
+    text: '@Log (и друзья)'
+action.setter.description:
+    text: Заменить все методы setter Lombok-аннотацией @Setter
+action.setter.text:
+    text: Стандартный @Setter
+action.to.string.description:
+    text: Заменить метод toString Lombok-аннотацией @ToString
+action.to.string.text:
+    text: Стандартный @ToString
+action.delombok.any.description:
+    text: Заменить все Lombok-аннотации обычными Java-методами
+action.delombok.any.text:
+    text: Все Lombok-аннотации
+action.delombok.builder.description:
+    text: Заменить Lombok-аннотацию @Builder обычными Java-методами
+action.delombok.builder.text:
+    text: '@Builder'
+action.delombok.constructor.description:
+    text: Заменить Lombok-аннотации @NoArgsConstructor, @RequiredArgsConstructor и @AllArgsConstructor обычными Java-методами
+action.delombok.constructor.text:
+    text: '@Constructors'
+action.delombok.data.description:
+    text: Заменить Lombok-аннотацию @Data обычными Java-методами
+action.delombok.data.text:
+    text: '@Data'
+action.delombok.delegate.description:
+    text: Заменить Lombok-аннотацию @Delegate обычными Java-методами
+action.delombok.delegate.text:
+    text: '@Delegate'
+action.delombok.equals.and.hash.code.description:
+    text: Заменить Lombok-аннотацию @EqualsAndHashCode обычными Java-методами
+action.delombok.equals.and.hash.code.text:
+    text: '@EqualsAndHashCode'
+action.delombok.field.name.constants.description:
+    text: Заменить Lombok-аннотацию @FieldNameConstants обычными Java-полями
+action.delombok.field.name.constants.text:
+    text: '@FieldNameConstants'
+action.delombok.getter.description:
+    text: Заменить Lombok-аннотацию @Getter обычными getter-методами
+action.delombok.getter.text:
+    text: '@Getter'
+action.delombok.logger.description:
+    text: Заменить Lombok-аннотацию @Log (и другие) обычным полем логгера
+action.delombok.logger.text:
+    text: '@Log (и друзья)'
+action.delombok.setter.description:
+    text: Заменить Lombok-аннотацию @Setter обычными setter-методами
+action.delombok.setter.text:
+    text: '@Setter'
+action.delombok.standard.exception.description:
+    text: Заменить Lombok-аннотацию @StandardException обычными Java-методами
+action.delombok.standard.exception.text:
+    text: '@StandardException'
+action.delombok.super.builder.description:
+    text: Заменить Lombok-аннотацию @SuperBuilder обычными Java-методами
+action.delombok.super.builder.text:
+    text: '@SuperBuilder'
+action.delombok.to.string.description:
+    text: Заменить Lombok-аннотацию @ToString обычными Java-методами
+action.delombok.to.string.text:
+    text: '@ToString'
+action.delombok.utility.class.description:
+    text: Заменить Lombok-аннотацию @UtilityClass ванильными Java полями
+action.delombok.utility.class.text:
+    text: '@UtilityClass'
+action.delombok.value.description:
+    text: Заменить Lombok-аннотацию @Value обычными Java-методами
+action.delombok.value.text:
+    text: '@Value'
+action.delombok.wither.description:
+    text: Заменить Lombok-аннотацию @Wither обычными Java-методами
+action.delombok.wither.text:
+    text: '@Wither'
+checkbox.settings.jps.fix:
+    text: Автоматически добавить опцию компиляции «-Djps.track.ap.dependencies=false» для старой (<1.18.16) версии Lombok
+checkbox.settings.version.warning:
+    text: Включить предупреждение о версии Lombok для старых версий
+color.settings.clear:
+    text: Очистить
+color.settings.comment:
+    text: Комментарий
+color.settings.key:
+    text: Ключ
+color.settings.separator:
+    text: Разделитель
+color.settings.value:
+    text: Значение
+config.warn.annotation.processing.disabled.title:
+    text: Lombok требует включённой обработки аннотаций
+config.warn.dependency.outdated.message:
+    text: <br>Проект «{0}» похоже имеет зависимость на устаревшую версию Lombok.<br>Настроена версия «{1}», но уже выпущена как минимум версия «{2}»<br><a href="https://projectlombok.org/download">Может, вы хотите обновить?</a> <br>
+config.warn.dependency.outdated.title:
+    text: Зависимость Lombok, возможно, устарела
+configurable.name.lombok.config:
+    text: Конфигурация Lombok
+dialog.message.logger.field.s.not.private.sfinal.field.named.s.refactor.anyway:
+    text: 'Поле логгера: «{0}» не является private {1, choice, 0#|1#static }final полем с названием «{2}». Всё равно рефакторить?'
+dialog.message.this.element.cannot.be.renamed:
+    text: Этот элемент нельзя переименовать.
+dialog.title.attention:
+    text: Внимание!
+filetype.lombok.config.description:
+    text: Файл конфигурации Lombok
+group.delombok.description:
+    text: Рефакторить код, удаляя аннотации Lombok
+group.delombok.text:
+    text: Delombok
+group.lombok.description:
+    text: Рефакторить код с помощью Lombok-аннотаций
+group.lombok.text:
+    text: Lombok
+inspection.deprecated.lombok.display.name:
+    text: Устаревшие Lombok-аннотации
+inspection.lombok.display.name:
+    text: Lombok-аннотации
+inspection.lombok.getter.may.be.used.display.class.message:
+    text: Класс «{0}» можно снабдить Lombok-аннотацией @Getter
+inspection.lombok.getter.may.be.used.display.field.message:
+    text: Поле «{0}» можно снабдить Lombok-аннотацией @Getter
+inspection.lombok.getter.may.be.used.display.fix.family.name:
+    text: Заменить явный getter-метод на Lombok @Getter
+inspection.lombok.getter.may.be.used.display.fix.name:
+    text: Использовать Lombok @Getter для «{0}»
+inspection.lombok.getter.may.be.used.display.name:
+    text: Возможно использование Lombok @Getter
+inspection.lombok.group.name.lombok:
+    text: Lombok
+inspection.lombok.group.name.redundant.definitions:
+    text: Избыточные определения
+inspection.lombok.group.name.redundant.modifiers:
+    text: Избыточные модификаторы
+inspection.lombok.setter.may.be.used.display.class.message:
+    text: Класс «{0}» можно снабдить Lombok-аннотацией @Setter
+inspection.lombok.setter.may.be.used.display.field.message:
+    text: Поле «{0}» можно снабдить Lombok-аннотацией @Setter
+inspection.lombok.setter.may.be.used.display.fix.family.name:
+    text: Заменить явный setter-метод на Lombok-аннотацию @Setter
+inspection.lombok.setter.may.be.used.display.fix.name:
+    text: Использовать Lombok @Setter для «{0}»
+inspection.lombok.setter.may.be.used.display.name:
+    text: Можно использовать Lombok-аннотацию @Setter
+inspection.message.annotation.copy.duplicate:
+    text: У поля уже есть аннотация «{0}» и она будет продублирована конфигурацией onX
+inspection.message.annotation.not.lombok.copyable:
+    text: Lombok не копирует аннотацию «{0}» на конструктор
+inspection.message.annotation.only.supported.on.class.or.enum.type:
+    text: Аннотация поддерживается только для класса или перечисления
+inspection.message.builder.default.requires.initializing.expression:
+    text: '@Builder.Default требует инициализирующего выражения (« = что-то;»).'
+inspection.message.builder.default.singular.cannot.be.mixed:
+    text: '@Builder.Default и @Singular нельзя смешивать.'
+inspection.message.can.t.singularize.this.name:
+    text: 'Невозможно вычислить единственное число слова: «{0}»; явно укажите единственное число (например, @Singular("sheep"))'
+inspection.message.cleanup.legal.only.on.local.variable.declaration.inside.block:
+    text: '@Cleanup: допустимо только для объявления локальной переменной внутри блока'
+inspection.message.cleanup.legal.only.on.local.variable.declarations:
+    text: '@Cleanup допустимо только для объявлений локальных переменных'
+inspection.message.cleanup.method.s.not.found.on.target.class:
+    text: '@Cleanup: метод «{0}()» не найден в целевом классе'
+inspection.message.cleanup.value.cannot.be.empty.string:
+    text: '@Cleanup: значение не может быть пустой строкой'
+inspection.message.cleanup.variable.declarations.need.to.be.initialized:
+    text: 'Переменные с @Cleanup должны быть инициализированы.'
+inspection.message.constructor.noargs.needs.to.be.forced:
+    text: Класс содержит обязательные поля, вам следует принудительно использовать NoArgsConstructor.
+inspection.message.constructor.with.d.parameters.already.defined:
+    text: Конструктор с «{0}» параметрами уже определен
+inspection.message.constructor.without.parameters.already.defined:
+    text: Конструктор без параметров уже определен
+inspection.message.custom.log.does.not.allow.topic:
+    text: '@CustomLog не допускает topic.'
+inspection.message.custom.log.not.configured.correctly:
+    text: '@CustomLog настроен некорректно; пожалуйста, установите log.custom.declaration в lombok.config.'
+inspection.message.custom.log.requires.topic:
+    text: '@CustomLog требует topic.'
+inspection.message.data.only.supported.on.class.type:
+    text: '«@Data» поддерживается только для класса'
+inspection.message.default.constructor.doesn.t.exist:
+    text: Отсутствует конструктор по умолчанию
+inspection.message.delegate.can.only.use.concrete.class.types:
+    text: '@Delegate может использовать только конкретные типы классов, а не подстановочные знаки, массивы, типовые переменные или примитивы. «{0}» — неверный тип класса'
+inspection.message.delegate.does.not.support.recursion.delegating:
+    text: '@Delegate не поддерживает рекурсию (делегирование типу, который сам имеет члены @Delegate). Член «{0}» является @Delegate в типе «{1}»'
+inspection.message.delegate.legal.only.on.instance.fields:
+    text: '@Delegate допустимо только для полей экземпляра или экземпляров методов без аргументов.'
+inspection.message.delegate.legal.only.on.no.argument.methods:
+    text: '@Delegate допустимо только для методов без аргументов.'
+inspection.message.equals.and.hashcode.only.supported.on.class.type:
+    text: '@EqualsAndHashCode поддерживается только для класса'
+inspection.message.exclude.are.mutually.exclusive.exclude.parameter.will.be.ignored:
+    text: Параметры «exclude» и «of» взаимоисключающие; параметр «exclude» будет проигнорирован
+inspection.message.existing.builder.must.be.abstract.static.inner.class:
+    text: Существующий Builder должен быть абстрактным статическим внутренним классом.
+inspection.message.field.name.constants.inner.type:
+    text: Внутренний тип «@FieldNameConstants» уже существует, но asEnum={0} не совпадает с существующим типом
+inspection.message.field.name.constants.only.supported.on.class.enum.or.field.type:
+    text: '@FieldNameConstants поддерживается только для класса, перечисления, записи или типа поля'
+inspection.message.field.name.constants.only.supported.on.class.or.enum:
+    text: '@FieldNameConstants поддерживается только для класса, перечисления или записи.'
+inspection.message.field.s.does.not.exist:
+    text: Поле «{0}» не существует.
+inspection.message.field.s.does.not.exist.exclude:
+    text: Поле «{0}» не существует
+inspection.message.field.s.does.not.exist.field:
+    text: Поле «{0}» не существует
+inspection.message.field.s.would.have.been.excluded.anyway:
+    text: Поле «{0}» всё равно было бы исключено
+inspection.message.generating.equals.hashcode.implementation:
+    text: Генерация реализации equals/hashCode, но без вызова суперкласса, даже если этот класс не наследует java.lang.Object. Если это намеренно, добавьте «(callSuper=false)» к вашему типу.
+inspection.message.generating.equals.hashcode.with.super.call:
+    text: Генерация equals/hashCode с вызовом суперкласса java.lang.Object бессмысленна.
+inspection.message.getter.only.supported.on.class.enum.or.field.type:
+    text: '@Getter поддерживается только для класса, перечисления или типа поля'
+inspection.message.jacksonized.builder.on.abstract.classes:
+    text: Builder'ы на абстрактных классах не могут быть @Jacksonized (builder никогда не будет использован).
+inspection.message.jacksonized.cannot.process.both.builder.superbuilder:
+    text: '@Jacksonized не может обрабатывать одновременно @Builder и @SuperBuilder в одном классе.'
+inspection.message.jacksonized.jsondeserialize.already.exists:
+    text: '@JsonDeserialize уже существует в классе. Удалите @JsonDeserialize или удалите @Jacksonized и вручную настройте Jackson.'
+inspection.message.jacksonized.requires.builder.superbuilder:
+    text: '@Jacksonized требует @Builder или @SuperBuilder, чтобы это было осмысленным.'
+inspection.message.lazy.does.not.work.with.access.level.none:
+    text: '«lazy» не работает с AccessLevel.NONE.'
+inspection.message.lazy.not.supported.for.getter.on.type:
+    text: '«lazy» не поддерживается для @Getter на типе'
+inspection.message.lazy.requires.field.initialization:
+    text: '«lazy» требует инициализации поля.'
+inspection.message.lazy.requires.field.to.be.private.final:
+    text: '«lazy» требует, чтобы поле было private и final'
+inspection.message.lombok.annotation.deprecated.not.supported:
+    text: "Lombok-аннотация «{0}» устарела и больше не поддерживается плагином lombok. Используйте «{1}» вместо неё."
+inspection.message.lombok.annotations.are.not.allowed.on.builder.class:
+    text: Lombok-аннотации не допускаются в builder-классе.
+inspection.message.lombok.builder.needs.proper.constructor.for.this.class:
+    text: Lombok @Builder нуждается в корректном конструкторе для этого класса
+inspection.message.lombok.does.not.know:
+    text: Lombok не знает, как создать методы builder в единственном числе для типа «{0}»; они не будут сгенерированы.
+inspection.message.lombok.needs.default.constructor.in.base.class:
+    text: Lombok нуждается в конструкторе по умолчанию в базовом классе
+inspection.message.method.s.matched.static.constructor.name.already.defined:
+    text: Метод «{0}», соответствующий staticConstructorName, уже определен
+inspection.message.method.s.with.d.parameters.matched.static.constructor.name.already.defined:
+    text: Метод «{0}» с «{1}» параметрами, соответствующий staticConstructorName, уже определен
+inspection.message.not.allowed.in.old.style.for.loops:
+    text: '«{0}» не допускается в for-циклах старого стиля'
+inspection.message.not.allowed.with.lambda.expressions:
+    text: '«{0}» не допускается с лямбда-выражениями.'
+inspection.message.not.compatible.with.array.initializer.expressions:
+    text: "«{0}» несовместимо с выражениями инициализатора массива. Используйте полную форму (new int[] '{' … '}' вместо просто '{' … '}')"
+inspection.message.not.generated.s.method.with.same.name.already.exists:
+    text: 'Не сгенерируется «{0}()»: метод с таким же названием уже существует'
+inspection.message.not.generated.s.method.with.similar.name.s.already.exists:
+    text: 'Не сгенерируется «{0}()»: метод с похожим названием «{0}» уже существует'
+inspection.message.not.generating.constant:
+    text: 'Не сгенерируется константу для этого поля: название константы будет совпадать с названием самого поля.'
+inspection.message.not.generating.equals.hashcode:
+    text: 'Не сгенерируется equals и hashCode: метод с одним из этих названий уже объявлен. (Можно сгенерировать либо оба метода, либо ни одного).'
+inspection.message.not.generating.field.s.field.with.same.name.already.exists:
+    text: 'Не сгенерируется поле «{0}»: поле с таким же названием уже существует'
+inspection.message.not.generating.getter.for.this.field:
+    text: 'Не сгенерируется getter для этого поля: оно не соответствует вашему списку префиксов @Accessors.'
+inspection.message.not.generating.s.method.with.that.name.already.exists:
+    text: 'Не сгенерируется «{0}()»: метод с таким названием уже существует'
+inspection.message.not.generating.setter.for.this.field.it:
+    text: 'Не сгенерируется setter для этого поля: оно не соответствует вашему списку префиксов @Accessors.'
+inspection.message.not.generating.setter.for.this.field.setters:
+    text: 'Не сгенерируется setter для этого поля: сеттеры не могут быть сгенерированы для final-полей.'
+inspection.message.not.generating.wither:
+    text: 'Не сгенерируется wither для этого поля: Wither''ы не могут быть сгенерированы для static-полей.'
+inspection.message.not.generating.wither.for.this.field.withers:
+    text: 'Не сгенерируется wither для этого поля: Wither''ы не могут быть сгенерированы для полей, начинающихся с $.'
+inspection.message.not.generating.wither.for.this.field.withers.cannot.be.generated:
+    text: 'Не сгенерируется wither для этого поля: Wither''ы не могут быть сгенерированы для инициализированных final-полей.'
+inspection.message.obtain.via.is.static.true.not.valid.unless.method.has.been.set:
+    text: '@ObtainVia(isStatic = true) недействительно, если «method» не установлено.'
+inspection.message.on.local.variable.requires.initializer.expression:
+    text: '«{0}» на локальной переменной требует инициализирующего выражения'
+inspection.message.s.can.be.used.on.classes.only:
+    text: '«@{0}» может использоваться только для классов'
+inspection.message.s.legal.only.on.classes.enums:
+    text: '«@{0}» допустимо только для классов и перечислений'
+inspection.message.s.not.valid.identifier:
+    text: '«{0}» не является допустимым идентификатором'
+inspection.message.s.only.supported.on.class.or.field.type:
+    text: '«@{0}» поддерживается только для класса или типа поля'
+inspection.message.slf4j.logger.defined.explicitly:
+    text: Логгер Slf4j определен явно. Вместо этого используйте Lombok-аннотацию @Slf4j.
+inspection.message.standardexception.accesslevel.none.not.valid:
+    text: AccessLevel.NONE недопустим здесь
+inspection.message.standardexception.class.only.supported.on.class:
+    text: '@StandardException поддерживается только для класса'
+inspection.message.standardexception.should.extend.throwable:
+    text: '@StandardException требует, чтобы вы унаследовались от Throwable'
+inspection.message.synchronized.field.is.not.static:
+    text: Поле «{0}» не является static, и его нельзя использовать в этом static-методе
+inspection.message.synchronized.legal.only.on.concrete.methods:
+    text: '@Synchronized допустимо только для конкретных методов.'
+inspection.message.synchronized.legal.only.on.methods.in.classes.enums:
+    text: '@Synchronized допустимо только для методов в классах и перечислениях.'
+inspection.message.syntax.either.obtain.via.field:
+    text: Правильный синтаксис либо @ObtainVia(field = "fieldName"), либо @ObtainVia(method = "methodName").
+inspection.message.to.string.only.supported.on.class.or.enum.type:
+    text: '@ToString поддерживается только для класса или перечисления'
+inspection.message.utility.class.already.marks.class.final:
+    text: '@UtilityClass уже помечает класс как final.'
+inspection.message.utility.class.already.marks.fields.static:
+    text: '@UtilityClass уже помечает поля как static.'
+inspection.message.utility.class.already.marks.inner.classes.static:
+    text: '@UtilityClass уже помечает внутренние классы как static.'
+inspection.message.utility.class.already.marks.methods.static:
+    text: '@UtilityClass уже помечает методы как static.'
+inspection.message.utility.class.automatically.makes.class.static:
+    text: '@UtilityClass автоматически делает класс static, однако данный класс не может быть превращён в статичный.'
+inspection.message.utility.class.cannot.be.placed:
+    text: '@UtilityClass не может быть размещён на локальном методе или анонимном внутреннем классе, или любом классе, вложенном в такой класс.'
+inspection.message.utility.class.only.supported.on.class:
+    text: '@UtilityClass поддерживается только для класса (не может быть интерфейсом, перечислением или аннотацией).'
+inspection.message.utility.classes.cannot.have.declared.constructors:
+    text: '@UtilityClasses не могут иметь объявленных конструкторов.'
+inspection.message.val.already.marks.variables.final:
+    text: '«val» уже помечает переменные как final.'
+inspection.message.val.works.only.on.local.variables:
+    text: '«val» работает только на локальных переменных и в циклах foreach'
+inspection.message.value.already.marks.class.final:
+    text: '@Value уже помечает класс как final.'
+inspection.message.value.already.marks.non.static.fields.final:
+    text: '@Value уже помечает не-static поля как final.'
+inspection.message.value.already.marks.non.static.package.local.fields.private:
+    text: '@Value уже помечает не-static и package-local поля как private.'
+inspection.message.value.only.supported.on.class.type:
+    text: '«@Value» поддерживается только для класса'
+inspection.message.var.works.only.on.local.variables.on.for.foreach.loops:
+    text: '«var» работает только на локальных переменных и в циклах for/foreach'
+inspection.message.wither.needs.constructor.for.all.fields.d.parameters:
+    text: '@Wither нуждается в конструкторе для всех полей («{0}» параметров)'
+inspection.message.wither.only.supported.on.class.or.field:
+    text: '@Wither поддерживается только для класса или поля.'
+inspection.redundant.modifiers.utility.class.lombok.display.name:
+    text: Модификаторы «@UtilityClass»
+inspection.redundant.modifiers.val.lombok.display.name:
+    text: Ненужный final перед «val»
+inspection.redundant.modifiers.value.lombok.display.name:
+    text: Модификаторы «@Value»
+inspection.redundant.slf.4.j.definition.display.name:
+    text: '@Slf4j'
+inspection.springqualifiercopyable.lombok.display.name:
+    text: '@Qualifier не копируется Lombok'
+intention.category.lombok:
+    text: Java/Lombok
+intention.name.create.new.field.s:
+    text: Создать новое поле «{0}»
+intention.name.replace.with.lombok:
+    text: Заменить на Lombok
+notification.enable.annotation.processing:
+    text: Включить обработку аннотаций
+notification.group.lombok:
+    text: Проблема интеграции Lombok
+plugin.settings.title:
+    text: Lombok
+popup.content.java.annotation.processing.has.been.enabled:
+    text: Обработка аннотаций Java была включена
+replace.0.with.explicit.type.lombok:
+    text: Заменить «{0}» на явный тип (Lombok)
+replace.explicit.type.with.0.lombok:
+    text: Заменить явный тип на «{0}» (Lombok)
+replace.with.annotations.lombok:
+    text: Заменить на аннотации (Lombok)
