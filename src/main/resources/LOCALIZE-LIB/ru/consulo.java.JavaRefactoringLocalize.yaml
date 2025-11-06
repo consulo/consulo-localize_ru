@@ -1,0 +1,465 @@
+0.the.caret.should.be.positioned.at.an.annotation.to.be.refactored.to.be.refactored:
+    text: '{0}Каретка должна быть установлена на аннотации, которую нужно рефакторить, для рефакторинга.'
+a.class.can.not.be.made.an.inner.class.of.itself:
+    text: Класс не может быть сделан внутренним классом самого себя.
+a.class.can.not.be.made.an.inner.class.of.one.of.it.s.decendents:
+    text: Класс не может быть сделан внутренним классом одного из своих потомков.
+action.column.header:
+    text: Действие
+action.rename.file.description:
+    text: Переименовать выбранный файл
+action.rename.file.text:
+    text: Переименовать файл…
+add.global.library:
+    text: Добавить зависимость библиотеки
+add.module.dependency:
+    text: Добавить зависимость модуля
+add.project.library:
+    text: Добавить зависимость библиотеки
+add.property:
+    text: Добавить свойство
+add.property.command:
+    text: Добавить свойство {0} к {1}
+add.property.dialog.title:
+    text: Добавить свойство к {0}
+add.property.to.constructors.checkbox:
+    text: Добавить свойство в конструкторы
+annotation:
+    text: Аннотация
+can.not.find.any.available.overriding.methods.for.the.selected.method:
+    text: Не удалось найти доступных переопределяющих методов для выбранного метода
+can.not.find.any.available.subclasses.for.the.selected.class:
+    text: Не удалось найти доступных подклассов для выбранного класса
+can.not.find.any.available.super.methods.for.the.selected.method:
+    text: Не удалось найти доступных супер-методов для выбранного метода
+can.not.find.any.available.superclasses.for.the.selected.class:
+    text: Не удалось найти доступных супер-классов для выбранного класса
+can.only.pull.annotations.up.on.methods.parameters.and.classes:
+    text: Аннотации можно выносить вверх только для методов, параметров и классов
+can.only.push.annotations.down.on.methods.parameters.and.classes:
+    text: Аннотации можно опускать вниз только для методов, параметров и классов
+cannot.perform.the.refactoring:
+    text: |
+        Невозможно выполнить рефакторинг.
+choose.destination.class.label:
+    text: Выбрать целевой класс
+choose.destination.package.label:
+    text: Выбрать целевой пакет
+class.found.column.header:
+    text: Найденный класс
+class.references.to.be.made.inner:
+    text: Классы, которые будут сделаны внутренними
+class.search.results.title:
+    text: Результаты поиска классов
+class.to.be.add.property.to:
+    text: Класс, к которому нужно добавить свойство
+conflicts.found:
+    text: Найдены конфликты
+constructor.calls.to.be.updated.view.descriptor:
+    text: Вызовы конструкторов для обновления {0}
+constructor.returns.can.not.be.wrapped:
+    text: Возвращаемые значения конструктора не могут быть обёрнуты.
+control.flow.category:
+    text: Поток управления
+convert.equality.disjunction.to.set.contains:
+    text: Преобразовать или-равно в Set.contains()
+convert.to.MessageFormat.format:
+    text: Преобразовать в MessageFormat.format
+convert.to.String.format:
+    text: Преобразовать в String.format
+convert.to.printf:
+    text: Преобразовать в printf
+convert.to.set.contains:
+    text: Преобразовать в Set.contains()
+copy.javadoc.to.ancestors:
+    text: Скопировать Javadoc к предкам
+copy.javadoc.to.inheritors:
+    text: Скопировать Javadoc к наследникам
+could.not.find.selected.wrapping.class:
+    text: Не удалось найти выбранный класс для обёртывания
+create.property.getter.checkbox:
+    text: Создать геттер для свойства
+create.property.setter.checkbox:
+    text: Создать сеттер для свойства
+declare.generated.annotations:
+    text: '&Сгенерировать аннотации'
+declare.static.pass.fields.checkbox:
+    text: Объявить &статическим (передать поля как параметры)
+delete.all.delegating.methods.radio.button:
+    text: Удалить все делегирующие методы
+delete.delegating.methods.border:
+    text: Удалить делегирующие методы
+delete.selected.annotation.checkbox:
+    text: Удалить выбранную аннотацию
+dialog.message.nothing.found.to.extract:
+    text: Не найдено ничего для извлечения
+do.you.wish.to.continue:
+    text: |
+        Вы хотите продолжить?.
+do.you.wish.to.invert.all.uses.of.parameter:
+    text: Вы хотите инвертировать все использования параметра {0}?
+do.you.wish.to.invert.all.uses.of.variable:
+    text: Вы хотите инвертировать все использования переменной {0}?
+existing.wrapper.class.label:
+    text: Использовать существующий класс параметра
+exposed.delegation.command.name:
+    text: Раскрытое делегирование к {0}{1}{2}
+extract.class:
+    text: Извлечь класс
+extract.class.depends.on.0.from.1.tooltip:
+    text: Зависит от {0} из {1}
+extract.class.depends.on.0.from.new.class:
+    text: Зависит от {0} из нового класса {1}
+extract.class.from.label:
+    text: Извлечь класс из {0}
+extract.class.title:
+    text: Извлечь класс
+extract.delegate.as.enum.checkbox:
+    text: Извлечь как перечисление
+extract.delegate.create.nested.checkbox:
+    text: Создать вложенный класс
+extract.delegate.generate.accessors.checkbox:
+    text: '&Сгенерировать аксессоры'
+extract.delegate.unable.create.warning.message:
+    text: Не удалось создать класс с указанным названием
+extracted.class.command.name:
+    text: Извлечённый класс {0}
+extracted.class.should.have.unique.name:
+    text: Извлечённый класс должен иметь уникальное название. Название «{0}» уже используется одним из вложенных классов
+extracting.from.class:
+    text: 'Извлечение из класса:'
+field.label:
+    text: Поле {0}
+field.selected.is.not.used.as.a.delegate:
+    text: Выбранное поле не используется в качестве делегата.
+generate.array.access.methods.title:
+    text: Выберите члены для генерации методов доступа к массиву
+generate.array.methods.undo.string:
+    text: Генерация методов массива
+generate.collection.access.methods.title:
+    text: Выберите члены для генерации методов доступа к коллекции
+generate.collection.methods.undo.string:
+    text: Генерация методов коллекции
+genericize.uses.border:
+    text: Обобщить использования {0}
+genericize.uses.in.border:
+    text: Обобщить использования {0} в {1}
+global.library.source:
+    text: 'Глобальная библиотека: {0}'
+initialization.expression.checkbox:
+    text: 'Выражение инициализации (необязательно):'
+introduce.parameter.object:
+    text: Ввести объект-параметр
+introduce.parameter.object.title:
+    text: Ввести объект-параметр
+introduce.type.parameter:
+    text: Ввести параметризованный тип
+introduce.type.parameter.title:
+    text: Ввести параметризованный тип
+introduced.parameter.class.command.name:
+    text: Введенный класс параметра {0} для {1}.{2}()
+introduced.type.parameter.command.name:
+    text: Введенный тип {0} как параметр для класса {1}
+invalid.extracted.class.name:
+    text: '«{0}» — недопустимое название извлечённого класса'
+invalid.license.data:
+    text: Недопустимые данные лицензии
+invalid.license.data.please.try.again:
+    text: Недопустимые данные лицензии. Пожалуйста, попробуйте еще раз.
+invalid.type.for.weaken.type.refactoring:
+    text: Недопустимый тип для рефакторинга «Ослабить тип»
+invert.boolean:
+    text: Инвертировать логическое значение
+invert.boolean.title:
+    text: Инвертировать логическое значение
+invert.parameter.command.name:
+    text: Инвертированный {0}({1})
+invert.variable.command.name:
+    text: Инвертировано
+javadoced.class:
+    text: Класс с Javadoc
+make.class.an.inner.class.border:
+    text: Сделать класс {0} внутренним классом
+make.class.inner:
+    text: Сделать класс внутренним
+make.class.inner.command.name:
+    text: Переместить класс {0} внутрь класса {1}
+make.class.inner.title:
+    text: Сделать класс внутренним
+make.property.final.checkbox:
+    text: Сделать свойство «final»
+members.to.extract.label:
+    text: Члены &для извлечения
+merge.loops.family.name:
+    text: Объединить циклы
+merge.loops.text:
+    text: Объединить циклы
+method.selected.has.no.parameters:
+    text: У выбранного метода нет параметров.
+method.selected.returns.void:
+    text: Выбранный метод возвращает «void».
+method.to.extract.parameters.from.label:
+    text: Метод, из которого извлекать параметры
+method.to.wrap.returns.from.label:
+    text: 'Метод, из которого оборачивать возвращаемые значения:'
+method.whose.parameters.are.to.wrapped:
+    text: Метод, чьи параметры должны быть обёрнуты
+method.whose.return.are.to.wrapped:
+    text: Метод, чьи возвращаемые значения должны быть обёрнуты
+methods.to.copy.javadoc.from:
+    text: Методы, из которых копировать Javadoc
+methods.to.pull.up.javadoc.from.panel:
+    text: Методы, из которых поднимать Javadoc
+module.source:
+    text: 'Модуль: {0}'
+name.for.new.class.label:
+    text: '&Название для нового класса:'
+name.for.new.parameter.label:
+    text: 'Название для нового параметра:'
+name.for.new.type.parameter.label:
+    text: 'Название для нового параметризованного типа:'
+name.for.wrapper.class.label:
+    text: 'Название класса:'
+no.class.found:
+    text: Класс не найден
+only.outer.classes.and.static.inner.classes.may.be.made.inner:
+    text: Только внешние классы и статические внутренние классы могут быть сделаны внутренними.
+other.category:
+    text: Другое
+outer.class.label:
+    text: 'Внешний класс:'
+package.for.new.class.label:
+    text: '&Название пакета:'
+package.for.wrapper.class.label:
+    text: 'Название пакета:'
+parameter:
+    text: Параметр
+parameter.selected.is.not.boolean:
+    text: Выбранный параметр не является логическим.
+parameterize.class.radio.button:
+    text: Параметризовать класс {0}
+parameterize.method.radio.button:
+    text: Параметризовать метод {0}()
+parameters.to.extract.border:
+    text: Параметры для извлечения
+preview:
+    text: Предварительный просмотр
+primitive.types.can.not.be.introduced.as.type.parameters:
+    text: Примитивные типы не могут быть введены как параметризованные типы.
+project.library.source:
+    text: 'Библиотека проекта: {0}'
+property.name.field.label:
+    text: 'Название свойства:'
+property.to.be.removed:
+    text: Свойство для удаления
+property.type.field.label:
+    text: 'Тип свойства:'
+pull.annotation.up:
+    text: Поднять аннотацию вверх
+pull.annotation.up.from.label:
+    text: 'Поднять аннотацию из:'
+pull.annotation.up.title:
+    text: Поднять аннотацию вверх
+pull.javadoc.up:
+    text: Поднять Javadoc вверх
+pull.javadoc.up.title:
+    text: Поднять Javadoc вверх
+pull.up.annotation.command.name:
+    text: Поднять аннотацию вверх
+pull.up.annotation.from.label:
+    text: 'Поднять аннотацию из {0} в:'
+pull.up.javadoc.command.name:
+    text: Поднять Javadoc вверх
+pull.up.javadoc.from.label:
+    text: 'Поднять Javadoc из {0} в:'
+push.annotation.down:
+    text: Спустить аннотацию вниз
+push.annotation.down.from.label:
+    text: 'Спустить аннотацию из:'
+push.annotation.down.title:
+    text: Спустить аннотацию вниз
+push.down.annotation.command.name:
+    text: Спустить аннотацию вниз
+push.javadoc.down:
+    text: Спустить Javadoc вниз
+push.javadoc.down.from.label:
+    text: 'Спустить Javadoc из:'
+push.javadoc.down.title:
+    text: Спустить Javadoc вниз
+push.up.javadoc.command.name:
+    text: Спустить Javadoc вверх
+refactor:
+    text: Рефакторинг
+reference:
+    text: ссылка
+references.to.be.changed.usage.view:
+    text: Ссылки для изменения {0}
+references.to.be.inverted.0:
+    text: Ссылки для инвертирования {0}
+references.to.be.made.inner.usage.view:
+    text: Ссылки для создания внутренних {0}
+references.to.be.made.removed.usage.view:
+    text: Ссылки для удаления {0}
+references.to.be.modified:
+    text: Ссылки для изменения
+references.to.be.modified.usage.view:
+    text: Ссылки для изменения {0, choice, 0#(Не найдено)|1#{0} ссылка|2#{0} ссылки}{1, choice, 0#|1# в {1} файле|2# в {1} файлах}
+references.to.expose.usage.view:
+    text: Ссылки для раскрытия {0, choice, 0#(Не найдено)|1#{0} ссылка|2#{0} ссылки}{1, choice, 0#|1# в {1} файле|2# в {1} файлах}
+references.to.extract:
+    text: Ссылки для извлечения ({0, choice, 0#(Не найдено)|1#{0} ссылка|2#{0} ссылки}{1, choice, 0#|1# в {1} файле|2# в {1} файлах})
+remove.middleman:
+    text: Удалить посредника
+remove.middleman.column.header:
+    text: Удалить
+remove.middleman.deleted.hierarchy.conflict:
+    text: '{0} будет удалён. Иерархия будет нарушена'
+remove.middleman.field.header:
+    text: 'Удалить поле посредника:'
+remove.middleman.methods.to.inline.title:
+    text: '&Методы для встраивания'
+remove.middleman.title:
+    text: Удалить посредника
+remove.middleman.tooltip.warning:
+    text: Удаление нарушит иерархию типов
+remove.property:
+    text: Удалить свойство
+remove.property.border:
+    text: Удалить свойство {0}
+remove.property.command.name:
+    text: Удалить свойство {0}
+remove.property.getter.checkbox:
+    text: Удалить геттер свойства
+remove.property.setter.checkbox:
+    text: Удалить сеттер свойства
+remove.property.title:
+    text: Удалить свойство
+remove.type.parameter:
+    text: Удалить параметр типа
+removed.type.parameter.from.class.command.name:
+    text: Удалён параметр типа {0} из класса {1}
+removed.type.parameter.from.method.command.name:
+    text: Удалён параметр типа {0} из метода {1}()
+rename.overloads:
+    text: Переименовать &перегрузки
+replace.existing.annotations.checkbox:
+    text: Заменить существующие аннотации
+replace.existing.comments.checkbox:
+    text: Заменить существующие комментарии
+replacement.expression.label:
+    text: 'Выражение для замены (необязательно):'
+retain.all.delegating.methods.radio.button:
+    text: Сохранить все делегирующие методы
+review.license.terms:
+    text: Просмотреть условия лицензии
+search.for.class.family.name:
+    text: Поиск класса
+search.for.class.text:
+    text: Поиск класса
+select.wrapper.class:
+    text: Выбрать класс-обёртку
+source.column.header:
+    text: Источник
+split.loop.family.name:
+    text: Разделить цикл
+split.loop.text:
+    text: Разделить цикл
+split.string:
+    text: Разделить строку
+subclass.elements.to.be.annotated:
+    text: Элементы подкласса для аннотирования
+superclass.elements.to.be.annotated:
+    text: Элементы суперкласса для аннотирования
+superclass.methods.to.be.javadoced:
+    text: Методы суперкласса для документирования (Javadoc)
+the.caret.should.be.positioned.at.an.annotation.to.be.refactored.to.be.refactored:
+    text: Курсор должен быть установлен на аннотацию, которую нужно переименовать (рефакторить).
+the.caret.should.be.positioned.at.on.a.class.to.be.made.into.an.inner.class:
+    text: Курсор должен быть установлен на класс, который нужно сделать внутренним.
+the.caret.should.be.positioned.at.on.a.property.to.be.removed:
+    text: Курсор должен быть установлен на свойство, которое нужно удалить.
+the.caret.should.be.positioned.at.on.a.type.to.be.parameterized:
+    text: Курсор должен быть установлен на тип, который нужно параметризовать.
+the.caret.should.be.positioned.at.the.name.of.the.field.to.be.refactored:
+    text: Курсор должен быть установлен на название поля, которое нужно переименовать (рефакторить).
+the.caret.should.be.positioned.at.the.name.of.the.method.to.be.refactored:
+    text: Курсор должен быть установлен на название метода, которое нужно переименовать (рефакторить), внутри списка параметров или внутри вызова метода.
+the.caret.should.be.positioned.at.the.name.of.the.type.parameter.to.be.refactored:
+    text: Курсор должен быть установлен на название параметризуемого типа, которое нужно переименовать (рефакторить).
+the.caret.should.be.positioned.at.the.name.of.the.variable.or.parameter.to.be.refactored:
+    text: Курсор должен быть установлен на название переменной или параметра, которое нужно переименовать (рефакторить).
+the.caret.should.be.positioned.at.the.name.of.the.variable.parameter.or.method.to.be.refactored:
+    text: Курсор должен быть установлен на название переменной, параметра или метода, которое нужно переименовать (рефакторить).
+the.caret.should.be.positioned.in.the.class.to.add.to.property.to:
+    text: Курсор должен быть установлен в классе, к которому нужно добавить свойство.
+the.caret.should.be.positioned.within.a.class.to.be.refactored:
+    text: Курсор должен быть установлен внутри класса, который будет рефакториться.
+the.refactoring.is.not.supported.on.non.static.inner.classes:
+    text: Данный рефакторинг не поддерживается для нестатических вложенных классов.
+the.selected.class.has.no.members.to.extract:
+    text: Выбранный класс не содержит элементов для извлечения.
+the.selected.class.has.no.overridden.methods.with.javadoc:
+    text: Выбранный класс не имеет переопределенных методов с Javadoc.
+the.selected.class.is.an.annotation.type:
+    text: Выбранный класс является аннотационным типом (интерфейсом аннотации).
+the.selected.class.is.an.enumeration:
+    text: Выбранный класс является перечислением.
+the.selected.class.is.an.interface:
+    text: Выбранный класс является интерфейсом.
+the.selected.method.cannot.be.wrapped.because.it.is.defined.in.a.non.project.class:
+    text: Выбранный метод не может быть обёрнут, так как он определен в классе, не относящемся к проекту.
+the.selected.type.cannot.be.weakened:
+    text: Выбранный тип не может быть ослаблен.
+the.selected.type.cannot.be.weakened.because.the.method.is.declared.in.a.non.project.class:
+    text: Выбранный тип не может быть ослаблен, так как метод объявлен в классе, не относящемся к проекту.
+there.already.exists.a.class.with.the.chosen.name:
+    text: Класс с выбранным именем уже существует.
+there.already.exists.a.class.with.the.selected.name:
+    text: Класс с выбранным именем уже существует.
+there.already.exists.an.incompatible.class.with.the.chosen.name:
+    text: Несовместимый класс с выбранным именем уже существует.
+there.are.non.genericizable.instances.of.the.type.you.selected:
+    text: |
+        Существуют не обобщаемые экземпляры выбранного вами типа.
+type.parameter.question.label:
+    text: Удалить параметр типа {0} и все его использования?
+type.parameter.selected.extends.multiple.types:
+    text: Выбранный параметр типа наследуется от нескольких типов.
+type.parameter.to.be.introduced:
+    text: Вводимый параметр типа
+type.parameter.to.be.remove:
+    text: Удаляемый параметр типа
+type.parameters.can.not.be.introduced.as.type.parameters:
+    text: Параметры типа не могут быть введены как параметры типа.
+type.selected.is.not.in.class.context:
+    text: Выбранный тип находится вне контекста класса.
+unable.to.find.the.requested.class:
+    text: Не удалось найти запрошенный класс.
+use.inheritdoc.comments:
+    text: Использовать комментарии @inheritdoc
+user.name:
+    text: '&Имя пользователя:'
+variable.selected.is.not.boolean:
+    text: Выбранная переменная не является логической.
+variable.to.be.inverted:
+    text: Инвертируемая переменная
+weaken.type:
+    text: Ослабить тип
+weaken.type.command.name:
+    text: Ослабить тип
+weaken.type.label:
+    text: 'Ослабить тип «{0}» с {1} на:'
+weaken.type.refactoring.is.not.supported.for.arrays:
+    text: Рефакторинг «ослабить тип» не поддерживается для массивов.
+weaken.type.refactoring.is.not.supported.for.constructors:
+    text: Рефакторинг «ослабить тип» не поддерживается для конструкторов.
+weaken.type.refactoring.is.not.supported.for.primitive.types:
+    text: Рефакторинг «ослабить тип» не поддерживается для примитивных типов.
+weaken.type.refactoring.is.not.supported.for.type.parameters:
+    text: Рефакторинг «ослабить тип» не поддерживается для параметров типа.
+wrap.return.value:
+    text: Обернуть возвращаемое значение
+wrap.return.value.title:
+    text: Обернуть возвращаемое значение
+wrapped.return.command.name:
+    text: Обёрнутый возврат в виде {0} для {1}{2}{3}()

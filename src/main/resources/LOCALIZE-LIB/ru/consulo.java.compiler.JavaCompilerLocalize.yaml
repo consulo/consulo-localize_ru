@@ -1,0 +1,54 @@
+action.run.apt.0.text:
+    text: Обработать _аннотации «{0}»
+action.run.apt.default.text:
+    text: Обработать _аннотации <по умолчанию>
+action.run.apt.description:
+    text: Запустить обработчики аннотаций для выбранной области
+action.run.apt.module.text:
+    text: Обработать _аннотации модуля «{0}»
+action.run.apt.selected.files.text:
+    text: Обработать _аннотации выбранных файлов
+action.run.apt.text:
+    text: Обработать _аннотации
+add.notnull.assertions:
+    text: Добавить _утверждения @NotNull
+compiler.eclipse.embedded.name:
+    text: Eclipse (встроенный)
+compiler.eclipse.name:
+    text: Eclipse
+compiler.javac.name:
+    text: Javac
+eclipse.compiler.analyzing:
+    text: Анализ {0}
+eclipse.compiler.error.jar.not.found:
+    text: |-
+        Невозможно запустить компилятор Eclipse.
+        Файл {0} не найден.
+eclipse.compiler.parsing:
+    text: Парсинг {0}
+eclipse.compiler.reading:
+    text: Чтение классов
+eclipse.options.group.title:
+    text: Опции Eclipse
+generate.ant.build.progress.message:
+    text: Генерация Ant-сборки...
+generate.ant.build.title:
+    text: Генерация Ant-сборки
+javac.error.jdk.home.missing:
+    text: |-
+        Не удается найти домашний каталог «{1}» для JDK «{0}».
+        Обновите конфигурацию JDK.
+javac.error.jdk.is.not.set.for.module:
+    text: |-
+        JDK не установлен для модуля «{0}».
+        Обновите конфигурацию JDK.
+javac.error.target.jdk.not.supported:
+    text: Компиляция не поддерживается для JDK ниже 1.5
+javac.error.tools.jar.missing:
+    text: |-
+        Не удается получить путь к классам javac для JDK {0}.
+        Обновите конфигурацию JDK.
+javac.error.unknown.jdk.version:
+    text: |-
+        Не удается определить версию для JDK {0}.
+        Обновите конфигурацию JDK.
