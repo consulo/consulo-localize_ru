@@ -1,0 +1,1582 @@
+access.static.via.instance:
+    text: Доступ к статическому члену через ссылку на экземпляр
+annotate.overridden.methods.parameters:
+    text: Добавить аннотацию «@{0}» к параметрам переопределённого метода
+annotate.overridden.methods.parameters.family.name:
+    text: Добавить аннотации параметрам переопределённых методов
+assignment.to.declared.variable.problem.descriptor:
+    text: Переменная «{0}» инициализируется самоприсваиванием
+assignment.to.itself.problem.descriptor:
+    text: Переменная «{0}» присваивается самой себе
+assignment.to.itself.quickfix.name:
+    text: Удалить самоприсваивание
+boolean.method.is.always.inverted.display.name:
+    text: Результат вызова логического метода всегда инвертируется
+boolean.method.is.always.inverted.problem.descriptor:
+    text: Результат вызова логического метода <code>#ref</code> всегда инвертируется
+cleanup.in.file:
+    text: Очистка кода
+cleanup.in.scope:
+    text: Очистить код на...
+configure.annotations.option:
+    text: Настроить аннотации
+configure.checker.option.assert.false.add.method.checker.dialog.title:
+    text: Добавить метод assertFalse
+configure.checker.option.assert.false.method.panel.title:
+    text: Методы assertFalse
+configure.checker.option.assert.isNotNull.add.method.checker.dialog.title:
+    text: Добавить метод assertIsNotNull
+configure.checker.option.assert.isNotNull.method.panel.title:
+    text: Методы assertIsNotNull
+configure.checker.option.assert.isNull.add.method.checker.dialog.title:
+    text: Добавить метод assertIsNull
+configure.checker.option.assert.isNull.method.panel.title:
+    text: Методы assertIsNull
+configure.checker.option.assert.true.add.method.checker.dialog.title:
+    text: Добавить метод assertTrue
+configure.checker.option.assert.true.method.panel.title:
+    text: Методы assertTrue
+configure.checker.option.button:
+    text: Настроить методы Assert/Check
+configure.checker.option.isNotNull.add.method.checker.dialog.title:
+    text: Добавить метод проверки IsNotNull
+configure.checker.option.isNotNull.method.panel.title:
+    text: Методы проверки IsNotNull
+configure.checker.option.isNull.add.method.checker.dialog.title:
+    text: Добавить метод проверки IsNull
+configure.checker.option.isNull.method.panel.title:
+    text: Методы проверки IsNull
+configure.checker.option.main.dialog.title:
+    text: Конфигурация методов Assert/Check
+configure.checker.option.overlap.error.msg:
+    text: Конфигурация конфликтует с
+configure.checker.option.overlap.error.title:
+    text: Конфликтующая проверка
+dataflow.message.array.index.out.of.bounds:
+    text: Индекс массива выходит за пределы
+dataflow.message.assigning.null:
+    text: <code>null</code> присваивается переменной снабжённой аннотацией @NotNull
+dataflow.message.assigning.nullable:
+    text: Выражение <code>#ref</code> может дать null, но присваивается переменной снабжённой аннотацией @NotNull
+dataflow.message.cce:
+    text: 'Приведение <code>{0}</code> к <code>#ref</code> #loc может привести к <code>java.lang.ClassCastException</code>'
+dataflow.message.constant.condition:
+    text: 'Условие <code>#ref</code> #loc всегда равно <code>{0}</code>'
+dataflow.message.constant.condition.when.reached:
+    text: 'Условие <code>#ref</code> #loc всегда равно <code>{0}</code> при достижении'
+dataflow.message.constant.method.reference:
+    text: Результат ссылки на метод всегда «{0}»
+dataflow.message.loop.on.empty.array:
+    text: Массив <code>#ref</code> всегда пуст
+dataflow.message.loop.on.empty.collection:
+    text: Коллекция <code>#ref</code> всегда пуста
+dataflow.message.npe.array.access:
+    text: 'Доступ к массиву <code>#ref</code> #loc может привести к <code>java.lang.NullPointerException</code>'
+dataflow.message.npe.field.access:
+    text: 'Разыменование <code>#ref</code> #loc может привести к <code>java.lang.NullPointerException</code>'
+dataflow.message.npe.field.access.sure:
+    text: 'Разыменование <code>#ref</code> #loc приведёт к <code>java.lang.NullPointerException</code>'
+dataflow.message.npe.method.invocation:
+    text: 'Вызов метода <code>#ref</code> #loc может привести к <code>java.lang.NullPointerException</code>'
+dataflow.message.npe.methodref.invocation:
+    text: 'Вызов ссылки на метод <code>#ref</code> #loc может привести к <code>java.lang.NullPointerException</code>'
+dataflow.message.optional.get.without.is.present:
+    text: <code>{0}.#ref()</code> без проверки «isPresent()»
+dataflow.message.passing.null.argument:
+    text: Передача аргумента <code>null</code> параметру снабжённому аннотацией @NotNull
+dataflow.message.passing.nullable.argument:
+    text: 'Аргумент <code>#ref</code> #loc может быть null'
+dataflow.message.passing.nullable.argument.methodref:
+    text: Аргумент ссылки на метод может быть null
+dataflow.message.pointless.assignment.expression:
+    text: 'Условие <code>#ref</code> #loc в левой части выражения присваивания всегда равно <code>{0}</code>. Может быть упрощено'
+dataflow.message.redundant.instanceof:
+    text: 'Условие <code>#ref</code> #loc избыточно и может быть заменено на <code>!= null</code>'
+dataflow.message.return.null.from.notnull:
+    text: <code>null</code> возвращается методом, объявленным как @{0}
+dataflow.message.return.null.from.notnullable:
+    text: <code>null</code> возвращается методом, который не объявлен как @{0}
+dataflow.message.return.nullable.from.notnull:
+    text: Выражение <code>#ref</code> может дать null, но возвращается методом, объявленным как @{0}
+dataflow.message.return.nullable.from.notnull.function:
+    text: Функция может вернуть null, но здесь это не разрешено
+dataflow.message.return.nullable.from.notnullable:
+    text: Выражение <code>#ref</code> может дать null, но возвращается методом, который не объявлен как @{0}
+dataflow.message.storing.array.null:
+    text: <code>null</code> сохраняется в массив элементов @NotNull
+dataflow.message.storing.array.nullable:
+    text: Выражение <code>#ref</code> может дать null, но сохраняется в массив элементов @NotNull
+dataflow.message.unboxing:
+    text: 'Распаковка <code>#ref</code> #loc может привести к <code>java.lang.NullPointerException</code>'
+dataflow.message.unboxing.method.reference:
+    text: 'Использование <code>#ref</code> #loc потребует распаковки, что может привести к <code>java.lang.NullPointerException</code>'
+dataflow.message.unreachable.switch.label:
+    text: 'Ветка switch <code>#ref</code> #loc недостижима'
+dataflow.method.fails.with.null.argument:
+    text: Метод выбросит исключение, когда параметр равен null
+dataflow.too.complex:
+    text: Метод <code>#ref</code> слишком сложен для анализа алгоритмом потока данных
+dataflow.too.complex.class:
+    text: Инициализатор класса слишком сложен для анализа алгоритмом потока данных
+default.file.template.description:
+    text: Шаблон файла по умолчанию
+default.file.template.display.name:
+    text: Использование шаблона файла по умолчанию
+default.file.template.edit.template:
+    text: Редактировать шаблон...
+default.file.template.replace.with.actual.file.template:
+    text: Заменить на актуальный шаблон файла
+default.file.template.report.catch.section:
+    text: Сообщить о блоке catch по умолчанию
+default.file.template.report.file.header:
+    text: Сообщить о заголовке файла по умолчанию
+default.file.template.report.method.body:
+    text: Сообщить о теле метода, созданного/переопределенного/реализованного по умолчанию
+default.ide.profile.label.text:
+    text: 'Профиль IDE по умолчанию:'
+dependency.injection.annotations.list:
+    text: Дополнительные аннотации внедрения зависимостей
+deprecated.symbol:
+    text: Устаревший символ
+detach.library.quickfix.name:
+    text: Отключить библиотеку
+detach.library.roots.quickfix.name:
+    text: Отключить не испольуземые корневые каталоги библиотек
+disable.inspection.action.name:
+    text: Отключить проверку
+duplicate.property.diff.key.option:
+    text: '&Дублирующиеся ключи с разными значениями'
+duplicate.property.diff.key.problem.descriptor:
+    text: 'Дублирующийся ключ свойства «{0}» с разными значениями #treeend :<br>'
+duplicate.property.diff.key.progress.indicator.text:
+    text: 'Обработка дублирующегося ключа свойства: {0}'
+duplicate.property.display.name:
+    text: Дублирующееся свойство
+duplicate.property.file.scope.option:
+    text: '&Область файла'
+duplicate.property.key.option:
+    text: Дублирующиеся &ключи
+duplicate.property.key.problem.descriptor:
+    text: 'Дублирующийся ключ свойства «{0}» #treeend со значениями:<br>'
+duplicate.property.key.progress.indicator.text:
+    text: Обработка дублирующегося ключа свойства:{0}
+duplicate.property.module.scope.option:
+    text: '&Область модуля'
+duplicate.property.project.scope.option:
+    text: '&Область проекта'
+duplicate.property.value.option:
+    text: Дублирующиеся &значения
+duplicate.property.value.problem.descriptor:
+    text: 'Дублирующееся значение свойства «{0}» #treeend с ключами:<br>'
+duplicate.property.value.progress.indicator.text:
+    text: 'Обработка дублирующегося значения свойства: {0}'
+edit.dependency.rules.family:
+    text: Редактировать правила зависимостей
+edit.dependency.rules.text:
+    text: Редактировать правило зависимости «{0}»
+edit.inspection.options:
+    text: Редактировать параметры «{0}»
+edit.options.of.reporter.inspection.family:
+    text: Редактировать параметры сработавшей проверки
+edit.options.of.reporter.inspection.text:
+    text: Редактировать настройку профиля проверки
+error.analysis.is.in.progress:
+    text: Анализ ошибок в процессе
+errors.single.profile.title:
+    text: 'Ошибки: профиль проверки «{0}» '
+exports.to.itself.delete.module.ref.fix:
+    text: Удалить ссылку на модуль «{0}»
+exports.to.itself.delete.statement.fix:
+    text: Удалить директиву
+fix.all.inspection.problems.in.file:
+    text: Исправить все проблемы «{0}» в файле
+group.names.abstraction.issues:
+    text: Проблемы абстракции
+group.names.assignment.issues:
+    text: Проблемы присваивания
+group.names.bitwise.operation.issues:
+    text: Проблемы побитовых операций
+group.names.class.metrics:
+    text: Метрики классов
+group.names.class.structure:
+    text: Структура классов
+group.names.cloning.issues:
+    text: Проблемы клонирования
+group.names.code.maturity.issues:
+    text: Проблемы зрелости кода
+group.names.code.style.issues:
+    text: Проблемы стиля кода
+group.names.compiler.issues:
+    text: Проблемы компилятора
+group.names.concurrency.annotation.issues:
+    text: Проблемы аннотаций параллелизма
+group.names.control.flow.issues:
+    text: Проблемы потока управления
+group.names.data.flow.issues:
+    text: Проблемы потока данных
+group.names.declaration.redundancy:
+    text: Избыточность объявлений
+group.names.dependency.issues:
+    text: Проблемы зависимостей
+group.names.encapsulation.issues:
+    text: Проблемы инкапсуляции
+group.names.error.handling:
+    text: Обработка ошибок
+group.names.finalization.issues:
+    text: Проблемы финализации
+group.names.imports:
+    text: Импорты
+group.names.inheritance.issues:
+    text: Проблемы наследования
+group.names.initialization.issues:
+    text: Проблемы инициализации
+group.names.internationalization.issues:
+    text: Проблемы интернационализации
+group.names.j2me.issues:
+    text: Проблемы J2ME
+group.names.java.language.level.issues:
+    text: Проблемы уровня языка
+group.names.javabeans.issues:
+    text: Проблемы JavaBeans
+group.names.javadoc.issues:
+    text: Проблемы JavaDoc
+group.names.javaee.issues:
+    text: Проблемы Java EE
+group.names.junit.issues:
+    text: Проблемы JUnit
+group.names.language.level.specific.issues.and.migration.aids:
+    text: Средства миграции для конкретного уровня языка
+group.names.language.level.specific.issues.and.migration.aids14:
+    text: Java 14
+group.names.language.level.specific.issues.and.migration.aids5:
+    text: Java 5
+group.names.language.level.specific.issues.and.migration.aids7:
+    text: Java 7
+group.names.language.level.specific.issues.and.migration.aids8:
+    text: Java 8
+group.names.language.level.specific.issues.and.migration.aids9:
+    text: Java 9
+group.names.logging.issues:
+    text: Проблемы логирования
+group.names.memory.issues:
+    text: Проблемы памяти
+group.names.method.metrics:
+    text: Метрики методов
+group.names.modularization.issues:
+    text: Проблемы модуларизации
+group.names.naming.conventions:
+    text: Соглашения об именовании
+group.names.numeric.issues:
+    text: Числовые проблемы
+group.names.packaging.issues:
+    text: Проблемы упаковки
+group.names.performance.issues:
+    text: Проблемы производительности
+group.names.portability.issues:
+    text: Проблемы переносимости
+group.names.potentially.confusing.code.constructs:
+    text: Потенциально запутанные конструкции кода
+group.names.probable.bugs:
+    text: Вероятные ошибки
+group.names.properties.files:
+    text: Файлы свойств
+group.names.reflective.access.issues:
+    text: Проблемы рефлексивного доступа
+group.names.resource.management.issues:
+    text: Проблемы управления ресурсами
+group.names.security.issues:
+    text: Проблемы безопасности
+group.names.serialization.issues:
+    text: Проблемы сериализации
+group.names.threading.issues:
+    text: Проблемы многопоточности
+group.names.toString.issues:
+    text: Проблемы toString()
+group.names.verbose.or.redundant.code.constructs:
+    text: Многословные или избыточные конструкции кода
+group.names.visibility.issues:
+    text: Проблемы видимости
+group.names.xml:
+    text: XML
+highlight.severity.create.dialog.name.label:
+    text: Название
+highlight.severity.create.dialog.title:
+    text: Новая степень подсветки
+illegal.package.dependencies:
+    text: Недопустимые зависимости пакетов
+inconsistent.bundle.property.error:
+    text: Несогласованное свойство «{0}». Должно быть определено в родительском файле «{1}».
+inconsistent.bundle.property.inconsistent.end:
+    text: Несогласованный конец значения свойства «{0}»
+inconsistent.bundle.property.inconsistent.end.parent.end.from.check.symbols:
+    text: Несогласованный конец значения свойства «{0}», но найден «{1}» в «{2}»
+inconsistent.bundle.property.inconsistent.placeholders:
+    text: 'Несогласованное количество заполнителей: найдено {0} в «{1}»'
+inconsistent.bundle.property.inherited.with.the.same.value:
+    text: Свойство унаследовано из файла «{0}» с тем же значением
+inconsistent.bundle.report.duplicate.properties.values:
+    text: Сообщить о свойствах, &переопределённых с тем же значением
+inconsistent.bundle.report.inconsistent.properties:
+    text: Сообщить о &несогласованных свойствах
+inconsistent.bundle.report.inconsistent.properties.ends:
+    text: Сообщить о свойствах с несогласованными &концами
+inconsistent.bundle.report.inconsistent.properties.placeholders:
+    text: Сообщить о свойствах с несогласованными &заполнителями
+inconsistent.bundle.report.missing.translations:
+    text: Сообщить об отсутствующих &переводах
+inconsistent.bundle.untranslated.property.error:
+    text: Непереведенное свойство «{0}». Должно быть переопределено в «{1}».
+inconsistent.line.separators:
+    text: Несогласованные разделители строк
+inconsistent.resource.bundle.display.name:
+    text: Несогласованный пакет ресурсов
+inspection.1.5.display.name:
+    text: Использование API, недоступного на настроенном уровне языка
+inspection.1.5.problem.descriptor:
+    text: Использование API, документированного как @since {0}+
+inspection.1.7.problem.descriptor:
+    text: Использование API с обобщёнными типами после 1.6, что вызвало бы проблемы компиляции с JDK {0}
+inspection.1.8.problem.descriptor:
+    text: Методы по умолчанию {0, choice, 0#|1# метод|2# методы} не переопределены. Это вызвало бы проблемы компиляции с JDK {1}
+inspection.1.8.problem.single.descriptor:
+    text: Метод по умолчанию «{0}» не переопределён. Это вызвало бы проблемы компиляции с JDK {1}
+inspection.action.apply.quickfix:
+    text: Применить быстрое исправление
+inspection.action.apply.quickfix.description:
+    text: Применить быстрое исправление инспекции
+inspection.action.edit.settings:
+    text: Редактировать настройки
+inspection.action.export.html:
+    text: Экспортировать
+inspection.action.export.popup.title:
+    text: Экспортировать в
+inspection.action.go.next:
+    text: Следующая проблема
+inspection.action.group.by.severity:
+    text: Группировать по серьёзности
+inspection.action.group.by.severity.description:
+    text: Группировать инспекции по серьёзности
+inspection.action.noun:
+    text: Проверка
+inspection.action.profile.label:
+    text: Профиль проверки
+inspection.action.rerun:
+    text: Повторить инспекцию
+inspection.action.suppress:
+    text: Подавление проверки «{0}»
+inspection.action.title:
+    text: Проверка
+inspection.actiongo.prev:
+    text: Предыдущая проблема
+inspection.annotate.method.quickfix.family.name:
+    text: Аннотировать метод
+inspection.annotate.overridden.method.and.self.quickfix.family.name:
+    text: Добавить аннотации к этому и переопределенным методам
+inspection.annotate.overridden.method.quickfix.family.name:
+    text: Добавить аннотации к переопределённым методы
+inspection.annotate.quickfix.implements:
+    text: реализует
+inspection.annotate.quickfix.overridden.method.messages:
+    text: |-
+        Метод {0} {1} метод {2}.
+        Добавить аннотацию и к базовому методу?
+inspection.annotate.quickfix.overridden.method.warning:
+    text: Предупреждение о переопределённом методе
+inspection.annotate.quickfix.overrides:
+    text: переопределяет
+inspection.application.cannot.convert.project.0:
+    text: 'Не удается преобразовать проект: {0}'
+inspection.application.cannot.convert.the.project.the.following.files.are.read.only.0:
+    text: 'Не удается преобразовать проект. Следующие файлы доступны только для чтения: {0}'
+inspection.application.chosen.profile.log.message:
+    text: Инспекция с профилем «{0}»
+inspection.application.directory.cannot.be.found:
+    text: Каталог {0} не найден
+inspection.application.file.cannot.be.found:
+    text: Файл {0} не найден
+inspection.application.initializing.project:
+    text: Инициализация проекта...
+inspection.application.opening.project:
+    text: Открытие проекта...
+inspection.application.project.has.older.format.and.will.be.converted:
+    text: Проект имеет более старый формат и будет преобразован.
+inspection.application.project.was.succesfully.converted.old.project.files.were.saved.to.0:
+    text: Проект успешно преобразован. Старые файлы проекта были сохранены в {0}
+inspection.application.starting.up:
+    text: Запуск {0} ...
+inspection.as:
+    text: Как {0}
+inspection.assert.quickfix:
+    text: Утверждать «{0}»
+inspection.can.be.final.accept.quickfix:
+    text: Сделать final
+inspection.can.be.final.display.name:
+    text: Объявление может иметь модификатор final
+inspection.can.be.final.option:
+    text: Сообщать о классах
+inspection.can.be.final.option1:
+    text: Сообщать о методах
+inspection.can.be.final.option2:
+    text: Сообщать о полях
+inspection.can.be.local.parameter.problem.descriptor:
+    text: Параметр <code>#ref</code> может иметь модификатор <code>final</code>
+inspection.can.be.local.variable.problem.descriptor:
+    text: Переменная <code>#ref</code> может иметь модификатор <code>final</code>
+inspection.capitalized.done:
+    text: Готово.
+inspection.collection.factories.fix.family.name:
+    text: Заменить вызовом фабрики коллекций
+inspection.collection.factories.fix.name:
+    text: Заменить вызовом «{0}.of»
+inspection.collection.factories.message:
+    text: Может быть заменено вызовом «{0}.of»
+inspection.collection.factories.option.ignore.non.constant:
+    text: Не предупреждать, когда содержимое не является константой
+inspection.command.line.explanation:
+    text: "Ожидаемые параметры: <путь_к_файлу_проекта> <профиль_проверки> <путь_к_выводу> <профиль_проверок> — использовать здесь название профиля, настроенного в проекте или локально, или путь к профилю проверки; может быть пропущено, если используется один из ключей -e|-profileName|-profilePath\n[<опции>]\n Доступные опции:\n -d <путь_к_каталогу>  —  каталог для проверки. Необязательно. По умолчанию проверяется весь проект.\n -e                   —  пропустить \n-v[0|1|2]            —  уровень подробности. 0 — тихо, 1 — подробно, 2 — наиболее подробно. \n-profileName         —  название профиля, определённого в проекте \n -profilePath         —  абсолютный путь к файлу профиля"
+inspection.comparator.result.comparison.display.name:
+    text: Подозрительное использование метода «compare»
+inspection.comparator.result.comparison.fix.family.name:
+    text: Исправить сравнение результата компаратора
+inspection.comparator.result.comparison.problem.display.name:
+    text: Сравнение результата метода compare с конкретной константой
+inspection.comparing.references.display.name:
+    text: == используется вместо equals()
+inspection.comparing.references.problem.descriptor:
+    text: 'Подозрительное сравнение #ref #loc'
+inspection.comparing.references.use.quickfix:
+    text: Использовать equals()
+inspection.compiler.javac.quirks.anno.array.comma.fix:
+    text: Удалить конечную запятую
+inspection.compiler.javac.quirks.anno.array.comma.problem:
+    text: Конечная запятая в инициализаторе массива аннотации может вызвать ошибку компиляции в некоторых версиях Javac (например, JDK 5 и JDK 6).
+inspection.compiler.javac.quirks.name:
+    text: Особенности Javac
+inspection.compiler.javac.quirks.qualifier.type.args.fix:
+    text: Удалить параметр типа
+inspection.compiler.javac.quirks.qualifier.type.args.problem:
+    text: Параметры типа в ссылке на квалификатор могут вызвать ошибку компиляции в некоторых версиях Javac (например, JDK 5 и JDK 6).
+inspection.contract.display.name:
+    text: Проблемы контракта
+inspection.convert.to.local.quickfix:
+    text: Преобразовать в локальную переменную
+inspection.data.flow.display.name:
+    text: Постоянные условия и исключения
+inspection.data.flow.filter.notnull.quickfix:
+    text: Вставить шаг «filter(Objects::nonNull)»
+inspection.data.flow.nullable.quickfix.option:
+    text: Предлагать аннотацию @Nullable для методов, которые могут вернуть <code>null</code>, и сообщать о передаче nullable-значений параметрам без аннотаций
+inspection.data.flow.redundant.instanceof.quickfix:
+    text: Заменить на != null
+inspection.data.flow.simplify.boolean.expression.quickfix:
+    text: Упростить логическое выражение
+inspection.data.flow.simplify.to.assignment.quickfix.name:
+    text: Упростить до обычного присваивания
+inspection.data.flow.true.asserts.option:
+    text: Не сообщать об утверждениях с условием, статически доказанным как всегда <code>true</code>
+inspection.data.flow.use.computeifpresent.quickfix:
+    text: Заменить «compute» на «computeIfPresent»
+inspection.dead.code.comment:
+    text: // --Закомментировано проверкой
+inspection.dead.code.comment.quickfix:
+    text: Закомментировать
+inspection.dead.code.date.comment:
+    text: '// --Закомментировано проверкой ({0}):'
+inspection.dead.code.display.name:
+    text: Неиспользуемое объявление
+inspection.dead.code.entry.point.quickfix:
+    text: Добавить как точку входа
+inspection.dead.code.entry.points.display.name:
+    text: Точки входа
+inspection.dead.code.export.results.instantiated.from.heading:
+    text: Инстанциировано из
+inspection.dead.code.export.results.no.instantiations.found:
+    text: Инстанцирования не найдены.
+inspection.dead.code.option.applet:
+    text: Апплеты
+inspection.dead.code.option.external:
+    text: Классы, используемые в не-Java файлах
+inspection.dead.code.option.main:
+    text: Методы <html><code>void main(String args[])</code></html>
+inspection.dead.code.option.servlet:
+    text: Сервлеты
+inspection.dead.code.problem.synopsis:
+    text: Поле никогда не присваивается.
+inspection.dead.code.problem.synopsis1:
+    text: У поля нет использований.
+inspection.dead.code.problem.synopsis10:
+    text: Контекст объявления анонимного класса недостижим из точек входа. Класс никогда не инстанциируется.
+inspection.dead.code.problem.synopsis11:
+    text: Ссылки на класс не найдены. Статический инициализатор класса недостижим.
+inspection.dead.code.problem.synopsis12:
+    text: У класса есть одна инстанциация, но она недостижима из точек входа.
+inspection.dead.code.problem.synopsis13:
+    text: Класс не инстанциируется.
+inspection.dead.code.problem.synopsis14:
+    text: <ul><li>Абстрактный метод не реализован ИЛИ</li><li>Класс реализации никогда не инстанциируется ИЛИ</li><li>Инстанциация недостижима из точек входа.</li></ul>
+inspection.dead.code.problem.synopsis15:
+    text: <ul><li>Класс владельца метода никогда не инстанциируется ИЛИ</li><li>Инстанциация недостижима из точек входа.</li></ul>
+inspection.dead.code.problem.synopsis16:
+    text: Метод никогда не используется.
+inspection.dead.code.problem.synopsis17:
+    text: Метод имеет использование(я), но все они принадлежат цепочке вызовов, у которой нет членов, достижимых из точек входа.
+inspection.dead.code.problem.synopsis18:
+    text: Метод недостижим из точек входа.
+inspection.dead.code.problem.synopsis19:
+    text: Ни класс, ни {0, choice, 1#его реализация|2#{0,number} его реализации} никогда не инстанциируются.
+inspection.dead.code.problem.synopsis2:
+    text: Полю присвоено значение, но оно никогда не используется.
+inspection.dead.code.problem.synopsis20:
+    text: У класса есть {0, choice, 1#инстанциация|2#{0,number} инстанциации}, но они недостижимы из точек входа.
+inspection.dead.code.problem.synopsis21:
+    text: Метод никогда не используется как член этого {0}, а только как член класса (классов) реализации. Проект останется компилируемым, если метод будет удален из {0}.
+inspection.dead.code.problem.synopsis22:
+    text: Метод переопределяет библиотечный метод, но<ul><li>его {0} никогда не инстанциируется ИЛИ</li><li>его инстанциация {0} недостижима из точек входа.</li></ul>
+inspection.dead.code.problem.synopsis23:
+    text: '{0} не реализован.'
+inspection.dead.code.problem.synopsis24:
+    text: '{0} имеет реализацию, но <ul><li>она никогда не инстанциируется ИЛИ</li><li>никакие инстанциации не достижимы из точек входа.</li></ul>'
+inspection.dead.code.problem.synopsis25:
+    text: '{0} имеет {1, choice, 1#прямую или косвенную реализацию|2#{1,number} прямых или косвенных реализаций}, но <ul><li>они никогда не инстанциируются ИЛИ</li><li>никакие инстанциации не достижимы из точек входа.</li></ul>'
+inspection.dead.code.problem.synopsis26.constructor:
+    text: Конструктор никогда не используется.
+inspection.dead.code.problem.synopsis26.method:
+    text: Метод никогда не используется.
+inspection.dead.code.problem.synopsis27.constructor:
+    text: Конструктор имеет использование(я), но все они принадлежат цепочке вызовов, у которой нет членов, достижимых из точек входа.
+inspection.dead.code.problem.synopsis27.method:
+    text: Метод имеет использование(я), но все они принадлежат цепочке вызовов, у которой нет членов, достижимых из точек входа.
+inspection.dead.code.problem.synopsis28.constructor:
+    text: У конструктора есть одно использование, но оно недостижимо из точек входа.
+inspection.dead.code.problem.synopsis28.method:
+    text: У метода есть одно использование, но оно недостижимо из точек входа.
+inspection.dead.code.problem.synopsis29.constructor:
+    text: У конструктора есть {0, choice, 1#использование|2#{0,number} использований}, но они недостижимы из точек входа.
+inspection.dead.code.problem.synopsis29.method:
+    text: У метода есть {0, choice, 1#использование|2#{0,number} использований}, но они недостижимы из точек входа.
+inspection.dead.code.problem.synopsis3:
+    text: У поля есть одно использование, но оно недостижимо из точек входа.
+inspection.dead.code.problem.synopsis4:
+    text: У поля есть {0, choice, 1#1 использование|2#{0,number} использований}, но они недостижимы из точек входа.
+inspection.dead.code.problem.synopsis6:
+    text: Достижимо. {0, choice, 1#1 использование|2#{0, number} использований} найдено в коде проекта.
+inspection.dead.code.problem.synopsis6.suspicious:
+    text: Недостижимо. {0, choice, 1#1 использование|2#{0, number} использований} найдено в коде проекта.
+inspection.dead.code.problem.synopsis7:
+    text: Имеет достижимые инстанциации. {0, choice, 1#1 инстанциация|2#{0, number} инстанциаций} найдено в коде проекта.
+inspection.dead.code.problem.synopsis7.suspicious:
+    text: Не имеет достижимых инстанциаций. {0, choice, 0#Инстанциаций нет|1#1 инстанциация|2#{0, number} инстанциаций} найдено в коде проекта.
+inspection.dead.code.problem.synopsis8:
+    text: Имеет достижимые инстанциации реализации. {0, choice, 1#1 инстанциация|2#{0, number} инстанциаций} найдено в коде проекта.
+inspection.dead.code.problem.synopsis8.suspicious:
+    text: Не имеет достижимых инстанциаций реализации. {0, choice, 1#1 инстанциация|2#{0, number} инстанциаций} найдено в коде проекта.
+inspection.dead.code.problem.synopsis9:
+    text: Инстанциировано. {0, choice, 1#1 инстанциация|2#{0, number} инстанциаций} найдено в коде проекта.
+inspection.dead.code.problem.synopsis9.suspicious:
+    text: Контекст анонимного класса недостижим. Класс не инстанциируется. {0, choice, 1#1 инстанциация|2#{0, number} инстанциаций} найдено в коде проекта.
+inspection.dead.code.remove.from.entry.point.quickfix:
+    text: Удалить из точек входа
+inspection.dead.code.remove.user.defined.entry.point.quickfix:
+    text: Удалить пользовательские точки входа
+inspection.dead.code.safe.delete.quickfix:
+    text: Безопасное удаление
+inspection.dead.code.start.comment:
+    text: |
+        // --Начало комментария инспекции ({0}):
+inspection.dead.code.stop.comment:
+    text: |
+        // --Конец комментария инспекции ({0})
+inspection.default.annotation.param:
+    text: Значение параметра аннотации по умолчанию
+inspection.dependency.configure.button.text:
+    text: Настроить правила зависимостей
+inspection.dependency.violator.problem.descriptor:
+    text: Правило зависимости «{0}.» нарушено
+inspection.deprecated.display.name:
+    text: Использование устаревшего API
+inspection.description.title:
+    text: Описание
+inspection.diff.format.error:
+    text: 'Требуемые параметры: <старый_файл> <новый_файл> [<имя_файла_дельты>]'
+inspection.disabled.error:
+    text: 'Инспекция «{0}» отключена: {1}.'
+inspection.disabled.title:
+    text: Инспекция отключена
+inspection.disabled.wrong.id:
+    text: 'Инспекция «{0}» отключена: ID «{1}» не соответствует шаблону «{2}».'
+inspection.display.name:
+    text: Анализ кода...
+inspection.done:
+    text: готово.
+inspection.duplicate.throws.display.name:
+    text: Дублирующиеся исключения в «throws»
+inspection.duplicate.throws.ignore.subclassing.option:
+    text: Игнорировать исключения, наследующие другие
+inspection.duplicate.throws.more.general.problem:
+    text: В списке «throws» уже есть более общее исключение «{0}».
+inspection.duplicate.throws.problem:
+    text: Дублирующиеся исключения в «throws»
+inspection.duplicated.code.display.name:
+    text: Дублирующийся код
+inspection.duplicates.display.name:
+    text: Дублирующийся строковый литерал
+inspection.duplicates.message:
+    text: <html><body>Найден дублирующийся строковый литерал в<br>{0}</body></html>
+inspection.duplicates.message.in.this.file:
+    text: (в этом файле)
+inspection.duplicates.message.more:
+    text: '... (ещё {0})'
+inspection.duplicates.navigate.to.occurrences:
+    text: Перейти к вхождениям
+inspection.duplicates.occurrences.view.title:
+    text: Дубликаты для «{0}»
+inspection.duplicates.option:
+    text: '&Мин. длина строки:'
+inspection.duplicates.option.report.propertykey.expressions:
+    text: '&Игнорировать выражения @PropertyKey'
+inspection.duplicates.replace.family.quickfix:
+    text: Заменить
+inspection.duplicates.replace.quickfix:
+    text: Заменить на «{0}»
+inspection.empty.method.delete.quickfix:
+    text: Удалить ненужные методы
+inspection.empty.method.display.name:
+    text: Пустой метод
+inspection.empty.method.problem.descriptor:
+    text: Метод только вызывает свой супер-метод
+inspection.empty.method.problem.descriptor1:
+    text: Пустой метод переопределяет пустой метод
+inspection.empty.method.problem.descriptor2:
+    text: Метод пуст
+inspection.empty.method.problem.descriptor3:
+    text: Метод и все его производные пусты
+inspection.empty.method.problem.descriptor4:
+    text: Все реализации этого метода пусты
+inspection.equals.hashcode.display.name:
+    text: equals() и hashCode() не совпадают
+inspection.equals.hashcode.generate.equals.quickfix:
+    text: Сгенерировать «equals()»
+inspection.equals.hashcode.generate.hashcode.quickfix:
+    text: Сгенерировать «hashCode()»
+inspection.equals.hashcode.only.one.defined.problem.descriptor:
+    text: В классе определен {0}, но {1} не определен
+inspection.error.level.popup.menu.title:
+    text: Выбрать уровень ошибки
+inspection.error.loading.message:
+    text: Ошибка при чтении профиля инспекции {0, choice, 0#из {1}|1#}
+inspection.errors.occurred.dialog.title:
+    text: Произошли ошибки
+inspection.excessive.lambda.fix.family.name:
+    text: Заменить лямбда-выражение константой
+inspection.excessive.lambda.fix.name:
+    text: Использовать метод «{0}» без лямбда-выражения
+inspection.excessive.lambda.message:
+    text: Чрезмерное использование лямбда-выражений
+inspection.export.dialog.title:
+    text: Экспорт
+inspection.export.error.writing.to:
+    text: 'Ошибка записи в {0}: {1}'
+inspection.export.generating.html.for:
+    text: Генерация HTML:{0}
+inspection.export.inspections.link.text:
+    text: Инспекции
+inspection.export.open.option:
+    text: Открыть сгенерированный HTML в &браузере
+inspection.export.open.source.link.text:
+    text: Открыть исходный код
+inspection.export.options.panel.title:
+    text: Опции
+inspection.export.results.abstract:
+    text: абстрактный
+inspection.export.results.abstract.class:
+    text: абстрактный\&nbsp;класс
+inspection.export.results.anonymous.ref.in.owner:
+    text: в
+inspection.export.results.at.line:
+    text: в строке
+inspection.export.results.callees:
+    text: Цепочка вызовов
+inspection.export.results.can.be.final.description:
+    text: Объявление может иметь модификатор «final»
+inspection.export.results.capitalized.abstract.class:
+    text: Абстрактный\&nbsp;класс
+inspection.export.results.capitalized.class:
+    text: Класс
+inspection.export.results.capitalized.interface:
+    text: Интерфейс
+inspection.export.results.capitalized.location:
+    text: Местоположение
+inspection.export.results.class:
+    text: класс
+inspection.export.results.constructor:
+    text: конструктор
+inspection.export.results.dead.code:
+    text: неиспользуемое объявление
+inspection.export.results.derived.methods:
+    text: Производные методы
+inspection.export.results.description.tag:
+    text: описание
+inspection.export.results.error.title:
+    text: Экспорт результатов инспекции
+inspection.export.results.extended:
+    text: Расширен
+inspection.export.results.extended.implemented:
+    text: Расширен/реализован
+inspection.export.results.extends.implements:
+    text: Расширяет/реализует
+inspection.export.results.field:
+    text: поле
+inspection.export.results.file:
+    text: файл
+inspection.export.results.implicit.constructor:
+    text: неявный конструктор
+inspection.export.results.initializer:
+    text: инициализатор
+inspection.export.results.interface:
+    text: интерфейс
+inspection.export.results.invalidated.item:
+    text: недействительный элемент
+inspection.export.results.method:
+    text: метод
+inspection.export.results.no.problems.found:
+    text: Проблем не найдено
+inspection.export.results.overrides.implements:
+    text: Переопределяет/реализует
+inspection.export.results.overrides.library.methods:
+    text: Переопределяет библиотечные методы
+inspection.export.results.package:
+    text: пакет
+inspection.export.results.problem.element.tag:
+    text: проблемный_класс
+inspection.export.results.static:
+    text: статичный
+inspection.export.results.suppress:
+    text: Подавить
+inspection.export.results.type.references:
+    text: Следующие используют этот тип
+inspection.export.results.used.from:
+    text: Используется из
+inspection.export.results.uses:
+    text: Использует следующее
+inspection.export.save.button:
+    text: Сохранить
+inspection.export.title:
+    text: Результаты инспекции кода
+inspection.field.can.be.local.display.name:
+    text: Поле может быть локальным
+inspection.field.can.be.local.problem.descriptor:
+    text: Поле может быть преобразовано в локальную переменную
+inspection.filter.resolved.action.text:
+    text: Фильтровать разрешенные элементы
+inspection.filter.show.diff.action.text:
+    text: Показать различия
+inspection.filter.show.diff.only.action.text:
+    text: Показать только различия
+inspection.general.tools.group.name:
+    text: Общие
+inspection.generating.html.progress.title:
+    text: Генерация HTML...
+inspection.generating.xml.progress.title:
+    text: Выгрузка XML...
+inspection.handle.signature.change.type.fix.name:
+    text: Изменить тип на «{0}»
+inspection.handle.signature.field.cannot.resolve:
+    text: Не удалось определить поле «{0}»
+inspection.handle.signature.field.not.static:
+    text: Поле «{0}» не является статическим
+inspection.handle.signature.field.static:
+    text: Поле «{0}» является статическим
+inspection.handle.signature.field.type:
+    text: Тип поля «{0}» — «{1}»
+inspection.handle.signature.method.not.static:
+    text: Метод «{0}» не является статическим
+inspection.handle.signature.method.static:
+    text: Метод «{0}» является статическим
+inspection.handle.signature.name:
+    text: Несоответствие типа MethodHandle/VarHandle
+inspection.handle.signature.replace.with.fix.name:
+    text: Заменить на «{0}»
+inspection.handle.signature.use.constructor.fix.family.name:
+    text: Использовать одну из перегрузок конструктора
+inspection.handle.signature.use.constructor.fix.name:
+    text: Использовать конструктор «{0}»
+inspection.handle.signature.use.method.fix.family.name:
+    text: Использовать одну из перегрузок метода
+inspection.handle.signature.use.method.fix.name:
+    text: Использовать метод «{0}»
+inspection.illegal.character:
+    text: Недопустимый символ
+inspection.implicit.subclass.display.forClass:
+    text: Класс «{0}» может иметь неявного наследника и не должен быть «final»
+inspection.implicit.subclass.display.forMethod:
+    text: Метод «{0}» должен быть переопределяемым
+inspection.implicit.subclass.display.name:
+    text: Финальное объявление не может быть переопределено во время выполнения
+inspection.implicit.subclass.extendable:
+    text: Сделать «{0}» переопределяемым
+inspection.implicit.subclass.make.class.extendable:
+    text: Сделать класс «{0}» {1,choice,0#|1#и метод {2} |1<и {1} обязательных методов }расширяемым
+inspection.invalid.node.text:
+    text: (НЕВЕРНЫЙ)
+inspection.java.module.naming:
+    text: Соглашения об именовании модулей Java
+inspection.java.module.naming.terminal.digits:
+    text: В компоненте названия модуля «{0}» следует избегать конечных цифр
+inspection.javadoc.dialog.title:
+    text: Редактировать дополнительные теги JavaDoc
+inspection.javadoc.display.name:
+    text: В объявлении проблемы с JavaDoc
+inspection.javadoc.html.not.required.dialog.title:
+    text: Редактировать дополнительные необязательные HTML-атрибуты
+inspection.javadoc.html.not.required.label.text:
+    text: 'Дополнительные необязательные HTML-атрибуты:'
+inspection.javadoc.label.text:
+    text: 'Дополнительные теги JavaDoc:'
+inspection.javadoc.lint.display.name:
+    text: Проблемы HTML в JavaDoc (DocLint)
+inspection.javadoc.method.problem.descriptor:
+    text: Отсутствует описание в теге {0} для параметра {1}
+inspection.javadoc.method.problem.missing.param.tag:
+    text: Отсутствует обязательный тег <code>@param</code> для параметра {0}
+inspection.javadoc.method.problem.missing.tag.description:
+    text: Отсутствует описание тега «{0}»
+inspection.javadoc.option.ignore.deprecated:
+    text: Игнорировать элементы, помеченные как @deprecated
+inspection.javadoc.option.ignore.period:
+    text: Игнорировать проблемы с точками
+inspection.javadoc.option.tab.title:
+    text: Класс
+inspection.javadoc.option.tab.title.field:
+    text: Поле
+inspection.javadoc.option.tab.title.inner.class:
+    text: Вложенный класс
+inspection.javadoc.option.tab.title.method:
+    text: Метод
+inspection.javadoc.option.tab.title.package:
+    text: Пакет
+inspection.javadoc.problem.add.param.tag:
+    text: Добавить тег @param для параметра «{0}»
+inspection.javadoc.problem.add.param.tag.family:
+    text: Добавить отсутствующий тег @param JavaDoc
+inspection.javadoc.problem.add.tag:
+    text: Добавить тег @{0} {1}
+inspection.javadoc.problem.add.tag.family:
+    text: Добавить отсутствующий тег JavaDoc
+inspection.javadoc.problem.cannot.resolve:
+    text: Не удается распознать символ {0}
+inspection.javadoc.problem.descriptor:
+    text: Требуемый JavaDoc отсутствует
+inspection.javadoc.problem.descriptor1:
+    text: Отсутствует точка в документации. Точка используется инструментом JavaDoc для создания комментария для обзорной страницы
+inspection.javadoc.problem.disallowed.tag:
+    text: Тег {0} здесь недопустим
+inspection.javadoc.problem.duplicate.param:
+    text: Дублирующийся тег @param для параметра «{0}»
+inspection.javadoc.problem.duplicate.tag:
+    text: Дублирующийся тег @{0}
+inspection.javadoc.problem.duplicate.throws:
+    text: Дублирующийся тег @throws или @exception для исключения «{0}»
+inspection.javadoc.problem.missing.tag:
+    text: Отсутствует обязательный тег {0}
+inspection.javadoc.problem.missing.tag.description:
+    text: '{0} отсутствует после тега @{1}'
+inspection.javadoc.problem.name.expected:
+    text: Ожидается название
+inspection.javadoc.problem.pointing.to.itself:
+    text: JavaDoc ссылается сам на себя
+inspection.javadoc.problem.see.tag.expecting.ref:
+    text: После тега @see ожидается ссылка на класс/метод, цитируемый текст или HTML-ссылка
+inspection.javadoc.problem.wrong.tag:
+    text: Неверный тег {0}
+inspection.javadoc.ref.display.name:
+    text: В объявлении есть проблемы в JavaDoc-ссылках
+inspection.javadoc.required.tags.option.title:
+    text: Обязательные теги
+inspection.javadoc.throws.or.exception.option:
+    text: '@throws или @exception'
+inspection.lambda.to.method.call.fix.family.name:
+    text: Заменить лямбда-выражение вызовом метода
+inspection.lambda.to.method.call.fix.name:
+    text: Заменить лямбда-выражение на «{0}»
+inspection.lambda.to.method.call.message:
+    text: Можно заменить на «{0}»
+inspection.local.can.be.final.display.name:
+    text: Локальная переменная или параметр могут быть «final»
+inspection.local.can.be.final.option:
+    text: Сообщать о локальных переменных
+inspection.local.can.be.final.option1:
+    text: Сообщать о параметрах метода
+inspection.local.can.be.final.option2:
+    text: Сообщать о параметрах catch-блока
+inspection.local.can.be.final.option3:
+    text: Сообщать о параметрах for-each
+inspection.local.can.be.final.option4:
+    text: Сообщать о неявно финальных переменных
+inspection.map.foreach.fix.name:
+    text: Заменить на «Map.forEach»
+inspection.map.foreach.message:
+    text: Можно заменить на «Map.forEach»
+inspection.map.foreach.option.no.loops:
+    text: Не сообщать о циклах
+inspection.marked.for.removal.display.name:
+    text: Использование API, помеченного для удаления
+inspection.module.exports.package.to.itself:
+    text: Модуль экспортирует/открывает пакет самому себе
+inspection.new.profile.dialog.title:
+    text: Создать новый профиль
+inspection.new.profile.ide.to.project.warning.message:
+    text: Сохранить выбранный профиль IDE как профиль проекта?
+inspection.new.profile.ide.to.project.warning.title:
+    text: Не удалось настроить профиль IDE для области видимости
+inspection.new.profile.text:
+    text: Название нового профиля
+inspection.no.jdk.error.message:
+    text: JDK некорректно настроен для этого проекта. Проверка не может быть выполнена.
+inspection.no.modules.error.message:
+    text: Этот проект не содержит модулей. Проверка не может быть выполнена.
+inspection.no.problems.dialog.title:
+    text: Проверка кода
+inspection.no.problems.message:
+    text: Подозрительный код не найден. Обработано {0} файлов в «{1}».
+inspection.null.value.for.optional.context.assignment:
+    text: присваивание
+inspection.null.value.for.optional.context.declaration:
+    text: объявление
+inspection.null.value.for.optional.context.lambda:
+    text: лямбда-выражение
+inspection.null.value.for.optional.context.parameter:
+    text: параметр
+inspection.null.value.for.optional.context.return:
+    text: инструкция return
+inspection.null.value.for.optional.fix.family.name:
+    text: Заменить на метод с пустым Optional
+inspection.null.value.for.optional.fix.name:
+    text: Заменить на «{0}»
+inspection.null.value.for.optional.message:
+    text: Значение null используется для типа «Optional» в {0}
+inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
+    text: Параметр с аннотацией @{0} не должен переопределять параметр с аннотацией @{1}
+inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
+    text: Параметр с аннотацией @{0} не должен переопределять параметр без аннотаций
+inspection.nullable.problems.NotNull.parameter.receives.null.literal:
+    text: Параметру с аннотацией @{0} не следует передавать литерал «null» в качестве аргумента
+inspection.nullable.problems.Nullable.NotNull.conflict:
+    text: Нельзя добавить одновременно аннотации @{0} и @{1}
+inspection.nullable.problems.Nullable.method.overrides.NotNull:
+    text: Метод с аннотацией @{0} не должен переопределять метод с аннотацией @{1}
+inspection.nullable.problems.annotated.field.constructor.parameter.not.annotated:
+    text: Параметр конструктора для поля @{0} может иметь аннотацию @{0}
+inspection.nullable.problems.annotated.field.getter.conflict:
+    text: Геттер для поля @{0} имеет аннотацию @{1}
+inspection.nullable.problems.annotated.field.getter.not.annotated:
+    text: Геттеру для поля @{0} можно добавить аннотацию @{0}
+inspection.nullable.problems.annotated.field.setter.parameter.conflict:
+    text: Параметр сеттера для поля @{0} имеет аннотацию @{1}
+inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
+    text: Параметру сеттера для поля @{0} можно добавить аннотацию @{0}
+inspection.nullable.problems.display.name:
+    text: Проблемы «@NotNull/@Nullable»
+inspection.nullable.problems.method.overrides.NotNull:
+    text: Метод без аннотации переопределяет метод с аннотацией @{0}
+inspection.nullable.problems.method.overrides.notnull.option:
+    text: Сообщать о &параметрах @NotNull, переопределяющих @Nullable, и методах @Nullable, переопределяющих @NotNull
+inspection.nullable.problems.method.overrides.option:
+    text: Сообщать о &параметрах без аннотаций или методах, переопределяющих @NotNull
+inspection.nullable.problems.not.annotated.getters.for.annotated.fields:
+    text: Сообщать о не имеющих аннотаций &параметрах сеттера или геттерах полей с аннотациями
+inspection.nullable.problems.parameter.overrides.NotNull:
+    text: Параметр без аннотаций переопределяет параметр @{0}
+inspection.nullable.problems.primitive.type.annotation:
+    text: Члены примитивных типов не могут иметь аннотации
+inspection.offline.view.empty.browser.text:
+    text: <HTML><BODY>Выберите результат проверки слева, чтобы увидеть детали</BODY></HTML>
+inspection.offline.view.tool.display.name.title:
+    text: Название
+inspection.options.action.text:
+    text: Параметры проверки «{0}»
+inspection.parameter.can.be.local.display.name:
+    text: Параметр может быть локальной переменной
+inspection.parameter.can.be.local.problem.descriptor:
+    text: Параметр может быть преобразован в локальную переменную
+inspection.problem.descriptor.count:
+    text: '{0, choice, 0#|1#(1 элемент)|2#({0,number,integer} элементов)}'
+inspection.problem.resolution:
+    text: Решение проблемы
+inspection.problem.synopsis:
+    text: Краткое описание проблемы
+inspection.problems:
+    text: проблемы
+inspection.processing.job.descriptor:
+    text: Обработка использований проекта в
+inspection.processing.job.descriptor1:
+    text: Обработка внешних использований
+inspection.processing.job.descriptor2:
+    text: Анализ кода в
+inspection.profile.unnamed:
+    text: Безымянный
+inspection.progress.title:
+    text: Проверка кода...
+inspection.quickfix.assert.family:
+    text: Утверждение
+inspection.raw.variable.type.can.be.generic.family.quickfix:
+    text: Добавить параметрические типы к типу
+inspection.raw.variable.type.can.be.generic.name:
+    text: Сырой тип может быть параметрическим
+inspection.raw.variable.type.can.be.generic.quickfix:
+    text: Изменить тип {0} на {1}
+inspection.redirect.template:
+    text: '<html><body>Внедрённый элемент имеет проблему: {0} (в <a href="#navigation/{1}:{2}">{3}</a>). </body></html>'
+inspection.redundant.array.creation.display.name:
+    text: Избыточное создание массива
+inspection.redundant.array.creation.for.varargs.call.descriptor:
+    text: Избыточное создание массива для вызова vararg-метода
+inspection.redundant.array.creation.quickfix:
+    text: Удалить явное создание массива
+inspection.redundant.cast.display.name:
+    text: Избыточное приведение типов
+inspection.redundant.cast.problem.descriptor:
+    text: Приведение {0} к {1} избыточно
+inspection.redundant.cast.remove.quickfix:
+    text: Удалить избыточные приведения типов
+inspection.redundant.requires.statement.description:
+    text: Избыточная директива «requires {0}»
+inspection.redundant.requires.statement.fix.family:
+    text: Удалить избыточную директиву «requires»
+inspection.redundant.requires.statement.fix.name:
+    text: Удалить директиву «requires {0}»
+inspection.redundant.requires.statement.name:
+    text: Избыточная директива «requires» в module-info
+inspection.redundant.stream.optional.call.explanation.distinct:
+    text: в цепочке уже был вызов «distinct»
+inspection.redundant.stream.optional.call.explanation.filter:
+    text: предикат всегда истинен
+inspection.redundant.stream.optional.call.explanation.parallel:
+    text: существует последующий вызов «{0}», который переопределяет этот вызов
+inspection.redundant.stream.optional.call.explanation.sorted:
+    text: последующий вызов «{0}» делает сортировку бесполезной
+inspection.redundant.stream.optional.call.explanation.unordered:
+    text: в цепочке уже был вызов «unordered»
+inspection.redundant.stream.optional.call.fix.family.name:
+    text: Удалить избыточный вызов в цепочке
+inspection.redundant.stream.optional.call.fix.name:
+    text: Удалить вызов «{0}»
+inspection.redundant.stream.optional.call.message:
+    text: Избыточный вызов «{0}»
+inspection.redundant.stream.optional.call.option.streamboxing:
+    text: Сообщать о бесполезной запаковке в Stream.map
+inspection.redundant.suppression.description:
+    text: Избыточное подавление
+inspection.redundant.suppression.name:
+    text: Избыточное подавление
+inspection.redundant.throws.display.name:
+    text: Избыточный блок «throws»
+inspection.redundant.throws.problem.descriptor:
+    text: Объявленное исключение {0} никогда не выбрасывается в реализациях методов
+inspection.redundant.throws.problem.descriptor1:
+    text: Объявленное исключение {0} никогда не выбрасывается в этом методе или его производных
+inspection.redundant.throws.problem.descriptor2:
+    text: Объявленное исключение {0} никогда не выбрасывается
+inspection.redundant.throws.remove.quickfix:
+    text: Удалить ненужные объявления «throws»
+inspection.redundant.type.display.name:
+    text: Избыточные аргументы типа
+inspection.redundant.type.problem.descriptor:
+    text: Явные аргументы типа могут быть выведены
+inspection.redundant.type.remove.quickfix:
+    text: Удалить явные аргументы типа
+inspection.reference.anonymous:
+    text: анонимный
+inspection.reference.anonymous.name:
+    text: анонимный ({0})
+inspection.reference.default.package:
+    text: <по умолчанию>
+inspection.reference.implicit.constructor.name:
+    text: неявный конструктор {0}
+inspection.reference.invalid:
+    text: элемент больше не существует
+inspection.reference.jsp.holder.method.anonymous.name:
+    text: <% содержимое страницы %>
+inspection.reference.noname:
+    text: без имени
+inspection.reflect.handle.invocation.argument.not.array:
+    text: Аргумент не является типом массива
+inspection.reflect.handle.invocation.argument.not.exact:
+    text: Тип аргумента должен быть в точности «{0}»
+inspection.reflect.handle.invocation.primitive.argument.null:
+    text: Аргумент типа «{0}» не может быть «null»
+inspection.reflect.handle.invocation.receiver.incompatible:
+    text: 'Тип вызывающего объекта несовместим: ожидается «{0}»'
+inspection.reflect.handle.invocation.receiver.null:
+    text: Вызывающий объект равен «null»
+inspection.reflect.handle.invocation.result.not.assignable:
+    text: Следует привести к «{0}» или его суперклассу
+inspection.reflect.handle.invocation.result.not.exact:
+    text: Следует привести к «{0}»
+inspection.reflect.handle.invocation.result.null:
+    text: Возвращаемое значение всегда равно «null»
+inspection.reflect.handle.invocation.result.void:
+    text: Тип возвращаемого значения — «void»
+inspection.reflection.invocation.argument.count:
+    text: '{0,choice,0#Аргументы не ожидаются|1#Ожидается один аргумент|1<Ожидается {0} аргументов}'
+inspection.reflection.invocation.argument.not.assignable:
+    text: Аргумент не может быть присвоен типу «{0}»
+inspection.reflection.invocation.array.not.assignable:
+    text: '{0,choice,1#Элемент массива имеет|1<Элементы массива имеют} несовместимый {0,choice,1#тип|1<типы}'
+inspection.reflection.invocation.item.count:
+    text: '{0,choice,0#Ожидается пустой массив|1#Ожидается массив из одного элемента|1<Ожидается массив из {0} элементов}'
+inspection.reflection.invocation.item.not.assignable:
+    text: Элемент массива не может быть присвоен типу «{0}»
+inspection.reflection.invocation.name:
+    text: Несоответствие аргументов reflection-вызова
+inspection.reflection.member.access.cannot.resolve.constructor.arguments:
+    text: Не удается найти конструктор с указанными типами аргументов
+inspection.reflection.member.access.cannot.resolve.field:
+    text: Не удается найти поле «{0}»
+inspection.reflection.member.access.cannot.resolve.method:
+    text: Не удается найти метод «{0}»
+inspection.reflection.member.access.cannot.resolve.method.arguments:
+    text: Не удается найти метод «{0}» с указанными типами аргументов
+inspection.reflection.member.access.check.exists:
+    text: Проверить, существует ли поле/метод в не-final классах
+inspection.reflection.member.access.check.exists.exclude:
+    text: Исключить классы
+inspection.reflection.member.access.check.exists.exclude.chooser:
+    text: Класс для исключения
+inspection.reflection.member.access.constructor.not.public:
+    text: Конструктор не является публичным
+inspection.reflection.member.access.field.not.in.class:
+    text: Поле «{0}» не объявлено в классе «{1}»
+inspection.reflection.member.access.field.not.public:
+    text: Поле «{0}» не является публичным
+inspection.reflection.member.access.method.not.in.class:
+    text: Метод «{0}» не объявлен в классе «{1}»
+inspection.reflection.member.access.method.not.public:
+    text: Метод «{0}» не является публичным
+inspection.reflection.member.access.name:
+    text: Reflection-доступ к несуществующему/невидимому члену класса
+inspection.reflection.visibility.name:
+    text: Проблемы reflection-доступа между модулями
+inspection.replace.loop.with.arrays.setall.fix.family.name:
+    text: Заменить цикл на «Arrays.setAll»
+inspection.replace.loop.with.arrays.setall.message:
+    text: Цикл можно заменить на «Arrays.setAll»
+inspection.replace.methodref.ternary.quickfix:
+    text: Заменить на лямбда-выражение с проверкой на null
+inspection.replace.ternary.quickfix:
+    text: Заменить на «{0} != null ?:»
+inspection.replace.with.bulk.fix.family.name:
+    text: Заменить на пакетный вызов метода
+inspection.replace.with.bulk.fix.name:
+    text: Заменить итерацию на пакетный вызов «{0}»
+inspection.replace.with.bulk.message:
+    text: Итерацию можно заменить на пакетный вызов «{0}»
+inspection.replace.with.bulk.wrap.arrays:
+    text: Использовать «Arrays.asList()» для упаковки массивов
+inspection.replace.with.enhanced.switch.statement.fix.name:
+    text: Заменить на улучшенное switch-выражение
+inspection.replace.with.switch.expression.fix.family.name:
+    text: Мигрировать на улучшенный switch
+inspection.replace.with.switch.expression.fix.name:
+    text: Заменить на switch-выражение
+inspection.replace.with.switch.rule.expression.fix.family.name:
+    text: Мигрировать на улучшенный switch с правилами
+inspection.replace.with.trivial.lambda.fix.family.name:
+    text: Заменить на тривиальное лямбда-выражение
+inspection.replace.with.trivial.lambda.fix.name:
+    text: Заменить на лямбда-выражение, возвращающую «{0}»
+inspection.required.attributes.display.name:
+    text: Отсутствует обязательный атрибут
+inspection.requires.auto.module:
+    text: Зависимости от автоматических модулей
+inspection.requires.auto.module.message:
+    text: Директива «requires» для автоматического модуля
+inspection.requires.auto.module.option:
+    text: Выделять только транзитивные зависимости
+inspection.requires.auto.module.transitive:
+    text: Директива «requires transitive» для автоматического модуля
+inspection.results.for.inspection.toolwindow.title:
+    text: Проверка «{0}» на {1}
+inspection.results.for.profile.toolwindow.title:
+    text: Профиль «{0}» на {1}
+inspection.results.title:
+    text: Результаты по настройкам редактора
+inspection.return.separated.from.computation.descriptor:
+    text: «return» отделён от вычисления значения «{0}»
+inspection.return.separated.from.computation.family.quickfix:
+    text: Переместить «return» ближе к вычислению результата
+inspection.return.separated.from.computation.name:
+    text: «return» отделён от вычисления результата
+inspection.return.separated.from.computation.quickfix:
+    text: Переместить «return» ближе к вычислению значения «{0}»
+inspection.root.node.title:
+    text: Проверки
+inspection.same.parameter.display.name:
+    text: Фактический параметр метода совпадает с константой
+inspection.same.parameter.fix.family.name:
+    text: Встроить параметр как константное значение
+inspection.same.parameter.fix.name:
+    text: Встроить значение «{1}» для параметра «{0}»
+inspection.same.parameter.problem.descriptor:
+    text: Фактическое значение параметра «{0}» всегда «{1}»
+inspection.same.return.value.display.name:
+    text: Метод возвращает одно и то же значение
+inspection.same.return.value.problem.descriptor:
+    text: Метод всегда возвращает {0}
+inspection.same.return.value.problem.descriptor1:
+    text: Метод и все его производные всегда возвращают {0}
+inspection.same.return.value.problem.descriptor2:
+    text: Все реализации этого метода всегда возвращают {0}
+inspection.scope.for.title:
+    text: Область видимости
+inspection.scopes.and.severities:
+    text: Приоритет по области видимости
+inspection.severity:
+    text: 'При&оритет:'
+inspection.simplify.collector.fix.family.name:
+    text: Упростить каскадный коллектор
+inspection.simplify.collector.fix.name:
+    text: Использовать коллектор «Collectors.{0}»
+inspection.simplify.collector.message:
+    text: Может быть упрощено с использованием коллектора «{0}»
+inspection.surround.if.family:
+    text: Обернуть в if
+inspection.surround.if.quickfix:
+    text: Обернуть в «if ({0} != null)»
+inspection.surround.requirenonnull.quickfix:
+    text: Заменить на «Objects.requireNonNull({0})»
+inspection.suspicious.array.method.call.display.name:
+    text: Подозрительные вызовы методов Arrays
+inspection.suspicious.array.method.call.problem.arrays:
+    text: 'Типы массивов несовместимы: массивы всегда разные'
+inspection.suspicious.array.method.call.problem.element:
+    text: Тип элемента несовместим с типом массива
+inspection.suspicious.collections.method.calls.display.name:
+    text: Подозрительные вызовы методов коллекций
+inspection.suspicious.collections.method.calls.problem.descriptor:
+    text: «{0}» может не содержать объекты типа «{1}»
+inspection.suspicious.collections.method.calls.problem.descriptor1:
+    text: Подозрительный вызов «{0}»
+inspection.switch.expression.migration.expression.max.statements:
+    text: Максимальное количество инструкций в одной ветви для преобразования в switch-выражение
+inspection.switch.expression.migration.inspection.switch.description:
+    text: Оператор switch может быть заменен на улучшенный «switch»
+inspection.switch.expression.migration.inspection.switch.expression.description:
+    text: Выражение switch может быть заменено на улучшенный «switch» с правилами
+inspection.switch.expression.migration.option.expression.max.statements:
+    text: Не сообщать о switch, имеющих более {0} {0, choice, 1#инструкции|2#инструкций} в одной ветви
+inspection.switch.expression.migration.warn.only.on.expression:
+    text: Показывать предупреждение только если возможно преобразование в выражение
+inspection.test.only.problems.display.name:
+    text: Вызов тестового класса или метода в производственном коде
+inspection.test.only.problems.test.only.class.reference:
+    text: Тестовый класс используется в производственном коде
+inspection.test.only.problems.test.only.field.reference:
+    text: Тестовое поле используется в производственном коде
+inspection.test.only.problems.test.only.method.call:
+    text: Тестовый метод вызывается в производственном коде
+inspection.tool.availability.in.tree.node:
+    text: (доступно для подсветки в редакторе)
+inspection.tool.availability.in.tree.node1:
+    text: (доступно для Анализ|Проверить код)
+inspection.tool.description.under.construction.text:
+    text: В разработке
+inspection.tool.in.browser.description.title:
+    text: Описание
+inspection.tool.in.browser.id.title:
+    text: ID
+inspection.tool.window.dialog.no.options:
+    text: Проверка «{0}» не имеет настраиваемых параметров
+inspection.tool.window.dialog.title:
+    text: Окно инструментов проверки
+inspection.tool.window.inspection.dialog.title:
+    text: Параметры проверки «{0}»
+inspection.tools.action.show.global.inspections.description:
+    text: Скрыть настройки глобальных проверок
+inspection.tools.action.show.global.inspections.text:
+    text: Скрыть глобальные проверки
+inspection.tree.popup.title:
+    text: Принять решение
+inspection.unable.to.create.profile.dialog.title:
+    text: Не удалось создать профиль.
+inspection.unable.to.create.profile.message:
+    text: Профиль проверки с названием «{0}» уже существует.
+inspection.unused.assignment.display.name:
+    text: Неиспользуемое присваивание
+inspection.unused.assignment.option:
+    text: Сообщать о ++i, когда его можно заменить на (i + 1)
+inspection.unused.assignment.option1:
+    text: Сообщать о i++, когда измененное значение не используется впоследствии
+inspection.unused.assignment.option2:
+    text: Сообщать о избыточных инициализаторах
+inspection.unused.assignment.problem.descriptor1:
+    text: Переменная {0} никогда не используется
+inspection.unused.assignment.problem.descriptor2:
+    text: Инициализатор переменной {0} {1} избыточен
+inspection.unused.assignment.problem.descriptor3:
+    text: Значение {0}, присвоенное {1}, никогда не используется
+inspection.unused.assignment.problem.descriptor4:
+    text: Значение, измененное в {0}, никогда не используется
+inspection.unused.assignment.problem.descriptor5:
+    text: Переменная {0} никогда не используется
+inspection.unused.assignment.remove.assignment.quickfix:
+    text: Удалить избыточное присваивание
+inspection.unused.assignment.remove.quickfix:
+    text: Удалить избыточный инициализатор
+inspection.unused.parameter.composer:
+    text: Параметр <code>#ref</code> не используется ни в одной реализации
+inspection.unused.parameter.composer1:
+    text: Параметр <code>#ref</code> не используется ни в этом методе, ни в одном из его производных методов
+inspection.unused.parameter.delete.quickfix:
+    text: Удалить неиспользуемые параметры
+inspection.unused.parameter.display.name:
+    text: Неиспользуемые параметры метода
+inspection.unused.return.value.display.name:
+    text: Метод может быть «void»
+inspection.unused.return.value.make.void.quickfix:
+    text: Сделать метод «void»
+inspection.unused.return.value.problem.descriptor:
+    text: Возвращаемое значение метода никогда не используется
+inspection.unused.symbol.check.accessors:
+    text: Геттеры/сеттеры
+inspection.unused.symbol.check.classes:
+    text: 'Классы:'
+inspection.unused.symbol.check.fields:
+    text: 'Поля:'
+inspection.unused.symbol.check.inner.classes:
+    text: 'Внутренние классы:'
+inspection.unused.symbol.check.localvars:
+    text: Локальные переменные
+inspection.unused.symbol.check.methods:
+    text: 'Методы:'
+inspection.unused.symbol.check.parameters:
+    text: Параметры в
+inspection.unused.symbol.public.method.parameters:
+    text: Проверить параметры в &неприватных методах
+inspection.useless.null.check.always.fail.message:
+    text: 'Проверка на null всегда завершится неудачно: {0} никогда не равен null'
+inspection.useless.null.check.fix.family.name:
+    text: Удалить бесполезную проверку на null
+inspection.useless.null.check.message:
+    text: 'Бесполезная проверка на null: {0} никогда не равен null'
+inspection.variable.assigned.to.itself.display.name:
+    text: Переменной присваивается она сама
+inspection.view.invalid.scope.message:
+    text: Область видимости проверки недействительна.
+inspection.visibility.accept.quickfix:
+    text: Принять предложенный уровень доступа
+inspection.visibility.compose.suggestion:
+    text: Может быть {0}
+inspection.visibility.display.name:
+    text: Уровень доступа объявления может быть слабее
+inspection.visibility.option:
+    text: Предложить уровень видимости package-private для членов класса
+inspection.visibility.option1:
+    text: Предложить уровень видимости package-private для классов верхнего уровня
+inspection.visibility.option2:
+    text: <html>Предложить private для членов внутренних классов, если они используются только внешним классом</html>
+inspections.dead.code.entry.points.annotations.list.title:
+    text: Дополнительные аннотации точек входа
+inspections.view.options.title:
+    text: Параметры проверки {0}
+introduce.constant.across.the.project:
+    text: Ввести константу по всему проекту
+long.line.display.name:
+    text: Строка длиннее, чем разрешено стилем кода
+lossy.encoding:
+    text: Потери при кодировании
+module.not.in.requirements:
+    text: Модуль «{0}» не имеет модуля «{1}» в требованиях
+module.package.not.exported:
+    text: Модуль «{0}» не экспортирует пакет «{1}» в модуль «{2}»
+module.package.not.open:
+    text: Модуль «{0}» не открывает пакет «{1}» для модуля «{2}»
+no.errors.found.in.this.file:
+    text: Ошибок в этом файле не найдено
+non.ascii.characters:
+    text: Не-ASCII символы
+nothing.found:
+    text: Ничего не найдено
+nullable.stuff.inspection.navigate.null.argument.usages.fix.family.name:
+    text: Перейти к использованиям аргумента «null»
+nullable.stuff.inspection.navigate.null.argument.usages.view.name:
+    text: Использования аргумента «null» для параметра {0}
+nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
+    text: У параметров переопределённого метода нет аннотаций
+nullable.stuff.problems.overridden.methods.are.not.annotated:
+    text: У переопределённых методы нет аннотаций
+offline.inspections.jdk.not.found:
+    text: '{0} не найден'
+offline.inspections.library.was.not.resolved:
+    text: Пожалуйста, настройте библиотеку «{0}», которая используется в модуле «{1}»
+offline.inspections.module.jdk.not.found:
+    text: Пожалуйста, укажите SDK «{0}» для модуля «{1}»
+offline.view.editor.settings.title:
+    text: Настройки редактора
+offline.view.parse.exception.title:
+    text: Нет данных для отображения
+offline.view.title:
+    text: Автономное представление
+parsing.inspections.dump.progress.title:
+    text: Разбор дампа XML-проверок
+preparing.for.apply.fix:
+    text: Подготовка к применению исправления...
+problematic.whitespace.display.name:
+    text: Проблемные пробелы
+problematic.whitespace.show.whitespaces.quickfix:
+    text: Переключить показ пробелов в редакторе
+problematic.whitespace.spaces.problem.descriptor:
+    text: Файл «{0}» использует пробелы для отступов
+problematic.whitespace.tabs.problem.descriptor:
+    text: Файл «{0}» использует табуляцию для отступов
+profile.activate.action.text:
+    text: Установить как проект по умолчанию
+profile.assignment.repeatable.scope.warning:
+    text: Повторяемая область видимости. Правильные присваивания.
+profile.assignments.browse.profile.scopes.dialog.title:
+    text: Области видимости профилей
+profile.assignments.browse.scope.button.title:
+    text: '&Обзор ...'
+profile.assignments.display.name:
+    text: Ошибки
+profile.assignments.table.title:
+    text: Назначения профилей проверок проекта
+profile.banner.text:
+    text: 'Профиль проверки: {0} {1, choice, 0#(неактивный)|1#}'
+profile.default.profile.title:
+    text: Профиль проекта по умолчанию
+profile.ide.profile.radiobutton.title:
+    text: Профиль IDE
+profile.ide.settings.banner:
+    text: Настройки профилей IDE
+profile.ide.tree.text:
+    text: Профили IDE
+profile.lock.action.text:
+    text: Заблокировать
+profile.mapping.inspection.profile.column.title:
+    text: профиль проверки
+profile.mapping.scope.column.title:
+    text: область видимости
+profile.project.activate.action.text:
+    text: Установить как IDE по умолчанию
+profile.project.display.name:
+    text: Профили проекта
+profile.project.radiobutton.title:
+    text: Профиль проекта
+profile.project.settings.banner:
+    text: Настройки профилей проекта
+profile.project.settings.disable.text:
+    text: < Использовать профиль IDE >
+profile.quick.change.suggestion.dialog.title:
+    text: Не удалось переключить профиль
+profile.quick.change.suggestion.message:
+    text: <html>Для проекта настроено несколько областей видимости. Хотите ли вы изменить назначения профилей для них?</html>
+profile.save.as.ide.checkbox.title:
+    text: Сохранить как профиль IDE
+profile.save.as.project.checkbox.title:
+    text: Сохранить как профиль проекта
+profile.unlock.action.text:
+    text: Разблокировать
+psi.search.overriding.progress:
+    text: Поиск переопределяющих методов
+redundant.throws.declaration:
+    text: Избыточное объявление «throws»
+rename.inspection.profile:
+    text: Переименовать профиль проверки
+rename.message.prefix.inspection.profile:
+    text: Профиль проверки
+report.suspicious.but.possibly.correct.method.calls:
+    text: '&Сообщать о подозрительных, но потенциально корректных вызовах методов'
+run.inspection.on.file.intention.text:
+    text: Запустить проверку на ...
+run.with.choosen.profile.dialog.option:
+    text: Запустить с &выбранным профилем
+run.with.editor.settings.dialog.option:
+    text: Запустить с &настройками редактора
+severities.default.settings.message:
+    text: Редактировать настройки|Цвета \& Шрифты
+severities.editor.dialog.title:
+    text: Редактор приоритетов
+special.annotations.annotations.list:
+    text: Дополнительные специальные аннотации
+special.annotations.list.add.annotation.class:
+    text: Добавить класс аннотации
+special.annotations.list.annotation.class:
+    text: Класс аннотации
+special.annotations.list.annotation.pattern:
+    text: Добавить шаблон аннотаций
+special.annotations.list.remove.annotation.class:
+    text: Удалить класс аннотации
+suppress.all.for.class:
+    text: Подавить все проверки для класса
+suppress.inspection.annotation.syntax.error:
+    text: 'Некорректный синтаксис аннотации: {0}'
+suppress.inspection.class:
+    text: Подавить для класса
+suppress.inspection.family:
+    text: Подавить проверку
+suppress.inspection.field:
+    text: Подавить для поля
+suppress.inspection.member:
+    text: Подавить для члена
+suppress.inspection.method:
+    text: Подавить для метода
+suppress.inspection.module:
+    text: Подавить для объявления модуля
+suppress.inspection.problem:
+    text: Подавить
+suppress.inspection.statement:
+    text: Подавить для инструкции
+suspected.module.dependency.problem.descriptor:
+    text: Модуль «{0}» не зависит от модуля «{1}». Хотя «{1}» не был проверен на экспортируемые зависимости, необходимые для области видимости «{2}»
+suspicious.name.combination.add.titile:
+    text: Добавить группу имён
+suspicious.name.combination.display.name:
+    text: Подозрительное сочетание названий переменной/параметра
+suspicious.name.combination.edit.title:
+    text: Редактировать группу названий
+suspicious.name.combination.options.prompt:
+    text: 'Введите список названий через запятую:'
+suspicious.name.combination.options.title:
+    text: Группы названий
+todo.comment.display.name:
+    text: TODO-комментарий
+todo.comment.problem.descriptor:
+    text: 'TODO-комментарий <code>#ref</code> #loc'
+unchecked.warning:
+    text: Непроверенное предупреждение
+unhandled.exception.in.jsp.name:
+    text: Необработанное исключение в JSP
+unnecessary.module.dependency.display.name:
+    text: Ненужная зависимость модуля
+unnecessary.module.dependency.exported.problem.descriptor:
+    text: Модуль «{0}» не зависит от «{1}». Хотя «{2}» зависит от «{1}» через эту экспортируемую зависимость
+unnecessary.module.dependency.exported.problem.descriptor1:
+    text: Модуль «{0}» не зависит от «{1}». Хотя «{0}» зависит от «{2}» через экспортируемые зависимости «{1}»
+unnecessary.module.dependency.problem.descriptor:
+    text: Источники модуля «{0}» не зависят от источников модуля «{1}»
+unsupported.character.for.the.charset:
+    text: Неподдерживаемые символы для набора символов «{0}»
+unused.import:
+    text: Неиспользуемый импорт (подсветка в редакторе)
+unused.import.display.name:
+    text: Неиспользуемый импорт
+unused.import.statement:
+    text: Неиспользуемое объявление импорта
+unused.library.backward.analysis.job.description:
+    text: Выполнить обратный анализ
+unused.library.display.name:
+    text: Неиспользуемая библиотека
+unused.library.problem.descriptor:
+    text: Неиспользуемая библиотека «{0}»
+unused.library.roots.problem.descriptor:
+    text: Неиспользуемые корневые каталоги {0} из библиотеки «{1}»
+unused.symbol:
+    text: Неиспользуемый символ
+wrong.package.statement:
+    text: Неверное объявление пакета
+xml.suppressable.all.for.file.title:
+    text: Подавить всё для файла
+xml.suppressable.for.file.title:
+    text: Подавить для файла
+xml.suppressable.for.tag.title:
+    text: Подавить для тега
