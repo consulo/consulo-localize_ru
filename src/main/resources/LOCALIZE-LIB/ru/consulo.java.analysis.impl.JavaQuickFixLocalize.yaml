@@ -1,0 +1,536 @@
+access.static.via.class.reference.family:
+    text: Доступ к статическим членам через ссылку на класс
+access.static.via.class.reference.text:
+    text: Доступ к статическому члену «{1}.{0}» через ссылку на класс «{2}»
+add.catch.clause.family:
+    text: Добавить исключение в блок «catch»
+add.catch.clause.text:
+    text: Добавить блок(и) «catch»
+add.class.to.extends.list:
+    text: Сделать «{0}» наследуемым от «{1}»
+add.constructor.parameter.name:
+    text: Добавить параметр конструктора
+add.default.constructor.family:
+    text: Добавить конструктор по умолчанию
+add.default.constructor.text:
+    text: Добавить конструктор без аргументов {0} к {1}
+add.docTag.to.custom.tags:
+    text: Добавить {0} к пользовательским тегам
+add.exception.from.field.initializer.to.constructor.throws.family.text:
+    text: Добавить исключение к сигнатуре конструктора класса
+add.exception.from.field.initializer.to.constructor.throws.text:
+    text: Добавить исключение к {0, choice, 0#конструктору по умолчанию|1#конструктору|2#конструкторам} класса
+add.exception.to.throws.family:
+    text: Добавить исключение к сигнатуре метода
+add.exception.to.throws.inherited.method.warning.text:
+    text: |-
+        Метод «{0}» унаследован.
+        Хотите ли вы добавить исключения к сигнатурам по всей иерархии методов?
+add.exception.to.throws.text:
+    text: Добавить {0, choice, 0#исключение|2#исключения} к сигнатуре метода
+add.import:
+    text: Добавить импорт
+add.interface.to.implements.list:
+    text: Сделать «{0}» реализующим «{1}»
+add.library.copy.files.to.radio.button:
+    text: '&Скопировать файлы библиотеки «{0}» в'
+add.library.description.choose.folder:
+    text: Выберите каталог, куда будет скопирована библиотека
+add.library.error.cannot.copy:
+    text: |-
+        Не удается скопировать «{0}» в «{1}»
+        ({2})
+add.library.error.not.found:
+    text: Файл библиотеки «{0}» не существует
+add.library.title.choose.folder:
+    text: Выбрать каталог
+add.library.title.dialog:
+    text: Добавить библиотеку «{0}» в проект
+add.library.use.bundled.library.radio.button:
+    text: '&Использовать «{0}» из дистрибутива {1}'
+add.method.body.text:
+    text: Добавить тело метода
+add.method.family:
+    text: Добавить метод
+add.method.qualifier.fix.family:
+    text: Добавить квалификатор метода
+add.method.qualifier.fix.text:
+    text: Добавить квалификатор {0} к методу
+add.method.text:
+    text: Добавить метод «{0}» в класс «{1}»
+add.missing.annotation.parameters.fix:
+    text: Добавить недостающие параметры аннотации — {0}
+add.missing.annotation.single.parameter.fix:
+    text: Добавить недостающий параметр аннотации «{0}»
+add.modifier.fix:
+    text: Сделать «{0}» {1}
+add.new.array.family:
+    text: Добавить недостающий оператор «new»
+add.new.array.text:
+    text: Добавить «new {0}[]»
+add.parameter.from.usage.text:
+    text: Добавить «{0}» в качестве {1,number}-го параметра к методу «{2}»
+add.qualifier:
+    text: Добавить квалификатор
+add.qualifier.original.class.chooser.title:
+    text: Исходный класс
+add.return.statement.text:
+    text: Добавить оператор «return»
+add.runtime.exception.to.throws.family:
+    text: Добавить Runtime-исключение к сигнатуре метода
+add.runtime.exception.to.throws.text:
+    text: Добавить Runtime-исключения к сигнатуре метода
+add.type.arguments.single.argument.text:
+    text: Добавить явные аргументы типа
+add.type.arguments.text:
+    text: Добавить явные аргументы типа к {0,number}-му аргументу
+add.typecast.family:
+    text: Добавить приведение типа
+add.typecast.text:
+    text: Привести к «{0}»
+adjust.package.family:
+    text: Скорректировать название пакета
+adjust.package.text:
+    text: Заменить название пакета на «{0}»
+annotations.fix:
+    text: Аннотации
+anonymous.class.presentation:
+    text: Анонимный класс, производный от {0}
+bring.variable.to.scope.family:
+    text: Переместить переменную в область видимости
+bring.variable.to.scope.text:
+    text: Переместить «{0}» в область видимости
+cannot.change.field.exception:
+    text: |-
+        Не удается изменить тип поля «{0}».
+        Причина: {1}
+cannot.create.java.file.error.text:
+    text: 'Не удалось создать {0}.java в {1}: {2}'
+cannot.create.java.file.error.title:
+    text: Не удалось создать файл
+cannot.create.java.package.error.text:
+    text: 'Не удалось создать {0} в {1}: {2}'
+cannot.create.java.package.error.title:
+    text: Не удалось создать пакет
+cast.parameter.text:
+    text: Привести {0,number}-й параметр к «{1}»
+cast.single.parameter.text:
+    text: Привести параметр к «{0}»
+change.class.signature.family:
+    text: Изменить сигнатуру класса
+change.class.signature.text:
+    text: Изменить сигнатуру «{0}» для соответствия «{1}»
+change.extends.list.family:
+    text: Наследовать от класса
+change.inheritors.visibility.warning.text:
+    text: Хотите ли вы изменить видимость наследников на видимость базового метода?
+change.inheritors.visibility.warning.title:
+    text: Изменить наследников
+change.method.signature.from.usage.family:
+    text: Изменить сигнатуру метода из использования
+change.method.signature.from.usage.text:
+    text: Изменить сигнатуру «{0}» на «{1}({2})»
+change.new.operator.type.family:
+    text: Изменить тип оператора «new»
+change.new.operator.type.text:
+    text: Изменить «{0}» на «new {1}{2}»
+change.parameter.class.family:
+    text: Изменить класс параметра
+change.parameter.from.usage.text:
+    text: Изменить {0,number}-й параметр метода «{1}» с «{2}» на «{3}»
+change.to.append.family:
+    text: Исправить StringBuilder append
+change.to.append.text:
+    text: Изменить на «{0}»
+class.initializer.presentation:
+    text: '{0} инициализатор класса'
+class.to.import.chooser.title:
+    text: Класс для импорта
+collection.addall.can.be.replaced.with.constructor.fix.description:
+    text: Метод «{0}()» может быть заменён параметризованным конструктором
+collection.addall.can.be.replaced.with.constructor.fix.options.title:
+    text: Классы для проверки
+collection.addall.can.be.replaced.with.constructor.fix.title:
+    text: Заменить метод «addAll/putAll» вызовом параметризованного конструктора
+collection.to.array.family.name:
+    text: Применить преобразование «.toArray()»
+collection.to.array.text:
+    text: Применить преобразование «.toArray({0})»
+convert.method.to.constructor:
+    text: Сделать метод конструктором
+convert.to.string.family:
+    text: Исправить литерал символа
+convert.to.string.text:
+    text: Преобразовать в строковый литерал
+create.abstract.method.from.usage.text:
+    text: Создать абстрактный метод «{0}»
+create.accessor.for.unused.field.family:
+    text: Создать метод доступа для неиспользуемого поля
+create.class:
+    text: класс
+create.class.from.new.family:
+    text: Создать класс из «new»
+create.class.from.new.text:
+    text: Создать класс «{0}»
+create.class.from.usage.family:
+    text: Создать класс из использования
+create.class.from.usage.text:
+    text: Создать {0} «{1}»
+create.class.text:
+    text: Создать класс {0}
+create.class.title:
+    text: Создать {0}
+create.constant.from.usage.family:
+    text: Создать константу из использования
+create.constant.from.usage.text:
+    text: Создать поле-константу «{0}»
+create.constructor.from.new.family:
+    text: Создать конструктор из «new»
+create.constructor.from.new.text:
+    text: Создать конструктор
+create.constructor.from.super.call.family:
+    text: Создать конструктор из вызова super()
+create.constructor.from.this.call.family:
+    text: Создать конструктор из вызова this()
+create.constructor.matching.super:
+    text: Создать конструктор, соответствующий super
+create.constructor.text:
+    text: Создать конструктор в «{0}»
+create.enum:
+    text: перечисление
+create.enum.constant.from.usage.text:
+    text: Создать константу перечисления «{0}»
+create.field.from.usage.family:
+    text: Создать поле из использования
+create.field.from.usage.text:
+    text: Создать поле «{0}»
+create.field.text:
+    text: Создать поле {0}
+create.getter:
+    text: Создать геттер
+create.getter.and.setter.for.field:
+    text: Создать геттер и сеттер для «{0}»
+create.getter.for.field:
+    text: Создать геттер для «{0}»
+create.inner.class.from.usage.text:
+    text: Создать внутренний {0} «{1}»
+create.interface:
+    text: интерфейс
+create.interface.text:
+    text: Создать интерфейс {0}
+create.local.from.instanceof.usage.family:
+    text: Создать локальную переменную из использования instanceof
+create.local.from.instanceof.usage.text:
+    text: Вставить объявление «({0}){1}»
+create.local.from.usage.family:
+    text: Создать локальную переменную из использования
+create.local.from.usage.text:
+    text: Создать локальную переменную «{0}»
+create.method.from.usage.family:
+    text: Создать метод из использования
+create.method.from.usage.text:
+    text: Создать метод «{0}»
+create.package.text:
+    text: Создать пакет {0}
+create.parameter.from.usage.family:
+    text: Создать параметр из использования
+create.parameter.from.usage.text:
+    text: Создать параметр «{0}»
+create.property.from.usage.family:
+    text: Создать свойство из использования
+create.property.text:
+    text: Создать свойство {0}
+create.readable.property:
+    text: Создать геттер для «{0}»
+create.readable.property.with.field:
+    text: Создать геттер и поле для «{0}»
+create.readable.writable.property.with.field:
+    text: Создать геттер, сеттер и поле для «{0}»
+create.setter:
+    text: Создать сеттер
+create.setter.for.field:
+    text: Создать сеттер для «{0}»
+create.writable.property:
+    text: Создать сеттер для «{0}»
+create.writable.property.with.field:
+    text: Создать сеттер и поле для «{0}»
+defer.final.assignment.with.temp.family:
+    text: Отложить присваивание final при помощи временной переменной
+defer.final.assignment.with.temp.text:
+    text: Отложить присваивание к «{0}» с использованием временной переменной
+delete.body.text:
+    text: Удалить тело метода
+delete.catch.family:
+    text: Удалить «catch»
+delete.catch.text:
+    text: Удалить «catch» для «{0}»
+delete.element.fix.text:
+    text: Удалить элемент
+delete.reference.fix.text:
+    text: Удалить ссылку
+delete.unreachable.statement.fix.text:
+    text: Удалить недостижимое выражение
+enable.optimize.imports.on.the.fly:
+    text: Включить «Настройки|Стиль кода|Импорты|Оптимизировать импорты на лету»
+exchange.extends.implements.keyword:
+    text: Изменить «{0} {2}» на «{1} {2}»
+extract.side.effects:
+    text: Извлечь побочные {0, choice, 1#эффект|2#эффекты}
+extract.side.effects.convert.to.if:
+    text: Преобразовать в выражение «if»
+extract.side.effects.family.name:
+    text: Удалить выражение, извлекая побочные эффекты
+extract.side.effects.multiple:
+    text: Извлечь побочные эффекты
+extract.side.effects.single:
+    text: Извлечь побочный эффект
+field.to.import.chooser.title:
+    text: Поле для импорта
+fix.add.special.annotation.family:
+    text: Добавить к специальным аннотациям
+fix.add.special.annotation.text:
+    text: Добавить «{0}» в список специальных аннотаций
+fix.argument.family:
+    text: Исправить аргументы
+fix.javadoc.family:
+    text: Исправить Javadoc
+fix.modifiers.family:
+    text: Исправить модификаторы
+fix.parameter.type.family:
+    text: Исправить тип параметра
+fix.parameter.type.text:
+    text: Сделать так, чтобы «{0}» принимал параметр типа «{1}» здесь
+fix.return.type.family:
+    text: Исправить тип возвращаемого значения
+fix.return.type.text:
+    text: Сделать так, чтобы «{0}» возвращал «{1}»
+fix.single.character.string.to.char.literal.family:
+    text: Исправить тип литерала
+fix.single.character.string.to.char.literal.text:
+    text: Изменить {0} на {1} (в литерал {2})
+fix.super.method.return.type.family:
+    text: Исправить тип возвращаемого значения супер-метода
+fix.super.method.return.type.text:
+    text: Сделать так, чтобы «{0}» возвращал «{1}»
+fix.throws.list.add.exception:
+    text: Добавить «{0}» в список «throws» «{1}»
+fix.throws.list.family:
+    text: Исправить список «throws»
+fix.throws.list.remove.exception:
+    text: Удалить «{0}» из списка throws «{1}»
+fix.unused.symbol.injection.family:
+    text: Добавить к аннотациям внедрения зависимостей
+fix.unused.symbol.injection.text:
+    text: Подавить для {0}, аннотированного «{1}»
+fix.variable.type.family:
+    text: Исправить тип переменной
+fix.variable.type.text:
+    text: Изменить тип {0} «{1}» на «{2}»
+generalize.catch.family:
+    text: Обобщить «catch»
+generalize.catch.text:
+    text: Обобщить catch для «{0}» на «{1}»
+generify.family:
+    text: Внедрить обобщённые типы в файл
+generify.text:
+    text: Попытаться преобразовать «{0}» с использованием обобщенных типов
+implement.methods.fix:
+    text: Реализовать методы
+import.class.fix:
+    text: Импортировать класс
+initialize.final.field.in.constructor.choose.dialog.title:
+    text: Выберите конструкторы для добавления инициализации
+initialize.final.field.in.constructor.name:
+    text: Инициализировать в конструкторе
+insert.new.fix:
+    text: Вставить «new»
+insert.sam.method.call.fix.family.name:
+    text: Вставить вызов одного абстрактного метода
+insert.sam.method.call.fix.name:
+    text: Вставить «.{0}» для вызова метода функционального интерфейса
+insert.super.constructor.call.family:
+    text: Вызов конструктора базового класса
+insert.super.constructor.call.text:
+    text: Вставить «{0}»
+java.9.merge.module.statements.fix.family.name:
+    text: Объединить с другим оператором «{0}»
+java.9.merge.module.statements.fix.name:
+    text: Объединить с другим оператором «{0} {1}»
+make.class.an.interface.family:
+    text: Сделать класс интерфейсом
+make.class.an.interface.text:
+    text: Сделать «{0}» интерфейсом
+make.final.copy.to.temp:
+    text: Скопировать «{0}» во временную final-переменную
+make.final.family:
+    text: Сделать «final»
+make.final.text:
+    text: Сделать {0} «final»
+make.final.transform.to.one.element.array:
+    text: Преобразовать {0} в final-массив из одного элемента
+make.interface.an.class.text:
+    text: Сделать «{0}» классом
+make.vararg.parameter.last.family:
+    text: Сделать vararg-параметр последним
+make.vararg.parameter.last.text:
+    text: Переместить «{0}» в конец списка
+method.is.inherited.warning.title:
+    text: Метод унаследован
+method.to.import.chooser.title:
+    text: Метод для импорта
+module.info.add.requires.family.name:
+    text: Добавить оператор «requires» в module-info.java
+module.info.add.requires.name:
+    text: Добавить оператор «requires {0}» в module-info.java
+move.bound.class.to.front.fix.text:
+    text: Переместить связанный «{0}» в начало списка связей параметризованного типа «{1}»
+move.catch.up.family:
+    text: Переместить «catch» вверх
+move.catch.up.text:
+    text: Переместить catch для «{0}» перед «{1}»
+move.class.in.extend.list.family:
+    text: Переместить класс в список наследования
+move.class.to.package.family:
+    text: Переместить класс в пакет
+move.class.to.package.text:
+    text: Переместить в пакет «{0}»
+move.class.to.separate.file.family:
+    text: Переместить класс в отдельный файл
+move.class.to.separate.file.text:
+    text: Переместить класс «{0}» в «{0}.java»
+move.file.to.source.root.text:
+    text: Переместить файл в корневой каталог исходников
+negation.broader.scope.family:
+    text: Отрицание более широкой области видимости
+negation.broader.scope.text:
+    text: Изменить на «!({0})»
+new.method.body.template.error.text:
+    text: Пожалуйста, исправьте шаблон «Новое тело метода»
+new.method.body.template.error.title:
+    text: Ошибка шаблона файла
+optimize.imports.fix:
+    text: Оптимизировать импорты
+orderEntry.fix.add.dependency.on.module:
+    text: Добавить зависимость от модуля «{0}»
+orderEntry.fix.add.dependency.on.module.choose:
+    text: Добавить зависимость от модуля...
+orderEntry.fix.add.library.to.classpath:
+    text: Добавить библиотеку «{0}» в classpath
+orderEntry.fix.choose.module.to.add.dependency.on:
+    text: Выберите модуль, от которого добавить зависимость
+orderEntry.fix.circular.dependency.warning:
+    text: |-
+        Добавление зависимости от модуля «{0}» приведет к циклической зависимости между модулями «{1}» и «{2}».
+        Добавить зависимость в любом случае?
+orderEntry.fix.family.add.library.to.classpath:
+    text: Добавить библиотеку в classpath
+orderEntry.fix.family.add.module.dependency:
+    text: Добавить зависимость модуля
+orderEntry.fix.title.circular.dependency.warning:
+    text: Предупреждение о циклической зависимости
+permute.arguments:
+    text: Поменять местами аргументы
+remove.class.from.extends.list:
+    text: Сделать так, чтобы «{0}» не наследовался от «{1}»
+remove.interface.from.implements.list:
+    text: Сделать так, чтобы «{0}» не реализовывал «{1}»
+remove.modifier.fix:
+    text: Сделать «{0}» не {1}
+remove.parameter.from.usage.text:
+    text: Удалить {0,number}-й параметр из метода «{1}»
+remove.qualifier.action.text:
+    text: Удалить квалификатор
+remove.qualifier.fix:
+    text: Удалить квалификатор
+remove.redundant.arguments.family:
+    text: Удалить избыточные аргументы
+remove.redundant.arguments.text:
+    text: Удалить избыточные аргументы для вызова «{0}»
+remove.redundant.else.fix:
+    text: Удалить избыточный «else»
+remove.suppression.action.family:
+    text: Удалить подавление
+remove.suppression.action.name:
+    text: Удалить подавление «{0}»
+remove.unused.field:
+    text: Удалить поле «{0}»
+remove.unused.parameter.family:
+    text: Удалить неиспользуемый параметр
+remove.unused.parameter.text:
+    text: Удалить параметр «{0}»
+remove.unused.variable:
+    text: Удалить переменную «{0}»
+remove.unused.variable.family:
+    text: Удалить неиспользуемую переменную
+rename.wrong.reference.family:
+    text: Переименовать неправильную ссылку
+rename.wrong.reference.text:
+    text: Переименовать ссылку
+replace.with.list.access.text:
+    text: Заменить доступом к списку
+reuse.variable.declaration.family:
+    text: Повторно использовать объявление переменной
+reuse.variable.declaration.text:
+    text: Повторно использовать предыдущее объявление переменной «{0}»
+safe.delete.family:
+    text: Безопасное удаление
+safe.delete.text:
+    text: Безопасно удалить «{0}»
+searching.for.usages.progress.title:
+    text: Поиск использований...
+setup.jdk.location.family:
+    text: Настройка расположения JDK
+setup.jdk.location.text:
+    text: Настроить JDK
+side.effect.action.cancel:
+    text: '&Отмена'
+side.effect.action.remove:
+    text: '&Удалить'
+side.effect.action.transform:
+    text: '&Преобразовать'
+side.effect.message1:
+    text: <html><body>В выражениях, присвоенных переменной «{0}», обнаружены возможные побочные эффекты.<br>Вы можете:<ul><li><b>Удалить</b> использования переменной вместе со всеми связанными выражениями</li></body></html>
+side.effects.warning.dialog.title:
+    text: Обнаружены побочные эффекты
+simplify.boolean.expression.family:
+    text: Упростить логическое выражение
+simplify.boolean.expression.text:
+    text: Упростить «{0}» до {1}
+static.import.method.choose.method.to.import:
+    text: Выбрать метод для импорта
+static.import.method.text:
+    text: Статический импорт метода
+super.class.constructors.chooser.title:
+    text: Выбрать конструкторы супер-класса
+surround.with.try.catch.fix:
+    text: Обернуть в «try/catch»
+target.class.chooser.title:
+    text: Выбрать целевой класс
+uidesigner.change.bound.field.type:
+    text: Изменить тип связанного поля
+uidesigner.change.gui.component.type:
+    text: Изменить тип GUI-компонента
+wrap.array.to.arrays.as.list.parameter.text:
+    text: Обернуть {0,number}-й параметр с помощью «Arrays.asList»
+wrap.array.to.arrays.as.list.single.parameter.text:
+    text: Обернуть с помощью «Arrays.asList»
+wrap.expression.using.static.accessor.family:
+    text: Обернуть выражение
+wrap.expression.using.static.accessor.text:
+    text: Обернуть с помощью «{0}»
+wrap.long.with.math.to.int.parameter.multiple.text:
+    text: Обернуть {0,number}-й параметр с помощью «Math.toIntExact()»
+wrap.long.with.math.to.int.parameter.single.text:
+    text: Обернуть параметр с помощью «Math.toIntExact()»
+wrap.long.with.math.to.int.text:
+    text: Обернуть с помощью «Math.toIntExact()»
+wrap.with.java.io.file.parameter.multiple.text:
+    text: Обернуть {0,number}-й параметр с помощью «new File()»
+wrap.with.java.io.file.parameter.single.text:
+    text: Обернуть параметр с помощью «new File()»
+wrap.with.java.io.file.text:
+    text: Обернуть с помощью «new File()»
+wrap.with.optional.parameter.text:
+    text: Обернуть {0,number}-й параметр с помощью «java.util.Optional»
+wrap.with.optional.single.parameter.text:
+    text: Обернуть с помощью «java.util.Optional»

@@ -1,0 +1,828 @@
+abstract.cannot.be.instantiated:
+    text: '«{0}» является абстрактным; невозможно создать экземпляр'
+abstract.method.in.non.abstract.class:
+    text: Абстрактный метод в неабстрактном классе
+abstract.methods.cannot.have.a.body:
+    text: Абстрактные методы не могут иметь тело
+actual.type.argument.contradict.inferred.type:
+    text: Фактический аргумент типа противоречит выведенному типу
+ambiguous.method.call:
+    text: 'Неоднозначный вызов метода: подходит как «{0}», так и «{1}»'
+ambiguous.method.html.tooltip:
+    text: <html><body><table border=0><tr><td colspan={0}>Неоднозначный вызов метода. Подходит как</td></tr><tr>{1}<td>в <b>{2}</b>, так и</td></tr><tr>{3}<td>в <b>{4}</b></td></tr></table></body></html>
+ambiguous.reference:
+    text: Ссылка на «{0}» неоднозначна, подходит как «{1}», так и «{2}»
+annotation.annotation.type.expected:
+    text: Ожидается тип аннотации
+annotation.container.bad.type:
+    text: 'Недопустимая аннотация-контейнер «{0}»: метод «value» должен иметь тип «{1}»'
+annotation.container.low.retention:
+    text: Аннотация-контейнер «{0}» имеет более слабую политику хранения («{1}»), чем содержащаяся аннотация
+annotation.container.no.value:
+    text: 'Недопустимая аннотация-контейнер «{0}»: метод «value» не объявлен'
+annotation.container.not.applicable:
+    text: Аннотация-контейнер «@{0}» не применима к {1}
+annotation.container.wide.target:
+    text: Цель аннотации-контейнера «{0}» не является подмножеством цели этой аннотации
+annotation.container.wrong.place:
+    text: Аннотация-контейнер «{0}» не должна присутствовать одновременно с элементом, который она содержит
+annotation.cyclic.element.type:
+    text: Циклический тип элемента аннотации
+annotation.duplicate.annotation:
+    text: Дублирующаяся аннотация
+annotation.duplicate.attribute:
+    text: Дублирующийся атрибут «{0}»
+annotation.duplicate.explained:
+    text: Дублирующаяся аннотация. {0}
+annotation.illegal.array.initializer:
+    text: Недопустимый инициализатор для «{0}»
+annotation.incompatible.types:
+    text: 'Несовместимые типы. Найдены: «{0}», требуется: «{1}»'
+annotation.interface.members.may.not.have.parameters:
+    text: У членов «@interface» не должно быть параметров
+annotation.invalid.annotation.member.type:
+    text: Недопустимый тип «{0}» для члена аннотации
+annotation.may.not.have.extends.list:
+    text: У «@interface» не должно быть списка «extends»
+annotation.may.not.have.type.parameters:
+    text: У «@interface» не должно быть параметризованных типов
+annotation.members.may.not.have.throws.list:
+    text: У членов «@interface» не должно быть списка «throws»
+annotation.missing.attribute:
+    text: '{0} отсутствует, хотя требуется'
+annotation.missing.method:
+    text: Не найден метод «{0}»
+annotation.name.is.missing:
+    text: Атрибут аннотации должен иметь формат «название=значение»
+annotation.non.class.literal.attribute.value:
+    text: Значение атрибута должно быть литералом класса
+annotation.non.constant.attribute.value:
+    text: Значение атрибута должно быть константным
+annotation.non.repeatable:
+    text: Объявление «{0}» не имеет допустимой аннотации java.lang.annotation.Repeatable
+annotation.not.allowed.class:
+    text: Тип литерала класса не может быть аннотирован
+annotation.not.allowed.here:
+    text: Аннотации здесь не разрешены
+annotation.not.allowed.ref:
+    text: Аннотация неприменима к данному виду ссылки
+annotation.not.allowed.static:
+    text: Статический член, квалифицирующий тип, не может быть аннотирован
+annotation.not.allowed.void:
+    text: Тип «void» не может быть аннотирован
+annotation.not.applicable:
+    text: '«@{0}» неприменимо к {1}'
+annotation.unknown.method:
+    text: Не нахожу метод «{0}»
+argument.mismatch.html.tooltip:
+    text: <html><body><table border=0><tr><td><b>{1}</b></td>{3}<td colspan={0}>в <b>{2}</b>\&nbsp;не может быть применён</td></tr><tr><td>к</td>{4}</tr></table></body></html>
+array.initializer.not.allowed:
+    text: Инициализатор массива здесь недопустим
+array.type.expected:
+    text: 'Ожидался тип массива; на деле: «{0}»'
+assignment.to.final.variable:
+    text: Невозможно присвоить значение final-переменной «{0}»
+bad.qualifier.in.super.method.reference:
+    text: 'Недопустимый квалификатор типа в ссылке на супер-метод: {0}'
+binary.numbers.must.contain.at.least.one.hexadecimal.digit:
+    text: Двоичные числа должны содержать хотя бы одну двоичную цифру
+binary.operator.not.applicable:
+    text: Оператор «{0}» не может быть применён к «{1}», «{2}»
+bound.not.expected:
+    text: Неожиданная граница
+break.outside.switch.or.loop:
+    text: Инструкция «break» вне «switch» или цикла
+call.to.super.is.not.allowed.in.enum.constructor:
+    text: Вызов «super» недопустим в конструкторе перечисления
+cannot.be.referenced.from.static.context:
+    text: 'Нельзя сослаться на «{0}» из статического контекста'
+cannot.resolve.constructor:
+    text: Невозможно определить конструктор «{0}»
+cannot.resolve.method:
+    text: Невозможно определить метод «{0}»
+cannot.resolve.package:
+    text: Невозможно определить пакет {0}
+cannot.resolve.symbol:
+    text: Невозможно определить символ «{0}»
+cannot.select.dot.class.from.type.variable:
+    text: Невозможно выбрать из переменной типа
+cannot.select.from.parameterized.type:
+    text: Невозможно получить доступ к объекту класса параметризованного типа
+case.statement.outside.switch:
+    text: Оператор «case» вне «switch»
+catch.without.try:
+    text: '«catch» без «try»'
+clash.methods.message:
+    text: '«{0}» конфликтует с «{1}»'
+clash.methods.message.show.classes:
+    text: '«{0}» в «{2}» конфликтует с «{1}» в «{3}»'
+class.already.imported:
+    text: '«{0}» уже определён в данной единице компиляции'
+class.cannot.be.inherited.with.different.arguments:
+    text: '{0} не может быть унаследован с другими аргументами: {1}'
+class.cannot.extend.multiple.classes:
+    text: Класс не может наследовать от нескольких классов
+class.cannot.inherit.from.its.type.parameter:
+    text: Класс не может наследовать от своего параметризованного типа
+class.clashes.with.package:
+    text: Класс «{0}» конфликтует с пакетом с таким же названием
+class.expected:
+    text: Ожидалось название класса
+class.inheritance.method.clash:
+    text: Методы {0} из {1} и {2} из {3} унаследованы с той же сигнатурой
+class.is.already.defined.in.single.static.import:
+    text: Класс «{0}» уже определён в статическом импорте
+class.is.ambiguous.in.single.static.import:
+    text: Класс «{0}» неоднозначен в статическом импорте
+class.is.not.used:
+    text: Класс «{0}» никогда не используется
+class.must.be.abstract:
+    text: Класс «{0}» должен быть объявлен как абстрактный или реализовывать абстрактный метод «{1}» в «{2}»
+class.name.expected:
+    text: Ожидается название класса
+classes.extends.enum:
+    text: Классы не могут напрямую наследовать от «java.lang.Enum»
+constant.expression.required:
+    text: Требуется константное выражение
+constructor.call.must.be.first.statement:
+    text: Вызов «{0}» должен быть первым оператором в теле конструктора
+constructor.is.not.used:
+    text: Конструктор «{0}» никогда не используется
+continue.outside.loop:
+    text: «continue» вне цикла
+cyclic.inheritance:
+    text: Циклическое наследование, затрагивающее «{0}»
+declaration.not.allowed:
+    text: Объявление недопустимо здесь
+declaration.or.variable.expected:
+    text: Ожидается объявление, final- или фактически final-переменная
+deprecated.symbol:
+    text: '«{0}» устарел'
+deprecated.symbol.0:
+    text: '«{0}» устарел. {1}'
+different.case.kinds.in.switch:
+    text: В операторе «switch» используются разные типы «case»
+direct.abstract.method.access:
+    text: Абстрактный метод «{0}» не может быть доступен напрямую
+dot.expected.after.super.or.this:
+    text: Ожидается «.»
+duplicate.class:
+    text: 'Дублирующийся класс: «{0}»'
+duplicate.class.in.other.file:
+    text: Дублирующийся класс найден в файле «{0}»
+duplicate.default.switch.label:
+    text: Дублирующийся оператор «default»
+duplicate.label:
+    text: Ярлык «{0}» уже используется
+duplicate.method:
+    text: '«{0}» уже определен в «{1}»'
+duplicate.switch.label:
+    text: Дублирующееся case-выражение для «{0}»
+else.without.if:
+    text: '«else» без «if»'
+empty.character.literal:
+    text: Пустой символьный литерал
+enum.constant.should.implement.method:
+    text: Класс «{0}» должен реализовывать абстрактный метод «{1}» в «{2}»
+enum.types.cannot.be.instantiated:
+    text: Нельзя вызвать конструктор типа-перечисления
+error.cannot.resolve.class:
+    text: Невозможно определить класс «{0}»
+error.cannot.resolve.class.or.package:
+    text: Невозможно определить класс или пакет «{0}»
+exception.already.caught:
+    text: Исключение «{0}» уже поймано
+exception.already.caught.warn:
+    text: 'Недостижимый раздел: исключение «{0}» {1, choice, 0#уже поймано|2#уже пойманы}'
+exception.is.never.thrown:
+    text: Исключение «{0}» никогда не выбрасывается в методе
+exception.must.be.disjoint:
+    text: 'Типы в множественном catch-блоке должны быть непересекающимися: «{0}» является подклассом «{1}»'
+exception.never.thrown.try:
+    text: Исключение «{0}» никогда не выбрасывается в соответствующем блоке «try»
+expected.array.initializer:
+    text: Ожидался инициализатор массива
+expected.boolean.expression:
+    text: Ожидалось логическое выражение
+expected.catch.or.finally:
+    text: Ожидалось «catch» или «finally»
+expected.class.or.interface:
+    text: Ожидалось «class» или «interface»
+expected.class.or.package:
+    text: Ожидался класс или пакет
+expected.class.reference:
+    text: Ожидалась ссылка на класс
+expected.colon:
+    text: Ожидалось «:»
+expected.comma:
+    text: Ожидалась «,»
+expected.comma.or.rparen:
+    text: Ожидалась «,» или «)»
+expected.comma.or.semicolon:
+    text: Ожидалась «,» или «;»
+expected.dot:
+    text: Ожидалась «.»
+expected.eq:
+    text: Ожидалось «=»
+expected.expression:
+    text: Ожидалось выражение
+expected.gt:
+    text: Ожидалось «>».
+expected.gt.or.comma:
+    text: Ожидалось «>» или «,».
+expected.identifier:
+    text: Ожидался идентификатор
+expected.identifier.or.type:
+    text: Ожидался идентификатор или тип
+expected.lbrace:
+    text: Ожидалась «'{'»
+expected.lbrace.or.semicolon:
+    text: Ожидалась «'{'» или «;»
+expected.lbracket:
+    text: Ожидалась «[»
+expected.lparen:
+    text: Ожидалась «(»
+expected.lparen.or.lbracket:
+    text: Ожидалась «(» или «[»
+expected.module.declaration:
+    text: Ожидалось объявление модуля
+expected.module.statement:
+    text: Ожидался оператор модуля
+expected.package.reference:
+    text: Ожидалась ссылка на пакет
+expected.parameter:
+    text: Ожидался параметр
+expected.rbrace:
+    text: Ожидалась «}»
+expected.rbracket:
+    text: Ожидалась «]»
+expected.resource:
+    text: Ожидалось определение ресурса
+expected.rparen:
+    text: Ожидалась «)»
+expected.semicolon:
+    text: Ожидалась «;»
+expected.statement:
+    text: Ожидался оператор
+expected.type:
+    text: Ожидался тип
+expected.type.parameter:
+    text: Ожидался параметризованный тип
+expected.value:
+    text: Ожидалось значение
+expected.while:
+    text: Ожидался «while»
+expected.with:
+    text: Ожидался «with»
+expression.expected:
+    text: Ожидалось выражение
+extends.after.enum:
+    text: В перечислении не разрешено использовать оператор «extends»
+extension.method.in.class:
+    text: Методы расширения могут использоваться только внутри интерфейса
+extension.method.should.have.a.body:
+    text: Метод расширения должен иметь тело
+feature.annotations:
+    text: Аннотации
+feature.binary.literals:
+    text: Двоичные литералы
+feature.diamond.types:
+    text: Типы-ромбы
+feature.enhanced.switch:
+    text: Улучшенные блоки «switch»
+feature.extension.methods:
+    text: Методы расширения
+feature.for.each:
+    text: Циклы «for-each»
+feature.generics:
+    text: Обобщённые типы
+feature.guarded.and.parenthesised.patterns:
+    text: Охраняемые и заключаемые в скобки шаблоны
+feature.hex.fp.literals:
+    text: Шестнадцатеричные литералы с плавающей точкой
+feature.inner.statics:
+    text: Статические объявления во внутренних классах
+feature.intersections.in.casts:
+    text: Типы-пересечения при приведении типов
+feature.lambda.expressions:
+    text: Лямбда-выражения
+feature.local.enums:
+    text: Локальные перечисления
+feature.local.interfaces:
+    text: Локальные интерфейсы
+feature.lvti:
+    text: Вывод типов локальных переменных
+feature.method.references:
+    text: Ссылки на методы
+feature.modules:
+    text: Модули
+feature.multi.catch:
+    text: Множественный перехват исключений
+feature.patterns.in.switch:
+    text: Шаблоны в «switch»
+feature.patterns.instanceof:
+    text: Шаблоны в «instanceof»
+feature.records:
+    text: Типы-записи
+feature.sealed.classes:
+    text: Запечатанные классы
+feature.static.imports:
+    text: Статические импорты
+feature.static.interface.calls:
+    text: Вызовы статических методов интерфейса
+feature.switch.expressions:
+    text: Выражения «switch»
+feature.text.block.escape.sequences:
+    text: Экранирующие последовательности «\s» и «\»
+feature.text.blocks:
+    text: Текстовые блоки
+feature.try.with.resources:
+    text: «try» с ресурсами
+feature.try.with.resources.refs:
+    text: Ссылки на ресурсы
+feature.type.annotations:
+    text: Аннотации типов
+feature.type.receivers:
+    text: Параметры приёмника
+feature.underscores.in.literals:
+    text: Подчеркивания в литералах
+feature.var.lambda.parameter:
+    text: '«var» в параметрах лямбда-выражений'
+feature.varargs:
+    text: Методы с переменным числом аргументов
+field.is.already.defined.in.single.static.import:
+    text: Поле «{0}» уже определено в статическом импорте
+field.is.ambiguous.in.single.static.import:
+    text: Неоднозначное поле «{0}» в статическом импорте
+field.is.not.used:
+    text: Поле «{0}» никогда не используется
+final.method.override:
+    text: '«{0}» не может переопределить «{1}» в «{2}»; переопределённый метод является final'
+finally.without.try:
+    text: '«finally» без «try»'
+floating.point.number.too.large:
+    text: Число с плавающей точкой слишком велико
+floating.point.number.too.small:
+    text: Число с плавающей точкой слишком мало
+foreach.not.applicable:
+    text: foreach неприменим к типу «{0}».
+generic.array.creation:
+    text: Создание массива обобщённого типа
+generic.extend.exception:
+    text: Обобщённый тип не может быть унаследован от «java.lang.Throwable»
+generics.annotation.members.may.not.have.type.parameters:
+    text: У членов «@interface» не может быть параметризованных типов
+generics.cannot.be.inherited.with.different.type.arguments:
+    text: '«{0}» не может быть унаследован с разными аргументами типа: «{1}» и «{2}»'
+generics.cannot.catch.type.parameters:
+    text: Невозможно перехватить параметры типа
+generics.cannot.instanceof.type.parameters:
+    text: Ожидался класс или массив
+generics.diamond.not.applicable:
+    text: Оператор-ромб неприменим для непораметризованных типов
+generics.duplicate.type.parameter:
+    text: 'Дублирующийся параметр типа: «{0}»'
+generics.enum.may.not.have.type.parameters:
+    text: У перечисления не может быть параметров типа
+generics.holder.method:
+    text: Метод
+generics.holder.type:
+    text: Тип
+generics.inferred.type.for.type.parameter.is.not.within.its.bound.extend:
+    text: Выведенный тип «{2}» для параметра типа «{0}» не находится в пределах его границы; должен расширять «{1}»
+generics.inferred.type.for.type.parameter.is.not.within.its.bound.implement:
+    text: Выведенный тип «{2}» для параметра типа «{0}» не находится в пределах его границы; должен реализовывать «{1}»
+generics.methods.have.same.erasure:
+    text: '{0}; оба метода эквивалентны с точностью до параметризованных типов'
+generics.methods.have.same.erasure.hide:
+    text: '{0}; оба метода эквивалентны с точностью до параметризованных типов, но ни один из них не скрывает другой'
+generics.methods.have.same.erasure.override:
+    text: '{0}; оба метода эквивалентны с точностью до параметризованных типов, но ни один из них не переопределяет другой'
+generics.reference.parameters.not.allowed:
+    text: Здесь нельзя использовать параметры-ссылки
+generics.select.static.class.from.parameterized.type:
+    text: Невозможно выбрать статический класс «{0}» из параметризованного типа
+generics.type.argument.cannot.be.of.primitive.type:
+    text: Аргумент типа не может быть примитивным типом
+generics.type.arguments.on.raw.method:
+    text: Аргументы типа указаны для «сырого» метода
+generics.type.arguments.on.raw.type:
+    text: Аргументы типа указаны для «сырого» типа
+generics.type.or.method.does.not.have.type.parameters:
+    text: '{0} «{1}» не имеет параметров типа'
+generics.type.parameter.cannot.be.instantiated:
+    text: Параметр типа «{0}» не может быть инстанциирован напрямую
+generics.type.parameter.is.not.within.its.bound.extend:
+    text: Параметр типа «{0}» не находится в пределах его границы; должен расширять «{1}»
+generics.type.parameter.is.not.within.its.bound.implement:
+    text: Параметр типа «{0}» не находится в пределах его границы; должен реализовывать «{1}»
+generics.unchecked.assignment:
+    text: 'Непроверенное присваивание: «{0}» к «{1}»'
+generics.unchecked.call:
+    text: Непроверенный вызов метода «{0}»
+generics.unchecked.call.to.member.of.raw.type:
+    text: Непроверенный вызов «{0}» как члена «сырого» типа «{1}»
+generics.unchecked.cast:
+    text: 'Непроверенное приведение типа: «{0}» к «{1}»'
+generics.wildcard.not.expected:
+    text: Символ подстановки не допускается
+generics.wildcards.may.be.used.only.as.reference.parameters:
+    text: Символы подстановки могут использоваться только как параметры ссылки
+generics.wrong.number.of.type.arguments:
+    text: 'Неправильное количество аргументов типа: {0}; требуется: {1}'
+hexadecimal.numbers.must.contain.at.least.one.hexadecimal.digit:
+    text: Шестнадцатеричные числа должны содержать хотя бы одну шестнадцатеричную цифру
+illegal.escape.character.in.character.literal:
+    text: Недопустимый экранирующий символ в символьном литерале
+illegal.escape.character.in.string.literal:
+    text: Недопустимый экранирующий символ в строковом литерале
+illegal.forward.reference:
+    text: Недопустимая опережающая ссылка
+illegal.generic.type.for.instanceof:
+    text: Недопустимый обобщенный тип для instanceof
+illegal.initializer:
+    text: Недопустимый инициализатор для «{0}»
+illegal.line.end.in.character.literal:
+    text: Недопустимый конец строки в символьном литерале
+illegal.line.end.in.string.literal:
+    text: Недопустимый конец строки в строковом литерале
+illegal.self.reference:
+    text: Невозможно прочитать значение поля «{0}» изнутри определения поля
+illegal.to.access.static.member.from.enum.constructor.or.instance.initializer:
+    text: Недопустимо обращаться к статическому члену «{0}» из конструктора перечисления или инициализатора экземпляра
+illegal.type.void:
+    text: 'Недопустимый тип: «void»'
+illegal.underscore:
+    text: Недопустимое подчеркивание
+implements.after.interface:
+    text: Для интерфейса не разрешено использовать оператор «implements»
+import.statement.identifier.or.asterisk.expected.:
+    text: Ожидается идентификатор или «*»
+inaccessible.type:
+    text: '«{0}» недоступен здесь'
+incompatible.call.types:
+    text: 'Неправильный тип {0, choice, 1#1-го|2#2-го|3#3-го|4#{0,number}th} аргумента. Найден: «{2}», требуется: «{1}»'
+incompatible.modifiers:
+    text: 'Недопустимая комбинация модификаторов: «{0}» и «{1}»'
+incompatible.return.type:
+    text: Попытка использовать несовместимый тип возвращаемого значения
+incompatible.types:
+    text: 'Несовместимые типы. Указано: «{1}», требуется: «{0}»'
+incompatible.types.html.tooltip:
+    text: <html><body>Несовместимые типы.<table><tr><td>Требуется:</td><td>{0}</td>{1}</tr><tr><td>Указано:</td><td>{2}</td>{3}</tr></table></body></html>
+inconvertible.type.cast:
+    text: Неконвертируемые типы; невозможно привести «{0}» к «{1}»
+inheritance.from.final.class:
+    text: Невозможно наследовать от final-класса «{0}»
+initializer.must.be.able.to.complete.normally:
+    text: Инициализатор должен иметь возможность завершиться нормально
+instance.method.cannot.override.static.method:
+    text: Метод экземпляра «{0}» в «{1}» не может переопределять статический метод «{2}» в «{3}»
+insufficient.language.level:
+    text: '{0} не поддерживаются на уровне языка «{1}»'
+integer.number.too.large:
+    text: Число слишком велико для типа int
+interface.cannot.be.local:
+    text: Модификатор «interface» здесь недопустим
+interface.expected:
+    text: Ожидался интерфейс
+interface.methods.cannot.have.body:
+    text: Методы интерфейса не могут иметь тело
+invalid.package.annotation.containing.file:
+    text: Аннотации пакета должны находиться в файле package-info.java
+invalid.qualified.new:
+    text: Недопустимый квалифицированный «new»
+invalid.statement:
+    text: Недопустимый оператор
+is.not.an.enclosing.class:
+    text: '«{0}» не является окружающим классом'
+javadoc.exception.tag.class.is.not.throwable:
+    text: Класс {0} не является потомком Throwable
+javadoc.exception.tag.exception.class.expected:
+    text: Ожидается класс исключения
+javadoc.exception.tag.exception.is.not.thrown:
+    text: '{0} не объявлен как выбрасываемый методом {1}'
+javadoc.exception.tag.wrong.tag.value:
+    text: Неправильное значение тега
+javadoc.param.tag.parameter.name.expected:
+    text: Ожидалось название параметра
+javadoc.param.tag.type.parameter.gt.expected:
+    text: Ожидался «>»
+javadoc.param.tag.type.parameter.name.expected:
+    text: Ожидалось название параметра типа
+javadoc.value.field.required:
+    text: Тег @value должен ссылаться на поле
+javadoc.value.field.with.initializer.required:
+    text: Тег @value должен ссылаться на поле с константным инициализатором
+javadoc.value.static.field.required:
+    text: Тег @value должен ссылаться на статический член
+javadoc.value.tag.jdk15.required:
+    text: Тег @value не может иметь аргументов, если используется JDK 1.4 или более ранний
+label.without.statement:
+    text: Метка без оператора
+lambda.variable.must.be.final:
+    text: Используемая в лямбда-выражении переменная, должна быть final или фактически final
+local.class.is.not.used:
+    text: Локальный класс «{0}» никогда не используется
+local.enum:
+    text: Перечисление не может быть локальным
+local.variable.is.never.used:
+    text: Переменная «{0}» никогда не используется
+local.variable.is.not.assigned:
+    text: Переменная «{0}» никогда не присваивается
+local.variable.is.not.used.for.reading:
+    text: Переменная «{0}» присваивается, но нигде не используется
+long.number.too.large:
+    text: Число слишком велико для типа long
+malformed.floating.point.literal:
+    text: Некорректный литерал с плавающей точкой
+member.referenced.before.constructor.called:
+    text: Невозможно сослаться на «{0}» до вызова конструктора супер-типа
+method.call.expected:
+    text: Ожидался вызов метода
+method.does.not.override.super:
+    text: Метод не переопределяет метод из своего супер-класса
+method.is.not.used:
+    text: Метод «{0}» никогда не используется
+method.private.in.interface.should.have.body:
+    text: Приватные методы в интерфейсах должны иметь тело
+method.static.in.interface.should.have.body:
+    text: Статические методы в интерфейсах должны иметь тело
+missing.method.body:
+    text: Отсутствует тело метода; либо объявите как абстрактный
+missing.package.statement:
+    text: 'Отсутствует объявление пакета: «{0}»'
+missing.return.statement:
+    text: Отсутствует оператор возврата
+missing.return.type:
+    text: Недопустимое объявление метода; требуется тип возвращаемого значения
+missing.return.value:
+    text: Отсутствует возвращаемое значение
+modifier.not.allowed:
+    text: Модификатор «{0}» здесь недопустим
+modifiers.for.enum.constants:
+    text: Для констант перечисления не разрешены модификаторы
+module.ambiguous:
+    text: 'Неоднозначная ссылка на модуль: {0}'
+module.conflicting.packages:
+    text: 'Пакет «{0}» существует в другом модуле: {1}'
+module.conflicting.reads:
+    text: Модуль «{0}» читает пакет «{1}» из «{2}» и «{3}»
+module.cyclic.dependence:
+    text: 'Циклическая зависимость: {0}'
+module.duplicate.exports:
+    text: 'Дублирование «exports»: {0}'
+module.duplicate.exports.target:
+    text: 'Дублирование цели «exports»: {0}'
+module.duplicate.impl:
+    text: 'Дублирование реализации: {0}'
+module.duplicate.opens:
+    text: 'Дублирование «opens»: {0}'
+module.duplicate.opens.target:
+    text: 'Дублирование цели «opens»: {0}'
+module.duplicate.provides:
+    text: 'Дублирование «provides»: {0}'
+module.duplicate.requires:
+    text: 'Дублирование «requires»: {0}'
+module.duplicate.uses:
+    text: 'Дублирование «uses»: {0}'
+module.file.duplicate:
+    text: '«module-info.java» уже существует в модуле'
+module.file.wrong.location:
+    text: Объявление модуля должно находиться в корне исходных файлов модуля
+module.file.wrong.name:
+    text: Объявление модуля должно быть в файле с именем «module-info.java»
+module.no.package:
+    text: Файл модуля не должен содержать оператор «package»
+module.not.found:
+    text: 'Модуль не найден: {0}'
+module.not.in.requirements:
+    text: Модуль «{0}» не имеет модуля «{1}» в своих требованиях
+module.not.on.path:
+    text: 'Модуль отсутствует в зависимостях: {0}'
+module.open.duplicate.text:
+    text: Перейти к дубликату
+module.opens.in.weak.module:
+    text: '«opens» не разрешен в открытом модуле'
+module.package.not.exported:
+    text: Модуль «{0}» не экспортирует пакет «{1}» в модуль «{2}»
+module.package.not.open:
+    text: Модуль «{0}» не открывает пакет «{1}» для модуля «{2}»
+module.package.on.classpath:
+    text: Именованный модуль не может получить доступ к пакетам безымянного
+module.service.abstract:
+    text: 'Реализация сервиса является абстрактным классом: {0}'
+module.service.alien:
+    text: Реализация сервиса должна быть определена в том же модуле, что и директива «provides»
+module.service.enum:
+    text: 'Определение сервиса является перечислением: {0}'
+module.service.impl:
+    text: Тип реализации сервиса должен быть подтипом интерфейса сервиса или иметь публичный статический метод «provider» без аргументов
+module.service.inner:
+    text: 'Реализация сервиса является внутренним классом: {0}'
+module.service.no.ctor:
+    text: 'У реализации сервиса отсутствует публичный конструктор по умолчанию: {0}'
+module.service.provider.type:
+    text: 'Тип возвращаемого значения метода «provider» должен быть подтипом интерфейса сервиса: {0}'
+module.service.unused:
+    text: Сервисный интерфейс предоставлен, но не экспортирован или не используется
+native.methods.cannot.have.a.body:
+    text: У нативных методов не может быть тела
+no.default.constructor.available:
+    text: В «{0}» отсутствует конструктор по умолчанию
+no.enclosing.instance.in.scope:
+    text: В области видимости отсутствует окружающий экземпляр типа «{0}»
+no.interface.expected:
+    text: Здесь не ожидается интерфейс
+non.static.symbol.referenced.from.static.context:
+    text: Нестатический {0} «{1}» не может быть использован в статическом контексте
+not.a.statement:
+    text: Не является оператором
+not.allowed.in.interface:
+    text: Не разрешено в интерфейсе
+not.loop.label:
+    text: 'Не является меткой цикла: «{0}»'
+numeric.overflow.in.expression:
+    text: Арифметическое переполнение в выражении
+overridden.method.does.not.throw:
+    text: '{0}; переопределённый метод не выбрасывает «{1}»'
+overrides.deprecated.method:
+    text: Переопределяет устаревший метод в «{0}»
+package.clashes.with.class:
+    text: Пакет «{0}» конфликтует с классом с таким же именем
+package.is.empty:
+    text: 'Пакет пуст: {0}'
+package.local.symbol:
+    text: '«{0}» не является public в «{1}». Не может быть доступен извне пакета'
+package.name.file.path.mismatch:
+    text: Название пакета «{0}» не соответствует пути к файлу «{1}»
+package.not.found:
+    text: 'Пакет не найден: {0}'
+parameter.is.not.used:
+    text: Параметр «{0}» никогда не используется
+private.constructor.is.not.used:
+    text: Приватный конструктор «{0}» никогда не используется
+private.field.is.not.assigned:
+    text: Приватное поле «{0}» никогда не присваивается
+private.field.is.not.used:
+    text: Приватное поле «{0}» никогда не используется
+private.field.is.not.used.for.reading:
+    text: Приватному полю «{0}» присваивается значение, но оно никогда не используется
+private.inner.class.is.not.used:
+    text: Приватный внутренний класс «{0}» никогда не используется
+private.inner.interface.is.not.used:
+    text: Приватный внутренний интерфейс «{0}» никогда не используется
+private.method.is.not.used:
+    text: Приватный метод «{0}» никогда не используется
+private.symbol:
+    text: '«{0}» имеет приватный доступ в «{1}»'
+protected.symbol:
+    text: '«{0}» имеет защищенный доступ в «{1}»'
+public.class.should.be.named.after.file:
+    text: Класс «{0}» является public, он должен быть объявлен в файле с именем «{0}.java»
+qualified.enum.constant.in.switch:
+    text: В случае перечисления в «switch» после «case» должно следовать название константы перечисления без указания типа
+qualified.new.of.static.class:
+    text: Квалифицированный «new» для статического класса
+qualifier.must.be.expression:
+    text: Квалификатор должен быть выражением
+receiver.name.mismatch:
+    text: Название приёмника не совпадает с типом окружающего класса
+receiver.static.context:
+    text: Приёмник не может быть использован в статическом контексте
+receiver.type.mismatch:
+    text: Тип приёмника не совпадает с типом окружающего класса
+receiver.wrong.context:
+    text: Приёмники не разрешены вне списка параметров метода
+receiver.wrong.position:
+    text: Приёмник должен быть первым параметром
+recursive.constructor.invocation:
+    text: Рекурсивный вызов конструктора
+repeated.annotation.target:
+    text: Повторное использование аннотации в недопустимом месте
+repeated.interface:
+    text: Повторный интерфейс
+resource.variable.must.be.final:
+    text: Переменная, используемая в try с ресурсами, должна быть final или фактически final
+return.from.void.method:
+    text: Невозможно вернуть значение из метода с типом результата void
+return.outside.method:
+    text: Return вне метода
+safevararg.annotation.cannot.be.applied.for.record.component:
+    text: '@SafeVarargs не разрешён для компонента записи'
+safevarargs.not.allowed.non.final.instance.methods:
+    text: '@SafeVarargs не разрешён для не-final методов экземпляра'
+safevarargs.not.allowed.on.methods.with.fixed.arity:
+    text: '@SafeVarargs не разрешён для методов с фиксированным числом аргументов'
+safevarargs.not.applicable.for.reifiable.types:
+    text: '@SafeVarargs неприменим для переводимых типов'
+safevarargs.not.suppress.potentially.unsafe.operations:
+    text: '@SafeVarargs не подавляет потенциально небезопасные операции'
+single.import.class.conflict:
+    text: '«{0}» уже определено в импорте одного типа'
+statement.must.be.prepended.with.case.label:
+    text: Перед выражением должен стоять оператор «case»
+static.declaration.in.inner.class:
+    text: Внутренние классы не могут иметь статических объявлений
+static.interface.method.call.qualifier:
+    text: Статический метод может быть вызван только для содержащего его класса интерфейса
+static.member.accessed.via.instance.reference:
+    text: Статический член «{0}.{1}» доступен через ссылку на экземпляр
+static.method.cannot.override.instance.method:
+    text: Статический метод «{0}» в «{1}» не может переопределять экземплярный метод «{2}» в «{3}»
+string.expected:
+    text: Ожидался строковый литерал
+switch.colon.expected.after.case.label:
+    text: Ожидалось «:»
+switch.expr.empty:
+    text: У «switch» отсутствуют операторы «case»
+switch.expr.incomplete:
+    text: «switch» не охватывает все возможные входные значения
+text.block.new.line:
+    text: 'Недопустимое начало текстового блока: отсутствует новая строка после открывающих кавычек'
+text.block.unclosed:
+    text: Незакрытый текстовый блок
+text.class.inherits.abstract.and.default:
+    text: '{0} наследует «abstract» и «default» для {1} из типов {2} и {3}'
+text.class.inherits.unrelated.defaults:
+    text: '{0} наследует не связанные «default» для {1} из типов {2}'
+text.improper.formed.type:
+    text: Неправильно сформированный тип; некоторые параметры типа отсутствуют
+too.many.characters.in.character.literal:
+    text: Слишком много символов в символьном литерале
+type.parameter.cannot.be.followed.by.other.bounds:
+    text: За параметром типа не могут следовать другие границы
+type.parameter.has.incompatible.upper.bounds:
+    text: 'Параметр типа {0} имеет несовместимые верхние границы: {1}'
+type.parameter.is.not.used:
+    text: Параметр типа «{0}» никогда не используется
+unary.operator.not.applicable:
+    text: Оператор «{0}» неприменим к «{1}»
+unchecked.overriding.incompatible.return.type:
+    text: 'Непроверенное переопределение: тип возвращаемого значения требует непроверенного преобразования. Найдено «{0}», требуется «{1}»'
+unclosed.char.literal:
+    text: Незакрытый символьный литерал
+unclosed.comment:
+    text: Незакрытый комментарий
+underscore.identifier.error:
+    text: Начиная с Java 9, «_» является ключевым словом и не может использоваться в качестве идентификатора
+underscore.identifier.warn:
+    text: Использование «_» в качестве идентификатора может не поддерживаться в версиях после Java 8
+underscore.lambda.identifier:
+    text: Использование «_» в качестве названия параметра лямбда-выражения не разрешено
+unexpected.identifier:
+    text: Неожиданный идентификатор
+unexpected.token:
+    text: Неожиданный токен
+unexpected.tokens:
+    text: Неожиданные токены
+unexpected.type.class.expected:
+    text: 'Неожиданный тип: ожидался класс'
+unhandled.close.exceptions:
+    text: 'Необработанные {1, choice, 0#исключение|2#исключения} из {2}: {0}'
+unhandled.exceptions:
+    text: 'Необработанные {1, choice, 0#исключение|2#исключения}: {0}'
+unknown.class:
+    text: 'Неизвестный класс: «{0}»'
+unqualified.super.disallowed:
+    text: Неквалифицированная ссылка super не разрешена в методе расширения
+unreachable.statement:
+    text: Недостижимый оператор
+unrelated.overriding.methods.return.types:
+    text: методы имеют не связанные типы возвращаемого значения
+unresolved.label:
+    text: 'Неопределенная метка: «{0}»'
+valid.switch.1_7.selector.types:
+    text: char, byte, short, int, Character, Byte, Short, Integer, String, или enum
+valid.switch.selector.types:
+    text: byte, char, short или int
+vararg.not.last.parameter:
+    text: Vararg-параметр должен быть последним в списке
+variable.already.assigned:
+    text: Переменной «{0}» уже могло быть присвоено значение
+variable.already.defined:
+    text: Переменная «{0}» уже определена в области видимости
+variable.assigned.in.loop:
+    text: Переменной «{0}» могло быть присвоено значение в цикле
+variable.expected:
+    text: Ожидалась переменная
+variable.must.be.final:
+    text: Переменная «{0}» используется внутри внутреннего класса. Должна быть объявлена как final.
+variable.must.be.final.or.effectively.final:
+    text: Переменная «{0}» используется внутри внутреннего класса, должна быть final или фактически final
+variable.not.initialized:
+    text: Переменной «{0}» могло не быть присвоено значение
+visibility.access.problem:
+    text: Невозможно получить доступ к «{0}» в «{1}»
+void.type.is.not.allowed:
+    text: '«void» тип здесь не разрешен'
+weaker.privileges:
+    text: '{0}; попытка присвоить более слабые привилегии доступа («{1}»); было «{2}»'
+wildcard.not.expected:
+    text: Неожиданный символ подстановки
+wildcard.type.cannot.be.instantiated:
+    text: Подстановочный тип «{0}» не может быть инстанциирован напрямую
+wrong.constructor.arguments:
+    text: '«{0}» не может быть применён к «{1}»'
+wrong.method.arguments:
+    text: '«{0}» в «{1}» не может быть применён к «{2}»'
