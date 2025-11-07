@@ -1,0 +1,278 @@
+action.anonymous.to.inner.description:
+    text: Преобразовать анонимный класс во вложенный
+action.anonymous.to.inner.text:
+    text: Преобразовать аноним_ный во вложенный...
+action.convert.to.instance.method.description:
+    text: Преобразовать статический метод в метод экземпляра и исправить все ссылки
+action.convert.to.instance.method.text:
+    text: П_реобразовать в метод экземпляра...
+action.encapsulate.fields.description:
+    text: Заменить прямой доступ к полям в выбранном классе использованием методов доступа
+action.encapsulate.fields.text:
+    text: _Инкапсулировать поля...
+action.generate.constructor.text:
+    text: Конструктор
+action.generate.create.u.i.text:
+    text: createUI(...)
+action.generate.data.method.text:
+    text: Метод параметров
+action.generate.equals.text:
+    text: equals() и hashCode()
+action.generate.getter.text:
+    text: Геттер
+action.generate.getter.and.setter.text:
+    text: Геттер и сеттер
+action.generate.javadoc.description:
+    text: Запустить JavaDoc-генератор
+action.generate.javadoc.text:
+    text: Сгенерировать Java_Doc...
+action.generate.set.up.method.text:
+    text: Метод SetUp
+action.generate.setter.text:
+    text: Сеттер
+action.generate.tear.down.method.text:
+    text: Метод TearDown
+action.generate.test.method.text:
+    text: Тестовый метод
+action.generify.description:
+    text: Преобразовать ваш код для использования обобщённых типов
+action.generify.text:
+    text: О_бобщить...
+action.infer.nullity.description:
+    text: Вывести информацию о нулях (nullity)
+action.infer.nullity.text:
+    text: Вывести _Nullity...
+action.inheritance.to.delegation.description:
+    text: Заменить наследование делегированием
+action.inheritance.to.delegation.text:
+    text: Заменить _наследование делегированием...
+action.introduce.parameter.object.description:
+    text: Заменяет список параметров метода объектом
+action.introduce.parameter.object.text:
+    text: Ввести об_ъект-параметр...
+action.invert.boolean.description:
+    text: Заставить метод возвращать или переменную содержать противоположное значение, и исправить ссылки
+action.invert.boolean.text:
+    text: Инвертировать _логическое значение...
+action.new.class.description:
+    text: Создать новый Java-класс
+action.new.class.text:
+    text: Java-класс
+action.make.static.description:
+    text: Преобразовать метод или вложенный класс в статический и исправить все ссылки
+action.make.static.text:
+    text: Сделать с_татическим...
+action.method.duplicates.description:
+    text: Находит в выбранной области код, который можно преобразовать в вызов выбранного метода/константы
+action.method.duplicates.text:
+    text: Найти и заменить _дубликаты кода...
+action.migrate.description:
+    text: Открыть диалог миграции
+action.migrate.text:
+    text: _Мигрировать...
+action.remove.middleman.description:
+    text: Встроить делегирование в методы выбранного поля
+action.remove.middleman.text:
+    text: Удалить посредни_ка...
+action.replace.constructor.with.builder.description:
+    text: Заменить вызовы текущих конструкторов классов цепочкой вызовов билдера
+action.replace.constructor.with.builder.text:
+    text: Заменить конструктор билдером...
+action.replace.constructor.with.factory.description:
+    text: Создать статический фабричный метод и использовать его вместо конструктора
+action.replace.constructor.with.factory.text:
+    text: Заменить конструктор фабричным ме_тодом...
+action.replace.method.with.method.object.description:
+    text: Преобразовать метод в объект, чтобы все параметры стали полями этого объекта
+action.replace.method.with.method.object.text:
+    text: Объект-_метод...
+action.replace.temp.with.query.description:
+    text: Преобразовать выбранную переменную в метод
+action.replace.temp.with.query.text:
+    text: Заменить временную переменную на _выражение...
+action.slice.backward.description:
+    text: Искать значения, которые могут быть присвоены выбранному выражению
+action.slice.backward.text:
+    text: Анализ потока данных _к этому месту
+action.slice.forward.description:
+    text: Искать значения, которые вышли из этого места
+action.slice.forward.text:
+    text: Анализ потока данных _от этого места
+action.turn.refs.to.super.description:
+    text: Изменить использования класса на использования его супер-класса или интерфейса
+action.turn.refs.to.super.text:
+    text: Использовать интерфейс _где возможно...
+action.wrap.return.value.description:
+    text: Обернуть возвращаемое значение указанного метода объектом
+action.wrap.return.value.text:
+    text: Обернуть возвращаемое значение мето_да...
+action.change.type.signature.description:
+    text: Изменить тип возвращаемого из метода значения, поля, параметра, переменной или аргументов типа класса, и исправить все ссылки
+action.change.type.signature.text:
+    text: Миграция ти_пов...
+action.create.new.module.info.description:
+    text: Создать новый файл module-info.java
+action.create.new.module.info.title:
+    text: module-info.java
+action.create.new.package.info.description:
+    text: Создать новый файл package-info.java
+action.create.new.package.info.title:
+    text: package-info.java
+action.generate.super.method.call.description:
+    text: Сгенерировать вызов супер-метода
+action.generate.super.method.call.text:
+    text: Вызов супер-метода
+action.generate.to.string.description:
+    text: Сгенерировать метод toString()
+action.generate.to.string.text:
+    text: to_String()
+action.go.to.implementation.text:
+    text: Перейти к реализации(ям)
+action.go.to.overriding.methods.text:
+    text: Перейти к переопределяющим методам
+action.go.to.subclass.text:
+    text: Перейти к подклассу(ам)
+action.go.to.super.method.text:
+    text: Перейти к супер-методу
+annotation.processor.name:
+    text: Обработчики аннотаций
+checkbox.collapse.annotations:
+    text: Аннотации
+checkbox.collapse.anonymous.classes:
+    text: Анонимные классы
+checkbox.collapse.closures:
+    text: "«Замыкания» (анонимные классы, реализующие один метод)"
+checkbox.collapse.end.of.line.comments:
+    text: Последовательность комментариев в конце строки
+checkbox.collapse.file.header:
+    text: Заголовок файла
+checkbox.collapse.generic.constructor.parameters:
+    text: Обобщённые параметры конструктора и метода
+checkbox.collapse.html.style.attribute:
+    text: Атрибут «style» в HTML
+checkbox.collapse.i18n.messages:
+    text: Строки локализации (I18n)
+checkbox.collapse.inner.classes:
+    text: Вложенные классы
+checkbox.collapse.one.line.methods:
+    text: Методы в одну строку
+checkbox.collapse.simple.property.accessors:
+    text: Простые методы доступа к свойствам
+checkbox.collapse.suppress.warnings:
+    text: '@SuppressWarnings'
+class.file.decompiled.text:
+    text: Декомпилированный .class-файл
+class.file.open.source.action:
+    text: Открыть исходный файл
+dependencies.tree.node.default.package.abbreviation:
+    text: <пакет по умолчанию>
+error.package.already.contains.package.html:
+    text: В пакете «{0}» уже есть файл «package.html». Создать «package-info.java» в любом случае?
+error.package.already.contains.package.info:
+    text: Файл «package-info.java» уже существует для пакета «{0}»
+error.package.html.found.title:
+    text: Найден «package.html»
+gutter.implemented.method:
+    text: Реализованный метод
+gutter.implementing.method:
+    text: Реализуемый метод
+gutter.overridden.method:
+    text: Переопределённый метод
+gutter.overriding.method:
+    text: Переопределяющий метод
+gutter.service:
+    text: Сервис
+gutter.sibling.inherited.method:
+    text: Родственный унаследованный метод
+inlay.MethodChainsInlayProvider.description:
+    text: Типы возвращаемых значений методов в цепочках вызовов.
+java.method.chains.inlay.provider.name:
+    text: Цепочки методов
+java.scope.class.hierarchy:
+    text: Иерархия классов Java
+javac.name:
+    text: Javac
+jrt.node.short:
+    text: '[JRT]'
+library.choose.one.to.attach:
+    text: <html><body>Несколько библиотек содержат этот файл.<br>Выберите библиотеки для прикрепления исходников</body></html>
+notification.navigation.to.overriding.classes:
+    text: Навигация к переопределяющим классам невозможна во время обновления индекса
+notification.navigation.to.overriding.methods:
+    text: Навигация к переопределяющим методам невозможна во время обновления индекса
+nullable.notnull.annotation.used.label:
+    text: 'Аннотация, используемая для генерации кода:'
+nullable.notnull.annotations.panel.title:
+    text: 'Аннотации {0}:'
+nullable.notnull.annotations.runtime.instrumentation.tooltip:
+    text: Добавить утверждения во время выполнения для методов и параметров с аннотацией @NotNull
+nullable.notnull.configuration.dialog.title:
+    text: Конфигурация @Nullable/NotNull
+options.java.attribute.descriptor.instance.final.field:
+    text: Поля класса/final-поле экземпляра
+options.java.attribute.descriptor.lambda.parameter:
+    text: Параметры/Параметр лямбда-выражения
+project.roots.native.library.node.text:
+    text: Местоположения нативных библиотек
+quickfix.family.remove.redundant.parameter:
+    text: Удалить лишний параметр
+settings.inlay.java.annotations:
+    text: Аннотации
+settings.inlay.java.builder.like.methods:
+    text: Методы, похожие на билдер
+settings.inlay.java.complex.expressions.binary.functional.array.access.and.other:
+    text: Сложные выражения в качестве аргументов
+settings.inlay.java.enum.constants:
+    text: Константы перечисления
+settings.inlay.java.external.annotations:
+    text: Внешние аннотации
+settings.inlay.java.implicit.types.lambda:
+    text: Типы лямбда-выражений
+settings.inlay.java.implicit.types.lambda.description:
+    text: Показывать подсказки для типов параметров лямбда-выражений.
+settings.inlay.java.implicit.types.local:
+    text: Неявные типы
+settings.inlay.java.implicit.types.local.description:
+    text: Локальные переменные, объявленные с ключевым словом var, когда выводимый тип может быть неясен из правой части присваивания, например, при использовании фабричного метода.
+settings.inlay.java.inferred.annotations:
+    text: Выведенные аннотации
+settings.inlay.java.inheritors:
+    text: Потомки
+settings.inlay.java.methods.with.same.named.numbered.parameters:
+    text: Методы с одноимёнными нумерованными параметрами
+settings.inlay.java.new.expressions:
+    text: Выражения «new»
+settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
+    text: Не-литералы в случае нескольких параметров с одинаковым типом
+settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:
+    text: Параметры с названиями, содержащимися в названии метода
+settings.inlay.java.show.hints.for:
+    text: 'Показывать подсказки для:'
+settings.inlay.java.show.parameter.hints.for:
+    text: 'Показывать подсказки параметров для:'
+settings.inlay.java.show.parameter.hints.when.expression.type.is.clear.description:
+    text: Инициализатор массива, switch, условное выражение, ссылка, instanceof, присваивание, вызов, квалифицированное выражение, приведение типа, доступ к объекту класса.
+settings.inlay.java.turn.off.showExternal.annotations:
+    text: Отключить внешние аннотации
+settings.inlay.java.turn.off.showInferred.annotations:
+    text: Отключить выведенные аннотации
+settings.inlay.java.turn.on.showExternal.annotations:
+    text: Включить внешние аннотации
+settings.inlay.java.turn.on.showInferred.annotations:
+    text: Включить выведенные аннотации
+settings.inlay.java.usages:
+    text: Использования
+switch.stmt.template.description:
+    text: switch (expr) '{'…'}'
+title.annotation:
+    text: Аннотация
+title.class:
+    text: Класс
+title.enum:
+    text: Перечисление
+title.interface:
+    text: Интерфейс
+title.lambda:
+    text: Лямбда
+title.record:
+    text: Запись

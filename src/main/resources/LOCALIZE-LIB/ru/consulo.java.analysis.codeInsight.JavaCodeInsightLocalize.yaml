@@ -1,0 +1,34 @@
+action.structureview.show.non.public:
+    text: Показать не публичные
+action.structureview.show.properties:
+    text: Показать свойства
+file.structure.toggle.show.anonymous.classes:
+    text: Анонимные классы
+file.structure.toggle.show.collapse.show.lambdas:
+    text: Лямбда-выражения
+generate.equals.hashcode.accept.sublcasses:
+    text: Принимать подклассы в качестве параметра метода equals()
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>Хотя в целом это не соответствует спецификации Object.equals(), принятие<br>подклассов может быть необходимым для корректной работы сгенерированного метода<br>с фреймворками, генерирующими Proxy-подклассы, такими как Hibernate.</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: Выбрать поля для включения в equals()
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: Выбрать поля для включения в hashCode()
+generate.equals.hashcode.internal.error:
+    text: Внутренняя ошибка
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: Выбрать все ненулевые поля
+generate.equals.hashcode.template:
+    text: 'Шаблон:'
+generate.equals.hashcode.use.getters:
+    text: Использовать геттеры при генерации кода
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: hashCode() для массивов не поддерживается
+generate.equals.hashcode.wizard.title:
+    text: Сгенерировать equals() и hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals() для вложенных массивов не поддерживается
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: Сгенерированный equals() для Object[] может быть некорректным
+static.class.initializer:
+    text: '{0} инициализатор класса'

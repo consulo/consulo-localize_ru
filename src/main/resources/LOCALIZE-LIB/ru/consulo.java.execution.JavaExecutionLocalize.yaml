@@ -1,0 +1,30 @@
+application.configuration.description:
+    text: Конфигурация Java-приложения
+application.configuration.include.provided.scope:
+    text: Включить зависимости с областью видимости «Provided»
+application.configuration.main.class.label:
+    text: 'Главный &класс:'
+application.configuration.name:
+    text: Java-приложение
+application.configuration.shorten.command.line.label:
+    text: 'Сократить командную &строку:'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 'Использовать classpath м&одуля:'
+jar.application.configuration.description:
+    text: Конфигурация для запуска JAR-файла с помощью команды 'java -jar'
+jar.application.configuration.name:
+    text: JAR-приложение
+jre.path.is.not.valid.jre.home.error.message:
+    text: «{0}» не является допустимым домашним каталогом JRE
+remote.debug.configuration.description:
+    text: Конфигурация удалённой отладки JVM
+remote.debug.configuration.display.name:
+    text: Удалённая отладка JVM
+run.configuration.jre.label:
+    text: '&JRE:'
+run.test:
+    text: Запустить тест
+show.swing.inspector:
+    text: '&Включить захват снимков форм'
+show.swing.inspector.disabled:
+    text: '&Включить захват снимков форм (требуется JRE 5.0 или выше)'

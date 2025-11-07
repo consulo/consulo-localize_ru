@@ -1,0 +1,78 @@
+javadoc.candidates:
+    text: <html>Кандидаты для вызова метода <b>{0}</b>:<br><br>{1}</html>
+javadoc.candidates.not.found:
+    text: <html>Кандидаты для вызова метода <b>{0}</b> не найдены.</html>
+javadoc.constructor.candidates:
+    text: <html>Кандидаты для new <b>{0}</b>():<br>{1}</html>
+javadoc.generate.arguments:
+    text: '&Прочие аргументы командной строки:'
+javadoc.generate.basic.option:
+    text: Основные опции
+javadoc.generate.closing.tag:
+    text: Автоматически вставлять закрывающий тег внутри JavaDoc
+javadoc.generate.exited:
+    text: |4
+
+        JavaDoc завершился с кодом выхода $EXIT_CODE$
+javadoc.generate.heap.size:
+    text: '&Максимальный размер кучи (Мб):'
+javadoc.generate.locale:
+    text: '&Язык:'
+javadoc.generate.message.title:
+    text: JavaDoc
+javadoc.generate.no.classes.in.selected.packages.error:
+    text: Выбранная область действия не содержит Java-классов.
+javadoc.generate.no.jdk.path:
+    text: |-
+        Путь к JDK не указан.
+        Невозможно сгенерировать JavaDoc.
+javadoc.generate.open.in.browser:
+    text: Открыть сгенерированную документацию в браузере
+javadoc.generate.options.hierarchy:
+    text: Генерировать дерево иерархии
+javadoc.generate.options.index:
+    text: Генерировать индекс
+javadoc.generate.options.index.per.letter:
+    text: Отдельный индекс по буквам
+javadoc.generate.options.navigator:
+    text: Генерировать навигационную панель
+javadoc.generate.output.directory:
+    text: 'Каталог вывода:'
+javadoc.generate.output.directory.browse:
+    text: Обзор каталога вывода
+javadoc.generate.output.directory.creation.failed:
+    text: Не удалось создать «{0}».
+javadoc.generate.output.directory.not.exists:
+    text: |-
+        Каталог вывода «{0}» не существует.
+        Хотите его создать?
+javadoc.generate.output.directory.not.specified:
+    text: Каталог вывода не указан.
+javadoc.generate.output.not.a.directory:
+    text: '«{0}» не является каталогом.'
+javadoc.generate.package.default:
+    text: <по умолчанию>
+javadoc.generate.scope.group:
+    text: Область действия
+javadoc.generate.scope.include.subpackages.checkbox:
+    text: Включить подпакеты
+javadoc.generate.scope.package:
+    text: '&Пакет{0}'
+javadoc.generate.scope.whole.project:
+    text: '&Весь проект'
+javadoc.generate.settings.group:
+    text: Настройки
+javadoc.generate.start.button:
+    text: '&Начать'
+javadoc.generate.tag.list.deprecated:
+    text: список deprecated
+javadoc.generate.tags.group:
+    text: Документировать эти теги
+javadoc.generate.title:
+    text: Сгенерировать JavaDoc
+javadoc.resolved.value:
+    text: 'Разрешённое значение:'
+javadoc.settings.not.specified:
+    text: Не указаны опции генерации для JavaDoc
+javadoc.settings.title:
+    text: JavaDoc
