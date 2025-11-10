@@ -93,6 +93,12 @@
         </dependency>
         <dependency>
             <groupId>consulo.plugin</groupId>
+            <artifactId>com.intellij.git</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>consulo.plugin</groupId>
             <artifactId>com.intellij.spellchecker</artifactId>
             <version>${project.version}</version>
             <scope>provided</scope>
