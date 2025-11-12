@@ -1,0 +1,1174 @@
+action.Annotate.with.Blame.text:
+    text: Аннотировать с помощью Git Blame
+action.Git.Pull.text:
+    text: Получить (Pull)...
+action.Git.Stash.Silently.text:
+    text: Сохранить Stash бесшумно
+action.Git.Stash.UnstashAs.description:
+    text: Pop или применить выбранный stash как новую ветку с индексом или без него
+action.Git.Stash.UnstashAs.text:
+    text: Unstash...
+action.add.text:
+    text: Добавить
+action.branches.text:
+    text: _Ветки...
+action.checkout.revision.text:
+    text: Checkout Revision
+action.init.text:
+    text: Создать Git репозиторий...
+action.compare.with.branch.text:
+    text: Сравнить с веткой или тегом...
+action.create.new.branch.description:
+    text: Создать новую ветку, начиная с выбранного коммита
+action.create.new.branch.text:
+    text: Новая ветка...
+action.create.new.tag.description:
+    text: Создать новый тег, указывающий на этот коммит
+action.create.new.tag.text:
+    text: Новый тег...
+action.fetch.text:
+    text: Fetch
+action.log.deep.compare.description:
+    text: Скрывает те коммиты, которые имеют эквивалентные изменения в текущей ветке
+action.log.deep.compare.text:
+    text: Выделить невыбранные коммиты
+action.log.reset.text:
+    text: Сбросить текущую ветку к этому коммиту...
+action.merge.name:
+    text: Слияние (Merge)
+action.merge.text:
+    text: Слияние (Merge)...
+action.pull.text:
+    text: Получить (Pull)...
+action.rebase.abort.progress.title:
+    text: Отмена процесса перебазирования (Rebase)...
+action.rebase.abort.text:
+    text: Отменить перебазирование (Rebase)
+action.rebase.continue.progress.title:
+    text: Продолжение процесса перебазирования (Rebase)...
+action.rebase.continue.text:
+    text: Продолжить перебазирование (Rebase)
+action.rebase.skip.name:
+    text: Пропустить коммит при перебазировании (Rebase)
+action.rebase.skip.progress.title:
+    text: Пропуск коммита во время перебазирования (Rebase)...
+action.rebase.skip.text:
+    text: Пропустить коммит
+action.rebase.text:
+    text: Перебазирование (Rebase)...
+action.reset.text:
+    text: Сбросить HEAD...
+action.resolve.conflicts.text:
+    text: Разрешить конфликты...
+action.selected.directory.text:
+    text: Выбран{0,choice,1# каталог|2#ы каталоги}
+action.selected.file.text:
+    text: Выбран{0,choice,1# файл|2#ы файлы}
+action.stash.name:
+    text: Stash
+action.stash.text:
+    text: Stash изменения...
+action.tag.name:
+    text: Tag
+action.tag.text:
+    text: Новый тег...
+action.text.show.all.submitted:
+    text: Показать все файлы, измененные этим коммитом
+action.unstash.name:
+    text: Unstash
+action.unstash.text:
+    text: Unstash Changes...
+add.action.name:
+    text: Add
+add.adding:
+    text: Добавление файлов...
+addrefspec.button:
+    text: Add
+addrefspec.get.references:
+    text: '&Получить ссылки'
+addrefspec.get.references.tooltip:
+    text: Получить ссылки на удалённые теги и ветки (в зависимости от состояния флажка).
+addrefspec.getting.references.title:
+    text: Получение удалённых ссылок для {0}
+addrefspec.include.branches:
+    text: Включить &ветки
+addrefspec.include.branches.tooltip:
+    text: Следующее обновление ссылок получит удалённые ветки.
+addrefspec.include.tags:
+    text: Включить &теги
+addrefspec.include.tags.tooltip:
+    text: Следующее обновление ссылок получит удалённые теги.
+addrefspec.node.branches:
+    text: Ветки
+addrefspec.node.tags:
+    text: Теги
+addrefspec.reference.chooser.tooltip:
+    text: Выберите ссылки на удалённые ветки и теги
+addrefspec.title:
+    text: Добавить ссылку(и)
+annotate.action.name:
+    text: Аннотировать
+annotation.tool.tip:
+    text: |-
+        коммит {0}
+        Автор: {1}
+        Дата: {2}
+
+        {3}
+branch.delete.merged_to.many:
+    text: 'Ветка <code><b>{0}</b></code> полностью слита со следующими ветками: <code>{1}</code>.'
+branch.delete.merged_to.one:
+    text: Ветка <code><b>{0}</b></code> полностью слита с веткой <code>{1}</code>.
+branch.delete.not_fully_merged.description:
+    text: Ветка <code><b>{0}</b></code> не полностью слита с веткой <code><b>{1}</b></code>.<br/>Ниже приведен список неслитых коммитов.
+branch.delete.not_fully_merged.description.not_on_branch:
+    text: Вы в данный момент не находитесь на ветке (<code>{1}</code>). <br>Ветка <code><b>{0}</b></code> не полностью слита с <code>{2}</code>.<br/>Ниже приведен список неслитых коммитов.
+branch.delete.warning:
+    text: Вы всё ещё можете удалить ветку <code><b>{0}</b></code>, но помните, что это действие нельзя отменить.
+button.commit.all.files:
+    text: Закоммитить все файлы
+changes.retrieving:
+    text: Получение изменений для ревизии {0}
+checking.out:
+    text: Checkout {0}
+checkout.action.name:
+    text: Checkout
+checkout.branch:
+    text: Checkout
+checkout.branch.label:
+    text: '&Checkout'
+checkout.branch.name.exists:
+    text: Ветка с таким именем уже существует. Используйте опцию переопределения, чтобы принудительно создать ветку.
+checkout.create.ref.log:
+    text: Создать &журнал ссылок
+checkout.create.ref.log.tooltip:
+    text: Если отмечено, для ветки будет создан журнал ссылок. Это позволяет выполнять поиск по времени. (опция "-l")
+checkout.include.tags:
+    text: '&Включить теги'
+checkout.include.tags.tooltip:
+    text: Если отмечено, выпадающий список будет включать названия тегов, а также веток.
+checkout.invalid.new.branch.name:
+    text: Недопустимое название новой ветки
+checkout.new.branch:
+    text: Как '&новую ветку'
+checkout.new.branch.tooltip:
+    text: Введите название новой ветки здесь. Оставьте пустым, если вы не хотите создавать новую ветку.
+checkout.override.branch:
+    text: '&Перезаписать'
+checkout.override.tooltip:
+    text: Если отмечено, ветка будет создана, даже если ветка с таким именем уже существует. Предыдущая ветка будет удалена.
+checkout.ref.tooltip:
+    text: Выберите ветку, тег или введите ссылку на коммит
+checkout.retrieving.branches.and.tags:
+    text: Получение веток и тегов
+checkout.track.branch:
+    text: '&Отслеживать ветку'
+checkout.track.tooltip:
+    text: Если отмечено, новая созданная ветка будет отслеживать исходную ветку во время выполнения команды получения (Pull).
+checkout.validate:
+    text: '&Проверить'
+checkout.validate.tooltip:
+    text: Используйте эту кнопку, чтобы проверить выражение ссылки, если оно введено вручную.
+checkout.validation.failed:
+    text: Проверка исходной ревизии не удалась
+clone.button:
+    text: Клонировать
+clone.destination.directory.description:
+    text: Выберите родительскую директорию назначения для клонирования
+clone.destination.directory.title:
+    text: Родительская директория
+clone.destination.exists.error:
+    text: Путь {0} существует. Git не может клонировать в существующую директорию.
+clone.dialog.checking.git.version:
+    text: Проверка версии Git…
+clone.dir.name:
+    text: 'Название &директории:'
+clone.invalid.origin:
+    text: Название origin имеет недопустимый формат.
+clone.invalid.url:
+    text: URL репозитория является некорректным URL или несуществующей директорией.
+clone.origin:
+    text: 'Название &Origin'
+clone.parent.dir:
+    text: '&Родительская директория:'
+clone.parent.missing.error:
+    text: Родительский путь {0} должен существовать.
+clone.repository.putty.key:
+    text: 'Ключ Putty:'
+clone.repository.url:
+    text: 'Git &URL репозитория:'
+clone.test:
+    text: '&Тест'
+clone.test.connection.title:
+    text: Тест соединения
+clone.test.failed.error:
+    text: Тест репозитория не удался.
+clone.test.success.message:
+    text: <html>Соединение с репозиторием {0} прошло успешно.</html>
+clone.testing:
+    text: Тестирование репозитория {0}
+clone.title:
+    text: Клонировать репозиторий
+clone.url.is.not.directory.error:
+    text: URL репозитория не является директорией.
+cloning.repository:
+    text: Клонирование исходного репозитория {0}
+command.cancelled:
+    text: Команда была отменена.
+commit.action.name:
+    text: Comm&it
+commit.amend:
+    text: Изменить коммит
+commit.amend.tooltip:
+    text: <html>Объединить этот коммит с предыдущим</html>
+commit.author:
+    text: '&Автор:'
+commit.author.tooltip:
+    text: '<html>Укажите автора коммита здесь, если он отличается от коммитера. Автор должен быть в формате: Имя автора &lt;author@ema.il&gt;</html>'
+commit.partial.merge.message:
+    text: |-
+        Частичный коммит во время {0} не разрешен.
+        Следующие файлы не включены в коммит.
+        Выполнить коммит со всеми включенными файлами?
+commit.partial.merge.title:
+    text: Частичный коммит слияния (Merge)
+commit.push.changes:
+    text: '&Отправить изменения'
+commit.push.changes.tooltip:
+    text: Когда эта опция включена, изменения отправляются на сервер после коммита.
+common.current.branch:
+    text: 'Текущая ветка:'
+common.current.branch.tooltip:
+    text: Текущая выбранная ветка.
+common.do.not.show:
+    text: '&Не показывать этот диалог снова'
+common.do.not.show.tooltip:
+    text: Если эта опция выбрана, выбор будет запомнен, и диалог больше не будет отображаться.
+common.git.root:
+    text: 'Git &Root:'
+common.git.root.tooltip:
+    text: Выберите Git VCS root
+common.no.active.branch:
+    text: <нет активной ветки>
+common.refreshing:
+    text: Обновление файлов
+computing.annotation:
+    text: Вычисление аннотации для {0}
+crlf.convert.convert:
+    text: Конвертировать выбранные
+crlf.convert.label:
+    text: <html>&Следующие текстовые файлы имеют разделители строк, которые не соответствуют разделителям строк проекта.<br/>Выберите файлы, которые вы хотите преобразовать к разделителям строк по умолчанию проекта перед коммитом.</html>
+crlf.convert.leave:
+    text: Оставить без изменений
+crlf.convert.none:
+    text: '&Не конвертировать файлы'
+crlf.convert.none.tooltip:
+    text: Если эта опция выбрана, файлы не будут пытаться конвертировать перед коммитом.
+crlf.convert.title:
+    text: Недопустимые разделители строк
+current.branch.action.name:
+    text: CurrentBranch
+current.branch.change.tracked:
+    text: Изменить отслеживаемую ветку
+current.branch.message:
+    text: 'Выбрана ветка: {0}'
+current.branch.title:
+    text: Настроить отслеживаемую ветку
+current.branch.tracked.branch:
+    text: '&Ветка:'
+current.branch.tracked.branch.none:
+    text: <нет>
+current.branch.tracked.branch.tooltip:
+    text: Выберите ветку для отслеживания
+current.branch.tracked.remote.none:
+    text: <нет>
+current.branch.tracked.remote.this:
+    text: <этот репозиторий>
+current.branch.tracked.repository:
+    text: 'Ре&позиторий:'
+current.branch.tracked.repository.tooltip:
+    text: Выберите репозиторий для отслеживания
+current.branch.tracked.title:
+    text: Отслеживаемая ветка
+debug.git.exec:
+    text: 'DEBUG: work-dir: [{0}] exec: [{1}]'
+delete.action.name:
+    text: Удалить
+dialog.checkout.new.branch.from.0.title:
+    text: Выбрать новую ветку из {0}
+dialog.reset.title:
+    text: Git Reset
+diff.find.error:
+    text: 'Поиск ревизии для diff: {0}'
+error.commit.cant.create.message.file:
+    text: Не удалось создать файл сообщения коммита
+error.dialog.title:
+    text: Ошибка
+error.list.title:
+    text: '{0} Ошибка:'
+error.occurred.during:
+    text: Ошибка произошла во время ''{0}''
+errors.message:
+    text: Операция Git завершилась с несколькими ошибками:{0}
+errors.message.item:
+    text: |4-
+
+           {0}
+executable.error.description:
+    text: Git не удалось запустить. Вероятно, путь к исполняемому файлу Git неверен. <a href="">Исправить.</a>
+executable.error.title:
+    text: Проблема с исполняемым файлом Git
+fetch.action.name:
+    text: Fetch
+fetch.button:
+    text: Fetch
+fetch.force.references.update:
+    text: Принудительно &обновить ссылки
+fetch.force.references.update.tooltip:
+    text: Принудительно обновляет ссылки на ветки, для которых обновление не принудительно в сопоставлении ссылок.
+fetch.remote.label:
+    text: 'Удалённый &репозиторий:'
+fetch.remote.tooltip:
+    text: Название или URL удалённого репозитория для fetch
+fetch.tags.label:
+    text: 'Fetch &теги:'
+fetch.tags.policy.all:
+    text: Все
+fetch.tags.policy.for.fetched.commits:
+    text: Для полученных коммитов
+fetch.tags.policy.none:
+    text: Нет
+fetch.tags.tooltip:
+    text: <html>Выберите политику для полученных коммитов<ul><li><i>Для полученных коммитов</i> означает, что будут получены теги, связанные с коммитами на полученных ветках.</li><li><i>Все</i> означает, что будут получены все теги и референсные коммиты.</li><li><i>Нет</i> означает, что теги не будут получены.</li></ul></html>
+fetch.title:
+    text: Git Fetch
+fetching.tags.title:
+    text: Обновление тегов из {0}
+fetching.title:
+    text: Получение из {0}
+find.git.description:
+    text: Выберите путь к исполняемому файлу Git
+find.git.error.title:
+    text: Ошибка выполнения Git
+find.git.success.title:
+    text: Git выполнен успешно
+find.git.title:
+    text: Конфигурация Git
+find.git.unsupported.message:
+    text: <html><tt>{0}</tt><br>Эта версия не поддерживается, и некоторая функциональность плагина может работать некорректно.<br>Минимально поддерживаемая версия - <em>{1}</em>.</html>
+fix.roots.button:
+    text: Принять
+fix.roots.list.tooltip:
+    text: Предлагаемый список Git VCS-корней; новые корни отмечены полужирным шрифтом, удалённые корни — зачёркнуты.
+fix.roots.message:
+    text: Следующие Git VCS-корни будут использованы вместо текущих Git VCS-корней.
+fix.roots.title:
+    text: Исправить Git VCS-корни
+fix.roots.valid.message:
+    text: Недопустимые Git-корни уже исправлены.
+fix.roots.valid.title:
+    text: Все Git корни действительны
+gc.action.name:
+    text: Запустить сборщик мусора
+general.error:
+    text: Ошибка Git
+getting.history:
+    text: Получение истории для {0}
+git.commit.message.empty:
+    text: Пожалуйста, укажите сообщение коммита
+git.commit.message.empty.title:
+    text: Сообщение коммита пустое
+git.default.commit.message:
+    text: |4+
+
+        # Краткое описание коммита здесь
+
+        # Полное описание коммита здесь (строки, начинающиеся с '#', не будут включены)
+
+git.error.exit:
+    text: Процесс Git завершился с кодом {0}
+git.executable.dialog.description:
+    text: Укажите полный путь к исполняемому файлу Git
+git.executable.dialog.error:
+    text: Это, похоже, не является допустимым исполняемым файлом Git
+git.executable.dialog.title:
+    text: Исполняемый файл Git
+git.executable.filechooser.description:
+    text: Укажите полный путь к исполняемому файлу Git
+git.executable.filechooser.title:
+    text: Исполняемый файл Git
+git.executable.notification.description:
+    text: Вероятно, путь к исполняемому файлу Git неверен.
+git.executable.notification.title:
+    text: Не удается запустить Git
+git.executable.version.is:
+    text: 'Версия Git: {0}'
+git.light.status.bar.display.name:
+    text: Git
+git.light.status.bar.text:
+    text: 'Git: {0}'
+git.light.status.bar.tooltip:
+    text: 'Текущая ветка Git: {0}'
+git.new.tag.dialog.tag.name.label:
+    text: Введите название нового тега
+git.new.tag.dialog.title:
+    text: Создать новый тег на {0}
+git.push.active.close:
+    text: Закрыть
+git.running:
+    text: 'Выполнение: {0}'
+git.status.bar.widget.name:
+    text: Git Branch
+git.status.bar.widget.text.cherry.pick:
+    text: Cherry-picking в {0}
+git.status.bar.widget.text.merge:
+    text: Слияние (Merge) {0}
+git.status.bar.widget.text.rebase:
+    text: Перебазирование (Rebase) {0}
+git.status.bar.widget.text.revert:
+    text: Откатывание (Revert) в {0}
+git.unstash.clear.confirmation.message:
+    text: Удалить все stashes? Это действие нельзя отменить.
+git.unstash.clear.confirmation.title:
+    text: Удалить все stashes?
+git.unstash.drop.confirmation.message:
+    text: <html>Вы хотите удалить {0}?<br/>"{1}"</html>
+git.unstash.drop.confirmation.title:
+    text: Удалить stash {0}?
+git.vcs.config.convert.ask:
+    text: Спрашивать перед конвертацией
+git.vcs.config.convert.crlf:
+    text: '&Конвертация разделителей строк:'
+git.vcs.config.convert.do.not.convert:
+    text: Не конвертировать
+git.vcs.config.convert.project:
+    text: Конвертировать к разделителям строк проекта
+git.vcs.config.convert.tooltip:
+    text: <html>Укажите, что делать, если разделители строк в файле и в стиле кода проекта различаются:<ul><li><b>Не конвертировать</b> — ничего не делать, коммитить как есть.</li><li><b>Конвертировать к разделителям строк проекта</b> — перед коммитом конвертировать разделители строк, чтобы они соответствовали настройкам стиля кода проекта.</li><li><b>Спрашивать перед конвертацией</b> — показать диалоговое окно и спросить, что делать.</li></ul>Обратите внимание, что эта настройка не имеет ничего общего с Git autocrlf и другими настройками Git.</html>
+git.vcs.config.path.label:
+    text: 'Путь к &исполняемому файлу Git:'
+git.vcs.config.ssh.mode:
+    text: '&SSH исполняемый файл:'
+git.vcs.config.ssh.mode.idea:
+    text: Встроенный
+git.vcs.config.ssh.mode.native:
+    text: Нативный
+git.vcs.config.ssh.mode.putty:
+    text: Putty
+git.vcs.config.ssh.mode.tooltip:
+    text: <html>Укажите версию SSH, которая будет использоваться с Git.<ul><li><b>Нативный</b> означает, что будет использоваться нативный SSH.</li><li><b>Встроенный</b> означает, что будет использоваться реализация, предоставленная {0}.</li></ul>Нативная реализация может вызывать зависания на некоторых платформах. В нативном случае вам также может потребоваться настроить <em>ssh-askpass</em> для вашей платформы, чтобы получать GUI-подсказки для паролей.</html>
+git.vcs.config.test:
+    text: '&Тест'
+git.vcs.config.test.label:
+    text: 'Тест '
+git4idea.vcs.name:
+    text: Git
+group.Git.MainMenu.MergeActions.text:
+    text: _Слияние (Merge)
+group.context.menu.text:
+    text: _Git
+group.log.context.menu.text:
+    text: Контекстное меню Git Log
+group.log.toolbar.text:
+    text: Панель инструментов Git Log
+group.main.menu.current.file.text:
+    text: Текущий файл
+group.main.menu.patch.text:
+    text: Patch
+group.main.menu.rebase.actions.text:
+    text: Перебазирование (_Rebase)
+group.main.menu.uncommitted.changes.text:
+    text: _Незакоммиченные изменения
+group.repository.context.menu.text:
+    text: _Репозиторий
+group.vcs.menu.text:
+    text: _Git
+index.file.error:
+    text: Обновление файла в индексе не удалось
+init.add.root.message:
+    text: Вы хотите добавить этот каталог как VCS корень?
+init.add.root.title:
+    text: Инициализация Git
+init.destination.directory.description:
+    text: Выберите директорию, где будет создан новый Git репозиторий.
+init.destination.directory.title:
+    text: Выберите директорию для git init
+init.warning.already.under.git:
+    text: <html>Выбранная директория <tt>{0}</tt> уже находится под Git.<br/>Вы уверены, что хотите создать новый VCS корень?</html>
+init.warning.title:
+    text: Git Init
+initializing.title:
+    text: Инициализация репозитория...
+merge.add.log.information:
+    text: Добавить информацию &журнала изменений
+merge.add.log.information.tooltip:
+    text: Добавить информацию журнала изменений в сообщение коммита (опция "--log")
+merge.branch.button:
+    text: Слияние (Merge)
+merge.branch.message:
+    text: Выберите ветку для слияния (Merge) с этой ({0})
+merge.branch.title:
+    text: Слияние (Merge) веток
+merge.branches:
+    text: '&Ветки для слияния (Merge):'
+merge.branches.tooltip:
+    text: <html>Выбор веток. Выберите одну или несколько веток для слияния (Merge) (уже слитые ветки не отображаются)</html>.
+merge.commit.message:
+    text: '&Сообщение коммита'
+merge.commit.message.tooltip:
+    text: Сообщение коммита, используемое в случае, если слияние (Merge) приводит к коммиту (опция "-m")
+merge.default.strategy:
+    text: <по умолчанию>
+merge.is.not.needed:
+    text: Слияние (Merge) не требуется для файла {0}
+merge.load.files:
+    text: Загрузка файлов для слияния (Merge)
+merge.no.commit:
+    text: Без &коммита
+merge.no.commit.tooltip:
+    text: Принудительно без коммита для слияния (опция "--no-commit")
+merge.no.fast.forward:
+    text: Без &fast forward
+merge.no.fast.forward.tooltip:
+    text: Отключить fast forward (опция "--no-ff")
+merge.retrieving.branches:
+    text: Получение неслитых веток
+merge.squash.commit:
+    text: &Схлопывающий (Squash) коммит
+merge.squash.tooltip:
+    text: Схлопнуть все изменения в один коммит (опция "--squash")
+merge.strategy:
+    text: '&Стратегия:'
+merge.strategy.tooltip:
+    text: Стратегия слияния (Merge) для использования (опция "-s")
+merge.tool.action.name:
+    text: Инструмент слияния (MergeTool)
+merge.tool.column.status.deleted:
+    text: Удалён
+merge.tool.column.status.modified:
+    text: Изменён
+merge.tool.column.theirs.status:
+    text: Их
+merge.tool.column.yours.status:
+    text: Ваш
+merging.branch:
+    text: Слияние (Merge) ветки {0}
+merging.title:
+    text: Слияние (Merge) изменений в {0}
+paths.affected.title:
+    text: Пути, затронутые в коммите {0}
+progress.title.moving.files:
+    text: Перемещение файлов…
+pull.action.name:
+    text: Получить (Pull)
+pull.button:
+    text: Получить (Pull)
+pull.force.reference.update:
+    text: Принудительно &обновить ссылку
+pull.get.branches:
+    text: '&Получить ветки'
+pull.get.branches.tooltip:
+    text: Получить имена веток из удалённого репозитория. В противном случае используется локально кэшированная информация.
+pull.getting.remote.branches:
+    text: Получение удалённых веток
+pull.remote:
+    text: 'Удалённый &репозиторий:'
+pull.remote.tooltip:
+    text: Зарегистрированное название или URL удалённого репозитория.
+pull.retrieving.remotes:
+    text: Получение удалённых репозиториев
+pull.title:
+    text: Получить (Pull) изменения
+pull.url.message:
+    text: 'Введите URL удалённого репозитория для получения/слияния (Pull/Merge) (оставьте пустым для значения по умолчанию):'
+pull.url.title:
+    text: URL получения (Pull)
+pulling.title:
+    text: Получение (Pull) изменений из {0}
+push.action.name:
+    text: Отправить (Push)
+push.active.action.name:
+    text: Отправка (Push) активных веток
+push.active.autostash:
+    text: '&Авто-Stash'
+push.active.autostash.tooltip:
+    text: Авто-Stash изменений перед перебазированием (Rebase)
+push.active.commit.node.merge:
+    text: (коммит слияния)
+push.active.commits:
+    text: '&Коммиты:'
+push.active.error.behind:
+    text: Некоторые локальные ветки отстают от удалённых веток
+push.active.error.merges.unchecked:
+    text: Корни с коммитами слияния (Merge commits) не могут быть выборочно отправлены
+push.active.error.no.branch:
+    text: Некоторые корни не находятся на ветке
+push.active.error.reorder.merges:
+    text: Невозможно переупорядочить коммиты при наличии слияний (Merges)
+push.active.error.reorder.needed:
+    text: Узлы должны быть переупорядочены с помощью операции перебазирования (Rebase).
+push.active.fetch:
+    text: '&Fetch'
+push.active.fetch.failed:
+    text: Операция fetch не удалась для некоторых веток
+push.active.fetch.failed.title:
+    text: Fetch не удался
+push.active.fetch.tooltip:
+    text: Получить состояние (Fetch) отслеживаемых веток из удалённого репозитория
+push.active.fetching:
+    text: Получение изменений для активных веток
+push.active.pushing:
+    text: Отправка веток...
+push.active.rebase:
+    text: 'Перебазирование (&Rebase)'
+push.active.rebase.and.push:
+    text: Перебазировать (Rebase) и отправить (Push)
+push.active.rebase.tooltip:
+    text: Перебазирование (Rebase) веток для возможности отправки (Push) (может переупорядочить коммиты)
+push.active.rebasing:
+    text: Перебазируем (Rebase)...
+push.active.save.before.rebase:
+    text: 'Очистить рабочее дерево перед перебазированием (Rebase):'
+push.active.status.behind:
+    text: Невозможно отправить (Push). Текущая ветка отстаёт от отслеживаемой ветки на {0,choice, 1#1 коммит|2#{0,number} коммитов}.
+push.active.status.no.branch:
+    text: Головной элемент не находится на ветке.
+push.active.status.no.commits:
+    text: Нечего отправлять.
+push.active.status.no.commits.behind:
+    text: Нечего отправлять (Push). Текущая ветка отстаёт от отслеживаемой ветки на {0,choice, 1#1 коммит|2#{0,number} коммитов}.
+push.active.status.no.tracked:
+    text: Отслеживаемая ветка не настроена.
+push.active.status.push:
+    text: Будет отправлен{0,choice, 1# 1 коммит|2#о {0,number} коммитов}.
+push.active.status.status:
+    text: 'Статус: '
+push.active.title:
+    text: Отправка (Push) активных веток
+push.active.view:
+    text: '&Просмотр'
+push.branches:
+    text: '&Ветки:'
+push.branches.tooltip:
+    text: Выберите ветки для отправки
+push.button:
+    text: Отправить (Push)
+push.force.update:
+    text: '&Принудительное обновление'
+push.force.update.tooltip:
+    text: Если выбрано, удалённая ссылка обновляется, даже если она не является предком локальной ссылки.
+push.policy:
+    text: 'Отправить (&Push):'
+push.policy.all:
+    text: Все
+push.policy.default:
+    text: По умолчанию
+push.policy.mirror:
+    text: Зеркало
+push.policy.selected:
+    text: Выбранные ветки
+push.policy.tooltip:
+    text: <html>Выберите политику отправки (Push):<ul><li><em>По умолчанию</em> — Push выполняется в соответствии с конфигурацией удалённого репозитория.</li><li><em>Выбранные ветки</em> — отправляются выбранные ветки.</li><li><em>Все</em> — отправляются все ссылки в разделе refs/heads.</li><li><em>Зеркало</em> — отправляются все ссылки в разделе refs/, включая теги и удалённые репозитории.</li></ul></html>
+push.remote:
+    text: 'Удалённый &репозиторий:'
+push.remote.tooltip:
+    text: Укажите URL удалённого репозитория или название удалённого репозитория, куда будут отправлены изменения.
+push.show.tags:
+    text: Показать те&ги
+push.show.tags.tooltip:
+    text: Если выбрано, теги также будут отображаться при выборе веток.
+push.tags:
+    text: Отправить (Push) &теги
+push.tags.tooltip:
+    text: Все ссылки на теги отправляются в дополнение к ссылкам, указанным в разделе ссылок.
+push.title:
+    text: Отправить (Push) изменения
+push.use.thin.pack:
+    text: '&Использовать thin pack'
+push.use.thin.pack.tooltip:
+    text: Если эта опция выбрана, push будет тратить дополнительные циклы ЦП для минимизации объема передаваемых данных (используйте для медленных соединений).
+pushing.all.changes:
+    text: Отправка всех зафиксированных изменений, ссылок и тегов в удалённые репозитории
+rebase.abort.action.name:
+    text: Прервать перебазирование (Rebase)
+rebase.action.error:
+    text: Ошибка перебазирования (Rebase) Git
+rebase.action.message:
+    text: Несколько Git корней имеют незавершённый процесс перебазирования (Rebase). Пожалуйста, выберите корень для выполнения действия.
+rebase.action.name:
+    text: Перебазировать (Rebase)
+rebase.action.no.root:
+    text: В проекте нет активной операции перебазирования (Rebase)
+rebase.branch:
+    text: '&Ветка:'
+rebase.branch.tooltip:
+    text: Выберите ветку для перебазирования (Rebase) (если ветка отличается от текущей, она будет сначала переключена)
+rebase.button:
+    text: Перебазировать (Rebase)
+rebase.editor.action.column:
+    text: Действие
+rebase.editor.button:
+    text: Начать перебазирование (Rebase)
+rebase.editor.comment.column:
+    text: Комментарий
+rebase.editor.commit.column:
+    text: Коммит
+rebase.editor.invalid.entryset:
+    text: Коммиты для перебазирования (Rebase) не найдены
+rebase.editor.invalid.squash:
+    text: Первый не пропущенный коммит не может быть отмечен как {0}, так как он объединяет коммит с предыдущим коммитом.
+rebase.editor.message:
+    text: Переупорядочить и отредактировать &перебазированные коммиты
+rebase.editor.move.down:
+    text: Переместить &вниз
+rebase.editor.move.down.tooltip:
+    text: Переместить коммит вниз (коммит будет применен позже)
+rebase.editor.move.up:
+    text: Переместить &вверх
+rebase.editor.move.up.tooltip:
+    text: Переместить коммит вверх в списке (коммит будет применен раньше)
+rebase.editor.title:
+    text: Перебазируем (Rebase) коммиты
+rebase.editor.view:
+    text: '&Просмотр'
+rebase.editor.view.tooltip:
+    text: Просмотреть содержимое коммита
+rebase.from:
+    text: '&От:'
+rebase.from.tooltip:
+    text: Укажите фактическую базу для ветки. Оставьте пустым для «onto».
+rebase.in.progress:
+    text: Интерактивное перебазирование (Rebase) уже запущено для этого Git-корня.
+rebase.interactive:
+    text: '&Интерактивный'
+rebase.interactive.tooltip:
+    text: Если выбрано, будет выполнено интерактивное перебазирование (Rebase).
+rebase.invalid.from:
+    text: Выражение «From» не является допустимой ссылкой.
+rebase.invalid.onto:
+    text: Выражение «Onto» не является допустимой ссылкой.
+rebase.merge.strategy:
+    text: '&Стратегия слияния (Merge):'
+rebase.merge.strategy.tooltip:
+    text: Выберите стратегию слияния (Merge) для использования
+rebase.no.merge:
+    text: '&Не использовать стратегии слияния (Merge)'
+rebase.no.merge.tooltip:
+    text: Если выбрано, во время перебазирования (Rebase) не будут применяться стратегии слияния (Merge).
+rebase.onto:
+    text: '&Onto:'
+rebase.onto.tooltip:
+    text: Ссылка, которая станет новой базой для выбранной ветки.
+rebase.onto.validate:
+    text: '&Проверить'
+rebase.preserve.merges:
+    text: '&Сохранить слияния (Merges)'
+rebase.preserve.merges.tooltip:
+    text: Сохранять слияния (Merges) во время перебазирования (Rebase) вместо их схлопывания (Squash).
+rebase.result.amend:
+    text: |-
+        Остановлено для изменения коммита во время перебазирования (Rebase) ({0}/{1}).
+        Измените коммит и продолжите процесс перебазирования.
+rebase.result.amend.title:
+    text: Перебазирование (Rebase) приостановлено
+rebase.result.cancelled:
+    text: Процесс перебазирования (Rebase) был отменен.
+rebase.result.cancelled.title:
+    text: Перебазирование (Rebase) отменено
+rebase.result.conflict:
+    text: |-
+        Перебазирование (Rebase) остановлено из-за конфликта ({0}/{1}).
+        Разрешите конфликты и продолжите процесс перебазирования.
+rebase.result.conflict.title:
+    text: Перебазирование (Rebase) приостановлено
+rebase.result.error:
+    text: |-
+        Перебазирование (Rebase) остановлено из-за ошибки ({0}/{1}).
+        Проверьте консоль VCS для получения подробностей.
+rebase.result.error.title:
+    text: Ошибка перебазирования (Rebase)
+rebase.show.remote.branches:
+    text: Показать удалённые ветки
+rebase.show.remote.branches.tooltip:
+    text: Если выбрано, удалённые ветки также будут отображаться в выпадающем списке.
+rebase.show.tags.tooltip:
+    text: Показать теги в выпадающих списках «from» и «onto».
+rebase.title:
+    text: Перебазирование (Rebase) ветки
+rebase.unstructured.editor.button:
+    text: Возобновить перебазирование (Rebase)
+rebase.unstructured.editor.git.root:
+    text: 'Корень Git:'
+rebase.unstructured.editor.message:
+    text: 'Операция Git Rebase запросила дополнительную &информацию через редактор:'
+rebase.unstructured.editor.title:
+    text: Дополнительный ввод для перебазирования (Rebase)
+rebase.unstructured.editor.tooltip:
+    text: Отредактируйте этот текст в соответствии с инструкциями, приведенными в строке.
+rebase.update.project.abort.task.title:
+    text: Отмена перебазирования (Rebase)…
+rebase.update.project.notification.abort.cancel.message:
+    text: Отмена перебазирования (Rebase) остановлена
+rebase.update.project.notification.abort.error.message:
+    text: Ошибка при отмене перебазирования (Rebase)
+rebase.update.project.notification.abort.success.message:
+    text: Перебазирование (Rebase) отменено
+rebase.valdate.onto.tooltip:
+    text: Проверить ссылку «onto».
+rebase.validate.from:
+    text: П&роверить
+rebase.validate.from.tooltip:
+    text: Проверить ссылку «from»
+refspec.add.all.branches:
+    text: Добавить &все ветки
+refspec.add.all.branches.tooltip:
+    text: Добавить запись refspec, которая сопоставляет все удалённые ветки по шаблону glob.
+refspec.add.all.tags:
+    text: Добавить все теги
+refspec.add.all.tags.tooltip:
+    text: Добавляет запись сопоставления для всех тегов
+refspec.add.ref:
+    text: '&Добавить...'
+refspec.add.ref.tooltip:
+    text: Добавить ветку или тег по названию
+refspec.branch.prefix:
+    text: 'Удалённый &репозиторий:'
+refspec.branch.prefix.tooltip:
+    text: Укажите префикс умолчальной ветки для сопоставления.
+refspec.column.force:
+    text: Принудительно
+refspec.column.local:
+    text: Локальный
+refspec.column.remote:
+    text: Удалённый
+refspec.default:
+    text: '&По умолчанию'
+refspec.default.tooltip:
+    text: Восстановить сопоставление ссылок по умолчанию
+refspec.remove:
+    text: Удалить
+refspec.remove.tooltip:
+    text: Удалить запись refspec
+refspec.title:
+    text: Сопоставление ссылок
+refspec.validation.remote.invalid:
+    text: Недопустимое локальное название для удалённого репозитория.
+refspec.validation.remote.is.blank:
+    text: Локальное название для удалённого репозитория пустое.
+regase.show.tags:
+    text: Показать теги
+remove.removing:
+    text: Удаление файлов...
+repository.action.missing.roots.misconfigured:
+    text: Ни один из настроенных Git-корней не находится под Git. Настроенная директория или некоторые её предки должны иметь директорию ".git".
+repository.action.missing.roots.title:
+    text: Нет Git-корней
+repository.action.missing.roots.unconfigured.message:
+    text: Не настроены корни Git для проекта.
+repository.not.found.error:
+    text: Не удалось найти настроенный репозиторий Git для {0}
+reset.action.name:
+    text: Сбросить HEAD...
+reset.button:
+    text: Сбросить
+reset.commit.invalid:
+    text: Указанное выражение коммита не прошло проверку.
+reset.commit.label:
+    text: 'К &коммиту:'
+reset.commit.tooltip:
+    text: |-
+        Коммит, который станет текущим HEAD в результате операции сброса.
+reset.title:
+    text: Сбросить HEAD
+reset.type:
+    text: 'Тип сброса:'
+reset.type.hard:
+    text: Жёсткий (Hard)
+reset.type.mixed:
+    text: Смешанный (Mixed)
+reset.type.soft:
+    text: Мягкий (Soft)
+reset.type.tooltip:
+    text: <html>Тип сброса (см. также страницу руководства <code>git reset</code>):<ul><li><b>Смешанный (Mixed)</b> сбрасывает индекс, но не рабочую копию</li><li><b>Мягкий (Soft)</b> оставляет индекс и рабочую копию, только перемещает указатель HEAD</li><li><b>Жёсткий (Hard)</b> сбрасывает индекс и рабочую копию.<em>Изменения в рабочей копии будут потеряны</em></li></ul></html>
+reset.validate:
+    text: '&Проверить'
+reset.validate.tooltip:
+    text: Проверить указатель коммита и проверить содержимое ссылочного коммита.
+resetting.title:
+    text: Сброс HEAD...
+revert.action.name:
+    text: '&Отменить'
+revert.reverting:
+    text: Отмена файлов...
+revert.reverting.mulitple:
+    text: Отмена {0} файлов
+revision.graph:
+    text: RevisionGraph
+root.tracker.message:
+    text: <p>Некоторые настроенные корневые каталоги VCS Git находятся не под Git или имеют репозитории Git в подкаталогах без настроенного корневого каталога VCS. <a href="">Настроить.</a></p>
+root.tracker.message.title:
+    text: Недопустимые корневые каталоги Git
+select.branch.to.checkout:
+    text: Выбрать ветку для checkout
+settings.auto.update.on.push.rejected:
+    text: Автоматически обновлять, если &push текущей ветки был отклонен
+settings.commit.automatically.on.cherry.pick:
+    text: Автоматически коммитить при cherry-pick
+settings.crlf:
+    text: Предупреждать, если &CRLF разделители строк собираются коммитить
+settings.detached.head:
+    text: Предупреждать при коммите в detached HEAD или во время перебазирования (Rebase)
+settings.protected.branched:
+    text: 'Защищенные ветки:'
+settings.update.method:
+    text: 'Метод обновления:'
+show.all.paths.affected.action.name:
+    text: Показать все затронутые пути
+ssh.ask.passphrase.title:
+    text: Парольная фраза SSH-ключа
+ssh.askPassphrase.message:
+    text: 'Пожалуйста, введите парольную фразу для закрытого ключа {0} (имя пользователя: {1})'
+ssh.changed.host.key:
+    text: |-
+        <html>Ключ хоста для сервера {0}:{1} изменился на {2} (тип {3}).
+        Вы хотите принять измененный ключ?</html>
+ssh.confirm.key.titile:
+    text: Подтвердить ключ SSH-сервера
+ssh.error.title:
+    text: Ошибка аутентификации
+ssh.keyboard.interactive.title:
+    text: 'Интерактивная клавиатура SSH: {0}'
+ssh.keyboard.interactive.username:
+    text: 'Имя пользователя:'
+ssh.new.host.key:
+    text: |-
+        <html>Подключение к новому хосту {0}:{1} с ключом {2} (тип {3}).
+        Хотите добавить этот хост в базу данных известных хостов?</html>
+ssh.password.message:
+    text: Введите пароль для пользователя {0}
+ssh.password.title:
+    text: Вход по паролю SSH
+stash.button:
+    text: Создать Stash
+stash.keep.index:
+    text: Сохранить &индекс
+stash.keep.index.tooltip:
+    text: Если этот флажок установлен, индексированные изменения сохраняются в индексе.
+stash.message:
+    text: '&Сообщение:'
+stash.message.tooltip:
+    text: Введите сообщение для stash здесь.
+stash.title:
+    text: Stash
+stashing.title:
+    text: Создание Stash...
+tag.button:
+    text: Создать тег
+tag.commit.label:
+    text: '&Коммит:'
+tag.commit.tooltip:
+    text: Введите название коммита или объекта для тега или оставьте пустым, чтобы использовать HEAD.
+tag.error.creating.message.file.message:
+    text: 'Не удалось создать файл сообщения: {0}'
+tag.error.creating.message.file.title:
+    text: Ошибка создания файла сообщения
+tag.error.invalid.commit:
+    text: Название коммита или объекта недопустимо.
+tag.error.tag.exists:
+    text: Тег с таким именем уже существует.
+tag.force:
+    text: '&Принудительно'
+tag.force.tooltip:
+    text: Принудительно создать тег, даже если тег с таким именем уже существует.
+tag.getting.existing.tags:
+    text: Получение существующих тегов...
+tag.message:
+    text: 'Укажите название тега:'
+tag.message.label:
+    text: '&Сообщение:'
+tag.message.tooltip:
+    text: Если сообщение не пустое, будет создан аннотированный тег.
+tag.name.label:
+    text: 'Название тега:'
+tag.name.tooltip:
+    text: Введите здесь новое название тега.
+tag.nonvcs.error.message:
+    text: 'ОШИБКА: Файлы не помечены, не все находятся под корневым каталогом VCS!'
+tag.nonvcs.error.title:
+    text: Результат тегирования
+tag.title:
+    text: Тег
+tag.validate:
+    text: '&Проверить'
+tag.validate.tooltip:
+    text: Нажмите эту кнопку, чтобы проверить коммит, который будет помечен.
+tagging.title:
+    text: Тегирование файлов...
+task.queue.title:
+    text: Операции Git
+task.rebasing.title:
+    text: Перебазирование (Rebase)...
+unindexed.files.changlelist.name:
+    text: Неиндексированные файлы
+unstash.branch.label:
+    text: 'Как новая &ветка:'
+unstash.branch.tooltip:
+    text: Если введено непустое название, stash будет извлечён как новая ветка.
+unstash.button.apply:
+    text: Применить Stash
+unstash.button.branch:
+    text: Ветка
+unstash.button.pop:
+    text: Извлечь Stash
+unstash.clear:
+    text: '&Очистить'
+unstash.clear.tooltip:
+    text: Удалить все stash в репозитории.
+unstash.clearing.stashes:
+    text: Очистка stash...
+unstash.drop:
+    text: '&Удалить'
+unstash.drop.tooltip:
+    text: Удалить выбранный stash
+unstash.dropping.stash:
+    text: Удаление Stash {0}...
+unstash.error.branch.exists:
+    text: Указанная ветка уже существует
+unstash.error.invalid.branch.name:
+    text: Недопустимое название ветки
+unstash.pop.stash:
+    text: '&Извлечь stash'
+unstash.pop.stash.tooltip:
+    text: Если выбрано, stash будет удалён после применения.
+unstash.reinstate.index:
+    text: Восстановить &индекс
+unstash.reinstate.index.tooltip:
+    text: Попытаться восстановить индекс, а также изменения в рабочей копии.
+unstash.stashes:
+    text: '&Stashes:'
+unstash.stashes.item:
+    text: '<html><b><tt>{0}</tt></b>:<i>{1}</i>: {2}</html>'
+unstash.stashes.tooltip:
+    text: Выберите stash для операции.
+unstash.title:
+    text: Извлечь изменения
+unstash.unstashing:
+    text: Извлечение stash...
+unstash.view:
+    text: '&Просмотр'
+unstash.view.tooltip:
+    text: Просмотреть выбранный stash
+unstashing.title:
+    text: Извлечение изменений...
+update.locally.modified.files:
+    text: '&Файлы:'
+update.locally.modified.files.tooltip:
+    text: Локально измененные файлы.
+update.locally.modified.git.root:
+    text: 'Git Root:'
+update.locally.modified.message:
+    text: '<html><p>Следующие файлы под этим корнем локально изменены.<br/>Возможные причины: незакоммиченные изменения; проблема с преобразованием CRLF; автосохранение файла конфигурации {0}.</p><p><ul><li>Нажмите <b>Отменить изменения в файлах</b>, чтобы отменить эти локальные изменения и продолжить процесс обновления.</li><li>Нажмите <b>Отмена</b>, чтобы отменить процесс обновления.<br/>Используйте опцию Авто-Stash, чтобы сохранить локальные изменения перед обновлением и восстановить их после.</li></ul></p> </html>'
+update.locally.modified.rescan:
+    text: Повторное &сканирование
+update.locally.modified.rescan.tooltip:
+    text: <html>Повторно сканировать репозиторий, чтобы снова проверить наличие локально измененных файлов.<br/>Используйте эту кнопку, если вы решили проблему вручную.</html>
+update.locally.modified.revert:
+    text: Отменить изменения в файлах
+update.locally.modified.title:
+    text: Обнаружены локально измененные файлы
+update.options.display.name:
+    text: Настройки обновления Git
+update.options.no.commit:
+    text: Нет &коммита
+update.options.save.before.update:
+    text: Очистить рабочую копию перед обновлением
+update.options.save.keep:
+    text: Не &очищать
+update.options.save.keep.tooltip:
+    text: Оставить изменения в рабочей копии
+update.options.save.shelve:
+    text: Использовать S&helve
+update.options.save.shelve.tooltip:
+    text: Использовать Shelve {0} для сохранения изменений (файлы будут восстановлены после обновления)
+update.options.save.stash:
+    text: Использовать S&tash
+update.options.save.stash.tooltip:
+    text: Использовать Git Stash для сохранения изменений (файлы будут восстановлены после обновления)
+update.options.type:
+    text: Тип обновления
+update.options.type.default:
+    text: Ветка по &умолчанию
+update.options.type.default.tooltip:
+    text: Использовать стратегию обновления ветки по умолчанию для всех обновленных корневых каталогов Git VCS
+update.options.type.merge:
+    text: '&Слияние (Merge)'
+update.options.type.merge.tooltip:
+    text: Использовать стратегию слияния при обновлении для всех корневых каталогов Git VCS
+update.options.type.rebase:
+    text: 'Перебазирование (&Rebase)'
+update.options.type.rebase.tooltip:
+    text: Использовать стратегию обновления перебазированием (Rebase) для всех корневых каталогов Git VCS
+update.rebase.no.change:
+    text: <html>Изменения не обнаружены <tt>{0}</tt>.<ul><li>Пропустить коммит — пропускает текущий коммит в процессе перебазирования (Rebase)</li><li>Повторить попытку — сделать это после того, как вы вручную добавите изменения в коммит</li><li>Или отмена отменяет процесс обновления для этого корневого каталога.</li></ul></html>
+update.rebase.no.change.cancel:
+    text: Отменить обновление
+update.rebase.no.change.retry:
+    text: Повторить попытку
+update.rebase.no.change.skip:
+    text: Пропустить коммит
+update.rebase.no.change.title:
+    text: Неподготовленные изменения
+update.rebase.unmerged:
+    text: '<html>Корневой каталог: <tt>{0}</tt><br/>Всё ещё остались файлы для слияния (Merge). Хотите их слить?<ul><li>Да — слить.</li><li>Нет — отменить обновление для этого корневого каталога.</li></ul></html>'
+update.rebase.unmerged.title:
+    text: Неразрешённые конфликты перебазирования (Rebase)
+update.restoring.change.lists:
+    text: Восстановление списков изменений...
+update.root.rebasing:
+    text: В корневом каталоге {0} не завершён процесс перебазирования (Rebase).
+update.root.rebasing.item:
+    text: <li>{0}</li>
+update.root.rebasing.message:
+    text: <html>Следующие корневые каталоги имеют незавершенный процесс перебазирования (Rebase). Обновление невозможно.<ul>{0}</u></html>
+update.root.rebasing.title:
+    text: Незаверш`нный процесс перебазирования (Rebase)
+update.shelving.changes:
+    text: Сохранение изменений...
+update.unshelving.changes:
+    text: Восстановление изменений...
+util.remote.renderer.default:
+    text: <html><b>{0}</b>(<i>{1}</i>)</html>
+util.remote.renderer.none:
+    text: <html><i>Нет</i></html>
+util.remote.renderer.normal:
+    text: <html><b>{0}</b>(<i>{1}</i>)</html>
+util.remote.renderer.self:
+    text: <html><i>Текущий репозиторий</i></html>
+vcs.name.with.mnemonic:
+    text: _Git
+vcs.popup.git.github.section:
+    text: GitHub
+vcs.unable.to.run.git:
+    text: 'Не удалось запустить git: {0} ({1})'
+vfs.listener.add.single.prompt:
+    text: |-
+        Хотите добавить следующий файл в Git?
+        {0}
+
+        Если вы скажете Нет, вы все равно сможете добавить его позже вручную.
+vfs.listener.add.single.title:
+    text: Добавить файл в Git
+vfs.listener.add.title:
+    text: Добавить файлы в Git
+vfs.listener.checking.ignored:
+    text: Проверка игнорируемых файлов
+vfs.listener.delete.single.prompt:
+    text: |-
+        Хотите удалить следующий файл из Git?
+        {0}
+
+        Если вы выберете «Нет», вы всё равно сможете удалить его позже вручную.
+vfs.listener.delete.single.title:
+    text: Удалить файл из Git
+vfs.listener.delete.title:
+    text: Удалить файлы из Git
