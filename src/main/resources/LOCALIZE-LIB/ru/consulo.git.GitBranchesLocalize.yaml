@@ -1,0 +1,56 @@
+action.checkout.as.new.branch.text:
+    text: Переключиться как на новую ветку
+action.checkout.as.new.local.branch.text:
+    text: Переключиться как на новую локальную ветку
+action.checkout.tag.or.revision.impossible.description:
+    text: Переключение невозможно до первого коммита
+action.checkout.tag.or.revision.text:
+    text: Переключиться на тег или ревизию…
+action.checkout.text:
+    text: Переключиться
+action.checkout.with.rebase.0.description:
+    text: Переключиться на указанную ветку и перебазировать (Rebase) её на текущую ветку за один шаг, как это сделал бы `git rebase HEAD {0}`.
+action.checkout.with.rebase.text:
+    text: Переключиться с перебазированием (Rebase)
+action.common.local.branches.text:
+    text: Общие локальные ветки
+action.common.remote.branches.text:
+    text: Общие удалённые ветки
+action.compare.text:
+    text: Сравнить
+action.delete.text:
+    text: Удалить
+action.local.branches.in.repo.text:
+    text: Локальные ветки в {0}
+action.local.branches.text:
+    text: Локальные ветки
+action.merge.text:
+    text: Слияние
+action.rebase.onto.text:
+    text: Перебазировать (Rebase) на
+action.remote.branches.in.repo.text:
+    text: Удалённые ветки в {0}
+action.remote.branches.text:
+    text: Удалённые ветки
+action.rename.text:
+    text: Переименовать
+action.repositories.text:
+    text: Репозитории
+action.tags.in.repo.text:
+    text: Теги в {0}
+dialog.message.enter.reference.branch.tag.name.or.commit.hash:
+    text: 'Введите название ветки или тега, или хеш коммита:'
+dialog.message.new.branch.name:
+    text: 'Название новой ветки:'
+dialog.message.new.name.for.the.branch.0:
+    text: 'Новое название для ветки «{0}»:'
+dialog.title.checkout:
+    text: Переключиться
+dialog.title.checkout.new.branch.from.0:
+    text: Переключиться на новую ветку из {0}
+dialog.title.checkout.remote.branch:
+    text: Переключиться на удалённую ветку
+dialog.title.create.new.branch:
+    text: Создать новую ветку
+dialog.title.rename.branch.0:
+    text: Переименовать ветку {0}
