@@ -1,0 +1,74 @@
+action.BranchActionGroupPopup.Anonymous.text.restore.size:
+    text: Восстановить размер
+action.BranchActionGroupPopup.settings.text:
+    text: Настройки
+action.new.branch.description:
+    text: Создать и переключиться на новую ветку
+action.new.branch.no.commits.description:
+    text: Переключиться на новую ветку невозможно до первого коммита в ней
+action.new.branch.text:
+    text: Создать ветку
+branch.popup.maximum.branch.length.sample:
+    text: 'VCS: Rebasing feature-12345 in custom development branch'
+branch.popup.vcs.name.branches:
+    text: '{0} веток'
+branch.popup.vcs.name.branches.in.repo:
+    text: '{0} веток в {1}'
+branch.popup.warning.branches.have.diverged:
+    text: Ветки разошлись
+clone.button:
+    text: Клонировать
+clone.destination.directory.description:
+    text: Выберите родительский каталог назначения для клонирования
+clone.destination.directory.error.access:
+    text: Не удалось создать {0}<br/>Проверьте права доступа
+clone.destination.directory.title:
+    text: Родительский каталог
+clone.destination.exists.error:
+    text: Путь {0} существует. Репозиторий не может быть клонирован в существующий каталог.
+clone.dir.name:
+    text: 'Название &каталога:'
+clone.invalid.url:
+    text: URL репозитория является некорректным URL или несуществующей директорией.
+clone.parent.dir:
+    text: 'Родительский каталог:'
+clone.parent.missing.error:
+    text: Родительский путь {0} должен существовать.
+clone.repository.url:
+    text: '{0} URL репозитория:'
+clone.repository.url.test.failed.message:
+    text: Тест репозитория не удался<br/>{0}
+clone.test:
+    text: Тест
+clone.test.connection.title:
+    text: Проверить соединение
+clone.test.failed.error:
+    text: Тест репозитория не удался.
+clone.test.success.message:
+    text: <html>Соединение с репозиторием {0} успешно установлено.</html>
+clone.testing:
+    text: Тестирование репозитория {0}
+clone.title:
+    text: Клонировать репозиторий
+clone.url.is.not.directory.error:
+    text: URL репозитория не является каталогом.
+cloning.repository:
+    text: Клонирование исходного репозитория {0}
+commit.amend:
+    text: Внести изменения в коммит
+commit.amend.tooltip:
+    text: <html>Объединить этот коммит с предыдущим</html>
+notification.synched.branches.content:
+    text: В проекте несколько корней ({0}), и все они соответствуют одной и той же ветке. Мы включили синхронное управление ветками для проекта.<br/>Если вы хотите управлять ветками в разных корнях по отдельности, вы можете <a href='settings'>отключить</a> эту настройку.
+notification.synched.branches.title:
+    text: Включено синхронное управление ветками
+push.force.confirmation.text:
+    text: Вы собираетесь принудительно отправить{0}. Это может перезаписать коммиты в удаленном репозитории. Вы уверены, что хотите продолжить?
+sync.setting:
+    text: Управлять репозиториями &синхронно
+sync.setting.description:
+    text: Если выбрано, вы сможете переключаться, сравнивать, удалять и создавать новые ветки во всех {0} корнях одним действием. Это также повлияет на поведение диалога отправки.
+tooltip.branch.widget.root.name.text:
+    text: 'Корень: {0}'
+tooltip.branch.widget.vcs.branch.name.text:
+    text: '{0} Ветка: {1}'
