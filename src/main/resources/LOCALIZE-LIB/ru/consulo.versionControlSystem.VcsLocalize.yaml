@@ -165,7 +165,7 @@ action.show.prev.change.marker.description:
 action.show.prev.change.marker.text:
     text: Предыдущая пр_авка
 action.show.shelf.text:
-    text: Показать отложенное
+    text: Показать отложенное (Shelve)
 action.show.tabbed.file.history.description:
     text: Показать историю изменений файла
 action.show.tabbed.file.history.text:
@@ -1125,7 +1125,7 @@ settings.filter.update.project.info.by.scope:
 shelf.tab:
     text: Отложить
 shelve.changes.action:
-    text: Отложить изменения
+    text: Отложить изменения (Shelve)
 shelve.changes.delete.confirm:
     text: Вы уверены, что хотите удалить отложенный список изменений с именем «{0}»? Эту операцию будет невозможно отменить.
 shelve.changes.delete.files.from.list:
