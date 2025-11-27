@@ -17,7 +17,7 @@ boolean.method.is.always.inverted.problem.descriptor:
 cleanup.in.file:
     text: Очистка кода
 cleanup.in.scope:
-    text: Очистить код на...
+    text: Очистить код в…
 configure.annotations.option:
     text: Настроить аннотации
 configure.checker.option.assert.false.add.method.checker.dialog.title:
@@ -123,7 +123,7 @@ default.file.template.description:
 default.file.template.display.name:
     text: Использование шаблона файла по умолчанию
 default.file.template.edit.template:
-    text: Редактировать шаблон...
+    text: Редактировать шаблон…
 default.file.template.replace.with.actual.file.template:
     text: Заменить на актуальный шаблон файла
 default.file.template.report.catch.section:
@@ -395,15 +395,15 @@ inspection.application.directory.cannot.be.found:
 inspection.application.file.cannot.be.found:
     text: Файл {0} не найден
 inspection.application.initializing.project:
-    text: Инициализация проекта...
+    text: Инициализация проекта…
 inspection.application.opening.project:
-    text: Открытие проекта...
+    text: Открытие проекта…
 inspection.application.project.has.older.format.and.will.be.converted:
     text: Проект имеет более старый формат и будет преобразован.
 inspection.application.project.was.succesfully.converted.old.project.files.were.saved.to.0:
     text: Проект успешно преобразован. Старые файлы проекта были сохранены в {0}
 inspection.application.starting.up:
-    text: Запуск {0} ...
+    text: Запуск {0}…
 inspection.as:
     text: Как {0}
 inspection.assert.quickfix:
@@ -605,7 +605,7 @@ inspection.disabled.title:
 inspection.disabled.wrong.id:
     text: 'Инспекция «{0}» отключена: ID «{1}» не соответствует шаблону «{2}».'
 inspection.display.name:
-    text: Анализ кода...
+    text: Анализ кода…
 inspection.done:
     text: готово.
 inspection.duplicate.throws.display.name:
@@ -625,7 +625,7 @@ inspection.duplicates.message:
 inspection.duplicates.message.in.this.file:
     text: (в этом файле)
 inspection.duplicates.message.more:
-    text: '... (ещё {0})'
+    text: '… (ещё {0})'
 inspection.duplicates.navigate.to.occurrences:
     text: Перейти к вхождениям
 inspection.duplicates.occurrences.view.title:
@@ -775,9 +775,9 @@ inspection.filter.show.diff.only.action.text:
 inspection.general.tools.group.name:
     text: Общие
 inspection.generating.html.progress.title:
-    text: Генерация HTML...
+    text: Генерация HTML…
 inspection.generating.xml.progress.title:
-    text: Выгрузка XML...
+    text: Выгрузка XML…
 inspection.handle.signature.change.type.fix.name:
     text: Изменить тип на «{0}»
 inspection.handle.signature.field.cannot.resolve:
@@ -1015,7 +1015,7 @@ inspection.processing.job.descriptor2:
 inspection.profile.unnamed:
     text: Безымянный
 inspection.progress.title:
-    text: Проверка кода...
+    text: Проверка кода…
 inspection.quickfix.assert.family:
     text: Утверждение
 inspection.raw.variable.type.can.be.generic.family.quickfix:
@@ -1419,7 +1419,7 @@ offline.view.title:
 parsing.inspections.dump.progress.title:
     text: Разбор дампа XML-проверок
 preparing.for.apply.fix:
-    text: Подготовка к применению исправления...
+    text: Подготовка к применению исправления…
 problematic.whitespace.display.name:
     text: Проблемные пробелы
 problematic.whitespace.show.whitespaces.quickfix:
@@ -1435,7 +1435,7 @@ profile.assignment.repeatable.scope.warning:
 profile.assignments.browse.profile.scopes.dialog.title:
     text: Области видимости профилей
 profile.assignments.browse.scope.button.title:
-    text: '&Обзор ...'
+    text: '&Обзор…'
 profile.assignments.display.name:
     text: Ошибки
 profile.assignments.table.title:
@@ -1487,7 +1487,7 @@ rename.message.prefix.inspection.profile:
 report.suspicious.but.possibly.correct.method.calls:
     text: '&Сообщать о подозрительных, но потенциально корректных вызовах методов'
 run.inspection.on.file.intention.text:
-    text: Запустить проверку на ...
+    text: Запустить проверку на …
 run.with.choosen.profile.dialog.option:
     text: Запустить с &выбранным профилем
 run.with.editor.settings.dialog.option:

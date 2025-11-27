@@ -1,31 +1,31 @@
 action.Annotate.with.Blame.text:
     text: Аннотировать с помощью Git Blame
 action.Git.Pull.text:
-    text: Получить (Pull)...
+    text: Получить (Pull)…
 action.Git.Stash.Silently.text:
-    text: Припрятать (Stash) бесшумно
+    text: Припрятать бесшумно (Stash)
 action.Git.Stash.UnstashAs.description:
     text: Pop или применить выбранный stash как новую ветку с индексом или без него
 action.Git.Stash.UnstashAs.text:
-    text: Достать припрятанное (Unstash)...
+    text: Достать припрятанное (Unstash)…
 action.add.text:
     text: Добавить
 action.branches.text:
-    text: _Ветки...
+    text: _Ветки…
 action.checkout.revision.text:
     text: Checkout Revision
 action.init.text:
-    text: Создать Git репозиторий...
+    text: Создать Git репозиторий…
 action.compare.with.branch.text:
-    text: Сравнить с веткой или тегом...
+    text: Сравнить с веткой или тегом…
 action.create.new.branch.description:
     text: Создать новую ветку, начиная с выбранного коммита
 action.create.new.branch.text:
-    text: Новая ветка...
+    text: Новая ветка…
 action.create.new.tag.description:
     text: Создать новый тег, указывающий на этот коммит
 action.create.new.tag.text:
-    text: Новый тег...
+    text: Новый тег…
 action.fetch.text:
     text: Актуализировать (Fetch)
 action.log.deep.compare.description:
@@ -33,33 +33,33 @@ action.log.deep.compare.description:
 action.log.deep.compare.text:
     text: Выделить невыбранные коммиты
 action.log.reset.text:
-    text: Сбросить текущую ветку к этому коммиту...
+    text: Сбросить текущую ветку к этому коммиту…
 action.merge.name:
     text: Слияние (Merge)
 action.merge.text:
-    text: Слияние (Merge)...
+    text: Слияние (Merge)…
 action.pull.text:
-    text: Получить (Pull)...
+    text: Получить (Pull)…
 action.rebase.abort.progress.title:
-    text: Отмена процесса перебазирования (Rebase)...
+    text: Отмена процесса перебазирования (Rebase)…
 action.rebase.abort.text:
     text: Отменить перебазирование (Rebase)
 action.rebase.continue.progress.title:
-    text: Продолжение процесса перебазирования (Rebase)...
+    text: Продолжение процесса перебазирования (Rebase)…
 action.rebase.continue.text:
     text: Продолжить перебазирование (Rebase)
 action.rebase.skip.name:
     text: Пропустить коммит при перебазировании (Rebase)
 action.rebase.skip.progress.title:
-    text: Пропуск коммита во время перебазирования (Rebase)...
+    text: Пропуск коммита во время перебазирования (Rebase)…
 action.rebase.skip.text:
     text: Пропустить коммит
 action.rebase.text:
-    text: Перебазирование (Rebase)...
+    text: Перебазирование (Rebase)…
 action.reset.text:
-    text: Сбросить HEAD...
+    text: Сбросить HEAD…
 action.resolve.conflicts.text:
-    text: Разрешить конфликты...
+    text: Разрешить конфликты…
 action.selected.directory.text:
     text: Выбран{0,choice,1# каталог|2#ы каталоги}
 action.selected.file.text:
@@ -67,21 +67,21 @@ action.selected.file.text:
 action.stash.name:
     text: Припрятать (Stash)
 action.stash.text:
-    text: Припрятать изменения (Stash)...
+    text: Припрятать изменения (Stash)…
 action.tag.name:
     text: Тег
 action.tag.text:
-    text: Новый тег...
+    text: Новый тег…
 action.text.show.all.submitted:
     text: Показать все файлы, измененные этим коммитом
 action.unstash.name:
     text: Достать припрятанное (Unstash)
 action.unstash.text:
-    text: Достать припрятанные изменения (Unstash)...
+    text: Достать припрятанные изменения (Unstash)…
 add.action.name:
     text: Добавить
 add.adding:
-    text: Добавление файлов...
+    text: Добавление файлов…
 addrefspec.button:
     text: Добавить
 addrefspec.get.references:
@@ -420,21 +420,21 @@ git.running:
 git.status.bar.widget.name:
     text: Git-ветка
 git.status.bar.widget.text.cherry.pick:
-    text: Забрать коммит (Cherry-pick) в {0}
+    text: Забрать коммит в {0} (Cherry-pick)
 git.status.bar.widget.text.merge:
-    text: Слияние (Merge) {0}
+    text: Слияние {0} (Merge)
 git.status.bar.widget.text.rebase:
-    text: Перебазирование (Rebase) {0}
+    text: Перебазирование {0} (Rebase)
 git.status.bar.widget.text.revert:
-    text: Откатывание (Revert) в {0}
+    text: Откатывание в {0} (Revert)
 git.unstash.clear.confirmation.message:
-    text: Удалить все припрятанные (Stash) изменения? Это действие нельзя отменить.
+    text: Удалить все припрятанные изменения (Stash)? Это действие нельзя отменить.
 git.unstash.clear.confirmation.title:
-    text: Удалить все припрятанные (Stash) изменения?
+    text: Удалить все припрятанные изменения (Stash)?
 git.unstash.drop.confirmation.message:
     text: <html>Вы хотите удалить {0}?<br/>"{1}"</html>
 git.unstash.drop.confirmation.title:
-    text: Удалить припрятанные (Stash) изменения {0}?
+    text: Удалить припрятанные изменения {0} (Stash)?
 git.vcs.config.convert.ask:
     text: Спрашивать перед конвертацией
 git.vcs.config.convert.crlf:
@@ -476,7 +476,7 @@ group.main.menu.current.file.text:
 group.main.menu.patch.text:
     text: Patch
 group.main.menu.rebase.actions.text:
-    text: Перебазирование (_Rebase)
+    text: _Перебазирование (Rebase)
 group.main.menu.uncommitted.changes.text:
     text: _Незакоммиченные изменения
 group.repository.context.menu.text:
@@ -498,7 +498,7 @@ init.warning.already.under.git:
 init.warning.title:
     text: Инициализация Git
 initializing.title:
-    text: Инициализация репозитория...
+    text: Инициализация репозитория…
 merge.add.log.information:
     text: Добавить информацию &журнала изменений
 merge.add.log.information.tooltip:
@@ -508,7 +508,7 @@ merge.branch.button:
 merge.branch.message:
     text: Выберите ветку для слияния (Merge) с этой ({0})
 merge.branch.title:
-    text: Слияние (Merge) веток
+    text: Слияние изменений (Merge)
 merge.branches:
     text: '&Ветки для слияния (Merge):'
 merge.branches.tooltip:
@@ -534,13 +534,13 @@ merge.no.fast.forward.tooltip:
 merge.retrieving.branches:
     text: Получение неслитых веток
 merge.squash.commit:
-    text: &Схлопывающий (Squash) коммит
+    text: &Схлопывающий коммит (Squash)
 merge.squash.tooltip:
     text: Схлопнуть все изменения в один коммит (опция "--squash")
 merge.strategy:
     text: '&Стратегия:'
 merge.strategy.tooltip:
-    text: Стратегия слияния (Merge) для использования (опция "-s")
+    text: Стратегия слияния (Merge) (опция "-s")
 merge.tool.action.name:
     text: Инструмент слияния (MergeTool)
 merge.tool.column.status.deleted:
@@ -552,9 +552,9 @@ merge.tool.column.theirs.status:
 merge.tool.column.yours.status:
     text: Ваш
 merging.branch:
-    text: Слияние (Merge) ветки {0}
+    text: Слияние ветки {0} (Merge)
 merging.title:
-    text: Слияние (Merge) изменений в {0}
+    text: Вливаем изменения в {0} (Merge)
 paths.affected.title:
     text: Пути, затронутые в коммите {0}
 progress.title.moving.files:
@@ -578,17 +578,17 @@ pull.remote.tooltip:
 pull.retrieving.remotes:
     text: Получение удалённых репозиториев
 pull.title:
-    text: Получить (Pull) изменения
+    text: Получить изменения (Pull)
 pull.url.message:
     text: 'Введите URL удалённого репозитория для получения/слияния (Pull/Merge) (оставьте пустым для значения по умолчанию):'
 pull.url.title:
     text: URL получения (Pull)
 pulling.title:
-    text: Получение (Pull) изменений из {0}
+    text: Получение изменений из {0} (Pull)
 push.action.name:
     text: Отправить (Push)
 push.active.action.name:
-    text: Отправка (Push) активных веток
+    text: Отправка активных веток (Push)
 push.active.autostash:
     text: '&Авто-припрятывание (Stash)'
 push.active.autostash.tooltip:
@@ -614,11 +614,11 @@ push.active.fetch.failed:
 push.active.fetch.failed.title:
     text: Актуализация (Fetch) не удалась
 push.active.fetch.tooltip:
-    text: Актуализировать состояние (Fetch) отслеживаемых веток из удалённого репозитория
+    text: Актуализировать состояние отслеживаемых веток из удалённого репозитория (Fetch)
 push.active.fetching:
-    text: Актуализация (Fetch) для активных веток
+    text: Актуализация для активных веток (Fetch)
 push.active.pushing:
-    text: Отправка веток...
+    text: Отправка веток…
 push.active.rebase:
     text: 'Перебазирование (&Rebase)'
 push.active.rebase.and.push:
@@ -626,7 +626,7 @@ push.active.rebase.and.push:
 push.active.rebase.tooltip:
     text: Перебазирование (Rebase) веток для возможности отправки (Push) (может переупорядочить коммиты)
 push.active.rebasing:
-    text: Перебазируем (Rebase)...
+    text: Перебазируем (Rebase)…
 push.active.save.before.rebase:
     text: 'Очистить рабочее дерево перед перебазированием (Rebase):'
 push.active.status.behind:
@@ -644,7 +644,7 @@ push.active.status.push:
 push.active.status.status:
     text: 'Статус: '
 push.active.title:
-    text: Отправка (Push) активных веток
+    text: Отправка активных веток (Push)
 push.active.view:
     text: '&Просмотр'
 push.branches:
@@ -658,7 +658,7 @@ push.force.update:
 push.force.update.tooltip:
     text: Если выбрано, удалённая ссылка обновляется, даже если она не является предком локальной ссылки.
 push.policy:
-    text: 'Отправить (&Push):'
+    text: '&Отправить (Push):'
 push.policy.all:
     text: Все
 push.policy.default:
@@ -678,11 +678,11 @@ push.show.tags:
 push.show.tags.tooltip:
     text: Если выбрано, теги также будут отображаться при выборе веток.
 push.tags:
-    text: Отправить (Push) &теги
+    text: Отправить &теги (Push)
 push.tags.tooltip:
     text: Все ссылки на теги отправляются в дополнение к ссылкам, указанным в разделе ссылок.
 push.title:
-    text: Отправить (Push) изменения
+    text: Отправить изменения (Push)
 push.use.thin.pack:
     text: '&Использовать thin pack'
 push.use.thin.pack.tooltip:
@@ -692,7 +692,7 @@ pushing.all.changes:
 rebase.abort.action.name:
     text: Прервать перебазирование (Rebase)
 rebase.action.error:
-    text: Ошибка перебазирования (Rebase) Git
+    text: Ошибка перебазирования Git (Rebase)
 rebase.action.message:
     text: Несколько Git-корней имеют незавершённый процесс перебазирования (Rebase). Пожалуйста, выберите корень для выполнения действия.
 rebase.action.name:
@@ -728,7 +728,7 @@ rebase.editor.move.up:
 rebase.editor.move.up.tooltip:
     text: Переместить коммит вверх в списке (коммит будет применен раньше)
 rebase.editor.title:
-    text: Перебазируем (Rebase) коммиты
+    text: Перебазируем коммиты (Rebase)
 rebase.editor.view:
     text: '&Просмотр'
 rebase.editor.view.tooltip:
@@ -750,7 +750,7 @@ rebase.invalid.onto:
 rebase.merge.strategy:
     text: '&Стратегия слияния (Merge):'
 rebase.merge.strategy.tooltip:
-    text: Выберите стратегию слияния (Merge) для использования
+    text: Выберите стратегию слияния (Merge)
 rebase.no.merge:
     text: '&Не использовать стратегии слияния (Merge)'
 rebase.no.merge.tooltip:
@@ -772,7 +772,7 @@ rebase.result.amend:
 rebase.result.amend.title:
     text: Перебазирование (Rebase) приостановлено
 rebase.result.cancelled:
-    text: Процесс перебазирования (Rebase) был отменен.
+    text: Процесс перебазирования (Rebase) был отменён.
 rebase.result.cancelled.title:
     text: Перебазирование (Rebase) отменено
 rebase.result.conflict:
@@ -794,7 +794,7 @@ rebase.show.remote.branches.tooltip:
 rebase.show.tags.tooltip:
     text: Показать теги в выпадающих списках «from» и «onto».
 rebase.title:
-    text: Перебазирование (Rebase) ветки
+    text: Перебазирование ветки (Rebase)
 rebase.unstructured.editor.button:
     text: Возобновить перебазирование (Rebase)
 rebase.unstructured.editor.git.root:
@@ -828,7 +828,7 @@ refspec.add.all.tags:
 refspec.add.all.tags.tooltip:
     text: Добавляет запись сопоставления для всех тегов
 refspec.add.ref:
-    text: '&Добавить...'
+    text: '&Добавить…'
 refspec.add.ref.tooltip:
     text: Добавить ветку или тег по названию
 refspec.branch.prefix:
@@ -858,9 +858,9 @@ refspec.validation.remote.is.blank:
 regase.show.tags:
     text: Показать теги
 remove.removing:
-    text: Удаление файлов...
+    text: Удаление файлов…
 repository.action.missing.roots.misconfigured:
-    text: Ни один из настроенных Git-корней не находится под Git. Настроенный каталог или какие-то из его родительских должны иметь подкаталог ".git".
+    text: Ни один из настроенных Git-корней не находится под Git. Настроенный каталог должен иметь подкаталог ".git".
 repository.action.missing.roots.title:
     text: Нет Git-корней
 repository.action.missing.roots.unconfigured.message:
@@ -868,7 +868,7 @@ repository.action.missing.roots.unconfigured.message:
 repository.not.found.error:
     text: Не удалось найти настроенный репозиторий Git для {0}
 reset.action.name:
-    text: Сбросить HEAD...
+    text: Сбросить HEAD…
 reset.button:
     text: Сбросить
 reset.commit.invalid:
@@ -895,11 +895,11 @@ reset.validate:
 reset.validate.tooltip:
     text: Проверить указатель коммита и проверить содержимое ссылочного коммита.
 resetting.title:
-    text: Сброс HEAD...
+    text: Сброс HEAD…
 revert.action.name:
     text: '&Откатить'
 revert.reverting:
-    text: Откатывание файлов...
+    text: Откатывание файлов…
 revert.reverting.mulitple:
     text: Откатывание {0} файлов
 revision.graph:
@@ -915,7 +915,7 @@ settings.auto.update.on.push.rejected:
 settings.commit.automatically.on.cherry.pick:
     text: Автоматически коммитить при Cherry-pick
 settings.crlf:
-    text: Предупреждать, если &CRLF разделители строк собираются коммитить
+    text: Предупреждать, если собираются коммитить разделители строк CRLF
 settings.detached.head:
     text: Предупреждать при коммите в detached HEAD или во время перебазирования (Rebase)
 settings.protected.branched:
@@ -953,15 +953,15 @@ stash.button:
 stash.keep.index:
     text: Сохранить &индекс
 stash.keep.index.tooltip:
-    text: Если этот флажок установлен, индексированные изменения сохраняются в индексе.
+    text: Если этот флажок установлен, все уже добавленные в индекс изменения остаются неизменными
 stash.message:
     text: '&Сообщение:'
 stash.message.tooltip:
-    text: Введите сообщение для припрятывания (Stash).
+    text: Введите сообщение для припрятывания (Stash)
 stash.title:
     text: Припрятывание (Stash)
 stashing.title:
-    text: Припрятываем (Stash) изменения...
+    text: Припрятываем изменения (Stash)…
 tag.button:
     text: Создать тег
 tag.commit.label:
@@ -979,9 +979,9 @@ tag.error.tag.exists:
 tag.force:
     text: '&Принудительно'
 tag.force.tooltip:
-    text: Принудительно создать тег, даже если тег с таким именем уже существует.
+    text: Принудительно создать тег, даже если существует другой тег с таким же названием.
 tag.getting.existing.tags:
-    text: Получение существующих тегов...
+    text: Получение существующих тегов…
 tag.message:
     text: 'Укажите название тега:'
 tag.message.label:
@@ -1003,17 +1003,17 @@ tag.validate:
 tag.validate.tooltip:
     text: Нажмите эту кнопку, чтобы проверить коммит, который будет помечен.
 tagging.title:
-    text: Тегирование файлов...
+    text: Тегирование файлов…
 task.queue.title:
     text: Операции Git
 task.rebasing.title:
-    text: Перебазирование (Rebase)...
+    text: Перебазирование (Rebase)…
 unindexed.files.changlelist.name:
     text: Неиндексированные файлы
 unstash.branch.label:
     text: 'Как новая &ветка:'
 unstash.branch.tooltip:
-    text: Если введено непустое название, припрятанные изменения (Stash) будут помещены в новую ветку.
+    text: Если введено непустое название, припрятанные изменения (Stash) будут помещены в новую ветку
 unstash.button.apply:
     text: Достать припрятанное (Stash)
 unstash.button.branch:
@@ -1025,13 +1025,13 @@ unstash.clear:
 unstash.clear.tooltip:
     text: Удалить все припрятанные изменения (Stash) в репозитории.
 unstash.clearing.stashes:
-    text: Очистка припрятанного (Stash)...
+    text: Очистка припрятанного (Stash)…
 unstash.drop:
     text: '&Удалить'
 unstash.drop.tooltip:
     text: Удалить выбранные припрятанные изменения (Stash)
 unstash.dropping.stash:
-    text: Удаление припрятанного (Stash) {0}...
+    text: Удаление припрятанного {0} (Stash)…
 unstash.error.branch.exists:
     text: Указанная ветка уже существует
 unstash.error.invalid.branch.name:
@@ -1053,13 +1053,13 @@ unstash.stashes.tooltip:
 unstash.title:
     text: Достать припрятанное (Unstash)
 unstash.unstashing:
-    text: Достаём припрятанное (Unstash)...
+    text: Достаём припрятанное (Unstash)…
 unstash.view:
     text: '&Просмотр'
 unstash.view.tooltip:
     text: Просмотреть выбранных припрятанных изменений (Stash)
 unstashing.title:
-    text: Достаём припрятанные изменения (Unstash)...
+    text: Достаём припрятанные изменения (Unstash)…
 update.locally.modified.files:
     text: '&Файлы:'
 update.locally.modified.files.tooltip:
@@ -1073,7 +1073,7 @@ update.locally.modified.rescan:
 update.locally.modified.rescan.tooltip:
     text: <html>Повторно сканировать репозиторий, чтобы снова проверить наличие локально измененных файлов.<br/>Используйте эту кнопку, если вы решили проблему вручную.</html>
 update.locally.modified.revert:
-    text: Откатить (Revert) изменения в файлах
+    text: Откатить изменения в файлах (Revert)
 update.locally.modified.title:
     text: Обнаружены локально изменённые файлы
 update.options.display.name:
@@ -1105,7 +1105,7 @@ update.options.type.merge:
 update.options.type.merge.tooltip:
     text: Использовать стратегию слияния при обновлении для всех корневых каталогов Git VCS
 update.options.type.rebase:
-    text: 'Перебазирование (&Rebase)'
+    text: '&Перебазирование (Rebase)'
 update.options.type.rebase.tooltip:
     text: Использовать стратегию обновления перебазированием (Rebase) для всех корневых каталогов Git VCS
 update.rebase.no.change:
@@ -1123,7 +1123,7 @@ update.rebase.unmerged:
 update.rebase.unmerged.title:
     text: Неразрешённые конфликты перебазирования (Rebase)
 update.restoring.change.lists:
-    text: Восстановление списков изменений...
+    text: Восстановление списков изменений…
 update.root.rebasing:
     text: В корневом каталоге {0} не завершён процесс перебазирования (Rebase).
 update.root.rebasing.item:
@@ -1133,9 +1133,9 @@ update.root.rebasing.message:
 update.root.rebasing.title:
     text: Незавершённый процесс перебазирования (Rebase)
 update.shelving.changes:
-    text: Сохранение изменений...
+    text: Сохранение изменений…
 update.unshelving.changes:
-    text: Восстановление изменений...
+    text: Восстановление изменений…
 util.remote.renderer.default:
     text: <html><b>{0}</b>(<i>{1}</i>)</html>
 util.remote.renderer.none:
@@ -1155,19 +1155,19 @@ vfs.listener.add.single.prompt:
         Хотите добавить следующий файл в Git?
         {0}
 
-        Если выберете «Нет», вы всё равно сможете добавить его позже вручную.
+        Если выберете «Отмену», вы всё равно сможете добавить его позже вручную.
 vfs.listener.add.single.title:
     text: Добавить файл в Git
 vfs.listener.add.title:
     text: Добавить файлы в Git
 vfs.listener.checking.ignored:
-    text: Проверка игнорируемых файлов
+    text: Проверка игнорируемых файлов…
 vfs.listener.delete.single.prompt:
     text: |-
         Хотите удалить следующий файл из Git?
         {0}
 
-        Если выберете «Нет», вы всё равно сможете удалить его позже вручную.
+        Если выберете «Отмену», вы всё равно сможете удалить его позже вручную.
 vfs.listener.delete.single.title:
     text: Удалить файл из Git
 vfs.listener.delete.title:

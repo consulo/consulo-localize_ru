@@ -403,7 +403,7 @@ feature.var.lambda.parameter:
 feature.varargs:
     text: Методы с переменным числом аргументов (varargs)
 find.searching.for.references.to.class.progress:
-    text: Поиск ссылок на класс {0}...
+    text: Поиск ссылок на класс {0}…
 find.usages.panel.title.derived.classes:
     text: Производные классы
 find.usages.panel.title.derived.interfaces:
@@ -527,7 +527,7 @@ inspection.constant.on.wrong.side.of.a.comparison.side.option:
 inspection.contract.checker.boolean.condition.for.nonboolean.parameter:
     text: Параметр «{0}» имеет тип «{1}» (ожидался boolean)
 inspection.contract.checker.clause.syntax:
-    text: Определение контракта должно быть в форме арг1, ..., аргN -> возвращаемое_значение
+    text: Определение контракта должно быть в форме арг1, …, аргN -> возвращаемое_значение
 inspection.contract.checker.contract.clause.never.satisfied:
     text: Определение контракта «{0}» никогда не удовлетворяется, так как его условия покрыты предыдущими контрактами
 inspection.contract.checker.contract.violated:
@@ -603,11 +603,11 @@ inspection.field.not.used.in.to.string.description2:
 inspection.field.not.used.in.to.string.display.name:
     text: Поле не используется в методе «toString()»
 inspection.i18n.quickfix.annotate:
-    text: Добавить аннотацию...
+    text: Добавить аннотацию…
 inspection.i18n.quickfix.annotate.as:
     text: Добавить аннотацию @{0}
 inspection.i18n.quickfix.annotate.element:
-    text: Добавить {0} аннотацию «{1}»...
+    text: Добавить {0} аннотацию «{1}»…
 inspection.i18n.quickfix.annotate.element.as:
     text: Добавить {0} «{1}» аннотацию @{2}
 inspection.implicit.subclass.display.forClass:
@@ -907,7 +907,7 @@ parameter.is.always.not.null:
 possible.heap.pollution.from.parameterized.vararg.type.loc:
     text: 'Возможное загрязнение кучи от параметризованного vararg типа #loc'
 processing.method.usages:
-    text: Обработка использования методов...
+    text: Обработка использования методов…
 progress.title.searching.for.overridden.methods:
     text: Поиск переопределённых методов
 provided.type:
