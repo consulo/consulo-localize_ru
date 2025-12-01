@@ -5,11 +5,11 @@ checkbox.run.tests.before.commit.no.configuration:
 dialog.message.target.does.not.exist:
     text: Цель {0} не существует
 dialog.message.unable.to.parse.test.results:
-    text: Невозможно проанализировать результаты теста из «{0}». Ожидалось, что результаты теста хранятся в XML.
+    text: Не удаётся проанализировать результаты теста из «{0}». Ожидалось, что результаты теста хранятся в XML.
 dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
-    text: "Невозможно запустить конфигурацию: не удалось обнаружить тестовую среду"
+    text: "Не удаётся запустить конфигурацию: не удалось обнаружить тестовую среду"
 dialog.message.unable.to.run.configuration.settings.are.corrupted:
-    text: "Невозможно запустить конфигурацию: настройки повреждены"
+    text: "Не удаётся запустить конфигурацию: настройки повреждены"
 link.label.choose.configuration.before.commit:
     text: Выберите конфигурацию
 progress.text.running.tests:

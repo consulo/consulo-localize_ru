@@ -9,7 +9,7 @@ attribute.should.be.preceded.with.space:
 attribute.value.expected:
     text: Ожидается значение атрибута
 cannot.resolve.taglib.uri:
-    text: Невозможно разрешить taglib с URI {0}.
+    text: Не удаётся разрешить taglib с URI {0}.
 cdata.end.should.not.appear.in.content.unless.to.mark.end.of.cdata.section:
     text: Последовательность символов «]]>» не должна встречаться в содержимом, за исключением случаев, когда она используется для обозначения конца раздела CDATA
 create.namespace.declaration.quickfix:

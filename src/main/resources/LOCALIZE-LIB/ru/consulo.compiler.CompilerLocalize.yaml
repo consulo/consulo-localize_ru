@@ -177,17 +177,17 @@ error.javac.out.of.memory:
     text: Недостаточно памяти. Увеличьте максимальный размер кучи в Свойствах проекта|Параметры компилятора.
 error.jdk.not.specified:
     text: |-
-        Невозможно запустить компилятор: SDK не указан для {0,choice, 1#модуля|2#модулей} {1}.
+        Не удаётся запустить компилятор: SDK не указан для {0,choice, 1#модуля|2#модулей} {1}.
         Укажите SDK в диалоговом окне «Структура проекта».
 error.output.not.specified:
     text: |-
-        Невозможно запустить компиляцию: выходной путь не указан для {0,choice, 1#модуля|2#модулей} {1}.
+        Не удаётся запустить компиляцию: выходной путь не указан для {0,choice, 1#модуля|2#модулей} {1}.
         Укажите выходной путь в «Настройке проекта».
 error.previous.compilation.failed:
     text: Предыдущая компиляция не была завершена должным образом. Возможно, кэши повреждены. Запуск пересборки…
 error.project.output.not.specified:
     text: |-
-        Невозможно запустить компиляцию: некоторые компиляторы требуют, чтобы был определен путь к проекту.
+        Не удаётся запустить компиляцию: некоторые компиляторы требуют, чтобы был определен путь к проекту.
         Укажите выходной путь к проекту в «Настройке проекта».
 error.signature.parsing.expected.other.symbol:
     text: 'Ожидался символ «{0}»: {1}'
@@ -276,19 +276,19 @@ javac.error.1_0_compilation.not.supported:
     text: Компиляция не поддерживается для JDK 1.0
 javac.error.jdk.home.missing:
     text: |-
-        Невозможно найти домашний каталог «{1}» для JDK «{0}».
+        Не удаётся найти домашний каталог «{1}» для JDK «{0}».
         Обновите конфигурацию JDK.
 javac.error.tools.jar.missing:
     text: |-
-        Невозможно получить путь к классам javac для JDK «{0}».
+        Не удаётся найти путь к классам javac для JDK «{0}».
         Обновите конфигурацию JDK.
 javac.error.unknown.jdk.version:
     text: |-
-        Невозможно определить версию JDK {0}.
+        Не удаётся найти версию JDK {0}.
         Обновите конфигурацию JDK.
 javac.error.vm.executable.missing:
     text: |-
-        Невозможно получить путь к исполняемому файлу VM для JDK {0}.
+        Не удаётся найти путь к исполняемому файлу VM для JDK {0}.
         Обновите конфигурацию JDK.
 javac.option.max.heap.size:
     text: 'Максимальный размер кучи (МБ):'
@@ -296,11 +296,11 @@ javac.options.group.title:
     text: Параметры Javac
 jikes.error.path.to.compiler.missing:
     text: |-
-        Невозможно запустить компилятор Jikes.
+        Не удаётся запустить компилятор Jikes.
         Файл {0} не найден.
 jikes.error.path.to.compiler.unspecified:
     text: |-
-        Невозможно запустить компилятор Jikes.
+        Не удаётся запустить компилятор Jikes.
         Путь к исполняемому файлу компилятора не настроен
 jikes.option.path.to.executable:
     text: 'Путь к исполняемому файлу Jikes:'
@@ -375,7 +375,7 @@ message.resource.patterns.format.changed:
         Вам также может потребоваться изменить настройки проекта шаблона.
         Нажмите «{2}», чтобы принять введенные шаблоны, «{3}», чтобы загрузить шаблоны по умолчанию в новом формате.
 message.text.cannot.delete.0:
-    text: невозможно удалить ''{0}''
+    text: не удаётся удалить ''{0}''
 message.text.compiling.item.deployment.descriptor.could.not.be.found:
     text: 'Компиляция {0}: Элемент развертывания «{1}» не найден'
 message.text.compiling.module.message:
@@ -393,9 +393,9 @@ message.text.package.file.io.error:
 message.text.xml.file.invalid:
     text: XML-файл «{0}» недействителен
 message.title.cannot.clean.0.artifact:
-    text: Невозможно очистить артефакт «{0}»
+    text: Не удаётся очистить артефакт «{0}»
 message.title.cannot.package.file:
-    text: Невозможно упаковать файл
+    text: Не удаётся упаковать файл
 no.excludes:
     text: Исключений нет
 no.validators:
@@ -413,7 +413,7 @@ notification.group.compiler.display.name:
 option.use.compiler.text:
     text: 'Использовать компилятор:'
 packaging.compiler.error.cannot.build.circular.dependency.found.between.0.and.1:
-    text: 'Невозможно выполнить сборку: обнаружена циклическая зависимость между «{0}» и «{1}»'
+    text: 'Не удаётся выполнить сборку: обнаружена циклическая зависимость между «{0}» и «{1}»'
 packaging.compiler.message.building.0:
     text: Сборка «{0}»…
 packaging.compiler.message.building.archives:

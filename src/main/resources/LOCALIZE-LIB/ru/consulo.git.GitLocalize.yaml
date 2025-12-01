@@ -604,7 +604,7 @@ push.active.error.merges.unchecked:
 push.active.error.no.branch:
     text: Некоторые корни не находятся на ветке
 push.active.error.reorder.merges:
-    text: Невозможно переупорядочить коммиты при наличии слияний (Merges)
+    text: Нельзя переупорядочить коммиты при наличии слияний (Merges)
 push.active.error.reorder.needed:
     text: Узлы должны быть переупорядочены с помощью операции перебазирования (Rebase).
 push.active.fetch:
@@ -630,7 +630,7 @@ push.active.rebasing:
 push.active.save.before.rebase:
     text: 'Очистить рабочее дерево перед перебазированием (Rebase):'
 push.active.status.behind:
-    text: Невозможно отправить (Push). Текущая ветка отстаёт от отслеживаемой ветки на {0,choice, 1#1 коммит|2#{0,number} коммитов}.
+    text: Нельзя отправить (Push). Текущая ветка отстаёт от отслеживаемой ветки на {0,choice, 1#1 коммит|2#{0,number} коммитов}.
 push.active.status.no.branch:
     text: Головной элемент не находится на ветке.
 push.active.status.no.commits:
@@ -1129,7 +1129,7 @@ update.root.rebasing:
 update.root.rebasing.item:
     text: <li>{0}</li>
 update.root.rebasing.message:
-    text: <html>Следующие корневые каталоги имеют незавершенный процесс перебазирования (Rebase). Обновление невозможно.<ul>{0}</u></html>
+    text: <html>Следующие корневые каталоги имеют незавершенный процесс перебазирования (Rebase). Нельзя обновить.<ul>{0}</u></html>
 update.root.rebasing.title:
     text: Незавершённый процесс перебазирования (Rebase)
 update.shelving.changes:

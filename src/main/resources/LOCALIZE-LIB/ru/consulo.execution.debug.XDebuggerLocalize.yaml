@@ -245,13 +245,13 @@ inspect.value.dialog.title:
 invalid.frame:
     text: <некорректный кадр>
 load.value.task.error:
-    text: 'Невозможно загрузить значение: {0}'
+    text: 'Не удаётся загрузить значение: {0}'
 load.value.task.text:
     text: Загрузка значения
 memory.instances.close.text:
     text: Закрыть
 memory.unable.to.get.instances.of.class:
-    text: Невозможно получить экземпляры класса {0}
+    text: Не удаётся получить экземпляры класса {0}
 memory.view.empty.running:
     text: Остановитесь на точке останова, чтобы загрузить список класса
 memory.view.empty.stopped:
@@ -467,7 +467,7 @@ xdebugger.evaluate.language.hint:
 xdebugger.evaluate.result:
     text: результат
 xdebugger.evaluate.stack.frame.has.not.evaluator:
-    text: Невозможно вычислить, текущий стековый кадр не поддерживает вычисление
+    text: Не удаётся вычислить, текущий стековый кадр не поддерживает вычисление
 xdebugger.evaluating.expression.node.message:
     text: Вычисляем…
 xdebugger.label.text.code.fragment:

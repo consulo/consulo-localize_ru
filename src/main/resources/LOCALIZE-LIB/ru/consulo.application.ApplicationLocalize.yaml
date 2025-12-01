@@ -817,15 +817,15 @@ error.does.not.appear.to.be.installation.home:
 error.illegal.scheme.name:
     text: Недопустимое название схемы
 error.invalid.config.folder:
-    text: Невозможно импортировать настройки. «{0}» не является допустимой папкой конфигурации {1}.
+    text: Не удаётся импортировать настройки. «{0}» не является допустимой папкой конфигурации {1}.
 error.invalid.installation.home:
-    text: Невозможно импортировать настройки. «{0}» не является допустимой домашней папкой установки {1}.
+    text: Не удаётся импортировать настройки. «{0}» не является допустимой домашней папкой установки {1}.
 error.monitor.too.many.errors:
     text: Слишком много фатальных ошибок IDE. Мониторинг остановлен.
 error.no.read.permissions:
     text: У вас нет прав на чтение {0}
 error.no.settings.path:
-    text: Невозможно импортировать настройки. {0} не существует.
+    text: Не удаётся импортировать настройки. {0} не существует.
 error.path.variable.is.undefined:
     text: Переменная пути «{0}» не определена
 error.please.select.previous.installation.home:
@@ -1159,7 +1159,7 @@ title.blank.lines:
 title.braces.placement:
     text: Размещение фигурных скобок
 title.cannot.modify.readonly.scheme:
-    text: Невозможно изменить схему только для чтения
+    text: Нельзя изменить схему только для чтения
 title.choose.code.style.scheme:
     text: Выберите схему стиля кода
 title.code.completion:

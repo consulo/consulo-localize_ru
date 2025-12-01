@@ -61,13 +61,13 @@ browsers.safari:
 button.text.settings:
     text: Настройки…
 cannot.resolve.anchor:
-    text: 'Невозможно разрешить ссылку #{0}'
+    text: 'Не удаётся найти цель ссылки #{0}'
 cannot.resolve.anchor.in.file:
-    text: 'Невозможно разрешить ссылку #{0} в файле {1}'
+    text: 'Не удаётся найти цель ссылки #{0} в файле {1}'
 cant.delete.file:
-    text: Невозможно удалить файл {0}
+    text: Не удаётся удалить файл {0}
 cant.rename.file:
-    text: Невозможно переименовать {0} на {1}
+    text: Не удаётся переименовать {0} на {1}
 change.root.element.to:
     text: Изменить название корневого тега на {0}
 choose.color.dialog.title:
@@ -331,7 +331,7 @@ tag.name.completion.display.name:
 tag.name.completion.hint:
     text: Нажмите {0}, чтобы просмотреть теги из других пространств имён
 title.cannot.create.html.file:
-    text: Невозможно создать HTML-файл
+    text: Не удаётся создать HTML-файл
 unescaped.xml.character:
     text: Неэкранированный XML-символ
 unescaped.xml.character.fix.message:

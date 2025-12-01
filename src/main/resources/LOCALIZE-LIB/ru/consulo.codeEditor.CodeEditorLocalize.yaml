@@ -305,7 +305,7 @@ group.EditorStickyLinesSettings.description:
 group.EditorStickyLinesSettings.text:
     text: Прилипающие строки
 guarded.block.modification.attempt.error.message:
-    text: Невозможно выполнить действие, так как оно изменяет фрагменты текущего документа, доступные только для чтения
+    text: Не удаётся выполнить действие, так как оно изменяет фрагменты текущего документа, доступные только для чтения
 guarded.block.modification.attempt.error.title:
     text: Попытка изменения защищённого блока
 hector.highlighting.level.title:
