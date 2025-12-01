@@ -749,7 +749,7 @@ detach.library.from.module:
 dialog.directory.for.downloaded.files.title:
     text: Загруженные файлы будут скопированы в выбранный каталог
 dialog.message.cannot.save.the.file.0:
-    text: Невозможно сохранить файл {0}
+    text: Не удаётся сохранить файл {0}
 dialog.message.incompatible.encoding:
     text: Выбранная вами кодировка («{0}») может изменить содержимое «{1}».<br>Хотите ли вы<br>1. <b>Перезагрузить</b> файл с диска в новой кодировке «{0}» и перезаписать содержимое редактора или<br>2. <b>Преобразовать</b> текст и перезаписать файл в новой кодировке?
 dialog.title.abbreviation:
@@ -875,17 +875,17 @@ error.adding.action.without.icon.to.toolbar:
 error.adding.module.to.project:
     text: 'Ошибка добавления модуля в проект: {0}'
 error.cannot.convert.project:
-    text: 'Невозможно преобразовать проект: {0}'
+    text: 'Не удаётся преобразовать проект: {0}'
 error.cannot.create.temp.dir:
     text: Не удалось создать временный каталог «{0}»
 error.cannot.find.file:
     text: Не удается найти файл {0}
 error.cannot.load.project:
-    text: 'Невозможно загрузить проект: {0}'
+    text: 'Не удаётся загрузить проект: {0}'
 error.cannot.set.look.and.feel:
-    text: <html><body>Невозможно установить тему {0}:<br>{1}</body></html>
+    text: <html><body>Не удаётся установить тему {0}:<br>{1}</body></html>
 error.cannot.start.browser:
-    text: 'Невозможно запустить браузер: {0}'
+    text: 'Не удаётся запустить браузер: {0}'
 error.checkforupdates.connection.failed:
     text: Не удалось подключиться. Проверьте сетевое подключение и повторите попытку.
 error.connection.failed.redirects:
@@ -940,10 +940,10 @@ error.malformed.url:
     text: 'Неправильный URL: {0}'
 error.message.cannot.make.files.writable:
     text: |-
-        Невозможно сделать следующие файлы доступными для записи:
+        Не удалось сделать следующие файлы доступными для записи:
         {0}
 error.message.cannot.modify.file.0:
-    text: Невозможно изменить файл «{0}»
+    text: Не удаётся изменить файл «{0}»
 error.message.unable.to.create.file:
     text: Не удалось создать файл «{0}»
 error.module.already.exists:
@@ -998,7 +998,7 @@ error.problems.found.loading.plugins:
     text: |
         Обнаружены проблемы с загрузкой расширений:
 error.project.file.does.not.exist:
-    text: Невозможно загрузить {0}. Файл не существует.
+    text: Не удалось загрузить {0}. Файл не существует.
 error.project.file.is.corrupted:
     text: Файл проекта повреждён
 error.reading.settings.file:
@@ -1021,7 +1021,7 @@ error.saving.license.data:
         Ошибка сохранения данных лицензии.
         {0}
 error.saving.statistic.failed.to.create.folder:
-    text: Невозможно создать папку {0} для сохранения системная информация.
+    text: Не удаётся создать папку {0} для сохранения системной информация.
 error.saving.statistics:
     text: 'Ошибка сохранения системной информации: {0}'
 error.source.directory.should.be.under.module.content.root.directory:
@@ -1036,7 +1036,7 @@ error.tips.not.found:
     text: Советы не найдены. Убедитесь, что вы правильно установили {0}.
 error.unable.to.parse.template.message:
     text: |-
-        Невозможно проанализировать шаблон «{0}»
+        Не удалось проанализировать шаблон «{0}»
         Сообщение об ошибке: {1}
 error.unable.to.read.tip.of.the.day:
     text: <html><body>Не удалось прочитать Совет дня ({0}). Убедитесь, что {1} установлен правильно.</body></html>
@@ -1062,7 +1062,7 @@ errortree.warning:
 exception.missing.data:
     text: 'Нет данных: {0}'
 fail.open.project.message:
-    text: Невозможно открыть проект из «{0}»
+    text: Не удаётся открыть проект из «{0}»
 failed.to.install.package.dialog.title:
     text: Не удалось установить пакет ''{0}''
 failed.to.install.packages.dialog.title:
@@ -2133,7 +2133,7 @@ run.anything.ad.run.with.debug:
 run.anything.command.empty.list.title:
     text: Нажмите ENTER, чтобы выполнить команду ввода
 run.anything.console.error.title:
-    text: Невозможно запустить команду
+    text: Не удаётся запустить команду
 run.anything.console.process.finished:
     text: |4-
 
@@ -2205,9 +2205,9 @@ run.canceled.by.user.message:
 run.configuration.error.executable.not.specified:
     text: Исполняемый файл не указан
 run.configuration.error.working.directory.does.not.exist:
-    text: Невозможно запустить процесс, рабочий каталог {0} не существует
+    text: Не удалось запустить процесс, рабочий каталог {0} не существует
 run.configuration.error.working.directory.not.directory:
-    text: Невозможно запустить процесс, указанный путь для рабочего каталога не является каталогом
+    text: Не удалось запустить процесс, указанный путь для рабочего каталога не является каталогом
 scope.banner.text:
     text: Область «{0}»
 scope.class.hierarchy:
@@ -2233,7 +2233,7 @@ scope.selection:
 scope.unable.to.save.scope.message:
     text: Сохранить область как общую?
 scope.unable.to.save.scope.title:
-    text: Невозможно использовать локальную область
+    text: Не удаётся использовать локальную область
 scope.view.title:
     text: Области действия
 scopes.display.name:
@@ -2427,23 +2427,23 @@ title.browser.not.found:
 title.browser.path.not.found:
     text: Путь к браузеру не найден
 title.cannot.convert.project:
-    text: Невозможно преобразовать проект
+    text: Не удаётся преобразовать проект
 title.cannot.create.annotation.type:
-    text: Невозможно создать @interface
+    text: Не удаётся создать @interface
 title.cannot.create.enum:
-    text: Невозможно создать Enum
+    text: Не удаётся создать Enum
 title.cannot.create.file:
-    text: Невозможно создать файл
+    text: Не удаётся создать файл
 title.cannot.create.interface:
-    text: Невозможно создать интерфейс
+    text: Не удаётся создать интерфейс
 title.cannot.load.project:
-    text: Невозможно загрузить проект
+    text: Не удаётся загрузить проект
 title.cannot.open.file:
-    text: Невозможно открыть файл
+    text: Не удаётся открыть файл
 title.cannot.save.current.template:
-    text: Невозможно сохранить текущий шаблон
+    text: Не удаётся сохранить текущий шаблон
 title.cannot.start.browser:
-    text: Невозможно запустить браузер
+    text: Не удаётся запустить браузер
 title.choose.action.icon:
     text: Выберите значок действия
 title.choose.destination.directory:
@@ -2647,15 +2647,15 @@ title.todo:
 title.todo.current.file:
     text: Текущий файл
 title.unable.to.add.action.without.icon.to.toolbar:
-    text: Невозможно добавить действие без значка на панель инструментов
+    text: Нельзя добавить действие без значка на панель инструментов
 title.unable.to.add.favorites.list:
-    text: Невозможно добавить список избранного
+    text: Нельзя добавить список избранного
 title.unable.to.save.data:
-    text: Невозможно сохранить данные
+    text: Нельзя сохранить данные
 title.upgrade.needed:
     text: Требуется обновление лицензии
 title.velocity.error:
-    text: Скорость Ошибка
+    text: Ошибка скорости
 title.warning:
     text: Предупреждение
 title.web.services:

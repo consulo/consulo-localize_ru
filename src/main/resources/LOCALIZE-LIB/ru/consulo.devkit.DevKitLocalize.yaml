@@ -45,7 +45,7 @@ deployment.view.select:
 dont.add.idea.libs.to.classpath:
     text: Библиотеки, связанные с Consulo ({0}), не должны добавляться в classpath модуля. Вместо этого добавьте их в Consulo JDK.
 error.cannot.resolve.plugin:
-    text: Невозможно обнаружить расширение {0}
+    text: Не удаётся обнаружить расширение {0}
 error.file.not.found:
     text: Файл не найден
 error.file.not.found.message:
@@ -69,7 +69,7 @@ info.message:
 inspection.awt.error.display.name:
     text: Отчет об ошибках реализации AWT и Swing
 inspection.awt.error.message:
-    text: Невозможно использовать реализацию AWT и Swing. Пожалуйста, ознакомьтесь с руководством по написанию пользовательского интерфейса
+    text: Нельзя использовать реализацию AWT и Swing. Пожалуйста, ознакомьтесь с руководством по написанию пользовательского интерфейса
 inspection.complicated.logger.initialization.display.name:
     text: Сложная инициализация логера
 inspection.complicated.logger.initialization.message:
@@ -219,7 +219,7 @@ inspections.component.not.registered.option.check.actions:
 inspections.component.not.registered.option.ignore.non.public:
     text: Игнорировать непубличные классы
 inspections.component.not.registered.quickfix.error:
-    text: Невозможно зарегистрировать {0}
+    text: Не удаётся зарегистрировать {0}
 inspections.component.not.registered.quickfix.family:
     text: Зарегистрировать компонент
 inspections.component.not.registered.quickfix.name:
@@ -237,7 +237,7 @@ inspections.registration.problems.abstract:
 inspections.registration.problems.action.incompatible.class:
     text: Класс Action должен быть унаследован от «{0}»
 inspections.registration.problems.cannot.resolve.class:
-    text: Невозможно определить класс {0}
+    text: Не удаётся найти класс {0}
 inspections.registration.problems.component.duplicate.interface:
     text: Не разрешается иметь несколько компонентов, унаследованных от одного и того же интерфейс
 inspections.registration.problems.component.incompatible.interface:
@@ -341,7 +341,7 @@ new.action.description:
 new.action.dialog.title:
     text: Новое действие
 new.action.error:
-    text: Невозможно создать действие
+    text: Не удаётся создать действие
 new.action.group.actions:
     text: 'Действия:'
 new.action.group.anchor:
@@ -375,7 +375,7 @@ new.application.component.action.name:
 new.application.component.command:
     text: Создать компонент приложения
 new.application.component.error:
-    text: Невозможно создать компонент приложения
+    text: Не удаётся создать компонент приложения
 new.application.component.prompt:
     text: 'Введите имя нового компонента приложения:'
 new.application.component.prompt.title:
@@ -397,7 +397,7 @@ new.project.component.action.name:
 new.project.component.command:
     text: Создать компонент проекта
 new.project.component.error:
-    text: Невозможно создать компонент проекта
+    text: Не удаётся создать компонент проекта
 new.project.component.prompt:
     text: 'Введите имя нового компонента проекта:'
 new.project.component.prompt.title:

@@ -142,7 +142,7 @@ error.message.cannot.find.underlying.facet.type.for.0:
 error.message.cannot.load.facet.condiguration.0:
     text: 'Не удалось загрузить конфигурацию фасета: {0}'
 error.message.configuration.cannot.load:
-    text: Невозможно загрузить
+    text: Не удаётся загрузить
 error.message.facet.type.isn.t.specified:
     text: Тип фасета не указан
 error.message.unknown.facet.type.0:
@@ -263,7 +263,7 @@ module.already.exists.error:
     text: Module «{0}» уже существует в проекте.
 module.cannot.load.error:
     text: |-
-        Невозможно загрузить модуль «{0}»:
+        Не удаётся загрузить модуль «{0}»:
         {1}
 module.circular.dependency.warning.description:
     text: <html><b>Между модулями есть циклические зависимости:</b> {0}</html>
@@ -707,7 +707,7 @@ sdk.configure.javadoc.url.prompt:
 sdk.configure.javadoc.url.title:
     text: Укажите URL документации
 sdk.configure.save.settings.error:
-    text: Невозможно сохранить настройки
+    text: Не удаётся сохранить настройки
 sdk.configure.title:
     text: Настроить SDK
 sdk.configure.type.home.path:
@@ -715,7 +715,7 @@ sdk.configure.type.home.path:
 sdk.java.corrupt.error:
     text: Вероятно, SDK, установленный в «{0}», повреждён
 sdk.java.corrupt.title:
-    text: Невозможно определить версию SDK
+    text: Не удаётся найти версию SDK
 sdk.java.name:
     text: JDK
 sdk.java.name.template:

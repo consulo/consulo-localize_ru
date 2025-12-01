@@ -1,5 +1,5 @@
 abstract.cannot.be.instantiated:
-    text: '«{0}» является абстрактным; невозможно создать экземпляр'
+    text: '«{0}» является абстрактным; нельзя создать экземпляр'
 abstract.method.in.non.abstract.class:
     text: Абстрактный метод в неабстрактном классе
 abstract.methods.cannot.have.a.body:
@@ -81,7 +81,7 @@ array.initializer.not.allowed:
 array.type.expected:
     text: 'Ожидался тип массива; на деле: «{0}»'
 assignment.to.final.variable:
-    text: Невозможно присвоить значение final-переменной «{0}»
+    text: Нельзя присвоить значение final-переменной «{0}»
 bad.qualifier.in.super.method.reference:
     text: 'Недопустимый квалификатор типа в ссылке на супер-метод: {0}'
 binary.numbers.must.contain.at.least.one.hexadecimal.digit:
@@ -97,17 +97,17 @@ call.to.super.is.not.allowed.in.enum.constructor:
 cannot.be.referenced.from.static.context:
     text: 'Нельзя сослаться на «{0}» из статического контекста'
 cannot.resolve.constructor:
-    text: Невозможно определить конструктор «{0}»
+    text: Не удаётся найти конструктор «{0}»
 cannot.resolve.method:
-    text: Невозможно определить метод «{0}»
+    text: Не удаётся найти метод «{0}»
 cannot.resolve.package:
-    text: Невозможно определить пакет {0}
+    text: Не удаётся найти пакет {0}
 cannot.resolve.symbol:
-    text: Невозможно определить символ «{0}»
+    text: Не удаётся найти символ «{0}»
 cannot.select.dot.class.from.type.variable:
-    text: Невозможно выбрать из переменной типа
+    text: Нельзя выбрать из переменной типа
 cannot.select.from.parameterized.type:
-    text: Невозможно получить доступ к объекту класса параметризованного типа
+    text: Нельзя получить доступ к объекту класса параметризованного типа
 case.statement.outside.switch:
     text: Оператор «case» вне «switch»
 catch.without.try:
@@ -187,9 +187,9 @@ enum.constant.should.implement.method:
 enum.types.cannot.be.instantiated:
     text: Нельзя вызвать конструктор типа-перечисления
 error.cannot.resolve.class:
-    text: Невозможно определить класс «{0}»
+    text: Не удаётся найти класс «{0}»
 error.cannot.resolve.class.or.package:
-    text: Невозможно определить класс или пакет «{0}»
+    text: Не удаётся найти класс или пакет «{0}»
 exception.already.caught:
     text: Исключение «{0}» уже поймано
 exception.already.caught.warn:
@@ -375,7 +375,7 @@ generics.annotation.members.may.not.have.type.parameters:
 generics.cannot.be.inherited.with.different.type.arguments:
     text: '«{0}» не может быть унаследован с разными аргументами типа: «{1}» и «{2}»'
 generics.cannot.catch.type.parameters:
-    text: Невозможно перехватить параметры типа
+    text: Нельзя использовать параметр типа в «catch»
 generics.cannot.instanceof.type.parameters:
     text: Ожидался класс или массив
 generics.diamond.not.applicable:
@@ -401,7 +401,7 @@ generics.methods.have.same.erasure.override:
 generics.reference.parameters.not.allowed:
     text: Здесь нельзя использовать параметры-ссылки
 generics.select.static.class.from.parameterized.type:
-    text: Невозможно выбрать статический класс «{0}» из параметризованного типа
+    text: Нельзя выбрать статический класс «{0}» из параметризованного типа
 generics.type.argument.cannot.be.of.primitive.type:
     text: Аргумент типа не может быть примитивным типом
 generics.type.arguments.on.raw.method:
@@ -447,9 +447,9 @@ illegal.line.end.in.character.literal:
 illegal.line.end.in.string.literal:
     text: Недопустимый конец строки в строковом литерале
 illegal.self.reference:
-    text: Невозможно прочитать значение поля «{0}» изнутри определения поля
+    text: Нельзя прочитать значение поля «{0}» изнутри определения поля
 illegal.to.access.static.member.from.enum.constructor.or.instance.initializer:
-    text: Недопустимо обращаться к статическому члену «{0}» из конструктора перечисления или инициализатора экземпляра
+    text: Нельзя обращаться к статическому члену «{0}» из конструктора перечисления или инициализатора экземпляра
 illegal.type.void:
     text: 'Недопустимый тип: «void»'
 illegal.underscore:
@@ -471,9 +471,9 @@ incompatible.types:
 incompatible.types.html.tooltip:
     text: <html><body>Несовместимые типы.<table><tr><td>Требуется:</td><td>{0}</td>{1}</tr><tr><td>Указано:</td><td>{2}</td>{3}</tr></table></body></html>
 inconvertible.type.cast:
-    text: Неконвертируемые типы; невозможно привести «{0}» к «{1}»
+    text: Неконвертируемые типы; нельзя привести «{0}» к «{1}»
 inheritance.from.final.class:
-    text: Невозможно наследовать от final-класса «{0}»
+    text: Нельзя наследовать от final-класса «{0}»
 initializer.must.be.able.to.complete.normally:
     text: Инициализатор должен иметь возможность завершиться нормально
 instance.method.cannot.override.static.method:
@@ -537,7 +537,7 @@ long.number.too.large:
 malformed.floating.point.literal:
     text: Некорректный литерал с плавающей точкой
 member.referenced.before.constructor.called:
-    text: Невозможно сослаться на «{0}» до вызова конструктора супер-типа
+    text: Нельзя сослаться на «{0}» до вызова конструктора супер-типа
 method.call.expected:
     text: Ожидался вызов метода
 method.does.not.override.super:
@@ -705,7 +705,7 @@ repeated.interface:
 resource.variable.must.be.final:
     text: Переменная, используемая в try с ресурсами, должна быть final или фактически final
 return.from.void.method:
-    text: Невозможно вернуть значение из метода с типом результата void
+    text: Нельзя вернуть значение из метода с типом результата void
 return.outside.method:
     text: Return вне метода
 safevararg.annotation.cannot.be.applied.for.record.component:
@@ -813,7 +813,7 @@ variable.must.be.final.or.effectively.final:
 variable.not.initialized:
     text: Переменной «{0}» могло не быть присвоено значение
 visibility.access.problem:
-    text: Невозможно получить доступ к «{0}» в «{1}»
+    text: Нельзя получить доступ к «{0}» в «{1}»
 void.type.is.not.allowed:
     text: '«void» тип здесь не разрешен'
 weaker.privileges:

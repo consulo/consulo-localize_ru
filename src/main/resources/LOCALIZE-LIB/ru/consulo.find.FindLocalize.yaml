@@ -5,7 +5,7 @@ button.exclude:
 button.include:
     text: Включить
 cannot.search.for.usages.title:
-    text: Невозможно выполнить поиск использований
+    text: Не удаётся выполнить поиск использований
 empty.text.searching:
     text: Поиск…
 find.all.button:
@@ -67,7 +67,7 @@ find.invalid.regular.expression.error:
 find.new.line:
     text: Новая строка
 find.no.usages.at.cursor.error:
-    text: "Невозможно выполнить поиск использований. \nПерейдите к элементу, для которого нужно найти использования, и повторите попытку."
+    text: "Не удаётся выполнить поиск использований. \nПерейдите к элементу, для которого нужно найти использования, и повторите попытку."
 find.open.in.new.tab.action:
     text: Открыть результаты в новой &вкладке
 find.open.in.new.tab.checkbox:
@@ -240,7 +240,7 @@ find.search.string.not.found.message:
 find.searched.elements.have.been.changed.error:
     text: |-
         Найденные элементы были изменены.
-        Невозможно выполнить поиск использований.
+        Не удаётся выполнить поиск использований.
 find.searching.for.references.to.class.progress:
     text: Поиск ссылок на класс {0}…
 find.searching.for.string.in.file.occurrences.progress:

@@ -19,9 +19,9 @@ apply.somehow.status.message.all.applied:
 apply.somehow.status.message.already.applied:
     text: '{0, number} {0, choice, 1#блок | 2#блока} уже применены'
 apply.somehow.status.message.cant.apply:
-    text: Невозможно применить {0, number} {0, choice, 1#блок | 2#блока}
+    text: Не удаётся применить {0, number} {0, choice, 1#блок | 2#блока}
 apply.somehow.status.message.cant.apply.some:
-    text: Невозможно применить {0, number} из {1, number} блоков
+    text: Не удаётся применить {0, number} из {1, number} блоков
 binary.file.viewer:
     text: Просмотрщик двоичных файлов
 binary.files.are.different.message:
@@ -37,7 +37,7 @@ cannot.create.diff.error:
 cannot.file.file.error:
     text: 'Не могу найти файл: {0}'
 cant.launch.diff.tool.error.message:
-    text: Невозможно запустить инструмент сравнения
+    text: Не удаётся запустить инструмент сравнения
 collapse.unchanged.fragments:
     text: Свернуть неизменные фрагменты
 compare.file.vs.file.dialog.title:
@@ -61,9 +61,9 @@ diff.all.differences.ignored.text:
 diff.application.usage.parameters.and.description:
     text: 'Использование: {0} diff <левый файл> <правый файл> [<базовый файл>]'
 diff.can.not.show:
-    text: Невозможно показать разницу
+    text: Не удаётся показать разницу
 diff.can.not.show.unknown:
-    text: Невозможно показать разницу для неизвестного типа файла
+    text: Нельзя показать разницу для неизвестного типа файла
 diff.clipboard.vs.editor.dialog.title:
     text: Буфер обмена с редактором
 diff.clipboard.vs.file.dialog.title:

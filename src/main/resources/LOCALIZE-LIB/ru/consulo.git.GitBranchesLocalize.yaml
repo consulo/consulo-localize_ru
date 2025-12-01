@@ -3,7 +3,7 @@ action.checkout.as.new.branch.text:
 action.checkout.as.new.local.branch.text:
     text: Переключиться как на новую локальную ветку
 action.checkout.tag.or.revision.impossible.description:
-    text: Переключение невозможно до первого коммита
+    text: Нельзя переключиться до первого коммита
 action.checkout.tag.or.revision.text:
     text: Переключиться на тег или ревизию…
 action.checkout.text:

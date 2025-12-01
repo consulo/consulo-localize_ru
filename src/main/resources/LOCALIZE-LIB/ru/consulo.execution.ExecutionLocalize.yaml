@@ -85,9 +85,9 @@ button.remove:
 button.terminate:
     text: Завершить
 cannot.browse.method.dialog.title:
-    text: Невозможно просмотреть методы
+    text: Не удаётся просмотреть методы
 cannot.browse.test.inheritors.dialog.title:
-    text: Невозможно просмотреть наследников TestCase
+    text: Не удаётся просмотреть наследников TestCase
 choose.applet.class.dialog.title:
     text: Выберите класс апплета
 choose.html.file.dialog.title:
@@ -872,7 +872,7 @@ test.not.started.progress.text:
 tests.passed.with.warnings.message:
     text: Тесты успешно пройдены (с предупреждениями)
 title.cannot.open.file:
-    text: Невозможно открыть файл
+    text: Не удаётся открыть файл
 title.submitting.error.report:
     text: Отправка отчёта об ошибке
 tool.window.name.run:

@@ -44,10 +44,10 @@ group.local.history.text:
     text: Локальная история
 message.cannot.create.patch.because.of.unavailable.content:
     text: |-
-        Невозможно создать патч, поскольку содержимое некоторых
+        Не удаётся создать патч, поскольку содержимое некоторых
         из выбранных файлов не было сохранено из-за большого размера.
 message.cannot.revert.because:
-    text: Невозможно отменить, потому что {0}
+    text: Не удаётся отменить, потому что {0}
 message.do.you.want.to.proceed:
     text: |-
         {0}

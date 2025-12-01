@@ -165,7 +165,7 @@ inspection.message.builder.default.requires.initializing.expression:
 inspection.message.builder.default.singular.cannot.be.mixed:
     text: '@Builder.Default и @Singular нельзя смешивать.'
 inspection.message.can.t.singularize.this.name:
-    text: 'Невозможно вычислить единственное число слова: «{0}»; явно укажите единственное число (например, @Singular("sheep"))'
+    text: 'Не удаётся вычислить единственное число слова: «{0}»; явно укажите единственное число (например, @Singular("sheep"))'
 inspection.message.cleanup.legal.only.on.local.variable.declaration.inside.block:
     text: '@Cleanup: допустимо только для объявления локальной переменной внутри блока'
 inspection.message.cleanup.legal.only.on.local.variable.declarations:

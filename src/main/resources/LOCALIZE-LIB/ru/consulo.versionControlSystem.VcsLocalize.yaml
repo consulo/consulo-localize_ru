@@ -238,7 +238,7 @@ browse.changes.content.title:
 browse.changes.error.message:
     text: 'Проблема с доступом к системе контроля версий: {0}'
 browse.changes.error.title:
-    text: Невозможно показать изменения
+    text: Не удаётся показать изменения
 browse.changes.filter.title:
     text: Укажите критерии поиска
 browse.changes.no.filter.prompt:
@@ -272,7 +272,7 @@ button.text.overwrite.modified.files:
 cache.settings.dialog.title:
     text: Настройки кэша истории VCS
 cannot.apply.file.already.exists:
-    text: 'Невозможно применить исправление к файлу {0}: он уже существует.'
+    text: 'Не удалось применить исправление к файлу {0}: он уже существует.'
 cannot.find.file.to.patch:
     text: 'Не удалось найти файл для исправления: {0}'
 change.file.copied.from.text:
@@ -643,7 +643,7 @@ diff.unknown.file.type.associate:
 diff.unknown.file.type.prompt:
     text: Файл «{0}» не относится к известному типу файлов. Хотите связать его с каким-то типом файлов?
 diff.unknown.file.type.title:
-    text: Невозможно показать различия
+    text: Не удалось показать различия
 diff.unknown.path.title:
     text: Неизвестное различие
 directory.mapping.add.title:
@@ -859,11 +859,11 @@ message.text.binary.versions.are.identical:
 message.text.binary.versions.differ:
     text: Версии двоичных файлов отличаются
 message.text.cannot.edit.file:
-    text: 'Невозможно редактировать файл(ы): {0}'
+    text: 'Не удалось редактировать файл(ы): {0}'
 message.text.cannot.load.revision:
-    text: 'Невозможно загрузить версию: {0}'
+    text: 'Не удалось загрузить версию: {0}'
 message.text.cannot.load.version:
-    text: 'Невозможно загрузить версию: {0}'
+    text: 'Не удалось загрузить версию: {0}'
 message.text.cannot.load.version.because.of.error:
     text: Не удаётся загрузить версию {0}:{1}
 message.text.cannot.open.editor:
@@ -923,7 +923,7 @@ message.title.unable.to.save.settings:
 message.title.vcs.update.errors:
     text: 'Ошибки {0}'
 messge.text.cannot.save.settings:
-    text: 'Невозможно выполнить операцию: {0}'
+    text: 'Не удаётся выполнить операцию: {0}'
 move.to.changelist:
     text: '&Переместить изменения в активный список изменений («{0}»)'
 multiple.file.merge.accept.theirs:
@@ -987,7 +987,7 @@ patch.apply.analyze.from.clipboard.on.the.fly.checkbox:
 patch.apply.base.directory.field:
     text: '&Базовый каталог:'
 patch.apply.cannot.apply.now:
-    text: Невозможно применить исправление
+    text: Не удаётся применить исправление
 patch.apply.changes.in.patch.resolve:
     text: '{0} в разрешении патча'
 patch.apply.command:
@@ -1127,13 +1127,13 @@ shelf.tab:
 shelve.changes.action:
     text: Отложить изменения (Shelve)
 shelve.changes.delete.confirm:
-    text: Вы уверены, что хотите удалить отложенный список изменений с именем «{0}»? Эту операцию будет невозможно отменить.
+    text: Вы уверены, что хотите удалить отложенный список изменений с именем «{0}»? Эту операцию нельзя будет отменить.
 shelve.changes.delete.files.from.list:
     text: Вы собираетесь удалить {0} файлов из отложенного списка изменений. Вы уверены?
 shelve.changes.delete.files.from.list.title:
     text: Удалить файлы из отложенного списка изменений
 shelve.changes.delete.multiple.confirm:
-    text: Вы уверены, что хотите удалить {0} отложенных списков изменений? Эту операцию отменить невозможно.
+    text: Вы уверены, что хотите удалить {0} отложенных списков изменений? Эту операцию нельзя будет отменить.
 shelve.changes.only.directories:
     text: Выбранные изменения затрагивают только каталоги, но не файлы, поэтому их нельзя отложить.
 shelve.changes.rename.prompt:
@@ -1145,7 +1145,7 @@ shelved.version.name:
 shelvedChanges.delete.title:
     text: Удалить отложенный список изменений
 show.diff.from.annotation.action.error.can.not.load.data.to.show.diff:
-    text: Невозможно загрузить данные для отображения различий
+    text: Не удаётся загрузить данные для отображения различий
 show.diff.progress.title:
     text: Загрузка содержимого…
 show.diff.progress.title.detailed:
