@@ -1,0 +1,609 @@
+0.is.not.an.identifier:
+    text: '«{0}» не является идентификатором.'
+annotation.name.is.missing:
+    text: Атрибут аннотации должен иметь вид «название=значение»
+annotation.target.annotation.type:
+    text: тип аннотации
+annotation.target.constructor:
+    text: конструктор
+annotation.target.field:
+    text: поле
+annotation.target.local.variable:
+    text: локальная переменная
+annotation.target.method:
+    text: метод
+annotation.target.module:
+    text: модуль
+annotation.target.package:
+    text: пакет
+annotation.target.parameter:
+    text: параметр
+annotation.target.record.component:
+    text: компонент записи
+annotation.target.type:
+    text: тип
+annotation.target.type.parameter:
+    text: параметр типа
+annotation.target.type.use:
+    text: использование типа
+anonymous.class.context.display:
+    text: Анонимный в {0}
+anonymous.class.derived.display:
+    text: Анонимный класс, наследник {0}
+aux.context.display:
+    text: (в {0})
+bad.return.type.in.lambda.expression:
+    text: 'Неправильный тип возвращаемого значения в лямбда-выражении: {0} нельзя преобразовать в {1}'
+bad.return.type.in.lambda.expression1:
+    text: 'Неправильный тип возвращаемого значения в лямбда-выражении: {0} нельзя преобразовать в void'
+bad.return.type.in.method.reference:
+    text: 'Неправильный тип возвращаемого значения в ссылке на метод: нельзя преобразовать {0} в {1}'
+bound.not.expected:
+    text: Неожиданная граница
+catch.without.try:
+    text: '«catch» без «try»'
+class.context.display:
+    text: '{0} в {1}'
+class.literal.expected:
+    text: ожидался .class
+conflicting.conjuncts:
+    text: '{0} и {1}'
+context.type.java.comment:
+    text: Комментарий
+context.type.string:
+    text: строка
+default.language.level.description:
+    text: по умолчанию для SDK
+diamond.error.anonymous.inner.classes:
+    text: Нельзя использовать «<>» с анонимными внутренними классами
+diamond.error.anonymous.inner.classes.non.private:
+    text: Нельзя использовать «<>» из-за не-приватного метода, который не переопределяет или не реализует метод из супертипа
+diamond.error.cannot.infer.arguments:
+    text: Не удаётся вывести аргументы
+diamond.error.cannot.infer.arguments.unable.to.resolve.constructor:
+    text: Не удаётся вывести аргументы (не удаётся найти конструктор)
+diamond.error.cannot.infer.type.arguments:
+    text: Не удаётся вывести аргументы типа для {0}
+diamond.error.explicit.type.parameters.for.constructor:
+    text: Нельзя использовать «<>» с явными параметрами типа для конструктора
+element.abstract.method.accusative:
+    text: абстрактный метод
+element.abstract.method.nominative:
+    text: абстрактный метод
+element.annotation.accusative:
+    text: аннотацию
+element.annotation.nominative:
+    text: аннотация
+element.anonymous.class.accusative:
+    text: анонимный класс
+element.anonymous.class.nominative:
+    text: анонимный класс
+element.class.accusative:
+    text: класс
+element.class.nominative:
+    text: класс
+element.constant.accusative:
+    text: константное поле
+element.constant.nominative:
+    text: константное поле
+element.constructor.accusative:
+    text: конструктор
+element.constructor.nominative:
+    text: конструктор
+element.enum.accusative:
+    text: перечисление
+element.enum.constant.accusative:
+    text: константу перечисления
+element.enum.constant.nominative:
+    text: константа перечисления
+element.enum.nominative:
+    text: перечисление
+element.expression.accusative:
+    text: выражение
+element.expression.nominative:
+    text: выражение
+element.extends.list.accusative:
+    text: список extends
+element.extends.list.nominative:
+    text: список extends
+element.field.accusative:
+    text: поле
+element.field.nominative:
+    text: поле
+element.initializer.accusative:
+    text: инициализатор
+element.initializer.nominative:
+    text: инициализатор
+element.interface.accusative:
+    text: интерфейс
+element.interface.nominative:
+    text: интерфейс
+element.kind.and.name:
+    text: '{0} {1}'
+element.label.accusative:
+    text: метку
+element.label.nominative:
+    text: метка
+element.local.variable.accusative:
+    text: локальную переменную
+element.local.variable.nominative:
+    text: локальная переменная
+element.method.accusative:
+    text: метод
+element.method.call.accusative:
+    text: вызов метода
+element.method.call.nominative:
+    text: вызов метода
+element.method.nominative:
+    text: метод
+element.module.accusative:
+    text: модуль
+element.module.nominative:
+    text: модуль
+element.package.accusative:
+    text: пакет
+element.package.nominative:
+    text: пакет
+element.parameter.accusative:
+    text: параметр
+element.parameter.nominative:
+    text: параметр
+element.pattern.variable.accusative:
+    text: переменную паттерна
+element.pattern.variable.nominative:
+    text: переменная паттерна
+element.receiver.parameter.accusative:
+    text: параметр приемника
+element.receiver.parameter.nominative:
+    text: параметр приемника
+element.record.accusative:
+    text: запись
+element.record.component.accusative:
+    text: компонент записи
+element.record.component.nominative:
+    text: компонент записи
+element.record.nominative:
+    text: запись
+element.snippet.body.accusative:
+    text: тело фрагмента
+element.snippet.body.nominative:
+    text: тело фрагмента
+element.statement.accusative:
+    text: инструкцию
+element.statement.nominative:
+    text: инструкция
+element.throws.list.accusative:
+    text: список throws
+element.throws.list.nominative:
+    text: список throws
+element.type.arguments.accusative:
+    text: аргументы типа
+element.type.arguments.nominative:
+    text: аргументы типа
+element.type.parameter.accusative:
+    text: параметр типа
+element.type.parameter.nominative:
+    text: параметр типа
+element.type.semicolon.accusative:
+    text: точку с запятой
+element.type.semicolon.nominative:
+    text: точка с запятой
+element.unknown.accusative:
+    text: элемент
+element.unknown.nominative:
+    text: элемент
+element.variable.accusative:
+    text: переменную
+element.variable.nominative:
+    text: переменная
+else.without.if:
+    text: '«else» без «if»'
+enum.constant.context:
+    text: Константа перечисления «{0}» в «{1}»
+error.incompatible.type:
+    text: '{0} несовместим с {1}'
+error.incompatible.type.bad.lambda.return.type:
+    text: 'Неправильный тип возвращаемого значения в лямбда-выражении: {0} нельзя преобразовать в {1}'
+error.incompatible.type.declaration.for.the.method.reference.not.found:
+    text: Не найдено объявление времени компиляции для ссылки на метод
+error.incompatible.type.expected.non.void.got.void.method.reference:
+    text: 'Несовместимые типы: ожидался не void, нов объявлении времени компиляции получена ссылка на возвращающий void метод'
+error.incompatible.type.expected.value.lambda:
+    text: 'Несовместимые типы: ожидался не void, но тело лямбды не возвращает значения'
+error.incompatible.type.failed.to.resolve.argument:
+    text: Не удалось определить аргумент
+error.incompatible.type.incompatible.equality.constraint:
+    text: 'Несовместимое ограничение равенства: {0} и {1}'
+error.incompatible.type.incompatible.parameter.types.in.lambda:
+    text: Несовместимые типы параметров в лямбда-выражении
+error.incompatible.type.incompatible.parameter.types.in.method.reference:
+    text: Несовместимые типы параметров в выражении ссылки на метод
+error.incompatible.type.incompatible.types.expected.not.void.got.void.method.reference:
+    text: 'Несовместимые типы: ожидался не void, но в объявлении времени компиляции получена ссылка на возвращающий void метод'
+error.incompatible.type.incompatible.types.expected.void.lambda:
+    text: 'Несовместимые типы: ожидается void, но тело лямбды не является оператором или блоком, совместимым с void'
+error.incompatible.type.no.type.variable:
+    text: нет таких экземпляров переменной(ых) типа, что {0}
+error.incompatible.type.no.type.variable.0:
+    text: нет таких экземпляры переменной(ых) типа {0}, что {1}
+error.incompatible.type.no.valid.function.type.found:
+    text: Не удается найти допустимый тип функции для {0}
+error.incompatible.type.not.a.functional.interface:
+    text: '{0} не является функциональным интерфейсом'
+error.incompatible.type.not.convertible:
+    text: 'Несовместимые типы: {0} не может быть преобразован в {1}'
+error.incompatible.type.parameter.type.is.not.yet.inferred:
+    text: 'Тип параметра ещё не выведен: {0}'
+error.incompatible.type.return.type.is.not.yet.inferred:
+    text: 'Тип возвращаемого значения ещё не выведен: {0}'
+error.incompatible.type.unhandled.exception:
+    text: 'Необработанное исключение: {0}'
+error.incompatible.upper.bounds:
+    text: 'Несовместимые верхние границы: {0}'
+error.inference.variable.has.incompatible.bounds:
+    text: |-
+        переменная вывода {0} имеет несовместимые границы:
+         {1}: {2}
+        {3}: {4}
+error.message.wildcard.not.expected:
+    text: Неожиданный подстановочный символ
+expected.array.initializer:
+    text: Ожидался инициализатор массива
+expected.boolean.expression:
+    text: Ожидалось булево выражение
+expected.catch.or.finally:
+    text: Ожидался «catch» или «finally»
+expected.class.or.interface:
+    text: Ожидался «class» или «interface»
+expected.class.reference:
+    text: Ожидалась ссылка на класс
+expected.colon:
+    text: Ожидалось «:»
+expected.comma:
+    text: Ожидалась «,»
+expected.comma.or.rparen:
+    text: Ожидалась «,» или «)»
+expected.comma.or.semicolon:
+    text: Ожидалась «,» или «;»
+expected.dot:
+    text: Ожидалась «.»
+expected.eq:
+    text: Ожидалось «=»
+expected.expression:
+    text: Ожидалось выражение
+expected.gt:
+    text: Ожидалась «>».
+expected.gt.or.comma:
+    text: Ожидалась «>» или «,»
+expected.identifier:
+    text: Ожидался идентификатор
+expected.identifier.or.type:
+    text: Ожидался идентификатор или тип
+expected.lbrace:
+    text: "Ожидалась «'{'»"
+expected.lbrace.or.semicolon:
+    text: "Ожидалась «'{'» или «;»"
+expected.lbracket:
+    text: Ожидалась «[»
+expected.lparen:
+    text: Ожидалась «(»
+expected.lparen.or.lbracket:
+    text: Ожидалась «(» или «[»
+expected.lt.or.lparen:
+    text: Ожидалась «<» или «(»
+expected.module.declaration:
+    text: Ожидалось объявление модуля
+expected.module.statement:
+    text: Ожидалась директива модуля
+expected.package.reference:
+    text: Ожидалась ссылка на пакет
+expected.parameter:
+    text: Ожидался параметр
+expected.rbrace:
+    text: Ожидалась «}»
+expected.rbracket:
+    text: Ожидалась «]»
+expected.resource:
+    text: Ожидалось определение ресурса
+expected.rparen:
+    text: Ожидалась «)»
+expected.semicolon:
+    text: Ожидалась «;»
+expected.statement:
+    text: Ожидался оператор
+expected.string:
+    text: Ожидался строковый литерал
+expected.switch.label:
+    text: Ожидался «case», «default» или «}»
+expected.switch.rule:
+    text: Ожидалось выражение, блок или оператор «throw»
+expected.type:
+    text: Ожидался тип
+expected.type.parameter:
+    text: Ожидался параметр типа
+expected.value:
+    text: Ожидалось значение
+expected.while:
+    text: Ожидался «while»
+expected.with:
+    text: Ожидался «with»
+feature.advanced.collection.api:
+    text: Лямбда-методы в коллекциях
+feature.annotations:
+    text: Аннотации
+feature.assertions:
+    text: Утверждения
+feature.binary.literals:
+    text: Двоичные литералы
+feature.classfile.api:
+    text: ClassFile API
+feature.collection.factories:
+    text: Методы создания коллекций
+feature.diamond.types:
+    text: Типы-ромбы «<>»
+feature.effectively.final:
+    text: Фактически финальные переменные
+feature.enhanced.switch:
+    text: Улучшенные блоки «switch»
+feature.enum.qualified.name.in.switch:
+    text: Квалифицированное название элемента перечисления как константа в switch
+feature.enums:
+    text: Перечисления
+feature.extension.methods:
+    text: Методы расширения
+feature.for.each:
+    text: Циклы for-each
+feature.foreign.functions:
+    text: API foreign function и memory
+feature.generics:
+    text: Обобщённые типы (generic)
+feature.hex.fp.literals:
+    text: Шестнадцатеричные литералы с плавающей запятой
+feature.implicit.classes:
+    text: Неявно объявленные классы
+feature.inner.statics:
+    text: Статические объявления во внутренних классах
+feature.intersections.in.casts:
+    text: Типы пересечений в приведения типов
+feature.javadoc.snippets:
+    text: '@snippet в Javadoc'
+feature.lambda.expressions:
+    text: Лямбда-выражения
+feature.local.enums:
+    text: Локальные перечисления
+feature.local.interfaces:
+    text: Локальные интерфейсы
+feature.lvti:
+    text: Выведение типа локальной переменной
+feature.method.references:
+    text: Ссылки на методы
+feature.modules:
+    text: Модули
+feature.multi.catch:
+    text: Множественные catch-блоки
+feature.nestmates:
+    text: Контроль доступа на основе вложенности
+feature.no.this.capture:
+    text: Внутренние классы не захватывают «this»
+feature.override.interface:
+    text: '@Override в интерфейсах'
+feature.pattern.guard.and.record.patterns:
+    text: when-выражение в «case» и шаблоны записей
+feature.patterns.in.switch:
+    text: Шаблоны в switch
+feature.patterns.instanceof:
+    text: Шаблоны в 'instanceof'
+feature.private.interface.methods:
+    text: Приватные методы интерфейсов
+feature.record.patterns.in.for.each:
+    text: Шаблоны записей в циклах for-each
+feature.records:
+    text: Записи
+feature.scoped.values:
+    text: Контекстные значения
+feature.sealed.classes:
+    text: Запечатанные классы (sealed)
+feature.sequenced.collections:
+    text: Последовательные коллекции
+feature.serial.annotation:
+    text: 'Аннотация @Serial'
+feature.statements.before.super:
+    text: Инструкции перед super()
+feature.static.imports:
+    text: Статические импорты
+feature.static.interface.calls:
+    text: Вызовы статических методов интерфейса
+feature.stream.and.optional.api:
+    text: API потоков и «Optional»
+feature.stream.gatherers:
+    text: Сборщики потоков (Gatherer)
+feature.strictfp:
+    text: Всегда строгая семантика с плавающей запятой
+feature.string.switch:
+    text: Строки в условных операторах «switch»
+feature.string.templates:
+    text: Строковые шаблоны
+feature.structured.concurrency:
+    text: Структурированная конкуренция
+feature.switch.expressions:
+    text: 'Switch-выражения'
+feature.text.block.escape.sequences:
+    text: '«\s» экранирующие последовательности'
+feature.text.blocks:
+    text: Блочные строковые литералы
+feature.try.with.resources:
+    text: «try» с автозакрываемыми ресурсами
+feature.try.with.resources.refs:
+    text: Ссылки на ресурсы
+feature.type.annotations:
+    text: Аннотации типов
+feature.type.receivers:
+    text: Параметры приемников
+feature.underscores.in.literals:
+    text: Подчеркивания в литералах
+feature.unnamed.vars:
+    text: Безымянные шаблоны и переменные
+feature.var.lambda.parameter:
+    text: '«var» в параметрах лямбды'
+feature.varargs:
+    text: Методы с переменным количеством аргументов
+feature.virtual.threads:
+    text: Виртуальные потоки
+feature.with.initial:
+    text: ThreadLocal.withInitial()
+filetype.description.class:
+    text: Java-класс
+filetype.description.java:
+    text: Java
+filetype.description.jshell:
+    text: Фрагмент JShell
+finally.without.try:
+    text: '«finally» без «try»'
+import.statement.identifier.or.asterisk.expected.:
+    text: Ожидался идентификатор или '*'
+java.language.display.name:
+    text: Java
+java.terms.anonymous.class.base.ref:
+    text: анонимный {0}
+javadoc.exception.tag.class.is.not.throwable:
+    text: Класс {0} не является наследником «Throwable»
+javadoc.exception.tag.exception.is.not.thrown:
+    text: '{0} не объявлено в блоке «throws» метода {1}'
+javadoc.exception.tag.wrong.tag.value:
+    text: Неверное значение тега
+javadoc.param.tag.parameter.name.expected:
+    text: Ожидалось название параметра
+javadoc.param.tag.type.parameter.gt.expected:
+    text: 'Ожидалась «>»'
+javadoc.param.tag.type.parameter.name.expected:
+    text: Ожидалось название параметра типа
+javadoc.ref.tag.class.ref.expected:
+    text: Ожидалась ссылка на класс
+javadoc.value.field.required:
+    text: Тег @value должен ссылаться на поле
+javadoc.value.field.with.initializer.required:
+    text: Тег @value должен ссылаться на поле с постоянным инициализатором
+javadoc.value.static.field.required:
+    text: Тег @value должен ссылаться на статическое поле
+javadoc.value.tag.jdk15.required:
+    text: Тег @value не может иметь аргументы при использовании JDK 1.4 или более ранней версии
+jdk.10.language.level.description:
+    text: 10 — Выведение типа локальной переменной
+jdk.11.language.level.description:
+    text: 11 — Синтаксис локальных переменных для параметров лямбды
+jdk.12.language.level.description:
+    text: 12 — Нет новых языковых функций
+jdk.13.language.level.description:
+    text: 13 — Нет новых языковых функций
+jdk.14.language.level.description:
+    text: 14 — Switch-выражения
+jdk.15.language.level.description:
+    text: 15 — Блочные строковые константы
+jdk.16.language.level.description:
+    text: 16 — Записи, шаблоны, локальные перечисления и интерфейсы
+jdk.17.language.level.description:
+    text: 17 — Запечатанные типы (sealed), всегда строгая семантика с плавающей запятой
+jdk.18.language.level.description:
+    text: 18 — Фрагменты JavaDoc
+jdk.19.language.level.description:
+    text: 19 — Нет новых языковых функций
+jdk.1_3.language.level.description:
+    text: 1.3 — Обычная Java
+jdk.1_4.language.level.description:
+    text: 1.4 — Ключевое слово «assert»
+jdk.1_5.language.level.description:
+    text: 5 — Ключевое слово «enum», обобщённые типы (generic), автопреобразование примитивных типов и др.
+jdk.1_6.language.level.description:
+    text: 6 — @Override в интерфейсах
+jdk.1_7.language.level.description:
+    text: 7 — Ромбы «<>», ARM, множественные catch-блоки и др.
+jdk.1_8.language.level.description:
+    text: 8 — Лямбды, аннотации типов и др.
+jdk.1_9.language.level.description:
+    text: 9 — Модули, приватные методы в интерфейсах и др.
+jdk.20.language.level.description:
+    text: 20 — Нет новых языковых функций
+jdk.21.language.level.description:
+    text: 21 — Шаблоны записей, сопоставление шаблонов для «switch»
+jdk.21.preview.language.level.description:
+    text: 21 (preview) — Строковые шаблоны, безымянные классы и главные методы экземпляров и др.
+jdk.22.language.level.description:
+    text: 22 — Безымянные переменные и шаблоны
+jdk.22.preview.language.level.description:
+    text: 22 (preview) — Инструкции перед super(), строковые шаблоны (2-й preview) и др.
+jdk.23.language.level.description:
+    text: 23 — Комментарии документации в Markdown
+jdk.23.preview.language.level.description:
+    text: 23 (preview) — Примитивные типы в шаблонах, неявно объявленные классы и др.
+jdk.24.language.level.description:
+    text: 24 — Нет новых языковых функций
+jdk.24.preview.language.level.description:
+    text: 24 (preview) — Нет новых языковых функций
+jdk.25.language.level.description:
+    text: 25 — Нет новых языковых функций
+jdk.25.preview.language.level.description:
+    text: 25 (preview) — Нет новых языковых функций
+jdk.26.language.level.description:
+    text: 26 — Нет новых языковых функций
+jdk.26.preview.language.level.description:
+    text: 26 (preview) — Нет новых языковых функций
+jdk.X.language.level.description:
+    text: X — Экспериментальные функции
+jdk.unsupported.preview.language.level.description:
+    text: '{0} (preview) — Не поддерживается'
+lambda.body.must.be.a.statement.expression:
+    text: Тело лямбды должно быть выражением
+list.item.no.module:
+    text: <нет модуля>
+local.class.preposition:
+    text: локальный
+manifest.language.display.name:
+    text: Манифест
+method.context.display:
+    text: '{0}() в {1}'
+missing.return.value.lambda:
+    text: Отсутствует возвращаемое значение
+node.abstract.flag.tooltip:
+    text: Абстрактный
+node.annotation.tooltip:
+    text: Аннотация
+node.anonymous.class.tooltip:
+    text: Анонимный класс
+node.class.tooltip:
+    text: Класс
+node.enum.tooltip:
+    text: Перечисление
+node.exception.tooltip:
+    text: Исключение
+node.field.tooltip:
+    text: Поле
+node.final.flag.tooltip:
+    text: Финальный
+node.interface.tooltip:
+    text: Интерфейс
+node.junit.test.tooltip:
+    text: JUnit-тест
+node.method.tooltip:
+    text: Метод
+node.record.tooltip:
+    text: Запись (preview-фича)
+node.runnable.class.tooltip:
+    text: Запускаемый класс
+node.static.flag.tooltip:
+    text: Статический
+psi.error.attempt.to.edit.class.file:
+    text: Невозможно изменить скомпилированный элемент в файле «{0}»
+task.background.title.maven:
+    text: Maven
+type.can.be.converted:
+    text: '{0} может быть преобразован в {1}'
+type.conforms.to.constraint:
+    text: '{0} соответствует {1}'
+unexpected.identifier:
+    text: Неожиданный идентификатор
+unexpected.return.value:
+    text: Неожиданное возвращаемое значение
+unexpected.token:
+    text: Неожиданный токен
+unexpected.tokens:
+    text: Неожиданные токены
