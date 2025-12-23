@@ -461,7 +461,7 @@ inspection.contract.display.name:
 inspection.convert.to.local.quickfix:
     text: Преобразовать в локальную переменную
 inspection.data.flow.display.name:
-    text: Постоянные условия и исключения
+    text: Проблемы с null-значениями и потоком данных
 inspection.data.flow.filter.notnull.quickfix:
     text: Вставить шаг «filter(Objects::nonNull)»
 inspection.data.flow.nullable.quickfix.option:
