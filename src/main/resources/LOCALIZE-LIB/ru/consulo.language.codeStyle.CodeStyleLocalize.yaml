@@ -1,0 +1,454 @@
+action.stop:
+    text: Стоп
+arrangement.action.rule.add.description:
+    text: Добавить новое правило упорядочивания
+arrangement.action.rule.add.text:
+    text: Добавить правило
+arrangement.action.rule.edit.description:
+    text: Редактировать выбранное правило упорядочивания
+arrangement.action.rule.edit.text:
+    text: Редактировать правило
+arrangement.action.rule.move.down.description:
+    text: Переместить выбранные правила упорядочивания вниз
+arrangement.action.rule.move.down.text:
+    text: Переместить вниз
+arrangement.action.rule.move.up.description:
+    text: Переместить выбранные правила упорядочивания вверх
+arrangement.action.rule.move.up.text:
+    text: Переместить вверх
+arrangement.action.rule.remove.description:
+    text: Удалить выбранные правила упорядочивания
+arrangement.action.rule.remove.text:
+    text: Удалить правила
+arrangement.order.name:
+    text: Порядок
+arrangement.settings.groups.dependent.methods:
+    text: Оставлять зависимые методы рядом
+arrangement.settings.groups.getters.and.setters.together:
+    text: Оставлять геттеры и сеттеры рядом
+arrangement.settings.groups.overridden.methods:
+    text: Оставлять переопределённые методы вместе
+arrangement.settings.groups.property.field:
+    text: Группировать поле свойства с соответствующим геттером/сеттером
+arrangement.settings.order.type.breadth.first:
+    text: порядок обхода в ширину
+arrangement.settings.order.type.by.name:
+    text: сортировать по имени
+arrangement.settings.order.type.depth.first:
+    text: порядок обхода в глубину
+arrangement.settings.order.type.keep:
+    text: сохранять порядок
+arrangement.settings.section.groups:
+    text: Правила группировки
+arrangement.settings.section.match:
+    text: Правила соответствия
+arrangement.settings.text.entry.type.xml.attribute:
+    text: атрибут
+arrangement.settings.text.entry.type.xml.tag:
+    text: тег
+arrangement.settings.text.general.modifier:
+    text: 'Модификатор:'
+arrangement.settings.text.general.name:
+    text: 'Название:'
+arrangement.settings.text.general.order:
+    text: 'Порядок:'
+arrangement.settings.text.general.text:
+    text: 'Текст:'
+arrangement.settings.text.general.type:
+    text: 'Тип:'
+arrangement.settings.text.general.xml.namespace:
+    text: 'Пространство имён:'
+arrangement.text.empty.rule:
+    text: <пустое правило>
+arrangement.text.modifier:
+    text: Модификатор
+arrangement.text.name:
+    text: Название
+arrangement.text.type:
+    text: Тип
+arrangement.title.settings.tab:
+    text: Упорядочивание
+button.delete:
+    text: Удалить
+button.save.as:
+    text: Сохранить как…
+checkbox.align.multiline.array.initializer:
+    text: Инициализатор массива
+checkbox.align.multiline.assignments:
+    text: Присваивания
+checkbox.align.multiline.binary.operation:
+    text: Бинарная операция
+checkbox.align.multiline.call.arguments:
+    text: Аргументы вызова
+checkbox.align.multiline.chained.methods:
+    text: Цепочки методов
+checkbox.align.multiline.extends.list:
+    text: Список «extends»
+checkbox.align.multiline.fields.groups:
+    text: Группы полей
+checkbox.align.multiline.for.statement:
+    text: Оператор «for»
+checkbox.align.multiline.method.parameters:
+    text: Параметры метода
+checkbox.align.multiline.parenthesized.expression:
+    text: Выражение в скобках
+checkbox.align.multiline.ternary.operation:
+    text: Тернарная операция
+checkbox.align.multiline.throws.list:
+    text: Список «throws»
+checkbox.indent.use.tab.character:
+    text: Использовать символ табуляции
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: Оператор управляющей конструкции в одну строку
+checkbox.spaces.additive.operators:
+    text: Аддитивные операторы (+, -)
+checkbox.spaces.after.colon:
+    text: После «:»
+checkbox.spaces.after.colon.in.label.declaration:
+    text: После «:» в объявлении метки
+checkbox.spaces.after.comma:
+    text: После запятой
+checkbox.spaces.after.question:
+    text: После «?»
+checkbox.spaces.after.semicolon:
+    text: После точки с запятой
+checkbox.spaces.after.type.cast:
+    text: После приведения типов
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: Открывающая фигурная скобка инициализатора массива аннотации
+checkbox.spaces.annotation.parameters:
+    text: Параметры аннотации
+checkbox.spaces.annotation.parentheses:
+    text: Круглые скобки аннотации
+checkbox.spaces.around.unary.operator:
+    text: Унарные операторы (!, -, +, ++, --)
+checkbox.spaces.array.initializer.left.brace:
+    text: Открывающая фигурная скобка инициализатора массива
+checkbox.spaces.assignment.operators:
+    text: Операторы присваивания (=, +=, ...)
+checkbox.spaces.before.colon:
+    text: Перед «:»
+checkbox.spaces.before.comma:
+    text: Перед запятой
+checkbox.spaces.before.question:
+    text: Перед «?»
+checkbox.spaces.before.semicolon:
+    text: Перед точкой с запятой
+checkbox.spaces.bitwise.operators:
+    text: Побитовые операторы (&, |, ^)
+checkbox.spaces.catch.keyword:
+    text: Ключевое слово «catch»
+checkbox.spaces.catch.left.brace:
+    text: Открывающая фигурная скобка «catch»
+checkbox.spaces.catch.parentheses:
+    text: Круглые скобки после «catch»
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: Пустые круглые скобки вызова метода
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: Пустые круглые скобки объявления метода
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: Круглые скобки вызова метода
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: Круглые скобки объявления метода
+checkbox.spaces.class.left.brace:
+    text: Открывающая фигурная скобка класса
+checkbox.spaces.do.left.brace:
+    text: Открывающая фигурная скобка «do»
+checkbox.spaces.else.keyword:
+    text: Ключевое слово «else»
+checkbox.spaces.else.left.brace:
+    text: Открывающая фигурная скобка «else»
+checkbox.spaces.equality.operators:
+    text: Операторы равенства (==, !=)
+checkbox.spaces.finally.keyword:
+    text: Ключевое слово «finally»
+checkbox.spaces.finally.left.brace:
+    text: Открывающая фигурная скобка после «finally»
+checkbox.spaces.for.left.brace:
+    text: Открывающая фигурная скобка после «for»
+checkbox.spaces.for.parentheses:
+    text: Круглые скобки после «for»
+checkbox.spaces.if.left.brace:
+    text: Открывающая фигурная скобка после «if»
+checkbox.spaces.if.parentheses:
+    text: Круглые скобки после «if»
+checkbox.spaces.logical.operators:
+    text: Логические операторы (&&, ||)
+checkbox.spaces.method.call.parentheses:
+    text: Круглые скобки вызова метода
+checkbox.spaces.method.declaration.parentheses:
+    text: Круглые скобки объявления метода
+checkbox.spaces.method.left.brace:
+    text: Открывающая фигурная скобка метода
+checkbox.spaces.multiplicative.operators:
+    text: Мультипликативные операторы (*, /, %)
+checkbox.spaces.relational.operators:
+    text: Операторы сравнения (<, >, <=, >=)
+checkbox.spaces.shift.operators:
+    text: Операторы сдвига (<<, >>, >>>)
+checkbox.spaces.switch.left.brace:
+    text: Открывающая фигурная скобка «switch»
+checkbox.spaces.switch.parentheses:
+    text: Круглые скобки после «switch»
+checkbox.spaces.synchronized.left.brace:
+    text: Открывающая фигурная скобка «synchronized»
+checkbox.spaces.synchronized.parentheses:
+    text: Круглые скобки после «synchronized»
+checkbox.spaces.try.left.brace:
+    text: Открывающая фигурная скобка «try»
+checkbox.spaces.try.parentheses:
+    text: Круглые скобки после «try»
+checkbox.spaces.type.cast.parentheses:
+    text: Круглые скобки приведения типов
+checkbox.spaces.while.keyword:
+    text: Ключевое слово «while»
+checkbox.spaces.while.left.brace:
+    text: Открывающая фигурная скобка «while»
+checkbox.spaces.while.parentheses:
+    text: Круглые скобки после «while»
+checkbox.spaces.within.array.initializer.braces:
+    text: Фигурные скобки инициализатора массива
+checkbox.spaces.within.braces:
+    text: Фигурные скобки кода
+checkbox.spaces.within.brackets:
+    text: Квадратные скобки
+checkbox.spaces.within.parentheses:
+    text: Группирующие круглые скобки
+combobox.force.braces.do.while:
+    text: 'do … while():'
+combobox.force.braces.for:
+    text: 'for ():'
+combobox.force.braces.if:
+    text: 'if ():'
+combobox.force.braces.while:
+    text: 'while ():'
+configurable.schemes.display.name:
+    text: Стиль кода
+editbox.indent.continuation.indent:
+    text: 'Отступ продолжения:'
+editbox.indent.indent:
+    text: 'Отступ:'
+editbox.indent.tab.size:
+    text: 'Размер табуляции:'
+editbox.scheme.name:
+    text: 'Схема:'
+group.spaces.after.right.brace:
+    text: Перед ключевыми словами
+group.spaces.around.operators:
+    text: Вокруг операторов
+group.spaces.before.left.brace:
+    text: Перед левой фигурной скобкой
+group.spaces.before.parentheses:
+    text: Перед круглыми скобками
+group.spaces.in.ternary.operator:
+    text: В тернарном операторе (?:)
+group.spaces.in.type.arguments:
+    text: В аргументах типа
+group.spaces.in.type.arguments.block:
+    text: Аргументы типа
+group.spaces.in.type.parameters.block:
+    text: Параметры типа
+group.spaces.other:
+    text: Прочее
+group.spaces.within:
+    text: Внутри
+html.project.uses.own.code.style:
+    text: <html><body>Текущий проект использует собственный стиль кода.<br>Изменения в глобальных настройках стиля кода не повлияют на форматирование в текущем проекте.<br>См. Настройки проекта | Стиль кода.<br>Нажмите кнопку «Редактировать глобальные настройки» ниже, если вы всё же хотите изменить глобальные настройки.</body></html>
+indent.status.bar.indent.tooltip:
+    text: 'Отступ:'
+indent.status.bar.spaces:
+    text: "{0, choice, 1#{0} пробел|2#{0} пробела}}"
+indent.status.bar.tab:
+    text: Табуляция
+label.loading.page.please.wait:
+    text: Загрузка…
+title.blank.lines:
+    text: Пустые строки
+title.braces.placement:
+    text: Расстановка фигурных скобок
+title.edit.global.settings:
+    text: Редактировать &глобальные настройки
+title.global.code.style:
+    text: |-
+        Глобальный
+        Стиль Кода
+title.keep.blank.lines:
+    text: Сохранять пустых строк не больше
+title.minimum.blank.lines:
+    text: Минимальное количество пустых строк
+title.place.on.new.line:
+    text: Поставить на новой строке
+title.save.code.style.scheme.as:
+    text: Сохранить схему стиля кода как
+title.settings:
+    text: Настройки
+wrapping.after.modifier.list:
+    text: Переносить после списка модификаторов
+wrapping.align.fields.in.columns:
+    text: Выравнивать поля по столбцам
+wrapping.align.in.columns:
+    text: Выравнивать по столбцам
+wrapping.align.parenthesised.when.multiline:
+    text: Выравнивать выражения в скобках при многострочности
+wrapping.align.simple.methods.in.columns:
+    text: Выравнивать простые методы по столбцам
+wrapping.align.throws.keyword:
+    text: Выравнивать «throws» по началу метода
+wrapping.align.variables.in.columns:
+    text: Выравнивать переменные по столбцам
+wrapping.align.when.multiline:
+    text: Выравнивать при многострочности
+wrapping.and.braces:
+    text: Переносы и фигурные скобки
+wrapping.array.initializer:
+    text: Инициализатор массива
+wrapping.assert.statement:
+    text: Оператор «assert»
+wrapping.assignment.sign.on.next.line:
+    text: Знак присваивания на новой строке
+wrapping.assignment.statement:
+    text: Оператор присваивания
+wrapping.assignment.variables.groups:
+    text: Группы полей/переменных
+wrapping.binary.operations:
+    text: Бинарные выражения
+wrapping.brace.placement:
+    text: Расстановка фигурных скобок
+wrapping.brace.placement.class.declaration:
+    text: В объявлении класса
+wrapping.brace.placement.end.of.line:
+    text: В конце строки
+wrapping.brace.placement.method.declaration:
+    text: В объявлении метода
+wrapping.brace.placement.next.line:
+    text: На следующей строке
+wrapping.brace.placement.next.line.each.shifted:
+    text: На следующей строке, каждый со сдвигом
+wrapping.brace.placement.next.line.if.wrapped:
+    text: На следующей строке, если перенесено
+wrapping.brace.placement.next.line.shifted:
+    text: На следующей строке со сдвигом
+wrapping.brace.placement.other:
+    text: Прочее
+wrapping.catch.on.new.line:
+    text: «catch» с новой строки
+wrapping.chained.method.call.first.on.new.line:
+    text: Переносить первый вызов
+wrapping.chained.method.calls:
+    text: Цепочки вызовов методов
+wrapping.chop.down.if.long:
+    text: Разбить, если длинный
+wrapping.classes.annotation:
+    text: Аннотации класса
+wrapping.colon.signs.on.next.line:
+    text: Знаки «:» на следующей строке
+wrapping.comments:
+    text: Комментарии
+wrapping.comments.wrap.at.right.margin:
+    text: Переносить комментарии у правой границы
+wrapping.do.not.wrap:
+    text: Не переносить
+wrapping.dowhile.statement:
+    text: Оператор «do … while()»
+wrapping.else.on.new.line:
+    text: «else» с новой строки
+wrapping.enum.constants:
+    text: Константы перечисления
+wrapping.extends.implements.keyword:
+    text: Ключевое слово «extends»/«implements»
+wrapping.extends.implements.list:
+    text: Список «extends»/«implements»
+wrapping.fields.annotation:
+    text: Аннотации полей
+wrapping.finally.on.new.line:
+    text: «finally» с новой строки
+wrapping.for.statement:
+    text: Оператор «for()»
+wrapping.force.braces:
+    text: Принудительные фигурные скобки
+wrapping.force.braces.always:
+    text: Всегда
+wrapping.force.braces.do.not.force:
+    text: Не принуждать
+wrapping.force.braces.when.multiline:
+    text: При многострочности
+wrapping.if.statement:
+    text: Оператор «if()»
+wrapping.indent.case.from.switch:
+    text: Отступ блоков «case»
+wrapping.keep.comment.at.first.column:
+    text: Комментарий в первом столбце
+wrapping.keep.line.breaks:
+    text: Сохранять переносы строк
+wrapping.keep.multiple.expressions.in.one.line:
+    text: Сохранять несколько выражений однострочными
+wrapping.keep.simple.blocks.in.one.line:
+    text: Сохранять простые блоки однострочными
+wrapping.keep.simple.classes.in.one.line:
+    text: Сохранять простые классы однострочными
+wrapping.keep.simple.lambdas.in.one.line:
+    text: Сохранять простые лямбды однострочными
+wrapping.keep.simple.methods.in.one.line:
+    text: Сохранять простые методы однострочными
+wrapping.keep.when.reformatting:
+    text: Сохранять при переформатировании
+wrapping.local.variables.annotation:
+    text: Аннотации локальных переменных
+wrapping.long.lines:
+    text: Гарантировать, что строка не заходит за правую границу
+wrapping.method.arguments:
+    text: Аргументы вызова метода
+wrapping.method.parameters:
+    text: Параметры объявления метода
+wrapping.method.parentheses:
+    text: Круглые скобки метода
+wrapping.methods.annotation:
+    text: Аннотации методов
+wrapping.modifier.list:
+    text: Список модификаторов
+wrapping.new.line.after.lbrace:
+    text: "Новая строка после «'{'»"
+wrapping.new.line.after.lpar:
+    text: Новая строка после «(»
+wrapping.operation.sign.on.next.line:
+    text: Знак операции на следующей строке
+wrapping.parameters.annotation:
+    text: Аннотации параметров
+wrapping.quest.and.colon.signs.on.next.line:
+    text: Знаки «?» и «:» на следующей строке
+wrapping.rbrace.on.new.line:
+    text: Разместить «}» на новой строке
+wrapping.rpar.on.new.line:
+    text: Разместить «)» на новой строке
+wrapping.special.else.if.braces.treatment:
+    text: Специальная обработка фигурных скобок «else if»
+wrapping.switch.statement:
+    text: Оператор «switch»
+wrapping.take.priority.over.call.chain.wrapping:
+    text: Иметь приоритет над переносом цепочки вызовов
+wrapping.ternary.operation:
+    text: Тернарная операция
+wrapping.throws.keyword:
+    text: Ключевое слово «throws»
+wrapping.throws.list:
+    text: Список «throws»
+wrapping.try.resources:
+    text: 'try-with-resources'
+wrapping.try.statement:
+    text: Оператор «try»
+wrapping.while.on.new.line:
+    text: «while» на новой строке
+wrapping.while.statement:
+    text: Оператор «while()»
+wrapping.wrap.always:
+    text: Всегда переносить
+wrapping.wrap.if.long:
+    text: Переносить, если длинный
+wrapping.wrap.on.typing:
+    text: Перенос при вводе
+wrapping.wrap.on.typing.default:
+    text: По умолчанию
+wrapping.wrap.on.typing.no.wrap:
+    text: Нет
+wrapping.wrap.on.typing.wrap:
+    text: Да
