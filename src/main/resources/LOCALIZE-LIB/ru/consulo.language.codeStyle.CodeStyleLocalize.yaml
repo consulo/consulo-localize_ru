@@ -257,7 +257,7 @@ html.project.uses.own.code.style:
 indent.status.bar.indent.tooltip:
     text: 'Отступ:'
 indent.status.bar.spaces:
-    text: "{0, choice, 1#{0} пробел|2#{0} пробела}}"
+    text: "{0, choice, 1#{0} пробел|2#{0} пробела}"
 indent.status.bar.tab:
     text: Табуляция
 label.loading.page.please.wait:
