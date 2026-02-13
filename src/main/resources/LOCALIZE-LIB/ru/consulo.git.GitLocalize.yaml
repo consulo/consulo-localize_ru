@@ -1011,15 +1011,15 @@ task.rebasing.title:
 unindexed.files.changlelist.name:
     text: Неиндексированные файлы
 unstash.branch.label:
-    text: 'Как новая &ветка:'
+    text: 'Как новую &ветку:'
 unstash.branch.tooltip:
     text: Если введено непустое название, припрятанные изменения (Stash) будут помещены в новую ветку
 unstash.button.apply:
-    text: Достать припрятанное (Stash)
+    text: Достать припрятанное (Unstash)
 unstash.button.branch:
     text: Ветка
 unstash.button.pop:
-    text: Достать припрятанное (Pop Stash)
+    text: Извлечь припрятанное (Pop Stash)
 unstash.clear:
     text: '&Очистить'
 unstash.clear.tooltip:
@@ -1029,7 +1029,7 @@ unstash.clearing.stashes:
 unstash.drop:
     text: '&Удалить'
 unstash.drop.tooltip:
-    text: Удалить выбранные припрятанные изменения (Stash)
+    text: Удалить выбранное припрятанное изменение (Stash)
 unstash.dropping.stash:
     text: Удаление припрятанного {0} (Stash)…
 unstash.error.branch.exists:
@@ -1037,15 +1037,15 @@ unstash.error.branch.exists:
 unstash.error.invalid.branch.name:
     text: Недопустимое название ветки
 unstash.pop.stash:
-    text: '&Достать припрятанное (Pop Stash)'
+    text: '&Извлечь припрятанное (Pop Stash)'
 unstash.pop.stash.tooltip:
-    text: Если выбрано, stash будет удалён после применения.
+    text: Если выбрано, Stash будет удалён после применения.
 unstash.reinstate.index:
     text: Восстановить &индекс
 unstash.reinstate.index.tooltip:
     text: Попытаться восстановить индекс, а также изменения в рабочей копии.
 unstash.stashes:
-    text: '&Припрятанные изменения (Stashes):'
+    text: '&Припрятанное (Stashes):'
 unstash.stashes.item:
     text: '<html><b><tt>{0}</tt></b>:<i>{1}</i>: {2}</html>'
 unstash.stashes.tooltip:
@@ -1057,7 +1057,7 @@ unstash.unstashing:
 unstash.view:
     text: '&Просмотр'
 unstash.view.tooltip:
-    text: Просмотреть выбранных припрятанных изменений (Stash)
+    text: Просмотреть выбранное припрятанное изменение (Stash)
 unstashing.title:
     text: Достаём припрятанные изменения (Unstash)…
 update.locally.modified.files:
