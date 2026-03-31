@@ -11,9 +11,9 @@ action.new.branch.text:
 branch.popup.maximum.branch.length.sample:
     text: 'VCS: Rebasing feature-12345 in custom development branch'
 branch.popup.vcs.name.branches:
-    text: '{0} веток'
+    text: '{0}-ветки'
 branch.popup.vcs.name.branches.in.repo:
-    text: '{0} веток в {1}'
+    text: '{0}-ветки в {1}'
 branch.popup.warning.branches.have.diverged:
     text: Ветки разошлись
 clone.button:
