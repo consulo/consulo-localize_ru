@@ -1,0 +1,102 @@
+macro.classpath.entry:
+    text: Запись в classpath, к которой относится элемент
+macro.project.classpath:
+    text: Classpath проекта
+macro.column.number:
+    text: Номер столбца
+macro.class.name:
+    text: Название класса
+macro.file.directory:
+    text: Каталог файла
+macro.file.directory.from.parent:
+    text: Путь к $FileDir$ от родительского каталога, название которого передаётся в качестве параметра
+macro.file.directory.name:
+    text: Название каталога файла
+macro.file.parent.directory:
+    text: Родительский каталог файла. Принимает необязательный параметр (название) для поиска родительского каталога
+macro.file.dir.relative.to.root:
+    text: Каталог файла относительно корня содержимого модуля, к которому относится файл
+macro.file.dir.relative.to.root.fwd.slash:
+    text: Каталог файла относительно корня содержимого модуля, к которому относится файл (с прямыми слешами)
+macro.file.dir.relative.to.sourcepath.root:
+    text: Каталог файла относительно корня пути к исходникам (sourcepath), к которому относится файл
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: Каталог файла относительно корня пути к исходникам (sourcepath), к которому относится файл (с прямыми слешами)
+macro.file.extension:
+    text: Расширение файла
+macro.file.fully.qualified.package:
+    text: Полное название пакета файла
+macro.file.name:
+    text: Название файла
+macro.file.name.without.extension:
+    text: Название файла без расширения
+macro.file.name.without.all.extensions:
+    text: Название файла без всех расширений
+macro.file.package:
+    text: Пакет файла
+macro.file.path:
+    text: Путь к файлу
+macro.file.path.relative.to.root:
+    text: Путь к файлу от корня его модуля
+macro.file.path.relative.to.root.fwd.slash:
+    text: Путь к файлу от корня его модуля (с прямыми слешами)
+macro.file.path.relative.to.sourcepath.root:
+    text: Путь к файлу от корня его каталога с исходниками (sourcepath)
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: Путь к файлу от корня его каталога с исходниками (sourcepath) (с прямыми слешами)
+macro.file.directory.relative:
+    text: Каталог файла относительно файла проекта
+macro.file.directory.relative.fwd.slash:
+    text: Каталог файла относительно файла проекта (с прямыми слешами)
+macro.file.path.relative:
+    text: Путь к файлу относительно файла проекта
+macro.file.path.relative.fwd.slash:
+    text: Путь к файлу относительно файла проекта (с прямыми слешами)
+macro.file.encoding:
+    text: Кодировка файла
+macro.javadoc.output.directory:
+    text: Каталог вывода JavaDoc
+macro.line.number:
+    text: Номер строки
+label.macros:
+    text: Макросы
+label.macro.preview:
+    text: Предпросмотр макроса
+macro.module.file.directory:
+    text: Каталог модуля
+macro.module.profile.name:
+    text: Название текущего профиля модуля
+macro.module.file.path:
+    text: Путь к файлу модуля
+macro.module.production.output.dir.path:
+    text: Путь к каталогу вывода для боевых файлов модуля
+macro.module.test.output.dir.path:
+    text: Путь к каталогу вывода для тестовых файлов модуля
+macro.module.file.name:
+    text: Название файла модуля без расширения
+macro.module.source.path:
+    text: Путь к исходникам модуля
+macro.output.path:
+    text: Путь вывода
+macro.project.file.directory:
+    text: Каталог файла проекта
+macro.project.file.path:
+    text: Путь к файлу проекта
+macro.project.file.name:
+    text: Название файла проекта без расширения
+macro.project.source.path:
+    text: Путь к исходникам проекта
+macro.prompt:
+    text: Отображает диалоговое окно ввода строки
+prompt.enter.parameters:
+    text: 'Введите параметры:'
+macro.prompt.preview:
+    text: <параметры>
+macro.fileprompt.preview:
+    text: <название файла>
+macro.sourcepath.entry:
+    text: Путь к корню каталога с исходниками (sourcepath), содержащего файл
+macro.project.sourcepath:
+    text: Sourcepath проекта
+title.input:
+    text: Ввод
