@@ -1,0 +1,58 @@
+action.filters.text:
+    text: Фильтры
+build.event.message.0.at.1:
+    text: '{0} в {1}'
+build.event.message.at:
+    text: В {0}
+build.event.message.errors:
+    text: '{0} {0,choice, 1#ошибка|2#ошибки|5#ошибок}'
+build.event.message.out.memory:
+    text: Недостаточно памяти.
+build.event.message.successful:
+    text: успешно
+build.event.message.syncing:
+    text: синхронизация...
+build.event.message.up.to.date:
+    text: НЕТ ИЗМЕНЕНИЙ
+build.event.message.warnings:
+    text: '{0} {0,choice, 1#предупреждение|2#предупреждения|5#предупреждений}'
+build.event.message.with:
+    text: '{0} с {1}'
+build.event.title.build.issues:
+    text: Проблемы сборки
+build.event.title.kotlin.compiler:
+    text: Компилятор Kotlin
+build.event.title.other.messages:
+    text: Другие сообщения
+build.messages.cancelled:
+    text: '{0} отменено'
+build.messages.failed:
+    text: '{0} завершено с ошибкой'
+build.messages.finished:
+    text: '{0} завершено'
+build.status.cancelled:
+    text: отменено
+build.status.failed:
+    text: ошибка
+build.status.finished:
+    text: завершено
+build.status.running:
+    text: выполняется...
+build.tree.filters.show.successful:
+    text: Показывать успешные шаги
+build.tree.filters.show.warnings:
+    text: Показывать предупреждения
+error.can.t.append.to.closed.stream:
+    text: 'Невозможно добавить следующую строку в закрытый поток: {0}'
+error.can.t.read.from.closed.stream:
+    text: Невозможно прочитать из закрытого потока
+sync.view.title:
+    text: Синхронизация
+tab.title.build:
+    text: Сборка
+tab.title.build.output:
+    text: Вывод сборки
+tab.title.more:
+    text: '{0} и еще {1}'
+thread.name.reader.thread.for.buildoutputinstantreaderimpl.0:
+    text: Поток чтения для BuildOutputInstantReaderImpl@{0}
