@@ -70,6 +70,8 @@ class.parsing.error.wrong.record.tag.expected.another:
     text: 'Неправильный тег записи: {0}; ожидалось: {1}'
 class.parsing.error.wrong.tag.annotation.member.value:
     text: 'Неправильный тег для значения параметра аннотации: {0}'
+classes.up.to.date.check:
+    text: Проверка актуальности классов
 command.name.package.file:
     text: Пакетный файл
 compile.progress.title:
@@ -155,7 +157,9 @@ error.chunk.modules.must.have.same.language.level:
         {0}
         Обновите конфигурацию модулей
 error.compiler.caches.corrupted:
-    text: Кэши компилятора повреждены. Начинается пересборка…
+    text: Кэши компилятора повреждены. Начинаем пересборку…
+error.compiler.caches.expired:
+    text: Кэши компилятора устарели, требуется пересобрать проект
 error.compiler.configurable.malformed.patterns:
     text: |-
         Следующие шаблоны ресурсов имеют неправильный формат:
@@ -173,6 +177,10 @@ error.dependency.info.on.disk.corrupted:
     text: Информация о зависимостях компилятора на диске повреждена. Требуется пересборка.
 error.failed.to.create.directory:
     text: Не удалось создать каталог {0}
+error.failed.to.create.output.directory:
+    text: Не удалось создать каталог вывода {0}
+error.failed.to.locate.output.directory:
+    text: Не удалось найти каталог вывода {0}
 error.javac.out.of.memory:
     text: Недостаточно памяти. Увеличьте максимальный размер кучи в Свойствах проекта|Параметры компилятора.
 error.jdk.not.specified:
@@ -446,8 +454,12 @@ progress.executing.precompile.tasks:
     text: Выполняем пре-компиляционные задачи…
 progress.found.dependent.files:
     text: Найдено {0} зависимых файлов
+progress.generating.classpath.index:
+    text: Генерация индекса classpath
 progress.generating.rmi.stubs:
     text: Генерация RMI-заглушек…
+progress.inspecting.output.directories:
+    text: Проверка каталогов вывода…
 progress.loading.classes:
     text: Загрузка классов…
 progress.parsing.file:
@@ -456,6 +468,8 @@ progress.processing.outdated.files:
     text: Обработка устаревших файлов…
 progress.saving.caches:
     text: Сохраняем кэши…
+progress.synchronizing.output.directories:
+    text: Синхронизация каталогов вывода…
 progress.synchronizing.output.directory:
     text: Синхронизируем выходной каталог…
 progress.updating.caches:
@@ -485,11 +499,11 @@ status.all.up.to.date:
 status.compilation.aborted:
     text: Компиляция прервана
 status.compilation.completed.successfully:
-    text: Компиляция успешно завершена
+    text: Компиляция успешно завершена за {0}
 status.compilation.completed.successfully.with.warnings:
-    text: Компиляция успешно завершена с {0} {0,choice, 0#предупреждений|1#предупреждением|2#предупреждениями}
+    text: Компиляция успешно завершена с {0} {0,choice, 0#предупреждений|1#предупреждением|2#предупреждениями} за {1}
 status.compilation.completed.successfully.with.warnings.and.errors:
-    text: Компиляция завершена с {0} {0,choice, 0#ошибок|1#ошибкой|2#ошибками} и {1} {1,choice, 0#предупреждений|1#предупреждением|2#предупреждениями}
+    text: Компиляция завершена с {0} {0,choice, 0#ошибок|1#ошибкой|2#ошибками} и {1} {1,choice, 0#предупреждений|1#предупреждением|2#предупреждениями} за {2}
 status.text.file.has.been.packaged:
     text: '{0,choice, 1#Файл|2#Файлы} {1} {0,choice, 1#был упакован|2#были упакованы} в {2}.'
 task.cleaning.artifacts.title:
