@@ -1,0 +1,74 @@
+index.content.diagnostic.dumping:
+    text: Выгрузка путей индексированных файлов и других метаданных…
+index.content.diagnostic.reading:
+    text: Чтение метаданных индексированных файлов…
+index.corrupted.notification.text:
+    text: Файлы индексов на диске повреждены. Индексы будут перестроены.
+index.format.changed.notification.text:
+    text: Формат файлов индекса изменен для индексов {0}. Эти индексы будут перестроены.
+index.rebuild.notification.title:
+    text: Перестроение индекса
+indexable.files.provider.indexing.additional.dependencies:
+    text: Индексация зависимостей
+indexable.files.provider.indexing.fileOrDir.name:
+    text: Индексация «{0}»
+indexable.files.provider.indexing.internal.module.name:
+    text: Индексация
+indexable.files.provider.indexing.library.name:
+    text: Индексация библиотеки «{0}»
+indexable.files.provider.indexing.module.name:
+    text: Индексация модуля «{0}»
+indexable.files.provider.indexing.named.provider:
+    text: Индексация «{0}»
+indexable.files.provider.indexing.sdk:
+    text: Индексация {0} «{1}»
+indexable.files.provider.indexing.sdk.unnamed:
+    text: SDK
+indexable.files.provider.scanning.additional.dependencies:
+    text: Сканирование зависимостей
+indexable.files.provider.scanning.fileOrDir.name:
+    text: Сканирование «{0}»
+indexable.files.provider.scanning.files.contributor:
+    text: Сканирование «{0}»
+indexable.files.provider.scanning.internal.module.name:
+    text: Сканирование
+indexable.files.provider.scanning.library.name:
+    text: Сканирование библиотеки «{0}»
+indexable.files.provider.scanning.module.name:
+    text: Сканирование модуля «{0}»
+indexable.files.provider.scanning.sdk:
+    text: Сканирование {0} «{1}»
+indexes.preparing.to.shutdown.message:
+    text: Подготовка индексов к завершению работы…
+indexes.reloading:
+    text: Перезагрузка индексов…
+notification.group.ide.caches:
+    text: Обнаружено повреждение кэшей IDE
+progress.indexing:
+    text: Обновление индексов
+progress.indexing.scanning:
+    text: Сканирование файлов для индексации…
+progress.indexing.started.as.suspended:
+    text: Нажмите кнопку, чтобы начать индексацию
+progress.indexing.updating:
+    text: Индексация…
+psi.scanning.files.progress:
+    text: Сканирование файлов…
+psi.search.for.word.progress:
+    text: Поиск «{0}» в {1,choice,1# 1 файле|1<{1} файлах}…
+psi.search.in.non.java.files.progress:
+    text: Анализ использований вне кода…
+psi.search.scope.project.and.libraries:
+    text: Проект и библиотеки
+removing.indexable.set.project.handler:
+    text: Сброс индексов для файлов проекта
+search.scope.module:
+    text: Модуль «{0}»
+search.scope.module.runtime:
+    text: Область выполнения модуля «{0}»
+terms.directory:
+    text: директория
+terms.file:
+    text: файл
+toggled.dumb.mode:
+    text: Работа в режиме ограниченной функциональности (dumb mode)…

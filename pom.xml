@@ -80,6 +80,12 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
+            <groupId>consulo</groupId>
+            <artifactId>consulo-language-index-impl</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
             <groupId>consulo.plugin</groupId>
             <artifactId>com.intellij.xml</artifactId>
             <version>${project.version}</version>
