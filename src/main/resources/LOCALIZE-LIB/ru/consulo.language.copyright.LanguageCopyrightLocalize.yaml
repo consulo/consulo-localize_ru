@@ -1,0 +1,168 @@
+action.DumbAware.CopyrightProfilesPanel.description.copy:
+    text: Копировать
+action.DumbAware.CopyrightProfilesPanel.description.import:
+    text: Импорт
+action.DumbAware.CopyrightProfilesPanel.text.copy:
+    text: Копировать
+action.DumbAware.CopyrightProfilesPanel.text.import:
+    text: Импорт
+action.GenerateCopyright.description:
+    text: Создать/обновить уведомление об авторских правах.
+action.GenerateCopyright.text:
+    text: Авторские права
+action.add.profile.text:
+    text: Добавить профиль
+action.local.text:
+    text: Локально
+action.shared.text:
+    text: Общий
+action.stored.in.ide.description:
+    text: Хранится в IDE
+action.stored.in.project.description:
+    text: Хранится в проекте
+action.update.copyright.description:
+    text: Создать/обновить уведомление об авторских правах.
+action.update.copyright.text:
+    text: Обновить авторские права…
+before.checkin.update.copyright:
+    text: Обновить авторские права
+button.validate:
+    text: Проверить
+checkbox.text.update.existing.copyrights:
+    text: Обновлять существующие авторские права
+checkbox.update.copyright.notice:
+    text: Обновлять уведомление об авторских правах
+command.name.update.copyright:
+    text: Обновление авторских прав
+configurable.CopyrightFormattingConfigurable.display.name:
+    text: Форматирование
+configurable.CopyrightProfilesPanel.display.name:
+    text: Профили авторских прав
+configurable.CopyrightProjectConfigurable.display.name:
+    text: Авторские права
+copy.copyright.profile:
+    text: Копировать профиль авторских прав
+copyright.copyright.column:
+    text: Авторские права
+copyright.default.project.copyright:
+    text: 'Авторские права по умолчанию для &проекта:'
+copyright.file.chooser.label:
+    text: Файлы XML|IML
+copyright.file.chooser.title:
+    text: Выберите файл, содержащий уведомление об авторских правах
+copyright.local.description:
+    text: Локально
+copyright.no.text:
+    text: Нет авторских прав
+copyright.profiles.add.profile:
+    text: Добавить профиль
+copyright.profiles.empty:
+    text: Профили авторских прав не добавлены.
+copyright.profiles.select.profile:
+    text: Выберите профиль, чтобы просмотреть или изменить его детали
+copyright.scope.column:
+    text: Область действия
+copyright.select.scopes.label:
+    text: Выберите области, чтобы добавить новые или изменить существующие
+copyright.shared.description:
+    text: Общий
+create.copyright.profile:
+    text: Создать профиль авторских прав
+detect.copyright.regexp.is.incorrect.configuration.error:
+    text: 'Регулярное выражение для обнаружения авторских прав неверно:'
+dialog.message.duplicate.copyright.profile.name:
+    text: 'Название профиля авторских прав уже существует: «{0}»'
+dialog.message.new.copyright.profile.name:
+    text: 'Название нового профиля авторских прав:'
+dialog.message.no.copyright.configured:
+    text: Для текущего файла не настроены авторские права. Хотите изменить настройки авторских прав?
+dialog.message.the.copyright.settings.imported:
+    text: Настройки авторских прав были успешно импортированы.
+dialog.message.the.selected.file.copyright.settings:
+    text: Выбранный файл не содержит настроек авторских прав.
+dialog.message.velocity.template.contains.error.0:
+    text: |-
+        Шаблон Velocity содержит ошибку:
+        {0}
+dialog.message.velocity.template.is.valid:
+    text: Шаблон Velocity корректен.
+dialog.title.import.complete:
+    text: Импорт завершен
+dialog.title.import.failure:
+    text: Ошибка импорта
+dialog.title.no.copyright.available:
+    text: Авторские права не заданы
+dialog.title.validation:
+    text: Проверка
+import.copyright.profile:
+    text: Импортировать профиль авторских прав
+label.allow.replacing.copyright.if.old.copyright.matches:
+    text: 'Разрешить замену авторских прав, если старый текст совпадает:'
+label.copyright.text.may.contain.velocity.templates:
+    text: 'Текст авторских прав (может содержать шаблоны Velocity):'
+label.no.copyright.configured:
+    text: Авторские права не настроены
+label.regexp.to.detect.copyright.in.comments:
+    text: 'Регулярное выражение для обнаружения авторских прав в комментариях:'
+label.updates.existing.copyrights.e.g.changes.year.or.updated.notice:
+    text: Обновляет текст авторских прав, год и другие свойства
+link.label.configure.copyright.settings:
+    text: Настроить…
+popup.title.choose.profile.to.import:
+    text: Выберите профиль для импорта
+radio.location.in.file.before.class:
+    text: Перед классом
+radio.location.in.file.before.doctype:
+    text: Перед doctype
+radio.location.in.file.before.imports:
+    text: Перед импортами
+radio.location.in.file.before.package:
+    text: Перед пакетом
+radio.location.in.file.before.root.tag:
+    text: Перед корневым тегом
+replace.copyright.regexp.is.incorrect.configuration.error:
+    text: 'Регулярное выражение для замены авторских прав неверно:'
+settings.copyright.formatting.add.blank.line.after:
+    text: Д&обавить пустую строку после
+settings.copyright.formatting.add.blank.line.before:
+    text: Добавить пустую строку &перед
+settings.copyright.formatting.after.other.comments:
+    text: П&осле других комментариев
+settings.copyright.formatting.before.other.comments:
+    text: Пе&ред другими комментариями
+settings.copyright.formatting.borders:
+    text: Границы
+settings.copyright.formatting.box:
+    text: Блок
+settings.copyright.formatting.comment.type:
+    text: Тип комментария
+settings.copyright.formatting.length:
+    text: 'Длина:'
+settings.copyright.formatting.location.in.file:
+    text: Расположение в файле
+settings.copyright.formatting.no.copyright:
+    text: Нет авторских прав
+settings.copyright.formatting.prefix.each.line:
+    text: Префикс каждой строки
+settings.copyright.formatting.relative.location:
+    text: Относительное расположение
+settings.copyright.formatting.separator:
+    text: 'Разделитель:'
+settings.copyright.formatting.separator.after:
+    text: Разделитель после
+settings.copyright.formatting.separator.before:
+    text: Разделитель перед
+settings.copyright.formatting.use.block.comment:
+    text: Использовать блочный комментарий
+settings.copyright.formatting.use.line.comment:
+    text: Использовать строчный комментарий
+share.profile.checkbox.title:
+    text: Общий доступ через VCS
+share.profile.context.help:
+    text: <html>Общие профили сохраняются в каталоге <code>.consulo</code><br>и доступны другим участникам команды через VCS.<br><br>Если профиль не является общим, он сохраняется<br>на уровне IDE и применяется ко всем проектам.</html>
+task.title.prepare.copyright:
+    text: Подготовка авторских прав…
+update.copyright.progress.title:
+    text: Обновление авторских прав
+updating.copyrights.progress.message:
+    text: Обновление авторских прав…
