@@ -121,6 +121,8 @@ display.name.artifacts:
     text: Артефакты
 drag.n.drop.text.0.packaging.elements:
     text: '{0} элементов'
+dumb.service.indexing.paused.due.to:
+    text: Индексация приостановлена из-за {0}
 element.kind.name.facet:
     text: фасет
 element.kind.name.module:
@@ -466,6 +468,14 @@ path.0.is.invalid.error.message:
     text: Путь «{0}» недействителен
 popup.recent.projects.title:
     text: Недавние проекты
+progress.indexing:
+    text: Обновление индексов...
+progress.indexing.scanning:
+    text: Сканирование файлов для индексации...
+progress.indexing.updating:
+    text: Индексация...
+progress.performing.indexing.tasks:
+    text: Выполнение задач индексации
 progress.text.searching.frameworks:
     text: Поиск фреймворков. Пожалуйста, подождите.
 progress.title.deleting.files:
@@ -605,7 +615,7 @@ project.new.wizard.progress.title:
 project.new.wizard.select.type.label:
     text: Выберите тип
 project.order.entry.project:
-    text: <Project>
+    text: <Проект>
 project.reload.external.change.message:
     text: |-
         Компоненты проекта были изменены извне и не могут быть перезагружены.
