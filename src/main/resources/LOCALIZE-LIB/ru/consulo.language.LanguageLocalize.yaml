@@ -1,0 +1,338 @@
+0.expected:
+    text: 'Ожидалось {0}'
+0.is.not.an.identifier:
+    text: '«{0}» не является идентификатором.'
+PerFileConfigurableBase.empty.text:
+    text: Новый мэппинг $addShortcut
+PerFileConfigurableBase.label.project:
+    text: Проект
+PerFileConfigurableBase.mapping.title:
+    text: Сопоставление
+PerFileConfigurableBase.null.text:
+    text: <Нет>
+PerFileConfigurableBase.project.mapping:
+    text: Проект {0}
+PerFileConfigurableBase.target.title:
+    text: Путь
+abstract.visibility.presentation:
+    text: abstract
+action.set.system.default.encoding.text:
+    text: <Системный по умолчанию>
+anonymous.class.context.display:
+    text: Анонимный в {0}
+anonymous.class.derived.display:
+    text: Анонимный класс, унаследованный от {0}
+anonymous.class.display:
+    text: Анонимный класс
+aux.context.display:
+    text: (в {0})
+button.do.not.override:
+    text: Не переопределять
+button.override:
+    text: Переопределить
+cannot.delete.a.read.only.file:
+    text: Нельзя удалить файл только для чтения «{0}».
+cannot.modify.a.read.only.directory:
+    text: Нельзя изменить директорию только для чтения «{0}».
+cannot.modify.a.read.only.file:
+    text: Нельзя изменить файл только для чтения «{0}».
+cannot.resolve.symbol:
+    text: Не найден символ «{0}»
+class.context.display:
+    text: '{0} в {1}'
+code.display:
+    text: Код
+code.from.context.display:
+    text: Код из {0}
+codestyle.cannot.save.scheme.file:
+    text: Не удалось сохранить схему стиля кода {0}. {1}
+codestyle.cannot.save.settings.directory.cant.be.created.message:
+    text: Не удалось сохранить схемы стиля кода. Не удалось создать каталог {0}.
+codestyle.cannot.save.settings.directory.cant.be.created.title:
+    text: Не удалось сохранить настройки
+color.name:
+    text: Название цвета цвета:&nbsp; {0}
+color.preview:
+    text: '<table cellpadding=0 cellspacing=0 border=0><tr><td>Предпросмотр цвета:&nbsp;</td><td style="background-color: #000000; padding: 1px">{0}</td></tr></table>'
+color.rgb:
+    text: Цвет RGB:&nbsp; {0}
+command.name.change.language:
+    text: Изменение языка
+command.name.navigate:
+    text: Навигация
+compacting.indices.title:
+    text: Сжатие индексов
+completion.dot.etc.ad:
+    text: Точка, точка с запятой и некоторые другие клавиши также закроют это меню и будут вставлены в редактор
+completion.no.suggestions:
+    text: Нет вариантов
+completion.quick.implementations.ad:
+    text: Знаете ли вы, что «Быстрый просмотр реализации» ({0}) также работает в меню автодополнения?
+completion.quick.javadoc.ad:
+    text: Знаете ли вы, что «Быстрая документация» ({0}) также работает в меню автодополнения?
+completion.smart.enter.ad:
+    text: 'Используйте {0}, чтобы синтаксически исправить ваш код после автодополнения (расстановка скобок и т.д.)'
+compound.run.configuration.cycle:
+    text: '{0} «{1}» вызывает циклическую зависимость и не может быть добавлен'
+default.package.presentation:
+    text: <по умолчанию>
+default.path.evaluator.option:
+    text: Указывает провайдеру ссылок, как вычислять путь по умолчанию для заданного файла
+default.visibility.presentation:
+    text: по умолчанию
+dialog.message.duplicate.live.templates.in.group:
+    text: Дублирующиеся живые шаблоны «{0}» в группе {1}
+dialog.message.live.template.with.empty.abbreviation:
+    text: В группе {0} найден живой шаблон с пустой аббревиатурой; такие шаблоны недопустимы
+dialog.message.live.template.with.empty.text:
+    text: В группе {1} найден живой шаблон «{0}» с пустым текстом; такие шаблоны не имеют смысла
+dialog.message.template.with.name.already.exists:
+    text: Шаблон с именем «{0}» уже существует. Пожалуйста, укажите другое имя шаблона
+dialog.message.valid.identifier:
+    text: '«{0}» не является допустимым идентификатором'
+dialog.template.data.language.caption:
+    text: <html><body>Языки данных шаблона — это базовые языки в файлах шаблонов, таких как файлы фреймворков FreeMarker/Velocity.<br>Чтобы изменить настройки языка данных шаблона, которые {0} использует для файла, каталога или всего проекта, нажмите на элемент, а затем выберите язык из списка «Язык данных шаблона».<br><br>Примечание:<br>Если настройки не указаны, файлы и каталоги наследуют настройки языка данных шаблона от родителя.<br></body></html>
+el.cannot.resolve.function:
+    text: 'Не удалось найти функцию «{0}» #loc'
+el.cannot.resolve.method:
+    text: 'Не удалось найти метод «{0}»() #loc'
+el.cannot.resolve.namespace:
+    text: 'Не удалось найти пространство имен «{0}» #loc'
+el.cannot.resolve.property:
+    text: 'Не удалось найти свойство или метод «{0}» (динамическое свойство?) #loc'
+el.cannot.resolve.variable:
+    text: 'Не удалось найти переменную «{0}» #loc'
+el.colon.expected:
+    text: Ожидалось ':'
+el.declare.variable.find.acceptable.class:
+    text: Найти подходящий класс
+el.declare.variable.intention.family:
+    text: Объявить переменную как внешние данные
+el.declare.variable.via.comment.annotation.intention.name:
+    text: Объявить внешнюю переменную в аннотации комментария
+el.declare.variable.via.usebean.intention.name:
+    text: Объявить внешнюю переменную как <jsp:useBean />
+el.expression.expected:
+    text: Ожидалось выражение
+el.identifier.expected:
+    text: Ожидался идентификатор
+el.lparen.expected:
+    text: Ожидалась (
+el.mismatched.parameters.count:
+    text: Разное количество формальных и фактических параметров
+el.rbracket.expected:
+    text: Ожидалась ]
+el.rparen.expected:
+    text: Ожидалась )
+el.unexpected.end.of.file:
+    text: Неожиданный конец файла
+el.value.expected:
+    text: Ожидалось значение
+enum.constant.context:
+    text: Константа перечисления «{0}» в «{1}»
+error.cannot.resolve:
+    text: Не удалось найти
+final.visibility.presentation:
+    text: final
+hint.text.can.t.modify.decompiled.code:
+    text: Нельзя изменять декомпилированный код
+hint.text.couldn.t.find.surround:
+    text: Не удалось найти варианты «Окружения» (Surround With), применимые к текущему контексту
+incorrect.name:
+    text: Некорректное название
+indent.option.detected:
+    text: По факту
+indent.status.bar.indent.tooltip:
+    text: 'Отступ:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0} пробел|2#{0} пробела|5#{0} пробелов}'
+indent.status.bar.tab:
+    text: Табуляция
+invalid.regular.expression.message:
+    text: Некорректное регулярное выражение {0}
+java.terms.annotation.interface:
+    text: '@аннотация'
+java.terms.anonymous.class:
+    text: анонимный класс
+java.terms.class:
+    text: класс
+java.terms.constructor:
+    text: конструктор
+java.terms.enum:
+    text: перечисление
+java.terms.exception:
+    text: исключение
+java.terms.expression:
+    text: выражение
+java.terms.field:
+    text: поле
+java.terms.instance.initializer:
+    text: инициализатор экземпляра
+java.terms.interface:
+    text: интерфейс
+java.terms.label:
+    text: метка
+java.terms.method:
+    text: метод
+java.terms.of.annotation.type:
+    text: '{0} аннотации {1}'
+java.terms.of.anonymous.class:
+    text: '{0} анонимного класса'
+java.terms.of.class:
+    text: '{0} класса {1}'
+java.terms.of.enum:
+    text: '{0} перечисления {1}'
+java.terms.of.interface:
+    text: '{0} интерфейса {1}'
+java.terms.package:
+    text: пакет
+java.terms.parameter:
+    text: параметр
+java.terms.static.initializer:
+    text: статический инициализатор
+java.terms.type.parameter:
+    text: параметр типа
+java.terms.variable:
+    text: переменная
+java.terms.variable.of.method:
+    text: '{0} метода {1}'
+jsf.el.out.of.attribute:
+    text: 'JSF EL вне атрибута #loc'
+jsf.method.call.is.nonstd.extension:
+    text: 'Вызов метода является нестандартным расширением #loc'
+jsp.documentation.message.can.have.runtime.value:
+    text: Может иметь значение во время выполнения:&nbsp;{0}
+jsp.documentation.message.custom.attribute.name:
+    text: Название пользовательского атрибута
+jsp.documentation.message.custom.function.name:
+    text: Название пользовательской функции
+jsp.documentation.message.custom.tag.name:
+    text: Название пользовательского тега
+jsp.documentation.message.description:
+    text: Описание:&nbsp;{0}
+jsp.documentation.message.example.of.use:
+    text: Пример&nbsp;использования:<br><pre>{0}</pre>
+jsp.documentation.message.fragment:
+    text: Фрагмент:&nbsp;{0}
+jsp.documentation.message.required:
+    text: Обязательно:&nbsp;{0}
+jsp.documentation.message.type:
+    text: Тип:&nbsp;{0}
+jsp.taglib.method.reference.error.class.is.not.public:
+    text: Класс не является public
+jsp.taglib.method.reference.error.class.is.not.valid:
+    text: Класс недействителен
+jsp.taglib.method.reference.error.different.return.type:
+    text: Другой тип возвращаемого значения
+jsp.taglib.method.reference.error.method.should.be.public.or.static:
+    text: Метод должен быть public или static
+jsp.taglib.method.reference.error.no.such.method:
+    text: Нет такого метода
+jsp.taglib.method.reference.error.signature.is.different:
+    text: Сигнатура отличается
+local.class.preposition:
+    text: локальный
+method.context.display:
+    text: '{0}() в {1}'
+native.visibility.presentation:
+    text: native
+package.component.installing.suffix:
+    text: (установка)
+packageLocal.visibility.presentation:
+    text: package local
+popup.title.copy:
+    text: Копировать
+private.visibility.presentation:
+    text: private
+protected.visibility.presentation:
+    text: protected
+psi.decompiled.text.header:
+    text: |-
+        // Заглушка исходного кода декомпилятора Consulo API, сгенерированная из байт-кода
+        // Реализация методов недоступна
+psi.error.incorroect.class.template.message:
+    text: Невозможно создать {0} — некорректный шаблон {1}.
+psi.scanning.files.in.folder.progress:
+    text: Сканирование файлов в {0}...
+psi.scanning.files.progress:
+    text: Сканирование файлов...
+psi.search.for.word.progress:
+    text: Поиск «{0}»...
+psi.search.in.non.java.files.progress:
+    text: Анализ использований вне кода...
+psi.search.inheritors.of.class.progress:
+    text: Поиск наследников {0}...
+psi.search.inheritors.progress:
+    text: Поиск наследников...
+psi.search.scope.intersection:
+    text: Пересечение {0} и {1}
+psi.search.scope.libraries:
+    text: Библиотеки
+psi.search.scope.production.files:
+    text: Боевые файлы проекта
+psi.search.scope.project:
+    text: Файлы проекта
+psi.search.scope.project.and.libraries:
+    text: Проект и библиотеки
+psi.search.scope.test.files:
+    text: Тестовые файлы проекта
+psi.search.scope.union:
+    text: Объединение {0} и {1}
+public.visibility.presentation:
+    text: public
+qualified.resolve.class.reference.provider.option:
+    text: Указывает провайдеру ссылок обрабатывать только полные ссылки на классы (например, не разрешать String как java.lang.String)
+quickfix.change.template.data.language.text:
+    text: Изменить язык шаблона данных {0} на...
+search.scope.module:
+    text: Модуль «{0}»
+search.scope.module.runtime:
+    text: Область выполнения модуля «{0}»
+search.scope.unknown:
+    text: <неизвестная область>
+static.visibility.presentation:
+    text: static
+status.bar.text.reference.has.been.copied:
+    text: '{0} скопировано'
+strictfp.visibility.presentation:
+    text: strictfp
+synchronized.visibility.presentation:
+    text: synchronized
+tab.title.build.output:
+    text: Вывод сборки
+tab.title.more:
+    text: '{0} и еще {1}'
+template.data.language.configurable:
+    text: Языки данных шаблона
+template.data.language.configurable.tree.table.title:
+    text: Язык данных шаблона
+template.data.language.override.warning.text:
+    text: Для подкаталогов указаны языки данных шаблона. Перезаписать их?
+template.data.language.override.warning.title:
+    text: Перезапись языков данных шаблона подкаталогов
+terms.directory:
+    text: директория
+terms.file:
+    text: файл
+terms.property:
+    text: свойство
+transient.visibility.presentation:
+    text: transient
+unexpected.eof:
+    text: Неожиданный конец файла
+unexpected.token:
+    text: Неожиданный токен
+volatile.visibility.presentation:
+    text: volatile
+xml.terms.attribute:
+    text: атрибут
+xml.terms.attribute.value:
+    text: значение атрибута
+xml.terms.entity:
+    text: сущность
+xml.terms.tag:
+    text: тег
+xml.terms.variable:
+    text: переменная
+xml.terms.xml.tag:
+    text: XML-тег
