@@ -1,0 +1,1083 @@
+action.AnActionButton.Template.list.text.duplicate:
+    text: Дублировать
+action.ToggleInlineHintsAction.description:
+    text: Переключить подсказки названий параметров
+action.ToggleInlineHintsAction.text:
+    text: Переключить подсказки названий параметров
+action.show.dependencies.on.target.on.scope.text:
+    text: Анализ зависимостей модуля «{0}» от {1}
+action.show.dependencies.on.target.text:
+    text: Анализ зависимостей от указанной цели
+action.text.move:
+    text: Переместить
+block.comment.intersects.existing.comment:
+    text: Выделение частично пересекается с существующим комментарием
+block.comment.nested.comment:
+    text: |-
+        Выделение содержит блочный {0, choice, 1#комментарий|2#комментарии},
+        окружающие диапазоны были закомментированы.
+block.comment.wrapping.suffix:
+    text: Выделение содержит окончание блочного комментария
+cast.expression:
+    text: Выражение приведения типа
+cast.to.0:
+    text: Привести к «{0}»
+choose.type.popup.title:
+    text: Выберите тип
+class.completion.file.path:
+    text: Нажмите {0} ещё раз, чтобы найти все соответствующие файлы проекта
+class.completion.file.path.all.variants:
+    text: Нажмите {0}, чтобы найти соответствующие файлы любого типа
+code.coverage:
+    text: Покрытие кода
+code.coverage.is.not.supported:
+    text: Покрытие кода поддерживается для JRE 5.0 или выше
+code.vision.inheritors.name:
+    text: Наследники
+code.vision.usages.name:
+    text: Использования
+codeinsight.settings:
+    text: Настройки CodeInsight
+command.expand.postfix.template:
+    text: Развернуть постфиксный шаблон
+command.fix.documentation:
+    text: Исправить документацию
+command.name.surround.with.runtime.cast:
+    text: Окружить приведением типа во время выполнения
+command.name.typing:
+    text: Ввод
+command.rearrange.code:
+    text: Переставить код
+command.wrap.with.template:
+    text: Окружить шаблоном
+completion.automatic.command.name:
+    text: Автодополнение
+copy.abstract.method.intention.name:
+    text: Использовать существующую реализацию «{0}»
+copy.abstract.method.no.existing.implementations.found:
+    text: Существующие реализации не найдены
+copy.abstract.method.popup.title:
+    text: Выберите реализацию для копирования
+copy.abstract.method.title:
+    text: Использовать реализацию абстрактного метода
+coverage.button.add.package:
+    text: Добавить пакет
+coverage.data.not.found:
+    text: Данные покрытия не найдены
+coverage.data.outdated:
+    text: Данные покрытия устарели
+coverage.pattern.filter.editor.choose.package.title:
+    text: Выберите пакет
+create.directory.command:
+    text: Создать каталог
+create.directory.text:
+    text: Создать каталог {0}
+create.file.family:
+    text: Создать файл
+create.file.text:
+    text: Создать файл {0}
+create.tagfile.text:
+    text: Создать файл тега {0}
+deannotate.intention.action.text:
+    text: Удалить аннотацию
+deannotate.intention.chooser.title:
+    text: Выберите аннотацию для удаления
+declaration.navigation.title:
+    text: Выберите объявление
+dialog.add.live.template.title:
+    text: Добавить живой шаблон (Live Template)
+dialog.copy.live.template.title:
+    text: Копировать живой шаблон (Live Template)
+dialog.create.class.destination.package.label:
+    text: 'Целевой пакет:'
+dialog.create.class.label:
+    text: 'Создать {0}:'
+dialog.create.class.name:
+    text: Создать {0} {1}
+dialog.create.class.package.chooser.title:
+    text: Выберите целевой пакет
+dialog.create.field.from.parameter.already.exists.text:
+    text: Использовать существующее поле «{0}»?
+dialog.create.field.from.parameter.already.exists.title:
+    text: Поле уже существует
+dialog.create.field.from.parameter.declare.final.checkbox:
+    text: Объявить как &final
+dialog.create.field.from.parameter.field.name.label:
+    text: 'Название:'
+dialog.create.field.from.parameter.field.type.label:
+    text: 'Тип поля:'
+dialog.create.field.from.parameter.title:
+    text: Создать поле
+dialog.edit.live.template.title:
+    text: Редактировать живой шаблон (Live Template)
+dialog.edit.template.applicable.in.contexts:
+    text: Применимо в контекстах {0}.
+dialog.edit.template.button.edit.variables:
+    text: '&Редактировать переменные'
+dialog.edit.template.checkbox.html:
+    text: '&HTML'
+dialog.edit.template.checkbox.html.text:
+    text: HTML-текст
+dialog.edit.template.checkbox.jsp:
+    text: JS&P
+dialog.edit.template.checkbox.reformat.according.to.style:
+    text: '&Форматировать согласно стилю'
+dialog.edit.template.checkbox.shorten.fq.names:
+    text: Сокращать &полные названия
+dialog.edit.template.checkbox.smart.type.completion:
+    text: Умное автодополнение по &типу
+dialog.edit.template.checkbox.use.static.import:
+    text: Использовать статический &import, если возможно
+dialog.edit.template.checkbox.xml:
+    text: '&XML'
+dialog.edit.template.checkbox.xsl.text:
+    text: Текст XSL
+dialog.edit.template.context.other:
+    text: Другое
+dialog.edit.template.context.title:
+    text: Контекст
+dialog.edit.template.error.already.exists:
+    text: |-
+        Невозможно сохранить шаблон.
+        Шаблон с аббревиатурой «{0}»
+        уже существует в группе «{1}».
+        Пожалуйста, выберите другую аббревиатуру или группу.
+dialog.edit.template.error.malformed.abbreviation:
+    text: |-
+        Невозможно сохранить шаблон.
+        Аббревиатура шаблона должна содержать только буквы, цифры, точки и дефисы.
+dialog.edit.template.error.title:
+    text: Невозможно сохранить
+dialog.edit.template.label.abbreviation:
+    text: '&Аббревиатура:'
+dialog.edit.template.label.description:
+    text: '&Описание:'
+dialog.edit.template.label.expand.with:
+    text: Ра&скрывать с помощью
+dialog.edit.template.label.group:
+    text: '&Группа:'
+dialog.edit.template.no.applicable.contexts:
+    text: Нет применимых контекстов.
+dialog.edit.template.no.applicable.contexts.yet:
+    text: Пока нет применимых контекстов.
+dialog.edit.template.options.title:
+    text: Параметры
+dialog.edit.template.shortcut.default:
+    text: По умолчанию ({0})
+dialog.edit.template.template.text.title:
+    text: '&Текст шаблона:'
+dialog.import.on.paste.title:
+    text: Выберите классы для импорта
+dialog.import.on.paste.title2:
+    text: Выберите элементы для импорта
+dialog.intention.settings.description.panel.title:
+    text: Описание
+dialog.intention.settings.description.usage.example.title:
+    text: Пример использования
+dialog.intention.settings.intention.list.title:
+    text: Список намерений
+dialog.paste.on.import.text:
+    text: <html>Вставленный фрагмент кода использует классы, которые недоступны по импортам в новом контексте.<br/>Выберите классы, которые вы хотите импортировать в новый файл.</html>
+dialog.paste.on.import.text2:
+    text: <html>Вставленный фрагмент кода использует элементы, которые недоступны по импортам в новом контексте.<br/>Выберите элементы, которые вы хотите импортировать в новый файл.</html>
+dialog.reformat.files.optimize.imports.checkbox:
+    text: '&Оптимизировать импорты'
+dialog.reformat.files.reformat.selected.files.label:
+    text: Переформатировать выбранные файлы?
+dialog.reformat.files.title:
+    text: Переформатировать файлы
+dialog.title.expressions:
+    text: Выражения
+dialog.title.move.to.a.new.group:
+    text: Переместить в новую группу
+dialog.title.rename:
+    text: Переименовать
+disable.intention.action:
+    text: Отключить «{0}»
+display.coverage.prompt:
+    text: Вы хотите отобразить данные покрытия для «{0}»?
+documentation.message.documentation.is.not.available:
+    text: Документация недоступна до построения индексов.
+enable.intention.action:
+    text: Включить «{0}»
+error.attempt.to.generate.constructor.for.anonymous.class:
+    text: Невозможно добавить конструктор в анонимный класс
+error.cannot.convert.default.message:
+    text: 'Недопустимое значение: «{0}»'
+error.cannot.resolve.0.1:
+    text: Не удалось найти {0} «{1}»
+error.cannot.resolve.class:
+    text: Не удалось найти класс «{0}»
+error.cannot.resolve.default.message:
+    text: Не удалось найти символ «{0}»
+error.dialog.readonly.file.title:
+    text: Файл только для чтения
+error.dialog.readonly.files.message:
+    text: |-
+        {0} содержит файлы только для чтения.
+        Обработать все остальные (записываемые) файлы?
+error.dialog.readonly.files.title:
+    text: Невозможно изменить файлы только для чтения
+error.hint.file.is.readonly:
+    text: Файл {0} только для чтения
+error.unknown.enum.value.message:
+    text: Неизвестное значение перечисления «{0}»
+finish.template.command:
+    text: Завершить шаблон
+generate.constructor.fields.chooser.title:
+    text: Выберите поля для инициализации конструктором
+generate.constructor.super.constructor.chooser.title:
+    text: Выберите конструктор суперкласса
+generate.delegate.method.chooser.title:
+    text: Выберите методы для генерации делегатов
+generate.delegate.target.chooser.title:
+    text: Выберите цель для генерации делегатов
+generate.equals.and.hashcode.already.defined.title:
+    text: Создать equals() и hashCode()
+generate.equals.and.hashcode.already.defined.warning:
+    text: |-
+        Методы «boolean equals(Object)» и «int hashCode()» уже определены
+        для класса {0}. Вы хотите удалить их и продолжить?
+generate.equals.and.hashcode.already.defined.warning.anonymous:
+    text: |-
+        Методы 'boolean equals(Object)' и 'int hashCode()' уже определены
+        для этого анонимного класса. Вы хотите удалить их и продолжить?
+generate.equals.and.hashcode.error.no.object.class.message:
+    text: |-
+        Невозможно сгенерировать equals() и hashCode().
+        Класс java.lang.Object не найден.
+generate.equals.and.hashcode.error.no.object.class.title:
+    text: Нет java.lang.Object
+generate.equals.compare.arrays.comment:
+    text: // Вероятно, некорректно — сравнение массивов Object[] при помощи Arrays.equals
+generate.equals.compare.nested.arrays.comment:
+    text: // Сравнение вложенных массивов — значения {0}
+generate.equals.hashcode.accept.sublcasses:
+    text: Принимать &подклассы в качестве параметра метода equals()
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>Хотя это обычно не соответствует спецификации Object.equals(), принятие<br>подклассов может быть необходимо для корректной работы сгенерированного метода<br>с фреймворками, которые генерируют подклассы Proxy, например Hibernate.</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: Выберите поля для включения в equals()
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: Выберите поля для включения в hashCode()
+generate.equals.hashcode.internal.error:
+    text: Внутренняя ошибка
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: Выберите все непустые поля
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: hashCode() для массивов не поддерживается
+generate.equals.hashcode.wizard.title:
+    text: Создать equals() и hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals() для вложенных массивов не поддерживается
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: Сгенерированный equals() для Object[] может быть некорректным
+generate.getter.fields.chooser.title:
+    text: Выберите поля для генерации геттеров
+generate.getter.setter.title:
+    text: Выберите поля для генерации геттеров и сеттеров
+generate.list.popup.title:
+    text: Создать
+generate.setter.fields.chooser.title:
+    text: Выберите поля для генерации сеттеров
+goto.implementation.chooserTitle:
+    text: <html><body>Выберите реализацию <b>{0}</b> ({1} найдено)</body></html>
+goto.implementation.findUsages.title:
+    text: Реализации {0}
+goto.implementation.notFound:
+    text: Реализации не найдены
+goto.super.class.chooser.title:
+    text: Выберите суперкласс или интерфейс
+goto.super.method.chooser.title:
+    text: Выберите суперметод
+goto.super.method.findUsages.title:
+    text: Суперметоды {0}
+goto.test.chooserTitle.subject:
+    text: <html><body>Выберите тестовый объект для <b>{0}</b> ({1} найдено)</body></html>
+goto.test.chooserTitle.test:
+    text: <html><body>Выберите тест для <b>{0}</b> ({1} найдено)</body></html>
+goto.test.findUsages.subject.title:
+    text: Тестовые объекты для {0}
+goto.test.findUsages.test.title:
+    text: Тесты для {0}
+goto.test.notFound:
+    text: Тестовые объекты не найдены
+highlight.exceptions.thrown.chooser.title:
+    text: Выберите классы исключений для выделения
+highlight.exceptions.thrown.notfound:
+    text: 'В методе не найдено исключений '
+highlight.overridden.classes.chooser.title:
+    text: Выберите классы для выделения переопределённых методов из
+highlight.thrown.exceptions.chooser.all.entry:
+    text: Все перечисленные
+i18n.quickfix.code.panel.resource.bundle.expression.label:
+    text: '&Выражение пакета ресурсов:'
+i18n.quickfix.code.panel.title:
+    text: Информация о Java-коде
+i18n.quickfix.preview.panel.title:
+    text: Предпросмотр
+i18n.quickfix.property.panel.properties.file.label:
+    text: '&Файл свойств:'
+i18n.quickfix.property.panel.property.key.label:
+    text: '&Ключ свойства:'
+i18n.quickfix.property.panel.property.value.label:
+    text: '&Значение свойства:'
+i18n.quickfix.property.panel.title:
+    text: Информация о свойстве
+i18n.quickfix.property.panel.update.all.files.in.bundle.checkbox:
+    text: Обновить все файлы свойств в &пакете ресурсов
+i18nize.cant.create.properties.file.because.its.name.is.associated:
+    text: Невозможно создать файл свойств «{0}», так как его название связано с {1}.
+i18nize.dialog.error.jdk.message:
+    text: |-
+        Класс 'java.util.ResourceBundle' не найден.
+        Пожалуйста, настройте правильный JDK.
+i18nize.dialog.error.jdk.title:
+    text: Класс не найден
+i18nize.dialog.error.property.already.defined.message:
+    text: Свойство «{0}» уже существует в файле «{1}»
+i18nize.dialog.error.property.already.defined.title:
+    text: Свойство уже существует
+i18nize.dialog.property.file.chooser.title:
+    text: Выберите файл свойств
+i18nize.dialog.template.link.label:
+    text: Редактировать шаблон локализации
+i18nize.dialog.title:
+    text: локализация жёстко заданных строк
+i18nize.empty.file.path:
+    text: Укажите путь к файлу свойств
+i18nize.error.creating.properties.file:
+    text: Ошибка создания файла свойств
+i18nize.error.message:
+    text: |-
+        локализацию можно выполнить только для строкового литерала Java или его части.
+        Поместите курсор внутрь строкового литерала Java или выберите его часть.
+i18nize.error.title:
+    text: Невозможно интернационализировать выделенное
+i18nize.jsp.error:
+    text: |-
+        Выберите JSP-текст для локализации.
+        Убедитесь, что вы не выбрали скриптлеты, пользовательские теги и другие элементы разметки, не относящиеся к HTML.
+        Также, HTML-теги должны быть корректно открыты и закрыты.
+implementation.view.title:
+    text: Определение {0}
+incremental.search.tooltip.prefix:
+    text: 'Поиск:'
+inlay.hints.base.exclude.list.description:
+    text: '{0} список исключений применяется по умолчанию'
+inlay.hints.disable.action.text:
+    text: Отключить подсказки
+inlay.hints.disable.option:
+    text: Отключить «{0}»
+inlay.hints.enable.action.text:
+    text: Включить подсказки названий параметров
+inlay.hints.exclude.list.method:
+    text: Не показывать подсказки для текущего метода
+inlay.hints.show.settings:
+    text: Отключить подсказки для метода «{0}»
+insert.code.template.command:
+    text: Вставить шаблон кода
+inspection.error.dialog.title:
+    text: Ошибка
+inspection.i18n.display.name:
+    text: Жёстко заданные строки
+inspection.i18n.expression.is.invalid.error.message:
+    text: Шаблон интернационализированного выражения является недопустимым выражением
+inspection.i18n.message.general.with.value:
+    text: 'Жестко заданный строковый литерал: {0}'
+inspection.i18n.option.ignore.assert:
+    text: Игнорировать для аргументов утверждений
+inspection.i18n.option.ignore.assigned.to.constants:
+    text: Игнорировать литералы, присвоенные константам
+inspection.i18n.option.ignore.comment.pattern:
+    text: 'Игнорировать строки, содержащие этот комментарий (шаблон в формате java.util.Pattern):'
+inspection.i18n.option.ignore.comment.title:
+    text: Шаблон комментария Non-Nls
+inspection.i18n.option.ignore.for.exception.constructor.arguments:
+    text: 'Игнорировать для аргументов конструктора исключения:'
+inspection.i18n.option.ignore.for.junit.assert.arguments:
+    text: Игнорировать для аргументов JUnit assert
+inspection.i18n.option.ignore.for.specified.exception.constructor.arguments:
+    text: Игнорировать для указанных аргументов конструктора исключения
+inspection.i18n.option.ignore.nonalphanumerics:
+    text: Игнорировать литералы, не содержащие буквенно-цифровых символов
+inspection.i18n.option.ignore.property.keys:
+    text: Игнорировать литералы, значение которых равно существующему ключу свойства
+inspection.i18n.option.ignore.qualified.class.names:
+    text: Игнорировать литералы, значение которых равно существующему полному названию класса
+inspection.i18n.option.ignore.tostring:
+    text: Игнорировать содержимое метода toString()
+inspection.i18n.quickfix:
+    text: Интернационализировать жёстко заданный строковый литерал
+inspection.i18n.quickfix.annotate.as:
+    text: Добавить аннотацию @{0}
+inspection.i18n.quickfix.annotate.element.as:
+    text: Добавить {0} «{1}» аннотацию @{2}
+inspection.invalid.resource.bundle.reference:
+    text: Недопустимая ссылка на пакет ресурсов «{0}»
+inspection.unresolved.property.key.reference.message:
+    text: Строковый литерал «{0}» не выглядит как допустимый ключ свойства
+inspection.unresolved.property.key.reference.name:
+    text: Недопустимый ключ свойства
+intention.add.annotation.family:
+    text: Добавить аннотацию
+intention.add.on.demand.static.import.family:
+    text: Добавить статический импорт по требованию
+intention.add.on.demand.static.import.text:
+    text: Добавить статический импорт по требованию для «{0}»
+intention.add.override.annotation:
+    text: Добавить аннотацию «@Override»
+intention.add.override.annotation.family:
+    text: Добавить аннотацию Override
+intention.add.single.member.static.import.family:
+    text: Добавить статический импорт для одного элемента
+intention.add.single.member.static.import.text:
+    text: Добавить статический импорт для «{0}»
+intention.assign.field.from.parameter.family:
+    text: Присвоить полю значение параметра
+intention.assign.field.from.parameter.text:
+    text: Присвоить полю «{0}» значение параметра
+intention.bind.fields.from.parameters.family:
+    text: Связать параметры с полями
+intention.bind.fields.from.parameters.text:
+    text: Связать {0} параметров с полями
+intention.break.string.on.line.breaks.text:
+    text: Разбить строку по переносам строк
+intention.color.chooser.dialog:
+    text: Выберите цвет
+intention.convert.color.representation.family:
+    text: Преобразовать представление цвета
+intention.convert.color.representation.text:
+    text: Преобразовать в «new Color{0}»
+intention.convert.to.basic.latin:
+    text: Преобразовать в Basic Latin
+intention.create.field.from.parameter.family:
+    text: Создать поле для параметра
+intention.create.field.from.parameter.text:
+    text: Создать поле для параметра «{0}»
+intention.create.test:
+    text: Создать тест
+intention.create.test.dialog.choose.super.class:
+    text: Выберите суперкласс
+intention.create.test.dialog.class.name:
+    text: 'Название класса:'
+intention.create.test.dialog.fix.library:
+    text: Исправить
+intention.create.test.dialog.generate:
+    text: 'Генерировать:'
+intention.create.test.dialog.java:
+    text: Java
+intention.create.test.dialog.language:
+    text: 'Язык:'
+intention.create.test.dialog.library.not.found:
+    text: Библиотека '{0}' не найдена в модуле
+intention.create.test.dialog.select.methods:
+    text: 'Сгенерировать тестовые методы для:'
+intention.create.test.dialog.show.inherited:
+    text: Показать унаследованные методы
+intention.create.test.dialog.super.class:
+    text: 'Суперкласс:'
+intention.create.test.dialog.testing.library:
+    text: 'Библиотека тестирования:'
+intention.edit.interceptor.binding.family:
+    text: Привязки перехватчика
+intention.edit.interceptor.binding.text:
+    text: Редактировать привязки перехватчика «{0}»
+intention.encapsulate.field.text:
+    text: Инкапсулировать поле
+intention.error.cannot.create.class.message:
+    text: Невозможно создать класс «{0}»
+intention.error.cannot.create.class.title:
+    text: Не удалось создать класс
+intention.extract.if.condition.family:
+    text: Извлечь условие if
+intention.extract.if.condition.text:
+    text: Извлечь if ({0})
+intention.implement.abstract.class.default.text:
+    text: Реализовать абстрактный класс
+intention.implement.abstract.class.family:
+    text: Реализовать абстрактный класс или интерфейс
+intention.implement.abstract.class.interface.text:
+    text: Реализовать интерфейс
+intention.implement.abstract.class.subclass.text:
+    text: Создать подкласс
+intention.implement.abstract.method.class.chooser.title:
+    text: Выбрать реализующий класс
+intention.implement.abstract.method.command.name:
+    text: Реализовать метод
+intention.implement.abstract.method.error.no.classes.message:
+    text: Не найдено классов для реализации данного метода
+intention.implement.abstract.method.error.no.classes.title:
+    text: Классы не найдены
+intention.implement.abstract.method.family:
+    text: Реализовать абстрактный метод
+intention.implement.abstract.method.searching.for.descendants.progress:
+    text: Поиск наследников…
+intention.implement.abstract.method.text:
+    text: Реализовать метод «{0}»
+intention.insert.literal.underscores:
+    text: Вставить подчёркивания в литерал
+intention.intercept.ejb.method.or.class.class.text:
+    text: Добавить перехватчик для EJB-класса «{0}»
+intention.intercept.ejb.method.or.class.family:
+    text: Добавить перехватчик EJB
+intention.intercept.ejb.method.or.class.method.text:
+    text: Добавить перехватчик для бизнес-метода «{0}»
+intention.introduce.variable.text:
+    text: Ввести локальную переменную
+intention.invert.if.condition:
+    text: Инвертировать условие if
+intention.make.type.generic.family:
+    text: Сделать тип обобщённым (generic)
+intention.make.type.generic.text:
+    text: Изменить тип {0} на {1}
+intention.move.field.assignment.to.declaration:
+    text: Переместить присваивание в объявление поля
+intention.move.initializer.to.constructor:
+    text: Переместить инициализатор в конструктор
+intention.move.initializer.to.set.up:
+    text: Переместить инициализатор в метод setUp
+intention.override.method.text:
+    text: Переопределить метод «{0}»
+intention.remove.literal.underscores:
+    text: Убрать подчёркивания из литерала
+intention.replace.cast.with.var.family:
+    text: Заменить приведение типов на переменную
+intention.replace.cast.with.var.text:
+    text: Заменить «{0}» на «{1}»
+intention.replace.concatenation.with.formatted.output.family:
+    text: Заменить конкатенацию на форматированный вывод
+intention.replace.concatenation.with.formatted.output.text:
+    text: Заменить '+' на 'java.text.MessageFormat.format()'
+intention.settings:
+    text: Предложения по изменению кода
+intention.settings.category.text:
+    text: <html><body><font face="verdana" size="-1"><center>Вы выбрали категорию предложений по изменению кода «<b>{0}</b>».</center><center>Установив флажок, вы можете включить или отключить все предложения в этой категории.</center><center>Чтобы включить или отключить конкретное предложение, выберите его внутри этой категории.</center></font></body></html>
+intention.split.declaration.assignment.text:
+    text: Разделить на объявление и присваивание
+intention.split.declaration.family:
+    text: Разделить объявление
+intention.split.declaration.text:
+    text: Разделить на отдельные объявления
+intention.split.if.family:
+    text: Разделить условие if
+intention.split.if.text:
+    text: Разделить на два if
+intention.surround.resource.with.ARM.block:
+    text: Обернуть в блок try-with-resources
+intention.underscores.in.literals.family:
+    text: Подчёркивания в числовых литералах
+intentions.category.ejb:
+    text: EJB
+javadoc.action.back:
+    text: Назад
+javadoc.action.forward:
+    text: Вперёд
+javadoc.action.view.external:
+    text: Просмотреть внешнюю документацию
+javadoc.candiates:
+    text: <html>Кандидаты для вызова метода <b>{0}</b>:<br><br>{1}</html>
+javadoc.candidates.not.found:
+    text: <html>Не найдено кандидатов для вызова метода <b>{0}</b>.</html>
+javadoc.deprecated:
+    text: Устарело
+javadoc.description.copied.from.class:
+    text: 'Описание скопировано из класса:'
+javadoc.description.copied.from.interface:
+    text: 'Описание скопировано из интерфейса:'
+javadoc.documentation.not.found.message:
+    text: |-
+        Документация для этого элемента не найдена.
+        Добавьте необходимые пути к документации API в настройках проекта.
+javadoc.documentation.not.found.title:
+    text: Документация отсутствует
+javadoc.error.resolving.url:
+    text: Не удалось открыть URL <i>{0}</i> <p>Может помочь настройка путей к документации API в <a href="open://Настройки проекта">настройках проекта</a>
+javadoc.external.fetch.error.message:
+    text: 'Не удалось загрузить удалённую документацию: внутренняя ошибка'
+javadoc.fetching.progress:
+    text: Получение документации…
+javadoc.info.title:
+    text: Документация для {0}
+javadoc.method.in.class:
+    text: '{0} в классе {1}'
+javadoc.method.in.interface:
+    text: '{0} в интерфейсе {1}'
+javadoc.method.overrides:
+    text: 'Переопределяет:'
+javadoc.method.specified.by:
+    text: 'Определено в:'
+javadoc.parameters:
+    text: 'Параметры:'
+javadoc.returns:
+    text: 'Возвращает:'
+javadoc.see.also:
+    text: 'См. также:'
+javadoc.since:
+    text: 'Начиная с:'
+javadoc.throws:
+    text: 'Исключения:'
+javadoc.type.parameters:
+    text: 'Параметры типа:'
+label.enter.the.new.group.name:
+    text: 'Введите новое название группы:'
+lightbulb.tooltip:
+    text: Нажмите или клавишу {0}
+link.change.context:
+    text: Изменить
+link.define.context:
+    text: Определить
+livetemplate.description.geti:
+    text: Вставляет метод-одиночку getInstance
+livetemplate.description.if.not.null:
+    text: Вставляет условие «если не null»
+livetemplate.description.if.null:
+    text: Вставляет условие «если null»
+livetemplate.description.inst:
+    text: Проверяет тип объекта через instanceof и приводит тип
+livetemplate.description.itar:
+    text: Перебирает элементы массива
+livetemplate.description.itco:
+    text: Перебирает элементы java.util.Collection
+livetemplate.description.iten:
+    text: Перебирает java.util.Enumeration
+livetemplate.description.iter:
+    text: Перебирает Iterable | массив в синтаксисе J2SDK5.0
+livetemplate.description.itit:
+    text: Перебирает java.util.Iterator
+livetemplate.description.itli:
+    text: Перебирает элементы java.util.List
+livetemplate.description.itover:
+    text: Перебирает Iterable или массив в синтаксисе JDK 5.0
+livetemplate.description.ittok:
+    text: Перебирает токены из строки
+livetemplate.description.itve:
+    text: Перебирает элементы java.util.Vector
+livetemplate.description.lazy:
+    text: Выполняет отложенную инициализацию
+livetemplate.description.lst:
+    text: Получает последний элемент массива
+livetemplate.description.mn:
+    text: Присваивает переменной меньшее значение
+livetemplate.description.mx:
+    text: Присваивает переменной большее значение
+livetemplate.description.psf:
+    text: public static final
+livetemplate.description.psfi:
+    text: public static final int
+livetemplate.description.psfs:
+    text: public static final String
+livetemplate.description.psvm:
+    text: Объявление метода main()
+livetemplate.description.ritar:
+    text: Перебирает элементы массива в обратном порядке
+livetemplate.description.serr:
+    text: Выводит строку в System.err
+livetemplate.description.souf:
+    text: Выводит форматированную строку в System.out
+livetemplate.description.sout:
+    text: Выводит строку в System.out
+livetemplate.description.soutm:
+    text: Выводит названия текущих класса и метода в System.out
+livetemplate.description.soutp:
+    text: Выводит названия и значения параметров метода в System.out
+livetemplate.description.soutv:
+    text: Выводит значение в System.out
+livetemplate.description.st:
+    text: String
+livetemplate.description.surround.braces:
+    text: Обернуть в '{''}'
+livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
+    text: Обернуть в секцию CDATA
+livetemplate.description.surround.parens:
+    text: Обернуть в ()
+livetemplate.description.surround.tag:
+    text: Обернуть в <tag></tag>
+livetemplate.description.surround.tag.in.htmlorjsp:
+    text: Обернуть в <tag></tag> в HTML/JSP
+livetemplate.description.surround.with.callable:
+    text: Обернуть в Callable
+livetemplate.description.surround.with.read.lock:
+    text: Обернуть в ReadWriteLock.readLock
+livetemplate.description.surround.with.write.lock:
+    text: Обернуть в ReadWriteLock.writeLock
+livetemplate.description.tag.pair:
+    text: Пара тегов
+livetemplate.description.thr:
+    text: throw new
+livetemplate.description.toar:
+    text: Сохраняет элементы java.util.Collection в массив
+macro.array.variable:
+    text: arrayVariable()
+macro.capitalize.string:
+    text: capitalize(String)
+macro.capitalizeAndUnderscore.string:
+    text: capitalizeAndUnderscore(String)
+macro.cast.to.left.side.type:
+    text: castToLeftSideType()
+macro.classname:
+    text: className()
+macro.component.type.of.array:
+    text: componentTypeOf(Array)
+macro.current.package:
+    text: currentPackage()
+macro.decapitalize.string:
+    text: decapitalize(String)
+macro.descendant.classes.enum:
+    text: descendantClassesEnum(String)
+macro.enum:
+    text: enum(…)
+macro.expected.type:
+    text: expectedType()
+macro.file.name:
+    text: fileName()
+macro.file.name.without.extension:
+    text: fileNameWithoutExtension()
+macro.firstWord.string:
+    text: firstWord(String)
+macro.groovy.script:
+    text: groovyScript("groovy code")
+macro.guess.element.type.of.container:
+    text: guessElementType(Container)
+macro.iterable.component.type:
+    text: iterableComponentType(ArrayOrIterable)
+macro.iterable.variable:
+    text: iterableVariable()
+macro.linenumber:
+    text: lineNumber()
+macro.method.parameters:
+    text: methodParameters()
+macro.methodname:
+    text: methodName()
+macro.qualified.class.name:
+    text: qualifiedClassName()
+macro.right.side.type:
+    text: rightSideType()
+macro.suggest.first.variable.name:
+    text: suggestFirstVariableName()
+macro.suggest.index.name:
+    text: suggestIndexName()
+macro.suggest.variable.name:
+    text: suggestVariableName()
+macro.undescoresToCamelCase.string:
+    text: underscoresToCamelCase(String)
+macro.undescoresToSpaces.string:
+    text: underscoresToSpaces(String)
+macro.variable.of.type:
+    text: variableOfType(Type)
+methods.to.implement.chooser.title:
+    text: Выберите методы для реализации
+methods.to.override.chooser.title:
+    text: Выберите методы для переопределения
+methods.to.override.implement.chooser.title:
+    text: Выберите методы для переопределения/реализации
+multiple.implementations.tooltip:
+    text: Несколько реализаций
+n.of.m:
+    text: '{0} из {1}'
+no.coverage:
+    text: Нет покрытия
+no.documentation.found:
+    text: Документация не найдена.
+no.methods.overriding.0.are.found:
+    text: Не найдено методов, переопределяющих {0, choice, 0#|1# «{1}»|2#эти классы}
+node.abstract.flag.tooltip:
+    text: Абстрактный
+node.annotation.tooltip:
+    text: Аннотация
+node.anonymous.class.tooltip:
+    text: Анонимный класс
+node.class.tooltip:
+    text: Класс
+node.enum.tooltip:
+    text: Перечисление
+node.exception.tooltip:
+    text: Исключение
+node.excluded.flag.tooltip:
+    text: Исключено
+node.field.tooltip:
+    text: Поле
+node.final.flag.tooltip:
+    text: Финальный
+node.interface.tooltip:
+    text: Интерфейс
+node.junit.test.tooltip:
+    text: JUnit-тест
+node.method.tooltip:
+    text: Метод
+node.runnable.class.tooltip:
+    text: Запускаемый класс
+node.static.flag.tooltip:
+    text: Статический
+not.action.OptimizeImports.description:
+    text: Удалить неиспользуемые импорты и переупорядочить импорты
+not.action.OptimizeImports.text:
+    text: О_птимизировать импорты…
+notification.text.unused.imports.not.found:
+    text: Неиспользуемые импорты не найдены
+override.implement.broken.file.template.message:
+    text: Исправьте шаблон «Тело переопределённого/реализованного метода»
+override.implement.broken.file.template.title:
+    text: Ошибка шаблона файла
+parameter.info.indexing.mode.not.supported:
+    text: Информация о параметрах недоступна во время индексации
+parameter.info.no.parameters:
+    text: <нет параметров>
+parameter.info.progress.title:
+    text: Вычисление информации о параметрах…
+parameter.info.switch.overload.shortcuts:
+    text: Переключить с помощью {0} или {1}
+parameter.info.switch.overload.shortcuts.single:
+    text: Переключить с помощью {0}
+paste.data.flavor.folding:
+    text: FoldingData
+paste.dataflavor.referencedata:
+    text: ReferenceData
+popup.title.next.error.action.0.goes.through:
+    text: 'Действие «Следующая ошибка»{0} проходит через'
+postfix.live.template.title:
+    text: Постфиксный шаблон
+postfix.template.description.under.construction:
+    text: В разработке
+powered.by:
+    text: Разработано с использованием
+powered.by.plugin:
+    text: Разработано с использованием плагина «{0}».
+process.optimize.imports:
+    text: Оптимизация импортов
+process.optimize.imports.before.commit:
+    text: Оптимизация импортов перед коммитом
+process.rearrange.code:
+    text: Перестановка кода…
+process.rearrange.code.before.commit:
+    text: Перестановка кода перед коммитом
+process.reformat.code:
+    text: Форматирование кода
+process.reformat.code.before.commit:
+    text: Форматирование кода перед коммитом
+process.scope.changed.files:
+    text: обработать только изменённые в VCS файлы
+process.scope.directory:
+    text: Папка «{0}»
+process.scope.file:
+    text: '&Файл {0}'
+process.scope.module:
+    text: Модуль «{0}»
+process.scope.project:
+    text: Проект «{0}»
+progress.reformat.and.optimize.common.command.text:
+    text: Форматирование и оптимизация импортов
+progress.reformat.stage.applying.changes:
+    text: Сохранение изменений…
+progress.reformat.stage.processing.blocks:
+    text: Вычисление изменений…
+progress.reformat.stage.wrapping.blocks:
+    text: Подготовка…
+progress.text.optimizing.imports:
+    text: Оптимизация импортов…
+prompt.remove.coverage:
+    text: Удалить данные покрытия «{0}»?
+property.has.more.parameters.than.passed:
+    text: Свойство «{0}» ожидает {1} {1, choice, 1#параметр|2#параметра|3#параметров}, передано {2}
+quick.definition.back:
+    text: Назад
+quick.definition.edit.source:
+    text: Редактировать исходник
+quick.definition.forward:
+    text: Вперёд
+quick.definition.show.source:
+    text: Показать исходник
+quickfix.add.variable.family.name:
+    text: Инициализировать переменную
+quickfix.add.variable.text:
+    text: Инициализировать переменную «{0}»
+quickfix.i18n.command.name:
+    text: Локализация
+quickfix.i18n.concatentation:
+    text: Привести конкатенацию строк с жёстко заданным литералом к формату, поддерживающему локализацию
+quickfix.i18n.concatentation.error:
+    text: Конкатенация строк не найдена
+reformat.and.optimize.progress.common.text:
+    text: Подготовка импортов…
+reformat.code.accept.button.text:
+    text: Применить
+reformat.directory.dialog.filters:
+    text: Фильтры
+reformat.directory.dialog.options:
+    text: Параметры
+reformat.option.all.files.in.directory:
+    text: '&Все файлы в каталоге {0}'
+reformat.option.include.subdirectories:
+    text: '&Включить подкаталоги'
+reformat.option.optimize.imports:
+    text: '&Оптимизировать импорты'
+reformat.option.rearrange.entries:
+    text: '&Переупорядочить элементы'
+reformat.option.selected.text:
+    text: '&Выделенный текст'
+reformat.option.vcs.changed.region:
+    text: Только изменённый текст в системе контроля версий
+reformat.progress.common.text:
+    text: Форматирование кода…
+reformat.progress.file.with.known.name.text:
+    text: Форматирование {0}
+remove.annotation:
+    text: Удалить аннотацию
+remove.catch:
+    text: Удалить «catch…»
+remove.else:
+    text: Удалить «else…»
+rename.element.family:
+    text: Переименовать элемент
+rename.file.fix:
+    text: Переименовать файл
+rename.file.reference.family:
+    text: Переименовать ссылку на файл
+rename.file.reference.text:
+    text: Переименовать ссылку на файл в {0}
+rename.named.element.text:
+    text: Переименовать «{0}» в «{1}»
+rename.public.class.text:
+    text: Переименовать класс «{0}» в «{1}»
+searching.for.implementations:
+    text: Поиск реализаций…
+set.language.level:
+    text: Установить уровень языка
+set.language.level.to.0:
+    text: Установить уровень языка в {0}
+settings.inlay.parameter.hints.exclude.list:
+    text: Список исключений для подсказок параметров
+static.class.initializer:
+    text: '{0}инициализатор класса'
+status.bar.exit.points.highlighted.message:
+    text: '{0} {0, choice, 1#точка выхода|2#точки выхода|5#точек выхода} выделена (нажмите {1} ещё раз, чтобы убрать подсветку, Escape — чтобы убрать все подсветки)'
+status.bar.highlighted.usages.message:
+    text: '{0} {0, choice, 1#использование|2#использования|5#использований} элемента {1} найдено (нажмите {2} ещё раз, чтобы убрать подсветку, Escape — чтобы убрать все подсветки)'
+status.bar.highlighted.usages.no.target.message:
+    text: '{0} {0, choice, 1#использование|2#использования|5#использований} найдено (нажмите {2} ещё раз, чтобы убрать подсветку, Escape — чтобы убрать все подсветки)'
+status.bar.highlighted.usages.not.found.message:
+    text: Использования элемента {0} не найдены
+status.bar.highlighted.usages.not.found.no.target.message:
+    text: Использования не найдены
+status.bar.overridden.methods.highlighted.message:
+    text: '{0} {0, choice, 1#переопределённый метод|2#переопределённых метода|5#переопределённых методов} найдено (нажмите {1} ещё раз, чтобы убрать подсветку, Escape — чтобы убрать все подсветки)'
+surround.with.cast.template:
+    text: ((Type)expr)
+surround.with.chooser.title:
+    text: Обернуть в…
+surround.with.dowhile.template:
+    text: do / while
+surround.with.for.template:
+    text: for
+surround.with.if.expression.template:
+    text: if (expr) '{'…'}'
+surround.with.if.template:
+    text: if
+surround.with.ifelse.expression.template:
+    text: if (expr) '{'…'}' else '{'…'}'
+surround.with.ifelse.template:
+    text: if / else
+surround.with.not.instanceof.template:
+    text: '!(expr instanceof Type)'
+surround.with.not.template:
+    text: '!(expr)'
+surround.with.parenthesis.template:
+    text: (expr)
+surround.with.runnable.template:
+    text: Runnable
+surround.with.runtime.type.template:
+    text: ((RuntimeType)expr)
+surround.with.synchronized.template:
+    text: synchronized
+surround.with.try.catch.finally.template:
+    text: try / catch / finally
+surround.with.try.catch.incorrect.template.message:
+    text: Неверный шаблон файла для тела catch!
+surround.with.try.catch.incorrect.template.title:
+    text: Обернуть в try / catch
+surround.with.try.catch.template:
+    text: try / catch
+surround.with.try.finally.template:
+    text: try / finally
+surround.with.while.template:
+    text: while
+template.next.variable.command:
+    text: Перейти к следующей вкладке шаблона
+template.previous.variable.command:
+    text: Перейти к предыдущей вкладке шаблона
+template.shortcut.enter:
+    text: Enter
+template.shortcut.space:
+    text: Пробел
+template.shortcut.tab:
+    text: Tab
+templates.dialog.edit.variables.action.move.down:
+    text: Переместить в&низ
+templates.dialog.edit.variables.action.move.up:
+    text: Переместить в&верх
+templates.dialog.edit.variables.border.title:
+    text: Переменные
+templates.dialog.edit.variables.table.column.default.value:
+    text: Значение по умолчанию
+templates.dialog.edit.variables.table.column.expression:
+    text: Выражение
+templates.dialog.edit.variables.table.column.name:
+    text: Название
+templates.dialog.edit.variables.table.column.skip.if.defined:
+    text: Пропускать, если определено
+templates.dialog.edit.variables.title:
+    text: Редактировать переменные шаблона
+templates.dialog.shortcut.chooser.label:
+    text: По умолчанию раскрывать клавишей
+templates.dialog.table.column.abbreviation:
+    text: Аббревиатура
+templates.dialog.table.column.active:
+    text: Активен
+templates.dialog.table.column.description:
+    text: Описание
+templates.export.display.name:
+    text: Живые шаблоны
+templates.no.defined:
+    text: Нет определённых шаблонов в данном контексте
+templates.no.defined.with.prefix:
+    text: Нет шаблонов, начинающихся с «{0}», в данном контексте
+templates.select.template.chooser.title:
+    text: Выбрать шаблон
+templates.settings.page.title:
+    text: Живые шаблоны
+templates.surround.no.defined:
+    text: Нет определённых шаблонов «обернуть» в данном контексте
+title.popup.show.coverage:
+    text: Пакеты покрытия
+title.remove.coverage.data:
+    text: Удалить данные покрытия
+under.construction.string:
+    text: В разработке.
+unknown.encoding.0:
+    text: 'Неизвестная кодировка: «{0}»'
+unwrap.anonymous:
+    text: Развернуть «anonymous…»
+unwrap.braces:
+    text: Развернуть фигурные скобки
+unwrap.conditional:
+    text: 'Развернуть «f ? a : b»'
+unwrap.else:
+    text: Развернуть «else…»
+unwrap.for:
+    text: Развернуть «for…»
+unwrap.if:
+    text: Развернуть «if…»
+unwrap.popup.title:
+    text: Выберите оператор для распаковки/удаления
+unwrap.synchronized:
+    text: Развернуть «synchronized…»
+unwrap.try:
+    text: Развернуть «try…»
+unwrap.while:
+    text: Развернуть «while…»
+unwrap.with.placeholder:
+    text: Развернуть «{0}»
+xml.tag.info.no.attributes:
+    text: <нет атрибутов>
+hint.text.imports.optimized:
+    text: Импорты оптимизированы
