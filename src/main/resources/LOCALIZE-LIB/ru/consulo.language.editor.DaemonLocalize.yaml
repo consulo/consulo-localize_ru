@@ -1,0 +1,138 @@
+analysis.completed:
+    text: Анализ завершён
+analysis.hasnot.been.run:
+    text: Анализ не проводился
+analysis.suspended:
+    text: Анализ кода приостановлен
+class.is.subclassed.by.header:
+    text: Является подклассом<br>
+class.is.subclassed.too.many:
+    text: Имеет подклассы
+error.highlighting.settings:
+    text: Настройки подсветки ошибок
+errors.found:
+    text: Найдено <b>{0}</b> {1}
+errors.found.so.far:
+    text: Найдено <b>{0}</b> {1} на данный момент
+heavyProcess.type.indexing:
+    text: Индексация…
+heavyProcess.type.processing:
+    text: Обработка…
+heavyProcess.type.syncing:
+    text: Синхронизация…
+import.popup.hint.action.text:
+    text: Импортировать
+import.popup.hint.action.kind.class:
+    text: класс
+import.popup.hint.text:
+    text: <html><body><a href="action">{3} {0}…</a> {1}? <span style="color:{4}">{2}</span></body></html>
+    names:
+        - kind
+        - name
+        - shortcut
+        - actionName
+        - shortcutColor
+import.popup.multiple:
+    text: '{0}? (несколько вариантов…)'
+import.popup.text:
+    text: '{0}?'
+inspection.collapse.description:
+    text: меньше…
+inspection.extended.description:
+    text: больше…
+interface.is.implemented.by.header:
+    text: Реализован<br>
+interface.is.implemented.too.many:
+    text: Имеет реализации
+iw.status.analyzing:
+    text: Анализ…
+iw.status.off:
+    text: 'ВЫКЛ'
+iw.status.paused:
+    text: Пауза…
+label.code.analysis.has.been.suspended:
+    text: Анализ кода приостановлен
+label.code.analysis.is.disabled.in.power.save.mode:
+    text: Анализ кода отключён в режиме энергосбережения
+label.complete.results.will.be.available.after.indexing:
+    text: Полные результаты будут доступны после индексации
+label.no.analysis.has.been.performed:
+    text: Анализ не проводился
+label.shallow.analysis.completed:
+    text: Поверхностный анализ завершен
+method.implements:
+    text: Реализует метод в «{1}»
+method.implements.in:
+    text: Реализует метод «{0}» в «{1}»
+method.is.implemented.header:
+    text: Реализован в <br>
+method.is.implemented.too.many:
+    text: Имеет реализации
+method.is.overridden.too.many:
+    text: Переопределен в подклассах
+method.is.overriden.header:
+    text: Переопределён в <br>
+method.overrides:
+    text: Переопределяет метод в «{1}»
+method.overrides.in:
+    text: Переопределяет метод «{0}» в «{1}»
+navigation.findUsages.title.super.method:
+    text: Суперметоды {0}
+navigation.title.implementation.method:
+    text: <html><body>Выберите реализацию <b>{0}</b> ({1} методов найдено)</body></html>
+navigation.title.overrider.method:
+    text: <html><body>Выберите переопределяющий метод <b>{0}</b> ({1} методов найдено)</body></html>
+navigation.title.subclass:
+    text: <html><body>Выберите подкласс <b>{0}</b> ({1} классов найдено)</body></html>
+navigation.title.super.method:
+    text: Выберите суперметод {0}
+no.analysis.performed:
+    text: Анализ не проводился
+no.errors.or.warnings.found:
+    text: Проблем не найдено
+no.errors.or.warnings.found.so.far:
+    text: Проблем пока не найдено
+no.inspections.performed:
+    text: Инспекции не проводились
+no.inspections.performed.for:
+    text: Инспекции не проводились для {0}
+no.syntax.highlighting.performed:
+    text: Синтаксическая подсветка не выполнялась
+no.syntax.highlighting.performed.for:
+    text: Синтаксическая подсветка не выполнялась для {0}
+pass.inspection:
+    text: Инспекции
+pass.syntax:
+    text: Синтаксический анализ
+pass.whole.inspections:
+    text: Медленные инспекции
+pass.wolf:
+    text: Проверка красных файлов
+performing.code.analysis:
+    text: Выполнение анализа кода
+popup.action.configure.inspections:
+    text: Настроить инспекции…
+popup.title.configure.highlighting.level:
+    text: Уровень подсветки для {0}
+process.title.file.is.binary:
+    text: Файл является бинарным
+process.title.file.is.decompiled:
+    text: Файл является декомпилированным
+process.title.file.is.generated:
+    text: Файл является сгенерированным
+process.title.heavy.operation.is.running:
+    text: Выполняется тяжёлая операция
+process.title.highlighting.is.disabled.for.this.file:
+    text: Подсветка отключена для этого файла
+process.title.highlighting.is.paused.temporarily:
+    text: Подсветка временно приостановлена
+process.title.highlighting.level.is.none:
+    text: Уровень подсветки — Отключена
+process.title.no.file:
+    text: Файл не выбран
+process.title.project.is.disposed:
+    text: Проект закрыт
+shallow.analysis.completed:
+    text: Поверхностный анализ завершён
+shallow.analysis.completed.details:
+    text: Полные результаты будут доступны после индексации
