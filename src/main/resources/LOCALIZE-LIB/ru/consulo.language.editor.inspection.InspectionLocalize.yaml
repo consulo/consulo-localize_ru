@@ -483,7 +483,7 @@ inspection.dead.code.problem.synopsis8:
 inspection.dead.code.problem.synopsis8.suspicious:
     text: Нет достижимых инстанциаций реализаций. {0, choice, 1#Найдена инстанциация|2#Найдено {0, number} инстанциаций} в коде проекта.
 inspection.dead.code.problem.synopsis9:
-    text: {0, choice, 1#Найдена 1 инстанциация|2#Найдено {0, number} инстанциаций} в коде проекта.
+    text: '{0, choice, 1#Найдена 1 инстанциация|2#Найдено {0, number} инстанциаций} в коде проекта.'
 inspection.dead.code.problem.synopsis9.suspicious:
     text: Контекст анонимного класса недостижим. Класс не создаётся. {0, choice, 1#Найдена 1 инстанциация|2#Найдено {0, number} инстанциаций} в коде проекта.
 inspection.dead.code.remove.from.entry.point.quickfix:
