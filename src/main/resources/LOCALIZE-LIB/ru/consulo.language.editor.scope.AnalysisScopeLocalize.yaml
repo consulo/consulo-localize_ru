@@ -1,0 +1,202 @@
+action.analysis.noun:
+    text: Анализ
+action.analyze.verb:
+    text: Анализировать
+action.analyzing.cyclic.dependencies.in.scope:
+    text: Циклические зависимости {0}
+action.backward.dependency.analysis:
+    text: Анализ обратных зависимостей
+action.close.dependency.description:
+    text: Закрыть средство просмотра зависимостей
+action.close.modules.dependencies.description:
+    text: Закрыть средство просмотра зависимостей модулей
+action.cyclic.dependency.title:
+    text: Анализ циклических зависимостей
+action.edit.rules:
+    text: Редактировать правила
+action.edit.rules.description:
+    text: Редактировать правила зависимостей
+action.flatten.packages:
+    text: Свернуть пакеты
+action.forward.dependency.analysis:
+    text: Анализ зависимостей
+action.group.by.scope.type:
+    text: Группировать по типу области
+action.group.by.scope.type.description:
+    text: Группировать по типу области (бой, тест, библиотеки)
+action.module.dependencies.direction:
+    text: Направление зависимостей модулей
+action.rerun.dependency:
+    text: Повторить анализ зависимостей
+action.select.in.left.tree:
+    text: Выбрать в левом дереве
+action.select.in.left.tree.description:
+    text: Выбрать в левом дереве (для просмотра зависимостей)
+action.show.files:
+    text: Показать файлы
+action.show.files.description:
+    text: Показать/скрыть файлы
+action.show.illegals.only:
+    text: Показать только недопустимые
+action.show.illegals.only.description:
+    text: Показать только файлы с недопустимыми зависимостями
+action.show.modules:
+    text: Показать модули
+action.show.modules.description:
+    text: Показать/скрыть модули
+analysis.scope.title:
+    text: Область {0}
+analyzing.project:
+    text: Анализ проекта
+backward.dependencies.progress.text:
+    text: Анализ обратных зависимостей
+backward.dependencies.toolwindow.title:
+    text: Обратные зависимости {0}
+backward.dependencies.usage.view.initial.text:
+    text: Выберите, где искать в правом дереве и что искать в левом дереве.
+backward.dependencies.usage.view.root.node.text:
+    text: Использования выбора области левого дерева в выборе области правого дерева
+checking.class.files:
+    text: Проверка файлов классов
+cyclic.dependencies.progress.text:
+    text: Построение графа зависимостей
+cyclic.dependencies.scope.dialog.module.button:
+    text: '{0} &модуль «{1}»'
+cyclic.dependencies.scope.dialog.project.button:
+    text: '{0} весь &проект'
+cyclic.dependencies.scope.dialog.title:
+    text: Укажите область {0}
+cyclic.dependencies.tree.cycle.node.text:
+    text: цикл
+cyclic.dependencies.usage.view.initial.text:
+    text: Выберите пакет для анализа из левого дерева
+cyclic.dependencies.usage.view.root.node.text:
+    text: Использования пакета «{0}» в пакете «{1}»
+dependencies.libraries.node.text:
+    text: Библиотеки
+dependencies.tree.node.default.package.abbreviation:
+    text: <пакет по умолчанию>
+dependency.configurable.allow.table.column1:
+    text: Разрешить использования
+dependency.configurable.allow.table.column2:
+    text: только в
+dependency.configurable.deny.table.column1:
+    text: Запретить использования
+dependency.configurable.deny.table.column2:
+    text: в
+dependency.configurable.display.name:
+    text: Валидация зависимостей
+error.packageset.common.expectations:
+    text: '(test|lib|src)[название_модуля] ожидалось перед :'
+error.packageset.pattern.expectations:
+    text: Ожидался шаблон пакета
+error.packageset.position.parsing.error:
+    text: '{0} на позиции {1}'
+error.packageset.rparen.expected:
+    text: Ожидалась ')'
+error.packageset.token.expectations:
+    text: Неожиданный «{0}»
+find.dependencies.progress.text:
+    text: 'Поиск использований в: {0}'
+forward.dependencies.usage.view.initial.text:
+    text: Выберите, где искать в левом дереве и что искать в правом дереве.
+forward.dependencies.usage.view.root.node.text:
+    text: Использования выбора области правого дерева в выборе области левого дерева
+local.scopes.node.text:
+    text: Локальные области
+mark.dependency.illegal.text:
+    text: Пометить как недопустимое
+module.dependencies.cycle.node.text:
+    text: Цикл{0}
+module.dependencies.scope.dialog.module.button:
+    text: Проверить &модуль «{0}»
+module.dependencies.scope.dialog.project.button:
+    text: Проверить весь &проект
+module.dependencies.scope.dialog.title:
+    text: Укажите область анализа
+module.dependencies.toolwindow.title:
+    text: '{0}'
+no.dependencies.found.message:
+    text: Зависимостей {0} от {1} не найдено.
+package.dependencies.build.process.title:
+    text: Сканирование пакетов
+package.dependencies.build.progress.text:
+    text: Сканирование пакетов
+package.dependencies.library.node.text:
+    text: Классы библиотек
+package.dependencies.node.items.count:
+    text: '{0, choice, 1#1 запись|2#{0, number} записей}'
+package.dependencies.on.toolwindow.title:
+    text: Зависимости {0} от {1}
+package.dependencies.production.node.text:
+    text: Боевые классы
+package.dependencies.progress.text:
+    text: Анализ зависимостей пакетов
+package.dependencies.progress.title:
+    text: Анализ зависимостей
+package.dependencies.test.node.text:
+    text: Тестовые классы
+package.dependencies.toolwindow.title:
+    text: Зависимости {0}
+predefined.scope.problems.name:
+    text: Проблемы
+project.is.out.of.date:
+    text: Проект устарел
+recompile.confirmation.message:
+    text: "Файлы классов проекта устарели.\nВы хотите скомпилировать проект перед продолжением анализа DSM?\nОтказ от этого может привести к неполным или некорректным данным."
+scanning.scope.progress.title:
+    text: Сканирование области …
+scope.directory:
+    text: Каталог «{0}»
+scope.display.name.allow.scope:
+    text: Разрешить использования области «{0}» в области «{1}»
+scope.display.name.deny.scope:
+    text: Запретить использования области «{0}» в области «{1}»
+scope.file:
+    text: Файл «{0}»
+scope.module.list:
+    text: '{1, choice, 1#Модуль|2#Модули} {0}'
+scope.option.analyze.injected.code:
+    text: Инспектировать в&недрённый код
+scope.option.custom:
+    text: '&Пользовательская область'
+scope.option.include.test.sources:
+    text: Включить &тестовые источники
+scope.option.module:
+    text: Модуль «{0}»
+scope.option.module.with.mnemonic:
+    text: '&Модуль «{0}»'
+scope.option.uncommited.files:
+    text: '&Незакоммиченные файлы'
+scope.option.uncommited.files.all.changelists.choice:
+    text: Все
+scope.option.uncommitted.files:
+    text: '&Незакоммиченные файлы'
+scope.option.uncommitted.files.all.changelists.choice:
+    text: Все
+scope.option.whole.project:
+    text: Весь &проект
+scope.package:
+    text: Пакет {0}
+scope.project:
+    text: Проект «{0}»
+scope.selected.files:
+    text: Выбранные файлы
+scope.virtual.files:
+    text: выделенное
+skip.import.statements.checkbox.title:
+    text: Пропускать инструкции импорта
+specify.analysis.scope:
+    text: Укажите область {0}
+status.bar.no.rule.violation.message:
+    text: Правила не нарушены
+status.bar.rule.violation.message:
+    text: 'Следующее правило{0, choice, 1# нарушено|2# нарушены}: {1}'
+unknown.node.text:
+    text: <неизвестно>
+update.module.tree.progress.text:
+    text: Обработка циклов модуля «{0}»
+update.module.tree.progress.title:
+    text: Обновление дерева модулей
+usage.view.canceled:
+    text: Отменено
