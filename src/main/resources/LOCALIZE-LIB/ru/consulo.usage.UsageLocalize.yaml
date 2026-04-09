@@ -7,15 +7,15 @@ action.close:
 action.description.rerun:
     text: Повторить поиск
 action.group.by.file.structure:
-    text: Группировка по структуре файла
+    text: Группировать по структуре файла
 action.group.by.module:
-    text: Группировка по модулю
+    text: Группировать по модулю
 action.group.by.package:
     text: Группировать по пакету
 action.group.by.title:
     text: Группировать по
 action.group.by.usage.type:
-    text: Группировка по типу использования
+    text: Группировать по типу использования
 action.merge.same.line:
     text: Объединить использования из одной строки
 action.next.occurrence:
@@ -51,9 +51,9 @@ dialog.rerun.search:
 dialog.title.information:
     text: Информация
 files.are.too.large.large.and.cannot.be.scanned:
-    text: '{0,choice, 1#Файл|2#Файлы} {1} слишком больш{0,choice, 1#ой|2#ие} и не могут быть просканированы'
+    text: '{0,choice, 1#Файл|2#Файлы} {1} слишком больш{0,choice, 1#ой|2#ие} и не мо{0,choice, 1#жет|2#гут} быть просканирован{0,choice, 1#|2#ы}'
 find.excessive.usage.count.prompt:
-    text: Пока найдено {0} использований. Вы уверены, что хотите продолжить?
+    text: Пока найдено {0} использований. Хотите продолжить?
 find.excessive.usages.title:
     text: Слишком много использований
 find.file.size.megabytes:
@@ -77,7 +77,7 @@ message.part.number.of.unloaded.modules:
 message.part.small.number.of.unloaded.modules:
     text: '{0} выгруженных модулей: {1}'
 message.part.unloaded.module.0:
-    text: не загруженный модуль ''{0}''
+    text: выгруженный модуль «{0}»
 message.there.may.be.usages.in.0.load.all.modules.and.repeat:
     text: В {0} могут быть использования. Загрузите все модули и повторите рефакторинг, чтобы убедиться, что все использования будут обновлены.
 message.usage.search.was.canceled:
@@ -91,7 +91,7 @@ node.group.code.usages:
 node.group.module:
     text: 'Модуль:'
 node.invalid:
-    text: НЕДОПУСТИМО
+    text: НЕКОРРЕКТНО
 node.non.code.usages:
     text: Использования в текстовых файлах
 node.readonly:
@@ -200,6 +200,9 @@ usage.type.write:
     text: Запись значения
 usage.view.cancel.button:
     text: '&Отмена'
+usage.view.counter:
+    text: '{0} {0, choice, 1#результат|2#результата}'
+#    text: '{0} {0, plural, one{результат} few{результата} other{результатов}}'
 usages.n:
     text: '{0,choice, 0#нет использования|1#1 использование|2#{0,number} использований} найдено'
 usages.title:
