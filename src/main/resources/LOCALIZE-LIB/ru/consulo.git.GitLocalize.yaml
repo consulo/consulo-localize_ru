@@ -1,5 +1,5 @@
 action.Annotate.with.Blame.text:
-    text: Аннотировать с помощью Git Blame
+    text: Подписать при помощи Git Blame
 action.Git.Pull.text:
     text: Получить (Pull)…
 action.Git.Stash.Silently.text:
@@ -107,7 +107,7 @@ addrefspec.reference.chooser.tooltip:
 addrefspec.title:
     text: Добавить ссылку(и)
 annotate.action.name:
-    text: Аннотировать
+    text: Подписать
 annotation.tool.tip:
     text: |-
         коммит {0}
@@ -253,7 +253,7 @@ common.no.active.branch:
 common.refreshing:
     text: Обновление файлов
 computing.annotation:
-    text: Вычисление аннотации для {0}
+    text: Вычисление подписи для {0}
 crlf.convert.convert:
     text: Конвертировать выбранные
 crlf.convert.label:

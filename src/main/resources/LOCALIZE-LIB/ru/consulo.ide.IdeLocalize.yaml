@@ -1698,7 +1698,7 @@ node.default:
 node.default.package:
     text: <Пакет по умолчанию>
 node.hierarchy.invalid:
-    text: '[Недопустимо]'
+    text: '[Некорректно]'
 node.hierarchy.java.lang.object:
     text: Все классы являются производными от java.lang.Object
 node.memberchooser.all.classes:
