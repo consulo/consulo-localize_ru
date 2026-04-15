@@ -355,10 +355,10 @@ recent.find.usages.action.title:
     text: Недавние поиски использований
 results.options.group:
     text: Параметры результата
-se.text.header.action.all.filetypes:
-    text: Все типы файлов
 search.everywhere.group.name:
     text: Текст
+se.text.header.action.all.filetypes:
+    text: Все типы файлов
 select.next.occurence.not.found.message:
     text: Не найдено, попробуйте ещё раз, чтобы выполнить поиск сверху
 text.search.action.description:
@@ -369,3 +369,7 @@ tooltip.close.search.bar.escape:
     text: Закрыть строку поиска (Escape)
 toolwindow.find.display.name:
     text: Поиск
+show.in.find.window.button.name:
+    text: Открыть в панели поиска
+show.in.find.window.button.description:
+    text: Открыть результаты в панели поиска

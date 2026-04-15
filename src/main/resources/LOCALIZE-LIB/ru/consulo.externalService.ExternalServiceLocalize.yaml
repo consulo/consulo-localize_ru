@@ -1,5 +1,9 @@
 action.download.and.install.plugin:
     text: Загрузить и установить
+action.plugins.suggestion.ignore.text:
+    text: Игнорировать
+action.plugins.suggestion.install.text:
+    text: Установить расширения…
 action.postpone.text:
     text: Отложить
 action.restart.app.text:
@@ -338,3 +342,11 @@ whatsnew.no.changes.text:
     text: Без изменений
 whatsnew.platform.text:
     text: Платформа
+lower.jre.versions.0.message:
+    text: Версии Java ниже {0} в ближайшем будущем поддерживаться не будут. Пожалуйста, перейдите на JRE {0}+ или используйте встроенный JRE (при следующем обновлении).
+message.plugins.suggestion:
+    text: Предложение расширений
+message.plugins.suggestion.notification:
+    text: Обнаружены функции, для поддержки которых можно установить новые расширения.
+title.plugin.notification.title:
+    text: Управление расширениями

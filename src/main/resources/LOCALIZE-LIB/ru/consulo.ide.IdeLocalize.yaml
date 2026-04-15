@@ -160,20 +160,18 @@ action.directory:
     text: Каталог
 action.do.not.mark:
     text: Не отмечать
-action.download.and.install.plugin:
-    text: Загрузка и установка
 action.edit.file.templates:
     text: Изменить шаблоны файлов…
 action.edit.repository.url:
     text: Редактировать URL репозитория
 action.expand.all:
     text: Развернуть всё
-action.filter.todo.items:
-    text: Фильтр элементов TODO
 action.flatten.packages:
     text: Свести пакеты
 action.flatten.view:
     text: Свести вид
+action.fn.keys.text:
+    text: FN-клавиши
 action.from.file.template:
     text: Из шаблона файла …
 action.group.by.modules:
@@ -216,8 +214,6 @@ action.next.problem:
     text: Следующая проблема
 action.next.tip:
     text: '&Следующий совет'
-action.next.todo:
-    text: Следующий TODO
 action.override.method:
     text: Переопределить метод
 action.override.methods:
@@ -226,6 +222,14 @@ action.overwrite:
     text: Перезаписать
 action.package:
     text: Пакет
+action.packages.install.text:
+    text: Установить
+action.packages.reload.text:
+    text: Перезагрузить список пакетов
+action.packages.uninstall.text:
+    text: Удалить
+action.packages.upgrade.text:
+    text: Обновить
 action.pin.active.tab:
     text: _Закрепить активную вкладку
 action.pin.tab:
@@ -238,8 +242,6 @@ action.previous.problem:
     text: Предыдущая проблема
 action.previous.tip:
     text: '&Предыдущий совет'
-action.previous.todo:
-    text: Предыдущий TODO
 action.refresh:
     text: Обновить
 action.remove:
@@ -356,16 +358,12 @@ action.toolwindow.structure:
     text: '&Структура'
 action.toolwindow.todo:
     text: TODO
-action.uninstall.plugin:
-    text: Удалить
 action.unpin.active.tab:
     text: _Открепить активную вкладку
 action.unpin.tab:
     text: _Открепить вкладку
 action.unpin.tab.tooltip:
     text: Отменить пришпиливание вкладки
-action.update.plugin:
-    text: Обновление расширения
 action.view.class.hierarchy:
     text: Иерархия классов
 action.view.subtypes.hierarchy:
@@ -522,8 +520,6 @@ button.yes:
     text: _Да
 change.encoding.command.name:
     text: Изменить кодировку для «{0}»
-changelist.todo.title:
-    text: '{0} Список изменений'
 checkboox.cyclic.scrolling.in.lists:
     text: Циклическая прокрутка в списке
 checkbox.allow.line.numbers:
@@ -536,8 +532,6 @@ checkbox.animate.windows:
     text: Анимация окон
 checkbox.autodetect.utf:
     text: Автоматическое определение файлов в кодировке UTF
-checkbox.case.sensitive:
-    text: Чувствителен к регистру
 checkbox.confirm.application.exit:
     text: Подтверждать закрытия приложения
 checkbox.copy.javadoc:
@@ -614,8 +608,6 @@ checkbox.support.screen.readers:
     text: Поддержка экранных читалок (требуется перезапуск)
 checkbox.synchronize.files.on.frame.activation:
     text: Синхронизировать файлы при активации фрейма
-checkbox.todo.use.default.colors:
-    text: Использовать цветовую схему TODO по умолчанию
 checkbox.transparent.native.to.ascii.conversion:
     text: Прозрачное преобразование native-to-ascii
 checkbox.use.antialiased.font.in.editor:
@@ -634,30 +626,6 @@ code.folding.settings:
     text: Настройки сворачивания кода
 column.description:
     text: Описание
-column.plugins.category:
-    text: Категория
-column.plugins.date:
-    text: Дата
-column.plugins.downloads:
-    text: Загрузки
-column.plugins.name:
-    text: Название
-column.plugins.rate:
-    text: Рейтинг
-column.plugins.tag:
-    text: Тег
-column.todo.filter.pattern:
-    text: Шаблон
-column.todo.filter.patterns:
-    text: Шаблоны
-column.todo.filters.name:
-    text: Название
-column.todo.patterns.case.sensitive:
-    text: Чувствителен к регистру
-column.todo.patterns.icon:
-    text: Значок
-column.todo.patterns.pattern:
-    text: Шаблон
 combobox.console.default.encoding.label:
     text: 'Кодировка по умолчанию:'
 combobox.icon.theme:
@@ -714,8 +682,6 @@ command.switch.active.editor:
     text: Переключить активный редактор
 confirm.set.look.and.feel:
     text: Изменить &тему
-connection.failed.message:
-    text: 'Не удалось загрузить описания расширений из: «{0}»'
 conversion.dialog.text.1:
     text: Проект «{0}» имеет старый формат и будет преобразован. Вы не сможете открыть проект с помощью более ранних версий {1}.
 conversion.dialog.text.2:
@@ -785,8 +751,6 @@ directory.module.file:
 directory.project.file.directory:
     text: |
         Каталог файлов {0}
-disabled.plugins.warning.message:
-    text: <li>Расширение <b>«{0}»</b> не сможет загрузиться, так как требуемые {2, choice, 1#расширение|2#расширения} {1} {2, choice, 1#отключено|2#отключены}.</li>
 display.balloon.notifications:
     text: Отобразить всплывающее окно уведомления
 display.name.firefox.settings:
@@ -797,8 +761,6 @@ dom.elements.tree.childs.contain.errors:
     text: Дочерние элементы содержат ошибки
 double.ctrl.or.shift.shortcut:
     text: Двойной {0}
-dumb.service.indexing.paused.due.to:
-    text: Индексирование приостановлено из-за {0}
 eap.configurable.name:
     text: Экспериментальные функции
 eap.configurable.warning.text:
@@ -833,10 +795,6 @@ editbox.license.user.name:
     text: 'Пользователь name:'
 editbox.line.number:
     text: 'Номер строки:'
-editbox.plugin.change.notes:
-    text: Изменить заметки
-editbox.plugin.description:
-    text: Описание
 element.method:
     text: метод
 element.of.class:
@@ -914,12 +872,6 @@ error.file.not.found.message:
     text: Файл «{0}» не найден
 error.files.of.this.type.cannot.be.opened:
     text: Файлы этого типа не могут быть открыты в {0}
-error.filter.name.should.be.specified:
-    text: Название фильтра должно быть указан
-error.filter.should.contain.at.least.one.pattern:
-    text: Фильтр должен содержать хотя бы один шаблон
-error.filter.with.the.same.name.already.exists:
-    text: Фильтр с таким названием уже существует
 error.invalid.template.file.name.or.extension:
     text: Недопустимое название или расширение файла шаблона
 error.keyword.cannot.be.empty:
@@ -932,8 +884,6 @@ error.license.collision:
         Только один активный компьютер может использовать лицензию одновременно.
         Хотите повторно активировать этот компьютер?
         Нажмите «Да» для повторной активации или «Нет» для выключения {1}.
-error.list.of.plugins.was.not.loaded:
-    text: 'Список расширений не загружен: {0}'
 error.loading.package.list:
     text: Ошибка загрузки списка пакетов:{0}
 error.malformed.url:
@@ -978,25 +928,6 @@ error.please.specify.template.extension:
     text: Укажите расширение шаблона
 error.please.specify.template.name:
     text: Укажите название шаблона
-error.plugin.download.failed:
-    text: Загрузка расширения не удалась
-error.plugin.was.not.installed:
-    text: 'Расширение {0} не установлено: {1}'
-error.plugins.should.not.have.cyclic.dependencies:
-    text: |-
-        Расширения не должны иметь циклических зависимостей:
-        {0}
-error.plugins.were.not.loaded:
-    text: |-
-        Ошибка загрузки расширений:
-        {0}
-        Расширения не были загружены.
-        Исправьте указанную выше ошибку и перезапустите Consulo.
-error.plugins.without.id.found:
-    text: Были найдены расширения без идентификаторов, все такие расширения были пропущены.
-error.problems.found.loading.plugins:
-    text: |
-        Обнаружены проблемы с загрузкой расширений:
 error.project.file.does.not.exist:
     text: Не удалось загрузить {0}. Файл не существует.
 error.project.file.is.corrupted:
@@ -1012,10 +943,6 @@ error.reading.settings.file.2:
         Ошибка чтения файла {0}.
 
         {1}
-error.required.plugin.disabled:
-    text: 'Расширение «{0}» не загружено: отключено требуемое расширение «{1}».'
-error.required.plugin.not.installed:
-    text: 'Расширение «{0}» не загружено: не установлено нужное расширение «{1}».'
 error.saving.license.data:
     text: |-
         Ошибка сохранения данных лицензии.
@@ -1042,6 +969,8 @@ error.unable.to.read.tip.of.the.day:
     text: <html><body>Не удалось прочитать Совет дня ({0}). Убедитесь, что {1} установлен правильно.</body></html>
 error.unable.to.save.file.template.using.encoding:
     text: Не удалось сохранить шаблон файла «{0}» с помощью {1}
+error.updating.package.list:
+    text: 'Ошибка при обновлении списка пакетов: {0}'
 error.writing.settings:
     text: |-
         Ошибка записи настроек.
@@ -1183,8 +1112,6 @@ group.presentation.mode:
     text: Режим презентации
 group.settings.process.tab.close:
     text: При закрытии инструментального окна с запущенным процессом
-group.todo.filter.patterns:
-    text: Шаблоны
 group.transparency:
     text: Прозрачность
 group.ui.options:
@@ -1295,10 +1222,6 @@ label.font.size:
     text: 'Размер:'
 label.icon.path:
     text: '&Путь к значку:'
-label.implements.method.of_class_or_interface.name:
-    text: реализует {0} {1} {2}.
-label.implements.method.of_interfaces:
-    text: 'реализует методы следующих классов/интерфейсов:'
 label.inactive.timeout.sec:
     text: сек.
 label.java.source.files.have.been.found:
@@ -1314,8 +1237,6 @@ label.macro.preview:
     text: Предварительный просмотр макроса
 label.macros:
     text: Макросы
-label.method:
-    text: Метод {0}
 label.missed.libraries.prefix:
     text: 'Следующие библиотеки отсутствуют:'
 label.missed.libraries.text:
@@ -1362,20 +1283,10 @@ label.option.window:
     text: 'Окно: {0}'
 label.override.laf.font:
     text: 'Шрифт:'
-label.overrides.method.of_class_or_interface.name:
-    text: переопределяет {0} {1} {2}.
 label.path.to.module.file:
     text: 'Путь к файлу модуля {0} (.iml):'
 label.please.enter.project.name:
     text: Введите название для создания нового {0} {1}.
-label.plugin.home.page:
-    text: Домашняя страница расширения
-label.plugin.vendor.email:
-    text: 'Эл. почта:'
-label.plugin.vendor.home.page:
-    text: 'Домашняя страница:'
-label.plugin.vendor.name:
-    text: 'Название:'
 label.project.files.location:
     text: 'Расположение файла &проекта:'
 label.project.jdk:
@@ -1409,16 +1320,6 @@ label.text.antialiasing.scope.editor:
     text: 'Редактор:'
 label.text.antialiasing.scope.ide:
     text: 'IDE:'
-label.todo.filter.name:
-    text: 'Название:'
-label.todo.filters:
-    text: Фильтры
-label.todo.icon:
-    text: 'Значок:'
-label.todo.pattern:
-    text: 'Шаблон:'
-label.todo.patterns:
-    text: Шаблоны
 label.transparency.delay.ms:
     text: 'Задержка (мс):'
 label.transparency.ratio:
@@ -1561,8 +1462,6 @@ manage.repositories.dialog.title:
     text: Управление репозиториями
 maven.repository.presentable.name:
     text: Репозиторий Maven
-message.duplicate.plugin.id:
-    text: 'Повторный идентификатор расширения:'
 message.educational.license:
     text: Образовательная лицензия сроком на 1 год. {0}
 message.evaluation.N.days:
@@ -1581,20 +1480,6 @@ message.expiration.date:
     text: 'Дата истечения срока действия: {0}'
 message.files.doesn.t.exists.0.so.the.corresponding.modules.won.t.be.converted.do.you.want.to.continue:
     text: '<html><body>Следующие файлы не существуют: <br>{0}Соответствующие модули не будут преобразованы. Хотите продолжить?</body></html>'
-message.idea.restart.required:
-    text: Перезапустить {0}, чтобы активировать изменения в расширениях?
-message.idea.shutdown.required:
-    text: Выключить {0}, чтобы активировать изменения в расширениях?
-message.invalid.license.data:
-    text: Недействительные данные лицензии. Попробуйте ещё раз.
-message.license.expired:
-    text: Срок действия вашей лицензии истек
-message.license.is.corrupt:
-    text: Лицензия повреждена
-message.license.will.expire:
-    text: Ваша лицензия {0} истекает через {1}.
-message.licensed.to:
-    text: Лицензия действует на {0}
 message.macro.exists:
     text: Макрос с названием «{0}» уже существует. Перезаписать его?
 message.module:
@@ -1713,18 +1598,6 @@ node.projectview.library:
     text: '{0} библиотека'
 node.structureview.invalid:
     text: <некорректно>
-node.todo.found.items:
-    text: '{0} (найдено {1} {1,choice,1#элемен|2#элементов})'
-node.todo.group:
-    text: '{0} {0,choice,0#элементов|1#элемент|2#элементов}'
-node.todo.items:
-    text: '{0} {0, choice, 0#элементов|1#элемент|2#элементов}'
-node.todo.more.items:
-    text: …ещё…
-node.todo.no.items.found:
-    text: '{0} (элементы не найдены)'
-node.todo.summary:
-    text: Найдено {0} TODO {0,choice,0#items|1#item|2#items} в {1} {1,choice,0#files|1#file|2#files}
 open.url.in.browser.tooltip:
     text: Открыть в браузере
 option.hide.tool.window.bars:
@@ -1759,52 +1632,6 @@ please.edit.repository.url:
     text: Пожалуйста, измените URL репозитория
 please.input.repository.url:
     text: Пожалуйста, введите URL репозитория
-plugin.advestiser.notification.install.link:
-    text: Установить {0,choice, 1#расширение|2#расширений}
-plugin.advestiser.notification.text:
-    text: Найдены {0,choice, 1#расширение|2#расширений}, поддерживающие текущий файл
-plugin.deleted.status.tooltip:
-    text: Расширение будет удалено при следующем запуске
-plugin.download.status.tooltip:
-    text: Расширение будет активировано при следующем запуске
-plugin.info.not.available:
-    text: неприменимо
-plugin.info.unknown:
-    text: неизвестно
-plugin.install.dialog.title:
-    text: Установка расширения
-plugin.is.already.installed.status.tooltip:
-    text: Расширение установлено
-plugin.manager.dependencies.detected.message:
-    text: Расширение, которое вы хотите установить, требует другое расширени{0, choice, 1#е|2#я} ({1}), которые также должны быть установлены. Продолжить?
-plugin.manager.dependencies.detected.title:
-    text: Обнаружены зависимости расширения
-plugin.manager.enable.column.title:
-    text: Включить
-plugin.manager.incompatible.deps.tooltip:
-    text: Требуемое {0, choice, 1#расширение|2#расширений} {1} не {0,choice, 1#включено|2#включены}
-plugin.manager.incompatible.not.loaded.tooltip:
-    text: Расширение не было загружено
-plugin.manager.incompatible.tooltip:
-    text: Расширение несовместимо с текущей версией
-plugin.manager.optional.dependencies.detected.message:
-    text: Расширение, которое вы хотите установить, опционально требует других расширени{0, choice, 1#е|2#й} ({1}). Их также следует установить?
-plugin.manager.tooltip.warning:
-    text: Требуемое расширение «{0}» не включено
-plugin.outdated.version.status.tooltip:
-    text: Расширение имеет более новую версию
-plugin.size.label:
-    text: 'Размер:'
-plugin.status.available:
-    text: Доступно
-plugin.status.installed:
-    text: Установлено
-plugin.status.not.specified:
-    text: (не указано)
-plugin.updated.status.tooltip:
-    text: Обновлённое расширение будет активировано при следующем запуске
-plugin.version.label:
-    text: Версия
 popup.title.edit.shortcuts:
     text: Изменить ярлыки
 popup.title.play.saved.macros:
@@ -1825,12 +1652,6 @@ predefined.scope.tests.name:
     text: Тесты
 presentation.mode.fon.size:
     text: 'Размер шрифта:'
-progress.connecting:
-    text: Подключение…
-progress.connecting.to.download.file.text:
-    text: Подключение к «{0}»…
-progress.connecting.to.plugin.manager:
-    text: Подключение к {0}
 progress.creating.directory:
     text: Создание каталога {0}{1}{2}
 progress.creating.file:
@@ -1843,36 +1664,10 @@ progress.deleting:
     text: Удаление
 progress.deleting.class:
     text: Удаление класса {0}
-progress.download.0.title:
-    text: Загрузка {0}
-progress.download.file.text:
-    text: Загрузка «{0}» из «{1}»…
-progress.download.plugins:
-    text: Загрузка…
-progress.downloading.0.of.1.file.text:
-    text: Загрузка {0} из {1} {1, choice, 1#файла|2#файлов}…
-progress.downloading.list.of.plugins:
-    text: Загрузка списка расширений
-progress.downloading.platform:
-    text: Загрузка платформы
-progress.downloading.plugin:
-    text: Загрузка расширения «{0}»
-progress.extracting.platform:
-    text: Извлечение платформы
-progress.indexing:
-    text: Обновление индексов…
-progress.indexing.scanning:
-    text: Сканирование файлов для индексации…
-progress.indexing.updating:
-    text: Индексирование…
-progress.installing.plugins:
-    text: Установка расширений…
 progress.locate.file.text:
     text: Поиск «{0}»…
 progress.looking.for.todos:
     text: Поиск TODO…
-progress.performing.indexing.tasks:
-    text: Выполнение задач индексирования
 progress.searching:
     text: поиск…
 progress.searching.for.sources:
@@ -1887,8 +1682,6 @@ progress.text.stopping:
     text: Останавливаем — {0}
 progress.title.reload.files:
     text: Перезагрузка файлов
-progress.waiting.for.reply.from.plugin.manager:
-    text: Ожидание ответа от {0}
 progress.window.empty.text:
     text: Нет активных фоновых задач
 progress.window.title:
@@ -1972,10 +1765,6 @@ prompt.delete.type.parameter:
     text: '{0,choice,1#параметр типа|2#параметров типа}'
 prompt.directory.contains.read.only.files:
     text: Каталог {0} содержит файлы только для чтения. Удалить его в любом случае?
-prompt.do.you.want.to.action_verb.the.method.from_class:
-    text: Хотите {0} базовый {1,choice,1#method|2#methods}?
-prompt.download.and.install.plugin:
-    text: Хотите загрузить и установить расширение «{0}»?
 prompt.enter.a.new.package.name:
     text: 'Введите новое название пакета:'
 prompt.enter.annotation.type.name:
@@ -2016,8 +1805,6 @@ prompt.input.favorites.list.new.name:
     text: 'Переименовать список избранного «{0}» в:'
 prompt.input.new.favorites.list.name:
     text: Введите название нового списка избранного
-prompt.install.several.plugins:
-    text: Установить или обновить {0} расширений?
 prompt.new.project.file.name:
     text: Введите название файла для создания нового {0} {1}
 prompt.open.project.in.new.frame:
@@ -2072,12 +1859,6 @@ prompt.specify.name.of.module.subgroup:
 
 prompt.stop.searching.for.sources:
     text: '{0} в настоящее время ищет исходные файлы. Хотите остановить поиск?'
-prompt.uninstall.plugin:
-    text: Вы действительно хотите удалить расширение «{0}»?
-prompt.uninstall.several.plugins:
-    text: Вы действительно хотите удалить эти {0} расширений?
-prompt.update.plugin:
-    text: Хотите обновить расширение «{0}»?
 quick.lists.presentable.name:
     text: Быстрые списки
 radio.create.new.module:
@@ -2350,8 +2131,6 @@ settings.entry.point.widget.name:
     text: Настройки IDE и проекта
 setup.library.dialog.title:
     text: Настройка библиотеки
-several.plugins.depend.on.0.continue.to.remove:
-    text: Несколько расширений зависят от {0}. Продолжить удаление?
 share.scope.checkbox.title:
     text: Поделиться областью действия
 shared.scopes.node.text:
@@ -2404,20 +2183,12 @@ template.unnamed:
     text: Безымянный
 text.not.applicable:
     text: <неприменимо>
-text.todo.no.filters:
-    text: Фильтры не настроены
-text.todo.no.patterns:
-    text: Нет шаблонов настроено
 title.add.module:
     text: Новый модуль
 title.add.new.favorites.list:
     text: Добавить новый список избранного
 title.add.new.keyword:
     text: Добавить новый Ключевое слово
-title.add.todo.filter:
-    text: Добавить фильтр
-title.add.todo.pattern:
-    text: Добавить шаблон
 title.appearance:
     text: Внешний вид
 title.browse.icon:
@@ -2464,10 +2235,6 @@ title.edit.keyword:
     text: Изменить ключевое слово
 title.edit.macros:
     text: Редактировать макросы
-title.edit.todo.filter:
-    text: Изменить фильтр
-title.edit.todo.pattern:
-    text: Изменить шаблон
 title.enter.license.data:
     text: Введите лицензию {0}
 title.enter.macro.name:
@@ -2484,8 +2251,6 @@ title.export.preview:
     text: Экспортировать предварительный просмотр
 title.export.successful:
     text: Экспорт завершён
-title.failed.to.download:
-    text: Не удалось загрузить
 title.file.already.exists:
     text: Файл уже существует
 title.file.not.found:
@@ -2576,14 +2341,6 @@ title.package.not.found:
     text: Пакет не найден
 title.packages:
     text: Пакеты
-title.plugin.notification.title:
-    text: Менеджер расширений
-title.plugin.uninstall:
-    text: Удаление расширения
-title.plugins:
-    text: Платформа и расширения
-title.plugins.changed:
-    text: Расширения изменены
 title.popup.new.element:
     text: Новый
 title.popup.new.element.same.place:
@@ -2642,10 +2399,6 @@ title.system.error:
     text: Системная ошибка
 title.tip.of.the.day:
     text: Совет дня
-title.todo:
-    text: TODO
-title.todo.current.file:
-    text: Текущий файл
 title.unable.to.add.action.without.icon.to.toolbar:
     text: Нельзя добавить действие без значка на панель инструментов
 title.unable.to.add.favorites.list:
@@ -2702,74 +2455,6 @@ unscramble.use.unscrambler.checkbox:
     text: '&Расшифровать трассировку стека'
 unsupported.jvm.ea.message:
     text: Версии Java раннего доступа могут вызывать проблемы с совместимостью. Пожалуйста, используйте стабильную версию.
-update.add.new.plugin.host.title:
-    text: Добавить репозиторий
-update.available:
-    text: Доступны обновления
-update.available.group:
-    text: Проверка обновлений
-update.downloading.patch.progress.title:
-    text: Загрузка файла исправления
-update.edit.plugin.host.title:
-    text: Изменить репозиторий
-update.no.update.hosts:
-    text: Не настроены репозитории расширений
-update.plugin.host.url.message:
-    text: 'Репозиторий URL:'
-update.plugin.hosts.title:
-    text: Репозитории расширений
-update.plugins.update.action:
-    text: '&Обновить'
-update.there.are.no.updates:
-    text: Нет обновлений
-update.uploading.plugin.progress.title:
-    text: Обновление расширений
-update.view.updates:
-    text: Просмотреть обновления
-updates.available.idea.version:
-    text: 'Новая версия:'
-updates.build.number:
-    text: '(Номер сборки:'
-updates.check.manually.label:
-    text: <html><br>Чтобы проверить наличие новых обновлений вручную, используйте <b>Справку | Команда «Проверить обновления».</b> </html>
-updates.check.period.on.exit:
-    text: При каждом выходе
-updates.configure.label:
-    text: <html><head>{0}</head><br>Чтобы настроить параметры автоматического обновления, см. диалоговое окно <b><a href="updates">Обновления</a></b> в настройках IDE</html>
-updates.current.idea.version:
-    text: 'Текущая версия:'
-updates.download.and.install.patch.button:
-    text: '&Загрузить исправление и Shutdown'
-updates.download.and.install.patch.button.restart:
-    text: Обновить и перезапустить
-updates.info.dialog.title:
-    text: Информация об обновлении
-updates.last.check.never:
-    text: Никогда
-updates.more.info.button:
-    text: '&Подробнее…'
-updates.new.version.available:
-    text: <html><h4>Доступна новая версия Consulo.</h4></html>
-updates.no.updates.message:
-    text: <html><h4>Вы используете последнюю версию Consulo.</h4></html>
-updates.press.more.info.label:
-    text: <html><br>Нажмите <b>Подробнее…</b>, чтобы открыть веб-страницу, на которой можно вручную загрузить Consulo или узнать больше о его новой версии.</HTML>
-updates.settings.build.number:
-    text: 'Номер сборки:'
-updates.settings.caption.1:
-    text: <html>Consulo может автоматически проверять наличие новых и обновленных версий самого себя, используя ваше интернет-соединение (когда активно).<html>
-updates.settings.check.now.button:
-    text: '&Проверить сейчас'
-updates.settings.checkbox:
-    text: Проверить наличие обновлений в канале
-updates.settings.current.version:
-    text: 'Текущая версия Consulo:'
-updates.settings.last.check:
-    text: 'Последняя проверка обновлений:'
-updates.settings.title:
-    text: Обновления
-updates.timeout.error:
-    text: Истекло время ожидания соединения
 upgrade.package.failed.title:
     text: Обновление пакетов не удалось.
 upgrade.packages.failed:
