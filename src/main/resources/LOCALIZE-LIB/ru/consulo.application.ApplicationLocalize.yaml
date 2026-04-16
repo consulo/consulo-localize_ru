@@ -110,6 +110,16 @@ button.export:
     text: Экспорт…
 button.import:
     text: Импорт…
+button.install.package:
+    text: '&Установить пакет'
+button.invalidate:
+    text: Сбросить кэши
+button.invalidate.and.restart:
+    text: Сбросить кэши и перезапустить
+button.just.restart:
+    text: Просто перезапустить
+button.manage.repositories:
+    text: '&Управление репозиториями'
 button.move.down:
     text: Переместить &вниз
 button.move.up:
@@ -300,6 +310,10 @@ checkbox.next.error.action.goes.to.errors.first:
     text: Действие «Следующая ошибка» переходит только к проблемам с высоким приоритетом
 checkbox.optimize.imports.on.the.fly:
     text: Оптимизировать импорты «на лету»
+checkbox.package.options:
+    text: Варианты
+checkbox.package.specify.version:
+    text: Указать версию
 checkbox.param.description.on.new.line:
     text: Описания параметров с новой строки
 checkbox.parentheses.around.method.arguments:
@@ -718,6 +732,16 @@ desktop.entry.sudo.prompt:
     text: Введите пароль для создания записи рабочего стола
 desktop.entry.xdg.missing:
     text: Похоже, xdg-utils недоступны в вашей системе.
+dialog.message.caches.will.be.invalidated:
+    text: Удалить кэши и индексы для всех проектов. Новые кэши будут построены при повторном открытии проектов.
+dialog.message.command.not.finished.yet:
+    text: '{0} ещё не завершён.'
+dialog.message.the.following.items:
+    text: 'Необязательно:'
+dialog.title.invalidate.caches:
+    text: Сбросить кэши
+dialog.title.invalidate.caches.and.restart:
+    text: Сбросить кэши и перезапустить
 don.t.break.if.inline.content:
     text: 'Не разрывать, если встроенное содержимое:'
 edit.code.folding.options:
@@ -784,6 +808,8 @@ editbox.maximum.number.of.contents.to.keep.in.clipboard:
     text: 'Максимальное количество содержимого для хранения в буфере обмена:'
 editbox.names.count.to.use.static.import.with.star:
     text: 'Количество членов класса для использования статического импорта со «*»:'
+editbox.package.description:
+    text: Описание
 editbox.path.macro.name:
     text: 'Название:'
 editbox.path.macro.value:
@@ -830,16 +856,12 @@ error.path.variable.is.undefined:
     text: Переменная пути «{0}» не определена
 error.please.select.previous.installation.home:
     text: Выберите предыдущую папку конфигурации {0} или домашнюю папку установки
-error.plugin.was.not.installed:
-    text: 'Расширение {0} не установлено: {1}'
 error.plugins.should.not.have.cyclic.dependencies:
     text: |-
         Расширения не должны иметь циклических зависимостей:
         {0}
 error.readonly.scheme.cannot.be.modified:
     text: Схему только для чтения изменить нельзя. Сначала выполните «Сохранить как…».
-error.required.plugin.disabled:
-    text: 'Расширение «{0}» не загружено: отключено необходимое расширение «{1}».'
 error.required.plugin.not.installed:
     text: 'Расширение «{0}» не загружено: не установлено необходимое расширение «{1}».'
 error.scheme.must.have.a.name:
