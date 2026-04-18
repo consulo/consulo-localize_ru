@@ -29,7 +29,7 @@ clone.destination.exists.error:
 clone.dir.name:
     text: 'Название &каталога:'
 clone.invalid.url:
-    text: URL репозитория является некорректным URL или несуществующей директорией.
+    text: URL репозитория является некорректным URL или несуществующим каталогом.
 clone.parent.dir:
     text: 'Родительский каталог:'
 clone.parent.missing.error:

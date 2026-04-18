@@ -33,7 +33,7 @@ button.override:
 cannot.delete.a.read.only.file:
     text: Нельзя удалить файл только для чтения «{0}».
 cannot.modify.a.read.only.directory:
-    text: Нельзя изменить директорию только для чтения «{0}».
+    text: Нельзя изменить каталог только для чтения «{0}».
 cannot.modify.a.read.only.file:
     text: Нельзя изменить файл только для чтения «{0}».
 cannot.resolve.symbol:
@@ -313,7 +313,7 @@ template.data.language.override.warning.text:
 template.data.language.override.warning.title:
     text: Перезапись языков данных шаблона подкаталогов
 terms.directory:
-    text: директория
+    text: каталог
 terms.file:
     text: файл
 terms.property:

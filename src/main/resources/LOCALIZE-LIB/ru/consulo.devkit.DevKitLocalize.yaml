@@ -157,7 +157,7 @@ inspection.undesirable.class.usage.message:
 inspection.unsafe.vfs.recursion.display.name:
     text: Небезопасная рекурсия VFS
 inspection.unsafe.vfs.recursion.message:
-    text: VirtualFile.getChildren() вызывается из рекурсивного метода. Это может привести к бесконечному циклу в циклических символических ссылках. Вместо этого используйте VfsUtilCore.visitChildrenRecursively().
+    text: VirtualFile.getChildren() вызывается из рекурсивного метода. Это может привести к бесконечному циклу в циклических символических ссылках. Вместо этого используйте VirtualFileUtil.visitChildrenRecursively().
 inspection.use.couple.display.name:
     text: Использовать Couple<T> вместо Pair<T, T>
 inspection.use.couple.message.constructor:
