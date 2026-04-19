@@ -1,0 +1,134 @@
+build.event.message.out.memory:
+    text: Недостаточно памяти
+embedded.build.failed:
+    text: СБОРКА НЕ УДАЛАСЬ
+embedded.cannot.create:
+    text: Невозможно создать Maven Embedder
+embedded.executor.caption:
+    text: Выполнение Maven — используется встроенный Maven
+error.general:
+    text: Ошибка расширения Maven
+external.executor.caption:
+    text: Выполнение внешнего Maven
+external.maven.home.does.not.exist:
+    text: Указанный домашний каталог Maven ({0}) не существует
+external.maven.home.does.not.exist.with.fix:
+    text: Указанный домашний каталог Maven ({0}) не существует. <a href="#">Настроить домашний каталог Maven</a>
+external.maven.home.invalid:
+    text: '{0} не является допустимым домашний каталог Maven'
+external.maven.home.invalid.with.fix:
+    text: '{0} не является допустимым домашний каталог Maven. <a href="#">Настроить домашний каталог Maven</a>'
+external.maven.home.no.default:
+    text: Не найдено корректной установки Maven. Установите домашний каталог в диалоговом окне конфигурации или установите переменную среды M2_HOME в вашей системе.
+external.maven.home.no.default.with.fix:
+    text: Не найдено корректной установки Maven. Установите домашний каталог в <a href="#">диалоговом окне конфигурации</a> или установите переменную среды M2_HOME в вашей системе.
+external.startup.failed:
+    text: 'Невозможно запустить Maven: {0}'
+maven.execution.aborted:
+    text: Выполнение Maven прервано пользователем
+maven.execution.finished:
+    text: Выполнение Maven завершено
+maven.execution.terminated.abnormally:
+    text: Выполнение Maven завершено некорректно (код выхода {0})
+maven.java.home.env:
+    text: Использовать JAVA_HOME
+maven.java.home.invalid:
+    text: Переменная среды JAVA_HOME указывает на недопустимую JRE ({0})
+maven.java.home.undefined:
+    text: Переменная среды JAVA_HOME не определена
+maven.java.not.found:
+    text: Невозможно найти JRE ''{0}''
+maven.java.not.found.default.config:
+    text: Невозможно найти JRE ''{0}''. Вы можете указать JRE для запуска целей Maven в Настройки -> Maven -> Запуск
+maven.java.not.resolved:
+    text: JRE не разрешена для текущего дистрибутива Maven
+maven.options.description.B:
+    text: Запуск в неинтерактивном (пакетном) режиме (отключает цвет в консоли)
+maven.options.description.C:
+    text: Прервать сборку, если контрольные суммы не совпадают
+maven.options.description.D:
+    text: Определить системное свойство
+maven.options.description.N:
+    text: Не рекурсивно обходить подпроекты
+maven.options.description.P:
+    text: Список профилей, разделенных запятыми, для активации
+maven.options.description.T:
+    text: Количество потоков, например 2.0C, где C - умноженное на ядро
+maven.options.description.U:
+    text: Принудительно проверять наличие отсутствующих релизов и обновленных снимков в удаленных репозиториях
+maven.options.description.V:
+    text: Отображать информацию о версии БЕЗ остановки сборки
+maven.options.description.X:
+    text: Выводить отладочную информацию выполнения
+maven.options.description.am:
+    text: Если указан список проектов, также собрать проекты, необходимые для этого списка
+maven.options.description.amd:
+    text: Если указан список проектов, также собрать проекты, которые зависят от проектов из списка
+maven.options.description.cpu:
+    text: Неэффективно, оставлено только для обратной совместимости
+maven.options.description.e:
+    text: Выводить сообщения об ошибках выполнения
+maven.options.description.emp:
+    text: Зашифровать мастер-пароль
+maven.options.description.ep:
+    text: Зашифровать пароль сервера
+maven.options.description.f:
+    text: Принудительно использовать альтернативный файл POM (или каталог с pom.xml)
+maven.options.description.fae:
+    text: Прерывать сборку только после завершения; позволить всем не затронутым сборкам продолжаться
+maven.options.description.ff:
+    text: Останавливаться при первом сбое в сборках с использованием реактора
+maven.options.description.fn:
+    text: НИКОГДА не прерывать сборку, независимо от результата проекта
+maven.options.description.gs:
+    text: Альтернативный путь для глобального файла настроек
+maven.options.description.gt:
+    text: Альтернативный путь для глобального файла toolchains
+maven.options.description.h:
+    text: Отобразить справочную информацию
+maven.options.description.l:
+    text: Лог-файл, куда будет направлен весь вывод сборки (отключает цвет в консоли)
+maven.options.description.llr:
+    text: Использовать поведение локального репозитория Maven 2 Legacy, т.е. без использования _remote.repositories. Также может быть активировано с помощью -Dmaven.legacyLocalRepo=true
+maven.options.description.npr:
+    text: Игнорируется, оставлено только для обратной совместимости
+maven.options.description.npu:
+    text: Игнорируется, оставлено только для обратной совместимости
+maven.options.description.nsu:
+    text: Подавить обновления SNAPSHOT
+maven.options.description.o:
+    text: Работать в автономном режиме
+maven.options.description.pl:
+    text: Список проектов реактора, разделенных запятыми, для сборки вместо всех проектов. Проект может быть указан по [groupId]:artifactId или по его относительному пути
+maven.options.description.q:
+    text: Тихий вывод — показывать только ошибки
+maven.options.description.rf:
+    text: Возобновить реактор с указанного проекта
+maven.options.description.s:
+    text: Альтернативный путь для файла пользовательских настроек
+maven.options.description.up:
+    text: Игнорируется, оставлено только для обратной совместимости
+maven.run.configuration.description:
+    text: Сборка Maven
+maven.run.configuration.error.file.not.found:
+    text: pom.xml не найден в указанном рабочем каталоге.
+maven.run.configuration.name:
+    text: Maven
+maven.runner.parameters.title:
+    text: Параметры
+maven.running:
+    text: Выполнение
+maven.select.maven.home.directory:
+    text: Выберите домашний каталог Maven
+maven.select.maven.project.file:
+    text: Выберите файл проекта Maven
+maven.tab.runner:
+    text: Исполнитель
+output.pause:
+    text: Приостановить вывод
+output.pause.resume:
+    text: Приостановить/возобновить вывод
+output.resume:
+    text: Возобновить вывод
+popup.title.maven.goals:
+    text: Цели Maven
