@@ -1,0 +1,190 @@
+build.event.title.cannot.start.server.error:
+    text: Не удается запустить сервер Maven
+build.event.title.error:
+    text: Ошибка
+build.event.title.internal.server.error:
+    text: Ошибка сервера Maven
+cannot.download.zip.from:
+    text: Не удается загрузить ZIP-дистрибутив из {0}. Проверьте distributionUrl
+cannot.resolve.maven.home:
+    text: Не удается найти домашний каталог Maven home
+importing.jdk.changed:
+    text: JDK для импортера был изменен
+importing.jdk.changed.description:
+    text: JDK для импортёра {0} не найден и был изменен на {1}. <br>Рассмотрите настройки Maven для изменения JDK-импортёра
+is.not.correct.maven.home.reverting.to.embedded:
+    text: '{0} не является корректным домашним каталогом Maven, используется встроенный'
+maven.cannot.reconnect:
+    text: 'Не удаётся подключиться к процессу Maven. Если проблема сохраняется, проверьте сетевые настройки и настройки локальной машины. Подробнее см. в статье: https://intellij-support.jetbrains.com/hc/en-us/articles/360014262940'
+maven.core.plexus.init.issue.description:
+    text: |-
+        Не удаётся инициализировать Maven из-за критической ошибки:
+        Возможные решения:
+maven.core.plexus.init.issue.description.exception:
+    text: 'Сообщение исключения и трассировка стека ниже:'
+maven.core.plexus.init.issue.fix.downgrade:
+    text: Используйте Maven 3.8.4 или более раннюю версию. Начиная с Maven 3.8.5, не найденные базовые расширения препятствуют выполнению Maven. <a href="{0}">Открыть настройки Maven</a>
+maven.core.plexus.init.issue.fix.remove:
+    text: 'Удалить не найденное базовое расширение и <a href="{0}">Перезапустить подсистему Maven</a> '
+maven.core.plexus.init.issue.title:
+    text: Не удаётся найти базовые компоненты Maven
+maven.language.level.unaccepted.description:
+    text: Вы должны принять условия уведомления о бета-версии спецификации Java, чтобы включить поддержку «{0}» <a href="{1}">Показать условия</a>
+maven.language.level.unaccepted.title:
+    text: Невозможно установить уровень языка «{0}»
+maven.sync.annotation.processor.problem:
+    text: Проблема с процессором аннотаций компилятора Maven
+maven.sync.dependencies.artifact.download:
+    text: Загрузка {0}
+maven.sync.dependencies.download:
+    text: Загрузка зависимостей
+maven.sync.dependencies.resolve:
+    text: Разрешение зависимостей
+maven.sync.dependencies.resolve.error:
+    text: Не удается найти {0}
+maven.sync.failure.dependency.not.found:
+    text: '{0} не найден'
+maven.sync.failure.error.reading.file:
+    text: Ошибка при чтении файла {0}
+maven.sync.failure.error.undefined.detailed.message:
+    text: Ошибка в файле {0}
+maven.sync.failure.error.undefined.message:
+    text: Ошибка
+maven.sync.failure.terminated:
+    text: Завершено с кодом выхода {0}
+maven.sync.group.compiler:
+    text: Компилятор
+maven.sync.group.error:
+    text: Ошибка
+maven.sync.group.warning:
+    text: Предупреждение
+maven.sync.incorrect.model.version:
+    text: Некорректная версия модели Maven
+maven.sync.incorrect.model.version.desc:
+    text: '{0} <br/><br/><a href="{1}">Обновить версию модели Maven до 4.1.0</a>'
+maven.sync.jdk.description:
+    text: Для Maven {0} требуется как минимум JDK {1}.<br/><br/><a href="{2}">Выбрать другой JDK для импортёра и исполнителя…</a> <br/><a href="{3}">Открыть настройки импортёра…</a>
+maven.sync.jdk.title:
+    text: Версия Maven JDK для импортёра слишком низкая
+maven.sync.not.trusted.description:
+    text: "Открытый недоверенный проект не загружен полностью.\nConsulo не будет искать никакие расширения в проекте, загружать артефакты или выполнять какие-либо цели."
+maven.sync.not.trusted.title:
+    text: Недоверенный проект
+maven.sync.plugins.artifact.download:
+    text: Загрузка {0}
+maven.sync.plugins.download:
+    text: Загрузка расширений
+maven.sync.plugins.resolve:
+    text: Поиск расширений
+maven.sync.plugins.resolve.error:
+    text: Не удаётся найти расширение {0}
+maven.sync.project.title:
+    text: Синхронизировать {0}
+maven.sync.quickfixes.maven.jdk.version.title:
+    text: Несовместимый Maven JDK
+maven.sync.quickfixes.maven.version.title:
+    text: Проблема с версией Maven
+maven.sync.quickfixes.maven360:
+    text: Вы используете Maven 3.6.0, могут возникнуть проблемы при импорте многомодульного проекта. Рекомендуется обновить или понизить версию Maven.
+maven.sync.quickfixes.nomaven:
+    text: Версия Maven не определена
+maven.sync.quickfixes.repository.blocked:
+    text: 'С версии Maven 3.8.1 HTTP-репозитории заблокированы.<br/><br/>Возможные решения:'
+maven.sync.quickfixes.repository.blocked.add.mirror:
+    text: '- Добавьте зеркало(а) для {0}, разрешающее HTTP-URL, в <a href="{1}">settings.xml</a> Maven'
+maven.sync.quickfixes.repository.blocked.downgrade:
+    text: '- Понизьте версию Maven до 3.8.1 или более ранней в <a href="{0}">настройках</a>'
+maven.sync.quickfixes.repository.blocked.find.repository:
+    text: '- Убедитесь, что файлы <a href="{0}">pom</a> Maven не содержат HTTP-репозиторий {1}'
+maven.sync.quickfixes.repository.blocked.show.settings:
+    text: '- Убедитесь, что <a href="{0}">settings.xml</a> Maven не содержит HTTP-репозиториев'
+maven.sync.quickfixes.repository.blocked.title:
+    text: HTTP-репозитории заблокированы начиная с Maven 3.8.1
+maven.sync.quickfixes.update.maven.version:
+    text: Обновить версию Maven до {0}
+maven.sync.quickfixes.upgrade.to.jdk7:
+    text: Версия Maven {0} требует как минимум JDK версии 1.7
+maven.sync.quickfixes.use.bundled.settings:
+    text: Использовать встроенные {0}
+maven.sync.restarting:
+    text: Перезапуск Maven…
+maven.sync.title:
+    text: Синхронизация
+maven.sync.trust.project:
+    text: Доверять проекту
+maven.sync.version.issue.title:
+    text: Проблема с версией Maven
+maven.sync.version.open.settings:
+    text: Открыть настройки
+maven.sync.version.use.bundled:
+    text: Использовать встроенный {0}
+maven.sync.waiting.for.completion:
+    text: Ожидание завершения импорта Maven
+maven.sync.warnings.eclipse.batch.compiler.no.dependency:
+    text: Зависимость org.codehaus.groovy:groovy-eclipse-batch не зарегистрирована должным образом
+maven.sync.warnings.eclipse.batch.compiler.no.dependency.desc:
+    text: Чтобы использовать компилятор groovy-eclipse, вам нужно указать артефакт Groovy в качестве зависимости сборки в дополнение к зависимости maven-compiler-plugin. Версия зависимости Groovy должна соответствовать версии компилятора.
+maven.sync.wrapper:
+    text: Запуск Maven-обёртки
+maven.sync.wrapper.downloading:
+    text: Загрузка Maven-обёртки
+maven.sync.wrapper.downloading.auth:
+    text: Загрузка Maven-обёртки с базовой аутентификацией
+maven.sync.wrapper.downloading.canceled:
+    text: Загрузка Maven-обёртки была отменена
+maven.sync.wrapper.downloading.from:
+    text: Загрузка Maven-обёртки из {0}
+maven.sync.wrapper.downloading.progress:
+    text: Загрузка Maven-обёртки {0}/{1}%
+maven.sync.wrapper.failure:
+    text: Не удается установить Maven-обёртку, используется встроенный Maven
+maven.sync.wrapper.failure.description:
+    text: '{0}<br/><br/>Maven-обёртка была отключена. Вместо него будет использоваться встроенная версия Maven.<br/><br/>Чтобы включить Maven-обёртку, измените путь к домашнему каталогу Maven в <a href="{1}">настройках</a>.'
+maven.sync.wrapper.http.description:
+    text: HTTP используется для загрузки дистрибутива Maven. Рассмотрите возможность изменения distributionURL на HTTPS.
+maven.sync.wrapper.http.title:
+    text: HTTP используется для загрузки дистрибутива Maven
+maven.sync.wrapper.unpacked.into:
+    text: Maven-обёртка распакована в {0}
+maven.sync.wrapper.unpacking:
+    text: Распаковка архива…
+maven.sync.wsl.jdk:
+    text: Maven JDK для импортёра должен быть WSL JDK
+maven.sync.wsl.jdk.fix:
+    text: Открыть настройки импорта Maven
+maven.sync.wsl.jdk.revert.usr:
+    text: Maven JDK для импортёра не найден, будет использоваться /usr/bin/java, если он существует
+maven.sync.wsl.jdk.set.to.project:
+    text: Для корректного процесса импорта JDK Maven был запущен с JDK проекта
+maven.sync.wsl.maven.is.not.wsl:
+    text: Дистрибутив Maven, похоже, некорректен
+maven.sync.wsl.maven.is.not.wsl.description:
+    text: |-
+        Maven установлено в {0}.
+        Для повышения производительности лучше использовать Maven, установленный в дистрибутиве WSL. <a href="{1}">Открыть настройки</a>
+maven.sync.wsl.userhome.cannot.resolve:
+    text: Не удалось найти переменную $HOME в WSL. Похоже, процесс интеграции WSL завис. Попробуйте перезапустить WSL или саму хост-машину.
+maven.wrapper.notification.downloading.error.action:
+    text: Включите повторно Maven-обёртку в настройках.
+maven.wrapper.notification.downloading.error.content:
+    text: '{0}<br/>Maven-обёртка была отключена. Вместо этого будет использована встроенная версия Maven.'
+maven.wrapper.notification.downloading.finish:
+    text: Установка завершена успешно.
+maven.wrapper.notification.downloading.start:
+    text: Начинается загрузка. Пожалуйста, ожидайте.
+maven.wrapper.notification.empty.url.action.check:
+    text: Проверьте правильность URL дистрибутива.
+maven.wrapper.notification.empty.url.action.disable:
+    text: Отключить Maven-обёртку в настройках.
+maven.wrapper.notification.empty.url.content:
+    text: URL дистрибутива пустой. Вместо этого будет использована встроенная версия Maven.
+maven.wrapper.notification.empty.url.content.file.not.found:
+    text: Файл .mvn/wrapper/maven-wrapper.properties не найден. Вместо этого будет использована встроенная версия Maven.
+maven.wrapper.notification.title:
+    text: Maven-обёртка
+maven.wrapper.version.label:
+    text: Создать свойство
+progress.title.starting.maven.server:
+    text: Запуск Maven сервера
+zip.is.not.correct:
+    text: Zip-архив по пути {0} некорректен, это не дистрибутив Maven. Проверьте distributionUrl
