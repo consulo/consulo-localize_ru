@@ -1,0 +1,20 @@
+maven.repositories.title:
+    text: Репозитории
+maven.index.url:
+    text: URL
+maven.index.type:
+    text: Тип
+maven.index.updated:
+    text: Обновлено
+maven.index.updated.never:
+    text: Никогда
+maven.index.updated.error:
+    text: Ошибка
+maven.indices.updating:
+    text: Обновление индексов репозиториев Maven...
+maven.indices.updating.index:
+    text: Обновление [{0}] {1}
+repository.plugin.corrupt:
+    text: '{0} не является файлом расширения Maven 2'
+repository.plugin.title:
+    text: Открытие файла расширения Maven
