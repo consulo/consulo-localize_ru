@@ -12,7 +12,7 @@ apply.patch.all.changes.processed.message.text:
     text: Все фрагменты обработаны.<br><a href="">Сохраните изменения и завершите разрешение</a>
 apply.patch.partially.resolved.changes.confirmation.message:
     text: |-
-        Осталось {0, choice, 1#один блок|2#{0, number} блоков} необработанными.
+        {0, choice, 1#Один блок остался необработанным|2#{0, number} блоков остались необработанными}.
         Сохранить изменения и завершить разрешение?
 apply.somehow.status.message.all.applied:
     text: Все блоки решены
