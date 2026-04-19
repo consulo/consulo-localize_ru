@@ -1,0 +1,18 @@
+maven.tasks.goal:
+    text: Цель Maven
+maven.tasks.before.run.empty:
+    text: Выполнить цель Maven
+maven.tasks.before.run:
+    text: Выполнить цель Maven «{0}»
+maven.tasks.goal.before.compile:
+    text: Перед сборкой
+maven.tasks.goal.after.compile:
+    text: После сборки
+maven.tasks.goal.before.run:
+    text: Перед запуском
+maven.tasks.select.goal.title:
+    text: Выбрать цель Maven
+maven.tasks.action.group.name:
+    text: Цели Maven
+maven.tasks.executing:
+    text: Выполнение цели Maven
