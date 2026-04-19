@@ -5,9 +5,9 @@ build.event.title.error:
 build.event.title.internal.server.error:
     text: Ошибка сервера Maven
 cannot.download.zip.from:
-    text: Не удается загрузить ZIP-дистрибутив из {0}. Проверьте distributionUrl
+    text: Не удаётся скачать ZIP-дистрибутив из {0}. Проверьте distributionUrl
 cannot.resolve.maven.home:
-    text: Не удается найти домашний каталог Maven home
+    text: Не удаётся найти домашний каталог Maven
 importing.jdk.changed:
     text: JDK для импортера был изменен
 importing.jdk.changed.description:
@@ -171,7 +171,7 @@ maven.wrapper.notification.downloading.error.content:
 maven.wrapper.notification.downloading.finish:
     text: Установка завершена успешно.
 maven.wrapper.notification.downloading.start:
-    text: Начинается загрузка. Пожалуйста, ожидайте.
+    text: Начинается загрузка. Подождите.
 maven.wrapper.notification.empty.url.action.check:
     text: Проверьте правильность URL дистрибутива.
 maven.wrapper.notification.empty.url.action.disable:

@@ -1,5 +1,5 @@
 maven.action.download.sources:
-    text: Загрузить исходники
+    text: Скачать исходники
 maven.action.download.sources.busy.text:
     text: Загрузка исходников…
 maven.add.library.support:
@@ -121,9 +121,9 @@ maven.project.problem.unresolvedExtension:
 maven.project.problem.unresolvedPlugin:
     text: 'Не найденное расширение: «{0}»'
 maven.property.download.javadocs:
-    text: Загрузить &JavaDocs
+    text: Скачать &JavaDocs
 maven.property.download.sources:
-    text: Загрузить &исходники
+    text: Скачать &исходники
 maven.reading:
     text: Чтение проектов Maven..
 maven.reading.pom:

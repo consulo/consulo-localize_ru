@@ -162,9 +162,9 @@ external.annotations.root.chooser.title:
 external.annotations.suggestion.message:
     text: <html><body>Если вы не имеете возможности добавлять аннотации в своём коде, вы можете использовать внешнее хранилище.<br/>Чтобы настроить внешние аннотации, укажите корневой каталог, в котором будут размещены файлы с аннотациями</body></html>
 file.chooser.directory.for.downloaded.libraries.description:
-    text: Загруженные библиотеки будут скопированы в выбранный каталог
+    text: Скачанные библиотеки будут скопированы в выбранный каталог
 file.chooser.directory.for.downloaded.libraries.title:
-    text: Каталог для загруженных библиотек
+    text: Каталог для скачанных библиотек
 find.usages.action.text:
     text: Найти использования
 framework.detected.info.text:
@@ -753,4 +753,4 @@ title.open.project:
 unknown.sdk:
     text: Неизвестный SDK
 warning.message.some.required.libraries.wasn.t.downloaded:
-    text: Некоторая требуемая библиотека не была загружена. Хотите продолжить без нее?
+    text: Обязательная библиотека не была скачана. Хотите продолжить без неё?
