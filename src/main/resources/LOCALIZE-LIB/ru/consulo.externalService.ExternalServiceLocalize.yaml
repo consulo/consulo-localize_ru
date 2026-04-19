@@ -1,5 +1,5 @@
 action.download.and.install.plugin:
-    text: Загрузить и установить
+    text: Скачать и установить
 action.plugins.suggestion.ignore.text:
     text: Игнорировать
 action.plugins.suggestion.install.text:
@@ -179,7 +179,7 @@ error.notification.empty.text:
 error.notification.tooltip:
     text: <html><body>Произошла внутренняя ошибка IDE.<br>Нажмите, чтобы просмотреть подробности и отправить отчёт об ошибке.</body></html>
 error.plugin.download.failed:
-    text: Не удалось загрузить расширение
+    text: Не удалось скачать расширение
 error.report.authentication.failed:
     text: Не удалось выполнить аутентификацию учётной записи Consulo. Хотите попробовать еще раз?
 error.report.exception.title:
@@ -273,7 +273,7 @@ progress.extracting.platform:
 progress.installing.plugins:
     text: Установка расширений…
 prompt.download.and.install.plugin:
-    text: Хотите загрузить и установить расширение «{0}»?
+    text: Хотите скачать и установить расширение «{0}»?
 prompt.install.several.plugins:
     text: Установить или обновить {0} расширений?
 prompt.uninstall.plugin:
