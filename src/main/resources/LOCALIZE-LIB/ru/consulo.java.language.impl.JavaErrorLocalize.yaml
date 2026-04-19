@@ -791,7 +791,7 @@ unreachable.statement:
 unrelated.overriding.methods.return.types:
     text: методы имеют не связанные типы возвращаемого значения
 unresolved.label:
-    text: 'Неопределенная метка: «{0}»'
+    text: 'Не найденная метка: «{0}»'
 valid.switch.1_7.selector.types:
     text: char, byte, short, int, Character, Byte, Short, Integer, String, или enum
 valid.switch.selector.types:

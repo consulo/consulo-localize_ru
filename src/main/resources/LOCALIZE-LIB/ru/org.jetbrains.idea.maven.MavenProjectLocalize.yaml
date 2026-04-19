@@ -1,0 +1,188 @@
+maven.action.download.sources:
+    text: Загрузить исходники
+maven.action.download.sources.busy.text:
+    text: Загрузка исходников…
+maven.add.library.support:
+    text: Добавить поддержку {0}
+maven.add.to.module.dependencies:
+    text: Добавить библиотеку {0} в зависимости модуля
+maven.configurable.name:
+    text: Интеграция Maven
+maven.default.configurable.name:
+    text: 'Интеграция Maven: настройки по умолчанию'
+maven.download.always:
+    text: При импорте
+maven.download.never:
+    text: Никогда
+maven.download.ondemand:
+    text: По требованию
+maven.downloading:
+    text: Загрузка исходников и документации Maven…
+maven.downloading.cancelled:
+    text: Загрузка компонентов библиотеки была отменена
+maven.downloading.docs:
+    text: Загрузка документации Maven…
+maven.downloading.failed:
+    text: Файлы для {0} не были загружены
+maven.downloading.finished:
+    text: Загрузка завершена
+maven.downloading.plugins:
+    text: Загрузка расширений Maven…
+maven.downloading.pom.plugins:
+    text: Загрузка расширений для {0}…
+maven.downloading.sources:
+    text: Загрузка исходников Maven…
+maven.file.type.descr:
+    text: Файлы проекта Maven
+maven.ignore:
+    text: Игнорировать проекты
+maven.ignore.edit:
+    text: Редактировать игнорируемые файлы…
+maven.import.dependency.type.description:
+    text: Через запятую список типов зависимостей, которые нужно импортировать
+maven.import.environment.settings:
+    text: '&Параметры среды…'
+maven.import.environment.settings.title:
+    text: Среда Maven
+maven.import.incompatible.modules:
+    text: <html>Следующий {0,choice,1#модуль имеет|2#модули имеют} некорректный тип и {0,choice,1#требует|2#требуют} пересоздания:<br><br>{1}<br><br>Если вы не хотите, чтобы {0,choice,1#модуль был пересоздан|2#модули были пересозданы}, соответствующие проекты Maven будут помечены как игнорируемые.<br>Вы сможете отменить игнорирование позже в панели Maven.</html>
+maven.import.incompatible.modules.ignore:
+    text: Игнорировать эти проекты
+maven.import.incompatible.modules.recreate:
+    text: Пересоздать
+maven.import.label.select.root:
+    text: '&Корневой каталог'
+maven.import.message.delete.obsolete:
+    text: |-
+        Эти модули были удалены из структуры Maven:
+        {0}
+
+        Хотите удалить их из проекта?
+maven.import.title.module.dir:
+    text: Выберите каталог для файлов модулей IDEA (*.iml)
+maven.import.title.select.root:
+    text: Выберите корневой каталог
+maven.ingored.no.file:
+    text: Нет файлов Maven
+maven.library.family.name:
+    text: Библиотеки Maven
+maven.loading.library.hint:
+    text: Загрузка {0}
+maven.loading.library.version.hint:
+    text: Загрузка версий {0}
+maven.locating.files:
+    text: Поиск файлов проектов Maven…
+maven.name:
+    text: Maven
+maven.navigator.nothing.to.display:
+    text: <html><center>Нет проектов Maven для отображения.<br><br>Вы можете использовать {0}, чтобы добавить проект,<br>или {1}, чтобы позволить расширению найти все файлы pom.xml<br>в корневых каталогах проекта и импортировать их.</center></html>
+maven.orphan.notification.msg:
+    text: |-
+        {0}<br>
+         <a href="#add">Добавить как проект Maven</a> или <a href="#disable">Отключить уведомление</a>
+maven.orphan.notification.title:
+    text: <b>Найден файл pom.xml, не управляемый Maven:</b>
+maven.post.processing:
+    text: Конфигурирование проектов Maven
+maven.profile.activate:
+    text: Активировать
+maven.profile.deactivate:
+    text: Деактивировать
+maven.profile.default:
+    text: Использовать по умолчанию
+maven.project.changed:
+    text: Проекты Maven необходимо импортировать
+maven.project.enableAutoImport:
+    text: Включить автоимпорт
+maven.project.import.title:
+    text: Импорт проектов Maven
+maven.project.import.waiting.for.active.process:
+    text: Ожидание активного процесса
+maven.project.importChanged:
+    text: Импортировать изменения
+maven.project.importing:
+    text: Импорт проектов Maven
+maven.project.importing.finished:
+    text: Импорт проектов Maven завершен
+maven.project.problem.moduleNotFound:
+    text: Модуль «{0}» не найден
+maven.project.problem.parentHasProblems:
+    text: У родителя «{0}» есть проблемы
+maven.project.problem.parentNotFound:
+    text: Родитель «{0}» не найден
+maven.project.problem.recursiveInheritance:
+    text: Обнаружено рекурсивное наследование
+maven.project.problem.selfInheritance:
+    text: Обнаружено самонаследование
+maven.project.problem.unresolvedDependency:
+    text: 'Не найденная зависимость: «{0}»'
+maven.project.problem.unresolvedExtension:
+    text: 'Не найденное расширение сборки: «{0}»'
+maven.project.problem.unresolvedPlugin:
+    text: 'Не найденное расширение: «{0}»'
+maven.property.download.javadocs:
+    text: Загрузить &JavaDocs
+maven.property.download.sources:
+    text: Загрузить &исходники
+maven.reading:
+    text: Чтение проектов Maven..
+maven.reading.pom:
+    text: Чтение {0}…
+maven.remote.task.cancelled:
+    text: Удалённая задача Maven {0} была отменена
+maven.remote.task.failed:
+    text: Исключение во время удалённой задачи Maven {0}
+maven.resolving:
+    text: Разрешение зависимостей Maven…
+maven.resolving.finished:
+    text: Разрешение зависимостей завершено
+maven.resolving.pom:
+    text: Разрешение зависимостей {0}…
+maven.scanning.projects:
+    text: Сканирование проектов Maven…
+maven.searching.profiles:
+    text: Поиск доступных профилей…
+maven.select.local.repository:
+    text: Выберите локальный репозиторий
+maven.select.maven.home.directory:
+    text: Выберите домашний каталог Maven
+maven.select.maven.settings.file:
+    text: Выберите файл пользовательских настроек
+maven.tab.downloading:
+    text: Загрузка
+maven.tab.general:
+    text: Общие
+maven.tab.ignored.files:
+    text: Игнорируемые файлы
+maven.tab.importing:
+    text: Импорт
+maven.testRunning:
+    text: Запуск тестов
+maven.unignore:
+    text: Отменить игнорирование проектов
+maven.updating.folders:
+    text: Генерация исходников Maven…
+maven.updating.folders.finished:
+    text: Генерация исходников завершена
+maven.updating.folders.pom:
+    text: Генерация исходников для {0}…
+maven.version.kind.selector.latest:
+    text: Последняя
+maven.version.kind.selector.release:
+    text: Релиз
+maven.version.kind.selector.select:
+    text: Выбрать…
+module.group.name:
+    text: '{0} и модули'
+view.node.dependencies:
+    text: Зависимости
+view.node.lifecycle:
+    text: Жизненный цикл
+view.node.modules:
+    text: Модули
+view.node.plugins:
+    text: Расширения
+view.node.profiles:
+    text: Профили
+view.node.run.configurations:
+    text: Конфигурации запуска

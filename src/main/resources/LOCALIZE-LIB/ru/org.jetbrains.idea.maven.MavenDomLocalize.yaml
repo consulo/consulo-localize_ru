@@ -1,0 +1,68 @@
+inspection.group:
+    text: Maven
+inspection.name:
+    text: Проверка модели Maven
+fix.create.module:
+    text: Создать модуль
+fix.create.module.with.parent:
+    text: Создать дочерний модуль
+fix.update.indices:
+    text: Обновить индексы Maven
+fix.parent.path:
+    text: Исправить относительный путь
+fix.open.file:
+    text: Открыть «{0}»
+intention.choose.file:
+    text: Выбрать файл
+maven.repository:
+    text: Репозиторий
+maven.dependency:
+    text: Зависимость
+maven.plugin:
+    text: Расширение
+generate.dependency:
+    text: Зависимость
+generate.managed.dependency:
+    text: Управляемая зависимость
+generate.dependency.template:
+    text: Шаблон зависимости
+generate.plugin.template:
+    text: Шаблон плагина
+generate.repository.template:
+    text: Шаблон репозитория
+generate.parent:
+    text: Родительский
+overriden.dependency.title:
+    text: Перейти к управляющей зависимости
+overriden.plugin.title:
+    text: Перейти к разделу «pluginManagement»
+overriding.dependency.title:
+    text: Перейти к использованию зависимости
+overriding.plugin.title:
+    text: Перейти к использованию плагина
+navigate.parent.dependency.title:
+    text: Выбрать зависимость для перехода
+navigate.parent.plugin.title:
+    text: Выбрать плагин для перехода
+parent.pom.title:
+    text: Перейти к родительскому POM
+children.poms.title:
+    text: Перейти к дочерним проектам
+navigate.children.poms.title:
+    text: Выбрать проект
+dependencies.chooser.title:
+    text: Выбрать зависимость
+all.dependencies:
+    text: Все зависимости
+chooser.show.project.files:
+    text: Файлы проекта
+refactoring.introduce.property:
+    text: Ввести свойство
+choose.project:
+    text: Выбрать проект
+inspection.duplicate.dependencies.name:
+    text: Дублирующиеся зависимости
+MavenDuplicateDependenciesInspection.has.duplicates:
+    text: '<html><body>Зависимость дублируется в файле(ах): {0}</body></html>'
+inspection.redundant.groupId.name:
+    text: Избыточный groupId
