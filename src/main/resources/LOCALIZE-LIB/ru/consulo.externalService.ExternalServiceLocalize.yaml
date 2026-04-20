@@ -230,12 +230,26 @@ log.monitor.no.files:
     text: Нет прикрепленных лог-файлов
 log.monitor.remove.button:
     text: '&Удалить'
+lower.jre.versions.0.message:
+    text: Версии Java ниже {0} в ближайшем будущем поддерживаться не будут. Пожалуйста, перейдите на JRE {0}+ или используйте встроенный JRE (при следующем обновлении).
+message.failed.to.read.data.from.url:
+    text: |-
+        Не удалось прочитать данные из URL: {0}
+        Подробности в логе.
+message.failed.to.receive.oauth.token:
+    text: Не удалось получить OAuth-токен
 message.idea.few.plugins.will.be.not.updated:
     text: Часть расширений не будет обновлена. Эти расширения будут отключены после обновления. Вы согласны?
 message.idea.restart.required:
     text: Перезапустить {0} для активации изменений в расширениях?
 message.idea.shutdown.required:
     text: Выключить {0} для активации изменений в расширениях?
+message.plugins.suggestion:
+    text: Предложение расширений
+message.plugins.suggestion.notification:
+    text: Обнаружены функции, для поддержки которых можно установить новые расширения.
+message.successfully.logged.in.as.0:
+    text: Успешно выполнен вход как {0}
 notification.group.platform.or.plugins.update.display.name:
     text: Обновление расширений или платформы
 plugin.advestiser.notification.install.link:
@@ -292,6 +306,10 @@ settings.update.group.repository.settings.label:
     text: Настройки репозитория
 several.plugins.depend.on.0.continue.to.remove:
     text: Несколько расширений зависят от {0}. Продолжить удаление?
+task.requesting.oauth.token:
+    text: Запрос OAuth-токена...
+title.plugin.notification.title:
+    text: Управление расширениями
 title.plugin.uninstall:
     text: Удаление расширения
 title.plugins:
@@ -342,11 +360,3 @@ whatsnew.no.changes.text:
     text: Без изменений
 whatsnew.platform.text:
     text: Платформа
-lower.jre.versions.0.message:
-    text: Версии Java ниже {0} в ближайшем будущем поддерживаться не будут. Пожалуйста, перейдите на JRE {0}+ или используйте встроенный JRE (при следующем обновлении).
-message.plugins.suggestion:
-    text: Предложение расширений
-message.plugins.suggestion.notification:
-    text: Обнаружены функции, для поддержки которых можно установить новые расширения.
-title.plugin.notification.title:
-    text: Управление расширениями
