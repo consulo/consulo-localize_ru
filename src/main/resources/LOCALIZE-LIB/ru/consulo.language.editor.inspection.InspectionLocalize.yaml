@@ -377,7 +377,7 @@ inspection.convert.to.local.quickfix:
 inspection.data.flow.display.name:
     text: Постоянные условия и исключения
 inspection.data.flow.nullable.quickfix.option:
-    text: <html><body>Предлагать аннотацию @Nullable для методов, которые могут вернуть null, и<br>сообщать о nullable-значениях, передаваемых в неаннотированные параметры</body></html>
+    text: <html><body>Предлагать аннотацию @Nullable для методов, которые могут вернуть null, и<br>сообщать о nullable-значениях, передаваемых в параметры без аннотаций</body></html>
 inspection.data.flow.redundant.instanceof.quickfix:
     text: Заменить на != null
 inspection.data.flow.simplify.boolean.expression.quickfix:
@@ -793,7 +793,7 @@ inspection.nullable.problems.annotation.not.propagated:
 inspection.nullable.problems.display.name:
     text: Проблемы @NotNull/@Nullable
 inspection.nullable.problems.method.overrides.NotNull:
-    text: Неаннотированный метод переопределяет метод, аннотированный @NotNull
+    text: Метод без аннотаций переопределяет метод с аннотацией @NotNull
 inspection.nullable.problems.method.overrides.notnull.option:
     text: <html>сообщать, когда @NotNull &параметр переопределяет @Nullable и<br>@Nullable метод переопределяет @NotNull</html>
 inspection.nullable.problems.method.overrides.option:
