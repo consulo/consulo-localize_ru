@@ -111,7 +111,7 @@ dataflow.message.only.switch.label:
 dataflow.message.passing.non.null.argument.to.optional:
     text: Передача не-null аргумента в <code>Optional</code>
 dataflow.message.passing.null.argument:
-    text: Передача <code>null</code> аргумента параметру, аннотированному как @NotNull
+    text: Передача <code>null</code>-аргумента параметру с аннотацией @NotNull
 dataflow.message.passing.null.argument.nonannotated:
     text: Передача <code>null</code> аргумента параметру без аннотации
 dataflow.message.passing.null.argument.to.optional:
@@ -651,11 +651,11 @@ inspection.message.code.generation.different.nullability.annotation.will.be.used
 inspection.message.javac.quick.intersection.type.problem:
     text: 'Хотя присваивание формально корректно, оно может привести к ClassCastException во время выполнения. Ожидалось: «{0}», фактически: «{1}»'
 inspection.message.non.annotated.method.implements.non.null.method:
-    text: Неаннотированный метод «{0}» из «{1}» реализует не-null метод из «{2}»
+    text: Метод без аннотаций «{0}» из «{1}» реализует не-null метод из «{2}»
 inspection.message.non.annotated.parameter.should.not.override.non.null.parameter:
-    text: Неаннотированный параметр «{0}» в методе «{1}» из «{2}» не должен переопределять non-null параметр из «{3}»
+    text: Параметр без аннотаций «{0}» в методе «{1}» из «{2}» не должен переопределять не-null параметр из «{3}»
 inspection.message.non.null.parameter.should.not.override.non.annotated.parameter:
-    text: Не-null параметр «{0}» в методе «{1}» из «{2}» не должен переопределять неаннотированный параметр из «{3}»
+    text: Не-null параметр «{0}» в методе «{1}» из «{2}» не должен переопределять параметр без аннотаций из «{3}»
 inspection.message.non.null.parameter.should.not.override.nullable.parameter:
     text: Не-null параметр «{0}» в методе «{1}» из «{2}» не должен переопределять nullable параметр из «{3}»
 inspection.message.nullable.method.implements.non.null.method:
@@ -669,7 +669,7 @@ inspection.non.final.guard.display.name:
 inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
     text: Параметр с аннотацией @{0}, не должен переопределять параметр @{1}
 inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
-    text: Параметр с аннотацией @{0}, не должен переопределять неаннотированный параметр
+    text: Параметр с аннотацией @{0}, не должен переопределять параметр без аннотаций
 inspection.nullable.problems.NotNull.parameter.receives.null.literal:
     text: Параметр с аннотацией @{0}, не должен принимать «null» в качестве аргумента
 inspection.nullable.problems.Nullable.NotNull.conflict:
@@ -687,7 +687,7 @@ inspection.nullable.problems.annotated.field.setter.parameter.conflict:
 inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
     text: Параметр сеттера для поля @{0} может быть сам снабжён аннотацией @{0}
 inspection.nullable.problems.method.overrides.NotNull:
-    text: Метод без аннотаций переопределяет метод, аннотированный @{0}
+    text: Метод без аннотаций переопределяет метод с аннотацией @{0}
 inspection.nullable.problems.parameter.overrides.NotNull:
     text: Параметр без аннотаций переопределяет параметр @{0}
 inspection.nullable.problems.primitive.type.annotation:

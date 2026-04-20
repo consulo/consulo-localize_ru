@@ -193,7 +193,7 @@ annotation.switch.to.merged.text:
 annotation.switch.to.original.text:
     text: Скрыть источники слияния
 annotation.wrong.line.number.notification.text:
-    text: <html>Количество строк, аннотированных {0}, не равно количеству строк в файле. Проверьте кодировку файла и разделители строк.</html>
+    text: <html>Количество строк с аннотацией {0} не равно количеству строк в файле. Проверьте кодировку файла и разделители строк.</html>
 apply.patch.create.dirs.prompt.footer:
     text: Создать каталоги?
 apply.patch.create.dirs.prompt.header:

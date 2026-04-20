@@ -61,15 +61,15 @@ annotation.non.constant.attribute.value:
 annotation.non.repeatable:
     text: Объявление «{0}» не имеет допустимой аннотации java.lang.annotation.Repeatable
 annotation.not.allowed.class:
-    text: Тип литерала класса не может быть аннотирован
+    text: Тип литерала класса не может иметь аннотации
 annotation.not.allowed.here:
     text: Аннотации здесь не разрешены
 annotation.not.allowed.ref:
     text: Аннотация неприменима к данному виду ссылки
 annotation.not.allowed.static:
-    text: Статический член, квалифицирующий тип, не может быть аннотирован
+    text: Статический член, квалифицирующий тип, не может иметь аннотаций
 annotation.not.allowed.void:
-    text: Тип «void» не может быть аннотирован
+    text: Тип «void» не может иметь аннотаций
 annotation.not.applicable:
     text: '«@{0}» неприменимо к {1}'
 annotation.unknown.method:
