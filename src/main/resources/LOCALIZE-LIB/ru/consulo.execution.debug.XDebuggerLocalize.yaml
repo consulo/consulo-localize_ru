@@ -275,7 +275,7 @@ memory.view.table.column.name.diff:
 node.test.show.full.value:
     text: … Просмотр
 node.text.ellipsis.0.more.nodes.double.click.to.show:
-    text: … ({0} ещё {0, choice, 1#элемент|2#элементов}. Дважды щелкните, чтобы увидеть)
+    text: … ({0} ещё {0, choice, 1#элемент|2#элементов}. Дважды нажмите, чтобы увидеть)
 node.text.ellipsis.0.unknown.more.nodes.double.click.to.show:
     text: … (Дважды щёлкните, чтобы увидеть больше элементов)
 node.text.ellipsis.truncated:
@@ -311,7 +311,7 @@ setting.focus.app.on.breakpoint.label:
 setting.hide.window.label:
     text: Скрыть отладочное &окно при завершении процесса
 setting.single.click.for.disabling.breakpoint:
-    text: Один щелчок для отключения точки останова
+    text: Одно нажатие для отключения точки останова
 setting.sort.alphabetically.label:
     text: Сортировать значения по &алфавиту
 setting.value.tooltip.delay.label:
