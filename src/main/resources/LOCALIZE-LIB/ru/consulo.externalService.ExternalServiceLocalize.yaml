@@ -234,7 +234,7 @@ lower.jre.versions.0.message:
     text: Версии Java ниже {0} в ближайшем будущем поддерживаться не будут. Пожалуйста, перейдите на JRE {0}+ или используйте встроенный JRE (при следующем обновлении).
 message.failed.to.read.data.from.url:
     text: |-
-        Не удалось прочитать данные из URL: {0}
+        Не удалось прочитать данные по URL: {0}
         Подробности в логе.
 message.failed.to.receive.oauth.token:
     text: Не удалось получить OAuth-токен
