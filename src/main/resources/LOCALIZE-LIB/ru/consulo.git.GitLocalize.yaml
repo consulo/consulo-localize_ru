@@ -14,8 +14,6 @@ action.branches.text:
     text: _Ветки…
 action.checkout.revision.text:
     text: Checkout Revision
-action.init.text:
-    text: Создать Git репозиторий…
 action.compare.with.branch.text:
     text: Сравнить с веткой или тегом…
 action.create.new.branch.description:
@@ -28,6 +26,8 @@ action.create.new.tag.text:
     text: Новый тег…
 action.fetch.text:
     text: Актуализировать (Fetch)
+action.init.text:
+    text: Создать Git репозиторий…
 action.log.deep.compare.description:
     text: Скрывает те коммиты, которые имеют эквивалентные изменения в текущей ветке
 action.log.deep.compare.text:
@@ -188,7 +188,7 @@ clone.invalid.origin:
 clone.invalid.url:
     text: URL репозитория является некорректным URL или несуществующим каталогом.
 clone.origin:
-    text: 'Название &Origin'
+    text: Название &Origin
 clone.parent.dir:
     text: '&Родительский каталог:'
 clone.parent.missing.error:
@@ -294,9 +294,11 @@ debug.git.exec:
     text: 'DEBUG: раб.катал.: [{0}] исполн.: [{1}]'
 delete.action.name:
     text: Удалить
-dialog.checkout.new.branch.from.0.title:
+dialog.message.enter.the.name.of.new.branch:
+    text: 'Введите название новой ветки:'
+dialog.title.checkout.new.branch.from.0:
     text: Выбрать новую ветку из {0}
-dialog.reset.title:
+dialog.title.reset:
     text: Сброс Git
 diff.find.error:
     text: 'Поиск ревизии для сравнения: {0}'
@@ -534,7 +536,7 @@ merge.no.fast.forward.tooltip:
 merge.retrieving.branches:
     text: Получение неслитых веток
 merge.squash.commit:
-    text: &Схлопывающий коммит (Squash)
+    text: '&Схлопывающий коммит (Squash)'
 merge.squash.tooltip:
     text: Схлопнуть все изменения в один коммит (опция "--squash")
 merge.strategy:
@@ -620,7 +622,7 @@ push.active.fetching:
 push.active.pushing:
     text: Отправка веток…
 push.active.rebase:
-    text: 'Перебазирование (&Rebase)'
+    text: Перебазирование (&Rebase)
 push.active.rebase.and.push:
     text: Перебазировать (Rebase) и отправить (Push)
 push.active.rebase.tooltip:
@@ -876,8 +878,7 @@ reset.commit.invalid:
 reset.commit.label:
     text: 'К &коммиту:'
 reset.commit.tooltip:
-    text: |-
-        Коммит, который станет текущим HEAD в результате операции сброса.
+    text: Коммит, который станет текущим HEAD в результате операции сброса.
 reset.title:
     text: Сбросить HEAD
 reset.type:
