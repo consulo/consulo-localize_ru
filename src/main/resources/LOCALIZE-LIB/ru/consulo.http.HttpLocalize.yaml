@@ -1,4 +1,44 @@
-error.connection.failed.with.http.code.N:
-  text: "Сбой подключения с HTTP-кодом {0}"
 error.connection.failed.redirects:
-  text: "Сбой подключения: слишком много перенаправлений"
+    text: 'Сбой подключения: слишком много перенаправлений'
+error.connection.failed.with.http.code.N:
+    text: Сбой подключения с HTTP-кодом {0}
+label.old.way.jvm.property.used:
+  text: '<html>У вас установлено JVM-свойство «{0}» со значением «{1}».<br>Это может привести к некорректному поведению. Прокси-сервер следует настраивать в разделе Настройки | HTTP-прокси.<br>Это JVM-свойство устарело, и его использование не рекомендуется корпорацией Oracle.<br>(Примечание: оно могло быть задано динамически каким-либо кодом.)'
+proxy.direct.rb:
+  text: Без прокси
+proxy.manual.auth:
+  text: А&утентификация прокси
+proxy.manual.exclude:
+  text: 'Не использовать прокси для:'
+proxy.manual.exclude.example:
+  text: 'Пример: *.example.com, 192.168.*'
+proxy.manual.host:
+  text: '&Имя узла:'
+proxy.manual.port:
+  text: '&Номер порта:'
+proxy.manual.rb:
+  text: Ручная настройка прокси
+proxy.manual.type.http:
+  text: HTTP
+proxy.manual.type.socks:
+  text: SOCKS
+proxy.pac.pw.clear.button:
+  text: Очистить пароли
+proxy.pac.rb:
+  text: Автоопределение настроек прокси
+proxy.pac.rb.tt:
+  text: Попытка использовать системные настройки. Это полезно, если в системе используется файл автоматической настройки прокси (.pac).
+proxy.pac.url.example:
+  text: 'Пример: https://example.com/wpad.pac'
+proxy.pac.url.label:
+  text: 'URL автоматической настройки прокси:'
+proxy.settings.override.by.plugin.checkbox:
+  text: Настройки прокси предоставлены расширением «{0}»
+proxy.system.label:
+  text: <html>JVM-свойство <tt>java.net.useSystemProxies</tt> имеет значение <tt>true</tt>. Из-за этого некоторые сетевые вызовы будут проходить через прокси-сервер, определённый в операционной системе. Если вы не собирались использовать системный прокси-сервер, пожалуйста, отключите это свойство.</html>
+proxy.system.proxy.settings:
+  text: '&Системные настройки прокси…'
+proxy.test.button:
+  text: Проверить соединение
+proxy.tunneling.disabled.warning:
+  text: <html>Для HTTPS-соединений отключена базовая аутентификация прокси. HTTPS-соединения могут завершиться ошибкой, если прокси требует аутентификацию. Чтобы разрешить базовую аутентификацию прокси, добавьте <tt>-Djdk.http.auth.tunneling.disabledSchemes=""</tt> в файл параметров JVM и перезапустите программу.</html>
