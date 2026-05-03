@@ -1,3 +1,5 @@
+action.StreamTracerAction.text:
+    text: Отследить текущую цепочку Stream
 action.add.to.watch.text:
     text: Добавить в отслеживания
 action.adjust.array.range.text:
@@ -12,6 +14,8 @@ action.auto.tooltip.on.selection.text:
     text: Показать значение при изменении выбора
 action.auto.tooltip.text:
     text: Автоматическая подсказка значения
+action.calculating.chains.background.progress.title:
+    text: Расчет цепочек
 action.choose.debug.configuration.popup.description:
     text: Выбрать и отладить конфигурацию
 action.choose.debug.configuration.popup.text:
@@ -184,6 +188,20 @@ action.view.text.text:
     text: Просмотр текста
 ad.extra.selection.shortcut:
     text: 'Вы также можете выбрать элемент с помощью: {0}'
+breakpoints.dialog.create.new.group:
+    text: Создать новую…
+breakpoints.dialog.edit.description:
+    text: Редактировать описание
+breakpoints.dialog.new.group:
+    text: Новая группа
+breakpoints.dialog.new.group.name:
+    text: Название новой группы
+breakpoints.dialog.no.group:
+    text: <Без группы>
+breakpoints.dialog.set.as.default:
+    text: Установить как стандартное
+breakpoints.dialog.unset.as.default:
+    text: Снять как стандартное
 button.text.code.fragment.mode:
     text: Фрагмент кода и режим
 button.text.expression.mode:
@@ -240,6 +258,14 @@ debugger.variables.not.available:
     text: Переменные недоступны
 dialog.title.evaluate.code.fragment:
     text: Вычислить фрагмент кода
+done.action.text:
+    text: Готово
+evaluation.in.progress:
+    text: Вычисление в процессе
+exception.label:
+    text: Причина
+exception.tab.name:
+    text: Исключение
 inspect.value.dialog.title:
     text: Инспектировать «{0}»
 invalid.frame:
@@ -272,6 +298,8 @@ memory.view.table.column.name.count:
     text: Количество
 memory.view.table.column.name.diff:
     text: Diff
+multiple.chains.popup.title:
+    text: Найдено несколько цепочек
 node.test.show.full.value:
     text: … Просмотр
 node.text.ellipsis.0.more.nodes.double.click.to.show:
@@ -332,6 +360,28 @@ showReferring.dialog.title:
     text: Объекты, ссылающиеся на {0}
 stack.frame.loading.text:
     text: Загрузка…
+stream.debugger.dialog.flat.mode.button:
+    text: Плоский режим
+stream.debugger.dialog.split.mode.button:
+    text: Разделённый режим
+stream.debugger.dialog.title:
+    text: Отслеживание Stream
+stream.debugger.dialog.with.exception.title:
+    text: Отслеживание Stream (произошло исключение)
+stream.debugger.evaluation.failed:
+    text: 'Вычисление не удалось: {0}'
+stream.debugger.evaluation.failed.cannot.interpret.result:
+    text: Не удалось интерпретировать результат трассировки. {0}
+stream.debugger.evaluation.failed.no.suspend.context:
+    text: Выполнение программы возобновлено.
+stream.debugger.evaluation.failed.unexpected.value:
+    text: Получено неожиданное значение.
+stream.debugger.evaluation.failed.unknown.type:
+    text: Неизвестный тип значения результата.
+stream.debugger.evaluation.failed.with.exception:
+    text: 'Вычисление не удалось: выброшено исключение {0}'
+stream.debugger.evaluation.failed.with.exception.and.message:
+    text: 'Вычисление не удалось: выброшено исключение {0}: {1}'
 string.debugger.runner.description:
     text: Отладка выбранной конфигурации
 suspend.policy.panel.all:
@@ -344,6 +394,10 @@ suspend.policy.panel.thread:
     text: '&Поток'
 suspend.policy.panel.title:
     text: Приостановить политику
+tab.content.exception.thrown:
+    text: Результата нет (выброшено исключение)
+tab.content.no.result:
+    text: Нет результата для данной цепочки Stream
 xbreakpoint.default.display.text:
     text: Строка {0} в {1}
 xbreakpoint.group.depends.on:

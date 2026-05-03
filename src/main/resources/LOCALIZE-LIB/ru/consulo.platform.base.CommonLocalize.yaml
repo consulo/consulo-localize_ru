@@ -26,8 +26,6 @@ action.settings.path.mac:
     text: Настройки
 an.attempt.was.made.to.load.a.program.with.an.incorrect.format.error.message:
     text: Сделана попытка загрузить программу в неверном формате.
-autodetected.proxies.clear.button:
-    text: Очистить пароли
 button.add:
     text: Добавить
 button.add.a:
@@ -100,16 +98,8 @@ cannot.undo.message:
     text: Не удалось отменить
 captured.memory.snapshot.placed.in.user.home.directory.message.text:
     text: 'Записанный снимок памяти: ''{0}'' помещается в домашний каталог пользователя.'
-checkbox.automatic.proxy.configuration.url:
-    text: 'URL автоматической настройки прокси:'
-checkbox.proxy.authentication:
-    text: Прокси и аутентификация
 checkbox.remember.password:
     text: '&Запомнить пароль'
-checkbox.use.http.proxy:
-    text: '&Использовать прокси'
-checkbox.use.http.proxy.pac:
-    text: Автоматическое определение настроек прокси
 close.action.name:
     text: Закрыть
 comparison.ignore.whitespace.acton.name:
@@ -138,14 +128,10 @@ dialog.title.choose.date:
     text: Выберите дату
 drop.undo.history.command.name:
     text: Пустышка
-editbox.host.name:
-    text: '&Название хоста:'
 editbox.login:
     text: '&Логин:'
 editbox.password:
     text: '&Пароль:'
-editbox.port.number:
-    text: 'Порт и номер:'
 error.reading.color.scheme.from.file.error.message:
     text: Ошибка чтения цветовой схемы из {0}
 exception.directory.can.not.create:
@@ -164,20 +150,12 @@ format.file.size.kbytes:
     text: '{0} КБ'
 format.file.size.mbytes:
     text: '{0} МБ'
-http.noproxy:
-    text: Без прокси
-http.proxy.type:
-    text: HTTP
 incorrect.function.error.message:
     text: Неправильная функция.
 information.dialog.title:
     text: Информация
-label.old.way.jvm.property.used:
-    text: '<html>Для свойства JVM «{0}» установлено значение «{1}».<br>Это может привести к неправильному поведению. Прокси должен быть установлен в Настройках | HTTP-прокси.<br>Это свойство JVM устарело, и Oracle не рекомендует его использование.<br>(Примечание: оно могло быть динамически назначено каким-то кодом.)'
-label.proxy.exceptions.text:
-    text: 'Пример: *.domain.com, 192.168.*'
-label.system.proxy.used:
-    text: <html>Для свойства JVM «java.net.useSystemProxies» установлено значение true.<br>Это приведет к тому, что некоторые сетевые вызовы будут проходить через прокси-сервер, определённый операционной системой.<br>Если вы не собирались использовать системный прокси, отключите это свойство
+link.reset:
+    text: Сброс
 local.vcs.action.name.redo.command:
     text: Повторить {0}
 local.vcs.action.name.undo.command:
@@ -239,8 +217,6 @@ safe.write.restored:
         Исходный контент был восстановлен из резервной копии.
 smth.already.exist.error.message:
     text: '{0} с названием «{1}» уже существует.'
-socks.proxy.type:
-    text: SOCKS
 the.access.code.is.invalid.error.message:
     text: Код доступа недействителен.
 the.data.is.invalid.error.message:
@@ -285,16 +261,12 @@ there.are.no.more.files.error.message:
     text: Больше нет файлов.
 title.error:
     text: Ошибка
-title.http.proxy.settings:
-    text: Настройки HTTP-прокси
 title.settings:
     text: Настройки
 title.settings.mac:
     text: Настройки
 title.warning:
     text: Предупреждение
-tooltip.http.proxy.pac:
-    text: Будет предпринята попытка использовать настройки вашей системы, что полезно, если в вашей системе используется файл автоконфигурации прокси (.pac).
 tree.node.loading:
     text: Загрузка…
 undo.command.confirmation.text:
