@@ -2,6 +2,8 @@ error.connection.failed.redirects:
     text: 'Сбой подключения: слишком много перенаправлений'
 error.connection.failed.with.http.code.N:
     text: Сбой подключения с HTTP-кодом {0}
+http.proxy.configurable:
+  text: HTTP-прокси
 label.old.way.jvm.property.used:
   text: '<html>У вас установлено JVM-свойство «{0}» со значением «{1}».<br>Это может привести к некорректному поведению. Прокси-сервер следует настраивать в разделе Настройки | HTTP-прокси.<br>Это JVM-свойство устарело, и его использование не рекомендуется корпорацией Oracle.<br>(Примечание: оно могло быть задано динамически каким-либо кодом.)'
 proxy.direct.rb:
