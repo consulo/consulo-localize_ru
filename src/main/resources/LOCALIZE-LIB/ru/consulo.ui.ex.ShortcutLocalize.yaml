@@ -1,5 +1,5 @@
 keyboard.Less:
-    text: "<"
+    text: <
 keyboard.accept:
     text: Accept
 keyboard.add:
@@ -15,15 +15,15 @@ keyboard.alt:
 keyboard.altGraph:
     text: Правый Alt
 keyboard.ampersand:
-    text: "&"
+    text: '&'
 keyboard.asterisk:
-    text: "*"
+    text: '*'
 keyboard.at:
     text: Собака
 keyboard.backQuote:
-    text: "~"
+    text: '~'
 keyboard.backSlash:
-    text: "\\"
+    text: \
 keyboard.backSpace:
     text: Backspace
 keyboard.begin:
@@ -41,13 +41,13 @@ keyboard.circumflex:
 keyboard.clear:
     text: Clear
 keyboard.closeBracket:
-    text: "]"
+    text: ']'
 keyboard.codeInput:
     text: Code Input
 keyboard.colon:
-    text: ":"
+    text: ':'
 keyboard.comma:
-    text: ","
+    text: ','
 keyboard.compose:
     text: Compose
 keyboard.context:
@@ -99,7 +99,7 @@ keyboard.delete:
 keyboard.divide:
     text: ЦифрКлав /
 keyboard.dollar:
-    text: "$"
+    text: $
 keyboard.down:
     text: ↓
 keyboard.end:
@@ -107,13 +107,11 @@ keyboard.end:
 keyboard.enter:
     text: Ввод
 keyboard.equals:
-    text: "="
+    text: =
 keyboard.escape:
     text: Escape
 keyboard.euro:
     text: €
-keyboard.exclamationMark:
-    text: !
 keyboard.f1:
     text: F1
 keyboard.f10:
@@ -168,8 +166,6 @@ keyboard.find:
     text: Поиск
 keyboard.fullWidth:
     text: Full-Width
-keyboard.greater:
-    text: >
 keyboard.halfWidth:
     text: Half-Width
 keyboard.help:
@@ -201,11 +197,11 @@ keyboard.katakana:
 keyboard.left:
     text: ←
 keyboard.leftParenthesis:
-    text: "("
+    text: (
 keyboard.meta:
     text: Meta
 keyboard.minus:
-    text: "-"
+    text: '-'
 keyboard.modechange:
     text: Смена режима
 keyboard.multiply:
@@ -239,13 +235,13 @@ keyboard.numpad.8:
 keyboard.numpad.9:
     text: ЦифрКлав 9
 keyboard.openBracket:
-    text: "["
+    text: '['
 keyboard.paste:
     text: Вставка
 keyboard.pause:
     text: Pause
 keyboard.period:
-    text: "."
+    text: .
 keyboard.pgdn:
     text: Page Down
 keyboard.pgup:
@@ -261,23 +257,23 @@ keyboard.props:
 keyboard.quote:
     text: "'"
 keyboard.quoteDbl:
-    text: "\""
+    text: '"'
 keyboard.right:
     text: →
 keyboard.rightParenthesis:
-    text: ")"
+    text: )
 keyboard.romanCharacters:
     text: Латинские символы
 keyboard.scrollLock:
     text: Scroll Lock
 keyboard.semicolon:
-    text: ";"
+    text: ;
 keyboard.separator:
     text: ЦифрКлав ,
 keyboard.shift:
     text: Shift
 keyboard.slash:
-    text: "/"
+    text: /
 keyboard.space:
     text: Пробел
 keyboard.stop:
@@ -301,4 +297,4 @@ keyboard.windows:
 mouse.button1:
     text: Кнопка 1
 shortcut.separator:
-    text: "\u200A+\u200A"
+    text:  + 

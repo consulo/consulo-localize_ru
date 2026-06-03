@@ -63,11 +63,11 @@ node.todo.group:
 node.todo.items:
     text: '{0} {0, choice, 0#элементов|1#элемент|2#элементов}'
 node.todo.more.items:
-    text: '…ещё…'
+    text: …ещё…
 node.todo.no.items.found:
     text: '{0} (не найдено ни одного элемента)'
 node.todo.summary:
-    text: 'Найдено {0} {0,choice,0#элементов|1#элемент|2#элементов} TODO в {1} {1,choice,0#файлах|1#файле|2#файлах}'
+    text: Найдено {0} {0,choice,0#элементов|1#элемент|2#элементов} TODO в {1} {1,choice,0#файлах|1#файле|2#файлах}
 text.todo.no.filters:
     text: Фильтры не настроены
 text.todo.no.patterns:

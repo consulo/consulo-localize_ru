@@ -1,5 +1,5 @@
 0.is.not.an.identifier:
-    text: '«{0}» не является идентификатором.'
+    text: «{0}» не является идентификатором.
 annotation.name.is.missing:
     text: Атрибут аннотации должен иметь вид «название=значение»
 annotation.target.annotation.type:
@@ -41,7 +41,7 @@ bad.return.type.in.method.reference:
 bound.not.expected:
     text: Неожиданная граница
 catch.without.try:
-    text: '«catch» без «try»'
+    text: «catch» без «try»
 class.context.display:
     text: '{0} в {1}'
 class.literal.expected:
@@ -130,12 +130,12 @@ element.local.variable.nominative:
     text: локальная переменная
 element.method.accusative:
     text: метод
+element.method.nominative:
+    text: метод
 element.method.call.accusative:
     text: вызов метода
 element.method.call.nominative:
     text: вызов метода
-element.method.nominative:
-    text: метод
 element.module.accusative:
     text: модуль
 element.module.nominative:
@@ -158,12 +158,12 @@ element.receiver.parameter.nominative:
     text: параметр приемника
 element.record.accusative:
     text: запись
+element.record.nominative:
+    text: запись
 element.record.component.accusative:
     text: компонент записи
 element.record.component.nominative:
     text: компонент записи
-element.record.nominative:
-    text: запись
 element.snippet.body.accusative:
     text: тело фрагмента
 element.snippet.body.nominative:
@@ -197,7 +197,7 @@ element.variable.accusative:
 element.variable.nominative:
     text: переменная
 else.without.if:
-    text: '«else» без «if»'
+    text: «else» без «if»
 enum.constant.context:
     text: Константа перечисления «{0}» в «{1}»
 error.incompatible.type:
@@ -392,7 +392,7 @@ feature.pattern.guard.and.record.patterns:
 feature.patterns.in.switch:
     text: Шаблоны в switch
 feature.patterns.instanceof:
-    text: Шаблоны в 'instanceof'
+    text: "Шаблоны в 'instanceof'"
 feature.private.interface.methods:
     text: Приватные методы интерфейсов
 feature.record.patterns.in.for.each:
@@ -406,7 +406,7 @@ feature.sealed.classes:
 feature.sequenced.collections:
     text: Последовательные коллекции
 feature.serial.annotation:
-    text: 'Аннотация @Serial'
+    text: Аннотация @Serial
 feature.statements.before.super:
     text: Инструкции перед super()
 feature.static.imports:
@@ -426,9 +426,9 @@ feature.string.templates:
 feature.structured.concurrency:
     text: Структурированная конкуренция
 feature.switch.expressions:
-    text: 'Switch-выражения'
+    text: Switch-выражения
 feature.text.block.escape.sequences:
-    text: '«\s» экранирующие последовательности'
+    text: «\s» экранирующие последовательности
 feature.text.blocks:
     text: Блочные строковые литералы
 feature.try.with.resources:
@@ -444,7 +444,7 @@ feature.underscores.in.literals:
 feature.unnamed.vars:
     text: Безымянные шаблоны и переменные
 feature.var.lambda.parameter:
-    text: '«var» в параметрах лямбды'
+    text: «var» в параметрах лямбды
 feature.varargs:
     text: Методы с переменным количеством аргументов
 feature.virtual.threads:
@@ -458,9 +458,9 @@ filetype.description.java:
 filetype.description.jshell:
     text: Фрагмент JShell
 finally.without.try:
-    text: '«finally» без «try»'
+    text: «finally» без «try»
 import.statement.identifier.or.asterisk.expected.:
-    text: Ожидался идентификатор или '*'
+    text: "Ожидался идентификатор или '*'"
 java.language.display.name:
     text: Java
 java.terms.anonymous.class.base.ref:
@@ -474,7 +474,7 @@ javadoc.exception.tag.wrong.tag.value:
 javadoc.param.tag.parameter.name.expected:
     text: Ожидалось название параметра
 javadoc.param.tag.type.parameter.gt.expected:
-    text: 'Ожидалась «>»'
+    text: Ожидалась «>»
 javadoc.param.tag.type.parameter.name.expected:
     text: Ожидалось название параметра типа
 javadoc.ref.tag.class.ref.expected:

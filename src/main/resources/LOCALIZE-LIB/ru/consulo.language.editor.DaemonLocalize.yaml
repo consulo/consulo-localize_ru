@@ -26,12 +26,6 @@ import.popup.hint.action.kind.class:
     text: класс
 import.popup.hint.text:
     text: <html><body><a href="action">{3} {0}…</a> {1}? <span style="color:{4}">{2}</span></body></html>
-    names:
-        - kind
-        - name
-        - shortcut
-        - actionName
-        - shortcutColor
 import.popup.multiple:
     text: '{0}? (несколько вариантов…)'
 import.popup.text:
@@ -47,7 +41,7 @@ interface.is.implemented.too.many:
 iw.status.analyzing:
     text: Анализ…
 iw.status.off:
-    text: 'ВЫКЛ'
+    text: ВЫКЛ
 iw.status.paused:
     text: Пауза…
 label.code.analysis.has.been.suspended:

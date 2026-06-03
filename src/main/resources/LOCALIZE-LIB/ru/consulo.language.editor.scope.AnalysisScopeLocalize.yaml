@@ -93,7 +93,7 @@ error.packageset.pattern.expectations:
 error.packageset.position.parsing.error:
     text: '{0} на позиции {1}'
 error.packageset.rparen.expected:
-    text: Ожидалась ')'
+    text: "Ожидалась ')'"
 error.packageset.token.expectations:
     text: Неожиданный «{0}»
 find.dependencies.progress.text:
@@ -143,7 +143,10 @@ predefined.scope.problems.name:
 project.is.out.of.date:
     text: Проект устарел
 recompile.confirmation.message:
-    text: "Файлы классов проекта устарели.\nВы хотите скомпилировать проект перед продолжением анализа DSM?\nОтказ от этого может привести к неполным или некорректным данным."
+    text: |-
+        Файлы классов проекта устарели.
+        Вы хотите скомпилировать проект перед продолжением анализа DSM?
+        Отказ от этого может привести к неполным или некорректным данным.
 scanning.scope.progress.title:
     text: Сканирование области …
 scope.directory:

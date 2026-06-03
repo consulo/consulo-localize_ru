@@ -993,7 +993,7 @@ exception.missing.data:
 fail.open.project.message:
     text: Не удаётся открыть проект из «{0}»
 failed.to.install.package.dialog.title:
-    text: Не удалось установить пакет ''{0}''
+    text: "Не удалось установить пакет ''{0}''"
 failed.to.install.packages.dialog.title:
     text: Не удалось установить пакеты
 favorites.empty.screen:
@@ -1241,12 +1241,8 @@ label.missed.libraries.prefix:
     text: 'Следующие библиотеки отсутствуют:'
 label.missed.libraries.text:
     text: '{0}.<br>Класс «{1}» не найден'
-label.module.content.root:
-    text: 'Содержимое модуля &root:'
 label.module.file.will.be.saved.in:
     text: 'Файл модуля будет сохранён в:'
-label.module.name:
-    text: '&Название модуля:'
 label.name:
     text: 'Название:'
 label.no.actions.found:
@@ -1287,12 +1283,8 @@ label.path.to.module.file:
     text: 'Путь к файлу модуля {0} (.iml):'
 label.please.enter.project.name:
     text: Введите название для создания нового {0} {1}.
-label.project.files.location:
-    text: 'Расположение файла &проекта:'
 label.project.jdk:
     text: 'Проектная SDK:'
-label.project.name:
-    text: 'Название проекта:'
 label.project.roots.have.been.found:
     text: |-
         Исходные файлы для вашего проекта найдены. Выберите каталоги, которые будут
@@ -1355,7 +1347,7 @@ listbox.customfiletype.keywords:
 loading.editors:
     text: Загрузка файлов…
 loading.in.progress:
-    text: '<html><body style=''''text-align: center;padding-top:20px;''''>Загрузка…</body></html>'
+    text: "<html><body style=''text-align: center;padding-top:20px;''>Загрузка…</body></html>"
 local.scopes.node.text:
     text: Локальные области
 low.disk.space.message:
@@ -1523,9 +1515,7 @@ message.server.not.available:
 message.server.protocol.hijacked:
     text: Ответ сервера лицензий не прошел проверку целостности данных. Сервер взломан?
 message.settings.exported.successfully:
-    text: |-
-        Ваши настройки успешно экспортированы.
-        Вы можете импортировать настройки с помощью ''Файл|Импортировать настройки''.
+    text: "Ваши настройки успешно экспортированы.\nВы можете импортировать настройки с помощью ''Файл|Импортировать настройки''."
 message.settings.imported.successfully:
     text: |-
         Настройки успешно импортированы. Вам необходимо перезапустить {0}, чтобы перезагрузить настройки.
@@ -1706,10 +1696,6 @@ project.import.show.settings.after:
     text: '&Открыть структуру проекта после import'
 project.import.wizard.title:
     text: Импорт из {0}
-project.new.wizard.module.identification:
-    text: модуль
-project.new.wizard.project.identification:
-    text: проект
 project.settings.separator:
     text: Настройки проекта
 promot.projectwizard.directory.does.not.exist:

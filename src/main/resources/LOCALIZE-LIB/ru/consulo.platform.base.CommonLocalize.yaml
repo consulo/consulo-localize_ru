@@ -97,7 +97,7 @@ cannot.undo.error.other.affected.files.changed.message:
 cannot.undo.message:
     text: Не удалось отменить
 captured.memory.snapshot.placed.in.user.home.directory.message.text:
-    text: 'Записанный снимок памяти: ''{0}'' помещается в домашний каталог пользователя.'
+    text: "Записанный снимок памяти: '{0}' помещается в домашний каталог пользователя."
 checkbox.remember.password:
     text: '&Запомнить пароль'
 close.action.name:
@@ -167,9 +167,9 @@ not.enough.storage.is.available.to.complete.this.operation.error.message:
 not.enough.storage.is.available.to.process.this.command.error.message:
     text: Недостаточно памяти для обработки этой команды.
 profiling.captured.allocations.snapshot.message.text:
-    text: 'Снимок захваченного распределения: ''{0}'' помещается в домашний каталог пользователя.'
+    text: "Снимок захваченного распределения: '{0}' помещается в домашний каталог пользователя."
 profiling.captured.cpu.snapshot.message.text:
-    text: 'Захваченный снимок ЦП: ''{0}'' помещается в домашний каталог пользователя.'
+    text: "Захваченный снимок ЦП: '{0}' помещается в домашний каталог пользователя."
 redo.command.confirmation.text:
     text: Повторить {0}
 redo.confirmation.title:

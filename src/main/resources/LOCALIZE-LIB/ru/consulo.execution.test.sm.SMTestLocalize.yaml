@@ -7,9 +7,9 @@ dialog.message.target.does.not.exist:
 dialog.message.unable.to.parse.test.results:
     text: Не удаётся проанализировать результаты теста из «{0}». Ожидалось, что результаты теста хранятся в XML.
 dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
-    text: "Не удаётся запустить конфигурацию: не удалось обнаружить тестовую среду"
+    text: 'Не удаётся запустить конфигурацию: не удалось обнаружить тестовую среду'
 dialog.message.unable.to.run.configuration.settings.are.corrupted:
-    text: "Не удаётся запустить конфигурацию: настройки повреждены"
+    text: 'Не удаётся запустить конфигурацию: настройки повреждены'
 link.label.choose.configuration.before.commit:
     text: Выберите конфигурацию
 progress.text.running.tests:

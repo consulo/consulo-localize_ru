@@ -2,10 +2,22 @@ action.anonymous.to.inner.description:
     text: Преобразовать анонимный класс во вложенный
 action.anonymous.to.inner.text:
     text: Преобразовать аноним_ный во вложенный…
+action.change.type.signature.description:
+    text: Изменить тип возвращаемого из метода значения, поля, параметра, переменной или аргументов типа класса, и исправить все ссылки
+action.change.type.signature.text:
+    text: Миграция ти_пов…
 action.convert.to.instance.method.description:
     text: Преобразовать статический метод в метод экземпляра и исправить все ссылки
 action.convert.to.instance.method.text:
     text: П_реобразовать в метод экземпляра…
+action.create.new.module.info.description:
+    text: Создать новый файл module-info.java
+action.create.new.module.info.title:
+    text: module-info.java
+action.create.new.package.info.description:
+    text: Создать новый файл package-info.java
+action.create.new.package.info.title:
+    text: package-info.java
 action.encapsulate.fields.description:
     text: Заменить прямой доступ к полям в выбранном классе использованием методов доступа
 action.encapsulate.fields.text:
@@ -18,10 +30,10 @@ action.generate.data.method.text:
     text: Метод параметров
 action.generate.equals.text:
     text: equals() и hashCode()
-action.generate.getter.text:
-    text: Геттер
 action.generate.getter.and.setter.text:
     text: Геттер и сеттер
+action.generate.getter.text:
+    text: Геттер
 action.generate.javadoc.description:
     text: Запустить JavaDoc-генератор
 action.generate.javadoc.text:
@@ -30,14 +42,30 @@ action.generate.set.up.method.text:
     text: Метод SetUp
 action.generate.setter.text:
     text: Сеттер
+action.generate.super.method.call.description:
+    text: Сгенерировать вызов супер-метода
+action.generate.super.method.call.text:
+    text: Вызов супер-метода
 action.generate.tear.down.method.text:
     text: Метод TearDown
 action.generate.test.method.text:
     text: Тестовый метод
+action.generate.to.string.description:
+    text: Сгенерировать метод toString()
+action.generate.to.string.text:
+    text: to_String()
 action.generify.description:
     text: Преобразовать ваш код для использования обобщённых типов
 action.generify.text:
     text: О_бобщить…
+action.go.to.implementation.text:
+    text: Перейти к реализации(ям)
+action.go.to.overriding.methods.text:
+    text: Перейти к переопределяющим методам
+action.go.to.subclass.text:
+    text: Перейти к подклассу(ам)
+action.go.to.super.method.text:
+    text: Перейти к супер-методу
 action.infer.nullity.description:
     text: Вывести информацию о нулях (nullity)
 action.infer.nullity.text:
@@ -54,10 +82,6 @@ action.invert.boolean.description:
     text: Заставить метод возвращать или переменную содержать противоположное значение, и исправить ссылки
 action.invert.boolean.text:
     text: Инвертировать _логическое значение…
-action.new.class.description:
-    text: Создать новый Java-класс
-action.new.class.text:
-    text: Java-класс
 action.make.static.description:
     text: Преобразовать метод или вложенный класс в статический и исправить все ссылки
 action.make.static.text:
@@ -70,6 +94,10 @@ action.migrate.description:
     text: Открыть диалог миграции
 action.migrate.text:
     text: _Мигрировать…
+action.new.class.description:
+    text: Создать новый Java-класс
+action.new.class.text:
+    text: Java-класс
 action.remove.middleman.description:
     text: Встроить делегирование в методы выбранного поля
 action.remove.middleman.text:
@@ -106,34 +134,6 @@ action.wrap.return.value.description:
     text: Обернуть возвращаемое значение указанного метода объектом
 action.wrap.return.value.text:
     text: Обернуть возвращаемое значение мето_да…
-action.change.type.signature.description:
-    text: Изменить тип возвращаемого из метода значения, поля, параметра, переменной или аргументов типа класса, и исправить все ссылки
-action.change.type.signature.text:
-    text: Миграция ти_пов…
-action.create.new.module.info.description:
-    text: Создать новый файл module-info.java
-action.create.new.module.info.title:
-    text: module-info.java
-action.create.new.package.info.description:
-    text: Создать новый файл package-info.java
-action.create.new.package.info.title:
-    text: package-info.java
-action.generate.super.method.call.description:
-    text: Сгенерировать вызов супер-метода
-action.generate.super.method.call.text:
-    text: Вызов супер-метода
-action.generate.to.string.description:
-    text: Сгенерировать метод toString()
-action.generate.to.string.text:
-    text: to_String()
-action.go.to.implementation.text:
-    text: Перейти к реализации(ям)
-action.go.to.overriding.methods.text:
-    text: Перейти к переопределяющим методам
-action.go.to.subclass.text:
-    text: Перейти к подклассу(ам)
-action.go.to.super.method.text:
-    text: Перейти к супер-методу
 annotation.processor.name:
     text: Обработчики аннотаций
 checkbox.collapse.annotations:
@@ -141,7 +141,7 @@ checkbox.collapse.annotations:
 checkbox.collapse.anonymous.classes:
     text: Анонимные классы
 checkbox.collapse.closures:
-    text: "«Замыкания» (анонимные классы, реализующие один метод)"
+    text: «Замыкания» (анонимные классы, реализующие один метод)
 checkbox.collapse.end.of.line.comments:
     text: Последовательность комментариев в конце строки
 checkbox.collapse.file.header:
@@ -263,7 +263,7 @@ settings.inlay.java.turn.on.showInferred.annotations:
 settings.inlay.java.usages:
     text: Использования
 switch.stmt.template.description:
-    text: switch (expr) '{'…'}'
+    text: "switch (expr) '{'…'}'"
 title.annotation:
     text: Аннотация
 title.class:

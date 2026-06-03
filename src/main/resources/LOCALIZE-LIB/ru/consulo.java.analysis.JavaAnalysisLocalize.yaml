@@ -44,8 +44,6 @@ contract.return.validator.return.type.must.be.boolean:
     text: возвращаемый тип метода должен быть «boolean»
 contract.return.validator.too.few.parameters:
     text: не применимо для метода, у которого {0, choice, 0#нет параметров|1#один параметр|2#{0} параметров}
-contract.return.value.validation.prefix:
-    text: 'Возвращаемое значение контракта «{0}»:'
 convert.0.to.float:
     text: Преобразовать «{0}» в float
 custom.exception.class.should.have.a.constructor:
@@ -219,7 +217,7 @@ dfa.find.cause.contract.throws.on.condition:
 dfa.find.cause.contract.trivial:
     text: согласно {0}, метод «{1}» всегда возвращает «{2}» значение
 dfa.find.cause.equality.established.from.condition:
-    text: '«{0}» было установлено из условия'
+    text: «{0}» было установлено из условия
 dfa.find.cause.field.assigned.nullability:
     text: известно, что поле «{0}» всегда инициализируется значением «{1}»
 dfa.find.cause.field.initializer.nullability:
@@ -295,7 +293,7 @@ dfa.find.cause.unable:
 dfa.find.cause.value.is.always.the.same:
     text: значение всегда {0}
 dfa.find.cause.value.is.known.from.place:
-    text: '«{0}» известно как «{1}» из ___PLACE___'
+    text: «{0}» известно как «{1}» из ___PLACE___
 dfa.find.cause.value.x.is.always.the.same:
     text: значение «{0}» всегда «{1}»
 dfa.find.cause.values.cannot.be.equal.because:
@@ -303,13 +301,13 @@ dfa.find.cause.values.cannot.be.equal.because:
 dfa.find.cause.variable.is.initialized:
     text: '{0} «{1}» инициализируется значением {2}'
 dfa.find.cause.was.assigned:
-    text: '«{0}» было присвоено'
+    text: «{0}» было присвоено
 dfa.find.cause.was.assigned.to:
-    text: '«{0}» было присвоено «{1}»'
+    text: «{0}» было присвоено «{1}»
 dfa.find.cause.was.dereferenced:
-    text: '«{0}» было разыменовано'
+    text: «{0}» было разыменовано
 dfa.find.cause.was.passed.as.non.null.parameter:
-    text: '«{0}» было передано в качестве аргумента методу, принимающему не-null параметр'
+    text: «{0}» было передано в качестве аргумента методу, принимающему не-null параметр
 dftype.presentation.empty.optional:
     text: пустой Optional
 dftype.presentation.present.optional:
@@ -383,7 +381,7 @@ feature.static.imports:
 feature.static.interface.calls:
     text: Статические вызовы методов интерфейса
 feature.switch.expressions:
-    text: 'switch-выражения'
+    text: switch-выражения
 feature.text.block.escape.sequences:
     text: Экранирующие последовательности «\s» и «\»
 feature.text.blocks:
@@ -399,7 +397,7 @@ feature.type.receivers:
 feature.underscores.in.literals:
     text: Подчеркивания в литералах
 feature.var.lambda.parameter:
-    text: '«var» в параметрах лямбда-выражений'
+    text: «var» в параметрах лямбда-выражений
 feature.varargs:
     text: Методы с переменным числом аргументов (varargs)
 find.searching.for.references.to.class.progress:
@@ -483,7 +481,7 @@ inspection.class.getclass.fix.remove.name:
 inspection.class.getclass.fix.replace.name:
     text: Заменить на «Class.class»
 inspection.class.getclass.message:
-    text: '«getClass()» вызывается для экземпляра Class'
+    text: «getClass()» вызывается для экземпляра Class
 inspection.class.has.no.to.string.method.description:
     text: Класс «{0}» не переопределяет метод «toString()»
 inspection.class.has.no.to.string.method.display.name:
@@ -509,7 +507,7 @@ inspection.common.if.parts.family:
 inspection.common.if.parts.family.else.if:
     text: Объединить «else if»
 inspection.common.if.parts.family.else.if.description:
-    text: '«else if» можно объединить'
+    text: «else if» можно объединить
 inspection.common.if.parts.settings.highlight.when.tail.call:
     text: Выделять, когда последняя общая инструкция является вызовом
 inspection.compiler.javac.quirks.anno.array.comma.fix:
@@ -771,7 +769,7 @@ inspection.suspicious.array.method.call.problem.element:
 inspection.suspicious.collections.method.calls.display.name:
     text: Подозрительные вызовы методов коллекций
 inspection.suspicious.collections.method.calls.problem.descriptor:
-    text: '«{0}» может не содержать {2} типа «{1}»'
+    text: «{0}» может не содержать {2} типа «{1}»
 inspection.suspicious.collections.method.calls.problem.descriptor1:
     text: Подозрительный вызов «{0}»
 inspection.suspicious.getter.setter.field.option:
@@ -1027,9 +1025,9 @@ type.constraint.assignability.explanation.definitely.inconvertible:
 type.constraint.assignability.explanation.exact:
     text: '{0} уже известно, что является {1}'
 type.constraint.assignability.explanation.exact.not.subtype:
-    text: 'Тип {0} точно соответствует {1}, что не является подтипом {2}'
+    text: Тип {0} точно соответствует {1}, что не является подтипом {2}
 type.constraint.assignability.explanation.exact.subtype:
-    text: 'Тип {0} точно соответствует {1}, что является подтипом {2}'
+    text: Тип {0} точно соответствует {1}, что является подтипом {2}
 type.constraint.assignability.explanation.not.instance.of:
     text: '{0} заведомо не является {1}'
 type.constraint.assignability.explanation.not.instance.of.supertype:
@@ -1061,7 +1059,7 @@ unused.library.problem.descriptor:
 unused.library.roots.problem.descriptor:
     text: Ненужные корни {0} из библиотеки «{1}»
 var.can.be.replaced.with.explicit.type:
-    text: '«var» можно заменить на явный тип'
+    text: «var» можно заменить на явный тип
 vararg.method.call.with.50.poly.arguments:
     text: Вызов метода vararg с 50+ аргументами может замедлить компиляцию и анализ
 visible.for.testing.makes.little.sense.on.test.only.code:

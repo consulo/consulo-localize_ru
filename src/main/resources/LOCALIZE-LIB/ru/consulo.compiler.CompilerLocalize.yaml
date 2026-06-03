@@ -383,7 +383,7 @@ message.resource.patterns.format.changed:
         Вам также может потребоваться изменить настройки проекта шаблона.
         Нажмите «{2}», чтобы принять введенные шаблоны, «{3}», чтобы загрузить шаблоны по умолчанию в новом формате.
 message.text.cannot.delete.0:
-    text: не удаётся удалить ''{0}''
+    text: "не удаётся удалить ''{0}''"
 message.text.compiling.item.deployment.descriptor.could.not.be.found:
     text: 'Компиляция {0}: Элемент развертывания «{1}» не найден'
 message.text.compiling.module.message:

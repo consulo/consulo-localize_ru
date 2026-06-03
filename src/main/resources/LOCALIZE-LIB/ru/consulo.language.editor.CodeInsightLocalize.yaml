@@ -239,9 +239,7 @@ generate.equals.and.hashcode.already.defined.warning:
         Методы «boolean equals(Object)» и «int hashCode()» уже определены
         для класса {0}. Вы хотите удалить их и продолжить?
 generate.equals.and.hashcode.already.defined.warning.anonymous:
-    text: |-
-        Методы 'boolean equals(Object)' и 'int hashCode()' уже определены
-        для этого анонимного класса. Вы хотите удалить их и продолжить?
+    text: "Методы 'boolean equals(Object)' и 'int hashCode()' уже определены\nдля этого анонимного класса. Вы хотите удалить их и продолжить?"
 generate.equals.and.hashcode.error.no.object.class.message:
     text: |-
         Невозможно сгенерировать equals() и hashCode().
@@ -329,9 +327,7 @@ i18n.quickfix.property.panel.update.all.files.in.bundle.checkbox:
 i18nize.cant.create.properties.file.because.its.name.is.associated:
     text: Невозможно создать файл свойств «{0}», так как его название связано с {1}.
 i18nize.dialog.error.jdk.message:
-    text: |-
-        Класс 'java.util.ResourceBundle' не найден.
-        Пожалуйста, настройте правильный JDK.
+    text: "Класс 'java.util.ResourceBundle' не найден.\nПожалуйста, настройте правильный JDK."
 i18nize.dialog.error.jdk.title:
     text: Класс не найден
 i18nize.dialog.error.property.already.defined.message:
@@ -470,7 +466,7 @@ intention.create.test.dialog.java:
 intention.create.test.dialog.language:
     text: 'Язык:'
 intention.create.test.dialog.library.not.found:
-    text: Библиотека '{0}' не найдена в модуле
+    text: "Библиотека '{0}' не найдена в модуле"
 intention.create.test.dialog.select.methods:
     text: 'Сгенерировать тестовые методы для:'
 intention.create.test.dialog.show.inherited:
@@ -548,7 +544,7 @@ intention.replace.cast.with.var.text:
 intention.replace.concatenation.with.formatted.output.family:
     text: Заменить конкатенацию на форматированный вывод
 intention.replace.concatenation.with.formatted.output.text:
-    text: Заменить '+' на 'java.text.MessageFormat.format()'
+    text: "Заменить '+' на 'java.text.MessageFormat.format()'"
 intention.settings:
     text: Предложения по изменению кода
 intention.settings.category.text:
@@ -686,7 +682,7 @@ livetemplate.description.soutv:
 livetemplate.description.st:
     text: String
 livetemplate.description.surround.braces:
-    text: Обернуть в '{''}'
+    text: "Обернуть в '{''}'"
 livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
     text: Обернуть в секцию CDATA
 livetemplate.description.surround.parens:
@@ -834,7 +830,7 @@ paste.data.flavor.folding:
 paste.dataflavor.referencedata:
     text: ReferenceData
 popup.title.next.error.action.0.goes.through:
-    text: 'Действие «Следующая ошибка»{0} проходит через'
+    text: Действие «Следующая ошибка»{0} проходит через
 postfix.live.template.title:
     text: Постфиксный шаблон
 postfix.template.description.under.construction:
@@ -970,11 +966,11 @@ surround.with.dowhile.template:
 surround.with.for.template:
     text: for
 surround.with.if.expression.template:
-    text: if (expr) '{'…'}'
+    text: "if (expr) '{'…'}'"
 surround.with.if.template:
     text: if
 surround.with.ifelse.expression.template:
-    text: if (expr) '{'…'}' else '{'…'}'
+    text: "if (expr) '{'…'}' else '{'…'}'"
 surround.with.ifelse.template:
     text: if / else
 surround.with.not.instanceof.template:

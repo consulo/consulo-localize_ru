@@ -127,7 +127,7 @@ duplicate.property.display.name:
 duplicate.property.file.scope.option:
     text: '&Область файла'
 duplicate.property.key.option:
-    text: 'Дублирующиеся &ключи'
+    text: Дублирующиеся &ключи
 duplicate.property.key.problem.descriptor:
     text: 'Дублирующийся ключ свойства «{0}» #end со значениями:<br>'
 duplicate.property.key.progress.indicator.text:
@@ -137,7 +137,7 @@ duplicate.property.module.scope.option:
 duplicate.property.project.scope.option:
     text: '&Область проекта'
 duplicate.property.value.option:
-    text: 'Дублирующиеся &значения'
+    text: Дублирующиеся &значения
 duplicate.property.value.problem.descriptor:
     text: 'Дублирующееся значение свойства «{0}» #end с ключами:<br>'
 duplicate.property.value.progress.indicator.text:
@@ -359,7 +359,7 @@ inspection.command.line.explanation:
 inspection.comparing.references.display.name:
     text: Используется == вместо equals()
 inspection.comparing.references.problem.descriptor:
-    text: Подозрительное сравнение #ref #loc
+    text: Подозрительное сравнение
 inspection.comparing.references.use.quickfix:
     text: Использовать equals()
 inspection.compiler.javac.quirks.anno.array.comma.fix:
@@ -533,7 +533,7 @@ inspection.duplicates.message:
 inspection.duplicates.message.in.this.file:
     text: (в этом файле)
 inspection.duplicates.message.more:
-    text: '… (ещё {0})'
+    text: … (ещё {0})
 inspection.duplicates.option:
     text: '&Минимальная длина строки:'
 inspection.duplicates.option.report.propertykey.expressions:
@@ -693,7 +693,7 @@ inspection.javadoc.method.problem.descriptor:
 inspection.javadoc.method.problem.missing.param.tag:
     text: Требуемый тег {0} отсутствует для параметра {1}
 inspection.javadoc.method.problem.missing.tag.description:
-    text: 'Отсутствует описание тега {0}'
+    text: Отсутствует описание тега {0}
 inspection.javadoc.option.ignore.deprecated:
     text: Игнорировать элементы, помеченные как @deprecated
 inspection.javadoc.option.ignore.period:

@@ -1,7 +1,7 @@
 0.expected:
-    text: 'Ожидалось {0}'
+    text: Ожидалось {0}
 0.is.not.an.identifier:
-    text: '«{0}» не является идентификатором.'
+    text: «{0}» не является идентификатором.
 PerFileConfigurableBase.empty.text:
     text: Новый мэппинг $addShortcut
 PerFileConfigurableBase.label.project:
@@ -73,7 +73,7 @@ completion.quick.implementations.ad:
 completion.quick.javadoc.ad:
     text: Знаете ли вы, что «Быстрая документация» ({0}) также работает в меню автодополнения?
 completion.smart.enter.ad:
-    text: 'Используйте {0}, чтобы синтаксически исправить ваш код после автодополнения (расстановка скобок и т.д.)'
+    text: Используйте {0}, чтобы синтаксически исправить ваш код после автодополнения (расстановка скобок и т.д.)
 compound.run.configuration.cycle:
     text: '{0} «{1}» вызывает циклическую зависимость и не может быть добавлен'
 default.package.presentation:
@@ -91,7 +91,7 @@ dialog.message.live.template.with.empty.text:
 dialog.message.template.with.name.already.exists:
     text: Шаблон с именем «{0}» уже существует. Пожалуйста, укажите другое имя шаблона
 dialog.message.valid.identifier:
-    text: '«{0}» не является допустимым идентификатором'
+    text: «{0}» не является допустимым идентификатором
 dialog.template.data.language.caption:
     text: <html><body>Языки данных шаблона — это базовые языки в файлах шаблонов, таких как файлы фреймворков FreeMarker/Velocity.<br>Чтобы изменить настройки языка данных шаблона, которые {0} использует для файла, каталога или всего проекта, нажмите на элемент, а затем выберите язык из списка «Язык данных шаблона».<br><br>Примечание:<br>Если настройки не указаны, файлы и каталоги наследуют настройки языка данных шаблона от родителя.<br></body></html>
 el.cannot.resolve.function:
@@ -105,7 +105,7 @@ el.cannot.resolve.property:
 el.cannot.resolve.variable:
     text: 'Не удалось найти переменную «{0}» #loc'
 el.colon.expected:
-    text: Ожидалось ':'
+    text: "Ожидалось ':'"
 el.declare.variable.find.acceptable.class:
     text: Найти подходящий класс
 el.declare.variable.intention.family:
