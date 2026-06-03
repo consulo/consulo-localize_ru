@@ -7,5 +7,6 @@
     "targetLocales": [
         "ru"
     ],
+    "excludes": "**/target/**",
     "transDir": "src/main/resources/LOCALIZE-LIB"
 }
