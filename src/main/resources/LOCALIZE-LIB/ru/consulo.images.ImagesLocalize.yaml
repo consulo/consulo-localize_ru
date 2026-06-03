@@ -23,11 +23,11 @@ action.Images.Open.Settings.description:
 action.Images.Open.Settings.text:
     text: Настройки просмотра изображений
 black.cell.color:
-    text: "Цвет «&чёрной» ячейки:"
+    text: 'Цвет «&чёрной» ячейки:'
 black.cell.color.descriptor:
-    text: "«Чёрная» ячейка"
+    text: «Чёрная» ячейка
 chessboard.cell.size:
-    text: "Размер &ячейки шахматной доски (пиксели):"
+    text: 'Размер &ячейки шахматной доски (пиксели):'
 enable.mousewheel.zooming:
     text: Масштабировать изображение с помощью колесика мыши ({0}+колёсико)
 error.broken.image.file.format:
@@ -41,21 +41,21 @@ error.title.launching.external.editor:
 external.editor.border.title:
     text: Внешний редактор
 external.editor.executable.path:
-    text: "Путь к &исполнимому файлу:"
+    text: 'Путь к &исполнимому файлу:'
 grid.line.color.descriptor:
     text: Линии сетки
 icon.dimensions:
-    text: "{0,number}x{1,number}x{2,number}"
+    text: '{0,number}x{1,number}x{2,number}'
 icons.count:
-    text: "{0,choice, 0#нет изображений|1#1 изображение|2#{0,number} изображений|100# > 100 изображений}"
+    text: '{0,choice, 0#нет изображений|1#1 изображение|2#{0,number} изображений|100# > 100 изображений}'
 image.info:
-    text: "{0}x{1} {2} ({3}-битный цвет) {4}"
+    text: '{0}x{1} {2} ({3}-битный цвет) {4}'
 images.filetype.description:
     text: Файлы изображений
 main.page.border.title:
     text: Редактор
 mouse.coordinates:
-    text: "x: {0,number,00.00}, y: {1,number,00.00}"
+    text: 'x: {0,number,00.00}, y: {1,number,00.00}'
 plugin.Images.description:
     text: Просмотр изображений и показ миниатюр
 select.external.executable.message:
@@ -65,15 +65,15 @@ select.external.executable.title:
 settings.page.name:
     text: Просмотр изображений
 settings.preffered.smart.zoom.height:
-    text: "Предпочтительная минимальная высота для умного масштабирования (пиксели):"
+    text: 'Предпочтительная минимальная высота для умного масштабирования (пиксели):'
 settings.preffered.smart.zoom.width:
-    text: "Предпочтительная минимальная ширина для умного масштабирования (пиксели):"
+    text: 'Предпочтительная минимальная ширина для умного масштабирования (пиксели):'
 show.grid.every:
-    text: "Показывать основную линию сетки после &каждых (пикселей):"
+    text: 'Показывать основную линию сетки после &каждых (пикселей):'
 show.grid.lines:
     text: Показывать линии сетки по умолчанию
 show.grid.zoom.limit:
-    text: "Показывать линии сетки только при коэффициенте масштабирования не менее:"
+    text: 'Показывать линии сетки только при коэффициенте масштабирования не менее:'
 show.transparency.chessboard:
     text: Показывать прозрачную шахматную доску по умолчанию
 smart.zoom:
@@ -87,6 +87,6 @@ thumbnails.select.in.target.action.text:
 unknown.format:
     text: Неизвестный формат
 white.cell.color:
-    text: "Цвет «&белой» ячейки:"
+    text: 'Цвет «&белой» ячейки:'
 white.cell.color.descriptor:
-    text: "«Белая» ячейка"
+    text: «Белая» ячейка

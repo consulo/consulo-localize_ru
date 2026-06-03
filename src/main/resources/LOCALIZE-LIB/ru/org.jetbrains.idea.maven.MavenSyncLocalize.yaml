@@ -67,7 +67,9 @@ maven.sync.jdk.description:
 maven.sync.jdk.title:
     text: Версия Maven JDK для импортёра слишком низкая
 maven.sync.not.trusted.description:
-    text: "Открытый недоверенный проект не загружен полностью.\nConsulo не будет искать никакие расширения в проекте, загружать артефакты или выполнять какие-либо цели."
+    text: |-
+        Открытый недоверенный проект не загружен полностью.
+        Consulo не будет искать никакие расширения в проекте, загружать артефакты или выполнять какие-либо цели.
 maven.sync.not.trusted.title:
     text: Недоверенный проект
 maven.sync.plugins.artifact.download:

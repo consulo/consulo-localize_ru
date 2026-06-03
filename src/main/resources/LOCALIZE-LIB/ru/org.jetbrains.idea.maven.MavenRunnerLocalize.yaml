@@ -37,9 +37,9 @@ maven.java.home.invalid:
 maven.java.home.undefined:
     text: Переменная среды JAVA_HOME не определена
 maven.java.not.found:
-    text: Невозможно найти JRE ''{0}''
+    text: "Невозможно найти JRE ''{0}''"
 maven.java.not.found.default.config:
-    text: Невозможно найти JRE ''{0}''. Вы можете указать JRE для запуска целей Maven в Настройки -> Maven -> Запуск
+    text: "Невозможно найти JRE ''{0}''. Вы можете указать JRE для запуска целей Maven в Настройки -> Maven -> Запуск"
 maven.java.not.resolved:
     text: JRE не разрешена для текущего дистрибутива Maven
 maven.options.description.B:

@@ -199,15 +199,15 @@ html.inspections.unknown.boolean.attribute:
 html.inspections.unknown.tag:
     text: Неизвестный HTML-тег
 html.inspections.unknown.tag.attribute.checkbox.title:
-    text: "Пользовательские атрибуты HTML-тега:"
+    text: 'Пользовательские атрибуты HTML-тега:'
 html.inspections.unknown.tag.attribute.title:
     text: Изменить пользовательские атрибуты
 html.inspections.unknown.tag.boolean.attribute.checkbox.title:
-    text: "Пользовательские атрибуты HTML-тега:"
+    text: 'Пользовательские атрибуты HTML-тега:'
 html.inspections.unknown.tag.boolean.attribute.title:
     text: Изменить значение пользовательского логического атрибута
 html.inspections.unknown.tag.checkbox.title:
-    text: "Пользовательские HTML-теги:"
+    text: 'Пользовательские HTML-теги:'
 html.inspections.unknown.tag.title:
     text: Изменить пользовательские теги
 html.inspections.unknown.target:
@@ -457,7 +457,7 @@ xml2xsd.generator.error.message:
 xmlbeans.designtype.tooltip:
     text: Тип конструкции XMLSchema
 xmlbeans.enumerations.tooltip:
-    text: "Обнаружено перечисление из следующего количества "
+    text: 'Обнаружено перечисление из следующего количества '
 xmlbeans.instance.document.name.tooltip:
     text: Название файла генерируемого примера документа
 xmlbeans.instance2schema.result.schema.name:

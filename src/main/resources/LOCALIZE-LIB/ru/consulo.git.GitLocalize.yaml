@@ -150,7 +150,7 @@ checkout.include.tags.tooltip:
 checkout.invalid.new.branch.name:
     text: Недопустимое название новой ветки
 checkout.new.branch:
-    text: Как '&новую ветку'
+    text: "Как '&новую ветку'"
 checkout.new.branch.tooltip:
     text: Введите название новой ветки здесь. Оставьте пустым, если вы не хотите создавать новую ветку.
 checkout.override.branch:
@@ -309,7 +309,7 @@ error.dialog.title:
 error.list.title:
     text: '{0} Ошибка:'
 error.occurred.during:
-    text: Ошибка произошла во время ''{0}''
+    text: "Ошибка произошла во время ''{0}''"
 errors.message:
     text: Операция Git завершилась с несколькими ошибками:{0}
 errors.message.item:
@@ -381,12 +381,7 @@ git.commit.message.empty:
 git.commit.message.empty.title:
     text: Сообщение коммита пустое
 git.default.commit.message:
-    text: |4+
-
-        # Краткое описание коммита здесь
-
-        # Полное описание коммита здесь (строки, начинающиеся с '#', не будут включены)
-
+    text: "\n# Краткое описание коммита здесь\n\n# Полное описание коммита здесь (строки, начинающиеся с '#', не будут включены)\n\n"
 git.error.exit:
     text: Процесс Git завершился с кодом {0}
 git.executable.dialog.description:

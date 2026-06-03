@@ -204,7 +204,6 @@ usage.view.cancel.button:
     text: '&Отмена'
 usage.view.counter:
     text: '{0} {0, choice, 1#результат|2#результата}'
-#    text: '{0} {0, plural, one{результат} few{результата} other{результатов}}'
 usages.n:
     text: '{0,choice, 0#нет использования|1#1 использование|2#{0,number} использований} найдено'
 usages.title:

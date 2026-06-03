@@ -20,8 +20,6 @@ create.tagfile.attribute.text:
     text: Создать атрибут файла тегов {0}
 declare.id.in.comment.quickfix:
     text: Объявить недопустимый идентификатор в аннотации комментария
-dtd.parser.message.left.paren.or.entityref.or.empty.or.any.expeded:
-    text: Ожидается «(» или мнемоника или ПУСТОТА или ЧТО_УГОДНО
 dtd.parser.message.literal.public.system.expected:
     text: Ожидается литерал, ПУБЛИЧНЫЙ или СИСТЕМНЫЙ
 dtd.parser.message.name.expected:
@@ -30,8 +28,6 @@ dtd.parser.message.name.or.entity.ref.expected:
     text: Ожидается название XML или ссылка на сущность
 dtd.parser.message.rbrace.expected:
     text: Ожидается «)»
-dtd.parser.message.whitespace.expeded:
-    text: Ожидается пробел
 duplicate.attribute:
     text: Дубликат атрибута {0}
 duplicate.declaration:

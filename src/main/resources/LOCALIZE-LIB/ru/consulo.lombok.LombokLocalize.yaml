@@ -175,7 +175,7 @@ inspection.message.cleanup.method.s.not.found.on.target.class:
 inspection.message.cleanup.value.cannot.be.empty.string:
     text: '@Cleanup: значение не может быть пустой строкой'
 inspection.message.cleanup.variable.declarations.need.to.be.initialized:
-    text: 'Переменные с @Cleanup должны быть инициализированы.'
+    text: Переменные с @Cleanup должны быть инициализированы.
 inspection.message.constructor.noargs.needs.to.be.forced:
     text: Класс содержит обязательные поля, вам следует принудительно использовать NoArgsConstructor.
 inspection.message.constructor.with.d.parameters.already.defined:
@@ -189,7 +189,7 @@ inspection.message.custom.log.not.configured.correctly:
 inspection.message.custom.log.requires.topic:
     text: '@CustomLog требует topic.'
 inspection.message.data.only.supported.on.class.type:
-    text: '«@Data» поддерживается только для класса'
+    text: «@Data» поддерживается только для класса
 inspection.message.default.constructor.doesn.t.exist:
     text: Отсутствует конструктор по умолчанию
 inspection.message.delegate.can.only.use.concrete.class.types:
@@ -227,7 +227,7 @@ inspection.message.generating.equals.hashcode.with.super.call:
 inspection.message.getter.only.supported.on.class.enum.or.field.type:
     text: '@Getter поддерживается только для класса, перечисления или типа поля'
 inspection.message.jacksonized.builder.on.abstract.classes:
-    text: Builder'ы на абстрактных классах не могут быть @Jacksonized (builder никогда не будет использован).
+    text: "Builder'ы на абстрактных классах не могут быть @Jacksonized (builder никогда не будет использован)."
 inspection.message.jacksonized.cannot.process.both.builder.superbuilder:
     text: '@Jacksonized не может обрабатывать одновременно @Builder и @SuperBuilder в одном классе.'
 inspection.message.jacksonized.jsondeserialize.already.exists:
@@ -235,15 +235,15 @@ inspection.message.jacksonized.jsondeserialize.already.exists:
 inspection.message.jacksonized.requires.builder.superbuilder:
     text: '@Jacksonized требует @Builder или @SuperBuilder, чтобы это было осмысленным.'
 inspection.message.lazy.does.not.work.with.access.level.none:
-    text: '«lazy» не работает с AccessLevel.NONE.'
+    text: «lazy» не работает с AccessLevel.NONE.
 inspection.message.lazy.not.supported.for.getter.on.type:
-    text: '«lazy» не поддерживается для @Getter на типе'
+    text: «lazy» не поддерживается для @Getter на типе
 inspection.message.lazy.requires.field.initialization:
-    text: '«lazy» требует инициализации поля.'
+    text: «lazy» требует инициализации поля.
 inspection.message.lazy.requires.field.to.be.private.final:
-    text: '«lazy» требует, чтобы поле было private и final'
+    text: «lazy» требует, чтобы поле было private и final
 inspection.message.lombok.annotation.deprecated.not.supported:
-    text: "Lombok-аннотация «{0}» устарела и больше не поддерживается плагином lombok. Используйте «{1}» вместо неё."
+    text: Lombok-аннотация «{0}» устарела и больше не поддерживается плагином lombok. Используйте «{1}» вместо неё.
 inspection.message.lombok.annotations.are.not.allowed.on.builder.class:
     text: Lombok-аннотации не допускаются в builder-классе.
 inspection.message.lombok.builder.needs.proper.constructor.for.this.class:
@@ -257,9 +257,9 @@ inspection.message.method.s.matched.static.constructor.name.already.defined:
 inspection.message.method.s.with.d.parameters.matched.static.constructor.name.already.defined:
     text: Метод «{0}» с «{1}» параметрами, соответствующий staticConstructorName, уже определен
 inspection.message.not.allowed.in.old.style.for.loops:
-    text: '«{0}» не допускается в for-циклах старого стиля'
+    text: «{0}» не допускается в for-циклах старого стиля
 inspection.message.not.allowed.with.lambda.expressions:
-    text: '«{0}» не допускается с лямбда-выражениями.'
+    text: «{0}» не допускается с лямбда-выражениями.
 inspection.message.not.compatible.with.array.initializer.expressions:
     text: "«{0}» несовместимо с выражениями инициализатора массива. Используйте полную форму (new int[] '{' … '}' вместо просто '{' … '}')"
 inspection.message.not.generated.s.method.with.same.name.already.exists:
@@ -281,23 +281,23 @@ inspection.message.not.generating.setter.for.this.field.it:
 inspection.message.not.generating.setter.for.this.field.setters:
     text: 'Не сгенерируется setter для этого поля: сеттеры не могут быть сгенерированы для final-полей.'
 inspection.message.not.generating.wither:
-    text: 'Не сгенерируется wither для этого поля: Wither''ы не могут быть сгенерированы для static-полей.'
+    text: "Не сгенерируется wither для этого поля: Wither'ы не могут быть сгенерированы для static-полей."
 inspection.message.not.generating.wither.for.this.field.withers:
-    text: 'Не сгенерируется wither для этого поля: Wither''ы не могут быть сгенерированы для полей, начинающихся с $.'
+    text: "Не сгенерируется wither для этого поля: Wither'ы не могут быть сгенерированы для полей, начинающихся с $."
 inspection.message.not.generating.wither.for.this.field.withers.cannot.be.generated:
-    text: 'Не сгенерируется wither для этого поля: Wither''ы не могут быть сгенерированы для инициализированных final-полей.'
+    text: "Не сгенерируется wither для этого поля: Wither'ы не могут быть сгенерированы для инициализированных final-полей."
 inspection.message.obtain.via.is.static.true.not.valid.unless.method.has.been.set:
     text: '@ObtainVia(isStatic = true) недействительно, если «method» не установлено.'
 inspection.message.on.local.variable.requires.initializer.expression:
-    text: '«{0}» на локальной переменной требует инициализирующего выражения'
+    text: «{0}» на локальной переменной требует инициализирующего выражения
 inspection.message.s.can.be.used.on.classes.only:
-    text: '«@{0}» может использоваться только для классов'
+    text: «@{0}» может использоваться только для классов
 inspection.message.s.legal.only.on.classes.enums:
-    text: '«@{0}» допустимо только для классов и перечислений'
+    text: «@{0}» допустимо только для классов и перечислений
 inspection.message.s.not.valid.identifier:
-    text: '«{0}» не является допустимым идентификатором'
+    text: «{0}» не является допустимым идентификатором
 inspection.message.s.only.supported.on.class.or.field.type:
-    text: '«@{0}» поддерживается только для класса или типа поля'
+    text: «@{0}» поддерживается только для класса или типа поля
 inspection.message.slf4j.logger.defined.explicitly:
     text: Логгер Slf4j определен явно. Вместо этого используйте Lombok-аннотацию @Slf4j.
 inspection.message.standardexception.accesslevel.none.not.valid:
@@ -333,9 +333,9 @@ inspection.message.utility.class.only.supported.on.class:
 inspection.message.utility.classes.cannot.have.declared.constructors:
     text: '@UtilityClasses не могут иметь объявленных конструкторов.'
 inspection.message.val.already.marks.variables.final:
-    text: '«val» уже помечает переменные как final.'
+    text: «val» уже помечает переменные как final.
 inspection.message.val.works.only.on.local.variables:
-    text: '«val» работает только на локальных переменных и в циклах foreach'
+    text: «val» работает только на локальных переменных и в циклах foreach
 inspection.message.value.already.marks.class.final:
     text: '@Value уже помечает класс как final.'
 inspection.message.value.already.marks.non.static.fields.final:
@@ -343,9 +343,9 @@ inspection.message.value.already.marks.non.static.fields.final:
 inspection.message.value.already.marks.non.static.package.local.fields.private:
     text: '@Value уже помечает не-static и package-local поля как private.'
 inspection.message.value.only.supported.on.class.type:
-    text: '«@Value» поддерживается только для класса'
+    text: «@Value» поддерживается только для класса
 inspection.message.var.works.only.on.local.variables.on.for.foreach.loops:
-    text: '«var» работает только на локальных переменных и в циклах for/foreach'
+    text: «var» работает только на локальных переменных и в циклах for/foreach
 inspection.message.wither.needs.constructor.for.all.fields.d.parameters:
     text: '@Wither нуждается в конструкторе для всех полей («{0}» параметров)'
 inspection.message.wither.only.supported.on.class.or.field:

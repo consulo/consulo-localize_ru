@@ -74,14 +74,6 @@ action.name.check.scope.status:
     text: Состояние Chec_k {0}
 action.name.check.status:
     text: Состояние Chec_k
-action.name.checkin.directories:
-    text: 'Каталоги {0}'
-action.name.checkin.directory:
-    text: 'Каталог {0}'
-action.name.checkin.file:
-    text: 'Файл {0}'
-action.name.checkin.files:
-    text: 'Файлы {0}'
 action.name.commit.project:
     text: Закоммитить изменения
 action.name.compare:
@@ -197,7 +189,8 @@ annotation.wrong.line.number.notification.text:
 apply.patch.create.dirs.prompt.footer:
     text: Создать каталоги?
 apply.patch.create.dirs.prompt.header:
-    text: "Патч содержит файлы в следующих несуществующих каталогах:\n"
+    text: |
+        Патч содержит файлы в следующих несуществующих каталогах:
 apply.patch.progress.verifying:
     text: Проверка…
 apply.patch.summary.title:
@@ -306,7 +299,7 @@ changelist.details.committed.format:
 changelist.details.title:
     text: Подробности списка изменений
 changes.action.rollback.custom.title:
-    text: 'Изменения {0}'
+    text: Изменения {0}
 changes.action.rollback.description:
     text: Откат изменений
 changes.action.rollback.nothing:
@@ -330,9 +323,9 @@ changes.action.show.ignored.text:
 changes.browser.details.marker:
     text: Подробнее…
 changes.changelist.chooser.existing.changelist:
-    text: &Существующий список изменений
+    text: список изменений
 changes.changelist.chooser.new.changelist:
-    text: &Новый список изменений
+    text: список изменений
 changes.changelist.chooser.title:
     text: Выбрать список изменений
 changes.checkbox.delete.locally.added.files:
@@ -404,7 +397,7 @@ changes.toolwindow.name:
 changes.update.progress.message:
     text: 'Обновление: {0}'
 changes.view.dnd.label:
-    text: 'Файл(ы) {0}'
+    text: Файл(ы) {0}
 checkbox.changelist.move.offer:
     text: Предложить переместить незакоммиченные изменения в другой список изменений
 checkbox.checkin.options.check.files.up.to.date:
@@ -486,8 +479,6 @@ commit.dialog.changelist.label:
     text: 'Список &изменений:'
 commit.dialog.completed.successfully:
     text: Успешно завершено
-commit.dialog.default.commit.operation.name:
-    text: &Коммит
 commit.dialog.failed.commit.template:
     text: 'Не удалось закоммитить: {0}'
 commit.dialog.include.action.name:
@@ -661,7 +652,7 @@ error.adding.files.prompt:
 error.adding.files.title:
     text: Ошибка добавления файлов
 error.executing.commit:
-    text: 'Ошибка выполнения «''{0}''»: {1}'
+    text: "Ошибка выполнения «'{0}'»: {1}"
 error.updating.changes:
     text: 'Ошибка обновления изменений: {0}'
 exception.text.file.should.be.directory:
@@ -732,8 +723,6 @@ group.message.actions.text:
     text: Действия с сообщениями VCS
 group.name.version.control:
     text: '&VCS'
-group.nav.bar.toobar.actions.text:
-    text: Навигация VCS
 group.show.toolwindow.tab.text:
     text: Показать вкладку инструментального окна контроля версий
 group.toobar.actions.text:
@@ -921,7 +910,7 @@ message.title.show.differences:
 message.title.unable.to.save.settings:
     text: Не удалось сохранить настройки
 message.title.vcs.update.errors:
-    text: 'Ошибки {0}'
+    text: Ошибки {0}
 messge.text.cannot.save.settings:
     text: 'Не удаётся выполнить операцию: {0}'
 move.to.changelist:
@@ -957,7 +946,7 @@ no.ignored.files:
 none.vcs.presentation:
     text: <нет>
 notification.title.vcs.name.repository.repositories.found:
-    text: 'Найден{1, choice, 1#|2#о} {0} {1, choice, 1#репозиторий|2#репозиториев}'
+    text: Найден{1, choice, 1#|2#о} {0} {1, choice, 1#репозиторий|2#репозиториев}
 open.repository.version.description:
     text: Открыть редактор с выбранной ревизией файла
 open.repository.version.text:
@@ -1037,11 +1026,11 @@ patch.load.base.revision.error:
 patch.load.progress:
     text: Загрузка…
 patch.summary.changed.files:
-    text: "измен{0,choice,1#ён {0} файл|2#ено {0} файлов}"
+    text: измен{0,choice,1#ён {0} файл|2#ено {0} файлов}
 patch.summary.deleted.files:
-    text: "удал{0,choice,1#ён {0} файл|2#ено {0} файлов}"
+    text: удал{0,choice,1#ён {0} файл|2#ено {0} файлов}
 patch.summary.new.files:
-    text: "добавл{0,choice,1#ен {0} файл|2#ено {0} файлов}"
+    text: добавл{0,choice,1#ен {0} файл|2#ено {0} файлов}
 paths.affected.in.revision:
     text: Пути, затронутые в версии {0}
 perform.add.remove.in.background:
@@ -1081,9 +1070,9 @@ radio.after.creation.do.not.add:
 radio.after.creation.show.options:
     text: <html>Показать параметры перед добавлением<br/>в систему контроля версий</html>
 radio.after.deletion.do.not.remove:
-    text: &Не удалять
+    text: удалять
 radio.after.deletion.remove.silently:
-    text: &Удалить без уведомления
+    text: без уведомления
 radio.after.deletion.show.options:
     text: <html>Показать &параметры перед удалением<br/>из системы контроля версий</html>
 refresh.failed.message:
@@ -1111,7 +1100,7 @@ roots.notification.content.directory.registered.as.root.but.no.repositories.were
 roots.notification.title.invalid.vcs.root.choice.mapping.mappings:
     text: Недопустим{0, choice, 1#ое сопоставление|2#ые сопоставления} корневого каталога VCS
 roots.notification.title.vcs.name.integration.enabled:
-    text: 'Интеграция {0} включена'
+    text: Интеграция {0} включена
 roots.notification.title.vcs.root.configuration.problems:
     text: Проблемы конфигурации корневого каталога VCS
 roots.the.following.directories.are.registered.as.vcs.roots.but.they.are.not:
@@ -1209,7 +1198,7 @@ tooltip.text.line.before.deleted:
 tooltip.text.line.changed:
     text: Изменена строка {0}
 tooltip.text.lines.before.deleted:
-    text: 'Удалено {1} строк перед {0}'
+    text: Удалено {1} строк перед {0}
 tooltip.text.lines.changed:
     text: Изменены строки {0}-{1}
 toolwindow.title.update.action.canceled.info:
