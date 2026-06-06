@@ -1,18 +1,14 @@
 name: Translation sync
 
-# Pulls the latest translations from the Verbaria server and opens a PR.
-# Delegates to the shared reusable workflow; credentials come from the org:
-#   - secret   VERBARIA_API_KEY
-#   - variable VERBARIA_USERNAME
 on:
-  schedule:
-    - cron: '0 6 * * *'
-  workflow_dispatch: {}
+    schedule:
+        -   cron: '0 6 * * *'
+    workflow_dispatch: {}
 
 jobs:
-  sync:
-    permissions:
-      contents: write
-      pull-requests: write
-    uses: consulo/shared-workflows/.github/workflows/translation-sync.yml@master
-    secrets: inherit
+    sync:
+        permissions:
+            contents: write
+            pull-requests: write
+        uses: consulo/shared-workflows/.github/workflows/translation-sync.yml@master
+        secrets: inherit
