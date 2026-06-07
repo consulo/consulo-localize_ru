@@ -4,7 +4,7 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-05T09:25:23.769941455Z",
+  "generatedAt" : "2026-06-07T08:42:43.568738422Z",
   "documents" : {
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
@@ -13,9 +13,15 @@
       },
       "translations" : {
         "en-US" : {
-          "sig" : "194d807d069515d54e97f4e23487624d",
-          "state" : "Approved",
+          "sig" : "b8acc8d8dcd8d6f6f1fdd1b41cddb59d",
+          "state" : "Translated",
           "total" : 31,
+          "translators" : [ "github <github@no-reply.com>" ]
+        },
+        "ru" : {
+          "sig" : "a6a3d57b81c2bde0514a9cc0e5a81324",
+          "state" : "Approved",
+          "total" : 3,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
         }
       }
@@ -27,10 +33,10 @@
       },
       "translations" : {
         "en-US" : {
-          "sig" : "3f7c7af78c5ce79f3714b1f92cf5e82a",
-          "state" : "Approved",
+          "sig" : "e931120524b7dce3a5125f972fb890eb",
+          "state" : "Translated",
           "total" : 126,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "translators" : [ "github <github@no-reply.com>" ]
         }
       }
     },
@@ -41,10 +47,10 @@
       },
       "translations" : {
         "en-US" : {
-          "sig" : "54e78580a60fad7899648f3db08487bc",
-          "state" : "Approved",
+          "sig" : "18aebd870cec8413ef8b24e54c1c69ee",
+          "state" : "Translated",
           "total" : 2,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "translators" : [ "github <github@no-reply.com>" ]
         }
       }
     },
