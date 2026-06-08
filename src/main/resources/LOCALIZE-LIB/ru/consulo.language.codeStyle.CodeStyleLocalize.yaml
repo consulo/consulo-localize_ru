@@ -22,6 +22,16 @@ arrangement.action.rule.remove.text:
     text: Удалить правила
 arrangement.order.name:
     text: Порядок
+arrangement.settings.additional.force.combobox.name:
+    text: 'Принудительная перегруппировка:'
+arrangement.settings.additional.force.rearrange.according.to.dialog:
+    text: Использовать текущий режим (переключается в диалоге «Переформатировать код»)
+arrangement.settings.additional.force.rearrange.always:
+    text: Всегда
+arrangement.settings.additional.force.rearrange.never:
+    text: Никогда
+arrangement.settings.additional.title:
+    text: Дополнительные настройки
 arrangement.settings.groups.dependent.methods:
     text: Оставлять зависимые методы рядом
 arrangement.settings.groups.getters.and.setters.together:
@@ -96,10 +106,18 @@ checkbox.align.multiline.ternary.operation:
     text: Тернарная операция
 checkbox.align.multiline.throws.list:
     text: Список «throws»
+checkbox.block.comment.at.first.column:
+    text: Блочный комментарий в первом столбце
+checkbox.indent.smart.tabs:
+    text: Умные табуляции
 checkbox.indent.use.tab.character:
     text: Использовать символ табуляции
 checkbox.keep.when.reformatting.control.statement.in.one.line:
     text: Оператор управляющей конструкции в одну строку
+checkbox.line.comment.add.space:
+    text: Добавлять пробел в начале комментария
+checkbox.line.comment.at.first.column:
+    text: Строчный комментарий в первом столбце
 checkbox.spaces.additive.operators:
     text: Аддитивные операторы (+, -)
 checkbox.spaces.after.colon:
@@ -120,6 +138,10 @@ checkbox.spaces.annotation.parameters:
     text: Параметры аннотации
 checkbox.spaces.annotation.parentheses:
     text: Круглые скобки аннотации
+checkbox.spaces.around.lambda.arrow:
+    text: Стрелка лямбды
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: Сдвоенное двоеточие ссылки на метод
 checkbox.spaces.around.unary.operator:
     text: Унарные операторы (!, -, +, ++, --)
 checkbox.spaces.array.initializer.left.brace:
@@ -130,6 +152,8 @@ checkbox.spaces.before.colon:
     text: Перед «:»
 checkbox.spaces.before.comma:
     text: Перед запятой
+checkbox.spaces.before.opening.angle.bracket:
+    text: Перед открывающей угловой скобкой
 checkbox.spaces.before.question:
     text: Перед «?»
 checkbox.spaces.before.semicolon:
@@ -212,8 +236,14 @@ checkbox.spaces.within.braces:
     text: Фигурные скобки кода
 checkbox.spaces.within.brackets:
     text: Квадратные скобки
+checkbox.spaces.within.empty.array.initializer.braces:
+    text: Фигурные скобки инициализатора пустого массива
 checkbox.spaces.within.parentheses:
     text: Группирующие круглые скобки
+code.style.other.label:
+    text: 'Текстовые файлы и неподдерживаемые типы файлов:'
+code.style.scheme.import.unnamed:
+    text: Без имени
 combobox.force.braces.do.while:
     text: 'do … while():'
 combobox.force.braces.for:
@@ -224,12 +254,20 @@ combobox.force.braces.while:
     text: 'while ():'
 configurable.schemes.display.name:
     text: Стиль кода
+editbox.blanklines.around.field.in.interface:
+    text: 'Вокруг поля в интерфейсе:'
+editbox.blanklines.around.method.in.interface:
+    text: 'Вокруг метода в интерфейсе:'
+editbox.blanklines.before.class.end:
+    text: 'Перед концом класса:'
 editbox.indent.continuation.indent:
     text: 'Отступ продолжения:'
 editbox.indent.indent:
     text: 'Отступ:'
 editbox.indent.tab.size:
     text: 'Размер табуляции:'
+editbox.right.margin.columns:
+    text: 'Отступ справа (столбцы):'
 editbox.scheme.name:
     text: 'Схема:'
 group.spaces.after.right.brace:
@@ -254,6 +292,8 @@ group.spaces.within:
     text: Внутри
 html.project.uses.own.code.style:
     text: <html><body>Текущий проект использует собственный стиль кода.<br>Изменения в глобальных настройках стиля кода не повлияют на форматирование в текущем проекте.<br>См. Настройки проекта | Стиль кода.<br>Нажмите кнопку «Редактировать глобальные настройки» ниже, если вы всё же хотите изменить глобальные настройки.</body></html>
+import.scheme.shared:
+    text: Общая схема
 indent.status.bar.indent.tooltip:
     text: 'Отступ:'
 indent.status.bar.spaces:
@@ -262,20 +302,40 @@ indent.status.bar.tab:
     text: Табуляция
 label.loading.page.please.wait:
     text: Загрузка…
+message.code.style.scheme.already.exists:
+    text: Схема стиля кода с названием {0} уже существует
+message.code.style.scheme.import.failure:
+    text: 'Не удалось импортировать {0}, сообщение об ошибке: {1}'
+message.code.style.scheme.import.success:
+    text: Настройки {0} были импортированы в схему {1}.
+settings.code.style.default.general:
+    text: По умолчанию
+settings.default.value.prefix:
+    text: 'По умолчанию: {0}'
+settings.soft.margins.empty.list:
+    text: Нет
 title.blank.lines:
     text: Пустые строки
 title.braces.placement:
     text: Расстановка фигурных скобок
+title.code.style.settings.import:
+    text: Импорт настроек стиля кода
 title.edit.global.settings:
     text: Редактировать &глобальные настройки
 title.global.code.style:
     text: |-
         Глобальный
         Стиль Кода
+title.import.scheme.chooser:
+    text: Импорт схемы
+title.import.scheme.from:
+    text: Импортировать схему из
 title.keep.blank.lines:
     text: Сохранять пустых строк не больше
 title.minimum.blank.lines:
     text: Минимальное количество пустых строк
+title.naming.comment.code:
+    text: Закомментировать код
 title.place.on.new.line:
     text: Поставить на новой строке
 title.save.code.style.scheme.as:
@@ -318,6 +378,8 @@ wrapping.brace.placement.class.declaration:
     text: В объявлении класса
 wrapping.brace.placement.end.of.line:
     text: В конце строки
+wrapping.brace.placement.lambda:
+    text: В объявлении лямбды
 wrapping.brace.placement.method.declaration:
     text: В объявлении метода
 wrapping.brace.placement.next.line:
@@ -330,6 +392,8 @@ wrapping.brace.placement.next.line.shifted:
     text: На следующей строке со сдвигом
 wrapping.brace.placement.other:
     text: Прочее
+wrapping.case.statements.on.one.line:
+    text: Каждый «case» на отдельной строке
 wrapping.catch.on.new.line:
     text: «catch» с новой строки
 wrapping.chained.method.call.first.on.new.line:
@@ -374,6 +438,8 @@ wrapping.force.braces.when.multiline:
     text: При многострочности
 wrapping.if.statement:
     text: Оператор «if()»
+wrapping.indent.break.from.case:
+    text: Отступ «break» от «case»
 wrapping.indent.case.from.switch:
     text: Отступ блоков «case»
 wrapping.keep.comment.at.first.column:
