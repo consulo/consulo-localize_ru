@@ -10,6 +10,8 @@ action.name.save.as.configuration:
     text: Сохранить как
 action.name.save.configuration:
     text: Сохранить конфигурацию
+action.save.configuration.from.popup:
+    text: Сохранить
 action.terminating.process.progress.kill.description:
     text: Убить процесс
 add.new.run.configuration.action.name:
@@ -196,6 +198,8 @@ empty.run.configuration.panel.text.label3:
     text: кнопка для создания нового {0} на основе настроек по умолчанию
 enable.coverage.with.emma:
     text: Запись кода и информации о покрытии
+encoding.name.system.default:
+    text: '<По умолчанию: {0}>'
 env.vars.checkbox.title:
     text: '&Включить родительские переменные среды'
 env.vars.show.system:
@@ -606,6 +610,8 @@ run.configuration.display.settings.checkbox:
     text: Настройки отображения &перед запуском
 run.configuration.dump.threads.action.name:
     text: Снимок памяти потоков
+run.configuration.edit.action:
+    text: Редактировать…
 run.configuration.edit.default.configuration.settings.description:
     text: Изменить настройки по умолчанию
 run.configuration.edit.default.configuration.settings.text:
@@ -726,6 +732,8 @@ run.debug.dialog.title:
     text: Конфигурации запуска/отладки
 run.error.message.title:
     text: Ошибка запуска
+run.toolbar.widget.all.configurations:
+    text: Все конфигурации {0}
 runner.content.tooltip.layout.settings:
     text: Настройки макета
 save.run.configuration.for.item.action.name:
@@ -738,6 +746,8 @@ seaching.test.progress.title:
     text: Поиск тестов…
 searching.test.progress.title:
     text: Поиск для тестов…
+select.0.1:
+    text: Выберите {0} «{1}»
 select.applet.policy.file.dialog.title:
     text: Выберите файл политики апплета
 select.run.configuration.for.item.action.name:

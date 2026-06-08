@@ -12,6 +12,10 @@ action.changes.view.remove.deleted.description:
     text: Запланировать удаление выбранных файлов из VCS
 action.changes.view.remove.deleted.text:
     text: Удалить из VCS
+action.check.in.directories.0.text:
+    text: '{1, plural, one{# каталог} few{# каталога} other{# каталогов}} {0}'
+action.check.in.files.0.text:
+    text: '{1, plural, one{# файл} few{# файла} other{# файлов}} {0}'
 action.check.in.files.text:
     text: _Закоммитить
 action.check.in.project.text:
@@ -323,9 +327,9 @@ changes.action.show.ignored.text:
 changes.browser.details.marker:
     text: Подробнее…
 changes.changelist.chooser.existing.changelist:
-    text: список изменений
+    text: '&Существующий список изменений'
 changes.changelist.chooser.new.changelist:
-    text: список изменений
+    text: '&Новый список изменений'
 changes.changelist.chooser.title:
     text: Выбрать список изменений
 changes.checkbox.delete.locally.added.files:
@@ -479,6 +483,8 @@ commit.dialog.changelist.label:
     text: 'Список &изменений:'
 commit.dialog.completed.successfully:
     text: Успешно завершено
+commit.dialog.default.commit.operation.name:
+    text: '&Закоммитить'
 commit.dialog.failed.commit.template:
     text: 'Не удалось закоммитить: {0}'
 commit.dialog.include.action.name:
@@ -1070,9 +1076,9 @@ radio.after.creation.do.not.add:
 radio.after.creation.show.options:
     text: <html>Показать параметры перед добавлением<br/>в систему контроля версий</html>
 radio.after.deletion.do.not.remove:
-    text: удалять
+    text: '&Не удалять'
 radio.after.deletion.remove.silently:
-    text: без уведомления
+    text: '&Удалить без уведомления'
 radio.after.deletion.show.options:
     text: <html>Показать &параметры перед удалением<br/>из системы контроля версий</html>
 refresh.failed.message:

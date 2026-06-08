@@ -100,8 +100,12 @@ node.targets:
     text: Цели
 node.usages.in.generated.code:
     text: Использования в сгенерированном коде
+notification.title.find.usages.finished:
+    text: Поиск использований завершён
 notification.usage.search.is.not.available.until.indices.are.ready:
     text: Поиск использований недоступен, пока не будут готовы индексы.
+notification.n.usages.found:
+    text: '{0, plural, =0{Ни одного использования не} one{# использование} few{# использования} other{# использований}} найдено'
 occurence.info.occurence:
     text: '{0,choice, 0#Не найдено|1#1 вхождение|2#{0,number} вхождений}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах}'
 occurence.info.reference:
@@ -203,10 +207,10 @@ usage.type.write:
 usage.view.cancel.button:
     text: '&Отмена'
 usage.view.counter:
-    text: '{0} {0, choice, 1#результат|2#результата}'
+    text: '{0, plural, one{# результат} few{# результата} other{# результатов}}'
 usages.n:
-    text: '{0,choice, 0#нет использования|1#1 использование|2#{0,number} использований} найдено'
+    text: '{0, plural, =0{Ни одного использования не} one{# использование} few{# использования}  other{# использований}} найдено'
 usages.title:
     text: Использования
 usages.were.filtered.out:
-    text: '{0,number} {0,choice, 1#использование было|2#использования были} отфильтрованы'
+    text: '{0, plural, one{# использование было отфильтровано} few{# использования были отфильтрованы} other{# использований были отфильтрованы}}'

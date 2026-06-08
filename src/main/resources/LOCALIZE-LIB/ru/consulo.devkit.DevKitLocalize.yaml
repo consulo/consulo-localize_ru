@@ -138,6 +138,14 @@ inspection.stateful.ep.message:
     text: Не используйте {0} как поле в расширении
 inspection.stateful.ep.message.dont.hold.psi.element:
     text: 'Потенциальная утечка памяти: не храните PsiElement, используйте SmartPsiElementPointer вместо {0, choice, 0#|1#; также см. LocalQuickFixOnPsiElement}'
+inspection.title.capitalization.display.name:
+    text: Заголовок диалогового окна не написан с заглавных букв
+inspection.title.capitalization.message:
+    text: Заголовок диалогового окна «{0}» не написан с заглавных букв. В английском языке все слова в заголовке должны быть написаны с заглавных букв
+inspection.title.capitalization.quickfix.family.name:
+    text: Привести к верхнему регистру
+inspection.title.capitalization.quickfix.name:
+    text: Привести к верхнему регистру «{0}»
 inspection.undesirable.class.usage.display.name:
     text: Нежелательное использование класса
 inspection.undesirable.class.usage.message:
@@ -179,7 +187,7 @@ inspection.use.primitive.types.display.name:
 inspection.use.primitive.types.message:
     text: Примитивные типы следует сравнивать при помощи .equals
 inspection.use.primitive.types.quickfix.name.eq:
-    text: "Заменить '==' на '.equals()'"
+    text: Заменить «==» на «.equals()»
 inspection.use.primitive.types.quickfix.name.ne:
     text: "Заменить '!=' на '!equals()'"
 inspection.wrong.cast.require.explicit.conversion.display.name:
@@ -310,6 +318,12 @@ localize.editor.notification.sort.in.progress:
     text: Сортируем…
 localize.editor.notification.sort.process.name:
     text: Сортируем ключи
+localize.inlay.provider.description:
+    text: Показ английской локализации в неанглийской локализации
+localize.inlay.provider.name:
+    text: Английская локализация
+localize.inlay.provider.preview.file.text:
+    text: Платформа
 manifest.selection:
     text: Выбранные {0} будут включены в результирующий дистрибутив
 manifest.settings:
@@ -456,3 +470,5 @@ test.run.configuration.title:
     text: Consulo в песочнице (тест)
 vm.parameters:
     text: '&Параметры VM'
+plugin.module.extension.provider.name:
+    text: Расширение Consulo
