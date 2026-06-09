@@ -1,3 +1,13 @@
+code.vision.author.label:
+    text: Автор кода
+code.vision.label.new.code:
+    text: Новый код
+code.vision.label.single.author.modified:
+    text: '{0} (изменял)'
+code.vision.label.multi.author.not.modified:
+    text: '{0} и ещё {1}'
+code.vision.label.multi.author.modified:
+    text: '{0} и ещё {1} (изменяли)'
 action.NotificationAction.VcsRootProblemNotifier.text.configure:
     text: Настроить…
 action.NotificationAction.VcsRootProblemNotifier.text.enable.integration:
@@ -176,6 +186,14 @@ add.confirmation.label.text:
     text: 'При создании файлов с помощью {0}:'
 all.vcs.init.message.text:
     text: Инициализация VCS…
+amend.commit.load.message.error.text:
+    text: |-
+        Не удалось загрузить сообщение коммита, который требуется исправить.
+        {0}
+amend.commit.load.message.error.title:
+    text: Сообщение коммита не загружено
+amend.commit.load.message.task.title:
+    text: Загрузка сообщения коммита
 annotate.action.description:
     text: Добавить аннотацию к файлу
 annotate.action.name:
@@ -729,6 +747,8 @@ group.message.actions.text:
     text: Действия с сообщениями VCS
 group.name.version.control:
     text: '&VCS'
+group.nav.bar.toolbar.actions.text:
+    text: Навигация по VCS
 group.show.toolwindow.tab.text:
     text: Показать вкладку инструментального окна контроля версий
 group.toobar.actions.text:
@@ -761,6 +781,8 @@ history.copy.revision.number:
     text: Копировать номер версии
 history.empty:
     text: История пуста
+ignored.group.description.default.ide.files:
+    text: Файлы, игнорируемые IDE по умолчанию
 ignored.configure.item.directory:
     text: 'Каталог: {0}'
 ignored.configure.item.file:
