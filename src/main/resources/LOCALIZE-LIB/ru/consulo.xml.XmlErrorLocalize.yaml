@@ -7,7 +7,7 @@ attribute.is.not.boolean:
 attribute.should.be.preceded.with.space:
     text: Между атрибутом и предыдущим атрибутом должен быть пробел
 attribute.value.expected:
-    text: Ожидается значение атрибута
+    text: Ожидалось значение атрибута
 cannot.resolve.taglib.uri:
     text: Не удаётся разрешить taglib с URI {0}.
 cdata.end.should.not.appear.in.content.unless.to.mark.end.of.cdata.section:
@@ -20,14 +20,18 @@ create.tagfile.attribute.text:
     text: Создать атрибут файла тегов {0}
 declare.id.in.comment.quickfix:
     text: Объявить недопустимый идентификатор в аннотации комментария
+dtd.parser.message.left.paren.or.entityref.or.empty.or.any.expected:
+    text: Ожидались «(» или мнемоника или ПУСТОТА или ЧТО_УГОДНО
 dtd.parser.message.literal.public.system.expected:
-    text: Ожидается литерал, ПУБЛИЧНЫЙ или СИСТЕМНЫЙ
+    text: Ожидались литерал, ПУБЛИЧНЫЙ или СИСТЕМНЫЙ
 dtd.parser.message.name.expected:
-    text: Ожидается название XML
+    text: Ожидалось название XML
 dtd.parser.message.name.or.entity.ref.expected:
-    text: Ожидается название XML или ссылка на сущность
+    text: Ожидалось название XML или ссылка на сущность
 dtd.parser.message.rbrace.expected:
-    text: Ожидается «)»
+    text: Ожидалась «)»
+dtd.parser.message.whitespace.expected:
+    text: Ожидался пробел
 duplicate.attribute:
     text: Дубликат атрибута {0}
 duplicate.declaration:
@@ -47,11 +51,11 @@ empty.attribute.is.not.allowed:
 escape.ampersand.quickfix:
     text: Заэкранировать амперсанд
 expected.attribute.eq.sign:
-    text: Ожидается «=»
+    text: Ожидалось «=»
 expected.prologue.tag.termination.expected:
-    text: Ожидается «?>»
+    text: Ожидалось «?>»
 expected.whitespace:
-    text: Ожидается пробел
+    text: Ожидался пробел
 extra.closing.tag.for.empty.element:
     text: Дополнительный закрывающий тег для пустого элемента
 finding.acceptable.uri:
@@ -63,7 +67,7 @@ insert.required.attribute.quickfix.text:
 invalid.id.reference:
     text: Неверная ссылка на идентификатор
 jsp.directive.end.expected:
-    text: Ожидается конец директивы
+    text: Ожидался конец директивы
 jsp.unparseable.content:
     text: Неанализируемое содержимое
 looking.in.schemas:
@@ -75,7 +79,7 @@ named.element.is.not.closed:
 plugin.reference.message.problem:
     text: Ссылка с классом «{0}» предоставляет недопустимый шаблон сообщения «{1}»
 quote.expected:
-    text: Ожидается кавычка
+    text: Ожидалась кавычка
 registered.resource.is.not.recognized:
     text: Ресурс, зарегистрированный по этому URI, не распознан (Настройки | Редактор | Схемы и DTD)
 remove.attribute.quickfix.family:
@@ -127,7 +131,7 @@ xml.declaration.should.precede.all.document.content:
 xml.parsing.absent.root.tag:
     text: Корректный XML-документ должен иметь корневой тег
 xml.parsing.attribute.value.expected:
-    text: Ожидается значение атрибута
+    text: Ожидалось значение атрибута
 xml.parsing.bad.character:
     text: Неверный символ
 xml.parsing.closing.tag.is.not.done:
@@ -139,9 +143,9 @@ xml.parsing.closing.tag.name.missing:
 xml.parsing.multiple.root.tags:
     text: Несколько корневых тегов
 xml.parsing.processing.instruction.name.expected:
-    text: Ожидается название инструкции обработки
+    text: Ожидалось название инструкции обработки
 xml.parsing.tag.name.expected:
-    text: Ожидается название тега
+    text: Ожидалось название тега
 xml.parsing.unclosed.attribute.value:
     text: Значение атрибута не закрыто
 xml.parsing.unexpected.end.of.file:

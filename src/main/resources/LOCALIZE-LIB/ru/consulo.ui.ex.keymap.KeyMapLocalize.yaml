@@ -6,6 +6,8 @@ actions.tree.external.tools.group:
     text: Внешние инструменты
 add.keyboard.shortcut.button:
     text: Добавить &сочетание клавиш…
+add.keymap.label:
+    text: Доба&вить
 add.mouse.shortcut.button:
     text: Добавить &сочетание клавиш…
 all.actions.group.title:
@@ -38,10 +40,18 @@ copy.keymap.button:
     text: '&Копировать'
 debugger.actions.group.title:
     text: Действия отладчика
+delete.keymap.button:
+    text: Уда&лить
 delete.keymap.dialog.message:
     text: Хотите удалить раскладку?
 delete.keymap.dialog.title:
     text: Предупреждение
+dialog.conflicts.text:
+    text: 'Уже назначено:'
+dialog.mouse.pad.default.text:
+    text: '<html><center>Введите сочетание здесь: <br>одинарный или двойной щелчок, прокрутка колеса,<br> с модификаторами Ctrl, Alt и Shift</center></html>'
+dialog.mouse.pad.shortcut.text:
+    text: <html><center> <br>{0}<br><br>
 disable.mnemonic.in.controls.check.box:
     text: Отключить мнемоники в элементы управления
 disable.mnemonic.in.menu.check.box:
@@ -160,10 +170,14 @@ quick.lists.group.title:
     text: Быстрые списки
 quick.lists.ide.border.factory.title:
     text: Быстрые списки
+remove.keymap.label:
+    text: Удал&ить
 remove.shortcut.button:
     text: '&Удалить'
 second.stroke.panel.title:
     text: Второй штрих
+shortcut.in.group.text:
+    text: в {0}
 shortcut.preview.ide.border.factory.title:
     text: Предварительный просмотр сочетания клавиш
 shortcuts.column.name:

@@ -1,5 +1,5 @@
 0.occurrences.replaced:
-    text: '{0,choice,0#Ни одного|1#{0}} {0,choice,0#вхождения|1#вхождение|2#вхождений} заменены'
+    text: '{0, plural, =0{Не заменено ни одного вхождения} one{Заменено # вхождение} few{Заменены # вхождения} other{Заменены # вхождений}}'
 button.exclude:
     text: Исключить
 button.include:
@@ -121,7 +121,7 @@ find.popup.regex:
 find.popup.replace.all.button:
     text: Заменить &всё
 find.popup.replace.selected.button:
-    text: Заменить{0,choice,0#|1#|2# {0} Вхождений}
+    text: 'Заменить{0, plural, =0{} =1{} one{ # вхождение} few{ # вхождения} other{ # вхождений}}'
 find.popup.scope.directory:
     text: В &каталоге
 find.popup.scope.module:
@@ -153,7 +153,7 @@ find.replace.accessible.name:
 find.replace.all.action:
     text: Заменить &всё
 find.replace.all.confirmation:
-    text: <html><body>Заменить {0} вхождений «{1}»<br>в {2} файлах на «{3}»?
+    text: <html><body>Заменить {0, plural, one{# вхождение} few{# вхождения} other{# вхождений}} «{1}»<br>в {2, plural, one{# файле} other{# файлах}} на «{3}»?
 find.replace.all.confirmation.title:
     text: Заменить всё
 find.replace.command:
@@ -182,7 +182,7 @@ find.replace.occurrences.in.read.only.files.title:
 find.replace.select.on.editor.command:
     text: Выбрать в редакторе
 find.replace.selected.action:
-    text: '&Заменить{0,choice,0#|1#|2# {0} вхождений}'
+    text: '&Заменить{0, plural, =0{} =1{} one{ # вхождение} few{ # вхождения} other{ # вхождений}}'
 find.replace.skip.this.file.action:
     text: '&Пропустить этот файл'
 find.replace.text.dialog.title:
@@ -228,7 +228,7 @@ find.search.accessible.name:
 find.search.again.from.bottom.action.message:
     text: '{0}, выполните «Найти предыдущий» ещё раз, чтобы выполнить поиск снизу'
 find.search.again.from.bottom.hotkey.message:
-    text: '{0}, нажмите {1} для поиска снизу bottom'
+    text: '{0}, нажмите {1} для поиска снизу'
 find.search.again.from.top.action.message:
     text: '{0}, выполните «Найти далее» ещё раз для поиска сверху'
 find.search.again.from.top.hotkey.message:
@@ -244,7 +244,7 @@ find.searched.elements.have.been.changed.error:
 find.searching.for.references.to.class.progress:
     text: Поиск ссылок на класс {0}…
 find.searching.for.string.in.file.occurrences.progress:
-    text: '{0,choice,0#Нет|1#{0}} {0,choice,0#вхождений|1#вхождение|2#вхождений} найдено на текущий момент'
+    text: '{0, plural, =0{Ни одного вхождения не} one{# вхождение} few{# вхождения} other{# вхождений}} найдено на текущий момент'
 find.searching.for.string.in.file.progress:
     text: Поиск «{0}» в {1}…
 find.selection.only:

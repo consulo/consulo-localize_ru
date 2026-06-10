@@ -359,7 +359,7 @@ inspection.command.line.explanation:
 inspection.comparing.references.display.name:
     text: Используется == вместо equals()
 inspection.comparing.references.problem.descriptor:
-    text: Подозрительное сравнение
+    text: 'Подозрительное сравнение #ref #loc'
 inspection.comparing.references.use.quickfix:
     text: Использовать equals()
 inspection.compiler.javac.quirks.anno.array.comma.fix:
