@@ -20,10 +20,10 @@ heavyProcess.type.processing:
     text: Обработка…
 heavyProcess.type.syncing:
     text: Синхронизация…
-import.popup.hint.action.text:
-    text: Импортировать
 import.popup.hint.action.kind.class:
     text: класс
+import.popup.hint.action.text:
+    text: Импортировать
 import.popup.hint.text:
     text: <html><body><a href="action">{3} {0}…</a> {1}? <span style="color:{4}">{2}</span></body></html>
 import.popup.multiple:
