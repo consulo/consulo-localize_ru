@@ -100,12 +100,12 @@ node.targets:
     text: Цели
 node.usages.in.generated.code:
     text: Использования в сгенерированном коде
+notification.n.usages.found:
+    text: '{0, plural, =0{Ни одного использования не} one{# использование} few{# использования} other{# использований}} найдено'
 notification.title.find.usages.finished:
     text: Поиск использований завершён
 notification.usage.search.is.not.available.until.indices.are.ready:
     text: Поиск использований недоступен, пока не будут готовы индексы.
-notification.n.usages.found:
-    text: '{0, plural, =0{Ни одного использования не} one{# использование} few{# использования} other{# использований}} найдено'
 occurence.info.occurence:
     text: '{0,choice, 0#Не найдено|1#1 вхождение|2#{0,number} вхождений}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах}'
 occurence.info.reference:

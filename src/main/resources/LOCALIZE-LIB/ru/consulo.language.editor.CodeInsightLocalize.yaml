@@ -308,6 +308,8 @@ highlight.overridden.classes.chooser.title:
     text: Выберите классы для выделения переопределённых методов из
 highlight.thrown.exceptions.chooser.all.entry:
     text: Все перечисленные
+hint.text.imports.optimized:
+    text: Импорты оптимизированы
 i18n.quickfix.code.panel.resource.bundle.expression.label:
     text: '&Выражение пакета ресурсов:'
 i18n.quickfix.code.panel.title:
@@ -1075,5 +1077,3 @@ unwrap.with.placeholder:
     text: Развернуть «{0}»
 xml.tag.info.no.attributes:
     text: <нет атрибутов>
-hint.text.imports.optimized:
-    text: Импорты оптимизированы
