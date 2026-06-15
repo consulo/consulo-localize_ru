@@ -1,13 +1,3 @@
-code.vision.author.label:
-    text: Автор кода
-code.vision.label.new.code:
-    text: Новый код
-code.vision.label.single.author.modified:
-    text: '{0} (изменял)'
-code.vision.label.multi.author.not.modified:
-    text: '{0} и ещё {1}'
-code.vision.label.multi.author.modified:
-    text: '{0} и ещё {1} (изменяли)'
 action.NotificationAction.VcsRootProblemNotifier.text.configure:
     text: Настроить…
 action.NotificationAction.VcsRootProblemNotifier.text.enable.integration:
@@ -463,6 +453,16 @@ code.smells.error.messages.tab.name:
     text: Анализ кода
 code.smells.review.button:
     text: '&Проверить'
+code.vision.author.label:
+    text: Автор кода
+code.vision.label.multi.author.modified:
+    text: '{0} и ещё {1} (изменяли)'
+code.vision.label.multi.author.not.modified:
+    text: '{0} и ещё {1}'
+code.vision.label.new.code:
+    text: Новый код
+code.vision.label.single.author.modified:
+    text: '{0} (изменял)'
 column.info.configure.vcses.directory:
     text: Каталог
 column.name.configure.vcses.vcs:
@@ -781,8 +781,6 @@ history.copy.revision.number:
     text: Копировать номер версии
 history.empty:
     text: История пуста
-ignored.group.description.default.ide.files:
-    text: Файлы, игнорируемые IDE по умолчанию
 ignored.configure.item.directory:
     text: 'Каталог: {0}'
 ignored.configure.item.file:
@@ -803,6 +801,8 @@ ignored.edit.radio.mask:
     text: Игнорировать все &соответствующие файлы
 ignored.edit.title:
     text: Игнорировать неверсионированные файлы
+ignored.group.description.default.ide.files:
+    text: Файлы, игнорируемые IDE по умолчанию
 impl.vcs.initialization:
     text: Инициализация системы контроля версий
 incoming.changes.empty.message:
