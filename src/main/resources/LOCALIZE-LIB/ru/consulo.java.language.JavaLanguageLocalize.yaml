@@ -130,12 +130,12 @@ element.local.variable.nominative:
     text: локальная переменная
 element.method.accusative:
     text: метод
-element.method.nominative:
-    text: метод
 element.method.call.accusative:
     text: вызов метода
 element.method.call.nominative:
     text: вызов метода
+element.method.nominative:
+    text: метод
 element.module.accusative:
     text: модуль
 element.module.nominative:
@@ -158,12 +158,12 @@ element.receiver.parameter.nominative:
     text: параметр приемника
 element.record.accusative:
     text: запись
-element.record.nominative:
-    text: запись
 element.record.component.accusative:
     text: компонент записи
 element.record.component.nominative:
     text: компонент записи
+element.record.nominative:
+    text: запись
 element.snippet.body.accusative:
     text: тело фрагмента
 element.snippet.body.nominative:
