@@ -4,7 +4,7 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-11T10:01:13.914082577Z",
+  "generatedAt" : "2026-06-19T10:09:18.651610840Z",
   "documents" : {
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
@@ -178,15 +178,15 @@
     },
     "consulo-java/com.intellij.java.debugger.JavaDebuggerLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "7602057feaf78eec8123176b5b48f5c5"
+        "revision" : 2,
+        "sig" : "23f1bfe0e68ceafb9e448abd5cd4f59a"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "5a87fd10ffa4e136ab0ede5bf0e7dea8",
+          "sig" : "a277c94bce09b642b122f7c5efce4412",
           "state" : "Approved",
-          "total" : 506,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "total" : 507,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>", "github <github@no-reply.com>" ]
         }
       }
     },
