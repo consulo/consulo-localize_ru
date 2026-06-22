@@ -4,7 +4,7 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-19T10:09:18.651610840Z",
+  "generatedAt" : "2026-06-22T11:30:00.993388314Z",
   "documents" : {
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
@@ -744,6 +744,20 @@
           "sig" : "91a32fbdfd1a2818f22b96da0dcd3722",
           "state" : "Approved",
           "total" : 9,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    },
+    "consulo-properties/consulo.properties.PropertiesLocalize" : {
+      "source" : {
+        "revision" : 1,
+        "sig" : "825cec4f58181cbaab31641c59b3bf20"
+      },
+      "translations" : {
+        "en-US" : {
+          "sig" : "e9ee21ff329fb41d08a9f5785cf6b283",
+          "state" : "Approved",
+          "total" : 53,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
         }
       }
