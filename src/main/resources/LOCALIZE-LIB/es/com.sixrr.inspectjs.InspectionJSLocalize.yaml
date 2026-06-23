@@ -1,0 +1,498 @@
+result.of.assignment.used.displayName:
+    text: Resultado de la asignación utilizado
+result.of.assignment.expression.used.error.string:
+    text: Resultado de expresión de asignación utilizado
+assignment.to.for.loop.parameter.display.name:
+    text: "Asignación al parámetro del bucle 'for'"
+assignment.to.for.loop.parameter.error.string:
+    text: 'Asignación al parámetro del bucle for #ref'
+assignment.to.function.parameter.display.name:
+    text: Asignación a parámetro de función
+assignment.to.function.parameter.error.string:
+    text: "Asignación al parámetro de función '#ref'"
+nested.assignment.display.name:
+    text: Asignación anidada
+nested.assignment.error.string:
+    text: Asignación anidada <code>#ref</code>
+assignment.replaceable.with.operator.assignment.display.name:
+    text: La asignación se puede reemplazar por una asignación con operador
+assignment.replaceable.with.operator.assignment.error.string:
+    text: '#ref se puede simplificar a {0}'
+silly.assignment.display.name:
+    text: La variable se asigna a sí misma
+silly.assignment.error.string:
+    text: La variable se asigna a sí misma
+divide.by.zero.display.name:
+    text: División por cero
+division.by.zero.error.string:
+    text: División por cero
+result.of.object.allocation.ignored.display.name:
+    text: Resultado de la asignación de objeto ignorado
+result.of.object.allocation.ignored.error.string:
+    text: 'El resultado de <code>new #ref()</code> se ignora'
+text.label.in.switch.statement.display.name:
+    text: "Etiqueta de texto en la sentencia 'switch'"
+text.label.in.switch.statement.error.string:
+    text: "Etiqueta de texto <code>#ref:</code> en la sentencia 'switch'"
+anonymous.function.display.name:
+    text: Función anónima
+anonymous.function.error.string:
+    text: Función anónima
+unnecessary.block.statement.display.name:
+    text: Sentencia de bloque innecesaria
+comma.expression.display.name:
+    text: Expresión de coma
+conditional.expression.display.name:
+    text: Expresión condicional
+statement.with.empty.body.display.name:
+    text: Sentencia con cuerpo vacío
+result.of.increment.or.decrement.used.display.name:
+    text: Resultado del incremento o decremento utilizado
+negated.conditional.expression.display.name:
+    text: Expresión condicional negada
+negated.if.statement.display.name:
+    text: "Sentencia 'if' negada"
+nested.conditional.expression.display.name:
+    text: Expresión condicional anidada
+nested.function.display.name:
+    text: Función anidada
+octal.integer.display.name:
+    text: Entero octal
+overly.complex.arithmetic.expression.display.name:
+    text: Expresión aritmética excesivamente compleja
+overly.complex.boolean.expression.display.name:
+    text: Expresión booleana excesivamente compleja
+pointless.arithmetic.expression.display.name:
+    text: Expresión aritmética sin sentido
+pointless.boolean.expression.display.name:
+    text: Sentencia o expresión booleana sin sentido
+void.expression.display.name:
+    text: "expresión 'void'"
+with.statement.display.name:
+    text: "sentencia 'with'"
+break.statement.display.name:
+    text: "sentencia 'break'"
+break.statement.with.label.display.name:
+    text: "sentencia 'break' con etiqueta"
+conditional.expression.with.identical.branches.display.name:
+    text: Expresión condicional con ramas idénticas
+constant.conditional.expression.display.name:
+    text: Expresión condicional constante
+continue.statement.display.name:
+    text: "sentencia 'continue'"
+continue.statement.with.label.display.name:
+    text: "Sentencia 'continue' con etiqueta"
+default.not.last.case.in.switch.display.name:
+    text: "'default' no es el último caso en 'switch'"
+duplicate.condition.in.if.statement.display.name:
+    text: "Condición duplicada en la sentencia 'if'"
+fall.through.in.switch.statement.display.name:
+    text: "Fallthrough en la sentencia 'switch'"
+if.statement.with.identical.branches.display.name:
+    text: "Sentencia 'if' con ramas idénticas"
+if.statement.with.too.many.branches.display.name:
+    text: "Sentencia 'if' con demasiadas ramas"
+infinite.loop.statement.display.name:
+    text: Sentencia de bucle infinito
+labeled.statement.display.name:
+    text: Sentencia con etiqueta
+loop.statement.that.doesn.t.loop.display.name:
+    text: Sentencia de bucle que no itera
+nested.switch.statement.display.name:
+    text: "Sentencia 'switch' anidada"
+redundant.conditional.expression.display.name:
+    text: Expresión condicional redundante
+redundant.if.statement.display.name:
+    text: "Sentencia 'if' redundante"
+unnecessary.continue.statement.display.name:
+    text: "Sentencia 'continue' innecesaria"
+unnecessary.label.display.name:
+    text: Etiqueta innecesaria
+unnecessary.label.on.break.statement.display.name:
+    text: "Etiqueta innecesaria en la sentencia 'break'"
+unnecessary.label.on.continue.statement.display.name:
+    text: "Etiqueta innecesaria en la sentencia 'continue'"
+unnecessary.return.statement.display.name:
+    text: "Sentencia 'return' innecesaria"
+call.to.document.write.display.name:
+    text: "Llamada a 'document.write()'"
+use.of.innerhtml.property.display.name:
+    text: "Uso de la propiedad 'innerHTML'"
+platform.detection.display.name:
+    text: Detección de plataforma inexacta
+xhtml.incompatibilities.display.name:
+    text: Usos de XHTML incompatibles
+continue.or.break.inside.finally.block.display.name:
+    text: "'continue' o 'break' dentro del bloque 'finally'"
+empty.catch.block.display.name:
+    text: "Bloque 'catch' vacío"
+empty.finally.block.display.name:
+    text: "Bloque 'finally' vacío"
+empty.try.block.display.name:
+    text: "Bloque 'try' vacío"
+exception.used.for.local.control.flow.display.name:
+    text: Excepción utilizada para el flujo de control local
+return.inside.finally.block.display.name:
+    text: "'return' dentro del bloque 'finally'"
+throw.inside.finally.block.display.name:
+    text: "'throw' dentro del bloque 'finally'"
+overly.complex.function.display.name:
+    text: Función excesivamente compleja
+function.with.multiple.loops.display.name:
+    text: Función con múltiples bucles
+function.with.multiple.return.points.display.name:
+    text: Función con múltiples puntos de retorno
+overly.nested.function.display.name:
+    text: Función excesivamente anidada
+nesting.depth.limit:
+    text: 'Límite de profundidad de anidamiento:'
+function.with.too.many.parameters.display.name:
+    text: Función con demasiados parámetros
+function.parameter.limit:
+    text: 'Límite de parámetros de función:'
+overly.long.function.display.name:
+    text: Función demasiado larga
+maximum.statements.per.function:
+    text: 'Máximo de sentencias por función:'
+function.with.more.than.three.negations.display.name:
+    text: Función con más de tres negaciones
+function.naming.convention.display.name:
+    text: Convención de nomenclatura de funciones
+local.variable.naming.convention.display.name:
+    text: Convención de nomenclatura de variables locales
+function.parameter.naming.convention.display.name:
+    text: Convención de nomenclatura de parámetros de función
+expression.statement.which.is.not.assignment.or.call.display.name:
+    text: Sentencia de expresión que no es una asignación ni una llamada
+debugger.statement.display.name:
+    text: "sentencia 'debugger'"
+duplicate.case.label.display.name:
+    text: "Etiqueta 'case' duplicada"
+function.with.inconsistent.returns.display.name:
+    text: Función con retornos inconsistentes
+reserved.word.used.as.name.display.name:
+    text: Palabra reservada usada como nombre
+this.expression.which.references.the.global.object.display.name:
+    text: "expresión 'this' que hace referencia al objeto global"
+unreachable.code.display.name:
+    text: Código inalcanzable
+chained.equality.display.name:
+    text: Igualdad encadenada
+constant.on.right.side.of.comparison.display.name:
+    text: Constante a la derecha de la comparación
+constant.on.left.side.of.comparison.display.name:
+    text: Constante a la izquierda de la comparación
+non.block.statement.body.display.name:
+    text: Cuerpo de la sentencia sin llaves
+unterminated.statement.display.name:
+    text: Sentencia no terminada
+terminate.statement.fix:
+    text: Finalizar sentencia
+unnecessary.block.statement.error.string:
+    text: Sentencia de bloque innecesaria
+comma.expression.error.string:
+    text: Expresión de coma
+conditional.expression.error.string:
+    text: Expresión condicional
+statement.has.empty.branch.error.string:
+    text: La sentencia <code>#ref</code> tiene una rama vacía
+statement.has.empty.body.error.string:
+    text: La instrucción <code>#ref</code> tiene un cuerpo vacío
+include.statement.bodies.that.are.empty.code.blocks.parameter:
+    text: Incluir cuerpos de sentencia que sean bloques de código vacíos
+result.of.increment.or.decrement.expression.used.error.string:
+    text: Se ha utilizado el resultado de una expresión de incremento o decremento
+negated.conditional.expression.error.string:
+    text: Expresión condicional negada
+invert.condition.fix:
+    text: Invertir condición
+negated.ref.statement.error.string:
+    text: "Sentencia '#ref' negada"
+invert.if.condition.fix:
+    text: "Invertir condición 'if'"
+nested.conditional.expression.error.string:
+    text: Expresión condicional anidada
+nested.function.error.string:
+    text: "Función anidada '#ref'"
+nested.anonymous.function.error.string:
+    text: '#ref anidado'
+include.anonymous.functions.parameter:
+    text: Incluir funciones anónimas
+maximum.number.of.terms.parameter:
+    text: 'Número máximo de términos:'
+overly.complex.arithmetic.expression.error.string:
+    text: Expresión aritmética excesivamente compleja
+pointless.arithmetic.error.message:
+    text: '#ref puede reemplazarse por {0} #loc'
+simplify.fix:
+    text: Simplificar
+pointless.boolean.error.string:
+    text: Se puede simplificar a {0}
+void.expression.error.string:
+    text: "'#ref' expresión"
+with.expression.error.string:
+    text: "sentencia '#ref'"
+break.statement.error.string:
+    text: "sentencia '#ref'"
+break.statement.with.label.error.string:
+    text: "sentencia '#ref' con etiqueta"
+conditional.expression.with.identical.branches.error.string:
+    text: Expresión condicional <code>#ref</code> con ramas idénticas
+constant.conditional.expression.error.string:
+    text: <code>#ref</code> se puede simplificar
+continue.statement.error.string:
+    text: "sentencia '#ref'"
+continue.statement.with.label.error.string:
+    text: "Sentencia '#ref' con etiqueta"
+default.branch.not.last.case.in.switch.error.string:
+    text: "la rama <code>#ref</code> no es el último case en el 'switch'"
+duplicate.condition.error.string:
+    text: Condición duplicada <code>#ref</code>
+fall.through.in.switch.statement.error.string:
+    text: "Fallthrough en la sentencia 'switch'. Falta 'break' o 'return'"
+ref.statement.with.identical.branches.error.string:
+    text: Sentencia <code>#ref</code> con ramas idénticas
+collapse.if.statement.fix:
+    text: "Contraer sentencia 'if'"
+maximum.number.of.branches.parameter:
+    text: 'Número máximo de ramas:'
+if.statement.with.too.many.branches.error.string:
+    text: "''#ref'' tiene demasiadas ramas ({0})"
+infinite.loop.error.string:
+    text: La sentencia <code>#ref</code> no puede completarse sin lanzar una excepción
+statement.label.error.string:
+    text: "Etiqueta de sentencia '#ref'"
+loop.statement.that.doesnt.loop.error.string:
+    text: la sentencia <code>#ref</code> no itera
+nested.switch.statement.error.string:
+    text: "Sentencia '#ref' anidada"
+switch.statement.with.no.default.branch.error.string:
+    text: "Sentencia '#ref' sin rama 'default'"
+trivial.conditional.error.string:
+    text: "''{0}'' puede simplificarse a ''{1}''"
+trivial.if.error.string:
+    text: La sentencia <code>#ref</code> se puede simplificar
+unnecessary.continue.error.string:
+    text: <code>#ref</code> es innecesario como la última sentencia de un bucle
+unnecessary.label.error.string:
+    text: Etiqueta innecesaria <code>#ref</code>
+remove.label.fix:
+    text: Eliminar etiqueta
+unnecessary.label.on.break.error.string:
+    text: Sentencia <code>#ref</code> con etiqueta innecesaria
+unnecessary.label.on.continue.error.string:
+    text: Sentencia <code>#ref</code> con una etiqueta innecesaria
+unnecessary.return.error.string:
+    text: <code>#ref</code> es innecesario como última sentencia en una función sin valor de retorno
+document.write.error.string:
+    text: "Llamada a '#ref()'"
+inner.html.error.string:
+    text: "Uso de la propiedad '#ref'"
+platform.detection.error.string:
+    text: "'#ref' probablemente se utiliza para la detección de plataforma"
+xhtml.incompatabilities.error.string:
+    text: "'#ref' puede generar resultados inconsistentes para documentos XHTML"
+continue.or.break.inside.finally.block.error.string:
+    text: "'#ref' dentro del bloque 'finally'"
+empty.catch.block.error.string:
+    text: "Bloque '#ref' vacío"
+empty.finally.block.error.string:
+    text: "Bloque 'finally' vacío"
+empty.try.block.error.string:
+    text: "Bloque '#ref' vacío"
+exception.caught.locally.error.string:
+    text: "'#ref' de la excepción capturada localmente"
+return.inside.finally.block.error.string:
+    text: "'#ref' dentro del bloque 'finally'"
+throw.inside.finally.block.error.string:
+    text: "'#ref' dentro del bloque 'finally'"
+rename.fix:
+    text: Renombrar
+function.complexity.limit.parameter:
+    text: 'Límite de complejidad de la función:'
+function.ref.is.overly.complex.cyclomatic.complexity.error.string:
+    text: "la función ''#ref'' es excesivamente compleja (complejidad ciclomática = {0})"
+anonymous.function.is.overly.complex.cyclomatic.complexity.error.string:
+    text: '#ref es demasiado compleja (complejidad ciclomática = {0})'
+function.contains.multiple.loops.error.string:
+    text: "La función ''#ref'' contiene {0} bucles"
+anonymous.function.contains.multiple.loops.error.string:
+    text: '#ref contiene {0} bucles'
+function.contains.multiple.return.points.error.string:
+    text: "la función ''#ref'' tiene {0} puntos de retorno"
+anonymous.function.contains.multiple.return.points.error.string:
+    text: '#ref tiene {0} puntos de retorno'
+function.is.overly.nested.error.string:
+    text: "la función ''#ref'' está excesivamente anidada (la profundidad de anidamiento es {0}, pero el máximo permitido es {1})"
+anonymous.function.is.overly.nested.error.string:
+    text: '#ref está excesivamente anidado (la profundidad de anidamiento es {0}, pero el máximo permitido es {1})'
+function.has.too.many.parameters.error.string:
+    text: "la función ''#ref'' tiene demasiados parámetros (número de parámetros = {0})"
+anonymous.function.has.too.many.parameters.error.string:
+    text: '#ref tiene demasiados parámetros (número de parámetros = {0})'
+function.is.overly.long.statement.error.string:
+    text: "la función ''#ref'' es demasiado larga (número de sentencias = {0})"
+anonymous.function.is.overly.long.statement.error.string:
+    text: '#ref es demasiado largo (número de sentencias = {0})'
+function.contains.too.many.negation.error.string:
+    text: "la función ''#ref'' contiene {0} negaciones"
+anonymous.function.contains.too.many.negation.error.string:
+    text: '#ref contiene {0} negaciones'
+function.name.is.too.short.error.string:
+    text: "El nombre de la función ''{0}'' es demasiado corto"
+function.name.is.too.long.error.string:
+    text: "El nombre de la función ''{0}'' es demasiado largo"
+function.name.doesnt.match.regex.error.string:
+    text: "El nombre de la función ''{0}'' no coincide con la expresión regular ''{1}''"
+variable.name.is.too.short.error.string:
+    text: "El nombre de la variable '#ref' es demasiado corto"
+variable.name.is.too.long.error.string:
+    text: "El nombre de la variable '#ref' es demasiado largo"
+variable.name.doesnt.match.regex.error.string:
+    text: "El nombre de la variable ''#ref'' no coincide con la expresión regular ''{0}''"
+parameter.name.is.too.short.error.string:
+    text: "El nombre del parámetro '#ref' es demasiado corto"
+parameter.name.is.too.long.error.string:
+    text: "El nombre del parámetro '#ref' es demasiado largo"
+parameter.name.doesnt.match.regex.error.string:
+    text: "El nombre del parámetro ''#ref'' no coincide con la expresión regular ''{0}''"
+chained.equality.error.string:
+    text: Comparación de igualdad encadenada <code>#ref</code>
+constant.on.left.side.of.comparison.error.string:
+    text: '#ref: constante en el lado izquierdo de la comparación'
+constant.on.right.side.of.comparison.error.string:
+    text: Constante en el lado derecho de la comparación
+flip.comparison.fix:
+    text: Invertir comparación
+non.block.branch.error.string:
+    text: La sentencia <code>#ref</code> tiene una rama que no es de bloque
+non.block.body.error.string:
+    text: La sentencia <code>#ref</code> tiene un cuerpo que no es un bloque
+unterminated.statement.error.string:
+    text: Sentencia no terminada
+expression.statement.is.not.assignment.or.call.error.string:
+    text: La sentencia de expresión no es una asignación ni una llamada
+debugger.statement.error.string:
+    text: "sentencia '#ref'"
+duplicate.case.label.error.string:
+    text: 'Etiqueta case duplicada #ref'
+function.has.inconsistent.return.points.error.string:
+    text: "la función '#ref' tiene puntos de retorno inconsistentes"
+anonymous.function.has.inconsistent.return.points.error.string:
+    text: '#ref tiene puntos de retorno inconsistentes'
+reserved.word.used.as.name.error.string:
+    text: "Palabra reservada '#ref' usada como nombre"
+this.expression.references.global.object.error.string:
+    text: "Expresión '#ref' de nivel superior"
+unreachable.code.error.string:
+    text: Código inaccesible
+replace.with.operator.assign.fix:
+    text: Reemplazar = por {0}=
+overly.complex.boolean.expression.error.string:
+    text: Expresión booleana excesivamente compleja
+collapse.conditional.expression.fix:
+    text: Contraer expresión condicional
+remove.unnecessary.continue.fix:
+    text: "Eliminar 'continue' innecesario"
+remove.unnecessary.return.fix:
+    text: Eliminar return innecesario
+wrap.statement.body.fix:
+    text: Envolver el cuerpo de la sentencia
+javascript.dom.issues.group.name:
+    text: Problemas de DOM
+confusing.floating.point.literal.display.name:
+    text: Literal de punto flotante confuso
+confusing.floating.point.literal.problem.descriptor:
+    text: 'Literal de punto flotante confuso <code>#ref</code> #loc'
+confusing.pluses.or.minuses.display.name:
+    text: "Secuencia confusa de '+' o '-'"
+confusing.pluses.or.minuses.error.string:
+    text: "La secuencia de '+' o '-' puede cambiar su significado si se eliminan los espacios en blanco"
+confusing.floating.point.literal.change.quickfix:
+    text: Cambiar a la forma canónica
+string.literal.breaks.html.display.name:
+    text: Literal de cadena que interrumpe el análisis de HTML
+string.literal.breaks.html.error.string:
+    text: 'El literal de cadena #ref puede interrumpir los analizadores HTML'
+for.loop.not.use.loop.variable.display.name:
+    text: "Bucle 'for' donde la actualización o la condición no utiliza la variable del bucle"
+for.loop.not.use.loop.variable.problem.descriptor.condition:
+    text: La sentencia <code>#ref</code> tiene una condición que no utiliza la variable del bucle for
+for.loop.not.use.loop.variable.problem.descriptor.update:
+    text: La sentencia <code>#ref</code> tiene una actualización que no utiliza la variable del bucle for
+for.loop.not.use.loop.variable.problem.descriptor.both.condition.and.update:
+    text: La sentencia <code>#ref</code> tiene una condición y una actualización que no utilizan la variable del bucle for
+unused.catch.parameter.display.name:
+    text: "Parámetro 'catch' no utilizado"
+unused.catch.parameter.problem.descriptor:
+    text: 'Parámetro catch no utilizado <code>#ref</code> #loc'
+unused.catch.parameter.ignore.catch.option:
+    text: Ignorar bloques catch que contienen comentarios
+tail.recursion.display.name:
+    text: Recursión de cola
+tail.recursion.problem.descriptor:
+    text: 'Recursión de cola #loc'
+redundant.local.variable.display.name:
+    text: Variable local redundante
+redundant.local.variable.ignore.option:
+    text: Ignorar variables devueltas o lanzadas inmediatamente
+unnecessary.local.variable.problem.descriptor:
+    text: La variable local {0} es redundante
+reuse.of.local.variable.display.name:
+    text: Reutilización de variable local
+reuse.of.local.variable.problem.descriptor:
+    text: Reutilización de la variable local <code>#ref</code>
+infinite.recursion.display.name:
+    text: Recursión infinita
+infinite.recursion.problem.descriptor:
+    text: 'La función <code>#ref</code> realiza una recursión infinita y solo puede finalizar lanzando una excepción #loc'
+constant.conditional.expression.simplify.quickfix:
+    text: Simplificar
+caller.error.string:
+    text: "Uso de la propiedad '#ref'"
+caller.display.name:
+    text: "Uso de la propiedad 'caller'"
+dynamically.generated.code.error.string:
+    text: "La función '#ref' indica código generado dinámicamente"
+dynamically.generated.code.display.name:
+    text: Ejecución de código generado dinámicamente
+for.loop.replaceable.by.while.problem.descriptor:
+    text: "El bucle <code>#ref</code> puede reemplazarse por un bucle 'while' #loc"
+for.loop.replaceable.by.while.display.name:
+    text: "El bucle 'for' se puede reemplazar por un bucle 'while'"
+for.loop.replaceable.by.while.replace.quickfix:
+    text: "Reemplazar por 'while'"
+for.loop.replaceable.by.while.ignore.option:
+    text: "Ignorar bucles 'for' 'infinitos' sin condiciones"
+nested.function.call.display.name:
+    text: Llamada a función anidada
+nested.function.call.problem.descriptor:
+    text: "Llamada anidada a la función '#ref'"
+chained.function.call.display.name:
+    text: Llamada a función encadenada
+chained.function.call.problem.descriptor:
+    text: "Llamada encadenada a la función '#ref'"
+magic.number.display.name:
+    text: Número mágico
+magic.number.problem.descriptor:
+    text: "Número mágico '#ref' #loc"
+incompatible.mask.operation.display.name:
+    text: Operación de máscara de bits incompatible
+incompatible.mask.operation.problem.descriptor.always.false:
+    text: <code>#ref</code> siempre es falso
+incompatible.mask.operation.problem.descriptor.always.true:
+    text: <code>#ref</code> siempre es true
+pointless.bitwise.expression.display.name:
+    text: La expresión bit a bit se puede simplificar
+pointless.bitwise.expression.ignore.option:
+    text: Ignorar constantes con nombre al determinar expresiones sin sentido
+pointless.bitwise.expression.problem.descriptor:
+    text: "''{1}'' puede reemplazarse por ''{0}''"
+pointless.bitwise.expression.simplify.quickfix:
+    text: Simplificar
+shift.operation.by.inappropriate.constant.display.name:
+    text: Operación de desplazamiento por una constante posiblemente incorrecta
+shift.operation.by.inappropriate.constant.problem.descriptor.too.large:
+    text: Operación de desplazamiento <code>#ref</code> por un valor constante excesivamente grande
+shift.operation.by.inappropriate.constant.problem.descriptor.negative:
+    text: Operación de desplazamiento <code>#ref</code> por un valor constante negativo

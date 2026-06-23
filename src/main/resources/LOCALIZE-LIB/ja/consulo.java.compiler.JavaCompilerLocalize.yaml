@@ -1,0 +1,26 @@
+add.notnull.assertions:
+    text: '@NotNull アサーションを追加'
+eclipse.compiler.analyzing:
+    text: '{0}の分析'
+eclipse.compiler.error.jar.not.found:
+    text: |-
+        Eclipseのコンパイラを起動できません。
+        ファイル{0}が見つかりません。
+eclipse.compiler.parsing:
+    text: '{0}の解析'
+generate.ant.build.progress.message:
+    text: Antのビルドを生成中...
+generate.ant.build.title:
+    text: Antのビルドを生成
+javac.error.jdk.home.missing:
+    text: |-
+        JDK {0} のホーム ディレクトリを決定できません。
+        JDK 設定を更新してください。
+javac.error.tools.jar.missing:
+    text: |-
+        JDK {0} の javac クラスへのパスを取得できません。
+        JDK 設定を更新してください。
+javac.error.unknown.jdk.version:
+    text: |-
+        JDK {0} のバージョンを決定できません。
+        JDK 設定を更新してください。

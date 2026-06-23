@@ -1,0 +1,2126 @@
+action.$Copy.description:
+    text: 複製到剪貼簿
+action.$Copy.text:
+    text: 複製
+action.$Cut.description:
+    text: 切到剪貼簿
+action.$Cut.text:
+    text: 剪下
+action.$Delete.description:
+    text: 刪除所選項目
+action.$Delete.text:
+    text: 刪除
+action.$Paste.description:
+    text: 從剪貼簿貼上
+action.$Paste.text:
+    text: 貼上
+action.$SelectAll.description:
+    text: 選取所有
+action.$SelectAll.text:
+    text: 全選
+action.About.description:
+    text: 顯示有關IDE訊息
+action.About.text:
+    text: 關於
+action.ActivateNavBar.description:
+    text: 啟用導航列
+action.ActivateNavBar.text:
+    text: 啟用導航列
+action.AddFrameworkSupport.text:
+    text: 新增方塊架支援...
+action.AddNewFavoritesList.description:
+    text: 新增新收藏夾清單
+action.AddNewFavoritesList.text:
+    text: 新增新收藏夾清單
+action.AddToFavoritesPopup.description:
+    text: 新增選取的節點到收藏夾
+action.AddToFavoritesPopup.text:
+    text: 新增到收藏夾
+action.Annotate.description:
+    text: 顯示有關最後修改日期和作者的每一行訊息
+action.Annotate.text:
+    text: 註解(_N)
+action.AssociateWithFileType.description:
+    text: 與檔案類型之一間聯營公司選擇的檔案
+action.AssociateWithFileType.text:
+    text: 與檔案類型相關聯
+action.AutoIndentLines.description:
+    text: 根據代碼樣式設定縮進目前行或選擇的區塊
+action.AutoIndentLines.text:
+    text: 行自動縮進
+action.AutoShowProcessWindow.description:
+    text: 顯示後台工作視窗上的任何進展起點
+action.AutoShowProcessWindow.text:
+    text: 自動顯示
+action.Back.description:
+    text: 還原最後一個導航操作
+action.Back.text:
+    text: 向後
+action.BuildAllArtifacts.text:
+    text: 手工構建所有的
+action.CallHierarchy.BaseOnThisType.description:
+    text: 對於選擇的方法顯示呼叫層次
+action.CallHierarchy.BaseOnThisType.text:
+    text: 在此基礎上的方法
+action.CallHierarchy.description:
+    text: 瀏覽呼叫的層次結構
+action.CallHierarchy.text:
+    text: 呼叫的層次結構
+action.CaptureAllocations.description:
+    text: 捕獲記憶體分配資料
+action.CaptureAllocations.text:
+    text: 捕捉分配
+action.CaptureCPUUsageData.description:
+    text: 捕獲CPU使用率資料
+action.CaptureCPUUsageData.text:
+    text: 啟動CPU的使用情況分析
+action.CaptureMemorySnapShot.description:
+    text: 捕獲記憶體快照
+action.CaptureMemorySnapShot.text:
+    text: 捕獲記憶體快照
+action.ChangeCodeStyleScheme.description:
+    text: 改變目前的代碼樣式專案
+action.ChangeCodeStyleScheme.text:
+    text: 代碼風格專案
+action.ChangeColorScheme.description:
+    text: 改變目前的配色專案
+action.ChangeColorScheme.text:
+    text: 配色專案
+action.ChangeCustomizationSchema.description:
+    text: 改變目前定制計劃
+action.ChangeCustomizationSchema.text:
+    text: 切換自訂計劃
+action.ChangeFileEncodingAction.description:
+    text: 變更檔案編碼
+action.ChangeFileEncodingAction.text:
+    text: 檔案編碼
+action.ChangeFileEncodingGroupAction.description:
+    text: 變更檔案編碼
+action.ChangeFileEncodingGroupAction.text:
+    text: 變更檔案編碼
+action.ChangeInspectionProfile.description:
+    text: 改變目前編輯器檢查設定檔案
+action.ChangeKeymap.description:
+    text: 改變目前鍵盤便捷鍵
+action.ChangeKeymap.text:
+    text: 便捷鍵
+action.ChangeLaf.description:
+    text: 改變目前外觀\感覺(&F)
+action.ChangeLaf.text:
+    text: 外觀和感覺
+action.ChangeSignature.description:
+    text: 改變選取的方法或類別的簽名，並更正所有參照
+action.ChangeSignature.text:
+    text: 變更簽名...
+action.ChangeSplitOrientation.description:
+    text: 變更分割格局的方向
+action.ChangeSplitOrientation.text:
+    text: 變更分割方向
+action.ChangeTemplateDataLanguage.text:
+    text: 變更範本資料語言
+action.ChangeToThisFileTypeAction.description:
+    text: "將檔案類型覆寫為 ''{0}''"
+action.ChangeTypeSignature.description:
+    text: 方法的返回類型、欄位、參數、變數或類別類型參數變化時糾正所有參照
+action.ChangeTypeSignature.text:
+    text: 類型遷移...
+action.ChangesView.AddUnversioned.From.Dialog.description:
+    text: 附表選擇的檔案新增到VCS
+action.ChangesView.AddUnversioned.From.Dialog.text:
+    text: 新增到VCS
+action.ChangesView.AddUnversioned.description:
+    text: 附表選擇的檔案新增到VCS
+action.ChangesView.AddUnversioned.text:
+    text: 新增到VCS
+action.ChangesView.ApplyPatch.description:
+    text: 套用修補程式的項目的源代碼
+action.ChangesView.ApplyPatch.text:
+    text: 套用補丁...
+action.ChangesView.ApplyPatchFromClipboard.text:
+    text: 從剪貼簿套用補丁...
+action.ChangesView.Browse.description:
+    text: 中提交的變更檢視歷史記錄
+action.ChangesView.Browse.text:
+    text: 瀏覽變動...
+action.ChangesView.Commit.description:
+    text: 提交選擇的變更清單
+action.ChangesView.Commit.text:
+    text: 提交修改
+action.ChangesView.CreatePatch.description:
+    text: 建立所選項的修改補丁
+action.ChangesView.CreatePatch.text:
+    text: 建立補丁...
+action.ChangesView.CreatePatchFromChanges.description:
+    text: 建立所選修改的補丁
+action.ChangesView.CreatePatchFromChanges.text:
+    text: 建立補丁...
+action.ChangesView.DeleteUnversioned.text:
+    text: 刪除
+action.ChangesView.Edit.description:
+    text: 退房選擇的檔案進行編輯
+action.ChangesView.Edit.text:
+    text: 簽出
+action.ChangesView.Ignore.description:
+    text: 如無版本不顯示選擇的檔案
+action.ChangesView.Ignore.text:
+    text: 忽略...
+action.ChangesView.Move.description:
+    text: 移動選擇的改變到另一個修改清單
+action.ChangesView.NewChangeList.description:
+    text: 建立新的修改
+action.ChangesView.NewChangeList.text:
+    text: 新的修改清單
+action.ChangesView.Refresh.description:
+    text: 更新VCS修改
+action.ChangesView.Refresh.text:
+    text: 更新
+action.ChangesView.RemoveChangeList.description:
+    text: 刪除修改，並將所有變更預設
+action.ChangesView.RemoveChangeList.text:
+    text: 刪除變更清單
+action.ChangesView.Rename.description:
+    text: 修改姓名和所選變更表說明
+action.ChangesView.Rename.text:
+    text: 編輯變更清單...
+action.ChangesView.Revert.description:
+    text: 還原選區的修改
+action.ChangesView.Revert.text:
+    text: 還原(R)
+action.ChangesView.SetDefault.description:
+    text: 設定變更清單為預設放置哪些新修改
+action.ChangesView.SetDefault.text:
+    text: 設為目前變更清單
+action.ChangesView.Shelve.description:
+    text: 將變更儲存到一個外部的補丁檔案，並從代碼中刪除
+action.ChangesView.Shelve.text:
+    text: 擱置的修改...
+action.CheckForUpdate.description:
+    text: 檢查是否有可用的更新
+action.CheckForUpdate.text:
+    text: 檢查更新...
+action.ClassNameCompletion.description:
+    text: 完成類別名，並新增import
+action.ClassNameCompletion.text:
+    text: 類別名自動完成
+action.CloseActiveTab.description:
+    text: 關閉活動工具視窗標籤
+action.CloseActiveTab.text:
+    text: 關閉活動標籤
+action.CloseAllEditors.description:
+    text: 在關閉目前標籤組中的所有編輯器
+action.CloseAllEditors.text:
+    text: 全部關閉
+action.CloseAllEditorsButActive.description:
+    text: 關閉其他所有開啟的編輯器
+action.CloseAllEditorsButActive.text:
+    text: 關閉其他
+action.CloseAllUnmodifiedEditors.description:
+    text: 關閉所有未改動的編輯器
+action.CloseAllUnmodifiedEditors.text:
+    text: 關閉未修改的
+action.CloseAllUnpinnedEditors.description:
+    text: 關閉這些不固定所有編輯器
+action.CloseAllUnpinnedEditors.text:
+    text: 關閉所有非寄存狀態的
+action.CloseContent.description:
+    text: 關閉目前焦點內容
+action.CloseContent.text:
+    text: 關閉
+action.CloseEditor.description:
+    text: 關閉目前編輯器
+action.CloseEditor.text:
+    text: 關閉目前編輯器
+action.CloseProject.description:
+    text: 關閉目前項目
+action.CloseProject.text:
+    text: 關閉項目
+action.CloseWindow.text:
+    text: 關閉活動視窗
+action.CodeCompletion.description:
+    text: 完整代碼
+action.CodeCompletion.text:
+    text: 基本
+action.CodeInspection.OnEditor.description:
+    text: 檢查代碼編輯器設定(E)
+action.CodeInspection.OnEditor.text:
+    text: 檢查代碼編輯器設定(E)
+action.CollapseAll.text:
+    text: 全部折疊
+action.CollapseAllRegions.description:
+    text: 關閉全部折疊區域（選區）
+action.CollapseAllRegions.text:
+    text: 全部折疊
+action.CollapseBlock.description:
+    text: 折疊目前代碼區塊
+action.CollapseBlock.text:
+    text: 折疊代碼區塊
+action.CollapseDocComments.description:
+    text: 關閉全部文件註解
+action.CollapseDocComments.text:
+    text: 關閉文件註解
+action.CollapseRegion.description:
+    text: 收起折疊區域的插入符號
+action.CollapseRegion.text:
+    text: 折疊
+action.CollapseSelection.description:
+    text: 折疊選擇的區塊
+action.CollapseSelection.text:
+    text: 折疊選區 / 刪除區域
+action.CollapseTreeNode.text:
+    text: 折疊樹節點
+action.CommentByBlockComment.description:
+    text: 註解/取消代碼的區塊註解
+action.CommentByBlockComment.text:
+    text: 使用區塊註解
+action.CommentByLineComment.description:
+    text: 註解/取消目前行或選擇區塊的行註解
+action.CommentByLineComment.text:
+    text: 行註解(L)
+action.CommittedChanges.Clear.description:
+    text: 清除快取的修訂版本
+action.CommittedChanges.Clear.text:
+    text: 清除
+action.CommittedChanges.Details.description:
+    text: 檢視所選變更表的完整訊息
+action.CommittedChanges.Details.text:
+    text: 顯示細節訊息
+action.CommittedChanges.Filter.description:
+    text: 改變過濾條件
+action.CommittedChanges.Filter.text:
+    text: 篩選器
+action.CommittedChanges.Refresh.description:
+    text: 更新已提交的變更清單
+action.CommittedChanges.Refresh.text:
+    text: 更新
+action.CommittedChanges.Revert.description:
+    text: 反向選取修改的工作副本
+action.CommittedChanges.Revert.text:
+    text: 還原變更
+action.Compare.Selected.text:
+    text: 比較(C)...
+action.CompareClipboardWithSelection.description:
+    text: 比較目前的選取與剪貼簿
+action.CompareClipboardWithSelection.text:
+    text: 與剪貼簿比較
+action.CompareFileWithEditor.description:
+    text: 用編輯器比較所選檔案
+action.CompareFileWithEditor.text:
+    text: 編輯器中比較檔案
+action.CompareTwoFiles.description:
+    text: 比較兩個選取的檔案或資料夾
+action.CompareTwoFiles.text:
+    text: 比較檔案
+action.ConfigureFileDefaultEncoding.description:
+    text: 在目錄或整個項目設定預設編碼的檔案，檔案
+action.ConfigureFileDefaultEncoding.text:
+    text: 設定預設編碼...
+action.ConfigureTemplatesAction.text:
+    text: 設定實時模板…
+action.Console.History.Browse.description:
+    text: 瀏覽主控台歷史記錄
+action.Console.History.Browse.text:
+    text: 瀏覽主控台歷史
+action.Console.SplitLine.text:
+    text: 分割線
+action.ContextHelp.description:
+    text: 顯示即時說明
+action.ContextHelp.text:
+    text: 內容說明
+action.ConvertIndentsToSpaces.description:
+    text: 將檔案中的縮進或選擇的區塊使用空格,而不是製表符
+action.ConvertIndentsToSpaces.text:
+    text: 使用空格
+action.ConvertIndentsToTabs.description:
+    text: 將檔案中的縮進或選擇的區塊使用製表符,而不是製表符
+action.ConvertIndentsToTabs.text:
+    text: 使用製表符
+action.ConvertProject.description:
+    text: 項目轉換為新的格式。你將無法通過早期版本的IDEA來開啟該項目。
+action.ConvertProject.text:
+    text: 轉換項目(&C)
+action.CopyAbsolutePath.text:
+    text: 絕對路徑
+action.CopyContentRootPath.text:
+    text: 來自內容根的路徑
+action.CopyElement.description:
+    text: 建立所選類別中，檔案的副本（S）或目錄（ES）
+action.CopyElement.text:
+    text: 複製...
+action.CopyFileName.text:
+    text: 文件名
+action.CopyPathWithLineNumber.text:
+    text: 帶行號的路徑
+action.CopyPaths.description:
+    text: 對應於選擇的檔案或目錄到剪貼簿拷貝路徑
+action.CopyPaths.text:
+    text: 複製路徑
+action.CopyReference.description:
+    text: 複製參照選擇的類別，方法或函數
+action.CopyReference.text:
+    text: 複製參考
+action.CopySourceRootPath.text:
+    text: 來自源根的路徑
+action.CreateDesktopEntry.description:
+    text: 與系統應用程式選單中整合建立一個桌面項
+action.CreateDesktopEntry.text:
+    text: 建立桌面項...
+action.CreateLauncherScript.description:
+    text: 對於命令列開啟檔案和項目建立一個指令碼
+action.CreateLauncherScript.text:
+    text: 建立命令列啟動...
+action.CreateLibraryFromFile.text:
+    text: 新增到庫...
+action.CreateRunConfiguration.description:
+    text: 從內容中建立執行設定
+action.CreateRunConfiguration.text:
+    text: 建立執行設定
+action.DebugListen.text:
+    text: 拋出診斷異常
+action.DecodeBytesAction.text:
+    text: 位元組解碼...
+action.DecrementWindowHeight.text:
+    text: 高度遞減
+action.DecrementWindowWidth.text:
+    text: 寬度遞減
+action.DelegateMethods.description:
+    text: 產生委託方法 field/getter
+action.DelegateMethods.text:
+    text: 委託方法...
+action.Diff.AppendLeftSide.text:
+    text: 附加左側
+action.Diff.AppendRightSide.text:
+    text: 附加右側
+action.Diff.ApplyLeftSide.text:
+    text: 確認左側
+action.Diff.ApplyRightSide.text:
+    text: 確認右側
+action.Diff.FocusOppositePane.description:
+    text: 選取相反面板的差異檢視
+action.Diff.FocusOppositePaneAndScroll.description:
+    text: 選取差異鑒於相反面板中同一位置
+action.Diff.FocusOppositePaneAndScroll.text:
+    text: 選取位置相反的差異面板
+action.Diff.IgnoreLeftSide.text:
+    text: 忽略左側
+action.Diff.IgnoreRightSide.text:
+    text: 忽略右側
+action.Diff.IgnoreWhitespace.text:
+    text: 切換差異忽略空白
+action.Diff.MagicResolveConflicts.text:
+    text: 處理簡單衝突
+action.Diff.NextChange.text:
+    text: 比較下一個檔案
+action.Diff.NextConflict.description:
+    text: 移動到下一個未解決的衝突
+action.Diff.NextConflict.text:
+    text: 下一個衝突
+action.Diff.PrevChange.text:
+    text: 比較上一個檔案
+action.Diff.PreviousConflict.description:
+    text: 移動到上一個未解決的衝突
+action.Diff.PreviousConflict.text:
+    text: 上一個衝突
+action.Diff.SelectedChange.text:
+    text: 選取檔案要比較
+action.Diff.ShowDiff.description:
+    text: 比較檔案或校正
+action.Diff.ShowDiff.text:
+    text: 顯示差異
+action.DumpPsiMemoryCaches.text:
+    text: 轉儲什麼是記憶體緩衝區在PSI
+action.EditMacros.description:
+    text: 設定現有的巨集
+action.EditMacros.text:
+    text: 編輯巨集
+action.EditSource.description:
+    text: 開啟編輯所選項目並將其提供焦點
+action.EditSource.text:
+    text: 跳躍到源
+action.EditSourceInNewWindow.description:
+    text: 開啟編輯器在新視窗中選取的項目，並給它提供焦點
+action.EditSourceInNewWindow.text:
+    text: 在新視窗中開啟源
+action.EditorConsoleScrollToTheEnd.text:
+    text: 捲動到結尾
+action.EmacsStyleIndent.text:
+    text: Emacs標籤
+action.ExcludeFromProject.text:
+    text: 從項目中排除...
+action.Exit.description:
+    text: 結束IDE
+action.Exit.text:
+    text: 結束
+action.ExpandAll.text:
+    text: 全部展開
+action.ExpandAllRegions.description:
+    text: 展開全部折疊區域（選區）
+action.ExpandAllRegions.text:
+    text: 全部展開
+action.ExpandDocComments.description:
+    text: 展開全部文件註解
+action.ExpandDocComments.text:
+    text: 展開文件註解
+action.ExpandRegion.description:
+    text: 展開折疊區域的插入符號
+action.ExpandRegion.text:
+    text: 展開
+action.ExpandTreeNode.text:
+    text: 展開樹節點
+action.ExportSettings.description:
+    text: 匯出全局設定
+action.ExportSettings.text:
+    text: 匯出設定...
+action.ExportTestResults.description:
+    text: 匯出測試結果檔案
+action.ExportTestResults.text:
+    text: 匯出測試結果...
+action.ExportThreads.description:
+    text: 儲存所有執行緒的訊息到一個文字檔案或剪貼簿
+action.ExportThreads.text:
+    text: 匯出執行緒訊息...
+action.ExportToEclipse.description:
+    text: 建立Eclipse項目為每個模組
+action.ExportToEclipse.text:
+    text: 匯出到Eclipse...
+action.ExportToHTML.description:
+    text: 以HTML格式儲存檔案內容與語法著色
+action.ExportToHTML.text:
+    text: 匯出到_HTML...
+action.ExportToTextFile.text:
+    text: 匯出到文字檔案
+action.ExpressionTypeInfo.description:
+    text: 顯示選擇的運算式的類型
+action.ExpressionTypeInfo.text:
+    text: 運算式的類型(E)
+action.ExternalJavaDoc.description:
+    text: 與所選項目的文件開啟的瀏覽器
+action.ExternalJavaDoc.text:
+    text: 外部文件
+action.ExtractClass.description:
+    text: 委託擷取
+action.ExtractClass.text:
+    text: 委託...
+action.ExtractInclude.description:
+    text: 開啟所選的代碼片段插入包含的檔案
+action.ExtractInclude.text:
+    text: 包括檔案...
+action.ExtractInterface.description:
+    text: 從選擇的類別中擷取介面
+action.ExtractInterface.text:
+    text: 介面...
+action.ExtractMethod.description:
+    text: 開啟所選的代碼片段插入的方法
+action.ExtractMethod.text:
+    text: 方法(M)...
+action.ExtractModule.description:
+    text: 從所選取的類別中擷取模組
+action.ExtractModule.text:
+    text: 組件(M)...
+action.ExtractSuperclass.description:
+    text: 從選擇的類別中擷取超
+action.ExtractSuperclass.text:
+    text: 父類別(U)...
+action.FileChooser.Delete.text:
+    text: 刪除...
+action.FileChooser.Delete.text.description:
+    text: 刪除
+action.FileChooser.GotoDesktop.description:
+    text: 去桌面目錄
+action.FileChooser.GotoDesktop.text:
+    text: 桌面目錄
+action.FileChooser.GotoHome.description:
+    text: 轉到主目錄
+action.FileChooser.GotoHome.text:
+    text: 主目錄
+action.FileChooser.GotoModule.description:
+    text: 轉到模組目錄
+action.FileChooser.GotoModule.text:
+    text: 模組目錄
+action.FileChooser.GotoProject.description:
+    text: 轉到項目目錄
+action.FileChooser.GotoProject.text:
+    text: 項目目錄
+action.FileChooser.NewFile.description:
+    text: 建立新檔案
+action.FileChooser.NewFile.text:
+    text: 新的檔案...
+action.FileChooser.NewFolder.description:
+    text: 建立新的資料夾
+action.FileChooser.NewFolder.text:
+    text: 新增資料夾...
+action.FileChooser.Refresh.description:
+    text: 更新檔案系統樹
+action.FileChooser.Refresh.text:
+    text: 更新
+action.FileChooser.ShowHiddens.description:
+    text: 顯示隱藏的檔案和目錄
+action.FileChooser.ShowHiddens.text:
+    text: 顯示隱藏的檔案和目錄
+action.FileChooser.TogglePathShowing.text:
+    text: 顯示/隱藏路徑文字
+action.FileStructurePopup.description:
+    text: 對目前檔案進行快速導航彈出式結構
+action.FileStructurePopup.text:
+    text: 檔案結構
+action.Find.description:
+    text: 在目前編輯器搜尋字串
+action.Find.text:
+    text: 搜尋...
+action.FindInPath.description:
+    text: 找到的字串中的多個檔案
+action.FindInPath.text:
+    text: 在路徑中搜尋...
+action.FindJoinpointsByPointcutAction.description:
+    text: 找到連接點確定切入點
+action.FindJoinpointsByPointcutAction.text:
+    text: 找到連接點確定切入點
+action.FindModal.description:
+    text: 目前編輯器中搜尋字串，顯示模式對話方塊
+action.FindModal.text:
+    text: 搜尋...
+action.FindNext.description:
+    text: 重複上一次搜尋/替換操作，並移到下一個符合項
+action.FindNext.text:
+    text: 搜尋下一個符合項
+action.FindPrevious.description:
+    text: 向上執行上一次的搜尋/替換操作，並移到下一個符合項
+action.FindPrevious.text:
+    text: 搜尋上一個符合項
+action.FindUsages.description:
+    text: 搜尋符號的用法在插入符號
+action.FindUsages.text:
+    text: 搜尋用法實例(U)
+action.FindUsagesInFile.description:
+    text: 搜尋符號的用法在插入符在目前編輯器
+action.FindUsagesInFile.text:
+    text: 在檔案中搜尋使用實例
+action.FindWordAtCaret.description:
+    text: 搜尋單詞在游標的下一個出現
+action.FindWordAtCaret.text:
+    text: 搜尋游標位置的單詞
+action.FixDocComment.description:
+    text: 產生或修復文件註解為目前內容
+action.FixDocComment.text:
+    text: 修復文件註解
+action.Forward.description:
+    text: 重做上次還原導航操作
+action.Forward.text:
+    text: 向前
+action.FullyExpandTreeNode.text:
+    text: 完全展開樹節點
+action.Generate.description:
+    text: 產生的構造函數，getter或setter方法等
+action.Generate.text:
+    text: 產生...
+action.GenerateAntBuild.description:
+    text: 從項目產生Ant構建檔案
+action.GenerateAntBuild.text:
+    text: 產生Ant構建...
+action.GenerateSuperMethodCall.text:
+    text: 超級方法呼叫
+action.GoToLinkTarget.description:
+    text: 在項目檢視中開啟這個符號連結的目標
+action.GoToLinkTarget.text:
+    text: 去連結目標
+action.GotoAction.description:
+    text: 快速導航到通過名稱操作
+action.GotoAction.text:
+    text: 搜尋動作...
+action.GotoAspect.description:
+    text: 導航到游標位置影響的錯誤或警告的建議報告
+action.GotoAspect.text:
+    text: 外觀(_A)
+action.GotoClass.description:
+    text: 快速導航到一個類別的名字
+action.GotoClass.text:
+    text: 類別...
+action.GotoDeclaration.description:
+    text: 導航到該符號在插入符的宣告
+action.GotoDeclaration.text:
+    text: 宣告
+action.GotoFile.description:
+    text: 快速導航到一個檔案名
+action.GotoFile.text:
+    text: 檔案...
+action.GotoImplementation.description:
+    text: 導航到選擇的類別或方法的實現
+action.GotoImplementation.text:
+    text: 實現
+action.GotoLine.description:
+    text: 導航到編輯器中的行（或列）
+action.GotoLine.text:
+    text: 行/列...
+action.GotoNextError.description:
+    text: 導航到目前編輯器的下一個高亮錯誤
+action.GotoNextError.text:
+    text: 下一個高亮顯示的錯誤
+action.GotoPreviousError.description:
+    text: 導航到目前編輯器的上一個高亮錯誤
+action.GotoPreviousError.text:
+    text: 上一個高亮顯示的錯誤
+action.GotoRelated.description:
+    text: 導航到相關或連結的符號之一
+action.GotoRelated.text:
+    text: 相關符號...
+action.GotoSuperMethod.text:
+    text: 超類別方法
+action.GotoSymbol.description:
+    text: 快速導航到名稱的任何符號
+action.GotoSymbol.text:
+    text: 標記(S)...
+action.GotoTest.description:
+    text: 導航到選擇類別的測試
+action.GotoTest.text:
+    text: 測試
+action.GotoTestSubject.description:
+    text: 導航到所選取的測試物件
+action.GotoTestSubject.text:
+    text: 測試主題
+action.GotoTypeDeclaration.description:
+    text: 導航到該符號的類型在插入符的宣告
+action.GotoTypeDeclaration.text:
+    text: 類型宣告(T)
+action.Graph.Current.Node.Dependencies.Filter.text:
+    text: 顯示選取的節點具有相關性
+action.Graph.choose.directory:
+    text: 選取目錄
+action.Graph.export.to.file:
+    text: 匯出到檔案...
+action.Graph.export.to.file.dialog.caption:
+    text: 匯出到檔案
+action.Graph.fit.content:
+    text: 適合內容
+action.Graph.grid.hide:
+    text: 隱藏網格
+action.Graph.grid.show:
+    text: 顯示網格
+action.Graph.grid.snap:
+    text: 對齊網格
+action.Graph.layout.apply.current:
+    text: 適用於目前佈局
+action.Graph.layout.balloon:
+    text: 氣球佈局
+action.Graph.layout.circular:
+    text: 圓形佈局
+action.Graph.layout.directed.orthogonal:
+    text: 導演正交佈局
+action.Graph.layout.fit.content:
+    text: 適應內容的佈局
+action.Graph.layout.hierarchic.group:
+    text: 分層組佈局
+action.Graph.layout.organic:
+    text: 有機佈局
+action.Graph.layout.orthogonal:
+    text: 正交佈局
+action.Graph.layout.tree:
+    text: 樹佈局
+action.Graph.print:
+    text: 列印圖表
+action.Graph.print.preview:
+    text: 列印預覽
+action.Graph.print.reset:
+    text: 重設
+action.Graph.show.edge.label:
+    text: 顯示邊緣標籤
+action.Graph.show.selected.node.dependencies.label:
+    text: 顯示選取的節點具有相關性
+action.Graph.zoom.actual:
+    text: 實際大小
+action.Graph.zoom.in:
+    text: 放大
+action.Graph.zoom.out:
+    text: 縮小
+action.Help.KeymapReference.description:
+    text: 開啟預設便捷鍵參考卡的PDF檔案
+action.Help.KeymapReference.text:
+    text: 便捷鍵參考
+action.HelpTopics.description:
+    text: 顯示說明內容
+action.HelpTopics.text:
+    text: 說明
+action.HideActiveWindow.description:
+    text: 隱藏活動工具視窗
+action.HideActiveWindow.text:
+    text: 隱藏活動的工具視窗
+action.HideAllWindows.description:
+    text: 隱藏所有的工具視窗
+action.HideAllWindows.text:
+    text: 隱藏所有的工具視窗
+action.HideSideWindows.description:
+    text: 隱藏所有的側邊工具視窗
+action.HideSideWindows.text:
+    text: 隱藏側邊工具視窗
+action.HighlightUsagesInFile.description:
+    text: 突出顯示在目前編輯器中的插入符號
+action.HighlightUsagesInFile.not.ready:
+    text: 這種搜索用法需要索引，否則無法執行
+action.HighlightUsagesInFile.text:
+    text: 在檔案中高亮顯示用法實例(H)
+action.HippieBackwardCompletion.description:
+    text: 循環展開字（向後）
+action.HippieBackwardCompletion.text:
+    text: 循環展開字（向後）
+action.HippieCompletion.description:
+    text: 循環展開字
+action.HippieCompletion.text:
+    text: 循環展開字
+action.IdeScriptingConsole.description:
+    text: 開啟 IDE 指令碼主控台
+action.IdeScriptingConsole.text:
+    text: IDE 指令碼主控台
+action.Images.Editor.ActualSize.description:
+    text: 調整圖像大小以實際尺寸
+action.Images.Editor.ActualSize.text:
+    text: 實際尺寸
+action.Images.Editor.ToggleGrid.description:
+    text: 在圖像切換網格線
+action.Images.Editor.ToggleGrid.text:
+    text: 網格
+action.Images.Editor.ZoomIn.description:
+    text: 增加圖像檢視
+action.Images.Editor.ZoomIn.text:
+    text: 放大
+action.Images.Editor.ZoomOut.description:
+    text: 縮小圖像檢視
+action.Images.Editor.ZoomOut.text:
+    text: 縮小
+action.Images.ShowThumbnails.description:
+    text: 顯示預覽縮圖檢視目前目錄
+action.Images.ShowThumbnails.text:
+    text: 顯示圖片預覽縮圖
+action.Images.Thumbnails.EnterAction.description:
+    text: 瀏覽目錄
+action.Images.Thumbnails.EnterAction.text:
+    text: 瀏覽
+action.Images.Thumbnails.Hide.description:
+    text: 關閉預覽縮圖視窗
+action.Images.Thumbnails.Hide.text:
+    text: 關閉預覽縮圖
+action.Images.Thumbnails.ToggleRecursive.description:
+    text: 切換遞歸瀏覽
+action.Images.Thumbnails.ToggleRecursive.text:
+    text: 遞歸
+action.Images.Thumbnails.UpFolder.description:
+    text: 水平對齊
+action.Images.Thumbnails.UpFolder.text:
+    text: 水平對齊
+action.Images.ToggleTransparencyChessboard.description:
+    text: 切換下圖像的透明度棋盤
+action.Images.ToggleTransparencyChessboard.text:
+    text: 透明度棋盤
+action.ImplementMethods.description:
+    text: 在目前類別中實現基本介面/類別方法
+action.ImplementMethods.text:
+    text: 實現方法...
+action.ImportFromEclipse.description:
+    text: 從Eclipse項目建立項目
+action.ImportFromEclipse.text:
+    text: 從Eclipse匯入...
+action.ImportFromJBuilder.description:
+    text: 從JBuilder項目載入模組
+action.ImportFromJBuilder.text:
+    text: 從JBuilder匯入...
+action.ImportModule.description:
+    text: 從現有源目錄或從現有的項目模型匯入模組
+action.ImportModule.text:
+    text: 來自現有源的模組…
+action.ImportModuleFromImlFile.description:
+    text: 匯入IML檔案作為一個項目模組
+action.ImportModuleFromImlFile.text:
+    text: 匯入模組
+action.ImportProject.description:
+    text: 建立項目結構與現有的源目錄或轉換現有的項目模型
+action.ImportSettings.description:
+    text: 匯入全局設定
+action.ImportSettings.text:
+    text: 匯入設定...
+action.IncomingChanges.Get.description:
+    text: 如何修改選擇的檔案修改清單的最新版本
+action.IncomingChanges.Get.text:
+    text: 獲取變更清單
+action.IncomingChanges.Refresh.description:
+    text: 更新傳入變更清單
+action.IncomingChanges.Refresh.text:
+    text: 更新
+action.IncrementWindowHeight.text:
+    text: 遞增高度
+action.IncrementWindowWidth.text:
+    text: 增量寬度
+action.IncrementalSearch.description:
+    text: 開始增量搜索（當您輸入搜索字串），IntelliJ IDEA 6.0實現。
+action.IncrementalSearch.text:
+    text: 增量搜索
+action.Inline.description:
+    text: 內聯選擇的方法或變數
+action.Inline.text:
+    text: 內嵌(N)...
+action.InsertLiveTemplate.description:
+    text: 用彈出式清單顯示以指定前置字元開頭的範本
+action.InsertLiveTemplate.text:
+    text: 插入範本...
+action.InspectCode.description:
+    text: 檢查代碼
+action.InspectCode.text:
+    text: 檢查代碼...
+action.IntroduceConstant.description:
+    text: 更換一個常數（靜態final欄位）選擇的表達
+action.IntroduceConstant.text:
+    text: 常數(C)...
+action.IntroduceField.description:
+    text: 把所選的運算式的結果為一個欄位
+action.IntroduceParameter.description:
+    text: 開啟所選的運算式為方法參數
+action.IntroduceParameter.text:
+    text: 參數...
+action.IntroduceParameterObject.description:
+    text: 替代方法的參數清單與物件
+action.IntroduceParameterObject.text:
+    text: 參數物件...
+action.IntroduceVariable.description:
+    text: 把所選的運算式的結果到一個變數
+action.IntroduceVariable.text:
+    text: 變數...
+action.InvalidateCaches.description:
+    text: 下次啟動強制重建所有的記憶體緩衝區和索引
+action.InvalidateCaches.text:
+    text: 無效記憶體緩衝區...
+action.JumpToLastChange.description:
+    text: 移到最近的修改點
+action.JumpToLastChange.text:
+    text: 最後編輯位置
+action.JumpToLastWindow.description:
+    text: 啟用最後焦點的工具視窗
+action.JumpToLastWindow.text:
+    text: 跳到最後工具視窗
+action.LocalVcs.ShowRepHistory.text:
+    text: 版本庫歷史
+action.LocalVcs.ShowStatistics.description:
+    text: 顯示本機VCS統計
+action.LocalVcs.ShowStatistics.text:
+    text: 顯示本機VCS統計...
+action.LocalizePlugin.text:
+    text: 本地化增益集
+action.Lvcs.RollbackFileAction.description:
+    text: 回復
+action.Lvcs.RollbackFileAction.text:
+    text: 回復檔案
+action.Lvcs.ShowLvcsDiffAction.description:
+    text: 顯示所有變更
+action.Lvcs.ShowLvcsDiffAction.text:
+    text: 比較版本
+action.ManageRecentProjects.text:
+    text: 管理項目...
+action.MarkAsOriginalTypeAction.text:
+    text: 標記為原始檔案類型
+action.MarkAsPlainTextAction.text:
+    text: 標記為純文字
+action.MemberPushDown.description:
+    text: 推(Push)類別成員直接繼承子類別
+action.MemberPushDown.text:
+    text: 推(Push)類別成員(S)...
+action.MembersPullUp.description:
+    text: 拉(Pull)類別成員到超類別或實現介面
+action.MembersPullUp.text:
+    text: 拉(Pull)類別成員(L)...
+action.Merge3Files.text:
+    text: 合併
+action.MethodDown.description:
+    text: 導航到目前編輯器下一個方法
+action.MethodDown.text:
+    text: 下一個方法
+action.MethodHierarchy.BaseOnThisType.description:
+    text: 層次結構顯示所選類別/介面的方法
+action.MethodHierarchy.BaseOnThisType.text:
+    text: 在此基礎上類型
+action.MethodHierarchy.ImplementMethodAction.description:
+    text: 實施方法（從方法體系）
+action.MethodHierarchy.ImplementMethodAction.text:
+    text: 實施方法
+action.MethodHierarchy.OverrideMethodAction.description:
+    text: 覆寫方法（從方法體系）
+action.MethodHierarchy.OverrideMethodAction.text:
+    text: 覆寫方法
+action.MethodHierarchy.description:
+    text: 瀏覽選擇方法的層次結構
+action.MethodHierarchy.text:
+    text: 方法的層次結構
+action.MethodUp.description:
+    text: 導航到目前編輯器上一個方法
+action.MethodUp.text:
+    text: 上一個方法
+action.MinimizeCurrentWindow.description:
+    text: 最小化目前視窗
+action.MinimizeCurrentWindow.text:
+    text: 最小化
+action.ModuleSettings.description:
+    text: 開啟設定選取的模組對話方塊
+action.ModuleSettings.text:
+    text: 模組設定
+action.Move.description:
+    text: 移動選擇的類別，方法，包裝或靜態成員到另一個包或類別，並更正所有參照
+action.Move.text:
+    text: 移動...
+action.MoveEditorToOppositeTabGroup.description:
+    text: 移動編輯器相反的選項卡組
+action.MoveEditorToOppositeTabGroup.text:
+    text: 移動到相反的組(M)
+action.MoveElementLeft.description:
+    text: 將目前元素移動到包含元素清單的上一個位置
+action.MoveElementLeft.text:
+    text: 元素向前移動
+action.MoveElementRight.description:
+    text: 將目前元素移動到包含元素清單的下一個位置
+action.MoveElementRight.text:
+    text: 元素向後移動
+action.MoveLineDown.description:
+    text: 選取的行下移一行
+action.MoveLineDown.text:
+    text: 行向下移動
+action.MoveLineUp.description:
+    text: 選取的行上移一行
+action.MoveLineUp.text:
+    text: 行向上移動
+action.MoveStatementDown.description:
+    text: 向下移動選擇的語句一行
+action.MoveStatementDown.text:
+    text: 向下移動宣告
+action.MoveStatementUp.description:
+    text: 向上移動選擇的語句一行
+action.MoveStatementUp.text:
+    text: 向上移動宣告
+action.MoveToTheLeft.description:
+    text: 左移參數
+action.MoveToTheLeft.text:
+    text: 左移參數
+action.MoveToTheRight.description:
+    text: 右移參數
+action.MoveToTheRight.text:
+    text: 右移參數
+action.NewDir.text:
+    text: 目錄/包裝
+action.NewDirectoryProject.description:
+    text: 建立一個新項目
+action.NewDirectoryProject.text:
+    text: 新增項目...
+action.NewElement.description:
+    text: 建立新的類別，介面，檔案或目錄
+action.NewElement.text:
+    text: 新增...
+action.NewElementSamePlace.description:
+    text: 建立新的類別，介面，檔案或目錄
+action.NewElementSamePlace.text:
+    text: 新增...
+action.NewElementToolbarAction.text:
+    text: 建立新檔案
+action.NewFile.text:
+    text: 檔案
+action.NewFromTemplate.text:
+    text: 來自範本
+action.NewInspectionsInLatestVersion.description:
+    text: 顯示 IDEA 9 的新特性
+action.NewInspectionsInLatestVersion.text:
+    text: IDEA 9 的新特性
+action.NewModule.description:
+    text: 從頭開始建立新的模組，並將其新增到項目
+action.NewModuleInGroup.text:
+    text: 模組
+action.NewProject.description:
+    text: 從頭開始建立一個新項目
+action.NewScratchBuffer.description:
+    text: 建立新的或重新使用現有的臨時緩衝區
+action.NewScratchBuffer.text:
+    text: 新增臨時緩衝區
+action.NewScratchFile.description:
+    text: 建立所選語言的新臨時檔案
+action.NewScratchFile.text:
+    text: 臨時檔案
+action.NewScratchFile.text.with.new:
+    text: 新建臨時檔案
+action.NextDiff.description:
+    text: 移動到下一個差異
+action.NextDiff.text:
+    text: 下一個差異
+action.NextEditorTab.text:
+    text: 在多檔案編輯器選取下一個標籤
+action.NextOccurence.description:
+    text: 導航到下一個事件
+action.NextOccurence.text:
+    text: 下一個事件(X)
+action.NextParameter.text:
+    text: 下一個參數
+action.NextProjectWindow.description:
+    text: 切換到下一個項目視窗
+action.NextProjectWindow.text:
+    text: 下一個項目視窗
+action.NextSplitter.description:
+    text: 轉到下一個分割視窗
+action.NextSplitter.text:
+    text: 轉到下一個分割區
+action.NextTab.description:
+    text: 啟用下一個標籤
+action.NextTab.text:
+    text: 選取下一個標籤
+action.NextTemplateParameter.text:
+    text: 下一個實時模板參數
+action.NextTemplateVariable.text:
+    text: 下一個範本變數或完成就地重構
+action.OnlineDocAction.description:
+    text: 檢視線上文件
+action.OnlineDocAction.text:
+    text: 入門指南(G)
+action.OpenDirectoryProject.description:
+    text: 開始編輯代碼在指定的目錄
+action.OpenDirectoryProject.text:
+    text: 開放目錄...
+action.OpenFile.description:
+    text: 開啟編輯器中的項目或檔案
+action.OpenFile.text:
+    text: 開啟...
+action.OpenInRightSplit.description:
+    text: 將編輯器區域拆分為 2 個頁籤組，然後將當前檔案開啟到右側組
+action.OpenInRightSplit.text:
+    text: 在右側拆分部分開啟
+action.OpenModuleSettings.text:
+    text: 模組設定
+action.OverrideFileTypeAction.description:
+    text: 將當前檔案視為不同檔案類型的檔案
+action.OverrideFileTypeAction.text:
+    text: 覆寫檔案類型
+action.OverrideFileTypeAction.verbose.description:
+    text: "將檔案 ''{0}''{1,choice,0#|1# ( 和其他 {1} 個檔案)}視為具有不同檔案類型的檔案"
+action.OverrideMethods.description:
+    text: 在目前類別中重寫基礎類別方法
+action.OverrideMethods.text:
+    text: 重寫方法(_O)...
+action.ParameterInfo.description:
+    text: 該方法在呼叫插入符號顯示參數
+action.ParameterInfo.text:
+    text: 參數訊息
+action.PasteMultiple.description:
+    text: 從最近的剪貼簿貼上
+action.PasteMultiple.text:
+    text: 從歷史記錄貼上...
+action.PerformanceReport.text:
+    text: 提交性能報告
+action.PinActiveTab.description:
+    text: 固定目前工具視窗或編輯器選項卡
+action.PinActiveTab.text:
+    text: 固定活動標籤
+action.PlaySavedMacrosAction.description:
+    text: 播放儲存的巨集
+action.PlaySavedMacrosAction.text:
+    text: 播放儲存的巨集...
+action.PlaybackLastMacro.description:
+    text: 回放最後一次使用的巨集
+action.PlaybackLastMacro.text:
+    text: 回放最後的巨集
+action.PopupHector.description:
+    text: 顯示面板為目前設定檔案的高亮模式
+action.PopupHector.text:
+    text: 目前設定檔案分析...
+action.PrevParameter.text:
+    text: 上一個參數
+action.PrevSplitter.description:
+    text: 轉到上一個分割視窗
+action.PrevSplitter.text:
+    text: 轉到上一個分割區
+action.PrevTemplateParameter.text:
+    text: 上一個實時模板參數
+action.PreviousDiff.description:
+    text: 移動到上一個差異
+action.PreviousDiff.text:
+    text: 上一個差異
+action.PreviousEditorTab.text:
+    text: 在多檔案編輯器選取上一個標籤
+action.PreviousOccurence.description:
+    text: 導航到上一個事件
+action.PreviousOccurence.text:
+    text: 上一個事件(O)
+action.PreviousProjectWindow.description:
+    text: 切換到上一個項目視窗
+action.PreviousProjectWindow.text:
+    text: 上一個項目視窗
+action.PreviousTab.description:
+    text: 啟用上一個標籤
+action.PreviousTab.text:
+    text: 選取上一個標籤
+action.PreviousTemplateVariable.text:
+    text: 上一個範本變數
+action.Print.description:
+    text: 列印檔案
+action.Print.text:
+    text: 列印...
+action.ProjectViewChangeView.description:
+    text: 選取項目，源路徑和類別路徑,項目樹檢視視窗
+action.ProjectViewChangeView.text:
+    text: 變更檢視...
+action.ProjectViewEditSource.text:
+    text: 編輯源
+action.PsiViewer.text:
+    text: 檢視 PSI結構...
+action.PsiViewerForContext.text:
+    text: 檢視目前檔案的PSI結構...
+action.QuickChangeScheme.description:
+    text: 改變目前的代碼樣式專案，顏色字體專案，便捷鍵或外觀感覺(&F)
+action.QuickChangeScheme.text:
+    text: 快速切換專案...
+action.QuickDocCopy.text:
+    text: 複製快速文檔
+action.QuickEvaluateExpression.description:
+    text: 評估選取的表達
+action.QuickEvaluateExpression.text:
+    text: 快速評估運算式
+action.QuickImplementations.description:
+    text: 顯示一個彈出視窗，用符號（及其實現）含量
+action.QuickImplementations.text:
+    text: 便捷鍵定義
+action.QuickJavaDoc.description:
+    text: 顯示一個彈出視窗，用於在插入符號的符號檔案
+action.QuickJavaDoc.text:
+    text: 快速文件
+action.RearrangeCode.description:
+    text: 重新排列代碼
+action.RearrangeCode.text:
+    text: 重新排列代碼
+action.RecentChangedFiles.description:
+    text: 最近變更的檔案顯示清單
+action.RecentChangedFiles.text:
+    text: 最近變更的檔案
+action.RecentChanges.text:
+    text: 最近的修改
+action.RecentFiles.description:
+    text: 最近檢視過的檔案顯示清單
+action.RecentFiles.text:
+    text: 最近的檔案
+action.RecentLocations.description:
+    text: 顯示最近查看/更改的位置列表
+action.RecentLocations.text:
+    text: 最近的位置
+action.Refactorings.QuickListPopupAction.description:
+    text: 包含重構操作列表的上下文感知彈出視窗
+action.Refactorings.QuickListPopupAction.text:
+    text: 重構此…
+action.ReformatCode.description:
+    text: 格式化代碼
+action.Refresh.text:
+    text: 更新
+action.ReloadFromDisk.description:
+    text: 從硬盤重新載入目前檔案並遺失所有的改變
+action.ReloadFromDisk.text:
+    text: 從磁盤重新載入
+action.ReloadProjectAction.text:
+    text: 重新載入項目
+action.RemoveAllFavoritesListsButThis.description:
+    text: 刪除所有收藏這些除外
+action.RemoveAllFavoritesListsButThis.text:
+    text: 刪除所有收藏清單中，但此
+action.RemoveFavoritesList.description:
+    text: 刪除選擇的節點所屬的所有收藏到
+action.RemoveFavoritesList.text:
+    text: 刪除收藏夾清單
+action.RemoveStripeButton.description:
+    text: 從側資訊看板移除工具視窗按鈕
+action.RemoveStripeButton.text:
+    text: 側資訊看板移除
+action.RenameElement.description:
+    text: 重新命名選擇的符號並糾正所有參照
+action.RenameElement.text:
+    text: 重新命名...
+action.ReopenClosedTab.text:
+    text: 重新開啟關閉的頁籤
+action.Replace.description:
+    text: 用另一個字串替換目前編輯器中的字串
+action.Replace.text:
+    text: 替換...
+action.ReplaceInPath.description:
+    text: 替換字串中的多個檔案用另一個字串
+action.ReplaceInPath.text:
+    text: 在路徑替換...
+action.RerunFailedTests.description:
+    text: 只執行失敗/最後一次崩潰的測試
+action.RerunFailedTests.text:
+    text: 重新執行失敗的測試
+action.ResizeToolWindowDown.description:
+    text: 重設工具視窗到底部
+action.ResizeToolWindowDown.text:
+    text: 伸展至底部
+action.ResizeToolWindowLeft.description:
+    text: 重設工具視窗到左邊
+action.ResizeToolWindowLeft.text:
+    text: 伸展到左邊
+action.ResizeToolWindowMaximize.text:
+    text: 工具視窗最大化
+action.ResizeToolWindowMaximize.text.alternative:
+    text: 恢復工具視窗大小
+action.ResizeToolWindowRight.description:
+    text: 重設工具視窗到右邊
+action.ResizeToolWindowRight.text:
+    text: 延伸到右邊
+action.ResizeToolWindowUp.description:
+    text: 重設工具視窗到頂端
+action.ResizeToolWindowUp.text:
+    text: 延伸到頂部
+action.RestoreDefaultLayout.description:
+    text: 恢復預設佈局
+action.RestoreDefaultLayout.text:
+    text: 恢復預設佈局
+action.RevealIn.name.mac:
+    text: 在訪達中顯示
+action.RevealIn.name.other:
+    text: 在 {0} 中顯示
+action.RevealIn.text:
+    text: 在訪達中顯示
+action.ReverteOverrideFileTypeAction.description:
+    text: 撤消“覆寫檔案類型”操作並恢復舊檔案類型
+action.ReverteOverrideFileTypeAction.text:
+    text: 還原檔案類型覆寫
+action.ReverteOverrideFileTypeAction.verbose.description:
+    text: "撤消“覆寫檔案類型”操作並為檔案 ''{0}''{1,choice,0#|1# (和其他 {1} 個檔案)}恢復舊的檔案類型"
+action.RunAnything.description:
+    text: 允許執行任何指令
+action.RunAnything.text:
+    text: 執行任何內容
+action.RunConfiguration.description:
+    text: 選取執行/診斷設定
+action.RunConfiguration.text:
+    text: 選取執行/診斷設定
+action.RunDashboard.AddType.text:
+    text: 執行設定類型
+action.RunDashboard.ClearContent.text:
+    text: 清除內容
+action.RunDashboard.CopyConfiguration.text:
+    text: 複製設定
+action.RunDashboard.Debug.text:
+    text: 偵錯
+action.RunDashboard.EditConfiguration.text:
+    text: 編輯所選設定
+action.RunDashboard.GroupByStatus.text:
+    text: 狀態
+action.RunDashboard.GroupByType.text:
+    text: 類型
+action.RunDashboard.GroupConfigurations.text:
+    text: 分組設定
+action.RunDashboard.HideConfiguration.text:
+    text: 隱藏設定
+action.RunDashboard.OpenRunningConfigInNewTab.text:
+    text: 在新頁籤中開啟執行設定
+action.RunDashboard.RemoveType.text:
+    text: 從服務中移除設定類型
+action.RunDashboard.RestoreConfiguration.text:
+    text: 恢復設定
+action.RunDashboard.RestoreHiddenConfigurations.text:
+    text: 恢復隱藏的設定
+action.RunDashboard.Run.text:
+    text: 執行
+action.RunDashboard.Stop.text:
+    text: 停止
+action.RunDashboard.UngroupConfigurations.text:
+    text: 對設定取消分組
+action.RunGc.text:
+    text: 執行垃圾收集器
+action.Runner.AttachCell.description:
+    text: 將選取檢視附加到診斷器工具視窗
+action.Runner.AttachCell.text:
+    text: 附加
+action.Runner.AttachCells.text:
+    text: 附加{0}檢視
+action.Runner.CloseAllViews.description:
+    text: 關閉所有意見
+action.Runner.CloseAllViews.text:
+    text: 全部關閉
+action.Runner.CloseOtherViews.description:
+    text: 關閉其他檢視
+action.Runner.CloseOtherViews.text:
+    text: 關閉其他
+action.Runner.CloseView.description:
+    text: 關閉檢視
+action.Runner.CloseView.text:
+    text: 關閉
+action.Runner.DetachCell.description:
+    text: 分離所選檢視到一個單獨的視窗
+action.Runner.DetachCell.text:
+    text: 分離
+action.Runner.DetachCells.text:
+    text: 分離{0}檢視
+action.Runner.FocusOnStartup.description:
+    text: 預設情況下，這個焦點檢視時的UI顯示
+action.Runner.FocusOnStartup.text:
+    text: 專注啟動
+action.Runner.MinimizeView.description:
+    text: 隱藏檢視
+action.Runner.MinimizeView.text:
+    text: 隱藏
+action.Runner.MoveViewToGrid.description:
+    text: 移動檢視到診斷器網格容器
+action.Runner.MoveViewToGrid.text:
+    text: 移動網格
+action.Runner.MoveViewToTab.description:
+    text: 移動以診斷器選項卡容器
+action.Runner.MoveViewToTab.text:
+    text: 移動到標籤
+action.Runner.RestoreLayout.description:
+    text: 恢復診斷器會話的視覺元素到預設狀態
+action.Runner.RestoreLayout.text:
+    text: 恢復佈局
+action.Runner.RestoreView.description:
+    text: 恢復診斷器網格中的檢視
+action.Runner.RestoreView.text:
+    text: "恢復 ''{0}'' 檢視"
+action.Runner.ToggleToolbarLayout.description:
+    text: 切換水平/垂直方向的工具列
+action.Runner.ToggleToolbarLayout.text:
+    text: 水平工具列
+action.SafeDelete.description:
+    text: 刪除選擇的類別，方法或欄位，檢查用法
+action.SafeDelete.text:
+    text: 安全刪除...
+action.SaveAll.description:
+    text: 儲存所有檔案和設定
+action.SaveAll.text:
+    text: 全部儲存
+action.SaveAsTemplate.description:
+    text: 儲存選擇的文字為現有範本
+action.SaveAsTemplate.text:
+    text: 儲存為現有範本...
+action.SaveDocument.description:
+    text: 只儲存在目前編輯器中開啟檔案
+action.SaveDocument.text:
+    text: 儲存檔案
+action.SaveFileAsTemplate.description:
+    text: 儲存目前的檔案作為範本
+action.SaveFileAsTemplate.text:
+    text: 儲存檔案為範本...
+action.ScopeView.EditScopes.description:
+    text: 編輯範圍
+action.ScopeView.EditScopes.text:
+    text: 編輯範圍
+action.Scratch.ChangeLanguage.description:
+    text: 變更檔案語言
+action.Scratch.ChangeLanguage.text:
+    text: 變更檔案語言
+action.ScrollTreeToCenter.text:
+    text: 滾動到中心
+action.SearchEverywhere.text:
+    text: 搜索任何地方
+action.SelectAllOccurrences.text:
+    text: 選取所有符合項
+action.SelectIn.description:
+    text: 選取在任意檢視目前類別或方法
+action.SelectIn.text:
+    text: 選取(L)...
+action.SelectNextOccurrence.text:
+    text: 新增下一個符合項的選取
+action.ServiceView.GroupByContributor.text:
+    text: 服務類型
+action.ServiceView.GroupByServiceGroups.text:
+    text: 服務組
+action.ServiceView.JumpToServices.text:
+    text: 跳轉到服務
+action.ServiceView.OpenEachInNewTab.text:
+    text: 在新頁籤中開啟每個項
+action.ServiceView.OpenInNewTab.text:
+    text: 在新頁籤中開啟
+action.ServiceView.ShowServices.text:
+    text: 顯示服務樹
+action.ServiceView.SplitByType.text:
+    text: 在新頁籤中開啟每個類型
+action.ShelvedChanges.DeleteDeleted.text:
+    text: 刪除套用擱置的變更
+action.ShelvedChanges.Diff.description:
+    text: 差異顯示為選擇的修改
+action.ShelvedChanges.Diff.text:
+    text: 顯示差異
+action.ShelvedChanges.Rename.description:
+    text: 重新命名擱置變更清單
+action.ShelvedChanges.Rename.text:
+    text: 重新命名...
+action.ShelvedChanges.Restore.text:
+    text: 恢復套用擱置變更
+action.ShelvedChanges.ShowHideDeleted.description:
+    text: 顯示/隱藏已取消擱置變更
+action.ShelvedChanges.ShowHideDeleted.text:
+    text: 顯示/隱藏套用擱置的變更
+action.ShelvedChanges.Unshelve.description:
+    text: 套用儲存變更目前的代碼庫
+action.ShelvedChanges.Unshelve.text:
+    text: 取消擱置修改
+action.ShowBackwardPackageDeps.description:
+    text: 瀏覽中使用選擇的代碼分析項目
+action.ShowBackwardPackageDeps.text:
+    text: 反向分析依賴關係...
+action.ShowColorPicker.text:
+    text: 顯示取色器
+action.ShowContent.description:
+    text: 顯示彈出與工具視窗選項卡清單
+action.ShowContent.text:
+    text: 標籤的顯示清單
+action.ShowContent.views.text:
+    text: 顯示檢視列表
+action.ShowErrorDescription.description:
+    text: 錯誤或警告在插入符號的顯示說明
+action.ShowErrorDescription.text:
+    text: 錯誤說明
+action.ShowFilePath.description:
+    text: 在外部檔案管理器目前的檔案開啟的彈出路徑
+action.ShowFilePath.text:
+    text: 檔案路徑
+action.ShowIntentionActions.text:
+    text: 顯示行動意向
+action.ShowLog.description:
+    text: 開啟檔案夾中的日誌檔案
+action.ShowLog.text:
+    text: 開啟日誌檔案
+action.ShowModulesDependencies.description:
+    text: 在項目模組之間的依賴關係顯示
+action.ShowModulesDependencies.text:
+    text: 分析模組依賴關係...
+action.ShowNavBar.text:
+    text: 跳躍到導航列
+action.ShowPackageDeps.description:
+    text: 瀏覽選取代碼分析項目依賴於
+action.ShowPackageDeps.text:
+    text: 分析依賴關係...
+action.ShowPopupMenu.text:
+    text: 顯示內容選單
+action.ShowProcessWindow.description:
+    text: 顯示/隱藏後台工作視窗
+action.ShowProcessWindow.double.click:
+    text: 點擊顯示/隱藏後台工作視窗
+action.ShowProcessWindow.text:
+    text: 顯示
+action.ShowProjectStructureSettings.description:
+    text: 設定項目結構
+action.ShowProjectStructureSettings.text:
+    text: 項目結構...
+action.ShowQuickDocAtPinnedWindowFromTooltip.description:
+    text: 顯示在一個固定的視窗完整的文件
+action.ShowQuickDocAtPinnedWindowFromTooltip.text:
+    text: 在一個固定的視窗完整的文件
+action.ShowReformatFileDialog.text:
+    text: 顯示格式化檔案對話方塊
+action.ShowRegistry.text:
+    text: 註冊...
+action.ShowSettingsAndFindUsages.description:
+    text: 選取用於搜尋用法行動範圍並修改選項
+action.ShowSettingsAndFindUsages.text:
+    text: 搜尋使用實例設定...
+action.ShowTips.text:
+    text: 每日提示
+action.ShowUsages.description:
+    text: 顯示用法在插入符號的符號
+action.ShowUsages.text:
+    text: 顯示用法實例(S)
+action.ShowUserActivities.text:
+    text: 顯示活動的
+action.SmartTypeCompletion.description:
+    text: 基於預期類型完成代碼
+action.SmartTypeCompletion.text:
+    text: 智慧型類型(S)
+action.SplitHorizontally.description:
+    text: 分割編輯器區域分為2組選項卡，然後移動目前標籤頁底部的組
+action.SplitHorizontally.text:
+    text: 橫向分割
+action.SplitVertically.description:
+    text: 分割編輯器區域分為2組選項卡，然後移動目前標籤到右邊的組
+action.SplitVertically.text:
+    text: 垂直分割
+action.StartStopMacroRecording.description:
+    text: 啟動/停止錄製新的巨集
+action.StartStopMacroRecording.text:
+    text: 啟動/停止巨集錄製
+action.StartupWizard.description:
+    text: 執行一個嚮導，選取啟用的增益集集
+action.StartupWizard.text:
+    text: 設定增益集...
+action.Stop.description:
+    text: 停止進程
+action.Stop.text:
+    text: 停止
+action.StopBackgroundProcesses.description:
+    text: 停止後台進程
+action.StopBackgroundProcesses.text:
+    text: 停止後台進程...
+action.StoreDefaultLayout.description:
+    text: 存儲目前的佈局為預設
+action.StoreDefaultLayout.text:
+    text: 存儲目前的佈局為預設
+action.SurroundWith.description:
+    text: 使用 if, while, try/catch or other construct包裹住選擇的代碼片段
+action.SurroundWith.text:
+    text: 包裹(S)...
+action.SurroundWithLiveTemplate.description:
+    text: 使用選取的範本做外圍代碼
+action.SurroundWithLiveTemplate.text:
+    text: 用範本包圍...
+action.Switcher.text:
+    text: 切換器
+action.Synchronize.description:
+    text: 偵測所有外部變更檔案，並從磁盤重新載入它們
+action.Synchronize.text:
+    text: 同步
+action.SynchronizeCurrentFile.text:
+    text: 選擇的檔案同步
+action.TabList.description:
+    text: 在單行顯示下拉清單的選項卡標籤佈局
+action.TabList.text:
+    text: 顯示所有標籤頁
+action.TechnicalSupport.description:
+    text: 在JetBrains公司網站的存取技術支援
+action.TechnicalSupport.text:
+    text: 聯繫支援團隊 (_S)
+action.TemplateProjectProperties.description:
+    text: 設定所有新增項目的預設設定
+action.TemplateProjectProperties.text:
+    text: 預設設定...
+action.TemplateProjectStructure.description:
+    text: 設定所有新增項目的預設結構
+action.TemplateProjectStructure.text:
+    text: 預設的項目結構...
+action.TextComponent.ClearAction.description:
+    text: 在文字組件清除文字
+action.TextComponent.ClearAction.text:
+    text: 清晰的文字
+action.ToggleBreakpointEnabled.description:
+    text: 在目前行啟用/禁用斷點
+action.ToggleBreakpointEnabled.text:
+    text: 切換斷點啟用
+action.ToggleContentUiTypeMode.description:
+    text: 內容標籤式/組合呈現之間切換
+action.ToggleDockMode.description:
+    text: 停靠/不停靠活動的工具視窗
+action.ToggleDockMode.text:
+    text: 停靠模式
+action.ToggleFloatingMode.description:
+    text: 浮動/不浮動活動的工具視窗
+action.ToggleFloatingMode.text:
+    text: 浮動模式
+action.ToggleFullScreen.description:
+    text: 切換全屏模式
+action.ToggleFullScreen.text:
+    text: 切換全屏模式
+action.ToggleFullScreen.text.enter:
+    text: 進入全屏
+action.ToggleFullScreen.text.exit:
+    text: 結束全屏
+action.TogglePinnedMode.description:
+    text: 鎖定/解鎖啟用工具視窗
+action.TogglePinnedMode.text:
+    text: 鎖定模式
+action.TogglePopupHints.text:
+    text: 切換彈出提示為目前檔案
+action.TogglePowerSave.description:
+    text: 節能模式下會禁用代碼分析和其它後台操作
+action.TogglePowerSave.text:
+    text: 節能模式
+action.TogglePresentationMode.description:
+    text: 切換試用模式
+action.TogglePresentationMode.text:
+    text: 切換試用模式
+action.TogglePresentationMode.text.enter:
+    text: 進入試用模式
+action.TogglePresentationMode.text.exit:
+    text: 結束試用模式
+action.ToggleReadOnlyAttribute.description:
+    text: 目前檔案的切換唯讀屬性
+action.ToggleReadOnlyAttribute.text:
+    text: 切換唯讀屬性
+action.ToggleSideMode.description:
+    text: 工具視窗開/關分割模式
+action.ToggleSideMode.text:
+    text: 分割模式
+action.ToggleWindowedMode.description:
+    text: 視窗/移除活動工具視窗
+action.ToggleWindowedMode.text:
+    text: 視窗模式 (_W)
+action.TypeHierarchy.BaseOnThisType.text:
+    text: 在此基礎上類型
+action.TypeHierarchy.Class.text:
+    text: 類別層次結構
+action.TypeHierarchy.Subtypes.text:
+    text: 子類型層次結構
+action.TypeHierarchy.Supertypes.text:
+    text: 超類型層次結構
+action.TypeHierarchy.description:
+    text: 瀏覽選取類別的層次結構
+action.TypeHierarchy.text:
+    text: 類型層次結構
+action.UnmarkRoot.text:
+    text: 取消標記根
+action.UnselectPreviousOccurrence.text:
+    text: 取消選取符合項
+action.Unsplit.description:
+    text: 不可分割的視窗
+action.Unsplit.text:
+    text: 不可分割的
+action.UnsplitAll.description:
+    text: 移出所有分割區
+action.UnsplitAll.text:
+    text: 不可分割的所有
+action.Unwrap.description:
+    text: 安全地解除或刪除選取的包裹
+action.Unwrap.text:
+    text: 解除/刪除...
+action.UpdateRunningApplication.text:
+    text: 更新正在執行的應用程式
+action.UsageView.Exclude.description:
+    text: 從處理中排除該用法
+action.UsageView.Exclude.text:
+    text: 排除
+action.UsageView.Include.description:
+    text: 包括這種用法為處理
+action.UsageView.Include.text:
+    text: 包含
+action.UsageView.Rerun.description:
+    text: 重新搜索
+action.UsageView.Rerun.text:
+    text: 重新執行
+action.UsageView.ShowRecentFindUsages.description:
+    text: 選取與重新執行最近的搜尋實例
+action.UsageView.ShowRecentFindUsages.text:
+    text: 最近的搜尋實例(E)
+action.Vcs.CheckCommitMessageSpelling.description:
+    text: 切換檢查提交訊息的拼字錯誤
+action.Vcs.CheckCommitMessageSpelling.text:
+    text: 檢查提交訊息的拼字
+action.Vcs.EditSourceAction.description:
+    text: 編輯源代碼
+action.Vcs.EditSourceAction.text:
+    text: 編輯源代碼
+action.Vcs.ExcludeAction.description:
+    text: 從 Commit 排除
+action.Vcs.ExcludeAction.text:
+    text: 從 Commit 排除
+action.Vcs.FileView.description:
+    text: 顯示版本控制相關的訊息對所有本機檔案
+action.Vcs.FileView.text:
+    text: 顯示檔案檢視
+action.Vcs.ProjectStatus.text:
+    text: 檢查項目狀態
+action.Vcs.Push.text:
+    text: 推送…
+action.Vcs.RollbackChangedLines.description:
+    text: 在選擇的行回復變更
+action.Vcs.RollbackChangedLines.text:
+    text: 回復
+action.Vcs.RollbackChanges.description:
+    text: 回復變更
+action.Vcs.RollbackChanges.text:
+    text: 回復變更
+action.Vcs.ShowDiffAction.text:
+    text: 顯示變更
+action.Vcs.ShowHistoryForBlock.description:
+    text: 顯示歷史編輯選取
+action.Vcs.ShowHistoryForBlock.text:
+    text: 顯示歷史選取
+action.Vcs.UpdateProject.text:
+    text: 更新項目
+action.VcsHistory.ShowAllAffected.description:
+    text: 顯示在所選取的版本所做的所有變更
+action.VcsHistory.ShowAllAffected.text:
+    text: 顯示所有受影響的檔案
+action.ViewImportPopups.description:
+    text: 切換顯示輸入彈出視窗的目前檔案
+action.ViewImportPopups.text:
+    text: 顯示匯入彈出視窗
+action.ViewNavigationBar.description:
+    text: 顯示/隱藏導航列
+action.ViewNavigationBar.text:
+    text: 導航列
+action.ViewOfflineInspection.description:
+    text: 載入離線偵測結果
+action.ViewOfflineInspection.text:
+    text: 檢視離線檢驗結果...
+action.ViewSource.description:
+    text: 開啟編輯所選項目
+action.ViewSource.text:
+    text: 顯示源代碼
+action.ViewStatusBar.description:
+    text: 顯示/隱藏狀態列
+action.ViewStatusBar.text:
+    text: 狀態列
+action.ViewToolBar.description:
+    text: 顯示/隱藏主工具列
+action.ViewToolBar.text:
+    text: 工具列
+action.ViewToolButtons.description:
+    text: 顯示/隱藏工具視窗按鈕
+action.ViewToolButtons.text:
+    text: 工具按鈕
+action.VirtualFileInfo.text:
+    text: 虛擬檔案訊息
+action.WelcomeScreen.Configure.DesktopEntry.description:
+    text: 與系統應用程式選單中整合建立一個桌面項
+action.WelcomeScreen.Configure.DesktopEntry.text:
+    text: 建立桌面項
+action.WelcomeScreen.Configure.Export.text:
+    text: 匯出設定
+action.WelcomeScreen.Configure.Import.text:
+    text: 匯入設定
+action.WelcomeScreen.CreateDirectoryProject.description:
+    text: 建立一個新項目。
+action.WelcomeScreen.CreateDirectoryProject.text:
+    text: 建立新項目
+action.WelcomeScreen.CreateNewProject.description:
+    text: 啟動「新增項目」嚮導將引導您通過必要的步驟來建立一個新的項目。
+action.WelcomeScreen.CreateNewProject.text:
+    text: 建立新項目
+action.WelcomeScreen.DevelopPlugins.description:
+    text: 開始開發增益集{0}。
+action.WelcomeScreen.DevelopPlugins.text:
+    text: 增益集開發
+action.WelcomeScreen.GetFromVcs.description:
+    text: 您可以檢查出整個項目的版本控制系統。點擊該圖示或連結來選取你的VCS。
+action.WelcomeScreen.GetFromVcs.text:
+    text: 從版本庫檢出
+action.WelcomeScreen.ImportProject.description:
+    text: 建立目錄{0}的項目結構與現有的源或轉換現有的項目模型。
+action.WelcomeScreen.ImportProject.text:
+    text: 匯入項目
+action.WelcomeScreen.OpenDirectoryProject.description:
+    text: 開始編輯指定檔案或目錄的代碼。
+action.WelcomeScreen.OpenDirectoryProject.text:
+    text: 開啟...
+action.WelcomeScreen.OpenProject.description:
+    text: 開啟{0} 檔案或項目。 <br/>您還可以通過拖動開啟的項目或編輯的檔案拖放到歡迎屏幕。
+action.WelcomeScreen.OpenProject.text:
+    text: 開啟...
+action.WelcomeScreen.Plugins.description:
+    text: 管理已安裝的增益集，並從庫中下載新的
+action.WelcomeScreen.Plugins.text:
+    text: 增益集
+action.WhatsNewAction.description:
+    text: 瞭解這個版本的IDE有關的新功能
+action.WhatsNewAction.text:
+    text: 新特性(N)
+action.editRunConfigurations.description:
+    text: 開啟編輯執行/診斷設定對話方塊
+action.editRunConfigurations.text:
+    text: 編輯設定...
+action.openAssertEqualsDiff.text:
+    text: 檢視assertEquals差異
+action.redo.description:
+    text: 重做{0}
+action.redo.description.empty:
+    text: 上次還原的操作
+action.redo.text:
+    text: 重做{0}
+action.undo.description:
+    text: 還原{0}
+action.undo.description.empty:
+    text: 最後操作
+action.undo.text:
+    text: 還原{0}
+group.$LRU.description:
+    text: 最近開啟的項目清單
+group.$LRU.text:
+    text: 開啟最近(R)
+group.ActiveToolwindowGroup.text:
+    text: 啟用工具視窗
+group.AddAllToFavorites.text:
+    text: 全部新增到收藏夾
+group.AddToFavorites.text:
+    text: 新增到收藏夾
+group.AnalyzeJavaMenu.description:
+    text: 分析Java選單
+group.AnalyzeJavaMenu.text:
+    text: 分析Java選單
+group.AnalyzeMenu.text:
+    text: 分析
+group.BackgroundTasks.text:
+    text: 後台工作
+group.Bookmarks.text:
+    text: 書籤
+group.ChangeLineSeparators.text:
+    text: 行分隔符
+group.CloseEditorsGroup.text:
+    text: 編輯關閉操作
+group.CodeCompletionGroup.text:
+    text: 完成
+group.CodeEditorBaseGroup.text:
+    text: 代碼編輯器檢視操作
+group.CodeEditorViewGroup.text:
+    text: 代碼檢視操作
+group.CodeFormatGroup.text:
+    text: 代碼格式化操作
+group.CodeMenu.text:
+    text: 代碼(_C)
+group.CommanderViewPopupMenu.text:
+    text: 命令檢視下拉選單
+group.CommentGroup.text:
+    text: 註解操作
+group.ConvertIndentsGroup.text:
+    text: 轉換縮進
+group.Copy.Paste.Special.description:
+    text: 複製/貼上特殊編輯器操作
+group.Copy.Paste.Special.text:
+    text: 複製/貼上特殊
+group.CopyReferencePopupGroup.text:
+    text: 複製路徑/引用…
+group.CutCopyPasteGroup.text:
+    text: 剪下/複製/貼上操作
+group.DebugMainMenu.text:
+    text: 診斷器操作
+group.EditBookmarksGroup.text:
+    text: 書籤
+group.EditCreateDeleteGroup.text:
+    text: 編輯器建立/刪除操作
+group.EditMenu.text:
+    text: 編輯
+group.EditSelectGroup.text:
+    text: 編輯選取操作
+group.EditSelectWordGroup.text:
+    text: 選取Word操作
+group.EditSmartGroup.text:
+    text: 編輯代碼操作
+group.EditorActions.text:
+    text: 編輯器操作
+group.EditorGutterPopupMenu.text:
+    text: 編輯左邊空隙快顯功能表
+group.EditorLangPopupMenu.text:
+    text: 編輯器快顯功能表操作 (2)
+group.EditorPopupMenu.GoTo.description:
+    text: 轉到編輯器快顯功能表組
+group.EditorPopupMenu.GoTo.text:
+    text: 轉到
+group.EditorPopupMenu.Run.text:
+    text: 編譯/執行操作
+group.EditorPopupMenu.description:
+    text: 編輯快顯功能表
+group.EditorPopupMenu.text:
+    text: 編輯快顯功能表
+group.EditorPopupMenu1.text:
+    text: 編輯器快顯功能表操作 (1)
+group.EditorPopupMenuDebug.text:
+    text: 診斷操作
+group.EditorTabPopupMenu.text:
+    text: 編輯器標籤快顯功能表
+group.EditorTabPopupMenuEx.text:
+    text: 編輯器標籤彈出式選單操作 (1)
+group.EditorTabsGroup.text:
+    text: 編輯器選項卡
+group.EditorToggleActions.text:
+    text: 目前編輯器
+group.ExportImportGroup.text:
+    text: 匯出/匯入操作
+group.ExternalToolsGroup.text:
+    text: 外部工具
+group.FavoritesViewPopupMenu.text:
+    text: 收藏檢視下拉選單
+group.FilSettingsGroup.text:
+    text: 設定操作
+group.FileMainSettingsGroup.text:
+    text: 設定操作
+group.FileMenu.text:
+    text: 檔案
+group.FileOpenGroup.text:
+    text: 檔案開啟操作
+group.FileOtherSettingsGroup.text:
+    text: 其他設定
+group.FilePropertiesGroup.text:
+    text: 檔案屬性
+group.FindMenuGroup.text:
+    text: 搜尋
+group.FoldingGroup.text:
+    text: 折疊
+group.GenerateGroup.text:
+    text: 產生
+group.GoToCodeGroup.text:
+    text: 跳躍到參考操作
+group.GoToErrorGroup.text:
+    text: 跳躍到錯誤/書籤操作
+group.GoToMenu.text:
+    text: 導航
+group.GoToMenuEx.text:
+    text: 方法導航操作
+group.GoToTargetEx.text:
+    text: 跳躍到名稱操作
+group.HelpMenu.text:
+    text: 說明
+group.HierarchyGroup.text:
+    text: 層次操作
+group.IntroduceActionsGroup.text:
+    text: 擷取
+group.Macros.description:
+    text: 檢視，變更，錄製，播放巨集
+group.Macros.text:
+    text: 巨集
+group.MacrosGroup.text:
+    text: 巨集操作
+group.MainMenu.text:
+    text: 主選單
+group.MainToolBar.text:
+    text: 主工具列
+group.MarkFileAs.text:
+    text: 標記檔案為
+group.MarkRootGroup.text:
+    text: 目錄標記為
+group.MemoryManagement.text:
+    text: 記憶體管理
+group.MoveModuleToGroup.description:
+    text: 移動模組
+group.MoveModuleToGroup.text:
+    text: 移動模組到組
+group.NavbarPopupMenu.text:
+    text: 導航列
+group.NewGroup.text:
+    text: 新增(_N)
+group.NewGroup1.text:
+    text: 新增組 (1)
+group.NewGroup2.text:
+    text: 新增組 (2)
+group.OpenProjectGroup.text:
+    text: 開啟項目操作
+group.OpenProjectWindows.text:
+    text: 開啟項目視窗
+group.OtherMenu.description:
+    text: 這是不正確的註冊行為
+group.OtherMenu.text:
+    text: 其它
+group.OverrideFileTypeAction.bundledPlugin:
+    text: 捆綁
+group.OverrideFileTypeAction.fromNamedPlugin:
+    text: "自 ''{0}'' 延伸模組"
+group.OverrideFileTypeAction.title:
+    text: 選擇檔案類型
+group.PairFileActions.text:
+    text: 成對檔案操作
+group.PasteGroup.text:
+    text: 貼上
+group.PrintExportGroup.text:
+    text: 列印/匯出操作
+group.ProjectImport.text:
+    text: 匯入項目
+group.ProjectViewAnalysisGroup.text:
+    text: 分析操作
+group.ProjectViewCompileGroup.text:
+    text: 編譯/診斷操作
+group.ProjectViewGroup.text:
+    text: 項目檢視操作
+group.ProjectViewPopupMenu.text:
+    text: 項目檢視下拉選單
+group.ProjectViewPopupMenuModifyGroup.text:
+    text: 項目檢視彈出修改組選單
+group.ProjectViewPopupMenuRefactoringGroup.text:
+    text: 項目檢視彈出重構組選單
+group.ProjectViewPopupMenuRunGroup.text:
+    text: 項目檢視彈出執行組選單
+group.ProjectViewPopupMenuSettingsGroup.text:
+    text: 項目檢視彈出設定組選單
+group.RefactoringMenu.text:
+    text: 重構
+group.RefactoringMenu1.text:
+    text: 重構操作 (1)
+group.RefactoringMenu2.text:
+    text: 重構操作 (2)
+group.RefactoringMenu3.text:
+    text: 重構操作 (3)
+group.ResizeToolWindowGroup.text:
+    text: 調整大小
+group.RevealGroup.text:
+    text: 開啟於
+group.RunContextPopupGroup.text:
+    text: 執行設定
+group.RunDashboard.Filter.text:
+    text: 設定狀態
+group.RunDashboard.GroupBy.text:
+    text: 設定
+group.RunMenu.text:
+    text: 執行
+group.Runner.Layout.description:
+    text: 佈局設定
+group.Runner.Layout.text:
+    text: 佈局
+group.RunnerActions.text:
+    text: 執行/診斷
+group.RunnerActionsTouchbar.text:
+    text: Touch Bar 執行/偵錯操作
+group.SendToFavoritesGroup.text:
+    text: 傳送到收藏夾
+group.ServiceView.AddService.text:
+    text: 添加服務
+group.ServiceView.Filter.text:
+    text: 篩選器
+group.ServiceView.GroupBy.text:
+    text: 分組依據
+group.ServiceView.OpenInNewTabGroup.text:
+    text: 在新頁籤中開啟
+group.Shelve.KeymapGroup.text:
+    text: 擱置
+group.ShowAnnotateOperationsPopupGroup.text:
+    text: 註解行
+group.ShowRecentFindUsagesGroup.description:
+    text: 選取與重新執行最近的搜尋實例
+group.ShowRecentFindUsagesGroup.text:
+    text: 最近搜尋用法
+group.StandardMacroActions.text:
+    text: 標準的巨集操作
+group.TabsPlacementGroup.text:
+    text: 標籤佈置
+group.TodoViewGroupByGroup.text:
+    text: 分組依據
+group.ToggleBreakpointAction.text:
+    text: 斷點操作
+group.ToolWindowsGroup.text:
+    text: 工具視窗
+group.ToolbarFindGroup.text:
+    text: 工具列搜尋操作
+group.ToolbarMakeGroup.text:
+    text: 工具列進行操作
+group.ToolbarNewElement.text:
+    text: 工具列新元素組
+group.ToolbarRunGroup.text:
+    text: 工具列執行操作
+group.ToolsBasicGroup.description:
+    text: 基本工具組
+group.ToolsBasicGroup.text:
+    text: 基本工具組
+group.ToolsMenu.text:
+    text: 工具
+group.ToolsXmlGroup.text:
+    text: XML操作
+group.TouchBarDebug.ForceStepButtons.text:
+    text: 偵錯器強制步操作
+group.TouchBarDebug.StepButtons.text:
+    text: 偵錯器步操作
+group.TouchBarDebug.text:
+    text: 偵錯器
+group.TouchBarDebug_alt.text:
+    text: 使用 Alt 鍵的偵錯器
+group.TouchBarDefault.text:
+    text: 預設
+group.TouchBarDefaultOptionalGroup.text:
+    text: 可選操作
+group.TouchBarDefault_alt.text:
+    text: 預設使用 Alt 鍵
+group.TouchBarDefault_cmd.alt.text:
+    text: 預設使用 Alt+Cmd 鍵
+group.TouchBarDefault_cmd.text:
+    text: 預設使用 Cmd 鍵
+group.TouchBarDefault_ctrl.text:
+    text: 預設使用 Ctrl 鍵
+group.TouchBarDefault_shift.text:
+    text: 預設使用 Shift 鍵
+group.ViewMenu.text:
+    text: 檢視
+group.ViewRecentActions.text:
+    text: 檢視最近啟用的組
+group.ViewStatusBarWidgetsGroup.description:
+    text: 顯示/隱藏狀態欄微件
+group.ViewStatusBarWidgetsGroup.text:
+    text: 狀態欄微件(_W)
+group.WeighingNewGroup.text:
+    text: 新增(_N)
+group.WindowMenu.text:
+    text: 視窗
+group.XDebugger.settings.text:
+    text: 設定
+group.XmlGenerateToolsGroup.text:
+    text: XML的產生操作
+group.reopen.mac.text:
+    text: 開啟最近的
+group.reopen.win.text:
+    text: 重新開啟
+show.log.in.action.text:
+    text: 在 {0} 中顯示日誌
+stop.capture.cpu.usage.data.action.name:
+    text: 停止CPU的使用情況分析

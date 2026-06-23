@@ -1,0 +1,78 @@
+coverage.button.add.package:
+    text: Дадаць пакет…
+coverage.classes:
+    text: классы
+coverage.classes.capitalised:
+    text: Классы
+coverage.error.jacoco.report.corrupted:
+    text: Файл справаздачы Jacoco {0} можа быць пашкоджаны, паспрабуйце запусціць паўторна
+coverage.error.jacoco.report.format:
+    text: 'Файл не соответствует формату отчёта Jacoco: {0}'
+coverage.pattern.filter.editor.choose.package.title:
+    text: Выбрать пакет
+coverage.recompile:
+    text: Перакампіляваць
+coverage.settings:
+    text: Паказаць параметры пакрыцця кода
+coverage.settings.exclude:
+    text: Выключыць класы і пакеты
+coverage.settings.group:
+    text: Пакрыццё кода
+coverage.settings.include:
+    text: Указаць класы і пакеты
+coverage.settings.menu:
+    text: Налады пакрыцця
+coverage.view.column.branch:
+    text: Галіны, %
+coverage.view.column.class:
+    text: Класс, %
+coverage.view.column.line:
+    text: Радкі, %
+coverage.view.column.method:
+    text: Методы, %
+coverage.view.text.classes.covered:
+    text: '{0}% классов'
+coverage.view.text.methods.covered:
+    text: '{0}% методов'
+coverage.xml.report.title:
+    text: XML-отчёт
+do.not.show.coverage.data.in.specified.classes.and.packages:
+    text: Не паказваць даныя пакрыцця ў указаных класах і пакетах
+download.coverage.report.from.target.failed:
+    text: Не ўдалося загрузіць справаздачу пра пакрыццё з мэтавай прылады
+download.coverage.report.from.target.progress.title:
+    text: Загрузка справаздачы пра пакрыццё з мэтавай прылады…
+exclude.coverage.filters.title:
+    text: Пакеты і класы для выключэння з даных пакрыцця
+generating.coverage.report:
+    text: Стварэнне справаздачы пра пакрыццё…
+java.coverage.engine.presentable.text:
+    text: Пакрыццё Java
+notification.group.coverage:
+    text: Памылка пры загрузцы або зборы даных пра пакрыццё
+project.class.files.are.out.of.date:
+    text: Файлы класаў праекта састарэлі, гэта можа прывесці да няпоўнай інфармацыі пра пакрыццё
+project.is.out.of.date:
+    text: Проект устарел
+record.coverage.filters.title:
+    text: Пакеты і класы для ўключэння ў даныя пакрыцця
+report.unknown.outcome:
+    text: 'Невядомы вынік: {0}'
+run.configuration.choose.coverage.runner:
+    text: 'Выберыце сродак запуску пакрыцця:'
+run.configuration.coverage.branches:
+    text: Пакрыццё галін
+run.configuration.coverage.branches.comment:
+    text: Збіраць пакрыццё для ўсіх галін аператараў if/switch
+run.configuration.enable.coverage.in.test.folders:
+    text: Збіраць пакрыццё ў тэставых папках
+run.configuration.track.per.test.coverage:
+    text: Адсочваць пакрыццё для кожнага тэста
+run.configuration.track.per.test.coverage.comment:
+    text: Збіраць даныя пра тое, якія радкі кода пакрыты канкрэтнымі тэстамі
+settings.coverage.java.ignore.implicitly.declared.default.constructors:
+    text: "Ігнараваць няяўна аб'яўленыя канструктары па змаўчанні"
+settings.coverage.java.java.coverage:
+    text: Пакрыццё Java
+show.coverage.data.only.in.specified.classes.and.packages:
+    text: Паказваць даныя пакрыцця толькі ў указаных класах і пакетах

@@ -1,0 +1,36 @@
+action.BranchActionGroupPopup.Anonymous.text.restore.size:
+    text: 还原弹出窗口大小
+action.BranchActionGroupPopup.settings.text:
+    text: 设置
+branch.popup.vcs.name.branches:
+    text: '{0} 分支'
+branch.popup.vcs.name.branches.in.repo:
+    text: '{1} 中的 {0} 分支'
+branch.popup.warning.branches.have.diverged:
+    text: 分支已出现分叉
+clone.button:
+    text: 克隆
+clone.destination.directory.error.access:
+    text: 无法创建目标目录<br/>请检查您的访问权限
+clone.parent.dir:
+    text: '父目录(&P):'
+clone.parent.missing.error:
+    text: 父路径 {0} 必须存在。
+clone.repository.url.test.failed.message:
+    text: 仓库测试失败<br/>{0}
+clone.test.success.message:
+    text: 连接成功
+clone.testing:
+    text: 正在测试 {0}
+clone.title:
+    text: 克隆仓库
+cloning.repository:
+    text: 正在克隆源代码仓库 {0}
+sync.setting:
+    text: 在所有根上执行分支操作
+sync.setting.description:
+    text: 如果选中，您可以使用单个操作在所有{0}根中签出、比较、删除或创建新分支。该选项还会影响推送对话框的行为。
+tooltip.branch.widget.root.name.text:
+    text: '根: {0}'
+tooltip.branch.widget.vcs.branch.name.text:
+    text: '{0} 分支: {1}'

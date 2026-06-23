@@ -1,0 +1,385 @@
+action.description.compare:
+    text: バージョンの比較
+action.description.compare.with.local:
+    text: ローカル バージョンと比較する
+action.description.get.file.content.from.repository:
+    text: cvs からバージョンを取得する
+action.desctiption.refresh:
+    text: ファイル履歴の更新
+action.name.check.scope.status:
+    text: '{0} ステータスの確認'
+action.name.check.status:
+    text: ステータスの確認
+action.name.commit.project:
+    text: プロジェクトのコミット
+action.name.compare:
+    text: 比較
+action.name.compare.with.local:
+    text: ローカルと比較
+action.name.file.history:
+    text: ファイル {0} 履歴
+action.name.for.file.get.version:
+    text: '{0}: バージョン {1} の取得'
+action.name.get.file.content.from.repository:
+    text: 取得
+action.name.group.by.packages:
+    text: パッケージでグループ化する
+action.name.refresh:
+    text: 更新
+action.name.rollback:
+    text: ロールバック
+action.name.show.difference:
+    text: 差分の表示
+action.name.show.files.as.tree:
+    text: ツリーで表示
+action.name.show.history.for.function:
+    text: 関数
+action.name.update:
+    text: アップデート
+acton.name.get.revision:
+    text: リビジョンの取得
+before.checkin.cleanup.code:
+    text: 掃除
+before.checkin.standard.options.check.smells:
+    text: 問題のあるコードが含まれるファイルを確認する(&S)
+before.commit.files.contain.code.smells.edit.them.confirm.text:
+    text: |-
+        一部のファイルに問題のあるコードが含まれています。
+          {0,choice, 0#0 個のエラー|1#1 個のエラー|2#{0} 個のエラー} と {1,choice, 0#0 個の警告|1#1 個の警告|2#{1} 個の警告} が見つかりました。
+          コミットをキャンセルしてファイルをレビューしますか ?
+border.changes.filter.change.number.filter:
+    text: 変更
+border.changes.filter.date.filter:
+    text: 日付
+border.display.dialog.for.files.creation.deletion:
+    text: ファイルの作成/削除
+border.display.dialog.when.commands.invoked:
+    text: 'これらのコマンドが起動されたときにオプション ダイアログを表示する :'
+border.selected.revision.commit.message:
+    text: 'コミット メッセージ:'
+border.standard.checkin.options.group:
+    text: チェックイン前
+button.configure:
+    text: 設定(&C)
+button.text.overwrite.modified.file:
+    text: 変更したファイルを上書き(&O)
+button.text.overwrite.modified.files:
+    text: 変更したファイルを上書き(&O)
+changes.default.changelist.name:
+    text: デフォルト
+checkbox.checkin.options.optimize.imports:
+    text: インポートの最適化(&O)
+checkbox.checkin.options.rearrange.code:
+    text: コードの整理
+checkbox.checkin.options.reformat.code:
+    text: コードの再フォーマット(&R)
+checkbox.force.non.empty.messages:
+    text: 空でないメッセージにする
+checkbox.show.changed.revisions.only:
+    text: 変更のみ
+checkbox.show.changes.after.date:
+    text: 後(&A)
+checkbox.show.changes.before.date:
+    text: 前(&B)
+checkbox.show.clear.read.only.status.dialog:
+    text: '"読み取り専用ステータスのクリア ダイアログ" を表示する'
+checking.code.smells.progress.title:
+    text: 問題のあるコードを検索しています
+code.smells.error.messages.tab.name:
+    text: 問題のあるコード
+column.name.revision.date:
+    text: 日付
+column.name.revision.list.author:
+    text: 作者
+column.name.revision.list.date:
+    text: 日付
+column.name.revision.list.message:
+    text: メッセージ
+column.name.revision.list.revision:
+    text: リビジョン
+column.name.revision.version:
+    text: バージョン
+column.name.revisions.list.branch:
+    text: ブランチ
+column.name.revisions.list.filter:
+    text: 日付
+command.name.open.error.message.view:
+    text: メッセージ ビューを開く
+command.name.rollback.change:
+    text: 変更のロールバック
+commit.legend.unversioned:
+    text: バージョン管理なし：
+committed.changes.group.title:
+    text: グループ化する
+committed.changes.incorrect.regex.message:
+    text: フィルタで使用されている正規表現が無効です
+committed.changes.regex.title:
+    text: 正規表現
+configuration.tab.name.general.settings:
+    text: 一般設定
+confirmation.text.check.in.with.empty.comment:
+    text: 空のコメントでチェックインしますか ?
+confirmation.title.check.in.with.empty.comment:
+    text: コメントは空です
+dialog.title.changes.browser:
+    text: ブラウザの変更
+dialog.title.choose.commit.message.from.history:
+    text: メッセージの選択
+dialog.title.clear.read.only.file.status:
+    text: 読み取り専用ステータスのクリア
+dialog.title.diff.for.range:
+    text: 範囲の差分
+dialog.title.history.for.file:
+    text: ファイル {0} の履歴
+dialog.title.version.control.configurations:
+    text: バージョン管理設定
+diff.content.title.current.range:
+    text: 現在
+diff.content.title.repository.version:
+    text: '{0} ( リポジトリ バージョン )'
+diff.content.title.revision.number:
+    text: リビジョン {0}
+diff.content.title.up.to.date:
+    text: 最新
+diff.title.local:
+    text: ローカル
+diff.type.name.added:
+    text: 追加
+diff.type.name.deleted:
+    text: 削除
+diff.type.name.modified:
+    text: 変更
+exception.text.internal.error.method.should.not.be.called:
+    text: 呼び出されてはいけません
+exception.text.internal.errror.could.not.implement.method:
+    text: 実装できません
+exception.text.unknown.error:
+    text: 不明なエラー
+file.status.name.added:
+    text: 追加
+file.status.name.deleted:
+    text: 削除
+file.status.name.deleted.from.file.system:
+    text: ファイル システムから削除
+file.status.name.ignored:
+    text: 無視
+file.status.name.merged:
+    text: マージ
+file.status.name.merged.with.conflicts:
+    text: 競合とマージ
+file.status.name.modified:
+    text: 変更
+file.status.name.suppressed:
+    text: 抑制された
+file.status.name.unknown:
+    text: 不明
+file.status.name.up.to.date:
+    text: 最新
+group.name.version.control:
+    text: バージョン管理(&V)
+handle.ro.file.status.type.using.file.system:
+    text: ファイル システムを使用
+handle.ro.file.status.type.using.vcs:
+    text: '{0} を使用'
+label.after.creation.:
+    text: 'ファイルが IDEA で作成された場合 :'
+label.after.deletion.group:
+    text: 'ファイルが IDEA で削除された場合 :'
+label.commit.comment:
+    text: 'コメント :'
+label.configure.vcses.available.vcses:
+    text: '利用可能なバージョン管理の設定 :'
+label.selected.revision.commit.message:
+    text: コミット メッセージ
+label.text.when.files.are.deleted.with.idea:
+    text: 'ファイルが {0} で削除された場合 :'
+label.text.when.files.created.with.idea:
+    text: 'ファイルが {0} で作成された場合 :'
+lookup.title.vcs.file.revisions:
+    text: ファイル リビジョン
+merge.version.title.last.version:
+    text: 最後のバージョン
+merge.version.title.local.changes:
+    text: ローカルの変更
+merge.version.title.merge.result:
+    text: マージ結果
+message.text.all.files.are.up.to.date:
+    text: すべてのファイルは最新です
+message.text.binary.versions.are.different:
+    text: バイナリ バージョンは異なります
+message.text.binary.versions.are.identical:
+    text: バイナリ バージョンは同一です
+message.text.binary.versions.differ:
+    text: バイナリ バージョンは異なります
+message.text.cannot.edit.file:
+    text: 'ファイルを編集できません : {0}'
+message.text.cannot.load.revision:
+    text: 'リビジョンをロードできません : {0}'
+message.text.cannot.load.version:
+    text: 'バージョンをロードできません : {0}'
+message.text.cannot.open.editor:
+    text: ファイル {0} のテキスト エディタを開けません
+message.text.cannot.refresh.file.history:
+    text: '更新できません : {0}'
+message.text.cannot.show.differences:
+    text: '差分を表示できません : {0}'
+message.text.commit.failed.with.errors:
+    text: コミットにエラーで失敗しました
+message.text.commit.failed.with.errors.and.warnings:
+    text: コミットにエラーおよび警告で失敗しました
+message.text.commit.finished.with.warnings:
+    text: コミットに成功しました (警告あり)
+message.text.could.not.load.file.content:
+    text: ファイルの内容をロードできません
+message.text.could.not.load.virtual.file.content:
+    text: 'ファイル {0} の内容をロードできません : {1}'
+message.text.file.is.up.to.date:
+    text: ファイルは最新です
+message.text.file.locally.modified:
+    text: ファイル {0} はローカルに変更されました
+message.text.several.files.locally.modified:
+    text: 一部のファイルはローカルに変更されました
+message.text.unable.to.save.settings:
+    text: 設定を保存できません {0}
+message.text.versions.are.identical:
+    text: バージョンは同一です
+message.title.annotate:
+    text: 注釈
+message.title.cannot.open.editor:
+    text: エディタを開けません
+message.title.commit:
+    text: コミット
+message.title.could.not.load.content:
+    text: 内容をロードできません
+message.title.could.not.load.file.history:
+    text: ファイルの履歴をロードできません
+message.title.diff:
+    text: 差分
+message.title.edit.files:
+    text: ファイルの編集
+message.title.get.revision.content:
+    text: リビジョンの内容の取得
+message.title.get.version:
+    text: バージョンの取得
+message.title.load.version:
+    text: バージョンのロード
+message.title.refresh.file.history:
+    text: 更新
+message.title.show.differences:
+    text: 差分の表示
+message.title.unable.to.save.settings:
+    text: 設定を保存できません
+message.title.vcs.update.errors:
+    text: '{0} エラー'
+none.vcs.presentation:
+    text: <なし>
+patch.apply.conflict.patch:
+    text: パッチ
+patch.apply.conflict.patched.somehow.version:
+    text: 結果
+progress.text.searching.for.modified.files:
+    text: 変更したファイルを検索しています
+progress.text.synchronizing.files:
+    text: ファイルを同期しています...
+progress.text2.loading.revision:
+    text: リビジョン {0} をロードしています
+progress.title.loading.contents:
+    text: 内容をロードしています
+radio.after.creation.add.silently:
+    text: 確認しないで追加する
+radio.after.creation.do.not.add:
+    text: 追加しない
+radio.after.creation.show.options:
+    text: バージョン管理に追加する前にオプションを表示する
+radio.after.deletion.do.not.remove:
+    text: 削除しない
+radio.after.deletion.remove.silently:
+    text: 確認しないで削除する
+radio.after.deletion.show.options:
+    text: バージョン管理から削除する前にオプションを表示する
+searching.for.code.smells.processing.file.progress.text:
+    text: '{0} を処理しています'
+status.group.name.changed:
+    text: 変更
+status.group.name.changed.on.server:
+    text: サーバーで変更
+status.group.name.created:
+    text: 作成
+status.group.name.deleted:
+    text: 削除
+status.group.name.locally.added:
+    text: ローカルに追加
+status.group.name.locally.removed:
+    text: ローカルに削除
+status.group.name.modified:
+    text: 変更
+status.group.name.not.in.repository:
+    text: リポジトリにない
+status.group.name.will.be.merged:
+    text: マージされます
+status.group.name.will.be.merged.with.conflicts:
+    text: 競合とマージされます
+status.group.name.will.be.restored:
+    text: リストアされます
+tooltip.text.action.applicable.to.vcses:
+    text: '適用可能 : {0}'
+tooltip.text.line.changed:
+    text: 行 {0} 変更
+tooltip.text.lines.changed:
+    text: 行 {0}-{1} 変更
+toolwindow.title.update.action.info:
+    text: '{0} 情報'
+toolwindow.title.update.project:
+    text: プロジェクト ({0}) のアップデート
+update.directories.scope.name:
+    text: ディレクトリ
+update.directory.scope.name:
+    text: ディレクトリ
+update.file.scope.name:
+    text: ファイル
+update.files.scope.name:
+    text: ファイル
+update.group.name.created:
+    text: 作成
+update.group.name.deleted:
+    text: 削除
+update.group.name.locally.added:
+    text: ローカルに追加
+update.group.name.locally.removed:
+    text: ローカルに削除
+update.group.name.merged:
+    text: マージ
+update.group.name.merged.with.conflicts:
+    text: 競合とマージ
+update.group.name.modified:
+    text: 変更
+update.group.name.not.in.repository:
+    text: リポジトリにない
+update.group.name.restored:
+    text: リストア
+update.group.name.updated:
+    text: アップデート
+update.group.name.updated.from.server:
+    text: サーバーからアップデート
+update.project.scope.name:
+    text: プロジェクト
+vcs.command.name.add:
+    text: 追加
+vcs.command.name.checkin:
+    text: チェックイン
+vcs.command.name.checkout:
+    text: チェックアウト
+vcs.command.name.edit:
+    text: 編集
+vcs.command.name.remove:
+    text: 削除
+vcs.command.name.status:
+    text: ステータス
+vcs.command.name.update:
+    text: アップデート
+vcs.console.toolwindow.display.name:
+    text: コンソール
+vcs.revision.name.current:
+    text: 現在
+version.control.main.configurable.name:
+    text: バージョン管理

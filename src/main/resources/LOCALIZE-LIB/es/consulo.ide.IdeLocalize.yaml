@@ -1,0 +1,1704 @@
+FileChooser.detailsViewActionLabelText:
+    text: Detalles
+FileChooser.listViewActionLabelText:
+    text: Lista
+FileChooser.newFolderActionLabelText:
+    text: Nueva carpeta
+FileChooser.refreshActionLabelText:
+    text: Actualizar
+FileChooser.viewMenuLabelText:
+    text: Ver
+action.Anonymous.text.add.abbreviation:
+    text: Añadir abreviatura
+action.Anonymous.text.add.keyboard.shortcut:
+    text: Añadir acceso directo de teclado
+action.Anonymous.text.add.mouse.shortcut:
+    text: Añadir acceso directo de ratón
+action.Anonymous.text.live.templates:
+    text: Plantillas dinámicas
+action.Anonymous.text.new.group:
+    text: Nuevo grupo…
+action.Anonymous.text.rename:
+    text: Renombrar
+action.Anonymous.text.reset.shortcuts:
+    text: Restablecer atajos
+action.DumbAware.BuildView.text.stop:
+    text: Vista de compilación
+action.DumbAware.CopyrightProfilesPanel.description.stop:
+    text: Detener
+action.ToggleAction.text.filter:
+    text: Filtrar
+action.ToggleAction.text.toggle.view:
+    text: Alternar vista
+action.add.all.open.tabs.to.new.favorites.list:
+    text: Añadir todas las pestañas abiertas a una nueva lista de favoritos
+action.add.repository:
+    text: Añadir repositorio
+action.add.to.new.favorites.list:
+    text: Añadir a nueva lista de favoritos(_N)
+action.append:
+    text: Anexar
+action.browse.call.hierarchy:
+    text: Explorar jerarquía de llamadas
+action.browse.method.hierarchy:
+    text: Examinar jerarquía de métodos
+action.browse.type.hierarchy:
+    text: Explorar jerarquía de tipos
+action.callee.methods.hierarchy:
+    text: Jerarquía de métodos llamados
+action.caller.methods.hierarchy:
+    text: Jerarquía de métodos llamadores
+action.choose.actions.to.add:
+    text: Añadir acción
+action.close:
+    text: Cerrar
+action.close.all.editors.in.tab.group:
+    text: Cerrar todas las pestañas del grupo(_A)
+action.close.all.unmodified.editors:
+    text: Cerrar pestañas no modificadas(_U)
+action.close.all.unmodified.editors.in.tab.group:
+    text: Cerrar pestañas no modificadas del grupo(_U)
+action.close.all.unpinned.editors:
+    text: Cerrar todo excepto lo fijado
+action.close.all.unpinned.editors.in.tab.group:
+    text: Cerrar todo excepto los fijados en el grupo
+action.collapse.all:
+    text: Contraer todo
+action.compact.empty.middle.packages:
+    text: Compactar paquetes intermedios
+action.continue.searching:
+    text: Continuar buscando
+action.copy.path:
+    text: Copiar ruta absoluta(_O)
+action.copy.paths:
+    text: Copiar rutas absolutas(_O)
+action.copy.template:
+    text: Copiar plantilla
+action.create.new.class.name.field:
+    text: Nombre
+action.create.template:
+    text: Crear plantilla
+action.delete:
+    text: Eliminar(_D)
+action.delete.ellipsis:
+    text: Eliminar…(_D)
+action.description.create.new.module.group:
+    text: Crear nuevo grupo de módulos
+action.description.create.new.package:
+    text: Crear nuevo paquete
+action.description.group.by.scope:
+    text: Agrupar por tipo de ámbito (producción, pruebas, bibliotecas)
+action.description.show.files:
+    text: Mostrar/ocultar archivos
+action.description.show.included.only:
+    text: Mostrar solo los archivos incluidos en el ámbito seleccionado actualmente
+action.description.show.modules:
+    text: Mostrar/ocultar módulos
+action.description.todo.show.all:
+    text: Mostrar todos los elementos TODO
+action.description.view.class.hierarchy:
+    text: Cambiar a jerarquía de clases
+action.description.view.subtypes.hierarchy:
+    text: Cambiar a la jerarquía de subtipos
+action.description.view.supertypes.hierarchy:
+    text: Cambiar a la jerarquía de supertipos
+action.descriptor.action:
+    text: 'Acción: {0}'
+action.descriptor.keystroke:
+    text: 'Pulsación de tecla: "{0}"'
+action.descriptor.typing:
+    text: 'Escribiendo: "{0}"'
+action.directory:
+    text: Directorio
+action.do.not.mark:
+    text: No marcar
+action.edit.file.templates:
+    text: Editar plantillas de archivo…
+action.edit.repository.url:
+    text: Editar URL del repositorio
+action.expand.all:
+    text: Expandir todo
+action.flatten.packages:
+    text: Aplanar paquetes
+action.flatten.view:
+    text: Vista plana
+action.fn.keys.text:
+    text: Teclas Fn
+action.from.file.template:
+    text: Desde plantilla de archivo…
+action.group.by.modules:
+    text: Módulos
+action.group.by.packages:
+    text: Paquetes
+action.group.by.scope.type:
+    text: Agrupar por tipo de ámbito
+action.help:
+    text: Ayuda
+action.hide.empty.middle.packages:
+    text: Ocultar paquetes intermedios vacíos
+action.hide.non.implementations:
+    text: Ocultar clases donde el método no esté implementado de forma válida
+action.implement.methods:
+    text: Implementar métodos
+action.manual.order:
+    text: Orden manual
+action.mark:
+    text: Marcar
+action.move.module.new.top.level.group:
+    text: Nuevo grupo de nivel superior…
+action.move.module.outside.any.group:
+    text: Fuera de cualquier grupo
+action.move.module.to.new.sub.group:
+    text: A un nuevo subgrupo…
+action.move.module.to.this.group:
+    text: A este grupo
+action.new.package:
+    text: Nuevo paquete…
+action.next.message:
+    text: Siguiente mensaje
+action.next.problem:
+    text: Siguiente problema
+action.next.tip:
+    text: '&Siguiente'
+action.override.method:
+    text: Sobrescribir método
+action.override.methods:
+    text: Sobrescribir métodos
+action.overwrite:
+    text: Sobrescribir
+action.package:
+    text: Paquete
+action.pin.tab:
+    text: Fijar pestaña(_I)
+action.presentation.EncodingPanel.text:
+    text: Codificación del archivo
+action.previous.message:
+    text: Mensaje anterior
+action.previous.problem:
+    text: Problema anterior
+action.previous.tip:
+    text: '&Atrás'
+action.refresh:
+    text: Actualizar
+action.remove:
+    text: Eliminar
+action.remove.repository.from.list:
+    text: Eliminar repositorio de la lista
+action.remove.template:
+    text: Eliminar plantilla
+action.reset.to.default:
+    text: Restablecer a la plantilla original
+action.select.none:
+    text: '&Ninguno'
+action.send.to.new.favorites.list:
+    text: Enviar a nueva lista de favoritos
+action.show.classes:
+    text: Mostrar clases
+action.show.compact.empty.middle.packages:
+    text: Mostrar/Compactar paquetes intermedios
+action.show.files:
+    text: Mostrar archivos
+action.show.hide.empty.middle.packages:
+    text: Mostrar/Ocultar paquetes intermedios vacíos
+action.show.included.only:
+    text: Mostrar solo lo incluido
+action.show.infos:
+    text: Mostrar mensajes de información
+action.show.members:
+    text: Mostrar miembros
+action.show.modules:
+    text: Mostrar módulos
+action.show.warnings:
+    text: Mostrar advertencias
+action.sort.alphabetically:
+    text: Alfabéticamente
+action.sort.by.type:
+    text: Por tipo
+action.start.macro.recording:
+    text: Iniciar grabación de macro(_M)
+action.stop:
+    text: Detener
+action.stop.macro.recording:
+    text: Detener la grabación de macro(_M)
+action.stop.searching:
+    text: Detener búsqueda
+action.structureview.group.methods.by.defining.type:
+    text: Miembros por tipo de definición
+action.structureview.show.fields:
+    text: Campos
+action.structureview.show.inherited:
+    text: Heredados
+action.structureview.show.non.public:
+    text: No públicos
+action.structureview.show.properties:
+    text: Propiedades
+action.structureview.sort.by.visibility:
+    text: Por visibilidad
+action.sync.completed.successfully:
+    text: La sincronización de archivos se completó correctamente.
+action.synchronize.file:
+    text: "Sincronizar ''{0}''"
+action.synchronize.selected.files:
+    text: Sincronizar archivos seleccionados
+action.text.remove.0:
+    text: Eliminar {0}
+action.text.remove.abbreviation.0:
+    text: "Eliminar abreviatura ''{0}''"
+action.todo.edit.filters:
+    text: Editar filtros
+action.todo.show.all:
+    text: Mostrar todo
+action.unpin.tab:
+    text: Desanclar pestaña(_I)
+action.unpin.tab.tooltip:
+    text: Desanclar pestaña
+action.view.class.hierarchy:
+    text: Jerarquía de clases
+action.view.subtypes.hierarchy:
+    text: Jerarquía de subtipos
+action.view.supertypes.hierarchy:
+    text: Jerarquía de supertipos
+add.byte.order.mark.to:
+    text: Agregar marca de orden de bytes a {0}
+add.scope.dialog.title:
+    text: Añadir nuevo ámbito
+add.scope.name.label:
+    text: Nombre
+add.scope.popup.title:
+    text: Añadir ámbito
+add.shared.scope.action.text:
+    text: Compartido
+alphabetical.mode.is.on.warning:
+    text: El orden alfabético de las pestañas está activado. ¿Desea desactivarlo?
+available.packages.dialog.title:
+    text: Paquetes disponibles
+bean.property:
+    text: Propiedad de Bean
+browsers.settings:
+    text: Navegadores web y vista previa
+bundled.jre.version.message:
+    text: "Considere cambiar al entorno de ejecución Java integrado, que se adapta mejor al IDE (su entorno de ejecución Java actual es {0} de {1} en ''{2}'')."
+button.add.separator:
+    text: Agregar &separador
+button.cancel:
+    text: Cancelar
+button.convert:
+    text: Convertir
+button.convert.anyway:
+    text: Convertir de todos modos
+button.copy:
+    text: Copiar
+button.create:
+    text: '&Crear…'
+button.delete:
+    text: Eliminar
+button.edit.action.icon:
+    text: Editar &icono…
+button.exclude:
+    text: Excluir
+button.exclude.recursively:
+    text: Excluir recursivamente
+button.facet.quickfix.text:
+    text: '&Corregir'
+button.finish:
+    text: '&Finalizar'
+button.fix:
+    text: Corregir…
+button.http.proxy.settings:
+    text: Configuración de proxy &HTTP…
+button.include:
+    text: Incluir
+button.include.recursively:
+    text: Incluir recursivamente
+button.insert:
+    text: Insertar
+button.mark.all:
+    text: '&Marcar todo'
+button.move.down:
+    text: Mover a&bajo
+button.move.up:
+    text: Mover &arriba
+button.ok:
+    text: Aceptar
+button.reload:
+    text: '&Recargar'
+button.reload.anyway:
+    text: Recargar de todos modos
+button.remove:
+    text: Elimina&r
+button.rename:
+    text: '&Renombrar'
+button.save:
+    text: Guardar
+button.stop.searching:
+    text: Detener bú&squeda
+button.unmark.all:
+    text: Desmarcar todo (&U)
+button.wizard.next:
+    text: Siguie&nte
+button.wizard.previous:
+    text: '&Anterior'
+button.yes:
+    text: Sí(_Y)
+change.encoding.command.name:
+    text: "Cambiar codificación para ''{0}''"
+checkbox.confirm.application.exit:
+    text: Confirmar antes de salir del IDE
+checkbox.copy.javadoc:
+    text: Copiar &JavaDoc
+checkbox.customfiletype.ignore.case:
+    text: '&Ignorar mayúsculas y minúsculas'
+checkbox.customfiletype.support.paired.braces:
+    text: Soportar llaves emparejadas (&R)
+checkbox.customfiletype.support.paired.brackets:
+    text: Soportar pares de cor&chetes
+checkbox.customfiletype.support.paired.parens:
+    text: Soportar &paréntesis emparejados
+checkbox.customfiletype.support.string.escapes:
+    text: Soportar escapes de cadena (&E)
+checkbox.disabled.included:
+    text: Incluir acciones &deshabilitadas
+checkbox.enable.live.templates:
+    text: Habilitar &plantillas dinámicas
+checkbox.errortree.export.details:
+    text: Detalles
+checkbox.include.non.project.files:
+    text: Incluir archivos que &no pertenecen al proyecto
+checkbox.include.non.project.items:
+    text: Incluir elementos ajenos al proyecto (&N)
+checkbox.include.non.project.symbols:
+    text: Incluir símbolos ajenos al proyecto (&N)
+checkbox.insert.at.override:
+    text: Insertar @&Override
+checkbox.left.toolwindow.layout:
+    text: Diseño en paralelo a la izquierda
+checkbox.narrow.down.on.typing:
+    text: '&Filtrar al escribir'
+checkbox.narrow.down.the.list.on.typing:
+    text: '&Reducir &&la lista al escribir'
+checkbox.override.default.laf.fonts:
+    text: 'Usar fuente personalizada:'
+checkbox.reformat.according.to.style:
+    text: '&Reformatear según el estilo'
+checkbox.reopen.last.project.on.startup:
+    text: Reabrir proyectos al iniciar
+checkbox.right.toolwindow.layout:
+    text: Diseño en paralelo a la derecha
+checkbox.safe.delete.with.usage.search:
+    text: Eliminación &segura (con búsqueda de usos)
+checkbox.save.files.automatically:
+    text: Guardar archivos si el IDE está inactivo durante
+checkbox.save.files.on.frame.deactivation:
+    text: Guardar archivos al cambiar a otra aplicación o a una terminal integrada
+checkbox.show.editor.preview.popup:
+    text: Mostrar lente de código al pasar el ratón sobre la barra de desplazamiento
+checkbox.show.icons.in.menu.items:
+    text: Mostrar iconos en los elementos del menú
+checkbox.show.tips.on.startup:
+    text: No mostrar consejos al iniciar
+checkbox.show.tool.window.bars:
+    text: Mostrar barras de ventanas de herramientas
+checkbox.show.tool.window.numbers:
+    text: Mostrar números de las ventanas de herramientas
+checkbox.support.screen.readers:
+    text: Soporte para lectores de pantalla
+checkbox.synchronize.files.on.frame.activation:
+    text: Al cambiar a la ventana del IDE o abrir una pestaña del editor
+checkbox.transparent.native.to.ascii.conversion:
+    text: Conversión transparente de nativo a ASCII
+checkbox.use.transparent.mode.for.floating.windows:
+    text: Usar modo transparente para ventanas flotantes
+checkbox.widescreen.tool.window.layout:
+    text: Diseño de ventana de herramientas para pantalla ancha
+combobox.console.default.encoding.label:
+    text: 'Codificación predeterminada:'
+combobox.look.and.feel:
+    text: 'Tema:'
+command.close.all.editors:
+    text: Cerrar todos los editores
+command.close.all.unmodified.editors:
+    text: Cerrar todos los editores sin modificar
+command.create.class.from.template:
+    text: Crear clase desde plantilla
+command.create.directory:
+    text: Crear directorio
+command.create.file:
+    text: Crear archivo
+command.create.file.from.template:
+    text: Crear archivo desde plantilla
+command.create.new.package:
+    text: Crear nuevo paquete
+command.create.new.subdirectory:
+    text: Crear nuevo subdirectorio
+command.create.package:
+    text: Crear paquete
+command.find.next:
+    text: Buscar siguiente
+command.fixing.line.separators:
+    text: corrigiendo separadores de línea
+command.go.to.line:
+    text: Ir a la línea
+command.pasting.reference:
+    text: Pegar referencia
+command.renaming.module:
+    text: Renombrando módulo {0}
+command.select.all:
+    text: Seleccionar todo
+conversion.dialog.text.1:
+    text: "El proyecto ''{0}'' tiene un formato desactualizado y se convertirá. Es posible que no pueda abrir el proyecto con versiones anteriores de {1}."
+conversion.dialog.text.2:
+    text: "<b> </b><a href=\"details\">Detalles…</a><br/><br/>Las versiones anteriores de los archivos del proyecto se guardarán en: ''{0}''"
+copy.reference:
+    text: Cop&iar referencia
+copy.references:
+    text: Cop&iar referencias
+copy.relative.path:
+    text: Copiar ruta relativa (&Y)
+copy.relative.paths:
+    text: Copiar rutas relativas (&Y)
+create.default.library.type.action.name:
+    text: Java
+description.copy.text.to.clipboard:
+    text: Copiar texto al portapapeles
+description.select.project.file.directory:
+    text: El archivo {0} se guardará en este directorio
+detach.library:
+    text: Desvincular biblioteca
+detach.library.from.module:
+    text: "¿Desvincular la biblioteca ''{0}'' del módulo ''{1}''?\nNo se dañará ningún archivo en el disco."
+dialog.directory.for.downloaded.files.title:
+    text: Directorio de descarga
+dialog.message.cannot.save.the.file.0:
+    text: No se puede guardar el archivo {0}
+dialog.message.incompatible.encoding:
+    text: "La codificación que ha elegido (''{0}'') puede cambiar el contenido de ''{1}''.<br>¿Desea<br>1. <b>Volver a cargar</b> el archivo desde el disco con la nueva codificación ''{0}'' y sobrescribir el contenido del editor o<br>2. <b>Convertir</b> el texto y sobrescribir el archivo con la nueva codificación?"
+dialog.title.abbreviation:
+    text: Abreviatura
+dialog.title.choose.color:
+    text: Elegir color
+dialog.title.clear.read.only.file.status:
+    text: Quitar el estado de solo lectura
+dialog.title.color.picker:
+    text: Selector de color
+dialog.title.convert.module:
+    text: Convertir módulo
+dialog.title.convert.project:
+    text: Convertir proyecto
+dialog.title.error.writing.file:
+    text: Error al escribir el archivo
+dialog.title.file.0.can.t.be.reloaded:
+    text: "El archivo ''{0}'' no puede ser recargado en la codificación ''{1}''.{2}"
+dialog.title.file.0.most.likely.isn.t.stored:
+    text: "Es muy probable que el archivo ''{0}'' no esté guardado con la codificación ''{1}''.{2}"
+dialog.title.go.to.line.column:
+    text: Ir a la línea:columna
+dialog.title.unable.to.save:
+    text: No se puede guardar
+diff.dialog.title:
+    text: Diferencias entre esquemas
+directory.module.content.root:
+    text: |
+        Raíz del contenido del módulo
+directory.module.file:
+    text: Directorio de archivos del módulo
+directory.project.file.directory:
+    text: |
+        El directorio {0}
+display.balloon.notifications:
+    text: Mostrar notificaciones de globo
+display.name.firefox.settings:
+    text: Configuración de Firefox
+dnd.with.alt.pressed.only:
+    text: Arrastrar y soltar solo con Alt presionado
+double.ctrl.or.shift.shortcut:
+    text: Doble {0}
+editbox.customfiletype.block.comment.end:
+    text: 'Fin de comentario de bloque:'
+editbox.customfiletype.block.comment.start:
+    text: 'Inicio de comentario de bloque:'
+editbox.customfiletype.description:
+    text: 'Descripción:'
+editbox.customfiletype.hex.prefix:
+    text: 'Prefijo hexadecimal:'
+editbox.customfiletype.line.comment:
+    text: 'Comentario de línea:'
+editbox.customfiletype.name:
+    text: 'Nombre:'
+editbox.customfiletype.number.postfixes:
+    text: 'Sufijos numéricos:'
+editbox.default.encoding.for.properties.files:
+    text: 'Codificación predeterminada para archivos de propiedades:'
+editbox.export.settings.to:
+    text: 'Exportar configuración a:'
+editbox.export.to.file:
+    text: 'Exportar a archivo:'
+element.method:
+    text: método
+empty.text.drop.files.to.open:
+    text: Arrastre los archivos aquí para abrirlos
+empty.text.go.to.file:
+    text: Ir al archivo
+empty.text.navigation.bar:
+    text: Barra de navegación
+empty.text.project.view:
+    text: Vista del proyecto
+empty.text.recent.files:
+    text: Archivos recientes
+empty.text.search.everywhere:
+    text: Buscar en todas partes
+encoding.do.not.convert.message:
+    text: "Por favor, no convierta a ''{0}''."
+encoding.name.system.default:
+    text: '<Predeterminado del sistema: {0}>'
+encoding.not.available:
+    text: No disponible
+encoding.unsupported.characters.message:
+    text: "La codificación ''{0}'' no admite algunos caracteres del texto."
+encodings.dialog.caption:
+    text: Añada la ruta a un archivo o directorio y seleccione la codificación que debe usar {0}.<br>Los archivos y directorios heredan la codificación del directorio padre o de la codificación del proyecto.<br>Las codificaciones de archivo integradas en archivos JSP, HTML y XML invalidan estos ajustes.
+error.0.browser.path.not.specified:
+    text: No se ha especificado la ruta del navegador {0}.
+error.adding.module.to.project:
+    text: 'Error al agregar el módulo al proyecto: {0}'
+error.cannot.convert.project:
+    text: 'No se puede convertir el proyecto: {0}'
+error.cannot.find.file:
+    text: No se puede encontrar el archivo {0}
+error.cannot.load.project:
+    text: 'No se puede cargar el proyecto: {0}'
+error.cannot.set.look.and.feel:
+    text: <html><body>No se puede establecer el tema {0}:<br>{1}</body></html>
+error.connection.failed.redirects:
+    text: 'Error de conexión: demasiadas redirecciones'
+error.failed.to.create.directory:
+    text: No se pudo crear el directorio "{0}"
+error.favorites.list.already.exists:
+    text: "La lista de favoritos ''{0}'' ya existe"
+error.file.does.not.exist:
+    text: El archivo {0} no existe.
+error.file.download.failed:
+    text: "Error al descargar ''{0}'':\n{1}"
+error.file.not.found.message:
+    text: "No se encontró el archivo ''{0}''"
+error.files.of.this.type.cannot.be.opened:
+    text: No se pueden abrir archivos de este tipo en {0}
+error.invalid.template.file.name.or.extension:
+    text: Nombre o extensión de archivo de plantilla no válidos
+error.loading.package.list:
+    text: 'Error al cargar la lista de paquetes: {0}'
+error.malformed.url:
+    text: 'URL mal formada: {0}'
+error.message.cannot.make.files.writable:
+    text: |-
+        No se pueden desbloquear los siguientes archivos:
+        {0}
+error.message.cannot.modify.file.0:
+    text: "No se puede modificar el archivo ''{0}''"
+error.message.unable.to.create.file:
+    text: "No se puede crear el archivo ''{0}''"
+error.module.already.exists:
+    text: "Ya existe un módulo llamado ''{0}''"
+error.module.with.name.already.exists:
+    text: Ya existe un módulo con el nombre {0}
+error.name.cannot.be.empty:
+    text: El nombre no puede estar vacío
+error.name.should.be.specified:
+    text: Debe especificar un nombre
+error.occurred.please.check.your.internet.connection:
+    text: Se ha producido un error. Compruebe su conexión a internet.
+error.parsing.file.template:
+    text: 'Error al analizar la plantilla de archivo: {0}'
+error.please.enter.a.file.name:
+    text: Especifique un nombre de archivo
+error.please.specify.path.to.web.browser:
+    text: Especifique la ruta al navegador web en {0} | Navegadores web
+error.please.specify.template.name:
+    text: Especifique un nombre de plantilla
+error.project.file.does.not.exist:
+    text: No se puede cargar {0}. El archivo no existe.
+error.reading.settings.file:
+    text: "Error al leer el archivo {0}.\nAsegúrese de que haya sido generado por la función ''Archivo | Gestionar ajustes del IDE | Exportar ajustes…''\n\n{1}"
+error.reading.settings.file.2:
+    text: |-
+        Error al leer el archivo {0}.
+
+        {1}
+error.saving.license.data:
+    text: |-
+        Error al guardar los datos de la licencia.
+        {0}
+error.saving.statistics:
+    text: 'Error al guardar la información del sistema: {0}'
+error.source.directory.should.be.under.module.content.root.directory:
+    text: El directorio de fuentes debe estar bajo el directorio raíz de contenido del módulo
+error.text.file.already.exists:
+    text: |-
+        El archivo {0} ya existe
+        ¿Desea sobrescribirlo o añadir?
+error.tips.not.found:
+    text: No se encontraron los consejos. Asegúrese de haber instalado {0} correctamente.
+error.unable.to.parse.template.message:
+    text: |-
+        No se pudo analizar la plantilla "{0}"
+        Mensaje de error: {1}
+error.unable.to.read.tip.of.the.day:
+    text: <html><body>No se pudo leer el consejo del día ({0}). Asegúrese de que {1} esté instalado correctamente.</body></html>
+error.updating.package.list:
+    text: 'Error al actualizar la lista de paquetes: {0}'
+error.writing.settings:
+    text: |-
+        Error al escribir la configuración.
+
+        {0}
+error.writing.to.file:
+    text: 'Error al escribir en el archivo: {0}'
+errortree.information:
+    text: 'Información:'
+errortree.note:
+    text: 'Nota:'
+errortree.prefix.line:
+    text: línea ({0})
+errortree.warning:
+    text: 'Advertencia:'
+failed.to.install.package.dialog.title:
+    text: "Error al instalar ''{0}''"
+failed.to.install.packages.dialog.title:
+    text: Error al instalar paquetes
+favorites.list.unnamed:
+    text: Sin nombre {0}
+file.changed.externally.message:
+    text: El archivo ha sido modificado en el disco.
+file.changed.externally.reload:
+    text: Recargar
+file.chooser.completion.ad.text:
+    text: Use {0} para mantener el final de la ruta
+file.chooser.completion.no.suggestions:
+    text: No hay sugerencias
+file.chooser.completion.path.variables.text:
+    text: Variables de ruta
+file.chooser.hide.path:
+    text: Ocultar ruta
+file.chooser.show.path:
+    text: Mostrar ruta
+file.encoding.option.create.utf8.files:
+    text: 'Crear archivos UTF-8:'
+file.encoding.option.encoding.column:
+    text: Codificación
+file.encoding.option.global.encoding:
+    text: Codificación global
+file.encoding.option.path.column:
+    text: Ruta
+file.encoding.option.project.encoding:
+    text: Codificación del proyecto
+file.encoding.option.warning.always:
+    text: '{0} añadirá <a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">UTF-8 BOM</a> a cada archivo creado con codificación UTF-8'
+file.encoding.option.warning.never:
+    text: '{0} NO añadirá el <a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">BOM UTF-8</a> a cada archivo creado con codificación UTF-8'
+file.encoding.option.warning.windows.only:
+    text: '{0} añadirá un <a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">UTF-8 BOM</a> a cada archivo UTF-8 creado solo cuando se ejecute en Windows'
+file.encodings.configurable:
+    text: Codificaciones de archivos
+file.encodings.not.configured:
+    text: Las codificaciones no están configuradas
+file.structure.toggle.show.inherited:
+    text: Miembros heredados
+filetype.description.jsp:
+    text: Página Java Server
+filetype.description.jspx:
+    text: JSPx
+filetype.description.xml:
+    text: XML
+finished.with.exit.code.text.message:
+    text: Proceso finalizado con el código de salida {0}
+general.settings:
+    text: Configuración
+go.to.class.action.description:
+    text: Navegar rápidamente a {0} por nombre
+go.to.class.dumb.mode.message:
+    text: "La acción ''Ir a {0}'' no está disponible durante el análisis del proyecto, se usará ''Ir a archivo'' en su lugar"
+go.to.class.kind.text:
+    text: Tipo
+go.to.file.toolwindow.title:
+    text: Archivos que coinciden con el patrón
+goto.custom.region.command:
+    text: Ir al plegado personalizado
+goto.custom.region.menu.item:
+    text: Plegado personalizado…
+goto.custom.region.message.dumb.mode:
+    text: La navegación de plegado personalizado estará disponible una vez que haya finalizado el análisis del proyecto.
+goto.custom.region.message.unavailable:
+    text: No hay plegados personalizados en el archivo actual.
+goto.inspection.action.text:
+    text: Ejecutar inspección por nombre (&R)…
+group.customfiletype.syntax.highlighting:
+    text: Resaltado de sintaxis
+group.presentation.mode:
+    text: Modo de presentación
+group.settings.process.tab.close:
+    text: 'Al cerrar una ventana de herramientas con un proceso en ejecución:'
+group.transparency:
+    text: Transparencia
+group.ui.options:
+    text: Opciones de la interfaz de usuario
+group.vendor:
+    text: Proveedor
+group.view.options:
+    text: Opciones de vista
+group.window.options:
+    text: Ventanas de herramientas
+handle.ro.file.status.failed:
+    text: <html>No se pudo cambiar el estado de solo lectura de los siguientes archivos:<br>{0}</html>
+handle.ro.file.status.type.using.file.system:
+    text: usando el sistema de archivos
+hierarchy.call.next.occurence.name:
+    text: Ir a la siguiente llamada
+hierarchy.call.prev.occurence.name:
+    text: Ir a la llamada anterior
+hierarchy.legend.method.defined.in.superclass:
+    text: el método no está definido en la clase, sino que está definido en su superclase
+hierarchy.legend.method.is.defined.in.class:
+    text: el método está definido en la clase
+hierarchy.legend.method.should.be.defined:
+    text: el método debe definirse ya que la clase no es abstracta
+hierarchy.method.next.occurence.name:
+    text: Ir al siguiente método
+hierarchy.method.prev.occurence.name:
+    text: Ir al método anterior
+hierarchy.type.next.occurence.name:
+    text: Ir al siguiente tipo
+hierarchy.type.prev.occurence.name:
+    text: Ir al tipo anterior
+ide.postpone.action:
+    text: Posponer
+ide.restart.action:
+    text: Reiniciar
+ide.shutdown.action:
+    text: Apagar
+idea.intellij.look.and.feel:
+    text: IntelliJ Light heredado
+incompatible.encoding.dialog.title:
+    text: 'Codificación incompatible: {0}'
+install.package.failure:
+    text: "Se produjo un error al instalar el paquete ''{0}''. <a href=\"xxx\">Detalles…</a>"
+label.appearance.caret.blinking:
+    text: 'Apariencia: Parpadeo del cursor'
+label.appearance.show.inner.whitespaces:
+    text: 'Apariencia: mostrar espacios en blanco internos'
+label.appearance.show.leading.whitespaces:
+    text: 'Apariencia: mostrar espacios en blanco iniciales'
+label.appearance.show.right.margin:
+    text: 'Apariencia: Mostrar margen derecho'
+label.appearance.show.trailing.whitespaces:
+    text: 'Apariencia: Mostrar espacios en blanco al final'
+label.choosebyname.no.matches.found:
+    text: No se encontraron coincidencias
+label.choosebyname.searching:
+    text: Buscando…
+label.component.file.location:
+    text: '{0} &ubicación del archivo:'
+label.description:
+    text: Descripción
+label.enter.new.abbreviation:
+    text: 'Introduzca la nueva abreviatura:'
+label.extension:
+    text: '&Extensión:'
+label.file.name:
+    text: '&Nombre de archivo:'
+label.font.name:
+    text: 'Fuente:'
+label.font.size:
+    text: 'Tamaño:'
+label.icon.path:
+    text: '&Icono:'
+label.inactive.timeout.sec:
+    text: segundos
+label.java.source.files.have.been.found:
+    text: |-
+        Se han encontrado archivos de código fuente para su módulo. Seleccione los directorios que se
+        marcarán como rutas de origen. Estas rutas corresponden a paquetes predeterminados (raíz, sin nombre, nivel superior).
+        Nota: el programa solo reconocerá los archivos de código fuente que se encuentren en estos directorios.
+label.library.will.be.created.description.text:
+    text: Se creará la biblioteca de nivel {0} <b>{1}</b> con {2} {2, choice, 1#archivo|2#archivos}
+label.line.column:
+    text: '[Línea] [:columna]:'
+label.macro.preview:
+    text: Vista previa de macro
+label.missed.libraries.prefix:
+    text: 'Faltan las siguientes bibliotecas:'
+label.missed.libraries.text:
+    text: "No se encontró la biblioteca ''{0}'' en la lista de dependencias del módulo"
+label.name:
+    text: Nombre
+label.no.actions.found:
+    text: No se encontraron acciones
+label.no.enabled.actions.found:
+    text: No se encontraron acciones habilitadas
+label.no.files.found:
+    text: No se encontraron archivos
+label.no.matches.found:
+    text: No se encontraron coincidencias
+label.no.matches.found.in.project:
+    text: No se encontraron coincidencias en el proyecto
+label.offset:
+    text: 'Desplazamiento:'
+label.option.appearance:
+    text: 'Apariencia: {0}'
+label.please.enter.project.name:
+    text: Por favor, introduzca un nombre para crear un nuevo {0} {1}.
+label.project.jdk:
+    text: 'SDK del proyecto:'
+label.project.roots.have.been.found:
+    text: |-
+        Se han encontrado archivos de origen para su proyecto. Elija los directorios que se
+        agregarán a las raíces del proyecto. Estas rutas corresponden a paquetes predeterminados (raíz, sin nombre, nivel superior).
+        Nota: el programa solo reconocerá los archivos de origen situados en estos directorios.
+label.project.roots.not.found:
+    text: No se encontraron los archivos de origen de su proyecto.
+label.scope:
+    text: 'Ámbito:'
+label.scope.contains.files:
+    text: El ámbito contiene {0} de un total de {1} archivos
+label.scope.pattern:
+    text: '&Patrón:'
+label.source.directory:
+    text: 'El siguiente directorio se marcará como directorio de código fuente:'
+label.transparency.delay.ms:
+    text: 'Retraso (ms):'
+license.panel.expirable.license.description:
+    text: La licencia expirará el {0,date,MMMM dd, yyyy}
+license.panel.maintenance.aware.license.description:
+    text: Tiene derecho a recibir actualizaciones y mejoras gratuitas hasta el {0,date,MMMM dd, yyyy}
+license.panel.perpetual.license.description:
+    text: Válida para {0} versión {1}
+listbox.customfiletype.keywords:
+    text: Palabras clave
+loading.in.progress:
+    text: "<html><body style='text-align: center;padding-top:20px;'>Cargando…</body></html>"
+local.scopes.node.text:
+    text: Ámbitos locales
+low.disk.space.message:
+    text: Quedan menos de 50 MiB en la partición del directorio del sistema ({0})
+macro.class.name:
+    text: Nombre de clase
+macro.classpath.entry:
+    text: Entrada en el classpath a la que pertenece el elemento
+macro.column.number:
+    text: Número de columna
+macro.file.dir.relative.to.root:
+    text: Directorio del archivo relativo a la raíz del contenido del módulo al que pertenece el archivo
+macro.file.dir.relative.to.root.fwd.slash:
+    text: Directorio del archivo relativo a la raíz de contenido del módulo al que pertenece el archivo (con barras diagonales)
+macro.file.dir.relative.to.sourcepath.root:
+    text: Directorio del archivo relativo a la raíz de la ruta de origen a la que pertenece el archivo
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: Directorio del archivo relativo a la raíz de la ruta de origen a la que pertenece el archivo (con barras inclinadas hacia adelante)
+macro.file.directory:
+    text: Directorio del archivo
+macro.file.directory.from.parent:
+    text: Ruta a $FileDir$ desde el directorio padre con el nombre pasado como parámetro
+macro.file.directory.name:
+    text: Nombre del directorio de archivos
+macro.file.directory.relative:
+    text: Directorio de archivos relativo al archivo del proyecto
+macro.file.directory.relative.fwd.slash:
+    text: Directorio del archivo relativo al archivo de proyecto (con barras inclinadas)
+macro.file.encoding:
+    text: Codificación de archivo
+macro.file.extension:
+    text: Extensión de archivo
+macro.file.fully.qualified.package:
+    text: Paquete totalmente calificado del archivo
+macro.file.name.without.all.extensions:
+    text: Nombre del archivo sin todas las extensiones
+macro.file.package:
+    text: Paquete de archivos
+macro.file.parent.directory:
+    text: Directorio padre del archivo. Toma un parámetro opcional (nombre) para buscar el directorio padre.
+macro.file.path:
+    text: Ruta del archivo
+macro.file.path.relative:
+    text: Ruta del archivo relativa al archivo del proyecto
+macro.file.path.relative.fwd.slash:
+    text: Ruta de archivo relativa al archivo del proyecto (con barras diagonales)
+macro.file.path.relative.to.root:
+    text: Ruta del archivo relativa a la raíz de contenido del módulo al que pertenece el archivo
+macro.file.path.relative.to.root.fwd.slash:
+    text: Ruta del archivo relativa a la raíz del contenido del módulo al que pertenece el archivo (con barras inclinadas)
+macro.file.path.relative.to.sourcepath.root:
+    text: Ruta de archivo relativa a la raíz de la ruta de origen a la que pertenece el archivo
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: Ruta del archivo relativa a la raíz de la ruta de origen a la que pertenece el archivo (con barras diagonales)
+macro.javadoc.output.directory:
+    text: Directorio de salida de JavaDoc
+macro.line.number:
+    text: Número de línea
+macro.module.file.directory:
+    text: El directorio del archivo del módulo
+macro.module.file.name:
+    text: Nombre del archivo de módulo sin extensión
+macro.module.file.path:
+    text: La ruta al archivo del módulo
+macro.module.source.path:
+    text: Ruta de fuentes del módulo
+macro.output.path:
+    text: Ruta de salida
+macro.project.classpath:
+    text: Classpath del proyecto
+macro.project.file.directory:
+    text: El directorio del archivo de proyecto
+macro.project.file.name:
+    text: El nombre del archivo de proyecto sin extensión
+macro.project.source.path:
+    text: Ruta de fuentes del proyecto
+macro.project.sourcepath:
+    text: Ruta de fuentes del proyecto
+macro.prompt:
+    text: Muestra un cuadro de diálogo de entrada de cadena
+macro.sourcepath.entry:
+    text: Entrada en la ruta de origen a la que pertenece el elemento
+manage.repositories.dialog.title:
+    text: Gestionar repositorios
+maven.repository.presentable.name:
+    text: Repositorio Maven
+message.educational.license:
+    text: Licencia educativa de 1 año. {0}
+message.expiration.date:
+    text: 'Fecha de vencimiento: {0}'
+message.macro.exists:
+    text: "La macro ''{0}'' ya existe. ¿Desea sobrescribirla?"
+message.module:
+    text: "módulo ''{0}''"
+message.module.file.has.an.older.format.do.you.want.to.convert.it:
+    text: El archivo de módulo tiene un formato anterior. ¿Desea convertirlo?
+message.modules:
+    text: módulos
+message.move.modules.to.group:
+    text: Mover {0} al grupo {1}
+message.no.targets.available:
+    text: No hay objetivos disponibles en este contexto
+message.occurrence.N.of.M:
+    text: Coincidencia {0} de {1}
+message.open.file.is.project:
+    text: |-
+        {0} es un archivo de proyecto.
+        ¿Desea abrir el proyecto?
+message.open.source.project.license:
+    text: Licencia de proyecto de código abierto. {0}
+message.path.to.fqn.has.been.copied:
+    text: "''{0}'' se ha copiado."
+message.personal.license:
+    text: Licencia personal
+message.please.select.element.for.javadoc:
+    text: Seleccione el elemento para el que desea ver la documentación
+message.reference.to.fqn.has.been.copied:
+    text: "Se ha copiado la referencia a ''{0}''."
+message.server.protocol.hijacked:
+    text: 'La respuesta del servidor de licencias no superó la comprobación de integridad de datos: {0}'
+message.settings.exported.successfully:
+    text: "Sus ajustes se han exportado correctamente.\nPuede importar los ajustes mediante 'Archivo | Gestionar ajustes del IDE | Importar ajustes…'."
+message.settings.imported.successfully:
+    text: Configuración importada correctamente. ¿{0} {1} para volver a cargar los ajustes?
+message.text.creating.deployment.descriptor:
+    text: Creando descriptor de despliegue
+message.text.error.creating.deployment.descriptor:
+    text: 'Error al crear el elemento de despliegue: {0}'
+message.text.unlock.read.only.files:
+    text: <html><body>Los siguientes archivos son de solo lectura. {0} los desbloqueará.<br>{1}</body></html>
+message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
+    text: "<html><body>Su módulo se convirtió correctamente. <br>La versión anterior se guardó en ''{0}''</body></html>"
+new.library.file.chooser.title:
+    text: Nuevos archivos de biblioteca
+no.charset.set.reason.charset.auto.detected.by.bom:
+    text: el juego de caracteres se detecta automáticamente mediante el BOM
+no.charset.set.reason.charset.auto.detected.from.content:
+    text: el juego de caracteres se detectó automáticamente a partir del contenido
+no.charset.set.reason.charset.hard.coded.in.file:
+    text: el juego de caracteres está codificado en el archivo
+no.charset.set.reason.disabled.for.binary.file:
+    text: desactivado para un archivo binario
+no.charset.set.reason.disabled.for.directory:
+    text: deshabilitado para un directorio
+no.charset.set.reason.disabled.for.file.type:
+    text: deshabilitado para {0}
+no.information.available:
+    text: No hay información disponible
+node.call.hierarchy.N.usages:
+    text: ({0} usos)
+node.call.hierarchy.unknown.jsp:
+    text: jsp desconocido
+node.default:
+    text: <predeterminado>
+node.default.package:
+    text: <Paquete predeterminado>
+node.hierarchy.invalid:
+    text: '[Inválido]'
+node.hierarchy.java.lang.object:
+    text: Todas las clases derivan de java.lang.Object
+node.memberchooser.all.classes:
+    text: Todas las clases
+node.projectview.external.libraries:
+    text: Bibliotecas externas
+node.projectview.libraries:
+    text: Bibliotecas
+node.projectview.library:
+    text: librería {0}
+node.structureview.invalid:
+    text: <inválido>
+open.url.in.browser.tooltip:
+    text: Abrir en el navegador
+option.hide.tool.window.bars:
+    text: Ocultar barras de la ventana de herramientas
+package.0.installed.successfully:
+    text: "El paquete ''{0}'' se instaló correctamente"
+package.installed.successfully:
+    text: El paquete se ha instalado correctamente.
+package.successfully.uninstalled:
+    text: "El paquete ''{0}'' se ha desinstalado correctamente"
+package.successfully.upgraded:
+    text: El paquete {0} se ha actualizado correctamente
+packages.settings.latest.version:
+    text: Última versión
+packages.settings.loading:
+    text: Cargando lista de paquetes
+packages.settings.package:
+    text: Paquete
+packages.settings.version:
+    text: Versión
+packages.successfully.uninstalled:
+    text: Paquetes desinstalados correctamente
+packages.title:
+    text: Paquetes
+please.edit.repository.url:
+    text: Por favor, edite la URL del repositorio
+please.input.repository.url:
+    text: Por favor, introduzca la URL del repositorio
+popup.title.edit.shortcuts:
+    text: Editar atajos
+popup.title.play.saved.macros:
+    text: Reproducir macros guardadas
+popup.title.select.library.type:
+    text: Seleccionar tipo de biblioteca
+predefined.scope.problems.name:
+    text: Problemas
+predefined.scope.production.name:
+    text: Producción
+presentation.mode.fon.size:
+    text: 'Tamaño de fuente:'
+progress.creating.directory:
+    text: Creando el directorio {0}{1}{2}
+progress.creating.file:
+    text: Creando archivo {0}{1}{2}
+progress.creating.package:
+    text: Creando el paquete {0}.{1}
+progress.deleting:
+    text: Eliminando
+progress.deleting.class:
+    text: Eliminando la clase {0}
+progress.searching:
+    text: Buscando…
+progress.searching.for.sources:
+    text: Buscando fuentes en {0}. Por favor, espere.
+progress.text.clickToViewProgressWindow:
+    text: Haga clic para ver todos los procesos en ejecución
+progress.text.reloading.file:
+    text: Recargando archivo…
+progress.text.reloading.files:
+    text: Recargando archivos…
+progress.text.stopping:
+    text: Deteniendo - {0}
+progress.title.reload.files:
+    text: Recargar archivos
+progress.window.empty.text:
+    text: No hay procesos en ejecución.
+progress.window.title:
+    text: Procesos
+project.directory.is.not.writable:
+    text: "El directorio ''{0}'' no parece tener permisos de escritura. Por favor, elija otra ubicación."
+project.import.default.name:
+    text: Importado de {0}
+project.import.default.name.dotIdea:
+    text: Importado de {0}
+project.import.open.existing:
+    text: "Hay {0} en ''{1}''.\n¿Desea abrir el proyecto existente o eliminarlo e importar ''{2}''?"
+project.import.open.existing.openExisting:
+    text: Abrir proyecto existente
+project.import.open.existing.reimport:
+    text: Eliminar el proyecto existente e importar
+project.import.select.title:
+    text: Seleccionar {0} proyectos para importar
+project.import.show.settings.after:
+    text: '&Abrir la estructura del proyecto después de la importación'
+project.import.wizard.title:
+    text: Importar desde {0}
+prompt.browse.icon.for.selected.action:
+    text: Buscar icono en formato SVG o PNG
+prompt.check.components.to.import:
+    text: 'Por favor, marque todos los componentes a importar:'
+prompt.choose.base.class.of.the.hierarchy:
+    text: Seleccione la clase base de la jerarquía en la que buscar
+prompt.choose.export.settings.file.path:
+    text: Seleccione la ruta del archivo de exportación o el directorio donde crear el nuevo archivo
+prompt.choose.import.file.path:
+    text: Seleccione el archivo de configuración para importar o el directorio donde se encuentra el archivo
+prompt.confirm.project.no.jdk:
+    text: |-
+        ¿Desea crear un proyecto sin ningún SDK asignado?
+        Se requiere un SDK para compilar, depurar y ejecutar aplicaciones, así como para la resolución de clases estándar del SDK.
+prompt.create.non.existing.package:
+    text: |-
+        El paquete {0} no existe.
+        ¿Desea crearlo?
+prompt.delete.and:
+    text: y
+prompt.delete.class:
+    text: '{0,choice,1#clase|2#clases}'
+prompt.delete.directory:
+    text: '{0,choice,1#directorio|2#directorios}'
+prompt.delete.directory.paren:
+    text: ({0} {0,choice,1#directorio|2#directorios})
+prompt.delete.elements:
+    text: ¿Eliminar {0}?
+prompt.delete.field:
+    text: '{0,choice,1#campo|2#campos}'
+prompt.delete.file:
+    text: '{0,choice,1#archivo|2#archivos}'
+prompt.delete.interface:
+    text: '{0,choice,1#interfaz|2#interfaces}'
+prompt.delete.it.anyway:
+    text: ¿Eliminar de todos modos?
+prompt.delete.method:
+    text: '{0,choice,1#método|2#métodos}'
+prompt.delete.package:
+    text: '{0,choice,1#paquete|2#paquetes}'
+prompt.delete.property:
+    text: '{0,choice,1#propiedad|2#propiedades}'
+prompt.delete.symlink:
+    text: '{0,choice,1#enlace simbólico|2#enlaces simbólicos}'
+prompt.delete.type.parameter:
+    text: '{0,choice,1#parámetro de tipo|2#parámetros de tipo}'
+prompt.directory.contains.read.only.files:
+    text: El directorio {0} contiene archivos de solo lectura. ¿Desea eliminarlo de todos modos?
+prompt.enter.a.new.package.name:
+    text: 'Introduzca un nuevo nombre de paquete:'
+prompt.enter.macro.name:
+    text: Introduzca un nombre para la macro. Déjelo en blanco si la macro es temporal.
+prompt.enter.new.class.name:
+    text: 'Introduzca un nuevo nombre de clase:'
+prompt.enter.new.file.name:
+    text: 'Introduzca el nombre del archivo:'
+prompt.enter.new.library.name:
+    text: Ingrese el nuevo nombre de la biblioteca
+prompt.enter.new.module.name:
+    text: Introduzca el nombre del nuevo módulo
+prompt.enter.new.name:
+    text: Introduzca un nuevo nombre
+prompt.enter.parameters:
+    text: 'Introduzca los parámetros:'
+prompt.enter.project.file.location:
+    text: Ingrese la ubicación del archivo {0}
+prompt.enter.relative.path.to.module.content.root:
+    text: 'Introduzca la ruta relativa a la raíz de contenido del módulo (ejemplo: java{0}src):'
+prompt.filechooser.enter.file.name:
+    text: 'Introduzca el nombre del archivo:'
+prompt.goto.inspection.enter.name:
+    text: 'Introduzca el nombre de la inspección:'
+prompt.gotoaction.enter.action:
+    text: 'Introduzca el nombre de la acción u opción:'
+prompt.gotoclass.enter.class.name:
+    text: 'Introduzca el nombre de {0}:'
+prompt.gotofile.enter.file.name:
+    text: 'Introduzca el nombre del archivo:'
+prompt.gotosymbol.enter.symbol.name:
+    text: 'Introduzca el nombre del símbolo:'
+prompt.input.favorites.list.new.name:
+    text: "Cambiar el nombre de la lista de favoritos ''{0}'' a:"
+prompt.input.new.favorites.list.name:
+    text: Introduzca un nombre para la nueva lista de favoritos
+prompt.new.project.file.name:
+    text: Introduzca un nombre de archivo para crear un nuevo {0} {1}
+prompt.open.project.in.new.frame:
+    text: <html><body>¿Dónde desea abrir el proyecto?</body></html>
+prompt.overwrite.project.folder:
+    text: |-
+        La carpeta {0} ya existe en {1}.
+        Su contenido podría ser sobrescrito.
+        ¿Desea continuar?
+prompt.overwrite.settings.file:
+    text: "¿Sobrescribir ''{0}''?"
+prompt.please.check.all.components.to.export:
+    text: 'Por favor, compruebe los ajustes a exportar:'
+prompt.please.select.module.jdk:
+    text: Seleccione el {0} que se establecerá para este módulo
+prompt.please.select.project.jdk:
+    text: |-
+        Seleccione el SDK del proyecto.
+        Este SDK se utilizará de forma predeterminada en todos los módulos del proyecto.
+prompt.please.specify.java.sources.directory:
+    text: |-
+        Por favor, especifique un directorio donde se puedan encontrar los archivos fuente de su proyecto.
+        Esta ruta debe corresponder al paquete predeterminado (raíz, sin nombre, nivel superior).
+        Nota: el programa solo reconocerá los archivos fuente que se encuentren bajo estos directorios.
+prompt.relative.path.to.sources.empty:
+    text: "La ruta relativa a las fuentes está vacía.\n¿Desea marcar la raíz del contenido del módulo\n''{0}''\ncomo un directorio de fuentes?"
+prompt.reset.to.original.template:
+    text: ¿Restablecer a la plantilla original?
+prompt.select.source.directory:
+    text: Seleccionar directorio de código fuente
+prompt.specify.module.group.name:
+    text: |+
+        Especifique el nombre del grupo bajo el cual se mostrará {0}.
+
+prompt.specify.name.of.module.subgroup:
+    text: |+
+        Especifique el nombre del subgrupo de {0} en el que se mostrará {1}.
+
+prompt.stop.searching.for.sources:
+    text: '{0} está buscando fuentes actualmente. ¿Desea detener la búsqueda?'
+quick.lists.presentable.name:
+    text: Listas rápidas
+radio.create.source.directory:
+    text: '&Crear directorio de código fuente'
+radio.do.not.create.source.directory:
+    text: No crear &directorio de código fuente
+radio.process.close.ask:
+    text: Preguntar
+radio.process.close.disconnect:
+    text: Desconectar
+radio.process.close.terminate:
+    text: Finalizar proceso
+recent.files.checkbox.label:
+    text: Mostrar solo editados
+recent.locations.changed.locations:
+    text: Ubicaciones editadas recientemente
+recent.locations.popup.empty.file.text:
+    text: Líneas vacías
+recent.locations.popup.empty.text:
+    text: No se encontraron ubicaciones recientes
+recent.locations.popup.title:
+    text: Ubicaciones recientes
+recent.locations.title.text:
+    text: Mostrar solo editados
+repository.url.title:
+    text: URL del repositorio
+run.anything.action.tooltip.text:
+    text: 'Ejecutar comandos: abrir proyectos, iniciar configuraciones de ejecución, ejecutar tareas de Gradle o Maven, ejecutar comandos de terminal, etc.'
+run.anything.actions.undefined:
+    text: No definido
+run.anything.ad.command.delete:
+    text: '{0} para eliminar el comando reciente'
+run.anything.ad.run.action.with.default.settings:
+    text: Presione {0} para ejecutar con la configuración predeterminada
+run.anything.ad.run.in.context:
+    text: Presione {0} para ejecutar en el contexto del archivo actual
+run.anything.ad.run.with.debug:
+    text: '{0} para depurar'
+run.anything.console.error.title:
+    text: No se puede ejecutar el comando
+run.anything.console.process.finished:
+    text: |4-
+
+        Proceso finalizado con el código de salida {0}.
+run.anything.context.browse.directory:
+    text: Examinar directorio…
+run.anything.context.project:
+    text: Proyecto
+run.anything.context.separator.directories:
+    text: Directorios
+run.anything.context.separator.modules:
+    text: Módulos
+run.anything.context.title.working.directory:
+    text: Contexto de ejecución
+run.anything.context.tooltip:
+    text: Seleccionar el contexto en el que se ejecutará el comando actual
+run.anything.custom.activity.notification.group.id:
+    text: Comando Run Anything ejecutado
+run.anything.custom.activity.rollback.action:
+    text: Revertir
+run.anything.help.list.empty.secondary.text:
+    text: Seleccionar comando
+run.anything.hint.initial.text:
+    text: Presione {0} o {1} para navegar por la lista de sugerencias
+run.anything.indexing.mode.not.supported:
+    text: Run Anything no está disponible durante el análisis del proyecto
+run.anything.main.list.empty.primary.text:
+    text: Ejecutar comando o configuración
+run.anything.main.list.empty.secondary.text:
+    text: Escriba "?" para ver todos los comandos
+run.anything.notification.warning.content:
+    text: "No se pudo ejecutar el comando ''{0}''."
+run.anything.notification.warning.title:
+    text: Ejecución de comando fallida
+run.anything.recent.group.title:
+    text: Recientes
+run.anything.recent.project.command.placeholder:
+    text: abrir <nombre del proyecto>
+run.anything.recent.project.completion.group.title:
+    text: Proyectos recientes
+run.anything.recent.project.help.group.title:
+    text: Proyectos recientes
+run.anything.run.anything.title:
+    text: Ejecutar cualquier cosa
+run.anything.run.configurations.group.title:
+    text: Configuraciones de ejecución
+run.anything.run.debug.title:
+    text: 'Depurar:'
+run.anything.run.in.context.debug.title:
+    text: 'Ejecutar en contexto con depuración:'
+run.anything.run.in.context.title:
+    text: 'Ejecutar en el contexto:'
+run.canceled.by.user.message:
+    text: Ejecución cancelada por el usuario
+run.configuration.error.executable.not.specified:
+    text: No se ha especificado el ejecutable
+run.configuration.error.working.directory.does.not.exist:
+    text: "No se puede iniciar el proceso, el directorio de trabajo ''{0}'' no existe"
+run.configuration.error.working.directory.not.directory:
+    text: "No se puede iniciar el proceso, el directorio de trabajo ''{0}'' no es un directorio"
+scope.banner.text:
+    text: "Ámbito ''{0}''"
+scope.class.hierarchy:
+    text: Jerarquía de clases
+scope.current.file:
+    text: Archivo actual
+scope.editor.legend.partly.included.label:
+    text: Incluido parcialmente
+scope.editor.legend.recursively.included.label:
+    text: Incluido recursivamente
+scope.files.in.previous.search.result:
+    text: Archivos en el resultado de la búsqueda anterior
+scope.hierarchy:
+    text: Jerarquía de {0}
+scope.open.files:
+    text: Archivos abiertos
+scope.previous.search.results:
+    text: Resultados de búsqueda anteriores
+scope.selection:
+    text: selección
+scope.unable.to.save.scope.message:
+    text: ¿Desea guardar el ámbito como compartido?
+scope.unable.to.save.scope.title:
+    text: No se puede usar el ámbito local
+scope.view.title:
+    text: Ámbitos
+scopes.display.name:
+    text: Ámbitos
+scopes.no.scoped:
+    text: No se han añadido ámbitos.
+scopes.save.dialog.title.local:
+    text: Guardar como ámbito local
+scopes.save.dialog.title.shared:
+    text: Guardar como ámbito compartido
+scratches.and.consoles:
+    text: Archivos temporales y consolas
+scripting.lib.add:
+    text: '&Añadir…'
+scripting.lib.docUrl.title:
+    text: URLs de documentación
+scripting.lib.edit:
+    text: '&Editar…'
+scripting.lib.file.name:
+    text: Nombre
+scripting.lib.file.type:
+    text: Tipo
+scripting.lib.invalid.name:
+    text: Nombre de biblioteca no válido
+scripting.lib.name:
+    text: '&Nombre:'
+scripting.lib.remove:
+    text: Elimina&r
+scripting.lib.usageScope:
+    text: Ámbito de uso
+scripting.lib.usageScope.caption:
+    text: Especifique qué bibliotecas se utilizan en archivos y/o directorios específicos.
+scripting.lib.usageScope.override.question:
+    text: ¿Sobrescribir la configuración de la biblioteca para los subdirectorios y archivos?
+scripting.lib.usageScope.override.title:
+    text: Sobrescribir configuración de la biblioteca
+scripting.lib.usageScope.tableTitle:
+    text: Biblioteca
+search.for.usages.and.delete.elements:
+    text: ¿Buscar usos y eliminar {0}?
+searcheverywhere.commands.tab.name:
+    text: Comandos
+searcheverywhere.found.matches.title:
+    text: "Coincidencias de ''{0}'' en [{1}]"
+searcheverywhere.found.targets.title:
+    text: Resultados sin ordenar
+searcheverywhere.history.shortcuts.hint:
+    text: Presione {0} o {1} para navegar por el historial de búsqueda
+searcheverywhere.indexing.incomplete.results:
+    text: "Los resultados de la búsqueda en ''{0}'' pueden estar incompletos, analizando el proyecto…"
+searcheverywhere.indexing.mode.not.supported:
+    text: "La búsqueda en ''{0}'' estará disponible una vez que finalice el análisis del proyecto"
+searcheverywhere.nothing.found.for.all.anywhere:
+    text: No se encontró nada
+searcheverywhere.nothing.found.for.contributor.anywhere:
+    text: No se encontró ningún {0} con ese nombre
+searcheverywhere.run.configs.tab.name:
+    text: Configuraciones de ejecución
+searcheverywhere.runconfigurations.command.debug.description:
+    text: "Iniciar la configuración de ejecución en modo 'Depuración'"
+searcheverywhere.runconfigurations.command.run.description:
+    text: "Iniciar la configuración de ejecución en modo 'Ejecutar'"
+searcheverywhere.textfield.hint:
+    text: Escriba {0} para ver los comandos
+select.in.favorites:
+    text: Favoritos
+select.in.file.structure:
+    text: Estructura del archivo
+select.in.packages:
+    text: Paquetes
+select.in.project:
+    text: Proyecto
+select.in.project.settings:
+    text: Estructura del proyecto
+select.in.scope:
+    text: Ámbito
+settings.entry.point.tooltip:
+    text: Configuración del IDE y del proyecto
+settings.entry.point.widget.name:
+    text: Configuración de IDE y del proyecto
+setup.library.dialog.title:
+    text: Configuración de la biblioteca
+share.scope.checkbox.title:
+    text: Compartir a través de VCS
+shared.scopes.node.text:
+    text: Ámbitos compartidos
+show.in.find.window.button.description:
+    text: Abrir los resultados de búsqueda en la ventana de herramientas Buscar
+show.in.find.window.button.name:
+    text: Abrir en la ventana de herramientas Buscar
+show.main.toolbar:
+    text: Mostrar barra de herramientas principal
+show.navigation.bar:
+    text: Mostrar barra de navegación
+show.status.bar:
+    text: Mostrar barra de estado
+small.labels.in.editor.tabs:
+    text: Etiquetas pequeñas en las pestañas del editor
+status.bar.text.file.encoding:
+    text: 'Codificación del archivo: {0}'
+tab.chooser.project:
+    text: Proyecto
+tab.chooser.search.by.name:
+    text: Buscar por nombre
+tab.filetemplates.code:
+    text: Código
+tab.filetemplates.includes:
+    text: Inclusiones
+tab.filetemplates.j2ee:
+    text: Otros
+tab.filetemplates.templates:
+    text: Archivos
+team.server.license.not.found:
+    text: Esta distribución de IDEA solo tiene licencia para ser utilizada con JetBrains TeamCity.
+template.copy.N.of.T:
+    text: Copia {0} de {1}
+template.unnamed:
+    text: Sin nombre
+title.add.module:
+    text: Nuevo módulo
+title.add.new.favorites.list:
+    text: Añadir nueva lista de favoritos
+title.appearance:
+    text: Apariencia
+title.browse.icon:
+    text: Examinar icono
+title.cannot.convert.project:
+    text: No se puede convertir el proyecto
+title.cannot.create.file:
+    text: No se puede crear el archivo
+title.cannot.load.project:
+    text: No se puede cargar el proyecto
+title.cannot.open.file:
+    text: No se puede abrir el archivo
+title.cannot.save.current.template:
+    text: No se puede guardar la plantilla actual
+title.choose.action.icon:
+    text: Seleccionar icono de acción
+title.choose.destination.directory:
+    text: Seleccionar directorio de destino
+title.customizations:
+    text: Menús y barras de herramientas
+title.delete:
+    text: Eliminar
+title.directory.does.not.exist:
+    text: El directorio no existe
+title.edit.file.template:
+    text: Editar plantilla de archivo
+title.edit.macros:
+    text: Editar macros
+title.enter.macro.name:
+    text: Introducir nombre de la macro
+title.error.reading.file:
+    text: Error al leer el archivo
+title.error.writing.file:
+    text: Error al escribir el archivo
+title.export.file.location:
+    text: Ubicación del archivo de exportación
+title.export.preview:
+    text: Vista previa de exportación
+title.export.successful:
+    text: Exportación completada
+title.file.already.exists:
+    text: El archivo ya existe
+title.file.not.found:
+    text: Archivo no encontrado
+title.file.templates:
+    text: Plantillas de archivos y código
+title.general:
+    text: Configuración del sistema
+title.hierarchy.callees.of:
+    text: Llamados de {0}
+title.hierarchy.callers.of:
+    text: Llamadores de {0}
+title.hierarchy.class:
+    text: Clase {0}
+title.hierarchy.method:
+    text: Método {0}
+title.hierarchy.subtypes:
+    text: Subtipos de {0}
+title.hierarchy.supertypes:
+    text: Supertipos de {0}
+title.import.file.location:
+    text: Ubicación del archivo de importación
+title.input:
+    text: Entrada
+title.invalid.file:
+    text: Archivo no válido
+title.invalid.license.data:
+    text: Datos de licencia no válidos
+title.license.expired:
+    text: Licencia expirada
+title.macro.name.already.used:
+    text: Nombre de macro ya utilizado
+title.mark.source.directory:
+    text: Marcar directorio de fuentes
+title.module.file.does.not.exist:
+    text: 'El archivo del módulo no existe: {0}'
+title.module.group:
+    text: Grupo de módulos
+title.module.sub.group:
+    text: Subgrupo de módulos
+title.new.class:
+    text: Nueva clase
+title.new.directory:
+    text: Nuevo directorio
+title.new.file:
+    text: Nuevo archivo
+title.new.from.template:
+    text: Nuevo {0}
+title.new.package:
+    text: Nuevo paquete
+title.new.project:
+    text: Nuevo proyecto
+title.no.element.selected:
+    text: Ningún elemento seleccionado
+title.no.jdk.specified:
+    text: SDK no especificado
+title.open.project:
+    text: Abrir proyecto
+title.package.not.found:
+    text: Paquete no encontrado
+title.packages:
+    text: Paquetes
+title.popup.new.element:
+    text: Nuevo
+title.popup.new.element.same.place:
+    text: Nuevo en este directorio
+title.popup.recent.files:
+    text: Archivos recientes
+title.popup.select.target:
+    text: Seleccionar en
+title.project:
+    text: Proyecto
+title.question:
+    text: Pregunta
+title.rename.favorites.list:
+    text: Renombrar
+title.rename.library:
+    text: Renombrar biblioteca
+title.rename.macro:
+    text: Renombrar macro
+title.rename.module:
+    text: Renombrar módulo
+title.reset.template:
+    text: Restablecer plantilla
+title.restart.needed:
+    text: Reinicio necesario
+title.select.components.to.export:
+    text: Exportar configuración
+title.select.components.to.import:
+    text: Seleccionar componentes para importar
+title.select.path.to.browser:
+    text: Seleccionar la ruta del navegador
+title.select.project.file.directory:
+    text: Seleccionar el directorio de archivos {0}
+title.select.template:
+    text: Seleccionar plantilla
+title.tip.of.the.day:
+    text: Consejo del día
+title.unable.to.add.favorites.list:
+    text: No se puede añadir la lista de favoritos
+title.unable.to.save.data:
+    text: No se pueden guardar los datos
+title.velocity.error:
+    text: Error de Velocity
+title.warning:
+    text: Advertencia
+tooltip.line.separator:
+    text: 'Separador de líneas: {0}'
+tooltip.module.group:
+    text: Grupo de módulos
+tooltip.ui.designer.form:
+    text: Formulario del Diseñador de IU
+toolwindow.palette:
+    text: Paleta
+treenode.loading:
+    text: Cargando…
+uninstall.packages.failed:
+    text: Error al desinstalar los paquetes. <a href="xxx">Detalles…</a>
+uninstall.packages.failed.dialog.title:
+    text: Error al desinstalar paquetes
+unknown.error:
+    text: Error desconocido
+unscramble.dialog.title:
+    text: Analizar traza de la pila
+unscramble.log.path.label:
+    text: 'Archivo de &log:'
+unscramble.no.unscrambler.item:
+    text: <Ningún descodificador instalado>
+unscramble.normalize.button:
+    text: '&Normalizar'
+unscramble.stacktrace.caption:
+    text: 'Introduzca una traza de pila o un volcado de hilos completo aquí:'
+unscramble.unscrambled.deadlock.tab:
+    text: <Interbloqueo>
+unscramble.unscrambled.threaddump.tab:
+    text: <Hilos>
+unscramble.unscrambler.combobox:
+    text: 'De&scifrador:'
+unscramble.use.unscrambler.checkbox:
+    text: '&Descodificar traza de la pila'
+upgrade.package.failed.title:
+    text: Error al actualizar el paquete.
+upgrade.packages.failed:
+    text: Error al actualizar los paquetes. <a href="xxx">Detalles…</a>
+upgrade.packages.failed.dialog.title:
+    text: Error al actualizar paquetes
+warning.delete.all.files.and.subdirectories:
+    text: |4-
+
+        Se eliminarán todos los archivos y subdirectorios de "{0}".
+        ¡Es posible que no se pueda deshacer esta operación por completo!
+warning.delete.all.files.and.subdirectories.in.the.selected.directory:
+    text: |4-
+
+        Se eliminarán todos los archivos y subdirectorios del directorio o directorios seleccionados.
+        ¡Es posible que no pueda deshacer esta operación por completo!
+warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
+    text: "El archivo del módulo ''{0}'' ya existe."
+warning.text.0.do.you.want.to.overwrite.these.files:
+    text: |-
+        {0}
+        ¿Desea sobrescribir {1,choice,1#este archivo|2#estos archivos}?

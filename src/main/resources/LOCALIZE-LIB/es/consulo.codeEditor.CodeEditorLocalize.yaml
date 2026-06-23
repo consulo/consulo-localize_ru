@@ -1,0 +1,106 @@
+action.ConfigureEditorTabs.description:
+    text: Configurar la apariencia, el comportamiento y el orden de las pestañas del editor
+action.ConfigureEditorTabs.text:
+    text: Configurar pestañas del editor…
+action.EditorGutterToggleGlobalStickyLines.description:
+    text: Mostrar el panel de líneas adhesivas
+action.EditorGutterToggleGlobalStickyLines.text:
+    text: Mostrar líneas fijas
+action.EditorStickyConfigure.description:
+    text: Mostrar el diálogo de configuración de líneas fijas
+action.EditorStickyConfigure.text:
+    text: Configurar líneas fijas…
+action.EditorStickyLinesDisable.description:
+    text: Ocultar el panel de líneas fijas
+action.EditorStickyLinesDisable.text:
+    text: Desactivar
+action.EditorStickyLinesDisableForLang.description:
+    text: Ocultar el panel de líneas fijas para el lenguaje
+action.EditorStickyLinesDisableForLang.for.lang.text:
+    text: Desactivar para {0}
+action.EditorStickyLinesDisableForLang.text:
+    text: Desactivar para el lenguaje
+action.copy.text:
+    text: Copiar
+action.delete.text:
+    text: Eliminar…
+attempt.to.modify.read.only.document.error.message:
+    text: Intento de modificar un documento de solo lectura
+checkbox.show.editor.preview.popup:
+    text: Mostrar lente de código al pasar el ratón sobre la barra de desplazamiento
+close.editor.annotations.action.name:
+    text: Cerrar anotaciones
+customize.highlighting.level.menu.item:
+    text: Personalizar nivel de resaltado
+editing.read.only.file.hint:
+    text: El archivo es de solo lectura
+editing.viewer.hint:
+    text: Esta vista es de solo lectura
+editor.notification.default.action.name:
+    text: Acciones de notificación
+editor.notification.settings.option.name:
+    text: Configuración…
+editor.open.file.progress:
+    text: Abriendo {0}
+errors.panel.go.to.errors.first.radio:
+    text: Problemas con la prioridad más alta
+errors.panel.go.to.next.error.warning.radio:
+    text: Todos los problemas
+file.not.found:
+    text: 'Archivo no encontrado: {0}'
+forced.soft.wrap.message:
+    text: Este documento contiene líneas muy largas. Se ha habilitado el ajuste de línea automático para mejorar el rendimiento del editor.
+group.EditorStickyLinesSettings.description:
+    text: Alternar la configuración del panel de líneas fijas
+group.EditorStickyLinesSettings.text:
+    text: Líneas fijas
+guarded.block.modification.attempt.error.message:
+    text: No se puede realizar la acción ya que modifica fragmentos de solo lectura del documento actual
+guarded.block.modification.attempt.error.title:
+    text: Intento de modificación de un bloque protegido
+hector.highlighting.level.title:
+    text: Nivel de resaltado
+hector.inspections.slider.label:
+    text: Inspecciones
+hector.none.slider.label:
+    text: Ninguno
+hector.syntax.slider.label:
+    text: Sintaxis
+inlay.hints.declarative.disable.action.no.provider.text:
+    text: Desactivar sugerencias incrustadas
+inlay.hints.declarative.disable.action.text:
+    text: "Desactivar sugerencias incrustadas ''{0}''"
+inlay.hints.declarative.disable.option.action.text:
+    text: "Desactivar la opción ''{0}'' para las sugerencias incrustadas ''{1}''"
+inlay.hints.declarative.enable.action.text:
+    text: "Habilitar sugerencias inlay ''{0}''"
+inlay.hints.declarative.enable.option.action.text:
+    text: "Habilitar la opción ''{0}'' para las sugerencias incrustadas ''{1}''"
+iw.compact.view:
+    text: Vista compacta
+iw.disable.powersave:
+    text: Desactivar el modo de ahorro de energía
+iw.found.so.far.suffix:
+    text: encontrados hasta ahora
+iw.highlight.label:
+    text: 'Resaltado:'
+iw.show.import.tooltip:
+    text: Mostrar tooltip de importación automática
+move.caret.command.name:
+    text: Mover el cursor
+move.cursor.command.name:
+    text: Mover el cursor
+move.selection.command.name:
+    text: Mover selección
+paste.command.name:
+    text: Pegar
+radio.editor.tab.arrow:
+    text: '> símbolo'
+radio.editor.tab.horizontal.line:
+    text: Línea horizontal
+radio.editor.tab.long.arrow:
+    text: Flecha larga
+typing.command.name:
+    text: Escritura
+typing.in.editor.command.name:
+    text: Escritura

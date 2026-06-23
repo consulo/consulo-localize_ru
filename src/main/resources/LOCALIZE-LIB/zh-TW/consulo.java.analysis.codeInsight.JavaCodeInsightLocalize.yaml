@@ -1,0 +1,32 @@
+action.structureview.show.non.public:
+    text: 顯示非公用
+action.structureview.show.properties:
+    text: 顯示屬性
+file.structure.toggle.show.anonymous.classes:
+    text: 匿名類
+generate.equals.hashcode.accept.sublcasses:
+    text: 接受子類別作為參數equals()方法(
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>Object.equals() 不符合接受範圍內<br>子類別可能需要產生方法的正確工作<br>在方塊架中, 它產生的代理子類別如Hibernate。</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: "選取要被包含在equals()中的欄位(f)\r (&F)"
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: "選取要被包含在hashCode()中的欄位(f)\r (&F)"
+generate.equals.hashcode.internal.error:
+    text: 內部錯誤
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: 選取所有非空欄位 (&F)
+generate.equals.hashcode.template:
+    text: '範本(&T):'
+generate.equals.hashcode.use.getters:
+    text: 在代碼產生過程中使用 &getters
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: hashCode()不支援陣列
+generate.equals.hashcode.wizard.title:
+    text: 產生equals()和hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals()不支援巢狀的陣列
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: 產生的Object[]的equals()可能不正確
+static.class.initializer:
+    text: '{0}類別初始化器'

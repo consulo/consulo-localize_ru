@@ -1,0 +1,1176 @@
+access.static.via.instance:
+    text: Acceso a miembro estático a través de una referencia de instancia
+annotate.overridden.methods.parameters:
+    text: "Anotar los parámetros de los métodos que sobrescriben como ''@{0}''"
+annotate.overridden.methods.parameters.family.name:
+    text: Anotar parámetros de los métodos que sobrescriben
+assignment.to.declared.variable.problem.descriptor:
+    text: "La variable ''{0}'' se inicializa con una autoasignación"
+assignment.to.itself.problem.descriptor:
+    text: "La variable ''{0}'' se asigna a sí misma"
+assignment.to.itself.quickfix.name:
+    text: Eliminar autoasignación
+boolean.method.is.always.inverted.display.name:
+    text: El método booleano siempre está invertido
+boolean.method.is.always.inverted.problem.descriptor:
+    text: "Las llamadas al método booleano '#ref()' siempre se invierten"
+cleanup.in.file:
+    text: Limpiar código
+cleanup.in.scope:
+    text: Limpiar código en…
+configure.annotations.option:
+    text: Configurar anotaciones…
+dataflow.message.array.index.out.of.bounds:
+    text: Índice del array fuera de límites
+dataflow.message.assigning.null:
+    text: Se asigna <code>null</code> a una variable no nula
+dataflow.message.assigning.nullable:
+    text: La expresión <code>#ref</code> podría evaluarse como null, pero se asigna a una variable no nula
+dataflow.message.constant.method.reference:
+    text: "El resultado de la referencia al método siempre es ''{0}''"
+dataflow.message.passing.null.argument:
+    text: Pasando el argumento <code>null</code> al parámetro anotado como @NotNull
+dataflow.message.passing.nullable.argument:
+    text: El argumento <code>#ref</code> puede ser null
+dataflow.message.passing.nullable.argument.methodref:
+    text: El argumento de la referencia a método puede ser null
+dataflow.message.pointless.assignment.expression:
+    text: La condición <code>#ref</code> en el lado izquierdo de la expresión de asignación es siempre <code>{0}</code>. Se puede simplificar.
+dataflow.message.return.null.from.notnull:
+    text: <code>null</code> es devuelto por el método declarado como @{0}
+dataflow.message.return.null.from.notnullable:
+    text: El método devuelve <code>null</code> y no está declarado como @{0}
+dataflow.message.return.nullable.from.notnull:
+    text: La expresión <code>#ref</code> puede evaluarse como null, pero es devuelta por el método declarado como @{0}
+dataflow.message.return.nullable.from.notnull.function:
+    text: La función puede devolver null, pero no se permite aquí
+dataflow.message.return.nullable.from.notnullable:
+    text: La expresión <code>#ref</code> podría evaluarse como null, pero es devuelta por el método que no está declarado como @{0}
+dataflow.message.storing.array.null:
+    text: <code>null</code> se almacena en un array de elementos @NotNull
+dataflow.message.storing.array.nullable:
+    text: La expresión <code>#ref</code> puede evaluarse como null, pero se almacena en una matriz de elementos @NotNull
+dataflow.message.unreachable.switch.label:
+    text: La etiqueta switch <code>#ref</code> es inaccesible
+dataflow.method.fails.with.null.argument:
+    text: El método lanzará una excepción cuando el parámetro sea null
+default.file.template.description:
+    text: Plantilla de archivo predeterminada
+deprecated.symbol:
+    text: "''{0}'' está en desuso"
+detach.library.quickfix.name:
+    text: Desvincular biblioteca
+detach.library.roots.quickfix.name:
+    text: Desvincular raíces de biblioteca no utilizadas
+disable.inspection.action.name:
+    text: Desactivar inspección
+duplicate.property.diff.key.option:
+    text: Claves &duplicadas con valores diferentes
+duplicate.property.diff.key.progress.indicator.text:
+    text: 'Procesando clave de propiedad duplicada: {0}'
+duplicate.property.display.name:
+    text: Propiedad duplicada
+duplicate.property.file.scope.option:
+    text: Archivo
+duplicate.property.key.option:
+    text: Claves duplicadas (&K)
+duplicate.property.key.progress.indicator.text:
+    text: 'Procesando clave de propiedad duplicada: {0}'
+duplicate.property.module.scope.option:
+    text: Módulo
+duplicate.property.project.scope.option:
+    text: Proyecto
+duplicate.property.value.option:
+    text: '&Valores duplicados'
+duplicate.property.value.progress.indicator.text:
+    text: 'Procesando valor de propiedad duplicado: {0}'
+edit.inspection.options:
+    text: "Editar opciones de ''{0}''"
+edit.options.of.reporter.inspection.family:
+    text: Editar opciones de la inspección del reportero
+edit.options.of.reporter.inspection.text:
+    text: Editar configuración del perfil de inspección
+error.analysis.is.in.progress:
+    text: El análisis de errores está en curso
+exports.to.itself.delete.module.ref.fix:
+    text: "Eliminar referencia al módulo ''{0}''"
+exports.to.itself.delete.statement.fix:
+    text: Eliminar directiva
+group.names.abstraction.issues:
+    text: Problemas de abstracción
+group.names.assignment.issues:
+    text: Problemas de asignación
+group.names.bitwise.operation.issues:
+    text: Problemas de operaciones bit a bit
+group.names.class.metrics:
+    text: Métricas de clase
+group.names.class.structure:
+    text: Estructura de clase
+group.names.cloning.issues:
+    text: Problemas de clonación
+group.names.code.maturity.issues:
+    text: Madurez del código
+group.names.code.style.issues:
+    text: Problemas de estilo de código
+group.names.compiler.issues:
+    text: Problemas del compilador
+group.names.concurrency.annotation.issues:
+    text: Problemas de anotaciones de concurrencia
+group.names.control.flow.issues:
+    text: Problemas de flujo de control
+group.names.data.flow.issues:
+    text: Flujo de datos
+group.names.declaration.redundancy:
+    text: Redundancia de declaraciones
+group.names.dependency.issues:
+    text: Problemas de dependencias
+group.names.encapsulation.issues:
+    text: Encapsulación
+group.names.error.handling:
+    text: Manejo de errores
+group.names.finalization.issues:
+    text: Finalización
+group.names.imports:
+    text: Importaciones
+group.names.inheritance.issues:
+    text: Problemas de herencia
+group.names.initialization.issues:
+    text: Inicialización
+group.names.internationalization.issues:
+    text: Internacionalización
+group.names.j2me.issues:
+    text: Embebido
+group.names.javabeans.issues:
+    text: Problemas de JavaBeans
+group.names.javadoc.issues:
+    text: Javadoc
+group.names.javaee.issues:
+    text: Java EE
+group.names.junit.issues:
+    text: JUnit
+group.names.logging.issues:
+    text: Registro
+group.names.memory.issues:
+    text: Memoria
+group.names.method.metrics:
+    text: Métricas de método
+group.names.modularization.issues:
+    text: Problemas de modularización
+group.names.naming.conventions:
+    text: Convenciones de nomenclatura
+group.names.numeric.issues:
+    text: Problemas numéricos
+group.names.packaging.issues:
+    text: Problemas de empaquetado
+group.names.performance.issues:
+    text: Rendimiento
+group.names.portability.issues:
+    text: Portabilidad
+group.names.potentially.confusing.code.constructs:
+    text: Estructuras de código potencialmente confusas
+group.names.probable.bugs:
+    text: Errores probables
+group.names.properties.files:
+    text: Archivos de propiedades
+group.names.reflective.access.issues:
+    text: Acceso reflectivo
+group.names.resource.management.issues:
+    text: Gestión de recursos
+group.names.security.issues:
+    text: Seguridad
+group.names.serialization.issues:
+    text: Problemas de serialización
+group.names.threading.issues:
+    text: Problemas de subprocesos
+group.names.toString.issues:
+    text: Problemas de toString()
+group.names.verbose.or.redundant.code.constructs:
+    text: Construcciones de código verbosas o redundantes
+group.names.visibility.issues:
+    text: Visibilidad
+highlight.severity.create.dialog.name.label:
+    text: Nombre
+highlight.severity.create.dialog.title:
+    text: Editar nombre de la gravedad
+inconsistent.bundle.property.error:
+    text: "Propiedad incoherente ''{0}''. Debe definirse en el archivo primario ''{1}''."
+inconsistent.bundle.property.inconsistent.end:
+    text: "Final de valor de propiedad inconsistente ''{0}''"
+inconsistent.bundle.property.inconsistent.end.parent.end.from.check.symbols:
+    text: "Fin de valor de propiedad inconsistente ''{0}'', pero se encontró ''{1}'' en ''{2}''"
+inconsistent.bundle.property.inconsistent.placeholders:
+    text: "Cantidad incoherente de marcadores de posición: se han encontrado {0} en ''{1}''"
+inconsistent.bundle.property.inherited.with.the.same.value:
+    text: "Propiedad heredada del archivo ''{0}'' con el mismo valor"
+inconsistent.bundle.report.duplicate.properties.values:
+    text: Informar de propiedades s&obrescritas con el mismo valor
+inconsistent.bundle.report.inconsistent.properties:
+    text: Informar propiedades &inconsistentes
+inconsistent.bundle.report.inconsistent.properties.ends:
+    text: Informar propiedades con final&es incoherentes
+inconsistent.bundle.report.inconsistent.properties.placeholders:
+    text: Informar propiedades con marcadores de &posición inconsistentes
+inconsistent.bundle.report.missing.translations:
+    text: Informar de traducciones &faltantes
+inconsistent.bundle.untranslated.property.error:
+    text: "Propiedad no traducida ''{0}''. Debe ser sobrescrita en ''{1}''."
+inconsistent.line.separators:
+    text: Separadores de línea inconsistentes
+inconsistent.resource.bundle.display.name:
+    text: Paquete de recursos inconsistente
+inspection.action.apply.quickfix:
+    text: Aplicar una corrección rápida
+inspection.action.apply.quickfix.description:
+    text: Aplicar una corrección rápida de inspección
+inspection.action.edit.settings:
+    text: Editar configuración
+inspection.action.export.html:
+    text: Exportar
+inspection.action.export.popup.title:
+    text: Exportar a
+inspection.action.go.next:
+    text: Ir al siguiente problema
+inspection.action.group.by.severity:
+    text: Agrupar por gravedad
+inspection.action.group.by.severity.description:
+    text: Agrupar inspecciones por gravedad
+inspection.action.noun:
+    text: Inspección
+inspection.action.profile.label:
+    text: 'Perfil de inspección:'
+inspection.action.rerun:
+    text: Volver a ejecutar inspección (&R)
+inspection.action.suppress:
+    text: "Suprimiendo la inspección ''{0}''"
+inspection.action.title:
+    text: Inspección
+inspection.annotate.method.quickfix.family.name:
+    text: Anotar método
+inspection.annotate.overridden.method.and.self.quickfix.family.name:
+    text: Anotar los métodos que sobrescriben y a sí mismo
+inspection.annotate.overridden.method.quickfix.family.name:
+    text: Anotar métodos que sobrescriben
+inspection.annotate.quickfix.implements:
+    text: implementar
+inspection.annotate.quickfix.overridden.method.messages:
+    text: |-
+        El método {0} {1} el método {2}.
+        ¿Desea anotar también el método base?
+inspection.annotate.quickfix.overridden.method.warning:
+    text: Advertencia de método sobreescrito
+inspection.annotate.quickfix.overrides:
+    text: sobrescrituras
+inspection.application.cannot.convert.project.0:
+    text: 'No se puede convertir el proyecto: {0}'
+inspection.application.cannot.convert.the.project.the.following.files.are.read.only.0:
+    text: 'No se puede convertir el proyecto. Los siguientes archivos son de solo lectura: {0}'
+inspection.application.chosen.profile.log.message:
+    text: "Inspeccionando con el perfil ''{0}''"
+inspection.application.directory.cannot.be.found:
+    text: No se puede encontrar el directorio {0}
+inspection.application.file.cannot.be.found:
+    text: No se puede encontrar el archivo {0}
+inspection.application.initializing.project:
+    text: Inicializando el proyecto…
+inspection.application.opening.project:
+    text: Abriendo proyecto…
+inspection.application.project.has.older.format.and.will.be.converted:
+    text: El proyecto tiene un formato anterior y se convertirá.
+inspection.application.starting.up:
+    text: Iniciando {0}…
+inspection.assert.quickfix:
+    text: "Afirmar ''{0}''"
+inspection.can.be.final.accept.quickfix:
+    text: Hacer final
+inspection.can.be.final.display.name:
+    text: "La declaración puede tener el modificador 'final'"
+inspection.can.be.final.option:
+    text: Reportar clases
+inspection.can.be.final.option1:
+    text: Reportar métodos
+inspection.can.be.final.option2:
+    text: Informar sobre campos
+inspection.can.be.local.parameter.problem.descriptor:
+    text: El parámetro <code>#ref</code> puede tener el modificador <code>final</code>
+inspection.can.be.local.variable.problem.descriptor:
+    text: La variable <code>#ref</code> puede tener el modificador <code>final</code>
+inspection.capitalized.done:
+    text: Hecho.
+inspection.collection.factories.fix.family.name:
+    text: Reemplazar con llamada a fábrica de colecciones
+inspection.collection.factories.fix.name:
+    text: "Reemplazar con la llamada a ''{0}.{1}()''"
+inspection.collection.factories.message:
+    text: "Puede reemplazarse con la llamada a ''{0}.{1}()''"
+inspection.collection.factories.option.ignore.non.constant:
+    text: Informar solo cuando el contenido sea constante
+inspection.command.line.explanation:
+    text: |-
+        Parámetros esperados: <project_file_path> <inspection_profile> <output_path> [<options>]
+        <inspection_profile> -- nombre de un perfil configurado en el proyecto o localmente, o una ruta a un perfil de inspección; puede omitirse cuando se utiliza uno de -e|-profileName|-profilePath
+        Opciones disponibles:
+         -d <directory_path>  --  directorio a inspeccionar, el valor predeterminado es todo el proyecto
+        -e                   --  utilizar el perfil de inspección configurado para el proyecto
+        -v[0|1|2]            --  nivel de detalle. 0 - silencioso, 1 - detallado, 2 - máximo detalle
+        -profileName         --  nombre de un perfil definido en el proyecto
+        -profilePath         --  ruta absoluta a un archivo de perfil
+        -format              --  formato de salida del informe. Uno de xml|json|plain, el valor predeterminado es xml
+        -changes             --  inspeccionar cambios no confirmados e informar sobre nuevos problemas
+inspection.comparator.result.comparison.display.name:
+    text: Uso sospechoso del método compare
+inspection.comparator.result.comparison.fix.family.name:
+    text: Corregir comparación del resultado del comparador
+inspection.comparator.result.comparison.problem.display.name:
+    text: Comparación del resultado del método compare con una constante específica
+inspection.comparing.references.problem.descriptor:
+    text: 'Comparación sospechosa #ref #loc'
+inspection.comparing.references.use.quickfix:
+    text: Usar equals()
+inspection.compiler.javac.quirks.anno.array.comma.fix:
+    text: Eliminar coma final
+inspection.compiler.javac.quirks.anno.array.comma.problem:
+    text: La coma final en los inicializadores de arrays de anotaciones puede causar errores de compilación al usar versiones de javac anteriores (por ejemplo, JDK 5 y JDK 6)
+inspection.compiler.javac.quirks.name:
+    text: Peculiaridades de Javac
+inspection.compiler.javac.quirks.qualifier.type.args.fix:
+    text: Eliminar parámetro genérico
+inspection.compiler.javac.quirks.qualifier.type.args.problem:
+    text: Los genéricos en las referencias de calificador pueden causar errores de compilación al usar versiones de javac más antiguas (por ejemplo, JDK 5 y JDK 6)
+inspection.contract.display.name:
+    text: Problemas de contrato
+inspection.convert.to.local.quickfix:
+    text: Convertir en variable local
+inspection.data.flow.filter.notnull.quickfix:
+    text: "Insertar el paso 'filter(Objects::nonNull)'"
+inspection.data.flow.ignore.assert.statements:
+    text: Ignorar sentencias assert
+inspection.data.flow.report.not.null.required.parameter.with.null.literal.argument.usages:
+    text: Informar de usos de parámetros obligatorios no nulos con argumentos de literal null
+inspection.data.flow.report.nullable.methods.that.always.return.a.non.null.value:
+    text: Informar de métodos que admiten valores nulos y que siempre devuelven un valor no nulo
+inspection.data.flow.report.problems.that.happen.only.on.some.code.paths:
+    text: Informar problemas que ocurren solo en algunas rutas de código
+inspection.data.flow.simplify.boolean.expression.quickfix:
+    text: Simplificar expresión booleana
+inspection.data.flow.simplify.to.assignment.quickfix.name:
+    text: Simplificar a asignación normal
+inspection.data.flow.treat.non.annotated.members.and.parameters.as.nullable:
+    text: Tratar los miembros y parámetros no anotados como @Nullable
+inspection.data.flow.use.computeifpresent.quickfix:
+    text: "Reemplazar 'compute' por 'computeIfPresent'"
+inspection.dead.code.comment:
+    text: // --Comentado por inspección
+inspection.dead.code.comment.quickfix:
+    text: Comentar
+inspection.dead.code.date.comment:
+    text: '// --Comentado por la inspección ({0}):'
+inspection.dead.code.display.name:
+    text: Declaración no utilizada
+inspection.dead.code.entry.point.quickfix:
+    text: Añadir como punto de entrada
+inspection.dead.code.entry.points.display.name:
+    text: Puntos de entrada
+inspection.dead.code.export.results.instantiated.from.heading:
+    text: Instanciado desde
+inspection.dead.code.export.results.no.instantiations.found:
+    text: No se encontraron instanciaciones.
+inspection.dead.code.option.external:
+    text: Clases con usos en archivos no Java
+inspection.dead.code.option.main:
+    text: <html>métodos <code>void main(String args[])</code></html>
+inspection.dead.code.problem.synopsis:
+    text: El campo nunca se asigna.
+inspection.dead.code.problem.synopsis1:
+    text: El campo no se utiliza nunca.
+inspection.dead.code.problem.synopsis10:
+    text: El contexto de declaración de la clase anónima no es accesible desde los puntos de entrada. La clase nunca se instancia.
+inspection.dead.code.problem.synopsis11:
+    text: '{0} no se utiliza nunca.'
+inspection.dead.code.problem.synopsis12:
+    text: '{0} tiene una instanciación, pero la instanciación no es alcanzable desde los puntos de entrada.'
+inspection.dead.code.problem.synopsis13:
+    text: '{0} no está instanciado.'
+inspection.dead.code.problem.synopsis14:
+    text: <ul><li>El método abstracto no está implementado O</li><li>la clase de implementación nunca se instancia O</li><li>todas las instanciaciones son inalcanzables desde los puntos de entrada.</li></ul>
+inspection.dead.code.problem.synopsis15:
+    text: <ul><li>La clase propietaria del método nunca se instancia, O</li><li>todas las instanciaciones son inalcanzables desde los puntos de entrada.</li></ul>
+inspection.dead.code.problem.synopsis16:
+    text: El método nunca se utiliza.
+inspection.dead.code.problem.synopsis18:
+    text: El método no es accesible desde los puntos de entrada.
+inspection.dead.code.problem.synopsis19:
+    text: La clase y {0, choice, 1#su implementación|2#sus {0,number} implementaciones} nunca se instancian.
+inspection.dead.code.problem.synopsis2:
+    text: El campo se asigna pero nunca se accede a él.
+inspection.dead.code.problem.synopsis20:
+    text: '{1} tiene {0, choice, 1#una instanciación|2#{0,number} instanciaciones}, pero las instanciaciones no son alcanzables desde los puntos de entrada.'
+inspection.dead.code.problem.synopsis21:
+    text: El método nunca se utiliza como miembro de este {0}, sino únicamente como miembro de las clases de implementación. El proyecto seguirá siendo compilable si el método se elimina de {0}.
+inspection.dead.code.problem.synopsis22:
+    text: El método sobrescribe un método de biblioteca, pero <ul><li>su {0} nunca se instancia O BIEN</li><li>sus instanciaciones de {0} no son alcanzables desde los puntos de entrada.</li></ul>
+inspection.dead.code.problem.synopsis23:
+    text: '{0} no está implementado.'
+inspection.dead.code.problem.synopsis24:
+    text: '{0} tiene una implementación, pero <ul><li>la implementación nunca se instancia O</li><li>no se puede acceder a ninguna instancia desde los puntos de entrada.</li></ul>'
+inspection.dead.code.problem.synopsis26.constructor:
+    text: El constructor nunca se utiliza.
+inspection.dead.code.problem.synopsis26.method:
+    text: El método no se utiliza.
+inspection.dead.code.problem.synopsis28.constructor:
+    text: El constructor tiene un uso, pero no es accesible desde los puntos de entrada.
+inspection.dead.code.problem.synopsis28.method:
+    text: El método tiene un uso, pero no es accesible desde los puntos de entrada.
+inspection.dead.code.problem.synopsis29.constructor:
+    text: El constructor tiene {0, choice, 1#1 uso|2#{0,number} usos}, pero los usos no son alcanzables desde los puntos de entrada.
+inspection.dead.code.problem.synopsis29.method:
+    text: El método tiene {0, choice, 1#1 uso|2#{0,number} usos}, pero no se puede acceder a los mismos desde los puntos de entrada.
+inspection.dead.code.problem.synopsis3:
+    text: El campo tiene un uso, pero no se puede acceder a dicho uso desde los puntos de entrada.
+inspection.dead.code.problem.synopsis4:
+    text: El campo tiene {0, choice, 1#1 uso|2#{0,number} usos}, pero los usos no son accesibles desde los puntos de entrada.
+inspection.dead.code.problem.synopsis6:
+    text: Alcanzable. {0, choice, 1#1 uso encontrado|2#{0, number} usos encontrados} en el código del proyecto.
+inspection.dead.code.problem.synopsis6.suspicious:
+    text: Inalcanzable. Se {0, choice, 1#encontró 1 uso|2#encontraron {0, number} usos} en el código del proyecto.
+inspection.dead.code.problem.synopsis7:
+    text: Tiene instanciaciones accesibles. Se {0, choice, 1#encontró 1 instanciación|2#encontraron {0, number} instanciaciones} en el código del proyecto.
+inspection.dead.code.problem.synopsis8:
+    text: Tiene instanciaciones de implementación accesibles. Se {0, choice, 1#encontró 1 instanciación|2#encontraron {0, number} instanciaciones} en el código del proyecto.
+inspection.dead.code.problem.synopsis8.suspicious:
+    text: No tiene instanciaciones de implementación alcanzables. Se {0, choice, 1#encontró 1 instanciación|2#encontraron {0, number} instanciaciones} en el código del proyecto.
+inspection.dead.code.problem.synopsis9:
+    text: Instanciado. {0, choice, 1#1 instanciación encontrada|2#{0, number} instanciaciones encontradas} en el código del proyecto.
+inspection.dead.code.problem.synopsis9.suspicious:
+    text: El contexto de la clase anónima no es accesible. La clase no está instanciada. Se {0, choice, 1#ha encontrado 1 instanciación|2#han encontrado {0, number} instanciaciones} en el código del proyecto.
+inspection.dead.code.remove.user.defined.entry.point.quickfix:
+    text: Eliminar puntos de entrada definidos por el usuario
+inspection.dead.code.safe.delete.quickfix:
+    text: Eliminación segura
+inspection.dead.code.start.comment:
+    text: |
+        // --Comentado por inspección INICIO ({0}):
+inspection.dead.code.stop.comment:
+    text: |
+        // --Comentado por STOP de inspección ({0})
+inspection.default.annotation.param:
+    text: Valor predeterminado del parámetro de anotación
+inspection.deprecated.display.name:
+    text: Uso de API en desuso
+inspection.diff.format.error:
+    text: 'Parámetros obligatorios: <archivo_antiguo> <archivo_nuevo> [<nombre_archivo_delta>]'
+inspection.disabled.error:
+    text: "La inspección ''{0}'' está desactivada: {1}."
+inspection.disabled.wrong.id:
+    text: "La inspección ''{0}'' está deshabilitada: el ID ''{1}'' no coincide con el patrón ''{2}''."
+inspection.done:
+    text: Completado.
+inspection.duplicate.throws.display.name:
+    text: "'throws' duplicados"
+inspection.duplicate.throws.ignore.subclassing.option:
+    text: Ignorar excepciones que heredan de otras
+inspection.duplicate.throws.more.general.problem:
+    text: "Ya existe una excepción más general, ''{0}'', en la lista throws."
+inspection.duplicate.throws.problem:
+    text: throws duplicado
+inspection.duplicates.display.name:
+    text: Literal de cadena duplicado
+inspection.duplicates.message:
+    text: <html><body>Se encontró un literal de cadena duplicado en<br>{0}</body></html>
+inspection.duplicates.message.in.this.file:
+    text: (en este archivo)
+inspection.duplicates.message.more:
+    text: … ({0} más)
+inspection.duplicates.navigate.to.occurrences:
+    text: Navegar a las coincidencias
+inspection.duplicates.occurrences.view.title:
+    text: "Duplicados de ''{0}''"
+inspection.duplicates.option:
+    text: 'Longitud &mínima de cadena:'
+inspection.duplicates.option.report.propertykey.expressions:
+    text: '&Ignorar expresiones @PropertyKey'
+inspection.duplicates.replace.family.quickfix:
+    text: Reemplazar
+inspection.duplicates.replace.quickfix:
+    text: "Reemplazar con ''{0}''"
+inspection.empty.method.delete.quickfix:
+    text: Eliminar método(s) innecesario(s)
+inspection.empty.method.display.name:
+    text: Método vacío
+inspection.empty.method.problem.descriptor:
+    text: El método solo llama a su super_
+inspection.empty.method.problem.descriptor1:
+    text: Un método vacío sobrescribe un método vacío
+inspection.empty.method.problem.descriptor2:
+    text: El método está vacío
+inspection.empty.method.problem.descriptor4:
+    text: Todas las implementaciones de este método están vacías
+inspection.equals.hashcode.display.name:
+    text: "'equals()' y 'hashCode()' no están emparejados"
+inspection.equals.hashcode.generate.equals.quickfix:
+    text: "Generar 'equals()'"
+inspection.equals.hashcode.generate.hashcode.quickfix:
+    text: "Generar 'hashCode()'"
+inspection.equals.hashcode.only.one.defined.problem.descriptor:
+    text: La clase tiene {0} definido, pero no define {1}
+inspection.error.loading.message:
+    text: Error al leer el perfil de inspección {0, choice, 0#desde {1}|1#}
+inspection.errors.occurred.dialog.title:
+    text: Se produjeron errores
+inspection.excessive.lambda.fix.family.name:
+    text: Reemplazar lambda por constante
+inspection.excessive.lambda.fix.name:
+    text: "Usar el método ''{0}'' sin lambda"
+inspection.excessive.lambda.message:
+    text: Uso excesivo de lambdas
+inspection.export.dialog.title:
+    text: Exportar
+inspection.export.generating.html.for:
+    text: 'Generando HTML: {0}'
+inspection.export.open.option:
+    text: Abrir el HTML generado en el &navegador
+inspection.export.results.abstract:
+    text: resumen
+inspection.export.results.abstract.class:
+    text: claseabstracta
+inspection.export.results.anonymous.ref.in.owner:
+    text: en
+inspection.export.results.at.line:
+    text: en la línea
+inspection.export.results.callees:
+    text: Cadena de llamadas
+inspection.export.results.can.be.final.description:
+    text: La declaración puede tener el modificador final
+inspection.export.results.capitalized.abstract.class:
+    text: Claseabstracta
+inspection.export.results.capitalized.class:
+    text: Clase
+inspection.export.results.capitalized.interface:
+    text: Interfaz
+inspection.export.results.capitalized.location:
+    text: Ubicación
+inspection.export.results.class:
+    text: clase
+inspection.export.results.dead.code:
+    text: declaración no utilizada
+inspection.export.results.derived.methods:
+    text: Métodos derivados
+inspection.export.results.extended:
+    text: Extendido por
+inspection.export.results.extended.implemented:
+    text: Extendido/implementado por
+inspection.export.results.extends.implements:
+    text: Extiende/Implementa
+inspection.export.results.field:
+    text: campo
+inspection.export.results.file:
+    text: archivo
+inspection.export.results.implicit.constructor:
+    text: constructor implícito de
+inspection.export.results.initializer:
+    text: inicializador
+inspection.export.results.interface:
+    text: interfaz
+inspection.export.results.invalidated.item:
+    text: elemento invalidado
+inspection.export.results.method:
+    text: método
+inspection.export.results.no.problems.found:
+    text: No se encontraron problemas
+inspection.export.results.overrides.implements:
+    text: Sobrescribe/implementa
+inspection.export.results.overrides.library.methods:
+    text: Sobrescribe métodos de biblioteca
+inspection.export.results.package:
+    text: paquete
+inspection.export.results.static:
+    text: estático
+inspection.export.results.type.references:
+    text: Los siguientes utilizan este tipo
+inspection.export.results.used.from:
+    text: Usado desde
+inspection.export.results.uses:
+    text: Usa lo siguiente
+inspection.export.save.button:
+    text: Guardar
+inspection.field.can.be.local.display.name:
+    text: El campo puede ser una variable local
+inspection.field.can.be.local.problem.descriptor:
+    text: El campo puede convertirse en una variable local
+inspection.filter.resolved.action.text:
+    text: Filtrar elementos resueltos
+inspection.generating.html.progress.title:
+    text: Generando HTML…
+inspection.generating.xml.progress.title:
+    text: Volcando XML…
+inspection.handle.signature.change.type.fix.name:
+    text: "Cambiar el tipo a ''{0}''"
+inspection.handle.signature.field.cannot.resolve:
+    text: "No se puede resolver el campo ''{0}''"
+inspection.handle.signature.field.not.static:
+    text: "El campo ''{0}'' no es estático"
+inspection.handle.signature.field.static:
+    text: "El campo ''{0}'' es estático"
+inspection.handle.signature.field.type:
+    text: "El tipo del campo ''{0}'' es ''{1}''"
+inspection.handle.signature.method.not.static:
+    text: "El método ''{0}'' no es estático"
+inspection.handle.signature.method.static:
+    text: "El método ''{0}'' es estático"
+inspection.handle.signature.name:
+    text: Desajuste de tipos de MethodHandle/VarHandle
+inspection.handle.signature.use.constructor.fix.family.name:
+    text: Usar una de las sobrecargas del constructor
+inspection.handle.signature.use.constructor.fix.name:
+    text: "Usar constructor ''{0}''"
+inspection.handle.signature.use.method.fix.family.name:
+    text: Usar una de las sobrecargas de método
+inspection.handle.signature.use.method.fix.name:
+    text: "Usar el método ''{0}''"
+inspection.illegal.character:
+    text: Carácter no válido
+inspection.implicit.subclass.display.forClass:
+    text: "La clase ''{0}'' podría ser subclaseada implícitamente y no debe ser final"
+inspection.implicit.subclass.display.name:
+    text: La declaración final no se puede sobrescribir en tiempo de ejecución
+inspection.implicit.subclass.extendable:
+    text: "Hacer que ''{0}'' sea sobrescribible"
+inspection.implicit.subclass.make.class.extendable:
+    text: "Hacer que la clase ''{0}'' {1,choice,0#sea extensible|1#y el método {2} sean extensibles|1<y los {1} métodos requeridos sean extensibles}"
+inspection.java.module.naming:
+    text: El nombre del módulo Java infringe la convención
+inspection.java.module.naming.terminal.digits:
+    text: "El nombre del módulo ''{0}'' no debe usar dígitos terminales para codificar información de versión"
+inspection.javadoc.html.not.required.label.text:
+    text: 'Atributos HTML adicionales no obligatorios:'
+inspection.javadoc.lint.display.name:
+    text: Problemas de HTML en Javadoc (DocLint)
+inspection.javadoc.method.problem.missing.tag.description:
+    text: Falta la descripción de la etiqueta {0}
+inspection.javadoc.option.ignore.deprecated:
+    text: Ignorar los elementos marcados como @deprecated
+inspection.javadoc.option.ignore.period:
+    text: Ignorar problemas de punto
+inspection.javadoc.option.tab.title:
+    text: Clase
+inspection.javadoc.option.tab.title.field:
+    text: Campo
+inspection.javadoc.option.tab.title.inner.class:
+    text: Clase interna
+inspection.javadoc.option.tab.title.method:
+    text: Método
+inspection.javadoc.option.tab.title.package:
+    text: Paquete
+inspection.javadoc.problem.add.param.tag:
+    text: "Añadir etiqueta @param para el parámetro ''{0}''"
+inspection.javadoc.problem.add.param.tag.family:
+    text: Añadir etiqueta param de Javadoc faltante
+inspection.javadoc.problem.add.tag:
+    text: Añadir etiqueta @{0} {1}
+inspection.javadoc.problem.add.tag.family:
+    text: Añadir la etiqueta Javadoc que falta
+inspection.javadoc.problem.cannot.resolve:
+    text: No se puede resolver el símbolo {0}
+inspection.javadoc.problem.descriptor:
+    text: Falta el Javadoc requerido
+inspection.javadoc.problem.descriptor1:
+    text: Falta el punto en la documentación. La herramienta Javadoc utiliza el punto para generar el comentario de la página de descripción general.
+inspection.javadoc.problem.duplicate.param:
+    text: "Etiqueta @param duplicada para el parámetro ''{0}''"
+inspection.javadoc.problem.duplicate.tag:
+    text: Etiqueta @{0} duplicada
+inspection.javadoc.problem.duplicate.throws:
+    text: "Etiqueta @throws o @exception duplicada para la excepción ''{0}''"
+inspection.javadoc.problem.missing.tag:
+    text: Falta la etiqueta obligatoria {0}
+inspection.javadoc.problem.missing.tag.description:
+    text: Falta {0} después de la etiqueta @{1}
+inspection.javadoc.problem.name.expected:
+    text: Se esperaba un nombre
+inspection.javadoc.problem.pointing.to.itself:
+    text: Javadoc que apunta a sí mismo
+inspection.javadoc.problem.see.tag.expecting.ref:
+    text: Se espera una referencia a clase/método, texto entre comillas o un enlace HTML después de la etiqueta @see
+inspection.javadoc.problem.wrong.tag:
+    text: Etiqueta incorrecta {0}
+inspection.javadoc.ref.display.name:
+    text: La declaración tiene problemas en las referencias de Javadoc
+inspection.lambda.to.method.call.fix.family.name:
+    text: Reemplazar expresión lambda con llamada a método
+inspection.lambda.to.method.call.fix.name:
+    text: "Reemplazar la expresión lambda por ''{0}''"
+inspection.local.can.be.final.display.name:
+    text: "La variable local o el parámetro pueden ser 'final'"
+inspection.local.can.be.final.option:
+    text: Informar sobre variables locales
+inspection.local.can.be.final.option1:
+    text: Informar sobre los parámetros del método
+inspection.local.can.be.final.option2:
+    text: Informar sobre parámetros catch
+inspection.local.can.be.final.option3:
+    text: Informar parámetros foreach
+inspection.local.can.be.final.option4:
+    text: <html>Informar sobre variables que son implícitamente final<br/>(parámetros multi-catch o try-with-resources)</html>
+inspection.map.foreach.option.no.loops:
+    text: No informar bucles
+inspection.marked.for.removal.display.name:
+    text: Uso de API marcada para eliminación
+inspection.message.redundant.default.parameter.value.assignment:
+    text: Asignación redundante del valor por defecto del parámetro
+inspection.module.exports.package.to.itself:
+    text: Módulo exporta/abre el paquete a sí mismo
+inspection.no.jdk.error.message:
+    text: El JDK no está configurado correctamente para este proyecto. La inspección no puede continuar.
+inspection.no.modules.error.message:
+    text: Este proyecto no contiene módulos. La inspección no puede continuar.
+inspection.null.value.for.optional.context.assignment:
+    text: asignación
+inspection.null.value.for.optional.context.declaration:
+    text: declaración
+inspection.null.value.for.optional.context.lambda:
+    text: expresión lambda
+inspection.null.value.for.optional.context.parameter:
+    text: parámetro
+inspection.null.value.for.optional.context.return:
+    text: sentencia return
+inspection.null.value.for.optional.fix.family.name:
+    text: Reemplazar por el método Optional vacío
+inspection.null.value.for.optional.message:
+    text: "Se utiliza null para el tipo ''Optional'' en {0}"
+inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
+    text: El parámetro anotado con @{0} no debe sobrescribir un parámetro @{1}
+inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
+    text: El parámetro anotado con @{0} no debe sobrescribir un parámetro no anotado
+inspection.nullable.problems.Nullable.NotNull.conflict:
+    text: No se puede anotar con @{0} y @{1} al mismo tiempo
+inspection.nullable.problems.Nullable.method.overrides.NotNull:
+    text: El método anotado con @{0} no debe sobrescribir un método @{1}
+inspection.nullable.problems.annotated.field.constructor.parameter.not.annotated:
+    text: El parámetro del constructor para el campo @{0} podría estar anotado con @{0}
+inspection.nullable.problems.annotated.field.getter.conflict:
+    text: El getter del campo @{0} está anotado como @{1}
+inspection.nullable.problems.annotated.field.getter.not.annotated:
+    text: El getter para el campo @{0} podría estar anotado con @{0} mismo
+inspection.nullable.problems.annotated.field.setter.parameter.conflict:
+    text: El parámetro del setter para el campo @{0} está anotado con @{1}
+inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
+    text: El parámetro del setter para el campo @{0} podría anotarse con @{0} mismo
+inspection.nullable.problems.display.name:
+    text: Problemas de @NotNull/@Nullable
+inspection.nullable.problems.method.overrides.NotNull:
+    text: El método no anotado sobrescribe un método anotado con @{0}
+inspection.nullable.problems.parameter.overrides.NotNull:
+    text: El parámetro sin anotar sobrescribe al parámetro @{0}
+inspection.nullable.problems.primitive.type.annotation:
+    text: No se pueden anotar los miembros de tipo primitivo
+inspection.options.action.text:
+    text: "Opciones de la inspección ''{0}''"
+inspection.parameter.can.be.local.display.name:
+    text: Valor pasado como parámetro que nunca se lee
+inspection.parameter.can.be.local.problem.descriptor:
+    text: El parámetro puede convertirse en una variable local
+inspection.problem.descriptor.count:
+    text: '{0, choice, 0#|1#(1 elemento)|2#({0,number,integer} elementos)}'
+inspection.problem.resolution:
+    text: Resolución del problema
+inspection.problem.synopsis:
+    text: Sinopsis del problema
+inspection.processing.job.descriptor:
+    text: Procesando usos del proyecto en
+inspection.processing.job.descriptor1:
+    text: Procesando usos externos de
+inspection.processing.job.descriptor2:
+    text: Analizando código en
+inspection.profile.unnamed:
+    text: Sin nombre
+inspection.redirect.template:
+    text: '<html><body>El elemento inyectado tiene un problema: {0} (en <a href="#navigation/{1}:{2}">{3}</a>). </body></html>'
+inspection.redundant.array.creation.display.name:
+    text: Creación de array redundante
+inspection.redundant.array.creation.for.varargs.call.descriptor:
+    text: Creación de array redundante para llamar a un método varargs
+inspection.redundant.array.creation.quickfix:
+    text: Eliminar creación explícita de array
+inspection.redundant.cast.display.name:
+    text: Conversión de tipo redundante
+inspection.redundant.cast.problem.descriptor:
+    text: La conversión de <code>{0}</code> a <code>#ref</code> es redundante
+inspection.redundant.cast.remove.quickfix:
+    text: Eliminar conversión redundante
+inspection.redundant.requires.statement.description:
+    text: "Directiva redundante ''requires {0}''."
+inspection.redundant.requires.statement.fix.family:
+    text: "Eliminar directiva 'requires' redundante"
+inspection.redundant.requires.statement.fix.name:
+    text: "Eliminar la directiva ''requires {0}''"
+inspection.redundant.stream.optional.call.explanation.distinct:
+    text: "hay una llamada 'distinct()' previa en la cadena"
+inspection.redundant.stream.optional.call.explanation.filter:
+    text: "el predicado siempre es 'true'"
+inspection.redundant.stream.optional.call.explanation.parallel:
+    text: "hay una llamada ''{0}()'' posterior que sobrescribe esta llamada"
+inspection.redundant.stream.optional.call.explanation.sorted:
+    text: "la llamada posterior ''{0}()'' no depende del orden de ordenación"
+inspection.redundant.stream.optional.call.explanation.unordered:
+    text: "hay una llamada 'unordered()' previa en la cadena"
+inspection.redundant.stream.optional.call.fix.family.name:
+    text: Eliminar llamada en cadena redundante
+inspection.redundant.stream.optional.call.fix.name:
+    text: "Eliminar llamada a ''{0}()''"
+inspection.redundant.stream.optional.call.option.streamboxing:
+    text: Informar sobre el boxing redundante en Stream.map()
+inspection.redundant.suppression.description:
+    text: Supresión redundante
+inspection.redundant.suppression.name:
+    text: Supresión redundante
+inspection.redundant.throws.problem.descriptor:
+    text: La excepción declarada <code>#ref</code> nunca se lanza en ninguna implementación de método
+inspection.redundant.throws.problem.descriptor1:
+    text: La excepción declarada <code>#ref</code> nunca se lanza en este método ni en sus métodos de sobreescritura
+inspection.redundant.throws.problem.descriptor2:
+    text: La excepción declarada <code>#ref</code> nunca se lanza
+inspection.redundant.type.display.name:
+    text: Argumentos de tipo redundantes
+inspection.redundant.type.problem.descriptor:
+    text: Se pueden inferir los argumentos de tipo explícitos
+inspection.reference.anonymous:
+    text: <anónimo>
+inspection.reference.anonymous.class:
+    text: clase anónima
+inspection.reference.anonymous.name:
+    text: anónimo ({0})
+inspection.reference.default.method.reference.name:
+    text: referencia a método
+inspection.reference.default.package:
+    text: <predeterminado>
+inspection.reference.implicit.class:
+    text: "archivo fuente compacto ''{0}''"
+inspection.reference.implicit.constructor.name:
+    text: constructor implícito de {0}
+inspection.reference.jsp.holder.method.anonymous.name:
+    text: <% contenido de la página %>
+inspection.reference.method.reference.name:
+    text: referencia a método ({0})
+inspection.reflect.handle.invocation.argument.not.array:
+    text: El argumento no es de tipo array
+inspection.reflect.handle.invocation.argument.not.exact:
+    text: "El tipo de argumento debe ser exactamente ''{0}''"
+inspection.reflect.handle.invocation.primitive.argument.null:
+    text: "El argumento de tipo ''{0}'' no puede ser ''null''"
+inspection.reflect.handle.invocation.receiver.incompatible:
+    text: "El tipo del receptor de la llamada es incompatible: se espera ''{0}''"
+inspection.reflect.handle.invocation.receiver.null:
+    text: "El receptor de la llamada es 'null'"
+inspection.reflect.handle.invocation.result.not.assignable:
+    text: "Debe convertirse a ''{0}'' o a su superclase"
+inspection.reflect.handle.invocation.result.not.exact:
+    text: "Debe convertirse a ''{0}''"
+inspection.reflect.handle.invocation.result.null:
+    text: "El valor devuelto siempre es 'null'"
+inspection.reflect.handle.invocation.result.void:
+    text: "El tipo de retorno es 'void'"
+inspection.reflection.invocation.argument.count:
+    text: '{0,choice,0#No se esperan argumentos|1#Se espera 1 argumento|1<Se esperan {0} argumentos}'
+inspection.reflection.invocation.argument.not.assignable:
+    text: "El argumento no es asignable a ''{0}''"
+inspection.reflection.invocation.array.not.assignable:
+    text: Array {0,choice,1#tiene un elemento con un tipo|1<tiene elementos con tipos} {0,choice,1#incompatible|1<incompatibles}
+inspection.reflection.invocation.item.count:
+    text: '{0,choice,0#Se espera un array vacío|1#Se espera un array de un solo elemento|1<Se esperan {0} elementos de array}'
+inspection.reflection.invocation.item.not.assignable:
+    text: "No se puede asignar el elemento del array a ''{0}''"
+inspection.reflection.invocation.name:
+    text: Desajuste de argumentos en la invocación por reflexión
+inspection.reflection.member.access.cannot.resolve.constructor.arguments:
+    text: No se puede resolver el constructor con los tipos de argumento especificados
+inspection.reflection.member.access.cannot.resolve.field:
+    text: "No se puede resolver el campo ''{0}''"
+inspection.reflection.member.access.cannot.resolve.method:
+    text: "No se puede resolver el método ''{0}''"
+inspection.reflection.member.access.cannot.resolve.method.arguments:
+    text: "No se puede resolver el método ''{0}'' con los tipos de argumentos especificados"
+inspection.reflection.member.access.check.exists:
+    text: Comprobar que el campo/método existe en clases no finales
+inspection.reflection.member.access.check.exists.exclude.chooser:
+    text: Clase a excluir
+inspection.reflection.member.access.constructor.not.public:
+    text: El constructor no es público
+inspection.reflection.member.access.field.not.in.class:
+    text: "El campo ''{0}'' no está declarado en la clase ''{1}''"
+inspection.reflection.member.access.field.not.public:
+    text: "El campo ''{0}'' no es público"
+inspection.reflection.member.access.method.not.in.class:
+    text: "El método ''{0}'' no está declarado en la clase ''{1}''"
+inspection.reflection.member.access.method.not.public:
+    text: "El método ''{0}'' no es público"
+inspection.reflection.member.access.name:
+    text: Acceso reflexivo a un miembro de clase inexistente o no visible
+inspection.reflection.visibility.name:
+    text: Problemas de acceso por reflexión entre módulos
+inspection.replace.methodref.ternary.quickfix:
+    text: Reemplazar con una lambda con comprobación de nulos
+inspection.replace.ternary.quickfix:
+    text: "Reemplazar con ''{0} != null ?:''"
+inspection.replace.with.bulk.fix.family.name:
+    text: Reemplazar con llamada a método en bloque
+inspection.replace.with.bulk.fix.name:
+    text: "Reemplazar la iteración por una llamada masiva a ''{0}()''"
+inspection.replace.with.bulk.message:
+    text: "La iteración puede reemplazarse por una llamada masiva ''{0}()''"
+inspection.replace.with.bulk.wrap.arrays:
+    text: "Usar 'Arrays.asList()' para envolver arrays"
+inspection.replace.with.enhanced.switch.statement.fix.name:
+    text: "Reemplazar por la sentencia 'switch' mejorada"
+inspection.replace.with.switch.expression.fix.family.name:
+    text: Migrar a switch mejorado
+inspection.replace.with.switch.expression.fix.name:
+    text: "Reemplazar con la expresión 'switch'"
+inspection.replace.with.switch.rule.expression.fix.family.name:
+    text: Migrar a switch mejorado con reglas
+inspection.replace.with.trivial.lambda.fix.family.name:
+    text: Reemplazar con lambda trivial
+inspection.replace.with.trivial.lambda.fix.name:
+    text: "Reemplazar con una expresión lambda que devuelva ''{0}''"
+inspection.requires.auto.module:
+    text: Dependencias de módulos automáticos
+inspection.requires.auto.module.message:
+    text: "directiva 'requires' para un módulo automático"
+inspection.requires.auto.module.option:
+    text: Resaltar solo las dependencias transitivas
+inspection.requires.auto.module.transitive:
+    text: "directiva 'requires transitive' para un módulo automático"
+inspection.results.for.inspection.toolwindow.title:
+    text: "Inspección de ''{0}'' en {1}"
+inspection.return.separated.from.computation.descriptor:
+    text: "Retorno separado del cálculo del valor de ''{0}''"
+inspection.return.separated.from.computation.family.quickfix:
+    text: "Mover 'return' más cerca del cálculo del resultado"
+inspection.return.separated.from.computation.name:
+    text: "'return' separado del cálculo del resultado"
+inspection.return.separated.from.computation.quickfix:
+    text: "Mover ''return'' más cerca del cálculo del valor de ''{0}''"
+inspection.root.node.title:
+    text: Inspecciones
+inspection.same.parameter.display.name:
+    text: El parámetro del método siempre tiene el mismo valor
+inspection.same.parameter.fix.family.name:
+    text: Incorporar parámetro como valor constante
+inspection.same.parameter.fix.name:
+    text: "Inlinear el valor ''{1}'' para el parámetro ''{0}''"
+inspection.same.parameter.problem.descriptor:
+    text: "El valor del parámetro <code>#ref</code> siempre es ''{0}''"
+inspection.same.return.value.display.name:
+    text: El método siempre devuelve el mismo valor
+inspection.same.return.value.problem.descriptor:
+    text: El método <code>#ref()</code> siempre devuelve <code>{0}</code>
+inspection.same.return.value.problem.descriptor1:
+    text: El método <code>#ref()</code> y todos sus métodos de sobrescritura siempre devuelven <code>{0}</code>
+inspection.same.return.value.problem.descriptor2:
+    text: Todas las implementaciones del método <code>#ref()</code> siempre devuelven <code>{0}</code>
+inspection.severity:
+    text: 'Gra&vedad:'
+inspection.simplify.collector.fix.family.name:
+    text: Simplificar colector en cascada
+inspection.simplify.collector.fix.name:
+    text: "Usar el colector ''Collectors.{0}()''"
+inspection.simplify.collector.message:
+    text: "Se puede simplificar utilizando el colector ''{0}()''"
+inspection.surround.if.family:
+    text: Envolver con if
+inspection.surround.requirenonnull.quickfix:
+    text: "Reemplazar con ''Objects.requireNonNull({0})''"
+inspection.suspicious.array.method.call.display.name:
+    text: "Llamada a método de 'Arrays' sospechosa"
+inspection.suspicious.array.method.call.problem.arrays:
+    text: 'Los tipos de array son incompatibles: los arrays siempre son diferentes'
+inspection.suspicious.array.method.call.problem.element:
+    text: El tipo de elemento no es compatible con el tipo de array
+inspection.suspicious.collections.method.calls.display.name:
+    text: Llamada a método de colección sospechosa
+inspection.suspicious.collections.method.calls.problem.descriptor1:
+    text: "Llamada sospechosa a ''{0}''"
+inspection.switch.expression.migration.expression.max.statements:
+    text: Número máximo de sentencias en una rama para convertir a una expresión switch
+inspection.switch.expression.migration.inspection.switch.description:
+    text: "La sentencia 'switch' puede reemplazarse con un 'switch' mejorado"
+inspection.switch.expression.migration.inspection.switch.expression.description:
+    text: "La expresión switch se puede reemplazar por un 'switch' mejorado con reglas"
+inspection.switch.expression.migration.option.expression.max.statements:
+    text: No informar sobre switches que tengan más de {0} {0, choice, 1#sentencia|2#sentencias} en una sola rama
+inspection.switch.expression.migration.warn.only.on.expression:
+    text: Mostrar advertencia solo si la conversión a expresión es posible
+inspection.tool.availability.in.tree.node1:
+    text: (disponible para Código | Inspeccionar código)
+inspection.tool.description.under.construction.text:
+    text: En construcción
+inspection.tool.in.browser.description.title:
+    text: Descripción
+inspection.tool.window.dialog.no.options:
+    text: "La inspección ''{0}'' no tiene opciones configurables"
+inspection.tool.window.inspection.dialog.title:
+    text: "Opciones de la inspección ''{0}''"
+inspection.tree.popup.title:
+    text: Aceptar resolución
+inspection.unused.assignment.display.name:
+    text: Asignación no utilizada
+inspection.unused.assignment.option:
+    text: Informar sobre expresiones de prefijo que pueden reemplazarse por una expresión binaria
+inspection.unused.assignment.option1:
+    text: Informar sobre expresiones de postfijo en las que no se utiliza el valor modificado
+inspection.unused.assignment.option2:
+    text: Informar sobre inicializadores redundantes
+inspection.unused.assignment.problem.descriptor1:
+    text: 'La variable <code>#ref</code> #loc nunca se utiliza'
+inspection.unused.assignment.problem.descriptor2:
+    text: 'El inicializador <code>#ref</code> #loc de la variable <code>{0}</code> es redundante'
+inspection.unused.assignment.problem.descriptor3:
+    text: 'El valor <code>{0}</code> asignado a <code>#ref</code> #loc nunca se utiliza'
+inspection.unused.assignment.problem.descriptor4:
+    text: 'El valor cambiado en <code>#ref</code> #loc nunca se utiliza'
+inspection.unused.assignment.problem.descriptor5:
+    text: 'El valor de la variable de patrón <code>#ref</code> #loc nunca se utiliza'
+inspection.unused.assignment.remove.assignment.quickfix:
+    text: Eliminar asignación redundante
+inspection.unused.parameter.composer:
+    text: El parámetro <code>#ref</code> no se utiliza en ninguna implementación
+inspection.unused.parameter.composer1:
+    text: El parámetro <code>#ref</code> no se utiliza en este método ni en ninguno de sus métodos que lo sobrescriben
+inspection.unused.parameter.delete.quickfix:
+    text: "Eliminar de forma segura el parámetro no utilizado ''{0}''"
+inspection.unused.parameter.display.name:
+    text: Parámetro no utilizado
+inspection.unused.return.value.problem.descriptor:
+    text: El valor de retorno del método nunca se utiliza
+inspection.unused.symbol.check.inner.classes:
+    text: 'Clases internas:'
+inspection.variable.assigned.to.itself.display.name:
+    text: La variable se asigna a sí misma
+inspection.view.invalid.scope.message:
+    text: El ámbito de inspección no es válido.
+inspection.visibility.accept.quickfix:
+    text: Aceptar el nivel de acceso sugerido
+inspection.visibility.compose.suggestion:
+    text: Puede ser {0}
+introduce.constant.across.the.project:
+    text: Introducir constante en todo el proyecto
+long.line.display.name:
+    text: La línea es más larga de lo permitido por el estilo de código
+lossy.encoding:
+    text: Codificación con pérdida
+module.not.in.requirements:
+    text: "El módulo ''{0}'' no incluye el módulo ''{1}'' en sus requisitos"
+module.package.not.exported:
+    text: "El módulo ''{0}'' no exporta el paquete ''{1}'' al módulo ''{2}''"
+module.package.not.open:
+    text: "El módulo ''{0}'' no abre el paquete ''{1}'' al módulo ''{2}''"
+no.errors.found.in.this.file:
+    text: No se encontraron errores en este archivo
+non.ascii.characters:
+    text: Caracteres no ASCII
+nothing.found:
+    text: No se encontró nada
+nullable.stuff.inspection.navigate.null.argument.usages.fix.family.name:
+    text: "Navegar a los usos de argumentos 'null'"
+nullable.stuff.inspection.navigate.null.argument.usages.view.name:
+    text: "Usos de argumentos ''null'' para el parámetro {0}"
+nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
+    text: Los parámetros del método que sobrescribe no están anotados
+nullable.stuff.problems.overridden.methods.are.not.annotated:
+    text: Los métodos que sobrescriben no están anotados
+offline.inspections.jdk.not.found:
+    text: No se encontró {0}
+offline.inspections.library.was.not.resolved:
+    text: "Configure la biblioteca ''{0}'' que se utiliza en el módulo ''{1}''"
+offline.inspections.module.jdk.not.found:
+    text: "Por favor, especifique el SDK ''{0}'' para el módulo ''{1}''"
+offline.view.editor.settings.title:
+    text: Configuración del editor
+offline.view.parse.exception.title:
+    text: Error al analizar el XML
+offline.view.title:
+    text: Vista sin conexión
+parsing.inspections.dump.progress.title:
+    text: Analizando volcado XML de inspecciones
+preparing.for.apply.fix:
+    text: Preparando para aplicar la corrección…
+problematic.whitespace.display.name:
+    text: Espacio en blanco problemático
+problematic.whitespace.show.whitespaces.quickfix:
+    text: "Alternar 'Mostrar espacios en blanco' en el editor"
+problematic.whitespace.spaces.problem.descriptor:
+    text: "El archivo ''{0}'' utiliza espacios para la sangría"
+problematic.whitespace.tabs.problem.descriptor:
+    text: "El archivo ''{0}'' utiliza tabulaciones para la sangría"
+psi.search.overriding.progress:
+    text: Buscando métodos de sobrescritura…
+report.suspicious.but.possibly.correct.method.calls:
+    text: '&Informar de llamadas a métodos sospechosas pero posiblemente correctas'
+run.inspection.on.file.intention.text:
+    text: Ejecutar inspección en…
+severities.default.settings.message:
+    text: Editar configuración | Colores y fuentes
+severities.editor.dialog.title:
+    text: Editor de severidades
+special.annotations.annotations.list:
+    text: 'Anotaciones especiales adicionales:'
+special.annotations.list.add.annotation.class:
+    text: Añadir clase de anotación
+special.annotations.list.annotation.class:
+    text: Clase de anotación
+special.annotations.list.annotation.pattern:
+    text: Añadir patrón de anotaciones
+suppress.all.for.class:
+    text: Suprimir todas las inspecciones para la clase
+suppress.inspection.annotation.syntax.error:
+    text: 'Sintaxis de anotación incorrecta: {0}'
+suppress.inspection.class:
+    text: Suprimir para la clase
+suppress.inspection.family:
+    text: Suprimir inspección
+suppress.inspection.field:
+    text: Suprimir para el campo
+suppress.inspection.member:
+    text: Suprimir para el miembro
+suppress.inspection.method:
+    text: Suprimir para el método
+suppress.inspection.module:
+    text: Suprimir para el módulo
+suppress.inspection.problem:
+    text: Suprimir
+suppress.inspection.statement:
+    text: Suprimir para la sentencia
+suspected.module.dependency.problem.descriptor:
+    text: "El módulo ''{0}'' no depende del módulo ''{1}''. Sin embargo, no se inspeccionó ''{1}'' en busca de las dependencias exportadas necesarias para el alcance ''{2}''"
+suspicious.name.combination.display.name:
+    text: Combinación sospechosa de nombres de variables/parámetros
+suspicious.name.combination.options.title:
+    text: 'Grupos de nombres (separados por comas):'
+todo.comment.display.name:
+    text: Comentario TODO
+todo.comment.problem.descriptor:
+    text: 'Comentario TODO <code>#ref</code> #loc'
+unhandled.exception.in.jsp.name:
+    text: Excepción no controlada en JSP
+unnecessary.module.dependency.display.name:
+    text: Dependencia de módulo innecesaria
+unnecessary.module.dependency.problem.descriptor:
+    text: "Las fuentes del módulo ''{0}'' no dependen de las fuentes del módulo ''{1}''"
+unsupported.character.for.the.charset:
+    text: "Caracteres no compatibles con el juego de caracteres ''{0}''"
+unused.import.display.name:
+    text: Importación no utilizada
+unused.import.statement:
+    text: Sentencia de importación no utilizada
+unused.library.display.name:
+    text: Biblioteca no utilizada
+unused.library.problem.descriptor:
+    text: "Biblioteca no utilizada ''{0}''"
+unused.library.roots.problem.descriptor:
+    text: "Raíces {0} no utilizadas de la biblioteca ''{1}''"
+wrong.package.statement:
+    text: Declaración de paquete incorrecta
+xml.suppressable.all.for.file.title:
+    text: Suprimir todo para el archivo
+xml.suppressable.for.file.title:
+    text: Suprimir para el archivo
+xml.suppressable.for.tag.title:
+    text: Suprimir para la etiqueta

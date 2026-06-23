@@ -1,0 +1,2191 @@
+FileChooser.detailsViewActionLabelText:
+    text: 详细信息
+FileChooser.listViewActionLabelText:
+    text: 列表
+FileChooser.newFolderActionLabelText:
+    text: 新建文件夹
+FileChooser.refreshActionLabelText:
+    text: 刷新
+FileChooser.viewMenuLabelText:
+    text: 查看
+action.Anonymous.text.add.abbreviation:
+    text: 添加缩写
+action.Anonymous.text.add.keyboard.shortcut:
+    text: 添加键盘快捷键
+action.Anonymous.text.add.mouse.shortcut:
+    text: 添加鼠标快捷键
+action.Anonymous.text.live.templates:
+    text: 代码模板
+action.Anonymous.text.new.group:
+    text: 新建组…
+action.Anonymous.text.rename:
+    text: 重命名
+action.Anonymous.text.reset.shortcuts:
+    text: 重置快捷键
+action.DumbAware.BuildView.text.stop:
+    text: 构建视图
+action.DumbAware.CopyrightProfilesPanel.description.stop:
+    text: 停止
+action.ToggleAction.text.filter:
+    text: 筛选
+action.ToggleAction.text.toggle.view:
+    text: 切换视图
+action.abbreviate.qualified.package.names:
+    text: 合格的包名称缩写
+action.add:
+    text: 添加
+action.add.all.open.tabs.to.new.favorites.list:
+    text: 将所有打开的标签页添加到新收藏夹列表
+action.add.repository:
+    text: 添加仓库
+action.add.to.new.favorites.list:
+    text: 添加到新收藏夹列表(_N)
+action.append:
+    text: 追加
+action.base.on.this.class:
+    text: 在此类基础上
+action.base.on.this.interface:
+    text: 在此接口基础上
+action.base.on.this.method:
+    text: 在此基础上的方法
+action.browse.call.hierarchy:
+    text: 浏览调用层次结构
+action.browse.method.hierarchy:
+    text: 浏览方法层次结构
+action.browse.type.hierarchy:
+    text: 浏览类型层次结构
+action.callee.methods.hierarchy:
+    text: 被调用方法层次结构
+action.caller.methods.hierarchy:
+    text: 调用方法层次结构
+action.choose.actions.to.add:
+    text: 添加操作
+action.clear.list:
+    text: 清除列表
+action.close.all.editors:
+    text: 全部关闭
+action.close.all.editors.in.tab.group:
+    text: 关闭组内所有标签页(_A)
+action.close.all.unmodified.editors:
+    text: 关闭未修改标签页(_U)
+action.close.all.unmodified.editors.in.tab.group:
+    text: 关闭组内未修改标签页(_U)
+action.close.all.unpinned.editors:
+    text: 关闭除固定外的所有标签页
+action.close.all.unpinned.editors.in.tab.group:
+    text: 关闭组内除固定外的所有标签页
+action.collapse.all:
+    text: 全部折叠
+action.compact.empty.middle.packages:
+    text: 压缩中间包
+action.continue.searching:
+    text: 继续搜索
+action.copy.path:
+    text: 复制绝对路径(_O)
+action.copy.paths:
+    text: 复制绝对路径(_O)
+action.copy.template:
+    text: 复制模板
+action.create.annotation.type:
+    text: 创建 @interface
+action.create.new.class.name.field:
+    text: 名称
+action.create.new.directory.or.package:
+    text: 创建新的目录或包
+action.create.new.enum:
+    text: 创建新的枚举
+action.create.new.file:
+    text: 创建新文件
+action.create.new.file.description:
+    text: 创建新文件
+action.create.new.interface:
+    text: 创建新接口
+action.create.template:
+    text: 创建模板
+action.delete:
+    text: 删除(_D)
+action.delete.all.favorites.lists.but.this:
+    text: "删除所有用户自定义列表，除了 ''{0}''"
+action.delete.ellipsis:
+    text: 删除(_D)…
+action.delete.favorites.list:
+    text: "删除收藏夹列表 ''{0}''"
+action.description.create.new.module.group:
+    text: 创建新模块组
+action.description.create.new.package:
+    text: 创建新包
+action.description.group.by.scope:
+    text: 按作用域类型(产品、测试、库)分组
+action.description.show.files:
+    text: 显示/隐藏文件
+action.description.show.included.only:
+    text: 仅显示当前所选范围中包含的文件
+action.description.show.modules:
+    text: 显示/隐藏模块
+action.description.show.structure:
+    text: 显示结构视图
+action.description.todo.show.all:
+    text: 显示所有TODO项
+action.description.view.class.hierarchy:
+    text: 切换到类层次结构
+action.description.view.subtypes.hierarchy:
+    text: 切换到子类型层次结构
+action.description.view.supertypes.hierarchy:
+    text: 切换到父类型层次结构
+action.descriptor.action:
+    text: '操作: {0}'
+action.descriptor.keystroke:
+    text: '快捷键: "{0}"'
+action.descriptor.typing:
+    text: '输入: "{0}"'
+action.directory:
+    text: 目录
+action.do.not.mark:
+    text: 不要标记
+action.edit.file.templates:
+    text: 编辑文件模板…
+action.edit.repository.url:
+    text: 编辑仓库URL
+action.expand.all:
+    text: 全部展开
+action.flatten.packages:
+    text: 扁平化包
+action.flatten.view:
+    text: 扁平化视图
+action.fn.keys.text:
+    text: FN键
+action.from.file.template:
+    text: 从文件模板…
+action.group.by.modules:
+    text: 模块
+action.group.by.packages:
+    text: 包
+action.group.by.scope.type:
+    text: 按作用域类型分组
+action.help:
+    text: 帮助
+action.hide.empty.middle.packages:
+    text: 隐藏空的中间包
+action.hide.non.implementations:
+    text: 隐藏未合法实现该方法的类
+action.hide.warnings:
+    text: 隐藏警告
+action.implement.method:
+    text: 实现方法
+action.implement.methods:
+    text: 实现方法
+action.manual.order:
+    text: 手动排序
+action.mark:
+    text: 标记
+action.move.module.new.top.level.group:
+    text: 新建顶级组…
+action.move.module.outside.any.group:
+    text: 移出所有组
+action.move.module.to.new.sub.group:
+    text: 移至新子组…
+action.move.module.to.this.group:
+    text: 移至此组
+action.new.package:
+    text: 新建包…
+action.next.message:
+    text: 下一条消息
+action.next.problem:
+    text: 下一个问题
+action.next.tip:
+    text: '&下一个'
+action.override.method:
+    text: 重写方法
+action.override.methods:
+    text: 重写方法
+action.overwrite:
+    text: 覆盖
+action.package:
+    text: 包
+action.pin.active.tab:
+    text: 固定活动标签
+action.pin.tab:
+    text: 固定标签页(_P)
+action.presentation.EncodingPanel.text:
+    text: 文件编码
+action.previous.message:
+    text: 上一条消息
+action.previous.problem:
+    text: 上一个问题
+action.previous.tip:
+    text: '&上一个'
+action.refresh:
+    text: 刷新
+action.remove:
+    text: 移除
+action.remove.from.current.favorites:
+    text: 从当前收藏夹中删除
+action.remove.repository.from.list:
+    text: 从列表中移除仓库
+action.remove.template:
+    text: 删除模板
+action.rename.favorites.list:
+    text: 重命名收藏夹列表
+action.reset.to.default:
+    text: 还原为原始模板
+action.select.none:
+    text: 全不&选
+action.send.to.new.favorites.list:
+    text: 发送到新收藏夹列表
+action.show.classes:
+    text: 显示类
+action.show.compact.empty.middle.packages:
+    text: 显示/压缩中间包
+action.show.excluded.files:
+    text: 显示排除的文件
+action.show.files:
+    text: 显示文件
+action.show.hide.empty.middle.packages:
+    text: 显示/隐藏空的中间包
+action.show.hide.excluded.files:
+    text: 显示/隐藏排除的文件
+action.show.hide.library.contents:
+    text: 显示/隐藏目录库
+action.show.hide.members:
+    text: 显示/隐藏成员
+action.show.included.only:
+    text: 仅显示包含项
+action.show.infos:
+    text: 显示信息消息
+action.show.libraries.contents:
+    text: 显示库内容
+action.show.members:
+    text: 显示成员
+action.show.modules:
+    text: 显示模块
+action.show.structure:
+    text: 显示结构
+action.show.warnings:
+    text: 显示警告
+action.sort.alphabetically:
+    text: 按字母顺序
+action.sort.by.type:
+    text: 按类型
+action.split.horizontally:
+    text: 水平的拆分
+action.split.vertically:
+    text: 垂直的拆分
+action.start.macro.recording:
+    text: 开始宏录制(_M)
+action.stop:
+    text: 停止
+action.stop.macro.recording:
+    text: 停止宏录制(_M)
+action.stop.searching:
+    text: 停止搜索
+action.structureview.group.methods.by.defining.type:
+    text: 按定义类型排序的方法
+action.structureview.show.fields:
+    text: 字段
+action.structureview.show.inherited:
+    text: 已继承
+action.structureview.show.non.public:
+    text: 非 public
+action.structureview.show.properties:
+    text: 属性
+action.structureview.sort.by.visibility:
+    text: 按可见性
+action.sync.completed.successfully:
+    text: 文件同步成功完成。
+action.text.remove.0:
+    text: 移除{0}
+action.text.remove.abbreviation.0:
+    text: "移除缩写''{0}''"
+action.todo.edit.filters:
+    text: 编辑筛选器
+action.todo.show.all:
+    text: 显示全部
+action.unpin.active.tab:
+    text: Unp_in活动标签
+action.unpin.tab:
+    text: 取消固定标签页(_P)
+action.unpin.tab.tooltip:
+    text: 取消固定标签页
+action.view.class.hierarchy:
+    text: 类层次结构
+action.view.subtypes.hierarchy:
+    text: 子类型层次结构
+action.view.supertypes.hierarchy:
+    text: 父类型层次结构
+add.byte.order.mark.to:
+    text: 向{0}添加字节顺序标记
+add.local.scope.action.text:
+    text: 本地
+add.scope.dialog.title:
+    text: 添加新范围
+add.scope.name.label:
+    text: 名称
+add.scope.popup.title:
+    text: 添加范围
+add.shared.scope.action.text:
+    text: 共享
+attribute.0.should.be.defined:
+    text: "''{0}'' 属性需要定义"
+available.packages.dialog.title:
+    text: 可用包
+bean.property:
+    text: Bean属性
+browsers.settings:
+    text: Web浏览器和预览
+bundled.jre.version.message:
+    text: "请考虑切换到更适合IDE的内置Java运行时  (您当前的Java运行时为{0}，由{1}提供，位于''{2}'')。"
+button.add:
+    text: 添加...
+button.add.action.after:
+    text: 添加后(&F)...
+button.add.d:
+    text: 添加...
+button.add.separator:
+    text: 添加&分隔符
+button.cancel:
+    text: 取消
+button.change.directory:
+    text: 更改目录...
+button.configure:
+    text: 配置...
+button.configure.e:
+    text: 配置...
+button.convert:
+    text: 转换
+button.convert.anyway:
+    text: 仍然转换
+button.copy:
+    text: 复制
+button.create:
+    text: 创建(&C)…
+button.delete:
+    text: 删除
+button.edit:
+    text: 编辑...
+button.edit.action.icon:
+    text: 编辑&图标…
+button.edit.t:
+    text: 编辑...
+button.exclude:
+    text: 排除
+button.exclude.recursively:
+    text: 递归排除
+button.existingframe:
+    text: 此窗口(&T)
+button.facet.quickfix.text:
+    text: '&修复'
+button.finish:
+    text: 完成(&F)
+button.fix:
+    text: 修复…
+button.go.to:
+    text: 转到
+button.http.proxy.settings:
+    text: '&HTTP代理设置…'
+button.include:
+    text: 包含
+button.include.recursively:
+    text: 递归包含
+button.insert:
+    text: 插入
+button.mark.all:
+    text: 标记所有 (&M)
+button.move.down:
+    text: 下移(&D)
+button.move.down.d:
+    text: 下移(&D)
+button.move.up:
+    text: 上移(&U)
+button.move.up.u:
+    text: 上移(&U)
+button.newframe:
+    text: 新建窗口(&W)
+button.no:
+    text: 否(&N)
+button.ok:
+    text: 确定
+button.reload:
+    text: 重新加载(&R)
+button.reload.anyway:
+    text: 仍然重新加载
+button.remove:
+    text: 删除(&R)
+button.remove.action:
+    text: 删除动作
+button.remove.all:
+    text: 全部删除
+button.remove.m:
+    text: 删除(&R)
+button.rename:
+    text: 重命名(&R)
+button.save:
+    text: 保存
+button.set.icon:
+    text: 设置图标(&S)
+button.stop.searching:
+    text: 停止搜索 (&S)
+button.unmark.all:
+    text: 取消标记所有 (&U)
+button.view.source:
+    text: 查看源文件(&V)
+button.wizard.next:
+    text: 下一步(&N)
+button.wizard.previous:
+    text: 上一步(&P)
+button.yes:
+    text: 是(_Y)
+change.encoding.command.name:
+    text: "更改''{0}''的编码"
+checkboox.cyclic.scrolling.in.lists:
+    text: 循环滚动列表
+checkbox.allow.line.numbers:
+    text: 允许行号
+checkbox.allow.status.bar:
+    text: 允许状态栏
+checkbox.allow.vcs.annotations:
+    text: 允许VCS注解
+checkbox.animate.windows:
+    text: 窗口动画
+checkbox.confirm.application.exit:
+    text: 退出IDE前确认
+checkbox.copy.javadoc:
+    text: 复制&JavaDoc
+checkbox.customfiletype.ignore.case:
+    text: 忽略大小写(&I)
+checkbox.customfiletype.support.paired.braces:
+    text: 支持配对花括号(&R)
+checkbox.customfiletype.support.paired.brackets:
+    text: 支持配对方括号(&C)
+checkbox.customfiletype.support.paired.parens:
+    text: 支持配对圆括号(&P)
+checkbox.customfiletype.support.string.escapes:
+    text: 支持字符串转义(&E)
+checkbox.disabled.included:
+    text: 包含&已禁用的操作
+checkbox.enable.live.templates:
+    text: 启用实时模板(&L)
+checkbox.errortree.export.details:
+    text: 详细信息
+checkbox.include.non.project.classes:
+    text: 包括非项目类(&N)
+checkbox.include.non.project.files:
+    text: 包括非项目文件(&N)
+checkbox.include.non.project.items:
+    text: 包括非项目条目(&N)
+checkbox.include.non.project.symbols:
+    text: 包括非项目符号(&N)
+checkbox.insert.at.override:
+    text: 插入@&Override
+checkbox.left.toolwindow.layout:
+    text: 左侧并排布局
+checkbox.narrow.down.on.typing:
+    text: 输入时&缩小
+checkbox.narrow.down.the.list.on.typing:
+    text: 输入时&缩小列表
+checkbox.other.included:
+    text: 包括非菜单操作(&N)
+checkbox.override.default.laf.fonts:
+    text: '使用自定义字体:'
+checkbox.position.cursor.on.default.button:
+    text: <html>在默认按钮位置自动定位光标（鼠标移动默认按钮位置）</html>
+checkbox.reformat.according.to.style:
+    text: 根据样式重新格式化(&R)
+checkbox.reopen.last.project.on.startup:
+    text: 启动时重新打开项目
+checkbox.right.toolwindow.layout:
+    text: 右侧并排布局
+checkbox.safe.delete.with.usage.search:
+    text: 安&全删除(带用法搜索)
+checkbox.save.files.automatically:
+    text: 在IDE空闲时保存文件
+checkbox.save.files.on.frame.deactivation:
+    text: 切换到其他应用程序或内置终端时保存文件
+checkbox.search.in.comments.and.strings:
+    text: 在注释和字符串搜索(&S)
+checkbox.search.in.non.java.files:
+    text: 搜索非代码的用法(&E)
+checkbox.show.editor.preview.popup:
+    text: 在滚动条悬停时显示代码透镜
+checkbox.show.icons.in.menu.items:
+    text: 在菜单项中显示图标
+checkbox.show.icons.in.quick.navigation:
+    text: 在快速导航中显示图标
+checkbox.show.memory.indicator:
+    text: 显示内存指示
+checkbox.show.tips.on.startup:
+    text: 启动时不显示提示
+checkbox.show.tool.window.bars:
+    text: 显示工具窗口栏
+checkbox.show.tool.window.numbers:
+    text: 显示工具窗口编号
+checkbox.support.screen.readers:
+    text: 支持屏幕阅读器
+checkbox.synchronize.files.on.frame.activation:
+    text: 切换到IDE窗口或打开编辑器标签页时
+checkbox.transparent.native.to.ascii.conversion:
+    text: 透明原生到ASCII转换
+checkbox.use.antialiased.font.in.editor:
+    text: 使用反锯齿字体
+checkbox.use.preview.window:
+    text: 导航到预览
+checkbox.use.transparent.mode.for.floating.windows:
+    text: 对浮动窗口使用透明模式
+checkbox.widescreen.tool.window.layout:
+    text: 宽屏工具窗口布局
+child.tag.0.should.be.defined:
+    text: "''{0}'' 子标签需要定义"
+code.folding.settings:
+    text: 代码折叠设置
+column.description:
+    text: 说明
+combobox.console.default.encoding.label:
+    text: '默认编码:'
+combobox.look.and.feel:
+    text: '主题:'
+command.close.active.editor:
+    text: 关闭当前编辑器
+command.close.all.editors:
+    text: 关闭所有编辑器
+command.close.all.unmodified.editors:
+    text: 关闭所有未修改的编辑器
+command.create.class.from.template:
+    text: 从模板创建类
+command.create.directory:
+    text: 创建目录
+command.create.enum:
+    text: 创建枚举
+command.create.file:
+    text: 创建文件
+command.create.file.from.template:
+    text: 从模板创建文件
+command.create.interface:
+    text: 创建接口
+command.create.new.package:
+    text: 创建新包
+command.create.new.subdirectory:
+    text: 创建新子目录
+command.create.package:
+    text: 创建包
+command.find.previous:
+    text: 查找上一个
+command.fixing.line.separators:
+    text: 正在修复行分隔符
+command.go.to.line:
+    text: 转到行
+command.go.to.next.split:
+    text: 转到一个分割体
+command.go.to.prev.split:
+    text: 转到上分割
+command.pasting.reference:
+    text: 正在粘贴引用
+command.reload.from.disk:
+    text: 从磁盘重新加载
+command.renaming.module:
+    text: 正在重命名模块{0}
+command.select.all:
+    text: 全选
+confirm.set.look.and.feel:
+    text: 更改主题(&T)
+conversion.dialog.text.1:
+    text: "项目''{0}''的格式已过时，将被转换。您可能无法使用较早版本的{1}打开该项目。"
+conversion.dialog.text.2:
+    text: "<b> </b><a href=\"details\">详情...</a><br/><br/>旧版项目文件将保存到: ''{0}''"
+copy.reference:
+    text: 复&制引用
+copy.references:
+    text: 复&制引用
+copy.relative.path:
+    text: 复&制相对路径
+copy.relative.paths:
+    text: 复&制相对路径
+custom.icon.validation.message:
+    text: 图标放在菜单太大
+custom.icon.validation.title:
+    text: 图标大小无效
+description.copy.text.to.clipboard:
+    text: 将文本复制到剪贴板
+description.select.module.file.location:
+    text: 该模块文件会被保存在选定的目录
+description.select.project.file.directory:
+    text: '{0}文件将被存储在该目录'
+detach.library:
+    text: 分离库
+detach.library.from.module:
+    text: "将库''{0}''从模块''{1}''分离?\n不会删除磁盘上的文件。"
+dialog.directory.for.downloaded.files.title:
+    text: 下载目录
+dialog.message.cannot.save.the.file.0:
+    text: 无法保存文件{0}
+dialog.message.incompatible.encoding:
+    text: "您选择的编码(''{0}'')可能会更改''{1}''的内容。<br>您想要<br>  1. <b>重新加载</b>文件以新编码''{0}''从磁盘读取并覆盖编辑器内容，还是<br>  2. <b>转换</b>文本并以新编码覆盖文件?"
+dialog.title.abbreviation:
+    text: 缩写
+dialog.title.choose.color:
+    text: 选择颜色
+dialog.title.clear.read.only.file.status:
+    text: 清除只读状态
+dialog.title.color.picker:
+    text: 颜色选择器
+dialog.title.convert.module:
+    text: 转换模块
+dialog.title.convert.project:
+    text: 转换项目
+dialog.title.error.writing.file:
+    text: 写入文件时出错
+dialog.title.file.0.can.t.be.reloaded:
+    text: "文件''{0}''无法以''{1}''编码重新加载。{2}"
+dialog.title.file.0.most.likely.isn.t.stored:
+    text: "文件''{0}''很可能不是以''{1}''编码存储的。{2}"
+dialog.title.go.to.line.column:
+    text: 转到行:列
+dialog.title.unable.to.save:
+    text: 无法保存
+diff.dialog.title:
+    text: 架构之间的区别
+directory.module.content.root:
+    text: 模块内容根
+directory.module.file:
+    text: 模块文件目录
+directory.project.file.directory:
+    text: |-
+        {0}文件目录
+        directory.with.existing.sources=具有<b>现有源</b>的目录
+display.balloon.notifications:
+    text: 显示气泡通知
+display.name.firefox.settings:
+    text: Firefox设置
+dnd.with.alt.pressed.only:
+    text: 仅按住Alt键时拖放
+dom.elements.tree.childs.contain.errors:
+    text: 子类有错误
+double.ctrl.or.shift.shortcut:
+    text: 双击{0}
+editbox.customfiletype.block.comment.end:
+    text: '块注释结束:'
+editbox.customfiletype.block.comment.start:
+    text: '块注释开始:'
+editbox.customfiletype.description:
+    text: '描述:'
+editbox.customfiletype.hex.prefix:
+    text: '十六进制前缀:'
+editbox.customfiletype.line.comment:
+    text: '行注释:'
+editbox.customfiletype.name:
+    text: '名称:'
+editbox.customfiletype.number.postfixes:
+    text: '数字后缀:'
+editbox.default.encoding.for.properties.files:
+    text: 'properties文件的默认编码:'
+editbox.export.settings.to:
+    text: 导出设置
+editbox.export.to.file:
+    text: '导出到文件:'
+editbox.ignore.files.and.folders:
+    text: 忽略文件和文件夹
+editbox.keyword:
+    text: '关键字:'
+editbox.license.license.key:
+    text: '许可证密钥:'
+editbox.license.user.name:
+    text: '用户名:'
+element.method:
+    text: 方法
+empty.text.drop.files.to.open:
+    text: 将文件拖放到此处以打开
+empty.text.go.to.file:
+    text: 转到文件
+empty.text.navigation.bar:
+    text: 导航栏
+empty.text.project.view:
+    text: 项目视图
+empty.text.recent.files:
+    text: 最近文件
+empty.text.search.everywhere:
+    text: 全局搜索
+encoding.do.not.convert.message:
+    text: "请不要转换为''{0}''。"
+encoding.name.system.default:
+    text: '<系统默认: {0}>'
+encoding.not.available:
+    text: 不可用
+encoding.unsupported.characters.message:
+    text: "编码''{0}''不支持文本中的某些字符。"
+encodings.dialog.caption:
+    text: 添加文件或目录路径，并选择{0}应使用的编码。<br>文件和目录从父目录或项目编码继承编码。<br>JSP、HTML和XML文件中的内置文件编码会覆盖这些设置。
+error.0.browser.path.not.specified:
+    text: '{0}浏览器路径未指定。'
+error.adding.action.without.icon.to.toolbar:
+    text: 要添加一个动作没有图标到工具栏。默认图标将被添加到这个动作。
+error.adding.module.to.project:
+    text: '向项目添加模块时出错: {0}'
+error.cannot.convert.project:
+    text: '无法转换项目: {0}'
+error.cannot.create.temp.dir:
+    text: "无法创建临时目录 ''{0}''"
+error.cannot.find.file:
+    text: 未找到文件{0}
+error.cannot.load.project:
+    text: '无法加载项目: {0}'
+error.cannot.set.look.and.feel:
+    text: <html><body>无法设置{0}主题:<br>{1}</body></html>
+error.connection.failed.with.http.code.N:
+    text: 连接失败，HTTP代码{0}
+error.content.root.already.defined.for.module:
+    text: |-
+        内容根“{0}”已定义的模块“{1}”。
+        两个模块中的一个项目不能共享相同的内容根。
+error.correct.pattern.syntax.errors.first:
+    text: 正确的模式语法错误第一
+error.failed.to.create.directory:
+    text: 创建目录"{0}"失败
+error.favorites.list.already.exists:
+    text: "收藏夹列表''{0}''已存在"
+error.file.contains.no.settings.to.import:
+    text: |-
+        文件{0}没有设置导入。
+        {1}
+error.file.does.not.exist:
+    text: 文件{0}不存在。
+error.file.download.failed:
+    text: "无法下载 ''{0}'':\n{1}"
+error.file.not.found.message:
+    text: "文件''{0}''未找到"
+error.files.of.this.type.cannot.be.opened:
+    text: '{0}无法打开此类型的文件'
+error.invalid.template.file.name.or.extension:
+    text: 无效的模板文件名或扩展名
+error.keyword.cannot.be.empty:
+    text: 关键字不能为空
+error.keyword.may.not.contain.spaces:
+    text: 关键字不能包含空格
+error.license.collision:
+    text: |-
+        该许可证被网络上其他地方的{0}使用。
+        一次只有一个活跃的计算机可以使用许可证。
+        你想重新激活，或者关闭。
+error.loading.package.list:
+    text: 加载包列表时出错:{0}
+error.malformed.url:
+    text: 'URL格式错误: {0}'
+error.message.cannot.make.files.writable:
+    text: |-
+        无法解锁以下文件:
+        {0}
+error.message.cannot.modify.file.0:
+    text: "无法修改文件''{0}''"
+error.message.unable.to.create.file:
+    text: "无法创建文件''{0}''"
+error.module.already.exists:
+    text: "名为''{0}''的模块已存在"
+error.module.file.does.not.exist:
+    text: 指定的路径到模块文件不存在
+error.module.not.iml:
+    text: |-
+        在“{0}”
+        不是{1}模块文件(.iml)
+error.module.with.name.already.exists:
+    text: 名称为 {0} 的模块已存在
+error.name.cannot.be.empty:
+    text: 名称不能为空
+error.name.should.be.specified:
+    text: 必须指定名称
+error.occurred.please.check.your.internet.connection:
+    text: 发生错误。请检查您的网络连接。
+error.parsing.file.template:
+    text: '解析文件模板时出错: {0}'
+error.please.enter.a.file.name:
+    text: 请指定文件名
+error.please.specify.module.file.location:
+    text: 请指定模块文件的位置
+error.please.specify.new.name.for.schema:
+    text: "请指定计划'' {0}''新名称。"
+error.please.specify.path.to.module.file:
+    text: 请指定路径为{0}模块文件(.iml)
+error.please.specify.path.to.web.browser:
+    text: 请在{0} | Web浏览器中指定Web浏览器的路径
+error.please.specify.template.extension:
+    text: 请注明模板扩展
+error.please.specify.template.name:
+    text: 请指定模板名称
+error.project.file.does.not.exist:
+    text: 无法加载{0}。文件不存在。
+error.project.file.is.corrupted:
+    text: 项目文件已损坏
+error.reading.settings.file:
+    text: |-
+        读取文件 {0} 时出错。
+        请确保该文件是由“文件 | 管理 IDE 设置 | 导出设置…”功能所生成。
+
+        {1}
+error.reading.settings.file.2:
+    text: |-
+        读取文件 {0} 时出错。
+
+        {1}
+error.saving.license.data:
+    text: |-
+        保存许可证数据时出错。
+        {0}
+error.saving.statistic.failed.to.create.folder:
+    text: 无法创建文件夹 {0} 保存系统信息。
+error.saving.statistics:
+    text: '保存系统信息时出错: {0}'
+error.source.directory.should.be.under.module.content.root.directory:
+    text: 源目录不能在模块内容根目录下
+error.text.file.already.exists:
+    text: |-
+        文件{0}已存在
+        您要覆盖还是追加?
+error.tips.not.found:
+    text: 未找到提示。请确保您已正确安装{0}。
+error.unable.to.parse.template.message:
+    text: |-
+        无法解析模板"{0}"
+        错误消息: {1}
+error.unable.to.read.tip.of.the.day:
+    text: <html><body>无法读取每日提示({0})。请确保{1}已正确安装。</body></html>
+error.updating.package.list:
+    text: '更新包列表时出错: {0}'
+error.writing.settings:
+    text: |-
+        写入设置时出错。
+
+        {0}
+error.writing.to.file:
+    text: '写入文件时出错: {0}'
+errortree.error:
+    text: '错误:'
+errortree.information:
+    text: '信息:'
+errortree.note:
+    text: '备注:'
+errortree.prefix.line:
+    text: 行({0})
+errortree.warning:
+    text: '警告:'
+exception.missing.data:
+    text: 无数据：{0}
+fail.open.project.message:
+    text: "无法从 ''{0}'' 打开项目"
+failed.to.install.package.dialog.title:
+    text: "安装''{0}''失败"
+failed.to.install.packages.dialog.title:
+    text: 安装包失败
+favorites.empty.screen:
+    text: 没有什么可以显示。要添加项目到收藏夹列表的使用：主菜单 -> 查看 -> 添加到收藏夹
+favorites.list.unnamed:
+    text: 未命名{0}
+file.changed.externally.message:
+    text: 文件已在磁盘上更改。
+file.changed.externally.reload:
+    text: 重新加载
+file.chooser.completion.ad.text:
+    text: 使用{0}保留路径尾部
+file.chooser.completion.no.suggestions:
+    text: 无建议
+file.chooser.completion.path.variables.text:
+    text: 路径变量
+file.chooser.hide.path:
+    text: 隐藏路径
+file.chooser.hide.path.tooltip.text:
+    text: 显示/隐藏路径文本字段
+file.chooser.show.path:
+    text: 显示路径
+file.encoding.option.create.utf8.files:
+    text: '创建UTF-8文件:'
+file.encoding.option.encoding.column:
+    text: 编码
+file.encoding.option.global.encoding:
+    text: 全局编码
+file.encoding.option.path.column:
+    text: 路径
+file.encoding.option.project.encoding:
+    text: 项目编码
+file.encoding.option.warning.always:
+    text: '{0}将为每个创建的UTF-8编码文件添加<a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">UTF-8 BOM</a>'
+file.encoding.option.warning.never:
+    text: '{0}将不会为每个创建的UTF-8编码文件添加<a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">UTF-8 BOM</a>'
+file.encoding.option.warning.windows.only:
+    text: '{0}仅在Windows下运行时为每个创建的UTF-8文件添加<a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">UTF-8 BOM</a>'
+file.encodings.configurable:
+    text: 文件编码
+file.encodings.not.configured:
+    text: 编码未配置
+file.structure.toggle.show.inherited:
+    text: 继承的成员
+filetype.description.ant:
+    text: ANT的构建文件
+filetype.description.class:
+    text: Java类文件
+filetype.description.dtd:
+    text: XML文档类型定义
+filetype.description.gui.designer.form:
+    text: GUI设计形式
+filetype.description.html:
+    text: HTML文件
+filetype.description.idea.module:
+    text: 创意模块
+filetype.description.idea.project:
+    text: 创意项目
+filetype.description.idea.workspace:
+    text: 创意工作区
+filetype.description.java:
+    text: Java源文件
+filetype.description.jsp:
+    text: Java服务器文件
+filetype.description.jspx:
+    text: JSPx文件
+filetype.description.unknown:
+    text: 未知
+filetype.description.xhtml:
+    text: XHTML文件
+filter.all.file.types:
+    text: 所有文件类型
+finished.with.exit.code.text.message:
+    text: 进程已结束，退出代码为 {0}
+general.settings:
+    text: 设置
+go.to.class.action.description:
+    text: 按名称快速导航到{0}
+go.to.class.dumb.mode.message:
+    text: "''转到{0}''操作在项目分析期间不可用，改用''转到文件''"
+go.to.class.kind.text:
+    text: 类型
+go.to.class.toolwindow.title:
+    text: 类匹配模式
+goto.custom.region.command:
+    text: 转到自定义折叠
+goto.custom.region.menu.item:
+    text: 自定义折叠…
+goto.custom.region.message.dumb.mode:
+    text: 自定义折叠导航将在项目分析完成后可用。
+goto.custom.region.message.unavailable:
+    text: 当前文件中没有自定义折叠。
+goto.inspection.action.text:
+    text: 按名称&运行检查…
+group.antialiasing.mode:
+    text: 抗锯齿
+group.customfiletype.syntax.highlighting:
+    text: 语法高亮
+group.general.options:
+    text: 常规选项
+group.group.by:
+    text: 通过...分组
+group.http.proxy:
+    text: HTTP代理
+group.presentation.mode:
+    text: 演示模式
+group.settings.process.tab.close:
+    text: '关闭正在运行进程的工具窗口时:'
+group.transparency:
+    text: 透明度
+group.ui.options:
+    text: UI选项
+group.vendor:
+    text: 供应商
+group.view.options:
+    text: 视图选项
+group.web.browser:
+    text: 网页浏览器
+group.window.options:
+    text: 工具窗口
+handle.ro.file.status.failed:
+    text: <html>无法更改以下文件的只读状态:<br>{0}</html>
+handle.ro.file.status.type.using.file.system:
+    text: 使用文件系统
+help.topic.not.found.error:
+    text: 帮助主题“{0}”未找到
+hierarchy.call.next.occurence.name:
+    text: 转到下一个调用
+hierarchy.call.prev.occurence.name:
+    text: 转到上一个调用
+hierarchy.legend.method.defined.in.superclass:
+    text: 方法未在类中定义但在其父类中定义
+hierarchy.legend.method.is.defined.in.class:
+    text: 方法在类中定义
+hierarchy.legend.method.should.be.defined:
+    text: 由于类不是抽象的，必须定义方法
+hierarchy.method.next.occurence.name:
+    text: 转到下一个方法
+hierarchy.method.prev.occurence.name:
+    text: 转到上一个方法
+hierarchy.scope.all:
+    text: 全部
+hierarchy.scope.project:
+    text: 生产
+hierarchy.scope.test:
+    text: 测试
+hierarchy.scope.this.class:
+    text: 这个类
+hierarchy.type.next.occurence.name:
+    text: 转到下一个类型
+hierarchy.type.prev.occurence.name:
+    text: 转到上一个类型
+ide.postpone.action:
+    text: 稍后
+ide.restart.action:
+    text: 重启
+ide.shutdown.action:
+    text: 关闭
+incompatible.encoding.dialog.title:
+    text: '不兼容的编码: {0}'
+install.package.failure:
+    text: "安装包''{0}''时发生错误。<a href=\"xxx\">详细信息...</a>"
+item.file.templates:
+    text: 文件模板
+jar.build.include.in.jar.file:
+    text: '包括JAR文件:'
+jar.build.module.0.jar.settings:
+    text: "''{0}''模块 JAR 设置"
+jar.build.modules.to.jar:
+    text: 选择模块打包为jar
+jar.build.on.make:
+    text: 打包为 JARs
+label.appearance.caret.blinking:
+    text: '外观: 光标闪烁'
+label.appearance.show.inner.whitespaces:
+    text: '外观: 显示内部空白'
+label.appearance.show.leading.whitespaces:
+    text: '外观: 显示前导空白'
+label.appearance.show.right.margin:
+    text: '外观: 显示右边距'
+label.appearance.show.trailing.whitespaces:
+    text: '外观: 显示尾部空白'
+label.choosebyname.no.matches.found:
+    text: 未找到匹配项
+label.choosebyname.searching:
+    text: 正在搜索…
+label.component.file.location:
+    text: '{0}文件位置: (&L)'
+label.description:
+    text: 描述
+label.did.you.know:
+    text: 你知道吗... ？
+label.enter.new.abbreviation:
+    text: '输入新缩写:'
+label.extension:
+    text: '扩展名(&E):'
+label.file.name:
+    text: '文件名(&N):'
+label.font.name:
+    text: '字体:'
+label.font.size:
+    text: '大小:'
+label.icon.path:
+    text: '&图标:'
+label.inactive.timeout.sec:
+    text: 秒
+label.java.source.files.have.been.found:
+    text: |-
+        已找到模块的源文件。请选择将被标记为源路径的目录。这些路径对应于默认(根、未命名、顶层)软件包。
+        注: 程序将仅识别位于这些目录下的源文件。
+label.library.will.be.created.description.text:
+    text: '{0}级库 <b>{1}</b> 以及 {2} 个文件将被创建'
+label.line.column:
+    text: '[行] [:列]:'
+label.macro.preview:
+    text: 宏预览
+label.macros:
+    text: 宏
+label.missed.libraries.prefix:
+    text: '以下库丢失:'
+label.missed.libraries.text:
+    text: "在模块依赖项列表中找不到 ''{0}'' 库"
+label.module.file.will.be.saved.in:
+    text: '模块文件将被保存在:'
+label.name:
+    text: 名称
+label.no.actions.found:
+    text: 未找到操作
+label.no.enabled.actions.found:
+    text: 未找到已启用的操作
+label.no.files.found:
+    text: 未找到文件
+label.no.inspections.found:
+    text: 没有找到检验
+label.no.matches.found:
+    text: 未找到匹配项
+label.no.matches.found.in.project:
+    text: 在项目中找不到匹配
+label.no.menu.actions.found:
+    text: 在主菜单中没有发现行动
+label.no.non.java.files.found:
+    text: 没有在项目中发现匹配
+label.offset:
+    text: '偏移量:'
+label.option.appearance:
+    text: '外观: {0}'
+label.override.laf.font:
+    text: '字体:'
+label.path.to.module.file:
+    text: '路径{0}模块文件（IML）:'
+label.please.enter.project.name:
+    text: 请输入名称以创建一个新的{0} {1}。
+label.project.jdk:
+    text: '项目SDK:'
+label.project.roots.have.been.found:
+    text: |-
+        已找到项目的源文件。请选择将被添加到项目根的目录。这些路径对应于默认(根、未命名、顶层)软件包。
+        注: 程序将仅识别位于这些目录下的源文件。
+label.project.roots.not.found:
+    text: 找不到项目源文件。
+label.scope:
+    text: '作用域:'
+label.scope.contains.files:
+    text: 范围包含{0}/{1}个文件
+label.scope.editor.caret.position:
+    text: 位置:{0}
+label.scope.pattern:
+    text: '&模式:'
+label.select.compiler.output.path:
+    text: '选择编译器的输出路径(&O):'
+label.select.module.type:
+    text: '模块类型:'
+label.source.directory:
+    text: '以下目录将被标记为源码目录:'
+label.text.antialiasing.scope.editor:
+    text: '编辑器:'
+label.transparency.delay.ms:
+    text: '延迟(毫秒):'
+label.transparency.ratio:
+    text: '比例:'
+license.panel.buildit.evaluation.expires.in.many:
+    text: 不到{0}天
+license.panel.buildit.evaluation.expires.in.one:
+    text: 剩下1天
+license.panel.current.floating.ticket.description:
+    text: 获得浮动证书
+license.panel.current.permanent.ticket.description:
+    text: 获得永久性证书
+license.panel.default.server.discover:
+    text: 发现
+license.panel.discover.license.server.error.message:
+    text: 无法发现许可证服务器的URL
+license.panel.expirable.license.description:
+    text: 该许可证将在 {0,date,MMMM dd, yyyy} 到期
+license.panel.maintenance.aware.license.description:
+    text: 有权免费更新和升级至 {0,date,MMMM dd, yyyy}
+license.panel.perpetual.license.description:
+    text: 对 {0} 版本 {1} 有效
+license.panel.ping.license.server.error.message:
+    text: 自动验证的许可证服务器没有响应{0}
+license.panel.ping.license.server.error.title:
+    text: 服务器无响应
+link.click.here.to.license.server.info:
+    text: 更多信息
+link.purchase.commercial.license:
+    text: 购买商业授权请登陆
+listbox.customfiletype.keywords:
+    text: 关键字
+loading.editors:
+    text: 打开编辑器...
+loading.in.progress:
+    text: "<html><body style=''text-align: center;padding-top:20px;''>加载中...</body></html>"
+local.scopes.node.text:
+    text: 局部作用域
+low.disk.space.message:
+    text: 系统目录分区({0})剩余空间不足50 MiB
+macro.class.name:
+    text: 类名
+macro.classpath.entry:
+    text: 该元素所属的类路径中的条目
+macro.column.number:
+    text: 列号
+macro.file.dir.relative.to.root:
+    text: 相对于文件所属的模块内容根的文件目录
+macro.file.dir.relative.to.root.fwd.slash:
+    text: 相对于文件所属的模块内容根的文件目录(带正斜杠)
+macro.file.dir.relative.to.sourcepath.root:
+    text: 相对于文件所属的源路径根的文件目录
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: 相对于文件所属的源路径根的文件目录(带正斜杠)
+macro.file.directory:
+    text: 文件目录
+macro.file.directory.from.parent:
+    text: 父目录中 $FileDir$ 的路径与名称作为形参传递
+macro.file.directory.name:
+    text: 文件目录名称
+macro.file.directory.relative:
+    text: 相对于项目文件的文件目录
+macro.file.directory.relative.fwd.slash:
+    text: 相对于项目文件的文件目录(带正斜杠)
+macro.file.encoding:
+    text: 文件编码
+macro.file.extension:
+    text: 文件扩展名
+macro.file.fully.qualified.package:
+    text: 文件完全合格软件包
+macro.file.name:
+    text: 文件名
+macro.file.name.without.all.extensions:
+    text: 不带所有扩展名的文件名
+macro.file.name.without.extension:
+    text: 文件名不带扩展名
+macro.file.package:
+    text: 文件软件包
+macro.file.parent.directory:
+    text: 文件父目录。获取一个可选形参(名称)以查找父目录
+macro.file.path:
+    text: 文件路径
+macro.file.path.relative:
+    text: 相对于项目文件的文件路径
+macro.file.path.relative.fwd.slash:
+    text: 相对于项目文件的文件路径(带正斜杠)
+macro.file.path.relative.to.root:
+    text: 相对于文件所属的模块内容根的文件路径
+macro.file.path.relative.to.root.fwd.slash:
+    text: 相对于文件所属的模块内容根的文件路径(带正斜杠)
+macro.file.path.relative.to.sourcepath.root:
+    text: 相对于文件所属的源路径根的文件路径
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: 相对于文件所属的源路径根的文件路径(带正斜杠)
+macro.javadoc.output.directory:
+    text: JavaDoc输出目录
+macro.line.number:
+    text: 行号
+macro.module.file.directory:
+    text: 模块文件的目录
+macro.module.file.name:
+    text: 模块文件的名称，不带扩展名
+macro.module.file.path:
+    text: 模块文件的路径
+macro.module.source.path:
+    text: 模块源路径
+macro.output.path:
+    text: 输出路径
+macro.project.classpath:
+    text: 项目的类路径
+macro.project.file.directory:
+    text: 项目文件的目录
+macro.project.file.name:
+    text: 项目文件的名称，不带扩展名
+macro.project.file.path:
+    text: 项目文件的路径
+macro.project.source.path:
+    text: 项目源路径
+macro.project.sourcepath:
+    text: 项目源路径
+macro.prompt:
+    text: 显示一个字符串输入对话框
+macro.sourcepath.entry:
+    text: 元素所属的源路径中的条目
+manage.repositories.dialog.title:
+    text: 管理仓库
+message.educational.license:
+    text: 1 年教育许可证。{0}
+message.evaluation.N.days:
+    text: '{0}天'
+message.evaluation.has.expired:
+    text: 您的{0}评估已过期。您的会话将被限制在30分钟。<BR> {1}
+message.evaluation.less.than.one.day:
+    text: 少于1天
+message.evaluation.one.day:
+    text: 1 天
+message.evaluation.will.expire:
+    text: 感谢您的评价{0}。搜寻在{1}有限公司您评估许可证过期{2}
+message.expiration.date:
+    text: '到期日期: {0}'
+message.macro.exists:
+    text: "宏''{0}''已存在。是否覆盖?"
+message.module:
+    text: "模块''{0}''"
+message.module.file.has.an.older.format.do.you.want.to.convert.it:
+    text: 模块文件格式较旧。是否要转换它?
+message.modules:
+    text: 模块
+message.move.modules.to.group:
+    text: 将{0}移至组{1}
+message.no.targets.available:
+    text: 此上下文中没有可用目标
+message.non.commercial.use.only:
+    text: 只有非商业用途
+message.nothing.to.show.in.structure.view:
+    text: 没有在结构视图显示
+message.occurrence.N.of.M:
+    text: 出现{0}/{1}
+message.open.source.project.license:
+    text: 开源项目许可证。{0}
+message.path.to.fqn.has.been.copied:
+    text: "''{0}''已复制。"
+message.personal.license:
+    text: 个人许可证
+message.please.ensure.correct.settings:
+    text: 请确保您已使用“文件|导出设置”生成的文件的功能。
+message.please.select.element.for.javadoc:
+    text: 选择要查看文档的元素
+message.purchase.or.upgrade:
+    text: 有关如何升级评估软件信息，请访问{0}
+message.reference.to.fqn.has.been.copied:
+    text: "对''{0}''的引用已复制。"
+message.server.no.licenses:
+    text: 留在许可服务器上没有合适的许可证
+message.server.not.available:
+    text: 无法联系许可证服务器
+message.server.protocol.hijacked:
+    text: '许可证服务器响应尚未通过数据完整性检查: {0}'
+message.settings.exported.successfully:
+    text: |-
+        已成功导出您的设置。
+        可以使用“文件 | 管理 IDE 设置 | 导入设置…”导入设置。
+message.settings.imported.successfully:
+    text: 已成功导入设置。{0} {1} 以重新加载设置?
+message.settings.imported.successfully.restart:
+    text: |-
+        设置成功导入。你必须重新启动{0}重新加载设置。
+        重新启动{1}？
+message.text.creating.deployment.descriptor:
+    text: 创建部署描述
+message.text.error.creating.deployment.descriptor:
+    text: 创建部署项目错误:{0}
+message.text.unlock.read.only.files:
+    text: <html><body>以下文件是只读的。{0}将解锁它们。<br>{1}</body></html>
+message.upgrade.from.previous.required:
+    text: 您的授权无效与此版本的{0}使用。 <BR/>有关如何升级您的许可信息，请访问{1} <BR/>您也可以选择一个空闲时间限制的评估。
+message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
+    text: "<html><body>您的模块已成功转换。<br>  旧版本已保存到''{0}''</body></html>"
+model.highlighting.identity:
+    text: 名称 {0} 已经存在
+model.highlighting.identity.in.other.file:
+    text: "{0} 该名称已经存在于文件 ''{1}''"
+new.library.file.chooser.description:
+    text: 在本地库类中选择JAR文件
+new.library.file.chooser.title:
+    text: 新的库文件
+no.charset.set.reason.charset.auto.detected.by.bom:
+    text: 通过BOM自动检测字符集
+no.charset.set.reason.charset.auto.detected.from.content:
+    text: 根据内容自动检测字符集
+no.charset.set.reason.charset.hard.coded.in.file:
+    text: 字符集在文件中硬编码
+no.charset.set.reason.disabled.for.binary.file:
+    text: 对二进制文件禁用
+no.charset.set.reason.disabled.for.directory:
+    text: 对目录禁用
+no.charset.set.reason.disabled.for.file.type:
+    text: 对{0}禁用
+no.information.available:
+    text: 没有可用信息
+node.call.hierarchy.N.usages:
+    text: ({0} 处用法)
+node.call.hierarchy.unknown.jsp:
+    text: 未知的jsp
+node.default:
+    text: <默认>
+node.default.package:
+    text: <默认包>
+node.hierarchy.invalid:
+    text: '[无效]'
+node.hierarchy.java.lang.object:
+    text: 所有类都派生自 java.lang.Object
+node.memberchooser.all.classes:
+    text: 所有类
+node.projectview.external.libraries:
+    text: 外部库
+node.projectview.libraries:
+    text: 库
+node.projectview.library:
+    text: '{0}库'
+open.url.in.browser.tooltip:
+    text: 在浏览器中打开
+option.hide.tool.window.bars:
+    text: 隐藏工具窗口栏
+package.0.installed.successfully:
+    text: "包''{0}''安装成功"
+package.installed.successfully:
+    text: 包安装成功
+package.successfully.uninstalled:
+    text: "包''{0}''卸载成功"
+package.successfully.upgraded:
+    text: 包{0}升级成功
+packages.settings.latest.version:
+    text: 最新版本
+packages.settings.loading:
+    text: 正在加载包列表
+packages.settings.package:
+    text: 包
+packages.settings.version:
+    text: 版本
+packages.successfully.uninstalled:
+    text: 包卸载成功
+packages.title:
+    text: 包
+please.edit.repository.url:
+    text: 请编辑仓库URL
+please.input.repository.url:
+    text: 请输入仓库URL
+popup.title.edit.shortcuts:
+    text: 编辑快捷键
+popup.title.play.saved.macros:
+    text: 播放已保存的宏
+popup.title.select.library.type:
+    text: 选择库类型
+predefined.scope.problems.name:
+    text: 问题
+predefined.scope.production.name:
+    text: 生产
+predefined.scope.tests.name:
+    text: 测试
+presentation.mode.fon.size:
+    text: '字体大小:'
+progress.creating.directory:
+    text: 正在创建目录{0}{1}{2}
+progress.creating.file:
+    text: 正在创建文件{0}{1}{2}
+progress.creating.interface:
+    text: 创建接口{0} {1}
+progress.creating.package:
+    text: 正在创建包{0}.{1}
+progress.deleting:
+    text: 正在删除
+progress.deleting.class:
+    text: 正在删除类{0}
+progress.locate.file.text:
+    text: "定位'' {0}''..."
+progress.looking.for.todos:
+    text: 寻找待办事项...
+progress.searching:
+    text: 正在搜索…
+progress.searching.for.sources:
+    text: 正在{0}中搜索源代码. 请稍候…
+progress.text.clickToViewProgressWindow:
+    text: 点击查看所有正在运行的进程
+progress.text.reloading.file:
+    text: 正在重新加载文件…
+progress.text.reloading.files:
+    text: 正在重新加载文件…
+progress.text.stopping:
+    text: 正在停止 - {0}
+progress.title.reload.files:
+    text: 重新加载文件
+progress.window.empty.text:
+    text: 没有正在运行的进程。
+progress.window.title:
+    text: 进程
+project.directory.is.not.writable:
+    text: "目录 ''{0}'' 似乎不可写。请选择其他位置。"
+project.import.default.name:
+    text: 从{0}导入的
+project.import.default.name.dotIdea:
+    text: 从{0}导入的
+project.import.open.existing:
+    text: "''{1}''中存在{0}。\n要打开现有项目，还是将其删除并导入 ''{2}''?"
+project.import.open.existing.openExisting:
+    text: 打开现有项目
+project.import.open.existing.reimport:
+    text: 删除现有项目并导入
+project.import.select.title:
+    text: 选择{0}导入项目
+project.import.show.settings.after:
+    text: 导入后打开项目结构 (&O)
+project.import.wizard.title:
+    text: 从 {0} 导入
+prompt.browse.icon.for.selected.action:
+    text: 浏览SVG或PNG格式的图标
+prompt.check.components.to.import:
+    text: '检查导入的组件:'
+prompt.choose.base.class.of.the.hierarchy:
+    text: 选择要搜索的层次结构的基类
+prompt.choose.export.settings.file.path:
+    text: 选择导出文件的保存目录
+prompt.choose.import.file.path:
+    text: 选择要导入的设置文件或目录
+prompt.confirm.project.no.jdk:
+    text: |-
+        是否要在不指定 SDK 的情况下创建项目?
+        编译、调试和运行应用程序以及标准 SDK 类解析都需要 SDK。
+prompt.create.non.existing.package:
+    text: |-
+        软件包 {0} 不存在。
+        是否要创建?
+prompt.delete.and:
+    text: 和
+prompt.delete.class:
+    text: '{0,choice,1#类|2#类}'
+prompt.delete.directory:
+    text: '{0,choice,1#个目录|2#个目录}'
+prompt.delete.directory.paren:
+    text: ({0} {0,choice,1#个目录|2#个目录})
+prompt.delete.elements:
+    text: 删除{0}?
+prompt.delete.field:
+    text: '{0,choice,1#个字段|2#个字段}'
+prompt.delete.file:
+    text: '{0,choice,1#个文件|2#个文件}'
+prompt.delete.interface:
+    text: '{0,choice,1#个接口|2#个接口}'
+prompt.delete.it.anyway:
+    text: 仍然删除?
+prompt.delete.method:
+    text: '{0,choice,1#个方法|2#个方法}'
+prompt.delete.package:
+    text: '{0,choice,1#软件包|2#软件包}'
+prompt.delete.property:
+    text: '{0,choice,1#个属性|2#个属性}'
+prompt.delete.symlink:
+    text: '{0,choice,1#个符号链接|2#个符号链接}'
+prompt.delete.type.parameter:
+    text: '{0,choice,1#类型形参|2#类型形参}'
+prompt.directory.contains.read.only.files:
+    text: 目录{0}包含只读文件。仍然删除?
+prompt.enter.a.new.package.name:
+    text: '输入新包名:'
+prompt.enter.annotation.type.name:
+    text: '输入一个新的接口名称:'
+prompt.enter.macro.name:
+    text: 输入宏名称。如果宏是临时的，请留空。
+prompt.enter.new.file.name:
+    text: '输入文件名:'
+prompt.enter.new.interface.name:
+    text: '输入一个新的接口名称:'
+prompt.enter.new.library.name:
+    text: 输入新库名称
+prompt.enter.new.module.name:
+    text: 输入新模块名称
+prompt.enter.new.name:
+    text: 输入新名称
+prompt.enter.parameters:
+    text: '输入形参:'
+prompt.enter.project.file.location:
+    text: 输入{0}文件位置
+prompt.enter.relative.path.to.module.content.root:
+    text: '为模块内容根输入相对路径  (例如: java{0}src):'
+prompt.filechooser.enter.file.name:
+    text: '输入文件名:'
+prompt.goto.inspection.enter.name:
+    text: '输入检查名称:'
+prompt.gotoaction.enter.action:
+    text: '输入操作或选项名称:'
+prompt.gotoclass.enter.class.name:
+    text: '输入{0}名称:'
+prompt.gotofile.enter.file.name:
+    text: '输入文件名:'
+prompt.gotosymbol.enter.symbol.name:
+    text: '输入符号名称:'
+prompt.input.favorites.list.new.name:
+    text: "将收藏夹列表''{0}''重命名为:"
+prompt.input.new.favorites.list.name:
+    text: 输入新收藏夹列表的名称
+prompt.new.project.file.name:
+    text: 输入文件名来创建新的{0}{1}
+prompt.open.project.in.new.frame:
+    text: <html><body>您想在哪里打开项目?</body></html>
+prompt.overwrite.project.folder:
+    text: |-
+        {0} 文件夹已存在于 {1} 中。
+        其内容可能会被覆盖。
+        是否继续?
+prompt.please.check.all.components.to.export:
+    text: '请检查要导出的设置:'
+prompt.please.select.module.jdk:
+    text: 选择{0}设为此模块
+prompt.please.select.project.jdk:
+    text: 请选择项目 SDK。此 SDK 默认将由所有项目模块使用。
+prompt.please.specify.java.sources.directory:
+    text: |-
+        请指定从中可以找到项目源文件的目录。
+        此路径应对应于默认(根、未命名、顶层)软件包。
+        注: 程序将仅识别位于这些目录下的源文件。
+prompt.please.specify.module.name:
+    text: 请指定模块名
+prompt.please.specify.module.name.and.content.root:
+    text: |-
+        请指定模块名和模块的上​​下文根。
+        一个模块的内容根本就是属于该模块的文件存储在目录中。
+prompt.relative.path.to.sources.empty:
+    text: "源代码的相对路径为空。\n要将模块内容根\n''{0}''\n标记为源目录吗?"
+prompt.reload.file.from.disk:
+    text: 从磁盘重新加载"{0}"，失去所有的修改？
+prompt.reset.to.original.template:
+    text: 重置为原始模板?
+prompt.select.module.file.to.import:
+    text: 选择{0}模块文件（IML），以进口
+prompt.select.source.directory:
+    text: 选择源代码目录
+prompt.specify.module.group.name:
+    text: |+
+        请指定{0}将显示在其中的组名称。
+
+prompt.specify.name.of.module.subgroup:
+    text: |+
+        请指定{0}子组的名称，{1}将显示在其下方。
+
+prompt.stop.searching.for.sources:
+    text: '{0} 当前正在搜索源。是否停止搜索?'
+quick.lists.presentable.name:
+    text: 快速列表
+radio.create.new.module:
+    text: 创建新模块(&C)
+radio.create.source.directory:
+    text: 创建源码目录 (&C)
+radio.default.license.server:
+    text: 默认的许可证服务器(&D)
+radio.do.not.create.source.directory:
+    text: 不要创建源码目录 (&D)
+radio.evaluate:
+    text: 评估免费为{0}天(&E)
+radio.import.existing.module:
+    text: 导入现有的模块(&I)
+radio.license.data:
+    text: 输入许可数据(&D)
+radio.license.server.address:
+    text: 输入许可证服务器地址(&S)
+radio.process.close.ask:
+    text: 询问
+radio.process.close.disconnect:
+    text: 断开连接
+radio.process.close.terminate:
+    text: 终止进程
+recent.files.checkbox.label:
+    text: 仅显示已编辑的
+recent.locations.changed.locations:
+    text: 最近编辑的位置
+recent.locations.popup.empty.file.text:
+    text: 空行
+recent.locations.popup.empty.text:
+    text: 未找到最近位置
+recent.locations.popup.title:
+    text: 最近位置
+recent.locations.title.text:
+    text: 仅显示已编辑
+repository.url.title:
+    text: 仓库URL
+run.anything.action.tooltip.text:
+    text: '执行命令: 打开项目、启动运行配置、运行Gradle或Maven任务、  执行终端命令等。'
+run.anything.actions.undefined:
+    text: 未定义
+run.anything.ad.command.delete:
+    text: '{0}删除最近命令'
+run.anything.ad.run.action.with.default.settings:
+    text: 按{0}使用默认设置运行
+run.anything.ad.run.in.context:
+    text: 按{0}在当前文件上下文中运行
+run.anything.ad.run.with.debug:
+    text: '{0}进行调试'
+run.anything.command.empty.list.title:
+    text: 按 ENTER 执行输入命令
+run.anything.console.error.title:
+    text: 无法运行命令
+run.anything.console.process.finished:
+    text: |4-
+
+        进程已完成，退出码{0}。
+run.anything.console.title:
+    text: 运行任何命令
+run.anything.context.browse.directory:
+    text: 浏览目录…
+run.anything.context.project:
+    text: 项目
+run.anything.context.separator.directories:
+    text: 目录
+run.anything.context.separator.modules:
+    text: 模块
+run.anything.context.title.working.directory:
+    text: 执行上下文
+run.anything.context.tooltip:
+    text: 选择当前命令的执行上下文
+run.anything.custom.activity.notification.group.id:
+    text: 运行任何内容命令已执行
+run.anything.custom.activity.rollback.action:
+    text: 回滚
+run.anything.general.group.title:
+    text: 常规
+run.anything.group.settings.title:
+    text: "显示 ''{0}''"
+run.anything.group.title.commands:
+    text: 当前命令
+run.anything.group.title.permanent:
+    text: 永久配置
+run.anything.group.title.temporary:
+    text: 临时配置
+run.anything.help.list.empty.secondary.text:
+    text: 选择命令
+run.anything.hint.initial.text:
+    text: 按{0}或{1}浏览建议列表
+run.anything.indexing.mode.not.supported:
+    text: 运行任何内容在项目分析期间不可用
+run.anything.main.list.empty.primary.text:
+    text: 运行命令或配置
+run.anything.main.list.empty.secondary.text:
+    text: 输入"?"查看所有命令
+run.anything.notification.warning.content:
+    text: "命令''{0}''执行失败。"
+run.anything.notification.warning.title:
+    text: 命令执行失败
+run.anything.recent.group.title:
+    text: 最近
+run.anything.recent.project.command.placeholder:
+    text: open <项目名称>
+run.anything.recent.project.completion.group.title:
+    text: 最近项目
+run.anything.recent.project.help.group.title:
+    text: 最近项目
+run.anything.run.anything.title:
+    text: 运行任何内容
+run.anything.run.configurations.group.title:
+    text: 运行配置
+run.anything.run.debug.title:
+    text: '调试:'
+run.anything.run.in.context.debug.title:
+    text: '在上下文中运行并调试:'
+run.anything.run.in.context.title:
+    text: '在上下文中运行:'
+run.canceled.by.user.message:
+    text: 运行被用户取消
+run.configuration.error.executable.not.specified:
+    text: 未指定的可执行文件
+run.configuration.error.working.directory.does.not.exist:
+    text: "无法启动进程，工作目录 ''{0}'' 不存在"
+run.configuration.error.working.directory.not.directory:
+    text: "无法启动进程，工作目录 ''{0}'' 不是目录"
+scope.banner.text:
+    text: "范围''{0}''"
+scope.class.hierarchy:
+    text: 类层次结构
+scope.current.file:
+    text: 当前文件
+scope.editor.legend.partly.included.label:
+    text: 部分包含
+scope.editor.legend.recursively.included.label:
+    text: 递归包含
+scope.files.in.previous.search.result:
+    text: 上次搜索结果中的文件
+scope.hierarchy:
+    text: '{0}的层次结构'
+scope.modified.files:
+    text: 更改的文件
+scope.open.files:
+    text: 打开的文件
+scope.previous.search.results:
+    text: 上次搜索结果
+scope.selection:
+    text: 选区
+scope.unable.to.save.scope.message:
+    text: 是否要将范围保存为共享?
+scope.unable.to.save.scope.title:
+    text: 无法使用本地范围
+scope.view.title:
+    text: 范围
+scopes.display.name:
+    text: 范围
+scopes.no.scoped:
+    text: 未添加范围。
+scopes.save.dialog.title.local:
+    text: 保存为本地范围
+scopes.save.dialog.title.shared:
+    text: 保存为共享范围
+scratches.and.consoles:
+    text: 草稿和控制台
+scripting.lib.add:
+    text: 添加(&A)…
+scripting.lib.attach:
+    text: 附件(&A)...
+scripting.lib.detach:
+    text: 分离
+scripting.lib.docUrl.remove:
+    text: 删除(&R)
+scripting.lib.docUrl.specify:
+    text: 指定(&S)...
+scripting.lib.docUrl.title:
+    text: 文档URLs
+scripting.lib.edit:
+    text: 编辑(&E)…
+scripting.lib.file.location:
+    text: 位置
+scripting.lib.file.name:
+    text: 名称
+scripting.lib.file.title:
+    text: 文件
+scripting.lib.file.type:
+    text: 类型
+scripting.lib.invalid.name:
+    text: 无效的库名
+scripting.lib.name:
+    text: '名称(&N):'
+scripting.lib.remove:
+    text: 移除(&R)
+scripting.lib.select.root:
+    text: 选择库文件或目录
+scripting.lib.usageScope:
+    text: 使用作用域
+scripting.lib.usageScope.caption:
+    text: <html>指定在特定的文件或目录中所使用的库</html>
+scripting.lib.usageScope.override.question:
+    text: 为子目录文件重写库设置?
+scripting.lib.usageScope.override.title:
+    text: 重写库设置
+scripting.lib.usageScope.tableTitle:
+    text: 库
+search.for.usages.and.delete.elements:
+    text: 搜索用法并删除{0}?
+search.in.the.background:
+    text: 在后台搜索
+search.textfield.title:
+    text: '搜索:'
+searcheverywhere.commands.tab.name:
+    text: 命令
+searcheverywhere.found.matches.title:
+    text: "''{0}''在[{1}]中的匹配项"
+searcheverywhere.found.targets.title:
+    text: 未排序的结果
+searcheverywhere.history.shortcuts.hint:
+    text: 按{0}或{1}浏览搜索历史
+searcheverywhere.indexing.incomplete.results:
+    text: "''{0}''中的搜索结果可能不完整，正在分析项目…"
+searcheverywhere.indexing.mode.not.supported:
+    text: "''{0}''中的搜索将在项目分析完成后可用"
+searcheverywhere.nothing.found.for.all:
+    text: 没有什么找到。
+searcheverywhere.nothing.found.for.all.anywhere:
+    text: 未找到任何结果
+searcheverywhere.nothing.found.for.contributor.anywhere:
+    text: 未找到具有此名称的{0}
+searcheverywhere.run.configs.tab.name:
+    text: 运行配置
+searcheverywhere.runconfigurations.command.debug.description:
+    text: 以"调试"模式启动运行配置
+searcheverywhere.runconfigurations.command.run.description:
+    text: 以"运行"模式启动运行配置
+searcheverywhere.textfield.hint:
+    text: 输入{0}查看命令
+select.in.aspects:
+    text: 方面
+select.in.favorites:
+    text: 收藏夹
+select.in.file.structure:
+    text: 文件结构
+select.in.nav.bar:
+    text: 导航栏
+select.in.packages:
+    text: 包
+select.in.project:
+    text: 项目
+select.in.project.settings:
+    text: 项目结构
+select.in.scope:
+    text: 范围
+select.in.title.project.view:
+    text: 项目视图
+settings.entry.point.tooltip:
+    text: IDE和项目设置
+settings.entry.point.widget.name:
+    text: IDE和项目设置
+setup.library.dialog.title:
+    text: 安装库
+share.scope.checkbox.title:
+    text: 通过VCS共享
+shared.scopes.node.text:
+    text: 共享作用域
+show.in.find.window.button.description:
+    text: 在查找工具窗口中打开搜索结果
+show.in.find.window.button.name:
+    text: 在查找工具窗口中打开
+show.main.toolbar:
+    text: 显示主工具栏
+show.navigation.bar:
+    text: 显示导航栏
+show.status.bar:
+    text: 显示状态栏
+small.labels.in.editor.tabs:
+    text: 编辑器标签页中使用小标签
+status.bar.text.file.encoding:
+    text: '文件编码: {0}'
+sys.health.acknowledge.link:
+    text: <br/><a href="ack">不要再显示</a>.
+tab.chooser.project:
+    text: 项目
+tab.chooser.search.by.name:
+    text: 按名称搜索
+tab.filetemplates.code:
+    text: 代码
+tab.filetemplates.includes:
+    text: 包含
+tab.filetemplates.j2ee:
+    text: 其他
+tab.filetemplates.templates:
+    text: 文件
+team.server.license.not.found:
+    text: 此 IDEA 分发版仅授权给与 JetBrains TeamCity 搭配使用。
+template.copy.N.of.T:
+    text: '{1}的副本{0}'
+template.unnamed:
+    text: 未命名
+title.add.module:
+    text: 新建模块
+title.add.new.favorites.list:
+    text: 添加新收藏夹列表
+title.add.new.keyword:
+    text: 添加新的关键字
+title.appearance:
+    text: 外观
+title.browse.icon:
+    text: 浏览图标
+title.browser.not.found:
+    text: 浏览器未找到
+title.cannot.convert.project:
+    text: 无法转换项目
+title.cannot.create.annotation.type:
+    text: 无法创建@interface
+title.cannot.create.enum:
+    text: 无法创建枚举
+title.cannot.create.file:
+    text: 无法创建文件
+title.cannot.create.interface:
+    text: 无法创建接口
+title.cannot.load.project:
+    text: 无法加载项目
+title.cannot.open.file:
+    text: 无法打开文件
+title.cannot.save.current.template:
+    text: 无法保存当前模板
+title.choose.action.icon:
+    text: 选择操作图标
+title.choose.destination.directory:
+    text: 选择目标目录
+title.customizations:
+    text: 菜单和工具栏
+title.delete:
+    text: 删除
+title.directory.does.not.exist:
+    text: 目录不存在
+title.edit.file.template:
+    text: 编辑文件模板
+title.edit.keyword:
+    text: 编辑关键字
+title.edit.macros:
+    text: 编辑宏
+title.enter.license.data:
+    text: 输入{0}许可证
+title.enter.macro.name:
+    text: 输入宏名称
+title.error.reading.file:
+    text: 读取文件出错
+title.error.writing.file:
+    text: 写入文件出错
+title.evaluation.license.expired:
+    text: 评估许可证过期
+title.export.file.location:
+    text: 导出到文件
+title.export.preview:
+    text: 导出预览
+title.export.successful:
+    text: 导出完成
+title.file.already.exists:
+    text: 文件已存在
+title.file.not.found:
+    text: 找不到文件
+title.file.templates:
+    text: 文件和代码模板
+title.general:
+    text: 系统设置
+title.hierarchy.callees.of:
+    text: '{0}的被调用者'
+title.hierarchy.callers.of:
+    text: '{0}的调用者'
+title.hierarchy.class:
+    text: 类{0}
+title.hierarchy.method:
+    text: 方法{0}
+title.hierarchy.subtypes:
+    text: '{0}的子类型'
+title.hierarchy.supertypes:
+    text: '{0}的父类型'
+title.import.file.location:
+    text: 导入文件的位置
+title.incorrect.file.type:
+    text: 不正确的文件类型
+title.input:
+    text: 输入
+title.invalid.file:
+    text: 无效的文件
+title.invalid.license.data:
+    text: 许可证数据无效
+title.license.collision.detected:
+    text: 许可证碰撞检测
+title.license.corrupt:
+    text: 牌照腐败
+title.license.expired:
+    text: 许可证已过期
+title.license.will.expire:
+    text: '{0}许可证即将过期'
+title.macro.name.already.used:
+    text: 宏名称已被使用
+title.macros:
+    text: 宏
+title.mark.source.directory:
+    text: 标记源目录
+title.module.already.exists:
+    text: 模块已经存在
+title.module.content.root.already.exists:
+    text: 模块内容根已存在
+title.module.file.does.not.exist:
+    text: '模块文件不存在: {0}'
+title.module.file.location.not.specified:
+    text: 模块文件位置未指定
+title.module.file.path.not.specified:
+    text: 模块文件路径未指定
+title.module.group:
+    text: 模块组
+title.module.name.not.specified:
+    text: 模块名称未指定
+title.module.sub.group:
+    text: 模块子组
+title.new.annotation.type:
+    text: 新建 @interface
+title.new.directory:
+    text: 新建目录
+title.new.enum:
+    text: 新的枚举
+title.new.file:
+    text: 新建文件
+title.new.from.template:
+    text: 新建{0}
+title.new.interface:
+    text: 新建接口
+title.new.package:
+    text: 新建包
+title.new.project:
+    text: 新建项目
+title.no.element.selected:
+    text: 未选择元素
+title.no.jdk.specified:
+    text: 未指定 SDK
+title.open.project:
+    text: 打开项目
+title.package.not.found:
+    text: 找不到软件包
+title.packages:
+    text: 软件包
+title.popup.new.element:
+    text: 新建
+title.popup.new.element.same.place:
+    text: 在此目录中新建
+title.popup.recent.files:
+    text: 最近文件
+title.popup.select.target:
+    text: 选择目标
+title.popup.views:
+    text: 视图
+title.product.evaluation:
+    text: '{0}评估'
+title.project:
+    text: 项目
+title.question:
+    text: 问题
+title.reload.file:
+    text: 重装文件
+title.rename.favorites.list:
+    text: 重命名
+title.rename.library:
+    text: 重命名库
+title.rename.macro:
+    text: 重命名宏
+title.rename.module:
+    text: 重命名模块
+title.reset.template:
+    text: 重置模板
+title.restart.needed:
+    text: 需要重启
+title.select.compiler.output.path:
+    text: 选择编译器的输出路径
+title.select.components.to.export:
+    text: 导出设置
+title.select.components.to.import:
+    text: 选择要导入的组件
+title.select.jdk:
+    text: 选择JDK
+title.select.module.content.root:
+    text: 选择模块内容根
+title.select.module.file.location:
+    text: 选择模块文件位置
+title.select.path.to.browser:
+    text: 选择浏览器路径
+title.select.project.file.directory:
+    text: 选择 {0} 文件目录
+title.select.template:
+    text: 选择模板
+title.server.no.licenses:
+    text: 在服务器上无许可证
+title.server.not.available:
+    text: 许可证服务器连接错误
+title.server.protocol.hijacked:
+    text: 与许可证服务器响应的问题
+title.system.error:
+    text: 系统错误
+title.tip.of.the.day:
+    text: 每日提示
+title.unable.to.add.action.without.icon.to.toolbar:
+    text: 不能添加没有图标的动作到工具栏
+title.unable.to.add.favorites.list:
+    text: 无法添加收藏夹列表
+title.unable.to.save.data:
+    text: 无法保存数据
+title.upgrade.needed:
+    text: 许可证升级所需
+title.velocity.error:
+    text: Velocity错误
+title.warning:
+    text: 警告
+tooltip.line.separator:
+    text: '行分隔符: {0}'
+tooltip.module.group:
+    text: 模块组
+tooltip.ui.designer.form:
+    text: UI设计器表单
+toolwindow.palette:
+    text: 组件面板
+treenode.loading:
+    text: 正在加载…
+uninstall.packages.failed:
+    text: 卸载包失败。<a href="xxx">详细信息...</a>
+uninstall.packages.failed.dialog.title:
+    text: 卸载包失败
+unknown.error:
+    text: 未知错误
+unscramble.dialog.title:
+    text: 分析堆栈跟踪
+unscramble.log.path.label:
+    text: '日志文件: (&L)'
+unscramble.no.unscrambler.item:
+    text: <未安装译码器>
+unscramble.normalize.button:
+    text: 标准化 (&N)
+unscramble.stacktrace.caption:
+    text: '将一个堆栈跟踪或完整的线程转储放在此处:'
+unscramble.unscrambled.deadlock.tab:
+    text: <死锁>
+unscramble.unscrambled.stacktrace.tab:
+    text: <堆栈跟踪>
+unscramble.unscrambled.threaddump.tab:
+    text: <线程>
+unscramble.unscrambler.combobox:
+    text: '译码器(&S):'
+unscramble.use.unscrambler.checkbox:
+    text: 译码堆栈跟踪(&U)
+unsupported.jvm.ea.message:
+    text: 使用早期的Java版本可能会导致兼容性问题。请使用稳定版本。
+upgrade.package.failed.title:
+    text: 升级包失败。
+upgrade.packages.failed:
+    text: 升级包失败。<a href="xxx">详细信息...</a>
+upgrade.packages.failed.dialog.title:
+    text: 升级包失败
+value.must.be.identifier:
+    text: 值必须是标识符
+value.must.not.be.empty:
+    text: 值不能为空
+value.should.be.integer:
+    text: 值应为整数
+warning.delete.all.files.and.subdirectories:
+    text: |4-
+
+        "{0}"中的所有文件和子目录将被删除。
+          您可能无法完全撤销此操作!
+warning.delete.all.files.and.subdirectories.in.the.selected.directory:
+    text: |4-
+
+        所选目录中的所有文件和子目录将被删除。
+          您可能无法完全撤销此操作!
+warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
+    text: "项目文件 ''{0}'' 已存在。"
+warning.text.0.do.you.want.to.overwrite.these.files:
+    text: '{0}覆盖{1,choice,1#该|2#这些}文件吗?'

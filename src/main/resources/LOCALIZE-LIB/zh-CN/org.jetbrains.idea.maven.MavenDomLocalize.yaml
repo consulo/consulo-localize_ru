@@ -1,0 +1,60 @@
+MavenDuplicateDependenciesInspection.has.duplicates:
+    text: '<html><body>依赖项在文件中重复 #treeend: {0} </body></html>'
+all.dependencies:
+    text: 所有依赖项
+children.poms.title:
+    text: 导航到子项目
+choose.project:
+    text: 选择项目
+chooser.show.project.files:
+    text: 项目文件
+dependencies.chooser.title:
+    text: 选择依赖项
+fix.create.module:
+    text: 创建模块
+fix.create.module.with.parent:
+    text: 通过父项创建模块
+fix.open.file:
+    text: "打开 ''{0}''"
+fix.parent.path:
+    text: 修复相对路径
+fix.update.indices:
+    text: 更新 Maven 索引
+generate.dependency:
+    text: 生成依赖项
+generate.dependency.template:
+    text: 依赖项模板
+generate.managed.dependency:
+    text: 管理型依赖项
+generate.parent:
+    text: 父项
+generate.plugin.template:
+    text: 插件模板
+generate.repository.template:
+    text: 仓库模板
+inspection.duplicate.dependencies.name:
+    text: 重复的依赖项
+inspection.group:
+    text: 安全性
+inspection.name:
+    text: 采用未加密协议的链接
+inspection.redundant.groupId.name:
+    text: 冗余 groupId
+intention.choose.file:
+    text: 选择文件
+navigate.children.poms.title:
+    text: 选择项目
+navigate.parent.dependency.title:
+    text: 选择要导航的目标依赖项
+navigate.parent.plugin.title:
+    text: 选择要导航的目标插件
+overriden.plugin.title:
+    text: "导航到 'pluginManagement' 部分"
+overriding.dependency.title:
+    text: 导航到依赖项用法
+overriding.plugin.title:
+    text: 导航到插件用法
+parent.pom.title:
+    text: 导航到父项
+refactoring.introduce.property:
+    text: 引入属性

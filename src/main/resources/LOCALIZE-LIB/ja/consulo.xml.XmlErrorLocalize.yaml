@@ -1,0 +1,132 @@
+add.attribute.value.quickfix.text:
+    text: 属性値を追加する
+attribute.is.not.allowed.here:
+    text: 属性 {0} はここでは使用できません
+attribute.is.not.boolean:
+    text: 属性{0}はブール値ではありません
+attribute.should.be.preceded.with.space:
+    text: 属性と以前の属性間にスペースが必要です
+attribute.value.expected:
+    text: 属性値が必要です
+cannot.resolve.taglib.uri:
+    text: uri {0} で taglib を解決できません
+cdata.end.should.not.appear.in.content.unless.to.mark.end.of.cdata.section:
+    text: "文字シーケンス']]>' はCDATAセクションの終わりに使用するため、内容に現れてはいけません"
+create.namespace.declaration.quickfix:
+    text: '{0}の宣言を作成します'
+create.tagfile.attribute.family:
+    text: タグファイル属性の作成
+create.tagfile.attribute.text:
+    text: タグファイル属性 {0} の作成
+declare.id.in.comment.quickfix:
+    text: コメントアノテーションで無効なIDを宣言
+duplicate.attribute:
+    text: 重複している属性 {0}
+duplicate.id.reference:
+    text: 重複している id 参照
+element.doesnt.have.required.attribute:
+    text: 要素 {0} には属性 {1} は必要ありません
+element.is.not.allowed.here:
+    text: 要素 {0} はここでは使用できません
+element.is.not.closed:
+    text: 要素が閉じられていません
+element.must.be.declared:
+    text: 要素 {0} は宣言されていなければなりません
+empty.attribute.is.not.allowed:
+    text: 空の属性 {0} は使用できません
+escape.ampersand.quickfix:
+    text: エスケープ アンパサンド
+expected.attribute.eq.sign:
+    text: "'=' が必要です"
+expected.prologue.tag.termination.expected:
+    text: "'?>' が必要です"
+expected.whitespace:
+    text: 空白が必要です
+extra.closing.tag.for.empty.element:
+    text: 余分な空の要素の閉じタグ
+insert.required.attribute.quickfix.family:
+    text: 必須属性の挿入
+insert.required.attribute.quickfix.text:
+    text: 必須属性 {0} の挿入
+invalid.id.reference:
+    text: 無効な id 参照
+jsp.directive.end.expected:
+    text: ディレクティブ end が必要です
+jsp.unparseable.content:
+    text: 解析できない内容
+looking.in.schemas:
+    text: 登録されたXMLスキーマで探す
+looking.in.tlds:
+    text: 利用可能なタグライブラリを探す
+named.element.is.not.closed:
+    text: 要素 {0} が閉じられていません
+quote.expected:
+    text: 引用符が必要です
+registered.resource.is.not.recognized:
+    text: このURIによって登録されたリソースが認識されていません ([設定] | [プロジェクト 設定] | Schemas and DTDs)
+remove.attribute.quickfix.family:
+    text: 属性を削除します
+remove.attribute.quickfix.text:
+    text: 属性 {0} を削除します
+remove.extra.closing.tag.quickfix:
+    text: 余分な閉じタグの削除
+rename.end.tag.name.intention:
+    text: 終了タグ名の変更
+rename.start.tag.name.intention:
+    text: 開始タグ名の変更
+select.namespace.location.title:
+    text: 名前空間の場所を選択してください
+should.have.fixed.value:
+    text: '{0}は固定値{1}を持つ必要があります'
+switch.to.html5.quickfix.text:
+    text: HTML5の言語レベルに切り替え
+tag.has.wrong.closing.tag.name:
+    text: 開始タグに間違った終了タグがあります
+tag.start.is.not.closed:
+    text: タグの開始が閉じられていません
+top.level.element.is.not.completed:
+    text: トップ レベルの要素が完了していません
+unbound.namespace:
+    text: "名前空間 ''{0}'' はバインドされていません"
+unbound.namespace.no.param:
+    text: 名前空間がバインドされていません
+unescaped.ampersand.or.nonterminated.character.entity.reference:
+    text: エスケープしていない \& または終了していない文字/エントリ参照
+unknown.encoding.0:
+    text: "不明なエンコード: ''{0}''"
+unknown.html.tag:
+    text: 不明な html タグ {0}
+uri.is.not.registered:
+    text: URI が未登録です ([設定] - [IDE 設定] - [リソース])
+wrong.closing.tag.name:
+    text: 不正な閉じタグ名
+wrong.root.element:
+    text: 不正なルート要素
+wrong.value:
+    text: 間違った{0}値
+xml.declaration.should.precede.all.document.content:
+    text: XML宣言は、文書の先頭にする必要があります
+xml.parsing.absent.root.tag:
+    text: XMLドキュメントは、ルートタグを持っている必要があります
+xml.parsing.attribute.value.expected:
+    text: 予想される属性値
+xml.parsing.closing.tag.matches.nothing:
+    text: 終了タグが一致しません
+xml.parsing.closing.tag.name.missing:
+    text: 終了タグ名が間違っています
+xml.parsing.multiple.root.tags:
+    text: 複数のルートタグ
+xml.parsing.processing.instruction.name.expected:
+    text: 予想される処理命令名
+xml.parsing.tag.name.expected:
+    text: 複数のルートタグ
+xml.parsing.unclosed.attribute.value:
+    text: 属性値が閉じられていません
+xml.parsing.unexpected.end.of.file:
+    text: 予期しないファイルの終わり
+xml.parsing.unexpected.token:
+    text: 予期しないトークン
+xml.parsing.unexpected.tokens:
+    text: 予期しないトークン
+xml.parsing.unterminated.processing.instruction:
+    text: 処理命令が終了していません

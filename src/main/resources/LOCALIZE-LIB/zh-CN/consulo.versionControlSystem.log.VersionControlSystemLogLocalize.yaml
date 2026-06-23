@@ -1,0 +1,6 @@
+graph.sort.linear.description:
+    text: 合并时，在主分支提交的顶部显示传入提交，就好像对它们进行变基
+graph.sort.off.description:
+    text: 按日期以拓扑方式对提交进行排序
+graph.sort.standard.description:
+    text: 合并时，首先显示传入提交(合并提交正下方)

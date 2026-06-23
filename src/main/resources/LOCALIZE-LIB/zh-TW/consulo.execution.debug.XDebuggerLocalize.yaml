@@ -1,0 +1,310 @@
+action.StreamTracerAction.text:
+    text: 跟踪當前流鏈
+action.interrupt.thread.text:
+    text: 中斷
+action.memory.view.settings.text:
+    text: 記憶體檢視設定
+action.next.frame.text:
+    text: 下一個幀
+action.previous.frame.text:
+    text: 上一個幀
+ad.extra.selection.shortcut:
+    text: '你也可以選取一個項目: {0}'
+breakpoints.dialog.create.new.group:
+    text: 新建…
+breakpoints.dialog.edit.description:
+    text: 編輯描述
+breakpoints.dialog.new.group:
+    text: 新建組
+breakpoints.dialog.new.group.name:
+    text: 新建組名稱
+breakpoints.dialog.no.group:
+    text: <無組>
+breakpoints.dialog.set.as.default:
+    text: 設定為預設值
+breakpoints.dialog.unset.as.default:
+    text: 重置為預設值
+button.text.code.fragment.mode:
+    text: 代碼片段模式(&M)
+button.text.expression.mode:
+    text: 表達模式(&M)
+debugger.configurable.display.name:
+    text: 診斷程式
+debugger.dataViews.display.name:
+    text: 資料檢視
+debugger.evaluate.expression.or.add.a.watch.hint:
+    text: 評估表達式({0})或添加監視({1})
+debugger.frames.not.available:
+    text: 幀是不可
+debugger.hotswap.display.name:
+    text: 熱切換
+debugger.no.breakpoints:
+    text: 沒有斷點
+debugger.no.results:
+    text: "輸入一個運算式，然後按'Enter'"
+debugger.no.watches:
+    text: 沒有觀察清單
+debugger.result.node.name:
+    text: 結果
+debugger.runner.start.action.text:
+    text: 診斷
+debugger.session.tab.console.content.name:
+    text: 主控台
+debugger.session.tab.frames.title:
+    text: 幀
+debugger.session.tab.log.content.name:
+    text: '日誌: {0}'
+debugger.session.tab.threads.title:
+    text: 主題
+debugger.session.tab.variables.title:
+    text: 變數
+debugger.session.tab.watches.title:
+    text: 手錶
+debugger.session.tab.watches.title.with.size:
+    text: 觀察清單（{0}）
+debugger.state.message.connected:
+    text: 已建立連接
+debugger.state.message.connecting:
+    text: 正在連接
+debugger.state.message.disconnected:
+    text: 已中斷
+debugger.stepping.display.name:
+    text: 步進
+debugger.threads.not.available:
+    text: 主題不可用
+debugger.variables.not.available:
+    text: 變數不可用
+dialog.title.evaluate.code.fragment:
+    text: 評估代碼片段
+done.action.text:
+    text: 完成
+exception.label:
+    text: 原因
+exception.tab.name:
+    text: 異常
+inspect.value.dialog.title:
+    text: "檢查 ''{0}''"
+load.value.task.error:
+    text: 無法載入值：{0}
+load.value.task.text:
+    text: 載入中值
+memory.instances.close.text:
+    text: 關閉
+memory.unable.to.get.instances.of.class:
+    text: 無法獲取類 {0} 的實例
+memory.view.empty.running:
+    text: 在中斷點停止，載入類列表
+memory.view.empty.stopped:
+    text: 類不可用
+memory.view.instances.dialog.title:
+    text: '{0} 的實例'
+memory.view.instances.dialog.title.warning:
+    text: '{0} 的實例。警告: {1}'
+memory.view.instances.warning.not.all.loaded:
+    text: 並非所有實例都會被載入(僅 {0})
+memory.view.load.classes:
+    text: 載入類
+memory.view.no.classes.loaded:
+    text: 未載入類。
+memory.view.table.column.name.class:
+    text: 類
+memory.view.table.column.name.count:
+    text: 計數
+memory.view.table.column.name.diff:
+    text: 差異
+multiple.chains.popup.title:
+    text: 找到多個鏈
+node.test.show.full.value:
+    text: … 檢視
+node.text.ellipsis.0.more.nodes.double.click.to.show:
+    text: … ({0} more {0, choice, 1#item|2#items}. 雙擊檢視)
+node.text.ellipsis.0.unknown.more.nodes.double.click.to.show:
+    text: …（雙擊檢視更多資料）
+node.text.ellipsis.truncated:
+    text: '… (長度: {0})'
+rule.name.group.by.file:
+    text: 按檔案群組
+scope.block:
+    text: 區塊
+scope.catch:
+    text: 捕捉
+scope.class:
+    text: 類別
+scope.closure:
+    text: 結束
+scope.global:
+    text: 全局
+scope.instance:
+    text: 實例
+scope.library:
+    text: 庫
+scope.local:
+    text: 本機
+scope.script:
+    text: 指令碼
+scope.with:
+    text: 用區塊
+setting.enable.auto.expressions.label:
+    text: 在變數檢視中啟用自動運算式
+setting.focus.app.on.breakpoint.label:
+    text: 重點套用斷點
+setting.hide.window.label:
+    text: 進程終止時隱藏診斷視窗
+setting.sort.alphabetically.label:
+    text: 按字母順序排序(&L)
+setting.value.tooltip.delay.label:
+    text: '&Value 提示延遲 (ms):'
+settings.scroll.to.center:
+    text: 捲動執行點到中心
+settings.show.tooltip.on.selection:
+    text: 顯示值提示代碼選取
+settings.show.value.tooltip:
+    text: 顯示值提示。
+settings.show.values.inline:
+    text: 顯示值內聯
+settings.show.window.label:
+    text: 顯示斷點診斷視窗
+settings.tooltip.label:
+    text: 如果禁用，使用「{0}「顯示/隱藏提示
+showReferring.dialog.title:
+    text: '{0} 的參照物件'
+stack.frame.loading.text:
+    text: 載入中...
+stream.debugger.dialog.flat.mode.button:
+    text: 扁平模式
+stream.debugger.dialog.split.mode.button:
+    text: 拆分模式
+stream.debugger.dialog.title:
+    text: 流跟踪
+stream.debugger.dialog.with.exception.title:
+    text: 流跟踪(發生異常)
+string.debugger.runner.description:
+    text: 診斷所選的設定
+suspend.policy.panel.all:
+    text: 全部(&A)
+suspend.policy.panel.makeDefault:
+    text: 設成預設值
+suspend.policy.panel.suspend:
+    text: 掛起
+suspend.policy.panel.thread:
+    text: 執行緒(&T)
+suspend.policy.panel.title:
+    text: 暫停政策
+tab.content.exception.thrown:
+    text: 沒有結果(拋出異常)
+tab.content.no.result:
+    text: 沒有這種流鏈的結果
+xbreakpoint.group.depends.on:
+    text: 取決於
+xbreakpoint.label.after.breakpoint.was.hit:
+    text: 經過斷點被擊中
+xbreakpoint.label.empty:
+    text: 選取一個斷點
+xbreakpoint.master.breakpoint.description:
+    text: '禁用,直到選取的斷點:'
+xbreakpoint.radio.disable.again:
+    text: 再次禁用
+xbreakpoint.radio.leave.enabled:
+    text: 繼續啟用
+xbreakpoint.reached.text:
+    text: '斷點達到:'
+xbreakpoint.tooltip.condition:
+    text: '條件:'
+xbreakpoint.tooltip.depends.on:
+    text: '依賴於:'
+xbreakpoint.tooltip.log.expression:
+    text: '登入運算式:'
+xbreakpoint.tooltip.log.message:
+    text: 日誌訊息：是
+xbreakpoint.tooltip.suspend.policy.all:
+    text: 暫停：所有
+xbreakpoint.tooltip.suspend.policy.none:
+    text: 暫停：無
+xbreakpoint.tooltip.suspend.policy.thread:
+    text: 暫停：執行緒
+xbreakpoints.conditions.group.title:
+    text: 條件
+xbreakpoints.dialog.button.add:
+    text: 新增...
+xbreakpoints.dialog.button.goto:
+    text: 轉到
+xbreakpoints.dialog.button.remove:
+    text: 刪除(&R)
+xbreakpoints.dialog.button.view.source:
+    text: 檢視來源檔案(&V)
+xbreakpoints.dialog.title:
+    text: 斷點
+xbreakpoints.enabled.label:
+    text: 啟用(&d)
+xbreakpoints.log.expression.checkbox:
+    text: 評估和記錄(&E)：
+xbreakpoints.log.message.checkbox:
+    text: 輸出日誌訊息到主控台(&M)
+xbreakpoints.properties.actions.group.title:
+    text: 操作
+xdebugger.attach.action:
+    text: 附加到進程...
+xdebugger.attach.action.items.error.message:
+    text: 無法獲得執行在主機上的進程清單
+xdebugger.attach.action.items.error.title:
+    text: 無法獲得進程
+xdebugger.attach.popup.recent:
+    text: 最近的
+xdebugger.attach.popup.selectDebugger.title:
+    text: 診斷器
+xdebugger.attach.toLocal.action:
+    text: 連接到本機資料流程...
+xdebugger.attach.toLocal.action.collectingProcesses:
+    text: 收集過程中...
+xdebugger.attach.toLocal.popup.recent:
+    text: 最近的
+xdebugger.building.tree.node.message:
+    text: 收集資料...
+xdebugger.colors.page.name:
+    text: 診斷程式
+xdebugger.debugger.tab.title:
+    text: 診斷程式
+xdebugger.default.content.title:
+    text: 診斷
+xdebugger.dialog.title.evaluate.expression:
+    text: 計算運算式
+xdebugger.disable.breakpoint.action.text:
+    text: 禁用斷點
+xdebugger.drag.text.0.elements:
+    text: '{0}的元素'
+xdebugger.drop.text.add.to.watches:
+    text: 新增到觀察清單
+xdebugger.enable.breakpoint.action.text:
+    text: 啟用斷點
+xdebugger.evaluate.addtowatches.hint:
+    text: 使用 {0} 新增到觀察清單
+xdebugger.evaluate.dialog.close:
+    text: 關閉
+xdebugger.evaluate.history.hint:
+    text: 顯示歷史
+xdebugger.evaluate.label.expression:
+    text: '運算式:'
+xdebugger.evaluate.label.result:
+    text: '結果:'
+xdebugger.evaluate.language.hint:
+    text: 點擊變更語言
+xdebugger.evaluate.result:
+    text: 結果
+xdebugger.evaluate.stack.frame.has.not.evaluator:
+    text: 不能評價，目前堆疊幀不支援評價
+xdebugger.evaluating.expression.node.message:
+    text: 評估...
+xdebugger.label.text.code.fragment:
+    text: '代碼片段:'
+xdebugger.modifiyng.value.node.message:
+    text: 修改值...
+xdebugger.popup.value.tree.set.root.action.tooltip:
+    text: 設為根
+xdebugger.remove.line.breakpoint.action.text:
+    text: 刪除斷點
+xdebugger.view.breakpoint.edit.action:
+    text: 編輯(&E)
+xdebugger.view.breakpoint.properties.action:
+    text: 屬性
+xdebugger.view.breakpoint.reveal.action:
+    text: 顯示斷點對話方塊

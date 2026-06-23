@@ -1,0 +1,150 @@
+action.analysis.noun:
+    text: 분석
+action.analyze.verb:
+    text: 분석
+action.backward.dependency.analysis:
+    text: 역방향 종속성 분석
+action.close.dependency.description:
+    text: 종속성 뷰어 닫기
+action.edit.rules:
+    text: 규칙 편집
+action.edit.rules.description:
+    text: 종속성 규칙 편집
+action.flatten.packages:
+    text: 패키지 병합
+action.forward.dependency.analysis:
+    text: 종속성 분석
+action.group.by.scope.type:
+    text: 범위 타입별 그룹화
+action.group.by.scope.type.description:
+    text: 범위 타입별(프로덕션, 테스트, 라이브러리) 그룹화
+action.module.dependencies.direction:
+    text: 역방향 종속성 (사용처)
+action.rerun.dependency:
+    text: 종속성 분석 재실행
+action.select.in.left.tree:
+    text: 왼쪽 트리에서 선택
+action.select.in.left.tree.description:
+    text: 왼쪽 트리에서 선택(종속성을 찾아볼 위치)
+action.show.files:
+    text: 파일 표시
+action.show.files.description:
+    text: 파일 표시/숨기기
+action.show.illegals.only:
+    text: 잘못된 항목만 표시
+action.show.illegals.only.description:
+    text: 잘못된 종속성이 있는 파일만 표시
+action.show.modules:
+    text: 모듈 표시
+action.show.modules.description:
+    text: 모듈 표시/숨기기
+analysis.scope.title:
+    text: '{0} 범위'
+backward.dependencies.progress.text:
+    text: 역방향 종속성 분석 중
+backward.dependencies.toolwindow.title:
+    text: '{0}의 역방향 종속성'
+backward.dependencies.usage.view.initial.text:
+    text: 오른쪽 트리에서 검색할 위치를 선택하고 왼쪽 트리에서 검색할 대상을 선택하세요.
+backward.dependencies.usage.view.root.node.text:
+    text: 오른쪽 트리 범위 선택 내에서 왼쪽 트리 범위 선택의 사용 사례
+dependencies.libraries.node.text:
+    text: 라이브러리
+dependency.configurable.allow.table.column1:
+    text: '다음의 사용 허용:'
+dependency.configurable.allow.table.column2:
+    text: '다음 위치에서만:'
+dependency.configurable.deny.table.column1:
+    text: '다음의 사용 거부:'
+dependency.configurable.deny.table.column2:
+    text: '위치:'
+dependency.configurable.display.name:
+    text: 종속성 검증
+find.dependencies.progress.text:
+    text: '다음에서 사용처 검색 중: {0}'
+forward.dependencies.usage.view.initial.text:
+    text: 왼쪽 트리에서 검색할 위치를 선택하고 오른쪽 트리에서 검색할 대상을 선택하세요.
+forward.dependencies.usage.view.root.node.text:
+    text: 왼쪽 트리 범위 선택 내에서 오른쪽 트리 범위 선택의 사용 사례
+local.scopes.node.text:
+    text: 로컬 범위
+mark.dependency.illegal.text:
+    text: 잘못된 것으로 표시
+module.dependencies.cycle.node.text:
+    text: 사이클 {0}
+module.dependencies.scope.dialog.module.button:
+    text: "모듈 ''{0}'' 검사(&M)"
+module.dependencies.scope.dialog.project.button:
+    text: 전체 프로젝트 검사(&P)
+module.dependencies.scope.dialog.title:
+    text: 분석 범위 지정
+no.dependencies.found.message:
+    text: '{1}에 대한 {0}의 종속성을 찾을 수 없습니다.'
+package.dependencies.build.process.title:
+    text: 패키지 스캔 중
+package.dependencies.build.progress.text:
+    text: 패키지 스캔 중
+package.dependencies.library.node.text:
+    text: 라이브러리 클래스
+package.dependencies.node.items.count:
+    text: '{0, choice, 1#1개 항목|2#{0, number}개 항목}'
+package.dependencies.on.toolwindow.title:
+    text: '{1}에 대한 {0}의 종속성'
+package.dependencies.progress.text:
+    text: 패키지 종속성 분석 중
+package.dependencies.progress.title:
+    text: 종속성 분석 중
+package.dependencies.toolwindow.title:
+    text: '{0}의 종속성'
+predefined.scope.problems.name:
+    text: 문제
+scanning.scope.progress.title:
+    text: 범위 스캔 중…
+scope.directory:
+    text: "디렉터리 ''{0}''"
+scope.display.name.allow.scope:
+    text: "범위 ''{1}''에서 범위 ''{0}''의 사용 허용"
+scope.display.name.deny.scope:
+    text: "범위 ''{1}''에서 범위 ''{0}''의 사용 거부"
+scope.file:
+    text: "파일 ''{0}''"
+scope.module.list:
+    text: '{1, choice, 1#모듈|2#모듈} {0}'
+scope.option.analyze.injected.code:
+    text: 주입된 코드 검사(&J)
+scope.option.custom:
+    text: '사용자 정의 범위(&C):'
+scope.option.include.test.sources:
+    text: 테스트 소스 포함(&T)
+scope.option.module:
+    text: "모듈 ''{0}''"
+scope.option.module.with.mnemonic:
+    text: "모듈 ''{0}''(&M)"
+scope.option.uncommitted.files:
+    text: 커밋되지 않은 파일(&U)
+scope.option.uncommitted.files.all.changelists.choice:
+    text: 전체
+scope.option.whole.project:
+    text: 전체 프로젝트(&P)
+scope.project:
+    text: "프로젝트 ''{0}''"
+scope.selected.files:
+    text: 선택된 파일 {0,choice,1#파일|2#파일}
+scope.virtual.files:
+    text: 선택 항목
+skip.import.statements.checkbox.title:
+    text: 가져오기 문 건너뛰기
+specify.analysis.scope:
+    text: '{0} 범위 지정'
+status.bar.no.rule.violation.message:
+    text: 위반된 규칙이 없습니다
+status.bar.rule.violation.message:
+    text: '다음 규칙{0, choice, 1#이|2#들이} 위반되었습니다: {1}'
+unknown.node.text:
+    text: <알 수 없음>
+update.module.tree.progress.text:
+    text: "모듈 ''{0}'' 사이클 처리 중"
+update.module.tree.progress.title:
+    text: 모듈 트리 업데이트 중
+usage.view.canceled:
+    text: 취소됨

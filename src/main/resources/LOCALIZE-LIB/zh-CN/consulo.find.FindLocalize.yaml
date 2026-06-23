@@ -1,0 +1,337 @@
+0.occurrences.replaced:
+    text: 已替换 {0,choice,0#0 |1#{0}} 个{0,choice,0#匹配项|1#匹配项|2#匹配项}
+button.exclude:
+    text: 排除
+button.include:
+    text: 包含
+cannot.search.for.usages.title:
+    text: 不能搜索使用
+empty.text.searching:
+    text: 正在搜索…
+find.all.button:
+    text: 查找所有(&A)
+find.button:
+    text: 查找
+find.case.sensitive:
+    text: 区分大小写(&C)
+find.context.anywhere.scope.label:
+    text: 任何地方
+find.context.combo.label:
+    text: '环境:'
+find.context.except.comments.and.literals.scope.label:
+    text: 除了注释和字符串
+find.context.except.comments.scope.label:
+    text: 排除注释
+find.context.except.literals.scope.label:
+    text: 排除字符串
+find.context.in.comments.scope.label:
+    text: 注释
+find.context.in.literals.scope.label:
+    text: 字符串
+find.dialog.find.button:
+    text: 查找
+find.direction.backward.radio:
+    text: 向后
+find.direction.forward.radio:
+    text: 向前
+find.direction.group:
+    text: 方向
+find.directory.not.found.error:
+    text: 目录未找到
+find.empty.match.regular.expression.error:
+    text: 正则表达式匹配空字符串
+find.empty.search.text.error:
+    text: 没有输入搜索内容
+find.excessive.total.size.prompt:
+    text: 发现文件中的总大小为 {0}。如果继续操作，{1} 可能会变得无响应甚至崩溃并出现 OutOfMemoryError 错误。是否继续?
+find.field.accessors.prompt:
+    text: "搜索字段 ''{0}'' 的访问器?"
+find.field.accessors.title:
+    text: 搜索访问器
+find.filter.empty.file.mask.error:
+    text: 空文件掩码
+find.filter.file.mask.checkbox:
+    text: 文件掩码 (&K)
+find.filter.file.name.group:
+    text: 文件名筛选器
+find.filter.invalid.file.mask.error:
+    text: 错误的文件掩码“{0}”
+find.highlight.no.more.highlights.found:
+    text: 没有发现更多的高亮
+find.in.path.dialog.title:
+    text: 在文件中查找
+find.invalid.regular.expression.error:
+    text: '错误的模式“{0}”: {1}'
+find.new.line:
+    text: 新行
+find.no.usages.at.cursor.error:
+    text: |-
+        无法从此位置搜索用法。
+        请将文本光标放在要查找其用法的元素上，然后重试。
+find.open.in.new.tab.action:
+    text: 在新标签页中打开结果(&B)
+find.open.in.new.tab.checkbox:
+    text: 在新标签打开 (&B)
+find.options.case.sensitive:
+    text: 区分大小写(&C)
+find.options.comments.only:
+    text: 仅注释(&E)
+find.options.include.overloaded.methods.checkbox:
+    text: 重载方法(&V)
+find.options.regular.expressions:
+    text: 正则表达式(&G)
+find.options.replace.preserve.case:
+    text: 保留大小写 (&E)
+find.options.search.for.text.occurrences.checkbox:
+    text: 文本匹配项(&O)
+find.options.skip.results.tab.with.one.occurrence.checkbox:
+    text: 查找只有一个结果时跳过结果列表页
+find.options.skip.results.tab.with.one.usage.checkbox:
+    text: 跳过包含一个用法的结果标签页(&K)
+find.options.string.literals.only:
+    text: 只有字符串文本(&T)
+find.options.whole.words.only:
+    text: 只有整个单词（可能更快）(&W)
+find.origin.entire.scope.radio:
+    text: 整个作用域
+find.origin.from.cursor.radio:
+    text: 从光标位置
+find.origin.group:
+    text: 从开始位置
+find.pointcut.applications.not.found.title:
+    text: 信息
+find.popup.case.sensitive:
+    text: 区分大小写(&C)
+find.popup.filemask:
+    text: '文件掩码(&A):'
+find.popup.find.button:
+    text: 打开查找窗口
+find.popup.replace.all.button:
+    text: 替换全部 (&A)
+find.popup.replace.selected.button:
+    text: 替换{0,choice,0#|1#|2# {0}个发现项}
+find.popup.scope.directory:
+    text: 目录 (&D)
+find.popup.scope.module:
+    text: 模块 (&M)
+find.popup.scope.project:
+    text: 在项目 (&P)
+find.popup.scope.scope:
+    text: 作用域(&S)
+find.popup.show.filter.popup:
+    text: 筛选搜索结果
+find.popup.show.tab.options:
+    text: 显示 Tab 选项
+find.progress.search.completed:
+    text: 搜索完成
+find.progress.searching.message:
+    text: 正在搜索{0}…
+find.progress.stop.background.button:
+    text: 停止后台搜索
+find.progress.stop.title:
+    text: 停止
+find.recursively.hint:
+    text: 在子目录中递归搜索
+find.regex:
+    text: 正则表达式(&X)
+find.replace.accessible.name:
+    text: 替换
+find.replace.all.action:
+    text: 全部替换 (&A)
+find.replace.all.confirmation:
+    text: "<html><body>是否将 {2} 个文件中 ''{1}'' 的<br>{0}匹配项替换为 ''{3}''?"
+find.replace.all.confirmation.title:
+    text: 替换全部
+find.replace.command:
+    text: 替换
+find.replace.dialog.title:
+    text: 替换
+find.replace.history:
+    text: 替换历史记录
+find.replace.in.project.dialog.title:
+    text: 在文件中替换
+find.replace.invalid.replacement.string:
+    text: "您输入格式错误的替换字符串:''{0}''"
+find.replace.invalid.replacement.string.title:
+    text: 替换错误
+find.replace.occurrences.found.in.read.only.files.status:
+    text: 在只读文件中找到匹配项
+find.replace.occurrences.in.read.only.files.prompt:
+    text: |-
+        在只读文件中找到的匹配项。
+        该操作不会影响他们。
+        是否继续？
+find.replace.occurrences.in.read.only.files.title:
+    text: 找到的只读文件
+find.replace.select.on.editor.command:
+    text: 在编辑器中选择
+find.replace.selected.action:
+    text: 替换{0,choice,0#|1#|2# {0} 发现项} (&R)
+find.replace.text.dialog.title:
+    text: 替换文本
+find.replace.with.label:
+    text: '替换为(&R):'
+find.scope.all.project.classes:
+    text: 所有项目类
+find.scope.all.projects.radio:
+    text: 所有项目
+find.scope.custom.radio:
+    text: '自定义(&S):'
+find.scope.directory.radio:
+    text: '目录:'
+find.scope.directory.recursive.checkbox:
+    text: 递归 (&Y)
+find.scope.directory.title:
+    text: 目录{0}
+find.scope.files.with.mask:
+    text: "使用掩码''{0}''"
+find.scope.global.radio:
+    text: 全部的
+find.scope.group:
+    text: 作用域
+find.scope.label:
+    text: '作用域(&S):'
+find.scope.module.radio:
+    text: '模块:'
+find.scope.module.title:
+    text: "模块 ''{0}''"
+find.scope.project.radio:
+    text: 项目
+find.scope.project.title:
+    text: 项目
+find.scope.selected.text.radio:
+    text: 选中的文本
+find.scope.whole.project.radio:
+    text: 整个项目
+find.search.accessible.name:
+    text: 搜索
+find.search.again.from.bottom.action.message:
+    text: '{0}，执行“查找上一个”以再次从底部搜索'
+find.search.again.from.bottom.hotkey.message:
+    text: '{0}，按 {1} 从底部搜索'
+find.search.again.from.top.action.message:
+    text: '{0}，执行“查找下一个”以再次从顶部搜索'
+find.search.again.from.top.hotkey.message:
+    text: '{0}，按 {1} 从顶部搜索'
+find.search.history:
+    text: 搜索历史记录
+find.search.string.not.found.message:
+    text: “{0}”未找到
+find.searched.elements.have.been.changed.error:
+    text: 搜索的元素已被更改。无法搜索用法。
+find.searching.for.references.to.class.progress:
+    text: 正在查找对类 {0} 的引用…
+find.searching.for.string.in.file.occurrences.progress:
+    text: 目前找到 {0,choice,0#0|1#{0}} 个{0,choice,0#匹配项|1#匹配项|2#匹配项}
+find.searching.for.string.in.file.progress:
+    text: "在{1}中搜索''{0}''…"
+find.selection.only:
+    text: 在所选内容中搜索
+find.super.method.warning.action.verb:
+    text: 查找用法
+find.text.dialog.title:
+    text: 查找文本
+find.text.to.find.label:
+    text: '要查找的文本(&F):'
+find.usage.view.no.usages.text:
+    text: 未找到任何用法
+find.usage.view.tab.text:
+    text: "''{0}''{1}的匹配项"
+find.usage.view.toolwindow.title:
+    text: "{1}{2}中''{0}''的匹配项"
+find.usage.view.usages.text:
+    text: "出现的 ''{0}''"
+find.usages.ambiguous.title:
+    text: 查找使用的
+find.usages.dialog.title:
+    text: 查找用法
+find.usages.in.file.dialog.title:
+    text: 在文件中查找用法
+find.usages.of.element.in.scope.panel.title:
+    text: '{0} ({1} 内)'
+find.usages.of.element.tab.name:
+    text: '{1}的{0}'
+find.usages.of.element_type.element_name.not.found.message:
+    text: 没有找到被{0}{1}的用法
+find.usages.panel.title.derived.classes:
+    text: 派生类
+find.usages.panel.title.derived.interfaces:
+    text: 派生接口
+find.usages.panel.title.implementing.classes:
+    text: 实现类
+find.usages.panel.title.implementing.methods:
+    text: 实现方法
+find.usages.panel.title.overloaded.methods.usages:
+    text: 重载方法
+find.usages.panel.title.overriding.methods:
+    text: 重写方法
+find.what.derived.classes.checkbox:
+    text: 派生类(&D)
+find.what.derived.interfaces.checkbox:
+    text: 派生接口(&D)
+find.what.fields.usages.checkbox:
+    text: 字段的用法(&F)
+find.what.group:
+    text: '查找:'
+find.what.implementing.classes.checkbox:
+    text: 实现类(&I)
+find.what.implementing.methods.checkbox:
+    text: 实现方法(&I)
+find.what.implicit.to.string.checkbox:
+    text: 隐式调用(&M)
+find.what.methods.usages.checkbox:
+    text: 方法的用法 (&M)
+find.what.overriding.methods.checkbox:
+    text: 重写方法(&R)
+find.what.usages.checkbox:
+    text: 用法(&U)
+find.what.usages.of.classes.and.interfaces:
+    text: 类和接口的用法 (&C)
+find.whole.words:
+    text: 单词(&W)
+found.occurrences:
+    text: 在{0}中找到匹配项
+label.use.0.and.1.to.select.usages:
+    text: 使用 {0} 和 {1} 选择用法
+link.click.to.highlight:
+    text: 点击以高亮显示
+message.file.masks.should.be.comma.separated:
+    text: 文件掩码应以逗号分隔
+message.nothingFound:
+    text: 找不到任何内容
+message.nothingFound.clearAll:
+    text: 清除所有选项
+message.nothingFound.used.options:
+    text: '搜索已用选项:'
+notification.content.one.or.more.malformed.replacement.strings:
+    text: 一个或多个格式错误的替换字符串
+notification.find.usages.is.not.available.during.indexing:
+    text: 索引编制期间无法查找用法
+notification.title.regular.expression.failed.to.match:
+    text: 正则表达式匹配失败
+progress.text.scanning.indexed.files:
+    text: 正在扫描已编制索引的文件…
+progress.text.scanning.non.indexed.files:
+    text: 正在扫描未编制索引的文件…
+progress.title.finding.usages:
+    text: 正在查找用法
+progress.title.updating.usage.view:
+    text: 正在更新用法视图…
+recent.find.usages.action.nothing:
+    text: 没有发现最近的用法条目
+recent.find.usages.action.popup:
+    text: "{0} ''{1}''在{2}"
+recent.find.usages.action.title:
+    text: 最近的查找用法
+results.options.group:
+    text: 结果选项
+se.text.header.action.all.filetypes:
+    text: 所有文件类型
+select.next.occurence.not.found.message:
+    text: 找不到，重新尝试从顶部搜索
+show.in.find.window.button.description:
+    text: 在查找工具窗口中打开搜索结果
+show.in.find.window.button.name:
+    text: 在查找工具窗口中打开
+tooltip.close.search.bar.escape:
+    text: 关闭搜索栏(Esc 键)

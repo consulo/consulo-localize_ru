@@ -1,0 +1,190 @@
+action.compiler.properties.text:
+    text: 编译器属性
+action.description.package.file:
+    text: 更新对应工件中的文件
+action.make.selected.modules.text:
+    text: 构建选定的模块 (_M)
+action.name.exclude.from.validation:
+    text: 从验证中排除
+action.name.package.file:
+    text: 打包文件
+action.name.package.files:
+    text: 打包文件
+actions.exclude.from.compile.text:
+    text: 从编译中排除
+artifact.type.plain:
+    text: 其他
+artifacts.menu.item.all:
+    text: 所有工件
+artifacts.menu.item.build:
+    text: 构建
+artifacts.menu.item.clean:
+    text: 清理
+artifacts.menu.item.edit:
+    text: 编辑…
+artifacts.menu.item.rebuild:
+    text: 重新构建
+bad.resource.patterns.dialog.title:
+    text: 格式不正确的资源模式
+build.artifacts.before.run.description.empty:
+    text: 编译 Artifacts
+build.artifacts.before.run.description.multiple:
+    text: 编译 {0} artifacts
+build.artifacts.before.run.description.single:
+    text: "构建 ''{0}'' 工件"
+build.artifacts.before.run.selector.title:
+    text: 编译 Artifacts
+chooser.description.select.output.directory.for.0.artifact:
+    text: "选择''{0}'' artifact的输出目录"
+classes.up.to.date.check:
+    text: 类最新状态检查
+compiler.configurable.display.name:
+    text: 编译器
+compiler.content.name.make:
+    text: 构建
+compiler.error.failed.to.delete:
+    text: 无法删除 {0}
+compiler.results.export.text.prefix:
+    text: 行 ({0})
+compiler.running.dialog.title:
+    text: 编译器运行中
+dialog.message.output.dir.artifact:
+    text: "''{0}'' 工件(''{1}'')"
+dialog.message.output.dir.contains.source.roots:
+    text: "''{1}'' 工件的输出目录 ''{0}'' 包含项目的源根。是否继续并将其清除?"
+dialog.message.output.dirs.contain.source.roots:
+    text: |-
+        以下工件的输出目录包含源根:
+        {0}是否要继续并清除这些目录?
+dialog.title.choose.artifacts:
+    text: 选择 Artifacts
+dialog.title.output.directory.for.artifact:
+    text: Artifact输出目录
+element.type.name.artifact:
+    text: 工件
+element.type.name.directory:
+    text: 目录
+element.type.name.library.files:
+    text: 库文件
+element.type.name.module.output:
+    text: 模块输出
+element.type.name.module.test.output:
+    text: 模块测试输出
+error.bad.resource.patterns:
+    text: 以下资源模式格式错误:{0}
+error.chunk.modules.must.have.same.jdk:
+    text: |-
+        以下模块必须具有相同的 JDK 分配，因为它们之间的循环依赖关系:
+        {0}
+        请更新模块配置
+error.chunk.modules.must.have.same.language.level:
+    text: |-
+        以下模块必须具有相同的语言级别，因为它们之间存在循环依赖关系:
+        {0}
+        请更新模块配置
+error.compiler.configurable.malformed.patterns:
+    text: |-
+        以下资源模式格式错误:
+        {0}
+error.javac.out.of.memory:
+    text: 内存不足。在“项目属性|编译器”设置中增加最大堆大小。
+error.output.not.specified:
+    text: 没有为{0,choice, 1#模块|2#模块} {1} 指定输出路径
+exclude.from.compile.table.path.column.name:
+    text: 路径
+exclude.from.compile.table.recursively.column.name:
+    text: 递归
+java.compiler.description:
+    text: Java编译器
+java.compiler.option.additional.command.line.parameters:
+    text: '附加命令行形参:'
+java.compiler.option.generate.debugging.info:
+    text: 生成调试信息
+java.compiler.option.generate.no.warnings:
+    text: 不生成警告
+java.compiler.option.report.deprecated:
+    text: 报告使用弃用的功能
+javac.options.group.title:
+    text: Javac 选项
+label.option.autoshow.first.error:
+    text: 在编辑器中自动显示错误 (&E)
+label.option.clear.output.directory.on.rebuild:
+    text: 在重新构建时清除输出目录 (&L)
+label.option.resource.patterns.text:
+    text: '资源模式:'
+label.text.class.path:
+    text: '类路径 (&P):'
+label.text.main.class:
+    text: '主类 (&M):'
+mesage.text.deployment.descriptor.file.not.exist:
+    text: "部署描述符文件 ''{0}'' 不存在"
+message.category.error:
+    text: 错误
+message.category.information:
+    text: 信息
+message.category.statistics:
+    text: 统计
+message.category.warning:
+    text: 警告
+message.resource.patterns.format.changed:
+    text: "资源模式的格式已更改。\n{0} 无法转换现有的正则表达式模式:\n{1}\n请以新格式输入模式字符串。\n每个资源模式可以包含以下通配符:\n? - 一个字符\n* - 零个或多个字符\n使用 ; (分号)来分隔资源模式；\n使用反斜杠(“\\”)转义“!”字符。\n您可能还需要修改模板项目设置。\n按 ''{2}'' 接受输入的模式，按 ''{3}'' 以新格式加载默认模式。"
+message.text.deployment.description.invalid.file:
+    text: 无效文件
+message.text.error.copying.file.to.file:
+    text: "将文件 ''{0}'' 复制到 ''{1}'' 时出错。"
+message.text.xml.file.invalid:
+    text: "XML文件 ''{0}'' 无效"
+no.excludes:
+    text: 不排除
+no.validators:
+    text: 没有验证器可用
+node.text.0.directory.content:
+    text: "''{0}'' 目录内容"
+option.use.compiler.text:
+    text: '使用编译器:'
+packaging.element.text.output.root:
+    text: <输出根>
+pattern.conversion.dialog.title:
+    text: 模式转换
+popup.title.chosen.artifact.action:
+    text: '{0,choice,0#{0} 个工件|1#|2# {0} 个工件}的操作'
+progress.compiling.class:
+    text: 编译 {0}…
+progress.executing.postcompile.tasks:
+    text: 执行后编译任务…
+progress.executing.precompile.tasks:
+    text: 执行预编译任务…
+progress.loading.classes:
+    text: 加载类…
+progress.parsing.file:
+    text: 解析 {0}…
+progress.updating.caches:
+    text: 更新缓存…
+rebuild.lvcs.label.no.errors:
+    text: "''{0}''没有错误"
+rebuild.lvcs.label.with.errors:
+    text: "''{0}''没有错误"
+rmi.compiler.description:
+    text: RMI编译器
+rmic.option.enable.rmi.stubs:
+    text: 启用RMI存根生成
+rmic.option.generate.iiop.stubs:
+    text: 生成IIOP存根
+status.all.up.to.date:
+    text: 所有文件都处于最新状态
+status.compilation.aborted:
+    text: 编译中止
+status.compilation.completed.successfully:
+    text: 构建在 {0}内成功完成
+status.compilation.completed.successfully.with.warnings:
+    text: 在 {1}内成功完成编译，包含 {0} 个{0,choice, 0#警告|1#警告|2#警告}
+status.compilation.completed.successfully.with.warnings.and.errors:
+    text: 在 {2}内成功完成编译，包含 {0} 个{0,choice, 0#错误|1#错误|2#错误}和 {1} 个{1,choice, 0#警告|1#警告|2#警告}
+status.text.file.has.been.packaged:
+    text: '{0, choice, 1#文件|2#文件} {1} {0, choice, 1#已|2#已}在 {2} 打包。'
+validation.display.name:
+    text: 验证
+warning.compiler.running.on.toolwindow.close:
+    text: 编译器正在运行。将其终止?
+warning.text.file.has.been.changed:
+    text: 文件在编译期间已更改，跳过检查验证

@@ -1,0 +1,260 @@
+0.already.extends.1.and.will.not.compile.after.converting.2.to.a.class:
+    text: '{0}, які рэалізуе {2}, ужо пашырае {1} і не будзе кампілявацца пасля пераўтварэння {2} у клас'
+0.is.declared.in.1.but.when.public.should.be.declared.in.a.file.named.2:
+    text: "{0} аб'яўлены ў {1}, але пры public павінен быць аб'яўлены ў файле з імем {2}"
+0.will.have.incompatible.access.privileges.with.overriding.1:
+    text: '{0} будзе мець несумяшчальныя правы доступу з {1}, які пераазначае'
+0.will.have.incompatible.access.privileges.with.super.1:
+    text: '{0} будзе мець несумяшчальныя правы доступу з super {1}'
+0.will.no.longer.be.visible.from.overriding.1:
+    text: '{0} больш не будзе бачны з {1}, які пераазначае'
+adapter.to.listener.intention.family.name:
+    text: Замяніць пашырэнне адаптара на рэалізацыю слухача
+adapter.to.listener.intention.name:
+    text: "Замяніць пашырэнне ''{0}'' на рэалізацыю ''Listener''"
+annotate.overridden.methods.intention.family.name:
+    text: Анатаваць пераазначальныя метады і іх параметры
+annotate.overridden.methods.intention.method.name:
+    text: "Анатаваць пераазначальныя метады як ''{0}''"
+annotate.overridden.methods.intention.parameters.name:
+    text: "Анатаваць аднолькавыя параметры пераазначальных метадаў як ''{0}''"
+change.to.c.style.comment.intention.family.name:
+    text: Замяніць на блочны каментарый
+change.to.c.style.comment.intention.name:
+    text: Замяніць на блочны каментарый
+change.to.end.of.line.comment.intention.family.name:
+    text: Замяніць на каментарый у канцы радка
+change.to.end.of.line.comment.intention.name:
+    text: Замяніць на каментарый у канцы радка
+change.variable.type.to.rhs.type.intention.family.name:
+    text: Змяніць тып пераменнай на тып ініцыялізатара
+change.variable.type.to.rhs.type.intention.name:
+    text: "Аб'явіць ''{0}'' з тыпам ''{1}''"
+char.to.string.intention.family.name:
+    text: Замяніць сімвал на радок
+char.to.string.intention.name:
+    text: Замяніць сімвальны літарал на радок
+constant.expression.intention.name:
+    text: "Вылічыць канстантнае значэнне ''{0}''"
+constant.subexpression.intention.family.name:
+    text: Вылічыць канстантнае значэнне для падвыразу
+convert.catch.to.throws.intention.family.name:
+    text: "Замяніць секцыю catch на аб'яўленне throws"
+convert.catch.to.throws.intention.name:
+    text: "Замяніць секцыю 'catch' на аб'яўленне 'throws'"
+convert.integer.to.binary.intention.family.name:
+    text: Пераўтварыць у двайковы
+convert.integer.to.binary.intention.name:
+    text: Пераўтварыць у двайковы
+convert.integer.to.decimal.intention.family.name:
+    text: Пераўтварыць у дзесятковы
+convert.integer.to.decimal.intention.name:
+    text: Пераўтварыць у дзесятковы
+convert.integer.to.hex.intention.family.name:
+    text: Пераўтварыць у шаснаццатковы
+convert.integer.to.hex.intention.name:
+    text: Пераўтварыць у шаснаццатковы
+convert.integer.to.octal.intention.family.name:
+    text: Пераўтварыць у васьмярковы
+convert.integer.to.octal.intention.name:
+    text: Пераўтварыць у васьмярковы
+convert.interface.to.class.intention.family.name:
+    text: Пераўтварыць інтэрфейс у клас
+convert.interface.to.class.intention.name:
+    text: "Преобразовать в 'class'"
+convert.to.nested.if.intention.family.name:
+    text: Разгарнуць булева выраз у некалькі if
+convert.to.nested.if.intention.name:
+    text: "Преобразовать в несколько 'if'"
+copy.concatenated.string.to.clipboard.intention.family.name:
+    text: Капіраваць тэкст канкатэнацыі радкоў у буфер абмену
+copy.concatenated.string.to.clipboard.intention.name:
+    text: Капіраваць тэкст канкатэнацыі радкоў у буфер абмену
+create.assert.intention.family.name:
+    text: Создать JUnit assertion
+create.assert.intention.name:
+    text: Создать JUnit assertion
+demorgans.intention.family.name:
+    text: Законы де Моргана
+demorgans.intention.name1:
+    text: "Замяніць '\\&\\&' на '||'"
+demorgans.intention.name2:
+    text: "Замяніць '||' на '\\&\\&'"
+detail.exceptions.intention.family.name:
+    text: Дэталізаваць выключэнні
+detail.exceptions.intention.name:
+    text: Дэталізаваць выключэнні
+expand.boolean.intention.family.name:
+    text: Разгарнуць булева выраз
+extract.increment.intention.family.name:
+    text: Выняць інкрэмент
+extract.increment.intention.name:
+    text: "Выняць ''{0}''"
+extract.while.loop.condition.to.if.statement.intention.family.name:
+    text: Выняць умову цыкла while ва ўнутраны if
+extract.while.loop.condition.to.if.statement.intention.name:
+    text: "Выняць умову ва ўнутраны 'if'"
+flip.assert.literal.intention.family.name:
+    text: Інвертаваць літарал assert
+flip.commutative.method.call.intention.family.name:
+    text: Інвертаваць камутатыўны выклік метаду
+flip.commutative.method.call.intention.name:
+    text: "Інвертаваць ''.{0}()''"
+flip.commutative.method.call.intention.name1:
+    text: "Інвертаваць ''.{0}()'' (можа змяніць семантыку)"
+flip.comparison.intention.family.name:
+    text: Інвертаваць параўнанне
+flip.comparison.intention.name:
+    text: "Інвертаваць ''{0}'' у ''{1}''"
+flip.conditional.intention.family.name:
+    text: Інвертаваць умоўны выраз
+flip.conditional.intention.name:
+    text: "Інвертаваць '?:'"
+flip.conjunction.intention.family.name:
+    text: "Інвертаваць аперанды кан'юнкцыі"
+flip.expression.intention.family.name:
+    text: Інвертаваць бінарны выраз
+flip.setter.call.intention.family.name:
+    text: Інвертаваць выклік сетара
+flip.smth.intention.name:
+    text: "Інвертаваць ''{0}''"
+flip.smth.intention.name1:
+    text: "Інвертаваць ''{0}'' (змяняе семантыку)"
+intention.category.annotations:
+    text: Java/Анатацыі
+intention.category.comments:
+    text: Java/Каментарыі
+intention.category.conditional.operator:
+    text: Java/Умовы
+intention.category.control.flow:
+    text: Java/Паток кіравання
+intention.category.declaration:
+    text: "Java/Аб'яўленне"
+intention.category.imports:
+    text: Java/Імпарты
+intention.category.other:
+    text: Іншае
+intention.category.strings:
+    text: Java/Радкі
+join.concatenated.string.literals.intention.family.name:
+    text: "Аб'яднаць канкатэнаваныя радковыя літаралы"
+join.concatenated.string.literals.intention.name:
+    text: "Аб'яднаць канкатэнаваныя радковыя літаралы"
+make.call.chain.into.call.sequence.intention.family.name:
+    text: Развернуть цепочку вызовов в последовательность
+make.call.chain.into.call.sequence.intention.name:
+    text: Развернуть цепочку вызовов методов в последовательность
+merge.call.sequence.to.chain.intention.family.name:
+    text: "Аб'яднаць паслядоўныя выклікі метадаў у ланцуг"
+merge.call.sequence.to.chain.intention.name:
+    text: "Аб'яднаць паслядоўныя выклікі метадаў у ланцуг"
+merge.else.if.intention.family.name:
+    text: "Аб'яднаць else if"
+merge.else.if.intention.name:
+    text: "Аб'яднаць 'else if'"
+merge.if.and.intention.family.name:
+    text: "Аб'яднаць укладзеныя 'if' выразы"
+merge.if.and.intention.name:
+    text: "Аб'яднаць укладзеныя 'if' выразы"
+merge.if.or.intention.family.name:
+    text: "Аб'яднаць паслядоўныя 'if' выразы"
+merge.if.or.intention.name:
+    text: "Аб'яднаць паслядоўныя 'if' выразы"
+merge.nested.try.statements.intention.family.name:
+    text: "Аб'яднаць укладзеныя try блокі"
+merge.nested.try.statements.intention.name:
+    text: "Аб'яднаць укладзеныя 'try' блокі"
+merge.parallel.ifs.intention.family.name:
+    text: "Аб'яднаць паралельныя if"
+merge.parallel.ifs.intention.name:
+    text: "Аб'яднаць 'if'"
+move.comment.to.separate.line.intention.family.name:
+    text: Перамясціць каментарый на асобны радок
+move.comment.to.separate.line.intention.name:
+    text: Перамясціць каментарый на асобны радок
+negate.comparison.intention.family.name:
+    text: Адмаўляць параўнанне
+negate.comparison.intention.name:
+    text: "Адмаўляць ''{0}''"
+negate.comparison.intention.name1:
+    text: "Адмаўляць ''{0}'' у ''{1}''"
+obscure.thrown.exceptions.intention.family.name:
+    text: Замяніць выключэнні ў throws на адно больш агульнае выключэнне
+press.escape.to.remove.highlighting.message:
+    text: Націсніце Escape для выдалення падсветкі
+replace.arm.with.try.finally.intention.family.name:
+    text: Замяніць try-with-resources на try-finally
+replace.arm.with.try.finally.intention.name:
+    text: "Замяніць 'try-with-resources' на 'try finally'"
+replace.assert.literal.with.assert.equals.intention.family.name:
+    text: Замяніць assertTrue, assertFalse або assertNull на assertEquals
+replace.assert.literal.with.assert.equals.intention.name:
+    text: "Замяніць ''{0}()'' на ''assertEquals({1}, ...)''"
+replace.assert.literal.with.assert.equals.intention.name1:
+    text: "Замяніць ''{0}()'' на ''assertEquals(..., {1}, ...)''"
+replace.assert.literal.with.assert.equals.intention.name2:
+    text: "Замяніць ''{0}()'' на ''assertEquals()''"
+replace.assignment.with.postfix.expression.intention.family.name:
+    text: Замяніць прысвойванне на постфіксны выраз
+replace.concatenation.with.format.string.intention.family.name:
+    text: Замяніць канкатэнацыю радкоў на String.format()
+replace.concatenation.with.format.string.intention.name:
+    text: "Замяніць '+' на 'String.format()'"
+replace.concatenation.with.string.buffer.intention.family.name:
+    text: Замяніць + на StringBuilder.append()
+replace.concatenation.with.string.buffer.intention.name:
+    text: "Замяніць '+' на 'StringBuffer.append()'"
+replace.concatenation.with.string.builder.intention.name:
+    text: "Замяніць '+' на 'StringBuilder.append()'"
+replace.do.while.loop.with.while.loop.intention.family.name:
+    text: Замяніць цыкл do while на цыкл while
+replace.do.while.loop.with.while.loop.intention.name:
+    text: "Замяніць цыкл 'do while' на цыкл 'while'"
+replace.for.each.loop.with.indexed.for.loop.intention.family.name:
+    text: Замяніць цыкл for-each на індэксаваны цыкл for
+replace.for.each.loop.with.indexed.for.loop.intention.name:
+    text: "Замяніць цыкл for-each на індэксаваны цыкл 'for'"
+replace.for.each.loop.with.iterator.for.loop.intention.family.name:
+    text: Замяніць цыкл for-each на ітэратарны цыкл for
+replace.for.each.loop.with.iterator.for.loop.intention.name:
+    text: "Замяніць цыкл for-each на ітэратарны цыкл 'for'"
+replace.for.each.loop.with.optimized.indexed.for.loop.intention.family.name:
+    text: Замяніць цыкл for-each на аптымізаваны індэксаваны цыкл for
+replace.for.each.loop.with.optimized.indexed.for.loop.intention.name:
+    text: "Замяніць цыкл for-each на аптымізаваны індэксаваны цыкл 'for'"
+replace.multiply.with.shift.intention.family.name:
+    text: Замяніць множанне на пабітавы зрух
+replace.on.demand.import.intention.family.name:
+    text: Замяніць імпарт па запыце на імпарт асобных класаў
+replace.on.demand.import.intention.name:
+    text: Замяніць на імпарт асобных класаў
+replace.operator.assignment.with.assignment.intention.family.name:
+    text: Замяніць прысвойванне з аператарам на простае прысвойванне
+replace.operator.assignment.with.postfix.expression.intention.family.name:
+    text: Замяніць прысвойванне з аператарам на постфіксны выраз
+replace.postfix.expression.with.assignment.intention.family.name:
+    text: Замяніць постфіксны выраз на прысвойванне
+replace.postfix.expression.with.operator.assignment.intention.family.name:
+    text: Замяніць постфіксны выраз на прысвойванне з аператарам
+replace.shift.with.multiply.intention.family.name:
+    text: Замяніць пабітавы зрух на множанне
+replace.switch.with.if.intention.family.name:
+    text: Замяніць switch на if
+replace.switch.with.if.intention.name:
+    text: "Замяніць 'switch' на 'if'"
+reverse.for.loop.direction.intention.family.name:
+    text: Змяніць напрамак цыкла for
+reverse.for.loop.direction.intention.name:
+    text: Змяніць напрамак цыкла for
+split.declaration.and.initialization.intention.family.name:
+    text: "Падзяліць аб'яўленне і ініцыялізацыю"
+split.declaration.and.initialization.intention.name:
+    text: "Падзяліць на аб'яўленне і ініцыялізацыю"
+split.else.if.intention.family.name:
+    text: Падзяліць else if
+split.else.if.intention.name:
+    text: "Падзяліць 'else if'"
+wrap.vararg.arguments.with.explicit.array.intention.family.name:
+    text: Абгарнуць vararg-аргументы ў яўнае стварэнне масіва
+wrap.vararg.arguments.with.explicit.array.intention.name:
+    text: Абгарнуць vararg-аргументы ў яўнае стварэнне масіва

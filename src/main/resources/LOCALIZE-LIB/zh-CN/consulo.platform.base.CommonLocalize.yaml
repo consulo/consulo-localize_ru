@@ -1,0 +1,233 @@
+access.is.denied.error.message:
+    text: 拒绝访问。
+action.collapse:
+    text: 折叠
+action.expand:
+    text: 展开
+action.help:
+    text: 帮助
+action.refresh:
+    text: 刷新
+action.settings:
+    text: 打开设置…
+action.settings.description:
+    text: 编辑应用程序设置
+action.settings.description.mac:
+    text: 编辑应用程序偏好设置
+action.settings.mac:
+    text: 偏好设置…
+action.settings.path:
+    text: 文件 | 设置
+action.settings.path.mac:
+    text: 偏好设置
+an.attempt.was.made.to.load.a.program.with.an.incorrect.format.error.message:
+    text: 试图加载格式不正确的程序。
+button.add:
+    text: 添加
+button.add.a:
+    text: 添加(&A)
+button.apply:
+    text: 应用
+button.back:
+    text: 后退
+button.background:
+    text: 最小化(&M)
+button.cancel:
+    text: 取消
+button.close:
+    text: 关闭
+button.continue:
+    text: 继续
+button.copy:
+    text: 复制…
+button.delete:
+    text: 删除
+button.edit:
+    text: 编辑
+button.help:
+    text: 帮助(&H)
+button.load.file:
+    text: 加载文件
+button.no:
+    text: 否(&N)
+button.no.for.all:
+    text: 全否 (&O)
+button.ok:
+    text: 确定
+button.remove:
+    text: 删除(&R)
+button.remove.r:
+    text: 删除
+button.reset:
+    text: 重置
+button.retry:
+    text: 重试
+button.skip:
+    text: 跳过
+button.yes:
+    text: 是(_Y)
+button.yes.for.all:
+    text: 全部是(&A)
+cannot.redo.dialog.title:
+    text: 不能重做
+cannot.redo.message:
+    text: 无法重做
+cannot.undo.dialog.title:
+    text: 不能撤消
+cannot.undo.error.contains.nonundoable.changes.message:
+    text: "<html>无法执行''{0}''<br>  以下文件包含无法撤销的更改:"
+cannot.undo.error.other.affected.files.changed.message:
+    text: '受此操作影响的以下文件已被更改:'
+cannot.undo.message:
+    text: 无法撤销
+close.action.name:
+    text: 关闭
+comparison.policy.default.name:
+    text: 默认值
+comparison.policy.ignore.spaces.name:
+    text: 忽略空格
+comparison.policy.trim.space.name:
+    text: 删除空格
+data.error.cyclic.redundancy.check.error.message:
+    text: 数据错误（循环冗余校验）。
+dialog.ioexception.proxy:
+    text: 设置 HTTP 代理服务器设置
+dialog.ioexception.tryagain:
+    text: 再试一次
+dialog.options.do.not.show:
+    text: 不再显示此对话框
+dialog.title.choose.date:
+    text: 选择日期
+drop.undo.history.command.name:
+    text: 样本
+editbox.login:
+    text: '登录:'
+editbox.password:
+    text: '密码:'
+error.reading.color.scheme.from.file.error.message:
+    text: 错误阅读配色方案 {0}
+exception.directory.can.not.create:
+    text: 无法创建目录 {0}
+exception.directory.is.invalid:
+    text: 无效目录{0}
+exception.directory.is.not.readable:
+    text: 目录不可写{0}
+failed.to.make.file.writeable.error.message:
+    text: 设置 {0} 为可写失败
+failed.to.make.the.following.files.writable.error.message:
+    text: '无法将以下文件设为可写: {0}'
+incorrect.function.error.message:
+    text: 不正确的函数
+local.vcs.action.name.redo.command:
+    text: 重做{0}
+local.vcs.action.name.undo.command:
+    text: 撤消{0}
+name.label.text:
+    text: '名称(&M):'
+not.enough.storage.is.available.to.complete.this.operation.error.message:
+    text: 存储空间不足，无法处理此操作。
+not.enough.storage.is.available.to.process.this.command.error.message:
+    text: 存储空间不足，无法处理此命令。
+redo.command.confirmation.text:
+    text: 重做{0}
+redo.confirmation.title:
+    text: 重做
+safe.write.backup:
+    text: |-
+        无法保存 {0}。
+        无法创建备份文件({1})。
+        该文件将保持不变。
+safe.write.drop.temp:
+    text: 不能删除临时文件 {0}.
+safe.write.failed:
+    text: |-
+        不能保存 {0}.
+        无法创建一个临时文件 ({1}).
+        文件没有改变.
+safe.write.junk:
+    text: |-
+        无法保存 {0}。
+        无法写入数据。
+        该文件可能已损坏。
+safe.write.junk.backup:
+    text: |-
+        无法保存 {0}。
+        无法写入数据。
+        该文件可能已损坏；已在 {1} 中创建备份。
+safe.write.open:
+    text: |-
+        无法保存 {0}。
+        无法打开文件进行写入。
+safe.write.rename.backup:
+    text: |-
+        不能保存 {0}.
+        文件被重命名 {1}.
+        您的更改被写入 {2}.
+safe.write.rename.original:
+    text: |-
+        不能保存 {0}.
+        文件不变.
+        您的更改被写入 {1}.
+safe.write.restored:
+    text: |-
+        无法保存 {0}。
+        无法写入数据。
+        已从备份还原原始内容。
+smth.already.exist.error.message:
+    text: "{0}的名称 ''{1}'' 已存在"
+the.access.code.is.invalid.error.message:
+    text: 访问代码是无效的。
+the.data.is.invalid.error.message:
+    text: 数据无效。
+the.device.does.not.recognize.the.command.error.message:
+    text: 该设备无法识别的命令。
+the.device.is.not.ready.error.message:
+    text: 设备未就绪。
+the.directory.cannot.be.removed.error.message:
+    text: 该目录不能被删除。
+the.drive.cannot.find.the.sector.requested.error.message:
+    text: 驱动器无法找到需要的扇区。
+the.drive.cannot.locate.a.specific.area.or.track.on.the.disk.error.message:
+    text: 该驱动器无法在磁盘上找到特定扇区或磁道。
+the.environment.is.incorrect.error.message:
+    text: 环境不正确。
+the.handle.is.invalid.error.message:
+    text: 该句柄无效。
+the.media.is.write.protected.error.message:
+    text: 媒体被写保护。
+the.program.issued.a.command.but.the.command.length.is.incorrect.error.message:
+    text: 程序发出命令，但命令长度不正确。
+the.specified.disk.or.diskette.cannot.be.accessed.error.message:
+    text: 指定的磁盘或软盘不能被访问。
+the.storage.control.block.address.is.invalid.error.message:
+    text: 存储控制块地址无效。
+the.storage.control.blocks.were.destroyed.error.message:
+    text: 存储控制块被毁坏了。
+the.system.cannot.find.the.device.specified.error.message:
+    text: 系统找不到指定的装置。
+the.system.cannot.find.the.drive.specified.error.message:
+    text: 系统找不到指定的磁盘驱动器。
+the.system.cannot.find.the.file.specified.error.message:
+    text: 系统找不到指定的文件
+the.system.cannot.find.the.path.specified.error.message:
+    text: 系统找不到指定的路径
+the.system.cannot.move.the.file.to.a.different.disk.drive.error.message:
+    text: 文件系统无法移动到一个不同的磁盘驱动器。
+the.system.cannot.open.the.file.error.message:
+    text: 系统无法打开文件
+there.are.no.more.files.error.message:
+    text: 没有更多的文件。
+title.error:
+    text: 错误
+title.settings:
+    text: 设置
+title.settings.mac:
+    text: 偏好设置
+title.warning:
+    text: 警告
+tree.node.loading:
+    text: 正在加载…
+undo.command.confirmation.text:
+    text: 撤消{0}
+undo.dialog.title:
+    text: 撤销

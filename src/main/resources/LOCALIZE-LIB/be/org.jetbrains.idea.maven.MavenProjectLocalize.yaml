@@ -1,0 +1,91 @@
+maven.action.download.sources:
+    text: Загрузіць зыходны код
+maven.action.download.sources.busy.text:
+    text: Загрузка зыходнага кода…
+maven.downloading:
+    text: Загрузка зыходнага кода і дакументацыі бібліятэк Maven…
+maven.downloading.plugins:
+    text: Загрузка плагінаў Maven…
+maven.downloading.pom.plugins:
+    text: Загрузка плагінаў для {0}…
+maven.downloading.sources:
+    text: Загрузка зыходнага кода бібліятэк Maven…
+maven.ignore:
+    text: Ігнараваць праекты
+maven.ignore.edit:
+    text: Рэдагаваць ігнаруемыя файлы…
+maven.import.title.module.dir:
+    text: Выберыце каталог для файлаў модуляў IDEA (*.iml)
+maven.locating.files:
+    text: Пошук файлаў праекта Maven…
+maven.navigator.nothing.to.display:
+    text: |-
+        Няма праектаў Maven для адлюстравання.
+
+        Вы можаце выкарыстоўваць {0} для дадання праекта або {1}, каб плагін знайшоў усе файлы pom.xml у каранёвых каталогах праекта і перазагрузіў іх
+maven.post.processing:
+    text: Настройка проектов Maven
+maven.profile.activate:
+    text: Актываваць
+maven.profile.deactivate:
+    text: Дэактываваць
+maven.profile.default:
+    text: Выкарыстоўваць па змаўчанні
+maven.project.import.title:
+    text: Перазагрузіць праекты Maven
+maven.project.importing:
+    text: Імпарт праектаў Maven
+maven.project.problem.moduleNotFound:
+    text: "Модуль ''{0}'' не найден"
+maven.project.problem.parentHasProblems:
+    text: "Бацькоўскі праект ''{0}'' змяшчае памылкі"
+maven.project.problem.parentNotFound:
+    text: "Бацькоўскі праект ''{0}'' не знойдзены"
+maven.project.problem.recursiveInheritance:
+    text: Выяўлена рэкурсіўнае наследаванне
+maven.project.problem.selfInheritance:
+    text: Выяўлена саманаследаванне
+maven.project.problem.unresolvedDependency:
+    text: "Невырашаная залежнасць: ''{0}''"
+maven.project.problem.unresolvedExtension:
+    text: "Невырашанае пашырэнне зборкі: ''{0}''"
+maven.project.problem.unresolvedPlugin:
+    text: "Невырашаны плагін: ''{0}''"
+maven.reading:
+    text: Чытанне Maven праектаў…
+maven.reading.pom:
+    text: Чытанне {0}…
+maven.resolving:
+    text: Вырашэнне залежнасцей Maven…
+maven.resolving.pom:
+    text: Вырашэнне залежнасцей {0}…
+maven.scanning.projects:
+    text: Сканіраванне Maven праектаў…
+maven.select.local.repository:
+    text: Выбраць лакальны рэпазіторый
+maven.select.maven.home.directory:
+    text: Выбраць дамашнюю дырэкторыю Maven
+maven.select.maven.settings.file:
+    text: Выбраць файл карыстальніцкіх налад
+maven.tab.ignored.files:
+    text: Ігнаруемыя файлы
+maven.tab.importing:
+    text: Імпарт
+maven.testRunning:
+    text: Выкананне тэстаў
+maven.unignore:
+    text: Адмяніць ігнараванне праектаў
+maven.updating.folders:
+    text: Генерацыя зыходнікаў Maven…
+view.node.dependencies:
+    text: Залежнасці
+view.node.lifecycle:
+    text: Жыццёвы цыкл
+view.node.modules:
+    text: Модулі
+view.node.plugins:
+    text: Плагіны
+view.node.profiles:
+    text: Профілі
+view.node.run.configurations:
+    text: Канфігурацыі запуску

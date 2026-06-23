@@ -1,0 +1,320 @@
+action.Annotate.with.Blame.text:
+    text: 使用 Git 追溯註解(_N)
+action.Git.Pull.text:
+    text: 拉取…
+action.Git.Stash.Silently.text:
+    text: 無提示儲藏
+action.Git.Stash.UnstashAs.description:
+    text: 彈出或套用選定的儲藏作為新分支(帶或不帶索引)
+action.Git.Stash.UnstashAs.text:
+    text: 取消儲藏…
+action.add.text:
+    text: 添加…
+action.fetch.text:
+    text: 獲取
+action.selected.directory.text:
+    text: 選定{0,choice,1#目錄|2#目錄}
+action.selected.file.text:
+    text: 選定{0,choice,1#檔案|2#檔案}
+action.text.show.all.submitted:
+    text: 顯示在所選變更列表中提交的所有修訂
+add.adding:
+    text: 正在添加檔案…
+annotate.action.name:
+    text: 註解
+changes.retrieving:
+    text: 檢索修訂 {0} 的變更
+clone.button:
+    text: 克隆
+clone.dialog.checking.git.version:
+    text: 正在檢查 Git 版本…
+clone.parent.dir:
+    text: '父目錄(&P):'
+clone.parent.missing.error:
+    text: 父路徑{0}必須存在。
+clone.test.success.message:
+    text: 連接成功
+clone.testing:
+    text: 測試{0}
+clone.title:
+    text: 克隆倉庫
+cloning.repository:
+    text: 克隆源倉庫{0}
+commit.action.name:
+    text: 提交 (&I)
+commit.amend:
+    text: 修改提交
+commit.amend.tooltip:
+    text: <html>將此提交與前一個</html>合併
+commit.author:
+    text: '作者(&A):'
+common.current.branch:
+    text: '當前分支:'
+common.current.branch.tooltip:
+    text: 當前已簽出的分支。
+common.git.root:
+    text: 'Git 根(&R):'
+common.git.root.tooltip:
+    text: 選擇 Git VCS 根
+common.no.active.branch:
+    text: <無活動分支>
+common.refreshing:
+    text: 正在重新整理檔案
+computing.annotation:
+    text: 正在計算 {0} 的註解
+diff.find.error:
+    text: '正在尋找差異的修訂: {0}'
+error.commit.cant.create.message.file:
+    text: 創建提交訊息檔案失敗
+error.dialog.title:
+    text: 錯誤
+error.list.title:
+    text: '{0} 錯誤:'
+error.occurred.during:
+    text: "''{0}'' 時出錯"
+errors.message:
+    text: 'Git 操作以多個錯誤結束: {0}'
+fetch.action.name:
+    text: 獲取
+find.git.error.title:
+    text: 執行 Git 時出錯
+find.git.success.title:
+    text: Git 執行成功
+find.git.unsupported.message:
+    text: <html><tt>{0}</tt><br>此版本不受支援，某些延伸模組功能可能無法工作。<br>支援的最低版本是 <em>{1}</em>。</html>
+git.commit.message.empty:
+    text: 請指定提交訊息
+git.commit.message.empty.title:
+    text: 提交訊息為空
+git.error.exit:
+    text: Git 行程退出，程式碼為 {0}
+git.executable.notification.description:
+    text: Git 可執行檔案的路徑可能無效。
+git.executable.notification.title:
+    text: 無法啟動 Git
+git.executable.version.is:
+    text: Git 版本為 {0}
+git.light.status.bar.tooltip:
+    text: '當前 Git 分支: {0}'
+git.new.tag.dialog.tag.name.label:
+    text: 輸入新標記的名稱
+git.new.tag.dialog.title:
+    text: 在 {0}上創建新標記
+git.running:
+    text: '執行: {0}'
+git.status.bar.widget.name:
+    text: Git 分支
+git.status.bar.widget.text.cherry.pick:
+    text: 正在 {0} 中優選
+git.status.bar.widget.text.merge:
+    text: 正在合併 {0}
+git.status.bar.widget.text.rebase:
+    text: 正在變基 {0}
+git.status.bar.widget.text.revert:
+    text: 正在 {0} 中還原
+git.unstash.clear.confirmation.message:
+    text: 移除所有儲藏? 此操作無法撤消。
+git.unstash.clear.confirmation.title:
+    text: 移除所有儲藏?
+git.unstash.drop.confirmation.message:
+    text: <html>要移除 {0} 嗎?<br/>“{1}”</html>
+git.unstash.drop.confirmation.title:
+    text: 移除儲藏 {0}?
+group.Git.MainMenu.MergeActions.text:
+    text: 合併(_M)
+init.destination.directory.description:
+    text: 選擇將在其中創建新 Git 版本庫的目錄。
+init.destination.directory.title:
+    text: 創建 Git 版本庫
+init.warning.already.under.git:
+    text: |-
+        所選目錄 <tt>{0}</tt> 已在 Git 下。
+        確定要創建新的 VCS 根嗎?
+initializing.title:
+    text: 正在初始化版本庫…
+merge.branch.title:
+    text: 合併變更
+merge.tool.column.status.deleted:
+    text: 已刪除
+merge.tool.column.status.modified:
+    text: 已修改
+merge.tool.column.theirs.status:
+    text: 他人的變更
+merge.tool.column.yours.status:
+    text: 您的變更
+merging.title:
+    text: 將變更合併到 {0}
+paths.affected.title:
+    text: 提交 {0} 中受影響的路徑
+progress.title.moving.files:
+    text: 正在移動檔案…
+pull.action.name:
+    text: 拉取
+pull.button:
+    text: 拉取
+pulling.title:
+    text: 從 {0} 中拉取變更
+rebase.update.project.abort.task.title:
+    text: 正在中止變基…
+rebase.update.project.notification.abort.cancel.message:
+    text: 已取消中止變基
+rebase.update.project.notification.abort.error.message:
+    text: 中止變基時出錯
+rebase.update.project.notification.abort.success.message:
+    text: 已中止變基
+remove.removing:
+    text: 正在移除檔案…
+repository.action.missing.roots.misconfigured:
+    text: 設定的 Git 根都不在 Git 下。設定的目錄中必須包含“.git”目錄。
+repository.action.missing.roots.title:
+    text: 沒有 Git 根
+repository.action.missing.roots.unconfigured.message:
+    text: 沒有為專案設定 Git 根。
+repository.not.found.error:
+    text: 找不到 {0} 的已設定 git 版本庫
+reset.action.name:
+    text: 重置 Head…
+reset.commit.invalid:
+    text: 指定的提交表達式未通過驗證。
+reset.commit.label:
+    text: '為提交(&C):'
+reset.commit.tooltip:
+    text: 由於重置操作而將成為當前 HEAD 的提交。
+reset.title:
+    text: 重置 Head
+reset.type:
+    text: '重置類型(&T):'
+reset.type.tooltip:
+    text: <html>重置類型(另請參閱 <code>git reset</code> man 頁面):<ul><li><b>Mixed</b> 將重置索引，但不會重置工作樹</li><li><b>Soft</b> 將保留索引和工作樹，只是移動 HEAD 指針</li><li><b>Hard</b> 將重置索引和工作樹。<em>工作樹中的變更會丟失</em></li></ul></html>
+reset.validate:
+    text: 驗證(&V)
+resetting.title:
+    text: 正在重置 HEAD…
+settings.auto.update.on.push.rejected:
+    text: 如果當前分支的推送被拒，則自動更新
+settings.crlf:
+    text: 即將提交 CRLF 行分隔符時發出警告
+settings.detached.head:
+    text: 在游離的 HEAD 中或變基期間提交時發出警告
+settings.protected.branched:
+    text: '受保護分支:'
+settings.update.method:
+    text: 更新方法：
+ssh.ask.passphrase.title:
+    text: SSH 密鑰密碼短語
+ssh.keyboard.interactive.title:
+    text: SSH 鍵盤交互式
+ssh.password.message:
+    text: '使用者 {0} 的密碼:'
+ssh.password.title:
+    text: SSH 密碼登錄
+stash.button:
+    text: 創建儲藏
+stash.keep.index:
+    text: 保留索引(&I)
+stash.keep.index.tooltip:
+    text: 如果選中此複選框，已建立索引的變更將保留在索引中。
+stash.message:
+    text: '訊息(&M):'
+stash.message.tooltip:
+    text: 在此處輸入儲藏訊息。
+stash.title:
+    text: 儲藏
+stashing.title:
+    text: 正在儲藏變更…
+tag.button:
+    text: 創建標籤
+tag.commit.label:
+    text: 提交(&C)
+tag.commit.tooltip:
+    text: 輸入要標記的提交或物件的名稱，或留空以使用 HEAD。
+tag.error.creating.message.file.message:
+    text: '無法創建訊息檔案: {0}'
+tag.error.invalid.commit:
+    text: 該提交或物件名稱無效。
+tag.error.tag.exists:
+    text: 存在同名的標記。
+tag.force:
+    text: 強制(&F)
+tag.force.tooltip:
+    text: 強制創建標記，即使已存在另一個具有此名稱的標記。
+tag.getting.existing.tags:
+    text: 正在獲取現有標籤…
+tag.message.label:
+    text: '訊息(&M):'
+tag.message.tooltip:
+    text: 如果訊息不為空，則創建帶註解的標記。
+tag.name.label:
+    text: '標記名稱(&N):'
+tag.name.tooltip:
+    text: 在此處輸入新的標記名稱。
+tag.title:
+    text: 標記
+tag.validate:
+    text: 驗證(&V)
+tag.validate.tooltip:
+    text: 點擊此按鈕驗證要標記的提交
+unstash.branch.label:
+    text: '作為新分支(&B):'
+unstash.branch.tooltip:
+    text: 如果輸入非空名稱，該儲藏將作為新分支簽出。
+unstash.button.apply:
+    text: 套用儲藏
+unstash.button.branch:
+    text: 分支
+unstash.button.pop:
+    text: 消除儲藏
+unstash.clear:
+    text: 清除(&C)
+unstash.clear.tooltip:
+    text: 刪除版本庫中的所有儲藏。
+unstash.clearing.stashes:
+    text: 正在清除儲藏…
+unstash.drop:
+    text: 刪除(&D)
+unstash.drop.tooltip:
+    text: 刪除所選儲藏
+unstash.pop.stash:
+    text: 消除儲藏(&P)
+unstash.pop.stash.tooltip:
+    text: 如果選中，則該儲藏在套用後會被刪除。
+unstash.reinstate.index:
+    text: 復原索引(&I)
+unstash.reinstate.index.tooltip:
+    text: 嘗試復原索引以及工作樹變更。
+unstash.stashes:
+    text: '儲藏(&S):'
+unstash.title:
+    text: 取消儲藏變更
+unstash.unstashing:
+    text: 正在取消儲藏…
+unstash.view:
+    text: 查看(&V)
+unstash.view.tooltip:
+    text: 查看所選儲藏
+update.options.display.name:
+    text: Git 更新設定
+util.remote.renderer.none:
+    text: 無
+vfs.listener.add.single.prompt:
+    text: |-
+        要將以下檔案添加到 Git 嗎?
+        {0}
+
+        如果您選擇“取消”，以後仍可以手動添加。
+vfs.listener.add.single.title:
+    text: 將檔案添加到 Git
+vfs.listener.add.title:
+    text: 將檔案添加到 Git
+vfs.listener.checking.ignored:
+    text: 正在檢查忽略的檔案…
+vfs.listener.delete.single.prompt:
+    text: |-
+        要從 Git 中刪除以下檔案嗎?
+        {0}
+
+        如果您選擇“取消”，以後仍可以手動刪除。
+vfs.listener.delete.single.title:
+    text: 從 Git 中刪除檔案
+vfs.listener.delete.title:
+    text: 從 Git 中刪除檔案

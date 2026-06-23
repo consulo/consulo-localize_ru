@@ -1,0 +1,72 @@
+action.ConfigureEditorTabs.description:
+    text: 設定編輯器頁籤的外觀，行為和順序
+action.ConfigureEditorTabs.text:
+    text: 設定編輯器頁籤...
+attempt.to.modify.read.only.document.error.message:
+    text: 嘗試修改唯讀檔案
+checkbox.show.editor.preview.popup:
+    text: 在卷軸顯示代碼局部
+close.editor.annotations.action.name:
+    text: 關閉批注
+customize.highlighting.level.menu.item:
+    text: 高亮顯示自訂級別
+editing.read.only.file.hint:
+    text: 檔案是唯讀的
+editor.annotations.action.group.name:
+    text: 註解
+editor.notification.default.action.name:
+    text: 通知操作
+editor.notification.settings.option.name:
+    text: 設定...
+errors.panel.go.to.errors.first.radio:
+    text: 只轉到高優先級的問題
+errors.panel.go.to.next.error.warning.radio:
+    text: 轉到下一個問題
+file.not.found:
+    text: '未找到檔案: {0}'
+forced.soft.wrap.dont.show.again.message:
+    text: 不要再顯示
+forced.soft.wrap.hide.message:
+    text: 隱藏通知
+forced.soft.wrap.message:
+    text: 該文件包含超長的行，強制啟用自動換行，以提高編輯性能。
+guarded.block.modification.attempt.error.message:
+    text: 無法執行操作，因為它改變了目前文件的唯讀片段
+guarded.block.modification.attempt.error.title:
+    text: 守衛阻止修改嘗試
+hector.highlighting.level.title:
+    text: 突出等級
+hector.import.popup.checkbox:
+    text: 進口彈出(&P)
+hector.inspections.slider.label:
+    text: 檢查
+hector.syntax.slider.label:
+    text: 語法
+iw.compact.view:
+    text: 緊湊檢視
+iw.disable.powersave:
+    text: 禁用省電模式
+iw.found.so.far.suffix:
+    text: 目前已發現
+iw.highlight.label:
+    text: '高亮顯示:'
+iw.show.import.tooltip:
+    text: 顯示自動匯入工具提示
+move.caret.command.name:
+    text: 移動游標
+move.cursor.command.name:
+    text: 移動游標
+move.selection.command.name:
+    text: 選取移動
+paste.command.name:
+    text: 貼上
+radio.editor.tab.arrow:
+    text: '> 符號'
+radio.editor.tab.horizontal.line:
+    text: 水平線
+radio.editor.tab.long.arrow:
+    text: 長箭頭
+typing.command.name:
+    text: 鍵入
+typing.in.editor.command.name:
+    text: 鍵入

@@ -1,0 +1,59 @@
+action.detach.external.project.description:
+    text: 선택한 프로젝트 연결 해제
+action.detach.external.project.text:
+    text: '{0} 프로젝트 연결 해제'
+error.project.already.registered:
+    text: 프로젝트가 이미 등록되어 있습니다
+error.resolve.already.running:
+    text: "프로젝트에 대해 다른 ''프로젝트 동기화'' 작업이 현재 실행 중입니다: {0}"
+error.resolve.with.reason:
+    text: |-
+        {0}
+
+        자세한 내용은 IDE 로그를 참조하십시오 (Help | Show Log)
+module.type.description:
+    text: '{0} 모듈은 <b>{0}</b>에 의해 관리되는 종속성을 가진 <b>JVM 기반</b> 애플리케이션 개발에 사용됩니다'
+notification.messages.project.sync.tab.name:
+    text: '{0} 동기화'
+notification.project.refresh.fail.title:
+    text: "{0} ''{1}'' 프로젝트 동기화 실패"
+orphan.modules.text:
+    text: '{0} 프로젝트 동기화에 의해 다음 IDE 모듈이 제거되었습니다.<p>{1}</p><br/>복원할 모듈을 선택하기 위해 <a href="#">대화 상자를 열</a> 수 있습니다.'
+progress.import.text:
+    text: "''{0}'' {1} 프로젝트 정보 빌드 중"
+progress.refresh.text:
+    text: "''{0}'' {1} 프로젝트 가져오는 중"
+run.configuration.description:
+    text: '{0} 빌드'
+run.configuration.settings.label.project:
+    text: '{0} 프로젝트:'
+run.configuration.settings.label.tasks:
+    text: '작업:'
+run.configuration.settings.label.vmoptions:
+    text: 'VM 옵션:'
+run.configuration.title.choose.registered.project:
+    text: '{0} 프로젝트 선택'
+run.configuration.tooltip.choose.registered.project:
+    text: 등록된 {0} 프로젝트 중 하나를 선택하십시오
+setting.type.location.deduced:
+    text: '{0} 위치가 추론됨'
+setting.type.location.explicit.correct:
+    text: '{0} 위치가 정의됨'
+setting.type.location.explicit.incorrect:
+    text: '{0} 위치가 잘못됨'
+setting.type.location.unknown:
+    text: '{0} 위치를 알 수 없음'
+settings.label.project.format:
+    text: '프로젝트 형식:'
+settings.label.select.project:
+    text: '{0} 프로젝트:'
+settings.title.system.settings:
+    text: 일반 설정
+tasks.before.run:
+    text: "''{1}'' {0} 작업 실행"
+tasks.before.run.empty:
+    text: '{0} 작업 실행'
+tasks.edit.task.title:
+    text: '{0} 작업 편집'
+tasks.select.task.title:
+    text: '{0} 작업 선택'

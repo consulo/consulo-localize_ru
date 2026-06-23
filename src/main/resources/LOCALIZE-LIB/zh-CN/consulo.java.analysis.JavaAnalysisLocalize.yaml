@@ -1,0 +1,1058 @@
+0.field.is.always.initialized.not.null:
+    text: '@{0} 字段始终为初始化的非 null'
+access.can.be.0:
+    text: "访问可以是 ''{0}''"
+access.to.field.code.ref.code.outside.of.declared.guards.loc:
+    text: '访问声明的临界外部的字段 <code>#ref</code> #loc'
+add.explicit.type.arguments:
+    text: 添加显式类型实参
+annotate.as.safevarargs:
+    text: "注解为 '@SafeVarargs'"
+annotate.overridden.methods.parameters:
+    text: "将被重写的方法形参注解为 ''@{0}''"
+annotate.overridden.methods.parameters.family.name:
+    text: 注解被重写的方法形参
+annotation.on.static.member.qualifying.type.family.name:
+    text: 移动类型注解
+anonymous.ref.loc.can.be.replaced.with.0:
+    text: '匿名 #ref #loc 可被替换为 {0}'
+anonymous.ref.loc.can.be.replaced.with.lambda:
+    text: '匿名 #ref #loc 可被替换为 lambda'
+arguments.count.mismatch:
+    text: 应为 {0} 个实参，但实际为 {1} 个
+assigning.a.collection.of.nullable.elements:
+    text: 正在将可以为 null 的元素集合指定给非 null 元素集合
+call.to.method.code.ref.code.outside.of.declared.guards.loc:
+    text: '在声明的临界之外调用方法 <code>#ref()</code> #loc'
+change.type.arguments:
+    text: 更改类型实参
+change.type.arguments.to.0:
+    text: 将类型实参更改为 <{0}>
+change.visibility.level:
+    text: 将 {0} 设为 {1}
+comparision.between.object.and.primitive:
+    text: 对象与基元之间的比较非法，仅在 Java 7 中接受
+contract.return.validator.incompatible.return.parameter.type:
+    text: "返回值类型 ''{0}'' 必须可以从形参类型 ''{1}'' 转换而来"
+contract.return.validator.method.return.incompatible.with.method.containing.class:
+    text: 方法返回值类型应与包含类的方法兼容
+contract.return.validator.not.applicable.for.constructor:
+    text: 不适用于构造函数
+contract.return.validator.not.applicable.primitive:
+    text: "不适用于基元返回值类型 ''{0}''"
+contract.return.validator.not.applicable.static:
+    text: 不适用于 static 方法
+contract.return.validator.return.type.must.be.boolean:
+    text: "方法返回值类型必须为 'boolean'"
+contract.return.validator.too.few.parameters:
+    text: 不适用于{0, choice, 0#无形参|1#有 1 个形参|2#有 {0} 个形参}的方法
+custom.exception.class.should.have.a.constructor:
+    text: 自定义异常类应具有一个包含字符串类型的单个消息形参的构造函数
+dataflow.message.array.index.out.of.bounds:
+    text: 数组索引超出范围
+dataflow.message.arraystore:
+    text: 将 <code>{0}</code> 类型的元素存储到 <code>{1}</code> 元素的数组将生成 <code>ArrayStoreException</code>
+dataflow.message.assigning.null:
+    text: <code>null</code> 被分配到一个是注解变量 @NotNull
+dataflow.message.assigning.null.notannotated:
+    text: 正在将 <code>null</code> 值指定给非注解字段
+dataflow.message.assigning.nullable:
+    text: 表达式 <code>#ref</code> 的求值结果可能为 null，但是它被分配了注解 @NotNull
+dataflow.message.assigning.nullable.notannotated:
+    text: '表达式 <code>#ref</code> #loc 可能为 null，但被指定给非注解字段'
+dataflow.message.cce:
+    text: '将 <code>{0}</code> 转换为 <code>#ref</code> #loc 可能产生 <code>ClassCastException</code>'
+dataflow.message.cce.always:
+    text: '将 <code>{0}</code> 转换为 <code>#ref</code> #loc 会为任意非 null 值生成 <code>ClassCastException</code>'
+dataflow.message.constant.condition:
+    text: '条件 <code>#ref</code> #loc 始终为 <code>{0, choice, 0#false|1#true}</code>'
+dataflow.message.constant.condition.when.reached:
+    text: '到达时，条件 <code>#ref</code> #loc 始终为 <code>{0, choice, 0#false|1#true}</code>'
+dataflow.message.constant.expression:
+    text: "<code>#ref</code> #loc 的结果总是 ''{0}''"
+dataflow.message.constant.method.reference:
+    text: "方法引用结果始终为''{0}''"
+dataflow.message.constant.no.ref:
+    text: 条件始终为 {0, choice, 0#false|1#true}
+dataflow.message.constant.value:
+    text: "值 <code>#ref</code> #loc 总是 ''{0}''"
+dataflow.message.contract.fail:
+    text: "依据其方法协定，对 '#ref' 的调用始终失败"
+dataflow.message.contract.fail.index:
+    text: "由于实参超出范围，对 '#ref' 的调用总是失败"
+dataflow.message.immutable.modified:
+    text: 不可变对象已被修改
+dataflow.message.immutable.passed:
+    text: 不可变对象在预期可变位置传递
+dataflow.message.npe.array.access:
+    text: '数组访问 <code>#ref</code> #loc 可能产生 <code>NullPointerException</code>'
+dataflow.message.npe.array.access.sure:
+    text: '数组访问 <code>#ref</code> #loc 可能生成 <code>NullPointerException</code>'
+dataflow.message.npe.field.access:
+    text: '取消引用<code>#ref</code> #loc 可能导致 <code>NullPointerException</code>'
+dataflow.message.npe.field.access.sure:
+    text: '取消引用 <code>#ref</code> #loc 将产生 <code>NullPointerException</code>'
+dataflow.message.npe.inner.class.construction:
+    text: 内联类建立可能会产生<code>NullPointerException</code>
+dataflow.message.npe.inner.class.construction.sure:
+    text: 内部类构造将生成 <code>NullPointerException</code>
+dataflow.message.npe.method.invocation:
+    text: '方法调用 <code>#ref</code> #loc 可能产生 <code>NullPointerException</code>'
+dataflow.message.npe.method.invocation.sure:
+    text: '方法调用 <code>#ref</code> #loc 可能生成 <code>NullPointerException</code>'
+dataflow.message.npe.methodref.invocation:
+    text: '方法引用调用 <code>#ref</code> #loc 可能产生 <code>NullPointerException</code>'
+dataflow.message.only.switch.label:
+    text: 'Switch 标签 <code>#ref</code> #loc 是整个 switch 中唯一可访问的对象'
+dataflow.message.passing.non.null.argument.to.optional:
+    text: "具有非 null 实参的 'Optional.ofNullable()' 应替换为 'Optional.of()'"
+dataflow.message.passing.null.argument:
+    text: 正在将 <code>null</code> 实参传递到注解为 @NotNull 的形参
+dataflow.message.passing.null.argument.nonannotated:
+    text: 正在将 <code>null</code> 实参传递到非注解形参
+dataflow.message.passing.null.argument.to.optional:
+    text: "具有 null 实参的 'Optional.ofNullable()' 应替换为 'Optional.empty()'"
+dataflow.message.passing.nullable.argument:
+    text: '实参 <code>#ref</code> #loc 可能为null'
+dataflow.message.passing.nullable.argument.methodref:
+    text: 方法引用实参可能为 null
+dataflow.message.passing.nullable.argument.methodref.nonannotated:
+    text: 方法引用实参可能为 null，但被传递给非注解形参
+dataflow.message.passing.nullable.argument.nonannotated:
+    text: '实参 <code>#ref</code> #loc 可能为 null，但被传递给非注解形参'
+dataflow.message.pointless.assignment.expression:
+    text: '条件 <code>#ref</code> #loc 在赋值表达式的左侧是永远 <code>{0}</code>. 可以简化'
+dataflow.message.pointless.same.argument.and.result:
+    text: "'#ref' 的结果与{0,choice,1#第 1 个|2#第 2 个}实参相同使调用毫无意义"
+dataflow.message.pointless.same.arguments:
+    text: "'#ref' 的实参相同。调用包含相同实参的此方法毫无意义"
+dataflow.message.redundant.assignment:
+    text: 变量已被指定给此值
+dataflow.message.redundant.instanceof:
+    text: '条件 <code>#ref</code> #loc是多余的，可以用 <code>!= null</code>'
+dataflow.message.redundant.update:
+    text: 变量更新不执行任何操作
+dataflow.message.return.notnull.from.nullable:
+    text: "@{0} 方法 ''{1}'' 始终返回非 null 值"
+dataflow.message.return.null.from.notnull:
+    text: <code>null</code> 由声明为 @{0} 的方法返回
+dataflow.message.return.null.from.notnullable:
+    text: <code>null</code> 由未被声明为 @{0} 的方法返回
+dataflow.message.return.nullable.from.notnull:
+    text: 表达式 <code>#ref</code> 的求值结果可能为 null，但由声明为 @{0} 的方法返回
+dataflow.message.return.nullable.from.notnull.function:
+    text: 函数可能返回null,但这里不允许
+dataflow.message.return.nullable.from.notnullable:
+    text: 表达式 <code>#ref</code> 的求值结果可能为 null，但由未被声明为 @{0} 的方法返回
+dataflow.message.storing.array.null:
+    text: <code>null</code> 已存储到 @NotNull 元素的数组中
+dataflow.message.storing.array.nullable:
+    text: 表达式 <code>#ref</code> 的求值结果可能为 null，但已存储到 @NotNull 元素的数组
+dataflow.message.unboxing:
+    text: '<code>#ref</code> #loc 取消装箱可能产生 <code>NullPointerException</code>'
+dataflow.message.unboxing.method.reference:
+    text: '使用 <code>#ref</code> #loc 需要取消装箱，这可能会产生 <code>NullPointerException</code>'
+dataflow.message.unboxing.nullable.argument.methodref:
+    text: 将实参传递到方法引用需要拆箱，这可能会产生 <code>NullPointerException</code>
+dataflow.message.unreachable.switch.label:
+    text: 'Switch 标签 <code>#ref</code> #loc 不可到达'
+dataflow.method.fails.with.null.argument:
+    text: 当形参为 null 时，方法将抛出异常
+dataflow.not.precise:
+    text: '{0} 复杂: 数据流结果可能不准确'
+dataflow.too.complex:
+    text: '{0}太复杂，无法通过数据流算法进行分析'
+delete.repeated.0:
+    text: "删除重复的 ''{0}''"
+delete.repeated.interface:
+    text: 删除重复的接口
+delimiters.argument.contains.duplicated.characters:
+    text: "StringTokenizer 'delimiters' 实参包含重复字符"
+deprecated.member.0.is.still.used:
+    text: "弃用的成员 ''{0}'' 仍在使用"
+detach.library.quickfix.name:
+    text: 分离库
+detach.library.roots.quickfix.name:
+    text: 分离未使用的库根
+dfa.find.cause.an.execution.might.exist.where:
+    text: '一个执行可能存在于:'
+dfa.find.cause.array.length.is.always.non.negative:
+    text: 数组长度始终为非负数
+dfa.find.cause.call.always.fails:
+    text: 调用始终失败
+dfa.find.cause.cast.may.fail:
+    text: 转换可能失败
+dfa.find.cause.collection.size.is.always.non.negative:
+    text: 集合大小始终为非负数
+dfa.find.cause.comparison.arguments.are.different.constants:
+    text: 比较实参为不同常量
+dfa.find.cause.comparison.arguments.are.the.same:
+    text: 比较实参相同
+dfa.find.cause.compile.time.constant:
+    text: "编译时常量，求值结果为 ''{0}''"
+dfa.find.cause.condition.is.known.from.place:
+    text: "已知 ''{0}'' 来自 ___PLACE___"
+dfa.find.cause.condition.was.checked.before:
+    text: "条件 ''{0}'' 先前已检查"
+dfa.find.cause.condition.was.deduced:
+    text: "条件 ''{0}'' 已被推导"
+dfa.find.cause.contract.kind.explicit:
+    text: 约定
+dfa.find.cause.contract.kind.hard.coded:
+    text: 硬编码约定
+dfa.find.cause.contract.kind.inferred:
+    text: 推断约定
+dfa.find.cause.contract.returns.on.condition:
+    text: "根据{0}，{1} ''{2}'' 会在{4}时返回 ''{3}''"
+dfa.find.cause.contract.throws.on.condition:
+    text: "根据{0}，{1} ''{2}'' 会在{3}时抛出异常"
+dfa.find.cause.contract.trivial:
+    text: "根据{0}，{1} ''{2}'' 始终返回 ''{3}'' 值"
+dfa.find.cause.equality.established.from.condition:
+    text: "''{0}'' 自条件建立"
+dfa.find.cause.field.assigned.nullability:
+    text: "已知字段 ''{0}'' 始终初始化为 ''{1}'' 值"
+dfa.find.cause.field.initializer.nullability:
+    text: "字段 ''{0}'' 初始化为 ''{1}'' 值"
+dfa.find.cause.instanceof.implies.non.nullity:
+    text: "'instanceof' 检查表示非 null"
+dfa.find.cause.left.operand.range.template:
+    text: 左操作数为 %s
+dfa.find.cause.may.be.null:
+    text: 可能为 null
+dfa.find.cause.nonnull.expression.kind.concatenation:
+    text: 串联
+dfa.find.cause.nonnull.expression.kind.literal:
+    text: 文字
+dfa.find.cause.nonnull.expression.kind.newly.created.object:
+    text: 新创建的对象
+dfa.find.cause.nonnull.expression.kind.primitive.type:
+    text: "基元类型 ''{0}'' 的值"
+dfa.find.cause.nonnull.expression.kind.this.object:
+    text: "'this' 对象"
+dfa.find.cause.nullability.explicitly.annotated:
+    text: "{0} ''{1}'' 注解为 ''{2}''"
+dfa.find.cause.nullability.externally.annotated:
+    text: "{0} ''{1}'' 外部注解为 ''{2}''"
+dfa.find.cause.nullability.inferred:
+    text: "{0} ''{1}'' 已推断为 ''{2}''"
+dfa.find.cause.nullability.inherited.from.class:
+    text: "{0} ''{1}'' 自类 {2} 继承注解，因此 ''{3}''"
+dfa.find.cause.nullability.inherited.from.container:
+    text: "{0} ''{1}'' 继承容器注解，因此 ''{2}''"
+dfa.find.cause.nullability.inherited.from.named.element:
+    text: "{0} ''{1}'' 继承自 {2}，因此 ''{3}''"
+dfa.find.cause.nullability.inherited.from.package:
+    text: "{0} ''{1}'' 自软件包 {2} 继承注解，因此 ''{3}''"
+dfa.find.cause.numeric.cast.operand.template:
+    text: 转换操作数为 %s
+dfa.find.cause.numeric.range.generic.template:
+    text: 值为 %s
+dfa.find.cause.object.kind.expression:
+    text: 表达式
+dfa.find.cause.object.kind.generic:
+    text: 对象
+dfa.find.cause.object.kind.method.return:
+    text: 方法返回值
+dfa.find.cause.obviously.non.null.expression:
+    text: 表达式不可为 null，因为它是 {0}
+dfa.find.cause.one.of.the.following.happens:
+    text: '发生以下情况之一:'
+dfa.find.cause.operand.of.boolean.expression.is.the.same:
+    text: '{1, choice, 0#and|1#or}-链的操作数 #{0} 是 {2}'
+dfa.find.cause.place.here:
+    text: 此处
+dfa.find.cause.place.line.number:
+    text: '行 #{0}'
+dfa.find.cause.range.is.known.from.place:
+    text: 从 ___PLACE___ 已知范围
+dfa.find.cause.range.is.specified.by.annotation:
+    text: "注解将 ''{0}'' 的范围指定为 {1}"
+dfa.find.cause.result.of.numeric.operation.template:
+    text: "''{0}'' 的结果为 %s"
+dfa.find.cause.result.of.primitive.cast.template:
+    text: "''({0})'' 转换的结果为 %s"
+dfa.find.cause.right.operand.range.template:
+    text: 右操作数为 %s
+dfa.find.cause.string.length.is.always.non.negative:
+    text: 字符串长度始终为非负数
+dfa.find.cause.type.is.known.from.place:
+    text: "从 ___PLACE___ 已知 ''{0}'' 类型"
+dfa.find.cause.type.known:
+    text: '{0} 类型为 {1}'
+dfa.find.cause.unable:
+    text: 找不到原因
+dfa.find.cause.value.is.always.the.same:
+    text: 值始终为 {0}
+dfa.find.cause.value.is.known.from.place:
+    text: "''{0}'' 已知为来自 ___PLACE___ 的 ''{1}''"
+dfa.find.cause.value.x.is.always.the.same:
+    text: "值 ''{0}'' 始终为 ''{1}''"
+dfa.find.cause.values.cannot.be.equal.because:
+    text: 值不能相等，因为 {0}
+dfa.find.cause.variable.is.initialized:
+    text: "{0} ''{1}'' 初始化为 {2}"
+dfa.find.cause.was.assigned:
+    text: "''{0}'' 已分配"
+dfa.find.cause.was.assigned.to:
+    text: "''{0}'' 已分配到 ''{1}''"
+dfa.find.cause.was.dereferenced:
+    text: "''{0}'' 已取消引用"
+dfa.find.cause.was.passed.as.non.null.parameter:
+    text: "''{0}'' 作为实参传递到接受非 null 形参的方法"
+dftype.presentation.empty.optional:
+    text: 空 Optional
+dftype.presentation.present.optional:
+    text: 目前的 Optional
+don.t.report.unused.jars.inside.used.library:
+    text: 不要在使用的库内报告未使用的 jar
+duplication.policy.ask:
+    text: 询问
+duplication.policy.generate.duplicate:
+    text: 生成重复方法
+duplication.policy.replace:
+    text: 替换现有
+element.kind.keys:
+    text: 键
+element.kind.objects:
+    text: 对象
+element.kind.values:
+    text: 值
+error.class.not.found:
+    text: 找不到类 {0}
+error.message.invalid.java.type:
+    text: 无效的 Java 类型
+exception.removal.will.break.source.code.proceed.anyway:
+    text: 异常移除会破坏源代码。仍然继续?
+explicit.type.argument.ref.loc.can.be.replaced.with:
+    text: '显式类型实参 #ref #loc 可被替换为 <>'
+exports.to.itself.delete.module.ref.fix:
+    text: "删除模块''{0}''的引用"
+exports.to.itself.delete.statement.fix:
+    text: 删除声明
+feature.annotations:
+    text: 注解
+feature.binary.literals:
+    text: 二进制文字
+feature.diamond.types:
+    text: Diamond 类型
+feature.enhanced.switch:
+    text: "增强的 'switch' 块"
+feature.extension.methods:
+    text: 扩展方法
+feature.for.each:
+    text: For-each 循环
+feature.generics:
+    text: 泛型
+feature.hex.fp.literals:
+    text: 十六进制浮点文字
+feature.intersections.in.casts:
+    text: 转换中的交叉类型
+feature.lambda.expressions:
+    text: Lambda 表达式
+feature.local.enums:
+    text: 本地枚举
+feature.local.interfaces:
+    text: 本地接口
+feature.lvti:
+    text: 局部变量类型推断
+feature.method.references:
+    text: 方法引用
+feature.modules:
+    text: 模块
+feature.multi.catch:
+    text: 多 catch
+feature.patterns.instanceof:
+    text: "'instanceof' 中的模式"
+feature.records:
+    text: 记录
+feature.sealed.classes:
+    text: 密封类
+feature.static.interface.calls:
+    text: static 接口方法调用
+feature.switch.expressions:
+    text: "'switch' 表达式"
+feature.text.block.escape.sequences:
+    text: "'\\s'转义序列"
+feature.text.blocks:
+    text: 文本块文字
+feature.try.with.resources.refs:
+    text: 资源引用
+feature.type.annotations:
+    text: 类型注解
+feature.type.receivers:
+    text: 接收器形参
+feature.underscores.in.literals:
+    text: 在文字中加下划线
+feature.var.lambda.parameter:
+    text: "lambda 形参中的 'var'"
+feature.varargs:
+    text: 可变 arity 方法
+find.searching.for.references.to.class.progress:
+    text: 正在查找对类 {0} 的引用…
+find.usages.panel.title.derived.classes:
+    text: 派生类
+find.usages.panel.title.derived.interfaces:
+    text: 派生接口
+find.usages.panel.title.implementing.classes:
+    text: 实现类
+find.usages.panel.title.implementing.methods:
+    text: 实现方法
+find.usages.panel.title.overloaded.methods.usages:
+    text: 重载方法
+find.usages.panel.title.overriding.methods:
+    text: 重写方法
+generate.members.position.after.equals.and.hashcode:
+    text: equals() 和 hashCode() 后
+generate.members.position.at.caret:
+    text: 文本光标处
+generate.members.position.at.the.end.of.class:
+    text: 类结尾处
+html.classes.exposed.with.code.module.info.code.html:
+    text: <html>类通过 <code>module-info</code> 公开</html>
+html.ignore.overrides.of.deprecated.abstract.methods:
+    text: <html>在未弃用的 super 中忽略弃用的 abstract 方法的重写</html>
+ignore.casts.in.suspicious.collections.method.calls:
+    text: 忽略澄清转换
+ignore.exceptions.thrown.by.entry.points.methods:
+    text: 忽略由入口点方法抛出的异常
+ignore.in.the.same.outermost.class:
+    text: 在相同的最外侧类中忽略
+ignore.inside.deprecated.members:
+    text: 在弃用的成员内忽略
+ignore.inside.non.static.imports:
+    text: 在非 static import 内忽略
+ignore.members.of.deprecated.classes:
+    text: 忽略弃用类的成员
+ignore.operation.which.results.in.negative.value:
+    text: "忽略 '<<' 操作，后者会导致负值"
+inspection.annotate.method.quickfix.family.name:
+    text: 标注方法
+inspection.annotate.method.quickfix.name:
+    text: "使用 ''@{0}'' 注解方法"
+inspection.annotate.overridden.method.and.self.quickfix.family.name:
+    text: 注解重写的方法和本身
+inspection.annotate.overridden.method.and.self.quickfix.name:
+    text: "使用 ''@{0}'' 注解重写的方法和本身"
+inspection.annotate.overridden.method.nullable.quickfix.name:
+    text: "将重写的方法注解为 ''@{0}''"
+inspection.annotate.overridden.method.quickfix.family.name:
+    text: 注释覆盖方法
+inspection.annotate.overridden.method.quickfix.name:
+    text: "使用 ''@{0}'' 注解重写的方法"
+inspection.anonymous.has.lambda.alternative.display.name:
+    text: 匿名类型有较短的 lambda 替代项
+inspection.block.marker.comments.display.name:
+    text: 块标记注释
+inspection.c.style.array.declarations.option:
+    text: 忽略变量中的 C 样式声明
+inspection.can.be.final.accept.quickfix:
+    text: 设为 final
+inspection.can.be.final.display.name:
+    text: "声明可以有 'final' 修饰符"
+inspection.can.be.final.option:
+    text: 报告类
+inspection.can.be.final.option1:
+    text: 报告方法
+inspection.can.be.final.option2:
+    text: 报告字段
+inspection.can.be.local.parameter.problem.descriptor:
+    text: 形参 <code>#ref</code> 可以具有 <code>final</code> 修饰符
+inspection.can.be.local.variable.problem.descriptor:
+    text: 变量 <code>#ref</code> 可以具有 <code>final</code> 修饰符
+inspection.can.be.replaced.with.message:
+    text: "可被替换为 ''{0}''"
+inspection.class.getclass.display.name:
+    text: "'Class.getClass()' 调用可疑"
+inspection.class.getclass.fix.remove.name:
+    text: "移除 'getClass()' 调用"
+inspection.class.getclass.fix.replace.name:
+    text: "替换为 'Class.class'"
+inspection.class.getclass.message:
+    text: "在类实例上调用了 'getClass()'"
+inspection.class.has.no.to.string.method.description:
+    text: "类 ''{0}'' 不会重写 ''toString()'' 方法"
+inspection.class.has.no.to.string.method.display.name:
+    text: "类不会重写 'toString()' 方法"
+inspection.class.has.no.to.string.method.exclude.classes.reg.exp.option:
+    text: '排除类 (reg exp):'
+inspection.class.has.no.to.string.method.ignore.abstract.classes.option:
+    text: 忽略抽象类
+inspection.class.has.no.to.string.method.ignore.deprecated.classes.option:
+    text: 忽略弃用的类
+inspection.class.has.no.to.string.method.ignore.enum.classes.option:
+    text: 忽略枚举类
+inspection.class.has.no.to.string.method.ignore.exception.classes.option:
+    text: 忽略异常类
+inspection.class.has.no.to.string.method.ignore.inner.classes.option:
+    text: 忽略内部类
+inspection.class.has.no.to.string.method.ignore.test.classes.option:
+    text: 忽略测试类
+inspection.common.if.parts.disable.highlight.tail.call:
+    text: 如果尾语句是调用，则不要高亮显示公用部分
+inspection.common.if.parts.family:
+    text: "提取 'if' 语句的公用部分"
+inspection.common.if.parts.family.else.if:
+    text: "合并 'else if' 语句"
+inspection.common.if.parts.family.else.if.description:
+    text: "可以合并 'else if'"
+inspection.common.if.parts.settings.highlight.when.tail.call:
+    text: 在最后一条公用语句为调用时高亮显示
+inspection.compiler.javac.quirks.anno.array.comma.fix:
+    text: 移除尾随逗号
+inspection.compiler.javac.quirks.anno.array.comma.problem:
+    text: 注解数组初始值设定项中的尾随逗号可能会在某些 Javac 版本(例如 JDK 5 和 JDK 6)中导致编译错误。
+inspection.compiler.javac.quirks.name:
+    text: Javac 杂项
+inspection.compiler.javac.quirks.qualifier.type.args.fix:
+    text: 移除泛型形参
+inspection.compiler.javac.quirks.qualifier.type.args.problem:
+    text: 在某些 Javac 版本(例如 JDK 5 和 JDK 6)中，限定符引用中的泛型可能会导致编译错误。
+inspection.constant.on.wrong.side.of.a.comparison.side.option:
+    text: 常量应位于比较一侧
+inspection.contract.checker.boolean.condition.for.nonboolean.parameter:
+    text: "形参 ''{0}'' 具有 ''{1}'' 类型(应为布尔型)"
+inspection.contract.checker.clause.syntax:
+    text: 协定子句的格式必须为 arg1, ..., argN -> 返回值
+inspection.contract.checker.contract.clause.never.satisfied:
+    text: "协定子句 ''{0}'' 从未满足，因为以前的协定涵盖了其条件"
+inspection.contract.checker.contract.violated:
+    text: "违反协定子句 ''{0}''"
+inspection.contract.checker.empty.constraint:
+    text: 约束不应为空
+inspection.contract.checker.inferred.notnull.parameter.notnull:
+    text: "形参 ''{0}'' 被推断为非 null，因此 ''!null'' 始终满足"
+inspection.contract.checker.inferred.notnull.parameter.null:
+    text: "形参 ''{0}'' 被推断为非 null，因此 ''null'' 不适用"
+inspection.contract.checker.method.always.fails.nontrivial:
+    text: "子句 ''{0}'' 的返回值可被替换为 ''fail''，因为此子句中的方法总是失败"
+inspection.contract.checker.method.always.fails.trivial:
+    text: "子句 ''{0}'' 的返回值可被替换为 ''fail''，因为方法总是失败"
+inspection.contract.checker.no.exception.thrown:
+    text: "违反协定子句 ''{0}'': 未抛出异常"
+inspection.contract.checker.notnull.parameter.notnull:
+    text: "形参 ''{0}'' 被注解为非 null，因此 ''!null'' 始终满足"
+inspection.contract.checker.notnull.parameter.null:
+    text: "形参 ''{0}'' 被注解为非 null，因此 ''null'' 不适用"
+inspection.contract.checker.parameter.count.mismatch:
+    text: "方法采用 {0} 个形参，而协定子句 ''{1}'' 预期 {2} 个"
+inspection.contract.checker.primitive.parameter.nullability:
+    text: "形参 ''{0}'' 具有基元类型 ''{1}''，因此 ''{2}'' 不适用"
+inspection.contract.checker.pure.method.mutation.contract:
+    text: 纯方法不能有变异协定
+inspection.contract.checker.unknown.constraint:
+    text: '约束应为以下值之一: {0}。实际为 {1}'
+inspection.contract.checker.unknown.return.value:
+    text: '返回值应为以下值之一: {0}。实际为 {1}'
+inspection.contract.checker.unreachable.contract.clause:
+    text: "协定子句 ''{0}'' 不可到达: 以前的协定涵盖了所有可能的情况"
+inspection.contract.display.name:
+    text: 合同的问题
+inspection.convert.2.diamond.display.name:
+    text: "显式类型可被替换为 '<>'"
+inspection.convert.2.lambda.display.name:
+    text: 匿名类型可被替换为 lambda
+inspection.data.flow.redundant.instanceof.quickfix:
+    text: 替换为!= null
+inspection.data.flow.simplify.boolean.expression.quickfix:
+    text: 简化布尔表达式
+inspection.data.flow.simplify.to.assignment.quickfix.name:
+    text: 简化正常作业
+inspection.data.flow.turn.off.constant.references.quickfix:
+    text: 不要报告总是不变的值
+inspection.data.flow.turn.off.nullable.returning.notnull.quickfix:
+    text: 不报告始终返回非 null 值的方法
+inspection.data.flow.turn.off.true.asserts.quickfix:
+    text: 不要报告总是为true的断言
+inspection.deprecated.class.usage.inspection.display.name:
+    text: XML 中的弃用 API 用法
+inspection.deprecated.is.still.used.display.name:
+    text: 弃用的成员仍在使用
+inspection.duplicate.throws.display.name:
+    text: 重复抛出
+inspection.duplicate.throws.ignore.subclassing.option:
+    text: 忽略子类化其他异常的异常
+inspection.duplicate.throws.more.general.problem:
+    text: "throws 列表中已经存在一个更一般的异常 ''{0}''。"
+inspection.duplicate.throws.problem:
+    text: throws 重复
+inspection.equals.hashcode.only.one.defined.problem.descriptor:
+    text: 类定义了 {0}，但没有定义 {1}
+inspection.export.results.can.be.final.description:
+    text: 声明可以具有 final 修饰符
+inspection.field.access.not.guarded.display.name:
+    text: 不受保护的字段访问或方法调用
+inspection.field.not.used.in.to.string.description:
+    text: "方法 ''{0}'' 未在 ''toString()'' 方法中使用"
+inspection.field.not.used.in.to.string.description2:
+    text: "字段 ''{0}'' 未在 ''toString()'' 方法中使用"
+inspection.field.not.used.in.to.string.display.name:
+    text: "字段未在 'toString()' 方法中使用"
+inspection.i18n.quickfix.annotate:
+    text: 注解…
+inspection.i18n.quickfix.annotate.as:
+    text: "注解为 ''@{0}''"
+inspection.i18n.quickfix.annotate.element:
+    text: "注释 {0} ''{1}''…"
+inspection.i18n.quickfix.annotate.element.as:
+    text: "将{0} ''{1}'' 注解为 ''@{2}''"
+inspection.implicit.subclass.display.forClass:
+    text: "类 ''{0}'' 可以隐式子类化，并且不得为 final"
+inspection.implicit.subclass.display.name:
+    text: final 声明不能在运行时被重写
+inspection.implicit.subclass.extendable:
+    text: "使''{0}''可以覆盖"
+inspection.implicit.subclass.make.class.extendable:
+    text: "使类''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 个必须的方法}可扩展"
+inspection.inconsistent.language.level.display.name:
+    text: 语言级别设置不一致
+inspection.infinite.loop.option:
+    text: 放置在 Thread.run 中时忽略
+inspection.instance.guarded.by.static.display.name:
+    text: 由 static 字段保护的实例成员
+inspection.invalid.comparator.method.reference.display.name:
+    text: "用于 'Comparator' 的无效方法引用"
+inspection.java.8.list.sort.display.name:
+    text: "'Collections.sort()' 可被替换为 'List.sort()'"
+inspection.java.9.redundant.requires.statement.display.name:
+    text: "module-info 中的冗余 'requires' 指令"
+inspection.java.module.naming:
+    text: Java 模块名称与约定相矛盾
+inspection.java.module.naming.terminal.digits:
+    text: "模块名称组件''{0}''应避免终端数字"
+inspection.local.can.be.final.display.name:
+    text: "局部变量或形参可以是 'final'"
+inspection.local.can.be.final.option:
+    text: 报告局部变量
+inspection.local.can.be.final.option1:
+    text: 报告方法形参
+inspection.local.can.be.final.option2:
+    text: 报告 catch 形参
+inspection.local.can.be.final.option3:
+    text: 报告 foreach 形参
+inspection.local.can.be.final.option4:
+    text: <html>报告为隐式 final 的变量<br/>(多 catch 或使用 try-with-resources 形参)</html>
+inspection.message.code.generation.different.nullability.annotation.will.be.used:
+    text: "生成的代码将使用 ''@{1}'' 而不是 ''@{0}''"
+inspection.message.javac.quick.intersection.type.problem:
+    text: "因为 ''{1}'' 为 final，交叉类型 ''{0}'' 无法实例化"
+inspection.message.non.annotated.method.implements.non.null.method:
+    text: "''{1}'' 中的非注解方法 ''{0}'' 实现 ''{2}'' 中的非 null 方法"
+inspection.message.non.annotated.parameter.should.not.override.non.null.parameter:
+    text: "''{2}'' 中方法 ''{1}'' 的非注解形参 ''{0}'' 不应当重写 ''{3}'' 中非 null 形参"
+inspection.message.non.null.parameter.should.not.override.non.annotated.parameter:
+    text: "''{2}'' 中方法 ''{1}'' 的非 null 形参 ''{0}'' 不应当重写 ''{3}'' 中的非注解形参"
+inspection.message.non.null.parameter.should.not.override.nullable.parameter:
+    text: "''{2}'' 中方法 ''{1}'' 的非 null 形参 ''{0}'' 不应当重写 ''{3}'' 中可为 null 的形参"
+inspection.message.nullable.method.implements.non.null.method:
+    text: "''{1}'' 中可为 null 的方法 ''{0}'' 实现 ''{2}'' 中的非 null 方法"
+inspection.module.exports.package.to.itself:
+    text: 模块将软件包导出/打开到本身
+inspection.non.final.field.in.immutable.display.name:
+    text: "'@Immutable' 类中有非 final 字段"
+inspection.non.final.guard.display.name:
+    text: "非 final '@GuardedBy' 字段"
+inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
+    text: 使用 @{0} 注解的形参不得重写 @{1} 形参
+inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
+    text: 使用 @{0} 注解的形参不应重写非注解形参
+inspection.nullable.problems.NotNull.parameter.receives.null.literal:
+    text: "使用 @{0} 注解的形参不应该接收 ''null'' 作为实参"
+inspection.nullable.problems.Nullable.NotNull.conflict:
+    text: 不能同时使用 @{0} 和 @{1} 注解
+inspection.nullable.problems.Nullable.method.overrides.NotNull:
+    text: '@{0} 注解的方法不能重写 @{1} 方法'
+inspection.nullable.problems.annotated.field.constructor.parameter.not.annotated:
+    text: '@{0} 字段的构造函数形参可能会使用 @{0} 自身注解'
+inspection.nullable.problems.annotated.field.getter.conflict:
+    text: '@{0}字段的Getter已经注解 @{1}'
+inspection.nullable.problems.annotated.field.getter.not.annotated:
+    text: '@{0}字段的Getter可能会注解 @{0}本身'
+inspection.nullable.problems.annotated.field.setter.parameter.conflict:
+    text: '@{0} 字段的 setter 形参使用 @{1} 注解'
+inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
+    text: '@{0} 字段的 setter 形参可能会使用 @{0} 自身注解'
+inspection.nullable.problems.applied.to.package:
+    text: 完全限定名称的注解必须放在最后一个组件之前
+inspection.nullable.problems.at.constructor:
+    text: 为 null 性注解不适用于构造函数
+inspection.nullable.problems.at.enum.constant:
+    text: 为 null 性注解不适用于枚举常量
+inspection.nullable.problems.at.local.variable:
+    text: 为 null 性注解不适用于局部变量
+inspection.nullable.problems.at.reference.list:
+    text: 为 null 性注解不适用于 extends/implements 子句
+inspection.nullable.problems.at.type.parameter:
+    text: 为 null 性注解不适用于类型形参
+inspection.nullable.problems.at.wildcard:
+    text: 为 null 性注解不适用于通配符类型
+inspection.nullable.problems.method.overrides.NotNull:
+    text: 未注解的方法重写注解为 @{0} 的方法
+inspection.nullable.problems.outer.type:
+    text: 外部类型本身非 null
+inspection.nullable.problems.parameter.overrides.NotNull:
+    text: 未注解的形参重写 @{0} 形参
+inspection.nullable.problems.primitive.type.annotation:
+    text: 不能注解基元类型成员
+inspection.nullable.problems.receiver.annotation:
+    text: 接收器形参本身非 null
+inspection.numeric.overflow.display.name:
+    text: 数值溢出
+inspection.objects.equals.can.be.simplified.display.name:
+    text: "'Objects.equals()' 可被替换为 'equals()'"
+inspection.redundant.cast.display.name:
+    text: 冗余类型转换
+inspection.redundant.cast.problem.descriptor:
+    text: '将 <code>{0}</code> 转换为 <code>#ref</code> #loc 是冗余的'
+inspection.redundant.cast.remove.quickfix:
+    text: 移除多余的转换
+inspection.redundant.field.initialization.option:
+    text: 仅在初始化为 null 时发出警告
+inspection.redundant.requires.statement.description:
+    text: "冗余指令 ''requires {0}''。"
+inspection.redundant.requires.statement.fix.family:
+    text: "删除冗余 'requires' 指令"
+inspection.redundant.requires.statement.fix.name:
+    text: "删除指令 ''requires {0}''"
+inspection.redundant.throws.display.name:
+    text: "冗余 'throws' 子句"
+inspection.redundant.throws.problem.descriptor:
+    text: 声明的异常 <code>#ref</code> 从不在任何方法实现中抛出
+inspection.redundant.throws.problem.descriptor1:
+    text: 声明的异常 <code>#ref</code> 从不在此方法或其重写方法中抛出
+inspection.redundant.throws.problem.descriptor2:
+    text: 声明的异常 <code>#ref</code> 从不抛出
+inspection.redundant.throws.remove.quickfix:
+    text: 删除不必要的抛出声明
+inspection.redundant.type.display.name:
+    text: 冗余类型实参
+inspection.redundant.type.no.generics.method.reference.problem.descriptor:
+    text: 类型实参对于非泛型方法引用是冗余的
+inspection.redundant.type.no.generics.problem.descriptor:
+    text: 类型实参对于非泛型方法调用是冗余的
+inspection.redundant.type.problem.descriptor:
+    text: 显式类型实参可以推断
+inspection.redundant.type.remove.quickfix:
+    text: 移除类型实参
+inspection.reference.anonymous.name:
+    text: 匿名 ({0})
+inspection.reference.implicit.constructor.name:
+    text: 隐式构造函数{0}
+inspection.reference.jsp.holder.method.anonymous.name:
+    text: <% 页面内容 %>
+inspection.requires.auto.module:
+    text: 依赖于自动模块
+inspection.requires.auto.module.message:
+    text: "自动导入模块需要'requires'指令"
+inspection.requires.auto.module.option:
+    text: 仅高亮显示可传递依赖项
+inspection.requires.auto.module.transitive:
+    text: "自动模块需要'requires transitive'指令"
+inspection.safe.varargs.detector.display.name:
+    text: 形参化 vararg 类型可能导致堆污染
+inspection.same.return.value.display.name:
+    text: 方法始终返回相同的值
+inspection.same.return.value.problem.descriptor:
+    text: 方法 <code>#ref()</code> 始终返回 <code>{0}</code>
+inspection.same.return.value.problem.descriptor1:
+    text: 方法 <code>#ref()</code> 及其所有重写方法始终返回 <code>{0}</code>
+inspection.same.return.value.problem.descriptor2:
+    text: 方法 <code>#ref()</code> 的所有实现始终返回 <code>{0}</code>
+inspection.static.guarded.by.instance.display.name:
+    text: 由实例字段或 this 防护的 static 成员
+inspection.string.tokenizer.delimiter.display.name:
+    text: "'StringTokenizer' 中的分隔符重复"
+inspection.surround.requirenonnull.quickfix:
+    text: "替换为 ''Objects.requireNonNull({0})''"
+inspection.suspicious.array.method.call.display.name:
+    text: "可疑的 'Arrays' 方法调用"
+inspection.suspicious.array.method.call.problem.arrays:
+    text: 'Array类型不兼容: 数组总是不同的'
+inspection.suspicious.array.method.call.problem.element:
+    text: 元素类型与数组类型不兼容
+inspection.suspicious.collections.method.calls.display.name:
+    text: 可疑的集合方法调用
+inspection.suspicious.collections.method.calls.problem.descriptor:
+    text: "''{0}''可能不包含类型''{1}''的{2}"
+inspection.suspicious.collections.method.calls.problem.descriptor1:
+    text: "可疑的调用''{0}''"
+inspection.suspicious.getter.setter.field.option:
+    text: 仅在存在字段匹配 getter/setter 名称时发出警告
+inspection.suspicious.integer.div.assignment.option:
+    text: 报告可疑但可能准确的除法
+inspection.test.only.problems.test.only.class.reference:
+    text: 测试类是在生产代码引用
+inspection.test.only.problems.test.only.method.call:
+    text: 测试只有在生产代码中调用方法
+inspection.unary.plus.unary.binary.option:
+    text: 仅在混乱的二进制或一元表达式上下文中报告
+inspection.unknown.guard.display.name:
+    text: "未知 '@GuardedBy' 字段"
+inspection.unnecessary.super.qualifier.option:
+    text: "忽略说明 'super' 限定符"
+inspection.use.compare.method.display.name:
+    text: "可以使用 'compare()' 方法比较数值"
+inspection.use.compare.method.fix.family.name:
+    text: 替换为单个比较方法
+inspection.visibility.accept.quickfix:
+    text: 接受建议的访问级别
+inspection.visibility.compose.suggestion:
+    text: 可以是 {0}
+inspection.visibility.option.constants:
+    text: 为常量建议较弱的可见性
+inspection.visibility.option.package.private.members:
+    text: 为类成员建议 package-private 可见性级别
+inspection.visibility.package.private.top.level.classes:
+    text: 为顶级类建议 package-private 可见性级别
+inspection.visibility.private.inner.members:
+    text: "仅在从外部类引用时为内部类成员建议 'private'"
+inspection.weaker.access.display.name:
+    text: 声明访问可以更弱
+instance.member.guarded.by.static.0.loc:
+    text: '由 static“{0}”保护的实例成员 #loc'
+instance.member.guarded.by.static.ref.loc:
+    text: '由 static #ref 保护的实例成员 #loc'
+intention.add.annotation.family:
+    text: 添加注解
+intention.add.type.annotation.family:
+    text: 添加类型注解
+intention.family.name.move.annotation.to.array:
+    text: 将注解移至数组
+intention.name.qualify.expression:
+    text: "使用 ''{1}'' 限定 {0} 表达式"
+intention.text.remove.annotation:
+    text: 移除
+long.range.set.presentation.any:
+    text: 任意值
+long.range.set.presentation.divisible.by:
+    text: 可被 {0} 整除
+long.range.set.presentation.empty:
+    text: 未知
+long.range.set.presentation.even:
+    text: 偶数
+long.range.set.presentation.odd:
+    text: 奇数
+long.range.set.presentation.range:
+    text: ({0} 中)
+long.range.set.presentation.two.values:
+    text: '{0} 或 {1}'
+make.0.default.annotation:
+    text: 将“{0}”设为默认注解
+make.default.the.last.case.family.name:
+    text: "使 'default' 为最后一个 case"
+make.final.and.annotate.as.safevarargs:
+    text: "设为 final 并注解为 '@SafeVarargs'"
+message.class.inaccessible:
+    text: "类 ''{0}'' 无法在此处访问"
+message.class.inaccessible.from.module:
+    text: "类 ''{0}'' 无法从模块 ''{1}'' 访问"
+method.reference.mapped.to.comparator:
+    text: "映射到 'Comparator' 接口的方法引用不会履行 'Comparator' 约定"
+module.0.with.language.level.1.depends.on.module.2.with.language.level.3:
+    text: 语言级别为 {1} 的模块 {0} 取决于语言级别为 {3} 的模块 {2}
+move.0.to.the.beginning:
+    text: "将 ''{0}'' 移至开头"
+move.to.front:
+    text: 移到前面
+mutability.modifiable:
+    text: 可修改
+mutability.unknown:
+    text: 未知
+mutability.unmodifiable:
+    text: 不可修改
+mutability.unmodifiable.view:
+    text: 不可修改的视图
+mutation.signature.problem.invalid.token:
+    text: "无效的令牌: {0}；受支持的令牌为 ''this''、''param1''、''param2'' 等。"
+mutation.signature.problem.parameter.has.immutable.type:
+    text: "形参 #{0} 具有不可变类型 ''{1}''"
+mutation.signature.problem.reference.to.parameter.invalid:
+    text: '形参 #{0} 的引用无效'
+mutation.signature.problem.static.method.cannot.mutate.this:
+    text: "static 方法无法改变 'this'"
+navigate.to.overridden.methods.title:
+    text: '{0} 的重写方法'
+non.final.field.code.ref.code.in.immutable.class.loc:
+    text: '非 final 字段 <code>#ref</code> 位于 @Immutable 类中 #loc'
+non.final.guarded.by.field.0.loc:
+    text: 非 final @GuardedBy 字段“{0}”#loc
+non.final.guarded.by.field.ref.loc:
+    text: '非 final @GuardedBy 字段 #ref #loc'
+non.null.type.argument.is.expected:
+    text: 应为非 null 类型实参
+nullability.non.null:
+    text: 非 null
+nullability.nullable:
+    text: 可 null
+nullable.stuff.error.overriding.notnull.with.nullable:
+    text: 使用可 null 元素集合重写非 null 元素的集合
+nullable.stuff.error.overriding.nullable.with.notnull:
+    text: 使用非 null 元素集合重写可 null 元素的集合
+nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
+    text: 被重写的方法形参不会被注解
+nullable.stuff.problems.overridden.methods.are.not.annotated:
+    text: 重写的方法不是注释
+parameter.can.be.null:
+    text: 形参可以为 null
+parameter.is.always.not.null:
+    text: 形参始终为非 null
+possible.heap.pollution.from.parameterized.vararg.type.loc:
+    text: '来自形参化 vararg 类型的可能的堆污染 #loc'
+processing.method.usages:
+    text: 正在处理方法用例…
+progress.title.searching.for.overridden.methods:
+    text: 正在搜索被重写的方法
+provided.type:
+    text: 已提供
+qualify.0:
+    text: 限定 {0}
+qualify.with.0.this:
+    text: 使用 {0}.this 限定
+redundant.block.marker:
+    text: 冗余块标记
+remove.annotation:
+    text: 移除注解
+remove.block.marker.comments:
+    text: 移除块标记注释
+remove.dependency:
+    text: 移除依赖项
+remove.left.side.of.assignment:
+    text: 移除赋值的左侧
+remove.switch.branch.0:
+    text: "移除 switch 分支 ''{0}''"
+remove.switch.label:
+    text: 移除 switch 标签
+remove.switch.label.0:
+    text: "移除 switch 标签 ''{0}''"
+replace.0.with:
+    text: "将 ''{0}()'' 替换为 ''+=''"
+replace.anonymous.class.with.lambda.alternative:
+    text: 将匿名类替换为 lambda 替代项
+replace.get.class.with.class.literal:
+    text: 使用 .class 文字替换 getClass()
+replace.operator.assignment.with.assignment:
+    text: 将运算符赋值替换为赋值
+replace.stringtokenizer.delimiters.parameter.with.unique.symbols:
+    text: "从 'delimiters' 实参中移除重复内容"
+replace.var.with.explicit.type:
+    text: "将 'var' 替换为显式类型"
+replace.with.0:
+    text: 替换为 {0}
+replace.with.comparator:
+    text: 替换为比较运算符
+replace.with.constant.value:
+    text: 替换为常量值
+replace.with.expression.lambda:
+    text: 替换为表达式 lambda
+replace.with.lambda:
+    text: 替换为 lambda
+report.suspicious.but.possibly.correct.method.calls:
+    text: 报告可疑的，但可能是正确的方法调用 (&R)
+report.when.interface.is.not.annotated.with.functional.interface:
+    text: 在接口未使用 @FunctionalInterface 注解时报告
+required.type:
+    text: 必需类型
+scope.package:
+    text: 软件包 {0}
+searching.for.overriding.methods:
+    text: 正在搜索重写方法
+service.provides:
+    text: 提供服务
+service.uses:
+    text: 使用服务
+special.field.array.length:
+    text: 数组长度
+special.field.collection.size:
+    text: 大小
+special.field.optional.value:
+    text: 可选值
+special.field.string.length:
+    text: 字符串长度
+special.field.unboxed.value:
+    text: 拆箱的值
+statement.lambda.can.be.replaced.with.expression.lambda:
+    text: 语句 lambda 可被替换为表达式 lambda
+static.inheritrance.fix.replace.progress:
+    text: 正在替换 {0} 的用例
+static.member.guarded.by.instance.0.loc:
+    text: '由实例“{0}”保护的 static 成员 #loc'
+static.member.guarded.by.instance.ref.loc:
+    text: '由实例保护的 static 成员 #ref #loc'
+subclasses.search.progress.title:
+    text: 正在搜索被重写的方法
+suggest.package.private.visibility.level.for.classes.in.exported.packages.java.9:
+    text: 在导出的软件包中为类建议 package-private 可见性级别(Java 9)
+suppress.all.for.class:
+    text: 禁止类的所有检查
+suppress.for.parameter:
+    text: 对形参禁止
+suppress.for.statement.with.comment:
+    text: 使用注释对语句禁止
+suppress.inspection.class:
+    text: 对类禁止
+suppress.inspection.field:
+    text: 对字段禁止
+suppress.inspection.member:
+    text: 对成员禁止
+suppress.inspection.method:
+    text: 对方法禁止
+suppress.inspection.module:
+    text: 对模块禁止
+suspected.module.dependency.problem.descriptor:
+    text: "模块 ''{0}'' 不依赖于模块 ''{1}''。不过，未检查 ''{1}'' 是否存在作用域 ''{2}'' 所需的导出依赖项"
+suspicious.invocation.handler.implementation.display.name:
+    text: "可疑的 'InvocationHandler' 实现"
+suspicious.invocation.handler.implementation.method.unused.message:
+    text: "方法从未在 'invoke' 中使用: 'hashCode'、'equals' 和 'toString' 不太可能正确实现"
+suspicious.invocation.handler.implementation.null.returned.for.toString.message:
+    text: "代理方法 'toString()' 时，可能返回 null: 不建议如此操作"
+suspicious.invocation.handler.implementation.null.returned.message:
+    text: "代理方法 ''{0}()'' 时，可能返回 null: 这可能导致 NullPointerException"
+suspicious.invocation.handler.implementation.type.mismatch.message:
+    text: "代理方法 ''{0}()'' 时，可能返回不兼容类型: 要求 {1}，实际为 {2}"
+text.raw.ctor.reference.with.type.parameters:
+    text: 原始构造函数引用具有构造函数的显式类型形参
+text.shebang.mechanism.in.java.files.not.permitted:
+    text: 不支持在 .java 文件中使用事件机制
+text.unused.import.in.template:
+    text: 未使用的 import (在模板中指定)
+type.constraint.assignability.explanation.definitely.inconvertible:
+    text: 已知 {0} 是 {1}，与 {2} 绝对不兼容
+type.constraint.assignability.explanation.exact:
+    text: '{0} 已知为 {1}'
+type.constraint.assignability.explanation.exact.not.subtype:
+    text: '{0} 类型恰好是 {1}，不是 {2} 的子类型'
+type.constraint.assignability.explanation.exact.subtype:
+    text: '{0} 类型恰好是 {1}，是 {2} 的子类型'
+type.constraint.assignability.explanation.not.instance.of:
+    text: 已知 {0} 不是 {1}
+type.constraint.assignability.explanation.not.instance.of.supertype:
+    text: 已知 {0} 不是 {2} 的父类型 {1}
+type.constraint.assignability.explanation.subtype.of.subtype:
+    text: 已知 {0} 是 {1}，是 {2} 的子类型
+type.information.local.object:
+    text: 本地对象
+type.mismatch.reason:
+    text: '原因: {0}'
+unknown.guardedby.reference.0.loc:
+    text: 未知的 @GuardedBy 引用“{0}”#loc
+unknown.guardedby.reference.ref.loc:
+    text: '未知的 @GuardedBy 引用 #ref #loc'
+unnecessary.module.dependency.display.name:
+    text: 不必要的模块依赖
+unnecessary.module.dependency.problem.descriptor:
+    text: "模块''{0}''源不依赖于模块''{1}''源"
+unused.import.display.name:
+    text: 未使用的 import
+unused.import.statement:
+    text: 未使用的 import 语句
+unused.library.display.name:
+    text: 未使用的库
+unused.library.problem.descriptor:
+    text: "未使用的库''{0}''"
+unused.library.roots.problem.descriptor:
+    text: "未使用的根{0}从库''{1}''"
+var.can.be.replaced.with.explicit.type:
+    text: "'var' 可被替换为显式类型"
+vararg.method.call.with.50.poly.arguments:
+    text: 具有超过 50 个 poly 实参的 vararg 方法调用可能会导致编译和分析速度减慢

@@ -1,0 +1,168 @@
+action.MakeAllJarsAction.text:
+    text: 准备所有要部署的插件
+action.MakeJarAction.text:
+    text: 准备部署
+command.implement.externalizable:
+    text: 实现可外部化
+create.description.file:
+    text: 创建描述文件{0}
+deployment.cleanup:
+    text: 清理 {0} 目录
+deployment.directory.location:
+    text: 选择 {0} 目录位置
+deployment.title:
+    text: 插件部署
+deployment.view.delete:
+    text: 确定删除{0}?
+deployment.view.select:
+    text: 选择 {0}
+error.cannot.resolve.plugin:
+    text: "无法解析依赖项中的插件 ''{0}''"
+error.file.not.found:
+    text: 找不到文件
+error.file.not.found.message:
+    text: "文件''{0}''未找到"
+error.no.plugin.xml:
+    text: 找不到 plugin.xml 文件
+error.occurred:
+    text: 出错
+error.plugin.xml.readonly:
+    text: '无法处理只读 plugin.xml 文件: {0}'
+group.PluginDeployActions.text:
+    text: 插件部署操作
+info.message:
+    text: 信息
+inspection.file.equals.usage.display.name:
+    text: File.equals() 用法
+inspection.plugin.xml.validity.display.name:
+    text: Plugin.xml 有效性
+inspection.stateful.ep.display.name:
+    text: 有状态扩展
+inspection.undesirable.class.usage.display.name:
+    text: 不需要的类用法
+inspection.unsafe.vfs.recursion.display.name:
+    text: 不安全的 VFS 递归
+inspection.use.couple.display.name:
+    text: 使用 Couple 而不是 Pair
+inspections.component.not.registered.message:
+    text: '{0} 未在 plugin.xml 中注册'
+inspections.component.not.registered.name:
+    text: 组件/操作未注册
+inspections.component.not.registered.option.check.actions:
+    text: 检查操作
+inspections.component.not.registered.option.ignore.non.public:
+    text: 忽略非 public 类
+inspections.component.not.registered.quickfix.error:
+    text: 无法注册 {0}
+inspections.component.not.registered.quickfix.family:
+    text: 注册 {0}
+inspections.component.not.registered.quickfix.name:
+    text: 注册 {0}
+inspections.registration.problems.abstract:
+    text: 插件组件类不得为 abstract
+inspections.registration.problems.component.duplicate.interface:
+    text: "不允许多个具有相同 'interface-class' 的组件"
+inspections.registration.problems.component.incompatible.interface:
+    text: "组件类不可分配给其接口类 ''{0}''"
+inspections.registration.problems.incompatible.message:
+    text: "根据在 plugin.xml 中的注册，该类应扩展 ''{0}''"
+inspections.registration.problems.missing.noarg.ctor:
+    text: 操作类必须具有无实参的构造函数
+inspections.registration.problems.name:
+    text: 组件类型不匹配
+inspections.registration.problems.quickfix.create.constructor:
+    text: 插件无实参构造函数
+jdk.no.specified:
+    text: 未指定 SDK
+jdk.type.incorrect:
+    text: SDK 类型错误
+manifest.selection:
+    text: 选定的 {0} 将包含在得到的分发中
+manifest.settings:
+    text: 清单设置
+manifest.use.user.defined:
+    text: '使用用户清单:'
+new.action.action.name:
+    text: '正在创建新操作: {0}。{1}'
+new.action.add.to.group:
+    text: 添加到组
+new.action.class.name:
+    text: '类名(&C):'
+new.action.description:
+    text: '描述(&D):'
+new.action.dialog.title:
+    text: 新操作
+new.action.error:
+    text: 无法创建操作
+new.action.group.actions:
+    text: '操作(&I):'
+new.action.group.anchor:
+    text: '定位标记:'
+new.action.group.anchor.after:
+    text: 后面(&T)
+new.action.group.anchor.before:
+    text: 之前 (&B)
+new.action.group.anchor.first:
+    text: 第一个(&F)
+new.action.group.groups:
+    text: '组(&G):'
+new.action.id:
+    text: '操作 ID(&A):'
+new.action.keyboard.clear.tooltip:
+    text: 清除快捷键
+new.action.keyboard.first:
+    text: '第一:'
+new.action.keyboard.second:
+    text: '第二:'
+new.action.keyboard.shortcuts:
+    text: 键盘快捷键
+new.action.text:
+    text: '名称(&N):'
+new.menu.action.text:
+    text: 操作
+new.menu.application.component.text:
+    text: 应用程序组件
+new.menu.project.component.text:
+    text: 项目组件
+plugin.descriptor:
+    text: IntelliJ 平台插件描述符
+prepare.for.deployment:
+    text: "为部署准备插件模块 ''{0}''"
+prepare.for.deployment.all:
+    text: 为部署准备所有插件模块
+program.parameters:
+    text: 程序实参(&P)
+run.configuration.title:
+    text: 插件
+run.configuration.type.description:
+    text: 插件沙盒环境
+sandbox.home:
+    text: 沙盒主页
+sandbox.home.label:
+    text: '沙盒主页:'
+sandbox.no.configured:
+    text: 未为 IntelliJ 平台插件 SDK 指定沙盒
+sandbox.purpose:
+    text: 浏览文件夹以放置目标 IDE 的配置、系统和插件
+sandbox.specification:
+    text: 请配置沙盒
+saved.message:
+    text: "模块 ''{1}'' 的 {0, choice, 1#Zip|2#JAR} 文件保存至 {2}"
+saved.message.common:
+    text: '{0} 将保存在所选目录中'
+sdk.title:
+    text: IntelliJ 平台插件 SDK
+select.plugin.modules.description:
+    text: 选择要准备部署的模块
+select.plugin.modules.title:
+    text: 选择模块
+select.target.location.of.description:
+    text: 选择 {0} 的目标位置
+success.deployment.message:
+    text: "已成功进行插件模块 ''{0}'' 部署准备"
+success.deployment.message.all:
+    text: 已成功进行所有插件的部署准备
+suggest.to.delete:
+    text: "是否删除 ''{0}''?"
+vm.parameters:
+    text: 虚拟机选项(&V)

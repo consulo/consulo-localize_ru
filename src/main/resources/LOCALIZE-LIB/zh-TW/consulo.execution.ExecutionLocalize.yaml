@@ -1,0 +1,702 @@
+action.Runner.ToggleTabLabels.text:
+    text: 顯示頁籤標籤
+action.name.save.as.configuration:
+    text: 另存
+action.name.save.configuration:
+    text: 儲存設定
+action.terminating.process.progress.kill.description:
+    text: 終止行程
+add.new.run.configuration.action.name:
+    text: "新增新的設定 ''{0}''"
+add.new.run.configuration.action2.name:
+    text: 新增新設定
+all.tests.scope.presentable.text:
+    text: 測試全部
+applet.configuration.applet.class.border:
+    text: Applet類別
+applet.configuration.applet.class.label:
+    text: 'Applet類別:'
+applet.configuration.applet.class.option:
+    text: '&Applet類別'
+applet.configuration.applet.parameters.label:
+    text: Applet參數
+applet.configuration.description:
+    text: Applet 設定
+applet.configuration.height.label:
+    text: '高度:'
+applet.configuration.parameter.name.column:
+    text: 名字
+applet.configuration.parameter.value.column:
+    text: 值
+applet.configuration.policy.file.label:
+    text: '策略檔案(&P):'
+applet.configuration.url.html.file.label:
+    text: 'URL/HTML檔案:'
+applet.configuration.vm.parameters.for.appletviewer.label:
+    text: 'Appletviewer &VM 設定 :'
+applet.configuration.width.label:
+    text: '寬度:'
+application.configuration.main.class.label:
+    text: '主類別:'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: '使用模組的類別路徑:'
+apply.action.name:
+    text: 套用
+before.launch.compile.step:
+    text: 構建
+before.launch.compile.step.no.error.check:
+    text: 構建, 核對無錯
+before.launch.panel.cyclic_dependency_warning:
+    text: '"{0}"已經設定為{1}之前推出.這種循環依賴關係是不被允許的.'
+before.launch.panel.empty:
+    text: 執行開始之前沒有工作
+before.launch.panel.title:
+    text: 開始之前
+before.launch.run.another.configuration:
+    text: 執行其他的設定
+before.launch.run.another.configuration.choose:
+    text: 選取設定來執行
+before.launch.run.certain.configuration:
+    text: "執行 ''{0}''"
+before.launch.run.unknown.task:
+    text: 未知的工作
+before.run.property.make:
+    text: 標記
+button.add:
+    text: 新增
+button.disconnect:
+    text: 中斷
+button.remove:
+    text: 刪除(&R)
+button.terminate:
+    text: 終止
+cannot.browse.method.dialog.title:
+    text: 無法瀏覽方法
+cannot.browse.test.inheritors.dialog.title:
+    text: 不能瀏覽TestCase的繼承者
+choose.applet.class.dialog.title:
+    text: 選取Applet類別
+choose.html.file.dialog.title:
+    text: 選取HTML檔案
+choose.main.class.dialog.title:
+    text: 選取主類別
+choose.package.dialog.title:
+    text: 選取包
+choose.run.configuration.action.description:
+    text: 開啟執行/診斷設定下拉選單
+choose.test.class.dialog.title:
+    text: 選取測試類別
+choose.test.method.dialog.title:
+    text: 選取測試方法
+class.does.not.exists.error.message:
+    text: 類別{0}不存在
+class.isnt.inheritor.of.testcase.error.message:
+    text: '{0} 不是繼承自TestCase'
+class.isnt.test.class.error.message:
+    text: '{0} 不是測試類別'
+class.not.found.in.module.error.message:
+    text: "類別 ''{0}'' 未發現在 ''{1}'' 中"
+class.not.specified.error.message:
+    text: 類別沒有指定。
+clear.all.from.console.action.name:
+    text: 清除全部
+close.tab.action.name:
+    text: 關閉
+combobox.console.default.encoding.label:
+    text: '預設編碼:'
+combobox.console.favorites.separator.label:
+    text: 收藏夾
+combobox.console.more.separator.label:
+    text: 更多
+configuration.action.chooser.title:
+    text: 執行選取的設定
+configuration.edit.before.run:
+    text: 顯示該頁
+configuration.not.speficied.message:
+    text: 設定測試類型沒有指定
+configuration.singleton:
+    text: 檢查是否有其他實例正在執行
+confirm.background.process.stop:
+    text: 確認停止背景行程
+confirm.process.stop:
+    text: 確認停止行程
+copy.configuration.action.name:
+    text: 複製設定
+copy.content.action.name:
+    text: 複製內容
+copy.selected.content.action.name:
+    text: 複製選取的內容
+coverage.tab.title:
+    text: 代碼覆寫率
+create.run.configuration.action.name:
+    text: 建立執行設定
+create.run.configuration.for.item.action.name:
+    text: "建立 ''{0}''"
+create.run.configuration.for.item.dialog.title:
+    text: "建立執行/診斷設定: ''{0}''"
+default.package.configuration.name:
+    text: 預設包
+default.runner.start.action.text:
+    text: 執行(&U)
+default.settings.editor.dialog.title:
+    text: 預設設定
+delete.confirmation.dialog.title:
+    text: 刪除設定
+diff.content.actual.title:
+    text: 實際的
+diff.content.actual.title.with.file.url:
+    text: 實為({0})
+diff.content.expected.for.file.title:
+    text: '預期的  :'
+diff.content.expected.title:
+    text: 預期的
+diff.content.expected.title.with.file.url:
+    text: 應為({0})
+disconnect.process.confirmation.text:
+    text: "你確定要中斷進程 ''{0}''?"
+down.the.stack.trace:
+    text: 下移堆疊追蹤
+edit.configuration.action:
+    text: 編輯設定
+edit.run.configuration.for.item.dialog.title:
+    text: "編輯執行設定: ''{0}''"
+edit.run.configuration.run.configuration.name.label:
+    text: '名稱:'
+empty.run.configuration.panel.text.label1:
+    text: 按
+empty.run.configuration.panel.text.label3:
+    text: 按鈕來建立一個新的{0}基於預設設定
+enable.coverage.with.emma:
+    text: 記錄代碼覆寫率訊息
+env.vars.checkbox.title:
+    text: 包括父環境變數(&I)
+env.vars.show.system:
+    text: 顯示
+environment.variables.component.title:
+    text: 環境變數
+environment.variables.dialog.title:
+    text: 環境變數
+environment.variables.helper.use.arguments.label:
+    text: <html><body>使用下面的命令列參數執行遠端JVM</body></html>
+environment.variables.system.dialog.title:
+    text: 系統環境
+error.common.title:
+    text: 錯誤
+error.running.configuration.message:
+    text: 執行錯誤 {0}
+execute.before.run.debug.dialog.title:
+    text: 在執行/診斷之前執行 {0}
+export.test.results.custom.template.chooser.title:
+    text: 選取自訂範本
+export.test.results.dialog.title:
+    text: 匯出測試結果
+export.test.results.failed:
+    text: '測試結果匯出失敗: {0}'
+export.test.results.file.exists.message:
+    text: "檔案 ''{0}'' 已經存在。你確定要覆寫嗎？"
+export.test.results.file.exists.title:
+    text: 匯出測試結果
+export.test.results.filename:
+    text: 測試結果 - {0}
+export.test.results.footer:
+    text: 產生 {0} 在 {1}
+export.test.results.open.browser:
+    text: 在瀏覽器中開啟匯出檔案
+export.test.results.open.editor:
+    text: 在編輯器中開啟匯出檔案
+export.test.results.output.filename.empty:
+    text: 輸出檔案名為空
+export.test.results.output.folder.chooser.title:
+    text: 選取輸出資料夾
+export.test.results.output.path.empty:
+    text: 輸出路徑為空
+export.test.results.succeeded:
+    text: <html>測試結果成功匯出到 <a href="#a">{0}</a></html>
+export.test.results.task.name:
+    text: 正在匯出測試結果
+failed.to.create.output.file:
+    text: "未能建立輸出檔案 ''{0}''"
+failed.to.generate.wrapper.error.message:
+    text: 為applet類別產生臨時HTML包裝器失敗
+fix.run.configuration.problem.button:
+    text: 固定
+home.directory.not.specified.for.jdk.error.message:
+    text: JDK未指定主目錄
+html.file.not.specified.error.message:
+    text: 沒有指定HTML檔案
+incompatible.configuration.is.running.dialog.title:
+    text: 不相容的設定 {0, choice, 1# Is|2#s Are} 執行中
+instantiating.tests.progress.text:
+    text: 實例化測試...
+invalid.data.dialog.title:
+    text: 無效資料
+jdk.is.bad.configured.error.message:
+    text: "''{0}'' 是壞的設定"
+jdk.not.configured.error.message:
+    text: "JDK ''{0}'' 沒有設定"
+jnit.configuration.all.tests.in.package.radio:
+    text: 所有的測試在包
+jre.not.valid.error.message:
+    text: "''{0}'' 不是有效的 JRE 根目錄"
+junit.actual.text.label:
+    text: '實際的  :'
+junit.all.tests.passed.label:
+    text: 所有測試通過
+junit.auto.scroll.to.source.action.name:
+    text: 自動捲動到源
+junit.configuration.across.module.dependencies.radio:
+    text: 跨模組依賴項
+junit.configuration.all.in.package.radio:
+    text: 所有在包
+junit.configuration.configure.junit.test.kind.label:
+    text: '測試種類別:'
+junit.configuration.configure.junit.test.label:
+    text: '測試:'
+junit.configuration.description:
+    text: JUnit 測試設定
+junit.configuration.in.single.module.radio:
+    text: 在單一模組
+junit.configuration.in.whole.project.radio:
+    text: 在整個項目
+junit.configuration.search.for.tests.label:
+    text: '測試中搜尋:'
+junit.configuration.test.border:
+    text: 測試
+junit.configuration.test.class.radio:
+    text: 測試類別
+junit.configuration.test.method.radio:
+    text: 測試方法
+junit.configuration.test.runner.parameters.label:
+    text: '測試執行器參數:'
+junit.jar.not.found.in.module.class.path.error.message:
+    text: "junit.jar 沒有發現在 ''{0}'' 類別路徑中"
+junit.not.found.in.module.error.message:
+    text: "模組 ''{0}'' 中未發現JUnit"
+junit.open.text.in.editor.action.name:
+    text: 在編輯器開啟選擇的測試
+junit.runing.info.assertion.tree.node:
+    text: 宣告
+junit.runing.info.error.tree.node:
+    text: 錯誤
+junit.runing.info.folders.on.top.action.description:
+    text: 在頂部對套件進行排序
+junit.runing.info.folders.on.top.action.name:
+    text: 套件總在最前面
+junit.runing.info.hide.successful.config.action.name:
+    text: 隱藏成功安裝/拆卸
+junit.runing.info.ignored.console.message:
+    text: "測試 ''{0}.{1}'' 被忽略"
+junit.runing.info.ignored.label:
+    text: 被忽略
+junit.runing.info.include.non.started.in.rerun.failed.action.name:
+    text: 包括無法啟動測試的執行失敗
+junit.runing.info.loading.tree.node.text:
+    text: 載入中
+junit.runing.info.passed.label:
+    text: 通過
+junit.runing.info.results.column.name:
+    text: 結果
+junit.runing.info.running.label:
+    text: 執行中
+junit.runing.info.sort.group.name:
+    text: 選項排序
+junit.runing.info.starting.label:
+    text: 啟動...
+junit.runing.info.terminated.label:
+    text: 終止
+junit.runing.info.test.column.name:
+    text: 測試
+junit.runing.info.test.runner.options.group.name:
+    text: 測試執行程序選項
+junit.runing.info.tests.failed.label:
+    text: 測試失敗
+junit.runing.info.tests.in.progress.done.tree.node:
+    text: '測試進程: 完成'
+junit.runing.info.tests.in.progress.terminated.tre.node:
+    text: '測試進程: 終止'
+junit.runing.info.tests.passed.label:
+    text: 測試通過
+junit.runing.info.time.elapsed.column.name:
+    text: 耗時
+junit.runing.info.total.label:
+    text: '共計:'
+junit.runing.info.usage.after.column.name:
+    text: 使用之後
+junit.runing.info.usage.before.column.name:
+    text: 使用之前
+junit.runing.info.usage.delta.column.name:
+    text: 使用變化
+junit.running.info.failed.to.start.error.message:
+    text: 啟動失敗
+junit.running.info.tests.failed.label:
+    text: 測試失敗
+junit.running.info.tests.failed.with.test.name.label:
+    text: 測試失敗 {0}
+junit.running.info.tests.passed.label:
+    text: 測試通過
+junit.running.info.tests.passed.with.test.name.label:
+    text: 測試通過 {0}
+junit.tests.in.progress.label:
+    text: 測試在進行中
+log.console.filter.show.all:
+    text: 全部
+log.console.filter.show.errors:
+    text: 錯誤
+log.console.filter.show.errors.and.warnings:
+    text: 警告
+log.console.filter.show.errors.warnings.and.infos:
+    text: 訊息
+log.monitor.add.button:
+    text: 新增
+log.monitor.edit.aliases.location:
+    text: '日誌檔案的路徑:'
+log.monitor.edit.aliases.name:
+    text: '別名:'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: 由pattern來顯示所有檔案 (&S)
+log.monitor.edit.aliases.title:
+    text: 編輯日誌檔案的別名
+log.monitor.group:
+    text: 日誌檔案顯示在主控台
+log.monitor.is.active.column:
+    text: 是啟用的
+log.monitor.is.skipped.column:
+    text: 跳過內容
+log.monitor.log.file.column:
+    text: 日誌檔案項目
+log.monitor.no.files:
+    text: 不附加任何日誌檔案
+log.monitor.remove.button:
+    text: 移除(&R)
+logs.tab.title:
+    text: 日誌
+main.class.is.not.specified.error.message:
+    text: 既沒有指定主類別要而沒有JAR路徑
+main.method.not.found.in.class.error.message:
+    text: '{0}類別中沒有找到Main方法'
+merge.coverage.data:
+    text: 合併下面選取套件收集的代碼覆寫率
+message.cannot.find.file.0:
+    text: 找不到檔案 {0}
+method.name.not.specified.error.message:
+    text: 方法名稱沒有指定
+module.does.not.exist.error.message:
+    text: "模組 ''{0}'' 不存在"
+module.does.not.exists:
+    text: 模組"{0}"不存在於項目"{1}"
+module.doesn.t.exist.in.project.error.text:
+    text: 模組"{0}"不存在於項目
+module.is.unloaded.from.project.error.text:
+    text: "模組 ''{0}'' 從項目中移除"
+module.not.specified.error.text:
+    text: 模組未指定
+move.down.action.name:
+    text: 下移
+move.up.action.name:
+    text: 上移
+multiple.specified:
+    text: 多重指定
+next.faled.test.action.name:
+    text: 下一個失敗的測試
+no.applet.class.specified.error.message:
+    text: 沒有指定applet類別
+no.jdk.for.module.error.message:
+    text: "模組 ''{0}'' 沒有指定JDK"
+no.jdk.specified..error.message:
+    text: 未指定JDK
+no.jdk.specified.for.module.warning.text:
+    text: 沒有JDK指定模組"{0}"
+no.main.class.specified.error.text:
+    text: 未指定主類別
+no.module.defined.error.message:
+    text: 沒有定義模組
+no.parameters:
+    text: 沒有參數
+no.test.class.specified.error.text:
+    text: 沒有指定測試類別
+no.tests.found.in.package.error.message:
+    text: "包 ''{0}'' 中未發現測示範例"
+no.user.process.input.error.message:
+    text: 沒有進程輸入
+open.message.view:
+    text: 開啟訊息檢視
+output.tab.title:
+    text: 輸出
+package.does.not.exist.error.message:
+    text: "包 ''{0}'' 不存在"
+package.not.found.error.message:
+    text: "包 ''{0}'' 未找到"
+perform.action.with.context.configuration.action.name:
+    text: '{0} 內容設定'
+popup.title.choose.target.file:
+    text: 選擇目標檔案
+prev.faled.test.action.name:
+    text: 上一個失敗的測試
+process.is.running.dialog.title:
+    text: "進程 ''{0}'' 正在執行"
+project.has.no.jdk.configured.error.message:
+    text: 項目沒有JDK設定。
+project.has.no.jdk.error.message:
+    text: 項目沒有JDK
+record.coverage.filters.title:
+    text: 記錄包和類別覆寫率資料
+remote.configuration.attach.radio:
+    text: 附加
+remote.configuration.debugger.mode.label:
+    text: '診斷模式:'
+remote.configuration.host.label:
+    text: '主機:'
+remote.configuration.listen.radio:
+    text: 監聽
+remote.configuration.port.label:
+    text: '通訊埠:'
+remote.configuration.remote.debugging.allows.you.to.connect.idea.to.a.running.jvm.label:
+    text: 命令列參數執行遠端JVM
+remote.configuration.settings.border:
+    text: 設定
+remote.configuration.shared.memory.address.label:
+    text: '共用記憶體位址:'
+remote.configuration.shared.memory.radio:
+    text: 共用記憶體
+remote.configuration.socket.radio:
+    text: 套接字(Socket)
+remote.configuration.transport.label:
+    text: '傳輸層:'
+remote.debug.configuration.description:
+    text: 遠端診斷設定
+remote.debug.configuration.display.name:
+    text: 遠端
+remove.run.configuration.action.name:
+    text: 刪除設定
+rerun.configuration.action.name:
+    text: "重新執行 ''{0}''"
+rerun.confirmation.button.text:
+    text: 停止並重新執行
+rerun.confirmation.checkbox:
+    text: 確認重新執行過程終止
+rerun.singleton.confirmation.message:
+    text: "''{0}'' 是單例執行設定。\n你確定你想要停止 {1, choice, 1#the running one|2#{1, number} running instances} 嗎？"
+restart.error.message.title:
+    text: 重新啟動錯誤
+run.configurable.display.name:
+    text: 執行
+run.configuration.arguments.help.panel.copy.action.name:
+    text: 複製
+run.configuration.cannot.find.vm.executable:
+    text: 無法找到虛擬機執行
+run.configuration.configuration.tab.title:
+    text: 設定
+run.configuration.create.folder.description:
+    text: 新增資料夾
+run.configuration.create.folder.description.move:
+    text: 移動到新資料夾
+run.configuration.create.folder.text:
+    text: 新增資料夾
+run.configuration.default.type.description:
+    text: 設定
+run.configuration.display.settings.checkbox:
+    text: 啟動前顯示設定
+run.configuration.dump.threads.action.name:
+    text: 執行緒轉儲
+run.configuration.edit.default.configuration.settings.description:
+    text: 編輯預設設定
+run.configuration.edit.default.configuration.settings.text:
+    text: 編輯預設值
+run.configuration.error.dialog.title:
+    text: 執行設定錯誤
+run.configuration.error.no.jdk.specified:
+    text: 未指定JDK
+run.configuration.exit.action.name:
+    text: 結束
+run.configuration.java.vm.parameters.label:
+    text: 虛擬機選項(&V)：
+run.configuration.norunner.selected.label:
+    text: 沒有選取執行器
+run.configuration.pause.output.action.name:
+    text: 暫停輸出
+run.configuration.program.parameters:
+    text: '程式參數:'
+run.configuration.rename.folder:
+    text: "重新命名資料夾 ''{0}''"
+run.configuration.rename.folder.disclaimer:
+    text: 註：空資料夾不會被儲存
+run.configuration.select.alternate.jre.label:
+    text: 選取替代JRE
+run.configuration.select.jre.dir.label:
+    text: 選取要執行JRE的目錄
+run.configuration.show.command.line.action.name:
+    text: 顯示主控台提示
+run.configuration.singleton:
+    text: 只用單一實例
+run.configuration.startup.connection.rab.title:
+    text: 啟動/繼續
+run.configuration.stop.action.name:
+    text: 停止
+run.configuration.store.place.option:
+    text: 共用
+run.configuration.unnamed.name.prefix:
+    text: 未命名
+run.configuration.use.alternate.jre.checkbox:
+    text: '使用替代JRE:'
+run.configuration.working.directory.label:
+    text: '工作路徑:'
+run.configurations.combo.run.current.file.description:
+    text: 執行在聚焦的編輯器中開啟的檔案
+run.configurations.combo.run.current.file.item.in.dropdown:
+    text: 當前檔案
+run.configurations.combo.run.current.file.selected:
+    text: 當前檔案
+run.configurations.popup.existing.configurations.separator.text:
+    text: 執行設定
+run.dashboard.configurable.add.configuration.type:
+    text: 新增設定類型
+run.dashboard.configurable.types.panel.hint:
+    text: 選擇一個或更多類型
+run.dashboard.configured.group.name:
+    text: 設定
+run.dashboard.remove.run.configuration.type.confirmation:
+    text: 從服務中移除{0}?
+run.dashboard.remove.run.configuration.types.confirmation:
+    text: 從服務中移除{0}設定類型?
+run.dashboard.rerun.action.description:
+    text: 重新執行所選設定
+run.dashboard.rerun.action.name:
+    text: 重新執行
+run.dashboard.restart.debugger.action.description:
+    text: 在診斷模式中重新執行所選設定
+run.dashboard.restart.debugger.action.name:
+    text: 在診斷模式中重新執行
+run.debug.dialog.title:
+    text: 執行/診斷設定
+run.error.message.title:
+    text: 執行錯誤
+run.toolbar.widget.all.configurations:
+    text: 所有設定...
+runner.content.tooltip.layout.settings:
+    text: 布局設定
+save.run.configuration.for.item.action.name:
+    text: "儲存 ''{0}''"
+save.temporary.run.configuration.action.name:
+    text: "儲存設定 ''{0}''"
+script.execution.timeout:
+    text: 指令碼執行了超過 {0} 秒。
+select.0.1:
+    text: "選擇 {0} ''{1}''"
+select.applet.policy.file.dialog.title:
+    text: 選取 applet 策略檔案
+select.run.configuration.for.item.action.name:
+    text: "選取 ''{0}''"
+select.working.directory.message:
+    text: 選取工作目錄
+service.view.activate.tool.window.action.description:
+    text: 啟用服務視窗
+service.view.activate.tool.window.action.name:
+    text: '{0} (服務)'
+service.view.add.service.action.name:
+    text: 添加服務
+service.view.all.services:
+    text: 所有服務
+service.view.delete.confirmation:
+    text: 刪除{0}?
+service.view.empty.selection.text:
+    text: 選擇服務以查看詳細資訊
+service.view.empty.tab.text:
+    text: 無可用內容
+service.view.empty.tree.text:
+    text: 未設定服務。
+service.view.group.label:
+    text: '組名稱:'
+service.view.group.title:
+    text: 組服務
+service.view.items:
+    text: '{0, choice, 1#1 項|1<{0,number,integer} 項}'
+service.view.open.in.new.tab.ad.text:
+    text: 將節點拖動到工具視窗標題上以開啟新頁籤
+service.view.scroll.from.editor.action.description:
+    text: 選擇在活動編輯器中開啟的服務
+service.view.scroll.from.editor.action.name:
+    text: 選擇開啟的服務
+set.class.name.message:
+    text: 首先設定類別名
+show.irrelevant.configurations.action.name:
+    text: '{0} 項更多(不相關)...'
+show.running.list.action.description:
+    text: 顯示正在執行的執行設定清單
+show.running.list.action.name:
+    text: 顯示執行清單
+show.running.list.balloon.hint:
+    text: 點擊導航
+show.running.list.balloon.nothing:
+    text: 沒有顯示
+show.running.list.balloon.title:
+    text: 執行清單
+show.swing.inspector:
+    text: 啟用快照捕獲
+show.swing.inspector.disabled:
+    text: 啟用快照捕獲 (requires JRE 5.0 or higher)
+sm.test.runner.magnitude.assertion.failed.title:
+    text: 失敗的
+sm.test.runner.magnitude.completed.failed.title:
+    text: 完成的
+sm.test.runner.magnitude.ignored.failed.title:
+    text: 忽略的
+sm.test.runner.magnitude.not.run.failed.title:
+    text: 無法執行
+sm.test.runner.magnitude.passed.title:
+    text: 通過的
+sm.test.runner.magnitude.running.failed.title:
+    text: 執行...
+sm.test.runner.magnitude.skipped.failed.title:
+    text: 跳過的
+sm.test.runner.magnitude.terminated.failed.title:
+    text: 終止的
+sm.test.runner.magnitude.testerror.title:
+    text: 錯誤
+some.modules.has.circular.dependency.error.message:
+    text: 一些模組有循環依賴。
+standard.runner.description:
+    text: 執行選取的設定
+starting.jvm.progress.text:
+    text: 開始執行 JVM...
+statistics.tab.title:
+    text: 統計
+stop.all:
+    text: 停止全部 ({0})
+stop.background.process:
+    text: 停止背景行程
+stop.configuration.action.name:
+    text: "停止 ''{0}''"
+stop.incompatible.confirmation.button.text:
+    text: 阻止不相容
+stop.process:
+    text: 停止行程
+strings.equal.failed.dialog.title:
+    text: 比較失敗
+template.settings.configurable.display.name:
+    text: 範本設定
+terminate.after.disconnect.checkbox:
+    text: 在中斷後，終止該進程
+terminate.process.confirmation.text:
+    text: "你確定要終止進程 ''{0}''?"
+terminating.process.progress.kill:
+    text: 殺死進程
+terminating.process.progress.title:
+    text: "終止 ''{0}''"
+test.cases.count.message:
+    text: '{0}的測試實例)'
+test.in.scope.presentable.text:
+    text: "測試 ''{0}''"
+test.method.doesnt.exist.error.message:
+    text: "測試方法 ''{0}'' 不存在"
+test.not.started.progress.text:
+    text: 測試沒有開始
+tests.passed.with.warnings.message:
+    text: 測試通過(有警告)
+title.cannot.open.file:
+    text: 無法開啟檔案
+up.the.stack.trace:
+    text: 上移堆疊追蹤
+waiting.for.vm.detach.progress.text:
+    text: 分離過程等待中
+warning.common.title:
+    text: 警告

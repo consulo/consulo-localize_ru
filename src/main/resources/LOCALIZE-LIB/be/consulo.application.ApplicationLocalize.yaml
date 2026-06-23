@@ -1,0 +1,1084 @@
+action.pause.text:
+    text: Пауза
+action.remove:
+    text: Выдаліць
+arrangement.action.rule.add.description:
+    text: Дадаць новае правіла размяшчэння
+arrangement.action.rule.add.text:
+    text: Дадаць правіла
+arrangement.action.rule.edit.description:
+    text: Рэдагаваць выбранае правіла размяшчэння
+arrangement.action.rule.edit.text:
+    text: Рэдагаваць правіла
+arrangement.action.rule.move.down.description:
+    text: Перамясціць выбранае правіла размяшчэння ўніз
+arrangement.action.rule.move.down.text:
+    text: Перамясціць уніз
+arrangement.action.rule.move.up.description:
+    text: Перамясціць выбранае правіла размяшчэння ўверх
+arrangement.action.rule.move.up.text:
+    text: Перамясціць уверх
+arrangement.action.rule.remove.description:
+    text: Выдаліць выбранае правіла размяшчэння
+arrangement.action.rule.remove.text:
+    text: Выдаліць правіла
+arrangement.settings.groups.dependent.methods:
+    text: Трымаць залежныя метады разам
+arrangement.settings.groups.getters.and.setters.together:
+    text: Трымаць гетары і сетары разам
+arrangement.settings.groups.overridden.methods:
+    text: Держать переопределённые методы вместе
+arrangement.settings.groups.property.field:
+    text: Групаваць палі ўласцівасцей з адпаведнымі гетарамі/сетарамі
+arrangement.settings.order.type.breadth.first:
+    text: Сартаванне ўшырыню
+arrangement.settings.order.type.by.name:
+    text: Па імені
+arrangement.settings.order.type.depth.first:
+    text: Сартаванне ўглыбіню
+arrangement.settings.order.type.keep:
+    text: Захаваць парадак
+arrangement.settings.section.groups:
+    text: 'Правілы групавання:'
+arrangement.settings.section.match:
+    text: 'Правілы супастаўлення:'
+arrangement.settings.text.entry.type.xml.attribute:
+    text: Атрыбут
+arrangement.settings.text.entry.type.xml.tag:
+    text: Тег
+arrangement.settings.text.general.modifier:
+    text: 'Мадыфікатар:'
+arrangement.settings.text.general.name:
+    text: 'Імя:'
+arrangement.settings.text.general.order:
+    text: 'Порядок:'
+arrangement.settings.text.general.text:
+    text: 'Текст:'
+arrangement.settings.text.general.type:
+    text: 'Тып:'
+arrangement.text.empty.rule:
+    text: <пустое правіла>
+arrangement.title.settings.tab:
+    text: Размяшчэнне
+auto.import:
+    text: Аўтаімпарт
+bulk.reformat.prepare.progress.text:
+    text: Подготовка...
+bulk.reformat.process.progress.text:
+    text: Обработка...
+button.add.blank:
+    text: Дадаць пусты
+button.add.package:
+    text: Дадаць пакет
+button.delete:
+    text: Выдаліць
+button.edit:
+    text: Рэдагаваць
+button.edit.scopes:
+    text: Рэдагаваць вобласці...
+button.install.package:
+    text: Усталяваць пакет [&I]
+button.invalidate.and.restart:
+    text: Скінуць і перазапусціць [&R]
+button.manage.repositories:
+    text: Кіраванне сховішчам [&M]
+button.move.down:
+    text: Уніз [&D]
+button.move.up:
+    text: Уверх [&U]
+button.remove:
+    text: Выдаліць [&R]
+checkbox.add.unambiguous.imports.on.the.fly:
+    text: Дадаваць адназначныя імпарты на ляту
+checkbox.after.description:
+    text: Пасля апісання
+checkbox.after.parameter.descriptions:
+    text: Пасля апісання параметраў
+checkbox.after.return.tag:
+    text: После тега return
+checkbox.align.attributes:
+    text: Выраўноўваць атрыбуты
+checkbox.align.multiline.fields.groups:
+    text: "Групаваць аб'яўленні"
+checkbox.align.parameter.descriptions:
+    text: Выраўнаваць апісанні параметраў
+checkbox.align.text:
+    text: Выраўноўваць тэкст
+checkbox.align.thrown.exception.descriptions:
+    text: Выраўнаваць апісанні выкідаемых выключэнняў
+checkbox.allow.placement.of.caret.after.end.of.line:
+    text: Пасля канца радка
+checkbox.allow.placement.of.caret.inside.tabs:
+    text: Унутры табуляцыі
+checkbox.autocomplete.basic:
+    text: Базавае аўтадапаўненне
+checkbox.autocomplete.smart.type:
+    text: Аўтадапаўненне па тыпе
+checkbox.block.comment.at.first.column:
+    text: Блочныя каментарыі з першай калонкі
+checkbox.caret.blinking.ms:
+    text: 'Міганне карэткі (мс):'
+checkbox.collapse.end.of.line.comments:
+    text: Паслядоўнасць каментарыяў у канцы радка
+checkbox.collapse.file.header:
+    text: Заголовок файла
+checkbox.collapse.generic.constructor.parameters:
+    text: <html>Параметры абагульненых канструктараў і метадаў</html>
+checkbox.collapse.html.style.attribute:
+    text: "HTML-атрыбут 'style'"
+checkbox.collapse.i18n.messages:
+    text: I18n радкі
+checkbox.collapse.inner.classes:
+    text: Унутраныя класы
+checkbox.collapse.javadoc.comments:
+    text: Javadoc каментарыі
+checkbox.collapse.method.bodies:
+    text: Тела методов
+checkbox.collapse.simple.property.accessors:
+    text: <html>Простые методы доступа к свойствам</html>
+checkbox.collapse.title.imports:
+    text: Імпарты
+checkbox.collapse.xml.tags:
+    text: XML-тэгі
+checkbox.color.background:
+    text: Фон
+checkbox.color.effects:
+    text: Эффекты
+checkbox.color.error.stripe.mark:
+    text: Маркер паласы памылак
+checkbox.color.foreground:
+    text: Пярэдні план
+checkbox.do.not.indent.top.level.class.members:
+    text: Не делать отступ для членов класса верхнего уровня
+checkbox.do.not.wrap.one.line.comments:
+    text: Не пераносіць аднарадковыя каментарыі
+checkbox.editor.tabs.in.single.row:
+    text: Паказваць укладкі ў адзін радок
+checkbox.enable.ctrl.mousewheel.changes.font.size:
+    text: 'Выкарыстоўваць Ctrl + кола мышы для змены памеру шрыфту:'
+checkbox.enable.ctrl.mousewheel.changes.font.size.macos:
+    text: 'Выкарыстоўваць Command + кола мышы для змены памеру шрыфту:'
+checkbox.enable.drag.n.drop.functionality.in.editor:
+    text: Выкарыстоўваць перацягванне для перамяшчэння фрагментаў кода
+checkbox.enable.javadoc.formatting:
+    text: Уключыць фарматаванне JavaDoc
+checkbox.enable.leading.asterisks:
+    text: Уключыць вядучыя зорачкі
+checkbox.font.bold:
+    text: Паўтлусты
+checkbox.font.italic:
+    text: Курсіў
+checkbox.generate.p.on.empty.lines:
+    text: Генераваць "<p>" на пустых радках
+checkbox.highlight.current.scope:
+    text: Бягучая вобласць бачнасці
+checkbox.highlight.matched.brace:
+    text: Парныя дужкі
+checkbox.honor.camelhumps.words.settings.on.double.click:
+    text: Улічваць налады "CamelHumps" пры вылучэнні двайным пстрычком
+checkbox.indent.absolute.label.indent:
+    text: Абсолютный отступ меток
+checkbox.indent.keep.indents.on.empty.lines:
+    text: Сохранять отступы на пустых строках
+checkbox.indent.smart.tabs:
+    text: Разумныя табуляцыі
+checkbox.indent.use.tab.character:
+    text: Выкарыстоўваць сімвал табуляцыі
+checkbox.insert.imports.for.inner.classes:
+    text: Устаўляць імпарты для ўнутраных класаў
+checkbox.insert.pair.curly.brace:
+    text: "Вставлять парные '}'"
+checkbox.insert.pair.quote:
+    text: Устаўляць парныя двукоссі
+checkbox.javadoc.stub.after.slash.star.star:
+    text: Устаўляць заглушку дакументацыі
+checkbox.keep.empty.lines:
+    text: Захоўваць пустыя радкі
+checkbox.keep.empty.param.tags:
+    text: Захоўваць пустыя тэгі @param
+checkbox.keep.empty.return.tags:
+    text: Захоўваць пустыя тэгі @return
+checkbox.keep.empty.throws.tags:
+    text: Захоўваць пустыя тэгі @throws
+checkbox.keep.invalid.tags:
+    text: Захоўваць несапраўдныя тэгі
+checkbox.keep.line.breaks:
+    text: Сохранять переносы строк
+checkbox.keep.line.breaks.in.text:
+    text: Сохранять переносы строк в тексте
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: Кіравальныя канструкцыі ў адзін радок
+checkbox.keep.white.spaces:
+    text: Сохранять пробелы
+checkbox.line.comment.add.space:
+    text: Дадаваць прабел у пачатку радковага каментарыя
+checkbox.line.comment.at.first.column:
+    text: Радковыя каментарыі з першай калонкі
+checkbox.make.generated.local.variables.final:
+    text: Рабіць генеруемыя лакальныя пераменныя final
+checkbox.make.generated.parameters.final:
+    text: Рабіць генеруемыя параметры final
+checkbox.mark.modified.tabs.with.asterisk:
+    text: Адзначаць змененыя (*)
+checkbox.optimize.imports.on.the.fly:
+    text: Аптымізаваць імпарты на ляту
+checkbox.package.options:
+    text: Параметры
+checkbox.package.specify.version:
+    text: Укажыце версію
+checkbox.param.description.on.new.line:
+    text: Апісанні параметраў з новага радка
+checkbox.parentheses.around.method.arguments:
+    text: Дадаваць дужкі вакол аргументаў метаду
+checkbox.prefer.longer.names:
+    text: Аддаваць перавагу больш доўгім імёнам
+checkbox.preserve.line.feeds:
+    text: Сохранять переносы строк
+checkbox.reformat.on.typing.rbrace:
+    text: "Перафарматаваць блок пры ўводзе '}'"
+checkbox.rename.local.variables.preselect:
+    text: Папярэдне выбіраць бягучае імя сімвала пры рэфактарынгу "Перайменаваць"
+checkbox.right.margin:
+    text: Паказваць прымусовы перанос і візуальныя накіроўваючыя (наладжваецца ў "Стыль кода")
+checkbox.show.breadcrumbs:
+    text: Паказваць навігацыйны ланцуг
+checkbox.show.code.folding.outline:
+    text: Паказваць контур згортвання кода
+checkbox.show.full.signatures:
+    text: Паказваць поўныя сігнатуры метадаў
+checkbox.show.gutter.icons:
+    text: Паказваць іконкі на палях [&I]
+checkbox.show.import.popup:
+    text: Паказваць усплывальнае акно import [&P]
+checkbox.show.line.numbers:
+    text: 'Показывать номера строк:'
+checkbox.show.method.separators:
+    text: Паказваць раздзяляльнікі метадаў
+checkbox.show.only.monospaced.fonts:
+    text: Паказваць толькі монашырынныя шрыфты
+checkbox.show.tabs.tooltips:
+    text: Паказваць поўны шлях пры навядзенні мышы
+checkbox.show.virtual.space.at.file.bottom:
+    text: Паказваць віртуальную прастору ўнізе файла
+checkbox.show.whitespaces:
+    text: Показывать пробелы
+checkbox.smart.end.on.blank.line:
+    text: Пры націску End на пустым радку перамяшчаць карэтку да водступу
+checkbox.smart.home:
+    text: Пры націску Home перамяшчаць карэтку да першага непрабельнага сімвала
+checkbox.smart.indent:
+    text: Умные отступы
+checkbox.smooth.scrolling:
+    text: Плыўная пракрутка
+checkbox.spaces.additive.operators:
+    text: Адытыўныя аператары (+, -)
+checkbox.spaces.after.colon:
+    text: "После ':'"
+checkbox.spaces.after.comma:
+    text: После запятой
+checkbox.spaces.after.question:
+    text: "После '?'"
+checkbox.spaces.after.semicolon:
+    text: "Пасля кропкі з коскай у 'for'"
+checkbox.spaces.after.type.cast:
+    text: Пасля прывядзення тыпу
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: Левая фігурная дужка ініцыялізатара масіва анатацыі
+checkbox.spaces.annotation.parameters:
+    text: Параметры анатацыі
+checkbox.spaces.annotation.parentheses:
+    text: Круглыя дужкі анатацыі
+checkbox.spaces.around.equals.in.attribute:
+    text: "Вокруг '='"
+checkbox.spaces.around.lambda.arrow:
+    text: Стрелка лямбды
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: "Двайное двукроп'е спасылкі на метад"
+checkbox.spaces.around.tag.name:
+    text: Пасля імя тэга
+checkbox.spaces.around.unary.operator:
+    text: Унарные операторы (!, -, +, ++, --)
+checkbox.spaces.array.initializer.left.brace:
+    text: Левая фігурная дужка ініцыялізатара масіва
+checkbox.spaces.assignment.operators:
+    text: Аператары прысвойвання (=, +=, …)
+checkbox.spaces.before.colon:
+    text: "Перед ':'"
+checkbox.spaces.before.comma:
+    text: Перед запятой
+checkbox.spaces.before.question:
+    text: "Перед '?'"
+checkbox.spaces.before.semicolon:
+    text: "Перед точкой с запятой в 'for'"
+checkbox.spaces.bitwise.operators:
+    text: Пабітавыя аператары (&, |, ^)
+checkbox.spaces.catch.keyword:
+    text: "Ключевое слово 'catch'"
+checkbox.spaces.catch.left.brace:
+    text: "Левая фігурная дужка 'catch'"
+checkbox.spaces.catch.parentheses:
+    text: "Круглыя дужкі 'catch'"
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: Пустыя круглыя дужкі выкліку метаду
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: "Пустыя круглыя дужкі аб'яўлення метаду"
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: Круглыя дужкі выкліку метаду
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: "Круглыя дужкі аб'яўлення метаду"
+checkbox.spaces.class.left.brace:
+    text: Левая фігурная дужка класа
+checkbox.spaces.do.left.brace:
+    text: "Левая фігурная дужка 'do'"
+checkbox.spaces.else.keyword:
+    text: "Ключевое слово 'else'"
+checkbox.spaces.else.left.brace:
+    text: "Левая фігурная дужка 'else'"
+checkbox.spaces.equality.operators:
+    text: Операторы равенства (==, !=)
+checkbox.spaces.finally.keyword:
+    text: "Ключевое слово 'finally'"
+checkbox.spaces.finally.left.brace:
+    text: "Левая фігурная дужка 'finally'"
+checkbox.spaces.for.left.brace:
+    text: "Левая фігурная дужка 'for'"
+checkbox.spaces.for.parentheses:
+    text: "Круглыя дужкі 'for'"
+checkbox.spaces.if.left.brace:
+    text: "Левая фігурная дужка 'if'"
+checkbox.spaces.if.parentheses:
+    text: "Круглыя дужкі 'if'"
+checkbox.spaces.in.empty.tag:
+    text: В пустом теге
+checkbox.spaces.logical.operators:
+    text: Лагічныя аператары (&&, ||)
+checkbox.spaces.method.call.parentheses:
+    text: Круглыя дужкі выкліку метаду
+checkbox.spaces.method.declaration.parentheses:
+    text: "Круглыя дужкі аб'яўлення метаду"
+checkbox.spaces.method.left.brace:
+    text: Левая фігурная дужка метаду
+checkbox.spaces.multiplicative.operators:
+    text: Мультыплікатыўныя аператары (*, /, %)
+checkbox.spaces.relational.operators:
+    text: Аператары адносін (<, >, <=, >=)
+checkbox.spaces.shift.operators:
+    text: Аператары зруху (<<, >>, >>>)
+checkbox.spaces.switch.left.brace:
+    text: "Левая фігурная дужка 'switch'"
+checkbox.spaces.switch.parentheses:
+    text: "Круглыя дужкі 'switch'"
+checkbox.spaces.synchronized.left.brace:
+    text: "Левая фігурная дужка 'synchronized'"
+checkbox.spaces.synchronized.parentheses:
+    text: "Круглыя дужкі 'synchronized'"
+checkbox.spaces.try.left.brace:
+    text: "Левая фігурная дужка 'try'"
+checkbox.spaces.try.parentheses:
+    text: "Круглыя дужкі 'try'"
+checkbox.spaces.type.cast.parentheses:
+    text: Круглыя дужкі прывядзення тыпу
+checkbox.spaces.while.keyword:
+    text: "Ключевое слово 'while'"
+checkbox.spaces.while.left.brace:
+    text: "Левая фігурная дужка 'while'"
+checkbox.spaces.while.parentheses:
+    text: "Круглыя дужкі 'while'"
+checkbox.spaces.within.array.initializer.braces:
+    text: Унутры фігурных дужак ініцыялізатара масіва
+checkbox.spaces.within.braces:
+    text: Унутры фігурных дужак кода
+checkbox.spaces.within.brackets:
+    text: Унутры квадратных дужак
+checkbox.spaces.within.parentheses:
+    text: Унутры круглых дужак групавання
+checkbox.suppress.with.suppresswarnings:
+    text: Падаўляць з дапамогай @SuppressWarnings
+checkbox.surround.selection.on.typing.quote.or.brace:
+    text: Абрамляць вылучэнне пры ўводзе двукоссяў або дужак
+checkbox.use.block.caret:
+    text: Выкарыстоўваць блочны курсор
+checkbox.use.camelhumps.words:
+    text: Выкарыстоўваць "CamelHumps" словы
+checkbox.use.custom.soft.wraps.indent:
+    text: Выкарыстоўваць водступ зыходнага радка для перанесеных фрагментаў
+checkbox.use.fully.qualified.class.names:
+    text: Выкарыстоўваць поўныя імёны класаў
+checkbox.use.fully.qualified.class.names.in.javadoc:
+    text: Выкарыстоўваць поўныя імёны класаў у javadoc
+checkbox.use.relative.indents:
+    text: Выкарыстоўваць водступы адносна пачатку выразу
+checkbox.use.single.class.import:
+    text: Выкарыстоўваць імпарт асобных класаў
+checkbox.use.soft.wraps.at.console:
+    text: Выкарыстоўваць мяккі перанос у кансолі
+checkbox.use.soft.wraps.at.editor:
+    text: 'Прымяняць мяккі перанос для гэтых файлаў:'
+checkbox.use.throws.rather.than.exception:
+    text: Выкарыстоўваць @throws замест @exception
+checkbox.wrap.at.right.margin:
+    text: Пераносіць па правым краі
+checkbox.wrap.text:
+    text: Перенос текста
+checkbox.wrap.typing.on.right.margin:
+    text: Пераносіць пры дасягненні правага краю
+code.style.indent.detector.apply:
+    text: <html><span style="color:#{1}">Обнаружен</span> отступ {0} для новых строк
+code.style.indent.detector.disable:
+    text: Адключыць вызначэнне водступаў для праекта
+code.style.indent.detector.notification.content:
+    text: Вызначэнне водступаў адключана
+code.style.indent.detector.reindent:
+    text: Переформатовать файл с отступом {0}
+code.style.indent.detector.reject:
+    text: Выкарыстоўваць водступ {0} для новых радкоў
+code.style.indent.provider.notification.re.enable:
+    text: Адмяніць
+code.style.indent.provider.notification.settings:
+    text: Налады стылю кода
+code.style.other.file.types:
+    text: Іншыя тыпы файлаў
+code.style.widget.configure.indents:
+    text: Наладзіць водступы для {0}…
+column.name:
+    text: Імя
+column.value:
+    text: Значэнне
+combobox.crlf.system.dependent:
+    text: Залежыць ад сістэмы
+combobox.crlf.unix:
+    text: Unix і macOS (\n)
+combobox.editor.tab.placement:
+    text: Размяшчэнне ўкладак
+combobox.effect.bold.dottedline:
+    text: Пункцірная лінія
+combobox.effect.boldunderscored:
+    text: Тлустае падкрэсліванне
+combobox.effect.bordered:
+    text: С рамкой
+combobox.effect.strikeout:
+    text: Закрэсліванне
+combobox.effect.underscored:
+    text: Падкрэсліванне
+combobox.effect.underwaved:
+    text: Хвалістае падкрэсліванне
+combobox.insert.imports.all:
+    text: Всегда
+combobox.insert.imports.ask:
+    text: Пытацца
+combobox.insert.imports.none:
+    text: Ніколі
+combobox.line.separator.for.new.files:
+    text: 'Раздзяляльнік радкоў:'
+combobox.lineseparator.for.new.files.hint:
+    text: Прымяняецца да новых файлаў
+combobox.paste.insert.imports:
+    text: 'Устаўляць імпарты пры ўстаўцы [&I]:'
+combobox.paste.reformat:
+    text: 'Перафарматаваць пры ўстаўцы:'
+combobox.paste.reformat.indent.block:
+    text: Отступ блока
+combobox.paste.reformat.indent.each.line:
+    text: Водступ кожнага радка
+combobox.paste.reformat.none:
+    text: Нет
+combobox.paste.reformat.reformat.block:
+    text: Переформатовать блок
+combobox.richcopy.color.scheme:
+    text: 'Колеравая схема для капіруемых фрагментаў:'
+combobox.richcopy.color.scheme.active:
+    text: Актыўная схема
+combobox.smart.backspace:
+    text: 'Адмена водступу пры Backspace:'
+combobox.smart.backspace.off:
+    text: Отключено
+combobox.smart.backspace.simple:
+    text: Да бліжэйшага водступу
+combobox.smart.backspace.smart:
+    text: Да правільнага водступу
+combobox.strip.all:
+    text: Усе радкі
+combobox.strip.modified.lines:
+    text: Змененыя радкі
+combobox.strip.trailing.spaces.on.save:
+    text: 'Удалять конечные пробелы:'
+combobox.tab.placement.bottom:
+    text: Знізу
+combobox.tab.placement.left:
+    text: Слева
+combobox.tab.placement.none:
+    text: Нет
+combobox.tab.placement.right:
+    text: Справа
+combobox.tab.placement.top:
+    text: Сверху
+command.exit:
+    text: Выход
+configurable.breadcrumbs:
+    text: Навігацыйны ланцуг
+configure.breadcrumbs.colors:
+    text: Наладзіць колеры
+date.format.a.few.moments.ago:
+    text: некалькі імгненняў таму
+date.format.in.a.few.moments:
+    text: праз некалькі імгненняў
+date.format.in.n.days:
+    text: праз {0,choice, 0#нуль дзён|1#адзін дзень|2#{0,number} дня}
+date.format.in.n.hours:
+    text: праз {0,choice, 0#нуль гадзін|1#адну гадзіну|2#{0,number} гадзіны}
+date.format.in.n.minutes:
+    text: праз {0,choice, 0#нуль хвілін|1#адну хвіліну|2#{0,number} хвіліны}
+date.format.in.n.months:
+    text: праз {0,choice, 0#нуль месяцаў|1#адзін месяц|2#{0,number} месяца}
+date.format.in.n.weeks:
+    text: праз {0,choice, 0#нуль тыдняў|1#адзін тыдзень|2#{0,number} тыдні}
+date.format.in.n.years:
+    text: праз {0,choice, 0#нуль гадоў|1#адзін год|2#{0,number} года}
+date.format.minutes.ago:
+    text: '{0,choice, 0#Толькі што|1#Хвіліну|2#{0,number} хвіліны|60#1 гадзіну} таму'
+date.format.n.days.ago:
+    text: '{0,choice, 0#нуль дзён|1#адзін дзень|2#{0,number} дня} таму'
+date.format.n.hours.ago:
+    text: '{0,choice, 0#нуль гадзін|1#адну гадзіну|2#{0,number} гадзіны} таму'
+date.format.n.minutes.ago:
+    text: '{0,choice, 0#нуль хвілін|1#адну хвіліну|2#{0,number} хвіліны} таму'
+date.format.n.months.ago:
+    text: '{0,choice, 0#нуль месяцаў|1#адзін месяц|2#{0,number} месяца} таму'
+date.format.n.weeks.ago:
+    text: '{0,choice, 0#нуль тыдняў|1#адзін тыдзень|2#{0,number} тыдні} таму'
+date.format.n.years.ago:
+    text: '{0,choice, 0#нуль гадоў|1#адзін год|2#{0,number} года} таму'
+date.format.right.now:
+    text: прямо сейчас
+date.format.today:
+    text: Сегодня
+date.format.yesterday:
+    text: Вчера
+date.frequency:
+    text: Адзін раз {0}
+desktop.entry.icon.missing:
+    text: "Значок прыкладання не знойдзены ў ''{0}''."
+desktop.entry.script.missing:
+    text: "Скрыпт запуску IDE не знойдзены ў ''{0}''."
+desktop.entry.success:
+    text: "Цяпер вы можаце закрыць {0} і запускаць яго з сістэмнага меню.<br/>Калі новы пункт меню не з'явіўся, перазапусціце сесію."
+desktop.entry.sudo.prompt:
+    text: Увядзіце пароль для стварэння запісу ў меню
+desktop.entry.xdg.missing:
+    text: "На жаль, пакет 'xdg-utils' не ўсталяваны ў вашай сістэме."
+dialog.message.caches.will.be.invalidated:
+    text: Кэш і індэксы будуць выдалены для ўсіх праектаў. Пры паўторным адкрыцці праектаў будуць створаны новыя кэшы.
+dialog.message.command.not.finished.yet:
+    text: '{0} яшчэ не завершана.'
+dialog.message.the.following.items:
+    text: 'Даступныя варыянты:'
+dialog.title.invalidate.caches:
+    text: Сброс кэша
+don.t.break.if.inline.content:
+    text: 'Не разрываць убудаванае змесціва:'
+edit.code.folding.options:
+    text: Адкрыць налады згортвання кода
+editbox.blanklines.after.anonymous.class.header:
+    text: 'Пасля загалоўка ананімнага класа:'
+editbox.blanklines.after.class.header:
+    text: 'После заголовка класса:'
+editbox.blanklines.after.imports:
+    text: 'После import:'
+editbox.blanklines.after.package.statement:
+    text: 'После оператора package:'
+editbox.blanklines.around.class:
+    text: 'Вокруг класса:'
+editbox.blanklines.around.field:
+    text: 'Вокруг поля:'
+editbox.blanklines.around.method:
+    text: 'Вокруг метода:'
+editbox.blanklines.before.imports:
+    text: 'Перед import:'
+editbox.blanklines.before.method.body:
+    text: 'Перед телом метода:'
+editbox.blanklines.before.package.statement:
+    text: 'Перед оператором package:'
+editbox.class.count.to.use.import.with.star:
+    text: "Колькасць класаў для выкарыстання імпарту з '*':"
+editbox.console.history.limit:
+    text: 'Памер гісторыі каманд кансолі:'
+editbox.font.size:
+    text: 'Размер:'
+editbox.indent.continuation.indent:
+    text: 'Водступ працягу:'
+editbox.indent.indent:
+    text: 'Отступ:'
+editbox.indent.label.indent:
+    text: 'Водступ меткі:'
+editbox.indent.tab.size:
+    text: 'Памер табуляцыі:'
+editbox.keep.blank.lines:
+    text: 'Захоўваць пустыя радкі:'
+editbox.keep.blanklines.before.rbrace:
+    text: "Перед '}':"
+editbox.keep.blanklines.in.code:
+    text: 'В коде:'
+editbox.keep.blanklines.in.declarations:
+    text: "У аб'яўленнях:"
+editbox.line.spacing:
+    text: 'Міжрадковы інтэрвал:'
+editbox.names.count.to.use.static.import.with.star:
+    text: "Колькасць імёнаў для выкарыстання статычнага імпарту з '*':"
+editbox.path.macro.name:
+    text: 'Імя:'
+editbox.path.macro.value:
+    text: 'Значэнне:'
+editbox.right.margin.columns:
+    text: 'Пазіцыя пераносу радкоў:'
+editbox.tab.limit:
+    text: 'Ліміт укладак:'
+editorsearch.empty.string.matches:
+    text: Нячоткі рэжым
+editorsearch.in.selection:
+    text: Шукаць толькі ў вылучэнні
+editorsearch.in.selection.with.hint:
+    text: Пошук у вылучэнні. {0} для пошуку вылучанага тэксту
+editorsearch.matches:
+    text: '{0, choice, 0#0 результатов|1#1 результат|2#{0} результата|11#{0} результатов}'
+editorsearch.noselection:
+    text: Няма вылучэння
+error.monitor.too.many.errors:
+    text: Занадта шмат унутраных памылак IDE. Маніторынг спынены.
+error.variable.already.exists:
+    text: Пераменная з імем {0} ужо існуе
+exclude.from.completion.group:
+    text: 'Выключыць з аўтаімпарту і аўтадапаўнення:'
+exclude.from.imports.no.exclusions:
+    text: Дадаць клас, пакет або член
+exit.confirm.prompt:
+    text: Хочаце спыніць імпарт?<br>Калі спыніць зараз, будзе імпартавана толькі частка налад.
+exit.confirm.prompt.tasks:
+    text: Выконваюцца фонавыя задачы. Вы ўпэўнены, што хочаце спыніць іх і выйсці?
+exit.confirm.title:
+    text: Выконваецца імпарт налад
+group.advanced.mouse.usages:
+    text: Кіраванне мышшу
+group.brace.highlighting:
+    text: Падсветка пры перамяшчэнні курсора
+group.code.folding:
+    text: Згортванне кода
+group.error.highlighting:
+    text: Падсветка памылак
+group.javadoc.alignment:
+    text: Выраўноўванне
+group.javadoc.blank.lines:
+    text: Пустыя радкі
+group.javadoc.invalid.tags:
+    text: Недапушчальныя тэгі
+group.javadoc.other:
+    text: Прочее
+group.richcopy:
+    text: Фарматаванае капіраванне
+group.smart.keys:
+    text: Разумныя клавішы
+group.spaces.after.right.brace:
+    text: Перад ключавымі словамі
+group.spaces.around.operators:
+    text: Вокруг операторов
+group.spaces.before.left.brace:
+    text: Перад левай фігурнай дужкай
+group.spaces.before.parentheses:
+    text: Перад дужкамі
+group.spaces.in.ternary.operator:
+    text: В тернарном операторе (?:)
+group.spaces.in.type.arguments:
+    text: У аргументах тыпу
+group.spaces.in.type.arguments.block:
+    text: Аргументы тыпу
+group.spaces.in.type.parameters.block:
+    text: Параметры тыпу
+group.spaces.other:
+    text: Прочее
+group.spaces.within:
+    text: Унутры
+group.tab.appearance:
+    text: Знешні выгляд
+group.tab.closing.policy:
+    text: Палітыка закрыцця
+group.virtual.space:
+    text: Віртуальная прастора
+heavyProcess.type.indexing:
+    text: Індэксацыя...
+heavyProcess.type.processing:
+    text: Обработка...
+heavyProcess.type.syncing:
+    text: Сінхранізацыя...
+import.scheme.chooser.destination:
+    text: 'В:'
+import.scheme.chooser.source:
+    text: 'З:'
+inline.elements:
+    text: 'Встроенные элементы:'
+insert.override.annotation:
+    text: Уставіць анатацыю @Override [&O]
+integer.field.value.default:
+    text: Па змаўчанні
+label.appearance.show.vertical.indent.guides:
+    text: 'Знешні выгляд: Паказаць накіроўвалыя па вертыкальным водступе'
+label.autocomplete.when.only.one.choice:
+    text: 'Аўтаматычна ўстаўляць адзіны варыянт у:'
+label.breadcrumbs.languages:
+    text: 'Мовы:'
+label.breadcrumbs.placement:
+    text: 'Размяшчэнне:'
+label.do.not.indent.children.of:
+    text: 'Не рабіць водступы для даччыных элементаў:'
+label.fallback.fonts.list.description:
+    text: Для сімвалаў, якія не падтрымліваюцца<br>асноўным шрыфтам
+label.font.name:
+    text: 'Шрыфт:'
+label.font.size:
+    text: 'Памер шрыфту:'
+label.font.type:
+    text: Шрыфт
+label.inherit.attributes:
+    text: 'Значэнні наследуюцца з:'
+label.insert.new.line.before:
+    text: 'Уставіць новы радок перад:'
+label.keep.white.spaces.inside:
+    text: 'Захоўваць прабелы ўнутры:'
+label.lines:
+    text: строк
+label.loading.page.please.wait:
+    text: Загрузка…
+label.name:
+    text: Імя
+label.name.prefix:
+    text: 'Прэфікс імя:'
+label.name.suffix:
+    text: 'Суфікс імя:'
+label.naming.field:
+    text: 'Поле:'
+label.naming.local.variable:
+    text: 'Локальная переменная:'
+label.naming.parameter:
+    text: 'Параметр:'
+label.naming.static.field:
+    text: 'Static поле:'
+label.or.if.tag.size.more.than:
+    text: або калі памер тэга большы
+label.remove.new.line.before:
+    text: 'Выдаліць новы радок перад:'
+label.when.closing.active.editor:
+    text: 'Пры закрыцці бягучай укладкі актываваць:'
+label.when.number.of.opened.editors.exceeds.tab.limit:
+    text: 'Калі колькасць укладак перавышае ліміт:'
+label.wrap.attributes:
+    text: 'Атрыбуты пераносу:'
+listbox.import.package:
+    text: Пакет
+listbox.import.with.subpackages:
+    text: З падпакетамі
+listbox.members.order.constructors:
+    text: Конструкторы
+listbox.members.order.fields:
+    text: Поля экземпляра
+listbox.members.order.inner.classes:
+    text: Унутраныя класы
+listbox.members.order.inner.static.classes:
+    text: Статычныя ўнутраныя класы
+listbox.members.order.methods:
+    text: Методы экземпляра
+listbox.members.order.static.fields:
+    text: Статычныя палі
+listbox.members.order.static.methods:
+    text: Статычныя метады
+margin.columns:
+    text: Столбцы
+notification.group.automatic.indent.detection:
+    text: Аўтаматычнае вызначэнне водступаў адключана
+option.table.sizing.text:
+    text: Абрэзаць, калі занадта доўга.
+primary.font:
+    text: 'Шрыфт:'
+radio.activate.left.neighbouring.tab:
+    text: <html>Левая вкладка</html>
+radio.activate.most.recently.opened.tab:
+    text: <html>Последняя открытая вкладка</html>
+radio.activate.right.neighbouring.tab:
+    text: <html>Правая вкладка</html>
+radio.close.less.frequently.used.files:
+    text: Закрываць рэдка выкарыстоўваемыя файлы
+radio.close.non.modified.files.first:
+    text: Спачатку закрываць нязмененыя файлы
+radio.prefer.comma.separated.import.list:
+    text: Выкарыстоўваць спіс імпартаў з раздзяляльнікамі-коскамі
+radio.prefer.one.import.statement.per.page.directive:
+    text: Выкарыстоўваць адзін аператар import на дырэктыву старонкі
+radio.show.breadcrumbs.above:
+    text: Сверху
+radio.show.breadcrumbs.below:
+    text: Знізу
+reformat.changed.text.file.too.big.notification.text:
+    text: Файл {0} занадта вялікі або змяшчае занадта шмат зменаў
+reformat.changed.text.file.too.big.notification.title:
+    text: Немагчыма вылічыць змененыя дыяпазоны
+secondary.font:
+    text: 'Рэзервовы шрыфт:'
+settings.code.style.general.autodetect.indents:
+    text: Вызначаць і выкарыстоўваць існуючыя водступы файла пры рэдагаванні
+settings.code.style.general.enable.formatter.tags:
+    text: Выкарыстоўваць тэгі ў каментарыях для ўключэння/выключэння фарматара
+settings.code.style.general.formatter.marker.invalid.regexp:
+    text: Няправільны рэгулярны выраз
+settings.code.style.general.formatter.marker.regexp:
+    text: Уключыць рэгулярныя выразы ў тэгах фарматара
+settings.code.style.general.formatter.off.tag:
+    text: 'Выкл:'
+settings.code.style.general.formatter.on.tag:
+    text: 'Вкл:'
+settings.code.style.general.visual.guides.hint:
+    text: Укажыце адну накіроўваючую (80) або некалькі (80,120)
+settings.code.style.visual.guides:
+    text: Візуальныя накіроўваючыя
+settings.default.value.prefix:
+    text: 'Па змаўчанні: {0}'
+settings.editor.font.none:
+    text: <нет>
+settings.soft.margins.empty.list:
+    text: Нет
+tab.editor.settings.appearance:
+    text: Знешні выгляд
+text.no.path.variables:
+    text: Нет переменных путей
+title.add.variable:
+    text: Дадаць пераменную
+title.blank.lines:
+    text: Пустыя радкі
+title.code.completion:
+    text: Аўтадапаўненне кода
+title.code.generation:
+    text: Генерацыя кода
+title.colors.and.fonts:
+    text: Цветовая схема
+title.diff:
+    text: Параўнанне і зліццё
+title.edit.variable:
+    text: Рэдагаваць пераменную
+title.editor:
+    text: Агульныя
+title.general:
+    text: Налады сістэмы
+title.import.layout:
+    text: Кампаноўка імпартаў
+title.imports:
+    text: Імпарты
+title.jsp.imports.layout:
+    text: Размяшчэнне JSP імпартаў
+title.keep.blank.lines:
+    text: Максімум пустых радкоў
+title.minimum.blank.lines:
+    text: Мінімум пустых радкоў
+title.naming:
+    text: Найменне
+title.naming.comment.code:
+    text: Каментаванне кода
+title.naming.final.modifier:
+    text: "Аб'яўленне пераменнай"
+title.order.of.members:
+    text: Порядок членов
+title.packages.to.use.import.with:
+    text: "Пакеты для выкарыстання import з '*'"
+title.parameter.info:
+    text: Інфармацыя пра параметры
+title.path.variables:
+    text: Переменные путей
+title.preview:
+    text: Предпросмотр
+title.scope.based:
+    text: Па вобласці дзеяння
+title.settings:
+    text: Налады
+title.spaces:
+    text: Пробелы
+title.tabs.and.indents:
+    text: Табуляцыя і водступы
+tooltip.indent.must.be.multiple.of.tab.size.for.smart.tabs.to.operate:
+    text: Для працы разумных табуляцый водступ павінен быць кратны памеру табуляцыі
+use.external.annotations:
+    text: Выкарыстоўваць знешнія анатацыі  [&E]
+use.ligatures:
+    text: Уключыць лігатуры
+watcher.exe.not.exe:
+    text: "Native File Watcher не з'яўляецца выканальным файлам: <a href=\"{0}\">{0}</a>"
+watcher.exe.not.exists:
+    text: Native File Watcher не падтрымліваецца на гэтай платформе
+watcher.exe.not.found:
+    text: Выкананы файл Native File Watcher не знойдзены
+watcher.failed.to.start:
+    text: Не атрымалася запусціць File Watcher
+watcher.gave.up:
+    text: File Watcher перастаў працаваць
+watcher.non.watchable.project:
+    text: '{0} не можа атрымліваць апавяшчэнні аб падзеях файлавай сістэмы для гэтага праекта. Магчыма, ён знаходзіцца на сеткавым дыску?'
+watcher.slow.sync:
+    text: Сінхранізацыя змен знешніх файлаў можа быць павольнай
+wrapping.after.modifier.list:
+    text: Пераносіць пасля спіса мадыфікатараў
+wrapping.align.fields.in.columns:
+    text: Выраўноўваць палі ў слупках
+wrapping.align.in.columns:
+    text: Выраўноўваць па калонках
+wrapping.align.parenthesised.when.multiline:
+    text: Выраўноўваць дужкі пры пераносе
+wrapping.align.simple.methods.in.columns:
+    text: Выраўноўваць простыя метады ў слупках
+wrapping.align.throws.keyword:
+    text: "Выраўноўваць 'throws' па пачатку метаду"
+wrapping.align.variables.in.columns:
+    text: Выраўноўваць пераменныя ў слупках
+wrapping.align.when.multiline:
+    text: Выраўноўваць пры пераносе
+wrapping.array.initializer:
+    text: Спісы ініцыялізацыі
+wrapping.assert.statement:
+    text: Оператор assert
+wrapping.assignment.sign.on.next.line:
+    text: Знак прысвойвання на наступным радку
+wrapping.assignment.statement:
+    text: Аператар прысвойвання
+wrapping.binary.operations:
+    text: Бінарныя выразы
+wrapping.brace.placement:
+    text: Размяшчэнне фігурных дужак
+wrapping.brace.placement.class.declaration:
+    text: У класах і структурах
+wrapping.brace.placement.end.of.line:
+    text: У канцы радка
+wrapping.brace.placement.method.declaration:
+    text: "У аб'яўленні метаду"
+wrapping.brace.placement.next.line:
+    text: На наступным радку
+wrapping.brace.placement.next.line.each.shifted:
+    text: На наступным радку са зрухам
+wrapping.brace.placement.next.line.if.wrapped:
+    text: На наступным радку (калі перанос)
+wrapping.brace.placement.next.line.shifted:
+    text: На наступным радку (зрух)
+wrapping.brace.placement.other:
+    text: Прочее
+wrapping.catch.on.new.line:
+    text: "'catch' на новой строке"
+wrapping.chained.method.call.first.on.new.line:
+    text: Пераносіць першы выклік
+wrapping.chained.method.calls:
+    text: Ланцугі выклікаў метадаў
+wrapping.chop.down.if.long:
+    text: Разбіваць, калі доўгі радок
+wrapping.classes.annotation:
+    text: Анатацыі класаў
+wrapping.colon.signs.on.next.line:
+    text: "Знакі ':' на наступным радку"
+wrapping.comments:
+    text: Каментарыі
+wrapping.comments.wrap.at.right.margin:
+    text: Пераносіць па правым краі
+wrapping.do.not.wrap:
+    text: Не пераносіць
+wrapping.dowhile.statement:
+    text: "Оператор 'do ... while()'"
+wrapping.else.on.new.line:
+    text: "'else' з новага радка"
+wrapping.enum.constants:
+    text: Константы enum
+wrapping.extends.implements.keyword:
+    text: Ключевые слова extends/implements/permits
+wrapping.extends.implements.list:
+    text: Спіс extends/implements/permits
+wrapping.fields.annotation:
+    text: Анатацыі палёў
+wrapping.finally.on.new.line:
+    text: "'finally' з новага радка"
+wrapping.for.statement:
+    text: "Оператор 'for()'"
+wrapping.force.braces:
+    text: Прымусовыя фігурныя дужкі
+wrapping.force.braces.always:
+    text: Всегда
+wrapping.force.braces.do.not.force:
+    text: Не прымусова
+wrapping.force.braces.when.multiline:
+    text: Пры пераносе
+wrapping.if.statement:
+    text: "Оператор 'if()'"
+wrapping.indent.case.from.switch:
+    text: "Отступ веток 'case'"
+wrapping.keep.comment.at.first.column:
+    text: Каментарыі ў першай калонцы
+wrapping.keep.line.breaks:
+    text: Переносы строк
+wrapping.keep.multiple.expressions.in.one.line:
+    text: Некалькі выразаў на адным радку
+wrapping.keep.simple.blocks.in.one.line:
+    text: Простые лямбды в одной строке
+wrapping.keep.simple.classes.in.one.line:
+    text: Простые классы на одной строке
+wrapping.keep.simple.lambdas.in.one.line:
+    text: Простые lambda на одной строке
+wrapping.keep.simple.methods.in.one.line:
+    text: Простыя функцыі ў адным радку
+wrapping.keep.when.reformatting:
+    text: Захоўваць пры перафарматаванні
+wrapping.local.variables.annotation:
+    text: Анатацыі лакальных пераменных
+wrapping.long.lines:
+    text: Не превышать правый край
+wrapping.method.arguments:
+    text: Аргументы вызова метода
+wrapping.method.parameters:
+    text: "Параметры аб'яўлення метаду"
+wrapping.method.parentheses:
+    text: Круглыя дужкі метаду
+wrapping.methods.annotation:
+    text: Анатацыі метадаў
+wrapping.modifier.list:
+    text: Спіс мадыфікатараў
+wrapping.new.line.after.lbrace:
+    text: "Новая строка после '{'"
+wrapping.new.line.after.lpar:
+    text: "Новая строка после '('"
+wrapping.operation.sign.on.next.line:
+    text: Знак аперацыі на наступным радку
+wrapping.parameters.annotation:
+    text: Анатацыі параметраў
+wrapping.quest.and.colon.signs.on.next.line:
+    text: "Знакі '?' і ':' на наступным радку"
+wrapping.rbrace.on.new.line:
+    text: "'}' на новой строке"
+wrapping.rpar.on.new.line:
+    text: "')' на новой строке"
+wrapping.special.else.if.braces.treatment:
+    text: "Особая обработка 'else if'"
+wrapping.switch.statement:
+    text: "Оператор 'switch'"
+wrapping.take.priority.over.call.chain.wrapping:
+    text: Прыярытэт над пераносам ланцуга выклікаў
+wrapping.ternary.operation:
+    text: Тэрнарная аперацыя
+wrapping.throws.keyword:
+    text: Ключевое слово throws
+wrapping.throws.list:
+    text: Спіс throws
+wrapping.try.statement:
+    text: "Оператор 'try'"
+wrapping.while.on.new.line:
+    text: "'while' з новага радка"
+wrapping.while.statement:
+    text: "Оператор 'while()'"
+wrapping.wrap.always:
+    text: Заўсёды пераносіць
+wrapping.wrap.if.long:
+    text: Пераносіць доўгія радкі
+wrapping.wrap.on.typing:
+    text: Перанос пры ўводзе
+wrapping.wrap.on.typing.default:
+    text: Па змаўчанні
+wrapping.wrap.on.typing.no.wrap:
+    text: Нет
+wrapping.wrap.on.typing.wrap:
+    text: Да

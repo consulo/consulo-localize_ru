@@ -1,0 +1,416 @@
+create.class.dialog.title:
+    text: 新建 Objective-C 类
+generate.constructor.fields.chooser.title:
+    text: 选择要通过构造函数初始化的字段
+generate.getter.fields.chooser.title:
+    text: 选择要生成 Getter 的字段
+generate.setter.fields.chooser.title:
+    text: 选择要生成 Setter 的字段
+generate.to.string.chooser.title:
+    text: 选择要在 toString 函数中使用的字段
+interface.function.declaration.should.have.no.body:
+    text: 接口函数声明不应有本体
+interface.should.have.no.variable.declarations:
+    text: 接口不应有变量声明
+invalid.identifier.value:
+    text: 标识符值无效
+javascript.argument.type.mismatch:
+    text: 实参类型 {1} 不可分配给形参类型 {0}
+javascript.assigned.expression.type.mismatch:
+    text: 分配的表达式类型 {1} 不可分配给类型 {0}
+javascript.badcharacter:
+    text: 错误字符
+javascript.blockcomment:
+    text: 块注释
+javascript.braces:
+    text: 大括号
+javascript.brackets:
+    text: 中括号
+javascript.comma:
+    text: 逗号
+javascript.create.class.intention.name:
+    text: "创建类 ''{0}''"
+javascript.create.constant.field.intention.name:
+    text: "创建常量字段 ''{0}''"
+javascript.create.constant.intention.name:
+    text: "创建常量 ''{0}''"
+javascript.create.event.handler.intention.name:
+    text: "创建事件处理程序 ''{0}''"
+javascript.create.function.intention.family:
+    text: 创建 JavaScript 函数或方法
+javascript.create.function.intention.name:
+    text: "创建函数 ''{0}''"
+javascript.create.get.property.intention.name:
+    text: "创建 ''get'' 属性 ''{0}''"
+javascript.create.interface.intention.name:
+    text: "创建接口 ''{0}''"
+javascript.create.method.intention.name:
+    text: "创建方法 ''{0}''"
+javascript.create.property.intention.name:
+    text: "创建属性 ''{0}''"
+javascript.create.set.property.intention.name:
+    text: "创建 ''set'' 属性 ''{0}''"
+javascript.create.variable.intention.family:
+    text: 创建 JavaScript 变量或属性
+javascript.create.variable.intention.name:
+    text: "创建变量 ''{0}''"
+javascript.declare.variable.intention.name:
+    text: "为 ''{1}'' 插入 {0} 声明"
+javascript.deprecated.symbol.used.name.message:
+    text: '使用了弃用的符号，请查阅文档，以获取更好的替代性 #loc'
+javascript.doccomment:
+    text: 文档注释
+javascript.doctag:
+    text: 文档标签
+javascript.dot:
+    text: 点
+javascript.extract.method.title:
+    text: 提取函数
+javascript.fix.add.override.modifier:
+    text: 添加重写修饰符
+javascript.fix.create.constructor.invoke.super:
+    text: 创建匹配 super 的构造函数
+javascript.fix.create.invoke.super:
+    text: 插入超类构造函数调用
+javascript.fix.implement.methods:
+    text: 实现方法
+javascript.fix.optimize.imports:
+    text: 优化 import
+javascript.fix.package.name:
+    text: "将软件包名称设置为 ''{0}''"
+javascript.fix.remove.access.modifier:
+    text: 移除访问修饰符
+javascript.fix.remove.circular.dependency:
+    text: 移除循环依赖关系
+javascript.fix.remove.constructor:
+    text: 移除构造函数
+javascript.fix.remove.externally.visible.symbol:
+    text: 移除外部可见符号
+javascript.fix.remove.initializer:
+    text: 移除初始值设定项
+javascript.fix.remove.namespace.reference:
+    text: 移除命名空间引用
+javascript.fix.remove.override.modifier:
+    text: 移除重写修饰符
+javascript.fix.remove.parameter:
+    text: 移除形参
+javascript.fix.remove.type.reference:
+    text: 移除类型引用
+javascript.global.function:
+    text: 全局函数
+javascript.global.variable:
+    text: 全局变量
+javascript.incorrect.variable.type.mismatch:
+    text: 变量类型 {1} 不可分配给类型 {0}
+javascript.initializer.type.mismatch:
+    text: 初始值设定项类型 {1} 不可分配给变量类型 {0}
+javascript.insert.cast.fix:
+    text: 插入转换
+javascript.instance.member.function:
+    text: 实例成员函数
+javascript.instance.member.variable:
+    text: 实例成员变量
+javascript.interface.can.not.be.instantiated.message:
+    text: 无法实例化接口
+javascript.introduce.constant.error.no.expression.selected:
+    text: |-
+        无法引入常量。
+        选定内容不构成表达式。
+javascript.introduce.constant.error.not.constant.expression.selected:
+    text: |-
+        无法引入常量。
+        选定内容不是常量表达式。
+javascript.introduce.constant.title:
+    text: 引入常量
+javascript.introduce.field.error.no.expression.selected:
+    text: |-
+        无法引入字段。
+        选定内容不构成表达式。
+javascript.introduce.field.title:
+    text: 引入字段
+javascript.introduce.variable.error.no.expression.selected:
+    text: |-
+        无法引入变量。
+        选定内容不构成表达式。
+javascript.introduce.variable.invalid.name:
+    text: 请输入有效名称。
+javascript.introduce.variable.name.prompt:
+    text: '名称(&N):'
+javascript.introduce.variable.replace.all.occurrences:
+    text: 替换所有匹配项(找到 {0} 个匹配项)(&A)
+javascript.introduce.variable.title:
+    text: 提取变量
+javascript.invalid.number.of.parameters:
+    text: 实参数量无效，应为 {0} 个
+javascript.invalid.string.escape:
+    text: 无效字符串转义
+javascript.keyword:
+    text: 关键字
+javascript.language.term.attribute.value:
+    text: 特性值
+javascript.language.term.class:
+    text: 类
+javascript.language.term.function:
+    text: 函数
+javascript.language.term.label:
+    text: 标签
+javascript.language.term.namespace:
+    text: 命名空间
+javascript.language.term.package:
+    text: 软件包
+javascript.language.term.parameter:
+    text: 形参
+javascript.language.term.property:
+    text: 属性
+javascript.language.term.tag:
+    text: 标记
+javascript.language.term.variable:
+    text: 变量
+javascript.linecomment:
+    text: 行注释
+javascript.local.variable:
+    text: 局部变量
+javascript.metadata:
+    text: 元数据
+javascript.number:
+    text: 数字
+javascript.operation:
+    text: 运算
+javascript.parameter:
+    text: 形参
+javascript.parens:
+    text: 括号
+javascript.parser.message.expected.colon:
+    text: '应为 :'
+javascript.parser.message.expected.comma:
+    text: 应为 ,
+javascript.parser.message.expected.comma.or.rparen:
+    text: 应为 , 或 )
+javascript.parser.message.expected.equal:
+    text: 应为 =
+javascript.parser.message.expected.expression:
+    text: 应为表达式
+javascript.parser.message.expected.forloop.in.or.semicolon:
+    text: "应为 'in' 或 ;"
+javascript.parser.message.expected.forloop.left.hand.side.expression.or.variable.declaration:
+    text: "'in' 前面应为左侧表达式或变量声明"
+javascript.parser.message.expected.formal.parameter.name:
+    text: 应为形参名称
+javascript.parser.message.expected.function.name:
+    text: 应为函数名称
+javascript.parser.message.expected.identifier:
+    text: 应为标识符
+javascript.parser.message.expected.identifier.string.literal.or.numeric.literal:
+    text: 应为标识符、字符串文字或数字文字
+javascript.parser.message.expected.instanceof:
+    text: "应为 'instanceof'"
+javascript.parser.message.expected.lparen:
+    text: 应为 (
+javascript.parser.message.expected.name:
+    text: 应为名称
+javascript.parser.message.expected.namespace:
+    text: "应为 'namespace'"
+javascript.parser.message.expected.parameter.name:
+    text: 应为形参名称
+javascript.parser.message.expected.rbrace:
+    text: 应为 }
+javascript.parser.message.expected.rbracket:
+    text: 应为 ]
+javascript.parser.message.expected.rparen:
+    text: 应为 )
+javascript.parser.message.expected.semicolon:
+    text: 应为 ;
+javascript.parser.message.expected.statement:
+    text: 应为语句
+javascript.parser.message.expected.string.literal:
+    text: 应为字符串文字
+javascript.parser.message.expected.typename:
+    text: 应为类型名称
+javascript.parser.message.expected.value:
+    text: 应为值
+javascript.parser.message.expected.variable.name:
+    text: 应为变量名称
+javascript.parser.message.expected.while.keyword:
+    text: "应为 'while'"
+javascript.parser.message.expected.xml:
+    text: 应为 XML 上下文关键字
+javascript.parser.message.expected.xml.element:
+    text: 应为 XML 元素
+javascript.parser.message.missing.rbrace:
+    text: 缺少 }
+javascript.parser.message.unclosed.string.literal:
+    text: 未闭合的字符串文字
+javascript.parser.message.unexpected.end.of.file:
+    text: 意外的文件结尾
+javascript.parser.property.expected:
+    text: 应为属性
+javascript.regexp:
+    text: 正则表达式
+javascript.returned.expression.type.mismatch:
+    text: 返回的表达式类型 {1} 不可分配给类型 {0}
+javascript.semicolon:
+    text: 分号
+javascript.static.member.function:
+    text: static 成员函数
+javascript.static.member.variable:
+    text: static 成员变量
+javascript.string:
+    text: 字符串
+javascript.surround.with.function:
+    text: 函数
+javascript.surround.with.function.expression:
+    text: 函数表达式
+javascript.template.context.type:
+    text: JavaSc&ript 和 TypeScript
+javascript.term.does.not.evaluate.to.function:
+    text: 方法表达式不是函数类型
+javascript.term.does.not.evaluate.to.function2:
+    text: 属性不能作为函数调用
+javascript.term.does.not.evaluate.to.function2.fix:
+    text: 移除实参列表
+javascript.undeclared.variable.name.message:
+    text: '隐式声明变量 {0} #loc'
+javascript.unresolved.function.name.message:
+    text: '未解析的函数或方法 <code>{0}()</code> #loc'
+javascript.unresolved.type.name.message:
+    text: '未解析的类型 {0} #loc'
+javascript.unresolved.variable.name.message:
+    text: '未解析的变量 {0} #loc'
+javascript.unresolved.variable.or.type.name.message:
+    text: '未解析的变量或类型 {0} #loc'
+javascript.unresolved.variable.or.type.name.message2:
+    text: 未解析的变量或类型 {0}
+javascript.valid.string.escape:
+    text: 有效字符串转义
+javascript.validation.message.access.modifier.allowed.only.for.class.members:
+    text: 仅类成员允许使用访问修饰符
+javascript.validation.message.access.modifier.allowed.only.for.package.members:
+    text: 软件包成员仅允许使用 public/internal 修饰符
+javascript.validation.message.arguments.with.rest.parameter:
+    text: "使用 rest 形参时，'arguments' 对象不可用"
+javascript.validation.message.assignment.to.const:
+    text: 尝试分配给常量或只读变量
+javascript.validation.message.break.without.target:
+    text: "无法确定 'break' 的目标"
+javascript.validation.message.circular.dependency:
+    text: 循环依赖关系
+javascript.validation.message.class.name.expected.here:
+    text: 此处应为类名
+javascript.validation.message.class.should.be.in.file:
+    text: "应在文件 ''{1}'' 中定义类 ''{0}''"
+javascript.validation.message.constructor.in.mxml.is.not.allowed:
+    text: MXML 类不允许使用构造函数
+javascript.validation.message.continue.without.target:
+    text: "无法确定 'continue' 的目标"
+javascript.validation.message.duplicate.declaration:
+    text: 重复声明
+javascript.validation.message.duplicate.label:
+    text: 重复标签
+javascript.validation.message.file.should.be.under.source.root:
+    text: 对象位于源根目录外的文件中，某些功能不可用
+javascript.validation.message.function.override.for.object.method:
+    text: 从 Object 继承的方法无需重写
+javascript.validation.message.function.override.incompatible.access.modifier:
+    text: "不兼容重写，应有 ''{0}'' 访问修饰符"
+javascript.validation.message.function.override.incompatible.signature:
+    text: "不兼容重写，应有签名 ''{0}''"
+javascript.validation.message.function.override.incompatible.signature2:
+    text: "不兼容重写，应有返回值类型 ''{0}''"
+javascript.validation.message.function.override.without.override.modifier:
+    text: 方法重写了没有 override 关键字的超类 {0} 中的方法
+javascript.validation.message.function.override.without.parent.method:
+    text: 方法不重写超类的方法
+javascript.validation.message.function.should.be.in.file:
+    text: "应在文件 ''{1}'' 中定义函数 ''{0}''"
+javascript.validation.message.get.method.should.be.valid.type:
+    text: getter 定义的返回值类型不应为 {0}
+javascript.validation.message.get.method.should.have.no.parameter:
+    text: getter 定义不得有形参
+javascript.validation.message.implements.for.interface.not.allowed:
+    text: 接口不允许有实现列表
+javascript.validation.message.incorrect.package.name:
+    text: "软件包名称 ''{0}'' 与文件路径 ''{1}'' 不对应"
+javascript.validation.message.interface.members.cannot.have.access.modifiers:
+    text: 接口成员不能具有访问修饰符
+javascript.validation.message.interface.method.invalid.access.modifier:
+    text: "不兼容实现，应有 'public' 访问修饰符"
+javascript.validation.message.interface.method.invalid.signature:
+    text: "不兼容实现，应有签名 ''{0}''"
+javascript.validation.message.interface.method.invalid.signature2:
+    text: "不兼容实现，应有返回值类型 ''{0}''"
+javascript.validation.message.interface.method.not.implemented:
+    text: 未实现来自接口 {1} 的方法 {0}
+javascript.validation.message.interface.name.expected.here:
+    text: 此处应为接口名称
+javascript.validation.message.missed.super.constructor.call:
+    text: 缺少超类构造函数调用
+javascript.validation.message.more.than.one.externally.visible.symbol:
+    text: 文件中定义了多个外部可见符号
+javascript.validation.message.must.be.lvalue:
+    text: '{0} 中的左侧无效'
+javascript.validation.message.namespace.allowed.only.for.class.members:
+    text: 仅类成员允许使用命名空间
+javascript.validation.message.namespace.should.be.in.file:
+    text: "应在文件 ''{1}'' 中定义命名空间 ''{0}''"
+javascript.validation.message.nested.classes.are.not.allowed:
+    text: 不允许嵌套类
+javascript.validation.message.package.shouldbe.first.statement:
+    text: 软件包应为文件中的第一条语句
+javascript.validation.message.parameter.is.not.allowed.after.rest.parameter:
+    text: rest 形参后不允许有任何形参
+javascript.validation.message.parameter.should.be.initialized:
+    text: 应初始化形参
+javascript.validation.message.remove.unneeded.comma.fix:
+    text: 移除不需要的逗号
+javascript.validation.message.rest.parameter.should.not.be.initialized:
+    text: 不应初始化 Rest 形参
+javascript.validation.message.return.outside.function.definition:
+    text: "'return' 在函数定义外部"
+javascript.validation.message.return.value.of.type.is.required:
+    text: 必需具备类型 {0} 的返回值
+javascript.validation.message.set.method.should.be.void.or.without.type:
+    text: setter 定义的返回值类型必须为未指定或无效
+javascript.validation.message.set.method.should.have.one.parameter:
+    text: setter 定义必须正好有一个形参
+javascript.validation.message.super.referenced.from.static.context:
+    text: "在 static 上下文中引用了 'super'"
+javascript.validation.message.super.referenced.without.class.instance.context:
+    text: "在没有类实例上下文的情况下引用了'super'"
+javascript.validation.message.this.referenced.from.static.context:
+    text: "在 static 上下文中引用了 'this'"
+javascript.validation.message.unexpected.type.for.rest.parameter:
+    text: Rest 形参不应有类型
+javascript.validation.message.unneeded.comma:
+    text: 不需要的逗号
+javascript.validation.message.use.namespace.reference.or.access.modifier:
+    text: 使用命名空间或访问修饰符
+javascript.validation.message.variable.should.be.in.file:
+    text: "应在文件 ''{1}'' 中定义变量 ''{0}''"
+javascript.validation.unused.import:
+    text: 未使用的 import
+js.deprecated.symbols.inspection.name:
+    text: 已使用弃用的符号
+js.inspection.group.name:
+    text: 常规
+js.undeclared.variable.inspection.name:
+    text: 隐式声明的全局 JavaScript 变量
+js.unresolved.variable.inspection.name:
+    text: 未解析的引用
+js.untyped.declaration.inspection.name:
+    text: 没有类型的声明
+js.untyped.declaration.problem.addtype.fix:
+    text: 向声明中添加类型
+js.untyped.function.problem:
+    text: '函数 {0} 没有返回值类型 #loc'
+js.untyped.variable.problem:
+    text: '变量 {0} 没有类型 #loc'
+js.unused.local.symbol.inspection.name:
+    text: 未使用的局部符号
+js.unused.symbol.remove:
+    text: 移除未使用的 {0}
+methods.to.implement.chooser.title:
+    text: 选择要实现的方法
+methods.to.override.chooser.title:
+    text: 选择要重写的方法
+to.indent.package.statement.children:
+    text: 缩进 package 语句子级(&I)

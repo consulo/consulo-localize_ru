@@ -1,0 +1,446 @@
+access.static.via.class.reference.family:
+    text: 通過類引用存取 static
+access.static.via.class.reference.text:
+    text: "通過類 ''{2}'' 引用存取 static ''{1}.{0}''"
+add.catch.clause.family:
+    text: 將異常添加到 catch 子句
+add.catch.clause.text:
+    text: "添加 'catch' 子句"
+add.class.to.extends.list:
+    text: "使 ''{0}'' 擴展 ''{1}''"
+add.constructor.parameter.name:
+    text: 添加構造函數參數
+add.default.constructor.family:
+    text: 添加預設構造函數
+add.default.constructor.text:
+    text: 將 {0} 無實參構造函數添加到 {1}
+add.docTag.to.custom.tags:
+    text: 將 {0} 添加到自訂標籤
+add.exception.from.field.initializer.to.constructor.throws.family.text:
+    text: 向類構造函數簽名添加異常
+add.exception.from.field.initializer.to.constructor.throws.text:
+    text: 添加類{0, choice, 0#預設構造函數|1#構造函數|2#構造函數}簽名的異常
+add.exception.to.throws.family:
+    text: 向方法簽名添加異常
+add.exception.to.throws.inherited.method.warning.text:
+    text: "方法 ''{0}'' 被繼承。\n您是否希望在整個方法層次結構中向方法簽名添加異常?"
+add.exception.to.throws.text:
+    text: 添加{0, choice, 0#異常|2#異常}到方法簽名
+add.import:
+    text: 添加匯入
+add.interface.to.implements.list:
+    text: "使 ''{0}'' 實作 ''{1}''"
+add.library.copy.files.to.radio.button:
+    text: "將''{0}''庫檔案複製到 (&C)"
+add.library.description.choose.folder:
+    text: 選擇要複製的庫所在的目錄
+add.library.error.cannot.copy:
+    text: "無法將 ''{0}'' 複製到 ''{1}''\n({2})"
+add.library.error.not.found:
+    text: "庫檔案 ''{0}'' 不存在"
+add.library.title.choose.folder:
+    text: 選擇目錄
+add.library.title.dialog:
+    text: "將 ''{0}'' 庫添加到專案"
+add.library.use.bundled.library.radio.button:
+    text: "使用{1}分發中的''{0}'' (&U)"
+add.method.body.text:
+    text: 添加方法體
+add.method.family:
+    text: 添加方法
+add.method.qualifier.fix.family:
+    text: 添加方法限定符
+add.method.qualifier.fix.text:
+    text: "將限定符 ''{0}'' 添加到方法"
+add.method.text:
+    text: "將方法 ''{0}'' 添加到類 ''{1}''"
+add.missing.annotation.parameters.fix:
+    text: 添加缺少的註解參數 - {0}
+add.missing.annotation.single.parameter.fix:
+    text: "添加缺少的註解參數 ''{0}''"
+add.modifier.fix:
+    text: "將 ''{0}'' 設為{1}"
+add.new.array.family:
+    text: 添加缺少的新表達式
+add.new.array.text:
+    text: "添加 ''new {0}[]''"
+add.parameter.from.usage.text:
+    text: "將 ''{0}'' 作為第 {1,number,ordinal} 個{2}添加到{3} ''{4}'' 中"
+add.qualifier:
+    text: 添加限定符
+add.qualifier.original.class.chooser.title:
+    text: 原始類
+add.return.statement.text:
+    text: "添加 'return' 語句"
+add.runtime.exception.to.throws.family:
+    text: 向方法簽名添加執行時異常
+add.runtime.exception.to.throws.text:
+    text: 向方法簽名添加執行時異常
+add.type.arguments.single.argument.text:
+    text: 添加顯式類型實參
+add.type.arguments.text:
+    text: 添加顯式類型實參到第{0, choice, 1#1|2#2|3#3|4#{0,number}}個實參
+add.typecast.family:
+    text: 添加類型轉換
+add.typecast.text:
+    text: "轉換到 ''{0}''"
+adjust.package.family:
+    text: 調整軟體套件名稱
+adjust.package.text:
+    text: "將軟體套件名稱設定為 ''{0}''"
+annotations.fix:
+    text: 註解
+anonymous.class.presentation:
+    text: 派生自 {0} 的匿名類
+bring.variable.to.scope.family:
+    text: 將變數引入範圍
+bring.variable.to.scope.text:
+    text: "將 ''{0}'' 引入範圍"
+cannot.change.field.exception:
+    text: "無法更改欄位 ''{0}'' 類型。\n原因: {1}"
+cannot.create.java.file.error.text:
+    text: '無法在{1}中創建 {0}.java: {2}'
+cannot.create.java.file.error.title:
+    text: 檔案創建失敗
+cannot.create.java.package.error.text:
+    text: '無法在{1}中創建 {0}: {2}'
+cannot.create.java.package.error.title:
+    text: 軟體套件創建失敗
+cast.parameter.text:
+    text: "將{0, choice, 1#第 1 個|2#第 2 個|3#第 3 個|4#第 {0,number} 個}實參轉換為 ''{1}''"
+cast.single.parameter.text:
+    text: "將實參轉換為 ''{0}''"
+change.class.signature.family:
+    text: 更改類簽名
+change.class.signature.text:
+    text: "更改 ''{0}'' 的簽名以符合 ''{1}''"
+change.extends.list.family:
+    text: 擴展類自
+change.inheritors.visibility.warning.text:
+    text: 是否將繼承者的可見性更改為基方法的可見性?
+change.inheritors.visibility.warning.title:
+    text: 更改繼承者
+change.method.signature.from.usage.family:
+    text: 從用法更改方法簽名
+change.method.signature.from.usage.text:
+    text: "將 ''{0}'' 的簽名更改為 ''{1}({2})''"
+change.new.operator.type.family:
+    text: 更改新運算符類型
+change.new.operator.type.text:
+    text: "將 ''{0}'' 更改為 ''new {1}{2}''"
+change.parameter.class.family:
+    text: 更改參數類
+change.parameter.from.usage.text:
+    text: "將{2} ''{3}'' 的第 {0,number,ordinal} 個{1}從 ''{4}'' 更改為 ''{5}''"
+change.to.append.family:
+    text: 修正 StringBuilder 追加
+change.to.append.text:
+    text: "更改為 ''{0}''"
+class.initializer.presentation:
+    text: '{0} 類初始設定式'
+collection.addall.can.be.replaced.with.constructor.fix.description:
+    text: "'#ref()' 方法可取代為參數化構造函數調用"
+collection.to.array.family.name:
+    text: "套用轉換 '.toArray()'"
+collection.to.array.text:
+    text: "套用轉換 ''.toArray({0})''"
+convert.method.to.constructor:
+    text: 使方法成為構造函數
+convert.to.string.family:
+    text: 修正字符文字
+convert.to.string.text:
+    text: 轉換為字串文字
+create.accessor.for.unused.field.family:
+    text: 創建未使用欄位的存取器
+create.class.from.new.family:
+    text: 從新的運算符創建類
+create.class.from.usage.family:
+    text: 從用法創建類
+create.class.from.usage.text:
+    text: "創建{0} ''{1}''"
+create.class.text:
+    text: 創建類 {0}
+create.class.title:
+    text: Objective-C 類
+create.constant.from.usage.family:
+    text: 從用法創建常數
+create.constructor.from.new.family:
+    text: 從新的運算符創建構造函數
+create.constructor.from.new.text:
+    text: 創建構造函數
+create.constructor.from.super.call.family:
+    text: 從 super() 調用創建構造函數
+create.constructor.from.this.call.family:
+    text: 從 this() 調用創建構造函數
+create.constructor.matching.super:
+    text: 創建符合 super 的構造函數
+create.constructor.text:
+    text: "在 ''{0}'' 中創建構造函數"
+create.field.from.usage.family:
+    text: 從用法創建欄位
+create.field.text:
+    text: 創建欄位 {0}
+create.getter:
+    text: 創建 Getter
+create.getter.and.setter.for.field:
+    text: "為 ''{0}'' 創建 getter 和 setter"
+create.getter.for.field:
+    text: "為 ''{0}'' 創建 getter"
+create.inner.class.from.usage.text:
+    text: "創建內部{0} ''{1}''"
+create.interface.text:
+    text: 創建接口 {0}
+create.local.from.instanceof.usage.family:
+    text: 從 instanceof 用法創建局部變數
+create.local.from.instanceof.usage.text:
+    text: "插入 ''({0}){1}'' 宣告"
+create.local.from.usage.family:
+    text: 從用法創建本地
+create.method.from.usage.family:
+    text: 從用法創建方法
+create.method.from.usage.text:
+    text: "創建方法 ''{0}''"
+create.parameter.from.usage.family:
+    text: 從用法創建參數
+create.property.from.usage.family:
+    text: 從用法創建屬性
+create.property.text:
+    text: 創建屬性 {0}
+create.setter:
+    text: 創建 Setter
+create.setter.for.field:
+    text: "為 ''{0}'' 創建 setter"
+defer.final.assignment.with.temp.family:
+    text: 使用臨時變數推遲最終賦值
+defer.final.assignment.with.temp.text:
+    text: "使用臨時變數推遲 ''{0}'' 賦值"
+delete.body.text:
+    text: 刪除方法體
+delete.catch.family:
+    text: 刪除 catch
+delete.catch.text:
+    text: "刪除 ''{0}'' 的 catch"
+delete.reference.fix.text:
+    text: 刪除引用
+delete.unreachable.statement.fix.text:
+    text: 刪除不可到達的語句
+enable.optimize.imports.on.the.fly:
+    text: "啟用 '設定 | 編輯器 | 一般 | 自動匯入 | 動態最佳化 import'"
+exchange.extends.implements.keyword:
+    text: "將 ''{0} {2}'' 更改為 ''{1} {2}''"
+extract.side.effects:
+    text: 提取副{0, choice, 1#作用|2#作用}
+extract.side.effects.convert.to.if:
+    text: "作為 'if' 語句提取副作用"
+extract.side.effects.family.name:
+    text: 刪除提取副作用的語句
+field.to.import.chooser.title:
+    text: 要匯入的欄位
+fix.add.special.annotation.family:
+    text: 添加到特殊註解
+fix.add.special.annotation.text:
+    text: "將 ''{0}'' 添加到特殊註解列表"
+fix.argument.family:
+    text: 修正實參
+fix.javadoc.family:
+    text: 修正 Javadoc
+fix.modifiers.family:
+    text: 修正修飾符
+fix.parameter.type.family:
+    text: 修正參數類型
+fix.parameter.type.text:
+    text: "使 ''{0}'' 在此處獲取類型為 ''{1}'' 的參數"
+fix.return.type.family:
+    text: 修正返回類型
+fix.return.type.text:
+    text: "使 ''{0}'' 返回 ''{1}''"
+fix.single.character.string.to.char.literal.family:
+    text: 修正文字類型
+fix.single.character.string.to.char.literal.text:
+    text: 將 {0} 更改為 {1}({2} 文字)
+fix.super.method.return.type.family:
+    text: 修復 Super 方法返回類型
+fix.super.method.return.type.text:
+    text: "使 ''{0}'' 返回 ''{1}''"
+fix.throws.list.add.exception:
+    text: "將 ''{0}'' 添加到 ''{1}'' throws 列表"
+fix.throws.list.family:
+    text: 修正 throws 列表
+fix.throws.list.remove.exception:
+    text: "從 ''{1}'' throws 列表移除 ''{0}''"
+fix.unused.symbol.injection.family:
+    text: 添加到依賴項注入註解
+fix.unused.symbol.injection.text:
+    text: "如果用 ''{0}'' 註解，則禁止未使用的警告"
+fix.variable.type.family:
+    text: 修正變數類型
+fix.variable.type.text:
+    text: "將{0} 的類型由''{1}''更改為 ''{2}''"
+generify.family:
+    text: 泛化檔案
+generify.text:
+    text: "嘗試泛化 ''{0}''"
+implement.methods.fix:
+    text: 實作方法
+import.class.fix:
+    text: 匯入類
+initialize.final.field.in.constructor.choose.dialog.title:
+    text: 選擇要添加初始化的構造函數
+initialize.final.field.in.constructor.name:
+    text: 在構造函數中初始化
+insert.new.fix:
+    text: 插入 new
+insert.sam.method.call.fix.family.name:
+    text: 插入單一 abstract 方法調用
+insert.sam.method.call.fix.name:
+    text: "插入 ''.{0}'' 以調用函數接口方法"
+insert.super.constructor.call.family:
+    text: 插入基類構造函數調用
+insert.super.constructor.call.text:
+    text: "插入 ''{0}''"
+java.9.merge.module.statements.fix.family.name:
+    text: "與其他 ''{0}'' 指令合併"
+java.9.merge.module.statements.fix.name:
+    text: "與其他 ''{0} {1}'' 指令合併"
+make.class.an.interface.family:
+    text: 使類成為接口
+make.class.an.interface.text:
+    text: "將 ''{0}'' 設為接口"
+make.final.copy.to.temp:
+    text: "將 ''{0}'' 複製到 {1} 臨時變數"
+make.final.family:
+    text: 設為 final
+make.interface.an.class.text:
+    text: "使 ''{0}'' 設為類"
+make.vararg.parameter.last.family:
+    text: 將 vararg 參數設定為最後應參數
+make.vararg.parameter.last.text:
+    text: "將 ''{0}'' 移至列表的末尾"
+method.is.inherited.warning.title:
+    text: 方法被繼承
+method.to.import.chooser.title:
+    text: 要匯入的方法
+module.info.add.requires.name:
+    text: "將 ''requires {0}'' 指令添加到 module-info.java"
+move.bound.class.to.front.fix.text:
+    text: "將界限 ''{0}'' 移至類型參數 ''{1}'' 的界限列表的開頭"
+move.catch.up.family:
+    text: 上移 Catch
+move.catch.up.text:
+    text: "將 ''{0}'' 的 catch 移動到 ''{1}'' 之前"
+move.class.in.extend.list.family:
+    text: 在擴展列表中移動類
+move.class.to.package.family:
+    text: 將類移至軟體套件
+move.class.to.package.text:
+    text: "移至軟體套件 ''{0}''"
+move.class.to.separate.file.family:
+    text: 將類移至單獨的檔案
+move.class.to.separate.file.text:
+    text: "將類 ''{0}'' 移至 ''{0}.java''"
+move.file.to.source.root.text:
+    text: 將檔案移至源根
+negation.broader.scope.family:
+    text: 否定更寬的範圍
+negation.broader.scope.text:
+    text: "更改為 ''!({0})''"
+new.method.body.template.error.text:
+    text: 請更正“新方法體”模板
+new.method.body.template.error.title:
+    text: 檔案模板錯誤
+optimize.imports.fix:
+    text: 最佳化 import
+orderEntry.fix.add.dependency.on.module:
+    text: "添加對模組 ''{0}'' 的依賴"
+orderEntry.fix.add.dependency.on.module.choose:
+    text: 添加對模組的依賴…
+orderEntry.fix.add.library.to.classpath:
+    text: "將庫 ''{0}'' 添加到類路徑"
+orderEntry.fix.choose.module.to.add.dependency.on:
+    text: 選擇要依賴的模組
+orderEntry.fix.circular.dependency.warning:
+    text: "添加對模組 ''{0}'' 的依賴將在模組 ''{1}'' 和 ''{2}'' 之間引入迴圈依賴關係。\n添加依賴關係?"
+orderEntry.fix.family.add.library.to.classpath:
+    text: 將庫添加到類路徑
+orderEntry.fix.family.add.module.dependency:
+    text: 添加模組依賴項
+orderEntry.fix.title.circular.dependency.warning:
+    text: 迴圈依賴關係警告
+permute.arguments:
+    text: 重新排列實參
+remove.class.from.extends.list:
+    text: "使 ''{0}'' 不擴展 ''{1}''"
+remove.interface.from.implements.list:
+    text: "使 ''{0}'' 不實現 ''{1}''"
+remove.modifier.fix:
+    text: "將 ''{0}'' 設為非{1}"
+remove.parameter.from.usage.text:
+    text: "從{2} ''{3}'' 中移除第 {0,number,ordinal} 個{1}"
+remove.qualifier.action.text:
+    text: 移除限定符
+remove.qualifier.fix:
+    text: 移除限定符
+remove.redundant.arguments.family:
+    text: 移除冗餘參數
+remove.redundant.arguments.text:
+    text: "移除冗餘實參以調用 ''{0}''"
+remove.suppression.action.family:
+    text: 移除禁止
+remove.suppression.action.name:
+    text: "移除 ''{0}'' 禁止"
+rename.wrong.reference.family:
+    text: 重命名錯誤引用
+rename.wrong.reference.text:
+    text: 重命名引用
+replace.with.list.access.text:
+    text: 取代為列表存取
+reuse.variable.declaration.family:
+    text: 重用變數宣告
+reuse.variable.declaration.text:
+    text: "重用上一個變數 ''{0}'' 宣告"
+safe.delete.family:
+    text: 安全刪除
+safe.delete.text:
+    text: "安全刪除 ''{0}''"
+searching.for.usages.progress.title:
+    text: 正在搜尋用法…
+setup.jdk.location.family:
+    text: 設定 JDK 位置
+setup.jdk.location.text:
+    text: 設定 JDK
+side.effect.action.cancel:
+    text: 取消(&C)
+side.effect.action.remove:
+    text: 移除(&R)
+side.effect.action.transform:
+    text: 轉換(&T)
+side.effect.message1:
+    text: "<html><body>分配給變數 ''{0}'' 的表達式中可能存在副作用<br>您可以: <ul><li><b>移除</b>涉及的變數用法以及所有表達式</li></body></html>"
+side.effects.warning.dialog.title:
+    text: 發現副作用
+simplify.boolean.expression.family:
+    text: 簡化布爾表達式
+simplify.boolean.expression.text:
+    text: "將 ''{0}'' 簡化為 {1}"
+static.import.method.choose.method.to.import:
+    text: 選擇匯入的方法
+static.import.method.text:
+    text: 匯入 static 方法
+super.class.constructors.chooser.title:
+    text: 選擇超類構造函數
+surround.with.try.catch.fix:
+    text: 使用 try/catch 環繞
+target.class.chooser.title:
+    text: 選擇目標類
+uidesigner.change.bound.field.type:
+    text: 更改綁定的欄位類型
+uidesigner.change.gui.component.type:
+    text: 更改 GUI 組件類型
+wrap.expression.using.static.accessor.family:
+    text: 包裝表達式
+wrap.expression.using.static.accessor.text:
+    text: "使用 ''{0}()'' 包裝"
+wrap.with.optional.parameter.text:
+    text: "使用 ''java.util.Optional'' 包裝第 {0, choice, 1#1|2#2|3#3|4#{0,number}} 個實參"
+wrap.with.optional.single.parameter.text:
+    text: "使用 'java.util.Optional' 包裝"

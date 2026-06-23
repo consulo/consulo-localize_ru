@@ -1,0 +1,38 @@
+javadoc.candidates:
+    text: <html>方法调用 <b>{0}</b> 的候选者为:<br><br>{1}</html>
+javadoc.candidates.not.found:
+    text: <html>找不到方法调用 <b>{0}</b> 的候选者。</html>
+javadoc.constructor.candidates:
+    text: <html>新的候选 <b>{0}</b>() 是:<br>{1}</html>
+javadoc.generate.arguments:
+    text: '命令行实参:'
+javadoc.generate.exited:
+    text: |4-
+
+        "javadoc" 完成，退出代码为 $EXIT_CODE$
+javadoc.generate.heap.size:
+    text: '最大堆大小(&M):'
+javadoc.generate.locale:
+    text: '区域设置(&L):'
+javadoc.generate.no.classes.in.selected.packages.error:
+    text: 选定的作用域不包含Java类
+javadoc.generate.open.in.browser:
+    text: 生成文档并用浏览器打开 (&G)
+javadoc.generate.options.hierarchy:
+    text: 生成层次结构树
+javadoc.generate.options.index:
+    text: 生成索引
+javadoc.generate.options.index.per.letter:
+    text: 每个字母单独的索引
+javadoc.generate.options.navigator:
+    text: 生成导航栏
+javadoc.generate.output.directory:
+    text: '输出目录 (&D):'
+javadoc.generate.output.directory.browse:
+    text: 浏览输出目录
+javadoc.generate.tag.list.deprecated:
+    text: 弃用列表
+javadoc.generate.title:
+    text: 生成 JavaDoc
+javadoc.resolved.value:
+    text: '解析值:'

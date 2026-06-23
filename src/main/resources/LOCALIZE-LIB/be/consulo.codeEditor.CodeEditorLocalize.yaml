@@ -1,0 +1,106 @@
+action.ConfigureEditorTabs.description:
+    text: Наладзьце знешні выгляд, паводзіны і парадак укладак рэдактара
+action.ConfigureEditorTabs.text:
+    text: Наладзіць укладкі рэдактара...
+action.EditorGutterToggleGlobalStickyLines.description:
+    text: Паказаць панэль замацаваных радкоў
+action.EditorGutterToggleGlobalStickyLines.text:
+    text: Паказаць замацаваныя радкі
+action.EditorStickyConfigure.description:
+    text: Паказаць дыялогавае акно налад замацаваных радкоў
+action.EditorStickyConfigure.text:
+    text: Наладзіць замацаваныя радкі...
+action.EditorStickyLinesDisable.description:
+    text: Схаваць панэль замацаваных радкоў
+action.EditorStickyLinesDisable.text:
+    text: Адключыць
+action.EditorStickyLinesDisableForLang.description:
+    text: Схаваць панэль замацаваных радкоў для мовы
+action.EditorStickyLinesDisableForLang.for.lang.text:
+    text: Адключыць для {0}
+action.EditorStickyLinesDisableForLang.text:
+    text: Адключыць для мовы
+action.copy.text:
+    text: Капіраваць
+action.delete.text:
+    text: Выдаліць…
+attempt.to.modify.read.only.document.error.message:
+    text: Спроба змяніць дакумент, даступны толькі для чытання
+checkbox.show.editor.preview.popup:
+    text: Паказаць папярэдні прагляд кода пры навядзенні курсора на паласу пракруткі
+close.editor.annotations.action.name:
+    text: Закрыць анатацыі
+customize.highlighting.level.menu.item:
+    text: Наладзіць узровень падсветкі
+editing.read.only.file.hint:
+    text: Файл даступны толькі для чытання
+editing.viewer.hint:
+    text: Гэта прадстаўленне толькі для чытання
+editor.notification.default.action.name:
+    text: Дзеянне апавяшчэння
+editor.notification.settings.option.name:
+    text: Налады…
+editor.open.file.progress:
+    text: Адкрыццё {0}
+errors.panel.go.to.errors.first.radio:
+    text: Да праблем высокага прыярытэту
+errors.panel.go.to.next.error.warning.radio:
+    text: Ко всем проблемам
+file.not.found:
+    text: 'Файл не найден: {0}'
+forced.soft.wrap.message:
+    text: Гэты дакумент змяшчае доўгія радкі. Мяккі перанос уключаны для паляпшэння прадукцыйнасці рэдактара.
+group.EditorStickyLinesSettings.description:
+    text: Пераключыць налады замацаванага радка
+group.EditorStickyLinesSettings.text:
+    text: Ліпкія лініі
+guarded.block.modification.attempt.error.message:
+    text: Немагчыма выканаць аперацыю, бо яна зменіць абаронены фрагмент дакумента
+guarded.block.modification.attempt.error.title:
+    text: Спроба змянення абароненага блока
+hector.highlighting.level.title:
+    text: Узровень падсветкі
+hector.inspections.slider.label:
+    text: Інспекцыі
+hector.none.slider.label:
+    text: Нет
+hector.syntax.slider.label:
+    text: Сінтаксіс
+inlay.hints.declarative.disable.action.no.provider.text:
+    text: Адключыць убудаваныя падказкі
+inlay.hints.declarative.disable.action.text:
+    text: "Адключыць убудаваныя падказкі ''{0}''"
+inlay.hints.declarative.disable.option.action.text:
+    text: "Адключыць опцыю ''{0}'' для ўбудаваных падказак ''{1}''"
+inlay.hints.declarative.enable.action.text:
+    text: "Уключыць убудаваныя падказкі ''{0}''"
+inlay.hints.declarative.enable.option.action.text:
+    text: "Уключыць опцыю ''{0}'' для ўбудаваных падказак ''{1}''"
+iw.compact.view:
+    text: Кампактны выгляд
+iw.disable.powersave:
+    text: Адключыць энергазберажэнне
+iw.found.so.far.suffix:
+    text: знойдзена да гэтага часу
+iw.highlight.label:
+    text: 'Подсветка:'
+iw.show.import.tooltip:
+    text: Паказваць падказкі аўтаімпарту
+move.caret.command.name:
+    text: Перамясціць карэтку
+move.cursor.command.name:
+    text: Перамясціць курсор
+move.selection.command.name:
+    text: Перамясціць вылучэнне
+paste.command.name:
+    text: Уставіць
+radio.editor.tab.arrow:
+    text: Сімвал >
+radio.editor.tab.horizontal.line:
+    text: Гарызантальная лінія
+radio.editor.tab.long.arrow:
+    text: Доўгая страла
+typing.command.name:
+    text: Ввод
+typing.in.editor.command.name:
+    text: Ввод

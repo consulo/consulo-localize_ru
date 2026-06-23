@@ -1,0 +1,82 @@
+action.description.todo.show.all:
+    text: 显示所有TODO项
+action.filter.todo.items:
+    text: 筛选TODO项
+action.flatten.view:
+    text: 扁平化视图
+action.group.by.modules:
+    text: 模块
+action.group.by.packages:
+    text: 包
+action.next.todo:
+    text: 下一个TODO
+action.previous.todo:
+    text: 上一个TODO
+action.todo.edit.filters:
+    text: 编辑筛选器
+action.todo.show.all:
+    text: 显示全部
+changelist.todo.title:
+    text: '{0}变更列表'
+checkbox.case.sensitive:
+    text: 区分大小写(&I)
+checkbox.todo.use.default.colors:
+    text: 使用配色方案TODO默认颜色
+column.todo.filter.pattern:
+    text: 模式
+column.todo.filter.patterns:
+    text: 模式
+column.todo.filters.name:
+    text: 名称
+column.todo.patterns.case.sensitive:
+    text: 区分大小写
+column.todo.patterns.icon:
+    text: 图标
+column.todo.patterns.pattern:
+    text: 模式
+error.filter.name.should.be.specified:
+    text: 必须指定筛选器名称
+error.filter.should.contain.at.least.one.pattern:
+    text: 筛选器必须至少包含一个模式
+error.filter.with.the.same.name.already.exists:
+    text: 相同名称的筛选器已存在
+group.group.by:
+    text: 通过...分组
+group.todo.filter.patterns:
+    text: 模式
+group.view.options:
+    text: 视图选项
+label.todo.filter.name:
+    text: '名称:'
+label.todo.filters:
+    text: '筛选器:'
+label.todo.icon:
+    text: '图标:'
+label.todo.pattern:
+    text: '模式:'
+label.todo.patterns:
+    text: '模式:'
+node.todo.group:
+    text: '{0} {0,choice,0#项|1#项|2#项}'
+node.todo.items:
+    text: '{0} {0, choice, 0#项|1#项|2#项}'
+node.todo.more.items:
+    text: '...更多…'
+node.todo.summary:
+    text: 在{1} {1,choice,0#个文件|1#个文件|2#个文件}中找到{0}个TODO {0,choice,0#项|1#项|2#项}
+text.todo.no.filters:
+    text: 未配置筛选器
+text.todo.no.patterns:
+    text: 未配置模式
+title.add.todo.filter:
+    text: 添加筛选器
+title.add.todo.pattern:
+    text: 添加模式
+title.edit.todo.filter:
+    text: 编辑筛选器
+title.edit.todo.pattern:
+    text: 编辑模式
+title.project:
+    text: 项目
+title.todo.current.file:
+    text: 当前文件

@@ -1,0 +1,100 @@
+action.close:
+    text: 닫기
+action.collapse:
+    text: 축소
+action.expand:
+    text: 확장
+action.help:
+    text: 도움말
+action.refresh:
+    text: 새로고침
+action.rerun:
+    text: 다시 실행
+action.settings.description:
+    text: 애플리케이션 설정 편집
+action.settings.description.mac:
+    text: 애플리케이션 기본 설정 편집
+action.settings.mac:
+    text: 설정(_P)…
+action.settings.path:
+    text: 파일 | 설정
+action.settings.path.mac:
+    text: 설정
+button.add:
+    text: 추가
+button.add.a:
+    text: 추가(&A)
+button.apply:
+    text: 적용(&A)
+button.back:
+    text: 뒤로
+button.background:
+    text: 최소화(&M)
+button.cancel:
+    text: 취소(&C)
+button.continue:
+    text: 계속(&T)
+button.copy:
+    text: 복사(&C)…
+button.delete:
+    text: 삭제
+button.edit:
+    text: 편집
+button.help:
+    text: 도움말(&H)
+button.no:
+    text: 아니요(&N)
+button.ok:
+    text: 확인(&O)
+button.remove:
+    text: 제거(&R)
+button.remove.r:
+    text: 제거(&R)
+button.retry:
+    text: 재시도(&R)
+button.skip:
+    text: 건너뛰기
+button.yes:
+    text: 예(_Y)
+button.yes.for.all:
+    text: 모두 예(&A)
+cannot.redo.message:
+    text: 다시 실행할 수 없습니다
+cannot.undo.error.contains.nonundoable.changes.message:
+    text: "<html>''{0}''을(를) 수행할 수 없습니다<br>  다음 파일에 실행 취소할 수 없는 변경 사항이 있습니다:"
+cannot.undo.error.other.affected.files.changed.message:
+    text: '이 액션의 영향을 받는 다음 파일이 이미 변경되었습니다:'
+cannot.undo.message:
+    text: 실행 취소할 수 없습니다
+checkbox.remember.password:
+    text: 기억(&R)
+close.action.name:
+    text: 닫기
+comparison.policy.default.name:
+    text: 기본
+dialog.options.do.not.ask:
+    text: 기억하고 다시 묻지 않음(&R)
+editbox.login:
+    text: '로그인(L)(&L):'
+editbox.password:
+    text: '비밀번호(&P):'
+exception.directory.can.not.create:
+    text: '{0} 디렉터리를 만들 수 없습니다'
+name.label.text:
+    text: '이름(&M):'
+redo.confirmation.title:
+    text: 다시 실행
+title.error:
+    text: 오류
+title.settings:
+    text: 설정
+title.settings.mac:
+    text: 설정
+title.warning:
+    text: 경고
+tree.node.loading:
+    text: 로드 중…
+undo.dialog.title:
+    text: 실행 취소
+vfs.broken.link:
+    text: 끊어진 링크

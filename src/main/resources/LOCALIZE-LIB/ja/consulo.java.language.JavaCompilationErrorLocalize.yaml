@@ -1,0 +1,136 @@
+annotation.container.bad.type:
+    text: "無効なコンテナ注釈 '' {0} ''： ''値 ''メソッドの型は '' {1} ''"
+annotation.container.low.retention:
+    text: "コンテナアノテーション '' {0} ''は、含まれているアノテーションよりも保持時間が短い（ '' {1} ''）"
+annotation.container.no.value:
+    text: "無効なコンテナアノテーション '' {0} ''： ''値 ''メソッドが宣言されていません"
+annotation.container.not.applicable:
+    text: "コンテナ注釈 '@ {0}'は{1}には適用されません"
+annotation.container.wide.target:
+    text: "コンテナアノテーションのターゲット '' {0} ''はこのアノテーションのターゲットのサブセットではありません"
+annotation.container.wrong.place:
+    text: "コンテナアノテーション '' {0} ''は含まれている要素と同時に存在してはいけません"
+annotation.cyclic.element.type:
+    text: 周期的注釈要素タイプ
+annotation.duplicate.explained:
+    text: アノテーションが重複しています。
+annotation.may.not.have.extends.list:
+    text: '@interfaceは拡張リストを持たないかもしれません'
+annotation.missing.attribute:
+    text: 必要な場合は{0}が不足しています
+annotation.not.allowed.class:
+    text: クラスのリテラルタイプに注釈を付けることはできません
+annotation.not.allowed.here:
+    text: 注釈はここでは許可されません
+annotation.not.allowed.ref:
+    text: 注釈はこの種の参照には適用されません
+annotation.not.allowed.static:
+    text: 静的メンバー適格型に注釈を付けることはできません
+annotation.not.allowed.void:
+    text: "'void'型に注釈を付けることはできません"
+annotation.not.applicable:
+    text: "'' @ {0} 'は{1}には適用されません"
+array.initializer.not.allowed:
+    text: 配列イニシャライザはここでは使用できません
+array.type.expected:
+    text: 予想される配列タイプ
+assignment.to.final.variable:
+    text: "最終変数 '' {0} 'に値を代入できません"
+binary.operator.not.applicable:
+    text: "演算子 '' {0} ''は '' {1} ''、 '' {2} ''には適用できません"
+break.outside.switch.or.loop:
+    text: スイッチまたはループの外部で切断する
+clash.methods.message:
+    text: "'' {0} ''は '' {1} ''と衝突します"
+clash.methods.message.show.classes:
+    text: "'' {2} 'の' {0} '' '' {3} 'の' '{1}' 'との衝突"
+class.already.imported:
+    text: "'' {0} ''はこのコンパイル単位で既に定義されています"
+class.cannot.extend.multiple.classes:
+    text: クラスは複数のクラスを拡張できません
+class.clashes.with.package:
+    text: "クラス '' {0} ''は同じ名前のパッケージと衝突します"
+exception.already.caught:
+    text: "例外 '' {0} ''は既に捕捉されています"
+exception.never.thrown.try:
+    text: "例外 '' {0} ''は対応するtryブロックにスローされません"
+expression.expected:
+    text: 表現が期待される
+foreach.not.applicable:
+    text: "foreachは型 '' {0} 'には適用されません"
+insufficient.language.level:
+    text: '{0}はこの言語レベルではサポートされていません'
+label.without.statement:
+    text: ステートメントなしのラベル
+modifier.not.allowed:
+    text: "修飾子 '' {0} ''はここでは許可されていません"
+module.conflicting.packages:
+    text: "パッケージ '' {0} ''は別のモジュールに存在します：{1}"
+module.conflicting.reads:
+    text: "モジュール '' {0} ''は '' {2} ''と '' {3} ''の両方からパッケージ '' {1} ''を読み取ります"
+module.cyclic.dependence:
+    text: 巡回依存関係：{0}
+module.duplicate.exports:
+    text: "複製 ''エクスポート ''：{0}"
+module.duplicate.exports.target:
+    text: "複製 ''エクスポート ''ターゲット：{0}"
+module.duplicate.opens:
+    text: 重複した「開く」：{0}
+module.duplicate.opens.target:
+    text: 重複した「開く」ターゲット：{0}
+module.duplicate.requires:
+    text: "重複する ''が必要です ''：{0}"
+module.file.duplicate:
+    text: "'module-info.java'はすでにモジュールに存在しています"
+module.file.wrong.location:
+    text: モジュール宣言は、モジュールのソースルートに配置する必要があります
+module.file.wrong.name:
+    text: "モジュール宣言は、 'module-info.java'という名前のファイルになければなりません"
+module.no.package:
+    text: "モジュールファイルは 'package'ステートメントを持つべきではありません"
+module.not.found:
+    text: モジュールが見つかりません：{0}
+module.not.on.path:
+    text: モジュールは依存関係にありません：{0}
+module.opens.in.weak.module:
+    text: "オープンしているモジュールで 'opens'は許可されていません"
+module.service.abstract:
+    text: サービス実装は抽象クラスです：{0}
+module.service.alien:
+    text: サービスの実装は、provideディレクティブと同じモジュールで定義する必要があります
+module.service.enum:
+    text: サービス定義は列挙型です：{0}
+module.service.inner:
+    text: サービス実装は内部クラスです：{0}
+module.service.provider.type:
+    text: "''プロバイダ ''メソッドの戻り値の型は、サービスインタフェースの型のサブタイプでなければなりません：{0}"
+package.clashes.with.class:
+    text: "パッケージ '' {0} ''は同じ名前のクラスと衝突します"
+receiver.name.mismatch:
+    text: 受信者の名前が囲むクラスの種類と一致しません
+receiver.static.context:
+    text: レシーバは静的コンテキストでは使用できません
+receiver.type.mismatch:
+    text: 受信者の種類が囲むクラスの種類と一致しません
+receiver.wrong.context:
+    text: レシーバはメソッドパラメータリストの外部では許可されません
+receiver.wrong.position:
+    text: 受信機は最初のパラメータでなければなりません
+return.from.void.method:
+    text: 結果の型がvoidのメソッドから値を返すことはできません
+return.outside.method:
+    text: メソッドの外側に戻る
+type.parameter.cannot.be.followed.by.other.bounds:
+    text: 型パラメータの後に他の境界を付けることはできません
+unary.operator.not.applicable:
+    text: "オペレータ '' {0} ''は '' {1} ''に適用できません"
+vararg.not.last.parameter:
+    text: Varargパラメータはリストの最後にする必要があります
+variable.already.assigned:
+    text: "変数 '' {0} ''はすでに割り当てられている可能性があります"
+variable.assigned.in.loop:
+    text: "変数 '' {0} ''がループ内で割り当てられる可能性があります"
+variable.must.be.final:
+    text: "変数 '' {0} ''は内部クラスからアクセスされ、最終宣言する必要があります"
+variable.not.initialized:
+    text: "変数 '' {0} ''は初期化されていない可能性があります"

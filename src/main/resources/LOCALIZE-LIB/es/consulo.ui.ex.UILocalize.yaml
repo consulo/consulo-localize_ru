@@ -1,0 +1,280 @@
+are.you.sure.you.want.to.delete.selected.file.confirmation.message:
+    text: "¿Eliminar ''{0}''?"
+are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
+    text: ¿Está seguro de que desea eliminar los {0} archivos y directorios seleccionados?
+are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
+    text: ¿Está seguro de que desea eliminar los {0} archivos seleccionados?
+are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
+    text: "¿Está seguro de que desea eliminar la carpeta ''{0}''?"
+are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
+    text: ¿Está seguro de que desea eliminar los {0} directorios seleccionados?
+autoscroll.from.source.action.description:
+    text: Al seleccionar una pestaña del editor, selecciona el elemento correspondiente en esta vista
+autoscroll.from.source.action.name:
+    text: Seleccionar siempre el elemento abierto
+autoscroll.to.source.action.description:
+    text: Al seleccionar un elemento, abrirlo para su edición
+autoscroll.to.source.action.name:
+    text: Navegar con un solo clic
+big.text.control.window.title:
+    text: Texto
+button.add.class:
+    text: Añadir clase…
+button.add.pattern:
+    text: Añadir patrón…
+button.remove:
+    text: Elimina&r
+cannot.save.files.dialog.ignore.changes:
+    text: '&Ignorar cambios'
+cannot.save.files.dialog.message:
+    text: 'Se produjeron los siguientes errores al intentar guardar los archivos:'
+cannot.save.files.dialog.revert.changes:
+    text: '&Revertir cambios'
+cannot.save.files.dialog.title:
+    text: No se pueden guardar los archivos
+choose.class:
+    text: Seleccionar clase
+choose.content.to.paste.dialog.title:
+    text: Seleccionar contenido para pegar
+class.filter.editor.add.dialog.title:
+    text: Nuevo filtro
+class.filter.editor.choose.class.title:
+    text: Seleccionar clase
+collapsible.panel.collapsed.state.tooltip.text:
+    text: Expandir panel
+collapsible.panel.expanded.state.tooltip.text:
+    text: Contraer panel
+color.panel.select.color.dialog.description:
+    text: Seleccionar color
+component.with.browse.button.browse.button.tooltip.text:
+    text: Examinar…
+create.new.file.could.not.create.file.error.message:
+    text: "No se pudo crear el archivo ''{0}''"
+create.new.file.enter.new.file.name.prompt.text:
+    text: 'Introduzca un nuevo nombre de archivo:'
+create.new.file.file.name.cannot.be.empty.error.message:
+    text: El nombre del archivo no puede estar vacío
+create.new.folder.could.not.create.folder.error.message:
+    text: "No se pudo crear la carpeta ''{0}''"
+create.new.folder.enter.new.folder.name.prompt.text:
+    text: 'Introduzca un nuevo nombre de carpeta:'
+create.new.folder.folder.name.cannot.be.empty.error.message:
+    text: El nombre de la carpeta no puede estar vacío
+crumbs.calculating.tooltip:
+    text: Calculando…
+delete.dialog.title:
+    text: Eliminar
+downloading.file.change.http.proxy.settings:
+    text: Cambiar la configuración del &proxy HTTP…
+downloading.file.try.again.button:
+    text: Reintentar (&Y)
+errortree.prefix.line:
+    text: línea ({0})
+file.cache.conflict.action:
+    text: Recargar desde el disco
+file.cache.conflict.dialog.title:
+    text: Conflicto de caché de archivos
+file.cache.conflict.diff.content.file.system.content:
+    text: Contenido del sistema de archivos
+file.cache.conflict.diff.content.memory.content:
+    text: Contenido de la memoria
+file.cache.conflict.for.file.dialog.title:
+    text: Conflicto de caché de archivo {0}
+file.cache.conflict.keep.memory.changes.button:
+    text: '&Mantener los cambios en memoria'
+file.cache.conflict.load.fs.changes.button:
+    text: '&Cargar cambios del sistema de archivos'
+file.cache.conflict.message.text:
+    text: "Se han realizado cambios en ''{0}'' en la memoria y en el disco."
+file.cache.conflict.save.changes.button:
+    text: Guardar contenido de la memoria
+file.cache.conflict.show.difference.button:
+    text: '&Mostrar diferencia'
+file.chooser.create.new.file.command.name:
+    text: Crear nuevo archivo
+file.chooser.create.new.folder.command.name:
+    text: Crear nueva carpeta
+file.chooser.default.title:
+    text: Seleccionar ruta
+file.chooser.save.dialog.confirmation:
+    text: |-
+        {0} ya existe.
+        ¿Desea reemplazarlo?
+file.chooser.save.dialog.confirmation.title:
+    text: Confirmar guardar como
+file.chooser.save.dialog.default.title:
+    text: Seleccionar archivo para guardar
+file.chooser.save.dialog.file.name:
+    text: 'Nombre de archivo:'
+file.is.read.only.message.text:
+    text: "El archivo ''{0}'' es de solo lectura."
+files.are.read.only.message.text:
+    text: Los archivos {0} son de solo lectura.
+go.to.line.command.name:
+    text: Ir a la línea
+got.it:
+    text: ¡Entendido!
+insert.file.path.to.text.action.name:
+    text: Insertar ruta
+integer.field.value.expected:
+    text: Se espera un valor
+integer.field.value.not.a.number:
+    text: "El valor ''{0}'' no es un número entero"
+integer.field.value.out.of.range:
+    text: "El valor ''{0}'' está fuera del rango {1}..{2}"
+label.class.filter.editor.add.dialog.filter.pattern:
+    text: 'Introduzca el patrón de filtro:'
+master.detail.err.empty.name:
+    text: El nombre debe contener caracteres que no sean espacios
+memory.usage.panel.message.text:
+    text: '{0,number,####} de {1,number,####}M'
+message.files:
+    text: '{0,choice, 0# archivos|1# archivo|2# archivos}'
+message.matches:
+    text: '{0,choice, 0# coincidencias|1# coincidencia|2# coincidencias}'
+message.noMatchesFound:
+    text: No se han encontrado coincidencias
+message.nothingToShow:
+    text: Nada que mostrar
+message.nothingToShow.with.problem:
+    text: No hay nada que mostrar ({0})
+move.down.action.name:
+    text: Bajar
+move.up.action.name:
+    text: Mover hacia arriba
+new.file.dialog.title:
+    text: Nuevo archivo
+new.folder.dialog.title:
+    text: Nueva carpeta
+no.patterns:
+    text: No se han configurado patrones de clase
+order.entries.panel.export.column.name:
+    text: Exportar
+popup.hints.panel.click.to.configure.highlighting.tooltip.text:
+    text: Haga clic para configurar el resaltado de este archivo
+popup.list.item.renderer.next.step.label.accessible.name:
+    text: submenú
+position.panel.caret.count:
+    text: '{0} cursores'
+position.panel.selected.chars.count:
+    text: '{0,choice,1#carácter|2#caracteres}'
+position.panel.selected.line.breaks.count:
+    text: '{0} {0,choice,1#salto|2#saltos} de línea'
+remove.field.initializer.quick.fix:
+    text: Eliminar inicializador de campo
+replace.prompt.all.button:
+    text: '&Todo'
+replace.prompt.all.files.action:
+    text: Todos los &archivos
+replace.prompt.all.in.this.file.button:
+    text: Reemplazar todo en este &archivo
+replace.prompt.replace.button:
+    text: '&Reemplazar'
+replace.prompt.replace.occurrence.label:
+    text: ¿Desea reemplazar esta coincidencia?
+replace.prompt.skip.button:
+    text: '&Omitir'
+row.add:
+    text: '&Añadir'
+row.add.without.mnemonic:
+    text: Añadir
+row.move.down:
+    text: Mover hacia abajo (&D)
+row.move.down.without.mnemonic:
+    text: Mover abajo
+row.move.up:
+    text: S&ubir
+row.move.up.without.mnemonic:
+    text: Mover hacia arriba
+row.remove:
+    text: '&Eliminar'
+row.remove.without.mnemonic:
+    text: Eliminar
+search.popup.search.for.label:
+    text: 'Buscar:'
+splitter.center.tooltip.text:
+    text: Centrar
+splitter.down.tooltip.text:
+    text: Abajo
+splitter.left.tooltip.text:
+    text: Izquierda
+splitter.right.tooltip.text:
+    text: Derecha
+splitter.up.tooltip.text:
+    text: Arriba
+status.bar.code.style.widget.name:
+    text: Sangría
+status.bar.column.status.text:
+    text: Columna
+status.bar.column.status.tooltip.text:
+    text: Modo de selección de columnas
+status.bar.encoding.widget.name:
+    text: Codificación del archivo
+status.bar.fatal.error.widget.name:
+    text: Error interno
+status.bar.hide.widget.action.name:
+    text: "Ocultar ''{0}''"
+status.bar.inspection.profile.widget.name:
+    text: Perfil de inspección
+status.bar.line.separator.widget.name:
+    text: Separador de líneas
+status.bar.memory.usage.widget.name:
+    text: Indicador de memoria
+status.bar.notifications.widget.name:
+    text: Notificaciones
+status.bar.notifications.widget.no.notification.tooltip:
+    text: No hay notificaciones nuevas
+status.bar.notifications.widget.tooltip:
+    text: '{0} {0,choice, 1#notificación pendiente|2#notificaciones pendientes}'
+status.bar.position.widget.name:
+    text: Línea:Columna
+status.bar.read.only.widget.name:
+    text: Atributo de solo lectura
+status.bar.selection.mode.widget.name:
+    text: Modo de selección del editor
+status.bar.write.thread.widget.name:
+    text: Hilo de escritura
+tabbed.pane.close.all.action.name:
+    text: Cerrar todo
+tabbed.pane.close.all.but.this.action.name:
+    text: Cerrar todo excepto esto
+tabbed.pane.close.all.tabs.but.this.action.name:
+    text: Cerrar otras pestañas
+tabbed.pane.close.tab.action.name:
+    text: Cerrar pestaña
+tabbed.pane.pin.tab.action.name:
+    text: Anclar pestaña
+tool.window.hide.action.name:
+    text: Ocultar
+tool.window.move.to.action.group.name:
+    text: Mover a
+tool.window.move.to.bottom.action.name:
+    text: Abajo
+tool.window.move.to.left.action.name:
+    text: Izquierda
+tool.window.move.to.right.action.name:
+    text: Derecha
+tool.window.move.to.top.action.name:
+    text: Arriba
+tool.window.name.build:
+    text: Compilación
+tool.window.name.debug:
+    text: Depuración
+tool.window.name.find:
+    text: Buscar
+tool.window.name.hierarchy:
+    text: Jerarquía
+tool.window.name.inspection:
+    text: Inspecciones
+tool.window.name.messages:
+    text: Mensajes
+tool.window.name.run:
+    text: Ejecutar
+tool.window.name.structure:
+    text: Estructura
+tool.window.name.version.control:
+    text: Control de versiones
+tree.view.collapse.all.action.name:
+    text: Contraer todo
+treenode.loading:
+    text: Cargando…

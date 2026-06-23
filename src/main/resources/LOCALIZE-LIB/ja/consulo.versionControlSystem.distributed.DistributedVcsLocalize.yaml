@@ -1,0 +1,38 @@
+clone.button:
+    text: クローン
+clone.destination.directory.description:
+    text: クローンの親ディレクトリの宛先ディレクトリを選択
+clone.destination.directory.title:
+    text: 親ディレクトリ
+clone.dir.name:
+    text: 'ディレクトリ &Name:'
+clone.invalid.url:
+    text: リポジトリURLが不正な形式のURLまたは存在しないディレクトリです。
+clone.parent.dir:
+    text: '&Parent ディレクトリ:'
+clone.parent.missing.error:
+    text: 親パス {0} が存在する必要があります。
+clone.test.connection.title:
+    text: テスト接続
+clone.test.failed.error:
+    text: リポジトリ・テストに失敗しました。
+clone.test.success.message:
+    text: <html>リポジト リ{0} への接続に成功しました。</html>
+clone.testing:
+    text: '{0} をテスト中'
+clone.title:
+    text: レポジトリのクローンを作成
+clone.url.is.not.directory.error:
+    text: リポジトリURLはディレクトリではありません。
+cloning.repository:
+    text: ソースリポジトリ {0} のクローンを作成中
+commit.amend:
+    text: コミットを修正する
+commit.amend.tooltip:
+    text: <html>このコミットを前のものとマージする</html>
+push.force.confirmation.text:
+    text: あなたは強制的に {0} をPushしようとしています。遠隔でコミットを上書きすることがあります。続行してもよろしいですか？
+sync.setting:
+    text: 制御リポジトリ &synchronously
+sync.setting.description:
+    text: これを選択すると、すべての{0} レポジトリに新しいブランチをチェックアウト、比較、削除、作成することができます                          一回のアクションでもプッシュダイアログの動作にも影響します。

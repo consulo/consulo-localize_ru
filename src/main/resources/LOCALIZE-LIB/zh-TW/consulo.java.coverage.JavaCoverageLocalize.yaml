@@ -1,0 +1,64 @@
+coverage.button.add.package:
+    text: 添加軟體套件…
+coverage.error.jacoco.report.format:
+    text: '檔案不是 Jacoco 報告格式: {0}'
+coverage.pattern.filter.editor.choose.package.title:
+    text: 選取包
+coverage.recompile:
+    text: 重新編譯
+coverage.settings:
+    text: 顯示程式碼覆蓋率選項
+coverage.settings.exclude:
+    text: 排除類和軟體套件
+coverage.settings.group:
+    text: 程式碼覆蓋率
+coverage.settings.include:
+    text: 指定類和軟體套件
+coverage.settings.menu:
+    text: 覆蓋率設定
+coverage.view.column.branch:
+    text: 分支(%)
+coverage.view.column.class:
+    text: 類(%)
+coverage.view.column.line:
+    text: 行(%)
+coverage.view.column.method:
+    text: 方法(%)
+coverage.view.text.classes.covered:
+    text: '{0}% 類'
+coverage.view.text.methods.covered:
+    text: '{0}% 方法'
+do.not.show.coverage.data.in.specified.classes.and.packages:
+    text: 不顯示指定類和軟體套件中的覆蓋率資料
+download.coverage.report.from.target.failed:
+    text: 無法從目標下載覆蓋率報告
+download.coverage.report.from.target.progress.title:
+    text: 正在從目標下載覆蓋率報告…
+exclude.coverage.filters.title:
+    text: 要從覆蓋率資料中排除的軟體套件和類
+generating.coverage.report:
+    text: 正在生成覆蓋率報告…
+java.coverage.engine.presentable.text:
+    text: Java 覆蓋率
+notification.group.coverage:
+    text: 載入或收集覆蓋資料時出錯
+project.class.files.are.out.of.date:
+    text: 專案類檔案已過期。要重新編譯嗎? 拒絕這樣做將隱藏覆蓋率資訊
+project.is.out.of.date:
+    text: 項目過時了
+record.coverage.filters.title:
+    text: 要包含在覆蓋率資料中的軟體套件和類
+report.unknown.outcome:
+    text: '未知結果: {0}'
+run.configuration.choose.coverage.runner:
+    text: '選擇覆蓋率執行程序:'
+run.configuration.enable.coverage.in.test.folders:
+    text: 在測試資料夾中啟用覆蓋率
+run.configuration.track.per.test.coverage:
+    text: 按測試覆蓋率跟踪
+settings.coverage.java.ignore.implicitly.declared.default.constructors:
+    text: 忽略隱式宣告的預設構造函數
+settings.coverage.java.java.coverage:
+    text: Java 覆蓋率
+show.coverage.data.only.in.specified.classes.and.packages:
+    text: 僅顯示指定類和軟體套件中的覆蓋率資料

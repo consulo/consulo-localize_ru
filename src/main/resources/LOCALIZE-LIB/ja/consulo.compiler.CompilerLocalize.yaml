@@ -1,0 +1,291 @@
+action.compiler.properties.text:
+    text: コンパイラ プロパティ
+action.make.selected.modules.text:
+    text: 選択したモジュールのメイク
+actions.exclude.from.compile.text:
+    text: コンパイルからの除外
+bad.resource.patterns.dialog.title:
+    text: 不正な形式のリソース パターン
+class.parsing.error.wrong.record.tag.expected.another:
+    text: '不正なレコード タグ : {0}; 次が必要 : {1}'
+class.parsing.error.wrong.tag.annotation.member.value:
+    text: '注釈メンバの値の不正なタグ : {0}'
+compile.progress.title:
+    text: コンパイルの進行
+compiler.configurable.display.name:
+    text: コンパイラ
+compiler.content.name.compile:
+    text: コンパイル
+compiler.content.name.make:
+    text: メイク
+compiler.error.exception:
+    text: 'エラー : {0}'
+compiler.error.failed.to.delete:
+    text: '{0} の削除に失敗しました'
+compiler.results.export.text.prefix:
+    text: 行 ({0})
+compiler.running.dialog.title:
+    text: コンパイラの実行中
+error.ant.files.backup.failed:
+    text: ファイル {0} のバックアップに失敗しました
+error.ant.files.generate.failed:
+    text: 'Ant ビルド スクリプトの生成に失敗しました : {0}'
+error.bad.class.file.format:
+    text: |-
+        不正なクラス ファイル フォーマット :
+        {0}
+error.bad.resource.patterns:
+    text: 次のリソース パターンは不正な形式です :{0}
+error.caches.old.format:
+    text: ディスク上のコンパイラ キャッシュは古いフォーマットです。 プロジェクトのリビルドが必要です。
+error.chunk.modules.must.have.same.jdk:
+    text: |-
+        次のモジュールは、循環依存しているので同じ JDK を指定する必要があります。
+        {0}
+        モジュール設定を更新してください。
+error.compiler.caches.corrupted:
+    text: コンパイラ キャッシュが破損しています。 リビルドを開始しています...
+error.compiler.configurable.malformed.patterns:
+    text: |-
+        次のリソース パターンは不正な形式です :
+        {0}
+error.compiler.internal.error:
+    text: コンパイラの内部エラーです。 終了コード {0} でプロセスは終了しました
+error.compiler.process.not.started:
+    text: 'コンパイラは開始していません : {0}'
+error.copying:
+    text: |-
+        {0} の
+        {1} へのコピーエラー:
+        {2}
+error.dependency.info.on.disk.corrupted:
+    text: ディスク上のコンパイラ依存情報が破損しています。 リビルドが必要です。
+error.failed.to.create.directory:
+    text: ディレクトリ {0} の作成に失敗しました
+error.javac.out.of.memory:
+    text: メモリ不足です。 最大ヒープ サイズは [プロジェクト設定] - [コンパイラ] で増加します。
+error.jdk.not.specified:
+    text: |-
+        コンパイラを開始できません : JDK は {0,choice, 1#module|2#modules
+        } {1} に指定されていません。
+        [プロジェクトの設定] で指定してください。
+error.output.not.specified:
+    text: |-
+        コンパイラを開始できません : 出力パスは {0,choice, 1#module|2#modules
+        } {1} 二指定されていません。
+        [プロジェクトの設定] で指定してください。
+error.previous.compilation.failed:
+    text: 前回のコンパイルは正常に終了しませんでした。 キャッシュが破損している可能性があります。 リビルドを開始しています...
+error.signature.parsing.expected.other.symbol:
+    text: "シンボル ''{0}'' が必要 : {1}"
+error.signature.parsing.unknown.type.signature:
+    text: 不明なタイプ シグネチャ
+exclude.from.compile.table.path.column.name:
+    text: パス
+exclude.from.compile.table.recursively.column.name:
+    text: 再帰
+file.copying.compiler.description:
+    text: コンパイラにファイルをコピー
+generate.ant.build.dialog.cyclic.modules.table.description:
+    text: |-
+        いくつかのモジュールは循環依存しています。
+        ant ビルド スクリプトを生成するには、各依存関係の "main" (代表) モジュールを選択してください。
+        循環内のすべてのモジュールのソース コードはメイン モジュールの出力フォルダにコンパイルされます。
+        循環内のすべてのモジュールは、メイン モジュールに指定された JSDK を使用します。
+        作成された jar アーカイブは、メイン モジュールの名前より命名されます。
+generate.ant.build.dialog.cyclic.modules.table.name.column.header:
+    text: メイン モジュール
+generate.ant.build.dialog.cyclic.modules.table.number.column.header:
+    text: 循環
+generate.ant.build.dialog.cyclic.modules.table.title:
+    text: 循環モジュール依存
+generated.ant.build.bootclasspath.comment:
+    text: コンパイル ブートクラスパスに含まれるパス
+generated.ant.build.build.all.target.name:
+    text: すべてビルド
+generated.ant.build.building.concrete.module.section.title:
+    text: モジュール {0}
+generated.ant.build.clean.all.task.comment:
+    text: すべてクリーンアップ
+generated.ant.build.cleanup.module.task.comment:
+    text: モジュールのクリーンアップ
+generated.ant.build.compile.modules.main.target.comment:
+    text: コンパイル {0,choice, 1#module|2#modules} {1}
+generated.ant.build.compile.modules.production.classes.target.comment:
+    text: コンパイル {0,choice, 1#module|2#modules} {1}; 製品クラス
+generated.ant.build.compile.modules.tests.target.comment:
+    text: コンパイル {0,choice, 1#module|2#modules} {1}; テスト クラス
+generated.ant.build.compiler.options.comment:
+    text: コンパイラ オプション
+generated.ant.build.disable.tests.property.comment:
+    text: テスト コンパイラが不要な場合は次のプロパティを非コメント化する
+generated.ant.build.global.libraries.comment:
+    text: グローバル ライブラリ
+generated.ant.build.initialization.section.comment:
+    text: このターゲットでビルドの初期化を実行
+generated.ant.build.initialization.section.title:
+    text: ビルドの初期化
+generated.ant.build.jdk.definitions.comment:
+    text: JDK 定義
+generated.ant.build.modules.section.title:
+    text: モジュール
+generated.ant.build.project.libraries.comment:
+    text: プロジェクト ライブラリ
+java.compiler.description:
+    text: Java コンパイラ
+java.compiler.option.additional.command.line.parameters:
+    text: '追加のコマンド ライン パラメータ :'
+java.compiler.option.generate.debugging.info:
+    text: デバッグ情報を生成する
+java.compiler.option.generate.no.warnings:
+    text: 警告を生成しない
+java.compiler.option.report.deprecated:
+    text: 非推奨機能の使用を報告する
+javac.error.1_0_compilation.not.supported:
+    text: コンパイルは JDK 1.0 でサポートされていません
+javac.error.jdk.home.missing:
+    text: |-
+        JDK {0} のホーム ディレクトリを決定できません。
+        JDK 設定を更新してください。
+javac.error.tools.jar.missing:
+    text: |-
+        JDK {0} の javac クラスへのパスを取得できません。
+        JDK 設定を更新してください。
+javac.error.unknown.jdk.version:
+    text: |-
+        JDK {0} のバージョンを決定できません。
+        JDK 設定を更新してください。
+javac.error.vm.executable.missing:
+    text: |-
+        JDK {0} の VM 実行ファイルへのパスを取得できません。
+        JDK 設定を更新してください。
+javac.option.max.heap.size:
+    text: '最大ヒープ サイズ (MB):'
+javac.options.group.title:
+    text: Javac オプション
+jikes.error.path.to.compiler.missing:
+    text: |-
+        Jikes コンパイラを開始できません。
+        ファイル {0} がありません。
+jikes.error.path.to.compiler.unspecified:
+    text: |-
+        Jikes コンパイラを開始できません。
+        コンパイラの実行ファイルへのパスが設定されていません。
+jikes.option.path.to.executable:
+    text: 'Jikes 実行ファイルへのパス :'
+jikes.options.group.title:
+    text: Jikes オプション
+label.generate.ant.script.backup.files:
+    text: 前回生成したファイルをバックアップする
+label.generate.ant.script.enable.ui.forms.compilation:
+    text: UI フォーム コンパイルを許可 (IDEA の配布による "javac2" ant タスクが必要)
+label.generate.ant.script.generate.multiple.files:
+    text: マルチ ファイル ant ビルドの生成 (ant 1.6 またはそれ以降が必要)
+label.generate.ant.script.overwrite.files:
+    text: 前回生成したファイルを上書きする
+label.generate.ant.script.single.file:
+    text: シングル ファイルとビルドの生成
+label.generate.ant.script.use.jdk.definitions:
+    text: プロジェクト ファイルからの JSDK 定義を使用する
+label.option.clear.output.directory.on.rebuild:
+    text: リビルド時に出力ディレクトリをクリアする(&L)
+label.option.compile.in.background:
+    text: バックグラウンドでコンパイルする(&O)
+label.option.deploy.always:
+    text: 毎回
+label.option.deploy.ask:
+    text: 確認する
+label.option.deploy.never:
+    text: しない
+label.option.deploy.text:
+    text: 'コンパイル後に Web アプリケーションをサーバーにデプロイする :'
+label.option.honor.dependencies:
+    text: '"コンパイル" コマンド時に依存関係を検索する(&D)'
+label.option.resource.patterns.text:
+    text: 'リソース パターン :'
+message.ant.files.generated.ok:
+    text: |-
+        Ant ビルド ファイルを正常に生成しました :
+        {0}
+message.category.error:
+    text: エラー
+message.category.information:
+    text: 情報
+message.category.statistics:
+    text: 統計情報
+message.category.warning:
+    text: 警告
+message.resource.patterns.format.changed:
+    text: "リソース パターンのフォーマットが変更しました。\n{0} は既存の正規表現パターンの変換に失敗しました :\n{1}\n新しいフォーマットのパターン文字列を入力してください。\n各リソース パターンには次のワイルドカードを含めることができます :\n? - 1 文字\n* - ゼロまたはそれ以上の文字\n! - パターンの否定 (パターンの最初でのみ可)\nセミコロン (\";\") を使用してリソース パターンを分割。\nバックスラッシュ (\"\\\") で \"!\" 文字をエスケープ。\nまた、テンプレート プロジェクト設定を変更する必要があります。\n''{2}'' を押して入力したパターンを適用します。''{3}'' で新しいフォーマットにデフォルト パターンを読み込みます。"
+option.use.compiler.text:
+    text: 'コンパイラの使用 :'
+pattern.conversion.dialog.title:
+    text: パターン変換
+progress.checking.dependencies:
+    text: 依存関係をチェックしています...
+progress.clearing.output:
+    text: 出力ディレクトリをクリアしています...
+progress.compiling.class:
+    text: '{0} をコンパイル中...'
+progress.copying.resources:
+    text: リソースをコピーしています...
+progress.deleting.temp.files:
+    text: 一時ファイルを削除しています...
+progress.executing.postcompile.tasks:
+    text: ポストコンパイル タスクを実行しています...
+progress.executing.precompile.tasks:
+    text: プリコンパイル タスクを実行しています...
+progress.found.dependent.files:
+    text: '{0} の依存ファイルがあります'
+progress.generating.rmi.stubs:
+    text: RMI スタブを生成しています...
+progress.loading.classes:
+    text: クラスを読み込んでいます...
+progress.parsing.file:
+    text: '{0} の解析中...'
+progress.processing.outdated.files:
+    text: 古いファイルを処理しています...
+progress.saving.caches:
+    text: キャッシュを保存しています...
+progress.synchronizing.output.directory:
+    text: 出力ディレクトリを同期しています...
+progress.updating.caches:
+    text: キャッシュをアップデートしています...
+rebuild.lvcs.label.no.errors:
+    text: "''{0}'' にはエラーがありません"
+rebuild.lvcs.label.with.errors:
+    text: "''{0}'' にはえらーがあります"
+resource.compiler.description:
+    text: リソース コンパイラ
+rmi.compiler.description:
+    text: RMI コンパイラ
+rmic.option.enable.rmi.stubs:
+    text: RMI スタブの生成を有効にする
+rmic.option.generate.iiop.stubs:
+    text: IIOP スタブの生成
+statistics.files.classes:
+    text: 'ファイル : {0} - クラス : {1}'
+statistics.files.classes.module:
+    text: 'ファイル : {0} - クラス : {1} - モジュール : {2}'
+status.all.up.to.date:
+    text: すべてのファイルは最新です
+status.compilation.aborted:
+    text: コンパイルは中断しました
+status.compilation.completed.successfully:
+    text: コンパイルは正常に終了しました
+status.compilation.completed.successfully.with.warnings:
+    text: コンパイルは {0} で正常に終了しました。{0,choice, 0#warnings|1#warning|2#warnings}
+status.compilation.completed.successfully.with.warnings.and.errors:
+    text: コンパイルは {0} {0,choice, 0#errors|1#error|2#errors} および {1} {1,choice, 0#warnings|1#warning|2#warnings} で終了しました
+value.undefined:
+    text: 未定義
+warning.compiler.running.on.project.close:
+    text: コンパイラが実行中です。 プロジェクトを閉じて続行しますか ?
+warning.compiler.running.on.toolwindow.close:
+    text: コンパイラが実行中です。 中止しますか ?
+warning.sources.under.output.paths:
+    text: |-
+        コンパイラ オプション "リビルド時に出力ディレクトリをクリア" は現在有効です。
+        ただし、ソース ファイルが次の出力パスに存在します :
+        {0}
+        コンパイルは出力ディレクトリをクリアせずに処理を行います。

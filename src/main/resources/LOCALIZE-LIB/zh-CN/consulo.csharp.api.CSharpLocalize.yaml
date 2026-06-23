@@ -1,0 +1,8 @@
+code.vision.implementations.hint:
+    text: "{0, choice, 1#1 个实现|2#{0,number}'{1,choice, |1#+}' 实现}"
+code.vision.inheritors.hint:
+    text: "{0, choice, 1#1 个继承者|2#{0,number}'{1,choice, |1#+}' 继承者}"
+code.vision.overrides.hint:
+    text: "{0, choice, 1#1 个重写|2#{0,number}'{1,choice, |1#+}' 重写}"
+usages.telescope:
+    text: '{0,choice, 0#0 个用法|1#1 个用法|2#{0,number} 个用法}'

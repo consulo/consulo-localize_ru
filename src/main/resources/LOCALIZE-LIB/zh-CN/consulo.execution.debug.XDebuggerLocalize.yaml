@@ -1,0 +1,332 @@
+action.StreamTracerAction.text:
+    text: 跟踪当前流链
+action.interrupt.thread.text:
+    text: 中断
+action.memory.view.settings.text:
+    text: 内存视图设置
+action.next.frame.text:
+    text: 下一帧
+action.previous.frame.text:
+    text: 上一帧
+ad.extra.selection.shortcut:
+    text: 选择具有 {0} 的项目
+breakpoints.dialog.create.new.group:
+    text: 新建…
+breakpoints.dialog.edit.description:
+    text: 编辑描述
+breakpoints.dialog.new.group:
+    text: 新建组
+breakpoints.dialog.new.group.name:
+    text: 新建组名称
+breakpoints.dialog.no.group:
+    text: <无组>
+breakpoints.dialog.set.as.default:
+    text: 设为默认
+breakpoints.dialog.unset.as.default:
+    text: 取消设置为默认
+button.text.code.fragment.mode:
+    text: 代码段模式(&M)
+button.text.expression.mode:
+    text: 表达式模式(&M)
+debugger.configurable.display.name:
+    text: 调试器
+debugger.dataViews.display.name:
+    text: 数据视图
+debugger.evaluate.expression.or.add.a.watch.hint:
+    text: 对表达式求值({0})或添加监视({1})
+debugger.frames.not.available:
+    text: 帧不可用
+debugger.hotswap.display.name:
+    text: 热交换
+debugger.no.breakpoints:
+    text: 没有断点
+debugger.no.results:
+    text: "输入一个表达式，然后按'Enter'"
+debugger.no.watches:
+    text: 无监视
+debugger.result.node.name:
+    text: 结果
+debugger.runner.start.action.text:
+    text: 调试(&D)
+debugger.session.tab.console.content.name:
+    text: 控制台
+debugger.session.tab.frames.title:
+    text: 帧
+debugger.session.tab.log.content.name:
+    text: '日志: {0}'
+debugger.session.tab.threads.title:
+    text: 线程
+debugger.session.tab.variables.title:
+    text: 变量
+debugger.session.tab.watches.title:
+    text: 监视
+debugger.session.tab.watches.title.with.size:
+    text: 观察清单（{0}）
+debugger.state.message.connected:
+    text: 已连接
+debugger.state.message.connecting:
+    text: 正在连接
+debugger.state.message.disconnected:
+    text: 已断开连接
+debugger.stepping.display.name:
+    text: 步进
+debugger.threads.not.available:
+    text: 线程不可用
+debugger.variables.not.available:
+    text: 变量不可用
+dialog.title.evaluate.code.fragment:
+    text: 对代码段求值
+done.action.text:
+    text: 完成
+exception.label:
+    text: 原因
+exception.tab.name:
+    text: 异常
+inspect.value.dialog.title:
+    text: "检查 ''{0}''"
+invalid.frame:
+    text: <无效帧>
+load.value.task.error:
+    text: '无法加载值: {0}'
+load.value.task.text:
+    text: 正在加载值
+memory.instances.close.text:
+    text: 关闭
+memory.unable.to.get.instances.of.class:
+    text: 无法获取类 {0} 的实例
+memory.view.empty.running:
+    text: 在断点停止，加载类列表
+memory.view.empty.stopped:
+    text: 类不可用
+memory.view.instances.dialog.title:
+    text: '{0} 的实例'
+memory.view.instances.dialog.title.warning:
+    text: '{0} 的实例。警告: {1}'
+memory.view.instances.warning.not.all.loaded:
+    text: 并非所有实例都会被加载(仅 {0})
+memory.view.load.classes:
+    text: 加载类
+memory.view.no.classes.loaded:
+    text: 未加载类。
+memory.view.table.column.name.class:
+    text: 类
+memory.view.table.column.name.count:
+    text: 计数
+memory.view.table.column.name.diff:
+    text: 差异
+multiple.chains.popup.title:
+    text: 找到多个链
+node.test.show.full.value:
+    text: …视图
+node.text.ellipsis.0.more.nodes.double.click.to.show:
+    text: …(其他 {0} 个{0, choice, 1#条目|2#条目}。双击查看)
+node.text.ellipsis.0.unknown.more.nodes.double.click.to.show:
+    text: …(双击查看更多条目)
+node.text.ellipsis.truncated:
+    text: '…(长度: {0})'
+rule.name.group.by.file:
+    text: 按文件分组
+scope.block:
+    text: 块
+scope.class:
+    text: 类
+scope.closure:
+    text: 闭包
+scope.global:
+    text: 全局
+scope.instance:
+    text: 实例
+scope.library:
+    text: 库
+scope.local:
+    text: 本地
+scope.script:
+    text: 脚本
+scope.unknown:
+    text: 未知
+scope.with:
+    text: 包含块
+setting.enable.auto.expressions.label:
+    text: 在“变量”视图中启用自动表达式
+setting.focus.app.on.breakpoint.label:
+    text: 在断点上使应用程序获得焦点
+setting.hide.window.label:
+    text: 进程终止时隐藏调试窗口(&W)
+setting.sort.alphabetically.label:
+    text: 按字母顺序排列值(&L)
+setting.value.tooltip.delay.label:
+    text: '提示延迟值 (毫秒)(&V):'
+settings.scroll.to.center:
+    text: 将执行点滚动到中心
+settings.show.tooltip.on.selection:
+    text: 选择代码时显示值工具提示
+settings.show.value.tooltip:
+    text: 显示值工具提示。
+settings.show.values.inline:
+    text: 内联显示值
+settings.show.window.label:
+    text: 在断点上显示调试窗口(&D)
+settings.tooltip.label:
+    text: 如果禁用，请使用“{0}”显示/隐藏工具提示
+showReferring.dialog.title:
+    text: '{0} 的引用对象'
+stack.frame.loading.text:
+    text: 正在加载…
+stream.debugger.dialog.flat.mode.button:
+    text: 扁平模式
+stream.debugger.dialog.split.mode.button:
+    text: 拆分模式
+stream.debugger.dialog.title:
+    text: 流跟踪
+stream.debugger.dialog.with.exception.title:
+    text: 流跟踪(发生异常)
+string.debugger.runner.description:
+    text: 调试所选配置
+suspend.policy.panel.all:
+    text: 所有(&A)
+suspend.policy.panel.makeDefault:
+    text: 设为默认(&F)
+suspend.policy.panel.suspend:
+    text: '挂起(&S):'
+suspend.policy.panel.thread:
+    text: 线程(&T)
+suspend.policy.panel.title:
+    text: 挂起策略
+tab.content.exception.thrown:
+    text: 没有结果(抛出异常)
+tab.content.no.result:
+    text: 没有这种流链的结果
+xbreakpoint.group.depends.on:
+    text: 取决于
+xbreakpoint.label.after.breakpoint.was.hit:
+    text: '命中后:'
+xbreakpoint.label.empty:
+    text: 选择一个断点
+xbreakpoint.master.breakpoint.description:
+    text: '禁用，直至命中以下断点:'
+xbreakpoint.master.breakpoint.none:
+    text: <无>
+xbreakpoint.radio.disable.again:
+    text: 再次禁用
+xbreakpoint.radio.leave.enabled:
+    text: 保持启用
+xbreakpoint.reached.text:
+    text: '已到达断点:'
+xbreakpoint.tooltip.condition:
+    text: '条件:'
+xbreakpoint.tooltip.depends.on:
+    text: '依赖于:'
+xbreakpoint.tooltip.log.expression:
+    text: '日志表达式:'
+xbreakpoint.tooltip.log.message:
+    text: '记录消息: 是'
+xbreakpoint.tooltip.suspend.policy.all:
+    text: '挂起: 所有'
+xbreakpoint.tooltip.suspend.policy.none:
+    text: '挂起: 无'
+xbreakpoint.tooltip.suspend.policy.thread:
+    text: '挂起: 线程'
+xbreakpoints.condition.checkbox:
+    text: '条件(&C):'
+xbreakpoints.conditions.group.title:
+    text: 条件
+xbreakpoints.dialog.button.add:
+    text: 添加...
+xbreakpoints.dialog.button.goto:
+    text: 转到
+xbreakpoints.dialog.button.remove:
+    text: 删除(&R)
+xbreakpoints.dialog.button.view.source:
+    text: 查看源文件(&V)
+xbreakpoints.dialog.title:
+    text: 断点
+xbreakpoints.enabled.label:
+    text: 已启用(&D)
+xbreakpoints.log.expression.checkbox:
+    text: '求值并记录(&E):'
+xbreakpoints.log.message.checkbox:
+    text: “断点命中”消息(&M)
+xbreakpoints.properties.actions.group.title:
+    text: 操作
+xdebugger.attach.action:
+    text: 附加到进程…
+xdebugger.attach.action.collectingItems:
+    text: 正在收集附加条目…
+xdebugger.attach.action.description:
+    text: 使用可用的调试器附加到进程
+xdebugger.attach.action.items.error.message:
+    text: 无法获取主机上运行的进程列表。有关其他详细信息，请查看 IDE 日志。
+xdebugger.attach.action.items.error.title:
+    text: 无法获取进程
+xdebugger.attach.host.popup.title:
+    text: 查看 {0} 进程
+xdebugger.attach.popup.emptyText:
+    text: 没有要附加到的进程
+xdebugger.attach.popup.recent:
+    text: 最近的
+xdebugger.attach.popup.selectDebugger.title:
+    text: 调试器
+xdebugger.attach.popup.title:
+    text: 使用{0}附加到
+xdebugger.attach.popup.title.default:
+    text: 附加到
+xdebugger.attach.toLocal.action:
+    text: 连接到本地流程...
+xdebugger.attach.toLocal.action.collectingProcesses:
+    text: 收集过程中...
+xdebugger.attach.toLocal.popup.recent:
+    text: 最近
+xdebugger.building.tree.node.message:
+    text: 正在收集数据…
+xdebugger.button.evaluate:
+    text: 求值(&V)
+xdebugger.colors.page.name:
+    text: 调试器
+xdebugger.debugger.tab.title:
+    text: 调试器
+xdebugger.default.content.title:
+    text: 调试
+xdebugger.dialog.title.evaluate.expression:
+    text: 对表达式求值
+xdebugger.disable.breakpoint.action.text:
+    text: 禁用断点
+xdebugger.drag.text.0.elements:
+    text: '{0}元素'
+xdebugger.drop.text.add.to.watches:
+    text: 添加到监视
+xdebugger.enable.breakpoint.action.text:
+    text: 启用断点
+xdebugger.evaluate.addtowatches.hint:
+    text: 使用{0}添加到监视
+xdebugger.evaluate.dialog.close:
+    text: 关闭
+xdebugger.evaluate.history.hint:
+    text: 显示历史
+xdebugger.evaluate.label.expression:
+    text: '表达式:'
+xdebugger.evaluate.label.result:
+    text: '结果(&R):'
+xdebugger.evaluate.language.hint:
+    text: 点击以更改语言
+xdebugger.evaluate.result:
+    text: 结果
+xdebugger.evaluate.stack.frame.has.not.evaluator:
+    text: 无法求值，当前堆栈帧不支持求值
+xdebugger.evaluating.expression.node.message:
+    text: 正在求值…
+xdebugger.label.text.code.fragment:
+    text: '代码段:'
+xdebugger.modifiyng.value.node.message:
+    text: 正在修改值…
+xdebugger.popup.value.tree.set.root.action.tooltip:
+    text: 设为根
+xdebugger.remove.line.breakpoint.action.text:
+    text: 移除断点
+xdebugger.reset.frame.title:
+    text: 重置帧
+xdebugger.view.breakpoint.edit.action:
+    text: 编辑(&E)
+xdebugger.view.breakpoint.properties.action:
+    text: 属性
+xdebugger.view.breakpoint.reveal.action:
+    text: 显示断点对话框

@@ -1,0 +1,59 @@
+action.create.patch:
+    text: Создать патч…
+action.revert:
+    text: Адкаціць
+action.revert.selection:
+    text: Адкаціць вылучанае
+action.show.difference:
+    text: Паказаць адрозненні
+config.dialog.title:
+    text: Стан канфігурацыі Perforce
+content.not.available:
+    text: Змесціва файла недаступна
+create.patch.dialog.title:
+    text: Создать патч
+current.revision:
+    text: Бягучая
+file.does.not.exist:
+    text: "''{0}'' не існуе"
+message.cannot.create.patch.because.of.unavailable.content:
+    text: |-
+        Немагчыма стварыць патч, бо змесціва некаторых
+        выбраных файлаў не было захавана з-за вялікага памеру.
+message.cannot.revert.because:
+    text: Немагчыма адкаціць, бо {0}
+message.do.you.want.to.proceed:
+    text: |-
+        {0}
+
+        Працягнуць?
+message.error.during.create.patch:
+    text: 'Памылка пры стварэнні патча: {0}'
+message.error.during.revert:
+    text: 'Памылка пры адкаце: {0}'
+message.patch.created:
+    text: Файл патча создан
+message.processing.left.revision:
+    text: Апрацоўка левай рэвізіі…
+message.processing.revisions:
+    text: Апрацоўка рэвізій…
+message.processing.right.revision:
+    text: Апрацоўка правай рэвізіі…
+put.label.dialog.title:
+    text: Паставіць метку
+put.label.name:
+    text: 'Імя меткі [&N]:'
+recent.changes.popup.title:
+    text: Апошнія змены
+recent.changes.to.changes:
+    text: Няма змен
+revert.error.files.are.read.only:
+    text: некаторыя файлы даступны толькі для чытання
+revisions.table.filesCount:
+    text: '{0} {0, choice, 1#файл|2#файла|5#файлов}'
+revisions.table.period.old:
+    text: Старыя змены
+revisions.table.period.older:
+    text: Более старые
+revisions.table.period.recent:
+    text: Апошнія {0} гадзін

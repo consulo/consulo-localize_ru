@@ -1,0 +1,1392 @@
+action.add:
+    text: 添加
+action.apply.editor.font.settings:
+    text: 应用编辑器字体设置
+action.edit:
+    text: 编辑
+action.remove:
+    text: 移除
+arrangement.action.rule.add.description:
+    text: 添加新的排列规则
+arrangement.action.rule.add.text:
+    text: 添加规则
+arrangement.action.rule.edit.description:
+    text: 编辑所选排列规则
+arrangement.action.rule.edit.text:
+    text: 编辑规则
+arrangement.action.rule.move.down.description:
+    text: 向下移动所选排列规则
+arrangement.action.rule.move.down.text:
+    text: 向下移动
+arrangement.action.rule.move.up.description:
+    text: 向上移动所选排列规则
+arrangement.action.rule.move.up.text:
+    text: 向上移动
+arrangement.action.rule.remove.description:
+    text: 移除所选排列规则
+arrangement.action.rule.remove.text:
+    text: 移除规则
+arrangement.order.name:
+    text: 顺序
+arrangement.settings.groups.dependent.methods:
+    text: 保持依赖方法在一起
+arrangement.settings.groups.getters.and.setters.together:
+    text: 保持 getter 和 setter 在一起
+arrangement.settings.groups.overridden.methods:
+    text: 保持重写方法在一起
+arrangement.settings.groups.property.field:
+    text: 将属性字段按相应 getter/setter 分组
+arrangement.settings.order.type.breadth.first:
+    text: 宽度排序优先
+arrangement.settings.order.type.by.name:
+    text: 按名称排序
+arrangement.settings.order.type.depth.first:
+    text: 深度排序优先
+arrangement.settings.order.type.keep:
+    text: 保持排序
+arrangement.settings.section.groups:
+    text: '分组规则:'
+arrangement.settings.section.match:
+    text: '匹配规则:'
+arrangement.settings.text.entry.type.xml.attribute:
+    text: 特性
+arrangement.settings.text.entry.type.xml.tag:
+    text: 标记
+arrangement.settings.text.general.modifier:
+    text: '修饰符:'
+arrangement.settings.text.general.name:
+    text: '名称:'
+arrangement.settings.text.general.order:
+    text: '顺序:'
+arrangement.settings.text.general.text:
+    text: '文本:'
+arrangement.settings.text.general.type:
+    text: '类型:'
+arrangement.settings.text.general.xml.namespace:
+    text: '命名空间:'
+arrangement.text.empty.rule:
+    text: <空规则>
+arrangement.text.modifier:
+    text: 修饰符
+arrangement.text.name:
+    text: 名字
+arrangement.text.type:
+    text: 类型
+arrangement.title.settings.tab:
+    text: 排列
+auto.import:
+    text: 自动导入
+building.include.indices:
+    text: 构建包括指标...
+bulk.reformat.prepare.progress.text:
+    text: 正在准备…
+bulk.reformat.process.progress.text:
+    text: 正在处理…
+button.add:
+    text: 添加...
+button.add.blank:
+    text: 添加空白
+button.add.package:
+    text: 添加软件包
+button.delete:
+    text: 删除
+button.edit:
+    text: 编辑
+button.edit.dialog:
+    text: 编辑...
+button.edit.global.settings:
+    text: 编辑全局设置...
+button.edit.scopes:
+    text: 编辑作用域…
+button.export:
+    text: 导出...
+button.import:
+    text: 导入...
+button.install.package:
+    text: 安装软件包(&I)
+button.invalidate.and.restart:
+    text: 清除缓存并&重启
+button.just.restart:
+    text: 仅重启
+button.manage.repositories:
+    text: 管理仓库(&M)
+button.move.down:
+    text: 下移(&D)
+button.move.up:
+    text: 上移(&U)
+button.new:
+    text: 新建...
+button.ok:
+    text: 确定
+button.remove:
+    text: 删除(&R)
+button.remove.r:
+    text: 删除
+button.save.as:
+    text: 另存为...
+checkbox.add.unambiguous.imports.on.the.fly:
+    text: 动态添加明确的 import
+checkbox.after.description:
+    text: 在描述后
+checkbox.after.parameter.descriptions:
+    text: 在形参描述后
+checkbox.after.return.tag:
+    text: 在return后
+checkbox.align.attributes:
+    text: 对齐属性(&A)
+checkbox.align.multiline.array.initializer:
+    text: 数组初始化
+checkbox.align.multiline.assignments:
+    text: 赋值
+checkbox.align.multiline.binary.operation:
+    text: 二元运算
+checkbox.align.multiline.call.arguments:
+    text: 调用参数
+checkbox.align.multiline.chained.methods:
+    text: 链式方法
+checkbox.align.multiline.extends.list:
+    text: 扩展列表
+checkbox.align.multiline.fields.groups:
+    text: 组声明
+checkbox.align.multiline.for.statement:
+    text: For 语句
+checkbox.align.multiline.method.parameters:
+    text: 方法参数
+checkbox.align.multiline.parenthesized.expression:
+    text: 带括号表达式
+checkbox.align.multiline.ternary.operation:
+    text: 三元操作
+checkbox.align.multiline.throws.list:
+    text: 异常列表
+checkbox.align.parameter.descriptions:
+    text: 对齐形参说明
+checkbox.align.text:
+    text: 对齐文本(&A)
+checkbox.align.thrown.exception.descriptions:
+    text: 对齐抛出异常说明
+checkbox.allow.placement.of.caret.after.end.of.line:
+    text: 行结尾后
+checkbox.allow.placement.of.caret.inside.tabs:
+    text: 标签页内
+checkbox.autocomplete.basic:
+    text: 基本补全
+checkbox.autocomplete.common.prefix:
+    text: 自动补全常见的前缀
+checkbox.autocomplete.smart.type:
+    text: 类型匹配补全
+checkbox.block.comment.at.first.column:
+    text: 注释块在第一列
+checkbox.caret.blinking.ms:
+    text: '文本光标闪烁(毫秒):'
+checkbox.collapse.end.of.line.comments:
+    text: 行尾注释序列
+checkbox.collapse.file.header:
+    text: 文件头
+checkbox.collapse.generic.constructor.parameters:
+    text: <html>通用构造函数和方法形参</html>
+checkbox.collapse.html.style.attribute:
+    text: "HTML 'style' 特性"
+checkbox.collapse.i18n.messages:
+    text: I18n 字符串
+checkbox.collapse.inner.classes:
+    text: 内部类
+checkbox.collapse.javadoc.comments:
+    text: 文档注释
+checkbox.collapse.method.bodies:
+    text: 方法体
+checkbox.collapse.simple.property.accessors:
+    text: <html>简单属性访问器</html>
+checkbox.collapse.xml.tags:
+    text: XML标签
+checkbox.color.background:
+    text: 背景
+checkbox.color.effects:
+    text: 效果
+checkbox.color.error.stripe.mark:
+    text: 错误条纹标记
+checkbox.color.foreground:
+    text: 前景
+checkbox.do.not.indent.top.level.class.members:
+    text: 不缩进顶层类成员
+checkbox.do.not.wrap.one.line.comments:
+    text: 一行注释不分行
+checkbox.editor.tabs.in.single.row:
+    text: 在一行中显示标签页
+checkbox.editor.tabs.show.close.button:
+    text: 显示编辑器选项卡中的"关闭"按钮
+checkbox.enable.ctrl.mousewheel.changes.font.size:
+    text: '使用 Ctrl + 鼠标滚轮更改字号:'
+checkbox.enable.ctrl.mousewheel.changes.font.size.macos:
+    text: '使用 Command + 鼠标滚轮更改字号:'
+checkbox.enable.drag.n.drop.functionality.in.editor:
+    text: 使用拖放移动代码段
+checkbox.enable.javadoc.formatting:
+    text: 启用JavaDoc格式
+checkbox.enable.leading.asterisks:
+    text: 启用前导星号
+checkbox.font.bold:
+    text: 粗体
+checkbox.font.italic:
+    text: 斜体
+checkbox.generate.p.on.empty.lines:
+    text: 在空行中生成 "<p>"
+checkbox.hide.file.extension.in.editor.tabs:
+    text: 隐藏编辑器选项卡中的文件扩展名
+checkbox.highlight.current.scope:
+    text: 当前作用域
+checkbox.highlight.matched.brace:
+    text: 匹配大括号
+checkbox.honor.camelhumps.words.settings.on.double.click:
+    text: 在通过双击进行选择时允许 "CamelHumps" 单词
+checkbox.indent.absolute.label.indent:
+    text: 绝对标签缩进
+checkbox.indent.keep.indents.on.empty.lines:
+    text: 空行时保持缩进
+checkbox.indent.smart.tabs:
+    text: 智能制表符
+checkbox.indent.use.same.settings.for.all.file.types:
+    text: 使用默认缩进选项 (常规)
+checkbox.indent.use.tab.character:
+    text: 使用制表符
+checkbox.indenting.backspace:
+    text: 退格键智能缩进
+checkbox.insert.both.parentheses.when.no.arguments:
+    text: "插入 '()' -- 当没有参数时"
+checkbox.insert.imports.for.inner.classes:
+    text: 插入导入到内部类
+checkbox.insert.pair.curly.brace:
+    text: "插入成对 '}'"
+checkbox.insert.pair.percent.gt.in.jsp:
+    text: "在 JSP 中插入成对 ' %>'"
+checkbox.insert.pair.quote:
+    text: 插入成对引号
+checkbox.javadoc.stub.after.slash.star.star:
+    text: 插入文档注释存根
+checkbox.keep.empty.lines:
+    text: 保留空行
+checkbox.keep.empty.param.tags:
+    text: 保持空 @param 标签
+checkbox.keep.empty.return.tags:
+    text: 保持空 @return 标签
+checkbox.keep.empty.throws.tags:
+    text: 保持空 @throws 标签
+checkbox.keep.invalid.tags:
+    text: 保持无效标签
+checkbox.keep.line.breaks:
+    text: 保留换行符(&L)
+checkbox.keep.line.breaks.in.text:
+    text: 保留文本中的换行符
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: 控制语句在同一行
+checkbox.keep.white.spaces:
+    text: 保留空白字符(&K)
+checkbox.line.comment.add.space:
+    text: 在行注释开始处添加空格
+checkbox.line.comment.at.first.column:
+    text: 行注释在第一列
+checkbox.make.generated.local.variables.final:
+    text: 将生成的局部变量设为 final
+checkbox.make.generated.parameters.final:
+    text: 将生成的形参设为 final
+checkbox.mark.modified.tabs.with.asterisk:
+    text: 标记已修改(*)
+checkbox.optimize.imports.on.the.fly:
+    text: 动态优化 import
+checkbox.package.options:
+    text: 选项
+checkbox.package.specify.version:
+    text: 指定版本
+checkbox.param.description.on.new.line:
+    text: 形参描述在新行
+checkbox.parentheses.around.method.arguments:
+    text: 在方法实参周围添加圆括号
+checkbox.prefer.longer.names:
+    text: 提升较长的名称
+checkbox.preserve.line.feeds:
+    text: 保留换行
+checkbox.reformat.on.typing.rbrace:
+    text: "输入 '}' 时重新设置块格式"
+checkbox.rename.local.variables.inplace:
+    text: 启用in-place模式
+checkbox.rename.local.variables.preselect:
+    text: 预选择“重命名”重构的当前符号名称
+checkbox.right.margin:
+    text: 显示强制换行和视觉参考线(在“代码样式”选项中配置)
+checkbox.show.breadcrumbs:
+    text: 显示路径导航
+checkbox.show.code.folding.outline:
+    text: 显示代码折叠大纲
+checkbox.show.full.signatures:
+    text: 显示完整的方法签名
+checkbox.show.gutter.icons:
+    text: 显示装订区域图标(&I)
+checkbox.show.import.popup:
+    text: 显示 import 弹出窗口(&P)
+checkbox.show.line.numbers:
+    text: '显示行号:'
+checkbox.show.method.separators:
+    text: 显示方法分隔符
+checkbox.show.only.monospaced.fonts:
+    text: 仅显示等宽字体
+checkbox.show.parameter.name.hints:
+    text: 显示参数名提示
+checkbox.show.quick.doc.on.mouse.over:
+    text: '鼠标移过元素时显示快速文档（ms）:'
+checkbox.show.signatures:
+    text: 显示特征
+checkbox.show.static.members.after.instance.qualifier:
+    text: 在实例限定符后显示静态成员
+checkbox.show.tabs.tooltips:
+    text: 鼠标悬停时显示完整路径
+checkbox.show.virtual.space.at.file.bottom:
+    text: 在文件底部显示虚拟空白
+checkbox.show.whitespaces:
+    text: 显示空格
+checkbox.smart.end.on.blank.line:
+    text: 在空行中按 End 时将文本光标移至缩进位置
+checkbox.smart.home:
+    text: 按 Home 将文本光标移到第一个非空格字符上。
+checkbox.smart.indent:
+    text: 智能缩进
+checkbox.smooth.scrolling:
+    text: 平滑滚动
+checkbox.spaces.additive.operators:
+    text: 加法运算符(+、-)
+checkbox.spaces.after.colon:
+    text: "在 ':' 后"
+checkbox.spaces.after.colon.in.label.declaration:
+    text: " ':' 在标签声明之后"
+checkbox.spaces.after.comma:
+    text: 在逗号后
+checkbox.spaces.after.question:
+    text: "在 '?' 后"
+checkbox.spaces.after.semicolon:
+    text: "'for' 分号之后"
+checkbox.spaces.after.type.cast:
+    text: 在类型转换后
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: 注解数组初始值设定项左大括号
+checkbox.spaces.annotation.parameters:
+    text: 注解形参
+checkbox.spaces.annotation.parentheses:
+    text: 注解圆括号
+checkbox.spaces.around.equals.in.attribute:
+    text: 属性中"="周围(&U)
+checkbox.spaces.around.lambda.arrow:
+    text: Lambda 箭头
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: 方法引用双冒号
+checkbox.spaces.around.tag.name:
+    text: 标签名称后(&A)
+checkbox.spaces.around.unary.operator:
+    text: 一元运算符(!、-、+、++、--)
+checkbox.spaces.array.initializer.left.brace:
+    text: 数组初始值设定项左大括号
+checkbox.spaces.assignment.operators:
+    text: 赋值运算符(=、+=、…)
+checkbox.spaces.before.colon:
+    text: "在 ':' 前"
+checkbox.spaces.before.comma:
+    text: 在逗号前
+checkbox.spaces.before.question:
+    text: "在 '?' 前"
+checkbox.spaces.before.semicolon:
+    text: "'for' 分号之前"
+checkbox.spaces.bitwise.operators:
+    text: 按位运算符(\&、|、^)
+checkbox.spaces.catch.keyword:
+    text: "'catch' 关键字"
+checkbox.spaces.catch.left.brace:
+    text: "'catch' 左大括号"
+checkbox.spaces.catch.parentheses:
+    text: "'catch' 圆括号"
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: 空方法调用圆括号
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: 空方法声明圆括号
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: 方法调用圆括号
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: 方法声明圆括号
+checkbox.spaces.class.left.brace:
+    text: 类左大括号
+checkbox.spaces.do.left.brace:
+    text: "'do' 左大括号"
+checkbox.spaces.else.keyword:
+    text: "'else' 关键字"
+checkbox.spaces.else.left.brace:
+    text: "'else' 左大括号"
+checkbox.spaces.equality.operators:
+    text: 相等运算符(==、!=)
+checkbox.spaces.finally.keyword:
+    text: "'finally' 关键字"
+checkbox.spaces.finally.left.brace:
+    text: "'finally' 左大括号"
+checkbox.spaces.for.left.brace:
+    text: "'for' 左大括号"
+checkbox.spaces.for.parentheses:
+    text: "'for' 圆括号"
+checkbox.spaces.if.left.brace:
+    text: "'if' 左大括号"
+checkbox.spaces.if.parentheses:
+    text: "'if' 圆括号"
+checkbox.spaces.in.empty.tag:
+    text: 空标签内(&E)
+checkbox.spaces.logical.operators:
+    text: 逻辑运算符(\&\&、||)
+checkbox.spaces.method.call.parentheses:
+    text: 方法调用圆括号
+checkbox.spaces.method.declaration.parentheses:
+    text: 方法声明圆括号
+checkbox.spaces.method.left.brace:
+    text: 方法左大括号
+checkbox.spaces.multiplicative.operators:
+    text: 乘法运算符(*、/、%)
+checkbox.spaces.relational.operators:
+    text: 关系运算符(<、>、<=、>=)
+checkbox.spaces.shift.operators:
+    text: 移位运算符(<<、>>、>>>)
+checkbox.spaces.switch.left.brace:
+    text: "'switch' 左大括号"
+checkbox.spaces.switch.parentheses:
+    text: "'switch' 圆括号"
+checkbox.spaces.synchronized.left.brace:
+    text: "'synchronized' 左大括号"
+checkbox.spaces.synchronized.parentheses:
+    text: "'synchronized' 括号"
+checkbox.spaces.try.left.brace:
+    text: "'try' 左大括号"
+checkbox.spaces.try.parentheses:
+    text: "'try' 圆括号"
+checkbox.spaces.type.cast.parentheses:
+    text: 类型转换圆括号
+checkbox.spaces.while.keyword:
+    text: "'while' 关键字"
+checkbox.spaces.while.left.brace:
+    text: "'while' 左大括号"
+checkbox.spaces.while.parentheses:
+    text: "'while' 圆括号"
+checkbox.spaces.within.array.initializer.braces:
+    text: 数组初始值设定项大括号
+checkbox.spaces.within.braces:
+    text: 代码大括号
+checkbox.spaces.within.brackets:
+    text: 中括号
+checkbox.spaces.within.parentheses:
+    text: 分组圆括号
+checkbox.suppress.with.suppresswarnings:
+    text: 使用 @SuppressWarnings 禁止
+checkbox.surround.selection.on.typing.quote.or.brace:
+    text: 输入引号或大括号时包围选区
+checkbox.use.block.caret:
+    text: 使用块文本光标
+checkbox.use.camelhumps.words:
+    text: 使用 "CamelHumps" 单词
+checkbox.use.custom.soft.wraps.indent:
+    text: 对换行的片段使用原始行的缩进
+checkbox.use.fully.qualified.class.names:
+    text: 使用完全限定类名
+checkbox.use.fully.qualified.class.names.in.javadoc:
+    text: 在 javadoc 中使用完全限定类名
+checkbox.use.relative.indents:
+    text: 相对于表达开始使用缩进
+checkbox.use.single.class.import:
+    text: 使用单个类导入
+checkbox.use.soft.wraps.at.console:
+    text: 在控制台中使用自动换行
+checkbox.use.soft.wraps.at.editor:
+    text: '对这些文件进行软换行:'
+checkbox.use.throws.rather.than.exception:
+    text: 用 @throws 而不是 @exception
+checkbox.wrap.at.right.margin:
+    text: 在右页边距处换行
+checkbox.wrap.text:
+    text: 自动换行(&W)
+checkbox.wrap.typing.on.right.margin:
+    text: 当输入到达右边距时换行
+code.style.detector.use.spaces:
+    text: 缩进使用 {0} 个空格
+code.style.detector.use.tabs:
+    text: 缩进使用制表符(tab)
+code.style.different.indent.size.detected:
+    text: 该文件缩进使用 {0} 个空格代替 {1} 个
+code.style.indent.detector.apply:
+    text: <html><span style="color:#{1}">已检测到</span>将新行缩进 {0}
+code.style.indent.detector.disable:
+    text: 为项目禁用缩进检测
+code.style.indent.detector.notification.content:
+    text: 缩进检测已禁用
+code.style.indent.detector.reindent:
+    text: 将文件重新缩进 {0}
+code.style.indent.detector.reject:
+    text: 使用 {0} 缩进新行
+code.style.indent.provider.notification.re.enable:
+    text: 撤消
+code.style.indent.provider.notification.settings:
+    text: 代码样式设置
+code.style.indents.detector.accept:
+    text: 确定
+code.style.indents.detector.show.settings:
+    text: 查看设置
+code.style.other.file.types:
+    text: 其他文件类型
+code.style.space.indent.detected:
+    text: 该文件缩进使用 {0} 个空格代替制表符(tab)
+code.style.tab.usage.detected:
+    text: 该文件缩进使用制表符(tab)代替 {0} 个空格
+code.style.widget.configure.indents:
+    text: 为 {0} 配置缩进…
+column.name:
+    text: 名称
+column.value:
+    text: 值
+combobox.autocomplete.case.sensitive.all:
+    text: 所有
+combobox.autocomplete.case.sensitive.first.letter:
+    text: 首字母
+combobox.autocomplete.case.sensitive.none:
+    text: 没有
+combobox.case.sensitive.completion:
+    text: '区分大小写补全:'
+combobox.crlf.system.dependent:
+    text: 取决于系统
+combobox.crlf.unix:
+    text: Unix 和 macOS (\n)
+combobox.editor.tab.placement:
+    text: 标签页位置
+combobox.effect.bold.dottedline:
+    text: 虚线
+combobox.effect.boldunderscored:
+    text: 加粗下划线
+combobox.effect.bordered:
+    text: 带边框
+combobox.effect.strikeout:
+    text: 删除线
+combobox.effect.underscored:
+    text: 下划线
+combobox.effect.underwaved:
+    text: 波浪下划线
+combobox.insert.imports.all:
+    text: 始终
+combobox.insert.imports.ask:
+    text: 询问
+combobox.insert.imports.none:
+    text: 从不
+combobox.line.separator.for.new.files:
+    text: '行分隔符:'
+combobox.lineseparator.for.new.files.hint:
+    text: 已应用到新文件
+combobox.paste.insert.imports:
+    text: '粘贴时插入 import(&I):'
+combobox.paste.reformat:
+    text: '粘贴时重新设置格式:'
+combobox.paste.reformat.indent.block:
+    text: 缩进块
+combobox.paste.reformat.indent.each.line:
+    text: 缩进每一行
+combobox.paste.reformat.none:
+    text: 无
+combobox.paste.reformat.reformat.block:
+    text: 重新设置块格式
+combobox.richcopy.color.scheme:
+    text: '复制的片段的配色方案:'
+combobox.richcopy.color.scheme.active:
+    text: 有效方案
+combobox.smart.backspace:
+    text: '退格时取消缩进:'
+combobox.smart.backspace.off:
+    text: 已禁用
+combobox.smart.backspace.simple:
+    text: 到最近缩进位置
+combobox.smart.backspace.smart:
+    text: 到正确缩进位置
+combobox.strip.all:
+    text: 所有行
+combobox.strip.modified.lines:
+    text: 已修改的行
+combobox.strip.none:
+    text: 全否
+combobox.strip.trailing.spaces.on.save:
+    text: '移除尾随空格:'
+combobox.tab.placement.bottom:
+    text: 底部
+combobox.tab.placement.left:
+    text: 左侧
+combobox.tab.placement.none:
+    text: 无
+combobox.tab.placement.right:
+    text: 右侧
+combobox.tab.placement.top:
+    text: 顶部
+command.exit:
+    text: 退出
+config.import.invalid.directory.error:
+    text: '{0} 不是目录!'
+configurable.breadcrumbs:
+    text: 路径导航
+configure.breadcrumbs.colors:
+    text: 管理颜色
+date.format.a.few.moments.ago:
+    text: 刚才
+date.format.in.a.few.moments:
+    text: 稍后
+date.format.in.n.days:
+    text: '{0,choice, 0#0 天|1#1 天|2#{0,number} 天}后'
+date.format.in.n.hours:
+    text: '{0,choice, 0#0 小时|1#1 小时|2#{0,number} 小时}后'
+date.format.in.n.minutes:
+    text: '{0,choice, 0#0 分钟|1#1 分钟|2#{0,number} 分钟}后'
+date.format.in.n.months:
+    text: '{0,choice, 0#0 个月|1#1 个月|2#{0,number} 个月}后'
+date.format.in.n.weeks:
+    text: '{0,choice, 0#0 周|1#1 周|2#{0,number} 周}后'
+date.format.in.n.years:
+    text: '{0,choice, 0#0 年|1#1 年|2#{0,number} 年}后'
+date.format.less.than.a.minute:
+    text: 不到一分钟
+date.format.minutes.ago:
+    text: '{0,choice, 0#片刻|1#1 分钟|2#{0,number} 分钟|60#1 小时}之前'
+date.format.n.days:
+    text: '{0,number} 天'
+date.format.n.days.ago:
+    text: '{0,choice, 0#0 天|1#1 天|2#{0,number} 天}前'
+date.format.n.hours:
+    text: '{0,number} 小时'
+date.format.n.hours.ago:
+    text: '{0,choice, 0#0 小时|1#1 小时|2#{0,number} 小时}前'
+date.format.n.minutes:
+    text: '{0,number} 分钟'
+date.format.n.minutes.ago:
+    text: '{0,choice, 0#0 分钟|1#1 分钟|2#{0,number} 分钟}前'
+date.format.n.months:
+    text: '{0,number} 月'
+date.format.n.months.ago:
+    text: '{0,choice, 0#0 个月|1#1 个月|2#{0,number} 个月}前'
+date.format.n.weeks:
+    text: '{0,number} 个星期'
+date.format.n.weeks.ago:
+    text: '{0,choice, 0#0 周|1#1 周|2#{0,number} 周}前'
+date.format.n.years:
+    text: '{0,number} 年'
+date.format.n.years.ago:
+    text: '{0,choice, 0#0 年|1#1 年|2#{0,number} 年}前'
+date.format.right.now:
+    text: 立即
+date.format.today:
+    text: 今天
+date.format.yesterday:
+    text: 昨天
+date.frequency:
+    text: 一次{0}
+desktop.entry.icon.missing:
+    text: 在“{0}”中找不到合适的应用程序图标。
+desktop.entry.script.missing:
+    text: 在“{0}”中找不到合适的启动脚本。
+desktop.entry.success:
+    text: 您现在可以退出 {0} 并从系统菜单中启动它。<br/>如果未显示新菜单条目，请重启登录会话。
+desktop.entry.sudo.prompt:
+    text: 请输入您的密码来创建桌面条目
+desktop.entry.xdg.missing:
+    text: 抱歉，xdg-utils 在您的系统上似乎不可用。
+dialog.message.caches.will.be.invalidated:
+    text: 移除所有项目的缓存和索引。重新打开项目时将构建新的缓存。
+dialog.message.command.not.finished.yet:
+    text: '{0}尚未完成。'
+dialog.message.the.following.items:
+    text: '可选:'
+dialog.title.invalidate.caches:
+    text: 清除缓存
+don.t.break.if.inline.content:
+    text: '如果内容为行内元素则不换行:'
+edit.code.folding.options:
+    text: 打开代码折叠选项
+editbox.autopopup.in.ms:
+    text: '自动弹出 (ms):'
+editbox.autopopup.javadoc.in.ms:
+    text: '自动弹出文档 （ms）:'
+editbox.autoreparse.delay.ms:
+    text: '自动解析延迟 （毫秒）:'
+editbox.blanklines.after.anonymous.class.header:
+    text: '匿名类头后:'
+editbox.blanklines.after.class.header:
+    text: '类头后:'
+editbox.blanklines.after.imports:
+    text: 'import 后:'
+editbox.blanklines.after.package.statement:
+    text: '在 package 语句后:'
+editbox.blanklines.around.class:
+    text: '类周围:'
+editbox.blanklines.around.field:
+    text: '字段周围:'
+editbox.blanklines.around.method:
+    text: '方法周围:'
+editbox.blanklines.before.imports:
+    text: 'import 前:'
+editbox.blanklines.before.method.body:
+    text: '在方法体前:'
+editbox.blanklines.before.package.statement:
+    text: '在 package 语句前:'
+editbox.class.count.to.use.import.with.star:
+    text: "将 import 与 '*' 搭配使用的类计数:"
+editbox.console.history.limit:
+    text: '控制台命令历史记录大小:'
+editbox.enter.tag.name:
+    text: '输入标签名称:'
+editbox.error.stripe.mark.min.height.pixels:
+    text: '错误标记条纹的最小高度(像素):'
+editbox.font.size:
+    text: '大小:'
+editbox.indent.continuation.indent:
+    text: '连续缩进:'
+editbox.indent.indent:
+    text: '缩进:'
+editbox.indent.label.indent:
+    text: '标签缩进:'
+editbox.indent.tab.size:
+    text: '制表符大小:'
+editbox.installation.home:
+    text: '指定配置文件夹，或者以前版本 {0} 的目录安装:'
+editbox.keep.blank.lines:
+    text: '保留空行(&K):'
+editbox.keep.blanklines.before.rbrace:
+    text: "在 '}' 前:"
+editbox.keep.blanklines.in.code:
+    text: '在代码中:'
+editbox.keep.blanklines.in.declarations:
+    text: '在声明中:'
+editbox.line.spacing:
+    text: '行高:'
+editbox.lookup.height:
+    text: '检查高度 （项目）:'
+editbox.maximum.number.of.contents.to.keep.in.clipboard:
+    text: <html>保持在剪贴板中的最大数量</html>
+editbox.names.count.to.use.static.import.with.star:
+    text: "将静态 import 与 '*' 搭配使用的名称计数:"
+editbox.path.macro.name:
+    text: '名称:'
+editbox.path.macro.value:
+    text: '值:'
+editbox.recent.files.limit:
+    text: '最近打开文件限制:'
+editbox.right.margin.columns:
+    text: '强制换行位置:'
+editbox.scheme.name:
+    text: '方案:'
+editbox.tab.limit:
+    text: '标签页限制:'
+editorsearch.empty.string.matches:
+    text: 模糊模式
+editorsearch.in.selection:
+    text: 仅在选区内搜索
+editorsearch.in.selection.with.hint:
+    text: 在选区内搜索。{0}以搜索选定文本
+editorsearch.matches:
+    text: '{0, choice, 0#0 个结果|1#1 个结果|2#{0} 个结果}'
+editorsearch.noselection:
+    text: 无选区
+error.a.scheme.with.this.name.already.exists.or.was.deleted.without.applying.the.changes:
+    text: 具有此名称的方案已经存在或已被删除而无法更改
+error.does.not.appear.to.be.installation.home:
+    text: '{0} 不是 {1} 配置文件夹或安装目录'
+error.illegal.scheme.name:
+    text: 非法方案名称
+error.invalid.installation.home:
+    text: "无法导入设置。 ''{0}'' 似乎不是一个有效的 {1} 安装路径。"
+error.monitor.too.many.errors:
+    text: IDE 内部错误过多。监控已停止。
+error.no.read.permissions:
+    text: 您没有 {0} 的读取的权限
+error.no.settings.path:
+    text: 无法导入设置。{0} 不存在。
+error.path.variable.is.undefined:
+    text: 路径 "{0}" 是未定义的
+error.please.select.previous.installation.home:
+    text: 请选择以前的 {0} 配置文件夹来安装
+error.plugins.should.not.have.cyclic.dependencies:
+    text: '插件应该没有循环依赖:'
+error.readonly.scheme.cannot.be.modified:
+    text: 只读方案无法修改，请先另存一份
+error.required.plugin.not.installed:
+    text: 插件“{0}”未加载：需要的插件“{1}”未安装。
+error.scheme.must.have.a.name:
+    text: 方案必须有一个名字
+error.selected.current.installation.home:
+    text: |-
+        您已选择当前 {0} 安装路径。
+        请选择以前的 {1} 安装路径。
+error.shared.scheme.cannot.be.modified:
+    text: 共享方案无法修改，请先另存一份
+error.unable.to.import.settings:
+    text: 无法导入设置。{0}
+error.variable.already.exists:
+    text: 名称为 {0} 的变量已存在
+exclude.from.completion.group:
+    text: '从自动导入和补全中排除:'
+exclude.from.completion.prompt:
+    text: '输入的名称的包或类，排除在自动导入和类名称的自动完成:'
+exclude.from.completion.title:
+    text: 排除包
+exclude.from.imports.add:
+    text: 添加
+exclude.from.imports.no.exclusions:
+    text: 添加类、软件包或成员
+exit.confirm.prompt:
+    text: 确定要退出吗?
+exit.confirm.prompt.tasks:
+    text: 后台任务正在运行。确定要停止它们并退出吗?
+exit.confirm.title:
+    text: 确认退出
+fs.case.sensitivity.mismatch.message:
+    text: 该项目似乎位于一个大小写-{0,choice,0#|1#in}敏感的文件系统.<br> 不匹配的 IDE 设置. <a href="https://confluence.jetbrains.com/display/IDEADEV/Filesystem+Case-Sensitivity+Mismatch">更多细节.</a>
+fs.case.sensitivity.mismatch.title:
+    text: 文件系统中区分大小写不匹配
+group.advanced.mouse.usages:
+    text: 鼠标控制
+group.brace.highlighting:
+    text: 移动文本光标时高亮显示
+group.code.folding:
+    text: 代码折叠
+group.editor.font:
+    text: 编辑器字体
+group.error.highlighting:
+    text: 错误高亮显示
+group.javadoc.alignment:
+    text: 对齐
+group.javadoc.blank.lines:
+    text: 空行
+group.javadoc.invalid.tags:
+    text: 无效标签
+group.javadoc.other:
+    text: 其他
+group.limits:
+    text: 限制
+group.richcopy:
+    text: 富文本复制
+group.smart.keys:
+    text: 智能按键
+group.spaces.after.right.brace:
+    text: 关键字之前
+group.spaces.around.operators:
+    text: 运算符周围
+group.spaces.before.left.brace:
+    text: 左大括号之前
+group.spaces.before.parentheses:
+    text: 括号之前
+group.spaces.in.ternary.operator:
+    text: 在三元运算符(?:)中
+group.spaces.in.type.arguments:
+    text: 在类型实参中
+group.spaces.in.type.arguments.block:
+    text: 类型实参
+group.spaces.in.type.parameters.block:
+    text: 类型形参
+group.spaces.other:
+    text: 其他
+group.spaces.within:
+    text: 内部
+group.tab.appearance:
+    text: 外观
+group.tab.closing.policy:
+    text: 关闭策略
+group.tabs.and.indents:
+    text: 标签和缩进
+group.virtual.space:
+    text: 虚拟空间
+groupbox.display:
+    text: 禁用
+heavyProcess.type.indexing:
+    text: 正在编制索引…
+heavyProcess.type.processing:
+    text: 正在处理…
+heavyProcess.type.syncing:
+    text: 正在同步…
+html.project.uses.own.code.style:
+    text: <html><body>当前项目配置为使用自己的代码风格，<br>对全局代码样式设置所做的更改不会影响当前项目中的格式设置。<br>请参见项目设置 | 代码风格。<br>按  \&quot; 编辑全局设置 \&quot;下面的按钮，如果你仍然想要编辑全局设置。</body></html>
+import.scheme.chooser.destination:
+    text: '到:'
+import.scheme.chooser.source:
+    text: '从:'
+inline.elements:
+    text: '行内元素(&I):'
+insert.override.annotation:
+    text: 插入 @Override 注解(&O)
+integer.field.value.default:
+    text: 默认
+label.appearance.show.vertical.indent.guides:
+    text: '外观: 显示垂直缩进辅助线'
+label.autocomplete.when.only.one.choice:
+    text: '自动插入单个建议到:'
+label.breadcrumbs.languages:
+    text: '语言:'
+label.breadcrumbs.placement:
+    text: '放置:'
+label.collapse.by.default:
+    text: '默认情况下折叠:'
+label.complete.autopopup:
+    text: '自动弹出:'
+label.complete.brackets:
+    text: '方括号:'
+label.do.not.indent.children.of:
+    text: '不要缩进以下元素的子元素:'
+label.edit.per.project.or.global.code.style:
+    text: <html><body>检查项目的代码风格配置选项<br>或使用全局代码风格。全局代码风格设置可以在IDE配置<br>设置/全局代码风格</body></html>
+label.fallback.fonts.list.description:
+    text: 用于主字体<br>不支持的符号
+label.font.name:
+    text: '字体:'
+label.font.size:
+    text: '字体大小:'
+label.font.type:
+    text: 字体
+label.inherit.attributes:
+    text: '值继承自:'
+label.insert.new.line.before:
+    text: '在前面插入新行(&I):'
+label.keep.white.spaces.inside:
+    text: '保留内部空白字符(&K):'
+label.loading.page.please.wait:
+    text: 正在加载…
+label.name:
+    text: 名称
+label.name.prefix:
+    text: '名称前缀:'
+label.name.suffix:
+    text: '名称后缀:'
+label.naming.field:
+    text: '字段:'
+label.naming.local.variable:
+    text: '局部变量:'
+label.naming.parameter:
+    text: '形参:'
+label.naming.static.field:
+    text: 'static 字段:'
+label.or.if.tag.size.more.than:
+    text: 或如果标签大小超过
+label.remove.new.line.before:
+    text: '删除前面的新行(&R):'
+label.smart.enter:
+    text: '智能输入:'
+label.when.closing.active.editor:
+    text: '在当前标签页关闭时，激活:'
+label.when.number.of.opened.editors.exceeds.tab.limit:
+    text: '当标签页超过限制时:'
+label.wrap.attributes:
+    text: '换行特性:'
+label.you.can.import:
+    text: '导入 {0} 的设置:'
+launcher.script.overwrite:
+    text: "文件 ''{0}'' 已存在。要覆盖它吗？"
+launcher.script.sudo.prompt:
+    text: "请输入您的密码以创建启动脚本 ''{0}''"
+launcher.script.title:
+    text: 创建启动脚本
+listbox.import.package:
+    text: 软件包
+listbox.import.with.subpackages:
+    text: 使用子软件包
+listbox.members.order.constructors:
+    text: 构造函数
+listbox.members.order.fields:
+    text: 实例字段
+listbox.members.order.inner.classes:
+    text: 内部类
+listbox.members.order.inner.static.classes:
+    text: static 内部类
+listbox.members.order.methods:
+    text: 实例方法
+listbox.members.order.static.fields:
+    text: static 字段
+listbox.members.order.static.methods:
+    text: static 方法
+loading.include.indices:
+    text: 加载包括指标...
+margin.columns:
+    text: 列
+message.duplicate.plugin.id:
+    text: '复制插件ID:'
+notification.group.automatic.indent.detection:
+    text: 自动缩进检测已禁用
+option.table.sizing.text:
+    text: 如果过长则截断。
+primary.font:
+    text: '字体:'
+progress.analysing.font:
+    text: '分析字体: {0}'
+progress.analyzing.fonts:
+    text: 分析字体
+project.code.style.migration.message:
+    text: 将项目{0}的代码样式设置迁移到新格式.为了保持向后兼容性，我们现在保留旧格式.
+project.code.style.migration.title:
+    text: 项目代码样式设置迁移
+radio.activate.left.neighbouring.tab:
+    text: <html>左侧标签页</html>
+radio.activate.most.recently.opened.tab:
+    text: <html>最近打开的标签页</html>
+radio.activate.right.neighbouring.tab:
+    text: <html>右侧标签页</html>
+radio.close.less.frequently.used.files:
+    text: 关闭不常用的文件
+radio.close.non.modified.files.first:
+    text: 先关闭未修改的文件
+radio.do.not.import:
+    text: 没有导入设置
+radio.import:
+    text: 自定义位置.配置文件夹或以前的版本的安装目录
+radio.import.auto:
+    text: 以前的版本({0})
+radio.insert.both.parentheses:
+    text: "插入 '()'"
+radio.insert.left.parenthesis:
+    text: "插入 '('"
+radio.prefer.comma.separated.import.list:
+    text: 首选逗号分隔的导入列表
+radio.prefer.one.import.statement.per.page.directive:
+    text: 每个页面指令首选一条 import 语句
+radio.show.breadcrumbs.above:
+    text: 顶部
+radio.show.breadcrumbs.below:
+    text: 底部
+radio.use.global.code.style:
+    text: 使用全局代码样式
+radio.use.per.project.code.style.scheme:
+    text: 使用单个项目代码样式方案
+reformat.changed.text.file.too.big.notification.groupId:
+    text: 重新格式化更改的文本
+reformat.changed.text.file.too.big.notification.text:
+    text: 文件 {0} 过大或有过多更改
+reformat.changed.text.file.too.big.notification.title:
+    text: 无法计算更改后的范围
+remote.desktop.detected.message:
+    text: 禁用动画
+remote.desktop.detected.title:
+    text: 远程桌面检测
+secondary.font:
+    text: '回滚字体:'
+settings.code.style.general.autodetect.indents:
+    text: 检测并使用现有的文件缩进进行编辑
+settings.code.style.general.default.options:
+    text: 默认选项
+settings.code.style.general.enable.formatter.tags:
+    text: 在代码注释中使用标记打开/关闭格式化程序
+settings.code.style.general.formatter.control:
+    text: 格式化程序控制
+settings.code.style.general.formatter.marker.invalid.regexp:
+    text: 无效的正则表达式
+settings.code.style.general.formatter.marker.options.title:
+    text: 选项
+settings.code.style.general.formatter.marker.regexp:
+    text: 在格式化程序标记中启用正则表达式
+settings.code.style.general.formatter.marker.title:
+    text: 标记
+settings.code.style.general.formatter.off.tag:
+    text: '关:'
+settings.code.style.general.formatter.on.tag:
+    text: '开:'
+settings.code.style.general.indents.detection:
+    text: 缩进的检测
+settings.code.style.general.visual.guides.hint:
+    text: 指定一条参考线(80)或多条(80、120)
+settings.code.style.visual.guides:
+    text: 视觉参考线
+settings.default.value.prefix:
+    text: '默认: {0}'
+settings.editor.font.none:
+    text: <无>
+settings.soft.margins.empty.list:
+    text: 无
+tab.editor.settings.appearance:
+    text: 外观
+tab.editor.settings.behavior:
+    text: 性能
+tab.indent.other:
+    text: 其它
+text.no.path.variables:
+    text: 没有路径变量
+title.add.variable:
+    text: 添加变量
+title.blank.lines:
+    text: 空行
+title.braces.placement:
+    text: 括号布置
+title.cannot.modify.readonly.scheme:
+    text: 不能修改只读方案
+title.choose.code.style.scheme:
+    text: 选择代码风格方案
+title.code.completion:
+    text: 代码补全
+title.code.generation:
+    text: 代码生成
+title.colors.and.fonts:
+    text: 配色方案
+title.complete.installation:
+    text: 完成安装
+title.diff:
+    text: 差异与合并
+title.do.not.indent.children.of:
+    text: 不缩进的子元素
+title.dont.wrap.if.inline.content:
+    text: 如果包含内联符号不换行
+title.edit.global.settings:
+    text: 编辑全局设置(&G)
+title.edit.variable:
+    text: 编辑变量
+title.editor:
+    text: 常规
+title.file.status:
+    text: 文件状态
+title.general:
+    text: 系统设置
+title.global.code.style:
+    text: 全局代码样式
+title.import.layout:
+    text: 导入布局
+title.inline.elements:
+    text: 内联元素
+title.insert.new.line.before.tags:
+    text: 在标签之前插入新行
+title.installation.home.required:
+    text: 需要配置文件夹来安装
+title.jsp.imports.layout:
+    text: JSP 导入布局
+title.keep.blank.lines:
+    text: 保持最大的空白行
+title.keep.whitespaces.inside:
+    text: 保持空格
+title.lookup.list:
+    text: 查阅列表
+title.minimum.blank.lines:
+    text: 最小的空白行
+title.naming:
+    text: 命名
+title.naming.comment.code:
+    text: 注释代码
+title.naming.final.modifier:
+    text: 变量声明
+title.order.of.members:
+    text: 成员顺序
+title.other.languages:
+    text: 其他语言
+title.other.tabs.and.indents:
+    text: 其它
+title.packages.to.use.import.with:
+    text: "将 import 与 '*' 搭配使用的软件包"
+title.parameter.info:
+    text: 形参信息
+title.path.variables:
+    text: 路径变量
+title.place.on.new.line:
+    text: 在新行上放置
+title.preview:
+    text: 预览
+title.project.code.style:
+    text: 项目代码样式
+title.remove.line.breaks.before.tags:
+    text: 删除换行符之前标记
+title.save.code.style.scheme.as:
+    text: 复制代码样式方案为
+title.save.color.scheme.as:
+    text: 复制配色方案为
+title.scope.based:
+    text: 按作用域
+title.select.font:
+    text: 选择字体
+title.settings:
+    text: 设置
+title.settings.import.failed:
+    text: 设置导入失败
+title.spaces:
+    text: 空格
+title.tabs.and.indents:
+    text: 制表符和缩进
+title.tag.name:
+    text: 标签名称
+title.warning:
+    text: 警告
+tooltip.indent.must.be.multiple.of.tab.size.for.smart.tabs.to.operate:
+    text: 对于要操作的智能制表符，缩进必须为制表符大小的倍数
+use.external.annotations:
+    text: 使用外部注解 (&E)
+use.ligatures:
+    text: 启用连写
+watcher.exe.not.exe:
+    text: '原生 File Watcher 不是可执行文件: <a href="{0}">{0}</a>'
+watcher.exe.not.exists:
+    text: 此平台不支持原生 File Watcher
+watcher.exe.not.found:
+    text: 找不到原生 File Watcher 可执行文件
+watcher.failed.to.start:
+    text: File Watcher 未能启动
+watcher.gave.up:
+    text: File Watcher 已放弃操作
+watcher.non.watchable.project:
+    text: '{0} 无法接收此项目的文件系统事件通知。它是否在网络驱动器上?'
+watcher.slow.sync:
+    text: 外部文件更改同步可能缓慢
+wrapping.after.modifier.list:
+    text: 在修饰符列表后换行
+wrapping.align.fields.in.columns:
+    text: 对齐列中的字段
+wrapping.align.in.columns:
+    text: 在列中对齐
+wrapping.align.parenthesised.when.multiline:
+    text: 多行时对齐圆括号
+wrapping.align.simple.methods.in.columns:
+    text: 在列中对齐简单的方法
+wrapping.align.throws.keyword:
+    text: "将 'throws' 对齐到方法开始"
+wrapping.align.variables.in.columns:
+    text: 对齐列中的变量
+wrapping.align.when.multiline:
+    text: 多行时对齐
+wrapping.and.braces:
+    text: 自动换行和括号
+wrapping.array.initializer:
+    text: 初始值设定项列表
+wrapping.assert.statement:
+    text: 断言语句
+wrapping.assignment.sign.on.next.line:
+    text: 赋值符号置于下一行
+wrapping.assignment.statement:
+    text: 赋值语句
+wrapping.assignment.variables.groups:
+    text: 字段/变量组
+wrapping.binary.operations:
+    text: 二元表达式
+wrapping.brace.placement:
+    text: 大括号位置
+wrapping.brace.placement.class.declaration:
+    text: 在类和结构中
+wrapping.brace.placement.end.of.line:
+    text: 行尾
+wrapping.brace.placement.method.declaration:
+    text: 在方法声明中
+wrapping.brace.placement.next.line:
+    text: 下一行
+wrapping.brace.placement.next.line.each.shifted:
+    text: 下一行，每次移位
+wrapping.brace.placement.next.line.if.wrapped:
+    text: 下一行(如果换行)
+wrapping.brace.placement.next.line.shifted:
+    text: 下一行(移位)
+wrapping.brace.placement.other:
+    text: 其他
+wrapping.catch.on.new.line:
+    text: "'catch' 在新行"
+wrapping.chained.method.call.first.on.new.line:
+    text: 换行第一个调用
+wrapping.chained.method.calls:
+    text: 链式方法调用
+wrapping.chop.down.if.long:
+    text: 如果过长则截断
+wrapping.classes.annotation:
+    text: 类注解
+wrapping.colon.signs.on.next.line:
+    text: "':' 符号置于下一行"
+wrapping.comments:
+    text: 注释
+wrapping.comments.wrap.at.right.margin:
+    text: 在右边距处换行
+wrapping.do.not.wrap:
+    text: 不换行
+wrapping.dowhile.statement:
+    text: "'do ... while()' 语句"
+wrapping.else.on.new.line:
+    text: "'else' 在新行"
+wrapping.enum.constants:
+    text: 枚举常量
+wrapping.extends.implements.keyword:
+    text: extends/implements/permits 关键字
+wrapping.extends.implements.list:
+    text: extends/implements/permits 列表
+wrapping.fields.annotation:
+    text: 字段注解
+wrapping.finally.on.new.line:
+    text: "'finally' 在新行"
+wrapping.for.statement:
+    text: "'for()' 语句"
+wrapping.force.braces:
+    text: 强制加大括号
+wrapping.force.braces.always:
+    text: 始终
+wrapping.force.braces.do.not.force:
+    text: 不强制
+wrapping.force.braces.when.multiline:
+    text: 当多行时
+wrapping.if.statement:
+    text: "'if()' 语句"
+wrapping.indent.case.from.switch:
+    text: "缩进 'case' 分支"
+wrapping.keep.comment.at.first.column:
+    text: 注释在第一列
+wrapping.keep.line.breaks:
+    text: 换行符
+wrapping.keep.multiple.expressions.in.one.line:
+    text: 多个表达式在同一行
+wrapping.keep.simple.blocks.in.one.line:
+    text: 简单的 lambda 在同一行
+wrapping.keep.simple.classes.in.one.line:
+    text: 简单的类在同一行
+wrapping.keep.simple.lambdas.in.one.line:
+    text: 简单的 lambda 在同一行
+wrapping.keep.simple.methods.in.one.line:
+    text: 简单函数在同一行
+wrapping.keep.when.reformatting:
+    text: 重新设置格式时保持
+wrapping.local.variables.annotation:
+    text: 局部变量注解
+wrapping.long.lines:
+    text: 确保不超过右边距
+wrapping.method.arguments:
+    text: 方法调用实参
+wrapping.method.parameters:
+    text: 方法声明形参
+wrapping.method.parentheses:
+    text: 方法圆括号
+wrapping.methods.annotation:
+    text: 方法注解
+wrapping.modifier.list:
+    text: 修饰符列表
+wrapping.new.line.after.lbrace:
+    text: "在 '{' 后换行"
+wrapping.new.line.after.lpar:
+    text: "在 '(' 后换行"
+wrapping.operation.sign.on.next.line:
+    text: 运算符号置于下一行
+wrapping.parameters.annotation:
+    text: 形参注解
+wrapping.quest.and.colon.signs.on.next.line:
+    text: "'?' 和 ':' 符号置于下一行"
+wrapping.rbrace.on.new.line:
+    text: "将 '}' 置于新行中"
+wrapping.rpar.on.new.line:
+    text: "将 ')' 置于新行中"
+wrapping.special.else.if.braces.treatment:
+    text: "特殊的 'else if' 对待"
+wrapping.switch.statement:
+    text: "'switch' 语句"
+wrapping.take.priority.over.call.chain.wrapping:
+    text: 优先于调用链换行
+wrapping.ternary.operation:
+    text: 三元运算
+wrapping.throws.keyword:
+    text: throws 关键字
+wrapping.throws.list:
+    text: Throws 列表
+wrapping.try.statement:
+    text: "'try' 语句"
+wrapping.while.on.new.line:
+    text: "'while' 在新行"
+wrapping.while.statement:
+    text: "'while()' 语句"
+wrapping.wrap.always:
+    text: 始终换行
+wrapping.wrap.if.long:
+    text: 过长则换行
+wrapping.wrap.on.typing:
+    text: 键入时换行
+wrapping.wrap.on.typing.default:
+    text: 默认
+wrapping.wrap.on.typing.no.wrap:
+    text: 否
+wrapping.wrap.on.typing.wrap:
+    text: 是

@@ -1,0 +1,122 @@
+code.vision.implementations.hint:
+    text: "{0, choice, 1#1 个实现|2#{0,number}'{1,choice, |1#+}' 实现}"
+code.vision.inheritors.hint:
+    text: "{0, choice, 1#1 个继承者|2#{0,number}'{1,choice, |1#+}' 继承者}"
+code.vision.overrides.hint:
+    text: "{0, choice, 1#1 个重写|2#{0,number}'{1,choice, |1#+}' 重写}"
+usages.telescope:
+    text: '{0,choice, 0#0 个用法|1#1 个用法|2#{0,number} 个用法}'
+action.go.to.implementation.text:
+    text: 转到实现
+action.go.to.overriding.methods.text:
+    text: 转到重写方法
+action.go.to.subclass.text:
+    text: 转到子类
+action.go.to.super.method.text:
+    text: 转到 super 方法
+checkbox.collapse.annotations:
+    text: 注解
+checkbox.collapse.anonymous.classes:
+    text: 匿名类
+checkbox.collapse.closures:
+    text: '"闭包" (在 Java 8 前，实现一个方法的匿名类)'
+checkbox.collapse.end.of.line.comments:
+    text: 行尾注释序列
+checkbox.collapse.file.header:
+    text: 文件头
+checkbox.collapse.generic.constructor.parameters:
+    text: <html>通用构造函数和方法形参</html>
+checkbox.collapse.html.style.attribute:
+    text: "HTML 'style' 特性"
+checkbox.collapse.i18n.messages:
+    text: I18n 字符串
+checkbox.collapse.inner.classes:
+    text: 内部类
+checkbox.collapse.one.line.methods:
+    text: <html>一行方法<html>
+checkbox.collapse.simple.property.accessors:
+    text: <html>简单属性访问器</html>
+class.file.decompiled.text:
+    text: 反编译 .class文件
+class.file.open.source.action:
+    text: 打开源文件
+class.not.found.error.message:
+    text: "未找到类 ''{0}''"
+dependencies.tree.node.default.package.abbreviation:
+    text: <默认软件包>
+error.package.already.contains.package.html:
+    text: "软件包 ''{0}'' 已经有一个 ''package.html'' 文件。仍要创建 ''package-info.java''?"
+error.package.html.found.title:
+    text: 发现“package.html”
+gutter.implemented.method:
+    text: 已实现方法
+gutter.implementing.method:
+    text: 实现方法
+gutter.overridden.method:
+    text: 重写的方法
+gutter.overriding.method:
+    text: 重写方法
+gutter.service:
+    text: 服务
+gutter.sibling.inherited.method:
+    text: 同级继承的方法
+inlay.MethodChainsInlayProvider.description:
+    text: 调用链中的方法返回值类型。
+inspection.default.annotation.param:
+    text: 默认注解形参值
+java.method.chains.inlay.provider.name:
+    text: 方法链
+label.method:
+    text: "方法 ''{0}''"
+library.choose.one.to.attach:
+    text: 选择要附加源代码的库
+notification.navigation.to.overriding.classes:
+    text: 索引更新时无法导航到重写类
+notification.navigation.to.overriding.methods:
+    text: 索引更新时无法导航到重写方法
+nullable.notnull.annotation.used.label:
+    text: '用于生成代码的注解:'
+nullable.notnull.annotations.panel.title:
+    text: '{0}注解:'
+nullable.notnull.annotations.runtime.instrumentation.tooltip:
+    text: 为非 null 注解的方法和形参添加运行时断言
+nullable.notnull.configuration.dialog.title:
+    text: 可以为 null/非 null 配置
+options.java.attribute.descriptor.instance.final.field:
+    text: 类字段//实例化final字段
+options.java.attribute.descriptor.lambda.parameter:
+    text: 形参//Lambda 形参
+project.roots.native.library.node.text:
+    text: 原生库位置
+quickfix.family.remove.redundant.parameter:
+    text: 删除冗余形参
+settings.inlay.java.annotations:
+    text: 注解
+settings.inlay.java.builder.like.methods:
+    text: 类似于构建器的方法
+settings.inlay.java.complex.expressions.binary.functional.array.access.and.other:
+    text: 复杂表达式作为实参
+settings.inlay.java.enum.constants:
+    text: 枚举常量
+settings.inlay.java.external.annotations:
+    text: 外部注解
+settings.inlay.java.inferred.annotations:
+    text: 推断注解
+settings.inlay.java.inheritors:
+    text: 继承者
+settings.inlay.java.methods.with.same.named.numbered.parameters:
+    text: 包含相同名称的编号形参的方法
+settings.inlay.java.new.expressions:
+    text: "'New' 表达式"
+settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
+    text: 在具有相同类型的多个形参的情况下的非文字
+settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:
+    text: 具有方法名称中包含的名称的形参
+settings.inlay.java.show.hints.for:
+    text: '显示以下项的提示:'
+settings.inlay.java.show.parameter.hints.for:
+    text: '为以下对象显示形参提示:'
+settings.inlay.java.show.parameter.hints.when.expression.type.is.clear.description:
+    text: 数组初始值设定项、switch、条件、引用、实例、赋值、调用、限定、类型转换、类对象访问表达式。
+settings.inlay.java.usages:
+    text: 用法

@@ -1,0 +1,92 @@
+action.column.name:
+    text: Acción
+actions.tree.external.tools.group:
+    text: Herramientas externas
+all.actions.group.title:
+    text: Todas las acciones
+ant.targets.group.title:
+    text: Objetivos de Ant
+based.on.keymap.label:
+    text: Basado en el mapa de teclas {0}
+commender.view.popup.menu.title:
+    text: Menú emergente de la vista del comandante
+configuration.all.keymaps.should.have.non.empty.names.error.message:
+    text: Todos los mapas de teclas deben tener nombres no vacíos
+configuration.all.keymaps.should.have.unique.names.error.message:
+    text: Todos los mapas de teclas deben tener nombres únicos
+conflict.shortcut.dialog.cancel.button:
+    text: Cancelar
+conflict.shortcut.dialog.message:
+    text: Este atajo ya está asignado a otras acciones. ¿Desea eliminar las otras asignaciones?
+conflict.shortcut.dialog.remove.button:
+    text: Eliminar
+conflict.shortcut.dialog.title:
+    text: Advertencia
+debugger.actions.group.title:
+    text: Acciones del depurador
+dialog.conflicts.text:
+    text: 'Ya asignado a:'
+dialog.mouse.pad.default.text:
+    text: '<html><center>Introduzca un atajo aquí: <br>clic simple o doble, desplace la rueda,<br> modifique con Ctrl, Alt y Shift'
+edit.shortcut.action.description:
+    text: Editar atajo
+edit.shortcut.action.text:
+    text: Editar acceso directo
+editor.actions.group.title:
+    text: Acciones del editor
+editor.popup.menu.title:
+    text: Menú emergente del editor
+editor.tab.popup.menu.title:
+    text: Menú emergente de la pestaña del editor
+filter.clear.action.text:
+    text: Limpiar filtrado
+filter.enable.second.stroke.checkbox:
+    text: Segunda pulsación
+filter.settings.popup.title:
+    text: Buscar atajo
+filter.shortcut.action.text:
+    text: Buscar acciones por atajo
+j2ee.view.popup.menu.title:
+    text: Menú emergente de la vista Java EE
+keyboard.shortcut.dialog.title:
+    text: Atajo de teclado
+keymap.display.name:
+    text: Mapa de teclas
+main.menu.action.title:
+    text: Menú principal
+main.toolbar.title:
+    text: Barra de herramientas principal
+mouse.click.shortcut.text:
+    text: '{0}{1,choice,1#Clic|2#Clic central|3#Clic derecho|4#Clic con el botón 4|5#Clic con el botón 5}'
+mouse.double.click.shortcut.text:
+    text: '{0}Doble clic{1,choice,1#|2# central|3# derecho|4# con el botón 4|5# con el botón 5}'
+mouse.shortcut.dialog.title:
+    text: Atajo de ratón
+new.indexed.keymap.name:
+    text: '{0} copia {1}'
+new.keymap.name:
+    text: '{0} copia'
+no.actions:
+    text: Sin acciones
+no.quick.lists:
+    text: No hay listas rápidas
+other.group.title:
+    text: Otros
+plugins.group.title:
+    text: Extensiones
+prefix.key.pressed.message:
+    text: Tecla de prefijo pulsada
+project.view.popup.menu.title:
+    text: Menú emergente de la vista del proyecto
+quick.list.panel.description.label:
+    text: 'Descripción:'
+quick.list.panel.display.name.label:
+    text: 'Nombre a mostrar:'
+quick.lists.group.title:
+    text: Listas rápidas
+shortcut.in.group.text:
+    text: en {0}
+shortcuts.column.name:
+    text: Atajos
+version.control.group.title:
+    text: Sistemas de control de versiones

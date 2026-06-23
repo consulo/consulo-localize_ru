@@ -1,0 +1,42 @@
+big.text.control.window.title:
+    text: 텍스트
+button.remove:
+    text: 제거(&R)
+errortree.prefix.line:
+    text: 줄 ({0})
+integer.field.value.expected:
+    text: 값이 필요합니다.
+integer.field.value.not.a.number:
+    text: "값 ''{0}''은(는) 정수가 아닙니다."
+integer.field.value.out.of.range:
+    text: "값 ''{0}''이(가) 범위 {1}..{2}를 벗어났습니다."
+message.files:
+    text: '{0,choice, 0#파일|1#파일|2#파일}'
+message.matches:
+    text: '{0,choice, 0#일치하는 항목|1#일치하는 항목|2#일치하는 항목}'
+popup.list.item.renderer.next.step.label.accessible.name:
+    text: 하위 메뉴
+search.popup.search.for.label:
+    text: '검색 대상:'
+tool.window.name.ant.build:
+    text: Ant 빌드
+tool.window.name.documentation:
+    text: 문서
+tool.window.name.favorites:
+    text: 즐겨찾기
+tool.window.name.preview:
+    text: 미리보기
+tool.window.name.project:
+    text: 프로젝트
+tool.window.name.run:
+    text: 실행
+tree.view.expand.all.action.name:
+    text: 모두 펼치기
+treenode.loading:
+    text: 로드 중…
+welcome.screen.disabled.plugins.description:
+    text: (사용 안함)
+welcome.screen.documentation.action.group.name:
+    text: 문서
+welcome.screen.plugins.panel.learn.more.tooltip.text:
+    text: 심화 학습...

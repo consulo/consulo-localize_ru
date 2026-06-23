@@ -1,0 +1,416 @@
+create.class.dialog.title:
+    text: Nueva clase de Objective-C
+generate.constructor.fields.chooser.title:
+    text: Seleccionar campos para inicializar mediante el constructor
+generate.getter.fields.chooser.title:
+    text: Seleccionar campos para generar getters
+generate.setter.fields.chooser.title:
+    text: Seleccionar campos para generar setters
+generate.to.string.chooser.title:
+    text: Seleccionar campos para usar en la función toString
+interface.function.declaration.should.have.no.body:
+    text: La declaración de funciones de interfaz no debe tener cuerpo
+interface.should.have.no.variable.declarations:
+    text: La interfaz no debe tener declaraciones de variables
+invalid.identifier.value:
+    text: Valor de identificador no válido
+javascript.argument.type.mismatch:
+    text: El tipo de argumento {1} no es asignable al tipo de parámetro {0}
+javascript.assigned.expression.type.mismatch:
+    text: El tipo de expresión asignado {1} no es asignable al tipo {0}
+javascript.badcharacter:
+    text: Carácter no válido
+javascript.blockcomment:
+    text: Comentario//Comentario de bloque
+javascript.braces:
+    text: Llaves y operadores // Llaves
+javascript.brackets:
+    text: Llaves y operadores//Corchetes
+javascript.comma:
+    text: Llaves y operadores//Coma
+javascript.create.class.intention.name:
+    text: "Crear clase ''{0}''"
+javascript.create.constant.field.intention.name:
+    text: "Crear campo constante ''{0}''"
+javascript.create.constant.intention.name:
+    text: "Crear constante ''{0}''"
+javascript.create.event.handler.intention.name:
+    text: "Crear controlador de eventos ''{0}''"
+javascript.create.function.intention.family:
+    text: Crear función o método JavaScript
+javascript.create.function.intention.name:
+    text: "Crear función ''{0}''"
+javascript.create.get.property.intention.name:
+    text: "Crear la propiedad ''get'' ''{0}''"
+javascript.create.interface.intention.name:
+    text: "Crear interfaz ''{0}''"
+javascript.create.method.intention.name:
+    text: "Crear método ''{0}''"
+javascript.create.property.intention.name:
+    text: "Crear propiedad ''{0}''"
+javascript.create.set.property.intention.name:
+    text: "Crear la propiedad ''set'' ''{0}''"
+javascript.create.variable.intention.family:
+    text: Crear variable o propiedad de JavaScript
+javascript.create.variable.intention.name:
+    text: "Crear variable ''{0}''"
+javascript.declare.variable.intention.name:
+    text: "Insertar declaración {0} para ''{1}''"
+javascript.deprecated.symbol.used.name.message:
+    text: 'Símbolo obsoleto en uso, consulte la documentación para obtener una alternativa mejor #loc'
+javascript.doccomment:
+    text: Comentario//Documentación//Texto
+javascript.doctag:
+    text: Comentario//Documentación//Etiqueta
+javascript.dot:
+    text: Llaves y operadores//Punto
+javascript.extract.method.title:
+    text: Extraer función
+javascript.fix.add.override.modifier:
+    text: Añadir modificador override
+javascript.fix.create.constructor.invoke.super:
+    text: Crear constructor que coincida con super
+javascript.fix.create.invoke.super:
+    text: Insertar invocación al constructor de la superclase
+javascript.fix.implement.methods:
+    text: Implementar métodos
+javascript.fix.optimize.imports:
+    text: Optimizar importaciones
+javascript.fix.package.name:
+    text: "Establecer el nombre del paquete como ''{0}''"
+javascript.fix.remove.access.modifier:
+    text: Eliminar modificador de acceso
+javascript.fix.remove.circular.dependency:
+    text: Eliminar la dependencia circular
+javascript.fix.remove.constructor:
+    text: Eliminar constructor
+javascript.fix.remove.externally.visible.symbol:
+    text: Eliminar símbolo visible externamente
+javascript.fix.remove.initializer:
+    text: Eliminar inicializador
+javascript.fix.remove.namespace.reference:
+    text: Eliminar referencia al espacio de nombres
+javascript.fix.remove.override.modifier:
+    text: Eliminar el modificador override
+javascript.fix.remove.parameter:
+    text: Eliminar parámetro
+javascript.fix.remove.type.reference:
+    text: Eliminar referencia de tipo
+javascript.global.function:
+    text: Identificador//Función global
+javascript.global.variable:
+    text: Identificador//Variable global
+javascript.incorrect.variable.type.mismatch:
+    text: El tipo de variable {1} no es asignable al tipo {0}
+javascript.initializer.type.mismatch:
+    text: El tipo de inicializador {1} no se puede asignar al tipo de variable {0}
+javascript.insert.cast.fix:
+    text: Insertar conversión de tipo
+javascript.instance.member.function:
+    text: Objeto//Método
+javascript.instance.member.variable:
+    text: Objeto//Propiedad
+javascript.interface.can.not.be.instantiated.message:
+    text: No se puede instanciar la interfaz
+javascript.introduce.constant.error.no.expression.selected:
+    text: |-
+        No se puede introducir la constante.
+        La selección no forma una expresión.
+javascript.introduce.constant.error.not.constant.expression.selected:
+    text: |-
+        No se puede introducir la constante.
+        La selección no es una expresión constante.
+javascript.introduce.constant.title:
+    text: Introducir constante
+javascript.introduce.field.error.no.expression.selected:
+    text: |-
+        No se puede introducir el campo.
+        La selección no constituye una expresión.
+javascript.introduce.field.title:
+    text: Introducir campo
+javascript.introduce.variable.error.no.expression.selected:
+    text: |-
+        No se puede introducir la variable.
+        La selección no forma una expresión.
+javascript.introduce.variable.invalid.name:
+    text: Introduzca un nombre válido.
+javascript.introduce.variable.name.prompt:
+    text: '&Nombre:'
+javascript.introduce.variable.replace.all.occurrences:
+    text: Reemplazar &todas las ocurrencias (se encontraron {0})
+javascript.introduce.variable.title:
+    text: Extraer variable
+javascript.invalid.number.of.parameters:
+    text: Número de argumentos no válido, se esperaba {0}
+javascript.invalid.string.escape:
+    text: Cadena//Secuencia de escape//No válida
+javascript.keyword:
+    text: palabra clave
+javascript.language.term.attribute.value:
+    text: Valor de atributo
+javascript.language.term.class:
+    text: clase
+javascript.language.term.function:
+    text: función
+javascript.language.term.label:
+    text: etiqueta
+javascript.language.term.namespace:
+    text: espacio de nombres
+javascript.language.term.package:
+    text: paquete
+javascript.language.term.parameter:
+    text: parámetro
+javascript.language.term.property:
+    text: propiedad
+javascript.language.term.tag:
+    text: etiqueta
+javascript.linecomment:
+    text: Comentario//Comentario de línea
+javascript.local.variable:
+    text: Identificador//Variable local
+javascript.metadata:
+    text: Metadatos
+javascript.number:
+    text: número
+javascript.operation:
+    text: Llaves y operadores
+javascript.parameter:
+    text: Identificador//parámetro
+javascript.parens:
+    text: Paréntesis y operadores
+javascript.parser.message.expected.colon:
+    text: 'se esperaba :'
+javascript.parser.message.expected.comma:
+    text: se esperaba ,
+javascript.parser.message.expected.comma.or.rparen:
+    text: Se esperaba , o )
+javascript.parser.message.expected.equal:
+    text: se esperaba =
+javascript.parser.message.expected.expression:
+    text: Se esperaba una expresión
+javascript.parser.message.expected.forloop.in.or.semicolon:
+    text: "se esperaba 'in' o ;"
+javascript.parser.message.expected.forloop.left.hand.side.expression.or.variable.declaration:
+    text: "Se esperaba una expresión en el lado izquierdo o una declaración de variable antes de 'in'"
+javascript.parser.message.expected.formal.parameter.name:
+    text: Se esperaba un nombre de parámetro formal
+javascript.parser.message.expected.function.name:
+    text: Se esperaba un nombre de función
+javascript.parser.message.expected.identifier:
+    text: Se esperaba un identificador
+javascript.parser.message.expected.identifier.string.literal.or.numeric.literal:
+    text: Se esperaba un identificador, un literal de cadena o un literal numérico
+javascript.parser.message.expected.instanceof:
+    text: "Se esperaba 'instanceof'"
+javascript.parser.message.expected.lparen:
+    text: Se esperaba (
+javascript.parser.message.expected.name:
+    text: Se esperaba un nombre
+javascript.parser.message.expected.namespace:
+    text: "Se esperaba 'namespace'"
+javascript.parser.message.expected.parameter.name:
+    text: Se esperaba un nombre de parámetro
+javascript.parser.message.expected.rbrace:
+    text: se esperaba }
+javascript.parser.message.expected.rbracket:
+    text: Se esperaba ]
+javascript.parser.message.expected.rparen:
+    text: se esperaba )
+javascript.parser.message.expected.semicolon:
+    text: se esperaba ;
+javascript.parser.message.expected.statement:
+    text: Se esperaba una sentencia
+javascript.parser.message.expected.string.literal:
+    text: Se esperaba un literal de cadena
+javascript.parser.message.expected.typename:
+    text: Se esperaba un nombre de tipo
+javascript.parser.message.expected.value:
+    text: Se esperaba un valor
+javascript.parser.message.expected.variable.name:
+    text: Se esperaba un nombre de variable
+javascript.parser.message.expected.while.keyword:
+    text: "Se espera 'while'"
+javascript.parser.message.expected.xml:
+    text: Se esperaba una palabra clave de contexto XML
+javascript.parser.message.expected.xml.element:
+    text: Se esperaba un elemento XML
+javascript.parser.message.missing.rbrace:
+    text: Falta }
+javascript.parser.message.unclosed.string.literal:
+    text: Literal de cadena no cerrado
+javascript.parser.message.unexpected.end.of.file:
+    text: Fin de archivo inesperado
+javascript.parser.property.expected:
+    text: Se esperaba una propiedad
+javascript.regexp:
+    text: Expresión regular
+javascript.returned.expression.type.mismatch:
+    text: El tipo de expresión devuelta {1} no se puede asignar al tipo {0}
+javascript.semicolon:
+    text: Llaves y operadores//Punto y coma
+javascript.static.member.function:
+    text: Clase // método estático
+javascript.static.member.variable:
+    text: clase//propiedad estática
+javascript.string:
+    text: Cadena//Texto de cadena
+javascript.surround.with.function:
+    text: función
+javascript.surround.with.function.expression:
+    text: expresión de función
+javascript.template.context.type:
+    text: JavaSc&ript
+javascript.term.does.not.evaluate.to.function:
+    text: La expresión del método no es de tipo función
+javascript.term.does.not.evaluate.to.function2:
+    text: La propiedad no se puede invocar como función
+javascript.term.does.not.evaluate.to.function2.fix:
+    text: Eliminar lista de argumentos
+javascript.undeclared.variable.name.message:
+    text: 'Variable {0} declarada implícitamente #loc'
+javascript.unresolved.function.name.message:
+    text: 'Función o método <code>{0}()</code> sin resolver #loc'
+javascript.unresolved.type.name.message:
+    text: 'Tipo no resuelto {0} #loc'
+javascript.unresolved.variable.name.message:
+    text: 'Variable no resuelta {0} #loc'
+javascript.unresolved.variable.or.type.name.message:
+    text: 'Variable o tipo {0} sin resolver #loc'
+javascript.unresolved.variable.or.type.name.message2:
+    text: Variable o tipo {0} sin resolver
+javascript.valid.string.escape:
+    text: cadena//secuencia de escape//válida
+javascript.validation.message.access.modifier.allowed.only.for.class.members:
+    text: Los modificadores de acceso solo están permitidos para miembros de clase
+javascript.validation.message.access.modifier.allowed.only.for.package.members:
+    text: Solo se permiten los modificadores public/internal para los miembros del paquete
+javascript.validation.message.arguments.with.rest.parameter:
+    text: "El objeto 'arguments' no está disponible cuando se utiliza el parámetro rest"
+javascript.validation.message.assignment.to.const:
+    text: Intento de asignación a una variable const o de solo lectura
+javascript.validation.message.break.without.target:
+    text: "No se puede determinar el objetivo para 'break'"
+javascript.validation.message.circular.dependency:
+    text: Dependencia circular
+javascript.validation.message.class.name.expected.here:
+    text: Se esperaba un nombre de clase aquí
+javascript.validation.message.class.should.be.in.file:
+    text: "La clase ''{0}'' debe definirse en el archivo ''{1}''"
+javascript.validation.message.constructor.in.mxml.is.not.allowed:
+    text: No se permiten constructores en las clases MXML
+javascript.validation.message.continue.without.target:
+    text: "No se puede determinar el destino de 'continue'"
+javascript.validation.message.duplicate.declaration:
+    text: Declaración duplicada
+javascript.validation.message.duplicate.label:
+    text: Etiqueta duplicada
+javascript.validation.message.file.should.be.under.source.root:
+    text: El objeto se encuentra en un archivo fuera de la raíz de código fuente; algunas funciones no están disponibles.
+javascript.validation.message.function.override.for.object.method:
+    text: El método heredado de Object no necesita ser sobrescrito
+javascript.validation.message.function.override.incompatible.access.modifier:
+    text: "Sobrescritura incompatible, debe tener el modificador de acceso ''{0}''"
+javascript.validation.message.function.override.incompatible.signature:
+    text: "Sobrescritura incompatible, debería tener la firma ''{0}''"
+javascript.validation.message.function.override.incompatible.signature2:
+    text: "Sobrescritura incompatible, debe tener el tipo de retorno ''{0}''"
+javascript.validation.message.function.override.without.override.modifier:
+    text: El método sobrescribe un método de la superclase {0} sin la palabra clave override
+javascript.validation.message.function.override.without.parent.method:
+    text: El método no sobrescribe el método de la superclase
+javascript.validation.message.function.should.be.in.file:
+    text: "La función ''{0}'' debe definirse en el archivo ''{1}''"
+javascript.validation.message.get.method.should.be.valid.type:
+    text: El tipo de retorno de una definición de getter no debería ser {0}
+javascript.validation.message.get.method.should.have.no.parameter:
+    text: Una definición de getter no debe tener parámetros
+javascript.validation.message.implements.for.interface.not.allowed:
+    text: No se permite una lista de implementaciones para una interfaz
+javascript.validation.message.incorrect.package.name:
+    text: "El nombre del paquete ''{0}'' no corresponde a la ruta del archivo ''{1}''"
+javascript.validation.message.interface.members.cannot.have.access.modifiers:
+    text: Los miembros de la interfaz no pueden tener modificadores de acceso
+javascript.validation.message.interface.method.invalid.access.modifier:
+    text: "Implementación incompatible, debe tener el modificador de acceso 'public'"
+javascript.validation.message.interface.method.invalid.signature:
+    text: "Implementación incompatible, debe tener la firma ''{0}''"
+javascript.validation.message.interface.method.invalid.signature2:
+    text: "Implementación incompatible, el tipo de retorno debe ser ''{0}''"
+javascript.validation.message.interface.method.not.implemented:
+    text: El método {0} de la interfaz {1} no está implementado
+javascript.validation.message.interface.name.expected.here:
+    text: Se esperaba un nombre de interfaz aquí
+javascript.validation.message.missed.super.constructor.call:
+    text: Falta la invocación del constructor de la superclase
+javascript.validation.message.more.than.one.externally.visible.symbol:
+    text: Hay más de un símbolo visible externamente definido en el archivo
+javascript.validation.message.must.be.lvalue:
+    text: Lado izquierdo no válido en {0}
+javascript.validation.message.namespace.allowed.only.for.class.members:
+    text: Los espacios de nombres solo se permiten para miembros de clase
+javascript.validation.message.namespace.should.be.in.file:
+    text: "El espacio de nombres ''{0}'' debe definirse en el archivo ''{1}''"
+javascript.validation.message.nested.classes.are.not.allowed:
+    text: No se permiten clases anidadas
+javascript.validation.message.package.shouldbe.first.statement:
+    text: La sentencia de paquete debe ser la primera del archivo.
+javascript.validation.message.parameter.is.not.allowed.after.rest.parameter:
+    text: No se permite ningún parámetro después del parámetro rest
+javascript.validation.message.parameter.should.be.initialized:
+    text: El parámetro debe ser inicializado
+javascript.validation.message.remove.unneeded.comma.fix:
+    text: Eliminar coma innecesaria
+javascript.validation.message.rest.parameter.should.not.be.initialized:
+    text: El parámetro rest no debe inicializarse
+javascript.validation.message.return.outside.function.definition:
+    text: "'return' fuera de la definición de la función"
+javascript.validation.message.return.value.of.type.is.required:
+    text: Se requiere un valor de retorno de tipo {0}
+javascript.validation.message.set.method.should.be.void.or.without.type:
+    text: El tipo de retorno de una definición de setter debe ser no especificado o void
+javascript.validation.message.set.method.should.have.one.parameter:
+    text: Una definición de setter debe tener exactamente un parámetro
+javascript.validation.message.super.referenced.from.static.context:
+    text: "'super' referenciado en un contexto estático"
+javascript.validation.message.super.referenced.without.class.instance.context:
+    text: "'super' referenciado sin un contexto de instancia de clase"
+javascript.validation.message.this.referenced.from.static.context:
+    text: "'this' referenciado en un contexto estático"
+javascript.validation.message.unexpected.type.for.rest.parameter:
+    text: El parámetro rest no debe tener tipo
+javascript.validation.message.unneeded.comma:
+    text: Coma innecesaria
+javascript.validation.message.use.namespace.reference.or.access.modifier:
+    text: Use el espacio de nombres O el modificador de acceso
+javascript.validation.message.variable.should.be.in.file:
+    text: "La variable ''{0}'' debe definirse en el archivo ''{1}''"
+javascript.validation.unused.import:
+    text: Importación no utilizada
+js.code.style.tab.name:
+    text: JavaScript
+js.deprecated.symbols.inspection.name:
+    text: Símbolo obsoleto utilizado
+js.inspection.group.name:
+    text: General
+js.undeclared.variable.inspection.name:
+    text: Variable global de JavaScript declarada implícitamente
+js.unresolved.variable.inspection.name:
+    text: Referencia no resuelta
+js.untyped.declaration.inspection.name:
+    text: Declaración sin tipo
+js.untyped.declaration.problem.addtype.fix:
+    text: Agregar tipo a la declaración
+js.untyped.function.problem:
+    text: 'La función {0} no tiene un tipo de retorno #loc'
+js.untyped.variable.problem:
+    text: 'La variable {0} no tiene tipo #loc'
+js.unused.local.symbol.inspection.name:
+    text: Símbolo local no utilizado
+js.unused.symbol.remove:
+    text: Eliminar {0} sin usar
+methods.to.implement.chooser.title:
+    text: Seleccionar métodos para implementar
+methods.to.override.chooser.title:
+    text: Seleccionar métodos para sobrescribir
+to.indent.package.statement.children:
+    text: Indentar elementos secundarios de la sentencia package(&I)

@@ -1,0 +1,42 @@
+abstract.class.not.allowed:
+    text: 抽像類別不允許
+add.attribute.fix.name:
+    text: 新增 "{0}" 屬性
+add.element.fix.name:
+    text: 新增 <{0}> 元素
+choose.file:
+    text: 關閉檔案
+class.decorator.or.has.default.constructor:
+    text: "''{0}''應該有預設的構造函數或執行''Decorator'' 模式"
+class.has.no.default.constructor:
+    text: "''{0}'' 沒有預設構造函數"
+class.is.not.a.subclass:
+    text: "''{0}'' 不能分配給 ''{1}''"
+class.is.not.concrete:
+    text: "''{0}'' 不是一個具體的類別"
+class.is.not.public:
+    text: "''{0}'' 是不公開的"
+create.new.element:
+    text: "新增 {0} ''{1}''"
+dom.usage.type:
+    text: 使用XML描述符
+enum.not.allowed:
+    text: 枚舉不允許
+error.cannot.convert.default.message:
+    text: "無效的值：''{0}''"
+error.unknown.enum.value.message:
+    text: "未知的枚舉值''{0}''"
+interface.not.allowed:
+    text: 介面不允許
+message.invalid.value.quotation:
+    text: "壞的參照 ''{0}''"
+remove.attribute.fix.name:
+    text: 移除 "{0}" 屬性
+remove.element.fix.name:
+    text: 移除 <{0}> 元素
+value.converter.format.exception:
+    text: "無法轉換字串''{0}''為目標類別''{1}''"
+value.converter.format.exception.empty.string:
+    text: "無法轉換到目標類別的空字串'' {0}''"
+value.should.be.integer:
+    text: 值應為整數

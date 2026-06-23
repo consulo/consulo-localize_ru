@@ -1,0 +1,96 @@
+action.EditorGutterToggleGlobalStickyLines.text:
+    text: 显示粘性行
+action.EditorStickyConfigure.text:
+    text: 配置粘性行…
+action.EditorStickyLinesDisable.text:
+    text: 禁用
+action.EditorStickyLinesDisableForLang.text:
+    text: 禁用语言
+action.copy.text:
+    text: 复制
+attempt.to.modify.read.only.document.error.message:
+    text: 试图修改只读文档
+checkbox.show.editor.preview.popup:
+    text: 在滚动条悬停时显示代码透镜
+close.editor.annotations.action.name:
+    text: 关闭注解
+customize.highlighting.level.menu.item:
+    text: 自定义高亮显示级别
+editing.read.only.file.hint:
+    text: 只读文档
+editing.viewer.hint:
+    text: 此视图为只读
+editor.annotations.action.group.name:
+    text: 注解
+editor.notification.default.action.name:
+    text: 通知操作
+editor.notification.settings.option.name:
+    text: 设置…
+editor.open.file.progress:
+    text: 正在打开 {0}
+errors.panel.go.to.errors.first.radio:
+    text: 转到高优先级问题
+errors.panel.go.to.next.error.warning.radio:
+    text: 所有问题
+file.not.found:
+    text: '找不到文件: {0}'
+forced.soft.wrap.dont.show.again.message:
+    text: 不要再显示
+forced.soft.wrap.hide.message:
+    text: 隐藏通知
+forced.soft.wrap.message:
+    text: 此文档包含很长的行。已启用自动换行来提高编辑器性能。
+group.EditorStickyLinesSettings.text:
+    text: 粘性行
+guarded.block.modification.attempt.error.message:
+    text: 无法执行操作，因为它会更改当前文档的只读片段
+guarded.block.modification.attempt.error.title:
+    text: 尝试修改受保护的块
+hector.highlighting.level.title:
+    text: 高亮显示级别
+hector.import.popup.checkbox:
+    text: 进口弹出(&P)
+hector.inspections.slider.label:
+    text: 检查
+hector.none.slider.label:
+    text: 无
+hector.syntax.slider.label:
+    text: 语法
+inlay.hints.declarative.disable.action.no.provider.text:
+    text: 禁用嵌入提示
+inlay.hints.declarative.disable.action.text:
+    text: "禁用 ''{0}'' 嵌入提示"
+inlay.hints.declarative.disable.option.action.text:
+    text: "为 ''{1}'' 嵌入提示禁用选项 ''{0}''"
+inlay.hints.declarative.enable.action.text:
+    text: "启用 ''{0}'' 嵌入提示"
+inlay.hints.declarative.enable.option.action.text:
+    text: "为 ''{1}'' 嵌入提示启用选项 ''{0}''"
+iw.compact.view:
+    text: 紧凑视图
+iw.disable.powersave:
+    text: 禁用省电模式
+iw.found.so.far.suffix:
+    text: 目前已发现
+iw.highlight.label:
+    text: '高亮显示:'
+iw.show.import.tooltip:
+    text: 显示自动导入工具提示
+move.caret.command.name:
+    text: 移动文本光标
+move.cursor.command.name:
+    text: 移动光标
+move.selection.command.name:
+    text: 移动所选
+paste.command.name:
+    text: 粘贴
+radio.editor.tab.arrow:
+    text: '> 符号'
+radio.editor.tab.horizontal.line:
+    text: 水平线
+radio.editor.tab.long.arrow:
+    text: 长箭头
+typing.command.name:
+    text: 输入
+typing.in.editor.command.name:
+    text: 输入

@@ -1,0 +1,46 @@
+inlay.hints.show.settings:
+    text: "Desactivar sugerencias para el método ''{0}''"
+settings.hints:
+    text: Sugerencias incrustadas
+settings.hints.group.annotations:
+    text: Anotaciones
+settings.hints.group.annotations.description:
+    text: Mostrar anotaciones que no están presentes en el código.
+settings.hints.group.code.author:
+    text: Autor del código
+settings.hints.group.code.author.description:
+    text: Muestra el autor del código según los registros del VCS.<br><br>El autor es quien editó por última vez la clase, el método o la función. Si hay varios commits de diferentes autores, se considera autor a quien posea la mayor cantidad de líneas.
+settings.hints.group.code.vision:
+    text: Visión de código
+settings.hints.group.lambdas.description:
+    text: Mostrar detalles implícitos en el ámbito de una lambda.
+settings.hints.group.method.chains:
+    text: Cadenas de métodos
+settings.hints.group.other:
+    text: Otros
+settings.hints.group.parameters:
+    text: Nombres de parámetros
+settings.hints.group.parameters.description:
+    text: Ayuda a pasar los argumentos correctos al mostrar los nombres de los parámetros en los puntos de llamada.
+settings.hints.group.types:
+    text: Tipos
+settings.hints.group.types.description:
+    text: Proporcionar información de tipo donde no sea explícita.
+settings.hints.group.url.path:
+    text: Ruta URL
+settings.hints.group.url.path.description:
+    text: Permite acceder rápidamente a acciones relacionadas con las URL; por ejemplo, probar un endpoint.
+settings.hints.group.values:
+    text: Valores
+settings.hints.group.values.description:
+    text: Identificar los lugares donde se utilizan valores especiales (por ejemplo, null).
+settings.hints.new.group.code.vision:
+    text: Visión de código
+settings.hints.new.group.code.vision.description:
+    text: 'Proporciona información derivada del análisis del proyecto: detalles de jerarquía, problemas y usos.'
+settings.inlay.hints.panel.name:
+    text: Sugerencias incrustadas
+settings.inlay.java.exclude.list:
+    text: Lista de exclusión…
+settings.inlay.parameter.hints.panel.name:
+    text: Sugerencias de parámetros

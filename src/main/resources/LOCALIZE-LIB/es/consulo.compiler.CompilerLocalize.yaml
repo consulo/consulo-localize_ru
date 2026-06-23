@@ -1,0 +1,190 @@
+action.compiler.properties.text:
+    text: Propiedades del compilador
+action.description.package.file:
+    text: Actualizar el archivo en los artefactos correspondientes
+action.make.selected.modules.text:
+    text: Compilar los módulos seleccionados(_M)
+action.name.exclude.from.validation:
+    text: Excluir de la validación
+action.name.package.file:
+    text: Empaquetar archivo
+action.name.package.files:
+    text: Empaquetar archivos
+actions.exclude.from.compile.text:
+    text: Excluir de la compilación
+artifact.type.plain:
+    text: Otro
+artifacts.menu.item.all:
+    text: Todos los artefactos
+artifacts.menu.item.build:
+    text: Compilar
+artifacts.menu.item.clean:
+    text: Limpiar
+artifacts.menu.item.edit:
+    text: Editar…
+artifacts.menu.item.rebuild:
+    text: Reconstruir
+bad.resource.patterns.dialog.title:
+    text: Patrones de recursos con formato incorrecto
+build.artifacts.before.run.description.empty:
+    text: Generar artefactos
+build.artifacts.before.run.description.multiple:
+    text: Compilar {0} artefactos
+build.artifacts.before.run.description.single:
+    text: "Compilar el artefacto ''{0}''"
+build.artifacts.before.run.selector.title:
+    text: Seleccionar artefactos
+chooser.description.select.output.directory.for.0.artifact:
+    text: "Seleccione el directorio de salida para el artefacto ''{0}''"
+classes.up.to.date.check:
+    text: Comprobación de clases actualizadas
+compiler.configurable.display.name:
+    text: Compilador
+compiler.content.name.make:
+    text: Compilación
+compiler.error.failed.to.delete:
+    text: Error al eliminar {0}
+compiler.results.export.text.prefix:
+    text: línea ({0})
+compiler.running.dialog.title:
+    text: Compilador en ejecución
+dialog.message.output.dir.artifact:
+    text: "artefacto ''{0}'' (''{1}'')"
+dialog.message.output.dir.contains.source.roots:
+    text: "El directorio de salida ''{0}'' del artefacto ''{1}'' contiene raíces de código fuente del proyecto. ¿Desea continuar y limpiarlo?"
+dialog.message.output.dirs.contain.source.roots:
+    text: |-
+        Los directorios de salida de los siguientes artefactos contienen raíces de código fuente:
+        {0}¿Desea continuar y limpiar estos directorios?
+dialog.title.choose.artifacts:
+    text: Seleccionar artefactos
+dialog.title.output.directory.for.artifact:
+    text: Directorio de salida para el artefacto
+element.type.name.artifact:
+    text: Artefacto
+element.type.name.directory:
+    text: Directorio
+element.type.name.library.files:
+    text: Archivos de biblioteca
+element.type.name.module.output:
+    text: Salida del módulo
+element.type.name.module.test.output:
+    text: Salida de prueba de módulo
+error.bad.resource.patterns:
+    text: Los siguientes patrones de recursos tienen un formato incorrecto:{0}
+error.chunk.modules.must.have.same.jdk:
+    text: |-
+        Los siguientes módulos deben tener asignado el mismo JDK debido a las dependencias cíclicas entre ellos:
+        {0}
+        Por favor, actualice la configuración de los módulos.
+error.chunk.modules.must.have.same.language.level:
+    text: |-
+        Los siguientes módulos deben tener asignado el mismo nivel de lenguaje debido a dependencias cíclicas entre ellos:
+        {0}
+        Actualice la configuración de los módulos
+error.compiler.configurable.malformed.patterns:
+    text: |-
+        Los siguientes patrones de recursos tienen un formato incorrecto:
+        {0}
+error.javac.out.of.memory:
+    text: Memoria insuficiente. Aumente el tamaño máximo del heap en Propiedades del proyecto|Configuración del compilador.
+error.output.not.specified:
+    text: |-
+        No se ha especificado la ruta de salida para {0,choice, 1#el módulo|2#los módulos
+        } {1}
+exclude.from.compile.table.path.column.name:
+    text: Ruta
+exclude.from.compile.table.recursively.column.name:
+    text: Recursivamente
+java.compiler.description:
+    text: Compilador de Java
+java.compiler.option.additional.command.line.parameters:
+    text: 'Parámetros de línea de comandos adicionales:'
+java.compiler.option.generate.debugging.info:
+    text: Generar información de depuración
+java.compiler.option.generate.no.warnings:
+    text: No generar advertencias
+java.compiler.option.report.deprecated:
+    text: Informar sobre el uso de funciones obsoletas
+javac.options.group.title:
+    text: Opciones de Javac
+label.option.autoshow.first.error:
+    text: Mostrar automáticamente el primer &error en el editor
+label.option.clear.output.directory.on.rebuild:
+    text: '&Limpiar el directorio de salida al reconstruir'
+label.option.resource.patterns.text:
+    text: 'Patrones de recursos:'
+label.text.class.path:
+    text: 'Ruta de clases (&P):'
+label.text.main.class:
+    text: 'Clase principal (&M):'
+mesage.text.deployment.descriptor.file.not.exist:
+    text: "El archivo de descriptor de despliegue ''{0}'' no existe"
+message.category.information:
+    text: INFORMACIÓN
+message.category.statistics:
+    text: ESTADÍSTICAS
+message.category.warning:
+    text: ADVERTENCIA
+message.resource.patterns.format.changed:
+    text: "El formato de los patrones de recursos ha cambiado.\n{0} no pudo convertir los patrones de expresión regular existentes:\n{1}\nIntroduzca la cadena de patrón en un nuevo formato.\nCada patrón de recurso puede contener los siguientes comodines:\n? - un carácter\n* - cero o más caracteres\n! - negar el patrón (permitido solo al principio del patrón)\nUse ; (punto y coma) para separar los patrones de recursos;\nEscape el carácter \"!\" con una barra invertida (\"\").\nEs posible que también deba modificar la configuración de la plantilla del proyecto.\nPulse ''{2}'' para aceptar los patrones introducidos, ''{3}'' para cargar los patrones predeterminados en el nuevo formato."
+message.text.deployment.description.invalid.file:
+    text: Archivo no válido
+message.text.error.copying.file.to.file:
+    text: "Error al copiar ''{0}'' a ''{1}''."
+message.text.xml.file.invalid:
+    text: "El archivo XML ''{0}'' no es válido"
+no.excludes:
+    text: Sin exclusiones
+no.validators:
+    text: No hay validadores disponibles
+node.text.0.directory.content:
+    text: "Contenido del directorio ''{0}''"
+option.use.compiler.text:
+    text: 'Usar compilador:'
+packaging.element.text.output.root:
+    text: <raíz de salida>
+pattern.conversion.dialog.title:
+    text: Conversión de patrones
+popup.title.chosen.artifact.action:
+    text: Acción{0,choice,0# para {0} artefactos|1#|2# para {0} artefactos}
+progress.compiling.class:
+    text: Compilando {0}…
+progress.executing.postcompile.tasks:
+    text: Ejecutando tareas de poscompilación…
+progress.executing.precompile.tasks:
+    text: Ejecutando tareas de precompilación…
+progress.loading.classes:
+    text: Cargando clases…
+progress.parsing.file:
+    text: Analizando {0}…
+progress.updating.caches:
+    text: Actualizando cachés…
+rebuild.lvcs.label.no.errors:
+    text: "''{0}'' sin errores"
+rebuild.lvcs.label.with.errors:
+    text: "''{0}'' con errores"
+rmi.compiler.description:
+    text: Compilador RMI
+rmic.option.enable.rmi.stubs:
+    text: Habilitar la generación de stubs RMI
+rmic.option.generate.iiop.stubs:
+    text: Generar stubs IIOP
+status.all.up.to.date:
+    text: Todos los archivos están actualizados
+status.compilation.aborted:
+    text: Compilación abortada
+status.compilation.completed.successfully:
+    text: Compilación completada con éxito en {0}
+status.compilation.completed.successfully.with.warnings:
+    text: Compilación completada con éxito con {0} {0,choice, 0#advertencias|1#advertencia|2#advertencias} en {1}
+status.compilation.completed.successfully.with.warnings.and.errors:
+    text: Compilación completada con {0} {0,choice, 0#errores|1#error|2#errores} y {1} {1,choice, 0#advertencias|1#advertencia|2#advertencias} en {2}
+status.text.file.has.been.packaged:
+    text: '{0, choice, 1#El archivo|2#Los archivos} {1} {0, choice, 1#se ha|2#se han} empaquetado en {2}.'
+validation.display.name:
+    text: Validación
+warning.compiler.running.on.toolwindow.close:
+    text: El compilador se está ejecutando. ¿Desea finalizarlo?
+warning.text.file.has.been.changed:
+    text: El archivo ha cambiado durante la compilación, se ha omitido la validación de inspección

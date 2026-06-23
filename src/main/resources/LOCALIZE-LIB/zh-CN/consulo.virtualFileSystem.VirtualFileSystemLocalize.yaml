@@ -1,0 +1,82 @@
+cannot.create.local.file:
+    text: '无法创建本地文件: {0}。'
+cannot.delete.root.directory:
+    text: "无法删除根目录''{0}''。"
+cannot.load.remote.file:
+    text: "无法加载 ''{0}'': {1}"
+cannot.rename.root.directory:
+    text: "无法重命名根目录''{0}''。"
+delete.failed.error:
+    text: "无法删除 ''{0}''。"
+dialog.title.clear.read.only.file.status:
+    text: 清除只读状态
+dir.already.exists.error:
+    text: "目录 ''{0}'' 已存在。"
+directory.create.wrong.parent.error:
+    text: 不是目录。无法在其中创建新目录。
+directory.invalid.name.error:
+    text: "目录名无效: ''{0}''。"
+download.progress.connecting:
+    text: "正在连接到 ''{0}''…"
+download.progress.downloading:
+    text: "正在下载''{0}''…"
+file.already.exists.error:
+    text: "文件 ''{0}'' 已存在。"
+file.copy.error:
+    text: 无法复制文件到{0}。
+file.copy.target.must.be.directory:
+    text: 无法复制，目标必须为目录。
+file.create.already.exists.error:
+    text: 无法创建文件 {0}/{1}。文件已存在。
+file.create.wrong.parent.error:
+    text: 不是目录。无法在其中创建新文件。
+file.delete.root.error:
+    text: 无法删除根文件{0}。
+file.invalid.name.error:
+    text: "文件名: ''{0}''。"
+file.move.error:
+    text: 无法移动文件到{0}。
+file.not.exist.error:
+    text: "''{0}'' 不存在"
+file.read.error:
+    text: 无法从文件{0}读取。
+file.synchronize.progress:
+    text: 同步文件…
+file.write.error:
+    text: 无法写入文件{0}。
+handle.ro.file.status.failed:
+    text: <html>无法更改以下文件的只读状态:<br>{0}</html>
+handle.ro.file.status.type.using.file.system:
+    text: 使用文件系统
+invalid.directory.create.files:
+    text: 无效目录。无法创建文件。
+jar.copy.error.message:
+    text: "无法复制 ''{0}'' 到 ''{1}''.\n原因： {2}."
+jar.copy.error.title:
+    text: 复制文件时出错
+jar.copy.progress:
+    text: 复制中{0}...
+jar.modification.not.supported.error:
+    text: 不能修改jar或zip文件{0}。
+move.failed.error:
+    text: "无法移动''{0}''到''{1}''。"
+new.directory.failed.error:
+    text: "无法创建目录''{0}''。"
+new.file.failed.error:
+    text: "无法创建文件''{0}''。"
+rename.failed.error:
+    text: "无法将 ''{0}'' 重命名为 ''{1}''"
+target.already.exists.error:
+    text: "''{0}'' 已存在"
+target.not.directory.error:
+    text: "''{0}'' 不是目录"
+url.parse.error:
+    text: 无法解析URL {0}
+url.parse.unhandled.exception:
+    text: 无法解析 URL，抛出未处理的异常
+vfs.file.not.exist.error:
+    text: "''{0}'' 在 VFS 中不存在"
+vfs.target.already.exists.error:
+    text: "''{0}'' 在 VFS 中已存在"
+vfs.target.not.directory.error:
+    text: "''{0}'' 不是 VFS 中的目录"

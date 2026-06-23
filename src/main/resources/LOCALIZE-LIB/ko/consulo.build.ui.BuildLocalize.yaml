@@ -1,0 +1,18 @@
+build.event.message.successful:
+    text: 성공
+build.event.message.syncing:
+    text: 동기화 중…
+build.messages.cancelled:
+    text: '{0} 취소됨'
+build.messages.failed:
+    text: '{0} 실패함'
+build.messages.finished:
+    text: '{0} 완료됨'
+build.status.cancelled:
+    text: 취소됨
+build.status.failed:
+    text: 실패함
+build.status.finished:
+    text: 완료됨
+build.status.running:
+    text: 실행 중…

@@ -1,0 +1,969 @@
+action.add.field.watchpoint.text:
+    text: 新增欄位觀察點
+action.auto.variables.mode:
+    text: 自動變數模式
+action.auto.variables.mode.description:
+    text: 只顯示在執行點附近使用的變數
+action.disable.text:
+    text: 禁用
+action.enable.text:
+    text: 啟用
+action.evaluate.expression.dialog.switch.mode.description:
+    text: 代碼片段模式(&M)
+action.evaluate.statement.dialog.switch.mode.description:
+    text: 運算式模式(&M)
+action.interrupt.thread.text:
+    text: 中斷
+action.kill.process.description:
+    text: 強行終止診斷套用
+action.kill.process.text:
+    text: 殺死進程
+action.remove.text:
+    text: 移除
+action.resume.thread.text.resume:
+    text: 繼續
+action.resume.thread.text.unfreeze:
+    text: 解凍
+action.show.watches.description:
+    text: "顯示或隱藏 '觀察點' 面板"
+action.show.watches.text.hide:
+    text: 隱藏觀察點
+action.show.watches.text.show:
+    text: 顯示觀察點
+action.watch.method.return.value.description:
+    text: 允許觀察最後執行的方法返回值
+action.watches.method.return.value.disable:
+    text: 停止觀察方法返回值
+action.watches.method.return.value.enable:
+    text: 顯示方法返回值
+action.watches.method.return.value.unavailable.reason:
+    text: 目標 VM 不支援功能
+active.tooltip.suggestion:
+    text: 點擊這裡檢視物件樹
+active.tooltip.title:
+    text: 計算 {0}
+add.exception.breakpoint.classchooser.title:
+    text: 輸入異常類別
+add.field.breakpoint.dialog.classchooser.title:
+    text: 選取欄位的類別
+add.field.breakpoint.dialog.field.chooser.title:
+    text: '{0,choice, 0#類別沒有欄位|1#選取欄位}'
+add.field.breakpoint.dialog.title:
+    text: 新增欄位觀察點
+add.instance.filter.dialog.error.numeric.value.expected:
+    text: "實例 ID 應該是 'long' 類型的數值"
+add.instance.filter.dialog.prompt:
+    text: '輸入實例 ID:'
+add.instance.filter.dialog.title:
+    text: 新增實例過濾器
+async.stacktraces.configurable.display.name:
+    text: 異步堆疊追蹤
+breakpoint.any.exception.display.name:
+    text: 任何異常
+breakpoint.log.message:
+    text: '"到達 {0}"'
+breakpoint.manager.action.view.breakpoints.text:
+    text: 檢視斷點
+breakpoint.properties.panel.option.catch.class.filters:
+    text: 捕捉類別過濾器：
+breakpoint.properties.panel.option.class.filters:
+    text: 類別過濾器:(&l)
+breakpoint.properties.panel.option.condition:
+    text: 條件:(&n)
+breakpoint.properties.panel.option.dependency.type.lable:
+    text: 斷點被命中後：
+breakpoint.properties.panel.option.depends.disable.again:
+    text: 再次禁用
+breakpoint.properties.panel.option.depends.leave.enabled:
+    text: 繼續啟用
+breakpoint.properties.panel.option.depends.on:
+    text: '依賴於:'
+breakpoint.properties.panel.option.instance.filters:
+    text: 實例過濾器:(&I)
+breakpoint.properties.panel.option.log.expression:
+    text: 日誌計算運算式(&e)
+breakpoint.properties.panel.option.log.message:
+    text: 輸出日誌訊息到主控台(&m)
+breakpoint.properties.panel.option.pass.count:
+    text: 透過數：(&P)
+breakpoint.properties.panel.option.suspend.all:
+    text: 全部
+breakpoint.properties.panel.option.suspend.default:
+    text: 使預設(&f)
+breakpoint.properties.panel.option.suspend.none:
+    text: 沒有
+breakpoint.properties.panel.option.suspend.thread:
+    text: 執行緒
+breakpoint.property.name.class.filters:
+    text: '類別過濾器:'
+breakpoint.property.name.condition:
+    text: 條件
+breakpoint.property.name.instance.filters:
+    text: '實例過濾器:'
+breakpoint.property.name.log.expression:
+    text: 日誌運算式
+breakpoint.property.name.log.message:
+    text: 日誌訊息
+breakpoint.property.name.pass.count:
+    text: 透過數
+breakpoint.property.name.suspend.policy:
+    text: 暫停
+breakpoint.table.header.column.enabled:
+    text: 啟用
+breakpoint.table.header.column.name:
+    text: 名稱
+breakpoint.tooltip.text:
+    text: 斷點在行 {0}
+breakpoint.warning:
+    text: '警告 : {0}'
+button.add:
+    text: 新增
+button.close.no.mnemonic:
+    text: 關閉
+button.copy:
+    text: 複製
+button.debugger.settings:
+    text: 診斷器設定...
+button.drop.anyway:
+    text: 不執行
+button.evaluate:
+    text: 計算(&v)
+button.execute.finally:
+    text: 執行 finally 區塊
+button.flatten.packages:
+    text: 拼合包(&F)
+button.group.by.classes:
+    text: 用類別群組(&a)
+button.group.by.methods:
+    text: 用方法群組(&t)
+button.list.view:
+    text: 清單檢視
+button.move.down:
+    text: 下移(&D)
+button.move.up:
+    text: 上移(&U)
+button.remove:
+    text: 刪除(&R)
+button.save:
+    text: 儲存
+button.switch.view:
+    text: 切換檢視(&w)
+button.tree.view:
+    text: 樹檢視
+class.filters.dialog.exclusion.filters.group:
+    text: 類別排除過濾器
+class.filters.dialog.inclusion.filters.group:
+    text: 類別過濾器
+class.filters.dialog.title:
+    text: 類別過濾器
+debugger.jdi.bootstrap.error:
+    text: '{0}。檢查你的 JDK 安裝。'
+debugger.runner.start.action.text:
+    text: 診斷
+debugger.session.tab.log.content.name:
+    text: '日誌: {0}'
+debugger.session.tab.threads.title:
+    text: 主題
+debugger.session.tab.watches.title.with.size:
+    text: 觀察清單（{0}）
+drop.frame.error.no.information:
+    text: 關於幀的訊息不可用
+editor.notification.alternative.source:
+    text: 類別 {0} 可用的備選的源碼
+error.absent.exception.breakpoint.class.name:
+    text: 沒有異常斷點的類別名
+error.array.renderer.configurable.end.index.less.than.start:
+    text: 結束索引小於開始索引
+error.array.renderer.configurable.start.index.less.than.zero:
+    text: 開始索引小於0
+error.breakpoint.file.not.found:
+    text: "檔案 ''{0}'' 未找到;該檔案的斷點將被忽略"
+error.cannot.build.node.children.object.collected:
+    text: 不能求子節點的值，物件已被回收。{0}
+error.cannot.create.expression.from.code.fragment:
+    text: 不能從代碼片段中建立運算式。
+error.cannot.create.void.value:
+    text: 不能建立空的值
+error.cannot.invoke.method.in.collected.thread:
+    text: 不能調用方法:調用執行緒已被回收
+error.cannot.load.breakpoint.file:
+    text: "無法載入檔案 ''{0}'';該檔案的斷點將被忽略"
+error.cannot.open.debugger.port:
+    text: 無法開啟診斷器通訊埠
+error.class.circularity.error:
+    text: '類別循環錯誤: {0}'
+error.class.def.not.found:
+    text: 找不到類別定義：{0}
+error.class.format.error:
+    text: '類別格式錯誤: {0}'
+error.class.not.loaded:
+    text: 類別未載入：{0}
+error.context.has.changed:
+    text: 環境已經改變，操作是不可能的
+error.corrupt.debug.info:
+    text: 診斷訊息可能已損壞：{0}
+error.debug.connector.not.found:
+    text: "無法使用傳輸 ''{0}'' 連接：未找到所需的連接器。檢查你的 JDK 安裝。"
+error.debug.libraries.missing:
+    text: JDK 主目錄缺少診斷庫.n 為了啟動診斷器，應該安裝庫.n 請拜訪 http://java.sun.com/products/jpda
+error.debugger.already.listening:
+    text: 診斷器已經在監聽
+error.early.return:
+    text: 提前返回時錯誤：{0}
+error.evaluating.breakpoint.condition.or.action:
+    text: "處理虛擬機事件中的問題:\n斷點:''{0}'' 錯誤: {1}\n你想在斷點處停止嗎?"
+error.exception.while.connecting:
+    text: |-
+        連接到遠端進程的錯誤。
+        異常發生: {0}
+        異常訊息: {1}
+error.exception.while.reloading:
+    text: '當重新載入類別時異常: {0} : {1}'
+error.executing.finally:
+    text: 執行 finally 區塊時錯誤：{0}
+error.failed.evaluating.breakpoint.condition:
+    text: "無法剖析斷點條件 ''{0}'' 原因: {1}"
+error.field.breakpoint.class.name.not.specified:
+    text: 無法新增觀察點：未指定類別名
+error.field.breakpoint.class.sources.not.found:
+    text: "無法為 ''{0}.{1}'' 建立欄位觀察點。\n沒有類別 ''{2}'' 的源碼"
+error.field.breakpoint.field.name.not.specified:
+    text: 無法新增監視點：未指定欄位名
+error.field.breakpoint.field.not.found:
+    text: "無法為 ''{0}.{1}'' 建立欄位觀察點。\n未找到欄位 ''{2}''"
+error.field.not.found.in.class:
+    text: '{1}中沒有此類欄位{0}'
+error.inconsistent.debug.info:
+    text: 不相同的診斷訊息
+error.invalid.argument:
+    text: '{0,choice, 1#無效參數|2#無效參數}'
+error.invalid.breakpoint.bad.line.number:
+    text: 行號無效
+error.invalid.breakpoint.method.not.found:
+    text: 類別 {0} 中沒有找到方法
+error.invalid.breakpoint.missing.field.in.class:
+    text: "不能找到欄位 ''{0}'' 在類別 ''{1}'' 中"
+error.invalid.breakpoint.no.executable.code:
+    text: 在類別 {1} 的 {0} 行沒有找到可執行代碼
+error.invalid.breakpoint.no.line.info:
+    text: 行號訊息在類別 {0} 中不可用
+error.invalid.breakpoint.source.changed:
+    text: 來源檔案已變更或找到的來源檔案與斷點的檔案不對應
+error.invalid.breakpoint.source.not.found:
+    text: 在項目類別路徑中找到的類別 {0}，沒有相關的來源檔案
+error.invalid.field.name:
+    text: "無效欄位名 ''{0}''"
+error.invalid.jdk.home:
+    text: 指定的 JDK 主目錄無效。{0}
+error.invalid.local.variable.name:
+    text: "無效的局部變數名 ''{0}''"
+error.invalid.stackframe:
+    text: 內部異常 - 無效的堆疊楨
+error.invalid.type.name:
+    text: "無效的類別名 ''{0}''"
+error.io.error:
+    text: I/O 錯誤
+error.jdk.not.specified:
+    text: JDK未指定
+error.modification.watchpoints.not.supported:
+    text: 目標 VM 不支援修改觀察點
+error.native.method.exception:
+    text: 沒有透過和包含任何幀，幀可能都不是本機的
+error.no.debug.attach.port:
+    text: 未指定附加通訊埠
+error.no.debug.listen.port:
+    text: 未指定監聽通訊埠
+error.no.shmem.address:
+    text: 未指定共用記憶體位址
+error.operation.canceled:
+    text: 操作取消
+error.operation.not.supported.by.vm:
+    text: VM 不支援的操作
+error.pop.bottom.stackframe:
+    text: 不能彈出底部楨
+error.pop.stackframe:
+    text: 彈出楨時發生錯誤：{0}
+error.running.to.cursor.no.executable.code:
+    text: 在 {0}:{1} 中沒有可執行代碼
+error.text.invalid.port:
+    text: 未指定通訊埠
+error.threads.export.dialog.file.already.exists:
+    text: "檔案 ''{0}'' 已經存在。你想覆寫它嗎？"
+error.threads.export.dialog.file.is.directory:
+    text: |-
+        指定的檔案是一個目錄。
+        請指定正確的檔案名。
+error.unable.to.evaluate.capture.expression:
+    text: 無法計算捕獲鍵運算式：{0}
+error.unable.to.evaluate.expression:
+    text: 不能計算運算式
+error.unable.to.evaluate.insert.expression:
+    text: 無法計算插入鍵運算式：{0}
+error.unknown.host:
+    text: 不能連接遠端進程，主機未知
+error.unsupported.class.version:
+    text: '不支援的類別版本 : {0}'
+error.unsupported.jdk.version:
+    text: JDK {0} 不支援診斷
+error.verification.error:
+    text: '驗證錯誤: {0}'
+error.vm.disconnected:
+    text: 虛擬機中斷。目標虛擬機關閉連接
+evaluate.expression.dialog.title:
+    text: 運算式計算
+evaluate.statement.dialog.title:
+    text: 代碼片段計算
+evaluation.error.anonymous.class.evaluation.not.supported:
+    text: 不支援匿名類別剖析
+evaluation.error.array.collected:
+    text: 陣列已經被回收
+evaluation.error.array.dimention.numeric.value.expected:
+    text: 陣列維度預期是數值
+evaluation.error.array.reference.expected:
+    text: 預期陣列參照
+evaluation.error.array.type.expected:
+    text: 預期陣列類型
+evaluation.error.boolean.condition.expected:
+    text: "運算式期望 ''boolean'' 值"
+evaluation.error.boolean.expected:
+    text: 預期布林值
+evaluation.error.boolean.value.expected.in.condition:
+    text: "運算式期望 'boolean' 值"
+evaluation.error.cannot.cast.boolean:
+    text: "無法將布林值轉換為 ''{0}''"
+evaluation.error.cannot.cast.char:
+    text: "無法將 char 值轉換為 ''{0}''"
+evaluation.error.cannot.cast.null:
+    text: "不能將 null 轉換為 ''{0}''"
+evaluation.error.cannot.cast.numeric:
+    text: "無法將數值轉換為 ''{0}'''"
+evaluation.error.cannot.cast.object:
+    text: "無法將 ''{0}'' 轉換為 ''{1}''"
+evaluation.error.cannot.evaluate.array.initializer:
+    text: 無法剖析陣列初始化器
+evaluation.error.cannot.evaluate.class.type:
+    text: 不能剖析類別類型
+evaluation.error.cannot.evaluate.qualifier:
+    text: "不能剖析限定符 ''{0}''"
+evaluation.error.cannot.evaluate.tostring:
+    text: 無法剖析 {0}.toString()
+evaluation.error.cannot.find.stackframe.source:
+    text: 找不到目前堆疊幀的源碼類別
+evaluation.error.cannot.initialize.array:
+    text: 無法初始化陣列
+evaluation.error.cannot.resolve.class:
+    text: "無法剖析類別 ''{0}''"
+evaluation.error.cannot.resolve.constructor:
+    text: "無漢剖析構造方法 ''{0}''"
+evaluation.error.cannot.resolve.field.class:
+    text: "不能剖析包含欄位 ''{0}'' 的類別"
+evaluation.error.cannot.sources.for.field.class:
+    text: "不能找到包含欄位 ''{0}'' 的類別的源"
+evaluation.error.class.not.loaded:
+    text: "類別 ''{0}'' 沒有載入"
+evaluation.error.class.or.array.expected:
+    text: "剖析欄位 ''{0}'' 時預期類別或陣列類型"
+evaluation.error.debug.info.unavailable:
+    text: 診斷訊息不可用
+evaluation.error.empty.code.fragment:
+    text: 期望代碼片段
+evaluation.error.evaluating.field:
+    text: "剖析欄位錯誤 :''{0}''"
+evaluation.error.evaluating.method:
+    text: "剖析方法錯誤 :''{0}''"
+evaluation.error.identifier.expected:
+    text: "預期識別碼，而不是 ''{0}''"
+evaluation.error.incompatible.array.initializer.type:
+    text: 初始化器類型與陣列的組件類型不相容
+evaluation.error.incompatible.types:
+    text: "''{0}'' 操作不相容的類型"
+evaluation.error.incompatible.variable.initializer.type:
+    text: "''{0}'' 的初始化器具有不相容的類型"
+evaluation.error.inconsistent.debug.info:
+    text: 診斷訊息不相同
+evaluation.error.integer.expected:
+    text: 預期整型值
+evaluation.error.invalid.array.dimension.expression:
+    text: '對於陣列維度: {0} 是無效的運算式'
+evaluation.error.invalid.array.size:
+    text: 無效的陣列大小
+evaluation.error.invalid.expression:
+    text: 無效運算式：{0}
+evaluation.error.invalid.index.expression:
+    text: 無效的索引運算式
+evaluation.error.invalid.this.expression:
+    text: "不能替代 ''{0}'' 到 ''{1}'' 作為 ''this''"
+evaluation.error.invalid.type.name:
+    text: "無效類別名：''{0}''"
+evaluation.error.lambda.evaluation.not.supported:
+    text: 不支援 Lambdas 剖析
+evaluation.error.lebeled.loops.not.found:
+    text: "沒有標籤為 ''{0}'' 的循環語句"
+evaluation.error.local.variable.declarations.not.supported:
+    text: 這裡不支援局部變數宣告。
+evaluation.error.local.variable.missing:
+    text: "無法找到局部變數 ''{0}''"
+evaluation.error.local.variable.missing.from.class.closure:
+    text: "局部變數 ''{0}'' 在類別閉包中沒有找到"
+evaluation.error.method.exception:
+    text: "方法拋出 ''{0}'' 異常。"
+evaluation.error.method.not.found:
+    text: "方法 ''{0}'' 未找到"
+evaluation.error.method.reference.evaluation.not.supported:
+    text: 不支援方法參照剖析
+evaluation.error.multi.dimensional.arrays.creation.not.supported:
+    text: 不支援建立多維陣列
+evaluation.error.nested.evaluation:
+    text: 在另一人方法的計算中，計算是不支援的
+evaluation.error.no.instance.field:
+    text: "沒有該實例欄位：''{0}''"
+evaluation.error.no.instance.method:
+    text: "沒有該實例方法:''{0}''"
+evaluation.error.no.stackframe:
+    text: 無法剖析：堆疊幀不可用
+evaluation.error.no.static.field:
+    text: "沒有該靜態欄位：''{0}''"
+evaluation.error.no.static.method:
+    text: "沒有該靜態方法:''{0}''"
+evaluation.error.not.lvalue:
+    text: 賦值的左邊部份不是一個值
+evaluation.error.not.rvalue:
+    text: 賦值的右邊部份不是一個值
+evaluation.error.numeric.expected:
+    text: 預期數字值
+evaluation.error.object.collected:
+    text: 物件已經被回收
+evaluation.error.object.reference.expected:
+    text: 預期物件參照
+evaluation.error.objref.expected:
+    text: 預期物件參照，而不是 {0}
+evaluation.error.operation.not.supported:
+    text: "操作 ''{0}'' 不支援"
+evaluation.error.process.exited:
+    text: 無法計算：進程已結束
+evaluation.error.qualifier.type.unknown:
+    text: "''{0}'' 的類型未知"
+evaluation.error.reference.type.expected:
+    text: 預期參照類型
+evaluation.error.sources.out.of.sync:
+    text: 源代碼不對應於正在執行的代碼
+evaluation.error.stack.frame.unavailable:
+    text: 堆疊幀不可用
+evaluation.error.statement.not.supported:
+    text: "語句 ''{0}'' 不支援"
+evaluation.error.surrounded.expression.null:
+    text: 包圍的運算式為空
+evaluation.error.this.not.avalilable:
+    text: "'this' 是不可用的"
+evaluation.error.thread.collected:
+    text: 執行緒已經被回收
+evaluation.error.thread.not.at.breakpoint:
+    text: 無法計算：執行緒在斷點處不被暫停
+evaluation.error.thread.resumed:
+    text: 執行緒已被恢復
+evaluation.error.type.mismatch:
+    text: 類型不符合
+evaluation.error.unknown.expression.operand:
+    text: 運算式運算元未知：{0}
+evaluation.error.unknown.expression.type:
+    text: 運算式類型未知：{0}
+evaluation.error.unknown.method.return.type:
+    text: '無法剖析方法返回類型: {0}'
+evaluation.error.unsupported.declaration:
+    text: 無效宣告:{0} 只支援局部變數宣告。
+evaluation.error.unsupported.expression.type:
+    text: 不支援的運算式類型
+evaluation.error.variable.already.declared:
+    text: "變數 ''{0}'' 已經宣告"
+evaluation.error.variable.not.declared:
+    text: "變數 ''{0}'' 沒有被宣告"
+exception.breakpoint.console.message:
+    text: "異常 ''{0}'' 發生在 {1}({2}:{3,number,#})"
+exception.breakpoint.console.message.location.info.absent:
+    text: 沒有診斷訊息
+exception.breakpoint.console.message.with.thread.info:
+    text: "異常 ''{0}'' 發生於執行緒 ''{1}'' 在 {2}({3}:{4,number,#})"
+exception.breakpoints.tab.title:
+    text: java 異常斷點
+export.dialog.copy.action.description:
+    text: 將文字複製到剪貼簿(&C)
+export.threads.stackframe.format:
+    text: 在 {0}({1}:{2,number,#})
+field.watchpoints.tab.title:
+    text: java 欄位觀察點
+frame.panel.frames.not.available:
+    text: 未暫停執行緒的楨不可用
+get.jpda.dialog.title:
+    text: 缺少 JPDA 庫
+hotswap.dialog.hang.question:
+    text: 你仍想重新載入修改過的類別嗎?
+hotswap.dialog.hang.warning:
+    text: |-
+        JVM 目前處於暫停狀態。
+        使用活動的第三方 JVM 代理重新載入類別可能導致 JVM 掛起。
+hotswap.dialog.run.prompt:
+    text: 有些類別已經改變了。現在重新載入改變的類別？
+hotswap.dialog.title:
+    text: 重新載入已變更的類別
+hotswap.dialog.title.with.session:
+    text: 重新載入改變的類別為 {0}
+instance.filters.dialog.instance.filters.group:
+    text: 實例過濾器
+instance.filters.dialog.title:
+    text: 實例過濾器
+internal.error.locations.of.line:
+    text: "從 ''{0}'' 載入診斷訊息發生內部錯誤。該類別將不能使用斷點。"
+label.add.field.breakpoint.dialog.field.name:
+    text: 欄位名：
+label.add.field.breakpoint.dialog.fq.name:
+    text: 類別的完全限定名：
+label.array.renderer.configurable.end.index:
+    text: 結束索引：(&d)
+label.array.renderer.configurable.max.count1:
+    text: 顯示最大值(&m)
+label.array.renderer.configurable.max.count2:
+    text: 陣列元素
+label.array.renderer.configurable.start.index:
+    text: 陣列開始索引：(&r)
+label.base.renderer.configurable.all.overriding:
+    text: "為重寫了 'toString()' 方法的所有類別"
+label.base.renderer.configurable.alternate.view:
+    text: 為集合類別啟用可選檢視(&e)
+label.base.renderer.configurable.autoscroll:
+    text: 自動捲動到新的局部變數(&l)
+label.base.renderer.configurable.classes.from.list:
+    text: '為來自清單的類別:'
+label.base.renderer.configurable.enable.toString:
+    text: "啟用 'toString()' 物件檢視:(&o)"
+label.base.renderer.configurable.hide.null.array.elements:
+    text: 隱藏空陣列元素(&n)
+label.base.renderer.configurable.show.declared.type:
+    text: 宣告類型(&t)
+label.base.renderer.configurable.show.fq.names:
+    text: 完全限定名(&q)
+label.base.renderer.configurable.show.hex.value:
+    text: 為原值顯示十六進位值
+label.base.renderer.configurable.show.object.id:
+    text: 物件 id(&i)
+label.base.renderer.configurable.show.static.fields:
+    text: 靜態欄位(&S)
+label.base.renderer.configurable.show.static.final.fields:
+    text: 靜態 final 欄位(&f)
+label.base.renderer.configurable.show.strings.type:
+    text: 顯示字串的類型
+label.base.renderer.configurable.show.synthetic.fields:
+    text: Synthetic 欄位(&y)
+label.base.renderer.configurable.show.val.fields.as.locals:
+    text: $val 欄位為本機變數(&v)
+label.base.renderer.configurable.sort.alphabetically:
+    text: 按字母順序排序(&l)
+label.breakpoint.properties.panel.group.actions:
+    text: 操作
+label.breakpoint.properties.panel.group.conditions:
+    text: 過濾器
+label.breakpoint.properties.panel.group.suspend.policy:
+    text: 暫停政策
+label.capture.configurable.capture.variables:
+    text: 捕獲局部變數(可能會大大減慢執行速度)
+label.class.label.expression.configurable.node.label:
+    text: 節點標籤運算式
+label.complete.input.dialog.expression:
+    text: 輸入運算式
+label.compound.renderer.configurable.append.default.children:
+    text: 新增預設 children
+label.compound.renderer.configurable.apply.to:
+    text: '將渲染器套用到類型的物件(完全限定名):'
+label.compound.renderer.configurable.show.type:
+    text: 顯示類型和物件 id
+label.compound.renderer.configurable.table.header.expression:
+    text: 運算式
+label.compound.renderer.configurable.table.header.name:
+    text: 名稱
+label.compound.renderer.configurable.test.can.expand:
+    text: '測試一個節點是否可以擴充(可選):'
+label.compound.renderer.configurable.use.default.renderer:
+    text: 使用預設的渲染器
+label.compound.renderer.configurable.use.expression:
+    text: 使用下清單達式：
+label.compound.renderer.configurable.use.expression.list:
+    text: 使用運算式清單：
+label.compound.renderer.configurable.when.expanding:
+    text: 當擴充一個節點的時候
+label.compound.renderer.configurable.when.rendering:
+    text: 當渲染一個節點的時候
+label.debugger.general.configurable.evaluate.finally.always:
+    text: 總是(&A)
+label.debugger.general.configurable.evaluate.finally.ask:
+    text: 詢問(&k)
+label.debugger.general.configurable.evaluate.finally.never:
+    text: 從不(&e)
+label.debugger.general.configurable.evaluate.finally.on.pop:
+    text: 在彈出楨和提前返回時剖析 finally 區塊：
+label.debugger.general.configurable.kill.immediately:
+    text: 立即停止診斷過程
+label.debugger.general.configurable.resume.only.current.thread:
+    text: 僅恢復目前執行緒
+label.debugger.general.configurable.show.alternative.source:
+    text: 顯示可選資源切換器
+label.debugger.general.configurable.skip.classLoaders:
+    text: 跳過類別載入器(&o)
+label.debugger.general.configurable.skip.constructors:
+    text: 跳過構造器(&c)
+label.debugger.general.configurable.skip.simple.getters:
+    text: 跳過簡單 getter 方法(&g)
+label.debugger.general.configurable.skip.synthetic.methods:
+    text: 跳過 synthetic 方法(&p)
+label.debugger.general.configurable.step.filters.list.header:
+    text: 不步入類別(&i)
+label.debugger.hotswap.configurable.always:
+    text: 總是(&A)
+label.debugger.hotswap.configurable.ask:
+    text: 詢問(&k)
+label.debugger.hotswap.configurable.compile.before.hotswap:
+    text: 在重新載入類別之前構建項目
+label.debugger.hotswap.configurable.enable.vm.hang.warning:
+    text: "啟用 'JVM 將掛起' 警告"
+label.debugger.hotswap.configurable.hotswap.background:
+    text: 在後台重新載入類別(&b)
+label.debugger.hotswap.configurable.never:
+    text: 從不(&N)
+label.debugger.hotswap.configurable.reload.classes:
+    text: 編譯後重新載入類別：
+label.debugger.launching.configurable.debugger.transport:
+    text: '傳輸:'
+label.debugger.launching.configurable.disable.jit:
+    text: 禁用 JIT
+label.debugger.launching.configurable.force.classic.vm:
+    text: 為 JDK 1.3.x 及更早的版本強制使用經典 VM(&i)
+label.debugger.launching.configurable.shmem:
+    text: 共用記憶體(&m)
+label.evaluate.dialog.expression:
+    text: 運算式:(&E)
+label.evaluate.dialog.language:
+    text: '語言:'
+label.evaluate.dialog.result:
+    text: 結果:(&R)
+label.evaluation.dialog.statements:
+    text: 要計算的語句：(&e)
+label.exception.breakpoint.properties.panel.caught.exception:
+    text: 捕獲的異常(&n)
+label.exception.breakpoint.properties.panel.group.notifications:
+    text: 通知
+label.exception.breakpoint.properties.panel.uncaught.exception:
+    text: 未捕獲的異常(&o)
+label.filed.breakpoint.properties.panel.field.access:
+    text: 欄位存取器(&s)
+label.filed.breakpoint.properties.panel.field.modification:
+    text: 欄位修改器(&m)
+label.generic.debugger.parameters.patcher.configurable.port:
+    text: '通訊埠:'
+label.generic.debugger.parameters.patcher.configurable.shmem:
+    text: 共用記憶體(&m)
+label.generic.debugger.parameters.patcher.configurable.shmem.address:
+    text: '共用記憶體位址:'
+label.generic.debugger.parameters.patcher.configurable.transport:
+    text: '傳輸:'
+label.get.jpda.dialog.error.description:
+    text: 無法啟動診斷：缺少 JDK 主目錄的診斷庫
+label.get.jpda.dialog.prompt:
+    text: 要獲得 JPDA 庫，請拜訪
+label.group.watch.events:
+    text: 觀察點
+label.method.breakpoint.properties.panel.emulated:
+    text: 模擬(&u)
+label.method.breakpoint.properties.panel.method.entry:
+    text: 方法進入(&y)
+label.method.breakpoint.properties.panel.method.exit:
+    text: 方法結束(&x)
+label.method.breakpoints.processing.classes:
+    text: 處理模擬方法斷點的類別
+label.method.breakpoints.setting.breakpoints:
+    text: 設定模擬方法斷點
+label.named.children.configurable.node.descendants:
+    text: 節點子節點:(&s)
+label.named.children.configurable.table.header.column.expression:
+    text: 運算式
+label.named.children.configurable.table.header.column.name:
+    text: 名稱
+label.node.descendands.expression:
+    text: 節點子節點 運算式：(&d)
+label.thread.group.node:
+    text: 組程組 "{0}"@{1}
+label.thread.group.node.group.collected:
+    text: 執行緒組 "{0}" 被垃圾回收
+label.thread.node.in.group:
+    text: '"{0}"@{1} 在組 "{3}": {2} 中'
+label.thread.node.thread.collected:
+    text: "執行緒 ''{0}'' 被垃圾回收"
+label.threads.export.dialog.file:
+    text: '匯出到檔案:'
+label.threads.view.configurable.current.thread.on.top:
+    text: 移動目前執行緒到頂部
+label.threads.view.configurable.show.class.name:
+    text: 顯示類別名
+label.threads.view.configurable.show.line.number:
+    text: 顯示行號(&l)
+label.threads.view.configurable.show.package:
+    text: 顯示包名
+label.threads.view.configurable.show.prams.types:
+    text: 顯示方法參數類型
+label.threads.view.configurable.show.source.file.name:
+    text: 顯示來源檔案名
+label.threads.view.configurable.show.stack.frames.for.synthetic.methods:
+    text: 為 synthetic 方法顯示堆疊楨(&f)
+label.threads.view.configurable.show.thread.groups:
+    text: 顯示執行緒組(&g)
+label.undefined:
+    text: 未定義
+label.user.renderers.configurable.renderer.name:
+    text: 渲染器名字：
+line.breakpoint.display.name:
+    text: 行 {0}
+line.breakpoint.display.name.with.class.or.method:
+    text: '{1} 中的 {0,number,#} 行'
+line.breakpoints.tab.title:
+    text: java 行斷點
+message.breakpoint.skipped:
+    text: 在 {0} 跳過斷點因為其發生於診斷器計算內部
+message.node.all.array.elements.null:
+    text: 所有元素在範圍({0}, {1}) 都是空
+message.node.all.elements.null:
+    text: 所有元素者是空
+message.node.class.has.no.fields:
+    text: 類別沒有欄位
+message.node.class.no.fields.to.display:
+    text: 沒有要顯示的欄位
+message.node.debug.info.not.available:
+    text: 診斷訊息不可用
+message.node.elements.null.hidden:
+    text: 不顯示 null 元素
+message.node.empty.array:
+    text: 空
+message.node.evaluate:
+    text: … 計算
+message.node.evaluation.not.possible:
+    text: 目標 VM 不會被斷點要求暫停。在這種模式下，對方法的剖析是不可能的。
+message.node.filtered:
+    text: '過濾透過:'
+message.node.local.variables.capture.disabled:
+    text: 本機變數未被捕獲，您可以變更它
+message.node.local.variables.debug.info.not.available:
+    text: 變數診斷訊息不可用
+message.node.local.variables.not.captured:
+    text: 局部變數未被捕獲用於合成，橋樑等方法
+message.node.navigate:
+    text: … 導航
+message.node.object.collected:
+    text: 物件在方法調用期間被垃圾回收
+message.node.show.icon:
+    text: … 顯示圖示
+message.node.show.image:
+    text: … 顯示圖像
+message.node.thread.has.no.frames:
+    text: 執行緒沒有幀
+message.node.thread.running:
+    text: 執行緒正在執行
+message.remote.jre.version.mismatch:
+    text: |-
+        目標 JRE 版本({0})
+        不符合項目 JDK 版本({1})，
+        將使用源於 JDK 的：{2}
+method.breakpoints.slowness.warning:
+    text: 方法斷點可能會大大減慢診斷速度
+method.breakpoints.tab.title:
+    text: java 方法斷點
+node.has.descendands.expression.optional:
+    text: "'節點有子節點' 運算式 (可選):(&h)"
+position.highlighter.stripe.tooltip:
+    text: 執行行
+progress.evaluating:
+    text: 計算 {0}
+progress.hot.swap.title:
+    text: 熱切換
+progress.hotswap.reloading:
+    text: 重新載入類別...
+progress.hotswap.scanning.classes:
+    text: 掃瞄類別重新載入...
+progress.hotswap.scanning.path:
+    text: '掃瞄中: {0}'
+progress.set.value:
+    text: 設定值...
+rule.name.group.by.class:
+    text: 按類別群組
+rule.name.group.by.package:
+    text: 按包群組
+status.app.running:
+    text: 套用正在執行
+status.breakpoint.invalid:
+    text: 無效
+status.breakpoint.reached.in.thread:
+    text: 繼點線上程 {0} 中到達
+status.breakpoint.reached.in.thread.switch:
+    text: <a href="#">切換執行緒</a>
+status.classes.not.all.versions.reloaded:
+    text: '{0} / {1} {1,choice, 1#個類別|2#個類別} 沒有所有版本都重新載入'
+status.classes.reloaded:
+    text: '{0,number} {0,choice, 0#個類別|1#個類別|2#個類別} 重新載入'
+status.connect.failed:
+    text: "未能與目標虛擬機建立連接，位址:''{0}''，傳輸:''{1}''"
+status.connected:
+    text: "連接到目標虛擬機，位址:''{0}''，傳輸:''{1}''"
+status.connecting:
+    text: "連接到目標虛擬機，位址:''{0}''，傳輸:''{1}''"
+status.debug.stopped:
+    text: 診斷停止
+status.disconnected:
+    text: "與目標虛擬機中斷連接，位址:''{0}''，傳輸：''{1}''"
+status.exception.breakpoint.reached:
+    text: 異常斷點達到
+status.exception.breakpoint.reached.details:
+    text: "執行緒 ''{1}'' 中的異常 ''{0}''"
+status.field.watchpoint.reached:
+    text: 欄位觀察點到達
+status.generic.breakpoint.reached:
+    text: 斷點到達
+status.hot.swap.completed.restart:
+    text: <a href="restart">重啟診斷會話</a>
+status.hot.swap.completed.stop:
+    text: <a href="stop">停止診斷會話</a>
+status.hot.swap.completed.with.errors:
+    text: 熱切換失敗。
+status.hot.swap.completed.with.warnings:
+    text: 熱交換完成 帶有警告
+status.hotswap.loaded.classes.up.to.date:
+    text: 載入的類別是最新的。沒有內容重新載入
+status.hotswap.uptodate:
+    text: 載入的類別是最新的。沒有內容重新載入。
+status.invalid.breakpoint.out.of.class:
+    text: 斷點不屬於任何類別
+status.line.breakpoint.reached:
+    text: 斷點到達 {0}({1}:{2,number,#})
+status.line.breakpoint.reached.full.trace:
+    text: 斷點到達 {0}
+status.listening:
+    text: "監聽連接，位址:''{0}''，傳輸:''{1}''"
+status.method.entry.breakpoint.reached:
+    text: "放法 ''{0}'' 進入在 {1}({2}:{3,number,#})"
+status.method.exit.breakpoint.reached:
+    text: "方法斷點到達。方法 ''{0}'' 將在 {1}({2}:{3,number,#}) 結束。"
+status.paused:
+    text: 暫停
+status.paused.in.another.thread:
+    text: 在另一個執行緒中暫停
+status.process.resumed:
+    text: 進程繼續
+status.process.started:
+    text: 進程已啟動
+status.process.terminated:
+    text: 進程已終止
+status.run.to.cursor:
+    text: 執行至游標處
+status.step.into:
+    text: 步入
+status.step.out:
+    text: 步出
+status.step.over:
+    text: 步過
+status.stopped.at.cursor:
+    text: 停止在游標位置
+status.thread.blocked.by:
+    text: 進行的執行緒 {0} 被執行緒 {1} 阻塞
+status.thread.blocked.by.resume:
+    text: <a href="#">繼續 {0}</a>
+status.thread.monitor:
+    text: 監視器
+status.thread.not.started:
+    text: 未開始(_S)
+status.thread.running:
+    text: 執行中
+status.thread.sleeping:
+    text: 休眠中
+status.thread.undefined:
+    text: 未定義
+status.thread.unknown:
+    text: 未知
+status.thread.wait:
+    text: 等待
+status.thread.zombie:
+    text: 殭屍
+status.waiting.attach:
+    text: "診斷器正在等待應用程式啟動; 診斷位址:''{0}''; 傳輸：''{1}''"
+status.waiting.evaluation.result:
+    text: 等待最後一個診斷器命令完成
+string.debugger.runner.description:
+    text: 診斷所選的設定
+string.file.line.position:
+    text: 類別在 {0}:{1}
+string.null.context:
+    text: 空內容
+text.base.renderer.configurable.no.class.patterns:
+    text: 沒有設定類別模式
+text.user.renderers.configurable.no.renderers:
+    text: 沒有渲染器
+threads.export.attribute.error.incompatible.state:
+    text: 不相容的執行緒狀態:執行緒沒有暫停
+threads.export.attribute.label.blocks.thread:
+    text: 區塊 {0}
+threads.export.attribute.label.daemon:
+    text: 守護
+threads.export.attribute.label.group:
+    text: "在 ''{0}'' 組中"
+threads.export.attribute.label.locked:
+    text: 鎖 {0}
+threads.export.attribute.label.status:
+    text: "狀態:''{0}''"
+threads.export.attribute.label.waiting.for.thread:
+    text: 等待 {0} 釋放鎖 {1}
+threads.export.dialog.title:
+    text: 匯出執行緒
+threads.view.configurable.display.name:
+    text: 自訂執行緒檢視
+title.compound.renderer.configurable.choose.renderer.reference.type:
+    text: 渲染器參照類型
+title.customize.data.views:
+    text: 自訂資料檢視
+title.error.evaluating.breakpoint.action:
+    text: 斷點操作錯誤
+title.error.evaluating.breakpoint.condition:
+    text: 斷點條件錯誤
+title.evaluating:
+    text: 計算...
+title.jdk140.unstable:
+    text: 虛擬機版本警告
+title.range.too.big:
+    text: 範圍太大
+title.set.value:
+    text: 設定值
+title.smart.step.popup:
+    text: 步入的方法
+transport.name.shared.memory:
+    text: 共用記憶體
+user.renderers.configurable.button.description.add:
+    text: 新增新的渲染器
+user.renderers.configurable.button.description.copy:
+    text: 複製選取的渲染器
+user.renderers.configurable.button.description.move.down:
+    text: 下移渲染器
+user.renderers.configurable.button.description.move.up:
+    text: 上移渲染器
+user.renderers.configurable.button.description.remove:
+    text: 移除選取的渲染器
+user.renderers.configurable.display.name:
+    text: Java 類型渲染器
+warning.finally.block.detected:
+    text: 偵測到非空的 finally 區塊：
+warning.hotswap.ignored.breakpoints:
+    text: 對於該方法的過時版本，斷點將被忽略
+warning.jdk140.unstable:
+    text: |-
+        診斷程式的虛擬機版本是 "1.4.0"。
+        J2SDK 1.4.0記錄的錯誤可能會導致不穩定的診斷器的行為。
+        我們建議使用 J2SDK 1.4.001或更高的版本。(_0)
+warning.range.too.big:
+    text: 指定範圍過大。{0} 需要太多資源來執行要求操作。您確定要繼續嗎？
+warning.recalculate:
+    text: 該值將被重新計算
+warning.source.code.not.match:
+    text: 源代碼與位元組碼不符合
+watchs.add.text:
+    text: 新增到觀察點

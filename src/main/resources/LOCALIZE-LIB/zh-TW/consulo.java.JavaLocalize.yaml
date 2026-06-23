@@ -1,0 +1,110 @@
+code.vision.implementations.hint:
+    text: '{0, choice, 1#1 個實作|2#{0,number} 個實作}'
+code.vision.inheritors.hint:
+    text: '{0, choice, 1#1 個繼承者|2#{0,number} 個繼承者}'
+code.vision.overrides.hint:
+    text: '{0, choice, 1#1 個覆寫|2#{0,number} 個覆寫}'
+usages.telescope:
+    text: '{0,choice, 0#0 個用法|1#1 個用法|2#{0,number} 個用法}'
+action.go.to.implementation.text:
+    text: 轉到實作
+action.go.to.overriding.methods.text:
+    text: 轉到覆寫方法
+action.go.to.subclass.text:
+    text: 轉到子類
+action.go.to.super.method.text:
+    text: 轉到 super 方法
+checkbox.collapse.annotations:
+    text: <html>註解</html>
+checkbox.collapse.anonymous.classes:
+    text: <html>匿名類別</html>
+checkbox.collapse.closures:
+    text: <html>"Closures"（匿名類別實現一個方法，在 Java 8 之前）</html>
+checkbox.collapse.file.header:
+    text: 檔案頭
+checkbox.collapse.generic.constructor.parameters:
+    text: <html>泛型構造函數和方法參數</html>
+checkbox.collapse.html.style.attribute:
+    text: "HTML 'style' 屬性"
+checkbox.collapse.inner.classes:
+    text: 內部類別
+checkbox.collapse.one.line.methods:
+    text: <html>單行的方法</html>
+checkbox.collapse.simple.property.accessors:
+    text: <html>簡單的屬性存取器</html>
+class.file.decompiled.text:
+    text: 反編譯 .class 檔案
+class.file.open.source.action:
+    text: 開啟來源檔案
+class.not.found.error.message:
+    text: "未找到類 ''{0}''"
+error.package.already.contains.package.html:
+    text: "包中 ''{0}'' 已經存在''package.html''檔案，是否繼續建立''package-info.java'' ？"
+error.package.html.found.title:
+    text: "發現 'package.html'"
+gutter.implemented.method:
+    text: 已實作方法
+gutter.implementing.method:
+    text: 實作方法
+gutter.overridden.method:
+    text: 覆寫的方法
+gutter.overriding.method:
+    text: 覆寫方法
+gutter.service:
+    text: 服務
+gutter.sibling.inherited.method:
+    text: 同級繼承的方法
+inlay.MethodChainsInlayProvider.description:
+    text: 調用鏈中的方法返回類型。
+inspection.default.annotation.param:
+    text: 預設的註解參數值
+label.method:
+    text: "方法 ''{0}''"
+library.choose.one.to.attach:
+    text: <html><body>多個庫包含檔案。<br>選取要附加源的庫</body></html>
+notification.navigation.to.overriding.classes:
+    text: 索引更新時無法導航到覆寫類
+notification.navigation.to.overriding.methods:
+    text: 索引更新時無法導航到覆寫方法
+nullable.notnull.annotation.used.label:
+    text: '用於生成程式碼的註解:'
+nullable.notnull.annotations.panel.title:
+    text: '{0}註解:'
+nullable.notnull.annotations.runtime.instrumentation.tooltip:
+    text: 為非空註解的方法和參數添加執行時斷言
+nullable.notnull.configuration.dialog.title:
+    text: 可空/非空設定
+project.roots.native.library.node.text:
+    text: Native 庫位置
+quickfix.family.remove.redundant.parameter:
+    text: 刪除冗餘參數
+settings.inlay.java.annotations:
+    text: 註解
+settings.inlay.java.builder.like.methods:
+    text: 類似於建置器的方法
+settings.inlay.java.complex.expressions.binary.functional.array.access.and.other:
+    text: 複雜表達式作為實參
+settings.inlay.java.enum.constants:
+    text: 枚舉常數
+settings.inlay.java.external.annotations:
+    text: 外部註解
+settings.inlay.java.inferred.annotations:
+    text: 推斷註解
+settings.inlay.java.inheritors:
+    text: 繼承者
+settings.inlay.java.methods.with.same.named.numbered.parameters:
+    text: 包含相同名稱的編號參數的方法
+settings.inlay.java.new.expressions:
+    text: "'New' 表達式"
+settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
+    text: 在具有相同類型的多個參數的情況下的非文字
+settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:
+    text: 具有方法名稱中包含的名稱的參數
+settings.inlay.java.show.hints.for:
+    text: '顯示以下項的提示:'
+settings.inlay.java.show.parameter.hints.for:
+    text: '為以下物件顯示參數提示:'
+settings.inlay.java.show.parameter.hints.when.expression.type.is.clear.description:
+    text: 陣列初始設定式、switch、條件、引用、實例、賦值、調用、限定、類型轉換、類物件存取表達式。
+settings.inlay.java.usages:
+    text: 用法

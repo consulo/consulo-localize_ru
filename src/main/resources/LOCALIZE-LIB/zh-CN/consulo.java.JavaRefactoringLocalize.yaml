@@ -1,0 +1,206 @@
+action.expand.static.import.text:
+    text: 展开 static import
+add.property:
+    text: 添加 @property
+annotation.types.cannot.be.inlined:
+    text: 注解类型无法内联
+cannot.perform.the.refactoring:
+    text: 不能执行重构。
+choose.destination.package.label:
+    text: 选择目标软件包
+class.cannot.be.inlined.because.a.call.to.its.constructor.is.unresolved:
+    text: 无法内联类，因为其构造函数的调用未解析
+class.cannot.be.inlined.because.an.interface.implemented.by.it.cannot.be.resolved:
+    text: 无法内联类，因为无法解析其实现的一个接口
+class.cannot.be.inlined.because.it.has.static.fields.with.non.constant.initializers:
+    text: 无法内联类，因为其具有带非常量初始值设定项的 static 字段
+class.cannot.be.inlined.because.it.has.static.initializers:
+    text: 无法内联类，因为其具有 static 初始值设定项
+class.cannot.be.inlined.because.it.has.static.inner.classes:
+    text: 无法内联类，因为其具有 static 内部类
+class.cannot.be.inlined.because.it.has.static.methods:
+    text: 无法内联类，因为其具有 static 方法
+class.cannot.be.inlined.because.it.has.static.non.final.fields:
+    text: 无法内联类，因为其具有 static 非 final 字段
+class.cannot.be.inlined.because.it.has.usages.of.fields.not.inherited.from.its.superclass:
+    text: 无法内联类，因为其具有未从自身超类继承的字段的用法
+class.cannot.be.inlined.because.it.has.usages.of.its.class.literal:
+    text: 无法内联类，因为其具有自身类文字的用法
+class.cannot.be.inlined.because.it.has.usages.of.its.inner.classes:
+    text: 无法内联类，因为其具有自身内部类的用法
+class.cannot.be.inlined.because.it.is.used.as.a.this.qualifier:
+    text: "无法内联类，因为其用作 'this' 限定符"
+class.cannot.be.inlined.because.it.is.used.in.a.catch.clause:
+    text: "无法内联类，因为其用于 'catch' 子句"
+class.cannot.be.inlined.because.it.is.used.in.a.throws.clause:
+    text: "无法内联类，因为其用于 'throws' 子句"
+class.cannot.be.inlined.because.its.constructor.contains.return.statements:
+    text: "无法内联类，因为其构造函数包含 'return' 语句"
+class.cannot.be.inlined.because.its.superclass.cannot.be.resolved:
+    text: 无法内联类，因为无法解析其超类
+class.cannot.be.inlined.because.there.are.usages.of.its.methods.not.inherited.from.its.superclass.or.interface:
+    text: 无法内联类，因为其方法的部分用法并非继承自其超类或接口
+constructor.returns.can.not.be.wrapped:
+    text: 无法包装构造函数返回值。
+could.not.find.selected.wrapping.class:
+    text: 找不到所选包装类
+declare.generated.annotations:
+    text: 生成注解(&G)
+declare.static.pass.fields.checkbox:
+    text: 声明 static (作为形参传递字段)(&S)
+dialog.message.nothing.found.to.extract:
+    text: 未找到要提取的内容
+enums.cannot.be.inlined:
+    text: 枚举无法内联
+exposed.delegation.command.name:
+    text: 已将委托公开给 {0}
+extract.class.depends.on.0.from.1.tooltip:
+    text: 依赖 {1} 的 {0}
+extract.class.depends.on.0.from.new.class:
+    text: 依赖新类 {1} 的 {0}
+extract.class.from.label:
+    text: 从{0}提取委托
+extract.class.title:
+    text: 提取委托
+extract.delegate.as.enum.checkbox:
+    text: 提取为枚举
+extract.delegate.create.nested.checkbox:
+    text: 创建嵌套类
+extract.delegate.generate.accessors.checkbox:
+    text: 生成访问器(&G)
+extract.delegate.unable.create.warning.message:
+    text: 无法创建包含给定名称的类
+extracted.class.command.name:
+    text: 已提取类 {0}
+extracted.class.should.have.unique.name:
+    text: "已提取类应具有唯一名称。已有一个内部类使用名称 ''{0}''"
+extracting.from.class:
+    text: '正在从类提取:'
+field.selected.is.not.used.as.a.delegate:
+    text: 所选字段不用作委托。
+inline.anonymous.conflict.progress:
+    text: 正在搜索类“{0}”继承者…
+inline.conflicts.progress:
+    text: 检查是否可以内联…
+inline.constant.field.not.supported.for.enum.constants:
+    text: 枚举常量不支持 {0}
+inline.field.used.in.javadoc:
+    text: 已内联字段用于 javadoc
+inline.field.used.in.reflection:
+    text: 已内联字段以反射形式使用
+inline.local.unable.try.catch.warning.message:
+    text: 无法在 try/catch 语句外内联
+inline.local.variable.declared.outside.cannot.refactor.message:
+    text: 变量在代码块外声明
+inline.method.multiline.method.in.ctor.call:
+    text: 内联不能在构造函数调用中应用于多行方法
+inline.method.qualifier.usage.side.effect:
+    text: 已内联方法用于方法引用，限定符具有副作用
+inline.method.used.in.javadoc:
+    text: 已内联方法用于 javadoc
+inline.method.used.in.reflection:
+    text: 已内联方法以反射形式使用
+inline.parameter.cannot.find.initializer.warning.message:
+    text: 无法为形参找到常量初始值设定项
+inline.parameter.no.usages.warning.message:
+    text: 方法没有用法
+inline.parameter.not.accessible.warning.message:
+    text: 在方法体内无法访问常量初始值设定项
+inline.super.class:
+    text: 内联超类
+inline.super.class.action.name:
+    text: 内联超类…
+inline.super.class.label:
+    text: 类{0}
+inline.super.no.anonymous.class:
+    text: 无法内联到匿名类中。
+inline.super.no.inner.class:
+    text: "无法内联到内部类中。将 ''{0}'' 移至上一级别"
+inline.super.non.project.class.warning.message:
+    text: 无法内联非项目类
+interfaces.cannot.be.inlined:
+    text: 接口无法内联
+introduce.parameter.object:
+    text: 引入形参对象
+introduce.type.parameter:
+    text: 引入类型形参
+invalid.extracted.class.name:
+    text: "''{0}'' 是无效的已提取类名"
+invert.boolean.title:
+    text: 反转布尔
+library.classes.cannot.be.inlined:
+    text: 库类无法内联
+members.to.extract.label:
+    text: 要提取的成员(&B)
+method.selected.has.no.parameters:
+    text: 选定方法没有形参。
+method.selected.returns.void:
+    text: "所选方法返回 'void'。"
+method.to.wrap.returns.from.label:
+    text: '从中包装返回值的方法:'
+method.whose.return.are.to.wrapped:
+    text: 要包装其返回值的方法
+name.for.new.class.label:
+    text: '新类的名称(&N):'
+package.for.new.class.label:
+    text: '软件包名称(&P):'
+parameter:
+    text: 形参
+preview:
+    text: 预览
+refactor:
+    text: 重构
+reference:
+    text: 引用
+references.to.be.modified.usage.view:
+    text: 要修改的引用{0, choice, 0#(找不到)|1#{0} 个引用|2#{0} 个引用}{1, choice, 0#|1#位于 {1} 个文件中|2#位于 {1} 个文件中}
+references.to.expose.usage.view:
+    text: 要显示的引用{0, choice, 0#(找不到)|1#{0} 个引用|2#{0} 个引用}{1, choice, 0#|1#位于 {1} 个文件中|2#位于 {1} 个文件中}
+references.to.extract:
+    text: 要提取的引用( {0, choice, 0#(找不到)|1#{0} 个引用|2#{0} 个引用}{1, choice, 0#|1#位于 {1} 个文件中|2#位于 {1} 个文件中})
+remove.middleman:
+    text: 移除中间人
+remove.middleman.column.header:
+    text: 删除
+remove.middleman.deleted.hierarchy.conflict:
+    text: '{0} 将被删除。层次结构将被破坏'
+remove.middleman.field.header:
+    text: '移除中间人字段:'
+remove.middleman.methods.to.inline.title:
+    text: 要内联的方法(&M)
+remove.middleman.title:
+    text: 移除中间人
+remove.middleman.tooltip.warning:
+    text: 删除将破坏类型层次结构
+rename.overloads:
+    text: 重命名重载 (&O)
+select.wrapper.class:
+    text: 选择形参类
+the.caret.should.be.positioned.at.the.name.of.the.field.to.be.refactored:
+    text: 文本光标应置于要重构的字段的名称处。
+the.caret.should.be.positioned.within.a.class.to.be.refactored:
+    text: 重构应在要重构的类或成员上调用。
+the.refactoring.is.not.supported.on.non.static.inner.classes:
+    text: 非 static 内部类上不支持重构。
+the.selected.class.has.no.members.to.extract:
+    text: 选定类没有要提取的成员。
+the.selected.class.is.an.annotation.type:
+    text: 所选类为注解接口。
+the.selected.class.is.an.enumeration:
+    text: 所选类为枚举类。
+the.selected.class.is.an.interface:
+    text: 选定类是接口。
+the.selected.method.cannot.be.wrapped.because.it.is.defined.in.a.non.project.class:
+    text: 不能包装选定方法，因为它在非项目类中定义
+there.already.exists.a.class.with.the.chosen.name:
+    text: 已存在一个具有所选名称的类。
+there.already.exists.a.class.with.the.selected.name:
+    text: 采用所选名称的类已存在
+type.parameters.cannot.be.inlined:
+    text: 类型形参无法内联
+wrap.return.value:
+    text: 包装返回值
+wrap.return.value.title:
+    text: 包装返回值
+wrapped.return.command.name:
+    text: 将返回值包装为 {1}() 的{0}

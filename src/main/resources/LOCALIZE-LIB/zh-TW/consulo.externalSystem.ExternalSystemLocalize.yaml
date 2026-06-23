@@ -1,0 +1,95 @@
+action.attach.external.project.description:
+    text: 將 {0} 項目附加到目前的ide項目
+action.attach.external.project.text:
+    text: 附加 {0} 項目
+action.detach.external.project.description:
+    text: 分離選擇的外部項目
+action.detach.external.project.text:
+    text: 分離 {0} 項目
+error.cannot.parse.project:
+    text: 無法分析 {0} 項目
+error.project.already.registered:
+    text: 該項目已經註冊
+error.project.undefined:
+    text: 沒有定義外部項目設定檔案
+error.resolve.already.running:
+    text: 目前正在執行另一個「更新項目」工作： {0}
+error.resolve.generic:
+    text: 解決錯誤
+error.resolve.with.reason:
+    text: |-
+        {0}
+
+        請參閱IDE日誌以獲取更多細節訊息(說明 | 顯示日誌）
+import.title:
+    text: 匯入項目 {0}
+module.type.description:
+    text: '{0}模組用於開發具有由<b> {0} </b>管理的依賴關係的<b>基於JVM的</b>應用程式。'
+module.type.title:
+    text: '{0} 模組'
+notification.messages.project.sync.tab.name:
+    text: '{0} 同步'
+notification.project.refresh.fail.title:
+    text: "{0} ''{1}'' 項目更新失敗"
+progress.import.text:
+    text: "建立''{0}'' {1} 項目訊息"
+progress.refresh.text:
+    text: "更新''{0}'' {1} 項目"
+progress.resolve.libraries:
+    text: 解決 {0} 庫
+run.configuration.description:
+    text: '{0} 構建'
+run.configuration.settings.label.project:
+    text: '{0} 項目:'
+run.configuration.settings.label.tasks:
+    text: '工作:'
+run.configuration.settings.label.vmoptions:
+    text: 'VM 參數:'
+run.configuration.title.choose.registered.project:
+    text: 選取 {0} 項目
+run.configuration.tooltip.choose.registered.project:
+    text: 選取一個已註冊的 {0} 項目
+run.error.undefined.task:
+    text: 沒有指定執行的工作
+run.text.ended.multiple.task:
+    text: '{0}：多個工作執行完成 {1}。'
+run.text.ended.single.task:
+    text: '{0}：單個工作執行完成 {1}。'
+run.text.starting.multiple.task:
+    text: '{0}：執行多個工作 {1}...'
+run.text.starting.single.task:
+    text: '{0}：執行單個工作 {1}...'
+setting.type.location.deduced:
+    text: 推匯出{0}位置
+setting.type.location.explicit.correct:
+    text: 定義了{0}位置
+setting.type.location.explicit.incorrect:
+    text: '{0}位置不正確'
+setting.type.location.unknown:
+    text: '{0}位置未知'
+settings.label.create.empty.content.root.directories:
+    text: 自動為空的內容根目錄建立目錄
+settings.label.project.format:
+    text: '項目格式:'
+settings.label.select.project:
+    text: '{0}項目:'
+settings.label.use.auto.import:
+    text: 使用自動匯入
+settings.title.linked.projects:
+    text: 關聯的{0}項目
+settings.title.project.settings:
+    text: 項目級設定
+settings.title.system.settings:
+    text: 全局{0}設定
+tasks.all.title:
+    text: 全部工作
+tasks.before.run:
+    text: "執行 {0} 工作 ''{1}''"
+tasks.before.run.empty:
+    text: 執行 {0} 工作
+tasks.edit.task.title:
+    text: 編輯 {0} 工作
+tasks.recent.title:
+    text: 最近的工作
+tasks.select.task.title:
+    text: 選取 {0} 工作

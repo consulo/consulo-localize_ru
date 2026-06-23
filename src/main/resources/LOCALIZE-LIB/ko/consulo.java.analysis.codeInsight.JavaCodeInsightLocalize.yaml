@@ -1,0 +1,22 @@
+action.structureview.show.non.public:
+    text: public이 아닌 항목 표시
+generate.equals.hashcode.accept.sublcasses:
+    text: equals() 메서드에 대한 매개변수로 하위 클래스 허용(&S)
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>일반적으로 Object.equals() 사양을 준수하지 않지만,<br>생성된 메서드가 Hibernate와 같이 Proxy 하위 클래스를 생성하는<br>프레임워크에서 올바르게 작동하려면 하위 클래스를 허용해야 할 수 있습니다.</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: equals()에 포함할 필드 선택(&F)
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: hashCode()에 포함할 필드 선택(&F)
+generate.equals.hashcode.internal.error:
+    text: 내부 오류
+generate.equals.hashcode.template:
+    text: '템플릿(&T):'
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: 배열에 대한 hashCode()는 지원되지 않습니다
+generate.equals.hashcode.wizard.title:
+    text: equals() 및 hashCode() 생성
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: 중첩된 배열에 대한 equals()는 지원되지 않습니다
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: Object[]에 대해 생성된 equals()가 올바르지 않음

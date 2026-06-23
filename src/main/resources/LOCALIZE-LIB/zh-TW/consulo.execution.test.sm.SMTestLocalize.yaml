@@ -1,0 +1,86 @@
+checkbox.run.tests.before.commit:
+    text: "執行 ''{0}''"
+checkbox.run.tests.before.commit.no.configuration:
+    text: 執行測試
+dialog.message.target.does.not.exist:
+    text: 目標 {0} 不存在
+dialog.message.unable.to.parse.test.results:
+    text: "無法解析 ''{0}'' 中的測試結果。測試結果應以 xml 格式存儲。"
+dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
+    text: '無法執行設定: 檢測不到測試框架'
+dialog.message.unable.to.run.configuration.settings.are.corrupted:
+    text: '無法執行設定: 設定已損壞'
+link.label.choose.configuration.before.commit:
+    text: 選擇設定
+progress.text.running.tests:
+    text: "正在執行 ''{0}''…"
+sm.test.runner.abstract.import.test.error.title:
+    text: 匯入失敗
+sm.test.runner.import.test:
+    text: 從檔案匯入測試…
+sm.test.runner.import.test.choose.test.file.title:
+    text: 選擇包含測試結果的檔案
+sm.test.runner.import.test.description:
+    text: 從 XML 檔案匯入測試執行的結果
+sm.test.runner.import.test.group.history:
+    text: 測試歷史記錄
+sm.test.runner.import.test.group.open.recent.session:
+    text: 開啟最近的測試會話
+sm.test.runner.imported.to.general.failed.to.parse.error.title:
+    text: 無法解析 {0}
+sm.test.runner.magnitude.assertion.failed.title:
+    text: 失敗的
+sm.test.runner.magnitude.completed.failed.title:
+    text: 完成的
+sm.test.runner.magnitude.ignored.failed.title:
+    text: 忽略的
+sm.test.runner.magnitude.not.run.failed.title:
+    text: 無法執行
+sm.test.runner.magnitude.passed.title:
+    text: 通過的
+sm.test.runner.magnitude.running.failed.title:
+    text: 執行...
+sm.test.runner.magnitude.skipped.failed.title:
+    text: 跳過的
+sm.test.runner.magnitude.terminated.failed.title:
+    text: 終止的
+sm.test.runner.magnitude.testerror.title:
+    text: 錯誤
+sm.test.runner.results.form.save.test.results.title:
+    text: 儲存測試結果
+sm.test.runner.states.suite.is.empty:
+    text: 空的測試套件
+sm.test.runner.states.test.is.ignored:
+    text: 測試被忽略
+sm.test.runner.ui.tabs.statistics.columns.duration.title:
+    text: 耗時
+sm.test.runner.ui.tabs.statistics.columns.results.title:
+    text: 結果
+sm.test.runner.ui.tabs.statistics.columns.test.title:
+    text: 測試
+sm.test.runner.ui.tabs.statistics.columns.test.total.title:
+    text: '總計:'
+sm.test.runner.ui.tests.tree.presentation.labels.all.but.ignored.passed:
+    text: 所有測試透過了 (除了忽略的)
+sm.test.runner.ui.tests.tree.presentation.labels.all.tests.passed:
+    text: 所有測試通過
+sm.test.runner.ui.tests.tree.presentation.labels.empty.test.suite:
+    text: 空的測試套件
+sm.test.runner.ui.tests.tree.presentation.labels.instantiating.tests:
+    text: 實例化測試...
+sm.test.runner.ui.tests.tree.presentation.labels.no.tests.were.found:
+    text: 沒有發現測試
+sm.test.runner.ui.tests.tree.presentation.labels.no.tests.were.found.with.errors:
+    text: 錯誤：沒有發現測試
+sm.test.runner.ui.tests.tree.presentation.labels.not.test.results:
+    text: 沒有測試結果
+sm.test.runner.ui.tests.tree.presentation.labels.running.tests:
+    text: 執行測試...
+sm.test.runner.ui.tests.tree.presentation.labels.test.reporter.not.attached:
+    text: 測試方塊架意外結束
+sm.test.runner.ui.tests.tree.presentation.labels.test.results:
+    text: 測試結果
+sm.test.runner.ui.tests.tree.presentation.labels.was.terminated:
+    text: 已終止
+suffix.incomplete.index.was.used:
+    text: 由於索引不完整，可能會遺漏一些測試

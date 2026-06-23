@@ -1,0 +1,84 @@
+action.I18nize.description:
+    text: 將 Java 字串文字或 JSP 文本取代為國際化表達式
+action.I18nize.text:
+    text: 國際化(_Z)…
+create.property.quickfix.text:
+    text: 創建屬性
+duplicate.property.diff.key.option:
+    text: 重複的鍵值不同(&D)
+duplicate.property.diff.key.problem.descriptor:
+    text: "重複的屬性鍵''{0}''具有不同的值"
+duplicate.property.diff.key.progress.indicator.text:
+    text: 處理重複的屬性鍵:{0}
+duplicate.property.display.name:
+    text: 複製屬性
+duplicate.property.file.scope.option:
+    text: 檔案範圍(&F)
+duplicate.property.key.error.message:
+    text: 屬性鍵重複
+duplicate.property.key.option:
+    text: 重複鍵(&K)
+duplicate.property.key.problem.descriptor:
+    text: "重複的屬性鍵''{0}''"
+duplicate.property.key.progress.indicator.text:
+    text: 處理重複的屬性鍵:{0}
+duplicate.property.module.scope.option:
+    text: 模組範圍(&M)
+duplicate.property.project.scope.option:
+    text: 項目範圍(&P)
+duplicate.property.value.option:
+    text: 重複的值(&V)
+duplicate.property.value.problem.descriptor:
+    text: "重複的屬性值''{0}''"
+duplicate.property.value.progress.indicator.text:
+    text: 處理重複的屬性值:{0}
+inspection.javadoc.throws.or.exception.option:
+    text: '@throws或@exception'
+no.property.selected.panel.label:
+    text: <html><body><center>請選擇左側的屬性名稱以編輯其值</body></html>
+project.view.resource.bundle.tree.node.text:
+    text: "資源包 ''{0}''"
+properties.files.inspection.group.display.name:
+    text: 屬性檔案
+property.key.expected.parsing.error.message:
+    text: 應為屬性鍵
+remove.property.intention.text:
+    text: 移除屬性
+remove.property.quick.fix.name:
+    text: 移除屬性
+rename.bundle.enter.new.resource.bundle.base.name.prompt.text:
+    text: 輸入新的資源包基名稱
+rename.prefix.based.property.key.error.message:
+    text: "無法基於名稱 ''{2}'' 的前綴 ''{0}'' 重命名屬性鍵 ''{1}''，請先更改前綴"
+rename.resource.bundle.dialog.title:
+    text: 重命名資源包
+searching.for.property.key.progress.text:
+    text: 正在搜尋 {0}
+select.property.separator.dialog.text:
+    text: 選擇分隔符
+select.property.separator.dialog.title:
+    text: 屬性鍵分隔符
+select.separator.action.with.empty.separator.name:
+    text: 其他…
+structure.view.group.by.prefixes.action.description:
+    text: 按通用鍵前綴對屬性進行分組
+structure.view.group.by.prefixes.action.name:
+    text: 按前綴分組
+trail.spaces.property.inspection.display.name:
+    text: 屬性中有尾隨空格
+unescape:
+    text: 非轉義
+unresolved.property.key:
+    text: 無法解析屬性鍵
+unused.message.format.parameter.display.name:
+    text: 缺少訊息格式參數
+unused.message.format.parameter.problem.descriptor:
+    text: '在 <code>#ref<code> 中使用參數 {0}，而不使用參數 {1} #loc'
+unused.property.inspection.display.name:
+    text: 未使用的屬性
+unused.property.problem.descriptor.name:
+    text: 未使用的屬性
+unused.property.suppress.for.file:
+    text: 對整個檔案禁止
+unused.property.suppress.for.property:
+    text: 對此屬性禁止

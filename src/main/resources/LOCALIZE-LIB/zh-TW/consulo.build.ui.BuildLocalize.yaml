@@ -1,0 +1,52 @@
+action.filters.text:
+    text: 篩選
+build.event.message.0.at.1:
+    text: 在 {1} 的 {0}
+build.event.message.at:
+    text: 在 {0}
+build.event.message.errors:
+    text: '{0} {0,choice, 1#個錯誤|2#個錯誤}'
+build.event.message.successful:
+    text: 成功
+build.event.message.syncing:
+    text: 正在同步…
+build.event.message.up.to.date:
+    text: 最新
+build.event.message.warnings:
+    text: '{0} {0,choice, 1#個警告|2#個警告}'
+build.event.title.build.issues:
+    text: 建置問題
+build.event.title.kotlin.compiler:
+    text: Kotlin 編譯器延伸模組
+build.event.title.other.messages:
+    text: 其他訊息
+build.messages.cancelled:
+    text: '{0}已取消'
+build.messages.failed:
+    text: '{0} 失敗'
+build.messages.finished:
+    text: '{0} 已完成'
+build.status.cancelled:
+    text: 已取消
+build.status.failed:
+    text: 已失敗
+build.status.finished:
+    text: 已完成
+build.status.running:
+    text: 正在執行…
+build.tree.filters.show.warnings:
+    text: 顯示警告
+error.can.t.append.to.closed.stream:
+    text: '無法將以下行追加到封閉流: {0}'
+error.can.t.read.from.closed.stream:
+    text: 無法從封閉流讀取
+sync.view.title:
+    text: 同步
+tab.title.build:
+    text: 建置
+tab.title.build.output:
+    text: 建置輸出
+tab.title.more:
+    text: '{0} 和其他 {1} 個'
+thread.name.reader.thread.for.buildoutputinstantreaderimpl.0:
+    text: BuildOutputInstantReaderImpl@{0} 的閱讀器執行緒

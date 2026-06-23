@@ -1,0 +1,244 @@
+action.presentation.diff.accept.text:
+    text: 接受
+action.presentation.diff.append.text:
+    text: 追加
+action.presentation.diff.revert.text:
+    text: 还原
+all.changes.processed.dialog.title:
+    text: 所有修改已处理
+apply.partially.resolved.merge.dialog.title:
+    text: 应用更改
+apply.patch.all.changes.processed.message.text:
+    text: 所有区块均已被处理。<br><a href="">保存更改并完成解决</a>
+apply.patch.partially.resolved.changes.confirmation.message:
+    text: |-
+        {0, choice, 1#1 个区块|2#{0, number} 个区块}未处理。
+        要保存更改并完成解决吗?
+apply.somehow.status.message.all.applied:
+    text: 已解决所有区块
+apply.somehow.status.message.already.applied:
+    text: '{0, number} 个{0, choice, 1#区块|2#区块}已应用'
+apply.somehow.status.message.cant.apply:
+    text: 无法应用 {0, number} 个{0, choice, 1#区块|2#区块}
+apply.somehow.status.message.cant.apply.some:
+    text: 无法应用 {0, number} 个区块，共 {1, number} 个
+binary.file.viewer:
+    text: 二进制文件查看器
+binary.files.are.different.message:
+    text: 二进制文件是不同的
+binary.files.are.identical.message:
+    text: 二进制文件是相同的
+cancel.visual.merge.dialog.title:
+    text: 取消文件合并
+cannot.create.diff.error:
+    text: '不能创建差异元素: {0}'
+cannot.file.file.error:
+    text: '未找到文件: {0}'
+collapse.unchanged.fragments:
+    text: 收起未更改的片段
+diff.acton.highlight.mode.action.by.line:
+    text: 基于行
+diff.acton.highlight.mode.action.by.word:
+    text: 基于单词
+diff.acton.highlight.mode.action.name:
+    text: 高亮显示：
+diff.acton.highlight.mode.action.no.highlighting:
+    text: 不用高亮显示
+diff.acton.ignore.whitespace.policy.do.not.ignore:
+    text: 不要忽视
+diff.acton.ignore.whitespace.policy.leading.and.trailing:
+    text: 前导和尾随
+diff.all.differences.ignored.text:
+    text: 已忽略差异
+diff.application.usage.parameters.and.description:
+    text: '用法: {0} 差异 <left file> <right file> [<base file>]'
+diff.can.not.show:
+    text: 不能显示差异比较
+diff.can.not.show.unknown:
+    text: 不能显示未知文件类型的差异比较
+diff.clipboard.vs.editor.dialog.title:
+    text: 剪贴板与编辑器
+diff.clipboard.vs.file.dialog.title:
+    text: 剪贴板 vs {0}
+diff.clipboard.vs.value.dialog.title:
+    text: 剪贴板与所选值
+diff.compare.element.type.with.editor.action.name:
+    text: 和编辑器里文件比较
+diff.content.clipboard.content.title:
+    text: 来自剪贴板
+diff.content.editor.content.title:
+    text: 编辑器
+diff.content.selected.value:
+    text: 所选值
+diff.content.selection.from.editor.content.title:
+    text: 从编辑器选择
+diff.content.selection.from.file.content.title:
+    text: '{0}中的选区'
+diff.contents.are.identical.message.text:
+    text: 内容相同
+diff.contents.have.differences.only.in.charset.and.line.separators.message.text:
+    text: 内容仅在行分隔符和编码中有差异
+diff.contents.have.differences.only.in.charset.message.text:
+    text: 内容仅在编码中有差异
+diff.contents.have.differences.only.in.line.separators.message.text:
+    text: 内容仅在行分隔符中有差异
+diff.contents.have.differences.only.in.line.separators.or.whitespaces:
+    text: 内容只有行分隔符和空白处有差异
+diff.count.differences.status.text:
+    text: '{0, choice, 0#没有|1#1个|2#{0, number}个}差异'
+diff.dialog.select.change.action.description:
+    text: 选择此版本中的更改文本和其他相应的
+diff.dialog.select.change.action.name:
+    text: 选择修改
+diff.element.qualified.name.vs.editor.dialog.title:
+    text: '{0} vs 编辑器'
+diff.element.qualified.name.vs.element.qualified.name.dialog.title:
+    text: '{0} 与 {1}'
+diff.file.editor.name:
+    text: 差异
+diff.highlighting.disabled.text:
+    text: 差异高亮显示处于关闭状态
+diff.options.diff.options.border:
+    text: 差异比较选项
+diff.options.use.external.merge.tool.for.files.checkbox:
+    text: '使用外部合并工具:'
+diff.options.use.external.tool.for.files.checkbox:
+    text: '使用外部工具来比较文件:'
+diff.type.changed.name:
+    text: 已更改
+diff.type.conflict.name:
+    text: 冲突
+diff.type.deleted.name:
+    text: 已删除
+diff.type.inserted.name:
+    text: 已插入
+diff.type.none.name:
+    text: 没有
+directory.viewer:
+    text: 目录查看器
+editor.settings:
+    text: 设置
+error.message.cannot.show.diff:
+    text: 无法显示差异
+error.viewer:
+    text: 错误查看器
+files.are.different.dialog.title:
+    text: 文件是不同的
+files.are.identical.dialog.title:
+    text: 文件是相同的
+filetype.diff.description:
+    text: 差异
+highlighting.level:
+    text: 高亮显示级别
+ignore.whitespace.acton.name:
+    text: 忽略空格：
+label.default.diff.editor.tab.name:
+    text: 差异
+merge.all.changes.have.processed.save.and.finish.confirmation.text:
+    text: |-
+        所有修改已经处理完毕。
+        你要保存修改合并完成的文件吗？
+merge.all.changes.processed.message.text:
+    text: 所有更改均已被处理。<br><a href="">保存更改并完成合并</a>
+merge.application.usage.parameters.and.description:
+    text: '用法: {0} 合并 <left file> <right file> [<base file>] <output file>'
+merge.color.options.background.color.label:
+    text: 重要
+merge.color.options.dialog.title:
+    text: 合并颜色选项
+merge.color.options.ignored.color.label:
+    text: 已忽略
+merge.continue.button:
+    text: 继续(&C)
+merge.dialog.accept.change.command:
+    text: 接受更改
+merge.dialog.all.conflicts.resolved.message.text:
+    text: 已解决所有冲突
+merge.dialog.append.change.action.name:
+    text: 应用选定的侧边变化
+merge.dialog.apply.change.action.name:
+    text: 应用
+merge.dialog.apply.non.conflicted.changes.command:
+    text: 应用不冲突的更改
+merge.dialog.apply.partially.resolved.changes.confirmation.message:
+    text: "{0, choice, 0#'{1, choice, 1#有|2#有}'|1#有|2#有} {0, choice, 0#|1#1 个更改|2#{0, number} 个更改}{0, choice, 0#|1#'{1, choice, 0#|1#和 }'}{1, choice, 0#|1#1 个冲突|2#{1, number} 个冲突}未处理。\n仍要保存更改并将冲突标记为解决吗?"
+merge.dialog.cannot.load.file.error.message:
+    text: '无法加载文件: {0}'
+merge.dialog.exit.without.applying.changes.confirmation.message:
+    text: 确定要退出登录且不应用更改吗?
+merge.dialog.ignore.change.action.name:
+    text: 忽略
+merge.dialog.ignore.change.command:
+    text: 忽略更改
+merge.dialog.resolve.change.action.name:
+    text: 解决
+merge.dialog.resolve.conflict.command:
+    text: 解决冲突
+merge.dialog.resolve.side.with.discard.title:
+    text: 接受修改
+merge.editor.insert.operation.name:
+    text: 插入
+merge.editor.remove.operation.name:
+    text: 删除
+merge.editor.replace.operation.name:
+    text: 替换
+merge.files.dialog.title:
+    text: 合并
+merge.init.merge.content.command.name:
+    text: 初始化合并内容
+merge.save.and.finish.button:
+    text: 保存并完成(&F)
+message.do.in.merge.command:
+    text: 合并时 {0}
+message.init.merge.content.command:
+    text: 初始化合并内容
+message.replace.change.command:
+    text: 替换更改
+message.use.selected.changes.command:
+    text: '{0}所选更改'
+no.differences.dialog.title:
+    text: 没有差异
+option.highlighting.level.inspections:
+    text: 检查
+option.highlighting.level.none:
+    text: 无
+option.highlighting.level.syntax:
+    text: 语法
+option.highlighting.policy.lines:
+    text: 高亮显示行
+option.highlighting.policy.none:
+    text: 不高亮显示
+option.highlighting.policy.split:
+    text: 高亮显示拆分的更改
+option.highlighting.policy.symbols:
+    text: 高亮显示字符
+option.highlighting.policy.words:
+    text: 高亮显示单词
+option.ignore.policy.none:
+    text: 不忽略
+option.ignore.policy.trim:
+    text: 修整空白
+option.ignore.policy.whitespaces:
+    text: 忽略空格
+option.ignore.policy.whitespaces.empty.lines:
+    text: 忽略空格和空行
+option.inherit.ignored.color:
+    text: 继承忽略的颜色
+save.merge.result.command.name:
+    text: 合并
+select.external.diff.program.dialog.title:
+    text: 选择外部Diff程序
+select.external.merge.program.dialog.title:
+    text: 选择外部合并(Merge)程序
+show.diff.anyway.dialog.message:
+    text: 显示任何的不同?
+side.by.side.viewer:
+    text: 并排查看器
+synchronize.document.and.its.fragment:
+    text: 同步文档及其片段
+synchronize.scrolling:
+    text: 同步滚动
+unified.viewer:
+    text: 统一查看器
+unknown.file.type.error:
+    text: '未知的文件类型: {0}'

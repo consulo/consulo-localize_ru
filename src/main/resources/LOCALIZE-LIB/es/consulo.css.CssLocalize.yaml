@@ -1,0 +1,20 @@
+expected.colon:
+    text: "Se esperaba ':'"
+expected.comma:
+    text: "Se esperaba ','"
+expected.identifier:
+    text: Se esperaba un identificador
+expected.lbrace:
+    text: "se esperaba '{'"
+expected.lparen:
+    text: "Se esperaba '('"
+expected.rbrace:
+    text: "Se esperaba '}'"
+expected.rbracket:
+    text: "Se esperaba ']'"
+expected.rparen:
+    text: "Se esperaba ')'"
+expected.semicolon:
+    text: "Se esperaba ';'"
+unexpected.token:
+    text: Token inesperado

@@ -1,0 +1,82 @@
+cannot.create.local.file:
+    text: 'ローカルファイルを作成できません: {0}'
+cannot.delete.root.directory:
+    text: "ルートディレクトリ '' {0} ''を削除できません"
+cannot.load.remote.file:
+    text: "''{0}'' をロードできません: {1}"
+cannot.rename.root.directory:
+    text: ルートディレクトリ名の変更はできません。
+delete.failed.error:
+    text: "'' {0} ''を削除できません"
+dialog.title.clear.read.only.file.status:
+    text: 読み取り専用ステータスのクリア
+dir.already.exists.error:
+    text: "ファイル  ''{0}'' を作成できません。 ファイルは既に存在します。"
+directory.create.wrong.parent.error:
+    text: ディレクトリではありません。 新規ディレクトリを作成できません。
+directory.invalid.name.error:
+    text: '無効なディレクトリ名: "{0}"'
+download.progress.connecting:
+    text: "''{0}'' へ接続しています..."
+download.progress.downloading:
+    text: "''{0}'' をダウンロードしています..."
+file.already.exists.error:
+    text: ファイル {0} を作成できません。 ファイルは既に存在します。
+file.copy.error:
+    text: '{0} にファイルコピーできません'
+file.copy.target.must.be.directory:
+    text: コピーできません。ターゲットがディレクトリである必要があります。
+file.create.already.exists.error:
+    text: ファイル {0}/{1} を作成できません。 ファイルは既に存在します。
+file.create.wrong.parent.error:
+    text: ディレクトリではありません。新しいファイルを中に作成できません。
+file.delete.root.error:
+    text: ルート ファイル {0} を削除できません。
+file.invalid.name.error:
+    text: '無効なファイル名 : "{0}"'
+file.move.error:
+    text: ファイルを {0} に移動できません。
+file.not.exist.error:
+    text: "'' {0} ''は存在しません"
+file.read.error:
+    text: ファイル {0} から読み込めません。
+file.synchronize.progress:
+    text: ファイルを同期しています...
+file.write.error:
+    text: ファイル {0} に書き込めません。
+handle.ro.file.status.type.using.file.system:
+    text: ファイル システムを使用
+invalid.directory.create.files:
+    text: 無効なディレクトリです。ファイルを作成できません。
+jar.copy.error.message:
+    text: |-
+        {0} を {1} にコピーできません。
+        {2}。
+jar.copy.error.title:
+    text: ファイルのコピー エラー
+jar.copy.progress:
+    text: '{0} をコピーしています...'
+jar.modification.not.supported.error:
+    text: jar または zip ファイル {0} を変更できません
+move.failed.error:
+    text: "'' {0} ''を '' {1} 'に移動できません"
+new.directory.failed.error:
+    text: "ディレクトリ '' {0} ''を作成できません"
+new.file.failed.error:
+    text: "ファイル '' {0} 'を作成できません"
+rename.failed.error:
+    text: "'' {0} ''を '' {1} ''に変更できません"
+target.already.exists.error:
+    text: "'' {0} ''は既に存在します"
+target.not.directory.error:
+    text: "'' {0} ''はディレクトリではありません"
+url.parse.error:
+    text: URL {0} を解析できません
+url.parse.unhandled.exception:
+    text: URL を解析できません、未制御の例外がスローされています
+vfs.file.not.exist.error:
+    text: "'' {0} ''はVFSには存在しません"
+vfs.target.already.exists.error:
+    text: "'' {0} ''は既にVFSに存在しています"
+vfs.target.not.directory.error:
+    text: "'' {0} ''はVFSのディレクトリではありません"

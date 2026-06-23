@@ -1,0 +1,36 @@
+filetype.chooser.file.pattern:
+    text: '文件模式(&P):'
+filetype.chooser.prompt:
+    text: "文件 ''{0}'' 不与任何文件类型相关联。请定义关联:"
+filetype.chooser.title:
+    text: 注册新文件类型关联
+filetype.description.archive.files:
+    text: 存档文件
+filetype.edit.add.pattern.exists.error:
+    text: "此通配符被保留用于 ''{0}'' 文件类型，无法重新分配"
+filetype.edit.add.pattern.exists.message:
+    text: "此通配符已经由 ''{0}'' 类型注册"
+filetype.edit.add.pattern.exists.title:
+    text: 添加通配符
+filetype.edit.add.pattern.prompt:
+    text: "输入新的通配符(允许 '*' 和 '?')(&W):"
+filetype.edit.add.pattern.reassign.button:
+    text: 重新分配通配符(&R)
+filetype.edit.add.pattern.title:
+    text: 添加通配符
+filetype.edit.edit.pattern.title:
+    text: 编辑通配符
+filetype.edit.existing.title:
+    text: 编辑文件类型
+filetype.edit.new.title:
+    text: 新建文件类型
+filetype.plaintext.description:
+    text: 文本
+filetype.registered.patterns.group:
+    text: '文件名模式:'
+filetype.settings.component:
+    text: 文件类型
+filetype.settings.no.patterns:
+    text: 没有注册的文件模式
+filetype.settings.title:
+    text: 文件类型

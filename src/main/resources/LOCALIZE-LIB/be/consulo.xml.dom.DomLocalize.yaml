@@ -1,0 +1,18 @@
+choose.file:
+    text: Выберыце файл
+class.decorator.or.has.default.constructor:
+    text: "''{0}'' павінен мець канструктар па змаўчанні або рэалізоўваць патэрн ''Decorator''"
+class.has.no.default.constructor:
+    text: "''{0}'' не мае канструктара па змаўчанні"
+class.is.not.a.subclass:
+    text: "''{0}'' не можа быць прысвоены ''{1}''"
+class.is.not.concrete:
+    text: "''{0}'' не является конкретным классом"
+class.is.not.public:
+    text: "''{0}'' не з'яўляецца публічным"
+dom.usage.type:
+    text: у XML-дэскрыптары
+enum.not.allowed:
+    text: Enum не разрешен
+interface.not.allowed:
+    text: Інтэрфейс не дазволены для неабстрактных бінаў

@@ -1,0 +1,80 @@
+cannot.create.local.file:
+    text: 無法建立本機檔案： {0}
+cannot.delete.root.directory:
+    text: "無法刪除根目錄 ''{0}''"
+cannot.load.remote.file:
+    text: "無法載入''{0}'': {1}"
+cannot.rename.root.directory:
+    text: "不能重新命名根目錄 ''{0}''"
+delete.failed.error:
+    text: "無法刪除 ''{0}''"
+dialog.title.clear.read.only.file.status:
+    text: 清除唯讀狀態
+dir.already.exists.error:
+    text: "無法建立目錄''{0}''。目錄已經存在。"
+directory.create.wrong.parent.error:
+    text: 不是一個目錄。無法建立新的目錄。
+directory.invalid.name.error:
+    text: 無效的目錄名稱： "{0}"
+download.progress.connecting:
+    text: "連接到''{0}''..."
+download.progress.downloading:
+    text: "下載''{0}''..."
+file.already.exists.error:
+    text: "無法建立檔案''{0}''。檔案已經存在。"
+file.copy.error:
+    text: 無法複製檔案到{0}
+file.copy.target.must.be.directory:
+    text: 無法複製，目標必須是目錄。
+file.create.already.exists.error:
+    text: 無法建立檔案{0}/{1}。檔案已經存在。
+file.create.wrong.parent.error:
+    text: 不是一個目錄。無法建立新的檔案。
+file.delete.root.error:
+    text: 無法刪除根檔案{0}。
+file.invalid.name.error:
+    text: 無效的檔案名： "{0}"
+file.move.error:
+    text: 無法移動檔案到{0}
+file.not.exist.error:
+    text: "''{0}'' 不存在"
+file.read.error:
+    text: 無法讀取檔案{0}。
+file.synchronize.progress:
+    text: 同步檔案...
+file.write.error:
+    text: 無法寫入檔案{0}。
+handle.ro.file.status.type.using.file.system:
+    text: 使用檔案系統
+invalid.directory.create.files:
+    text: 正確的目錄。無法建立檔案。
+jar.copy.error.message:
+    text: "無法複製 ''{0}'' 到 ''{1}''.\n原因： {2}."
+jar.copy.error.title:
+    text: 複製檔案時錯誤
+jar.copy.progress:
+    text: 複製中{0}...
+jar.modification.not.supported.error:
+    text: 不能修改存檔檔案 {0}
+move.failed.error:
+    text: "無法移動檔案 ''{0}'' 到 ''{1}''"
+new.directory.failed.error:
+    text: "無法建立目錄 ''{0}''"
+new.file.failed.error:
+    text: "無法建立檔案 ''{0}''"
+rename.failed.error:
+    text: "無法重新命名 ''{0}'' 為 ''{1}''"
+target.already.exists.error:
+    text: "''{0}'' 已經存在"
+target.not.directory.error:
+    text: "''{0}'' 不是一個目錄"
+url.parse.error:
+    text: 無法剖析URL {0}
+url.parse.unhandled.exception:
+    text: 無法剖析URL，出現未處理的異常拋出
+vfs.file.not.exist.error:
+    text: "''{0}'' 在 VFS 不存在"
+vfs.target.already.exists.error:
+    text: "''{0}'' 在 VFS 已經存在"
+vfs.target.not.directory.error:
+    text: "''{0}'' 在 VFS 不是一個目錄"

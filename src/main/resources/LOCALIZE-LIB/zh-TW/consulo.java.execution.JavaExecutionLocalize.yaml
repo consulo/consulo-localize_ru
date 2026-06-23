@@ -1,0 +1,18 @@
+application.configuration.description:
+    text: Java Application 設定
+application.configuration.main.class.label:
+    text: '主類別:'
+application.configuration.shorten.command.line.label:
+    text: 短的命令列：(&L)
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: '使用模組的類別路徑:'
+jar.application.configuration.description:
+    text: "設定使用 'java -jar' 命令執行一個JAR檔案"
+jar.application.configuration.name:
+    text: JAR 應用程式
+jre.path.is.not.valid.jre.home.error.message:
+    text: "''{0}'' 不是一個有效的 JRE home"
+show.swing.inspector:
+    text: 啟用快照捕獲
+show.swing.inspector.disabled:
+    text: 啟用快照捕獲 (requires JRE 5.0 or higher)

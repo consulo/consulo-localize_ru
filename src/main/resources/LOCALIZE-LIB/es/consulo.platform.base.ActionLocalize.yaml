@@ -1,0 +1,1826 @@
+action.$Copy.description:
+    text: Copiar al portapapeles
+action.$Copy.text:
+    text: Copiar(_C)
+action.$Cut.description:
+    text: Cortar al portapapeles
+action.$Cut.text:
+    text: Cortar(_T)
+action.$Delete.description:
+    text: Eliminar el elemento seleccionado
+action.$Delete.text:
+    text: Eliminar(_D)
+action.$Paste.description:
+    text: Pegar desde el portapapeles
+action.$Paste.text:
+    text: Pegar(_P)
+action.$SelectAll.description:
+    text: Seleccionar todo
+action.$SelectAll.text:
+    text: Seleccionar todo(_A)
+action.About.description:
+    text: Mostrar información sobre el IDE
+action.About.text:
+    text: Acerca de(_A)
+action.AddFrameworkSupport.text:
+    text: Añadir soporte para frameworks…
+action.Annotate.description:
+    text: Muestra la fecha de la última modificación y el autor de cada línea (también conocido como "Blame")
+action.Annotate.text:
+    text: Anotar(_N)
+action.AssociateWithFileType.description:
+    text: Asociar el archivo seleccionado con uno de los tipos de archivo
+action.AssociateWithFileType.text:
+    text: Asociar con tipo de archivo…
+action.AutoIndentLines.description:
+    text: Indenta la línea actual o el bloque seleccionado según los ajustes de estilo de código
+action.AutoIndentLines.text:
+    text: Auto-sangría de líneas(_A)
+action.AutoShowProcessWindow.description:
+    text: Muestra la ventana de procesos al iniciar cualquier progreso
+action.AutoShowProcessWindow.text:
+    text: Mostrar automáticamente
+action.Back.description:
+    text: Deshacer la última operación de navegación
+action.Back.text:
+    text: Atrás(_B)
+action.CallHierarchy.description:
+    text: Explorar la jerarquía de llamadas del método seleccionado
+action.CallHierarchy.text:
+    text: Jerarquía de llamadas(_Y)
+action.CaptureCPUUsageData.description:
+    text: Capturar datos de uso de la CPU
+action.CaptureCPUUsageData.text:
+    text: Iniciar generación de perfiles de uso de CPU
+action.CaptureMemorySnapShot.description:
+    text: Capturar instantánea de memoria
+action.CaptureMemorySnapShot.text:
+    text: Capturar instantánea de memoria
+action.ChangeCodeStyleScheme.description:
+    text: Cambiar el esquema de estilo de código actual
+action.ChangeCodeStyleScheme.text:
+    text: Esquema de estilo de código
+action.ChangeColorScheme.description:
+    text: Cambiar el esquema de colores actual del editor
+action.ChangeColorScheme.text:
+    text: Esquema de colores del editor
+action.ChangeFileEncodingAction.description:
+    text: Cambiar la codificación del archivo
+action.ChangeFileEncodingAction.text:
+    text: Codificación de archivos
+action.ChangeInspectionProfile.description:
+    text: Cambiar el perfil de inspección del editor actual
+action.ChangeInspectionProfile.text:
+    text: Resaltado de errores
+action.ChangeKeymap.description:
+    text: Cambiar el mapa de teclas actual
+action.ChangeKeymap.text:
+    text: Mapa de teclado
+action.ChangeLaf.description:
+    text: Cambiar el tema actual
+action.ChangeLaf.text:
+    text: Tema
+action.ChangeSignature.description:
+    text: Cambiar la firma del método o la clase seleccionada y corregir todas las referencias
+action.ChangeSignature.text:
+    text: Cambiar firma…(_G)
+action.ChangeSplitOrientation.description:
+    text: Cambia la orientación del divisor
+action.ChangeSplitOrientation.text:
+    text: Cambiar orientación del divisor(_R)
+action.ChangeTemplateDataLanguage.text:
+    text: Cambiar idioma de datos de la plantilla
+action.ChangeToThisFileTypeAction.description:
+    text: "Anular el tipo de archivo por ''{0}''"
+action.ChangeTypeSignature.description:
+    text: Cambia el tipo de retorno del método, campo, parámetro, variable o argumentos de tipo de clase y corrige todas las referencias
+action.ChangeTypeSignature.text:
+    text: Migración de tipos…(_Y)
+action.ChangesView.AddUnversioned.description:
+    text: Programar los archivos seleccionados para ser agregados al VCS
+action.ChangesView.AddUnversioned.text:
+    text: Añadir al VCS
+action.ChangesView.ApplyPatch.description:
+    text: Aplica un parche a las fuentes del proyecto
+action.ChangesView.ApplyPatch.text:
+    text: Aplicar parche…
+action.ChangesView.ApplyPatchFromClipboard.description:
+    text: Aplicar un parche a las fuentes del proyecto
+action.ChangesView.ApplyPatchFromClipboard.text:
+    text: Aplicar parche desde el portapapeles…
+action.ChangesView.Browse.description:
+    text: Ver el historial de cambios confirmados
+action.ChangesView.Browse.text:
+    text: Explorar cambios…
+action.ChangesView.CreatePatch.description:
+    text: Crear un parche a partir de los cambios seleccionados
+action.ChangesView.CreatePatch.text:
+    text: Crear parche a partir de los cambios locales…
+action.ChangesView.CreatePatchFromChanges.description:
+    text: Crear un parche a partir de los cambios seleccionados
+action.ChangesView.CreatePatchFromChanges.text:
+    text: Crear parche…
+action.ChangesView.Edit.description:
+    text: Extraer los archivos seleccionados para editarlos
+action.ChangesView.Edit.text:
+    text: Hacer check-out
+action.ChangesView.Move.description:
+    text: Mover los cambios seleccionados a otra lista de cambios
+action.ChangesView.Move.text:
+    text: Mover a otra lista de cambios…
+action.ChangesView.NewChangeList.description:
+    text: Crear una nueva lista de cambios
+action.ChangesView.NewChangeList.text:
+    text: Nueva lista de cambios…
+action.ChangesView.Refresh.description:
+    text: Actualizar los cambios de VCS
+action.ChangesView.Refresh.text:
+    text: Actualizar
+action.ChangesView.RemoveChangeList.description:
+    text: Eliminar la lista de cambios y mover todos los cambios a otra lista de cambios
+action.ChangesView.RemoveChangeList.text:
+    text: Eliminar lista de cambios
+action.ChangesView.Rename.description:
+    text: Edita el nombre y la descripción de la lista de cambios seleccionada
+action.ChangesView.Rename.text:
+    text: Editar lista de cambios…
+action.ChangesView.Revert.text:
+    text: Revertir…(_R)
+action.ChangesView.SetDefault.description:
+    text: Establecer una lista de cambios donde se colocan los nuevos cambios por defecto
+action.ChangesView.SetDefault.text:
+    text: Establecer lista de cambios activa
+action.ChangesView.Shelve.description:
+    text: Guarda los cambios en un archivo de parche externo y los elimina del código
+action.ChangesView.Shelve.text:
+    text: Posponer cambios…
+action.CheckForUpdate.description:
+    text: Busca actualizaciones disponibles del IDE y de los complementos
+action.CheckForUpdate.text:
+    text: Buscar actualizaciones…(_C)
+action.ClassNameCompletion.description:
+    text: Lo mismo que pulsar dos veces el atajo de completado básico (se puede usar para completar nombres de clases no importadas)
+action.ClassNameCompletion.text:
+    text: Segundo autocompletado básico
+action.CloseActiveTab.description:
+    text: Cierra la pestaña activa de la ventana de herramientas
+action.CloseActiveTab.text:
+    text: Cerrar pestaña activa(_O)
+action.CloseAllEditors.description:
+    text: Cerrar todos los editores en el grupo de pestañas activas
+action.CloseAllEditors.text:
+    text: Cerrar todas las pestañas(_A)
+action.CloseAllEditorsButActive.description:
+    text: Cerrar todos los editores abiertos excepto el activo
+action.CloseAllEditorsButActive.text:
+    text: Cerrar las otras pestañas(_O)
+action.CloseAllUnmodifiedEditors.description:
+    text: Cerrar todos los editores sin modificar
+action.CloseAllUnmodifiedEditors.text:
+    text: Cerrar pestañas no modificadas(_U)
+action.CloseAllUnpinnedEditors.description:
+    text: Cerrar todos los editores que no están fijados
+action.CloseAllUnpinnedEditors.text:
+    text: Cerrar todos menos los fijados
+action.CloseContent.description:
+    text: Cierra el contenido enfocado actualmente
+action.CloseContent.text:
+    text: Cerrar pestaña(_C)
+action.CloseEditor.description:
+    text: Cerrar el editor activo
+action.CloseEditor.text:
+    text: Cerrar editor activo(_C)
+action.CloseProject.description:
+    text: Cerrar el proyecto actual
+action.CloseProject.text:
+    text: Cerrar proyecto(_J)
+action.CodeCompletion.description:
+    text: Completar código
+action.CodeCompletion.text:
+    text: Básico(_B)
+action.CodeInspection.OnEditor.text:
+    text: Inspeccionar código con la configuración del editor(_E)
+action.CollapseAll.text:
+    text: Contraer todo
+action.CollapseAllRegions.description:
+    text: Contraer todas las regiones de plegado (en la selección)
+action.CollapseAllRegions.text:
+    text: Contraer todo(_A)
+action.CollapseBlock.description:
+    text: Contraer el bloque de código actual
+action.CollapseBlock.text:
+    text: Contraer bloque de código(_B)
+action.CollapseDocComments.description:
+    text: Contraer todos los comentarios de documentación
+action.CollapseDocComments.text:
+    text: Contraer comentarios de documentación(_O)
+action.CollapseRegion.description:
+    text: Contraer la región de plegado en el cursor
+action.CollapseRegion.text:
+    text: Contraer(_C)
+action.CollapseSelection.description:
+    text: Plegar el bloque seleccionado
+action.CollapseSelection.text:
+    text: Plegar selección / Quitar región(_S)
+action.CollapseTreeNode.text:
+    text: Contraer nodo del árbol
+action.CommentByBlockComment.description:
+    text: Comentar/descomentar código con comentarios de bloque
+action.CommentByBlockComment.text:
+    text: Comentar con comentario de bloque(_B)
+action.CommentByLineComment.description:
+    text: Comentar/descomentar la línea actual o el bloque seleccionado con comentarios de línea
+action.CommentByLineComment.text:
+    text: Comentar con comentario de línea(_L)
+action.CommittedChanges.Clear.description:
+    text: Limpia las revisiones almacenadas en caché
+action.CommittedChanges.Clear.text:
+    text: Limpiar
+action.CommittedChanges.Details.description:
+    text: Ver información completa sobre la lista de cambios seleccionada
+action.CommittedChanges.Details.text:
+    text: Mostrar detalles
+action.CommittedChanges.Filter.description:
+    text: Cambiar los criterios de filtrado
+action.CommittedChanges.Filter.text:
+    text: Filtrar
+action.CommittedChanges.Refresh.description:
+    text: Actualizar la lista de cambios confirmados
+action.CommittedChanges.Refresh.text:
+    text: Actualizar
+action.CommittedChanges.Revert.description:
+    text: Aplica el inverso de los cambios seleccionados a la copia de trabajo
+action.CommittedChanges.Revert.text:
+    text: Revertir cambios
+action.Compare.Selected.text:
+    text: Comparar con la revisión…(_C)
+action.CompareClipboardWithSelection.description:
+    text: Comparar la selección actual con el portapapeles
+action.CompareClipboardWithSelection.text:
+    text: Comparar con el portapapeles(_B)
+action.CompareFileWithEditor.description:
+    text: Comparar el archivo seleccionado con el editor
+action.CompareFileWithEditor.text:
+    text: Comparar archivo con el editor(_M)
+action.CompareTwoFiles.description:
+    text: Comparar dos archivos o carpetas seleccionados
+action.CompareTwoFiles.text:
+    text: Comparar archivos(_F)
+action.ConfigureTemplatesAction.text:
+    text: Configurar plantillas dinámicas…
+action.Console.Execute.description:
+    text: Ejecutar la sentencia actual en la consola de una sola línea
+action.Console.Execute.text:
+    text: Ejecutar la sentencia actual en la consola de una sola línea
+action.Console.History.Browse.description:
+    text: Explorar el historial de consultas
+action.Console.History.Browse.text:
+    text: Explorar historial de consultas
+action.Console.History.Next.description:
+    text: Siguiente entrada en el historial de la consola
+action.Console.History.Next.text:
+    text: Siguiente entrada en el historial de la consola
+action.Console.History.Previous.description:
+    text: Entrada anterior en el historial de la consola
+action.Console.History.Previous.text:
+    text: Entrada anterior en el historial de la consola
+action.Console.SplitLine.text:
+    text: Dividir línea
+action.ContextHelp.description:
+    text: Mostrar ayuda contextual
+action.ContextHelp.text:
+    text: Ayuda conte_xtual
+action.ConvertIndentsToSpaces.description:
+    text: Convierte la sangría en el archivo o el bloque seleccionado para usar espacios en lugar de tabulaciones
+action.ConvertIndentsToSpaces.text:
+    text: A espacios
+action.ConvertIndentsToTabs.description:
+    text: Convierte la sangría en el archivo o bloque seleccionado para usar tabulaciones en lugar de espacios
+action.ConvertIndentsToTabs.text:
+    text: A tabuladores
+action.CopyAbsolutePath.text:
+    text: Ruta absoluta
+action.CopyContentRootPath.text:
+    text: Ruta desde la raíz del contenido
+action.CopyElement.description:
+    text: Crea una copia de la clase, archivo(s) o directorio(s) seleccionado(s)
+action.CopyElement.text:
+    text: Copiar…(_O)
+action.CopyFileName.text:
+    text: Nombre del archivo
+action.CopyPathWithLineNumber.text:
+    text: Ruta con número de línea
+action.CopyPaths.description:
+    text: Copia las rutas correspondientes a los archivos o directorios seleccionados al portapapeles
+action.CopyPaths.text:
+    text: Copiar rutas(_O)
+action.CopyReference.description:
+    text: Copia la referencia a una clase, método o función seleccionados, o una ruta relativa a un archivo seleccionado
+action.CopyReference.text:
+    text: Copiar referencia(_Y)
+action.CopySourceRootPath.text:
+    text: Ruta desde la raíz de fuentes
+action.CreateDesktopEntry.description:
+    text: Crear una entrada de escritorio para la integración con el menú de aplicaciones del sistema
+action.CreateDesktopEntry.text:
+    text: Crear entrada de escritorio…
+action.CreateLauncherScript.description:
+    text: Permite acceder al IDE desde la línea de comandos
+action.CreateLauncherScript.text:
+    text: Crear lanzador de línea de comandos…
+action.CreateLibraryFromFile.text:
+    text: Añadir como biblioteca…
+action.DebugListen.text:
+    text: Lanzar excepción de depuración
+action.DecrementWindowHeight.text:
+    text: Disminuir altura
+action.DecrementWindowWidth.text:
+    text: Reducir ancho
+action.DelegateMethods.description:
+    text: Generar métodos delegados para un campo/getter
+action.DelegateMethods.text:
+    text: Delegar métodos…(_D)
+action.Diff.AppendLeftSide.text:
+    text: Anexar lado izquierdo
+action.Diff.AppendRightSide.text:
+    text: Anexar el lado derecho
+action.Diff.ApplyLeftSide.text:
+    text: Aceptar lado izquierdo
+action.Diff.ApplyNonConflicts.Left.text:
+    text: Aplicar cambios sin conflictos desde el lado izquierdo
+action.Diff.ApplyNonConflicts.Right.text:
+    text: Aplicar cambios sin conflictos desde el lado derecho
+action.Diff.ApplyNonConflicts.text:
+    text: Aplicar todos los cambios sin conflictos
+action.Diff.ApplyRightSide.text:
+    text: Aceptar lado derecho
+action.Diff.ComparePartial.Base.Left.text:
+    text: Izquierda y centro
+action.Diff.ComparePartial.Base.Right.text:
+    text: Centro y derecha
+action.Diff.ComparePartial.Generic:
+    text: '{0,choice,0#Izquierda|1#Centro|2#Derecha} y {1,choice,0#Izquierda|1#Centro|2#Derecha}'
+action.Diff.ComparePartial.Left.Right.text:
+    text: Izquierda y derecha
+action.Diff.CompareWithBase.Left.text:
+    text: Base e izquierdo
+action.Diff.CompareWithBase.Result.text:
+    text: Base e intermedio
+action.Diff.CompareWithBase.Right.text:
+    text: Base y derecha
+action.Diff.FocusOppositePane.description:
+    text: Selecciona el panel opuesto en la vista de diferencias
+action.Diff.FocusOppositePane.text:
+    text: Seleccionar el panel de diferencias opuesto
+action.Diff.FocusOppositePaneAndScroll.description:
+    text: Seleccionar la misma posición en el panel opuesto de la vista de diferencias
+action.Diff.FocusOppositePaneAndScroll.text:
+    text: Seleccionar posición en el panel de diferencias opuesto
+action.Diff.IgnoreLeftSide.text:
+    text: Ignorar lado izquierdo
+action.Diff.IgnoreRightSide.text:
+    text: Ignorar el lado derecho
+action.Diff.MagicResolveConflicts.text:
+    text: Resolver conflictos sencillos
+action.Diff.NextChange.text:
+    text: Comparar siguiente archivo
+action.Diff.NextConflict.description:
+    text: Mover al siguiente conflicto no resuelto
+action.Diff.NextConflict.text:
+    text: Siguiente conflicto
+action.Diff.PrevChange.text:
+    text: Comparar archivo anterior
+action.Diff.PreviousConflict.description:
+    text: Ir al conflicto anterior sin resolver
+action.Diff.PreviousConflict.text:
+    text: Conflicto anterior
+action.Diff.ResolveConflict.text:
+    text: Resolver automáticamente
+action.Diff.ShowDiff.description:
+    text: Comparar archivos o revisiones
+action.Diff.ShowDiff.text:
+    text: Mostrar diferencias
+action.DumpInspectionDescriptions.text:
+    text: Volcar descripciones de inspección
+action.DumpIntentionsDescriptions.text:
+    text: Volcar descripciones de las intenciones
+action.EditBreakpoint.text:
+    text: Editar punto de interrupción
+action.EditMacros.description:
+    text: Configurar macros existentes
+action.EditMacros.text:
+    text: Editar macros(_E)
+action.EditSource.description:
+    text: Abre un editor para el elemento seleccionado y le otorga el foco
+action.EditSource.text:
+    text: Ir a la fuente(_J)
+action.EditSourceInNewWindow.description:
+    text: Abrir el editor para el elemento seleccionado en una ventana nueva y enfocarlo
+action.EditSourceInNewWindow.text:
+    text: Abrir pestaña en una ventana nueva
+action.EditorConsoleScrollToTheEnd.text:
+    text: Desplazar al final
+action.EmacsStyleIndent.text:
+    text: Tabulación de Emacs
+action.Exit.description:
+    text: Salir del IDE
+action.Exit.text:
+    text: Salir(_X)
+action.ExpandAll.text:
+    text: Expandir todo
+action.ExpandAllRegions.description:
+    text: Expandir todas las regiones de plegado (en la selección)
+action.ExpandAllRegions.text:
+    text: Expandir todo(_E)
+action.ExpandDocComments.description:
+    text: Expandir todos los comentarios de documentación
+action.ExpandDocComments.text:
+    text: Expandir comentarios de documentación(_D)
+action.ExpandRegion.description:
+    text: Expandir la región de plegado en el símbolo de intercalación
+action.ExpandRegion.text:
+    text: Expandir(_X)
+action.ExpandTreeNode.text:
+    text: Expandir nodo del árbol
+action.ExportSettings.description:
+    text: Exportar la configuración global
+action.ExportSettings.text:
+    text: Exportar configuración…(_E)
+action.ExportTestResults.description:
+    text: Exportar los resultados de las pruebas al archivo
+action.ExportTestResults.text:
+    text: Exportar resultados de las pruebas…
+action.ExportThreads.description:
+    text: Guardar toda la información de los hilos en un archivo de texto o en el portapapeles
+action.ExportThreads.text:
+    text: Exportar hilos…(_H)
+action.ExportToEclipse.description:
+    text: Crear proyectos de Eclipse para cada módulo
+action.ExportToEclipse.text:
+    text: Exportar proyecto a Eclipse…
+action.ExportToHTML.description:
+    text: Guardar el contenido del archivo en formato HTML con resaltado de sintaxis
+action.ExportToHTML.text:
+    text: Exportar archivos o selección a HTML…(_H)
+action.ExportToTextFile.text:
+    text: Exportar a archivo de texto
+action.ExpressionTypeInfo.description:
+    text: Muestra el tipo de la expresión seleccionada
+action.ExpressionTypeInfo.text:
+    text: Información de tipo(_E)
+action.ExternalJavaDoc.description:
+    text: Abrir el navegador con la documentación del elemento seleccionado
+action.ExternalJavaDoc.text:
+    text: Documentación externa(_X)
+action.ExtractClass.description:
+    text: Extraer delegado
+action.ExtractClass.text:
+    text: Extraer delegado…(_D)
+action.ExtractInclude.description:
+    text: Convierte el fragmento de código seleccionado en un archivo incluido
+action.ExtractInclude.text:
+    text: Incluir archivo…(_I)
+action.ExtractInterface.description:
+    text: Extraer interfaz de la clase seleccionada
+action.ExtractInterface.text:
+    text: Extraer interfaz…(_I)
+action.ExtractMethod.description:
+    text: Convierte el fragmento de código seleccionado en un método
+action.ExtractMethod.text:
+    text: Extraer método…(_M)
+action.ExtractModule.description:
+    text: Extraer módulo de la clase seleccionada
+action.ExtractModule.text:
+    text: Extraer módulo…(_M)
+action.ExtractSuperclass.description:
+    text: Extraer superclase de la clase seleccionada
+action.ExtractSuperclass.text:
+    text: Extraer superclase…(_U)
+action.FileChooser.Delete.text:
+    text: Eliminar…
+action.FileChooser.GotoDesktop.description:
+    text: Ir al directorio del escritorio
+action.FileChooser.GotoDesktop.text:
+    text: Directorio del escritorio
+action.FileChooser.GotoHome.description:
+    text: Ir al directorio personal
+action.FileChooser.GotoHome.text:
+    text: Directorio de inicio
+action.FileChooser.GotoModule.description:
+    text: Ir al directorio del módulo
+action.FileChooser.GotoModule.text:
+    text: Directorio del módulo
+action.FileChooser.GotoProject.description:
+    text: Ir al directorio del proyecto
+action.FileChooser.GotoProject.text:
+    text: Directorio del proyecto
+action.FileChooser.NewFile.description:
+    text: Crear un nuevo archivo
+action.FileChooser.NewFile.text:
+    text: Nuevo archivo…
+action.FileChooser.NewFolder.description:
+    text: Crear un nuevo directorio
+action.FileChooser.NewFolder.text:
+    text: Nuevo directorio…
+action.FileChooser.Refresh.description:
+    text: Actualizar el árbol del sistema de archivos
+action.FileChooser.Refresh.text:
+    text: Actualizar
+action.FileChooser.TogglePathShowing.text:
+    text: Mostrar/ocultar texto de la ruta
+action.FileStructurePopup.description:
+    text: Muestra una ventana emergente con la estructura del archivo actual para una navegación rápida
+action.FileStructurePopup.text:
+    text: Estructura de archivo(_I)
+action.Find.description:
+    text: Buscar una cadena en el editor activo
+action.Find.text:
+    text: Buscar…(_F)
+action.FindInPath.description:
+    text: Buscar una cadena en varios archivos
+action.FindInPath.text:
+    text: Buscar en archivos…
+action.FindNext.description:
+    text: Repetir la última operación de buscar/reemplazar o ir a la siguiente aparición del texto seleccionado
+action.FindNext.text:
+    text: Buscar siguiente / Ir a la siguiente coincidencia(_N)
+action.FindPrevious.description:
+    text: Repite la última operación de búsqueda/reemplazo en dirección inversa o se desplaza a la coincidencia anterior del texto seleccionado.
+action.FindPrevious.text:
+    text: Buscar anterior / Desplazarse a la coincidencia anterior(_V)
+action.FindUsages.description:
+    text: Buscar usos del símbolo en el cursor
+action.FindUsages.text:
+    text: Buscar usos(_U)
+action.FindUsagesInFile.description:
+    text: Busca los usos del símbolo en la posición del cursor en el editor activo
+action.FindUsagesInFile.text:
+    text: Buscar usos en el archivo(_I)
+action.FindWordAtCaret.description:
+    text: Buscar la siguiente aparición de la palabra en el símbolo de intercalación
+action.FindWordAtCaret.text:
+    text: Siguiente aparición de la palabra en el cursor
+action.FixDocComment.description:
+    text: Generar o corregir el comentario de documentación para el contexto actual
+action.FixDocComment.text:
+    text: Corregir comentario de documentación
+action.Forward.description:
+    text: Rehacer la última operación de navegación deshecha
+action.Forward.text:
+    text: Adelante(_W)
+action.FullyExpandTreeNode.text:
+    text: Expandir nodo del árbol por completo
+action.Generate.description:
+    text: Generar constructores, métodos getter o setter, etc.
+action.Generate.text:
+    text: Generar…
+action.GenerateSuperMethodCall.text:
+    text: Llamada al método super
+action.GoToLinkTarget.description:
+    text: Abre el destino de este enlace simbólico en la vista del proyecto
+action.GoToLinkTarget.text:
+    text: Ir al destino del enlace
+action.GotoAction.description:
+    text: Navegar rápidamente a una acción por nombre
+action.GotoAction.text:
+    text: Buscar acción…(_F)
+action.GotoClass.description:
+    text: Navegar rápidamente a una clase por su nombre
+action.GotoClass.text:
+    text: Ir a la clase…
+action.GotoDeclaration.description:
+    text: Navegar a la declaración del símbolo en la posición del cursor o mostrar sus usos
+action.GotoDeclaration.text:
+    text: Ir a declaración o usos
+action.GotoFile.description:
+    text: Navegar rápidamente a un archivo por nombre
+action.GotoFile.text:
+    text: Ir al archivo…
+action.GotoImplementation.description:
+    text: Navegar a la(s) implementación(es) de la clase o el método seleccionados
+action.GotoImplementation.text:
+    text: Ir a implementación(es)(_M)
+action.GotoLine.description:
+    text: Navegar a una línea (y/o columna) en el editor por su número
+action.GotoLine.text:
+    text: Ir a la línea:columna…
+action.GotoNextError.description:
+    text: Navegar al siguiente error resaltado en el editor activo
+action.GotoNextError.text:
+    text: Siguiente error resaltado(_N)
+action.GotoPreviousError.description:
+    text: Navegar al error resaltado anterior en el editor activo
+action.GotoPreviousError.text:
+    text: Anterior error resaltado(_P)
+action.GotoRelated.description:
+    text: Navegar a uno de los símbolos relacionados o vinculados
+action.GotoRelated.text:
+    text: Símbolo relacionado…(_R)
+action.GotoSuperMethod.description:
+    text: Navegar a la declaración del método que el método actual sobrescribe o implementa
+action.GotoSuperMethod.text:
+    text: Ir al supermétodo
+action.GotoSymbol.description:
+    text: Navegar rápidamente a cualquier símbolo por nombre
+action.GotoSymbol.text:
+    text: Ir a símbolo…
+action.GotoTest.description:
+    text: Navegar a la prueba de la clase seleccionada
+action.GotoTest.text:
+    text: Ir al test
+action.GotoTestSubject.description:
+    text: Navegar al sujeto de la prueba seleccionada
+action.GotoTestSubject.text:
+    text: Ir al sujeto de prueba(_E)
+action.GotoTypeDeclaration.description:
+    text: Navegar a la declaración del tipo del símbolo en la posición del cursor
+action.GotoTypeDeclaration.text:
+    text: Ir a la declaración de tipo
+action.Graph.Current.Node.Dependencies.Filter.text:
+    text: Mostrar nodos seleccionados con dependencias
+action.Graph.print.reset:
+    text: Restablecer
+action.Help.KeymapReference.description:
+    text: Abrir un archivo PDF con la tarjeta de referencia del mapa de teclas predeterminado
+action.Help.KeymapReference.text:
+    text: PDF de atajos de teclado(_K)
+action.HelpTopics.description:
+    text: Mostrar los temas de ayuda
+action.HelpTopics.text:
+    text: Ay_uda
+action.HideActiveWindow.description:
+    text: Ocultar la ventana de herramientas activa
+action.HideActiveWindow.text:
+    text: Ocultar ventana de herramientas activa(_D)
+action.HideAllWindows.description:
+    text: Ocultar todas las ventanas de herramientas
+action.HideAllWindows.text:
+    text: Ocultar todas las ventanas de herramientas(_T)
+action.HideSideWindows.description:
+    text: Ocultar todas las ventanas de este lado
+action.HideSideWindows.text:
+    text: Ocultar ventanas de herramientas laterales
+action.HighlightUsagesInFile.description:
+    text: Resalta los usos del símbolo en el cursor en el editor activo
+action.HighlightUsagesInFile.not.ready:
+    text: Esta búsqueda de usos requiere índices y no puede realizarse hasta que se hayan construido
+action.HighlightUsagesInFile.text:
+    text: Resaltar usos en el archivo(_H)
+action.HippieBackwardCompletion.description:
+    text: Expandir palabra cíclicamente (hacia atrás)
+action.HippieBackwardCompletion.text:
+    text: Expansión cíclica de palabra (hacia atrás)(_E)
+action.HippieCompletion.description:
+    text: Expansión cíclica de palabras
+action.HippieCompletion.text:
+    text: Expansión cíclica de palabras(_E)
+action.IdeScriptingConsole.description:
+    text: Abrir la consola de scripts del IDE
+action.IdeScriptingConsole.text:
+    text: Consola de scripting del IDE
+action.Images.Editor.ActualSize.description:
+    text: Redimensionar imagen al tamaño real
+action.Images.Editor.ActualSize.text:
+    text: Tamaño real
+action.Images.Editor.ToggleGrid.description:
+    text: Alternar las líneas de la cuadrícula sobre la imagen
+action.Images.Editor.ToggleGrid.text:
+    text: Cuadrícula
+action.Images.Editor.ZoomIn.description:
+    text: Aumentar la vista de la imagen outdoors.
+action.Images.Editor.ZoomIn.text:
+    text: Acercar
+action.Images.Editor.ZoomOut.description:
+    text: Reducir la vista de la imagen
+action.Images.Editor.ZoomOut.text:
+    text: Alejar
+action.Images.ToggleTransparencyChessboard.description:
+    text: Alternar el tablero de ajedrez de transparencia bajo la imagen
+action.Images.ToggleTransparencyChessboard.text:
+    text: Cuadrícula de transparencia
+action.ImplementMethods.description:
+    text: Implementar métodos de la interfaz/clase base en la clase actual
+action.ImplementMethods.text:
+    text: Implementar métodos…(_I)
+action.ImportModule.description:
+    text: Importar un módulo desde un directorio con fuentes existentes o desde un modelo de proyecto existente
+action.ImportModule.text:
+    text: Módulo desde fuentes existentes…
+action.ImportModuleFromImlFile.description:
+    text: Importar archivo iml como un módulo al proyecto
+action.ImportModuleFromImlFile.text:
+    text: Importar módulo
+action.ImportProject.description:
+    text: Crea una estructura de proyecto para un directorio con fuentes existentes o convierte un modelo de proyecto existente
+action.ImportSettings.description:
+    text: Importar ajustes globales
+action.ImportSettings.text:
+    text: Importar configuración…
+action.IncomingChanges.Refresh.description:
+    text: Actualizar la lista de cambios entrantes
+action.IncomingChanges.Refresh.text:
+    text: Actualizar
+action.IncrementWindowHeight.text:
+    text: Aumentar altura
+action.IncrementWindowWidth.text:
+    text: Incrementar ancho
+action.IncrementalSearch.description:
+    text: Iniciar búsqueda incremental (busca la cadena mientras escribe), implementación de IntelliJ IDEA 6.0.
+action.IncrementalSearch.text:
+    text: Búsqueda incremental(_L)
+action.Inline.description:
+    text: Poner en línea el método o la variable seleccionados
+action.Inline.text:
+    text: Inline…(_N)
+action.InsertLiveTemplate.description:
+    text: Muestra una lista emergente de plantillas dinámicas que comienzan con el prefijo especificado
+action.InsertLiveTemplate.text:
+    text: Insertar plantilla activa…(_T)
+action.InspectCode.description:
+    text: Inspeccionar código
+action.InspectCode.text:
+    text: Inspeccionar código…(_I)
+action.IntroduceConstant.description:
+    text: Reemplazar la expresión seleccionada con una constante
+action.IntroduceConstant.text:
+    text: Introducir constante…(_C)
+action.IntroduceField.description:
+    text: Colocar el resultado de la expresión seleccionada en un campo
+action.IntroduceField.text:
+    text: Introducir campo…(_F)
+action.IntroduceParameter.description:
+    text: Convierte la expresión seleccionada en un parámetro de método
+action.IntroduceParameter.text:
+    text: Introducir parámetro…(_P)
+action.IntroduceParameterObject.description:
+    text: Reemplazar la lista de parámetros del método por un objeto
+action.IntroduceParameterObject.text:
+    text: Introducir objeto de parámetros…(_J)
+action.IntroduceVariable.description:
+    text: Colocar el resultado de la expresión seleccionada en una variable
+action.IntroduceVariable.text:
+    text: Introducir variable…(_V)
+action.InvalidateCaches.description:
+    text: Forzar la reconstrucción de todas las cachés e índices en el próximo inicio
+action.InvalidateCaches.text:
+    text: Invalidar cachés…
+action.JumpToLastChange.description:
+    text: Desplazarse por los puntos de cambio más recientes
+action.JumpToLastChange.text:
+    text: Última ubicación de edición(_O)
+action.JumpToLastWindow.description:
+    text: Activar la última ventana de herramientas enfocada
+action.JumpToLastWindow.text:
+    text: Saltar a la última ventana de herramientas(_J)
+action.ManageRecentProjects.text:
+    text: Gestionar proyectos…
+action.MemberPushDown.description:
+    text: Baja los miembros de la clase a las subclases que heredan directamente
+action.MemberPushDown.text:
+    text: Bajar miembros…(_S)
+action.MembersPullUp.description:
+    text: Subir miembros de la clase a la superclase o a la interfaz implementada
+action.MembersPullUp.text:
+    text: Subir miembros…(_L)
+action.Merge3Files.text:
+    text: Combinar
+action.MethodDown.description:
+    text: Navegar al siguiente método en el editor activo
+action.MethodDown.text:
+    text: Siguiente sentencia(_E)
+action.MethodHierarchy.ImplementMethodAction.description:
+    text: Implementar método (desde la jerarquía de métodos)
+action.MethodHierarchy.ImplementMethodAction.text:
+    text: Implementar método
+action.MethodHierarchy.OverrideMethodAction.description:
+    text: Sobrescribir método (desde la jerarquía de métodos)
+action.MethodHierarchy.OverrideMethodAction.text:
+    text: Sobrescribir método
+action.MethodHierarchy.description:
+    text: Explorar la jerarquía de métodos del método seleccionado
+action.MethodHierarchy.text:
+    text: Jerarquía de métodos(_M)
+action.MethodUp.description:
+    text: Navegar al método anterior en el editor activo
+action.MethodUp.text:
+    text: Instrucc_ión anterior
+action.MinimizeCurrentWindow.description:
+    text: Minimizar la ventana actual
+action.MinimizeCurrentWindow.text:
+    text: Minimizar
+action.ModuleSettings.description:
+    text: Abre el cuadro de diálogo de configuración para el módulo seleccionado
+action.ModuleSettings.text:
+    text: Ajustes del módulo(_S)
+action.Move.description:
+    text: Mover la clase, el método, el paquete o el miembro estático seleccionado a otro paquete o clase y corregir todas las referencias
+action.Move.text:
+    text: Mover…(_M)
+action.MoveEditorToOppositeTabGroup.description:
+    text: Mueve el editor al grupo de pestañas opuesto
+action.MoveEditorToOppositeTabGroup.text:
+    text: Mover al grupo opuesto(_M)
+action.MoveElementLeft.description:
+    text: Mueve el elemento o los elementos actuales a la posición anterior en la lista de elementos que los contiene
+action.MoveElementLeft.text:
+    text: Mover elemento a la izquierda
+action.MoveElementRight.description:
+    text: Mover el o los elementos actuales a la siguiente posición en la lista de elementos contenedora
+action.MoveElementRight.text:
+    text: Mover elemento a la derecha
+action.MoveLineDown.description:
+    text: Mover las líneas seleccionadas una línea hacia abajo
+action.MoveLineDown.text:
+    text: Mover línea hacia abajo(_W)
+action.MoveLineUp.description:
+    text: Mueve las líneas seleccionadas una línea hacia arriba
+action.MoveLineUp.text:
+    text: Mover línea hacia arriba(_U)
+action.MoveStatementDown.description:
+    text: Mueve las sentencias seleccionadas una línea hacia abajo
+action.MoveStatementDown.text:
+    text: Mover sentencia hacia abajo(_W)
+action.MoveStatementUp.description:
+    text: Mueve las sentencias seleccionadas una línea hacia arriba
+action.MoveStatementUp.text:
+    text: Mover sentencia hacia arriba(_U)
+action.NewDir.text:
+    text: Directorio
+action.NewDirectoryProject.description:
+    text: Crear un nuevo proyecto
+action.NewDirectoryProject.text:
+    text: Nuevo proyecto…
+action.NewElement.description:
+    text: Crea una nueva clase, interfaz, archivo o directorio
+action.NewElement.text:
+    text: Nuevo…(_N)
+action.NewElementSamePlace.description:
+    text: Crea una nueva clase, interfaz, archivo o directorio en este directorio
+action.NewElementSamePlace.text:
+    text: Nuevo en este directorio…(_N)
+action.NewFile.text:
+    text: Archivo
+action.NewModule.description:
+    text: Crear un nuevo módulo desde cero y añadirlo al proyecto
+action.NewModule.text:
+    text: Módulo…(_M)
+action.NewModuleInGroup.text:
+    text: Módulo
+action.NewProject.description:
+    text: Crear un nuevo proyecto desde cero
+action.NewProject.text:
+    text: Proyecto…(_P)
+action.NewScratchBuffer.description:
+    text: Crea un nuevo búfer temporal o reutiliza uno existente
+action.NewScratchBuffer.text:
+    text: Nuevo búfer de borrador
+action.NewScratchFile.description:
+    text: Crea un nuevo archivo scratch con el lenguaje seleccionado
+action.NewScratchFile.text:
+    text: Archivo temporal
+action.NewScratchFile.text.with.new:
+    text: Nuevo archivo scratch
+action.NextDiff.description:
+    text: Ir a la siguiente diferencia
+action.NextDiff.text:
+    text: Siguiente diferencia
+action.NextEditorTab.text:
+    text: Seleccionar la siguiente pestaña en el archivo multieditor
+action.NextOccurence.description:
+    text: Navegar a la siguiente aparición
+action.NextOccurence.text:
+    text: Siguiente ocurrencia(_X)
+action.NextParameter.text:
+    text: Siguiente parámetro
+action.NextProjectWindow.description:
+    text: Cambiar a la siguiente ventana de solución
+action.NextProjectWindow.text:
+    text: Siguiente ventana de solución
+action.NextSplitter.description:
+    text: Ir a la siguiente ventana dividida
+action.NextSplitter.text:
+    text: Ir al siguiente divisor(_G)
+action.NextTab.description:
+    text: Activar la pestaña siguiente
+action.NextTab.text:
+    text: Seleccionar próxima pestaña(_X)
+action.NextTemplateParameter.text:
+    text: Siguiente parámetro de plantilla activa
+action.NextTemplateVariable.text:
+    text: Siguiente variable de plantilla o finalizar refactorización en el lugar
+action.OnlineDocAction.description:
+    text: Mostrar pantalla de bienvenida
+action.OnlineDocAction.text:
+    text: Primeros pasos(_G)
+action.OpenFile.description:
+    text: Abre un proyecto o archivo en el editor
+action.OpenFile.text:
+    text: Abrir(_O)…
+action.OpenInRightSplit.description:
+    text: Divide el área del editor en dos grupos de pestañas y abre el archivo actual en el grupo de la derecha
+action.OpenInRightSplit.text:
+    text: Abrir en división derecha
+action.OpenModuleSettings.text:
+    text: Configuración del módulo
+action.OverrideFileTypeAction.description:
+    text: Tratar el archivo actual como un archivo de un tipo de archivo diferente
+action.OverrideFileTypeAction.text:
+    text: Sobrescribir tipo de archivo
+action.OverrideFileTypeAction.verbose.description:
+    text: "Tratar el archivo ''{0}''{1,choice,0#|1# (y {1} archivos más)} como un archivo de un tipo de archivo diferente"
+action.OverrideMethods.description:
+    text: Sobrescribir los métodos de la clase base en la clase actual
+action.OverrideMethods.text:
+    text: Sobrescribir métodos…(_O)
+action.ParameterInfo.description:
+    text: Muestra los parámetros de la llamada al método en la posición del cursor
+action.ParameterInfo.text:
+    text: Información de parámetros(_P)
+action.PasteMultiple.description:
+    text: Pegar desde los portapapeles recientes
+action.PasteMultiple.text:
+    text: Pegar desde el historial…(_E)
+action.PinActiveTab.description:
+    text: Fijar la pestaña activa del editor o de la ventana de herramientas
+action.PinActiveTab.text:
+    text: Fijar pestaña activa(_I)
+action.PlaySavedMacrosAction.description:
+    text: Reproducir macros guardadas
+action.PlaySavedMacrosAction.text:
+    text: Reproducir macros guardadas…
+action.PlaybackLastMacro.description:
+    text: Reproducir la última macro utilizada
+action.PlaybackLastMacro.text:
+    text: Reproducir última macro(_Y)
+action.PopupHector.description:
+    text: Muestra un panel para configurar el modo de resaltado del archivo actual
+action.PopupHector.text:
+    text: Configurar el análisis del archivo actual…
+action.PrevParameter.text:
+    text: Parámetro anterior
+action.PrevSplitter.description:
+    text: Ir a la ventana de división anterior
+action.PrevSplitter.text:
+    text: Ir al divisor anterior
+action.PrevTemplateParameter.text:
+    text: Anterior parámetro de plantilla activa
+action.PreviousDiff.description:
+    text: Ir a la diferencia anterior
+action.PreviousDiff.text:
+    text: Diferencia anterior
+action.PreviousEditorTab.text:
+    text: Seleccionar pestaña anterior en archivo multieditor
+action.PreviousOccurence.description:
+    text: Navegar a la aparición anterior
+action.PreviousOccurence.text:
+    text: Coincidencia anteri_or
+action.PreviousProjectWindow.description:
+    text: Cambiar a la ventana de solución anterior
+action.PreviousProjectWindow.text:
+    text: Ventana de la solución anterior
+action.PreviousTab.description:
+    text: Activar la pestaña anterior
+action.PreviousTab.text:
+    text: Seleccionar pestaña anterior(_L)
+action.PreviousTemplateVariable.text:
+    text: Variable de plantilla anterior
+action.Print.description:
+    text: Imprimir archivo
+action.Print.text:
+    text: Imprimir…(_P)
+action.ProjectViewEditSource.text:
+    text: Editar fuente
+action.PsiViewer.text:
+    text: Ver estructura PSI…(_V)
+action.PsiViewerForContext.text:
+    text: Ver la estructura PSI del archivo actual…(_R)
+action.QuickChangeScheme.description:
+    text: Cambia el esquema de estilo de código, el esquema de colores\&fuentes, el mapa de teclas o la apariencia actuales
+action.QuickChangeScheme.text:
+    text: Cambio rápido de esquema…(_Q)
+action.QuickDocCopy.text:
+    text: Copiar documentación rápida
+action.QuickEvaluateExpression.description:
+    text: Evaluar la expresión seleccionada
+action.QuickEvaluateExpression.text:
+    text: Evaluación rápida de expresiones(_Q)
+action.QuickImplementations.description:
+    text: Muestra una ventana emergente con el contenido del símbolo (y sus implementaciones)
+action.QuickImplementations.text:
+    text: Definición rápida(_K)
+action.QuickJavaDoc.description:
+    text: Muestra una ventana emergente con la documentación del símbolo en el cursor
+action.QuickJavaDoc.text:
+    text: Documentación rápida(_D)
+action.RearrangeCode.description:
+    text: Reorganizar código
+action.RearrangeCode.text:
+    text: Reorganizar código
+action.RecentChangedFiles.description:
+    text: Mostrar la lista de archivos modificados recientemente
+action.RecentChangedFiles.text:
+    text: Archivos modificados recientemente
+action.RecentChanges.text:
+    text: Cambios recientes(_E)
+action.RecentFiles.description:
+    text: Muestra la lista de archivos vistos recientemente
+action.RecentFiles.text:
+    text: Archivos recie_ntes
+action.RecentLocations.description:
+    text: Muestra la lista de ubicaciones visitadas o modificadas recientemente
+action.RecentLocations.text:
+    text: Ubicaciones recientes
+action.Refactorings.QuickListPopupAction.description:
+    text: Ventana emergente sensible al contexto con una lista de acciones de refactorización
+action.Refactorings.QuickListPopupAction.text:
+    text: Refactorizar…
+action.ReformatCode.description:
+    text: Reformatear código
+action.ReformatCode.text:
+    text: Reformatear código(_R)
+action.Refresh.text:
+    text: Actualizar(_E)
+action.ReloadProjectAction.text:
+    text: Recargar todos los proyectos
+action.RemoveStripeButton.description:
+    text: Elimina el botón de la ventana de herramientas de la barra lateral
+action.RemoveStripeButton.text:
+    text: Eliminar de la barra lateral
+action.RenameElement.description:
+    text: Renombrar el símbolo seleccionado y corregir todas las referencias
+action.RenameElement.text:
+    text: Renombrar…(_R)
+action.ReopenClosedTab.text:
+    text: Reabrir pestaña cerrada
+action.Replace.description:
+    text: Reemplaza una cadena en el editor activo por otra cadena
+action.Replace.text:
+    text: Reemplazar…(_R)
+action.ReplaceInPath.description:
+    text: Reemplazar una cadena en varios archivos por otra cadena
+action.ReplaceInPath.text:
+    text: Reempl_azar en archivos…
+action.RerunFailedTests.description:
+    text: Ejecutar solo las pruebas que fallaron o se cerraron inesperadamente tras la última ejecución; pulse Mayús para elegir el modo Ejecutar/Depurar
+action.RerunFailedTests.text:
+    text: Reejecutar pruebas fallidas
+action.ResizeToolWindowDown.description:
+    text: Redimensionar la ventana de herramientas activa hacia abajo
+action.ResizeToolWindowDown.text:
+    text: Estirar hacia abajo
+action.ResizeToolWindowLeft.description:
+    text: Redimensionar la ventana de herramientas activa hacia la izquierda
+action.ResizeToolWindowLeft.text:
+    text: Extender hacia la izquierda
+action.ResizeToolWindowMaximize.text:
+    text: Maximizar ventana de herramientas
+action.ResizeToolWindowMaximize.text.alternative:
+    text: Restaurar tamaño de la ventana de herramientas
+action.ResizeToolWindowRight.description:
+    text: Redimensionar la ventana de herramientas activa hacia la derecha
+action.ResizeToolWindowRight.text:
+    text: Estirar a la derecha
+action.ResizeToolWindowUp.description:
+    text: Redimensionar la ventana de herramientas activa hacia arriba
+action.ResizeToolWindowUp.text:
+    text: Estirar hacia arriba
+action.RestoreDefaultLayout.description:
+    text: Restaurar el diseño seleccionado actualmente
+action.RestoreDefaultLayout.text:
+    text: Restaurar diseño actual(_R)
+action.RevealIn.name.mac:
+    text: Mostrar en el Finder
+action.RevealIn.name.other:
+    text: Mostrar en {0}
+action.RevealIn.text:
+    text: Mostrar en el administrador de archivos
+action.ReverteOverrideFileTypeAction.description:
+    text: Deshacer la acción "Invalidar tipo de archivo" y restaurar el tipo de archivo anterior
+action.ReverteOverrideFileTypeAction.text:
+    text: Revertir invalidación de tipo de archivo
+action.ReverteOverrideFileTypeAction.verbose.description:
+    text: "Deshacer la acción \"Sobrescribir tipo de archivo\" y restaurar el tipo de archivo anterior para el archivo ''{0}''{1,choice,0#|1# (y {1} archivos más)}"
+action.RunAnything.description:
+    text: Permite ejecutar cualquier comando
+action.RunAnything.text:
+    text: Ejecutar cualquier cosa
+action.RunConfiguration.description:
+    text: Seleccionar la configuración de ejecución/depuración
+action.RunConfiguration.text:
+    text: Seleccionar configuración de ejecución/depuración
+action.RunDashboard.ClearContent.text:
+    text: Limpiar contenido
+action.RunDashboard.CopyConfiguration.text:
+    text: Copiar configuración
+action.RunDashboard.Debug.text:
+    text: Depurar
+action.RunDashboard.EditConfiguration.text:
+    text: Editar configuración
+action.RunDashboard.GroupByStatus.text:
+    text: Estado
+action.RunDashboard.GroupByType.text:
+    text: Tipo
+action.RunDashboard.GroupConfigurations.text:
+    text: Agrupar configuraciones
+action.RunDashboard.HideConfiguration.text:
+    text: Ocultar configuración
+action.RunDashboard.OpenRunningConfigInNewTab.text:
+    text: Abrir configuración de ejecución en una pestaña nueva
+action.RunDashboard.RemoveType.text:
+    text: Eliminar tipo de configuración de Servicios
+action.RunDashboard.RestoreConfiguration.text:
+    text: Restaurar configuración
+action.RunDashboard.RestoreHiddenConfigurations.text:
+    text: Restaurar configuraciones ocultas
+action.RunDashboard.Run.text:
+    text: Ejecutar
+action.RunDashboard.Stop.text:
+    text: Detener
+action.RunDashboard.UngroupConfigurations.text:
+    text: Desagrupar configuraciones
+action.Runner.CloseAllViews.description:
+    text: Cerrar todas las vistas
+action.Runner.CloseAllViews.text:
+    text: Cerrar todo
+action.Runner.CloseOtherViews.description:
+    text: Cierra otras vistas
+action.Runner.CloseOtherViews.text:
+    text: Cerrar otros
+action.Runner.CloseView.description:
+    text: Cerrar vista
+action.Runner.CloseView.text:
+    text: Cerrar
+action.Runner.FocusOnStartup.description:
+    text: Enfocar esta vista por defecto cuando se muestra la interfaz de usuario
+action.Runner.FocusOnStartup.text:
+    text: Enfocar al iniciar
+action.Runner.RestoreLayout.description:
+    text: Restaurar los elementos visuales de la sesión del depurador al estado predeterminado
+action.Runner.RestoreLayout.text:
+    text: Restablecer diseño predeterminado
+action.SafeDelete.description:
+    text: Elimina la clase, el método o el campo seleccionados, comprobando sus usos
+action.SafeDelete.text:
+    text: Eliminación segura…(_D)
+action.SaveAll.description:
+    text: Guardar todos los archivos y ajustes
+action.SaveAll.text:
+    text: Guardar todo(_S)
+action.SaveAsTemplate.description:
+    text: Guardar el texto seleccionado como una plantilla activa
+action.SaveAsTemplate.text:
+    text: Guardar como plantilla activa…(_I)
+action.SaveDocument.description:
+    text: Guardar solo el archivo abierto en el editor actual
+action.SaveDocument.text:
+    text: Guardar documento
+action.SaveFileAsTemplate.description:
+    text: Guardar el archivo actual como plantilla
+action.SaveFileAsTemplate.text:
+    text: Guardar archivo como plantilla(_L)…
+action.ScopeView.EditScopes.description:
+    text: Editar ámbitos…
+action.ScopeView.EditScopes.text:
+    text: Editar ámbitos…(_I)
+action.Scratch.ChangeLanguage.description:
+    text: Cambiar el idioma del archivo scratch
+action.Scratch.ChangeLanguage.text:
+    text: Cambiar idioma del archivo
+action.ScrollTreeToCenter.text:
+    text: Desplazar al centro
+action.SearchEverywhere.text:
+    text: Buscar en todas partes
+action.SelectAllOccurrences.text:
+    text: Seleccionar todas las coincidencias
+action.SelectIn.description:
+    text: Seleccionar la clase o el método actual en cualquier vista
+action.SelectIn.text:
+    text: Seleccionar en…(_L)
+action.SelectNextOccurrence.text:
+    text: Añadir selección para la siguiente aparición
+action.ServiceView.ConfigureServices.text:
+    text: Configurar la ventana de herramientas de servicios
+action.ServiceView.GroupByContributor.text:
+    text: Agrupar servicios por tipo
+action.ServiceView.JumpToServices.text:
+    text: Saltar a servicios
+action.ServiceView.OpenEachInNewTab.text:
+    text: Abrir cada uno en una pestaña nueva
+action.ServiceView.OpenInNewTab.text:
+    text: Abrir en una pestaña nueva
+action.ServiceView.OpenInToolWindow.text:
+    text: Abrir en una ventana de herramientas separada
+action.ServiceView.SelectActiveService.text:
+    text: Seleccionar siempre el servicio activo
+action.ServiceView.ShowServices.text:
+    text: Mostrar árbol de servicios
+action.ServiceView.SplitByType.text:
+    text: Abrir cada tipo en una pestaña nueva
+action.ShelvedChanges.Rename.description:
+    text: Renombrar lista de cambios en la estantería
+action.ShelvedChanges.Rename.text:
+    text: Cambiar nombre…
+action.ShelvedChanges.Restore.text:
+    text: Restaurar cambio archivado aplicado
+action.ShelvedChanges.ShowHideDeleted.description:
+    text: Mostrar/ocultar los ya sacados de la reserva
+action.ShelvedChanges.ShowHideDeleted.text:
+    text: Mostrar/ocultar cambios de la estantería aplicados
+action.ShowBackwardPackageDeps.description:
+    text: Explorar el código donde se utiliza el elemento de análisis seleccionado
+action.ShowBackwardPackageDeps.text:
+    text: Analizar dependencias inversas…(_B)
+action.ShowColorPicker.text:
+    text: Mostrar selector de colores
+action.ShowContent.description:
+    text: Muestra una ventana emergente con la lista de pestañas de la ventana de herramientas
+action.ShowContent.text:
+    text: Mostrar lista de pestañas
+action.ShowContent.views.text:
+    text: Mostrar lista de vistas
+action.ShowErrorDescription.description:
+    text: Muestra la descripción del error o advertencia en el cursor
+action.ShowErrorDescription.text:
+    text: Descripción del error(_R)
+action.ShowFilePath.description:
+    text: Muestra una ventana emergente con la ruta del archivo actual para abrirlo en un gestor de archivos externo
+action.ShowFilePath.text:
+    text: Ruta del archivo(_P)
+action.ShowIntentionActions.text:
+    text: Mostrar acciones de contexto
+action.ShowLog.description:
+    text: Abre la carpeta que contiene el archivo de registro
+action.ShowLog.text:
+    text: Mostrar log en el administrador de archivos(_L)
+action.ShowModulesDependencies.description:
+    text: Mostrar las dependencias entre los módulos del proyecto
+action.ShowModulesDependencies.text:
+    text: Analizar dependencias de módulos…(_M)
+action.ShowNavBar.text:
+    text: Ir a la barra de navegación(_J)
+action.ShowPackageDeps.description:
+    text: Explorar el código del que depende el elemento de análisis seleccionado
+action.ShowPackageDeps.text:
+    text: Analizar dependencias…(_D)
+action.ShowPopupMenu.text:
+    text: Mostrar menú contextual
+action.ShowProcessWindow.description:
+    text: Mostrar/ocultar la ventana de procesos
+action.ShowProcessWindow.double.click:
+    text: Haga clic para mostrar/ocultar la ventana de procesos
+action.ShowProcessWindow.text:
+    text: Mostrar
+action.ShowProjectStructureSettings.description:
+    text: Configurar la estructura del proyecto
+action.ShowProjectStructureSettings.text:
+    text: Estructura del proyecto…
+action.ShowReformatFileDialog.text:
+    text: Reformatear archivo…
+action.ShowRegistry.text:
+    text: Registro…
+action.ShowSettingsAndFindUsages.description:
+    text: Elija el ámbito y edite las opciones para la acción Buscar usos
+action.ShowSettingsAndFindUsages.text:
+    text: Configuración de buscar usos…
+action.ShowTips.description:
+    text: Aprenda cómo aumentar su productividad al programar.
+action.ShowTips.text:
+    text: Consejo del día(_T)
+action.ShowUsages.description:
+    text: Mostrar usos del símbolo en el cursor
+action.ShowUsages.text:
+    text: Mostrar usos(_S)
+action.SmartTypeCompletion.description:
+    text: Completar el código basado en el tipo esperado
+action.SmartTypeCompletion.text:
+    text: Coincidencia de tipos
+action.SplitHorizontally.description:
+    text: Divide el área del editor en dos grupos de pestañas y mueve la pestaña actual al grupo inferior
+action.SplitHorizontally.text:
+    text: Dividir hacia abajo
+action.SplitVertically.description:
+    text: Divide el área del editor en dos grupos de pestañas y mueve la pestaña actual al grupo de la derecha
+action.SplitVertically.text:
+    text: Dividir a la derecha
+action.StartStopMacroRecording.description:
+    text: Iniciar/Detener la grabación de una nueva macro
+action.StartStopMacroRecording.text:
+    text: Iniciar/detener grabación de macro(_R)
+action.Stop.description:
+    text: Detener proceso
+action.Stop.text:
+    text: Detener
+action.StopBackgroundProcesses.description:
+    text: Detener procesos en segundo plano
+action.StopBackgroundProcesses.text:
+    text: Detener procesos en segundo plano…
+action.StoreDefaultLayout.description:
+    text: Guardar los cambios en el diseño seleccionado actualmente
+action.StoreDefaultLayout.text:
+    text: Guardar cambios en el diseño actual(_S)
+action.SurroundWith.description:
+    text: Rodear el fragmento de código seleccionado con if, while, try/catch u otra estructura
+action.SurroundWith.text:
+    text: Rodear con…(_S)
+action.SurroundWithLiveTemplate.description:
+    text: Rodea la selección con una de las plantillas
+action.SurroundWithLiveTemplate.text:
+    text: Rodear con plantilla activa…(_P)
+action.Switcher.text:
+    text: Conmutador
+action.Synchronize.description:
+    text: Detectar todos los archivos modificados externamente y volver a cargarlos desde el disco
+action.Synchronize.text:
+    text: Recargar todo desde el disco
+action.SynchronizeCurrentFile.text:
+    text: Recargar desde el disco
+action.TabList.description:
+    text: Muestra un menú desplegable con la lista de pestañas que no caben en la pantalla en un diseño de pestañas de una sola fila
+action.TabList.text:
+    text: Mostrar pestañas ocultas
+action.TechnicalSupport.description:
+    text: Contactar con el soporte técnico en el sitio web de JetBrains
+action.TechnicalSupport.text:
+    text: Contactar con el soporte técnico…(_S)
+action.TemplateProjectStructure.description:
+    text: Configurar la estructura predeterminada para todos los proyectos nuevos
+action.TemplateProjectStructure.text:
+    text: Estructura para nuevos proyectos…
+action.TextComponent.ClearAction.description:
+    text: Borrar el texto de los componentes de texto
+action.TextComponent.ClearAction.text:
+    text: Borrar texto
+action.ToggleBreakpointEnabled.description:
+    text: Activar/desactivar el punto de interrupción en la línea actual
+action.ToggleBreakpointEnabled.text:
+    text: Alternar habilitación de punto de interrupción(_B)
+action.ToggleContentUiTypeMode.description:
+    text: Alternar entre la presentación de contenidos en pestañas o combo
+action.ToggleContentUiTypeMode.text:
+    text: Agrupar pestañas
+action.ToggleDockMode.description:
+    text: Acoplar/desacoplar ventana de herramientas activa
+action.ToggleDockMode.text:
+    text: Modo acoplado (_E)
+action.ToggleFloatingMode.description:
+    text: Activar/desactivar el modo flotante de la ventana de herramientas activa
+action.ToggleFloatingMode.text:
+    text: Modo flotante(_M)
+action.ToggleFullScreen.description:
+    text: Alternar el modo de pantalla completa
+action.ToggleFullScreen.text:
+    text: Alternar modo de pantalla completa
+action.ToggleFullScreen.text.enter:
+    text: Entrar en pantalla completa
+action.ToggleFullScreen.text.exit:
+    text: Salir de pantalla completa
+action.TogglePinnedMode.description:
+    text: Anclar/desanclar la ventana de herramientas activa
+action.TogglePinnedMode.text:
+    text: Modo anclado(_P)
+action.TogglePopupHints.text:
+    text: Alternar sugerencias emergentes para el archivo actual
+action.TogglePowerSave.description:
+    text: El modo de ahorro de energía desactiva el análisis de código en segundo plano y otras operaciones en segundo plano
+action.TogglePowerSave.text:
+    text: Modo de ahorro de energía
+action.TogglePresentationMode.description:
+    text: Alternar el modo de presentación
+action.TogglePresentationMode.text:
+    text: Alternar modo de presentación
+action.TogglePresentationMode.text.enter:
+    text: Entrar en el modo de presentación
+action.TogglePresentationMode.text.exit:
+    text: Salir del modo presentación
+action.ToggleReadOnlyAttribute.description:
+    text: Alternar el atributo de solo lectura del archivo actual
+action.ToggleReadOnlyAttribute.files:
+    text: Hacer {2,choice,1#el archivo|2#los archivos} {0,choice,0#de solo lectura|1#de escritura}
+action.ToggleReadOnlyAttribute.text:
+    text: Alternar atributo de solo lectura
+action.ToggleSideMode.description:
+    text: Activar/desactivar el modo de división de las ventanas de herramientas
+action.ToggleSideMode.text:
+    text: Modo dividido
+action.ToggleWindowedMode.description:
+    text: Alternar el modo de ventana de la ventana de herramientas activa
+action.ToggleWindowedMode.text:
+    text: Modo ven_tana
+action.TypeHierarchy.Class.text:
+    text: Jerarquía de clases
+action.TypeHierarchy.Subtypes.text:
+    text: Jerarquía de subtipos
+action.TypeHierarchy.Supertypes.text:
+    text: Jerarquía de supertipos
+action.TypeHierarchy.description:
+    text: Explorar la jerarquía de la clase seleccionada
+action.TypeHierarchy.text:
+    text: Jerarquía de tipos(_H)
+action.UnmarkRoot.text:
+    text: Desmarcar
+action.UnselectPreviousOccurrence.text:
+    text: Deseleccionar coincidencia
+action.Unsplit.description:
+    text: Quitar la división de la ventana
+action.Unsplit.text:
+    text: Anular división(_S)
+action.UnsplitAll.description:
+    text: Quitar todos los divisores
+action.UnsplitAll.text:
+    text: Quitar todas las divisiones(_N)
+action.Unwrap.description:
+    text: Desenvuelve o elimina de forma segura el ámbito seleccionado.
+action.Unwrap.text:
+    text: Deshacer envoltorio/Eliminar…(_W)
+action.UpdateRunningApplication.text:
+    text: Actualizar la aplicación en ejecución
+action.UsageView.Exclude.description:
+    text: Excluir este(os) uso(s) del procesamiento
+action.UsageView.Exclude.text:
+    text: Excluir
+action.UsageView.Include.description:
+    text: Incluir este uso (o usos) en el procesamiento
+action.UsageView.Include.text:
+    text: Incluir
+action.UsageView.Rerun.description:
+    text: Volver a ejecutar la búsqueda
+action.UsageView.Rerun.text:
+    text: Volver a ejecutar
+action.UsageView.ShowRecentFindUsages.description:
+    text: Seleccionar y volver a ejecutar búsquedas de uso recientes
+action.UsageView.ShowRecentFindUsages.text:
+    text: Búsquedas de usos recientes(_E)
+action.Vcs.RollbackChangedLines.description:
+    text: Revertir los cambios en las líneas seleccionadas
+action.Vcs.RollbackChangedLines.text:
+    text: Revertir líneas
+action.Vcs.ShowHistoryForBlock.description:
+    text: Mostrar el historial de la selección del editor
+action.Vcs.ShowHistoryForBlock.text:
+    text: Mostrar historial de la selección…(_F)
+action.Vcs.UpdateProject.text:
+    text: Actualizar proyecto(_U)
+action.VcsHistory.ShowAllAffected.description:
+    text: Mostrar todos los cambios realizados en la revisión seleccionada
+action.VcsHistory.ShowAllAffected.text:
+    text: Mostrar todos los archivos afectados
+action.ViewImportPopups.description:
+    text: Alternar la visualización de ventanas emergentes de importación en el archivo actual
+action.ViewImportPopups.text:
+    text: Mostrar ventanas emergentes de importación
+action.ViewNavigationBar.description:
+    text: Mostrar/ocultar la barra de navegación
+action.ViewNavigationBar.text:
+    text: Barra de navegación(_V)
+action.ViewOfflineInspection.description:
+    text: Cargar resultados de inspección fuera de línea
+action.ViewOfflineInspection.text:
+    text: Ver resultados de inspección fuera de línea…(_O)
+action.ViewSource.description:
+    text: Abrir un editor para el elemento seleccionado
+action.ViewSource.text:
+    text: Ver código fuente(_W)
+action.ViewStatusBar.description:
+    text: Mostrar/ocultar la barra de estado
+action.ViewStatusBar.text:
+    text: Barra de estado(_S)
+action.ViewToolBar.description:
+    text: Mostrar/ocultar la barra de herramientas principal
+action.ViewToolBar.text:
+    text: Barra de herramientas(_T)
+action.ViewToolButtons.description:
+    text: Mostrar/ocultar botones de la ventana de herramientas
+action.ViewToolButtons.text:
+    text: Barras de ventanas de herramientas
+action.VirtualFileInfo.text:
+    text: Información de archivo virtual
+action.WelcomeScreen.Configure.Export.text:
+    text: Exportar configuración
+action.WelcomeScreen.Configure.Import.text:
+    text: Importar configuración…
+action.WelcomeScreen.CreateDirectoryProject.description:
+    text: Crea un nuevo proyecto.
+action.WelcomeScreen.CreateDirectoryProject.text:
+    text: Nuevo proyecto
+action.WelcomeScreen.CreateNewProject.description:
+    text: Inicie el asistente de "Nuevo proyecto" que le guiará por los pasos necesarios para crear un proyecto nuevo.
+action.WelcomeScreen.CreateNewProject.text:
+    text: Nuevo proyecto
+action.WelcomeScreen.DevelopPlugins.description:
+    text: Comience a desarrollar plugins.
+action.WelcomeScreen.DevelopPlugins.text:
+    text: Desarrollo de plugins
+action.WelcomeScreen.OpenDirectoryProject.description:
+    text: Comience a editar código en el archivo o directorio especificado.
+action.WelcomeScreen.OpenDirectoryProject.text:
+    text: Abrir proyecto…
+action.WelcomeScreen.OpenProject.description:
+    text: Abra un archivo o proyecto. También puede abrir un proyecto o editar un archivo arrastrándolo y soltándolo en la pantalla de bienvenida.
+action.WelcomeScreen.OpenProject.text:
+    text: Abrir o importar
+action.WelcomeScreen.Plugins.description:
+    text: Gestione los plugins instalados y descargue otros nuevos desde el repositorio
+action.WelcomeScreen.Plugins.text:
+    text: Extensiones
+action.WhatsNewAction.description:
+    text: Descubra las nuevas funciones de esta versión del IDE
+action.WhatsNewAction.text:
+    text: Novedades(_N)
+action.editRunConfigurations.description:
+    text: "Abrir el diálogo 'Editar configuraciones de ejecución/depuración'"
+action.editRunConfigurations.text:
+    text: Edita_r configuraciones…
+action.openAssertEqualsDiff.text:
+    text: Ver diferencia de assertEquals
+action.redo.description:
+    text: Rehacer {0}
+action.redo.description.empty:
+    text: última operación deshecha
+action.redo.text:
+    text: Rehacer {0}(_R)
+action.undo.description:
+    text: Deshacer {0}
+action.undo.description.empty:
+    text: última operación
+action.undo.text:
+    text: Deshacer {0}(_U)
+group.$LRU.description:
+    text: Lista de proyectos abiertos recientemente
+group.$LRU.text:
+    text: Proyectos recientes(_R)
+group.ActiveToolwindowGroup.text:
+    text: Ventana de herramientas activa
+group.AnalyzeJavaMenu.description:
+    text: Menú de análisis de Java
+group.AnalyzeJavaMenu.text:
+    text: Menú Analizar Java
+group.AnalyzeMenu.text:
+    text: Anali_zar
+group.BackgroundTasks.text:
+    text: Procesos
+group.Bookmarks.text:
+    text: Marcadores
+group.ChangeLineSeparators.text:
+    text: Separadores de línea
+group.CloseEditorsGroup.text:
+    text: Acciones de cierre del editor
+group.CodeCompletionGroup.text:
+    text: _Completado de código
+group.CodeEditorBaseGroup.text:
+    text: Acciones de la vista del editor de código
+group.CodeEditorViewGroup.text:
+    text: Acciones de la vista de código
+group.CodeFormatGroup.text:
+    text: Acciones de formato de código
+group.CodeMenu.text:
+    text: _Código
+group.CommentGroup.text:
+    text: Acciones de comentario
+group.ConvertIndentsGroup.text:
+    text: Convertir sangrías
+group.Copy.Paste.Special.description:
+    text: Acciones de copia/pegado especial del editor
+group.Copy.Paste.Special.text:
+    text: Copiar/Pegar especial
+group.CopyReferencePopupGroup.text:
+    text: Copiar ruta/referencia…
+group.CutCopyPasteGroup.text:
+    text: Acciones de cortar/copiar/pegar
+group.DebugMainMenu.text:
+    text: Acciones del depurador
+group.EditBookmarksGroup.text:
+    text: Marcadores(_K)
+group.EditCreateDeleteGroup.text:
+    text: Acciones de creación/eliminación del editor
+group.EditMenu.text:
+    text: _Editar
+group.EditSelectGroup.text:
+    text: Acciones de selección del editor
+group.EditSelectWordGroup.text:
+    text: Acciones de selección de palabra
+group.EditSmartGroup.text:
+    text: Editar acciones de código
+group.EditorActions.text:
+    text: Acciones del editor
+group.EditorBidiTextDirection.description:
+    text: Dirección principal para texto mixto LTR/RTL
+group.EditorBidiTextDirection.text:
+    text: Dirección base del texto bidireccional
+group.EditorGutterPopupMenu.text:
+    text: Menú emergente del margen del editor
+group.EditorLangPopupMenu.text:
+    text: Acciones del menú emergente del editor (2)
+group.EditorPopupMenu.GoTo.description:
+    text: Ir al grupo de menú emergente del editor
+group.EditorPopupMenu.GoTo.text:
+    text: Ir a
+group.EditorPopupMenu.Run.text:
+    text: Acciones de compilación/ejecución
+group.EditorPopupMenu.description:
+    text: Menú emergente del editor
+group.EditorPopupMenu.text:
+    text: Menú emergente del editor
+group.EditorPopupMenu1.text:
+    text: Acciones del menú emergente del editor (1)
+group.EditorPopupMenuDebug.text:
+    text: Acciones de depuración
+group.EditorTabPopupMenu.text:
+    text: Menú emergente de la pestaña del editor
+group.EditorTabPopupMenuEx.text:
+    text: Acciones del menú emergente de la pestaña del editor (1)
+group.EditorTabsGroup.text:
+    text: Pestañas del editor(_T)
+group.EditorToggleActions.text:
+    text: Editor activo
+group.ExportImportGroup.text:
+    text: Administrar configuración del IDE
+group.ExternalToolsGroup.text:
+    text: Herramientas externas
+group.FileMainSettingsGroup.text:
+    text: Acciones de configuración
+group.FileMenu.text:
+    text: Arc_hivo
+group.FileOpenGroup.text:
+    text: Acciones de apertura de archivos
+group.FileOtherSettingsGroup.text:
+    text: Configuración de nuevos proyectos
+group.FilePropertiesGroup.text:
+    text: Propiedades del archivo
+group.FindMenuGroup.text:
+    text: Buscar(_F)
+group.FoldingGroup.text:
+    text: Plegado
+group.GenerateGroup.text:
+    text: Generar(_G)
+group.GoToCodeGroup.text:
+    text: Acciones de ir a por referencia
+group.GoToErrorGroup.text:
+    text: Acciones de Ir a error/marcador
+group.GoToMenu.text:
+    text: _Navegar
+group.GoToTargetEx.text:
+    text: Acciones de Ir a por nombre
+group.HelpMenu.text:
+    text: Ayuda
+group.HierarchyGroup.text:
+    text: Acciones de jerarquía
+group.IntroduceActionsGroup.text:
+    text: Extraer/Introducir(_X)
+group.Macros.description:
+    text: Ver, cambiar, grabar y reproducir macros
+group.Macros.text:
+    text: Macros(_S)
+group.MacrosGroup.text:
+    text: Acciones de macros
+group.MainMenu.text:
+    text: Menú principal
+group.MainToolBar.text:
+    text: Barra de herramientas principal
+group.MarkFileAs.text:
+    text: Marcar archivo como
+group.MarkRootGroup.text:
+    text: Marcar directorio como
+group.MoveModuleToGroup.description:
+    text: Mover módulo(_M)
+group.MoveModuleToGroup.text:
+    text: Mover módulo al grupo
+group.NavbarPopupMenu.text:
+    text: Barra de navegación
+group.NewGroup.text:
+    text: Nuevo
+group.NewGroup1.text:
+    text: Nuevo grupo (1)
+group.OpenProjectGroup.text:
+    text: Acciones para abrir proyecto
+group.OpenProjectWindows.text:
+    text: Ventanas de soluciones abiertas
+group.OverrideFileTypeAction.bundledPlugin:
+    text: incluido
+group.OverrideFileTypeAction.fromNamedPlugin:
+    text: "del complemento ''{0}''"
+group.OverrideFileTypeAction.title:
+    text: Seleccionar tipo de archivo
+group.PairFileActions.text:
+    text: Acciones sobre pares de archivos
+group.PasteGroup.text:
+    text: Pegar
+group.PrintExportGroup.text:
+    text: Acciones de impresión/exportación
+group.ProjectViewAnalysisGroup.text:
+    text: Acciones de análisis
+group.ProjectViewCompileGroup.text:
+    text: Acciones de compilación/depuración
+group.ProjectViewPopupMenu.text:
+    text: Menú emergente de la vista del proyecto
+group.ProjectViewPopupMenuModifyGroup.text:
+    text: Grupo de modificación del menú emergente de la vista del proyecto
+group.ProjectViewPopupMenuRefactoringGroup.text:
+    text: Grupo de refactorización del menú emergente de la vista del proyecto
+group.ProjectViewPopupMenuRunGroup.text:
+    text: Grupo de ejecución del menú emergente de la vista de proyecto
+group.ProjectViewPopupMenuSettingsGroup.text:
+    text: Grupo de configuración del menú emergente de la vista del proyecto
+group.RefactoringMenu.text:
+    text: _Refactorizar
+group.RefactoringMenu1.text:
+    text: Acciones de refactorización (1)
+group.RefactoringMenu2.text:
+    text: Acciones de refactorización (2)
+group.ResizeToolWindowGroup.text:
+    text: Cambiar tamaño
+group.RevealGroup.text:
+    text: Abrir en
+group.RunContextPopupGroup.text:
+    text: Configuraciones de ejecución
+group.RunMenu.text:
+    text: Ejec_utar
+group.Runner.Layout.description:
+    text: Configuración de diseño
+group.Runner.Layout.text:
+    text: Diseño
+group.RunnerActions.text:
+    text: Ejecutar/Depurar
+group.RunnerActionsTouchbar.text:
+    text: Acciones de ejecución/depuración de la Touch Bar
+group.ServiceView.AddService.text:
+    text: Añadir servicio
+group.ServiceView.OpenInNewTabGroup.text:
+    text: Abrir en una pestaña nueva
+group.Shelve.KeymapGroup.text:
+    text: Poner en reserva
+group.ShowAnnotateOperationsPopupGroup.text:
+    text: Línea anotada
+group.ShowRecentFindUsagesGroup.description:
+    text: Seleccionar y volver a ejecutar búsquedas de usos recientes
+group.ShowRecentFindUsagesGroup.text:
+    text: Búsquedas de usos recientes
+group.StandardMacroActions.text:
+    text: Acciones de macro estándar
+group.TodoViewGroupByGroup.text:
+    text: Agrupar por
+group.ToggleBreakpointAction.text:
+    text: Acciones de punto de interrupción
+group.ToolWindowsGroup.text:
+    text: Ventanas de herramientas(_T)
+group.ToolbarFindGroup.text:
+    text: Acciones de búsqueda de la barra de herramientas
+group.ToolbarMakeGroup.text:
+    text: Acciones de Make de la barra de herramientas
+group.ToolbarRunGroup.text:
+    text: Acciones de ejecución de la barra de herramientas
+group.ToolsBasicGroup.text:
+    text: Grupo de herramientas básicas
+group.ToolsMenu.text:
+    text: Herra_mientas
+group.ToolsXmlGroup.text:
+    text: Acciones XML
+group.TouchBar.text:
+    text: Touch Bar
+group.TouchBarDebug.ForceStepButtons.text:
+    text: Acciones de paso forzado del depurador
+group.TouchBarDebug.StepButtons.text:
+    text: Acciones de paso del depurador
+group.TouchBarDebug.text:
+    text: Depurador
+group.TouchBarDebug_alt.text:
+    text: Depurador con la tecla Alt
+group.TouchBarDefault.text:
+    text: Predeterminado
+group.TouchBarDefaultOptionalGroup.text:
+    text: Acciones opcionales
+group.TouchBarDefault_alt.text:
+    text: Predeterminado con tecla Alt
+group.TouchBarDefault_cmd.alt.text:
+    text: Predeterminado con la tecla Alt+Cmd
+group.TouchBarDefault_cmd.text:
+    text: Predeterminado con la tecla Cmd
+group.TouchBarDefault_ctrl.text:
+    text: Predeterminado con la tecla Ctrl
+group.TouchBarDefault_shift.text:
+    text: Predeterminado con la tecla Shift
+group.ViewMenu.text:
+    text: _Ver
+group.ViewRecentActions.text:
+    text: Grupo Ver acciones recientes
+group.ViewStatusBarWidgetsGroup.description:
+    text: Mostrar/ocultar widgets de la barra de estado
+group.ViewStatusBarWidgetsGroup.text:
+    text: Widgets de la barra de estado(_W)
+group.WeighingNewGroup.text:
+    text: Nuevo(_N)
+group.WindowMenu.text:
+    text: Ven_tana
+group.XDebugger.settings.text:
+    text: Ajustes del depurador
+group.XmlGenerateToolsGroup.text:
+    text: Acciones de generación de XML
+group.reopen.mac.text:
+    text: Abrir recientes(_R)
+group.reopen.win.text:
+    text: Reabrir proyecto(_R)
+inline.actions.more.actions.text:
+    text: Más acciones
+show.log.in.action.text:
+    text: Mostrar registro en {0}
+stop.capture.cpu.usage.data.action.name:
+    text: Detener perfilado de uso de CPU

@@ -1,0 +1,274 @@
+0.already.extends.1.and.will.not.compile.after.converting.2.to.a.class:
+    text: 實作{2}的{0}已擴展{1}並且在將{2}轉換為類後不會編譯
+0.is.declared.in.1.but.when.public.should.be.declared.in.a.file.named.2:
+    text: '{0} 已在 {1} 中宣告，但 public 應在名稱為 {2} 的檔案中宣告'
+0.will.have.incompatible.access.privileges.with.overriding.1:
+    text: '{0} 的存取權限與覆寫 {1} 不相容'
+0.will.have.incompatible.access.privileges.with.super.1:
+    text: '{0}的存取權限與超級{1}不相容'
+0.will.no.longer.be.visible.from.overriding.1:
+    text: '{0}將不再可以從覆寫{1}可見'
+adapter.to.listener.intention.family.name:
+    text: 將適配器擴展取代為偵聽器實作
+adapter.to.listener.intention.name:
+    text: "將 ''{0}'' 的擴展取代為 ''Listener'' 實作"
+annotate.overridden.methods.intention.family.name:
+    text: 註解覆寫方法及其參數
+annotate.overridden.methods.intention.method.name:
+    text: "將覆寫方法註解為 ''{0}''"
+annotate.overridden.methods.intention.parameters.name:
+    text: "將覆寫方法的相同參數註解為 ''{0}''"
+change.to.c.style.comment.intention.family.name:
+    text: 取代為塊註釋
+change.to.c.style.comment.intention.name:
+    text: 取代為塊註釋
+change.to.end.of.line.comment.intention.family.name:
+    text: 取代為行尾註釋
+change.to.end.of.line.comment.intention.name:
+    text: 取代為行尾註釋
+change.variable.type.to.rhs.type.intention.family.name:
+    text: 將變數類型更改為初始設定式的類型
+change.variable.type.to.rhs.type.intention.name:
+    text: "使用類型 ''{1}'' 宣告 ''{0}''"
+char.to.string.intention.family.name:
+    text: 將字符取代為字串
+char.to.string.intention.name:
+    text: 將字符文字取代為字串
+constant.expression.intention.name:
+    text: "計算 ''{0}'' 的常量值"
+constant.subexpression.intention.family.name:
+    text: 計算子表達式的常量值
+convert.catch.to.throws.intention.family.name:
+    text: 將 catch 部分取代為 throws 宣告
+convert.catch.to.throws.intention.name:
+    text: "將 'catch' 部分取代為 'throws' 宣告"
+convert.integer.to.binary.intention.family.name:
+    text: 轉換為二進制
+convert.integer.to.binary.intention.name:
+    text: 轉換為二進制
+convert.integer.to.decimal.intention.family.name:
+    text: 轉換為十進制
+convert.integer.to.decimal.intention.name:
+    text: 轉換為十進制
+convert.integer.to.hex.intention.family.name:
+    text: 轉換為十六進制
+convert.integer.to.hex.intention.name:
+    text: 轉換為十六進制
+convert.integer.to.octal.intention.family.name:
+    text: 轉換為八進制
+convert.integer.to.octal.intention.name:
+    text: 轉換為八進制
+convert.interface.to.class.intention.family.name:
+    text: 將接口轉換為類
+convert.interface.to.class.intention.name:
+    text: "轉換為 'class'"
+convert.to.nested.if.intention.family.name:
+    text: 將布爾擴展為多個 if
+convert.to.nested.if.intention.name:
+    text: "轉換為多個 'if'"
+copy.concatenated.string.to.clipboard.intention.family.name:
+    text: 將字串串聯文本複製到剪貼簿
+copy.concatenated.string.to.clipboard.intention.name:
+    text: 將字串串聯文本複製到剪貼簿
+create.assert.intention.family.name:
+    text: 創建 JUnit 斷言
+create.assert.intention.name:
+    text: 創建 JUnit 斷言
+demorgans.intention.family.name:
+    text: 德摩根定律
+demorgans.intention.name1:
+    text: "將 '\\&\\&' 取代為 '||'"
+demorgans.intention.name2:
+    text: "將 '||' 取代為 '\\&\\&'"
+detail.exceptions.intention.family.name:
+    text: 詳細異常
+detail.exceptions.intention.name:
+    text: 詳細異常
+expand.boolean.intention.family.name:
+    text: 擴展布爾
+extract.increment.intention.family.name:
+    text: 提取增量
+extract.increment.intention.name:
+    text: "提取 ''{0}''"
+extract.while.loop.condition.to.if.statement.intention.family.name:
+    text: 將 while 迴圈條件提取到內部 if 語句中
+extract.while.loop.condition.to.if.statement.intention.name:
+    text: "將條件提取到內部 'if' 語句中"
+flip.assert.literal.intention.family.name:
+    text: 翻轉斷言文字
+flip.commutative.method.call.intention.family.name:
+    text: 翻轉可交換方法調用
+flip.commutative.method.call.intention.name:
+    text: "翻轉 ''.{0}()''"
+flip.commutative.method.call.intention.name1:
+    text: "翻轉 ''.{0}()'' (可能更改語意)"
+flip.comparison.intention.family.name:
+    text: 翻轉比較
+flip.comparison.intention.name:
+    text: "將 ''{0}'' 翻轉為 ''{1}''"
+flip.conditional.intention.family.name:
+    text: 翻轉條件
+flip.conditional.intention.name:
+    text: "翻轉 '?:'"
+flip.conjunction.intention.family.name:
+    text: 翻轉合取操作數
+flip.expression.intention.family.name:
+    text: 翻轉二元表達式
+flip.setter.call.intention.family.name:
+    text: 翻轉 setter 調用
+flip.setter.call.intention.name:
+    text: 翻轉 Setter 調用
+flip.smth.intention.name:
+    text: "翻轉 ''{0}''"
+flip.smth.intention.name1:
+    text: "翻轉 ''{0}'' (更改語意)"
+intention.category.annotations:
+    text: Java/註解
+intention.category.boolean:
+    text: Java/布林值
+intention.category.comments:
+    text: Java/註釋
+intention.category.conditional.operator:
+    text: Java/條件
+intention.category.control.flow:
+    text: Java/控制流
+intention.category.declaration:
+    text: Java/宣告
+intention.category.imports:
+    text: Java/匯入
+intention.category.modifiers:
+    text: Java/修飾符
+intention.category.numbers:
+    text: Java/數字
+intention.category.other:
+    text: 其他
+intention.category.shift.operation:
+    text: Java/移位運算
+intention.category.strings:
+    text: Java/字串
+join.concatenated.string.literals.intention.family.name:
+    text: 聯接串聯的字串文字
+join.concatenated.string.literals.intention.name:
+    text: 聯接串聯的字串文字
+make.call.chain.into.call.sequence.intention.family.name:
+    text: 將方法鏈擴展為調用序列
+make.call.chain.into.call.sequence.intention.name:
+    text: 將方法調用鏈擴展為調用序列
+merge.call.sequence.to.chain.intention.family.name:
+    text: 將順序方法調用合併到調用鏈中
+merge.call.sequence.to.chain.intention.name:
+    text: 將連續的方法調用合併到調用鏈中
+merge.else.if.intention.family.name:
+    text: 合併 else if
+merge.else.if.intention.name:
+    text: "合併 'else if'"
+merge.if.and.intention.family.name:
+    text: "合併嵌套的 'if' 語句"
+merge.if.and.intention.name:
+    text: "合併嵌套的 'if' 語句"
+merge.if.or.intention.family.name:
+    text: "合併連續的 'if' 語句"
+merge.if.or.intention.name:
+    text: "合併連續的 'if' 語句"
+merge.nested.try.statements.intention.family.name:
+    text: 合併嵌套 try 語句
+merge.nested.try.statements.intention.name:
+    text: "合併嵌套的 'try' 語句"
+merge.parallel.ifs.intention.family.name:
+    text: 合併並行的 if
+merge.parallel.ifs.intention.name:
+    text: "合併 'if'"
+move.comment.to.separate.line.intention.family.name:
+    text: 將註釋移至單獨的行
+move.comment.to.separate.line.intention.name:
+    text: 將註釋移至單獨的行
+negate.comparison.intention.family.name:
+    text: 求反比較
+negate.comparison.intention.name:
+    text: "求反 ''{0}''"
+negate.comparison.intention.name1:
+    text: "將 ''{0}'' 求反為 ''{1}''"
+obscure.thrown.exceptions.intention.family.name:
+    text: 將 throws 子句中的異常取代為單個更普通的異常
+press.escape.to.remove.highlighting.message:
+    text: 按 Esc 移除高亮顯示
+replace.arm.with.try.finally.intention.family.name:
+    text: 將 try-with-resources 取代為 try-finally
+replace.arm.with.try.finally.intention.name:
+    text: "將 'try-with-resources' 取代為 'try finally'"
+replace.assert.literal.with.assert.equals.intention.family.name:
+    text: 將 assertTrue、assertFalse 或 assertNull 取代為 assertEquals
+replace.assert.literal.with.assert.equals.intention.name:
+    text: "將 ''{0}()'' 取代為 ''assertEquals({1}, ...)''"
+replace.assert.literal.with.assert.equals.intention.name1:
+    text: "將 ''{0}()'' 取代為 ''assertEquals(..., {1}, ...)''"
+replace.assert.literal.with.assert.equals.intention.name2:
+    text: "將 ''{0}()'' 取代為 ''assertEquals()''"
+replace.assignment.with.postfix.expression.intention.family.name:
+    text: 將賦值取代為後綴表達式
+replace.concatenation.with.format.string.intention.family.name:
+    text: 將字串串聯取代為 String.format()
+replace.concatenation.with.format.string.intention.name:
+    text: "將 '+' 取代為 'String.format()'"
+replace.concatenation.with.string.buffer.intention.family.name:
+    text: 將 + 取代為 StringBuilder.append()
+replace.concatenation.with.string.buffer.intention.name:
+    text: "將 '+' 取代為 'StringBuffer.append()'"
+replace.concatenation.with.string.builder.intention.name:
+    text: "將 '+' 取代為 'StringBuilder.append()'"
+replace.do.while.loop.with.while.loop.intention.family.name:
+    text: 將 do while 迴圈取代為 while 迴圈
+replace.do.while.loop.with.while.loop.intention.name:
+    text: "將 'do while' 迴圈取代為 'while' 迴圈"
+replace.for.each.loop.with.indexed.for.loop.intention.family.name:
+    text: 將 for-each 迴圈取代為帶索引的 for 迴圈
+replace.for.each.loop.with.indexed.for.loop.intention.name:
+    text: "將 for-each 迴圈取代為帶索引的 'for' 迴圈"
+replace.for.each.loop.with.iterator.for.loop.intention.family.name:
+    text: 將 for-each 迴圈取代為迭代器 for 迴圈
+replace.for.each.loop.with.iterator.for.loop.intention.name:
+    text: "將 for-each 迴圈取代為迭代器 'for' 迴圈"
+replace.for.each.loop.with.optimized.indexed.for.loop.intention.family.name:
+    text: 將 for-each 迴圈取代為最佳化的帶索引 for 迴圈
+replace.for.each.loop.with.optimized.indexed.for.loop.intention.name:
+    text: "將 for-each 迴圈取代為最佳化的帶索引 'for' 迴圈"
+replace.multiply.with.shift.intention.family.name:
+    text: 將乘法取代為移位
+replace.on.demand.import.intention.family.name:
+    text: 將按需匯入取代為單個類匯入
+replace.on.demand.import.intention.name:
+    text: 取代為單個類匯入
+replace.operator.assignment.with.assignment.intention.family.name:
+    text: 將運算符賦值取代為賦值
+replace.operator.assignment.with.postfix.expression.intention.family.name:
+    text: 將運算符賦值取代為後綴表達式
+replace.postfix.expression.with.assignment.intention.family.name:
+    text: 將後綴表達式取代為賦值
+replace.postfix.expression.with.operator.assignment.intention.family.name:
+    text: 將後綴表達式取代為運算符賦值
+replace.shift.with.multiply.intention.family.name:
+    text: 將移位取代為乘法
+replace.switch.with.if.intention.family.name:
+    text: 將 switch 取代為 if
+replace.switch.with.if.intention.name:
+    text: "將 'switch' 取代為 'if'"
+replace.while.loop.with.do.while.loop.intention.family.name:
+    text: 將 while 迴圈取代為 do while 迴圈
+replace.while.loop.with.do.while.loop.intention.name:
+    text: "將 'while' 迴圈取代為 'do while' 迴圈"
+reverse.for.loop.direction.intention.family.name:
+    text: 反轉 for 迴圈的方向
+reverse.for.loop.direction.intention.name:
+    text: 反轉 for 迴圈的方向
+split.declaration.and.initialization.intention.family.name:
+    text: 拆分宣告和初始化
+split.declaration.and.initialization.intention.name:
+    text: 拆分為宣告和初始化
+split.else.if.intention.family.name:
+    text: 拆分 else if
+split.else.if.intention.name:
+    text: "拆分 'else if'"
+wrap.vararg.arguments.with.explicit.array.intention.family.name:
+    text: 用顯式陣列創建包裝 vararg 實參
+wrap.vararg.arguments.with.explicit.array.intention.name:
+    text: 用顯式陣列創建包裝 vararg 實參

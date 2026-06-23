@@ -1,0 +1,72 @@
+index.content.diagnostic.dumping:
+    text: 正在转储索引文件路径和其他元数据…
+index.content.diagnostic.reading:
+    text: 正在读取索引文件元数据…
+index.corrupted.notification.text:
+    text: 磁盘上的索引文件已损坏。将重新构建索引。
+index.format.changed.notification.text:
+    text: '{0} 个索引的索引文件格式已更改。将重新构建这些索引。'
+index.rebuild.notification.title:
+    text: 索引重新构建
+indexable.files.provider.indexing.additional.dependencies:
+    text: 正在为依赖项编制索引
+indexable.files.provider.indexing.fileOrDir.name:
+    text: "正在为 ''{0}'' 编制索引"
+indexable.files.provider.indexing.internal.module.name:
+    text: 正在编制索引
+indexable.files.provider.indexing.library.name:
+    text: "正在为库 ''{0}'' 编制索引"
+indexable.files.provider.indexing.module.name:
+    text: "正在为模块 ''{0}'' 编制索引"
+indexable.files.provider.indexing.named.provider:
+    text: "正在为 ''{0}'' 编制索引"
+indexable.files.provider.indexing.sdk:
+    text: "正在为{0} ''{1}'' 编制索引"
+indexable.files.provider.scanning.additional.dependencies:
+    text: 正在扫描依赖项
+indexable.files.provider.scanning.fileOrDir.name:
+    text: "正在扫描 ''{0}''"
+indexable.files.provider.scanning.files.contributor:
+    text: "正在扫描 ''{0}''"
+indexable.files.provider.scanning.internal.module.name:
+    text: 正在扫描
+indexable.files.provider.scanning.library.name:
+    text: "正在扫描库 ''{0}''"
+indexable.files.provider.scanning.module.name:
+    text: "正在扫描模块 ''{0}''"
+indexable.files.provider.scanning.sdk:
+    text: "正在扫描{0} ''{1}''"
+indexes.preparing.to.shutdown.message:
+    text: 正在准备要关闭的索引…
+indexes.reloading:
+    text: 正在重新加载索引…
+notification.group.ide.caches:
+    text: 检测到 IDE 缓存损坏
+progress.indexing:
+    text: 正在更新索引
+progress.indexing.scanning:
+    text: 正在扫描要建立索引的文件…
+progress.indexing.started.as.suspended:
+    text: 按该按钮开始编制索引
+progress.indexing.updating:
+    text: 索引…
+psi.scanning.files.progress:
+    text: 扫描文件…
+psi.search.for.word.progress:
+    text: 正在{1,choice,1#文件|1< {1} 个文件}中搜索 {0}…
+psi.search.in.non.java.files.progress:
+    text: 分析代码无关的用法…
+psi.search.scope.project.and.libraries:
+    text: 项目和库
+removing.indexable.set.project.handler:
+    text: 正在移除项目文件的索引
+search.scope.module:
+    text: 在单个模块中
+search.scope.module.runtime:
+    text: "模块 ''{0}'' 运行时作用域"
+terms.directory:
+    text: 目录
+terms.file:
+    text: 文件
+toggled.dumb.mode:
+    text: 正在运行静默模式…

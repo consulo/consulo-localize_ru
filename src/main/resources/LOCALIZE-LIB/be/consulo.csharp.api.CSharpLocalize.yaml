@@ -1,0 +1,8 @@
+code.vision.implementations.hint:
+    text: "{0, choice, 1#1 рэалізацыя|2#{0,number}'{1,choice, |1#+}' рэалізацый}"
+code.vision.inheritors.hint:
+    text: "{0, choice, 1#1 нашчадак|2#{0,number}'{1,choice, |1#+}' нашчадкаў}"
+code.vision.overrides.hint:
+    text: "{0, choice, 1#1 пераазначэнне|2#{0,number}'{1,choice, |1#+}' пераазначэнняў}"
+usages.telescope:
+    text: '{0,choice, 0#не выкарыстоўваецца|1#1 выкарыстанне|2#{0,number} выкарыстанняў}'

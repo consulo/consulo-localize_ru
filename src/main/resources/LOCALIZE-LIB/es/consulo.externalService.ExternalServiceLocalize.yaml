@@ -1,0 +1,116 @@
+action.download.and.install.plugin:
+    text: Descargar e instalar
+column.plugins.name:
+    text: Nombre
+error.dialog.clear.all.action:
+    text: '&Limpiar todo'
+error.dialog.comment.prompt:
+    text: Comente qué estaba haciendo cuando ocurrió la excepción
+error.dialog.conflict.plugin.button.disable.all:
+    text: Deshabilitar todo y reiniciar
+error.dialog.conflict.plugin.button.enable.and.restart:
+    text: Habilitar y reiniciar
+error.dialog.conflict.plugin.disable.all:
+    text: Ninguno, deshabilitar todos los plugins anteriores
+error.dialog.conflict.plugin.header.each.other:
+    text: '<html><p style="line-height: 150%;">Los siguientes plugins no pueden funcionar al mismo tiempo. Seleccione cuál habilitar:</p></html>'
+error.dialog.conflict.plugin.header.platform:
+    text: '{0,choice,1#El siguiente plugin|2#Los siguientes plugins} {0,choice,1#entra|2#entran} en conflicto con el IDE:'
+error.dialog.conflict.plugin.title:
+    text: Extensiones en conflicto
+error.dialog.disable.plugin.action.disable:
+    text: '&Deshabilitar'
+error.dialog.disable.plugin.action.disableAndRestart:
+    text: Desactivar y &reiniciar
+error.dialog.disable.plugin.title:
+    text: Desactivar plugin
+error.http.result.code:
+    text: 'Código de resultado HTTP: {0}'
+error.itn.returns.wrong.data:
+    text: ITN devuelve datos incorrectos
+error.list.disable.plugin:
+    text: Deshabilitar plugin…
+error.list.message.blame.core:
+    text: Excepción en el <b>núcleo {0}</b>.
+error.list.message.blame.plugin:
+    text: Excepción en el plugin <b>{0}</b>.
+error.list.message.blame.unknown.plugin:
+    text: Excepción en un <b>plugin desconocido</b>.
+error.list.message.index.count:
+    text: '{0} de {1}'
+error.list.message.info:
+    text: '{0}, ocurrido {1,choice,1#una vez|2#{1} veces}'
+error.list.message.submission.failed:
+    text: Error al enviar
+error.list.message.submitted:
+    text: Enviado
+error.list.message.submitted.as.link:
+    text: Enviado como <a href="{0}">{1}</a>
+error.monitor.too.many.errors:
+    text: Demasiados errores internos del IDE. El monitoreo se ha detenido.
+error.new.notification.link:
+    text: Ver detalles y enviar informe
+error.new.notification.title:
+    text: Se ha producido un error del IDE
+error.notification.tooltip:
+    text: <html><body>Se ha producido un error interno del IDE<br>Ver detalles y enviar informe</body></html>
+error.report.gratitude:
+    text: ¡Gracias por sus comentarios!
+error.report.title:
+    text: Informe de errores
+log.console.filter.show.all:
+    text: Todo
+log.console.filter.show.errors:
+    text: errores
+log.console.filter.show.errors.and.warnings:
+    text: advertencias
+log.console.filter.show.errors.warnings.and.infos:
+    text: información
+log.monitor.edit.aliases.location:
+    text: '&Ubicación del archivo de registro:'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: '&Mostrar todos los archivos que el patrón puede cubrir'
+log.monitor.edit.aliases.title:
+    text: Editar alias de archivos de registro
+log.monitor.group:
+    text: Archivos de registro para mostrar en la consola
+log.monitor.is.active.column:
+    text: Está activo
+log.monitor.is.skipped.column:
+    text: Omitir contenido
+log.monitor.log.file.column:
+    text: Entrada de archivo de registro
+log.monitor.no.files:
+    text: No hay archivos de registro adjuntos
+plugin.info.unknown:
+    text: desconocido
+plugin.status.not.specified:
+    text: (no especificado)
+progress.connecting.to.plugin.manager:
+    text: Conectando a {0}
+progress.download.plugins:
+    text: Descargando plugins
+progress.downloading.list.of.plugins:
+    text: Descargando la lista de plugins de {0}
+progress.downloading.plugin:
+    text: "Descargando el plugin ''{0}''"
+prompt.uninstall.plugin:
+    text: "¿Está seguro de que desea desinstalar el complemento ''{0}''{1, choice, 0#|1# (actualización)}?"
+prompt.uninstall.several.plugins:
+    text: ¿Está seguro de que desea desinstalar estos {0} plugins?
+title.plugin.uninstall:
+    text: ¿Desinstalar el plugin{0, choice, 0#|1# de actualización}?
+title.plugins:
+    text: Extensiones
+title.submitting.error.report:
+    text: Enviando informe de error
+unknown.error:
+    text: Error desconocido
+virus.scanning.dont.show.again:
+    text: No volver a mostrar
+virus.scanning.dont.show.again.this.project:
+    text: No volver a mostrar para este proyecto
+virus.scanning.warn.message:
+    text: 'Su programa antivirus podría estar afectando el rendimiento de la compilación. {0} comprobó los siguientes directorios: {1}'
+whatsnew.action.custom.description:
+    text: Conozca las nuevas funciones y mejoras de la última versión de {0}

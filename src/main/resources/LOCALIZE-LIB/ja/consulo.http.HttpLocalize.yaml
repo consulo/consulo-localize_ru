@@ -1,0 +1,4 @@
+error.connection.failed.redirects:
+    text: 接続に失敗しました：リダイレクトが多すぎます
+error.connection.failed.with.http.code.N:
+    text: 接続は HTTP コード {0} で失敗しました

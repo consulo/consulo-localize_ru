@@ -1,0 +1,38 @@
+error.connection.failed.redirects:
+    text: 'Памылка злучэння: занадта шмат перанакіраванняў'
+http.proxy.configurable:
+    text: HTTP проксі
+proxy.direct.rb:
+    text: Без проксі
+proxy.manual.auth:
+    text: Аўтэнтыфікацыя проксі [&A]
+proxy.manual.exclude:
+    text: 'Не выкарыстоўваць проксі для:'
+proxy.manual.exclude.example:
+    text: 'Прыклад: *.example.com, 192.168.*'
+proxy.manual.host:
+    text: 'Імя хоста [&H]:'
+proxy.manual.port:
+    text: 'Номер порта [&N]:'
+proxy.manual.rb:
+    text: Ручная настройка проксі
+proxy.pac.pw.clear.button:
+    text: Ачысціць пароль
+proxy.pac.rb:
+    text: Аўтаматычнае вызначэнне налад проксі
+proxy.pac.rb.tt:
+    text: Будзе выкарыстана спроба выкарыстоўваць сістэмныя налады, што карысна калі сістэма выкарыстоўвае файл аўтаматычнай настройкі проксі (.pac).
+proxy.pac.url.example:
+    text: 'Прыклад: https://example.com/wpad.pac'
+proxy.pac.url.label:
+    text: 'URL аўтаматычнай настройкі проксі:'
+proxy.settings.override.by.plugin.checkbox:
+    text: "Налады проксі прадастаўлены плагінам ''{0}''"
+proxy.system.label:
+    text: <html>Уласцівасць JVM <tt>java.net.useSystemProxies</tt> усталявана ў <tt>true</tt>. Гэта прывядзе да таго, што некаторыя сеткавыя выклікі будуць праходзіць праз проксі, вызначаны аперацыйнай сістэмай. Калі вы не плануеце выкарыстоўваць сістэмны проксі, адключыце гэту ўласцівасць.</html>
+proxy.system.proxy.settings:
+    text: Сістэмныя налады проксі [&S]…
+proxy.test.button:
+    text: Праверыць злучэнне
+proxy.tunneling.disabled.warning:
+    text: <html>Базавая аўтэнтыфікацыя проксі адключана для HTTPS-злучэнняў. HTTPS-злучэнні могуць не працаваць, калі проксі патрабуе аўтэнтыфікацыі. Каб дазволіць базавую аўтэнтыфікацыю проксі, дадайце <tt>-Djdk.http.auth.tunneling.disabledSchemes=""</tt> у файл параметраў віртуальнай машыны і перазапусціце.</html>

@@ -1,0 +1,132 @@
+action.download.and.install.plugin:
+    text: 다운로드 및 설치
+action.uninstall.plugin:
+    text: 설치 제거
+column.plugins.category:
+    text: 카테고리
+column.plugins.date:
+    text: 날짜
+column.plugins.name:
+    text: 이름
+diagnostic.out.of.memory.continue:
+    text: 계속
+diagnostic.out.of.memory.currentValue.unknown:
+    text: 알 수 없음
+error.dialog.clear.all.action:
+    text: 모두 지우기(&C)
+error.dialog.comment.prompt:
+    text: 예외가 발생했을 때 수행 중이던 작업에 대해 설명해 주세요
+error.dialog.conflict.plugin.button.disable.all:
+    text: 모두 비활성화 및 재시작
+error.dialog.conflict.plugin.button.enable.and.restart:
+    text: 활성화 및 재시작
+error.dialog.conflict.plugin.disable.all:
+    text: 없음, 위의 플러그인을 모두 비활성화
+error.dialog.conflict.plugin.header.each.other:
+    text: '<html><p style="line-height: 150%;">아래 플러그인들은 동시에 작동할 수 없습니다. 활성화할 플러그인을 선택하세요: </p></html>'
+error.dialog.conflict.plugin.header.platform:
+    text: '다음 플러그인{0,choice,1#이|2#들이} IDE와 충돌합니다:'
+error.dialog.conflict.plugin.title:
+    text: 충돌하는 플러그인
+error.dialog.disable.plugin.action.disable:
+    text: 비활성화(&D)
+error.dialog.disable.plugin.action.disableAndRestart:
+    text: 비활성화 및 재시작(&R)
+error.dialog.disable.plugin.title:
+    text: 플러그인 비활성화
+error.http.result.code:
+    text: 'HTTP 결과 코드: {0}'
+error.itn.returns.wrong.data:
+    text: ITN이 잘못된 데이터를 반환함
+error.list.disable.plugin:
+    text: 플러그인 비활성화…
+error.list.message.blame.core:
+    text: <b>{0} 코어</b>에서 예외가 발생했습니다.
+error.list.message.blame.plugin:
+    text: <b>{0}</b> 플러그인에서 예외가 발생했습니다.
+error.list.message.blame.unknown.plugin:
+    text: <b>알 수 없는 플러그인</b>에서 예외가 발생했습니다.
+error.list.message.index.count:
+    text: '{1} 중 {0}'
+error.list.message.info:
+    text: '{0}, {1,choice,1#한 번|2#{1}번} 발생함'
+error.list.message.submission.failed:
+    text: 제출 실패
+error.list.message.submitted:
+    text: 제출됨
+error.list.message.submitted.as.link:
+    text: <a href="{0}">{1}</a>(으)로 제출됨
+error.monitor.too.many.errors:
+    text: IDE 내부 오류가 너무 많습니다. 모니터링이 중단되었습니다.
+error.new.notification.link:
+    text: 세부 사항 확인 및 보고서 제출
+error.new.notification.title:
+    text: IDE 오류 발생
+error.notification.tooltip:
+    text: <html><body>IDE 내부 오류 발생<br>세부 사항 확인 및 보고서 제출</body></html>
+error.report.gratitude:
+    text: 피드백을 주셔서 감사합니다!
+error.report.title:
+    text: 오류 보고서
+log.console.filter.show.all:
+    text: 모두
+log.console.filter.show.errors:
+    text: 오류
+log.console.filter.show.errors.and.warnings:
+    text: 경고
+log.console.filter.show.errors.warnings.and.infos:
+    text: 정보
+log.monitor.add.button:
+    text: 추가(&D)
+log.monitor.edit.aliases.location:
+    text: '로그 파일 위치(&L):'
+log.monitor.edit.aliases.name:
+    text: '별칭(&A):'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: 패턴과 일치하는 모든 파일 표시(&S)
+log.monitor.edit.aliases.title:
+    text: 로그 파일 별칭 편집
+log.monitor.group:
+    text: 콘솔에 표시할 로그 파일
+log.monitor.is.active.column:
+    text: 활성 상태
+log.monitor.is.skipped.column:
+    text: 콘텐츠 건너뛰기
+log.monitor.log.file.column:
+    text: 로그 파일 항목
+log.monitor.no.files:
+    text: 첨부된 로그 파일 없음
+log.monitor.remove.button:
+    text: 제거(&R)
+plugin.info.unknown:
+    text: 알 수 없음
+plugin.status.not.specified:
+    text: (지정되지 않음)
+progress.connecting.to.plugin.manager:
+    text: '{0}에 연결 중'
+progress.download.plugins:
+    text: 플러그인 다운로드 중
+progress.downloading.list.of.plugins:
+    text: '{0}에서 플러그인 목록 다운로드 중'
+progress.downloading.plugin:
+    text: "''{0}'' 플러그인 다운로드 중"
+prompt.uninstall.plugin:
+    text: "''{0}'' 플러그인{1, choice, 0#|1# 업데이트}을(를) 제거하시겠습니까?"
+prompt.uninstall.several.plugins:
+    text: 이 {0}개의 플러그인을 제거하시겠습니까?
+title.plugin.uninstall:
+    text: 플러그인{0, choice, 0#|1# 업데이트} 제거?
+title.plugins:
+    text: 플러그인
+title.submitting.error.report:
+    text: 오류 보고서 제출 중
+unknown.error:
+    text: 알 수 없는 오류
+virus.scanning.dont.show.again:
+    text: 다시 표시하지 않음
+virus.scanning.dont.show.again.this.project:
+    text: 이 프로젝트에 대해 다시 표시하지 않음
+virus.scanning.warn.message:
+    text: '백신 프로그램이 빌드 성능에 영향을 줄 수 있습니다. Android Studio가 다음 디렉터리를 확인했습니다: {0}'
+whatsnew.action.custom.description:
+    text: '{0} 최신 버전의 새로운 기능 및 개선 사항에 대해 알아봅니다'

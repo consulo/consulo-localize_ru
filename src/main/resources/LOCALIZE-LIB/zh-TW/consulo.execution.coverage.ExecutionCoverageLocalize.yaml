@@ -1,0 +1,152 @@
+action.name.cover:
+    text: 覆蓋
+cannot.show.coverage.reports.from.different.engines:
+    text: 無法顯示來自不同引擎的覆蓋率報告。
+choose.coverage.suite.to.display:
+    text: 選擇要顯示的覆蓋率套件
+code.coverage:
+    text: 代碼覆寫率
+configurable.CoverageOptionsConfigurable.display.name:
+    text: 覆蓋率
+configurable.name.editor.colors.page:
+    text: 編輯器 | {0} | {1}
+coverage.add.to.active.suites:
+    text: 添加到活動套件(&A)
+coverage.collecting.data:
+    text: 正在收集覆蓋率資料
+coverage.data.no.coverage.button:
+    text: 沒有覆蓋率(&N)
+coverage.data.not.found:
+    text: 未找到覆寫率資料
+coverage.data.outdated:
+    text: 覆寫率資料已過期
+coverage.data.runner.name:
+    text: '{0} 覆蓋率'
+coverage.data.show.selected.button:
+    text: 顯示選定內容
+coverage.do.not.apply.collected.coverage:
+    text: 不套用已收集的覆蓋率(&C)
+coverage.edit.colors.action.name:
+    text: 編輯覆蓋率顏色
+coverage.edit.colors.description:
+    text: 編輯覆蓋率顏色
+coverage.error.collecting.data:
+    text: 收集覆蓋率資料時出錯
+coverage.error.loading.report:
+    text: 載入覆蓋率報告時出錯
+coverage.info.string.file:
+    text: '{0,choice,1#檔案|2#檔案}'
+coverage.is.not.importable:
+    text: "覆蓋率在此環境中不可匯入。請{0} coverage.py 或在“設定 | 覆蓋率”中{1} ''Use bundled coverage''。"
+coverage.is.not.importable.option.enable:
+    text: 啟用
+coverage.is.not.importable.option.install:
+    text: 安裝
+coverage.next.change.fully.covered:
+    text: 完全覆蓋
+coverage.next.change.partial.covered:
+    text: 部分覆蓋
+coverage.next.change.uncovered:
+    text: 未覆蓋
+coverage.next.mark:
+    text: 下一個覆蓋率標記
+coverage.next.place:
+    text: 下一個 {0}
+coverage.previous.mark:
+    text: 上一個覆蓋率標記
+coverage.previous.place:
+    text: 上一個 {0}
+coverage.replace.active.suites:
+    text: 取代活動套件(&R)
+coverage.results.suite.name:
+    text: '{0} 覆蓋結果'
+coverage.tab.title:
+    text: 代碼覆寫率
+coverage.view.configuration.was.not.found:
+    text: "未找到設定 ''{0}''。"
+coverage.view.edit.run.configuration.0:
+    text: 點擊
+coverage.view.edit.run.configuration.1:
+    text: 編輯
+coverage.view.edit.run.configuration.2:
+    text: 以修復設定設定。
+coverage.view.element:
+    text: 元素
+coverage.view.loading.data:
+    text: 正在載入覆蓋率資料
+coverage.view.no.coverage.results:
+    text: 沒有覆蓋率結果。
+coverage.view.packages.root:
+    text: 所有
+coverage.view.text.covered:
+    text: 已覆蓋
+coverage.view.text.files.covered:
+    text: '{0}% 檔案'
+coverage.view.text.lines.covered:
+    text: '{0}% 行已覆蓋'
+coverage.view.title:
+    text: 覆蓋率
+delete.file:
+    text: 刪除檔案
+dialog.message.would.you.like.to.delete.file.on.disk:
+    text: "要刪除磁碟上的檔案 ''{0}'' 嗎?"
+display.coverage.prompt:
+    text: 您要顯示覆寫率資料"{0}"嗎？
+extract.information.about.tests:
+    text: 提取有關測試的資訊
+following.test.could.not.be.found.1:
+    text: '找不到以下{0, choice, 1#測試|2#測試}: {1}'
+generate.coverage.report.for:
+    text: "生成覆蓋率報告: ''{0}''"
+hint.text.failed.to.load.covered.tests:
+    text: 無法載入覆蓋的測試
+hits.message:
+    text: '命中: {0}'
+hits.title:
+    text: '命中: {0}'
+lines.covered.info.less.than.one.percent:
+    text: 覆蓋的行 <1%
+lines.covered.info.no.lines.covered:
+    text: 未覆蓋任何行
+lines.covered.info.not.covered:
+    text: 未覆蓋
+lines.covered.info.percent.lines.covered:
+    text: '% 行已覆蓋'
+link.label.close:
+    text: 關閉
+marker.code.coverage:
+    text: '標記: 程式碼覆蓋率'
+no.coverage.runner.available.for:
+    text: 沒有適用於 {0} 的覆蓋率執行程序
+no.coverage.suites.configured:
+    text: 未設定覆蓋率套件。
+node.summary.coverage.statistic:
+    text: "''{1}'' 中的 {0}"
+node.summary.no.coverage:
+    text: "''{0}'' 中無覆蓋"
+popup.title.tests.covering.line:
+    text: 測試覆蓋行 {0}:{1}
+remote.suites.node:
+    text: 遠端
+run.selected.configuration.with.coverage.enabled:
+    text: 執行已啟用覆蓋率的所選設定
+run.with.coverage:
+    text: 使用覆蓋率執行(_V)
+run.with.coverage.mnemonic:
+    text: 使用覆蓋率執行 %s(_V)
+settings.coverage.activate.coverage.view:
+    text: 啟用覆蓋率檢視(&V)
+settings.coverage.add.to.the.active.suites:
+    text: 添加到活動套件(&D)
+settings.coverage.do.not.apply.collected.coverage:
+    text: 不套用已收集的覆蓋率(&N)
+settings.coverage.replace.active.suites.with.the.new.one:
+    text: 將活動套件取代為新套件(&R)
+settings.coverage.show.options.before.applying.coverage.to.the.editor:
+    text: 在將覆蓋率套用到編輯器前顯示選項(&S)
+settings.coverage.when.new.coverage.is.gathered:
+    text: 收集新覆蓋率時
+show.coverage.per.test.action.text:
+    text: 顯示每個測試的覆蓋率
+table.column.name.statistics:
+    text: 統計資訊，%

@@ -1,0 +1,96 @@
+action.column.name:
+    text: Дзеянне
+actions.tree.external.tools.group:
+    text: Знешнія інструменты
+all.actions.group.title:
+    text: Усе дзеянні
+ant.targets.group.title:
+    text: Мэты Ant
+based.on.keymap.label:
+    text: На аснове раскладкі клавіятуры {0}
+commender.view.popup.menu.title:
+    text: Контекстное меню Commander View
+configuration.all.keymaps.should.have.non.empty.names.error.message:
+    text: Усе раскладкі клавіятуры павінны мець непустыя імёны
+configuration.all.keymaps.should.have.unique.names.error.message:
+    text: Усе раскладкі клавіятуры павінны мець унікальныя імёны
+conflict.shortcut.dialog.cancel.button:
+    text: Отмена
+conflict.shortcut.dialog.message:
+    text: Гэта спалучэнне клавіш ужо прызначана іншаму дзеянню. Выдаліць іншае прызначэнне?
+conflict.shortcut.dialog.remove.button:
+    text: Выдаліць
+conflict.shortcut.dialog.title:
+    text: Папярэджанне
+debugger.actions.group.title:
+    text: Дзеянні адладчыка
+dialog.conflicts.text:
+    text: 'Назначено:'
+dialog.mouse.pad.default.text:
+    text: <html><center>Увядзіце спалучэнне клавіш тут:<br>Націсніце або двойчы націсніце, пракруціце кола,<br>выкарыстоўвайце Ctrl, Alt і Shift для мадыфікацыі
+edit.shortcut.action.description:
+    text: Рэдагаваць спалучэнне клавіш
+edit.shortcut.action.text:
+    text: Рэдагаваць спалучэнне клавіш
+editor.actions.group.title:
+    text: Дзеянні рэдактара
+editor.popup.menu.title:
+    text: Контекстное меню редактора
+editor.shortcut:
+    text: Редактор{0}
+editor.tab.popup.menu.title:
+    text: Кантэкстнае меню ўкладкі рэдактара
+filter.clear.action.text:
+    text: Ачысціць фільтр
+filter.enable.second.stroke.checkbox:
+    text: Другое націсканне
+filter.settings.popup.title:
+    text: Пошук спалучэнняў клавіш
+filter.shortcut.action.text:
+    text: Знайсці дзеянне па спалучэнні клавіш
+j2ee.view.popup.menu.title:
+    text: Кантэкстнае меню прадстаўлення Java EE
+keyboard.shortcut.dialog.title:
+    text: Спалучэнні клавіш
+keymap.display.name:
+    text: Раскладка клавіятуры
+macros.group.title:
+    text: Макросы
+main.menu.action.title:
+    text: Главное меню
+main.toolbar.title:
+    text: Галоўная панэль інструментаў
+mouse.click.shortcut.text:
+    text: '{0} клік{1,choice,1#|2#сярэдняй кнопкай|3#правай кнопкай|4#кнопкай 4|5#кнопкай 5}'
+mouse.double.click.shortcut.text:
+    text: '{0} двойны клік{1,choice,1#|2#сярэдняй кнопкай|3#правай кнопкай|4#кнопкай 4|5#кнопкай 5}'
+mouse.shortcut.dialog.title:
+    text: Спалучэнні клавіш мышы
+new.indexed.keymap.name:
+    text: Копія {0} {1}
+new.keymap.name:
+    text: Копія {0}
+no.actions:
+    text: Няма дзеянняў
+no.quick.lists:
+    text: Няма хуткіх спісаў
+other.group.title:
+    text: Другое
+plugins.group.title:
+    text: Плагіны
+prefix.key.pressed.message:
+    text: Націснута клавіша прэфікса
+project.view.popup.menu.title:
+    text: Кантэкстнае меню прадстаўлення праекта
+quick.list.panel.description.label:
+    text: 'Апісанне:'
+quick.list.panel.display.name.label:
+    text: 'Адлюстраванае імя:'
+quick.lists.group.title:
+    text: Хуткія спісы
+shortcut.in.group.text:
+    text: У групе {0}
+shortcuts.column.name:
+    text: Спалучэнні клавіш
+version.control.group.title:
+    text: Сістэма кантролю версій

@@ -1,0 +1,120 @@
+action.close:
+    text: Зачыніць [_C]
+action.collapse:
+    text: Згарнуць
+action.expand:
+    text: Разгарнуць
+action.help:
+    text: Даведка
+action.refresh:
+    text: Абнаўленне
+action.rerun:
+    text: Перазапусціць
+action.settings:
+    text: Адкрыць налады…
+action.settings.description:
+    text: Рэдагаваць налады прыкладання
+action.settings.description.mac:
+    text: Рэдагаваць налады прыкладання
+action.settings.mac:
+    text: Налады…
+action.settings.path:
+    text: Файл | Налады
+action.settings.path.mac:
+    text: Налады
+button.add:
+    text: Дадаць
+button.add.a:
+    text: Дадаць [&A]
+button.apply:
+    text: Прымяніць
+button.back:
+    text: Назад
+button.background:
+    text: Свернуть [&M]
+button.cancel:
+    text: Отмена
+button.close:
+    text: Закрыть
+button.continue:
+    text: Працягнуць
+button.copy:
+    text: Капіраваць…
+button.delete:
+    text: Выдаліць
+button.edit:
+    text: Рэдагаваць
+button.help:
+    text: Даведка [&H]
+button.next:
+    text: Далее
+button.no:
+    text: Нет [&N]
+button.remove:
+    text: Выдаліць [&R]
+button.reset:
+    text: Скінуць
+button.skip:
+    text: Прапусціць
+button.yes:
+    text: Так [_Y]
+button.yes.for.all:
+    text: Да для всех [&A]
+cannot.redo.message:
+    text: Нельга паўтараць
+cannot.undo.error.contains.nonundoable.changes.message:
+    text: 'Наступныя файлы ўтрымліваюць змены, якія нельга адмяніць:'
+cannot.undo.error.other.affected.files.changed.message:
+    text: 'Гэта аперацыя закранула наступныя файлы:'
+cannot.undo.message:
+    text: Немагчыма адмяніць
+close.action.name:
+    text: Закрыть
+dialog.options.do.not.ask:
+    text: Больш не пытайцеся ў [&D]
+dialog.options.do.not.show:
+    text: Больш не паказваць гэта дыялогавае акно
+exception.directory.can.not.create:
+    text: Немагчыма стварыць дырэкторыю {0}
+exception.directory.is.invalid:
+    text: Недапушчальная дырэкторыя {0}
+exception.directory.is.not.readable:
+    text: Дырэкторыя недаступна для чытання {0}
+failed.to.make.the.following.files.writable.error.message:
+    text: 'Не ўдалося зрабіць наступныя файлы даступнымі для запісу: {0}'
+name.label.text:
+    text: 'Імя [&M]:'
+safe.write.backup:
+    text: |-
+        Немагчыма захаваць {0}.
+        Не ўдалося стварыць рэзервовую копію файла ({1}).
+        Файл застаўся без змен.
+safe.write.junk:
+    text: |-
+        Немагчыма захаваць {0}.
+        Не ўдалося запісаць даныя.
+        Файл можа быць пашкоджаны.
+safe.write.junk.backup:
+    text: |-
+        Немагчыма захаваць {0}.
+        Не ўдалося запісаць даныя.
+        Файл можа быць пашкоджаны; рэзервовая копія створана ў {1}.
+safe.write.open:
+    text: |-
+        Немагчыма захаваць {0}.
+        Не ўдалося адкрыць файл для запісу.
+safe.write.restored:
+    text: |-
+        Немагчыма захаваць {0}.
+        Не ўдалося запісаць даныя.
+        Зыходнае змесціва аднаўлена з рэзервовай копіі.
+title.error:
+    text: Памылка
+title.settings:
+    text: Налады
+title.settings.mac:
+    text: Налады
+tree.node.loading:
+    text: Загрузка…
+undo.dialog.title:
+    text: Адмяніць

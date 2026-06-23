@@ -1,0 +1,224 @@
+annotation.cannot.be.local:
+    text: 不允许局部注解
+annotation.container.abstract:
+    text: "容器注解 ''{0}'' 没有包含 ''{1}'' 的默认值"
+annotation.container.bad.type:
+    text: "无效的容器注解 ''{0}'': ''value'' 方法的类型应为 ''{1}''"
+annotation.container.low.retention:
+    text: "容器注解 ''{0}'' 的保留长度(''{1}'')比包含的注解短"
+annotation.container.missed.annotation:
+    text: "容器注解 ''{0}'' 没有必需的 @{1} 注解"
+annotation.container.no.value:
+    text: "无效的容器注解 ''{0}'': 未声明 ''value'' 方法"
+annotation.container.not.applicable:
+    text: "容器注解 ''@{0}'' 不适用于 {1}"
+annotation.container.wide.target:
+    text: "容器注解 ''{0}'' 的目标不是此注解目标的子集"
+annotation.container.wrong.place:
+    text: "容器注解 ''{0}'' 不得与它所包含的元素同时存在"
+annotation.cyclic.element.type:
+    text: 循环注解元素类型
+annotation.duplicate.explained:
+    text: 注解重复。{0}
+annotation.may.not.have.extends.list:
+    text: '@interface 可能没有 extends 列表'
+annotation.missing.attribute:
+    text: '{0} 必要，但缺少'
+annotation.not.allowed.class:
+    text: 类文字类型可能未进行注解
+annotation.not.allowed.here:
+    text: 此处不允许注解
+annotation.not.allowed.ref:
+    text: 注解不适用于此类引用
+annotation.not.allowed.static:
+    text: 限定类型的 static 成员可能未注解
+annotation.not.allowed.var:
+    text: "'var' 类型可能未注解"
+annotation.not.allowed.void:
+    text: "'void' 类型可能未进行注解"
+annotation.not.applicable:
+    text: "''@{0}'' 不适用于{1}"
+array.initializer.not.allowed:
+    text: 此处不允许数组初始值设定项
+array.type.expected:
+    text: "应为数组类型；实际为 ''{0}''"
+assignment.to.final.variable:
+    text: "无法将值赋给 final 变量 ''{0}''"
+binary.operator.not.applicable:
+    text: "运算符 ''{0}'' 不能应用于 ''{1}''、''{2}''"
+break.outside.switch.or.loop:
+    text: break 位于 switch 或循环外部
+clash.methods.message:
+    text: "''{0}'' 与 ''{1}'' 冲突"
+clash.methods.message.show.classes:
+    text: "''{2}'' 中的 ''{0}'' 与 ''{3}'' 中的 ''{1}'' 冲突"
+class.already.imported:
+    text: "已在此编译单元中定义 ''{0}''"
+class.cannot.extend.multiple.classes:
+    text: 类不能扩展多个类
+class.clashes.with.package:
+    text: "类 ''{0}'' 与同名的软件包冲突"
+class.must.implement.method:
+    text: "类 ''{0}'' 必须在 ''{2}'' 中实现 abstract 方法 ''{1}''"
+exception.already.caught:
+    text: "已捕捉到异常 ''{0}''"
+exception.must.be.disjoint:
+    text: "多 catch 中的类型必须不相交: ''{0}'' 是 ''{1}'' 的子类"
+exception.never.thrown.try:
+    text: "相应的 try 块中从未抛出异常 ''{0}''"
+expression.expected:
+    text: 应为表达式
+foreach.not.applicable:
+    text: "Foreach 不适用于类型 ''{0}''"
+illegal.unicode.escape:
+    text: 非法 Unicode 转义序列
+insufficient.language.level:
+    text: "语言级别 ''{1}'' 不支持 {0}"
+label.without.statement:
+    text: 无语句的标签
+lvti.array:
+    text: "不允许将 'var' 作为数组的元素类型"
+lvti.compound:
+    text: "复合声明中不允许 'var'"
+lvti.lambda:
+    text: '无法推断类型: lambda 表达式需要显式目标类型'
+lvti.no.initializer:
+    text: "无法推断类型: 'var' 位于没有初始值设定项的变量上"
+lvti.null:
+    text: "无法推断类型: 变量初始值设定项为 'null'"
+lvti.void:
+    text: "无法推断类型: 变量初始值设定项为 'void'"
+modifier.not.allowed:
+    text: "此处不允许使用修饰符 ''{0}''"
+module.access.bad.name:
+    text: "软件包 ''{0}'' 在具有无效名称(''{1}'')的模块中声明"
+module.access.does.not.read:
+    text: "软件包 ''{0}'' 在模块 ''{1}'' 中声明，但模块 ''{2}'' 没有读取它"
+module.access.from.named:
+    text: "软件包 ''{0}'' 在模块 ''{1}'' 中声明，但后者没有将它导出到模块 ''{2}''"
+module.access.from.unnamed:
+    text: "软件包 ''{0}'' 在模块 ''{1}'' 中声明，但后者没有将它导出到未命名模块"
+module.access.not.in.graph:
+    text: "软件包 ''{0}'' 在模块 ''{1}'' 中声明，但后者不在模块图中"
+module.access.to.unnamed:
+    text: "软件包 ''{0}'' 在未命名的模块中声明，但模块 ''{1}'' 没有读取它"
+module.conflicting.packages:
+    text: "软件包 ''{0}'' 存在于另一个模块中: {1}"
+module.conflicting.reads:
+    text: "模块 ''{0}'' 同时从 ''{2}'' 和 ''{3}'' 读取软件包 ''{1}''"
+module.cyclic.dependence:
+    text: '循环依赖关系: {0}'
+module.duplicate.exports:
+    text: "重复的 ''exports'': {0}"
+module.duplicate.exports.target:
+    text: "重复的 ''exports'' 目标: {0}"
+module.duplicate.opens:
+    text: "重复的 ''opens'': {0}"
+module.duplicate.opens.target:
+    text: "重复的 ''opens'' 目标: {0}"
+module.duplicate.provides:
+    text: "重复的 ''provides'': {0}"
+module.duplicate.requires:
+    text: "重复的 ''requires'': {0}"
+module.duplicate.uses:
+    text: "重复的 ''uses'': {0}"
+module.file.duplicate:
+    text: "模块中已存在 'module-info.java'"
+module.file.wrong.location:
+    text: 模块声明应位于模块的源根中
+module.file.wrong.name:
+    text: "模块声明应位于名为 'module-info.java' 的文件中"
+module.no.package:
+    text: "模块文件不应具有 'package' 语句"
+module.not.found:
+    text: '找不到模块: {0}'
+module.not.on.path:
+    text: '模块不在依赖项中: {0}'
+module.opens.in.weak.module:
+    text: "打开的模块中不允许 'opens'"
+module.service.abstract:
+    text: '该服务实现是抽象类: {0}'
+module.service.alien:
+    text: 服务实现必须在 provides 指令所在的同一模块中定义
+module.service.enum:
+    text: '服务定义为枚举: {0}'
+module.service.inner:
+    text: '服务实现为内部类: {0}'
+module.service.provider.type:
+    text: "''provider'' 方法返回值类型必须是服务接口类型的子类型: {0}"
+package.clashes.with.class:
+    text: "软件包 ''{0}'' 与同名的类冲突"
+receiver.name.mismatch:
+    text: 接收器名称不匹配封闭类类型
+receiver.static.context:
+    text: 接收器不能在 static 上下文中使用
+receiver.type.mismatch:
+    text: 接收器类型不匹配封闭类类型
+receiver.wrong.context:
+    text: 不允许接收器超出方法形参列表
+receiver.wrong.position:
+    text: 接收器应为第一个形参
+record.accessor:
+    text: 记录组件访问器
+record.accessor.wrong.return.type:
+    text: "组件访问器返回值类型不正确。应为 ''{0}''，实际为 ''{1}''"
+record.canonical.constructor:
+    text: 规范构造函数
+record.canonical.constructor.wrong.parameter.name:
+    text: "规范构造函数形参名称必须匹配记录组件名称。应为 ''{0}''，实际为 ''{1}''"
+record.canonical.constructor.wrong.parameter.type:
+    text: "记录组件 ''{0}'' 的形参类型不正确。应为 ''{1}''，实际为 ''{2}''"
+record.compact.constructor:
+    text: 紧凑构造函数
+record.component.cstyle.declaration:
+    text: 记录组件中不允许 C 样式的数组声明
+record.component.not.initialized:
+    text: "记录组件 ''{0}'' 可能无法在规范构造函数中初始化"
+record.component.restricted.name:
+    text: "记录组件名称 ''{0}'' 非法"
+record.component.vararg.not.last:
+    text: Vararg 记录组件必须为列表中的最后一项
+record.extends:
+    text: 不允许对记录使用 extends 子句
+record.header.regular.class:
+    text: 为非记录声明了记录标头
+record.instance.field:
+    text: 记录中不允许实例字段
+record.instance.initializer:
+    text: 记录中不允许实例初始值设定项
+record.no.constructor.call.in.non.canonical:
+    text: 非规范记录构造函数必须委托给其他构造函数
+record.no.header:
+    text: 记录没有声明标头
+record.permits:
+    text: 记录不允许 permits 子句
+record.special.method.throws:
+    text: '{0} 无法声明抛出的异常'
+record.special.method.type.parameters:
+    text: '{0} 不能有类型形参'
+return.from.void.method:
+    text: 无法从结果类型为 void 的方法返回值
+return.outside.method:
+    text: return 位于方法外部
+switch.expression.cannot.be.void:
+    text: switch 表达式的目标类型不能为 void
+type.parameter.cannot.be.followed.by.other.bounds:
+    text: 类型形参后面不能跟随其他边界
+unary.operator.not.applicable:
+    text: "运算符 ''{0}'' 不能应用于 ''{1}''"
+vararg.cstyle.array.declaration:
+    text: vararg 形参中不允许 C 样式的数组声明
+vararg.not.last.parameter:
+    text: Vararg 形参必须为列表中的最后一个形参
+variable.already.assigned:
+    text: "变量 ''{0}'' 可能尚未被赋值"
+variable.assigned.in.loop:
+    text: "变量 ''{0}'' 可能在循环中赋值"
+variable.must.be.final:
+    text: "变量 ''{0}'' 从内部类中访问，需要声明为 final"
+variable.not.initialized:
+    text: "变量 ''{0}'' 可能尚未初始化"
+yield.unexpected:
+    text: yield 位于 switch 表达式外部
+yield.void:
+    text: "表达式类型不应为 'void'"

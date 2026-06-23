@@ -1,0 +1,34 @@
+fix.call:
+    text: "''{0}'' 호출"
+fix.can.replace.with.x:
+    text: "''{0}''(으)로 교체 가능"
+fix.can.replace.x.with.y:
+    text: "''{0}''을(를) ''{1}''(으)로 교체 가능"
+fix.convert.to.x:
+    text: "''{0}''(으)로 변환"
+fix.create.title:
+    text: '{0} 생성'
+fix.create.title.x:
+    text: "{0} ''{1}'' 생성"
+fix.remove:
+    text: "''{0}'' 제거"
+fix.remove.redundant:
+    text: "불필요한 ''{0}'' 제거"
+fix.remove.statement:
+    text: "''{0}'' 문 제거"
+fix.remove.title:
+    text: '{0} 제거'
+fix.remove.title.x:
+    text: "{0} ''{1}'' 제거"
+fix.replace.with.x:
+    text: "''{0}''(으)로 교체"
+fix.replace.x.with.y:
+    text: "''{0}''을(를) ''{1}''(으)로 교체"
+fix.simplify:
+    text: 단순화
+fix.unwrap:
+    text: "''{0}'' 감싸기 해제"
+fix.unwrap.statement:
+    text: "''{0}'' 문 감싸기 해제"
+fix.use:
+    text: "''{0}'' 사용"

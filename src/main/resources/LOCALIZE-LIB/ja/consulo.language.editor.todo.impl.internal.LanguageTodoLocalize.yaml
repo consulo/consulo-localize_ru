@@ -1,0 +1,62 @@
+action.description.todo.show.all:
+    text: すべての TODO アイテムを表示
+action.filter.todo.items:
+    text: TODO アイテムをフィルタ
+action.group.by.modules:
+    text: モジュール別にグループ化
+action.group.by.packages:
+    text: パッケージ別にグループ化
+action.next.todo:
+    text: 次の TODO
+action.previous.todo:
+    text: 前の TODO
+action.todo.edit.filters:
+    text: フィルタの編集
+action.todo.show.all:
+    text: すべて表示
+checkbox.case.sensitive:
+    text: 大文字/小文字を区別する
+column.todo.filter.pattern:
+    text: パターン
+column.todo.filter.patterns:
+    text: パターン
+column.todo.filters.name:
+    text: 名前
+column.todo.patterns.case.sensitive:
+    text: 大文字/小文字を区別する
+column.todo.patterns.icon:
+    text: アイコン
+column.todo.patterns.pattern:
+    text: パターン
+error.filter.name.should.be.specified:
+    text: フィルタ名を指定してください
+error.filter.should.contain.at.least.one.pattern:
+    text: フィルタには少なくとも 1 つのパターンが必要です
+error.filter.with.the.same.name.already.exists:
+    text: 同じ名前のフィルタが既に存在します
+group.todo.filter.patterns:
+    text: パターン
+label.todo.filter.name:
+    text: '名前 :'
+label.todo.filters:
+    text: 'フィルタ :'
+label.todo.icon:
+    text: 'アイコン :'
+label.todo.pattern:
+    text: 'パターン :'
+label.todo.patterns:
+    text: 'パターン :'
+node.todo.no.items.found:
+    text: '{0} (アイテムが見つかりません)'
+title.add.todo.filter:
+    text: フィルタの追加
+title.add.todo.pattern:
+    text: パターンの追加
+title.edit.todo.filter:
+    text: フィルタの編集
+title.edit.todo.pattern:
+    text: パターンの編集
+title.project:
+    text: プロジェクト
+title.todo.current.file:
+    text: 現在のファイル

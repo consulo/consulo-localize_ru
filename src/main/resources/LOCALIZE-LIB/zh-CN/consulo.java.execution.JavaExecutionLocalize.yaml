@@ -1,0 +1,22 @@
+application.configuration.description:
+    text: Java应用程序配置
+application.configuration.include.provided.scope:
+    text: 将"provided"范围的依赖项添加到类路径
+application.configuration.main.class.label:
+    text: 主类(&C)：
+application.configuration.name:
+    text: 应用程序
+application.configuration.shorten.command.line.label:
+    text: 缩短命令行(&L)：
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 使用模块的类路径(&D)：
+jar.application.configuration.description:
+    text: 使用"java-jar"命令运行JAR文件的配置
+jar.application.configuration.name:
+    text: JAR应用程序
+jre.path.is.not.valid.jre.home.error.message:
+    text: '"{0}"不是有效的JRE主目录'
+show.swing.inspector:
+    text: 启用快照捕获
+show.swing.inspector.disabled:
+    text: 启用快照捕获 (requires JRE 5.0 or higher)

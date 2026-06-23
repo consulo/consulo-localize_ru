@@ -1,0 +1,336 @@
+are.you.sure.you.want.to.delete.selected.file.confirmation.message:
+    text: "删除 ''{0}''?"
+are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
+    text: 要删除 {0} 个所选文件和目录吗?
+are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
+    text: 要删除 {0} 个所选文件吗?
+are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
+    text: "确定要删除文件夹 ''{0}'' 吗?"
+are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
+    text: 要删除 {0} 个所选目录吗?
+autoscroll.from.source.action.description:
+    text: 选择编辑器标签页时，在此视图中选择相应的元素
+autoscroll.from.source.action.name:
+    text: 始终选择打开的元素
+autoscroll.to.source.action.description:
+    text: 选择元素后，打开进行编辑
+autoscroll.to.source.action.name:
+    text: 一键导航
+big.text.control.window.title:
+    text: 文本
+button.add.class:
+    text: 添加类…
+button.add.pattern:
+    text: 添加模式…
+button.remove:
+    text: 删除(&R)
+cannot.save.files.dialog.ignore.changes:
+    text: 忽略更改(&I)
+cannot.save.files.dialog.message:
+    text: '试图保存文件时发生以下错误:'
+cannot.save.files.dialog.revert.changes:
+    text: 还原更改(&R)
+cannot.save.files.dialog.title:
+    text: 无法保存文件
+choose.class:
+    text: 选择类
+choose.content.to.paste.dialog.title:
+    text: 选择要粘贴的内容
+class.filter.editor.add.dialog.title:
+    text: 新的过滤器
+class.filter.editor.choose.class.title:
+    text: 选择类
+collapsible.panel.collapsed.state.tooltip.text:
+    text: 展开面板
+collapsible.panel.expanded.state.tooltip.text:
+    text: 收起面板
+color.panel.select.color.dialog.description:
+    text: 选择颜色
+component.with.browse.button.browse.button.tooltip.text:
+    text: 浏览…
+create.new.file.could.not.create.file.error.message:
+    text: "无法创建文件 ''{0}''"
+create.new.file.enter.new.file.name.prompt.text:
+    text: '输入一个新的文件名:'
+create.new.file.file.name.cannot.be.empty.error.message:
+    text: 文件名不能为空
+create.new.folder.could.not.create.folder.error.message:
+    text: "无法创建文件夹 ''{0}''"
+create.new.folder.enter.new.folder.name.prompt.text:
+    text: '输入一个新的文件夹名称:'
+create.new.folder.folder.name.cannot.be.empty.error.message:
+    text: 文件夹名称不能为空
+crumbs.calculating.tooltip:
+    text: 正在计算…
+delete.dialog.title:
+    text: 删除
+downloading.file.change.http.proxy.settings:
+    text: 更改 HTTP 代理设置(&P)…
+downloading.file.try.again.button:
+    text: 重试(&Y)
+error.dialog.title:
+    text: 错误
+errortree.prefix.line:
+    text: 行({0})
+file.cache.conflict.action:
+    text: 从磁盘重新加载
+file.cache.conflict.dialog.title:
+    text: 文件缓存冲突
+file.cache.conflict.diff.content.file.system.content:
+    text: 文件系统内容
+file.cache.conflict.diff.content.memory.content:
+    text: 内存内容
+file.cache.conflict.for.file.dialog.title:
+    text: 文件缓存冲突 {0}
+file.cache.conflict.keep.memory.changes.button:
+    text: 保留内存更改(&K)
+file.cache.conflict.load.fs.changes.button:
+    text: 加载文件系统更改(&L)
+file.cache.conflict.message.text:
+    text: "已在内存中和磁盘上对 ''{0}'' 进行更改"
+file.cache.conflict.save.changes.button:
+    text: 保存内存内容
+file.cache.conflict.show.difference.button:
+    text: 显示差异(&S)
+file.chooser.create.new.file.command.name:
+    text: 创建新文件
+file.chooser.create.new.folder.command.name:
+    text: 创建新文件夹
+file.chooser.default.title:
+    text: 选择路径
+file.chooser.save.dialog.confirmation:
+    text: |-
+        {0} 已存在。
+        是否要替换它?
+file.chooser.save.dialog.confirmation.title:
+    text: 确认另存为
+file.chooser.save.dialog.default.title:
+    text: 选择要保存的文件
+file.chooser.save.dialog.file.name:
+    text: '文件名:'
+file.is.read.only.message.text:
+    text: "文件 ''{0}'' 为只读文件。"
+files.are.read.only.message.text:
+    text: 文件 {0} 为只读文件。
+go.to.line.command.double.click:
+    text: 点击进入线
+go.to.line.command.name:
+    text: 转到行
+got.it:
+    text: 知道了!
+idea.blue.metal.theme.name:
+    text: BegBlue主题
+insert.file.path.to.text.action.name:
+    text: 插入路径
+integer.field.value.expected:
+    text: 应为值
+integer.field.value.not.a.number:
+    text: "值 ''{0}'' 不是整数"
+integer.field.value.out.of.range:
+    text: "值 ''{0}'' 超出范围 {1}..{2}"
+invalid.user.input.dialog.title:
+    text: 输入错误
+label.class.filter.editor.add.dialog.filter.pattern:
+    text: '输入过滤器模式:'
+master.detail.err.empty.name:
+    text: 名称应包含非空格字符
+memory.usage.panel.statistics.message:
+    text: '分配的堆大小: {0}M   Used: {1}M'
+message.noMatchesFound:
+    text: 未找到匹配
+message.nothingToShow:
+    text: 没有要显示的内容
+message.nothingToShow.with.problem:
+    text: 没有要显示的内容({0})
+move.down.action.name:
+    text: 下移
+move.up.action.name:
+    text: 上移
+new.file.dialog.title:
+    text: 新建文件
+new.folder.dialog.title:
+    text: 新建文件夹
+no.help.available.dialog.title:
+    text: 没有可用的帮助
+no.patterns:
+    text: 没有类模式配置
+order.entries.panel.export.column.name:
+    text: 导出
+popup.hints.panel.click.to.configure.highlighting.tooltip.text:
+    text: 点击以配置此文件的高亮显示
+popup.hints.panel.click.to.configure.profile.text:
+    text: 点击配置检查配置文件
+popup.list.item.renderer.next.step.label.accessible.name:
+    text: 子菜单
+position.panel.caret.count:
+    text: '{0}文本光标'
+position.panel.selected.chars.count:
+    text: '{0,choice,1#字符|2#字符}'
+position.panel.selected.line.breaks.count:
+    text: '{0} 行 {0,choice,1#换行符|2#换行符}'
+read.only.attr.panel.double.click.to.toggle.attr.tooltip.text:
+    text: 点击切换只读属性
+remove.field.initializer.quick.fix:
+    text: 移除字段初始值设定项
+replace.prompt.all.button:
+    text: 所有(&A)
+replace.prompt.all.files.action:
+    text: 所有文件(&A)
+replace.prompt.all.in.this.file.button:
+    text: 在此文件中替换全部(&F)
+replace.prompt.replace.button:
+    text: 替换(&R)
+replace.prompt.replace.occurrence.label:
+    text: 是否要替换此匹配项?
+replace.prompt.skip.button:
+    text: 跳过(&S)
+row.add:
+    text: 添加(&A)
+row.add.without.mnemonic:
+    text: 添加
+row.move.down:
+    text: 下移(&D)
+row.move.down.without.mnemonic:
+    text: 向下移动
+row.move.up:
+    text: 上移(&U)
+row.move.up.without.mnemonic:
+    text: 向上移动
+row.remove:
+    text: 移除(&E)
+row.remove.without.mnemonic:
+    text: 移除
+search.popup.search.for.label:
+    text: '搜索:'
+splitter.center.tooltip.text:
+    text: 中心
+splitter.down.tooltip.text:
+    text: 下
+splitter.left.tooltip.text:
+    text: 左
+splitter.right.tooltip.text:
+    text: 右
+splitter.up.tooltip.text:
+    text: 上
+status.bar.code.style.widget.name:
+    text: 缩进
+status.bar.column.status.text:
+    text: 列
+status.bar.column.status.tooltip.text:
+    text: 列选择模式
+status.bar.encoding.widget.name:
+    text: 文件编码
+status.bar.fatal.error.widget.name:
+    text: 内部错误
+status.bar.hide.widget.action.name:
+    text: "隐藏 ''{0}''"
+status.bar.inspection.profile.widget.name:
+    text: 检查配置文件
+status.bar.line.separator.widget.name:
+    text: 行分隔符
+status.bar.memory.usage.widget.name:
+    text: 内存指示器
+status.bar.notifications.widget.name:
+    text: 通知
+status.bar.notifications.widget.no.notification.tooltip:
+    text: 无新通知
+status.bar.notifications.widget.tooltip:
+    text: '{0} {0, choice, 1#通知|2#通知}挂起'
+status.bar.position.widget.name:
+    text: 行:列号
+status.bar.read.only.widget.name:
+    text: 只读特性
+status.bar.selection.mode.widget.name:
+    text: 编辑器选择模式
+status.bar.write.thread.widget.name:
+    text: 写入线程
+tabbed.pane.close.all.action.name:
+    text: 全部关闭
+tabbed.pane.close.all.but.this.action.name:
+    text: 关闭除此之外的所有
+tabbed.pane.close.all.tabs.but.this.action.name:
+    text: 关闭其他标签页
+tabbed.pane.close.tab.action.name:
+    text: 关闭标签页
+tabbed.pane.pin.tab.action.description:
+    text: 销工具窗口标签
+tabbed.pane.pin.tab.action.name:
+    text: 固定标签页
+there.is.no.help.for.this.dialog.error.message:
+    text: 没有这个的帮助对话框
+tool.window.hide.action.name:
+    text: 隐藏
+tool.window.hideSide.action.name:
+    text: 隐藏侧栏
+tool.window.move.to.action.group.name:
+    text: 移至
+tool.window.move.to.bottom.action.name:
+    text: 底部
+tool.window.move.to.left.action.name:
+    text: 左侧
+tool.window.move.to.right.action.name:
+    text: 右侧
+tool.window.move.to.top.action.name:
+    text: 顶部
+tool.window.name.build:
+    text: 构建
+tool.window.name.debug:
+    text: 调试
+tool.window.name.documentation:
+    text: 文档
+tool.window.name.find:
+    text: 查找
+tool.window.name.hierarchy:
+    text: 层次结构
+tool.window.name.inspection:
+    text: 检查结果
+tool.window.name.messages:
+    text: 消息
+tool.window.name.module.duplicates:
+    text: 复制
+tool.window.name.run:
+    text: 运行
+tool.window.name.structure:
+    text: 结构
+tool.window.name.version.control:
+    text: 版本控制
+tool.window.quick.access.message:
+    text: |-
+        将鼠标悬停在下面的图标来访问工具窗口
+        单击该图标，使工具窗口按钮可见
+tool.window.quick.access.title:
+    text: 工具窗口快速访问
+tree.view.collapse.all.action.name:
+    text: 全部收起
+tree.view.expand.all.action.name:
+    text: 全部展开
+treenode.loading:
+    text: 正在加载…
+welcome.screen.documentation.action.group.name:
+    text: 文档
+welcome.screen.get.from.vcs.action.checkout.from.list.popup.title:
+    text: 从结帐
+welcome.screen.get.from.vcs.action.no.vcs.plugins.with.check.out.action.installed.action.name:
+    text: 无VCS插件与退房行动安装。
+welcome.screen.jetbrains.tv.action.description:
+    text: 查看在线演示的介绍{0}功能。
+welcome.screen.plugins.panel.all.bundled.plugins.were.uninstalled.message.text:
+    text: 所有捆绑的插件被卸载。
+welcome.screen.plugins.panel.bundled.plugins.label:
+    text: '捆绑的插件:'
+welcome.screen.plugins.panel.learn.more.tooltip.text:
+    text: 了解更多...
+welcome.screen.plugins.panel.manager.link:
+    text: <html><body><u>打开插件管理器</u></body></html>
+welcome.screen.plugins.panel.my.plugins.label:
+    text: '我的插件:'
+welcome.screen.plugins.panel.no.plugins.currently.installed.message.text:
+    text: 当前未安装任何插件。
+welcome.screen.plugins.panel.plugins.label:
+    text: 插件
+welcome.screen.quick.start.action.group.name:
+    text: 快速入门
+welcome.screen.recent.projects.action.no.recent.projects.to.display.action.name:
+    text: 最近没有项目可显示。
+welcome.screen.text.not.specified.message:
+    text: 未指定

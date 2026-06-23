@@ -1,0 +1,266 @@
+0.occurrences.replaced:
+    text: Заменена {0,choice,0#0 |1#{0}} {0,choice,0#супадзенняў|1#супадзенне|2#супадзенні}
+button.exclude:
+    text: Выключыць
+button.include:
+    text: Уключыце
+cannot.search.for.usages.title:
+    text: Немагчыма знайсці выкарыстанні
+empty.text.searching:
+    text: Пошук…
+find.button:
+    text: Знайсці
+find.case.sensitive:
+    text: З улікам рэгістра [&C]
+find.context.anywhere.scope.label:
+    text: Везде
+find.context.except.comments.and.literals.scope.label:
+    text: Акрамя каментарыяў і радковых літаралаў
+find.context.except.comments.scope.label:
+    text: Акрамя каментарыяў
+find.context.except.literals.scope.label:
+    text: Акрамя радковых літаралаў
+find.context.in.comments.scope.label:
+    text: У каментарыях
+find.context.in.literals.scope.label:
+    text: У радковых літаралах
+find.dialog.find.button:
+    text: Знайсці
+find.directory.not.found.error:
+    text: Каталог не найден
+find.empty.match.regular.expression.error:
+    text: Рэгулярны выраз адпавядае пустому радку
+find.empty.search.text.error:
+    text: Не ўведзены тэкст для пошуку
+find.excessive.total.size.prompt:
+    text: Выяўлены агульны памер файлаў {0}. Пры працягу {1} можа перастаць адказваць або завяршыцца з памылкай OutOfMemoryError. Працягнуць?
+find.field.accessors.prompt:
+    text: "Шукаць аксесары поля ''{0}''?"
+find.field.accessors.title:
+    text: Пошук аксесараў
+find.filter.empty.file.mask.error:
+    text: Пустая маска файлов
+find.filter.file.mask.checkbox:
+    text: Маска файлов [&K]
+find.filter.file.name.group:
+    text: Фільтр імёнаў файлаў
+find.filter.invalid.file.mask.error:
+    text: Неверная маска файлов "{0}"
+find.highlight.no.more.highlights.found:
+    text: Больш супадзенняў не знойдзена
+find.in.path.dialog.title:
+    text: Знайсці ў файлах
+find.invalid.regular.expression.error:
+    text: 'Неверный шаблон "{0}": {1}'
+find.new.line:
+    text: Новая строка
+find.no.usages.at.cursor.error:
+    text: |-
+        Немагчыма знайсці выкарыстанні ў гэтай пазіцыі.
+        Памясціце курсор на элемент для пошуку яго выкарыстанняў і паўтарыце спробу.
+find.open.in.new.tab.action:
+    text: Открыть результаты в новой вкладке [&B]
+find.open.in.new.tab.checkbox:
+    text: Открыть в новой вкладке [&B]
+find.options.include.overloaded.methods.checkbox:
+    text: Перегруженные методы [&V]
+find.options.replace.preserve.case:
+    text: Захоўваць рэгістр [&E]
+find.options.search.for.text.occurrences.checkbox:
+    text: Тэкставыя супадзенні [&O]
+find.options.skip.results.tab.with.one.usage.checkbox:
+    text: Прапускаць укладку вынікаў з адным выкарыстаннем [&K]
+find.pointcut.applications.not.found.title:
+    text: Інфармацыя
+find.popup.case.sensitive:
+    text: З улікам рэгістра [&C]
+find.popup.filemask:
+    text: 'Маска файлов [&A]:'
+find.popup.find.button:
+    text: Адкрыць акно пошуку
+find.popup.replace.all.button:
+    text: Замяніць усе [&A]
+find.popup.replace.selected.button:
+    text: Замяніць {0,choice,0#|1#|2#{0} знойдзеных}
+find.popup.scope.directory:
+    text: Каталог [&D]
+find.popup.scope.module:
+    text: Модуль [&M]
+find.popup.scope.project:
+    text: В проекте [&P]
+find.popup.scope.scope:
+    text: Область [&S]
+find.popup.show.filter.popup:
+    text: Фільтраваць вынікі пошуку
+find.progress.search.completed:
+    text: Пошук завершаны
+find.progress.searching.message:
+    text: Пошук {0}…
+find.recursively.hint:
+    text: Рэкурсіўны пошук у падкаталогах
+find.regex:
+    text: Рэгулярны выраз [&X]
+find.replace.accessible.name:
+    text: Замяніць
+find.replace.all.action:
+    text: Замяніць усе [&A]
+find.replace.all.confirmation:
+    text: "<html><body>Замяніць {0} супадзенняў ''{1}''<br>на ''{3}'' у {2} файлах?"
+find.replace.all.confirmation.title:
+    text: Замяніць усе
+find.replace.command:
+    text: Замяніць
+find.replace.dialog.title:
+    text: Замяніць
+find.replace.history:
+    text: Гісторыя замен
+find.replace.in.project.dialog.title:
+    text: Замяніць у файлах
+find.replace.invalid.replacement.string:
+    text: "Введена некорректная строка замены: ''{0}''"
+find.replace.invalid.replacement.string.title:
+    text: Памылка замены
+find.replace.selected.action:
+    text: Замяніць {0,choice,0#|1#|2#{0} знойдзеных} [&R]
+find.replace.text.dialog.title:
+    text: Замяніць тэкст
+find.scope.all.project.classes:
+    text: Все классы проекта
+find.scope.directory.recursive.checkbox:
+    text: Рэкурсіўна [&Y]
+find.scope.directory.title:
+    text: Каталог {0}
+find.scope.files.with.mask:
+    text: "С маской ''{0}''"
+find.scope.label:
+    text: 'Область [&S]:'
+find.scope.module.title:
+    text: "Модуль ''{0}''"
+find.scope.project.title:
+    text: Проект
+find.search.accessible.name:
+    text: Пошук
+find.search.again.from.bottom.action.message:
+    text: '{0}, выканайце "Знайсці папярэдняе" для пошуку зноў з канца'
+find.search.again.from.bottom.hotkey.message:
+    text: '{0}, націсніце {1} для пошуку з канца'
+find.search.again.from.top.action.message:
+    text: '{0}, выканайце "Знайсці наступнае" для пошуку зноў спачатку'
+find.search.again.from.top.hotkey.message:
+    text: '{0}, націсніце {1} для пошуку спачатку'
+find.search.history:
+    text: Гісторыя пошуку
+find.search.string.not.found.message:
+    text: '"{0}" не найдено'
+find.searched.elements.have.been.changed.error:
+    text: Шуканыя элементы былі зменены. Пошук выкарыстанняў немагчымы.
+find.searching.for.references.to.class.progress:
+    text: Пошук спасылак на клас {0}…
+find.searching.for.string.in.file.occurrences.progress:
+    text: Знойдзена {0,choice,0#0|1#{0}} {0,choice,0#супадзенняў|1#супадзенне|2#супадзенні}
+find.searching.for.string.in.file.progress:
+    text: "Пошук ''{0}'' у {1}…"
+find.selection.only:
+    text: Шукаць у вылучэнні
+find.super.method.warning.action.verb:
+    text: Знайсці выкарыстанні
+find.text.dialog.title:
+    text: Знайсці тэкст
+find.usage.view.no.usages.text:
+    text: Выкарыстанні не знойдзены
+find.usage.view.tab.text:
+    text: "Супадзенні ''{0}''{1}"
+find.usage.view.toolwindow.title:
+    text: "Супадзенні ''{0}'' у {1}{2}"
+find.usages.ambiguous.title:
+    text: Знайсці выкарыстанні
+find.usages.dialog.title:
+    text: Знайсці выкарыстанні
+find.usages.in.file.dialog.title:
+    text: Знайсці выкарыстанні ў файле
+find.usages.of.element.in.scope.panel.title:
+    text: '{0} (в {1})'
+find.usages.of.element_type.element_name.not.found.message:
+    text: Выкарыстанні {0} {1} не знойдзены
+find.usages.panel.title.derived.classes:
+    text: вытворныя класы
+find.usages.panel.title.derived.interfaces:
+    text: вытворныя інтэрфейсы
+find.usages.panel.title.implementing.classes:
+    text: рэалізуючыя класы
+find.usages.panel.title.implementing.methods:
+    text: рэалізуючыя метады
+find.usages.panel.title.overloaded.methods.usages:
+    text: перегруженные методы
+find.usages.panel.title.overriding.methods:
+    text: пераазначальныя метады
+find.usages.panel.title.usages:
+    text: Выкарыстанні
+find.what.derived.classes.checkbox:
+    text: Вытворныя класы [&D]
+find.what.derived.interfaces.checkbox:
+    text: Вытворныя інтэрфейсы [&D]
+find.what.fields.usages.checkbox:
+    text: Выкарыстанні палёў [&F]
+find.what.group:
+    text: 'Знайсці:'
+find.what.implementing.classes.checkbox:
+    text: Рэалізуючыя класы [&I]
+find.what.implementing.methods.checkbox:
+    text: Рэалізуючыя метады [&I]
+find.what.implicit.to.string.checkbox:
+    text: Неявные вызовы [&M]
+find.what.methods.usages.checkbox:
+    text: Выкарыстанні метадаў [&M]
+find.what.overriding.methods.checkbox:
+    text: Пераазначальныя метады [&R]
+find.what.usages.checkbox:
+    text: Выкарыстанні [&U]
+find.what.usages.of.classes.and.interfaces:
+    text: Выкарыстанні класаў і інтэрфейсаў [&C]
+find.whole.words:
+    text: Словы цалкам [&W]
+found.occurrences:
+    text: Знойдзены супадзенні ў {0}
+label.use.0.and.1.to.select.usages:
+    text: Выкарыстоўвайце {0} і {1} для выбару выкарыстанняў
+link.click.to.highlight:
+    text: Націсніце для падсветкі
+message.file.masks.should.be.comma.separated:
+    text: Маскі файлаў павінны раздзяляцца коскамі
+message.nothingFound:
+    text: Нічога не знойдзена
+message.nothingFound.clearAll:
+    text: Ачысціць усе опцыі
+message.nothingFound.used.options:
+    text: 'Выкарыстаны опцыі пошуку:'
+notification.content.one.or.more.malformed.replacement.strings:
+    text: Адзін або некалькі некарэктных радкоў замены
+notification.find.usages.is.not.available.during.indexing:
+    text: Пошук выкарыстанняў недаступны падчас індэксацыі
+notification.title.regular.expression.failed.to.match:
+    text: Памылка супастаўлення рэгулярнага выразу
+progress.text.scanning.indexed.files:
+    text: Сканіраванне індэксаваных файлаў…
+progress.text.scanning.non.indexed.files:
+    text: Сканіраванне неіндэксаваных файлаў…
+progress.title.finding.usages:
+    text: Пошук выкарыстанняў
+progress.title.updating.usage.view:
+    text: Абнаўленне прадстаўлення выкарыстанняў…
+recent.find.usages.action.nothing:
+    text: Няма нядаўніх запісаў выкарыстанняў
+recent.find.usages.action.popup:
+    text: "{0} ''{1}'' в {2}"
+recent.find.usages.action.title:
+    text: Нядаўні пошук выкарыстанняў
+se.text.header.action.all.filetypes:
+    text: Усе тыпы файлаў
+select.next.occurence.not.found.message:
+    text: Не знойдзена, паўтарыць пошук спачатку
+show.in.find.window.button.description:
+    text: Адкрыйце вынікі пошуку ў акне пошуку
+show.in.find.window.button.name:
+    text: Адкрыць у акне пошуку
+tooltip.close.search.bar.escape:
+    text: Закрыць панэль пошуку (Esc)

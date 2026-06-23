@@ -1,0 +1,516 @@
+action.ToggleInlineHintsAction.description:
+    text: パラメータ名のヒントを切り替えます。
+action.ToggleInlineHintsAction.text:
+    text: パラメータ名のヒントを切り替えます。
+codeinsight.settings:
+    text: CodeInsight 設定
+command.name.surround.with.runtime.cast:
+    text: ランタイム キャストで囲む
+command.name.typing:
+    text: 入力
+create.directory.command:
+    text: ディレクトリの作成
+declaration.navigation.title:
+    text: '{0} の宣言に移動'
+dialog.copy.live.template.title:
+    text: ライブ テンプレートのコピー
+dialog.create.class.destination.package.label:
+    text: 'パッケージ作成先 :'
+dialog.create.class.package.chooser.title:
+    text: パッケージ作成先の選択
+dialog.create.field.from.parameter.already.exists.text:
+    text: 既存のフィールド {0} を使用しますか ?
+dialog.create.field.from.parameter.already.exists.title:
+    text: フィールドは既に存在します
+dialog.create.field.from.parameter.declare.final.checkbox:
+    text: final の宣言
+dialog.create.field.from.parameter.field.name.label:
+    text: '名前 :'
+dialog.create.field.from.parameter.field.type.label:
+    text: タイプ {0} のフィールド
+dialog.create.field.from.parameter.title:
+    text: フィールドの作成
+dialog.edit.live.template.title:
+    text: ライブ テンプレートの編集
+dialog.edit.template.button.edit.variables:
+    text: 変数の編集
+dialog.edit.template.checkbox.reformat.according.to.style:
+    text: スタイルに応じて再フォーマット(&R)
+dialog.edit.template.checkbox.shorten.fq.names:
+    text: 完全修飾名を短くする(&F)
+dialog.edit.template.checkbox.smart.type.completion:
+    text: スマート タイプ補完(&O)
+dialog.edit.template.context.title:
+    text: コンテキスト
+dialog.edit.template.error.already.exists:
+    text: |-
+        テンプレートを保存できません。
+        テンプレートの略称 "{0}"
+        は既にグループ "{1}" に存在します。
+        他の略称をつけてください。
+dialog.edit.template.error.malformed.abbreviation:
+    text: |-
+        テンプレートを保存できません。
+        テンプレートの略称には文字、数値、およびドットのみ使用できます。
+dialog.edit.template.error.title:
+    text: 保存できません
+dialog.edit.template.label.abbreviation:
+    text: '略称(&A):'
+dialog.edit.template.label.description:
+    text: '説明(&D):'
+dialog.edit.template.label.expand.with:
+    text: 展開
+dialog.edit.template.label.group:
+    text: 'グループ(&G):'
+dialog.edit.template.options.title:
+    text: オプション
+dialog.edit.template.shortcut.default:
+    text: デフォルト ({0})
+dialog.edit.template.template.text.title:
+    text: テンプレート テキスト
+dialog.import.on.paste.title:
+    text: インポートするクラスの選択
+dialog.import.on.paste.title2:
+    text: インポートする要素の選択
+dialog.intention.settings.description.panel.title:
+    text: 説明
+dialog.intention.settings.description.usage.example.title:
+    text: <html><body><center><b>使用例 :</b></center></body></html>
+dialog.intention.settings.intention.list.title:
+    text: インテンション リスト
+dialog.paste.on.import.text:
+    text: |-
+        貼り付けたコード フラグメントは、新しいコンテキストのインポートで
+        アクセスできないクラスを使用しています。
+        新規ファイルにインポートするクラスを選択してください。
+dialog.paste.on.import.text2:
+    text: |-
+        貼り付けたコード フラグメントは、新しいコンテキストのインポートで
+        アクセスできない要素を使用しています。
+        新規ファイルにインポートする要素を選択してください。
+dialog.reformat.files.optimize.imports.checkbox:
+    text: インポートの最適化(&O)
+dialog.reformat.files.reformat.selected.files.label:
+    text: 選択したファイルを再フォーマットしますか ?
+dialog.reformat.files.title:
+    text: ファイルの再フォーマット
+disable.intention.action:
+    text: "''{0}'' を無効にする"
+enable.intention.action:
+    text: "''{0}'' を有効にする"
+error.attempt.to.generate.constructor.for.anonymous.class:
+    text: コンストラクタを匿名クラスに追加できません
+error.dialog.readonly.file.title:
+    text: ファイルは読み取り専用です
+error.dialog.readonly.files.message:
+    text: |-
+        {0} には読み取り専用ファイルがあります。
+        その他すべてのファイルを処理しますか ?
+error.dialog.readonly.files.title:
+    text: 読み取り専用ファイルは変更できません
+error.hint.file.is.readonly:
+    text: ファイル {0} は読み取り専用です
+finish.template.command:
+    text: テンプレートの終了
+generate.constructor.fields.chooser.title:
+    text: コンストラクタで初期化するフィールドを選択してください
+generate.constructor.super.constructor.chooser.title:
+    text: スーパー クラス コンストラクタの選択
+generate.delegate.method.chooser.title:
+    text: 委譲を生成するメソッドの選択
+generate.delegate.target.chooser.title:
+    text: 委譲を生成するターゲットの選択
+generate.equals.and.hashcode.already.defined.title:
+    text: equals() と hashCode() の生成
+generate.equals.and.hashcode.already.defined.warning:
+    text: "メソッド ''boolean equals(Object)'' および ''int hashCode()'' は既に定義されています。\nクラス :{0} 削除および続行しますか ?"
+generate.equals.and.hashcode.already.defined.warning.anonymous:
+    text: "メソッド 'boolean equals(Object)' および 'int hashCode()' は既に\nこの匿名クラスで定義されています。 削除および続行しますか ?"
+generate.equals.and.hashcode.error.no.object.class.message:
+    text: |-
+        equals() と hashCode() を生成できません。
+        java.lang.Object クラスがありません。
+generate.equals.and.hashcode.error.no.object.class.title:
+    text: java.lang.Object がありません
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: equals() に含めるフィールドの選択
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: hashCode() に含めるフィールドの選択
+generate.equals.hashcode.internal.error:
+    text: 内部エラー
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: すべての非 NULL フィールドの選択
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: 配列の hashCode () はサポートされていません
+generate.equals.hashcode.wizard.title:
+    text: equals() と hashCode() の生成
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: ネストされた配列 equals() はサポートされていません
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: 生成された Object[] の equals() は不正です
+generate.getter.fields.chooser.title:
+    text: Getters を生成するフィールドの選択
+generate.getter.setter.title:
+    text: Getters および Setters を生成するフィールドの選択
+generate.list.popup.title:
+    text: 生成
+generate.setter.fields.chooser.title:
+    text: Setters を生成するフィールドの選択
+goto.super.class.chooser.title:
+    text: スーパー クラスまたはインターフェイスの選択
+goto.super.method.chooser.title:
+    text: スーパー メソッドの選択
+highlight.exceptions.thrown.chooser.title:
+    text: 強調表示する例外クラスの選択
+highlight.thrown.exceptions.chooser.all.entry:
+    text: すべて表示
+i18n.quickfix.code.panel.resource.bundle.expression.label:
+    text: 'リソース バンドル式(&E):'
+i18n.quickfix.code.panel.title:
+    text: Java コード情報
+i18n.quickfix.preview.panel.title:
+    text: プレビュー
+i18n.quickfix.property.panel.properties.file.label:
+    text: 'プロパティ ファイル(&P):'
+i18n.quickfix.property.panel.property.key.label:
+    text: 'プロパティ キー(&K):'
+i18n.quickfix.property.panel.property.value.label:
+    text: 'プロパティ値(&V):'
+i18n.quickfix.property.panel.title:
+    text: プロパティ情報
+i18n.quickfix.property.panel.update.all.files.in.bundle.checkbox:
+    text: リソース バンドル内のすべてのプロパティ ファイルを更新する(&R)
+i18nize.dialog.error.jdk.message:
+    text: "クラス 'java.util.ResourceBundle' がありません。\n正しい JDK をセットアップしてください。"
+i18nize.dialog.error.jdk.title:
+    text: クラスがありません
+i18nize.dialog.error.property.already.defined.message:
+    text: "プロパティ ''{0}'' は既にファイル ''{1}'' に存在します"
+i18nize.dialog.error.property.already.defined.title:
+    text: プロパティは既に存在します
+i18nize.dialog.property.file.chooser.title:
+    text: プロパティ ファイルの選択
+i18nize.dialog.template.link.label:
+    text: 国際化テンプレートの編集
+i18nize.dialog.title:
+    text: 文字列リテラルの国際化
+incremental.search.tooltip.prefix:
+    text: '検索 :'
+inlay.hints.disable.action.text:
+    text: ヒントを無効にする
+inlay.hints.enable.action.text:
+    text: パラメータ名のヒントを有効にする
+inlay.hints.show.settings:
+    text: "メソッド '' {0} ''をブラックリストに追加..."
+insert.code.template.command:
+    text: コード テンプレートの挿入
+inspection.error.dialog.title:
+    text: エラー
+inspection.i18n.display.name:
+    text: ハード コード文字列
+inspection.i18n.expression.is.invalid.error.message:
+    text: 国際化式テンプレートは有効な式ではありません
+inspection.i18n.message.general.with.value:
+    text: "ハード コード文字列リテラル : ''{0}''"
+inspection.i18n.option.ignore.assert:
+    text: アサート文引数の無視
+inspection.i18n.option.ignore.for.exception.constructor.arguments:
+    text: 例外コンストラクタ引数の無視
+inspection.i18n.option.ignore.for.junit.assert.arguments:
+    text: JUnit アサート引数の無視
+inspection.i18n.option.ignore.for.specified.exception.constructor.arguments:
+    text: 指定した例外コンストラクタ引数の無視
+inspection.i18n.option.ignore.nonalphanumerics:
+    text: アルファベット文字を含まないリテラルを無視
+inspection.i18n.option.ignore.property.keys:
+    text: 既存のプロパティ キーと同じ値を持つリテラルを無視
+inspection.i18n.option.ignore.qualified.class.names:
+    text: 既存の修飾クラス名と同じ値を持つリテラルを無視
+inspection.i18n.quickfix:
+    text: ハード コード文字列リテラルの国際化
+inspection.unresolved.property.key.reference.message:
+    text: "文字列リテラル ''{0}'' は有効なプロパティ キーではありません"
+inspection.unresolved.property.key.reference.name:
+    text: 無効なプロパティ キー
+intention.add.annotation.family:
+    text: 注釈の追加
+intention.add.on.demand.static.import.family:
+    text: オンデマンド static インポートの追加
+intention.add.on.demand.static.import.text:
+    text: "''{0}'' のオンデマンド static インポートの追加"
+intention.add.override.annotation:
+    text: "'@Override' 注釈の追加"
+intention.add.override.annotation.family:
+    text: Override 注釈の追加
+intention.add.single.member.static.import.family:
+    text: シングル メンバ static インポートの追加
+intention.add.single.member.static.import.text:
+    text: "''{0}'' の static インポートの追加"
+intention.assign.field.from.parameter.family:
+    text: フィールドへのパラメータ代入
+intention.assign.field.from.parameter.text:
+    text: "フィールド ''{0}'' へのパラメータ代入"
+intention.create.field.from.parameter.family:
+    text: パラメータ用のフィールド作成
+intention.create.field.from.parameter.text:
+    text: "パラメータ ''{0}'' のフィールド作成"
+intention.implement.abstract.class.default.text:
+    text: 抽象クラスの実装
+intention.implement.abstract.class.family:
+    text: 抽象クラスまたはインターフェイスの実装
+intention.implement.abstract.class.interface.text:
+    text: インターフェイスの実装
+intention.implement.abstract.method.class.chooser.title:
+    text: クラスの実装の選択
+intention.implement.abstract.method.command.name:
+    text: メソッドの実装
+intention.implement.abstract.method.error.no.classes.message:
+    text: このメソッドを実装できるクラスはありません
+intention.implement.abstract.method.error.no.classes.title:
+    text: クラスがありません
+intention.implement.abstract.method.family:
+    text: 抽象メソッドの実装
+intention.implement.abstract.method.searching.for.descendants.progress:
+    text: 子孫を検索しています...
+intention.implement.abstract.method.text:
+    text: "メソッド ''{0}'' の実装"
+intention.invert.if.condition:
+    text: If 条件を反転させる
+intention.make.type.generic.family:
+    text: ジェネリック タイプの指定
+intention.make.type.generic.text:
+    text: '{0} のタイプを {1} に変更'
+intention.replace.concatenation.with.formatted.output.family:
+    text: 結合する部分をフォーマットされた出力に置き換える
+intention.replace.concatenation.with.formatted.output.text:
+    text: + を java.text.MessageFormat 呼び出しに置換
+intention.settings:
+    text: インテンション 設定
+intention.settings.category.text:
+    text: "<html><body><font face=\"verdana\" size=\"-1\">  <center>インテンション カテゴリ ''<b>{0}</b>'' を選択しました。</center>  <center>チェックボックスをクリックして、このカテゴリ内のすべてのインテンションの有効/無効を切り替えます。</center>  <center>個別のインテンションの有効/無効を切り替えるには、このカテゴリの中のインテンションを選択します。</center>  </font></body></html>"
+intention.split.declaration.assignment.text:
+    text: 宣言文と代入文に分解する
+intention.split.declaration.family:
+    text: 宣言の分解
+intention.split.declaration.text:
+    text: 別々の宣言に分解する
+intention.split.if.family:
+    text: If 文を分解する
+intention.split.if.text:
+    text: 2 つの If に分解する
+javadoc.action.back:
+    text: 戻る
+javadoc.action.forward:
+    text: 次へ
+javadoc.action.view.external:
+    text: 外部 JavaDoc の参照
+javadoc.candiates:
+    text: <html>メソッド呼び出し <b>{0}</b> の候補 :<br><br>{1}</html>
+javadoc.candidates.not.found:
+    text: <html>メソッド呼び出し <b>{0}</b> の候補はありません。</html>
+javadoc.deprecated:
+    text: 非推奨
+javadoc.description.copied.from.class:
+    text: 'クラスからコピーする説明 :'
+javadoc.description.copied.from.interface:
+    text: 'インターフェイスからコピーする説明 :'
+javadoc.documentation.not.found.message:
+    text: |-
+        この要素のドキュメントはありません。
+        API docs に必要なすべてのパスを [プロジェクト設定] で追加してください。
+javadoc.documentation.not.found.title:
+    text: ドキュメントなし
+javadoc.external.fetch.error.message:
+    text: 'リモート JavaDocs をフェッチできません : {0}'
+javadoc.fetching.progress:
+    text: JavaDocs をフェッチしています....
+javadoc.method.in.class:
+    text: クラス {1} の {0}
+javadoc.method.in.interface:
+    text: インターフェイス {1} の {0}
+javadoc.method.overrides:
+    text: 'オーバーライド :'
+javadoc.method.specified.by:
+    text: '指定 :'
+javadoc.parameters:
+    text: 'パラメータ :'
+javadoc.returns:
+    text: '戻り値 :'
+javadoc.see.also:
+    text: '参照 :'
+javadoc.since:
+    text: '以来 :'
+javadoc.throws:
+    text: 'スロー :'
+lightbulb.tooltip:
+    text: '{0} をクリックまたは押下'
+livetemplate.description.inst:
+    text: instanceof でオブジェクト タイプをチェックしてダウンキャストする
+livetemplate.description.itar:
+    text: 配列要素の繰り返し
+livetemplate.description.itco:
+    text: java.util.Collection の要素の繰り返し
+livetemplate.description.iten:
+    text: java.util.Enumeration の繰り返し
+livetemplate.description.iter:
+    text: 繰り返し可能 | J2SDK 5.0 構文内の配列の繰り返し
+livetemplate.description.itit:
+    text: java.util.Iterator の繰り返し
+livetemplate.description.itli:
+    text: java.util.List の要素の繰り返し
+livetemplate.description.ittok:
+    text: 文字列からのトークンの繰り返し
+livetemplate.description.itve:
+    text: java.util.Vector の要素の繰り返し
+livetemplate.description.lst:
+    text: 配列の最終要素をフェッチする
+livetemplate.description.mn:
+    text: 変数に小さい値を設定する
+livetemplate.description.mx:
+    text: 変数に大きな値を設定する
+livetemplate.description.psvm:
+    text: main() メソッド宣言
+livetemplate.description.ritar:
+    text: 配列要素の逆方向の繰り返し
+livetemplate.description.serr:
+    text: 文字列を System.err に出力する
+livetemplate.description.sout:
+    text: 文字列を System.out に出力する
+livetemplate.description.soutm:
+    text: 現在のクラスとメソッド名を System.out に出力する
+livetemplate.description.soutv:
+    text: 値を System.out に出力する
+livetemplate.description.surround.parens:
+    text: () で囲む
+livetemplate.description.surround.tag:
+    text: <tag></tag> で囲む
+livetemplate.description.tag.pair:
+    text: タグの組
+livetemplate.description.toar:
+    text: java.util.Collection の要素を配列に格納する
+methods.to.implement.chooser.title:
+    text: 実装するメソッドの選択
+methods.to.override.chooser.title:
+    text: オーバーライドするメソッドの選択
+n.of.m:
+    text: '{1} の {0}'
+no.documentation.found:
+    text: ドキュメントがありません。
+override.implement.broken.file.template.message:
+    text: '"上書き/実装メソッド ボディ" テンプレートを修正してください'
+override.implement.broken.file.template.title:
+    text: ファイル テンプレート エラー
+parameter.info.no.parameters:
+    text: <パラメータなし>
+process.optimize.imports:
+    text: インポートの最適化
+process.rearrange.code:
+    text: コードの再編成...
+process.rearrange.code.before.commit:
+    text: コミットする前にコードを整理する
+process.reformat.code:
+    text: コードの再フォーマット
+process.scope.changed.files:
+    text: VCSのみファイルを変更しました
+process.scope.directory:
+    text: "ディレクトリ ''{0}''"
+process.scope.file:
+    text: ファイル {0}
+process.scope.module:
+    text: "モジュール ''{0}''"
+process.scope.project:
+    text: "プロジェクト ''{0}''"
+progress.text.optimizing.imports:
+    text: インポートを最適化しています...
+quick.definition.back:
+    text: 戻る
+quick.definition.edit.source:
+    text: ソースの編集
+quick.definition.forward:
+    text: 次へ
+quick.definition.show.source:
+    text: ソースの表示
+quickfix.add.variable.family.name:
+    text: 変数の初期化
+quickfix.add.variable.text:
+    text: "変数 ''{0}'' の初期化"
+quickfix.i18n.command.name:
+    text: 国際化
+quickfix.i18n.concatentation:
+    text: ハード コード文字列表現を含む文字列結合の国際化
+reformat.code.accept.button.text:
+    text: 実行
+reformat.directory.dialog.filters:
+    text: フィルタ
+reformat.directory.dialog.options:
+    text: オプション
+reformat.option.all.files.in.directory:
+    text: ディレクトリ {0} のすべてのファイル
+reformat.option.include.subdirectories:
+    text: サブディレクトリを含む
+reformat.option.optimize.imports:
+    text: インポートの最適化
+reformat.option.selected.text:
+    text: 選択したテキスト
+searching.for.implementations:
+    text: 実装を検索しています...
+status.bar.exit.points.highlighted.message:
+    text: '{0} exit {0, choice, 1#point|2#points} highlighted (Esc キーで強調表示をクリアします)'
+status.bar.highlighted.usages.message:
+    text: '{0} {0, choice, 1#usage|2#usages} of {1} found (Esc キーで強調表示をクリアします)'
+status.bar.highlighted.usages.no.target.message:
+    text: '{0} {0, choice, 1#usage|2#usages} found (Esc キーで強調表示をクリアします)'
+status.bar.highlighted.usages.not.found.message:
+    text: '{0} の使用箇所は見つかりません'
+status.bar.highlighted.usages.not.found.no.target.message:
+    text: 使用箇所は見つかりません
+surround.with.chooser.title:
+    text: 囲む
+surround.with.runnable.template:
+    text: 実行可能
+surround.with.try.catch.incorrect.template.message:
+    text: Catch ボディの無効なファイル テンプレート
+surround.with.try.catch.incorrect.template.title:
+    text: Try / Catch で囲む
+template.next.variable.command:
+    text: 次のコード テンプレート タブに移動
+template.previous.variable.command:
+    text: 前のコード テンプレート タブに移動
+templates.dialog.edit.variables.action.move.down:
+    text: 下へ移動(&D)
+templates.dialog.edit.variables.action.move.up:
+    text: 上へ移動(&U)
+templates.dialog.edit.variables.border.title:
+    text: 変数
+templates.dialog.edit.variables.table.column.default.value:
+    text: デフォルト値
+templates.dialog.edit.variables.table.column.expression:
+    text: 式
+templates.dialog.edit.variables.table.column.name:
+    text: 名前
+templates.dialog.edit.variables.table.column.skip.if.defined:
+    text: 定義済みはスキップ
+templates.dialog.edit.variables.title:
+    text: テンプレート変数の編集
+templates.dialog.shortcut.chooser.label:
+    text: デフォルトで展開
+templates.dialog.table.column.abbreviation:
+    text: 略称
+templates.dialog.table.column.active:
+    text: アクティブ
+templates.dialog.table.column.description:
+    text: 説明
+templates.export.display.name:
+    text: コード テンプレート
+templates.no.defined:
+    text: コンテキストに定義されたテンプレートはありません
+templates.no.defined.with.prefix:
+    text: "コンテキストに定義された ''{0}'' で始まるテンプレートはありません"
+templates.select.template.chooser.title:
+    text: テンプレートの選択
+templates.settings.page.title:
+    text: ライブ テンプレート
+unknown.encoding.0:
+    text: "不明なエンコード: ''{0}''"
+xml.tag.info.no.attributes:
+    text: <属性なし>

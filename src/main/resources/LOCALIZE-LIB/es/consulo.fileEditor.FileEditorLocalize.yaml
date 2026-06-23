@@ -1,0 +1,102 @@
+action.sort.alphabetically:
+    text: Alfabéticamente
+action.structureview.show.inherited:
+    text: Heredados
+file.structure.toggle.show.inherited:
+    text: Miembros heredados
+large.file.editor.action.description.search.entire.file.and.show.toolwindow:
+    text: Buscar en todo el archivo desde el principio y mostrar las cadenas coincidentes en la ventana de herramientas
+large.file.editor.cant.launch.searching.because.of.unexpected.error:
+    text: No se puede iniciar la búsqueda debido a un error inesperado.
+large.file.editor.encoding.widget.name:
+    text: Codificación de archivos grandes
+large.file.editor.find.backward.action.description:
+    text: Busca desde la posición actual hasta el principio y muestra las cadenas coincidentes en la ventana de herramientas
+large.file.editor.find.backward.action.text:
+    text: Buscar hacia atrás
+large.file.editor.find.forward.action.description:
+    text: Busca desde la posición actual hasta el final y muestra las cadenas coincidentes en la ventana de herramientas
+large.file.editor.find.forward.action.text:
+    text: Buscar hacia adelante
+large.file.editor.find.further.backward.action.description:
+    text: Buscar coincidencias hacia el principio del archivo y añadirlas a los resultados existentes
+large.file.editor.find.further.backward.action.text:
+    text: Buscar y añadir coincidencias anteriores
+large.file.editor.find.further.forward.action.description:
+    text: Buscar coincidencias hacia el final del archivo y añadirlas a los resultados existentes.
+large.file.editor.find.further.forward.action.text:
+    text: Buscar y añadir siguientes coincidencias
+large.file.editor.match.case.action.mnemonic.text:
+    text: Coincidir &mayúsculas y minúsculas
+large.file.editor.message.cant.change.encoding.because.it.has.bom.byte.order.mark:
+    text: El archivo tiene un BOM (marca de orden de bytes).
+large.file.editor.message.cant.change.encoding.because.search.is.working.now:
+    text: La búsqueda está en curso.
+large.file.editor.message.cant.open.file.because.file.not.found:
+    text: Archivo no encontrado.
+large.file.editor.message.cant.open.large.file.editor.for.target.file:
+    text: No se puede abrir el Editor de archivos grandes para el archivo de destino.
+large.file.editor.message.cant.show.file.in.the.editor:
+    text: No se puede mostrar el archivo en el editor
+large.file.editor.message.error.while.searching:
+    text: Error al buscar.
+large.file.editor.message.error.while.working.with.file.try.to.reopen.it:
+    text: Error al trabajar con el archivo. Intente volver a abrirlo.
+large.file.editor.message.found.some.matches:
+    text: Se han encontrado {0} coincidencias hasta ahora.
+large.file.editor.message.found.some.matches.in.some.bounds.of.file:
+    text: Se han encontrado {0} coincidencias entre el {1}% y el {2}% del archivo.
+large.file.editor.message.found.some.matches.in.the.whole.file:
+    text: Se encontraron {0} coincidencias en todo el archivo.
+large.file.editor.message.search.complete:
+    text: Búsqueda completada.
+large.file.editor.message.search.is.completed.and.no.more.matches:
+    text: Búsqueda finalizada. No hay más coincidencias.
+large.file.editor.message.search.stopped.because.something.went.wrong:
+    text: La búsqueda se detuvo porque algo salió mal.
+large.file.editor.message.search.stopped.because.too.many.results.were.found:
+    text: La búsqueda se detuvo porque se encontraron demasiados resultados.
+large.file.editor.message.searching.at.some.percent.of.file:
+    text: Se ha buscado el {0}% del archivo…
+large.file.editor.message.some.string.not.found:
+    text: No se encontró "{0}"
+large.file.editor.message.stopped.by.user:
+    text: Detenido por el usuario.
+large.file.editor.message.working.with.file.error:
+    text: Error al trabajar con el archivo.
+large.file.editor.notification.text.the.file.is.too.large.so.showing.in.read.only.mode:
+    text: 'El archivo es demasiado grande: {0}. Modo de solo lectura.'
+large.file.editor.some.string.not.found.perform.some.action.again.to.search.from.end:
+    text: '"{0}" no encontrado. Realice la acción "{1}" de nuevo para buscar desde el final.'
+large.file.editor.some.string.not.found.perform.some.action.again.to.search.from.start:
+    text: No se encontró "{0}". Realice la acción "{1}" de nuevo para buscar desde el principio.
+large.file.editor.some.string.not.found.press.some.shortcut.to.search.from.the.end:
+    text: No se encontró "{0}". Presione {1} para buscar desde el final.
+large.file.editor.some.string.not.found.press.some.shortcut.to.search.from.the.start:
+    text: No se encontró "{0}". Presione {1} para buscar desde el principio.
+large.file.editor.stop.searching.action.text:
+    text: Detener búsqueda
+large.file.editor.tab.name.some.string.in.some.file:
+    text: '"{0}" en {1}'
+large.file.editor.text.find.next.matches:
+    text: buscar siguientes coincidencias
+large.file.editor.text.find.previous.matches:
+    text: buscar coincidencias anteriores
+large.file.editor.title:
+    text: Editor de archivos grandes
+large.file.editor.title.cant.change.encoding:
+    text: No se puede cambiar la codificación
+large.file.editor.title.search.error:
+    text: Error de búsqueda
+large.file.editor.title.searching.for.some.string.in.some.file:
+    text: Buscando "{0}" en el archivo "{1}"
+large.file.editor.title.show.match.problem:
+    text: Mostrar problema de coincidencia
+large.file.editor.title.warning:
+    text: Advertencia
+large.file.editor.tooltip.file.encoding.is.some:
+    text: 'Codificación del archivo: {0}'
+large.file.editor.words.action.mnemonic.text:
+    text: '&Palabras'
+message.warning.about.regex.search.limitations:
+    text: La búsqueda con expresiones regulares no puede encontrar coincidencias de longitud superior a {0} KB

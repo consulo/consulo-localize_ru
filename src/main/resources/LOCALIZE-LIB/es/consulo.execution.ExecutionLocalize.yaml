@@ -1,0 +1,568 @@
+action.Runner.ToggleTabLabels.text:
+    text: Mostrar etiquetas de pestañas
+action.name.save.as.configuration:
+    text: Guardar como
+action.name.save.configuration:
+    text: Guardar configuración
+action.terminating.process.progress.kill.description:
+    text: Finalizar proceso
+add.new.run.configuration.action.name:
+    text: "Añadir nueva configuración ''{0}''"
+add.new.run.configuration.action2.name:
+    text: Agregar nueva configuración
+all.tests.scope.presentable.text:
+    text: Todas las pruebas
+application.configuration.main.class.label:
+    text: '&Clase principal:'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 'Usar el classpath del m&ódulo:'
+apply.action.name:
+    text: '&Aplicar'
+before.launch.compile.step:
+    text: Compilar
+before.launch.compile.step.no.error.check:
+    text: Compilar, sin comprobación de errores
+before.launch.panel.cyclic_dependency_warning:
+    text: "''{0}'' ya se ha configurado para iniciarse antes de {1}.\nNo se permiten tales dependencias cíclicas."
+before.launch.panel.empty:
+    text: No hay tareas para ejecutar antes del inicio
+before.launch.panel.title:
+    text: Antes de la ejecución(&B)
+before.launch.run.another.configuration:
+    text: Ejecutar otra configuración
+before.launch.run.certain.configuration:
+    text: "Ejecutar ''{0}''"
+before.launch.run.unknown.task:
+    text: Tarea desconocida
+button.add:
+    text: Añadir
+button.disconnect:
+    text: Desconectar
+button.remove:
+    text: Elimina&r
+button.terminate:
+    text: '&Terminar'
+cannot.browse.method.dialog.title:
+    text: No se pueden navegar los métodos
+cannot.browse.test.inheritors.dialog.title:
+    text: No se pueden examinar los herederos de TestCase
+choose.main.class.dialog.title:
+    text: Seleccionar clase principal
+choose.package.dialog.title:
+    text: Seleccionar paquete
+choose.run.configuration.action.description:
+    text: Abrir el desplegable de configuraciones de ejecución/depuración
+choose.test.class.dialog.title:
+    text: Seleccionar clase de prueba
+choose.test.method.dialog.title:
+    text: Seleccionar método de prueba
+class.does.not.exists.error.message:
+    text: La clase {0} no existe
+class.isnt.inheritor.of.testcase.error.message:
+    text: '{0} no hereda de TestCase'
+class.isnt.test.class.error.message:
+    text: '{0} no es una clase de prueba'
+class.not.found.in.module.error.message:
+    text: "No se encontró la clase ''{0}'' en el módulo ''{1}''"
+clear.all.from.console.action.name:
+    text: Limpiar todo
+close.tab.action.name:
+    text: Cerrar
+combobox.console.default.encoding.label:
+    text: 'Codificación predeterminada:'
+combobox.console.favorites.separator.label:
+    text: Favoritos
+combobox.console.more.separator.label:
+    text: Más
+configuration.action.chooser.title:
+    text: Seleccionar configuración para ejecutar
+configuration.edit.before.run:
+    text: Mostrar esta página
+confirm.background.process.stop:
+    text: Confirmar la detención del proceso en segundo plano
+confirm.process.stop:
+    text: Confirmar detención del proceso
+copy.configuration.action.name:
+    text: Copiar configuración
+copy.content.action.name:
+    text: Copiar contenido
+copy.selected.content.action.name:
+    text: Copiar contenido seleccionado
+coverage.tab.title:
+    text: Cobertura de código
+create.run.configuration.action.name:
+    text: Modificar configuración de ejecución…
+create.run.configuration.for.item.dialog.title:
+    text: "Crear configuración de ejecución: ''{0}''"
+default.junit.config.name.all.in.module:
+    text: Todo en {0}
+default.junit.config.name.all.in.package.in.module:
+    text: '{0} en {1}'
+default.junit.configuration.name:
+    text: <sin nombre>
+default.package.presentable.name:
+    text: <predeterminado>
+default.runner.start.action.text:
+    text: Ejec&utar
+delete.confirmation.dialog.title:
+    text: Confirmación de eliminación
+diff.content.expected.for.file.title:
+    text: 'Esperado:'
+diff.content.expected.title:
+    text: Esperado
+diff.content.expected.title.with.file.url:
+    text: Esperado ({0})
+down.the.stack.trace:
+    text: Bajar por la traza de la pila
+edit.configuration.action:
+    text: '&Editar configuraciones'
+edit.run.configuration.for.item.dialog.title:
+    text: "Editar configuración de ejecución: ''{0}''"
+edit.run.configuration.run.configuration.name.label:
+    text: '&Nombre:'
+encoding.name.system.default:
+    text: '<Predeterminado del sistema: {0}>'
+environment.variables.component.title:
+    text: '&Variables de entorno'
+environment.variables.dialog.title:
+    text: Variables de entorno
+environment.variables.helper.use.arguments.label:
+    text: <html><body>Utilice los siguientes argumentos de línea de comandos para ejecutar la JVM remota</body></html>
+error.running.configuration.message:
+    text: "Error al ejecutar ''{0}''"
+execute.before.run.debug.dialog.title:
+    text: Ejecutar {0} antes de ejecutar/depurar
+export.test.results.custom.template.chooser.title:
+    text: Elegir plantilla personalizada
+export.test.results.custom.template.not.found:
+    text: "No se encuentra el archivo de plantilla definido por el usuario ''{0}''"
+export.test.results.custom.template.path.empty:
+    text: La ruta de la plantilla definida por el usuario está vacía
+export.test.results.dialog.title:
+    text: Exportar resultados de la prueba
+export.test.results.failed:
+    text: 'Error al exportar los resultados de la prueba: {0}'
+export.test.results.file.exists.message:
+    text: "El archivo ''{0}'' ya existe.\n¿Desea sobrescribirlo?"
+export.test.results.file.exists.title:
+    text: Exportar resultados de la prueba
+export.test.results.filename:
+    text: Resultados de la prueba - {0}
+export.test.results.footer:
+    text: Generado por {0} el {1}
+export.test.results.open.browser:
+    text: A&brir el archivo exportado en el navegador
+export.test.results.open.editor:
+    text: A&brir el archivo exportado en el editor
+export.test.results.output.filename.empty:
+    text: El nombre del archivo de salida está vacío
+export.test.results.output.folder.chooser.title:
+    text: Seleccionar carpeta de salida
+export.test.results.output.path.empty:
+    text: La ruta de salida está vacía
+export.test.results.succeeded:
+    text: <html>Los resultados de la prueba se exportaron correctamente a <a href="#a">{0}</a></html>
+export.test.results.task.name:
+    text: Exportando resultados de las pruebas
+failed.to.create.output.file:
+    text: "No se pudo crear el archivo de salida ''{0}''"
+fix.run.configuration.problem.button:
+    text: Corregir
+home.directory.not.specified.for.jdk.error.message:
+    text: No se ha especificado el directorio de inicio para el JDK
+incompatible.configuration.is.running.dialog.title:
+    text: '{0, choice, 1#Configuración incompatible en ejecución|2#Configuraciones incompatibles en ejecución}'
+instantiating.tests.progress.text:
+    text: Instanciando pruebas…
+invalid.data.dialog.title:
+    text: Datos no válidos
+jdk.is.bad.configured.error.message:
+    text: "''{0}'' está mal configurado"
+junit.all.tests.passed.label:
+    text: Todas las pruebas superadas
+junit.click.to.see.diff.link:
+    text: <Haga clic para ver la diferencia>
+junit.configuration.across.module.dependencies.radio:
+    text: Dependencias entre módu&los
+junit.configuration.class.label:
+    text: '&Clase:'
+junit.configuration.configure.junit.test.kind.label:
+    text: '&Tipo de prueba:'
+junit.configuration.configure.junit.test.label:
+    text: 'Prueba:'
+junit.configuration.description:
+    text: Configuración de pruebas de JUnit
+junit.configuration.in.single.module.radio:
+    text: En un solo &módulo
+junit.configuration.in.whole.project.radio:
+    text: En todo el &proyecto
+junit.configuration.method.label:
+    text: 'M&étodo:'
+junit.configuration.package.label:
+    text: 'Pa&quete:'
+junit.configuration.search.for.tests.label:
+    text: 'Buscar pruebas:'
+junit.configuration.test.class.radio:
+    text: Clase de prueba
+junit.configuration.test.method.radio:
+    text: Método de prueba
+junit.configuration.test.runner.parameters.label:
+    text: 'Pa&rámetros del ejecutor de pruebas:'
+junit.not.found.in.module.error.message:
+    text: "No se encontró JUnit en el módulo ''{0}''"
+junit.open.text.in.editor.action.name:
+    text: Abrir la prueba seleccionada en el editor
+junit.runing.info.tests.in.progress.done.tree.node:
+    text: 'Pruebas en curso: Finalizadas'
+junit.runing.info.tests.in.progress.terminated.tre.node:
+    text: 'Pruebas en curso: Terminadas'
+junit.running.info.failed.to.start.error.message:
+    text: Error al iniciar
+junit.running.info.tests.failed.label:
+    text: Pruebas fallidas
+junit.running.info.tests.failed.with.test.name.label:
+    text: Pruebas fallidas {0}
+junit.running.info.tests.passed.label:
+    text: Pruebas superadas
+junit.running.info.tests.passed.with.test.name.label:
+    text: Pruebas superadas {0}
+junit.tests.in.progress.label:
+    text: Pruebas en curso
+log.console.filter.show.all:
+    text: Todo
+log.console.filter.show.errors:
+    text: errores
+log.console.filter.show.errors.and.warnings:
+    text: advertencias
+log.console.filter.show.errors.warnings.and.infos:
+    text: información
+log.monitor.edit.aliases.location:
+    text: '&Ubicación del archivo de registro:'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: '&Mostrar todos los archivos que el patrón puede cubrir'
+log.monitor.edit.aliases.title:
+    text: Editar alias de archivos de registro
+log.monitor.group:
+    text: Archivos de registro para mostrar en la consola
+log.monitor.is.active.column:
+    text: Está activo
+log.monitor.is.skipped.column:
+    text: Omitir contenido
+log.monitor.log.file.column:
+    text: Entrada de archivo de registro
+log.monitor.no.files:
+    text: No hay archivos de registro adjuntos
+logs.show.console.on.stderr:
+    text: Mostrar la consola cuando se imprima un mensaje en el flujo de error estándar
+logs.show.console.on.stdout:
+    text: Mostrar la consola cuando se imprima un mensaje en el flujo de salida estándar
+logs.tab.title:
+    text: Registros
+main.class.is.not.specified.error.message:
+    text: No se ha especificado ni la clase principal ni la ruta del JAR
+main.method.not.found.in.class.error.message:
+    text: No se encontró el método main en la clase {0}
+message.cannot.find.file.0:
+    text: No se puede encontrar el archivo {0}
+method.name.not.specified.error.message:
+    text: No se ha especificado el nombre del método
+module.does.not.exist.error.message:
+    text: "El módulo ''{0}'' no existe"
+module.does.not.exists:
+    text: "El módulo ''{0}'' no existe en el proyecto ''{1}''"
+module.doesn.t.exist.in.project.error.text:
+    text: "El módulo ''{0}'' no existe en el proyecto"
+module.is.unloaded.from.project.error.text:
+    text: "El módulo ''{0}'' se ha descargado del proyecto"
+module.not.specified.error.text:
+    text: Módulo no especificado
+move.down.action.name:
+    text: Bajar
+move.up.action.name:
+    text: Mover hacia arriba
+multiple.specified:
+    text: Múltiples especificados
+no.jdk.for.module.error.message:
+    text: "No hay JDK para el módulo ''{0}''"
+no.jdk.specified..error.message:
+    text: JDK no especificado
+no.jdk.specified.for.module.warning.text:
+    text: "No se ha especificado ningún JDK para el módulo ''{0}''"
+no.junit.error.message:
+    text: Falta junit.jar
+no.junit.in.scope.error.message:
+    text: No hay junit.jar en {0}
+no.main.class.specified.error.text:
+    text: No se ha especificado la clase principal
+no.module.defined.error.message:
+    text: No se ha definido ningún módulo
+no.test.class.specified.error.text:
+    text: No se ha especificado ninguna clase de prueba
+no.user.process.input.error.message:
+    text: No hay entrada de proceso
+node.default:
+    text: <predeterminado>
+open.message.view:
+    text: Abrir vista de mensajes
+output.tab.title:
+    text: Salida
+package.does.not.exist.error.message:
+    text: "El paquete ''{0}'' no existe"
+package.not.found.error.message:
+    text: "No se encontró el paquete ''{0}''"
+perform.action.with.context.configuration.action.name:
+    text: Configuración de contexto {0}
+popup.title.choose.target.file:
+    text: Seleccionar archivo de destino
+process.is.running.dialog.title:
+    text: "El proceso ''{0}'' está en ejecución"
+project.has.no.jdk.configured.error.message:
+    text: El proyecto no tiene ningún JDK configurado.
+remote.configuration.remote.debugging.allows.you.to.connect.idea.to.a.running.jvm.label:
+    text: '&Argumentos de la línea de comandos para ejecutar la JVM remota'
+remote.debug.configuration.description:
+    text: Configuración de depuración remota
+remote.debug.configuration.display.name:
+    text: Depuración remota de JVM
+remove.run.configuration.action.name:
+    text: Eliminar configuración
+rerun.configuration.action.name:
+    text: "Volver a ejecutar ''{0}''"
+rerun.confirmation.button.text:
+    text: Detener y volver a ejecutar
+rerun.singleton.confirmation.message:
+    text: "No se permite ejecutar ''{0}'' en paralelo.\n¿Desea detener {1, choice, 1#la instancia en ejecución|2#las {1, number} instancias en ejecución}?"
+restart.error.message.title:
+    text: Error de reinicio
+run.button.on.toolbar.tooltip.current.file.no.focused.editor:
+    text: 'No se puede ejecutar el archivo actual: el editor no tiene el foco'
+run.button.on.toolbar.tooltip.current.file.not.runnable:
+    text: El archivo en el editor no se puede ejecutar
+run.configurable.display.name:
+    text: Ejecutar
+run.configuration.arguments.help.panel.copy.action.name:
+    text: Copiar
+run.configuration.cannot.find.vm.executable:
+    text: No se puede encontrar el ejecutable de la VM
+run.configuration.configuration.tab.title:
+    text: Configuración
+run.configuration.create.folder.description:
+    text: Crear nueva carpeta
+run.configuration.create.folder.description.move:
+    text: Mover a una carpeta nueva
+run.configuration.create.folder.text:
+    text: Crear nueva carpeta
+run.configuration.dump.threads.action.name:
+    text: Volcar hilos
+run.configuration.edit.default.configuration.settings.description:
+    text: Editar plantillas
+run.configuration.edit.default.configuration.settings.text:
+    text: Editar plantillas
+run.configuration.error.dialog.title:
+    text: Error de configuración de ejecución
+run.configuration.error.no.jdk.specified:
+    text: No se ha especificado ningún JDK
+run.configuration.exit.action.name:
+    text: Salir
+run.configuration.java.vm.parameters.label:
+    text: 'Opciones de &VM:'
+run.configuration.no.name:
+    text: <Sin nombre>
+run.configuration.pause.output.action.name:
+    text: Pausar salida
+run.configuration.program.parameters:
+    text: 'A&rgumentos del programa:'
+run.configuration.rename.folder.disclaimer:
+    text: 'Nota: las carpetas vacías no se guardarán'
+run.configuration.select.alternate.jre.label:
+    text: Seleccionar JRE alternativo
+run.configuration.select.jre.dir.label:
+    text: Seleccionar el directorio con el JRE para ejecutar
+run.configuration.show.command.line.action.name:
+    text: Mostrar el prompt de la consola
+run.configuration.startup.connection.rab.title:
+    text: Inicio/Conexión
+run.configuration.stop.action.name:
+    text: Detener
+run.configuration.unnamed.name.prefix:
+    text: Sin nombre
+run.configuration.working.directory.label:
+    text: '&Directorio de trabajo:'
+run.configurations.combo.run.current.file.description:
+    text: Ejecutar el archivo abierto en el editor con foco
+run.configurations.combo.run.current.file.item.in.dropdown:
+    text: Archivo actual
+run.configurations.combo.run.current.file.selected:
+    text: Archivo actual
+run.configurations.popup.edit.run.config.and.run.current.file:
+    text: Ejecutar con parámetros…
+run.configurations.popup.edit.run.config.and.run.current.file.description:
+    text: Editar los parámetros del ejecutor y ejecutar el archivo abierto en el editor enfocado
+run.configurations.popup.existing.configurations.separator.text:
+    text: Configuraciones de ejecución
+run.dashboard.configurable.types.panel.hint:
+    text: Seleccione uno o más tipos
+run.dashboard.configurations.message:
+    text: Iniciar/Detener las configuraciones seleccionadas
+run.dashboard.configured.group.name:
+    text: No iniciado
+run.dashboard.debug.action.description:
+    text: Depurar la(s) configuración(es) seleccionada(s)
+run.dashboard.debug.action.name:
+    text: Depurar
+run.dashboard.edit.configuration.dialog.title:
+    text: Editar configuración
+run.dashboard.failed.group.name:
+    text: Fallidos
+run.dashboard.remove.run.configuration.type.confirmation:
+    text: ¿Eliminar {0} de Servicios?
+run.dashboard.remove.run.configuration.types.confirmation:
+    text: ¿Eliminar {0} tipos de configuración de Servicios?
+run.dashboard.rerun.action.description:
+    text: Volver a ejecutar las configuraciones seleccionadas
+run.dashboard.rerun.action.name:
+    text: Volver a ejecutar
+run.dashboard.restart.debugger.action.description:
+    text: Vuelve a ejecutar la(s) configuración(es) seleccionada(s) en modo de depuración
+run.dashboard.restart.debugger.action.name:
+    text: Volver a ejecutar en modo depuración
+run.dashboard.run.action.description:
+    text: Ejecutar la(s) configuración(es) seleccionada(s)
+run.dashboard.run.action.name:
+    text: Ejecutar
+run.dashboard.started.group.name:
+    text: En ejecución
+run.dashboard.stopped.group.name:
+    text: Finalizado
+run.debug.dialog.title:
+    text: Configuraciones de ejecución/depuración
+run.toolbar.widget.all.configurations:
+    text: Todas las configuraciones {0}
+runner.content.tooltip.layout.settings:
+    text: Ajustes de diseño
+save.temporary.run.configuration.action.name:
+    text: "&Guardar configuración ''{0}''"
+script.execution.timeout:
+    text: La ejecución del script tardó más de {0} segundos.
+searching.test.progress.title:
+    text: Buscando pruebas…
+select.0.1:
+    text: "Seleccionar {0} ''{1}''"
+select.working.directory.message:
+    text: Seleccionar directorio de trabajo
+service.view.activate.tool.window.action.description:
+    text: Activar la ventana de Servicios
+service.view.activate.tool.window.action.name:
+    text: '{0} (Servicios)'
+service.view.add.service.action.name:
+    text: Añadir servicio
+service.view.all.services:
+    text: Todos los servicios
+service.view.configure.dialog.description:
+    text: Excluya un servicio para mostrarlo como una ventana de herramientas independiente. <br>Excluya un tipo de configuración de ejecución para mostrar su salida en la ventana de herramientas Ejecutar/Depurar.
+service.view.configure.dialog.title:
+    text: Configurar la ventana de herramientas Servicios
+service.view.configure.exclude.button.text:
+    text: '&Excluir >'
+service.view.configure.excluded.label.text:
+    text: 'Ventanas de herramientas independientes:'
+service.view.configure.include.button.text:
+    text: < &Incluir
+service.view.configure.included.label.text:
+    text: 'Ventana de herramientas de servicios:'
+service.view.configure.run.configuration.types:
+    text: Tipos de configuración de ejecución/depuración
+service.view.configure.run.tool.windows:
+    text: Ejecutar/Depurar
+service.view.delete.confirmation:
+    text: ¿Eliminar {0}?
+service.view.empty.selection.text:
+    text: Seleccione un servicio para ver los detalles
+service.view.empty.tab.text:
+    text: No hay contenido disponible
+service.view.empty.tree.text:
+    text: No hay servicios configurados.
+service.view.group.label:
+    text: 'Nombre del grupo:'
+service.view.group.title:
+    text: Agrupar servicios
+service.view.include.into.services.action.text:
+    text: Añadir a la ventana de herramientas Servicios
+service.view.items:
+    text: '{0, choice, 1#1 elemento|1<{0,number,integer} elementos}'
+service.view.open.in.new.tab.ad.text:
+    text: Arrastre el nodo al encabezado de la ventana de herramientas para abrir una pestaña nueva
+service.view.scroll.from.editor.action.description:
+    text: Seleccionar el servicio abierto en el editor activo
+service.view.scroll.from.editor.action.name:
+    text: Seleccionar servicio abierto
+set.class.name.message:
+    text: Establezca primero el nombre de la clase
+show.irrelevant.configurations.action.name:
+    text: '{0} elementos más…'
+show.running.list.balloon.hint:
+    text: Haga clic para navegar
+show.running.list.balloon.nothing:
+    text: Nada que mostrar
+show.running.list.balloon.title:
+    text: Lista de ejecución
+sm.test.runner.magnitude.assertion.failed.title:
+    text: Aserción fallida
+sm.test.runner.magnitude.completed.failed.title:
+    text: Completado
+sm.test.runner.magnitude.ignored.failed.title:
+    text: Ignorado
+sm.test.runner.magnitude.not.run.failed.title:
+    text: No ejecutado
+sm.test.runner.magnitude.passed.title:
+    text: Aprobado
+sm.test.runner.magnitude.running.failed.title:
+    text: Ejecutando…
+sm.test.runner.magnitude.skipped.failed.title:
+    text: Omitido
+sm.test.runner.magnitude.terminated.failed.title:
+    text: Terminado
+some.modules.has.circular.dependency.error.message:
+    text: Algunos módulos tienen una dependencia circular.
+standard.runner.description:
+    text: Ejecutar la configuración seleccionada
+starting.jvm.progress.text:
+    text: Iniciando JVM…
+stop.all:
+    text: Detener todo ({0})
+stop.background.process:
+    text: Detener proceso en segundo plano
+stop.configuration.action.name:
+    text: "Detener ''{0}''"
+stop.incompatible.confirmation.button.text:
+    text: Detener incompatibles
+stop.incompatible.confirmation.message:
+    text: "La configuración de ejecución ''{0}'' no es compatible con {2, choice, 1#la configuración {1} que se está ejecutando actualmente.|2#las siguientes configuraciones en ejecución:\n{1}}\n¿Está seguro de que desea detener {2, choice, 1#la instancia en ejecución incompatible|2#{2, number} instancias en ejecución incompatibles}?"
+stop.process:
+    text: Detener proceso
+strings.equal.failed.dialog.title:
+    text: Error de comparación
+terminate.process.confirmation.text:
+    text: "¿Desea finalizar el proceso ''{0}''?"
+terminating.process.progress.kill:
+    text: Finalizar proceso
+terminating.process.progress.title:
+    text: "Finalizando ''{0}''"
+test.in.scope.presentable.text:
+    text: "Pruebas en ''{0}''"
+test.method.doesnt.exist.error.message:
+    text: "El método de prueba ''{0}'' no existe"
+test.not.started.progress.text:
+    text: No se iniciaron las pruebas
+title.cannot.open.file:
+    text: No se puede abrir el archivo
+title.submitting.error.report:
+    text: Enviando informe de error
+tool.window.name.run:
+    text: Ejecutar
+up.the.stack.trace:
+    text: Subir por la traza de la pila
+waiting.for.vm.detach.progress.text:
+    text: Esperando la desvinculación del proceso
+warning.common.title:
+    text: Advertencia

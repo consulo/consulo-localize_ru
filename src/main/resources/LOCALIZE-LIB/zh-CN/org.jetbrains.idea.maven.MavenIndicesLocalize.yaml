@@ -1,0 +1,16 @@
+maven.index.type:
+    text: 类型
+maven.index.updated:
+    text: 已更新
+maven.index.updated.error:
+    text: 错误
+maven.index.updated.never:
+    text: 从不
+maven.indices.updating:
+    text: 正在更新 Maven 仓库索引…
+maven.indices.updating.index:
+    text: 正在更新 [{0}] {1}
+maven.repositories.title:
+    text: 仓库
+repository.plugin.corrupt:
+    text: '{0} 不是一个 Maven 2 插件文件'

@@ -1,0 +1,144 @@
+all.changes.processed.dialog.title:
+    text: すべての変更を処理しました
+apply.partially.resolved.merge.dialog.title:
+    text: 変更を適用する
+apply.somehow.status.message.all.applied:
+    text: すべてのハンクが解決しました
+binary.files.are.different.message:
+    text: バイナリファイルは異なります
+binary.files.are.identical.message:
+    text: バイナリ ファイルは同一です
+cancel.visual.merge.dialog.title:
+    text: ビジュアル マージのキャンセル
+cant.launch.diff.tool.error.message:
+    text: 差分ツールを起動できません
+compare.file.vs.file.dialog.title:
+    text: '{0} と {1}'
+diff.acton.highlight.mode.action.by.line:
+    text: ラインごと
+diff.acton.highlight.mode.action.by.word:
+    text: 言葉で
+diff.acton.highlight.mode.action.name:
+    text: ハイライト：
+diff.acton.highlight.mode.action.no.highlighting:
+    text: ハイライトしない
+diff.all.differences.ignored.text:
+    text: 無視される差異
+diff.application.usage.parameters.and.description:
+    text: '使用方法 : idea diff <file1> <file2>'
+diff.can.not.show:
+    text: 差分を表示できません
+diff.clipboard.vs.editor.dialog.title:
+    text: クリップボードとエディタ
+diff.clipboard.vs.file.dialog.title:
+    text: クリップボードと {0}
+diff.content.clipboard.content.title:
+    text: クリップボード
+diff.content.editor.content.title:
+    text: エディタ
+diff.content.read.only.content.title.suffix:
+    text: (読み取り専用)
+diff.content.selected.value:
+    text: 選択値
+diff.content.selection.from.editor.content.title:
+    text: エディタからの選択
+diff.content.selection.from.file.content.title:
+    text: '{0} からの選択'
+diff.contents.are.identical.message.text:
+    text: 内容は同一です
+diff.contents.have.differences.only.in.charset.and.line.separators.message.text:
+    text: 内容は、行区切りとエンコーディングのみが異なります
+diff.contents.have.differences.only.in.charset.message.text:
+    text: コンテンツにはエンコーディングのみの違いがあります
+diff.contents.have.differences.only.in.line.separators.message.text:
+    text: 行セパレータ内に内容の相違があります
+diff.contents.have.differences.only.in.line.separators.or.whitespaces:
+    text: 内容は行区切り文字または空白でのみ違いがあります
+diff.dialog.select.change.action.description:
+    text: このバージョンで変越したテキストと他で対応するものを選択
+diff.dialog.select.change.action.name:
+    text: 変更の選択
+diff.element.qualified.name.vs.editor.dialog.title:
+    text: '{0} とエディタ'
+diff.element.qualified.name.vs.element.qualified.name.dialog.title:
+    text: '{0} と {1}'
+diff.element.qualified.name.vs.file.dialog.title:
+    text: '{0} と {1}'
+diff.highlighting.disabled.text:
+    text: 差分の強調表示がオフです
+diff.options.diff.options.border:
+    text: 差分オプション
+diff.options.use.external.tool.for.files.checkbox:
+    text: '外部ツールでファイルを比較する :'
+diff.type.changed.name:
+    text: 変更
+diff.type.conflict.name:
+    text: 競合
+diff.type.deleted.name:
+    text: 削除
+diff.type.inserted.name:
+    text: 挿入
+diff.type.none.name:
+    text: なし
+files.are.different.dialog.title:
+    text: ファイルは異なります
+files.are.identical.dialog.title:
+    text: ファイルは同一です
+ignore.whitespace.acton.name:
+    text: 空白を無視する：
+merge.all.changes.have.processed.save.and.finish.confirmation.text:
+    text: |-
+        すべての変更を処理しました。
+        変更を保存してマージ処理を終了しますか ?
+merge.color.options.background.color.label:
+    text: '背景色(&C):'
+merge.color.options.dialog.title:
+    text: マージ カラー オプション
+merge.color.options.ignored.color.label:
+    text: 無視された
+merge.color.options.stripe.mark.color.label:
+    text: '表示マーク カラー(&S):'
+merge.continue.button:
+    text: 続行(&C)
+merge.dialog.all.conflicts.resolved.message.text:
+    text: すべての競合は解決しました
+merge.dialog.append.change.action.name:
+    text: 選択した変更側を適用する
+merge.dialog.apply.all.non.conflicting.changes.action.name:
+    text: 一致する変更のすべてを適用
+merge.dialog.apply.change.action.name:
+    text: 変更の適用
+merge.dialog.cannot.load.file.error.message:
+    text: 'ファイルを読み込めません : {0}'
+merge.dialog.exit.without.applying.changes.confirmation.message:
+    text: 変更を適用せずに終了してよろしいですか ?
+merge.dialog.ignore.change.action.name:
+    text: 変更を無視
+merge.dialog.resolve.change.action.name:
+    text: 解決する
+merge.dialog.resolve.side.with.discard.title:
+    text: 変更を承認する
+merge.editor.insert.operation.name:
+    text: 挿入
+merge.editor.remove.operation.name:
+    text: 削除
+merge.editor.replace.operation.name:
+    text: 置換
+merge.files.dialog.title:
+    text: マージ
+merge.partial.diff.action.name:
+    text: 左右のパネル コントロールの比較
+merge.save.and.finish.button:
+    text: 保存して終了(&F)
+merge.statistics.message:
+    text: '{0, choice, 0#変更なし|1#1 個の変更|2#{0, number} 個の変更}。 {1, choice, 0#競合なし|1#1 個の競合|2#{0, number} 個の競合}'
+no.differences.dialog.title:
+    text: 相違点なし
+save.merge.result.command.name:
+    text: マージ
+select.external.diff.program.dialog.title:
+    text: 外部の差分プログラム選択
+select.external.merge.program.dialog.title:
+    text: 外部マージプログラムの選択
+show.diff.anyway.dialog.message:
+    text: とにかくdiffを表示しますか？

@@ -1,0 +1,4 @@
+graph.sort.off.description:
+    text: Ordenar los commits de forma topológica y por fecha de commit
+graph.sort.standard.description:
+    text: En caso de fusión, mostrar primero los commits entrantes, directamente debajo del commit de fusión

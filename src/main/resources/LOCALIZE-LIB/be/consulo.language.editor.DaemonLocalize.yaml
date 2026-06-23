@@ -1,0 +1,86 @@
+analysis.suspended:
+    text: Аналіз кода прыпынены
+class.is.subclassed.too.many:
+    text: Мае падкласы
+heavyProcess.type.indexing:
+    text: Індэксацыя...
+heavyProcess.type.processing:
+    text: Обработка...
+heavyProcess.type.syncing:
+    text: Сінхранізацыя...
+import.popup.hint.text:
+    text: <html><body><a href="action">Імпартаваць {0}…</a> &nbsp;{1}? &nbsp;&nbsp;<span style="color:#{3}">{2}</span></body></html>
+import.popup.multiple:
+    text: '{0}? (множественный выбор…)'
+inspection.collapse.description:
+    text: Свернуть…
+inspection.extended.description:
+    text: Подробнее…
+iw.status.analyzing:
+    text: Аналіз…
+iw.status.off:
+    text: Выключено
+iw.status.paused:
+    text: Прыпынена…
+method.implements:
+    text: Рэалізуе метад з <a href="#javaClass/{1}">{1}</a>
+method.implements.in:
+    text: "Рэалізуе метад ''{0}'' з <a href=\"#javaClass/{1}\">{1}</a>"
+method.is.implemented.header:
+    text: Рэалізавана ў<br>
+method.is.implemented.too.many:
+    text: Ужо рэалізавана
+method.is.overridden.too.many:
+    text: Переопределено в подклассах
+method.is.overriden.header:
+    text: Переопределено в<br>
+method.overrides:
+    text: Пераазначае метад з <a href="#javaClass/{1}">{1}</a>
+method.overrides.in:
+    text: "Пераазначае метад ''{0}'' з <a href=\"#javaClass/{1}\">{1}</a>"
+navigation.findUsages.title.super.method:
+    text: Super метод для {0}
+navigation.title.implementation.method:
+    text: <html><body>Выберыце рэалізацыю <b>{0}</b> (знойдзена {1, choice, 1#1 метад|2#{1,number} метадаў})</body></html>
+navigation.title.overrider.method:
+    text: <html><body>Выберыце пераазначальны метад для <b>{0}</b> (знойдзена {1, choice, 1#1 метад|2#{1,number} метадаў})</body></html>
+navigation.title.subclass:
+    text: <html><body>Выберыце падклас <b>{0}</b> (знойдзена {1, choice, 1#1 клас|2#{1,number} класаў} {2})</body></html>
+navigation.title.super.method:
+    text: Выберыце super метад для {0}
+no.analysis.performed:
+    text: Аналіз не выконваўся
+no.errors.or.warnings.found:
+    text: Памылак і папярэджанняў не знойдзена
+pass.inspection:
+    text: Інспекцыя
+pass.syntax:
+    text: Сінтаксічны аналіз
+pass.whole.inspections:
+    text: Павольныя інспекцыі
+pass.wolf:
+    text: Проверка красных файлов
+performing.code.analysis:
+    text: Выконваецца аналіз кода
+popup.title.configure.highlighting.level:
+    text: Узровень падсветкі для {0}
+process.title.file.is.binary:
+    text: "Файл з'яўляецца бінарным"
+process.title.file.is.decompiled:
+    text: Файл дэкампіляваны
+process.title.file.is.generated:
+    text: Файл згенераваны
+process.title.highlighting.is.disabled.for.this.file:
+    text: Подсветка отключена для этого файла
+process.title.highlighting.is.paused.temporarily:
+    text: Падсветка часова прыпынена
+process.title.highlighting.level.is.none:
+    text: Подсветка отключена
+process.title.no.file:
+    text: Нет файла
+process.title.project.is.disposed:
+    text: Проект закрыт
+shallow.analysis.completed:
+    text: Павярхоўны аналіз завершаны
+shallow.analysis.completed.details:
+    text: Поўныя вынікі будуць даступны пасля індэксацыі

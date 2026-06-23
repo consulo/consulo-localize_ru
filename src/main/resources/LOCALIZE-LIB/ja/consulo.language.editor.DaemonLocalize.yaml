@@ -1,0 +1,56 @@
+analysis.completed:
+    text: 解析が終了しました。
+analysis.hasnot.been.run:
+    text: 解析は実行されませんでした。
+class.is.subclassed.by.header:
+    text: は次によってサブクラス化されました。<br>
+class.is.subclassed.too.many:
+    text: サブクラスを保持します
+error.highlighting.settings:
+    text: エラー強調表示設定
+interface.is.implemented.by.header:
+    text: は次によって実装されました。<br>
+interface.is.implemented.too.many:
+    text: 実装を保持しています
+method.implements:
+    text: メソッドを {1} に実装します
+method.implements.in:
+    text: "メソッド ''{0}'' を {1} に実装します"
+method.is.implemented.header:
+    text: は次に実装されました。<br>
+method.is.implemented.too.many:
+    text: 実装を保持しています
+method.is.overridden.too.many:
+    text: サブクラスにオーバーライドされます
+method.is.overriden.header:
+    text: は次にオーバーライドされました。<br>
+method.overrides:
+    text: メソッドを {1} にオーバーライドします
+method.overrides.in:
+    text: "メソッド ''{0}'' を {1} にオーバーライドします"
+navigation.title.implementation.method:
+    text: '{0} の実装を選択してください'
+navigation.title.overrider.method:
+    text: '{0} のオーバーライド メソッドを選択してください'
+navigation.title.subclass:
+    text: '{0} のサブクラスを選択してください'
+navigation.title.super.method:
+    text: '{0} のスーパー メソッドの選択'
+no.errors.or.warnings.found:
+    text: エラーまたは警告はありません。
+no.errors.or.warnings.found.so.far:
+    text: 現在のところエラーまたは警告はありません。
+no.inspections.performed:
+    text: 検査は実行されませんでした。
+no.inspections.performed.for:
+    text: 検査は {0} を実行しませんでした。
+no.syntax.highlighting.performed:
+    text: 構文強調表示は実行されませんでした。
+no.syntax.highlighting.performed.for:
+    text: '{0} の構文協調表示は実行されませんでした。'
+pass.inspection:
+    text: コード検査を実行しています。
+pass.syntax:
+    text: 構文修正を解析しています。
+performing.code.analysis:
+    text: コード解析の実行

@@ -1,0 +1,1098 @@
+action.pause.text:
+    text: Pausar
+action.remove:
+    text: Eliminar
+arrangement.action.rule.add.description:
+    text: Añadir nueva regla de disposición
+arrangement.action.rule.add.text:
+    text: Agregar regla
+arrangement.action.rule.edit.description:
+    text: Editar la regla de disposición seleccionada
+arrangement.action.rule.edit.text:
+    text: Editar regla
+arrangement.action.rule.move.down.description:
+    text: Mueve hacia abajo la(s) regla(s) de disposición seleccionada(s)
+arrangement.action.rule.move.down.text:
+    text: Mover hacia abajo
+arrangement.action.rule.move.up.description:
+    text: Mover hacia arriba la(s) regla(s) de disposición seleccionada(s)
+arrangement.action.rule.move.up.text:
+    text: Mover hacia arriba
+arrangement.action.rule.remove.description:
+    text: Eliminar las reglas de disposición seleccionadas
+arrangement.action.rule.remove.text:
+    text: Eliminar regla(s)
+arrangement.settings.groups.dependent.methods:
+    text: Mantener juntos los métodos dependientes
+arrangement.settings.groups.getters.and.setters.together:
+    text: Mantener getters y setters juntos
+arrangement.settings.groups.overridden.methods:
+    text: Mantener juntos los métodos sobreescritos
+arrangement.settings.groups.property.field:
+    text: Agrupar campos de propiedad con sus getter/setter correspondientes
+arrangement.settings.order.type.breadth.first:
+    text: orden en anchura
+arrangement.settings.order.type.by.name:
+    text: ordenar por nombre
+arrangement.settings.order.type.depth.first:
+    text: orden primero en profundidad
+arrangement.settings.order.type.keep:
+    text: Mantener el orden
+arrangement.settings.section.groups:
+    text: 'Reglas de agrupación:'
+arrangement.settings.section.match:
+    text: 'Reglas de coincidencia:'
+arrangement.settings.text.entry.type.xml.attribute:
+    text: atributo
+arrangement.settings.text.entry.type.xml.tag:
+    text: etiqueta
+arrangement.settings.text.general.modifier:
+    text: 'Modificador:'
+arrangement.settings.text.general.name:
+    text: 'Nombre:'
+arrangement.settings.text.general.order:
+    text: 'Orden:'
+arrangement.settings.text.general.text:
+    text: 'Texto:'
+arrangement.settings.text.general.type:
+    text: 'Tipo:'
+arrangement.settings.text.general.xml.namespace:
+    text: 'Espacio de nombres:'
+arrangement.text.empty.rule:
+    text: <regla vacía>
+arrangement.title.settings.tab:
+    text: Disposición
+auto.import:
+    text: Importación automática
+bulk.reformat.prepare.progress.text:
+    text: Preparando…
+bulk.reformat.process.progress.text:
+    text: Procesando…
+button.add.blank:
+    text: Añadir en blanco
+button.add.package:
+    text: Añadir paquete
+button.delete:
+    text: Eliminar
+button.edit:
+    text: Editar
+button.edit.scopes:
+    text: Editar ámbitos…
+button.install.package:
+    text: '&Instalar paquete'
+button.invalidate.and.restart:
+    text: Invalidar y &reiniciar
+button.just.restart:
+    text: Solo reiniciar
+button.manage.repositories:
+    text: '&Gestionar repositorios'
+button.move.down:
+    text: Mover a&bajo
+button.move.up:
+    text: Mover &arriba
+button.ok:
+    text: Aceptar
+button.remove:
+    text: Elimina&r
+checkbox.add.unambiguous.imports.on.the.fly:
+    text: Agregar importaciones no ambiguas sobre la marcha
+checkbox.after.description:
+    text: Después de la descripción
+checkbox.after.parameter.descriptions:
+    text: Después de las descripciones de los parámetros
+checkbox.after.return.tag:
+    text: Después de la etiqueta return
+checkbox.align.attributes:
+    text: Alinear atributos
+checkbox.align.multiline.fields.groups:
+    text: Declaraciones de grupo
+checkbox.align.parameter.descriptions:
+    text: Alinear las descripciones de los parámetros
+checkbox.align.text:
+    text: Alinear texto
+checkbox.align.thrown.exception.descriptions:
+    text: Alinear las descripciones de las excepciones lanzadas
+checkbox.allow.placement.of.caret.after.end.of.line:
+    text: Después del final de la línea
+checkbox.allow.placement.of.caret.inside.tabs:
+    text: Dentro de las tabulaciones
+checkbox.autocomplete.basic:
+    text: Completado básico
+checkbox.autocomplete.smart.type:
+    text: Completado con coincidencia de tipos
+checkbox.block.comment.at.first.column:
+    text: Comentario de bloque en la primera columna
+checkbox.caret.blinking.ms:
+    text: 'Parpadeo del cursor (ms):'
+checkbox.collapse.end.of.line.comments:
+    text: Secuencia de comentarios al final de la línea
+checkbox.collapse.file.header:
+    text: Cabecera de archivo
+checkbox.collapse.generic.constructor.parameters:
+    text: Parámetros de métodos y constructores genéricos
+checkbox.collapse.html.style.attribute:
+    text: "Atributo 'style' de HTML"
+checkbox.collapse.i18n.messages:
+    text: Cadenas I18n
+checkbox.collapse.inner.classes:
+    text: Clases internas
+checkbox.collapse.javadoc.comments:
+    text: Comentarios de documentación
+checkbox.collapse.method.bodies:
+    text: Cuerpos de los métodos
+checkbox.collapse.simple.property.accessors:
+    text: Accesores de propiedades simples
+checkbox.collapse.title.imports:
+    text: Importaciones
+checkbox.collapse.xml.tags:
+    text: Etiquetas XML
+checkbox.color.background:
+    text: Fondo
+checkbox.color.effects:
+    text: Efectos
+checkbox.color.error.stripe.mark:
+    text: Marca de franja de error
+checkbox.color.foreground:
+    text: Primer plano
+checkbox.do.not.indent.top.level.class.members:
+    text: No sangrar los miembros de clase de nivel superior
+checkbox.do.not.wrap.one.line.comments:
+    text: No ajustar comentarios de una sola línea
+checkbox.editor.tabs.in.single.row:
+    text: Mostrar pestañas en una sola fila
+checkbox.enable.ctrl.mousewheel.changes.font.size:
+    text: 'Cambiar el tamaño de la fuente con Ctrl + rueda del ratón en:'
+checkbox.enable.ctrl.mousewheel.changes.font.size.macos:
+    text: 'Cambiar el tamaño de fuente con Command+Rueda del ratón en:'
+checkbox.enable.drag.n.drop.functionality.in.editor:
+    text: Mover fragmentos de código con arrastrar y soltar
+checkbox.enable.javadoc.formatting:
+    text: Habilitar el formato de JavaDoc
+checkbox.enable.leading.asterisks:
+    text: Habilitar asteriscos iniciales
+checkbox.font.bold:
+    text: Negrita
+checkbox.font.italic:
+    text: Cursiva
+checkbox.generate.p.on.empty.lines:
+    text: Generar "<p>" en líneas vacías
+checkbox.highlight.current.scope:
+    text: Ámbito actual
+checkbox.highlight.matched.brace:
+    text: Llave correspondiente
+checkbox.honor.camelhumps.words.settings.on.double.click:
+    text: Respetar la configuración de palabras "CamelHumps" al seleccionar con doble clic
+checkbox.indent.absolute.label.indent:
+    text: Sangría de etiqueta absoluta
+checkbox.indent.keep.indents.on.empty.lines:
+    text: Mantener sangrías en líneas vacías
+checkbox.indent.smart.tabs:
+    text: Tabuladores inteligentes
+checkbox.indent.use.tab.character:
+    text: Usar carácter de tabulación
+checkbox.insert.imports.for.inner.classes:
+    text: Insertar importaciones para clases internas
+checkbox.insert.pair.curly.brace:
+    text: "Insertar par '}'"
+checkbox.insert.pair.quote:
+    text: Insertar par de comillas
+checkbox.javadoc.stub.after.slash.star.star:
+    text: Insertar el esqueleto del comentario de documentación
+checkbox.keep.empty.lines:
+    text: Mantener líneas vacías
+checkbox.keep.empty.param.tags:
+    text: Mantener etiquetas @param vacías
+checkbox.keep.empty.return.tags:
+    text: Mantener etiquetas @return vacías
+checkbox.keep.empty.throws.tags:
+    text: Mantener etiquetas @throws vacías
+checkbox.keep.invalid.tags:
+    text: Mantener etiquetas no válidas
+checkbox.keep.line.breaks:
+    text: Mantener saltos de línea
+checkbox.keep.line.breaks.in.text:
+    text: Mantener los saltos de línea en el texto
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: Sentencia de control en una línea
+checkbox.keep.white.spaces:
+    text: Mantener espacios en blanco
+checkbox.line.comment.add.space:
+    text: Agregar un espacio al inicio del comentario de línea
+checkbox.line.comment.at.first.column:
+    text: Comentario de línea en la primera columna
+checkbox.make.generated.local.variables.final:
+    text: Hacer que las variables locales generadas sean final
+checkbox.make.generated.parameters.final:
+    text: Hacer que los parámetros generados sean final
+checkbox.mark.modified.tabs.with.asterisk:
+    text: Marcar modificados con un asterisco (*)
+checkbox.optimize.imports.on.the.fly:
+    text: Optimizar importaciones al vuelo
+checkbox.package.options:
+    text: Opciones
+checkbox.package.specify.version:
+    text: Especificar versión
+checkbox.param.description.on.new.line:
+    text: Descripción de parámetros en una nueva línea
+checkbox.parentheses.around.method.arguments:
+    text: Añadir paréntesis alrededor de los argumentos del método
+checkbox.prefer.longer.names:
+    text: Preferir nombres más largos
+checkbox.preserve.line.feeds:
+    text: Mantener saltos de línea
+checkbox.reformat.on.typing.rbrace:
+    text: "Reformatear bloque al escribir '}'"
+checkbox.rename.local.variables.preselect:
+    text: Preseleccionar el nombre del símbolo actual para la refactorización "Cambiar nombre"
+checkbox.right.margin:
+    text: Mostrar el ajuste de línea y las guías visuales (configurado en las opciones de Estilo de código)
+checkbox.show.breadcrumbs:
+    text: Mostrar ruta de navegación
+checkbox.show.code.folding.outline:
+    text: Mostrar contorno de plegado de código
+checkbox.show.full.signatures:
+    text: Mostrar firmas completas de los métodos
+checkbox.show.gutter.icons:
+    text: Mostrar &iconos de margen
+checkbox.show.import.popup:
+    text: Mostrar &popup de importación
+checkbox.show.line.numbers:
+    text: 'Mostrar números de línea:'
+checkbox.show.method.separators:
+    text: Mostrar separadores de métodos
+checkbox.show.only.monospaced.fonts:
+    text: Mostrar solo fuentes monoespaciadas
+checkbox.show.tabs.tooltips:
+    text: Mostrar la ruta completa al pasar el ratón
+checkbox.show.virtual.space.at.file.bottom:
+    text: Mostrar espacio virtual al final del archivo
+checkbox.show.whitespaces:
+    text: Mostrar espacios en blanco
+checkbox.smart.end.on.blank.line:
+    text: End en línea en blanco mueve el cursor a la posición de sangría
+checkbox.smart.home:
+    text: Home mueve el cursor al primer carácter que no sea un espacio en blanco
+checkbox.smart.indent:
+    text: Sangría inteligente
+checkbox.smooth.scrolling:
+    text: Desplazamiento suave
+checkbox.spaces.additive.operators:
+    text: Operadores aditivos (+, -)
+checkbox.spaces.after.colon:
+    text: "Después de ':'"
+checkbox.spaces.after.comma:
+    text: Después de la coma
+checkbox.spaces.after.question:
+    text: "Después de '?'"
+checkbox.spaces.after.semicolon:
+    text: "Después del punto y coma de 'for'"
+checkbox.spaces.after.type.cast:
+    text: Después de la conversión de tipo
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: Llave izquierda del inicializador de matriz de anotación
+checkbox.spaces.annotation.parameters:
+    text: Parámetros de anotación
+checkbox.spaces.annotation.parentheses:
+    text: Paréntesis de anotación
+checkbox.spaces.around.equals.in.attribute:
+    text: Alrededor de "=" en el atributo
+checkbox.spaces.around.lambda.arrow:
+    text: Flecha lambda
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: Doble dos puntos de referencia de método
+checkbox.spaces.around.tag.name:
+    text: Después del nombre de la etiqueta
+checkbox.spaces.around.unary.operator:
+    text: Operadores unarios (!, -, +, ++, --)
+checkbox.spaces.array.initializer.left.brace:
+    text: Llave izquierda del inicializador de array
+checkbox.spaces.assignment.operators:
+    text: Operadores de asignación (=, +=, …)
+checkbox.spaces.before.colon:
+    text: "Antes de ':'"
+checkbox.spaces.before.comma:
+    text: Antes de la coma
+checkbox.spaces.before.question:
+    text: "Antes de '?'"
+checkbox.spaces.before.semicolon:
+    text: "Antes del punto y coma de 'for'"
+checkbox.spaces.bitwise.operators:
+    text: Operadores de bits (&, |, ^)
+checkbox.spaces.catch.keyword:
+    text: "Palabra clave 'catch'"
+checkbox.spaces.catch.left.brace:
+    text: "llave de apertura de 'catch'"
+checkbox.spaces.catch.parentheses:
+    text: "paréntesis de 'catch'"
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: Paréntesis de llamada a método vacía
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: Paréntesis de declaración de método vacío
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: Paréntesis de llamada a método
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: Paréntesis de declaración de método
+checkbox.spaces.class.left.brace:
+    text: Llave izquierda de la clase
+checkbox.spaces.do.left.brace:
+    text: "Llave de apertura de 'do'"
+checkbox.spaces.else.keyword:
+    text: "palabra clave 'else'"
+checkbox.spaces.else.left.brace:
+    text: "'else' llave izquierda"
+checkbox.spaces.equality.operators:
+    text: Operadores de igualdad (==, !=)
+checkbox.spaces.finally.keyword:
+    text: "Palabra clave 'finally'"
+checkbox.spaces.finally.left.brace:
+    text: "Llave izquierda de 'finally'"
+checkbox.spaces.for.left.brace:
+    text: "llave de apertura de 'for'"
+checkbox.spaces.for.parentheses:
+    text: "paréntesis de 'for'"
+checkbox.spaces.if.left.brace:
+    text: "Llave de apertura de 'if'"
+checkbox.spaces.if.parentheses:
+    text: "Paréntesis de 'if'"
+checkbox.spaces.in.empty.tag:
+    text: En etiquetas vacías
+checkbox.spaces.logical.operators:
+    text: Operadores lógicos (&&, ||)
+checkbox.spaces.method.call.parentheses:
+    text: Paréntesis de llamada a método
+checkbox.spaces.method.declaration.parentheses:
+    text: Paréntesis de la declaración del método
+checkbox.spaces.method.left.brace:
+    text: Llave de apertura del método
+checkbox.spaces.multiplicative.operators:
+    text: Operadores multiplicativos (*, /, %)
+checkbox.spaces.relational.operators:
+    text: Operadores relacionales (<, >, <=, >=)
+checkbox.spaces.shift.operators:
+    text: Operadores de desplazamiento (<<, >>, >>>)
+checkbox.spaces.switch.left.brace:
+    text: "'switch' llave de apertura"
+checkbox.spaces.switch.parentheses:
+    text: "paréntesis de 'switch'"
+checkbox.spaces.synchronized.left.brace:
+    text: "'synchronized' llave de apertura"
+checkbox.spaces.synchronized.parentheses:
+    text: "Paréntesis de 'synchronized'"
+checkbox.spaces.try.left.brace:
+    text: "Llave de apertura de 'try'"
+checkbox.spaces.try.parentheses:
+    text: "Paréntesis de 'try'"
+checkbox.spaces.type.cast.parentheses:
+    text: Paréntesis de conversión de tipo
+checkbox.spaces.while.keyword:
+    text: "palabra clave 'while'"
+checkbox.spaces.while.left.brace:
+    text: "'while' llave izquierda"
+checkbox.spaces.while.parentheses:
+    text: "paréntesis de 'while'"
+checkbox.spaces.within.array.initializer.braces:
+    text: Llaves del inicializador de array
+checkbox.spaces.within.braces:
+    text: Llaves de código
+checkbox.spaces.within.brackets:
+    text: Corchetes
+checkbox.spaces.within.parentheses:
+    text: Paréntesis de agrupación
+checkbox.suppress.with.suppresswarnings:
+    text: Suprimir con @SuppressWarnings
+checkbox.surround.selection.on.typing.quote.or.brace:
+    text: Envolver la selección al escribir comillas o llaves
+checkbox.use.block.caret:
+    text: Usar cursor de bloque
+checkbox.use.camelhumps.words:
+    text: Usar palabras "CamelHumps"
+checkbox.use.custom.soft.wraps.indent:
+    text: Usar la sangría de la línea original para los fragmentos con ajuste de línea
+checkbox.use.fully.qualified.class.names:
+    text: Usar nombres de clase totalmente calificados
+checkbox.use.fully.qualified.class.names.in.javadoc:
+    text: Usar nombres de clase plenamente cualificados en javadoc
+checkbox.use.relative.indents:
+    text: Usar sangrías relativas al inicio de la expresión
+checkbox.use.single.class.import:
+    text: Usar importación de clase única
+checkbox.use.soft.wraps.at.console:
+    text: Usar ajuste de línea en la consola
+checkbox.use.soft.wraps.at.editor:
+    text: 'Ajustar líneas en estos archivos:'
+checkbox.use.throws.rather.than.exception:
+    text: Usar @throws en lugar de @exception
+checkbox.wrap.at.right.margin:
+    text: Ajustar en el margen derecho
+checkbox.wrap.text:
+    text: Ajustar texto
+checkbox.wrap.typing.on.right.margin:
+    text: Ajustar línea cuando la escritura alcance el margen derecho
+code.style.indent.detector.apply:
+    text: <html>Sangrar nuevas líneas con {0}  <span style="color:#{1}">detectado</span>
+code.style.indent.detector.disable:
+    text: Desactivar la detección de sangría
+code.style.indent.detector.notification.content:
+    text: Detección de sangría desactivada
+code.style.indent.detector.reindent:
+    text: Reindentar archivo con {0}
+code.style.indent.detector.reject:
+    text: Indentar nuevas líneas con {0}
+code.style.indent.provider.notification.re.enable:
+    text: Deshacer
+code.style.indent.provider.notification.settings:
+    text: Configuración de estilo de código
+code.style.other.file.types:
+    text: Otros tipos de archivo
+code.style.widget.configure.indents:
+    text: Configurar sangrías para {0}…
+column.name:
+    text: Nombre
+column.value:
+    text: Valor
+combobox.crlf.mac:
+    text: Mac OS clásico (
+combobox.crlf.system.dependent:
+    text: Dependiente del sistema
+combobox.crlf.unix:
+    text: |-
+        Unix y macOS (
+        )
+combobox.crlf.windows:
+    text: Windows (
+combobox.editor.tab.placement:
+    text: Ubicación de pestañas
+combobox.effect.bold.dottedline:
+    text: Línea punteada
+combobox.effect.boldunderscored:
+    text: Negrita subrayado
+combobox.effect.bordered:
+    text: Bordeado
+combobox.effect.strikeout:
+    text: Tachado
+combobox.effect.underscored:
+    text: Subrayado
+combobox.effect.underwaved:
+    text: Subrayado ondulado
+combobox.insert.imports.all:
+    text: Siempre
+combobox.insert.imports.ask:
+    text: Preguntar
+combobox.insert.imports.none:
+    text: Nunca
+combobox.line.separator.for.new.files:
+    text: 'Separador de líneas:'
+combobox.lineseparator.for.new.files.hint:
+    text: Aplicado a archivos nuevos
+combobox.paste.insert.imports:
+    text: '&Insertar imports al pegar:'
+combobox.paste.reformat:
+    text: 'Reformatear al pegar:'
+combobox.paste.reformat.indent.block:
+    text: Sangrar bloque
+combobox.paste.reformat.indent.each.line:
+    text: Indentar cada línea
+combobox.paste.reformat.none:
+    text: Ninguno
+combobox.paste.reformat.reformat.block:
+    text: Reformatear bloque
+combobox.richcopy.color.scheme:
+    text: 'Esquema de colores para el fragmento copiado:'
+combobox.richcopy.color.scheme.active:
+    text: Esquema activo
+combobox.smart.backspace:
+    text: 'Anular sangría al pulsar Retroceso:'
+combobox.smart.backspace.off:
+    text: Desactivado
+combobox.smart.backspace.simple:
+    text: A la posición de sangría más cercana
+combobox.smart.backspace.smart:
+    text: A la posición de sangría adecuada
+combobox.strip.all:
+    text: Todas las líneas
+combobox.strip.modified.lines:
+    text: Líneas modificadas
+combobox.strip.trailing.spaces.on.save:
+    text: 'Eliminar espacios al final en:'
+combobox.tab.placement.bottom:
+    text: Abajo
+combobox.tab.placement.left:
+    text: Izquierda
+combobox.tab.placement.none:
+    text: Ninguno
+combobox.tab.placement.right:
+    text: Derecha
+combobox.tab.placement.top:
+    text: Superior
+command.exit:
+    text: Salir
+configurable.breadcrumbs:
+    text: Migas de pan
+configure.breadcrumbs.colors:
+    text: Gestionar colores
+date.format.a.few.moments.ago:
+    text: hace unos momentos
+date.format.in.a.few.moments:
+    text: en unos momentos
+date.format.in.n.days:
+    text: dentro de {0,choice, 0#0 días|1#1 día|2#{0,number} días}
+date.format.in.n.hours:
+    text: en {0,choice, 0#0 horas|1#1 hora|2#{0,number} horas}
+date.format.in.n.minutes:
+    text: en {0,choice, 0#0 minutos|1#1 minuto|2#{0,number} minutos}
+date.format.in.n.months:
+    text: en {0,choice, 0#0 meses|1#1 mes|2#{0,number} meses}
+date.format.in.n.weeks:
+    text: en {0,choice, 0#0 semanas|1#1 semana|2#{0,number} semanas}
+date.format.in.n.years:
+    text: dentro de {0,choice, 0#0 años|1#1 año|2#{0,number} años}
+date.format.minutes.ago:
+    text: Hace {0,choice, 0#un momento|1#1 minuto|2#{0,number} minutos|60#1 hora}
+date.format.n.days.ago:
+    text: hace {0,choice, 0#0 días|1#1 día|2#{0,number} días}
+date.format.n.hours.ago:
+    text: hace {0,choice, 0#0 horas|1#1 hora|2#{0,number} horas}
+date.format.n.minutes.ago:
+    text: hace {0,choice, 0#0 minutos|1#1 minuto|2#{0,number} minutos}
+date.format.n.months.ago:
+    text: '{0,choice, 0#hace 0 meses|1#hace 1 mes|2#hace {0,number} meses}'
+date.format.n.weeks.ago:
+    text: hace {0,choice, 0#0 semanas|1#1 semana|2#{0,number} semanas}
+date.format.n.years.ago:
+    text: hace {0,choice, 0#0 años|1#1 año|2#{0,number} años}
+date.format.right.now:
+    text: ahora mismo
+date.format.today:
+    text: Hoy
+date.format.yesterday:
+    text: Ayer
+date.frequency:
+    text: Una vez cada {0}
+desktop.entry.icon.missing:
+    text: "No se puede encontrar el icono de la aplicación en ''{0}''."
+desktop.entry.script.missing:
+    text: "No se encuentra el lanzador del IDE en ''{0}''."
+desktop.entry.success:
+    text: Ya puede salir de {0} e iniciarlo desde el menú del sistema.<br/> Si no aparece una nueva entrada en el menú, reinicie su sesión.
+desktop.entry.sudo.prompt:
+    text: Introduzca su contraseña para crear una entrada de escritorio
+desktop.entry.xdg.missing:
+    text: "Lamentablemente, parece que no hay ningún paquete 'xdg-utils' en su sistema."
+dialog.message.caches.will.be.invalidated:
+    text: Eliminar las cachés y los índices de todos los proyectos. Se crearán nuevas cachés al volver a abrir los proyectos.
+dialog.message.command.not.finished.yet:
+    text: '{0} aún no ha terminado.'
+dialog.message.the.following.items:
+    text: 'Opcional:'
+dialog.title.invalidate.caches:
+    text: Invalidar cachés
+don.t.break.if.inline.content:
+    text: 'No dividir si es contenido en línea:'
+edit.code.folding.options:
+    text: Abrir opciones de plegado de código
+editbox.blanklines.after.anonymous.class.header:
+    text: 'Después del encabezado de la clase anónima:'
+editbox.blanklines.after.class.header:
+    text: 'Después del encabezado de la clase:'
+editbox.blanklines.after.imports:
+    text: 'Después de los imports:'
+editbox.blanklines.after.package.statement:
+    text: 'Después de la sentencia package:'
+editbox.blanklines.around.class:
+    text: 'Alrededor de la clase:'
+editbox.blanklines.around.field:
+    text: 'Alrededor del campo:'
+editbox.blanklines.around.method:
+    text: 'Alrededor del método:'
+editbox.blanklines.before.imports:
+    text: 'Antes de las importaciones:'
+editbox.blanklines.before.method.body:
+    text: 'Antes del cuerpo del método:'
+editbox.blanklines.before.package.statement:
+    text: 'Antes de la sentencia package:'
+editbox.class.count.to.use.import.with.star:
+    text: "Número de clases para usar importación con '*':"
+editbox.console.history.limit:
+    text: 'Tamaño del historial de comandos de la consola:'
+editbox.font.size:
+    text: 'Tamaño:'
+editbox.indent.continuation.indent:
+    text: 'Sangría de continuación:'
+editbox.indent.indent:
+    text: 'Sangría:'
+editbox.indent.label.indent:
+    text: 'Sangría de etiqueta:'
+editbox.indent.tab.size:
+    text: 'Tamaño del tabulador:'
+editbox.keep.blank.lines:
+    text: 'Mantener líneas en blanco:'
+editbox.keep.blanklines.before.rbrace:
+    text: "Antes de '}':"
+editbox.keep.blanklines.in.code:
+    text: 'En el código:'
+editbox.keep.blanklines.in.declarations:
+    text: 'En las declaraciones:'
+editbox.line.spacing:
+    text: 'Interlineado:'
+editbox.names.count.to.use.static.import.with.star:
+    text: "Cantidad de nombres para usar importación estática con '*':"
+editbox.path.macro.name:
+    text: 'Nombre:'
+editbox.path.macro.value:
+    text: 'Valor:'
+editbox.right.margin.columns:
+    text: 'Ajuste de línea en:'
+editbox.tab.limit:
+    text: 'Límite de pestañas:'
+editorsearch.empty.string.matches:
+    text: Patrón impreciso
+editorsearch.in.selection:
+    text: Buscar solo en la selección
+editorsearch.in.selection.with.hint:
+    text: Buscar en la selección. {0} para buscar el texto seleccionado
+editorsearch.matches:
+    text: '{0, choice, 0#0 resultados|1#1 resultado|2#{0} resultados}'
+editorsearch.noselection:
+    text: Sin selección
+error.monitor.too.many.errors:
+    text: Demasiados errores internos del IDE. El monitoreo se ha detenido.
+error.variable.already.exists:
+    text: Ya existe una variable con el nombre {0}
+exclude.from.completion.group:
+    text: 'Excluir de la importación automática y el completado:'
+exclude.from.imports.no.exclusions:
+    text: Añada una clase, paquete o miembro para excluir de la importación automática y el completado
+exit.confirm.prompt:
+    text: ¿Desea detener la importación?<br>Si la detiene ahora, solo se importará una parte de la configuración.
+exit.confirm.prompt.tasks:
+    text: Hay tareas en segundo plano en ejecución. ¿Seguro que desea detenerlas y salir?
+exit.confirm.title:
+    text: Importación de ajustes en curso
+group.advanced.mouse.usages:
+    text: Control del ratón
+group.brace.highlighting:
+    text: Resaltado al mover el cursor
+group.code.folding:
+    text: Plegado de código
+group.error.highlighting:
+    text: Resaltado de errores
+group.javadoc.alignment:
+    text: Alineación
+group.javadoc.blank.lines:
+    text: Líneas en blanco
+group.javadoc.invalid.tags:
+    text: Etiquetas no válidas
+group.javadoc.other:
+    text: Otros
+group.richcopy:
+    text: Copia de texto enriquecido
+group.smart.keys:
+    text: Teclas inteligentes
+group.spaces.after.right.brace:
+    text: Antes de palabras clave
+group.spaces.around.operators:
+    text: Alrededor de los operadores
+group.spaces.before.left.brace:
+    text: Antes de la llave de apertura
+group.spaces.before.parentheses:
+    text: Antes de los paréntesis
+group.spaces.in.ternary.operator:
+    text: En el operador ternario (?:)
+group.spaces.in.type.arguments:
+    text: En los argumentos de tipo
+group.spaces.in.type.arguments.block:
+    text: Argumentos de tipo
+group.spaces.in.type.parameters.block:
+    text: Parámetros de tipo
+group.spaces.other:
+    text: Otros
+group.spaces.within:
+    text: Dentro de
+group.tab.appearance:
+    text: Apariencia
+group.tab.closing.policy:
+    text: Política de cierre
+group.virtual.space:
+    text: Espacio virtual
+heavyProcess.type.indexing:
+    text: Indexando…
+heavyProcess.type.processing:
+    text: Procesando…
+heavyProcess.type.syncing:
+    text: Sincronizando…
+import.scheme.chooser.destination:
+    text: 'A:'
+import.scheme.chooser.source:
+    text: 'Desde:'
+inline.elements:
+    text: 'Elementos en línea:'
+insert.override.annotation:
+    text: Insertar anotación @&Override
+integer.field.value.default:
+    text: Predeterminado
+label.appearance.show.vertical.indent.guides:
+    text: 'Apariencia: Mostrar guías de sangría verticales'
+label.autocomplete.when.only.one.choice:
+    text: 'Insertar automáticamente sugerencias únicas para:'
+label.breadcrumbs.languages:
+    text: 'Idiomas:'
+label.breadcrumbs.placement:
+    text: 'Ubicación:'
+label.do.not.indent.children.of:
+    text: 'No sangrar elementos secundarios de:'
+label.fallback.fonts.list.description:
+    text: Se utiliza para símbolos no compatibles<br>con la fuente principal
+label.font.name:
+    text: 'Fuente:'
+label.font.size:
+    text: 'Tamaño de fuente:'
+label.font.type:
+    text: Fuente
+label.inherit.attributes:
+    text: 'Heredar valores de:'
+label.insert.new.line.before:
+    text: 'Insertar nueva línea antes de:'
+label.keep.white.spaces.inside:
+    text: 'Mantener espacios en blanco interiores:'
+label.lines:
+    text: Líneas
+label.loading.page.please.wait:
+    text: Cargando…
+label.name:
+    text: Nombre
+label.name.prefix:
+    text: 'Prefijo de nombre:'
+label.name.suffix:
+    text: 'Sufijo del nombre:'
+label.naming.field:
+    text: 'Campo:'
+label.naming.local.variable:
+    text: 'Variable local:'
+label.naming.parameter:
+    text: 'Parámetro:'
+label.naming.static.field:
+    text: 'Campo estático:'
+label.or.if.tag.size.more.than:
+    text: o si el tamaño de la etiqueta es superior a
+label.remove.new.line.before:
+    text: 'Eliminar salto de línea antes de:'
+label.when.closing.active.editor:
+    text: 'Al cerrar la pestaña actual, activar:'
+label.when.number.of.opened.editors.exceeds.tab.limit:
+    text: 'Cuando las pestañas excedan el límite:'
+label.wrap.attributes:
+    text: 'Ajustar atributos:'
+listbox.import.all.other.imports:
+    text: <todas las demás importaciones>
+listbox.import.package:
+    text: Paquete
+listbox.import.with.subpackages:
+    text: Con subpaquetes
+listbox.members.order.constructors:
+    text: Constructores
+listbox.members.order.fields:
+    text: Campos de instancia
+listbox.members.order.inner.classes:
+    text: Clases internas
+listbox.members.order.inner.static.classes:
+    text: Clases internas estáticas
+listbox.members.order.methods:
+    text: Métodos de instancia
+listbox.members.order.static.fields:
+    text: Campos estáticos
+listbox.members.order.static.methods:
+    text: Métodos estáticos
+margin.columns:
+    text: columnas
+notification.group.automatic.indent.detection:
+    text: Detección de sangría automática desactivada
+option.table.sizing.text:
+    text: Recortar si es largo.
+primary.font:
+    text: 'Fuente:'
+quickdoc.tooltip.font.size.by.wheel:
+    text: El deslizador o Ctrl+Rueda cambian el tamaño de la fuente
+radio.activate.left.neighbouring.tab:
+    text: <html>La pestaña de la izquierda</html>
+radio.activate.most.recently.opened.tab:
+    text: <html>Pestaña abierta más recientemente</html>
+radio.activate.right.neighbouring.tab:
+    text: <html>La pestaña de la derecha</html>
+radio.close.less.frequently.used.files:
+    text: Cerrar los no utilizados
+radio.close.non.modified.files.first:
+    text: Cerrar primero los no modificados
+radio.prefer.comma.separated.import.list:
+    text: Preferir lista de importación separada por comas
+radio.prefer.one.import.statement.per.page.directive:
+    text: Preferir una sentencia import por directiva de página
+radio.show.breadcrumbs.above:
+    text: Superior
+radio.show.breadcrumbs.below:
+    text: Inferior
+reformat.changed.text.file.too.big.notification.text:
+    text: El archivo {0} es demasiado grande o hay demasiados cambios
+reformat.changed.text.file.too.big.notification.title:
+    text: No se pudieron calcular los rangos modificados
+secondary.font:
+    text: 'Fuente de reserva:'
+settings.code.style.general.autodetect.indents:
+    text: Detectar y usar las sangrías de archivo existentes para la edición
+settings.code.style.general.enable.formatter.tags:
+    text: Activar/desactivar el formateador con marcadores en los comentarios del código
+settings.code.style.general.formatter.marker.invalid.regexp:
+    text: Expresión regular no válida
+settings.code.style.general.formatter.marker.regexp:
+    text: Habilitar expresiones regulares en los marcadores del formateador
+settings.code.style.general.formatter.off.tag:
+    text: 'Desactivar:'
+settings.code.style.general.formatter.on.tag:
+    text: 'Activado:'
+settings.code.style.general.visual.guides.hint:
+    text: Especifique una guía (80) o varias (80, 120)
+settings.code.style.visual.guides:
+    text: Guías visuales
+settings.default.value.prefix:
+    text: 'Predeterminado: {0}'
+settings.editor.font.none:
+    text: <Ninguno>
+settings.soft.margins.empty.list:
+    text: Ninguno
+tab.editor.settings.appearance:
+    text: Apariencia
+text.no.path.variables:
+    text: No hay variables de ruta
+title.add.variable:
+    text: Agregar variable
+title.blank.lines:
+    text: Líneas en blanco
+title.code.completion:
+    text: Completado de código
+title.code.generation:
+    text: Generación de código
+title.colors.and.fonts:
+    text: Esquema de colores
+title.diff:
+    text: Diff y fusión
+title.edit.variable:
+    text: Editar variable
+title.general:
+    text: Configuración del sistema
+title.import.layout:
+    text: Importar diseño
+title.imports:
+    text: Importaciones
+title.jsp.imports.layout:
+    text: Diseño de importaciones JSP
+title.keep.blank.lines:
+    text: Mantener el máximo de líneas en blanco
+title.minimum.blank.lines:
+    text: Líneas en blanco mínimas
+title.naming:
+    text: Nomenclatura
+title.naming.comment.code:
+    text: Comentar código
+title.naming.final.modifier:
+    text: Declaración de variable
+title.order.of.members:
+    text: Orden de los miembros
+title.packages.to.use.import.with:
+    text: "Paquetes para usar import con '*'"
+title.parameter.info:
+    text: Información de parámetros
+title.path.variables:
+    text: Variables de ruta
+title.preview:
+    text: Vista previa
+title.scope.based:
+    text: Por ámbito
+title.settings:
+    text: Configuración
+title.spaces:
+    text: Espacios
+title.tabs.and.indents:
+    text: Tabulaciones y sangrías
+title.warning:
+    text: Advertencia
+tooltip.indent.must.be.multiple.of.tab.size.for.smart.tabs.to.operate:
+    text: La sangría debe ser múltiplo del tamaño del tabulador para que los tabuladores inteligentes funcionen
+use.external.annotations:
+    text: Usar anotaciones &externas
+use.ligatures:
+    text: Habilitar ligaduras
+watcher.exe.not.exe:
+    text: 'El observador de archivos nativo no es ejecutable: <a href="{0}">{0}</a>'
+watcher.exe.not.exists:
+    text: El observador de archivos nativo no es compatible con esta plataforma
+watcher.exe.not.found:
+    text: No se encontró el ejecutable nativo del observador de archivos
+watcher.failed.to.start:
+    text: No se pudo iniciar el observador de archivos
+watcher.gave.up:
+    text: El observador de archivos ha dejado de operar
+watcher.non.watchable.project:
+    text: '{0} no puede recibir notificaciones de eventos del sistema de archivos para el proyecto. ¿Se encuentra en una unidad de red?'
+watcher.slow.sync:
+    text: La sincronización de cambios en archivos externos puede ser lenta
+wrapping.after.modifier.list:
+    text: Ajustar línea después de la lista de modificadores
+wrapping.align.fields.in.columns:
+    text: Alinear campos en columnas
+wrapping.align.in.columns:
+    text: Alinear en columnas
+wrapping.align.parenthesised.when.multiline:
+    text: Alinear lo que está entre paréntesis en varias líneas
+wrapping.align.simple.methods.in.columns:
+    text: Alinear métodos simples en columnas
+wrapping.align.throws.keyword:
+    text: "Alinear 'throws' al inicio del método"
+wrapping.align.variables.in.columns:
+    text: Alinear variables en columnas
+wrapping.align.when.multiline:
+    text: Alinear cuando hay varias líneas
+wrapping.array.initializer:
+    text: Listas de inicialización
+wrapping.assert.statement:
+    text: Sentencia assert
+wrapping.assignment.sign.on.next.line:
+    text: Signo de asignación en la línea siguiente
+wrapping.assignment.statement:
+    text: Sentencia de asignación
+wrapping.binary.operations:
+    text: Expresiones binarias
+wrapping.brace.placement:
+    text: Ubicación de las llaves
+wrapping.brace.placement.class.declaration:
+    text: En clases y estructuras
+wrapping.brace.placement.end.of.line:
+    text: Al final de la línea
+wrapping.brace.placement.method.declaration:
+    text: En la declaración del método
+wrapping.brace.placement.next.line:
+    text: Siguiente línea
+wrapping.brace.placement.next.line.each.shifted:
+    text: Siguiente línea, cada una desplazada
+wrapping.brace.placement.next.line.if.wrapped:
+    text: Siguiente línea si se ha ajustado
+wrapping.brace.placement.next.line.shifted:
+    text: Siguiente línea desplazada
+wrapping.brace.placement.other:
+    text: Otro
+wrapping.catch.on.new.line:
+    text: "'catch' en una nueva línea"
+wrapping.chained.method.call.first.on.new.line:
+    text: Ajustar primera llamada
+wrapping.chained.method.calls:
+    text: Llamadas a métodos encadenados
+wrapping.chop.down.if.long:
+    text: Dividir si es largo
+wrapping.classes.annotation:
+    text: Anotaciones de clase
+wrapping.colon.signs.on.next.line:
+    text: "Signos ':' en la siguiente línea"
+wrapping.comments:
+    text: Comentarios
+wrapping.comments.wrap.at.right.margin:
+    text: Ajustar al margen derecho
+wrapping.do.not.wrap:
+    text: No ajustar línea
+wrapping.dowhile.statement:
+    text: "sentencia 'do … while()'"
+wrapping.else.on.new.line:
+    text: "'else' en una nueva línea"
+wrapping.enum.constants:
+    text: Constantes de enumeración
+wrapping.extends.implements.keyword:
+    text: Palabra clave extends/implements/permits
+wrapping.extends.implements.list:
+    text: Lista de extends/implements/permits
+wrapping.fields.annotation:
+    text: Anotaciones de campo
+wrapping.finally.on.new.line:
+    text: "'finally' en nueva línea"
+wrapping.for.statement:
+    text: "Sentencia 'for()'"
+wrapping.force.braces:
+    text: Forzar llaves
+wrapping.force.braces.always:
+    text: Siempre
+wrapping.force.braces.do.not.force:
+    text: No forzar
+wrapping.force.braces.when.multiline:
+    text: Cuando es multilínea
+wrapping.if.statement:
+    text: "Sentencia 'if()'"
+wrapping.indent.case.from.switch:
+    text: "Indentar las ramas 'case'"
+wrapping.keep.comment.at.first.column:
+    text: Comentario en la primera columna
+wrapping.keep.line.breaks:
+    text: Saltos de línea
+wrapping.keep.multiple.expressions.in.one.line:
+    text: Múltiples expresiones en una línea
+wrapping.keep.simple.blocks.in.one.line:
+    text: Lambdas simples en una línea
+wrapping.keep.simple.classes.in.one.line:
+    text: Clases simples en una sola línea
+wrapping.keep.simple.lambdas.in.one.line:
+    text: Lambdas simples en una sola línea
+wrapping.keep.simple.methods.in.one.line:
+    text: Funciones simples en una sola línea
+wrapping.keep.when.reformatting:
+    text: Mantener al reformatear
+wrapping.local.variables.annotation:
+    text: Anotaciones de variables locales
+wrapping.long.lines:
+    text: Asegurar que no se exceda el margen derecho
+wrapping.method.arguments:
+    text: Argumentos de llamada a método
+wrapping.method.parameters:
+    text: Parámetros de declaración de método
+wrapping.method.parentheses:
+    text: Paréntesis del método
+wrapping.methods.annotation:
+    text: Anotaciones de método
+wrapping.modifier.list:
+    text: Lista de modificadores
+wrapping.new.line.after.lbrace:
+    text: "Nueva línea después de '{'"
+wrapping.new.line.after.lpar:
+    text: "Nueva línea después de '('"
+wrapping.operation.sign.on.next.line:
+    text: Signo de operación en la siguiente línea
+wrapping.parameters.annotation:
+    text: Anotaciones de parámetros
+wrapping.quest.and.colon.signs.on.next.line:
+    text: "Signos '?' y ':' en la siguiente línea"
+wrapping.rbrace.on.new.line:
+    text: "Colocar '}' en una nueva línea"
+wrapping.rpar.on.new.line:
+    text: "Colocar ')' en una nueva línea"
+wrapping.special.else.if.braces.treatment:
+    text: "Tratamiento especial de 'else if'"
+wrapping.switch.statement:
+    text: "sentencia 'switch'"
+wrapping.take.priority.over.call.chain.wrapping:
+    text: Tener prioridad sobre el ajuste de línea de la cadena de llamadas
+wrapping.ternary.operation:
+    text: Operación ternaria
+wrapping.throws.keyword:
+    text: Palabra clave throws
+wrapping.throws.list:
+    text: "Lista de 'throws'"
+wrapping.try.statement:
+    text: "Sentencia 'try'"
+wrapping.while.on.new.line:
+    text: "'while' en una nueva línea"
+wrapping.while.statement:
+    text: "Sentencia 'while()'"
+wrapping.wrap.always:
+    text: Ajustar siempre
+wrapping.wrap.if.long:
+    text: Ajustar si es largo
+wrapping.wrap.on.typing:
+    text: Ajustar al escribir
+wrapping.wrap.on.typing.default:
+    text: Predeterminado
+wrapping.wrap.on.typing.wrap:
+    text: Sí

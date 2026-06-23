@@ -1,0 +1,84 @@
+label.macro.preview:
+    text: Vista previa de macro
+macro.class.name:
+    text: Nombre de clase
+macro.classpath.entry:
+    text: Entrada en el classpath a la que pertenece el elemento
+macro.column.number:
+    text: Número de columna
+macro.file.dir.relative.to.root:
+    text: Directorio del archivo relativo a la raíz del contenido del módulo al que pertenece el archivo
+macro.file.dir.relative.to.root.fwd.slash:
+    text: Directorio del archivo relativo a la raíz de contenido del módulo al que pertenece el archivo (con barras diagonales)
+macro.file.dir.relative.to.sourcepath.root:
+    text: Directorio del archivo relativo a la raíz de la ruta de origen a la que pertenece el archivo
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: Directorio del archivo relativo a la raíz de la ruta de origen a la que pertenece el archivo (con barras inclinadas hacia adelante)
+macro.file.directory:
+    text: Directorio del archivo
+macro.file.directory.from.parent:
+    text: Ruta a $FileDir$ desde el directorio padre con el nombre pasado como parámetro
+macro.file.directory.name:
+    text: Nombre del directorio de archivos
+macro.file.directory.relative:
+    text: Directorio de archivos relativo al archivo del proyecto
+macro.file.directory.relative.fwd.slash:
+    text: Directorio del archivo relativo al archivo de proyecto (con barras inclinadas)
+macro.file.encoding:
+    text: Codificación de archivo
+macro.file.extension:
+    text: Extensión de archivo
+macro.file.fully.qualified.package:
+    text: Paquete totalmente calificado del archivo
+macro.file.name.without.all.extensions:
+    text: Nombre del archivo sin todas las extensiones
+macro.file.package:
+    text: Paquete de archivos
+macro.file.parent.directory:
+    text: Directorio padre del archivo. Toma un parámetro opcional (nombre) para buscar el directorio padre.
+macro.file.path:
+    text: Ruta del archivo
+macro.file.path.relative:
+    text: Ruta del archivo relativa al archivo del proyecto
+macro.file.path.relative.fwd.slash:
+    text: Ruta de archivo relativa al archivo del proyecto (con barras diagonales)
+macro.file.path.relative.to.root:
+    text: Ruta del archivo relativa a la raíz de contenido del módulo al que pertenece el archivo
+macro.file.path.relative.to.root.fwd.slash:
+    text: Ruta del archivo relativa a la raíz del contenido del módulo al que pertenece el archivo (con barras inclinadas)
+macro.file.path.relative.to.sourcepath.root:
+    text: Ruta de archivo relativa a la raíz de la ruta de origen a la que pertenece el archivo
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: Ruta del archivo relativa a la raíz de la ruta de origen a la que pertenece el archivo (con barras diagonales)
+macro.javadoc.output.directory:
+    text: Directorio de salida de JavaDoc
+macro.line.number:
+    text: Número de línea
+macro.module.file.directory:
+    text: El directorio del archivo del módulo
+macro.module.file.name:
+    text: Nombre del archivo de módulo sin extensión
+macro.module.file.path:
+    text: La ruta al archivo del módulo
+macro.module.source.path:
+    text: Ruta de fuentes del módulo
+macro.output.path:
+    text: Ruta de salida
+macro.project.classpath:
+    text: Classpath del proyecto
+macro.project.file.directory:
+    text: El directorio del archivo de proyecto
+macro.project.file.name:
+    text: El nombre del archivo de proyecto sin extensión
+macro.project.source.path:
+    text: Ruta de fuentes del proyecto
+macro.project.sourcepath:
+    text: Ruta de fuentes del proyecto
+macro.prompt:
+    text: Muestra un cuadro de diálogo de entrada de cadena
+macro.sourcepath.entry:
+    text: Entrada en la ruta de origen a la que pertenece el elemento
+prompt.enter.parameters:
+    text: 'Introduzca los parámetros:'
+title.input:
+    text: Entrada

@@ -1,0 +1,422 @@
+access.static.via.class.reference.family:
+    text: Calificar el acceso a miembros estáticos mediante una referencia de clase
+add.catch.clause.family:
+    text: Añadir excepción a la cláusula catch
+add.catch.clause.text:
+    text: "Añadir cláusula(s) 'catch'"
+add.class.to.extends.list:
+    text: "Hacer que ''{0}'' extienda ''{1}''"
+add.constructor.parameter.name:
+    text: Añadir parámetro al constructor
+add.default.constructor.family:
+    text: Añadir constructor predeterminado
+add.default.constructor.text:
+    text: Añadir constructor {0} sin argumentos a {1}
+add.docTag.to.custom.tags:
+    text: "Añadir ''@{0}'' a las etiquetas personalizadas"
+add.exception.from.field.initializer.to.constructor.throws.family.text:
+    text: Añadir excepción a las signaturas de los constructores
+add.exception.from.field.initializer.to.constructor.throws.text:
+    text: Agregar excepción a {0, choice, 0#la firma|1#la firma|2#las firmas} del constructor
+add.exception.to.throws.family:
+    text: Añadir excepción a la firma del método
+add.exception.to.throws.text:
+    text: Añadir {0, choice, 0#excepción|2#excepciones} a la firma del método
+add.import:
+    text: Añadir importación
+add.interface.to.implements.list:
+    text: "Hacer que ''{0}'' implemente ''{1}''"
+add.library.copy.files.to.radio.button:
+    text: "&Copiar los archivos de la biblioteca ''{0}'' a"
+add.library.description.choose.folder:
+    text: Seleccione el directorio donde se copiará la biblioteca
+add.library.error.cannot.copy:
+    text: "No se puede copiar ''{0}'' a ''{1}''\n({2})"
+add.library.error.not.found:
+    text: "El archivo de biblioteca ''{0}'' no existe"
+add.library.title.choose.folder:
+    text: Seleccionar directorio
+add.library.title.dialog:
+    text: "Añadir la biblioteca ''{0}'' al proyecto"
+add.library.use.bundled.library.radio.button:
+    text: "&Usar ''{0}'' de la distribución {1}"
+add.method.body.text:
+    text: Añadir cuerpo del método
+add.method.family:
+    text: Agregar método
+add.method.qualifier.fix.family:
+    text: Añadir calificador de método
+add.method.qualifier.fix.text:
+    text: "Añadir el calificador ''{0}'' al método"
+add.method.text:
+    text: "Añadir el método ''{0}'' a la clase ''{1}''"
+add.missing.annotation.parameters.fix:
+    text: Agregar parámetros de anotación faltantes - {0}
+add.missing.annotation.single.parameter.fix:
+    text: "Añadir el parámetro de anotación faltante ''{0}''"
+add.modifier.fix:
+    text: "Hacer ''{0}'' {1}"
+add.new.array.family:
+    text: Añadir la expresión new faltante
+add.new.array.text:
+    text: "Añadir ''new {0}[]''"
+add.parameter.from.usage.text:
+    text: "Agregar ''{0}'' como {1,number,ordinal} {2} a {3} ''{4}''"
+add.qualifier:
+    text: Agregar calificador
+add.qualifier.original.class.chooser.title:
+    text: Clase original
+add.return.statement.text:
+    text: "Añadir sentencia 'return'"
+add.runtime.exception.to.throws.family:
+    text: Añadir excepción de tiempo de ejecución a la firma del método
+add.runtime.exception.to.throws.text:
+    text: "Añadir ''{0}'' a la firma del método"
+add.type.arguments.single.argument.text:
+    text: Añadir argumentos de tipo explícitos
+add.type.arguments.text:
+    text: Añadir argumentos de tipo explícitos al {0, choice, 1#1.er|2#2.º|3#3.er|4#{0,number}.º} argumento
+add.typecast.family:
+    text: Añadir conversión de tipo
+add.typecast.text:
+    text: "Convertir a ''{0}''"
+adjust.package.family:
+    text: Ajustar nombre del paquete
+adjust.package.text:
+    text: "Establecer el nombre del paquete a ''{0}''"
+annotations.fix:
+    text: Anotaciones
+anonymous.class.presentation:
+    text: Clase anónima derivada de {0}
+bring.variable.to.scope.family:
+    text: Traer variable al ámbito
+bring.variable.to.scope.text:
+    text: "Traer ''{0}'' al ámbito"
+cannot.change.field.exception:
+    text: "No se puede cambiar el tipo del campo ''{0}''.\nRazón: {1}"
+cannot.create.java.file.error.text:
+    text: 'No se puede crear {0}.java en {1}: {2}'
+cannot.create.java.file.error.title:
+    text: Error al crear el archivo
+cannot.create.java.package.error.text:
+    text: 'No se puede crear {0} en {1}: {2}'
+cannot.create.java.package.error.title:
+    text: Error al crear el paquete
+change.class.signature.family:
+    text: Cambiar la signatura de la clase
+change.class.signature.text:
+    text: "Cambiar la firma de ''{0}'' para que coincida con ''{1}''"
+change.extends.list.family:
+    text: Extender clase desde
+change.method.signature.from.usage.family:
+    text: Cambiar la firma del método desde el uso
+change.method.signature.from.usage.text:
+    text: "Cambiar la firma de ''{0}'' a ''{1}({2})''"
+change.new.operator.type.family:
+    text: Cambiar el tipo del operador new
+change.new.operator.type.text:
+    text: "Cambiar ''{0}'' a ''new {1}{2}''"
+change.parameter.class.family:
+    text: Cambiar clase de parámetro
+change.parameter.from.usage.text:
+    text: "Cambiar el {0,number,ordinal} {1} de {2} ''{3}'' de ''{4}'' a ''{5}''"
+change.to.append.family:
+    text: Corregir append de StringBuilder
+change.to.append.text:
+    text: "Cambiar a ''{0}''"
+class.initializer.presentation:
+    text: '{0} inicializador de clase'
+collection.addall.can.be.replaced.with.constructor.fix.description:
+    text: "La llamada '#ref()' se puede sustituir por una llamada al constructor parametrizado"
+collection.to.array.family.name:
+    text: "Aplicar conversión '.toArray()'"
+collection.to.array.text:
+    text: "Aplicar la conversión ''.toArray({0})''"
+convert.to.string.family:
+    text: Corregir literal de carácter
+convert.to.string.text:
+    text: Convertir a literal de cadena
+create.accessor.for.unused.field.family:
+    text: Crear accesor para el campo no utilizado
+create.class.from.new.family:
+    text: "Crear clase a partir de 'new'"
+create.class.from.usage.family:
+    text: Crear clase a partir del uso
+create.class.from.usage.text:
+    text: "Crear {0} ''{1}''"
+create.class.text:
+    text: "Crear clase ''{0}''"
+create.class.title:
+    text: Clase de Objective-C
+create.constant.from.usage.family:
+    text: Crear constante a partir del uso
+create.constructor.from.new.family:
+    text: "Crear constructor a partir de 'new'"
+create.constructor.from.new.text:
+    text: Crear constructor
+create.constructor.from.super.call.family:
+    text: Crear constructor a partir de llamada a super()
+create.constructor.from.this.call.family:
+    text: Crear constructor a partir de una llamada a this()
+create.constructor.matching.super:
+    text: Crear constructor que coincida con super
+create.constructor.text:
+    text: "Crear constructor en ''{0}''"
+create.field.from.usage.family:
+    text: Crear campo a partir del uso
+create.field.text:
+    text: Crear campo {0}
+create.getter:
+    text: Crear getter
+create.getter.and.setter.for.field:
+    text: "Crear getter y setter para ''{0}''"
+create.getter.for.field:
+    text: "Crear getter para ''{0}''"
+create.inner.class.from.usage.text:
+    text: "Crear {0} interna ''{1}''"
+create.interface.text:
+    text: "Crear interfaz ''{0}''"
+create.local.from.instanceof.usage.family:
+    text: Crear variable local a partir del uso de instanceof
+create.local.from.instanceof.usage.text:
+    text: "Insertar declaración ''({0}){1}''"
+create.local.from.usage.family:
+    text: Crear local a partir del uso
+create.method.from.usage.family:
+    text: Crear método a partir del uso
+create.method.from.usage.text:
+    text: "Crear método ''{0}''"
+create.parameter.from.usage.family:
+    text: Crear parámetro a partir del uso
+create.property.from.usage.family:
+    text: Crear propiedad a partir del uso
+create.property.text:
+    text: Crear propiedad {0}
+create.setter:
+    text: Crear setter
+create.setter.for.field:
+    text: "Crear setter para ''{0}''"
+defer.final.assignment.with.temp.family:
+    text: Diferir la asignación final con una variable temporal
+defer.final.assignment.with.temp.text:
+    text: "Diferir la asignación a ''{0}'' mediante una variable temporal"
+delete.body.text:
+    text: Eliminar el cuerpo del método
+delete.catch.family:
+    text: Eliminar catch
+delete.catch.text:
+    text: "Eliminar catch para ''{0}''"
+delete.reference.fix.text:
+    text: Eliminar referencia
+delete.unreachable.statement.fix.text:
+    text: Eliminar sentencia inalcanzable
+enable.optimize.imports.on.the.fly:
+    text: "Habilitar 'Ajustes | Editor | General | Autoimportación | Optimizar importaciones sobre la marcha'"
+exchange.extends.implements.keyword:
+    text: "Cambiar ''{0} {2}'' a ''{1} {2}''"
+extract.side.effects:
+    text: Extraer {0, choice, 1#efecto secundario|2#efectos secundarios}
+extract.side.effects.convert.to.if:
+    text: "Extraer efectos secundarios como una sentencia 'if'"
+extract.side.effects.family.name:
+    text: Eliminar la sentencia que extrae efectos secundarios
+field.to.import.chooser.title:
+    text: Campo a importar
+fix.add.special.annotation.family:
+    text: Añadir a las anotaciones especiales
+fix.add.special.annotation.text:
+    text: "Añadir ''{0}'' a la lista de anotaciones especiales"
+fix.argument.family:
+    text: Corregir argumentos
+fix.javadoc.family:
+    text: Corregir Javadoc
+fix.modifiers.family:
+    text: Corregir modificadores
+fix.parameter.type.family:
+    text: Corregir tipo de parámetro
+fix.parameter.type.text:
+    text: "Hacer que ''{0}'' acepte un parámetro de tipo ''{1}'' aquí"
+fix.return.type.family:
+    text: Corregir tipo de retorno
+fix.return.type.text:
+    text: "Hacer que ''{0}'' devuelva ''{1}''"
+fix.single.character.string.to.char.literal.family:
+    text: Corregir tipo de literal
+fix.single.character.string.to.char.literal.text:
+    text: Cambiar {0} por {1} (a literal {2})
+fix.super.method.return.type.family:
+    text: Corregir tipo de retorno del método de la superclase
+fix.super.method.return.type.text:
+    text: "Hacer que ''{0}'' devuelva ''{1}''"
+fix.throws.list.add.exception:
+    text: "Añadir ''{0}'' a la lista throws de ''{1}''"
+fix.throws.list.family:
+    text: Corregir lista de throws
+fix.throws.list.remove.exception:
+    text: "Eliminar ''{0}'' de la lista throws de ''{1}''"
+fix.unused.symbol.injection.family:
+    text: Añadir a las anotaciones de inyección de dependencias
+fix.unused.symbol.injection.text:
+    text: "Suprimir advertencia de no utilizado si está anotado con ''{0}''"
+fix.variable.type.family:
+    text: Corregir tipo de variable
+fix.variable.type.text:
+    text: "Cambiar el tipo de {0} ''{1}'' a ''{2}''"
+implement.methods.fix:
+    text: Implementar métodos
+import.class.fix:
+    text: Importar clase
+initialize.final.field.in.constructor.choose.dialog.title:
+    text: Seleccionar constructores para añadir inicialización
+initialize.final.field.in.constructor.name:
+    text: Inicializar en el constructor
+insert.new.fix:
+    text: Insertar new
+insert.sam.method.call.fix.family.name:
+    text: Insertar llamada a método abstracto único
+insert.sam.method.call.fix.name:
+    text: "Insertar ''.{0}'' para llamar al método de interfaz funcional"
+insert.super.constructor.call.family:
+    text: Insertar llamada al constructor de la clase base
+java.9.merge.module.statements.fix.family.name:
+    text: "Combinar con otra directiva ''{0}''"
+java.9.merge.module.statements.fix.name:
+    text: "Combinar con otra directiva ''{0} {1}''"
+make.class.an.interface.family:
+    text: Convertir clase en interfaz
+make.class.an.interface.text:
+    text: "Convertir ''{0}'' en una interfaz"
+make.final.copy.to.temp:
+    text: "Copiar ''{0}'' a la variable temporal {1}"
+make.final.family:
+    text: Hacer final
+make.interface.an.class.text:
+    text: "Convertir ''{0}'' en una clase"
+make.vararg.parameter.last.family:
+    text: Poner el parámetro vararg al final
+make.vararg.parameter.last.text:
+    text: "Mover ''{0}'' al final de la lista"
+method.to.import.chooser.title:
+    text: Método para importar
+module.info.add.requires.name:
+    text: "Añadir la directiva ''requires {0}'' a module-info.java"
+move.bound.class.to.front.fix.text:
+    text: "Mover el límite ''{0}'' al principio de la lista de límites del parámetro de tipo ''{1}''"
+move.catch.up.family:
+    text: "Mover 'catch' hacia arriba"
+move.catch.up.text:
+    text: "Mover catch para ''{0}'' antes de ''{1}''"
+move.class.in.extend.list.family:
+    text: Mover clase en la lista de extensión
+move.class.to.package.family:
+    text: Mover al paquete
+move.class.to.package.text:
+    text: "Mover al paquete ''{0}''"
+move.class.to.separate.file.family:
+    text: Mover clase a un archivo separado
+move.class.to.separate.file.text:
+    text: "Mover la clase ''{0}'' a ''{0}.java''"
+move.file.to.source.root.text:
+    text: Mover archivo a una raíz de fuentes
+negation.broader.scope.family:
+    text: Negación de ámbito más amplio
+negation.broader.scope.text:
+    text: "Cambiar a ''!({0})''"
+new.method.body.template.error.text:
+    text: Por favor, corrija la plantilla "Nuevo cuerpo de método"
+new.method.body.template.error.title:
+    text: Error de plantilla de archivo
+optimize.imports.fix:
+    text: Optimizar imports
+orderEntry.fix.add.dependency.on.module:
+    text: "Añadir dependencia del módulo ''{0}''"
+orderEntry.fix.add.dependency.on.module.choose:
+    text: Añadir dependencia al módulo…
+orderEntry.fix.add.library.to.classpath:
+    text: "Añadir la biblioteca ''{0}'' al classpath"
+orderEntry.fix.choose.module.to.add.dependency.on:
+    text: Elegir módulo para añadir dependencia
+orderEntry.fix.circular.dependency.warning:
+    text: "Añadir una dependencia del módulo ''{0}'' introducirá una dependencia circular entre los módulos ''{1}'' y ''{2}''.\n¿Añadir la dependencia de todos modos?"
+orderEntry.fix.family.add.library.to.classpath:
+    text: Añadir biblioteca al classpath
+orderEntry.fix.family.add.module.dependency:
+    text: Agregar dependencia de módulo
+orderEntry.fix.title.circular.dependency.warning:
+    text: Advertencia de dependencia circular
+permute.arguments:
+    text: Permutar argumentos
+remove.class.from.extends.list:
+    text: "Hacer que ''{0}'' no extienda de ''{1}''"
+remove.interface.from.implements.list:
+    text: "Hacer que ''{0}'' no implemente ''{1}''"
+remove.modifier.fix:
+    text: "Hacer que ''{0}'' no sea {1}"
+remove.parameter.from.usage.text:
+    text: "Eliminar el {0,number,ordinal} {1} de {2} ''{3}''"
+remove.qualifier.action.text:
+    text: Eliminar calificador
+remove.qualifier.fix:
+    text: Eliminar calificador
+remove.redundant.arguments.family:
+    text: Eliminar argumentos redundantes
+remove.redundant.arguments.text:
+    text: "Eliminar {1, choice, 1#el argumento redundante|1<los argumentos redundantes} para llamar a ''{0}''"
+remove.suppression.action.family:
+    text: Eliminar supresión
+remove.suppression.action.name:
+    text: "Eliminar supresión ''{0}''"
+rename.wrong.reference.family:
+    text: Renombrar referencia incorrecta
+rename.wrong.reference.text:
+    text: Renombrar referencia
+replace.with.list.access.text:
+    text: Reemplazar con acceso a lista
+reuse.variable.declaration.family:
+    text: Reutilizar variable anterior
+reuse.variable.declaration.text:
+    text: "Reutilizar la variable anterior ''{0}''"
+safe.delete.family:
+    text: Eliminación segura
+safe.delete.text:
+    text: "Eliminación segura de ''{0}''"
+searching.for.usages.progress.title:
+    text: Buscando usos…
+setup.jdk.location.family:
+    text: Configurar ubicación del JDK
+setup.jdk.location.text:
+    text: Configurar JDK
+side.effect.action.cancel:
+    text: '&Cancelar'
+side.effect.action.remove:
+    text: Elimina&r
+side.effect.action.transform:
+    text: '&Transformar'
+side.effects.warning.dialog.title:
+    text: Efectos secundarios encontrados
+simplify.boolean.expression.family:
+    text: Simplificar expresión booleana
+simplify.boolean.expression.text:
+    text: "Simplificar ''{0}'' a {1}"
+static.import.method.choose.method.to.import:
+    text: Seleccionar método para importar
+static.import.method.text:
+    text: Importar método estático
+super.class.constructors.chooser.title:
+    text: Seleccionar constructores de la superclase
+surround.with.try.catch.fix:
+    text: Envolver con try/catch
+target.class.chooser.title:
+    text: Seleccionar clase de destino
+uidesigner.change.bound.field.type:
+    text: Cambiar el tipo de campo vinculado
+uidesigner.change.gui.component.type:
+    text: Cambiar el tipo de componente GUI
+wrap.expression.using.static.accessor.family:
+    text: Envolver expresión
+wrap.expression.using.static.accessor.text:
+    text: "Envolver con ''{0}()''"
+wrap.with.optional.parameter.text:
+    text: "Envolver el {0, choice, 1#1.º|2#2.º|3#3.º|4#{0,number}.º} argumento usando ''java.util.Optional''"
+wrap.with.optional.single.parameter.text:
+    text: "Envolver con 'java.util.Optional'"

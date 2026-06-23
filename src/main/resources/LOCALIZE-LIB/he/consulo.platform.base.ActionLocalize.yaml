@@ -1,0 +1,1666 @@
+action.$Copy.description:
+    text: העתק ללוח גזירים
+action.$Copy.text:
+    text: _העתק
+action.$Cut.description:
+    text: גזור ללוח גזירים
+action.$Cut.text:
+    text: _גזור
+action.$Delete.description:
+    text: מחק נבחר פריט
+action.$Delete.text:
+    text: _מחק
+action.$Paste.description:
+    text: הדבק מלוח גזירים
+action.$Paste.text:
+    text: _הדבק
+action.$SelectAll.description:
+    text: בחר הכל
+action.$SelectAll.text:
+    text: _בחר הכל
+action.About.description:
+    text: הצג information about IDE
+action.AddFrameworkSupport.text:
+    text: הוסף Framework Support…
+action.Annotate.description:
+    text: הצג latest modification date ו author עבור each שורה (also known כ "Blame")
+action.AssociateWithFileType.description:
+    text: Associate נבחר קובץ עם אחד של קובץ types
+action.AssociateWithFileType.text:
+    text: Associate עם קובץ סוג…
+action.AutoIndentLines.description:
+    text: Indent נוכחי שורה או נבחר block according לקוד style הגדרות
+action.AutoIndentLines.text:
+    text: _Auto-Indent שורות
+action.AutoShowProcessWindow.description:
+    text: הצג processes חלון פעיל starting של any progress
+action.AutoShowProcessWindow.text:
+    text: Auto הצג
+action.Back.description:
+    text: בטל האחרון navigation operation
+action.Back.text:
+    text: _אחורה
+action.CallHierarchy.description:
+    text: עיין call hierarchy עבור נבחר מתודה
+action.CallHierarchy.text:
+    text: _Call היררכיה
+action.ChangeCodeStyleScheme.description:
+    text: שנה נוכחי קוד style סכימה
+action.ChangeCodeStyleScheme.text:
+    text: קוד Style סכימה
+action.ChangeColorScheme.description:
+    text: שנה נוכחי עורך color סכימה
+action.ChangeColorScheme.text:
+    text: עורך Color סכימה
+action.ChangeFileEncodingAction.description:
+    text: שנה קובץ encoding
+action.ChangeFileEncodingAction.text:
+    text: קובץ Encoding
+action.ChangeInspectionProfile.description:
+    text: שנה נוכחי עורך בדיקה profile
+action.ChangeInspectionProfile.text:
+    text: שגיאה Highlighting
+action.ChangeKeymap.description:
+    text: שנה נוכחי keymap
+action.ChangeLaf.description:
+    text: שנה נוכחי theme
+action.ChangeSignature.description:
+    text: שנה signature של נבחר מתודה או מחלקה ו correct הכל references
+action.ChangeSignature.text:
+    text: _שנה Signature…
+action.ChangeSplitOrientation.description:
+    text: שינויים orientation של splitter
+action.ChangeSplitOrientation.text:
+    text: _שנה Splitter Orientation
+action.ChangeTemplateDataLanguage.text:
+    text: שנה תבנית נתונים Language
+action.ChangeToThisFileTypeAction.description:
+    text: "Override קובץ סוג ל ''{0}''"
+action.ChangeTypeSignature.description:
+    text: שנה return סוג של מתודה, שדה, פרמטר, variable, או מחלקה סוג arguments ו correct הכל references
+action.ChangeTypeSignature.text:
+    text: _סוג Migration…
+action.ChangesView.AddUnversioned.description:
+    text: Schedule נבחר קבצים ל added לבקרת גרסאות
+action.ChangesView.AddUnversioned.text:
+    text: הוסף לבקרת גרסאות
+action.ChangesView.ApplyPatch.description:
+    text: החל patch ל sources של פרויקט
+action.ChangesView.ApplyPatch.text:
+    text: החל Patch…
+action.ChangesView.ApplyPatchFromClipboard.description:
+    text: החל patch ל sources של פרויקט
+action.ChangesView.ApplyPatchFromClipboard.text:
+    text: החל Patch מלוח גזירים…
+action.ChangesView.Browse.description:
+    text: תצוגה היסטוריה של committed שינויים
+action.ChangesView.Browse.text:
+    text: עיין שינויים…
+action.ChangesView.CreatePatch.description:
+    text: צור patch מנבחר שינויים
+action.ChangesView.CreatePatch.text:
+    text: צור Patch ממקומי שינויים…
+action.ChangesView.CreatePatchFromChanges.description:
+    text: צור patch מנבחר שינויים
+action.ChangesView.CreatePatchFromChanges.text:
+    text: צור Patch…
+action.ChangesView.Edit.description:
+    text: בדוק out נבחר קבצים עבור editing
+action.ChangesView.Edit.text:
+    text: בדוק Out
+action.ChangesView.Move.description:
+    text: העבר נבחר שינויים ל another changelist
+action.ChangesView.Move.text:
+    text: העבר ל Another Changelist…
+action.ChangesView.NewChangeList.description:
+    text: צור חדש changelist
+action.ChangesView.NewChangeList.text:
+    text: חדש Changelist…
+action.ChangesView.Refresh.description:
+    text: רענן בקרת גרסאות שינויים
+action.ChangesView.Refresh.text:
+    text: רענן
+action.ChangesView.RemoveChangeList.description:
+    text: הסר changelist ו העבר הכל שינויים ל another
+action.ChangesView.RemoveChangeList.text:
+    text: מחק Changelist
+action.ChangesView.Rename.description:
+    text: ערוך שם ו description של נבחר changelist
+action.ChangesView.Rename.text:
+    text: ערוך Changelist…
+action.ChangesView.SetDefault.description:
+    text: הגדר changelist where חדש שינויים are placed על-פי ברירת מחדל
+action.ChangesView.SetDefault.text:
+    text: הגדר פעיל Changelist
+action.ChangesView.Shelve.description:
+    text: שמור שינויים ל external patch קובץ ו הסר them מקוד
+action.ChangesView.Shelve.text:
+    text: Shelve שינויים…
+action.CheckForUpdate.description:
+    text: Checks עבור available IDE ו plugin updates
+action.CheckForUpdate.text:
+    text: _בדוק עבור Updates…
+action.ClassNameCompletion.description:
+    text: Same כ pressing shortcut עבור Basic השלמה twice (can used ל complete non-imported מחלקה שם)
+action.ClassNameCompletion.text:
+    text: Second Basic השלמה
+action.CloseActiveTab.description:
+    text: סגור פעיל כלי חלון לשונית
+action.CloseActiveTab.text:
+    text: _סגור פעיל לשונית
+action.CloseAllEditors.description:
+    text: סגור הכל עורכים בפעיל לשונית קבוצה
+action.CloseAllEditors.text:
+    text: _סגור הכל לשוניות
+action.CloseAllEditorsButActive.description:
+    text: סגור הכל פתח עורכים except פעיל אחד
+action.CloseAllEditorsButActive.text:
+    text: _סגור Other לשוניות
+action.CloseAllUnmodifiedEditors.description:
+    text: סגור הכל non-modified עורכים
+action.CloseAllUnmodifiedEditors.text:
+    text: _סגור Unmodified לשוניות
+action.CloseAllUnpinnedEditors.description:
+    text: סגור הכל עורכים that are not pinned
+action.CloseAllUnpinnedEditors.text:
+    text: סגור הכל but Pinned
+action.CloseContent.description:
+    text: סגור currently focused content
+action.CloseContent.text:
+    text: _סגור לשונית
+action.CloseEditor.description:
+    text: סגור פעיל עורך
+action.CloseEditor.text:
+    text: _סגור פעיל עורך
+action.CloseProject.description:
+    text: סגור נוכחי פרויקט
+action.CloseProject.text:
+    text: _סגור פרויקט
+action.CodeCompletion.description:
+    text: Complete קוד
+action.CodeInspection.OnEditor.text:
+    text: _בדוק קוד עם עורך הגדרות
+action.CollapseAll.text:
+    text: כווץ הכל
+action.CollapseAllRegions.description:
+    text: כווץ הכל folding regions (בבחירה)
+action.CollapseAllRegions.text:
+    text: _כווץ הכל
+action.CollapseBlock.description:
+    text: Fold נוכחי קוד block
+action.CollapseBlock.text:
+    text: _Fold קוד Block
+action.CollapseDocComments.description:
+    text: כווץ הכל תיעוד comments
+action.CollapseDocComments.text:
+    text: _כווץ Doc Comments
+action.CollapseRegion.description:
+    text: כווץ folding region בסמן
+action.CollapseRegion.text:
+    text: _כווץ
+action.CollapseSelection.description:
+    text: Fold נבחר block
+action.CollapseSelection.text:
+    text: _Fold בחירה / הסר region
+action.CollapseTreeNode.text:
+    text: כווץ עץ צומת
+action.CommentByBlockComment.description:
+    text: Comment/uncomment קוד עם block comments
+action.CommentByBlockComment.text:
+    text: _Comment עם Block Comment
+action.CommentByLineComment.description:
+    text: Comment/uncomment נוכחי שורה או נבחר block עם שורה comments
+action.CommentByLineComment.text:
+    text: _Comment עם שורה Comment
+action.CommittedChanges.Clear.text:
+    text: נקה
+action.CommittedChanges.Details.description:
+    text: תצוגה complete information about נבחר changelist
+action.CommittedChanges.Details.text:
+    text: הצג Details
+action.CommittedChanges.Filter.description:
+    text: שנה filtering criteria
+action.CommittedChanges.Filter.text:
+    text: מסנן
+action.CommittedChanges.Refresh.description:
+    text: רענן רשימה של committed שינויים
+action.CommittedChanges.Refresh.text:
+    text: רענן
+action.CommittedChanges.Revert.description:
+    text: החל reverse של נבחר שינויים ל working העתק
+action.CommittedChanges.Revert.text:
+    text: שחזר שינויים
+action.Compare.Selected.text:
+    text: _השווה עם Revision…
+action.CompareClipboardWithSelection.description:
+    text: השווה נוכחי בחירה עם לוח גזירים
+action.CompareClipboardWithSelection.text:
+    text: _השווה עם לוח גזירים
+action.CompareFileWithEditor.description:
+    text: השווה נבחר קובץ עם עורך
+action.CompareFileWithEditor.text:
+    text: _השווה קובץ עם עורך
+action.CompareTwoFiles.description:
+    text: השווה שניים נבחר קבצים או תיקיות
+action.CompareTwoFiles.text:
+    text: _השווה קבצים
+action.ConfigureTemplatesAction.text:
+    text: הגדר Live תבניות…
+action.Console.Execute.description:
+    text: בצע נוכחי statement במסוף
+action.Console.Execute.text:
+    text: בצע נוכחי Statement במסוף
+action.Console.History.Browse.description:
+    text: עיין query היסטוריה
+action.Console.History.Browse.text:
+    text: עיין Query היסטוריה
+action.Console.History.Next.description:
+    text: הבא entry במסוף היסטוריה
+action.Console.History.Next.text:
+    text: הבא Entry במסוף היסטוריה
+action.Console.History.Previous.description:
+    text: הקודם entry במסוף היסטוריה
+action.Console.History.Previous.text:
+    text: הקודם Entry במסוף היסטוריה
+action.Console.SplitLine.text:
+    text: פצל שורה
+action.ContextHelp.description:
+    text: הצג עזרה בהקשר
+action.ContextHelp.text:
+    text: _עזרה בהקשר
+action.ConvertIndentsToSpaces.description:
+    text: Convert indentation בקובץ או נבחר block ל use spaces instead של לשוניות
+action.ConvertIndentsToSpaces.text:
+    text: ל Spaces
+action.ConvertIndentsToTabs.description:
+    text: Convert indentation בקובץ או נבחר block ל use לשוניות instead של spaces
+action.ConvertIndentsToTabs.text:
+    text: ללשוניות
+action.CopyAbsolutePath.text:
+    text: Absolute נתיב
+action.CopyContentRootPath.text:
+    text: נתיב מ Content Root
+action.CopyElement.description:
+    text: צור העתק של נבחר מחלקה, קובץ(s) או תיקייה(es)
+action.CopyElement.text:
+    text: _העתק…
+action.CopyFileName.text:
+    text: קובץ שם
+action.CopyPathWithLineNumber.text:
+    text: נתיב עם שורה Number
+action.CopyPaths.description:
+    text: העתק paths תואם לנבחר קבצים או תיקיות ללוח גזירים
+action.CopyPaths.text:
+    text: _העתק נתיבים
+action.CopyReference.description:
+    text: העתק reference לנבחר מחלקה, מתודה, או function, או relative נתיב לנבחר קובץ
+action.CopyReference.text:
+    text: _העתק Reference
+action.CopySourceRootPath.text:
+    text: נתיב ממקור Root
+action.CreateDesktopEntry.description:
+    text: צור desktop entry עבור integration עם system application תפריט
+action.CreateDesktopEntry.text:
+    text: צור Desktop Entry…
+action.CreateLauncherScript.description:
+    text: Making IDE accessible מ command שורה
+action.CreateLauncherScript.text:
+    text: צור Command שורה Launcher…
+action.CreateLibraryFromFile.text:
+    text: הוסף כ Library…
+action.DebugListen.text:
+    text: Throw דיבוג Exception
+action.DelegateMethods.description:
+    text: צור delegate מתודה ל field/getter
+action.DelegateMethods.text:
+    text: _Delegate מתודות…
+action.Diff.AppendLeftSide.text:
+    text: Append שמאל צד
+action.Diff.AppendRightSide.text:
+    text: Append ימין צד
+action.Diff.ApplyLeftSide.text:
+    text: Accept שמאל צד
+action.Diff.ApplyNonConflicts.Left.text:
+    text: החל Non-Conflicting שינויים משמאל צד
+action.Diff.ApplyNonConflicts.Right.text:
+    text: החל Non-Conflicting שינויים מימין צד
+action.Diff.ApplyNonConflicts.text:
+    text: החל הכל Non-Conflicting שינויים
+action.Diff.ApplyRightSide.text:
+    text: Accept ימין צד
+action.Diff.ComparePartial.Base.Left.text:
+    text: שמאל ו Middle
+action.Diff.ComparePartial.Base.Right.text:
+    text: Middle ו ימין
+action.Diff.ComparePartial.Generic:
+    text: '{0,choice,0#שמאל|1#Middle|2#ימין} ו {1,choice,0#שמאל|1#Middle|2#ימין}'
+action.Diff.ComparePartial.Left.Right.text:
+    text: שמאל ו ימין
+action.Diff.CompareWithBase.Left.text:
+    text: Base ו שמאל
+action.Diff.CompareWithBase.Result.text:
+    text: Base ו Middle
+action.Diff.CompareWithBase.Right.text:
+    text: Base ו ימין
+action.Diff.FocusOppositePane.description:
+    text: בחר opposite pane בהבדלים תצוגה
+action.Diff.FocusOppositePane.text:
+    text: בחר Opposite הבדלים Pane
+action.Diff.FocusOppositePaneAndScroll.description:
+    text: בחר same position ב opposite pane בהבדלים תצוגה
+action.Diff.FocusOppositePaneAndScroll.text:
+    text: בחר Position ב Opposite הבדלים Pane
+action.Diff.IgnoreLeftSide.text:
+    text: Ignore שמאל צד
+action.Diff.IgnoreRightSide.text:
+    text: Ignore ימין צד
+action.Diff.NextChange.text:
+    text: השווה הבא קובץ
+action.Diff.NextConflict.description:
+    text: העבר להבא unresolved conflict
+action.Diff.NextConflict.text:
+    text: הבא Conflict
+action.Diff.PrevChange.text:
+    text: השווה הקודם קובץ
+action.Diff.PreviousConflict.description:
+    text: העבר להקודם unresolved conflict
+action.Diff.PreviousConflict.text:
+    text: הקודם Conflict
+action.Diff.ShowDiff.description:
+    text: השווה קבצים או revisions
+action.Diff.ShowDiff.text:
+    text: הצג הבדלים
+action.DumpInspectionDescriptions.text:
+    text: דאמפ בדיקה Descriptions
+action.DumpIntentionsDescriptions.text:
+    text: דאמפ Intentions Descriptions
+action.EditBreakpoint.text:
+    text: ערוך נקודת עצירה
+action.EditMacros.description:
+    text: הגדר existing macros
+action.EditMacros.text:
+    text: _ערוך Macros
+action.EditSource.description:
+    text: פתח עורך עבור נבחר פריט ו give focus ל
+action.EditSource.text:
+    text: _Jump למקור
+action.EditSourceInNewWindow.description:
+    text: פתח עורך עבור נבחר פריט בחדש חלון ו focus פעיל
+action.EditSourceInNewWindow.text:
+    text: פתח לשונית בחדש חלון
+action.EditorConsoleScrollToTheEnd.text:
+    text: גלול לסוף
+action.EmacsStyleIndent.text:
+    text: Emacs לשונית
+action.ExpandAll.text:
+    text: הרחב הכל
+action.ExpandAllRegions.description:
+    text: הרחב הכל folding regions (בבחירה)
+action.ExpandAllRegions.text:
+    text: _הרחב הכל
+action.ExpandDocComments.description:
+    text: הרחב הכל תיעוד comments
+action.ExpandDocComments.text:
+    text: _הרחב Doc Comments
+action.ExpandRegion.description:
+    text: הרחב folding region בסמן
+action.ExpandRegion.text:
+    text: _הרחב
+action.ExpandTreeNode.text:
+    text: הרחב עץ צומת
+action.ExportSettings.description:
+    text: ייצא global הגדרות
+action.ExportSettings.text:
+    text: _ייצא הגדרות…
+action.ExportTestResults.description:
+    text: ייצא בדיקה results לקובץ
+action.ExportTestResults.text:
+    text: ייצא בדיקה Results…
+action.ExportThreads.description:
+    text: שמור הכל threads information לטקסט קובץ או לוח גזירים
+action.ExportThreads.text:
+    text: _ייצא Threads…
+action.ExportToEclipse.description:
+    text: צור Eclipse פרויקטים עבור each מודול
+action.ExportToEclipse.text:
+    text: ייצא ל Eclipse…
+action.ExportToHTML.description:
+    text: שמור קובץ content ב HTML עיצוב עם syntax coloring
+action.ExportToHTML.text:
+    text: _ייצא קבצים או בחירה ל HTML…
+action.ExportToTextFile.text:
+    text: ייצא לטקסט קובץ
+action.ExpressionTypeInfo.description:
+    text: הצג סוג של נבחר expression
+action.ExpressionTypeInfo.text:
+    text: _סוג מידע
+action.ExternalJavaDoc.description:
+    text: פתח browser עם תיעוד עבור נבחר פריט
+action.ExternalJavaDoc.text:
+    text: _External תיעוד
+action.ExtractClass.description:
+    text: חלץ Delegate
+action.ExtractClass.text:
+    text: _חלץ Delegate…
+action.ExtractInclude.description:
+    text: הפעל נבחר קוד fragment אל included קובץ
+action.ExtractInclude.text:
+    text: _Include קובץ…
+action.ExtractInterface.description:
+    text: חלץ interface מנבחר מחלקה
+action.ExtractInterface.text:
+    text: _חלץ Interface…
+action.ExtractMethod.description:
+    text: הפעל נבחר קוד fragment אל מתודה
+action.ExtractMethod.text:
+    text: _חלץ מתודה…
+action.ExtractModule.description:
+    text: חלץ מודול מנבחר מחלקה
+action.ExtractModule.text:
+    text: _חלץ מודול…
+action.ExtractSuperclass.description:
+    text: חלץ superclass מנבחר מחלקה
+action.ExtractSuperclass.text:
+    text: _חלץ Superclass…
+action.FileChooser.Delete.text:
+    text: מחק…
+action.FileChooser.GotoDesktop.description:
+    text: עבור ל Desktop תיקייה
+action.FileChooser.GotoDesktop.text:
+    text: Desktop תיקייה
+action.FileChooser.GotoHome.description:
+    text: עבור ל home תיקייה
+action.FileChooser.GotoHome.text:
+    text: Home תיקייה
+action.FileChooser.GotoModule.description:
+    text: עבור למודול תיקייה
+action.FileChooser.GotoModule.text:
+    text: מודול תיקייה
+action.FileChooser.GotoProject.description:
+    text: עבור לפרויקט תיקייה
+action.FileChooser.GotoProject.text:
+    text: פרויקט תיקייה
+action.FileChooser.NewFile.description:
+    text: צור חדש קובץ
+action.FileChooser.NewFile.text:
+    text: חדש קובץ…
+action.FileChooser.NewFolder.description:
+    text: צור חדש תיקייה
+action.FileChooser.NewFolder.text:
+    text: חדש תיקייה…
+action.FileChooser.Refresh.description:
+    text: רענן קובץ system עץ
+action.FileChooser.Refresh.text:
+    text: רענן
+action.FileChooser.TogglePathShowing.text:
+    text: הצג/הסתר נתיב טקסט
+action.FileStructurePopup.description:
+    text: הצג חלון קופץ עם structure של נוכחי קובץ עבור quick navigation
+action.FileStructurePopup.text:
+    text: _קובץ Structure
+action.Find.description:
+    text: מצא string בפעיל עורך
+action.Find.text:
+    text: _מצא…
+action.FindInPath.description:
+    text: מצא string ב multiple קבצים
+action.FindInPath.text:
+    text: מצא בקבצים…
+action.FindNext.description:
+    text: Repeat האחרון Find/Replace operation או העבר להבא occurrence של נבחר טקסט
+action.FindNext.text:
+    text: _מצא הבא / העבר להבא Occurrence
+action.FindPrevious.description:
+    text: Repeat האחרון Find/Replace operation ב reverse direction, או moving להקודם occurrence של נבחר טקסט
+action.FindPrevious.text:
+    text: _מצא הקודם / העבר להקודם Occurrence
+action.FindUsages.description:
+    text: מצא usages של סמל בסמן
+action.FindUsages.text:
+    text: _מצא שימושים
+action.FindUsagesInFile.description:
+    text: מצא usages של סמל בסמן בפעיל עורך
+action.FindUsagesInFile.text:
+    text: _מצא שימושים בקובץ
+action.FindWordAtCaret.description:
+    text: מצא הבא occurrence של מילה בסמן
+action.FindWordAtCaret.text:
+    text: הבא Occurrence של מילה בסמן
+action.FixDocComment.description:
+    text: צור או fix doc comment עבור נוכחי הקשר
+action.Forward.description:
+    text: בצע שוב האחרון undone navigation operation
+action.Forward.text:
+    text: _קדימה
+action.FullyExpandTreeNode.text:
+    text: Fully הרחב עץ צומת
+action.Generate.description:
+    text: צור constructor, getter או setter מתודה, etc.
+action.Generate.text:
+    text: צור…
+action.GenerateSuperMethodCall.text:
+    text: Super מתודה Call
+action.GoToLinkTarget.description:
+    text: Opens יעד של symlink בפרויקט תצוגה
+action.GoToLinkTarget.text:
+    text: עבור ל Link יעד
+action.GotoAction.description:
+    text: Quickly ניווט לפעולה על-פי שם
+action.GotoAction.text:
+    text: _מצא פעולה…
+action.GotoClass.description:
+    text: Quickly ניווט למחלקה על-פי שם
+action.GotoClass.text:
+    text: עבור למחלקה…
+action.GotoDeclaration.description:
+    text: ניווט ל declaration של סמל בסמן או הצג its usages
+action.GotoDeclaration.text:
+    text: עבור ל Declaration או שימושים
+action.GotoFile.description:
+    text: Quickly ניווט לקובץ על-פי שם
+action.GotoFile.text:
+    text: עבור לקובץ…
+action.GotoImplementation.description:
+    text: ניווט ל implementation(s) של נבחר מחלקה או מתודה
+action.GotoImplementation.text:
+    text: _עבור ל Implementation(s)
+action.GotoLine.description:
+    text: ניווט לשורה (and/or עמודה) בעורך על-פי its number
+action.GotoLine.text:
+    text: עבור לשורה:עמודה…
+action.GotoNextError.description:
+    text: ניווט להבא highlighted שגיאה בפעיל עורך
+action.GotoNextError.text:
+    text: _הבא Highlighted שגיאה
+action.GotoPreviousError.description:
+    text: ניווט ל previously highlighted שגיאה בפעיל עורך
+action.GotoPreviousError.text:
+    text: _הקודם Highlighted שגיאה
+action.GotoRelated.description:
+    text: ניווט לאחד של related או linked symbols
+action.GotoRelated.text:
+    text: _Related סמל…
+action.GotoSuperMethod.description:
+    text: ניווט ל declaration של מתודה that נוכחי מתודה overrides או implements
+action.GotoSuperMethod.text:
+    text: עבור ל Super מתודה
+action.GotoSymbol.description:
+    text: Quickly ניווט ל any סמל על-פי שם
+action.GotoSymbol.text:
+    text: עבור לסמל…
+action.GotoTest.description:
+    text: ניווט לבדיקה של נבחר מחלקה
+action.GotoTest.text:
+    text: עבור לבדיקה
+action.GotoTestSubject.description:
+    text: ניווט ל subject של נבחר בדיקה
+action.GotoTestSubject.text:
+    text: _עבור לבדיקה Subject
+action.GotoTypeDeclaration.description:
+    text: ניווט ל declaration של symbol סוג בסמן
+action.GotoTypeDeclaration.text:
+    text: עבור לסוג Declaration
+action.Graph.Current.Node.Dependencies.Filter.text:
+    text: הצג נבחר צמתים עם תלויות
+action.Graph.print.reset:
+    text: אפס
+action.Help.KeymapReference.description:
+    text: פתח PDF קובץ עם ברירת מחדל keymap reference card
+action.HelpTopics.description:
+    text: הצג עזרה contents
+action.HelpTopics.text:
+    text: _עזרה
+action.HideActiveWindow.description:
+    text: הסתר פעיל כלי חלון
+action.HideActiveWindow.text:
+    text: _הסתר פעיל כלי חלון
+action.HideAllWindows.description:
+    text: הסתר הכל כלי חלונות
+action.HideAllWindows.text:
+    text: _הסתר הכל כלי חלונות
+action.HideSideWindows.description:
+    text: הסתר הכל חלונות פעיל צד
+action.HideSideWindows.text:
+    text: הסתר צד כלי חלונות
+action.HighlightUsagesInFile.description:
+    text: Highlight usages של סמל בסמן בפעיל עורך
+action.HighlightUsagesInFile.not.ready:
+    text: usage חיפוש requires indexes ו cannot performed until they are built
+action.HighlightUsagesInFile.text:
+    text: _Highlight שימושים בקובץ
+action.HippieBackwardCompletion.description:
+    text: Cyclic הרחב מילה (Backward)
+action.HippieBackwardCompletion.text:
+    text: _Cyclic הרחב מילה (Backward)
+action.HippieCompletion.description:
+    text: Cyclic הרחב מילה
+action.HippieCompletion.text:
+    text: _Cyclic הרחב מילה
+action.IdeScriptingConsole.description:
+    text: פתח IDE scripting מסוף
+action.IdeScriptingConsole.text:
+    text: IDE Scripting מסוף
+action.ImplementMethods.description:
+    text: Implement base interface/class מתודות בנוכחי מחלקה
+action.ImplementMethods.text:
+    text: _Implement מתודות…
+action.ImportModule.description:
+    text: ייבא מודול מתיקייה עם existing sources או מ existing פרויקט model
+action.ImportModule.text:
+    text: מודול מ Existing Sources…
+action.ImportModuleFromImlFile.description:
+    text: ייבא iml קובץ כמודול לפרויקט
+action.ImportModuleFromImlFile.text:
+    text: ייבא מודול
+action.ImportProject.description:
+    text: צור פרויקט structure עבור תיקייה עם existing sources או convert existing פרויקט model
+action.ImportSettings.description:
+    text: ייבא global הגדרות
+action.ImportSettings.text:
+    text: ייבא הגדרות…
+action.IncomingChanges.Refresh.description:
+    text: רענן רשימה של incoming שינויים
+action.IncomingChanges.Refresh.text:
+    text: רענן
+action.IncrementalSearch.description:
+    text: התחל incremental חיפוש (searches string כ you סוג), IntelliJ IDEA 6.0 implementation.
+action.IncrementalSearch.text:
+    text: _Incremental חיפוש
+action.Inline.description:
+    text: בשורה נבחר מתודה או variable
+action.Inline.text:
+    text: _בשורה…
+action.InsertLiveTemplate.description:
+    text: הצג חלון קופץ רשימה של live templates starting עם specified prefix
+action.InsertLiveTemplate.text:
+    text: _הוסף Live תבנית…
+action.InspectCode.description:
+    text: בדוק קוד
+action.InspectCode.text:
+    text: _בדוק קוד…
+action.IntroduceConstant.description:
+    text: החלף נבחר expression עם constant
+action.IntroduceField.description:
+    text: Put result של נבחר expression אל שדה
+action.IntroduceField.text:
+    text: _Introduce שדה…
+action.IntroduceParameter.description:
+    text: הפעל נבחר expression אל מתודה פרמטר
+action.IntroduceParameter.text:
+    text: _Introduce פרמטר…
+action.IntroduceParameterObject.description:
+    text: החלף מתודה פרמטרים רשימה עם object
+action.IntroduceParameterObject.text:
+    text: _Introduce פרמטר Object…
+action.IntroduceVariable.description:
+    text: Put result של נבחר expression אל variable
+action.InvalidateCaches.description:
+    text: Force בנה מחדש של הכל caches ו indexes פעיל הבא startup
+action.JumpToLastChange.description:
+    text: העבר through most אחרונים שנה points
+action.JumpToLastChange.text:
+    text: _האחרון ערוך Location
+action.JumpToLastWindow.description:
+    text: Activate האחרון focused כלי חלון
+action.JumpToLastWindow.text:
+    text: _Jump להאחרון כלי חלון
+action.ManageRecentProjects.text:
+    text: Manage פרויקטים…
+action.MemberPushDown.description:
+    text: דחיפה מחלקה members למטה ל directly inheriting subclasses
+action.MemberPushDown.text:
+    text: _דחיפה Members למטה…
+action.MembersPullUp.description:
+    text: משיכה מחלקה members ל superclass או implemented interface
+action.MembersPullUp.text:
+    text: _משיכה Members למעלה…
+action.Merge3Files.text:
+    text: מיזוג
+action.MethodDown.description:
+    text: ניווט להבא מתודה בפעיל עורך
+action.MethodDown.text:
+    text: _הבא מתודה
+action.MethodHierarchy.ImplementMethodAction.description:
+    text: Implement מתודה (ממתודה היררכיה)
+action.MethodHierarchy.ImplementMethodAction.text:
+    text: Implement מתודה
+action.MethodHierarchy.OverrideMethodAction.description:
+    text: Override מתודה (ממתודה היררכיה)
+action.MethodHierarchy.OverrideMethodAction.text:
+    text: Override מתודה
+action.MethodHierarchy.description:
+    text: עיין מתודה hierarchy עבור נבחר מתודה
+action.MethodHierarchy.text:
+    text: _מתודה היררכיה
+action.MethodUp.description:
+    text: ניווט להקודם מתודה בפעיל עורך
+action.MethodUp.text:
+    text: _הקודם מתודה
+action.MinimizeCurrentWindow.description:
+    text: Minimize נוכחי חלון
+action.ModuleSettings.description:
+    text: פתח הגדרות תיבת דו-שיח עבור נבחר מודול
+action.ModuleSettings.text:
+    text: _מודול הגדרות
+action.Move.description:
+    text: העבר נבחר מחלקה, מתודה, חבילה, או static member ל another חבילה או מחלקה ו correct הכל references
+action.Move.text:
+    text: _העבר…
+action.MoveEditorToOppositeTabGroup.description:
+    text: העבר עורך ל opposite לשונית קבוצה
+action.MoveEditorToOppositeTabGroup.text:
+    text: _העבר ל Opposite קבוצה
+action.MoveElementLeft.description:
+    text: העבר נוכחי element(s) להקודם position ב containing רשימה של elements
+action.MoveElementLeft.text:
+    text: העבר Element שמאל
+action.MoveElementRight.description:
+    text: העבר נוכחי element(s) להבא position ב containing רשימה של elements
+action.MoveElementRight.text:
+    text: העבר Element ימין
+action.MoveLineDown.description:
+    text: העבר נבחר שורות אחד שורה למטה
+action.MoveLineDown.text:
+    text: _העבר שורה למטה
+action.MoveLineUp.description:
+    text: העבר נבחר שורות אחד שורה למעלה
+action.MoveLineUp.text:
+    text: _העבר שורה למעלה
+action.MoveStatementDown.description:
+    text: העבר נבחר statements אחד שורה למטה
+action.MoveStatementDown.text:
+    text: _העבר Statement למטה
+action.MoveStatementUp.description:
+    text: העבר נבחר statements אחד שורה למעלה
+action.MoveStatementUp.text:
+    text: _העבר Statement למעלה
+action.NewDirectoryProject.description:
+    text: צור חדש פרויקט
+action.NewDirectoryProject.text:
+    text: חדש פרויקט…
+action.NewElement.description:
+    text: צור חדש מחלקה, interface, קובץ, או תיקייה
+action.NewElement.text:
+    text: _חדש…
+action.NewElementSamePlace.description:
+    text: צור חדש מחלקה, interface, קובץ, או תיקייה בתיקייה
+action.NewElementSamePlace.text:
+    text: _חדש בתיקייה…
+action.NewFile.text:
+    text: קובץ
+action.NewModule.description:
+    text: צור חדש מודול מ scratch ו הוסף לפרויקט
+action.NewModule.text:
+    text: _מודול…
+action.NewModuleInGroup.text:
+    text: מודול
+action.NewProject.description:
+    text: צור חדש פרויקט מ scratch
+action.NewProject.text:
+    text: _פרויקט…
+action.NewScratchBuffer.description:
+    text: Creates חדש או reuses existing scratch buffer
+action.NewScratchBuffer.text:
+    text: חדש Scratch Buffer
+action.NewScratchFile.description:
+    text: צור חדש scratch קובץ עם chosen language
+action.NewScratchFile.text:
+    text: Scratch קובץ
+action.NewScratchFile.text.with.new:
+    text: חדש Scratch קובץ
+action.NextDiff.description:
+    text: העבר להבא difference
+action.NextDiff.text:
+    text: הבא Difference
+action.NextEditorTab.text:
+    text: בחר הבא לשונית ב Multi-Editor קובץ
+action.NextOccurence.description:
+    text: ניווט להבא occurrence
+action.NextOccurence.text:
+    text: _הבא Occurrence
+action.NextParameter.text:
+    text: הבא פרמטר
+action.NextProjectWindow.description:
+    text: החלף להבא פרויקט חלון
+action.NextProjectWindow.text:
+    text: הבא פרויקט חלון
+action.NextSplitter.description:
+    text: עבור להבא splitter חלון
+action.NextSplitter.text:
+    text: _עבור להבא Splitter
+action.NextTab.description:
+    text: Activate הבא לשונית
+action.NextTab.text:
+    text: _בחר הבא לשונית
+action.NextTemplateParameter.text:
+    text: הבא Live תבנית פרמטר
+action.NextTemplateVariable.text:
+    text: הבא תבנית Variable או Finish In-Place ריפקטורינג
+action.OnlineDocAction.description:
+    text: הצג online תיעוד
+action.OpenFile.description:
+    text: פתח פרויקט או קובץ בעורך
+action.OpenFile.text:
+    text: _פתח…
+action.OpenInRightSplit.description:
+    text: פצל עורך אזור אל שניים לשונית groups ו פתח נוכחי קובץ בימין קבוצה
+action.OpenInRightSplit.text:
+    text: פתח בימין פצל
+action.OpenModuleSettings.text:
+    text: מודול הגדרות
+action.OverrideFileTypeAction.description:
+    text: Treat נוכחי קובץ כקובץ של different קובץ סוג
+action.OverrideFileTypeAction.text:
+    text: Override קובץ סוג
+action.OverrideFileTypeAction.verbose.description:
+    text: "Treat קובץ ''{0}''{1,choice,0#|1# (ו {1} more קבצים)} כקובץ של different קובץ סוג"
+action.OverrideMethods.description:
+    text: Override base מחלקה מתודות בנוכחי מחלקה
+action.OverrideMethods.text:
+    text: _Override מתודות…
+action.ParameterInfo.description:
+    text: הצג פרמטרים של מתודה call בסמן
+action.ParameterInfo.text:
+    text: _פרמטר מידע
+action.PasteMultiple.description:
+    text: הדבק מאחרונים clipboards
+action.PasteMultiple.text:
+    text: _הדבק מהיסטוריה…
+action.PinActiveTab.description:
+    text: Pin פעיל עורך או כלי חלון לשונית
+action.PinActiveTab.text:
+    text: _Pin פעיל לשונית
+action.PlaybackLastMacro.description:
+    text: Play אחורה האחרון used macro
+action.PlaybackLastMacro.text:
+    text: _Play אחורה האחרון Macro
+action.PopupHector.description:
+    text: הצג פאנל להגדר highlighting מצב עבור נוכחי קובץ
+action.PopupHector.text:
+    text: הגדר נוכחי קובץ ניתוח…
+action.PrevParameter.text:
+    text: Prev פרמטר
+action.PrevSplitter.description:
+    text: עבור להקודם splitter חלון
+action.PrevSplitter.text:
+    text: עבור להקודם Splitter
+action.PrevTemplateParameter.text:
+    text: הקודם Live תבנית פרמטר
+action.PreviousDiff.description:
+    text: העבר להקודם difference
+action.PreviousDiff.text:
+    text: הקודם Difference
+action.PreviousEditorTab.text:
+    text: בחר הקודם לשונית ב Multi-Editor קובץ
+action.PreviousOccurence.description:
+    text: ניווט להקודם occurrence
+action.PreviousOccurence.text:
+    text: _הקודם Occurrence
+action.PreviousProjectWindow.description:
+    text: החלף להקודם פרויקט חלון
+action.PreviousProjectWindow.text:
+    text: הקודם פרויקט חלון
+action.PreviousTab.description:
+    text: Activate הקודם לשונית
+action.PreviousTab.text:
+    text: _בחר הקודם לשונית
+action.PreviousTemplateVariable.text:
+    text: הקודם תבנית Variable
+action.Print.description:
+    text: הדפס קובץ
+action.Print.text:
+    text: _הדפס…
+action.ProjectViewEditSource.text:
+    text: ערוך מקור
+action.QuickChangeScheme.description:
+    text: שנה נוכחי קוד style סכימה, color\&fonts סכימה, keymap, או Look\&Feel
+action.QuickChangeScheme.text:
+    text: _Quick החלף סכימה…
+action.QuickDocCopy.text:
+    text: העתק Quick Doc
+action.QuickImplementations.description:
+    text: הצג חלון קופץ חלון עם סמל (ו its implementations) content
+action.QuickJavaDoc.description:
+    text: הצג חלון קופץ חלון עם תיעוד עבור סמל בסמן
+action.QuickJavaDoc.text:
+    text: _Quick תיעוד
+action.RearrangeCode.description:
+    text: סדר מחדש קוד
+action.RearrangeCode.text:
+    text: סדר מחדש קוד
+action.RecentChangedFiles.description:
+    text: הצג רשימה של recently changed קבצים
+action.RecentChangedFiles.text:
+    text: Recently Changed קבצים
+action.RecentFiles.description:
+    text: הצג רשימה של recently viewed קבצים
+action.RecentFiles.text:
+    text: _אחרונים קבצים
+action.RecentLocations.description:
+    text: הצג רשימה של recently viewed/changed locations
+action.RecentLocations.text:
+    text: אחרונים Locations
+action.Refactorings.QuickListPopupAction.description:
+    text: Context-aware חלון קופץ עם רשימה של ריפקטורינג פעולות
+action.Refactorings.QuickListPopupAction.text:
+    text: ריפקטור …
+action.ReformatCode.description:
+    text: עצב מחדש קוד
+action.ReformatCode.text:
+    text: _עצב מחדש קוד
+action.Refresh.text:
+    text: _רענן
+action.ReloadProjectAction.text:
+    text: Reload פרויקט
+action.RemoveStripeButton.description:
+    text: הסר כלי חלון button מ sidebar
+action.RemoveStripeButton.text:
+    text: הסר מ Sidebar
+action.RenameElement.description:
+    text: שנה שם נבחר סמל ו correct הכל references
+action.RenameElement.text:
+    text: _שנה שם…
+action.ReopenClosedTab.text:
+    text: פתח מחדש Closed לשונית
+action.Replace.description:
+    text: החלף string בפעיל עורך עם another string
+action.Replace.text:
+    text: _החלף…
+action.ReplaceInPath.description:
+    text: החלף string ב multiple קבצים עם another string
+action.ReplaceInPath.text:
+    text: _החלף בקבצים…
+action.RerunFailedTests.description:
+    text: הרץ בלבד בדיקות that failed/crashed after האחרון הרץ; לחץ Shift לבחר הרצה/דיבוג מצב
+action.RerunFailedTests.text:
+    text: Rerun Failed בדיקות
+action.ResizeToolWindowDown.description:
+    text: Resize פעיל כלי חלון ל bottom
+action.ResizeToolWindowDown.text:
+    text: מתח ל Bottom
+action.ResizeToolWindowLeft.description:
+    text: Resize פעיל כלי חלון לשמאל
+action.ResizeToolWindowLeft.text:
+    text: מתח לשמאל
+action.ResizeToolWindowMaximize.text:
+    text: Maximize כלי חלון
+action.ResizeToolWindowMaximize.text.alternative:
+    text: שחזר כלי חלון גודל
+action.ResizeToolWindowRight.description:
+    text: Resize פעיל כלי חלון לימין
+action.ResizeToolWindowRight.text:
+    text: מתח לימין
+action.ResizeToolWindowUp.description:
+    text: Resize פעיל כלי חלון לעליון
+action.ResizeToolWindowUp.text:
+    text: מתח לעליון
+action.RestoreDefaultLayout.description:
+    text: שחזר currently נבחר פריסה
+action.RestoreDefaultLayout.text:
+    text: _שחזר נוכחי פריסה
+action.RevealIn.name.mac:
+    text: Reveal ב Finder
+action.RevealIn.name.other:
+    text: הצג ב {0}
+action.RevealIn.text:
+    text: הצג בקובץ Manager
+action.ReverteOverrideFileTypeAction.description:
+    text: בטל "Override קובץ סוג" פעולה ו שחזר old קובץ סוג
+action.ReverteOverrideFileTypeAction.text:
+    text: שחזר קובץ סוג Override
+action.ReverteOverrideFileTypeAction.verbose.description:
+    text: "בטל \"Override קובץ סוג\" פעולה ו שחזר old קובץ סוג עבור קובץ ''{0}''{1,choice,0#|1# (ו {1} more קבצים)}"
+action.RunAnything.text:
+    text: הרץ Anything
+action.RunConfiguration.description:
+    text: בחר הרצה/דיבוג תצורה
+action.RunConfiguration.text:
+    text: בחר תצורת הרצה/דיבוג
+action.RunDashboard.ClearContent.text:
+    text: נקה Content
+action.RunDashboard.CopyConfiguration.text:
+    text: העתק תצורה
+action.RunDashboard.Debug.text:
+    text: דיבוג
+action.RunDashboard.EditConfiguration.text:
+    text: ערוך תצורה
+action.RunDashboard.GroupByType.text:
+    text: סוג
+action.RunDashboard.GroupConfigurations.text:
+    text: קבוצה תצורות
+action.RunDashboard.HideConfiguration.text:
+    text: הסתר תצורה
+action.RunDashboard.OpenRunningConfigInNewTab.text:
+    text: פתח Running תצורה בחדש לשונית
+action.RunDashboard.RemoveType.text:
+    text: הסר תצורה סוג מ Services
+action.RunDashboard.RestoreConfiguration.text:
+    text: שחזר תצורה
+action.RunDashboard.RestoreHiddenConfigurations.text:
+    text: שחזר Hidden תצורות
+action.RunDashboard.Run.text:
+    text: הרץ
+action.RunDashboard.Stop.text:
+    text: עצור
+action.RunDashboard.UngroupConfigurations.text:
+    text: Ungroup תצורות
+action.Runner.CloseAllViews.description:
+    text: סגור הכל views
+action.Runner.CloseAllViews.text:
+    text: סגור הכל
+action.Runner.CloseOtherViews.description:
+    text: סגור other views
+action.Runner.CloseOtherViews.text:
+    text: סגור Others
+action.Runner.CloseView.description:
+    text: סגור תצוגה
+action.Runner.CloseView.text:
+    text: סגור
+action.Runner.FocusOnStartup.description:
+    text: Focus תצוגה על-פי ברירת מחדל when UI shown
+action.Runner.FocusOnStartup.text:
+    text: Focus פעיל Startup
+action.Runner.RestoreLayout.description:
+    text: שחזר visual elements של debugger session לברירת מחדל state
+action.Runner.RestoreLayout.text:
+    text: שחזר ברירת מחדל פריסה
+action.SafeDelete.description:
+    text: מחק נבחר מחלקה, מתודה, או שדה, checking עבור usages
+action.SafeDelete.text:
+    text: _Safe מחק…
+action.SaveAll.description:
+    text: שמור הכל קבצים ו הגדרות
+action.SaveAll.text:
+    text: _שמור הכל
+action.SaveAsTemplate.description:
+    text: שמור נבחר טקסט כ live תבנית
+action.SaveAsTemplate.text:
+    text: _שמור כ Live תבנית…
+action.SaveDocument.description:
+    text: שמור בלבד קובץ opened בנוכחי עורך
+action.SaveDocument.text:
+    text: שמור Document
+action.SaveFileAsTemplate.description:
+    text: שמור נוכחי קובץ כתבנית
+action.SaveFileAsTemplate.text:
+    text: _שמור קובץ כתבנית…
+action.ScopeView.EditScopes.description:
+    text: ערוך scopes…
+action.ScopeView.EditScopes.text:
+    text: _ערוך Scopes…
+action.Scratch.ChangeLanguage.description:
+    text: שנה scratch קובץ language
+action.Scratch.ChangeLanguage.text:
+    text: שנה קובץ Language
+action.ScrollTreeToCenter.text:
+    text: גלול ל Center
+action.SearchEverywhere.text:
+    text: חיפוש Everywhere
+action.SelectAllOccurrences.text:
+    text: בחר הכל Occurrences
+action.SelectIn.description:
+    text: בחר נוכחי מחלקה או מתודה ב any תצוגה
+action.SelectIn.text:
+    text: _בחר ב…
+action.SelectNextOccurrence.text:
+    text: הוסף בחירה עבור הבא Occurrence
+action.ServiceView.ConfigureServices.text:
+    text: הגדר Services כלי חלון
+action.ServiceView.GroupByContributor.text:
+    text: קבוצה Services על-פי סוג
+action.ServiceView.JumpToServices.text:
+    text: Jump ל Services
+action.ServiceView.OpenEachInNewTab.text:
+    text: פתח Each בחדש לשונית
+action.ServiceView.OpenInNewTab.text:
+    text: פתח בחדש לשונית
+action.ServiceView.OpenInToolWindow.text:
+    text: פתח ב Separate כלי חלון
+action.ServiceView.SelectActiveService.text:
+    text: Always בחר פעיל Service
+action.ServiceView.ShowServices.text:
+    text: הצג Services עץ
+action.ServiceView.SplitByType.text:
+    text: פתח Each סוג בחדש לשונית
+action.ShelvedChanges.Rename.description:
+    text: שנה שם shelved changelist
+action.ShelvedChanges.Rename.text:
+    text: שנה שם…
+action.ShelvedChanges.Restore.text:
+    text: שחזר Applied Shelved שנה
+action.ShelvedChanges.ShowHideDeleted.description:
+    text: הצג/הסתר already unshelved
+action.ShelvedChanges.ShowHideDeleted.text:
+    text: הצג/הסתר Applied Shelved שינויים
+action.ShowBackwardPackageDeps.description:
+    text: עיין קוד chosen ניתוח פריט used ב
+action.ShowBackwardPackageDeps.text:
+    text: _ניתוח Backward תלויות…
+action.ShowColorPicker.text:
+    text: הצג Color Picker
+action.ShowContent.description:
+    text: הצג חלון קופץ עם רשימה של toolwindow לשוניות
+action.ShowContent.text:
+    text: הצג רשימה של לשוניות
+action.ShowContent.views.text:
+    text: הצג רשימה של Views
+action.ShowErrorDescription.description:
+    text: הצג description של שגיאה או אזהרה בסמן
+action.ShowErrorDescription.text:
+    text: _שגיאה Description
+action.ShowFilePath.description:
+    text: הצג חלון קופץ עם נתיב לנוכחי קובץ עבור opening ב external קובץ manager
+action.ShowFilePath.text:
+    text: _קובץ נתיב
+action.ShowIntentionActions.text:
+    text: הצג הקשר פעולות
+action.ShowLog.description:
+    text: Opens תיקייה עם יומן קובץ
+action.ShowLog.text:
+    text: _הצג יומן בקובץ Manager
+action.ShowModulesDependencies.description:
+    text: הצג dependencies between מודולים בפרויקט
+action.ShowModulesDependencies.text:
+    text: _ניתוח מודול תלויות…
+action.ShowPackageDeps.description:
+    text: עיין קוד chosen ניתוח פריט depends פעיל
+action.ShowPackageDeps.text:
+    text: _ניתוח תלויות…
+action.ShowPopupMenu.text:
+    text: הצג הקשר תפריט
+action.ShowProcessWindow.description:
+    text: הצג/הסתר processes חלון
+action.ShowProcessWindow.text:
+    text: הצג
+action.ShowProjectStructureSettings.description:
+    text: הגדר פרויקט structure
+action.ShowProjectStructureSettings.text:
+    text: פרויקט Structure…
+action.ShowReformatFileDialog.text:
+    text: עצב מחדש קובץ…
+action.ShowSettingsAndFindUsages.description:
+    text: בחר scope ו ערוך אפשרויות עבור מצא שימושים פעולה
+action.ShowSettingsAndFindUsages.text:
+    text: מצא שימושים הגדרות…
+action.ShowTips.description:
+    text: Learn how ל increase your coding productivity.
+action.ShowTips.text:
+    text: _Tip של Day
+action.ShowUsages.description:
+    text: הצג usages של סמל בסמן
+action.ShowUsages.text:
+    text: _הצג שימושים
+action.SmartTypeCompletion.description:
+    text: Complete קוד based פעיל expected סוג
+action.SplitHorizontally.description:
+    text: פצל עורך אזור אל שניים לשונית groups ו העבר נוכחי לשונית ל bottom קבוצה
+action.SplitHorizontally.text:
+    text: פצל למטה
+action.SplitVertically.description:
+    text: פצל עורך אזור אל שניים לשונית groups ו העבר נוכחי לשונית לימין קבוצה
+action.SplitVertically.text:
+    text: פצל ימין
+action.StartStopMacroRecording.description:
+    text: Start/Stop recording של חדש macro
+action.Stop.description:
+    text: עצור process
+action.Stop.text:
+    text: עצור
+action.StopBackgroundProcesses.description:
+    text: עצור Background processes
+action.StopBackgroundProcesses.text:
+    text: עצור Background Processes…
+action.StoreDefaultLayout.description:
+    text: שמור שינויים ב currently נבחר פריסה
+action.StoreDefaultLayout.text:
+    text: _שמור שינויים בנוכחי פריסה
+action.SurroundWith.description:
+    text: Surround נבחר קוד fragment עם if, while, try/catch או other construct
+action.SurroundWith.text:
+    text: _Surround עם…
+action.SurroundWithLiveTemplate.description:
+    text: Surrounds בחירה עם אחד של templates
+action.SurroundWithLiveTemplate.text:
+    text: _Surround עם Live תבנית…
+action.Synchronize.description:
+    text: Detect הכל externally changed קבצים ו reload them מ disk
+action.Synchronize.text:
+    text: Reload הכל מ Disk
+action.SynchronizeCurrentFile.text:
+    text: Reload מ Disk
+action.TabList.description:
+    text: "הצג dropdown עם רשימה של לשוניות that don't fit פעיל screen ב single-row לשונית פריסה"
+action.TabList.text:
+    text: הצג Hidden לשוניות
+action.TechnicalSupport.description:
+    text: Contact technical support פעיל JetBrains website
+action.TextComponent.ClearAction.description:
+    text: נקה טקסט בטקסט components
+action.TextComponent.ClearAction.text:
+    text: נקה טקסט
+action.ToggleBreakpointEnabled.description:
+    text: Enable/disable נקודת עצירה בנוכחי שורה
+action.ToggleBreakpointEnabled.text:
+    text: _הפעל/כבה נקודת עצירה Enabled
+action.ToggleContentUiTypeMode.description:
+    text: הפעל/כבה between tabbed/combo presentation של contents
+action.ToggleContentUiTypeMode.text:
+    text: קבוצה לשוניות
+action.ToggleDockMode.description:
+    text: Dock/undock פעיל כלי חלון
+action.ToggleDockMode.text:
+    text: _Docked מצב
+action.ToggleFloatingMode.description:
+    text: Float/unfloat פעיל כלי חלון
+action.ToggleFloatingMode.text:
+    text: _Floating מצב
+action.ToggleFullScreen.description:
+    text: הפעל/כבה Full Screen מצב
+action.ToggleFullScreen.text:
+    text: הפעל/כבה Full Screen מצב
+action.TogglePinnedMode.description:
+    text: Pin/unpin פעיל כלי חלון
+action.TogglePinnedMode.text:
+    text: _Pinned מצב
+action.TogglePopupHints.text:
+    text: הפעל/כבה חלון קופץ Hints עבור נוכחי קובץ
+action.TogglePowerSave.description:
+    text: Power שמור מצב disables background קוד ניתוח ו other background operations
+action.TogglePowerSave.text:
+    text: Power שמור מצב
+action.TogglePresentationMode.description:
+    text: הפעל/כבה Presentation מצב
+action.TogglePresentationMode.text:
+    text: הפעל/כבה Presentation מצב
+action.TogglePresentationMode.text.enter:
+    text: Enter Presentation מצב
+action.TogglePresentationMode.text.exit:
+    text: Exit Presentation מצב
+action.ToggleReadOnlyAttribute.description:
+    text: הפעל/כבה read-only מאפיין של נוכחי קובץ
+action.ToggleReadOnlyAttribute.files:
+    text: הפוך {2,choice,1#קובץ|2#קבצים} {0,choice,0#read-only|1#ניתן לכתיבה}
+action.ToggleReadOnlyAttribute.text:
+    text: הפעל/כבה קריאה בלבד מאפיין
+action.ToggleSideMode.description:
+    text: כלי חלונות פצל מצב on/off
+action.ToggleSideMode.text:
+    text: פצל מצב
+action.ToggleWindowedMode.description:
+    text: Window/unwindow פעיל כלי חלון
+action.ToggleWindowedMode.text:
+    text: _Windowed מצב
+action.TypeHierarchy.Class.text:
+    text: מחלקה היררכיה
+action.TypeHierarchy.Subtypes.text:
+    text: Subtypes היררכיה
+action.TypeHierarchy.Supertypes.text:
+    text: Supertypes היררכיה
+action.TypeHierarchy.description:
+    text: עיין hierarchy עבור נבחר מחלקה
+action.TypeHierarchy.text:
+    text: _סוג היררכיה
+action.Unsplit.description:
+    text: Unsplit חלון
+action.UnsplitAll.description:
+    text: הסר הכל splitters
+action.UnsplitAll.text:
+    text: _Unsplit הכל
+action.Unwrap.description:
+    text: Safely unwraps או removes נבחר scope
+action.UpdateRunningApplication.text:
+    text: עדכן Running Application
+action.UsageView.Exclude.description:
+    text: Exclude usage(s) מ processing
+action.UsageView.Include.description:
+    text: Include usage(s) אל processing
+action.UsageView.Rerun.description:
+    text: Rerun חיפוש
+action.UsageView.ShowRecentFindUsages.description:
+    text: בחר ו re-run אחרונים מצא usages
+action.UsageView.ShowRecentFindUsages.text:
+    text: _אחרונים מצא שימושים
+action.Vcs.Push.text:
+    text: דחיפה…
+action.Vcs.RollbackChangedLines.description:
+    text: Rollback שינויים בנבחר שורות
+action.Vcs.RollbackChangedLines.text:
+    text: Rollback שורות
+action.Vcs.ShowHistoryForBlock.description:
+    text: הצג היסטוריה עבור עורך בחירה
+action.Vcs.ShowHistoryForBlock.text:
+    text: _הצג היסטוריה עבור בחירה…
+action.Vcs.UpdateProject.text:
+    text: _עדכן פרויקט
+action.VcsHistory.ShowAllAffected.description:
+    text: הצג הכל שינויים made ב chosen revision
+action.VcsHistory.ShowAllAffected.text:
+    text: הצג הכל Affected קבצים
+action.ViewImportPopups.description:
+    text: הפעל/כבה display של ייבא popups בנוכחי קובץ
+action.ViewImportPopups.text:
+    text: הצג ייבא Popups
+action.ViewNavigationBar.description:
+    text: הצג/הסתר navigation סרגל
+action.ViewNavigationBar.text:
+    text: _Navigation סרגל
+action.ViewOfflineInspection.description:
+    text: Load offline בדיקה results
+action.ViewOfflineInspection.text:
+    text: _תצוגה Offline בדיקה Results…
+action.ViewSource.description:
+    text: פתח עורך עבור נבחר פריט
+action.ViewSource.text:
+    text: _הצג מקור
+action.ViewStatusBar.description:
+    text: הצג/הסתר status סרגל
+action.ViewStatusBar.text:
+    text: _Status סרגל
+action.ViewToolBar.description:
+    text: הצג/הסתר ראשי סרגל כלים
+action.ViewToolBar.text:
+    text: _סרגל כלים
+action.ViewToolButtons.description:
+    text: הצג/הסתר כלי חלון buttons
+action.ViewToolButtons.text:
+    text: כלי חלון Bars
+action.VirtualFileInfo.text:
+    text: Virtual קובץ מידע
+action.WelcomeScreen.Configure.Export.text:
+    text: ייצא הגדרות
+action.WelcomeScreen.Configure.Import.text:
+    text: ייבא הגדרות…
+action.WelcomeScreen.CreateDirectoryProject.description:
+    text: צור חדש פרויקט.
+action.WelcomeScreen.CreateDirectoryProject.text:
+    text: חדש פרויקט
+action.WelcomeScreen.CreateNewProject.description:
+    text: התחל "חדש פרויקט" Wizard that will guide you through steps necessary עבור creating חדש פרויקט.
+action.WelcomeScreen.CreateNewProject.text:
+    text: חדש פרויקט
+action.WelcomeScreen.OpenDirectoryProject.description:
+    text: התחל editing קוד ב specified קובץ או תיקייה.
+action.WelcomeScreen.OpenDirectoryProject.text:
+    text: פתח
+action.WelcomeScreen.OpenProject.description:
+    text: פתח קובץ או פרויקט. You can also פתח פרויקט או ערוך קובץ על-פי drag ו drop onto Welcome screen.
+action.WelcomeScreen.OpenProject.text:
+    text: פתח או ייבא
+action.WelcomeScreen.Plugins.description:
+    text: Manage installed plugins ו הורד חדש ones מ repository
+action.WhatsNewAction.description:
+    text: מצא out about חדש features בגרסה של IDE
+action.WhatsNewAction.text:
+    text: _What חדש
+action.editRunConfigurations.description:
+    text: "פתח 'ערוך הרצה/דיבוג configurations' תיבת דו-שיח"
+action.editRunConfigurations.text:
+    text: _ערוך תצורות…
+action.openAssertEqualsDiff.text:
+    text: תצוגה assertEquals Difference
+action.redo.description:
+    text: בצע שוב {0}
+action.redo.description.empty:
+    text: האחרון undone operation
+action.redo.text:
+    text: _בצע שוב {0}
+action.undo.description:
+    text: בטל {0}
+action.undo.description.empty:
+    text: האחרון operation
+action.undo.text:
+    text: _בטל {0}
+group.$LRU.description:
+    text: רשימה של recently opened פרויקטים
+group.$LRU.text:
+    text: _אחרונים פרויקטים
+group.ActiveToolwindowGroup.text:
+    text: פעיל כלי חלון
+group.AnalyzeJavaMenu.description:
+    text: ניתוח Java תפריט
+group.AnalyzeJavaMenu.text:
+    text: ניתוח Java תפריט
+group.AnalyzeMenu.text:
+    text: _ניתוח
+group.Bookmarks.text:
+    text: סימניות
+group.ChangeLineSeparators.text:
+    text: שורה Separators
+group.CloseEditorsGroup.text:
+    text: עורך סגור פעולות
+group.CodeCompletionGroup.text:
+    text: _קוד השלמה
+group.CodeEditorBaseGroup.text:
+    text: קוד עורך תצוגה פעולות
+group.CodeEditorViewGroup.text:
+    text: קוד תצוגה פעולות
+group.CodeFormatGroup.text:
+    text: קוד Formatting פעולות
+group.CodeMenu.text:
+    text: _קוד
+group.CommentGroup.text:
+    text: Comment פעולות
+group.Copy.Paste.Special.description:
+    text: העתק / הדבק special עורך פעולות
+group.Copy.Paste.Special.text:
+    text: העתק / הדבק Special
+group.CopyReferencePopupGroup.text:
+    text: העתק Path/Reference…
+group.CutCopyPasteGroup.text:
+    text: Cut/Copy/Paste פעולות
+group.DebugMainMenu.text:
+    text: Debugger פעולות
+group.EditBookmarksGroup.text:
+    text: _סימניות
+group.EditCreateDeleteGroup.text:
+    text: עורך Create/Delete פעולות
+group.EditMenu.text:
+    text: _ערוך
+group.EditSelectGroup.text:
+    text: עורך בחר פעולות
+group.EditSelectWordGroup.text:
+    text: בחר מילה פעולות
+group.EditSmartGroup.text:
+    text: ערוך קוד פעולות
+group.EditorActions.text:
+    text: עורך פעולות
+group.EditorBidiTextDirection.description:
+    text: Primary direction עבור mixed LTR/RTL טקסט
+group.EditorBidiTextDirection.text:
+    text: Bidi טקסט Base Direction
+group.EditorGutterPopupMenu.text:
+    text: עורך Gutter חלון קופץ תפריט
+group.EditorLangPopupMenu.text:
+    text: עורך חלון קופץ תפריט פעולות (2)
+group.EditorPopupMenu.GoTo.description:
+    text: עבור לעורך חלון קופץ תפריט קבוצה
+group.EditorPopupMenu.GoTo.text:
+    text: עבור ל
+group.EditorPopupMenu.Run.text:
+    text: Compile/Run פעולות
+group.EditorPopupMenu.description:
+    text: עורך חלון קופץ תפריט
+group.EditorPopupMenu.text:
+    text: עורך חלון קופץ תפריט
+group.EditorPopupMenu1.text:
+    text: עורך חלון קופץ תפריט פעולות (1)
+group.EditorPopupMenuDebug.text:
+    text: דיבוג פעולות
+group.EditorTabPopupMenu.text:
+    text: עורך לשונית חלון קופץ תפריט
+group.EditorTabPopupMenuEx.text:
+    text: עורך לשונית חלון קופץ תפריט פעולות (1)
+group.EditorTabsGroup.text:
+    text: _עורך לשוניות
+group.EditorToggleActions.text:
+    text: פעיל עורך
+group.ExportImportGroup.text:
+    text: Manage IDE הגדרות
+group.ExternalToolsGroup.text:
+    text: External כלים
+group.FileMainSettingsGroup.text:
+    text: הגדרות פעולות
+group.FileMenu.text:
+    text: _קובץ
+group.FileOpenGroup.text:
+    text: קובץ פתח פעולות
+group.FileOtherSettingsGroup.text:
+    text: חדש פרויקטים Setup
+group.FilePropertiesGroup.text:
+    text: קובץ Properties
+group.FindMenuGroup.text:
+    text: _מצא
+group.GenerateGroup.text:
+    text: _צור
+group.GoToCodeGroup.text:
+    text: Goto על-פי Reference פעולות
+group.GoToErrorGroup.text:
+    text: Goto Error/Bookmark פעולות
+group.GoToMenu.text:
+    text: _ניווט
+group.GoToTargetEx.text:
+    text: Goto על-פי שם פעולות
+group.HelpMenu.text:
+    text: _עזרה
+group.HierarchyGroup.text:
+    text: היררכיה פעולות
+group.Macros.description:
+    text: תצוגה, שנה, record, play macros
+group.MacrosGroup.text:
+    text: Macro פעולות
+group.MainMenu.text:
+    text: ראשי תפריט
+group.MainToolBar.text:
+    text: ראשי סרגל כלים
+group.MarkFileAs.text:
+    text: Mark קובץ כ
+group.MarkRootGroup.text:
+    text: Mark תיקייה כ
+group.MoveModuleToGroup.description:
+    text: _העבר מודול
+group.MoveModuleToGroup.text:
+    text: העבר מודול לקבוצה
+group.NavbarPopupMenu.text:
+    text: Navigation סרגל
+group.NewGroup.text:
+    text: _חדש
+group.NewGroup1.text:
+    text: חדש קבוצה (1)
+group.OpenProjectGroup.text:
+    text: פתח פרויקט פעולות
+group.OpenProjectWindows.text:
+    text: פתח פרויקט חלונות
+group.OverrideFileTypeAction.fromNamedPlugin:
+    text: "מ ''{0}'' plugin"
+group.OverrideFileTypeAction.title:
+    text: בחר קובץ סוג
+group.PairFileActions.text:
+    text: פעולות פעיל Pairs של קבצים
+group.PasteGroup.text:
+    text: הדבק
+group.PrintExportGroup.text:
+    text: Print/Export פעולות
+group.ProjectViewAnalysisGroup.text:
+    text: ניתוח פעולות
+group.ProjectViewCompileGroup.text:
+    text: Compile/Debug פעולות
+group.ProjectViewPopupMenu.text:
+    text: פרויקט תצוגה חלון קופץ תפריט
+group.ProjectViewPopupMenuModifyGroup.text:
+    text: פרויקט תצוגה חלון קופץ תפריט Modify קבוצה
+group.ProjectViewPopupMenuRefactoringGroup.text:
+    text: פרויקט תצוגה חלון קופץ ריפקטורינג קבוצה
+group.ProjectViewPopupMenuRunGroup.text:
+    text: פרויקט תצוגה חלון קופץ תפריט הרץ קבוצה
+group.ProjectViewPopupMenuSettingsGroup.text:
+    text: פרויקט תצוגה חלון קופץ תפריט הגדרות קבוצה
+group.RefactoringMenu.text:
+    text: _ריפקטור
+group.RefactoringMenu1.text:
+    text: ריפקטורינג פעולות (1)
+group.RefactoringMenu2.text:
+    text: ריפקטורינג פעולות (2)
+group.RevealGroup.text:
+    text: פתח ב
+group.RunContextPopupGroup.text:
+    text: הרץ תצורות
+group.RunMenu.text:
+    text: _הרץ
+group.Runner.Layout.description:
+    text: פריסה תצורה
+group.Runner.Layout.text:
+    text: פריסה
+group.RunnerActions.text:
+    text: הרצה/דיבוג
+group.RunnerActionsTouchbar.text:
+    text: Touchbar הרצה/דיבוג פעולות
+group.ServiceView.AddService.text:
+    text: הוסף Service
+group.ServiceView.OpenInNewTabGroup.text:
+    text: פתח בחדש לשונית
+group.ShowAnnotateOperationsPopupGroup.text:
+    text: Annotated שורה
+group.ShowRecentFindUsagesGroup.description:
+    text: בחר ו re-run אחרונים מצא usages
+group.ShowRecentFindUsagesGroup.text:
+    text: אחרונים מצא שימושים
+group.StandardMacroActions.text:
+    text: Standard Macro פעולות
+group.TodoViewGroupByGroup.text:
+    text: קבוצה על-פי
+group.ToggleBreakpointAction.text:
+    text: נקודת עצירה פעולות
+group.ToolWindowsGroup.text:
+    text: _כלי חלונות
+group.ToolbarFindGroup.text:
+    text: סרגל כלים מצא פעולות
+group.ToolbarMakeGroup.text:
+    text: סרגל כלים הפוך פעולות
+group.ToolbarRunGroup.text:
+    text: סרגל כלים הרץ פעולות
+group.ToolsBasicGroup.text:
+    text: כלים Basic קבוצה
+group.ToolsMenu.text:
+    text: _כלים
+group.ToolsXmlGroup.text:
+    text: XML פעולות
+group.TouchBarDebug.ForceStepButtons.text:
+    text: Debugger ForceStep פעולות
+group.TouchBarDebug.StepButtons.text:
+    text: Debugger צעד פעולות
+group.TouchBarDebug_alt.text:
+    text: Debugger עם Alt Key
+group.TouchBarDefault.text:
+    text: ברירת מחדל
+group.TouchBarDefaultOptionalGroup.text:
+    text: Optional פעולות
+group.TouchBarDefault_alt.text:
+    text: ברירת מחדל עם Alt Key
+group.TouchBarDefault_cmd.alt.text:
+    text: ברירת מחדל עם Alt+Cmd Key
+group.TouchBarDefault_cmd.text:
+    text: ברירת מחדל עם Cmd Key
+group.TouchBarDefault_ctrl.text:
+    text: ברירת מחדל עם Ctrl Key
+group.TouchBarDefault_shift.text:
+    text: ברירת מחדל עם Shift Key
+group.ViewMenu.text:
+    text: _תצוגה
+group.ViewRecentActions.text:
+    text: תצוגה אחרונים פעולות קבוצה
+group.ViewStatusBarWidgetsGroup.description:
+    text: הצג/הסתר status סרגל widgets
+group.ViewStatusBarWidgetsGroup.text:
+    text: _Status סרגל Widgets
+group.WeighingNewGroup.text:
+    text: _חדש
+group.WindowMenu.text:
+    text: _חלון
+group.XmlGenerateToolsGroup.text:
+    text: XML צור פעולות
+group.reopen.mac.text:
+    text: _פתח אחרונים
+group.reopen.win.text:
+    text: _פתח מחדש פרויקט
+show.log.in.action.text:
+    text: הצג יומן ב {0}

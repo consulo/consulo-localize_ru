@@ -1,0 +1,84 @@
+duplicate.anonymize.uncommon.outside.scope.checkbox:
+    text: 只有該範圍之外可見
+duplicate.dialog.title:
+    text: 重複代碼分析設定
+duplicate.location.invalid:
+    text: 無效
+duplicate.location.multiple.lines:
+    text: 行{0}到{1}的{2}
+duplicate.location.single.line:
+    text: 行{0} {1}
+duplicates.export.html.page.title:
+    text: '{0} 定位重複結果'
+duplicates.indexing.progress:
+    text: 大廈的搜索索引
+duplicates.multiple.files.group.node:
+    text: '{0}重複，費用：{1}的{2}檔案'
+duplicates.partially.valid.group.node:
+    text: '{0}重複'
+duplicates.searching.progress:
+    text: '尋找重複:'
+duplicates.send.to.left.action:
+    text: 傳送到左
+duplicates.send.to.left.action.description:
+    text: 顯示所選項目為左差異版本
+duplicates.send.to.right.action:
+    text: 傳送到右
+duplicates.send.to.right.action.description:
+    text: 顯示所選項目的右鍵差異版本
+duplicates.single.file.group.node:
+    text: '{0}重複，費用：{1}的{2}'
+duplicates.unknown.file.node.title:
+    text: 未知
+duplication.anonymize.fields.checkbox:
+    text: 匿名場(&F)
+duplication.anonymize.functions.checkbox:
+    text: 匿名函數(&F)
+duplication.anonymize.literals.checkbox:
+    text: 匿名化字面(&L)
+duplication.anonymize.local.variables.checkbox:
+    text: 匿名局部變數(&V)
+duplication.anonymize.methods.checkbox:
+    text: 匿名方法(&M)
+duplication.anonymize.types.checkbox:
+    text: 匿名類型(&T)
+duplication.anonymize.uncommon.label:
+    text: 匿名比簡單少見的子運算式
+duplication.anonymize.variables.checkbox:
+    text: 匿名變數(&V)
+duplication.minimum.cost.label:
+    text: 不顯示簡單重複
+duplication.none.found.message:
+    text: 沒有發現重複代碼。
+duplication.none.found.title:
+    text: 搜尋重複項
+duplication.progress:
+    text: 重複代碼分析
+duplication.scope.name.prefix:
+    text: 分析
+duplication.title:
+    text: 重複代碼分析
+duplication.unavailable.without.indices:
+    text: 在索引就緒之前，分析重複項不可用
+eliminate.duplicates.action.text:
+    text: 消除重複
+headless.duplocator.application.starting.up:
+    text: 啟動 {0} ...
+headless.duplocator.command.line.usage:
+    text: "用法:\nduplocate <project_path:path> <include_test_sources:bool> <output_path:path>\n\t[<lower_bound:int:10> [<discard_cost:int:0> <visibility:bool:true>\n\t<distinguish_variables:bool:false> <distinguish_fields:bool:false>\n\t<distinguish_methods:bool:true> <distinguish_types:bool:true>\n\t<distinguish_literals:bool:true>]]\n\n以上參數的給定格式: <name:type:default>"
+headless.duplocator.error.not.a.number:
+    text: '非數字: {0}'
+headless.duplocator.error.unable.open.project:
+    text: 無法開啟專案
+headless.duplocator.opening.project.message:
+    text: 開啟項目...
+label.locate.duplicates.action.deprecated:
+    text: “定位重複項”操作已棄用。
+link.label.duplicated.code.fragment:
+    text: 重複的程式碼段
+link.label.use.duplicate.coded.fragment.inspection:
+    text: 使用“{0}”檢查。
+offline.duplicates.no.modules.message:
+    text: 該項目不包含模組。重複無法繼續
+tooltip.tree.text:
+    text: 點擊箭頭以顯示所選項目作為左/右版本差異

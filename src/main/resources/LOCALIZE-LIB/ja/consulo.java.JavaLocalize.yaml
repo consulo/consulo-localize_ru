@@ -1,0 +1,30 @@
+checkbox.collapse.anonymous.classes:
+    text: <html>匿名クラス</html>
+checkbox.collapse.file.header:
+    text: ファイル ヘッダー
+checkbox.collapse.inner.classes:
+    text: 内部クラス
+checkbox.collapse.one.line.methods:
+    text: <html>1行の方法<html>
+checkbox.collapse.simple.property.accessors:
+    text: <html>単一プロパティ アクセッサ<html>
+class.file.decompiled.text:
+    text: コンパイルされた.classファイル
+class.file.open.source.action:
+    text: オープンソースファイル
+dependencies.tree.node.default.package.abbreviation:
+    text: <デフォルト パッケージ>
+error.package.already.contains.package.html:
+    text: "パッケージ '' {0} ''はすでに '' package.html ''ファイルを持っています。"
+error.package.html.found.title:
+    text: 「package.html」が見つかりました
+inspection.default.annotation.param:
+    text: デフォルトの注釈パラメータ値
+label.method:
+    text: メソッド {0}
+options.java.attribute.descriptor.instance.final.field:
+    text: クラスフィールド//インスタンス最終フィールド
+options.java.attribute.descriptor.lambda.parameter:
+    text: パラメータ// Lambdaパラメータ
+project.roots.native.library.node.text:
+    text: ネイティブライブラリの場所

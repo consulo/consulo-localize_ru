@@ -1,0 +1,188 @@
+action.ShowSettings.show.find.usages.settings.dialog.description:
+    text: Паказаць дыялог налад пошуку выкарыстанняў
+action.ShowSettings.show.settings.for.description:
+    text: Паказаць налады для {0}
+action.close:
+    text: Зачыніць [_C]
+action.description.rerun:
+    text: Паўтарыць пошук
+action.group.by.file.structure:
+    text: По структуре файлов
+action.group.by.module:
+    text: По модулям
+action.group.by.package:
+    text: Пакет
+action.group.by.title:
+    text: Групаваць па
+action.group.by.usage.type:
+    text: Па тыпу выкарыстання
+action.merge.same.line:
+    text: "Аб'ядноўваць выкарыстанні ў адным радку"
+action.next.occurrence:
+    text: Наступнае ўваходжанне
+action.previous.occurrence:
+    text: Папярэдняе ўваходжанне
+action.rerun:
+    text: Перазапусціць
+action.text.usage.view.settings:
+    text: Налады…
+all.usages.are.in.this.line:
+    text: Усе {0} выкарыстанні ў {1} знаходзяцца ў гэтым радку
+button.text.abort:
+    text: Прервать
+button.text.continue:
+    text: Працягнуць
+changes.detected.error.title:
+    text: Выяўлены змены
+default.package.presentable.name:
+    text: <па змаўчанні>
+dialog.rerun.search:
+    text: Паўтарыць пошук зараз?
+files.are.too.large.large.and.cannot.be.scanned:
+    text: '{0,choice, 1#Файл|2#Файлы} {1} занадта {0,choice, 1#вялікі|2#вялікія} і не могуць быць прасканіраваны'
+find.excessive.usage.count.prompt:
+    text: Знойдзена занадта шмат вынікаў. Працягнуць?
+find.excessive.usages.title:
+    text: Занадта шмат вынікаў
+find.file.size.megabytes:
+    text: '{0} МБ'
+large.files.were.ignored:
+    text: '{0, choice, 0#няма|1#1 вялікі файл прапушчаны|2#{0,number} вялікіх файлаў прапушчана}'
+link.display.name.find.options:
+    text: Параметры пошуку…
+link.display.name.search.in.project:
+    text: Пошук у праекце
+message.include.them:
+    text: Уключыць іх
+message.occurrences.in.project.configuration.files.are.skipped:
+    text: Уваходжанні ў файлах канфігурацыі праекта прапушчаны.
+message.only.one.usage.found:
+    text: Знойдзена толькі адно выкарыстанне.
+message.part.large.number.of.unloaded.modules:
+    text: '{0} незагружаных модуляў: {1} і {2} іншых незагружаных модуляў'
+message.part.number.of.unloaded.modules:
+    text: '{0} невыгруженных модулей'
+message.part.small.number.of.unloaded.modules:
+    text: '{0} невыгруженных модулей: {1}'
+message.part.unloaded.module.0:
+    text: "Невыгруженный модуль ''{0}''"
+message.usage.search.was.canceled:
+    text: Пошук выкарыстанняў адменены
+no.usages.found.in:
+    text: Выкарыстанні не знойдзены ў {0}
+node.found.usages:
+    text: Выкарыстанні
+node.group.code.usages:
+    text: Выкарыстанні ў кодзе
+node.group.module:
+    text: 'Модуль: {0}'
+node.invalid:
+    text: несапраўдны
+node.non.code.usages:
+    text: Выкарыстанні па-за кодам
+node.readonly:
+    text: толькі для чытання
+node.targets:
+    text: Мэты
+notification.title.find.usages.finished:
+    text: Пошук выкарыстанняў завершаны
+notification.usage.search.is.not.available.until.indices.are.ready:
+    text: Пошук выкарыстанняў недаступны да гатоўнасці індэксаў
+occurence.info.occurence:
+    text: '{1, choice, 0#|1# у 1 файле|2# у {1,number} файлах}{0, choice, 0#не знойдзена|1# 1 уваходжанне|2# {0,number} уваходжанняў}'
+occurence.info.reference:
+    text: '{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах}{0,choice, 0#не найдено|1# 1 ссылка|2# {0,number} ссылок}'
+occurrences.found.in.comments.strings.and.non.java.files:
+    text: Знойдзены ўваходжанні ў каментарах, радках і некодавых файлах
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+    text: Знойдзены ўваходжанні ў каментарах, радках, некодавых файлах і згенераваным кодзе
+preview.usages.action.text:
+    text: Перадпрагляд зыходнага кода
+references.to.be.changed:
+    text: Спасылкі для змены {0}
+select.the.usage.to.preview:
+    text: Выберыце элемент для перадпрагляду
+several.occurrences.selected:
+    text: |-
+        Выбрана некалькі файлаў.
+        Выберыце ўваходжанне для перадпрагляду з аднаго файла.
+show.usages.advertisement:
+    text: "Націсніце {0} яшчэ раз для пошуку ў ''{1}''"
+show.usages.only.usage:
+    text: Гэта адзінае выкарыстанне ў {0}
+sort.alphabetically.action.text:
+    text: Сартаваць члены па алфавіце
+usage.excluded:
+    text: Выключана
+usage.name:
+    text: '{0, choice, 1#выкарыстанне|2#выкарыстанні}'
+usage.target.exception:
+    text: Выключэнне
+usage.target.package.in.directory:
+    text: '{0} (в {1})'
+usage.type.annotation:
+    text: Анатацыя
+usage.type.cast.target:
+    text: Выкарыстанне ў мэтавым тыпе прывядзення
+usage.type.catch.declaration:
+    text: "Аб'яўленне параметра ў catch-блоку"
+usage.type.class.object:
+    text: Выкарыстанне ў .class
+usage.type.comment:
+    text: Выкарыстанне ў каментары
+usage.type.delegate.to.another.instance.method:
+    text: Дэлегаванне іншаму метаду экзэмпляра
+usage.type.delegate.to.another.instance.method.parameters.changed:
+    text: Дэлегаванне іншаму метаду экзэмпляра, параметры змененыя
+usage.type.delegate.to.super.method:
+    text: Дэлегаванне метаду суперкласа
+usage.type.delegate.to.super.method.parameters.changed:
+    text: Дэлегаванне метаду суперкласа, параметры змененыя
+usage.type.extends:
+    text: Выкарыстанне ў extends/implements
+usage.type.field.declaration:
+    text: "Аб'яўленне поля"
+usage.type.import:
+    text: Выкарыстанне ў імпарце
+usage.type.instanceof:
+    text: Выкарыстанне ў instanceof
+usage.type.local.declaration:
+    text: "Аб'яўленне лакальнай пераменнай"
+usage.type.nested.class:
+    text: Доступ к вложенному классу
+usage.type.new:
+    text: Стварэнне новага экзэмпляра
+usage.type.new.anonymous:
+    text: Стварэнне новага ананімнага нашчадка
+usage.type.new.array:
+    text: Стварэнне новага масіва
+usage.type.parameter.declaration:
+    text: "Аб'яўленне параметра метаду"
+usage.type.read:
+    text: Чытанне значэння
+usage.type.recursion:
+    text: Рэкурсія
+usage.type.return:
+    text: Тып вяртаемага значэння метаду
+usage.type.static.member:
+    text: Доступ да статычнага члена класа
+usage.type.string.constant:
+    text: Выкарыстанне ў радковай канстанце
+usage.type.throws.list:
+    text: Спіс throws метаду
+usage.type.type.parameter:
+    text: Параметр тыпу
+usage.type.unclassified:
+    text: Некласіфікавана
+usage.type.write:
+    text: Запіс значэння
+usage.view.cancel.button:
+    text: Отмена [&C]
+usage.view.counter:
+    text: '{0} {0, choice, 1#результат|2#результатов}'
+usages.n:
+    text: Знойдзена {0,choice, 0#0 выкарыстанняў|1#1 выкарыстанне|2#{0,number} выкарыстанні}
+usages.title:
+    text: Выкарыстанні
+usages.were.filtered.out:
+    text: '{0,number} {0,choice, 1#выкарыстанне адфільтравана|2#выкарыстанні адфільтравана}'

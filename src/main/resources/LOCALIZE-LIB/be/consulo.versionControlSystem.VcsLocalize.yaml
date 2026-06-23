@@ -1,0 +1,797 @@
+action.NotificationAction.VcsRootProblemNotifier.text.configure:
+    text: Наладзіць...
+action.NotificationAction.VcsRootProblemNotifier.text.enable.integration:
+    text: Уключыць інтэграцыю
+action.NotificationAction.VcsRootProblemNotifier.text.ignore:
+    text: Ігнараваць
+action.description.compare:
+    text: Параўнайце версіі
+action.description.create.patch.for.selected.revisions:
+    text: Стварыце патч для выбраных версій
+action.display.name.check.scope.status:
+    text: Праверце статус {0}
+action.display.name.integrate.scope:
+    text: Інтэграваць {0}
+action.display.name.update:
+    text: Абнаўленне
+action.display.name.update.scope:
+    text: Абнавіць {0}
+action.enable.version.control.integration.text:
+    text: Уключыць інтэграцыю з сістэмай кантролю версій [_E]…
+action.force.push:
+    text: Прымусова націснуць [&F]
+action.force.push.confirmation.text:
+    text: Вы збіраецеся выканаць Форс-пуш. Гэта можа перазапісаць фіксацыі ў аддаленым рэпазітары. Вы ўпэўнены, што хочаце працягнуць?
+action.force.push.is.prohibited.description:
+    text: Форс-пуш у {0} забаронены
+action.force.push.to.confirmation.text:
+    text: Вы збіраецеся выканаць Форс-пуш на {0}. Гэта можа перазапісаць фіксацыі ў аддаленым рэпазітары. Вы ўпэўнены, што хочаце працягнуць?
+action.include.text:
+    text: Уключыць...
+action.name.check.scope.status:
+    text: Праверце стан {0} [_K]
+action.name.check.status:
+    text: Праверце статус [_K]
+action.name.compare:
+    text: Параўнайце
+action.name.get.file.content.from.repository:
+    text: Атрымаць ад рэвізіі
+action.name.group.by.packages:
+    text: Згрупаваць па пакетах
+action.name.integrate:
+    text: Зліць [_G]
+action.name.integrate.scope:
+    text: Зліць {0} [_G]
+action.name.refresh:
+    text: Абнаўленне
+action.name.show.difference:
+    text: Паказаць адрозненні
+action.name.show.files.as.tree:
+    text: Паказаць як дрэва
+action.name.show.history.for.class:
+    text: Клас
+action.name.show.history.for.code.block:
+    text: Блок кодаў
+action.name.show.history.for.field:
+    text: Палявы
+action.name.show.history.for.function:
+    text: Функцыя
+action.name.show.history.for.method:
+    text: Метад
+action.name.show.history.for.selection:
+    text: Выбар
+action.name.show.history.for.statement:
+    text: Аператар
+action.name.show.history.for.tag:
+    text: Тег
+action.name.show.history.for.text:
+    text: Текст
+action.name.update:
+    text: Абнавіць [_U]
+action.name.update.scope:
+    text: Абнавіць {0} [_U]
+action.push:
+    text: Націсніце [&P]
+acton.name.get.revision:
+    text: Атрымаць перагляд
+amend.commit.load.message.error.text:
+    text: Не ўдалося загрузіць паведамленне аб фіксацыі для выпраўлення.
+amend.commit.load.message.error.title:
+    text: Паведамленне фіксацыі не загружана
+amend.commit.load.message.task.title:
+    text: Загрузка паведамлення фіксацыі
+annotate.action.description:
+    text: Анатавальны файл
+annotate.action.name:
+    text: Анатаваць
+annotation.commit.number:
+    text: Зафіксаваць нумар
+annotation.original.revision.text:
+    text: 'Рэдакцыя: {0}'
+annotation.switch.to.merged.text:
+    text: "Паказаць крыніцу аб'яднання"
+annotation.switch.to.original.text:
+    text: "Схаваць крыніцу аб'яднання"
+annotation.wrong.line.number.notification.text:
+    text: <html>Колькасць радкоў у анатацыі з {0} не супадае з колькасцю радкоў у файле. Праверце кадыроўку файла і падзельнікі радкоў.</html>
+before.checkin.cleanup.code:
+    text: Ачысціць [&L]
+before.checkin.new.todo.check:
+    text: Праверыць TODO ({0})
+before.checkin.standard.options.check.smells:
+    text: Прааналізаваць код [&A]
+before.commit.files.contain.code.smells.edit.them.confirm.text:
+    text: |-
+        {0} файлаў змяшчаюць праблемы.
+        {1,choice, 0#Няма памылак|1#1 памылка|2#{1} памылкі|5#{1} памылак}, {2,choice, 0#няма папярэджанняў|1#1 папярэджанне|2#{2} папярэджанні|5#{2} папярэджанняў}
+        Хочаце прагледзець іх?
+border.changes.filter.change.number.filter:
+    text: Змена
+border.changes.filter.date.filter:
+    text: Дата
+border.selected.revision.commit.message:
+    text: Зафіксаваць паведамленне
+border.standard.after.checkin.options.group:
+    text: Пасля {0}
+browse.changes.action:
+    text: Праглядзіце змены
+browse.changes.content.title:
+    text: Змены ў {0}
+browse.changes.error.message:
+    text: 'Праблема доступу да VCS: {0}'
+browse.changes.error.title:
+    text: Не ўдалося паказаць змены
+browse.changes.filter.title:
+    text: Укажыце крытэрыі пошуку
+browse.changes.no.filter.prompt:
+    text: Крытэрыі пошуку не вызначаны. Вы ўпэўнены, што жадаеце прагледзець усю гісторыю праекта?
+browse.changes.nothing.found:
+    text: Не знойдзена змяненняў, якія адпавядаюць крытэрам
+browse.changes.nothing.found.title:
+    text: Змены не знойдзены
+browse.changes.progress.title:
+    text: Шукайце змены
+browse.changes.scope:
+    text: Змены закранаюць {0}
+browse.changes.show.all.button:
+    text: Паказаць усе змены
+browse.changes.show.recent.button:
+    text: Паказаць апошнія змены
+browse.changes.title:
+    text: Праглядзіце змены
+button.search.again:
+    text: Шукайце зноў
+button.text.overwrite.modified.file:
+    text: Перазапісаць зменены файл [&O]
+button.text.overwrite.modified.files:
+    text: Перазапісаць змененыя файлы [&O]
+cache.settings.dialog.title:
+    text: Налады кэша гісторыі валют
+cannot.apply.file.already.exists:
+    text: 'Немагчыма прымяніць патч да файла {0}: ён ужо існуе.'
+cannot.find.file.to.patch:
+    text: 'Немагчыма знайсці файл для прымянення патча: {0}'
+change.file.copied.from.text:
+    text: '- скапіравана з {0}'
+change.file.moved.from.text:
+    text: '- пераехаў з {0}'
+change.file.moved.to.text:
+    text: '- перанесены ў {0}'
+change.file.renamed.from.text:
+    text: '- перайменаваны з {0}'
+change.file.renamed.to.text:
+    text: '- перайменаваны ў {0}'
+change.file.replaced.text:
+    text: '- заменены'
+change.lists.manager.add.unversioned:
+    text: Дадайце файлы без версій
+change.nodetitle.change.is.outdated:
+    text: Файл быў зменены на серверы
+changelist.details.committed.format:
+    text: Закамічана {0} {1}
+changelist.details.title:
+    text: Падрабязнасці часопіса змяненняў
+changes.action.rollback.custom.title:
+    text: Змены {0}
+changes.action.rollback.text:
+    text: Адкат
+changes.action.rollback.title:
+    text: Змены {0}
+changes.action.show.ignored.description:
+    text: Паказаць файлы, якія ігнаруюцца
+changes.action.show.ignored.text:
+    text: Ігнараваныя файлы
+changes.browser.details.marker:
+    text: Больш падрабязна…
+changes.checkbox.delete.locally.added.files:
+    text: Выдаліць лакальныя копіі дададзеных файлаў [&D]
+changes.default.changelist.name:
+    text: Змены
+changes.dialog.editchangelist.error.already.exists:
+    text: "Спіс змяненняў пад назвай ''{0}'' ужо існуе"
+changes.dialog.editchangelist.title:
+    text: Рэдагаваць журнал змяненняў
+changes.dialog.newchangelist.title:
+    text: Новы спіс змен
+changes.nodetitle.changecount:
+    text: '{0,choice, 0#нет файлов|1#1 файл|2#{0} файла|5#{0} файлов}'
+changes.nodetitle.directory.changecount:
+    text: '{0,choice, 0#няма дырэкторый|1#1 дырэкторыя|2#{0} дырэкторыі|5#{0} дырэкторый}'
+changes.nodetitle.directory.file.changecount:
+    text: '{0,choice, 0#няма дырэкторый|1#1 дырэкторыя|2#{0} дырэкторыі|5#{0} дырэкторый}, {1,choice, 0#няма файлаў|1#1 файл|2#{1} файлы|5#{1} файлаў}'
+changes.nodetitle.have.outdated.files:
+    text: Некаторыя файлы былі зменены на серверы
+changes.nodetitle.ignored.files:
+    text: Ігнараваныя файлы
+changes.nodetitle.locally.deleted.files:
+    text: Лакальна выдаленыя файлы
+changes.nodetitle.locked.folders:
+    text: Заблакіраваныя працоўныя копіі тэчак
+changes.nodetitle.locked.folders.tooltip:
+    text: Некаторыя папкі заблакіраваны; Аперацыі ў цвёрдай валюце ім недаступныя. Патрабуе ачысткі.
+changes.nodetitle.logicallt.locked.folders:
+    text: Яўна заблакіраваныя файлы
+changes.nodetitle.modified.without.editing:
+    text: Змененыя файлы без распакавання
+changes.nodetitle.switched.files:
+    text: Пераключаныя файлы
+changes.nodetitle.switched.roots:
+    text: Пераключэнне каранёў
+changes.nodetitle.unversioned.files:
+    text: Файлы без версій
+changes.nodetitle.updating:
+    text: Абнавіць…
+changes.remove.active.empty.prompt:
+    text: 'Выберыце спіс змен, якія стануць актыўнымі:'
+changes.remove.active.prompt:
+    text: 'Выберыце спіс змяненняў, каб перанесці змены ў:'
+changes.remove.active.title:
+    text: Выдаленне актыўнага журнала змяненняў
+changes.removechangelist.multiple.warning.text:
+    text: |-
+        Вы ўпэўнены, што хочаце выдаліць {0} спісаў змен?
+        Усе змены будуць перамешчаны ў актыўны спіс змен.
+changes.removechangelist.warning.text:
+    text: "Вы ўпэўнены, што хочаце выдаліць журнал зменаў ''{0}''?\nУсе змены будуць перамешчаны ў актыўны спіс змен."
+changes.removechangelist.warning.title:
+    text: Выдаленне журнала змяненняў
+checkbox.checkin.options.optimize.imports:
+    text: Аптымізаваць імпарт [&O]
+checkbox.checkin.options.rearrange.code:
+    text: Код паўторнага заказу [&N]
+checkbox.checkin.options.reformat.code:
+    text: Перафарматаваць код [&R]
+checkbox.show.changed.revisions.only:
+    text: Толькі змянілася
+checkbox.show.changes.after.date:
+    text: Пасля [&A]
+checkbox.show.changes.after.num:
+    text: Ад [&F]
+checkbox.show.changes.before.date:
+    text: Да [&B]
+checkbox.show.changes.before.num:
+    text: 'Каму [&T]:'
+checkbox.show.clear.read.only.status.dialog:
+    text: Прапанаваць разблакіраваць пры спробе рэдагавання файла толькі для чытання
+checking.code.smells.progress.title:
+    text: Ідзе аналіз кода
+close.tab.action.name:
+    text: Блізка
+code.smells.error.messages.tab.name:
+    text: Аналіз кода
+code.smells.review.button:
+    text: Праверце аналіз кода [&R]
+column.info.configure.vcses.directory:
+    text: Дырэкторыя
+column.name.configure.vcses.vcs:
+    text: СКВ
+column.name.revision.date:
+    text: Дата
+column.name.revision.list.author:
+    text: Аўтар
+column.name.revision.list.committer:
+    text: Карыстальнік
+column.name.revision.list.date:
+    text: Дата
+column.name.revision.list.description:
+    text: Апісанне
+column.name.revision.list.number:
+    text: Нумар
+column.name.revision.list.revision:
+    text: Аўдыт
+column.name.revision.version:
+    text: Версія
+column.name.revisions.list.branch:
+    text: Галіна
+column.name.revisions.list.filter:
+    text: Дата
+column.name.type:
+    text: Тып
+command.name.open.error.message.view:
+    text: Адкрыць акно паведамлення
+commit.dialog.changelist.label:
+    text: 'Спіс змен [&T]:'
+commit.dialog.default.commit.operation.name:
+    text: Выправіць [&I]
+commit.dialog.include.action.name:
+    text: Уключыць у фіксацыю [&I]
+commit.dialog.no.changes.detected.text:
+    text: Змен не выяўлена
+commit.dialog.no.changes.detected.title:
+    text: Няма чаго запісваць
+commit.dialog.refresh.files:
+    text: Сінхранізацыя файлаў...
+commit.dialog.title:
+    text: Зафіксаваць змены
+commit.legend.deleted:
+    text: Выдалены
+commit.legend.modified:
+    text: Зменены
+commit.legend.new:
+    text: Дададзена
+commit.wait.util.synched.text:
+    text: Ідзе абнаўленне VCS...
+committed.changes.empty.comment:
+    text: <без каментарыяў>
+committed.changes.empty.message:
+    text: У рэпазітары няма зафіксаваных змен
+committed.changes.filter.all:
+    text: Усе
+committed.changes.filter.none:
+    text: <не>
+committed.changes.filter.title:
+    text: Фільтраваць па
+committed.changes.group.title:
+    text: Згрупаваць па
+committed.changes.incorrect.regex.message:
+    text: Няправільны рэгулярны выраз у фільтры
+committed.changes.not.loaded.message:
+    text: Націсніце кнопку «Абнавіць», каб загрузіць змены рэпазітара
+committed.changes.partial.list:
+    text: '[часткова]'
+committed.changes.refresh.progress:
+    text: Абнаўленне гісторыі валют
+committed.changes.regex.title:
+    text: Рэгулярны выраз [&G]
+composite.change.provider.include.vcs.checkbox:
+    text: Уключыць змены з {0}
+confirmation.text.add.file:
+    text: |-
+        Дадаць наступны файл у Subversion?
+        {0}
+confirmation.title.add.file:
+    text: Запланаваць даданне
+create.patch.commit.action.title:
+    text: Стварыце патч
+create.patch.encoding:
+    text: 'Кадзіраванне [&E]:'
+create.patch.error.title:
+    text: 'Памылка стварэння патча: {0}'
+create.patch.file.path:
+    text: 'У файл [&P]:'
+create.patch.loading.content.progress:
+    text: Загрузка змесціва версіі
+create.patch.reverse.checkbox:
+    text: Зваротны патч [&R]
+create.patch.success.confirmation:
+    text: Патч {0} створаны паспяхова
+current.version.text:
+    text: '{4}<br/><br/>Бягучая версія {3}.<br/>Зменена {0}<br/>{1}<br/>{2}'
+date.group.last.week:
+    text: Апошні тыдзень
+date.group.title:
+    text: Дата
+date.group.today:
+    text: сёння
+dialog.enable.version.control.integration.hint.text:
+    text: Налады кантролю версій можна змяніць у
+dialog.enable.version.control.integration.select.vcs.label.text:
+    text: 'Выберыце сістэму кантролю версій для {0}:'
+dialog.enable.version.control.integration.title:
+    text: Уключыць інтэграцыю кантролю версій
+dialog.title.changes.browser:
+    text: Праглядзіце змены
+dialog.title.clear.read.only.file.status:
+    text: Ачысціць статус толькі для чытання
+dialog.title.diff.for.range:
+    text: Параўнанне для дыяпазону
+diff.content.title.current.range:
+    text: Бягучы
+diff.content.title.revision.number:
+    text: Рэдакцыя {0}
+diff.content.title.up.to.date:
+    text: Базавая рэвізія
+diff.title.local:
+    text: Мясцовы
+diff.title.local.with.number:
+    text: Мясцовы ({0})
+directory.mapping.add.title:
+    text: Дадаць адлюстраванне каталогаў SCV
+directory.mapping.remove.title:
+    text: Рэдагаваць адлюстраванне каталогаў для SCV
+edit.changelist.description:
+    text: 'Каментарый [&C]:'
+edit.changelist.name:
+    text: 'Імя [&N]:'
+edit.errors:
+    text: Памылкі рэдагавання
+error.adding.files.prompt:
+    text: 'Пры даданні файлаў узніклі наступныя праблемы:'
+error.adding.files.title:
+    text: Немагчыма дадаць файлы
+error.executing.commit:
+    text: "Памылка пры выкананні ''{0}'': {1}"
+error.updating.changes:
+    text: 'Памылка абнаўлення змяненняў: {0}'
+exception.text.internal.error.method.should.not.be.called:
+    text: Метад не павінен называцца
+exception.text.internal.errror.could.not.implement.method:
+    text: Немагчыма рэалізаваць
+exception.text.unknown.error:
+    text: Невядомая памылка
+file.status.name.added:
+    text: Добавлен
+file.status.name.deleted:
+    text: Удален
+file.status.name.deleted.from.file.system:
+    text: Выдалены з файлавай сістэмы
+file.status.name.hijacked:
+    text: Перехвачен
+file.status.name.ignored:
+    text: Ігнаруецца
+file.status.name.merged:
+    text: "Аб'яднаны"
+file.status.name.merged.with.both.conflicts:
+    text: "Канфлікты пры аб'яднанні тэксту і ўласцівасцей"
+file.status.name.merged.with.conflicts:
+    text: "Аб'яднаны з канфліктамі"
+file.status.name.merged.with.property.conflicts:
+    text: "Канфлікты пры аб'яднанні ўласцівасцей"
+file.status.name.modified:
+    text: Зменены
+file.status.name.obsolete:
+    text: Устарел
+file.status.name.suppressed:
+    text: Подавлен
+file.status.name.switched:
+    text: Переключен
+file.status.name.unknown:
+    text: Невядома
+file.status.name.up.to.date:
+    text: Актуален
+file.status.name.up.to.date.immediate.children:
+    text: Змененыя даччыныя элементы
+file.status.name.up.to.date.recursive.children:
+    text: Змененыя даччыныя элементы
+filter.structure.name:
+    text: Структура
+handle.ro.file.status.type.using.file.system:
+    text: Выкарыстоўвайце файлавую сістэму
+handle.ro.file.status.type.using.vcs:
+    text: Выкарыстоўвайце {0}
+history.empty:
+    text: Гісторыя пустая
+incoming.changes.empty.message:
+    text: Няма ўваходных змяненняў
+incoming.changes.indicator.tooltip:
+    text: '{0} даступных спісаў уваходных змяненняў'
+incoming.changes.not.loaded.message:
+    text: Націсніце кнопку «Абнавіць», каб загрузіць ўваходныя змены
+issue.link.add.title:
+    text: Дадаць навігацыйную спасылку задачы
+issue.link.delete.prompt:
+    text: Выдаліць выбраныя навігацыйныя спасылкі?
+issue.link.delete.title:
+    text: Выдаліць навігацыйную спасылку задачы
+issue.link.edit.title:
+    text: Рэдагаваць навігацыйную спасылку задачы
+issue.link.issue.column:
+    text: Задача
+issue.link.link.column:
+    text: Спасылка
+issue.link.no.patterns:
+    text: Шаблоны не настроены
+label.commit.comment:
+    text: Зафіксаваць паведамленне [&M]
+label.relative.project.path.presentation:
+    text: <Праект>/{0}
+label.selected.revision.commit.message:
+    text: Зафіксаваць паведамленне
+line.annotation.aspect.author:
+    text: Аўтар
+line.annotation.aspect.date:
+    text: Дата
+line.annotation.aspect.revision:
+    text: Аўдыт
+loading.file.history.progress:
+    text: Загрузка гісторыі файлаў
+local.history.update.from.vcs:
+    text: Абнаўленне з цвёрдай валюты
+local.version.title:
+    text: Лакальная версія
+lookup.title.vcs.file.revisions:
+    text: Рэвізіі файлаў
+message.text.all.files.are.up.to.date:
+    text: Усе файлы актуальныя
+message.text.cannot.edit.file:
+    text: 'Немагчыма рэдагаваць файл: {0}'
+message.text.cannot.load.revision:
+    text: 'Немагчыма загрузіць версію: {0}'
+message.text.cannot.open.editor:
+    text: Немагчыма адкрыць тэкставы рэдактар ​​для файла {0}
+message.text.cannot.save.content:
+    text: 'Немагчыма захаваць кантэнт: {0}'
+message.text.cannot.show.differences:
+    text: 'Немагчыма паказаць адрозненні: {0}'
+message.text.could.not.load.virtual.file.content:
+    text: 'Немагчыма загрузіць змесціва файла {0}: {1}'
+message.text.file.is.up.to.date:
+    text: Файл актуальны
+message.text.file.locally.modified:
+    text: Файл {0} быў зменены лакальна.
+message.text.several.files.locally.modified:
+    text: Некаторыя файлы былі лакальна зменены.
+message.title.annotate:
+    text: Анатацыя
+message.title.cannot.open.editor:
+    text: Немагчыма адкрыць рэдактар
+message.title.could.not.load.content:
+    text: Немагчыма загрузіць кантэнт
+message.title.could.not.load.file.history:
+    text: Узнікла праблема загрузкі гісторыі файлаў
+message.title.edit.files:
+    text: Рэдагаваць файлы
+message.title.get.revision.content:
+    text: Атрымаць змест версіі
+message.title.get.version:
+    text: Атрымаць версію
+message.title.show.differences:
+    text: Паказаць адрозненні
+message.title.vcs.update.errors:
+    text: '{0} памылак'
+move.to.changelist:
+    text: "Перамясціць змены ў актыўны спіс (''{0}'') [&M]"
+multiple.file.merge.accept.theirs:
+    text: Прыняць іх версію [&T]
+multiple.file.merge.accept.yours:
+    text: Прыняць змены [&Y]
+multiple.file.merge.column.name:
+    text: Імя
+multiple.file.merge.loading.progress.title:
+    text: "Загрузка версій для аб'яднання..."
+multiple.file.merge.merge:
+    text: "Аб'яднаць [&M]..."
+multiple.file.merge.request.title:
+    text: "Аб'яднанне версій {0}"
+multiple.file.merge.title:
+    text: Канфлікты
+new.changelist.duplicate.name.error:
+    text: Журнал змяненняў з такім жа імем ужо існуе
+new.changelist.make.active.checkbox:
+    text: Зрабіць [&A] актыўным
+no.ignored.files:
+    text: Няма ігнаруемых файлаў
+none.vcs.presentation:
+    text: <Не>
+notification.title.vcs.name.repository.repositories.found:
+    text: Знойдзена {0} {1,choice,1#рэпазіторый|2#рэпазіторыя|5#рэпазіторыяў}
+open.repository.version.description:
+    text: Адкрыйце выбраную версію файла ў рэдактары
+open.repository.version.text:
+    text: Адкрытая версія з рэпазітара
+operation.name.annotate:
+    text: Анатацыя
+outdated.version.show.diff.action:
+    text: Паказаць адрозненні
+outdated.version.text:
+    text: 'Састарэлая версія. {0} {3,choice,0#змяніў|1#выдаліў} у {1} наступнае паведамленне: {2}'
+outdated.version.update.project.action:
+    text: Абнавіць праект
+patch.apply.already.applied:
+    text: Усе змены ўказанага патча ўжо ўключаны ў код
+patch.apply.analyze.from.clipboard.on.the.fly.checkbox:
+    text: Аналізуйце і ўжывайце патчы з буфера абмену на лета
+patch.apply.cannot.apply.now:
+    text: Зараз немагчыма прымяніць патч
+patch.apply.changes.in.patch.resolve:
+    text: у выпраўленні {0}
+patch.apply.command:
+    text: Прымяніць пластыр
+patch.apply.conflict.local.version:
+    text: Лакальная версія
+patch.apply.conflict.merged.version:
+    text: Вынік зліцця
+patch.apply.conflict.patch:
+    text: Латка
+patch.apply.conflict.patched.somehow.version:
+    text: Вынік
+patch.apply.conflict.patched.version:
+    text: Версія з патчам
+patch.apply.conflict.title:
+    text: Патч канфлікт
+patch.apply.dialog.title:
+    text: Прымяніць пластыр
+patch.apply.file.name.field:
+    text: 'Імя файла патча [&P]:'
+patch.apply.partially.applied:
+    text: Некаторыя змены з названага патча былі прапушчаны, таму што яны ўжо былі ўключаны ў код
+patch.apply.select.title:
+    text: Выберыце файл патча
+patch.apply.somehow.diff.name:
+    text: Наляпіце пластыр пэўным чынам
+patch.apply.success.applied.text:
+    text: Патч паспяхова прыменены
+paths.affected.in.revision:
+    text: Змены ў {0}
+progress.text.searching.for.modified.files:
+    text: Пошук змененых файлаў
+progress.text.synchronizing.files:
+    text: Сінхранізацыя файлаў...
+progress.text.updating.canceled:
+    text: Абнаўленне адменена
+progress.text.updating.done:
+    text: Абнаўленне завершана
+progress.title.version.control.processing.changed.files:
+    text: 'Кантроль версій: апрацоўка змененых файлаў'
+push.dialog.push.commits.title:
+    text: Push фіксуе
+push.process.pushing:
+    text: Ідзе адпраўка...
+radio.after.creation.add.silently:
+    text: Дадаць без пацверджання
+radio.after.creation.do.not.add:
+    text: Не дадавайце
+radio.after.creation.show.options:
+    text: Спытайце
+radio.after.deletion.do.not.remove:
+    text: Не выдаляйце
+radio.after.deletion.remove.silently:
+    text: Выдаліць без пацверджання
+radio.after.deletion.show.options:
+    text: Спытайце
+refresh.failed.message:
+    text: 'Не ўдалося абнавіць: {0}'
+retrieving.annotations:
+    text: Загрузка анатацый
+rollback.modified.without.checkout.error.tab:
+    text: '{0}зменена без афармлення заказу'
+rollback.modified.without.editing.confirm.multiple:
+    text: Адкаціць змены да {0} у {1} выбраных файлах?
+rollback.modified.without.editing.confirm.single:
+    text: Адкат змяненняў з {0} да {1}?
+rolling.back.file:
+    text: Адкат {0}
+roots.notification.content.directory.registered.as.root.but.no.repositories.were.found.there:
+    text: Каталог {0} зарэгістраваны як каранёвы каталог {1}, але сховішчы {1} там не знойдзены
+roots.notification.title.invalid.vcs.root.choice.mapping.mappings:
+    text: Некарэктнае {0, choice, 1#супастаўленне|2#супастаўленні} кораня СКВ
+roots.notification.title.vcs.name.integration.enabled:
+    text: Інтэграцыя {0} уключана
+roots.notification.title.vcs.root.configuration.problems:
+    text: Праблемы каранёвай канфігурацыі VCS
+roots.the.following.directories.are.registered.as.vcs.roots.but.they.are.not:
+    text: 'Наступныя каталогі няправільна зарэгістраваныя як каранёвыя SKB:'
+scope.name.changelist.all.changed.files:
+    text: Усе змененыя файлы
+searching.for.code.smells.processing.file.progress.text:
+    text: Лячэнне {0}
+settings.filter.update.project.info.by.scope:
+    text: Фільтраваць абнаўленні інфармацыі аб праекце па вобласці
+shelve.changes.action:
+    text: Змены паліцы [_S]
+shelve.changes.only.directories:
+    text: Выбраныя змены закранаюць толькі каталогі, а не файлы, таму іх нельга размясціць на паліцы
+shelved.version.name:
+    text: Палічная версія
+show.diff.from.annotation.action.error.can.not.load.data.to.show.diff:
+    text: Не ўдалося загрузіць даныя, каб паказаць адрозненні
+show.diff.progress.title:
+    text: Спампоўка кантэнту
+show.diff.progress.title.detailed:
+    text: Загрузка кантэнту для {0}
+show.history.action.name.template:
+    text: Паказаць гісторыю для {0} [_F]…
+show.history.dialog.title.template:
+    text: Гісторыя для {0}
+status.group.name.changed:
+    text: Зменены
+status.group.name.changed.on.server:
+    text: Зменены на серверы
+status.group.name.created:
+    text: Стварылі
+status.group.name.deleted:
+    text: Выдалены
+status.group.name.locally.added:
+    text: Дададзена лакальна
+status.group.name.locally.removed:
+    text: Выдалена лакальна
+status.group.name.modified:
+    text: Зменены
+status.group.name.not.in.repository:
+    text: Няма ў сховішчы
+status.group.name.skipped:
+    text: Прамахнуўся
+status.group.name.switched:
+    text: Пераключыўся
+status.group.name.will.be.merged:
+    text: Будзе ўцечка
+status.group.name.will.be.merged.with.conflicts:
+    text: Будзе зліта з канфліктамі
+status.group.name.will.be.merged.with.property.conflicts:
+    text: "Будуць аб'яднаны маёмасныя канфлікты"
+status.group.name.will.be.merged.with.tree.conflicts:
+    text: "Будзе аб'яднана з дрэвамі канфліктаў"
+status.group.name.will.be.restored:
+    text: Будуць адноўлены
+switch.to.changelist:
+    text: "Пераключыцца на журнал змяненняў ''{0}'' [&T]"
+todo.handler.only.added:
+    text: <html><body>Знойдзена {0,choice, 0#|1#адно|2#{0}} TODO {0,choice, 0#|1#заданне|2#заданняў}, якія былі дададзены або адрэдагаваны.<br/>Хочаце прагледзець {0,choice,1#яго|2#іх}?<br/>{1,choice, 0#|1#1 файл прапушчаны.|2#{1} файлаў прапушчана.}</body></html>
+todo.handler.only.both:
+    text: <html><body>{0, choice, 1#1|2#{0}} {0,choice, 1#заданне|2#заданняў} TODO дададзена/адрэдагавана,<br/>і {1, choice, 1#1 заданне|2#{1} заданняў} знойдзена ў змененых фрагментах.<br/>Хочаце праверыць іх?<br/>{2,choice, 0#|1#1 файл прапушчаны.|2#{2} файлаў прапушчана.}</body></html>
+todo.handler.only.in.changed:
+    text: <html><body>Знойдзена {0,choice, 1#адно|2#{0}} TODO {0,choice, 1#заданне|2#заданняў} у змененых фрагментах.<br/>Хочаце прагледзець {0,choice,1#яго|2#іх}?<br/>{1,choice, 0#|1#Адзін файл прапушчаны|2#{1} файлаў прапушчана.}</body></html>
+todo.handler.only.skipped:
+    text: <html><body>TODO праверка прапусціла {0,choice, 0#|1#1 файл|2#{0} файлаў}.<br/>Не знойдзена новых або адрэдагаваных TODO заданняў, а таксама заданняў у змененых фрагментах тэксту.</body></html>
+todo.in.new.review.button:
+    text: Прагляд TODO [&R]
+toolwindow.title.update.project:
+    text: Абнавіць праект ({0})
+unknown.vcs.presentation:
+    text: <Невядомы VCS> ({0})
+unshelve.changelist.chooser.title:
+    text: Адмяніць паліцу для змяненняў са спіса
+unshelve.changes.dialog.title:
+    text: Адмяніць змены паліцы
+update.directories.scope.name:
+    text: Дырэкторыі
+update.directory.scope.name:
+    text: Дырэкторыя
+update.file.scope.name:
+    text: Файл
+update.files.scope.name:
+    text: Файлы
+update.group.name.created:
+    text: Стварылі
+update.group.name.deleted:
+    text: Выдалены
+update.group.name.locally.added:
+    text: Дададзена лакальна
+update.group.name.locally.removed:
+    text: Выдалена лакальна
+update.group.name.merged:
+    text: "Аб'яднаны"
+update.group.name.merged.with.conflicts:
+    text: Зліта з канфліктамі
+update.group.name.merged.with.property.conflicts:
+    text: Зліўся з маёмаснымі канфліктамі
+update.group.name.merged.with.tree.conflicts:
+    text: "Аб'яднаны з дрэвамі канфліктаў"
+update.group.name.modified:
+    text: Зменены
+update.group.name.not.in.repository:
+    text: Няма ў сховішчы
+update.group.name.restored:
+    text: Адноўлены
+update.group.name.skipped:
+    text: Прамахнуўся
+update.group.name.switched:
+    text: Пераключыўся
+update.group.name.updated:
+    text: Абноўлены
+update.group.name.updated.from.server:
+    text: Абноўлена з сервера
+update.info.group.by.changelist:
+    text: Група па спісах змяненняў
+update.info.loading.changelists:
+    text: Загрузка журналаў змяненняў...
+update.project.scope.name:
+    text: Праект
+update.tree.node.size.statistics:
+    text: '{0,choice, 0#нет элементов|1#1 элемент|2#{0, number} элементов}'
+user.group.title:
+    text: Карыстальнік
+vcs.command.name.add:
+    text: Дадаць
+vcs.command.name.edit:
+    text: Рэдагаваць
+vcs.command.name.remove:
+    text: Выдаліць
+vcs.command.name.status:
+    text: Статус
+vcs.command.name.update:
+    text: Абнаўленне
+vcs.config.track.changed.on.server:
+    text: Інтэрвал праверкі канфліктаў сервера
+vcs.console.toolwindow.display.name:
+    text: Кансоль
+vcs.quicklist.popup.title:
+    text: Аперацыі SCV
+vcs.revision.name.current:
+    text: Ток
+vcs.shelf.action.restore.description:
+    text: Аднавіць нядаўна выдаленыя {0, choice, 1#спіс змен|2#спісы змен}
+vcs.shelf.action.restore.text:
+    text: Аднавіць
+version.control.main.configurable.name:
+    text: Кантроль версій

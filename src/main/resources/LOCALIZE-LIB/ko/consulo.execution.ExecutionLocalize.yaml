@@ -1,0 +1,592 @@
+action.Runner.ToggleTabLabels.text:
+    text: 탭 레이블 표시
+action.name.save.as.configuration:
+    text: 다른 이름으로 저장
+action.name.save.configuration:
+    text: 구성 저장
+action.terminating.process.progress.kill.description:
+    text: 프로세스 강제 종료(Kill)
+add.new.run.configuration.action.name:
+    text: "새 ''{0}'' 구성 추가"
+add.new.run.configuration.action2.name:
+    text: 새 구성 추가
+applet.configuration.parameter.name.column:
+    text: 이름
+applet.configuration.parameter.value.column:
+    text: 값
+applet.configuration.width.label:
+    text: '너비(&W):'
+application.configuration.main.class.label:
+    text: '메인 클래스(_C):'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: '모듈의 클래스패스 사용(_O):'
+apply.action.name:
+    text: 적용(_A)
+before.launch.compile.step:
+    text: 빌드
+before.launch.compile.step.no.error.check:
+    text: 빌드, 오류 검사 없음
+before.launch.panel.cyclic_dependency_warning:
+    text: "''{0}''은(는) 이미 {1} 전에 실행되도록 구성되어 있습니다.\n이러한 순환 종속성은 허용되지 않습니다."
+before.launch.panel.empty:
+    text: 시작 전에 실행할 작업이 없습니다
+before.launch.panel.title:
+    text: 시작 전(_B)
+before.launch.run.another.configuration:
+    text: 다른 구성 실행
+before.launch.run.certain.configuration:
+    text: "''{0}'' 실행"
+before.launch.run.unknown.task:
+    text: 알 수 없는 작업
+button.add:
+    text: 추가
+button.disconnect:
+    text: 연결 해제(_D)
+button.remove:
+    text: 제거(&R)
+button.terminate:
+    text: 종료(_T)
+cannot.browse.method.dialog.title:
+    text: 메서드를 찾아볼 수 없습니다
+choose.main.class.dialog.title:
+    text: 메인 클래스 선택
+choose.package.dialog.title:
+    text: 패키지 선택
+choose.run.configuration.action.description:
+    text: 실행/디버그 구성 드롭다운 열기
+choose.test.class.dialog.title:
+    text: 테스트 클래스 선택
+choose.test.method.dialog.title:
+    text: 테스트 메서드 선택
+class.does.not.exists.error.message:
+    text: '{0} 클래스가 존재하지 않습니다'
+class.isnt.inheritor.of.testcase.error.message:
+    text: '{0}은(는) junit.framework.TestCase의 하위 클래스가 아닙니다'
+class.isnt.test.class.error.message:
+    text: '{0}은(는) 테스트 클래스가 아닙니다'
+class.not.found.in.module.error.message:
+    text: "''{0}'' 클래스를 ''{1}'' 모듈에서 찾을 수 없습니다"
+clear.all.from.console.action.name:
+    text: 모두 지우기
+close.tab.action.name:
+    text: 닫기
+combobox.console.default.encoding.label:
+    text: '기본 인코딩:'
+combobox.console.favorites.separator.label:
+    text: 즐겨찾기
+combobox.console.more.separator.label:
+    text: 기타
+configuration.action.chooser.title:
+    text: 실행할 구성 선택
+configuration.edit.before.run:
+    text: 이 페이지 표시
+confirm.background.process.stop:
+    text: 백그라운드 프로세스 중단 확인
+confirm.process.stop:
+    text: 프로세스 중단 확인
+copy.configuration.action.name:
+    text: 구성 복사
+copy.content.action.name:
+    text: 콘텐츠 복사
+copy.selected.content.action.name:
+    text: 선택된 콘텐츠 복사
+create.run.configuration.action.name:
+    text: 실행 구성 수정…
+create.run.configuration.for.item.dialog.title:
+    text: "실행 구성 생성: ''{0}''"
+default.junit.config.name.all.in.module:
+    text: '{0} 전체'
+default.runner.start.action.text:
+    text: 실행(_U)
+diff.content.actual.title:
+    text: 실제 결과
+diff.content.actual.title.with.file.url:
+    text: 실제 결과 ({0})
+diff.content.expected.for.file.title:
+    text: '기대 결과 :'
+diff.content.expected.title:
+    text: 기대 결과
+diff.content.expected.title.with.file.url:
+    text: 기대 결과 ({0})
+edit.configuration.action:
+    text: 구성 편집(_E)
+edit.run.configuration.for.item.dialog.title:
+    text: "실행 구성 편집: ''{0}''"
+edit.run.configuration.run.configuration.name.label:
+    text: '이름(_N):'
+encoding.name.system.default:
+    text: '<시스템 기본값: {0}>'
+env.vars.show.system:
+    text: 표시
+environment.variables.component.title:
+    text: 환경 변수(_E)
+environment.variables.dialog.title:
+    text: 환경 변수
+environment.variables.helper.use.arguments.label:
+    text: <html><body>원격 JVM 실행을 위해 다음 명령줄 인수를 사용하십시오</body></html>
+error.common.title:
+    text: 오류
+error.running.configuration.message:
+    text: "''{0}'' 실행 중 오류 발생"
+execute.before.run.debug.dialog.title:
+    text: 실행/디버그 전 {0} 실행
+export.test.results.custom.template.chooser.title:
+    text: 사용자 정의 템플릿 선택
+export.test.results.custom.template.not.found:
+    text: "사용자 정의 템플릿 파일 ''{0}''을(를) 찾을 수 없습니다"
+export.test.results.custom.template.path.empty:
+    text: 사용자 정의 템플릿 경로가 비어 있습니다
+export.test.results.dialog.title:
+    text: 테스트 결과 내보내기
+export.test.results.failed:
+    text: '테스트 결과 내보내기 실패: {0}'
+export.test.results.file.exists.message:
+    text: "파일 ''{0}''이(가) 이미 존재합니다.\n덮어쓰시겠습니까?"
+export.test.results.file.exists.title:
+    text: 테스트 결과 내보내기
+export.test.results.filename:
+    text: 테스트 결과 - {0}
+export.test.results.footer:
+    text: '{0}에서 {1}에 생성됨'
+export.test.results.open.browser:
+    text: 내보낸 파일을 브라우저에서 열기(_O)
+export.test.results.open.editor:
+    text: 내보낸 파일을 에디터에서 열기(_P)
+export.test.results.output.filename.empty:
+    text: 출력 파일 이름이 비어 있습니다
+export.test.results.output.folder.chooser.title:
+    text: 출력 폴더 선택
+export.test.results.output.path.empty:
+    text: 출력 경로가 비어 있습니다
+export.test.results.succeeded:
+    text: <html>테스트 결과를 <a href="#a">{0}</a>(으)로 성공적으로 내보냈습니다</html>
+export.test.results.task.name:
+    text: 테스트 결과 내보내는 중
+failed.to.create.output.file:
+    text: "출력 파일 ''{0}'' 생성 실패"
+fix.run.configuration.problem.button:
+    text: 수정
+home.directory.not.specified.for.jdk.error.message:
+    text: JDK의 홈 디렉터리가 지정되지 않았습니다
+incompatible.configuration.is.running.dialog.title:
+    text: 호환되지 않는 구성{0, choice, 1#이|2#들이} 실행 중입니다
+instantiating.tests.progress.text:
+    text: 테스트 인스턴스화 중…
+invalid.data.dialog.title:
+    text: 잘못된 데이터
+jdk.is.bad.configured.error.message:
+    text: "''{0}'' 설정이 잘못되었습니다"
+junit.actual.text.label:
+    text: '실제 결과   :'
+junit.all.tests.passed.label:
+    text: 모든 테스트 통과함
+junit.click.to.see.diff.link:
+    text: <클릭하여 차이점 확인>
+junit.configuration.class.label:
+    text: '클래스(&C):'
+junit.configuration.class.radio:
+    text: 클래스(&L)
+junit.configuration.configure.junit.test.kind.label:
+    text: '테스트 종류(_T):'
+junit.configuration.configure.junit.test.label:
+    text: '테스트:'
+junit.configuration.method.label:
+    text: '메소드(&E):'
+junit.configuration.method.radio:
+    text: 메소드(&T)
+junit.configuration.package.label:
+    text: '패키지(&G):'
+junit.configuration.test.border:
+    text: 테스트
+junit.configuration.test.class.radio:
+    text: 테스트 클래스
+junit.configuration.test.method.radio:
+    text: 테스트 메서드
+junit.open.text.in.editor.action.name:
+    text: 선택한 테스트를 에디터에서 열기
+junit.runing.info.error.tree.node:
+    text: 오류
+junit.runing.info.running.label:
+    text: 실행 중
+junit.runing.info.starting.label:
+    text: 시작 중...
+junit.runing.info.terminated.label:
+    text: 종료됨
+junit.runing.info.test.column.name:
+    text: 테스트
+junit.runing.info.tests.in.progress.done.tree.node:
+    text: '테스트 진행 중: 완료'
+junit.runing.info.tests.in.progress.terminated.tre.node:
+    text: '테스트 진행 중: 종료됨'
+junit.running.info.failed.to.start.error.message:
+    text: 시작 실패
+junit.running.info.tests.failed.label:
+    text: 테스트 실패
+junit.running.info.tests.failed.with.test.name.label:
+    text: 테스트 실패 {0}
+junit.running.info.tests.passed.label:
+    text: 테스트 통과
+junit.running.info.tests.passed.with.test.name.label:
+    text: 테스트 통과 {0}
+junit.tests.in.progress.label:
+    text: 테스트 진행 중
+log.console.filter.show.all:
+    text: 모두
+log.console.filter.show.errors:
+    text: 오류
+log.console.filter.show.errors.and.warnings:
+    text: 경고
+log.console.filter.show.errors.warnings.and.infos:
+    text: 정보
+log.monitor.add.button:
+    text: 추가(&D)
+log.monitor.edit.aliases.location:
+    text: '로그 파일 위치(&L):'
+log.monitor.edit.aliases.name:
+    text: '별칭(&A):'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: 패턴과 일치하는 모든 파일 표시(&S)
+log.monitor.edit.aliases.title:
+    text: 로그 파일 별칭 편집
+log.monitor.group:
+    text: 콘솔에 표시할 로그 파일
+log.monitor.is.active.column:
+    text: 활성 상태
+log.monitor.is.skipped.column:
+    text: 콘텐츠 건너뛰기
+log.monitor.log.file.column:
+    text: 로그 파일 항목
+log.monitor.no.files:
+    text: 첨부된 로그 파일 없음
+log.monitor.remove.button:
+    text: 제거(&R)
+logs.show.console.on.stderr:
+    text: 메시지가 표준 오류 스트림(stderr)에 출력될 때 콘솔 표시
+logs.show.console.on.stdout:
+    text: 메시지가 표준 출력 스트림(stdout)에 출력될 때 콘솔 표시
+logs.tab.title:
+    text: 로그
+main.class.is.not.specified.error.message:
+    text: 메인 클래스나 JAR 경로가 지정되지 않았습니다
+main.method.not.found.in.class.error.message:
+    text: '{0} 클래스에서 메인 메서드를 찾을 수 없습니다'
+message.cannot.find.file.0:
+    text: 파일 {0}을(를) 찾을 수 없습니다
+method.name.not.specified.error.message:
+    text: 메서드 이름이 지정되지 않았습니다
+module.does.not.exist.error.message:
+    text: "''{0}'' 모듈이 존재하지 않습니다"
+module.doesn.t.exist.in.project.error.text:
+    text: "''{0}'' 모듈이 프로젝트에 존재하지 않습니다"
+module.is.unloaded.from.project.error.text:
+    text: "''{0}'' 모듈이 프로젝트에서 언로드되었습니다"
+module.not.specified.error.text:
+    text: 모듈이 지정되지 않았습니다
+multiple.specified:
+    text: 여러 항목이 지정됨
+next.faled.test.action.name:
+    text: 실패한 다음 테스트
+no.jdk.for.module.error.message:
+    text: "''{0}'' 모듈에 대한 JDK가 없습니다"
+no.jdk.specified..error.message:
+    text: JDK가 지정되지 않았습니다
+no.jdk.specified.for.module.warning.text:
+    text: "''{0}'' 모듈에 지정된 JDK가 없습니다"
+no.junit.error.message:
+    text: junit.jar가 없습니다
+no.junit.in.scope.error.message:
+    text: '{0}에 junit.jar가 없습니다'
+no.main.class.specified.error.text:
+    text: 메인 클래스가 지정되지 않았습니다
+no.module.defined.error.message:
+    text: 정의된 모듈이 없습니다
+no.test.class.specified.error.text:
+    text: 지정된 테스트 클래스 없음
+no.user.process.input.error.message:
+    text: 프로세스 입력이 없습니다
+node.default:
+    text: <기본값>
+open.message.view:
+    text: 메시지 뷰 열기
+output.tab.title:
+    text: 출력
+package.does.not.exist.error.message:
+    text: "''{0}'' 패키지가 존재하지 않습니다"
+package.not.found.error.message:
+    text: "''{0}'' 패키지를 찾을 수 없습니다"
+perform.action.with.context.configuration.action.name:
+    text: '{0} 컨텍스트 구성'
+prev.faled.test.action.name:
+    text: 실패한 이전 테스트
+process.is.running.dialog.title:
+    text: "프로세스 ''{0}''이(가) 실행 중입니다"
+project.has.no.jdk.configured.error.message:
+    text: 프로젝트에 구성된 JDK가 없습니다.
+remote.configuration.host.label:
+    text: '호스트:'
+remote.configuration.port.label:
+    text: '포트:'
+remote.configuration.remote.debugging.allows.you.to.connect.idea.to.a.running.jvm.label:
+    text: 원격 JVM 실행을 위한 명령줄 인수(_C)
+remote.configuration.settings.border:
+    text: 설정
+remote.debug.configuration.description:
+    text: 원격 디버그 구성
+remote.debug.configuration.display.name:
+    text: 원격 JVM 디버그
+remove.run.configuration.action.name:
+    text: 구성 제거
+rerun.configuration.action.name:
+    text: "''{0}'' 재실행"
+rerun.confirmation.button.text:
+    text: 중단 및 재실행
+rerun.singleton.confirmation.message:
+    text: "''{0}''은(는) 병렬 실행이 허용되지 않습니다.\n{1, choice, 1#실행 중인 인스턴스|2#{1, number}개의 실행 중인 인스턴스}를 중단하시겠습니까?"
+restart.error.message.title:
+    text: 재시작 오류
+run.button.on.toolbar.tooltip.current.file.no.focused.editor:
+    text: '현재 파일을 실행할 수 없습니다: 에디터에 포커스가 없습니다'
+run.button.on.toolbar.tooltip.current.file.not.runnable:
+    text: 에디터의 파일을 실행할 수 없습니다
+run.configurable.display.name:
+    text: 실행
+run.configuration.arguments.help.panel.copy.action.name:
+    text: 복사
+run.configuration.cannot.find.vm.executable:
+    text: VM 실행 파일을 찾을 수 없습니다
+run.configuration.configuration.tab.title:
+    text: 구성
+run.configuration.create.folder.description:
+    text: 새 폴더 생성
+run.configuration.create.folder.description.move:
+    text: 새 폴더로 이동
+run.configuration.create.folder.text:
+    text: 새 폴더 생성
+run.configuration.dump.threads.action.name:
+    text: 스레드 덤프
+run.configuration.edit.default.configuration.settings.description:
+    text: 템플릿 편집
+run.configuration.edit.default.configuration.settings.text:
+    text: 템플릿 편집
+run.configuration.error.dialog.title:
+    text: 실행 구성 오류
+run.configuration.error.no.jdk.specified:
+    text: JDK가 지정되지 않았습니다
+run.configuration.exit.action.name:
+    text: 종료
+run.configuration.java.vm.parameters.label:
+    text: 'VM 옵션(_V):'
+run.configuration.no.name:
+    text: <이름 없음>
+run.configuration.pause.output.action.name:
+    text: 출력 일시 중지
+run.configuration.program.parameters:
+    text: '프로그램 인수(_R):'
+run.configuration.rename.folder.disclaimer:
+    text: '참고: 빈 폴더는 저장되지 않습니다'
+run.configuration.select.alternate.jre.label:
+    text: 대체 JRE 선택
+run.configuration.select.jre.dir.label:
+    text: 실행할 JRE가 있는 디렉터리 선택
+run.configuration.show.command.line.action.name:
+    text: 콘솔 프롬프트 표시
+run.configuration.startup.connection.rab.title:
+    text: 시작/연결
+run.configuration.stop.action.name:
+    text: 중단
+run.configuration.unnamed.name.prefix:
+    text: 이름 없음
+run.configuration.working.directory.label:
+    text: '작업 디렉터리(_W):'
+run.configurations.combo.run.current.file.description:
+    text: 포커스가 있는 에디터에서 열린 파일 실행
+run.configurations.combo.run.current.file.item.in.dropdown:
+    text: 현재 파일
+run.configurations.combo.run.current.file.selected:
+    text: 현재 파일
+run.configurations.popup.edit.run.config.and.run.current.file:
+    text: 매개변수와 함께 실행…
+run.configurations.popup.edit.run.config.and.run.current.file.description:
+    text: 실행 매개변수를 편집하고 포커스가 있는 에디터에서 열린 파일 실행
+run.configurations.popup.existing.configurations.separator.text:
+    text: 실행 구성
+run.dashboard.configurable.types.panel.hint:
+    text: 하나 이상의 유형을 선택하십시오
+run.dashboard.configurations.message:
+    text: 선택한 구성 시작/중단
+run.dashboard.configured.group.name:
+    text: 시작되지 않음
+run.dashboard.debug.action.description:
+    text: 선택한 구성을 디버그합니다
+run.dashboard.debug.action.name:
+    text: 디버그
+run.dashboard.edit.configuration.action.name:
+    text: 구성 편집
+run.dashboard.edit.configuration.dialog.title:
+    text: 구성 편집
+run.dashboard.failed.group.name:
+    text: 실패함
+run.dashboard.group.by.status.action.name:
+    text: 상태
+run.dashboard.group.by.type.action.name:
+    text: 유형
+run.dashboard.remove.configuration.action.description:
+    text: 구성 제거
+run.dashboard.remove.configuration.action.name:
+    text: 구성 제거
+run.dashboard.remove.configuration.dialog.title:
+    text: 구성 제거
+run.dashboard.remove.run.configuration.type.confirmation:
+    text: 서비스에서 {0}을(를) 제거하시겠습니까?
+run.dashboard.remove.run.configuration.types.confirmation:
+    text: 서비스에서 {0}개의 구성 유형을 제거하시겠습니까?
+run.dashboard.rerun.action.description:
+    text: 선택한 구성을 재실행합니다
+run.dashboard.rerun.action.name:
+    text: 재실행
+run.dashboard.restart.debugger.action.description:
+    text: 선택한 구성을 디버그 모드로 재실행합니다
+run.dashboard.restart.debugger.action.name:
+    text: 디버그 모드로 재실행
+run.dashboard.run.action.description:
+    text: 선택한 구성을 실행합니다
+run.dashboard.run.action.name:
+    text: 실행
+run.dashboard.started.group.name:
+    text: 실행 중
+run.dashboard.stop.action.name:
+    text: 중지
+run.dashboard.stopped.group.name:
+    text: 완료됨
+run.debug.dialog.title:
+    text: 실행/디버그 구성
+run.toolbar.widget.all.configurations:
+    text: 모든 구성  {0}
+runner.content.tooltip.layout.settings:
+    text: 레이아웃 설정
+save.temporary.run.configuration.action.name:
+    text: "''{0}'' 구성 저장(_S)"
+searching.test.progress.title:
+    text: 테스트 검색 중…
+select.0.1:
+    text: "{0} ''{1}'' 선택"
+select.working.directory.message:
+    text: 작업 디렉터리 선택
+service.view.activate.tool.window.action.description:
+    text: 서비스 창 활성화
+service.view.activate.tool.window.action.name:
+    text: '{0} (서비스)'
+service.view.add.service.action.name:
+    text: 서비스 추가
+service.view.all.services:
+    text: 모든 서비스
+service.view.configure.dialog.description:
+    text: 서비스를 별도의 도구 창으로 표시하려면 제외하십시오. <br>  실행 구성 유형의 출력을 실행/디버그 도구 창에 표시하려면 제외하십시오.
+service.view.configure.dialog.title:
+    text: 서비스 도구 창 구성
+service.view.configure.exclude.button.text:
+    text: 제외 >(_E)
+service.view.configure.excluded.label.text:
+    text: '별도 도구 창:'
+service.view.configure.include.button.text:
+    text: < 포함(_I)
+service.view.configure.included.label.text:
+    text: '서비스 도구 창:'
+service.view.configure.run.configuration.types:
+    text: 실행/디버그 구성 유형
+service.view.configure.run.tool.windows:
+    text: 실행/디버그
+service.view.delete.confirmation:
+    text: '{0}을(를) 삭제하시겠습니까?'
+service.view.empty.selection.text:
+    text: 자세히 보려면 서비스를 선택하십시오
+service.view.empty.tab.text:
+    text: 사용 가능한 콘텐츠가 없습니다
+service.view.empty.tree.text:
+    text: 구성된 서비스가 없습니다.
+service.view.group.label:
+    text: '그룹 이름:'
+service.view.group.title:
+    text: 서비스 그룹화
+service.view.include.into.services.action.text:
+    text: 서비스 도구 창에 추가
+service.view.items:
+    text: '{0, choice, 1#1개 항목|1<{0,number,integer}개 항목}'
+service.view.open.in.new.tab.ad.text:
+    text: 노드를 도구 창 헤더로 드래그하여 새 탭을 엽니다
+service.view.scroll.from.editor.action.description:
+    text: 활성 에디터에 열려 있는 서비스 선택
+service.view.scroll.from.editor.action.name:
+    text: 열려 있는 서비스 선택
+set.class.name.message:
+    text: 클래스 이름을 먼저 설정하십시오
+show.irrelevant.configurations.action.name:
+    text: '{0}개 항목 더 보기…'
+show.running.list.balloon.hint:
+    text: 클릭하여 이동
+show.running.list.balloon.nothing:
+    text: 표시할 항목 없음
+show.running.list.balloon.title:
+    text: 실행 목록
+sm.test.runner.magnitude.assertion.failed.title:
+    text: 단언 실패
+sm.test.runner.magnitude.completed.failed.title:
+    text: 완료됨
+sm.test.runner.magnitude.ignored.failed.title:
+    text: 무시됨
+sm.test.runner.magnitude.not.run.failed.title:
+    text: 실행되지 않음
+sm.test.runner.magnitude.passed.title:
+    text: 통과됨
+sm.test.runner.magnitude.running.failed.title:
+    text: 실행 중…
+sm.test.runner.magnitude.skipped.failed.title:
+    text: 건너뜀
+sm.test.runner.magnitude.terminated.failed.title:
+    text: 종료됨
+sm.test.runner.magnitude.testerror.title:
+    text: 오류
+some.modules.has.circular.dependency.error.message:
+    text: 일부 모듈에 순환 종속성이 있습니다.
+standard.runner.description:
+    text: 선택한 구성 실행
+starting.jvm.progress.text:
+    text: JVM 시작 중…
+statistics.tab.title:
+    text: 통계
+stop.all:
+    text: 모두 중단 ({0})
+stop.background.process:
+    text: 백그라운드 프로세스 중단
+stop.configuration.action.name:
+    text: "''{0}'' 중단"
+stop.incompatible.confirmation.button.text:
+    text: 호환되지 않는 항목 중단
+stop.incompatible.confirmation.message:
+    text: "''{0}'' 실행 구성은 {2, choice, 1#현재 실행 중인 {1} 구성|2#다음의 실행 중인 구성들:\n{1}}과(와) 호환되지 않습니다.\n{2, choice, 1#호환되지 않는 실행 인스턴스|2#{2, number}개의 호환되지 않는 실행 인스턴스}를 중단하시겠습니까?"
+stop.process:
+    text: 프로세스 중단
+strings.equal.failed.dialog.title:
+    text: 비교 실패
+terminate.process.confirmation.text:
+    text: "프로세스 ''{0}''을(를) 종료하시겠습니까?"
+terminating.process.progress.kill:
+    text: 프로세스 강제 종료(Kill)
+terminating.process.progress.title:
+    text: "''{0}'' 종료 중"
+test.in.scope.presentable.text:
+    text: "''{0}''의 테스트"
+test.method.doesnt.exist.error.message:
+    text: "테스트 메서드 ''{0}''이(가) 존재하지 않습니다"
+test.not.started.progress.text:
+    text: 테스트가 시작되지 않았습니다
+title.cannot.open.file:
+    text: 파일을 열 수 없음
+title.submitting.error.report:
+    text: 오류 보고서 제출 중
+tool.window.name.run:
+    text: 실행
+waiting.for.vm.detach.progress.text:
+    text: 프로세스 분리 대기 중
+warning.common.title:
+    text: 경고

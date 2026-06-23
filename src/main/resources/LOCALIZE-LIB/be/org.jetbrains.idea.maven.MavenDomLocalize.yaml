@@ -1,0 +1,60 @@
+MavenDuplicateDependenciesInspection.has.duplicates:
+    text: '<html><body>Залежнасць дублюецца ў файле(ах) #treeend: {0} </body></html>'
+all.dependencies:
+    text: Усе залежнасці
+children.poms.title:
+    text: Перайсці да даччыных праектаў
+choose.project:
+    text: Выбрать проект
+chooser.show.project.files:
+    text: Файлы проекта
+dependencies.chooser.title:
+    text: Выбраць залежнасць
+fix.create.module:
+    text: Создать модуль
+fix.create.module.with.parent:
+    text: Стварыць модуль з бацькам
+fix.open.file:
+    text: "Открыть ''{0}''"
+fix.parent.path:
+    text: Выправіць адносны шлях
+fix.update.indices:
+    text: Абнавіць індэксы Maven
+generate.dependency:
+    text: Згенераваць залежнасць
+generate.dependency.template:
+    text: Шаблон залежнасці
+generate.managed.dependency:
+    text: Кіраваная залежнасць
+generate.parent:
+    text: Бацька
+generate.plugin.template:
+    text: Шаблон плагіна
+generate.repository.template:
+    text: Шаблон рэпазіторыя
+inspection.duplicate.dependencies.name:
+    text: Дублюючыя залежнасці
+inspection.group:
+    text: Безопасность
+inspection.name:
+    text: Спасылка з незашыфраваным пратаколам
+inspection.redundant.groupId.name:
+    text: Лішні groupId
+intention.choose.file:
+    text: Выбрать файл
+navigate.children.poms.title:
+    text: Выбрать проект
+navigate.parent.dependency.title:
+    text: Выберыце залежнасць для пераходу
+navigate.parent.plugin.title:
+    text: Выберыце плагін для пераходу
+overriden.plugin.title:
+    text: "Перайсці да раздзела 'pluginManagement'"
+overriding.dependency.title:
+    text: Перайсці да выкарыстання залежнасці
+overriding.plugin.title:
+    text: Перайсці да выкарыстання плагіна
+parent.pom.title:
+    text: Перайсці да бацькі
+refactoring.introduce.property:
+    text: Создать свойство

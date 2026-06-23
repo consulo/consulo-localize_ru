@@ -1,0 +1,32 @@
+filetype.chooser.file.pattern:
+    text: '&Patrón de archivo:'
+filetype.chooser.prompt:
+    text: "El archivo ''{0}'' no está asociado con ningún tipo de archivo. Por favor, defina la asociación:"
+filetype.chooser.title:
+    text: Registrar nueva asociación de tipo de archivo
+filetype.edit.add.pattern.exists.error:
+    text: "Este comodín está reservado para el tipo de archivo ''{0}'' y no se puede reasignar"
+filetype.edit.add.pattern.exists.message:
+    text: "Este comodín ya está registrado por el tipo de archivo ''{0}''"
+filetype.edit.add.pattern.exists.title:
+    text: Añadir comodín
+filetype.edit.add.pattern.prompt:
+    text: "Introduzca el nuevo &comodín (se permiten '*' y '?'):"
+filetype.edit.add.pattern.reassign.button:
+    text: '&Reasignar comodín'
+filetype.edit.add.pattern.title:
+    text: Añadir comodín
+filetype.edit.edit.pattern.title:
+    text: Editar comodín
+filetype.edit.existing.title:
+    text: Editar tipo de archivo
+filetype.edit.new.title:
+    text: Nuevo tipo de archivo
+filetype.plaintext.description:
+    text: Texto
+filetype.registered.patterns.group:
+    text: 'Patrones de nombre de archivo:'
+filetype.settings.no.patterns:
+    text: No hay patrones de archivo registrados
+filetype.settings.title:
+    text: Tipos de archivo

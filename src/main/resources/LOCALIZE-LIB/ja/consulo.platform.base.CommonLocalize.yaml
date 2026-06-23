@@ -1,0 +1,165 @@
+access.is.denied.error.message:
+    text: アクセスは拒否されました。
+action.close:
+    text: 閉じる
+action.help:
+    text: ヘルプ
+action.refresh:
+    text: 更新
+action.rerun:
+    text: 再実行
+an.attempt.was.made.to.load.a.program.with.an.incorrect.format.error.message:
+    text: 不正なフォーマットのプログラムを読み込もうとしました。
+button.add:
+    text: 追加
+button.apply:
+    text: 適用(&A)
+button.background:
+    text: バックグラウンド(&B)
+button.cancel:
+    text: キャンセル
+button.close:
+    text: 閉じる(&C)
+button.continue:
+    text: 続行(&T)
+button.copy:
+    text: コピー...
+button.delete:
+    text: 削除
+button.help:
+    text: ヘルプ
+button.load.file:
+    text: ファイルの読み込み
+button.no:
+    text: いいえ(_N)
+button.no.for.all:
+    text: すべていいえ(&O)
+button.remove:
+    text: 削除する
+button.reset:
+    text: リセット
+button.yes:
+    text: はい(_Y)
+button.yes.for.all:
+    text: すべてはい(&A)
+cannot.redo.dialog.title:
+    text: やり直せません
+cannot.redo.message:
+    text: やり直せません
+cannot.start.other.instance.is.running.error.message:
+    text: |-
+        {0} は、同一マシン上で {0} のインスタンスが起動しているかどうかを確認するためのローカル接続を作成できませんでした。
+        同一マシン上で {0} の複数のインスタンスを起動すると、共有システム フォルダにより
+        予期しない結果を引き起こします。
+        TCP/IP 設定/ローカル ファイアウォール設定を確認してください。
+        また {1} をアタッチします。
+cannot.undo.dialog.title:
+    text: 元に戻せません
+cannot.undo.message:
+    text: 元に戻せません
+captured.memory.snapshot.placed.in.user.home.directory.message.text:
+    text: キャプチャしたメモリ スナップショット :{0}.zip はユーザー ホーム ディレクトリに格納されます
+checkbox.remember.password:
+    text: パスワードを記憶する
+close.action.name:
+    text: 閉じる
+corrupted.scheme.file.message.title:
+    text: 破損ファイル
+data.error.cyclic.redundancy.check.error.message:
+    text: データ エラー (循環冗長チェック)。
+dialog.ioexception.proxy:
+    text: HTTP プロキシの設定
+dialog.ioexception.tryagain:
+    text: 再試行してください
+dialog.options.do.not.show:
+    text: 次回からこのダイアログを表示しない
+dialog.title.choose.date:
+    text: 日付の選択
+drop.undo.history.command.name:
+    text: ダミー
+editbox.login:
+    text: 'ログイン :'
+editbox.password:
+    text: 'パスワード :'
+error.reading.color.scheme.from.file.error.message:
+    text: '{0} からのカラー スキーム読み込みエラー'
+exception.directory.is.invalid:
+    text: ディレクトリは無効な {0} です
+exception.directory.is.not.readable:
+    text: ディレクトリは参照できない {0} です
+failed.to.make.file.writeable.error.message:
+    text: '{0} を書き込み可能にできません。'
+failed.to.make.the.following.files.writable.error.message:
+    text: 次のファイルを書き込み可能にできません :{0}
+incorrect.function.error.message:
+    text: 不正な関数です。
+information.dialog.title:
+    text: 情報
+local.vcs.action.name.redo.command:
+    text: '{0} のやり直し'
+local.vcs.action.name.undo.command:
+    text: '{0} の取り消し'
+not.enough.storage.is.available.to.complete.this.operation.error.message:
+    text: 操作を完了するための十分なストレージが利用できません。
+not.enough.storage.is.available.to.process.this.command.error.message:
+    text: コマンドを処理するための十分なストレージが利用できません。
+profiling.captured.cpu.snapshot.message.text:
+    text: キャプチャした CPU スナップショット :{0}.zip はユーザー ホーム ディレクトリに格納されます
+redo.command.confirmation.text:
+    text: '{0} のやり直し'
+redo.confirmation.title:
+    text: やり直し
+the.access.code.is.invalid.error.message:
+    text: アクセス コードが無効です。
+the.data.is.invalid.error.message:
+    text: データは無効です。
+the.device.does.not.recognize.the.command.error.message:
+    text: デバイスはコマンドを認識しません。
+the.device.is.not.ready.error.message:
+    text: デバイスは使用できません。
+the.directory.cannot.be.removed.error.message:
+    text: ディレクトリは削除できません。
+the.drive.cannot.find.the.sector.requested.error.message:
+    text: 要求したセクタがありません。
+the.drive.cannot.locate.a.specific.area.or.track.on.the.disk.error.message:
+    text: ドライブは特定の領域またはトラックをディスクに割り当てられません。
+the.environment.is.incorrect.error.message:
+    text: 環境が不正です。
+the.handle.is.invalid.error.message:
+    text: ハンドルは無効です。
+the.media.is.write.protected.error.message:
+    text: このメディアは書き込み禁止です。
+the.program.issued.a.command.but.the.command.length.is.incorrect.error.message:
+    text: プログラムはコマンドを発行しましたが、コマンドの長さが不正です。
+the.specified.disk.or.diskette.cannot.be.accessed.error.message:
+    text: 指定したディスクまたはディスケットにアクセスできません。
+the.storage.control.block.address.is.invalid.error.message:
+    text: ストレージ制御ブロックアドレスは無効です。
+the.storage.control.blocks.were.destroyed.error.message:
+    text: ストレージ制御ブロックが破損しました。
+the.system.cannot.find.the.device.specified.error.message:
+    text: 指定したデバイスはありません。
+the.system.cannot.find.the.drive.specified.error.message:
+    text: 指定したドライブはありません。
+the.system.cannot.find.the.file.specified.error.message:
+    text: 指定したファイルはありません。
+the.system.cannot.find.the.path.specified.error.message:
+    text: 指定したパスはありません。
+the.system.cannot.move.the.file.to.a.different.disk.drive.error.message:
+    text: ファイルを他のディスク ドライブに移動できません。
+the.system.cannot.open.the.file.error.message:
+    text: ファイルを開けません。
+there.are.no.more.files.error.message:
+    text: ファイルはこれ以上ありません。
+title.error:
+    text: エラー
+title.warning:
+    text: 警告
+tree.node.loading:
+    text: 読み込み中...
+undo.command.confirmation.text:
+    text: '{0} の取り消し'
+undo.dialog.title:
+    text: 取り消し
+vcs.configurable.general.tab.title:
+    text: 一般

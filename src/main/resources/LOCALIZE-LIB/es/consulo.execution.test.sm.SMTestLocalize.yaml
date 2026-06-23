@@ -1,0 +1,98 @@
+checkbox.run.tests.before.commit:
+    text: "Ejecutar ''{0}''"
+dialog.message.target.does.not.exist:
+    text: El destino {0} no existe
+dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
+    text: 'No se puede ejecutar la configuración: no se pudo detectar el framework de pruebas'
+dialog.message.unable.to.run.configuration.settings.are.corrupted:
+    text: 'No se puede ejecutar la configuración: los ajustes están dañados'
+link.label.choose.configuration.before.commit:
+    text: Seleccionar configuración
+progress.text.running.tests:
+    text: "Ejecutando ''{0}''…"
+sm.test.runner.abstract.import.test.error.title:
+    text: Error al importar
+sm.test.runner.import.test:
+    text: Importar pruebas desde archivo…
+sm.test.runner.import.test.description:
+    text: Importar los resultados de la ejecución de una prueba desde un archivo XML
+sm.test.runner.import.test.group.open.recent.session:
+    text: Abrir sesión de prueba reciente
+sm.test.runner.imported.to.general.failed.to.parse.error.title:
+    text: Error al analizar {0}
+sm.test.runner.magnitude.assertion.failed.title:
+    text: Aserción fallida
+sm.test.runner.magnitude.completed.failed.title:
+    text: Completado
+sm.test.runner.magnitude.ignored.failed.title:
+    text: Ignorado
+sm.test.runner.magnitude.not.run.failed.title:
+    text: No ejecutado
+sm.test.runner.magnitude.passed.title:
+    text: Aprobado
+sm.test.runner.magnitude.running.failed.title:
+    text: Ejecutando…
+sm.test.runner.magnitude.skipped.failed.title:
+    text: Omitido
+sm.test.runner.magnitude.terminated.failed.title:
+    text: Terminado
+sm.test.runner.results.form.save.test.results.title:
+    text: Guardar resultados de las pruebas
+sm.test.runner.states.test.is.ignored:
+    text: Test ignorado.
+sm.test.runner.ui.tests.tree.presentation.accessible.status.failed:
+    text: Fallido
+sm.test.runner.ui.tests.tree.presentation.accessible.status.failed.with.errors:
+    text: Fallido con errores
+sm.test.runner.ui.tests.tree.presentation.accessible.status.ignored:
+    text: Ignorado
+sm.test.runner.ui.tests.tree.presentation.accessible.status.ignored.with.errors:
+    text: Ignorado con errores
+sm.test.runner.ui.tests.tree.presentation.accessible.status.not.ran:
+    text: No ejecutado
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed:
+    text: Pasado
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed.with.errors:
+    text: Pasado con errores
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed.with.ignored:
+    text: Pasada con ignorados
+sm.test.runner.ui.tests.tree.presentation.accessible.status.paused:
+    text: Pausado
+sm.test.runner.ui.tests.tree.presentation.accessible.status.paused.with.errors:
+    text: Pausado con errores
+sm.test.runner.ui.tests.tree.presentation.accessible.status.running:
+    text: En ejecución
+sm.test.runner.ui.tests.tree.presentation.accessible.status.skipped:
+    text: Omitido
+sm.test.runner.ui.tests.tree.presentation.accessible.status.terminated:
+    text: Terminado
+sm.test.runner.ui.tests.tree.presentation.accessible.status.terminated.with.errors:
+    text: Finalizado con errores
+sm.test.runner.ui.tests.tree.presentation.labels.all.but.ignored.passed:
+    text: Todas las pruebas superadas (excepto las ignoradas)
+sm.test.runner.ui.tests.tree.presentation.labels.done:
+    text: 'Hecho:'
+sm.test.runner.ui.tests.tree.presentation.labels.failed:
+    text: 'Fallidos:'
+sm.test.runner.ui.tests.tree.presentation.labels.instantiating.tests:
+    text: Instanciando pruebas…
+sm.test.runner.ui.tests.tree.presentation.labels.no.tests.were.found:
+    text: No se encontraron pruebas
+sm.test.runner.ui.tests.tree.presentation.labels.not.test.results:
+    text: Sin resultados de las pruebas
+sm.test.runner.ui.tests.tree.presentation.labels.of:
+    text: de
+sm.test.runner.ui.tests.tree.presentation.labels.running:
+    text: 'Ejecutando:'
+sm.test.runner.ui.tests.tree.presentation.labels.running.tests:
+    text: Ejecutando pruebas…
+sm.test.runner.ui.tests.tree.presentation.labels.test.noname:
+    text: <sin nombre>
+sm.test.runner.ui.tests.tree.presentation.labels.test.reporter.not.attached:
+    text: El marco de pruebas se cerró inesperadamente.
+sm.test.runner.ui.tests.tree.presentation.labels.test.results:
+    text: Resultados de las pruebas
+sm.test.runner.ui.tests.tree.presentation.labels.was.terminated:
+    text: Finalizado
+suffix.incomplete.index.was.used:
+    text: Es posible que falten algunas pruebas debido a un índice incompleto

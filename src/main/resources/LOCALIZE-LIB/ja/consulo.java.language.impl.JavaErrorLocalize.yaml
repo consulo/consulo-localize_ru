@@ -1,0 +1,176 @@
+annotation.missing.method:
+    text: "メソッド '' {0} ''が見つかりません"
+annotation.unknown.method:
+    text: "メソッド '' {0} 'を解決できません"
+bad.qualifier.in.super.method.reference:
+    text: デフォルト・スーパー・コールの不良タイプ修飾子：{0}
+call.to.super.is.not.allowed.in.enum.constructor:
+    text: superへの呼び出しはenumコンストラクタでは許可されていません
+cannot.select.dot.class.from.type.variable:
+    text: 型変数から選択できません
+class.is.not.used:
+    text: "クラス '' {0} 'は使用されません"
+classes.extends.enum:
+    text: "クラスは直接 'java.lang.Enum'を拡張することはできません"
+constructor.is.not.used:
+    text: "コンストラクタ '' {0} ''は使用されません"
+declaration.or.variable.expected:
+    text: 宣言、最終的または効果的な最終的な変数の期待
+direct.abstract.method.access:
+    text: "抽象メソッド '' {0} 'に直接アクセスすることはできません"
+exception.is.never.thrown:
+    text: "メソッド内で '{0}'がスローされない例外"
+expression.expected:
+    text: 表現が期待される
+extends.after.enum:
+    text: enumに許されるextends節はありません
+field.is.not.used:
+    text: "フィールド '' {0} 'は使用されません"
+generics.holder.method:
+    text: 方法
+generics.holder.type:
+    text: タイプ
+generics.select.static.class.from.parameterized.type:
+    text: "パラメータ化された型から静的なクラス '' {0} ''を選択できません"
+generics.type.argument.cannot.be.of.primitive.type:
+    text: 型引数はプリミティブ型ではありません
+generics.type.or.method.does.not.have.type.parameters:
+    text: "{0} '' {1} ''に型パラメータはありません"
+generics.unchecked.assignment:
+    text: "未確認の割り当て： '' {0} 'から' '{1}' 'へ"
+generics.unchecked.call:
+    text: "チェックされていないメソッド '' {0} ''の呼び出し"
+generics.unchecked.call.to.member.of.raw.type:
+    text: "未加工のタイプ '' {1} ''のメンバーとしての '' {0} ''への未確認呼び出し"
+generics.unchecked.cast:
+    text: "チェックされていないキャスト： '' {0} 'から' '{1}' 'へ"
+generics.wildcards.may.be.used.only.as.reference.parameters:
+    text: ワイルドカードは参照パラメータとしてのみ使用できます
+illegal.forward.reference:
+    text: 不正な転送参照
+illegal.line.end.in.character.literal:
+    text: 文字リテラルの行末が正しくありません
+illegal.line.end.in.string.literal:
+    text: 文字列リテラルの不正な行末
+illegal.self.reference:
+    text: 不正な自己参照
+illegal.to.access.static.member.from.enum.constructor.or.instance.initializer:
+    text: "enumコンストラクタまたはインスタンス初期化子から静的メンバー '' {0} ''にアクセスすることは不正です"
+implements.after.interface:
+    text: インタフェースにはimplements節は使用できません
+inaccessible.type:
+    text: "'' {0} ''はここにアクセスできません"
+incompatible.call.types:
+    text: "Wrong {0, choice, 1#1st|2#2nd|3#3rd|4#{0,number}th} argument type. 見つかった型: ''{2}'', 必須の型: ''{1}''"
+incompatible.return.type:
+    text: 互換性のない戻り値の型を使用しようとしています
+incompatible.types.html.tooltip:
+    text: <html><body>互換性のない型<table><tr><td>必須の型:</td><td>{0}</td>{1}</tr><tr><td>見つかった型:</td><td>{2}</td>{3}</tr></table></body></html>
+inheritance.from.final.class:
+    text: "最後の '' {0} ''から継承できません"
+interface.cannot.be.local:
+    text: インターフェイスはここでは許可されてい
+interface.expected:
+    text: インターフェイスはここに期待
+interface.methods.cannot.have.body:
+    text: インタフェースメソッドはボディを持つことができません
+invalid.package.annotation.containing.file:
+    text: パッケージの注釈は、ファイルpackage-info.javaになければなりません。
+is.not.an.enclosing.class:
+    text: "'' {0} ''は囲むクラスではありません"
+local.class.is.not.used:
+    text: "ローカルクラス '' {0} 'は使用されません"
+local.enum:
+    text: 列挙型はローカルであってはならない
+local.variable.is.never.used:
+    text: "変数 '' {0} 'は使用されません"
+local.variable.is.not.assigned:
+    text: "変数 '' {0} 'は割り当てられません"
+local.variable.is.not.used.for.reading:
+    text: "変数 '' {0} 'は割り当てられていますがアクセスされません"
+member.referenced.before.constructor.called:
+    text: "スーパータイプコンストラクタが呼び出される前に '' {0} ''を参照することはできません"
+method.is.not.used:
+    text: "メソッド '' {0} ''は使用されません"
+missing.method.body:
+    text: メソッド本体が見つからないか、抽象を宣言しています
+missing.package.statement:
+    text: "パッケージ文がありません： '' {0} ''"
+missing.return.type:
+    text: 無効なメソッド宣言。
+modifiers.for.enum.constants:
+    text: enum定数に変更子は使用できません
+module.ambiguous:
+    text: あいまいなモジュール参照：{0}
+module.not.in.requirements:
+    text: "モジュール '' {0} ''は要件のモジュール '' {1} ''を持っていません"
+module.not.on.path:
+    text: モジュールは依存関係にありません：{0}
+module.open.duplicate.text:
+    text: 複製する
+module.opens.in.weak.module:
+    text: "オープンしているモジュールで 'opens'は許可されていません"
+module.package.not.exported:
+    text: "モジュール '' {0} ''はパッケージ '' {1} ''をモジュール '' {2} ''にエクスポートしません"
+module.package.on.classpath:
+    text: 名前付きモジュールは名前のないパッケージにアクセスできません
+module.service.unused:
+    text: 提供されているがエクスポートまたは使用されていないサービスインターフェイス
+no.default.constructor.available:
+    text: "'' {0} ''にはデフォルトのコンストラクタはありません"
+not.loop.label:
+    text: "ループラベルではありません： '' {0} ''"
+package.local.symbol:
+    text: "'' {0} 'は' '{1}' 'には公開されていません。"
+package.name.file.path.mismatch:
+    text: "パッケージ名 '' {0} ''はファイルパス '' {1} ''に対応していません"
+package.not.found:
+    text: パッケージが見つかりません：{0}
+parameter.is.not.used:
+    text: "パラメータ '' {0} 'は使用されません"
+private.constructor.is.not.used:
+    text: "プライベートコンストラクタ '{0}'は使用されません"
+private.field.is.not.assigned:
+    text: "プライベートフィールド '' {0} 'は割り当てられません"
+private.field.is.not.used:
+    text: "プライベートフィールド '' {0} 'は使用されません"
+private.field.is.not.used.for.reading:
+    text: "プライベートフィールド '' {0} 'は割り当てられていますがアクセスされていません"
+private.inner.class.is.not.used:
+    text: "プライベート内部クラス '' {0} 'は使用されません"
+private.inner.interface.is.not.used:
+    text: "プライベート内部インターフェイス '' {0} ''は使用されません"
+private.method.is.not.used:
+    text: "プライベートメソッド '' {0} 'は使用されません"
+private.symbol:
+    text: "'' {0} 'は' '{1}' 'にプライベートアクセス権を持っています"
+protected.symbol:
+    text: "'' {0} ''は{1} ''のアクセスを保護しています"
+public.class.should.be.named.after.file:
+    text: "クラス '' {0} ''はパブリックであり、 '' {0} .java ''というファイルで宣言する必要があります"
+qualified.enum.constant.in.switch:
+    text: 列挙型スイッチのラベル​​は、列挙定数の修飾されていない名前でなければなりません
+resource.variable.must.be.final:
+    text: リソースの試行リソースとして使用される変数は、最終的または効果的に最終的なものでなければなりません
+single.import.class.conflict:
+    text: "'' {0} ''はすでに単一タイプのインポートで定義されています"
+statement.must.be.prepended.with.case.label:
+    text: ステートメントにはケースラベルが付加されていなければなりません
+static.declaration.in.inner.class:
+    text: 内部クラスは静的宣言を持つことはできません
+static.member.accessed.via.instance.reference:
+    text: "インスタンス参照によってアクセスされた静的メンバー '' {0}。{1} ''"
+static.method.cannot.override.instance.method:
+    text: "'' {1} ''の静的メソッド '' {0} ''は '' {3} ''のインスタンスメソッド '' {2} ''をオーバーライドできません"
+type.parameter.is.not.used:
+    text: "タイプパラメータ '' {0} ''は使用されません"
+unchecked.overriding.incompatible.return.type:
+    text: チェックされていないオーバーライド：戻り値の型は未チェックの変換が必要です。
+unrelated.overriding.methods.return.types:
+    text: メソッドには関係のない戻り値の型があります
+valid.switch.selector.types:
+    text: byte、char、shortまたはint
+visibility.access.problem:
+    text: "'' {1} ''の '{0}'にアクセスできません"
+wrong.constructor.arguments:
+    text: "'' {0} ''を '' {1} ''に適用できません"

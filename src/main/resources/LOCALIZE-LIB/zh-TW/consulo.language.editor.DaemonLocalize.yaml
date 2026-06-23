@@ -1,0 +1,102 @@
+analysis.completed:
+    text: 分析完成
+analysis.hasnot.been.run:
+    text: 分析完成
+analysis.suspended:
+    text: 程式碼分析已暫停
+class.is.subclassed.by.header:
+    text: 已被歸為子類別由<br>
+class.is.subclassed.too.many:
+    text: 有子類別
+errors.found:
+    text: <b>{0}</b> {1} 已找到
+errors.found.so.far:
+    text: <b>{0}</b> {1} 已發現
+heavyProcess.type.indexing:
+    text: 正在編制索引…
+heavyProcess.type.processing:
+    text: 正在處理…
+heavyProcess.type.syncing:
+    text: 正在同步…
+import.popup.multiple:
+    text: '{0}? (復選...)'
+inspection.collapse.description:
+    text: 更少...
+inspection.extended.description:
+    text: 更多...
+interface.is.implemented.by.header:
+    text: 已實現由<br>
+interface.is.implemented.too.many:
+    text: 已經實現
+iw.status.analyzing:
+    text: 正在分析...
+iw.status.off:
+    text: 關閉
+iw.status.paused:
+    text: 已暫停…
+method.is.implemented.header:
+    text: 已實現於<br>
+method.is.implemented.too.many:
+    text: 已經實現
+method.is.overridden.too.many:
+    text: 在子類別覆寫
+method.is.overriden.header:
+    text: 已覆寫於<br>
+navigation.findUsages.title.super.method:
+    text: 超類別的方法 {0}
+navigation.title.implementation.method:
+    text: <html><body>選取<b>{0}</b>的實施方法 ({1} 方法發現)</body></html>
+navigation.title.overrider.method:
+    text: <html><body>選取<b>{0}</b>的重寫方法(已找到{1}個方法)</body></html>
+navigation.title.super.method:
+    text: 選取超類別的方法 {0}
+no.analysis.performed:
+    text: 沒有執行任何分析
+no.errors.or.warnings.found:
+    text: 未發現問題
+no.errors.or.warnings.found.so.far:
+    text: 還未沒有發現問題
+no.inspections.performed:
+    text: 沒有檢查執行
+no.inspections.performed.for:
+    text: 沒有檢查執行{0}
+no.syntax.highlighting.performed:
+    text: 沒有進行語法高亮
+no.syntax.highlighting.performed.for:
+    text: 未進行語法高亮 {0}
+pass.inspection:
+    text: 檢查
+pass.syntax:
+    text: 語法分析
+pass.whole.inspections:
+    text: 慢速檢查
+pass.wolf:
+    text: 檢查紅色的檔案
+performing.code.analysis:
+    text: 執行代碼分析
+popup.action.configure.inspections:
+    text: 設定檢查…
+popup.title.configure.highlighting.level:
+    text: '{0} 的高亮級別'
+process.title.file.is.binary:
+    text: 檔案為二進制
+process.title.file.is.decompiled:
+    text: 檔案已反編譯
+process.title.file.is.generated:
+    text: 檔案已生成
+process.title.heavy.operation.is.running:
+    text: 大型運算正在進行
+process.title.highlighting.is.disabled.for.this.file:
+    text: 此檔案已禁用高亮顯示
+process.title.highlighting.is.paused.temporarily:
+    text: 高亮顯示暫時暫停
+process.title.highlighting.level.is.none:
+    text: 高亮顯示已禁用
+process.title.no.file:
+    text: 無檔案
+process.title.project.is.disposed:
+    text: 專案已處置
+shallow.analysis.completed:
+    text: 淺層分析已完成
+shallow.analysis.completed.details:
+    text: 編制索引後可獲得完整結果

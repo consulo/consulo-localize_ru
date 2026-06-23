@@ -1,0 +1,95 @@
+maven.action.download.sources:
+    text: Descargar código fuente
+maven.action.download.sources.busy.text:
+    text: Descargando fuentes…
+maven.downloading:
+    text: Descargando fuentes y documentación de la biblioteca Maven…
+maven.downloading.cancelled:
+    text: Se ha cancelado la descarga de los componentes de la biblioteca
+maven.downloading.plugins:
+    text: Descargando plugins de Maven…
+maven.downloading.pom.plugins:
+    text: Descargando plugins para {0}…
+maven.downloading.sources:
+    text: Descargando fuentes de la biblioteca Maven…
+maven.ignore:
+    text: Ignorar proyectos
+maven.ignore.edit:
+    text: Editar archivos ignorados…
+maven.import.title.module.dir:
+    text: Seleccionar el directorio para los archivos de módulo de IDEA (*.iml)
+maven.locating.files:
+    text: Localizando archivos de proyecto Maven…
+maven.navigator.nothing.to.display:
+    text: |-
+        No hay proyectos Maven para mostrar.
+
+        Puede utilizar {0} para añadir un proyecto o {1} para permitir que el complemento busque todos los archivos pom.xml bajo las raíces del proyecto y los vuelva a cargar
+maven.post.processing:
+    text: Configurando proyectos Maven
+maven.profile.activate:
+    text: Activar
+maven.profile.deactivate:
+    text: Desactivar
+maven.profile.default:
+    text: Usar predeterminado
+maven.project.import.title:
+    text: Recargar proyectos Maven
+maven.project.importing:
+    text: Importando proyectos Maven
+maven.project.problem.moduleNotFound:
+    text: "No se encontró el módulo ''{0}''"
+maven.project.problem.parentHasProblems:
+    text: "El elemento primario ''{0}'' tiene problemas"
+maven.project.problem.parentNotFound:
+    text: "No se encontró el padre ''{0}''"
+maven.project.problem.recursiveInheritance:
+    text: Se ha encontrado una herencia recursiva
+maven.project.problem.selfInheritance:
+    text: Se encontró autoherencia
+maven.project.problem.unresolvedDependency:
+    text: "Dependencia no resuelta: ''{0}''"
+maven.project.problem.unresolvedExtension:
+    text: "Extensión de compilación no resuelta: ''{0}''"
+maven.project.problem.unresolvedPlugin:
+    text: "Plugin no resuelto: ''{0}''"
+maven.reading:
+    text: Leyendo proyectos Maven…
+maven.reading.pom:
+    text: Leyendo {0}…
+maven.resolving:
+    text: Resolviendo dependencias de Maven…
+maven.resolving.pom:
+    text: Resolviendo dependencias de {0}…
+maven.scanning.projects:
+    text: Escaneando proyectos Maven…
+maven.select.local.repository:
+    text: Seleccionar repositorio local
+maven.select.maven.home.directory:
+    text: Seleccionar el directorio principal de Maven
+maven.select.maven.settings.file:
+    text: Seleccionar archivo de configuración de usuario
+maven.tab.ignored.files:
+    text: Archivos ignorados
+maven.tab.importing:
+    text: Importando
+maven.testRunning:
+    text: Ejecutando pruebas
+maven.unignore:
+    text: Dejar de ignorar proyectos
+maven.updating.folders:
+    text: Generando fuentes de Maven…
+module.group.name:
+    text: R
+view.node.dependencies:
+    text: Dependencias
+view.node.lifecycle:
+    text: Ciclo de vida
+view.node.modules:
+    text: Módulos
+view.node.plugins:
+    text: Extensiones
+view.node.profiles:
+    text: Perfiles
+view.node.run.configurations:
+    text: Configuraciones de ejecución

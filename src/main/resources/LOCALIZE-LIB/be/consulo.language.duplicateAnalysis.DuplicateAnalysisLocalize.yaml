@@ -1,0 +1,86 @@
+duplicate.anonymize.uncommon.description:
+    text: <html>(Вялікія значэнні запавольваюць выкананне.<br>Значэнні больш за 0 прыводзяць да пошуку больш абстрактных структур кода)</html>
+duplicate.anonymize.uncommon.outside.scope.checkbox:
+    text: Толькі бачныя звонку вобласці бачнасці [&O]
+duplicate.dialog.title:
+    text: Налады аналізу дублікатаў кода
+duplicate.location.invalid:
+    text: Несапраўдна
+duplicate.location.multiple.lines:
+    text: Радкі {0}-{1} у {2}
+duplicate.location.single.line:
+    text: Строка {0} в {1}
+duplicates.export.html.page.title:
+    text: Вынікі пошуку дублікатаў {0}
+duplicates.indexing.progress:
+    text: Пабудова індэкса пошуку
+duplicates.multiple.files.group.node:
+    text: '{0} дублікатаў, кошт: {1}, у {2} файлах'
+duplicates.partially.valid.group.node:
+    text: '{0} дублікатаў'
+duplicates.searching.progress:
+    text: 'Пошук дублікатаў:'
+duplicates.send.to.left.action:
+    text: Адправіць улева
+duplicates.send.to.left.action.description:
+    text: Паказаць выбраны элемент як левую версію diff
+duplicates.send.to.right.action:
+    text: Адправіць управа
+duplicates.send.to.right.action.description:
+    text: Паказаць выбраны элемент як правую версію diff
+duplicates.single.file.group.node:
+    text: '{0} дублікатаў, кошт: {1}, у {2}'
+duplicates.unknown.file.node.title:
+    text: Невядома
+duplication.anonymize.fields.checkbox:
+    text: Ананімізаваць палі [&F]
+duplication.anonymize.functions.checkbox:
+    text: Ананімізаваць функцыі [&F]
+duplication.anonymize.literals.checkbox:
+    text: Ананімізаваць літаралы [&L]
+duplication.anonymize.local.variables.checkbox:
+    text: Ананімізаваць лакальныя пераменныя [&V]
+duplication.anonymize.methods.checkbox:
+    text: Ананімізаваць метады [&M]
+duplication.anonymize.types.checkbox:
+    text: Ананімізаваць тыпы [&T]
+duplication.anonymize.uncommon.label:
+    text: Ананімізаваць нячастыя падвыразы прасцей чым
+duplication.anonymize.variables.checkbox:
+    text: Ананімізаваць пераменныя [&V]
+duplication.minimum.cost.label:
+    text: Не паказваць дублікаты прасцей чым
+duplication.none.found.message:
+    text: Дублікаты кода не знойдзены.
+duplication.none.found.title:
+    text: Пошук дублікатаў
+duplication.progress:
+    text: Аналіз дублікатаў кода
+duplication.scope.name.prefix:
+    text: Аналіз
+duplication.title:
+    text: Аналіз дублікатаў кода
+duplication.unavailable.without.indices:
+    text: Аналіз дублікатаў недаступны да гатоўнасці індэксаў
+eliminate.duplicates.action.text:
+    text: Усунуць дублікаты
+headless.duplocator.application.starting.up:
+    text: Запуск {0} (сборка {1})…
+headless.duplocator.command.line.usage:
+    text: "Выкарыстанне:\nduplocate <project_path:path> <include_test_sources:bool> <output_path:path>\n\t[<lower_bound:int:10> [<discard_cost:int:0> <visibility:bool:true>\n\t<distinguish_variables:bool:false> <distinguish_fields:bool:false>\n\t<distinguish_methods:bool:true> <distinguish_types:bool:true>\n\t<distinguish_literals:bool:true>]]\n\nФармат параметраў вышэй: <name:type:default>"
+headless.duplocator.error.not.a.number:
+    text: 'Не лік: {0}'
+headless.duplocator.error.unable.open.project:
+    text: Невозможно открыть проект
+headless.duplocator.opening.project.message:
+    text: Адкрыццё праекта…
+label.locate.duplicates.action.deprecated:
+    text: Дзеянне "Знайсці дублікаты" састарэла.
+link.label.duplicated.code.fragment:
+    text: Дубліраваны фрагмент кода
+link.label.use.duplicate.coded.fragment.inspection:
+    text: Выкарыстоўвайце інспекцыю "{0}".
+offline.duplicates.no.modules.message:
+    text: Гэты праект не змяшчае модуляў. Дубліраванне немагчыма
+tooltip.tree.text:
+    text: Націсніце на стрэлку, каб паказаць выбраны элемент як левую/правую версію diff

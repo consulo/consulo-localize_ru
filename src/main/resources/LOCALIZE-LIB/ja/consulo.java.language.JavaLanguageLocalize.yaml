@@ -1,0 +1,150 @@
+annotation.name.is.missing:
+    text: "注釈属性は 'name = value'の形式でなければなりません"
+anonymous.class.context.display:
+    text: '{0} の匿名'
+anonymous.class.derived.display:
+    text: '{0} から派生した匿名クラス'
+bound.not.expected:
+    text: 予期しない境界
+catch.without.try:
+    text: "'試し'なしの 'キャッチ'"
+default.language.level.description:
+    text: SDKのデフォルト
+else.without.if:
+    text: "'else'を除いて 'if'"
+expected.array.initializer:
+    text: 配列初期化子が必要です
+expected.boolean.expression:
+    text: ブール式が期待される
+expected.catch.or.finally:
+    text: "'キャッチ'または '最終的に'期待"
+expected.class.or.interface:
+    text: "'class'または 'interface'が必要です"
+expected.class.reference:
+    text: クラス参照が必要です
+expected.colon:
+    text: "'：'は期待しています"
+expected.comma:
+    text: "'、'予想通り"
+expected.comma.or.rparen:
+    text: "'、'または '）'が必要です"
+expected.comma.or.semicolon:
+    text: "'、'または ';'"
+expected.eq:
+    text: "'='が必要です"
+expected.expression:
+    text: 表現が期待される
+expected.gt:
+    text: "'>'が必要です。"
+expected.gt.or.comma:
+    text: "'>'または '、'が必要です"
+expected.identifier:
+    text: 識別子が必要です
+expected.identifier.or.type:
+    text: 予想される識別子またはタイプ
+expected.lbrace:
+    text: "'{'が予想されます"
+expected.lbrace.or.semicolon:
+    text: "'{'または';'が予想されます"
+expected.lbracket:
+    text: "'['が予想されます"
+expected.lparen:
+    text: "'（'が予想されます"
+expected.lparen.or.lbracket:
+    text: "'（'または '['が予想されます"
+expected.module.declaration:
+    text: モジュール宣言が必要です
+expected.module.statement:
+    text: モジュールのステートメントが必要です
+expected.package.reference:
+    text: パッケージ参照が必要です
+expected.parameter:
+    text: パラメータが必要です
+expected.rbrace:
+    text: "'}'が予想されます"
+expected.rbracket:
+    text: "']'が予想されます"
+expected.resource:
+    text: リソース定義が必要です
+expected.rparen:
+    text: "'）'が予想されます"
+expected.semicolon:
+    text: "';'が予想されます"
+expected.statement:
+    text: ステートメントが期待される
+expected.type:
+    text: タイプが期待される
+expected.type.parameter:
+    text: 期待されるタイプのパラメータ
+expected.value:
+    text: 予想される値
+expected.while:
+    text: "'期待している間に'"
+expected.with:
+    text: "'with'が期待される"
+feature.annotations:
+    text: 注釈
+feature.binary.literals:
+    text: バイナリリテラル
+feature.diamond.types:
+    text: ダイヤモンドの種類
+feature.extension.methods:
+    text: 拡張メソッド
+feature.for.each:
+    text: 各ループに対して
+feature.generics:
+    text: ジェネリックス
+feature.hex.fp.literals:
+    text: 16進浮動小数点リテラル
+feature.lambda.expressions:
+    text: ラムダ式
+feature.method.references:
+    text: メソッド参照
+feature.modules:
+    text: モジュール
+feature.multi.catch:
+    text: マルチキャッチ
+feature.static.imports:
+    text: 静的なインポート
+feature.try.with.resources:
+    text: リソースを試してみる
+feature.try.with.resources.refs:
+    text: リソース参照
+feature.type.annotations:
+    text: アノテーションを入力
+feature.type.receivers:
+    text: 受信機パラメータ
+feature.underscores.in.literals:
+    text: リテラルの下線
+feature.varargs:
+    text: 可変アリティメソッド
+finally.without.try:
+    text: "'finally'を 'try'なしで"
+import.statement.identifier.or.asterisk.expected.:
+    text: "識別子または '*'が必要です"
+javadoc.exception.tag.class.is.not.throwable:
+    text: クラス{0}はThrowableの子孫ではありません
+javadoc.exception.tag.exception.is.not.thrown:
+    text: '{0}はメソッド{1}によってスローされると宣言されていません'
+javadoc.exception.tag.wrong.tag.value:
+    text: 間違ったタグ値
+javadoc.param.tag.parameter.name.expected:
+    text: パラメーター名が必要です
+javadoc.param.tag.type.parameter.gt.expected:
+    text: "'>'は期待されています"
+javadoc.param.tag.type.parameter.name.expected:
+    text: タイプパラメータ名が必要です
+javadoc.value.field.required:
+    text: '@valueタグはフィールドを参照する必要があります'
+javadoc.value.field.with.initializer.required:
+    text: '@valueタグは定数初期化子を持つフィールドを参照する必要があります'
+javadoc.value.static.field.required:
+    text: '@valueタグは静的フィールドを参照する必要があります'
+javadoc.value.tag.jdk15.required:
+    text: JDK 1.4以前を使用している場合、@valueタグには引数がありません。
+local.class.preposition:
+    text: ローカル
+unexpected.identifier:
+    text: 予期しない識別子
+unexpected.tokens:
+    text: 予想外のトークン

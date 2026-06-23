@@ -1,0 +1,226 @@
+action.presentation.diff.accept.text:
+    text: 接受
+action.presentation.diff.append.text:
+    text: 追加
+action.presentation.diff.revert.text:
+    text: 還原
+all.changes.processed.dialog.title:
+    text: 所有修改已處理
+apply.partially.resolved.merge.dialog.title:
+    text: 套用修改
+apply.patch.partially.resolved.changes.confirmation.message:
+    text: |-
+        There {0, choice, 1#is one hunk|2#are {0, number} hunks} 是未處理的。
+        你確定你想要儲存變更並完成解決嗎?
+binary.file.viewer:
+    text: 二進制檔案查看器
+binary.files.are.different.message:
+    text: 二進位檔案是不同的
+binary.files.are.identical.message:
+    text: 二進位檔案是相同的
+cancel.visual.merge.dialog.title:
+    text: 取消可視化合併
+cannot.create.diff.error:
+    text: '不能建立差異元素: {0}'
+cannot.file.file.error:
+    text: '未找到檔案: {0}'
+collapse.unchanged.fragments:
+    text: 摺疊未更改的片段
+diff.acton.highlight.mode.action.by.line:
+    text: 基於行
+diff.acton.highlight.mode.action.by.word:
+    text: 基於單詞
+diff.acton.highlight.mode.action.name:
+    text: 高亮顯示：
+diff.acton.highlight.mode.action.no.highlighting:
+    text: 不用高亮顯示
+diff.acton.ignore.whitespace.policy.do.not.ignore:
+    text: 不要忽視
+diff.acton.ignore.whitespace.policy.leading.and.trailing:
+    text: 前導和尾隨
+diff.all.differences.ignored.text:
+    text: 差異忽略
+diff.can.not.show:
+    text: 不能顯示差異比較
+diff.can.not.show.unknown:
+    text: 不能顯示未知檔案類型的差異比較
+diff.clipboard.vs.editor.dialog.title:
+    text: 剪貼簿 vs 編輯器
+diff.clipboard.vs.file.dialog.title:
+    text: 剪貼簿 vs {0}
+diff.clipboard.vs.value.dialog.title:
+    text: 剪貼簿 vs 選擇值
+diff.compare.element.type.with.editor.action.name:
+    text: 和編輯器裡檔案比較
+diff.content.clipboard.content.title:
+    text: 來著剪貼簿
+diff.content.editor.content.title:
+    text: 編輯器
+diff.content.selected.value:
+    text: 選擇值
+diff.content.selection.from.editor.content.title:
+    text: 從編輯器選取
+diff.content.selection.from.file.content.title:
+    text: 從 {0} 選取
+diff.contents.are.identical.message.text:
+    text: 內容是相同的
+diff.contents.have.differences.only.in.charset.and.line.separators.message.text:
+    text: 內容在行分隔符號和編碼上有差異
+diff.contents.have.differences.only.in.charset.message.text:
+    text: 內容只在編碼上有差異
+diff.contents.have.differences.only.in.line.separators.message.text:
+    text: 內容中只有行分隔符號有差異
+diff.contents.have.differences.only.in.line.separators.or.whitespaces:
+    text: 內容只有行分隔符號和空白處有差異
+diff.dialog.select.change.action.description:
+    text: 選取此版本中的變更文字和其他對應的
+diff.dialog.select.change.action.name:
+    text: 選取修改
+diff.element.qualified.name.vs.editor.dialog.title:
+    text: '{0} vs 編輯器'
+diff.file.editor.name:
+    text: 差異
+diff.highlighting.disabled.text:
+    text: 差異高亮顯示是關閉的
+diff.options.diff.options.border:
+    text: 差異比較選項
+diff.options.use.external.merge.tool.for.files.checkbox:
+    text: '使用外部合併工具:'
+diff.options.use.external.tool.for.files.checkbox:
+    text: '使用外部工具來比較檔案:'
+diff.type.changed.name:
+    text: 已修改
+diff.type.conflict.name:
+    text: 衝突
+diff.type.deleted.name:
+    text: 已刪除
+diff.type.inserted.name:
+    text: 已插入
+diff.type.none.name:
+    text: 沒有
+directory.viewer:
+    text: 目錄查看器
+editor.settings:
+    text: 設定
+error.message.cannot.show.diff:
+    text: 無法顯示差異
+error.viewer:
+    text: 錯誤查看器
+files.are.different.dialog.title:
+    text: 檔案是不同的
+files.are.identical.dialog.title:
+    text: 檔案是相同的
+filetype.diff.description:
+    text: 差異
+highlighting.level:
+    text: 高亮顯示級別
+ignore.whitespace.acton.name:
+    text: 忽略空格：
+label.default.diff.editor.tab.name:
+    text: 差異
+merge.all.changes.have.processed.save.and.finish.confirmation.text:
+    text: |-
+        所有修改已經處理完畢。
+        你要儲存修改合併完成的檔案嗎？
+merge.application.usage.parameters.and.description:
+    text: '使用 : {0} 合併 <left file> <right file> [<base file>] <output file>'
+merge.color.options.background.color.label:
+    text: 重要的
+merge.color.options.dialog.title:
+    text: 合併顏色選項
+merge.color.options.ignored.color.label:
+    text: 已忽略的
+merge.continue.button:
+    text: 繼續
+merge.dialog.accept.change.command:
+    text: 接受變更
+merge.dialog.all.conflicts.resolved.message.text:
+    text: 所有的衝突已解決
+merge.dialog.append.change.action.name:
+    text: 套用選擇的側邊變化
+merge.dialog.apply.change.action.name:
+    text: 套用
+merge.dialog.apply.non.conflicted.changes.command:
+    text: 套用不衝突的變更
+merge.dialog.apply.partially.resolved.changes.confirmation.message:
+    text: "這些 {0, choice, 0#'{1, choice, 1#is|2#are}'|1#'{1, choice, 0#is|1#are}'|2#are} {0, choice, 0#|1#one change|2#{0, number} changes}{0, choice, 0#|1#'{1, choice, 0#|1# and }'}{1, choice, 0#|1#one conflict|2#{1, number} conflicts} 是未處理的。\n確實要儲存變更並完成合併嗎？"
+merge.dialog.cannot.load.file.error.message:
+    text: '無法載入檔案: {0}'
+merge.dialog.exit.without.applying.changes.confirmation.message:
+    text: 您確定不套用變更就結束嗎？
+merge.dialog.ignore.change.action.name:
+    text: 忽略
+merge.dialog.ignore.change.command:
+    text: 忽略變更
+merge.dialog.resolve.change.action.name:
+    text: 解決
+merge.dialog.resolve.conflict.command:
+    text: 解決衝突
+merge.dialog.resolve.side.with.discard.title:
+    text: 接受修改
+merge.editor.insert.operation.name:
+    text: 插入
+merge.editor.remove.operation.name:
+    text: 刪除
+merge.editor.replace.operation.name:
+    text: 替換
+merge.files.dialog.title:
+    text: 合併
+merge.init.merge.content.command.name:
+    text: 初始化合併內容
+merge.save.and.finish.button:
+    text: 儲存並完成
+message.do.in.merge.command:
+    text: 合併時 {0}
+message.init.merge.content.command:
+    text: 初始化合併內容
+message.replace.change.command:
+    text: 取代變更
+message.use.selected.changes.command:
+    text: '{0}所選變更'
+no.differences.dialog.title:
+    text: 沒有差異
+option.highlighting.level.inspections:
+    text: 檢查
+option.highlighting.level.none:
+    text: 無
+option.highlighting.level.syntax:
+    text: 語法
+option.highlighting.policy.lines:
+    text: 高亮顯示行
+option.highlighting.policy.none:
+    text: 不高亮顯示
+option.highlighting.policy.split:
+    text: 高亮顯示拆分的變更
+option.highlighting.policy.symbols:
+    text: 高亮顯示字符
+option.highlighting.policy.words:
+    text: 高亮顯示單詞
+option.ignore.policy.none:
+    text: 不忽略
+option.ignore.policy.trim:
+    text: 修整空白
+option.ignore.policy.whitespaces:
+    text: 忽略空格
+option.ignore.policy.whitespaces.empty.lines:
+    text: 忽略空格和空行
+option.inherit.ignored.color:
+    text: 繼承忽略的顏色
+save.merge.result.command.name:
+    text: 合併
+select.external.diff.program.dialog.title:
+    text: 選取外部Diff程式
+select.external.merge.program.dialog.title:
+    text: 選取外部合併(Merge)程式
+show.diff.anyway.dialog.message:
+    text: 顯示任何的不同?
+side.by.side.viewer:
+    text: 並排查看器
+synchronize.document.and.its.fragment:
+    text: 同步文檔及其片段
+synchronize.scrolling:
+    text: 同步滾動
+unified.viewer:
+    text: 統合查看器
+unknown.file.type.error:
+    text: '未知的檔案類型: {0}'

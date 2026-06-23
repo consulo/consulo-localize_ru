@@ -1,0 +1,314 @@
+action.Git.Pull.text:
+    text: 拉取…
+action.Git.Stash.Silently.text:
+    text: 无提示隐藏
+action.Git.Stash.UnstashAs.description:
+    text: 弹出或应用选定的隐藏作为新分支(带或不带索引)
+action.Git.Stash.UnstashAs.text:
+    text: 取消隐藏…
+action.add.text:
+    text: 添加
+action.fetch.text:
+    text: 提取
+action.reset.text:
+    text: 重置
+action.selected.directory.text:
+    text: 选定{0,choice,1#目录|2#目录}
+action.selected.file.text:
+    text: 选定{0,choice,1#文件|2#文件}
+action.text.show.all.submitted:
+    text: 显示在所选更改列表中提交的所有修订
+add.adding:
+    text: 正在添加文件…
+annotate.action.name:
+    text: 注解
+changes.retrieving:
+    text: 检索修订 {0} 的更改
+clone.button:
+    text: 克隆
+clone.dialog.checking.git.version:
+    text: 正在检查 Git 版本…
+clone.parent.dir:
+    text: '父目录(&P):'
+clone.parent.missing.error:
+    text: 父路径 {0} 必须存在。
+clone.test.success.message:
+    text: 连接成功
+clone.testing:
+    text: 正在测试 {0}
+clone.title:
+    text: 克隆仓库
+cloning.repository:
+    text: 正在克隆源代码仓库 {0}
+commit.action.name:
+    text: 提交 (&I)
+commit.author:
+    text: '作者(&A):'
+common.current.branch:
+    text: '当前分支:'
+common.current.branch.tooltip:
+    text: 当前已签出的分支。
+common.git.root:
+    text: 'Git 根(&R):'
+common.git.root.tooltip:
+    text: 选择 Git VCS 根
+common.no.active.branch:
+    text: <无活动分支>
+common.refreshing:
+    text: 正在刷新文件
+computing.annotation:
+    text: 正在计算 {0} 的注解
+diff.find.error:
+    text: '正在查找差异的修订: {0}'
+error.commit.cant.create.message.file:
+    text: 创建提交消息文件失败
+error.dialog.title:
+    text: 错误
+error.list.title:
+    text: '{0} 错误:'
+error.occurred.during:
+    text: "''{0}'' 时出错"
+errors.message:
+    text: 'Git 操作以多个错误结束: {0}'
+fetch.action.name:
+    text: 提取
+find.git.error.title:
+    text: 运行 Git 时出错
+find.git.success.title:
+    text: Git 执行成功
+find.git.unsupported.message:
+    text: <html><tt>{0}</tt><br>此版本不受支持，某些插件功能可能无法工作。<br>支持的最低版本是 <em>{1}</em>。</html>
+git.commit.message.empty.title:
+    text: 提交消息为空
+git.error.exit:
+    text: Git 进程退出，代码为 {0}
+git.executable.notification.description:
+    text: Git 可执行文件的路径可能无效。
+git.executable.notification.title:
+    text: 无法启动 Git
+git.executable.version.is:
+    text: Git 版本为 {0}
+git.light.status.bar.tooltip:
+    text: '当前 Git 分支: {0}'
+git.new.tag.dialog.tag.name.label:
+    text: 输入新标记的名称
+git.new.tag.dialog.title:
+    text: 在 {0}上创建新标记
+git.running:
+    text: '运行: {0}'
+git.status.bar.widget.name:
+    text: Git 分支
+git.status.bar.widget.text.cherry.pick:
+    text: 正在 {0} 中优选
+git.status.bar.widget.text.merge:
+    text: 正在合并 {0}
+git.status.bar.widget.text.rebase:
+    text: 正在变基 {0}
+git.status.bar.widget.text.revert:
+    text: 正在 {0} 中还原
+git.unstash.clear.confirmation.message:
+    text: 移除所有隐藏? 此操作无法撤消。
+git.unstash.clear.confirmation.title:
+    text: 移除所有隐藏?
+git.unstash.drop.confirmation.message:
+    text: <html>是否要移除 {0}?<br/>“{1}”</html>
+git.unstash.drop.confirmation.title:
+    text: 移除隐藏 {0}?
+group.Git.MainMenu.MergeActions.text:
+    text: 合并(_M)
+init.destination.directory.description:
+    text: 选择将在其中创建新 Git 仓库的目录。
+init.destination.directory.title:
+    text: 创建 Git 仓库
+init.warning.already.under.git:
+    text: |-
+        所选目录 <tt>{0}</tt> 已在 Git 下。
+        确定要创建新的 VCS 根吗?
+initializing.title:
+    text: 正在初始化仓库…
+merge.branch.title:
+    text: 合并更改
+merge.tool.column.status.deleted:
+    text: 已删除
+merge.tool.column.status.modified:
+    text: 已修改
+merge.tool.column.theirs.status:
+    text: 他人的更改
+merge.tool.column.yours.status:
+    text: 您的更改
+merging.title:
+    text: 将更改合并到 {0}
+paths.affected.title:
+    text: 提交 {0} 中受影响的路径
+progress.title.moving.files:
+    text: 正在移动文件…
+pull.action.name:
+    text: 拉取
+pull.button:
+    text: 拉取
+pulling.title:
+    text: 从 {0} 中拉取更改
+rebase.update.project.abort.task.title:
+    text: 正在中止变基…
+rebase.update.project.notification.abort.cancel.message:
+    text: 已取消中止变基
+rebase.update.project.notification.abort.error.message:
+    text: 中止变基时出错
+rebase.update.project.notification.abort.success.message:
+    text: 已中止变基
+remove.removing:
+    text: 正在移除文件…
+repository.action.missing.roots.misconfigured:
+    text: 配置的 Git 根都不在 Git 下。配置的目录中必须包含“.git”目录。
+repository.action.missing.roots.title:
+    text: 没有 Git 根
+repository.action.missing.roots.unconfigured.message:
+    text: 没有为项目配置 Git 根。
+repository.not.found.error:
+    text: 找不到 {0} 的已配置 git 仓库
+reset.action.name:
+    text: 重置 Head…
+reset.commit.invalid:
+    text: 指定的提交表达式未通过验证。
+reset.commit.label:
+    text: '为提交(&C):'
+reset.commit.tooltip:
+    text: 由于重置操作而将成为当前 HEAD 的提交。
+reset.title:
+    text: 重置 Head
+reset.type:
+    text: '重置类型(&T):'
+reset.type.tooltip:
+    text: <html>重置类型(另请参阅 <code>git reset</code> man 页面):<ul><li><b>Mixed</b> 将重置索引，但不会重置工作树</li><li><b>Soft</b> 将保留索引和工作树，只是移动 HEAD 指针</li><li><b>Hard</b> 将重置索引和工作树。<em>工作树中的更改会丢失</em></li></ul></html>
+reset.validate:
+    text: 验证(&V)
+resetting.title:
+    text: 正在重置 HEAD…
+settings.auto.update.on.push.rejected:
+    text: 如果当前分支的推送被拒，则自动更新
+settings.crlf:
+    text: 如果即将提交 CRLF 行分隔符，则发出警告
+settings.detached.head:
+    text: 在游离的 HEAD 中或变基期间提交时发出警告
+settings.protected.branched:
+    text: '受保护分支:'
+settings.update.method:
+    text: '更新方法:'
+ssh.ask.passphrase.title:
+    text: SSH 密钥密码短语
+ssh.keyboard.interactive.title:
+    text: SSH 键盘交互式
+ssh.password.message:
+    text: '用户 {0} 的密码:'
+ssh.password.title:
+    text: SSH 密码登录
+stash.button:
+    text: 创建隐藏
+stash.keep.index:
+    text: 保留索引(&I)
+stash.keep.index.tooltip:
+    text: 如果选中此复选框，已建立索引的更改将保留在索引中。
+stash.message:
+    text: '消息(&M):'
+stash.message.tooltip:
+    text: 在此处输入隐藏消息。
+stash.title:
+    text: 隐藏
+stashing.title:
+    text: 正在隐藏更改…
+tag.button:
+    text: 创建标签
+tag.commit.label:
+    text: 提交(&C)
+tag.commit.tooltip:
+    text: 输入要标记的提交或对象的名称，或留空以使用 HEAD。
+tag.error.creating.message.file.message:
+    text: '无法创建消息文件: {0}'
+tag.error.invalid.commit:
+    text: 该提交或对象名称无效。
+tag.error.tag.exists:
+    text: 存在同名的标记。
+tag.force:
+    text: 强制(&F)
+tag.force.tooltip:
+    text: 强制创建标记，即使已存在另一个具有此名称的标记。
+tag.getting.existing.tags:
+    text: 正在获取现有标记…
+tag.message.label:
+    text: '消息(&M):'
+tag.message.tooltip:
+    text: 如果消息不为空，则创建带注解的标记。
+tag.name.label:
+    text: '标记名称(&N):'
+tag.name.tooltip:
+    text: 在此处输入新的标记名称。
+tag.title:
+    text: 标记
+tag.validate:
+    text: 验证(&V)
+tag.validate.tooltip:
+    text: 点击此按钮验证要标记的提交
+unstash.branch.label:
+    text: '作为新分支(&B):'
+unstash.branch.tooltip:
+    text: 如果输入非空名称，该隐藏将作为新分支签出。
+unstash.button.apply:
+    text: 应用隐藏
+unstash.button.branch:
+    text: 分支
+unstash.button.pop:
+    text: 消除隐藏
+unstash.clear:
+    text: 清除(&C)
+unstash.clear.tooltip:
+    text: 删除仓库中的所有隐藏。
+unstash.clearing.stashes:
+    text: 正在清除隐藏…
+unstash.drop:
+    text: 删除(&D)
+unstash.drop.tooltip:
+    text: 删除所选隐藏
+unstash.pop.stash:
+    text: 消除隐藏(&P)
+unstash.pop.stash.tooltip:
+    text: 如果选中，则该隐藏在应用后会被删除。
+unstash.reinstate.index:
+    text: 复原索引(&I)
+unstash.reinstate.index.tooltip:
+    text: 尝试复原索引以及工作树更改。
+unstash.stashes:
+    text: '隐藏(&S):'
+unstash.title:
+    text: 取消隐藏更改
+unstash.unstashing:
+    text: 正在取消隐藏…
+unstash.view:
+    text: 查看(&V)
+unstash.view.tooltip:
+    text: 查看所选隐藏
+update.options.display.name:
+    text: Git 更新设置
+util.remote.renderer.none:
+    text: 无
+vfs.listener.add.single.prompt:
+    text: |-
+        是否要安排将以下文件添加到 Git?
+        {0}
+
+        如果您选择“取消”，以后仍可以手动添加。
+vfs.listener.add.single.title:
+    text: 将文件添加到 Git
+vfs.listener.add.title:
+    text: 将文件添加到 Git
+vfs.listener.checking.ignored:
+    text: 正在检查忽略的文件…
+vfs.listener.delete.single.prompt:
+    text: |-
+        是否要从 Git 中删除以下文件?
+        {0}
+
+        如果您选择“取消”，以后仍可以手动删除。
+vfs.listener.delete.single.title:
+    text: 从 Git 中删除文件
+vfs.listener.delete.title:
+    text: 从 Git 中删除文件

@@ -1,0 +1,72 @@
+index.content.diagnostic.dumping:
+    text: Volcando rutas de archivos indexados y otros metadatos…
+index.content.diagnostic.reading:
+    text: Leyendo metadatos de archivos indexados…
+index.corrupted.notification.text:
+    text: Los archivos de índice en el disco están dañados. Los índices se reconstruirán.
+index.format.changed.notification.text:
+    text: El formato del archivo de índice ha cambiado para {0} índices. Estos índices se reconstruirán.
+index.rebuild.notification.title:
+    text: Reconstrucción del índice
+indexable.files.provider.indexing.additional.dependencies:
+    text: Indexando dependencias
+indexable.files.provider.indexing.fileOrDir.name:
+    text: "Indexando ''{0}''"
+indexable.files.provider.indexing.internal.module.name:
+    text: Indexando
+indexable.files.provider.indexing.library.name:
+    text: "Indexando biblioteca ''{0}''"
+indexable.files.provider.indexing.module.name:
+    text: "Indexando el módulo ''{0}''"
+indexable.files.provider.indexing.named.provider:
+    text: "Indexando ''{0}''"
+indexable.files.provider.indexing.sdk:
+    text: "Indexando {0} ''{1}''"
+indexable.files.provider.scanning.additional.dependencies:
+    text: Escaneando dependencias
+indexable.files.provider.scanning.fileOrDir.name:
+    text: "Escaneando ''{0}''"
+indexable.files.provider.scanning.files.contributor:
+    text: "Escaneando ''{0}''"
+indexable.files.provider.scanning.internal.module.name:
+    text: Escaneando
+indexable.files.provider.scanning.library.name:
+    text: "Escaneando biblioteca ''{0}''"
+indexable.files.provider.scanning.module.name:
+    text: "Escaneando el módulo ''{0}''"
+indexable.files.provider.scanning.sdk:
+    text: "Escaneando {0} ''{1}''"
+indexes.preparing.to.shutdown.message:
+    text: Preparando los índices para el cierre…
+indexes.reloading:
+    text: Recargando índices…
+notification.group.ide.caches:
+    text: Corrupción de cachés del IDE detectada
+progress.indexing:
+    text: Analizando el proyecto para habilitar las funciones inteligentes
+progress.indexing.scanning:
+    text: Escaneando archivos…
+progress.indexing.started.as.suspended:
+    text: Presione el botón para iniciar la indexación
+progress.indexing.updating:
+    text: Analizando el proyecto…
+psi.scanning.files.progress:
+    text: Escaneando archivos…
+psi.search.for.word.progress:
+    text: Buscando {0} en {1,choice,1#un archivo|1<{1} archivos}…
+psi.search.in.non.java.files.progress:
+    text: Analizando usos fuera del código…
+psi.search.scope.project.and.libraries:
+    text: Proyecto y bibliotecas
+removing.indexable.set.project.handler:
+    text: Eliminando los índices de los archivos del proyecto
+search.scope.module:
+    text: En un solo módulo
+search.scope.module.runtime:
+    text: "Ámbito de tiempo de ejecución del módulo ''{0}''"
+terms.directory:
+    text: directorio
+terms.file:
+    text: archivo
+toggled.dumb.mode:
+    text: Ejecutando modo dumb…

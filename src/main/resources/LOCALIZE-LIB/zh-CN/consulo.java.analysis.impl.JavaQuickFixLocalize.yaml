@@ -1,0 +1,434 @@
+access.static.via.class.reference.family:
+    text: 通过类引用访问 static
+access.static.via.class.reference.text:
+    text: "通过类 ''{2}'' 引用访问 static ''{1}.{0}''"
+add.catch.clause.family:
+    text: 将异常添加到 catch 子句
+add.catch.clause.text:
+    text: "添加 'catch' 子句"
+add.class.to.extends.list:
+    text: "使 ''{0}'' 扩展 ''{1}''"
+add.constructor.parameter.name:
+    text: 添加构造函数形参
+add.default.constructor.family:
+    text: 添加默认构造函数
+add.default.constructor.text:
+    text: 将 {0} 无实参构造函数添加到 {1}
+add.docTag.to.custom.tags:
+    text: "将 ''@{0}'' 添加到自定义标记"
+add.exception.from.field.initializer.to.constructor.throws.family.text:
+    text: 向类构造函数签名添加异常
+add.exception.from.field.initializer.to.constructor.throws.text:
+    text: 添加类{0, choice, 0#默认构造函数|1#构造函数|2#构造函数}签名的异常
+add.exception.to.throws.family:
+    text: 向方法签名添加异常
+add.exception.to.throws.inherited.method.warning.text:
+    text: "方法 ''{0}'' 被继承。\n是否要在整个方法层次结构中向方法签名添加异常?"
+add.exception.to.throws.text:
+    text: 添加{0, choice, 0#异常|2#异常}到方法签名
+add.import:
+    text: 添加导入
+add.interface.to.implements.list:
+    text: "使 ''{0}'' 实现 ''{1}''"
+add.library.copy.files.to.radio.button:
+    text: "将''{0}''库文件复制到 (&C)"
+add.library.description.choose.folder:
+    text: 选择要复制的库所在的目录
+add.library.error.cannot.copy:
+    text: "无法将 ''{0}'' 复制到 ''{1}''\n({2})"
+add.library.error.not.found:
+    text: "库文件 ''{0}'' 不存在"
+add.library.title.choose.folder:
+    text: 选择目录
+add.library.title.dialog:
+    text: "将 ''{0}'' 库添加到项目"
+add.library.use.bundled.library.radio.button:
+    text: "使用{1}分发中的''{0}'' (&U)"
+add.method.body.text:
+    text: 添加方法体
+add.method.family:
+    text: 添加方法
+add.method.qualifier.fix.family:
+    text: 添加方法限定符
+add.method.qualifier.fix.text:
+    text: "将限定符 ''{0}'' 添加到方法"
+add.method.text:
+    text: "将方法 ''{0}'' 添加到类 ''{1}''"
+add.missing.annotation.parameters.fix:
+    text: 添加缺少的注解形参 - {0}
+add.missing.annotation.single.parameter.fix:
+    text: "添加缺少的注解形参 ''{0}''"
+add.modifier.fix:
+    text: "将 ''{0}'' 设为{1}"
+add.new.array.family:
+    text: 添加缺少的新表达式
+add.new.array.text:
+    text: "添加 ''new {0}[]''"
+add.parameter.from.usage.text:
+    text: "将 ''{0}'' 作为第 {1,number,ordinal} 个{2}添加到{3} ''{4}'' 中"
+add.qualifier:
+    text: 添加限定符
+add.qualifier.original.class.chooser.title:
+    text: 原始类
+add.return.statement.text:
+    text: "添加 'return' 语句"
+add.runtime.exception.to.throws.family:
+    text: 向方法签名添加运行时异常
+add.runtime.exception.to.throws.text:
+    text: 向方法签名添加运行时异常
+add.type.arguments.single.argument.text:
+    text: 添加显式类型实参
+add.type.arguments.text:
+    text: 添加显式类型实参到第 {0, choice, 1#1|2#2|3#3|4#{0,number}} 个实参
+add.typecast.family:
+    text: 添加类型转换
+add.typecast.text:
+    text: "转换到 ''{0}''"
+adjust.package.family:
+    text: 调整软件包名称
+adjust.package.text:
+    text: "将软件包名称设置为 ''{0}''"
+annotations.fix:
+    text: 注解
+anonymous.class.presentation:
+    text: 派生自 {0} 的匿名类
+bring.variable.to.scope.family:
+    text: 将变量引入作用域
+bring.variable.to.scope.text:
+    text: "将 ''{0}'' 引入作用域"
+cannot.change.field.exception:
+    text: "无法更改字段 ''{0}'' 类型。\n原因: {1}"
+cannot.create.java.file.error.text:
+    text: '无法在{1}中创建 {0}.java: {2}'
+cannot.create.java.file.error.title:
+    text: 文件创建失败
+cannot.create.java.package.error.text:
+    text: '无法在{1}中创建 {0}: {2}'
+cannot.create.java.package.error.title:
+    text: 软件包创建失败
+change.class.signature.family:
+    text: 更改类签名
+change.class.signature.text:
+    text: "更改 ''{0}'' 的签名以匹配 ''{1}''"
+change.extends.list.family:
+    text: 扩展类自
+change.inheritors.visibility.warning.text:
+    text: 是否将继承者的可见性更改为基方法的可见性?
+change.inheritors.visibility.warning.title:
+    text: 更改继承者
+change.method.signature.from.usage.family:
+    text: 从用法更改方法签名
+change.method.signature.from.usage.text:
+    text: "将 ''{0}'' 的签名更改为 ''{1}({2})''"
+change.new.operator.type.family:
+    text: 更改新运算符类型
+change.new.operator.type.text:
+    text: "将 ''{0}'' 更改为 ''new {1}{2}''"
+change.parameter.class.family:
+    text: 更改形参类
+change.parameter.from.usage.text:
+    text: "将{2} ''{3}'' 的第 {0,number,ordinal} 个{1}从 ''{4}'' 更改为 ''{5}''"
+change.to.append.family:
+    text: 修正 StringBuilder 追加
+change.to.append.text:
+    text: "更改为 ''{0}''"
+class.initializer.presentation:
+    text: '{0} 类初始值设定项'
+collection.addall.can.be.replaced.with.constructor.fix.description:
+    text: "'#ref()' 方法可被替换为形参化构造函数调用"
+collection.to.array.family.name:
+    text: "应用转换 '.toArray()'"
+collection.to.array.text:
+    text: "应用转换 ''.toArray({0})''"
+convert.to.string.family:
+    text: 修正字符文字
+convert.to.string.text:
+    text: 转换为字符串文字
+create.accessor.for.unused.field.family:
+    text: 创建未使用字段的访问器
+create.class.from.new.family:
+    text: 从新的运算符创建类
+create.class.from.usage.family:
+    text: 从用法创建类
+create.class.from.usage.text:
+    text: "创建{0} ''{1}''"
+create.class.text:
+    text: "创建类 ''{0}''"
+create.class.title:
+    text: Objective-C 类
+create.constant.from.usage.family:
+    text: 从用法创建常量
+create.constructor.from.new.family:
+    text: 从新的运算符创建构造函数
+create.constructor.from.new.text:
+    text: 创建构造函数
+create.constructor.from.super.call.family:
+    text: 从 super() 调用创建构造函数
+create.constructor.from.this.call.family:
+    text: 从 this() 调用创建构造函数
+create.constructor.matching.super:
+    text: 创建匹配 super 的构造函数
+create.constructor.text:
+    text: "在 ''{0}'' 中创建构造函数"
+create.field.from.usage.family:
+    text: 从用法创建字段
+create.field.text:
+    text: 创建字段 {0}
+create.getter:
+    text: 创建 Getter
+create.getter.and.setter.for.field:
+    text: "为 ''{0}'' 创建 getter 和 setter"
+create.getter.for.field:
+    text: "为 ''{0}'' 创建 getter"
+create.inner.class.from.usage.text:
+    text: "创建内部{0} ''{1}''"
+create.interface.text:
+    text: "创建接口 ''{0}''"
+create.local.from.instanceof.usage.family:
+    text: 从 instanceof 用法创建局部变量
+create.local.from.instanceof.usage.text:
+    text: "插入 ''({0}){1}'' 声明"
+create.local.from.usage.family:
+    text: 从用法创建本地
+create.method.from.usage.family:
+    text: 从用法创建方法
+create.method.from.usage.text:
+    text: "创建方法 ''{0}''"
+create.parameter.from.usage.family:
+    text: 从用法创建形参
+create.property.from.usage.family:
+    text: 从用法创建属性
+create.property.text:
+    text: 创建属性 {0}
+create.setter:
+    text: 创建 Setter
+create.setter.for.field:
+    text: "为 ''{0}'' 创建 setter"
+defer.final.assignment.with.temp.family:
+    text: 使用临时变量推迟最终赋值
+defer.final.assignment.with.temp.text:
+    text: "使用临时变量推迟 ''{0}'' 赋值"
+delete.body.text:
+    text: 删除方法体
+delete.catch.family:
+    text: 删除 catch
+delete.catch.text:
+    text: "删除 ''{0}'' 的 catch"
+delete.reference.fix.text:
+    text: 删除引用
+delete.unreachable.statement.fix.text:
+    text: 删除不可到达的语句
+enable.optimize.imports.on.the.fly:
+    text: "启用 '设置 | 编辑器 | 常规 | 自动导入 | 动态优化 import'"
+exchange.extends.implements.keyword:
+    text: "将 ''{0} {2}'' 更改为 ''{1} {2}''"
+extract.side.effects:
+    text: 提取副{0, choice, 1#作用|2#作用}
+extract.side.effects.convert.to.if:
+    text: "作为 'if' 语句提取副作用"
+extract.side.effects.family.name:
+    text: 删除提取副作用的语句
+field.to.import.chooser.title:
+    text: 要导入的字段
+fix.add.special.annotation.family:
+    text: 添加到特殊注解
+fix.add.special.annotation.text:
+    text: "将 ''{0}'' 添加到特殊注解列表"
+fix.argument.family:
+    text: 修正实参
+fix.javadoc.family:
+    text: 修正 Javadoc
+fix.modifiers.family:
+    text: 修正修饰符
+fix.parameter.type.family:
+    text: 修正形参类型
+fix.parameter.type.text:
+    text: "使 ''{0}'' 在此处获取类型为 ''{1}'' 的形参"
+fix.return.type.family:
+    text: 修正返回值类型
+fix.return.type.text:
+    text: "使 ''{0}'' 返回 ''{1}''"
+fix.single.character.string.to.char.literal.family:
+    text: 修正文字类型
+fix.single.character.string.to.char.literal.text:
+    text: 将 {0} 更改为 {1}({2} 文字)
+fix.super.method.return.type.family:
+    text: 修复 Super 方法返回值类型
+fix.super.method.return.type.text:
+    text: "使 ''{0}'' 返回 ''{1}''"
+fix.throws.list.add.exception:
+    text: "将 ''{0}'' 添加到 ''{1}'' throws 列表"
+fix.throws.list.family:
+    text: 修正 throws 列表
+fix.throws.list.remove.exception:
+    text: "从 ''{1}'' throws 列表移除 ''{0}''"
+fix.unused.symbol.injection.family:
+    text: 添加到依赖项注入注解
+fix.unused.symbol.injection.text:
+    text: "如果用 ''{0}'' 注解，则禁止未使用的警告"
+fix.variable.type.family:
+    text: 修正变量类型
+fix.variable.type.text:
+    text: "将{0} ''{1}'' 的类型更改为 ''{2}''"
+implement.methods.fix:
+    text: 实现方法
+import.class.fix:
+    text: 导入类
+initialize.final.field.in.constructor.choose.dialog.title:
+    text: 选择要添加初始化的构造函数
+initialize.final.field.in.constructor.name:
+    text: 在构造函数中初始化
+insert.new.fix:
+    text: 插入 new
+insert.sam.method.call.fix.family.name:
+    text: 插入单一 abstract 方法调用
+insert.sam.method.call.fix.name:
+    text: "插入 ''.{0}'' 以调用函数接口方法"
+insert.super.constructor.call.family:
+    text: 插入基类构造函数调用
+java.9.merge.module.statements.fix.family.name:
+    text: "与其他 ''{0}'' 指令合并"
+java.9.merge.module.statements.fix.name:
+    text: "与其他 ''{0} {1}'' 指令合并"
+make.class.an.interface.family:
+    text: 使类成为接口
+make.class.an.interface.text:
+    text: "将 ''{0}'' 设为接口"
+make.final.copy.to.temp:
+    text: "将 ''{0}'' 复制到 {1} 临时变量"
+make.final.family:
+    text: 设为 final
+make.interface.an.class.text:
+    text: "使 ''{0}'' 设为类"
+make.vararg.parameter.last.family:
+    text: 将 vararg 形参设置为最后应形参
+make.vararg.parameter.last.text:
+    text: "将 ''{0}'' 移至列表的末尾"
+method.is.inherited.warning.title:
+    text: 方法被继承
+method.to.import.chooser.title:
+    text: 要导入的方法
+module.info.add.requires.name:
+    text: "将 ''requires {0}'' 指令添加到 module-info.java"
+move.bound.class.to.front.fix.text:
+    text: "将界限 ''{0}'' 移至类型形参 ''{1}'' 的界限列表的开头"
+move.catch.up.family:
+    text: 上移 Catch
+move.catch.up.text:
+    text: "将 ''{0}'' 的 catch 移至 ''{1}'' 之前"
+move.class.in.extend.list.family:
+    text: 在扩展列表中移动类
+move.class.to.package.family:
+    text: 将类移至软件包
+move.class.to.package.text:
+    text: "移至软件包 ''{0}''"
+move.class.to.separate.file.family:
+    text: 将类移至单独的文件
+move.class.to.separate.file.text:
+    text: "将类 ''{0}'' 移至 ''{0}.java''"
+move.file.to.source.root.text:
+    text: 将文件移至源根
+negation.broader.scope.family:
+    text: 否定更宽的作用域
+negation.broader.scope.text:
+    text: "更改为 ''!({0})''"
+new.method.body.template.error.text:
+    text: 请更正“新方法体”模板
+new.method.body.template.error.title:
+    text: 文件模板错误
+optimize.imports.fix:
+    text: 优化 import
+orderEntry.fix.add.dependency.on.module:
+    text: "添加对模块 ''{0}'' 的依赖"
+orderEntry.fix.add.dependency.on.module.choose:
+    text: 添加对模块的依赖…
+orderEntry.fix.add.library.to.classpath:
+    text: "将库 ''{0}'' 添加到类路径"
+orderEntry.fix.choose.module.to.add.dependency.on:
+    text: 选择要依赖的模块
+orderEntry.fix.circular.dependency.warning:
+    text: "添加对模块 ''{0}'' 的依赖将在模块 ''{1}'' 和 ''{2}'' 之间引入循环依赖关系。\n添加依赖关系?"
+orderEntry.fix.family.add.library.to.classpath:
+    text: 将库添加到类路径
+orderEntry.fix.family.add.module.dependency:
+    text: 添加模块依赖项
+orderEntry.fix.title.circular.dependency.warning:
+    text: 循环依赖关系警告
+permute.arguments:
+    text: 重新排列实参
+remove.class.from.extends.list:
+    text: "使 ''{0}'' 不扩展 ''{1}''"
+remove.interface.from.implements.list:
+    text: "使 ''{0}'' 不实现 ''{1}''"
+remove.modifier.fix:
+    text: "将 ''{0}'' 设为非{1}"
+remove.parameter.from.usage.text:
+    text: "从{2} ''{3}'' 中移除第 {0,number,ordinal} 个{1}"
+remove.qualifier.action.text:
+    text: 移除限定符
+remove.qualifier.fix:
+    text: 移除限定符
+remove.redundant.arguments.family:
+    text: 移除冗余实参
+remove.redundant.arguments.text:
+    text: "移除冗余实参以调用 ''{0}''"
+remove.suppression.action.family:
+    text: 移除禁止
+remove.suppression.action.name:
+    text: "移除 ''{0}'' 禁止"
+rename.wrong.reference.family:
+    text: 重命名错误引用
+rename.wrong.reference.text:
+    text: 重命名引用
+replace.with.list.access.text:
+    text: 替换为列表访问
+reuse.variable.declaration.family:
+    text: 重用上一个变量
+reuse.variable.declaration.text:
+    text: "重用上一个变量 ''{0}''"
+safe.delete.family:
+    text: 安全删除
+safe.delete.text:
+    text: "安全删除 ''{0}''"
+searching.for.usages.progress.title:
+    text: 正在搜索用法…
+setup.jdk.location.family:
+    text: 设置 JDK 位置
+setup.jdk.location.text:
+    text: 设置 JDK
+side.effect.action.cancel:
+    text: 取消(&C)
+side.effect.action.remove:
+    text: 移除(&R)
+side.effect.action.transform:
+    text: 转换(&T)
+side.effect.message1:
+    text: "<html><body>分配给变量 ''{0}'' 的表达式中可能存在副作用<br>您可以: <ul><li><b>移除</b>涉及的变量用法以及所有表达式</li></body></html>"
+side.effects.warning.dialog.title:
+    text: 发现副作用
+simplify.boolean.expression.family:
+    text: 简化布尔表达式
+simplify.boolean.expression.text:
+    text: "将 ''{0}'' 简化为 {1}"
+static.import.method.choose.method.to.import:
+    text: 选择导入的方法
+static.import.method.text:
+    text: 导入 static 方法
+super.class.constructors.chooser.title:
+    text: 选择超类构造函数
+surround.with.try.catch.fix:
+    text: 使用 try/catch 包围
+target.class.chooser.title:
+    text: 选择目标类
+uidesigner.change.bound.field.type:
+    text: 更改绑定的字段类型
+uidesigner.change.gui.component.type:
+    text: 更改 GUI 组件类型
+wrap.expression.using.static.accessor.family:
+    text: 包装表达式
+wrap.expression.using.static.accessor.text:
+    text: "使用 ''{0}()'' 包装"
+wrap.with.optional.parameter.text:
+    text: "使用 ''java.util.Optional'' 包装第 {0, choice, 1#1|2#2|3#3|4#{0,number}} 个实参"
+wrap.with.optional.single.parameter.text:
+    text: "使用 'java.util.Optional' 包装"

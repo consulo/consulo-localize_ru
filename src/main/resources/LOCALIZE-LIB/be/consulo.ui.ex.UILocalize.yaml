@@ -1,0 +1,274 @@
+are.you.sure.you.want.to.delete.selected.file.confirmation.message:
+    text: "Выдаліць ''{0}''?"
+are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
+    text: Выдаліць {0} выбраных файлаў і каталогаў?
+are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
+    text: Выдаліць {0} выбраных файлаў?
+are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
+    text: "Выдаліць папку ''{0}''?"
+are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
+    text: Выдаліць {0} выбраных каталогаў?
+autoscroll.from.source.action.description:
+    text: Выбіраць адпаведны элемент у гэтым прадстаўленні пры выбары ўкладкі рэдактара
+autoscroll.from.source.action.name:
+    text: Заўсёды выбіраць адкрыты элемент
+autoscroll.to.source.action.description:
+    text: Адкрываць для рэдагавання пры выбары элемента
+autoscroll.to.source.action.name:
+    text: Аўтапераход да зыходнага кода
+big.text.control.window.title:
+    text: Текст
+button.add.class:
+    text: Дадаць клас…
+button.add.pattern:
+    text: Дадаць шаблон…
+button.remove:
+    text: Выдаліць [&R]
+cannot.save.files.dialog.ignore.changes:
+    text: Ігнараваць змены [&I]
+cannot.save.files.dialog.message:
+    text: 'Пры спробе захаваць файлы адбыліся наступныя памылкі:'
+cannot.save.files.dialog.revert.changes:
+    text: Адмяніць змены [&R]
+cannot.save.files.dialog.title:
+    text: Немагчыма захаваць файлы
+choose.class:
+    text: Выбрать класс
+choose.content.to.paste.dialog.title:
+    text: Выберыце змесціва для ўстаўкі
+class.filter.editor.add.dialog.title:
+    text: Новы фільтр
+class.filter.editor.choose.class.title:
+    text: Выбрать класс
+collapsible.panel.collapsed.state.tooltip.text:
+    text: Развернуть панель
+collapsible.panel.expanded.state.tooltip.text:
+    text: Свернуть панель
+color.panel.select.color.dialog.description:
+    text: Выберыце колер
+component.with.browse.button.browse.button.tooltip.text:
+    text: Обзор…
+create.new.file.could.not.create.file.error.message:
+    text: "Невозможно создать файл ''{0}''"
+create.new.file.enter.new.file.name.prompt.text:
+    text: 'Увядзіце імя новага файла:'
+create.new.file.file.name.cannot.be.empty.error.message:
+    text: Імя файла не можа быць пустым
+create.new.folder.could.not.create.folder.error.message:
+    text: "Невозможно создать папку ''{0}''"
+create.new.folder.enter.new.folder.name.prompt.text:
+    text: 'Увядзіце імя новай папкі:'
+create.new.folder.folder.name.cannot.be.empty.error.message:
+    text: Імя папкі не можа быць пустым
+crumbs.calculating.tooltip:
+    text: Вылічэнне…
+delete.dialog.title:
+    text: Выдаленне
+downloading.file.change.http.proxy.settings:
+    text: Змяніць налады HTTP-проксі [&P]…
+downloading.file.try.again.button:
+    text: Паўтарыць [&Y]
+error.dialog.title:
+    text: Памылка
+errortree.prefix.line:
+    text: Радок ({0})
+file.cache.conflict.action:
+    text: Перазагрузіць з дыска
+file.cache.conflict.dialog.title:
+    text: Канфлікт кэша файлаў
+file.cache.conflict.diff.content.file.system.content:
+    text: Змесціва файлавай сістэмы
+file.cache.conflict.diff.content.memory.content:
+    text: Змесціва ў памяці
+file.cache.conflict.for.file.dialog.title:
+    text: Канфлікт кэша файла {0}
+file.cache.conflict.keep.memory.changes.button:
+    text: Захаваць змены ў памяці [&K]
+file.cache.conflict.load.fs.changes.button:
+    text: Загрузіць змены з файлавай сістэмы [&L]
+file.cache.conflict.message.text:
+    text: "Файл ''{0}'' быў зменены як у памяці, так і на дыску"
+file.cache.conflict.save.changes.button:
+    text: Захаваць змесціва з памяці
+file.cache.conflict.show.difference.button:
+    text: Паказаць адрозненні [&S]
+file.chooser.create.new.file.command.name:
+    text: Создать новый файл
+file.chooser.create.new.folder.command.name:
+    text: Создать новую папку
+file.chooser.default.title:
+    text: Выберыце шлях
+file.chooser.save.dialog.confirmation:
+    text: |-
+        {0} ужо існуе.
+        Замяніць яго?
+file.chooser.save.dialog.confirmation.title:
+    text: Пацвярджэнне захавання
+file.chooser.save.dialog.default.title:
+    text: Выберыце файл для захавання
+file.chooser.save.dialog.file.name:
+    text: 'Імя файла:'
+file.is.read.only.message.text:
+    text: "Файл ''{0}'' даступны толькі для чытання."
+files.are.read.only.message.text:
+    text: Файлы {0} даступны толькі для чытання.
+go.to.line.command.name:
+    text: Перайсці да радка
+got.it:
+    text: Понятно!
+insert.file.path.to.text.action.name:
+    text: Уставіць шлях
+integer.field.value.expected:
+    text: Чакаецца значэнне
+integer.field.value.not.a.number:
+    text: "Значэнне ''{0}'' не з'яўляецца цэлым лікам"
+integer.field.value.out.of.range:
+    text: "Значэнне ''{0}'' па-за дыяпазонам {1}..{2}"
+label.class.filter.editor.add.dialog.filter.pattern:
+    text: 'Увядзіце шаблон фільтра:'
+master.detail.err.empty.name:
+    text: Імя павінна змяшчаць непрабельныя сімвалы
+message.noMatchesFound:
+    text: Супадзенняў не знойдзена
+message.nothingToShow:
+    text: Нечего показать
+message.nothingToShow.with.problem:
+    text: Нечего показать ({0})
+move.down.action.name:
+    text: Уніз
+move.up.action.name:
+    text: Вверх
+new.file.dialog.title:
+    text: Новый файл
+new.folder.dialog.title:
+    text: Новая папка
+no.patterns:
+    text: Не настроены шаблоны классов
+order.entries.panel.export.column.name:
+    text: Экспорт
+popup.hints.panel.click.to.configure.highlighting.tooltip.text:
+    text: Націсніце для налады падсветкі ў гэтым файле
+position.panel.caret.count:
+    text: '{0} карэткі'
+position.panel.selected.chars.count:
+    text: '{0,choice,1#сімвал|2#сімвалы|5#сімвалаў}'
+position.panel.selected.line.breaks.count:
+    text: '{0} {0,choice,1#перанос радка|2#пераносы радкоў|5#пераносаў радкоў}'
+remove.field.initializer.quick.fix:
+    text: Выдаліць ініцыялізатар поля
+replace.prompt.all.button:
+    text: Все [&A]
+replace.prompt.all.files.action:
+    text: Все файлы [&A]
+replace.prompt.all.in.this.file.button:
+    text: Замяніць усе ў гэтым файле [&F]
+replace.prompt.replace.button:
+    text: Замяніць [&R]
+replace.prompt.replace.occurrence.label:
+    text: Замяніць гэта супадзенне?
+replace.prompt.skip.button:
+    text: Прапусціць [&S]
+row.add:
+    text: Дадаць [&A]
+row.add.without.mnemonic:
+    text: Дадаць
+row.move.down:
+    text: Уніз [&D]
+row.move.down.without.mnemonic:
+    text: Уніз
+row.move.up:
+    text: Вверх [&U]
+row.move.up.without.mnemonic:
+    text: Вверх
+row.remove:
+    text: Выдаліць [&E]
+row.remove.without.mnemonic:
+    text: Выдаліць
+search.popup.search.for.label:
+    text: 'Пошук:'
+splitter.center.tooltip.text:
+    text: По центру
+splitter.down.tooltip.text:
+    text: Уніз
+splitter.left.tooltip.text:
+    text: Влево
+splitter.right.tooltip.text:
+    text: Вправо
+splitter.up.tooltip.text:
+    text: Вверх
+status.bar.code.style.widget.name:
+    text: Отступы
+status.bar.column.status.text:
+    text: Столбец
+status.bar.column.status.tooltip.text:
+    text: Рэжым вылучэння слупкоў
+status.bar.encoding.widget.name:
+    text: Кадаванне файла
+status.bar.fatal.error.widget.name:
+    text: Унутраная памылка
+status.bar.hide.widget.action.name:
+    text: "Скрыть ''{0}''"
+status.bar.inspection.profile.widget.name:
+    text: Профіль інспекцый
+status.bar.line.separator.widget.name:
+    text: Падзельнік радкоў
+status.bar.memory.usage.widget.name:
+    text: Індыкатар памяці
+status.bar.notifications.widget.name:
+    text: Апавяшчэнні
+status.bar.notifications.widget.no.notification.tooltip:
+    text: Няма новых паведамленняў
+status.bar.notifications.widget.tooltip:
+    text: '{0} {0,choice,1#чакальнае паведамленне|2#чакальныя паведамленні|5#чакальных паведамленняў}'
+status.bar.position.widget.name:
+    text: Строка:столбец
+status.bar.read.only.widget.name:
+    text: Атрыбут толькі для чытання
+status.bar.selection.mode.widget.name:
+    text: Рэжым вылучэння ў рэдактары
+status.bar.write.thread.widget.name:
+    text: Паток запісу
+tabbed.pane.close.all.action.name:
+    text: Закрыть все
+tabbed.pane.close.all.but.this.action.name:
+    text: Закрыть все, кроме этой
+tabbed.pane.close.all.tabs.but.this.action.name:
+    text: Закрыць іншыя ўкладкі
+tabbed.pane.close.tab.action.name:
+    text: Закрыть вкладку
+tabbed.pane.pin.tab.action.name:
+    text: Замацаваць укладку
+tool.window.hide.action.name:
+    text: Скрыть
+tool.window.move.to.action.group.name:
+    text: Перамясціць
+tool.window.move.to.bottom.action.name:
+    text: Уніз
+tool.window.move.to.left.action.name:
+    text: Влево
+tool.window.move.to.right.action.name:
+    text: Вправо
+tool.window.move.to.top.action.name:
+    text: Вверх
+tool.window.name.build:
+    text: Сборка
+tool.window.name.debug:
+    text: Отладка
+tool.window.name.find:
+    text: Пошук
+tool.window.name.hierarchy:
+    text: Іерархія
+tool.window.name.inspection:
+    text: Інспекцыі
+tool.window.name.messages:
+    text: Паведамленні
+tool.window.name.run:
+    text: Запуск
+tool.window.name.structure:
+    text: Структура
+tool.window.name.version.control:
+    text: Кантроль версій
+tree.view.collapse.all.action.name:
+    text: Свернуть все
+treenode.loading:
+    text: Загрузка...

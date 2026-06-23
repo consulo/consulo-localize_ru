@@ -1,0 +1,178 @@
+action.column.name:
+    text: 操作
+action.description.ide.border.factory.title:
+    text: 操作說明
+actions.tree.external.tools.group:
+    text: 外部工具
+add.keyboard.shortcut.button:
+    text: 新增鍵盤便捷鍵(&K)...
+add.keymap.label:
+    text: 新增
+add.mouse.shortcut.button:
+    text: 新增滑鼠捷徑(&M)...
+all.actions.group.title:
+    text: 所有操作
+ant.targets.group.title:
+    text: Ant目標
+assigned.to.info.message:
+    text: 分配給{0}
+based.on.keymap.label:
+    text: 基於便捷鍵：{0}
+commender.view.popup.menu.title:
+    text: 命令檢視下拉選單
+configuration.all.keymaps.should.have.non.empty.names.error.message:
+    text: 所有的鍵盤便捷鍵佈局名字必須輸入
+configuration.all.keymaps.should.have.unique.names.error.message:
+    text: 所有的鍵盤便捷鍵佈局名稱不能重名
+conflict.shortcut.dialog.cancel.button:
+    text: 取消
+conflict.shortcut.dialog.leave.button:
+    text: 離開
+conflict.shortcut.dialog.message:
+    text: 該便捷鍵已經分配給其他動作。你想要刪除其他工作嗎？
+conflict.shortcut.dialog.remove.button:
+    text: 刪除
+conflict.shortcut.dialog.title:
+    text: 警告
+conflicts.ide.border.factory.title:
+    text: 衝突
+copy.keymap.button:
+    text: 複製
+debugger.actions.group.title:
+    text: 診斷器操作
+delete.keymap.button:
+    text: 刪除
+delete.keymap.dialog.message:
+    text: 你要刪除的鍵盤對應？
+delete.keymap.dialog.title:
+    text: 警告
+dialog.conflicts.text:
+    text: '已經分配給:'
+disable.mnemonic.in.controls.check.box:
+    text: 禁用控制助記符
+disable.mnemonic.in.menu.check.box:
+    text: 禁用選單助記符(&M)
+edit.quick.list.dialog.title:
+    text: 編輯快速清單
+edit.shortcut.action.description:
+    text: 編輯快捷鍵
+edit.shortcut.action.text:
+    text: 編輯快捷鍵
+editor.actions.group.title:
+    text: 編輯器操作
+editor.popup.menu.title:
+    text: 編輯快顯功能表
+editor.shortcut:
+    text: 編輯器{0}
+editor.tab.popup.menu.title:
+    text: 編輯器標籤快顯功能表
+enable.second.keystroke.check.box:
+    text: '啟用:'
+favorites.popup.title:
+    text: 收藏檢視快顯功能表
+filter.clear.action.text:
+    text: 清除過濾
+filter.first.stroke.input:
+    text: '首要條件:'
+filter.second.stroke.input:
+    text: '次要條件:'
+filter.settings.popup.title:
+    text: 搜尋便捷鍵
+filter.shortcut.action.text:
+    text: 搜尋便捷鍵操作
+first.stroke.panel.title:
+    text: 首要條件
+j2ee.view.popup.menu.title:
+    text: Java EE的檢視快顯功能表
+keyboard.shortcut.dialog.title:
+    text: 鍵盤便捷鍵
+keymap.display.name:
+    text: 鍵盤便捷鍵
+keymap.parent.display.name:
+    text: 隱形的鍵對應組
+keymaps.border.factory.title:
+    text: '鍵盤對應表:'
+macros.group.title:
+    text: 巨集
+main.menu.action.title:
+    text: 主選單
+main.toolbar.title:
+    text: 主工具列
+mouse.shortcut.dialog.assigned.to.area:
+    text: 分配給{0}
+mouse.shortcut.dialog.click.count.border:
+    text: 點擊次數
+mouse.shortcut.dialog.click.pad.border:
+    text: 點擊墊
+mouse.shortcut.dialog.conflicts.border:
+    text: 衝突
+mouse.shortcut.dialog.double.click.radio:
+    text: 雙擊
+mouse.shortcut.dialog.no.conflicts.area:
+    text: 沒有衝突
+mouse.shortcut.dialog.shortcut.preview.border:
+    text: 便捷鍵預覽
+mouse.shortcut.dialog.side.buttons.with.double.click:
+    text: 雙擊不支援按鈕{0}
+mouse.shortcut.dialog.single.click.radio:
+    text: 點擊
+mouse.shortcut.dialog.title:
+    text: 滑鼠便捷鍵
+mouse.shortcut.label:
+    text: 點擊這裡進入滑鼠捷徑
+new.indexed.keymap.name:
+    text: '{0}副本{1}'
+new.keymap.name:
+    text: '{0}副本'
+no.actions:
+    text: 無動作
+no.conflict.info.message:
+    text: 沒有衝突
+no.quick.lists:
+    text: 沒有快速清單
+other.group.title:
+    text: 其它
+parent.keymap.label:
+    text: '父鍵對應:'
+plugins.group.title:
+    text: 增益集
+prefix.key.pressed.message:
+    text: 前置字元鍵按下。
+project.view.popup.menu.title:
+    text: 項目檢視快顯功能表
+quick.list.panel.add.separator.button:
+    text: 新增分隔符號
+quick.list.panel.description.label:
+    text: '描述:'
+quick.list.panel.display.name.label:
+    text: '顯示名稱:'
+quick.list.panel.move.down.button:
+    text: 下移(&D)
+quick.list.panel.move.up.button:
+    text: 上移(&U)
+quick.lists.group.title:
+    text: 快速清單
+quick.lists.ide.border.factory.title:
+    text: 快速清單
+remove.keymap.label:
+    text: 刪除(&R)
+remove.shortcut.button:
+    text: 刪除(&R)
+second.stroke.panel.title:
+    text: 次要條件
+shortcut.in.group.text:
+    text: 在 {0} 中
+shortcut.preview.ide.border.factory.title:
+    text: 便捷鍵預覽
+shortcuts.column.name:
+    text: 捷徑
+shortcuts.keymap.label:
+    text: 捷徑
+shortcuts.keymap.no.shortcuts:
+    text: 沒有捷徑
+unnamed.list.display.name:
+    text: 未命名
+use.non.english.keyboard.layout.support:
+    text: 佈局支援 (&Y)
+version.control.group.title:
+    text: 版本控制系統

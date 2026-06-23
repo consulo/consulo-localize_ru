@@ -1,0 +1,300 @@
+action.Annotate.with.Blame.text:
+    text: Анатацыя з Git blame [_N]
+action.Git.Stash.Silently.text:
+    text: Схаваць без апавяшчэння
+action.Git.Stash.UnstashAs.description:
+    text: Прымяніць выбраны стэш як новую галіну з індэксам або без яго
+action.Git.Stash.UnstashAs.text:
+    text: Аднавіць [&U]…
+action.add.text:
+    text: Дадаць
+action.fetch.text:
+    text: Атрымаць
+action.reset.text:
+    text: Скінуць
+action.selected.directory.text:
+    text: Выбрано {0,choice,1#каталог|2#каталога|2<каталогов}
+action.selected.file.text:
+    text: Выбрано {0,choice,1#файл|2#файла|2<файлов}
+action.text.show.all.submitted:
+    text: Паказаць усе рэвізіі, адпраўленыя ў выбраны changelist
+add.adding:
+    text: Дадаванне файлаў…
+annotate.action.name:
+    text: Анатаваць
+changes.retrieving:
+    text: Атрыманне зменаў для рэвізіі {0}
+clone.button:
+    text: Клон
+clone.dialog.checking.git.version:
+    text: Праверка версіі Git…
+clone.parent.dir:
+    text: 'Бацькоўскі каталог [&P]:'
+clone.parent.missing.error:
+    text: Бацькоўскі шлях {0} павінен існаваць.
+clone.test.success.message:
+    text: Злучэнне ўстаноўлена
+clone.testing:
+    text: Тэставанне {0}
+clone.title:
+    text: Кланаваць рэпазітар
+cloning.repository:
+    text: Кланаванне зыходнага рэпазітара {0}
+commit.action.name:
+    text: Каміт  [&I]
+commit.author:
+    text: 'Автор [&U]:'
+common.current.branch:
+    text: 'Бягучая галіна:'
+common.current.branch.tooltip:
+    text: Бягучая выняная галіна.
+common.git.root:
+    text: 'Git корень [&R]:'
+common.git.root.tooltip:
+    text: Выберыце корань Git СКВ
+common.no.active.branch:
+    text: <няма актыўнай галіны>
+common.refreshing:
+    text: Абнаўленне файлаў
+computing.annotation:
+    text: Вылічэнне анатацыі для {0}
+diff.find.error:
+    text: 'Пошук рэвізіі для параўнання: {0}'
+error.commit.cant.create.message.file:
+    text: Не ўдалося стварыць файл паведамлення каміта
+error.dialog.title:
+    text: Памылка
+error.list.title:
+    text: '{0} Памылка:'
+error.occurred.during:
+    text: "Узнікла памылка падчас ''{0}''"
+errors.message:
+    text: 'Аперацыя Git завяршылася з некалькімі памылкамі: {0}'
+fetch.action.name:
+    text: Атрымаць
+find.git.error.title:
+    text: Памылка пры выкананні Git
+find.git.success.title:
+    text: Git выполнен успешно
+find.git.unsupported.message:
+    text: <html><tt>{0}</tt><br>Гэта версія не падтрымліваецца, і некаторыя функцыі плагіна могуць не працаваць.<br>Мінімальная падтрымліваемая версія <em>{1}</em>.</html>
+git.commit.message.empty.title:
+    text: Паведамленне каміта пустое
+git.error.exit:
+    text: Працэс Git завяршыўся з кодам {0}
+git.executable.notification.description:
+    text: Шлях да выканальнага файла Git, верагодна, несапраўдны.
+git.executable.notification.title:
+    text: Немагчыма запусціць Git
+git.executable.version.is:
+    text: 'Версія Git: {0}'
+git.light.status.bar.tooltip:
+    text: 'Бягучая галіна Git: {0}'
+git.new.tag.dialog.tag.name.label:
+    text: Увядзіце імя новага тэга
+git.new.tag.dialog.title:
+    text: Создать новый тег на {0}
+git.running:
+    text: 'Выполняется: {0}'
+git.status.bar.widget.name:
+    text: Ветка Git
+git.status.bar.widget.text.cherry.pick:
+    text: Cherry-pick в {0}
+git.status.bar.widget.text.merge:
+    text: Зліццё {0}
+git.status.bar.widget.text.revert:
+    text: Откат в {0}
+group.Git.MainMenu.MergeActions.text:
+    text: Зліццё [_M]
+init.destination.directory.description:
+    text: Выберыце дырэкторыю, у якой будзе створаны новы Git-рэпазіторый.
+init.destination.directory.title:
+    text: Стварыць Git-рэпазіторый
+init.warning.already.under.git:
+    text: |-
+        Выбраная дырэкторыя <tt>{0}</tt> ужо знаходзіцца пад кіраваннем Git.
+        Вы ўпэўнены, што хочаце стварыць новы корань СКВ?
+initializing.title:
+    text: Ініцыялізацыя рэпазіторыя…
+merge.branch.title:
+    text: Зліццё зменаў
+merge.tool.column.status.deleted:
+    text: Удалено
+merge.tool.column.status.modified:
+    text: Зменена
+merge.tool.column.theirs.status:
+    text: Іх змены
+merge.tool.column.yours.status:
+    text: Вашы змены
+merging.title:
+    text: Зліццё зменаў у {0}
+paths.affected.title:
+    text: Закранутыя шляхі ў каміце {0}
+progress.title.moving.files:
+    text: Перамяшчэнне файлаў…
+pull.action.name:
+    text: Атрымаць
+pull.button:
+    text: Пулл
+pulling.title:
+    text: Атрыманне зменаў з {0}
+rebase.update.project.abort.task.title:
+    text: Перарыванне рэбейза…
+rebase.update.project.notification.abort.error.message:
+    text: Памылка пры перарыванні рэбейза
+rebase.update.project.notification.abort.success.message:
+    text: Ребейз прерван
+remove.removing:
+    text: Выдаленне файлаў…
+repository.action.missing.roots.misconfigured:
+    text: Ні адзін з настроеных каранёў Git не знаходзіцца пад кіраваннем Git. У настроенай дырэкторыі павінна быць папка ".git".
+repository.action.missing.roots.title:
+    text: Нет корней Git
+repository.action.missing.roots.unconfigured.message:
+    text: Для праекта не настроены карані Git.
+repository.not.found.error:
+    text: Не ўдаецца знайсці настроены рэпазіторый Git для {0}
+reset.action.name:
+    text: Скінуць HEAD…
+reset.commit.invalid:
+    text: Указаны выраз каміта не прайшоў праверку.
+reset.commit.label:
+    text: 'Да каміта [&C]:'
+reset.commit.tooltip:
+    text: |-
+        Каміт, які стане бягучым HEAD
+        у выніку аперацыі reset.
+reset.type:
+    text: 'Тып reset [&T]:'
+reset.type.tooltip:
+    text: <html>Тып reset (гл. таксама man-старонку <code>git reset</code>):<ul><li><b>Mixed</b> скідае індэкс, але не рабочую дырэкторыю</li><li><b>Soft</b> пакідае індэкс і рабочую дырэкторыю, толькі перамяшчае паказальнік HEAD</li><li><b>Hard</b> скідае індэкс і рабочую дырэкторыю.<em>Змены ў рабочай дырэкторыі будуць страчаны</em></li></ul></html>
+reset.validate:
+    text: Праверыць [&V]
+resetting.title:
+    text: Выполняется reset HEAD…
+settings.auto.update.on.push.rejected:
+    text: Аўтаматычна абнаўляць пры адхіленні push бягучай галіны
+settings.crlf:
+    text: Папярэджваць пры каміце раздзяляльнікаў радкоў CRLF
+settings.detached.head:
+    text: Папярэджваць пры каміце ў адлучаным HEAD або падчас rebase
+settings.protected.branched:
+    text: 'Абароненыя галіны:'
+settings.update.method:
+    text: 'Метад абнаўлення:'
+ssh.ask.passphrase.title:
+    text: Парольная фраза SSH-ключа
+ssh.keyboard.interactive.title:
+    text: Інтэрактыўны ўвод SSH
+ssh.password.message:
+    text: 'Пароль для пользователя {0}:'
+ssh.password.title:
+    text: Вход по паролю SSH
+stash.button:
+    text: Создать stash
+stash.keep.index:
+    text: Захаваць індэкс [&I]
+stash.keep.index.tooltip:
+    text: Калі гэты сцяжок устаноўлены, усе змены, ужо дададзеныя ў індэкс, застануцца некранутымі
+stash.message:
+    text: 'Паведамленне [&M]:'
+stash.message.tooltip:
+    text: Увядзіце паведамленне stash тут
+stashing.title:
+    text: Хаваю змены…
+tag.button:
+    text: Создать тег
+tag.commit.label:
+    text: Каміт [&C]
+tag.commit.tooltip:
+    text: "Увядзіце імя каміта або аб'екта для тэгіравання або пакіньце пустым для выкарыстання HEAD."
+tag.error.creating.message.file.message:
+    text: 'Немагчыма стварыць файл паведамлення: {0}'
+tag.error.invalid.commit:
+    text: "Недапушчальнае імя каміта або аб'екта."
+tag.error.tag.exists:
+    text: Тэг з такім імем ужо існуе.
+tag.force:
+    text: Прымусова [&F]
+tag.force.tooltip:
+    text: Прымусова стварыць тэг, нават калі тэг з такім імем ужо існуе.
+tag.getting.existing.tags:
+    text: Атрыманне існуючых тэгаў…
+tag.message.label:
+    text: 'Паведамленне [&M]:'
+tag.message.tooltip:
+    text: Калі паведамленне не пустое, ствараецца анатаваны тэг.
+tag.name.label:
+    text: 'Імя тэга [&N]:'
+tag.name.tooltip:
+    text: Увядзіце тут новае імя тэга.
+tag.title:
+    text: Тег
+tag.validate:
+    text: Праверыць [&V]
+tag.validate.tooltip:
+    text: Націсніце гэту кнопку для праверкі каміта для тэгіравання
+unstash.branch.label:
+    text: 'Как новая ветка [&B]:'
+unstash.branch.tooltip:
+    text: Калі ўведзена непустое імя, stash будзе выняты як новая галіна
+unstash.button.apply:
+    text: Прымяніць stash
+unstash.button.branch:
+    text: Ветка
+unstash.button.pop:
+    text: Выняць stash
+unstash.clear:
+    text: Ачысціць [&C]
+unstash.clear.tooltip:
+    text: "Выдаліць усе stash'ы ў рэпазіторыі"
+unstash.clearing.stashes:
+    text: "Ачыстка stash'аў…"
+unstash.drop:
+    text: Выдаліць [&D]
+unstash.drop.tooltip:
+    text: Выдаліць выбраны stash
+unstash.pop.stash:
+    text: Выняць stash [&P]
+unstash.pop.stash.tooltip:
+    text: Калі выбрана, stash будзе выдалены пасля прымянення
+unstash.reinstate.index:
+    text: Аднавіць індэкс [&I]
+unstash.reinstate.index.tooltip:
+    text: Паспрабаваць аднавіць індэкс разам са зменамі рабочага дрэва
+unstash.stashes:
+    text: "Stash'ы [&S]:"
+unstash.title:
+    text: Аднавіць змены з stash
+unstash.unstashing:
+    text: Аднаўленне з stash…
+unstash.view:
+    text: Просмотр [&V]
+unstash.view.tooltip:
+    text: Просмотреть выбранный stash
+update.options.display.name:
+    text: Налады абнаўлення Git
+util.remote.renderer.none:
+    text: Нет
+vfs.listener.add.single.prompt:
+    text: |-
+        Дадаць наступны файл у Git?
+        {0}
+
+        Калі вы выберыце "Адмена", вы зможаце дадаць яго пазней уручную.
+vfs.listener.add.single.title:
+    text: Дадаць файл у Git
+vfs.listener.add.title:
+    text: Дадаць файлы ў Git
+vfs.listener.checking.ignored:
+    text: Праверка ігнаруемых файлаў…
+vfs.listener.delete.single.prompt:
+    text: |-
+        Выдаліць наступны файл з Git?
+        {0}
+
+        Калі вы выберыце "Адмена", вы зможаце выдаліць яго пазней уручную.
+vfs.listener.delete.single.title:
+    text: Выдаліць файл з Git
+vfs.listener.delete.title:
+    text: Выдаліць файлы з Git

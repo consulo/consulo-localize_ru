@@ -1,0 +1,104 @@
+analysis.completed:
+    text: 分析完成
+analysis.hasnot.been.run:
+    text: 分析完成
+analysis.suspended:
+    text: 代码分析已暂停
+class.is.subclassed.too.many:
+    text: 有子类
+errors.found:
+    text: <b>{0}</b> {1} 已找到
+errors.found.so.far:
+    text: <b>{0}</b> {1} 已发现
+heavyProcess.type.indexing:
+    text: 正在编制索引…
+heavyProcess.type.processing:
+    text: 正在处理…
+heavyProcess.type.syncing:
+    text: 正在同步…
+import.popup.multiple:
+    text: '{0}? (多重选择…)'
+inspection.collapse.description:
+    text: 更少…
+inspection.extended.description:
+    text: 更多…
+iw.status.analyzing:
+    text: 正在分析…
+iw.status.off:
+    text: 关闭
+iw.status.paused:
+    text: 已暂停…
+method.implements:
+    text: 实现<a href="#javaClass/{1}">{1}</a>中的方法
+method.implements.in:
+    text: "实现<a href=\"#javaClass/{1}\">{1}</a>中的方法''{0}''"
+method.is.implemented.header:
+    text: 在以下位置实现<br>
+method.is.implemented.too.many:
+    text: 已经实现
+method.is.overridden.too.many:
+    text: 在子类中被覆盖
+method.is.overriden.header:
+    text: 已覆盖于<br>
+method.overrides:
+    text: 重写<a href="#javaClass/{1}">{1}</a>中的方法
+method.overrides.in:
+    text: "重写<a href=\"#javaClass/{1}\">{1}</a>中的方法''{0}''"
+navigation.findUsages.title.super.method:
+    text: '{0} 的 super 方法'
+navigation.title.implementation.method:
+    text: <html><body>选择 <b>{0}</b> 的实现(找到 {1, choice, 1#1 个方法|2# {1,number} 个方法})</body></html>
+navigation.title.overrider.method:
+    text: <html><body>选择 <b>{0}</b> 的重写方法(找到 {1, choice, 1#1 个方法|2#{1,number} 个方法})</body></html>
+navigation.title.subclass:
+    text: <html><body>选择 <b>{0}</b> 的子类(找到 {1, choice, 1#1 个类|2#{1,number} 个类} {2})</body></html>
+navigation.title.super.method:
+    text: 选择 {0} 的 super 方法
+no.analysis.performed:
+    text: 没有执行任何分析
+no.errors.or.warnings.found:
+    text: 没有发现错误或警告
+no.errors.or.warnings.found.so.far:
+    text: 还未没有发现问题
+no.inspections.performed:
+    text: 没有检查执行
+no.inspections.performed.for:
+    text: 没有检查执行{0}
+no.syntax.highlighting.performed:
+    text: 没有进行语法高亮
+no.syntax.highlighting.performed.for:
+    text: 未进行语法高亮 {0}
+pass.inspection:
+    text: 检查
+pass.syntax:
+    text: 语法分析
+pass.whole.inspections:
+    text: 慢速检查
+pass.wolf:
+    text: 检查红色文件
+performing.code.analysis:
+    text: 执行代码分析
+popup.action.configure.inspections:
+    text: 配置检查…
+popup.title.configure.highlighting.level:
+    text: '{0} 的高亮级别'
+process.title.file.is.binary:
+    text: 文件为二进制
+process.title.file.is.decompiled:
+    text: 文件已反编译
+process.title.file.is.generated:
+    text: 文件已生成
+process.title.highlighting.is.disabled.for.this.file:
+    text: 此文件已禁用高亮显示
+process.title.highlighting.is.paused.temporarily:
+    text: 高亮显示暂时暂停
+process.title.highlighting.level.is.none:
+    text: 高亮显示已禁用
+process.title.no.file:
+    text: 无文件
+process.title.project.is.disposed:
+    text: 项目已被处置
+shallow.analysis.completed:
+    text: 浅层分析已完成
+shallow.analysis.completed.details:
+    text: 编制索引后可获得完整结果

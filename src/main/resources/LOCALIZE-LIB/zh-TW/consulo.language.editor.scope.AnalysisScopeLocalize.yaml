@@ -1,0 +1,174 @@
+action.analysis.noun:
+    text: 分析
+action.analyze.verb:
+    text: 分析
+action.analyzing.cyclic.dependencies.in.scope:
+    text: 循環依賴的 {0}
+action.backward.dependency.analysis:
+    text: 反向依賴性分析
+action.close.dependency.description:
+    text: 關閉依賴項檢視器
+action.cyclic.dependency.title:
+    text: 循環依賴關係分析
+action.edit.rules:
+    text: 編輯規則
+action.edit.rules.description:
+    text: 編輯依賴規則
+action.flatten.packages:
+    text: 拼合包
+action.forward.dependency.analysis:
+    text: 依賴性分析
+action.group.by.scope.type:
+    text: 按作用範圍類型群組
+action.group.by.scope.type.description:
+    text: 按作用範圍類型群組(產品,測試,類別庫)
+action.module.dependencies.direction:
+    text: 落後的依賴關係(用法)
+action.rerun.dependency:
+    text: 重新執行依賴關係分析
+action.select.in.left.tree:
+    text: 在左邊樹中選取
+action.select.in.left.tree.description:
+    text: 在左邊樹中選取 (to browse dependencies from)
+action.show.files:
+    text: 顯示檔案
+action.show.files.description:
+    text: 顯示/隱藏檔案
+action.show.illegals.only:
+    text: 只顯示非法的
+action.show.illegals.only.description:
+    text: 只顯示具有非法依賴關係的檔案
+action.show.modules:
+    text: 顯示模組
+action.show.modules.description:
+    text: 顯示/隱藏模組
+analysis.scope.title:
+    text: 作用範圍 {0}
+analyzing.project:
+    text: 分析項目
+backward.dependencies.progress.text:
+    text: 反向分析依賴關係
+backward.dependencies.toolwindow.title:
+    text: '{0}的反向依賴'
+backward.dependencies.usage.view.initial.text:
+    text: 選取在右樹哪裡搜索和在左樹搜索什麼.
+backward.dependencies.usage.view.root.node.text:
+    text: 左樹選取範圍的使用,在右樹選取範圍
+checking.class.files:
+    text: 檢查類別檔案
+cyclic.dependencies.progress.text:
+    text: 構建依賴關係圖
+cyclic.dependencies.scope.dialog.project.button:
+    text: '{0}整個項目 (&P)'
+cyclic.dependencies.scope.dialog.title:
+    text: 指定作用範圍 {0}
+cyclic.dependencies.tree.cycle.node.text:
+    text: 循環
+cyclic.dependencies.usage.view.initial.text:
+    text: 從左邊樹選取分析的包
+cyclic.dependencies.usage.view.root.node.text:
+    text: "在包''{1}''裡,包''{0}''的使用"
+dependencies.libraries.node.text:
+    text: 庫
+dependency.configurable.allow.table.column1:
+    text: 允許使用的
+dependency.configurable.allow.table.column2:
+    text: 僅位於
+dependency.configurable.deny.table.column1:
+    text: 拒絕使用的
+dependency.configurable.deny.table.column2:
+    text: 位於
+dependency.configurable.display.name:
+    text: 依賴驗證
+find.dependencies.progress.text:
+    text: 搜索使用在:{0}
+forward.dependencies.usage.view.initial.text:
+    text: 選取在左樹哪裡搜索和在右樹搜索什麼.
+forward.dependencies.usage.view.root.node.text:
+    text: 右樹選取範圍的使用,在左樹選取範圍
+local.scopes.node.text:
+    text: 局部作用範圍
+mark.dependency.illegal.text:
+    text: 非法遮罩
+module.dependencies.cycle.node.text:
+    text: 循環{0}
+module.dependencies.scope.dialog.module.button:
+    text: 檢查模組"{0}" (&M)
+module.dependencies.scope.dialog.project.button:
+    text: 檢查整個項目 (&P)
+module.dependencies.scope.dialog.title:
+    text: 指定分析作用範圍
+no.dependencies.found.message:
+    text: 在{1}沒有發現{0}的依賴.
+package.dependencies.build.process.title:
+    text: 掃瞄包
+package.dependencies.build.progress.text:
+    text: 掃瞄包
+package.dependencies.library.node.text:
+    text: 庫類別
+package.dependencies.on.toolwindow.title:
+    text: 在{1}上{0}的依賴
+package.dependencies.production.node.text:
+    text: 生產類別
+package.dependencies.progress.text:
+    text: 分析包依賴性
+package.dependencies.progress.title:
+    text: 依賴關係分析中
+package.dependencies.test.node.text:
+    text: 測試類別
+package.dependencies.toolwindow.title:
+    text: '{0}的依賴'
+predefined.scope.problems.name:
+    text: 問題
+project.is.out.of.date:
+    text: 項目過時了
+recompile.confirmation.message:
+    text: |-
+        專案類別檔案是過期的.你要在DSM分析之前繼續編譯一個項目?
+        沒有編譯可能導致不完全或不正確的資料.
+scanning.scope.progress.title:
+    text: 掃瞄作用範圍 ...
+scope.directory:
+    text: "目錄 ''{0}''"
+scope.display.name.allow.scope:
+    text: "在範圍''{1}''啟用範圍''{0}''的使用"
+scope.display.name.deny.scope:
+    text: "在範圍''{1}''禁用範圍''{0}''的使用"
+scope.file:
+    text: "檔案 ''{0}''"
+scope.option.analyze.injected.code:
+    text: 檢查注入的程式碼(&J)
+scope.option.custom:
+    text: 自訂作用範圍(&C)
+scope.option.include.test.sources:
+    text: 包括測試資源
+scope.option.module:
+    text: "模組 ''{0}''"
+scope.option.module.with.mnemonic:
+    text: "模組 ''{0}''"
+scope.option.uncommitted.files:
+    text: 未提交的檔案(&U)
+scope.option.uncommitted.files.all.changelists.choice:
+    text: 全部
+scope.option.whole.project:
+    text: 整個項目
+scope.package:
+    text: 包 {0}
+scope.project:
+    text: "項目 ''{0}''"
+scope.selected.files:
+    text: 選取的檔案
+scope.virtual.files:
+    text: 選取
+skip.import.statements.checkbox.title:
+    text: 跳過匯入語句
+specify.analysis.scope:
+    text: 指定作用範圍 {0}
+status.bar.no.rule.violation.message:
+    text: 沒有違背規則
+update.module.tree.progress.text:
+    text: 處理模組"{0}"循環中
+update.module.tree.progress.title:
+    text: 更新模組樹
+usage.view.canceled:
+    text: 已還原

@@ -1,0 +1,220 @@
+annotation.cannot.be.local:
+    text: 不允許局部註解
+annotation.container.abstract:
+    text: "容器註解 ''{0}'' 沒有包含 ''{1}'' 的預設值"
+annotation.container.bad.type:
+    text: "無效的容器註解 ''{0}'': ''value'' 方法的類型應為 ''{1}''"
+annotation.container.low.retention:
+    text: "容器註解 ''{0}'' 的保留長度(''{1}'')比包含的註解短"
+annotation.container.missed.annotation:
+    text: "容器註解 ''{0}'' 沒有必需的 @{1} 註解"
+annotation.container.no.value:
+    text: "無效的容器註解 ''{0}'': 未宣告 ''value'' 方法"
+annotation.container.not.applicable:
+    text: "容器註解 ''@{0}'' 不適用於 {1}"
+annotation.container.wide.target:
+    text: "容器註解 ''{0}'' 的目標不是此註解目標的子集"
+annotation.container.wrong.place:
+    text: "容器註解 ''{0}'' 不得與它所包含的元素同時存在"
+annotation.cyclic.element.type:
+    text: 迴圈註解元素類型
+annotation.duplicate.explained:
+    text: 註解重複。{0}
+annotation.may.not.have.extends.list:
+    text: '@interface 可能沒有 extends 列表'
+annotation.missing.attribute:
+    text: '{0} 必要，但缺少'
+annotation.not.allowed.class:
+    text: 類文字類型可能未進行註解
+annotation.not.allowed.here:
+    text: 此處不允許註解
+annotation.not.allowed.ref:
+    text: 註解不適用於此類引用
+annotation.not.allowed.static:
+    text: 限定類型的 static 成員可能未註解
+annotation.not.allowed.var:
+    text: "'var' 類型可能未註解"
+annotation.not.allowed.void:
+    text: "'void' 類型可能未進行註解"
+annotation.not.applicable:
+    text: "''@{0}'' 不適用於{1}"
+array.initializer.not.allowed:
+    text: 此處不允許陣列初始設定式
+array.type.expected:
+    text: "應為陣列類型；實際為 ''{0}''"
+assignment.to.final.variable:
+    text: "無法將值賦給 final 變數 ''{0}''"
+binary.operator.not.applicable:
+    text: "運算符 ''{0}'' 不能應用於 ''{1}''、''{2}''"
+break.outside.switch.or.loop:
+    text: break 位於 switch 或迴圈外部
+clash.methods.message:
+    text: "''{0}'' 與 ''{1}'' 衝突"
+clash.methods.message.show.classes:
+    text: "''{2}'' 中的 ''{0}'' 與 ''{3}'' 中的 ''{1}'' 衝突"
+class.already.imported:
+    text: "已在此編譯單元中定義 ''{0}''"
+class.cannot.extend.multiple.classes:
+    text: 類不能擴展多個類
+class.clashes.with.package:
+    text: "類 ''{0}'' 與同名的軟體套件衝突"
+class.must.implement.method:
+    text: "類 ''{0}'' 必須在 ''{2}'' 中實作 abstract 方法 ''{1}''"
+exception.already.caught:
+    text: "已捕捉到異常 ''{0}''"
+exception.must.be.disjoint:
+    text: "多 catch 中的類型必須不相交: ''{0}'' 是 ''{1}'' 的子類"
+exception.never.thrown.try:
+    text: "相應的 try 塊中從未拋出異常 ''{0}''"
+expression.expected:
+    text: 應為表達式
+foreach.not.applicable:
+    text: "foreach 不適用於類型 ''{0}''"
+insufficient.language.level:
+    text: "語言級別 ''{1}'' 不支持 {0}"
+label.without.statement:
+    text: 無語句的標籤
+lvti.array:
+    text: "不允許將 'var' 作為陣列的元素類型"
+lvti.compound:
+    text: "複合宣告中不允許 'var'"
+lvti.lambda:
+    text: '無法推斷類型: lambda 表達式需要顯式目標類型'
+lvti.no.initializer:
+    text: "無法推斷類型: 'var' 位於沒有初始設定式的變數上"
+lvti.null:
+    text: "無法推斷類型: 變數初始設定式為 'null'"
+lvti.void:
+    text: "無法推斷類型: 變數初始設定式為 'void'"
+modifier.not.allowed:
+    text: "此處不允許使用修飾符 ''{0}''"
+module.access.bad.name:
+    text: "軟體套件 ''{0}'' 在具有無效名稱(''{1}'')的模組中宣告"
+module.access.does.not.read:
+    text: "軟體套件 ''{0}'' 在模組 ''{1}'' 中宣告，但模組 ''{2}'' 沒有讀取它"
+module.access.from.named:
+    text: "軟體套件 ''{0}'' 在模組 ''{1}'' 中宣告，但後者沒有將它匯出到模組 ''{2}''"
+module.access.from.unnamed:
+    text: "軟體套件 ''{0}'' 在模組 ''{1}'' 中宣告，但後者沒有將它匯出到未命名模組"
+module.access.not.in.graph:
+    text: "軟體套件 ''{0}'' 在模組 ''{1}'' 中宣告，但後者不在模組圖中"
+module.access.to.unnamed:
+    text: "軟體套件 ''{0}'' 在未命名的模組中宣告，但模組 ''{1}'' 沒有讀取它"
+module.conflicting.packages:
+    text: "軟體套件 ''{0}'' 存在於另一個模組中: {1}"
+module.conflicting.reads:
+    text: "模組 ''{0}'' 同時從 ''{2}'' 和 ''{3}'' 讀取軟體套件 ''{1}''"
+module.cyclic.dependence:
+    text: '迴圈依賴關係: {0}'
+module.duplicate.exports:
+    text: "重複的 ''exports'': {0}"
+module.duplicate.exports.target:
+    text: "重複的 ''exports'' 目標: {0}"
+module.duplicate.opens:
+    text: "重複的 ''opens'': {0}"
+module.duplicate.opens.target:
+    text: "重複的 ''opens'' 目標: {0}"
+module.duplicate.provides:
+    text: "重複的 ''provides'': {0}"
+module.duplicate.requires:
+    text: "重複的 ''requires'': {0}"
+module.duplicate.uses:
+    text: "重複的 ''uses'': {0}"
+module.file.duplicate:
+    text: "模組中已存在 'module-info.java'"
+module.file.wrong.location:
+    text: 模組宣告應位於模組的源根中
+module.file.wrong.name:
+    text: "模組宣告應位於名為 'module-info.java' 的檔案中"
+module.no.package:
+    text: "模組檔案不應具有 'package' 語句"
+module.not.found:
+    text: '找不到模組: {0}'
+module.not.on.path:
+    text: '模組不在依賴項中: {0}'
+module.opens.in.weak.module:
+    text: "開啟的模組中不允許 'opens'"
+module.service.abstract:
+    text: '該服務實作是 abstract 類: {0}'
+module.service.alien:
+    text: 服務實現必須在 provides 指令所在的同一模組中定義
+module.service.enum:
+    text: '服務定義為枚舉: {0}'
+module.service.inner:
+    text: '服務實現為內部類: {0}'
+module.service.provider.type:
+    text: "''provider'' 方法返回類型必須是服務接口類型的子類型: {0}"
+package.clashes.with.class:
+    text: "軟體套件 ''{0}'' 與同名的類衝突"
+receiver.name.mismatch:
+    text: 接收器名稱不符合封閉類類型
+receiver.static.context:
+    text: 接收器不能在 static 上下文中使用
+receiver.type.mismatch:
+    text: 接收器類型不符合封閉類類型
+receiver.wrong.context:
+    text: 不允許接收器超出方法參數列表
+receiver.wrong.position:
+    text: 接收器應為第一個參數
+record.accessor:
+    text: 記錄組件存取器
+record.accessor.wrong.return.type:
+    text: "組件存取器返回類型不正確。應為 ''{0}''，實際為 ''{1}''"
+record.canonical.constructor:
+    text: 規範構造函數
+record.canonical.constructor.wrong.parameter.name:
+    text: "規範構造函數參數名稱必須符合記錄組件名稱。應為 ''{0}''，實際為 ''{1}''"
+record.canonical.constructor.wrong.parameter.type:
+    text: "記錄組件 ''{0}'' 的參數類型不正確。應為 ''{1}''，實際為 ''{2}''"
+record.compact.constructor:
+    text: 緊湊構造函數
+record.component.cstyle.declaration:
+    text: 不允許 C 樣式記錄組件宣告
+record.component.not.initialized:
+    text: "記錄組件 ''{0}'' 可能無法在規範構造函數中初始化"
+record.component.restricted.name:
+    text: "記錄組件名稱 ''{0}'' 非法"
+record.component.vararg.not.last:
+    text: Vararg 記錄組件必須為列表中的最後一項
+record.extends:
+    text: 不允許對記錄使用 extends 子句
+record.header.regular.class:
+    text: 為非記錄宣告了記錄標頭
+record.instance.field:
+    text: 記錄中不允許實例欄位
+record.instance.initializer:
+    text: 記錄中不允許實例初始設定式
+record.no.constructor.call.in.non.canonical:
+    text: 非規範記錄構造函數必須委託給其他構造函數
+record.no.header:
+    text: 記錄沒有宣告標頭
+record.permits:
+    text: 記錄不允許 permits 子句
+record.special.method.throws:
+    text: '{0} 無法宣告拋出的異常'
+record.special.method.type.parameters:
+    text: '{0} 不能有類型參數'
+return.from.void.method:
+    text: 無法從結果類型為 void 的方法返回值
+return.outside.method:
+    text: return 位於方法外部
+switch.expression.cannot.be.void:
+    text: switch 表達式的目標類型不能為 void
+type.parameter.cannot.be.followed.by.other.bounds:
+    text: 類型參數後面不能跟隨其他邊界
+unary.operator.not.applicable:
+    text: "運算符 ''{0}'' 不能應用於 ''{1}''"
+vararg.not.last.parameter:
+    text: Vararg 參數必須為列表中的最後一個參數
+variable.already.assigned:
+    text: "變數 ''{0}'' 可能尚未被賦值"
+variable.assigned.in.loop:
+    text: "變數 ''{0}'' 可能在迴圈中賦值"
+variable.must.be.final:
+    text: "變數 ''{0}'' 從內部類中存取，需要宣告為 final"
+variable.not.initialized:
+    text: "變數 ''{0}'' 可能尚未初始化"
+yield.unexpected:
+    text: yield 位於 switch 表達式外部
+yield.void:
+    text: "表達式類型不應為 'void'"

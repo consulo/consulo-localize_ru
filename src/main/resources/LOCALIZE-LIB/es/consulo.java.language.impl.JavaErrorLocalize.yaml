@@ -1,0 +1,156 @@
+ambiguous.method.html.tooltip:
+    text: <html><body><table border=0><tr><td colspan={0}>Llamada a método ambigua. Ambas</td></tr><tr>{1}<td>en <b>{2}</b>y</td></tr><tr>{3}<td>en <b>{4}</b>coinciden</td></tr></table></body></html>
+annotation.missing.method:
+    text: "No se puede encontrar el método ''{0}()'' de @interface"
+annotation.unknown.method:
+    text: "No se puede resolver el método ''{0}''"
+call.to.super.is.not.allowed.in.enum.constructor:
+    text: La llamada a super no está permitida en el constructor del enum
+cannot.select.dot.class.from.type.variable:
+    text: No se puede acceder al objeto de clase de un parámetro de tipo
+cannot.select.from.parameterized.type:
+    text: No se puede acceder al objeto de clase de un tipo parametrizado
+class.cannot.be.inherited.with.different.arguments:
+    text: '{0} no se puede heredar con diferentes argumentos: {1}'
+class.is.not.used:
+    text: "La clase ''{0}'' no se utiliza nunca"
+constructor.is.not.used:
+    text: "El constructor ''{0}'' no se utiliza nunca"
+declaration.or.variable.expected:
+    text: Se esperaba una declaración, una variable final o efectivamente final
+direct.abstract.method.access:
+    text: "No se puede acceder directamente al método abstracto ''{0}''"
+exception.already.caught.warn:
+    text: "Sección inalcanzable: {1, choice, 0#la excepción|2#las excepciones} ''{0}'' {1, choice, 0#ya ha sido capturada|2#ya han sido capturadas}"
+exception.is.never.thrown:
+    text: "La excepción ''{0}'' nunca se lanza en el método"
+expression.expected:
+    text: Se esperaba una expresión
+extends.after.enum:
+    text: No se permite la cláusula extends para un enum
+field.is.not.used:
+    text: "El campo ''{0}'' no se utiliza nunca"
+generics.select.static.class.from.parameterized.type:
+    text: "No se permiten argumentos de tipo aquí porque la clase ''{0}'' es estática"
+generics.type.argument.cannot.be.of.primitive.type:
+    text: El argumento de tipo no puede ser de tipo primitivo
+generics.type.or.method.does.not.have.type.parameters:
+    text: "{0} ''{1}'' no tiene parámetros de tipo"
+generics.unchecked.assignment:
+    text: "Asignación no comprobada: de ''{0}'' a ''{1}''"
+generics.unchecked.call:
+    text: "Invocación no verificada al método ''{0}''"
+generics.unchecked.call.to.member.of.raw.type:
+    text: "Llamada no verificada a ''{0}'' como miembro del tipo sin procesar ''{1}''"
+generics.unchecked.cast:
+    text: "Conversión no comprobada: de ''{0}'' a ''{1}''"
+generics.wildcards.may.be.used.only.as.reference.parameters:
+    text: Los comodines solo pueden usarse como parámetros de referencia
+illegal.forward.reference:
+    text: "No se puede leer el valor del campo ''{0}'' antes de su definición"
+implements.after.interface:
+    text: No se permite la cláusula implements para una interfaz
+inheritance.from.final.class:
+    text: "No se puede heredar de {1} ''{0}''"
+interface.methods.cannot.have.body:
+    text: Los métodos abstractos de interfaz no pueden tener cuerpo
+invalid.package.annotation.containing.file:
+    text: Las anotaciones de paquete deben estar en el archivo package-info.java
+is.not.an.enclosing.class:
+    text: "''{0}'' no es una clase envolvente"
+local.class.is.not.used:
+    text: "La clase local ''{0}'' no se utiliza nunca"
+local.variable.is.never.used:
+    text: "La variable ''{0}'' no se utiliza nunca"
+local.variable.is.not.assigned:
+    text: "La variable ''{0}'' nunca se asigna"
+local.variable.is.not.used.for.reading:
+    text: "La variable ''{0}'' se asigna pero nunca se accede a ella"
+member.referenced.before.constructor.called:
+    text: "No se puede hacer referencia a ''{0}'' antes de que se haya llamado al constructor del supertipo"
+method.is.not.used:
+    text: "El método ''{0}'' no se utiliza nunca"
+missing.package.statement:
+    text: "Falta la declaración de paquete: ''{0}''"
+missing.return.type:
+    text: Declaración de método no válida; se requiere un tipo de retorno
+modifiers.for.enum.constants:
+    text: No se permiten modificadores para constantes de enumeración
+module.ambiguous:
+    text: 'Referencia de módulo ambigua: {0}'
+module.not.in.requirements:
+    text: "El módulo ''{0}'' no incluye el módulo ''{1}'' en sus requisitos"
+module.not.on.path:
+    text: 'El módulo no está en las dependencias: {0}'
+module.open.duplicate.text:
+    text: Ir al duplicado
+module.opens.in.weak.module:
+    text: "'opens' no está permitido en un módulo abierto"
+module.package.not.exported:
+    text: "El módulo ''{0}'' no exporta el paquete ''{1}'' al módulo ''{2}''"
+module.service.unused:
+    text: Se proporciona la interfaz de servicio, pero no se exporta ni se utiliza
+no.default.constructor.available:
+    text: "No hay un constructor sin parámetros disponible en ''{0}''"
+not.loop.label:
+    text: "No es una etiqueta de bucle: ''{0}''"
+package.name.file.path.mismatch:
+    text: "El nombre del paquete ''{0}'' no corresponde a la ruta del archivo ''{1}''"
+package.not.found:
+    text: 'Paquete no encontrado: {0}'
+parameter.is.not.used:
+    text: "El parámetro ''{0}'' no se utiliza nunca"
+private.constructor.is.not.used:
+    text: "El constructor privado ''{0}'' nunca se utiliza"
+private.field.is.not.assigned:
+    text: "El campo privado ''{0}'' nunca se asigna"
+private.field.is.not.used:
+    text: "El campo privado ''{0}'' no se utiliza nunca"
+private.inner.class.is.not.used:
+    text: "La clase interna privada ''{0}'' no se utiliza nunca"
+private.inner.interface.is.not.used:
+    text: "La interfaz interna privada ''{0}'' no se utiliza nunca"
+private.method.is.not.used:
+    text: "El método privado ''{0}'' no se utiliza nunca"
+private.symbol:
+    text: "''{0}'' tiene acceso privado en ''{1}''"
+public.class.should.be.named.after.file:
+    text: "La clase ''{0}'' es pública, debe ser declarada en un archivo llamado ''{0}.java''"
+qualified.enum.constant.in.switch:
+    text: Una etiqueta de caso de switch de enumeración debe ser el nombre no calificado de una constante de enumeración
+resource.variable.must.be.final:
+    text: La variable utilizada como recurso en un try-with-resources debe ser final o efectivamente final
+safevararg.annotation.cannot.be.applied.for.record.component:
+    text: '@SafeVarargs no está permitido en un componente de record'
+safevarargs.not.allowed.on.methods.with.fixed.arity:
+    text: '@SafeVarargs no está permitido en métodos con aridad fija'
+safevarargs.not.suppress.potentially.unsafe.operations:
+    text: '@SafeVarargs no suprime las operaciones potencialmente inseguras'
+single.import.class.conflict:
+    text: "''{0}'' ya está definido en una importación de tipo único"
+statement.must.be.prepended.with.case.label:
+    text: La sentencia debe estar precedida por una etiqueta case
+static.interface.method.call.qualifier:
+    text: El método estático solo puede ser invocado en la interfaz que lo contiene
+static.member.accessed.via.instance.reference:
+    text: "Se accede al miembro estático ''{0}.{1}'' a través de una referencia de instancia"
+static.method.cannot.override.instance.method:
+    text: "El método estático ''{0}'' en ''{1}'' no puede sobrescribir el método de instancia ''{2}'' en ''{3}''"
+switch.expr.empty:
+    text: "la expresión 'switch' no tiene ninguna cláusula 'case'"
+switch.expr.incomplete:
+    text: "La expresión 'switch' no cubre todos los posibles valores de entrada"
+text.class.inherits.unrelated.defaults:
+    text: '{0} hereda valores predeterminados no relacionados para {1} de los tipos {2}'
+text.improper.formed.type:
+    text: Tipo con formato incorrecto; faltan algunos parámetros de tipo
+type.parameter.is.not.used:
+    text: "El parámetro de tipo ''{0}'' no se utiliza nunca"
+unchecked.overriding.incompatible.return.type:
+    text: "Sobrescritura no comprobada: el tipo de retorno requiere una conversión no comprobada. Se encontró ''{0}'', se requiere ''{1}''"
+unrelated.overriding.methods.return.types:
+    text: los métodos tienen tipos de retorno no relacionados
+valid.switch.1_7.selector.types:
+    text: char, byte, short, int, Character, Byte, Short, Integer, String, o un enum
+wrong.constructor.arguments:
+    text: "''{0}'' no puede aplicarse a ''{1}''"

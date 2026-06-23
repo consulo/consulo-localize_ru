@@ -1,0 +1,230 @@
+annotation.cannot.be.local:
+    text: Лакальныя анатацыі не дазволены
+annotation.container.abstract:
+    text: "Анатацыя-кантэйнер ''{0}'' не мае значэння па змаўчанні для ''{1}''"
+annotation.container.bad.type:
+    text: "Недапушчальная анатацыя-кантэйнер ''{0}'': метад ''value'' павінен мець тып ''{1}''"
+annotation.container.low.retention:
+    text: "Анатацыя-кантэйнер ''{0}'' мае больш кароткі час жыцця (''{1}''), чым анатацыя, якая змяшчаецца"
+annotation.container.missed.annotation:
+    text: "Анатацыя-кантэйнер ''{0}'' не мае абавязковай анатацыі @{1}"
+annotation.container.no.value:
+    text: "Недапушчальная анатацыя-кантэйнер ''{0}'': не аб'яўлены метад ''value''"
+annotation.container.not.applicable:
+    text: "Анатацыя-кантэйнер ''@{0}'' не дастасавальная да {1}"
+annotation.container.wide.target:
+    text: "Мэта анатацыі-кантэйнера ''{0}'' не з'яўляецца падмноствам мэты гэтай анатацыі"
+annotation.container.wrong.place:
+    text: "Анатацыя-кантэйнер ''{0}'' не павінна прысутнічаць адначасова з элементам, які ў ёй змяшчаецца"
+annotation.cyclic.element.type:
+    text: Цыклічны тып элемента анатацыі
+annotation.duplicate.explained:
+    text: Дублюючая анатацыя. {0}
+annotation.may.not.have.extends.list:
+    text: '@interface не можа мець спіс extends'
+annotation.missing.attribute:
+    text: Отсутствует обязательный {0}
+annotation.not.allowed.class:
+    text: Літарал класа не можа быць анатаваны
+annotation.not.allowed.here:
+    text: Анатацыі тут не дазволены
+annotation.not.allowed.in.permit.list:
+    text: "Анатацыі не дазволены ў спісе 'permits'"
+annotation.not.allowed.ref:
+    text: Анатацыя не дастасавальная да дадзенага тыпу спасылкі
+annotation.not.allowed.static:
+    text: Статычны член, які вызначае тып, не можа быць анатаваны
+annotation.not.allowed.var:
+    text: "Тып 'var' не можа быць анатаваны"
+annotation.not.allowed.void:
+    text: "Тып 'void' не можа быць анатаваны"
+annotation.not.applicable:
+    text: "''@{0}'' не дастасавальны да {1}"
+array.initializer.not.allowed:
+    text: Ініцыялізатар масіва тут не дазволены
+array.type.expected:
+    text: "Чакаецца тып масіва; знойдзена: ''{0}''"
+assignment.to.final.variable:
+    text: "Немагчыма прысвоіць значэнне final пераменнай ''{0}''"
+binary.operator.not.applicable:
+    text: "Аператар ''{0}'' не можа быць прыменены да ''{1}'', ''{2}''"
+break.outside.switch.or.loop:
+    text: Break па-за switch або цыклам
+clash.methods.message:
+    text: "''{0}'' канфліктуе з ''{1}''"
+clash.methods.message.show.classes:
+    text: "''{0}'' у ''{2}'' канфліктуе з ''{1}'' у ''{3}''"
+class.already.imported:
+    text: "''{0}'' ужо вызначаны ў гэтай адзінцы кампіляцыі"
+class.cannot.extend.multiple.classes:
+    text: Клас не можа пашыраць некалькі класаў
+class.clashes.with.package:
+    text: "Клас ''{0}'' канфліктуе з пакетам таго ж імя"
+class.must.implement.method:
+    text: "Клас ''{0}'' павінен рэалізаваць абстрактны метад ''{1}'' у ''{2}''"
+exception.already.caught:
+    text: "Выключэнне ''{0}'' ужо было перахоплена"
+exception.must.be.disjoint:
+    text: "Тыпы ў multi-catch павінны быць неперасякальнымі: ''{0}'' з'яўляецца падкласам ''{1}''"
+exception.never.thrown.try:
+    text: "Выключэнне ''{0}'' ніколі не выкідваецца ў адпаведным try-блоку"
+expression.expected:
+    text: Чакаецца выраз
+foreach.not.applicable:
+    text: "Foreach не дастасавальны да тыпу ''{0}''"
+illegal.unicode.escape:
+    text: Недапушчальная Unicode escape-паслядоўнасць
+incomplete.project.state.pending.reference:
+    text: Не будзе дазволена да поўнай загрузкі праекта
+insufficient.language.level:
+    text: "{0} не падтрымліваюцца на ўзроўні мовы ''{1}''"
+label.without.statement:
+    text: Метка без оператора
+lvti.array:
+    text: "'var' не дазволены як тып элемента масіва"
+lvti.compound:
+    text: "'var' не дазволены ў састаўным аб'яўленні"
+lvti.lambda:
+    text: 'Немагчыма вывесці тып: lambda-выраз патрабуе яўнага мэтавага тыпу'
+lvti.no.initializer:
+    text: "Немагчыма вывесці тып: 'var' у пераменнай без ініцыялізатара"
+lvti.null:
+    text: "Немагчыма вывесці тып: ініцыялізатар пераменнай - 'null'"
+lvti.void:
+    text: "Немагчыма вывесці тып: ініцыялізатар пераменнай - 'void'"
+modifier.not.allowed:
+    text: "Мадыфікатар ''{0}'' тут не дазволены"
+module.access.bad.name:
+    text: "Пакет ''{0}'' аб'яўлены ў модулі з недапушчальным імем (''{1}'')"
+module.access.does.not.read:
+    text: "Пакет ''{0}'' аб'яўлены ў модулі ''{1}'', але модуль ''{2}'' яго не чытае"
+module.access.from.named:
+    text: "Пакет ''{0}'' аб'яўлены ў модулі ''{1}'', які не экспартуе яго ў модуль ''{2}''"
+module.access.from.unnamed:
+    text: "Пакет ''{0}'' аб'яўлены ў модулі ''{1}'', які не экспартуе яго ў безыменны модуль"
+module.access.not.in.graph:
+    text: "Пакет ''{0}'' аб'яўлены ў модулі ''{1}'', які адсутнічае ў графе модуляў"
+module.access.to.unnamed:
+    text: "Пакет ''{0}'' аб'яўлены ў безыменным модулі, але модуль ''{1}'' яго не чытае"
+module.conflicting.packages:
+    text: "Пакет ''{0}'' існуе ў іншым модулі: {1}"
+module.conflicting.reads:
+    text: "Модуль ''{0}'' чытае пакет ''{1}'' як з ''{2}'', так і з ''{3}''"
+module.cyclic.dependence:
+    text: 'Цыклічная залежнасць: {0}'
+module.duplicate.exports:
+    text: "Дублюючы ''exports'': {0}"
+module.duplicate.exports.target:
+    text: "Дублюючая мэта ''exports'': {0}"
+module.duplicate.opens:
+    text: "Дублюючы ''opens'': {0}"
+module.duplicate.opens.target:
+    text: "Дублюючая мэта ''opens'': {0}"
+module.duplicate.provides:
+    text: "Дублюючы ''provides'': {0}"
+module.duplicate.requires:
+    text: "Дублюючы ''requires'': {0}"
+module.duplicate.uses:
+    text: "Дублюючы ''uses'': {0}"
+module.file.duplicate:
+    text: "'module-info.java' ужо існуе ў модулі"
+module.file.wrong.location:
+    text: "Аб'яўленне модуля павінна знаходзіцца ў корані зыходнага кода модуля"
+module.file.wrong.name:
+    text: "Аб'яўленне модуля павінна быць у файле 'module-info.java'"
+module.no.package:
+    text: "Файл модуля не должен содержать оператор 'package'"
+module.not.found:
+    text: 'Модуль не найден: {0}'
+module.not.on.path:
+    text: 'Модуль адсутнічае ў залежнасцях: {0}'
+module.opens.in.weak.module:
+    text: "'opens' не разрешен в открытом модуле"
+module.service.abstract:
+    text: "Рэалізацыя сэрвісу з'яўляецца абстрактным класам: {0}"
+module.service.alien:
+    text: Рэалізацыя сэрвісу павінна быць вызначана ў тым жа модулі, што і дырэктыва provides
+module.service.enum:
+    text: "Вызначэнне сэрвісу з'яўляецца enum: {0}"
+module.service.inner:
+    text: "Рэалізацыя сэрвісу з'яўляецца ўнутраным класам: {0}"
+module.service.provider.type:
+    text: "Вяртаемы тып метаду ''provider'' павінен быць падтыпам інтэрфейсу сэрвісу: {0}"
+package.clashes.with.class:
+    text: "Пакет ''{0}'' канфліктуе з класам таго ж імя"
+receiver.name.mismatch:
+    text: Імя прыёмніка не адпавядае тыпу знешняга класа
+receiver.static.context:
+    text: Прыёмнік не можа выкарыстоўвацца ў static кантэксце
+receiver.type.mismatch:
+    text: Тып прыёмніка не адпавядае тыпу знешняга класа
+receiver.wrong.context:
+    text: Прыёмнікі не дазволены па-за спісам параметраў метаду
+receiver.wrong.position:
+    text: Прыёмнік павінен быць першым параметрам
+record.accessor:
+    text: Аксессор компонента record
+record.accessor.wrong.return.type:
+    text: "Няправільны тып вяртаемага значэння для аксесара кампанента. Чакаецца: ''{0}'', знойдзена: ''{1}''"
+record.canonical.constructor:
+    text: Кананічны канструктар
+record.canonical.constructor.wrong.parameter.name:
+    text: "Імёны параметраў кананічнага канструктара павінны супадаць з імёнамі кампанентаў record. Чакаецца: ''{0}'', знойдзена: ''{1}''"
+record.canonical.constructor.wrong.parameter.type:
+    text: "Няправільны тып параметра для кампанента record ''{0}''. Чакаецца: ''{1}'', знойдзена: ''{2}''"
+record.compact.constructor:
+    text: Компактный конструктор
+record.component.cstyle.declaration:
+    text: "Аб'яўленне масіва ў стылі C не дазволена ў кампаненце record"
+record.component.not.initialized:
+    text: "Кампанент record ''{0}'' можа быць не ініцыялізаваны ў кананічным канструктары"
+record.component.restricted.name:
+    text: "Недапушчальнае імя кампанента record ''{0}''"
+record.component.vararg.not.last:
+    text: Vararg кампанент record павінен быць апошнім у спісе
+record.extends:
+    text: Для record не дазволена канструкцыя extends
+record.header.regular.class:
+    text: "Загаловак record аб'яўлены для не-record"
+record.instance.field:
+    text: Поле экземпляра не разрешено в record
+record.instance.initializer:
+    text: Ініцыялізатар экзэмпляра не дазволены ў record
+record.no.constructor.call.in.non.canonical:
+    text: Некананічны канструктар record павінен дэлегаваць іншаму канструктару
+record.no.header:
+    text: "У record адсутнічае аб'яўленне загалоўка"
+record.permits:
+    text: Для record не разрешена клауза permits
+record.special.method.throws:
+    text: "{0} не можа аб'яўляць выкідваемыя выключэнні"
+record.special.method.type.parameters:
+    text: '{0} не можа мець параметры тыпу'
+return.from.constructor:
+    text: Немагчыма вярнуць значэнне з канструктара
+return.from.void.method:
+    text: Немагчыма вярнуць значэнне з метаду з тыпам выніку void
+return.outside.method:
+    text: Return знаходзіцца па-за метадам
+switch.expression.cannot.be.void:
+    text: Мэтавы тып для switch-выразу не можа быць void
+type.parameter.cannot.be.followed.by.other.bounds:
+    text: Пасля параметра тыпу не могуць ісці іншыя межы
+unary.operator.not.applicable:
+    text: "Аператар ''{0}'' не можа быць прыменены да ''{1}''"
+vararg.cstyle.array.declaration:
+    text: "C-стыль аб'яўлення масіва не дазволены ў vararg-параметры"
+vararg.not.last.parameter:
+    text: Vararg-параметр павінен быць апошнім у спісе
+variable.already.assigned:
+    text: "Пераменнай ''{0}'' магчыма ўжо прысвоена значэнне"
+variable.assigned.in.loop:
+    text: "Пераменнай ''{0}'' магчыма прысвойваецца значэнне ў цыкле"
+variable.must.be.final:
+    text: "Пераменная ''{0}'' выкарыстоўваецца ва ўнутраным класе, павінна быць аб'яўлена як final"
+variable.not.initialized:
+    text: "Пераменная ''{0}'' можа быць не ініцыялізавана"
+yield.unexpected:
+    text: Yield па-за выразам switch
+yield.void:
+    text: "Тып выразу не павінен быць 'void'"

@@ -1,0 +1,194 @@
+cleanup.in.file:
+    text: 코드 정리
+cleanup.in.scope:
+    text: 다음에서 코드 정리…
+inspection.dead.code.comment:
+    text: // --검사(Inspection)에 의해 주석 처리됨
+inspection.dead.code.comment.quickfix:
+    text: 주석 처리
+inspection.dead.code.date.comment:
+    text: '// --검사(Inspection)에 의해 주석 처리됨 ({0}):'
+inspection.dead.code.display.name:
+    text: 사용되지 않는 선언
+inspection.dead.code.entry.point.quickfix:
+    text: 진입점(Entry Point)으로 추가
+inspection.dead.code.entry.points.display.name:
+    text: 진입점
+inspection.dead.code.export.results.instantiated.from.heading:
+    text: '다음에서 인스턴스화됨:'
+inspection.dead.code.export.results.no.instantiations.found:
+    text: 인스턴스화를 찾을 수 없습니다.
+inspection.dead.code.problem.synopsis:
+    text: 필드에 값이 할당되지 않았습니다.
+inspection.dead.code.problem.synopsis1:
+    text: 필드가 사용되지 않았습니다.
+inspection.dead.code.problem.synopsis10:
+    text: 익명 클래스 선언 컨텍스트가 진입점에서 도달 가능하지 않습니다. 클래스가 한 번도 인스턴스화되지 않았습니다.
+inspection.dead.code.problem.synopsis11:
+    text: '{0}이(가) 사용되지 않았습니다.'
+inspection.dead.code.problem.synopsis12:
+    text: '{0}에 하나의 인스턴스화가 있지만, 해당 인스턴스화는 진입점에서 도달 가능하지 않습니다.'
+inspection.dead.code.problem.synopsis13:
+    text: '{0}이(가) 인스턴스화되지 않았습니다.'
+inspection.dead.code.problem.synopsis14:
+    text: <ul><li>추상 메서드가 구현되지 않았거나</li><li>구현 클래스가 한 번도 인스턴스화되지 않았거나</li><li>모든 인스턴스화가 진입점에서 도달 가능하지 않습니다.</li></ul>
+inspection.dead.code.problem.synopsis15:
+    text: <ul><li>메서드 소유 클래스가 한 번도 인스턴스화되지 않았거나</li><li>모든 인스턴스화가 진입점에서 도달 가능하지 않습니다.</li></ul>
+inspection.dead.code.problem.synopsis16:
+    text: 메서드가 사용되지 않았습니다.
+inspection.dead.code.problem.synopsis18:
+    text: 메서드가 진입점에서 도달 가능하지 않습니다.
+inspection.dead.code.problem.synopsis19:
+    text: 클래스 및 {0, choice, 1#해당 구현|2#{0,number}개의 해당 구현}이 한 번도 인스턴스화되지 않았습니다.
+inspection.dead.code.problem.synopsis2:
+    text: 필드에 값이 할당되었지만 액세스되지 않았습니다.
+inspection.dead.code.problem.synopsis20:
+    text: '{1}에 {0, choice, 1#개의 인스턴스화|2#{0,number}개의 인스턴스화}가 있지만, 진입점에서 도달 가능하지 않습니다.'
+inspection.dead.code.problem.synopsis21:
+    text: 메서드가 이 {0}의 멤버로 사용되지 않고, 구현 클래스의 멤버로만 사용되었습니다. 메서드를 {0}에서 제거해도 프로젝트는 컴파일 가능한 상태로 유지됩니다.
+inspection.dead.code.problem.synopsis22:
+    text: 메서드가 라이브러리 메서드를 오버라이드하지만<ul><li>해당 {0}이(가) 한 번도 인스턴스화되지 않았거나</li><li>해당 {0} 인스턴스화가 진입점에서 도달 가능하지 않습니다.</li></ul>
+inspection.dead.code.problem.synopsis23:
+    text: '{0}이(가) 구현되지 않았습니다.'
+inspection.dead.code.problem.synopsis24:
+    text: '{0}에 구현이 있지만 <ul><li>구현이 한 번도 인스턴스화되지 않았거나</li><li>진입점에서 도달 가능한 인스턴스화가 없습니다.</li></ul>'
+inspection.dead.code.problem.synopsis26.constructor:
+    text: 생성자가 사용되지 않았습니다.
+inspection.dead.code.problem.synopsis26.method:
+    text: 메서드가 사용되지 않았습니다.
+inspection.dead.code.problem.synopsis28.constructor:
+    text: 생성자에 하나의 사용 사례가 있지만, 진입점에서 도달 가능하지 않습니다.
+inspection.dead.code.problem.synopsis28.method:
+    text: 메서드에 하나의 사용 사례가 있지만, 진입점에서 도달 가능하지 않습니다.
+inspection.dead.code.problem.synopsis29.constructor:
+    text: 생성자에 {0, choice, 1#개의 사용 사례|2#{0,number}개의 사용 사례}가 있지만, 진입점에서 도달 가능하지 않습니다.
+inspection.dead.code.problem.synopsis29.method:
+    text: 메서드에 {0, choice, 1#개의 사용 사례|2#{0,number}개의 사용 사례}가 있지만, 진입점에서 도달 가능하지 않습니다.
+inspection.dead.code.problem.synopsis3:
+    text: 필드에 하나의 사용 사례가 있지만, 진입점에서 도달 가능하지 않습니다.
+inspection.dead.code.problem.synopsis4:
+    text: 필드에 {0, choice, 1#1개의 사용 사례|2#{0,number}개의 사용 사례}가 있지만, 진입점에서 도달 가능하지 않습니다.
+inspection.dead.code.problem.synopsis6:
+    text: 도달 가능함. 프로젝트 코드에서 {0, choice, 1#1개의 사용 사례|2#{0, number}개의 사용 사례}를 찾았습니다.
+inspection.dead.code.problem.synopsis6.suspicious:
+    text: 도달 가능하지 않음. 프로젝트 코드에서 {0, choice, 1#1개의 사용 사례|2#{0, number}개의 사용 사례}를 찾았습니다.
+inspection.dead.code.problem.synopsis7:
+    text: 도달 가능한 인스턴스화가 있습니다. 프로젝트 코드에서 {0, choice, 1#1개의 인스턴스화|2#{0, number}개의 인스턴스화}를 찾았습니다.
+inspection.dead.code.problem.synopsis8:
+    text: 도달 가능한 구현 인스턴스화가 있습니다. 프로젝트 코드에서 {0, choice, 1#1개의 인스턴스화|2#{0, number}개의 인스턴스화}를 찾았습니다.
+inspection.dead.code.problem.synopsis8.suspicious:
+    text: 도달 가능한 구현 인스턴스화가 없습니다. 프로젝트 코드에서 {0, choice, 1#1개의 인스턴스화|2#{0, number}개의 인스턴스화}를 찾았습니다.
+inspection.dead.code.problem.synopsis9:
+    text: 인스턴스화됨. 프로젝트 코드에서 {0, choice, 1#1개의 인스턴스화|2#{0, number}개의 인스턴스화}를 찾았습니다.
+inspection.dead.code.problem.synopsis9.suspicious:
+    text: 익명 클래스 컨텍스트가 도달 가능하지 않습니다. 클래스가 인스턴스화되지 않았습니다. 프로젝트 코드에서 {0, choice, 1#1개의 인스턴스화|2#{0, number}개의 인스턴스화}를 찾았습니다.
+inspection.dead.code.remove.user.defined.entry.point.quickfix:
+    text: 사용자 정의 진입점 제거
+inspection.dead.code.safe.delete.quickfix:
+    text: 안전하게 삭제(Safe delete)
+inspection.dead.code.start.comment:
+    text: |
+        // --검사(Inspection) 시작에 의해 주석 처리됨 ({0}):
+inspection.dead.code.stop.comment:
+    text: |
+        // --검사(Inspection) 종료에 의해 주석 처리됨 ({0})
+inspection.deprecated.display.name:
+    text: 사용 중단된(Deprecated) API 사용
+inspection.description.title:
+    text: 설명
+inspection.disabled.error:
+    text: "검사 ''{0}''이(가) 비활성화되었습니다: {1}."
+inspection.disabled.wrong.id:
+    text: "검사 ''{0}''이(가) 비활성화되었습니다: ID ''{1}''이(가) ''{2}'' 패턴과 일치하지 않습니다."
+inspection.export.options.panel.title:
+    text: 옵션
+inspection.export.results.anonymous.ref.in.owner:
+    text: '다음에서:'
+inspection.export.results.at.line:
+    text: 번째 줄에서
+inspection.export.results.capitalized.class:
+    text: 클래스
+inspection.export.results.capitalized.interface:
+    text: 인터페이스
+inspection.export.results.capitalized.location:
+    text: 위치
+inspection.export.results.constructor:
+    text: 생성자
+inspection.export.results.dead.code:
+    text: 사용되지 않는 선언
+inspection.export.results.derived.methods:
+    text: 파생된 메서드
+inspection.export.results.extended:
+    text: '다음에 의해 확장됨:'
+inspection.export.results.extended.implemented:
+    text: '다음에 의해 확장/구현됨:'
+inspection.export.results.extends.implements:
+    text: 확장/구현함
+inspection.export.results.field:
+    text: 필드
+inspection.export.results.file:
+    text: 파일
+inspection.export.results.initializer:
+    text: 초기화 블록
+inspection.export.results.interface:
+    text: 인터페이스
+inspection.export.results.invalidated.item:
+    text: 무효화된 항목
+inspection.export.results.method:
+    text: 메서드
+inspection.export.results.no.problems.found:
+    text: 문제를 찾을 수 없음
+inspection.export.results.overrides.implements:
+    text: 오버라이드/구현함
+inspection.export.results.package:
+    text: 패키지
+inspection.export.results.used.from:
+    text: '다음에서 사용됨:'
+inspection.export.results.uses:
+    text: '다음 항목을 사용함:'
+inspection.javadoc.option.tab.title:
+    text: 클래스
+inspection.javadoc.option.tab.title.field:
+    text: 필드
+inspection.javadoc.option.tab.title.method:
+    text: 메소드
+inspection.javadoc.option.tab.title.package:
+    text: 패키지
+inspection.marked.for.removal.display.name:
+    text: 삭제 예정으로 표시된 API 사용
+inspection.null.value.for.optional.context.parameter:
+    text: 매개 변수
+inspection.offline.view.tool.display.name.title:
+    text: 이름
+inspection.options.action.text:
+    text: "검사 ''{0}'' 옵션"
+inspection.problem.resolution:
+    text: 문제 해결
+inspection.problem.synopsis:
+    text: 문제 요약
+inspection.processing.job.descriptor:
+    text: '다음 위치에서 프로젝트 사용 사례 처리 중:'
+inspection.processing.job.descriptor1:
+    text: '다음에 대한 외부 사용 사례 처리 중:'
+inspection.processing.job.descriptor2:
+    text: '다음 위치에서 코드 분석 중:'
+inspection.redirect.template:
+    text: '<html><body>주입된 요소에 문제가 있습니다: {0} (<a href="#navigation/{1}:{2}">{3}</a>에서). </body></html>'
+inspection.reference.anonymous:
+    text: <익명>
+inspection.required.attributes.display.name:
+    text: 필수 속성 누락
+inspection.scope.for.title:
+    text: 범위
+inspection.tool.in.browser.description.title:
+    text: 설명
+inspection.unused.symbol.check.inner.classes:
+    text: '내부 클래스:'
+profile.assignments.browse.scope.button.title:
+    text: 찾아보기 (&B)...
+profile.assignments.display.name:
+    text: 오류
+suspicious.name.combination.display.name:
+    text: 의심스러운 변수/매개변수 이름 조합
+suspicious.name.combination.options.title:
+    text: '이름 그룹(쉼표로 구분):'

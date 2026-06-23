@@ -1,0 +1,69 @@
+action.attach.external.project.description:
+    text: 将 {0} 项目链接到当前的 IDE 项目
+action.attach.external.project.text:
+    text: 链接 {0} 项目
+action.detach.external.project.description:
+    text: 取消链接所选项目
+action.detach.external.project.text:
+    text: 取消链接 {0} 项目
+error.cannot.parse.project:
+    text: 无法解析 {0} 项目
+error.project.already.registered:
+    text: 该项目已经注册
+error.project.undefined:
+    text: 没有定义外部项目配置文件
+error.resolve.already.running:
+    text: '该项目当前正在运行另一个“重新加载项目”任务:  {0}'
+error.resolve.generic:
+    text: 解析错误
+error.resolve.with.reason:
+    text: |-
+        {0}
+
+        请参阅 IDE 日志以获取更多详细信息(帮助|显示日志)
+module.type.description:
+    text: '{0} 模块用于开发具有由 <b>{0}</b> 管理的依赖项的<b>基于 JVM 的</b>应用程序。'
+notification.messages.project.sync.tab.name:
+    text: '{0} 同步'
+notification.project.refresh.fail.title:
+    text: "{0} ''{1}'' 项目重新加载失败"
+orphan.modules.text:
+    text: '下面的 IDE 模块已被 {0} 项目重新加载移除: <p>{1}</p><br/>您可以<a href="#">打开对话框</a>以选择需要还原的模块。'
+progress.import.text:
+    text: "正在构建 ''{0}'' {1} 项目信息"
+progress.refresh.text:
+    text: "正在导入 ''{0}'' {1} 项目"
+run.configuration.description:
+    text: Quarkus 应用程序
+run.configuration.settings.label.project:
+    text: '{0} 项目:'
+run.configuration.settings.label.tasks:
+    text: '任务:'
+run.configuration.settings.label.vmoptions:
+    text: '虚拟机选项:'
+run.configuration.title.choose.registered.project:
+    text: 选择 {0} 项目
+run.configuration.tooltip.choose.registered.project:
+    text: 选择一个已注册的 {0} 项目
+setting.type.location.deduced:
+    text: 推导出 {0} 位置
+setting.type.location.explicit.correct:
+    text: '{0} 位置已定义'
+setting.type.location.explicit.incorrect:
+    text: '{0} 位置不正确'
+setting.type.location.unknown:
+    text: '{0} 位置未知'
+settings.label.project.format:
+    text: '项目格式:'
+settings.label.select.project:
+    text: '{0}项目:'
+settings.title.system.settings:
+    text: 常规设置
+tasks.before.run:
+    text: "运行 {0} 任务 ''{1}''"
+tasks.before.run.empty:
+    text: 运行 {0} 任务
+tasks.edit.task.title:
+    text: 编辑 {0} 任务
+tasks.select.task.title:
+    text: 选择 {0} 任务

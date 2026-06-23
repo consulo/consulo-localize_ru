@@ -1,0 +1,74 @@
+action.description.todo.show.all:
+    text: 顯示所有待辦事項
+action.filter.todo.items:
+    text: 過濾器的待辦事項
+action.flatten.view:
+    text: 平展檢視
+action.group.by.modules:
+    text: 按模組群組
+action.group.by.packages:
+    text: 按包群組
+action.next.todo:
+    text: 下一個TODO
+action.previous.todo:
+    text: 上一頁TODO
+action.todo.edit.filters:
+    text: 編輯過濾器
+action.todo.show.all:
+    text: 全部顯示
+changelist.todo.title:
+    text: '{0}變更清單'
+checkbox.case.sensitive:
+    text: 區分大小寫
+checkbox.todo.use.default.colors:
+    text: 使用配色專案TODO預設顏色
+column.todo.filter.pattern:
+    text: 模式
+column.todo.filter.patterns:
+    text: 圖案
+column.todo.filters.name:
+    text: 名稱
+column.todo.patterns.case.sensitive:
+    text: 區分大小寫
+column.todo.patterns.icon:
+    text: 圖示
+column.todo.patterns.pattern:
+    text: 模式
+error.filter.name.should.be.specified:
+    text: 篩選器名稱應符合規定
+error.filter.should.contain.at.least.one.pattern:
+    text: 過濾器應包含至少一個圖案
+error.filter.with.the.same.name.already.exists:
+    text: 過濾器使用相同的名稱已經存在
+group.todo.filter.patterns:
+    text: 圖案
+group.view.options:
+    text: 檢視選項
+label.todo.filter.name:
+    text: '名稱:'
+label.todo.filters:
+    text: 篩選器
+label.todo.icon:
+    text: '圖示:'
+label.todo.pattern:
+    text: '模式:'
+label.todo.patterns:
+    text: 圖案
+node.todo.more.items:
+    text: …更多…
+text.todo.no.filters:
+    text: 沒有設定過濾器
+text.todo.no.patterns:
+    text: 無模式設定
+title.add.todo.filter:
+    text: 新增篩選器
+title.add.todo.pattern:
+    text: 新增模式
+title.edit.todo.filter:
+    text: 編輯篩選器
+title.edit.todo.pattern:
+    text: 編輯模式
+title.project:
+    text: 項目
+title.todo.current.file:
+    text: 目前檔案

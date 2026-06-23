@@ -1,0 +1,210 @@
+action.expand.static.import.text:
+    text: Развернуть static import
+add.property:
+    text: Дадаць @property
+annotation.types.cannot.be.inlined:
+    text: Тыпы анатацый не могуць быць убудаваны
+cannot.perform.the.refactoring:
+    text: |+
+        Немагчыма выканаць рэфактарынг.
+
+choose.destination.package.label:
+    text: Выберыце мэтавы пакет
+class.cannot.be.inlined.because.a.call.to.its.constructor.is.unresolved:
+    text: Класс не может быть встроен, так как вызов его конструктора не разрешен
+class.cannot.be.inlined.because.an.interface.implemented.by.it.cannot.be.resolved:
+    text: Клас не можа быць убудаваны, бо не можа быць вызначаны рэалізуемы ім інтэрфейс
+class.cannot.be.inlined.because.it.has.static.fields.with.non.constant.initializers:
+    text: Клас не можа быць убудаваны, бо мае статычныя палі з неканстантнымі ініцыялізатарамі
+class.cannot.be.inlined.because.it.has.static.initializers:
+    text: Клас не можа быць убудаваны, бо мае статычныя ініцыялізатары
+class.cannot.be.inlined.because.it.has.static.inner.classes:
+    text: Клас не можа быць убудаваны, бо мае статычныя ўнутраныя класы
+class.cannot.be.inlined.because.it.has.static.methods:
+    text: Клас не можа быць убудаваны, бо мае статычныя метады
+class.cannot.be.inlined.because.it.has.static.non.final.fields:
+    text: Клас не можа быць убудаваны, бо мае статычныя не final палі
+class.cannot.be.inlined.because.it.has.usages.of.fields.not.inherited.from.its.superclass:
+    text: Клас не можа быць убудаваны, бо выкарыстоўвае палі, не ўспадкаваныя ад суперкласа
+class.cannot.be.inlined.because.it.has.usages.of.its.class.literal:
+    text: Клас не можа быць убудаваны, бо мае выкарыстанні свайго клас-літарала
+class.cannot.be.inlined.because.it.has.usages.of.its.inner.classes:
+    text: Клас не можа быць убудаваны, бо мае выкарыстанні сваіх унутраных класаў
+class.cannot.be.inlined.because.it.is.used.as.a.this.qualifier:
+    text: "Клас не можа быць убудаваны, бо выкарыстоўваецца як кваліфікатар 'this'"
+class.cannot.be.inlined.because.it.is.used.in.a.catch.clause:
+    text: "Клас не можа быць убудаваны, бо выкарыстоўваецца ў блоку 'catch'"
+class.cannot.be.inlined.because.it.is.used.in.a.throws.clause:
+    text: "Клас не можа быць убудаваны, бо выкарыстоўваецца ў канструкцыі 'throws'"
+class.cannot.be.inlined.because.its.constructor.contains.return.statements:
+    text: "Клас не можа быць убудаваны, бо яго канструктар змяшчае аператары 'return'"
+class.cannot.be.inlined.because.its.superclass.cannot.be.resolved:
+    text: Класс не может быть встроен, так как не может быть разрешен его суперкласс
+class.cannot.be.inlined.because.there.are.usages.of.its.methods.not.inherited.from.its.superclass.or.interface:
+    text: Клас не можа быць убудаваны, бо мае выкарыстанні метадаў, не ўспадкаваных ад суперкласа або інтэрфейсу
+constructor.returns.can.not.be.wrapped:
+    text: Значэнні, якія вяртае канструктар, не могуць быць абгорнуты
+could.not.find.selected.wrapping.class:
+    text: Не ўдалося знайсці выбраны клас-абгортку
+declare.generated.annotations:
+    text: Згенераваць анатацыі [&G]
+declare.static.pass.fields.checkbox:
+    text: "Аб'явіць static (перадаваць палі як параметры) [&S]"
+dialog.message.nothing.found.to.extract:
+    text: Нічога не знойдзена для атрымання
+enums.cannot.be.inlined:
+    text: Пералічэнні нельга ўбудоўваць
+exposed.delegation.command.name:
+    text: Дэлегаванне раскрыта для {0}
+extract.class.depends.on.0.from.1.tooltip:
+    text: Залежыць ад {0} з {1}
+extract.class.depends.on.0.from.new.class:
+    text: Залежыць ад {0} з новага класа {1}
+extract.class.from.label:
+    text: Выняць дэлегат з {0}
+extract.class.title:
+    text: Выняць дэлегат
+extract.delegate.as.enum.checkbox:
+    text: Выняць як enum
+extract.delegate.create.nested.checkbox:
+    text: Создать вложенный класс
+extract.delegate.generate.accessors.checkbox:
+    text: Згенераваць аксесары [&G]
+extract.delegate.unable.create.warning.message:
+    text: Немагчыма стварыць клас з указаным імем
+extracted.class.command.name:
+    text: Вынесены клас {0}
+extracted.class.should.have.unique.name:
+    text: "Вынесены клас павінен мець унікальнае імя. Імя ''{0}'' ужо выкарыстоўваецца адным з унутраных класаў"
+extracting.from.class:
+    text: 'Вынясенне з класа:'
+field.selected.is.not.used.as.a.delegate:
+    text: Выбранае поле не выкарыстоўваецца як дэлегат
+inline.anonymous.conflict.progress:
+    text: Пошук нашчадкаў класа "{0}"…
+inline.conflicts.progress:
+    text: Праверка магчымасці ўбудоўвання…
+inline.constant.field.not.supported.for.enum.constants:
+    text: '{0} не падтрымліваецца для канстант пералічэння'
+inline.field.used.in.javadoc:
+    text: Убудоўванае поле выкарыстоўваецца ў javadoc
+inline.field.used.in.reflection:
+    text: Убудоўванае поле выкарыстоўваецца рэфлексіўна
+inline.local.unable.try.catch.warning.message:
+    text: Немагчыма ўбудаваць за межамі блока try/catch
+inline.local.variable.declared.outside.cannot.refactor.message:
+    text: "Пераменная аб'яўлена па-за блокам кода"
+inline.method.multiline.method.in.ctor.call:
+    text: Убудоўванне не можа быць ужыта да шматрадковага метаду ў выкліку канструктара
+inline.method.qualifier.usage.side.effect:
+    text: Убудоўваны метад выкарыстоўваецца ў спасылцы на метад з пабочнымі эфектамі ў кваліфікатары
+inline.method.used.in.javadoc:
+    text: Убудоўваны метад выкарыстоўваецца ў javadoc
+inline.method.used.in.reflection:
+    text: Убудоўваны метад выкарыстоўваецца рэфлексіўна
+inline.parameter.cannot.find.initializer.warning.message:
+    text: Не ўдаецца знайсці канстантны ініцыялізатар для параметра
+inline.parameter.no.usages.warning.message:
+    text: Метад не мае выкарыстанняў
+inline.parameter.not.accessible.warning.message:
+    text: Канстантны ініцыялізатар недаступны ў целе метаду
+inline.super.class:
+    text: Убудаваць суперклас
+inline.super.class.action.name:
+    text: Убудаваць суперклас…
+inline.super.class.label:
+    text: Класс {0}
+inline.super.no.anonymous.class:
+    text: Немагчыма ўбудаваць у ананімны клас.
+inline.super.no.inner.class:
+    text: "Немагчыма ўбудаваць ва ўнутраны клас. Перамясціце ''{0}'' на верхні ўзровень"
+inline.super.non.project.class.warning.message:
+    text: Немагчыма ўбудаваць клас не з праекта
+interfaces.cannot.be.inlined:
+    text: Інтэрфейсы нельга ўбудаваць
+introduce.parameter.object:
+    text: "Стварыць аб'ект параметраў"
+introduce.type.parameter:
+    text: Стварыць тыпавы параметр
+invalid.extracted.class.name:
+    text: "''{0}'' - недапушчальнае імя вынесенага класа"
+invert.boolean.title:
+    text: Інвертаваць лагічнае значэнне
+library.classes.cannot.be.inlined:
+    text: Класы бібліятэкі не могуць быць убудаваны
+members.to.extract.label:
+    text: Выносныя члены [&B]
+method.selected.has.no.parameters:
+    text: Выбраны метад не мае параметраў.
+method.selected.returns.void:
+    text: "Выбраны метад вяртае 'void'"
+method.to.wrap.returns.from.label:
+    text: 'Метад, значэнне якога трэба абгарнуць:'
+method.whose.return.are.to.wrapped:
+    text: Метад, значэнне якога трэба абгарнуць
+name.for.new.class.label:
+    text: 'Імя новага класа [&N]:'
+package.for.new.class.label:
+    text: 'Імя пакета [&P]:'
+parameter:
+    text: параметр
+preview:
+    text: Предпросмотр
+records.cannot.be.inlined:
+    text: Класы-запісы не могуць быць убудаваны
+refactor:
+    text: Рэфактарынг
+reference:
+    text: Ссылка
+references.to.be.modified.usage.view:
+    text: Спасылкі для змянення{0, choice, 0#(не знойдзена)|1#{0} спасылка|2#{0} спасылкі|3#{0} спасылак}{1, choice, 0#|1# у {1} файле|2# у {1} файлах}
+references.to.expose.usage.view:
+    text: Спасылкі для раскрыцця{0, choice, 0#(не знойдзена)|1#{0} спасылка|2#{0} спасылкі|3#{0} спасылак}{1, choice, 0#|1# у {1} файле|2# у {1} файлах}
+references.to.extract:
+    text: Спасылкі для вынясення ( {0, choice, 0#(Не знойдзена)|1#{0} спасылка|2#{0} спасылкі}{1, choice, 0#|1# у {1} файле|2# у {1} файлах})
+remove.middleman:
+    text: Выдаліць пасрэдніка
+remove.middleman.column.header:
+    text: Выдаліць
+remove.middleman.deleted.hierarchy.conflict:
+    text: '{0} будзе выдалены. Іерархія будзе парушана'
+remove.middleman.field.header:
+    text: 'Выдаліць поле-пасрэднік:'
+remove.middleman.methods.to.inline.title:
+    text: Метады для ўбудоўвання [&M]
+remove.middleman.title:
+    text: Выдаліць пасрэдніка
+remove.middleman.tooltip.warning:
+    text: Выдаленне парушыць іерархію тыпаў
+rename.overloads:
+    text: Перайменаваць перагрузкі  [&O]
+select.wrapper.class:
+    text: Выберыце клас параметраў
+the.caret.should.be.positioned.at.the.name.of.the.field.to.be.refactored:
+    text: Курсор павінен знаходзіцца на імені поля для рэфактарынгу
+the.caret.should.be.positioned.within.a.class.to.be.refactored:
+    text: Рэфактарынг павінен быць выкліканы для класа або членаў, якія падлягаюць рэфактарынгу.
+the.refactoring.is.not.supported.on.non.static.inner.classes:
+    text: Рэфактарынг не падтрымліваецца для нестатычных унутраных класаў.
+the.selected.class.has.no.members.to.extract:
+    text: У выбраным класе няма членаў для вынясення.
+the.selected.class.is.an.annotation.type:
+    text: "Выбраны клас з'яўляецца інтэрфейсам анатацыі."
+the.selected.class.is.an.enumeration:
+    text: "Выбраны клас з'яўляецца пералічэннем."
+the.selected.class.is.an.interface:
+    text: "Выбраны клас з'яўляецца інтэрфейсам."
+the.selected.method.cannot.be.wrapped.because.it.is.defined.in.a.non.project.class:
+    text: Выбранный метод нельзя обернуть, так как он определён в классе вне проекта
+there.already.exists.a.class.with.the.chosen.name:
+    text: Клас з выбраным імем ужо існуе.
+there.already.exists.a.class.with.the.selected.name:
+    text: Клас з выбраным імем ужо існуе
+type.parameters.cannot.be.inlined:
+    text: Параметры тыпу не могуць быць інлайнаваны
+wrap.return.value:
+    text: Абгарнуць значэнне, якое вяртаецца
+wrap.return.value.title:
+    text: Абгарнуць значэнне, якое вяртаецца
+wrapped.return.command.name:
+    text: Абгарнуць значэнне, якое вяртаецца {0} для {1}()

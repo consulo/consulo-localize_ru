@@ -1,0 +1,6 @@
+javadoc.candidates:
+    text: '<html>메서드 호출 <b>{0}</b>의 후보는 다음과 같습니다: <br><br>{1}</html>'
+javadoc.candidates.not.found:
+    text: <html>메서드 호출 <b>{0}</b>에 대한 후보를 찾을 수 없습니다.</html>
+javadoc.constructor.candidates:
+    text: <html>새 <b>{0}</b>()의 후보는 다음과 같습니다:<br>{1}</html>

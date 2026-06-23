@@ -1,0 +1,16 @@
+maven.tasks.before.run:
+    text: "Запусціць мэту Maven ''{0}''"
+maven.tasks.before.run.empty:
+    text: Запусціць мэту Maven
+maven.tasks.executing:
+    text: Выкананне мэты Maven
+maven.tasks.goal:
+    text: Цель Maven
+maven.tasks.goal.after.compile:
+    text: Пасля зборкі
+maven.tasks.goal.before.compile:
+    text: Перед сборкой
+maven.tasks.goal.before.run:
+    text: Перед запуском
+maven.tasks.select.goal.title:
+    text: Выбрать цель Maven

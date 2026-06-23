@@ -1,0 +1,118 @@
+tools.add.button:
+    text: 追加(&A)...
+tools.add.title:
+    text: ツールの作成
+tools.after.commit.description:
+    text: 'ツールの実行:'
+tools.before.run.provider.name:
+    text: External toolの実行
+tools.caption:
+    text: 'ツール :'
+tools.completed.message:
+    text: "外部ツール ''{0}'' は終了コード {1} で完了しました"
+tools.copy.button:
+    text: コピー(&C)...
+tools.copy.title:
+    text: ツールのコピー
+tools.delete.confirmation:
+    text: 外部ツールを削除しますか ?
+tools.description.column:
+    text: 説明
+tools.description.label:
+    text: '説明 :'
+tools.dialog.title:
+    text: 外部ツール
+tools.edit.button:
+    text: 編集(&E)...
+tools.edit.title:
+    text: ツールの編集
+tools.failed.to.save.changes.0:
+    text: '変更を保存できませんでした: {0}'
+tools.filters.add.button:
+    text: 追加(&A)...
+tools.filters.add.description.label:
+    text: '説明 :'
+tools.filters.add.macro.tooltip:
+    text: マウスの右ボタンを押すと利用可能なマクロの一覧が表示されます
+tools.filters.add.name.label:
+    text: '名前 :'
+tools.filters.add.name.required.error:
+    text: フィルタ名が定義されていません
+tools.filters.add.regex.invalid.title:
+    text: 無効な正規表現
+tools.filters.add.regex.label:
+    text: '出力と一致する正規表現 :'
+tools.filters.add.regex.required.error:
+    text: 正規表現を定義しなければなりません
+tools.filters.add.title:
+    text: フィルタの追加
+tools.filters.button:
+    text: 出力フィルタ(&F)...
+tools.filters.edit.button:
+    text: 編集(&D)...
+tools.filters.edit.title:
+    text: フィルタの編集
+tools.filters.move.down.button:
+    text: 下へ移動(&O)
+tools.filters.move.up.button:
+    text: 上へ移動(&U)
+tools.filters.name.default:
+    text: 名前なし
+tools.filters.name.template:
+    text: フィルタ
+tools.filters.remove.button:
+    text: 削除(&R)
+tools.filters.title:
+    text: 出力フィルタ
+tools.group.column:
+    text: グループ
+tools.group.label:
+    text: 'グループ :'
+tools.insert.macro.button:
+    text: マクロの挿入(&M)...
+tools.insert.macro.button.a:
+    text: マクロの挿入(&A)...
+tools.insert.macro.button.c:
+    text: マクロの挿入(&C)...
+tools.menu.editor.checkbox:
+    text: エディタ メニュー
+tools.menu.group:
+    text: メニュー
+tools.menu.main.checkbox:
+    text: メイン メニュー
+tools.menu.project.checkbox:
+    text: プロジェクト ビュー
+tools.menu.search.checkbox:
+    text: 検索結果
+tools.move.down.button:
+    text: 下へ移動(&D)
+tools.move.up.button:
+    text: 上へ移動(&U)
+tools.name.column:
+    text: 名前
+tools.name.label:
+    text: '名前 :'
+tools.not.configured:
+    text: external toolが設定されていません
+tools.open.console.checkbox:
+    text: コンソールを開く
+tools.parameters.label:
+    text: 'パラメータ :'
+tools.process.start.error:
+    text: プロセスを開始できませんでした
+tools.program.label:
+    text: 'プログラム :'
+tools.remove.button:
+    text: 削除(&R)
+tools.settings:
+    text: ツール
+tools.settings.title:
+    text: 外部ツール
+tools.synchronize.files.checkbox:
+    text: 実行後にファイルを同期する
+tools.tool.group:
+    text: ツールの設定
+tools.unknown.external.tool:
+    text: 未知の  external tool です
+tools.working.directory.label:
+    text: '作業ディレクトリ :'

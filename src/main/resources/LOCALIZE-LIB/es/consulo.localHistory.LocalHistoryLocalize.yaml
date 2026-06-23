@@ -1,0 +1,59 @@
+action.create.patch:
+    text: Crear parche…
+action.revert:
+    text: Revertir
+action.revert.selection:
+    text: Revertir selección
+action.show.difference:
+    text: Mostrar diferencias
+config.dialog.title:
+    text: Estado de la configuración de Perforce
+content.not.available:
+    text: El contenido del archivo no está disponible
+create.patch.dialog.title:
+    text: Crear parche
+current.revision:
+    text: Actual
+file.does.not.exist:
+    text: "''{0}'' no existe"
+message.cannot.create.patch.because.of.unavailable.content:
+    text: |-
+        No se puede crear el parche porque el contenido de algunos
+        de los archivos seleccionados no se almacenó debido a su gran tamaño.
+message.cannot.revert.because:
+    text: No se puede revertir debido a {0}
+message.do.you.want.to.proceed:
+    text: |-
+        {0}
+
+        ¿Desea continuar?
+message.error.during.create.patch:
+    text: 'Error al crear el parche: {0}'
+message.error.during.revert:
+    text: 'Error al revertir: {0}'
+message.patch.created:
+    text: Se ha creado el archivo de parche
+message.processing.left.revision:
+    text: Procesando revisión izquierda…
+message.processing.revisions:
+    text: Procesando revisiones…
+message.processing.right.revision:
+    text: Procesando la revisión derecha…
+put.label.dialog.title:
+    text: Colocar etiqueta
+put.label.name:
+    text: '&Nombre de la etiqueta:'
+recent.changes.popup.title:
+    text: Cambios recientes
+recent.changes.to.changes:
+    text: No hay cambios
+revert.error.files.are.read.only:
+    text: algunos archivos son de solo lectura
+revisions.table.filesCount:
+    text: '{0} {0, choice, 1#archivo|2#archivos}'
+revisions.table.period.old:
+    text: Cambios antiguos
+revisions.table.period.older:
+    text: Más antiguos
+revisions.table.period.recent:
+    text: Últimas {0} horas

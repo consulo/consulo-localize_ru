@@ -1,0 +1,40 @@
+black.cell.color.descriptor:
+    text: "'黑色' 单元格"
+chessboard.cell.size:
+    text: '棋盘格大小(像素)(&S):'
+error.broken.image.file.format:
+    text: <html><b>图像未加载</b><br>尝试外部打开以修正格式问题</html>
+error.title.launching.external.editor:
+    text: 启动外部执行程序时出现问题
+external.editor.border.title:
+    text: 外部编辑器
+external.editor.executable.path:
+    text: '路径:'
+grid.line.color.descriptor:
+    text: 网格线
+icons.count:
+    text: '{0,choice, 0#没有图像|1#1 个图像|2#{0,number} 个图像|100# > 100 个图像}'
+image.info:
+    text: '{0}x{1} {2} ({3} 位颜色) {4}'
+main.page.border.title:
+    text: 编辑器
+select.external.executable.message:
+    text: 选择外部图形编辑器
+select.external.executable.title:
+    text: 选择编辑器
+settings.page.name:
+    text: 图像
+show.grid.every:
+    text: '显示网格线的间隔(像素)(&E):'
+show.grid.lines:
+    text: 默认显示网格线(&G)
+show.grid.zoom.limit:
+    text: '仅当缩放系数大于或等于此值时显示网格线(&O):'
+show.transparency.chessboard:
+    text: 默认显示透明度棋盘(&T)
+thumbnails.component.error.text:
+    text: 错误
+unknown.format:
+    text: 未知格式
+white.cell.color.descriptor:
+    text: "'白色' 单元格"

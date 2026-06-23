@@ -1,0 +1,70 @@
+cannot.resolve.symbol:
+    text: "기호 ''{0}''을(를) 해석할 수 없습니다"
+code.display:
+    text: 코드
+default.package.presentation:
+    text: <기본값>
+default.path.evaluator.option:
+    text: 참조 제공자에게 지정된 파일의 기본 경로를 평가하는 방법을 알려줍니다
+default.visibility.presentation:
+    text: 기본값
+el.unexpected.end.of.file:
+    text: 예기치 않은 파일의 끝
+indent.status.bar.indent.tooltip:
+    text: '들여쓰기:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0}개 공백|2#{0}개 공백}'
+indent.status.bar.tab:
+    text: 탭
+java.terms.class:
+    text: 클래스
+java.terms.constructor:
+    text: 생성자
+java.terms.exception:
+    text: 예외
+java.terms.field:
+    text: 필드
+java.terms.interface:
+    text: 인터페이스
+java.terms.method:
+    text: 메서드
+java.terms.of.class:
+    text: '{1} 클래스의 {0}'
+java.terms.of.enum:
+    text: '{1} enum의 {0}'
+java.terms.of.interface:
+    text: '{1} 인터페이스의 {0}'
+java.terms.package:
+    text: 패키지
+java.terms.parameter:
+    text: 매개변수
+java.terms.variable:
+    text: 변수
+java.terms.variable.of.method:
+    text: '{1}의 {0}'
+psi.scanning.files.progress:
+    text: 파일 스캔 중…
+psi.search.in.non.java.files.progress:
+    text: 코드 외 사용처 분석 중…
+psi.search.scope.production.files:
+    text: 프로젝트 프로덕션 파일
+psi.search.scope.project.and.libraries:
+    text: 프로젝트 및 라이브러리
+psi.search.scope.test.files:
+    text: 프로젝트 테스트 파일
+search.scope.module:
+    text: "''{0}'' 모듈"
+search.scope.module.runtime:
+    text: "''{0}'' 모듈 런타임 범위"
+terms.directory:
+    text: 디렉터리
+terms.file:
+    text: 파일
+terms.property:
+    text: 속성
+xml.terms.attribute:
+    text: 속성
+xml.terms.entity:
+    text: 엔티티
+xml.terms.variable:
+    text: 변수

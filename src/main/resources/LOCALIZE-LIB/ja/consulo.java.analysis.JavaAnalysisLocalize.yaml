@@ -1,0 +1,164 @@
+annotate.overridden.methods.parameters.family.name:
+    text: オーバーライドされたメソッドパラメータに注釈を付ける
+dataflow.method.fails.with.null.argument:
+    text: パラメータがnullの場合、メソッドは例外をスローします。
+exports.to.itself.delete.module.ref.fix:
+    text: "モジュール '' {0} ''への参照を削除する"
+exports.to.itself.delete.statement.fix:
+    text: 文の削除
+feature.annotations:
+    text: 注釈
+feature.binary.literals:
+    text: バイナリリテラル
+feature.diamond.types:
+    text: ダイヤモンドの種類
+feature.extension.methods:
+    text: 拡張メソッド
+feature.for.each:
+    text: 各ループに対して
+feature.generics:
+    text: ジェネリックス
+feature.hex.fp.literals:
+    text: 16進浮動小数点リテラル
+feature.lambda.expressions:
+    text: ラムダ式
+feature.method.references:
+    text: メソッド参照
+feature.modules:
+    text: モジュール
+feature.multi.catch:
+    text: マルチキャッチ
+feature.static.imports:
+    text: 静的なインポート
+feature.try.with.resources:
+    text: リソースを試してみる
+feature.try.with.resources.refs:
+    text: リソース参照
+feature.type.annotations:
+    text: アノテーションを入力
+feature.type.receivers:
+    text: 受信機パラメータ
+feature.underscores.in.literals:
+    text: リテラルの下線
+feature.varargs:
+    text: 可変アリティメソッド
+find.searching.for.references.to.class.progress:
+    text: クラス {0} への参照を検索しています...
+find.usages.panel.title.derived.classes:
+    text: 派生クラス
+find.usages.panel.title.derived.interfaces:
+    text: 派生インターフェイス
+find.usages.panel.title.implementing.classes:
+    text: クラスの実装
+find.usages.panel.title.implementing.methods:
+    text: メソッドの実装
+find.usages.panel.title.overloaded.methods.usages:
+    text: オーバーロードされたメソッドの使用箇所
+find.usages.panel.title.overriding.methods:
+    text: メソッドのオーバーライド
+inspection.annotate.method.quickfix.family.name:
+    text: アノテーションメソッド
+inspection.can.be.final.display.name:
+    text: 宣言は final 修飾子を持てます
+inspection.can.be.final.option:
+    text: クラスのレポート
+inspection.can.be.final.option1:
+    text: メソッドのレポート
+inspection.can.be.final.option2:
+    text: フィールドのレポート
+inspection.can.be.local.parameter.problem.descriptor:
+    text: パラメータ <code>#ref</code> は <code>final</code> 修飾子を持てます。
+inspection.can.be.local.variable.problem.descriptor:
+    text: 変数 <code>#ref</code> は <code>final</code> 修飾子を持てます。
+inspection.contract.display.name:
+    text: 契約上の問題
+inspection.data.flow.simplify.boolean.expression.quickfix:
+    text: Boolean 式を簡素化
+inspection.equals.hashcode.only.one.defined.problem.descriptor:
+    text: クラスでは {0} が定義されていますが {1} が定義されていません
+inspection.export.results.can.be.final.description:
+    text: 宣言は final 修飾子を持てます
+inspection.java.module.naming:
+    text: Javaモジュールの命名規則
+inspection.java.module.naming.terminal.digits:
+    text: "モジュール名 '' {0} ''は端末の数字を避けるべきです"
+inspection.local.can.be.final.display.name:
+    text: ローカル変数またはパラメータは final にできます。
+inspection.local.can.be.final.option:
+    text: ローカル変数のレポート
+inspection.local.can.be.final.option1:
+    text: メソッド パラメータのレポート
+inspection.local.can.be.final.option2:
+    text: レポートキャッチパラメータ
+inspection.local.can.be.final.option3:
+    text: foreachパラメータを報告する
+inspection.module.exports.package.to.itself:
+    text: モジュールのエクスポート/パッケージを自分自身に開く
+inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
+    text: '@ {0}で注釈されたパラメータは、注釈されていないパラメータ'
+inspection.redundant.cast.display.name:
+    text: 冗長な型キャスト
+inspection.redundant.cast.problem.descriptor:
+    text: '{0} の {1} へのキャストは冗長です'
+inspection.redundant.cast.remove.quickfix:
+    text: 冗長なキャストの削除
+inspection.redundant.requires.statement.description:
+    text: "冗長なステートメント ''が必要です{0} ''"
+inspection.redundant.requires.statement.fix.family:
+    text: 冗長な「要求」ステートメントを削除する
+inspection.redundant.requires.statement.fix.name:
+    text: "削除ステートメント ''が必要です{0} ''"
+inspection.redundant.throws.problem.descriptor:
+    text: 宣言した例外 {0} は、メソッドの実装ではスローされません。
+inspection.redundant.throws.problem.descriptor1:
+    text: 宣言した {0} は、このメソッドおよび派生ではスローされません。
+inspection.redundant.throws.problem.descriptor2:
+    text: 宣言した {0} は、スローされません。
+inspection.redundant.type.display.name:
+    text: 冗長なタイプ引数
+inspection.redundant.type.problem.descriptor:
+    text: 明示的なタイプ引数は推測されます
+inspection.reference.anonymous.name:
+    text: 匿名 ({0})
+inspection.reference.default.package:
+    text: デフォルト パッケージ
+inspection.reference.implicit.constructor.name:
+    text: '{0} の暗黙的なコンストラクタ'
+inspection.reference.jsp.holder.method.anonymous.name:
+    text: <% ページ内容 %>
+inspection.same.return.value.display.name:
+    text: メソッドは同じ値を返します
+inspection.same.return.value.problem.descriptor:
+    text: メソッドは常に {0} を返します
+inspection.same.return.value.problem.descriptor1:
+    text: メソッドとすべての派生は {0} を返します
+inspection.same.return.value.problem.descriptor2:
+    text: このメソッドのすべての実装は常に {0} を返します
+inspection.suspicious.collections.method.calls.display.name:
+    text: 疑わしいコレクション メソッド呼び出し
+inspection.suspicious.collections.method.calls.problem.descriptor1:
+    text: "疑わしい ''{0}'' への呼び出し"
+inspection.test.only.problems.test.only.class.reference:
+    text: テスト専用クラスは実動コードで参照されています
+inspection.test.only.problems.test.only.field.reference:
+    text: テスト専用フィールドは実動コードで参照されます
+inspection.visibility.accept.quickfix:
+    text: 推奨するアクセス レベルを適用する
+inspection.visibility.compose.suggestion:
+    text: '{0} 設定'
+intention.add.annotation.family:
+    text: 注釈の追加
+scope.package:
+    text: パッケージ {0}
+suppress.all.for.class:
+    text: クラスのすべての検査を抑止
+suppress.inspection.class:
+    text: "クラスの ''{0}'' の抑止"
+suppress.inspection.field:
+    text: "フィールドの ''{0}'' の抑止"
+suppress.inspection.member:
+    text: メンバーを非表示にする
+suppress.inspection.method:
+    text: "メソッドの ''{0}'' の抑止"
+unused.import.statement:
+    text: 未使用の import 文

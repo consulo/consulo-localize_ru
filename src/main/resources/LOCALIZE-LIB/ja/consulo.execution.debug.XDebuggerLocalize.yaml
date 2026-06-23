@@ -1,0 +1,90 @@
+ad.extra.selection.shortcut:
+    text: 次の項目で項目を選択することもできます：{0}
+debugger.dataViews.display.name:
+    text: データビュー
+debugger.hotswap.display.name:
+    text: ホットスワップ
+debugger.stepping.display.name:
+    text: ステッピング
+node.text.ellipsis.truncated:
+    text: '...（長さ：{0}）'
+scope.block:
+    text: ブロック
+scope.catch:
+    text: キャッチ
+scope.class:
+    text: クラス
+scope.closure:
+    text: 閉鎖
+scope.global:
+    text: グローバル
+scope.instance:
+    text: インスタンス
+scope.library:
+    text: としょうかん
+scope.local:
+    text: 地元
+scope.script:
+    text: スクリプト
+scope.unknown:
+    text: 未知の
+scope.with:
+    text: ブロックあり
+setting.enable.auto.expressions.label:
+    text: 変数ビューで自動式を有効にする
+setting.focus.app.on.breakpoint.label:
+    text: ブレークポイントにフォーカスを当てる
+setting.hide.window.label:
+    text: プロセスの終了時にデバッグウィンドウを隠す
+setting.sort.alphabetically.label:
+    text: 値をアルファベット順にソート
+setting.value.tooltip.delay.label:
+    text: 値ツールチップの遅延（ミリ秒）：
+settings.scroll.to.center:
+    text: 実行ポイントを中央にスクロール
+settings.show.tooltip.on.selection:
+    text: コード選択時に値のツールチップを表示
+settings.show.value.tooltip:
+    text: 値のツールチップを表示します。
+settings.show.values.inline:
+    text: 値をインラインで表示する
+settings.show.window.label:
+    text: ブレークポイントにデバッグウィンドウを表示する
+settings.tooltip.label:
+    text: 無効にした場合は、ツールチップの表示/非表示に「{0}」を使用します
+showReferring.dialog.title:
+    text: '{0}のオブジェクトを参照する'
+suspend.policy.panel.all:
+    text: すべて
+suspend.policy.panel.makeDefault:
+    text: デフォルトにする
+suspend.policy.panel.suspend:
+    text: サスペンド
+suspend.policy.panel.thread:
+    text: 糸
+suspend.policy.panel.title:
+    text: サスペンドポリシー
+xbreakpoint.label.empty:
+    text: ブレークポイントを選択する
+xbreakpoint.tooltip.suspend.policy.all:
+    text: サスペンド：すべて
+xbreakpoints.enabled.label:
+    text: 有効
+xdebugger.attach.toLocal.action:
+    text: ローカルプロセスにアタッチする...
+xdebugger.attach.toLocal.action.collectingProcesses:
+    text: プロセスの収集...
+xdebugger.attach.toLocal.action.description:
+    text: 使用可能なデバッガを使用してローカルに実行中のプロセスにアタッチする
+xdebugger.attach.toLocal.popup.recent:
+    text: 最近
+xdebugger.attach.toLocal.popup.selectDebugger.title:
+    text: デバッガ
+xdebugger.evaluate.addtowatches.hint:
+    text: '{0}を使用して時計に追加する'
+xdebugger.evaluate.history.hint:
+    text: 歴史を表示
+xdebugger.evaluate.language.hint:
+    text: クリックすると言語が変更されます
+xdebugger.evaluate.stack.frame.has.not.evaluator:
+    text: 評価できません、現在のスタックフレームは評価をサポートしていません

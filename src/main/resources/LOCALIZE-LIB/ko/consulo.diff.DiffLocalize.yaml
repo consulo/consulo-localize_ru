@@ -1,0 +1,164 @@
+action.presentation.diff.accept.text:
+    text: 수락
+action.presentation.diff.append.text:
+    text: 추가(Append)
+action.presentation.diff.revert.text:
+    text: 되돌리기
+apply.partially.resolved.merge.dialog.title:
+    text: 변경 사항 적용
+apply.patch.all.changes.processed.message.text:
+    text: 변경 사항을 저장하고 해결 종료
+apply.patch.partially.resolved.changes.confirmation.message:
+    text: |-
+        처리되지 않은 {0, choice, 1#하나의 단락이|2#{0, number}개의 단락이} 남아 있습니다.
+        변경 사항을 저장하고 해결을 마칠까요?
+apply.somehow.status.message.all.applied:
+    text: 모든 변경 단락(hunk)이 해결됨
+apply.somehow.status.message.already.applied:
+    text: '{0, number}개의 {0, choice, 1#단락이|2#단락들이} 이미 적용됨'
+apply.somehow.status.message.cant.apply:
+    text: '{0, number}개의 {0, choice, 1#단락을|2#단락들을} 적용할 수 없음'
+apply.somehow.status.message.cant.apply.some:
+    text: '{1, number}개 중 {0, number}개의 단락을 적용할 수 없음'
+binary.file.viewer:
+    text: 바이너리 파일 뷰어
+cancel.visual.merge.dialog.title:
+    text: 파일 병합 취소
+collapse.unchanged.fragments:
+    text: 변경되지 않은 조각 접기
+diff.acton.ignore.whitespace.policy.all:
+    text: 모두
+diff.all.differences.ignored.text:
+    text: 차이점 무시됨
+diff.application.usage.parameters.and.description:
+    text: '사용법: {0} diff <left file> <right file> [<base file>]'
+diff.clipboard.vs.editor.dialog.title:
+    text: 클립보드 vs 에디터
+diff.clipboard.vs.value.dialog.title:
+    text: 클립보드 vs 선택된 값
+diff.content.clipboard.content.title:
+    text: 클립보드에서
+diff.content.editor.content.title:
+    text: 에디터
+diff.content.selected.value:
+    text: 선택된 값
+diff.content.selection.from.file.content.title:
+    text: '{0}의 선택 영역'
+diff.contents.are.identical.message.text:
+    text: 내용이 동일함
+diff.contents.have.differences.only.in.charset.and.line.separators.message.text:
+    text: 줄 구분선 및 인코딩에서만 차이가 있음
+diff.contents.have.differences.only.in.charset.message.text:
+    text: 인코딩에서만 차이가 있음
+diff.contents.have.differences.only.in.line.separators.message.text:
+    text: 줄 구분선에서만 차이가 있음
+diff.count.differences.status.text:
+    text: '{0, choice, 0#차이점 없음|1#1개의 차이점|2#{0, number}개의 차이점}'
+diff.highlighting.disabled.text:
+    text: 차이점 강조 표시가 꺼져 있음
+diff.panel.combo.box.action.not.available.action.name:
+    text: <사용할 수 없음>
+diff.type.changed.name:
+    text: 변경됨
+diff.type.conflict.name:
+    text: 충돌
+diff.type.deleted.name:
+    text: 삭제됨
+diff.type.inserted.name:
+    text: 삽입됨
+diff.type.none.name:
+    text: 없음
+directory.viewer:
+    text: 디렉터리 뷰어
+editor.settings:
+    text: 설정
+error.message.cannot.show.diff:
+    text: Diff를 표시할 수 없음
+error.viewer:
+    text: 오류 뷰어
+highlighting.level:
+    text: 강조 표시 수준
+ignore.whitespace.acton.name:
+    text: '공백 무시:'
+merge.all.changes.processed.message.text:
+    text: 변경 사항을 저장하고 병합 종료
+merge.application.usage.parameters.and.description:
+    text: '사용법: {0} merge <left file> <right file> [<base file>] <output file>'
+merge.color.options.background.color.label:
+    text: 중요
+merge.color.options.dialog.title:
+    text: 병합 색상 옵션
+merge.color.options.ignored.color.label:
+    text: 무시됨
+merge.continue.button:
+    text: 계속(&C)
+merge.dialog.accept.change.command:
+    text: 변경 사항 수락
+merge.dialog.all.conflicts.resolved.message.text:
+    text: 모든 충돌이 해결됨
+merge.dialog.apply.non.conflicted.changes.command:
+    text: 충돌하지 않는 변경 사항 적용
+merge.dialog.apply.partially.resolved.changes.confirmation.message:
+    text: "처리되지 않은 {0, choice, 0#|1#하나의 변경 사항|2#{0, number}개의 변경 사항}{0, choice, 0#|1#'{1, choice, 0#|1# 및 }'}{1, choice, 0#|1#하나의 충돌|2#{1, number}개의 충돌}이 남아 있습니다.\n그래도 변경 사항을 저장하고 충돌을 해결됨으로 표시하시겠습니까?"
+merge.dialog.exit.without.applying.changes.confirmation.message:
+    text: 변경 사항을 적용하지 않고 종료하시겠습니까?
+merge.dialog.ignore.change.action.name:
+    text: 무시
+merge.dialog.ignore.change.command:
+    text: 변경 사항 무시
+merge.dialog.resolve.conflict.command:
+    text: 충돌 해결
+merge.editor.insert.operation.name:
+    text: 삽입
+merge.editor.remove.operation.name:
+    text: 제거
+merge.editor.replace.operation.name:
+    text: 바꾸기
+merge.files.dialog.title:
+    text: 병합
+merge.save.and.finish.button:
+    text: 저장 및 완료(&F)
+message.do.in.merge.command:
+    text: 병합 중 {0}
+message.init.merge.content.command:
+    text: 병합 내용 초기화
+message.replace.change.command:
+    text: 변경 사항 교체
+message.use.selected.changes.command:
+    text: '{0}개의 선택된 변경 사항 사용'
+option.highlighting.level.inspections:
+    text: 검사(Inspections)
+option.highlighting.level.none:
+    text: 없음
+option.highlighting.level.syntax:
+    text: 구문(Syntax)
+option.highlighting.policy.lines:
+    text: 줄 강조 표시
+option.highlighting.policy.none:
+    text: 강조 표시 안 함
+option.highlighting.policy.split:
+    text: 분할된 변경 사항 강조 표시
+option.highlighting.policy.symbols:
+    text: 문자 강조 표시
+option.highlighting.policy.words:
+    text: 단어 강조 표시
+option.ignore.policy.none:
+    text: 무시 안 함
+option.ignore.policy.trim:
+    text: 공백 자르기
+option.ignore.policy.whitespaces:
+    text: 공백 무시
+option.ignore.policy.whitespaces.empty.lines:
+    text: 공백 및 빈 줄 무시
+option.inherit.ignored.color:
+    text: 무시된 색상 상속
+save.merge.result.command.name:
+    text: 병합
+side.by.side.viewer:
+    text: Side-by-side 뷰어
+synchronize.document.and.its.fragment:
+    text: 문서와 해당 조각 동기화
+synchronize.scrolling:
+    text: 스크롤 동기화
+unified.viewer:
+    text: 통합(Unified) 뷰어

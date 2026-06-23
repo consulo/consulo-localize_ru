@@ -1,0 +1,32 @@
+cannot.create.local.file:
+    text: '로컬 파일을 만들 수 없음: {0}'
+cannot.delete.root.directory:
+    text: "루트 디렉터리 ''{0}''을(를) 삭제할 수 없습니다"
+cannot.load.remote.file:
+    text: "''{0}''을(를) 로드할 수 없음: {1}"
+dialog.title.clear.read.only.file.status:
+    text: 읽기 전용 상태 지우기
+download.progress.connecting:
+    text: "''{0}''에 연결 중…"
+download.progress.downloading:
+    text: "''{0}'' 다운로드 중…"
+file.delete.root.error:
+    text: 루트 파일 {0}을(를) 삭제할 수 없습니다.
+file.read.error:
+    text: 파일 {0}에서 읽을 수 없습니다.
+file.synchronize.progress:
+    text: 파일 동기화 중…
+file.write.error:
+    text: 파일 {0}에 쓸 수 없습니다.
+handle.ro.file.status.failed:
+    text: <html>다음 파일에 대한 읽기 전용 상태를 변경하지 못했습니다:<br>{0}</html>
+handle.ro.file.status.type.using.file.system:
+    text: 파일 시스템 사용
+jar.modification.not.supported.error:
+    text: 아카이브 파일 {0}을(를) 수정할 수 없습니다
+vfs.file.not.exist.error:
+    text: "VFS에 ''{0}''이(가) 존재하지 않습니다"
+vfs.target.already.exists.error:
+    text: "VFS에 ''{0}''이(가) 이미 존재합니다"
+vfs.target.not.directory.error:
+    text: "VFS에서 ''{0}''은(는) 디렉터리가 아닙니다"

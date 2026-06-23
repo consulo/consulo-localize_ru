@@ -1,0 +1,1482 @@
+0.already.contains.a.1:
+    text: '{0} ужо змяшчае {1}'
+0.already.contains.field.1:
+    text: '{0} ужо змяшчае поле {1}'
+0.already.contains.inner.class.named.1:
+    text: '{0} ужо змяшчае ўнутраны клас з імем {1}'
+0.already.exists.in.the.target.class:
+    text: '{0} ужо існуе ў мэтавым класе.'
+0.already.has.parameter.named.1.use.this.name.anyway:
+    text: "{0} ужо мае параметр з імем ''{1}''.\nВыкарыстаць гэта імя ўсё роўна?"
+0.contains.call.with.null.argument.for.parameter.1:
+    text: '{0} змяшчае выклік з null-аргументам для параметра {1}'
+0.has.1.usages.that.are.not.safe.to.delete:
+    text: Знойдзена {1,choice,1#1 выкарыстанне|2#{1,number} выкарыстанні} {0}, якія небяспечна выдаляць.
+0.has.detected.1.code.fragments.in.this.file.that.can.be.replaced.with.a.call.to.extracted.method:
+    text: '{0} выявіў {1} {1,choice,1#фрагмент|2#фрагменты} кода ў гэтым файле, якія можна замяніць выклікам вынятага метаду. Праверыць і замяніць {1,choice,1#яго|2#іх}?'
+0.implements.1:
+    text: '{0} рэалізуе {1}.'
+0.is.1.and.will.not.be.accessible.from.2.in.the.target.class:
+    text: "{0} з'яўляецца {1} і не будзе даступны з {2}."
+0.is.a.part.of.method.hierarchy.do.you.want.to.delete.multiple.parameters:
+    text: "{0} з'яўляецца часткай іерархіі метадаў. Выдаліць некалькі параметраў?"
+0.is.already.overridden.in.1:
+    text: '{0} ужо пераазначаны ў {1}. Метад не будзе перамешчаны ў гэты клас.'
+0.is.an.interface.method.implementation.will.be.added.to.all.directly.implementing.classes:
+    text: "{0} з'яўляецца інтэрфейсам.\nРэалізацыя метаду будзе дададзена ва ўсе класы, якія напрамую рэалізуюць інтэрфейс.\nПрацягнуць?"
+0.is.an.interface.that.has.no.implementing.classes:
+    text: "{0} з'яўляецца інтэрфейсам без рэалізавальных класаў"
+0.is.not.a.legal.fq.name:
+    text: "''{0}'' не з'яўляецца карэктным поўным імем"
+0.is.not.a.legal.java.identifier:
+    text: "''{0}'' не з'яўляецца дапушчальным ідэнтыфікатарам Java"
+0.is.not.accessible.from.1.value.for.introduced.parameter.in.that.method.call.will.be.incorrect:
+    text: '{0} недаступны з {1}. Значэнне ўведзенага параметра ў гэтым выкліку метаду будзе некарэктным.'
+0.is.not.an.identifier:
+    text: "<b><code>{0}</code></b> не з'яўляецца карэктным ідэнтыфікатарам для выкарыстання ў <b><code>{1}</code></b>"
+0.is.not.initialized.in.declaration.such.fields.are.not.allowed.in.interfaces:
+    text: "{0} не ініцыялізавана ў аб'яўленні. Такія палі не дапускаюцца ў інтэрфейсах."
+0.is.not.static.it.cannot.be.moved.to.the.interface:
+    text: "{0} не з'яўляецца статычным. Яго нельга перамясціць у інтэрфейс"
+0.is.read.only:
+    text: '{0} даступны толькі для чытання.'
+0.is.used.for.writing.in.1:
+    text: '{0} выкарыстоўваецца для запісу ў {1}'
+0.refactoring.cannot.be.applied.to.constructors:
+    text: Рэфактарынг {0} не можа быць прыменены да канструктараў
+0.refactoring.is.supported.only.for.final.fields:
+    text: Рэфактарынг {0} падтрымліваецца толькі для final палёў
+0.referenced.in.1.will.not.be.accessible.from.module.2:
+    text: '{0}, які выкарыстоўваецца ў {1}, будзе недаступны з модуля {2}'
+0.referenced.in.1.will.not.be.accessible.from.production.of.module.2:
+    text: '{0}, які выкарыстоўваецца ў {1}, будзе недаступны з production-кода модуля {2}'
+0.referenced.in.1.will.not.be.accessible.in.module.2:
+    text: '{0}, які выкарыстоўваецца ў {1}, будзе недаступны ў модулі {2}'
+0.that.is.used.in.inlined.method.is.not.accessible.from.call.site.s.in.1:
+    text: '{0}, які выкарыстоўваецца ва ўбудоўваемым метадзе, недаступны з пунктаў выкліку ў {1}'
+0.to.be.renamed.to.1.2:
+    text: '{0} будзе перайменаваны ў {1} {2}'
+0.to.change.signature:
+    text: '{0} для змены сігнатуры'
+0.upcasts.an.instance.of.1.to.2:
+    text: '{0} выполняет upcast экземпляра {1} к {2}'
+0.uses.1.of.an.instance.of.a.2:
+    text: '{0} выкарыстоўвае {1} экзэмпляра {2}'
+0.uses.1.which.is.not.accessible.from.the.superclass:
+    text: '{0} выкарыстоўвае {1}, які недаступны з суперкласа'
+0.uses.1.which.is.not.moved.to.the.superclass:
+    text: '{0} выкарыстоўвае {1}, які не перамешчаны ў суперклас'
+0.uses.1.which.is.pushed.down:
+    text: '{0} выкарыстоўвае {1}, які быў перамешчаны ўніз'
+0.uses.1.which.needs.class.instance:
+    text: '{0} выкарыстоўвае {1}, якому патрабуецца экзэмпляр класа'
+0.uses.a.package.local.1:
+    text: '{0} выкарыстоўвае package-private {1}'
+0.uses.non.static.1.which.is.not.passed.as.a.parameter:
+    text: '{0} выкарыстоўвае нестатычны {1}, які не перадаецца як параметр'
+0.will.be.inaccessible.from.1:
+    text: '{0} стане недаступным з {1}'
+0.will.become.inaccessible.from.1:
+    text: '{0} стане недаступным з {1}'
+0.will.hide.renamed.1:
+    text: '{0} схавае перайменаваны {1}'
+0.will.no.longer.override.1:
+    text: '{0} больше не будет переопределять {1}'
+0.will.not.be.accessible.from.1.after.inlining:
+    text: '{0} стане недаступным з {1} пасля ўбудоўвання'
+0.will.override.renamed.1:
+    text: '{0} пераазначыць перайменаваны {1}'
+ExtractSuperClass.superclass:
+    text: Суперкласс
+a.package.local.class.0.will.no.longer.be.accessible.from.1:
+    text: Package-local клас {0} больш не будзе даступны з {1}
+add.object.as.a.parameter.to.constructors.with.name:
+    text: "Дадаць &аб'ект як параметр у канструктары з імем:"
+add.object.as.a.parameter.with.name:
+    text: "Дадаць аб'ект як параметр з імем [&O]:"
+add.parameters.for.fields:
+    text: 'Дадаць параметры для &палёў:'
+add.parameters.for.fields.to.constructors:
+    text: 'Дадаць параметры для &палёў у канструктары:'
+all.candidate.variables.have.types.not.in.project:
+    text: Усе пераменныя-кандыдаты (параметры метаду і палі класа, які змяшчае) маюць тыпы, адсутныя ў праекце
+all.candidate.variables.have.unknown.types:
+    text: Усе пераменныя-кандыдаты (параметры метаду і палі класа, які змяшчае) маюць невядомыя тыпы
+all.invocations.and.remove.the.method:
+    text: Убудаваць усе выклікі і выдаліць метад [&A]
+all.invocations.in.project:
+    text: Все вызовы в проекте [&A]
+all.references.and.remove.super.class:
+    text: Убудаваць &усе спасылкі і выдаліць клас
+all.references.and.remove.the.class:
+    text: Убудаваць &усе спасылкі і выдаліць клас
+all.references.and.remove.the.field:
+    text: Убудаваць &усе выкарыстанні, выдаліць поле
+all.these.directories.will.be.moved.and.all.references.to.0.will.be.changed:
+    text: |-
+        Усе гэтыя каталогі будуць перамешчаны, і ўсе спасылкі на {0}
+        будуць зменены.
+analyze.and.replace.usages:
+    text: Аналізаваць і замяніць выкарыстанні
+annotate.field.as.nonnls.checkbox:
+    text: Анатаваць &поле як @NonNls
+anonymous.class.text:
+    text: Ананімны клас
+anonymousToInner.class.name.label.text:
+    text: 'Імя класа:'
+anonymousToInner.make.class.static.checkbox.text:
+    text: Зрабіць клас &статычным
+anonymousToInner.no.inner.class.name:
+    text: Неабходна ўказаць імя класа
+anonymousToInner.parameters.panel.border.title:
+    text: Параметры конструктора
+anonymousToInner.refactoring.name:
+    text: Пераўтварыць ананімны ва ўнутраны
+attempting.to.delete.targets.node.text:
+    text: Спроба выдалення
+automatic.renamer.rename.to.column:
+    text: Перайменаваць у
+boolean.method.result:
+    text: вынік лагічнага метаду
+caller.chooser.callee.method:
+    text: Вызываемый метод
+caller.chooser.caller.method:
+    text: Метад, які выклікае
+caller.chooser.looking.for.callers:
+    text: Пошук метадаў, якія выклікаюць...
+cancel.button:
+    text: Отмена [&N]
+cannot.create.directory:
+    text: Немагчыма стварыць дырэкторыю
+cannot.extract.selected.elements.into.include.file:
+    text: Немагчыма выняць выбраныя элементы ў include-файл
+cannot.find.or.create.destination.directory:
+    text: Немагчыма знайсці або стварыць мэтавы каталог
+cannot.make.abstract.method.static:
+    text: Немагчыма зрабіць абстрактны метад статычным
+cannot.move:
+    text: Немагчыма перамясціць
+cannot.move.inner.class.0.into.itself:
+    text: Немагчыма перамясціць унутраны клас {0} у самога сябе
+cannot.move.package.into.itself:
+    text: Немагчыма перамясціць пакет у самога сябе
+cannot.perform.refactoring:
+    text: Немагчыма выканаць рэфактарынг.
+cannot.replace.temp.with.query.in.interface:
+    text: Нельга замяніць часовую пераменную на запыт у інтэрфейсе
+change.signature.feel.lucky:
+    text: Мне повезет [&L]
+change.signature.leave.blank.default.value:
+    text: Пакінуць пустым [&B]
+change.signature.use.selected.value:
+    text: Выкарыстоўваць выбранае значэнне [&V]
+changeClassSignature.class.label.text:
+    text: Змяніць сігнатуру <code>{0}</code>.
+changeClassSignature.no.type.parameters:
+    text: Клас не можа мець параметры тыпу
+changeClassSignature.parameters.panel.border.title:
+    text: 'Параметры:'
+changeClassSignature.refactoring.name:
+    text: Змяніць сігнатуру класа
+changeSignature.cannot.resolve.parameter.type:
+    text: "Немагчыма вызначыць тып ''{0}'' для параметра ''{1}''.\nПрацягнуць?"
+changeSignature.cannot.resolve.return.type:
+    text: "Немагчыма вырашыць тып вяртаемага значэння ''{0}''.\nПрацягнуць?"
+changeSignature.default.value.column:
+    text: Значэнне па змаўчанні
+changeSignature.exception.caller.chooser:
+    text: Выберыце метады для распаўсюджвання новых выключэнняў
+changeSignature.exceptions.panel.border.title:
+    text: Выключэнні
+changeSignature.exceptions.wont.propagate:
+    text: Рэкурсіўнае распаўсюджванне змен выключэнняў не будзе выканана
+changeSignature.name.prompt:
+    text: 'Імя [&N]:'
+changeSignature.no.return.type:
+    text: Не ўказаны тып вяртаемага значэння
+changeSignature.no.type.for.exception:
+    text: Укажыце тып для выключэння
+changeSignature.no.type.for.parameter:
+    text: "Укажыце тып {0} для параметра ''{1}''"
+changeSignature.parameter.caller.chooser:
+    text: Выберыце метады для распаўсюджвання новага параметра
+changeSignature.parameters.wont.propagate:
+    text: Рэкурсіўнае распаўсюджванне змен параметраў не будзе выканана
+changeSignature.propagate.exceptions.title:
+    text: Распаўсюдзіць выключэнні [&X]…
+changeSignature.propagate.parameters.title:
+    text: Распаўсюдзіць параметры [&G]...
+changeSignature.refactoring.name:
+    text: Змяніць сігнатуру
+changeSignature.return.type.prompt:
+    text: 'Тып, які вяртаецца [&T]:'
+changeSignature.vararg.not.last:
+    text: Rest-параметр павінен быць апошнім у сігнатуры метаду
+changeSignature.wrong.return.type:
+    text: "Няправільны тып вяртаемага значэння: ''{0}''"
+changeSignature.wrong.type.for.exception:
+    text: "Няправільны тып: ''{0}'' для выключэння"
+changeSignature.wrong.type.for.parameter:
+    text: "Няправільны тып: ''{0}'' для параметра ''{1}''"
+changing.signature.of.0:
+    text: Змяненне сігнатуры {0}
+checkbox.safe.delete.with.usage.search:
+    text: Бяспечнае выдаленне (з пошукам выкарыстання) [&F]
+choose.destination.class:
+    text: Выберыце мэтавы клас
+choose.destination.directory:
+    text: Выберыце мэтавую дырэкторыю
+choose.destination.package:
+    text: Выберыце мэтавы пакет
+choose.the.ones.you.want.to.be.deleted:
+    text: Выберыце метады, якія трэба выдаліць
+class.0.already.exists:
+    text: Клас {0} ужо існуе
+class.0.does.not.exist:
+    text: |-
+        Клас {0} не існуе.
+        Стварыць?
+class.0.does.not.have.inheritors:
+    text: У класа {0} няма нашчадкаў.
+class.0.is.not.accessible.from.target.1:
+    text: Клас {0} недаступны з мэтавага {1}
+class.0.not.found:
+    text: Класс {0} не найден.
+class.constructors.radio:
+    text: Конструкторы класса [&C]
+class.description:
+    text: '{1, choice, 0#|1#локальный }класс {0}'
+class.does.not.exist.in.the.project:
+    text: Клас не існуе ў праекце. Стварыць яго?
+class.does.not.have.base.classes.interfaces.in.current.project:
+    text: '{0} не мае базавых класаў/інтэрфейсаў у бягучым праекце'
+class.does.not.have.base.classes.or.interfaces:
+    text: Клас {0} не мае базавых класаў або інтэрфейсаў
+class.does.not.have.implicit.default.constructor:
+    text: Клас {0} не мае няяўнага канструктара па змаўчанні
+class.has.been.successfully.created:
+    text: Класс {0} успешно создан.
+class.is.abstract:
+    text: '{0} является абстрактным.'
+class.is.interface:
+    text: "{0} з'яўляецца інтэрфейсам."
+class.is.never.used:
+    text: Клас ніколі не выкарыстоўваецца
+class.name.prompt:
+    text: 'Імя класа [&N]:'
+classes.to.push.down.members.to:
+    text: Класы для перамяшчэння членаў {0} уніз
+column.name.any.var:
+    text: Любая переменная
+column.name.default.value:
+    text: 'Значэнне па змаўчанні:'
+column.name.name:
+    text: Імя
+column.name.type:
+    text: Тып
+command.name.copy:
+    text: Капіраваць
+command.name.move:
+    text: Перамясціць
+command.name.rename:
+    text: Перайменаваць
+comments.elements.header:
+    text: Знойдзены супадзенні ў каментарах, радках і некодавых файлах {0}
+constructor.being.refactored.is.used.in.initializer.of.0:
+    text: Рэфактаруемы канструктар выкарыстоўваецца ў ініцыялізатары {0}. Нестатычная фабрыка ўнутранага класа {1} не можа быць выкарыстана ў гэтым кантэксце. Выніковы код не скампілюецца.
+constructor.cannot.be.made.static:
+    text: Канструктар не можа быць зроблены статычным
+constructor.description:
+    text: конструктор {0}
+continue.button:
+    text: Працягнуць [&C]
+convert.local.to.field.title:
+    text: Преобразовать локальную переменную в поле
+convert.to.instance.method.title:
+    text: Преобразовать в метод экземпляра
+convertToInstanceMethod.all.reference.type.parameters.are.not.in.project:
+    text: 'Не знойдзены мэтавы клас для метаду экзэмпляра: не знойдзены параметр метаду з тыпам, які спасылаецца на клас у праекце.'
+convertToInstanceMethod.method.is.not.static:
+    text: "Метад {0} не з'яўляецца статычным"
+convertToInstanceMethod.no.parameters.with.reference.type:
+    text: Няма параметраў спасылачнага тыпу.
+copy.class.clone.0.1:
+    text: Клоновать {0} {1}
+copy.class.copy.0.1:
+    text: Капіраваць {0} {1}
+copy.files.clone.directory.0:
+    text: Кланаваць дырэкторыю {0}
+copy.files.clone.file.0:
+    text: Клоновать файл {0}
+copy.files.clone.title:
+    text: Клоновать
+copy.files.copy.directory.0:
+    text: Капіраваць дырэкторыю {0}
+copy.files.copy.file.0:
+    text: Капіраваць файл {0}
+copy.files.copy.specified.directories.label:
+    text: Капіраваць указаныя дырэкторыі
+copy.files.copy.specified.files.label:
+    text: Капіраваць указаныя файлы
+copy.files.copy.specified.mixed.label:
+    text: Капіраваць указаныя файлы і дырэкторыі
+copy.files.copy.title:
+    text: Капіраваць
+copy.files.new.name.label:
+    text: 'Новае імя:'
+copy.files.to.directory.label:
+    text: 'У дырэкторыю [&D]:'
+copy.handler.clone.class:
+    text: Клоновать класс
+copy.handler.clone.files.directories:
+    text: Кланаваць файлы/дырэкторыі
+copy.handler.copy.class:
+    text: Капіраваць клас
+copy.handler.copy.files.directories:
+    text: Капіраваць файлы/дырэкторыі
+copy.overwrite.button:
+    text: Перазапісаць
+copy.overwrite.for.all.button:
+    text: Перазапісаць усе
+copy.skip.button:
+    text: Прапусціць
+copy.skip.for.all.button:
+    text: Прапусціць усе
+create.class.command:
+    text: Создать класс {0}
+create.directory:
+    text: Создать каталог
+current.class:
+    text: бягучы клас
+current.method.radio:
+    text: Бягучы метад [&M]
+declaration.s.to.be.generified:
+    text: "Аб'яўленні для пераўтварэння ў generic {0}"
+declare.final:
+    text: "Аб'явіць final [&F]"
+declare.folded.parameters:
+    text: Свернутые параметры [&F]
+declare.static.checkbox:
+    text: "Аб'явіць static [&S]"
+declare.varargs.checkbox:
+    text: "Аб'явіць varargs [&A]"
+delegation.panel.delegate.via.overloading.method:
+    text: Дэлегаваць праз перагружаны метад [&L]
+delegation.panel.method.calls.label:
+    text: 'Вызовы методов:'
+delegation.panel.modify.radio:
+    text: Змяніць [&M]
+delete.anyway.button:
+    text: Выдаліць усё роўна [&D]
+delete.include.command:
+    text: Выдаліць {0}
+delete.title:
+    text: Выдаліць
+delete.variable.declaration:
+    text: "Выдаліць аб'яўленне пераменнай [&D]"
+destination.directory.does.not.correspond.to.any.package:
+    text: Мэтавая дырэкторыя не адпавядае ніякаму пакету
+destination.package:
+    text: 'Целевой пакет [&P]:'
+dialog.message.cannot.inline.reference.from.0:
+    text: Немагчыма ўбудаваць спасылку з {0}
+dialog.message.file.already.exists.in.directory:
+    text: "Файл ''{0}'' ужо існуе ў дырэкторыі ''{1}''"
+dialog.message.refactoring.not.available.in.current.scope:
+    text: '{0} недаступны ў бягучай вобласці бачнасці'
+dialog.message.selected.element.used.from.non.project.files:
+    text: Выбраны элемент выкарыстоўваецца з непраектных файлаў. Гэтыя выкарыстанні не будуць перайменаваны. Працягнуць?
+directories.and.all.references.to.package.will.be.renamed:
+    text: |4-
+
+
+        Якія дырэкторыі вы хочаце перайменаваць?
+directory.0.already.contains.1.named.2:
+    text: "Дырэкторыя {0}\nужо змяшчае {1} з імем ''{2}''"
+directory.0.already.contains.a.file.named.1:
+    text: "Дырэкторыя {0}\nужо змяшчае файл з імем ''{1}''"
+directory.description:
+    text: Дырэкторыя {0}
+do.not.replace:
+    text: Не заменять [&N]
+do.not.show.this.message.in.the.future:
+    text: Больш не паказваць гэта паведамленне [&D]
+do.you.want.to.process.overriding.methods.with.covariant.return.type:
+    text: |-
+        Апрацаваць пераазначальныя метады
+        з каварыянтным тыпам вяртаемага значэння?
+do.you.wish.to.continue:
+    text: Хочаце працягнуць?
+do.you.wish.to.ignore.them.and.continue:
+    text: Хочаце ігнараваць іх і працягнуць?
+edit.migration.entry.title:
+    text: Рэдагаваць правіла міграцыі класа/пакета
+element.will.no.longer.be.accessible:
+    text: '{0} больш не будзе даступны з {1}'
+encapsulate.fields..encapsulated.fields.visibility.border.title:
+    text: Бачнасць інкапсуляваных палёў
+encapsulate.fields.accessors.visibility.border.title:
+    text: Бачнасць метадаў доступу
+encapsulate.fields.command.name:
+    text: Інкапсуляцыя палёў у {0}
+encapsulate.fields.encapsulate.border.title:
+    text: Інкапсуляцыя
+encapsulate.fields.field.column.name:
+    text: Поле
+encapsulate.fields.fields.to.be.encapsulated:
+    text: Палі для інкапсуляцыі
+encapsulate.fields.fields.to.encapsulate.border.title:
+    text: Палі для інкапсуляцыі
+encapsulate.fields.get.access.checkbox:
+    text: Доступ на чытанне  [&G]
+encapsulate.fields.getter.exists:
+    text: Ужо існуе метад {0}, які адрозніваецца ад гетара {1} толькі вяртаемым тыпам
+encapsulate.fields.private.radio:
+    text: Прыватны [&I]
+encapsulate.fields.refactoring.cannot.be.applied.to.interface:
+    text: Рэфактарынг інкапсуляцыі палёў нельга прымяніць да інтэрфейсу
+encapsulate.fields.set.access.checkbox:
+    text: Доступ на запіс  [&S]
+encapsulate.fields.setter.exists:
+    text: Ужо існуе метад {0}, які адрозніваецца ад сетара {1} толькі вяртаемым тыпам
+encapsulate.fields.title:
+    text: Інкапсуляцыя палёў
+encapsulate.fields.use.accessors.even.when.field.is.accessible.checkbox:
+    text: Выкарыстоўваць аксесары, нават калі поле даступна
+enter.new.project.name:
+    text: 'Увядзіце новае імя праекта:'
+entity.name.constructor.parameter:
+    text: Параметр
+entity.name.form:
+    text: форма
+entity.name.inheritor:
+    text: Нашчадак
+entity.name.test:
+    text: Тест
+entity.name.variable:
+    text: Переменная
+error.cannot.be.renamed:
+    text: Гэты элемент не можа быць перайменаваны
+error.in.injected.lang.prefix.suffix:
+    text: Выбраны {0} знаходзіцца ў вобласці толькі для чытання ўкаранёнага моўнага дакумента
+error.incorrect.data:
+    text: Некорректные данные
+error.not.supported.for.jsp:
+    text: Рэфактарынг {0} не падтрымліваецца для JSP
+error.out.of.project.element:
+    text: Выбраны {0} знаходзіцца па-за праектам
+error.title:
+    text: Праблема падключэння.
+error.wrong.caret.position.anonymous:
+    text: Курсор павінен знаходзіцца ўнутры ананімнага або лакальнага класа для рэфактарынгу
+error.wrong.caret.position.class:
+    text: Курсор павінен знаходзіцца ўнутры класа для рэфактарынгу
+error.wrong.caret.position.constructor:
+    text: Курсор павінен знаходзіцца ўнутры канструктара для рэфактарынгу
+error.wrong.caret.position.local.name:
+    text: Курсор павінен знаходзіцца на імені лакальнай пераменнай для рэфактарынгу
+error.wrong.caret.position.local.or.expression.name:
+    text: Курсор павінен знаходзіцца на імені лакальнай пераменнай або выразу для рэфактарынгу
+error.wrong.caret.position.method:
+    text: Курсор павінен знаходзіцца ўнутры метаду для рэфактарынгу
+error.wrong.caret.position.method.or.class.name:
+    text: Курсор павінен знаходзіцца на імені метаду або класа для рэфактарынгу
+error.wrong.caret.position.method.or.local.name:
+    text: Курсор павінен знаходзіцца на імені элемента для рэфактарынгу
+error.wrong.caret.position.method.or.variable.name:
+    text: Курсор павінен знаходзіцца на імені метаду або пераменнай для рэфактарынгу
+error.wrong.caret.position.symbol.to.refactor:
+    text: Курсор павінен знаходзіцца на сімвале для рэфактарынгу
+error.wrong.caret.position.symbol.to.rename:
+    text: Курсор павінен знаходзіцца на сімвале для перайменавання
+error.wrong.name.input:
+    text: 'Няправільнае імя: {0}'
+expression.result:
+    text: вынік выразу
+extract.chained.constructor.checkbox:
+    text: Выняць ланцужок канструктараў  [&C]
+extract.include.file.action.title:
+    text: Выняць Include-файл...
+extract.include.file.title:
+    text: Выняць Include-файл
+extract.interface.command.name:
+    text: Выняць інтэрфейс {0} з {1}
+extract.interface.from:
+    text: 'Выняць інтэрфейс з:'
+extract.interface.title:
+    text: Выняць інтэрфейс
+extract.method.control.flow.analysis.failed:
+    text: Код змяшчае сінтаксічныя памылкі. Немагчыма выканаць неабходны аналіз.
+extract.method.replace.duplicate.command.name:
+    text: Замяніць дублікат
+extract.subclass.command:
+    text: Выняць падклас
+extract.superclass.command.name:
+    text: Выняць суперклас {0} з {1}
+extract.superclass.elements.header:
+    text: Выняць суперклас з членамі ў дырэкторыю
+extract.superclass.from:
+    text: 'Выняць суперклас з:'
+extract.superclass.title:
+    text: Выняць суперклас
+extract.to.directory:
+    text: 'Выняць у дырэкторыю [&D]:'
+extractIncludeFile.name:
+    text: Выняць Include-файл
+extractSuper.extract:
+    text: Выняць {0} [&X]
+extractSuper.rename.original.class:
+    text: Перайменаваць зыходны клас і выкарыстоўваць {0} дзе магчыма [&E]
+extractSuper.rename.original.class.to:
+    text: 'Перайменаваць зыходны клас у:  [&R]'
+extractSuperInterface.interface:
+    text: інтэрфейс
+factory.method.name.label:
+    text: 'Імя фабрычнага метаду:'
+field.0.is.already.defined.in.the.1:
+    text: Поле {0} уже определено в {1}
+field.0.is.never.used:
+    text: Поле {0} ніколі не выкарыстоўваецца
+field.0.is.not.accessible:
+    text: Поле {0} недаступна з {1}
+field.0.is.not.static:
+    text: |-
+        Поле {0} не статычнае.
+        Толькі статычныя члены падтрымліваюць рэфактарынг {1}.
+field.0.will.hide.field.1.of.the.base.class:
+    text: "Поле {0} скроет \nполе {1} базового {2}"
+field.declaration.radio:
+    text: "Аб'яўленне поля  [&D]"
+field.description:
+    text: поле {0}
+field.exists:
+    text: "Поле з імем {0}\nужо існуе ў класе ''{1}''.\nПрацягнуць?"
+field.name:
+    text: імя поля
+fields.to.be.refactored.should.belong.to.the.same.class:
+    text: Рэфактаруемыя палі павінны належаць аднаму класу
+file.already.exist:
+    text: Файл {0} ужо існуе
+file.already.exist.title:
+    text: Вынясенне Include-файла
+file.description:
+    text: Файл {0}
+generate.getter.for.delegated.component:
+    text: Згенераваць getter для дэлегаванага кампанента  [&G]
+generify.title:
+    text: Пераўтварыць сырыя тыпы ў generic
+getter.and.setter.methods.found.for.the.field.0:
+    text: |-
+        Для поля {0} знойдзены метады getter і setter.
+        Таксама {1} іх?
+getter.method.found.for.the.field.0:
+    text: Для поля {0} найден метод getter. Также {1} getter?
+idea.has.found.fragments.that.can.be.replaced.with.include.directive:
+    text: |-
+        {0} знайшоў фрагменты, якія можна замяніць дырэктывай include.
+        Хочаце прагледзець гэтыя фрагменты?
+idea.has.not.found.any.code.that.can.be.replaced.with.method.call:
+    text: '{0} не знайшла дублікатаў'
+ignore.button:
+    text: Ігнараваць
+information.title:
+    text: Інфармацыя
+initialize.in.border.title:
+    text: Месца ініцыялізацыі [&I]
+initializer.for.variable.cannot.be.a.constant.initializer:
+    text: Ініцыялізатар для пераменнай {0} не можа быць канстантным
+inline.class.elements.header:
+    text: Убудоўваемы клас
+inline.command:
+    text: Убудаваць {0}
+inline.field.border.title:
+    text: Убудоўванне
+inline.field.command:
+    text: Убудаваць поле {0}
+inline.field.elements.header:
+    text: Убудоўваемае поле
+inline.field.field.name.label:
+    text: "Убудаваць поле ''{0}'':"
+inline.field.title:
+    text: Убудоўванне поля
+inline.included.file.title:
+    text: Убудаваць уключаны файл
+inline.local.variable.prompt:
+    text: "Убудаваць лакальную пераменную ''{0}''?"
+inline.method.border.title:
+    text: Убудоўванне
+inline.method.checking.tail.calls.progress:
+    text: Проверка хвостовых вызовов
+inline.method.command:
+    text: Убудоўванне метаду {0}
+inline.method.elements.header:
+    text: Убудоўваемы метад
+inline.method.method.label:
+    text: Метод {0} {1}
+inline.method.title:
+    text: Убудаваць метад
+inline.parameter.confirmation:
+    text: "Убудаваць параметр ''{0}'' з ініцыялізатарам ''{1}''?"
+inline.parameter.error.hierarchy:
+    text: "Убудоўванне параметра не падтрымліваецца, калі метад з'яўляецца часткай іерархіі наследавання"
+inline.parameter.error.varargs:
+    text: Убудоўванне varargs параметраў не падтрымліваецца
+inline.parameter.refactoring:
+    text: Убудоўванне параметра
+inline.parameter.replace.with.local.checkbox:
+    text: Замяніць лакальнай пераменнай  [&E]
+inline.the.contents.include.prompt:
+    text: "Убудаваць змесціва ''{0}''?"
+inline.title:
+    text: Убудаваць
+inline.to.anonymous.border.title:
+    text: Убудоўванне
+inline.to.anonymous.command.name:
+    text: Убудаваць клас {0}
+inline.to.anonymous.name.label:
+    text: Класс {0}
+inline.to.anonymous.no.abstract:
+    text: Абстрактные классы не могут быть встроены
+inline.to.anonymous.no.multiple.interfaces:
+    text: Класы, якія рэалізуюць некалькі інтэрфейсаў, не могуць быць убудаваны
+inline.to.anonymous.no.superclass.and.interface:
+    text: Класы, якія маюць суперклас і рэалізуюць інтэрфейс, не могуць быць убудаваны
+inline.to.anonymous.refactoring:
+    text: Убудаваць у ананімны клас
+inline.variable.title:
+    text: Убудаваць пераменную
+inline.vars.elements.header:
+    text: Пераменная для ўбудоўвання
+inlined.method.implements.method.from.0:
+    text: Убудоўваемы метад рэалізуе метад з {0}
+inlined.method.overrides.method.from.0:
+    text: Убудоўваемы метад пераазначае метад з {0}
+inner.class.0.is.already.defined.in.class.1:
+    text: |-
+        Унутраны клас {0} ужо вызначаны ў класе {1}.
+        Працягнуць?
+inner.class.0.is.not.static:
+    text: "Унутраны клас {0} не з'яўляецца статычным.\nРэфактарынг {1} падтрымліваецца толькі для статычных членаў."
+inner.class.exists:
+    text: "Унутраны клас з імем ''{0}'' ужо вызначаны\nу класе ''{1}''"
+inner.class.name:
+    text: '&Імя ўнутранага класа: [&I]'
+inner.classes.cannot.have.static.members:
+    text: Унутраныя класы не могуць мець статычных членаў
+inplace.refactoring.abandon.started:
+    text: Адмяніць пачаты рэфактарынг
+inplace.refactoring.cancel.current:
+    text: Адмяніць бягучы рэфактарынг
+inplace.refactoring.continue.started:
+    text: Працягнуць пачаты рэфактарынг
+inplace.refactoring.navigate.to.started:
+    text: Перайсці да пачатага рэфактарынгу
+instance.initializer.description:
+    text: ініцыялізатар экзэмпляра {0}
+instances.casted.to.java.lang.object:
+    text: Экзэмпляры, прыведзеныя да java.lang.Object
+instances.of.0.upcasted.to.1.were.found:
+    text: Знойдзены экзэмпляры {0}, прыведзеныя да тыпу {1}. Пры працягу яны будуць паказаны ў асобнай укладцы пошуку.
+instances.upcasted.to.java.lang.object.found:
+    text: Знойдзены экзэмпляры, прыведзеныя да java.lang.Object
+instances.upcasted.to.object:
+    text: Экзэмпляры, прыведзеныя да Object
+interface.0.does.not.have.inheritors:
+    text: Інтэрфейс {0} не мае нашчадкаў
+interface.does.not.have.base.interfaces:
+    text: Інтэрфейс {0} не мае базавых інтэрфейсаў
+interface.has.been.successfully.created:
+    text: Інтэрфейс {0} паспяхова створаны
+interface.member.dependency.required.by.interfaces:
+    text: патрабуецца {0,choice,1#інтэрфейсам|2#інтэрфейсамі}
+interface.name.prompt:
+    text: 'Імя інтэрфейсу [&I]:'
+introduce.constant.enum.cb:
+    text: Выняць як канстанту пералічэння [&E]
+introduce.constant.field.of.type:
+    text: 'Канстанта (static final поле) тыпу [&T]:'
+introduce.constant.introduce.to.class:
+    text: 'Выняць у клас (поўнае імя) [&C]:'
+introduce.constant.title:
+    text: Создать константу
+introduce.field.field.of.type:
+    text: 'Поле тыпу [&T]:'
+introduce.field.static.field.of.type:
+    text: 'Статычнае поле тыпу [&T]:'
+introduce.parameter.command:
+    text: Вынясенне параметра ў {0}
+introduce.parameter.elements.header:
+    text: Даданне параметра ў метад
+introduce.parameter.title:
+    text: Создать параметр
+introduce.selection.error:
+    text: Немагчыма выканаць рэфактарынг для выбранага элемента
+introduce.target.chooser.expressions.title:
+    text: Выразы
+introduce.variable.title:
+    text: Создать переменную
+introduced.variable.will.conflict.with.0:
+    text: Уведзеная пераменная будзе канфліктаваць з {0}
+introducing.variable.may.break.code.logic:
+    text: Увядзенне пераменнай можа парушыць логіку кода
+invalid.expression.context:
+    text: Недапушчальны кантэкст выразу.
+invalid.target.package.name.specified:
+    text: Указана недапушчальнае імя мэтавага пакета
+invert.0.1:
+    text: Інвертаваць {0} {1} і яго выкарыстанне
+invert.boolean.elements.header:
+    text: '{0} для інвертавання'
+invert.boolean.name.of.inverted.element:
+    text: 'Імя інвертаванага {0} [&N]:'
+invert.boolean.refs.to.invert:
+    text: Спасылкі для інвертавання {0}
+invert.boolean.title:
+    text: Інвертаваць лагічнае значэнне
+invert.boolean.wrong.type:
+    text: Тып вяртаемага значэння метаду або тып рэфактаруемай пераменнай павінен быць boolean
+invocations.to.be.inlined:
+    text: Выклікі для ўбудоўвання {0}
+is.modified.in.loop.body:
+    text: '{0} змяняецца ў целе цыкла'
+is.not.supported.in.the.current.context:
+    text: '{0} не падтрымліваецца ў бягучым кантэксце'
+items.to.be.deleted:
+    text: Элементы для выдалення
+javadoc.for.abstracts:
+    text: JavaDoc для абстрактных элементов
+keep.abstract.column.header:
+    text: Пакінуць abstract
+local.variable.description:
+    text: локальная переменная {0}
+locate.caret.inside.a.method:
+    text: Змясціце курсор унутр члена класа
+make.0.static:
+    text: Зрабіць {0} статычным
+make.abstract:
+    text: Сделать abstract
+make.method.static.title:
+    text: Зрабіць метад статычным
+make.static.command:
+    text: Пераўтварэнне {0} у статычны
+make.static.description.label:
+    text: Зрабіць {0} {1} статычным
+make.static.elements.header:
+    text: '{0} для пераўтварэння ў статычны'
+member.column:
+    text: Член
+member.info.extends.0:
+    text: Пашырае {0}
+member.info.implements.0:
+    text: Рэалізуе {0}
+member.is.already.static:
+    text: Член уже static
+members.to.be.moved.should.belong.to.the.same.class:
+    text: Перамяшчаемыя члены павінны належаць аднаму класу
+members.to.be.pulled.up:
+    text: Члены для перамяшчэння ўверх [&B]
+members.to.be.pushed.down.panel.title:
+    text: Члены для перамяшчэння ўніз [&B]
+members.to.form.interface:
+    text: Члены для фарміравання інтэрфейсу [&B]
+members.to.form.superclass:
+    text: Члены для фарміравання суперкласа [&B]
+method.0.is.already.defined.in.the.1:
+    text: Метод {0} уже определен в {1}
+method.0.is.not.static:
+    text: "Метад {0} не з'яўляецца static.\nТолькі static члены падтрымліваюць рэфактарынг {1}"
+method.0.is.overridden.by.1:
+    text: Метод {0} переопределен в {1}
+method.0.will.hide.method.of.the.base.class:
+    text: "Метод {0} скроет \nметод базового класса {1}"
+method.0.will.implement.method.of.the.base.class:
+    text: "Метад {0} будзе рэалізоўваць \nметад базавага класа {1}"
+method.0.will.override.a.method.of.the.base.class:
+    text: "Метад {0} пераазначыць \nметад базавага класа {1}"
+method.column:
+    text: Метод
+method.description:
+    text: метод {0}
+method.does.not.have.a.body:
+    text: Метад {0} не мае цела
+method.duplicates.found.message:
+    text: Найдено {0, choice, 1#1 фрагмент кода|2#{0,number} фрагмента кода|3#{0,number} фрагментов кода}
+method.has.an.empty.body:
+    text: Метад {0} мае пустое цела.
+method.is.not.a.constructor:
+    text: Метод не является конструктором
+migration.class:
+    text: Класс
+migration.dialog.ok.button.text:
+    text: Выканаць
+migration.dialog.title:
+    text: Міграцыя пакетаў і класаў
+migration.entry.class:
+    text: Класс
+migration.entry.new.name:
+    text: 'Новае імя:'
+migration.entry.old.name:
+    text: 'Старое імя:'
+migration.entry.package:
+    text: Пакет
+migration.map.description.label:
+    text: 'Апісанне карты:'
+migration.map.name.prompt:
+    text: 'Імя карты:'
+migration.new.button:
+    text: Новый…
+migration.new.name.column.header:
+    text: Новае імя
+migration.no.usages.found.in.the.project:
+    text: Выкарыстанні не знойдзены ў праекце
+migration.old.name.column.header:
+    text: Старое імя
+migration.package:
+    text: Пакет
+migration.package.with.subpackages:
+    text: Пакет з падпакетамі
+migration.title:
+    text: Міграцыя
+migration.type.column.header:
+    text: Тып
+move.class.refactoring.cannot.be.applied.to.anonymous.classes:
+    text: Перамяшчэнне класа не можа быць прыменена да ананімных класаў
+move.class.to.inner.command.name:
+    text: Перамясціць {0, choice, 1#клас|2#класы} {1} у {2}
+move.class.to.inner.move.to.self.error:
+    text: Нельга перамясціць клас у самога сябе
+move.class.to.inner.nonstatic.error:
+    text: Нельга перамясціць клас у нестатычны ўнутраны клас
+move.classes.command:
+    text: Перамяшчэнне {0} у пакет {1}
+move.classes.destination.make.inner:
+    text: Зрабіць унутраным класам [&M]
+move.classes.destination.to.package:
+    text: В пакет [&G]
+move.classes.move.to.another.source.folder:
+    text: Перамясціць у іншую папку з зыходнікамі [&F]
+move.directories.elements.header:
+    text: Дырэкторыі будуць перамешчаны ў {0}
+move.directory.0:
+    text: Перамясціць дырэкторыю {0}
+move.enum.constant.cb:
+    text: Па магчымасці перамясціць як канстанты пералічэння [&E]
+move.file.0:
+    text: Перамясціць файл {0}
+move.files.elements.header:
+    text: Файлы будуць перамешчаны ў {0}
+move.files.to.directory.label:
+    text: 'У дырэкторыю:'
+move.inner.class.command:
+    text: Перамяшчэнне ўнутранага класа {0}
+move.inner.class.to.another.class:
+    text: Перамясціць унутраны клас {0} у іншы клас [&M]
+move.inner.class.to.be.moved:
+    text: Перамяшчаемы клас
+move.inner.class.to.upper.level:
+    text: Перамясціць унутраны клас {0} на верхні ўзровень
+move.inner.to.upper.level.title:
+    text: Перамясціць унутраны клас на ўзровень вышэй
+move.instance.method.command:
+    text: Перамясціць метад экзэмпляра
+move.instance.method.elements.header:
+    text: Перамясціць метад экзэмпляра
+move.instance.method.title:
+    text: Перамясціць метад экзэмпляра
+move.members.elements.header:
+    text: Члены для перамяшчэння
+move.members.members.to.be.moved.border.title:
+    text: Члены для перамяшчэння (толькі static) [&B]
+move.members.move.members.from.label:
+    text: 'Перамясціць члены з:'
+move.members.title:
+    text: Перамясціць static члены
+move.members.to.fully.qualified.name.label:
+    text: 'У (поўнае імя):'
+move.method.enter.a.valid.name.for.parameter:
+    text: Увядзіце карэктнае імя параметра
+move.method.is.not.supported.for.0:
+    text: Перамяшчэнне метаду экзэмпляра не падтрымліваецца для {0}
+move.method.is.not.supported.for.constructors:
+    text: Перамяшчэнне метаду не падтрымліваецца для канструктараў
+move.method.is.not.supported.for.generic.classes:
+    text: Перамяшчэнне метаду не падтрымліваецца для абагульненых класаў
+move.method.is.not.supported.when.method.is.part.of.inheritance.hierarchy:
+    text: "Перамяшчэнне метаду не падтрымліваецца, калі метад з'яўляецца часткай іерархіі наследавання"
+move.method.this.parameter.label:
+    text: "Выберыце імя для параметра ''{0}.this''"
+move.nonstatic.class.from.jsp.not.supported:
+    text: Перамяшчэнне нестатычных класаў з JSP старонкі не падтрымліваецца
+move.package.refactoring.cannot.be.applied.to.default.package:
+    text: Перамяшчэнне пакета не можа быць прыменена да пакета па змаўчанні
+move.single.class.or.package.name.label:
+    text: Перамясціць {0} {1}
+move.single.element.elements.header:
+    text: '{0} будзе перамешчаны ў {1}'
+move.specified.classes:
+    text: Перамясціць указаныя класы
+move.specified.directories:
+    text: Перамясціць указаныя дырэкторыі
+move.specified.elements:
+    text: Перамясціць указаныя элементы
+move.specified.files:
+    text: Перамясціць указаныя файлы
+move.specified.packages:
+    text: Перамясціць указаныя пакеты
+move.title:
+    text: Перамясціць
+move.to.different.language:
+    text: Мэтавы клас {2} мае іншую мову, чым {0} {1}
+move.to.inner.duplicate.inner.class:
+    text: Клас {0} ужо змяшчае ўнутраны клас з імем {1}
+moveInstanceMethod.select.an.instance.parameter:
+    text: 'Выберыце выраз экзэмпляра [&I]:'
+moving.directories.command:
+    text: Перамяшчэнне дырэкторый
+moving.local.classes.is.not.supported:
+    text: Перамяшчэнне лакальных класаў не падтрымліваецца
+multiple.directories.correspond.to.package:
+    text: "Пакет ''{0}'' існуе ў некалькіх дырэкторыях:"
+name.for.extracted.include.file:
+    text: 'Імя для вынятага include-файла (пашырэнне па змаўчанні: {0}) [&N]'
+name.prompt:
+    text: Імя [&N]
+no.button:
+    text: Нет [&N]
+no.class.name.specified:
+    text: Імя класа не ўказана
+no.destination.class.specified:
+    text: Не указан целевой класс
+no.field.name.specified:
+    text: Не ўказана імя поля
+no.initializer.present.for.the.field:
+    text: Адсутнічае ініцыялізатар поля
+no.interface.name.specified:
+    text: Не ўказана імя інтэрфейсу
+no.members.selected:
+    text: Не выбраны члены
+no.new.name.specified:
+    text: Не ўказана новае імя
+no.parameter.name.specified:
+    text: Імя параметра не ўказана
+no.selection:
+    text: Няма вылучэння
+no.superclass.name.specified:
+    text: Не ўказана імя суперкласа
+no.target.directory.specified:
+    text: Не ўказана мэтавая дырэкторыя
+no.usages.can.be.replaced:
+    text: "Выкарыстанні {0} \nне могуць быць заменены выкарыстаннямі {1}"
+occurrences.found.in.comments.strings.and.non.java.files:
+    text: Знойдзены ўваходжанні ў каментарах, радках і некодавых файлах
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+    text: Знойдзены ўваходжанні ў каментарах, радках, некодавых файлах і згенераваным кодзе
+only.fields.variables.of.methods.of.valid.type.can.be.considered:
+    text: Могуць разглядацца толькі палі, пераменныя, параметры метадаў або метады дапушчальнага тыпу.
+package.description:
+    text: пакет {0}
+package.does.not.exist:
+    text: |-
+        Пакет {0} не існуе.
+        Стварыць яго?
+package.for.new.interface:
+    text: 'Пакет для новага інтэрфейсу [&P]:'
+package.for.new.superclass:
+    text: 'Пакет для нового суперкласса [&P]:'
+package.for.original.class:
+    text: 'Пакет для зыходнага класа [&P]:'
+package.for.original.interface:
+    text: 'Пакет для зыходнага інтэрфейсу [&P]:'
+package.occurs.in.package.prefixes.of.the.following.source.folders.n:
+    text: 'Пакет {0} знаходзіцца ў прэфіксах пакетаў наступных зыходных папак:'
+parameter.description:
+    text: параметр {0}
+parameter.initializer.contains.0.but.not.all.calls.to.method.are.in.its.class:
+    text: Ініцыялізатар параметра змяшчае {0}, але не ўсе выклікі метаду знаходзяцца ў яго класе
+parameter.name.prompt:
+    text: 'Імя параметра [&M]:'
+parameter.of.type:
+    text: 'Параметр &тыпу:'
+parameters.border.title:
+    text: Параметры
+pass.outer.class.instance.as.parameter:
+    text: Передавать экземпляр внешнего класса как параметр [&O]
+path.completion.shortcut:
+    text: Выкарыстоўвайце {0} для аўтадапаўнення шляху
+please.enter.a.valid.name.for.inverted.element:
+    text: Увядзіце карэктнае імя для інвертаванага {0}
+please.enter.a.valid.target.package.name:
+    text: Увядзіце карэктнае імя мэтавага пакета
+press.the.do.migrate.button:
+    text: |
+        Націсніце кнопку "Выканаць міграцыю" унізе панэлі вынікаў пошуку
+        для міграцыі з выкарыстаннем карты міграцыі "{0}"
+preview.button:
+    text: Предпросмотр [&P]
+preview.usages.to.be.changed:
+    text: Перадпрагляд змяняемых выкарыстанняў  [&P]
+problems.detected.title:
+    text: Обнаружены проблемы
+process.duplicates.title:
+    text: Апрацоўка дублікатаў
+process.methods.duplicates.title:
+    text: Апрацоўка дубліката метаду {2} ({0} з {1})
+progress.text:
+    text: Пошук выкарыстанняў…
+prompt.delete.and:
+    text: І
+prompt.delete.class:
+    text: '{0,choice,1#класс|2#класса}'
+prompt.delete.directory:
+    text: '{0,choice,1#дырэкторыю|2#дырэкторыі}'
+prompt.delete.directory.paren:
+    text: ({0} {0,choice,1#дырэкторыя|2#дырэкторыі})
+prompt.delete.elements:
+    text: Выдаліць {0}?
+prompt.delete.field:
+    text: '{0,choice,1#поле|2#поля}'
+prompt.delete.file:
+    text: '{0,choice,1#файл|2#файла}'
+prompt.delete.interface:
+    text: '{0,choice,1#інтэрфейс|2#інтэрфейса}'
+prompt.delete.method:
+    text: '{0,choice,1#метод|2#метода}'
+prompt.delete.package:
+    text: '{0,choice,1#пакет|2#пакета}'
+prompt.delete.property:
+    text: '{0,choice,1#свойство|2#свойства}'
+prompt.delete.symlink:
+    text: '{0,choice,1#сімвалічную спасылку|2#сімвалічныя спасылкі}'
+prompt.delete.type.parameter:
+    text: '{0,choice,1#параметр тыпу|2#параметра тыпу}'
+pull.members.up.title:
+    text: Перамясціць члены ўверх
+pull.up.members.to:
+    text: 'Перамясціць члены {0} ўверх у [&U]:'
+pullUp.command:
+    text: Перамяшчэнне членаў уверх з {0}
+push.down.javadoc.panel.title:
+    text: JavaDoc для анатацыі
+push.down.members.elements.header:
+    text: Перамяшчэнне членаў уніз з {0}
+push.down.will.delete.members:
+    text: Перамяшчэнне членаў уніз прывядзе да іх выдалення. Стварыць новы падклас?
+push.members.down.title:
+    text: Перамясціць члены ўніз
+push.members.from.0.down.label:
+    text: Перамясціць члены ўніз з {0}
+pushed.members.will.not.be.visible.from.certain.call.sites:
+    text: Перамешчаныя члены не будуць бачны з пэўных месцаў выкліку
+readonly.occurences.found:
+    text: Знойдзены ўваходжанні ў файлах толькі для чытання
+refactor.button:
+    text: Рэфактарынг [&R]
+refactoring.cannot.be.applied.to.inline.non.chaining.constructors:
+    text: Рэфактарынг {0} не можа быць прыменены да ўбудоўвання неланцужковых канструктараў
+refactoring.cannot.be.applied.to.vararg.constructors:
+    text: Рэфактарынг {0} не можа быць прыменены да vararg канструктараў
+refactoring.cannot.be.performed:
+    text: Немагчыма выканаць рэфактарынг
+refactoring.extract.method.dialog.empty:
+    text: Пусто
+refactoring.extract.method.dialog.method.name:
+    text: 'Імя метаду:'
+refactoring.extract.method.dialog.output.variables:
+    text: Выходные переменные
+refactoring.extract.method.dialog.parameters:
+    text: Параметры
+refactoring.extract.method.dialog.signature.preview:
+    text: Папярэдні прагляд сігнатуры
+refactoring.extract.method.dialog.title:
+    text: Выняць метад
+refactoring.indexing.warning.title:
+    text: Індэксацыя
+refactoring.introduce.context.error:
+    text: Немагчыма выканаць рэфактарынг у дадзеным кантэксце
+refactoring.introduce.name.error:
+    text: Некарэктнае імя
+refactoring.introduce.name.used.error:
+    text: Гэта імя ўжо выкарыстоўваецца
+refactoring.introduce.selection.error:
+    text: Немагчыма выканаць рэфактарынг для выбранага элемента
+refactoring.introduce.variable.scope.error:
+    text: Імя канфліктуе з існуючай пераменнай
+refactoring.introduceVariable:
+    text: Рэфактарынг "Стварыць пераменную"
+refactoring.is.not.supported.for.jsp.classes:
+    text: Рэфактарынг не падтрымліваецца для JSP класаў
+refactoring.is.not.supported.for.recursive.methods:
+    text: |-
+        Рэфактарынг {0} не можа быць прыменены для выдалення рэкурсіўных метадаў.
+        Вы можаце ўбудаваць толькі асобныя выклікі метадаў.
+refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
+    text: Рэфактарынг {0} не падтрымліваецца, калі аператар return перарывае паток выканання
+references.found.in.code:
+    text: Знойдзены спасылкі ў кодзе
+references.in.code:
+    text: Спасылкі ў кодзе {0}
+references.in.code.to.0:
+    text: Спасылкі ў кодзе на {0}
+references.in.code.to.0.1:
+    text: Спасылкі ў кодзе на {0} {1}
+references.in.code.to.elements.from.migration.map:
+    text: Спасылкі ў кодзе на элементы з карты міграцыі "{0}" {1}
+references.to.0.to.be.replaced.with.references.to.1:
+    text: "Спасылкі на ''{0}'' будуць заменены спасылкамі на ''{1}''{2}"
+remove.duplicates.command:
+    text: Выдаліць дублікаты
+remove.include.prompt:
+    text: Уключаны файл больш не выкарыстоўваецца. Выдаліць яго?
+remove.parameter.0.no.longer.used:
+    text: "Выдаліць невыкарыстаны параметр ''{0}''"
+rename.0.and.its.usages.to:
+    text: 'Перайменаваць {0} і яго выкарыстанні ў:'
+rename.bound.forms:
+    text: Перайменаваць звязаныя формы [&F]
+rename.bound.forms.title:
+    text: Перайменаваць звязаныя формы
+rename.constructor.parameters.title:
+    text: Перайменаванне параметраў канструктара
+rename.constructor.parameters.with.the.following.names.to:
+    text: 'Перайменаваць параметры з наступнымі імёнамі ў:'
+rename.directories.command.name:
+    text: Перайменаванне дырэкторый
+rename.directory.button.text:
+    text: Толькі выбраную дырэкторыю [&S]
+rename.directory.command.name:
+    text: Перайменаванне дырэкторыі
+rename.directory.title:
+    text: Перайменаваць дырэкторыю [&D]
+rename.forms.with.the.following.names.to:
+    text: 'Перайменаваць формы з наступнымі імёнамі ў:'
+rename.implementation.class.to:
+    text: 'Перайменаваць клас рэалізацыі ў:'
+rename.inheritors:
+    text: Перайменаваць нашчадкаў
+rename.inheritors.title:
+    text: Перайменаваць нашчадкаў
+rename.module.title:
+    text: Перайменаваць модуль [&M]
+rename.not.supported:
+    text: Аперацыя не падтрымліваецца
+rename.original.interface.to:
+    text: 'Перайменаваць зыходны інтэрфейс у:'
+rename.package.button.text:
+    text: Усе дырэкторыі [&A]
+rename.parameters.hierarchy:
+    text: Перайменаваць параметры ў іерархіі [&A]
+rename.project:
+    text: Перайменаваць праект
+rename.project.action.title:
+    text: Перайменаваць праект…
+rename.project.handler.title:
+    text: Перайменаваць праект [&P]
+rename.tests:
+    text: Перайменаваць т&эсты
+rename.tests.title:
+    text: Перайменаванне тэстаў
+rename.tests.with.the.following.names.to:
+    text: 'Перайменаваць тэсты з наступнымі імёнамі ў:'
+rename.title:
+    text: Перайменаванне Swift
+rename.variables:
+    text: Перайменаваць пераменныя  [&V]
+rename.variables.title:
+    text: Перайменаванне пераменных
+renamed.class.will.hide.0.in.1:
+    text: Перайменаваны клас схавае {0} у {1}
+renames.project:
+    text: Перайменаваць праект
+renaming.0.1.to.2:
+    text: Перайменаванне {0} {1} у {2}
+renaming.command.name:
+    text: Перайменаванне {0}
+replace.all.fields:
+    text: '&Замяніць усе палі'
+replace.all.occurences:
+    text: Замяніць усе ўваходжанні ({0} уваходжанняў) [&A]
+replace.all.occurences.checkbox:
+    text: Замяніць усе ўваходжанні [&A]
+replace.all.occurrences.of.expression.0.occurrences:
+    text: Замяніць &усе ўваходжанні ({0})
+replace.constructor.0.with.a.factory.method:
+    text: Замяніць канструктар {0} фабрычным метадам
+replace.constructor.with.factory.method:
+    text: Замяніць канструктар на фабрычны метад
+replace.constructor.with.factory.method.title:
+    text: Замяніць канструктар на фабрычны метад
+replace.constructor.with.factory.target.fq.name:
+    text: 'У (поўнае імя):'
+replace.default.constructor.of.0.with.a.factory.method:
+    text: Замяніць канструктар па змаўчанні {0} на фабрычны метад
+replace.default.constructor.with.factory.method:
+    text: Замяніць канструктар па змаўчанні на фабрычны метад
+replace.fields.inaccessible.in.usage.context:
+    text: Замяніць недаступныя ў кантэксце выкарыстання палі [&I]
+replace.fields.used.in.expressions.with.their.getters:
+    text: Замяніць палі, якія выкарыстоўваюцца ў выразах, на іх гетары [&U]
+replace.fragment:
+    text: Замяніць фрагмент
+replace.inheritance.from:
+    text: 'Замяніць наследаванне дэлегаваннем ад [&R]:'
+replace.inheritance.with.delegation.command:
+    text: Замена наследавання дэлегаваннем у {0}
+replace.inheritance.with.delegation.elements.header:
+    text: Замяніць наследаванне дэлегаваннем
+replace.inheritance.with.delegation.title:
+    text: Замяніць наследаванне дэлегаваннем
+replace.instance.qualifiers.with.class.references:
+    text: Замяніць кваліфікатары экзэмпляра на спасылкі на клас
+replace.method.code.duplicates.title:
+    text: Замяніць дублікаты кода
+replace.method.duplicates.scope.chooser.message:
+    text: Вобласць аналізу
+replace.method.duplicates.scope.chooser.title:
+    text: Укажыце вобласць {0}
+replace.multiple.occurrences.found:
+    text: Знойдзена некалькі ўваходжанняў
+replace.temp.with.query.title:
+    text: Замяніць часовую пераменную на запыт
+replace.this.code.fragment.and.change.signature:
+    text: Сігнатура метаду будзе зменена на {0}
+replace.this.code.fragment.and.make.method.static:
+    text: (Метад будзе зроблены статычным)
+replace.this.code.fragment.and.make.method.static.visible:
+    text: (Метад будзе зроблены статычным і {0})
+replace.this.code.fragment.and.make.method.visible:
+    text: (Метод будет {0})
+replace.with.method.call.does.not.work.for.constructors:
+    text: Замена на вызов метода не работает для конструкторов
+replace.write.access.occurrences:
+    text: Замяніць уваходжанні з запісам [&L]
+replacing.inheritance.with.delegation:
+    text: Замена наследавання дэлегаваннем
+rerun.safe.delete:
+    text: Паўтарыць бяспечнае выдаленне [&R]
+retry.command:
+    text: Паўтарыць
+safe.delete.command:
+    text: Выдаленне {0}
+safe.delete.comment.occurences.header:
+    text: Знойдзена {0} уваходжанняў у каментарах, радках і некодавых файлах. Гэтыя ўваходжанні не будуць зменены
+safe.delete.not.available.indexing:
+    text: Рэфактарынг "Бяспечнае выдаленне" недаступны падчас індэксацыі
+safe.delete.of.those.0.in.comments.strings.non.code:
+    text: '{0,choice,1#1 выкарыстанне|2#{0,number} выкарыстанняў} знаходзіцца ў радках, каментарах, некодавых файлах або згенераваным кодзе.'
+safe.delete.title:
+    text: Бяспечнае выдаленне
+search.for.references:
+    text: Шукаць спасылкі [&F]
+search.for.text.occurrences:
+    text: Шукаць тэкставыя ўваходжанні [&T]
+search.for.usages.and.delete.elements:
+    text: Шукаць выкарыстанне і выдаліць {0}?
+search.in.comments.and.strings:
+    text: Шукаць у каментарах і радках [&C]
+searching.for.duplicates:
+    text: Пошук дублікатаў...
+searching.for.variables:
+    text: Пошук пераменных
+select.all.button:
+    text: Выбрать всё [&A]
+select.refactoring.title:
+    text: Выбар рэфактарынгу
+select.source.root.chooser.title:
+    text: Выберыце каранёвы каталог зыходнікаў
+select.target.directory:
+    text: Выберыце мэтавую дырэкторыю
+select.target.directory.description:
+    text: Файлы будуць створаны ў гэтай дырэкторыі
+selected.block.should.represent.a.set.of.statements.or.an.expression:
+    text: Выбраны блок павінен прадстаўляць набор аператараў або выраз
+selected.block.should.represent.an.expression:
+    text: Выбраны блок павінен прадстаўляць выраз
+selected.expression.cannot.be.a.constant.initializer:
+    text: Выбраны выраз не можа быць ініцыялізатарам канстанты
+selection.does.not.form.a.fragment.for.extraction:
+    text: Вылучэнне не фарміруе фрагмент для вынясення
+setter.method.found.for.the.field.0:
+    text: Найден метод setter для поля {0}. {1} setter тоже?
+setup.method.radio:
+    text: Метод setUp [&S]
+signature.preview.border.title:
+    text: Папярэдні прагляд сігнатуры
+source.and.destination.classes.should.be.different:
+    text: Зыходны і мэтавы класы павінны адрознівацца
+source.folder.0.has.package.prefix.1:
+    text: "Зыходная папка {0} мае прэфікс пакета ''{1}''\nПакет ''{2}'' не можа быць створаны там."
+static.initializer.description:
+    text: статычны ініцыялізатар {0}
+statusBar.noUsages:
+    text: Выкарыстанняў не знойдзена
+statusBar.refactoring.result:
+    text: Зменена {0, choice, 1#1 выкарыстанне|2#{0,number} выкарыстанняў}
+superclass.cannot.be.extracted.from.an.enum:
+    text: Суперклас не можа быць вынуты з enum
+superclass.cannot.be.extracted.from.an.interface:
+    text: Немагчыма выняць суперклас з інтэрфейсу
+superclass.name:
+    text: 'Імя суперкласа [&S]:'
+synthetic.jsp.class.is.referenced.in.the.method:
+    text: У метадзе ёсць спасылка на сінтэтычны jsp клас
+target.0.is.not.accessible.from.1:
+    text: Мэта {0} недаступна з {1}
+target.destination.folder:
+    text: 'Мэтавая дырэкторыя [&D]:'
+the.caret.should.be.positioned.at.the.class.method.or.field.to.be.refactored:
+    text: Курсор павінен быць устаноўлены на клас, метад або поле для рэфактарынгу
+the.caret.should.be.positioned.inside.a.class.to.pull.members.from:
+    text: Курсор павінен быць устаноўлены ўнутры класа, з якога вымаюцца члены
+the.caret.should.be.positioned.inside.a.class.to.push.members.from:
+    text: Курсор павінен быць устаноўлены ўнутры класа, з якога перамяшчаюцца члены
+the.caret.should.be.positioned.on.the.included.file.to.inline:
+    text: Курсор павінен быць устаноўлены на спасылку ўключаемага файла для ўбудоўвання
+the.file.will.be.copied.to.this.directory:
+    text: Файл будзе скапіраваны ў гэтую дырэкторыю
+the.file.will.be.moved.to.this.directory:
+    text: Файл будзе перамешчаны ў гэтую дырэкторыю
+the.following.problems.were.found:
+    text: 'Выяўлены наступныя праблемы:'
+the.language.for.selected.elements.has.no.associated.file.type:
+    text: Мова для выбраных элементаў не мае звязанага тыпу файла
+there.are.going.to.be.multiple.destination.files.with.the.same.name:
+    text: Будзе некалькі мэтавых файлаў з аднолькавым імем
+there.are.multiple.exit.points.in.the.selected.code.fragment:
+    text: В выбранном фрагменте кода несколько точек выхода
+there.are.multiple.output.values.for.the.selected.code.fragment:
+    text: Для выбранага фрагмента кода існуе некалькі выхадных значэнняў
+there.are.no.variables.that.have.reference.type:
+    text: Няма параметраў метаду або палёў класа, які змяшчае, спасылачнага тыпу
+there.are.unused.methods.that.override.methods.you.delete:
+    text: Існуюць нявыкарыстаныя метады, якія пераазначаюць метады, што выдаляюцца
+there.is.already.a.0.in.1:
+    text: У {1} ужо існуе {0}
+there.is.already.a.0.in.1.it.will.conflict.with.the.new.parameter:
+    text: У {1} ужо ёсць {0}. Гэта будзе канфліктаваць з новым параметрам.
+there.is.already.a.0.in.the.1.it.will.conflict.with.the.renamed.parameter:
+    text: У {1} ужо ёсць {0}. Гэта будзе канфліктаваць з перайменаваным параметрам.
+there.is.already.a.0.it.will.conflict.with.an.introduced.parameter:
+    text: Ужо існуе {0}. Гэта выкліча канфлікт з дадаваемым параметрам
+there.is.already.a.0.it.will.conflict.with.the.renamed.1:
+    text: Існуючы {0} мае такое ж імя
+these.package.prefixes.will.be.changed:
+    text: Гэтыя прэфіксы пакетаў будуць зменены.
+this.invocation.only.and.keep.the.method:
+    text: Убудаваць толькі гэты выклік і захаваць метад [&K]
+this.member.does.not.seem.to.belong.to.any.class:
+    text: Гэты член, падобна, не належыць ніякаму класу
+this.method:
+    text: Этот метод
+this.reference.only.and.keep.super.class:
+    text: Убудаваць толькі гэту спасылку і захаваць суперклас [&K]
+this.reference.only.and.keep.the.class:
+    text: Убудаваць толькі гэту спасылку і захаваць клас [&K]
+this.reference.only.and.keep.the.field:
+    text: Убудаваць толькі гэта выкарыстанне і захаваць поле [&K]
+to.refactor:
+    text: Рэфактарынг
+to.rename:
+    text: Перайменаваць
+turn.refs.to.super.command:
+    text: Замена выкарыстанняў {0} на {1}
+turnRefsToSuper.change.usages.to:
+    text: 'Змяніць выкарыстанні {0} на:  [&C]'
+turnRefsToSuper.use.superclass.in.instanceof:
+    text: Выкарыстоўваць інтэрфейс/суперклас у instanceof  [&U]
+type.cook.command:
+    text: Пераўтварэнне ў generic
+type.cook.drop.obsolete.casts:
+    text: Выдаліць састарэлыя прывядзенні тыпаў [&D]
+type.cook.elements.header:
+    text: Вобласць дзеяння пераўтварэння ў generic
+type.cook.generify.objects:
+    text: "Пераўтварыць аб'екты ў generic [&O]"
+type.cook.leave.object.parameterized.types.raw:
+    text: "Пакінуць параметрызаваныя тыпы аб'ектаў сырымі [&L]"
+type.cook.perform.exhaustive.search:
+    text: Выканаць поўны пошук [&E]
+type.cook.preserve.raw.arrays:
+    text: Захаваць сырыя масівы [&A]
+type.cook.produce.wildcard.types:
+    text: Ствараць wildcard тыпы [&W]
+type.cook.ratio.generified:
+    text: '{0,choice,-1#не вылічана|0#{0,number}/{1}}'
+type.cook.report:
+    text: 'Пераўтворана элементаў: {0}, выдалена прывядзенняў тыпаў: {1}'
+type.migration.exclude.action.text:
+    text: Выключыць  [&E]
+type.migration.include.action.text:
+    text: Уключыць [&I]
+type.migration.migrate.button.text:
+    text: Мігрыраваць  [&M]
+type.migration.rerun.button.text:
+    text: Перазапусціць міграцыю тыпаў [&R]
+type.of.the.selected.expression.cannot.be.determined:
+    text: Немагчыма вызначыць тып выбранага выразу
+unable.to.start.type.migration:
+    text: Немагчыма пачаць міграцыю тыпаў
+unknown.expression.type:
+    text: Невядомы тып выразу
+unselect.all.button:
+    text: Адмяніць выбар [&U]
+unsupported.refs.found:
+    text: Знойдзены непадтрымлівальныя спасылкі ў {0} файлах
+unused.overriding.methods.title:
+    text: Нявыкарыстаныя пераазначальныя метады
+usageView.doAction:
+    text: Рэфактарынг [&R]
+usageView.need.reRun:
+    text: |-
+        Немагчыма выканаць рэфактарынг.
+        Код быў зменены пасля пошуку выкарыстанняў.
+        Калі ласка, выканайце пошук выкарыстанняў зноў.
+usageView.tabText:
+    text: Перадпрагляд рэфактарынгу
+usageView.usagesText:
+    text: Выкарыстанні
+usages.detected:
+    text: Выяўлены выкарыстанні
+use.interface.where.possible.title:
+    text: Выкарыстоўваць інтэрфейс дзе магчыма
+use.super.references.prompt:
+    text: "На гэтым этапе {0} можа прааналізаваць выкарыстанні {1} \nі замяніць іх выкарыстаннямі {2}, дзе гэта магчыма.\nПрацягнуць?"
+use.variable.initializer.to.initialize.parameter:
+    text: Выкарыстоўваць ініцыялізатар пераменнай для ініцыялізацыі параметра [&I]
+used.by.0:
+    text: Выкарыстоўваецца {0}
+uses.0:
+    text: Выкарыстоўвае {0}
+variable.does.not.have.an.initializer:
+    text: Пераменная {0} не мае ініцыялізатара
+variable.has.no.dominating.definition:
+    text: Не знойдзена адзінае вызначэнне для ўбудоўвання
+variable.has.no.initializer:
+    text: Пераменная {0} не мае ініцыялізатара.
+variable.is.accessed.for.writing.and.used.with.inlined:
+    text: "Іншая пераменная ''{0}'' вызначана і выкарыстоўваецца з убудаваным вызначэннем"
+variable.is.never.used:
+    text: Пераменная {0} ніколі не выкарыстоўваецца
+variable.is.never.used.before.modification:
+    text: Пераменная {0} ніколі не выкарыстоўваецца перад мадыфікацыяй
+variable.is.referenced.in.multiple.files:
+    text: Пераменная {0} мае спасылкі ў некалькіх файлах
+variable.of.type:
+    text: 'Пераменная тыпу [&T]:'
+view.usages:
+    text: Прагляд выкарыстанняў [&V]
+visibility.as.is:
+    text: Как есть [&A]
+visibility.border.title:
+    text: Бачнасць
+visibility.combo.title:
+    text: 'Бачнасць [&V]:'
+visibility.escalate:
+    text: Павысіць [&E]
+warning.title:
+    text: Папярэджанне
+what.would.you.like.to.do:
+    text: Што вы хочаце зрабіць?
+would.you.like.to.replace.default.constructor.of.0.with.factory.method:
+    text: Хочаце замяніць канструктар па змаўчанні {0} на фабрычны метад?
+yes.button:
+    text: Да [&Y]

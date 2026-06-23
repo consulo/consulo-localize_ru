@@ -1,0 +1,1046 @@
+0.field.is.always.initialized.not.null:
+    text: Поле @{0} заўсёды ініцыялізуецца ненулявым значэннем
+access.can.be.0:
+    text: "Доступ может быть ''{0}''"
+access.to.field.code.ref.code.outside.of.declared.guards.loc:
+    text: "Доступ да поля <code>#ref</code> па-за аб'яўленымі ахоўнымі ўмовамі #loc"
+add.explicit.type.arguments:
+    text: Дадаць яўныя аргументы тыпу
+annotate.as.safevarargs:
+    text: "Анатаваць як '@SafeVarargs'"
+annotate.overridden.methods.parameters:
+    text: "Анатаваць параметры пераазначальнага метаду як ''@{0}''"
+annotate.overridden.methods.parameters.family.name:
+    text: Анатаваць параметры пераазначальнага метаду
+annotation.on.static.member.qualifying.type.family.name:
+    text: Перамясціць анатацыю тыпу
+anonymous.ref.loc.can.be.replaced.with.0:
+    text: 'Ананімны #ref #loc можа быць заменены на {0}'
+anonymous.ref.loc.can.be.replaced.with.lambda:
+    text: 'Ананімны #ref #loc можа быць заменены лямбда-выразам'
+arguments.count.mismatch:
+    text: Чакалася {0, choice, 0#без аргументаў|1#1 аргумент|1<{0} аргументаў}, але знойдзена {1}
+assigning.a.collection.of.nullable.elements:
+    text: Прысвойванне калекцыі абнуляльных элементаў калекцыі ненулявых элементаў
+call.to.method.code.ref.code.outside.of.declared.guards.loc:
+    text: "Выклік метаду <code>#ref()</code> па-за аб'яўленымі ахоўнымі ўмовамі #loc"
+change.type.arguments:
+    text: Змяніць аргументы тыпу
+change.type.arguments.to.0:
+    text: Змяніць аргументы тыпу на <{0}>
+change.visibility.level:
+    text: Сделать {0} {1}
+comparision.between.object.and.primitive:
+    text: "Параўнанне паміж аб'ектам і прымітывам недапушчальна і падтрымліваецца толькі ў Java 7"
+contract.return.validator.incompatible.return.parameter.type:
+    text: "тып значэння, якое вяртаецца ''{0}'' павінен быць канвертуемым з тыпу параметра ''{1}''"
+contract.return.validator.method.return.incompatible.with.method.containing.class:
+    text: тып значэння, якое вяртае метад, павінен быць сумяшчальны з класам, які змяшчае метад
+contract.return.validator.not.applicable.for.constructor:
+    text: не дастасавальна для канструктара
+contract.return.validator.not.applicable.primitive:
+    text: "не дастасавальна для прымітыўнага тыпу значэння, якое вяртаецца ''{0}''"
+contract.return.validator.not.applicable.static:
+    text: не дастасавальна для статычнага метаду
+contract.return.validator.return.type.must.be.boolean:
+    text: "тып значэння, якое вяртае метад, павінен быць 'boolean'"
+contract.return.validator.too.few.parameters:
+    text: не дастасавальна для метаду, які мае {0, choice, 0#няма параметраў|1#адзін параметр|2#{0} параметраў}
+custom.exception.class.should.have.a.constructor:
+    text: Карыстальніцкі клас выключэння павінен мець канструктар з адным радковым параметрам паведамлення
+dataflow.message.array.index.out.of.bounds:
+    text: Індэкс масіва выходзіць за межы
+dataflow.message.arraystore:
+    text: Захаванне элемента тыпу <code>{0}</code> у масіў элементаў <code>{1}</code> выкліча <code>ArrayStoreException</code>
+dataflow.message.assigning.null:
+    text: <code>null</code> прысвойваецца пераменнай з анатацыяй @NotNull
+dataflow.message.assigning.null.notannotated:
+    text: Прысвойванне значэння <code>null</code> полю без анатацыі
+dataflow.message.assigning.nullable:
+    text: Выраз <code>#ref</code> можа вярнуць null, але прысвойваецца пераменнай з анатацыяй @NotNull
+dataflow.message.assigning.nullable.notannotated:
+    text: 'Выраз <code>#ref</code> #loc можа быць null, але прысвойваецца полю без анатацыі'
+dataflow.message.cce:
+    text: 'Прывядзенне <code>{0}</code> да <code>#ref</code> #loc можа выклікаць <code>ClassCastException</code>'
+dataflow.message.cce.always:
+    text: 'Прывядзенне <code>{0}</code> да <code>#ref</code> #loc выкліча <code>ClassCastException</code> для любога ненулявога значэння'
+dataflow.message.constant.condition:
+    text: 'Умова <code>#ref</code> #loc заўсёды <code>{0, choice, 0#false|1#true}</code>'
+dataflow.message.constant.condition.when.reached:
+    text: 'Умова <code>#ref</code> #loc заўсёды <code>{0, choice, 0#false|1#true}</code> пры дасягненні'
+dataflow.message.constant.expression:
+    text: "Результат <code>#ref</code> #loc всегда ''{0}''"
+dataflow.message.constant.method.reference:
+    text: "Вынік спасылкі на метад заўсёды ''{0}''"
+dataflow.message.constant.no.ref:
+    text: Умова заўсёды {0, choice, 0#false|1#true}
+dataflow.message.constant.value:
+    text: "Значэнне <code>#ref</code> #loc заўсёды ''{0}''"
+dataflow.message.contract.fail:
+    text: "Выклік '#ref' заўсёды завяршаецца памылкай згодна з кантрактамі метаду"
+dataflow.message.contract.fail.index:
+    text: "Выклік '#ref' заўсёды завяршаецца памылкай, бо аргумент выходзіць за межы"
+dataflow.message.immutable.modified:
+    text: "Змяняецца нязменны аб'ект"
+dataflow.message.immutable.passed:
+    text: "Нязменны аб'ект перадаецца там, дзе чакаецца зменны"
+dataflow.message.npe.array.access:
+    text: 'Доступ да масіва <code>#ref</code> #loc можа выклікаць <code>NullPointerException</code>'
+dataflow.message.npe.array.access.sure:
+    text: 'Доступ да масіва <code>#ref</code> #loc выкліча <code>NullPointerException</code>'
+dataflow.message.npe.field.access:
+    text: 'Разыменаванне <code>#ref</code> #loc можа выклікаць <code>NullPointerException</code>'
+dataflow.message.npe.field.access.sure:
+    text: 'Разыменаванне <code>#ref</code> #loc выкліча <code>NullPointerException</code>'
+dataflow.message.npe.inner.class.construction:
+    text: Стварэнне ўнутранага класа можа выклікаць <code>NullPointerException</code>
+dataflow.message.npe.inner.class.construction.sure:
+    text: Стварэнне ўнутранага класа выкліча <code>NullPointerException</code>
+dataflow.message.npe.method.invocation:
+    text: 'Вызов метода <code>#ref</code> #loc может вызвать <code>NullPointerException</code>'
+dataflow.message.npe.method.invocation.sure:
+    text: 'Вызов метода <code>#ref</code> #loc вызовет <code>NullPointerException</code>'
+dataflow.message.npe.methodref.invocation:
+    text: 'Выклік спасылкі на метад <code>#ref</code> #loc можа выклікаць <code>NullPointerException</code>'
+dataflow.message.only.switch.label:
+    text: "Метка switch <code>#ref</code> #loc з'яўляецца адзінай дасягальнай ва ўсім switch"
+dataflow.message.passing.non.null.argument.to.optional:
+    text: "'Optional.ofNullable()' з ненулявым аргументам варта замяніць на 'Optional.of()'"
+dataflow.message.passing.null.argument:
+    text: Перадача аргумента <code>null</code> параметру з анатацыяй @NotNull
+dataflow.message.passing.null.argument.nonannotated:
+    text: Перадача аргумента <code>null</code> параметру без анатацыі
+dataflow.message.passing.null.argument.to.optional:
+    text: "'Optional.ofNullable()' з null аргументам варта замяніць на 'Optional.empty()'"
+dataflow.message.passing.nullable.argument:
+    text: 'Аргумент <code>#ref</code> #loc может быть null'
+dataflow.message.passing.nullable.argument.methodref:
+    text: Аргумент спасылкі на метад можа быць null
+dataflow.message.passing.nullable.argument.methodref.nonannotated:
+    text: Аргумент спасылкі на метад можа быць null, але перадаецца параметру без анатацыі
+dataflow.message.passing.nullable.argument.nonannotated:
+    text: 'Аргумент <code>#ref</code> #loc можа быць null, але перадаецца параметру без анатацыі'
+dataflow.message.pointless.assignment.expression:
+    text: 'Умова <code>#ref</code> #loc у левай частцы выразу прысвойвання заўсёды <code>{0}</code>. Можна спрасціць'
+dataflow.message.pointless.same.argument.and.result:
+    text: "Результат ''#ref'' совпадает с {0,choice,1#первым|2#вторым} аргументом, что делает вызов бессмысленным"
+dataflow.message.pointless.same.arguments:
+    text: "Аргументы '#ref' аднолькавыя. Выклік гэтага метаду з аднолькавымі аргументамі бессэнсоўны"
+dataflow.message.redundant.assignment:
+    text: Пераменнай ужо прысвоена гэта значэнне
+dataflow.message.redundant.instanceof:
+    text: 'Умова <code>#ref</code> #loc лішняя і можа быць заменена праверкай на null'
+dataflow.message.redundant.update:
+    text: Абнаўленне пераменнай нічога не робіць
+dataflow.message.return.notnull.from.nullable:
+    text: "Метад @{0} ''{1}'' заўсёды вяртае ненулявое значэнне"
+dataflow.message.return.null.from.notnull:
+    text: "<code>null</code> вяртаецца метадам, аб'яўленым як @{0}"
+dataflow.message.return.null.from.notnullable:
+    text: "<code>null</code> вяртаецца метадам, не аб'яўленым як @{0}"
+dataflow.message.return.nullable.from.notnull:
+    text: "Выраз <code>#ref</code> можа вярнуць null, але вяртаецца метадам, аб'яўленым як @{0}"
+dataflow.message.return.nullable.from.notnull.function:
+    text: Функцыя можа вярнуць null, але тут гэта не дазволена
+dataflow.message.return.nullable.from.notnullable:
+    text: "Выраз <code>#ref</code> можа вярнуць null, але вяртаецца метадам, не аб'яўленым як @{0}"
+dataflow.message.storing.array.null:
+    text: <code>null</code> захоўваецца ў масіў элементаў @NotNull
+dataflow.message.storing.array.nullable:
+    text: Выраз <code>#ref</code> можа вярнуць null, але захоўваецца ў масіў элементаў @NotNull
+dataflow.message.unboxing:
+    text: 'Распаковка <code>#ref</code> #loc может вызвать <code>NullPointerException</code>'
+dataflow.message.unboxing.method.reference:
+    text: 'Выкарыстанне <code>#ref</code> #loc запатрабуе распакоўкі, якая можа выклікаць <code>NullPointerException</code>'
+dataflow.message.unboxing.nullable.argument.methodref:
+    text: Перадача аргумента ў спасылку на метад патрабуе распакоўкі, якая можа выклікаць <code>NullPointerException</code>
+dataflow.message.unreachable.switch.label:
+    text: 'Метка switch <code>#ref</code> #loc недасягальна'
+dataflow.method.fails.with.null.argument:
+    text: Метад выкіне выключэнне, калі параметр роўны null
+dataflow.not.precise:
+    text: '{0} складаны: вынікі аналізу патоку дадзеных могуць быць недакладнымі'
+dataflow.too.complex:
+    text: '{0} занадта складаны для аналізу алгарытмам патоку дадзеных'
+delete.repeated.0:
+    text: "Выдаліць паўторны ''{0}''"
+delete.repeated.interface:
+    text: Выдаліць паўторны інтэрфейс
+delimiters.argument.contains.duplicated.characters:
+    text: "Аргумент 'delimiters' класа StringTokenizer змяшчае паўторныя сімвалы"
+deprecated.member.0.is.still.used:
+    text: "Састарэлы член ''{0}'' усё яшчэ выкарыстоўваецца"
+detach.library.quickfix.name:
+    text: Адлучыць бібліятэку
+detach.library.roots.quickfix.name:
+    text: Адлучыць невыкарыстоўваемыя карані бібліятэкі
+dfa.find.cause.an.execution.might.exist.where:
+    text: 'можа існаваць выкананне, дзе:'
+dfa.find.cause.array.length.is.always.non.negative:
+    text: даўжыня масіва заўсёды неадмоўная
+dfa.find.cause.call.always.fails:
+    text: вызов всегда завершается неудачей
+dfa.find.cause.cast.may.fail:
+    text: прывядзенне тыпаў можа не спрацаваць
+dfa.find.cause.collection.size.is.always.non.negative:
+    text: памер калекцыі заўсёды неадмоўны
+dfa.find.cause.comparison.arguments.are.different.constants:
+    text: аргументы параўнання - розныя канстанты
+dfa.find.cause.comparison.arguments.are.the.same:
+    text: аргументы параўнання аднолькавыя
+dfa.find.cause.compile.time.constant:
+    text: "гэта канстанта часу кампіляцыі са значэннем ''{0}''"
+dfa.find.cause.condition.is.known.from.place:
+    text: "вядома, што ''{0}'' з ___PLACE___"
+dfa.find.cause.condition.was.checked.before:
+    text: "умова ''{0}'' была праверана раней"
+dfa.find.cause.condition.was.deduced:
+    text: "умова ''{0}'' была выведзена"
+dfa.find.cause.contract.kind.explicit:
+    text: контракт
+dfa.find.cause.contract.kind.hard.coded:
+    text: жестко закодованный контракт
+dfa.find.cause.contract.kind.inferred:
+    text: выведенный контракт
+dfa.find.cause.contract.returns.on.condition:
+    text: "згодна з {0}, {1} ''{2}'' вяртае ''{3}'' калі {4}"
+dfa.find.cause.contract.throws.on.condition:
+    text: "згодна з {0}, {1} ''{2}'' выкідае выключэнне калі {3}"
+dfa.find.cause.contract.trivial:
+    text: "згодна з {0}, {1} ''{2}'' заўсёды вяртае значэнне ''{3}''"
+dfa.find.cause.equality.established.from.condition:
+    text: "''{0}'' усталявана з умовы"
+dfa.find.cause.field.assigned.nullability:
+    text: "вядома, што поле ''{0}'' заўсёды ініцыялізуецца значэннем ''{1}''"
+dfa.find.cause.field.initializer.nullability:
+    text: "поле ''{0}'' ініцыялізавана значэннем ''{1}''"
+dfa.find.cause.instanceof.implies.non.nullity:
+    text: "проверка 'instanceof' подразумевает не-null"
+dfa.find.cause.left.operand.range.template:
+    text: левый операнд равен %s
+dfa.find.cause.may.be.null:
+    text: может быть null
+dfa.find.cause.nonnull.expression.kind.concatenation:
+    text: канкатэнацыя
+dfa.find.cause.nonnull.expression.kind.literal:
+    text: літарал
+dfa.find.cause.nonnull.expression.kind.newly.created.object:
+    text: "новы створаны аб'ект"
+dfa.find.cause.nonnull.expression.kind.primitive.type:
+    text: "значэнне прымітыўнага тыпу ''{0}''"
+dfa.find.cause.nonnull.expression.kind.this.object:
+    text: "аб'ект 'this'"
+dfa.find.cause.nullability.explicitly.annotated:
+    text: "{0} ''{1}'' анатавана як ''{2}''"
+dfa.find.cause.nullability.externally.annotated:
+    text: "{0} ''{1}'' знешне анатавана як ''{2}''"
+dfa.find.cause.nullability.inferred:
+    text: "{0} ''{1}'' выведено как ''{2}''"
+dfa.find.cause.nullability.inherited.from.class:
+    text: "{0} ''{1}'' наследуе анатацыю з класа {2}, таму ''{3}''"
+dfa.find.cause.nullability.inherited.from.container:
+    text: "{0} ''{1}'' наследуе анатацыю кантэйнера, таму ''{2}''"
+dfa.find.cause.nullability.inherited.from.named.element:
+    text: "{0} ''{1}'' наследует от {2}, поэтому ''{3}''"
+dfa.find.cause.nullability.inherited.from.package:
+    text: "{0} ''{1}'' наследуе анатацыю з пакета {2}, таму ''{3}''"
+dfa.find.cause.numeric.cast.operand.template:
+    text: аперанд прывядзення роўны %s
+dfa.find.cause.numeric.range.generic.template:
+    text: значэнне роўна %s
+dfa.find.cause.object.kind.expression:
+    text: выраз
+dfa.find.cause.object.kind.generic:
+    text: "аб'ект"
+dfa.find.cause.object.kind.method.return:
+    text: значэнне, якое вяртае метад
+dfa.find.cause.obviously.non.null.expression:
+    text: выраз не можа быць null, бо гэта {0}
+dfa.find.cause.one.of.the.following.happens:
+    text: 'адбываецца адно з наступнага:'
+dfa.find.cause.operand.of.boolean.expression.is.the.same:
+    text: 'аперанд #{0} {1, choice, 0#and|1#or}-ланцуга роўны {2}'
+dfa.find.cause.place.here:
+    text: здесь
+dfa.find.cause.place.line.number:
+    text: 'строка #{0}'
+dfa.find.cause.range.is.known.from.place:
+    text: дыяпазон вядомы з ___PLACE___
+dfa.find.cause.range.is.specified.by.annotation:
+    text: "дыяпазон ''{0}'' зададзены анатацыяй як {1}"
+dfa.find.cause.result.of.numeric.operation.template:
+    text: "результат ''{0}'' равен %s"
+dfa.find.cause.result.of.primitive.cast.template:
+    text: "вынік прывядзення ''({0})'' роўны %s"
+dfa.find.cause.right.operand.range.template:
+    text: правый операнд равен %s
+dfa.find.cause.string.length.is.always.non.negative:
+    text: даўжыня радка заўсёды неадмоўная
+dfa.find.cause.type.is.known.from.place:
+    text: "тып ''{0}'' вядомы з ___PLACE___"
+dfa.find.cause.type.known:
+    text: '{0} мае тып {1}'
+dfa.find.cause.unable:
+    text: Не ўдаецца знайсці прычыну
+dfa.find.cause.value.is.always.the.same:
+    text: значэнне заўсёды {0}
+dfa.find.cause.value.is.known.from.place:
+    text: "вядома, што ''{0}'' роўна ''{1}'' з ___PLACE___"
+dfa.find.cause.value.x.is.always.the.same:
+    text: "значэнне ''{0}'' заўсёды роўна ''{1}''"
+dfa.find.cause.values.cannot.be.equal.because:
+    text: значэнні не могуць быць роўныя, таму што {0}
+dfa.find.cause.variable.is.initialized:
+    text: "{0} ''{1}'' ініцыялізаваны значэннем {2}"
+dfa.find.cause.was.assigned:
+    text: "''{0}'' было прысвоена"
+dfa.find.cause.was.assigned.to:
+    text: "''{0}'' было прысвоена ''{1}''"
+dfa.find.cause.was.dereferenced:
+    text: "''{0}'' было разыменовано"
+dfa.find.cause.was.passed.as.non.null.parameter:
+    text: "''{0}'' было перададзена як аргумент метаду, які прымае не-null параметр"
+dftype.presentation.empty.optional:
+    text: пустой Optional
+dftype.presentation.present.optional:
+    text: існуючы Optional
+don.t.report.unused.jars.inside.used.library:
+    text: Не паведамляць пра невыкарыстоўваемыя jar-файлы ўнутры выкарыстоўваемай бібліятэкі
+duplication.policy.ask:
+    text: Спытаць
+duplication.policy.generate.duplicate:
+    text: Згенераваць дублюючы метад
+duplication.policy.replace:
+    text: Замяніць існуючы
+element.kind.keys:
+    text: ключы
+element.kind.objects:
+    text: "аб'екты"
+element.kind.values:
+    text: значэнні
+error.class.not.found:
+    text: Класс {0} не найден
+error.message.invalid.java.type:
+    text: Недапушчальны тып Java
+explicit.type.argument.ref.loc.can.be.replaced.with:
+    text: 'Яўны аргумент тыпу #ref #loc можна замяніць на <>'
+exports.to.itself.delete.module.ref.fix:
+    text: "Выдаліць спасылку на модуль ''{0}''"
+exports.to.itself.delete.statement.fix:
+    text: Выдаліць дырэктыву
+feature.annotations:
+    text: Анатацыі
+feature.binary.literals:
+    text: Двайковыя літаралы
+feature.diamond.types:
+    text: Diamond-тыпы
+feature.enhanced.switch:
+    text: "Пашыраны 'switch'"
+feature.extension.methods:
+    text: Метады-пашырэнні
+feature.for.each:
+    text: For-each цыклы
+feature.hex.fp.literals:
+    text: Шаснаццатковыя літаралы з плавальнай кропкай
+feature.intersections.in.casts:
+    text: Перасячэнні тыпаў у прывядзеннях
+feature.lambda.expressions:
+    text: Lambda-выразы
+feature.local.enums:
+    text: Локальные enum
+feature.local.interfaces:
+    text: Лакальныя інтэрфейсы
+feature.lvti:
+    text: Вывад тыпаў лакальных пераменных
+feature.method.references:
+    text: Спасылкі на метады
+feature.modules:
+    text: Модулі
+feature.multi.catch:
+    text: Мульты-catch
+feature.patterns.instanceof:
+    text: "Patterns в 'instanceof'"
+feature.sealed.classes:
+    text: Sealed классы
+feature.static.interface.calls:
+    text: Выклікі static метадаў інтэрфейсу
+feature.switch.expressions:
+    text: "'Switch' выразы"
+feature.text.blocks:
+    text: Text block літаралы
+feature.try.with.resources.refs:
+    text: Спасылкі на рэсурсы
+feature.type.annotations:
+    text: Анатацыі тыпаў
+feature.type.receivers:
+    text: Параметры-прыёмнікі
+feature.underscores.in.literals:
+    text: Падкрэсліванні ў літаралах
+feature.var.lambda.parameter:
+    text: "'var' в параметрах lambda"
+feature.varargs:
+    text: Метады са зменным лікам аргументаў
+find.searching.for.references.to.class.progress:
+    text: Пошук спасылак на клас {0}…
+find.usages.panel.title.derived.classes:
+    text: вытворныя класы
+find.usages.panel.title.derived.interfaces:
+    text: вытворныя інтэрфейсы
+find.usages.panel.title.implementing.classes:
+    text: рэалізуючыя класы
+find.usages.panel.title.implementing.methods:
+    text: рэалізуючыя метады
+find.usages.panel.title.overloaded.methods.usages:
+    text: перегруженные методы
+find.usages.panel.title.overriding.methods:
+    text: пераазначальныя метады
+generate.members.position.after.equals.and.hashcode:
+    text: Пасля equals() і hashCode()
+generate.members.position.at.caret:
+    text: На пазіцыі курсора
+generate.members.position.at.the.end.of.class:
+    text: В конце класса
+html.classes.exposed.with.code.module.info.code.html:
+    text: <html>Классы, экспортуемые через <code>module-info</code></html>
+html.ignore.overrides.of.deprecated.abstract.methods:
+    text: <html>Ігнараваць пераазначэнні састарэлых абстрактных метадаў з несастарэлых суперкласаў</html>
+ignore.casts.in.suspicious.collections.method.calls:
+    text: Ігнараваць удакладняльныя прывядзенні тыпаў
+ignore.exceptions.thrown.by.entry.points.methods:
+    text: Ігнараваць выключэнні, выкідаемыя метадамі пунктаў уваходу
+ignore.in.the.same.outermost.class:
+    text: Ігнараваць у тым жа знешнім класе
+ignore.inside.deprecated.members:
+    text: Ігнараваць унутры састарэлых членаў
+ignore.inside.non.static.imports:
+    text: Ігнараваць унутры нестатычных імпартаў
+ignore.members.of.deprecated.classes:
+    text: Ігнараваць члены састарэлых класаў
+ignore.operation.which.results.in.negative.value:
+    text: "Ігнараваць аперацыю '<<', якая прыводзіць да адмоўнага значэння"
+inspection.annotate.method.quickfix.family.name:
+    text: Анатаваць метад
+inspection.annotate.method.quickfix.name:
+    text: "Анатаваць метад ''@{0}''"
+inspection.annotate.overridden.method.and.self.quickfix.family.name:
+    text: Анатаваць пераазначальныя метады і бягучы
+inspection.annotate.overridden.method.and.self.quickfix.name:
+    text: "Анатаваць пераазначальныя метады і бягучы з дапамогай ''@{0}''"
+inspection.annotate.overridden.method.nullable.quickfix.name:
+    text: "Анатаваць пераазначальныя метады як ''@{0}''"
+inspection.annotate.overridden.method.quickfix.family.name:
+    text: Анатаваць пераазначальныя метады
+inspection.annotate.overridden.method.quickfix.name:
+    text: "Анатаваць пераазначальныя метады з дапамогай ''@{0}''"
+inspection.anonymous.has.lambda.alternative.display.name:
+    text: Ананімны тып мае больш кароткую лямбда-альтэрнатыву
+inspection.block.marker.comments.display.name:
+    text: Каментарый-маркер блока
+inspection.c.style.array.declarations.option:
+    text: "Ігнараваць аб'яўленні ў стылі C у пераменных"
+inspection.can.be.final.accept.quickfix:
+    text: Сделать final
+inspection.can.be.final.display.name:
+    text: "Аб'яўленне можа мець мадыфікатар 'final'"
+inspection.can.be.final.option:
+    text: Паведамляць пра класы
+inspection.can.be.final.option1:
+    text: Паведамляць пра метады
+inspection.can.be.final.option2:
+    text: Паведамляць пра палі
+inspection.can.be.local.parameter.problem.descriptor:
+    text: Параметр <code>#ref</code> можа мець мадыфікатар <code>final</code>
+inspection.can.be.local.variable.problem.descriptor:
+    text: Пераменная <code>#ref</code> можа мець мадыфікатар <code>final</code>
+inspection.can.be.replaced.with.message:
+    text: "Может быть заменено на ''{0}''"
+inspection.class.getclass.display.name:
+    text: "Падазроны выклік 'Class.getClass()'"
+inspection.class.getclass.fix.remove.name:
+    text: "Выдаліць выклік 'getClass()'"
+inspection.class.getclass.fix.replace.name:
+    text: "Замяніць на 'Class.class'"
+inspection.class.getclass.message:
+    text: "'getClass()' вызывается для экземпляра Class"
+inspection.class.has.no.to.string.method.description:
+    text: "Класс ''{0}'' не переопределяет метод ''toString()''"
+inspection.class.has.no.to.string.method.display.name:
+    text: "Класс не переопределяет метод 'toString()'"
+inspection.class.has.no.to.string.method.exclude.classes.reg.exp.option:
+    text: 'Выключыць класы (рэг. выр.):'
+inspection.class.has.no.to.string.method.ignore.abstract.classes.option:
+    text: Ігнараваць абстрактныя класы
+inspection.class.has.no.to.string.method.ignore.deprecated.classes.option:
+    text: Ігнараваць састарэлыя класы
+inspection.class.has.no.to.string.method.ignore.enum.classes.option:
+    text: Ігнараваць класы пералічэнняў
+inspection.class.has.no.to.string.method.ignore.exception.classes.option:
+    text: Ігнараваць класы выключэнняў
+inspection.class.has.no.to.string.method.ignore.inner.classes.option:
+    text: Ігнараваць унутраныя класы
+inspection.class.has.no.to.string.method.ignore.test.classes.option:
+    text: Ігнараваць тэставыя класы
+inspection.common.if.parts.disable.highlight.tail.call:
+    text: Не падсвечваць агульныя часткі, калі апошні аператар - выклік
+inspection.common.if.parts.family:
+    text: "Выняць агульныя часткі аператара 'if'"
+inspection.common.if.parts.family.else.if:
+    text: "Аб'яднаць аператар 'else if'"
+inspection.common.if.parts.family.else.if.description:
+    text: "'else if' можна аб'яднаць"
+inspection.common.if.parts.settings.highlight.when.tail.call:
+    text: Падсвечваць, калі апошні агульны аператар - выклік
+inspection.compiler.javac.quirks.anno.array.comma.fix:
+    text: Выдаліць замыкальную коску
+inspection.compiler.javac.quirks.anno.array.comma.problem:
+    text: Замыкальная коска ў ініцыялізатарах масіваў анатацый можа выклікаць памылкі кампіляцыі пры выкарыстанні старых версій javac (напрыклад, JDK 5 і JDK 6)
+inspection.compiler.javac.quirks.name:
+    text: Асаблівасці Javac
+inspection.compiler.javac.quirks.qualifier.type.args.fix:
+    text: Выдаліць параметр абагульнення
+inspection.compiler.javac.quirks.qualifier.type.args.problem:
+    text: Абагульненні ў спасылках на кваліфікатары могуць выклікаць памылкі кампіляцыі пры выкарыстанні старых версій javac (напрыклад, JDK 5 і JDK 6)
+inspection.constant.on.wrong.side.of.a.comparison.side.option:
+    text: Канстанта павінна быць на|баку параўнання
+inspection.contract.checker.boolean.condition.for.nonboolean.parameter:
+    text: "Параметр ''{0}'' мае тып ''{1}'' (чакаецца boolean)"
+inspection.contract.checker.clause.syntax:
+    text: Пункт кантракта павінен мець форму arg1, …, argN -> значэнне-якое-вяртаецца
+inspection.contract.checker.contract.clause.never.satisfied:
+    text: "Пункт кантракта ''{0}'' ніколі не выконваецца, бо яго ўмовы пакрыты папярэднімі кантрактамі"
+inspection.contract.checker.contract.violated:
+    text: "Нарушен пункт контракта ''{0}''"
+inspection.contract.checker.empty.constraint:
+    text: Абмежаванне не павінна быць пустым
+inspection.contract.checker.inferred.notnull.parameter.notnull:
+    text: "Параметр ''{0}'' выведен как не-null, поэтому ''!null'' всегда выполняется"
+inspection.contract.checker.inferred.notnull.parameter.null:
+    text: "Параметр ''{0}'' выведзены як не-null, таму ''null'' не дастасавальны"
+inspection.contract.checker.method.always.fails.nontrivial:
+    text: "Значэнне, якое вяртае пункт ''{0}'', можна замяніць на ''fail'', бо метад заўсёды завяршаецца няўдачай у гэтым выпадку"
+inspection.contract.checker.method.always.fails.trivial:
+    text: "Значэнне, якое вяртае пункт ''{0}'', можна замяніць на ''fail'', бо метад заўсёды завяршаецца няўдачай"
+inspection.contract.checker.no.exception.thrown:
+    text: "Парушаны пункт кантракта ''{0}'': выключэнне не выкінута"
+inspection.contract.checker.notnull.parameter.notnull:
+    text: "Параметр ''{0}'' анатаваны як не-null, таму ''!null'' заўсёды выконваецца"
+inspection.contract.checker.notnull.parameter.null:
+    text: "Параметр ''{0}'' анатаваны як не-null, таму ''null'' не дастасавальны"
+inspection.contract.checker.parameter.count.mismatch:
+    text: "Метад прымае {0} параметраў, тады як пункт кантракта ''{1}'' чакае {2}"
+inspection.contract.checker.primitive.parameter.nullability:
+    text: "Параметр ''{0}'' мае прымітыўны тып ''{1}'', таму ''{2}'' не дастасавальны"
+inspection.contract.checker.pure.method.mutation.contract:
+    text: Чысты метад не можа мець кантракт мутацыі
+inspection.contract.checker.unknown.constraint:
+    text: 'Абмежаванне павінна быць адным з: {0}. Знойдзена: {1}'
+inspection.contract.checker.unknown.return.value:
+    text: 'Значэнне, якое вяртаецца, павінна быць адным з: {0}. Знойдзена: {1}'
+inspection.contract.checker.unreachable.contract.clause:
+    text: "Пункт кантракта ''{0}'' недасягальны: папярэднія кантракты пакрываюць усе магчымыя выпадкі"
+inspection.contract.display.name:
+    text: Праблемы з кантрактамі
+inspection.convert.2.diamond.display.name:
+    text: "Яўны тып можна замяніць на '<>'"
+inspection.convert.2.lambda.display.name:
+    text: Ананімны тып можна замяніць на лямбда-выраз
+inspection.data.flow.redundant.instanceof.quickfix:
+    text: Замяніць на праверку на null
+inspection.data.flow.simplify.boolean.expression.quickfix:
+    text: Спрасціць лагічны выраз
+inspection.data.flow.simplify.to.assignment.quickfix.name:
+    text: Спрасціць да звычайнага прысвойвання
+inspection.data.flow.turn.off.constant.references.quickfix:
+    text: "Не паведамляць пра значэнні, якія гарантавана з'яўляюцца канстантамі"
+inspection.data.flow.turn.off.nullable.returning.notnull.quickfix:
+    text: Не паведамляць пра nullable метады, якія заўсёды вяртаюць не-null значэнне
+inspection.data.flow.turn.off.true.asserts.quickfix:
+    text: Не паведамляць пра заўсёды ісцінныя сцвярджэнні
+inspection.deprecated.class.usage.inspection.display.name:
+    text: Выкарыстанне састарэлага API у XML
+inspection.deprecated.is.still.used.display.name:
+    text: Састарэлы член усё яшчэ выкарыстоўваецца
+inspection.duplicate.throws.display.name:
+    text: Дублюючыя throws
+inspection.duplicate.throws.ignore.subclassing.option:
+    text: Ігнараваць выключэнні, якія наследуюць іншыя
+inspection.duplicate.throws.more.general.problem:
+    text: "У спісе throws ужо ёсць больш агульнае выключэнне ''{0}''."
+inspection.duplicate.throws.problem:
+    text: Дублюючыя throws
+inspection.equals.hashcode.only.one.defined.problem.descriptor:
+    text: В классе определен {0}, но не определен {1}
+inspection.export.results.can.be.final.description:
+    text: "Аб'яўленне можа мець мадыфікатар final"
+inspection.field.access.not.guarded.display.name:
+    text: Неабаронены доступ да поля або выклік метаду
+inspection.field.not.used.in.to.string.description:
+    text: "Метад ''{0}'' не выкарыстоўваецца ў метадзе ''toString()''"
+inspection.field.not.used.in.to.string.description2:
+    text: "Поле ''{0}'' не выкарыстоўваецца ў метадзе ''toString()''"
+inspection.field.not.used.in.to.string.display.name:
+    text: "Поле не выкарыстоўваецца ў метадзе 'toString()'"
+inspection.i18n.quickfix.annotate:
+    text: Анатаваць…
+inspection.i18n.quickfix.annotate.as:
+    text: "Анатаваць як ''@{0}''"
+inspection.i18n.quickfix.annotate.element:
+    text: "Анатаваць {0} ''{1}''…"
+inspection.i18n.quickfix.annotate.element.as:
+    text: "Анатаваць {0} ''{1}'' як ''@{2}''"
+inspection.implicit.subclass.display.forClass:
+    text: "Клас ''{0}'' можа быць няяўна ўспадкаваны і не павінен быць final"
+inspection.implicit.subclass.display.name:
+    text: "Final-аб'яўленне не можа быць пераазначана падчас выканання"
+inspection.implicit.subclass.extendable:
+    text: "Сделать ''{0}'' переопределяемым"
+inspection.implicit.subclass.make.class.extendable:
+    text: "Зрабіць клас ''{0}'' {1,choice,0#|1#і метад {2} |1<і {1} патрабаваных метадаў }пашыральным"
+inspection.inconsistent.language.level.display.name:
+    text: Неўзгодненыя налады ўзроўню мовы
+inspection.infinite.loop.option:
+    text: Ігнараваць пры размяшчэнні ў Thread.run
+inspection.instance.guarded.by.static.display.name:
+    text: Член экзэмпляра абаронены статычным полем
+inspection.invalid.comparator.method.reference.display.name:
+    text: "Недапушчальная спасылка на метад для 'Comparator'"
+inspection.java.8.list.sort.display.name:
+    text: "'Collections.sort()' можна замяніць на 'List.sort()'"
+inspection.java.9.redundant.requires.statement.display.name:
+    text: "Лішняя дырэктыва 'requires' у module-info"
+inspection.java.module.naming:
+    text: Імя модуля Java супярэчыць пагадненню
+inspection.java.module.naming.terminal.digits:
+    text: "Кампанент імя модуля ''{0}'' не павінен заканчвацца лічбамі"
+inspection.local.can.be.final.display.name:
+    text: "Лакальная пераменная або параметр могуць быць 'final'"
+inspection.local.can.be.final.option:
+    text: Паведамляць пра лакальныя пераменныя
+inspection.local.can.be.final.option1:
+    text: Паведамляць пра параметры метаду
+inspection.local.can.be.final.option2:
+    text: Паведамляць пра параметры catch
+inspection.local.can.be.final.option3:
+    text: Паведамляць пра параметры foreach
+inspection.local.can.be.final.option4:
+    text: <html>Паведамляць пра пераменныя, якія няяўна final<br/>(параметры multi-catch або try-with-resources)</html>
+inspection.message.code.generation.different.nullability.annotation.will.be.used:
+    text: "Згенераваны код будзе выкарыстоўваць ''@{1}'' замест ''@{0}''"
+inspection.message.javac.quick.intersection.type.problem:
+    text: "Тып, які перасякаецца ''{0}'', не можа быць інстанцыяваны, бо ''{1}'' з'яўляецца final"
+inspection.message.non.annotated.method.implements.non.null.method:
+    text: "Неанатаваны метад ''{0}'' з ''{1}'' рэалізуе non-null метад з ''{2}''"
+inspection.message.non.annotated.parameter.should.not.override.non.null.parameter:
+    text: "Неанатаваны параметр ''{0}'' у метадзе ''{1}'' з ''{2}'' не павінен пераазначаць non-null параметр з ''{3}''"
+inspection.message.non.null.parameter.should.not.override.non.annotated.parameter:
+    text: "Non-null параметр ''{0}'' у метадзе ''{1}'' з ''{2}'' не павінен пераазначаць неанатаваны параметр з ''{3}''"
+inspection.message.non.null.parameter.should.not.override.nullable.parameter:
+    text: "Non-null параметр ''{0}'' у метадзе ''{1}'' з ''{2}'' не павінен пераазначаць nullable параметр з ''{3}''"
+inspection.message.nullable.method.implements.non.null.method:
+    text: "Nullable метад ''{0}'' з ''{1}'' рэалізуе non-null метад з ''{2}''"
+inspection.module.exports.package.to.itself:
+    text: Модуль экспортует/открывает пакет самому себе
+inspection.non.final.field.in.immutable.display.name:
+    text: "Не final поле в классе '@Immutable'"
+inspection.non.final.guard.display.name:
+    text: "Не final поле '@GuardedBy'"
+inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
+    text: Параметр з анатацыяй @{0} не павінен пераазначаць параметр з @{1}
+inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
+    text: Параметр з анатацыяй @{0} не павінен пераазначаць неанатаваны параметр
+inspection.nullable.problems.NotNull.parameter.receives.null.literal:
+    text: "Параметр з анатацыяй @{0} не павінен атрымліваць ''null'' у якасці аргумента"
+inspection.nullable.problems.Nullable.NotNull.conflict:
+    text: Нельга выкарыстоўваць адначасова анатацыі @{0} і @{1}
+inspection.nullable.problems.Nullable.method.overrides.NotNull:
+    text: Метад з анатацыяй @{0} не павінен пераазначаць метад з @{1}
+inspection.nullable.problems.annotated.field.constructor.parameter.not.annotated:
+    text: Параметр канструктара для поля з @{0} можа быць анатаваны @{0}
+inspection.nullable.problems.annotated.field.getter.conflict:
+    text: Гетар для поля з @{0} анатаваны @{1}
+inspection.nullable.problems.annotated.field.getter.not.annotated:
+    text: Гетар для поля з @{0} можа быць анатаваны @{0}
+inspection.nullable.problems.annotated.field.setter.parameter.conflict:
+    text: Параметр сетара для поля з @{0} анатаваны @{1}
+inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
+    text: Параметр сетара для поля з @{0} можа быць анатаваны @{0}
+inspection.nullable.problems.applied.to.package:
+    text: Анатацыя поўнага імя павінна быць размешчана перад апошнім кампанентам
+inspection.nullable.problems.at.class:
+    text: Анатацыя nullability не дастасавальна да класаў
+inspection.nullable.problems.at.constructor:
+    text: Анатацыя nullability не дастасавальна да канструктараў
+inspection.nullable.problems.at.enum.constant:
+    text: Анатацыя nullability не дастасавальна да канстант пералічэння
+inspection.nullable.problems.at.local.variable:
+    text: Анатацыя nullability не дастасавальна да лакальных пераменных
+inspection.nullable.problems.at.reference.list:
+    text: Анатацыя nullability не дастасавальна да канструкцый extends/implements
+inspection.nullable.problems.at.type.parameter:
+    text: Анатацыя nullability не дастасавальна да параметраў тыпу
+inspection.nullable.problems.at.wildcard:
+    text: Анатацыя nullability не дастасавальна да тыпу wildcard
+inspection.nullable.problems.method.overrides.NotNull:
+    text: Неанатаваны метад пераазначае метад з анатацыяй @{0}
+inspection.nullable.problems.outer.type:
+    text: Знешні тып па сваёй прыродзе не можа быць null
+inspection.nullable.problems.parameter.overrides.NotNull:
+    text: Неанатаваны параметр пераазначае параметр з @{0}
+inspection.nullable.problems.primitive.type.annotation:
+    text: Прымітыўныя тыпы не могуць быць анатаваны
+inspection.nullable.problems.receiver.annotation:
+    text: Параметр receiver па сваёй прыродзе не можа быць null
+inspection.numeric.overflow.display.name:
+    text: Лікавае перапаўненне
+inspection.objects.equals.can.be.simplified.display.name:
+    text: "'Objects.equals()' можна замяніць на 'equals()'"
+inspection.redundant.cast.display.name:
+    text: Лішняе прывядзенне тыпу
+inspection.redundant.cast.problem.descriptor:
+    text: 'Прывядзенне <code>{0}</code> да <code>#ref</code> #loc лішняе'
+inspection.redundant.cast.remove.quickfix:
+    text: Выдаліць лішняе прывядзенне тыпу
+inspection.redundant.field.initialization.option:
+    text: Папярэджваць толькі пры ініцыялізацыі null
+inspection.redundant.requires.statement.description:
+    text: "Лішняя дырэктыва ''requires {0}''."
+inspection.redundant.requires.statement.fix.family:
+    text: "Выдаліць лішнюю дырэктыву 'requires'"
+inspection.redundant.requires.statement.fix.name:
+    text: "Выдаліць дырэктыву ''requires {0}''"
+inspection.redundant.throws.display.name:
+    text: "Лішняе аб'яўленне 'throws'"
+inspection.redundant.throws.problem.descriptor:
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца ні ў адной рэалізацыі метаду"
+inspection.redundant.throws.problem.descriptor1:
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца ў гэтым метадзе або яго пераазначальных метадах"
+inspection.redundant.throws.problem.descriptor2:
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца"
+inspection.redundant.throws.remove.quickfix:
+    text: "Выдаліць непатрэбныя аб'яўленні 'throws'"
+inspection.redundant.type.display.name:
+    text: Лішнія аргументы тыпу
+inspection.redundant.type.no.generics.method.reference.problem.descriptor:
+    text: Аргументы тыпу лішнія для спасылкі на негенерычны метад
+inspection.redundant.type.no.generics.problem.descriptor:
+    text: Аргументы тыпу лішнія для выкліку негенерычнага метаду
+inspection.redundant.type.problem.descriptor:
+    text: Яўныя аргументы тыпу могуць быць выведзены
+inspection.redundant.type.remove.quickfix:
+    text: Выдаліць аргументы тыпу
+inspection.reference.anonymous.name:
+    text: ананімны ({0})
+inspection.reference.default.package:
+    text: <па змаўчанні>
+inspection.reference.implicit.constructor.name:
+    text: неявный конструктор {0}
+inspection.reference.jsp.holder.method.anonymous.name:
+    text: <% змесціва старонкі %>
+inspection.requires.auto.module:
+    text: Залежнасці ад аўтаматычных модуляў
+inspection.requires.auto.module.message:
+    text: "Дырэктыва 'requires' для аўтаматычнага модуля"
+inspection.requires.auto.module.option:
+    text: Падсвечваць толькі транзітыўныя залежнасці
+inspection.requires.auto.module.transitive:
+    text: "Дырэктыва 'requires transitive' для аўтаматычнага модуля"
+inspection.safe.varargs.detector.display.name:
+    text: Магчыма забруджванне кучы з параметрызаванага vararg тыпу
+inspection.same.return.value.display.name:
+    text: Метад заўсёды вяртае адно і тое ж значэнне
+inspection.same.return.value.problem.descriptor:
+    text: Метад <code>#ref()</code> заўсёды вяртае <code>{0}</code>
+inspection.same.return.value.problem.descriptor1:
+    text: Метад <code>#ref()</code> і ўсе яго пераазначальныя метады заўсёды вяртаюць <code>{0}</code>
+inspection.same.return.value.problem.descriptor2:
+    text: Усе рэалізацыі метаду <code>#ref()</code> заўсёды вяртаюць <code>{0}</code>
+inspection.static.guarded.by.instance.display.name:
+    text: Статычны член абаронены полем экзэмпляра або this
+inspection.string.tokenizer.delimiter.display.name:
+    text: "Паўторныя падзельнікі ў 'StringTokenizer'"
+inspection.surround.requirenonnull.quickfix:
+    text: "Замяніць на ''Objects.requireNonNull({0})''"
+inspection.suspicious.array.method.call.display.name:
+    text: "Падазроны выклік метаду 'Arrays'"
+inspection.suspicious.array.method.call.problem.arrays:
+    text: 'Тыпы масіваў несумяшчальныя: масівы заўсёды розныя'
+inspection.suspicious.array.method.call.problem.element:
+    text: Тып элемента несумяшчальны з тыпам масіва
+inspection.suspicious.collections.method.calls.display.name:
+    text: Падазроны выклік метаду калекцыі
+inspection.suspicious.collections.method.calls.problem.descriptor:
+    text: "''{0}'' можа не змяшчаць {2} тыпу ''{1}''"
+inspection.suspicious.collections.method.calls.problem.descriptor1:
+    text: "Падазроны выклік ''{0}''"
+inspection.suspicious.getter.setter.field.option:
+    text: Папярэджваць толькі пры наяўнасці поля, што адпавядае імені getter/setter
+inspection.suspicious.integer.div.assignment.option:
+    text: Паведамляць пра падазроныя, але магчыма дакладныя дзяленні
+inspection.unary.plus.unary.binary.option:
+    text: Паведамляць толькі ў кантэксце неадназначных бінарных або ўнарных выразаў
+inspection.unknown.guard.display.name:
+    text: "Невядомае поле '@GuardedBy'"
+inspection.unnecessary.super.qualifier.option:
+    text: "Ігнараваць удакладняльны кваліфікатар 'super'"
+inspection.use.compare.method.display.name:
+    text: "Для параўнання лікаў можна выкарыстоўваць метад 'compare()'"
+inspection.use.compare.method.fix.family.name:
+    text: Замяніць на адзіны метад параўнання
+inspection.visibility.accept.quickfix:
+    text: Прыняць прапанаваны ўзровень доступу
+inspection.visibility.compose.suggestion:
+    text: Может быть {0}
+inspection.visibility.option.constants:
+    text: Прапаноўваць больш слабую бачнасць для канстант
+inspection.visibility.option.package.private.members:
+    text: Прапаноўваць узровень бачнасці package-private для членаў класа
+inspection.visibility.package.private.top.level.classes:
+    text: Прапаноўваць узровень бачнасці package-private для класаў верхняга ўзроўню
+inspection.visibility.private.inner.members:
+    text: "Прапаноўваць 'private' для членаў унутранага класа толькі пры звароце з знешняга класа"
+inspection.weaker.access.display.name:
+    text: "Доступ да аб'яўлення можа быць паслаблены"
+instance.member.guarded.by.static.0.loc:
+    text: 'Член экзэмпляра абаронены статычным "{0}" #loc'
+instance.member.guarded.by.static.ref.loc:
+    text: 'Член экзэмпляра абаронены статычным #ref #loc'
+intention.add.annotation.family:
+    text: Дадаць анатацыю
+intention.add.type.annotation.family:
+    text: Дадаць анатацыю тыпу
+intention.family.name.move.annotation.to.array:
+    text: Перамясціць анатацыю ў масіў
+intention.family.name.move.annotation.to.upper.bound:
+    text: Перамясціць анатацыю да верхняй мяжы
+intention.name.qualify.expression:
+    text: "Удакладніць выраз {0} з дапамогай ''{1}''"
+intention.text.remove.annotation:
+    text: Выдаліць
+long.range.set.presentation.any:
+    text: Любое значэнне
+long.range.set.presentation.divisible.by:
+    text: Дзеліцца на {0}
+long.range.set.presentation.empty:
+    text: Невядома
+long.range.set.presentation.even:
+    text: Четное
+long.range.set.presentation.odd:
+    text: Нечетное
+long.range.set.presentation.range:
+    text: (в {0})
+long.range.set.presentation.two.values:
+    text: '{0} або {1}'
+make.0.default.annotation:
+    text: Зрабіць "{0}" анатацыяй па змаўчанні
+make.default.the.last.case.family.name:
+    text: "Зрабіць 'default' апошнім case"
+make.final.and.annotate.as.safevarargs:
+    text: "Зрабіць final і анатаваць як '@SafeVarargs'"
+message.class.inaccessible:
+    text: "Класс ''{0}'' недоступен здесь"
+message.class.inaccessible.from.module:
+    text: "Клас ''{0}'' недаступны з модуля ''{1}''"
+method.reference.mapped.to.comparator:
+    text: "Спасылка на метад, супастаўленая з інтэрфейсам 'Comparator', не выконвае кантракт 'Comparator'"
+module.0.with.language.level.1.depends.on.module.2.with.language.level.3:
+    text: Модуль {0} з узроўнем мовы {1} залежыць ад модуля {2} з узроўнем мовы {3}
+move.0.to.the.beginning:
+    text: "Перамясціць ''{0}'' у пачатак"
+move.to.front:
+    text: Перамясціць наперад
+mutability.modifiable:
+    text: зменны
+mutability.unknown:
+    text: невядома
+mutability.unmodifiable:
+    text: нязменны
+mutability.unmodifiable.view:
+    text: нязменнае прадстаўленне
+mutation.signature.problem.invalid.token:
+    text: "Недапушчальны токен: {0}; падтрымліваюцца ''this'', ''io'', ''param1'', ''param2'' і г.д."
+mutation.signature.problem.parameter.has.immutable.type:
+    text: "Параметр #{0} мае нязменны тып ''{1}''"
+mutation.signature.problem.reference.to.parameter.invalid:
+    text: 'Спасылка на параметр #{0} несапраўдная'
+mutation.signature.problem.static.method.cannot.mutate.this:
+    text: "Статычны метад не можа змяняць 'this'"
+navigate.to.overridden.methods.title:
+    text: Пераазначальныя метады {0}
+non.final.field.code.ref.code.in.immutable.class.loc:
+    text: 'Не final поле <code>#ref</code> в классе @Immutable #loc'
+non.final.guarded.by.field.0.loc:
+    text: 'Не final поле с @GuardedBy "{0}" #loc'
+non.final.guarded.by.field.ref.loc:
+    text: 'Не final поле с @GuardedBy #ref #loc'
+non.null.type.argument.is.expected:
+    text: Чакаецца non-null аргумент тыпу
+nullable.stuff.error.overriding.notnull.with.nullable:
+    text: Пераазначэнне калекцыі non-null элементаў калекцыяй nullable элементаў
+nullable.stuff.error.overriding.nullable.with.notnull:
+    text: Пераазначэнне калекцыі nullable элементаў калекцыяй non-null элементаў
+nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
+    text: Параметры пераазначальнага метаду не анатаваны
+nullable.stuff.problems.overridden.methods.are.not.annotated:
+    text: Пераазначальныя метады не анатаваны
+parameter.can.be.null:
+    text: Параметр может быть null
+parameter.is.always.not.null:
+    text: Параметр всегда non-null
+possible.heap.pollution.from.parameterized.vararg.type.loc:
+    text: 'Магчыма забруджванне кучы з параметрызаванага vararg тыпу #loc'
+processing.method.usages:
+    text: Апрацоўка выкарыстанняў метаду…
+progress.title.searching.for.overridden.methods:
+    text: Пошук пераазначаных метадаў
+provided.type:
+    text: Предоставленный
+qualify.0:
+    text: Удакладніць {0}
+qualify.with.0.this:
+    text: Удакладніць з дапамогай {0}.this
+redundant.block.marker:
+    text: Лішні маркер блока
+remove.annotation:
+    text: Выдаліць анатацыю
+remove.block.marker.comments:
+    text: Выдаліць каментар маркера блока
+remove.dependency:
+    text: Выдаліць залежнасць
+remove.left.side.of.assignment:
+    text: Выдаліць левую частку прысвойвання
+remove.switch.branch.0:
+    text: "Выдаліць галінку switch ''{0}''"
+remove.switch.label:
+    text: Выдаліць метку switch
+remove.switch.label.0:
+    text: "Выдаліць метку switch ''{0}''"
+replace.0.with:
+    text: "Замяніць ''{0}()'' на ''+='"
+replace.anonymous.class.with.lambda.alternative:
+    text: Замяніць ананімны клас на лямбда-выраз
+replace.get.class.with.class.literal:
+    text: Замяніць getClass() на літарал .class
+replace.operator.assignment.with.assignment:
+    text: Замяніць прысвойванне з аператарам на простае прысвойванне
+replace.stringtokenizer.delimiters.parameter.with.unique.symbols:
+    text: "Выдаліць дублікаты з аргумента 'delimiters'"
+replace.var.with.explicit.type:
+    text: "Замяніць 'var' на яўны тып"
+replace.with.0:
+    text: Замяніць на {0}
+replace.with.comparator:
+    text: Замяніць на кампаратар
+replace.with.constant.value:
+    text: Замяніць канстантным значэннем
+replace.with.expression.lambda:
+    text: Замяніць лямбда-выразам
+replace.with.lambda:
+    text: Замяніць на лямбда
+report.suspicious.but.possibly.correct.method.calls:
+    text: Паведамляць пра падазроныя, але магчыма правільныя выклікі метадаў  [&R]
+report.when.interface.is.not.annotated.with.functional.interface:
+    text: Паведамляць, калі інтэрфейс не анатаваны @FunctionalInterface
+required.type:
+    text: Патрабаваны тып
+scope.package:
+    text: Пакет {0}
+searching.for.overriding.methods:
+    text: Пошук пераазначальных метадаў
+service.provides:
+    text: Прадастаўляе сэрвіс
+service.uses:
+    text: Выкарыстоўвае сэрвіс
+special.field.array.length:
+    text: Даўжыня масіва
+special.field.collection.size:
+    text: Размер
+special.field.optional.value:
+    text: Апцыянальнае значэнне
+special.field.string.length:
+    text: Даўжыня радка
+special.field.unboxed.value:
+    text: Распакаванае значэнне
+statement.lambda.can.be.replaced.with.expression.lambda:
+    text: Лямбда-выраз з блокам можна замяніць на лямбда-выраз з выразам
+static.inheritrance.fix.replace.progress:
+    text: Замена выкарыстанняў {0}
+static.member.guarded.by.instance.0.loc:
+    text: 'Статычны член, абаронены экзэмплярам "{0}" #loc'
+static.member.guarded.by.instance.ref.loc:
+    text: 'Статычны член, абаронены экзэмплярам #ref #loc'
+subclasses.search.progress.title:
+    text: Пошук пераазначаных метадаў
+suggest.package.private.visibility.level.for.classes.in.exported.packages.java.9:
+    text: Прапаноўваць узровень бачнасці package-private для класаў у экспартаваных пакетах (Java 9+)
+suppress.all.for.class:
+    text: Падавіць усе інспекцыі для класа
+suppress.for.parameter:
+    text: Падавіць для параметра
+suppress.for.statement.with.comment:
+    text: Падавіць для аператара з каментаром
+suppress.inspection.class:
+    text: Падавіць для класа
+suppress.inspection.field:
+    text: Падавіць для поля
+suppress.inspection.member:
+    text: Падавіць для члена
+suppress.inspection.method:
+    text: Падавіць для метаду
+suppress.inspection.module:
+    text: Падавіць для модуля
+suspected.module.dependency.problem.descriptor:
+    text: "Модуль ''{0}'' не залежыць ад модуля ''{1}''. Пры гэтым ''{1}'' не правяраўся на экспартаваныя залежнасці, неабходныя для вобласці ''{2}''"
+suspicious.invocation.handler.implementation.display.name:
+    text: "Падазроная рэалізацыя 'InvocationHandler'"
+suspicious.invocation.handler.implementation.method.unused.message:
+    text: "Метад ніколі не выкарыстоўваецца ў 'invoke()': малаверагодна, што 'hashCode()', 'equals()' і 'toString()' рэалізаваны правільна"
+suspicious.invocation.handler.implementation.null.returned.for.toString.message:
+    text: "Пры праксіраванні метаду 'toString()' можа быць вернуты null: гэта не рэкамендуецца"
+suspicious.invocation.handler.implementation.null.returned.message:
+    text: "Пры праксіраванні метаду ''{0}()'' можа быць вернуты null: гэта можа выклікаць NullPointerException"
+suspicious.invocation.handler.implementation.type.mismatch.message:
+    text: "Пры праксіраванні метаду ''{0}()'' можа быць вернуты несумяшчальны тып: патрабуецца: {1}; атрымана: {2}"
+text.raw.ctor.reference.with.type.parameters:
+    text: Сырая спасылка на канструктар з яўнымі параметрамі тыпу
+text.shebang.mechanism.in.java.files.not.permitted:
+    text: Механізм shebang у .java файлах не дазволены
+text.unused.import.in.template:
+    text: Нявыкарыстаны імпарт (указаны ў шаблоне)
+type.constraint.assignability.explanation.definitely.inconvertible:
+    text: "Вядома, што {0} з'яўляецца {1}, што дакладна несумяшчальна з {2}"
+type.constraint.assignability.explanation.exact:
+    text: '{0} ужо вядомы як {1}'
+type.constraint.assignability.explanation.exact.not.subtype:
+    text: "Тып {0} дакладна {1}, які не з'яўляецца падтыпам {2}"
+type.constraint.assignability.explanation.exact.subtype:
+    text: "Тып {0} дакладна {1}, які з'яўляецца падтыпам {2}"
+type.constraint.assignability.explanation.not.instance.of:
+    text: "Вядома, што {0} не з'яўляецца {1}"
+type.constraint.assignability.explanation.not.instance.of.supertype:
+    text: "Вядома, што {0} не з'яўляецца {1}, які з'яўляецца супертыпам {2}"
+type.constraint.assignability.explanation.subtype.of.subtype:
+    text: "{0} ужо вядомы як {1}, які з'яўляецца падтыпам {2}"
+type.information.local.object:
+    text: "лакальны аб'ект"
+type.mismatch.reason:
+    text: 'прычына: {0}'
+unknown.guardedby.reference.0.loc:
+    text: 'Невядомая спасылка @GuardedBy "{0}" #loc'
+unknown.guardedby.reference.ref.loc:
+    text: 'Невядомая спасылка @GuardedBy #ref #loc'
+unnecessary.module.dependency.display.name:
+    text: Непатрэбная залежнасць модуля
+unnecessary.module.dependency.problem.descriptor:
+    text: "Зыходны код модуля ''{0}'' не залежыць ад зыходнага кода модуля ''{1}''"
+unused.import.display.name:
+    text: Невыкарыстаны імпарт
+unused.library.display.name:
+    text: Нявыкарыстаная бібліятэка
+unused.library.problem.descriptor:
+    text: "Нявыкарыстаная бібліятэка ''{0}''"
+unused.library.roots.problem.descriptor:
+    text: "Нявыкарыстаныя карані {0} з бібліятэкі ''{1}''"
+var.can.be.replaced.with.explicit.type:
+    text: "'var' можна замяніць яўным тыпам"
+vararg.method.call.with.50.poly.arguments:
+    text: Выклік vararg-метаду з больш чым 50 паліморфнымі аргументамі можа запаволіць кампіляцыю і аналіз

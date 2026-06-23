@@ -1,0 +1,162 @@
+action.download.and.install.plugin:
+    text: プラグインのダウンロードとインストール
+action.uninstall.plugin:
+    text: プラグインのアンインストール
+action.update.plugin:
+    text: プラグインのアップデート
+column.plugins.category:
+    text: カテゴリ
+column.plugins.date:
+    text: 日付
+column.plugins.downloads:
+    text: ダウンロード
+column.plugins.name:
+    text: 名前
+diagnostic.error.report.description:
+    text: <html>エラーの詳細に再現方法を入力してください。<br>エラーが修復されたときに報告を受ける場合は、<br>ITN ログイン/パスワードを入力してください。</html>
+diagnostic.error.report.login.name:
+    text: 'ITN ログイン :'
+diagnostic.error.report.login.password:
+    text: 'ITN パスワード :'
+diagnostic.error.report.send:
+    text: 送信(&S)
+diagnostic.out.of.memory.continue:
+    text: 持続する
+diagnostic.out.of.memory.currentValue:
+    text: '現在値: {0}'
+diagnostic.out.of.memory.dump:
+    text: メモリダンプ
+diagnostic.out.of.memory.error:
+    text: |-
+        要求した処理を実行するための十分なメモリがありません。
+        {0} をシャットダウンして {2} の {1} 設定を増やしてください。
+diagnostic.out.of.memory.title:
+    text: メモリ不足
+diagnostic.out.of.memory.willBeSavedTo:
+    text: 変更は {0} に保存されます。
+error.dialog.conflict.plugin.button.disable.all:
+    text: すべて無効にして再起動
+error.dialog.conflict.plugin.button.enable.and.restart:
+    text: 有効化と再開
+error.dialog.conflict.plugin.disable.all:
+    text: なし、上記のすべてのプラグインを無効にする
+error.dialog.conflict.plugin.title:
+    text: プラグインの競合
+error.dialog.error.prompt:
+    text: エラーメッセージ
+error.http.result.code:
+    text: 'HTTP 結果コード : {0}'
+error.itn.returns.wrong.data:
+    text: ITN は不正なデータを返しました
+error.list.back.action:
+    text: 戻る
+error.list.clear.action:
+    text: クリアして閉じる(_C)
+error.list.close.action:
+    text: 閉じる(&L)
+error.list.disable.plugin:
+    text: プラグインを無効にする...
+error.list.disable.plugin.0:
+    text: '{0} のプラグインを無効にする'
+error.list.forward.action:
+    text: 次へ
+error.list.message.blame.core:
+    text: '{0} コアによる原因'
+error.list.message.blame.plugin:
+    text: '{0} による原因'
+error.list.message.blame.unknown.plugin:
+    text: 未知のプラグインによる原因
+error.list.message.duplicate:
+    text: '[重複]'
+error.list.message.index.count:
+    text: '{1} の {0}'
+error.list.message.info:
+    text: '{0}。 最後のリセット以降に {1,choice,1#1 回|2#{1} 回} 発生。'
+error.list.message.submission.failed:
+    text: 送信は失敗しました
+error.list.message.submitted:
+    text: 提出済み
+error.list.message.submitted.as.link:
+    text: '{0} として提出'
+error.list.message.unread:
+    text: 未読。
+error.list.of.plugins.was.not.loaded:
+    text: プラグインのリストを読み込みませんでした。
+error.list.popup.immediately.checkbox:
+    text: 次回に内部エラーが発生した場合は、直ちにこのウィンドウをポップアップ表示する
+error.list.restart.action:
+    text: 再起動
+error.list.shutdown.action:
+    text: シャットダウン(_D)
+error.list.submit.action:
+    text: 提出
+error.monitor.too.many.errors:
+    text: 多数の IDE の致命的なエラー モニタは停止しました。
+error.new.notification.link:
+    text: 詳細の表示とレポートの送信
+error.new.notification.title:
+    text: IDEエラーが発生しました
+error.notification.empty.text:
+    text: 新しい IDE 致命的なエラーはありません
+error.notification.tooltip:
+    text: <html><body><b>IDE 内部エラーが発生しました。<br>クリックして詳細を確認し、 JetBrains へバグ レポートを提出してください。</b></body></html>
+error.plugin.download.failed:
+    text: プラグインのダウンロード失敗
+error.report.authentication.failed:
+    text: ITN 認証に失敗しました。 再試行しますか ?
+error.report.exception.title:
+    text: エラー レポート
+error.report.failure.message:
+    text: エラー レポートの送信に失敗しました。
+error.report.new.eap.build.message:
+    text: 最新の EAP ビルド {0} が利用できます。
+error.report.posting.failed:
+    text: ITN への登録に失敗しました。 再試行しますか ?
+error.report.sending.failure:
+    text: 送信は失敗しました。 再試行しますか ?
+error.report.title:
+    text: エラー レポート
+log.monitor.add.button:
+    text: 追加(&D)
+log.monitor.edit.aliases.location:
+    text: 'ログ ファイルの場所 :'
+log.monitor.edit.aliases.name:
+    text: 'エイリアス :'
+log.monitor.edit.aliases.title:
+    text: ログ ファイル エイリアスの編集
+log.monitor.group:
+    text: コンソールで表示するログ ファイル
+log.monitor.is.active.column:
+    text: アクティブ
+log.monitor.is.skipped.column:
+    text: 内容のスキップ
+log.monitor.log.file.column:
+    text: ログ ファイル エントリ
+log.monitor.remove.button:
+    text: 削除(&R)
+message.idea.shutdown.required:
+    text: プラグインの変更を反映するには {0} をシャットダウンする必要があります。 今すぐシャット ダウンしますか ?
+plugin.info.unknown:
+    text: 不明
+plugin.manager.incompatible.not.loaded.tooltip:
+    text: プラグインがロードされていません
+plugin.status.not.specified:
+    text: (指定なし)
+progress.connecting.to.plugin.manager:
+    text: '{0} に接続しています'
+progress.download.plugins:
+    text: プラグインのダウンロード
+progress.downloading.list.of.plugins:
+    text: プラグインのリストをダウンロードしています
+progress.downloading.plugin:
+    text: "プラグイン ''{0}'' をダウンロードしています"
+prompt.download.and.install.plugin:
+    text: プラグイン "{0}" のダウンロードとインストールを行いますか ?
+prompt.uninstall.plugin:
+    text: プラグイン "{0}" をアンインストールしますか ?
+prompt.update.plugin:
+    text: プラグイン "{0}" をアップデートしますか ?
+title.plugin.uninstall:
+    text: プラグイン アンインストール
+title.plugins:
+    text: プラグイン

@@ -1,0 +1,314 @@
+are.you.sure.you.want.to.delete.selected.file.confirmation.message:
+    text: "刪除 ''{0}''?"
+are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
+    text: 您確定要刪除{0}選擇的檔案和目錄？
+are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
+    text: 您確定要刪除{0}選擇的檔案？
+are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
+    text: "您確定要刪除選擇的資料夾 ''{0}''?？"
+are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
+    text: 您確定要刪除{0}選擇的目錄？
+autoscroll.from.source.action.description:
+    text: 自動定位來源檔案
+autoscroll.from.source.action.name:
+    text: 自動定位來源檔案
+autoscroll.to.source.action.description:
+    text: 自動切換源代碼
+autoscroll.to.source.action.name:
+    text: 自動切換源代碼
+big.text.control.window.title:
+    text: 文字
+button.add.class:
+    text: 新增類別...
+button.add.pattern:
+    text: 新增圖案...
+button.remove:
+    text: 刪除(&R)
+cannot.save.files.dialog.ignore.changes:
+    text: 忽略變更(&I)
+cannot.save.files.dialog.message:
+    text: '發生在嘗試將檔案儲存下列錯誤:'
+cannot.save.files.dialog.revert.changes:
+    text: 還原變更(&R)
+cannot.save.files.dialog.title:
+    text: 無法儲存檔案
+choose.class:
+    text: 選取類別
+choose.content.to.paste.dialog.title:
+    text: 選取內容貼上到
+class.filter.editor.add.dialog.title:
+    text: 新的過濾器
+class.filter.editor.choose.class.title:
+    text: 選取類別
+collapsible.panel.collapsed.state.tooltip.text:
+    text: 擴充面板
+collapsible.panel.expanded.state.tooltip.text:
+    text: 收起面板
+color.panel.select.color.dialog.description:
+    text: 選取顏色
+component.with.browse.button.browse.button.tooltip.text:
+    text: 點擊或按下Alt-Enter
+create.new.file.could.not.create.file.error.message:
+    text: "無法建立檔案 ''{0}''"
+create.new.file.enter.new.file.name.prompt.text:
+    text: '輸入新的檔案名:'
+create.new.file.file.name.cannot.be.empty.error.message:
+    text: 檔案名必須輸入
+create.new.folder.could.not.create.folder.error.message:
+    text: "無法建立資料夾 ''{0}''"
+create.new.folder.enter.new.folder.name.prompt.text:
+    text: '輸入一個新的資料夾名稱:'
+create.new.folder.folder.name.cannot.be.empty.error.message:
+    text: 資料夾名稱必須輸入
+crumbs.calculating.tooltip:
+    text: 正在計算…
+delete.dialog.title:
+    text: 刪除
+downloading.file.change.http.proxy.settings:
+    text: 變更HTTP代理設定(&P)...
+downloading.file.try.again.button:
+    text: 重試
+error.dialog.title:
+    text: 錯誤
+errortree.prefix.line:
+    text: 行（{0}）
+file.cache.conflict.action:
+    text: 從磁盤重新載入
+file.cache.conflict.dialog.title:
+    text: 檔案記憶體緩衝區衝突
+file.cache.conflict.diff.content.file.system.content:
+    text: 檔案系統內容
+file.cache.conflict.diff.content.memory.content:
+    text: 記憶體內容
+file.cache.conflict.for.file.dialog.title:
+    text: 檔案記憶體緩衝區衝突{0}
+file.cache.conflict.keep.memory.changes.button:
+    text: 不斷變化的記憶體(&K)
+file.cache.conflict.load.fs.changes.button:
+    text: 載入檔案系統的變化(&L)
+file.cache.conflict.message.text:
+    text: "'' {0}''在記憶體和磁盤上已經作了修改。"
+file.cache.conflict.save.changes.button:
+    text: 儲存記憶的內容
+file.cache.conflict.show.difference.button:
+    text: 顯示差異(&S)
+file.chooser.create.new.file.command.name:
+    text: 建立新檔案
+file.chooser.create.new.folder.command.name:
+    text: 新增資料夾
+file.chooser.default.title:
+    text: 選取路徑
+file.chooser.save.dialog.confirmation:
+    text: |-
+        {0}已經存在。
+        你要替換它嗎？
+file.chooser.save.dialog.confirmation.title:
+    text: 確認另存為
+file.chooser.save.dialog.default.title:
+    text: 選取檔案儲存
+file.chooser.save.dialog.file.name:
+    text: '檔案名:'
+file.is.read.only.message.text:
+    text: "檔案 ''{0}'' 是唯讀的。"
+files.are.read.only.message.text:
+    text: 檔案 {0} 是唯讀的。
+go.to.line.command.double.click:
+    text: 點擊進入線
+go.to.line.command.name:
+    text: 轉到行
+got.it:
+    text: 心動不如行動！
+idea.blue.metal.theme.name:
+    text: BegBlue主題
+insert.file.path.to.text.action.name:
+    text: 插入路徑
+integer.field.value.expected:
+    text: 期望值
+integer.field.value.not.a.number:
+    text: "值 ''{0}'' 不是整數"
+integer.field.value.out.of.range:
+    text: "值 ''{0}'' 超出範圍 {1}..{2}"
+invalid.user.input.dialog.title:
+    text: 輸入錯誤
+label.class.filter.editor.add.dialog.filter.pattern:
+    text: '輸入過濾模式:'
+master.detail.err.empty.name:
+    text: 名稱應包含非空格字符
+memory.usage.panel.statistics.message:
+    text: '分配的堆大小: {0}M   Used: {1}M'
+message.noMatchesFound:
+    text: 沒有找到符合的
+message.nothingToShow:
+    text: 沒有顯示
+message.nothingToShow.with.problem:
+    text: 沒有要顯示的內容 ({0})
+move.down.action.name:
+    text: 下移
+move.up.action.name:
+    text: 上移
+new.file.dialog.title:
+    text: 新增檔案
+new.folder.dialog.title:
+    text: 新增資料夾
+no.help.available.dialog.title:
+    text: 沒有可用的說明
+no.patterns:
+    text: 無設定類別模式
+order.entries.panel.export.column.name:
+    text: 匯出
+popup.hints.panel.click.to.configure.highlighting.tooltip.text:
+    text: 點擊以突出顯示設定此檔案
+popup.hints.panel.click.to.configure.profile.text:
+    text: 點擊設定檢查設定檔案
+read.only.attr.panel.double.click.to.toggle.attr.tooltip.text:
+    text: 點擊切換唯讀屬性
+remove.field.initializer.quick.fix:
+    text: 刪除欄位初始值
+replace.prompt.all.button:
+    text: 全部
+replace.prompt.all.files.action:
+    text: 所有檔案(&A)
+replace.prompt.all.in.this.file.button:
+    text: 替換這個檔案中全部(&F)
+replace.prompt.replace.button:
+    text: 替換(&R)
+replace.prompt.replace.occurrence.label:
+    text: 你要替換這個occurrence?
+replace.prompt.skip.button:
+    text: 跳過(&S)
+row.add:
+    text: 新增(&A)
+row.add.without.mnemonic:
+    text: 新增
+row.move.down:
+    text: 下移(&D)
+row.move.down.without.mnemonic:
+    text: 下移
+row.move.up:
+    text: 上移(&U)
+row.move.up.without.mnemonic:
+    text: 上移
+row.remove:
+    text: 刪除(&R)
+row.remove.without.mnemonic:
+    text: 刪除
+search.popup.search.for.label:
+    text: '搜索:'
+splitter.center.tooltip.text:
+    text: 置中
+splitter.down.tooltip.text:
+    text: 向下鍵
+splitter.left.tooltip.text:
+    text: 靠左
+splitter.right.tooltip.text:
+    text: 靠右
+splitter.up.tooltip.text:
+    text: 向上鍵
+status.bar.code.style.widget.name:
+    text: 縮排
+status.bar.column.status.text:
+    text: 列
+status.bar.column.status.tooltip.text:
+    text: 列選擇模式
+status.bar.encoding.widget.name:
+    text: 檔案編碼
+status.bar.fatal.error.widget.name:
+    text: 內部錯誤
+status.bar.hide.widget.action.name:
+    text: "隱藏 ''{0}''"
+status.bar.inspection.profile.widget.name:
+    text: 檢查設定檔案
+status.bar.line.separator.widget.name:
+    text: 行分隔符
+status.bar.memory.usage.widget.name:
+    text: 記憶體指示器
+status.bar.notifications.widget.name:
+    text: 通知
+status.bar.notifications.widget.no.notification.tooltip:
+    text: 無新通知
+status.bar.notifications.widget.tooltip:
+    text: '{0} {0, choice, 1#通知|2#通知} 掛起'
+status.bar.position.widget.name:
+    text: 行:列號
+status.bar.read.only.widget.name:
+    text: 唯讀特性
+status.bar.selection.mode.widget.name:
+    text: 編輯器選擇模式
+status.bar.write.thread.widget.name:
+    text: 寫入執行緒
+tabbed.pane.close.all.action.name:
+    text: 全部關閉
+tabbed.pane.close.all.but.this.action.name:
+    text: 關閉所有但此
+tabbed.pane.close.all.tabs.but.this.action.name:
+    text: 關閉其他標籤頁
+tabbed.pane.close.tab.action.name:
+    text: 關閉標籤頁
+tabbed.pane.pin.tab.action.description:
+    text: 銷工具視窗標籤
+tabbed.pane.pin.tab.action.name:
+    text: 固定標籤頁
+there.is.no.help.for.this.dialog.error.message:
+    text: 沒有這個的說明對話方塊
+tool.window.hide.action.name:
+    text: 隱藏
+tool.window.hideSide.action.name:
+    text: 隱藏側列
+tool.window.move.to.action.group.name:
+    text: 移動到
+tool.window.move.to.bottom.action.name:
+    text: 底部
+tool.window.move.to.left.action.name:
+    text: 靠左
+tool.window.move.to.right.action.name:
+    text: 靠右
+tool.window.move.to.top.action.name:
+    text: 頂部
+tool.window.name.build:
+    text: 構建
+tool.window.name.documentation:
+    text: 文件
+tool.window.name.inspection:
+    text: 檢查結果
+tool.window.name.module.duplicates:
+    text: 複製
+tool.window.quick.access.message:
+    text: |-
+        將滑鼠懸停在下面的圖示來存取工具視窗
+        點擊該圖示，使工具視窗按鈕可見
+tool.window.quick.access.title:
+    text: 工具視窗快速存取
+tree.view.collapse.all.action.name:
+    text: 全部折疊
+tree.view.expand.all.action.name:
+    text: 全部展開
+treenode.loading:
+    text: 載入中...
+welcome.screen.documentation.action.group.name:
+    text: 文件
+welcome.screen.get.from.vcs.action.checkout.from.list.popup.title:
+    text: 從結帳
+welcome.screen.get.from.vcs.action.no.vcs.plugins.with.check.out.action.installed.action.name:
+    text: 無VCS增益集與退房行動安裝。
+welcome.screen.jetbrains.tv.action.description:
+    text: 檢視線上試用的介紹{0}功能。
+welcome.screen.plugins.panel.all.bundled.plugins.were.uninstalled.message.text:
+    text: 所有捆綁的增益集被移除。
+welcome.screen.plugins.panel.bundled.plugins.label:
+    text: '捆綁的增益集:'
+welcome.screen.plugins.panel.learn.more.tooltip.text:
+    text: 瞭解更多...
+welcome.screen.plugins.panel.manager.link:
+    text: <html><body><u>開啟增益集管理器</u></body></html>
+welcome.screen.plugins.panel.my.plugins.label:
+    text: '我的增益集:'
+welcome.screen.plugins.panel.no.plugins.currently.installed.message.text:
+    text: 目前未安裝任何增益集。
+welcome.screen.plugins.panel.plugins.label:
+    text: 增益集
+welcome.screen.quick.start.action.group.name:
+    text: 快速入門
+welcome.screen.recent.projects.action.no.recent.projects.to.display.action.name:
+    text: 最近沒有項目可顯示。
+welcome.screen.text.not.specified.message:
+    text: 未指定

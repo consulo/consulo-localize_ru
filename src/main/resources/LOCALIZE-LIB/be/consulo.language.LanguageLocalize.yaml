@@ -1,0 +1,230 @@
+0.expected:
+    text: "Чакаецца ''{0}''"
+PerFileConfigurableBase.empty.text:
+    text: Новае адлюстраванне $addShortcut
+PerFileConfigurableBase.label.project:
+    text: Праект
+PerFileConfigurableBase.mapping.title:
+    text: Карціраванне
+PerFileConfigurableBase.null.text:
+    text: <не>
+PerFileConfigurableBase.project.mapping:
+    text: Праект {0}
+PerFileConfigurableBase.target.title:
+    text: шлях
+action.set.system.default.encoding.text:
+    text: <Па змаўчанні>
+anonymous.class.context.display:
+    text: Ананімны ў {0}
+anonymous.class.derived.display:
+    text: Ананімны клас, вытворны ад {0}
+aux.context.display:
+    text: з {0}
+button.do.not.override:
+    text: Не адмяняць
+button.override:
+    text: Перавызначэнне
+cannot.delete.a.read.only.file:
+    text: "Немагчыма выдаліць файл ''{0}'', даступны толькі для чытання."
+cannot.modify.a.read.only.directory:
+    text: "Немагчыма змяніць дырэкторыю ''{0}'', даступную толькі для чытання."
+cannot.modify.a.read.only.file:
+    text: "Немагчыма змяніць файл ''{0}'', даступны толькі для чытання."
+cannot.resolve.symbol:
+    text: "Не ўдаецца вызначыць сімвал ''{0}''"
+class.context.display:
+    text: '{0} в {1}'
+color.name:
+    text: імя колеру
+command.name.change.language:
+    text: Змяніць мову
+command.name.navigate:
+    text: Навігацыя
+completion.dot.etc.ad:
+    text: Кропка, прабел і некаторыя іншыя клавішы таксама закрыюць пошук і ўставяць яго ў рэдактар
+completion.no.suggestions:
+    text: Няма прапаноў
+completion.quick.implementations.ad:
+    text: Ці ведаеце вы, што рэалізацыя хуткага прагляду ({0}) таксама працуе ў пошуку аўтазапаўнення?
+completion.quick.javadoc.ad:
+    text: Ці ведаеце вы, што хуткая дакументацыя ({0}) таксама працуе ў пошуках аўтазапаўнення?
+completion.smart.enter.ad:
+    text: Выкарыстоўвайце {0} пасля завяршэння (зачыніце дужкі і г.д.), каб выправіць сінтаксіс кода
+compound.run.configuration.cycle:
+    text: "{0} ''{1}'' створыць цыклічную залежнасць, нельга дадаць"
+default.path.evaluator.option:
+    text: Указвае, як правайдар спасылак павінен вылічаць шлях па змаўчанні для дадзенага файла
+dialog.message.duplicate.live.templates.in.group:
+    text: Дублікат жывога шаблону `{0}` у групе {1}
+dialog.message.live.template.with.empty.abbreviation:
+    text: "Знайшоў жывы шаблон з пустой абрэвіятурай у групе ''{0}'', такія шаблоны забароненыя"
+dialog.message.live.template.with.empty.text:
+    text: "Знойдзены жывы шаблон ''{0}'' з пустым тэкстам у групе ''{1}'', такія шаблоны бессэнсоўныя"
+dialog.message.template.with.name.already.exists:
+    text: "Шаблон пад назвай ''{0}'' ужо існуе. Увядзіце іншую назву шаблона"
+dialog.message.valid.identifier:
+    text: "«{0}» не з'яўляецца сапраўдным ідэнтыфікатарам"
+dialog.template.data.language.caption:
+    text: "Мова даных шаблонаў з'яўляецца базавай мовай у файлах шаблонаў FreeMarker/Velocity і іншых фрэймворкаў. Каб змяніць налады мовы даных шаблона для файла, каталога або ўсяго праекта ў {0}, дадайце іх шляхі па меры неабходнасці і абярыце мову з выпадальнага спісу."
+el.cannot.resolve.function:
+    text: "Не ўдаецца вырашыць функцыю ''{0}'' #loc"
+el.cannot.resolve.method:
+    text: "Не ўдаецца вырашыць метад ''{0}''() #loc"
+el.cannot.resolve.namespace:
+    text: "Не ўдаецца вырашыць прастору імёнаў ''{0}'' #loc"
+el.cannot.resolve.property:
+    text: "Не ўдаецца вырашыць уласцівасць або метад ''{0}'' (дынамічная ўласцівасць?) #loc"
+el.cannot.resolve.variable:
+    text: "Не ўдаецца вырашыць пераменную ''{0}'' #loc"
+el.declare.variable.find.acceptable.class:
+    text: Знайсці адпаведны клас
+el.declare.variable.intention.family:
+    text: "Аб'явіць пераменную як знешнія даныя"
+el.declare.variable.via.comment.annotation.intention.name:
+    text: "Аб'явіць знешнюю пераменную ў анатацыі каментара"
+el.declare.variable.via.usebean.intention.name:
+    text: "Аб'явіць знешнюю пераменную як <jsp:useBean />"
+el.mismatched.parameters.count:
+    text: Розная колькасць фармальных і фактычных параметраў
+enum.constant.context:
+    text: "Константа enum ''{0}'' в ''{1}''"
+hint.text.can.t.modify.decompiled.code:
+    text: Немагчыма змяніць дэкампіляваны код
+hint.text.couldn.t.find.surround:
+    text: "Для бягучага кантэксту не знойдзена параметраў \"Аб'ёмны гук\"."
+incorrect.name:
+    text: Няправільнае імя
+indent.option.detected:
+    text: Адкрылі
+indent.status.bar.indent.tooltip:
+    text: 'Отступ:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0} пробел|2#{0} пробела|5#{0} пробелов}'
+indent.status.bar.tab:
+    text: Табуляцыя
+java.terms.exception:
+    text: выключэнне
+java.terms.instance.initializer:
+    text: ініцыялізатар экзэмпляра
+java.terms.of.annotation.type:
+    text: '{0} тыпу анатацыі {1}'
+java.terms.of.anonymous.class:
+    text: '{0} ананімнага класа'
+java.terms.of.class:
+    text: '{0} класса {1}'
+java.terms.of.enum:
+    text: '{0} пералічэння {1}'
+java.terms.of.interface:
+    text: '{0} інтэрфейсу {1}'
+java.terms.static.initializer:
+    text: статычны ініцыялізатар
+java.terms.type.parameter:
+    text: параметр тыпу
+jsf.el.out.of.attribute:
+    text: 'JSF EL па-за атрыбутам #loc'
+jsf.method.call.is.nonstd.extension:
+    text: "Выклік метаду з'яўляецца нестандартным пашырэннем #loc"
+jsp.documentation.message.can.have.runtime.value:
+    text: Можа мець значэнне часу выканання:\&nbsp;{0}
+jsp.documentation.message.custom.attribute.name:
+    text: Імя карыстальніцкага атрыбута
+jsp.documentation.message.custom.function.name:
+    text: Імя карыстальніцкай функцыі
+jsp.documentation.message.custom.tag.name:
+    text: Імя карыстальніцкага тэга
+jsp.documentation.message.description:
+    text: Апісанне:\&nbsp;{0}
+jsp.documentation.message.example.of.use:
+    text: Прыклад\&nbsp;выкарыстання:<br><pre>{0}</pre>
+jsp.documentation.message.fragment:
+    text: Фрагмент:\&nbsp;{0}
+jsp.documentation.message.required:
+    text: Обязательно:\&nbsp;{0}
+jsp.documentation.message.type:
+    text: Тып:\&nbsp;{0}
+jsp.taglib.method.reference.error.class.is.not.public:
+    text: Класс не является public
+jsp.taglib.method.reference.error.class.is.not.valid:
+    text: Клас несапраўдны
+jsp.taglib.method.reference.error.different.return.type:
+    text: Розны тып вяртаемага значэння
+jsp.taglib.method.reference.error.method.should.be.public.or.static:
+    text: Метад павінен быць public або static
+jsp.taglib.method.reference.error.no.such.method:
+    text: Метод не найден
+jsp.taglib.method.reference.error.signature.is.different:
+    text: Сігнатура адрозніваецца
+local.class.preposition:
+    text: локальный
+method.context.display:
+    text: '{0}() в {1}'
+package.component.installing.suffix:
+    text: (усталяваны)
+popup.title.copy:
+    text: Копія
+psi.scanning.files.progress:
+    text: Сканіраванне файлаў...
+psi.search.in.non.java.files.progress:
+    text: Аналіз выкарыстанняў па-за кодам...
+psi.search.inheritors.of.class.progress:
+    text: Пошук нашчадкаў {0}…
+psi.search.inheritors.progress:
+    text: Пошук нашчадкаў…
+psi.search.scope.intersection:
+    text: Перасячэнне {0} і {1}
+psi.search.scope.libraries:
+    text: Бібліятэкі
+psi.search.scope.production.files:
+    text: Файлы продакшн проекта
+psi.search.scope.project:
+    text: Файлы проекта
+psi.search.scope.project.and.libraries:
+    text: Праект і бібліятэкі
+psi.search.scope.test.files:
+    text: Тестовые файлы проекта
+psi.search.scope.union:
+    text: "Аб'яднанне {0} і {1}"
+quickfix.change.template.data.language.text:
+    text: Змяніць мову дадзеных шаблону {0} на...
+search.scope.module:
+    text: В одном модуле
+search.scope.module.runtime:
+    text: "Runtime область модуля ''{0}''"
+search.scope.unknown:
+    text: <невядомая вобласць>
+status.bar.text.reference.has.been.copied:
+    text: '{0} скапіравана'
+tab.title.build.output:
+    text: Зборачны выхад
+tab.title.more:
+    text: '{0}, а таксама {1}'
+template.data.language.configurable:
+    text: Мова даных шаблонаў
+template.data.language.configurable.tree.table.title:
+    text: мова
+template.data.language.override.warning.text:
+    text: Мова дадзеных шаблону ўжо ўстаноўлена для падкаталогаў. Перавызначыць?
+template.data.language.override.warning.title:
+    text: Перавызначэнне мовы даных шаблонаў падкаталогаў
+terms.directory:
+    text: Каталог
+terms.file:
+    text: Файл
+terms.property:
+    text: свойство
+unexpected.eof:
+    text: Нечаканы канец файла
+unexpected.token:
+    text: Нечаканы токен
+xml.terms.attribute:
+    text: атрыбут
+xml.terms.attribute.value:
+    text: значэнне атрыбута
+xml.terms.entity:
+    text: сутнасць
+xml.terms.tag:
+    text: тег
+xml.terms.variable:
+    text: переменная
+xml.terms.xml.tag:
+    text: XML тег

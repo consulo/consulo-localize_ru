@@ -1,0 +1,323 @@
+button.exclude:
+    text: 排除
+button.include:
+    text: 包含
+cannot.search.for.usages.title:
+    text: 不能搜索使用實例
+empty.text.searching:
+    text: 正在搜尋…
+find.all.button:
+    text: 搜尋所有(&A)
+find.button:
+    text: 搜尋
+find.case.sensitive:
+    text: 區分大小寫(&C)
+find.context.anywhere.scope.label:
+    text: 任何地方
+find.context.combo.label:
+    text: '環境:'
+find.context.except.comments.and.literals.scope.label:
+    text: 排除註解和字串
+find.context.except.comments.scope.label:
+    text: 排除註解
+find.context.except.literals.scope.label:
+    text: 排除字串
+find.context.in.comments.scope.label:
+    text: 在註解著
+find.context.in.literals.scope.label:
+    text: 在字串中
+find.dialog.find.button:
+    text: 找到
+find.direction.backward.radio:
+    text: 向後
+find.direction.forward.radio:
+    text: 向前
+find.direction.group:
+    text: 方向
+find.directory.not.found.error:
+    text: 目錄 "{0}" 沒有找到
+find.empty.match.regular.expression.error:
+    text: 規則運算式符合空字串
+find.empty.search.text.error:
+    text: 未輸入搜索文字
+find.excessive.total.size.prompt:
+    text: 發現使用在檔案的總大小為{0}。如果你繼續, {1}可能會變得反應遲鈍,甚至無法跳出記憶體錯誤.要繼續嗎?
+find.field.accessors.prompt:
+    text: "你想搜索的 ''{0}''?"
+find.field.accessors.title:
+    text: 搜索存取器
+find.filter.empty.file.mask.error:
+    text: 空檔案過濾遮罩
+find.filter.file.mask.checkbox:
+    text: 檔案過濾
+find.filter.file.name.group:
+    text: 檔案名稱篩選器
+find.filter.invalid.file.mask.error:
+    text: 錯誤的檔案遮罩 "{0}"
+find.highlight.no.more.highlights.found:
+    text: 沒有找到更多的高亮區塊
+find.in.path.dialog.title:
+    text: 在路徑中搜尋
+find.invalid.regular.expression.error:
+    text: '不良模式 "{0}": {1}'
+find.new.line:
+    text: 新行
+find.no.usages.at.cursor.error:
+    text: "不能搜索使用實例。 \n定位到某個元素以搜尋使用實例，然後再試。"
+find.open.in.new.tab.action:
+    text: 在新頁籤中開啟結果(&B)
+find.open.in.new.tab.checkbox:
+    text: 在新選項卡中開啟(&B)
+find.options.case.sensitive:
+    text: 區分大小寫(&C)
+find.options.comments.only:
+    text: 僅註解(&E)
+find.options.group:
+    text: 常規
+find.options.include.overloaded.methods.checkbox:
+    text: 包括重載的方法(&V)
+find.options.regular.expressions:
+    text: 規則運算式(&G)
+find.options.replace.preserve.case:
+    text: 保留大小寫(&V)
+find.options.search.for.text.occurrences.checkbox:
+    text: 文本符合項(&O)
+find.options.skip.results.tab.with.one.occurrence.checkbox:
+    text: 搜尋只有一個結果時跳過結果清單頁
+find.options.skip.results.tab.with.one.usage.checkbox:
+    text: 只有一個實例時跳過結果頁
+find.options.string.literals.only:
+    text: 只有字串文字(&T)
+find.options.whole.words.only:
+    text: 只有整個單詞（可能更快）(&W)
+find.origin.entire.scope.radio:
+    text: 整個作用範圍
+find.origin.from.cursor.radio:
+    text: 從游標位置
+find.origin.group:
+    text: 從開始位置
+find.parameter.usages.in.overriding.methods.prompt:
+    text: "你想在重寫的方法中搜索參數 ''{0}'' 的用法?"
+find.parameter.usages.in.overriding.methods.title:
+    text: 在重寫的方法中搜索
+find.pointcut.applications.not.found.title:
+    text: 訊息
+find.popup.replace.all.button:
+    text: 全部取代(&A)
+find.popup.replace.selected.button:
+    text: 取代{0,choice,0#|1#|2# {0} 符合項}
+find.progress.search.completed:
+    text: 搜索完成
+find.progress.searching.message:
+    text: 正在搜尋 {0}...
+find.progress.stop.background.button:
+    text: 停止後台搜索
+find.progress.stop.title:
+    text: 停止
+find.recursively.hint:
+    text: 在目錄中遞歸搜索
+find.regex:
+    text: 正則表達式(&X)
+find.replace.accessible.name:
+    text: 取代
+find.replace.all.action:
+    text: 全部替換
+find.replace.all.confirmation.title:
+    text: 全部取代
+find.replace.command:
+    text: 替換
+find.replace.dialog.title:
+    text: 替換
+find.replace.history:
+    text: 取代歷史記錄
+find.replace.in.project.dialog.title:
+    text: 在路徑中替換
+find.replace.invalid.replacement.string:
+    text: "您輸入了錯誤的替換字串: ''{0}''"
+find.replace.invalid.replacement.string.title:
+    text: 替換錯誤
+find.replace.occurrences.found.in.read.only.files.status:
+    text: 在唯讀檔案中找到符合項
+find.replace.occurrences.in.read.only.files.prompt:
+    text: |-
+        在唯讀檔案中找到的符合項。
+        該操作不會影響他們。
+        是否繼續？
+find.replace.occurrences.in.read.only.files.title:
+    text: 找到的唯讀檔案
+find.replace.select.on.editor.command:
+    text: 在編輯器中選取
+find.replace.selected.action:
+    text: 替換選取部份
+find.replace.text.dialog.title:
+    text: 替換文字
+find.replace.with.label:
+    text: '替換為(&R):'
+find.scope.all.project.classes:
+    text: 所有項目類別
+find.scope.all.projects.radio:
+    text: 所有項目
+find.scope.custom.radio:
+    text: '自訂(&S):'
+find.scope.directory.radio:
+    text: '目錄:'
+find.scope.directory.recursive.checkbox:
+    text: 遞歸地
+find.scope.directory.title:
+    text: 目錄 {0}
+find.scope.files.with.mask:
+    text: '{0}檔案使用遮罩{1}'
+find.scope.global.radio:
+    text: 全部的
+find.scope.group:
+    text: 作用範圍
+find.scope.label:
+    text: 作用範圍(&S)
+find.scope.module.radio:
+    text: '模組:'
+find.scope.module.title:
+    text: 模組 {0}
+find.scope.project.radio:
+    text: 項目
+find.scope.project.title:
+    text: 項目
+find.scope.selected.text.radio:
+    text: 選取的文字
+find.scope.whole.project.radio:
+    text: 整個項目
+find.search.accessible.name:
+    text: 搜尋
+find.search.again.from.bottom.action.message:
+    text: '{0}， 執行「搜尋上一個」再次從底部的搜索'
+find.search.again.from.bottom.hotkey.message:
+    text: '{0}，按{1}從底部搜索'
+find.search.again.from.top.action.message:
+    text: '{0}，執行「搜尋下一個」再次從頂部的搜索'
+find.search.again.from.top.hotkey.message:
+    text: '{0}，按{1}從頂部搜索'
+find.search.history:
+    text: 搜尋歷史記錄
+find.search.string.not.found.message:
+    text: '"{0}" 未找到'
+find.searched.elements.have.been.changed.error:
+    text: |-
+        搜索的元素已被變更。
+        不能搜索使用實例。
+find.searching.for.references.to.class.progress:
+    text: 在{0}中搜索類別的參照...
+find.searching.for.string.in.file.occurrences.progress:
+    text: '目前發現: {0,choice,0#No|1#{0}} {0,choice,0#occurrences|1#occurrence|2#occurrences}'
+find.searching.for.string.in.file.progress:
+    text: "搜尋 ''{0}'' in {1}..."
+find.selection.only:
+    text: 在所選內容中搜尋
+find.super.method.warning.action.verb:
+    text: 搜尋的使用實例
+find.text.dialog.title:
+    text: 搜尋文字
+find.text.to.find.label:
+    text: '要搜尋的文字(&F):'
+find.usage.view.no.usages.text:
+    text: 沒有找到的使用實例
+find.usage.view.tab.text:
+    text: "出現的 ''{0}''{1}"
+find.usage.view.toolwindow.title:
+    text: "出現的 ''{0}'' in {1}{2}"
+find.usage.view.usages.text:
+    text: "出現的 ''{0}''"
+find.usages.dialog.title:
+    text: 搜尋使用實例
+find.usages.in.file.dialog.title:
+    text: 在檔案中搜尋使用實例
+find.usages.of.element.in.scope.panel.title:
+    text: 在{2}裡{1}的{0}
+find.usages.of.element.tab.name:
+    text: '{1}的{0}'
+find.usages.of.element_type.element_name.not.found.message:
+    text: 在{0}中{1}的用法 未找到
+find.usages.panel.title.derived.classes:
+    text: 派生類別
+find.usages.panel.title.derived.interfaces:
+    text: 派生介面
+find.usages.panel.title.implementing.classes:
+    text: 實現類別
+find.usages.panel.title.implementing.methods:
+    text: 實現方法
+find.usages.panel.title.overloaded.methods.usages:
+    text: 重載方法用法
+find.usages.panel.title.overriding.methods:
+    text: 重載方法
+find.usages.panel.title.separator:
+    text: 或
+find.usages.panel.title.usages:
+    text: 用法
+find.what.derived.classes.checkbox:
+    text: 派生的類別(&D)
+find.what.derived.interfaces.checkbox:
+    text: 派生的介面(&D)
+find.what.fields.usages.checkbox:
+    text: 欄位的使用實例(&F)
+find.what.group:
+    text: 找到
+find.what.implementing.classes.checkbox:
+    text: 實現類別(&I)
+find.what.implementing.methods.checkbox:
+    text: 實現方法(&I)
+find.what.methods.usages.checkbox:
+    text: 方法的用法(&M)
+find.what.overriding.methods.checkbox:
+    text: 重寫的方法(&R)
+find.what.usages.checkbox:
+    text: 使用實例(&U)
+find.what.usages.of.classes.and.interfaces:
+    text: 類別和介面的用法(&C)
+find.whole.words:
+    text: 單詞(&W)
+found.occurrences:
+    text: 搜尋結果
+label.use.0.and.1.to.select.usages:
+    text: 使用 {0} 和 {1} 選擇用法
+link.click.to.highlight:
+    text: 點擊以高亮顯示
+message.file.masks.should.be.comma.separated:
+    text: 檔案遮罩應以逗號分隔
+message.nothingFound:
+    text: 未找到任何內容
+message.nothingFound.clearAll:
+    text: 清除所有選項
+message.nothingFound.used.options:
+    text: '搜尋已用選項:'
+notification.content.one.or.more.malformed.replacement.strings:
+    text: 一個或多個格式錯誤的取代字串
+notification.find.usages.is.not.available.during.indexing:
+    text: 編制索引期間無法尋找用法
+notification.title.regular.expression.failed.to.match:
+    text: 正則表達式符合失敗
+occurrence:
+    text: 發生
+progress.text.scanning.indexed.files:
+    text: 正在掃描已編制索引的檔案…
+progress.text.scanning.non.indexed.files:
+    text: 正在掃描未編制索引的檔案…
+progress.title.finding.usages:
+    text: 正在尋找用法
+progress.title.updating.usage.view:
+    text: 正在更新用法檢視…
+recent.find.usages.action.nothing:
+    text: 沒有最近的搜尋使用實例項目
+recent.find.usages.action.popup:
+    text: "{0} ''{1}''在{2}"
+recent.find.usages.action.title:
+    text: 最近的搜尋實例
+results.options.group:
+    text: 結果選項
+se.text.header.action.all.filetypes:
+    text: 所有檔案類型
+select.next.occurence.not.found.message:
+    text: 沒有找到,從頭部再搜索一次
+show.in.find.window.button.description:
+    text: 在“尋找工具”視窗中開啟搜尋結果
+show.in.find.window.button.name:
+    text: 在“尋找工具”視窗中開啟
+tooltip.close.search.bar.escape:
+    text: 關閉搜尋欄(Esc 鍵)

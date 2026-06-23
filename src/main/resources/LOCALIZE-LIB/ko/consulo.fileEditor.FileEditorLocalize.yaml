@@ -1,0 +1,98 @@
+large.file.editor.action.description.search.entire.file.and.show.toolwindow:
+    text: 처음부터 전체 파일을 검색하고 일치하는 문자열을 도구 창에 표시합니다
+large.file.editor.cant.launch.searching.because.of.unexpected.error:
+    text: 예기치 않은 오류로 인해 검색을 시작할 수 없습니다.
+large.file.editor.encoding.widget.name:
+    text: 대용량 파일 인코딩
+large.file.editor.find.backward.action.description:
+    text: 현재 위치부터 처음까지 검색하고 일치하는 문자열을 도구 창에 표시합니다
+large.file.editor.find.backward.action.text:
+    text: 이전 찾기
+large.file.editor.find.forward.action.description:
+    text: 현재 위치부터 끝까지 검색하고 일치하는 문자열을 도구 창에 표시합니다
+large.file.editor.find.forward.action.text:
+    text: 다음 찾기
+large.file.editor.find.further.backward.action.description:
+    text: 파일 시작 방향으로 일치 항목을 검색하여 기존 결과에 추가합니다
+large.file.editor.find.further.backward.action.text:
+    text: 이전 일치 항목 찾아 추가
+large.file.editor.find.further.forward.action.description:
+    text: 파일 끝 방향으로 일치 항목을 검색하여 기존 결과에 추가합니다
+large.file.editor.find.further.forward.action.text:
+    text: 다음 일치 항목 찾아 추가
+large.file.editor.match.case.action.mnemonic.text:
+    text: 대소문자 구분(_C)
+large.file.editor.message.cant.change.encoding.because.it.has.bom.byte.order.mark:
+    text: 파일에 BOM(바이트 순서 표시)이 있습니다.
+large.file.editor.message.cant.change.encoding.because.search.is.working.now:
+    text: 검색이 진행 중입니다.
+large.file.editor.message.cant.open.file.because.file.not.found:
+    text: 파일을 찾을 수 없습니다.
+large.file.editor.message.cant.open.large.file.editor.for.target.file:
+    text: 대상 파일에 대해 대용량 파일 에디터를 열 수 없습니다.
+large.file.editor.message.cant.show.file.in.the.editor:
+    text: 에디터에 파일을 표시할 수 없습니다
+large.file.editor.message.error.while.searching:
+    text: 검색 중 오류가 발생했습니다.
+large.file.editor.message.error.while.working.with.file.try.to.reopen.it:
+    text: 파일 작업 중 오류가 발생했습니다. 다시 열어 보세요.
+large.file.editor.message.found.some.matches:
+    text: 현재까지 {0}개의 일치 항목을 찾았습니다.
+large.file.editor.message.found.some.matches.in.some.bounds.of.file:
+    text: 파일의 {1}%에서 {2}% 사이에서 {0}개의 일치 항목을 찾았습니다.
+large.file.editor.message.found.some.matches.in.the.whole.file:
+    text: 전체 파일에서 {0}개의 일치 항목을 찾았습니다.
+large.file.editor.message.search.complete:
+    text: 검색 완료.
+large.file.editor.message.search.is.completed.and.no.more.matches:
+    text: 검색 완료. 더 이상 일치하는 항목이 없습니다.
+large.file.editor.message.search.stopped.because.something.went.wrong:
+    text: 오류가 발생하여 검색이 중단되었습니다.
+large.file.editor.message.search.stopped.because.too.many.results.were.found:
+    text: 결과가 너무 많아 검색이 중단되었습니다.
+large.file.editor.message.searching.at.some.percent.of.file:
+    text: 파일의 {0}% 검색 중 …
+large.file.editor.message.some.string.not.found:
+    text: '"{0}"을(를) 찾을 수 없습니다'
+large.file.editor.message.stopped.by.user:
+    text: 사용자에 의해 중단되었습니다.
+large.file.editor.message.working.with.file.error:
+    text: 파일 작업 중 오류가 발생했습니다.
+large.file.editor.notification.text.the.file.is.too.large.so.showing.in.read.only.mode:
+    text: '파일이 너무 큽니다: {0}. 읽기 전용 모드로 표시합니다.'
+large.file.editor.regex.action.mnemonic.text:
+    text: 정규식(_X)
+large.file.editor.some.string.not.found.perform.some.action.again.to.search.from.end:
+    text: '"{0}"을(를) 찾을 수 없습니다. 끝부터 다시 검색하려면 "{1}" 작업을 다시 수행하세요.'
+large.file.editor.some.string.not.found.perform.some.action.again.to.search.from.start:
+    text: '"{0}"을(를) 찾을 수 없습니다. 처음부터 다시 검색하려면 "{1}" 작업을 다시 수행하세요.'
+large.file.editor.some.string.not.found.press.some.shortcut.to.search.from.the.end:
+    text: '"{0}"을(를) 찾을 수 없습니다. 끝부터 검색하려면 {1}을(를) 누르세요.'
+large.file.editor.some.string.not.found.press.some.shortcut.to.search.from.the.start:
+    text: '"{0}"을(를) 찾을 수 없습니다. 처음부터 검색하려면 {1}을(를) 누르세요.'
+large.file.editor.stop.searching.action.text:
+    text: 검색 중지
+large.file.editor.tab.name.some.string.in.some.file:
+    text: '{1}의 "{0}"'
+large.file.editor.text.find.next.matches:
+    text: 다음 일치 항목 찾기
+large.file.editor.text.find.previous.matches:
+    text: 이전 일치 항목 찾기
+large.file.editor.title:
+    text: 대용량 파일 에디터
+large.file.editor.title.cant.change.encoding:
+    text: 인코딩을 변경할 수 없음
+large.file.editor.title.search.error:
+    text: 검색 오류
+large.file.editor.title.searching.for.some.string.in.some.file:
+    text: 파일 "{1}"에서 "{0}" 검색 중
+large.file.editor.title.show.match.problem:
+    text: 일치 문제 표시
+large.file.editor.title.warning:
+    text: 경고
+large.file.editor.tooltip.file.encoding.is.some:
+    text: '파일 인코딩: {0}'
+large.file.editor.words.action.mnemonic.text:
+    text: 단어 단위(_O)
+message.warning.about.regex.search.limitations:
+    text: 정규식 검색으로는 {0}Kb보다 긴 일치 항목을 찾을 수 없습니다

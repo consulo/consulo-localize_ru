@@ -1,0 +1,34 @@
+fix.call:
+    text: "调用 ''{0}''"
+fix.can.replace.with.x:
+    text: "可被替换为 ''{0}''"
+fix.can.replace.x.with.y:
+    text: "''{0}'' 可被替换为 ''{1}''"
+fix.convert.to.x:
+    text: "转换为 ''{0}''"
+fix.create.title:
+    text: 创建 {0}
+fix.create.title.x:
+    text: "创建{0} ''{1}''"
+fix.remove:
+    text: "移除 ''{0}''"
+fix.remove.redundant:
+    text: "移除冗余的 ''{0}''"
+fix.remove.statement:
+    text: "移除 ''{0}'' 语句"
+fix.remove.title:
+    text: 移除 {0}
+fix.remove.title.x:
+    text: "移除 {0} ''{1}''"
+fix.replace.with.x:
+    text: "替换为 ''{0}''"
+fix.replace.x.with.y:
+    text: "将 ''{0}'' 替换为 ''{1}''"
+fix.simplify:
+    text: 简化
+fix.unwrap:
+    text: "解包 ''{0}''"
+fix.unwrap.statement:
+    text: "解包 ''{0}'' 语句"
+fix.use:
+    text: "使用 ''{0}''"

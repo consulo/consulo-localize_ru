@@ -1,0 +1,36 @@
+action.BranchActionGroupPopup.Anonymous.text.restore.size:
+    text: Аднавіць памер акна
+action.BranchActionGroupPopup.settings.text:
+    text: Налады
+branch.popup.vcs.name.branches:
+    text: Галіны {0}
+branch.popup.vcs.name.branches.in.repo:
+    text: Адгалінаванні {0} да {1}
+branch.popup.warning.branches.have.diverged:
+    text: Галіны разышліся
+clone.button:
+    text: Клон
+clone.destination.directory.error.access:
+    text: Не ўдалося стварыць мэтавы каталог<br/>Праверце правы доступу
+clone.parent.dir:
+    text: 'Бацькоўскі каталог [&P]:'
+clone.parent.missing.error:
+    text: Бацькоўскі шлях {0} павінен існаваць.
+clone.repository.url.test.failed.message:
+    text: Тэст рэпазітара не атрымаўся<br/>{0}
+clone.test.success.message:
+    text: Злучэнне ўстаноўлена
+clone.testing:
+    text: Тэставанне {0}
+clone.title:
+    text: Кланаваць рэпазітар
+cloning.repository:
+    text: Кланаванне зыходнага рэпазітара {0}
+sync.setting:
+    text: Выконвайце аперацыі галінавання для ўсіх каранёў
+sync.setting.description:
+    text: Калі выбрана, вы зможаце праверыць, параўнаць, выдаліць або стварыць новыя галіны на ўсіх {0} каранёў адным дзеяннем. Гэта таксама паўплывае на паводзіны дыялогу націску.
+tooltip.branch.widget.root.name.text:
+    text: 'Корань: {0}'
+tooltip.branch.widget.vcs.branch.name.text:
+    text: 'Аддзяленне {0}: {1}'

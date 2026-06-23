@@ -1,0 +1,498 @@
+result.of.assignment.used.displayName:
+    text: Выкарыстоўваецца вынік прысвойвання
+result.of.assignment.expression.used.error.string:
+    text: 'Выкарыстоўваецца вынік выразу прысвойвання #loc'
+assignment.to.for.loop.parameter.display.name:
+    text: "Прысвойванне параметру цыкла 'for'"
+assignment.to.for.loop.parameter.error.string:
+    text: 'Прысвойванне параметру цыкла for #ref #loc'
+assignment.to.function.parameter.display.name:
+    text: Прысвойванне параметру функцыі
+assignment.to.function.parameter.error.string:
+    text: "Прысвойванне параметру функцыі '#ref' #loc"
+nested.assignment.display.name:
+    text: Укладзенае прысвойванне
+nested.assignment.error.string:
+    text: 'Укладзенае прысвойванне <code>#ref</code> #loc'
+assignment.replaceable.with.operator.assignment.display.name:
+    text: Прысвойванне можна замяніць на аператар прысвойвання
+assignment.replaceable.with.operator.assignment.error.string:
+    text: '#ref можна спрасціць да {0} #loc'
+silly.assignment.display.name:
+    text: Пераменная прысвойваецца сама сабе
+silly.assignment.error.string:
+    text: 'Пераменная прысвойваецца сама сабе #loc'
+divide.by.zero.display.name:
+    text: Дзяленне на нуль
+division.by.zero.error.string:
+    text: 'Дзяленне на нуль #loc'
+result.of.object.allocation.ignored.display.name:
+    text: "Ігнаруецца вынік стварэння аб'екта"
+result.of.object.allocation.ignored.error.string:
+    text: 'Вынік <code>new #ref()</code> ігнаруецца #loc'
+text.label.in.switch.statement.display.name:
+    text: "Текстовая метка в операторе 'switch'"
+text.label.in.switch.statement.error.string:
+    text: "Текстовая метка <code>#ref:</code> в операторе 'switch' #loc"
+anonymous.function.display.name:
+    text: Ананімная функцыя
+anonymous.function.error.string:
+    text: 'Ананімная функцыя #loc'
+unnecessary.block.statement.display.name:
+    text: Ненужный блок кода
+comma.expression.display.name:
+    text: Выраз з коскай
+conditional.expression.display.name:
+    text: Умоўны выраз
+statement.with.empty.body.display.name:
+    text: Оператор с пустым телом
+result.of.increment.or.decrement.used.display.name:
+    text: Выкарыстоўваецца вынік інкрэмента або дэкрэмента
+negated.conditional.expression.display.name:
+    text: Адмоўны ўмоўны выраз
+negated.if.statement.display.name:
+    text: "Адмоўны аператар 'if'"
+nested.conditional.expression.display.name:
+    text: Укладзены ўмоўны выраз
+nested.function.display.name:
+    text: Укладзеная функцыя
+octal.integer.display.name:
+    text: Васьмярковы цэлы лік
+overly.complex.arithmetic.expression.display.name:
+    text: Празмерна складаны арыфметычны выраз
+overly.complex.boolean.expression.display.name:
+    text: Празмерна складаны лагічны выраз
+pointless.arithmetic.expression.display.name:
+    text: Бессэнсоўны арыфметычны выраз
+pointless.boolean.expression.display.name:
+    text: Бессэнсоўны аператар або лагічны выраз
+void.expression.display.name:
+    text: "Выраз 'void'"
+with.statement.display.name:
+    text: "Оператор 'with'"
+break.statement.display.name:
+    text: "Оператор 'break'"
+break.statement.with.label.display.name:
+    text: "Оператор 'break' с меткой"
+conditional.expression.with.identical.branches.display.name:
+    text: Умоўны выраз з ідэнтычнымі галінамі
+constant.conditional.expression.display.name:
+    text: Канстантны ўмоўны выраз
+continue.statement.display.name:
+    text: "Оператор 'continue'"
+continue.statement.with.label.display.name:
+    text: "Оператор 'continue' с меткой"
+default.not.last.case.in.switch.display.name:
+    text: "'default' не апошні case у 'switch'"
+duplicate.condition.in.if.statement.display.name:
+    text: "Паўторная ўмова ў аператары 'if'"
+fall.through.in.switch.statement.display.name:
+    text: "Праваленне ў аператары 'switch'"
+if.statement.with.identical.branches.display.name:
+    text: "Аператар 'if' з ідэнтычнымі галінамі"
+if.statement.with.too.many.branches.display.name:
+    text: "Аператар 'if' з вялікай колькасцю галін"
+infinite.loop.statement.display.name:
+    text: Бясконцы цыкл
+labeled.statement.display.name:
+    text: Помеченный оператор
+loop.statement.that.doesn.t.loop.display.name:
+    text: Аператар цыкла, які не выконвае ітэрацыі
+nested.switch.statement.display.name:
+    text: "Вложенный оператор 'switch'"
+redundant.conditional.expression.display.name:
+    text: Лішні ўмоўны выраз
+redundant.if.statement.display.name:
+    text: "Лішні аператар 'if'"
+unnecessary.continue.statement.display.name:
+    text: "Ненужный оператор 'continue'"
+unnecessary.label.display.name:
+    text: Ненужная метка
+unnecessary.label.on.break.statement.display.name:
+    text: "Ненужная метка в операторе 'break'"
+unnecessary.label.on.continue.statement.display.name:
+    text: "Ненужная метка в операторе 'continue'"
+unnecessary.return.statement.display.name:
+    text: "Ненужный оператор 'return'"
+call.to.document.write.display.name:
+    text: "Вызов 'document.write()'"
+use.of.innerhtml.property.display.name:
+    text: "Выкарыстанне ўласцівасці 'innerHTML'"
+platform.detection.display.name:
+    text: Недакладнае вызначэнне платформы
+xhtml.incompatibilities.display.name:
+    text: Несумяшчальнае выкарыстанне XHTML
+continue.or.break.inside.finally.block.display.name:
+    text: "'continue' або 'break' унутры блока 'finally'"
+empty.catch.block.display.name:
+    text: "Пустой блок 'catch'"
+empty.finally.block.display.name:
+    text: "Пустой блок 'finally'"
+empty.try.block.display.name:
+    text: "Пустой блок 'try'"
+exception.used.for.local.control.flow.display.name:
+    text: Выключэнне выкарыстоўваецца для лакальнага кіравання патокам
+return.inside.finally.block.display.name:
+    text: "'return' унутры блока 'finally'"
+throw.inside.finally.block.display.name:
+    text: "'throw' унутры блока 'finally'"
+overly.complex.function.display.name:
+    text: Празмерна складаная функцыя
+function.with.multiple.loops.display.name:
+    text: Функцыя з некалькімі цыкламі
+function.with.multiple.return.points.display.name:
+    text: Функцыя з некалькімі пунктамі вяртання
+overly.nested.function.display.name:
+    text: Празмерна ўкладзеная функцыя
+nesting.depth.limit:
+    text: 'Ліміт глыбіні ўкладання:'
+function.with.too.many.parameters.display.name:
+    text: Функцыя з вялікай колькасцю параметраў
+function.parameter.limit:
+    text: 'Ліміт параметраў функцыі:'
+overly.long.function.display.name:
+    text: Занадта доўгая функцыя
+maximum.statements.per.function:
+    text: 'Максімальная колькасць аператараў у функцыі:'
+function.with.more.than.three.negations.display.name:
+    text: Функцыя з больш чым трыма адмаўленнямі
+function.naming.convention.display.name:
+    text: Пагадненне аб найменні функцый
+local.variable.naming.convention.display.name:
+    text: Пагадненне аб найменні лакальных пераменных
+function.parameter.naming.convention.display.name:
+    text: Пагадненне аб найменні параметраў функцыі
+expression.statement.which.is.not.assignment.or.call.display.name:
+    text: "Выраз, які не з'яўляецца прысвойваннем або выклікам"
+debugger.statement.display.name:
+    text: "Оператор 'debugger'"
+duplicate.case.label.display.name:
+    text: "Паўторная метка 'case'"
+function.with.inconsistent.returns.display.name:
+    text: Функцыя з неўзгодненымі вяртаннямі
+reserved.word.used.as.name.display.name:
+    text: Зарэзерваванае слова выкарыстоўваецца як імя
+this.expression.which.references.the.global.object.display.name:
+    text: "Выраз 'this', які спасылаецца на глабальны аб'ект"
+unreachable.code.display.name:
+    text: Недасягальны код
+chained.equality.display.name:
+    text: Ланцуг параўнанняў на роўнасць
+constant.on.right.side.of.comparison.display.name:
+    text: Канстанта ў правай частцы параўнання
+constant.on.left.side.of.comparison.display.name:
+    text: Канстанта ў левай частцы параўнання
+non.block.statement.body.display.name:
+    text: Цела аператара без фігурных дужак
+unterminated.statement.display.name:
+    text: Незавершённый оператор
+terminate.statement.fix:
+    text: Завяршыць аператар
+unnecessary.block.statement.error.string:
+    text: 'Ненужный блок кода #loc'
+comma.expression.error.string:
+    text: 'Выраз з коскай #loc'
+conditional.expression.error.string:
+    text: 'Умоўны выраз #loc'
+statement.has.empty.branch.error.string:
+    text: 'Аператар <code>#ref</code> мае пустую галіну #loc'
+statement.has.empty.body.error.string:
+    text: 'Аператар <code>#ref</code> мае пустое цела #loc'
+include.statement.bodies.that.are.empty.code.blocks.parameter:
+    text: "Уключаць целы аператараў, якія з'яўляюцца пустымі блокамі кода"
+result.of.increment.or.decrement.expression.used.error.string:
+    text: 'Выкарыстоўваецца вынік выразу інкрэмента або дэкрэмента #loc'
+negated.conditional.expression.error.string:
+    text: 'Адмоўны ўмоўны выраз #loc'
+invert.condition.fix:
+    text: Інвертаваць умову
+negated.ref.statement.error.string:
+    text: "Адмоўны аператар '#ref' #loc"
+invert.if.condition.fix:
+    text: "Інвертаваць умову 'if'"
+nested.conditional.expression.error.string:
+    text: 'Укладзены ўмоўны выраз #loc'
+nested.function.error.string:
+    text: "Укладзеная функцыя '#ref' #loc"
+nested.anonymous.function.error.string:
+    text: 'Вложенная #ref #loc'
+include.anonymous.functions.parameter:
+    text: Уключаць ананімныя функцыі
+maximum.number.of.terms.parameter:
+    text: 'Максімальная колькасць элементаў:'
+overly.complex.arithmetic.expression.error.string:
+    text: 'Празмерна складаны арыфметычны выраз #loc'
+pointless.arithmetic.error.message:
+    text: '#ref может быть заменено на {0} #loc'
+simplify.fix:
+    text: Спрасціць
+pointless.boolean.error.string:
+    text: 'Можа быць спрошчана да {0} #loc'
+void.expression.error.string:
+    text: "Выраз '#ref' #loc"
+with.expression.error.string:
+    text: "Оператор '#ref' #loc"
+break.statement.error.string:
+    text: "Оператор '#ref' #loc"
+break.statement.with.label.error.string:
+    text: "Оператор '#ref' с меткой #loc"
+conditional.expression.with.identical.branches.error.string:
+    text: 'Умоўны выраз <code>#ref</code> з ідэнтычнымі галінамі #loc'
+constant.conditional.expression.error.string:
+    text: '<code>#ref</code> можна спрасціць #loc'
+continue.statement.error.string:
+    text: "Оператор '#ref' #loc"
+continue.statement.with.label.error.string:
+    text: "Оператор '#ref' с меткой #loc"
+default.branch.not.last.case.in.switch.error.string:
+    text: "Галіна <code>#ref</code> не апошні case у 'switch' #loc"
+duplicate.condition.error.string:
+    text: 'Паўторная ўмова <code>#ref</code> #loc'
+fall.through.in.switch.statement.error.string:
+    text: "Праваленне ў аператары 'switch' #loc. Адсутнічае 'break' або 'return'"
+ref.statement.with.identical.branches.error.string:
+    text: 'Аператар <code>#ref</code> з ідэнтычнымі галінамі #loc'
+collapse.if.statement.fix:
+    text: "Свернуть оператор 'if'"
+maximum.number.of.branches.parameter:
+    text: 'Максімальная колькасць галін:'
+if.statement.with.too.many.branches.error.string:
+    text: "''#ref'' мае занадта шмат галін ({0}) #loc"
+infinite.loop.error.string:
+    text: 'Аператар <code>#ref</code> не можа завяршыцца без выкідання выключэння #loc'
+statement.label.error.string:
+    text: "Метка оператора '#ref' #loc"
+loop.statement.that.doesnt.loop.error.string:
+    text: 'Аператар <code>#ref</code> не выконвае ітэрацыі #loc'
+nested.switch.statement.error.string:
+    text: "Вложенный оператор '#ref' #loc"
+switch.statement.with.no.default.branch.error.string:
+    text: "Аператар '#ref' без галіны default #loc"
+trivial.conditional.error.string:
+    text: "''{0}'' можна спрасціць да ''{1}'' #loc"
+trivial.if.error.string:
+    text: 'Аператар <code>#ref</code> можна спрасціць #loc'
+unnecessary.continue.error.string:
+    text: '<code>#ref</code> не патрэбны як апошні аператар у цыкле #loc'
+unnecessary.label.error.string:
+    text: 'Ненужная метка <code>#ref</code> #loc'
+remove.label.fix:
+    text: Выдаліць метку
+unnecessary.label.on.break.error.string:
+    text: 'Оператор <code>#ref</code> с ненужной меткой #loc'
+unnecessary.label.on.continue.error.string:
+    text: 'Оператор <code>#ref</code> с ненужной меткой #loc'
+unnecessary.return.error.string:
+    text: '<code>#ref</code> не патрэбны як апошні аператар у функцыі без значэння, якое вяртаецца #loc'
+document.write.error.string:
+    text: "Вызов '#ref()' #loc"
+inner.html.error.string:
+    text: "Выкарыстанне ўласцівасці '#ref' #loc"
+platform.detection.error.string:
+    text: "'#ref' верагодна выкарыстоўваецца для вызначэння платформы #loc"
+xhtml.incompatabilities.error.string:
+    text: "'#ref' можа даваць супярэчлівыя вынікі для XHTML дакументаў #loc"
+continue.or.break.inside.finally.block.error.string:
+    text: "'#ref' унутры блока 'finally' #loc"
+empty.catch.block.error.string:
+    text: "Пустой блок '#ref' #loc"
+empty.finally.block.error.string:
+    text: "Пустой блок 'finally' #loc"
+empty.try.block.error.string:
+    text: "Пустой блок '#ref' #loc"
+exception.caught.locally.error.string:
+    text: "Выключэнне '#ref' перахоплена лакальна #loc"
+return.inside.finally.block.error.string:
+    text: "'#ref' унутры блока 'finally' #loc"
+throw.inside.finally.block.error.string:
+    text: "'#ref' унутры блока 'finally' #loc"
+rename.fix:
+    text: Перайменаваць
+function.complexity.limit.parameter:
+    text: 'Мяжа складанасці функцыі:'
+function.ref.is.overly.complex.cyclomatic.complexity.error.string:
+    text: "Функцыя ''#ref'' празмерна складаная (цыкламатычная складанасць = {0}) #loc"
+anonymous.function.is.overly.complex.cyclomatic.complexity.error.string:
+    text: '#ref занадта складаная (цыкламатычная складанасць = {0}) #loc'
+function.contains.multiple.loops.error.string:
+    text: "Функцыя ''#ref'' змяшчае {0} цыклаў #loc"
+anonymous.function.contains.multiple.loops.error.string:
+    text: '#ref змяшчае {0} цыклаў #loc'
+function.contains.multiple.return.points.error.string:
+    text: "Функцыя ''#ref'' мае {0} пунктаў вяртання #loc"
+anonymous.function.contains.multiple.return.points.error.string:
+    text: '#ref мае {0} пунктаў вяртання #loc'
+function.is.overly.nested.error.string:
+    text: "Функцыя ''#ref'' празмерна ўкладзена (глыбіня ўкладання {0}, пры дапушчальным максімуме {1}) #loc"
+anonymous.function.is.overly.nested.error.string:
+    text: '#ref занадта ўкладзеная (глыбіня ўкладання {0}, пры дапушчальным максімуме {1}) #loc'
+function.has.too.many.parameters.error.string:
+    text: "Функцыя ''#ref'' мае занадта шмат параметраў (колькасць параметраў = {0}) #loc"
+anonymous.function.has.too.many.parameters.error.string:
+    text: '#ref мае занадта шмат параметраў (колькасць параметраў = {0}) #loc'
+function.is.overly.long.statement.error.string:
+    text: "Функцыя ''#ref'' занадта доўгая (колькасць аператараў = {0}) #loc"
+anonymous.function.is.overly.long.statement.error.string:
+    text: '#ref занадта доўгая (колькасць аператараў = {0}) #loc'
+function.contains.too.many.negation.error.string:
+    text: "Функцыя ''#ref'' змяшчае {0} адмаўленняў #loc"
+anonymous.function.contains.too.many.negation.error.string:
+    text: '#ref змяшчае {0} адмаўленняў #loc'
+function.name.is.too.short.error.string:
+    text: "Імя функцыі ''{0}'' занадта кароткае #loc"
+function.name.is.too.long.error.string:
+    text: "Імя функцыі ''{0}'' занадта доўгае #loc"
+function.name.doesnt.match.regex.error.string:
+    text: "Імя функцыі ''{0}'' не адпавядае рэгулярнаму выразу ''{1}'' #loc"
+variable.name.is.too.short.error.string:
+    text: "Імя пераменнай '#ref' занадта кароткае #loc"
+variable.name.is.too.long.error.string:
+    text: "Імя пераменнай '#ref' занадта доўгае #loc"
+variable.name.doesnt.match.regex.error.string:
+    text: "Імя пераменнай ''#ref'' не адпавядае рэгулярнаму выразу ''{0}'' #loc"
+parameter.name.is.too.short.error.string:
+    text: "Імя параметра '#ref' занадта кароткае #loc"
+parameter.name.is.too.long.error.string:
+    text: "Імя параметра '#ref' занадта доўгае #loc"
+parameter.name.doesnt.match.regex.error.string:
+    text: "Імя параметра ''#ref'' не адпавядае рэгулярнаму выразу ''{0}'' #loc"
+chained.equality.error.string:
+    text: 'Ланцуг параўнанняў на роўнасць <code>#ref</code> #loc'
+constant.on.left.side.of.comparison.error.string:
+    text: '#ref: канстанта ў левай частцы параўнання #loc'
+constant.on.right.side.of.comparison.error.string:
+    text: '#ref: канстанта ў правай частцы параўнання #loc'
+flip.comparison.fix:
+    text: Інвертаваць параўнанне
+non.block.branch.error.string:
+    text: 'Аператар <code>#ref</code> мае галіну без блока #loc'
+non.block.body.error.string:
+    text: 'Аператар <code>#ref</code> мае цела без блока #loc'
+unterminated.statement.error.string:
+    text: 'Незавершённый оператор #loc'
+expression.statement.is.not.assignment.or.call.error.string:
+    text: "Выраз не з'яўляецца прысвойваннем або выклікам #loc"
+debugger.statement.error.string:
+    text: "Оператор '#ref' #loc"
+duplicate.case.label.error.string:
+    text: 'Паўторная метка case #ref #loc'
+function.has.inconsistent.return.points.error.string:
+    text: "Функцыя '#ref' мае неўзгодненыя пункты вяртання #loc"
+anonymous.function.has.inconsistent.return.points.error.string:
+    text: '#ref мае неўзгодненыя пункты вяртання #loc'
+reserved.word.used.as.name.error.string:
+    text: "Зарэзерваванае слова '#ref' выкарыстоўваецца як імя"
+this.expression.references.global.object.error.string:
+    text: "Выраз '#ref' верхняга ўзроўню #loc"
+unreachable.code.error.string:
+    text: 'Недасягальны код #loc'
+replace.with.operator.assign.fix:
+    text: Замяніць = на {0}=
+overly.complex.boolean.expression.error.string:
+    text: 'Празмерна складаны лагічны выраз #loc'
+collapse.conditional.expression.fix:
+    text: Згарнуць умоўны выраз
+remove.unnecessary.continue.fix:
+    text: Выдаліць лішні continue
+remove.unnecessary.return.fix:
+    text: Выдаліць лішні return
+wrap.statement.body.fix:
+    text: Обернуть тело оператора
+javascript.dom.issues.group.name:
+    text: Проблемы DOM
+confusing.floating.point.literal.display.name:
+    text: Неадназначны літарал з плавальнай кропкай
+confusing.floating.point.literal.problem.descriptor:
+    text: 'Неадназначны літарал з плавальнай кропкай <code>#ref</code> #loc'
+confusing.pluses.or.minuses.display.name:
+    text: "Неадназначная паслядоўнасць '+' або '-'"
+confusing.pluses.or.minuses.error.string:
+    text: "Паслядоўнасць '+' або '-' можа змяніць значэнне пры выдаленні прабелаў #loc"
+confusing.floating.point.literal.change.quickfix:
+    text: Змяніць на кананічную форму
+string.literal.breaks.html.display.name:
+    text: Радковы літарал, які парушае парсінг HTML
+string.literal.breaks.html.error.string:
+    text: 'Радковы літарал #ref можа парушыць працу HTML парсераў #loc'
+for.loop.not.use.loop.variable.display.name:
+    text: "Цыкл 'for', дзе update або condition не выкарыстоўвае пераменную цыкла"
+for.loop.not.use.loop.variable.problem.descriptor.condition:
+    text: 'У аператары <code>#ref</code> умова не выкарыстоўвае пераменную цыкла for #loc'
+for.loop.not.use.loop.variable.problem.descriptor.update:
+    text: 'У аператары <code>#ref</code> update не выкарыстоўвае пераменную цыкла for #loc'
+for.loop.not.use.loop.variable.problem.descriptor.both.condition.and.update:
+    text: 'У аператары <code>#ref</code> умова і update не выкарыстоўваюць пераменную цыкла for #loc'
+unused.catch.parameter.display.name:
+    text: "Невыкарыстаны параметр 'catch'"
+unused.catch.parameter.problem.descriptor:
+    text: 'Невыкарыстаны параметр catch <code>#ref</code> #loc'
+unused.catch.parameter.ignore.catch.option:
+    text: Ігнараваць блокі catch, якія змяшчаюць каментарыі
+tail.recursion.display.name:
+    text: Хваставая рэкурсія
+tail.recursion.problem.descriptor:
+    text: 'Хваставая рэкурсія #loc'
+redundant.local.variable.display.name:
+    text: Лішняя лакальная пераменная
+redundant.local.variable.ignore.option:
+    text: Ігнараваць пераменныя, якія адразу вяртаюцца або выкідаюцца
+unnecessary.local.variable.problem.descriptor:
+    text: Лакальная пераменная {0} лішняя
+reuse.of.local.variable.display.name:
+    text: Паўторнае выкарыстанне лакальнай пераменнай
+reuse.of.local.variable.problem.descriptor:
+    text: 'Паўторнае выкарыстанне лакальнай пераменнай <code>#ref</code> #loc'
+infinite.recursion.display.name:
+    text: Бясконцая рэкурсія
+infinite.recursion.problem.descriptor:
+    text: 'Функцыя <code>#ref</code> рэкурсіўна выклікае сябе бясконца і можа завяршыцца толькі выкіданнем выключэння #loc'
+constant.conditional.expression.simplify.quickfix:
+    text: Спрасціць
+caller.error.string:
+    text: "Выкарыстанне ўласцівасці '#ref' #loc"
+caller.display.name:
+    text: "Выкарыстанне ўласцівасці 'caller'"
+dynamically.generated.code.error.string:
+    text: "Функцыя '#ref' паказвае на дынамічна генеруемы код #loc"
+dynamically.generated.code.display.name:
+    text: Выкананне дынамічна згенераванага кода
+for.loop.replaceable.by.while.problem.descriptor:
+    text: "Цыкл <code>#ref</code> можна замяніць на цыкл 'while' #loc"
+for.loop.replaceable.by.while.display.name:
+    text: "Цыкл 'for' можна замяніць на цыкл 'while'"
+for.loop.replaceable.by.while.replace.quickfix:
+    text: "Замяніць на 'while'"
+for.loop.replaceable.by.while.ignore.option:
+    text: "Ігнараваць 'бясконцыя' цыклы for без умоў"
+nested.function.call.display.name:
+    text: Укладзены выклік функцыі
+nested.function.call.problem.descriptor:
+    text: "Укладзены выклік функцыі '#ref' #loc"
+chained.function.call.display.name:
+    text: Ланцуг выклікаў функцый
+chained.function.call.problem.descriptor:
+    text: "Ланцуг выклікаў функцыі '#ref' #loc"
+magic.number.display.name:
+    text: Магічны лік
+magic.number.problem.descriptor:
+    text: "Магічны лік '#ref' #loc"
+incompatible.mask.operation.display.name:
+    text: Несумяшчальная пабітавая аперацыя з маскай
+incompatible.mask.operation.problem.descriptor.always.false:
+    text: '<code>#ref</code> всегда false #loc'
+incompatible.mask.operation.problem.descriptor.always.true:
+    text: '<code>#ref</code> всегда true #loc'
+pointless.bitwise.expression.display.name:
+    text: Пабітавы выраз можа быць спрошчаны
+pointless.bitwise.expression.ignore.option:
+    text: Ігнараваць названыя канстанты пры вызначэнні бессэнсоўных выразаў
+pointless.bitwise.expression.problem.descriptor:
+    text: "''{1}'' может быть заменено на ''{0}'' #loc"
+pointless.bitwise.expression.simplify.quickfix:
+    text: Спрасціць
+shift.operation.by.inappropriate.constant.display.name:
+    text: Аперацыя зруху з магчыма няправільнай канстантай
+shift.operation.by.inappropriate.constant.problem.descriptor.too.large:
+    text: 'Аперацыя зруху <code>#ref</code> з занадта вялікім значэннем канстанты #loc'
+shift.operation.by.inappropriate.constant.problem.descriptor.negative:
+    text: 'Аперацыя зруху <code>#ref</code> з адмоўным значэннем канстанты #loc'

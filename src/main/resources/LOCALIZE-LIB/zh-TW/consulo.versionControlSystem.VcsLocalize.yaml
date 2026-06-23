@@ -1,0 +1,1162 @@
+action.NotificationAction.VcsRootProblemNotifier.text.configure:
+    text: 設定…
+action.NotificationAction.VcsRootProblemNotifier.text.enable.integration:
+    text: 啟用整合
+action.NotificationAction.VcsRootProblemNotifier.text.ignore:
+    text: 忽略
+action.description.compare:
+    text: 版本比較
+action.description.create.patch.for.selected.revisions:
+    text: 對已選取的版本建立補丁(s)
+action.description.get.file.content.from.repository:
+    text: 從庫中獲取版本
+action.display.name.check.scope.status:
+    text: 檢查{0}狀態
+action.display.name.integrate.scope:
+    text: 合併{0}
+action.display.name.update:
+    text: 更新
+action.display.name.update.scope:
+    text: 更新{0}
+action.enable.version.control.integration.text:
+    text: 啟用版本控制整合...
+action.force.push:
+    text: 強制推送(&F)
+action.force.push.confirmation.text:
+    text: 您將強制推送。這可能會覆蓋遠端的提交。確定要繼續嗎?
+action.force.push.is.prohibited.description:
+    text: 禁止強制推送至 {0}
+action.force.push.to.confirmation.text:
+    text: 您將強制推送到 {0}。這可能會覆蓋遠端的提交。確定要繼續嗎?
+action.include.text:
+    text: 包含…
+action.name.check.scope.status:
+    text: 檢查(K){0}狀態
+action.name.check.status:
+    text: 檢查狀態(K)
+action.name.commit.project:
+    text: 提交修改(I)
+action.name.compare:
+    text: 比較
+action.name.copy.old.text:
+    text: 複製舊文字
+action.name.create.patch.for.selected.revisions:
+    text: 建立補丁...
+action.name.file.history:
+    text: 檔案{0}的歷史
+action.name.file.history.dir:
+    text: 資料夾{0}的歷史
+action.name.for.file.get.version:
+    text: '{0}: 獲取版本 {1}'
+action.name.get.file.content.from.repository:
+    text: 獲取
+action.name.group.by.packages:
+    text: 按包群組
+action.name.integrate:
+    text: 合併(G)
+action.name.integrate.scope:
+    text: 合併(G){0}
+action.name.refresh:
+    text: 更新
+action.name.rollback:
+    text: 回復
+action.name.show.difference:
+    text: 顯示差異
+action.name.show.files.as.tree:
+    text: 顯示樹圖
+action.name.show.history.for.class:
+    text: 類別
+action.name.show.history.for.code.block:
+    text: 代碼區塊
+action.name.show.history.for.field:
+    text: 域
+action.name.show.history.for.function:
+    text: 函數
+action.name.show.history.for.method:
+    text: 方法
+action.name.show.history.for.selection:
+    text: 選取
+action.name.show.history.for.statement:
+    text: 宣告
+action.name.show.history.for.tag:
+    text: 標籤
+action.name.show.history.for.text:
+    text: 文字
+action.name.update:
+    text: 更新(U)
+action.name.update.scope:
+    text: 更新(U){0}
+action.push:
+    text: 推送(&P)
+action.revert.selected.changes.text:
+    text: 還原選取的修改
+acton.name.get.revision:
+    text: 獲取修正
+add.confirmation.label.text:
+    text: '當 {0} 檔案被建立:'
+all.vcs.init.message.text:
+    text: 初始化VCS...
+amend.commit.load.message.error.text:
+    text: 無法載入待修正提交的提交訊息。
+amend.commit.load.message.error.title:
+    text: 提交訊息未載入
+amend.commit.load.message.task.title:
+    text: 正在載入提交訊息
+annotate.action.description:
+    text: 註解檔案
+annotate.action.name:
+    text: 註解
+annotation.commit.number:
+    text: 提交個數
+annotation.original.revision.text:
+    text: '修訂: {0}'
+annotation.switch.to.merged.text:
+    text: 顯示合併源
+annotation.switch.to.original.text:
+    text: 隱藏合併源
+apply.patch.create.dirs.prompt.footer:
+    text: 確定要建立目錄？
+apply.patch.create.dirs.prompt.header:
+    text: "該補丁包含以下不存在的目錄中的檔案:\r\n"
+apply.patch.progress.verifying:
+    text: 驗證...
+apply.patch.summary.title:
+    text: '概觀:'
+background.operations.title:
+    text: 後台操作
+before.checkin.cleanup.code:
+    text: 清除
+before.checkin.new.todo.check:
+    text: 檢查TODO({0})
+before.checkin.new.todo.check.title:
+    text: 檢查TODO
+before.checkin.standard.options.check.smells:
+    text: 執行代碼分析(&S)
+before.commit.files.contain.code.smells.edit.them.confirm.text:
+    text: |-
+        某些檔案包含的問題。
+        {0,choice, 0#No errors|1#One error|2#{0} errors} and {1,choice, 0#no warnings|1#one warning|2#{1} warnings} found.
+        您要對其進行審查？
+border.changes.filter.change.number.filter:
+    text: 改變
+border.changes.filter.date.filter:
+    text: 日期
+border.display.dialog.for.files.creation.deletion:
+    text: 檔案建立/刪除
+border.display.dialog.when.commands.invoked:
+    text: 呼叫這些命令時顯示選項對話方塊
+border.selected.revision.commit.message:
+    text: 提交訊息
+border.standard.after.checkin.options.group:
+    text: '{0}之後'
+border.standard.checkin.options.group:
+    text: '{0}之前'
+browse.changes.action:
+    text: 瀏覽變更
+browse.changes.content.title:
+    text: '{0} 以下修改'
+browse.changes.error.message:
+    text: 存取VCS出現問題： {0}
+browse.changes.error.title:
+    text: 無法顯示修改變化
+browse.changes.filter.title:
+    text: 指定搜索條件
+browse.changes.no.filter.prompt:
+    text: 您還沒有指定任何過濾條件。你確定你想檢視整個項目的歷史嗎？
+browse.changes.nothing.found:
+    text: 沒有找到符合的修改變化
+browse.changes.nothing.found.title:
+    text: 沒有修改變化
+browse.changes.progress.title:
+    text: 搜索修改
+browse.changes.scope:
+    text: 變更影響{0}
+browse.changes.show.all.button:
+    text: 顯示所有變更
+browse.changes.show.recent.button:
+    text: 顯示最近變更
+browse.changes.title:
+    text: 瀏覽變更
+button.configure:
+    text: 設定VCS(C)...
+button.configure.history.cache:
+    text: 設定歷史記錄記憶體緩衝區...
+button.configure.ignored.files:
+    text: 設定被忽略的檔案...
+button.search.again:
+    text: 再次搜索
+button.text.overwrite.modified.file:
+    text: 覆寫修改後的檔案(O)
+button.text.overwrite.modified.files:
+    text: 覆寫所有修改後的檔案(O)
+cache.settings.dialog.title:
+    text: VCS歷史記憶體緩衝區設定
+cannot.apply.file.already.exists:
+    text: 'Cannot apply patch to file {0}: 檔案已存在。'
+cannot.find.file.to.patch:
+    text: '找不到檔案: {0}'
+change.file.copied.from.text:
+    text: -從{0}複製
+change.file.moved.from.text:
+    text: -從{0}移動
+change.file.moved.to.text:
+    text: -移動到{0}
+change.file.renamed.from.text:
+    text: -重新命名{0}
+change.file.renamed.to.text:
+    text: -更名到{0}
+change.file.replaced.text:
+    text: '- 替換'
+change.list.manager.wait.lists.synchronization:
+    text: '{0}: 更新本機修改'
+change.lists.manager.add.unversioned:
+    text: 新增未入版本庫的檔案
+change.lists.manager.move.changes.to.list:
+    text: 移動變更為清單
+change.nodetitle.change.is.outdated:
+    text: 伺服器上的檔案已被修改
+change.type.deleted:
+    text: 刪除
+change.type.modified:
+    text: 修改
+change.type.new:
+    text: 新增
+changelist.details.committed.format:
+    text: 通過{0} {1} 提交
+changelist.details.title:
+    text: 變更清單詳情
+changes.action.rollback.custom.title:
+    text: '{0}的修改'
+changes.action.rollback.description:
+    text: 回復變更
+changes.action.rollback.nothing:
+    text: 沒有 {0}
+changes.action.rollback.text:
+    text: 回復
+changes.action.rollback.title:
+    text: '{0}的修改'
+changes.action.setdefaultchangelist.description:
+    text: 設定變更清單為預設放置哪些新修改
+changes.action.setdefaultchangelist.text:
+    text: 設定活動的變更清單
+changes.action.show.directories.description:
+    text: 按目錄和模組的修改群組
+changes.action.show.directories.text:
+    text: 按目錄群組
+changes.action.show.ignored.description:
+    text: 顯示已被忽略的檔案
+changes.action.show.ignored.text:
+    text: 顯示忽略的檔案
+changes.browser.details.marker:
+    text: 更多...
+changes.changelist.chooser.existing.changelist:
+    text: 已有的變更清單
+changes.changelist.chooser.new.changelist:
+    text: 新增變更清單
+changes.changelist.chooser.title:
+    text: 關閉變更清單
+changes.checkbox.delete.locally.added.files:
+    text: 刪除已新增檔案的本機副本(D)
+changes.commit.partial.offer.to.move.text:
+    text: |-
+        提交時已經從目前變更清單中排除了一些檔案。
+        你是否想把剩餘的修改移到另一個變更清單?
+changes.commit.partial.offer.to.move.title:
+    text: 部份提交活動的修改清單
+changes.default.changelist.name:
+    text: 預設
+changes.dialog.editchangelist.error.already.exists:
+    text: "變更清單名稱為''{0}''已存在"
+changes.dialog.editchangelist.title:
+    text: 編輯變更清單t
+changes.dialog.newchangelist.title:
+    text: 新增變更清單
+changes.newchangelist.warning.already.exists.text:
+    text: "變更清單''{0}''已經存在。"
+changes.newchangelist.warning.already.exists.title:
+    text: 錯誤的變更清單名稱
+changes.nodetitle.have.outdated.files:
+    text: 有些伺服器上的檔案已被修改
+changes.nodetitle.ignored.files:
+    text: 忽略的檔案
+changes.nodetitle.locally.deleted.files:
+    text: 本機已刪除的檔案
+changes.nodetitle.locked.folders:
+    text: 鎖定working copy資料夾
+changes.nodetitle.locked.folders.tooltip:
+    text: 某些資料夾被鎖定，不允許進行VCS操作。應對其清理。
+changes.nodetitle.logicallt.locked.folders:
+    text: 顯式鎖定的檔案
+changes.nodetitle.modified.without.editing:
+    text: 修改檢出
+changes.nodetitle.switched.files:
+    text: 切換檔案
+changes.nodetitle.switched.roots:
+    text: 切換根目錄
+changes.nodetitle.unversioned.files:
+    text: 未加入版本控制的檔案
+changes.nodetitle.updating:
+    text: 更新中...
+changes.remove.active.empty.prompt:
+    text: 選取的變更清單標為目前項：
+changes.remove.active.prompt:
+    text: '選取將被移動的變更清單:'
+changes.remove.active.title:
+    text: 刪除活動的變更清單
+changes.removechangelist.multiple.warning.text:
+    text: |-
+        你確定要移動變更清單 {0} ?
+        所有變化都將被轉移到活動的變更清單
+changes.removechangelist.warning.text:
+    text: "你確定要刪除變更清單 ''{0}''?\n所有變化都將被轉移到活動的變更清單."
+changes.removechangelist.warning.title:
+    text: 刪除變更清單
+changes.toolwindow.name:
+    text: 變更清單
+changes.update.progress.message:
+    text: '更新中: {0}'
+changes.view.dnd.label:
+    text: '{0} 檔案'
+checkbox.changelist.move.offer:
+    text: 顯示未提交的變更為另一個變更清單
+checkbox.checkin.options.check.files.up.to.date:
+    text: 檢查遠端狀態
+checkbox.checkin.options.optimize.imports:
+    text: 最佳化匯入(O)
+checkbox.checkin.options.rearrange.code:
+    text: 重新整理代碼(&N)
+checkbox.checkin.options.reformat.code:
+    text: 格式化代碼(&R)
+checkbox.force.non.empty.messages:
+    text: 置入非空的提交註解 (&E)
+checkbox.show.changed.revisions.only:
+    text: 只顯示修改
+checkbox.show.changes.after.date:
+    text: 之後
+checkbox.show.changes.after.num:
+    text: 從
+checkbox.show.changes.before.date:
+    text: 之前
+checkbox.show.changes.before.num:
+    text: '到:'
+checkbox.show.clear.read.only.status.dialog:
+    text: 顯示「清除唯讀狀態」對話方塊
+checking.code.smells.progress.title:
+    text: 執行代碼分析
+checkout.create.project.prompt:
+    text: 你確定要從{1}中檢出到源代碼到你建立項目{0} 中嗎?
+checkout.open.directory.prompt:
+    text: 你確定開啟目錄{0}?
+checkout.open.project.prompt:
+    text: |-
+        已檢出{0}項目檔案：
+        {1}
+        你確定要開啟嗎？
+checkout.title:
+    text: 從版本控制中檢出
+close.tab.action.name:
+    text: 關閉
+code.smells.error.messages.tab.name:
+    text: 代碼分析
+code.smells.review.button:
+    text: 檢視(R)
+column.info.configure.vcses.directory:
+    text: 目錄
+column.name.revision.date:
+    text: 日期
+column.name.revision.list.author:
+    text: 作者
+column.name.revision.list.committer:
+    text: 使用者
+column.name.revision.list.date:
+    text: 日期
+column.name.revision.list.description:
+    text: 描述
+column.name.revision.list.message:
+    text: 訊息
+column.name.revision.list.number:
+    text: 數字
+column.name.revision.list.revision:
+    text: 修訂
+column.name.revision.version:
+    text: 版本
+column.name.revisions.list.branch:
+    text: 分支
+column.name.revisions.list.filter:
+    text: 日期
+column.name.type:
+    text: 類型
+command.name.open.error.message.view:
+    text: 開啟訊息檢視
+command.name.rollback.change:
+    text: 回復修改
+commit.dialog.changed.files.label:
+    text: 已修改的檔案
+commit.dialog.changelist.label:
+    text: 已修改的清單(T)：
+commit.dialog.completed.successfully:
+    text: 成功完成
+commit.dialog.default.commit.operation.name:
+    text: 提交
+commit.dialog.failed.commit.template:
+    text: 提交失敗： {0}
+commit.dialog.no.changes.detected.text:
+    text: 沒有偵測到修改，
+commit.dialog.no.changes.detected.title:
+    text: 未提交
+commit.dialog.refresh.files:
+    text: 同步檔案...
+commit.dialog.rejected.commit.template:
+    text: 拒絕提交{0}
+commit.dialog.title:
+    text: 提交修改
+commit.failed.confirm.prompt:
+    text: 你想要移動檔案未能提交到一個單獨的變更清單嗎?
+commit.failed.confirm.title:
+    text: 提交失敗
+commit.legend.deleted:
+    text: 刪除：
+commit.legend.modified:
+    text: 修改：
+commit.legend.new:
+    text: 新增：
+commit.wait.util.synced.message:
+    text: 請等待VCS同步完成。
+commit.wait.util.synced.title:
+    text: VCS更新完成
+commit.wait.util.synched.text:
+    text: 執行VCS更新...
+committed.changes.empty.message:
+    text: 沒有承諾庫中的變化
+committed.changes.filter.all:
+    text: 所有
+committed.changes.filter.title:
+    text: 篩選條件
+committed.changes.group.title:
+    text: 群組條件
+committed.changes.incorrect.regex.message:
+    text: 規則運算式中使用的過濾器是無效的
+committed.changes.not.loaded.message:
+    text: 按更新按鈕載入庫的變化
+committed.changes.partial.list:
+    text: '[局部]'
+committed.changes.refresh.progress:
+    text: 更新VCS歷史
+committed.changes.regex.title:
+    text: 規則運算式
+composite.change.provider.include.vcs.checkbox:
+    text: 包括從{0}
+configuration.commit.message.margin.prompt:
+    text: '提交訊息的右邊界 (列數):'
+configuration.commit.message.margin.title:
+    text: 提交訊息的右邊界
+configuration.tab.name.general.settings:
+    text: 常規設定
+confirmation.text.add.file:
+    text: |-
+        你要將以下檔案新增到VCS?
+        {0}
+confirmation.text.check.in.with.empty.comment:
+    text: 提交空註解？
+confirmation.title.add.file:
+    text: 日程安排
+confirmation.title.add.multiple.files:
+    text: 選取要新增的檔案到VCS
+confirmation.title.check.in.with.empty.comment:
+    text: 註解為空
+create.changelist.on.failed.commit:
+    text: '建立變更清單提交失敗:'
+create.patch.all.binary:
+    text: 所有選擇的檔案是二進位的。補丁檔案不能包含二進位檔案。補丁檔案已建立。
+create.patch.commit.action.title:
+    text: 建立補丁
+create.patch.encoding:
+    text: 編碼方式(&E)：
+create.patch.error.title:
+    text: 建立補丁錯誤：{0}
+create.patch.file.path:
+    text: 補丁檔案(&P)：
+create.patch.loading.content.progress:
+    text: 載入內容修訂
+create.patch.partial.success.confirmation:
+    text: 成功建立補丁{0}. {1} 在選取的檔案中 {1,choice,1#is|2#are} binary and {1,choice,1#was|2#were} not included in the patch.
+create.patch.reverse.checkbox:
+    text: 反向補丁(&R)
+create.patch.success.confirmation:
+    text: 成功建立補丁{0}
+current.version.text:
+    text: '{4}<br/><br/>現在的版本是{3}.<br/>篩選條件{0}<br/>{1}<br/>{2}'
+date.group.last.week:
+    text: 上周
+date.group.title:
+    text: 日期
+date.group.today:
+    text: 今天
+delete.all.already.unshelved:
+    text: 刪除所有已經廢棄的
+delete.all.already.unshelved.confirmation:
+    text: |-
+        Do you want to delete all already unshelved changelists?
+        此操作不可還原.
+dialog.enable.version.control.integration.hint.text:
+    text: 版本控制的設定是：「設定」|「版本控制」
+dialog.enable.version.control.integration.select.vcs.label.text:
+    text: '請選取版本控制系統,使您的<項目根>是在:'
+dialog.enable.version.control.integration.title:
+    text: 啟用版本控制整合
+dialog.title.changes.browser:
+    text: 變更檢視器
+dialog.title.choose.commit.message.from.history:
+    text: 提交訊息歷史
+dialog.title.clear.read.only.file.status:
+    text: 清除唯讀狀態
+dialog.title.diff.for.range:
+    text: 比較差異範圍
+dialog.title.history.for.file:
+    text: 檔案{0}的歷史記錄
+dialog.title.version.control.configurations:
+    text: 版本控制設定
+diff.commit.message.title:
+    text: 提交訊息
+diff.content.title.current.range:
+    text: 目前
+diff.content.title.repository.version:
+    text: '{0} ( 版本庫 )'
+diff.content.title.revision.number:
+    text: 修訂 {0}
+diff.content.title.up.to.date:
+    text: 基礎版本
+diff.title.local:
+    text: 本機
+diff.title.local.with.number:
+    text: 本機({0})
+diff.type.name.added:
+    text: 已新增
+diff.type.name.deleted:
+    text: 已刪除
+diff.type.name.modified:
+    text: 已修改
+diff.unknown.file.type.associate:
+    text: 關聯
+diff.unknown.file.type.prompt:
+    text: 檔案"{0}"不是一個已知的檔案類型. 是否願意將其關聯為一種檔案類型?
+diff.unknown.file.type.title:
+    text: 無法顯示差異
+diff.unknown.path.title:
+    text: 未知的差異
+directory.mapping.add.title:
+    text: 新增VCS目錄對應
+directory.mapping.remove.title:
+    text: 編輯VCS目錄對應
+edit.changelist.description:
+    text: '註解(C):'
+edit.changelist.name:
+    text: '名稱(N):'
+edit.errors:
+    text: 編輯錯誤
+error.adding.files.prompt:
+    text: 新增檔案時有發生下列問題：
+error.adding.files.title:
+    text: 新增檔案錯誤
+error.executing.commit:
+    text: "錯誤執行 ''{0}'': {1}"
+error.updating.changes:
+    text: 錯誤更新修改：{0}
+exception.text.file.should.be.directory:
+    text: '{0}不是一個目錄'
+exception.text.internal.error.method.should.not.be.called:
+    text: 不應該被稱為
+exception.text.internal.errror.could.not.implement.method:
+    text: 無法實現
+exception.text.unknown.error:
+    text: 未知錯誤
+file.status.name.added:
+    text: 已新增
+file.status.name.deleted:
+    text: 已刪除
+file.status.name.deleted.from.file.system:
+    text: 從檔案系統中刪除
+file.status.name.hijacked:
+    text: 已衝突
+file.status.name.ignored:
+    text: 被忽略
+file.status.name.merged:
+    text: 已合併
+file.status.name.merged.with.both.conflicts:
+    text: 合併文字和屬性衝突
+file.status.name.merged.with.conflicts:
+    text: 合併衝突
+file.status.name.merged.with.property.conflicts:
+    text: 合併屬性衝突
+file.status.name.modified:
+    text: 已修改
+file.status.name.obsolete:
+    text: 已過時
+file.status.name.suppressed:
+    text: 隱藏
+file.status.name.switched:
+    text: 已切換
+file.status.name.unknown:
+    text: 未知
+file.status.name.up.to.date:
+    text: 更新
+file.status.name.up.to.date.immediate.children:
+    text: 已修改的子元素
+file.status.name.up.to.date.recursive.children:
+    text: 已修改的子孫元素
+filter.structure.name:
+    text: 結構
+get.committed.changes.intersecting.prompt:
+    text: |-
+        在選擇的檔案 {1, choice, 1#changelist|2#changelists} are also modified in {0} other {0,choice, 1#changelist|2#changelists}.
+        變更所選檔案在這些變更清單也將被下載。
+get.committed.changes.title:
+    text: 獲取變更清單
+handle.ro.file.status.type.using.file.system:
+    text: 使用檔案系統
+handle.ro.file.status.type.using.vcs:
+    text: 使用{0}
+highlight.annotation.after.description:
+    text: 強調修訂或等於選取後
+highlight.annotation.after.not.selected.text:
+    text: 顯示之後...
+highlight.annotation.after.selected.text:
+    text: 顯示({0})之後
+highlight.annotation.before.description:
+    text: 強調修訂之前或等於選擇
+highlight.annotation.before.not.selected.text:
+    text: 顯示之前...
+highlight.annotation.before.selected.text:
+    text: 顯示({0})之前
+history.empty:
+    text: 歷史為空
+ignored.configure.item.directory:
+    text: 目錄：{0}
+ignored.configure.item.file:
+    text: 檔案：{0}
+ignored.configure.item.mask:
+    text: 遮罩:{0}
+ignored.configure.title:
+    text: 設定忽略的檔案
+ignored.edit.multiple.directories:
+    text: 已選取{0}個目錄
+ignored.edit.multiple.files:
+    text: 選取{0}檔案
+ignored.edit.radio.directory:
+    text: 忽略所有檔案及以下
+ignored.edit.radio.file:
+    text: 忽略指定的檔案
+ignored.edit.radio.mask:
+    text: 忽略符合的所有檔案
+ignored.edit.title:
+    text: 忽略沒有版本控制的檔案
+impl.vcs.initialization:
+    text: VCS 初始化
+incoming.changes.empty.message:
+    text: 沒有傳入的變更
+incoming.changes.indicator.tooltip:
+    text: '{0}傳入修改清單'
+incoming.changes.loading.progress:
+    text: 載入傳入的變更
+incoming.changes.not.loaded.message:
+    text: 按更新按鈕負荷引入的變更
+incoming.changes.refresh.progress:
+    text: 更新傳入的變更
+issue.link.add.title:
+    text: 新增問題導航連結
+issue.link.delete.prompt:
+    text: 刪除選取的導航連結?
+issue.link.delete.title:
+    text: 刪除問題導航連結
+issue.link.edit.title:
+    text: 編輯問題導航連結
+issue.link.issue.column:
+    text: 問題
+issue.link.link.column:
+    text: 連結
+issue.link.no.patterns:
+    text: 沒有模式設定
+label.after.creation.:
+    text: 當檔案被建立IDEA：
+label.after.deletion.group:
+    text: 當檔案被IDEA刪除：
+label.commit.comment:
+    text: 註解(C)
+label.configure.vcses.available.vcses:
+    text: 設定可用的版本控制：
+label.relative.project.path.presentation:
+    text: <專案>/{0}
+label.selected.revision.commit.message:
+    text: 提交訊息
+label.text.when.files.are.deleted.with.idea:
+    text: '當 {0} 檔案被刪除:'
+label.text.when.files.created.with.idea:
+    text: '當 {0} 檔案被建立:'
+line.annotation.aspect.author:
+    text: 作者
+line.annotation.aspect.date:
+    text: 日期
+line.annotation.aspect.revision:
+    text: 修訂
+loading.file.history.progress:
+    text: 載入歷史檔案
+local.history.update.from.vcs:
+    text: 從VCS更新
+local.version.title:
+    text: 本機版本
+lookup.title.vcs.file.revisions:
+    text: 檔案修訂
+merge.version.title.last.version:
+    text: 來自伺服器的變更
+merge.version.title.last.version.number:
+    text: 來自伺服器的變更(修訂{0})
+merge.version.title.local.changes:
+    text: 本機修改
+merge.version.title.merge.result:
+    text: 合併結果
+message.text.all.files.are.up.to.date:
+    text: 所有的檔案都是最新的
+message.text.binary.versions.are.different:
+    text: 二進位版本是不同的
+message.text.binary.versions.are.identical:
+    text: 二進位版本是相同的
+message.text.binary.versions.differ:
+    text: 不同版本
+message.text.cannot.edit.file:
+    text: '無法編輯檔案(s): {0}'
+message.text.cannot.load.revision:
+    text: '無法載入版本: {0}'
+message.text.cannot.load.version:
+    text: 無法載入版本:{0}
+message.text.cannot.load.version.because.of.error:
+    text: 無法載入版本{0}:{1}
+message.text.cannot.open.editor:
+    text: 檔案{0}無法在文字編輯器中開啟
+message.text.cannot.refresh.file.history:
+    text: 無法更新:{0}
+message.text.cannot.save.content:
+    text: '無法儲存內容: {0}'
+message.text.cannot.show.differences:
+    text: 無法顯示差異:{0}
+message.text.commit.failed.with.errors.and.warnings:
+    text: 提交失敗的錯誤和警告
+message.text.could.not.load.file.content:
+    text: 無法載入檔案的內容
+message.text.could.not.load.virtual.file.content:
+    text: '無法載入檔案的內容{0}: {1}'
+message.text.file.is.up.to.date:
+    text: 檔案是最新的
+message.text.file.locally.modified:
+    text: 檔案{0}已在本機修改。
+message.text.several.files.locally.modified:
+    text: 某些檔案進行局部修改。
+message.text.unable.to.save.settings:
+    text: 無法儲存設定. {0}
+message.text.versions.are.identical:
+    text: 相同版本
+message.title.annotate:
+    text: 註解
+message.title.cannot.open.editor:
+    text: 無法開啟編輯器
+message.title.commit:
+    text: 提交
+message.title.could.not.load.content:
+    text: 無法載入內容
+message.title.could.not.load.file.history:
+    text: 載入檔案歷史時的問題
+message.title.diff:
+    text: 比較
+message.title.edit.files:
+    text: 編輯檔案
+message.title.get.revision.content:
+    text: 獲取修訂內容
+message.title.get.version:
+    text: 獲取版本
+message.title.load.version:
+    text: 載入版本
+message.title.refresh.file.history:
+    text: 更新
+message.title.show.differences:
+    text: 顯示差異
+message.title.unable.to.save.settings:
+    text: 無法儲存設定
+message.title.vcs.update.errors:
+    text: '{0}錯誤'
+messge.text.cannot.save.settings:
+    text: 無法執行操作：{0}
+move.to.changelist:
+    text: "移動變更到活動變更清單 (''{0}'') (&M)"
+multiple.file.merge.accept.theirs:
+    text: 接受他們的(T)
+multiple.file.merge.accept.yours:
+    text: 接受你的(Y)
+multiple.file.merge.column.name:
+    text: 名稱
+multiple.file.merge.column.type:
+    text: 類型
+multiple.file.merge.loading.progress.title:
+    text: 載入合併修改...
+multiple.file.merge.merge:
+    text: 合併...(M)
+multiple.file.merge.properties.title:
+    text: 合併屬性衝突的檔案
+multiple.file.merge.request.title:
+    text: 合併修訂{0}
+multiple.file.merge.title:
+    text: 檔案合併與衝突
+multiple.file.merge.type.binary:
+    text: 二進位
+multiple.file.merge.type.text:
+    text: 文字
+new.changelist.duplicate.name.error:
+    text: 該名稱已存在
+new.changelist.make.active.checkbox:
+    text: 設為啟用
+no.ignored.files:
+    text: 沒有忽略的檔案
+notification.title.vcs.name.repository.repositories.found:
+    text: 已找到 {0} 個{1, choice, 1#版本庫|2#版本庫}
+open.repository.version.description:
+    text: 在編輯器開啟選取檔案的修訂
+open.repository.version.text:
+    text: 開啟庫中的版本
+operation.name.annotate:
+    text: 註解
+options.background.processes.enable:
+    text: 啟用後台進程
+options.background.processes.title:
+    text: 後台進程
+options.check.changed.on.server.title:
+    text: 「在伺服器變更」有衝突
+outdated.version.pretty.date.text:
+    text: '過時的版本。修改人{0} {1}: {2}'
+outdated.version.show.diff.action:
+    text: 顯示差異
+outdated.version.text:
+    text: '過時的版本。修改人{0} {0} on {1}: {2}'
+outdated.version.text.deleted:
+    text: '過時的版本。刪除{0} {1}: {2}'
+outdated.version.update.project.action:
+    text: 更新項目
+patch.apply.already.applied:
+    text: 指定補丁的所有變更已經包含在代碼中
+patch.apply.analyze.from.clipboard.on.the.fly.checkbox:
+    text: 動態分析和套用剪貼簿中的補丁
+patch.apply.base.directory.field:
+    text: 基本目錄(B)：
+patch.apply.cannot.apply.now:
+    text: 現在無法套用補丁
+patch.apply.changes.in.patch.resolve:
+    text: 在補丁解析中{0}
+patch.apply.command:
+    text: 套用補丁
+patch.apply.conflict.local.version:
+    text: 本機版本
+patch.apply.conflict.merged.version:
+    text: 合併結果
+patch.apply.conflict.patch:
+    text: 補丁
+patch.apply.conflict.patched.somehow.version:
+    text: 結果
+patch.apply.conflict.patched.version:
+    text: 補丁版本
+patch.apply.conflict.title:
+    text: 補丁衝突{0}
+patch.apply.dialog.title:
+    text: 使用補丁
+patch.apply.error:
+    text: 無法套用補丁檔案{0}:{1}
+patch.apply.file.name.field:
+    text: 補丁檔案名(P)：
+patch.apply.load.error:
+    text: 載入補丁檔案錯誤：{0}
+patch.apply.load.error.line:
+    text: 載入補丁檔案錯誤：{0}在{1}行
+patch.apply.no.patches.found:
+    text: 在指定的檔案無法找到任何補丁
+patch.apply.open.error:
+    text: 開啟補丁檔案錯誤{0}
+patch.apply.partially.applied:
+    text: 一些修改在指定的補丁被跳過,因為它們已經包含在代碼中
+patch.apply.select.base.directory.title:
+    text: 選取基本目錄
+patch.apply.select.title:
+    text: 選取補丁檔案
+patch.apply.somehow.diff.name:
+    text: 以某種方式套用補丁
+patch.apply.strip.leading.directories.field:
+    text: 去除主要目錄
+patch.apply.success.applied.text:
+    text: 補丁已成功套用
+patch.file.type.description:
+    text: 補丁檔案
+patch.load.base.revision.error:
+    text: 無法載入補丁的基礎版本檔案{0}:{1}
+patch.load.progress:
+    text: 載入中...
+patch.summary.changed.files:
+    text: '{0}變更 {0,choice,1#file|2#files}'
+patch.summary.deleted.files:
+    text: '{0}已刪除 {0,choice,1#file|2#files}'
+patch.summary.new.files:
+    text: '{0}新 {0,choice,1#file|2#files}'
+paths.affected.in.revision:
+    text: 路徑影響修訂{0}
+perform.add.remove.in.background:
+    text: 後台執行「新增/刪除」
+perform.commit.in.bacground:
+    text: 後台執行VCS提交(P)
+perform.edit.in.background:
+    text: 後台執行編輯/檢出工作
+perform.rollback.in.background.option:
+    text: 在後台執行恢復
+perform.update.from.vcs.in.background:
+    text: 後台執行VCS更新
+progress.loading.diff.revisions:
+    text: 獲得修訂內容
+progress.text.searching.for.modified.files:
+    text: 搜索修改過的檔案
+progress.text.synchronizing.files:
+    text: 同步檔案...
+progress.text.updating.canceled:
+    text: 更新取消
+progress.text.updating.done:
+    text: 更新完成
+progress.text2.loading.revision:
+    text: 載入修訂{0}
+progress.title.loading.contents:
+    text: 載入內容
+progress.title.version.control.processing.changed.files:
+    text: '版本控制: 正在處理更改的檔案'
+push.dialog.push.commits.title:
+    text: 推送提交
+push.process.pushing:
+    text: 正在推送…
+radio.after.creation.add.silently:
+    text: 靜默新增(A)
+radio.after.creation.do.not.add:
+    text: 不新增(D)
+radio.after.creation.show.options:
+    text: <html>新增到版本控制之前顯示選項</html>
+radio.after.deletion.do.not.remove:
+    text: 不刪除(N)
+radio.after.deletion.remove.silently:
+    text: 靜默刪除
+radio.after.deletion.show.options:
+    text: <html>從版本控制刪除之前顯示選項</html>
+refresh.failed.message:
+    text: '更新失敗: {0}'
+remove.confirmation.label.text:
+    text: '當 {0} 檔案被刪除:'
+retrieving.annotations:
+    text: 載入註解
+revert.changes.default.name:
+    text: '還原: {0}'
+revert.changes.title:
+    text: 還原修改
+revision.changes.not.supported:
+    text: 目前VCS不會被修改支援檢視修改
+rollback.modified.without.checkout.error.tab:
+    text: '{0} 修改檢出'
+rollback.modified.without.editing.confirm.multiple:
+    text: 你願意{0}變更為{1}個所選檔案嗎?
+rollback.modified.without.editing.confirm.single:
+    text: 你願意{0}變更為{1}?
+rolling.back.file:
+    text: 回復{0}
+roots.notification.content.directory.registered.as.root.but.no.repositories.were.found.there:
+    text: 目錄 {0} 被註冊為 {1} 根，但在那裡沒有發現 {1} 版本庫。
+roots.notification.title.invalid.vcs.root.choice.mapping.mappings:
+    text: 無效 VCS 根{0, choice, 1#映射|2#映射}
+roots.notification.title.vcs.name.integration.enabled:
+    text: '{0} 整合已啟用'
+roots.notification.title.vcs.root.configuration.problems:
+    text: VCS 根設定問題
+roots.the.following.directories.are.registered.as.vcs.roots.but.they.are.not:
+    text: '以下目錄被錯誤註冊為 VCS 根:'
+scope.name.changelist.all.changed.files:
+    text: 所有更改的檔案
+searching.for.code.smells.processing.file.progress.text:
+    text: 分析中{0}
+settings.filter.update.project.info.by.scope:
+    text: 過濾更新項目訊息的範圍
+shelf.tab:
+    text: 書架
+shelve.changes.action:
+    text: 擱置的變更
+shelve.changes.delete.confirm:
+    text: "你確定要刪除擱置的變更表命名為''0}''嗎？此操作無法還原。"
+shelve.changes.delete.files.from.list:
+    text: 你要刪除{0}檔案擱置的變更清單。你確定嗎？
+shelve.changes.delete.files.from.list.title:
+    text: 從擱置變更清單中刪除檔案
+shelve.changes.delete.multiple.confirm:
+    text: 你確定要刪除{0}擱置的修改清單嗎？此操作無法還原。
+shelve.changes.only.directories:
+    text: 所選的變更影響目錄和所有檔案，所以不能被擱置
+shelve.changes.rename.prompt:
+    text: 請輸入變更清單的名稱：
+shelve.changes.rename.title:
+    text: 重新命名擱置變更清單
+shelved.version.name:
+    text: 擱置版本
+shelvedChanges.delete.title:
+    text: 刪除裡面的項目
+show.diff.from.annotation.action.error.can.not.load.data.to.show.diff:
+    text: 無法載入資料以顯示差異
+show.diff.progress.title:
+    text: 載入內容
+show.diff.progress.title.detailed:
+    text: 載入內容{0}
+show.diff.with.local.action.description:
+    text: 與本機版本的檔案選取的修訂比較
+show.diff.with.local.action.text:
+    text: 顯示與本機檔案的差異
+show.history.action.name.template:
+    text: 顯示{0}的歷史
+show.history.dialog.title.template:
+    text: '{0}歷史'
+status.group.name.changed:
+    text: 已改變
+status.group.name.changed.on.server:
+    text: 伺服器上的變更
+status.group.name.created:
+    text: 已建立
+status.group.name.deleted:
+    text: 已刪除
+status.group.name.locally.added:
+    text: 本機新增
+status.group.name.locally.removed:
+    text: 本機移除
+status.group.name.modified:
+    text: 已合併
+status.group.name.not.in.repository:
+    text: 未在版本庫中
+status.group.name.skipped:
+    text: 已跳過
+status.group.name.switched:
+    text: 已切換
+status.group.name.will.be.merged:
+    text: 將被合併
+status.group.name.will.be.merged.with.conflicts:
+    text: 合併會有衝突
+status.group.name.will.be.merged.with.property.conflicts:
+    text: 合併屬性會有衝突
+status.group.name.will.be.merged.with.tree.conflicts:
+    text: 合併樹會有衝突
+status.group.name.will.be.restored:
+    text: 將被還原
+switch.to.changelist:
+    text: "切換到修改清單(''{0}'')"
+todo.handler.only.added:
+    text: <html><body><b>有沒有 {0,choice, 0#|1#was one|2#were {0}} 新增或編輯待辦 {0,choice, 0#|1#item|2#items} 發現。</b><br/>{1,choice, 0#|1#一個檔案被跳過。|2#{1} 檔案被跳過}你想回顧 {0,choice,1#it|2#them}?</body></html>
+todo.handler.only.both:
+    text: <html><body><b>有 {0, choice, 1#one|2#{0}} 新增或編輯，</b><br/>和 {1, choice, 1#one|2#{1}} 在改變 {1,choice, 1#fragment|2#fragments} TODO 發現的項。<br/>{2,choice, 0#|1#一個檔案被跳過。|2#{2} 檔案被跳過}要複查嗎？</body></html>
+todo.handler.only.in.changed:
+    text: <html><body>有沒有 {0,choice, 1#was one|2#were {0}} 在改變 {0,choice, 1#fragment|2#fragments} TODO {0,choice, 1#item|2#items} 發現。<br/>{1,choice, 0#|1#一個檔案被跳過。|2#{1} 檔案被跳過}你想回顧 {0,choice,1#it|2#them}?</body></html>
+todo.handler.only.skipped:
+    text: <html><body>TODO 檢查已經跳過 {0,choice, 0#|1#one file|2#{0} files}.<br/>沒有新的，編輯，或位於片段的 TODO 項改變發現。</body></html>
+todo.in.new.review.button:
+    text: 檢視(R)
+tooltip.text.action.applicable.to.vcses:
+    text: 適用於：{0}
+tooltip.text.line.before.deleted:
+    text: '{0} 之前的行被刪除'
+tooltip.text.line.changed:
+    text: 行{0}已修改
+tooltip.text.lines.before.deleted:
+    text: '{0} 之前的 {1} 行被刪除'
+tooltip.text.lines.changed:
+    text: 行{0}-{1}已修改
+toolwindow.title.update.action.canceled.info:
+    text: '{0}訊息(取消)'
+toolwindow.title.update.action.info:
+    text: '{0}訊息'
+toolwindow.title.update.project:
+    text: 更新項目({0})
+unknown.vcs.presentation:
+    text: <未知的VCS> ({0})
+unshelve.changelist.chooser.title:
+    text: 取消擱置變更變更清單
+unshelve.changes.dialog.title:
+    text: 取消擱置的修改
+update.directories.scope.name:
+    text: 目錄
+update.directory.scope.name:
+    text: 目錄
+update.file.scope.name:
+    text: 檔案
+update.files.scope.name:
+    text: 檔案
+update.group.name.created:
+    text: 已建立
+update.group.name.deleted:
+    text: 已刪除
+update.group.name.locally.added:
+    text: 在本機新增
+update.group.name.locally.removed:
+    text: 在本機移除
+update.group.name.merged:
+    text: 已合併
+update.group.name.merged.with.conflicts:
+    text: 合併衝突
+update.group.name.merged.with.property.conflicts:
+    text: 合併屬性衝突
+update.group.name.merged.with.tree.conflicts:
+    text: 合併目錄衝突
+update.group.name.modified:
+    text: 已修改
+update.group.name.not.in.repository:
+    text: 未在版本庫中
+update.group.name.restored:
+    text: 已恢復
+update.group.name.skipped:
+    text: 已跳過
+update.group.name.switched:
+    text: 已切換
+update.group.name.updated:
+    text: 已更新
+update.group.name.updated.from.server:
+    text: 從伺服器更新
+update.info.group.by.changelist:
+    text: 按修改清單群組
+update.info.loading.changelists:
+    text: 載入變更清單...
+update.project.scope.name:
+    text: 項目
+user.group.title:
+    text: 使用者
+vcs.command.name.add:
+    text: 新增
+vcs.command.name.checkin:
+    text: 檢入
+vcs.command.name.checkin.no.mnemonics:
+    text: 檢入
+vcs.command.name.checkout:
+    text: 檢出
+vcs.command.name.edit:
+    text: 編輯
+vcs.command.name.remove:
+    text: 移除
+vcs.command.name.status:
+    text: 狀態
+vcs.command.name.update:
+    text: 更新
+vcs.config.track.changed.on.server:
+    text: 逐項檢出
+vcs.console.toolwindow.display.name:
+    text: 主控台
+vcs.quicklist.popup.title:
+    text: VCS操作
+vcs.quicklist.pupup.section.local.history:
+    text: 本機歷史
+vcs.revision.name.current:
+    text: 目前
+vcs.shelf.action.restore.description:
+    text: 使選擇的已經unshelved變更清單(s)可供unshelve再次
+vcs.shelf.action.restore.text:
+    text: 恢復
+version.control.main.configurable.name:
+    text: 版本控制
+waiting.changelists.update.for.show.commit.dialog.message:
+    text: 提交對話方塊

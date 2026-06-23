@@ -1,0 +1,476 @@
+action.description.remove.packaging.elements:
+    text: Eliminar elementos seleccionados
+action.name.extract.artifact:
+    text: Extraer artefacto…
+action.name.facet.navigate:
+    text: Navegar
+action.name.inline.artifact:
+    text: Poner artefacto en línea
+action.name.remove.packaging.element:
+    text: Eliminar
+action.name.rename.packaging.element:
+    text: Renombrar
+add.external.annotations.path.description:
+    text: Seleccione la ruta en la que se encuentran las anotaciones externas para las fuentes del módulo
+add.external.annotations.path.title:
+    text: Añadir ruta a anotaciones externas
+add.new.global.library.text:
+    text: Nueva biblioteca global
+add.new.header.text:
+    text: Añadir
+add.new.module.text.full:
+    text: Módulo
+add.new.project.library.text:
+    text: Nueva biblioteca de proyectos
+artifact.source.items.tree.tooltip:
+    text: <html>Haga doble clic en el elemento para colocarlo en la ubicación predeterminada<br>Arrastre y suelte el elemento para añadirlo a la ubicación deseada<br>Hay más acciones disponibles en el menú emergente</html>
+artifacts.add.copy.action:
+    text: Agregar copia de
+artifacts.create.action:
+    text: Crear {0}
+banner.slogan.artifact.0:
+    text: "Artefacto ''{0}''"
+button.add:
+    text: Añadir
+button.remove:
+    text: Elimina&r
+button.text.attach.files:
+    text: Adjuntar &ficheros o directorios…
+button.text.ignore.selected:
+    text: Ignorar seleccionados
+button.text.keep.all:
+    text: Mantener todo
+button.text.remove.selected:
+    text: Eliminar seleccionados
+checkbox.text.build.on.make:
+    text: Incluir en la &compilación del proyecto
+choose.modules.dialog.description:
+    text: "La biblioteca ''{0}'' se añadirá a los módulos seleccionados."
+choose.modules.dialog.title:
+    text: Seleccionar módulos
+classpath.add.library.action:
+    text: Biblioteca…
+classpath.add.module.dependency.action:
+    text: Dependencia de módulo…
+classpath.add.simple.module.library.action:
+    text: JAR o directorios…
+classpath.chooser.description.add.module.dependency:
+    text: 'Seleccione los módulos de los que debe depender el módulo actual:'
+classpath.chooser.title.add.module.dependency:
+    text: Seleccionar módulos
+classpath.message.library.already.added:
+    text: "La biblioteca ''{0}'' ya se ha añadido a este módulo"
+classpath.panel.navigate.action.text:
+    text: Navegar
+classpath.title.adding.dependency:
+    text: Añadiendo dependencia
+combobox.item.global.library:
+    text: Biblioteca global
+combobox.item.module.library:
+    text: Biblioteca de módulos
+combobox.item.project.library:
+    text: Biblioteca del proyecto
+command.deleting.files:
+    text: Eliminando archivos
+command.finish:
+    text: Finalizar
+confirmation.message.would.you.like.to.ignore.facet:
+    text: "¿Desea ignorar el facet ''{0}'' del módulo ''{1}''?"
+copy.module.dialog.title:
+    text: Copiar módulo
+dependencies.used.in.popup.title:
+    text: Usado en
+dialog.title.add.framework.0.support:
+    text: Añadir soporte para {0}
+dialog.title.add.frameworks.support:
+    text: Añadir soporte para frameworks
+dialog.title.extract.artifact:
+    text: Extraer artefacto
+dialog.title.packaging.choose.library:
+    text: Seleccionar biblioteca
+dialog.title.packaging.choose.module:
+    text: Seleccionar módulo
+display.name.artifacts:
+    text: Artefactos
+drag.n.drop.text.0.packaging.elements:
+    text: '{0} elementos'
+dumb.service.indexing.paused.due.to:
+    text: Indexación pausada debido a {0}
+empty.module.selection.string:
+    text: Seleccione un módulo para ver o editar sus detalles aquí
+enter.module.copy.name.error.message:
+    text: Introduzca el nombre de la copia del módulo
+error.adding.module.to.project:
+    text: 'Error al agregar el módulo al proyecto: {0}'
+error.message.configuration.cannot.load:
+    text: No se puede cargar {0}
+error.message.unknown.facet.type.0:
+    text: "Tipo de faceta desconocido: ''{0}''"
+external.annotation.prompt:
+    text: Aviso de anotación externa
+external.annotations.external.option:
+    text: Añadir &externamente
+external.annotations.in.code.option:
+    text: Agregar en el &código
+external.annotations.root.chooser.title:
+    text: Seleccionar la raíz de anotaciones externas para {0}
+external.annotations.suggestion.message:
+    text: <html><body>Si no desea anotaciones en su código, puede utilizar el almacenamiento externo.<br> Para configurar anotaciones externas, especifique el directorio raíz donde se ubicarán los archivos con anotaciones.</body></html>
+file.chooser.directory.for.downloaded.libraries.description:
+    text: Las bibliotecas descargadas se copiarán en el directorio seleccionado
+file.chooser.directory.for.downloaded.libraries.title:
+    text: Directorio para librerías descargadas
+find.usages.action.text:
+    text: Buscar usos
+framework.detected.info.text:
+    text: '{0} {1, choice, 1#framework detectado|2#frameworks detectados}.'
+global.library.display.name:
+    text: '{0, choice, 1#Biblioteca global|2#Bibliotecas globales}'
+label.text.0.cannot.be.loaded.ignore:
+    text: No se puede cargar {0}. Puede marcarlos como ignorados para suprimir esta notificación de error.
+label.text.0.cannot.be.loaded.remove:
+    text: '{0} no se puede cargar. Puede quitarlos del proyecto (no se eliminará ningún archivo).'
+label.text.no.frameworks.detected:
+    text: No se detectaron frameworks.
+label.text.output.directory:
+    text: 'Directorio de salida:'
+label.text.please.select.desired.technologies:
+    text: <html>Seleccione las tecnologías deseadas.<br>Esto descargará todas las librerías necesarias y creará facetas en la configuración del proyecto.</html>
+label.text.specify.artifact.name:
+    text: 'Especificar &nombre del artefacto:'
+label.text.the.following.frameworks.are.detected:
+    text: <html>Se han detectado varios frameworks en el proyecto. Revise los siguientes elementos y excluya los detectados por error.</html>
+libraries.node.text.ide:
+    text: Las bibliotecas contienen clases que añaden diversas funcionalidades a sus aplicaciones. Las bibliotecas también incluyen archivos fuente y JavaDocs que pueden ayudarle a desarrollar sus proyectos.<br><br>IntelliJ IDEA utiliza bibliotecas para ayudarle con el completado de código, la validación, el resaltado de errores, etc.<br><br>Las bibliotecas globales se referencian en todo el proyecto y pueden utilizarse desde todos los módulos. Además, están disponibles para todos los proyectos creados localmente en su equipo.<br><br>Tenga en cuenta que las bibliotecas globales no están disponibles para nadie con quien comparta su proyecto. Si va a compartir el proyecto con su equipo, utilice bibliotecas de proyecto en su lugar.<br><br>Expanda el nodo y seleccione los elementos secundarios para gestionar las bibliotecas globales. <br><br>Para adjuntar una biblioteca a un módulo, seleccione dicho módulo, haga clic en la pestaña Dependencias, haga clic en Añadir y especifique la ubicación de la biblioteca.
+libraries.node.text.module:
+    text: Las bibliotecas contienen clases que añaden diversas funcionalidades a sus aplicaciones. Las bibliotecas también incluyen archivos de fuentes y JavaDocs que pueden ayudarle a desarrollar sus proyectos.<br><br>IntelliJ IDEA utiliza las bibliotecas para asistirle con el completado de código, la validación, el resaltado de errores, etc.<br><br>Las bibliotecas de módulo solo se referencian desde el módulo al que están adjuntas. Despliegue el nodo y seleccione los elementos secundarios para gestionar las bibliotecas de módulo.<br><br>Para adjuntar una biblioteca a un módulo, seleccione dicho módulo, haga clic en la pestaña Dependencias, haga clic en Añadir y especifique la ubicación de la biblioteca.
+libraries.node.text.project:
+    text: Las bibliotecas contienen clases que añaden diversas funcionalidades a sus aplicaciones. Las bibliotecas también incluyen archivos de código fuente y JavaDocs que pueden ayudarle a desarrollar sus proyectos.<br><br>IntelliJ IDEA utiliza bibliotecas para asistirle con el completado de código, la validación, el resaltado de errores, etc.<br><br>Las bibliotecas de proyecto se referencian en todo el proyecto y pueden utilizarse desde todos los módulos. También están disponibles para todos aquellos con quienes comparta el proyecto.<br><br>Expanda el nodo y seleccione los elementos secundarios para gestionar las bibliotecas del proyecto.<br><br>Para adjuntar una biblioteca a un módulo, seleccione dicho módulo, haga clic en la pestaña Dependencias, haga clic en Añadir y especifique la ubicación de la biblioteca.
+library.attach.files.action:
+    text: Adjuntar archivos o directorios
+library.attach.files.description:
+    text: Seleccione los archivos o directorios en los que se encuentran las clases, fuentes y documentación de la biblioteca
+library.attach.files.to.library.action:
+    text: "Adjuntar archivos o directorios a la biblioteca ''{0}''"
+library.attach.sources.action:
+    text: Adjuntar fuentes
+library.attach.sources.action.busy.text:
+    text: Adjuntando…
+library.attach.sources.description:
+    text: Seleccione los archivos JAR/ZIP o directorios en los que se encuentran las fuentes de la biblioteca
+library.configure.global.title:
+    text: Configurar bibliotecas globales
+library.configure.module.title:
+    text: Configurar biblioteca de módulos
+library.configure.project.title:
+    text: Configurar bibliotecas del proyecto
+library.configure.title:
+    text: Configurar biblioteca
+library.docs.node:
+    text: Documentación
+library.javadocs.node:
+    text: JavaDoc
+library.name.already.exists.error:
+    text: "La biblioteca ''{0}'' ya existe"
+library.name.already.exists.title:
+    text: La biblioteca ya existe
+library.name.not.specified.error:
+    text: Por favor, introduzca el nombre de la biblioteca
+library.name.not.specified.title:
+    text: Nombre de la biblioteca no especificado
+library.remove.action:
+    text: Eliminar
+library.root.node:
+    text: Raíz
+library.sources.node:
+    text: Fuentes
+message.no.module.dependency.candidates:
+    text: No se encontraron módulos de los que depender
+message.text.stop.searching.for.frameworks:
+    text: '{0} está buscando frameworks actualmente. ¿Desea detener la búsqueda?'
+module.0.already.exists.error.message:
+    text: "El módulo ''{0}'' ya existe"
+module.add.error.message:
+    text: 'Error al agregar el módulo al proyecto: {0}'
+module.add.error.title:
+    text: Añadir módulo
+module.already.exists.error:
+    text: "El módulo ''{0}'' ya existe en el proyecto."
+module.cannot.load.error:
+    text: "No se puede cargar el archivo de módulo ''{0}'':\n{1}"
+module.circular.dependency.warning.description:
+    text: 'Existen dependencias circulares entre:'
+module.circular.dependency.warning.short:
+    text: Existe una dependencia circular entre {0}
+module.classpath.button.edit:
+    text: Ed&itar…
+module.group.banner.text:
+    text: "Grupo de módulos ''{0}''"
+module.javadoc.add.path.prompt:
+    text: Seleccione archivos JAR/zip o directorios en los que se encuentra la documentación javadoc del módulo
+module.javadoc.add.path.title:
+    text: Añadir ruta a JavaDoc
+module.javadoc.add.url.button:
+    text: Añadir URL de JavaDoc…
+module.libraries.attach.sources.button:
+    text: Adjuntar &fuentes…
+module.libraries.javadoc.url.button:
+    text: Especificar &URL de la documentación…
+module.library.display.name:
+    text: Módulo {0, choice, 1#Biblioteca|2#Bibliotecas}
+module.module.language.level:
+    text: 'Nivel de &lenguaje:'
+module.new.action:
+    text: '{0, choice, 0#Nuevo |1#}{1, choice, 0#Java |1#}Módulo…'
+module.new.action.description:
+    text: Añadir un nuevo módulo al proyecto
+module.paths.add.content.action:
+    text: Añadir raíz de contenido(_C)
+module.paths.add.content.action.description:
+    text: Agregar raíz de contenido al módulo
+module.paths.add.content.already.exists.error:
+    text: La raíz de contenido "{0}" ya existe
+module.paths.add.content.dominate.error:
+    text: |-
+        La raíz de contenido que se está añadiendo "{0}"
+        domina la raíz de contenido existente "{1}".
+        Las entradas de contenido no deben intersecarse.
+module.paths.add.content.duplicate.error:
+    text: |-
+        La raíz de contenido "{0}" ya está definida para el módulo "{1}".
+        Dos módulos en un proyecto no pueden compartir la misma raíz de contenido.
+module.paths.add.content.intersect.error:
+    text: |-
+        La raíz de contenido que se está agregando "{0}"
+        está ubicada bajo la raíz de contenido existente "{1}".
+        Las entradas de contenido no deben solaparse.
+module.paths.add.content.prompt:
+    text: La raíz de contenido es un directorio que contiene todos los archivos relacionados con este módulo
+module.paths.add.content.title:
+    text: Seleccionar el directorio raíz de contenido
+module.paths.exclude.output.checkbox:
+    text: Excluir rutas de salida
+module.paths.excluded.group:
+    text: Carpetas excluidas
+module.paths.include.excluded.tooltip:
+    text: Incluir
+module.paths.output.label:
+    text: 'Ruta de salida:'
+module.paths.output.title:
+    text: Seleccionar ruta de salida
+module.paths.remove.content.prompt:
+    text: ¿Eliminar la raíz de contenido "{0}"?
+module.paths.remove.content.title:
+    text: Eliminar raíz de contenido
+module.paths.remove.content.tooltip:
+    text: Eliminar entrada de contenido
+module.paths.remove.tooltip:
+    text: Eliminar
+module.paths.searching.source.roots.progress:
+    text: Buscando raíces de código fuente en {0}
+module.paths.searching.source.roots.title:
+    text: Agregando raíces de fuentes
+module.paths.sources.group:
+    text: Carpetas de fuentes
+module.paths.test.output.label:
+    text: 'Ruta de salida de pruebas:'
+module.paths.test.output.title:
+    text: Seleccionar ruta de salida de pruebas
+module.paths.test.sources.group:
+    text: Carpetas de fuentes de prueba
+module.paths.title:
+    text: Fuentes
+module.paths.validation.duplicate.content.error:
+    text: "La raíz de contenido ''{0}'' está definida para los módulos ''{1}'' y ''{2}''.\nDos módulos en un proyecto no pueden compartir la misma raíz de contenido."
+module.paths.validation.duplicate.source.root.error:
+    text: "El módulo ''{0}''\nno debe contener la raíz de fuentes ''{1}''.\nLa raíz ya pertenece al módulo ''{2}''"
+module.paths.validation.source.root.belongs.to.another.module.error:
+    text: "La raíz de fuentes ''{0}''\nno se puede definir en el módulo ''{1}'' porque pertenece al contenido del módulo anidado ''{2}''"
+module.remove.command:
+    text: Desvincular módulo del proyecto
+module.remove.confirmation:
+    text: "¿Quitar {1, choice, 1#el módulo ''''{0}''''|2#{1} módulos} del proyecto?\nNo se eliminará ningún archivo del disco."
+module.remove.confirmation.prompt:
+    text: |-
+        ¿Eliminar {1, choice, 1#el módulo|2#los módulos} {0} del proyecto?
+        No se eliminará ningún archivo.
+module.remove.confirmation.title:
+    text: Eliminar {0, choice, 1#módulo|2#módulos}
+module.remove.from.project.confirmation:
+    text: "¿Desea eliminar el módulo ''{0}'' del proyecto?"
+module.remove.last.confirmation:
+    text: |-
+        ¿Está seguro de que desea eliminar {0, choice, 1#el único módulo|2#todos los módulos} de este proyecto?
+        No se eliminará ningún archivo del disco.
+module.sdk.not.defined:
+    text: El JDK del módulo no está definido
+module.toggle.excluded.action:
+    text: Excluido
+module.toggle.excluded.action.description:
+    text: Incluir/Excluir directorio del módulo
+module.toggle.sources.action:
+    text: Fuentes
+module.toggle.test.sources.action:
+    text: Fuentes de prueba
+module.type.empty.description:
+    text: Se abrirá el diálogo Estructura del proyecto para ayudarle a crear la estructura del proyecto.
+module.type.empty.name:
+    text: Proyecto multimódulo
+modules.classpath.title:
+    text: Dependencias
+modules.order.export.export.column:
+    text: Exportar
+modules.order.export.scope.column:
+    text: Ámbito
+output.tab.title:
+    text: Salida
+path.0.is.invalid.error.message:
+    text: "La ruta ''{0}'' no es válida"
+progress.indexing.scanning:
+    text: Escaneando archivos…
+progress.indexing.updating:
+    text: Analizando el proyecto…
+progress.performing.indexing.tasks:
+    text: Realizando tareas de indexación
+progress.text.searching.frameworks:
+    text: Buscando frameworks. Por favor, espere.
+progress.title.deleting.files:
+    text: Eliminando archivos…
+project.configuration.save.file.not.found:
+    text: No se encontró {0}
+project.configure.path.variables.title:
+    text: Configurar variables de ruta
+project.inherit.compile.output.path:
+    text: Heredar la ruta de salida de compilación del proyecto
+project.library.display.name:
+    text: '{0, choice, 1#Biblioteca|2#Bibliotecas} del proyecto'
+project.load.default.error:
+    text: Error al cargar el proyecto predeterminado
+project.load.undefined.path.variables.message:
+    text: Hay variables de ruta no definidas en los archivos de configuración del proyecto.
+project.module.compile.output.path:
+    text: Usar ruta de salida de compilación del módulo
+project.new.wizard.import.description:
+    text: <html>Crear {0} {1} a partir de un modelo externo ({2})</html>
+project.new.wizard.import.title:
+    text: Importar {0} desde un &modelo externo
+project.new.wizard.module.content.root.chooser.description:
+    text: El directorio seleccionado se marcará como la raíz del contenido del módulo
+project.new.wizard.module.content.root.chooser.title:
+    text: Seleccionar raíz de contenido del módulo
+project.new.wizard.module.file.chooser.title:
+    text: Seleccionar el directorio padre del archivo del módulo
+project.new.wizard.module.file.description:
+    text: El archivo .iml del módulo se ubicará en el directorio seleccionado
+project.new.wizard.module.file.title:
+    text: '&Ubicación del archivo del módulo:'
+project.new.wizard.module.name.title:
+    text: 'Nombre del &módulo:'
+project.new.wizard.module.root.title:
+    text: 'Raíz de contenido (&R):'
+project.new.wizard.progress.title:
+    text: Inicialización …
+project.reload.failed:
+    text: 'Error al cargar los cambios externos: {0}. El proyecto se volverá a cargar.'
+project.reload.failed.title:
+    text: Error de recarga
+project.root.module.source:
+    text: <Origen del módulo>
+project.roots.classpath.format.label:
+    text: 'Formato de almacenamiento de dependencias:'
+project.roots.display.name:
+    text: Módulos
+project.roots.error.message.invalid.roots:
+    text: '{1, choice, 1#Raíz {0} no válida|2#Raíces {0} no válidas}'
+project.roots.external.annotations.description:
+    text: Gestionar las anotaciones externas adjuntas a este módulo.
+project.roots.external.annotations.tab.title:
+    text: 'Anotaciones externas:'
+project.roots.javadoc.tab.description:
+    text: Administre los JavaDocs externos adjuntos a este módulo.<br>Los JavaDocs externos anulan las anotaciones JavaDoc que pueda tener en su módulo.
+project.roots.library.problem.message:
+    text: "elemento no válido ''{0}'' en la lista de dependencias"
+project.roots.module.banner.text:
+    text: "Módulo ''{0}''"
+project.roots.module.duplicate.name.message:
+    text: nombre de módulo duplicado
+project.roots.module.groups.text:
+    text: Los grupos de módulos se utilizan para organizar lógicamente los módulos del proyecto.
+project.roots.module.jdk.problem.message:
+    text: El SDK del módulo no está definido
+project.roots.output.compiler.title:
+    text: Salida del compilador
+project.roots.path.tab.title:
+    text: Rutas
+project.roots.plain.mode.action.text.disabled:
+    text: Ocultar grupos de módulos
+project.roots.plain.mode.action.text.enabled:
+    text: Mostrar grupos de módulos
+project.roots.project.banner.text:
+    text: "Configuración general para el proyecto ''{0}''"
+project.roots.project.display.name:
+    text: Proyecto
+project.roots.project.jdk.inherited:
+    text: SDK del proyecto
+project.roots.replace.library.entry.message:
+    text: "¿Realmente desea reemplazar la antigua librería ''{0}''?"
+project.roots.replace.library.entry.title:
+    text: Biblioteca ya añadida
+project.roots.tooltip.library.has.broken.paths:
+    text: "La biblioteca ''{0}'' tiene {1, choice, 1#una ruta rota|2#rutas rotas}."
+project.settings.display.name:
+    text: Estructura del proyecto
+prompt.open.project.in.new.frame:
+    text: <html><body>¿Dónde desea abrir el proyecto?</body></html>
+rename.message.prefix.module:
+    text: Módulo
+rename.message.prefix.scope:
+    text: Ámbito
+rename.module.title:
+    text: Renombrar &módulo
+rename.scope.title:
+    text: Renombrar ámbito.
+sdk.configuration.exception:
+    text: "El SDK ''{0}'' no es válido."
+sdk.configure.annotations.tab:
+    text: Anotaciones
+sdk.configure.editor.title:
+    text: Editor de SDK
+sdk.configure.home.file.invalid.error:
+    text: El archivo seleccionado no es un directorio principal válido para {0}
+sdk.configure.home.invalid.error:
+    text: El directorio seleccionado no es un directorio base válido para {0}
+sdk.configure.home.title:
+    text: Seleccionar directorio de inicio para {0}
+sdk.configure.javadoc.url.prompt:
+    text: 'Introduzca la URL de la documentación:'
+sdk.configure.javadoc.url.title:
+    text: Especificar URL de la documentación
+sdk.configure.save.settings.error:
+    text: No se puede guardar la configuración
+sdk.configure.title:
+    text: Configurar SDK
+sdk.configure.type.home.path:
+    text: 'Ruta de {0}:'
+sdk.java.corrupt.error:
+    text: "Es probable que el SDK instalado en ''{0}'' esté dañado"
+sdk.java.corrupt.title:
+    text: No se puede detectar la versión del SDK
+sdk.list.name.required.error:
+    text: Por favor, especifique el nombre del SDK
+sdk.list.unique.name.required.error:
+    text: Especifique un nombre de SDK diferente
+sdk.paths.specify.url.button:
+    text: Especificar URL…
+sdk.table.settings:
+    text: Tabla de SDK
+sdk.unknown.name:
+    text: SDK desconocido
+title.add.module:
+    text: Nuevo módulo
+title.new.project:
+    text: Nuevo proyecto
+title.open.project:
+    text: Abrir proyecto
+warning.message.some.required.libraries.wasn.t.downloaded:
+    text: Algunas de las bibliotecas requeridas no se han descargado. ¿Desea continuar sin ellas?

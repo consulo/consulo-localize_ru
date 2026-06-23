@@ -1,0 +1,422 @@
+access.static.via.class.reference.family:
+    text: Удакладніць доступ да static члена праз спасылку на клас
+add.catch.clause.family:
+    text: Дадаць выключэнне ў блок catch
+add.catch.clause.text:
+    text: "Дадаць блок(і) 'catch'"
+add.class.to.extends.list:
+    text: "Зрабіць ''{0}'' нашчадкам ''{1}''"
+add.constructor.parameter.name:
+    text: Дадаць параметр канструктара
+add.default.constructor.family:
+    text: Дадаць канструктар па змаўчанні
+add.default.constructor.text:
+    text: Дадаць канструктар {0} без аргументаў у {1}
+add.docTag.to.custom.tags:
+    text: "Дадаць ''@{0}'' у карыстальніцкія тэгі"
+add.exception.from.field.initializer.to.constructor.throws.family.text:
+    text: Дадаць выключэнне ў сігнатуру канструктараў класа
+add.exception.from.field.initializer.to.constructor.throws.text:
+    text: Дадаць выключэнне ў сігнатуру {0, choice, 0#канструктара па змаўчанні|1#канструктара|2#канструктараў} класа
+add.exception.to.throws.family:
+    text: Дадаць выключэнне ў сігнатуру метаду
+add.exception.to.throws.text:
+    text: Дадаць {0, choice, 0#выключэнне|2#выключэнні} ў сігнатуру метаду
+add.import:
+    text: Дадаць імпарт
+add.interface.to.implements.list:
+    text: "Рэалізаваць у ''{0}'' інтэрфейс ''{1}''"
+add.library.copy.files.to.radio.button:
+    text: "Капіраваць файлы бібліятэкі ''{0}'' у  [&C]"
+add.library.description.choose.folder:
+    text: Выберыце каталог, куды будзе скапіравана бібліятэка
+add.library.error.cannot.copy:
+    text: "Немагчыма скапіраваць ''{0}'' у ''{1}''\n({2})"
+add.library.error.not.found:
+    text: "Файл бібліятэкі ''{0}'' не існуе"
+add.library.title.choose.folder:
+    text: Выбрать каталог
+add.library.title.dialog:
+    text: "Дадаць бібліятэку ''{0}'' у праект"
+add.library.use.bundled.library.radio.button:
+    text: "Выкарыстоўваць ''{0}'' з дыстрыбутыва {1}  [&U]"
+add.method.body.text:
+    text: Дадаць цела метаду
+add.method.family:
+    text: Дадаць метад
+add.method.qualifier.fix.family:
+    text: Дадаць кваліфікатар метаду
+add.method.qualifier.fix.text:
+    text: "Дадаць кваліфікатар ''{0}'' да метаду"
+add.method.text:
+    text: "Дадаць метад ''{0}'' у клас ''{1}''"
+add.missing.annotation.parameters.fix:
+    text: Дадаць адсутныя параметры анатацыі - {0}
+add.missing.annotation.single.parameter.fix:
+    text: "Дадаць адсутны параметр анатацыі ''{0}''"
+add.modifier.fix:
+    text: "Сделать ''{0}'' {1}"
+add.new.array.family:
+    text: Дадаць адсутны выраз new
+add.new.array.text:
+    text: "Дадаць ''new {0}[]''"
+add.parameter.from.usage.text:
+    text: "Дадаць ''{0}'' як {1,number,ordinal} {2} у {3} ''{4}''"
+add.qualifier:
+    text: Дадаць кваліфікатар
+add.qualifier.original.class.chooser.title:
+    text: Зыходны клас
+add.return.statement.text:
+    text: "Дадаць аператар 'return'"
+add.runtime.exception.to.throws.family:
+    text: Дадаць runtime выключэнне ў сігнатуру метаду
+add.runtime.exception.to.throws.text:
+    text: "Дадаць ''{0}'' у сігнатуру метаду"
+add.type.arguments.single.argument.text:
+    text: Дадаць яўныя аргументы тыпу
+add.type.arguments.text:
+    text: Дадаць яўныя аргументы тыпу да {0, choice, 1#1-га|2#2-га|3#3-га|4#{0,number}-га} аргумента
+add.typecast.family:
+    text: Дадаць прывядзенне тыпу
+add.typecast.text:
+    text: "Прывесці да ''{0}''"
+adjust.package.family:
+    text: Скарэктаваць імя пакета
+adjust.package.text:
+    text: "Усталяваць імя пакета ''{0}''"
+annotations.fix:
+    text: Анатацыі
+anonymous.class.presentation:
+    text: Ананімны клас, вытворны ад {0}
+bring.variable.to.scope.family:
+    text: Увесці пераменную ў вобласць бачнасці
+bring.variable.to.scope.text:
+    text: "Увесці ''{0}'' у вобласць бачнасці"
+cannot.change.field.exception:
+    text: "Немагчыма змяніць тып поля ''{0}''.\nПрычына: {1}"
+cannot.create.java.file.error.text:
+    text: 'Невозможно создать {0}.java в {1}: {2}'
+cannot.create.java.file.error.title:
+    text: Памылка стварэння файла
+cannot.create.java.package.error.text:
+    text: 'Невозможно создать {0} в {1}: {2}'
+cannot.create.java.package.error.title:
+    text: Памылка стварэння пакета
+change.class.signature.family:
+    text: Змяніць сігнатуру класа
+change.class.signature.text:
+    text: "Змяніць сігнатуру ''{0}'' для адпаведнасці ''{1}''"
+change.extends.list.family:
+    text: Пашырыць клас ад
+change.method.signature.from.usage.family:
+    text: Змяніць сігнатуру метаду з выкарыстання
+change.method.signature.from.usage.text:
+    text: "Змяніць сігнатуру ''{0}'' на ''{1}({2})''"
+change.new.operator.type.family:
+    text: Змяніць тып аператара new
+change.new.operator.type.text:
+    text: "Змяніць ''{0}'' на ''new {1}{2}''"
+change.parameter.class.family:
+    text: Змяніць клас параметра
+change.parameter.from.usage.text:
+    text: "Змяніць {0,number,ordinal} {1} {2} ''{3}'' з ''{4}'' на ''{5}''"
+change.to.append.family:
+    text: Выправіць StringBuilder append
+change.to.append.text:
+    text: "Змяніць на ''{0}''"
+class.initializer.presentation:
+    text: '{0} ініцыялізатар класа'
+collection.addall.can.be.replaced.with.constructor.fix.description:
+    text: "Выклік '#ref()' можа быць заменены выклікам параметрызаванага канструктара"
+collection.to.array.family.name:
+    text: "Прымяніць пераўтварэнне '.toArray()'"
+collection.to.array.text:
+    text: "Прымяніць пераўтварэнне ''.toArray({0})''"
+convert.to.string.family:
+    text: Выправіць сімвальны літарал
+convert.to.string.text:
+    text: Пераўтварыць у радковы літарал
+create.accessor.for.unused.field.family:
+    text: Стварыць аксесар для нявыкарыстанага поля
+create.class.from.new.family:
+    text: Стварыць клас з аператара new
+create.class.from.usage.family:
+    text: Стварыць клас з выкарыстання
+create.class.from.usage.text:
+    text: "Создать {0} ''{1}''"
+create.class.text:
+    text: "Создать класс ''{0}''"
+create.class.title:
+    text: Класс Objective-C
+create.constant.from.usage.family:
+    text: Стварыць канстанту з выкарыстання
+create.constructor.from.new.family:
+    text: Стварыць канструктар з аператара new
+create.constructor.from.new.text:
+    text: Создать конструктор
+create.constructor.from.super.call.family:
+    text: Стварыць канструктар з выкліку super()
+create.constructor.from.this.call.family:
+    text: Стварыць канструктар з выкліку this()
+create.constructor.matching.super:
+    text: Стварыць канструктар, які адпавядае super
+create.constructor.text:
+    text: "Создать конструктор в ''{0}''"
+create.field.from.usage.family:
+    text: Стварыць поле з выкарыстання
+create.field.text:
+    text: Создать поле {0}
+create.getter:
+    text: Создать Getter
+create.getter.and.setter.for.field:
+    text: "Стварыць getter і setter для ''{0}''"
+create.getter.for.field:
+    text: "Создать getter для ''{0}''"
+create.inner.class.from.usage.text:
+    text: "Стварыць унутраны {0} ''{1}''"
+create.interface.text:
+    text: "Стварыць інтэрфейс ''{0}''"
+create.local.from.instanceof.usage.family:
+    text: Стварыць лакальную пераменную з выкарыстання instanceof
+create.local.from.instanceof.usage.text:
+    text: "Уставіць аб'яўленне ''({0}){1}''"
+create.local.from.usage.family:
+    text: Стварыць лакальную пераменную з выкарыстання
+create.method.from.usage.family:
+    text: Стварыць метад з выкарыстання
+create.method.from.usage.text:
+    text: "Создать метод ''{0}''"
+create.parameter.from.usage.family:
+    text: Стварыць параметр з выкарыстання
+create.property.from.usage.family:
+    text: Стварыць уласцівасць з выкарыстання
+create.property.text:
+    text: Создать свойство {0}
+create.setter:
+    text: Создать Setter
+create.setter.for.field:
+    text: "Создать setter для ''{0}''"
+defer.final.assignment.with.temp.family:
+    text: Адкласці фінальнае прысвойванне з часовай пераменнай
+defer.final.assignment.with.temp.text:
+    text: "Адкласці прысвойванне ''{0}'' з дапамогай часовай пераменнай"
+delete.body.text:
+    text: Выдаліць цела метаду
+delete.catch.family:
+    text: Выдаліць catch
+delete.catch.text:
+    text: "Выдаліць catch для ''{0}''"
+delete.reference.fix.text:
+    text: Выдаліць спасылку
+delete.unreachable.statement.fix.text:
+    text: Выдаліць недасягальны аператар
+enable.optimize.imports.on.the.fly:
+    text: "Уключыць 'Налады | Рэдактар | Агульныя | Аўтаімпарт | Аптымізаваць імпарты на ляту'"
+exchange.extends.implements.keyword:
+    text: "Замяніць ''{0} {2}'' на ''{1} {2}''"
+extract.side.effects:
+    text: Выняць {0, choice, 1#пабочны эфект|2#пабочныя эфекты}
+extract.side.effects.convert.to.if:
+    text: "Выняць пабочныя эфекты як аператар 'if'"
+extract.side.effects.family.name:
+    text: Выдаліць аператар з вынясеннем пабочных эфектаў
+field.to.import.chooser.title:
+    text: Поле для імпарту
+fix.add.special.annotation.family:
+    text: Дадаць у спецыяльныя анатацыі
+fix.add.special.annotation.text:
+    text: "Дадаць ''{0}'' у спіс спецыяльных анатацый"
+fix.argument.family:
+    text: Выправіць аргументы
+fix.javadoc.family:
+    text: Выправіць Javadoc
+fix.modifiers.family:
+    text: Выправіць мадыфікатары
+fix.parameter.type.family:
+    text: Выправіць тып параметра
+fix.parameter.type.text:
+    text: "Зрабіць так, каб ''{0}'' прымаў параметр тыпу ''{1}'' тут"
+fix.return.type.family:
+    text: Выправіць вяртаемы тып
+fix.return.type.text:
+    text: "Зрабіць так, каб ''{0}'' вяртаў ''{1}''"
+fix.single.character.string.to.char.literal.family:
+    text: Выправіць тып літарала
+fix.single.character.string.to.char.literal.text:
+    text: Змяніць {0} на {1} (у літарал {2})
+fix.super.method.return.type.family:
+    text: Выправіць вяртаемы тып метаду суперкласа
+fix.super.method.return.type.text:
+    text: "Зрабіць вяртаемым тыпам ''{0}'' тып ''{1}''"
+fix.throws.list.add.exception:
+    text: "Дадаць ''{0}'' у спіс throws ''{1}''"
+fix.throws.list.family:
+    text: Выправіць спіс throws
+fix.throws.list.remove.exception:
+    text: "Выдаліць ''{0}'' са спісу throws ''{1}''"
+fix.unused.symbol.injection.family:
+    text: Дадаць у анатацыі ўкаранення залежнасцей
+fix.unused.symbol.injection.text:
+    text: "Падавіць папярэджанне пра нявыкарыстанне, калі анатавана ''{0}''"
+fix.variable.type.family:
+    text: Выправіць тып пераменнай
+fix.variable.type.text:
+    text: "Змяніць тып {0} ''{1}'' на ''{2}''"
+implement.methods.fix:
+    text: Рэалізаваць метады
+import.class.fix:
+    text: Імпартаваць клас
+initialize.final.field.in.constructor.choose.dialog.title:
+    text: Выберыце канструктары для дадання ініцыялізацыі
+initialize.final.field.in.constructor.name:
+    text: Ініцыялізаваць у канструктары
+insert.new.fix:
+    text: Уставіць new
+insert.sam.method.call.fix.family.name:
+    text: Уставіць выклік адзінага абстрактнага метаду
+insert.sam.method.call.fix.name:
+    text: "Уставіць ''.{0}'' для выкліку метаду функцыянальнага інтэрфейсу"
+insert.super.constructor.call.family:
+    text: Уставіць выклік канструктара базавага класа
+java.9.merge.module.statements.fix.family.name:
+    text: "Аб'яднаць з іншай дырэктывай ''{0}''"
+java.9.merge.module.statements.fix.name:
+    text: "Аб'яднаць з іншай дырэктывай ''{0} {1}''"
+make.class.an.interface.family:
+    text: Зрабіць клас інтэрфейсам
+make.class.an.interface.text:
+    text: "Зрабіць ''{0}'' інтэрфейсам"
+make.final.copy.to.temp:
+    text: "Скапіраваць ''{0}'' у часовую пераменную {1}"
+make.final.family:
+    text: Сделать final
+make.interface.an.class.text:
+    text: "Сделать ''{0}'' классом"
+make.vararg.parameter.last.family:
+    text: Зрабіць vararg параметр апошнім
+make.vararg.parameter.last.text:
+    text: "Перамясціць ''{0}'' у канец спісу"
+method.to.import.chooser.title:
+    text: Метад для імпарту
+module.info.add.requires.name:
+    text: "Дадаць дырэктыву ''requires {0}'' у module-info.java"
+move.bound.class.to.front.fix.text:
+    text: "Перамясціць мяжу ''{0}'' у пачатак спісу межаў параметра тыпу ''{1}''"
+move.catch.up.family:
+    text: "Перамясціць 'catch' уверх"
+move.catch.up.text:
+    text: "Перамясціць catch для ''{0}'' перад ''{1}''"
+move.class.in.extend.list.family:
+    text: Перамясціць клас у спісе extends
+move.class.to.package.family:
+    text: Перамясціць клас у пакет
+move.class.to.package.text:
+    text: "Перамясціць у пакет ''{0}''"
+move.class.to.separate.file.family:
+    text: Перамясціць клас у асобны файл
+move.class.to.separate.file.text:
+    text: "Перамясціць клас ''{0}'' у ''{0}.java''"
+move.file.to.source.root.text:
+    text: Перамясціць файл у корань зыходнікаў
+negation.broader.scope.family:
+    text: Пашырыць вобласць адмаўлення
+negation.broader.scope.text:
+    text: "Змяніць на ''!({0})''"
+new.method.body.template.error.text:
+    text: Калі ласка, выправіце шаблон "Цела новага метаду"
+new.method.body.template.error.title:
+    text: Памылка шаблона файла
+optimize.imports.fix:
+    text: Аптымізаваць імпарты
+orderEntry.fix.add.dependency.on.module:
+    text: "Дадаць залежнасць ад модуля ''{0}''"
+orderEntry.fix.add.dependency.on.module.choose:
+    text: Дадаць залежнасць ад модуля…
+orderEntry.fix.add.library.to.classpath:
+    text: "Дадаць бібліятэку ''{0}'' у classpath"
+orderEntry.fix.choose.module.to.add.dependency.on:
+    text: Выберыце модуль для дадання залежнасці
+orderEntry.fix.circular.dependency.warning:
+    text: "Даданне залежнасці ад модуля ''{0}'' створыць цыклічную залежнасць паміж модулямі ''{1}'' і ''{2}''.\nДадаць залежнасць?"
+orderEntry.fix.family.add.library.to.classpath:
+    text: Дадаць бібліятэку ў classpath
+orderEntry.fix.family.add.module.dependency:
+    text: Дадаць залежнасць ад модуля
+orderEntry.fix.title.circular.dependency.warning:
+    text: Папярэджанне пра цыклічную залежнасць
+permute.arguments:
+    text: Пераставіць аргументы
+remove.class.from.extends.list:
+    text: "Зрабіць ''{0}'' такім, што не наследуе ''{1}''"
+remove.interface.from.implements.list:
+    text: "Зрабіць ''{0}'' такім, што не рэалізуе ''{1}''"
+remove.modifier.fix:
+    text: "Сделать ''{0}'' не {1}"
+remove.parameter.from.usage.text:
+    text: "Выдаліць {0,number,ordinal} {1} з {2} ''{3}''"
+remove.qualifier.action.text:
+    text: Выдаліць кваліфікатар
+remove.qualifier.fix:
+    text: Выдаліць кваліфікатар
+remove.redundant.arguments.family:
+    text: Выдаліць лішнія аргументы
+remove.redundant.arguments.text:
+    text: "Выдаліць лішнія аргументы для выкліку ''{0}''"
+remove.suppression.action.family:
+    text: Выдаліць падаўленне
+remove.suppression.action.name:
+    text: "Выдаліць падаўленне ''{0}''"
+rename.wrong.reference.family:
+    text: Перайменаваць няправільную спасылку
+rename.wrong.reference.text:
+    text: Перайменаваць спасылку
+replace.with.list.access.text:
+    text: Замяніць на доступ да спісу
+reuse.variable.declaration.family:
+    text: Паўторна выкарыстаць папярэднюю пераменную
+reuse.variable.declaration.text:
+    text: "Паўторна выкарыстаць папярэднюю пераменную ''{0}''"
+safe.delete.family:
+    text: Бяспечнае выдаленне
+safe.delete.text:
+    text: "Бяспечна выдаліць ''{0}''"
+searching.for.usages.progress.title:
+    text: Пошук выкарыстанняў…
+setup.jdk.location.family:
+    text: Наладзіць размяшчэнне JDK
+setup.jdk.location.text:
+    text: Наладзіць JDK
+side.effect.action.cancel:
+    text: Отмена [&C]
+side.effect.action.remove:
+    text: Выдаліць [&R]
+side.effect.action.transform:
+    text: Преобразовать [&T]
+side.effects.warning.dialog.title:
+    text: Обнаружены побочные эффекты
+simplify.boolean.expression.family:
+    text: Спрасціць лагічны выраз
+simplify.boolean.expression.text:
+    text: "Спрасціць ''{0}'' да {1}"
+static.import.method.choose.method.to.import:
+    text: Выберыце метад для імпарту
+static.import.method.text:
+    text: Імпартаваць static-метад
+super.class.constructors.chooser.title:
+    text: Выберыце канструктары суперкласа
+surround.with.try.catch.fix:
+    text: Обернуть в try/catch
+target.class.chooser.title:
+    text: Выберыце мэтавы клас
+uidesigner.change.bound.field.type:
+    text: Змяніць тып прывязанага поля
+uidesigner.change.gui.component.type:
+    text: Змяніць тып GUI-кампанента
+wrap.expression.using.static.accessor.family:
+    text: Абгарнуць выраз
+wrap.expression.using.static.accessor.text:
+    text: "Абгарнуць з дапамогай ''{0}()''"
+wrap.with.optional.parameter.text:
+    text: "Абгарнуць {0, choice, 1#1-ы|2#2-і|3#3-і|4#{0,number}-ы} аргумент з дапамогай ''java.util.Optional''"
+wrap.with.optional.single.parameter.text:
+    text: "Абгарнуць з дапамогай 'java.util.Optional'"

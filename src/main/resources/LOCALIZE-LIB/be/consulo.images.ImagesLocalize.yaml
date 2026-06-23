@@ -1,0 +1,40 @@
+black.cell.color.descriptor:
+    text: "'Черная' ячейка"
+chessboard.cell.size:
+    text: 'Памер ячэйкі сеткі (у пікселях) [&S]:'
+error.broken.image.file.format:
+    text: <html><b>Выява не загружана</b><br>Паспрабуйце адкрыць яе ва знешнім рэдактары для выпраўлення праблемы з фарматам</html>
+error.title.launching.external.editor:
+    text: Праблема пры запуску знешняй праграмы
+external.editor.border.title:
+    text: Знешні рэдактар
+external.editor.executable.path:
+    text: 'Путь:'
+grid.line.color.descriptor:
+    text: Лінія сеткі
+icons.count:
+    text: '{0,choice, 0#няма выяў|1#1 выява|2#{0,number} выявы|5#{0,number} выяў|100#больш за 100 выяў}'
+image.info:
+    text: '{0}x{1} {2} ({3}-бітны колер) {4}'
+main.page.border.title:
+    text: Редактор
+select.external.executable.message:
+    text: Выберыце знешні графічны рэдактар
+select.external.executable.title:
+    text: Выбор редактора
+settings.page.name:
+    text: Выявы
+show.grid.every:
+    text: 'Паказваць лініі сеткі праз кожныя (пікселяў) [&E]:'
+show.grid.lines:
+    text: Паказваць лініі сеткі па змаўчанні [&G]
+show.grid.zoom.limit:
+    text: 'Паказваць лініі сеткі толькі пры каэфіцыенце маштабавання больш або роўным [&O]:'
+show.transparency.chessboard:
+    text: Паказваць сетку празрыстасці па змаўчанні [&T]
+thumbnails.component.error.text:
+    text: Памылка
+unknown.format:
+    text: Невядомы фармат
+white.cell.color.descriptor:
+    text: "'Белая' ячейка"

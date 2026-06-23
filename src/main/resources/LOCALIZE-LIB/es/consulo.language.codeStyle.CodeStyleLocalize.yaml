@@ -1,0 +1,446 @@
+action.stop:
+    text: Detener
+arrangement.action.rule.add.description:
+    text: Añadir nueva regla de disposición
+arrangement.action.rule.add.text:
+    text: Agregar regla
+arrangement.action.rule.edit.description:
+    text: Editar la regla de disposición seleccionada
+arrangement.action.rule.edit.text:
+    text: Editar regla
+arrangement.action.rule.move.down.description:
+    text: Mueve hacia abajo la(s) regla(s) de disposición seleccionada(s)
+arrangement.action.rule.move.down.text:
+    text: Mover hacia abajo
+arrangement.action.rule.move.up.description:
+    text: Mover hacia arriba la(s) regla(s) de disposición seleccionada(s)
+arrangement.action.rule.move.up.text:
+    text: Mover hacia arriba
+arrangement.action.rule.remove.description:
+    text: Eliminar las reglas de disposición seleccionadas
+arrangement.action.rule.remove.text:
+    text: Eliminar regla(s)
+arrangement.settings.additional.force.combobox.name:
+    text: 'Forzar reordenamiento:'
+arrangement.settings.additional.force.rearrange.according.to.dialog:
+    text: Usar el modo actual (conmutado en el cuadro de diálogo Reformatear código)
+arrangement.settings.additional.force.rearrange.always:
+    text: Siempre
+arrangement.settings.additional.force.rearrange.never:
+    text: Nunca
+arrangement.settings.additional.title:
+    text: Configuración adicional
+arrangement.settings.groups.dependent.methods:
+    text: Mantener juntos los métodos dependientes
+arrangement.settings.groups.getters.and.setters.together:
+    text: Mantener getters y setters juntos
+arrangement.settings.groups.overridden.methods:
+    text: Mantener juntos los métodos sobreescritos
+arrangement.settings.groups.property.field:
+    text: Agrupar campos de propiedad con sus getter/setter correspondientes
+arrangement.settings.order.type.breadth.first:
+    text: orden en anchura
+arrangement.settings.order.type.by.name:
+    text: ordenar por nombre
+arrangement.settings.order.type.depth.first:
+    text: orden primero en profundidad
+arrangement.settings.order.type.keep:
+    text: Mantener el orden
+arrangement.settings.section.groups:
+    text: 'Reglas de agrupación:'
+arrangement.settings.section.match:
+    text: 'Reglas de coincidencia:'
+arrangement.settings.text.entry.type.xml.attribute:
+    text: atributo
+arrangement.settings.text.entry.type.xml.tag:
+    text: etiqueta
+arrangement.settings.text.general.modifier:
+    text: 'Modificador:'
+arrangement.settings.text.general.name:
+    text: 'Nombre:'
+arrangement.settings.text.general.order:
+    text: 'Orden:'
+arrangement.settings.text.general.text:
+    text: 'Texto:'
+arrangement.settings.text.general.type:
+    text: 'Tipo:'
+arrangement.settings.text.general.xml.namespace:
+    text: 'Espacio de nombres:'
+arrangement.text.empty.rule:
+    text: <regla vacía>
+arrangement.title.settings.tab:
+    text: Disposición
+button.delete:
+    text: Eliminar
+checkbox.align.multiline.fields.groups:
+    text: Declaraciones de grupo
+checkbox.block.comment.at.first.column:
+    text: Comentario de bloque en la primera columna
+checkbox.indent.smart.tabs:
+    text: Tabuladores inteligentes
+checkbox.indent.use.tab.character:
+    text: Usar carácter de tabulación
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: Sentencia de control en una línea
+checkbox.line.comment.add.space:
+    text: Agregar un espacio al inicio del comentario de línea
+checkbox.line.comment.at.first.column:
+    text: Comentario de línea en la primera columna
+checkbox.spaces.additive.operators:
+    text: Operadores aditivos (+, -)
+checkbox.spaces.after.colon:
+    text: "Después de ':'"
+checkbox.spaces.after.comma:
+    text: Después de la coma
+checkbox.spaces.after.question:
+    text: "Después de '?'"
+checkbox.spaces.after.semicolon:
+    text: "Después del punto y coma de 'for'"
+checkbox.spaces.after.type.cast:
+    text: Después de la conversión de tipo
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: Llave izquierda del inicializador de matriz de anotación
+checkbox.spaces.annotation.parameters:
+    text: Parámetros de anotación
+checkbox.spaces.annotation.parentheses:
+    text: Paréntesis de anotación
+checkbox.spaces.around.lambda.arrow:
+    text: Flecha lambda
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: Doble dos puntos de referencia de método
+checkbox.spaces.around.unary.operator:
+    text: Operadores unarios (!, -, +, ++, --)
+checkbox.spaces.array.initializer.left.brace:
+    text: Llave izquierda del inicializador de array
+checkbox.spaces.assignment.operators:
+    text: Operadores de asignación (=, +=, …)
+checkbox.spaces.before.colon:
+    text: "Antes de ':'"
+checkbox.spaces.before.comma:
+    text: Antes de la coma
+checkbox.spaces.before.opening.angle.bracket:
+    text: Antes del corchete angular de apertura
+checkbox.spaces.before.question:
+    text: "Antes de '?'"
+checkbox.spaces.before.semicolon:
+    text: "Antes del punto y coma de 'for'"
+checkbox.spaces.bitwise.operators:
+    text: Operadores de bits (&, |, ^)
+checkbox.spaces.catch.keyword:
+    text: "Palabra clave 'catch'"
+checkbox.spaces.catch.left.brace:
+    text: "llave de apertura de 'catch'"
+checkbox.spaces.catch.parentheses:
+    text: "paréntesis de 'catch'"
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: Paréntesis de llamada a método vacía
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: Paréntesis de declaración de método vacío
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: Paréntesis de llamada a método
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: Paréntesis de declaración de método
+checkbox.spaces.class.left.brace:
+    text: Llave izquierda de la clase
+checkbox.spaces.do.left.brace:
+    text: "Llave de apertura de 'do'"
+checkbox.spaces.else.keyword:
+    text: "palabra clave 'else'"
+checkbox.spaces.else.left.brace:
+    text: "'else' llave izquierda"
+checkbox.spaces.equality.operators:
+    text: Operadores de igualdad (==, !=)
+checkbox.spaces.finally.keyword:
+    text: "Palabra clave 'finally'"
+checkbox.spaces.finally.left.brace:
+    text: "Llave izquierda de 'finally'"
+checkbox.spaces.for.left.brace:
+    text: "llave de apertura de 'for'"
+checkbox.spaces.for.parentheses:
+    text: "paréntesis de 'for'"
+checkbox.spaces.if.left.brace:
+    text: "Llave de apertura de 'if'"
+checkbox.spaces.if.parentheses:
+    text: "Paréntesis de 'if'"
+checkbox.spaces.logical.operators:
+    text: Operadores lógicos (&&, ||)
+checkbox.spaces.method.call.parentheses:
+    text: Paréntesis de llamada a método
+checkbox.spaces.method.declaration.parentheses:
+    text: Paréntesis de la declaración del método
+checkbox.spaces.method.left.brace:
+    text: Llave de apertura del método
+checkbox.spaces.multiplicative.operators:
+    text: Operadores multiplicativos (*, /, %)
+checkbox.spaces.relational.operators:
+    text: Operadores relacionales (<, >, <=, >=)
+checkbox.spaces.shift.operators:
+    text: Operadores de desplazamiento (<<, >>, >>>)
+checkbox.spaces.switch.left.brace:
+    text: "'switch' llave de apertura"
+checkbox.spaces.switch.parentheses:
+    text: "paréntesis de 'switch'"
+checkbox.spaces.synchronized.left.brace:
+    text: "'synchronized' llave de apertura"
+checkbox.spaces.synchronized.parentheses:
+    text: "Paréntesis de 'synchronized'"
+checkbox.spaces.try.left.brace:
+    text: "Llave de apertura de 'try'"
+checkbox.spaces.try.parentheses:
+    text: "Paréntesis de 'try'"
+checkbox.spaces.type.cast.parentheses:
+    text: Paréntesis de conversión de tipo
+checkbox.spaces.while.keyword:
+    text: "palabra clave 'while'"
+checkbox.spaces.while.left.brace:
+    text: "'while' llave izquierda"
+checkbox.spaces.while.parentheses:
+    text: "paréntesis de 'while'"
+checkbox.spaces.within.array.initializer.braces:
+    text: Llaves del inicializador de array
+checkbox.spaces.within.braces:
+    text: Llaves de código
+checkbox.spaces.within.brackets:
+    text: Corchetes
+checkbox.spaces.within.empty.array.initializer.braces:
+    text: Llaves de inicializador de array vacío
+checkbox.spaces.within.parentheses:
+    text: Paréntesis de agrupación
+code.style.other.label:
+    text: 'Archivos de texto y tipos de archivo no compatibles:'
+code.style.scheme.import.unnamed:
+    text: Sin nombre
+editbox.blanklines.around.field.in.interface:
+    text: 'Alrededor del campo en la interfaz:'
+editbox.blanklines.around.method.in.interface:
+    text: 'Alrededor del método en la interfaz:'
+editbox.blanklines.before.class.end:
+    text: 'Antes del final de la clase:'
+editbox.indent.continuation.indent:
+    text: 'Sangría de continuación:'
+editbox.indent.indent:
+    text: 'Sangría:'
+editbox.indent.tab.size:
+    text: 'Tamaño del tabulador:'
+editbox.right.margin.columns:
+    text: 'Ajuste de línea en:'
+group.spaces.after.right.brace:
+    text: Antes de palabras clave
+group.spaces.around.operators:
+    text: Alrededor de los operadores
+group.spaces.before.left.brace:
+    text: Antes de la llave de apertura
+group.spaces.before.parentheses:
+    text: Antes de los paréntesis
+group.spaces.in.ternary.operator:
+    text: En el operador ternario (?:)
+group.spaces.in.type.arguments:
+    text: En los argumentos de tipo
+group.spaces.in.type.arguments.block:
+    text: Argumentos de tipo
+group.spaces.in.type.parameters.block:
+    text: Parámetros de tipo
+group.spaces.other:
+    text: Otros
+group.spaces.within:
+    text: Dentro de
+import.scheme.shared:
+    text: Esquema compartido
+indent.status.bar.indent.tooltip:
+    text: 'Sangría:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0} espacio|2#{0} espacios}'
+indent.status.bar.tab:
+    text: Tabulador
+label.loading.page.please.wait:
+    text: Cargando…
+message.code.style.scheme.import.failure:
+    text: 'La importación de {0} falló con el mensaje de error: {1}'
+message.code.style.scheme.import.success:
+    text: Se importaron los ajustes de {0} al esquema {1}.{2}
+settings.code.style.default.general:
+    text: Predeterminado
+settings.default.value.prefix:
+    text: 'Predeterminado: {0}'
+settings.soft.margins.empty.list:
+    text: Ninguno
+title.blank.lines:
+    text: Líneas en blanco
+title.import.scheme.chooser:
+    text: Importar esquema
+title.keep.blank.lines:
+    text: Mantener el máximo de líneas en blanco
+title.minimum.blank.lines:
+    text: Líneas en blanco mínimas
+title.naming.comment.code:
+    text: Comentar código
+title.settings:
+    text: Configuración
+wrapping.after.modifier.list:
+    text: Ajustar línea después de la lista de modificadores
+wrapping.align.fields.in.columns:
+    text: Alinear campos en columnas
+wrapping.align.in.columns:
+    text: Alinear en columnas
+wrapping.align.parenthesised.when.multiline:
+    text: Alinear lo que está entre paréntesis en varias líneas
+wrapping.align.simple.methods.in.columns:
+    text: Alinear métodos simples en columnas
+wrapping.align.throws.keyword:
+    text: "Alinear 'throws' al inicio del método"
+wrapping.align.variables.in.columns:
+    text: Alinear variables en columnas
+wrapping.align.when.multiline:
+    text: Alinear cuando hay varias líneas
+wrapping.array.initializer:
+    text: Listas de inicialización
+wrapping.assert.statement:
+    text: Sentencia assert
+wrapping.assignment.sign.on.next.line:
+    text: Signo de asignación en la línea siguiente
+wrapping.assignment.statement:
+    text: Sentencia de asignación
+wrapping.binary.operations:
+    text: Expresiones binarias
+wrapping.brace.placement:
+    text: Ubicación de las llaves
+wrapping.brace.placement.class.declaration:
+    text: En clases y estructuras
+wrapping.brace.placement.end.of.line:
+    text: Al final de la línea
+wrapping.brace.placement.lambda:
+    text: En la declaración de lambda
+wrapping.brace.placement.method.declaration:
+    text: En la declaración del método
+wrapping.brace.placement.next.line:
+    text: Siguiente línea
+wrapping.brace.placement.next.line.each.shifted:
+    text: Siguiente línea, cada una desplazada
+wrapping.brace.placement.next.line.if.wrapped:
+    text: Siguiente línea si se ha ajustado
+wrapping.brace.placement.next.line.shifted:
+    text: Siguiente línea desplazada
+wrapping.brace.placement.other:
+    text: Otro
+wrapping.case.statements.on.one.line:
+    text: "Cada 'case' en una línea separada"
+wrapping.catch.on.new.line:
+    text: "'catch' en una nueva línea"
+wrapping.chained.method.call.first.on.new.line:
+    text: Ajustar primera llamada
+wrapping.chained.method.calls:
+    text: Llamadas a métodos encadenados
+wrapping.chop.down.if.long:
+    text: Dividir si es largo
+wrapping.classes.annotation:
+    text: Anotaciones de clase
+wrapping.colon.signs.on.next.line:
+    text: "Signos ':' en la siguiente línea"
+wrapping.comments:
+    text: Comentarios
+wrapping.comments.wrap.at.right.margin:
+    text: Ajustar al margen derecho
+wrapping.do.not.wrap:
+    text: No ajustar línea
+wrapping.dowhile.statement:
+    text: "sentencia 'do … while()'"
+wrapping.else.on.new.line:
+    text: "'else' en una nueva línea"
+wrapping.enum.constants:
+    text: Constantes de enumeración
+wrapping.extends.implements.keyword:
+    text: Palabra clave extends/implements/permits
+wrapping.extends.implements.list:
+    text: Lista de extends/implements/permits
+wrapping.fields.annotation:
+    text: Anotaciones de campo
+wrapping.finally.on.new.line:
+    text: "'finally' en nueva línea"
+wrapping.for.statement:
+    text: "Sentencia 'for()'"
+wrapping.force.braces:
+    text: Forzar llaves
+wrapping.force.braces.always:
+    text: Siempre
+wrapping.force.braces.do.not.force:
+    text: No forzar
+wrapping.force.braces.when.multiline:
+    text: Cuando es multilínea
+wrapping.if.statement:
+    text: "Sentencia 'if()'"
+wrapping.indent.break.from.case:
+    text: "Indentar 'break' desde 'case'"
+wrapping.indent.case.from.switch:
+    text: "Indentar las ramas 'case'"
+wrapping.keep.comment.at.first.column:
+    text: Comentario en la primera columna
+wrapping.keep.line.breaks:
+    text: Saltos de línea
+wrapping.keep.multiple.expressions.in.one.line:
+    text: Múltiples expresiones en una línea
+wrapping.keep.simple.blocks.in.one.line:
+    text: Lambdas simples en una línea
+wrapping.keep.simple.classes.in.one.line:
+    text: Clases simples en una sola línea
+wrapping.keep.simple.lambdas.in.one.line:
+    text: Lambdas simples en una sola línea
+wrapping.keep.simple.methods.in.one.line:
+    text: Funciones simples en una sola línea
+wrapping.keep.when.reformatting:
+    text: Mantener al reformatear
+wrapping.local.variables.annotation:
+    text: Anotaciones de variables locales
+wrapping.long.lines:
+    text: Asegurar que no se exceda el margen derecho
+wrapping.method.arguments:
+    text: Argumentos de llamada a método
+wrapping.method.parameters:
+    text: Parámetros de declaración de método
+wrapping.method.parentheses:
+    text: Paréntesis del método
+wrapping.methods.annotation:
+    text: Anotaciones de método
+wrapping.modifier.list:
+    text: Lista de modificadores
+wrapping.new.line.after.lbrace:
+    text: "Nueva línea después de '{'"
+wrapping.new.line.after.lpar:
+    text: "Nueva línea después de '('"
+wrapping.operation.sign.on.next.line:
+    text: Signo de operación en la siguiente línea
+wrapping.parameters.annotation:
+    text: Anotaciones de parámetros
+wrapping.quest.and.colon.signs.on.next.line:
+    text: "Signos '?' y ':' en la siguiente línea"
+wrapping.rbrace.on.new.line:
+    text: "Colocar '}' en una nueva línea"
+wrapping.rpar.on.new.line:
+    text: "Colocar ')' en una nueva línea"
+wrapping.special.else.if.braces.treatment:
+    text: "Tratamiento especial de 'else if'"
+wrapping.switch.statement:
+    text: "sentencia 'switch'"
+wrapping.take.priority.over.call.chain.wrapping:
+    text: Tener prioridad sobre el ajuste de línea de la cadena de llamadas
+wrapping.ternary.operation:
+    text: Operación ternaria
+wrapping.throws.keyword:
+    text: Palabra clave throws
+wrapping.throws.list:
+    text: "Lista de 'throws'"
+wrapping.try.statement:
+    text: "Sentencia 'try'"
+wrapping.while.on.new.line:
+    text: "'while' en una nueva línea"
+wrapping.while.statement:
+    text: "Sentencia 'while()'"
+wrapping.wrap.always:
+    text: Ajustar siempre
+wrapping.wrap.if.long:
+    text: Ajustar si es largo
+wrapping.wrap.on.typing:
+    text: Ajustar al escribir
+wrapping.wrap.on.typing.default:
+    text: Predeterminado
+wrapping.wrap.on.typing.wrap:
+    text: Sí

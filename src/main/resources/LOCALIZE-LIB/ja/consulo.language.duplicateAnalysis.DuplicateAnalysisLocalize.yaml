@@ -1,0 +1,48 @@
+duplicate.anonymize.uncommon.description:
+    text: (値を増やすと動作は遅くなります)
+duplicate.anonymize.uncommon.outside.scope.checkbox:
+    text: スコープ外からのみ可視(&O)
+duplicate.dialog.title:
+    text: コード重複分析設定
+duplicate.location.invalid:
+    text: 無効
+duplicates.searching.progress:
+    text: '重複を検索しています :'
+duplicates.send.to.left.action:
+    text: 左側に送る
+duplicates.send.to.left.action.description:
+    text: 選択した項目を左側の差分バージョンとして表示する
+duplicates.send.to.right.action:
+    text: 右側に送る
+duplicates.send.to.right.action.description:
+    text: 選択した項目を右側の差分バージョンとして表示する
+duplication.anonymize.fields.checkbox:
+    text: フィールドの分析(&F)
+duplication.anonymize.literals.checkbox:
+    text: 表現の分析(&L)
+duplication.anonymize.local.variables.checkbox:
+    text: ローカル変数の匿名化(&V)
+duplication.anonymize.methods.checkbox:
+    text: メソッドの分析(&M)
+duplication.anonymize.types.checkbox:
+    text: タイプの分析(&T)
+duplication.anonymize.uncommon.label:
+    text: 次よりも単純な共通部分式を匿名化する
+duplication.minimum.cost.label:
+    text: 次よりも単純な重複は表示しない
+duplication.none.found.message:
+    text: コードの重複はありません。
+duplication.none.found.title:
+    text: 重複の検索
+duplication.progress:
+    text: コードの重複分析
+duplication.scope.name.prefix:
+    text: 分析
+duplication.title:
+    text: コードの重複分析
+eliminate.duplicates.action.text:
+    text: 重複を除去する
+headless.duplocator.opening.project.message:
+    text: プロジェクトを開く...
+offline.duplicates.no.modules.message:
+    text: モジュールがありません。重複を続行できません。

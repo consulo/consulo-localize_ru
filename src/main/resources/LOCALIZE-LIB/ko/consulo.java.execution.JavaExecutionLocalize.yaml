@@ -1,0 +1,18 @@
+application.configuration.description:
+    text: Java 애플리케이션 구성
+application.configuration.include.provided.scope:
+    text: 클래스패스에 “provided” 스코프의 종속성 추가
+application.configuration.main.class.label:
+    text: '메인 클래스(_C):'
+application.configuration.name:
+    text: 애플리케이션
+application.configuration.shorten.command.line.label:
+    text: '명령줄 단축(_L):'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: '모듈의 클래스패스 사용(_O):'
+jar.application.configuration.description:
+    text: "'java-jar' 명령을 사용하여 JAR 파일을 실행하는 구성"
+jar.application.configuration.name:
+    text: JAR 애플리케이션
+jre.path.is.not.valid.jre.home.error.message:
+    text: "''{0}''은(는) 유효한 JRE 홈이 아닙니다"

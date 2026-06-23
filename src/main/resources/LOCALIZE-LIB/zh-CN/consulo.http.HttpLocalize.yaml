@@ -1,0 +1,32 @@
+error.connection.failed.with.http.code.N:
+    text: 连接失败，HTTP代码{0}
+http.proxy.configurable:
+    text: HTTP代理
+label.old.way.jvm.property.used:
+    text: 你有JVM属性"{0}"设置为"{1}"。<br>这可能会导致不正确的行为。代理服务器应该在设置中被设置 | HTTP代理<br>这个JVM属性是旧的,不推荐使用Oracle。<br>（注：它可以动态分配的一些代码。）
+proxy.direct.rb:
+    text: 无代理
+proxy.manual.auth:
+    text: 代理身份验证(&A)
+proxy.manual.exclude:
+    text: '不为以下项使用代理:'
+proxy.manual.exclude.example:
+    text: '示例: *.domain.com、192.168.*'
+proxy.manual.host:
+    text: '主机名(&H):'
+proxy.manual.port:
+    text: '端口号(&N):'
+proxy.manual.rb:
+    text: 手动代理配置
+proxy.pac.pw.clear.button:
+    text: 清除密码
+proxy.pac.rb:
+    text: 自动检测代理设置
+proxy.pac.rb.tt:
+    text: 这将尝试使用系统设置，如果系统使用代理自动配置文件(.pac)，此功能将非常有用。
+proxy.pac.url.label:
+    text: '自动代理配置 URL:'
+proxy.system.label:
+    text: "<html>您已将 JVM 属性 'java.net.useSystemProxies' 设为 'true'。<br>这将导致一些网络调用通过操作系统定义的代理。<br>如果您不打算使用系统定义的代理，请禁用此属性。</html>"
+proxy.test.button:
+    text: 检查连接

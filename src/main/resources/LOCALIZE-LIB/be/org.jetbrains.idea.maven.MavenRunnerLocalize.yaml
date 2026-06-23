@@ -1,0 +1,106 @@
+build.event.message.out.memory:
+    text: Недастаткова памяці
+embedded.build.failed:
+    text: СБОРКА НЕ УДАЛАСЬ
+external.maven.home.does.not.exist:
+    text: Указаная дамашняя дырэкторыя Maven ({0}) не існуе
+external.maven.home.does.not.exist.with.fix:
+    text: Указаная дамашняя дырэкторыя Maven ({0}) не існуе. <a href="#">Наладзіць дамашнюю дырэкторыю Maven</a>
+external.maven.home.invalid:
+    text: "{0} не з'яўляецца карэктнай дамашняй дырэкторыяй Maven"
+external.maven.home.invalid.with.fix:
+    text: "{0} не з'яўляецца карэктнай дамашняй дырэкторыяй Maven. <a href=\"#\">Наладзіць дамашнюю дырэкторыю Maven</a>"
+external.maven.home.no.default:
+    text: Не знойдзена карэктная ўсталёўка Maven. Укажыце дамашнюю дырэкторыю ў дыялогу налад або ўсталюйце пераменную асяроддзя M2_HOME у вашай сістэме.
+external.maven.home.no.default.with.fix:
+    text: Не знойдзена карэктная ўсталёўка Maven. Укажыце дамашнюю дырэкторыю ў <a href="#">дыялогу налад</a> або ўсталюйце пераменную асяроддзя M2_HOME у вашай сістэме.
+maven.execution.aborted:
+    text: Выкананне Maven перарвана
+maven.execution.finished:
+    text: Выкананне Maven завершана
+maven.execution.terminated.abnormally:
+    text: Выкананне Maven завяршылася з памылкай
+maven.java.home.undefined:
+    text: Пераменная асяроддзя JAVA_HOME не вызначана
+maven.java.not.found:
+    text: "Не ўдаецца знайсці JRE ''{0}''"
+maven.java.not.found.default.config:
+    text: "Не ўдаецца знайсці JRE ''{0}''. Вы можаце ўказаць JRE для запуску мэт Maven у Налады | Maven | Запуск"
+maven.options.description.B:
+    text: Запуск у неінтэрактыўным (пакетным) рэжыме (адключае каляровы вывад)
+maven.options.description.C:
+    text: Перарваць зборку, калі кантрольныя сумы не супадаюць
+maven.options.description.D:
+    text: Вызначыць сістэмную ўласцівасць
+maven.options.description.N:
+    text: Не рэкурсіраваць у падпраекты
+maven.options.description.P:
+    text: Спіс профіляў для актывацыі, падзелены коскамі
+maven.options.description.T:
+    text: Колькасць патокаў, напрыклад 2.0C, дзе C - множнік ядзер
+maven.options.description.U:
+    text: Прымусова правяраць адсутныя рэлізы і абноўленыя снапшоты ў аддаленых рэпазіторыях
+maven.options.description.V:
+    text: Паказаць інфармацыю пра версію БЕЗ спынення зборкі
+maven.options.description.X:
+    text: Выводзіць адладачную інфармацыю выканання
+maven.options.description.am:
+    text: Калі ўказаны спіс праектаў, таксама збіраць праекты, неабходныя для спісу
+maven.options.description.amd:
+    text: Калі ўказаны спіс праектаў, таксама збіраць праекты, якія залежаць ад праектаў у спісе
+maven.options.description.cpu:
+    text: Неэфектыўна, захавана толькі для адваротнай сумяшчальнасці
+maven.options.description.e:
+    text: Выводзіць паведамленні пра памылкі выканання
+maven.options.description.emp:
+    text: Зашыфраваць майстар-пароль бяспекі
+maven.options.description.ep:
+    text: Зашыфраваць пароль сервера
+maven.options.description.f:
+    text: Прымусова выкарыстоўваць альтэрнатыўны POM-файл (або каталог з pom.xml)
+maven.options.description.fae:
+    text: Пазначаць зборку як няўдалую толькі пасля завяршэння; дазволіць працяг усіх незакранутых зборак
+maven.options.description.ff:
+    text: Спыніць пры першай памылцы ў рэактарных зборках
+maven.options.description.fn:
+    text: НІКОЛІ не пазначаць зборку як няўдалую, незалежна ад выніку праекта
+maven.options.description.gs:
+    text: Альтэрнатыўны шлях для файла глабальных налад
+maven.options.description.gt:
+    text: Альтэрнатыўны шлях для файла глабальных інструментаў
+maven.options.description.h:
+    text: Паказаць даведачную інфармацыю
+maven.options.description.l:
+    text: Лог-файл для ўсяго вываду зборкі (адключае каляровы вывад)
+maven.options.description.llr:
+    text: Выкарыстоўваць паводзіны лакальнага рэпазіторыя Maven 2 Legacy, г.зн. без выкарыстання _remote.repositories. Таксама можна актываваць з дапамогай -Dmaven.legacyLocalRepo=true  [_R]
+maven.options.description.npr:
+    text: Неэфектыўна, захавана толькі для адваротнай сумяшчальнасці
+maven.options.description.npu:
+    text: Неэфектыўна, захавана толькі для адваротнай сумяшчальнасці
+maven.options.description.nsu:
+    text: Адключыць абнаўленні SNAPSHOT
+maven.options.description.o:
+    text: Работать офлайн
+maven.options.description.pl:
+    text: Спіс указаных рэактарных праектаў для зборкі замест усіх праектаў (праз коску). Праект можна ўказаць праз [groupId]:artifactId або адносны шлях
+maven.options.description.q:
+    text: Ціхі вывад - паказваць толькі памылкі
+maven.options.description.rf:
+    text: Аднавіць рэактар з указанага праекта
+maven.options.description.s:
+    text: Альтэрнатыўны шлях для файла карыстальніцкіх налад
+maven.options.description.up:
+    text: Неэфектыўна, захавана толькі для адваротнай сумяшчальнасці
+maven.run.configuration.description:
+    text: Сборка Maven
+maven.runner.parameters.title:
+    text: Параметры
+maven.running:
+    text: Выполняется {0}
+maven.select.maven.home.directory:
+    text: Выбраць дамашнюю дырэкторыю Maven
+maven.tab.runner:
+    text: Запуск
+popup.title.maven.goals:
+    text: Мэты Maven

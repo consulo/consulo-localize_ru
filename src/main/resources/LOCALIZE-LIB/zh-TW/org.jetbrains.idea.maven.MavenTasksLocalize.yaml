@@ -1,0 +1,16 @@
+maven.tasks.before.run:
+    text: "執行 Maven 目標 ''{0}''"
+maven.tasks.before.run.empty:
+    text: 執行 Maven 目標
+maven.tasks.executing:
+    text: 正在執行 Maven 目標
+maven.tasks.goal:
+    text: Maven 目標
+maven.tasks.goal.after.compile:
+    text: 建置後
+maven.tasks.goal.before.compile:
+    text: 建置之前
+maven.tasks.goal.before.run:
+    text: 執行前
+maven.tasks.select.goal.title:
+    text: 選擇 Maven 目標
