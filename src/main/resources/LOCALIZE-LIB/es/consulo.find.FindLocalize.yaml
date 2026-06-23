@@ -1,0 +1,276 @@
+0.occurrences.replaced:
+    text: '{0,choice,0#0 coincidencias reemplazadas|1#{0} coincidencia reemplazada|2#{0} coincidencias reemplazadas}'
+button.exclude:
+    text: Excluir
+button.include:
+    text: Incluir
+cannot.search.for.usages.title:
+    text: No se pueden buscar usos
+empty.text.searching:
+    text: Buscando…
+find.button:
+    text: Buscar
+find.case.sensitive:
+    text: '&Coincidir mayúsculas y minúsculas'
+find.context.anywhere.scope.label:
+    text: Cualquier lugar
+find.context.except.comments.and.literals.scope.label:
+    text: Excepto comentarios y literales de cadena
+find.context.except.comments.scope.label:
+    text: Excepto comentarios
+find.context.except.literals.scope.label:
+    text: Excepto literales de cadena
+find.context.in.comments.scope.label:
+    text: En comentarios
+find.context.in.literals.scope.label:
+    text: En literales de cadena
+find.dialog.find.button:
+    text: Buscar
+find.directory.not.found.error:
+    text: No se encontró el directorio
+find.empty.match.regular.expression.error:
+    text: La expresión regular coincide con una cadena vacía
+find.empty.search.text.error:
+    text: No se ha introducido texto de búsqueda
+find.excessive.total.size.prompt:
+    text: Se han encontrado coincidencias en archivos con un tamaño total de {0}. {1} podría dejar de responder o incluso fallar con un error OutOfMemoryError si continúa. ¿Desea continuar?
+find.field.accessors.prompt:
+    text: "¿Buscar accesores del campo ''{0}''?"
+find.field.accessors.title:
+    text: Buscar descriptores de acceso
+find.filter.empty.file.mask.error:
+    text: Máscara de archivo vacía
+find.filter.file.mask.checkbox:
+    text: Máscara(s) de &archivo
+find.filter.file.name.group:
+    text: Filtro de nombre de archivo
+find.filter.invalid.file.mask.error:
+    text: Máscara de archivo no válida "{0}"
+find.highlight.no.more.highlights.found:
+    text: No se encontraron más resaltados
+find.in.path.dialog.title:
+    text: Buscar en archivos
+find.invalid.regular.expression.error:
+    text: 'Patrón no válido "{0}": {1}'
+find.new.line:
+    text: Nueva línea
+find.no.usages.at.cursor.error:
+    text: |-
+        No se pueden buscar usos desde esta ubicación.
+        Coloque el cursor sobre el elemento para el que desea buscar usos e inténtelo de nuevo.
+find.open.in.new.tab.action:
+    text: Abrir resultados en una nueva pestaña (&B)
+find.open.in.new.tab.checkbox:
+    text: Abrir resultados en una nueva pestaña (&B)
+find.options.include.overloaded.methods.checkbox:
+    text: Métodos sobre&cargados
+find.options.replace.preserve.case:
+    text: Respetar mayúsculas y minúsculas (&E)
+find.options.search.for.text.occurrences.checkbox:
+    text: C&oincidencias de texto
+find.options.skip.results.tab.with.one.usage.checkbox:
+    text: Omitir pestaña de resultados con un solo uso (&K)
+find.parameter.usages.in.overriding.methods.prompt:
+    text: "¿Desea buscar usos del parámetro ''{0}'' en los métodos de sobrescritura?"
+find.pointcut.applications.not.found.title:
+    text: Información
+find.popup.case.sensitive:
+    text: Coincidir mayús&culas y minúsculas
+find.popup.filemask:
+    text: 'Máscara de arc&hivo:'
+find.popup.find.button:
+    text: Abrir en la ventana de búsqueda
+find.popup.replace.all.button:
+    text: Reemplazar &todo
+find.popup.replace.selected.button:
+    text: Reemplazar{0,choice,0#|1#|2# {0} apariciones}
+find.popup.scope.directory:
+    text: '&Directorio'
+find.popup.scope.module:
+    text: '&Módulo'
+find.popup.scope.project:
+    text: En el &proyecto
+find.popup.scope.scope:
+    text: Ámbito (&S)
+find.popup.show.filter.popup:
+    text: Filtrar resultados de búsqueda
+find.progress.search.completed:
+    text: Búsqueda completada
+find.progress.searching.message:
+    text: Buscando en {0}…
+find.recursively.hint:
+    text: Buscar recursivamente en subdirectorios
+find.regex:
+    text: E&xpresión regular
+find.replace.accessible.name:
+    text: Reemplazar
+find.replace.all.action:
+    text: Reempl&azar todo
+find.replace.all.confirmation:
+    text: "<html><body>¿Reemplazar {0} apariciones de ''{1}''<br>en {2} archivos por ''{3}''?"
+find.replace.all.confirmation.title:
+    text: Reemplazar todo
+find.replace.command:
+    text: Reemplazar
+find.replace.dialog.title:
+    text: Reemplazar
+find.replace.history:
+    text: Historial de reemplazo
+find.replace.in.project.dialog.title:
+    text: Reemplazar en archivos
+find.replace.invalid.replacement.string:
+    text: 'Cadena de reemplazo con formato incorrecto: {0}'
+find.replace.invalid.replacement.string.title:
+    text: Error de reemplazo
+find.replace.selected.action:
+    text: '&Reemplazar{0,choice,0#|1#|2# {0} coincidencias}'
+find.replace.text.dialog.title:
+    text: Reemplazar texto
+find.scope.all.project.classes:
+    text: Todas las clases del proyecto
+find.scope.directory.recursive.checkbox:
+    text: Recursivament&e
+find.scope.directory.title:
+    text: Directorio {0}
+find.scope.files.with.mask:
+    text: "con la máscara ''{0}''"
+find.scope.label:
+    text: '&Ámbito:'
+find.scope.module.title:
+    text: "Módulo ''{0}''"
+find.scope.project.title:
+    text: Proyecto
+find.search.accessible.name:
+    text: Buscar
+find.search.again.from.bottom.action.message:
+    text: '{0}, realice "Buscar anterior" de nuevo para buscar desde el final'
+find.search.again.from.bottom.hotkey.message:
+    text: '{0}, presione {1} para buscar desde el final'
+find.search.again.from.top.action.message:
+    text: '{0}, ejecute "Buscar siguiente" de nuevo para buscar desde el principio'
+find.search.again.from.top.hotkey.message:
+    text: '{0}, presione {1} para buscar desde el principio'
+find.search.history:
+    text: Historial de búsqueda
+find.search.string.not.found.message:
+    text: No se encontró "{0}"
+find.searched.elements.have.been.changed.error:
+    text: |-
+        Los elementos buscados han cambiado.
+        No se pueden buscar los usos.
+find.searching.for.references.to.class.progress:
+    text: Buscando referencias a la clase {0}…
+find.searching.for.string.in.file.occurrences.progress:
+    text: '{0,choice,0#No se han encontrado|1#{0}} {0,choice,0#coincidencias|1#coincidencia|2#coincidencias} hasta ahora'
+find.searching.for.string.in.file.progress:
+    text: "Buscando ''{0}'' en {1}…"
+find.selection.only:
+    text: Buscar en la selección
+find.super.method.warning.action.verb:
+    text: buscar usos de
+find.text.dialog.title:
+    text: Buscar texto
+find.usage.view.no.usages.text:
+    text: No se encontraron usos
+find.usage.view.tab.text:
+    text: "Ocurrencias de ''{0}''{1}"
+find.usage.view.toolwindow.title:
+    text: "Coincidencias de ''{0}'' en {1}{2}"
+find.usages.ambiguous.title:
+    text: Buscar usos de
+find.usages.dialog.title:
+    text: Buscar usos
+find.usages.in.file.dialog.title:
+    text: Buscar usos en el archivo
+find.usages.of.element.in.scope.panel.title:
+    text: '{0} en {1}'
+find.usages.of.element.tab.name:
+    text: '{0} de {1}'
+find.usages.of.element_type.element_name.not.found.message:
+    text: No se encontraron usos de {0} {1}
+find.usages.panel.title.derived.classes:
+    text: clases derivadas
+find.usages.panel.title.derived.interfaces:
+    text: interfaces derivadas
+find.usages.panel.title.implementing.classes:
+    text: clases de implementación
+find.usages.panel.title.implementing.methods:
+    text: métodos de implementación
+find.usages.panel.title.overloaded.methods.usages:
+    text: métodos sobrecargados
+find.usages.panel.title.overriding.methods:
+    text: métodos que sobrescriben
+find.usages.panel.title.usages:
+    text: Usos
+find.what.derived.classes.checkbox:
+    text: Clases &derivadas
+find.what.derived.interfaces.checkbox:
+    text: Interfaces &derivadas
+find.what.fields.usages.checkbox:
+    text: Usos de &campos
+find.what.group:
+    text: 'Buscar:'
+find.what.implementing.classes.checkbox:
+    text: Clases de &implementación
+find.what.implementing.methods.checkbox:
+    text: '&Implementación de métodos'
+find.what.implicit.to.string.checkbox:
+    text: Llamadas i&mplícitas
+find.what.methods.usages.checkbox:
+    text: Usos de &métodos
+find.what.overriding.methods.checkbox:
+    text: Métodos de sob&rescritura
+find.what.usages.checkbox:
+    text: '&Usos'
+find.what.usages.of.classes.and.interfaces:
+    text: Usos de &clases e interfaces
+find.whole.words:
+    text: '&Palabras completas'
+found.occurrences:
+    text: Coincidencias encontradas en {0}
+label.use.0.and.1.to.select.usages:
+    text: Use {0} y {1} para seleccionar los usos
+link.click.to.highlight:
+    text: Haga clic para resaltar
+message.file.masks.should.be.comma.separated:
+    text: Las máscaras de archivo deben estar separadas por comas.
+message.nothingFound:
+    text: No se ha encontrado nada
+message.nothingFound.clearAll:
+    text: Limpiar todas las opciones
+message.nothingFound.used.options:
+    text: 'Opciones de búsqueda utilizadas:'
+notification.content.one.or.more.malformed.replacement.strings:
+    text: Una o más cadenas de reemplazo tienen un formato incorrecto
+notification.find.usages.is.not.available.during.indexing:
+    text: "'Buscar usos' estará disponible una vez que finalice el análisis del proyecto"
+notification.title.regular.expression.failed.to.match:
+    text: La expresión regular no coincidió
+occurrence:
+    text: aparición
+progress.text.scanning.indexed.files:
+    text: Escaneando archivos indexados…
+progress.text.scanning.non.indexed.files:
+    text: Escaneando archivos no indexados…
+progress.title.finding.usages:
+    text: Buscando usos
+progress.title.updating.usage.view:
+    text: Actualizando la vista de usos…
+recent.find.usages.action.nothing:
+    text: No hay entradas recientes de búsqueda de usos
+recent.find.usages.action.popup:
+    text: "{0} ''{1}'' en {2}"
+recent.find.usages.action.title:
+    text: Búsquedas de usos recientes
+se.text.header.action.all.filetypes:
+    text: Todos los tipos de archivo
+search.everywhere.group.name:
+    text: Git
+select.next.occurence.not.found.message:
+    text: No encontrado, intente buscar desde el principio
+show.in.find.window.button.description:
+    text: Abrir los resultados de búsqueda en la ventana de herramientas Buscar
+show.in.find.window.button.name:
+    text: Abrir en la ventana de herramientas Buscar
+tooltip.close.search.bar.escape:
+    text: Cerrar barra de búsqueda (Escape)

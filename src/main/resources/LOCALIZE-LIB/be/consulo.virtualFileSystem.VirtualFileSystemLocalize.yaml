@@ -1,0 +1,60 @@
+cannot.create.local.file:
+    text: 'Немагчыма стварыць лакальны файл: {0}'
+cannot.delete.root.directory:
+    text: "Немагчыма выдаліць каранёвы каталог ''{0}''"
+cannot.load.remote.file:
+    text: "Немагчыма загрузіць ''{0}'': {1}"
+cannot.rename.root.directory:
+    text: "Немагчыма перайменаваць каранёвую дырэкторыю ''{0}''."
+dialog.title.clear.read.only.file.status:
+    text: Ачысціць статус толькі для чытання
+dir.already.exists.error:
+    text: "Дырэкторыя ''{0}'' ужо існуе."
+directory.create.wrong.parent.error:
+    text: "Не з'яўляецца дырэкторыяй. Немагчыма стварыць новую дырэкторыю."
+directory.invalid.name.error:
+    text: "Недапушчальнае імя дырэкторыі: ''{0}''."
+download.progress.connecting:
+    text: Падключэнне да «{0}»…
+download.progress.downloading:
+    text: Загрузка «{0}»…
+file.already.exists.error:
+    text: "Файл ''{0}'' ужо існуе."
+file.copy.error:
+    text: Немагчыма скапіраваць файл у {0}.
+file.copy.target.must.be.directory:
+    text: "Немагчыма скапіраваць, мэтавы аб'ект павінен быць дырэкторыяй."
+file.create.already.exists.error:
+    text: Немагчыма стварыць файл {0}/{1}. Файл ужо існуе.
+file.create.wrong.parent.error:
+    text: "Не з'яўляецца дырэкторыяй. Немагчыма стварыць новы файл."
+file.delete.root.error:
+    text: Не ўдаецца выдаліць каранёвы файл{0}.
+file.invalid.name.error:
+    text: "Недапушчальнае імя файла: ''{0}''."
+file.move.error:
+    text: Немагчыма перамясціць файл у {0}.
+file.read.error:
+    text: Немагчыма прачытаць файл {0}
+file.synchronize.progress:
+    text: Сінхранізацыя файлаў...
+file.write.error:
+    text: Немагчыма запісаць у файл {0}
+handle.ro.file.status.failed:
+    text: <html>Не ўдалося змяніць статус толькі для чытання для наступных файлаў:<br>{0}</html>
+handle.ro.file.status.type.using.file.system:
+    text: Выкарыстоўвайце файлавую сістэму
+invalid.directory.create.files:
+    text: Недапушчальная дырэкторыя. Немагчыма стварыць файлы.
+jar.modification.not.supported.error:
+    text: Немагчыма змяніць jar або zip файл {0}
+url.parse.error:
+    text: Не удалось разобрать URL {0}
+url.parse.unhandled.exception:
+    text: Не ўдалося разабраць URL, узнікла неапрацаванае выключэнне
+vfs.file.not.exist.error:
+    text: «{0}» не існуе ў VFS
+vfs.target.already.exists.error:
+    text: «{0}» ужо існуе ў VFS
+vfs.target.not.directory.error:
+    text: "''{0}'' не з'яўляецца каталогам у VFS"

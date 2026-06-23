@@ -1,0 +1,456 @@
+action.stop:
+    text: 중지
+arrangement.action.rule.add.description:
+    text: 새 배치 규칙 추가
+arrangement.action.rule.add.text:
+    text: 규칙 추가
+arrangement.action.rule.edit.description:
+    text: 선택한 배치 규칙 편집
+arrangement.action.rule.edit.text:
+    text: 규칙 편집
+arrangement.action.rule.move.down.description:
+    text: 선택한 배치 규칙 아래로 이동
+arrangement.action.rule.move.down.text:
+    text: 아래로 이동
+arrangement.action.rule.move.up.description:
+    text: 선택한 배치 규칙 위로 이동
+arrangement.action.rule.move.up.text:
+    text: 위로 이동
+arrangement.action.rule.remove.description:
+    text: 선택한 배치 규칙 제거
+arrangement.action.rule.remove.text:
+    text: 규칙 제거
+arrangement.settings.additional.force.combobox.name:
+    text: '강제 재배치:'
+arrangement.settings.additional.force.rearrange.according.to.dialog:
+    text: 현재 모드 사용 (코드 재포맷 대화 상자에서 토글됨)
+arrangement.settings.additional.force.rearrange.always:
+    text: 항상
+arrangement.settings.additional.force.rearrange.never:
+    text: 안 함
+arrangement.settings.additional.title:
+    text: 추가 설정
+arrangement.settings.groups.dependent.methods:
+    text: 종속된 메서드 함께 유지
+arrangement.settings.groups.getters.and.setters.together:
+    text: 게터와 세터 함께 유지
+arrangement.settings.groups.overridden.methods:
+    text: 재정의된 메서드 함께 유지
+arrangement.settings.groups.property.field:
+    text: 대응하는 게터/세터와 함께 속성 필드 그룹화
+arrangement.settings.order.type.breadth.first:
+    text: 너비 우선 순서
+arrangement.settings.order.type.by.name:
+    text: 이름순으로 정렬
+arrangement.settings.order.type.depth.first:
+    text: 깊이 우선 순서
+arrangement.settings.order.type.keep:
+    text: 순서 유지
+arrangement.settings.section.groups:
+    text: '그룹화 규칙:'
+arrangement.settings.section.match:
+    text: '일치 규칙:'
+arrangement.settings.text.entry.type.xml.attribute:
+    text: 속성
+arrangement.settings.text.entry.type.xml.tag:
+    text: 태그
+arrangement.settings.text.general.modifier:
+    text: '수정자:'
+arrangement.settings.text.general.name:
+    text: '이름:'
+arrangement.settings.text.general.order:
+    text: '순서:'
+arrangement.settings.text.general.text:
+    text: '텍스트:'
+arrangement.settings.text.general.type:
+    text: '유형:'
+arrangement.settings.text.general.xml.namespace:
+    text: '네임스페이스:'
+arrangement.text.empty.rule:
+    text: <빈 규칙>
+arrangement.text.name:
+    text: 이름
+arrangement.text.type:
+    text: 유형
+arrangement.title.settings.tab:
+    text: 배치(Arrangement)
+button.delete:
+    text: 삭제
+button.save.as:
+    text: 다른 이름으로 저장...
+checkbox.align.multiline.assignments:
+    text: 지정
+checkbox.align.multiline.fields.groups:
+    text: 선언 그룹화
+checkbox.align.multiline.parenthesized.expression:
+    text: 괄호 안의 표현식
+checkbox.block.comment.at.first.column:
+    text: 첫 번째 열에 블록 주석 작성
+checkbox.indent.smart.tabs:
+    text: 스마트 탭
+checkbox.indent.use.tab.character:
+    text: 탭(Tab) 문자 사용
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: 제어문을 한 줄에 유지
+checkbox.line.comment.add.space:
+    text: 행 주석 시작 부분에 공백 추가
+checkbox.line.comment.at.first.column:
+    text: 첫 번째 열에 행 주석 작성
+checkbox.spaces.additive.operators:
+    text: 가산 연산자 (+, -)
+checkbox.spaces.after.colon:
+    text: "':' 뒤"
+checkbox.spaces.after.comma:
+    text: 쉼표 뒤
+checkbox.spaces.after.question:
+    text: "'?' 뒤"
+checkbox.spaces.after.semicolon:
+    text: "'for' 세미콜론 뒤"
+checkbox.spaces.after.type.cast:
+    text: 타입 캐스트 뒤
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: 어노테이션 배열 초기화 왼쪽 중괄호
+checkbox.spaces.annotation.parameters:
+    text: 어노테이션 매개변수
+checkbox.spaces.annotation.parentheses:
+    text: 어노테이션 괄호
+checkbox.spaces.around.lambda.arrow:
+    text: 람다 화살표
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: 메서드 참조 이중 콜론
+checkbox.spaces.around.unary.operator:
+    text: 단항 연산자 (!, -, +, ++, --)
+checkbox.spaces.array.initializer.left.brace:
+    text: 배열 초기화 왼쪽 중괄호
+checkbox.spaces.assignment.operators:
+    text: 할당 연산자 (=, +=, ...)
+checkbox.spaces.before.colon:
+    text: "':' 앞"
+checkbox.spaces.before.comma:
+    text: 쉼표 앞
+checkbox.spaces.before.opening.angle.bracket:
+    text: 여는 꺽쇠 괄호(<) 앞
+checkbox.spaces.before.question:
+    text: "'?' 앞"
+checkbox.spaces.before.semicolon:
+    text: "'for' 세미콜론 앞"
+checkbox.spaces.bitwise.operators:
+    text: 비트 연산자 (\&, |, ^)
+checkbox.spaces.catch.keyword:
+    text: "'catch' 키워드"
+checkbox.spaces.catch.left.brace:
+    text: "'catch' 왼쪽 중괄호"
+checkbox.spaces.catch.parentheses:
+    text: "'catch' 괄호"
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: 빈 메서드 호출 괄호
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: 빈 메서드 선언 괄호
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: 메서드 호출 괄호
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: 메서드 선언 괄호
+checkbox.spaces.class.left.brace:
+    text: 클래스 왼쪽 중괄호
+checkbox.spaces.do.left.brace:
+    text: "'do' 왼쪽 중괄호"
+checkbox.spaces.else.keyword:
+    text: "'else' 키워드"
+checkbox.spaces.else.left.brace:
+    text: "'else' 왼쪽 중괄호"
+checkbox.spaces.equality.operators:
+    text: 등가 연산자 (==, !=)
+checkbox.spaces.finally.keyword:
+    text: "'finally' 키워드"
+checkbox.spaces.finally.left.brace:
+    text: "'finally' 왼쪽 중괄호"
+checkbox.spaces.for.left.brace:
+    text: "'for' 왼쪽 중괄호"
+checkbox.spaces.for.parentheses:
+    text: "'for' 괄호"
+checkbox.spaces.if.left.brace:
+    text: "'if' 왼쪽 중괄호"
+checkbox.spaces.if.parentheses:
+    text: "'if' 괄호"
+checkbox.spaces.logical.operators:
+    text: 논리 연산자 (\&\&, ||)
+checkbox.spaces.method.call.parentheses:
+    text: 메서드 호출 괄호
+checkbox.spaces.method.declaration.parentheses:
+    text: 메서드 선언 괄호
+checkbox.spaces.method.left.brace:
+    text: 메서드 왼쪽 중괄호
+checkbox.spaces.multiplicative.operators:
+    text: 승산 연산자 (*, /, %)
+checkbox.spaces.relational.operators:
+    text: 관계 연산자 (<, >, <=, >=)
+checkbox.spaces.shift.operators:
+    text: 시프트 연산자 (<<, >>, >>>)
+checkbox.spaces.switch.left.brace:
+    text: "'switch' 왼쪽 중괄호"
+checkbox.spaces.switch.parentheses:
+    text: "'switch' 괄호"
+checkbox.spaces.synchronized.left.brace:
+    text: "'synchronized' 왼쪽 중괄호"
+checkbox.spaces.synchronized.parentheses:
+    text: "'synchronized' 괄호"
+checkbox.spaces.try.left.brace:
+    text: "'try' 왼쪽 중괄호"
+checkbox.spaces.try.parentheses:
+    text: "'try' 괄호"
+checkbox.spaces.type.cast.parentheses:
+    text: 타입 캐스트 괄호
+checkbox.spaces.while.keyword:
+    text: "'while' 키워드"
+checkbox.spaces.while.left.brace:
+    text: "'while' 왼쪽 중괄호"
+checkbox.spaces.while.parentheses:
+    text: "'while' 괄호"
+checkbox.spaces.within.array.initializer.braces:
+    text: 배열 초기화 중괄호 내
+checkbox.spaces.within.braces:
+    text: 코드 중괄호 내
+checkbox.spaces.within.brackets:
+    text: 대괄호 내
+checkbox.spaces.within.empty.array.initializer.braces:
+    text: 빈 배열 초기화 중괄호 내
+checkbox.spaces.within.parentheses:
+    text: 그룹화 괄호 내
+code.style.other.label:
+    text: '텍스트 파일 및 지원되지 않는 파일 형식:'
+code.style.scheme.import.unnamed:
+    text: 이름 없음
+editbox.blanklines.around.field.in.interface:
+    text: '인터페이스 필드 주변:'
+editbox.blanklines.around.method.in.interface:
+    text: '인터페이스 메서드 주변:'
+editbox.blanklines.before.class.end:
+    text: '클래스 종료 전:'
+editbox.indent.continuation.indent:
+    text: '연속 들여쓰기:'
+editbox.indent.indent:
+    text: '들여쓰기:'
+editbox.indent.tab.size:
+    text: '탭 크기:'
+editbox.right.margin.columns:
+    text: '하드 줄 바꿈 위치:'
+group.spaces.after.right.brace:
+    text: 키워드 앞
+group.spaces.around.operators:
+    text: 연산자 주변
+group.spaces.before.left.brace:
+    text: 왼쪽 중괄호 앞
+group.spaces.before.parentheses:
+    text: 괄호 앞
+group.spaces.in.ternary.operator:
+    text: '삼항 연산자( : ) 내'
+group.spaces.in.type.arguments:
+    text: 타입 인수 내
+group.spaces.in.type.arguments.block:
+    text: 타입 인수
+group.spaces.in.type.parameters.block:
+    text: 타입 매개변수
+group.spaces.other:
+    text: 기타
+group.spaces.within:
+    text: 내부
+import.scheme.shared:
+    text: 공유 구성표
+indent.status.bar.indent.tooltip:
+    text: '들여쓰기:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0}개 공백|2#{0}개 공백}'
+indent.status.bar.tab:
+    text: 탭
+label.loading.page.please.wait:
+    text: 로드 중…
+message.code.style.scheme.import.failure:
+    text: '{0} 가져오기 실패: {1}'
+message.code.style.scheme.import.success:
+    text: '{0} 설정이 {1} 구성표로 가져오기 되었습니다.{2}'
+settings.code.style.default.general:
+    text: 기본값
+settings.default.value.prefix:
+    text: '기본값: {0}'
+settings.soft.margins.empty.list:
+    text: 없음
+title.blank.lines:
+    text: 빈 줄
+title.import.scheme.chooser:
+    text: 구성표 가져오기
+title.keep.blank.lines:
+    text: 최대 빈 줄 유지
+title.minimum.blank.lines:
+    text: 최소 빈 줄
+title.naming.comment.code:
+    text: 코드 주석 처리
+title.settings:
+    text: 설정
+wrapping.after.modifier.list:
+    text: 수정자 목록 뒤에서 줄 바꿈
+wrapping.align.fields.in.columns:
+    text: 열에 맞춰 필드 정렬
+wrapping.align.parenthesised.when.multiline:
+    text: 괄호 내용이 여러 줄일 때 정렬
+wrapping.align.simple.methods.in.columns:
+    text: 열에 맞춰 단순 메서드 정렬
+wrapping.align.throws.keyword:
+    text: "'throws'를 메서드 시작 부분에 정렬"
+wrapping.align.variables.in.columns:
+    text: 열에 맞춰 변수 정렬
+wrapping.align.when.multiline:
+    text: 여러 줄일 때 정렬
+wrapping.array.initializer:
+    text: 배열 초기화 블록
+wrapping.assert.statement:
+    text: Assert 문
+wrapping.assignment.sign.on.next.line:
+    text: 할당 기호를 다음 줄에 표시
+wrapping.assignment.statement:
+    text: 할당문
+wrapping.binary.operations:
+    text: 이진 식
+wrapping.brace.placement:
+    text: 중괄호 배치
+wrapping.brace.placement.class.declaration:
+    text: 클래스 선언 시
+wrapping.brace.placement.end.of.line:
+    text: 줄 끝
+wrapping.brace.placement.lambda:
+    text: 람다 선언 시
+wrapping.brace.placement.method.declaration:
+    text: 메서드 선언 시
+wrapping.brace.placement.next.line:
+    text: 다음 줄
+wrapping.brace.placement.next.line.each.shifted:
+    text: 다음 줄(각각 들여쓰기)
+wrapping.brace.placement.next.line.if.wrapped:
+    text: 줄 바꿈 시 다음 줄
+wrapping.brace.placement.next.line.shifted:
+    text: 다음 줄(들여쓰기)
+wrapping.brace.placement.other:
+    text: 기타
+wrapping.case.statements.on.one.line:
+    text: "각 'case'를 별도의 줄에 표시"
+wrapping.catch.on.new.line:
+    text: "'catch'를 새 줄에 표시"
+wrapping.chained.method.call.first.on.new.line:
+    text: 첫 번째 호출 줄 바꿈
+wrapping.chained.method.calls:
+    text: 체이닝된 메서드 호출
+wrapping.chop.down.if.long:
+    text: 길면 하나씩 줄 바꿈
+wrapping.classes.annotation:
+    text: 클래스 어노테이션
+wrapping.colon.signs.on.next.line:
+    text: "':' 기호를 다음 줄에 표시"
+wrapping.comments:
+    text: 주석
+wrapping.comments.wrap.at.right.margin:
+    text: 우측 여백에서 줄 바꿈
+wrapping.do.not.wrap:
+    text: 줄 바꿈 안 함
+wrapping.dowhile.statement:
+    text: "'do ... while()' 문"
+wrapping.else.on.new.line:
+    text: "'else'를 새 줄에 표시"
+wrapping.enum.constants:
+    text: Enum 상수
+wrapping.extends.implements.keyword:
+    text: Extends/implements/permits 키워드
+wrapping.extends.implements.list:
+    text: Extends/implements/permits 목록
+wrapping.fields.annotation:
+    text: 필드 어노테이션
+wrapping.finally.on.new.line:
+    text: "'finally'를 새 줄에 표시"
+wrapping.for.statement:
+    text: "'for()' 문"
+wrapping.force.braces:
+    text: 중괄호 강제
+wrapping.force.braces.always:
+    text: 항상
+wrapping.force.braces.do.not.force:
+    text: 강제하지 않음
+wrapping.force.braces.when.multiline:
+    text: 여러 줄일 때
+wrapping.if.statement:
+    text: "'if()' 문"
+wrapping.indent.break.from.case:
+    text: "'case'에서 'break' 들여쓰기"
+wrapping.indent.case.from.switch:
+    text: "'switch'에서 'case' 들여쓰기"
+wrapping.keep.comment.at.first.column:
+    text: 첫 번째 열의 주석
+wrapping.keep.line.breaks:
+    text: 줄 바꿈
+wrapping.keep.multiple.expressions.in.one.line:
+    text: 여러 식을 한 줄에 유지
+wrapping.keep.simple.blocks.in.one.line:
+    text: 단순 블록을 한 줄에 유지
+wrapping.keep.simple.classes.in.one.line:
+    text: 단순 클래스를 한 줄에 유지
+wrapping.keep.simple.lambdas.in.one.line:
+    text: 단순 람다를 한 줄에 유지
+wrapping.keep.simple.methods.in.one.line:
+    text: 단순 메서드를 한 줄에 유지
+wrapping.keep.when.reformatting:
+    text: 재포맷 시 유지
+wrapping.local.variables.annotation:
+    text: 지역 변수 어노테이션
+wrapping.long.lines:
+    text: 우측 여백을 초과하지 않도록 보장
+wrapping.method.arguments:
+    text: 메서드 호출 인수
+wrapping.method.parameters:
+    text: 메서드 선언 매개변수
+wrapping.method.parentheses:
+    text: 메서드 괄호
+wrapping.methods.annotation:
+    text: 메서드 어노테이션
+wrapping.modifier.list:
+    text: 수정자(Modifier) 목록
+wrapping.new.line.after.lbrace:
+    text: "'{' 뒤에 새 줄 추가"
+wrapping.new.line.after.lpar:
+    text: "'(' 뒤에 새 줄 추가"
+wrapping.operation.sign.on.next.line:
+    text: 연산 기호를 다음 줄에 표시
+wrapping.parameters.annotation:
+    text: 매개변수 어노테이션
+wrapping.quest.and.colon.signs.on.next.line:
+    text: "'?' 및 ':' 기호를 다음 줄에 표시"
+wrapping.rbrace.on.new.line:
+    text: "'}'를 새 줄에 배치"
+wrapping.rpar.on.new.line:
+    text: "')'를 새 줄에 배치"
+wrapping.special.else.if.braces.treatment:
+    text: "'else if' 특수 처리"
+wrapping.switch.statement:
+    text: "'switch' 문"
+wrapping.take.priority.over.call.chain.wrapping:
+    text: 호출 체인 줄 바꿈보다 우선순위 적용
+wrapping.ternary.operation:
+    text: 삼항 연산
+wrapping.throws.keyword:
+    text: Throws 키워드
+wrapping.throws.list:
+    text: Throws 목록
+wrapping.try.statement:
+    text: "'try' 문"
+wrapping.while.on.new.line:
+    text: "'while'을 새 줄에 표시"
+wrapping.while.statement:
+    text: "'while()' 문"
+wrapping.wrap.always:
+    text: 항상 줄 바꿈
+wrapping.wrap.if.long:
+    text: 길면 줄 바꿈
+wrapping.wrap.on.typing:
+    text: 입력 시 줄 바꿈
+wrapping.wrap.on.typing.default:
+    text: 기본값
+wrapping.wrap.on.typing.no.wrap:
+    text: 아니요
+wrapping.wrap.on.typing.wrap:
+    text: 예

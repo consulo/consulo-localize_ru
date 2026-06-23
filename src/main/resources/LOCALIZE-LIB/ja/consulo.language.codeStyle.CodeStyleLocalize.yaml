@@ -1,0 +1,236 @@
+action.stop:
+    text: 停止
+arrangement.settings.additional.force.combobox.name:
+    text: 強制的に並べ替える：
+arrangement.settings.additional.force.rearrange.according.to.dialog:
+    text: 現在のモードを使用する（[再フォーマットコード]ダイアログで切り替えます）
+arrangement.settings.additional.force.rearrange.always:
+    text: 常に
+arrangement.settings.additional.force.rearrange.never:
+    text: 絶対に
+arrangement.settings.additional.title:
+    text: 追加の設定
+arrangement.settings.text.general.text:
+    text: テキスト：
+button.delete:
+    text: 削除
+button.save.as:
+    text: 名前を付けて保存...
+checkbox.align.multiline.array.initializer:
+    text: 配列初期化子
+checkbox.align.multiline.assignments:
+    text: 代入
+checkbox.align.multiline.binary.operation:
+    text: バイナリ演算
+checkbox.align.multiline.call.arguments:
+    text: 引数呼び出し
+checkbox.align.multiline.extends.list:
+    text: リストの拡張
+checkbox.align.multiline.for.statement:
+    text: ステートメント
+checkbox.align.multiline.method.parameters:
+    text: メソッド パラメータ
+checkbox.align.multiline.parenthesized.expression:
+    text: 小括弧付きの式
+checkbox.align.multiline.ternary.operation:
+    text: 三項演算
+checkbox.align.multiline.throws.list:
+    text: スロー リスト
+checkbox.block.comment.at.first.column:
+    text: 最初の列にブロック コメントを入れる
+checkbox.indent.smart.tabs:
+    text: スマート タブ
+checkbox.indent.use.tab.character:
+    text: タブ文字を使用する
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: 制御文を 1 行にする
+checkbox.line.comment.add.space:
+    text: コメント開始時にスペースを追加する
+checkbox.line.comment.at.first.column:
+    text: 最初の列に行コメントを入れる
+checkbox.spaces.additive.operators:
+    text: 加法演算子 (+、-)
+checkbox.spaces.after.colon:
+    text: "':' の後"
+checkbox.spaces.after.colon.in.label.declaration:
+    text: "ラベル宣言の ':' の後"
+checkbox.spaces.after.comma:
+    text: カンマの後
+checkbox.spaces.after.question:
+    text: "'?' の後"
+checkbox.spaces.after.semicolon:
+    text: セミコロンの後
+checkbox.spaces.after.type.cast:
+    text: 型キャストの後
+checkbox.spaces.annotation.parameters:
+    text: 注釈パラメータ
+checkbox.spaces.annotation.parentheses:
+    text: 注釈の小括弧
+checkbox.spaces.array.initializer.left.brace:
+    text: 配列初期化子の左中括弧
+checkbox.spaces.assignment.operators:
+    text: 代入演算子 (=、+=、...)
+checkbox.spaces.before.colon:
+    text: "':' の前"
+checkbox.spaces.before.comma:
+    text: カンマの前
+checkbox.spaces.before.opening.angle.bracket:
+    text: アングルブラケットを開く前に
+checkbox.spaces.before.question:
+    text: "'?' の前"
+checkbox.spaces.before.semicolon:
+    text: セミコロンの前
+checkbox.spaces.bitwise.operators:
+    text: ビット演算子 (\&、|、^)
+checkbox.spaces.catch.left.brace:
+    text: '"catch" の左中括弧'
+checkbox.spaces.catch.parentheses:
+    text: '"catch" の小括弧'
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: メソッド呼び出しの小括弧
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: メソッド宣言の小括弧
+checkbox.spaces.class.left.brace:
+    text: クラスの左中括弧
+checkbox.spaces.do.left.brace:
+    text: '"do" の左中括弧'
+checkbox.spaces.else.left.brace:
+    text: '"else" の左中括弧'
+checkbox.spaces.equality.operators:
+    text: 等価演算子 (==、!=)
+checkbox.spaces.finally.left.brace:
+    text: '"finally" の左中括弧'
+checkbox.spaces.for.left.brace:
+    text: '"for" の左中括弧'
+checkbox.spaces.for.parentheses:
+    text: '"for" の小括弧'
+checkbox.spaces.if.left.brace:
+    text: '"if" の左中括弧'
+checkbox.spaces.if.parentheses:
+    text: '"if" の小括弧'
+checkbox.spaces.logical.operators:
+    text: 論理演算子 (\&\&、||)
+checkbox.spaces.method.call.parentheses:
+    text: メソッド呼び出しの小括弧
+checkbox.spaces.method.declaration.parentheses:
+    text: メソッド宣言の小括弧
+checkbox.spaces.method.left.brace:
+    text: メソッドの左中括弧
+checkbox.spaces.multiplicative.operators:
+    text: 乗法演算子 (*、/、%)
+checkbox.spaces.relational.operators:
+    text: 比較演算子 (<、>、<=、>=)
+checkbox.spaces.shift.operators:
+    text: シフト演算子 (<<、>>、>>>)
+checkbox.spaces.switch.left.brace:
+    text: '"switch" の左中括弧'
+checkbox.spaces.switch.parentheses:
+    text: '"switch" の小括弧'
+checkbox.spaces.synchronized.left.brace:
+    text: '"synchronized" の左中括弧'
+checkbox.spaces.synchronized.parentheses:
+    text: '"synchronized" の小括弧'
+checkbox.spaces.try.left.brace:
+    text: '"try" の左中括弧'
+checkbox.spaces.type.cast.parentheses:
+    text: 型キャストの小括弧
+checkbox.spaces.while.left.brace:
+    text: '"while" の左中括弧'
+checkbox.spaces.while.parentheses:
+    text: '"while" の小括弧'
+checkbox.spaces.within.array.initializer.braces:
+    text: 配列初期化子の中括弧内
+checkbox.spaces.within.brackets:
+    text: 大括弧内
+checkbox.spaces.within.empty.array.initializer.braces:
+    text: 空の配列初期化子のブレース
+code.style.other.label:
+    text: テキストファイルとサポートされていないファイルの種類：
+code.style.scheme.import.unnamed:
+    text: 無名
+editbox.indent.continuation.indent:
+    text: 連続インデントの文字数
+editbox.indent.indent:
+    text: インデント
+editbox.indent.tab.size:
+    text: タブの文字数
+editbox.right.margin.columns:
+    text: '右余白 (列):'
+editbox.scheme.name:
+    text: 'スキーム名 :'
+group.spaces.around.operators:
+    text: 演算子の周囲
+group.spaces.before.left.brace:
+    text: 左中括弧の前
+group.spaces.before.parentheses:
+    text: 小括弧の前
+group.spaces.in.ternary.operator:
+    text: 三項演算子 (?:) 内
+group.spaces.in.type.arguments.block:
+    text: 型引数
+group.spaces.in.type.parameters.block:
+    text: 型パラメータ
+group.spaces.other:
+    text: その他
+html.project.uses.own.code.style:
+    text: <html><body>現在のプロジェクトは、独自のコード スタイルを使用するように設定されています。<br>グローバル コード スタイル設定への変更は、現在のプロジェクトに反映しません。<br>[プロジェクト設定] - [コード スタイル] を参照してください。<br>グローバル設定を編集するには、以下の \&quot;Edit Global Settings&quot; ボタンを押してください。</body></html>
+import.scheme.shared:
+    text: 共有スキーム
+label.loading.page.please.wait:
+    text: ページを読み込んでいます。 しばらくお待ちください。
+message.code.style.scheme.already.exists:
+    text: スキーム{0}は既に存在します。
+message.code.style.scheme.import.failure:
+    text: '{0}インポートはエラーメッセージ：{1}で失敗しました'
+message.code.style.scheme.import.success:
+    text: '{0}設定が{1}体系にインポートされました。{2}'
+settings.code.style.default.general:
+    text: デフォルト
+title.blank.lines:
+    text: 空白行
+title.braces.placement:
+    text: 中括弧の配置
+title.code.style.settings.import:
+    text: 設定のインポート
+title.edit.global.settings:
+    text: グローバル設定の編集(&G)
+title.global.code.style:
+    text: |-
+        グローバル
+        コード スタイル
+title.import.scheme.chooser:
+    text: インポートスキーム
+title.import.scheme.from:
+    text: からのインポート
+title.keep.blank.lines:
+    text: 空白行の指定
+title.naming.comment.code:
+    text: コメント コード
+title.place.on.new.line:
+    text: 新規行の配置
+title.save.code.style.scheme.as:
+    text: コード スタイル スキームの保存
+wrapping.align.fields.in.columns:
+    text: 列のフィールドを整列する
+wrapping.align.simple.methods.in.columns:
+    text: 列内の単純なメソッドを整列する
+wrapping.align.variables.in.columns:
+    text: 列の変数を整列する
+wrapping.chained.method.call.first.on.new.line:
+    text: ラップファーストコール
+wrapping.comments:
+    text: コメント
+wrapping.comments.wrap.at.right.margin:
+    text: 右マージンで折り返す
+wrapping.indent.break.from.case:
+    text: 「大文字小文字」から「字下げ」をインデントします。
+wrapping.keep.simple.lambdas.in.one.line:
+    text: 単純なラムダを1行に
+wrapping.wrap.on.typing:
+    text: 入力をラップする
+wrapping.wrap.on.typing.default:
+    text: デフォルト
+wrapping.wrap.on.typing.no.wrap:
+    text: いいえ
+wrapping.wrap.on.typing.wrap:
+    text: はい

@@ -1,0 +1,198 @@
+action.ShowSettings.show.find.usages.settings.dialog.description:
+    text: 显示查找用法设置对话框
+action.ShowSettings.show.settings.for.description:
+    text: 显示 {0} 的设置
+action.description.rerun:
+    text: 重新运行搜索
+action.group.by.file.structure:
+    text: 文件结构
+action.group.by.module:
+    text: 模块
+action.group.by.package:
+    text: 软件包
+action.group.by.title:
+    text: 分组依据
+action.group.by.usage.type:
+    text: 用法类型
+action.merge.same.line:
+    text: 合并同一行的用法
+action.next.occurrence:
+    text: 下一个匹配项
+action.previous.occurrence:
+    text: 上一个匹配项
+action.show.import.statements:
+    text: 显示导入语句
+action.show.read.access:
+    text: 显示读访问
+action.show.write.access:
+    text: 显示写访问
+action.text.usage.view.settings:
+    text: 设置…
+all.usages.are.in.this.line:
+    text: '{1} 中的所有 {0} 用法都在此行'
+button.text.abort:
+    text: 中止
+button.text.continue:
+    text: 继续
+changes.detected.error.title:
+    text: 检测到更改
+default.package.presentable.name:
+    text: <默认>
+dialog.button.ok:
+    text: 确定
+dialog.no.usages.found.in:
+    text: 在 {1}{2} 未找到 {0}
+dialog.rerun.search:
+    text: 现在要重新运行搜索吗?
+dialog.title.information:
+    text: 信息
+files.are.too.large.large.and.cannot.be.scanned:
+    text: '{0,choice, 1#文件|2#文件} {1} {0,choice, 1#过大|2#过大}，无法扫描'
+find.excessive.usage.count.prompt:
+    text: 找到太多结果。确定要继续吗?
+find.excessive.usages.title:
+    text: 太多结果
+large.files.were.ignored:
+    text: '{0, choice, 0#无|1#1 个太大的文件被忽略|2#{0,number} 个太大的文件被忽略}'
+link.display.name.find.options:
+    text: 查找选项…
+link.display.name.search.in.project:
+    text: 在项目中搜索
+message.include.them:
+    text: 将其包含
+message.occurrences.in.project.configuration.files.are.skipped:
+    text: 跳过项目配置文件中的匹配项。
+message.only.one.usage.found:
+    text: 只找到一个用法。
+message.part.large.number.of.unloaded.modules:
+    text: '{0} 个已卸载模块: {1} 和 {2} 个其他已卸载模块'
+message.part.number.of.unloaded.modules:
+    text: '{0} 个已卸载模块'
+message.part.small.number.of.unloaded.modules:
+    text: '{0} 个已卸载模块: {1}'
+message.part.unloaded.module.0:
+    text: "已卸载模块 ''{0}''"
+message.usage.search.was.canceled:
+    text: 用法搜索被取消
+no.usages.found.in:
+    text: 在 {0} 中找不到用法
+node.found.usages:
+    text: 用法
+node.group.code.usages:
+    text: 代码用法
+node.group.module:
+    text: '模块: {0}'
+node.invalid:
+    text: 无效
+node.non.code.usages:
+    text: 非代码用法
+node.readonly:
+    text: 只读
+node.targets:
+    text: 目标
+node.usages.in.generated.code:
+    text: 生成代码的用法
+notification.title.find.usages.finished:
+    text: 查找用法已完成
+notification.usage.search.is.not.available.until.indices.are.ready:
+    text: 在索引准备就绪前，用法搜索不可用
+occurence.info.occurence:
+    text: '{1, choice, 0#|1# 在 1 个文件中|2# 在 {1,number} 个文件中}{0, choice, 0#找不到|1# 1 个匹配项|2# {0,number} 个匹配项}'
+occurence.info.reference:
+    text: '{1,choice, 0#|1# 在 1 个文件中|2# 在 {1,number} 个文件中}{0,choice, 0#找不到|1# 1 个引用|2# {0,number} 个引用}'
+occurrences.found.in.comments.strings.and.non.java.files:
+    text: 在注释、字符串和非代码文件中发现匹配项
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+    text: 在注释、字符串非代码文件和生成的代码中发现匹配项
+preview.usages.action.text:
+    text: 预览源
+progress.searching.for.in:
+    text: 在{1}{2}中搜索{0}...
+references.to.be.changed:
+    text: 待更改引用 {0}
+select.the.usage.to.preview:
+    text: 选择要预览的项
+several.occurrences.selected:
+    text: |-
+        选择了多个文件。
+        从一个文件中选择要预览的匹配项。
+show.usages.advertisement:
+    text: "再次按 {0} 以在 ''{1}'' 中搜索"
+show.usages.only.usage:
+    text: 它是 {0} 中的唯一用法
+sort.alphabetically.action.text:
+    text: 按字母顺序排列成员
+usage.excluded:
+    text: 已排除
+usage.name:
+    text: '{0, choice, 1#用法|2#用法}'
+usage.target.exception:
+    text: 异常
+usage.target.package.in.directory:
+    text: '{0} (在 {1} 中)'
+usage.type.annotation:
+    text: 注解
+usage.type.cast.target:
+    text: 在转换目标类型中的用法
+usage.type.catch.declaration:
+    text: Catch 子句形参声明
+usage.type.class.object:
+    text: 在 .class 中的用法
+usage.type.comment:
+    text: 在注释中的用法
+usage.type.delegate.to.another.instance.method:
+    text: 委托至另一个实例方法
+usage.type.delegate.to.another.instance.method.parameters.changed:
+    text: 委托至另一个实例方法，形参已更改
+usage.type.delegate.to.super.method:
+    text: 委托至 super 方法
+usage.type.delegate.to.super.method.parameters.changed:
+    text: 委托至 super 方法，形参已更改
+usage.type.extends:
+    text: 在 extends/implements 子句中的用法
+usage.type.field.declaration:
+    text: 字段声明
+usage.type.import:
+    text: 在导入中的用法
+usage.type.instanceof:
+    text: 在 instanceof 中的用法
+usage.type.local.declaration:
+    text: 局部变量声明
+usage.type.nested.class:
+    text: 嵌套类访问
+usage.type.new:
+    text: 新实例创建
+usage.type.new.anonymous:
+    text: 新匿名继承者创建
+usage.type.new.array:
+    text: 新数组创建
+usage.type.parameter.declaration:
+    text: 方法形参声明
+usage.type.read:
+    text: 读取值
+usage.type.recursion:
+    text: 递归
+usage.type.return:
+    text: 方法返回值类型
+usage.type.static.member:
+    text: 类 static 成员访问权限
+usage.type.string.constant:
+    text: 在字符串常量中的用法
+usage.type.throws.list:
+    text: 方法 throws 列表
+usage.type.type.parameter:
+    text: 类型形参
+usage.type.unclassified:
+    text: 未分类
+usage.type.write:
+    text: 写入值
+usage.view.cancel.button:
+    text: 取消(&C)
+usage.view.counter:
+    text: '{0} 个{0, choice, 1#结果|2#结果}'
+usages.n:
+    text: 找到 {0,choice, 0#0 个用法|1#1 个用法|2#{0,number} 个用法}
+usages.title:
+    text: 用法
+usages.were.filtered.out:
+    text: '{0,number} 个{0,choice, 1#用法|2#用法}被筛除'

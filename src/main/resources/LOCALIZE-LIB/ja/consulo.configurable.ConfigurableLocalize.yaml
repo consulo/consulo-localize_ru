@@ -1,0 +1,302 @@
+cannot.save.settings.default.dialog.title:
+    text: 設定を保存できません
+color.settings.console.black:
+    text: ANSIカラー//ブラック
+color.settings.console.name:
+    text: コンソールの色
+configurable.current.project.tooltip:
+    text: 現在のプロジェクト用
+configurable.default.project.tooltip:
+    text: デフォルトプロジェクトの場合
+control.panel.classic.view.button:
+    text: クラシック表示(&V)
+explorer.panel.default.view.button:
+    text: デフォルト表示(&V)
+ide.settings.display.name:
+    text: IDE 設定
+options.apply.button:
+    text: 適用(&P)
+options.color.schemes.presentable.name:
+    text: カラー スキーム
+options.custom.attribute.descriptor.block.comment:
+    text: ブロック コメント
+options.custom.attribute.descriptor.invalid.string.escape:
+    text: 無効な文字列のエスケープ
+options.custom.attribute.descriptor.keyword1:
+    text: キーワード1
+options.custom.attribute.descriptor.keyword2:
+    text: キーワード2
+options.custom.attribute.descriptor.keyword3:
+    text: キーワード3
+options.custom.attribute.descriptor.keyword4:
+    text: キーワード4
+options.custom.attribute.descriptor.line.comment:
+    text: 行コメント
+options.custom.attribute.descriptor.number:
+    text: 数値
+options.custom.attribute.descriptor.string:
+    text: 文字列
+options.custom.attribute.descriptor.valid.string.escape:
+    text: 有効な文字列のエスケープ
+options.custom.display.name:
+    text: カスタム
+options.editor.settings.presentable.name:
+    text: エディタ設定
+options.general.attribute.descriptor.default.text:
+    text: デフォルト テキスト
+options.general.attribute.descriptor.folded.text:
+    text: 折り返しテキスト
+options.general.attribute.descriptor.search.result:
+    text: 検索結果
+options.general.attribute.descriptor.search.result.write.access:
+    text: 検索結果 (書き込みアクセス)
+options.general.attribute.descriptor.template.variable:
+    text: テンプレート変数
+options.general.attribute.descriptor.text.search.result:
+    text: テキスト検索結果
+options.general.color.descriptor.added.lines:
+    text: 追加行
+options.general.color.descriptor.background.in.readonly.files:
+    text: 読み取り専用ファイルのバックグラウンド
+options.general.color.descriptor.bookmarks:
+    text: エディタ//ブックマーク
+options.general.color.descriptor.border.lines:
+    text: エディタガッター//ボーダー
+options.general.color.descriptor.breadcrumbs.current:
+    text: エディタ//現在のブレッドクラム
+options.general.color.descriptor.breadcrumbs.default:
+    text: エディタ// Breadcrumbs //デフォルト
+options.general.color.descriptor.breadcrumbs.hovered:
+    text: エディタ// Breadcrumbs // Hovered
+options.general.color.descriptor.breadcrumbs.inactive:
+    text: エディタ//ブレッドクラム/非アクティブ
+options.general.color.descriptor.caret:
+    text: キャレット
+options.general.color.descriptor.caret.row:
+    text: キャレット行
+options.general.color.descriptor.deleted.lines:
+    text: エディタガター//削除された行
+options.general.color.descriptor.gutter.background:
+    text: ガター バックグラウンド
+options.general.color.descriptor.line.number:
+    text: 行番号
+options.general.color.descriptor.modified.lines:
+    text: 変更行
+options.general.color.descriptor.popups.documentation:
+    text: ポップアップとヒント//ドキュメント
+options.general.color.descriptor.popups.error:
+    text: ポップアップとヒント//エラーヒント
+options.general.color.descriptor.popups.information:
+    text: ポップアップとヒント//情報ヒント
+options.general.color.descriptor.popups.question:
+    text: ポップアップとヒント//質問ヒント
+options.general.color.descriptor.readonly.fragment.background:
+    text: テキスト//読み取り専用フラグメントの背景
+options.general.color.descriptor.right.margin:
+    text: 右余白
+options.general.color.descriptor.selection.background:
+    text: 選択バックグラウンド
+options.general.color.descriptor.selection.foreground:
+    text: 選択フォアグラウンド
+options.general.color.descriptor.vcs.annotations:
+    text: VCS 注釈
+options.general.color.descriptor.vcs.annotations.color.n:
+    text: VCS注釈//背景色＃{0}
+options.general.color.descriptor.whitespaces:
+    text: 空白
+options.general.color.descriptor.whitespaces.modified.lines:
+    text: エディタガッタ//空白で改行された行
+options.general.display.name:
+    text: 一般
+options.html.attribute.descriptor.attribute.name:
+    text: 属性名
+options.html.attribute.descriptor.attribute.value:
+    text: 属性値
+options.html.attribute.descriptor.code:
+    text: HTMLコード
+options.html.attribute.descriptor.comment:
+    text: コメント
+options.html.attribute.descriptor.tag:
+    text: タグ
+options.html.attribute.descriptor.tag.name:
+    text: タグ名
+options.java.attribute.descriptor.abstract.class:
+    text: 抽象クラス
+options.java.attribute.descriptor.abstract.method:
+    text: 抽象メソッド
+options.java.attribute.descriptor.annotation.attribute.name:
+    text: 注釈属性名
+options.java.attribute.descriptor.annotation.name:
+    text: 注釈名
+options.java.attribute.descriptor.anonymous.class:
+    text: 匿名クラス
+options.java.attribute.descriptor.bad.character:
+    text: 不正な文字
+options.java.attribute.descriptor.block.comment:
+    text: ブロック コメント
+options.java.attribute.descriptor.braces:
+    text: 中括弧
+options.java.attribute.descriptor.brackets:
+    text: 大括弧
+options.java.attribute.descriptor.breakpoint.line:
+    text: ブレークポイント行
+options.java.attribute.descriptor.class:
+    text: クラス
+options.java.attribute.descriptor.comma:
+    text: カンマ
+options.java.attribute.descriptor.constructor.call:
+    text: コンストラクタ呼び出し
+options.java.attribute.descriptor.constructor.declaration:
+    text: コンストラクタ宣言
+options.java.attribute.descriptor.deprecated.symbol:
+    text: 非推奨のシンボル
+options.java.attribute.descriptor.dot:
+    text: ドット
+options.java.attribute.descriptor.error:
+    text: エラー
+options.java.attribute.descriptor.errors.group:
+    text: エラーと警告// {0}
+options.java.attribute.descriptor.execution.point:
+    text: 実行ポイント
+options.java.attribute.descriptor.implicit.anonymous.parameter:
+    text: 暗黙の匿名クラスパラメータ
+options.java.attribute.descriptor.inherited.method:
+    text: 継承されたメソッド
+options.java.attribute.descriptor.inline.parameter.hint:
+    text: インラインパラメータヒント
+options.java.attribute.descriptor.inlined.values:
+    text: インライン化された値
+options.java.attribute.descriptor.inlined.values.execution.line:
+    text: ブレークポイント行のインライン値
+options.java.attribute.descriptor.inlined.values.modified:
+    text: インライン修正値
+options.java.attribute.descriptor.instance.field:
+    text: インスタンス フィールド
+options.java.attribute.descriptor.instance.final.field:
+    text: クラスフィールド//インスタンス最終フィールド
+options.java.attribute.descriptor.interface:
+    text: インターフェイス
+options.java.attribute.descriptor.invalid.escape.in.string:
+    text: 文字列の無効なエスケープ
+options.java.attribute.descriptor.javadoc.comment:
+    text: JavaDoc コメント
+options.java.attribute.descriptor.javadoc.markup:
+    text: JavaDoc マークアップ
+options.java.attribute.descriptor.javadoc.tag:
+    text: JavaDocタグ
+options.java.attribute.descriptor.javadoc.tag.value:
+    text: Javadocタグの値
+options.java.attribute.descriptor.keyword:
+    text: キーワード
+options.java.attribute.descriptor.lambda.parameter:
+    text: パラメータ// Lambdaパラメータ
+options.java.attribute.descriptor.line.comment:
+    text: 行コメント
+options.java.attribute.descriptor.local.variable:
+    text: ローカル変数
+options.java.attribute.descriptor.matched.brace:
+    text: 一致した中括弧
+options.java.attribute.descriptor.method.call:
+    text: メソッド呼び出し
+options.java.attribute.descriptor.method.declaration:
+    text: メソッド宣言
+options.java.attribute.descriptor.not.top.frame:
+    text: トップフレームではありません
+options.java.attribute.descriptor.number:
+    text: 数値
+options.java.attribute.descriptor.operator.sign:
+    text: 演算子符号
+options.java.attribute.descriptor.parameter:
+    text: パラメータ
+options.java.attribute.descriptor.parentheses:
+    text: 小括弧
+options.java.attribute.descriptor.reassigned.local.variable:
+    text: 再割り当てされたローカル変数
+options.java.attribute.descriptor.reassigned.parameter:
+    text: 再割り当てされたパラメータ
+options.java.attribute.descriptor.semicolon:
+    text: セミコロン
+options.java.attribute.descriptor.static.field:
+    text: 静的フィールド
+options.java.attribute.descriptor.static.final.field:
+    text: 定数
+options.java.attribute.descriptor.static.method:
+    text: 静的メソッド
+options.java.attribute.descriptor.string:
+    text: 文字列
+options.java.attribute.descriptor.type.parameter:
+    text: 型引数
+options.java.attribute.descriptor.unknown.symbol:
+    text: 不明なシンボル
+options.java.attribute.descriptor.unmatched.brace:
+    text: 一致しない中括弧
+options.java.attribute.descriptor.unused.symbol:
+    text: 未使用のシンボル
+options.java.attribute.descriptor.valid.escape.in.string:
+    text: 文字列の有効なエスケープ
+options.java.attribute.descriptor.warning:
+    text: 警告
+options.java.color.descriptor.full.coverage:
+    text: フルラインカバレッジ
+options.java.color.descriptor.method.separator.color:
+    text: メソッド セパレータの色
+options.java.color.descriptor.partial.coverage:
+    text: 部分的なラインカバレッジ
+options.jsp.attribute.descriptor.attribute.name:
+    text: 属性名
+options.jsp.attribute.descriptor.attribute.value:
+    text: 属性値
+options.jsp.attribute.descriptor.directive.background:
+    text: ディレクティブ バックグラウンド
+options.jsp.attribute.descriptor.directive.name:
+    text: ディレクティブ名
+options.jsp.attribute.descriptor.scripting.background:
+    text: スクリプティング バックグラウンド
+options.language.defaults.doc.tag.value:
+    text: コメント/ドキュメントコメント/タグ値
+options.language.defaults.shebang.comment:
+    text: コメント/ /シバンコメント
+options.page.modified.save.message.text:
+    text: ページは変更されています。 このページの変更を保存しますか ?
+options.properties.attribute.descriptor.comment:
+    text: コメント
+options.properties.attribute.descriptor.invalid.string.escape:
+    text: 無効な文字列エスケープ
+options.properties.attribute.descriptor.key.value.separator:
+    text: キー/値セパレータ
+options.properties.attribute.descriptor.property.key:
+    text: プロパティ キー
+options.properties.attribute.descriptor.property.value:
+    text: プロパティ値
+options.properties.attribute.descriptor.valid.string.escape:
+    text: 有効な文字列エスケープ
+options.save.changes.message.title:
+    text: 変更の保存
+options.xml.attribute.descriptor.attribute.name:
+    text: 属性名
+options.xml.attribute.descriptor.attribute.value:
+    text: 属性値
+options.xml.attribute.descriptor.comment:
+    text: コメント
+options.xml.attribute.descriptor.prologue:
+    text: プロローグ
+options.xml.attribute.descriptor.tag:
+    text: タグ
+options.xml.attribute.descriptor.tag.data:
+    text: タグ データ
+options.xml.attribute.descriptor.tag.name:
+    text: タグ名
+project.file.read.only.error.message:
+    text: |-
+        プロジェクト ファイルが読み取り専用です。
+        設定はファイルを書き込み可能に変更するまで保存されません。
+project.settings.short.name:
+    text: プロジェクト
+properties.options.display.name:
+    text: プロパティ
+settings.panel.title:
+    text: 設定
+template.project.settings.display.name:
+    text: テンプレート プロジェクト設定
+template.project.settings.short.name:
+    text: テンプレート プロジェクト

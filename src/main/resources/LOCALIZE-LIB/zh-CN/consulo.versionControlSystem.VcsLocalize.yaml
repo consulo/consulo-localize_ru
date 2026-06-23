@@ -1,0 +1,1186 @@
+action.NotificationAction.VcsRootProblemNotifier.text.configure:
+    text: 配置…
+action.NotificationAction.VcsRootProblemNotifier.text.enable.integration:
+    text: 启用集成
+action.NotificationAction.VcsRootProblemNotifier.text.ignore:
+    text: 忽略
+action.description.compare:
+    text: 比较版本
+action.description.create.patch.for.selected.revisions:
+    text: 为选定的修订版创建补丁
+action.description.get.file.content.from.repository:
+    text: 从库中获取版本
+action.display.name.check.scope.status:
+    text: 检查 {0} 状态
+action.display.name.integrate.scope:
+    text: 集成 {0}
+action.display.name.update:
+    text: 更新
+action.display.name.update.scope:
+    text: 更新 {0}
+action.enable.version.control.integration.text:
+    text: 启用版本控制集成(_E)…
+action.force.push:
+    text: 强制推送(&F)
+action.force.push.confirmation.text:
+    text: 您将强制推送。这可能会覆盖远程的提交。确定要继续吗?
+action.force.push.is.prohibited.description:
+    text: 禁止强制推送至 {0}
+action.force.push.to.confirmation.text:
+    text: 您将强制推送到 {0}。这可能会覆盖远程的提交。确定要继续吗?
+action.include.text:
+    text: 包含…
+action.name.check.scope.status:
+    text: 检查 {0} 状态(_K)
+action.name.check.status:
+    text: 检查状态(_K)
+action.name.commit.project:
+    text: 提交修改(I)
+action.name.compare:
+    text: 比较
+action.name.copy.old.text:
+    text: 复制旧文本
+action.name.create.patch.for.selected.revisions:
+    text: 创建补丁...
+action.name.file.history:
+    text: 文件{0}的历史
+action.name.file.history.dir:
+    text: 文件夹{0}的历史
+action.name.for.file.get.version:
+    text: '{0}: 获取版本 {1}'
+action.name.get.file.content.from.repository:
+    text: 从修订版获取
+action.name.group.by.packages:
+    text: 按包分组
+action.name.integrate:
+    text: 集成(_G)
+action.name.integrate.scope:
+    text: 集成 {0}(_G)
+action.name.refresh:
+    text: 刷新
+action.name.rollback:
+    text: 回滚
+action.name.show.difference:
+    text: 显示差异
+action.name.show.files.as.tree:
+    text: 以树形显示
+action.name.show.history.for.class:
+    text: 类
+action.name.show.history.for.code.block:
+    text: 代码块
+action.name.show.history.for.field:
+    text: 字段
+action.name.show.history.for.function:
+    text: 函数
+action.name.show.history.for.method:
+    text: 方法
+action.name.show.history.for.selection:
+    text: 所选内容
+action.name.show.history.for.statement:
+    text: 语句
+action.name.show.history.for.tag:
+    text: 标记
+action.name.show.history.for.text:
+    text: 文本
+action.name.update:
+    text: 更新(_U)
+action.name.update.scope:
+    text: 更新 {0}(_U)
+action.push:
+    text: 推送(&P)
+action.revert.selected.changes.text:
+    text: 还原选择的修改
+acton.name.get.revision:
+    text: 获取修订版
+add.confirmation.label.text:
+    text: '当 {0} 文件被创建:'
+all.vcs.init.message.text:
+    text: 初始化VCS...
+amend.commit.load.message.error.text:
+    text: 无法加载要修正的提交的提交信息。
+amend.commit.load.message.error.title:
+    text: 未加载提交信息
+amend.commit.load.message.task.title:
+    text: 正在加载提交信息
+annotate.action.description:
+    text: 注解文件
+annotate.action.name:
+    text: 注解
+annotation.commit.number:
+    text: 提交编号
+annotation.original.revision.text:
+    text: 修订版：{0}
+annotation.switch.to.merged.text:
+    text: 显示合并来源
+annotation.switch.to.original.text:
+    text: 隐藏合并来源
+annotation.wrong.line.number.notification.text:
+    text: <html>{0} 注解的行数与文件中的行数不相等。请检查文件编码和行分隔符。</html>
+apply.patch.create.dirs.prompt.footer:
+    text: 确定要创建目录？
+apply.patch.create.dirs.prompt.header:
+    text: "该补丁包含以下不存在的目录中的文件:\r"
+apply.patch.progress.verifying:
+    text: 验证...
+apply.patch.summary.title:
+    text: '摘要:'
+background.operations.title:
+    text: 后台操作
+before.checkin.cleanup.code:
+    text: 清理(&L)
+before.checkin.new.todo.check:
+    text: 检查 TODO ({0})
+before.checkin.new.todo.check.title:
+    text: 检查TODO
+before.checkin.standard.options.check.smells:
+    text: 分析代码(&A)
+before.commit.files.contain.code.smells.edit.them.confirm.text:
+    text: |-
+        {0} 个文件包含问题。
+           发现 {1,choice, 0#无错误|1#1 个错误|2#{1} 个错误}和 {2,choice, 0#无警告|1#1 个警告|2#{2} 个警告}。
+           是否要检查它们？
+border.changes.filter.change.number.filter:
+    text: 更改
+border.changes.filter.date.filter:
+    text: 日期
+border.display.dialog.for.files.creation.deletion:
+    text: 文件创建/删除
+border.display.dialog.when.commands.invoked:
+    text: 调用这些命令时显示选项对话框
+border.selected.revision.commit.message:
+    text: 提交信息
+border.standard.after.checkin.options.group:
+    text: '{0} 之后'
+border.standard.checkin.options.group:
+    text: '{0}之前'
+browse.changes.action:
+    text: 浏览更改
+browse.changes.content.title:
+    text: '{0} 下的更改'
+browse.changes.error.message:
+    text: 访问版本控制系统时出现问题：{0}
+browse.changes.error.title:
+    text: 无法显示更改
+browse.changes.filter.title:
+    text: 指定搜索条件
+browse.changes.no.filter.prompt:
+    text: 您尚未指定任何过滤条件。确定要查看项目的整个历史记录吗？
+browse.changes.nothing.found:
+    text: 未找到符合条件的更改
+browse.changes.nothing.found.title:
+    text: 未找到更改
+browse.changes.progress.title:
+    text: 正在搜索更改
+browse.changes.scope:
+    text: 影响 {0} 的更改
+browse.changes.show.all.button:
+    text: 显示所有更改
+browse.changes.show.recent.button:
+    text: 显示最近的更改
+browse.changes.title:
+    text: 浏览更改
+button.configure:
+    text: 配置VCS(C)...
+button.configure.history.cache:
+    text: 配置历史记录缓存...
+button.configure.ignored.files:
+    text: 配置被忽略的文件...
+button.search.again:
+    text: 重新搜索
+button.text.overwrite.modified.file:
+    text: 覆盖已修改的文件(&O)
+button.text.overwrite.modified.files:
+    text: 覆盖已修改的文件(&O)
+cache.settings.dialog.title:
+    text: 版本控制历史缓存设置
+cannot.apply.file.already.exists:
+    text: 无法对文件 {0} 应用补丁：文件已存在。
+cannot.find.file.to.patch:
+    text: 找不到要打补丁的文件：{0}
+change.file.copied.from.text:
+    text: '- 复制自 {0}'
+change.file.moved.from.text:
+    text: '- 移动自 {0}'
+change.file.moved.to.text:
+    text: '- 移动到 {0}'
+change.file.renamed.from.text:
+    text: '- 重命名自 {0}'
+change.file.renamed.to.text:
+    text: '- 重命名为 {0}'
+change.file.replaced.text:
+    text: '- 已替换'
+change.list.manager.wait.lists.synchronization:
+    text: '{0}: 刷新本地修改'
+change.lists.manager.add.unversioned:
+    text: 添加未纳入版本控制的文件
+change.lists.manager.move.changes.to.list:
+    text: 移动更改到列表
+change.nodetitle.change.is.outdated:
+    text: 文件已在服务器上更改
+change.type.deleted:
+    text: 删除
+change.type.modified:
+    text: 修改
+change.type.new:
+    text: 新建
+changelist.details.committed.format:
+    text: 由 {0} 于 {1} 提交
+changelist.details.title:
+    text: 更改列表详情
+changes.action.rollback.custom.title:
+    text: 回滚 {0} 项更改
+changes.action.rollback.description:
+    text: 回滚更改
+changes.action.rollback.nothing:
+    text: 没有 {0}
+changes.action.rollback.text:
+    text: 回滚
+changes.action.rollback.title:
+    text: 回滚 {0} 项更改
+changes.action.setdefaultchangelist.description:
+    text: 设置变更列表为默认放置哪些新修改
+changes.action.setdefaultchangelist.text:
+    text: 设置活动的变更列表
+changes.action.show.directories.description:
+    text: 按目录和模块的修改分组
+changes.action.show.directories.text:
+    text: 按目录分组
+changes.action.show.ignored.description:
+    text: 显示已被忽略的文件
+changes.action.show.ignored.text:
+    text: 显示忽略的文件
+changes.browser.details.marker:
+    text: 更多…
+changes.changelist.chooser.existing.changelist:
+    text: 已有的变更列表
+changes.changelist.chooser.new.changelist:
+    text: 新建变更列表
+changes.changelist.chooser.title:
+    text: 关闭变更列表
+changes.checkbox.delete.locally.added.files:
+    text: 删除本地副本中已添加的文件(&D)
+changes.commit.partial.offer.to.move.text:
+    text: |-
+        提交时已经从当前变更列表中排除了一些文件。
+        你是否想把剩余的修改移到另一个变更列表?
+changes.commit.partial.offer.to.move.title:
+    text: 部分提交活动的修改列表
+changes.default.changelist.name:
+    text: 更改
+changes.dialog.editchangelist.error.already.exists:
+    text: "名为 ''{0}'' 的更改列表已存在"
+changes.dialog.editchangelist.title:
+    text: 编辑更改列表
+changes.dialog.newchangelist.title:
+    text: 新建更改列表
+changes.newchangelist.warning.already.exists.text:
+    text: "变更列表''{0}''已经存在。"
+changes.newchangelist.warning.already.exists.title:
+    text: 错误的变更列表名称
+changes.nodetitle.changecount:
+    text: '{0,choice, 0#无文件|1#1 个文件|2#{0} 个文件}'
+changes.nodetitle.directory.changecount:
+    text: '{0,choice, 0#无目录|1#1 个目录|2#{0} 个目录}'
+changes.nodetitle.directory.file.changecount:
+    text: '{0,choice, 0#无目录|1#1 个目录|2#{0} 个目录} 和 {1,choice, 0#无文件|1#1 个文件|2#{1} 个文件}'
+changes.nodetitle.have.outdated.files:
+    text: 部分文件已在服务器上更改
+changes.nodetitle.ignored.files:
+    text: 已忽略的文件
+changes.nodetitle.locally.deleted.files:
+    text: 本地已删除的文件
+changes.nodetitle.locked.folders:
+    text: 锁定的工作副本文件夹
+changes.nodetitle.locked.folders.tooltip:
+    text: 部分文件夹已锁定，不允许对其进行版本控制操作。应执行清理。
+changes.nodetitle.logicallt.locked.folders:
+    text: 显式锁定的文件
+changes.nodetitle.modified.without.editing:
+    text: 未检出即修改
+changes.nodetitle.switched.files:
+    text: 已切换的文件
+changes.nodetitle.switched.roots:
+    text: 根目录切换
+changes.nodetitle.unversioned.files:
+    text: 未纳入版本控制的文件
+changes.nodetitle.updating:
+    text: 正在更新…
+changes.remove.active.empty.prompt:
+    text: 选择要设为活动的更改列表：
+changes.remove.active.prompt:
+    text: 选择要将更改移动到的更改列表：
+changes.remove.active.title:
+    text: 删除活动更改列表
+changes.removechangelist.multiple.warning.text:
+    text: |-
+        确定要删除 {0} 个更改列表吗？
+        所有更改将移至活动更改列表。
+changes.removechangelist.warning.text:
+    text: "确定要删除更改列表 ''{0}'' 吗？\n所有更改将移至活动更改列表。"
+changes.removechangelist.warning.title:
+    text: 删除更改列表
+changes.toolwindow.name:
+    text: 变更列表
+changes.update.progress.message:
+    text: '更新中: {0}'
+changes.view.dnd.label:
+    text: '{0} 文件'
+checkbox.changelist.move.offer:
+    text: 显示未提交的更改到另一个变更列表
+checkbox.checkin.options.check.files.up.to.date:
+    text: 检查远程状态
+checkbox.checkin.options.optimize.imports:
+    text: 优化导入(&O)
+checkbox.checkin.options.rearrange.code:
+    text: 重新排列代码(&N)
+checkbox.checkin.options.reformat.code:
+    text: 重新格式化代码(&R)
+checkbox.force.non.empty.messages:
+    text: 置入非空的提交注释 (&E)
+checkbox.show.changed.revisions.only:
+    text: 仅显示更改
+checkbox.show.changes.after.date:
+    text: 此日期之后(&A)
+checkbox.show.changes.after.num:
+    text: 起始编号(&F)：
+checkbox.show.changes.before.date:
+    text: 此日期之前(&B)
+checkbox.show.changes.before.num:
+    text: 结束编号(&T)：
+checkbox.show.clear.read.only.status.dialog:
+    text: 尝试编辑只读文件时询问是否解锁
+checking.code.smells.progress.title:
+    text: 正在执行代码分析
+checkout.create.project.prompt:
+    text: 你确定要从{1}中检出到源代码到你创建项目{0} 中吗?
+checkout.open.directory.prompt:
+    text: 你确定打开目录{0}?
+checkout.open.project.prompt:
+    text: |-
+        已检出{0}项目文件：
+        {1}
+        你确定要打开吗？
+checkout.title:
+    text: 从版本控制中检出
+close.tab.action.name:
+    text: 关闭
+code.smells.error.messages.tab.name:
+    text: 代码分析
+code.smells.review.button:
+    text: 检查代码分析(&R)
+column.info.configure.vcses.directory:
+    text: 目录
+column.name.configure.vcses.vcs:
+    text: 版本控制系统
+column.name.revision.date:
+    text: 日期
+column.name.revision.list.author:
+    text: 作者
+column.name.revision.list.committer:
+    text: 用户
+column.name.revision.list.date:
+    text: 日期
+column.name.revision.list.description:
+    text: 描述
+column.name.revision.list.message:
+    text: 消息
+column.name.revision.list.number:
+    text: 编号
+column.name.revision.list.revision:
+    text: 修订版
+column.name.revision.version:
+    text: 版本
+column.name.revisions.list.branch:
+    text: 分支
+column.name.revisions.list.filter:
+    text: 日期
+column.name.type:
+    text: 类型
+command.name.open.error.message.view:
+    text: 打开消息视图
+command.name.rollback.change:
+    text: 回滚修改
+commit.dialog.changed.files.label:
+    text: 已修改的文件
+commit.dialog.changelist.label:
+    text: 更改列表(&T)：
+commit.dialog.completed.successfully:
+    text: 成功完成
+commit.dialog.default.commit.operation.name:
+    text: 提交(&I)
+commit.dialog.failed.commit.template:
+    text: 提交失败： {0}
+commit.dialog.include.action.name:
+    text: 包含到提交中(&I)
+commit.dialog.no.changes.detected.text:
+    text: 未检测到更改
+commit.dialog.no.changes.detected.title:
+    text: 没有需要提交的内容
+commit.dialog.refresh.files:
+    text: 正在同步文件…
+commit.dialog.rejected.commit.template:
+    text: 拒绝提交{0}
+commit.dialog.title:
+    text: 提交更改
+commit.failed.confirm.prompt:
+    text: 你想要移动文件未能提交到一个单独的变更列表吗?
+commit.failed.confirm.title:
+    text: 提交失败
+commit.legend.deleted:
+    text: 已删除
+commit.legend.modified:
+    text: 已修改
+commit.legend.new:
+    text: 已添加
+commit.wait.util.synced.message:
+    text: 请等待VCS同步完成。
+commit.wait.util.synced.title:
+    text: VCS刷新完成
+commit.wait.util.synched.text:
+    text: 正在执行版本控制刷新…
+committed.changes.empty.comment:
+    text: <无备注>
+committed.changes.empty.message:
+    text: 仓库中没有已提交的更改
+committed.changes.filter.all:
+    text: 全部
+committed.changes.filter.none:
+    text: <无>
+committed.changes.filter.title:
+    text: 筛选条件
+committed.changes.group.title:
+    text: 分组条件
+committed.changes.incorrect.regex.message:
+    text: 筛选器中使用的正则表达式无效
+committed.changes.not.loaded.message:
+    text: 按刷新按钮加载仓库更改
+committed.changes.partial.list:
+    text: '[部分]'
+committed.changes.refresh.progress:
+    text: 正在刷新版本控制历史记录
+committed.changes.regex.title:
+    text: 正则表达式(&G)
+composite.change.provider.include.vcs.checkbox:
+    text: 包含来自 {0} 的更改
+configuration.commit.message.margin.prompt:
+    text: '提交信息的右边界 (列数):'
+configuration.commit.message.margin.title:
+    text: 提交信息的右边界
+configuration.tab.name.general.settings:
+    text: 常规设置
+confirmation.text.add.file:
+    text: |-
+        是否要安排将以下文件添加到 Subversion?
+        {0}
+confirmation.text.check.in.with.empty.comment:
+    text: 提交空注释？
+confirmation.title.add.file:
+    text: 添加的时间表
+confirmation.title.add.multiple.files:
+    text: 选择要添加的文件到VCS
+confirmation.title.check.in.with.empty.comment:
+    text: 注释为空
+create.changelist.on.failed.commit:
+    text: '创建变更列表提交失败:'
+create.patch.all.binary:
+    text: 所有选定的文件是二进制的。补丁文件不能包含二进制文件。补丁文件已创建。
+create.patch.commit.action.title:
+    text: 创建补丁
+create.patch.encoding:
+    text: 编码(&E)：
+create.patch.error.title:
+    text: 创建补丁时出错：{0}
+create.patch.file.path:
+    text: 到文件(&F)：
+create.patch.loading.content.progress:
+    text: 正在加载内容修订版
+create.patch.partial.success.confirmation:
+    text: 成功创建补丁{0}. {1} 在选中的文件中 {1,choice,1#is|2#are} binary and {1,choice,1#was|2#were} not included in the patch.
+create.patch.reverse.checkbox:
+    text: 反向补丁(&R)
+create.patch.success.confirmation:
+    text: 已成功创建补丁 {0}
+current.version.text:
+    text: '{4}<br/><br/>当前版本为 {3}。<br/>由 {0} 修改<br/>{1}<br/>{2}'
+date.group.last.week:
+    text: 上周
+date.group.title:
+    text: 日期
+date.group.today:
+    text: 今天
+delete.all.already.unshelved:
+    text: 删除所有已经废弃的
+delete.all.already.unshelved.confirmation:
+    text: |-
+        Do you want to delete all already unshelved changelists?
+        此操作不可撤销.
+dialog.enable.version.control.integration.hint.text:
+    text: 版本控制设置可在以下位置配置
+dialog.enable.version.control.integration.select.vcs.label.text:
+    text: 选择一个版本控制系统以关联到 {0}：
+dialog.enable.version.control.integration.title:
+    text: 启用版本控制集成
+dialog.title.changes.browser:
+    text: 更改浏览器
+dialog.title.choose.commit.message.from.history:
+    text: 提交消息历史
+dialog.title.clear.read.only.file.status:
+    text: 清除只读状态
+dialog.title.diff.for.range:
+    text: 范围的差异
+dialog.title.history.for.file:
+    text: 文件{0}的历史记录
+dialog.title.version.control.configurations:
+    text: 版本控制配置
+diff.commit.message.title:
+    text: 提交信息
+diff.content.title.current.range:
+    text: 当前
+diff.content.title.repository.version:
+    text: '{0} ( 版本库 )'
+diff.content.title.revision.number:
+    text: 修订版 {0}
+diff.content.title.up.to.date:
+    text: 基本修订
+diff.title.local:
+    text: 本地
+diff.title.local.with.number:
+    text: 本地 ({0})
+diff.type.name.added:
+    text: 已添加
+diff.type.name.deleted:
+    text: 已删除
+diff.type.name.modified:
+    text: 已修改
+diff.unknown.file.type.associate:
+    text: 关联
+diff.unknown.file.type.prompt:
+    text: 文件"{0}"不是一个已知的文件类型. 是否愿意将其关联为一种文件类型?
+diff.unknown.file.type.title:
+    text: 无法显示差异
+diff.unknown.path.title:
+    text: 未知的差异
+directory.mapping.add.title:
+    text: 添加版本控制目录映射
+directory.mapping.remove.title:
+    text: 编辑版本控制目录映射
+edit.changelist.description:
+    text: 备注(&C)：
+edit.changelist.name:
+    text: 名称(&N)：
+edit.errors:
+    text: 编辑错误
+error.adding.files.prompt:
+    text: 添加文件时发生以下问题：
+error.adding.files.title:
+    text: 添加文件失败
+error.executing.commit:
+    text: "执行 ''{0}'' 时出错：{1}"
+error.updating.changes:
+    text: 更新更改时出错：{0}
+exception.text.file.should.be.directory:
+    text: '{0}不是一个目录'
+exception.text.internal.error.method.should.not.be.called:
+    text: 不应被调用
+exception.text.internal.errror.could.not.implement.method:
+    text: 无法实现
+exception.text.unknown.error:
+    text: 未知错误
+file.status.name.added:
+    text: 已添加
+file.status.name.deleted:
+    text: 已删除
+file.status.name.deleted.from.file.system:
+    text: 已从文件系统中删除
+file.status.name.hijacked:
+    text: 被劫持的
+file.status.name.ignored:
+    text: 已忽略
+file.status.name.merged:
+    text: 已合并
+file.status.name.merged.with.both.conflicts:
+    text: 合并文本和属性发生冲突
+file.status.name.merged.with.conflicts:
+    text: 已合并，但存在冲突
+file.status.name.merged.with.property.conflicts:
+    text: 合并属性冲突
+file.status.name.modified:
+    text: 已修改
+file.status.name.obsolete:
+    text: 废弃的
+file.status.name.suppressed:
+    text: 已禁止
+file.status.name.switched:
+    text: 已转换
+file.status.name.unknown:
+    text: 未知
+file.status.name.up.to.date:
+    text: 最新
+file.status.name.up.to.date.immediate.children:
+    text: 已变化的子元素
+file.status.name.up.to.date.recursive.children:
+    text: 已变化的子元素
+filter.structure.name:
+    text: 结构
+get.committed.changes.intersecting.prompt:
+    text: |-
+        在选定的文件 {1, choice, 1#changelist|2#changelists} are also modified in {0} other {0,choice, 1#changelist|2#changelists}.
+        更改所选文件在这些变更列表也将被下载。
+get.committed.changes.title:
+    text: 获取变更列表
+group.name.version.control:
+    text: 版本控制(&V)
+handle.ro.file.status.type.using.file.system:
+    text: 使用文件系统
+handle.ro.file.status.type.using.vcs:
+    text: 使用 {0}
+highlight.annotation.after.description:
+    text: 强调修订或等于选择后
+highlight.annotation.after.not.selected.text:
+    text: 显示之后...
+highlight.annotation.after.selected.text:
+    text: 显示({0})之后
+highlight.annotation.before.description:
+    text: 强调修订之前或等于选定
+highlight.annotation.before.not.selected.text:
+    text: 显示之前...
+highlight.annotation.before.selected.text:
+    text: 显示({0})之前
+history.empty:
+    text: 历史记录为空
+ignored.configure.item.directory:
+    text: 目录：{0}
+ignored.configure.item.file:
+    text: 文件：{0}
+ignored.configure.item.mask:
+    text: 掩码:{0}
+ignored.configure.title:
+    text: 配置忽略的文件
+ignored.edit.multiple.directories:
+    text: 已选择{0}个目录
+ignored.edit.multiple.files:
+    text: 选中{0}文件
+ignored.edit.radio.directory:
+    text: 忽略所有文件及以下
+ignored.edit.radio.file:
+    text: 忽略指定的文件
+ignored.edit.radio.mask:
+    text: 忽略匹配的所有文件
+ignored.edit.title:
+    text: 忽略没有版本控制的文件
+incoming.changes.empty.message:
+    text: 没有传入的更改
+incoming.changes.indicator.tooltip:
+    text: 有 {0} 个传入的更改列表可用
+incoming.changes.loading.progress:
+    text: 加载传入的更改
+incoming.changes.not.loaded.message:
+    text: 按刷新按钮加载传入的更改
+incoming.changes.refresh.progress:
+    text: 刷新传入的更改
+issue.link.add.title:
+    text: 添加问题导航链接
+issue.link.delete.prompt:
+    text: 删除选定的导航链接？
+issue.link.delete.title:
+    text: 删除问题导航链接
+issue.link.edit.title:
+    text: 编辑问题导航链接
+issue.link.issue.column:
+    text: 问题
+issue.link.link.column:
+    text: 链接
+issue.link.no.patterns:
+    text: 未配置模式
+label.after.creation.:
+    text: 当文件被创建IDEA：
+label.after.deletion.group:
+    text: 当文件被IDEA删除：
+label.commit.comment:
+    text: 提交信息(&C)
+label.configure.vcses.available.vcses:
+    text: 配置可用的版本控制：
+label.relative.project.path.presentation:
+    text: <项目>/{0}
+label.selected.revision.commit.message:
+    text: 提交信息
+label.text.when.files.are.deleted.with.idea:
+    text: '当 {0} 文件被删除:'
+label.text.when.files.created.with.idea:
+    text: '当 {0} 文件被创建:'
+line.annotation.aspect.author:
+    text: 作者
+line.annotation.aspect.date:
+    text: 日期
+line.annotation.aspect.revision:
+    text: 修订版
+loading.file.history.progress:
+    text: 正在加载文件历史记录
+local.history.update.from.vcs:
+    text: 从版本控制系统更新
+local.version.title:
+    text: 本地版本
+lookup.title.vcs.file.revisions:
+    text: 文件修订版
+merge.version.title.last.version:
+    text: 来自服务器的更改
+merge.version.title.last.version.number:
+    text: 来自服务器的更改(修订{0})
+merge.version.title.local.changes:
+    text: 本地修改
+merge.version.title.merge.result:
+    text: 合并结果
+message.text.all.files.are.up.to.date:
+    text: 所有文件已是最新版本
+message.text.binary.versions.are.different:
+    text: 二进制版本是不同的
+message.text.binary.versions.are.identical:
+    text: 二进制版本是相同的
+message.text.binary.versions.differ:
+    text: 不同版本
+message.text.cannot.edit.file:
+    text: 无法编辑文件：{0}
+message.text.cannot.load.revision:
+    text: 无法加载修订版：{0}
+message.text.cannot.load.version:
+    text: 无法加载版本:{0}
+message.text.cannot.load.version.because.of.error:
+    text: 无法加载版本{0}:{1}
+message.text.cannot.open.editor:
+    text: 无法为文件 {0} 打开文本编辑器
+message.text.cannot.refresh.file.history:
+    text: 无法刷新:{0}
+message.text.cannot.save.content:
+    text: 无法保存内容：{0}
+message.text.cannot.show.differences:
+    text: 无法显示差异：{0}
+message.text.commit.failed.with.errors.and.warnings:
+    text: 提交失败的错误和警告
+message.text.could.not.load.file.content:
+    text: 无法加载文件的内容
+message.text.could.not.load.virtual.file.content:
+    text: 无法加载文件 {0} 的内容：{1}
+message.text.file.is.up.to.date:
+    text: 文件已是最新版本
+message.text.file.locally.modified:
+    text: 文件 {0} 已在本地被修改。
+message.text.several.files.locally.modified:
+    text: 部分文件已在本地被修改。
+message.text.unable.to.save.settings:
+    text: 无法保存设置. {0}
+message.text.versions.are.identical:
+    text: 相同版本
+message.title.annotate:
+    text: 注解
+message.title.cannot.open.editor:
+    text: 无法打开编辑器
+message.title.commit:
+    text: 提交
+message.title.could.not.load.content:
+    text: 无法加载内容
+message.title.could.not.load.file.history:
+    text: 加载文件历史记录时出现问题
+message.title.diff:
+    text: 比较
+message.title.edit.files:
+    text: 编辑文件
+message.title.get.revision.content:
+    text: 获取修订版内容
+message.title.get.version:
+    text: 获取版本
+message.title.load.version:
+    text: 加载版本
+message.title.refresh.file.history:
+    text: 刷新
+message.title.show.differences:
+    text: 显示差异
+message.title.unable.to.save.settings:
+    text: 无法保存设置
+message.title.vcs.update.errors:
+    text: '{0} 个错误'
+messge.text.cannot.save.settings:
+    text: 无法执行操作：{0}
+move.to.changelist:
+    text: "将更改移动到活动更改列表 (''{0}'')(&M)"
+multiple.file.merge.accept.theirs:
+    text: 接受对方的(&T)
+multiple.file.merge.accept.yours:
+    text: 接受您的(&Y)
+multiple.file.merge.column.name:
+    text: 名称
+multiple.file.merge.column.type:
+    text: 类型
+multiple.file.merge.loading.progress.title:
+    text: 正在加载合并修订版…
+multiple.file.merge.merge:
+    text: 合并(&M)…
+multiple.file.merge.properties.title:
+    text: 合并属性冲突的文件
+multiple.file.merge.request.title:
+    text: 合并 {0} 的修订版
+multiple.file.merge.title:
+    text: 冲突
+multiple.file.merge.type.binary:
+    text: 二进制
+multiple.file.merge.type.text:
+    text: 文本
+new.changelist.duplicate.name.error:
+    text: 该名称的更改列表已存在
+new.changelist.make.active.checkbox:
+    text: 设为活动(&A)
+no.ignored.files:
+    text: 没有已忽略的文件
+none.vcs.presentation:
+    text: <无>
+notification.title.vcs.name.repository.repositories.found:
+    text: 找到 {0} {1, choice, 1#个仓库|2#个仓库}
+open.repository.version.description:
+    text: 使用文件的选定修订版打开编辑器
+open.repository.version.text:
+    text: 打开仓库版本
+operation.name.annotate:
+    text: 注解
+options.background.processes.enable:
+    text: 启用后台进程
+options.background.processes.title:
+    text: 后台进程
+options.check.changed.on.server.title:
+    text: “在服务器变更”有冲突
+outdated.version.pretty.date.text:
+    text: '过时的版本。修改人{0} {1}: {2}'
+outdated.version.show.diff.action:
+    text: 显示差异
+outdated.version.text:
+    text: 版本已过期。{3,choice,0#由 {0} 于 {1} 修改|1#由 {0} 于 {1} 删除}：{2}
+outdated.version.text.deleted:
+    text: '过时的版本。删除{0} {1}: {2}'
+outdated.version.update.project.action:
+    text: 更新项目
+patch.apply.already.applied:
+    text: 指定补丁中的所有更改已包含在代码中
+patch.apply.analyze.from.clipboard.on.the.fly.checkbox:
+    text: 实时分析并应用剪贴板中的补丁
+patch.apply.base.directory.field:
+    text: 基本目录(B)：
+patch.apply.cannot.apply.now:
+    text: 当前无法应用补丁
+patch.apply.changes.in.patch.resolve:
+    text: 补丁解决中的 {0}
+patch.apply.command:
+    text: 应用补丁
+patch.apply.conflict.local.version:
+    text: 本地版本
+patch.apply.conflict.merged.version:
+    text: 合并结果
+patch.apply.conflict.patch:
+    text: 补丁
+patch.apply.conflict.patched.somehow.version:
+    text: 结果
+patch.apply.conflict.patched.version:
+    text: 已打补丁的版本
+patch.apply.conflict.title:
+    text: 补丁冲突
+patch.apply.dialog.title:
+    text: 应用补丁
+patch.apply.error:
+    text: 无法应用补丁文件{0}:{1}
+patch.apply.file.name.field:
+    text: 补丁文件名(&P)：
+patch.apply.load.error:
+    text: 加载补丁文件出错：{0}
+patch.apply.load.error.line:
+    text: 加载补丁文件出错：{0}在{1}行
+patch.apply.no.patches.found:
+    text: 在指定的文件无法找到任何补丁
+patch.apply.open.error:
+    text: 打开补丁文件出错{0}
+patch.apply.partially.applied:
+    text: 指定补丁中的部分更改被跳过，因为它们已包含在代码中
+patch.apply.select.base.directory.title:
+    text: 选择基本目录
+patch.apply.select.title:
+    text: 选择补丁文件
+patch.apply.somehow.diff.name:
+    text: 应用补丁的结果
+patch.apply.strip.leading.directories.field:
+    text: 去除主要目录
+patch.apply.success.applied.text:
+    text: 补丁已成功应用
+patch.file.type.description:
+    text: 补丁文件
+patch.load.base.revision.error:
+    text: 无法加载补丁的基础版本文件{0}:{1}
+patch.load.progress:
+    text: 加载中...
+patch.summary.changed.files:
+    text: '{0}更改 {0,choice,1#file|2#files}'
+patch.summary.deleted.files:
+    text: '{0}已删除 {0,choice,1#file|2#files}'
+patch.summary.new.files:
+    text: '{0}新 {0,choice,1#file|2#files}'
+paths.affected.in.revision:
+    text: '{0} 中的更改'
+perform.add.remove.in.background:
+    text: 后台执行“添加/删除”
+perform.commit.in.bacground:
+    text: 后台执行VCS提交(P)
+perform.edit.in.background:
+    text: 后台执行编辑/检出任务
+perform.rollback.in.background.option:
+    text: 在后台执行恢复
+perform.update.from.vcs.in.background:
+    text: 后台执行VCS更新
+progress.loading.diff.revisions:
+    text: 获得修订内容
+progress.text.searching.for.modified.files:
+    text: 正在搜索已修改的文件
+progress.text.synchronizing.files:
+    text: 正在同步文件…
+progress.text.updating.canceled:
+    text: 更新已取消
+progress.text.updating.done:
+    text: 更新完成
+progress.text2.loading.revision:
+    text: 加载修订{0}
+progress.title.loading.contents:
+    text: 加载内容
+progress.title.version.control.processing.changed.files:
+    text: 版本控制：正在处理已更改的文件
+push.dialog.push.commits.title:
+    text: 推送提交
+push.process.pushing:
+    text: 正在推送…
+radio.after.creation.add.silently:
+    text: 静默添加
+radio.after.creation.do.not.add:
+    text: 不添加
+radio.after.creation.show.options:
+    text: 询问
+radio.after.deletion.do.not.remove:
+    text: 不删除
+radio.after.deletion.remove.silently:
+    text: 静默删除
+radio.after.deletion.show.options:
+    text: 询问
+refresh.failed.message:
+    text: '刷新失败: {0}'
+remove.confirmation.label.text:
+    text: '当 {0} 文件被删除:'
+retrieving.annotations:
+    text: 正在加载注解
+revert.changes.default.name:
+    text: '还原: {0}'
+revert.changes.title:
+    text: 还原修改
+revision.changes.not.supported:
+    text: 当前VCS不会被修改支持查看修改
+rollback.modified.without.checkout.error.tab:
+    text: '{0} 未检出即修改'
+rollback.modified.without.editing.confirm.multiple:
+    text: 是否要 {0} 对 {1} 个选定文件的更改？
+rollback.modified.without.editing.confirm.single:
+    text: 是否要 {0} 对 {1} 的更改？
+rolling.back.file:
+    text: 正在回滚 {0}
+roots.notification.content.directory.registered.as.root.but.no.repositories.were.found.there:
+    text: 目录 {0} 已注册为 {1} 根目录，但未在其中找到 {1} 仓库。
+roots.notification.title.invalid.vcs.root.choice.mapping.mappings:
+    text: 无效的版本控制根目录{0, choice, 1#映射|2#映射}
+roots.notification.title.vcs.name.integration.enabled:
+    text: '{0} 集成已启用'
+roots.notification.title.vcs.root.configuration.problems:
+    text: 版本控制根目录配置问题
+roots.the.following.directories.are.registered.as.vcs.roots.but.they.are.not:
+    text: 以下目录已注册为版本控制根目录，但其实不是：
+scope.name.changelist.all.changed.files:
+    text: 所有已更改的文件
+searching.for.code.smells.processing.file.progress.text:
+    text: 正在处理 {0}
+settings.filter.update.project.info.by.scope:
+    text: 按范围过滤更新项目信息
+shelf.tab:
+    text: 暂存区
+shelve.changes.action:
+    text: 暂存更改(_S)
+shelve.changes.delete.confirm:
+    text: "你确定要删除搁置的变更表命名为''0}''吗？此操作无法撤消。"
+shelve.changes.delete.files.from.list:
+    text: 你要删除{0}文件搁置的变更列表。你确定吗？
+shelve.changes.delete.files.from.list.title:
+    text: 从搁置变更列表中删除文件
+shelve.changes.delete.multiple.confirm:
+    text: 你确定要删除{0}搁置的修改列表吗？此操作无法撤消。
+shelve.changes.only.directories:
+    text: 选定的更改仅影响目录而不影响文件，因此无法暂存
+shelve.changes.rename.prompt:
+    text: 请输入变更列表的名称：
+shelve.changes.rename.title:
+    text: 重命名搁置变更列表
+shelved.version.name:
+    text: 已暂存版本
+shelvedChanges.delete.title:
+    text: 删除里面的条目
+show.diff.from.annotation.action.error.can.not.load.data.to.show.diff:
+    text: 无法加载数据以显示差异
+show.diff.progress.title:
+    text: 正在加载内容
+show.diff.progress.title.detailed:
+    text: 正在加载 {0} 的内容
+show.diff.with.local.action.description:
+    text: 与本地版本的文件选择的修订比较
+show.diff.with.local.action.text:
+    text: 显示与本地文件的差异
+show.history.action.name.template:
+    text: 显示 {0} 的历史记录(_F)…
+show.history.dialog.title.template:
+    text: '{0} 的历史记录'
+status.group.name.changed:
+    text: 已更改
+status.group.name.changed.on.server:
+    text: 服务器上已更改
+status.group.name.created:
+    text: 已创建
+status.group.name.deleted:
+    text: 已删除
+status.group.name.locally.added:
+    text: 本地已添加
+status.group.name.locally.removed:
+    text: 本地已移除
+status.group.name.modified:
+    text: 已修改
+status.group.name.not.in.repository:
+    text: 不在仓库中
+status.group.name.skipped:
+    text: 已跳过
+status.group.name.switched:
+    text: 已切换
+status.group.name.will.be.merged:
+    text: 将被合并
+status.group.name.will.be.merged.with.conflicts:
+    text: 将被合并（存在冲突）
+status.group.name.will.be.merged.with.property.conflicts:
+    text: 将被合并（存在属性冲突）
+status.group.name.will.be.merged.with.tree.conflicts:
+    text: 将被合并（存在树冲突）
+status.group.name.will.be.restored:
+    text: 将被恢复
+switch.to.changelist:
+    text: "切换到更改列表 (''{0}'')(&T)"
+todo.handler.only.added:
+    text: <html><body>发现 {0,choice, 0#|1#1 个|2#{0} 个}新增/编辑的 TODO {0,choice, 0#|1#项|2#项}。<br/>                        是否要检查 {0,choice,1#它|2#它们}？<br/>                        {1,choice, 0#|1#跳过了 1 个文件。|2#跳过了 {1} 个文件。}</body></html>
+todo.handler.only.both:
+    text: <html><body>发现 {0, choice, 1#1 个|2#{0} 个}新增/编辑的 TODO {0,choice, 1#项|2#项}，<br/>                        以及 {1, choice, 1#1 个|2#{1} 个}位于已更改片段中的 TODO 项。<br/>                        是否要检查它们？<br/>                        {2,choice, 0#|1#跳过了 1 个文件。|2#跳过了 {2} 个文件。}</body></html>
+todo.handler.only.in.changed:
+    text: <html><body>在已更改的片段中发现 {0,choice, 1#1 个|2#{0} 个}TODO {0,choice, 1#项|2#项}。<br/>                             是否要检查 {0,choice,1#它|2#它们}？<br/>                             {1,choice, 0#|1#跳过了 1 个文件。|2#跳过了 {1} 个文件。}</body></html>
+todo.handler.only.skipped:
+    text: |-
+        <html><body>TODO 检查已跳过 {0,choice, 0#|1#1 个文件|2#{0} 个文件}。<br/>
+                                  未发现新增或编辑的 TODO 项，也未发现位于已更改文本片段中的 TODO 项。</body></html>
+todo.in.new.review.button:
+    text: 检查 TODO(&R)
+tooltip.text.action.applicable.to.vcses:
+    text: 适用于：{0}
+tooltip.text.line.before.deleted:
+    text: '{0} 之前的行被删除'
+tooltip.text.line.changed:
+    text: 行{0}已修改
+tooltip.text.lines.before.deleted:
+    text: '{0} 之前的 {1} 行被删除'
+tooltip.text.lines.changed:
+    text: 行{0}-{1}已修改
+toolwindow.title.update.action.canceled.info:
+    text: '{0}信息(取消)'
+toolwindow.title.update.action.info:
+    text: '{0}信息'
+toolwindow.title.update.project:
+    text: 更新项目 ({0})
+unknown.vcs.presentation:
+    text: <未知版本控制系统> ({0})
+unshelve.changelist.chooser.title:
+    text: 取消暂存更改到更改列表
+unshelve.changes.dialog.title:
+    text: 取消暂存更改
+update.directories.scope.name:
+    text: 目录
+update.directory.scope.name:
+    text: 目录
+update.file.scope.name:
+    text: 文件
+update.files.scope.name:
+    text: 文件
+update.group.name.created:
+    text: 已创建
+update.group.name.deleted:
+    text: 已删除
+update.group.name.locally.added:
+    text: 本地已添加
+update.group.name.locally.removed:
+    text: 本地已移除
+update.group.name.merged:
+    text: 已合并
+update.group.name.merged.with.conflicts:
+    text: 已合并（存在冲突）
+update.group.name.merged.with.property.conflicts:
+    text: 已合并（存在属性冲突）
+update.group.name.merged.with.tree.conflicts:
+    text: 已合并（存在树冲突）
+update.group.name.modified:
+    text: 已修改
+update.group.name.not.in.repository:
+    text: 不在仓库中
+update.group.name.restored:
+    text: 已恢复
+update.group.name.skipped:
+    text: 已跳过
+update.group.name.switched:
+    text: 已切换
+update.group.name.updated:
+    text: 已更新
+update.group.name.updated.from.server:
+    text: 从服务器更新
+update.info.group.by.changelist:
+    text: 按更改列表分组
+update.info.loading.changelists:
+    text: 正在加载更改列表…
+update.project.scope.name:
+    text: 项目
+update.tree.node.size.statistics:
+    text: '{0,choice, 0#无项目|1#1 个项目|2#{0, number} 个项目}'
+user.group.title:
+    text: 用户
+vcs.command.name.add:
+    text: 添加
+vcs.command.name.checkin:
+    text: 提_交
+vcs.command.name.checkout:
+    text: 检出
+vcs.command.name.edit:
+    text: 编辑
+vcs.command.name.remove:
+    text: 移除
+vcs.command.name.status:
+    text: 状态
+vcs.command.name.update:
+    text: 更新
+vcs.common.labels.vcs:
+    text: 版本控制系统：
+vcs.config.track.changed.on.server:
+    text: 每隔以下时间检查与服务器的冲突
+vcs.console.toolwindow.display.name:
+    text: 控制台
+vcs.generic.name.with.mnemonic:
+    text: 版本控制系统(_S)
+vcs.quicklist.popup.title:
+    text: 版本控制操作
+vcs.quicklist.pupup.section.local.history:
+    text: 本地历史
+vcs.revision.name.current:
+    text: 当前
+vcs.shelf.action.restore.description:
+    text: 恢复最近删除的 {0, choice, 1#个更改列表|2#个更改列表}
+vcs.shelf.action.restore.text:
+    text: 恢复
+version.control.main.configurable.name:
+    text: 版本控制
+waiting.changelists.update.for.show.commit.dialog.message:
+    text: 提交

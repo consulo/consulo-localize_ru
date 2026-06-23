@@ -1,0 +1,70 @@
+attribute.value.expected:
+    text: 应为特性值
+cannot.resolve.taglib.uri:
+    text: 无法解析包含 uri {0} 的 taglib
+create.tagfile.attribute.family:
+    text: 创建标记文件特性
+create.tagfile.attribute.text:
+    text: 创建标记文件特性 {0}
+dtd.parser.message.left.paren.or.entityref.or.empty.or.any.expected:
+    text: 应为 (、实体引用、EMPTY 或 ANY
+dtd.parser.message.literal.public.system.expected:
+    text: 应为文字、PUBLIC 或 SYSTEM
+dtd.parser.message.name.expected:
+    text: 应为 XML 名称
+dtd.parser.message.name.or.entity.ref.expected:
+    text: 应为 XML 名称或实体引用
+dtd.parser.message.whitespace.expected:
+    text: 应为空格
+element.is.not.closed:
+    text: 元素未闭合
+expected.attribute.eq.sign:
+    text: "应为 '=' 符号"
+jsp.directive.end.expected:
+    text: 应为指令结束
+quote.expected:
+    text: 应为引号
+rename.end.tag.name.intention:
+    text: "将结束标记 ''{0}'' 重命名为 ''{1}''"
+rename.start.tag.name.intention:
+    text: "将开始标记 ''{0}'' 重命名为 ''{1}''"
+tag.has.wrong.closing.tag.name:
+    text: 开始标记具有错误的结束标记
+unknown.encoding.0:
+    text: "未知编码: ''{0}''"
+xml.parsing.absent.root.tag:
+    text: 有效的 XML 文档必须包含根标签
+xml.parsing.attribute.value.expected:
+    text: 期望属性值
+xml.parsing.bad.character:
+    text: 非法字符
+xml.parsing.closing.tag.is.not.done:
+    text: 闭合标签无效
+xml.parsing.closing.tag.matches.nothing:
+    text: 闭合标签不匹配任何内容
+xml.parsing.closing.tag.name.missing:
+    text: 缺少闭合标签名称
+xml.parsing.multiple.root.tags:
+    text: 存在多个根标签
+xml.parsing.processing.instruction.name.expected:
+    text: 期望处理指令名称
+xml.parsing.tag.name.expected:
+    text: 期望标签名称
+xml.parsing.unclosed.attribute.value:
+    text: 属性值未闭合
+xml.parsing.unexpected.end.of.file:
+    text: 意外的文件结尾
+xml.parsing.unexpected.token:
+    text: 意外的标记
+xml.parsing.unexpected.tokens:
+    text: 意外的标记
+xml.parsing.unterminated.processing.instruction:
+    text: 处理指令未终止
+xml.schema.validation.attr.not.allowed.with.ref:
+    text: 使用元素引用时此处不允许特性 {0}
+xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
+    text: "'default' 和 'fixed' 特性不应同时存在"
+xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
+    text: maxOccurs 值应大于 minOccurs 值
+xml.schema.validation.name.or.ref.should.present:
+    text: "应存在 'name' 或 'ref' 特性"

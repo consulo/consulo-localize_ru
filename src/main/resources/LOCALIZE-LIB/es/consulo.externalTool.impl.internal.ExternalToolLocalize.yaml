@@ -1,0 +1,36 @@
+tools.add.title:
+    text: Crear herramienta
+tools.after.commit.description:
+    text: 'Ejecutar herramienta:'
+tools.before.run.description:
+    text: "Herramienta externa ''{0}''{1, choice, 0# (deshabilitada)|1#}"
+tools.before.run.provider.name:
+    text: Ejecutar herramienta externa
+tools.completed.message:
+    text: "La herramienta externa ''{0}'' finalizó con el código de salida {1}"
+tools.copy.button:
+    text: '&Copiar'
+tools.copy.title:
+    text: Herramienta de copia
+tools.delete.confirmation:
+    text: ¿Desea eliminar la(s) herramienta(s) externa(s)?
+tools.dialog.title:
+    text: Herramientas externas
+tools.edit.title:
+    text: Editar herramienta
+tools.filters.name.default:
+    text: Sin nombre
+tools.list.item.none:
+    text: <Ninguno>
+tools.not.configured:
+    text: No se han configurado herramientas externas
+tools.process.start.error:
+    text: No se pudo iniciar el proceso
+tools.settings:
+    text: Herramientas
+tools.settings.title:
+    text: Herramientas externas
+tools.unknown.external.tool:
+    text: Herramienta externa desconocida
+tools.unnamed.group:
+    text: '[grupo sin nombre]'

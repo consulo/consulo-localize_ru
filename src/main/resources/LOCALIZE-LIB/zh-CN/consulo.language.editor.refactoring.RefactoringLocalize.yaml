@@ -1,0 +1,1547 @@
+0.already.contains.a.1:
+    text: '{0}已包含{1}'
+0.already.contains.field.1:
+    text: '{0} 已包含字段 {1}'
+0.already.contains.inner.class.named.1:
+    text: '{0} 已包含名为 {1} 的内部类'
+0.already.exists.in.the.target.class:
+    text: '{0} 已经存在于目标类中。'
+0.already.has.parameter.named.1.use.this.name.anyway:
+    text: "{0}已经有名为 ''{1}'' 的形参。\n仍然使用此名称?"
+0.contains.call.with.null.argument.for.parameter.1:
+    text: '{0} 包含带有形参 {1} 的 null 实参的调用'
+0.has.1.usages.that.are.not.safe.to.delete:
+    text: '{0} 有 {1,choice,1#1 个用法|2#{1,number} 个用法}不能安全删除。'
+0.has.detected.1.code.fragments.in.this.file.that.can.be.replaced.with.a.call.to.extracted.method:
+    text: '{0} 检测到此文件中有 {1} 个代码{1,choice,1#段|2#段}可被替换为提取方法调用。要检查并替换{1,choice,1#它|2#它们}吗?'
+0.implements.1:
+    text: '{0}实现{1}。'
+0.is.1.and.will.not.be.accessible.from.2.in.the.target.class:
+    text: '{0} 为 {1}，将无法从 {2} 访问。'
+0.is.a.part.of.method.hierarchy.do.you.want.to.delete.multiple.parameters:
+    text: '{0} 是方法层次结构的一部分。是否要删除多个形参?'
+0.is.already.overridden.in.1:
+    text: '{0}在{1}中已被重写。不会将方法向下推送至该类。'
+0.is.an.interface.method.implementation.will.be.added.to.all.directly.implementing.classes:
+    text: |-
+        {0} 是一个接口。
+        方法实现将被添加到所有直接实现类。
+        继续?
+0.is.an.interface.that.has.no.implementing.classes:
+    text: '{0} 是一个没有实现类的接口'
+0.is.not.a.legal.fq.name:
+    text: "''{0}'' 不是合法的完全限定名称"
+0.is.not.a.legal.java.identifier:
+    text: "''{0}''不是合法的java标识符"
+0.is.not.accessible.from.1.value.for.introduced.parameter.in.that.method.call.will.be.incorrect:
+    text: '{0}不可以从{1}访问。该方法调用中引入形参的值将不正确。'
+0.is.not.an.identifier:
+    text: <b><code>{0}</code></b> 不是一个要在 <b><code>{1}</code></b> 中使用的正确标识符
+0.is.not.initialized.in.declaration.such.fields.are.not.allowed.in.interfaces:
+    text: '{0}在声明处未初始化。在接口中不允许这样的字段。'
+0.is.not.static.it.cannot.be.moved.to.the.interface:
+    text: '{0}不是静态的.不能将它移至该接口'
+0.is.read.only:
+    text: '{0} 为只读条目。'
+0.is.used.for.writing.in.1:
+    text: '{0}是用来写在{1}'
+0.refactoring.cannot.be.applied.to.constructors:
+    text: '{0}重构无法应用于构造函数'
+0.refactoring.is.supported.only.for.final.fields:
+    text: 仅 final 字段支持{0}重构
+0.referenced.in.1.will.not.be.accessible.from.module.2:
+    text: '{0}，在{1}中引用，将无法从模块 {2} 访问'
+0.referenced.in.1.will.not.be.accessible.from.production.of.module.2:
+    text: '{0}，在{1}中引用，将无法从模块 {2} 的生产源中访问'
+0.referenced.in.1.will.not.be.accessible.in.module.2:
+    text: '{0}，在{1}中引用，将无法在模块 {2} 中访问'
+0.that.is.used.in.inlined.method.is.not.accessible.from.call.site.s.in.1:
+    text: 内联方法中使用的{0}无法从{1}中的调用点访问
+0.to.be.renamed.to.1.2:
+    text: '{0}将被重命名为{1} {2}'
+0.to.change.signature:
+    text: '{0}以更改签名'
+0.upcasts.an.instance.of.1.to.2:
+    text: '{0} 将 {1} 的实例向上转换为 {2}。'
+0.uses.1.of.an.instance.of.a.2:
+    text: '{0} 使用 {2} 的一个实例的 {1}'
+0.uses.1.which.is.not.accessible.from.the.superclass:
+    text: '{0}使用{1}，后者无法从超类访问'
+0.uses.1.which.is.not.moved.to.the.superclass:
+    text: '{0}使用{1}，后者无法移至超类'
+0.uses.1.which.is.pushed.down:
+    text: '{0}使用{1}，后者已被向下推送'
+0.uses.1.which.needs.class.instance:
+    text: '{0} 使用 {1}，这需要类实例'
+0.uses.a.package.local.1:
+    text: '{0}使用 package-private {1}'
+0.uses.non.static.1.which.is.not.passed.as.a.parameter:
+    text: '{0}使用非 static {1}，后者不作为形参传递'
+0.will.be.inaccessible.from.1:
+    text: '{0}将无法从{1}'
+0.will.become.inaccessible.from.1:
+    text: '{0}将变得无法从 {1} 访问'
+0.will.hide.renamed.1:
+    text: '{0}将隐藏更名为{1}'
+0.will.no.longer.override.1:
+    text: '{0}将不再重写{1}'
+0.will.not.be.accessible.from.1.after.inlining:
+    text: '{0}不可以从{1}在内联'
+0.will.override.renamed.1:
+    text: '{0}将覆盖更名为{1}'
+0.with.1.visibility.is.not.accessible.from.2:
+    text: 可见性为 {1} 的{0}无法从{2}访问
+ExtractSuperClass.superclass:
+    text: 超类
+a.package.local.class.0.will.no.longer.be.accessible.from.1:
+    text: Package-local 类 {0} 将不再可以从{1}访问
+add.object.as.a.parameter.to.constructors.with.name:
+    text: '将对象作为形参添加到具有以下名称的构造函数(&O):'
+add.object.as.a.parameter.with.name:
+    text: '将对象作为具有以下名称的形参添加(&O):'
+add.parameters.for.fields:
+    text: '添加字段形参(&F):'
+add.parameters.for.fields.to.constructors:
+    text: '向构造函数添加字段形参(&F):'
+all.candidate.variables.have.types.not.in.project:
+    text: 所有候选变量(方法形参和所包含的类字段)的类型都不在项目中
+all.candidate.variables.have.unknown.types:
+    text: 所有候选变量(方法形参和所包含的类字段)都具有未知类型
+all.invocations.and.remove.the.method:
+    text: 内联所有调用并移除方法(&A)
+all.invocations.in.project:
+    text: 项目中的所有调用(&A)
+all.references.and.remove.super.class:
+    text: 内联所有引用并移除类(&A)
+all.references.and.remove.the.class:
+    text: 内联所有引用并移除类(&A)
+all.references.and.remove.the.field:
+    text: 内联所有引用并删除字段 (&A)
+all.these.directories.will.be.moved.and.all.references.to.0.will.be.changed:
+    text: 所有这些目录将被移动，并且所有对 {0} 的引用将被更改。
+analyze.and.replace.usages:
+    text: 分析和替换用法
+annotate.field.as.nonnls.checkbox:
+    text: 注释字段作为 @NonNls (&F)
+anonymous.class.text:
+    text: 匿名类
+anonymousToInner.class.name.label.text:
+    text: '类名:'
+anonymousToInner.make.class.static.checkbox.text:
+    text: 将类设为 static(&S)
+anonymousToInner.no.inner.class.name:
+    text: 需指定类名
+anonymousToInner.parameters.panel.border.title:
+    text: 构造函数的形参
+anonymousToInner.refactoring.name:
+    text: 转换匿名为内部
+attempting.to.delete.targets.node.text:
+    text: 试图删除
+automatic.renamer.rename.to.column:
+    text: 重命名为
+boolean.method.result:
+    text: 布尔方法的结果
+caller.chooser.callee.method:
+    text: 被调用方方法
+caller.chooser.caller.method:
+    text: 调用方方法
+caller.chooser.looking.for.callers:
+    text: 正在查找调用方…
+cancel.button:
+    text: 取消(&N)
+cannot.create.directory:
+    text: 无法创建目录
+cannot.extract.selected.elements.into.include.file:
+    text: 无法将所选元素提取到 include 文件中
+cannot.find.or.create.destination.directory:
+    text: 找不到或创建目标目录
+cannot.make.abstract.method.static:
+    text: 无法将 abstract 方法设为 static
+cannot.move:
+    text: 无法移动
+cannot.move.inner.class.0.into.itself:
+    text: 不能将内部类 {0} 移至自身
+cannot.move.package.into.itself:
+    text: 无法将软件包移至其自身
+cannot.perform.refactoring:
+    text: 无法执行重构。
+cannot.replace.temp.with.query.in.interface:
+    text: 在接口中不能将 temp 替换为查询
+change.signature.feel.lucky:
+    text: 感到幸运(&L)
+change.signature.leave.blank.default.value:
+    text: 留空(&B)
+change.signature.use.selected.value:
+    text: 使用所选值(&V)
+changeClassSignature.class.label.text:
+    text: 更改{0}的签名
+changeClassSignature.no.type.parameters:
+    text: 这个类不能有类型形参
+changeClassSignature.parameters.panel.border.title:
+    text: 形参
+changeClassSignature.refactoring.name:
+    text: 更改类签名
+changeSignature.cannot.resolve.parameter.type:
+    text: "无法解析形参 ''{1}'' 的类型''{0}''。\n是否继续?"
+changeSignature.cannot.resolve.return.type:
+    text: "无法解析返回值类型''{0}''。\n是否继续?"
+changeSignature.default.value.column:
+    text: 默认值
+changeSignature.exception.caller.chooser:
+    text: 选择要传递新异常的方法
+changeSignature.exceptions.panel.border.title:
+    text: 异常
+changeSignature.exceptions.wont.propagate:
+    text: 递归传播的异常的更改不会被执行
+changeSignature.name.prompt:
+    text: '名称(&N):'
+changeSignature.no.return.type:
+    text: 未指定返回值类型
+changeSignature.no.type.for.exception:
+    text: 指定一个类型给异常
+changeSignature.no.type.for.parameter:
+    text: "指定形参 ''{1}'' 的 {0} 类型"
+changeSignature.parameter.caller.chooser:
+    text: 选择要传播新形参的方法
+changeSignature.parameters.wont.propagate:
+    text: 将不会执行形参更改的递归传播
+changeSignature.propagate.exceptions.title:
+    text: 传播异常(&X)…
+changeSignature.propagate.parameters.title:
+    text: 传播形参(&G)…
+changeSignature.refactoring.name:
+    text: 更改签名
+changeSignature.return.type.prompt:
+    text: '返回值类型(&T):'
+changeSignature.vararg.not.last:
+    text: Rest 形参应当为方法签名中的最后一个形参
+changeSignature.wrong.return.type:
+    text: "错误的返回值类型:''{0}''"
+changeSignature.wrong.type.for.exception:
+    text: "类型错误: 异常的 ''{0}''"
+changeSignature.wrong.type.for.parameter:
+    text: "类型错误: 形参 ''{1}'' 的 ''{0}''"
+changing.signature.of.0:
+    text: 更改{0}的签名
+checkbox.safe.delete.with.usage.search:
+    text: 安&全删除(带用法搜索)
+checkbox.search.in.comments.and.strings:
+    text: 在注释和字符串搜索(&S)
+checkbox.search.in.non.java.files:
+    text: 搜索非代码的用法(&E)
+choose.destination.class:
+    text: 选择目标类
+choose.destination.directory:
+    text: 选择目标目录
+choose.destination.package:
+    text: 选择目标软件包
+choose.the.ones.you.want.to.be.deleted:
+    text: 选择您想要删除的方法
+class.0.already.exists:
+    text: 类{0}已存在
+class.0.does.not.exist:
+    text: |-
+        类 {0} 不存在。
+        是否要创建?
+class.0.does.not.have.inheritors:
+    text: 类 {0} 没有继承者。
+class.0.is.not.accessible.from.target.1:
+    text: 类{0}是不可以从目标{1}
+class.0.not.found:
+    text: 找不到类 {0}。
+class.constructors.radio:
+    text: 类构造函数(&C)
+class.description:
+    text: '{1, choice, 0#|1#局部}类 {0}'
+class.does.not.exist.in.the.project:
+    text: 模块中不存在类。是否要创建?
+class.does.not.have.base.classes.interfaces.in.current.project:
+    text: '{0} 在当前项目中没有基类/接口'
+class.does.not.have.base.classes.or.interfaces:
+    text: 类 {0} 没有基类或基接口
+class.does.not.have.implicit.default.constructor:
+    text: 类 {0} 没有隐式默认构造函数
+class.has.been.successfully.created:
+    text: 已成功创建类 {0}。
+class.is.abstract:
+    text: '{0}为 abstract。'
+class.is.interface:
+    text: '{0}是一个接口。'
+class.is.never.used:
+    text: 类从未使用
+class.name.prompt:
+    text: '类名(&N):'
+classes.to.push.down.members.to:
+    text: 要将成员向下推送至{0}的类
+column.name.any.var:
+    text: 任意变量
+column.name.default.value:
+    text: '默认值:'
+column.name.name:
+    text: 名称
+column.name.type:
+    text: 类型
+command.name.copy:
+    text: 复制
+command.name.move:
+    text: 移动
+command.name.rename:
+    text: 重命名
+comments.elements.header:
+    text: 在注释、字符串和非代码文件 {0} 中发现匹配项
+constructor.being.refactored.is.used.in.initializer.of.0:
+    text: 正在重构的构造函数在 {0} 的初始值设定项中使用。内部类 {1} 的非 static 工厂无法在此上下文中使用。生成的代码将不会编译。
+constructor.cannot.be.made.static:
+    text: 构造函数不能设为 static
+constructor.description:
+    text: 构造函数{0}
+continue.button:
+    text: 继续(&C)
+convert.local.to.field.title:
+    text: 将局部转换为字段
+convert.to.instance.method.title:
+    text: 转换为实例方法
+convertToInstanceMethod.all.reference.type.parameters.are.not.in.project:
+    text: '找不到实例方法的目标类: 所有引用的类型均不在项目中。'
+convertToInstanceMethod.method.is.not.static:
+    text: |-
+        无法执行重构
+        方法 {0} 不为 static
+convertToInstanceMethod.no.parameters.with.reference.type:
+    text: 不存在具有引用类型的形参。
+copy.class.clone.0.1:
+    text: 克隆{0}{1}
+copy.class.copy.0.1:
+    text: 复制{0}{1}
+copy.files.clone.directory.0:
+    text: 克隆目录 {0}
+copy.files.clone.file.0:
+    text: 克隆文件 {0}
+copy.files.clone.title:
+    text: 克隆
+copy.files.copy.directory.0:
+    text: 复制目录 {0}
+copy.files.copy.file.0:
+    text: 复制文件 {0}
+copy.files.copy.specified.directories.label:
+    text: 复制指定的目录
+copy.files.copy.specified.files.label:
+    text: 复制指定的文件
+copy.files.copy.specified.mixed.label:
+    text: 复制指定的文件和目录
+copy.files.copy.title:
+    text: 复制
+copy.files.new.name.label:
+    text: '新名称(&N):'
+copy.files.to.directory.label:
+    text: '到目录(&D):'
+copy.handler.clone.class:
+    text: 克隆类
+copy.handler.clone.files.directories:
+    text: 克隆文件/目录
+copy.handler.copy.class:
+    text: 复制类
+copy.handler.copy.files.directories:
+    text: 复制文件/目录
+copy.overwrite.button:
+    text: 覆盖
+copy.overwrite.for.all.button:
+    text: 全部覆盖
+copy.skip.button:
+    text: 跳过
+copy.skip.for.all.button:
+    text: 全部跳过
+create.class.command:
+    text: 创建类 {0}
+create.directory:
+    text: 创建目录
+current.class:
+    text: 当前类
+current.method.radio:
+    text: 当前方法(&M)
+declaration.s.to.be.generified:
+    text: 声明(s)是泛型{0}
+declare.final:
+    text: 声明 final(&F)
+declare.folded.parameters:
+    text: 折叠形参(&F)
+declare.static.checkbox:
+    text: 声明 static(&S)
+declare.varargs.checkbox:
+    text: 声明 vararg(&A)
+delegation.panel.delegate.via.overloading.method:
+    text: 通过重载方法委托(&L)
+delegation.panel.method.calls.label:
+    text: '方法调用:'
+delegation.panel.modify.radio:
+    text: 修改(&M)
+delete.anyway.button:
+    text: 仍然删除(&D)
+delete.include.command:
+    text: 删除 {0}
+delete.title:
+    text: 删除
+delete.variable.declaration:
+    text: 删除变量声明 (&D)
+destination.directory.does.not.correspond.to.any.package:
+    text: 目标目录不对应于任何软件包
+destination.package:
+    text: '目标软件包(&P):'
+detecting.possible.conflicts:
+    text: 正在检测可能的冲突
+dialog.message.cannot.inline.reference.from.0:
+    text: 无法从 {0} 内联引用
+dialog.message.file.already.exists.in.directory:
+    text: "文件 ''{0}'' 在目录 ''{1}'' 中已存在"
+dialog.message.refactoring.not.available.in.current.scope:
+    text: '{0} 在当前作用域内不可用'
+dialog.message.selected.element.used.from.non.project.files:
+    text: 从非项目文件中使用所选元素。不会重命名这些用法。仍要继续?
+directories.and.all.references.to.package.will.be.renamed:
+    text: |4-
+
+
+        您要重命名哪些目录?
+directory.0.already.contains.1.named.2:
+    text: "目录 {0}\n已经包含一个名为 ''{2}'' 的{1}"
+directory.0.already.contains.a.file.named.1:
+    text: "目录 {0}\n已经包含一个名为 ''{1}'' 的文件"
+directory.description:
+    text: 目录 {0}
+do.not.replace:
+    text: 不要替换 (&N)
+do.not.show.this.message.in.the.future:
+    text: 以后不再显示此消息 (&D)
+do.you.want.to.process.overriding.methods.with.covariant.return.type:
+    text: 是否要使用协变返回值类型处理重写方法?
+do.you.wish.to.continue:
+    text: 您是否希望继续?
+do.you.wish.to.ignore.them.and.continue:
+    text: 您是否希望忽略它们并继续?
+dont.support.inner.classes:
+    text: '{0}不支持内部类'
+edit.migration.entry.title:
+    text: 编辑类/软件包迁移规则
+element.will.no.longer.be.accessible:
+    text: '{0}将不再可以从{1}'
+encapsulate.fields..encapsulated.fields.visibility.border.title:
+    text: 封装字段的可见性
+encapsulate.fields.accessors.visibility.border.title:
+    text: 访问器可见性
+encapsulate.fields.command.name:
+    text: 封装字段在{0}
+encapsulate.fields.encapsulate.border.title:
+    text: 封装
+encapsulate.fields.field.column.name:
+    text: 字段
+encapsulate.fields.fields.to.be.encapsulated:
+    text: 字段封装
+encapsulate.fields.fields.to.encapsulate.border.title:
+    text: 字段来封装
+encapsulate.fields.get.access.checkbox:
+    text: 获取访问权限 (&G)
+encapsulate.fields.getter.exists:
+    text: 已经存在方法 {0}，它与 getter {1} 仅在返回值类型上不同
+encapsulate.fields.no.fields.selected:
+    text: 没有选择字段
+encapsulate.fields.options.border.title:
+    text: 选项
+encapsulate.fields.private.radio:
+    text: 私有(&I)
+encapsulate.fields.refactoring.cannot.be.applied.to.interface:
+    text: 封装字段重构不能应用到接口
+encapsulate.fields.set.access.checkbox:
+    text: 设置访问权限 (&S)
+encapsulate.fields.setter.exists:
+    text: 已经存在方法 {0}，它与 setter {1} 仅在返回值类型上不同
+encapsulate.fields.title:
+    text: 封装字段
+encapsulate.fields.use.accessors.even.when.field.is.accessible.checkbox:
+    text: 使用访问器即使字段是可访问的
+enter.new.project.name:
+    text: '输入新项目名称:'
+entity.name.constructor.parameter:
+    text: 形参
+entity.name.form:
+    text: 形式
+entity.name.inheritor:
+    text: 继承者
+entity.name.test:
+    text: 测试
+entity.name.variable:
+    text: 变量
+error.cannot.be.renamed:
+    text: 此元素无法重命名
+error.in.injected.lang.prefix.suffix:
+    text: 所选{0}位于注入语言文档的只读部分中
+error.incorrect.data:
+    text: 不正确的数据
+error.not.supported.for.jsp:
+    text: '{0}重构不支持JSP'
+error.out.of.project.element:
+    text: 所选{0}不位于项目中
+error.title:
+    text: 连接问题。
+error.wrong.caret.position.anonymous:
+    text: 文本光标应置于要重构的匿名类内
+error.wrong.caret.position.class:
+    text: 文本光标应置于要重构的类内
+error.wrong.caret.position.constructor:
+    text: 文本光标应置于要重构的构造函数内
+error.wrong.caret.position.local.name:
+    text: 文本光标应置于要重构的局部变量的名称处
+error.wrong.caret.position.local.or.expression.name:
+    text: 文本光标应置于要重构的局部变量或表达式的名称处
+error.wrong.caret.position.method:
+    text: 文本光标应置于要重构的方法内
+error.wrong.caret.position.method.or.class.name:
+    text: 文本光标应置于要重构的方法或类的名称处
+error.wrong.caret.position.method.or.local.name:
+    text: 文本光标应置于要重构的元素的名称处
+error.wrong.caret.position.method.or.variable.name:
+    text: 文本光标应置于要重构的方法或变量的名称处
+error.wrong.caret.position.symbol.to.refactor:
+    text: 文本光标应置于要重构的符号处
+error.wrong.caret.position.symbol.to.rename:
+    text: 文本光标应置于要重命名的符号处
+error.wrong.name.input:
+    text: 错误的名称:{0}
+expression.result:
+    text: 表达式结果
+extract.chained.constructor.checkbox:
+    text: 提取链接构造函数 (&C)
+extract.include.file.action.title:
+    text: 提取 Include 文件…
+extract.include.file.title:
+    text: 提取 Include 文件
+extract.interface.command.name:
+    text: 从 {1} 提取接口 {0}
+extract.interface.from:
+    text: '从中提取接口:'
+extract.interface.title:
+    text: 提取接口
+extract.method.control.flow.analysis.failed:
+    text: 代码包含语法错误。无法执行必要的分析。
+extract.method.method.panel.border:
+    text: 方式
+extract.method.replace.duplicate.command.name:
+    text: 替换重复项
+extract.method.title:
+    text: 提取方法
+extract.subclass.command:
+    text: 提取子类
+extract.superclass.command.name:
+    text: 从 {1} 提取超类 {0}
+extract.superclass.elements.header:
+    text: 将包含成员的超类提取至目录
+extract.superclass.from:
+    text: '从中提取超类:'
+extract.superclass.title:
+    text: 提取超类
+extract.to.directory:
+    text: '提取至目录(&D):'
+extractIncludeFile.name:
+    text: 提取 Include 文件
+extractSuper.extract:
+    text: 提取{0}(&X)
+extractSuper.rename.original.class:
+    text: 重命名原始类并在可能的情况下使用{0}(&E)
+extractSuper.rename.original.class.to:
+    text: '重命名原始类到: (&R)'
+extractSuperInterface.interface:
+    text: 接口
+factory.method.name.label:
+    text: '工厂方法名称:'
+field.0.is.already.defined.in.the.1:
+    text: 字段 {0} 已经在 {1} 中定义
+field.0.is.never.used:
+    text: 字段{0}从未使用过
+field.0.is.not.accessible:
+    text: 字段{0}是不可以从{1}
+field.0.is.not.static:
+    text: |-
+        字段 {0} 不为 static。
+        仅 static 成员支持{1}重构。
+field.0.will.hide.field.1.of.the.base.class:
+    text: 字段 {0} 将隐藏基{2}的字段 {1}
+field.declaration.radio:
+    text: 字段声明 (&D)
+field.description:
+    text: 字段{0}
+field.exists:
+    text: "名称为 {0} 的字段\n已存在于类 ''{1}'' 中。\n是否继续?"
+field.name:
+    text: 字段名称
+fields.to.be.refactored.should.belong.to.the.same.class:
+    text: 重构的字段应该属于同一个类
+file.already.exist:
+    text: 文件 {0} 已存在
+file.already.exist.title:
+    text: 提取 Include 文件
+file.description:
+    text: 文件 {0}
+generate.getter.for.delegated.component:
+    text: 为委派成员生成getter (&G)
+generify.title:
+    text: 将原始类型转换为泛型
+getter.and.setter.methods.found.for.the.field.0:
+    text: 发现字段 {0} 的 getter和setter方法。是否将它们一起 {1}?
+getter.method.found.for.the.field.0:
+    text: 发现字段 {0} 的 getter 方法。 是否将 getter 一起{1}?
+idea.has.found.fragments.that.can.be.replaced.with.include.directive:
+    text: |-
+        {0} 已发现可以使用 include 指令替换的片段。
+        是否要审查这些片段?
+idea.has.not.found.any.code.that.can.be.replaced.with.method.call:
+    text: '{0}没有发现任何副本'
+ignore.button:
+    text: 忽略
+information.title:
+    text: 信息
+initialize.in.border.title:
+    text: 初始化位置(&I)
+initializer.for.variable.cannot.be.a.constant.initializer:
+    text: 变量的 {0} 初始值设定项不能是常量初始值设定项
+inline.class.elements.header:
+    text: 类内联
+inline.command:
+    text: 内联{0}
+inline.field.border.title:
+    text: 内联
+inline.field.command:
+    text: 内联场{0}
+inline.field.elements.header:
+    text: 场内联
+inline.field.field.name.label:
+    text: 字段 {0}
+inline.field.title:
+    text: 内联领域
+inline.included.file.title:
+    text: 内联包含的文件
+inline.local.variable.prompt:
+    text: "内联局部变量 ''{0}''?"
+inline.method.border.title:
+    text: 内联
+inline.method.checking.tail.calls.progress:
+    text: 检查尾调用用法
+inline.method.command:
+    text: 正在内联方法 {0}
+inline.method.elements.header:
+    text: 方法内联
+inline.method.method.label:
+    text: 方法{0} {1}
+inline.method.title:
+    text: 内联方法
+inline.parameter.command.name:
+    text: 内联参数 {0}
+inline.parameter.confirmation:
+    text: "将形参 ''{0}'' 与初始值设定项 ''{1}'' 内联?"
+inline.parameter.error.hierarchy:
+    text: 内联形参不支持当方法是一个继承层次结构的一部分
+inline.parameter.error.varargs:
+    text: 不支持内联 vararg 形参
+inline.parameter.refactoring:
+    text: 内联形参
+inline.parameter.replace.with.local.checkbox:
+    text: "替换为局部变量(e)\r (&E)"
+inline.the.contents.include.prompt:
+    text: "内联''{0}'' 的内容?"
+inline.title:
+    text: 内联
+inline.to.anonymous.border.title:
+    text: 内联
+inline.to.anonymous.command.name:
+    text: 内联类{0}
+inline.to.anonymous.name.label:
+    text: 类 {0}
+inline.to.anonymous.no.abstract:
+    text: 抽象类不能被内联
+inline.to.anonymous.no.multiple.interfaces:
+    text: 实现多个接口的类不能被内联
+inline.to.anonymous.no.superclass.and.interface:
+    text: 有超类和实现了接口的类不能被内联
+inline.to.anonymous.refactoring:
+    text: 内联到匿名类
+inline.variable.title:
+    text: 内联变量
+inline.vars.elements.header:
+    text: 变量以内联
+inlined.method.implements.method.from.0:
+    text: 内联方法实现方法从{0}
+inlined.method.overrides.method.from.0:
+    text: 从{0}内联方法重写方法
+inner.class.0.is.already.defined.in.class.1:
+    text: |-
+        内部类 {0} 已在类 {1} 中定义。
+        仍然继续?
+inner.class.0.is.not.static:
+    text: |-
+        内部类 {0} 不为 static。
+        仅 static 成员支持{1}重构。
+inner.class.exists:
+    text: "名为''{0}''的内部类已经定义在类''{1}''中"
+inner.class.name:
+    text: '内部类名(&I):'
+inner.classes.cannot.have.static.members:
+    text: 内部类不能有 static 成员
+inplace.refactoring.abandon.started:
+    text: 放弃已开始的重构
+inplace.refactoring.cancel.current:
+    text: 取消当前重构
+inplace.refactoring.continue.started:
+    text: 继续已开始的重构
+inplace.refactoring.navigate.to.started:
+    text: 导航到已开始的重构
+instance.initializer.description:
+    text: '{0} 的实例初始值设定项'
+instances.casted.to.java.lang.object:
+    text: 转换为 java.lang.Object 的实例
+instances.of.0.upcasted.to.1.were.found:
+    text: 发现了 {0} 的实例被向上转换为 {1}。如果继续，它们将显示在单独的“查找”标签页中。
+instances.upcasted.to.java.lang.object.found:
+    text: 找到向上转换为 java.lang.Object 的实例
+instances.upcasted.to.object:
+    text: 向上转型实例对象
+interface.0.does.not.have.inheritors:
+    text: 接口 {0} 没有继承者
+interface.does.not.have.base.interfaces:
+    text: 接口 {0} 没有基接口
+interface.has.been.successfully.created:
+    text: 已成功创建接口 {0}
+interface.member.dependency.required.by.interfaces:
+    text: '{0,choice,1#接口|2#接口}所需'
+interface.name.prompt:
+    text: '接口名称(&I):'
+introduce.constant.enum.cb:
+    text: 提取为枚举常量 (&E)
+introduce.constant.field.of.type:
+    text: '常量(static final 字段)的类型(&T):'
+introduce.constant.introduce.to.class:
+    text: '提取到类(完全限定名称)(&C):'
+introduce.constant.title:
+    text: 引入常量
+introduce.field.field.of.type:
+    text: '类型的字段: (&T)'
+introduce.field.static.field.of.type:
+    text: 'static 字段的类型(&T):'
+introduce.field.title:
+    text: 提取字段
+introduce.parameter.command:
+    text: 正在将形参提取到{0}
+introduce.parameter.elements.header:
+    text: 正在将形参添加到方法
+introduce.parameter.title:
+    text: 引入形参
+introduce.parameter.to.method:
+    text: 将参数引入方法
+introduce.selection.error:
+    text: 无法使用所选元素执行重构
+introduce.target.chooser.expressions.title:
+    text: 表达式
+introduce.variable.title:
+    text: 引入变量
+introduced.variable.will.conflict.with.0:
+    text: 引入的变量与{0}冲突
+introducing.variable.may.break.code.logic:
+    text: 引入变量可能打破代码逻辑。
+invalid.expression.context:
+    text: 无效的表达式上下文。
+invalid.target.package.name.default.package:
+    text: 不能将类移动到默认包
+invalid.target.package.name.specified:
+    text: 指定了无效的目标软件包名称
+invert.0.1:
+    text: 反转{0} {1} 及其用法
+invert.boolean.elements.header:
+    text: 要反转的{0}
+invert.boolean.name.of.inverted.element:
+    text: '反转的{0}的名称(&N):'
+invert.boolean.refs.to.invert:
+    text: 要反转的引用 {0}
+invert.boolean.title:
+    text: 反转布尔
+invert.boolean.wrong.type:
+    text: 该方法的返回值类型或类型的变量是重构应该是布尔
+invocations.to.be.inlined:
+    text: 调用内联{0}
+is.modified.in.loop.body:
+    text: '{0} 在循环体中被修改'
+is.not.supported.in.the.current.context:
+    text: 当前上下文不支持{0}
+items.to.be.deleted:
+    text: 要被删除的条目
+javadoc.for.abstracts:
+    text: JavaDoc的摘要
+keep.abstract.column.header:
+    text: 保持 abstract
+local.variable.description:
+    text: 局部变量{0}
+locate.caret.inside.a.method:
+    text: 将文本光标定位在成员内
+make.0.static:
+    text: 将{0}设为 static
+make.abstract:
+    text: 设为 abstract
+make.method.static.title:
+    text: 将方法设为 static
+make.static.command:
+    text: 将 {0} 设为 static
+make.static.description.label:
+    text: 将{0} {1}设为 static
+make.static.elements.header:
+    text: 要设为 static 的{0}
+member.column:
+    text: 成员
+member.info.extends.0:
+    text: 扩展{0}
+member.info.implements.0:
+    text: 实现{0}
+member.is.already.static:
+    text: 成员已经为 static
+members.to.be.moved.should.belong.to.the.same.class:
+    text: 要移动的成员应属于同一类
+members.to.be.pulled.up:
+    text: 要被向上拉取的成员(&B)
+members.to.be.pushed.down.panel.title:
+    text: 要被向下推送的成员(&B)
+members.to.form.interface:
+    text: 要构成接口的成员(&B)
+members.to.form.superclass:
+    text: 要构成超类的成员(&B)
+method.0.is.already.defined.in.the.1:
+    text: 方法 {0} 已在{1}中定义。
+method.0.is.not.static:
+    text: |-
+        方法 {0} 不为 static。
+        仅 static 成员支持{1}重构。
+method.0.is.overridden.by.1:
+    text: 方法{0}被{1}重写。
+method.0.will.hide.method.of.the.base.class:
+    text: 方法{0}将隐藏基类{1}的此方法。
+method.0.will.implement.method.of.the.base.class:
+    text: 方法{0}将实现基类{1}的一个方法。
+method.0.will.override.a.method.of.the.base.class:
+    text: 方法{0}将重写基类{1}的一个方法。
+method.column:
+    text: 方法
+method.description:
+    text: 方法 {0}
+method.does.not.have.a.body:
+    text: 方法{0}没有方法体。
+method.duplicates.found.message:
+    text: 找到 {0, choice, 1#1 个代码段|2#{0,number} 个代码段}
+method.duplicates.method.label:
+    text: 方法{0}
+method.has.an.empty.body:
+    text: 方法 {0} 具有空体。
+method.is.not.a.constructor:
+    text: 方法是不是构造函数。
+migration.add.button:
+    text: 添加...
+migration.class:
+    text: 类
+migration.dialog.ok.button.text:
+    text: 运行
+migration.dialog.title:
+    text: 软件包和类迁移
+migration.edit.button:
+    text: 编辑...
+migration.entry.class:
+    text: 类
+migration.entry.new.name:
+    text: '新名称:'
+migration.entry.old.name:
+    text: '旧名称:'
+migration.entry.package:
+    text: 软件包
+migration.map.description.label:
+    text: '映射描述:'
+migration.map.name.prompt:
+    text: '地图的名字:'
+migration.move.down.button:
+    text: 下移
+migration.move.up.button:
+    text: 上移
+migration.new.button:
+    text: 新…
+migration.new.name.column.header:
+    text: 新名字
+migration.no.usages.found.in.the.project:
+    text: 项目中找不到任何用法
+migration.old.name.column.header:
+    text: 旧名称
+migration.package:
+    text: 软件包
+migration.package.with.subpackages:
+    text: 软件包和子软件包
+migration.remove.button:
+    text: 删除
+migration.title:
+    text: 迁移
+migration.type.column.header:
+    text: 类型
+move.class.refactoring.cannot.be.applied.to.anonymous.classes:
+    text: 移动类重构不能应用于匿名类
+move.class.to.inner.command.name:
+    text: 将{0, choice, 1#类|2#类} 从 {1} 移至 {2}
+move.class.to.inner.move.to.self.error:
+    text: 不允许移动类到自身
+move.class.to.inner.nonstatic.error:
+    text: 不允许将类移至非 static 内部类
+move.classes.command:
+    text: 正在将 {0} 移到软件包 {1}
+move.classes.destination.make.inner:
+    text: 使内部类(&M)
+move.classes.destination.to.package:
+    text: 到软件包(&G)
+move.classes.move.to.another.source.folder:
+    text: 移至另一个源文件夹(&F)
+move.current.directory:
+    text: 移动当前的
+move.directories:
+    text: 移动全部
+move.directories.elements.header:
+    text: 目录将被移至 {0}
+move.directory.0:
+    text: 移动目录 {0}
+move.enum.constant.cb:
+    text: 如果可能，作为枚举常数移动(&E)
+move.file.0:
+    text: 移动文件 {0}
+move.files.elements.header:
+    text: 文件将被移至 {0}
+move.files.to.directory.label:
+    text: '到目录:'
+move.inner.class.command:
+    text: 移动内部类{0}
+move.inner.class.to.another.class:
+    text: 移动内部类{0}到另一个类 (&M)
+move.inner.class.to.be.moved:
+    text: 类移动
+move.inner.class.to.upper.level:
+    text: 将内部类 {0} 移至上一级
+move.inner.to.upper.level.title:
+    text: 将内部类移至上一级
+move.instance.method.command:
+    text: 移动实例方法
+move.instance.method.elements.header:
+    text: 移动实例方法
+move.instance.method.title:
+    text: 移动实例方法
+move.members.elements.header:
+    text: 要移动的成员
+move.members.members.to.be.moved.border.title:
+    text: 需要移动的成员(仅限 static)(&B)
+move.members.move.members.from.label:
+    text: '从以下位置移动成员:'
+move.members.title:
+    text: 移动 static 成员
+move.members.to.fully.qualified.name.label:
+    text: '到(完全限定名称):'
+move.method.enter.a.valid.name.for.parameter:
+    text: 请输入一个有效的形参名称
+move.method.is.not.supported.for.0:
+    text: '{0} 不支持移动实例方法'
+move.method.is.not.supported.for.constructors:
+    text: 构造函数不支持 Move 方法
+move.method.is.not.supported.for.generic.classes:
+    text: 泛型类不支持 Move 方法
+move.method.is.not.supported.when.method.is.part.of.inheritance.hierarchy:
+    text: 当方法是继承层次结构的一部分时，不支持 Move 方法
+move.method.this.parameter.label:
+    text: "为 ''{0}.this'' 形参选择一个名称"
+move.nonstatic.class.from.jsp.not.supported:
+    text: 不支持从 JSP 页面移动非 static 类
+move.package.refactoring.cannot.be.applied.to.default.package:
+    text: “移动软件包”重构不能用于默认软件包
+move.single.class.or.package.name.label:
+    text: 移动 {0} {1}
+move.single.element.elements.header:
+    text: '{0} 将被移至 {1}'
+move.specified.classes:
+    text: 移动指定的类
+move.specified.classes.to:
+    text: 移动指定的类到：
+move.specified.directories:
+    text: 移动指定的目录
+move.specified.elements:
+    text: 移动指定的元素
+move.specified.files:
+    text: 移动指定的文件
+move.specified.packages:
+    text: 移动指定的软件包
+move.title:
+    text: 移动
+move.to.different.language:
+    text: 目标类 {2} 具有与{0} {1} 不同的语言
+move.to.inner.duplicate.inner.class:
+    text: 类{0}已包含一个名为{1}的内部类
+moveInstanceMethod.select.an.instance.parameter:
+    text: '选择一个实例表达式(&I):'
+moving.directories.command:
+    text: 移动目录
+moving.local.classes.is.not.supported:
+    text: 不支持移动局部类。
+multiple.directories.correspond.to.package:
+    text: "多个目录对应软件包\n''{0}'':\n\n"
+name.for.extracted.include.file:
+    text: '提取的 include 文件的名称(默认扩展名: {0})(&N)'
+name.prompt:
+    text: 名称(&N)
+no.button:
+    text: 否(&N)
+no.class.name.specified:
+    text: 未指定类名
+no.destination.class.specified:
+    text: 未指定目标类
+no.field.name.specified:
+    text: 未指定字段名称
+no.initializer.present.for.the.field:
+    text: 字段没有初始值设定项
+no.interface.name.specified:
+    text: 未指定接口名称
+no.members.selected:
+    text: 未选择任何成员
+no.new.name.specified:
+    text: 未指定新名称
+no.parameter.name.specified:
+    text: 未指定形参名称
+no.selection:
+    text: 无选择。
+no.superclass.name.specified:
+    text: 未指定超类名
+no.target.directory.specified:
+    text: 未指定目标目录
+no.usages.can.be.replaced:
+    text: 没有用途的{0}可以替换用法{1}
+occurrences.found.in.comments.strings.and.non.java.files:
+    text: 在注释、字符串和非代码文件中发现匹配项
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+    text: 在注释、字符串非代码文件和生成的代码中发现匹配项
+ok.button:
+    text: 确定
+only.fields.variables.of.methods.of.valid.type.can.be.considered:
+    text: 仅可以考虑有效类型的字段、变量、方法形参或方法。
+package.description:
+    text: 软件包 {0}
+package.does.not.exist:
+    text: |-
+        软件包 {0} 不存在。
+        是否要创建?
+package.for.new.interface:
+    text: '新接口的软件包(&P):'
+package.for.new.superclass:
+    text: '新超类的软件包(&P):'
+package.for.original.class:
+    text: '原始类的软件包(&P):'
+package.for.original.interface:
+    text: '原始接口的软件包(&P):'
+package.occurs.in.package.prefixes.of.the.following.source.folders.n:
+    text: '软件包 {0} 位于以下源文件夹的软件包前缀中:'
+parameter.description:
+    text: 形参 {0}
+parameter.initializer.contains.0.but.not.all.calls.to.method.are.in.its.class:
+    text: 形参初始值设定项包含 {0}，但并非对方法的所有调用都位于其类中
+parameter.name.prompt:
+    text: '形参名称(&M):'
+parameter.of.type:
+    text: '类型的形参(&T):'
+parameters.border.title:
+    text: 形参
+pass.outer.class.instance.as.parameter:
+    text: 将外部类实例作为形参传递(&O)
+path.completion.shortcut:
+    text: 使用 {0} 进行路径补全
+please.enter.a.valid.name.for.inverted.element:
+    text: 请为反转的{0}输入一个有效的名称
+please.enter.a.valid.target.package.name:
+    text: 请输入一个有效的目标软件包名称
+press.escape.to.remove.the.highlighting:
+    text: 按 esc 移除高亮显示
+press.the.do.migrate.button:
+    text: |-
+        按搜索结果面板底部的“”迁移按钮，
+        使用迁移映射“{0}”进行迁移
+preview.button:
+    text: 预览(&P)
+preview.usages.to.be.changed:
+    text: 预览要改变的用法 (&P)
+problems.detected.title:
+    text: 检测到问题
+process.duplicates.title:
+    text: 处理重复项
+process.methods.duplicates.title:
+    text: 过程方法 {2} 重复({0}/{1})
+progress.text:
+    text: 正在查找用法…
+prompt.delete.and:
+    text: 和
+prompt.delete.class:
+    text: '{0,choice,1#类|2#类}'
+prompt.delete.directory:
+    text: '{0,choice,1#个目录|2#个目录}'
+prompt.delete.directory.paren:
+    text: ({0} {0,choice,1#个目录|2#个目录})
+prompt.delete.elements:
+    text: 删除{0}?
+prompt.delete.field:
+    text: '{0,choice,1#个字段|2#个字段}'
+prompt.delete.file:
+    text: '{0,choice,1#个文件|2#个文件}'
+prompt.delete.interface:
+    text: '{0,choice,1#个接口|2#个接口}'
+prompt.delete.method:
+    text: '{0,choice,1#个方法|2#个方法}'
+prompt.delete.package:
+    text: '{0,choice,1#软件包|2#软件包}'
+prompt.delete.property:
+    text: '{0,choice,1#个属性|2#个属性}'
+prompt.delete.symlink:
+    text: '{0,choice,1#个符号链接|2#个符号链接}'
+prompt.delete.type.parameter:
+    text: '{0,choice,1#类型形参|2#类型形参}'
+pull.members.up.title:
+    text: 向上拉取成员
+pull.up.members.to:
+    text: '将{0}的成员向上拉取至(&U):'
+pullUp.command:
+    text: 从 {0} 向上拉取成员
+push.down.javadoc.panel.title:
+    text: 摘要的 JavaDoc
+push.down.members.elements.header:
+    text: 从 {0} 向下推送成员
+push.down.will.delete.members:
+    text: 向下推送成员将导致它们被删除? 要创建新的子类吗?
+push.members.down.title:
+    text: 向下推送成员
+push.members.from.0.down.label:
+    text: 从{0}向下推送成员
+pushed.members.will.not.be.visible.from.certain.call.sites:
+    text: 推送的成员将无法从特定调用点查看
+readonly.occurences.found:
+    text: 在只读文件中找到匹配项
+refactor.button:
+    text: 重构(&R)
+refactoring.cannot.be.applied.to.inline.non.chaining.constructors:
+    text: '{0}重构不能用于内联非链接构造函数'
+refactoring.cannot.be.applied.to.vararg.constructors:
+    text: '{0}重构无法应用于 vararg 构造函数'
+refactoring.cannot.be.performed:
+    text: 无法执行重构
+refactoring.extract.method.dialog.empty:
+    text: 空
+refactoring.extract.method.dialog.method.name:
+    text: '方法名称:'
+refactoring.extract.method.dialog.output.variables:
+    text: 输出变量
+refactoring.extract.method.dialog.parameters:
+    text: 形参
+refactoring.extract.method.dialog.signature.preview:
+    text: 签名预览
+refactoring.extract.method.dialog.title:
+    text: 提取方法
+refactoring.indexing.warning.title:
+    text: 正在编制索引
+refactoring.introduce.context.error:
+    text: 无法在此上下文中执行重构
+refactoring.introduce.name.error:
+    text: 名称不正确
+refactoring.introduce.name.used.error:
+    text: 此名称已被使用
+refactoring.introduce.selection.error:
+    text: 无法使用所选元素执行重构
+refactoring.introduce.variable.scope.error:
+    text: 与现有的变量名称冲突
+refactoring.introduceVariable:
+    text: “引入变量”重构
+refactoring.is.not.supported.for.jsp.classes:
+    text: JSP 类不支持重构
+refactoring.is.not.supported.for.language:
+    text: '{0} 不支持 {1}'
+refactoring.is.not.supported.for.local.and.jsp.classes:
+    text: 局部和 JSP 类不支持重构
+refactoring.is.not.supported.for.recursive.methods:
+    text: |-
+        无法应用{0}重构来移除递归方法。
+        您只能内联各个方法调用。
+refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
+    text: 当 return 语句中断执行流时，不支持{0}重构
+references.found.in.code:
+    text: 在代码中找到引用
+references.in.code:
+    text: 代码中的引用 {0}
+references.in.code.to.0:
+    text: 代码中对{0}的引用
+references.in.code.to.0.1:
+    text: 代码中对{0} {1} 的引用
+references.in.code.to.elements.from.migration.map:
+    text: 在代码中引用来自迁移映射“{0}”{1} 的元素
+references.to.0.to.be.replaced.with.references.to.1:
+    text: "对 ''{0}'' 的引用要替换为对 ''{1}''{2} 的引用"
+remove.duplicates.command:
+    text: 删除重复项
+remove.include.prompt:
+    text: 包含的文件不再使用。将其移除?
+remove.parameter.0.no.longer.used:
+    text: "移除不再使用的形参 ''{0}''"
+rename.0.and.its.usages.to:
+    text: '将{0}及其用法重命名为:'
+rename.bound.forms:
+    text: 重命名绑定形式(&F)
+rename.bound.forms.title:
+    text: 重命名绑定形式
+rename.constructor.parameters.title:
+    text: 重命名构造函数形参
+rename.constructor.parameters.with.the.following.names.to:
+    text: '将具有以下名称的形参重命名为:'
+rename.current.directory:
+    text: 重命名当前的
+rename.directories:
+    text: 重命名全部
+rename.directories.command.name:
+    text: 重命名目录
+rename.directory.button.text:
+    text: 当前模块中的所有(&M)
+rename.directory.command.name:
+    text: 重命名目录
+rename.directory.title:
+    text: 重命名目录(&D)
+rename.forms.with.the.following.names.to:
+    text: '将具有以下名称的形式重命名为:'
+rename.implementation.class.to:
+    text: '将实现类重命名为:'
+rename.inheritors:
+    text: 重命名继承者
+rename.inheritors.title:
+    text: 重命名继承者
+rename.module.title:
+    text: 重命名模块(&M)
+rename.not.supported:
+    text: 操作不受支持
+rename.original.interface.to:
+    text: '将原始接口重命名为:'
+rename.package.button.text:
+    text: 所有目录(&A)
+rename.parameters.hierarchy:
+    text: 重命名层次结构中的形参(&A)
+rename.project:
+    text: 重命名项目
+rename.project.action.title:
+    text: 重命名项目…
+rename.project.handler.title:
+    text: 重命名项目(&P)
+rename.tests:
+    text: 重命名测试 (&E)
+rename.tests.title:
+    text: 重命名测试
+rename.tests.with.the.following.names.to:
+    text: '将具有以下名称的测试重命名为:'
+rename.title:
+    text: Swift 名称重命名
+rename.variables:
+    text: 重命名变量 (&V)
+rename.variables.title:
+    text: 重命名变量
+renamed.class.will.hide.0.in.1:
+    text: 重命名类将隐藏{0}在{1}
+renames.project:
+    text: 重命名项目
+renaming.0.1.to.2:
+    text: 将{0} {1} 重命名为{2}
+renaming.command.name:
+    text: 重命名{0}
+replace.all.fields:
+    text: 替换所有字段 (&R)
+replace.all.occurences:
+    text: 替换所有匹配项({0} 个匹配项)(&A)
+replace.all.occurences.checkbox:
+    text: 替换所有匹配项(&A)
+replace.all.occurrences.of.expression.0.occurrences:
+    text: 替换所有匹配项({0})(&A)
+replace.button:
+    text: 替换
+replace.constructor.0.with.a.factory.method:
+    text: 将构造函数 {0} 替换为工厂方法
+replace.constructor.with.factory.method:
+    text: 将构造函数替换为工厂方法
+replace.constructor.with.factory.method.title:
+    text: 将构造函数替换为工厂方法
+replace.constructor.with.factory.target.fq.name:
+    text: '在(完全限定名称):'
+replace.default.constructor.of.0.with.a.factory.method:
+    text: 将默认构造函数 {0} 替换为工厂方法
+replace.default.constructor.with.factory.method:
+    text: 将默认构造函数替换为工厂方法
+replace.fields.inaccessible.in.usage.context:
+    text: 替换上下文没有使用的字段 (&I)
+replace.fields.used.in.expressions.with.their.getters:
+    text: 将表达式中使用的字段替换为其 getter (&U)
+replace.fragment:
+    text: 替换片段
+replace.inheritance.from:
+    text: '替换委派继承从(&R):'
+replace.inheritance.with.delegation.command:
+    text: 使用{0}中的委托替换继承
+replace.inheritance.with.delegation.elements.header:
+    text: 替换继承与代表团
+replace.inheritance.with.delegation.title:
+    text: 用委派替换继承
+replace.instance.qualifiers.with.class.references:
+    text: 将实例限定符替换为类引用
+replace.method.code.duplicates.title:
+    text: 替换重复代码
+replace.method.duplicates.scope.chooser.message:
+    text: 分析作用域
+replace.method.duplicates.scope.chooser.title:
+    text: 指定{0}作用域
+replace.multiple.occurrences.found:
+    text: 找到多个匹配项
+replace.temp.with.query.title:
+    text: 取代临时与查询
+replace.this.code.fragment.and.change.signature:
+    text: 方法的签名将被更改为{0}
+replace.this.code.fragment.and.make.method.static:
+    text: (方法将被设为 static)
+replace.this.code.fragment.and.make.method.static.visible:
+    text: (方法将被设为 static 和{0})
+replace.this.code.fragment.and.make.method.visible:
+    text: (方法将{0})
+replace.with.method.call.does.not.work.for.constructors:
+    text: 替换为方法调用不工作为构造函数
+replace.write.access.occurrences:
+    text: 替换白名单匹配项 (&L)
+replacing.inheritance.with.delegation:
+    text: 替换继承与代表团
+rerun.safe.delete:
+    text: 重新运行安全删除(&R)
+retry.command:
+    text: 重试
+safe.delete.command:
+    text: 正在删除 {0}
+safe.delete.comment.occurences.header:
+    text: 在注释、字符串和非代码文件中发现匹配项 {0}。将不会更改这些匹配项
+safe.delete.not.available.indexing:
+    text: 索引编制期间，无法使用“安全删除”重构
+safe.delete.of.those.0.in.comments.strings.non.code:
+    text: 其中 {0,choice,1#1 个用法|2#{0,number} 个用法}位于字符串、注释、非代码文件或生成的代码中。
+safe.delete.title:
+    text: 安全删除
+search.for.references:
+    text: 搜索引用(&F)
+search.for.text.occurrences:
+    text: 搜索文本匹配项(&T)
+search.for.usages.and.delete.elements:
+    text: 搜索用法并删除{0}?
+search.in.comments.and.strings:
+    text: 在注释和字符中搜索(&C)
+searching.for.duplicates:
+    text: 正在搜索重复项…
+searching.for.variables:
+    text: 正在搜索变量
+select.all.button:
+    text: 全选(&A)
+select.refactoring.title:
+    text: 选择重构
+select.source.root.chooser.title:
+    text: 选择根源代码
+select.target.directory:
+    text: 选择目标目录
+select.target.directory.description:
+    text: 将在此目录中创建文件
+selected.block.should.represent.a.set.of.statements.or.an.expression:
+    text: 所选块应代表一组语句或表达式
+selected.block.should.represent.an.expression:
+    text: 所选块应该表示一个表达式
+selected.expression.cannot.be.a.constant.initializer:
+    text: 所选表达式不能是常量初始值设定项
+selection.does.not.form.a.fragment.for.extraction:
+    text: 选区无法构成要提取的片段
+setter.method.found.for.the.field.0:
+    text: 发现字段 {0} 的 setter 方法。 是否将 setter 一起{1}?
+setup.method.radio:
+    text: setUp 方法(&S)
+signature.preview.border.title:
+    text: 签名预览
+source.and.destination.classes.should.be.different:
+    text: 源类和目标类应不同
+source.folder.0.has.package.prefix.1:
+    text: "源文件夹 {0} 具有软件包前缀 ''{1}''\n无法在该文件夹中创建软件包 ''{2}''。"
+static.initializer.description:
+    text: '{0} 的 static 初始值设定项'
+statusBar.noUsages:
+    text: 未找到匹配项
+statusBar.refactoring.result:
+    text: '{0, choice, 1#1 个匹配项|2#{0,number} 个匹配项}已更改'
+superclass.cannot.be.extracted.from.an.enum:
+    text: 无法从枚举中提取超类
+superclass.cannot.be.extracted.from.an.interface:
+    text: 无法从接口中提取超类
+superclass.name:
+    text: '超类名(&S):'
+synthetic.jsp.class.is.referenced.in.the.method:
+    text: 合成的jsp类是引用的方法
+target.0.is.not.accessible.from.1:
+    text: 目标{0}是不可以从{1}
+target.destination.folder:
+    text: '目标目录(&D):'
+the.caret.should.be.positioned.at.the.class.method.or.field.to.be.refactored:
+    text: 文本光标应置于要重构的类、方法或字段处
+the.caret.should.be.positioned.inside.a.class.to.pull.members.from:
+    text: 文本光标应置于要从中拉取成员的类内
+the.caret.should.be.positioned.inside.a.class.to.push.members.from:
+    text: 文本光标应置于要从中推送成员的类内
+the.caret.should.be.positioned.on.the.included.file.to.inline:
+    text: 文本光标应置于要内联的包含的文件引用上
+the.field.should.be.declared.in.a.class:
+    text: 应在类中声明该字段。
+the.file.will.be.copied.to.this.directory:
+    text: 文件将被复制到此目录
+the.file.will.be.moved.to.this.directory:
+    text: 文件将被移至此目录
+the.following.problems.were.found:
+    text: '发现以下问题:'
+the.language.for.selected.elements.has.no.associated.file.type:
+    text: 所选元素的语言没有关联的文件类型
+there.are.going.to.be.multiple.destination.files.with.the.same.name:
+    text: 有多个目标文件具有相同的名称。
+there.are.multiple.exit.points.in.the.selected.code.fragment:
+    text: 选定的代码段有多个出口点。
+there.are.multiple.output.values.for.the.selected.code.fragment:
+    text: 选定的代码段有多个输出值。
+there.are.no.variables.that.have.reference.type:
+    text: 方法形参或所包含的类字段都没有引用类型
+there.are.unused.methods.that.override.methods.you.delete:
+    text: 存在重写您删除的方法的未使用方法
+there.is.already.a.0.in.1:
+    text: 已存在一个{0}在{1}中
+there.is.already.a.0.in.1.it.will.conflict.with.the.new.parameter:
+    text: '{1} 中已有一个{0}。它将与新形参冲突。'
+there.is.already.a.0.in.the.1.it.will.conflict.with.the.renamed.parameter:
+    text: '{1} 中已有一个{0}。它将与重命名的形参冲突。'
+there.is.already.a.0.it.will.conflict.with.an.introduced.parameter:
+    text: 已经有一个{0}。它将冲突与引入的形参冲突
+there.is.already.a.0.it.will.conflict.with.the.renamed.1:
+    text: 已经有一个{0}。它将与重命名的{1}冲突
+these.package.prefixes.will.be.changed:
+    text: 这些软件包前缀将被更改。
+this.invocation.only.and.keep.the.method:
+    text: 仅内联此调用并保留方法(&K)
+this.member.does.not.seem.to.belong.to.any.class:
+    text: 此成员似乎不属于任何类
+this.method:
+    text: 这种方法
+this.reference.only.and.keep.super.class:
+    text: 这个仅供引用并保持内联的超类(&K)
+this.reference.only.and.keep.the.class:
+    text: 内联这只引用和保持类(&K)
+this.reference.only.and.keep.the.field:
+    text: 内联这只引用和保持字段(&K)
+to.refactor:
+    text: 重构
+to.rename:
+    text: 重命名
+turn.refs.to.super.command:
+    text: 将{0}的用法替换为{1}
+turnRefsToSuper.change.usages.to:
+    text: '更改{0}的使用到: (&C)'
+turnRefsToSuper.use.superclass.in.instanceof:
+    text: 使用接口/超类在实例 (&U)
+type.cook.command:
+    text: 泛化
+type.cook.drop.obsolete.casts:
+    text: 删除废弃转换 (&D)
+type.cook.elements.header:
+    text: Generify的作用域
+type.cook.generify.objects:
+    text: Generify对象(&O)
+type.cook.leave.object.parameterized.types.raw:
+    text: 离开对象形参化类型生(&L)
+type.cook.perform.exhaustive.search:
+    text: 执行详尽的搜索(&E)
+type.cook.preserve.raw.arrays:
+    text: 保存原始数组(&A)
+type.cook.produce.wildcard.types:
+    text: 产生通配符类型(&W)
+type.cook.ratio.generified:
+    text: '{0,choice,-1#不计算|0#{0,number}/{1}}'
+type.cook.report:
+    text: '泛化的条目: {0}，移除的转换: {1}'
+type.migration.exclude.action.text:
+    text: 排除 (&E)
+type.migration.include.action.text:
+    text: 包含(&I)
+type.migration.migrate.button.text:
+    text: 迁移 (&M)
+type.migration.rerun.button.text:
+    text: 重新运行类型迁移(&R)
+type.of.the.selected.expression.cannot.be.determined:
+    text: 所选表达式的类型不能确定。
+unable.to.start.type.migration:
+    text: 无法启动类型迁移
+unknown.expression.type:
+    text: 未知的表达式类型。
+unselect.all.button:
+    text: 取消全选(&U)
+unsupported.refs.found:
+    text: 在 {0} 个文件中找到不受支持的引用
+unused.overriding.methods.title:
+    text: 未使用重写方法
+usageView.doAction:
+    text: 执行重构(&D)
+usageView.need.reRun:
+    text: |-
+        无法执行重构操作。
+        找到用法后代码有更改。
+        请再次执行用法搜索。
+usageView.tabText:
+    text: 重构预览
+usageView.usagesText:
+    text: 用法
+usages.detected:
+    text: 检测到用法
+use.interface.where.possible.title:
+    text: 在可能处使用接口
+use.super.references.prompt:
+    text: |-
+        在这个阶段，{0} 可以分析 {1} 的用法，并在可能的情况下将其替换为 {2} 的用法。
+        是否要继续?
+use.variable.initializer.to.initialize.parameter:
+    text: 使用变量初始值设定项初始化形参(&I)
+used.by.0:
+    text: 被{0}使用
+uses.0:
+    text: 使用{0}
+variable.does.not.have.an.initializer:
+    text: 变量 {0} 没有初始值设定项。
+variable.has.no.dominating.definition:
+    text: 找不到要内联的单一定义
+variable.has.no.initializer:
+    text: 变量 {0} 没有初始值设定项。
+variable.is.accessed.for.writing.and.used.with.inlined:
+    text: "另一个变量 ''{0}'' 定义与内联定义结合使用"
+variable.is.never.used:
+    text: 变量 {0} 从未使用
+variable.is.never.used.before.modification:
+    text: 修改之前从未使用变量{0}
+variable.is.referenced.in.multiple.files:
+    text: 变量 {0} 在多个文件中引用
+variable.of.type:
+    text: '类型的变量(&T):'
+view.usages:
+    text: 查看用法(&V)
+visibility.as.is:
+    text: 保留原样(&A)
+visibility.border.title:
+    text: 可见性
+visibility.combo.title:
+    text: '可见性(&V):'
+visibility.escalate:
+    text: 升级(&E)
+warning.title:
+    text: 警告
+what.would.you.like.to.do:
+    text: 您想做什么?
+would.you.like.to.replace.default.constructor.of.0.with.factory.method:
+    text: 要将默认构造函数 {0} 替换为工厂方法吗?
+yes.button:
+    text: 是(&Y)

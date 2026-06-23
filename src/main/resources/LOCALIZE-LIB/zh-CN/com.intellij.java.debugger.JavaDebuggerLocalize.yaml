@@ -1,0 +1,776 @@
+action.add.field.watchpoint.text:
+    text: 添加字段观察点
+action.auto.variables.mode:
+    text: 仅显示执行点附近的变量
+action.auto.variables.mode.description:
+    text: 仅显示执行点附近使用的变量
+action.enable.text:
+    text: 开启
+action.interrupt.thread.text:
+    text: 中断
+action.remove.text:
+    text: 移除(&R)
+action.resume.thread.text.resume:
+    text: 恢复
+action.watch.method.return.value.description:
+    text: 启用观察上次执行的方法返回值
+action.watches.method.return.value.enable:
+    text: 显示方法返回值
+action.watches.method.return.value.unavailable.reason:
+    text: 目标VM不支持的功能
+add.exception.breakpoint.classchooser.title:
+    text: 输入异常类
+add.field.breakpoint.dialog.classchooser.title:
+    text: 选择字段的类
+add.field.breakpoint.dialog.field.chooser.title:
+    text: '{0,choice, 0#类没有字段|1#选择字段}'
+add.field.breakpoint.dialog.title:
+    text: 添加字段监视
+add.instance.filter.dialog.error.numeric.value.expected:
+    text: "实例 ID 应为 'long' 类型的数值"
+add.instance.filter.dialog.prompt:
+    text: '输入实例ID:'
+add.instance.filter.dialog.title:
+    text: 添加实例过滤器
+async.stacktraces.configurable.display.name:
+    text: 异步堆栈跟踪
+breakpoint.any.exception.display.name:
+    text: 任何异常
+breakpoint.properties.panel.option.catch.class.filters:
+    text: '捕捉类过滤器:'
+breakpoint.properties.panel.option.class.filters:
+    text: '类筛选器(&L):'
+breakpoint.properties.panel.option.instance.filters:
+    text: '实例筛选器(&I):'
+breakpoint.properties.panel.option.pass.count:
+    text: '合格次数(&P):'
+breakpoint.property.name.class.filters:
+    text: 类过滤器
+breakpoint.property.name.instance.filters:
+    text: '实例过滤器:'
+breakpoint.property.name.pass.count:
+    text: 合格次数
+button.add:
+    text: 添加
+button.copy:
+    text: 复制
+button.debugger.settings:
+    text: 调试设置…
+button.drop.anyway:
+    text: 不执行
+button.evaluate:
+    text: 求值
+button.execute.finally:
+    text: 执行 finally 块
+button.move.down:
+    text: 下移(&D)
+button.move.up:
+    text: 上移(&U)
+button.remove:
+    text: 删除(&R)
+button.save:
+    text: 保存
+class.filters.dialog.exclusion.filters.group:
+    text: 类排除过滤器
+class.filters.dialog.inclusion.filters.group:
+    text: 包含
+class.filters.dialog.title:
+    text: 类过滤器
+debugger.jdi.bootstrap.error:
+    text: '{0}。请检查您的 JDK 安装。'
+debugger.runner.start.action.text:
+    text: 调试(&D)
+debugger.session.tab.log.content.name:
+    text: '日志: {0}'
+debugger.session.tab.threads.title:
+    text: 线程
+debugger.session.tab.watches.title.with.size:
+    text: 观察清单（{0}）
+default.package.name:
+    text: <默认>
+drop.frame.error.no.information:
+    text: 有关框架的信息不可用
+editor.notification.alternative.source:
+    text: 类{0}的替代来源
+error.absent.exception.breakpoint.class.name:
+    text: 没有异常断点的类名
+error.array.renderer.configurable.end.index.less.than.start:
+    text: 结束索引小于开始索引
+error.array.renderer.configurable.start.index.less.than.zero:
+    text: 开始索引小于 0
+error.breakpoint.file.not.found:
+    text: "文件 ''{0}'' 未找到; b此文件的断点将被忽略"
+error.cannot.create.expression.from.code.fragment:
+    text: 无法从代码段创建表达式。
+error.cannot.load.breakpoint.file:
+    text: "无法加载文件 ''{0}''; 此文件的断点将被忽略"
+error.cannot.open.debugger.port:
+    text: 无法打开调试器端口
+error.class.circularity.error:
+    text: '类循环错误: {0}'
+error.class.def.not.found:
+    text: '找不到类定义 : {0}'
+error.class.format.error:
+    text: '类格式错误 : {0}'
+error.class.not.loaded:
+    text: '未加载类: {0}'
+error.context.has.changed:
+    text: 上下文已经改变，操作是不可能的
+error.corrupt.debug.info:
+    text: '调试信息可能已损坏: {0}'
+error.debug.connector.not.found:
+    text: "找不到所需的连接器 ''{0}''。检查您的 JDK 安装。"
+error.debugger.already.listening:
+    text: 调试器已经在侦听
+error.early.return:
+    text: '早期返回时出错: {0}'
+error.evaluating.breakpoint.condition.or.action:
+    text: "处理虚拟机事件的问题:\n断点: ''{0}''\n错误: {1}\n是否要在断点处停止?"
+error.exception.while.connecting:
+    text: |-
+        连接到远程进程时出错。
+        发生异常: {0}
+        异常消息: {1}
+error.exception.while.reloading:
+    text: '重新加载类时出现异常 : {0} : {1}'
+error.executing.finally:
+    text: '执行 finally 块时出错: {0}'
+error.failed.evaluating.breakpoint.condition:
+    text: "无法对断点条件求值\n''{0}''\n原因: {1}"
+error.field.breakpoint.class.name.not.specified:
+    text: '无法添加监视点: 未指定类名'
+error.field.breakpoint.class.sources.not.found:
+    text: "无法为 ''{0}.{1}'' 创建字段观察点。\n没有类 ''{2}'' 的源"
+error.field.breakpoint.field.name.not.specified:
+    text: '无法添加监视点: 未指定字段名称'
+error.field.breakpoint.field.not.found:
+    text: "无法为 ''{0}.{1}'' 创建字段观察点。\n找不到字段 ''{2}''"
+error.field.not.found.in.class:
+    text: '{1}中没有此类字段{0}'
+error.inconsistent.debug.info:
+    text: 不一致的调试信息
+error.invalid.argument:
+    text: '{0,choice, 1#无效实参|2#实参无效}'
+error.invalid.breakpoint.method.not.found:
+    text: 在类{0}未找到方法
+error.invalid.breakpoint.missing.field.in.class:
+    text: "在类 ''{1}'' 中找不到字段 ''{0}''"
+error.invalid.breakpoint.no.executable.code:
+    text: 在类{1}中的行{0}处找不到可执行代码
+error.invalid.breakpoint.no.line.info:
+    text: 行号信息在类{0}不可用
+error.invalid.breakpoint.source.changed:
+    text: 源文件已更改或找到源文件与断点的文件不对应
+error.invalid.breakpoint.source.not.found:
+    text: 在项目类路径中找到的类{0}没有关联的源文件
+error.invalid.field.name:
+    text: "字段名无效 ''{0}''"
+error.invalid.local.variable.name:
+    text: "无效的局部变量名''{0}''"
+error.invalid.stackframe:
+    text: 内部异常 - 无效的堆栈帧
+error.invalid.type.name:
+    text: "无效的类型名称''{0}''"
+error.io.error:
+    text: I/O 错误
+error.jdk.not.specified:
+    text: JDK未指定
+error.native.method.exception:
+    text: 所有帧和包括帧都不是原生的
+error.no.debug.attach.port:
+    text: 要附加到未指定的端口
+error.no.debug.listen.port:
+    text: 未指定的监听端口
+error.no.shmem.address:
+    text: 未指定共享内存地址
+error.operation.canceled:
+    text: 操作被取消
+error.operation.not.supported.by.vm:
+    text: 虚拟机不支持的操作
+error.pop.bottom.stackframe:
+    text: 无法弹出底部框架
+error.pop.stackframe:
+    text: '弹出框架时发生错误: {0}'
+error.running.to.cursor.no.executable.code:
+    text: '{0}没有可执行代码:{1}'
+error.text.invalid.port:
+    text: 未指定端口
+error.unable.to.evaluate.capture.expression:
+    text: '无法对捕获键表达式求值: {0}'
+error.unable.to.evaluate.expression:
+    text: 无法对表达式求值
+error.unable.to.evaluate.insert.expression:
+    text: '无法对插入键表达式求值: {0}'
+error.unknown.host:
+    text: 无法连接到远程进程。主机未知
+error.unsupported.class.version:
+    text: '不支持的类版本 : {0}'
+error.verification.error:
+    text: '验证错误 : {0}'
+error.vm.disconnected:
+    text: VM断开连接. 目标虚拟机关闭连接
+evaluation.error.anonymous.class.evaluation.not.supported:
+    text: 不支持匿名类求值
+evaluation.error.array.collected:
+    text: 已收集数组
+evaluation.error.array.dimention.numeric.value.expected:
+    text: 数字值应为数组维度
+evaluation.error.array.reference.expected:
+    text: 应为数组引用
+evaluation.error.array.type.expected:
+    text: 应为数组类型
+evaluation.error.boolean.condition.expected:
+    text: "条件中应为 'boolean' 值"
+evaluation.error.boolean.expected:
+    text: 应为布尔值
+evaluation.error.boolean.value.expected.in.condition:
+    text: "条件中预估值为'boolean'"
+evaluation.error.cannot.cast.boolean:
+    text: "不能将布尔转换为''{0}''"
+evaluation.error.cannot.cast.char:
+    text: "不能将字符转换为''{0}''"
+evaluation.error.cannot.cast.null:
+    text: "不能将null转换为''{0}''"
+evaluation.error.cannot.cast.numeric:
+    text: "不能将数字转换为''{0}''"
+evaluation.error.cannot.cast.object:
+    text: "不能转换''{0}''为''{1}''"
+evaluation.error.cannot.evaluate.array.initializer:
+    text: 无法对数组初始值设定项求值
+evaluation.error.cannot.evaluate.class.type:
+    text: 无法对类类型求值
+evaluation.error.cannot.evaluate.qualifier:
+    text: "无法对限定符 ''{0}'' 求值"
+evaluation.error.cannot.evaluate.tostring:
+    text: 无法对 {0}.toString() 求值
+evaluation.error.cannot.find.stackframe.source:
+    text: 找不到当前堆栈帧的源类
+evaluation.error.cannot.initialize.array:
+    text: 无法初始化数组
+evaluation.error.cannot.resolve.constructor:
+    text: "无法解析构造函数 ''{0}''"
+evaluation.error.cannot.resolve.field.class:
+    text: "无法解析包含字段''{0}''"
+evaluation.error.cannot.sources.for.field.class:
+    text: "找不到包含字段''{0}''的类的源"
+evaluation.error.class.not.loaded:
+    text: "类''{0}''未加载"
+evaluation.error.class.or.array.expected:
+    text: "在对字段 ''{0}'' 求值时应为类或数组类型"
+evaluation.error.debug.info.unavailable:
+    text: 调试信息不可用
+evaluation.error.empty.code.fragment:
+    text: 应为代码段
+evaluation.error.evaluating.field:
+    text: "对字段求值时出错: ''{0}''"
+evaluation.error.evaluating.method:
+    text: "对方法求值时出错: ''{0}''"
+evaluation.error.identifier.expected:
+    text: "预期的标识符不是''{0}''"
+evaluation.error.incompatible.array.initializer.type:
+    text: 初始值设定项类型与数组的组件类型不兼容
+evaluation.error.incompatible.types:
+    text: "''{0}''操作不兼容的类型"
+evaluation.error.incompatible.variable.initializer.type:
+    text: "''{0}'' 的初始值设定项具有不兼容的类型"
+evaluation.error.inconsistent.debug.info:
+    text: 调试信息不一致
+evaluation.error.integer.expected:
+    text: 应为整数值
+evaluation.error.invalid.array.dimension.expression:
+    text: '数组维度无效的表达式: {0}'
+evaluation.error.invalid.array.size:
+    text: 数组大小无效
+evaluation.error.invalid.expression:
+    text: '无效的表达式 : {0}'
+evaluation.error.invalid.index.expression:
+    text: 索引表达式无效
+evaluation.error.invalid.this.expression:
+    text: "不能替换''{1}''的''{0}''为''this''"
+evaluation.error.invalid.type.name:
+    text: "类型名称无效: ''{0}''"
+evaluation.error.lambda.evaluation.not.supported:
+    text: 不支持 Lambda 求值
+evaluation.error.lebeled.loops.not.found:
+    text: "没有标记为''{0}''为循环语句"
+evaluation.error.local.variable.declarations.not.supported:
+    text: 局部变量声明不受支持。
+evaluation.error.local.variable.missing:
+    text: "找不到局部变量''{0}''"
+evaluation.error.local.variable.missing.from.class.closure:
+    text: "在闭包类中找不到局部变量''{0}''"
+evaluation.error.method.exception:
+    text: "方法抛出 ''{0}'' 异常。"
+evaluation.error.method.reference.evaluation.not.supported:
+    text: 不支持方法引用求值
+evaluation.error.multi.dimensional.arrays.creation.not.supported:
+    text: 创建不支持的多维数组
+evaluation.error.nested.evaluation:
+    text: 在对另一个方法求值期间不支持求值
+evaluation.error.no.instance.field:
+    text: "没有此类实例字段: ''{0}''"
+evaluation.error.no.instance.method:
+    text: "没有此类实例方法: ''{0}''"
+evaluation.error.no.stackframe:
+    text: '无法求值: 堆栈帧不可用'
+evaluation.error.no.static.field:
+    text: "没有此类 static 字段: ''{0}''"
+evaluation.error.no.static.method:
+    text: "没有此类 static 方法: ''{0}''"
+evaluation.error.not.lvalue:
+    text: 分配的左边部分不是一个值
+evaluation.error.not.rvalue:
+    text: 分配的右边部分不是一个值
+evaluation.error.numeric.expected:
+    text: 应为数值
+evaluation.error.object.collected:
+    text: 已搜集对象
+evaluation.error.object.reference.expected:
+    text: 应为对象引用
+evaluation.error.operation.not.supported:
+    text: "操作''{0}''不支持"
+evaluation.error.process.exited:
+    text: '无法求值: 进程退出'
+evaluation.error.sources.out.of.sync:
+    text: 源码与执行的代码不对应
+evaluation.error.stack.frame.unavailable:
+    text: 堆栈帧不可用
+evaluation.error.statement.not.supported:
+    text: "语句 ''{0}'' 不受支持"
+evaluation.error.surrounded.expression.null:
+    text: 包围的表达式为 null
+evaluation.error.this.not.avalilable:
+    text: "'this'是不可用的"
+evaluation.error.thread.collected:
+    text: 已收集线程
+evaluation.error.thread.not.at.breakpoint:
+    text: 无法在暂停操作后对方法求值
+evaluation.error.thread.resumed:
+    text: 线程已被恢复
+evaluation.error.type.mismatch:
+    text: 类型不匹配
+evaluation.error.unknown.expression.operand:
+    text: '表达式操作数未知: {0}'
+evaluation.error.unknown.expression.type:
+    text: '表达式类型未知: {0}'
+evaluation.error.unknown.method.return.type:
+    text: '无法解析方法返回值类型: {0}'
+evaluation.error.unsupported.declaration:
+    text: '声明无效 : {0} 仅支持局部变量声明。'
+evaluation.error.unsupported.expression.type:
+    text: 不支持的表达式类型
+evaluation.error.variable.already.declared:
+    text: "变量''{0}''已被声明"
+evaluation.error.variable.not.declared:
+    text: "变量''{0}''未声明"
+exception.breakpoint.console.message:
+    text: "{1}({2})处发生异常 ''{0}''"
+exception.breakpoint.console.message.location.info.absent:
+    text: 没有调试信息
+exception.breakpoint.console.message.with.thread.info:
+    text: "{2}({3})处的线程 ''{1}'' 中发生异常 ''{0}''"
+exception.breakpoints.tab.title:
+    text: Java异常断点
+field.watchpoints.tab.title:
+    text: Java字段监视点
+frame.panel.frames.not.available:
+    text: 帧不可用于未挂起的线程
+hotswap.dialog.hang.warning:
+    text: |-
+        JVM 当前已被暂停。
+        使用有效的第三方 JVM 代理重新加载类可能会导致 JVM 挂起。
+hotswap.dialog.run.prompt:
+    text: 某些类已被更改。立即重新加载更改的类?
+hotswap.dialog.title:
+    text: 重新加载已更改的类
+hotswap.dialog.title.with.session:
+    text: 重新加载已更改的类 {0}
+instance.filters.dialog.title:
+    text: 实例过滤器
+internal.error.locations.of.line:
+    text: "从 ''{0}'' 加载调试信息时发生内部错误。断点在此类中将不可用。"
+label.add.field.breakpoint.dialog.field.name:
+    text: '字段名称:'
+label.add.field.breakpoint.dialog.fq.name:
+    text: '类的完全限定名称:'
+label.array.renderer.configurable.end.index:
+    text: '结束索引 (&D):'
+label.array.renderer.configurable.max.count1:
+    text: 显示最大值 (&M)
+label.array.renderer.configurable.max.count2:
+    text: 数组元素
+label.array.renderer.configurable.start.index:
+    text: '数组开始索引 (&R):'
+label.base.renderer.configurable.all.overriding:
+    text: "对于覆盖'toString()'方法的所有类"
+label.base.renderer.configurable.alternate.view:
+    text: 启用集合类的替代视图 (&E)
+label.base.renderer.configurable.autoscroll:
+    text: 自动定位到新的局部变量 (&L)
+label.base.renderer.configurable.classes.from.list:
+    text: '对于列表中的类:'
+label.base.renderer.configurable.enable.toString:
+    text: "启用 't&oString()' 对象视图 (&O):"
+label.base.renderer.configurable.hide.null.array.elements:
+    text: 在数组和集合中隐藏 null 元素(&N)
+label.base.renderer.configurable.show.declared.type:
+    text: 已声明类型 (&T)
+label.base.renderer.configurable.show.fq.names:
+    text: 完全限定名称 (&Q)
+label.base.renderer.configurable.show.hex.value:
+    text: 显示基元的十六进制值
+label.base.renderer.configurable.show.object.id:
+    text: 对象ID (&I)
+label.base.renderer.configurable.show.static.fields:
+    text: static 字段(&S)
+label.base.renderer.configurable.show.static.final.fields:
+    text: static final 字段(&F)
+label.base.renderer.configurable.show.strings.type:
+    text: 显示字符串的类型
+label.base.renderer.configurable.show.synthetic.fields:
+    text: 合成字段 (&Y)
+label.base.renderer.configurable.show.val.fields.as.locals:
+    text: $val 字段作为局部变量(&V)
+label.capture.configurable.capture.variables:
+    text: 捕获局部变量 (可能会大大减慢执行速度)
+label.compound.renderer.configurable.append.default.children:
+    text: 追加默认子项
+label.compound.renderer.configurable.apply.to:
+    text: '将呈现器应用于以下类型的对象(完全限定名称):'
+label.compound.renderer.configurable.ondemand:
+    text: 按需
+label.compound.renderer.configurable.show.type:
+    text: 显示类型和对象id
+label.compound.renderer.configurable.table.header.expression:
+    text: 表达式
+label.compound.renderer.configurable.table.header.name:
+    text: 名称
+label.compound.renderer.configurable.table.header.ondemand:
+    text: 按需
+label.compound.renderer.configurable.test.can.expand:
+    text: '测试一个节点是否可以扩展 (可选):'
+label.compound.renderer.configurable.use.default.renderer:
+    text: 使用默认呈现器
+label.compound.renderer.configurable.use.expression:
+    text: '使用以下表达式:'
+label.compound.renderer.configurable.use.expression.list:
+    text: '使用表达式列表:'
+label.compound.renderer.configurable.when.expanding:
+    text: 展开节点时
+label.compound.renderer.configurable.when.rendering:
+    text: 呈现节点时
+label.debugger.general.configurable.evaluate.finally.always:
+    text: 总是(&A)
+label.debugger.general.configurable.evaluate.finally.ask:
+    text: 询问(&K)
+label.debugger.general.configurable.evaluate.finally.never:
+    text: 从不(&E)
+label.debugger.general.configurable.evaluate.finally.on.pop:
+    text: '对弹出帧和早期返回值上的 finally 块求值:'
+label.debugger.general.configurable.kill.immediately:
+    text: 立即停止调试进程
+label.debugger.general.configurable.resume.only.current.thread:
+    text: 只恢复当前线程
+label.debugger.general.configurable.show.alternative.source:
+    text: 显示替代源切换器
+label.debugger.general.configurable.skip.classLoaders:
+    text: 跳过加载器 (&O)
+label.debugger.general.configurable.skip.constructors:
+    text: 跳过构造函数 (&C)
+label.debugger.general.configurable.skip.simple.getters:
+    text: 跳过简单的getter (&G)
+label.debugger.general.configurable.skip.synthetic.methods:
+    text: 跳过合成方法 (&P)
+label.debugger.general.configurable.step.filters.list.header:
+    text: 不要进入类 (&I)
+label.debugger.hotswap.configurable.always:
+    text: 总是(&A)
+label.debugger.hotswap.configurable.ask:
+    text: 询问 (&K)
+label.debugger.hotswap.configurable.compile.before.hotswap:
+    text: 在重新加载类之前构建项目
+label.debugger.hotswap.configurable.enable.vm.hang.warning:
+    text: "启用 'JVM将挂起' 警告"
+label.debugger.hotswap.configurable.hotswap.background:
+    text: 在后台重新加载类 (&B)
+label.debugger.hotswap.configurable.never:
+    text: 从不 (&N)
+label.debugger.hotswap.configurable.reload.classes:
+    text: '编译后重新加载类:'
+label.debugger.launching.configurable.debugger.transport:
+    text: '传输:'
+label.debugger.launching.configurable.disable.jit:
+    text: 禁用 JIT
+label.debugger.launching.configurable.shmem:
+    text: 共享内存(&M)
+label.exception.breakpoint.properties.panel.caught.exception:
+    text: 捕获异常 (&N)
+label.exception.breakpoint.properties.panel.group.notifications:
+    text: 通知
+label.exception.breakpoint.properties.panel.uncaught.exception:
+    text: 未捕获的异常 (&O)
+label.generic.debugger.parameters.patcher.configurable.port:
+    text: '端口:'
+label.generic.debugger.parameters.patcher.configurable.shmem.address:
+    text: '共享内存地址:'
+label.generic.debugger.parameters.patcher.configurable.socket:
+    text: 套接字(&S)
+label.generic.debugger.parameters.patcher.configurable.transport:
+    text: '传输:'
+label.group.watch.events:
+    text: 监视
+label.method.breakpoint.properties.panel.emulated:
+    text: 仿真 (&U)
+label.method.breakpoint.properties.panel.method.entry:
+    text: 方法输入 (&Y)
+label.method.breakpoint.properties.panel.method.exit:
+    text: 方法退出 (&X)
+label.method.breakpoints.processing.classes:
+    text: 处理仿真方法断点的类
+label.method.breakpoints.setting.breakpoints:
+    text: 设置仿真方法断点
+label.thread.group.node:
+    text: 线程组 "{0}"@{1}
+label.thread.group.node.group.collected:
+    text: 线程组“{0}”已被垃圾回收
+label.thread.node.in.group:
+    text: '"{0}"@{1} 在组“{3}”: {2}'
+label.thread.node.thread.collected:
+    text: "线程 ''{0}'' 已被垃圾回收"
+label.threads.view.configurable.current.thread.on.top:
+    text: 将当前线程移至顶部
+label.threads.view.configurable.show.class.name:
+    text: 显示类名
+label.threads.view.configurable.show.line.number:
+    text: 显示行号 (&L)
+label.threads.view.configurable.show.package:
+    text: 显示软件包名称
+label.threads.view.configurable.show.prams.types:
+    text: 显示方法实参类型
+label.threads.view.configurable.show.source.file.name:
+    text: 显示源文件名
+label.threads.view.configurable.show.stack.frames.for.synthetic.methods:
+    text: 显示合成方法的堆栈帧(&F)
+label.threads.view.configurable.show.thread.groups:
+    text: 显示线程组 (&G)
+label.undefined:
+    text: <未定义>
+label.unknown.value:
+    text: <未知>
+label.user.renderers.configurable.renderer.name:
+    text: '呈现器名称:'
+line.breakpoint.display.name:
+    text: 行 {0}
+line.breakpoint.display.name.with.class.or.method:
+    text: 行 {0,number,#} 在 {1}
+line.breakpoints.tab.title:
+    text: Java行断点
+message.node.all.array.elements.null:
+    text: 范围({0}, {1})的所有元素都为 null
+message.node.all.elements.null:
+    text: 所有元素都为 null
+message.node.class.has.no.fields:
+    text: 类没有字段
+message.node.class.no.fields.to.display:
+    text: 没有字段显示
+message.node.debug.info.not.available:
+    text: 调试信息不可用
+message.node.elements.null.hidden:
+    text: 不显示 null 元素
+message.node.empty.array:
+    text: 空
+message.node.evaluate:
+    text: …求值
+message.node.evaluation.not.possible:
+    text: 目标虚拟机未被断点请求暂停。在这种模式下无法对方法求值
+message.node.filtered:
+    text: '已过滤用:'
+message.node.local.variables.capture.disabled:
+    text: '局部变量未被捕获，您可以在以下位置更改:'
+message.node.local.variables.debug.info.not.available:
+    text: 变量调试信息不可用
+message.node.local.variables.not.captured:
+    text: 局部变量未被捕获用于合成、桥接等方法
+message.node.navigate:
+    text: … 导航
+message.node.object.collected:
+    text: 对象在方法调用期间已被垃圾回收
+message.node.show.icon:
+    text: … 显示图标
+message.node.show.image:
+    text: … 显示图片
+message.node.thread.has.no.frames:
+    text: 线程没有帧
+message.node.thread.running:
+    text: 线程正在运行
+message.remote.jre.version.mismatch:
+    text: "目标JRE版本 ({0})\n与项目JDK版本不匹配({1}), \n将使用JDK中的源: {2}"
+method.breakpoints.slowness.warning:
+    text: 方法断点可能会大大减慢调试速度
+method.breakpoints.tab.title:
+    text: Java方法断点
+progress.evaluating:
+    text: 正在对 {0} 求值
+progress.hot.swap.title:
+    text: 热交换
+progress.hotswap.reloading:
+    text: 重新加载类…
+progress.hotswap.scanning.classes:
+    text: 扫描类以重新加载…
+progress.hotswap.scanning.path:
+    text: '扫描: {0}'
+rule.name.group.by.class:
+    text: 按类分组
+rule.name.group.by.package:
+    text: 按软件包分组
+status.app.running:
+    text: 应用程序正在运行
+status.breakpoint.invalid:
+    text: 无效
+status.breakpoint.reached.in.thread:
+    text: 到达线程 {0} 中的断点
+status.breakpoint.reached.in.thread.switch:
+    text: <a href="#">切换线程</a>
+status.classes.not.all.versions.reloaded:
+    text: 对于 {0} 个{1,choice, 1#类|2#类}(共 {1} 个)，未重新加载所有版本
+status.classes.reloaded:
+    text: '{0,number} 个{0,choice, 0#类|1#类|2#类}重新加载'
+status.connect.failed:
+    text: "无法建立与地址为 ''{0}'' 的目标虚拟机的连接"
+status.connected:
+    text: "已连接到地址为 ''{0}'' 的目标虚拟机"
+status.connecting:
+    text: "正在连接到地址为 ''{0}'' 的目标虚拟机"
+status.debug.stopped:
+    text: 调试已停止
+status.disconnected:
+    text: "已与地址为 ''{0}'' 的目标虚拟机断开连接"
+status.generic.breakpoint.reached:
+    text: 已到达断点
+status.hot.swap.completed.restart:
+    text: 重启调试会话
+status.hot.swap.completed.stop:
+    text: 停止调试会话
+status.hot.swap.completed.with.errors:
+    text: 热交换失败
+status.hot.swap.completed.with.warnings:
+    text: Hot Swap完成并发出警告
+status.hotswap.loaded.classes.up.to.date:
+    text: 已加载类是最新的. 不需要重新加载
+status.hotswap.uptodate:
+    text: 已加载的类处于最新状态。无需重新加载任何内容。
+status.invalid.breakpoint.out.of.class:
+    text: 断点不属于任何类
+status.line.breakpoint.reached:
+    text: 到达 {0}({1}:{2,number,#}) 的断点
+status.line.breakpoint.reached.full.trace:
+    text: 已到达断点
+status.listening:
+    text: '正在侦听连接，地址: {0}'
+status.method.entry.breakpoint.reached:
+    text: "方法''{0}''进入{1}({2}:{3,number,#})"
+status.method.exit.breakpoint.reached:
+    text: "已达到方法断点. 方法''{0}''即将退出{1}({2}:{3,number,#})"
+status.paused:
+    text: 已暂停
+status.paused.in.another.thread:
+    text: 在另一个线程中暂停
+status.process.resumed:
+    text: 恢复进程
+status.process.started:
+    text: 进程已启动
+status.process.terminated:
+    text: 进程已终止
+status.run.to.cursor:
+    text: 运行到光标
+status.step.into:
+    text: 步入
+status.step.out:
+    text: 步出
+status.step.over:
+    text: 步过
+status.stopped.at.cursor:
+    text: 在游标停止
+status.thread.blocked.by:
+    text: 线程{0}被线程{1}组织
+status.thread.blocked.by.resume:
+    text: <a href="#">恢复{0}</a>
+status.thread.monitor:
+    text: 监视器
+status.thread.not.started:
+    text: 未启动
+status.thread.running:
+    text: 正在运行
+status.thread.sleeping:
+    text: 正在休眠
+status.thread.undefined:
+    text: 未定义
+status.thread.unknown:
+    text: 未知
+status.thread.wait:
+    text: 等待
+status.thread.zombie:
+    text: 僵停
+status.waiting.attach:
+    text: 调试器正在等待应用程序启动
+status.waiting.evaluation.result:
+    text: 等待直到最后一个调试器命令完成
+string.debugger.runner.description:
+    text: 调试所选配置
+string.file.line.position:
+    text: '{0}中的类:{1}'
+string.null.context:
+    text: 上下文为null
+text.user.renderers.configurable.no.renderers:
+    text: 没有呈现器
+threads.export.attribute.error.incompatible.state:
+    text: '线程不兼容: 线程未挂起'
+threads.export.attribute.label.blocks.thread:
+    text: 块 {0}
+threads.export.attribute.label.daemon:
+    text: 守护进程
+threads.export.attribute.label.locked:
+    text: 锁定 {0}
+threads.export.attribute.label.waiting.for.thread:
+    text: 等待 {0} 释放锁定 {1}
+threads.view.configurable.display.name:
+    text: 自定义线程视图
+title.compound.renderer.configurable.choose.renderer.reference.type:
+    text: 呈现器引用类型
+title.customize.data.views:
+    text: 自定义数据视图
+title.error.evaluating.breakpoint.action:
+    text: 断点操作错误
+title.error.evaluating.breakpoint.condition:
+    text: 断点条件错误
+title.evaluating:
+    text: 正在求值…
+title.jdk140.unstable:
+    text: VM版本警告
+title.range.too.big:
+    text: 范围太大了
+title.set.value:
+    text: 设置值
+title.smart.step.popup:
+    text: 进入的方法
+transport.name.shared.memory:
+    text: 共享内存
+transport.name.socket:
+    text: 套接字
+user.renderers.configurable.button.description.copy:
+    text: 拷贝选择的呈现器
+user.renderers.configurable.display.name:
+    text: Java类型呈现器
+warning.finally.block.detected:
+    text: '检测到非空 finally 块:'
+warning.jdk140.unstable:
+    text: |-
+        被调试程序的虚拟机版本为 "1.4.0"。
+        J2SDK 1.4.0 记录的 bug 可能会导致不稳定的调试器行为。
+        我们建议使用 J2SDK 1.4.0_01 或更高版本。
+warning.range.too.big:
+    text: 指定范围太大. {0} 需要太多的资源才能执行请求的操作. 你确定你要继续吗?
+warning.recalculate:
+    text: 将重新计算该值
+warning.source.code.not.match:
+    text: 源码与字节码不匹配

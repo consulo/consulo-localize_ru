@@ -1,0 +1,272 @@
+0.expected:
+    text: "应为 ''{0}''"
+PerFileConfigurableBase.empty.text:
+    text: 新映射 $addShortcut
+PerFileConfigurableBase.label.project:
+    text: 项目
+PerFileConfigurableBase.mapping.title:
+    text: 映射
+PerFileConfigurableBase.null.text:
+    text: <无>
+PerFileConfigurableBase.project.mapping:
+    text: 项目 {0}
+PerFileConfigurableBase.target.title:
+    text: 路径
+action.set.system.default.encoding.text:
+    text: <默认>
+anonymous.class.context.display:
+    text: 匿名在{0}
+anonymous.class.derived.display:
+    text: 派生自 {0} 的匿名类
+anonymous.class.display:
+    text: 匿名类
+button.do.not.override:
+    text: 不重写
+button.override:
+    text: 重写
+cannot.delete.a.read.only.file:
+    text: "无法删除只读文件 ''{0}''。"
+cannot.modify.a.read.only.directory:
+    text: "无法修改只读目录 ''{0}''。"
+cannot.resolve.symbol:
+    text: "无法解析符号 ''{0}''"
+class.context.display:
+    text: '{0} ({1} 内)'
+code.display:
+    text: 代码
+code.from.context.display:
+    text: 代码源自 {0}
+codestyle.cannot.save.scheme.file:
+    text: 不能保存代码风格方案{0}.{1}
+codestyle.cannot.save.settings.directory.cant.be.created.message:
+    text: 不能保存代码风格方案， 目录 {0} 未能创建。
+codestyle.cannot.save.settings.directory.cant.be.created.title:
+    text: 无法保存设置
+color.name:
+    text: 颜色名称
+color.preview:
+    text: '<table cellpadding=0 cellspacing=0 border=0><tr><td>颜色预览:\&nbsp;</td><td style="background-color: #000000; padding: 1px">{0}</td></tr></table>'
+color.rgb:
+    text: 颜色 RGB:\&nbsp; {0}
+command.name.change.language:
+    text: 更改语言
+command.name.navigate:
+    text: 导航
+completion.dot.etc.ad:
+    text: 点、空格和一些其他按键也将关闭此查找并插入编辑器
+completion.no.suggestions:
+    text: 无建议
+completion.quick.implementations.ad:
+    text: 您是否知道快速定义视图({0})也适用于补全查找?
+completion.quick.javadoc.ad:
+    text: 您是否知道快速文档视图({0})也适用于补全查找?
+completion.smart.enter.ad:
+    text: 补全(闭合括号等)后使用 {0} 更正代码语法
+compound.run.configuration.cycle:
+    text: "{0} ''{1}'' 会导致依赖关系循环，无法添加"
+default.path.evaluator.option:
+    text: 指示引用提供程序如何评估给定文件的默认路径
+default.visibility.presentation:
+    text: 默认的
+dialog.message.duplicate.live.templates.in.group:
+    text: '{1} 组中存在重复的 `{0}` 活动模板'
+dialog.message.live.template.with.empty.abbreviation:
+    text: "在 ''{0}'' 组中找到了带有空缩写的活动模板，不允许使用此类活动模板"
+dialog.message.live.template.with.empty.text:
+    text: "在 ''{1}'' 组中找到了带有空文本的活动模板 ''{0}''，此类活动模板没有意义"
+dialog.message.template.with.name.already.exists:
+    text: "名称为 ''{0}'' 的模板已存在。请指定其他模板名称"
+dialog.message.valid.identifier:
+    text: "''{0}'' 不是有效的标识符"
+dialog.template.data.language.caption:
+    text: <html><body>模板数据语言是 FreeMarker/Velocity 框架等模板文件中的底层语言。<br>要更改 {0} 为文件、目录或整个项目使用的模板数据语言设置，请根据需要添加其路径，然后从下拉列表中选择一种语言。<br><br><br></body></html>
+el.cannot.resolve.function:
+    text: "无法解析函数 ''{0}'' #loc"
+el.cannot.resolve.method:
+    text: "无法解析方法 ''{0}''() #loc"
+el.cannot.resolve.namespace:
+    text: "无法解析命名空间 ''{0}'' #loc"
+el.cannot.resolve.property:
+    text: "能解决属性或方法''{0}''(动态属性吗?) #loc"
+el.cannot.resolve.variable:
+    text: "无法解析变量 ''{0}'' #loc"
+el.colon.expected:
+    text: "':'是预期的"
+el.declare.variable.find.acceptable.class:
+    text: 查找可接受的类
+el.declare.variable.intention.family:
+    text: 将变量声明为外部数据
+el.declare.variable.via.comment.annotation.intention.name:
+    text: 声明外部变量在注解
+el.declare.variable.via.usebean.intention.name:
+    text: 声明外部变量作为<jsp:useBean />
+el.expression.expected:
+    text: 表达式是预期的
+el.identifier.expected:
+    text: 标识符是预期的
+el.lparen.expected:
+    text: ( 是预期的
+el.mismatched.parameters.count:
+    text: 不同数量的正式和实际形参
+el.rbracket.expected:
+    text: '] 是预期的'
+el.rparen.expected:
+    text: ) 是预期的
+el.unexpected.end.of.file:
+    text: 意外的文件结尾
+el.value.expected:
+    text: 值是预期的
+enum.constant.context:
+    text: "枚举常数 ''{0}'' 在 ''{1}''"
+hint.text.can.t.modify.decompiled.code:
+    text: 无法修改反编译代码
+hint.text.couldn.t.find.surround:
+    text: 找不到适用于当前上下文的“包围方式”变体
+incorrect.name:
+    text: 名称错误
+indent.option.detected:
+    text: 已检测
+indent.status.bar.indent.tooltip:
+    text: '缩进:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0} 个空格|2#{0} 个空格}'
+indent.status.bar.tab:
+    text: 制表符
+invalid.regular.expression.message:
+    text: 无效的正则表达式{0}
+java.terms.annotation.interface:
+    text: '@接口'
+java.terms.anonymous.class:
+    text: 匿名类
+java.terms.exception:
+    text: 异常
+java.terms.expression:
+    text: 表达式
+java.terms.instance.initializer:
+    text: 实例初始值设定项
+java.terms.label:
+    text: 标签
+java.terms.of.annotation.type:
+    text: 注解类型{1}的{0}
+java.terms.of.anonymous.class:
+    text: 匿名类的{0}
+java.terms.of.class:
+    text: 类 {1} 的 {0}
+java.terms.of.enum:
+    text: 枚举 {1} 的 {0}
+java.terms.of.interface:
+    text: 接口 {1} 的 {0}
+java.terms.static.initializer:
+    text: static 初始值设定项
+java.terms.type.parameter:
+    text: 类型形参
+jsf.el.out.of.attribute:
+    text: 'JSF EL 在特性外 #loc'
+jsf.method.call.is.nonstd.extension:
+    text: '方法调用是标准扩展 #loc'
+jsp.documentation.message.can.have.runtime.value:
+    text: 可以具有运行时值:\&nbsp;{0}
+jsp.documentation.message.custom.attribute.name:
+    text: 自定义特性名称
+jsp.documentation.message.custom.function.name:
+    text: 自定义函数名称
+jsp.documentation.message.custom.tag.name:
+    text: 自定义标记名
+jsp.documentation.message.description:
+    text: 描述:\&nbsp;{0}
+jsp.documentation.message.example.of.use:
+    text: 使用示例:<br><pre>{0}</pre>
+jsp.documentation.message.fragment:
+    text: 片段:\&nbsp;{0}
+jsp.documentation.message.required:
+    text: 必选:\&nbsp;{0}
+jsp.documentation.message.type:
+    text: 类型:\&nbsp;{0}
+jsp.taglib.method.reference.error.class.is.not.public:
+    text: 类不为 public
+jsp.taglib.method.reference.error.class.is.not.valid:
+    text: 类无效
+jsp.taglib.method.reference.error.different.return.type:
+    text: 不同的返回值类型
+jsp.taglib.method.reference.error.method.should.be.public.or.static:
+    text: 方法应为 public 或 static
+jsp.taglib.method.reference.error.no.such.method:
+    text: 没有这样的方法
+jsp.taglib.method.reference.error.signature.is.different:
+    text: 签名是不同的
+local.class.preposition:
+    text: 本地
+method.context.display:
+    text: '{0}() 在 {1}'
+native.visibility.presentation:
+    text: 原生
+package.component.installing.suffix:
+    text: (正在安装)
+popup.title.copy:
+    text: 复制
+psi.scanning.files.progress:
+    text: 扫描文件…
+psi.search.in.non.java.files.progress:
+    text: 分析代码无关的用法…
+psi.search.inheritors.of.class.progress:
+    text: 正在搜索{0}的继承者…
+psi.search.inheritors.progress:
+    text: 正在搜索继承者…
+psi.search.scope.intersection:
+    text: '{0}和{1}的交叉点'
+psi.search.scope.libraries:
+    text: 库
+psi.search.scope.production.files:
+    text: 项目生产文件
+psi.search.scope.project.and.libraries:
+    text: 项目和库
+psi.search.scope.test.files:
+    text: 项目测试文件
+psi.search.scope.union:
+    text: '{0}和{1}的接合'
+qualified.resolve.class.reference.provider.option:
+    text: 告诉基准提供程序,过程只有合格类引用(如:不解决字符串作为java.lang.String)
+quickfix.change.template.data.language.text:
+    text: 将{0}模板数据语言更改为…
+search.scope.module:
+    text: 在单个模块中
+search.scope.module.runtime:
+    text: "模块 ''{0}'' 运行时作用域"
+search.scope.unknown:
+    text: <未知作用域>
+status.bar.text.reference.has.been.copied:
+    text: '{0} 已复制'
+tab.title.build.output:
+    text: 构建输出
+tab.title.more:
+    text: '{0} 和其他 {1} 个'
+template.data.language.configurable:
+    text: 模板数据语言
+template.data.language.configurable.tree.table.title:
+    text: 语言
+template.data.language.override.warning.text:
+    text: 已为子目录指定模板数据语言。是否重写它?
+template.data.language.override.warning.title:
+    text: 重写子目录模板数据语言
+terms.directory:
+    text: 目录
+terms.file:
+    text: 文件
+terms.property:
+    text: 属性
+unexpected.eof:
+    text: 意外的文件结尾
+unexpected.token:
+    text: 意外的标记
+xml.terms.attribute:
+    text: 特性
+xml.terms.attribute.value:
+    text: 特性值
+xml.terms.entity:
+    text: 实体
+xml.terms.tag:
+    text: 标记
+xml.terms.variable:
+    text: 变量
+xml.terms.xml.tag:
+    text: XML标签

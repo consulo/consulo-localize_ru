@@ -1,0 +1,14 @@
+action.MakeAllJarsAction.text:
+    text: 準備所有要部署的延伸模組
+action.MakeJarAction.text:
+    text: 準備部署
+error.file.not.found.message:
+    text: "檔案 ''{0}'' 未找到"
+group.PluginDeployActions.text:
+    text: 延伸模組部署操作
+jdk.no.specified:
+    text: 未指定 SDK
+jdk.type.incorrect:
+    text: SDK 類型錯誤
+project.title:
+    text: 已連接到 {0} 的 {1}

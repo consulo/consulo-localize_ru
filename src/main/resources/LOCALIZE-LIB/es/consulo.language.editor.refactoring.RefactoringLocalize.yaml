@@ -1,0 +1,1503 @@
+0.already.contains.a.1:
+    text: '{0} ya contiene {1}'
+0.already.contains.field.1:
+    text: '{0} ya contiene el campo {1}'
+0.already.contains.inner.class.named.1:
+    text: '{0} ya contiene una clase interna llamada {1}'
+0.already.exists.in.the.target.class:
+    text: '{0} ya existe en la clase de destino.'
+0.already.has.parameter.named.1.use.this.name.anyway:
+    text: "{0} ya tiene un parámetro llamado ''{1}''.\n¿Usar este nombre de todos modos?"
+0.contains.call.with.null.argument.for.parameter.1:
+    text: '{0} contiene una llamada con un argumento null para el parámetro {1}'
+0.has.1.usages.that.are.not.safe.to.delete:
+    text: '{0} tiene {1,choice,1#1 uso que no es seguro eliminar|2#{1,number} usos que no son seguros eliminar}.'
+0.has.detected.1.code.fragments.in.this.file.that.can.be.replaced.with.a.call.to.extracted.method:
+    text: '{0} ha detectado {1} {1,choice,1#fragmento|2#fragmentos} de código en este archivo que se {1,choice,1#puede|2#pueden} reemplazar con una llamada al método extraído. ¿Desea revisar y {1,choice,1#reemplazarlo|2#reemplazarlos}?'
+0.implements.1:
+    text: '{0} implementa {1}.'
+0.is.1.and.will.not.be.accessible.from.2.in.the.target.class:
+    text: '{0} es {1} y no será accesible desde {2}.'
+0.is.a.part.of.method.hierarchy.do.you.want.to.delete.multiple.parameters:
+    text: '{0} forma parte de la jerarquía de métodos. ¿Desea eliminar múltiples parámetros?'
+0.is.already.overridden.in.1:
+    text: '{0} ya está sobreescrito en {1}. El método no se bajará a esa clase.'
+0.is.an.interface.method.implementation.will.be.added.to.all.directly.implementing.classes:
+    text: "{0} es una interfaz. \nLa implementación del método se añadirá a todas las clases que la implementan directamente.\n ¿Continuar?"
+0.is.an.interface.that.has.no.implementing.classes:
+    text: '{0} es una interfaz que no tiene clases de implementación'
+0.is.not.a.legal.fq.name:
+    text: "''{0}'' no es un nombre calificado completo (FQ-name) legal"
+0.is.not.a.legal.java.identifier:
+    text: "''{0}'' no es un identificador Java válido"
+0.is.not.accessible.from.1.value.for.introduced.parameter.in.that.method.call.will.be.incorrect:
+    text: '{0} no es accesible desde {1}. El valor del parámetro introducido en esa llamada al método será incorrecto.'
+0.is.not.an.identifier:
+    text: <b><code>{0}</code></b> no es un identificador correcto para usar en <b><code>{1}</code></b>
+0.is.not.initialized.in.declaration.such.fields.are.not.allowed.in.interfaces:
+    text: '{0} no está inicializado en la declaración. Dichos campos no están permitidos en las interfaces.'
+0.is.not.static.it.cannot.be.moved.to.the.interface:
+    text: '{0} no es estático. No se puede mover a la interfaz.'
+0.is.read.only:
+    text: '{0} es de solo lectura.'
+0.is.used.for.writing.in.1:
+    text: '{0} se utiliza para escribir en {1}'
+0.refactoring.cannot.be.applied.to.constructors:
+    text: La refactorización {0} no se puede aplicar a los constructores
+0.refactoring.is.supported.only.for.final.fields:
+    text: La refactorización {0} solo es compatible con campos final
+0.referenced.in.1.will.not.be.accessible.from.module.2:
+    text: '{0}, referenciado en {1}, no será accesible desde el módulo {2}'
+0.referenced.in.1.will.not.be.accessible.from.production.of.module.2:
+    text: '{0}, referenciado en {1}, no será accesible desde las fuentes de producción del módulo {2}'
+0.referenced.in.1.will.not.be.accessible.in.module.2:
+    text: '{0}, referenciado en {1}, no será accesible en el módulo {2}'
+0.that.is.used.in.inlined.method.is.not.accessible.from.call.site.s.in.1:
+    text: '{0} utilizado en el método insertado (inlined) no es accesible desde los puntos de llamada en {1}'
+0.to.be.renamed.to.1.2:
+    text: '{0} se renombrará a {1}{2}'
+0.to.change.signature:
+    text: '{0} para cambiar la firma'
+0.upcasts.an.instance.of.1.to.2:
+    text: '{0} realiza una conversión ascendente de una instancia de {1} a {2}'
+0.uses.1.of.an.instance.of.a.2:
+    text: '{0} usa {1} de una instancia de {2}'
+0.uses.1.which.is.not.accessible.from.the.superclass:
+    text: '{0} utiliza {1}, que no es accesible desde la superclase'
+0.uses.1.which.is.not.moved.to.the.superclass:
+    text: '{0} utiliza {1}, que no se mueve a la superclase'
+0.uses.1.which.is.pushed.down:
+    text: '{0} utiliza {1}, que se ha desplazado hacia abajo'
+0.uses.1.which.needs.class.instance:
+    text: '{0} utiliza {1}, que requiere una instancia de clase'
+0.uses.a.package.local.1:
+    text: '{0} utiliza {1} con visibilidad de paquete'
+0.uses.non.static.1.which.is.not.passed.as.a.parameter:
+    text: '{0} utiliza {1} no estático, que no se pasa como parámetro'
+0.will.be.inaccessible.from.1:
+    text: '{0} será inaccesible desde {1}'
+0.will.become.inaccessible.from.1:
+    text: '{0} dejará de ser accesible desde {1}'
+0.will.hide.renamed.1:
+    text: '{0} ocultará {1} renombrado'
+0.will.no.longer.override.1:
+    text: '{0} ya no sobrescribirá {1}'
+0.will.not.be.accessible.from.1.after.inlining:
+    text: '{0} no será accesible desde {1} después del inlining'
+0.will.override.renamed.1:
+    text: '{0} sobrescribirá a {1} renombrado'
+0.with.1.visibility.is.not.accessible.from.2:
+    text: '{0} con visibilidad {1} no es accesible desde {2}'
+ExtractSuperClass.superclass:
+    text: Superclase
+a.package.local.class.0.will.no.longer.be.accessible.from.1:
+    text: La clase local al paquete {0} ya no será accesible desde {1}
+add.object.as.a.parameter.to.constructors.with.name:
+    text: 'Añadir el &objeto como parámetro a los constructores con el nombre:'
+add.object.as.a.parameter.with.name:
+    text: 'Agregar &objeto como parámetro con el nombre:'
+add.parameters.for.fields:
+    text: 'Agregar parámetros para &campos:'
+add.parameters.for.fields.to.constructors:
+    text: 'Añadir parámetros de &campos a los constructores:'
+all.candidate.variables.have.types.not.in.project:
+    text: Todas las variables candidatas (parámetros de método y campos de la clase contenedora) tienen tipos que no están en el proyecto
+all.candidate.variables.have.unknown.types:
+    text: Todas las variables candidatas (parámetros del método y campos de la clase contenedora) tienen tipos desconocidos
+all.invocations.and.remove.the.method:
+    text: Integrar &todas las invocaciones y eliminar el método
+all.invocations.in.project:
+    text: '&Todas las invocaciones en el proyecto'
+all.references.and.remove.super.class:
+    text: Poner en línea &todas las referencias y eliminar la clase
+all.references.and.remove.the.class:
+    text: Inline &todas las referencias y eliminar la clase
+all.references.and.remove.the.field:
+    text: Incorporar tod&as las referencias y eliminar el campo
+all.these.directories.will.be.moved.and.all.references.to.0.will.be.changed:
+    text: "Todos estos directorios se moverán y todas las referencias a {0} \nse cambiarán."
+analyze.and.replace.usages:
+    text: Analizar y reemplazar usos
+annotate.field.as.nonnls.checkbox:
+    text: Anotar &campo como @NonNls
+anonymous.class.text:
+    text: Clase anónima
+anonymousToInner.class.name.label.text:
+    text: 'Nombre de la clase:'
+anonymousToInner.make.class.static.checkbox.text:
+    text: Hacer la clase &static
+anonymousToInner.no.inner.class.name:
+    text: Se debe especificar el nombre de la clase
+anonymousToInner.parameters.panel.border.title:
+    text: Parámetros del constructor
+anonymousToInner.refactoring.name:
+    text: Convertir anónima en interna
+attempting.to.delete.targets.node.text:
+    text: Intentando eliminar
+automatic.renamer.rename.to.column:
+    text: Renombrar a
+boolean.method.result:
+    text: resultado del método booleano
+caller.chooser.callee.method:
+    text: Método llamado
+caller.chooser.caller.method:
+    text: Método llamador
+caller.chooser.looking.for.callers:
+    text: Buscando llamadores…
+cancel.button:
+    text: Ca&ncelar
+cannot.create.directory:
+    text: No se puede crear el directorio
+cannot.extract.selected.elements.into.include.file:
+    text: No se pueden extraer los elementos seleccionados en un archivo de inclusión
+cannot.find.or.create.destination.directory:
+    text: No se puede encontrar o crear el directorio de destino
+cannot.introduce.variable.in.super.constructor.call:
+    text: No se puede extraer la variable en una llamada al constructor super
+cannot.make.abstract.method.static:
+    text: No se puede definir un método abstracto como estático
+cannot.move:
+    text: No se puede mover
+cannot.move.inner.class.0.into.itself:
+    text: No se puede mover la clase interna {0} a sí misma
+cannot.move.package.into.itself:
+    text: No se puede mover el paquete a sí mismo
+cannot.perform.refactoring:
+    text: No se puede realizar la refactorización.
+cannot.replace.temp.with.query.in.interface:
+    text: No se puede reemplazar temp con una consulta en una interfaz
+change.signature.feel.lucky:
+    text: Me siento con &suerte
+change.signature.leave.blank.default.value:
+    text: Dejar en &blanco
+change.signature.use.selected.value:
+    text: Usar el &valor seleccionado
+changeClassSignature.class.label.text:
+    text: Cambiar la firma de <code>{0}</code>.
+changeClassSignature.no.type.parameters:
+    text: La clase no puede tener parámetros de tipo
+changeClassSignature.parameters.panel.border.title:
+    text: 'Parámetros:'
+changeClassSignature.refactoring.name:
+    text: Cambiar firma de la clase
+changeSignature.cannot.resolve.parameter.type:
+    text: "No se puede resolver el tipo ''{0}'' para el parámetro ''{1}''.\n¿Continuar?"
+changeSignature.cannot.resolve.return.type:
+    text: "No se puede resolver el tipo de retorno ''{0}''.\n¿Desea continuar?"
+changeSignature.default.value.column:
+    text: Valor predeterminado
+changeSignature.exception.caller.chooser:
+    text: Seleccionar métodos para propagar nuevas excepciones
+changeSignature.exceptions.panel.border.title:
+    text: Excepciones
+changeSignature.exceptions.wont.propagate:
+    text: No se realizará la propagación recursiva de los cambios en las excepciones.
+changeSignature.name.prompt:
+    text: '&Nombre:'
+changeSignature.no.return.type:
+    text: No se ha especificado el tipo de retorno
+changeSignature.no.type.for.exception:
+    text: Especificar el tipo de la excepción
+changeSignature.no.type.for.parameter:
+    text: "Especifique el tipo {0} para el parámetro ''{1}''"
+changeSignature.parameter.caller.chooser:
+    text: Seleccionar métodos para propagar los nuevos parámetros
+changeSignature.parameters.wont.propagate:
+    text: No se realizará la propagación recursiva de los cambios en los parámetros
+changeSignature.propagate.exceptions.title:
+    text: Propagar e&xcepciones…
+changeSignature.propagate.parameters.title:
+    text: Propa&gar parámetros…
+changeSignature.refactoring.name:
+    text: Cambiar firma
+changeSignature.return.type.prompt:
+    text: '&Tipo de retorno:'
+changeSignature.vararg.not.last:
+    text: El parámetro rest debe ser el último en la firma del método
+changeSignature.wrong.return.type:
+    text: "Tipo de retorno incorrecto: ''{0}''"
+changeSignature.wrong.type.for.exception:
+    text: "Tipo incorrecto: ''{0}'' para la excepción"
+changeSignature.wrong.type.for.parameter:
+    text: "Tipo incorrecto: ''{0}'' para el parámetro ''{1}''"
+changing.signature.of.0:
+    text: Cambiando la firma de {0}
+checkbox.safe.delete.with.usage.search:
+    text: Eliminación &segura (con búsqueda de usos)
+choose.destination.class:
+    text: Seleccionar clase de destino
+choose.destination.directory:
+    text: Seleccionar directorio de destino
+choose.destination.package:
+    text: Seleccionar paquete de destino
+class.0.already.exists:
+    text: La clase {0} ya existe
+class.0.does.not.exist:
+    text: |-
+        La clase {0} no existe.
+        ¿Desea crearla?
+class.0.does.not.have.inheritors:
+    text: La clase {0} no tiene herederos
+class.0.is.not.accessible.from.target.1:
+    text: La clase {0} no es accesible desde el destino {1}
+class.0.not.found:
+    text: No se encontró la clase {0}.
+class.constructors.radio:
+    text: '&Constructor(es) de clase'
+class.description:
+    text: '{1, choice, 0#clase|1#clase local} {0}'
+class.does.not.exist.in.the.project:
+    text: La clase no existe en el proyecto. ¿Desea crearla?
+class.does.not.have.base.classes.interfaces.in.current.project:
+    text: '{0} no tiene clases base/interfaces en el proyecto actual'
+class.does.not.have.base.classes.or.interfaces:
+    text: La clase {0} no tiene clases base ni interfaces
+class.does.not.have.implicit.default.constructor:
+    text: La clase {0} no tiene un constructor predeterminado implícito
+class.has.been.successfully.created:
+    text: La clase {0} se ha creado correctamente
+class.is.abstract:
+    text: '{0} es abstracto.'
+class.is.interface:
+    text: '{0} es una interfaz.'
+class.is.never.used:
+    text: La clase no se usa nunca
+class.name.prompt:
+    text: 'Nombre de la clase (&N):'
+classes.to.push.down.members.to:
+    text: Clases a las que bajar los miembros en {0}
+column.name.any.var:
+    text: Cualquier variable
+column.name.default.value:
+    text: 'Valor predeterminado:'
+column.name.name:
+    text: Nombre
+column.name.type:
+    text: Tipo
+command.name.copy:
+    text: Copiar
+command.name.move:
+    text: Mover
+command.name.rename:
+    text: Renombrar
+comments.elements.header:
+    text: Coincidencias encontradas en comentarios, cadenas y archivos que no son de código {0}
+constructor.being.refactored.is.used.in.initializer.of.0:
+    text: El constructor que se está refactorizando se utiliza en el inicializador de {0}. La fábrica no estática de la clase interna {1} no se puede utilizar en este contexto. El código resultante no compilará.
+constructor.cannot.be.made.static:
+    text: El constructor no se puede definir como estático
+continue.button:
+    text: '&Continuar'
+convert.local.to.field.title:
+    text: Convertir local a campo
+convert.to.instance.method.title:
+    text: Convertir a método de instancia
+convertToInstanceMethod.all.reference.type.parameters.are.not.in.project:
+    text: 'No se encontró la clase de destino para el método de instancia: no se encontró ningún parámetro del método con un tipo que haga referencia a una clase del proyecto.'
+convertToInstanceMethod.method.is.not.static:
+    text: El método {0} no es estático
+convertToInstanceMethod.no.parameters.with.reference.type:
+    text: No hay parámetros que tengan un tipo de referencia.
+copy.class.clone.0.1:
+    text: Clonar {0} {1}
+copy.class.copy.0.1:
+    text: Copiar {0} {1}
+copy.files.clone.directory.0:
+    text: Clonar directorio {0}
+copy.files.clone.file.0:
+    text: Clonar archivo {0}
+copy.files.clone.title:
+    text: Clonar
+copy.files.copy.directory.0:
+    text: Copiar directorio {0}
+copy.files.copy.file.0:
+    text: Copiar archivo {0}
+copy.files.copy.specified.directories.label:
+    text: Copiar directorios especificados
+copy.files.copy.specified.files.label:
+    text: Copiar archivos especificados
+copy.files.copy.specified.mixed.label:
+    text: Copiar los archivos y directorios especificados
+copy.files.copy.title:
+    text: Copiar
+copy.files.new.name.label:
+    text: 'Nuevo nombre:'
+copy.files.to.directory.label:
+    text: 'Al &directorio:'
+copy.handler.clone.class:
+    text: Clonar clase
+copy.handler.clone.files.directories:
+    text: Clonar archivos/directorios
+copy.handler.copy.class:
+    text: Copiar clase
+copy.handler.copy.files.directories:
+    text: Copiar archivos/directorios
+copy.overwrite.button:
+    text: Sobrescribir
+copy.overwrite.for.all.button:
+    text: Sobrescribir todo
+copy.skip.button:
+    text: Omitir
+copy.skip.for.all.button:
+    text: Omitir todo
+create.class.command:
+    text: Crear clase {0}
+create.directory:
+    text: Crear directorio
+current.class:
+    text: clase actual
+current.method.radio:
+    text: '&Método actual'
+declaration.s.to.be.generified:
+    text: Declaración(es) a las que se aplicarán genéricos {0}
+declare.final:
+    text: Declarar &final
+declare.folded.parameters:
+    text: '&Plegar parámetros'
+declare.static.checkbox:
+    text: Declarar &static
+declare.varargs.checkbox:
+    text: Declarar v&arargs
+delegation.panel.delegate.via.overloading.method:
+    text: De&legar mediante un método de sobrecarga
+delegation.panel.method.calls.label:
+    text: 'Llamadas a métodos:'
+delegation.panel.modify.radio:
+    text: '&Modificar'
+delete.anyway.button:
+    text: Eliminar &de todos modos
+delete.include.command:
+    text: Eliminar {0}
+delete.title:
+    text: Eliminar
+delete.variable.declaration:
+    text: '&Eliminar declaración de variable'
+destination.directory.does.not.correspond.to.any.package:
+    text: El directorio de destino no corresponde a ningún paquete
+destination.package:
+    text: '&Paquete de destino:'
+detecting.possible.conflicts:
+    text: Detectando posibles conflictos
+dialog.message.cannot.inline.reference.from.0:
+    text: No se puede incluir en línea la referencia desde {0}
+dialog.message.file.already.exists.in.directory:
+    text: "El archivo ''{0}'' ya existe en el directorio ''{1}''"
+dialog.message.refactoring.not.available.in.current.scope:
+    text: '{0} no está disponible en el ámbito actual'
+dialog.message.selected.element.used.from.non.project.files:
+    text: El elemento seleccionado se utiliza en archivos que no pertenecen al proyecto. Estos usos no se renombrarán. ¿Desea continuar de todos modos?
+directories.and.all.references.to.package.will.be.renamed:
+    text: |4-
+
+
+        ¿Qué directorios desea renombrar?
+directory.0.already.contains.1.named.2:
+    text: "El directorio {0} \nya contiene un {1} llamado ''{2}''"
+directory.0.already.contains.a.file.named.1:
+    text: "El directorio {0} \nya contiene un archivo llamado ''{1}''"
+directory.description:
+    text: Directorio {0}
+do.not.replace:
+    text: '&No reemplazar'
+do.not.show.this.message.in.the.future:
+    text: '&No volver a mostrar este mensaje en el futuro'
+do.you.want.to.process.overriding.methods.with.covariant.return.type:
+    text: |-
+        ¿Desea procesar los métodos sobrescritos
+        con un tipo de retorno covariante?
+do.you.wish.to.continue:
+    text: ¿Desea continuar?
+do.you.wish.to.ignore.them.and.continue:
+    text: ¿Desea ignorarlos y continuar?
+edit.migration.entry.title:
+    text: Editar regla de migración de clase/paquete
+edit.migration.map.title:
+    text: Editar mapa de migración
+element.will.no.longer.be.accessible:
+    text: '{0} ya no será accesible desde {1}'
+encapsulate.fields..encapsulated.fields.visibility.border.title:
+    text: Visibilidad de los campos encapsulados
+encapsulate.fields..package.local.radio:
+    text: Local del paquete(&C)
+encapsulate.fields.accessors.visibility.border.title:
+    text: Visibilidad de los accesores
+encapsulate.fields.command.name:
+    text: Encapsulando campos en {0}
+encapsulate.fields.encapsulate.border.title:
+    text: Encapsular
+encapsulate.fields.field.column.name:
+    text: Campo
+encapsulate.fields.fields.to.be.encapsulated:
+    text: Campos a encapsular
+encapsulate.fields.fields.to.encapsulate.border.title:
+    text: Campos a encapsular
+encapsulate.fields.get.access.checkbox:
+    text: Acceso &get
+encapsulate.fields.getter.exists:
+    text: Ya existe el método {0} que difiere del getter {1} únicamente por el tipo de retorno
+encapsulate.fields.private.radio:
+    text: Pr&ivado
+encapsulate.fields.protected.radio:
+    text: Pro&tegido
+encapsulate.fields.refactoring.cannot.be.applied.to.interface:
+    text: La refactorización de encapsulamiento de campos no se puede aplicar a una interfaz.
+encapsulate.fields.set.access.checkbox:
+    text: '&Establecer acceso'
+encapsulate.fields.setter.exists:
+    text: Ya existe el método {0} que solo se diferencia del setter {1} en el tipo de retorno
+encapsulate.fields.title:
+    text: Encapsular campos
+encapsulate.fields.use.accessors.even.when.field.is.accessible.checkbox:
+    text: '&Usar accesores incluso cuando el campo es accesible'
+enter.new.project.name:
+    text: 'Ingrese el nuevo nombre del proyecto:'
+entity.name.constructor.parameter:
+    text: parámetro
+entity.name.form:
+    text: Formulario
+entity.name.inheritor:
+    text: Heredero
+entity.name.test:
+    text: Prueba
+error.cannot.be.renamed:
+    text: No se puede cambiar el nombre de este elemento.
+error.in.injected.lang.prefix.suffix:
+    text: El {0} seleccionado se encuentra en la parte de solo lectura del documento de lenguaje inyectado
+error.incorrect.data:
+    text: Datos incorrectos
+error.not.supported.for.jsp:
+    text: La refactorización {0} no es compatible con JSP
+error.out.of.project.element:
+    text: El {0} seleccionado no se encuentra dentro del proyecto
+error.title:
+    text: Problema de conexión.
+error.wrong.caret.position.anonymous:
+    text: El cursor debe estar situado dentro de la clase anónima o local que se va a refactorizar
+error.wrong.caret.position.class:
+    text: El cursor debe estar situado dentro de la clase que se va a refactorizar
+error.wrong.caret.position.constructor:
+    text: El caret debe estar posicionado dentro del constructor para ser refactorizado
+error.wrong.caret.position.local.name:
+    text: El cursor debe situarse sobre el nombre de la variable local a refactorizar.
+error.wrong.caret.position.local.or.expression.name:
+    text: El cursor debe situarse en el nombre de la variable local o expresión que se va a refactorizar.
+error.wrong.caret.position.method:
+    text: El caret debe estar situado dentro del método a refactorizar
+error.wrong.caret.position.method.or.class.name:
+    text: El cursor debe estar situado en el nombre del método o de la clase que se va a refactorizar
+error.wrong.caret.position.method.or.local.name:
+    text: El cursor debe estar posicionado en el nombre del elemento a refactorizar.
+error.wrong.caret.position.method.or.variable.name:
+    text: El caret debe estar situado en el nombre del método o la variable que se va a refactorizar
+error.wrong.caret.position.symbol.to.refactor:
+    text: El cursor debe estar situado en el símbolo que se va a refactorizar
+error.wrong.caret.position.symbol.to.rename:
+    text: El cursor debe estar posicionado en el símbolo que se va a renombrar
+error.wrong.name.input:
+    text: 'Nombre incorrecto: {0}'
+expression.result:
+    text: resultado de la expresión
+extract.chained.constructor.checkbox:
+    text: Extraer &constructor encadenado
+extract.include.file.action.title:
+    text: Extraer archivo de inclusión…
+extract.include.file.title:
+    text: Extraer archivo de inclusión
+extract.interface.command.name:
+    text: Extrayendo la interfaz {0} de {1}
+extract.interface.from:
+    text: 'Extraer interfaz de:'
+extract.interface.title:
+    text: Extraer interfaz
+extract.method.control.flow.analysis.failed:
+    text: El código contiene errores de sintaxis. No se puede realizar el análisis necesario.
+extract.method.replace.duplicate.command.name:
+    text: Reemplazar duplicado
+extract.method.title:
+    text: Extraer método
+extract.subclass.command:
+    text: Extraer subclase
+extract.superclass.command.name:
+    text: Extrayendo superclase {0} de {1}
+extract.superclass.elements.header:
+    text: Extraer superclase con miembros al directorio
+extract.superclass.from:
+    text: 'Extraer superclase de:'
+extract.superclass.title:
+    text: Extraer superclase
+extract.to.directory:
+    text: 'Extraer al &directorio:'
+extractIncludeFile.name:
+    text: Extraer archivo de inclusión
+extractSuper.extract:
+    text: E&xtraer {0}
+extractSuper.rename.original.class:
+    text: Re&nombrar clase original y usar {0} donde sea posible
+extractSuper.rename.original.class.to:
+    text: '&Renombrar clase original a:'
+extractSuperInterface.interface:
+    text: Interfaz
+factory.method.name.label:
+    text: 'Nombre del método de fábrica:'
+field.0.is.already.defined.in.the.1:
+    text: El campo {0} ya está definido en {1}
+field.0.is.never.used:
+    text: El campo {0} nunca se utiliza
+field.0.is.not.accessible:
+    text: El campo {0} no es accesible desde {1}
+field.0.is.not.static:
+    text: |-
+        El campo {0} no es estático.
+        La refactorización {1} solo se admite para miembros estáticos.
+field.0.will.hide.field.1.of.the.base.class:
+    text: "El campo {0} ocultará \nun campo {1} de la base {2}"
+field.declaration.radio:
+    text: '&Declaración de campo'
+field.description:
+    text: campo {0}
+field.exists:
+    text: "El campo con el nombre {0}\nya existe en la clase ''{1}''.\n¿Continuar?"
+field.name:
+    text: nombre del campo
+fields.to.be.refactored.should.belong.to.the.same.class:
+    text: Los campos a refactorizar deben pertenecer a la misma clase.
+file.already.exist:
+    text: El archivo {0} ya existe
+file.already.exist.title:
+    text: Extraer archivo de inclusión
+file.description:
+    text: Archivo {0}
+generate.getter.for.delegated.component:
+    text: Generar &getter para el componente delegado
+generify.title:
+    text: Convertir tipos raw a genéricos
+getter.and.setter.methods.found.for.the.field.0:
+    text: "Se encontraron métodos getter y setter para el campo {0}. \n¿Desea {1} también?"
+getter.method.found.for.the.field.0:
+    text: "Se ha encontrado el método getter para el campo {0}. \n¿Desea {1} también el getter?"
+idea.has.found.fragments.that.can.be.replaced.with.include.directive:
+    text: |-
+        {0} ha encontrado fragmentos que se pueden reemplazar con la directiva include
+        ¿Desea revisarlos?
+idea.has.not.found.any.code.that.can.be.replaced.with.method.call:
+    text: '{0} no ha encontrado ningún código que se pueda reemplazar con una llamada a un método'
+ignore.button:
+    text: Ignorar
+information.title:
+    text: Información
+initialize.in.border.title:
+    text: '&Inicializar en'
+initializer.for.variable.cannot.be.a.constant.initializer:
+    text: El inicializador de la variable {0} no puede ser un inicializador constante
+inline.class.elements.header:
+    text: Clase a integrar
+inline.field.border.title:
+    text: En línea
+inline.field.command:
+    text: Poner campo {0} en línea
+inline.field.elements.header:
+    text: Campo a integrar
+inline.field.field.name.label:
+    text: "Incrustar campo ''{0}'':"
+inline.field.title:
+    text: Incorporar campo
+inline.included.file.title:
+    text: Insertar archivo incluido en línea
+inline.local.variable.prompt:
+    text: "¿Incluir la variable local ''{0}''?"
+inline.method.checking.tail.calls.progress:
+    text: Comprobando usos de llamadas de cola
+inline.method.command:
+    text: Aplicando inline al método {0}
+inline.method.elements.header:
+    text: Método para integrar en línea
+inline.method.method.label:
+    text: Método {0} {1}
+inline.method.title:
+    text: Incorporar método
+inline.parameter.confirmation:
+    text: "¿Integrar el parámetro ''{0}'' con el inicializador ''{1}''?"
+inline.parameter.error.hierarchy:
+    text: Inlinear parámetros no es compatible cuando el método forma parte de una jerarquía de herencia
+inline.parameter.error.varargs:
+    text: No se admite la inserción inline para parámetros varargs
+inline.parameter.refactoring:
+    text: Inline de parámetro
+inline.parameter.replace.with.local.checkbox:
+    text: R&eemplazar por una variable local
+inline.the.contents.include.prompt:
+    text: "¿Poner en línea el contenido de ''{0}''?"
+inline.title:
+    text: En línea
+inline.to.anonymous.command.name:
+    text: Incorporar clase {0}
+inline.to.anonymous.name.label:
+    text: Clase {0}
+inline.to.anonymous.no.abstract:
+    text: Las clases abstractas no se pueden insertar en línea
+inline.to.anonymous.no.multiple.interfaces:
+    text: Las clases que implementan múltiples interfaces no se pueden integrar en línea
+inline.to.anonymous.no.superclass.and.interface:
+    text: Las clases que tienen una superclase e implementan una interfaz no se pueden integrar
+inline.to.anonymous.refactoring:
+    text: Insertar en línea en clase anónima
+inline.variable.title:
+    text: Incorporar variable
+inline.vars.elements.header:
+    text: Variable a inlinear
+inlined.method.implements.method.from.0:
+    text: El método insertado en línea implementa el método de {0}
+inlined.method.overrides.method.from.0:
+    text: El método insertado sobrescribe el método de {0}
+inner.class.0.is.already.defined.in.class.1:
+    text: |-
+        La clase interna {0} ya está definida en la clase {1}.
+        ¿Continuar de todos modos?
+inner.class.0.is.not.static:
+    text: |-
+        La clase interna {0} no es estática.
+        La refactorización {1} solo es compatible con miembros estáticos.
+inner.class.exists:
+    text: "La clase interna llamada ''{0}'' ya está definida\nen la clase ''{1}''"
+inner.class.name:
+    text: 'Nombre de la clase &interna:'
+inner.classes.cannot.have.static.members:
+    text: Las clases internas no pueden tener miembros estáticos
+inplace.refactoring.abandon.started:
+    text: Abandonar refactorización iniciada
+inplace.refactoring.cancel.current:
+    text: Cancelar actual
+inplace.refactoring.continue.started:
+    text: Continuar refactorización iniciada
+inplace.refactoring.navigate.to.started:
+    text: Navegar a la refactorización iniciada
+instance.initializer.description:
+    text: inicializador de instancia de {0}
+instances.casted.to.java.lang.object:
+    text: Instancias convertidas a java.lang.Object
+instances.of.0.upcasted.to.1.were.found:
+    text: Se encontraron instancias de {0} con upcasting a {1}. Si continúa, se mostrarán en una pestaña de búsqueda independiente.
+instances.upcasted.to.java.lang.object.found:
+    text: Se encontraron instancias con upcasting a java.lang.Object
+instances.upcasted.to.object:
+    text: Instancias con upcast a Object
+interface.0.does.not.have.inheritors:
+    text: La interfaz {0} no tiene herederos
+interface.does.not.have.base.interfaces:
+    text: La interfaz {0} no tiene interfaces base
+interface.has.been.successfully.created:
+    text: La interfaz {0} se ha creado correctamente
+interface.member.dependency.required.by.interfaces:
+    text: requerido por {0,choice,1#interfaz|2#interfaces}
+interface.name.prompt:
+    text: 'Nombre de la &interfaz:'
+introduce.constant.enum.cb:
+    text: Extraer como constante de &enumeración
+introduce.constant.field.of.type:
+    text: 'Constante (campo static final) de tipo &T:'
+introduce.constant.introduce.to.class:
+    text: 'Extraer a la &clase (nombre completo):'
+introduce.constant.title:
+    text: Introducir constante
+introduce.field.field.of.type:
+    text: 'Campo de &tipo:'
+introduce.field.static.field.of.type:
+    text: 'Campo estático de &tipo:'
+introduce.field.title:
+    text: Extraer campo
+introduce.parameter.command:
+    text: Extrayendo parámetro a {0}
+introduce.parameter.elements.header:
+    text: Añadiendo parámetro a un método
+introduce.parameter.title:
+    text: Introducir parámetro
+introduce.parameter.to.method:
+    text: Introducir parámetro al método
+introduce.selection.error:
+    text: No se puede realizar la refactorización con el/los elemento(s) seleccionado(s)
+introduce.target.chooser.expressions.title:
+    text: Expresiones
+introduce.variable.title:
+    text: Introducir variable
+introduced.variable.will.conflict.with.0:
+    text: La variable introducida entrará en conflicto con {0}
+introducing.variable.may.break.code.logic:
+    text: La introducción de una variable puede romper la lógica del código
+invalid.expression.context:
+    text: Contexto de expresión no válido.
+invalid.target.package.name.specified:
+    text: Nombre de paquete de destino especificado no válido
+invert.0.1:
+    text: Invertir {0} {1} y sus usos
+invert.boolean.elements.header:
+    text: '{0} a invertir'
+invert.boolean.name.of.inverted.element:
+    text: '&Nombre del {0} invertido:'
+invert.boolean.refs.to.invert:
+    text: Referencias a invertir {0}
+invert.boolean.title:
+    text: Invertir booleano
+invert.boolean.wrong.type:
+    text: El tipo de retorno del método o el tipo de la variable a refactorizar debe ser booleano
+invocations.to.be.inlined:
+    text: Invocaciones para integrar en línea {0}
+is.modified.in.loop.body:
+    text: '{0} se modifica en el cuerpo del bucle'
+is.not.supported.in.the.current.context:
+    text: '{0} no se admite en el contexto actual'
+items.to.be.deleted:
+    text: Elementos a eliminar
+javadoc.for.abstracts:
+    text: JavaDoc para elementos abstractos
+keep.abstract.column.header:
+    text: Mantener abstract
+local.variable.description:
+    text: variable local {0}
+locate.caret.inside.a.method:
+    text: Ubicar el cursor dentro de un miembro
+make.0.static:
+    text: Hacer {0} estático
+make.abstract:
+    text: Convertir en abstracto
+make.method.static.title:
+    text: Hacer método static
+make.static.command:
+    text: Hacer {0} estático
+make.static.description.label:
+    text: Hacer {0} {1} estático
+make.static.elements.header:
+    text: '{0} que se convertirán en static'
+member.column:
+    text: Miembro
+member.info.extends.0:
+    text: extiende {0}
+member.info.implements.0:
+    text: implementa {0}
+member.is.already.static:
+    text: El miembro ya es estático
+members.to.be.moved.should.belong.to.the.same.class:
+    text: Los miembros que se van a mover deben pertenecer a la misma clase
+members.to.be.pulled.up:
+    text: Miembros a su&bir
+members.to.be.pushed.down.panel.title:
+    text: Miembros a &bajar
+members.to.form.interface:
+    text: Miem&bros para formar la interfaz
+members.to.form.superclass:
+    text: Miem&bros para formar la superclase
+method.0.is.already.defined.in.the.1:
+    text: El método {0} ya está definido en {1}
+method.0.is.not.static:
+    text: |-
+        El método {0} no es estático.
+        La refactorización {1} solo es compatible con miembros estáticos.
+method.0.is.overridden.by.1:
+    text: El método {0} es sobrescrito por {1}
+method.0.will.hide.method.of.the.base.class:
+    text: El método ocultará {0} del super {1}
+method.0.will.implement.method.of.the.base.class:
+    text: El método implementará {0} de la super {1}
+method.0.will.override.a.method.of.the.base.class:
+    text: El método sobrescribirá {0} de la super {1}
+method.column:
+    text: Método
+method.description:
+    text: método {0}
+method.does.not.have.a.body:
+    text: El método {0} no tiene cuerpo
+method.duplicates.found.message:
+    text: '{0, choice, 1#1 fragmento de código encontrado|2#{0,number} fragmentos de código encontrados}'
+method.has.an.empty.body:
+    text: El método {0} tiene un cuerpo vacío.
+method.is.not.a.constructor:
+    text: El método no es un constructor
+migration.class:
+    text: Clase
+migration.dialog.ok.button.text:
+    text: Ejecutar
+migration.dialog.title:
+    text: Migración de paquetes y clases
+migration.entry.class:
+    text: Clase
+migration.entry.new.name:
+    text: 'Nuevo nombre:'
+migration.entry.old.name:
+    text: 'Nombre anterior:'
+migration.entry.package:
+    text: Paquete
+migration.map.description.label:
+    text: 'Descripción del mapa:'
+migration.map.name.prompt:
+    text: 'Nombre del mapa:'
+migration.new.button:
+    text: Nuevo…
+migration.new.name.column.header:
+    text: Nuevo nombre
+migration.no.usages.found.in.the.project:
+    text: No se encontraron usos en el proyecto
+migration.old.name.column.header:
+    text: Nombre anterior
+migration.package:
+    text: Paquete
+migration.package.with.subpackages:
+    text: Paquete con subpaquetes
+migration.title:
+    text: Migración
+migration.type.column.header:
+    text: Tipo
+move.class.refactoring.cannot.be.applied.to.anonymous.classes:
+    text: La refactorización Mover clase no se puede aplicar a clases anónimas
+move.class.to.inner.command.name:
+    text: Mover {0, choice, 1#clase|2#clases} {1} a {2}
+move.class.to.inner.move.to.self.error:
+    text: No está permitido mover una clase a sí misma
+move.class.to.inner.nonstatic.error:
+    text: No se permite mover una clase a una clase interna no estática
+move.classes.command:
+    text: Moviendo {0} al paquete {1}
+move.classes.destination.make.inner:
+    text: '&Convertir en clase interna de'
+move.classes.destination.to.package:
+    text: Al &paquete
+move.classes.move.to.another.source.folder:
+    text: Mover a otra carpeta de &fuentes
+move.directories.elements.header:
+    text: Directorios que se moverán a {0}
+move.directory.0:
+    text: Mover directorio {0}
+move.enum.constant.cb:
+    text: Mover como constantes &enum si es posible
+move.file.0:
+    text: Mover archivo {0}
+move.files.elements.header:
+    text: Archivos que se moverán a {0}
+move.files.to.directory.label:
+    text: 'Al directorio:'
+move.inner.class.command:
+    text: Moviendo clase interna {0}
+move.inner.class.to.another.class:
+    text: '&Mover la clase interna {0} a otra clase'
+move.inner.class.to.be.moved:
+    text: Clase a mover
+move.inner.class.to.upper.level:
+    text: Mover la clase &interna {0} al nivel superior
+move.inner.to.upper.level.title:
+    text: Mover clase interna al nivel superior
+move.instance.method.command:
+    text: Mover método de instancia
+move.instance.method.elements.header:
+    text: Mover método de instancia
+move.instance.method.title:
+    text: Mover método de instancia
+move.members.elements.header:
+    text: Miembros a mover
+move.members.members.to.be.moved.border.title:
+    text: Miem&bros a mover (solo estáticos)
+move.members.move.members.from.label:
+    text: 'Mover miembros desde:'
+move.members.title:
+    text: Mover miembros estáticos
+move.members.to.fully.qualified.name.label:
+    text: 'A (nombre totalmente cualificado):'
+move.method.enter.a.valid.name.for.parameter:
+    text: Introduzca un nombre válido para el parámetro
+move.method.is.not.supported.for.0:
+    text: Mover método de instancia no es compatible con {0}
+move.method.is.not.supported.for.constructors:
+    text: Mover método no es compatible con los constructores
+move.method.is.not.supported.for.generic.classes:
+    text: El método Move no es compatible con clases genéricas
+move.method.is.not.supported.when.method.is.part.of.inheritance.hierarchy:
+    text: Mover método no es compatible cuando el método forma parte de una jerarquía de herencia
+move.method.this.parameter.label:
+    text: "Seleccione un nombre para el parámetro ''{0}.this''"
+move.nonstatic.class.from.jsp.not.supported:
+    text: No se admite mover clases no estáticas desde una página JSP
+move.package.refactoring.cannot.be.applied.to.default.package:
+    text: La refactorización Mover paquete no se puede aplicar al paquete predeterminado
+move.single.class.or.package.name.label:
+    text: Mover {0} {1}
+move.single.element.elements.header:
+    text: '{0} se moverá a {1}'
+move.specified.classes:
+    text: Mover las clases especificadas
+move.specified.directories:
+    text: Mover directorios especificados
+move.specified.elements:
+    text: Mover elementos especificados
+move.specified.files:
+    text: Mover archivos especificados
+move.specified.packages:
+    text: Mover los paquetes especificados
+move.title:
+    text: Mover
+move.to.different.language:
+    text: La clase de destino {2} tiene un idioma diferente al de {0} {1}
+move.to.inner.duplicate.inner.class:
+    text: La clase {0} ya contiene una clase interna llamada {1}
+moveInstanceMethod.select.an.instance.parameter:
+    text: 'Seleccione una expresión de &instancia:'
+moving.directories.command:
+    text: Moviendo directorios
+moving.local.classes.is.not.supported:
+    text: No se admite mover clases locales
+multiple.directories.correspond.to.package:
+    text: "El paquete ''{0}''\n se encuentra en varios directorios:\n\n"
+name.for.extracted.include.file:
+    text: '&Nombre para el archivo include extraído (extensión predeterminada: {0})'
+name.prompt:
+    text: '&Nombre'
+no.class.name.specified:
+    text: No se ha especificado el nombre de la clase
+no.destination.class.specified:
+    text: No se ha especificado la clase de destino
+no.field.name.specified:
+    text: Nombre de campo no especificado
+no.initializer.present.for.the.field:
+    text: No hay un inicializador presente para el campo
+no.interface.name.specified:
+    text: No se ha especificado el nombre de la interfaz
+no.members.selected:
+    text: Ningún miembro seleccionado
+no.new.name.specified:
+    text: No se ha especificado un nombre nuevo
+no.parameter.name.specified:
+    text: No se ha especificado el nombre del parámetro
+no.selection:
+    text: Sin selección.
+no.superclass.name.specified:
+    text: No se ha especificado el nombre de la superclase
+no.target.directory.specified:
+    text: No se ha especificado el directorio de destino
+no.usages.can.be.replaced:
+    text: "Ningún uso de {0} \npuede reemplazarse por usos de {1}"
+occurences.string:
+    text: ({0,choice,1#1 ocurrencia|2#{0,number} ocurrencias})
+occurrences.found.in.comments.strings.and.non.java.files:
+    text: Coincidencias encontradas en comentarios, cadenas y archivos que no son de código
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+    text: Coincidencias encontradas en comentarios, cadenas, archivos que no son de código y código generado
+ok.button:
+    text: Aceptar
+only.fields.variables.of.methods.of.valid.type.can.be.considered:
+    text: Solo se pueden considerar campos, variables, parámetros de método o métodos de tipo válido.
+package.description:
+    text: paquete {0}
+package.does.not.exist:
+    text: |-
+        El paquete {0} no existe.
+        ¿Desea crearlo?
+package.for.new.interface:
+    text: '&Paquete para la nueva interfaz:'
+package.for.new.superclass:
+    text: '&Paquete para la nueva superclase:'
+package.for.original.class:
+    text: '&Paquete para la clase original:'
+package.for.original.interface:
+    text: '&Paquete para la interfaz original:'
+package.occurs.in.package.prefixes.of.the.following.source.folders.n:
+    text: |
+        El paquete {0} aparece en los prefijos de paquete de las siguientes carpetas de fuentes:
+parameter.description:
+    text: parámetro {0}
+parameter.initializer.contains.0.but.not.all.calls.to.method.are.in.its.class:
+    text: El inicializador del parámetro contiene {0}, pero no todas las llamadas al método están en su clase
+parameter.name.prompt:
+    text: 'Nombre del pará&metro:'
+parameter.of.type:
+    text: 'Parámetro de &tipo:'
+parameters.border.title:
+    text: Parámetros
+pass.outer.class.instance.as.parameter:
+    text: Pasar la instancia de la clase &externa como parámetro
+path.completion.shortcut:
+    text: Utilice {0} para completar rutas
+please.enter.a.valid.name.for.inverted.element:
+    text: Introduzca un nombre válido para el {0} invertido
+please.enter.a.valid.target.package.name:
+    text: Por favor, introduzca un nombre de paquete de destino válido
+press.escape.to.remove.the.highlighting:
+    text: Presione Escape para eliminar el resaltado
+press.the.do.migrate.button:
+    text: |
+        Pulse el botón "Ejecutar migración" en la parte inferior del panel de resultados de búsqueda
+        para realizar la migración mediante el mapa de migración "{0}"
+preview.button:
+    text: Vista &previa
+preview.usages.to.be.changed:
+    text: '&Vista previa de los usos que se cambiarán'
+problems.detected.title:
+    text: Problemas detectados
+process.duplicates.title:
+    text: Procesar duplicados
+process.methods.duplicates.title:
+    text: Procesar duplicado del método {2} ({0} de {1})
+progress.text:
+    text: Buscando usos…
+prompt.delete.and:
+    text: y
+prompt.delete.class:
+    text: '{0,choice,1#clase|2#clases}'
+prompt.delete.directory:
+    text: '{0,choice,1#directorio|2#directorios}'
+prompt.delete.directory.paren:
+    text: ({0} {0,choice,1#directorio|2#directorios})
+prompt.delete.elements:
+    text: ¿Eliminar {0}?
+prompt.delete.field:
+    text: '{0,choice,1#campo|2#campos}'
+prompt.delete.file:
+    text: '{0,choice,1#archivo|2#archivos}'
+prompt.delete.interface:
+    text: '{0,choice,1#interfaz|2#interfaces}'
+prompt.delete.method:
+    text: '{0,choice,1#método|2#métodos}'
+prompt.delete.package:
+    text: '{0,choice,1#paquete|2#paquetes}'
+prompt.delete.property:
+    text: '{0,choice,1#propiedad|2#propiedades}'
+prompt.delete.symlink:
+    text: '{0,choice,1#enlace simbólico|2#enlaces simbólicos}'
+prompt.delete.type.parameter:
+    text: '{0,choice,1#parámetro de tipo|2#parámetros de tipo}'
+pull.members.up.title:
+    text: Subir miembros
+pull.up.members.to:
+    text: 'S&ubir miembros de {0} a:'
+pullUp.command:
+    text: Subiendo miembros de {0}
+push.down.javadoc.panel.title:
+    text: JavaDoc para abstractos
+push.down.members.elements.header:
+    text: Bajar miembros de {0}
+push.down.will.delete.members:
+    text: Mover los miembros hacia abajo provocará que se eliminen. ¿Desea crear una nueva subclase?
+push.members.down.title:
+    text: Bajar miembros
+push.members.from.0.down.label:
+    text: Bajar miembros de {0}
+pushed.members.will.not.be.visible.from.certain.call.sites:
+    text: Los miembros desplazados no serán visibles desde ciertos puntos de llamada
+readonly.occurences.found:
+    text: Coincidencias encontradas en archivos de solo lectura
+refactor.button:
+    text: '&Refactorizar'
+refactoring.cannot.be.applied.to.inline.non.chaining.constructors:
+    text: La refactorización {0} no puede insertar en línea constructores no encadenados
+refactoring.cannot.be.performed:
+    text: No se puede realizar la refactorización
+refactoring.extract.method.dialog.empty:
+    text: Vacío
+refactoring.extract.method.dialog.method.name:
+    text: 'Nombre del método:'
+refactoring.extract.method.dialog.output.variables:
+    text: Variables de salida
+refactoring.extract.method.dialog.parameters:
+    text: Parámetros
+refactoring.extract.method.dialog.signature.preview:
+    text: Vista previa de la firma
+refactoring.extract.method.dialog.title:
+    text: Extraer método
+refactoring.indexing.warning.title:
+    text: Indexando
+refactoring.introduce.context.error:
+    text: No se puede realizar la refactorización en este contexto
+refactoring.introduce.name.error:
+    text: Nombre incorrecto
+refactoring.introduce.name.used.error:
+    text: Este nombre ya está en uso
+refactoring.introduce.selection.error:
+    text: No se puede realizar la refactorización con los elementos seleccionados.
+refactoring.introduce.variable.scope.error:
+    text: El nombre entra en conflicto con una variable existente
+refactoring.introduceVariable:
+    text: Refactorización Introducir variable
+refactoring.is.not.supported.for.jsp.classes:
+    text: No se admite la refactorización para clases JSP
+refactoring.is.not.supported.for.recursive.methods:
+    text: |-
+        La refactorización {0} no se puede aplicar para eliminar métodos recursivos.
+        Solo puede realizar el inline de llamadas a métodos individuales.
+refactoring.is.not.supported.when.return.statement.interrupts.the.execution.flow:
+    text: La refactorización {0} no es compatible cuando la sentencia return interrumpe el flujo de ejecución
+references.found.in.code:
+    text: Referencias encontradas en el código
+references.in.code:
+    text: Referencias en el código {0}
+references.in.code.to.0:
+    text: Referencias en el código a {0}
+references.in.code.to.0.1:
+    text: Referencias en el código a {0} {1}
+references.in.code.to.elements.from.migration.map:
+    text: Referencias en el código a elementos del mapa de migración "{0}" {1}
+references.to.0.to.be.replaced.with.references.to.1:
+    text: "Referencias a ''{0}'' que se sustituirán por referencias a ''{1}''{2}"
+remove.duplicates.command:
+    text: Eliminar duplicados
+remove.include.prompt:
+    text: El archivo incluido ya no se utiliza. ¿Desea eliminarlo?
+remove.parameter.0.no.longer.used:
+    text: "Eliminar el parámetro ''{0}'' que ya no se utiliza"
+rename.0.and.its.usages.to:
+    text: 'Renombrar {0} y sus usos a:'
+rename.bound.forms:
+    text: Renombrar &formularios vinculados
+rename.bound.forms.title:
+    text: Renombrar formularios vinculados
+rename.constructor.parameters.title:
+    text: Renombrar parámetros del constructor
+rename.constructor.parameters.with.the.following.names.to:
+    text: 'Renombrar parámetros con los siguientes nombres a:'
+rename.directories.command.name:
+    text: Renombrar directorios
+rename.directory.button.text:
+    text: Solo el directorio &seleccionado
+rename.directory.command.name:
+    text: Renombrar directorio
+rename.directory.title:
+    text: Renombrar &directorio
+rename.forms.with.the.following.names.to:
+    text: 'Renombrar formularios con los siguientes nombres a:'
+rename.implementation.class.to:
+    text: 'Renombrar clase de implementación a:'
+rename.inheritors:
+    text: Renombrar herederos
+rename.inheritors.title:
+    text: Renombrar herederos
+rename.inheritors.with.the.following.names.to:
+    text: 'Renombrar herederos con los siguientes nombres a:'
+rename.module.title:
+    text: Renombrar &módulo
+rename.not.supported:
+    text: Operación no soportada
+rename.original.interface.to:
+    text: 'Renombrar la interfaz original a:'
+rename.package.button.text:
+    text: '&Todos los directorios'
+rename.parameters.hierarchy:
+    text: Renombrar parámetros en la jer&arquía
+rename.project:
+    text: Renombrar proyecto
+rename.project.action.title:
+    text: Renombrar proyecto…
+rename.project.handler.title:
+    text: Renombrar &proyecto
+rename.tests:
+    text: Renombrar pru&ebas
+rename.tests.title:
+    text: Renombrar pruebas
+rename.tests.with.the.following.names.to:
+    text: 'Renombrar las pruebas con los siguientes nombres a:'
+rename.title:
+    text: Cambiar nombre de Swift
+rename.variables:
+    text: Renombrar &variables
+rename.variables.title:
+    text: Renombrar variables
+rename.variables.with.the.following.names.to:
+    text: 'Renombrar variables con los siguientes nombres a:'
+renamed.class.will.hide.0.in.1:
+    text: La clase renombrada ocultará {0} en {1}
+renames.project:
+    text: Renombrar proyecto
+renaming.0.1.to.2:
+    text: Renombrando {0} {1} a {2}
+renaming.command.name:
+    text: Renombrando {0}
+replace.all.fields:
+    text: '&Reemplazar todos los campos'
+replace.all.occurences:
+    text: Reemplazar &todas las ocurrencias ({0} ocurrencias)
+replace.all.occurences.checkbox:
+    text: Reemplazar &todas las coincidencias
+replace.all.occurrences.of.expression.0.occurrences:
+    text: Reemplazar &todas las coincidencias ({0})
+replace.constructor.0.with.a.factory.method:
+    text: Reemplazar el constructor {0} por un método de fábrica
+replace.constructor.with.factory.method:
+    text: Reemplazar constructor por método de fábrica
+replace.constructor.with.factory.method.title:
+    text: Reemplazar constructor por método de fábrica
+replace.constructor.with.factory.target.fq.name:
+    text: 'En (nombre totalmente calificado):'
+replace.default.constructor.of.0.with.a.factory.method:
+    text: Reemplazar el constructor predeterminado de {0} con un método de fábrica
+replace.default.constructor.with.factory.method:
+    text: Reemplazar el constructor por defecto con un método de fábrica
+replace.fields.inaccessible.in.usage.context:
+    text: Reemplazar campos &inaccesibles en el contexto de uso
+replace.fields.used.in.expressions.with.their.getters:
+    text: Reemplazar campos &usados en expresiones con sus getters
+replace.fragment:
+    text: Reemplazar fragmento
+replace.inheritance.from:
+    text: '&Reemplazar la herencia por delegación de:'
+replace.inheritance.with.delegation.command:
+    text: Reemplazando herencia por delegación en {0}
+replace.inheritance.with.delegation.elements.header:
+    text: Reemplazar herencia por delegación
+replace.inheritance.with.delegation.title:
+    text: Reemplazar herencia por delegación
+replace.instance.qualifiers.with.class.references:
+    text: Reemplazar calificadores de instancia con referencias de clase
+replace.method.code.duplicates.title:
+    text: Reemplazar duplicados de código
+replace.method.duplicates.scope.chooser.message:
+    text: Ámbito de análisis
+replace.method.duplicates.scope.chooser.title:
+    text: Especificar el ámbito de {0}
+replace.multiple.occurrences.found:
+    text: Se encontraron múltiples coincidencias
+replace.temp.with.query.title:
+    text: Reemplazar variable temporal con consulta
+replace.this.code.fragment.and.change.signature:
+    text: "\nLa firma del método se cambiará a \n{0}"
+replace.this.code.fragment.and.make.method.static:
+    text: (El método pasará a ser estático)
+replace.this.code.fragment.and.make.method.static.visible:
+    text: (El método se convertirá en estático y {0})
+replace.this.code.fragment.and.make.method.visible:
+    text: (El método pasará a ser {0})
+replace.with.method.call.does.not.work.for.constructors:
+    text: Reemplazar por llamada a método no funciona para constructores
+replace.write.access.occurrences:
+    text: Reemp&lazar las apariciones de acceso de escritura
+replacing.inheritance.with.delegation:
+    text: Reemplazando la herencia por delegación
+rerun.safe.delete:
+    text: Reejecutar eliminación &segura
+retry.command:
+    text: Reintentar
+safe.delete.command:
+    text: Eliminando {0}
+safe.delete.comment.occurences.header:
+    text: Se han encontrado coincidencias en comentarios, cadenas y archivos que no son de código {0}. Estas coincidencias no se modificarán.
+safe.delete.not.available.indexing:
+    text: La refactorización de eliminación segura no está disponible durante el análisis del proyecto
+safe.delete.of.those.0.in.comments.strings.non.code:
+    text: De estos, {0,choice,1#1 uso está|2#{0,number} usos están} en cadenas de texto, comentarios, archivos que no son de código o código generado.
+safe.delete.title:
+    text: Eliminación segura
+search.for.references:
+    text: Buscar re&ferencias
+search.for.text.occurrences:
+    text: Buscar ocurrencias de &texto
+search.for.usages.and.delete.elements:
+    text: ¿Buscar usos y eliminar {0}?
+search.in.comments.and.strings:
+    text: Buscar en &comentarios y cadenas
+searching.for.duplicates:
+    text: Buscando duplicados…
+searching.for.variables:
+    text: Buscando variables
+select.all.button:
+    text: Seleccion&ar todo
+select.refactoring.title:
+    text: Seleccionar refactorización
+select.source.root.chooser.title:
+    text: Seleccionar raíz de fuentes
+select.target.directory:
+    text: Seleccionar directorio de destino
+select.target.directory.description:
+    text: El archivo se creará en este directorio
+selected.block.should.represent.a.set.of.statements.or.an.expression:
+    text: El bloque seleccionado debe representar un conjunto de sentencias o una expresión
+selected.block.should.represent.an.expression:
+    text: El bloque seleccionado debe representar una expresión
+selected.expression.cannot.be.a.constant.initializer:
+    text: La expresión seleccionada no puede ser un inicializador de constante
+selection.does.not.form.a.fragment.for.extraction:
+    text: La selección no constituye un fragmento para la extracción
+setter.method.found.for.the.field.0:
+    text: "Se ha encontrado el método setter para el campo {0}. \n¿Desea {1} también el setter?"
+setup.method.radio:
+    text: método &setUp
+signature.preview.border.title:
+    text: Vista previa de la firma
+source.and.destination.classes.should.be.different:
+    text: Las clases de origen y destino deben ser diferentes
+source.folder.0.has.package.prefix.1:
+    text: "La carpeta de fuentes {0} tiene el prefijo de paquete ''{1}''\nEl paquete ''{2}'' no se puede crear allí."
+static.initializer.description:
+    text: inicializador estático de {0}
+statusBar.noUsages:
+    text: No se han encontrado coincidencias
+statusBar.refactoring.result:
+    text: '{0, choice, 1#1 ocurrencia cambiada|2#{0,number} ocurrencias cambiadas}'
+superclass.cannot.be.extracted.from.an.enum:
+    text: No se puede extraer la superclase de una enumeración
+superclass.cannot.be.extracted.from.an.interface:
+    text: No se puede extraer la superclase de una interfaz
+superclass.name:
+    text: 'Nombre de la &superclase:'
+synthetic.jsp.class.is.referenced.in.the.method:
+    text: La clase JSP sintética se referencia en el método
+target.0.is.not.accessible.from.1:
+    text: El destino {0} no es accesible desde {1}
+target.destination.folder:
+    text: 'Directorio de &destino:'
+the.caret.should.be.positioned.at.the.class.method.or.field.to.be.refactored:
+    text: El cursor debe estar situado en la clase, el método o el campo que se va a refactorizar.
+the.caret.should.be.positioned.inside.a.class.to.pull.members.from:
+    text: El cursor debe estar posicionado dentro de la clase de la cual se extraerán los miembros
+the.caret.should.be.positioned.inside.a.class.to.push.members.from:
+    text: El cursor debe estar posicionado dentro de la clase desde la cual bajar los miembros
+the.caret.should.be.positioned.on.the.included.file.to.inline:
+    text: El símbolo de intercalación debe estar situado en la referencia del archivo incluido para integrarlo en línea.
+the.file.will.be.copied.to.this.directory:
+    text: El archivo se copiará a este directorio
+the.file.will.be.moved.to.this.directory:
+    text: El archivo se moverá a este directorio
+the.following.problems.were.found:
+    text: 'Se encontraron los siguientes problemas:'
+the.language.for.selected.elements.has.no.associated.file.type:
+    text: El idioma de los elementos seleccionados no tiene ningún tipo de archivo asociado
+there.are.going.to.be.multiple.destination.files.with.the.same.name:
+    text: Habrá varios archivos de destino con el mismo nombre.
+there.are.multiple.exit.points.in.the.selected.code.fragment:
+    text: Hay múltiples puntos de salida en el fragmento de código seleccionado
+there.are.multiple.output.values.for.the.selected.code.fragment:
+    text: 'Existen múltiples valores de salida para el fragmento de código seleccionado:'
+there.are.no.variables.that.have.reference.type:
+    text: No hay parámetros de método ni campos de la clase contenedora que tengan tipo de referencia
+there.are.unused.methods.that.override.methods.you.delete:
+    text: <html>Hay métodos sin usar que sobrescriben los métodos que se van a eliminar. Elija también los métodos de sobrescritura sin usar que desea eliminar:</html>
+there.is.already.a.0.in.1:
+    text: Ya existe un {0} en {1}
+there.is.already.a.0.in.1.it.will.conflict.with.the.new.parameter:
+    text: Ya existe un {0} en {1}. Entrará en conflicto con el nuevo parámetro.
+there.is.already.a.0.in.the.1.it.will.conflict.with.the.renamed.parameter:
+    text: Ya existe un {0} en {1}. Entrará en conflicto con el parámetro renombrado.
+there.is.already.a.0.it.will.conflict.with.an.introduced.parameter:
+    text: Ya existe un {0}. Entrará en conflicto con el parámetro introducido
+there.is.already.a.0.it.will.conflict.with.the.renamed.1:
+    text: Ya existe un {0} con el mismo nombre
+these.package.prefixes.will.be.changed:
+    text: Estos prefijos de paquete se cambiarán.
+this.invocation.only.and.keep.the.method:
+    text: Incorporar solo esta invocación y conservar el método (&K)
+this.member.does.not.seem.to.belong.to.any.class:
+    text: Este miembro no parece pertenecer a ninguna clase.
+this.method:
+    text: este método
+this.reference.only.and.keep.super.class:
+    text: Integrar solo esta referencia y &mantener la superclase
+this.reference.only.and.keep.the.class:
+    text: Sustituir solo esta referencia y &mantener la clase
+this.reference.only.and.keep.the.field:
+    text: Inline solo esta referencia y &mantener el campo
+to.refactor:
+    text: refactorizar
+to.rename:
+    text: Renombrar
+turn.refs.to.super.command:
+    text: Reemplazando usos de {0} por {1}
+turnRefsToSuper.change.usages.to:
+    text: '&Cambiar los usos de {0} a:'
+turnRefsToSuper.use.superclass.in.instanceof:
+    text: '&Usar interfaz/superclase en instanceof'
+type.cook.command:
+    text: Generalización
+type.cook.drop.obsolete.casts:
+    text: Eliminar casts obsoletos (&D)
+type.cook.elements.header:
+    text: Ámbito de generificación
+type.cook.generify.objects:
+    text: Generificar objetos(&O)
+type.cook.leave.object.parameterized.types.raw:
+    text: Dejar los tipos parametrizados de objeto como raw (&L)
+type.cook.perform.exhaustive.search:
+    text: Realizar búsqueda exhaustiva(&E)
+type.cook.preserve.raw.arrays:
+    text: Preservar arrays originales (&A)
+type.cook.produce.wildcard.types:
+    text: Generar tipos comodín (&W)
+type.cook.ratio.generified:
+    text: '{0,choice,-1#No calculado|0#{0,number}/{1}}'
+type.cook.report:
+    text: 'Elementos generalizados: {0}, conversiones eliminadas: {1}'
+type.migration.exclude.action.text:
+    text: '&Excluir'
+type.migration.include.action.text:
+    text: '&Incluir'
+type.migration.migrate.button.text:
+    text: '&Migrar'
+type.migration.rerun.button.text:
+    text: '&Reejecutar migración de tipos'
+type.of.the.selected.expression.cannot.be.determined:
+    text: No se puede determinar el tipo de la expresión seleccionada.
+unable.to.start.type.migration:
+    text: No se puede iniciar la migración de tipos
+unknown.expression.type:
+    text: Tipo de expresión desconocido.
+unselect.all.button:
+    text: '&Deseleccionar todo'
+unsupported.refs.found:
+    text: Se han encontrado referencias no compatibles en {0} archivos
+unused.overriding.methods.title:
+    text: Métodos de sobreescritura no utilizados
+usageView.doAction:
+    text: '&Refactorizar'
+usageView.need.reRun:
+    text: |-
+        No se puede realizar la operación de refactorización.
+        Hubo cambios en el código después de encontrar los usos.
+        Por favor, vuelva a realizar la búsqueda de usos.
+usageView.tabText:
+    text: Vista previa de la refactorización
+usageView.usagesText:
+    text: usos
+usages.detected:
+    text: Usos detectados
+use.interface.where.possible.title:
+    text: Usar interfaz donde sea posible
+use.super.references.prompt:
+    text: "En esta etapa, {0} puede analizar los usos de {1} \ny reemplazarlos por usos de {2} donde sea posible.\n¿Desea continuar?"
+use.variable.initializer.to.initialize.parameter:
+    text: Usar el &inicializador de variable para inicializar el parámetro
+used.by.0:
+    text: usado por {0}
+uses.0:
+    text: usa {0}
+variable.does.not.have.an.initializer:
+    text: La variable {0} no tiene un inicializador.
+variable.has.no.dominating.definition:
+    text: No se puede encontrar una única definición para integrar
+variable.has.no.initializer:
+    text: La variable {0} no tiene un inicializador
+variable.is.accessed.for.writing.and.used.with.inlined:
+    text: "Se utiliza otra definición de la variable ''{0}'' junto con la definición insertada en línea"
+variable.is.never.used:
+    text: La variable {0} no se utiliza nunca
+variable.is.never.used.before.modification:
+    text: La variable {0} nunca se utiliza antes de su modificación
+variable.is.referenced.in.multiple.files:
+    text: La variable {0} está referenciada en múltiples archivos
+variable.of.type:
+    text: 'Variable de &tipo:'
+view.usages:
+    text: '&Ver usos'
+visibility.as.is:
+    text: '&Tal cual'
+visibility.border.title:
+    text: Visibilidad
+visibility.combo.title:
+    text: '&Visibilidad:'
+visibility.escalate:
+    text: '&Escalar'
+visibility.package.local:
+    text: Pa&quete local
+visibility.private:
+    text: Pri&vado
+visibility.protected:
+    text: Pr&otegido
+visibility.public:
+    text: Pú&blico
+warning.title:
+    text: Advertencia
+what.would.you.like.to.do:
+    text: ¿Qué desea hacer?
+would.you.like.to.replace.default.constructor.of.0.with.factory.method:
+    text: ¿Desea reemplazar el constructor por defecto de {0} por un método de fábrica?
+yes.button:
+    text: '&Sí'

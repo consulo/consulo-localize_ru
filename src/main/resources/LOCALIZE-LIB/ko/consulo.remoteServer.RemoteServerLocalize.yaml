@@ -1,0 +1,96 @@
+AddCloudConnectionAction.description:
+    text: '{0} 연결 추가'
+CloudModuleWizardStep.title.account:
+    text: 계정
+CloudModuleWizardStep.title.application:
+    text: 애플리케이션
+ConnectionStatus.connected:
+    text: 연결됨
+ConnectionStatus.connecting:
+    text: 연결 중
+ConnectionStatus.disconnected:
+    text: 연결 끊김
+DeployToServerRunConfiguration.error.deployment.not.selected:
+    text: 배포가 선택되지 않았습니다
+DeployToServerRunConfiguration.error.server.not.found:
+    text: 서버 {0}을(를) 찾을 수 없습니다
+DeployToServerRunConfiguration.error.server.required:
+    text: 서버가 지정되지 않았습니다
+DeployToServerRunConfiguration.tab.title.deployment:
+    text: 배포
+DeploymentStatus.deployed:
+    text: 배포됨
+DeploymentStatus.deploying:
+    text: 배포 중
+DeploymentStatus.not.deployed:
+    text: 배포되지 않음
+DeploymentStatus.undeploying:
+    text: 배포 해제 중
+ServerConnectionImpl.error.cannot.obtain.deployments:
+    text: '배포를 가져올 수 없습니다: {0}'
+ServersTreeStructure.RemoteServerNode.popup.title.deploy.configuration:
+    text: 구성 배포
+ServersTreeStructure.RemoteServerNode.popup.title.deploy.debug.configuration:
+    text: 구성 배포 및 디버그
+action.presentation.DeployAction.description:
+    text: 선택한 항목 재배포
+action.presentation.DeployAction.text:
+    text: 재배포
+button.cloud.new:
+    text: 새로 만들기…
+cloud.status.cannot.connect:
+    text: '연결할 수 없음: {0}'
+cloud.status.connecting:
+    text: 연결 중…
+cloud.status.connection.successful:
+    text: 연결 성공
+cloud.status.double.click.to.connect:
+    text: 서버 노드를 더블 클릭하여 연결
+clouds.configure.empty.selection.string:
+    text: "{0}과의 통합을 구성하려면 ''+''를 클릭하세요"
+configurable.display.name.clouds:
+    text: 클라우드
+create.new.deployment.configuration.for.singleton.type:
+    text: '{0} 배포 생성…'
+create.new.deployment.configuration.generic:
+    text: 만들기…
+deploy.to.server.configuration.type.description:
+    text: '{0} 실행 구성으로 배포'
+dialog.message.account.required:
+    text: 계정이 필요합니다
+dialog.message.email.required:
+    text: 이메일이 필요합니다
+dialog.message.password.required:
+    text: 비밀번호가 필요합니다
+dialog.title.create.deployment.configuration:
+    text: 배포 구성 생성
+dialog.title.edit.deployment.configuration:
+    text: 배포 구성 편집
+group.action.AddRemoteServerGroup.text:
+    text: 추가
+label.text.deployment:
+    text: '배포:'
+label.text.server:
+    text: '서버:'
+module.builder.description.java.module.of.paas.cloud.application:
+    text: PAAS 클라우드 애플리케이션의 Java 모듈
+new.cloud.connection.configurable.title:
+    text: 새 {0} 연결
+popup.title.new.account:
+    text: 새 계정
+presentable.name.clouds:
+    text: 클라우드
+remote.server.combo.auto.detected.server:
+    text: '<{0}: 자동 감지된 서버>'
+remote.server.combo.create.new.server:
+    text: 새로 만들기…
+remote.server.combo.message.test.connection.failed:
+    text: 설정을 자동 감지할 수 없습니다. 수동 구성이 필요합니다.
+remote.server.combo.message.test.connection.in.progress:
+    text: 자동 감지된 연결 확인 중…
+remote.server.combo.no.servers:
+    text: <서버 없음>
+server.type.deployment.configuration.typ.presentable.name.0.deployment:
+    text: '{0} 배포'
+task.title.connecting:
+    text: 연결 중…

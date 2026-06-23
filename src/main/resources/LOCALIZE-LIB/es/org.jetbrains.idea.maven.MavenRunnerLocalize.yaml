@@ -1,0 +1,106 @@
+build.event.message.out.memory:
+    text: Memoria insuficiente
+embedded.build.failed:
+    text: COMPILACIÓN FALLIDA
+external.maven.home.does.not.exist:
+    text: El directorio principal de Maven especificado ({0}) no existe
+external.maven.home.does.not.exist.with.fix:
+    text: El directorio principal de Maven especificado ({0}) no existe. <a href="#">Configurar el directorio principal de Maven</a>
+external.maven.home.invalid:
+    text: '{0} no es un directorio principal de Maven válido'
+external.maven.home.invalid.with.fix:
+    text: '{0} no es un directorio principal de Maven válido. <a href="#">Configurar el directorio principal de Maven</a>'
+external.maven.home.no.default:
+    text: No se encontró una instalación de Maven válida. Establezca el directorio de inicio en el diálogo de configuración o defina la variable de entorno M2_HOME en su sistema.
+external.maven.home.no.default.with.fix:
+    text: No se encontró una instalación de Maven válida. Establezca el directorio de inicio en el <a href="#">diálogo de configuración</a> o defina la variable de entorno M2_HOME en su sistema.
+maven.execution.aborted:
+    text: Ejecución de Maven abortada
+maven.execution.finished:
+    text: Ejecución de Maven finalizada
+maven.execution.terminated.abnormally:
+    text: La ejecución de Maven finalizó de forma anormal
+maven.java.home.undefined:
+    text: Variable de entorno JAVA_HOME no definida
+maven.java.not.found:
+    text: "No se puede encontrar el JRE ''{0}''"
+maven.java.not.found.default.config:
+    text: "No se puede encontrar el JRE ''{0}''. Puede especificar el JRE para ejecutar objetivos de Maven en Ajustes | Maven | Ejecutor"
+maven.options.description.B:
+    text: Ejecutar en modo no interactivo (por lotes) (desactiva el color de la salida)
+maven.options.description.C:
+    text: Falla la compilación si las sumas de comprobación no coinciden
+maven.options.description.D:
+    text: Definir una propiedad del sistema
+maven.options.description.N:
+    text: No realizar recursión en los subproyectos
+maven.options.description.P:
+    text: Lista de perfiles a activar separada por comas
+maven.options.description.T:
+    text: Número de hilos, por ejemplo 2.0C donde C es el número de núcleos multiplicado
+maven.options.description.U:
+    text: Fuerza una comprobación de versiones faltantes y snapshots actualizados en los repositorios remotos
+maven.options.description.V:
+    text: Mostrar información de la versión SIN detener la compilación
+maven.options.description.X:
+    text: Generar salida de depuración de la ejecución
+maven.options.description.am:
+    text: Si se especifica una lista de proyectos, construir también los proyectos requeridos por la lista
+maven.options.description.amd:
+    text: Si se especifica una lista de proyectos, compilar también los proyectos que dependen de los proyectos de la lista
+maven.options.description.cpu:
+    text: Ineficaz, solo se mantiene para compatibilidad con versiones anteriores
+maven.options.description.e:
+    text: Generar mensajes de error de ejecución
+maven.options.description.emp:
+    text: Cifrar la contraseña de seguridad maestra
+maven.options.description.ep:
+    text: Cifrar la contraseña del servidor
+maven.options.description.f:
+    text: Forzar el uso de un archivo POM alternativo (o un directorio con pom.xml)
+maven.options.description.fae:
+    text: Solo fallar la compilación al final; permitir que todas las compilaciones no afectadas continúen
+maven.options.description.ff:
+    text: Detener en el primer fallo en compilaciones de reactor
+maven.options.description.fn:
+    text: NUNCA fallar la construcción, independientemente del resultado del proyecto
+maven.options.description.gs:
+    text: Ruta alternativa para el archivo de configuración global
+maven.options.description.gt:
+    text: Ruta alternativa para el archivo global de toolchains
+maven.options.description.h:
+    text: Mostrar información de ayuda
+maven.options.description.l:
+    text: Archivo de registro donde se guardará toda la salida de la construcción (desactiva los colores de salida)
+maven.options.description.llr:
+    text: Usa el comportamiento de repositorio local heredado de Maven 2, es decir, sin utilizar _remote.repositories. También se puede activar mediante -Dmaven.legacyLocalRepo=true
+maven.options.description.npr:
+    text: Sin efecto, se mantiene solo por compatibilidad con versiones anteriores
+maven.options.description.npu:
+    text: Ineficaz, solo se mantiene por compatibilidad con versiones anteriores
+maven.options.description.nsu:
+    text: Suprimir actualizaciones de SNAPSHOT
+maven.options.description.o:
+    text: Trabajar sin conexión
+maven.options.description.pl:
+    text: Lista separada por comas de los proyectos del reactor especificados para compilar en lugar de todos los proyectos. Un proyecto se puede especificar mediante [groupId]:artifactId o por su ruta relativa.
+maven.options.description.q:
+    text: 'Salida silenciosa: solo mostrar errores'
+maven.options.description.rf:
+    text: Reanudar reactor desde el proyecto especificado
+maven.options.description.s:
+    text: Ruta alternativa para el archivo de configuración del usuario
+maven.options.description.up:
+    text: Ineficaz, solo se conserva por compatibilidad con versiones anteriores
+maven.run.configuration.description:
+    text: Compilación de Maven
+maven.runner.parameters.title:
+    text: Parámetros
+maven.running:
+    text: Ejecutando {0}
+maven.select.maven.home.directory:
+    text: Seleccionar el directorio principal de Maven
+maven.tab.runner:
+    text: Ejecutor
+popup.title.maven.goals:
+    text: Objetivos de Maven

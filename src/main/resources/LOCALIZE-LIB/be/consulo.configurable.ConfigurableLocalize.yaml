@@ -1,0 +1,480 @@
+cannot.save.settings.default.dialog.title:
+    text: Немагчыма захаваць налады
+color.settings.console.black:
+    text: Колеры ANSI//Чорны
+color.settings.console.blue:
+    text: Колеры ANSI//Сіні
+color.settings.console.cyan:
+    text: Колеры ANSI//Бірузовы
+color.settings.console.green:
+    text: Колеры ANSI//Зялёны
+color.settings.console.magenta:
+    text: Колеры ANSI//Фіялетавы
+color.settings.console.name:
+    text: Колеры кансолі
+color.settings.console.output:
+    text: Заключэнне IRB
+color.settings.console.red:
+    text: Колер ANSI//Чырвоны
+color.settings.console.yellow:
+    text: Колер ANSI//Жоўты
+configurable.current.project.tooltip:
+    text: Налады з гэтай іконкай прымяняюцца толькі да бягучага<br>праекта. Непазначаныя налады прымяняюцца да ўсіх праектаў.
+configurable.default.project.tooltip:
+    text: Налады з гэтай іконкай прымяняюцца толькі да новых<br>праектаў. Непазначаныя налады прымяняюцца да ўсіх праектаў.
+control.panel.classic.view.button:
+    text: Класічны выгляд [&V]
+explorer.panel.default.view.button:
+    text: Выгляд па змаўчанні [&V]
+ide.settings.display.name:
+    text: Налады WBS
+options.apply.button:
+    text: Прымяніць [&P]
+options.custom.attribute.descriptor.block.comment:
+    text: Заблакіраваць каментар
+options.custom.attribute.descriptor.invalid.string.escape:
+    text: Няправільны экраніруючы сімвал
+options.custom.attribute.descriptor.keyword1:
+    text: Ключавое слова 1
+options.custom.attribute.descriptor.keyword2:
+    text: Ключавое слова 2
+options.custom.attribute.descriptor.keyword3:
+    text: Ключавое слова 3
+options.custom.attribute.descriptor.keyword4:
+    text: Ключавое слова 4
+options.custom.attribute.descriptor.line.comment:
+    text: Радковы каментар
+options.custom.attribute.descriptor.number:
+    text: Нумар
+options.custom.attribute.descriptor.string:
+    text: лінія
+options.custom.attribute.descriptor.valid.string.escape:
+    text: Сапраўдны сімвал выхаду
+options.custom.display.name:
+    text: Карыстальніцкія тыпы файлаў
+options.general.attribute.descriptior.identifier.under.caret:
+    text: Код//Ідэнтыфікатар пад курсорам
+options.general.attribute.descriptior.identifier.under.caret.write:
+    text: Код//Ідэнтыфікатар пад курсорам (запіс)
+options.general.attribute.descriptor.default.text:
+    text: Тэкст //Тэкст па змаўчанні
+options.general.attribute.descriptor.deleted.text:
+    text: Тэкст//Выдалены тэкст
+options.general.attribute.descriptor.folded.text:
+    text: Тэкст//Згорнуты тэкст
+options.general.attribute.descriptor.search.result:
+    text: Вынікі пошуку//Вынік пошуку
+options.general.attribute.descriptor.search.result.write.access:
+    text: Вынікі пошуку//Вынік пошуку (доступ для запісу)
+options.general.attribute.descriptor.template.variable:
+    text: Жывыя шаблоны//Зменная шаблону
+options.general.attribute.descriptor.text.search.result:
+    text: Вынікі пошуку//Вынікі тэкставага пошуку
+options.general.color.descriptor.added.lines:
+    text: Поле рэдактара//Дададзены радкі
+options.general.color.descriptor.background.in.readonly.files:
+    text: Тэкст//Фон файлаў толькі для чытання
+options.general.color.descriptor.bookmarks:
+    text: Рэдактар//Закладкі
+options.general.color.descriptor.border.lines:
+    text: Поле рэдактара // Граніцы
+options.general.color.descriptor.breadcrumbs.current:
+    text: Рэдактар//Хлебныя крошкі//Ток
+options.general.color.descriptor.breadcrumbs.default:
+    text: Рэдактар//Хлебныя крошкі//Па змаўчанні
+options.general.color.descriptor.breadcrumbs.hovered:
+    text: Рэдактар ​​// Breadcrumb // On Hover
+options.general.color.descriptor.breadcrumbs.inactive:
+    text: Рэдактар//Хлебныя крошкі//Неактыўны
+options.general.color.descriptor.caret:
+    text: Рэдактар ​​// Курсор
+options.general.color.descriptor.caret.row:
+    text: Рэдактар ​​// Радок з курсорам
+options.general.color.descriptor.console.background:
+    text: Кансоль // Фон
+options.general.color.descriptor.console.expired:
+    text: Кансоль часопіса//Састарэлыя запісы
+options.general.color.descriptor.console.logError:
+    text: Журнал кансолі//Памылка
+options.general.color.descriptor.console.stderr:
+    text: Кансоль // Вывад памылкі
+options.general.color.descriptor.console.stdin:
+    text: Кансоль//Карыстальніцкі ўвод
+options.general.color.descriptor.console.stdout:
+    text: Кансоль //Stdout
+options.general.color.descriptor.console.system.output:
+    text: Кансоль//Сістэмны вывад
+options.general.color.descriptor.console.warning:
+    text: Кансоль часопіса//Папярэджанне
+options.general.color.descriptor.deleted.lines:
+    text: Поле рэдактара//Выдаленыя радкі
+options.general.color.descriptor.gutter.background:
+    text: Рэдактар//Фон поля
+options.general.color.descriptor.hyperlink.followed:
+    text: Гіперспасылка//Навед
+options.general.color.descriptor.hyperlink.new:
+    text: Гіперспасылка//Ненавед
+options.general.color.descriptor.indent.guide:
+    text: Рэдактар//Гіды//Кіраўніцтва па водступах
+options.general.color.descriptor.indent.guide.selected:
+    text: Рэдактар//Накіроўвалыя//Выбранае кіраўніцтва па водступах
+options.general.color.descriptor.injected.language.fragment:
+    text: Код//Убудаваны фрагмент мовы
+options.general.color.descriptor.line.number:
+    text: Код // Нумары радкоў
+options.general.color.descriptor.modified.lines:
+    text: Поле рэдактара//Змененыя радкі
+options.general.color.descriptor.popups.documentation:
+    text: Усплывальныя вокны і падказкі//Дакументацыя
+options.general.color.descriptor.popups.error:
+    text: Усплывальныя вокны і падказкі//Памылка
+options.general.color.descriptor.popups.information:
+    text: Усплывальныя вокны і падказкі//Інфармацыя
+options.general.color.descriptor.popups.question:
+    text: Усплывальныя вокны і падказкі//Пытанне
+options.general.color.descriptor.popups.tooltip:
+    text: Усплывальныя вокны і падказкі // Падказка
+options.general.color.descriptor.readonly.fragment.background:
+    text: Тэкст//Фрагмент фону толькі для чытання
+options.general.color.descriptor.reference.hyperlink:
+    text: Гіперспасылка // Спасылка
+options.general.color.descriptor.right.margin:
+    text: Рэдактар//Гіды//Кіраўніцтва па жорсткай перадачы
+options.general.color.descriptor.selection.background:
+    text: Рэдактар//Выбар фону
+options.general.color.descriptor.selection.foreground:
+    text: Рэдактар//Вылучаны колер тэксту
+options.general.color.descriptor.separator.above:
+    text: Рэдактар//Раздзяляльнік уверсе
+options.general.color.descriptor.separator.below:
+    text: Рэдактар//Раздзяляльнік унізе
+options.general.color.descriptor.tearline:
+    text: Рэдактар ​​// Лінія падзелу
+options.general.color.descriptor.tearline.selected:
+    text: Рэдактар//Выдзеленая лінія падзелу
+options.general.color.descriptor.todo.defaults:
+    text: Код // TODO па змаўчанні
+options.general.color.descriptor.vcs.annotations:
+    text: Анатацыі СКВ//Тэкст
+options.general.color.descriptor.vcs.annotations.color.n:
+    text: 'Анатацыі SCV//Колер фону #{0}'
+options.general.color.descriptor.vcs.diff.type.tag.prefix:
+    text: Змененыя радкі //
+options.general.color.descriptor.visual.guides:
+    text: Рэдактар//Гайды//Візуальныя даведнікі
+options.general.color.descriptor.whitespaces:
+    text: Тэкст//Прабелы
+options.general.color.descriptor.whitespaces.modified.lines:
+    text: Поле рэдактара//Прабелы ў змененых радках
+options.general.color.soft.wrap.sign:
+    text: Тэкст//Сімвал мяккай абгорткі
+options.general.display.name:
+    text: Генерал
+options.html.attribute.descriptor.attribute.name:
+    text: Імя атрыбута
+options.html.attribute.descriptor.attribute.value:
+    text: Значэнне атрыбута
+options.html.attribute.descriptor.code:
+    text: HTML-код
+options.html.attribute.descriptor.comment:
+    text: Каментарый
+options.html.attribute.descriptor.entity.reference:
+    text: Спасылка на сутнасць
+options.html.attribute.descriptor.tag:
+    text: Тег
+options.html.attribute.descriptor.tag.name:
+    text: Імя тэга
+options.html.attribute.descriptor.tag.tree:
+    text: Дерево тегов (уровень {0})
+options.java.attribute.descriptor.abstract.class:
+    text: Классы і інтэрфейсы // Абстрактны клас
+options.java.attribute.descriptor.abstract.method:
+    text: Методы//Abstract метод
+options.java.attribute.descriptor.annotation.attribute.name:
+    text: Анатацыі // Імя атрыбута анатацыі
+options.java.attribute.descriptor.annotation.name:
+    text: Анатацыі//Назва анатацыі
+options.java.attribute.descriptor.anonymous.class:
+    text: Класы і інтэрфейсы//Ананімны клас
+options.java.attribute.descriptor.bad.character:
+    text: Няправільны сімвал
+options.java.attribute.descriptor.block.comment:
+    text: Каментары //Заблакіраваць каментар
+options.java.attribute.descriptor.braces:
+    text: Дужкі і аператары //Фігурныя дужкі
+options.java.attribute.descriptor.brackets:
+    text: Дужкі і аператары // Квадратныя дужкі
+options.java.attribute.descriptor.breakpoint.line:
+    text: Радок брэйкпоінта
+options.java.attribute.descriptor.class:
+    text: Класы і інтэрфейсы //Кл
+options.java.attribute.descriptor.comma:
+    text: Дужкі і аператары//Коска
+options.java.attribute.descriptor.constructor.call:
+    text: Метады //Выклік канструктара
+options.java.attribute.descriptor.constructor.declaration:
+    text: "Метады //Аб'ява канструктара"
+options.java.attribute.descriptor.deprecated.symbol:
+    text: Памылкі і папярэджанні // Састарэлы сімвал
+options.java.attribute.descriptor.dot:
+    text: Дужкі і аператары//Кропка
+options.java.attribute.descriptor.enum:
+    text: Класы і інтэрфейсы // Пералік
+options.java.attribute.descriptor.error:
+    text: Памылкі і папярэджанні//Памылка
+options.java.attribute.descriptor.errors.group:
+    text: Памылкі і папярэджанні//{0}
+options.java.attribute.descriptor.evaluated.expression:
+    text: Тэкст вылічанага выразу
+options.java.attribute.descriptor.evaluated.expression.execution.line:
+    text: Тэкст вылічанага выразу для радка выканання
+options.java.attribute.descriptor.execution.point:
+    text: Пункт выканання
+options.java.attribute.descriptor.implicit.anonymous.parameter:
+    text: Параметры//Няяўны параметр ананімнага класа
+options.java.attribute.descriptor.inherited.method:
+    text: Методы//Унаследованный метод
+options.java.attribute.descriptor.inline.parameter.hint:
+    text: Убудаваныя падказкі//Параметры//Па змаўчанні
+options.java.attribute.descriptor.inline.parameter.hint.highlighted:
+    text: Убудаваныя падказкі//Параметры//Выдзелена
+options.java.attribute.descriptor.inlined.values:
+    text: Убудаваныя значэнні
+options.java.attribute.descriptor.inlined.values.execution.line:
+    text: Убудаваныя значэнні для радка брэйкпоінта
+options.java.attribute.descriptor.inlined.values.modified:
+    text: Убудаваныя змененыя значэнні
+options.java.attribute.descriptor.instance.field:
+    text: Палі класа//Поле асобніка
+options.java.attribute.descriptor.instance.final.field:
+    text: Палі класа//Поле канчатковага асобніка
+options.java.attribute.descriptor.interface:
+    text: Класы і інтэрфейсы //Інтэрфейс
+options.java.attribute.descriptor.invalid.escape.in.string:
+    text: Радкі//Уцёкавыя паслядоўнасці//Няправільныя
+options.java.attribute.descriptor.javadoc.comment:
+    text: Каментары//JavaDoc//Тэкст
+options.java.attribute.descriptor.javadoc.markup:
+    text: Каментарыі//JavaDoc//Разметка
+options.java.attribute.descriptor.javadoc.tag:
+    text: Каментарыі//JavaDoc//Тэг
+options.java.attribute.descriptor.javadoc.tag.value:
+    text: Каментарыі//JavaDoc//Значэнне тэга
+options.java.attribute.descriptor.keyword:
+    text: Ключавое слова
+options.java.attribute.descriptor.lambda.parameter:
+    text: Параметры//Lambda параметр
+options.java.attribute.descriptor.line.comment:
+    text: Каментары // Радковы каментар
+options.java.attribute.descriptor.local.variable:
+    text: Пераменныя//Лакальная пераменная
+options.java.attribute.descriptor.marked.for.removal.symbol:
+    text: Памылкі і папярэджанні//Сімвал пазначаны для выдалення
+options.java.attribute.descriptor.matched.brace:
+    text: Код // Парная дужка
+options.java.attribute.descriptor.method.call:
+    text: Метады //Выклік метаду
+options.java.attribute.descriptor.method.declaration:
+    text: Метады //Дэкларацыя метадаў
+options.java.attribute.descriptor.not.top.frame:
+    text: Не верхні фрэйм
+options.java.attribute.descriptor.number:
+    text: Нумар
+options.java.attribute.descriptor.operator.sign:
+    text: Дужкі і аператары //Знак аператара
+options.java.attribute.descriptor.parameter:
+    text: Параметры // Параметр
+options.java.attribute.descriptor.parentheses:
+    text: Дужкі і аператары //Дужкі
+options.java.attribute.descriptor.reassigned.local.variable:
+    text: Пераменныя//Перапрысвоеная лакальная пераменная
+options.java.attribute.descriptor.reassigned.parameter:
+    text: Параметры//Перапрысвоены параметр
+options.java.attribute.descriptor.semicolon:
+    text: Дужкі і аператары//Кропка з коскай
+options.java.attribute.descriptor.server.duplicate:
+    text: Памылкі і папярэджанні//Дублікат з сервера
+options.java.attribute.descriptor.server.problems:
+    text: Памылкі і папярэджанні//Праблемы сервера
+options.java.attribute.descriptor.static.field:
+    text: Палі класа//Статычнае поле
+options.java.attribute.descriptor.static.final.field:
+    text: Палі класа // Канстанта (статычнае канчатковае поле)
+options.java.attribute.descriptor.static.method:
+    text: Метады //Статычны метад
+options.java.attribute.descriptor.string:
+    text: Радкі // Радковы літарал
+options.java.attribute.descriptor.type.parameter:
+    text: Параметры //Параметр тыпу
+options.java.attribute.descriptor.unknown.symbol:
+    text: Памылкі і папярэджанні//Невядомы персанаж
+options.java.attribute.descriptor.unmatched.brace:
+    text: Код // Няпарная дужка
+options.java.attribute.descriptor.unused.symbol:
+    text: Памылкі і папярэджанні // Нявыкарыстаны код
+options.java.attribute.descriptor.valid.escape.in.string:
+    text: Радкі//Паслядоўнасці ўцёкаў//Правільна
+options.java.attribute.descriptor.warning:
+    text: Памылкі і папярэджанні//Папярэджанне
+options.java.attribute.descriptor.weak.warning:
+    text: Памылкі і папярэджанні // Мяккае папярэджанне
+options.java.color.descriptor.full.coverage:
+    text: Ахоп радкоў//Поўны
+options.java.color.descriptor.method.separator.color:
+    text: Код//Колер падзельніка метадаў
+options.java.color.descriptor.none.coverage:
+    text: Ахоп радкоў//Няма
+options.java.color.descriptor.partial.coverage:
+    text: Пакрыццё радкоў//Частковае
+options.jsp.attribute.descriptor.attribute.name:
+    text: Імя атрыбута
+options.jsp.attribute.descriptor.attribute.value:
+    text: Значэнне атрыбута
+options.jsp.attribute.descriptor.directive.background:
+    text: Змесціва дзеянняў і дырэктыў
+options.jsp.attribute.descriptor.directive.name:
+    text: Імя дзеяння і дырэктывы
+options.jsp.attribute.descriptor.el.background:
+    text: Мова выразаў//Фон
+options.jsp.attribute.descriptor.el.bounds:
+    text: Мова выразаў//Межы
+options.jsp.attribute.descriptor.el.brackets:
+    text: Мова выразаў//Дужкі
+options.jsp.attribute.descriptor.el.comma:
+    text: Мова выразаў//Коска
+options.jsp.attribute.descriptor.el.dot:
+    text: Мова выразаў//Кропка
+options.jsp.attribute.descriptor.el.identifier:
+    text: Мова выразаў//Ідэнтыфікатар
+options.jsp.attribute.descriptor.el.keyword:
+    text: Мова выразаў//Ключавое слова
+options.jsp.attribute.descriptor.el.number:
+    text: Мова выразаў//Лік
+options.jsp.attribute.descriptor.el.parens:
+    text: Мова выразаў//Круглыя дужкі
+options.jsp.attribute.descriptor.el.string:
+    text: Мова выразаў//Радок
+options.jsp.attribute.descriptor.scripting.background:
+    text: Скрыпты
+options.language.defaults.block.comment:
+    text: Каментары //Заблакіраваць каментар
+options.language.defaults.braces:
+    text: Дужкі і аператары //Фігурныя дужкі
+options.language.defaults.brackets:
+    text: Дужкі і аператары // Квадратныя дужкі
+options.language.defaults.class.name:
+    text: Клас//Назва класа
+options.language.defaults.class.reference:
+    text: Клас //Спасылка на клас
+options.language.defaults.comma:
+    text: Дужкі і аператары//Коска
+options.language.defaults.constant:
+    text: Ідэнтыфікатары // Канстант
+options.language.defaults.display.name:
+    text: Налады мовы па змаўчанні
+options.language.defaults.doc.comment:
+    text: Каментарыі//Дакументальны каментарый//Тэкст
+options.language.defaults.doc.markup:
+    text: Каментары // Каментарыі да дакументацыі // Разметка
+options.language.defaults.doc.tag:
+    text: Каментары//Каментар да дакументацыі//Тэг
+options.language.defaults.doc.tag.value:
+    text: Каментары//Каментар да дакументацыі//Значэнне тэга
+options.language.defaults.dot:
+    text: Дужкі і аператары//Кропка
+options.language.defaults.function.call:
+    text: Ідэнтыфікатары//Выклік функцыі
+options.language.defaults.function.declaration:
+    text: Ідэнтыфікатары//Дэкларацыя функцыі
+options.language.defaults.global.variable:
+    text: Ідэнтыфікатары//Глабальная пераменная
+options.language.defaults.identifier:
+    text: Ідэнтыфікатары//Па змаўчанні
+options.language.defaults.instance.field:
+    text: Клас//Поле асобніка
+options.language.defaults.instance.method:
+    text: Клас//Метад асобніка
+options.language.defaults.interface.name:
+    text: Клас//Імя інтэрфейсу
+options.language.defaults.invalid.esc.seq:
+    text: Радкі//Уцёкавыя паслядоўнасці//Няправільныя
+options.language.defaults.keyword:
+    text: Ключавое слова
+options.language.defaults.label:
+    text: Ідэнтыфікатары//Этыкетка
+options.language.defaults.line.comment:
+    text: Каментары // Радковы каментар
+options.language.defaults.local.variable:
+    text: Ідэнтыфікатары//Лакальная зменная
+options.language.defaults.markup.attribute:
+    text: Разметка//Атрыбут
+options.language.defaults.markup.entity:
+    text: Разметка // Суб
+options.language.defaults.markup.tag:
+    text: Разметка // Тэг
+options.language.defaults.metadata:
+    text: Метададзеныя
+options.language.defaults.number:
+    text: Нумар
+options.language.defaults.operation:
+    text: Дужкі і аператары //Знак аператара
+options.language.defaults.parameter:
+    text: Ідэнтыфікатары//Параметр
+options.language.defaults.parentheses:
+    text: Дужкі і аператары //Дужкі
+options.language.defaults.predefined:
+    text: Ідэнтыфікатары // Зададзены сімвал
+options.language.defaults.semicolon:
+    text: Дужкі і аператары//Кропка з коскай
+options.language.defaults.shebang.comment:
+    text: Каментары // Каментар Shebang
+options.language.defaults.static.field:
+    text: Клас//статычнае поле
+options.language.defaults.static.method:
+    text: Клас//статычны метад
+options.language.defaults.string:
+    text: Радкі // Радковы літарал
+options.language.defaults.template.language:
+    text: Мова шаблонаў
+options.language.defaults.valid.esc.seq:
+    text: Радкі//Паслядоўнасці ўцёкаў//Правільна
+options.page.modified.save.message.text:
+    text: Старонка была зменена. Захаваць змены?
+options.properties.attribute.descriptor.comment:
+    text: Каментарый
+options.properties.attribute.descriptor.invalid.string.escape:
+    text: Недапушчальныя кодавыя пункты Unicode
+options.properties.attribute.descriptor.key.value.separator:
+    text: Раздзяляльнік ключ/значэнне
+options.properties.attribute.descriptor.property.key:
+    text: Ключ свойства
+options.properties.attribute.descriptor.property.value:
+    text: Значэнне ўласцівасці
+options.properties.attribute.descriptor.valid.string.escape:
+    text: Дапушчальнае экранаванне радка
+options.save.changes.message.title:
+    text: Захаванне змяненняў
+options.xml.attribute.descriptor.attribute.name:
+    text: Імя атрыбута
+options.xml.attribute.descriptor.attribute.value:
+    text: Значэнне атрыбута
+options.xml.attribute.descriptor.comment:
+    text: Каментарый
+options.xml.attribute.descriptor.prologue:
+    text: Пролог
+options.xml.attribute.descriptor.tag:
+    text: Тег
+options.xml.attribute.descriptor.tag.data:
+    text: Данные тега
+options.xml.attribute.descriptor.tag.name:
+    text: Імя тэга
+project.file.read.only.error.message:
+    text: |-
+        Файл праекта прызначаны толькі для чытання.
+        Настройкі не будуць захаваны, пакуль вы не зробіце файл даступным для запісу.
+properties.options.display.name:
+    text: Уласцівасці
+settings.panel.title:
+    text: Налады
+template.project.settings.display.name:
+    text: Налады шаблона праекта

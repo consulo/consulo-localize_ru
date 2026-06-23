@@ -1,0 +1,60 @@
+MavenDuplicateDependenciesInspection.has.duplicates:
+    text: '<html><body>依賴項在檔案 #treeend 中重複: {0} </body></html>'
+all.dependencies:
+    text: 所有依賴項
+children.poms.title:
+    text: 導航到子專案
+choose.project:
+    text: 選擇專案
+chooser.show.project.files:
+    text: 專案檔案
+dependencies.chooser.title:
+    text: 選擇依賴項
+fix.create.module:
+    text: 創建模組
+fix.create.module.with.parent:
+    text: 通過父項創建模組
+fix.open.file:
+    text: "開啟 ''{0}''"
+fix.parent.path:
+    text: 修復相對路徑
+fix.update.indices:
+    text: 更新 Maven 索引
+generate.dependency:
+    text: 生成依賴項
+generate.dependency.template:
+    text: 依賴項模板
+generate.managed.dependency:
+    text: 管理型依賴項
+generate.parent:
+    text: 父項
+generate.plugin.template:
+    text: 延伸模組模板
+generate.repository.template:
+    text: 儲存庫模板
+inspection.duplicate.dependencies.name:
+    text: 重複的依賴項
+inspection.group:
+    text: 清單
+inspection.name:
+    text: 採用未加密協議的鏈接
+inspection.redundant.groupId.name:
+    text: 冗餘 groupId
+intention.choose.file:
+    text: 選擇檔案
+navigate.children.poms.title:
+    text: 選擇專案
+navigate.parent.dependency.title:
+    text: 選擇要導航的目標依賴項
+navigate.parent.plugin.title:
+    text: 選擇要導航的目標延伸模組
+overriden.plugin.title:
+    text: "導航到 'pluginManagement' 部分"
+overriding.dependency.title:
+    text: 導航到依賴項用法
+overriding.plugin.title:
+    text: 導航到延伸模組用法
+parent.pom.title:
+    text: 導航到父項
+refactoring.introduce.property:
+    text: 引入屬性

@@ -1,0 +1,220 @@
+any.dialog.status:
+    text: Estado
+browse.button.tooltip:
+    text: Examinar archivo local
+browser.error:
+    text: Error del navegador
+browser.select.in.default.name:
+    text: Navegador web
+button.text.settings:
+    text: Configuración…
+cant.delete.file:
+    text: No se puede eliminar el archivo {0}
+cant.rename.file:
+    text: No se puede renombrar {0} a {1}
+chooser.title.select.profiles.ini.file:
+    text: Seleccionar archivo "profiles.ini"
+color.name:
+    text: nombre del color
+display.name.firefox.settings:
+    text: Configuración de Firefox
+emmet.configuration.title:
+    text: Emmet
+emmet.expand.abbreviation.with:
+    text: Expandir &abreviatura con
+filetype.description.xml:
+    text: XML
+generate.instance.document.from.schema.dialog.title:
+    text: Generar documento de instancia a partir del esquema
+generate.schema.from.instance.document.dialog.title:
+    text: Generar esquema desde documento de instancia
+global.elements.local.types.option.name:
+    text: elementos globales/tipos locales
+html.inspections.check.deprecated.tag:
+    text: Etiqueta obsoleta
+html.inspections.check.empty.script.message:
+    text: La etiqueta vacía no funciona en algunos navegadores
+html.inspections.check.empty.script.tag.fix.message:
+    text: Expandir etiqueta
+html.inspections.check.empty.tag:
+    text: Etiqueta vacía
+html.inspections.check.image.height.fix.message:
+    text: Establecer el valor de la altura en {0}
+html.inspections.check.image.height.message:
+    text: La altura de la imagen original es {0}
+html.inspections.check.image.size:
+    text: Tamaño de imagen no coincidente
+html.inspections.check.image.width.fix.message:
+    text: Establecer el valor de ancho a {0}
+html.inspections.check.image.width.message:
+    text: El ancho de la imagen original es {0}
+html.inspections.check.presentational.tag:
+    text: Etiqueta de presentación
+html.inspections.check.valid.script.tag:
+    text: "Contenido de la etiqueta 'script' con formato incorrecto"
+html.inspections.create.label.from.text.after.action:
+    text: Crear una nueva etiqueta a partir del texto después del elemento {0}
+html.inspections.create.label.from.text.before.action:
+    text: Crear una nueva etiqueta a partir del texto anterior al elemento {0}
+html.inspections.create.new.label:
+    text: Asociar una nueva etiqueta con el elemento {0}
+html.inspections.form.input.without.label:
+    text: Entrada de formulario sin una etiqueta o atributo title asociados
+html.inspections.non.existent.internet.resource.name:
+    text: Enlace web no resuelto
+html.inspections.unknown.anchor:
+    text: Fragmento sin resolver en un enlace
+html.inspections.unknown.attribute:
+    text: Atributo desconocido
+html.inspections.unknown.boolean.attribute:
+    text: Atributo booleano incorrecto
+html.inspections.unknown.tag:
+    text: Etiqueta desconocida
+html.inspections.unknown.tag.attribute.checkbox.title:
+    text: 'Atributos de etiquetas HTML personalizados:'
+html.inspections.unknown.tag.boolean.attribute.checkbox.title:
+    text: 'Atributos booleanos de etiquetas HTML personalizados:'
+html.inspections.unknown.tag.checkbox.title:
+    text: 'Etiquetas HTML personalizadas:'
+html.inspections.unknown.target:
+    text: Archivo no resuelto en un enlace
+html.quickdoc.additional.template:
+    text: Más información en el <a href="{0}">sitio web de MDN</a>.
+html.replace.tag.with.another.quickfix.text:
+    text: Reemplazar la etiqueta {0} por la etiqueta {1}
+html.replace.tag.with.css.quickfix.text:
+    text: Reemplazar la etiqueta {0} con CSS
+html5.outline.mode:
+    text: Esquema HTML5
+instance.document.file.is.not.exist:
+    text: El archivo de documento de la instancia no existe
+instance2schema.dialog.design.type:
+    text: 'Tipo de diseño:'
+instance2schema.dialog.detect.enumerations.limit:
+    text: 'Límite de detección de enumeraciones:'
+instance2schema.dialog.detect.simple.content.type:
+    text: 'Detectar tipo de contenido simple:'
+instance2schema.dialog.instance.document.path:
+    text: 'Ruta del documento de instancia:'
+invalid.number.validation.problem:
+    text: Número no válido
+jsp.inspections.group.name:
+    text: JSP
+label.text.path.to.profiles.ini:
+    text: 'Ruta a "profiles.ini":'
+label.text.profile:
+    text: '&Perfil:'
+local.elements.global.complex.types.option.name:
+    text: elementos locales/tipos complejos globales
+local.elements.types.option.name:
+    text: elementos/tipos locales
+namespace.alias:
+    text: taglib
+negative.number.validation.problem:
+    text: Número negativo
+no.class.in.selected.text.editor.error.message:
+    text: No hay ninguna clase en el editor de texto seleccionado.
+result.schema.file.name.is.empty.validation.problem:
+    text: El nombre de archivo del esquema de resultados está vacío
+schema2.instance.no.valid.root.element.name.validation.error:
+    text: El nombre del elemento raíz no es válido
+schema2.instance.output.file.name.is.empty.validation.problem:
+    text: El nombre del archivo de salida no es válido
+schema2instance.dialog.element.name:
+    text: 'Nombre del elemento:'
+schema2instance.dialog.enable.restriction.check:
+    text: Habilitar comprobación de restricciones
+schema2instance.dialog.enable.unique.check:
+    text: Habilitar comprobación de unicidad
+schema2instance.dialog.instance.document.name:
+    text: 'Nombre del documento de instancia:'
+schema2instance.dialog.schema.path:
+    text: 'Ruta del esquema:'
+select.xml.document.dialog.title:
+    text: Seleccionar documento XML
+select.xsd.schema.dialog.title:
+    text: Seleccionar esquema XSD
+settings.enable.html.xml.tag.tree.highlighting:
+    text: Habilitar el resaltado del árbol de etiquetas HTML/XML
+settings.levels.to.highlight:
+    text: 'Niveles para resaltar:'
+settings.opacity:
+    text: 'Opacidad:'
+tag.name.completion.display.name:
+    text: Completado de nombres de etiquetas
+tag.name.completion.hint:
+    text: Presione {0} para ver etiquetas de otros espacios de nombres
+url.is.empty.validation.problem:
+    text: La URL está vacía
+webservice.status.tooltip:
+    text: Estado de la configuración actual, errores de entrada, etc.
+xml.dtd.create.dtd.element.intention.name:
+    text: Crear declaración de elemento {0}
+xml.dtd.create.entity.intention.name:
+    text: Crear declaración de entidad {0}
+xml.inspections.check.dtd.references:
+    text: Referencia DTD no resuelta
+xml.inspections.check.file.with.xerces:
+    text: Error de validación externa
+xml.inspections.check.tag.empty.body:
+    text: Contenido de elemento vacío
+xml.inspections.duplicate.id:
+    text: "Atributo 'id' duplicado"
+xml.inspections.invalid.id:
+    text: "Referencia de 'id' no resuelta"
+xml.inspections.path.resolve:
+    text: Referencia de archivo no resuelta
+xml.inspections.tag.empty.body:
+    text: La etiqueta XML tiene el cuerpo vacío
+xml.inspections.unbound.prefix:
+    text: Prefijo de espacio de nombres no vinculado
+xml.inspections.unused.schema:
+    text: Declaración de esquema no utilizada
+xml.inspections.unused.schema.declaration:
+    text: La declaración del espacio de nombres nunca se utiliza
+xml.inspections.unused.schema.location:
+    text: La ubicación del espacio de nombres nunca se utiliza
+xml.javadoc.complex.type.message:
+    text: Tipo complejo
+xml.javadoc.description.message:
+    text: Descripción
+xml.javadoc.enumeration.value.message:
+    text: Valor de enumeración
+xml.javadoc.tag.name.message:
+    text: Nombre de etiqueta
+xml.javadoc.version.message:
+    text: Versión
+xml.validate.no.errors.detected.status.message:
+    text: No se detectaron errores
+xml.validate.tab.content.title:
+    text: Validar {0}
+xml.validate.validation.is.running.terminate.confirmation.text:
+    text: ¿Terminar validación?
+xml.validate.validation.is.running.terminate.confirmation.title:
+    text: Validación en curso
+xml2xsd.generator.error:
+    text: Error del generador de instancia a esquema
+xml2xsd.generator.error.message:
+    text: No se puede generar el esquema a partir del documento de instancia. Compruebe su documento XML.
+xmlbeans.designtype.tooltip:
+    text: Tipo de diseño de XMLSchema
+xmlbeans.enumerations.tooltip:
+    text: Detectar enumeración a partir del siguiente recuento
+xmlbeans.instance.document.name.tooltip:
+    text: Nombre del archivo del documento de instancia a generar
+xmlbeans.instance2schema.result.schema.name:
+    text: Nombre del archivo de esquema resultante
+xmlbeans.instance2schema.url.tooltip:
+    text: Ruta al documento de instancia
+xmlbeans.particle.valid.tooltip:
+    text: Habilitar regla de partícula válida (restricción)
+xmlbeans.rootelement.tooltip:
+    text: Elemento raíz para la generación de documentos de instancia
+xmlbeans.schema2instance.url.tooltip:
+    text: Ruta al esquema
+xmlbeans.simplecontenttype.tooltip:
+    text: Detección de tipos de contenido simple (texto de hoja)
+xmlbeans.unique.particle.tooltip:
+    text: Habilitar la regla de partícula única
+xmlbeans.url.tooltip:
+    text: Ruta al esquema o WSDL utilizado para la generación con XMLBeans

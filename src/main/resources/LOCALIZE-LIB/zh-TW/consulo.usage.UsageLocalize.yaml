@@ -1,0 +1,182 @@
+action.ShowSettings.show.find.usages.settings.dialog.description:
+    text: 顯示尋找用法設定對話框
+action.ShowSettings.show.settings.for.description:
+    text: 顯示 {0} 的設定
+action.close:
+    text: 關閉
+action.description.rerun:
+    text: 重新搜索
+action.group.by.file.structure:
+    text: 按檔案結構群組
+action.group.by.module:
+    text: 按模組群組
+action.group.by.package:
+    text: 按包群組
+action.group.by.title:
+    text: 分組依據
+action.group.by.usage.type:
+    text: 按使用類型群組
+action.merge.same.line:
+    text: 合併在同一行使用的
+action.next.occurrence:
+    text: 下一個出現位置
+action.previous.occurrence:
+    text: 上一個出現位置
+action.rerun:
+    text: 重試
+action.show.import.statements:
+    text: 顯示匯入語句
+action.show.read.access:
+    text: 顯示讀存取
+action.show.write.access:
+    text: 顯示寫存取
+action.text.usage.view.settings:
+    text: 設定…
+all.usages.are.in.this.line:
+    text: 所有在{1}的{0}使用,都在一行
+button.text.abort:
+    text: 放棄
+button.text.continue:
+    text: 繼續
+changes.detected.error.title:
+    text: 檢查變更
+dialog.button.ok:
+    text: 確定
+dialog.no.usages.found.in:
+    text: 在 {1}{2} 未找到 {0}
+dialog.rerun.search:
+    text: 您想現在重新搜索嗎？
+dialog.title.information:
+    text: 訊息
+files.are.too.large.large.and.cannot.be.scanned:
+    text: '{0,choice, 1#檔案|2#檔案} {1} {0,choice, 1#過大|2#過大}，無法掃描'
+find.excessive.usage.count.prompt:
+    text: '{0} {1} 是到目前為止找到的. 你確定要繼續嗎?'
+find.excessive.usages.title:
+    text: '{0} 太多'
+find.file.size.megabytes:
+    text: '{0} 兆位元組'
+link.display.name.find.options:
+    text: 尋找選項…
+link.display.name.search.in.project:
+    text: 在專案中搜尋
+message.include.them:
+    text: 將其包含
+message.occurrences.in.project.configuration.files.are.skipped:
+    text: 跳過專案設定檔案中的符合項。
+message.only.one.usage.found:
+    text: 只找到一個用法。
+message.part.number.of.unloaded.modules:
+    text: '{0} 個已移除模組'
+message.part.unloaded.module.0:
+    text: "已移除模組 ''{0}''"
+message.usage.search.was.canceled:
+    text: 用法搜尋被取消
+no.usages.found.in:
+    text: '{0} 沒有發現用例'
+node.found.usages:
+    text: 發現使用
+node.group.code.usages:
+    text: 代碼使用
+node.group.module:
+    text: '模組:'
+node.invalid:
+    text: 無效
+node.non.code.usages:
+    text: 沒有代碼使用
+node.readonly:
+    text: 唯讀
+node.targets:
+    text: 目標
+node.usages.in.generated.code:
+    text: 產生代碼的用法
+notification.title.find.usages.finished:
+    text: 尋找用法已完成
+notification.usage.search.is.not.available.until.indices.are.ready:
+    text: 在索引準備就緒前，用法搜尋不可用
+preview.usages.action.text:
+    text: 預覽 {0}
+progress.searching.for.in:
+    text: 在{1}{2}中搜索{0}...
+select.the.usage.to.preview:
+    text: 選取 {0} 預覽
+several.occurrences.selected:
+    text: |-
+        選取了多個檔案。
+        請從一個檔案中選取符合項來預覽。
+show.usages.advertisement:
+    text: "再次按 {0} 以在 ''{1}'' 中搜尋"
+show.usages.only.usage:
+    text: 唯一的使用在{0}
+sort.alphabetically.action.text:
+    text: 成員按字母排序
+usage.excluded:
+    text: 已排除
+usage.name:
+    text: 使用
+usage.target.exception:
+    text: 異常
+usage.type.annotation:
+    text: 批注
+usage.type.cast.target:
+    text: 使用在cast target type
+usage.type.catch.declaration:
+    text: Catch子語句參數宣告
+usage.type.class.object:
+    text: 使用在.class
+usage.type.comment:
+    text: 用在註解中
+usage.type.delegate.to.another.instance.method:
+    text: 委託至另一個實例方法
+usage.type.delegate.to.another.instance.method.parameters.changed:
+    text: 委託至另一個實例方法，參數已更改
+usage.type.delegate.to.super.method:
+    text: 委託至 super 方法
+usage.type.delegate.to.super.method.parameters.changed:
+    text: 委託至 super 方法，參數已更改
+usage.type.extends:
+    text: 使用在extends/implements子句
+usage.type.field.declaration:
+    text: 欄位宣告
+usage.type.import:
+    text: 使用在匯入
+usage.type.instanceof:
+    text: 使用在instanceof
+usage.type.local.declaration:
+    text: 局部變數宣告
+usage.type.nested.class:
+    text: 巢狀類別入口
+usage.type.new:
+    text: 建立新實例
+usage.type.new.anonymous:
+    text: 建立新匿名繼承
+usage.type.new.array:
+    text: 建立新陣列
+usage.type.parameter.declaration:
+    text: 方法的參數宣告
+usage.type.read:
+    text: 讀值
+usage.type.recursion:
+    text: 遞歸
+usage.type.return:
+    text: 方法的返回類型
+usage.type.static.member:
+    text: 類別靜態成員入口
+usage.type.string.constant:
+    text: 用在字串中
+usage.type.throws.list:
+    text: 拋出方法的清單
+usage.type.type.parameter:
+    text: 類型參數
+usage.type.unclassified:
+    text: 未能編類別使用
+usage.type.write:
+    text: 寫值
+usage.view.cancel.button:
+    text: 取消
+usage.view.counter:
+    text: '{0} 個{0, choice, 1#結果|2#結果}'
+usages.title:
+    text: 用法
+usages.were.filtered.out:
+    text: '{0,number} {0,choice, 1#usage was|2#usages were} 過濾出'

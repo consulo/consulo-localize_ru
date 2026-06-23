@@ -1,0 +1,853 @@
+action.AnActionButton.Template.list.text.duplicate:
+    text: 复制
+action.ToggleInlineHintsAction.text:
+    text: 切换参数名称提示
+action.text.move:
+    text: 移动
+block.comment.intersects.existing.comment:
+    text: 所选区域与现有注释相交
+block.comment.nested.comment:
+    text: |-
+        选定区域包含块注释 {0, choice, 1#注释|2#注释},
+        周围的范围被注释。
+block.comment.wrapping.suffix:
+    text: 所选区域包含块注释后缀
+cast.expression:
+    text: 插入转换表达式
+cast.to.0:
+    text: "转换为''{0}''"
+choose.type.popup.title:
+    text: 选择类型
+class.completion.file.path:
+    text: 按 {0} 再次搜索所有匹配的项目文件
+class.completion.file.path.all.variants:
+    text: 按 {0} 搜索任何类型的匹配文件
+code.coverage:
+    text: 代码覆盖率
+code.coverage.is.not.supported:
+    text: 代码覆盖率支持jre 5.0或更高
+command.expand.postfix.template:
+    text: 展开后缀模板
+command.fix.documentation:
+    text: 修复文档
+command.name.surround.with.runtime.cast:
+    text: 使用运行时转换包围
+command.name.typing:
+    text: 输入
+command.rearrange.code:
+    text: 重新排列代码
+command.wrap.with.template:
+    text: 使用模板包装
+completion.automatic.command.name:
+    text: 自动补全
+copy.abstract.method.intention.name:
+    text: "使用现有实现''{0}''"
+copy.abstract.method.no.existing.implementations.found:
+    text: 没有找到现有的实现
+copy.abstract.method.popup.title:
+    text: 选择要复制的实现
+copy.abstract.method.title:
+    text: 使用 abstract 方法实现
+coverage.button.add.package:
+    text: 添加包
+coverage.data.not.found:
+    text: 未找到覆盖率数据
+coverage.data.outdated:
+    text: 覆盖率数据已过期
+coverage.pattern.filter.editor.choose.package.title:
+    text: 选择软件包
+create.directory.command:
+    text: 创建目录
+create.directory.text:
+    text: 创建目录 {0}
+create.file.family:
+    text: 创建文件
+create.file.text:
+    text: 创建文件 {0}
+create.tagfile.text:
+    text: 创建标记文件 {0}
+deannotate.intention.action.text:
+    text: 取消注解 {0}
+deannotate.intention.chooser.title:
+    text: 选择要删除的注解
+declaration.navigation.title:
+    text: 选择声明
+dialog.add.live.template.title:
+    text: 添加模版
+dialog.copy.live.template.title:
+    text: 复制现有模版
+dialog.create.class.destination.package.label:
+    text: '目标软件包:'
+dialog.create.class.label:
+    text: '创建 {0}:'
+dialog.create.class.name:
+    text: 创建{0}{1}
+dialog.create.class.package.chooser.title:
+    text: 选择目标软件包
+dialog.create.field.from.parameter.already.exists.text:
+    text: "使用现有的字段 ''{0}''?"
+dialog.create.field.from.parameter.already.exists.title:
+    text: 字段已经存在
+dialog.create.field.from.parameter.declare.final.checkbox:
+    text: final声明
+dialog.create.field.from.parameter.field.name.label:
+    text: '名字:'
+dialog.create.field.from.parameter.field.type.label:
+    text: '字段的类型:'
+dialog.create.field.from.parameter.title:
+    text: 创建字段
+dialog.edit.live.template.title:
+    text: 编辑模版
+dialog.edit.template.applicable.in.contexts:
+    text: 适用于 {0}
+dialog.edit.template.button.edit.variables:
+    text: 编辑变量(&E)…
+dialog.edit.template.checkbox.html.text:
+    text: HTML文本
+dialog.edit.template.checkbox.reformat.according.to.style:
+    text: 按照样式重新设置格式(&R)
+dialog.edit.template.checkbox.shorten.fq.names:
+    text: 缩短完全限定名称(&F)
+dialog.edit.template.checkbox.smart.type.completion:
+    text: 类型匹配补全(&O)
+dialog.edit.template.checkbox.use.static.import:
+    text: 尽可能使用静态导入(&I)
+dialog.edit.template.checkbox.xsl.text:
+    text: XSL文本
+dialog.edit.template.context.other:
+    text: 其他
+dialog.edit.template.context.title:
+    text: 上下文
+dialog.edit.template.error.already.exists:
+    text: 不能保存模板.模板与缩写"{0}"已经存在于集团"{1}".请选择一个不同的缩写或组.
+dialog.edit.template.error.malformed.abbreviation:
+    text: 不能保存模板.模板缩写应该只包含字母,数字和连字符,点.
+dialog.edit.template.error.title:
+    text: 无法保存
+dialog.edit.template.label.abbreviation:
+    text: '缩写(&B):'
+dialog.edit.template.label.description:
+    text: '描述(&D):'
+dialog.edit.template.label.expand.with:
+    text: 展开方式(&X)
+dialog.edit.template.label.group:
+    text: '组(&G):'
+dialog.edit.template.no.applicable.contexts:
+    text: 无适用上下文
+dialog.edit.template.options.title:
+    text: 选项
+dialog.edit.template.shortcut.default:
+    text: 默认({0})
+dialog.edit.template.template.text.title:
+    text: '模板文本(&T):'
+dialog.import.on.paste.title:
+    text: 选择要导入的类
+dialog.import.on.paste.title2:
+    text: 选择要导入的元素
+dialog.intention.settings.description.panel.title:
+    text: 描述
+dialog.intention.settings.description.usage.example.title:
+    text: 使用方法
+dialog.intention.settings.intention.list.title:
+    text: 意向表
+dialog.paste.on.import.text:
+    text: <html>您所粘贴的代码段使用了在新上下文中无法通过导入访问的类。<br/>请选择要导入到新文件中的类。</html>
+dialog.paste.on.import.text2:
+    text: <html>您所粘贴的代码段使用了在新上下文中无法通过导入访问的元素。<br/>请选择要导入到新文件中的元素。</html>
+dialog.reformat.files.optimize.imports.checkbox:
+    text: 优化 import(&O)
+dialog.reformat.files.reformat.selected.files.label:
+    text: 重新设置所选文件的格式?
+dialog.reformat.files.title:
+    text: 重新设置文件格式
+dialog.title.expressions:
+    text: 表达式
+dialog.title.move.to.a.new.group:
+    text: 移至新组
+dialog.title.rename:
+    text: 重命名
+disable.intention.action:
+    text: "禁用 ''{0}''"
+display.coverage.prompt:
+    text: "是否要显示 ''{0}'' 的覆盖率数据?"
+documentation.message.documentation.is.not.available:
+    text: 在构建索引前，文档不可用。
+enable.intention.action:
+    text: "启用 ''{0}''"
+error.attempt.to.generate.constructor.for.anonymous.class:
+    text: 不能添加构造函数到匿名类
+error.cannot.convert.default.message:
+    text: "无效的值：''{0}''"
+error.cannot.resolve.0.1:
+    text: "无法解析{0}''{1}''"
+error.cannot.resolve.class:
+    text: "无法解析类 ''{0}''"
+error.dialog.readonly.file.title:
+    text: 文件为只读文件
+error.dialog.readonly.files.message:
+    text: |-
+        {0} 包含只读文件。
+        还要处理所有其他文件？
+error.dialog.readonly.files.title:
+    text: 不能修改只读文件
+error.hint.file.is.readonly:
+    text: 文件 {0} 为只读文件
+error.unknown.enum.value.message:
+    text: "未知的枚举值''{0}''"
+finish.template.command:
+    text: 完成模板
+generate.constructor.fields.chooser.title:
+    text: 选择要通过构造函数初始化的字段
+generate.constructor.super.constructor.chooser.title:
+    text: 选择超类构造函数
+generate.delegate.method.chooser.title:
+    text: 选择要为其生成委托的方法
+generate.delegate.target.chooser.title:
+    text: 选择目标生成的代表
+generate.equals.and.hashcode.already.defined.title:
+    text: 生成equals()和hashCode()
+generate.equals.and.hashcode.already.defined.warning:
+    text: 除它们,继续吗?
+generate.equals.and.hashcode.already.defined.warning.anonymous:
+    text: 方法的布尔equals(对象)"和"int hashCode()"已经definedfor这个匿名类.你想删除它们,继续吗?
+generate.equals.and.hashcode.error.no.object.class.message:
+    text: 无法生成equals()和hashCode()。未找到java.lang.Object类。
+generate.equals.and.hashcode.error.no.object.class.title:
+    text: 没有java.lang.Object
+generate.equals.compare.arrays.comment:
+    text: //可能不正确 - 使用 Arrays.equals 比较 Object[] 数组
+generate.equals.compare.nested.arrays.comment:
+    text: //比较嵌套数组 - 此处 {0} 的值
+generate.equals.hashcode.accept.sublcasses:
+    text: 接受子类作为 equals() 方法的形参(&S)
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>虽然通常不符合 Object.equals() 的约定，<br>但要使生成的方法与生成代理子类的框架(如 Hibernate)一起正常工作，<br>可能需要接受子类。</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: 选择要包含在 equals() 中的字段(&F)
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: 选择要包含在 hashCode() 中的字段(&F)
+generate.equals.hashcode.internal.error:
+    text: 内部错误
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: 选择所有非 null 字段(&F)
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: hashCode()不支持数组
+generate.equals.hashcode.wizard.title:
+    text: 生成 equals() 和 hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals()不支持嵌套的数组
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: 生成的Object[]的equals()可能不正确
+generate.getter.fields.chooser.title:
+    text: 选择要生成 Getter 的字段
+generate.getter.setter.title:
+    text: 选择要生成 Getter 和 Setter 的字段
+generate.list.popup.title:
+    text: 生成
+generate.setter.fields.chooser.title:
+    text: 选择要生成 Setter 的字段
+goto.implementation.chooserTitle:
+    text: <html><body>选择<b>{0}</b>的实现方法 ({1} found{2})</body></html>
+goto.implementation.findUsages.title:
+    text: '{0} 的实现'
+goto.implementation.notFound:
+    text: 未找到任何实现
+goto.super.class.chooser.title:
+    text: 选择超类
+goto.super.method.chooser.title:
+    text: 选择 super 方法
+goto.super.method.findUsages.title:
+    text: '{0} 的 super 方法'
+goto.test.chooserTitle.subject:
+    text: <html><body>选择<b>{0}</b>的测试主体({1} 已找到{2})</body></html>
+goto.test.chooserTitle.test:
+    text: <html><body>选择<b>{0}</b>的测试({1} 已找到{2})</body></html>
+goto.test.findUsages.subject.title:
+    text: '{0} 的测试主体'
+goto.test.findUsages.test.title:
+    text: '{0} 的测试'
+goto.test.notFound:
+    text: 未找到任何测试主体
+highlight.exceptions.thrown.chooser.title:
+    text: 选择异常类以高亮显示
+highlight.overridden.classes.chooser.title:
+    text: 选择高亮显示其中重写的方法的类
+highlight.thrown.exceptions.chooser.all.entry:
+    text: 列出的全部
+hint.text.imports.optimized:
+    text: 导入已优化
+i18n.quickfix.code.panel.resource.bundle.expression.label:
+    text: 资源绑定表达式:(&E)
+i18n.quickfix.code.panel.title:
+    text: Java代码信息
+i18n.quickfix.preview.panel.title:
+    text: 预览
+i18n.quickfix.property.panel.properties.file.label:
+    text: 属性文件:(&P)
+i18n.quickfix.property.panel.property.key.label:
+    text: 属性键:(&K)
+i18n.quickfix.property.panel.property.value.label:
+    text: 属性值:(&V)
+i18n.quickfix.property.panel.title:
+    text: 属性信息
+i18n.quickfix.property.panel.update.all.files.in.bundle.checkbox:
+    text: 更新资源包中的所有属性文件(&R)
+i18nize.cant.create.properties.file.because.its.name.is.associated:
+    text: "不能创建属性文件 ''{0}''，因为它的名称与 {1} 相关。"
+i18nize.dialog.error.jdk.message:
+    text: "找不到类'java.util.ResourceBundle'。请正确安装JDK。"
+i18nize.dialog.error.jdk.title:
+    text: 类未找到
+i18nize.dialog.error.property.already.defined.message:
+    text: "属性''{0}''已经在文件''{1}''中存在"
+i18nize.dialog.error.property.already.defined.title:
+    text: 属性已经存在
+i18nize.dialog.property.file.chooser.title:
+    text: 选择属性文件
+i18nize.dialog.template.link.label:
+    text: 编辑I18n模板
+i18nize.dialog.title:
+    text: 国际化硬编码字符串
+i18nize.empty.file.path:
+    text: 请指定属性的文件路径
+i18nize.error.creating.properties.file:
+    text: 创建属性文件出错
+i18nize.error.message:
+    text: |-
+        您只能国际化 Java 字符串文字或其子字符串。
+        请将文本光标置于 Java 字符串文字内或选择它的一部分。
+i18nize.error.title:
+    text: 不能I18nize选择
+i18nize.jsp.error:
+    text: |-
+        请选择要国际化的 JSP 文本。
+        确保您没有选择任何脚本、自定义标记或其他外语元素。
+        同时，选区中的 HTML 标记必须平衡。
+implementation.view.title:
+    text: '{0} 的定义'
+incremental.search.tooltip.prefix:
+    text: '搜索:'
+inlay.hints.base.exclude.list.description:
+    text: 默认情况下应用的 {0} 排除列表
+inlay.hints.disable.action.text:
+    text: 禁用提示
+inlay.hints.disable.option:
+    text: "禁用 ''{0}''"
+inlay.hints.enable.action.text:
+    text: 启用形参名称提示
+inlay.hints.exclude.list.method:
+    text: 不显示当前方法的提示
+inlay.hints.show.settings:
+    text: "禁用方法 ''{0}'' 的提示"
+insert.code.template.command:
+    text: 插入代码模板
+inspection.error.dialog.title:
+    text: 错误
+inspection.i18n.display.name:
+    text: 硬编码字符串
+inspection.i18n.expression.is.invalid.error.message:
+    text: I18nized表达式模板的不是一个有效的表达式
+inspection.i18n.message.general.with.value:
+    text: 硬编码字符串:{0}
+inspection.i18n.option.ignore.assert:
+    text: 忽略断言语句参数
+inspection.i18n.option.ignore.assigned.to.constants:
+    text: 忽略文字分配常数
+inspection.i18n.option.ignore.comment.pattern:
+    text: '忽略线路包含该评论(模式在java跑龙套.模式格式):'
+inspection.i18n.option.ignore.comment.title:
+    text: 非nls评论模式
+inspection.i18n.option.ignore.for.exception.constructor.arguments:
+    text: '忽略异常构造函数参数:'
+inspection.i18n.option.ignore.for.junit.assert.arguments:
+    text: 忽视对JUnit断言参数
+inspection.i18n.option.ignore.for.specified.exception.constructor.arguments:
+    text: 忽视对指定的异常构造函数参数
+inspection.i18n.option.ignore.nonalphanumerics:
+    text: 忽略文字不包含字母字符
+inspection.i18n.option.ignore.property.keys:
+    text: 忽略文字具有价值等于现有的属性键
+inspection.i18n.option.ignore.qualified.class.names:
+    text: 忽略文字具有价值等于现有的完全限定类名
+inspection.i18n.option.ignore.tostring:
+    text: 忽略toString()方法的内容
+inspection.i18n.quickfix:
+    text: I18nize硬编码字符串
+inspection.i18n.quickfix.annotate.as:
+    text: "注解为 ''@{0}''"
+inspection.i18n.quickfix.annotate.element.as:
+    text: "将{0} ''{1}'' 注解为 ''@{2}''"
+inspection.invalid.resource.bundle.reference:
+    text: "无效的资源包引用''{0}''"
+inspection.unresolved.property.key.reference.message:
+    text: "''{0}'' 似乎不是有效的属性键"
+inspection.unresolved.property.key.reference.name:
+    text: 无效属性健
+intention.add.annotation.family:
+    text: 添加注解
+intention.add.on.demand.static.import.family:
+    text: 添加按需 static import
+intention.add.on.demand.static.import.text:
+    text: "为 ''{0}'' 添加按需 static import"
+intention.add.override.annotation:
+    text: "添加'@Override'的注释"
+intention.add.override.annotation.family:
+    text: 添加Override注释
+intention.add.single.member.static.import.family:
+    text: 添加单成员 static import
+intention.add.single.member.static.import.text:
+    text: "为 ''{0}'' 添加 static import"
+intention.assign.field.from.parameter.family:
+    text: 分配形参场
+intention.assign.field.from.parameter.text:
+    text: "将形参分配给字段 ''{0}''"
+intention.bind.fields.from.parameters.family:
+    text: 将形参绑定到字段
+intention.bind.fields.from.parameters.text:
+    text: 将 {0} 个形参绑定到字段
+intention.break.string.on.line.breaks.text:
+    text: "在 '\\n' 上断开字符串"
+intention.color.chooser.dialog:
+    text: 选择颜色
+intention.convert.color.representation.family:
+    text: 转换颜色表示
+intention.convert.color.representation.text:
+    text: "转换为''新颜色{0}''"
+intention.convert.to.basic.latin:
+    text: 转换为基本的拉丁
+intention.create.field.from.parameter.family:
+    text: 创建字段形参
+intention.create.field.from.parameter.text:
+    text: "为形参 ''{0}'' 创建字段"
+intention.create.test:
+    text: 创建测试
+intention.create.test.dialog.choose.super.class:
+    text: 选择超类
+intention.create.test.dialog.class.name:
+    text: '类名:'
+intention.create.test.dialog.fix.library:
+    text: 修正
+intention.create.test.dialog.generate:
+    text: '生成:'
+intention.create.test.dialog.language:
+    text: '语言:'
+intention.create.test.dialog.library.not.found:
+    text: '{0}库在该模块中未找到'
+intention.create.test.dialog.select.methods:
+    text: '为以下对象生成测试方法(&M):'
+intention.create.test.dialog.show.inherited:
+    text: 显示继承的方法(&I)
+intention.create.test.dialog.super.class:
+    text: '超类:'
+intention.create.test.dialog.testing.library:
+    text: '测试库(&L):'
+intention.edit.interceptor.binding.family:
+    text: 拦截器绑定
+intention.edit.interceptor.binding.text:
+    text: 编辑拦截"{0}"绑定
+intention.encapsulate.field.text:
+    text: 封装领域
+intention.error.cannot.create.class.message:
+    text: "无法创建类''{0}''"
+intention.error.cannot.create.class.title:
+    text: 创建类失败
+intention.extract.if.condition.family:
+    text: 提取if条件
+intention.extract.if.condition.text:
+    text: 提取if({0})
+intention.implement.abstract.class.default.text:
+    text: 实现抽象类
+intention.implement.abstract.class.family:
+    text: 实现抽象类或接口
+intention.implement.abstract.class.interface.text:
+    text: 实现接口
+intention.implement.abstract.class.subclass.text:
+    text: 创建子类
+intention.implement.abstract.method.class.chooser.title:
+    text: 选择实现类
+intention.implement.abstract.method.command.name:
+    text: 实现方法
+intention.implement.abstract.method.error.no.classes.message:
+    text: 没有发现这类方法可以实现
+intention.implement.abstract.method.error.no.classes.title:
+    text: 没有找到的类
+intention.implement.abstract.method.family:
+    text: 实现 abstract 方法
+intention.implement.abstract.method.searching.for.descendants.progress:
+    text: 正在搜索后代…
+intention.implement.abstract.method.text:
+    text: "实现方法 ''{0}''"
+intention.insert.literal.underscores:
+    text: 插入到文字的下划线
+intention.intercept.ejb.method.or.class.class.text:
+    text: "为 EJB 类 ''{0}'' 添加拦截器"
+intention.intercept.ejb.method.or.class.family:
+    text: 添加 EJB 拦截器
+intention.intercept.ejb.method.or.class.method.text:
+    text: "为业务方法 ''{0}'' 添加拦截器"
+intention.introduce.variable.text:
+    text: 引入局部变量
+intention.invert.if.condition:
+    text: "反转 'if' 条件"
+intention.make.type.generic.family:
+    text: 使类型通用
+intention.make.type.generic.text:
+    text: 变化类型的{0},{1}
+intention.move.field.assignment.to.declaration:
+    text: 移动指派到字段声明
+intention.move.initializer.to.constructor:
+    text: 将初始值设定项移至构造函数
+intention.move.initializer.to.set.up:
+    text: 将初始值设定项移至 setUp 方法
+intention.override.method.text:
+    text: "重写方法 ''{0}''"
+intention.remove.literal.underscores:
+    text: 移除下划线文字
+intention.replace.cast.with.var.family:
+    text: 用变量替换转换
+intention.replace.cast.with.var.text:
+    text: 用"{1}"替换"{0}"
+intention.replace.concatenation.with.formatted.output.family:
+    text: 更换连接与格式化输出
+intention.replace.concatenation.with.formatted.output.text:
+    text: "用 'java.text.MessageFormat.format()' 替换 '"
+intention.settings:
+    text: 意图
+intention.settings.category.text:
+    text: 您已选择意图类别 <b>{0}</b>。<br>点击复选框，您可以启用/禁用此类别中的所有意图。<br>要启用/禁用特定意图，请在此类别中选择意图。
+intention.split.declaration.assignment.text:
+    text: 拆分为声明和赋值
+intention.split.declaration.family:
+    text: 拆分声明
+intention.split.declaration.text:
+    text: 拆分为分开的声明
+intention.split.if.family:
+    text: 分裂如果
+intention.split.if.text:
+    text: "拆分为 2 条 'if' 语句"
+intention.surround.resource.with.ARM.block:
+    text: 使用 try-with-resources 包围
+intention.underscores.in.literals.family:
+    text: 凸显了在数字字面值
+javadoc.action.back:
+    text: 后退
+javadoc.action.forward:
+    text: 前进
+javadoc.action.view.external:
+    text: 查看外部文档
+javadoc.candidates.not.found:
+    text: <html>找不到方法调用 <b>{0}</b> 的候选者。</html>
+javadoc.deprecated:
+    text: 已弃用
+javadoc.description.copied.from.class:
+    text: '来自类:'
+javadoc.description.copied.from.interface:
+    text: '来自接口:'
+javadoc.error.resolving.url:
+    text: 无法解析 URL <i>{0}</i> <p>在<a href="open://Project Settings">项目设置</a>中配置 API 文档的路径可能有所帮助
+javadoc.external.fetch.error.message:
+    text: '无法提取远程文件: 内部错误'
+javadoc.fetching.progress:
+    text: 正在提取文档…
+javadoc.method.in.class:
+    text: '{0}在类{1}里边'
+javadoc.method.in.interface:
+    text: 接口 {1} 中的 {0}
+javadoc.method.overrides:
+    text: '重写:'
+javadoc.method.specified.by:
+    text: '指定的:'
+javadoc.parameters:
+    text: '形参:'
+javadoc.returns:
+    text: '返回值:'
+javadoc.see.also:
+    text: '请参阅:'
+javadoc.since:
+    text: '自:'
+javadoc.throws:
+    text: '抛出:'
+javadoc.type.parameters:
+    text: '类型形参:'
+label.enter.the.new.group.name:
+    text: '输入新的组名称:'
+lightbulb.tooltip:
+    text: 点击或按 {0}
+link.change.context:
+    text: 更改
+link.define.context:
+    text: 定义
+livetemplate.description.itar:
+    text: 遍历数组元素
+livetemplate.description.iter:
+    text: 迭代可迭代对象或数组
+livetemplate.description.itover:
+    text: 遍历一个数组选择J2SDK Iterable或在5.0语法
+livetemplate.description.itve:
+    text: 遍历java.util.Vector元素
+livetemplate.description.ritar:
+    text: 以相反顺序遍历数组元素
+livetemplate.description.soutp:
+    text: 将函数形参名称和值打印到 System.out
+livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
+    text: 使用 CDATA 部分包围
+livetemplate.description.surround.parens:
+    text: 环绕用()
+livetemplate.description.surround.tag:
+    text: 使用 <tag></tag> 包围
+livetemplate.description.surround.tag.in.htmlorjsp:
+    text: 环绕用<tag></tag>在HTML/JSP
+livetemplate.description.tag.pair:
+    text: 一对标签
+methods.to.implement.chooser.title:
+    text: 选择要实现的方法
+methods.to.override.chooser.title:
+    text: 选择要重写的方法
+methods.to.override.implement.chooser.title:
+    text: 选择覆盖/实现的方法
+multiple.implementations.tooltip:
+    text: 多个实现
+no.coverage:
+    text: 没有覆盖
+no.documentation.found:
+    text: 未找到任何文档。
+no.methods.overriding.0.are.found:
+    text: 没有发现重写 {0, choice, 0#|1#“{1}”|2#这些类} 的方法
+node.annotation.tooltip:
+    text: 注解
+node.anonymous.class.tooltip:
+    text: 匿名类
+node.class.tooltip:
+    text: 类
+node.enum.tooltip:
+    text: 枚举
+node.exception.tooltip:
+    text: 异常
+node.excluded.flag.tooltip:
+    text: 排除
+node.field.tooltip:
+    text: 字段
+node.interface.tooltip:
+    text: 接口
+node.junit.test.tooltip:
+    text: JUnit测试
+node.method.tooltip:
+    text: 方法
+node.runnable.class.tooltip:
+    text: Runnable类
+override.implement.broken.file.template.message:
+    text: 请更正“重写/实现的方法体”模板
+override.implement.broken.file.template.title:
+    text: 文件模板错误
+parameter.info.progress.title:
+    text: 正在计算形参信息…
+parameter.info.switch.overload.shortcuts:
+    text: 使用 {0} 或 {1} 切换
+parameter.info.switch.overload.shortcuts.single:
+    text: 使用 {0} 切换
+paste.data.flavor.folding:
+    text: 折叠数据
+paste.dataflavor.referencedata:
+    text: 参考数据
+popup.title.next.error.action.0.goes.through:
+    text: '“下一个错误”操作{0}将作用于:'
+postfix.live.template.title:
+    text: 后缀
+postfix.template.description.under.construction:
+    text: 正在构建
+powered.by:
+    text: 启动by
+powered.by.plugin:
+    text: "''{0}''插件."
+process.optimize.imports:
+    text: 优化 import
+process.optimize.imports.before.commit:
+    text: 提交前优化 import
+process.rearrange.code:
+    text: 正在重新排列代码…
+process.rearrange.code.before.commit:
+    text: 提交前重新排列代码
+process.reformat.code:
+    text: 重新设置代码格式
+process.reformat.code.before.commit:
+    text: 提交前重新设置代码格式
+process.scope.changed.files:
+    text: 只处理 VCS 更改的文件
+process.scope.directory:
+    text: "目录 ''{0}''"
+process.scope.file:
+    text: 文件 {0}
+process.scope.module:
+    text: "模块 ''{0}''"
+process.scope.project:
+    text: "项目 ''{0}''"
+progress.reformat.and.optimize.common.command.text:
+    text: 重新设置格式并优化 import
+progress.reformat.stage.applying.changes:
+    text: 正在存储更改…
+progress.reformat.stage.processing.blocks:
+    text: 正在计算更改…
+progress.reformat.stage.wrapping.blocks:
+    text: 正在准备…
+progress.text.optimizing.imports:
+    text: 正在优化导入…
+prompt.remove.coverage:
+    text: 你要删除"{0}"覆盖率数据吗?
+property.has.more.parameters.than.passed:
+    text: "属性 ''{0}'' 预期 {1} 个{1, choice, 1#形参|2#形参}，已传递 {2} 个"
+quick.definition.back:
+    text: 后退
+quick.definition.edit.source:
+    text: 编辑源
+quick.definition.forward:
+    text: 前进
+quick.definition.show.source:
+    text: 显示源代码
+quickfix.add.variable.family.name:
+    text: 初始化变量
+quickfix.add.variable.text:
+    text: "初始化变量 ''{0}''"
+quickfix.i18n.concatentation:
+    text: I18nize 串联
+quickfix.i18n.concatentation.error:
+    text: 字符串连接没有找到
+reformat.code.accept.button.text:
+    text: 运行
+reformat.directory.dialog.filters:
+    text: 筛选器
+reformat.directory.dialog.options:
+    text: 选项
+reformat.option.all.files.in.directory:
+    text: 所有文件在目录 {0}
+reformat.option.include.subdirectories:
+    text: 包含子目录
+reformat.option.optimize.imports:
+    text: 优化导入(&O)
+reformat.option.rearrange.entries:
+    text: 重新排列条目(&R)
+reformat.option.selected.text:
+    text: 选中的文本
+reformat.option.vcs.changed.region:
+    text: 仅未提交到 VCS 的更改(&V)
+reformat.progress.common.text:
+    text: 正在重新设置代码格式…
+reformat.progress.file.with.known.name.text:
+    text: 正在重新设置 {0} 的格式
+remove.annotation:
+    text: 移除注解
+remove.catch:
+    text: 移除 catch 块
+remove.else:
+    text: "移除 'else...'"
+rename.element.family:
+    text: 重命名元素
+rename.file.fix:
+    text: 重命名文件
+rename.file.reference.family:
+    text: 重命名文件引用
+rename.file.reference.text:
+    text: 将文件引用重命名为{0}
+rename.named.element.text:
+    text: "将 ''{0}'' 重命名为 ''{1}''"
+rename.public.class.text:
+    text: "将类 ''{0}'' 重命名为 ''{1}''"
+searching.for.implementations:
+    text: 正在搜索实现…
+set.language.level:
+    text: 设置语言级别
+set.language.level.to.0:
+    text: 设置语言级别为{0}
+settings.inlay.parameter.hints.exclude.list:
+    text: 形参名称提示排除列表
+static.class.initializer:
+    text: '{0}类初始值设定项'
+status.bar.exit.points.highlighted.message:
+    text: 已高亮显示 {0} 个退出{0, choice, 1#点|2#点}(再次按 {1} 以移除高亮显示，按 Esc 以移除所有高亮显示)
+status.bar.highlighted.usages.message:
+    text: 找到{1}的 {0} 个{0, choice, 1#用法|2#用法}(再次按 {2} 以移除高亮显示，按 Esc 以移除所有高亮显示)
+status.bar.highlighted.usages.no.target.message:
+    text: 找到 {0} 个{0, choice, 1#用法|2#用法}(再次按 {2} 以移除高亮显示，按 Esc 以移除所有高亮显示)
+status.bar.highlighted.usages.not.found.message:
+    text: 未找到 {0} 的任何用法
+status.bar.highlighted.usages.not.found.no.target.message:
+    text: 未找到任何用法
+status.bar.overridden.methods.highlighted.message:
+    text: 找到 {0} 个被重写的{0, choice, 1#方法|2#方法}(再次按 {1} 以移除高亮显示，按 Escape 以移除所有高亮显示)
+surround.with.chooser.title:
+    text: 包围方式
+surround.with.not.instanceof.template:
+    text: '!(表达式实例类型)'
+surround.with.try.catch.incorrect.template.message:
+    text: Catch 体的文件模板无效!
+surround.with.try.catch.incorrect.template.title:
+    text: 使用 try/catch 包围
+template.next.variable.command:
+    text: 转到下一个代码模板标签页
+template.previous.variable.command:
+    text: 转到上一个代码模板标签页
+template.shortcut.space:
+    text: 空格
+templates.dialog.edit.variables.action.move.down:
+    text: 下移
+templates.dialog.edit.variables.action.move.up:
+    text: 上移
+templates.dialog.edit.variables.border.title:
+    text: 变量
+templates.dialog.edit.variables.table.column.default.value:
+    text: 默认值
+templates.dialog.edit.variables.table.column.expression:
+    text: 表达式
+templates.dialog.edit.variables.table.column.name:
+    text: 名称
+templates.dialog.edit.variables.table.column.skip.if.defined:
+    text: 如果定义则跳过
+templates.dialog.edit.variables.title:
+    text: 编辑模板变量
+templates.dialog.shortcut.chooser.label:
+    text: 默认展开方式
+templates.dialog.table.column.abbreviation:
+    text: 缩写
+templates.dialog.table.column.active:
+    text: 有效的
+templates.dialog.table.column.description:
+    text: 描述
+templates.no.defined:
+    text: 未在此上下文中定义任何模板
+templates.select.template.chooser.title:
+    text: 选择模板
+templates.settings.page.title:
+    text: 实时模板
+templates.surround.no.defined:
+    text: 未在此上下文中定义任何包围模板
+title.popup.show.coverage:
+    text: 覆盖率套房
+title.remove.coverage.data:
+    text: 移除覆盖率数据
+under.construction.string:
+    text: 正在构建。
+unknown.encoding.0:
+    text: "未知编码: ''{0}''"
+unwrap.anonymous:
+    text: "开启 'anonymous...'"
+unwrap.braces:
+    text: 解包大括号
+unwrap.conditional:
+    text: "开启 'f ? a : b'"
+unwrap.else:
+    text: "解包 'else...'"
+unwrap.for:
+    text: "解包 'for...'"
+unwrap.if:
+    text: "解包 'if...'"
+unwrap.popup.title:
+    text: 选择要解包/移除的语句
+unwrap.synchronized:
+    text: "解包 'synchronized…'"
+unwrap.try:
+    text: "解包 'try...'"
+unwrap.while:
+    text: "解包 'while...'"
+unwrap.with.placeholder:
+    text: "解包 ''{0}''"
+xml.tag.info.no.attributes:
+    text: <无特性>

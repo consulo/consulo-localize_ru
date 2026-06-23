@@ -1,0 +1,386 @@
+add.custom.html.attribute:
+    text: 新增{0}到自訂的html屬性
+add.custom.html.tag:
+    text: 新增{0}到自訂的html標籤
+add.optional.html.attribute:
+    text: 新增{0}到非必需的html屬性
+add.xsi.schema.location.for.external.resource:
+    text: 為外部資源新增Xsi模式位置
+any.dialog.status:
+    text: 狀態
+browse.button.tooltip:
+    text: 瀏覽本機檔案
+browser.error:
+    text: 瀏覽器錯誤
+browser.select.in.default.name:
+    text: 網頁瀏覽器
+button.text.settings:
+    text: 設定...
+cannot.resolve.anchor:
+    text: '無法剖析錨 #{0}'
+cannot.resolve.anchor.in.file:
+    text: '無法剖析錨 #{0} 在檔案 {1} 中'
+cant.delete.file:
+    text: 無法刪除檔案{0}
+cant.rename.file:
+    text: 無法將{0}重新命名為{1}
+change.root.element.to:
+    text: 修改 Root 標籤名字為 {0}
+choose.color.dialog.title:
+    text: 選取顏色
+choose.color.in.color.lookup:
+    text: 選取顏色...
+chooser.title.select.profiles.ini.file:
+    text: 選取 "profiles.ini" 檔案
+color.name:
+    text: 顏色名稱:\&nbsp; {0}
+color.preview:
+    text: '<table cellpadding=0 cellspacing=0 border=0><tr><td>顏色預覽:\&nbsp;</td><td style="background-color: #000000; padding: 1px">{0}</td></tr></table>'
+color.rgb:
+    text: 顏色 RGB:\&nbsp; {0}
+column.name.edit.external.resource.location:
+    text: 位置
+custom.html.tag:
+    text: 自訂Html標記
+dialog.title.external.resource:
+    text: 外部資源
+display.name.edit.external.resource:
+    text: 模式和DTDs
+emmet.expand.abbreviation.with:
+    text: 展開縮寫(&A)
+error:
+    text: 錯誤
+error.fetching.dependent.resource.title:
+    text: 獲取相關資源時發生錯誤
+error.fetching.resource:
+    text: 抓取時發生錯誤 {0}
+error.fetching.title:
+    text: 抓取時發生錯誤
+fetch.external.resource:
+    text: 獲取外部資源
+fetching.progress.indicator:
+    text: 獲取 {0}
+fetching.resource.title:
+    text: 獲取資源
+file.doesnt.exist:
+    text: 檔案{0}不存在
+filetype.description.dtd:
+    text: XML文件類型定義
+filetype.description.html:
+    text: HTML檔案
+filetype.description.xhtml:
+    text: XHTML檔案
+filetype.description.xml:
+    text: XML檔案
+fix.html.family:
+    text: 修復 Html
+generate.instance.document.from.schema.dialog.title:
+    text: 從模式產生實例文件
+generate.instance.document.from.schema.lvcslabel:
+    text: 從模式產生實例文件
+generate.schema.from.instance.document.dialog.title:
+    text: 從實例文件產生模式
+generate.schema.from.instance.xml.document.lvcslabel:
+    text: 從Xml文件產生實例模式
+global.elements.local.types.option.name:
+    text: 全局元素/局部類型
+html.add.table.column.after.action:
+    text: 在表的目前位置自後新增一個新的列
+html.add.table.column.before.action:
+    text: 在表的目前位置自前新增一個新的列
+html.annotators.non.existent.internet.resource:
+    text: 找不到資源"{0}"
+html.deprecated.tag:
+    text: 棄用的 HTML 標籤
+html.inspection.extra.closing.tag:
+    text: 關閉多餘的HTML標籤
+html.inspections.check.deprecated.tag:
+    text: 棄用的 HTML 標籤
+html.inspections.check.empty.script.message:
+    text: 空標籤在某些瀏覽器上不工作
+html.inspections.check.empty.script.tag.fix.message:
+    text: 擴充標籤
+html.inspections.check.empty.tag:
+    text: 空標籤
+html.inspections.check.image.height.fix.message:
+    text: 高度設為 {0}
+html.inspections.check.image.height.message:
+    text: 原始圖片高度是 {0}
+html.inspections.check.image.size:
+    text: 圖像尺寸不符合
+html.inspections.check.image.width.fix.message:
+    text: 寬度設為 {0}
+html.inspections.check.image.width.message:
+    text: 原始圖像寬度是 {0}
+html.inspections.check.presentational.tag:
+    text: 顯示的HTML標籤
+html.inspections.check.valid.script.tag:
+    text: <script> 標籤的內容混亂
+html.inspections.create.label.from.text.after.action:
+    text: 在元素{0}後,建立一個新的標籤
+html.inspections.create.label.from.text.before.action:
+    text: 在元素{0}前,建立一個新的標籤
+html.inspections.create.new.label:
+    text: 用{0}元素聯合一個新的標籤
+html.inspections.form.input.without.label:
+    text: 表單輸入沒有相關的label
+html.inspections.non.existent.internet.resource.name:
+    text: 不存在的網路資源
+html.inspections.unknown.anchor:
+    text: 錨參照問題
+html.inspections.unknown.attribute:
+    text: 未知的 HTML 標記屬性
+html.inspections.unknown.boolean.attribute:
+    text: 未知的HTML標記屬性
+html.inspections.unknown.tag:
+    text: 未知的 HTML 標記
+html.inspections.unknown.tag.attribute.checkbox.title:
+    text: '自訂 HTML 標記屬性:'
+html.inspections.unknown.tag.attribute.title:
+    text: 編輯自訂屬性
+html.inspections.unknown.tag.boolean.attribute.checkbox.title:
+    text: '自訂HTML標記屬性:'
+html.inspections.unknown.tag.boolean.attribute.title:
+    text: 編輯自訂屬性
+html.inspections.unknown.tag.checkbox.title:
+    text: '自訂 HTML 標記:'
+html.inspections.unknown.tag.title:
+    text: 編輯自訂標記
+html.inspections.unknown.target:
+    text: 檔案參照問題
+html.quickdoc.additional.template:
+    text: 更多訊息參考 <a href="{0}">W3C網站</a>, <a href="{1}">出版社參考網站</a>.
+html.replace.tag.with.another.quickfix.text:
+    text: 用{1} 標籤替換 {0} 標籤
+html.replace.tag.with.css.quickfix.text:
+    text: 用CSS標籤 {0} 替換
+html5.outline.mode:
+    text: HTML5 概要
+ignore.external.resource.text:
+    text: 忽略外部資源
+insert.required.tag.fix:
+    text: 插入所需的子標籤 {0}
+inspection.required.attributes.display.name:
+    text: 缺少必需的屬性
+instance.2.xsd.dialog.title:
+    text: 實例模式
+instance.document.file.is.not.exist:
+    text: 實例文件檔案不存在
+instance.to.schema.generator.error:
+    text: 實例模式產生器錯誤
+instance2schema.dialog.design.type:
+    text: '設計類型:'
+instance2schema.dialog.detect.enumerations.limit:
+    text: '偵測枚舉限制:'
+instance2schema.dialog.detect.simple.content.type:
+    text: '偵測簡單的內容類型:'
+instance2schema.dialog.instance.document.path:
+    text: '實例文件路徑:'
+invalid.number.validation.problem:
+    text: 無效數值
+invalid.url.message:
+    text: "無效的URL: \n{0}"
+invalid.url.no.xml.file.at.location:
+    text: "沒有XML的位置: \n{0}"
+invalid.url.title:
+    text: 無效的URL
+jsp.inspections.group.name:
+    text: JSP 檢閱
+label.edit.external.resource.configure.external.resources:
+    text: 外部模式和DTDs (&E)
+label.edit.external.resource.configure.ignored.resources:
+    text: 忽略模式和DTDs (&I)
+label.text.path.to.profiles.ini:
+    text: '"profiles.ini" 路徑:'
+label.text.profile:
+    text: '屬性:'
+local.elements.global.complex.types.option.name:
+    text: 局部元素/全局複雜類型
+local.elements.types.option.name:
+    text: 局部元素/類型
+manually.setup.external.resource:
+    text: 手動設定外部資源
+namespace.alias:
+    text: 命名空間
+negative.number.validation.problem:
+    text: 負數
+no.class.in.selected.text.editor.error.message:
+    text: 選取的編輯器裡沒有類別
+no.external.resources:
+    text: 沒有外部資源
+no.ignored.resources:
+    text: 沒有忽視資源
+open_in.list.popup.title:
+    text: 預覽檔案...
+open_in.list.prefix:
+    text: 預覽檔案
+rename.current.tag:
+    text: '重新命名 {0} 為:'
+result.schema.file.name.is.empty.validation.problem:
+    text: 結果模式檔案的名字是空的
+schema.generator.process.title:
+    text: 模式產生器
+schema2.instance.no.valid.root.element.name.validation.error:
+    text: 無效的根元素名稱
+schema2.instance.output.file.name.is.empty.validation.problem:
+    text: 輸出檔案的名稱無效
+schema2instance.dialog.element.name:
+    text: '元素名稱:'
+schema2instance.dialog.enable.restriction.check:
+    text: 啟用約束檢查
+schema2instance.dialog.enable.unique.check:
+    text: 啟用唯一檢查
+schema2instance.dialog.instance.document.name:
+    text: '實例文件名稱:'
+schema2instance.dialog.schema.path:
+    text: '模式的路徑:'
+select.schema.document.dialog.title:
+    text: 選取模式文件
+select.xml.document.dialog.title:
+    text: 選取Xml文件
+select.xsd.schema.dialog.title:
+    text: 選取 XSD 模式
+settings.enable.html.xml.tag.tree.highlighting:
+    text: 啟用 HTML/XML 標記樹高亮顯示
+settings.levels.to.highlight:
+    text: '要高亮顯示的級別:'
+settings.opacity:
+    text: '透明度:'
+tag.name.completion.display.name:
+    text: 完成標記名稱
+tag.name.completion.hint:
+    text: 按{0}來檢視標籤的其他命名空間
+title.cannot.create.html.file:
+    text: 無法建立 HTML 檔案
+unescaped.xml.character:
+    text: 轉義xml字元
+unescaped.xml.character.fix.message:
+    text: 避開 {0}
+unescaped.xml.character.fix.message.parameter:
+    text: 符號
+unwrap.enclosing.tag.name.action.name:
+    text: 消除封閉標記 {0}
+url.is.empty.validation.problem:
+    text: Url 為空
+validate.xml.open.message.view.command.name:
+    text: 開啟訊息檢視
+webservice.status.tooltip:
+    text: 目前設定的狀態,輸入錯誤,等等
+xml.create.xml.declaration.intention.type:
+    text: 建立 Xml 元素宣告
+xml.dtd.create.dtd.element.intention.name:
+    text: 建立元素宣告 {0}
+xml.dtd.create.entity.intention.name:
+    text: 建立實體宣告 {0}
+xml.dtd.unresolved.element.reference:
+    text: 無法剖析的Dtd元素參考 {0}
+xml.dtd.unresolved.entity.reference:
+    text: 無法剖析的實體參照 {0}
+xml.folding.settings:
+    text: 代碼折疊設定
+xml.inspection.wrong.closing.tag:
+    text: 錯誤閉合的 XML/xHTML 標記
+xml.inspection.wrong.root.element:
+    text: 錯誤的根元素
+xml.inspections.check.dtd.references:
+    text: 無法剖析的 DTD 參照
+xml.inspections.check.file.with.xerces:
+    text: 檔案未通過外部驗證
+xml.inspections.check.tag.empty.body:
+    text: XML 標記主體為空
+xml.inspections.duplicate.id:
+    text: 複製ID
+xml.inspections.invalid.id:
+    text: 無效的ID
+xml.inspections.path.resolve:
+    text: 檔案路徑剖析 XML
+xml.inspections.replace.tag.empty.body.with.empty.end:
+    text: 清理空標籤
+xml.inspections.tag.empty.body:
+    text: Xml 標記主體為空
+xml.inspections.unbound.prefix:
+    text: 未綁定的 XML 命名空間前置字元
+xml.inspections.unused.schema:
+    text: 未使用的 XML 架構宣告
+xml.inspections.unused.schema.declaration:
+    text: 命名空間宣告從未使用過
+xml.inspections.unused.schema.location:
+    text: 命名空間位置從未使用過
+xml.javadoc.attr.default.required.message:
+    text: 預設屬性:\&nbsp;必須的
+xml.javadoc.attr.type.message:
+    text: 屬性類型:\&nbsp;{0}
+xml.javadoc.attribute.name.message:
+    text: 屬性名稱
+xml.javadoc.complex.type.message:
+    text: 複雜類型
+xml.javadoc.defined.in.any.dtd.message:
+    text: 定義在:\&nbsp;any dtd
+xml.javadoc.defined.in.frameset.dtd.message:
+    text: 定義在:\&nbsp;frameset dtd
+xml.javadoc.defined.in.loose.dtd.message:
+    text: 定義在:\&nbsp;loose dtd
+xml.javadoc.deprecated.message:
+    text: 不推薦 :\&nbsp;{0}
+xml.javadoc.description.message:
+    text: 說明
+xml.javadoc.end.tag.could.be.omitted.message:
+    text: 結束標籤:\&nbsp;可以省略
+xml.javadoc.enumeration.value.message:
+    text: 枚舉值
+xml.javadoc.is.empty.message:
+    text: 是否為空:\&nbsp;true
+xml.javadoc.start.tag.could.be.omitted.message:
+    text: 開始標籤:\&nbsp;可以省略
+xml.javadoc.tag.name.message:
+    text: 標籤名稱
+xml.javadoc.version.message:
+    text: 版本
+xml.schema.create.attribute.group.intention.name:
+    text: 建立屬性組 {0}
+xml.schema.create.attribute.intention.name:
+    text: 建立屬性 {0}
+xml.schema.create.complex.type.intention.name:
+    text: 建立複雜類型 {0}
+xml.schema.create.element.intention.name:
+    text: 建立元素 {0}
+xml.schema.create.group.intention.name:
+    text: 建立組 {0}
+xml.schema.create.simple.type.intention.name:
+    text: 建立簡單類型 {0}
+xml.split.tag.intention.action:
+    text: 分割目前標籤
+xml.validate.no.errors.detected.status.message:
+    text: 未偵測到錯誤
+xml.validate.tab.content.title:
+    text: 驗證
+xml.validate.validation.is.running.terminate.confirmation.text:
+    text: 驗證正在執行。終止它嗎？
+xml.validate.validation.is.running.terminate.confirmation.title:
+    text: 驗證正在執行
+xml2xsd.generator.error:
+    text: 實例2模式發生器錯誤
+xml2xsd.generator.error.message:
+    text: 不能從實例文件產生模式。檢查您的xml文件
+xmlbeans.designtype.tooltip:
+    text: XMLSchema設計類型
+xmlbeans.enumerations.tooltip:
+    text: 從下面總數偵測枚舉
+xmlbeans.instance.document.name.tooltip:
+    text: 實例文件產生檔案的名稱
+xmlbeans.instance2schema.result.schema.name:
+    text: 結果模式檔案名稱
+xmlbeans.instance2schema.url.tooltip:
+    text: 實例文件的路徑
+xmlbeans.particle.valid.tooltip:
+    text: 使有效(限制)粒子規則
+xmlbeans.rootelement.tooltip:
+    text: 實例文件產生的根元素
+xmlbeans.schema2instance.url.tooltip:
+    text: 路徑到模式
+xmlbeans.simplecontenttype.tooltip:
+    text: 簡單的內容類型偵測(葉狀文字)
+xmlbeans.unique.particle.tooltip:
+    text: 使唯一的粒子規則
+xmlbeans.url.tooltip:
+    text: 路徑到模式或wsdl用於產生使用XmlBeans

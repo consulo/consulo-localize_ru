@@ -1,0 +1,24 @@
+action.structureview.show.non.public:
+    text: non-public の表示
+action.structureview.show.properties:
+    text: プロパティの表示
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: equals() に含めるフィールドの選択
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: hashCode() に含めるフィールドの選択
+generate.equals.hashcode.internal.error:
+    text: 内部エラー
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: すべての非 NULL フィールドの選択
+generate.equals.hashcode.template:
+    text: テンプレート：
+generate.equals.hashcode.use.getters:
+    text: コード生成時にゲッターを使う
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: 配列の hashCode () はサポートされていません
+generate.equals.hashcode.wizard.title:
+    text: equals() と hashCode() の生成
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: ネストされた配列 equals() はサポートされていません
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: 生成された Object[] の equals() は不正です

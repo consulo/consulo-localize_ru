@@ -1,0 +1,32 @@
+action.structureview.show.non.public:
+    text: No públicos
+action.structureview.show.properties:
+    text: Propiedades
+file.structure.toggle.show.anonymous.classes:
+    text: Clases anónimas
+generate.equals.hashcode.accept.sublcasses:
+    text: Aceptar &subclases como parámetro del método equals()
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>Aunque generalmente no cumple con el contrato de Object.equals(),<br>aceptar subclases puede ser necesario para que el método generado funcione correctamente<br>con frameworks que generan subclases Proxy, como Hibernate.</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: Seleccionar &campos para incluir en equals()
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: Seleccionar &campos que se incluirán en hashCode()
+generate.equals.hashcode.internal.error:
+    text: Error interno
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: Seleccionar todos los campos no nulos (&F)
+generate.equals.hashcode.template:
+    text: '&Plantilla:'
+generate.equals.hashcode.use.getters:
+    text: Usar &getters cuando estén disponibles
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: No se admite hashCode() para arrays
+generate.equals.hashcode.wizard.title:
+    text: Generar equals() y hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals() no es compatible con arrays anidados
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: El equals() generado para Object[] podría ser incorrecto
+static.class.initializer:
+    text: inicializador de clase {0}

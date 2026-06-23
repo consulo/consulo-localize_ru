@@ -1,0 +1,82 @@
+label.macro.preview:
+    text: 'マクロ プレビュー :'
+label.macros:
+    text: 'マクロ :'
+macro.class.name:
+    text: クラス名
+macro.classpath.entry:
+    text: 要素が属するクラスパス内のエントリ
+macro.column.number:
+    text: 列番号
+macro.file.dir.relative.to.root:
+    text: ファイルが属するモジュール コンテント ルートへの相対ファイル ディレクトリ
+macro.file.dir.relative.to.root.fwd.slash:
+    text: ファイルが属するモジュール コンテント ルートへの相対ファイル ディレクトリ (スラッシュ記号 (/) を使用)
+macro.file.dir.relative.to.sourcepath.root:
+    text: ファイルが属するソースパス ルートへの相対ファイル ディレクトリ
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: ファイルが属するソースパス ルートへの相対ファイル ディレクトリ (スラッシュ記号 (/) を使用)
+macro.file.directory:
+    text: ファイル ディレクトリ
+macro.file.directory.relative:
+    text: プロジェクト ファイルへの相対ファイル ディレクトリ
+macro.file.directory.relative.fwd.slash:
+    text: プロジェクト ファイルへの相対ファイル ディレクトリ (スラッシュ記号 (/) を使用)
+macro.file.extension:
+    text: ファイル拡張子
+macro.file.fully.qualified.package:
+    text: ファイル完全修飾パッケージ
+macro.file.name:
+    text: ファイル名
+macro.file.name.without.extension:
+    text: 拡張子なしのファイル名
+macro.file.package:
+    text: 選択中のパッケージ
+macro.file.path:
+    text: ファイル パス
+macro.file.path.relative:
+    text: プロジェクト ファイルへの相対ファイル パス
+macro.file.path.relative.fwd.slash:
+    text: プロジェクト ファイルへの相対ファイル パス (スラッシュ記号 (/) を使用)
+macro.file.path.relative.to.root:
+    text: ファイルが属するモジュール コンテント ルートへの相対ファイル パス
+macro.file.path.relative.to.root.fwd.slash:
+    text: ファイルが属するモジュール コンテント ルートへの相対ファイル パス (スラッシュ記号 (/) を使用)
+macro.file.path.relative.to.sourcepath.root:
+    text: ファイルが属するソースパス ルートへの相対ファイル パス
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: ファイルが属するソースパス ルートへの相対ファイル パス (スラッシュ記号 (/) を使用)
+macro.javadoc.output.directory:
+    text: JavaDoc 出力ディレクトリ
+macro.line.number:
+    text: 行番号
+macro.module.file.directory:
+    text: モジュール ファイルのディレクトリ
+macro.module.file.name:
+    text: 拡張子なしのモジュール ファイル名
+macro.module.file.path:
+    text: モジュール ファイルのパス
+macro.module.source.path:
+    text: モジュール ソース パス
+macro.output.path:
+    text: 出力パス
+macro.project.classpath:
+    text: プロジェクトのクラスパス
+macro.project.file.directory:
+    text: プロジェクト ファイルのディレクトリ
+macro.project.file.name:
+    text: 拡張子なしのプロジェクト ファイル名
+macro.project.file.path:
+    text: プロジェクト ファイルのパス
+macro.project.source.path:
+    text: プロジェクト ソース パス
+macro.project.sourcepath:
+    text: プロジェクトのソースパス
+macro.prompt:
+    text: 文字入力ダイアログの表示
+macro.sourcepath.entry:
+    text: 要素が属するソースパス内のエントリ
+prompt.enter.parameters:
+    text: 'パラメータを入力してください :'
+title.input:
+    text: 入力

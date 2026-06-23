@@ -1,0 +1,142 @@
+browser.description:
+    text: '{0}でファイルを開く'
+browser.error:
+    text: ブラウザエラー
+browser.path.not.specified.title:
+    text: ブラウザパスが指定されていません
+browser.select.in.default.name:
+    text: ウェブブラウザ
+browsers.configuration.name:
+    text: Webブラウザ
+choose.color.dialog.title:
+    text: 色を選択してください
+choose.color.in.color.lookup:
+    text: 色を選択してください...
+color.name:
+    text: カラー名:\&nbsp; {0}
+color.rgb:
+    text: カラーRGB:\&nbsp; {0}
+error.fetching.resource:
+    text: '{0}のフェッチ中にエラーが発生しました'
+error.fetching.title:
+    text: フェッチ中にエラーが発生しました
+fetch.external.resource:
+    text: 外部リソースをフェッチ
+fetching.resource.title:
+    text: リソースの取得
+filetype.description.dtd:
+    text: XML ドキュメント タイプ定義
+filetype.description.html:
+    text: HTML ファイル
+filetype.description.xhtml:
+    text: XHTML ファイル
+filetype.description.xml:
+    text: XML ファイル
+html.annotators.non.existent.internet.resource:
+    text: '"{0}"のリソースが見つかりません'
+html.deprecated.tag:
+    text: 推奨されないHTMLタグ
+html.inspections.check.deprecated.tag:
+    text: 推奨されないHTMLタグ
+html.inspections.check.image.height.fix.message:
+    text: 高さを {0} に設定します
+html.inspections.check.image.height.message:
+    text: イメージの高さは {0} です
+html.inspections.check.image.size:
+    text: イメージ サイズのチェック
+html.inspections.check.image.width.fix.message:
+    text: 幅を {0} に設定します
+html.inspections.check.image.width.message:
+    text: イメージの幅は {0} です
+html.inspections.group.name:
+    text: Html 検査
+html.inspections.non.existent.internet.resource.name:
+    text: 存在しないWebリソース
+html.inspections.unknown.attribute:
+    text: 未知のHTMLタグ属性
+html.inspections.unknown.boolean.attribute:
+    text: 不明なHTMLブールタグ属性
+html.inspections.unknown.tag:
+    text: 未知のHTMLタグ
+html.inspections.unknown.tag.attribute.checkbox.title:
+    text: 'カスタムHTMLタグ属性:'
+html.inspections.unknown.tag.attribute.title:
+    text: カスタム属性の編集
+html.inspections.unknown.tag.boolean.attribute.checkbox.title:
+    text: カスタムHTMLブールタグ属性：
+html.inspections.unknown.tag.boolean.attribute.title:
+    text: カスタムブール値属性の編集
+html.inspections.unknown.tag.checkbox.title:
+    text: 'カスタムHTMLタグ:'
+html.inspections.unknown.tag.title:
+    text: カスタムタグの編集
+html.replace.tag.with.css.quickfix.text:
+    text: CSSに{0}タグを置き換え
+invalid.url.message:
+    text: "無効なURL: \n{0}"
+invalid.url.no.xml.file.at.location:
+    text: "XMLが存在しません: \n{0}"
+invalid.url.title:
+    text: 無効なURL
+jsp.inspections.group.name:
+    text: JSPのインスペクション
+manually.setup.external.resource:
+    text: 手動で外部リソースの設定
+namespace.alias:
+    text: ネームスペース
+tag.name.completion.display.name:
+    text: タグ名の補完
+tag.name.completion.hint:
+    text: '{0}を押して他の名前空間のタグを表示する'
+validate.xml.open.message.view.command.name:
+    text: メッセージ ビューを開く
+xml.inspection.wrong.root.element:
+    text: 間違ったルート要素
+xml.inspections.duplicate.id:
+    text: IDが重複
+xml.inspections.invalid.id:
+    text: 未解決のID
+xml.inspections.path.resolve:
+    text: XMLでのファイルパス解決
+xml.inspections.unused.schema:
+    text: 未使用のXMLスキーマ宣言
+xml.inspections.unused.schema.declaration:
+    text: 名前空間宣言は使用されません
+xml.inspections.unused.schema.location:
+    text: 名前空間の場所は使用されません
+xml.javadoc.attr.default.required.message:
+    text: 属性デフォルト :\&nbsp;が必要です
+xml.javadoc.attr.type.message:
+    text: 属性型 :\&nbsp;{0}
+xml.javadoc.attribute.name.message:
+    text: 属性名
+xml.javadoc.complex.type.message:
+    text: 複合型
+xml.javadoc.defined.in.any.dtd.message:
+    text: 次で定義 :\&nbsp;任意の dtd
+xml.javadoc.defined.in.frameset.dtd.message:
+    text: 次で定義 :\&nbsp;frameset dtd
+xml.javadoc.defined.in.loose.dtd.message:
+    text: 次で定義 :\&nbsp;loose dtd
+xml.javadoc.deprecated.message:
+    text: 非推奨 :\&nbsp;{0}
+xml.javadoc.description.message:
+    text: 説明
+xml.javadoc.end.tag.could.be.omitted.message:
+    text: 終了タグ :\&nbsp;は省略できます
+xml.javadoc.start.tag.could.be.omitted.message:
+    text: 開始タグ :\&nbsp;は省略できます
+xml.javadoc.tag.name.message:
+    text: タグ名
+xml.javadoc.version.message:
+    text: バージョン
+xml.split.tag.intention.action:
+    text: 現在のタグを分割
+xml.validate.no.errors.detected.status.message:
+    text: エラーはありません
+xml.validate.tab.content.title:
+    text: 検証
+xml.validate.validation.is.running.terminate.confirmation.text:
+    text: 検証が実行中です。 中止しますか ?
+xml.validate.validation.is.running.terminate.confirmation.title:
+    text: 検証が実行中です

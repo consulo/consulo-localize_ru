@@ -1,0 +1,68 @@
+javadoc.candidates.not.found:
+    text: <html>メソッド呼び出し <b>{0}</b> の候補はありません。</html>
+javadoc.generate.arguments:
+    text: 'その他のコマンド ライン引数 :'
+javadoc.generate.basic.option:
+    text: 基本オプション
+javadoc.generate.closing.tag:
+    text: 自動的に終了タグを挿入する
+javadoc.generate.exited:
+    text: |4
+
+        javadoc は終了コード $EXIT_CODE$ で終了しました
+javadoc.generate.heap.size:
+    text: '最大ヒープ サイズ (MB):'
+javadoc.generate.no.classes.in.selected.packages.error:
+    text: 選択したパッケージには Java クラスがありません。
+javadoc.generate.no.jdk.path:
+    text: |-
+        JDK パスが指定されていません。
+        JavaDoc を生成できません。
+javadoc.generate.open.in.browser:
+    text: 生成したドキュメントをブラウザで開く
+javadoc.generate.options.hierarchy:
+    text: 階層ツリーを生成する
+javadoc.generate.options.index:
+    text: インデックスを生成する
+javadoc.generate.options.index.per.letter:
+    text: インデックスを頭文字で分ける
+javadoc.generate.options.navigator:
+    text: ナビゲーション バーを生成する
+javadoc.generate.output.directory:
+    text: '出力ディレクトリ :'
+javadoc.generate.output.directory.browse:
+    text: 出力ディレクトリの参照
+javadoc.generate.output.directory.creation.failed:
+    text: '"{0}" の作成に失敗しました。'
+javadoc.generate.output.directory.not.exists:
+    text: |-
+        出力ディレクトリ "{0}" は存在しません。
+        作成しますか ?
+javadoc.generate.output.directory.not.specified:
+    text: 出力ディレクトリが指定されていません
+javadoc.generate.output.not.a.directory:
+    text: '"{0}" はディレクトリではありません。'
+javadoc.generate.package.default:
+    text: <デフォルト>
+javadoc.generate.scope.group:
+    text: スコープ
+javadoc.generate.scope.include.subpackages.checkbox:
+    text: サブパッケージを含む
+javadoc.generate.scope.package:
+    text: パッケージ {0} (&P)
+javadoc.generate.scope.whole.project:
+    text: プロジェクト全体(&W)
+javadoc.generate.settings.group:
+    text: 設定
+javadoc.generate.start.button:
+    text: 開始(&S)
+javadoc.generate.tag.list.deprecated:
+    text: 非推奨リスト
+javadoc.generate.tags.group:
+    text: タグのドキュメント
+javadoc.generate.title:
+    text: JavaDoc の生成
+javadoc.resolved.value:
+    text: 解決された値：
+javadoc.settings.not.specified:
+    text: javadoc の生成オプションが指定されていません

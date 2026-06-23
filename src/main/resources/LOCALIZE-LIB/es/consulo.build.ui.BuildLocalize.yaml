@@ -1,0 +1,54 @@
+action.filters.text:
+    text: Filtros
+build.event.message.0.at.1:
+    text: '{0} en {1}'
+build.event.message.at:
+    text: En {0}
+build.event.message.errors:
+    text: '{0} {0,choice, 1#error|2#errores}'
+build.event.message.successful:
+    text: exitoso
+build.event.message.syncing:
+    text: sincronizando…
+build.event.message.up.to.date:
+    text: ACTUALIZADO
+build.event.message.warnings:
+    text: '{0} {0,choice, 1#advertencia|2#advertencias}'
+build.event.message.with:
+    text: '{0} con {1}'
+build.event.title.build.issues:
+    text: Problemas de compilación
+build.event.title.kotlin.compiler:
+    text: Plugin del compilador de Kotlin
+build.event.title.other.messages:
+    text: Otros mensajes
+build.messages.cancelled:
+    text: '{0} cancelado'
+build.messages.failed:
+    text: '{0} falló'
+build.messages.finished:
+    text: '{0} finalizado'
+build.status.cancelled:
+    text: cancelado
+build.status.failed:
+    text: fallido
+build.status.finished:
+    text: finalizado
+build.status.running:
+    text: ejecutando…
+build.tree.filters.show.successful:
+    text: Mostrar pasos exitosos
+build.tree.filters.show.warnings:
+    text: Mostrar advertencias
+error.can.t.append.to.closed.stream:
+    text: 'No se puede añadir la siguiente línea a un flujo cerrado: {0}'
+error.can.t.read.from.closed.stream:
+    text: No se puede leer desde un flujo cerrado
+sync.view.title:
+    text: Sincronización
+tab.title.build.output:
+    text: Salida de compilación
+tab.title.more:
+    text: '{0} y {1} más'
+thread.name.reader.thread.for.buildoutputinstantreaderimpl.0:
+    text: Hilo de lectura para BuildOutputInstantReaderImpl@{0}

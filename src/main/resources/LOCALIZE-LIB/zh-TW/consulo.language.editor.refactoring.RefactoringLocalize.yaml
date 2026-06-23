@@ -1,0 +1,668 @@
+0.already.contains.a.1:
+    text: '{0}已包含{1}'
+0.already.contains.field.1:
+    text: '{0}已包含欄位{1}.'
+0.already.contains.inner.class.named.1:
+    text: '{0}已包含名為{1}的內部類別。'
+0.already.exists.in.the.target.class:
+    text: '{0}已經存在在目標類別中。'
+0.already.has.parameter.named.1.use.this.name.anyway:
+    text: "{0}已經有名為''{1}''的參數。\n仍然使用這個名稱？"
+0.is.not.an.identifier:
+    text: <b><code>{0}</code></b> 是不正確的標識符，當使用在 <b><code>{1}</code></b>
+0.is.not.static.it.cannot.be.moved.to.the.interface:
+    text: '{0}不是靜態的。不能將它移動到該介面'
+0.will.no.longer.override.1:
+    text: '{0}將不再重寫{1}'
+ExtractSuperClass.superclass:
+    text: 超類別
+anonymous.class.text:
+    text: 匿名類別
+anonymousToInner.class.name.label.text:
+    text: '類別名:'
+anonymousToInner.parameters.panel.border.title:
+    text: 構造函數參數
+automatic.renamer.rename.to.column:
+    text: 重新命名為
+caller.chooser.callee.method:
+    text: 被呼叫方法
+caller.chooser.caller.method:
+    text: 呼叫方法
+caller.chooser.looking.for.callers:
+    text: 尋找呼叫...
+cancel.button:
+    text: 取消
+cannot.create.directory:
+    text: 不能建立目錄
+cannot.find.or.create.destination.directory:
+    text: 無法找到或建立目標目錄
+cannot.perform.refactoring:
+    text: 不能執行重構。
+change.signature.leave.blank.default.value:
+    text: 保留空白
+change.signature.use.selected.value:
+    text: 使用選取的值
+changeClassSignature.class.label.text:
+    text: 變更 {0} 的簽名
+changeClassSignature.no.type.parameters:
+    text: 類別不能有類型參數
+changeClassSignature.parameters.panel.border.title:
+    text: 參數
+changeClassSignature.refactoring.name:
+    text: 改變類別簽名
+changeSignature.default.value.column:
+    text: '預設值:'
+changeSignature.exceptions.panel.border.title:
+    text: 異常
+changeSignature.name.prompt:
+    text: '名稱:'
+changeSignature.no.return.type:
+    text: 未指定返回類型
+changeSignature.no.type.for.exception:
+    text: 指定異常的類型
+changeSignature.no.type.for.parameter:
+    text: "指定參數 ''{1}'' 的類型為 {0}"
+changeSignature.refactoring.name:
+    text: 變更簽名
+changeSignature.return.type.prompt:
+    text: '返回類型:'
+changeSignature.wrong.return.type:
+    text: "錯誤的返回類型：''{0}''"
+checkbox.safe.delete.with.usage.search:
+    text: 安全刪除（包括用法搜索）(&F)
+checkbox.search.in.comments.and.strings:
+    text: 在註解和字串搜索(&S)
+checkbox.search.in.non.java.files:
+    text: 搜索非代碼的用法(&E)
+choose.destination.directory:
+    text: 選取目標目錄
+choose.destination.package:
+    text: 選取目標檔案包
+class.0.already.exists:
+    text: 類別{0}已存在
+class.0.does.not.exist:
+    text: |-
+        類別{0}不存在。
+        您想建立它嗎？
+class.0.not.found:
+    text: 類別{0}未找到。
+class.constructors.radio:
+    text: 類別構造函數(&C)
+class.description:
+    text: 類別{0}
+class.does.not.have.base.classes.or.interfaces:
+    text: 類別{0}沒有基類別或介面。
+class.has.been.successfully.created:
+    text: 已成功建立類別 {0}。
+class.is.abstract:
+    text: '{0} 是抽像的。'
+class.is.never.used:
+    text: 類別從未使用
+class.name.prompt:
+    text: '類別名稱:'
+column.name.default.value:
+    text: 預設值
+column.name.name:
+    text: '名字:'
+column.name.type:
+    text: 類型
+command.name.copy:
+    text: 複製
+command.name.move:
+    text: 移動
+command.name.rename:
+    text: 重命名
+constructor.cannot.be.made.static:
+    text: 構造函數不能是靜態的。
+constructor.description:
+    text: 構造函數 {0}
+continue.button:
+    text: 繼續
+convertToInstanceMethod.method.is.not.static:
+    text: |-
+        不能執行重構
+        方法 {0} 非靜態。
+copy.class.clone.0.1:
+    text: 克隆 {0} {1}
+copy.class.copy.0.1:
+    text: 複製 {0} {1}
+copy.files.clone.directory.0:
+    text: 克隆目錄 {0}
+copy.files.clone.file.0:
+    text: 克隆檔案 {0}
+copy.files.clone.title:
+    text: 克隆
+copy.files.copy.directory.0:
+    text: 複製目錄 {0}
+copy.files.copy.file.0:
+    text: 複製檔案 {0}
+copy.files.copy.specified.directories.label:
+    text: 複製指定目錄
+copy.files.copy.specified.files.label:
+    text: 複製指定檔案
+copy.files.copy.specified.mixed.label:
+    text: 複製指定的檔案和目錄
+copy.files.copy.title:
+    text: 複製
+copy.files.new.name.label:
+    text: '新名字:'
+copy.files.to.directory.label:
+    text: '到目錄:'
+copy.handler.clone.class:
+    text: 克隆類別
+copy.handler.clone.files.directories:
+    text: 克隆檔案/目錄
+copy.handler.copy.class:
+    text: 複製類別
+copy.handler.copy.files.directories:
+    text: 複製檔案或目錄
+copy.overwrite.button:
+    text: 覆蓋
+copy.overwrite.for.all.button:
+    text: 全部覆蓋
+copy.skip.button:
+    text: 跳過
+copy.skip.for.all.button:
+    text: 全部跳過
+create.class.command:
+    text: 建立類別{0}
+create.directory:
+    text: 建立目錄
+current.method.radio:
+    text: 目前方法(&C)
+declare.final:
+    text: final宣告
+delegation.panel.modify.radio:
+    text: 修改
+delete.anyway.button:
+    text: 無論如何都刪除(&D)
+delete.include.command:
+    text: 刪除{0}
+delete.title:
+    text: 刪除
+destination.package:
+    text: '目標檔案包:'
+detecting.possible.conflicts:
+    text: 偵測可能的衝突...
+dialog.message.file.already.exists.in.directory:
+    text: "檔案 ''{0}'' 在目錄 ''{1}'' 中已存在"
+dialog.message.refactoring.not.available.in.current.scope:
+    text: '{0} 在當前範圍內不可用'
+dialog.message.selected.element.used.from.non.project.files:
+    text: 從非專案檔案中使用所選元素。不會重命名這些用法。仍要繼續?
+directories.and.all.references.to.package.will.be.renamed:
+    text: |4-
+
+
+        是否只重新命名整個包或目錄
+        {0}？
+directory.description:
+    text: 目錄 {0}
+do.not.replace:
+    text: 不要替換(&N)
+do.not.show.this.message.in.the.future:
+    text: 以後不再顯示此訊息(&D)
+do.you.wish.to.continue:
+    text: 要繼續嗎？
+do.you.wish.to.ignore.them.and.continue:
+    text: 要忽略它們並繼續嗎？
+dont.support.inner.classes:
+    text: '{0}不支援內部類別'
+edit.migration.entry.title:
+    text: 編輯 類別/包 遷移說明
+encapsulate.fields.field.column.name:
+    text: 欄位(&F)
+encapsulate.fields.get.access.checkbox:
+    text: 獲取權限(&G)
+encapsulate.fields.no.fields.selected:
+    text: 沒有選取欄位
+encapsulate.fields.options.border.title:
+    text: 選項
+encapsulate.fields.private.radio:
+    text: 私有(&I)
+encapsulate.fields.protected.radio:
+    text: 受保護
+encapsulate.fields.set.access.checkbox:
+    text: 設定權限(&S)
+enter.new.project.name:
+    text: '輸入新的項目名:'
+entity.name.constructor.parameter:
+    text: 參數
+entity.name.test:
+    text: 測試
+entity.name.variable:
+    text: 變數
+error.cannot.be.renamed:
+    text: 不能重新命名這個元素
+error.incorrect.data:
+    text: 不正確的資料
+error.title:
+    text: 錯誤
+error.wrong.name.input:
+    text: '錯誤的名稱: {0}'
+extract.chained.constructor.checkbox:
+    text: 擷取鏈式構造函數
+extract.include.file.action.title:
+    text: 提取包含檔案…
+extract.include.file.title:
+    text: 擷取包含檔案
+extract.interface.command.name:
+    text: 擷取介面 {0} from {1}
+extract.interface.title:
+    text: 擷取介面
+extract.method.method.panel.border:
+    text: 方式
+extract.method.replace.duplicate.command.name:
+    text: 取代重複項
+extract.method.title:
+    text: 擷取方法
+extract.superclass.command.name:
+    text: 擷取超類別 {0} from {1}
+extract.superclass.from:
+    text: 從中擷取超類別：
+extract.superclass.title:
+    text: 擷取超類別
+extract.to.directory:
+    text: '擷取到目錄:'
+extractIncludeFile.name:
+    text: 擷取包含檔案
+extractSuper.extract:
+    text: 擷取 {0}
+extractSuperInterface.interface:
+    text: 介面
+factory.method.name.label:
+    text: 工廠方法名(&N)：
+field.declaration.radio:
+    text: 欄位宣告(&R)
+field.description:
+    text: 欄位{0}
+field.name:
+    text: 欄位名稱(&F)：
+file.already.exist:
+    text: 檔案 {0} 已經存在
+file.already.exist.title:
+    text: 擷取包含檔案
+file.description:
+    text: 檔案 {0}
+ignore.button:
+    text: 忽略
+information.title:
+    text: 訊息
+initialize.in.border.title:
+    text: 初始化位置
+inline.field.border.title:
+    text: 內聯
+inline.field.field.name.label:
+    text: 欄位 {0} {1}
+inline.method.border.title:
+    text: 內聯
+inline.method.method.label:
+    text: 方法 {0} {1}
+inline.method.title:
+    text: 內聯方法
+inline.parameter.command.name:
+    text: 內聯參數 {0}
+inline.parameter.refactoring:
+    text: 內聯參數
+inline.parameter.replace.with.local.checkbox:
+    text: 使用局部變數替換
+inline.title:
+    text: 內聯
+inline.to.anonymous.border.title:
+    text: 內聯
+inline.to.anonymous.name.label:
+    text: 類別{0}
+inline.to.anonymous.no.abstract:
+    text: 抽像類別不能被內聯
+inline.to.anonymous.no.superclass.and.interface:
+    text: 有超類別和實現了介面的類別不能被內聯
+inner.class.0.is.already.defined.in.class.1:
+    text: |-
+        內部類別{0}已被定義在類別{1}中。
+        無論如何都繼續？
+inner.class.0.is.not.static:
+    text: |-
+        內部類別{0}非靜態，
+        {1}重構只支援靜態成員。
+inner.class.exists:
+    text: "名為''{0}''的內部類別已經定義\n在類別''{1}''中"
+inner.class.name:
+    text: 內部類別名稱(&I)：
+inner.classes.cannot.have.static.members:
+    text: 內部類別不能有靜態成員。
+inplace.refactoring.abandon.started:
+    text: 放棄已開始的重構
+inplace.refactoring.cancel.current:
+    text: 取消當前重構
+inplace.refactoring.continue.started:
+    text: 繼續已開始的重構
+inplace.refactoring.navigate.to.started:
+    text: 導航到已開始的重構
+interface.has.been.successfully.created:
+    text: 已成功建立介面 {0}。
+interface.name.prompt:
+    text: '介面名稱:'
+introduce.constant.enum.cb:
+    text: 擷取為枚舉常數
+introduce.constant.introduce.to.class:
+    text: 引入參數到方法：
+introduce.constant.title:
+    text: 擷取常數
+introduce.field.field.of.type:
+    text: '欄位的類型:'
+introduce.field.title:
+    text: 引入常數
+introduce.parameter.title:
+    text: 擷取參數
+introduce.parameter.to.method:
+    text: 引入參數物件(_J)...
+introduce.target.chooser.expressions.title:
+    text: 表達式
+introduce.variable.title:
+    text: 引入類別（全修飾名）：
+introduced.variable.will.conflict.with.0:
+    text: 引入變數重構
+invalid.target.package.name.default.package:
+    text: 不能將類別移動到預設包
+invalid.target.package.name.specified:
+    text: 指定的目標包名稱無效
+local.variable.description:
+    text: 局部變數 {0}
+member.column:
+    text: 成員
+member.info.implements.0:
+    text: 實現{0}
+member.is.already.static:
+    text: 成員已經是靜態的。
+method.column:
+    text: 方法
+method.description:
+    text: 方法{0}
+method.duplicates.method.label:
+    text: 方法{0}
+method.is.not.a.constructor:
+    text: 方法不是一個構造函數
+migration.add.button:
+    text: 新增...
+migration.class:
+    text: 類別
+migration.dialog.ok.button.text:
+    text: 執行
+migration.edit.button:
+    text: 編輯...
+migration.entry.class:
+    text: 類別
+migration.entry.new.name:
+    text: '新名字:'
+migration.entry.old.name:
+    text: '舊名字:'
+migration.entry.package:
+    text: 包
+migration.move.down.button:
+    text: 下移
+migration.move.up.button:
+    text: 上移
+migration.new.button:
+    text: 新增...
+migration.new.name.column.header:
+    text: 新名字
+migration.old.name.column.header:
+    text: 舊名字
+migration.package:
+    text: 包
+migration.remove.button:
+    text: 刪除
+migration.title:
+    text: 遷移
+migration.type.column.header:
+    text: 類型
+move.current.directory:
+    text: 移動目前的
+move.directories:
+    text: 移動全部
+move.directory.0:
+    text: 移動目錄{0}
+move.enum.constant.cb:
+    text: 如果可能的話擷取為枚舉常數
+move.file.0:
+    text: 移動檔案{0}
+move.files.to.directory.label:
+    text: '到目錄:'
+move.inner.class.command:
+    text: 移動內部類別{0}
+move.inner.class.to.another.class:
+    text: 移動內部類別{0}到另一個類別(&M)
+move.members.title:
+    text: 移動成員
+move.single.class.or.package.name.label:
+    text: 移動{0} {1}
+move.specified.classes:
+    text: 移動指定的類別
+move.specified.classes.to:
+    text: 移動指定的類別到：
+move.specified.directories:
+    text: 移動指定的目錄
+move.specified.elements:
+    text: 移動指定的元素
+move.specified.files:
+    text: 移動指定的檔案
+move.specified.packages:
+    text: 移動指定的包
+move.title:
+    text: 移動
+move.to.inner.duplicate.inner.class:
+    text: 類別{0}已包含一個名為 {1} 的內部類別
+name.prompt:
+    text: 名稱
+no.button:
+    text: 否
+no.class.name.specified:
+    text: 沒有指定類別名
+no.destination.class.specified:
+    text: 未指定目標類別
+no.field.name.specified:
+    text: 未指定欄位名稱
+no.interface.name.specified:
+    text: 未指定介面名稱
+no.new.name.specified:
+    text: 沒有指定新名字
+no.parameter.name.specified:
+    text: 沒有指定參數名稱
+no.superclass.name.specified:
+    text: 未指定超類別名稱
+no.target.directory.specified:
+    text: 未指定目標目錄
+ok.button:
+    text: 確定
+package.does.not.exist:
+    text: |-
+        包{0}不存在。
+        你想建立它嗎？
+parameter.name.prompt:
+    text: '參數名稱:'
+parameter.of.type:
+    text: '參數的類型:'
+parameters.border.title:
+    text: 參數
+preview.button:
+    text: 預覽
+progress.text:
+    text: 檢視用法
+prompt.delete.elements:
+    text: 刪除{0}?
+readonly.occurences.found:
+    text: 在唯讀檔案中找到符合項
+refactor.button:
+    text: 重構
+refactoring.extract.method.dialog.empty:
+    text: 空
+refactoring.extract.method.dialog.method.name:
+    text: '方式名稱:'
+refactoring.extract.method.dialog.output.variables:
+    text: 輸出變數
+refactoring.extract.method.dialog.parameters:
+    text: 參數
+refactoring.extract.method.dialog.signature.preview:
+    text: 簽名預覽
+refactoring.extract.method.dialog.title:
+    text: 擷取方法
+refactoring.indexing.warning.title:
+    text: 正在編制索引
+refactoring.introduce.name.error:
+    text: 不正確的名稱
+refactoring.introduce.name.used.error:
+    text: 這個名字已被使用
+refactoring.introduce.variable.scope.error:
+    text: 與現有的變數名稱衝突
+refactoring.is.not.supported.for.language:
+    text: '{0} 不支援 {1}'
+remove.duplicates.command:
+    text: 刪除複製的內容
+rename.bound.forms:
+    text: 重新命名 bound &forms
+rename.current.directory:
+    text: 重新命名目前的
+rename.directories:
+    text: 重新命名全部
+rename.directories.command.name:
+    text: 重新命名目錄
+rename.directory.button.text:
+    text: 重新命名目錄
+rename.directory.command.name:
+    text: 重新命名目錄
+rename.directory.title:
+    text: 重新命名目錄(&D)
+rename.inheritors:
+    text: 重新命名繼承者(&i)
+rename.module.title:
+    text: 重新命名模組(&M)
+rename.not.supported:
+    text: 操作不被支援
+rename.package.button.text:
+    text: 重新命名包
+rename.project:
+    text: 重新命名項目
+rename.project.action.title:
+    text: 重新命名項目...
+rename.project.handler.title:
+    text: 重新命名項目(&P)
+rename.tests:
+    text: 重新命名 tests(&e)
+rename.title:
+    text: 重新命名
+rename.variables:
+    text: 重新命名變數(&V)
+rename.variables.title:
+    text: 重新命名變數
+renames.project:
+    text: 重新命名項目
+renaming.0.1.to.2:
+    text: 將{0} {1}重新命名為{2}
+replace.all.fields:
+    text: 替換所有欄位(&R)
+replace.all.occurences:
+    text: 替換所有的符合項({0}符合項)
+replace.all.occurences.checkbox:
+    text: 替換所有的符合項(&a)
+replace.all.occurrences.of.expression.0.occurrences:
+    text: 替換所有的符合項(&a)({0})
+replace.button:
+    text: 替換
+replace.constructor.with.factory.method.title:
+    text: 用工廠方法替代構造函數
+replace.inheritance.with.delegation.elements.header:
+    text: 與代表團替換繼承
+replace.method.duplicates.scope.chooser.message:
+    text: 分析範圍
+replace.method.duplicates.scope.chooser.title:
+    text: 指定範圍 {0}
+replace.multiple.occurrences.found:
+    text: 找到多個符合項
+rerun.safe.delete:
+    text: 重新執行安全刪除(&R)
+retry.command:
+    text: 重試
+safe.delete.not.available.indexing:
+    text: 編制索引期間，無法使用“安全刪除”重構
+safe.delete.title:
+    text: 安全刪除
+search.for.references:
+    text: 尋找參照
+search.for.text.occurrences:
+    text: 搜索文字符合項
+search.for.usages.and.delete.elements:
+    text: 搜尋慣例和刪除{0}？
+search.in.comments.and.strings:
+    text: 在註解和字串中搜索
+searching.for.duplicates:
+    text: 尋找重複的...
+select.all.button:
+    text: 全選(&A)
+select.refactoring.title:
+    text: 選取重構
+select.target.directory:
+    text: 選取目標目錄
+select.target.directory.description:
+    text: 將此目錄中建立檔案
+signature.preview.border.title:
+    text: 簽名預覽
+statusBar.noUsages:
+    text: 沒有發現
+statusBar.refactoring.result:
+    text: '{0, choice, 1#1 occurrence|2#{0,number} occurrences} 修改過'
+superclass.cannot.be.extracted.from.an.enum:
+    text: 不能從一個枚舉中擷取超類別。
+superclass.cannot.be.extracted.from.an.interface:
+    text: 不能從一個介面中擷取超類別。
+the.field.should.be.declared.in.a.class:
+    text: 應在類別中宣告該欄位。
+the.file.will.be.copied.to.this.directory:
+    text: 檔案將被複製到這個目錄中
+the.file.will.be.moved.to.this.directory:
+    text: 該檔案將被移到此目錄
+the.following.problems.were.found:
+    text: 發現以下問題：
+there.are.unused.methods.that.override.methods.you.delete:
+    text: 有未使用的方法,你可以刪除覆寫方法
+this.member.does.not.seem.to.belong.to.any.class:
+    text: 此成員似乎不屬於任何類別。
+to.refactor:
+    text: 去重構
+type.migration.exclude.action.text:
+    text: 排除(&E)
+type.migration.include.action.text:
+    text: 包括(&I)
+type.migration.migrate.button.text:
+    text: 遷移(&M)
+type.migration.rerun.button.text:
+    text: 重新執行類型遷移(&R)
+unknown.expression.type:
+    text: 未知的運算式類型。
+unused.overriding.methods.title:
+    text: 未使用的覆寫方法
+usageView.doAction:
+    text: 進行重構
+usageView.tabText:
+    text: 重構預覽
+usageView.usagesText:
+    text: 用法
+variable.does.not.have.an.initializer:
+    text: 變數{0}沒有初始化。
+variable.has.no.initializer:
+    text: 變數{0}沒有初始化。
+variable.is.never.used:
+    text: 變數 {0} 從未使用
+variable.is.never.used.before.modification:
+    text: 修改之前從未使用變數 {0}
+visibility.private:
+    text: 私有
+visibility.protected:
+    text: 受保護(&O)
+visibility.public:
+    text: 公用
+warning.title:
+    text: 警告
+what.would.you.like.to.do:
+    text: 你想做什麼？
+yes.button:
+    text: 是(&Y)

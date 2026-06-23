@@ -1,0 +1,116 @@
+checkbox.run.tests.before.commit:
+    text: "Запусціць ''{0}''"
+checkbox.run.tests.before.commit.no.configuration:
+    text: Запусціць тэсты
+dialog.message.target.does.not.exist:
+    text: Цэль {0} не існуе
+dialog.message.unable.to.parse.test.results:
+    text: "Не ўдалося разабраць вынікі тэстаў з ''{0}''. Вынікі тэстаў павінны быць захаваны ў фармаце xml."
+dialog.message.unable.to.run.configuration.failed.to.detect.test.framework:
+    text: 'Не ўдалося запусціць канфігурацыю: не выяўлены тэставы фрэймворк'
+dialog.message.unable.to.run.configuration.settings.are.corrupted:
+    text: 'Не ўдалося запусціць канфігурацыю: налады пашкоджаны'
+link.label.choose.configuration.before.commit:
+    text: Выбраць канфігурацыю
+progress.text.running.tests:
+    text: "Запуск ''{0}''…"
+sm.test.runner.abstract.import.test.error.title:
+    text: Памылка імпарту
+sm.test.runner.import.test:
+    text: Імпартаваць тэсты з файла…
+sm.test.runner.import.test.choose.test.file.title:
+    text: Выберыце файл з вынікамі тэстаў
+sm.test.runner.import.test.description:
+    text: Імпарт вынікаў выканання тэстаў з XML-файла
+sm.test.runner.import.test.group.history:
+    text: Гісторыя тэстаў
+sm.test.runner.import.test.group.open.recent.session:
+    text: Адкрыць апошнюю сесію тэстаў
+sm.test.runner.imported.to.general.failed.to.parse.error.title:
+    text: Не удалось разобрать {0}
+sm.test.runner.magnitude.assertion.failed.title:
+    text: Памылка сцвярджэння
+sm.test.runner.magnitude.completed.failed.title:
+    text: Завершана
+sm.test.runner.magnitude.ignored.failed.title:
+    text: Прамахнуўся
+sm.test.runner.magnitude.not.run.failed.title:
+    text: Не працуе
+sm.test.runner.magnitude.passed.title:
+    text: Прайшлі
+sm.test.runner.magnitude.running.failed.title:
+    text: Выконваецца...
+sm.test.runner.magnitude.skipped.failed.title:
+    text: Прамахнуўся
+sm.test.runner.magnitude.terminated.failed.title:
+    text: Перапынены
+sm.test.runner.magnitude.testerror.title:
+    text: Памылка
+sm.test.runner.results.form.save.test.results.title:
+    text: Захаваць вынікі тэстаў
+sm.test.runner.states.test.is.ignored:
+    text: Тэст ігнаруецца.
+sm.test.runner.ui.tests.tree.presentation.accessible.status.error:
+    text: Памылка
+sm.test.runner.ui.tests.tree.presentation.accessible.status.failed:
+    text: Не пройден
+sm.test.runner.ui.tests.tree.presentation.accessible.status.failed.with.errors:
+    text: Не пройдзены з памылкамі
+sm.test.runner.ui.tests.tree.presentation.accessible.status.ignored:
+    text: Ігнараваны
+sm.test.runner.ui.tests.tree.presentation.accessible.status.ignored.with.errors:
+    text: Ігнараваны з памылкамі
+sm.test.runner.ui.tests.tree.presentation.accessible.status.not.ran:
+    text: Не запушчаны
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed:
+    text: Пройден
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed.with.errors:
+    text: Пройдзены з памылкамі
+sm.test.runner.ui.tests.tree.presentation.accessible.status.passed.with.ignored:
+    text: Пройдзены з ігнараваннем
+sm.test.runner.ui.tests.tree.presentation.accessible.status.paused:
+    text: Прыпынены
+sm.test.runner.ui.tests.tree.presentation.accessible.status.paused.with.errors:
+    text: Прыпынены з памылкамі
+sm.test.runner.ui.tests.tree.presentation.accessible.status.running:
+    text: Выполняется
+sm.test.runner.ui.tests.tree.presentation.accessible.status.running.with.errors:
+    text: Выконваецца з памылкамі
+sm.test.runner.ui.tests.tree.presentation.accessible.status.skipped:
+    text: Прапушчаны
+sm.test.runner.ui.tests.tree.presentation.accessible.status.skipped.with.errors:
+    text: Прапушчаны з памылкамі
+sm.test.runner.ui.tests.tree.presentation.accessible.status.terminated:
+    text: Прерван
+sm.test.runner.ui.tests.tree.presentation.accessible.status.terminated.with.errors:
+    text: Перарваны з памылкамі
+sm.test.runner.ui.tests.tree.presentation.labels.all.but.ignored.passed:
+    text: Усе тэсты пройдзены (акрамя ігнаруемых)
+sm.test.runner.ui.tests.tree.presentation.labels.all.tests.passed:
+    text: Все тесты пройдены
+sm.test.runner.ui.tests.tree.presentation.labels.done:
+    text: 'Готово:'
+sm.test.runner.ui.tests.tree.presentation.labels.failed:
+    text: 'Не пройдено:'
+sm.test.runner.ui.tests.tree.presentation.labels.instantiating.tests:
+    text: Стварэнне экзэмпляраў тэстаў…
+sm.test.runner.ui.tests.tree.presentation.labels.no.tests.were.found:
+    text: Тесты не найдены
+sm.test.runner.ui.tests.tree.presentation.labels.not.test.results:
+    text: Нет результатов тестов
+sm.test.runner.ui.tests.tree.presentation.labels.of:
+    text: з
+sm.test.runner.ui.tests.tree.presentation.labels.running:
+    text: 'Выполняется:'
+sm.test.runner.ui.tests.tree.presentation.labels.running.tests:
+    text: Выкананне тэстаў…
+sm.test.runner.ui.tests.tree.presentation.labels.test.noname:
+    text: <без імя>
+sm.test.runner.ui.tests.tree.presentation.labels.test.reporter.not.attached:
+    text: Тэставы фрэймворк нечакана завяршыўся
+sm.test.runner.ui.tests.tree.presentation.labels.test.results:
+    text: Результаты тестов
+sm.test.runner.ui.tests.tree.presentation.labels.was.terminated:
+    text: прерван
+suffix.incomplete.index.was.used:
+    text: Некаторыя тэсты маглі быць прапушчаны з-за няпоўнага індэкса

@@ -1,0 +1,1644 @@
+action.$Copy.description:
+    text: 复制到剪贴板
+action.$Copy.text:
+    text: _复制
+action.$Cut.description:
+    text: 剪切到剪贴板
+action.$Cut.text:
+    text: 剪切
+action.$Delete.description:
+    text: 删除所选项目
+action.$Delete.text:
+    text: _删除
+action.$Paste.description:
+    text: 从剪贴板粘贴
+action.$Paste.text:
+    text: _粘贴
+action.$SelectAll.description:
+    text: 全选
+action.$SelectAll.text:
+    text: 选择全部
+action.ActivateNavBar.description:
+    text: 激活导航栏
+action.ActivateNavBar.text:
+    text: 激活导航栏
+action.AddFrameworkSupport.text:
+    text: 添加框架支持…
+action.AddNewFavoritesList.description:
+    text: 添加新收藏夹列表
+action.AddNewFavoritesList.text:
+    text: 添加新收藏夹列表
+action.AddToFavoritesPopup.description:
+    text: 添加选择的节点到收藏夹
+action.AddToFavoritesPopup.text:
+    text: 添加到收藏夹
+action.Annotate.description:
+    text: 显示每行的最新修改日期和作者（也称为"追溯"/"Blame"）
+action.Annotate.text:
+    text: 注_解
+action.AutoIndentLines.description:
+    text: 根据代码样式设置缩进当前行或所选代码块
+action.AutoIndentLines.text:
+    text: _自动缩进行
+action.AutoShowProcessWindow.text:
+    text: 自动显示
+action.Back.description:
+    text: 撤销上次导航操作
+action.Back.text:
+    text: _后退
+action.BuildAllArtifacts.text:
+    text: 手工构建所有的
+action.CallHierarchy.BaseOnThisType.description:
+    text: 对于选定的方法显示调用层次
+action.CallHierarchy.BaseOnThisType.text:
+    text: 在此基础上的方法
+action.CallHierarchy.description:
+    text: 浏览所选方法的调用层次结构
+action.CallHierarchy.text:
+    text: _调用层次结构
+action.CaptureAllocations.description:
+    text: 捕获内存分配数据
+action.CaptureAllocations.text:
+    text: 捕捉分配
+action.CaptureCPUUsageData.description:
+    text: 捕获 CPU 使用率数据
+action.CaptureCPUUsageData.text:
+    text: 启动 CPU 使用率分析
+action.CaptureMemorySnapShot.description:
+    text: 捕获内存快照
+action.CaptureMemorySnapShot.text:
+    text: 捕获内存快照
+action.ChangeCustomizationSchema.description:
+    text: 改变当前定制计划
+action.ChangeCustomizationSchema.text:
+    text: 切换自定义计划
+action.ChangeFileEncodingAction.description:
+    text: 更改文件编码
+action.ChangeFileEncodingAction.text:
+    text: 文件编码
+action.ChangeFileEncodingGroupAction.description:
+    text: 更改文件编码
+action.ChangeFileEncodingGroupAction.text:
+    text: 更改文件编码
+action.ChangeSignature.description:
+    text: 更改所选方法或类的签名并修正所有引用
+action.ChangeSignature.text:
+    text: 更改签名…
+action.ChangeSplitOrientation.text:
+    text: 更改分割器方向
+action.ChangeTypeSignature.description:
+    text: 更改方法、字段、参数、变量或类类型参数的返回类型，并修正所有引用
+action.ChangeTypeSignature.text:
+    text: 类_型迁移…
+action.ChangesView.AddUnversioned.From.Dialog.description:
+    text: 附表选定的文件添加到VCS
+action.ChangesView.AddUnversioned.From.Dialog.text:
+    text: 添加到VCS
+action.ChangesView.AddUnversioned.text:
+    text: 添加到版本控制
+action.ChangesView.Browse.text:
+    text: 浏览更改…
+action.ChangesView.Commit.description:
+    text: 提交选定的变更列表
+action.ChangesView.Commit.text:
+    text: 提交修改
+action.ChangesView.DeleteUnversioned.description:
+    text: 删除无版本描述
+action.ChangesView.DeleteUnversioned.text:
+    text: 删除
+action.ChangesView.Edit.text:
+    text: 签出
+action.ChangesView.Ignore.description:
+    text: 如无版本不显示选定的文件
+action.ChangesView.Ignore.text:
+    text: 忽略...
+action.ChangesView.Move.text:
+    text: 移动到另一个变更列表…
+action.ChangesView.NewChangeList.text:
+    text: 新建变更列表…
+action.ChangesView.Refresh.text:
+    text: 刷新
+action.ChangesView.RemoveChangeList.text:
+    text: 删除变更列表
+action.ChangesView.Rename.text:
+    text: 编辑变更列表…
+action.ChangesView.Revert.description:
+    text: 还原选区的修改
+action.ChangesView.Revert.text:
+    text: _回滚…
+action.ChangesView.SetDefault.text:
+    text: 设置为活动变更列表
+action.ClassNameCompletion.description:
+    text: 等效于按两次基本补全快捷键（可用于补全未导入的类名）
+action.ClassNameCompletion.text:
+    text: 二次基本补全
+action.CloseActiveTab.text:
+    text: 关闭_活动选项卡
+action.CloseAllEditors.text:
+    text: 关闭所有选项_卡
+action.CloseAllEditorsButActive.text:
+    text: 关闭其他选项_卡
+action.CloseAllUnmodifiedEditors.text:
+    text: 关闭未修改的_选项卡
+action.CloseAllUnpinnedEditors.text:
+    text: 关闭除固定外的所有
+action.CloseContent.text:
+    text: _关闭选项卡
+action.CloseEditor.text:
+    text: _关闭活动编辑器
+action.CloseProject.description:
+    text: 关闭当前项目
+action.CloseProject.text:
+    text: 关闭项目
+action.CloseWindow.text:
+    text: 关闭活动窗口
+action.CodeCompletion.description:
+    text: 补全代码
+action.CodeCompletion.text:
+    text: _基本
+action.CodeInspection.OnEditor.description:
+    text: 检查代码编辑器设置(E)
+action.CollapseAll.text:
+    text: 全部折叠
+action.CollapseAllRegions.description:
+    text: 折叠（选中范围内的）所有折叠区域
+action.CollapseAllRegions.text:
+    text: 全部折叠
+action.CollapseBlock.description:
+    text: 折叠当前代码块
+action.CollapseBlock.text:
+    text: 折叠代码块
+action.CollapseDocComments.description:
+    text: 折叠所有文档注释
+action.CollapseDocComments.text:
+    text: 折叠文档注释
+action.CollapseRegion.description:
+    text: 折叠光标处的折叠区域
+action.CollapseRegion.text:
+    text: _折叠
+action.CollapseSelection.description:
+    text: 折叠所选代码块
+action.CollapseSelection.text:
+    text: 折叠选择 _/ 移除区域
+action.CollapseTreeNode.text:
+    text: 折叠树节点
+action.CommentByBlockComment.description:
+    text: 用块注释对代码进行注释/取消注释
+action.CommentByBlockComment.text:
+    text: 用_块注释注释
+action.CommentByLineComment.description:
+    text: 用行注释对当前行或所选代码块进行注释/取消注释
+action.CommentByLineComment.text:
+    text: 用_行注释注释
+action.CommittedChanges.Clear.text:
+    text: 清除
+action.CommittedChanges.Details.text:
+    text: 显示详情
+action.CommittedChanges.Filter.text:
+    text: 筛选
+action.CommittedChanges.Refresh.description:
+    text: 刷新已提交更改的列表
+action.CommittedChanges.Refresh.text:
+    text: 刷新
+action.CommittedChanges.Revert.text:
+    text: 还原更改
+action.Compare.Selected.text:
+    text: _与修订版比较…
+action.CompareClipboardWithSelection.text:
+    text: 与剪贴板比较
+action.CompareFileWithEditor.description:
+    text: 将选定的文件与编辑器中的文件进行比较
+action.CompareFileWithEditor.text:
+    text: 将文_件与编辑器比较
+action.CompareTwoFiles.description:
+    text: 比较两个选定的文件或文件夹
+action.CompareTwoFiles.text:
+    text: 比较文件
+action.ConfigureFileDefaultEncoding.description:
+    text: 在目录或整个项目配置默认编码的文件，文件
+action.ConfigureFileDefaultEncoding.text:
+    text: 配置默认编码...
+action.Console.Execute.text:
+    text: 在单行控制台中执行当前语句
+action.Console.History.Browse.text:
+    text: 浏览查询历史
+action.Console.History.Next.text:
+    text: 控制台历史中的下一条目
+action.Console.History.Previous.text:
+    text: 控制台历史中的上一条目
+action.Console.SplitLine.text:
+    text: 拆分行
+action.ContextHelp.description:
+    text: 显示上下文帮助
+action.ContextHelp.text:
+    text: 上下文帮助(_X)
+action.ConvertIndentsToSpaces.text:
+    text: 转换为空格
+action.ConvertIndentsToTabs.text:
+    text: 转换为制表符
+action.ConvertProject.description:
+    text: 项目转换为新的格式。你将无法通过早期版本的IDEA来打开该项目。
+action.ConvertProject.text:
+    text: 转换项目(&C)
+action.CopyElement.text:
+    text: 复_制…
+action.CopyPaths.description:
+    text: 将所选文件或目录的路径复制到剪贴板
+action.CopyPaths.text:
+    text: 复制路径
+action.CopyReference.description:
+    text: 复制所选类、方法或函数的引用，或所选文件的相对路径
+action.CopyReference.text:
+    text: 复制引用
+action.CreateLibraryFromFile.text:
+    text: 添加为库…
+action.CreateRunConfiguration.description:
+    text: 从上下文中创建运行配置
+action.CreateRunConfiguration.text:
+    text: 创建运行配置
+action.DebugListen.text:
+    text: 抛出调试异常
+action.DecodeBytesAction.text:
+    text: 字节解码...
+action.DecrementWindowHeight.text:
+    text: 减少高度
+action.DecrementWindowWidth.text:
+    text: 减少宽度
+action.DelegateMethods.description:
+    text: 生成委托方法到字段/getter
+action.DelegateMethods.text:
+    text: _委托方法(D)…
+action.Diff.AppendLeftSide.text:
+    text: 附加左侧
+action.Diff.AppendRightSide.text:
+    text: 附加右侧
+action.Diff.ApplyLeftSide.text:
+    text: 接受左侧
+action.Diff.ApplyNonConflicts.Left.text:
+    text: 从左侧应用无冲突的更改
+action.Diff.ApplyNonConflicts.Right.text:
+    text: 从右侧应用无冲突的更改
+action.Diff.ApplyNonConflicts.text:
+    text: 应用所有无冲突的更改
+action.Diff.ApplyRightSide.text:
+    text: 接受右侧
+action.Diff.ComparePartial.Base.Left.text:
+    text: 左侧和中间
+action.Diff.ComparePartial.Base.Right.text:
+    text: 中间和右侧
+action.Diff.ComparePartial.Left.Right.text:
+    text: 左侧和右侧
+action.Diff.CompareWithBase.Left.text:
+    text: 基础和左侧
+action.Diff.CompareWithBase.Result.text:
+    text: 基础和中间
+action.Diff.CompareWithBase.Right.text:
+    text: 基础和右侧
+action.Diff.FocusOppositePane.text:
+    text: 选择相反的差异窗格
+action.Diff.FocusOppositePaneAndScroll.text:
+    text: 选择相反差异窗格中的位置
+action.Diff.IgnoreLeftSide.text:
+    text: 忽略左侧
+action.Diff.IgnoreRightSide.text:
+    text: 忽略右侧
+action.Diff.IgnoreWhitespace.text:
+    text: 切换差异忽略空白
+action.Diff.MagicResolveConflicts.text:
+    text: 解决简单冲突
+action.Diff.NextChange.text:
+    text: 比较下一个文件
+action.Diff.NextConflict.description:
+    text: 移动到下一个未解决的冲突
+action.Diff.NextConflict.text:
+    text: 下一个冲突
+action.Diff.PrevChange.text:
+    text: 比较上一个文件
+action.Diff.PreviousConflict.description:
+    text: 移动到上一个未解决的冲突
+action.Diff.PreviousConflict.text:
+    text: 上一个冲突
+action.Diff.ResolveConflict.text:
+    text: 自动解决
+action.Diff.SelectedChange.text:
+    text: 选择文件要比较
+action.Diff.ShowDiff.description:
+    text: 比较文件或修订版
+action.Diff.ShowDiff.text:
+    text: 显示差异
+action.DumpInspectionDescriptions.text:
+    text: 导出检查描述
+action.DumpIntentionsDescriptions.text:
+    text: 导出意图描述
+action.DumpPsiMemoryCaches.text:
+    text: 转储什么是缓存在PSI
+action.EditBreakpoint.text:
+    text: 编辑断点
+action.EditMacros.text:
+    text: _编辑宏
+action.EditSource.description:
+    text: 为所选项目打开编辑器并聚焦
+action.EditSource.text:
+    text: _跳转到源代码
+action.EditSourceInNewWindow.description:
+    text: 在新窗口中打开所选项目的编辑器并聚焦
+action.EditSourceInNewWindow.text:
+    text: 在新窗口中打开选项卡
+action.EditorConsoleScrollToTheEnd.text:
+    text: 滚动到末尾
+action.ExcludeFromProject.text:
+    text: 从项目中排除...
+action.Exit.description:
+    text: 退出 IDE
+action.Exit.text:
+    text: 退_出
+action.ExpandAll.text:
+    text: 全部展开
+action.ExpandAllRegions.description:
+    text: 展开（选中范围内的）所有折叠区域
+action.ExpandAllRegions.text:
+    text: _全部展开
+action.ExpandDocComments.description:
+    text: 展开所有文档注释
+action.ExpandDocComments.text:
+    text: 展开文档注释
+action.ExpandRegion.description:
+    text: 展开光标处的折叠区域
+action.ExpandRegion.text:
+    text: 展_开
+action.ExpandTreeNode.text:
+    text: 展开树节点
+action.ExportSettings.description:
+    text: 导出全局设置
+action.ExportSettings.text:
+    text: _导出设置…
+action.ExportTestResults.text:
+    text: 导出测试结果…
+action.ExportThreads.text:
+    text: 导出线程…
+action.ExportToEclipse.description:
+    text: 为每个模块创建 Eclipse 项目
+action.ExportToEclipse.text:
+    text: 将项目导出到 Eclipse…
+action.ExportToHTML.description:
+    text: 以 HTML 格式保存文件内容并保留语法着色
+action.ExportToHTML.text:
+    text: 将文件或选择导出到 _HTML…
+action.ExportToTextFile.text:
+    text: 导出到文本文件
+action.ExpressionTypeInfo.description:
+    text: 显示所选表达式的类型
+action.ExpressionTypeInfo.text:
+    text: 类型信_息
+action.ExternalJavaDoc.description:
+    text: 在浏览器中打开所选项目的文档
+action.ExternalJavaDoc.text:
+    text: 外_部文档
+action.ExtractClass.description:
+    text: 提取委托
+action.ExtractClass.text:
+    text: 提取委托…
+action.ExtractInclude.text:
+    text: _包含文件…
+action.ExtractInterface.text:
+    text: 提取接口…
+action.ExtractMethod.text:
+    text: 提取方法…
+action.ExtractModule.text:
+    text: 提取模块…
+action.ExtractSuperclass.text:
+    text: 提取超类…
+action.FileChooser.Delete.text:
+    text: 删除…
+action.FileChooser.Delete.text.description:
+    text: 删除
+action.FileChooser.GotoDesktop.description:
+    text: 转到桌面目录
+action.FileChooser.GotoDesktop.text:
+    text: 桌面目录
+action.FileChooser.GotoHome.description:
+    text: 转到主目录
+action.FileChooser.GotoHome.text:
+    text: 主目录
+action.FileChooser.GotoModule.description:
+    text: 转到模块目录
+action.FileChooser.GotoModule.text:
+    text: 模块目录
+action.FileChooser.GotoProject.description:
+    text: 转到项目目录
+action.FileChooser.GotoProject.text:
+    text: 项目目录
+action.FileChooser.NewFile.description:
+    text: 创建新文件
+action.FileChooser.NewFile.text:
+    text: 新建文件…
+action.FileChooser.NewFolder.description:
+    text: 创建新目录
+action.FileChooser.NewFolder.text:
+    text: 新建目录…
+action.FileChooser.Refresh.text:
+    text: 刷新
+action.FileChooser.ShowHiddens.description:
+    text: 显示隐藏的文件和目录
+action.FileChooser.ShowHiddens.text:
+    text: 显示隐藏的文件和目录
+action.FileStructurePopup.description:
+    text: 显示包含当前文件结构的弹出窗口，用于快速导航
+action.FileStructurePopup.text:
+    text: 文_件结构
+action.Find.description:
+    text: 在活动编辑器中查找字符串
+action.Find.text:
+    text: _查找…
+action.FindInPath.description:
+    text: 在多个文件中查找字符串
+action.FindInPath.text:
+    text: 在文件中查找…
+action.FindJoinpointsByPointcutAction.description:
+    text: 找到连接点确定切入点
+action.FindJoinpointsByPointcutAction.text:
+    text: 找到连接点确定切入点
+action.FindModal.description:
+    text: 当前编辑器中查找字符串，显示模式对话框
+action.FindModal.text:
+    text: 查找...
+action.FindNext.description:
+    text: 重复上次查找/替换操作，或移到所选文本的下一个出现位置
+action.FindNext.text:
+    text: 查找下一个 / 移到下一个出现位置
+action.FindPrevious.description:
+    text: 反向重复上次查找/替换操作，或移到所选文本的上一个出现位置
+action.FindPrevious.text:
+    text: 查找上一个 / 移到上一个出现位置
+action.FindUsages.description:
+    text: 查找光标处符号的用法
+action.FindUsages.text:
+    text: 查找用法
+action.FindUsagesInFile.description:
+    text: 在活动编辑器中查找光标处符号的用法
+action.FindUsagesInFile.text:
+    text: 在_文件中查找用法
+action.FindWordAtCaret.description:
+    text: 查找光标处单词的下一个出现位置
+action.FindWordAtCaret.text:
+    text: 光标处单词的下一个出现位置
+action.FixDocComment.description:
+    text: 为当前上下文生成或修复文档注释
+action.FixDocComment.text:
+    text: 修复文档注释
+action.Forward.description:
+    text: 重做上次撤销的导航操作
+action.Forward.text:
+    text: 前进
+action.FullyExpandTreeNode.text:
+    text: 完全展开树节点
+action.Generate.description:
+    text: 生成构造函数、getter 或 setter 方法等。
+action.Generate.text:
+    text: 生成(_G)…
+action.GenerateAntBuild.description:
+    text: 从项目生成Ant构建文件
+action.GenerateAntBuild.text:
+    text: 生成Ant构建...
+action.GenerateSuperMethodCall.text:
+    text: 超类方法调用
+action.GoToLinkTarget.text:
+    text: 转到链接目标
+action.GotoAction.description:
+    text: 按名称快速导航到操作
+action.GotoAction.text:
+    text: _查找操作…
+action.GotoAspect.description:
+    text: 导航到光标位置影响的错误或警告的建议报告
+action.GotoAspect.text:
+    text: 外观(_A)
+action.GotoClass.description:
+    text: 按名称快速导航到类
+action.GotoClass.text:
+    text: 转到类…
+action.GotoDeclaration.description:
+    text: 导航到光标处符号的声明或显示其用法
+action.GotoDeclaration.text:
+    text: 转到声明或用法
+action.GotoFile.description:
+    text: 按名称快速导航到文件
+action.GotoFile.text:
+    text: 转到文件…
+action.GotoImplementation.description:
+    text: 导航到所选类或方法的实现
+action.GotoImplementation.text:
+    text: 转到实现
+action.GotoLine.description:
+    text: 按行号（和/或列号）导航到编辑器中的位置
+action.GotoLine.text:
+    text: 转到行:列…
+action.GotoNextError.description:
+    text: 导航到活动编辑器中下一个高亮显示的错误
+action.GotoNextError.text:
+    text: _下一个高亮显示的错误
+action.GotoPreviousError.description:
+    text: 导航到活动编辑器中上一个高亮显示的错误
+action.GotoPreviousError.text:
+    text: _上一个高亮显示的错误
+action.GotoRelated.description:
+    text: 导航到一个相关或链接的符号
+action.GotoRelated.text:
+    text: _相关符号…
+action.GotoSuperMethod.description:
+    text: 导航到当前方法重写或实现的方法的声明
+action.GotoSuperMethod.text:
+    text: 转到超类方法
+action.GotoSymbol.description:
+    text: 按名称快速导航到任意符号
+action.GotoSymbol.text:
+    text: 转到符号…
+action.GotoTest.description:
+    text: 导航到所选类的测试
+action.GotoTest.text:
+    text: 转到测试
+action.GotoTestSubject.description:
+    text: 导航到所选测试的主题
+action.GotoTestSubject.text:
+    text: 转到测试主题
+action.GotoTypeDeclaration.description:
+    text: 导航到光标处符号的类型声明
+action.GotoTypeDeclaration.text:
+    text: 转到类型声明
+action.Graph.Current.Node.Dependencies.Filter.text:
+    text: 显示选定节点及其依赖
+action.Graph.choose.directory:
+    text: 选择目录
+action.Graph.export.to.file:
+    text: 导出到文件...
+action.Graph.export.to.file.dialog.caption:
+    text: 导出到文件
+action.Graph.fit.content:
+    text: 适合内容
+action.Graph.grid.hide:
+    text: 隐藏网格
+action.Graph.grid.show:
+    text: 显示网格
+action.Graph.grid.snap:
+    text: 对齐网格
+action.Graph.layout.apply.current:
+    text: 适用于当前布局
+action.Graph.layout.balloon:
+    text: 气球布局
+action.Graph.layout.circular:
+    text: 圆形布局
+action.Graph.layout.directed.orthogonal:
+    text: 导演正交布局
+action.Graph.layout.fit.content:
+    text: 适应内容的布局
+action.Graph.layout.hierarchic.group:
+    text: 分层组布局
+action.Graph.layout.organic:
+    text: 有机布局
+action.Graph.layout.orthogonal:
+    text: 正交布局
+action.Graph.layout.tree:
+    text: 树布局
+action.Graph.print:
+    text: 打印图表
+action.Graph.print.preview:
+    text: 打印预览
+action.Graph.print.reset:
+    text: 重置
+action.Graph.show.edge.label:
+    text: 显示边缘标签
+action.Graph.show.selected.node.dependencies.label:
+    text: 显示选中的节点具有相关性
+action.Graph.zoom.actual:
+    text: 实际大小
+action.Graph.zoom.in:
+    text: 放大
+action.Graph.zoom.out:
+    text: 缩小
+action.HelpTopics.text:
+    text: _帮助(H)
+action.HideActiveWindow.text:
+    text: 隐藏_活动工具窗口
+action.HideAllWindows.text:
+    text: 隐藏所有工具窗口
+action.HideSideWindows.text:
+    text: 隐藏侧边工具窗口
+action.HighlightUsagesInFile.description:
+    text: 在活动编辑器中高亮显示光标处符号的用法
+action.HighlightUsagesInFile.not.ready:
+    text: 此用法搜索需要索引，索引构建完成后才能执行
+action.HighlightUsagesInFile.text:
+    text: _在文件中高亮显示用法
+action.HippieBackwardCompletion.description:
+    text: 循环展开单词（向后）
+action.HippieBackwardCompletion.text:
+    text: 循环展开单词（向后）
+action.HippieCompletion.description:
+    text: 循环展开单词
+action.HippieCompletion.text:
+    text: 循环展开单词
+action.IdeScriptingConsole.text:
+    text: IDE 脚本控制台
+action.Images.Editor.ActualSize.description:
+    text: 调整图片为实际尺寸
+action.Images.Editor.ActualSize.text:
+    text: 实际尺寸
+action.Images.Editor.ToggleGrid.description:
+    text: 切换图像上的网格线
+action.Images.Editor.ToggleGrid.text:
+    text: 网格
+action.Images.Editor.ZoomIn.description:
+    text: 放大图像视图
+action.Images.Editor.ZoomIn.text:
+    text: 放大
+action.Images.Editor.ZoomOut.description:
+    text: 减小图像视图
+action.Images.Editor.ZoomOut.text:
+    text: 缩小
+action.Images.ShowThumbnails.description:
+    text: 显示当前目录的缩略图视图
+action.Images.ShowThumbnails.text:
+    text: 显示缩略图
+action.Images.Thumbnails.EnterAction.description:
+    text: 浏览目录
+action.Images.Thumbnails.EnterAction.text:
+    text: 浏览
+action.Images.Thumbnails.Hide.description:
+    text: 关闭缩略图窗口
+action.Images.Thumbnails.Hide.text:
+    text: 关闭缩略图
+action.Images.Thumbnails.ToggleRecursive.description:
+    text: 切换递归浏览
+action.Images.Thumbnails.ToggleRecursive.text:
+    text: 递归
+action.Images.Thumbnails.UpFolder.description:
+    text: 升级
+action.Images.Thumbnails.UpFolder.text:
+    text: 升级
+action.Images.ToggleTransparencyChessboard.description:
+    text: 在图像下切换透明度棋盘
+action.Images.ToggleTransparencyChessboard.text:
+    text: 透明度棋盘
+action.ImplementMethods.description:
+    text: 实现当前类中的基接口/类方法
+action.ImplementMethods.text:
+    text: _实现方法(I)…
+action.ImportFromEclipse.description:
+    text: 从Eclipse项目创建项目
+action.ImportFromEclipse.text:
+    text: 从Eclipse导入...
+action.ImportFromJBuilder.description:
+    text: 从JBuilder项目加载模块
+action.ImportFromJBuilder.text:
+    text: 从JBuilder导入...
+action.ImportModule.description:
+    text: 从包含现有源代码的目录或现有项目模型导入模块
+action.ImportModule.text:
+    text: 从现有源代码创建模块…
+action.ImportModuleFromImlFile.text:
+    text: 导入模块
+action.ImportProject.description:
+    text: 为包含现有源代码的目录创建项目结构或转换现有项目模型
+action.ImportSettings.description:
+    text: 导入全局设置
+action.ImportSettings.text:
+    text: 导入设置…
+action.IncomingChanges.Get.description:
+    text: 如何修改选定的文件修改列表的最新版本
+action.IncomingChanges.Get.text:
+    text: 获取变更列表
+action.IncomingChanges.Refresh.description:
+    text: 刷新传入更改的列表
+action.IncomingChanges.Refresh.text:
+    text: 刷新
+action.IncrementWindowHeight.text:
+    text: 增加高度
+action.IncrementWindowWidth.text:
+    text: 增加宽度
+action.IncrementalSearch.description:
+    text: 启动增量搜索（输入时搜索字符串）
+action.IncrementalSearch.text:
+    text: 增量搜索
+action.Inline.text:
+    text: 内_联(I)…
+action.InsertLiveTemplate.description:
+    text: 显示以指定前缀开头的代码模板弹出列表
+action.InsertLiveTemplate.text:
+    text: 插入代码模板…
+action.InspectCode.description:
+    text: 检查代码
+action.IntroduceConstant.text:
+    text: 引入常量…
+action.IntroduceField.text:
+    text: 引入字段…
+action.IntroduceParameter.text:
+    text: 引入参数…
+action.IntroduceParameterObject.text:
+    text: 引入参数对象…
+action.IntroduceVariable.text:
+    text: 引入变量…
+action.InvalidateCaches.description:
+    text: 在下次启动时强制重建所有缓存和索引
+action.InvalidateCaches.text:
+    text: 清除缓存…
+action.JumpToLastChange.description:
+    text: 在最近的更改点之间移动
+action.JumpToLastChange.text:
+    text: 上一个编辑位置
+action.JumpToLastWindow.text:
+    text: _跳转到上一个工具窗口
+action.LocalVcs.ShowRepHistory.text:
+    text: 版本库历史
+action.LocalVcs.ShowStatistics.description:
+    text: 显示本地VCS统计
+action.LocalVcs.ShowStatistics.text:
+    text: 显示本地VCS统计...
+action.LocalizePlugin.text:
+    text: 本地化插件
+action.Lvcs.RollbackFileAction.description:
+    text: 回复
+action.Lvcs.RollbackFileAction.text:
+    text: 回滚文件
+action.Lvcs.ShowLvcsDiffAction.description:
+    text: 显示所有更改
+action.Lvcs.ShowLvcsDiffAction.text:
+    text: 比较版本
+action.ManageRecentProjects.text:
+    text: 管理项目…
+action.MarkAsOriginalTypeAction.text:
+    text: 标记为原始文件类型
+action.MarkAsPlainTextAction.text:
+    text: 标记为纯文本
+action.MemberPushDown.text:
+    text: 向下_推成员…
+action.MembersPullUp.text:
+    text: 向上_拉成员…
+action.Merge3Files.text:
+    text: 合并
+action.MethodDown.description:
+    text: 导航到活动编辑器中的下一个方法
+action.MethodDown.text:
+    text: 下_一个方法
+action.MethodHierarchy.BaseOnThisType.description:
+    text: 层次结构显示所选类/接口的方法
+action.MethodHierarchy.BaseOnThisType.text:
+    text: 在此基础上类型
+action.MethodHierarchy.ImplementMethodAction.text:
+    text: 实现方法
+action.MethodHierarchy.OverrideMethodAction.text:
+    text: 重写方法
+action.MethodHierarchy.description:
+    text: 浏览所选方法的方法层次结构
+action.MethodHierarchy.text:
+    text: _方法层次结构
+action.MethodUp.description:
+    text: 导航到活动编辑器中的上一个方法
+action.MethodUp.text:
+    text: 上一个方_法
+action.MinimizeCurrentWindow.text:
+    text: 最小化
+action.ModuleSettings.text:
+    text: 模块设置
+action.Move.text:
+    text: _移动…
+action.MoveElementLeft.description:
+    text: 将当前元素移动到包含列表中的上一个位置
+action.MoveElementLeft.text:
+    text: 向左移动元素
+action.MoveElementRight.description:
+    text: 将当前元素移动到包含列表中的下一个位置
+action.MoveElementRight.text:
+    text: 向右移动元素
+action.MoveLineDown.description:
+    text: 将选中的行向下移动一行
+action.MoveLineDown.text:
+    text: 向下移动行
+action.MoveLineUp.description:
+    text: 将选中的行向上移动一行
+action.MoveLineUp.text:
+    text: 向上移动行
+action.MoveStatementDown.description:
+    text: 将选中的语句向下移动一行
+action.MoveStatementDown.text:
+    text: 向下移动语句
+action.MoveStatementUp.description:
+    text: 将选中的语句向上移动一行
+action.MoveStatementUp.text:
+    text: 向上移动语句
+action.MoveToTheLeft.description:
+    text: 左移参数
+action.MoveToTheLeft.text:
+    text: 左移参数
+action.MoveToTheRight.description:
+    text: 右移参数
+action.MoveToTheRight.text:
+    text: 右移参数
+action.NewDir.text:
+    text: 目录
+action.NewDirectoryProject.text:
+    text: 新建项目…
+action.NewElement.description:
+    text: 创建新的类、接口、文件或目录
+action.NewElement.text:
+    text: _新建…
+action.NewElementSamePlace.description:
+    text: 在此目录中创建新的类、接口、文件或目录
+action.NewElementSamePlace.text:
+    text: _在此目录中新建…
+action.NewElementToolbarAction.text:
+    text: 创建新文件
+action.NewFile.text:
+    text: 文件
+action.NewFromTemplate.text:
+    text: 来自模板
+action.NewInspectionsInLatestVersion.description:
+    text: 显示 IDEA 9 的新特性
+action.NewInspectionsInLatestVersion.text:
+    text: IDEA 9 的新特性
+action.NewModule.description:
+    text: 从头创建新模块并添加到项目中
+action.NewModule.text:
+    text: _模块…
+action.NewModuleInGroup.text:
+    text: 模块
+action.NewProject.description:
+    text: 从头创建新项目
+action.NewProject.text:
+    text: _项目…
+action.NewScratchBuffer.description:
+    text: 创建新的或重用现有的临时缓冲区
+action.NewScratchBuffer.text:
+    text: 新建临时缓冲区
+action.NewScratchFile.description:
+    text: 使用所选语言创建新的临时文件
+action.NewScratchFile.text:
+    text: 临时文件
+action.NewScratchFile.text.with.new:
+    text: 新建临时文件
+action.NextDiff.description:
+    text: 移动到下一个差异
+action.NextDiff.text:
+    text: 下一个差异
+action.NextEditorTab.text:
+    text: 在多编辑器文件中选择下一个选项卡
+action.NextOccurence.description:
+    text: 导航到下一个出现位置
+action.NextOccurence.text:
+    text: 下一_个出现
+action.NextParameter.text:
+    text: 下一个参数
+action.NextProjectWindow.description:
+    text: 切换到下一个解决方案窗口
+action.NextProjectWindow.text:
+    text: 下一个解决方案窗口
+action.NextSplitter.text:
+    text: _转到下一个分割器
+action.NextTab.text:
+    text: 选择下一个选项卡
+action.NextTemplateParameter.text:
+    text: 下一个代码模板参数
+action.NextTemplateVariable.text:
+    text: 下一个模板变量或完成就地重构
+action.OpenDirectoryProject.description:
+    text: 开始编辑代码在指定的目录
+action.OpenDirectoryProject.text:
+    text: 开放目录...
+action.OpenFile.description:
+    text: 在编辑器中打开项目或文件
+action.OpenFile.text:
+    text: _打开…
+action.OpenInRightSplit.text:
+    text: 在右侧拆分中打开
+action.OpenModuleSettings.text:
+    text: 模块设置
+action.OverrideFileTypeAction.text:
+    text: 覆盖文件类型
+action.OverrideMethods.description:
+    text: 重写当前类中的基类方法
+action.OverrideMethods.text:
+    text: _重写方法(O)…
+action.ParameterInfo.description:
+    text: 显示光标处方法调用的参数
+action.ParameterInfo.text:
+    text: _参数信息
+action.PasteMultiple.description:
+    text: 从最近的剪贴板记录粘贴
+action.PasteMultiple.text:
+    text: 从历史记录粘贴…
+action.PerformanceReport.text:
+    text: 提交性能报告
+action.PinActiveTab.text:
+    text: 固_定活动选项卡
+action.PlaySavedMacrosAction.text:
+    text: 播放已保存的宏…
+action.PopupHector.text:
+    text: 配置当前文件分析…
+action.PrevParameter.text:
+    text: 上一个参数
+action.PrevSplitter.text:
+    text: 转到上一个分割器
+action.PrevTemplateParameter.text:
+    text: 上一个代码模板参数
+action.PreviousDiff.description:
+    text: 移动到上一个差异
+action.PreviousDiff.text:
+    text: 上一个差异
+action.PreviousEditorTab.text:
+    text: 在多编辑器文件中选择上一个选项卡
+action.PreviousOccurence.description:
+    text: 导航到上一个出现位置
+action.PreviousOccurence.text:
+    text: 上一个出现
+action.PreviousProjectWindow.description:
+    text: 切换到上一个解决方案窗口
+action.PreviousProjectWindow.text:
+    text: 上一个解决方案窗口
+action.PreviousTab.text:
+    text: 选择_上一个选项卡
+action.PreviousTemplateVariable.text:
+    text: 上一个模板变量
+action.Print.description:
+    text: 打印文件
+action.Print.text:
+    text: _打印…
+action.ProjectViewChangeView.description:
+    text: 选择项目，源路径和类路径,项目树视图窗口
+action.ProjectViewChangeView.text:
+    text: 更改视图...
+action.ProjectViewEditSource.text:
+    text: 编辑源代码
+action.PsiViewer.text:
+    text: 查看 PSI 结构(_V)…
+action.PsiViewerForContext.text:
+    text: 查看当前文件的 PSI 结构(_R)…
+action.QuickChangeScheme.description:
+    text: 更改当前的代码样式方案、颜色和字体方案、快捷键映射或外观风格
+action.QuickChangeScheme.text:
+    text: _快速切换方案…
+action.QuickDocCopy.text:
+    text: 复制快速文档
+action.QuickEvaluateExpression.description:
+    text: 计算选定的表达式
+action.QuickEvaluateExpression.text:
+    text: 快速计算表达式(_Q)
+action.QuickImplementations.description:
+    text: 显示包含符号（及其实现）内容的弹出窗口
+action.QuickImplementations.text:
+    text: 快速定义
+action.QuickJavaDoc.description:
+    text: 显示包含光标处符号文档的弹出窗口
+action.QuickJavaDoc.text:
+    text: 快速文档
+action.RearrangeCode.description:
+    text: 重新排列代码
+action.RearrangeCode.text:
+    text: 重新排列代码
+action.RecentChangedFiles.description:
+    text: 显示最近更改的文件列表
+action.RecentChangedFiles.text:
+    text: 最近更改的文件
+action.RecentChanges.text:
+    text: 最近的修改
+action.RecentFiles.description:
+    text: 显示最近查看的文件列表
+action.RecentFiles.text:
+    text: 最近的文_件
+action.RecentLocations.description:
+    text: 显示最近查看/更改的位置列表
+action.RecentLocations.text:
+    text: 最近的位置
+action.ReformatCode.description:
+    text: 重新格式化代码
+action.ReformatCode.text:
+    text: _重新格式化代码
+action.Refresh.text:
+    text: 刷_新
+action.ReloadFromDisk.description:
+    text: 从硬盘重新载入当前文件并丢失所有的改变
+action.ReloadFromDisk.text:
+    text: 从磁盘重新加载
+action.ReloadProjectAction.text:
+    text: 重新加载所有项目
+action.RemoveAllFavoritesListsButThis.description:
+    text: 删除所有收藏这些除外
+action.RemoveAllFavoritesListsButThis.text:
+    text: 删除所有收藏列表中，但此
+action.RemoveFavoritesList.description:
+    text: 删除选定的节点所属的所有收藏到
+action.RemoveFavoritesList.text:
+    text: 删除收藏夹列表
+action.RemoveStripeButton.text:
+    text: 从侧边栏移除
+action.RenameElement.description:
+    text: 重命名所选符号并修正所有引用
+action.RenameElement.text:
+    text: _重命名…
+action.ReopenClosedTab.text:
+    text: 重新打开已关闭的选项卡
+action.Replace.description:
+    text: 将活动编辑器中的字符串替换为另一个字符串
+action.Replace.text:
+    text: _替换…
+action.ReplaceInPath.description:
+    text: 在多个文件中将字符串替换为另一个字符串
+action.ReplaceInPath.text:
+    text: 在文件中_替换…
+action.RerunFailedTests.text:
+    text: 重新运行失败的测试
+action.ResizeToolWindowMaximize.text:
+    text: 最大化工具窗口
+action.ResizeToolWindowMaximize.text.alternative:
+    text: 还原工具窗口大小
+action.RestoreDefaultLayout.text:
+    text: _还原当前布局
+action.RevealIn.name.mac:
+    text: 在 Finder 中显示
+action.RevealIn.text:
+    text: 在文件管理器中显示
+action.ReverteOverrideFileTypeAction.text:
+    text: 还原文件类型覆盖
+action.RunAnything.text:
+    text: 运行任意命令
+action.RunConfiguration.description:
+    text: 选择运行/调试配置
+action.RunConfiguration.text:
+    text: 选择运行/调试配置
+action.RunDashboard.ClearContent.text:
+    text: 清除内容
+action.RunDashboard.CopyConfiguration.text:
+    text: 复制配置
+action.RunDashboard.Debug.text:
+    text: 调试
+action.RunDashboard.EditConfiguration.text:
+    text: 编辑配置
+action.RunDashboard.GroupByStatus.text:
+    text: 状态
+action.RunDashboard.GroupByType.text:
+    text: 类型
+action.RunDashboard.GroupConfigurations.text:
+    text: 分组配置
+action.RunDashboard.HideConfiguration.text:
+    text: 隐藏配置
+action.RunDashboard.OpenRunningConfigInNewTab.text:
+    text: 在新选项卡中打开运行中的配置
+action.RunDashboard.RemoveType.text:
+    text: 从服务中移除配置类型
+action.RunDashboard.RestoreConfiguration.text:
+    text: 还原配置
+action.RunDashboard.RestoreHiddenConfigurations.text:
+    text: 还原隐藏的配置
+action.RunDashboard.Run.text:
+    text: _运行(_R)
+action.RunDashboard.Stop.text:
+    text: 停止
+action.RunDashboard.UngroupConfigurations.text:
+    text: 取消分组配置
+action.RunGc.text:
+    text: 运行垃圾收集器
+action.Runner.AttachCell.description:
+    text: 将选择视图附加到调试器工具窗口
+action.Runner.AttachCell.text:
+    text: 附加
+action.Runner.AttachCells.text:
+    text: 附加{0}视图
+action.Runner.CloseAllViews.description:
+    text: 关闭所有视图
+action.Runner.CloseAllViews.text:
+    text: 关闭所有
+action.Runner.CloseOtherViews.description:
+    text: 关闭其他视图
+action.Runner.CloseOtherViews.text:
+    text: 关闭其他
+action.Runner.CloseView.description:
+    text: 关闭视图
+action.Runner.CloseView.text:
+    text: 关闭
+action.Runner.DetachCell.description:
+    text: 分离所选视图到一个单独的窗口
+action.Runner.DetachCell.text:
+    text: 分离
+action.Runner.DetachCells.text:
+    text: 分离{0}视图
+action.Runner.FocusOnStartup.text:
+    text: 启动时聚焦
+action.Runner.MinimizeView.description:
+    text: 隐藏视图
+action.Runner.MinimizeView.text:
+    text: 隐藏
+action.Runner.MoveViewToGrid.description:
+    text: 移动视图到调试器网格容器
+action.Runner.MoveViewToGrid.text:
+    text: 移动网格
+action.Runner.MoveViewToTab.description:
+    text: 移动以调试器选项卡容器
+action.Runner.MoveViewToTab.text:
+    text: 移动到标签
+action.Runner.RestoreLayout.text:
+    text: 还原默认布局
+action.Runner.RestoreView.description:
+    text: 恢复调试器网格中的视图
+action.Runner.RestoreView.text:
+    text: "恢复 ''{0}'' 视图"
+action.Runner.ToggleToolbarLayout.description:
+    text: 切换水平/垂直方向的工具栏
+action.Runner.ToggleToolbarLayout.text:
+    text: 水平工具栏
+action.SafeDelete.text:
+    text: 安全删除…
+action.SaveAll.description:
+    text: 保存所有文件和设置
+action.SaveAll.text:
+    text: _保存全部
+action.SaveDocument.text:
+    text: 保存文档
+action.Scratch.ChangeLanguage.description:
+    text: 更改临时文件语言
+action.Scratch.ChangeLanguage.text:
+    text: 更改文件语言
+action.ScrollTreeToCenter.text:
+    text: 滚动到中心
+action.SearchEverywhere.text:
+    text: 全局搜索
+action.SelectAllOccurrences.text:
+    text: 选择所有出现
+action.SelectIn.description:
+    text: 在任何视图中选择当前类或方法
+action.SelectIn.text:
+    text: 在._..中选择…
+action.SelectNextOccurrence.text:
+    text: 为下一个出现添加选择
+action.ServiceView.ConfigureServices.text:
+    text: 配置服务工具窗口
+action.ServiceView.GroupByContributor.text:
+    text: 按类型分组服务
+action.ServiceView.JumpToServices.text:
+    text: 跳转到服务
+action.ServiceView.OpenEachInNewTab.text:
+    text: 分别在新选项卡中打开
+action.ServiceView.OpenInNewTab.text:
+    text: 在新选项卡中打开
+action.ServiceView.OpenInToolWindow.text:
+    text: 在单独的工具窗口中打开
+action.ServiceView.SelectActiveService.text:
+    text: 始终选择活动服务
+action.ServiceView.ShowServices.text:
+    text: 显示服务树
+action.ServiceView.SplitByType.text:
+    text: 每种类型在新选项卡中打开
+action.ShelvedChanges.DeleteDeleted.text:
+    text: 删除应用搁置的更改
+action.ShelvedChanges.Diff.description:
+    text: 差异显示为选定的修改
+action.ShelvedChanges.Diff.text:
+    text: 显示差异
+action.ShelvedChanges.Rename.text:
+    text: 重命名…
+action.ShelvedChanges.Restore.text:
+    text: 还原已应用的暂存更改
+action.ShelvedChanges.ShowHideDeleted.text:
+    text: 显示/隐藏已应用的暂存更改
+action.ShelvedChanges.Unshelve.description:
+    text: 应用保存更改当前的代码库
+action.ShelvedChanges.Unshelve.text:
+    text: 取消搁置修改
+action.ShowBackwardPackageDeps.description:
+    text: 浏览使用所选分析项的代码
+action.ShowBackwardPackageDeps.text:
+    text: 分析_反向依赖关系…
+action.ShowColorPicker.text:
+    text: 显示颜色选择器
+action.ShowContent.text:
+    text: 显示选项卡列表
+action.ShowContent.views.text:
+    text: 显示视图列表
+action.ShowErrorDescription.description:
+    text: 显示光标处错误或警告的描述
+action.ShowErrorDescription.text:
+    text: 错_误描述
+action.ShowFilePath.description:
+    text: 显示包含当前文件路径的弹出窗口，用于在外部文件管理器中打开
+action.ShowFilePath.text:
+    text: 文件路径
+action.ShowIntentionActions.text:
+    text: 显示上下文操作
+action.ShowLog.text:
+    text: 在文件管理_器中显示日志
+action.ShowModulesDependencies.description:
+    text: 显示项目中模块之间的依赖关系
+action.ShowModulesDependencies.text:
+    text: 分析_模块依赖关系…
+action.ShowNavBar.text:
+    text: 跳转到导航栏(_J)
+action.ShowPackageDeps.description:
+    text: 浏览所选分析项所依赖的代码
+action.ShowPackageDeps.text:
+    text: 分析_依赖关系…
+action.ShowPopupMenu.text:
+    text: 显示上下文菜单
+action.ShowProcessWindow.double.click:
+    text: 点击显示/隐藏后台任务窗口
+action.ShowProcessWindow.text:
+    text: 显示
+action.ShowProjectStructureSettings.description:
+    text: 配置项目结构
+action.ShowProjectStructureSettings.text:
+    text: 项目结构…
+action.ShowQuickDocAtPinnedWindowFromTooltip.description:
+    text: 显示在一个固定的窗口完整的文档
+action.ShowQuickDocAtPinnedWindowFromTooltip.text:
+    text: 在一个固定的窗口完整的文档
+action.ShowReformatFileDialog.text:
+    text: 重新格式化文件…
+action.ShowRegistry.text:
+    text: 注册表…
+action.ShowSettingsAndFindUsages.description:
+    text: 为查找用法操作选择范围和编辑选项
+action.ShowSettingsAndFindUsages.text:
+    text: 查找用法设置…
+action.ShowUsages.description:
+    text: 显示光标处符号的用法
+action.ShowUsages.text:
+    text: _显示用法
+action.ShowUserActivities.text:
+    text: 显示活动的
+action.SmartTypeCompletion.description:
+    text: 根据预期的类型补全代码
+action.SmartTypeCompletion.text:
+    text: _智能类型补全
+action.SplitHorizontally.text:
+    text: 向下拆分
+action.SplitVertically.text:
+    text: 向右拆分
+action.StartStopMacroRecording.text:
+    text: 开始/停止宏录制
+action.StartupWizard.description:
+    text: 运行一个向导，选择启用的插件集
+action.StartupWizard.text:
+    text: 配置插件...
+action.Stop.description:
+    text: 停止进程
+action.Stop.text:
+    text: 停止
+action.StopBackgroundProcesses.text:
+    text: 停止后台进程…
+action.StoreDefaultLayout.text:
+    text: _保存当前布局的更改
+action.SurroundWith.description:
+    text: 用 if、while、try/catch 或其他结构包围所选代码片段
+action.SurroundWith.text:
+    text: _包围(S)…
+action.SurroundWithLiveTemplate.description:
+    text: 使用模板包围所选内容
+action.SurroundWithLiveTemplate.text:
+    text: 用代码模板包围…
+action.Switcher.text:
+    text: 切换器
+action.Synchronize.description:
+    text: 检测所有外部更改的文件并从磁盘重新加载
+action.Synchronize.text:
+    text: 从磁盘重新加载全部
+action.SynchronizeCurrentFile.text:
+    text: 从磁盘重新加载
+action.TabList.text:
+    text: 显示隐藏的选项卡
+action.TechnicalSupport.text:
+    text: 联系支持…
+action.TemplateProjectProperties.description:
+    text: 配置所有新建项目的默认设置
+action.TemplateProjectProperties.text:
+    text: 默认设置...
+action.TemplateProjectStructure.description:
+    text: 配置所有新项目的默认结构
+action.TemplateProjectStructure.text:
+    text: 新项目的结构…
+action.TextComponent.ClearAction.text:
+    text: 清除文本
+action.ToggleBreakpointEnabled.text:
+    text: 切换断点启用
+action.ToggleContentUiTypeMode.text:
+    text: 分组选项卡
+action.ToggleFullScreen.description:
+    text: 切换全屏模式
+action.ToggleFullScreen.text:
+    text: 切换全屏模式
+action.ToggleFullScreen.text.enter:
+    text: 进入全屏
+action.ToggleFullScreen.text.exit:
+    text: 退出全屏
+action.TogglePopupHints.text:
+    text: 切换当前文件的弹出提示
+action.TogglePowerSave.text:
+    text: 省电模式
+action.TogglePresentationMode.description:
+    text: 切换演示模式
+action.TogglePresentationMode.text:
+    text: 切换演示模式
+action.TogglePresentationMode.text.enter:
+    text: 进入演示模式
+action.TogglePresentationMode.text.exit:
+    text: 退出演示模式
+action.ToggleReadOnlyAttribute.description:
+    text: 切换当前文件的只读属性
+action.ToggleReadOnlyAttribute.files:
+    text: 使{2,choice,1#文件|2#文件}变为{0,choice,0#只读|1#可写}
+action.ToggleReadOnlyAttribute.text:
+    text: 切换只读属性
+action.ToggleSideMode.text:
+    text: 拆分模式
+action.TypeHierarchy.BaseOnThisType.text:
+    text: 在此基础上类型
+action.TypeHierarchy.Class.text:
+    text: 类层次结构
+action.TypeHierarchy.Subtypes.text:
+    text: 子类型层次结构
+action.TypeHierarchy.Supertypes.text:
+    text: 超类型层次结构
+action.TypeHierarchy.description:
+    text: 浏览所选类的层次结构
+action.TypeHierarchy.text:
+    text: 类型层次结构
+action.UnmarkRoot.text:
+    text: 取消标记
+action.UnselectPreviousOccurrence.text:
+    text: 取消选择出现
+action.Unsplit.text:
+    text: 取消_拆分
+action.UnsplitAll.text:
+    text: 取_消全部分割
+action.Unwrap.description:
+    text: 安全地展开或移除所选范围
+action.Unwrap.text:
+    text: 展开/移除…
+action.UpdateRunningApplication.text:
+    text: 更新正在运行的应用程序
+action.UsageView.Rerun.text:
+    text: 重新运行
+action.Vcs.CheckCommitMessageSpelling.description:
+    text: 切换检查提交信息的拼写错误
+action.Vcs.CheckCommitMessageSpelling.text:
+    text: 检查提交信息的拼写
+action.Vcs.EditSourceAction.description:
+    text: 编辑源代码
+action.Vcs.EditSourceAction.text:
+    text: 编辑源代码
+action.Vcs.ExcludeAction.description:
+    text: 从 Commit 排除
+action.Vcs.ExcludeAction.text:
+    text: 从 Commit 排除
+action.Vcs.FileView.description:
+    text: 显示版本控制相关的信息对所有本地文件
+action.Vcs.FileView.text:
+    text: 显示文件视图
+action.Vcs.ProjectStatus.text:
+    text: 检查项目状态
+action.Vcs.Push.text:
+    text: 推送(_P)…
+action.Vcs.RollbackChangedLines.text:
+    text: 回滚行
+action.Vcs.RollbackChanges.description:
+    text: 回滚更改
+action.Vcs.RollbackChanges.text:
+    text: 回滚更改
+action.Vcs.ShowDiffAction.text:
+    text: 显示更改
+action.Vcs.ShowHistoryForBlock.description:
+    text: 显示编辑器所选内容的历史
+action.Vcs.ShowHistoryForBlock.text:
+    text: 显示所选内容的历史(_F)…
+action.Vcs.UpdateProject.text:
+    text: _更新项目(U)
+action.VcsHistory.ShowAllAffected.text:
+    text: 显示所有受影响的文件
+action.ViewImportPopups.description:
+    text: 切换当前文件中导入弹出窗口的显示
+action.ViewImportPopups.text:
+    text: 显示导入弹出窗口
+action.ViewNavigationBar.description:
+    text: 显示/隐藏导航栏
+action.ViewNavigationBar.text:
+    text: 导航_栏
+action.ViewSource.description:
+    text: 为所选项目打开编辑器
+action.ViewSource.text:
+    text: 显示源_代码
+action.ViewStatusBar.description:
+    text: 显示/隐藏状态栏
+action.ViewStatusBar.text:
+    text: _状态栏
+action.ViewToolBar.description:
+    text: 显示/隐藏主工具栏
+action.ViewToolBar.text:
+    text: _工具栏
+action.ViewToolButtons.description:
+    text: 显示/隐藏工具窗口按钮
+action.ViewToolButtons.text:
+    text: 工具窗口栏
+action.VirtualFileInfo.text:
+    text: 虚拟文件信息
+action.WelcomeScreen.Configure.DesktopEntry.description:
+    text: 与系统应用程序菜单中集成创建一个桌面项
+action.WelcomeScreen.Configure.DesktopEntry.text:
+    text: 创建桌面项
+action.WelcomeScreen.Configure.Export.text:
+    text: 导出设置
+action.WelcomeScreen.Configure.Import.text:
+    text: 导入设置…
+action.WelcomeScreen.CreateDirectoryProject.text:
+    text: 新建项目
+action.WelcomeScreen.CreateNewProject.text:
+    text: 新建项目
+action.WelcomeScreen.DevelopPlugins.text:
+    text: 插件开发
+action.WelcomeScreen.GetFromVcs.description:
+    text: 您可以检查出整个项目的版本控制系统。单击该图标或链接来选择你的VCS。
+action.WelcomeScreen.GetFromVcs.text:
+    text: 从版本库检出
+action.WelcomeScreen.ImportProject.description:
+    text: 创建目录{0}的项目结构与现有的源或转换现有的项目模型。
+action.WelcomeScreen.ImportProject.text:
+    text: 导入项目
+action.WelcomeScreen.OpenDirectoryProject.text:
+    text: 打开
+action.WelcomeScreen.OpenProject.text:
+    text: 打开或导入
+action.WelcomeScreen.Plugins.text:
+    text: 插件
+action.redo.description:
+    text: 重做 {0}
+action.redo.text:
+    text: _重做 {0}
+action.undo.description:
+    text: 撤销 {0}
+action.undo.text:
+    text: _撤销 {0}
+group.$LRU.description:
+    text: 最近打开的项目列表
+group.$LRU.text:
+    text: _最近的项目
+group.ActiveToolwindowGroup.text:
+    text: 活动工具窗口
+group.AddAllToFavorites.text:
+    text: 全部添加到收藏夹
+group.AddToFavorites.text:
+    text: 添加到收藏夹
+group.AnalyzeJavaMenu.description:
+    text: 分析 Java 菜单
+group.AnalyzeJavaMenu.text:
+    text: 分析 Java 菜单
+group.AnalyzeMenu.text:
+    text: _分析(_A)
+group.BackgroundTasks.text:
+    text: 进程
+group.Bookmarks.text:
+    text: 书签
+group.ChangeLineSeparators.text:
+    text: 行分隔符
+group.CodeCompletionGroup.text:
+    text: 代码补全
+group.CodeMenu.text:
+    text: _代码(C)
+group.CommanderViewPopupMenu.text:
+    text: 命令视图下拉菜单
+group.ConvertIndentsGroup.text:
+    text: 转换缩进
+group.Copy.Paste.Special.text:
+    text: 复制 / 选择性粘贴
+group.EditBookmarksGroup.text:
+    text: 书签
+group.EditMenu.text:
+    text: _编辑(E)
+group.EditorActions.text:
+    text: 编辑器操作
+group.EditorBidiTextDirection.description:
+    text: 混合 LTR/RTL 文本的主要方向
+group.EditorBidiTextDirection.text:
+    text: 双向文本基准方向
+group.EditorTabsGroup.text:
+    text: 编辑器选项卡
+group.ExportImportGroup.text:
+    text: 管理 IDE 设置
+group.ExternalToolsGroup.text:
+    text: 外部工具
+group.FavoritesViewPopupMenu.text:
+    text: 收藏视图下拉菜单
+group.FilSettingsGroup.text:
+    text: 设置操作
+group.FileMainSettingsGroup.text:
+    text: 设置操作
+group.FileMenu.text:
+    text: 文件(_F)
+group.FileOpenGroup.text:
+    text: 文件打开操作
+group.FileOtherSettingsGroup.text:
+    text: 新项目设置
+group.FilePropertiesGroup.text:
+    text: 文件属性
+group.FindMenuGroup.text:
+    text: _查找
+group.FoldingGroup.text:
+    text: 折叠
+group.GenerateGroup.text:
+    text: _生成(G)
+group.GoToMenu.text:
+    text: _导航(N)
+group.GoToMenuEx.text:
+    text: 方法导航操作
+group.HelpMenu.text:
+    text: 帮助
+group.IntroduceActionsGroup.text:
+    text: 提_取/引入
+group.MainMenu.text:
+    text: 主菜单
+group.MarkFileAs.text:
+    text: 标记文件为
+group.MarkRootGroup.text:
+    text: 标记目录为
+group.MemoryManagement.text:
+    text: 内存管理
+group.MoveModuleToGroup.description:
+    text: _移动模块
+group.MoveModuleToGroup.text:
+    text: 将模块移动到组
+group.NavbarPopupMenu.text:
+    text: 导航栏
+group.NewGroup.text:
+    text: _新建
+group.NewGroup2.text:
+    text: 新建组 (2)
+group.OpenProjectWindows.text:
+    text: 打开的解决方案窗口
+group.OtherMenu.description:
+    text: 这是不正确的注册行为
+group.OtherMenu.text:
+    text: 其它
+group.OverrideFileTypeAction.bundledPlugin:
+    text: 内置
+group.OverrideFileTypeAction.title:
+    text: 选择文件类型
+group.PasteGroup.text:
+    text: 粘贴
+group.ProjectImport.text:
+    text: 导入项目
+group.ProjectViewGroup.text:
+    text: 项目视图操作
+group.ProjectViewPopupMenu.text:
+    text: 项目视图弹出窗口菜单
+group.RefactoringMenu.text:
+    text: _重构(R)
+group.RefactoringMenu3.text:
+    text: 重构操作 (3)
+group.RunContextPopupGroup.text:
+    text: 运行配置
+group.RunMenu.text:
+    text: 运_行(R)
+group.Runner.Layout.text:
+    text: 布局
+group.RunnerActions.text:
+    text: 运行/调试
+group.SendToFavoritesGroup.text:
+    text: 发送到收藏夹
+group.ServiceView.AddService.text:
+    text: 添加服务
+group.ServiceView.OpenInNewTabGroup.text:
+    text: 在新选项卡中打开
+group.Shelve.KeymapGroup.text:
+    text: 暂存
+group.TabsPlacementGroup.text:
+    text: 标签布置
+group.TodoViewGroupByGroup.text:
+    text: 分组依据
+group.ToolbarNewElement.text:
+    text: 工具栏新元素组
+group.ToolsBasicGroup.description:
+    text: 基本工具组
+group.ToolsBasicGroup.text:
+    text: 工具基本组
+group.ToolsMenu.text:
+    text: 工具(_L)
+group.TouchBarDebug.text:
+    text: 调试器
+group.TouchBarDefault.text:
+    text: 默认
+group.TouchBarDefault_alt.text:
+    text: 默认使用 Alt 键
+group.TouchBarDefault_cmd.text:
+    text: 默认使用 Cmd 键
+group.ViewMenu.text:
+    text: _视图(V)
+group.ViewStatusBarWidgetsGroup.description:
+    text: 显示/隐藏状态栏组件
+group.ViewStatusBarWidgetsGroup.text:
+    text: _状态栏组件
+group.WeighingNewGroup.text:
+    text: _新建
+group.WindowMenu.text:
+    text: _窗口(W)
+group.XDebugger.settings.text:
+    text: 调试器设置
+group.reopen.mac.text:
+    text: 打开最近的项目
+group.reopen.win.text:
+    text: _重新打开项目
+inline.actions.more.actions.text:
+    text: 更多操作
+stop.capture.cpu.usage.data.action.name:
+    text: 停止 CPU 使用率分析

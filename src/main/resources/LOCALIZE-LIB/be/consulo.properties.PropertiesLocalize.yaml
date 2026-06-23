@@ -1,0 +1,82 @@
+action.I18nize.description:
+    text: Замяніць радковы літарал Java або тэкст JSP інтэрнацыяналізаваным выразам
+action.I18nize.text:
+    text: Інтэрнацыяналізаваць [_Z]…
+create.property.quickfix.text:
+    text: Создать свойство
+duplicate.property.diff.key.option:
+    text: Дублюючыя ключы з рознымі значэннямі [&D]
+duplicate.property.diff.key.problem.descriptor:
+    text: "Дублюючы ключ уласцівасці ''{0}'' з рознымі значэннямі #treeend :<br>"
+duplicate.property.diff.key.progress.indicator.text:
+    text: Апрацоўка дублюючага ключа ўласцівасці:{0}
+duplicate.property.display.name:
+    text: Дублюючая ўласцівасць
+duplicate.property.file.scope.option:
+    text: Файл
+duplicate.property.key.error.message:
+    text: Дублюючы ключ уласцівасці
+duplicate.property.key.option:
+    text: Дублюючыя ключы [&K]
+duplicate.property.key.problem.descriptor:
+    text: "Дублюючы ключ уласцівасці ''{0}'' #treeend са значэннямі:<br>"
+duplicate.property.key.progress.indicator.text:
+    text: Апрацоўка дублюючага ключа ўласцівасці:{0}
+duplicate.property.module.scope.option:
+    text: Модуль
+duplicate.property.project.scope.option:
+    text: Проект
+duplicate.property.value.option:
+    text: Дублюючыя значэнні [&V]
+duplicate.property.value.problem.descriptor:
+    text: "Дублюючае значэнне ўласцівасці ''{0}'' #treeend з ключамі:<br>"
+duplicate.property.value.progress.indicator.text:
+    text: Апрацоўка дублюючага значэння ўласцівасці:{0}
+no.property.selected.panel.label:
+    text: <html><body><center>Выберыце імя ўласцівасці злева для рэдагавання яго значэнняў</body></html>
+project.view.resource.bundle.tree.node.text:
+    text: "Пакет ресурсов ''{0}''"
+properties.files.inspection.group.display.name:
+    text: Файлы свойств
+property.key.expected.parsing.error.message:
+    text: Чакаецца ключ уласцівасці
+remove.property.intention.text:
+    text: Выдаліць уласцівасць
+remove.property.quick.fix.name:
+    text: Выдаліць уласцівасць
+rename.bundle.enter.new.resource.bundle.base.name.prompt.text:
+    text: Увядзіце новае базавае імя пакета рэсурсаў
+rename.prefix.based.property.key.error.message:
+    text: "Немагчыма перайменаваць ключ уласцівасці ''{1}'' на аснове прэфікса ''{0}'' па імені ''{2}'', спачатку змяніце прэфікс"
+rename.resource.bundle.dialog.title:
+    text: Перайменаваць пакет рэсурсаў
+searching.for.property.key.progress.text:
+    text: Пошук {0}
+select.property.separator.dialog.text:
+    text: Выберыце падзельнік
+select.property.separator.dialog.title:
+    text: Падзельнік ключоў уласцівасцей
+select.separator.action.with.empty.separator.name:
+    text: Другое…
+structure.view.group.by.prefixes.action.description:
+    text: Групаваць уласцівасці па агульных прэфіксах ключоў
+structure.view.group.by.prefixes.action.name:
+    text: Па прэфіксах
+trail.spaces.property.inspection.display.name:
+    text: Пробелы в конце свойства
+unescape:
+    text: Прыбраць экранаванне
+unresolved.property.key:
+    text: Не ўдаецца вырашыць ключ уласцівасці
+unused.message.format.parameter.display.name:
+    text: Адсутнічае параметр фарматавання паведамлення
+unused.message.format.parameter.problem.descriptor:
+    text: 'Выкарыстанне параметра {0} без выкарыстання параметра {1} у <code>#ref<code> #loc'
+unused.property.inspection.display.name:
+    text: Нявыкарыстаная ўласцівасць
+unused.property.problem.descriptor.name:
+    text: Нявыкарыстаная ўласцівасць
+unused.property.suppress.for.file:
+    text: Падавіць для ўсяго файла
+unused.property.suppress.for.property:
+    text: Падавіць для гэтай уласцівасці

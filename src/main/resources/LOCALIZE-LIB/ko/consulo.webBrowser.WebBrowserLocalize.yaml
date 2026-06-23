@@ -1,0 +1,24 @@
+browser.error:
+    text: 브라우저 오류
+browser.select.in.default.name:
+    text: 웹 브라우저
+browsers.settings:
+    text: 웹 브라우저 및 미리보기
+chooser.title.select.profiles.ini.file:
+    text: '"profiles.ini" 파일 선택'
+display.name.firefox.settings:
+    text: Firefox 설정
+error.0.browser.path.not.specified:
+    text: '{0} 브라우저 경로가 지정되지 않았습니다.'
+error.file.does.not.exist:
+    text: '{0} 파일이 존재하지 않습니다.'
+error.malformed.url:
+    text: '잘못된 URL: {0}'
+error.please.specify.path.to.web.browser:
+    text: '{0} | 웹 브라우저에서 웹 브라우저 경로를 지정하세요'
+label.text.path.to.profiles.ini:
+    text: '"profiles.ini" 경로:'
+label.text.profile:
+    text: '프로필(&P):'
+title.select.path.to.browser:
+    text: 브라우저 경로 선택

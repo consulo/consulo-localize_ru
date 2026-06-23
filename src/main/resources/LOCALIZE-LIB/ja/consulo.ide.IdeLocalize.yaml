@@ -1,0 +1,1414 @@
+action.abbreviate.qualified.package.names:
+    text: パッケージ名の略称
+action.add:
+    text: 追加
+action.add.all.open.tabs.to.new.favorites.list:
+    text: 開いているすべてのタブを新規お気に入りリストに追加
+action.add.to.new.favorites.list:
+    text: 新規お気に入りリストに追加
+action.append:
+    text: 追加
+action.base.on.this.class:
+    text: このクラスをベースにする
+action.base.on.this.interface:
+    text: このインターフェイスをベースにする
+action.base.on.this.method:
+    text: このメソッドをベースにする
+action.browse.call.hierarchy:
+    text: 呼び出し階層の参照
+action.browse.method.hierarchy:
+    text: メソッド階層の参照
+action.browse.type.hierarchy:
+    text: タイプ階層の参照
+action.callee.methods.hierarchy:
+    text: 呼び出し先メソッドの階層
+action.caller.methods.hierarchy:
+    text: 呼び出し元メソッドの階層
+action.choose.actions.to.add:
+    text: 追加するアクションの選択
+action.clear.list:
+    text: リストのクリア
+action.close:
+    text: 閉じる
+action.close.all.editors:
+    text: すべてのエディタを閉じる(_A)
+action.close.all.editors.in.tab.group:
+    text: タブ グループ内のすべてのエディタを閉じる(_A)
+action.close.all.unmodified.editors:
+    text: 変更していないすべてのエディタを閉じる(_U)
+action.close.all.unmodified.editors.in.tab.group:
+    text: タブ グループ内で変更していないすべてのエディタを閉じる(_U)
+action.close.project:
+    text: プロジェクトを閉じる
+action.collapse.all:
+    text: すべて収縮
+action.compact.empty.middle.packages:
+    text: 空の中間パッケージの収縮
+action.continue.searching:
+    text: 検索の続行
+action.copy.path:
+    text: パスのコピー(_O)
+action.copy.paths:
+    text: パスのコピー(_O)
+action.copy.template:
+    text: テンプレートのコピー
+action.create.annotation.type:
+    text: '@interface の作成'
+action.create.new.directory.or.package:
+    text: 新規ディレクトリまたはパッケージの作成
+action.create.new.enum:
+    text: 新規 Enum の作成
+action.create.new.file:
+    text: 新規ファイルの作成
+action.create.new.interface:
+    text: 新規インターフェイスの作成
+action.create.template:
+    text: テンプレートの作成
+action.delete:
+    text: 削除(_D)
+action.delete.all.favorites.lists.but.this:
+    text: 他のお気に入りリストをすべて削除
+action.delete.ellipsis:
+    text: 削除(_D)...
+action.delete.favorites.list:
+    text: お気に入りリストの削除
+action.description.create.new.module.group:
+    text: 新規モジュール グループの作成
+action.description.create.new.package:
+    text: 新規パッケージの作成
+action.description.group.by.scope:
+    text: スコープ タイプ別にグループ化 (製品、テスト、ライブラリ)
+action.description.show.files:
+    text: ファイルの表示/非表示
+action.description.show.included.only:
+    text: 選択した現在のスコープにインクル－ドされたファイルのみ表示
+action.description.show.modules:
+    text: モジュールの表示/非表示
+action.description.show.structure:
+    text: ストラクチャ ビューの表示
+action.description.todo.show.all:
+    text: すべての TODO アイテムを表示
+action.description.view.class.hierarchy:
+    text: クラス階層に切り替え
+action.description.view.subtypes.hierarchy:
+    text: サブタイプ階層に切り替え
+action.description.view.supertypes.hierarchy:
+    text: スーパータイプ階層に切り替え
+action.descriptor.action:
+    text: 'アクション : {0}'
+action.descriptor.typing:
+    text: '入力 : "{0}"'
+action.directory:
+    text: ディレクトリ
+action.do.not.mark:
+    text: マークしない
+action.edit.file.templates:
+    text: ファイル テンプレートの編集...
+action.expand.all:
+    text: すべて展開
+action.flatten.packages:
+    text: パッケージのフラット表示
+action.from.file.template:
+    text: ファイル テンプレートから...
+action.group.by.modules:
+    text: モジュール別にグループ化
+action.group.by.packages:
+    text: パッケージ別にグループ化
+action.group.by.scope.type:
+    text: スコープ タイプ別にグループ化
+action.help:
+    text: ヘルプ
+action.hide.empty.middle.packages:
+    text: 空の中間パッケージの非表示
+action.hide.non.implementations:
+    text: メソッドが正式に実装されていないクラスを非表示
+action.hide.warnings:
+    text: 警告の非表示
+action.implement.method:
+    text: メソッドの実装
+action.implement.methods:
+    text: メソッドの実装
+action.manual.order:
+    text: マニュアルオーダー
+action.mark:
+    text: マーク
+action.move.module.new.top.level.group:
+    text: 新規トップ レベル グループ...
+action.move.module.outside.any.group:
+    text: グループに属さない
+action.move.module.to.new.sub.group:
+    text: 新規サブ グループへ...
+action.move.module.to.this.group:
+    text: このグループへ
+action.new.package:
+    text: 新規パッケージ...
+action.next.message:
+    text: 次のメッセージ
+action.next.tip:
+    text: 次のヒント(&N)
+action.override.method:
+    text: メソッドのオーバーライド
+action.override.methods:
+    text: メソッドのオーバーライド...
+action.overwrite:
+    text: 上書き
+action.package:
+    text: パッケージ
+action.pin.active.tab:
+    text: アクティブ タブの固定(_I)
+action.pin.tab:
+    text: 表示タブ(_I)
+action.previous.message:
+    text: 前のメッセージ
+action.previous.tip:
+    text: 前のヒント(&P)
+action.refresh:
+    text: 更新
+action.remove:
+    text: 削除
+action.remove.from.current.favorites:
+    text: 現在のお気に入りから削除
+action.remove.template:
+    text: テンプレートの削除
+action.reset.to.default:
+    text: デフォルトに戻す
+action.select.none:
+    text: 何も選択しない(&N)
+action.send.to.new.favorites.list:
+    text: 新規お気に入りリストに送る
+action.show.classes:
+    text: クラスの表示
+action.show.compact.empty.middle.packages:
+    text: 空の中間パッケージの表示/収縮
+action.show.excluded.files:
+    text: 除外されたファイルを表示する
+action.show.files:
+    text: ファイルの表示
+action.show.hide.empty.middle.packages:
+    text: 空の中間パッケージの表示/非表示
+action.show.hide.excluded.files:
+    text: 除外されたファイルの表示/非表示
+action.show.hide.library.contents:
+    text: ライブラリ コンテンツの表示/非表示
+action.show.hide.members:
+    text: メンバの表示/非表示
+action.show.included.only:
+    text: インクルードされたファイルのみ表示
+action.show.libraries.contents:
+    text: ライブラリ コンテンツの表示
+action.show.members:
+    text: メンバの表示
+action.show.modules:
+    text: モジュールの表示
+action.show.structure:
+    text: 構造の表示
+action.sort.alphabetically:
+    text: アルファベット順にソート
+action.sort.by.type:
+    text: タイプでソート
+action.split.horizontally:
+    text: 横に分割(_Z)
+action.split.vertically:
+    text: 縦に分割(_V)
+action.start.macro.recording:
+    text: マクロの記録を開始(_M)
+action.stop:
+    text: 停止
+action.stop.macro.recording:
+    text: マクロの記録を終了(_M)
+action.stop.searching:
+    text: 検索の中止
+action.structureview.group.methods.by.defining.type:
+    text: メソッドをタイプ定義別にグループ化
+action.structureview.show.fields:
+    text: フィールドの表示
+action.structureview.show.inherited:
+    text: 継承の表示
+action.structureview.show.non.public:
+    text: non-public の表示
+action.structureview.show.properties:
+    text: プロパティの表示
+action.structureview.sort.by.visibility:
+    text: 可視レベルによるソート
+action.synchronize.file:
+    text: "''{0}'' の同期"
+action.synchronize.selected.files:
+    text: 選択したファイルの同期
+action.todo.edit.filters:
+    text: フィルタの編集
+action.todo.show.all:
+    text: すべて表示
+action.toolwindow.ant.build:
+    text: Ant ビルド(&B)
+action.toolwindow.commander:
+    text: コマンダ(&C)
+action.toolwindow.debug:
+    text: デバッグ
+action.toolwindow.favorites:
+    text: お気に入り(&F)
+action.toolwindow.find:
+    text: 検索(&I)
+action.toolwindow.hierarchy:
+    text: 階層(&Y)
+action.toolwindow.inspection:
+    text: 検査(&N)
+action.toolwindow.messages:
+    text: メッセージ(&M)
+action.toolwindow.project:
+    text: プロジェクト(&P)
+action.toolwindow.run:
+    text: 実行(&R)
+action.toolwindow.structure:
+    text: 構造(&S)
+action.unpin.active.tab:
+    text: アクティブ タブの固定解除(_I)
+action.unpin.tab:
+    text: 自動非表示タブ(_I)
+action.view.class.hierarchy:
+    text: クラス階層
+action.view.subtypes.hierarchy:
+    text: サブタイプ階層
+action.view.supertypes.hierarchy:
+    text: スーパータイプ階層
+activation.auth.message:
+    text: コマンドラインランチャは古くなっています。
+activation.auth.title:
+    text: 不正操作
+button.add:
+    text: 追加(&A)...
+button.add.action.after:
+    text: 後ろに追加(&F)
+button.add.d:
+    text: 追加(&D)...
+button.add.separator:
+    text: セパレータの追加(&S)
+button.cancel:
+    text: キャンセル
+button.change.directory:
+    text: ディレクトリの変更...
+button.configure:
+    text: 設定(&C)...
+button.configure.e:
+    text: 設定...
+button.copy:
+    text: コピー(&C)
+button.create:
+    text: 作成する
+button.delete:
+    text: 削除
+button.edit:
+    text: 編集(&E)...
+button.edit.action.icon:
+    text: アクション アイコンの編集(&I)
+button.edit.t:
+    text: 編集(&T)...
+button.exclude:
+    text: 除外
+button.exclude.recursively:
+    text: 再帰的にエクスクルード
+button.finish:
+    text: 終了(&F)
+button.fix:
+    text: 修正する...
+button.go.to:
+    text: 移動(&G)
+button.http.proxy.settings:
+    text: HTTP プロキシ設定...
+button.include:
+    text: 追加
+button.include.recursively:
+    text: 再帰的にインクルード
+button.insert:
+    text: 挿入
+button.mark.all:
+    text: すべてマーク(&M)
+button.move.down:
+    text: 下へ移動(&D)
+button.move.down.d:
+    text: 下へ移動(&D)
+button.move.up:
+    text: 上へ移動(&U)
+button.move.up.u:
+    text: 上へ移動(&U)
+button.no:
+    text: いいえ(_N)
+button.remove:
+    text: 削除する
+button.remove.action:
+    text: アクションの削除
+button.remove.all:
+    text: すべて削除(&A)
+button.remove.m:
+    text: 削除(&M)
+button.rename:
+    text: 名前の変更
+button.save:
+    text: 保存
+button.set.icon:
+    text: アイコンの設定(&S)
+button.stop.searching:
+    text: 検索の中止(&S)
+button.unmark.all:
+    text: すべてのマークを解除(&U)
+button.view.source:
+    text: ソースの表示(&V)
+button.wizard.next:
+    text: 次へ(&N) >
+button.wizard.previous:
+    text: < 戻る(&P)
+button.yes:
+    text: はい(_Y)
+checkboox.cyclic.scrolling.in.lists:
+    text: リスト内で循環スクロールする
+checkbox.animate.windows:
+    text: ウィンドウをアニメーション表示する
+checkbox.autodetect.utf:
+    text: <html><body>UTF ファミリでエンコードされたファイルを<br>自動で UTF 形式で読み込む</body></html>
+checkbox.confirm.application.exit:
+    text: アプリケーション終了時に確認する
+checkbox.copy.javadoc:
+    text: JavaDoc をコピーする(&J)
+checkbox.customfiletype.ignore.case:
+    text: 大文字/小文字を区別しない(&I)
+checkbox.customfiletype.support.paired.brackets:
+    text: 組になる大括弧 [ ] をサポート(&C)
+checkbox.customfiletype.support.paired.parens:
+    text: 組になる小括弧 ( ) をサポート(&P)
+checkbox.enable.live.templates:
+    text: ライブテンプレートを有効にする
+checkbox.errortree.export.details:
+    text: 詳細
+checkbox.include.non.project.classes:
+    text: 非プロジェクト クラスを含める(&N)
+checkbox.include.non.project.symbols:
+    text: 非プロジェクト シンボルを含める(&N)
+checkbox.insert.at.override:
+    text: '@Override を挿入する(&O)'
+checkbox.left.toolwindow.layout:
+    text: 左側のサイドバイサイドレイアウト
+checkbox.narrow.down.the.list.on.typing:
+    text: 入力時にリストを絞り込む(&N)
+checkbox.override.default.laf.fonts:
+    text: 'デフォルトのフォントをオーバーライドする (非推奨):'
+checkbox.position.cursor.on.default.button:
+    text: <html>自動的にマウス カーソルを<br>デフォルト ボタンに移動する</html>
+checkbox.reformat.according.to.style:
+    text: スタイルに応じて再フォーマット
+checkbox.reopen.last.project.on.startup:
+    text: スタートアップで最後に使用したプロジェクトを開き直す
+checkbox.right.toolwindow.layout:
+    text: 右のサイドバイサイドレイアウト
+checkbox.safe.delete.with.usage.search:
+    text: セーフ デリート (使用箇所の検索) (&F)
+checkbox.save.files.automatically:
+    text: 'アプリケーションのアイドル状態でファイルを自動保存する :'
+checkbox.save.files.on.frame.deactivation:
+    text: フレームの切り替え時にファイルを保存する
+checkbox.search.in.comments.and.strings:
+    text: コメントと文字列内を検索(&S)
+checkbox.search.in.non.java.files:
+    text: 非 java ファイル内を検索する(&E)
+checkbox.show.editor.preview.popup:
+    text: スクロールバーのホバーにコードレンズを表示する
+checkbox.show.icons.in.quick.navigation:
+    text: クイック ナビゲーションにアイコンを表示する
+checkbox.show.memory.indicator:
+    text: メモリ インジケータを表示する
+checkbox.show.tips.on.startup:
+    text: 起動時にヒントを表示する
+checkbox.show.tool.window.bars:
+    text: ツール ウィンドウ バーを表示する
+checkbox.support.screen.readers:
+    text: サポートスクリーンリーダー（再起動が必要）
+checkbox.synchronize.files.on.frame.activation:
+    text: フレームの切り替え時にファイルを同期する
+checkbox.transparent.native.to.ascii.conversion:
+    text: <html>ネイティブ コードから ASCII コードへの自動変換を行う</html>
+checkbox.use.antialiased.font.in.editor:
+    text: アンチエイリアス フォントをエディタに使用する
+checkbox.use.preview.window:
+    text: プレビューに移動する
+checkbox.use.transparent.mode.for.floating.windows:
+    text: フローティング ウィンドウに透過モードを使用する
+checkbox.widescreen.tool.window.layout:
+    text: ワイドスクリーンツールのウィンドウレイアウト
+column.description:
+    text: 説明
+combobox.look.and.feel:
+    text: 'ルック＆フィール :'
+command.close.active.editor:
+    text: アクティブなエディタを閉じる
+command.close.all.editors:
+    text: すべてのエディタを閉じる
+command.close.all.unmodified.editors:
+    text: 変更していないすべてのエディタを閉じる
+command.create.class.from.template:
+    text: テンプレートからクラス作成
+command.create.directory:
+    text: ディレクトリの作成
+command.create.enum:
+    text: Enum の作成
+command.create.file:
+    text: ファイルの作成
+command.create.file.from.template:
+    text: テンプレートからファイル作成
+command.create.interface:
+    text: インターフェイスの作成
+command.create.new.package:
+    text: 新規パッケージの作成
+command.create.new.subdirectory:
+    text: 新規サブディレクトリの作成
+command.create.package:
+    text: パッケージの作成
+command.find.next:
+    text: 次を検索
+command.find.previous:
+    text: 前を検索
+command.go.to.line:
+    text: 行に移動
+command.go.to.next.split:
+    text: 次の分割画面に移動
+command.go.to.prev.split:
+    text: 前の分割画面に移動
+command.pasting.reference:
+    text: 参照の貼り付け
+command.reload.from.disk:
+    text: ディスクからの再読み込み
+command.renaming.module:
+    text: モジュール {0} の名前変更
+command.select.all:
+    text: すべて選択
+description.copy.text.to.clipboard:
+    text: テキストをクリップボードにコピー
+description.select.module.file.location:
+    text: モジュール ファイルを選択したディレクトリに保存します
+description.select.project.file.directory:
+    text: プロジェクト ファイルは、このディレクトリに格納されます
+dialog.title.clear.read.only.file.status:
+    text: 読み取り専用ステータスのクリア
+directory.module.content.root:
+    text: |
+        モジュール コンテント ルート
+directory.module.file:
+    text: |
+        モジュール ファイル ディレクトリ
+directory.project.file.directory:
+    text: |
+        プロジェクト ファイル ディレクトリ
+editbox.customfiletype.block.comment.end:
+    text: 'ブロック コメントの終了 :'
+editbox.customfiletype.block.comment.start:
+    text: 'ブロック コメントの開始 :'
+editbox.customfiletype.description:
+    text: '説明 :'
+editbox.customfiletype.hex.prefix:
+    text: '16 進値の接頭辞 :'
+editbox.customfiletype.line.comment:
+    text: '行コメント :'
+editbox.customfiletype.name:
+    text: '名前 :'
+editbox.customfiletype.number.postfixes:
+    text: '数値の接尾辞 :'
+editbox.default.encoding.for.properties.files:
+    text: 'プロパティ ファイルのデフォルト エンコード :'
+editbox.export.settings.to:
+    text: '設定のエクスポート :'
+editbox.export.to.file:
+    text: 'ファイルにエクスポート :'
+editbox.ignore.files.and.folders:
+    text: '次のファイルとフォルダは無視する :'
+editbox.keyword:
+    text: 'キーワード :'
+editbox.license.license.key:
+    text: 'ライセンス キー(&K):'
+editbox.license.user.name:
+    text: 'ユーザー名(&U):'
+editbox.line.number:
+    text: '行番号 :'
+element.method:
+    text: メソッド
+element.of.class:
+    text: クラスの
+element.of.interface:
+    text: インターフェイスの
+error.0.browser.path.not.specified:
+    text: '{0}ブラウザパスが指定されていません。'
+error.adding.action.without.icon.to.toolbar:
+    text: ツールバーへのアイコンを指定せずにアクションを追加しようとしています。 デフォルト アイコンをこのアクションに追加します。
+error.adding.module.to.project:
+    text: 'モジュールのプロジェクト追加エラー : {0}'
+error.cannot.find.file:
+    text: ファイル {0} が見つかりません
+error.cannot.load.project:
+    text: 'プロジェクトを読み込めません : {0}'
+error.cannot.set.look.and.feel:
+    text: '{0} のルック＆フィールを設定できません'
+error.cannot.start.browser:
+    text: 'ブラウザを起動できません : {0}'
+error.checkforupdates.connection.failed:
+    text: 接続失敗。 ネットワーク接続を確認して再試行してください。
+error.connection.failed.redirects:
+    text: 接続に失敗しました：リダイレクトが多すぎます
+error.connection.failed.with.http.code.N:
+    text: 接続は HTTP コード {0} で失敗しました
+error.content.root.already.defined.for.module:
+    text: |-
+        コンテント ルート "{0}" はモジュール "{1}" で既に定義されています。
+        プロジェクト内の 2 つのモジュールは同じコンテント ルートを共有できません。
+error.correct.pattern.syntax.errors.first:
+    text: 最初にパターン構文エラーを修正する
+error.failed.to.create.directory:
+    text: '"{0}" の作成に失敗しました'
+error.favorites.list.already.exists:
+    text: "お気に入りリスト ''{0}'' は既に存在します"
+error.file.contains.no.settings.to.import:
+    text: |-
+        ファイル {0} にはインポートする設定が含まれていません。
+        {1}
+error.files.of.this.type.cannot.be.opened:
+    text: このタイプのファイルは {0} で開けません
+error.keyword.cannot.be.empty:
+    text: キーワードは必須です
+error.keyword.may.not.contain.spaces:
+    text: キーワードに空白は入力できません
+error.license.collision:
+    text: |-
+        このライセンスはネットワーク上の他の場所で {0} により使用されています。
+        ライセンスは複数のコンピュータで同時に使用できません。
+        このコンピュータで再アクティベートしますか ?
+        再アクティベートは [はい] を、{1} の終了は [いいえ] をクリックしてください。
+error.malformed.url:
+    text: '不正な URL です : {0}'
+error.module.already.exists:
+    text: "モジュール名 ''{0}'' は既に存在します"
+error.module.file.does.not.exist:
+    text: 指定されたモジュール ファイルへのパスは存在しません
+error.module.not.iml:
+    text: |-
+        "{0}"
+        は {1} モジュール ファイル (.iml) ではありません
+error.module.with.name.already.exists:
+    text: モジュール名 "{0}" は既にプロジェクトに存在します
+error.name.cannot.be.empty:
+    text: 名前は入力必須です
+error.name.should.be.specified:
+    text: 名前を指定してください
+error.parsing.file.template:
+    text: ファイル テンプレートの解析エラー
+error.please.enter.a.file.name:
+    text: ファイル名を入力してください
+error.please.specify.module.file.location:
+    text: モジュール ファイルの場所を指定してください
+error.please.specify.new.name.for.schema:
+    text: "スキーマ''{0}'' に新しい名前を指定してください。"
+error.please.specify.path.to.module.file:
+    text: '{0} モジュール ファイル (.iml) へのパスを指定してください'
+error.please.specify.path.to.web.browser:
+    text: '[ファイル] - [設定] - [一般] から Web ブラウザのパスを指定してください'
+error.please.specify.template.extension:
+    text: テンプレートの拡張子を指定してください
+error.please.specify.template.name:
+    text: テンプレート名を指定してください
+error.project.file.does.not.exist:
+    text: '{0} を読み込めません。 ファイルは存在しません。'
+error.project.file.is.corrupted:
+    text: プロジェクト ファイルは破損しています
+error.reading.settings.file:
+    text: |-
+        ファイル {0} の読み込みエラー。
+        {1} が存在します。
+
+        {2}
+error.reading.settings.file.2:
+    text: |-
+        ファイル {0} の読み込みエラー。
+
+        {1}
+error.saving.license.data:
+    text: |-
+        ライセンス情報の保存エラー。
+        {0}
+error.source.directory.should.be.under.module.content.root.directory:
+    text: ソース ディレクトリは、モジュール コンテント ディレクトリに格納する必要があります
+error.template.with.such.name.already.exists:
+    text: その名前のテンプレートは既に存在します。 別のテンプレート名を指定してください
+error.text.file.already.exists:
+    text: |-
+        ファイル {0} は既に存在しています
+        上書きまたは追加しますか ?
+error.tips.not.found:
+    text: ヒントがありません。  {0} が正しくインストールされていることを確認してください。
+error.unable.to.parse.template.message:
+    text: |-
+        テンプレート "{0}" の解析ができません
+        エラー メッセージ : {1}
+error.unable.to.read.tip.of.the.day:
+    text: <html><body>ヒントが表示できません。 {0} が正常にインストールされていることを確認してください。</body></html>
+error.unable.to.save.file.template.using.encoding:
+    text: '{1} を使用するファイルテンプレート "{0}" を保存できません'
+error.writing.settings:
+    text: |-
+        設定の書き込みエラー。
+
+        {0}
+error.writing.to.file:
+    text: 'ファイルの書き込みエラー : {0}'
+errortree.error:
+    text: 'エラー :'
+errortree.information:
+    text: '情報 :'
+errortree.warning:
+    text: '警告 :'
+exception.missing.data:
+    text: 'データがありません : {0}'
+favorites.empty.screen:
+    text: '表示項目がありません。 お気に入りリストへのアイテム追加 : [メイン メニュー] - [表示] - [お気に入りに追加]'
+favorites.list.unnamed:
+    text: 名称未設定{0}
+filetype.description.class:
+    text: Java クラス ファイル
+filetype.description.dtd:
+    text: XML ドキュメント タイプ定義
+filetype.description.gui.designer.form:
+    text: GUI デザイナ フォーム
+filetype.description.html:
+    text: HTML ファイル
+filetype.description.idea.module:
+    text: Idea モジュール
+filetype.description.idea.project:
+    text: Idea プロジェクト
+filetype.description.idea.workspace:
+    text: Idea ワークスペース
+filetype.description.java:
+    text: Java ソース ファイル
+filetype.description.jsp:
+    text: Java Server Page ファイル
+filetype.description.jspx:
+    text: JSPx ファイル
+filetype.description.unknown:
+    text: 不明
+filetype.description.xhtml:
+    text: XHTML ファイル
+filetype.description.xml:
+    text: XML ファイル
+filter.all.file.types:
+    text: すべてのファイル
+go.to.class.dumb.mode.message:
+    text: Go To Classアクションは、インデックスが作成されるまで使用できません。
+go.to.class.toolwindow.title:
+    text: パターンにマッチするクラス
+go.to.file.toolwindow.title:
+    text: パターンに一致するファイル
+goto.custom.region.menu.item:
+    text: カスタムフォールディング...
+group.antialiasing.mode:
+    text: アンチエイリアシング
+group.customfiletype.syntax.highlighting:
+    text: 構文強調表示
+group.general.options:
+    text: 一般オプション
+group.http.proxy:
+    text: HTTP プロキシ
+group.settings.process.tab.close:
+    text: 実行中のプロセスウィンドウを閉じるとき
+group.transparency:
+    text: 透過性
+group.ui.options:
+    text: ユーザー インターフェイス オプション
+group.vendor:
+    text: ベンダ
+group.web.browser:
+    text: Web ブラウザ
+group.window.options:
+    text: ウィンドウ オプション
+handle.ro.file.status.type.using.file.system:
+    text: ファイル システムを使用
+help.topic.not.found.error:
+    text: ヘルプ トピック "{0}" が見つかりません
+hierarchy.call.next.occurence.name:
+    text: 次の呼び出しに移動
+hierarchy.call.prev.occurence.name:
+    text: 前の呼び出しに移動
+hierarchy.legend.method.defined.in.superclass:
+    text: メソッドはクラス内で定義されていませんが、スーパークラスで定義されています
+hierarchy.legend.method.is.defined.in.class:
+    text: メソッドはクラス内で定義されています
+hierarchy.legend.method.should.be.defined:
+    text: 抽象クラスではないため、メソッドを定義する必要があります
+hierarchy.method.next.occurence.name:
+    text: 次のメソッドに移動
+hierarchy.method.prev.occurence.name:
+    text: 前のメソッドに移動
+hierarchy.scope.all:
+    text: すべて選択
+hierarchy.scope.project:
+    text: プロジェクト
+hierarchy.scope.this.class:
+    text: このクラス
+hierarchy.type.next.occurence.name:
+    text: 次のタイプに移動
+hierarchy.type.prev.occurence.name:
+    text: 前のタイプに移動
+ide.postpone.action:
+    text: 延期する
+ide.restart.action:
+    text: 再起動
+ide.shutdown.action:
+    text: シャットダウン
+item.file.templates:
+    text: ファイル テンプレート
+label.choosebyname.no.matches.found:
+    text: (該当なし)
+label.choosebyname.searching:
+    text: (検索中...)
+label.description:
+    text: '説明 :'
+label.did.you.know:
+    text: ご存知ですか... ?
+label.extension:
+    text: '拡張子 :'
+label.file.name:
+    text: 'ファイル名 :'
+label.font.name:
+    text: 'フォント名 :'
+label.font.size:
+    text: 'サイズ :'
+label.icon.path:
+    text: 'アイコンのパス :'
+label.inactive.timeout.sec:
+    text: 秒。
+label.java.source.files.have.been.found:
+    text: |-
+        モジュールの Java ソース ファイルが見つかりました。 ソース パスとしてマークする
+        ディレクトリを選択してください。 これらのパスはデフォルト (root, unnamed) パッケージに対応します。
+        注意 : プログラムは、ソース ディレクトリに位置する Java ソース ファイルのみを認識します。
+label.macro.preview:
+    text: 'マクロ プレビュー :'
+label.macros:
+    text: 'マクロ :'
+label.module.file.will.be.saved.in:
+    text: 'モジュール ファイルの保存先 :'
+label.name:
+    text: '名前 :'
+label.no.files.found:
+    text: ファイルが見つかりません
+label.no.matches.found:
+    text: 該当なし
+label.no.matches.found.in.project:
+    text: プロジェクトに該当がありません
+label.no.non.java.files.found:
+    text: 非 .java ファイルが見つかりません
+label.override.laf.font:
+    text: 'フォント :'
+label.path.to.module.file:
+    text: '{0} モジュール ファイルへのパス (.iml):'
+label.please.enter.project.name:
+    text: 新しく作成する {0} プロジェクトの名前を入力してください。
+label.project.jdk:
+    text: 'プロジェクト JDK:'
+label.scope:
+    text: 'スコープ :'
+label.scope.contains.files:
+    text: スコープは、すべての {1} java ファイルの {0} を格納します。
+label.scope.editor.caret.position:
+    text: 位置 :{0}
+label.scope.pattern:
+    text: 'パターン :'
+label.select.compiler.output.path:
+    text: 'コンパイラ出力パスの選択(&O):'
+label.select.module.type:
+    text: 'モジュール タイプの選択 :'
+label.source.directory:
+    text: '次のディレクトリをソース ディレクトリとしてマークします :'
+label.text.antialiasing.scope.editor:
+    text: エディタ：
+label.transparency.delay.ms:
+    text: '遅延 (ミリ秒):'
+label.transparency.ratio:
+    text: '比率 :'
+link.purchase.commercial.license:
+    text: 商用版の購入はこちらから
+listbox.customfiletype.keywords:
+    text: キーワード
+loading.editors:
+    text: エディタを開く...
+low.disk.space.message:
+    text: '{0}システムディレクトリパーティションのディスク容量不足'
+macro.class.name:
+    text: クラス名
+macro.classpath.entry:
+    text: 要素が属するクラスパス内のエントリ
+macro.column.number:
+    text: 列番号
+macro.file.dir.relative.to.root:
+    text: ファイルが属するモジュール コンテント ルートへの相対ファイル ディレクトリ
+macro.file.dir.relative.to.root.fwd.slash:
+    text: ファイルが属するモジュール コンテント ルートへの相対ファイル ディレクトリ (スラッシュ記号 (/) を使用)
+macro.file.dir.relative.to.sourcepath.root:
+    text: ファイルが属するソースパス ルートへの相対ファイル ディレクトリ
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: ファイルが属するソースパス ルートへの相対ファイル ディレクトリ (スラッシュ記号 (/) を使用)
+macro.file.directory:
+    text: ファイル ディレクトリ
+macro.file.directory.relative:
+    text: プロジェクト ファイルへの相対ファイル ディレクトリ
+macro.file.directory.relative.fwd.slash:
+    text: プロジェクト ファイルへの相対ファイル ディレクトリ (スラッシュ記号 (/) を使用)
+macro.file.extension:
+    text: ファイル拡張子
+macro.file.fully.qualified.package:
+    text: ファイル完全修飾パッケージ
+macro.file.name:
+    text: ファイル名
+macro.file.name.without.extension:
+    text: 拡張子なしのファイル名
+macro.file.package:
+    text: 選択中のパッケージ
+macro.file.path:
+    text: ファイル パス
+macro.file.path.relative:
+    text: プロジェクト ファイルへの相対ファイル パス
+macro.file.path.relative.fwd.slash:
+    text: プロジェクト ファイルへの相対ファイル パス (スラッシュ記号 (/) を使用)
+macro.file.path.relative.to.root:
+    text: ファイルが属するモジュール コンテント ルートへの相対ファイル パス
+macro.file.path.relative.to.root.fwd.slash:
+    text: ファイルが属するモジュール コンテント ルートへの相対ファイル パス (スラッシュ記号 (/) を使用)
+macro.file.path.relative.to.sourcepath.root:
+    text: ファイルが属するソースパス ルートへの相対ファイル パス
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: ファイルが属するソースパス ルートへの相対ファイル パス (スラッシュ記号 (/) を使用)
+macro.javadoc.output.directory:
+    text: JavaDoc 出力ディレクトリ
+macro.line.number:
+    text: 行番号
+macro.module.file.directory:
+    text: モジュール ファイルのディレクトリ
+macro.module.file.name:
+    text: 拡張子なしのモジュール ファイル名
+macro.module.file.path:
+    text: モジュール ファイルのパス
+macro.module.source.path:
+    text: モジュール ソース パス
+macro.noname:
+    text: <名前なし>
+macro.output.path:
+    text: 出力パス
+macro.project.classpath:
+    text: プロジェクトのクラスパス
+macro.project.file.directory:
+    text: プロジェクト ファイルのディレクトリ
+macro.project.file.name:
+    text: 拡張子なしのプロジェクト ファイル名
+macro.project.file.path:
+    text: プロジェクト ファイルのパス
+macro.project.source.path:
+    text: プロジェクト ソース パス
+macro.project.sourcepath:
+    text: プロジェクトのソースパス
+macro.prompt:
+    text: 文字入力ダイアログの表示
+macro.sourcepath.entry:
+    text: 要素が属するソースパス内のエントリ
+message.educational.license:
+    text: 1 年間の学校教育向けライセンス。 {0}
+message.evaluation.N.days:
+    text: '{0} 日'
+message.evaluation.has.expired:
+    text: 評価版ライセンスの期限が切れました。<br>{0}
+message.evaluation.less.than.one.day:
+    text: 1 日未満
+message.evaluation.one.day:
+    text: 1 日
+message.evaluation.will.expire:
+    text: '{0} の評価版のご使用ありがとうございます。<br>評価版ライセンスの使用期限は {1}<br><br>{2}<br>引き続き商用版をご使用になる場合は [ヘルプ] メニューから登録してください。'
+message.macro.exists:
+    text: "マクロ ''{0}'' は既に存在します。 上書きしますか ?"
+message.module:
+    text: "モジュール ''{0}''"
+message.modules:
+    text: モジュール
+message.move.modules.to.group:
+    text: '{0} をグループ {1} に移動'
+message.no.targets.available:
+    text: コンテキストで有効なターゲットはありません
+message.non.commercial.use.only:
+    text: 非商用での限定使用
+message.nothing.to.show.in.structure.view:
+    text: ストラクチャ ビューに表示する内容がありません
+message.occurrence.N.of.M:
+    text: '{1} の 対象 {0}'
+message.open.file.is.project:
+    text: |-
+        {0} は {1} プロジェクト ファイルです。
+        このプロジェクトを開きますか ?
+message.open.source.project.license:
+    text: オープン ソース プロジェクト ライセンス。 {0}
+message.please.ensure.correct.settings:
+    text: '[ファイル] - [設定のエクスポート] で生成したファイルであることを確認してください。'
+message.please.select.element.for.javadoc:
+    text: ドキュメントを表示する要素を選択してください
+message.purchase.or.upgrade:
+    text: '{0} を購入する際は、{1} を参照してください。<br>以前のバージョンからのアップグレードについては {2} を参照してください。'
+message.reference.to.fqn.has.been.copied:
+    text: "''{0}'' への参照をコピーしました。"
+message.settings.exported.successfully:
+    text: |-
+        設定を正常にエクスポートしました。
+        設定のインポートは [ファイル] - [設定のインポート] で行います。
+message.settings.imported.successfully:
+    text: |-
+        設定を正常にインポートしました。 {0} を再起動して設定を読み込み直してください。
+        {1} をシャットダウンしますか ?
+message.upgrade.from.previous.required:
+    text: '{0} はアップグレード必要です。<br>JetBrains Web サイトからライセンス キーを購入してください。<br>{1}'
+node.call.hierarchy.N.usages:
+    text: ({0} 使用箇所)
+node.call.hierarchy.unknown.jsp:
+    text: 不明な jsp
+node.default:
+    text: <デフォルト>
+node.default.package:
+    text: <デフォルト パッケージ>
+node.hierarchy.invalid:
+    text: '[無効]'
+node.hierarchy.java.lang.object:
+    text: すべてのクラスは java.lang.Object から派生します
+node.memberchooser.all.classes:
+    text: すべてのクラス
+node.projectview.libraries:
+    text: ライブラリ
+node.projectview.library:
+    text: '{0} ライブラリ'
+node.structureview.invalid:
+    text: <無効>
+progress.creating.interface:
+    text: インターフェイス {0} を作成しています。{1}
+progress.creating.package:
+    text: パッケージ {0} を作成しています。{1}
+progress.deleting:
+    text: 削除しています
+progress.deleting.class:
+    text: クラス {0} を削除しています
+progress.looking.for.todos:
+    text: TODO の検索...
+progress.searching:
+    text: 検索中...
+progress.searching.for.sources:
+    text: '{0} のソースを検索しています。 しばらくお待ちください。'
+promot.projectwizard.directory.does.not.exist:
+    text: |-
+        {0}"{1}"
+        存在しません。 {2} によって作成されます。
+prompt.browse.icon.for.selected.action:
+    text: 選択したアクションのアイコンを参照してください
+prompt.check.components.to.import:
+    text: 'インポートするコンポーネントをすべて選択してください :'
+prompt.choose.base.class.of.the.hierarchy:
+    text: 検索する階層のベース クラスを選択してください
+prompt.choose.export.settings.file.path:
+    text: エクスポート先のファイルまたは新規ファイルを作成するディレクトリを選択してください
+prompt.choose.import.file.path:
+    text: インポートするファイルまたはファイルの存在するディレクトリを選択してください
+prompt.confirm.project.no.jdk:
+    text: |-
+        JDK を指定せずにプロジェクトを作成しますか ?
+        JDK はコンパイル、デバッグ、およびアプリケーションの実行の際に必要です。
+        標準 JDK Class Resolution も同様です。
+prompt.create.non.existing.package:
+    text: |-
+        パッケージ {0} は存在しません。
+        作成しますか ?
+prompt.delete.and:
+    text: と
+prompt.delete.elements:
+    text: '{0} を削除しますか ?'
+prompt.delete.it.anyway:
+    text: 強制的に削除しますか ?
+prompt.directory.contains.read.only.files:
+    text: ディレクトリ {0} には読み取り専用ファイルがあります。 強制的に削除しますか ?
+prompt.enter.a.new.package.name:
+    text: '新規パッケージ名を入力してください :'
+prompt.enter.annotation.type.name:
+    text: '新規 @interface 名を入力してください :'
+prompt.enter.macro.name:
+    text: マクロ名を入力してください。 一時マクロの場合は空白のままにします。
+prompt.enter.new.class.name:
+    text: '新規クラス名を入力してください :'
+prompt.enter.new.file.name:
+    text: '新規ファイル名を入力してください :'
+prompt.enter.new.interface.name:
+    text: '新規インターフェイス名を入力 :'
+prompt.enter.new.module.name:
+    text: 新規モジュール名を入力してください
+prompt.enter.new.name:
+    text: 新しい名前を入力してください
+prompt.enter.parameters:
+    text: 'パラメータを入力してください :'
+prompt.enter.project.file.location:
+    text: プロジェクト ファイルの場所を入力してください
+prompt.enter.relative.path.to.module.content.root:
+    text: 'モジュール コンテント ルート (例 : java{0}src) への相対パスを入力してください :'
+prompt.filechooser.enter.file.name:
+    text: 'ファイル名を入力してください :'
+prompt.gotoclass.enter.class.name:
+    text: 'クラス名を入力してください :'
+prompt.gotofile.enter.file.name:
+    text: 'ファイル名を入力してください :'
+prompt.gotosymbol.enter.symbol.name:
+    text: 'シンボル名を入力してください :'
+prompt.input.new.favorites.list.name:
+    text: 新規お気に入りリストの名前を入力してください
+prompt.new.project.file.name:
+    text: 新しく作成する {0} プロジェクトのファイル名を入力してください
+prompt.open.project.in.new.frame:
+    text: 新規フレームでプロジェクトを開きますか ?
+prompt.overwrite.settings.file:
+    text: "''{0}'' を上書きしますか ?"
+prompt.please.select.project.jdk:
+    text: |-
+        プロジェクト JDK を選択してください。
+        この JDK はすべてのプロジェクト モジュールのデフォルトとして使用されます。
+prompt.please.specify.java.sources.directory:
+    text: |-
+        プロジェクトの Java ソース ファイルが存在するディレクトリを指定してください。
+        このパスはデフォルト (ルート、名称未設定) パッケージに対応する必要があります。
+        注意 : プログラムは、このディレクトリに位置する Java ソース ファイルのみを認識します。
+prompt.please.specify.module.name:
+    text: モジュール名を指定してください
+prompt.please.specify.module.name.and.content.root:
+    text: |-
+        モジュール名とコンテント ルートを指定してください。
+        モジュール コンテント ルートは格納するモジュールが属するディレクトリです。
+prompt.relative.path.to.sources.empty:
+    text: |-
+        ソースへの相対パスがありません。
+        モジュール コンテント ルート
+        "{0}"
+        をソース ディレクトリとしてマークしますか ?
+prompt.reload.file.from.disk:
+    text: すべての変更を破棄して "{0}" をディスクから再度読み込みますか ?
+prompt.reset.to.original.template:
+    text: 元のテンプレートにリセットしますか ?
+prompt.select.module.file.to.import:
+    text: インポートする {0} モジュール ファイル (.iml) を選択してください
+prompt.select.source.directory:
+    text: ソース ディレクトリを選択してください
+prompt.specify.module.group.name:
+    text: |+
+        {0} を表示するグループ名を指定してください。
+
+prompt.specify.name.of.module.subgroup:
+    text: |+
+        {1} を表示するサブグループ {0} の名前を指定してください。
+
+prompt.stop.searching.for.sources:
+    text: '{0} がソースを検索しています。 検索を中止しますか ?'
+radio.create.new.module:
+    text: 新規モジュールを作成する(&C)
+radio.create.source.directory:
+    text: ソース ディレクトリを作成する(&C)
+radio.do.not.create.source.directory:
+    text: ソース ディレクトリを作成しない(&D)
+radio.import.existing.module:
+    text: 既存のモジュールをインポートする(&I)
+radio.process.close.ask:
+    text: 尋ねる
+radio.process.close.terminate:
+    text: プロセスを終了する
+scope.class.hierarchy:
+    text: クラス階層
+scope.current.file:
+    text: 現在のファイル
+scope.files.in.previous.search.result:
+    text: 前回の検索結果のファイル
+scope.hierarchy:
+    text: '{0} の階層'
+scope.open.files:
+    text: ファイルを開く
+scope.previous.search.results:
+    text: 前回の検索結果
+scope.selection:
+    text: セレクタ
+search.for.usages.and.delete.elements:
+    text: '{0} の使用箇所の検索と削除を行いますか ?'
+select.in.aspects:
+    text: アスペクト
+select.in.commander:
+    text: コマンダ
+select.in.favorites:
+    text: お気に入り
+select.in.file.structure:
+    text: ファイル構造
+select.in.packages:
+    text: パッケージ
+select.in.project:
+    text: プロジェクト
+tab.chooser.project:
+    text: プロジェクト
+tab.chooser.search.by.name:
+    text: 名前で検索
+tab.filetemplates.code:
+    text: コード
+tab.filetemplates.includes:
+    text: インクルード
+tab.filetemplates.templates:
+    text: テンプレート
+tab.structureview.baselanguage.view:
+    text: '{0} ビュー'
+tab.structureview.jsp.view:
+    text: JSP ビュー
+template.copy.N.of.T:
+    text: '{1} の {0} をコピー'
+template.default.class.comment:
+    text: |
+        /*
+         * 作成 : {0}
+         * ユーザー : $USER$
+         * 日付 : $DATE$
+         * 時刻 : $TIME$
+         */
+template.unnamed:
+    text: 名前未設定
+title.add.module:
+    text: モジュールの追加
+title.add.new.favorites.list:
+    text: 新規お気に入りリストへの追加
+title.add.new.keyword:
+    text: 新規キーワードの追加
+title.appearance:
+    text: 表示
+title.browse.icon:
+    text: アイコンの参照
+title.browser.not.found:
+    text: ブラウザが見つかりません
+title.browser.path.not.found:
+    text: ブラウザのパスが見つかりません
+title.cannot.create.annotation.type:
+    text: '@interface を作成できません'
+title.cannot.create.enum:
+    text: 新規 Enum を作成できません
+title.cannot.create.file:
+    text: ファイルを作成できません
+title.cannot.create.interface:
+    text: インターフェイスを作成できません
+title.cannot.load.project:
+    text: プロジェクトを読み込めません
+title.cannot.open.file:
+    text: ファイルが開けません
+title.cannot.start.browser:
+    text: ブラウザを起動できません
+title.choose.destination.directory:
+    text: 作成先ディレクトリの選択
+title.connection.error:
+    text: 接続エラー
+title.custom.actions.schemas:
+    text: カスタム アクション スキーマ
+title.customizations:
+    text: カスタマイズ
+title.delete:
+    text: 削除
+title.directory.does.not.exist:
+    text: ディレクトリが存在しません
+title.edit.file.template:
+    text: ファイルテンプレートの編集
+title.edit.keyword:
+    text: キーワードの編集
+title.edit.macros:
+    text: マクロの編集
+title.enter.license.data:
+    text: ライセンス情報の入力
+title.enter.macro.name:
+    text: マクロ名の入力
+title.error.reading.file:
+    text: ファイルの読み込みエラー
+title.error.writing.file:
+    text: ファイルの書き込みエラー
+title.evaluation.license.expired:
+    text: 評価版ライセンスの期限切れ
+title.export.file.location:
+    text: エクスポート先ファイルの場所
+title.export.preview:
+    text: プレビューのエクスポート
+title.export.successful:
+    text: エクスポートの正常終了
+title.file.already.exists:
+    text: ファイルは既に存在します
+title.file.not.found:
+    text: ファイルが見つかりません
+title.file.templates:
+    text: ファイル テンプレート
+title.general:
+    text: 一般
+title.go.to.line:
+    text: 行に移動
+title.hierarchy.callees.of:
+    text: '{0} の呼び出し先'
+title.hierarchy.callers.of:
+    text: '{0} の呼び出し元'
+title.hierarchy.class:
+    text: '{0} のクラス階層'
+title.hierarchy.method:
+    text: '{0} のメソッド階層'
+title.hierarchy.subtypes:
+    text: '{0} のサブタイプ'
+title.hierarchy.supertypes:
+    text: '{0} のスーパータイプ'
+title.import.file.location:
+    text: インポートするファイルの場所
+title.incorrect.file.type:
+    text: 不正なファイル タイプ
+title.input:
+    text: 入力
+title.invalid.file:
+    text: 無効なファイル
+title.invalid.license.data:
+    text: 無効なライセンス情報
+title.license.collision.detected:
+    text: ライセンスの競合を検出しました
+title.license.corrupt:
+    text: ライセンスの破損
+title.macro.name.already.used:
+    text: 既に使用されているマクロ名
+title.macros:
+    text: マクロ
+title.mark.source.directory:
+    text: ソース ディレクトリのマーク
+title.module.already.exists:
+    text: モジュールは既に存在します
+title.module.content.root.already.exists:
+    text: モジュール コンテント ルートは既に存在します
+title.module.file.does.not.exist:
+    text: モジュール ファイルは存在しません
+title.module.file.location.not.specified:
+    text: モジュール ファイルの場所が指定されていません
+title.module.file.path.not.specified:
+    text: モジュール ファイル パスが指定されていません
+title.module.group:
+    text: モジュール グループ
+title.module.name.not.specified:
+    text: モジュール名が指定されていません
+title.module.sub.group:
+    text: モジュール サブ グループ
+title.new.annotation.type:
+    text: 新規 @interface
+title.new.class:
+    text: 新規クラス
+title.new.directory:
+    text: 新規ディレクトリ
+title.new.enum:
+    text: 新規 Enum
+title.new.file:
+    text: 新規ファイル
+title.new.from.template:
+    text: 新規 {0}
+title.new.interface:
+    text: 新規インターフェイス
+title.new.package:
+    text: 新規パッケージ
+title.new.project:
+    text: 新規プロジェクト
+title.no.element.selected:
+    text: 要素が選択されていません
+title.no.jdk.specified:
+    text: JDK が指定されていません
+title.open.project:
+    text: プロジェクトを開く
+title.package.not.found:
+    text: パッケージが見つかりません
+title.packages:
+    text: パッケージ
+title.popup.new.element:
+    text: 新規
+title.popup.recent.files:
+    text: 最近使ったファイル
+title.popup.select.target:
+    text: ターゲットの選択
+title.popup.views:
+    text: ビュー
+title.product.evaluation:
+    text: '{0} 評価版'
+title.project:
+    text: プロジェクト
+title.question:
+    text: 質問
+title.reload.file:
+    text: ファイルの再読み込み
+title.rename.macro:
+    text: マクロ名の変更
+title.rename.module:
+    text: モジュールの名前変更
+title.reset.template:
+    text: テンプレートのリセット
+title.restart.needed:
+    text: 再起動
+title.select.compiler.output.path:
+    text: コンパイラ出力パスの選択
+title.select.components.to.export:
+    text: エクスポートするコンポーネントの選択
+title.select.components.to.import:
+    text: インポートするコンポーネントの選択
+title.select.jdk:
+    text: JDK の選択
+title.select.module.content.root:
+    text: モジュール コンテント ルートを指定してください
+title.select.module.file.location:
+    text: モジュール ファイルの場所の選択
+title.select.path.to.browser:
+    text: ブラウザへのパス選択
+title.select.project.file.directory:
+    text: プロジェクト ファイル ディレクトリの選択
+title.select.template:
+    text: テンプレートの選択
+title.system.error:
+    text: システム エラー
+title.tip.of.the.day:
+    text: ヒント
+title.unable.to.add.action.without.icon.to.toolbar:
+    text: ツールバーへのアイコンを指定せずにアクションは追加できません
+title.unable.to.add.favorites.list:
+    text: お気に入りリストに追加できません
+title.unable.to.save.data:
+    text: データを保存できません
+title.upgrade.needed:
+    text: アップグレード
+title.velocity.error:
+    text: Velocity エラー
+title.warning:
+    text: 警告
+tooltip.module.group:
+    text: モジュール グループ
+tooltip.syntax.linenumber.columnnumber:
+    text: '構文 : <lineNumber>[:<columnNumber>]'
+tooltip.ui.designer.form:
+    text: UI デザイナ フォーム
+treenode.loading:
+    text: 読み込み中...
+unscramble.dialog.title:
+    text: スタックトレースの分析
+unscramble.log.path.label:
+    text: 'ログ ファイル :'
+unscramble.no.unscrambler.item:
+    text: <分解しない>
+unscramble.normalize.button:
+    text: 標準化する(&N)
+unscramble.stacktrace.caption:
+    text: 'スタックトレースをここに記述します :'
+unscramble.unscrambled.stacktrace.tab:
+    text: <分解したスタックトレース>
+unscramble.unscrambler.combobox:
+    text: '分解器 :'
+unscramble.use.unscrambler.checkbox:
+    text: スタックトレースを分解する(&U)
+unsupported.jvm.ea.message:
+    text: Early Access Javaのバージョンで互換性の問題が発生することがあります。
+warning.delete.all.files.and.subdirectories:
+    text: |4-
+
+        "{0}" のすべてのファイルとサブディレクトリを削除します。
+        この処理はやり直しできません。
+warning.delete.all.files.and.subdirectories.in.the.selected.directory:
+    text: |4-
+
+        選択したディレクトリのすべてのファイルとサブディレクトリを削除します。
+        この処理はやり直しできません。

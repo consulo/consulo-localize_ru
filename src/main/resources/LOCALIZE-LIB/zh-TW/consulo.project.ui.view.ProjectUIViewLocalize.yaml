@@ -1,0 +1,34 @@
+action.ProjectView.FileNesting.description:
+    text: 設定檔案嵌套
+action.ProjectView.FileNesting.text:
+    text: 檔案嵌套…
+action.show.excluded.files:
+    text: 顯示排除的檔案
+action.show.hide.excluded.files:
+    text: 顯示/隱藏排除的檔案
+child.file.suffix.column.name:
+    text: 子檔案後綴
+dialog.message.child.file.suffix.must.be.empty.see.row:
+    text: 子檔案後綴不得為空(請參見行 {0})
+dialog.message.parent.child.file.suffixes.must.be.equal.see.row:
+    text: "父檔案和子檔案後綴不能相等(''{0}''，請參見行 {1})"
+dialog.message.parent.file.suffix.must.be.empty.see.row:
+    text: 父檔案後綴不得為空(請參見行 {0})
+file.nesting.dialog.title:
+    text: 檔案巢狀
+parent.file.suffix.column.name:
+    text: 父檔案後綴
+select.in.aspects:
+    text: 方面
+select.in.commander:
+    text: 命令
+select.in.favorites:
+    text: 收藏夾
+select.in.nav.bar:
+    text: 導航列
+select.in.packages:
+    text: 包
+select.in.project:
+    text: 項目
+select.in.scope:
+    text: 作用範圍

@@ -1,0 +1,132 @@
+code.vision.implementations.hint:
+    text: "{0, choice, 1#1 рэалізацыя|2#{0,number}'{1,choice, |1#+}' рэалізацый}"
+code.vision.inheritors.hint:
+    text: "{0, choice, 1#1 нашчадак|2#{0,number}'{1,choice, |1#+}' нашчадкаў}"
+code.vision.overrides.hint:
+    text: "{0, choice, 1#1 пераазначэнне|2#{0,number}'{1,choice, |1#+}' пераазначэнняў}"
+usages.telescope:
+    text: '{0,choice, 0#не выкарыстоўваецца|1#1 выкарыстанне|2#{0,number} выкарыстанняў}'
+action.go.to.implementation.text:
+    text: Перайсці да рэалізацыі
+action.go.to.overriding.methods.text:
+    text: Перайсці да пераазначальных метадаў
+action.go.to.subclass.text:
+    text: Перайсці да падкласаў
+action.go.to.super.method.text:
+    text: Перайсці да super метаду
+action.migrate.text:
+    text: Да
+checkbox.collapse.annotations:
+    text: Анатацыі
+checkbox.collapse.anonymous.classes:
+    text: Ананімныя класы
+checkbox.collapse.closures:
+    text: '"Замыканні" (ананімныя класы, якія рэалізуюць адзін метад, да Java 8)'
+checkbox.collapse.end.of.line.comments:
+    text: Паслядоўнасць каментарыяў у канцы радка
+checkbox.collapse.file.header:
+    text: Заголовок файла
+checkbox.collapse.generic.constructor.parameters:
+    text: <html>Параметры абагульненых канструктараў і метадаў</html>
+checkbox.collapse.html.style.attribute:
+    text: "HTML-атрыбут 'style'"
+checkbox.collapse.i18n.messages:
+    text: I18n радкі
+checkbox.collapse.inner.classes:
+    text: Унутраныя класы
+checkbox.collapse.one.line.methods:
+    text: <html>Однострочные методы<html>
+checkbox.collapse.simple.property.accessors:
+    text: <html>Простые методы доступа к свойствам</html>
+class.file.decompiled.text:
+    text: Дэкампіляваны .class файл
+class.file.open.source.action:
+    text: Адкрыць зыходны файл
+class.not.found.error.message:
+    text: "Класс ''{0}'' не найден"
+dependencies.tree.node.default.package.abbreviation:
+    text: <пакет па змаўчанні>
+error.package.already.contains.package.html:
+    text: "Пакет ''{0}'' ужо змяшчае файл ''package.html''. Стварыць ''package-info.java'' усё роўна?"
+error.package.html.found.title:
+    text: "Найден 'package.html'"
+gutter.implemented.method:
+    text: Рэалізаваны метад
+gutter.implementing.method:
+    text: Рэалізуючы метад
+gutter.overridden.method:
+    text: Переопределённый метод
+gutter.overriding.method:
+    text: Пераазначальны метад
+gutter.service:
+    text: Сервіс
+gutter.sibling.inherited.method:
+    text: Унаследованный метод того же уровня
+inlay.MethodChainsInlayProvider.description:
+    text: Тыпы значэнняў, якія вяртаюць метады ў ланцугах выклікаў.
+inspection.default.annotation.param:
+    text: Значэнне параметра анатацыі па змаўчанні
+java.method.chains.inlay.provider.name:
+    text: Ланцугі метадаў
+label.method:
+    text: "Метод ''{0}''"
+library.choose.one.to.attach:
+    text: Выберыце бібліятэкі для падключэння зыходнікаў
+notification.navigation.to.overriding.classes:
+    text: Навігацыя да пераазначальных класаў немагчыма падчас абнаўлення індэкса
+notification.navigation.to.overriding.methods:
+    text: Навігацыя да пераазначальных метадаў немагчыма падчас абнаўлення індэкса
+nullable.notnull.annotation.used.label:
+    text: 'Анатацыя, якая выкарыстоўваецца для генерацыі кода:'
+nullable.notnull.annotations.panel.title:
+    text: 'Анатацыі {0}:'
+nullable.notnull.annotations.runtime.instrumentation.tooltip:
+    text: Дадаць праверкі часу выканання для метадаў і параметраў з анатацыяй notnull
+nullable.notnull.configuration.dialog.title:
+    text: Настройка Nullable/NotNull
+options.java.attribute.descriptor.instance.final.field:
+    text: Палі класа//Поле канчатковага асобніка
+options.java.attribute.descriptor.lambda.parameter:
+    text: Параметры//Lambda параметр
+project.roots.native.library.node.text:
+    text: Размяшчэнне натыўных бібліятэк
+quickfix.family.remove.redundant.parameter:
+    text: Выдаліць лішні параметр
+settings.inlay.java.annotations:
+    text: Анатацыі
+settings.inlay.java.builder.like.methods:
+    text: Метады ў стылі builder
+settings.inlay.java.complex.expressions.binary.functional.array.access.and.other:
+    text: Складаныя выразы ў якасці аргументаў
+settings.inlay.java.enum.constants:
+    text: Константы enum
+settings.inlay.java.external.annotations:
+    text: Знешнія анатацыі
+settings.inlay.java.implicit.types.lambda:
+    text: Тыпы lambda-выразаў
+settings.inlay.java.implicit.types.lambda.description:
+    text: Паказваць падказкі для тыпаў параметраў lambda-выразаў
+settings.inlay.java.implicit.types.local:
+    text: Няяўныя тыпы
+settings.inlay.java.implicit.types.local.description:
+    text: "Лакальныя пераменныя, аб'яўленыя з ключавым словам var, калі выведзены тып можа быць невідавочны з правай часткі прысвойвання, напрыклад пры выкарыстанні фабрычнага метаду."
+settings.inlay.java.inferred.annotations:
+    text: Выведзеныя анатацыі
+settings.inlay.java.inheritors:
+    text: Нашчадкі
+settings.inlay.java.methods.with.same.named.numbered.parameters:
+    text: Метады з аднайменнымі нумараванымі параметрамі
+settings.inlay.java.new.expressions:
+    text: "Выразы 'new'"
+settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
+    text: Нелітаралы для множных параметраў аднаго тыпу
+settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:
+    text: Параметры з імёнамі, якія змяшчаюцца ў імені метаду
+settings.inlay.java.show.hints.for:
+    text: 'Паказваць падказкі для:'
+settings.inlay.java.show.parameter.hints.for:
+    text: 'Паказваць падказкі параметраў для:'
+settings.inlay.java.show.parameter.hints.when.expression.type.is.clear.description:
+    text: "Ініцыялізатары масіваў, switch, умоўныя выразы, спасылкі, instanceof, прысвойванні, выклікі, удакладненні, прывядзенні тыпаў, доступ да аб'ектаў класаў."
+settings.inlay.java.usages:
+    text: Выкарыстанні

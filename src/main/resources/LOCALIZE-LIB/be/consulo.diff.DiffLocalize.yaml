@@ -1,0 +1,148 @@
+action.presentation.diff.accept.text:
+    text: Прыняць
+action.presentation.diff.append.text:
+    text: Дадаць
+action.presentation.diff.revert.text:
+    text: Адкаціць
+apply.partially.resolved.merge.dialog.title:
+    text: Прымяніць змены
+apply.patch.all.changes.processed.message.text:
+    text: Захаваць змены і завяршыць вырашэнне
+apply.patch.partially.resolved.changes.confirmation.message:
+    text: |-
+        {0, choice, 1#1 блок|2#{0, number} блока|3#{0, number} блокаў} не апрацавана.
+        Захаваць змены і завяршыць вырашэнне?
+apply.somehow.status.message.all.applied:
+    text: Усе блокі вырашаны
+apply.somehow.status.message.already.applied:
+    text: '{0, number} {0, choice, 1#блок ужыты|2#блока ужыта|3#блокаў ужыта}'
+apply.somehow.status.message.cant.apply:
+    text: Немагчыма ўжыць {0, number} {0, choice, 1#блок|2#блока|3#блокаў}
+apply.somehow.status.message.cant.apply.some:
+    text: Немагчыма ўжыць {0, number} з {1, number} блокаў
+binary.file.viewer:
+    text: Прагляд бінарных файлаў
+cancel.visual.merge.dialog.title:
+    text: Адмяніць зліццё файлаў
+collapse.unchanged.fragments:
+    text: Згарнуць нязмененыя фрагменты
+diff.all.differences.ignored.text:
+    text: Усе адрозненні ігнаруюцца
+diff.application.usage.parameters.and.description:
+    text: 'Выкарыстанне: {0} diff <левы файл> <правы файл> [<базавы файл>]'
+diff.clipboard.vs.editor.dialog.title:
+    text: Буфер абмену і рэдактар
+diff.clipboard.vs.value.dialog.title:
+    text: Буфер абмену і выбранае значэнне
+diff.content.clipboard.content.title:
+    text: З буфера абмену
+diff.content.editor.content.title:
+    text: Редактор
+diff.content.selected.value:
+    text: Выбранае значэнне
+diff.content.selection.from.file.content.title:
+    text: Вылучэнне з {0}
+diff.contents.are.identical.message.text:
+    text: Змесціва ідэнтычнае
+diff.contents.have.differences.only.in.charset.and.line.separators.message.text:
+    text: Змесціва адрозніваецца толькі ў кадаванні і раздзяляльніках радкоў
+diff.contents.have.differences.only.in.charset.message.text:
+    text: Змесціва адрозніваецца толькі ў кадаванні
+diff.contents.have.differences.only.in.line.separators.message.text:
+    text: Змесціва адрозніваецца толькі ў раздзяляльніках радкоў
+diff.count.differences.status.text:
+    text: '{0, choice, 0#няма|1#1|2#{0, number}} адрозненняў'
+diff.element.qualified.name.vs.element.qualified.name.dialog.title:
+    text: '{0} і {1}'
+diff.file.editor.name:
+    text: Параўнанне
+diff.highlighting.disabled.text:
+    text: Падсветка адрозненняў адключана
+diff.type.changed.name:
+    text: Зменена
+diff.type.conflict.name:
+    text: Канфлікт
+diff.type.deleted.name:
+    text: Удалено
+diff.type.inserted.name:
+    text: Вставлено
+directory.viewer:
+    text: Прагляд дырэкторый
+editor.settings:
+    text: Налады
+error.message.cannot.show.diff:
+    text: Невозможно показать diff
+error.viewer:
+    text: Прагляд памылак
+highlighting.level:
+    text: Узровень падсветкі
+merge.all.changes.processed.message.text:
+    text: Захаваць змены і завяршыць merge
+merge.application.usage.parameters.and.description:
+    text: 'Выкарыстанне: {0} merge <левы файл> <правы файл> [<базавы файл>] <выходны файл>'
+merge.color.options.background.color.label:
+    text: Важные
+merge.color.options.dialog.title:
+    text: Налады колераў merge
+merge.color.options.ignored.color.label:
+    text: Ігнаруемыя
+merge.continue.button:
+    text: Працягнуць [&C]
+merge.dialog.accept.change.command:
+    text: Прыняць змяненне
+merge.dialog.all.conflicts.resolved.message.text:
+    text: Усе канфлікты вырашаны
+merge.dialog.apply.non.conflicted.changes.command:
+    text: Прымяніць неканфліктуючыя змены
+merge.dialog.apply.partially.resolved.changes.confirmation.message:
+    text: "{0, choice, 0#'{1, choice, 1#Ёсць|2#Ёсць}'|1#Ёсць|2#Ёсць} {0, choice, 0#|1#1 змяненне|2#{0, number} змяненняў}{0, choice, 0#|1#'{1, choice, 0#|1#і }'}{1, choice, 0#|1#1 канфлікт|2#{1, number} канфліктаў} не апрацавана.\nЗахаваць змяненні і пазначыць канфлікты як вырашаныя?"
+merge.dialog.exit.without.applying.changes.confirmation.message:
+    text: Вы ўпэўнены, што хочаце выйсці без прымянення зменаў?
+merge.dialog.ignore.change.command:
+    text: Ігнараваць змяненне
+merge.dialog.resolve.conflict.command:
+    text: Вырашыць канфлікт
+merge.save.and.finish.button:
+    text: Захаваць і завяршыць [&F]
+message.do.in.merge.command:
+    text: Пры merge {0}
+message.init.merge.content.command:
+    text: Ініцыялізацыя змесціва merge
+message.replace.change.command:
+    text: Замяніць змяненне
+message.use.selected.changes.command:
+    text: '{0} выбраныя змены'
+option.highlighting.level.inspections:
+    text: Інспекцыі
+option.highlighting.level.none:
+    text: Нет
+option.highlighting.level.syntax:
+    text: Сінтаксіс
+option.highlighting.policy.lines:
+    text: Падсвечваць радкі
+option.highlighting.policy.none:
+    text: Не падсвечваць
+option.highlighting.policy.split:
+    text: Падсвечваць падзеленыя змены
+option.highlighting.policy.symbols:
+    text: Падсвечваць сімвалы
+option.highlighting.policy.words:
+    text: Падсвечваць словы
+option.ignore.policy.none:
+    text: Не ігнараваць
+option.ignore.policy.trim:
+    text: Обрезать пробелы
+option.ignore.policy.whitespaces:
+    text: Ігнараваць прабелы
+option.ignore.policy.whitespaces.empty.lines:
+    text: Ігнараваць прабелы і пустыя радкі
+option.inherit.ignored.color:
+    text: Наследаваць колер ігнаруемых
+side.by.side.viewer:
+    text: Просмотр рядом
+synchronize.document.and.its.fragment:
+    text: Сінхранізаваць дакумент і яго фрагмент
+synchronize.scrolling:
+    text: Сінхранізаваць пракрутку
+unified.viewer:
+    text: "Аб'яднаны прагляд"

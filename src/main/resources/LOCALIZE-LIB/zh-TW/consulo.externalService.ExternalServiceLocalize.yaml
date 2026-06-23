@@ -1,0 +1,256 @@
+action.download.and.install.plugin:
+    text: 下載並安裝
+action.uninstall.plugin:
+    text: 移除
+action.update.plugin:
+    text: 更新增益集
+column.plugins.category:
+    text: 類別
+column.plugins.date:
+    text: 日期
+column.plugins.downloads:
+    text: 下載
+column.plugins.name:
+    text: 名稱
+column.plugins.rate:
+    text: 評級
+diagnostic.error.report.additional.info.label:
+    text: '附加訊息(當發生異常時,你的操作步驟是): (&A)'
+diagnostic.error.report.description:
+    text: 如果您想得知您所報告的問題的處理結果, 請填寫您的JetBrains登入賬號和密碼.
+diagnostic.error.report.include.attachment.warning:
+    text: "報告將包括附屬應用程式: ''<a>{0}</a>''."
+diagnostic.error.report.include.attachments.warning:
+    text: 報告將包括附屬應用程式 <a>{0}</a>.
+diagnostic.error.report.login.name:
+    text: '使用者名:'
+diagnostic.error.report.login.password:
+    text: '密碼:'
+diagnostic.error.report.send:
+    text: 傳送
+diagnostic.error.report.submit.error.anonymously:
+    text: <html>匿名提交報告或使用<a>JetBrains帳戶...</a></html>
+diagnostic.error.report.submit.report.as:
+    text: <html>提交報告為 <a>{0}</a></html>
+diagnostic.out.of.memory.continue:
+    text: 繼續
+diagnostic.out.of.memory.currentValue:
+    text: '(目前值: {0})'
+diagnostic.out.of.memory.currentValue.unknown:
+    text: 未知的
+diagnostic.out.of.memory.dump:
+    text: 記憶體轉儲
+diagnostic.out.of.memory.error:
+    text: <html>沒有足夠的記憶體來執行要求的操作。<br>請增加{0}設定並重慶IDE使變更生效。</html>
+diagnostic.out.of.memory.title:
+    text: 記憶體溢出
+diagnostic.out.of.memory.willBeSavedTo:
+    text: "<html><b>修改將被儲存到</b> ''{0}''</html>"
+error.attachments.tab.title:
+    text: 附屬應用程式
+error.cannot.create.temp.dir:
+    text: "無法建立臨時目錄 ''{0}''"
+error.comments.tab.title:
+    text: 註解
+error.details.tab.title:
+    text: 詳情
+error.dialog.attachment.include.column.title:
+    text: 包含
+error.dialog.attachment.path.column.title:
+    text: 路徑
+error.dialog.clear.action:
+    text: 清除(&C)
+error.dialog.clear.all.action:
+    text: 清除全部
+error.dialog.comment.prompt:
+    text: <html><u>P</u>填寫任何細節,可能是重要的:當問題發生時,你在做什麼等.</html>
+error.dialog.conflict.plugin.button.disable.all:
+    text: 全部禁用並重啟
+error.dialog.conflict.plugin.button.enable.and.restart:
+    text: 啟用並重啟
+error.dialog.conflict.plugin.disable.all:
+    text: 沒有,禁用所有增益集
+error.dialog.conflict.plugin.title:
+    text: 衝突的增益集
+error.dialog.disable.plugin.action.disable:
+    text: 禁用(&D)
+error.dialog.disable.plugin.action.disableAndRestart:
+    text: 禁用並重啟
+error.dialog.disable.plugin.norestart:
+    text: 禁用增益集後,請重啟{0}套用增益集設定的變更
+error.dialog.disable.plugin.prompt:
+    text: <html>確實要禁用增益集<b>{0}</b>？<br/>該增益集提供的功能將不再可用。</html>
+error.dialog.disable.plugin.prompt.dependants:
+    text: <html>您確實想要禁用增益集<b>{0}</b>嗎？<br/>該增益集提供的功能將不再可用。</html>
+error.dialog.disable.plugin.restart:
+    text: '{0}重啟後,增益集設定變更才生效.'
+error.dialog.disable.plugin.title:
+    text: 禁用增益集
+error.dialog.error.prompt:
+    text: 錯誤訊息(
+error.dialog.filecontent.title:
+    text: 檔案內容
+error.dialog.foreign.plugin.warning.text:
+    text: 該增益集不是JetBrains的產品。請將問題報告給增益集供應商。
+error.dialog.foreign.plugin.warning.text.vendor:
+    text: 該增益集不是JetBrains的產品。請將問題報告給增益集供應商：
+error.http.result.code:
+    text: 'HTTP返回代碼: {0}'
+error.itn.returns.wrong.data:
+    text: ITN返回錯誤的資料
+error.list.back.action:
+    text: 向後
+error.list.clear.action:
+    text: 清理並關閉
+error.list.close.action:
+    text: 關閉
+error.list.disable.plugin:
+    text: 禁用增益集...
+error.list.disable.plugin.0:
+    text: 禁用增益集 {0}
+error.list.forward.action:
+    text: 向前
+error.list.message.blame.core:
+    text: 異常在核心 <b>{0}</b>.
+error.list.message.blame.plugin:
+    text: 異常在增益集 <b>{0}</b>.
+error.list.message.blame.unknown.plugin:
+    text: 異常在 <b>未知增益集</b>.
+error.list.message.duplicate:
+    text: '[重複]'
+error.list.message.info:
+    text: 自從最後一次清除後.{0}發生次數:{1,choice,1#once|2#{1} times}
+error.list.message.submission.failed:
+    text: 提交失敗
+error.list.message.submitted:
+    text: 已提交
+error.list.message.submitted.as.link:
+    text: 提交為 <a href="{0}">{1}</a>
+error.list.message.unread:
+    text: 未讀取的.
+error.list.of.plugins.was.not.loaded:
+    text: |-
+        無法從伺服器更新增益集清單： {0}
+
+        可能是下面的錯誤造成的：
+        {1}
+error.list.popup.immediately.checkbox:
+    text: 下次發生內部錯誤時,立即彈出這個視窗
+error.list.restart.action:
+    text: 重啟
+error.list.shutdown.action:
+    text: 關閉
+error.list.submit.action:
+    text: 提交
+error.monitor.too.many.errors:
+    text: 太多的IDE致命錯誤。監控已停止。
+error.notification.empty.text:
+    text: 沒有IDE致命錯誤
+error.notification.tooltip:
+    text: <html><body>IDE內部錯誤發生。<br>點擊檢視細節訊息並提交缺陷報告。</body></html>
+error.plugin.download.failed:
+    text: 增益集下載失敗
+error.report.authentication.failed:
+    text: JetBrains賬戶認證失敗.你想再試一次嗎?
+error.report.exception.title:
+    text: 錯誤報告
+error.report.failure.message:
+    text: 錯誤報告傳送失敗了。
+error.report.gratitude:
+    text: 謝謝你的反饋!
+error.report.new.eap.build.message:
+    text: 新構建{0}是可用的.
+error.report.posting.failed:
+    text: 報告發佈失敗:{0}.你想再試一次嗎?
+error.report.sending.failure:
+    text: 傳送失敗了。你想再試一次嗎？
+error.report.title:
+    text: 錯誤報告
+log.console.filter.show.all:
+    text: 全部
+log.console.filter.show.errors:
+    text: 錯誤
+log.console.filter.show.errors.and.warnings:
+    text: 警告
+log.console.filter.show.errors.warnings.and.infos:
+    text: 訊息
+log.monitor.add.button:
+    text: 新增
+log.monitor.edit.aliases.location:
+    text: '日誌檔案的路徑:'
+log.monitor.edit.aliases.name:
+    text: '別名:'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: 由pattern來顯示所有檔案 (&S)
+log.monitor.edit.aliases.title:
+    text: 編輯日誌檔案的別名
+log.monitor.group:
+    text: 日誌檔案顯示在主控台
+log.monitor.is.active.column:
+    text: 是啟用的
+log.monitor.is.skipped.column:
+    text: 跳過內容
+log.monitor.log.file.column:
+    text: 日誌檔案項目
+log.monitor.no.files:
+    text: 不附加任何日誌檔案
+log.monitor.remove.button:
+    text: 移除(&R)
+plugin.info.unknown:
+    text: 未知
+plugin.manager.incompatible.deps.tooltip:
+    text: 必須的 {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} 未啟用
+plugin.manager.incompatible.not.loaded.tooltip:
+    text: 該增益集未載入
+plugin.status.not.specified:
+    text: （沒有指定）
+progress.connecting.to.plugin.manager:
+    text: 連接到{0}
+progress.download.plugins:
+    text: 下載增益集中
+progress.downloading.list.of.plugins:
+    text: 從 {0} 下載增益集清單
+progress.downloading.plugin:
+    text: "下載增益集 ''{0}''"
+prompt.download.and.install.plugin:
+    text: "你想下載並安裝增益集 ''{0}''?"
+prompt.install.several.plugins:
+    text: 安裝或更新{0}增益集?
+prompt.uninstall.plugin:
+    text: "你真的要移除的增益集 ''{0}''?"
+prompt.uninstall.several.plugins:
+    text: 你真的要移除這些{0}增益集?
+prompt.update.plugin:
+    text: "你想更新增益集 ''{0}''?"
+several.plugins.depend.on.0.continue.to.remove:
+    text: 幾個增益集依賴於{0}。繼續刪除嗎？
+title.plugin.uninstall:
+    text: 增益集移除
+title.plugins:
+    text: 增益集
+title.plugins.changed:
+    text: 增益集已改變
+unknown.error:
+    text: 未知錯誤
+virus.scanning.dont.show.again:
+    text: 不再顯示
+virus.scanning.dont.show.again.this.project:
+    text: 不再為此專案顯示
+virus.scanning.fix.automatically:
+    text: 自動設定
+virus.scanning.fix.explanation:
+    text: <html>為提高性能，{0} 可能更新 Windows Defender 設定，以從實時掃描中排除 IDE 和專案目錄。<br>這需要使用管理員權限執行指令。<br>您也可以根據<a href="{1}">說明</a>手動設定 Windows Defender。
+virus.scanning.fix.failed:
+    text: '無法更新 Windows Defender 設定: {0}'
+virus.scanning.fix.manually:
+    text: 手動設定
+virus.scanning.fix.success.notification:
+    text: Windows Defender 設定已更新
+virus.scanning.fix.title:
+    text: 設定 Windows Defender
+virus.scanning.warn.message:
+    text: 從防病毒掃描中排除 IDE 和專案目錄:<br>{0}<br>或將 IDE 行程添加為排除項。
+whatsnew.action.custom.description:
+    text: 瞭解有關新功能在這個版本的{0}
+whatsnew.action.custom.text:
+    text: '{0} 有什麼更新'

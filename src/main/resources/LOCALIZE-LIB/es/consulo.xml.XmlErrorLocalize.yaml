@@ -1,0 +1,70 @@
+attribute.value.expected:
+    text: Se esperaba un valor de atributo
+cannot.resolve.taglib.uri:
+    text: No se puede resolver la taglib con la URI {0}
+create.tagfile.attribute.family:
+    text: Crear atributo de archivo de etiquetas
+create.tagfile.attribute.text:
+    text: Crear atributo de archivo de etiquetas {0}
+dtd.parser.message.left.paren.or.entityref.or.empty.or.any.expected:
+    text: Se esperaba (, referencia de entidad, EMPTY o ANY
+dtd.parser.message.literal.public.system.expected:
+    text: Se esperaba un literal, PUBLIC o SYSTEM
+dtd.parser.message.name.expected:
+    text: Se esperaba un nombre XML
+dtd.parser.message.name.or.entity.ref.expected:
+    text: Se esperaba un nombre XML o una referencia de entidad
+dtd.parser.message.whitespace.expected:
+    text: Se esperaba un espacio en blanco
+element.is.not.closed:
+    text: El elemento no está cerrado
+expected.attribute.eq.sign:
+    text: "Se esperaba el signo '='"
+jsp.directive.end.expected:
+    text: Se esperaba el fin de la directiva
+quote.expected:
+    text: Se esperaba una comilla
+rename.end.tag.name.intention:
+    text: "Renombrar la etiqueta de cierre ''{0}'' a ''{1}''"
+rename.start.tag.name.intention:
+    text: "Renombrar la etiqueta de inicio ''{0}'' a ''{1}''"
+tag.has.wrong.closing.tag.name:
+    text: La etiqueta de inicio tiene una etiqueta de cierre incorrecta
+unknown.encoding.0:
+    text: "Codificación desconocida: ''{0}''"
+xml.parsing.absent.root.tag:
+    text: Un documento XML válido debe tener una etiqueta raíz
+xml.parsing.attribute.value.expected:
+    text: Se esperaba un valor de atributo
+xml.parsing.bad.character:
+    text: Carácter no válido
+xml.parsing.closing.tag.is.not.done:
+    text: La etiqueta de cierre no es válida
+xml.parsing.closing.tag.matches.nothing:
+    text: La etiqueta de cierre no coincide con nada
+xml.parsing.closing.tag.name.missing:
+    text: Falta el nombre de la etiqueta de cierre
+xml.parsing.multiple.root.tags:
+    text: Múltiples etiquetas raíz
+xml.parsing.processing.instruction.name.expected:
+    text: Se esperaba el nombre de la instrucción de procesamiento
+xml.parsing.tag.name.expected:
+    text: Se esperaba un nombre de etiqueta
+xml.parsing.unclosed.attribute.value:
+    text: El valor del atributo no está cerrado
+xml.parsing.unexpected.end.of.file:
+    text: Fin de archivo inesperado
+xml.parsing.unexpected.token:
+    text: Token inesperado
+xml.parsing.unexpected.tokens:
+    text: Tokens inesperados
+xml.parsing.unterminated.processing.instruction:
+    text: Instrucción de procesamiento no terminada
+xml.schema.validation.attr.not.allowed.with.ref:
+    text: El atributo {0} no está permitido aquí cuando se utiliza una referencia de elemento
+xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
+    text: "los atributos 'default' y 'fixed' no deben estar presentes al mismo tiempo"
+xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
+    text: El valor de maxOccurs debe ser mayor que el valor de minOccurs
+xml.schema.validation.name.or.ref.should.present:
+    text: "Debe estar presente el atributo 'name' o 'ref'"

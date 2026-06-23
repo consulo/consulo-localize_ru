@@ -1,0 +1,192 @@
+action.ImportCoverage.description:
+    text: Importar un informe recopilado en CI desde el disco
+action.ImportCoverage.text:
+    text: Importar informe de cobertura externo…
+action.name.cover:
+    text: Cobertura
+branch.coverage.message:
+    text: |-
+        Impactos: {0}
+        {1}/{2} ramas cubiertas
+cannot.show.coverage.reports.from.different.engines:
+    text: No se pueden mostrar informes de cobertura de diferentes motores.
+choose.coverage.suite.to.display:
+    text: Seleccionar la suite de cobertura a mostrar
+code.coverage:
+    text: Cobertura de código
+configurable.CoverageOptionsConfigurable.display.name:
+    text: Cobertura
+coverage.add.to.active.suites:
+    text: '&Añadir a las suites activas'
+coverage.collecting.data:
+    text: Recopilando datos de cobertura
+coverage.data.no.coverage.button:
+    text: '&Sin cobertura'
+coverage.data.not.found:
+    text: No se encontraron datos de cobertura
+coverage.data.outdated:
+    text: Datos de cobertura desactualizados
+coverage.data.runner.name:
+    text: Cobertura de {0}
+coverage.data.show.selected.button:
+    text: Mostrar seleccionados
+coverage.do.not.apply.collected.coverage:
+    text: No aplicar &cobertura recopilada
+coverage.edit.colors.action.name:
+    text: Editar colores de cobertura
+coverage.edit.colors.description:
+    text: Editar colores de cobertura
+coverage.error.collecting.data:
+    text: Error al recopilar los datos de cobertura
+coverage.error.collecting.data.text:
+    text: Error al recopilar los datos de cobertura
+coverage.error.loading.report:
+    text: Error al cargar el informe de cobertura
+coverage.files:
+    text: archivos
+coverage.files.capitalised:
+    text: Archivos
+coverage.filter.branch.gotit:
+    text: Solo se muestran los {0} modificados en la rama actual. Puede configurar el filtrado aquí.
+coverage.filter.gotit:
+    text: Solo se muestran {0} con cambios sin confirmar. Puede configurar el filtrado aquí.
+coverage.flatten.packages:
+    text: Aplanar paquetes
+coverage.hide.coverage.link.name:
+    text: Ocultar cobertura
+coverage.hide.fully.covered.elements:
+    text: Ocultar {0} totalmente cubiertos
+coverage.import.report.toolwindow.empty.text:
+    text: Importar un informe recopilado en CI desde el disco
+coverage.info.string.file:
+    text: '{0,choice,1#archivo|2#archivos}'
+coverage.is.not.importable:
+    text: "No se puede importar la cobertura a este entorno. {0} coverage.py o {1} ''{2}'' en Configuración | Compilación, ejecución, despliegue | Cobertura."
+coverage.is.not.importable.option.enable:
+    text: habilitar
+coverage.is.not.importable.option.install:
+    text: Instalar
+coverage.next.change.fully.covered:
+    text: Totalmente cubierto
+coverage.next.change.partial.covered:
+    text: Cobertura parcial
+coverage.next.change.uncovered:
+    text: No cubierto
+coverage.next.mark:
+    text: Siguiente marca de cobertura
+coverage.next.place:
+    text: Siguiente {0}
+coverage.previous.mark:
+    text: Marca de cobertura anterior
+coverage.previous.place:
+    text: Anterior {0}
+coverage.replace.active.suites:
+    text: '&Reemplazar suites activas'
+coverage.results.suite.name:
+    text: Resultados de cobertura de {0}
+coverage.show.fully.covered.elements:
+    text: Mostrar {0} totalmente cubiertos
+coverage.show.only.elements.in.feature.branch:
+    text: Mostrar solo {0} modificados (respecto a la rama {1})
+coverage.show.only.modified.elements:
+    text: Mostrar solo {0} con cambios sin confirmar
+coverage.show.unmodified.elements:
+    text: Mostrar {0} sin cambios sin confirmar
+coverage.tab.title:
+    text: Cobertura de código
+coverage.view.configuration.was.not.found:
+    text: "No se encontró la configuración ''{0}''."
+coverage.view.edit.run.configuration.0:
+    text: Hacer clic
+coverage.view.edit.run.configuration.1:
+    text: Editar
+coverage.view.edit.run.configuration.2:
+    text: para corregir los ajustes de configuración.
+coverage.view.element:
+    text: Elemento
+coverage.view.filters.group:
+    text: Filtros
+coverage.view.loading.data:
+    text: Cargando datos de cobertura
+coverage.view.no.coverage.results:
+    text: No hay resultados de cobertura.
+coverage.view.packages.root:
+    text: todo
+coverage.view.text.covered:
+    text: cubierto
+coverage.view.text.files.covered:
+    text: '{0}% de archivos'
+coverage.view.text.lines.covered:
+    text: '{0}% de líneas cubiertas'
+coverage.view.title:
+    text: Cobertura
+delete.file:
+    text: Eliminar archivo
+dialog.message.would.you.like.to.delete.file.on.disk:
+    text: "¿Desea eliminar el archivo ''{0}'' del disco?"
+dialog.title.find.tests.by.names:
+    text: Buscar pruebas por nombre
+display.coverage.prompt:
+    text: "¿Desea mostrar los datos de cobertura de ''{0}''?"
+extract.information.about.tests:
+    text: Extraer información sobre las pruebas
+following.test.could.not.be.found.1:
+    text: 'No se {0, choice, 1#pudo encontrar la siguiente prueba|2#pudieron encontrar las siguientes pruebas}: {1}'
+generate.coverage.report.for:
+    text: "Generar informe de cobertura para: ''{0}''"
+hint.text.failed.to.load.covered.tests:
+    text: Error al cargar las pruebas cubiertas
+hits.message:
+    text: 'coincidencias: {0}'
+hits.title:
+    text: 'Coincidencias: {0}'
+lines.covered.info.less.than.one.percent:
+    text: <1% de líneas cubiertas
+lines.covered.info.no.lines.covered:
+    text: ninguna línea cubierta
+lines.covered.info.not.covered:
+    text: no cubierto
+lines.covered.info.percent.lines.covered:
+    text: '% de líneas cubiertas'
+link.label.close:
+    text: Cerrar
+marker.code.coverage:
+    text: 'marcador: cobertura de código'
+no.coverage.runner.available.for:
+    text: No hay ningún ejecutor de cobertura disponible para {0}
+no.coverage.suites.configured:
+    text: No se han configurado suites de cobertura.
+node.summary.coverage.statistic:
+    text: "{0} en ''{1}''"
+node.summary.no.coverage:
+    text: "Sin cobertura en ''{0}''"
+popup.title.tests.covering.line:
+    text: Pruebas que cubren la línea {0}:{1}
+remote.suites.node:
+    text: Remoto
+run.selected.configuration.with.coverage.enabled:
+    text: Ejecutar la configuración seleccionada con la cobertura habilitada
+run.with.coverage:
+    text: Ejecutar con cobertura(_V)
+run.with.coverage.mnemonic:
+    text: "Ejecutar '%s' con cobertura(_V)"
+settings.coverage.activate.coverage.view:
+    text: Activar &vista de cobertura
+settings.coverage.add.to.the.active.suites:
+    text: Aña&dir a las suites activas
+settings.coverage.do.not.apply.collected.coverage:
+    text: '&No aplicar la cobertura recopilada'
+settings.coverage.replace.active.suites.with.the.new.one:
+    text: Reemplazar las suites activas por la nueva(&R)
+settings.coverage.show.in.project.view:
+    text: Mostrar cobertura en la vista de proyecto
+settings.coverage.show.options.before.applying.coverage.to.the.editor:
+    text: '&Mostrar opciones antes de aplicar la cobertura al editor'
+settings.coverage.when.new.coverage.is.gathered:
+    text: Cuando se recopile nueva cobertura
+show.coverage.per.test.action.description:
+    text: Mostrar cobertura por prueba
+show.coverage.per.test.action.text:
+    text: Mostrar cobertura por prueba
+table.column.name.statistics:
+    text: Estadísticas, %

@@ -1,0 +1,8 @@
+code.vision.implementations.hint:
+    text: "{0, choice, 1#1 implementación|2#{0,number}'{1,choice,0#|1#+}' implementaciones}"
+code.vision.inheritors.hint:
+    text: "{0, choice, 1#1 heredero|2#{0,number}'{1,choice,0#|1#+}' herederos}"
+code.vision.overrides.hint:
+    text: "{0, choice, 1#1 sobrescritura|2#{0,number}'{1,choice,0#|1#+}' sobrescrituras}"
+usages.telescope:
+    text: '{0,choice, 0#0 usos|1#1 uso|2#{0,number} usos}'

@@ -1,0 +1,180 @@
+build.event.title.cannot.start.server.error:
+    text: No se puede iniciar el servidor Maven
+build.event.title.internal.server.error:
+    text: Error del servidor Maven
+cannot.download.zip.from:
+    text: No se puede descargar la distribución ZIP desde {0}. Compruebe distributionUrl
+cannot.resolve.maven.home:
+    text: No se puede resolver el directorio principal de Maven
+importing.jdk.changed:
+    text: Se ha cambiado el JDK del importador
+importing.jdk.changed.description:
+    text: No se encontró el JDK para el importador {0} y se cambió a {1}. <br>Considere la configuración de Maven para cambiar el JDK del importador
+is.not.correct.maven.home.reverting.to.embedded:
+    text: '{0} no es un Maven home correcto, revirtiendo a la versión integrada'
+maven.cannot.reconnect:
+    text: 'No se puede conectar al proceso Maven. Si el problema persiste, compruebe la configuración de la red y del equipo local. Consulte este artículo para obtener más detalles: https://intellij-support.jetbrains.com/hc/en-us/articles/360014262940'
+maven.core.plexus.init.issue.description:
+    text: |-
+        No se puede inicializar Maven debido a un error crítico fatal:
+         Posibles soluciones:
+maven.core.plexus.init.issue.description.exception:
+    text: 'Mensaje de la excepción y traza de la pila a continuación:'
+maven.core.plexus.init.issue.fix.downgrade:
+    text: Use Maven 3.8.4 o anterior. A partir de Maven 3.8.5, las extensiones principales sin resolver impiden la ejecución de Maven. <a href="{0}">Abrir la configuración de Maven</a>
+maven.core.plexus.init.issue.fix.remove:
+    text: Eliminar la extensión de núcleo no resuelta y <a href="{0}">reiniciar el subsistema Maven</a>
+maven.core.plexus.init.issue.title:
+    text: No se pueden resolver los componentes principales de Maven
+maven.language.level.unaccepted.description:
+    text: Debe aceptar los términos del aviso legal de la especificación beta de Java para habilitar la compatibilidad con "{0}" <a href="{1}">Mostrar términos</a>
+maven.language.level.unaccepted.title:
+    text: No se puede establecer el nivel de lenguaje "{0}"
+maven.sync.annotation.processor.problem:
+    text: Problema del procesador de anotaciones del compilador Maven
+maven.sync.dependencies.artifact.download:
+    text: Descargando {0}
+maven.sync.dependencies.download:
+    text: Descargando dependencias
+maven.sync.dependencies.resolve:
+    text: Resolver dependencias
+maven.sync.dependencies.resolve.error:
+    text: No se puede resolver {0}
+maven.sync.failure.dependency.not.found:
+    text: No se encontró {0}
+maven.sync.failure.error.reading.file:
+    text: Error al leer el archivo {0}
+maven.sync.failure.error.undefined.detailed.message:
+    text: Error en el archivo {0}
+maven.sync.failure.terminated:
+    text: Terminado con el código de salida {0}
+maven.sync.group.compiler:
+    text: Compilador
+maven.sync.group.warning:
+    text: Advertencia
+maven.sync.incorrect.model.version:
+    text: Versión del modelo de Maven incorrecta
+maven.sync.incorrect.model.version.desc:
+    text: '{0} <br/><br/><a href="{1}">Actualizar la versión del modelo de Maven a 4.1.0</a>'
+maven.sync.jdk.description:
+    text: Para Maven {0} se requiere al menos el JDK {1}.  <br/><br/><a href="{2}">Elegir otro JDK para el importador y el ejecutor…</a> <br/><a href="{3}">Abrir la configuración del importador…</a>
+maven.sync.jdk.title:
+    text: La versión del JDK de Maven para el importador es demasiado baja
+maven.sync.not.trusted.description:
+    text: "El proyecto no confiable abierto no se ha cargado por completo. \nIntelliJ IDEA no resolverá ningún plugin del proyecto, no descargará artefactos ni ejecutará ningún objetivo"
+maven.sync.not.trusted.title:
+    text: Proyecto no confiable
+maven.sync.plugins.artifact.download:
+    text: Descargando {0}
+maven.sync.plugins.download:
+    text: Descargando plugins
+maven.sync.plugins.resolve:
+    text: Resolver plugins
+maven.sync.plugins.resolve.error:
+    text: No se puede resolver el plugin {0}
+maven.sync.project.title:
+    text: Sincronizar {0}
+maven.sync.quickfixes.maven.jdk.version.title:
+    text: JDK de Maven incompatible
+maven.sync.quickfixes.maven.version.title:
+    text: Problema con la versión de Maven
+maven.sync.quickfixes.maven360:
+    text: Está utilizando Maven 3.6.0, puede haber problemas al importar proyectos multimódulo. Se recomienda actualizar o degradar la versión de Maven
+maven.sync.quickfixes.nomaven:
+    text: La versión de Maven no está definida
+maven.sync.quickfixes.repository.blocked:
+    text: 'A partir de Maven 3.8.1, los repositorios HTTP están bloqueados.<br/><br/>Posibles soluciones:'
+maven.sync.quickfixes.repository.blocked.add.mirror:
+    text: '- Añadir un mirror(s) para {0} que permita URL http en el <a href="{1}">settings.xml</a> de Maven'
+maven.sync.quickfixes.repository.blocked.downgrade:
+    text: '- Degradar Maven a la versión 3.8.1 o anterior en la <a href="{0}">configuración</a>'
+maven.sync.quickfixes.repository.blocked.find.repository:
+    text: '- Compruebe que los <a href="{0}">archivos pom</a> de Maven no contienen el repositorio http {1}'
+maven.sync.quickfixes.repository.blocked.show.settings:
+    text: '- Compruebe que el <a href="{0}">settings.xml</a> de Maven no contenga repositorios http'
+maven.sync.quickfixes.repository.blocked.title:
+    text: Desde Maven 3.8.1 los repositorios http están bloqueados
+maven.sync.quickfixes.upgrade.to.jdk7:
+    text: La versión {0} de Maven requiere al menos la versión 1.7 de JDK
+maven.sync.quickfixes.use.bundled.settings:
+    text: Usar {0} integrado
+maven.sync.restarting:
+    text: Reiniciando Maven…
+maven.sync.title:
+    text: Sincronizar
+maven.sync.trust.project:
+    text: Confiar en el proyecto
+maven.sync.version.issue.title:
+    text: Problema con la versión de Maven
+maven.sync.version.open.settings:
+    text: Abrir configuración
+maven.sync.version.use.bundled:
+    text: Usar {0} incluido
+maven.sync.waiting.for.completion:
+    text: Esperando la finalización de la importación de Maven
+maven.sync.warnings.eclipse.batch.compiler.no.dependency:
+    text: Dependencia org.codehaus.groovy:groovy-eclipse-batch no registrada correctamente
+maven.sync.warnings.eclipse.batch.compiler.no.dependency.desc:
+    text: Para utilizar groovy-eclipse-compiler, debe especificar un artefacto de Groovy como dependencia de compilación además de la dependencia de maven-compiler-plugin. La versión de la dependencia de Groovy debe coincidir con la versión del compilador.
+maven.sync.wrapper:
+    text: Ejecutando maven wrapper
+maven.sync.wrapper.downloading:
+    text: Descargando Maven wrapper
+maven.sync.wrapper.downloading.auth:
+    text: Descargando el wrapper de Maven con autenticación básica
+maven.sync.wrapper.downloading.canceled:
+    text: Se canceló la descarga del Maven wrapper
+maven.sync.wrapper.downloading.from:
+    text: Descargando el Maven wrapper desde {0}
+maven.sync.wrapper.downloading.progress:
+    text: Descargando Maven wrapper {0}/{1}%
+maven.sync.wrapper.failure:
+    text: No se puede instalar el Maven del wrapper, establezca el Maven integrado
+maven.sync.wrapper.failure.description:
+    text: '{0}<br/><br/>El wrapper de Maven se ha desactivado. En su lugar, se utilizará la versión incluida de Maven.<br/><br/>Para habilitar un wrapper de Maven, cambie la ruta de Maven home en <a href="{1}">configuración</a>.'
+maven.sync.wrapper.http.description:
+    text: HTTP utilizado para descargar la distribución de Maven. Considere cambiar distributionURL a HTTPS.
+maven.sync.wrapper.http.title:
+    text: Se utiliza HTTP para descargar la distribución de Maven
+maven.sync.wrapper.unpacked.into:
+    text: Maven wrapper desempaquetado en {0}
+maven.sync.wrapper.unpacking:
+    text: Desempaquetando archivo…
+maven.sync.wsl.jdk:
+    text: El JDK de Maven para el importador debe ser un JDK de WSL
+maven.sync.wsl.jdk.fix:
+    text: Abrir ajustes de importación de Maven
+maven.sync.wsl.jdk.revert.usr:
+    text: No se encontró el JDK de Maven para el importador, se utilizará /usr/bin/java si existe
+maven.sync.wsl.jdk.set.to.project:
+    text: Para un proceso de importación correcto, el JDK de Maven para el importador se ejecutó con el JDK del proyecto.
+maven.sync.wsl.maven.is.not.wsl:
+    text: La distribución de Maven parece incorrecta
+maven.sync.wsl.maven.is.not.wsl.description:
+    text: |-
+        El directorio principal de Maven se ha resuelto en {0}.
+         Por motivos de rendimiento, es mejor utilizar Maven instalado en la distribución de WSL. <a href="{1}">Abrir configuración</a>
+maven.sync.wsl.userhome.cannot.resolve:
+    text: No se puede resolver la variable $HOME en WSL. Parece que el proceso de integración de WSL se ha bloqueado. Intente reiniciar WSL o la máquina anfitriona.
+maven.wrapper.notification.downloading.error.action:
+    text: Volver a habilitar el Maven wrapper en la configuración.
+maven.wrapper.notification.downloading.error.content:
+    text: '{0}<br/>Se ha deshabilitado el Maven wrapper. Se utilizará la versión integrada de Maven en su lugar.'
+maven.wrapper.notification.downloading.finish:
+    text: Instalado correctamente.
+maven.wrapper.notification.downloading.start:
+    text: Iniciando la descarga. Por favor, espere.
+maven.wrapper.notification.empty.url.action.check:
+    text: Compruebe su URL de distribución.
+maven.wrapper.notification.empty.url.action.disable:
+    text: Desactivar Maven Wrapper en la configuración.
+maven.wrapper.notification.empty.url.content:
+    text: DistributionUrl está vacío. Se utilizará la versión de Maven integrada en su lugar.
+maven.wrapper.notification.empty.url.content.file.not.found:
+    text: No se encontró el archivo .mvn/wrapper/maven-wrapper.properties. Se utilizará la versión de Maven incluida en su lugar.
+maven.wrapper.version.label:
+    text: Crear propiedad
+progress.title.starting.maven.server:
+    text: Iniciando el servidor Maven
+zip.is.not.correct:
+    text: El archivo Zip en {0} no es una distribución de Maven válida. Por favor, compruebe distributionUrl.

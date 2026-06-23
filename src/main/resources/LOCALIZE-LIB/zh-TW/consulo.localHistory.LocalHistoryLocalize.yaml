@@ -1,0 +1,104 @@
+action.create.patch:
+    text: 建立補丁...
+action.revert:
+    text: 還原
+action.revert.selection:
+    text: 還原所選
+action.show.difference:
+    text: 顯示差異
+config.dialog.title:
+    text: 本機歷史
+config.period:
+    text: 保持本機歷史(活躍工作日)(&H)
+config.put.label.group:
+    text: 自動貼標籤
+config.put.label.on.file.package.compilation:
+    text: 檔案/包編譯
+config.put.label.on.project.compilation:
+    text: 項目編譯
+config.put.label.on.project.make:
+    text: 項目構建
+config.put.label.on.project.opening:
+    text: 項目開啟
+config.put.label.on.running.debugging:
+    text: 執行/診斷
+config.put.label.on.unit.tests.failed:
+    text: 單元測試失敗
+config.put.label.on.unit.tests.passed:
+    text: 單元測試透過
+content.not.available:
+    text: 檔案內容不可用
+create.patch.dialog.title:
+    text: 建立補丁
+current.revision:
+    text: 目前
+file.does.not.exist:
+    text: 檔案不存在
+message.cannot.create.patch.because.of.unavailable.content:
+    text: |-
+        無法建立補丁，因為一些所選檔案
+        的內容由於其大尺寸而未被存儲。
+message.cannot.revert.because:
+    text: 無法恢復，因為 {0}
+message.do.you.want.to.proceed:
+    text: |-
+        {0}
+
+        你想繼續嗎？
+message.error.during.create.patch:
+    text: 補丁建立期間錯誤：{0}
+message.error.during.revert:
+    text: 恢復期間錯誤：{0}
+message.patch.created:
+    text: 補丁檔案已建立
+message.processing.left.revision:
+    text: 處理左修訂版本...
+message.processing.revisions:
+    text: 處理修訂版本...
+message.processing.right.revision:
+    text: 處理右修訂版本...
+put.label.dialog.title:
+    text: 貼標籤
+put.label.name:
+    text: 標籤名：(&N)
+recent.changes.popup.title:
+    text: 最近的變更
+recent.changes.to.changes:
+    text: 沒有變化
+revert.error.directory.was.moved:
+    text: 目錄被移動
+revert.error.file.already.exists:
+    text: 同名檔案已存在
+revert.error.files.already.exist:
+    text: 一些檔案已經存在
+revert.error.files.are.read.only:
+    text: 一些檔案是唯讀的
+revert.error.files.were.moved:
+    text: 一些檔案被移動到或從目錄外部移動
+revert.error.parent.was.renamed:
+    text: 父被重新命名
+revert.message.some.files.have.unversioned.content:
+    text: |-
+        以下檔案的內容過大未被版本控制。
+        {0}
+        這些檔案的內容在還原期間不會被變更，可能會導致代碼損壞。
+revisions.table.date:
+    text: 日期
+revisions.table.filesCount:
+    text: '{0} 檔案'
+revisions.table.period.old:
+    text: 舊變化
+revisions.table.period.older:
+    text: 更久的
+revisions.table.period.recent:
+    text: 最後 {0} 小時
+revisions.table.revision:
+    text: 修訂
+system.label.external.change:
+    text: 外部變更
+system.label.project.open:
+    text: 項目開啟
+system.label.revert.to.change.date:
+    text: "還原為 ''{0}'' 在 {1}"
+system.label.revert.to.date:
+    text: 已還原為 {0}

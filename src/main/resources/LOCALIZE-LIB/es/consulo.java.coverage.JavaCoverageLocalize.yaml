@@ -1,0 +1,78 @@
+coverage.button.add.package:
+    text: Añadir paquete…
+coverage.classes:
+    text: clases
+coverage.classes.capitalised:
+    text: Clases
+coverage.error.jacoco.report.corrupted:
+    text: El archivo de informe de Jacoco {0} puede estar dañado, intente volver a ejecutarlo
+coverage.error.jacoco.report.format:
+    text: 'El archivo no tiene el formato de informe Jacoco: {0}'
+coverage.pattern.filter.editor.choose.package.title:
+    text: Seleccionar paquete
+coverage.recompile:
+    text: Recompilar
+coverage.settings:
+    text: Mostrar opciones de cobertura de código
+coverage.settings.exclude:
+    text: Excluir clases y paquetes
+coverage.settings.group:
+    text: Cobertura de código
+coverage.settings.include:
+    text: Especificar clases y paquetes
+coverage.settings.menu:
+    text: Configuración de cobertura
+coverage.view.column.branch:
+    text: Rama, %
+coverage.view.column.class:
+    text: Clase, %
+coverage.view.column.line:
+    text: Línea, %
+coverage.view.column.method:
+    text: Método, %
+coverage.view.text.classes.covered:
+    text: '{0}% de clases'
+coverage.view.text.methods.covered:
+    text: '{0}% de métodos'
+coverage.xml.report.title:
+    text: Informe XML
+do.not.show.coverage.data.in.specified.classes.and.packages:
+    text: No mostrar datos de cobertura en las clases y paquetes especificados
+download.coverage.report.from.target.failed:
+    text: No se pudo descargar el informe de cobertura del destino
+download.coverage.report.from.target.progress.title:
+    text: Descargando el informe de cobertura desde el destino…
+exclude.coverage.filters.title:
+    text: Paquetes y clases a excluir de los datos de cobertura
+generating.coverage.report:
+    text: Generando informe de cobertura…
+java.coverage.engine.presentable.text:
+    text: Cobertura de Java
+notification.group.coverage:
+    text: Error al cargar o recopilar los datos de cobertura
+project.class.files.are.out.of.date:
+    text: Los archivos de clase del proyecto están desactualizados, lo que puede dar lugar a información de cobertura incompleta
+project.is.out.of.date:
+    text: El proyecto está desactualizado
+record.coverage.filters.title:
+    text: Paquetes y clases para incluir en los datos de cobertura
+report.unknown.outcome:
+    text: 'Resultado desconocido: {0}'
+run.configuration.choose.coverage.runner:
+    text: 'Seleccionar ejecutor de cobertura:'
+run.configuration.coverage.branches:
+    text: Cobertura de ramas
+run.configuration.coverage.branches.comment:
+    text: Recopilar cobertura de todas las ramas de las sentencias if/switch
+run.configuration.enable.coverage.in.test.folders:
+    text: Recopilar cobertura en carpetas de prueba
+run.configuration.track.per.test.coverage:
+    text: Seguimiento de cobertura por prueba
+run.configuration.track.per.test.coverage.comment:
+    text: Recopilar datos sobre qué líneas de código fueron cubiertas por pruebas específicas
+settings.coverage.java.ignore.implicitly.declared.default.constructors:
+    text: Ignorar constructores predeterminados declarados implícitamente
+settings.coverage.java.java.coverage:
+    text: Cobertura de Java
+show.coverage.data.only.in.specified.classes.and.packages:
+    text: Mostrar datos de cobertura solo en las clases y paquetes especificados

@@ -1,0 +1,1240 @@
+action.$Copy.description:
+    text: クリップボードにコピーします
+action.$Copy.text:
+    text: コピー(_C)
+action.$Cut.description:
+    text: クリップボードに切り取ります
+action.$Cut.text:
+    text: 切り取り(_T)
+action.$Delete.description:
+    text: 選択した項目を削除します
+action.$Delete.text:
+    text: 削除(_D)
+action.$Paste.description:
+    text: クリップボードから貼り付けます
+action.$Paste.text:
+    text: 貼り付け(_P)
+action.$SelectAll.description:
+    text: すべて選択します
+action.$SelectAll.text:
+    text: すべて選択(_A)
+action.About.description:
+    text: IDEA のバージョン情報を表示します
+action.About.text:
+    text: バージョン情報(_A)
+action.ActivateNavBar.text:
+    text: ナビゲーションバーの表示
+action.Add to migration roots.description:
+    text: 選択した要素を移行ルートに追加する
+action.AddNewFavoritesList.description:
+    text: 新規お気に入りリストに追加します
+action.AddNewFavoritesList.text:
+    text: 新規お気に入りリストに追加
+action.AddToFavoritesPopup.description:
+    text: 選択したノードをお気に入りに追加します
+action.AddToFavoritesPopup.text:
+    text: お気に入りに追加
+action.Annotate.description:
+    text: 各行の変更日付と作成者に関する情報を表示します
+action.Annotate.text:
+    text: 注釈(_N)
+action.AssociateWithFileType.description:
+    text: 選択したファイルをファイルタイプの 1 つに関連付けます
+action.AssociateWithFileType.text:
+    text: ファイル タイプの関連付け
+action.AutoIndentLines.description:
+    text: コード スタイル設定に従って現在の行または選択したブロックをインデントします
+action.AutoIndentLines.text:
+    text: 行の自動インデント(_A)
+action.Back.description:
+    text: 最後のナビゲーション操作を元に戻します
+action.Back.text:
+    text: 前へ(_B)
+action.CallHierarchy.BaseOnThisType.description:
+    text: 選択したメソッドの呼び出し階層を表示します
+action.CallHierarchy.BaseOnThisType.text:
+    text: このメソッドをベースにする
+action.CallHierarchy.description:
+    text: 選択したメソッドの階層呼び出しを参照します
+action.CallHierarchy.text:
+    text: 階層の呼び出し(_Y)
+action.CaptureAllocations.description:
+    text: メモリ割当データをキャプチャします
+action.CaptureAllocations.text:
+    text: 割当のキャプチャ
+action.CaptureCPUUsageData.description:
+    text: CPU の使用状況をキャプチャします
+action.CaptureCPUUsageData.text:
+    text: CPU の使用状況のキャプチャ
+action.CaptureMemorySnapShot.description:
+    text: メモリ スナップショットをキャプチャします
+action.CaptureMemorySnapShot.text:
+    text: メモリ スナップショットのキャプチャ
+action.ChangeCodeStyleScheme.description:
+    text: 現在のコード スタイル スキームを変更します
+action.ChangeCodeStyleScheme.text:
+    text: コード スタイル スキームの切り替え
+action.ChangeColorScheme.description:
+    text: 現在のカラー スキームを変更します
+action.ChangeColorScheme.text:
+    text: カラー スキームの切り替え
+action.ChangeCustomizationSchema.description:
+    text: 現在のカスタマイズ スキーマを変更します
+action.ChangeCustomizationSchema.text:
+    text: カスタマイズ スキーマの切り替え
+action.ChangeInspectionProfile.description:
+    text: 現在のエディタ検査プロファイルを変更します
+action.ChangeInspectionProfile.text:
+    text: エディタ構文強調表示の切り替え
+action.ChangeKeymap.description:
+    text: 現在のキーマップを変更します
+action.ChangeKeymap.text:
+    text: キーマップの切り替え
+action.ChangeLaf.description:
+    text: 現在のルック アンド フィールを変更します
+action.ChangeLaf.text:
+    text: ルック アンド フィールの切り替え
+action.ChangeSignature.description:
+    text: 選択したクラスまたはメソッドのシグネチャを変更してすべての参照を更新します
+action.ChangeSignature.text:
+    text: シグネチャの変更...
+action.ChangeSplitOrientation.description:
+    text: 分割方向の向きを変更します
+action.ChangeSplitOrientation.text:
+    text: 分割方向の変更(_R)
+action.ChangesView.ApplyPatchFromClipboard.description:
+    text: プロジェクトのソースにパッチを適用する
+action.ChangesView.ApplyPatchFromClipboard.text:
+    text: クリップボードからパッチを適用...
+action.ChangesView.Revert.description:
+    text: 選択した変更を元に戻す
+action.ChangesView.Revert.text:
+    text: 元に戻す
+action.CheckForUpdate.description:
+    text: 利用可能なアップデートを確認します
+action.CheckForUpdate.text:
+    text: アップデートの確認(_C)...
+action.ClassNameCompletion.description:
+    text: クラス名を補完およびインポートを追加します
+action.ClassNameCompletion.text:
+    text: クラス名
+action.CloneElement.description:
+    text: 選択したクラス、ファイル、またはディレクトリのコピーを同じパッケージ/ディレクトリに作成します
+action.CloneElement.text:
+    text: クローン(_N)...
+action.CloseActiveTab.description:
+    text: アクティブ ツール ウィンドウ タブを閉じます
+action.CloseActiveTab.text:
+    text: アクティブ タブを閉じる(_O)
+action.CloseAllEditors.description:
+    text: アクティブ タブ グループ内のすべてのエディタを閉じる
+action.CloseAllEditors.text:
+    text: エディタをすべて閉じる(_A)
+action.CloseAllEditorsButActive.description:
+    text: アクティブではないエディタのすべてを閉じます
+action.CloseAllEditorsButActive.text:
+    text: アクティブを除くエディタをすべて閉じる(_B)
+action.CloseAllUnmodifiedEditors.description:
+    text: 変更されていないすべてのエディタを閉じます
+action.CloseAllUnmodifiedEditors.text:
+    text: 未変更エディタをすべて閉じる(_U)
+action.CloseEditor.description:
+    text: アクティブ エディタを閉じます
+action.CloseEditor.text:
+    text: アクティブ エディタを閉じる(_C)
+action.CloseProject.description:
+    text: 現在のプロジェクトを閉じます
+action.CloseProject.text:
+    text: プロジェクトを閉じる(_J)
+action.CloseWindow.text:
+    text: アクティブなウィンドウを閉じる
+action.CodeCompletion.description:
+    text: コードを補完します
+action.CodeCompletion.text:
+    text: ベーシック
+action.CollapseAll.text:
+    text: すべて収縮
+action.CollapseAllRegions.description:
+    text: すべての折りたたみ範囲を収縮します
+action.CollapseAllRegions.text:
+    text: すべて収縮(_A)
+action.CollapseBlock.description:
+    text: 現在のコード ブロックを折りたたみます
+action.CollapseBlock.text:
+    text: コード ブロックの折りたたみ
+action.CollapseDocComments.description:
+    text: すべてのドキュメンテーションコメントを折りたたむ
+action.CollapseDocComments.text:
+    text: docコメントを折りたたむ
+action.CollapseRegion.description:
+    text: キャレット位置の折りたたみ範囲を収縮します
+action.CollapseRegion.text:
+    text: 収縮する(_C)
+action.CollapseSelection.description:
+    text: 選択したブロックを折りたたみます
+action.CollapseSelection.text:
+    text: 選択の折りたたみ/範囲の削除(_S)
+action.CollapseTreeNode.text:
+    text: ツリー ノードの収縮
+action.CommentByBlockComment.description:
+    text: コードをブロック コメントでコメント化/非コメント化します
+action.CommentByBlockComment.text:
+    text: ブロック コメントの適用(_B)
+action.CommentByLineComment.description:
+    text: 現在の行または選択したブロックを行コメントでコメント化/非コメント化します
+action.CommentByLineComment.text:
+    text: 行コメントの適用(_L)
+action.Compare.Selected.text:
+    text: 比較...
+action.CompareClipboardWithSelection.description:
+    text: 現在の選択範囲をクリップボードと比較します
+action.CompareClipboardWithSelection.text:
+    text: クリップボードと比較(_C)
+action.CompareFileWithEditor.description:
+    text: 選択したファイルをエディタで比較します
+action.CompareFileWithEditor.text:
+    text: エディタでファイルを比較(_M)
+action.CompareTwoFiles.description:
+    text: 選択した 2 つのファイルを比較します
+action.CompareTwoFiles.text:
+    text: 2 つのファイルの比較(_F)
+action.Console.SplitLine.text:
+    text: スプリットライン
+action.ContextHelp.description:
+    text: コンテキスト ヘルプを表示します
+action.ContextHelp.text:
+    text: コンテキスト ヘルプ(_X)
+action.ConvertIndentsToSpaces.text:
+    text: スペースへ
+action.ConvertIndentsToTabs.text:
+    text: タブへ
+action.CopyElement.description:
+    text: 選択したクラス、ファイル、またはディレクトリのコピーを作成します
+action.CopyElement.text:
+    text: コピー...
+action.CopyPaths.description:
+    text: 選択したファイルまたはディレクトリのパスをクリップボードにコピーします
+action.CopyPaths.text:
+    text: パスのコピー(_O)
+action.CopyReference.description:
+    text: Java クラス/メソッド/フィールド参照をコピーします
+action.CopyReference.text:
+    text: 参照のコピー(_R)
+action.CreateDesktopEntry.text:
+    text: デスクトップエントリを作成...
+action.CreateLauncherScript.description:
+    text: コマンドラインからファイルを開くと、プロジェクトのためのスクリプトを作成します
+action.CreateLauncherScript.text:
+    text: コマンドラインランチャーを作成...
+action.CreateLibraryFromFile.text:
+    text: ライブラリとして追加...
+action.CreateRunConfiguration.description:
+    text: コンテキストから実行時設定を作成します
+action.CreateRunConfiguration.text:
+    text: 実行時設定の作成
+action.DebugListen.text:
+    text: デバッグ例外のスロー
+action.DecodeBytesAction.text:
+    text: バイトのデコード
+action.DelegateMethods.description:
+    text: 委譲メソッドを field/getter に生成します
+action.DelegateMethods.text:
+    text: メソッドの委譲(_D)...
+action.Diff.AppendLeftSide.text:
+    text: 左辺を追加する
+action.Diff.AppendRightSide.text:
+    text: 右端を追加
+action.Diff.ApplyLeftSide.text:
+    text: 左側を受け入れる
+action.Diff.ApplyNonConflicts.Left.text:
+    text: 左側から矛盾しない変更を適用する
+action.Diff.ApplyNonConflicts.Right.text:
+    text: 右側から非衝突の変更を適用する
+action.Diff.ApplyNonConflicts.text:
+    text: すべての矛盾しない変更を適用する
+action.Diff.ApplyRightSide.text:
+    text: 右側を受け入れる
+action.Diff.ComparePartial.Base.Left.text:
+    text: 左側と中央の内容を比較する
+action.Diff.ComparePartial.Base.Right.text:
+    text: 中と右の内容を比較する
+action.Diff.ComparePartial.Left.Right.text:
+    text: 左右の内容を比較する
+action.Diff.CompareWithBase.Left.text:
+    text: ベースと左のコンテンツの比較
+action.Diff.CompareWithBase.Result.text:
+    text: ベースと中間コンテンツの比較
+action.Diff.CompareWithBase.Right.text:
+    text: ベースと右の内容を比較する
+action.Diff.FocusOppositePane.description:
+    text: diffビューで反対のペインを選択
+action.Diff.FocusOppositePaneAndScroll.description:
+    text: 差分ビューで反対のペインで同じ位置を選択する
+action.Diff.FocusOppositePaneAndScroll.text:
+    text: 反対側の差分ウィンドウでの位置を選択
+action.Diff.IgnoreLeftSide.text:
+    text: 左側を無視する
+action.Diff.IgnoreRightSide.text:
+    text: 右端を無視する
+action.Diff.NextConflict.description:
+    text: 次の未解決の競合に移動する
+action.Diff.NextConflict.text:
+    text: 次の競合
+action.Diff.PreviousConflict.description:
+    text: 前回の未解決の競合に移動する
+action.Diff.PreviousConflict.text:
+    text: 前回の競合
+action.Diff.ResolveConflict.text:
+    text: 自動的に解決する
+action.Diff.ShowDiff.description:
+    text: ファイルやリビジョンを比較する
+action.Diff.ShowDiff.text:
+    text: 差分を表示
+action.DropAnError.text:
+    text: エラーのドロップ
+action.DumpPsiMemoryCaches.text:
+    text: PSI でキャッチしたダンプ
+action.EditFavorites.text:
+    text: 編集
+action.EditMacros.description:
+    text: 既存のマクロの設定を行います
+action.EditMacros.text:
+    text: マクロの編集(_E)...
+action.EditSource.description:
+    text: 選択項目をエディタで開いてフォーカスを移動します
+action.EditSource.text:
+    text: ソースに移動(_J)
+action.Exit.description:
+    text: IDEA を終了します
+action.Exit.text:
+    text: 終了(_X)
+action.ExpandAll.text:
+    text: すべて展開
+action.ExpandAllRegions.description:
+    text: すべての折りたたみ範囲を展開します
+action.ExpandAllRegions.text:
+    text: すべて展開(_E)
+action.ExpandDocComments.description:
+    text: すべてのドキュメンテーションコメントを展開
+action.ExpandDocComments.text:
+    text: docコメントを展開
+action.ExpandRegion.description:
+    text: キャレット位置の折りたたみ範囲を展開します
+action.ExpandRegion.text:
+    text: 展開する(_X)
+action.ExpandTreeNode.text:
+    text: ツリー ノードの展開
+action.ExportSettings.description:
+    text: グローバル設定をエクスポートします
+action.ExportSettings.text:
+    text: 設定のエクスポート(_E)...
+action.ExportThreads.description:
+    text: すべてのスレッド情報をテキスト ファイルまたはクリップボードに保存します
+action.ExportThreads.text:
+    text: スレッドのエクスポート(_H)...
+action.ExportToEclipse.text:
+    text: Eclipseへエクスポート...
+action.ExportToHTML.description:
+    text: ファイルの内容を構文カラーを含めて HTML 形式に保存します
+action.ExportToHTML.text:
+    text: ＨＴＭＬ にエクスポート(_H)...
+action.ExportToTextFile.text:
+    text: テキストファイルにエクスポート
+action.ExpressionTypeInfo.description:
+    text: 選択した式のタイプを表示する
+action.ExpressionTypeInfo.text:
+    text: 表現型
+action.ExternalJavaDoc.description:
+    text: 選択項目の JavaDoc をブラウザで開きます
+action.ExternalJavaDoc.text:
+    text: 外部 JavaDoc(_E)
+action.ExtractInclude.description:
+    text: 選択したコード フラグメントをインクルード ファイルに置換します
+action.ExtractInclude.text:
+    text: インクルード ファイルの抽出(_X)...
+action.ExtractInterface.description:
+    text: 選択したクラスからインターフェイスを抽出します
+action.ExtractInterface.text:
+    text: インターフェイスの抽出(_I)...
+action.ExtractMethod.description:
+    text: 選択したコード フラグメントをメソッドに変換します
+action.ExtractMethod.text:
+    text: メソッドの抽出(_X)...
+action.ExtractSuperclass.description:
+    text: 選択したクラスからスーパークラスを抽出します
+action.ExtractSuperclass.text:
+    text: スーパークラスの抽出(_U)...
+action.FileChooser.GotoDesktop.description:
+    text: デスクトップディレクトリに移動
+action.FileChooser.GotoDesktop.text:
+    text: デスクトップディレクトリ
+action.FileStructurePopup.description:
+    text: クイック ナビゲーションで現在のファイルの構造をポップアップ表示します
+action.FileStructurePopup.text:
+    text: ファイル構造ポップアップ表示(_F)
+action.Find.description:
+    text: アクティブなエディタ内の文字列を検索します
+action.Find.text:
+    text: 検索(_F)...
+action.FindInPath.description:
+    text: 複数のファイルから文字列を検索します
+action.FindInPath.text:
+    text: パス内の検索(_P)...
+action.FindJoinpointsByPointcutAction.description:
+    text: ポイントカットにより指定された結合ポイントを検索します
+action.FindJoinpointsByPointcutAction.text:
+    text: ポイントカットにより指定された結合ポイントの検索(_J)
+action.FindModal.text:
+    text: _検索...
+action.FindNext.description:
+    text: 最後の検索/置換操作を繰り返します
+action.FindNext.text:
+    text: 次を検索(_N)
+action.FindPrevious.description:
+    text: 最後の検索/置換操作を逆方向に繰り返します
+action.FindPrevious.text:
+    text: 前を検索(_V)
+action.FindUsages.description:
+    text: キャレット位置のシンボルの使用箇所を検索します
+action.FindUsages.text:
+    text: 使用箇所の検索(_U)...
+action.FindUsagesInFile.description:
+    text: アクティブ エディタ内のキャレット位置のシンボルの使用箇所を検索します
+action.FindUsagesInFile.text:
+    text: ファイル内の使用箇所の検索(_I)...
+action.FindWordAtCaret.description:
+    text: キャレット位置の文字の次を検索します
+action.FindWordAtCaret.text:
+    text: キャレット位置の文字を検索(_W)
+action.FixDocComment.text:
+    text: docコメントの修正
+action.Forward.description:
+    text: 最後のナビゲーション操作をやり直します
+action.Forward.text:
+    text: 次へ(_W)
+action.FullyExpandTreeNode.text:
+    text: ツリー ノードをすべて展開
+action.Generate.description:
+    text: コンストラクタ、getter または setter メソッド、または EJB コメントを生成します
+action.Generate.text:
+    text: 生成...
+action.GenerateAntBuild.description:
+    text: プロジェクトから Ant ビルド ファイルを生成します
+action.GenerateAntBuild.text:
+    text: Ant ビルドの生成(_G)
+action.GenerateSuperMethodCall.text:
+    text: スーパー メソッドの呼び出し
+action.GoToLinkTarget.description:
+    text: このシンボリックリンクのターゲットをプロジェクトビューで開きます
+action.GoToLinkTarget.text:
+    text: リンク先へ移動
+action.GotoAction.text:
+    text: アクションを検索...
+action.GotoAspect.description:
+    text: キャレット位置の結合ポイントに影響するアドバイス、エラー、または警告の宣言を参照します
+action.GotoAspect.text:
+    text: アスペクト(_A)
+action.GotoClass.description:
+    text: 名前を指定してクラスを参照します
+action.GotoClass.text:
+    text: クラス(_C)...
+action.GotoDeclaration.description:
+    text: キャレット位置のシンボルの定義を参照します
+action.GotoDeclaration.text:
+    text: 宣言(_D)
+action.GotoFile.description:
+    text: 名前を指定してファイルを参照します
+action.GotoFile.text:
+    text: ファイル(_F)...
+action.GotoImplementation.description:
+    text: 選択したクラスまたはメソッドの実装を参照します
+action.GotoImplementation.text:
+    text: 実装(_M)
+action.GotoLine.description:
+    text: 番号を指定してエディタ内の行位置を参照します
+action.GotoLine.text:
+    text: 行(_L)...
+action.GotoNextError.description:
+    text: アクティブなエディタ内で強調表示された次のエラーを参照します
+action.GotoNextError.text:
+    text: 強調表示された次のエラー(_N)
+action.GotoPreviousError.description:
+    text: アクティブなエディタ内で強調表示された前のエラーを参照します
+action.GotoPreviousError.text:
+    text: 強調表示された前のエラー(_P)
+action.GotoSuperMethod.description:
+    text: 現在のメソッドがオーバーライドまたは実装するメソッドの宣言を参照します
+action.GotoSuperMethod.text:
+    text: スーパー メソッド(_U)
+action.GotoSymbol.description:
+    text: 名前を指定してシンボルを参照します
+action.GotoSymbol.text:
+    text: シンボル(_S)...
+action.GotoTypeDeclaration.description:
+    text: キャレット位置のシンボルの型宣言を参照します
+action.GotoTypeDeclaration.text:
+    text: 型宣言(_T)
+action.Graph.print.reset:
+    text: リセット
+action.Help.KeymapReference.description:
+    text: デフォルト キーマップ リファレンス カードの PDF ファイルを開きます
+action.Help.KeymapReference.text:
+    text: デフォルト キーマップ リファレンス
+action.HelpTopics.description:
+    text: ヘルプを開きます
+action.HelpTopics.text:
+    text: トピックの検索(_T)
+action.HideActiveWindow.description:
+    text: アクティブ ツール ウィンドウを閉じます
+action.HideActiveWindow.text:
+    text: アクティブなウィンドウを閉じる(_D)
+action.HideAllWindows.description:
+    text: すべてのツール ウィンドウを閉じます
+action.HideAllWindows.text:
+    text: すべてのウィンドウを閉じる(_W)
+action.HighlightUsagesInFile.description:
+    text: アクティブ エディタ内のキャレット位置のシンボルの使用箇所を強調表示します
+action.HighlightUsagesInFile.text:
+    text: ファイル内の使用箇所を強調表示(_H)
+action.IdeScriptingConsole.description:
+    text: IDEスクリプトコンソールを開く
+action.IdeScriptingConsole.text:
+    text: IDEスクリプトコンソール
+action.Images.Editor.ToggleGrid.text:
+    text: グリッド
+action.Images.Editor.ZoomIn.text:
+    text: 拡大
+action.Images.Editor.ZoomOut.text:
+    text: 縮小
+action.Images.Thumbnails.Hide.text:
+    text: thumbnailsを閉じる
+action.ImplementMethods.description:
+    text: 現在のクラスのインターフェイス/ベース クラス メソッドを実装します
+action.ImplementMethods.text:
+    text: メソッドの実装(_I)...
+action.ImportFromEclipse.description:
+    text: Eclipseプロジェクトからプロジェクトを作成します
+action.ImportFromEclipse.text:
+    text: Eclipseからインポート...
+action.ImportFromJBuilder.description:
+    text: JBuilder プロジェクトからのモジュールを読み込みます
+action.ImportFromJBuilder.text:
+    text: JBuilder からのインポート(_F)
+action.ImportModuleFromImlFile.description:
+    text: プロジェクトにモジュールとしてIMLファイルをインポート
+action.ImportModuleFromImlFile.text:
+    text: モジュールのインポート
+action.ImportSettings.description:
+    text: グローバル設定をインポートします
+action.ImportSettings.text:
+    text: 設定のインポート(_I)...
+action.IncrementalSearch.description:
+    text: インクリメンタル サーチ (入力文字列で検索) を開始します
+action.IncrementalSearch.text:
+    text: インクリメンタル サーチ(_I)
+action.Inline.description:
+    text: 選択したメソッドまたは変数をインライン化します
+action.Inline.text:
+    text: インライン...
+action.InsertLiveTemplate.description:
+    text: 指定した接頭辞で始まるライブ テンプレートのポップアップ リストを表示します
+action.InsertLiveTemplate.text:
+    text: ライブ テンプレートの挿入(_T)...
+action.InspectCode.description:
+    text: コードを検査します
+action.InspectCode.text:
+    text: コード検査(_I)...
+action.IntroduceConstant.description:
+    text: 選択した式を定数 (static final フィールド) に置換します
+action.IntroduceConstant.text:
+    text: 定数の導入(_C)...
+action.IntroduceField.description:
+    text: 選択した式の結果をフィールドに格納します
+action.IntroduceField.text:
+    text: フィールドの導入(_F)...
+action.IntroduceParameter.description:
+    text: 選択した式をメソッド パラメータに置換します
+action.IntroduceParameter.text:
+    text: パラメータの導入(_P)...
+action.IntroduceVariable.description:
+    text: 選択した式の結果を変数に格納します
+action.IntroduceVariable.text:
+    text: 変数の導入(_V)...
+action.JumpToLastChange.description:
+    text: 最後に変更した箇所に移動します
+action.JumpToLastChange.text:
+    text: 最後の編集位置(_S)
+action.JumpToLastWindow.description:
+    text: 最後に使用したツール ウィンドウをアクティブにします
+action.JumpToLastWindow.text:
+    text: 最後のウィンドウに移動(_J)
+action.LocalVcs.ShowRepHistory.text:
+    text: リポジトリ履歴
+action.LocalVcs.ShowStatistics.description:
+    text: ローカル VCS 統計情報を表示します
+action.LocalVcs.ShowStatistics.text:
+    text: ローカル VCS 統計情報の表示...
+action.LocalizePlugin.text:
+    text: プラグインのローカライズ
+action.Lvcs.RollbackFileAction.description:
+    text: ロールバックします
+action.Lvcs.RollbackFileAction.text:
+    text: ファイルのロールバック
+action.Lvcs.ShowLvcsDiffAction.description:
+    text: 変更を表示します
+action.Lvcs.ShowLvcsDiffAction.text:
+    text: バージョンの比較
+action.ManageRecentProjects.text:
+    text: プロジェクトの管理...
+action.MemberPushDown.description:
+    text: クラス メンバを直接継承するサブクラスに引き下げます
+action.MemberPushDown.text:
+    text: メンバの引き下げ(_S)...
+action.MembersPullUp.description:
+    text: クラス メンバをスーパークラスまたは実装されたインターフェイスに引き上げます
+action.MembersPullUp.text:
+    text: メンバの引き上げ(_L)...
+action.Merge3Files.text:
+    text: マージ
+action.MethodDown.description:
+    text: アクティブなエディタ内の次のメソッドを参照します
+action.MethodDown.text:
+    text: 次のメソッド(_E)
+action.MethodHierarchy.BaseOnThisType.description:
+    text: 選択したクラス/インターフェイスのメソッドの階層を表示します
+action.MethodHierarchy.BaseOnThisType.text:
+    text: このタイプをベースにする
+action.MethodHierarchy.ImplementMethodAction.description:
+    text: メソッドを実装します (メソッド階層から)
+action.MethodHierarchy.ImplementMethodAction.text:
+    text: メソッドの実装
+action.MethodHierarchy.OverrideMethodAction.description:
+    text: メソッドをオーバーライドします (メソッド階層から)
+action.MethodHierarchy.OverrideMethodAction.text:
+    text: メソッドのオーバーライド
+action.MethodHierarchy.description:
+    text: 選択したメソッドのメソッド階層を参照します
+action.MethodHierarchy.text:
+    text: メソッドの階層(_M)
+action.MethodUp.description:
+    text: アクティブなエディタ内の前のメソッドを参照します
+action.MethodUp.text:
+    text: 前のメソッド(_I)
+action.ModuleSettings.description:
+    text: 選択したモジュールの設定ダイアログを開きます
+action.ModuleSettings.text:
+    text: モジュール設定(_S)...
+action.Move.description:
+    text: 選択したクラス、メソッド、パッケージ、または静的メンバを他のパッケージまたはクラスに移動してすべての参照を更新します
+action.Move.text:
+    text: 移動...
+action.MoveEditorToOppositeTabGroup.description:
+    text: エディタを反対のタブ グループに移動します
+action.MoveEditorToOppositeTabGroup.text:
+    text: エディタを反対のタブ グループに移動(_M)
+action.MoveElementLeft.description:
+    text: 現在の要素を要素のリストを含む前の位置に移動する
+action.MoveElementLeft.text:
+    text: 左に要素を移動
+action.MoveElementRight.description:
+    text: 現在の要素を要素のリストを含む次の位置に移動する
+action.MoveElementRight.text:
+    text: 要素を右に移動する
+action.MoveLineDown.description:
+    text: 選択した行を1行下に移動
+action.MoveLineDown.text:
+    text: 行を下に移動
+action.MoveLineUp.description:
+    text: 選択した行を1行上に移動
+action.MoveLineUp.text:
+    text: 行を上に移動
+action.MoveStatementDown.description:
+    text: 選択したステートメントを 1 つ下へ移動します
+action.MoveStatementDown.text:
+    text: ステートメントを下へ移動(_W)
+action.MoveStatementUp.description:
+    text: 選択したステートメントを 1 つ上へ移動します
+action.MoveStatementUp.text:
+    text: ステートメントを上へ移動(_U)
+action.MoveToTheLeft.description:
+    text: パラメータ左に移動
+action.MoveToTheLeft.text:
+    text: パラメータ左に移動
+action.MoveToTheRight.description:
+    text: パラメータ右に移動
+action.MoveToTheRight.text:
+    text: パラメータ右に移動
+action.NewDir.text:
+    text: ディレクトリ/パッケージ
+action.NewElement.description:
+    text: 新規クラス、インターフェイス、またはディレクトリを作成します
+action.NewElement.text:
+    text: 新規(_N)...
+action.NewFile.text:
+    text: ファイル
+action.NewFromTemplate.text:
+    text: テンプレートから
+action.NewModule.description:
+    text: プロジェクトに新規モジュールを追加します
+action.NewModule.text:
+    text: 新規モジュール(_M)...
+action.NewProject.description:
+    text: 新規プロジェクトを作成します
+action.NewProject.text:
+    text: 新規プロジェクト(_N)...
+action.NewScratchBuffer.description:
+    text: 新しいスクラッチバッファを作成するか、既存のスクラッチバッファを再利用する
+action.NewScratchBuffer.text:
+    text: 新しいスクラッチバッファ
+action.NewScratchFile.description:
+    text: 選択した言語で新しいスクラッチファイルを作成します。
+action.NewScratchFile.text:
+    text: スクラッチファイル
+action.NextDiff.description:
+    text: 次の相違点に移動します
+action.NextDiff.text:
+    text: 次の相違点に移動
+action.NextOccurence.description:
+    text: 次の対象位置を参照します
+action.NextOccurence.text:
+    text: 次の対象(_X)
+action.NextParameter.text:
+    text: 次のパラメータ
+action.NextSplitter.description:
+    text: 次の分割ウィンドウへ移動します
+action.NextSplitter.text:
+    text: 次の分割へ移動(_G)
+action.NextTab.description:
+    text: 次のタブをアクティブにします
+action.NextTab.text:
+    text: 次のタブを選択(_X)
+action.NextTemplateVariable.text:
+    text: 次のテンプレート変数へ
+action.OnlineDocAction.description:
+    text: オンライン ドキュメントを表示します
+action.OnlineDocAction.text:
+    text: オンライン ドキュメント(_O)
+action.OpenFile.description:
+    text: エディタでファイルを開きます
+action.OpenFile.text:
+    text: ファイルを開く(_L)...
+action.OpenModuleSettings.text:
+    text: モジュールの設定
+action.OpenProject.description:
+    text: 既存のプロジェクトを開きます
+action.OpenProject.text:
+    text: プロジェクトを開く(_O)...
+action.OverrideMethods.description:
+    text: 現在のクラスのベース クラス メソッドをオーバーライドします
+action.OverrideMethods.text:
+    text: メソッドのオーバーライド(_O)...
+action.ParameterInfo.description:
+    text: キャレット位置のメソッドのパラメータを表示します
+action.ParameterInfo.text:
+    text: パラメータ情報(_P)
+action.PasteMultiple.description:
+    text: 最新のクリップボードから貼り付けます
+action.PasteMultiple.text:
+    text: 貼り付け(_E)...
+action.PinActiveTab.description:
+    text: アクティブ ツール ウィンドウまたはエディタ タブを固定します
+action.PinActiveTab.text:
+    text: アクティブ タブの固定(_I)
+action.PlaySavedMacrosAction.description:
+    text: 保存されたマクロを再生する
+action.PlaySavedMacrosAction.text:
+    text: 保存されたマクロを再生する...
+action.PlaybackLastMacro.description:
+    text: 最後に使用したマクロを再生します
+action.PlaybackLastMacro.text:
+    text: 最後のマクロの再生(_L)
+action.PrevParameter.text:
+    text: 前のパラメータ
+action.PrevSplitter.description:
+    text: 前の分割ウィンドウへ移動します
+action.PrevSplitter.text:
+    text: 前の分割へ移動
+action.PreviousDiff.description:
+    text: 前の相違点に移動します
+action.PreviousDiff.text:
+    text: 前の相違点に移動
+action.PreviousOccurence.description:
+    text: 前の対象位置を参照します
+action.PreviousOccurence.text:
+    text: 前の対象(_O)
+action.PreviousTab.description:
+    text: 前のタブをアクティブにします
+action.PreviousTab.text:
+    text: 前のタブを選択(_L)
+action.PreviousTemplateVariable.text:
+    text: 前のテンプレート変数へ
+action.Print.description:
+    text: ファイルを印刷します
+action.Print.text:
+    text: 印刷(_P)...
+action.ProductivityGude.description:
+    text: 製品機能の使用箇所統計を表示します
+action.ProductivityGude.text:
+    text: 製品ガイド(_P)
+action.ProjectViewChangeView.description:
+    text: プロジェクト ビュー ウィンドウのプロジェクト、ソースパス、またはクラスパス ツリーを選択します
+action.ProjectViewChangeView.text:
+    text: ビューの変更
+action.PsiViewer.text:
+    text: PSI 構造の参照
+action.PsiViewerForContext.text:
+    text: 現在のファイルのPSIの構造を表示...
+action.QuickChangeScheme.description:
+    text: 現在のコード スタイル スキーム、カラーとフォント スキーム、キーマップまたはルック アンド フィールを変更します
+action.QuickChangeScheme.text:
+    text: スキームのクイック切り替え(_Q)...
+action.QuickEvaluateExpression.description:
+    text: 選択した式を評価します
+action.QuickEvaluateExpression.text:
+    text: 式のクイック評価(_Q)
+action.QuickImplementations.description:
+    text: シンボル (およびその実装) のコンテンツでポップアップ ウィンドウを開きます
+action.QuickImplementations.text:
+    text: クイック定義ルックアップ(_Q)
+action.QuickJavaDoc.description:
+    text: キャレット位置のシンボルの JavaDoc でポップアップ ウィンドウを表示します
+action.QuickJavaDoc.text:
+    text: クイック ドキュメント ルックアップ(_D)
+action.RecentChangedFiles.description:
+    text: 最近変更したファイルの一覧を表示します
+action.RecentChangedFiles.text:
+    text: 最近変更したファイル
+action.RecentChanges.text:
+    text: 最近の変更...
+action.RecentFiles.description:
+    text: 最近使ったファイルの一覧を表示します
+action.RecentFiles.text:
+    text: 最近使ったファイル(_N)...
+action.ReformatCode.description:
+    text: コードを再フォーマットします
+action.ReformatCode.text:
+    text: コードの再フォーマット(_R)...
+action.Refresh.text:
+    text: 更新
+action.ReloadFromDisk.description:
+    text: 変更をすべて破棄して現在のファイルを再度読み込みます
+action.ReloadFromDisk.text:
+    text: ディスクからの再読み込み(_K)
+action.ReloadProjectAction.text:
+    text: プロジェクトを再読み込み
+action.RemoveFavoritesList.description:
+    text: 選択したノードも属するすべてのお気に入りを削除します
+action.RemoveFavoritesList.text:
+    text: お気に入りリストの削除
+action.RemoveFromFavorites.description:
+    text: 選択したノードをお気に入りから削除します
+action.RemoveFromFavorites.text:
+    text: お気に入りから削除
+action.RemoveStripeButton.description:
+    text: サイドバーからツールウィンドウボタンを削除
+action.RemoveStripeButton.text:
+    text: サイドバーから削除
+action.RenameElement.description:
+    text: 選択したシンボルの名前を変更してすべての参照を更新します
+action.RenameElement.text:
+    text: 名前の変更...
+action.RenameFavoritesList.description:
+    text: 選択したノードに属するお気に入りのリストの名前を変更します
+action.RenameFavoritesList.text:
+    text: お気に入りリスト名の変更
+action.Replace.description:
+    text: アクティブなエディタ内の文字列を置換します
+action.Replace.text:
+    text: 置換(_R)...
+action.ReplaceInPath.description:
+    text: 複数のファイル内の文字列を他の文字列に置換します
+action.ReplaceInPath.text:
+    text: パス内の置換(_A)...
+action.ResizeToolWindowMaximize.text:
+    text: ツールウィンドウを最大化する
+action.ResizeToolWindowMaximize.text.alternative:
+    text: ツールのウィンドウサイズを復元する
+action.RestoreDefaultLayout.description:
+    text: デフォルト レイアウトを元に戻します
+action.RestoreDefaultLayout.text:
+    text: デフォルト レイアウトのリストア(_F)
+action.RunConfiguration.description:
+    text: 実行/デバッグ設定を選択します
+action.RunConfiguration.text:
+    text: 実行/デバッグ設定の選択
+action.RunGc.text:
+    text: ガベージ コレクタの実行
+action.Runner.MinimizeView.text:
+    text: 隠す
+action.Runner.RestoreLayout.text:
+    text: レイアウトを復元
+action.SafeDelete.description:
+    text: 選択したクラス、メソッドまたはフィールドを使用箇所を確認しながら削除します
+action.SafeDelete.text:
+    text: セーフ デリート(_D)...
+action.SaveAll.description:
+    text: すべてのファイルと設定を保存します
+action.SaveAll.text:
+    text: すべて保存(_S)
+action.SaveAsTemplate.description:
+    text: 選択したテキストをライブ テンプレートとして保存します
+action.SaveAsTemplate.text:
+    text: ライブ テンプレートとして保存(_I)...
+action.SaveDocument.text:
+    text: ドキュメントを保存
+action.SaveFileAsTemplate.description:
+    text: 現在のファイルをテンプレートとして保存します
+action.SaveFileAsTemplate.text:
+    text: ファイルをテンプレートとして保存(_L)...
+action.ScopeView.EditScopes.description:
+    text: スコープの編集
+action.ScopeView.EditScopes.text:
+    text: スコープの編集
+action.Scratch.ChangeLanguage.description:
+    text: ファイルの言語を変更する
+action.Scratch.ChangeLanguage.text:
+    text: ファイルの言語を変更する
+action.SearchEverywhere.text:
+    text: どこからでも検索
+action.SelectAllOccurrences.text:
+    text: すべてのオカレンスを選択
+action.SelectIn.description:
+    text: ビュー内で現在のクラスまたはメソッドを選択します
+action.SelectIn.text:
+    text: 選択(_L)...
+action.SelectNextOccurrence.text:
+    text: 次の発生の選択を追加する
+action.ShowBackwardPackageDeps.description:
+    text: 使用される分析項目に選択されたコードを参照します
+action.ShowBackwardPackageDeps.text:
+    text: 逆方向の依存関係の分析(_B)...
+action.ShowErrorDescription.description:
+    text: キャレット位置のエラーまたは警告の説明を表示します
+action.ShowErrorDescription.text:
+    text: エラー説明(_R)
+action.ShowFilePath.text:
+    text: ファイルパス
+action.ShowFilePath.tuned:
+    text: '{0,choice,0#File|1#Directory} パス'
+action.ShowIntentionActions.text:
+    text: インテンション アクションの表示
+action.ShowModulesDependencies.description:
+    text: プロジェクト内のモジュール間依存関係を表示します
+action.ShowModulesDependencies.text:
+    text: モジュール依存関係の分析(_M)...
+action.ShowNavBar.text:
+    text: ナビゲーションバーへ移動
+action.ShowPackageDeps.description:
+    text: 依存分析項目に選択されたコードを参照します
+action.ShowPackageDeps.text:
+    text: 依存関係の分析(_D)...
+action.ShowPopupMenu.text:
+    text: コンテキスト メニューの表示
+action.ShowProjectStructureSettings.description:
+    text: プロジェクト構造を設定します
+action.ShowProjectStructureSettings.text:
+    text: プロジェクト構造...
+action.ShowReformatFileDialog.text:
+    text: 再フォーマットファイルの表示ダイアログ
+action.ShowTips.description:
+    text: ヒントを表示します
+action.ShowTips.text:
+    text: ヒント(_D)
+action.ShowUsages.text:
+    text: 用途を表示
+action.ShowUserActivities.text:
+    text: 動作の表示
+action.SmartTypeCompletion.description:
+    text: 想定されるタイプに基づいたコードを補完します
+action.SplitHorizontally.description:
+    text: エディタを 2 つのタブ グループに分割して現在のタブを下のグループに移動します
+action.SplitHorizontally.text:
+    text: 横に分割(_H)
+action.SplitVertically.description:
+    text: エディタを 2 つのタブ グループに分割して現在のタブを右のグループに移動します
+action.SplitVertically.text:
+    text: 縦に分割(_V)
+action.StartStopMacroRecording.description:
+    text: 新規マクロの記録を開始/終了します
+action.StartStopMacroRecording.text:
+    text: マクロの記録開始/終了(_R)
+action.Stop.description:
+    text: プロセスを停止します
+action.Stop.text:
+    text: 停止
+action.StoreDefaultLayout.description:
+    text: 現在のレイアウトをデフォルトとして格納します
+action.StoreDefaultLayout.text:
+    text: 現在のレイアウトをデフォルトとしてストア(_Y)
+action.SurroundWith.description:
+    text: 選択したコードを if、while、try/catch、または他の式で囲みます
+action.SurroundWith.text:
+    text: 式で囲む(_S)...
+action.SurroundWithLiveTemplate.description:
+    text: 選択範囲をテンプレートで囲みます
+action.SurroundWithLiveTemplate.text:
+    text: ライブ テンプレートで囲む(_P)...
+action.Synchronize.description:
+    text: 外部的に変更されたファイルをすべて検出してディスクから再度読み込みます
+action.Synchronize.text:
+    text: 同期(_Y)
+action.SynchronizeCurrentFile.text:
+    text: 選択ファイルの同期
+action.TabList.text:
+    text: すべてのタブを表示
+action.TabsPlacementBottom.text:
+    text: ボトム
+action.TabsPlacementLeft.text:
+    text: 左
+action.TabsPlacementNone.text:
+    text: なし
+action.TabsPlacementRight.text:
+    text: 右
+action.TabsPlacementTop.text:
+    text: 上
+action.TemplateProjectProperties.description:
+    text: 新規プロジェクトのテンプレートを設定します
+action.TemplateProjectProperties.text:
+    text: プロジェクトのテンプレート設定(_A)
+action.TemplateProjectStructure.text:
+    text: デフォルトのプロジェクト構造...
+action.ToggleBreakpointEnabled.description:
+    text: 現在の行のブレークポイント設定/解除を切り替えます
+action.ToggleBreakpointEnabled.text:
+    text: ブレークポイント設定/解除の切り替え(_B)
+action.ToggleDockMode.description:
+    text: アクティブ ツール ウィンドウのドッキング可否を設定します
+action.ToggleDockMode.text:
+    text: ドッキング モード(_E)
+action.ToggleFloatingMode.description:
+    text: アクティブ ツール ウィンドウのフロート/非フロート表示を設定します
+action.ToggleFloatingMode.text:
+    text: フローティング モード(_M)
+action.TogglePinnedMode.description:
+    text: アクティブなツール ウィンドウを固定/解除します
+action.TogglePinnedMode.text:
+    text: 固定モード(_P)
+action.TogglePopupHints.text:
+    text: 現在のファイルのポップアップ ヒント切り替え
+action.ToggleReadOnlyAttribute.description:
+    text: 現在のファイルの読み取り専用属性を切り替えます
+action.ToggleReadOnlyAttribute.text:
+    text: 読み取り専用属性の切り替え
+action.ToggleWindowedMode.description:
+    text: ウインドウ/ウインドウアクティブツールウィンドウ
+action.ToggleWindowedMode.text:
+    text: ウィンドウモード
+action.TypeHierarchy.BaseOnThisType.text:
+    text: このタイプをベースにする
+action.TypeHierarchy.Class.text:
+    text: クラス階層
+action.TypeHierarchy.Subtypes.text:
+    text: サブタイプ階層
+action.TypeHierarchy.Supertypes.text:
+    text: スーパータイプ階層
+action.TypeHierarchy.description:
+    text: 選択したクラスの階層を参照します
+action.TypeHierarchy.text:
+    text: タイプ階層(_H)
+action.UnselectPreviousOccurrence.text:
+    text: 発生の選択解除
+action.Unsplit.description:
+    text: ウィンドウを分割しません
+action.Unsplit.text:
+    text: 分割しない(_S)
+action.UnsplitAll.description:
+    text: すべての分割を削除します
+action.UnsplitAll.text:
+    text: すべて分割しない(_N)
+action.Unwrap.text:
+    text: アンラップ/削除...
+action.UsageView.Exclude.description:
+    text: この使用箇所をプロセスからエクスクルードします
+action.UsageView.Exclude.text:
+    text: エクスクルード
+action.UsageView.Include.description:
+    text: この使用箇所をプロセスにインクルードします
+action.UsageView.Include.text:
+    text: インクルード
+action.UsageView.Rerun.description:
+    text: 検索を再開する
+action.UsageView.Rerun.text:
+    text: 再実行
+action.Vcs.CheckCommitMessageSpelling.text:
+    text: コミットメッセージのスペルチェック
+action.Vcs.EditSourceAction.description:
+    text: ソースを編集します
+action.Vcs.EditSourceAction.text:
+    text: ソースの編集
+action.Vcs.ExcludeAction.description:
+    text: コミットからエクスクルードします
+action.Vcs.ExcludeAction.text:
+    text: コミットからエクスクルード
+action.Vcs.FileView.description:
+    text: すべてのローカル ファイル情報に関連するバージョン管理を表示します
+action.Vcs.FileView.text:
+    text: ファイル ビューの表示(_V)
+action.Vcs.ProjectStatus.text:
+    text: プロジェクトの確認
+action.Vcs.RollbackChangedLines.description:
+    text: 選択した行のロールバック変更
+action.Vcs.RollbackChangedLines.text:
+    text: ロールバック
+action.Vcs.RollbackChanges.description:
+    text: 変更をロールバックします
+action.Vcs.RollbackChanges.text:
+    text: 変更をロールバック
+action.Vcs.ShowDiffAction.description:
+    text: 変更を表示します
+action.Vcs.ShowDiffAction.text:
+    text: 変更の表示
+action.Vcs.ShowHistoryForBlock.description:
+    text: エディタ選択範囲の履歴を表示します
+action.Vcs.ShowHistoryForBlock.text:
+    text: 選択範囲の履歴の表示(_F)
+action.Vcs.UpdateProject.text:
+    text: プロジェクトの更新
+action.ViewNavigationBar.text:
+    text: ナビゲーションバー
+action.ViewOfflineInspection.description:
+    text: オフライン検査結果を読み込みます
+action.ViewOfflineInspection.text:
+    text: オフライン検査結果の参照(_O)...
+action.ViewSource.description:
+    text: 選択項目をエディタで開きます
+action.ViewSource.text:
+    text: ソースの表示(_W)
+action.ViewStatusBar.description:
+    text: ステータス バーの表示を切り替えます
+action.ViewStatusBar.text:
+    text: ステータス バー(_S)
+action.ViewToolBar.description:
+    text: メイン ツールバーの表示を切り替えます
+action.ViewToolBar.text:
+    text: ツールバー(_T)
+action.ViewToolButtons.text:
+    text: ツールボタン
+action.VirtualFileInfo.text:
+    text: 仮想ファイル情報
+action.WelcomeScreen.Configure.Export.text:
+    text: 設定のエクスポート
+action.WelcomeScreen.Configure.Import.text:
+    text: 設定のインポート
+action.WelcomeScreen.ImportProject.text:
+    text: プロジェクトのインポート
+action.WelcomeScreen.Plugins.text:
+    text: プラグイン
+action.WhatsNewAction.description:
+    text: IntelliJ IDEA の新機能を参照します
+action.WhatsNewAction.text:
+    text: 新機能(_N)
+action.editRunConfigurations.description:
+    text: 実行/デバッグ設定の編集ダイアログを開きます
+action.editRunConfigurations.text:
+    text: 設定の編集(_R)
+action.openAssertEqualsDiff.text:
+    text: assertEquals の相違点を表示
+action.redo.description:
+    text: やり直し {0}
+action.redo.text:
+    text: _やり直し {0}
+action.undo.description:
+    text: 元に戻す {0}
+action.undo.text:
+    text: _元に戻す {0}
+group.$LRU.description:
+    text: 最近使ったプロジェクトを一覧表示します
+group.$LRU.text:
+    text: オープン最近の
+group.AddAllToFavorites.text:
+    text: すべてをお気に入りに追加(_L)
+group.AddToFavorites.text:
+    text: お気に入りに追加(_F)
+group.AnalyzeMenu.text:
+    text: 分析(_Z)
+group.Bookmarks.text:
+    text: ブックマーク
+group.CodeCompletionGroup.text:
+    text: コード補完(_C)
+group.CodeMenu.text:
+    text: コード(_D)
+group.ConvertIndentsGroup.text:
+    text: インデントを変換
+group.EditMenu.text:
+    text: 編集(_E)
+group.EditorActions.text:
+    text: エディタの動作
+group.EditorBidiTextDirection.description:
+    text: 混合LTR / RTLテキストの主な方向
+group.EditorBidiTextDirection.text:
+    text: 双方向テキストの方向
+group.EditorPopupMenu.GoTo.description:
+    text: エディタ ポップアップ メニュー グループに移動します
+group.EditorPopupMenu.GoTo.text:
+    text: 移動(_G)
+group.EditorPopupMenu.description:
+    text: エディタ ポップアップ メニュー
+group.EditorPopupMenu.text:
+    text: エディタ ポップアップ メニュー
+group.ExternalToolsGroup.text:
+    text: 外部ツール
+group.FileMenu.text:
+    text: ファイル(_F)
+group.FoldingGroup.text:
+    text: 折りたたむ(_G)
+group.GenerateGroup.text:
+    text: 生成(_G)
+group.GoToMenu.text:
+    text: 移動(_G)
+group.HelpMenu.text:
+    text: ヘルプ(_H)
+group.Macros.description:
+    text: マクロを表示、変更、記録、再生します
+group.Macros.text:
+    text: マクロ(_M)
+group.MacrosGroup.text:
+    text: マクロアクション
+group.MainToolBar.text:
+    text: メイン ツールバー
+group.MemoryManagement.text:
+    text: メモリ管理
+group.MoveModuleToGroup.description:
+    text: モジュールをグループに移動します
+group.MoveModuleToGroup.text:
+    text: モジュールの移動(_M)
+group.NewGroup.text:
+    text: 新規
+group.OtherMenu.description:
+    text: 正しく登録されていないアクションです
+group.OtherMenu.text:
+    text: その他
+group.ProjectImport.text:
+    text: プロジェクトのインポート
+group.RefactoringMenu.text:
+    text: リファクタリング(_R)
+group.RunContextPopupGroup.text:
+    text: 設定の実行
+group.RunMenu.text:
+    text: 実行(_U)
+group.Runner.Layout.description:
+    text: レイアウト構成
+group.Runner.Layout.text:
+    text: レイアウト
+group.RunnerActions.text:
+    text: 実行/デバッグ
+group.SendToFavoritesGroup.text:
+    text: お気に入りに送る(_S)
+group.TabsPlacementGroup.text:
+    text: タブの配置
+group.ToolWindowsGroup.text:
+    text: ツール ウィンドウ(_T)
+group.ToolsMenu.text:
+    text: ツール(_T)
+group.ViewMenu.text:
+    text: 表示(_V)
+group.WindowMenu.text:
+    text: ウィンドウ(_W)
+stop.capture.cpu.usage.data.action.description:
+    text: CPU 使用状況データのキャプチャを中止します
+stop.capture.cpu.usage.data.action.name:
+    text: CPU 使用状況データのキャプチャ

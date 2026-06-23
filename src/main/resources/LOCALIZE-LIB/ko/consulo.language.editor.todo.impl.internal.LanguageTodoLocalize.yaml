@@ -1,0 +1,78 @@
+action.description.todo.show.all:
+    text: 모든 TODO 항목 표시
+action.filter.todo.items:
+    text: TODO 항목 필터링
+action.flatten.view:
+    text: 뷰 병합
+action.group.by.modules:
+    text: 모듈
+action.group.by.packages:
+    text: 패키지
+action.next.todo:
+    text: 다음 TODO
+action.previous.todo:
+    text: 이전 TODO
+action.todo.edit.filters:
+    text: 필터 편집
+action.todo.show.all:
+    text: 모두 표시
+checkbox.case.sensitive:
+    text: 대소문자 구분
+checkbox.todo.use.default.colors:
+    text: 색상 스킴 TODO 기본 색상 사용
+column.todo.filter.pattern:
+    text: 패턴
+column.todo.filter.patterns:
+    text: 패턴
+column.todo.filters.name:
+    text: 이름
+column.todo.patterns.case.sensitive:
+    text: 대소문자 구분
+column.todo.patterns.icon:
+    text: 아이콘
+column.todo.patterns.pattern:
+    text: 패턴
+error.filter.name.should.be.specified:
+    text: 필터 이름을 지정해야 합니다
+error.filter.should.contain.at.least.one.pattern:
+    text: 필터에 패턴이 하나 이상 포함되어야 합니다
+error.filter.with.the.same.name.already.exists:
+    text: 동일한 이름의 필터가 이미 존재합니다
+group.todo.filter.patterns:
+    text: 패턴
+group.view.options:
+    text: 뷰 옵션
+label.todo.filter.name:
+    text: '이름:'
+label.todo.filters:
+    text: '필터:'
+label.todo.icon:
+    text: '아이콘:'
+label.todo.pattern:
+    text: '패턴:'
+label.todo.patterns:
+    text: '패턴:'
+node.todo.group:
+    text: '{0} {0,choice,0#항목|1#항목|2#항목}'
+node.todo.items:
+    text: '{0} {0, choice, 0#항목|1#항목|2#항목}'
+node.todo.more.items:
+    text: '...더 보기…'
+node.todo.summary:
+    text: '{1} {1,choice,0#파일|1#파일|2#파일}에서 {0} TODO {0,choice,0#항목|1#항목|2#항목} 찾음'
+text.todo.no.filters:
+    text: 구성된 필터 없음
+text.todo.no.patterns:
+    text: 구성된 패턴 없음
+title.add.todo.filter:
+    text: 필터 추가
+title.add.todo.pattern:
+    text: 패턴 추가
+title.edit.todo.filter:
+    text: 필터 편집
+title.edit.todo.pattern:
+    text: 패턴 편집
+title.project:
+    text: 프로젝트
+title.todo.current.file:
+    text: 현재 파일

@@ -1,0 +1,737 @@
+action.AnActionButton.Template.list.text.duplicate:
+    text: Дублікат
+action.ToggleInlineHintsAction.description:
+    text: Пераключыць падказкі назвы параметра
+action.ToggleInlineHintsAction.text:
+    text: Пераключыць падказкі назвы параметра
+action.text.move:
+    text: Рухайцеся
+block.comment.intersects.existing.comment:
+    text: Выдзеленая вобласць перасякаецца з існуючым каментарыем
+block.comment.nested.comment:
+    text: |-
+        Вылучаная вобласць змяшчае {0, choice, 1#каментар|2#каментары} блока,
+        навакольная вобласць закаментавана.
+block.comment.wrapping.suffix:
+    text: Выдзеленая вобласць змяшчае суфікс каментарыя блока
+cast.expression:
+    text: Уставіць прывядзенне тыпу
+cast.to.0:
+    text: "Прывесці да ''{0}''"
+choose.type.popup.title:
+    text: Выберыце тып
+class.completion.file.path:
+    text: Націсніце {0} для пошуку ўсіх адпаведных файлаў праекта
+class.completion.file.path.all.variants:
+    text: Націсніце {0} для пошуку адпаведных файлаў
+code.coverage:
+    text: Пакрыццё кода
+command.expand.postfix.template:
+    text: Разгарнуць постфіксальны ўзор
+command.fix.documentation:
+    text: Правільная дакументацыя
+command.name.surround.with.runtime.cast:
+    text: Акружыць прывядзеннем тыпу часу выканання
+command.name.typing:
+    text: Увайдзіце
+command.rearrange.code:
+    text: Код паўторнага заказу
+command.wrap.with.template:
+    text: Абгарнуць шаблонам
+completion.automatic.command.name:
+    text: Аўтазапаўненне
+copy.abstract.method.intention.name:
+    text: "Выкарыстоўваць існуючую рэалізацыю ''{0}''"
+copy.abstract.method.no.existing.implementations.found:
+    text: Існуючыя рэалізацыі не знойдзены
+copy.abstract.method.popup.title:
+    text: Выберыце рэалізацыю для капіравання
+copy.abstract.method.title:
+    text: Выкарыстоўваць рэалізацыю абстрактнага метаду
+coverage.data.not.found:
+    text: Дадзеныя пра пакрыццё не знойдзены
+coverage.data.outdated:
+    text: Дадзеныя пра пакрыццё састарэлі
+coverage.pattern.filter.editor.choose.package.title:
+    text: Выбрать пакет
+create.directory.command:
+    text: Стварыць дырэкторыю
+create.directory.text:
+    text: Стварыць каталог {0}
+create.file.family:
+    text: Стварыць файл
+create.file.text:
+    text: Стварыць файл {0}
+create.tagfile.text:
+    text: Стварыць файл тэгаў {0}
+deannotate.intention.action.text:
+    text: Выдаліць анатацыю {0}
+deannotate.intention.chooser.title:
+    text: Выберыце анатацыю для выдалення
+declaration.navigation.title:
+    text: "Выберыце аб'яву"
+dialog.create.class.destination.package.label:
+    text: 'Целевой пакет:'
+dialog.create.class.label:
+    text: 'Создать {0}:'
+dialog.create.class.name:
+    text: Создать {0} {1}
+dialog.create.class.package.chooser.title:
+    text: Выберыце мэтавы пакет
+dialog.edit.template.applicable.in.contexts:
+    text: Прымяняецца ў {0}
+dialog.edit.template.button.edit.variables:
+    text: Рэдагаваць зменныя [&E]…
+dialog.edit.template.checkbox.html.text:
+    text: HTML-текст
+dialog.edit.template.checkbox.reformat.according.to.style:
+    text: Перафарматаваць у адпаведнасці са стылем [&R]
+dialog.edit.template.checkbox.shorten.fq.names:
+    text: Скароціце поўныя імёны [&F]
+dialog.edit.template.checkbox.smart.type.completion:
+    text: Аўтадапаўненне з улікам тыпаў [&O]
+dialog.edit.template.checkbox.use.static.import:
+    text: Па магчымасці выкарыстоўваць статычны імпарт [&I]
+dialog.edit.template.checkbox.xsl.text:
+    text: XSL-текст
+dialog.edit.template.context.other:
+    text: Іншае
+dialog.edit.template.label.abbreviation:
+    text: 'Абрэвіятура [&B]:'
+dialog.edit.template.label.description:
+    text: 'Апісанне [&D]:'
+dialog.edit.template.label.expand.with:
+    text: Разгарнуць з дапамогай [&X]
+dialog.edit.template.no.applicable.contexts:
+    text: Няма адпаведных кантэкстаў
+dialog.edit.template.options.title:
+    text: Параметры
+dialog.edit.template.shortcut.default:
+    text: Па змаўчанні ({0})
+dialog.edit.template.template.text.title:
+    text: 'Тэкст шаблону [&T]:'
+dialog.import.on.paste.title:
+    text: Выберыце класы для імпарту
+dialog.import.on.paste.title2:
+    text: Выберыце элементы для імпарту
+dialog.paste.on.import.text:
+    text: <html>Устаўлены фрагмент кода выкарыстоўвае класы, недаступныя праз імпарт у новым кантэксце.<br/>Выберыце класы, якія трэба імпартаваць у новы файл.</html>
+dialog.paste.on.import.text2:
+    text: <html>Устаўлены фрагмент кода выкарыстоўвае элементы, недаступныя праз імпарт у новым кантэксце.<br/>Выберыце элементы, якія трэба імпартаваць у новы файл.</html>
+dialog.reformat.files.optimize.imports.checkbox:
+    text: Аптымізаваць імпарт [&O]
+dialog.reformat.files.reformat.selected.files.label:
+    text: Перафарматаваць выбраныя файлы?
+dialog.reformat.files.title:
+    text: Перафарматаваць файлы
+dialog.title.expressions:
+    text: Выразы
+dialog.title.move.to.a.new.group:
+    text: Перайсці ў новую групу
+dialog.title.rename:
+    text: Перайменаваць
+disable.intention.action:
+    text: "Адключыць ''{0}''"
+display.coverage.prompt:
+    text: "Паказаць дадзеныя пакрыцця для ''{0}''?"
+documentation.message.documentation.is.not.available:
+    text: Дакументацыя недаступная да завяршэння індэксацыі.
+enable.intention.action:
+    text: "Уключыць ''{0}''"
+error.attempt.to.generate.constructor.for.anonymous.class:
+    text: Немагчыма дадаць канструктар у ананімны клас
+error.cannot.resolve.0.1:
+    text: "Немагчыма вырашыць {0}''{1}''"
+error.cannot.resolve.class:
+    text: "Не ўдаецца вырашыць клас ''{0}''"
+error.cannot.resolve.default.message:
+    text: "Не ўдаецца вызначыць сімвал ''{0}''"
+error.dialog.readonly.file.title:
+    text: Файл толькі для чытання
+error.hint.file.is.readonly:
+    text: Файл {0} толькі для чытання
+finish.template.command:
+    text: Запоўніце шаблон
+generate.constructor.fields.chooser.title:
+    text: Выберыце палі для ініцыялізацыі канструктарам
+generate.constructor.super.constructor.chooser.title:
+    text: Выберыце канструктар суперкласа
+generate.delegate.method.chooser.title:
+    text: Выберыце метады стварэння дэлегатаў
+generate.delegate.target.chooser.title:
+    text: Выберыце мэту для генерацыі дэлегатаў
+generate.equals.compare.arrays.comment:
+    text: // Магчыма некарэктна - параўнанне масіваў Object[] з дапамогай Arrays.equals
+generate.equals.compare.nested.arrays.comment:
+    text: // Параўнаць укладзеныя масівы - значэнні {0} тут
+generate.equals.hashcode.accept.sublcasses:
+    text: Прымаць падкласы як параметр метаду equals() [&S]
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>Хоць звычайна гэта не адпавядае кантракту Object.equals(),<br>прыняцце падкласаў можа быць неабходна для карэктнай працы<br>згенераванага метаду з фрэймворкамі, якія генеруюць проксі-падкласы, такімі як Hibernate.</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: Выберыце палі для ўключэння ў equals() [&F]
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: Выберыце палі для ўключэння ў hashCode() [&F]
+generate.equals.hashcode.internal.error:
+    text: Унутраная памылка
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: Выбраць усе палі, што не дапускаюць null [&F]
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: hashCode() не падтрымліваецца для масіваў
+generate.equals.hashcode.wizard.title:
+    text: Згенераваць equals() і hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals() не падтрымліваецца для ўкладзеных масіваў
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: Згенераваны equals() для Object[] можа быць некарэктным
+generate.getter.fields.chooser.title:
+    text: Выберыце палі для генерацыі гетараў
+generate.getter.setter.title:
+    text: Выберыце палі для генерацыі гетараў і сетараў
+generate.list.popup.title:
+    text: Генераваць
+generate.setter.fields.chooser.title:
+    text: Выберыце палі для генерацыі сетараў
+goto.implementation.chooserTitle:
+    text: <html><body>Выберыце рэалізацыю <b>{0}</b> ({1} знойдзены{2})</body></html>
+goto.implementation.findUsages.title:
+    text: Рэалізацыі {0}
+goto.implementation.notFound:
+    text: Рэалізацыі не знойдзены
+goto.super.method.chooser.title:
+    text: Выберыце супер метад
+goto.super.method.findUsages.title:
+    text: Супер метады для {0}
+goto.test.chooserTitle.subject:
+    text: "<html><body>Выберыце тэставы аб'ект для <b>{0}</b> ({1} знойдзены{2})</body></html>"
+goto.test.chooserTitle.test:
+    text: <html><body>Выберыце тэст для <b>{0}</b> ({1} знойдзены{2})</body></html>
+goto.test.findUsages.subject.title:
+    text: "Тэставыя аб'екты для {0}"
+goto.test.findUsages.test.title:
+    text: Тэсты для {0}
+goto.test.notFound:
+    text: "Тэставыя аб'екты не знойдзены"
+highlight.exceptions.thrown.chooser.title:
+    text: Выберыце класы выключэнняў для падсветкі
+highlight.overridden.classes.chooser.title:
+    text: Выберыце класы для падсветкі пераазначаных метадаў
+highlight.thrown.exceptions.chooser.all.entry:
+    text: Усе пералічаныя
+hint.text.imports.optimized:
+    text: Аптымізаваны імпарт
+i18n.quickfix.code.panel.resource.bundle.expression.label:
+    text: 'Выраз рэсурснага пакета: [&E]'
+i18n.quickfix.code.panel.title:
+    text: Інфармацыя пра Java-код
+i18n.quickfix.preview.panel.title:
+    text: Предпросмотр
+i18n.quickfix.property.panel.properties.file.label:
+    text: 'Файл свойств: [&P]'
+i18n.quickfix.property.panel.property.key.label:
+    text: 'Ключ свойства: [&K]'
+i18n.quickfix.property.panel.property.value.label:
+    text: 'Значэнне ўласцівасці: [&V]'
+i18n.quickfix.property.panel.title:
+    text: Інфармацыя пра ўласцівасць
+i18n.quickfix.property.panel.update.all.files.in.bundle.checkbox:
+    text: Абнавіць усе файлы ўласцівасцей у пакеце рэсурсаў [&R]
+i18nize.cant.create.properties.file.because.its.name.is.associated:
+    text: "Немагчыма стварыць файл уласцівасцей ''{0}'', бо яго імя звязана з {1}."
+i18nize.dialog.error.jdk.message:
+    text: "Клас 'java.util.ResourceBundle' не знойдзены.\nКалі ласка, усталюйце карэктны JDK."
+i18nize.dialog.error.jdk.title:
+    text: Класс не найден
+i18nize.dialog.error.property.already.defined.message:
+    text: "Уласцівасць ''{0}'' ужо існуе ў файле ''{1}''"
+i18nize.dialog.error.property.already.defined.title:
+    text: Уласцівасць ужо існуе
+i18nize.dialog.property.file.chooser.title:
+    text: Выберыце файл уласцівасцей
+i18nize.dialog.template.link.label:
+    text: Рэдагаваць шаблон I18n
+i18nize.dialog.title:
+    text: Інтэрнацыяналізаваць жорстка закадаваны радок
+i18nize.empty.file.path:
+    text: Укажыце шлях да файла ўласцівасцей
+i18nize.error.creating.properties.file:
+    text: Памылка стварэння файла ўласцівасцей
+i18nize.error.message:
+    text: |-
+        Вы можаце інтэрнацыяналізаваць толькі радковы літарал Java або яго падрадок.
+        Калі ласка, змясціце курсор унутр радковага літарала Java або вылучыце яго частку.
+i18nize.error.title:
+    text: Немагчыма інтэрнацыяналізаваць вылучанае
+i18nize.jsp.error:
+    text: |-
+        Калі ласка, выберыце тэкст JSP для інтэрнацыяналізацыі.
+        Пераканайцеся, што вы не выбралі скрыптлеты, карыстальніцкія тэгі або элементы іншых моў.
+        Таксама HTML-тэгі ўнутры вылучэння павінны быць збалансаваны.
+implementation.view.title:
+    text: Вызначэнні {0}
+incremental.search.tooltip.prefix:
+    text: 'Шукаць:'
+inlay.hints.base.exclude.list.description:
+    text: Спіс выключэнняў па змаўчанні {0}
+inlay.hints.disable.action.text:
+    text: Адключыць падказкі
+inlay.hints.disable.option:
+    text: "Адключыць ''{0}''"
+inlay.hints.enable.action.text:
+    text: Уключыць падказкі па назвах параметраў
+inlay.hints.exclude.list.method:
+    text: Не паказваць падказкі для бягучага метаду
+inlay.hints.show.settings:
+    text: "Адключыць падказкі для метаду ''{0}''"
+insert.code.template.command:
+    text: Уставіць шаблон кода
+inspection.error.dialog.title:
+    text: Памылка
+inspection.i18n.display.name:
+    text: Жорстка закадаваныя радкі
+inspection.i18n.expression.is.invalid.error.message:
+    text: "Шаблон выразу I18nized не з'яўляецца дапушчальным выразам"
+inspection.i18n.message.general.with.value:
+    text: 'Жорстка закадаваны радковы літарал: {0}'
+inspection.i18n.quickfix:
+    text: Інтэрнацыяналізаваць жорстка зададзены радковы літарал
+inspection.i18n.quickfix.annotate.as:
+    text: "Анатаваць як ''@{0}''"
+inspection.i18n.quickfix.annotate.element.as:
+    text: "Анатаваць {0} ''{1}'' як ''@{2}''"
+inspection.invalid.resource.bundle.reference:
+    text: "Неверная ссылка на пакет ресурсов ''{0}''"
+inspection.unresolved.property.key.reference.message:
+    text: "''{0}'' не похоже на корректный ключ свойства"
+inspection.unresolved.property.key.reference.name:
+    text: Неверный ключ свойства
+intention.add.annotation.family:
+    text: Дадаць анатацыю
+intention.add.on.demand.static.import.family:
+    text: Дадаць статычны імпарт па патрабаванні
+intention.add.on.demand.static.import.text:
+    text: "Дадаць статычны імпарт па патрабаванні для ''{0}''"
+intention.add.single.member.static.import.family:
+    text: Дадаць статычны імпарт аднаго члена
+intention.add.single.member.static.import.text:
+    text: "Дадаць статычны імпарт для ''{0}''"
+intention.assign.field.from.parameter.family:
+    text: Прысвоіць параметр полю
+intention.assign.field.from.parameter.text:
+    text: "Прысвоіць параметр полю ''{0}''"
+intention.bind.fields.from.parameters.family:
+    text: Прывязаць параметры да палёў
+intention.bind.fields.from.parameters.text:
+    text: Прывязаць {0} параметраў да палёў
+intention.break.string.on.line.breaks.text:
+    text: "Разбіць радок па '\\n'"
+intention.color.chooser.dialog:
+    text: Выбор цвета
+intention.convert.color.representation.family:
+    text: Пераўтварыць прадстаўленне Color
+intention.convert.color.representation.text:
+    text: "Преобразовать в ''new Color{0}''"
+intention.create.field.from.parameter.family:
+    text: Создать поле для параметра
+intention.create.field.from.parameter.text:
+    text: "Создать поле для параметра ''{0}''"
+intention.create.test:
+    text: Стварыце тэст
+intention.create.test.dialog.choose.super.class:
+    text: Выберыце суперклас
+intention.create.test.dialog.class.name:
+    text: 'Імя класа:'
+intention.create.test.dialog.fix.library:
+    text: Выправіць
+intention.create.test.dialog.generate:
+    text: 'Згенераваць:'
+intention.create.test.dialog.library.not.found:
+    text: Бібліятэка {0} не знойдзена ў модулі
+intention.create.test.dialog.select.methods:
+    text: 'Згенераваць тэставыя метады для [&M]:'
+intention.create.test.dialog.show.inherited:
+    text: Показать унаследованные методы [&I]
+intention.create.test.dialog.super.class:
+    text: 'Суперкласс:'
+intention.create.test.dialog.testing.library:
+    text: 'Тэставая бібліятэка [&L]:'
+intention.encapsulate.field.text:
+    text: Інкапсуляваць поле
+intention.error.cannot.create.class.message:
+    text: "Невозможно создать класс ''{0}''"
+intention.error.cannot.create.class.title:
+    text: Не удалось создать класс
+intention.extract.if.condition.family:
+    text: "Выняць умову 'if'"
+intention.extract.if.condition.text:
+    text: Выняць if ({0})
+intention.implement.abstract.class.default.text:
+    text: Рэалізаваць абстрактны клас
+intention.implement.abstract.class.family:
+    text: Рэалізаваць абстрактны клас або інтэрфейс
+intention.implement.abstract.class.interface.text:
+    text: Рэалізаваць інтэрфейс
+intention.implement.abstract.class.subclass.text:
+    text: Стварыце падклас
+intention.implement.abstract.method.class.chooser.title:
+    text: Выберыце клас рэалізацыі
+intention.implement.abstract.method.command.name:
+    text: Рэалізаваць метад
+intention.implement.abstract.method.error.no.classes.message:
+    text: Не знойдзена класаў, дзе можна рэалізаваць гэты метад
+intention.implement.abstract.method.error.no.classes.title:
+    text: Классы не найдены
+intention.implement.abstract.method.family:
+    text: Рэалізаваць abstract метад
+intention.implement.abstract.method.searching.for.descendants.progress:
+    text: Пошук нашчадкаў…
+intention.implement.abstract.method.text:
+    text: "Рэалізаваць метад ''{0}''"
+intention.intercept.ejb.method.or.class.class.text:
+    text: "Дадаць перахопнік для класа EJB ''{0}''"
+intention.intercept.ejb.method.or.class.family:
+    text: Дадаць перахопнік EJB
+intention.intercept.ejb.method.or.class.method.text:
+    text: "Дадайце перахопнік для бізнес-метаду ''{0}''"
+intention.introduce.variable.text:
+    text: Увесці лакальную пераменную
+intention.invert.if.condition:
+    text: "Інвертаваць умову 'if'"
+intention.move.field.assignment.to.declaration:
+    text: "Перамясціць прысвойванне ў аб'яўленне поля"
+intention.move.initializer.to.constructor:
+    text: Перамясціць ініцыялізатар у канструктар
+intention.move.initializer.to.set.up:
+    text: Перамясціць ініцыялізатар у метад setUp
+intention.override.method.text:
+    text: "Пераазначыць метад ''{0}''"
+intention.replace.concatenation.with.formatted.output.family:
+    text: Замяніць канкатэнацыю фарматаваным вывадам
+intention.replace.concatenation.with.formatted.output.text:
+    text: "Замяніць '+' на 'java.text.MessageFormat.format()'"
+intention.settings:
+    text: Намеры
+intention.settings.category.text:
+    text: Вы выбралі катэгорыю намераў <b>{0}</b>.<br>Націсніце сцяжок, каб уключыць/выключыць усе намеры ў гэтай катэгорыі.<br>Каб уключыць/выключыць пэўны намер, выберыце яго ў гэтай катэгорыі.
+intention.split.declaration.assignment.text:
+    text: "Падзяліць на аб'яўленне і прысвойванне"
+intention.split.declaration.family:
+    text: "Падзяліць аб'яўленне"
+intention.split.if.family:
+    text: "Падзяліць 'if'"
+intention.split.if.text:
+    text: "Падзяліць на 2 аператары 'if'"
+intention.surround.resource.with.ARM.block:
+    text: Обернуть в блок try-with-resources
+javadoc.action.back:
+    text: Назад
+javadoc.action.forward:
+    text: Наперад
+javadoc.action.view.external:
+    text: Прагляд знешняй дакументацыі
+javadoc.candidates.not.found:
+    text: <html>Не знойдзена кандыдатаў для выкліку метаду <b>{0}</b>.</html>
+javadoc.deprecated:
+    text: Устарело
+javadoc.description.copied.from.class:
+    text: 'З класа:'
+javadoc.description.copied.from.interface:
+    text: 'З інтэрфейсу:'
+javadoc.error.resolving.url:
+    text: Немагчыма вырашыць URL <i>{0}</i> <p>Наладжванне шляхоў API дакументацыі ў <a href="open://Project Settings">наладах праекта</a> можа дапамагчы
+javadoc.external.fetch.error.message:
+    text: 'Не ўдалося атрымаць аддалены файл: унутраная памылка'
+javadoc.fetching.progress:
+    text: Атрыманне дакументаў...
+javadoc.method.in.class:
+    text: '{0} в классе {1}'
+javadoc.method.in.interface:
+    text: '{0} у інтэрфейсе {1}'
+javadoc.method.overrides:
+    text: 'Переопределяет:'
+javadoc.method.specified.by:
+    text: 'Определено в:'
+javadoc.parameters:
+    text: 'Параметры:'
+javadoc.returns:
+    text: 'Вяртае:'
+javadoc.see.also:
+    text: 'См. также:'
+javadoc.since:
+    text: 'З версіі:'
+javadoc.throws:
+    text: 'Кідае:'
+javadoc.type.parameters:
+    text: 'Параметры тыпу:'
+label.enter.the.new.group.name:
+    text: 'Увядзіце новую назву групы:'
+lightbulb.tooltip:
+    text: Паказаць кантэкстныя дзеянні {0}
+link.change.context:
+    text: Змена
+link.define.context:
+    text: Вызначце
+livetemplate.description.geti:
+    text: Устаўце метад для атрымання аднаго асобніка getInstance
+livetemplate.description.if.not.null:
+    text: Устаўце аператар "калі не нуль".
+livetemplate.description.if.null:
+    text: Устаўце аператар «калі нуль».
+livetemplate.description.inst:
+    text: "Праверце тып аб'екта з дапамогай instanceof і выканайце прывядзенне тыпу"
+livetemplate.description.itar:
+    text: Ітэрацыя па элементах масіва
+livetemplate.description.itco:
+    text: Ітэрацыя па элементах java.util.Collection
+livetemplate.description.iten:
+    text: Ітэрацыя па java.util.Enumeration
+livetemplate.description.iter:
+    text: "Ітэрацыя па аб'екту або масіву, якія можна паўтараць"
+livetemplate.description.itit:
+    text: Ітэрацыя з выкарыстаннем функцый-членаў begin/end
+livetemplate.description.itli:
+    text: Ітэрацыя па элементах java.util.List
+livetemplate.description.ittok:
+    text: Перабірайце лексемы з радка
+livetemplate.description.lazy:
+    text: Выканайце лянівую ініцыялізацыю
+livetemplate.description.lst:
+    text: Атрымаць апошні элемент масіва
+livetemplate.description.mn:
+    text: Усталюйце мінімальнае значэнне для зменнай
+livetemplate.description.mx:
+    text: Задаць максімальнае значэнне для зменнай
+livetemplate.description.psvm:
+    text: "Аб'ява метаду main()."
+livetemplate.description.ritar:
+    text: Ітэрацыя па элементах масіва ў адваротным парадку
+livetemplate.description.serr:
+    text: Вывесці радок у System.err
+livetemplate.description.souf:
+    text: Вывад адфарматаванага радка ў System.out
+livetemplate.description.sout:
+    text: Вывесці радок у System.out
+livetemplate.description.soutm:
+    text: Надрукуйце назву бягучага класа і метаду ў System.out
+livetemplate.description.soutp:
+    text: Выводзіць імёны і значэнні параметраў функцыі ў System.out
+livetemplate.description.soutv:
+    text: Вывесці значэнне ў System.out
+livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
+    text: Перанесці ў раздзел CDATA
+livetemplate.description.surround.tag:
+    text: Абгарнуць у <tag></tag>
+livetemplate.description.surround.with.callable:
+    text: Загарнуць у Callable
+livetemplate.description.surround.with.read.lock:
+    text: Абгарнуць у ReadWriteLock.readLock
+livetemplate.description.surround.with.write.lock:
+    text: Перанесці ў ReadWriteLock.writeLock
+livetemplate.description.thr:
+    text: Кінь новы
+livetemplate.description.toar:
+    text: Захоўвайце элементы java.util.Collection у масіў
+methods.to.implement.chooser.title:
+    text: Выберыце метады для рэалізацыі
+methods.to.override.chooser.title:
+    text: Выберыце метады для пераазначэння
+methods.to.override.implement.chooser.title:
+    text: Выберыце метады для пераазначэння/рэалізацыі
+multiple.implementations.tooltip:
+    text: Некалькі рэалізацый
+no.documentation.found:
+    text: Дакументацыя не знойдзена.
+no.methods.overriding.0.are.found:
+    text: "Не знойдзены метады, якія пераазначаюць {0, choice, 0#|1#''{1}''|2#гэтыя класы}"
+node.annotation.tooltip:
+    text: Анатацыя
+node.anonymous.class.tooltip:
+    text: Ананімны клас
+node.class.tooltip:
+    text: Класс
+node.exception.tooltip:
+    text: Выключэнне
+node.excluded.flag.tooltip:
+    text: Выключана
+node.field.tooltip:
+    text: Поле
+node.interface.tooltip:
+    text: Інтэрфейс
+node.junit.test.tooltip:
+    text: JUnit тест
+node.method.tooltip:
+    text: Метод
+node.runnable.class.tooltip:
+    text: Runnable класс
+override.implement.broken.file.template.message:
+    text: Калі ласка, выправіце шаблон "Цела пераазначанага/рэалізаванага метаду"
+override.implement.broken.file.template.title:
+    text: Памылка шаблона файла
+parameter.info.no.parameters:
+    text: <нет параметров>
+parameter.info.progress.title:
+    text: Разлік інфармацыі аб параметрах...
+parameter.info.switch.overload.shortcuts:
+    text: Для пераключэння выкарыстоўвайце {0} або {1}
+parameter.info.switch.overload.shortcuts.single:
+    text: Выкарыстоўвайце {0} для пераключэння
+popup.title.next.error.action.0.goes.through:
+    text: 'Дзеянне "Наступная памылка" {0} будзе праходзіць праз :'
+postfix.live.template.title:
+    text: Постфікс
+postfix.template.description.under.construction:
+    text: У распрацоўцы
+process.optimize.imports:
+    text: Аптымізацыя імпарту
+process.optimize.imports.before.commit:
+    text: Аптымізуйце імпарт перад здзяйсненнем
+process.rearrange.code:
+    text: Змена парадку кода...
+process.rearrange.code.before.commit:
+    text: Змяніце парадак кода перад здзяйсненнем
+process.reformat.code:
+    text: Переформатовать код
+process.reformat.code.before.commit:
+    text: Перафарматаваць код перад коммітам
+process.scope.changed.files:
+    text: Толькі файлы з незафіксаванымі зменамі ў VCS [&V]
+process.scope.directory:
+    text: "Каталог ''{0}''"
+process.scope.module:
+    text: "Модуль ''{0}''"
+process.scope.project:
+    text: "Праект ''{0}''"
+progress.reformat.and.optimize.common.command.text:
+    text: Перафарматаваць і аптымізаваць імпарт
+progress.reformat.stage.applying.changes:
+    text: Захаванне змен...
+progress.reformat.stage.processing.blocks:
+    text: Вылічэнне змен...
+progress.reformat.stage.wrapping.blocks:
+    text: Подготовка...
+progress.text.optimizing.imports:
+    text: Аптымізацыя імпарту...
+property.has.more.parameters.than.passed:
+    text: "Уласцівасць ''{0}'' чакае {1} {1, choice, 1#параметр|2#параметры|3#параметраў}, перададзена {2}"
+quick.definition.back:
+    text: Назад
+quick.definition.edit.source:
+    text: Рэдагаваць зыходны код
+quick.definition.forward:
+    text: Наперад
+quickfix.add.variable.family.name:
+    text: Ініцыялізаваць пераменную
+quickfix.add.variable.text:
+    text: "Ініцыялізаваць пераменную ''{0}''"
+quickfix.i18n.concatentation:
+    text: Інтэрнацыяналізаваць канкатэнацыю
+quickfix.i18n.concatentation.error:
+    text: Канкатэнацыя радкоў не знойдзена
+reformat.code.accept.button.text:
+    text: Выканаць
+reformat.directory.dialog.filters:
+    text: Фільтры
+reformat.directory.dialog.options:
+    text: Параметры
+reformat.option.vcs.changed.region:
+    text: Толькі незафіксаваныя змены ў VCS [&V]
+reformat.progress.common.text:
+    text: Перафарматаванне кода...
+reformat.progress.file.with.known.name.text:
+    text: Перафарматаванне {0}
+remove.annotation:
+    text: Выдаліць анатацыю
+remove.else:
+    text: Выдаліць "інакш..."
+rename.element.family:
+    text: Перайменаваць элемент
+rename.file.fix:
+    text: Перайменаваць файл
+rename.file.reference.family:
+    text: Перайменаваць спасылку на файл
+rename.file.reference.text:
+    text: Перайменаваць спасылку на файл у {0}
+rename.named.element.text:
+    text: "Перайменаваць ''{0}'' у ''{1}''"
+rename.public.class.text:
+    text: "Перайменаваць клас ''{0}'' у ''{1}''"
+searching.for.implementations:
+    text: Пошук рэалізацый...
+set.language.level:
+    text: Усталяваць узровень мовы
+set.language.level.to.0:
+    text: Усталяваць узровень мовы на {0}
+settings.inlay.parameter.hints.exclude.list:
+    text: Спіс выключэнняў падказкі назвы параметра
+static.class.initializer:
+    text: '{0}ініцыялізатар класа'
+status.bar.exit.points.highlighted.message:
+    text: '{0} пунктаў вываду вылучаны (націсніце {1} яшчэ раз, каб выдаліць вылучэнне, Esc, каб выдаліць усе вылучэнні)'
+status.bar.highlighted.usages.message:
+    text: Знойдзена {0} выкарыстанняў {1} (націсніце {2} яшчэ раз, каб выдаліць вылучэнне, Esc, каб выдаліць усе вылучэнні)
+status.bar.highlighted.usages.no.target.message:
+    text: Знойдзена {0} выкарыстання (націсніце {2} яшчэ раз, каб выдаліць вылучэнне, Esc, каб выдаліць усе вылучэнні)
+status.bar.highlighted.usages.not.found.message:
+    text: Прымянення {0} не знойдзены
+status.bar.highlighted.usages.not.found.no.target.message:
+    text: Прымянення не знойдзены
+status.bar.overridden.methods.highlighted.message:
+    text: Знойдзена {0} пераазначаных {0, choice, 1#метад|2#метадаў} (націсніце {1} зноў для зняцця падсветкі, Escape для зняцця ўсёй падсветкі)
+surround.with.chooser.title:
+    text: Выберыце варыянт асяроддзя
+surround.with.try.catch.incorrect.template.message:
+    text: Некорректный шаблон файла для блока catch
+template.next.variable.command:
+    text: Перайсці да наступнай этыкеткі шаблону кода
+template.previous.variable.command:
+    text: Перайсці да папярэдняй этыкеткі шаблону кода
+template.shortcut.space:
+    text: космас
+templates.dialog.edit.variables.table.column.default.value:
+    text: Значэнне па змаўчанні
+templates.dialog.edit.variables.table.column.expression:
+    text: Экспрэсія
+templates.dialog.edit.variables.table.column.name:
+    text: Імя
+templates.dialog.edit.variables.table.column.skip.if.defined:
+    text: Прапусціць, калі вызначана
+templates.dialog.edit.variables.title:
+    text: Рэдагаваць зменныя шаблона
+templates.dialog.shortcut.chooser.label:
+    text: Стандартны метад разгортвання
+templates.no.defined:
+    text: У гэтым кантэксце няма пэўных шаблонаў
+templates.select.template.chooser.title:
+    text: Выберыце шаблон
+templates.settings.page.title:
+    text: Жывыя шаблоны
+templates.surround.no.defined:
+    text: У гэтым кантэксце няма пэўных шаблонаў асяроддзя
+under.construction.string:
+    text: У распрацоўцы.
+unknown.encoding.0:
+    text: "Невядомая кадыроўка: ''{0}''"
+unwrap.anonymous:
+    text: "Развернуть 'anonymous...'"
+unwrap.braces:
+    text: Разгарнуць фігурныя дужкі
+unwrap.conditional:
+    text: "Развернуть 'f ? a : b'"
+unwrap.else:
+    text: Разгарнуць "яшчэ..."
+unwrap.for:
+    text: Разгарнуць "для..."
+unwrap.if:
+    text: Разгарнуць "калі..."
+unwrap.popup.title:
+    text: Выберыце выраз для пашырэння/выдалення
+unwrap.synchronized:
+    text: "Развернуть 'synchronized...'"
+unwrap.try:
+    text: Разгарнуць "паспрабаваць..."
+unwrap.while:
+    text: Разгарнуць "пакуль..."
+unwrap.with.placeholder:
+    text: "Разгарнуць ''{0}''"
+xml.tag.info.no.attributes:
+    text: <няма атрыбутаў>

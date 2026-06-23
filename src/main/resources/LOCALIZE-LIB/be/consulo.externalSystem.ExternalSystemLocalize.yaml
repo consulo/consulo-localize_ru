@@ -1,0 +1,69 @@
+action.attach.external.project.description:
+    text: Звязаць праект {0} з бягучым праектам IDE
+action.attach.external.project.text:
+    text: Связать проект {0}
+action.detach.external.project.description:
+    text: Отвязать выбранный проект
+action.detach.external.project.text:
+    text: Отвязать проект {0}
+error.cannot.parse.project:
+    text: Не удаётся разобрать проект {0}
+error.project.already.registered:
+    text: Гэты праект ужо зарэгістраваны
+error.project.undefined:
+    text: Не вызначаны файл канфігурацыі знешняга праекта
+error.resolve.already.running:
+    text: 'Праект у дадзены момант выконвае іншую задачу "Сінхранізаваць праект": {0}'
+error.resolve.generic:
+    text: Памылка дазволу
+error.resolve.with.reason:
+    text: |-
+        {0}
+
+        Гл. лог IDE для падрабязнасцей (Даведка|Паказаць лог)
+module.type.description:
+    text: Модулі {0} выкарыстоўваюцца для распрацоўкі <b>JVM-based</b> прыкладанняў з залежнасцямі, кіраванымі <b>{0}</b>.
+notification.messages.project.sync.tab.name:
+    text: Сінхранізацыя {0}
+notification.project.refresh.fail.title:
+    text: "Сінхранізацыя праекта {0} ''{1}'' не ўдалася"
+orphan.modules.text:
+    text: 'Наступныя модулі IDE былі выдалены пры сінхранізацыі праекта {0}: <p>{1}</p><br/>Вы можаце <a href="#">адкрыць дыялог</a> для выбару модуляў для аднаўлення.'
+progress.import.text:
+    text: "Пабудова інфармацыі пра праект ''{0}'' {1}"
+progress.refresh.text:
+    text: "Імпарт праекта ''{0}'' {1}"
+run.configuration.description:
+    text: Прыкладанне Quarkus
+run.configuration.settings.label.project:
+    text: 'Проект {0}:'
+run.configuration.settings.label.tasks:
+    text: 'Задачы:'
+run.configuration.settings.label.vmoptions:
+    text: 'VM опцыі:'
+run.configuration.title.choose.registered.project:
+    text: Выберыце праект {0}
+run.configuration.tooltip.choose.registered.project:
+    text: Выберыце зарэгістраваны праект {0}
+setting.type.location.deduced:
+    text: Размяшчэнне {0} вызначана
+setting.type.location.explicit.correct:
+    text: Размяшчэнне {0} зададзена
+setting.type.location.explicit.incorrect:
+    text: Некарэктнае размяшчэнне {0}
+setting.type.location.unknown:
+    text: Размяшчэнне {0} невядома
+settings.label.project.format:
+    text: 'Формат проекта:'
+settings.label.select.project:
+    text: 'Проект {0}:'
+settings.title.system.settings:
+    text: Агульныя налады
+tasks.before.run:
+    text: "Запусціць задачу {0} ''{1}''"
+tasks.before.run.empty:
+    text: Запусціць задачу {0}
+tasks.edit.task.title:
+    text: Рэдагаваць задачу {0}
+tasks.select.task.title:
+    text: Выбрать задачу {0}

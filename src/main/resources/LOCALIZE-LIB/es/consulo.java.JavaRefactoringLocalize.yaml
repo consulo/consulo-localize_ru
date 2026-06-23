@@ -1,0 +1,209 @@
+action.expand.static.import.text:
+    text: Expandir importación estática
+add.property:
+    text: Añadir @property
+annotation.types.cannot.be.inlined:
+    text: Los tipos de anotación no se pueden insertar en línea
+cannot.perform.the.refactoring:
+    text: |
+        No se puede realizar la refactorización.
+choose.destination.package.label:
+    text: Seleccionar paquete de destino
+class.cannot.be.inlined.because.a.call.to.its.constructor.is.unresolved:
+    text: La clase no se puede aplicar inline porque una llamada a su constructor no se ha resuelto
+class.cannot.be.inlined.because.an.interface.implemented.by.it.cannot.be.resolved:
+    text: La clase no se puede integrar en línea porque no se puede resolver una interfaz implementada por ella
+class.cannot.be.inlined.because.it.has.static.fields.with.non.constant.initializers:
+    text: La clase no se puede integrar porque tiene campos estáticos con inicializadores no constantes
+class.cannot.be.inlined.because.it.has.static.initializers:
+    text: La clase no se puede insertar en línea porque tiene inicializadores estáticos
+class.cannot.be.inlined.because.it.has.static.inner.classes:
+    text: La clase no se puede incluir en línea porque tiene clases internas estáticas
+class.cannot.be.inlined.because.it.has.static.methods:
+    text: La clase no se puede incluir en línea porque tiene métodos estáticos
+class.cannot.be.inlined.because.it.has.static.non.final.fields:
+    text: No se puede realizar el inline de la clase porque tiene campos static no final
+class.cannot.be.inlined.because.it.has.usages.of.fields.not.inherited.from.its.superclass:
+    text: No se puede aplicar inline a la clase porque tiene usos de campos no heredados de su superclase
+class.cannot.be.inlined.because.it.has.usages.of.its.class.literal:
+    text: No se puede insertar la clase en línea porque tiene usos de su literal de clase
+class.cannot.be.inlined.because.it.has.usages.of.its.inner.classes:
+    text: No se puede integrar la clase porque tiene usos de sus clases internas
+class.cannot.be.inlined.because.it.is.used.as.a.this.qualifier:
+    text: "La clase no se puede integrar en línea porque se utiliza como calificador 'this'"
+class.cannot.be.inlined.because.it.is.used.in.a.catch.clause:
+    text: "La clase no se puede incluir en línea porque se utiliza en una cláusula 'catch'"
+class.cannot.be.inlined.because.it.is.used.in.a.throws.clause:
+    text: "No se puede aplicar inline a la clase porque se utiliza en una cláusula 'throws'"
+class.cannot.be.inlined.because.its.constructor.contains.return.statements:
+    text: "No se puede aplicar inline a la clase porque su constructor contiene sentencias 'return'"
+class.cannot.be.inlined.because.its.superclass.cannot.be.resolved:
+    text: No se puede integrar la clase porque no se puede resolver su superclase
+class.cannot.be.inlined.because.there.are.usages.of.its.methods.not.inherited.from.its.superclass.or.interface:
+    text: No se puede realizar el inline de la clase porque hay usos de sus métodos no heredados de su superclase o interfaz
+constructor.returns.can.not.be.wrapped:
+    text: No se puede envolver el valor de retorno del constructor.
+could.not.find.selected.wrapping.class:
+    text: No se pudo encontrar la clase envolvente seleccionada
+declare.generated.annotations:
+    text: '&Generar anotaciones'
+declare.static.pass.fields.checkbox:
+    text: Declarar &static (pasar campos como parámetros)
+dialog.message.nothing.found.to.extract:
+    text: No se encontró nada para extraer
+enums.cannot.be.inlined:
+    text: Las enumeraciones no se pueden incluir en línea
+exposed.delegation.command.name:
+    text: Delegación expuesta a {0}
+extract.class.depends.on.0.from.1.tooltip:
+    text: Depende de {0} de {1}
+extract.class.depends.on.0.from.new.class:
+    text: Depende de {0} de la nueva clase {1}
+extract.class.from.label:
+    text: Extraer delegado de {0}
+extract.class.title:
+    text: Extraer delegado
+extract.delegate.as.enum.checkbox:
+    text: Extraer como enum
+extract.delegate.create.nested.checkbox:
+    text: Crear clase anidada
+extract.delegate.generate.accessors.checkbox:
+    text: '&Generar descriptores de acceso'
+extract.delegate.unable.create.warning.message:
+    text: No se puede crear la clase con el nombre especificado
+extracted.class.command.name:
+    text: Clase extraída {0}
+extracted.class.should.have.unique.name:
+    text: "La clase extraída debe tener un nombre único. El nombre ''{0}'' ya está en uso por una de las clases internas"
+extracting.from.class:
+    text: 'Extrayendo de la clase:'
+field.selected.is.not.used.as.a.delegate:
+    text: El campo seleccionado no se utiliza como delegado.
+inline.anonymous.conflict.progress:
+    text: Buscando herederos de la clase "{0}"…
+inline.conflicts.progress:
+    text: Comprobando si es posible realizar el inline…
+inline.constant.field.not.supported.for.enum.constants:
+    text: '{0} no se admite para constantes de enumeración'
+inline.field.used.in.javadoc:
+    text: El campo integrado se utiliza en javadoc
+inline.field.used.in.reflection:
+    text: El campo insertado se utiliza mediante reflexión
+inline.local.unable.try.catch.warning.message:
+    text: No se puede inlinear fuera de una sentencia try/catch
+inline.local.variable.declared.outside.cannot.refactor.message:
+    text: La variable está declarada fuera de un bloque de código
+inline.method.multiline.method.in.ctor.call:
+    text: No se puede aplicar la inserción directa a un método de varias líneas en una llamada al constructor
+inline.method.qualifier.usage.side.effect:
+    text: El método insertado se usa en una referencia a método con efectos secundarios en el calificador
+inline.method.used.in.javadoc:
+    text: El método insertado se utiliza en javadoc
+inline.method.used.in.reflection:
+    text: El método insertado se utiliza mediante reflexión
+inline.parameter.cannot.find.initializer.warning.message:
+    text: No se puede encontrar el inicializador constante para el parámetro
+inline.parameter.no.usages.warning.message:
+    text: El método no tiene usos
+inline.parameter.not.accessible.warning.message:
+    text: El inicializador de la constante no es accesible en el cuerpo del método
+inline.super.class:
+    text: Insertar superclase
+inline.super.class.action.name:
+    text: Superclase en línea…
+inline.super.class.label:
+    text: Clase {0}
+inline.super.no.anonymous.class:
+    text: No se puede realizar inline en una clase anónima.
+inline.super.no.inner.class:
+    text: "No se puede realizar el inline en la clase interna. Mueva ''{0}'' al nivel superior."
+inline.super.non.project.class.warning.message:
+    text: No se puede inlinear una clase que no pertenece al proyecto
+interfaces.cannot.be.inlined:
+    text: No se pueden inlinear las interfaces
+introduce.parameter.object:
+    text: Introducir objeto de parámetros
+introduce.type.parameter:
+    text: Introducir parámetro de tipo
+invalid.extracted.class.name:
+    text: "''{0}'' no es un nombre de clase extraída válido"
+invert.boolean.title:
+    text: Invertir booleano
+library.classes.cannot.be.inlined:
+    text: Las clases de biblioteca no se pueden insertar en línea
+members.to.extract.label:
+    text: Miem&bros a extraer
+method.selected.has.no.parameters:
+    text: El método seleccionado no tiene parámetros.
+method.selected.returns.void:
+    text: "El método seleccionado devuelve 'void'."
+method.to.wrap.returns.from.label:
+    text: 'Método desde el cual envolver los retornos:'
+method.whose.return.are.to.wrapped:
+    text: Métodos cuyos valores de retorno deben ser envueltos
+name.for.new.class.label:
+    text: '&Nombre para la nueva clase:'
+package.for.new.class.label:
+    text: 'Nombre del &paquete:'
+parameter:
+    text: parámetro
+preview:
+    text: Vista previa
+records.cannot.be.inlined:
+    text: Las clases record no se pueden insertar en línea
+refactor:
+    text: Refactorizar
+reference:
+    text: Referencia
+references.to.be.modified.usage.view:
+    text: Referencias a modificar {0, choice, 0#(no encontradas)|1#{0} referencia|2#{0} referencias}{1, choice, 0#|1# en {1} archivo|2# en {1} archivos}
+references.to.expose.usage.view:
+    text: Referencias para mostrar {0, choice, 0#(no encontradas)|1#{0} referencia|2#{0} referencias}{1, choice, 0#|1# en {1} archivo|2# en {1} archivos}
+references.to.extract:
+    text: Referencias a extraer ( {0, choice, 0#(No se encontraron)|1#{0} referencia|2#{0} referencias}{1, choice, 0#|1# en {1} archivo|2# en {1} archivos})
+remove.middleman:
+    text: Eliminar intermediario
+remove.middleman.column.header:
+    text: Eliminar
+remove.middleman.deleted.hierarchy.conflict:
+    text: '{0} se eliminará. Se romperá la jerarquía.'
+remove.middleman.field.header:
+    text: 'Eliminar campo intermediario:'
+remove.middleman.methods.to.inline.title:
+    text: Métodos para insertar en línea (&M)
+remove.middleman.title:
+    text: Eliminar intermediario
+remove.middleman.tooltip.warning:
+    text: La eliminación romperá la jerarquía de tipos
+rename.overloads:
+    text: Renombrar s&obrecargas
+select.wrapper.class:
+    text: Seleccionar clase de parámetro
+the.caret.should.be.positioned.at.the.name.of.the.field.to.be.refactored:
+    text: El cursor debe estar situado en el nombre del campo que se va a refactorizar.
+the.caret.should.be.positioned.within.a.class.to.be.refactored:
+    text: La refactorización debe invocarse en la clase o los miembros que se van a refactorizar.
+the.refactoring.is.not.supported.on.non.static.inner.classes:
+    text: La refactorización no es compatible con clases internas no estáticas.
+the.selected.class.has.no.members.to.extract:
+    text: La clase seleccionada no tiene miembros para extraer.
+the.selected.class.is.an.annotation.type:
+    text: La clase seleccionada es una interfaz de anotación.
+the.selected.class.is.an.enumeration:
+    text: La clase seleccionada es una clase de enumeración.
+the.selected.class.is.an.interface:
+    text: La clase seleccionada es una interfaz.
+the.selected.method.cannot.be.wrapped.because.it.is.defined.in.a.non.project.class:
+    text: El método seleccionado no se puede envolver porque está definido en una clase que no pertenece al proyecto
+there.already.exists.a.class.with.the.chosen.name:
+    text: Ya existe una clase con el nombre elegido.
+there.already.exists.a.class.with.the.selected.name:
+    text: Ya existe una clase con el nombre seleccionado
+type.parameters.cannot.be.inlined:
+    text: Los parámetros de tipo no se pueden insertar en línea
+wrap.return.value:
+    text: Envolver valor de retorno
+wrap.return.value.title:
+    text: Envolver valor de retorno
+wrapped.return.command.name:
+    text: Envolver el valor de retorno como {0} de {1}()

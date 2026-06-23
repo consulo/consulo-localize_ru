@@ -1,0 +1,92 @@
+label.macro.preview:
+    text: 巨集預覽
+label.macros:
+    text: 巨集
+macro.class.name:
+    text: 類別名
+macro.classpath.entry:
+    text: 在類別路徑中的元素屬於
+macro.column.number:
+    text: 列數
+macro.file.dir.relative.to.root:
+    text: 相對於檔案目錄的模組內容根檔案屬於
+macro.file.dir.relative.to.root.fwd.slash:
+    text: 相對於模組內容根檔案目錄的檔案屬於（正斜槓）
+macro.file.dir.relative.to.sourcepath.root:
+    text: 相對於檔案目錄到源路徑根目錄的檔案屬於
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: 相對於源路徑的根檔案目錄的檔案屬於（正斜槓）
+macro.file.directory:
+    text: 檔案目錄
+macro.file.directory.from.parent:
+    text: $FileDir$ 路徑的父目錄的名稱作為一個參數傳遞
+macro.file.directory.name:
+    text: 檔案目錄名
+macro.file.directory.relative:
+    text: 相對於項目檔案檔案目錄
+macro.file.directory.relative.fwd.slash:
+    text: 檔案目錄相對於項目檔案（使用正斜槓）
+macro.file.encoding:
+    text: 檔案編碼
+macro.file.extension:
+    text: 檔案副檔名
+macro.file.fully.qualified.package:
+    text: 檔案完全限定的包
+macro.file.name:
+    text: 檔案名
+macro.file.name.without.all.extensions:
+    text: 檔案名不帶所有副檔名
+macro.file.name.without.extension:
+    text: 檔案名不帶副檔名
+macro.file.package:
+    text: 檔案包
+macro.file.parent.directory:
+    text: 檔案的父目錄。有一個可選的參數（名稱）找到父目錄
+macro.file.path:
+    text: 檔案路徑
+macro.file.path.relative:
+    text: 相對於項目檔案的檔案路徑
+macro.file.path.relative.fwd.slash:
+    text: 檔案路徑相對於項目檔案（使用正斜槓）
+macro.file.path.relative.to.root:
+    text: 檔案路徑相對於模組內容根檔案屬於
+macro.file.path.relative.to.root.fwd.slash:
+    text: 相對於模組內容根檔案路徑的檔案屬於（正斜槓）
+macro.file.path.relative.to.sourcepath.root:
+    text: 檔案路徑相對於源路徑根目錄下的檔案屬於
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: 相對於源路徑的根檔案路徑的檔案屬於（正斜槓）
+macro.javadoc.output.directory:
+    text: JavaDoc的輸出目錄
+macro.line.number:
+    text: 行號
+macro.module.file.directory:
+    text: 該模組檔案的目錄
+macro.module.file.name:
+    text: 未擴充的模組檔案名
+macro.module.file.path:
+    text: 該模組檔案的路徑
+macro.module.source.path:
+    text: 模組的源路徑
+macro.output.path:
+    text: 輸出路徑
+macro.project.classpath:
+    text: 項目的類別路徑
+macro.project.file.directory:
+    text: 項目檔案的目錄
+macro.project.file.name:
+    text: 未擴充的項目檔案的名稱
+macro.project.file.path:
+    text: 項目檔案的路徑
+macro.project.source.path:
+    text: 項目源路徑
+macro.project.sourcepath:
+    text: 項目的源路徑
+macro.prompt:
+    text: 顯示一個字串輸入對話方塊
+macro.sourcepath.entry:
+    text: 輸入的源路徑的元素屬於
+prompt.enter.parameters:
+    text: '輸入參數:'
+title.input:
+    text: 輸入

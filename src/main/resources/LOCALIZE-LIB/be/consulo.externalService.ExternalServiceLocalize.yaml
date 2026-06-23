@@ -1,0 +1,118 @@
+action.download.and.install.plugin:
+    text: Спампаваць і ўсталяваць
+column.plugins.name:
+    text: Імя
+error.cannot.create.temp.dir:
+    text: "Немагчыма стварыць часовы каталог ''{0}''"
+error.dialog.clear.all.action:
+    text: Ачысціць усё [&C]
+error.dialog.comment.prompt:
+    text: Апішыце, што вы рабілі, калі ўзнікла выключэнне
+error.dialog.conflict.plugin.button.disable.all:
+    text: Адключыць усе і перазапусціць
+error.dialog.conflict.plugin.button.enable.and.restart:
+    text: Уключыць і перазапусціць
+error.dialog.conflict.plugin.disable.all:
+    text: Не, адключыць усе плагіны вышэй
+error.dialog.conflict.plugin.header.each.other:
+    text: '<html><p style="line-height: 150%;">Наступныя плагіны не могуць працаваць адначасова. Выберыце, якія пакінуць уключанымі:</p></html>'
+error.dialog.conflict.plugin.header.platform:
+    text: 'Наступныя плагіны{0,choice,1#|2#} канфліктуюць з{0,choice,1#|2#} IDE:'
+error.dialog.conflict.plugin.title:
+    text: Канфліктуючыя плагіны
+error.dialog.disable.plugin.action.disable:
+    text: Адключыць [&D]
+error.dialog.disable.plugin.action.disableAndRestart:
+    text: Адключыць і перазапусціць [&R]
+error.dialog.disable.plugin.title:
+    text: Адключэнне плагіна
+error.http.result.code:
+    text: 'Код ответа HTTP: {0}'
+error.itn.returns.wrong.data:
+    text: ITN вернул некорректные данные
+error.list.disable.plugin:
+    text: Адключыць плагін…
+error.list.message.blame.core:
+    text: Выключэнне ў <b>ядры {0}</b>.
+error.list.message.blame.plugin:
+    text: Выключэнне ў плагіне <b>{0}</b>.
+error.list.message.blame.unknown.plugin:
+    text: Выключэнне ў <b>невядомым плагіне</b>.
+error.list.message.info:
+    text: '{0}, адбылося {1,choice,1#1 раз|2#{1} разы|5#{1} разоў}'
+error.list.message.submission.failed:
+    text: Отправка не удалась
+error.list.message.submitted:
+    text: Отправлено
+error.list.message.submitted.as.link:
+    text: Отправлено как <a href="{0}">{1}</a>
+error.monitor.too.many.errors:
+    text: Занадта шмат унутраных памылак IDE. Маніторынг спынены.
+error.new.notification.link:
+    text: Прагледзець падрабязнасці і адправіць справаздачу
+error.new.notification.title:
+    text: Узнікла памылка IDE
+error.notification.tooltip:
+    text: <html><body>Узнікла ўнутраная памылка IDE<br>Прагледзець падрабязнасці і адправіць справаздачу</body></html>
+error.report.gratitude:
+    text: Дзякуй за водгук!
+error.report.title:
+    text: Справаздача пра памылку
+log.console.filter.show.all:
+    text: Все
+log.console.filter.show.errors:
+    text: Памылкі
+log.console.filter.show.errors.and.warnings:
+    text: Папярэджанні
+log.console.filter.show.errors.warnings.and.infos:
+    text: Інфармацыя
+log.monitor.edit.aliases.location:
+    text: 'Размяшчэнне файла лога [&L]:'
+log.monitor.edit.aliases.name:
+    text: 'Псеўданім [&A]:'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: Показать все файлы, которые могут соответствовать шаблону [&S]
+log.monitor.edit.aliases.title:
+    text: Рэдагаваць псеўданімы файлаў логаў
+log.monitor.group:
+    text: Файлы логаў для адлюстравання ў кансолі
+log.monitor.is.active.column:
+    text: Актыўна
+log.monitor.is.skipped.column:
+    text: Прапушчана змесціва
+log.monitor.log.file.column:
+    text: Запіс файла лога
+log.monitor.no.files:
+    text: Няма прымацаваных файлаў логаў
+plugin.info.unknown:
+    text: Невядомы
+plugin.status.not.specified:
+    text: (не ўказана)
+progress.connecting.to.plugin.manager:
+    text: Падключэнне да {0}
+progress.download.plugins:
+    text: Загрузка плагінаў
+progress.downloading.list.of.plugins:
+    text: Загрузка спісу плагінаў з {0}
+progress.downloading.plugin:
+    text: "Загрузка плагіна ''{0}''"
+prompt.uninstall.plugin:
+    text: "Вы ўпэўнены, што хочаце выдаліць плагін ''{0}''{1, choice, 0#|1# абнаўленне}?"
+prompt.uninstall.several.plugins:
+    text: Вы ўпэўнены, што хочаце выдаліць гэтыя {0} плагіны?
+title.plugin.uninstall:
+    text: Выдаліць {0, choice, 0#плагін|1#абнаўленне плагіна}?
+title.plugins:
+    text: Убудовы
+title.submitting.error.report:
+    text: Адпраўка справаздачы пра памылку
+unknown.error:
+    text: Невядомая памылка
+virus.scanning.dont.show.again:
+    text: Больше не показывать
+virus.scanning.dont.show.again.this.project:
+    text: Больше не показывать для этого проекта
+virus.scanning.warn.message:
+    text: 'Антывіруснае ПЗ можа ўплываць на прадукцыйнасць зборкі. {0} праверыў наступныя дырэкторыі: {1}'
+whatsnew.action.custom.description:
+    text: Даведайцеся пра новыя функцыі і паляпшэнні ў версіі {0}

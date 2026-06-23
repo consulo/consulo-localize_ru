@@ -1,0 +1,174 @@
+build.event.title.cannot.start.server.error:
+    text: Не ўдаецца запусціць сервер Maven
+build.event.title.error:
+    text: Памылка
+build.event.title.internal.server.error:
+    text: Памылка сервера Maven
+cannot.download.zip.from:
+    text: Не ўдаецца загрузіць ZIP-дыстрыбутыў з {0}. Праверце distributionUrl
+cannot.resolve.maven.home:
+    text: Не ўдаецца вызначыць дамашні каталог Maven
+importing.jdk.changed:
+    text: JDK для імпарцёра быў зменены
+importing.jdk.changed.description:
+    text: JDK для імпарцёра {0} не знойдзены і быў зменены на {1}. <br>Разгледзьце налады Maven для змены JDK імпарцёра
+is.not.correct.maven.home.reverting.to.embedded:
+    text: "{0} не з'яўляецца карэктным дамашнім каталогам maven, вяртанне да ўбудаванай версіі"
+maven.cannot.reconnect:
+    text: 'Не ўдаецца падключыцца да працэсу Maven. Калі праблема захоўваецца, праверце налады сеткі і лакальнай машыны. Падрабязнасці гл. у гэтым артыкуле: https://intellij-support.jetbrains.com/hc/en-us/articles/360014262940'
+maven.core.plexus.init.issue.description:
+    text: |-
+        Maven не можа быць ініцыялізаваны з-за крытычнай памылкі:
+         Магчымыя рашэнні:
+maven.core.plexus.init.issue.description.exception:
+    text: 'Паведамленне пра выключэнне і трасіроўка стэка ніжэй:'
+maven.core.plexus.init.issue.fix.downgrade:
+    text: Выкарыстоўвайце Maven 3.8.4 або больш ранюю версію. Пачынаючы з Maven 3.8.5 невырашаныя асноўныя пашырэнні перашкаджаюць запуску Maven. <a href="{0}">Адкрыць налады maven</a>
+maven.core.plexus.init.issue.fix.remove:
+    text: Выдаліць невырашанае асноўнае пашырэнне і <a href="{0}">Перазапусціць падсістэму maven</a>
+maven.core.plexus.init.issue.title:
+    text: Не ўдаецца вырашыць асноўныя кампаненты Maven
+maven.language.level.unaccepted.description:
+    text: Вы павінны прыняць умовы юрыдычнага паведамлення бета-спецыфікацыі Java для ўключэння падтрымкі "{0}" <a href="{1}">Паказаць умовы</a>
+maven.language.level.unaccepted.title:
+    text: Немагчыма ўсталяваць узровень мовы "{0}"
+maven.sync.annotation.processor.problem:
+    text: Праблема з працэсарам анатацый Maven
+maven.sync.dependencies.artifact.download:
+    text: Загрузка {0}
+maven.sync.dependencies.download:
+    text: Загрузка залежнасцей
+maven.sync.dependencies.resolve:
+    text: Вырашэнне залежнасцей
+maven.sync.dependencies.resolve.error:
+    text: Не ўдаецца вырашыць {0}
+maven.sync.failure.dependency.not.found:
+    text: '{0} не найден'
+maven.sync.failure.error.reading.file:
+    text: Памылка чытання файла {0}
+maven.sync.failure.error.undefined.detailed.message:
+    text: Памылка ў файле {0}
+maven.sync.failure.error.undefined.message:
+    text: Памылка
+maven.sync.failure.terminated:
+    text: Завершено с кодом выхода {0}
+maven.sync.group.compiler:
+    text: Кампілятар
+maven.sync.group.error:
+    text: Памылка
+maven.sync.not.trusted.description:
+    text: "Адкрыты недаверны праект не цалкам загружаны. \nIntelliJ IDEA не будзе вырашаць плагіны ў праекце, загружаць артэфакты або выконваць якія-небудзь мэты"
+maven.sync.not.trusted.title:
+    text: Недоверенный проект
+maven.sync.plugins.artifact.download:
+    text: Загрузка {0}
+maven.sync.plugins.download:
+    text: Загрузка плагінаў
+maven.sync.plugins.resolve:
+    text: Вырашэнне плагінаў
+maven.sync.plugins.resolve.error:
+    text: Не ўдаецца вырашыць плагін {0}
+maven.sync.project.title:
+    text: Сінхранізацыя {0}
+maven.sync.quickfixes.maven.jdk.version.title:
+    text: Несумяшчальны Maven JDK
+maven.sync.quickfixes.maven.version.title:
+    text: Праблема з версіяй Maven
+maven.sync.quickfixes.maven360:
+    text: Вы выкарыстоўваеце Maven 3.6.0, могуць узнікнуць праблемы пры імпарце мультымадульнага праекта. Рэкамендуецца абнавіць або панізіць версію Maven
+maven.sync.quickfixes.nomaven:
+    text: Версія Maven не вызначана
+maven.sync.quickfixes.repository.blocked:
+    text: 'З версіі Maven 3.8.1 http рэпазіторыі заблакаваны.<br/><br/>Магчымыя рашэнні:'
+maven.sync.quickfixes.repository.blocked.add.mirror:
+    text: '- Дадайце люстэрка(і) для {0}, якое дазваляе http url у Maven <a href="{1}">settings.xml</a>'
+maven.sync.quickfixes.repository.blocked.downgrade:
+    text: '- Панізьце версію Maven да 3.8.1 або раней у <a href="{0}">наладах</a>'
+maven.sync.quickfixes.repository.blocked.find.repository:
+    text: '- Праверце, што Maven <a href="{0}">pom файлы</a> не змяшчаюць http рэпазіторый {1}'
+maven.sync.quickfixes.repository.blocked.show.settings:
+    text: '- Праверце, што Maven <a href="{0}">settings.xml</a> не змяшчае http рэпазіторыяў'
+maven.sync.quickfixes.repository.blocked.title:
+    text: З версіі Maven 3.8.1 http рэпазіторыі заблакаваны
+maven.sync.quickfixes.upgrade.to.jdk7:
+    text: Для версіі Maven {0} патрабуецца як мінімум JDK версіі 1.7
+maven.sync.quickfixes.use.bundled.settings:
+    text: Выкарыстоўваць убудаваны {0}
+maven.sync.restarting:
+    text: Перезапуск Maven…
+maven.sync.title:
+    text: Сінхранізацыя
+maven.sync.trust.project:
+    text: Доверять проекту
+maven.sync.version.issue.title:
+    text: Праблема з версіяй Maven
+maven.sync.version.open.settings:
+    text: Адкрыць налады
+maven.sync.version.use.bundled:
+    text: Выкарыстоўваць убудаваны {0}
+maven.sync.waiting.for.completion:
+    text: Чаканне завяршэння імпарту Maven
+maven.sync.warnings.eclipse.batch.compiler.no.dependency:
+    text: Залежнасць org.codehaus.groovy:groovy-eclipse-batch не зарэгістравана належным чынам
+maven.sync.warnings.eclipse.batch.compiler.no.dependency.desc:
+    text: Для выкарыстання groovy-eclipse-compiler неабходна ўказаць артэфакт Groovy як залежнасць зборкі ў дадатак да залежнасці maven-compiler-plugin. Версія залежнасці Groovy павінна адпавядаць версіі кампілятара.
+maven.sync.wrapper:
+    text: Запуск Maven wrapper
+maven.sync.wrapper.downloading:
+    text: Загрузка Maven wrapper
+maven.sync.wrapper.downloading.canceled:
+    text: Загрузка Maven wrapper была отменена
+maven.sync.wrapper.downloading.from:
+    text: Загрузка Maven wrapper з {0}
+maven.sync.wrapper.downloading.progress:
+    text: Загрузка Maven wrapper {0}/{1}%
+maven.sync.wrapper.failure:
+    text: Не ўдаецца ўсталяваць абгорнуты maven, усталюйце ўбудаваны Maven
+maven.sync.wrapper.failure.description:
+    text: '{0}<br/><br/>Maven wrapper быў адключаны. Замест яго будзе выкарыстана ўбудаваная версія Maven.<br/><br/>Каб уключыць Maven wrapper, змяніце шлях да Maven у <a href="{1}">наладах</a>.'
+maven.sync.wrapper.http.description:
+    text: Для загрузкі дыстрыбутыва maven выкарыстоўваецца HTTP. Разгледзьце магчымасць змены distributionURL на HTTPS
+maven.sync.wrapper.http.title:
+    text: Для загрузкі дыстрыбутыва maven выкарыстоўваецца HTTP
+maven.sync.wrapper.unpacked.into:
+    text: Maven wrapper распакован в {0}
+maven.sync.wrapper.unpacking:
+    text: Распакоўка архіва…
+maven.sync.wsl.jdk:
+    text: Maven JDK для імпарцёра павінен быць WSL JDK
+maven.sync.wsl.jdk.fix:
+    text: Адкрыць налады імпарту Maven
+maven.sync.wsl.jdk.revert.usr:
+    text: Maven JDK для імпарцёра не знойдзены, будзе выкарыстаны /usr/bin/java, калі існуе
+maven.sync.wsl.jdk.set.to.project:
+    text: Для карэктнага працэсу імпарту Maven JDK для імпарцёра быў запушчаны з Project JDK
+maven.sync.wsl.maven.is.not.wsl:
+    text: Дыстрыбутыў Maven выглядае некарэктным
+maven.sync.wsl.maven.is.not.wsl.description:
+    text: |-
+        Дамашні каталог Maven вызначаны як {0}.
+         Па меркаваннях прадукцыйнасці лепш выкарыстоўваць maven, усталяваны ў дыстрыбутыве wsl. <a href="{1}">Адкрыць налады</a>
+maven.sync.wsl.userhome.cannot.resolve:
+    text: Не ўдаецца вырашыць пераменную $HOME у WSL. Падобна, працэс інтэграцыі WSL завіс. Паспрабуйце перазапусціць WSL або хост-машыну.
+maven.wrapper.notification.downloading.error.action:
+    text: Паўторна ўключыць Maven wrapper у наладах.
+maven.wrapper.notification.downloading.error.content:
+    text: '{0}<br/>Maven wrapper быў адключаны. Замест яго будзе выкарыстана ўбудаваная версія Maven.'
+maven.wrapper.notification.downloading.finish:
+    text: Успешно установлено.
+maven.wrapper.notification.downloading.start:
+    text: Пачатак загрузкі. Калі ласка, пачакайце.
+maven.wrapper.notification.empty.url.action.check:
+    text: Праверце ваш URL дыстрыбутыва.
+maven.wrapper.notification.empty.url.action.disable:
+    text: Адключыць Maven wrapper у наладах.
+maven.wrapper.notification.empty.url.content:
+    text: DistributionUrl пусты. Замест яго будзе выкарыстана ўбудаваная версія Maven.
+maven.wrapper.notification.empty.url.content.file.not.found:
+    text: Файл .mvn/wrapper/maven-wrapper.properties не знойдзены. Замест яго будзе выкарыстана ўбудаваная версія Maven.
+maven.wrapper.version.label:
+    text: Создать свойство
+progress.title.starting.maven.server:
+    text: Запуск сервера Maven
+zip.is.not.correct:
+    text: "Zip-архіў у {0} не з'яўляецца карэктным дыстрыбутывам Maven. Праверце distributionUrl"

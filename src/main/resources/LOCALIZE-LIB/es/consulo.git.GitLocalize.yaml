@@ -1,0 +1,292 @@
+action.Annotate.with.Blame.text:
+    text: Anotar con Git Blame(_N)
+action.Git.Stash.Silently.text:
+    text: Hacer stash silenciosamente
+action.Git.Stash.UnstashAs.description:
+    text: Extraer (pop) o aplicar el stash seleccionado como una nueva rama con o sin el índice
+action.Git.Stash.UnstashAs.text:
+    text: Aplicar stash (&U)…
+action.add.text:
+    text: Añadir
+action.fetch.text:
+    text: Recuperar
+action.reset.text:
+    text: Restablecer
+action.selected.directory.text:
+    text: '{0,choice,1#Directorio seleccionado|2#Directorios seleccionados}'
+action.selected.file.text:
+    text: '{0,choice,1#Archivo seleccionado|2#Archivos seleccionados}'
+action.text.show.all.submitted:
+    text: Mostrar todas las revisiones enviadas en la lista de cambios seleccionada
+add.adding:
+    text: Añadiendo archivos…
+annotate.action.name:
+    text: Anotar
+changes.retrieving:
+    text: Recuperando cambios para la revisión {0}
+clone.button:
+    text: Clonar
+clone.dialog.checking.git.version:
+    text: Comprobando la versión de Git…
+clone.parent.dir:
+    text: 'Directorio &padre:'
+clone.parent.missing.error:
+    text: La ruta padre {0} debe existir.
+clone.test.success.message:
+    text: Conexión exitosa
+clone.testing:
+    text: Probando {0}
+clone.title:
+    text: Clonar repositorio
+cloning.repository:
+    text: Clonando el repositorio de origen {0}
+commit.author:
+    text: 'A&utor:'
+common.current.branch:
+    text: 'Rama actual:'
+common.current.branch.tooltip:
+    text: La rama actualmente extraída.
+common.git.root:
+    text: 'Raíz de Git (&R):'
+common.git.root.tooltip:
+    text: Seleccionar la raíz del VCS Git
+common.no.active.branch:
+    text: <sin rama activa>
+common.refreshing:
+    text: Actualizando archivos
+computing.annotation:
+    text: Calculando anotación para {0}
+diff.find.error:
+    text: 'Buscando revisión para el diff: {0}'
+error.commit.cant.create.message.file:
+    text: Falló la creación del archivo del mensaje de commit
+error.occurred.during:
+    text: "Ocurrió un error durante ''{0}''"
+errors.message:
+    text: 'La operación de Git finalizó con múltiples errores: {0}'
+errors.message.item:
+    text: |4-
+
+           {0}
+fetch.action.name:
+    text: Recuperar
+find.git.error.title:
+    text: Error al ejecutar Git
+find.git.success.title:
+    text: Git se ejecutó con éxito
+find.git.unsupported.message:
+    text: <html><tt>{0}</tt><br>Esta versión no es compatible y algunas funciones del plugin podrían no funcionar.<br>La versión mínima compatible es <em>{1}</em>.</html>
+git.commit.message.empty.title:
+    text: El mensaje de commit está vacío
+git.error.exit:
+    text: El proceso Git finalizó con el código {0}
+git.executable.version.is:
+    text: La versión de Git es {0}
+git.light.status.bar.tooltip:
+    text: 'Rama actual de Git: {0}'
+git.new.tag.dialog.tag.name.label:
+    text: Introduzca el nombre de la nueva etiqueta
+git.new.tag.dialog.title:
+    text: Crear nueva etiqueta en {0}
+git.running:
+    text: 'Ejecutando: {0}'
+git.status.bar.widget.name:
+    text: Rama de Git
+git.status.bar.widget.text.cherry.pick:
+    text: Aplicando cherry-pick en {0}
+git.status.bar.widget.text.merge:
+    text: Fusionando {0}
+git.status.bar.widget.text.rebase:
+    text: Rebasando {0}
+git.status.bar.widget.text.revert:
+    text: Revirtiendo en {0}
+group.Git.MainMenu.MergeActions.text:
+    text: Fusionar(_M)
+init.destination.directory.description:
+    text: Seleccione el directorio donde se creará el nuevo repositorio Git.
+init.destination.directory.title:
+    text: Crear repositorio Git
+init.warning.already.under.git:
+    text: |-
+        El directorio seleccionado <tt>{0}</tt> ya está bajo Git.
+        ¿Está seguro de que desea crear una nueva raíz de VCS?
+init.warning.title:
+    text: Inicializar Git
+initializing.title:
+    text: Inicializando repositorio…
+merge.branch.title:
+    text: Fusionar cambios
+merge.tool.column.status.deleted:
+    text: Eliminado
+merge.tool.column.status.modified:
+    text: Modificado
+merge.tool.column.theirs.status:
+    text: Suyo
+merge.tool.column.yours.status:
+    text: Suyo
+merging.title:
+    text: Fusionando los cambios en {0}
+paths.affected.title:
+    text: Rutas afectadas en el commit {0}
+progress.title.moving.files:
+    text: Moviendo archivos…
+pulling.title:
+    text: Obteniendo cambios de {0}
+rebase.update.project.abort.task.title:
+    text: Abortando rebase…
+rebase.update.project.notification.abort.error.message:
+    text: Error al abortar el rebase
+rebase.update.project.notification.abort.success.message:
+    text: Rebase abortado
+remove.removing:
+    text: Eliminando archivos…
+repository.action.missing.roots.misconfigured:
+    text: Ninguna de las raíces de Git configuradas está bajo Git. El directorio configurado debe contener un directorio ".git".
+repository.action.missing.roots.title:
+    text: Sin raíces de Git
+repository.action.missing.roots.unconfigured.message:
+    text: No se han configurado raíces de Git para el proyecto.
+repository.not.found.error:
+    text: No se puede encontrar el repositorio Git configurado para {0}
+reset.action.name:
+    text: Restablecer Head…
+reset.commit.invalid:
+    text: La expresión de commit especificada no superó la validación.
+reset.commit.label:
+    text: 'Al &commit:'
+reset.commit.tooltip:
+    text: |-
+        El commit que se convertirá en el HEAD actual
+         como resultado de la operación de reset.
+reset.title:
+    text: Restablecer Head
+reset.type:
+    text: 'Restablecer &tipo:'
+reset.type.tooltip:
+    text: <html>El tipo de restablecimiento (consulte también la página de manual de <code>git reset</code>):<ul><li><b>Mixed</b> restablece el índice pero no el árbol de trabajo</li><li><b>Soft</b> mantiene el índice y el árbol de trabajo, solo mueve el puntero HEAD</li><li><b>Hard</b> restablece el índice y el árbol de trabajo.<em>Los cambios en el árbol de trabajo se perderán</em></li></ul></html>
+reset.validate:
+    text: '&Validar'
+resetting.title:
+    text: Restableciendo HEAD…
+settings.auto.update.on.push.rejected:
+    text: Actualizar automáticamente si se rechaza el push de la rama actual
+settings.crlf:
+    text: Advertir si se van a confirmar separadores de línea CRLF
+settings.detached.head:
+    text: Advertir al realizar un commit en una HEAD desasociada o durante un rebase
+settings.protected.branched:
+    text: 'Ramas protegidas:'
+settings.update.method:
+    text: 'Método de actualización:'
+ssh.ask.passphrase.title:
+    text: Frase de contraseña de clave SSH
+ssh.keyboard.interactive.title:
+    text: SSH interactivo por teclado
+ssh.password.message:
+    text: 'Contraseña para el usuario {0}:'
+ssh.password.title:
+    text: Inicio de sesión con contraseña SSH
+stash.button:
+    text: Crear stash
+stash.keep.index:
+    text: Mantener &índice
+stash.keep.index.tooltip:
+    text: Si se selecciona esta casilla, todos los cambios ya añadidos al índice se mantendrán intactos
+stash.message:
+    text: '&Mensaje:'
+stash.message.tooltip:
+    text: Introduzca el mensaje del stash aquí
+stashing.title:
+    text: Guardando cambios en stash…
+tag.button:
+    text: Crear etiqueta
+tag.commit.label:
+    text: '&Confirmar:'
+tag.commit.tooltip:
+    text: Introduzca el nombre del commit u objeto para etiquetar o déjelo en blanco para usar HEAD.
+tag.error.creating.message.file.message:
+    text: 'No se puede crear el archivo de mensajes: {0}'
+tag.error.invalid.commit:
+    text: El nombre del commit o del objeto no es válido.
+tag.error.tag.exists:
+    text: Ya existe una etiqueta con el mismo nombre.
+tag.force:
+    text: '&Forzar'
+tag.force.tooltip:
+    text: Forzar la creación de la etiqueta incluso si ya existe otra con el mismo nombre.
+tag.getting.existing.tags:
+    text: Obteniendo etiquetas existentes…
+tag.message.label:
+    text: '&Mensaje:'
+tag.message.tooltip:
+    text: Si el mensaje no está vacío, se crea una etiqueta anotada.
+tag.name.label:
+    text: '&Nombre de etiqueta:'
+tag.name.tooltip:
+    text: Introduzca el nuevo nombre de la etiqueta aquí.
+tag.title:
+    text: Etiqueta
+tag.validate:
+    text: '&Validar'
+tag.validate.tooltip:
+    text: Haga clic en este botón para validar el commit que se va a etiquetar
+unstash.branch.label:
+    text: 'Como nueva rama (&B):'
+unstash.branch.tooltip:
+    text: Si se introduce un nombre no vacío, el stash se extraerá como una rama nueva
+unstash.button.apply:
+    text: Aplicar stash
+unstash.button.branch:
+    text: Rama
+unstash.clear:
+    text: '&Limpiar'
+unstash.clear.tooltip:
+    text: Eliminar todos los stashes del repositorio
+unstash.clearing.stashes:
+    text: Limpiando stashes…
+unstash.drop:
+    text: '&Descartar'
+unstash.drop.tooltip:
+    text: Eliminar el stash seleccionado
+unstash.pop.stash:
+    text: Hacer &pop del stash
+unstash.pop.stash.tooltip:
+    text: Si se selecciona, el stash se descarta después de aplicarse.
+unstash.reinstate.index:
+    text: Restablecer &índice
+unstash.reinstate.index.tooltip:
+    text: Intentar restablecer tanto el índice como los cambios del árbol de trabajo
+unstash.title:
+    text: Restaurar cambios del stash
+unstash.unstashing:
+    text: Aplicando stash…
+unstash.view:
+    text: '&Ver'
+unstash.view.tooltip:
+    text: Ver stash seleccionado
+update.options.display.name:
+    text: Configuración de actualización de Git
+util.remote.renderer.none:
+    text: Ninguno
+vfs.listener.add.single.prompt:
+    text: |-
+        ¿Desea añadir el siguiente archivo a Git?
+        {0}
+
+        Si selecciona Cancelar, todavía podrá añadirlo manualmente más tarde.
+vfs.listener.add.single.title:
+    text: Añadir archivo a Git
+vfs.listener.add.title:
+    text: Añadir archivos a Git
+vfs.listener.checking.ignored:
+    text: Comprobando archivos ignorados…
+vfs.listener.delete.single.prompt:
+    text: |-
+        ¿Desea eliminar el siguiente archivo de Git?
+        {0}
+
+        Si selecciona Cancelar, aún podrá eliminarlo manualmente más adelante.
+vfs.listener.delete.single.title:
+    text: Eliminar archivo de Git
+vfs.listener.delete.title:
+    text: Eliminar archivos de Git

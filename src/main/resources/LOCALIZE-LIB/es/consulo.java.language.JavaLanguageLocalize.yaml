@@ -1,0 +1,387 @@
+annotation.name.is.missing:
+    text: "Se esperaba un atributo de anotación con el formato 'name=value'"
+anonymous.class.context.display:
+    text: Anónima en {0}
+anonymous.class.derived.display:
+    text: Clase anónima derivada de {0}
+aux.context.display:
+    text: de {0}
+bad.return.type.in.lambda.expression:
+    text: 'Tipo de retorno incorrecto en la expresión lambda: {0} no se puede convertir a {1}'
+bad.return.type.in.lambda.expression1:
+    text: 'Tipo de retorno incorrecto en la expresión lambda: {0} no se puede convertir a void'
+bad.return.type.in.method.reference:
+    text: 'Tipo de retorno incorrecto en la referencia de método: no se puede convertir {0} a {1}'
+bound.not.expected:
+    text: Límite inesperado
+catch.without.try:
+    text: "'catch' sin 'try'"
+class.context.display:
+    text: '{0} en {1}'
+class.literal.expected:
+    text: se esperaba .class
+conflicting.conjuncts:
+    text: '{0} y {1}'
+context.type.java.comment:
+    text: Comentario
+context.type.string:
+    text: Cadena
+default.language.level.description:
+    text: Predeterminado del SDK
+diamond.error.anonymous.inner.classes:
+    text: "No se puede usar '<>' con clases internas anónimas"
+diamond.error.anonymous.inner.classes.non.private:
+    text: "No se puede usar '<>' debido a un método no privado que no sobrescribe ni implementa un método de un supertipo"
+diamond.error.cannot.infer.arguments:
+    text: No se pueden inferir los argumentos
+diamond.error.cannot.infer.arguments.unable.to.resolve.constructor:
+    text: No se pueden inferir los argumentos (no se puede resolver el constructor)
+diamond.error.cannot.infer.type.arguments:
+    text: No se pueden inferir los argumentos de tipo para {0}
+diamond.error.explicit.type.parameters.for.constructor:
+    text: No se pueden utilizar diamantes con parámetros de tipo explícitos para el constructor
+else.without.if:
+    text: "'else' sin 'if'"
+enum.constant.context:
+    text: "Constante de enumeración ''{0}'' en ''{1}''"
+error.incompatible.type:
+    text: '{0} no es compatible con {1}'
+error.incompatible.type.bad.lambda.return.type:
+    text: 'Tipo de retorno incorrecto en la expresión lambda: {0} no se puede convertir a {1}'
+error.incompatible.type.declaration.for.the.method.reference.not.found:
+    text: No se encontró ninguna declaración en tiempo de compilación para la referencia de método
+error.incompatible.type.expected.non.void.got.void.method.reference:
+    text: 'Tipos incompatibles: se esperaba un tipo distinto de void, pero la declaración en tiempo de compilación para la referencia de método tiene un tipo de retorno void'
+error.incompatible.type.expected.value.lambda:
+    text: 'Tipos incompatibles: se esperaba un tipo distinto de void, pero el cuerpo de la lambda es un bloque que no es compatible con valores'
+error.incompatible.type.failed.to.resolve.argument:
+    text: Error al resolver el argumento
+error.incompatible.type.incompatible.equality.constraint:
+    text: 'Restricción de igualdad incompatible: {0} y {1}'
+error.incompatible.type.incompatible.parameter.types.in.lambda:
+    text: 'Número incorrecto de parámetros lambda: se esperaban {0} pero se encontraron {1}'
+error.incompatible.type.incompatible.parameter.types.in.method.reference:
+    text: Tipos de parámetros incompatibles en la expresión de referencia de método
+error.incompatible.type.incompatible.types.expected.not.void.got.void.method.reference:
+    text: 'Tipos incompatibles: se esperaba un tipo distinto de void, pero la declaración en tiempo de compilación de la referencia de método tiene un tipo de retorno void'
+error.incompatible.type.incompatible.types.expected.void.lambda:
+    text: 'Tipos incompatibles: se esperaba void, pero el cuerpo de la lambda no es ni una expresión de sentencia ni un bloque compatible con void'
+error.incompatible.type.no.type.variable:
+    text: no existen instancias de las variables de tipo de modo que {0}
+error.incompatible.type.no.type.variable.0:
+    text: no existen instancias de la(s) variable(s) de tipo {0} de modo que {1}
+error.incompatible.type.no.valid.function.type.found:
+    text: No se encontró un tipo de función válido para {0}
+error.incompatible.type.not.a.functional.interface:
+    text: '{0} no es una interfaz funcional'
+error.incompatible.type.not.convertible:
+    text: 'Tipos incompatibles: {0} no se puede convertir a {1}'
+error.incompatible.type.parameter.type.is.not.yet.inferred:
+    text: 'El tipo de parámetro aún no se ha inferido: {0}'
+error.incompatible.type.return.type.is.not.yet.inferred:
+    text: 'El tipo de retorno aún no se ha inferido: {0}'
+error.incompatible.type.unhandled.exception:
+    text: 'Excepción no controlada: {0}'
+error.incompatible.upper.bounds:
+    text: 'Límites superiores incompatibles: {0}'
+error.inference.variable.has.incompatible.bounds:
+    text: |-
+        la variable de inferencia {0} tiene límites incompatibles:
+         {1}: {2}
+        {3}: {4}
+error.message.wildcard.not.expected:
+    text: Comodín inesperado
+expected.array.initializer:
+    text: Se esperaba un inicializador de array
+expected.boolean.expression:
+    text: Se espera una expresión booleana
+expected.catch.or.finally:
+    text: "Se esperaba 'catch' o 'finally'"
+expected.class.or.interface:
+    text: "Se espera 'class' o 'interface'"
+expected.class.reference:
+    text: 'Se esperaba: referencia de clase'
+expected.colon:
+    text: "Se esperaba ':'"
+expected.comma:
+    text: "Se esperaba ','"
+expected.comma.or.rparen:
+    text: "Se esperaba ',' o ')'"
+expected.comma.or.semicolon:
+    text: "Se espera ',' o ';'"
+expected.dot:
+    text: "Se esperaba '.'"
+expected.eq:
+    text: "Se esperaba '='"
+expected.expression:
+    text: 'Se esperaba: expresión'
+expected.gt:
+    text: "Se esperaba '>'."
+expected.gt.or.comma:
+    text: "Se esperaba '>' o ','"
+expected.identifier:
+    text: Se esperaba un identificador
+expected.identifier.or.type:
+    text: Se esperaba un identificador o tipo
+expected.lbrace:
+    text: "se esperaba '{'"
+expected.lbrace.or.semicolon:
+    text: "Se espera '{' o ';'"
+expected.lbracket:
+    text: "se esperaba '['"
+expected.lparen:
+    text: "Se esperaba '('"
+expected.lparen.or.lbracket:
+    text: "Se esperaba '(' o '['"
+expected.lt.or.lparen:
+    text: "se esperaba '<' o '('"
+expected.module.declaration:
+    text: Se esperaba una declaración de módulo
+expected.module.statement:
+    text: Se esperaba una directiva de módulo
+expected.package.reference:
+    text: Se esperaba una referencia de paquete
+expected.parameter:
+    text: Se esperaba un parámetro
+expected.rbrace:
+    text: "Se esperaba '}'"
+expected.rbracket:
+    text: "Se esperaba ']'"
+expected.resource:
+    text: Se esperaba una definición de recurso
+expected.rparen:
+    text: "Se esperaba ')'"
+expected.semicolon:
+    text: "Se esperaba ';'"
+expected.statement:
+    text: Se esperaba una sentencia
+expected.string:
+    text: Se esperaba un literal de cadena
+expected.switch.label:
+    text: "se esperaba 'case', 'default' o '}'"
+expected.switch.rule:
+    text: Se esperaba una expresión, un bloque o una sentencia throw
+expected.type:
+    text: Tipo esperado
+expected.type.parameter:
+    text: Se esperaba un parámetro de tipo
+expected.value:
+    text: Se esperaba un valor
+expected.while:
+    text: "se esperaba 'while'"
+expected.with:
+    text: "se esperaba 'with'"
+feature.advanced.collection.api:
+    text: Métodos lambda en colecciones
+feature.annotations:
+    text: Anotaciones
+feature.assertions:
+    text: Aserciones
+feature.binary.literals:
+    text: Literales binarios
+feature.classfile.api:
+    text: API ClassFile
+feature.collection.factories:
+    text: Métodos de factoría de colecciones
+feature.diamond.types:
+    text: Tipos diamante
+feature.effectively.final:
+    text: Variables efectivamente finales
+feature.enhanced.switch:
+    text: "Bloques 'switch' mejorados"
+feature.enum.qualified.name.in.switch:
+    text: Enumeración calificada como constante en switch
+feature.enums:
+    text: Enumeraciones
+feature.extension.methods:
+    text: Métodos de extensión
+feature.for.each:
+    text: Bucles for-each
+feature.foreign.functions:
+    text: API de funciones y memoria externas
+feature.generics:
+    text: Genéricos
+feature.hex.fp.literals:
+    text: Literales de punto flotante hexadecimales
+feature.implicit.classes:
+    text: Archivos fuente compactos
+feature.inner.statics:
+    text: Declaraciones estáticas en clases internas
+feature.intersections.in.casts:
+    text: Tipos de intersección en casts
+feature.javadoc.snippets:
+    text: '@snippet en Javadoc'
+feature.lambda.expressions:
+    text: Expresiones lambda
+feature.local.enums:
+    text: Enums locales
+feature.local.interfaces:
+    text: Interfaces locales
+feature.lvti:
+    text: Inferencia de tipos de variables locales
+feature.method.references:
+    text: Referencias de método
+feature.modules:
+    text: Módulos
+feature.multi.catch:
+    text: Capturas múltiples
+feature.nestmates:
+    text: Control de acceso basado en nidos
+feature.no.this.capture:
+    text: "Las clases internas no capturan 'this'"
+feature.override.interface:
+    text: '@Override en interfaces'
+feature.pattern.guard.and.record.patterns:
+    text: Guardas de patrón y patrones de registro
+feature.patterns.in.switch:
+    text: Patrones en switch
+feature.patterns.instanceof:
+    text: "Patrones en 'instanceof'"
+feature.private.interface.methods:
+    text: Métodos de interfaz privados
+feature.record.patterns.in.for.each:
+    text: Patrones de registro en bucles for-each
+feature.records:
+    text: Registros
+feature.scoped.values:
+    text: Valores de ámbito
+feature.sealed.classes:
+    text: Clases selladas
+feature.sequenced.collections:
+    text: Colecciones secuenciadas
+feature.serial.annotation:
+    text: Anotación @Serial
+feature.statements.before.super:
+    text: Cuerpos de constructores flexibles
+feature.static.imports:
+    text: Importaciones estáticas
+feature.static.interface.calls:
+    text: Llamadas a métodos estáticos de interfaz
+feature.stream.and.optional.api:
+    text: API de Stream y Optional
+feature.stream.gatherers:
+    text: Gatherers de Stream
+feature.strictfp:
+    text: Semántica de punto flotante siempre estricta
+feature.string.switch:
+    text: "Cadenas en sentencias 'switch'"
+feature.string.templates:
+    text: Plantillas de cadenas
+feature.structured.concurrency:
+    text: Concurrencia estructurada
+feature.switch.expressions:
+    text: "expresiones 'switch'"
+feature.text.blocks:
+    text: Literales de bloque de texto
+feature.try.with.resources.refs:
+    text: Referencias a recursos
+feature.type.annotations:
+    text: Anotaciones de tipo
+feature.type.receivers:
+    text: Parámetros del receptor
+feature.underscores.in.literals:
+    text: Guiones bajos en literales
+feature.unnamed.vars:
+    text: Patrones y variables sin nombre
+feature.var.lambda.parameter:
+    text: "'var' en parámetros lambda"
+feature.varargs:
+    text: Métodos de aridad variable
+feature.virtual.threads:
+    text: Hilos virtuales
+finally.without.try:
+    text: "'finally' sin 'try'"
+import.statement.identifier.or.asterisk.expected.:
+    text: "Se esperaba un identificador o '*'"
+java.terms.anonymous.class.base.ref:
+    text: '{0} anónima'
+javadoc.exception.tag.class.is.not.throwable:
+    text: La clase {0} no es descendiente de Throwable
+javadoc.exception.tag.exception.is.not.thrown:
+    text: '{0} no está declarado como lanzado por el método {1}'
+javadoc.exception.tag.wrong.tag.value:
+    text: Valor de etiqueta incorrecto
+javadoc.param.tag.parameter.name.expected:
+    text: Se esperaba un nombre de parámetro
+javadoc.param.tag.type.parameter.gt.expected:
+    text: "se esperaba '>'"
+javadoc.param.tag.type.parameter.name.expected:
+    text: Se esperaba un nombre de parámetro de tipo
+javadoc.ref.tag.class.ref.expected:
+    text: Se esperaba una referencia de clase
+javadoc.value.field.required:
+    text: la etiqueta @value debe hacer referencia a un campo
+javadoc.value.field.with.initializer.required:
+    text: La etiqueta @value debe hacer referencia a un campo con un inicializador constante
+javadoc.value.static.field.required:
+    text: La etiqueta @value debe hacer referencia a un campo estático
+javadoc.value.tag.jdk15.required:
+    text: la etiqueta @value no puede tener ningún argumento cuando se utiliza JDK 1.4 o versiones anteriores
+jdk.21.preview.language.level.description:
+    text: 21 (Vista previa) - Plantillas de cadenas, clases sin nombre y métodos main de instancia, etc.
+jdk.22.preview.language.level.description:
+    text: 22 (Vista previa) - Sentencias antes de super(), plantillas de cadenas (segunda vista previa), etc.
+jdk.23.language.level.description:
+    text: 23 - Comentarios de documentación en Markdown
+jdk.23.preview.language.level.description:
+    text: 23 (Vista previa) - Tipos primitivos en patrones, clases declaradas implícitamente, etc.
+jdk.24.language.level.description:
+    text: 24 - Sin nuevas funciones del lenguaje
+jdk.24.preview.language.level.description:
+    text: 24 (Vista previa) - Cuerpos de constructor flexibles, archivos fuente simples, etc.
+jdk.25.language.level.description:
+    text: 25 - Archivos fuente compactos, importaciones de módulos, etc.
+jdk.25.preview.language.level.description:
+    text: 25 (Preview) - Tipos primitivos en patrones (3.ª vista previa)
+jdk.26.language.level.description:
+    text: 26 - Sin nuevas características del lenguaje
+jdk.26.preview.language.level.description:
+    text: 26 (Vista previa) - Tipos primitivos en patrones (cuarta vista previa)
+jdk.unsupported.preview.language.level.description:
+    text: '{0} (Vista previa) - No admitido'
+lambda.body.must.be.a.statement.expression:
+    text: El cuerpo de la lambda debe ser una expresión de sentencia
+list.item.no.module:
+    text: <sin módulo>
+method.context.display:
+    text: '{0}() en {1}'
+missing.return.value.lambda:
+    text: Falta el valor de retorno
+node.abstract.flag.tooltip:
+    text: Abstracto
+node.annotation.tooltip:
+    text: Anotación
+node.anonymous.class.tooltip:
+    text: Clase anónima
+node.class.tooltip:
+    text: Clase
+node.enum.tooltip:
+    text: Enumeración
+node.exception.tooltip:
+    text: Excepción
+node.field.tooltip:
+    text: Campo
+node.interface.tooltip:
+    text: Interfaz
+node.junit.test.tooltip:
+    text: Prueba de JUnit
+node.method.tooltip:
+    text: Método
+node.record.tooltip:
+    text: Registro
+node.runnable.class.tooltip:
+    text: Clase ejecutable
+node.static.flag.tooltip:
+    text: Estático
+type.can.be.converted:
+    text: '{0} se puede convertir a {1}'
+type.conforms.to.constraint:
+    text: '{0} cumple con {1}'
+unexpected.identifier:
+    text: Identificador inesperado
+unexpected.return.value:
+    text: Valor de retorno inesperado
+unexpected.token:
+    text: Token inesperado
+unexpected.tokens:
+    text: Tokens inesperados

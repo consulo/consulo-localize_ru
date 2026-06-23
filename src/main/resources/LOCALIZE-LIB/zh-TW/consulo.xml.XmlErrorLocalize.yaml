@@ -1,0 +1,168 @@
+add.attribute.value.quickfix.text:
+    text: 新增屬性值
+attribute.is.not.allowed.here:
+    text: 屬性 {0} 不允許在這裡
+attribute.is.not.boolean:
+    text: 屬性 {0} 不是布林值
+attribute.should.be.preceded.with.space:
+    text: 屬性和上一個屬性之間應該有一個空格
+attribute.value.expected:
+    text: 期望屬性值
+cannot.resolve.taglib.uri:
+    text: 無法使用 uri {0} 剖析 taglib
+cdata.end.should.not.appear.in.content.unless.to.mark.end.of.cdata.section:
+    text: "字元序列 ']]>' 不能出現在內容中，除非用於標記 CDATA 部份的結尾"
+create.namespace.declaration.quickfix:
+    text: 建立 {0} 宣告
+create.tagfile.attribute.family:
+    text: 創建標記檔案特性
+create.tagfile.attribute.text:
+    text: 創建標記檔案特性 {0}
+declare.id.in.comment.quickfix:
+    text: 在註解註解中宣告無效的 id
+dtd.parser.message.left.paren.or.entityref.or.empty.or.any.expected:
+    text: 期望 ( 或實體參照或 EMPTY 或 ANY
+dtd.parser.message.literal.public.system.expected:
+    text: 期望文字, PUBLIC 或 SYSTEM
+dtd.parser.message.name.expected:
+    text: 期望 XML 名稱
+dtd.parser.message.name.or.entity.ref.expected:
+    text: 期望 XML 名稱或實體參照
+dtd.parser.message.rbrace.expected:
+    text: ) 是預期的
+dtd.parser.message.whitespace.expected:
+    text: 期望空白
+duplicate.attribute:
+    text: 重複屬性 {0}
+duplicate.declaration:
+    text: 非唯一的宣告名稱 {0}
+duplicate.id.reference:
+    text: 重複的 id 參照
+element.doesnt.have.required.attribute:
+    text: 元素 {0} 沒有需要的屬性 {1}
+element.is.not.allowed.here:
+    text: 元素 {0} 不允許在這裡
+element.is.not.closed:
+    text: 元素未關閉
+element.must.be.declared:
+    text: 元素 {0} 必須宣告
+empty.attribute.is.not.allowed:
+    text: 空屬性 {0} 不允許
+escape.ampersand.quickfix:
+    text: 轉義字元號
+expected.attribute.eq.sign:
+    text: "期望 '='"
+expected.prologue.tag.termination.expected:
+    text: "期望 '?>'"
+expected.whitespace:
+    text: 期望空白
+extra.closing.tag.for.empty.element:
+    text: 關閉標籤是多餘的
+finding.acceptable.uri:
+    text: 搜尋可接受的 URI
+insert.required.attribute.quickfix.family:
+    text: 插入必需屬性
+insert.required.attribute.quickfix.text:
+    text: 插入必需屬性 {0}
+invalid.id.reference:
+    text: 無效的 id 參照
+jsp.directive.end.expected:
+    text: 期望 Directive 結束
+jsp.unparseable.content:
+    text: 無法剖析的內容
+looking.in.schemas:
+    text: 檢視註冊的 xml 模式
+looking.in.tlds:
+    text: 檢視可用的標籤庫
+named.element.is.not.closed:
+    text: 元素 {0} 未關閉
+plugin.reference.message.problem:
+    text: "類別 ''{0}'' 的參照提供了無效的訊息模式 ''{1}''"
+quote.expected:
+    text: 期望參照
+registered.resource.is.not.recognized:
+    text: 由此 uri 註冊的資源無法辨識 (Settings | Languages \& Frameworks | Schemas and DTDs)
+remove.attribute.quickfix.family:
+    text: 移除屬性
+remove.attribute.quickfix.text:
+    text: 移除屬性 {0}
+remove.extra.closing.tag.quickfix:
+    text: 移除額外的結束標籤
+rename.end.tag.name.intention:
+    text: "將結束標籤 ''{0}'' 重新命名為 ''{1}''"
+rename.start.tag.name.intention:
+    text: "將開始標籤 ''{0}'' 重新命名為 ''{1}''"
+select.namespace.location.title:
+    text: 選取命名空間位置
+select.namespace.title:
+    text: '{0} 匯入'
+should.have.fixed.value:
+    text: '{0} 應具有固定值 {1}'
+switch.to.html5.quickfix.text:
+    text: 切換到 HTML5 語言級別
+tag.has.wrong.closing.tag.name:
+    text: 開始標籤有錯誤的關閉標籤
+tag.start.is.not.closed:
+    text: 標籤開始未關閉
+top.level.element.is.not.completed:
+    text: 頂級元素未完成
+unbound.namespace:
+    text: "命名空間 ''{0}'' 沒有約束"
+unbound.namespace.no.param:
+    text: 命名空間沒有約束
+unescaped.ampersand.or.nonterminated.character.entity.reference:
+    text: 未轉義的 \& 或非終止字元/實體參照
+unknown.encoding.0:
+    text: "未知的編碼: ''{0}''"
+unknown.html.tag:
+    text: 未知的 html 標籤 {0}
+uri.is.not.registered:
+    text: URI 未註冊 (Settings | Languages \& Frameworks | Schemas and DTDs)
+way.too.unbalanced:
+    text: 方式太不平衡。此時停止嘗試平衡標籤
+wrong.closing.tag.name:
+    text: 關閉標籤名稱錯誤
+wrong.root.element:
+    text: 錯誤的根元素
+wrong.value:
+    text: 錯誤 {0} 值
+xml.declaration.should.precede.all.document.content:
+    text: Xml 宣告應先於所有文件內容
+xml.parsing.absent.root.tag:
+    text: 有效的 XML 文件必須具有根標記
+xml.parsing.attribute.value.expected:
+    text: 期望屬性值
+xml.parsing.bad.character:
+    text: 壞字元
+xml.parsing.closing.tag.is.not.done:
+    text: 關閉標籤未完成
+xml.parsing.closing.tag.matches.nothing:
+    text: 關閉標籤沒有符合
+xml.parsing.closing.tag.name.missing:
+    text: 關閉標籤名稱遺失
+xml.parsing.multiple.root.tags:
+    text: 多個根標籤
+xml.parsing.processing.instruction.name.expected:
+    text: 期望處理指令名稱
+xml.parsing.tag.name.expected:
+    text: 期望標籤名稱
+xml.parsing.unclosed.attribute.value:
+    text: 屬性值未關閉
+xml.parsing.unexpected.end.of.file:
+    text: 異常檔案結尾
+xml.parsing.unexpected.token:
+    text: 不期望的標記
+xml.parsing.unexpected.tokens:
+    text: 不期望的標記
+xml.parsing.unterminated.processing.instruction:
+    text: 處理指令未終止
+xml.schema.validation.attr.not.allowed.with.ref:
+    text: 當使用元素參照時，屬性 {0} 不允許在此處
+xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
+    text: "'default' 和 'fixed' 屬性不應該同時出現"
+xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
+    text: maxOccurs 值應該大於 minOccurs 值
+xml.schema.validation.name.or.ref.should.present:
+    text: "應該出現 'name' 或 'ref' 屬性"
+xml.validate.external.resource.is.not.registered:
+    text: 外部資源 {0} 未註冊

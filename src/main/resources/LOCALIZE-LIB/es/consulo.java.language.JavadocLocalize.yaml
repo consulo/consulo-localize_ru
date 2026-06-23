@@ -1,0 +1,36 @@
+javadoc.candidates:
+    text: <html>Los candidatos para la llamada al método <b>{0}</b> son:<br><br>{1}</html>
+javadoc.candidates.not.found:
+    text: <html>No se han encontrado candidatos para la llamada al método <b>{0}</b>.</html>
+javadoc.constructor.candidates:
+    text: <html>Los candidatos para el nuevo <b>{0}</b>() son:<br>{1}</html>
+javadoc.generate.arguments:
+    text: 'Argumentos de la línea de comandos:'
+javadoc.generate.exited:
+    text: |4-
+
+        "javadoc" finalizó con el código de salida $EXIT_CODE$
+javadoc.generate.heap.size:
+    text: 'Tamaño &máximo del heap:'
+javadoc.generate.locale:
+    text: 'Configuración regiona&l:'
+javadoc.generate.no.classes.in.selected.packages.error:
+    text: No se encontraron fuentes de Java en el ámbito seleccionado
+javadoc.generate.open.in.browser:
+    text: Abrir la documentación &generada en el navegador
+javadoc.generate.options.hierarchy:
+    text: Generar árbol de jerarquía
+javadoc.generate.options.index:
+    text: Generar índice
+javadoc.generate.options.index.per.letter:
+    text: Separar índice por letra
+javadoc.generate.options.navigator:
+    text: Generar barra de navegación
+javadoc.generate.output.directory:
+    text: '&Directorio de salida:'
+javadoc.generate.output.directory.browse:
+    text: Explorar el directorio de salida
+javadoc.generate.tag.list.deprecated:
+    text: Lista de elementos obsoletos
+javadoc.generate.title:
+    text: Generar JavaDoc

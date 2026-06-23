@@ -1,0 +1,162 @@
+action.MakeAllJarsAction.text:
+    text: Падрыхтаваць усе плагіны да дэплою
+action.MakeJarAction.text:
+    text: Падрыхтаваць да дэплою
+command.implement.externalizable:
+    text: Рэалізаваць Externalizable
+create.description.file:
+    text: Стварыць файл апісання{0}
+deployment.cleanup:
+    text: Ачыстка дырэкторыі {0}
+deployment.directory.location:
+    text: Выберыце размяшчэнне дырэкторыі {0}
+deployment.title:
+    text: Дэплой плагіна
+deployment.view.delete:
+    text: Выдаліць {0}?
+deployment.view.select:
+    text: Выберыце {0}
+error.cannot.resolve.plugin:
+    text: "Не ўдаецца вызначыць плагін ''{0}'' у залежнасцях"
+error.file.not.found:
+    text: Файл не найден
+error.file.not.found.message:
+    text: "Файл ''{0}'' не існуе"
+error.no.plugin.xml:
+    text: Файл plugin.xml не найден
+error.occurred:
+    text: Узнікла памылка
+error.plugin.xml.readonly:
+    text: 'Немагчыма апрацаваць файл plugin.xml толькі для чытання: {0}'
+group.PluginDeployActions.text:
+    text: Дзеянні дэплою плагіна
+info.message:
+    text: Інфармацыя
+inspection.file.equals.usage.display.name:
+    text: Выкарыстанне File.equals()
+inspection.plugin.xml.validity.display.name:
+    text: Валіднасць Plugin.xml
+inspection.stateful.ep.display.name:
+    text: Stateful пашырэнне
+inspection.undesirable.class.usage.display.name:
+    text: Выкарыстанне непажаданага класа
+inspection.unsafe.vfs.recursion.display.name:
+    text: Небяспечная рэкурсія VFS
+inspections.component.not.registered.message:
+    text: '{0} не зарэгістраваны ў plugin.xml'
+inspections.component.not.registered.name:
+    text: Кампанент/дзеянне не зарэгістравана
+inspections.component.not.registered.option.check.actions:
+    text: Правяраць дзеянні
+inspections.component.not.registered.option.ignore.non.public:
+    text: Ігнараваць не public класы
+inspections.component.not.registered.quickfix.error:
+    text: Немагчыма зарэгістраваць {0}
+inspections.component.not.registered.quickfix.family:
+    text: Зарэгістраваць {0}
+inspections.component.not.registered.quickfix.name:
+    text: Зарэгістраваць {0}
+inspections.registration.problems.abstract:
+    text: Клас кампанента плагіна не павінен быць abstract
+inspections.registration.problems.component.duplicate.interface:
+    text: "Не дапускаецца некалькі кампанентаў з аднолькавым 'interface-class'"
+inspections.registration.problems.component.incompatible.interface:
+    text: "Клас кампанента не можа быць прысвоены інтэрфейсу ''{0}''"
+inspections.registration.problems.incompatible.message:
+    text: "Згодна з рэгістрацыяй у plugin.xml, клас павінен пашыраць ''{0}''"
+inspections.registration.problems.missing.noarg.ctor:
+    text: Клас дзеяння павінен мець канструктар без аргументаў
+inspections.registration.problems.name:
+    text: Неадпаведнасць тыпу кампанента
+inspections.registration.problems.quickfix.create.constructor:
+    text: Канструктар плагіна без аргументаў
+jdk.no.specified:
+    text: SDK не указан
+jdk.type.incorrect:
+    text: Няправільны тып SDK
+manifest.selection:
+    text: Выбраны {0} будзе ўключаны ў выніковую зборку
+manifest.settings:
+    text: Налады маніфеста
+manifest.use.user.defined:
+    text: 'Выкарыстоўваць карыстальніцкі маніфест:'
+new.action.action.name:
+    text: 'Стварэнне новага дзеяння: {0}.{1}'
+new.action.add.to.group:
+    text: Дадаць у групу
+new.action.class.name:
+    text: 'Імя класа [&C]:'
+new.action.description:
+    text: 'Апісанне [&D]:'
+new.action.dialog.title:
+    text: Новае дзеянне
+new.action.error:
+    text: Не ўдаецца стварыць дзеянне
+new.action.group.actions:
+    text: 'Дзеянні [&I]:'
+new.action.group.anchor:
+    text: 'Прывязка:'
+new.action.group.anchor.after:
+    text: После [&T]
+new.action.group.anchor.before:
+    text: Перед [&B]
+new.action.group.anchor.first:
+    text: Первый [&F]
+new.action.group.groups:
+    text: 'Группы [&G]:'
+new.action.id:
+    text: 'ID дзеяння [&A]:'
+new.action.keyboard.clear.tooltip:
+    text: Ачысціць спалучэнне клавіш
+new.action.keyboard.first:
+    text: 'Первое:'
+new.action.keyboard.second:
+    text: 'Второе:'
+new.action.keyboard.shortcuts:
+    text: Спалучэнні клавіш
+new.action.text:
+    text: 'Імя [&N]:'
+new.menu.action.text:
+    text: Дзеянне
+new.menu.application.component.text:
+    text: Кампанент прыкладання
+new.menu.project.component.text:
+    text: Компонент проекта
+plugin.descriptor:
+    text: Дэскрыптар плагіна IntelliJ Platform
+prepare.for.deployment:
+    text: "Падрыхтоўка модуля плагіна ''{0}'' да разгортвання"
+prepare.for.deployment.all:
+    text: Падрыхтоўка ўсіх модуляў плагінаў да разгортвання
+program.parameters:
+    text: Параметры программы [&P]
+run.configuration.type.description:
+    text: Пясочніца плагіна
+sandbox.home:
+    text: Хатняя дырэкторыя пясочніцы
+sandbox.home.label:
+    text: 'Хатняя дырэкторыя пясочніцы:'
+sandbox.no.configured:
+    text: Пясочніца не настроена для IntelliJ Platform Plugin SDK
+sandbox.purpose:
+    text: Выберыце папку для размяшчэння канфігурацыі, сістэмных файлаў і плагінаў мэтавай IDE
+sandbox.specification:
+    text: Калі ласка, настройце пясочніцу
+saved.message:
+    text: "{0, choice, 1#Zip|2#JAR} файл модуля ''{1}'' сохранён в {2}"
+saved.message.common:
+    text: '{0} будзе захаваны ў выбранай дырэкторыі'
+select.plugin.modules.description:
+    text: Выберыце модулі для падрыхтоўкі да разгортвання
+select.plugin.modules.title:
+    text: Выбор модулей
+select.target.location.of.description:
+    text: Выберыце мэтавае размяшчэнне для {0}
+success.deployment.message:
+    text: "Падрыхтоўка модуля плагіна ''{0}'' да разгортвання паспяхова завершана"
+success.deployment.message.all:
+    text: Падрыхтоўка ўсіх плагінаў да разгортвання паспяхова завершана
+suggest.to.delete:
+    text: "Выдаліць ''{0}''?"
+vm.parameters:
+    text: Параметры VM [&V]

@@ -1,0 +1,122 @@
+tools.add.button:
+    text: 新增...
+tools.add.title:
+    text: 建立工具
+tools.after.commit.description:
+    text: '執行工具:'
+tools.before.run.description:
+    text: "外部工具'' {0}'&#39；"
+tools.before.run.provider.name:
+    text: 執行外部工具
+tools.caption:
+    text: '工具:'
+tools.completed.message:
+    text: "外部工具'' {0}''完成，結束代碼{1}"
+tools.copy.button:
+    text: 複製
+tools.copy.title:
+    text: 複製工具
+tools.delete.confirmation:
+    text: 你要刪除的外部工具（S）？
+tools.description.column:
+    text: 說明
+tools.description.label:
+    text: '描述:'
+tools.edit.button:
+    text: 編輯...
+tools.edit.title:
+    text: 編輯工具
+tools.failed.to.save.changes.0:
+    text: 無法儲存變更：{0}
+tools.filters.add.button:
+    text: 新增...
+tools.filters.add.description.label:
+    text: '描述:'
+tools.filters.add.macro.tooltip:
+    text: 按下滑鼠右鍵，檢視可用巨集的清單
+tools.filters.add.name.label:
+    text: '名稱:'
+tools.filters.add.name.required.error:
+    text: 篩選器名稱沒有定義
+tools.filters.add.regex.invalid.title:
+    text: 無效的規則運算式
+tools.filters.add.regex.label:
+    text: '規則運算式符合輸出:'
+tools.filters.add.regex.required.error:
+    text: 規則運算式必須定義
+tools.filters.add.title:
+    text: 新增篩選器
+tools.filters.button:
+    text: 輸出篩選器...
+tools.filters.edit.button:
+    text: 編輯...
+tools.filters.edit.title:
+    text: 編輯過濾器
+tools.filters.move.down.button:
+    text: 下移(&D)
+tools.filters.move.up.button:
+    text: 上移(&U)
+tools.filters.name.default:
+    text: 沒有名字
+tools.filters.name.template:
+    text: 篩選器
+tools.filters.remove.button:
+    text: 刪除(&R)
+tools.filters.title:
+    text: 輸出篩選器
+tools.group.column:
+    text: 組
+tools.group.label:
+    text: '組:'
+tools.insert.macro.button:
+    text: 插入巨集(&M)...
+tools.insert.macro.button.a:
+    text: 插入巨集(&M)...
+tools.insert.macro.button.c:
+    text: 插入巨集(&M)...
+tools.menu.editor.checkbox:
+    text: 編輯器選單
+tools.menu.group:
+    text: 在顯示
+tools.menu.main.checkbox:
+    text: 主選單
+tools.menu.project.checkbox:
+    text: 項目檢視
+tools.menu.search.checkbox:
+    text: 搜索結果
+tools.move.down.button:
+    text: 下移(&D)
+tools.move.up.button:
+    text: 上移(&U)
+tools.name.column:
+    text: 名稱
+tools.name.label:
+    text: '名稱:'
+tools.not.configured:
+    text: 未設定任何外部工具
+tools.open.console.checkbox:
+    text: 開啟主控台
+tools.options.group:
+    text: 選項
+tools.parameters.label:
+    text: '參數:'
+tools.process.start.error:
+    text: 無法啟動程式
+tools.program.label:
+    text: '程式:'
+tools.remove.button:
+    text: 刪除(&R)
+tools.settings:
+    text: 工具
+tools.settings.title:
+    text: 外部工具
+tools.synchronize.files.checkbox:
+    text: 執行後同步檔案
+tools.tool.group:
+    text: 工具設定
+tools.unknown.external.tool:
+    text: 未知外部工具
+tools.unnamed.group:
+    text: '[未命名組]'
+tools.working.directory.label:
+    text: '工作目錄:'

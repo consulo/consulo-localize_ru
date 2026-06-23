@@ -1,0 +1,793 @@
+action.AnActionButton.Template.list.text.duplicate:
+    text: Duplicar
+action.ToggleInlineHintsAction.description:
+    text: Alternar sugerencias de nombres de parámetros
+action.ToggleInlineHintsAction.text:
+    text: Alternar sugerencias de nombres de parámetros
+action.text.move:
+    text: Mover
+block.comment.intersects.existing.comment:
+    text: La región seleccionada interseca un comentario existente
+block.comment.nested.comment:
+    text: |-
+        La región seleccionada contenía {0, choice, 1#un comentario|2#comentarios} de bloque,
+        se comentaron los rangos circundantes.
+block.comment.wrapping.suffix:
+    text: La región seleccionada contiene el sufijo de comentario de bloque
+cast.expression:
+    text: Insertar expresión de conversión
+cast.to.0:
+    text: "Convertir a ''{0}''"
+choose.type.popup.title:
+    text: Seleccionar tipo
+class.completion.file.path:
+    text: Presione {0} de nuevo para buscar todos los archivos de proyecto coincidentes
+class.completion.file.path.all.variants:
+    text: Pulse {0} para buscar archivos coincidentes de cualquier tipo
+code.coverage:
+    text: Cobertura de código
+command.expand.postfix.template:
+    text: Expandir plantilla de posfijo
+command.fix.documentation:
+    text: Corregir documentación
+command.name.surround.with.runtime.cast:
+    text: Envolver con conversión en tiempo de ejecución
+command.name.typing:
+    text: Escritura
+command.rearrange.code:
+    text: Reorganizar código
+command.wrap.with.template:
+    text: Envolver con plantilla
+completion.automatic.command.name:
+    text: Autocompletado
+copy.abstract.method.intention.name:
+    text: "Usar la implementación existente de ''{0}''"
+copy.abstract.method.no.existing.implementations.found:
+    text: No se encontraron implementaciones existentes
+copy.abstract.method.popup.title:
+    text: Seleccionar implementación para copiar
+copy.abstract.method.title:
+    text: Usar implementación de método abstracto
+coverage.data.not.found:
+    text: No se encontraron datos de cobertura
+coverage.data.outdated:
+    text: Datos de cobertura desactualizados
+coverage.pattern.filter.editor.choose.package.title:
+    text: Seleccionar paquete
+create.directory.command:
+    text: Crear directorio
+create.directory.text:
+    text: Crear directorio {0}
+create.file.family:
+    text: Crear archivo
+create.file.text:
+    text: Crear archivo {0}
+create.tagfile.text:
+    text: Crear archivo de etiquetas {0}
+deannotate.intention.action.text:
+    text: Eliminar anotación de {0}
+deannotate.intention.chooser.title:
+    text: Seleccionar anotación para eliminar
+declaration.navigation.title:
+    text: Seleccionar declaración
+dialog.create.class.destination.package.label:
+    text: 'Paquete de destino:'
+dialog.create.class.label:
+    text: 'Crear {0}:'
+dialog.create.class.name:
+    text: Crear {0} {1}
+dialog.create.class.package.chooser.title:
+    text: Seleccionar paquete de destino
+dialog.edit.template.applicable.in.contexts:
+    text: Aplicable en {0}
+dialog.edit.template.button.edit.variables:
+    text: '&Editar variables…'
+dialog.edit.template.checkbox.html.text:
+    text: Texto HTML
+dialog.edit.template.checkbox.reformat.according.to.style:
+    text: '&Reformatear según el estilo'
+dialog.edit.template.checkbox.shorten.fq.names:
+    text: Acortar nombres &FQ
+dialog.edit.template.checkbox.smart.type.completion:
+    text: C&ompletado con coincidencia de tipos
+dialog.edit.template.checkbox.use.static.import:
+    text: Usar &importación estática si es posible
+dialog.edit.template.checkbox.xml:
+    text: XML (&X)
+dialog.edit.template.checkbox.xsl.text:
+    text: Texto XSL
+dialog.edit.template.context.other:
+    text: Otro
+dialog.edit.template.label.abbreviation:
+    text: 'A&breviatura:'
+dialog.edit.template.label.description:
+    text: '&Descripción:'
+dialog.edit.template.label.expand.with:
+    text: E&xpandir con
+dialog.edit.template.no.applicable.contexts:
+    text: No hay contextos aplicables
+dialog.edit.template.options.title:
+    text: Opciones
+dialog.edit.template.shortcut.default:
+    text: Predeterminado ({0})
+dialog.edit.template.template.text.title:
+    text: '&Texto de la plantilla:'
+dialog.import.on.paste.title:
+    text: Seleccionar clases para importar
+dialog.import.on.paste.title2:
+    text: Seleccionar elementos para importar
+dialog.paste.on.import.text:
+    text: <html>El fragmento de código pegado utiliza clases que no son accesibles mediante importaciones en el nuevo contexto.<br/>Seleccione las clases que desea importar al nuevo archivo.</html>
+dialog.paste.on.import.text2:
+    text: <html>El fragmento de código que ha pegado utiliza elementos que no son accesibles mediante importaciones en el nuevo contexto.<br/>Seleccione los elementos que desea importar al nuevo archivo.</html>
+dialog.reformat.files.optimize.imports.checkbox:
+    text: '&Optimizar importaciones'
+dialog.reformat.files.reformat.selected.files.label:
+    text: ¿Reformatear los archivos seleccionados?
+dialog.reformat.files.title:
+    text: Reformatear archivos
+dialog.title.expressions:
+    text: Expresiones
+dialog.title.move.to.a.new.group:
+    text: Mover a un nuevo grupo
+dialog.title.rename:
+    text: Renombrar
+disable.intention.action:
+    text: "Desactivar ''{0}''"
+display.coverage.prompt:
+    text: "¿Desea mostrar los datos de cobertura de ''{0}''?"
+documentation.message.documentation.is.not.available:
+    text: La documentación no estará disponible hasta que se construyan los índices.
+enable.intention.action:
+    text: "Habilitar ''{0}''"
+error.attempt.to.generate.constructor.for.anonymous.class:
+    text: No se puede añadir un constructor a una clase anónima
+error.cannot.resolve.0.1:
+    text: "No se puede resolver {0} ''{1}''"
+error.cannot.resolve.class:
+    text: "No se puede resolver la clase ''{0}''"
+error.cannot.resolve.default.message:
+    text: "No se puede resolver el símbolo ''{0}''"
+error.dialog.readonly.file.title:
+    text: El archivo es de solo lectura
+error.hint.file.is.readonly:
+    text: El archivo {0} es de solo lectura
+finish.template.command:
+    text: Finalizar plantilla
+generate.constructor.fields.chooser.title:
+    text: Seleccionar campos para inicializar mediante el constructor
+generate.constructor.super.constructor.chooser.title:
+    text: Seleccionar constructor de la superclase
+generate.delegate.method.chooser.title:
+    text: Seleccionar métodos para generar delegados
+generate.delegate.target.chooser.title:
+    text: Seleccionar destino para generar delegados
+generate.equals.compare.arrays.comment:
+    text: '// Probablemente incorrecto: comparando arrays Object[] con Arrays.equals'
+generate.equals.compare.nested.arrays.comment:
+    text: // Comparar arreglos anidados - valores de {0} aquí
+generate.equals.hashcode.accept.sublcasses:
+    text: Aceptar &subclases como parámetro del método equals()
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>Aunque generalmente no cumple con el contrato de Object.equals(),<br>aceptar subclases puede ser necesario para que el método generado funcione correctamente<br>con frameworks que generan subclases Proxy, como Hibernate.</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: Seleccionar &campos para incluir en equals()
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: Seleccionar &campos que se incluirán en hashCode()
+generate.equals.hashcode.internal.error:
+    text: Error interno
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: Seleccionar todos los campos no nulos (&F)
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: No se admite hashCode() para arrays
+generate.equals.hashcode.wizard.title:
+    text: Generar equals() y hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals() no es compatible con arrays anidados
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: El equals() generado para Object[] podría ser incorrecto
+generate.getter.fields.chooser.title:
+    text: Seleccionar campos para generar getters
+generate.getter.setter.title:
+    text: Seleccionar campos para generar getters y setters
+generate.list.popup.title:
+    text: Generar
+generate.setter.fields.chooser.title:
+    text: Seleccionar campos para generar setters
+goto.implementation.chooserTitle:
+    text: <html><body>Seleccionar implementación de <b>{0}</b> ({1} encontradas{2})</body></html>
+goto.implementation.findUsages.title:
+    text: Implementaciones de {0}
+goto.implementation.notFound:
+    text: No se encontraron implementaciones
+goto.super.class.chooser.title:
+    text: Seleccionar superclase
+goto.super.method.chooser.title:
+    text: Seleccionar supermétodo
+goto.super.method.findUsages.title:
+    text: Supermétodos de {0}
+goto.test.chooserTitle.subject:
+    text: <html><body>Seleccionar sujeto de prueba para <b>{0}</b> ({1} encontrado{2})</body></html>
+goto.test.chooserTitle.test:
+    text: <html><body>Seleccionar prueba para <b>{0}</b> ({1} encontrada{2})</body></html>
+goto.test.findUsages.subject.title:
+    text: Sujetos de prueba para {0}
+goto.test.findUsages.test.title:
+    text: Pruebas para {0}
+goto.test.notFound:
+    text: No se encontraron sujetos de prueba
+highlight.exceptions.thrown.chooser.title:
+    text: Seleccionar clases de excepción para resaltar
+highlight.overridden.classes.chooser.title:
+    text: Seleccionar clases para resaltar métodos sobrescritos
+highlight.thrown.exceptions.chooser.all.entry:
+    text: Todos los enumerados
+hint.text.imports.optimized:
+    text: Importaciones optimizadas
+i18n.quickfix.code.panel.resource.bundle.expression.label:
+    text: '&Expresión del paquete de recursos:'
+i18n.quickfix.code.panel.title:
+    text: Información de código Java
+i18n.quickfix.preview.panel.title:
+    text: Vista previa
+i18n.quickfix.property.panel.properties.file.label:
+    text: 'Archivo de &propiedades:'
+i18n.quickfix.property.panel.property.key.label:
+    text: '&Clave de propiedad:'
+i18n.quickfix.property.panel.property.value.label:
+    text: '&Valor de la propiedad:'
+i18n.quickfix.property.panel.title:
+    text: Información de la propiedad
+i18n.quickfix.property.panel.update.all.files.in.bundle.checkbox:
+    text: Actualizar todos los archivos de propiedades en el paquete de &recursos
+i18nize.cant.create.properties.file.because.its.name.is.associated:
+    text: "No se puede crear el archivo de propiedades ''{0}'' porque su nombre está asociado con {1}."
+i18nize.dialog.error.jdk.message:
+    text: "No se pudo encontrar la clase 'java.util.ResourceBundle'.\nPor favor, configure el JDK correctamente."
+i18nize.dialog.error.jdk.title:
+    text: Clase no encontrada
+i18nize.dialog.error.property.already.defined.message:
+    text: "La propiedad ''{0}'' ya existe en el archivo ''{1}''. ¿Desea sobrescribir su valor?"
+i18nize.dialog.error.property.already.defined.title:
+    text: La propiedad ya existe
+i18nize.dialog.property.file.chooser.title:
+    text: Seleccionar archivo de propiedades
+i18nize.dialog.template.link.label:
+    text: Editar plantilla I18n
+i18nize.dialog.title:
+    text: Internacionalizar cadena de texto codificada
+i18nize.empty.file.path:
+    text: Por favor, especifique la ruta del archivo de propiedades
+i18nize.error.creating.properties.file:
+    text: Error al crear el archivo de propiedades
+i18nize.error.message:
+    text: |-
+        Solo puede internacionalizar literales de cadena de Java o subcadenas de los mismos.
+        Por favor, sitúe el cursor dentro de un literal de cadena de Java o seleccione una parte del mismo.
+i18nize.error.title:
+    text: No se puede internacionalizar la selección
+i18nize.jsp.error:
+    text: |-
+        Seleccione el texto JSP para internacionalizar.
+        Asegúrese de no haber seleccionado ningún scriptlet, etiquetas personalizadas ni otros elementos de lenguajes externos.
+        Además, las etiquetas HTML dentro de la selección deben estar balanceadas.
+implementation.view.title:
+    text: Definición de {0}
+incremental.search.tooltip.prefix:
+    text: 'Buscar:'
+inlay.hints.base.exclude.list.description:
+    text: Lista de exclusión {0} aplicada por defecto
+inlay.hints.disable.action.text:
+    text: Desactivar sugerencias
+inlay.hints.disable.option:
+    text: "Desactivar ''{0}''"
+inlay.hints.enable.action.text:
+    text: Habilitar sugerencias de nombres de parámetros
+inlay.hints.exclude.list.method:
+    text: No mostrar sugerencias para el método actual
+inlay.hints.show.settings:
+    text: "Desactivar sugerencias para el método ''{0}''"
+insert.code.template.command:
+    text: Insertar plantilla de código
+inspection.i18n.display.name:
+    text: Cadenas de texto codificadas
+inspection.i18n.expression.is.invalid.error.message:
+    text: La plantilla de expresión internacionalizada no es una expresión válida
+inspection.i18n.message.general.with.value:
+    text: 'Literal de cadena hardcoded: {0}'
+inspection.i18n.quickfix:
+    text: Internacionalizar el literal de cadena codificado de forma rígida
+inspection.i18n.quickfix.annotate.as:
+    text: "Anotar como ''@{0}''"
+inspection.i18n.quickfix.annotate.element.as:
+    text: "Anotar {0} ''{1}'' como ''@{2}''"
+inspection.invalid.resource.bundle.reference:
+    text: "Referencia de paquete de recursos no válida ''{0}''"
+inspection.unresolved.property.key.reference.message:
+    text: "''{0}'' no parece ser una clave de propiedad válida"
+inspection.unresolved.property.key.reference.name:
+    text: Clave de propiedad no válida
+intention.add.annotation.family:
+    text: Añadir anotación
+intention.add.on.demand.static.import.family:
+    text: Añadir importación estática bajo demanda
+intention.add.on.demand.static.import.text:
+    text: "Añadir importación estática bajo demanda para ''{0}''"
+intention.add.single.member.static.import.family:
+    text: Añadir importación estática de un solo miembro
+intention.add.single.member.static.import.text:
+    text: "Añadir importación estática para ''{0}''"
+intention.assign.field.from.parameter.family:
+    text: Asignar parámetro al campo
+intention.assign.field.from.parameter.text:
+    text: "Asignar parámetro al campo ''{0}''"
+intention.bind.fields.from.parameters.family:
+    text: Vincular parámetros a campos
+intention.bind.fields.from.parameters.text:
+    text: Vincular {0} parámetros a campos
+intention.break.string.on.line.breaks.text:
+    text: "Dividir cadena en '\n'"
+intention.color.chooser.dialog:
+    text: Elegir color
+intention.convert.color.representation.family:
+    text: Convertir representación de color
+intention.convert.color.representation.text:
+    text: "Convertir a ''new Color{0}''"
+intention.create.field.from.parameter.family:
+    text: Crear campo para el parámetro
+intention.create.field.from.parameter.text:
+    text: "Crear campo para el parámetro ''{0}''"
+intention.create.test:
+    text: Crear prueba
+intention.create.test.dialog.choose.super.class:
+    text: Seleccionar superclase
+intention.create.test.dialog.class.name:
+    text: 'Nombre de la clase:'
+intention.create.test.dialog.fix.library:
+    text: Corregir
+intention.create.test.dialog.generate:
+    text: 'Generar:'
+intention.create.test.dialog.library.not.found:
+    text: No se encontró la biblioteca {0} en el módulo
+intention.create.test.dialog.select.methods:
+    text: 'Generar &métodos de prueba para:'
+intention.create.test.dialog.show.inherited:
+    text: Mostrar métodos &heredados
+intention.create.test.dialog.super.class:
+    text: 'Superclase:'
+intention.create.test.dialog.testing.library:
+    text: '&Biblioteca de pruebas:'
+intention.encapsulate.field.text:
+    text: Encapsular campo
+intention.error.cannot.create.class.message:
+    text: "No se puede crear la clase ''{0}''"
+intention.error.cannot.create.class.title:
+    text: Error al crear la clase
+intention.extract.if.condition.family:
+    text: "Extraer condición 'if'"
+intention.extract.if.condition.text:
+    text: Extraer if ({0})
+intention.implement.abstract.class.default.text:
+    text: Implementar clase abstracta
+intention.implement.abstract.class.family:
+    text: Implementar clase abstracta o interfaz
+intention.implement.abstract.class.interface.text:
+    text: Implementar interfaz
+intention.implement.abstract.class.subclass.text:
+    text: Crear subclase
+intention.implement.abstract.method.class.chooser.title:
+    text: Seleccionar clase de implementación
+intention.implement.abstract.method.command.name:
+    text: Implementar método
+intention.implement.abstract.method.error.no.classes.message:
+    text: No se han encontrado clases donde se pueda implementar este método
+intention.implement.abstract.method.error.no.classes.title:
+    text: No se encontraron clases
+intention.implement.abstract.method.family:
+    text: Implementar método abstracto
+intention.implement.abstract.method.searching.for.descendants.progress:
+    text: Buscando descendientes…
+intention.implement.abstract.method.text:
+    text: "Implementar método ''{0}''"
+intention.intercept.ejb.method.or.class.class.text:
+    text: "Añadir interceptor para la clase EJB ''{0}''"
+intention.intercept.ejb.method.or.class.family:
+    text: Añadir interceptor EJB
+intention.intercept.ejb.method.or.class.method.text:
+    text: "Añadir interceptor para el método de negocio ''{0}''"
+intention.introduce.variable.text:
+    text: Introducir variable local
+intention.invert.if.condition:
+    text: "Invertir la condición 'if'"
+intention.move.field.assignment.to.declaration:
+    text: Mover asignación a la declaración de campo
+intention.move.initializer.to.constructor:
+    text: Mover inicializador al constructor
+intention.move.initializer.to.set.up:
+    text: Mover el inicializador al método setUp
+intention.override.method.text:
+    text: "Sobrescribir el método ''{0}''"
+intention.replace.concatenation.with.formatted.output.family:
+    text: Reemplazar concatenación con salida formateada
+intention.replace.concatenation.with.formatted.output.text:
+    text: "Reemplazar '+' con 'java.text.MessageFormat.format()'"
+intention.settings:
+    text: Intenciones
+intention.settings.category.text:
+    text: Ha seleccionado la categoría de intención <b>{0}</b>.<br>Al marcar la casilla de verificación, puede habilitar/deshabilitar todas las intenciones de esta categoría.<br>Para habilitar/deshabilitar una intención específica, seleccione la intención dentro de esta categoría.
+intention.split.declaration.assignment.text:
+    text: Dividir en declaración y asignación
+intention.split.declaration.family:
+    text: Dividir declaración
+intention.split.if.family:
+    text: "Dividir 'if'"
+intention.split.if.text:
+    text: "Dividir en 2 sentencias 'if'"
+intention.surround.resource.with.ARM.block:
+    text: Rodear con bloque try-with-resources
+javadoc.action.back:
+    text: Atrás
+javadoc.action.forward:
+    text: Adelante
+javadoc.action.view.external:
+    text: Ver documentación externa
+javadoc.candidates.not.found:
+    text: <html>No se han encontrado candidatos para la llamada al método <b>{0}</b>.</html>
+javadoc.deprecated:
+    text: Obsoleto
+javadoc.description.copied.from.class:
+    text: 'Desde la clase:'
+javadoc.description.copied.from.interface:
+    text: 'Desde la interfaz:'
+javadoc.documentation.not.found.message:
+    text: |-
+        No se encontró la documentación para este elemento.
+        Por favor, añada todas las rutas necesarias a la documentación de la API en la Configuración del proyecto.
+javadoc.documentation.not.found.title:
+    text: Documentación no encontrada
+javadoc.error.resolving.url:
+    text: No se pudo resolver la URL <i>{0}</i> <p>Configurar las rutas a la documentación de la API en la <a href="open://Project Settings">configuración del proyecto</a> puede ayudar
+javadoc.external.fetch.error.message:
+    text: 'No se puede obtener la documentación remota: error interno'
+javadoc.fetching.progress:
+    text: Obteniendo documentación…
+javadoc.info.title:
+    text: Documentación de {0}
+javadoc.method.in.class:
+    text: '{0} en la clase {1}'
+javadoc.method.in.interface:
+    text: '{0} en la interfaz {1}'
+javadoc.method.overrides:
+    text: 'Sobrescribe:'
+javadoc.method.specified.by:
+    text: 'Especificado por:'
+javadoc.parameters:
+    text: 'Parámetros:'
+javadoc.returns:
+    text: 'Devuelve:'
+javadoc.see.also:
+    text: 'Véase también:'
+javadoc.since:
+    text: 'Desde:'
+javadoc.throws:
+    text: 'Lanza:'
+javadoc.type.parameters:
+    text: 'Parámetros de tipo:'
+label.enter.the.new.group.name:
+    text: 'Introduzca el nuevo nombre del grupo:'
+lightbulb.tooltip:
+    text: Mostrar acciones de contexto {0}
+link.change.context:
+    text: Cambiar
+link.define.context:
+    text: Definir
+livetemplate.description.geti:
+    text: Inserta el método singleton getInstance
+livetemplate.description.if.not.null:
+    text: "Inserta la sentencia 'if not null'"
+livetemplate.description.if.null:
+    text: "Inserta una sentencia 'if null'"
+livetemplate.description.inst:
+    text: Comprueba el tipo de objeto con instanceof y realiza un downcast
+livetemplate.description.itar:
+    text: Iterar sobre los elementos de un array
+livetemplate.description.itco:
+    text: Iterar sobre los elementos de java.util.Collection
+livetemplate.description.iten:
+    text: Iterar sobre java.util.Enumeration
+livetemplate.description.itit:
+    text: Iterar usando las funciones miembro begin/end
+livetemplate.description.itli:
+    text: Iterar sobre los elementos de java.util.List
+livetemplate.description.ittok:
+    text: Iterar sobre los tokens de una cadena
+livetemplate.description.lazy:
+    text: Realiza la inicialización diferida
+livetemplate.description.lst:
+    text: Extraer el último elemento de un array
+livetemplate.description.mn:
+    text: Establece un valor menor para la variable
+livetemplate.description.mx:
+    text: Establecer un valor mayor para la variable
+livetemplate.description.psvm:
+    text: Declaración del método main()
+livetemplate.description.ritar:
+    text: Iterar elementos de un array en orden inverso
+livetemplate.description.serr:
+    text: Imprime una cadena en System.err
+livetemplate.description.souf:
+    text: Imprime una cadena con formato en System.out
+livetemplate.description.sout:
+    text: Imprime una cadena en System.out
+livetemplate.description.soutm:
+    text: Imprime los nombres de la clase y el método actuales en System.out
+livetemplate.description.soutp:
+    text: Imprime los nombres y valores de los parámetros de la función en System.out
+livetemplate.description.soutv:
+    text: Imprime un valor en System.out
+livetemplate.description.st:
+    text: Cadena
+livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
+    text: Rodear con sección CDATA
+livetemplate.description.surround.tag:
+    text: Rodear con <tag></tag>
+livetemplate.description.surround.with.callable:
+    text: Envolver con Callable
+livetemplate.description.surround.with.read.lock:
+    text: Rodear con ReadWriteLock.readLock
+livetemplate.description.surround.with.write.lock:
+    text: Rodear con ReadWriteLock.writeLock
+livetemplate.description.thr:
+    text: Lanzar nueva
+livetemplate.description.toar:
+    text: Almacena los elementos de java.util.Collection en un array
+macro.array.variable:
+    text: variableDeArreglo()
+macro.capitalize.string:
+    text: capitalizar(String)
+macro.capitalizeAndUnderscore.string:
+    text: capitalizarYGuionBajo(String)
+macro.component.type.of.array:
+    text: tipoDeComponenteDe(Matriz)
+macro.current.package:
+    text: paqueteActual()
+macro.firstWord.string:
+    text: primeraPalabra(Cadena)
+macro.guess.element.type.of.container:
+    text: guessElementType(Contenedor)
+macro.iterable.component.type:
+    text: iterableComponentType(Array o Iterable)
+macro.iterable.variable:
+    text: variableIterable()
+macro.method.parameters:
+    text: parámetrosDelMétodo()
+macro.methodname:
+    text: nombreDelMétodo()
+macro.suggest.variable.name:
+    text: sugerirNombreDeVariable()
+macro.variable.of.type:
+    text: variableOfType(Tipo)
+methods.to.implement.chooser.title:
+    text: Seleccionar métodos para implementar
+methods.to.override.chooser.title:
+    text: Seleccionar métodos para sobrescribir
+methods.to.override.implement.chooser.title:
+    text: Seleccionar métodos para sobrescribir/implementar
+multiple.implementations.tooltip:
+    text: Múltiples implementaciones
+n.of.m:
+    text: '{0} de {1}'
+no.documentation.found:
+    text: No se encontró ninguna documentación.
+no.methods.overriding.0.are.found:
+    text: "No se han encontrado métodos que sobrescriban {0, choice, 0#|1# ''''{1}''''|2#estas clases}"
+node.abstract.flag.tooltip:
+    text: Abstracto
+node.annotation.tooltip:
+    text: Anotación
+node.anonymous.class.tooltip:
+    text: Clase anónima
+node.class.tooltip:
+    text: Clase
+node.enum.tooltip:
+    text: Enumeración
+node.exception.tooltip:
+    text: Excepción
+node.excluded.flag.tooltip:
+    text: Excluido
+node.field.tooltip:
+    text: Campo
+node.interface.tooltip:
+    text: Interfaz
+node.junit.test.tooltip:
+    text: Prueba de JUnit
+node.method.tooltip:
+    text: Método
+node.runnable.class.tooltip:
+    text: Clase ejecutable
+node.static.flag.tooltip:
+    text: Estático
+override.implement.broken.file.template.message:
+    text: Por favor, corrija la plantilla "Cuerpo del método sobrescrito/implementado"
+override.implement.broken.file.template.title:
+    text: Error de plantilla de archivo
+parameter.info.no.parameters:
+    text: <sin parámetros>
+parameter.info.progress.title:
+    text: Calculando información de parámetros…
+parameter.info.switch.overload.shortcuts:
+    text: Cambiar con {0} o {1}
+parameter.info.switch.overload.shortcuts.single:
+    text: Cambiar con {0}
+popup.title.next.error.action.0.goes.through:
+    text: "La acción ''Siguiente error''{0} pasa por"
+postfix.template.description.under.construction:
+    text: En construcción
+process.optimize.imports:
+    text: Optimizar importaciones
+process.optimize.imports.before.commit:
+    text: Optimizar importaciones antes de confirmar
+process.rearrange.code:
+    text: Reorganizando código…
+process.rearrange.code.before.commit:
+    text: Reorganizar código antes de confirmar/commit
+process.reformat.code:
+    text: Reformatear código
+process.reformat.code.before.commit:
+    text: Reformatear código antes de confirmar
+process.scope.changed.files:
+    text: Procesar solo archivos con cambios no confirmados en el &VCS
+process.scope.directory:
+    text: "Directorio ''{0}''"
+process.scope.module:
+    text: "Módulo ''{0}''"
+process.scope.project:
+    text: "Proyecto ''{0}''"
+progress.reformat.and.optimize.common.command.text:
+    text: Reformatear y optimizar importaciones
+progress.reformat.stage.applying.changes:
+    text: Guardando los cambios…
+progress.reformat.stage.processing.blocks:
+    text: Calculando cambios…
+progress.reformat.stage.wrapping.blocks:
+    text: Preparando…
+progress.text.optimizing.imports:
+    text: Optimizando importaciones…
+property.has.more.parameters.than.passed:
+    text: "La propiedad ''{0}'' esperaba {1} {1, choice, 1#parámetro|2#parámetros}, se han pasado {2}"
+quick.definition.back:
+    text: Atrás
+quick.definition.edit.source:
+    text: Editar fuente
+quick.definition.forward:
+    text: Adelante
+quickfix.add.variable.family.name:
+    text: Inicializar variable
+quickfix.add.variable.text:
+    text: "Inicializar variable ''{0}''"
+quickfix.i18n.command.name:
+    text: Internacionalizar
+quickfix.i18n.concatentation:
+    text: Internacionalizar concatenación
+quickfix.i18n.concatentation.error:
+    text: No se encontró la concatenación de cadenas
+reformat.and.optimize.progress.common.text:
+    text: Preparando importaciones…
+reformat.code.accept.button.text:
+    text: Ejecutar
+reformat.directory.dialog.filters:
+    text: Filtros
+reformat.directory.dialog.options:
+    text: Opciones
+reformat.option.vcs.changed.region:
+    text: Solo cambios no confirmados en el &VCS
+reformat.progress.common.text:
+    text: Reformateando código…
+reformat.progress.file.with.known.name.text:
+    text: Reformateando {0}
+remove.annotation:
+    text: Eliminar anotación
+remove.catch:
+    text: Eliminar bloque catch
+remove.else:
+    text: "Eliminar 'else…'"
+rename.element.family:
+    text: Renombrar elemento
+rename.file.fix:
+    text: Renombrar archivo
+rename.file.reference.family:
+    text: Renombrar referencia de archivo
+rename.file.reference.text:
+    text: Renombrar la referencia del archivo a {0}
+rename.named.element.text:
+    text: "Renombrar ''{0}'' a ''{1}''"
+rename.public.class.text:
+    text: "Renombrar la clase ''{0}'' a ''{1}''"
+searching.for.implementations:
+    text: Buscando implementaciones…
+set.language.level:
+    text: Establecer nivel de lenguaje
+set.language.level.to.0:
+    text: Establecer el nivel de lenguaje en {0}
+settings.inlay.parameter.hints.exclude.list:
+    text: Lista de exclusión de sugerencias de nombres de parámetros
+static.class.initializer:
+    text: inicializador de clase {0}
+status.bar.exit.points.highlighted.message:
+    text: '{0} {0, choice, 1#punto de salida resaltado|2#puntos de salida resaltados} (presione {1} de nuevo para quitar el resaltado, Escape para quitar todos los resaltados)'
+status.bar.highlighted.usages.message:
+    text: Se han encontrado {0} {0, choice, 1#uso|2#usos} de {1} (presione {2} de nuevo para quitar el resaltado, Escape para quitar todos los resaltados)
+status.bar.highlighted.usages.no.target.message:
+    text: '{0} {0, choice, 1#uso encontrado|2#usos encontrados} (pulse {2} de nuevo para quitar el resaltado, Escape para quitar todos los resaltados)'
+status.bar.highlighted.usages.not.found.message:
+    text: No se han encontrado usos de {0}
+status.bar.highlighted.usages.not.found.no.target.message:
+    text: No se encontraron usos
+status.bar.overridden.methods.highlighted.message:
+    text: '{0} {0, choice, 1#método sobrescrito encontrado|2#métodos sobrescritos encontrados} (presione {1} de nuevo para quitar el resaltado, Escape para quitar todo el resaltado)'
+surround.with.cast.template:
+    text: ((Tipo)expr)
+surround.with.chooser.title:
+    text: Rodear con
+surround.with.not.instanceof.template:
+    text: '!(expr instanceof Tipo)'
+surround.with.parenthesis.template:
+    text: (expresión)
+surround.with.try.catch.incorrect.template.message:
+    text: Plantilla de archivo no válida para el cuerpo del catch
+template.next.variable.command:
+    text: Ir a la siguiente pestaña de plantilla de código
+template.previous.variable.command:
+    text: Ir a la pestaña de plantilla de código anterior
+template.shortcut.enter:
+    text: Intro
+template.shortcut.space:
+    text: Espacio
+templates.dialog.edit.variables.table.column.default.value:
+    text: Valor predeterminado
+templates.dialog.edit.variables.table.column.expression:
+    text: Expresión
+templates.dialog.edit.variables.table.column.name:
+    text: Nombre
+templates.dialog.edit.variables.table.column.skip.if.defined:
+    text: Omitir si está definido
+templates.dialog.edit.variables.title:
+    text: Editar variables de plantilla
+templates.dialog.shortcut.chooser.label:
+    text: Expandir por defecto con
+templates.no.defined:
+    text: No hay plantillas definidas en este contexto
+templates.select.template.chooser.title:
+    text: Seleccionar plantilla
+templates.settings.page.title:
+    text: Plantillas activas
+templates.surround.no.defined:
+    text: No hay plantillas de envoltura definidas en este contexto
+under.construction.string:
+    text: En construcción.
+unknown.encoding.0:
+    text: "Codificación desconocida: ''{0}''"
+unwrap.anonymous:
+    text: "Quitar envoltorio de 'anonymous…'"
+unwrap.braces:
+    text: Quitar llaves
+unwrap.conditional:
+    text: "Deshacer 'f ? a : b'"
+unwrap.else:
+    text: "Desempaquetar 'else…'"
+unwrap.for:
+    text: "Quitar 'for…'"
+unwrap.if:
+    text: "Desenvolver 'if…'"
+unwrap.popup.title:
+    text: Seleccione la sentencia para extraer/eliminar
+unwrap.synchronized:
+    text: "Quitar 'synchronized…'"
+unwrap.try:
+    text: "Quitar 'try…'"
+unwrap.while:
+    text: "Quitar 'while…'"
+unwrap.with.placeholder:
+    text: "Quitar envoltorio de ''{0}''"
+xml.tag.info.no.attributes:
+    text: <sin atributos>

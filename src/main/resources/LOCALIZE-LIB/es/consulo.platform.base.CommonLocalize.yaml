@@ -1,0 +1,124 @@
+action.close:
+    text: Cerrar
+action.collapse:
+    text: Contraer
+action.expand:
+    text: Expandir
+action.help:
+    text: Ayuda
+action.refresh:
+    text: Actualizar
+action.rerun:
+    text: Volver a ejecutar
+action.settings:
+    text: Abrir ajustes…
+action.settings.description:
+    text: Editar la configuración de la aplicación
+action.settings.description.mac:
+    text: Editar las preferencias de la aplicación
+action.settings.mac:
+    text: Preferencias…
+action.settings.path:
+    text: Archivo | Configuración
+action.settings.path.mac:
+    text: Ajustes
+button.add:
+    text: Añadir
+button.add.a:
+    text: '&Añadir'
+button.apply:
+    text: Aplicar
+button.back:
+    text: Atrás
+button.background:
+    text: '&Minimizar'
+button.cancel:
+    text: Cancelar
+button.close:
+    text: Cerrar
+button.continue:
+    text: Continuar
+button.copy:
+    text: Copiar…
+button.delete:
+    text: Eliminar
+button.edit:
+    text: Editar
+button.help:
+    text: Ay&uda
+button.next:
+    text: Siguiente
+button.ok:
+    text: Aceptar
+button.remove:
+    text: Elimina&r
+button.reset:
+    text: Restablecer
+button.skip:
+    text: Omitir
+button.yes:
+    text: Sí(_Y)
+button.yes.for.all:
+    text: Sí &a todo
+cannot.redo.message:
+    text: No se puede rehacer
+cannot.undo.error.contains.nonundoable.changes.message:
+    text: "<html>No se puede realizar ''{0}''<br>Los siguientes archivos contienen cambios que no se pueden deshacer:"
+cannot.undo.error.other.affected.files.changed.message:
+    text: 'Los siguientes archivos afectados por esta acción ya han sido modificados:'
+cannot.undo.message:
+    text: No se puede deshacer
+checkbox.remember.password:
+    text: '&Recordar'
+close.action.name:
+    text: Cerrar
+dialog.options.do.not.ask:
+    text: '&Recordar, no volver a preguntar'
+dialog.options.do.not.show:
+    text: No volver a mostrar este cuadro de diálogo
+exception.directory.can.not.create:
+    text: No se puede crear el directorio {0}
+exception.directory.is.invalid:
+    text: El directorio no es válido {0}
+exception.directory.is.not.readable:
+    text: El directorio no se puede leer {0}
+failed.to.make.the.following.files.writable.error.message:
+    text: 'No se pudieron marcar los siguientes archivos como editables: {0}'
+name.label.text:
+    text: 'No&mbre:'
+safe.write.backup:
+    text: |-
+        No se puede guardar {0}.
+        No se pudo crear un archivo de copia de seguridad ({1}).
+        El archivo permanece sin cambios.
+safe.write.junk:
+    text: |-
+        No se puede guardar {0}.
+        No se pueden escribir datos.
+        El archivo puede estar dañado.
+safe.write.junk.backup:
+    text: |-
+        No se puede guardar {0}.
+        No se pueden escribir los datos.
+        El archivo podría estar dañado; se ha creado una copia de seguridad en {1}.
+safe.write.open:
+    text: |-
+        No se puede guardar {0}.
+        No se puede abrir el archivo para escritura.
+safe.write.restored:
+    text: |-
+        No se puede guardar {0}.
+        No se pudieron escribir los datos.
+        El contenido original se restauró desde la copia de seguridad.
+title.settings:
+    text: Configuración
+title.settings.mac:
+    text: Preferencias
+title.warning:
+    text: Advertencia
+tree.node.loading:
+    text: Cargando…
+undo.dialog.title:
+    text: Deshacer
+vfs.broken.link:
+    text: Enlace roto

@@ -1,0 +1,245 @@
+access.is.denied.error.message:
+    text: 拒絕存取。
+action.close:
+    text: 關閉
+action.collapse:
+    text: 摺疊
+action.expand:
+    text: 展開
+action.help:
+    text: 說明
+action.refresh:
+    text: 更新
+action.rerun:
+    text: 重試
+action.settings:
+    text: 設定...
+action.settings.description:
+    text: 編輯應用程式設定
+action.settings.description.mac:
+    text: 編輯應用程式首選項
+action.settings.mac:
+    text: 首選項...
+action.settings.path:
+    text: 檔案 | 設定
+action.settings.path.mac:
+    text: 首選項
+an.attempt.was.made.to.load.a.program.with.an.incorrect.format.error.message:
+    text: 試圖載入格式不正確的程式。
+button.add:
+    text: 新增
+button.add.a:
+    text: 新增
+button.apply:
+    text: 套用
+button.back:
+    text: 後退
+button.background:
+    text: 後台執行
+button.cancel:
+    text: 取消
+button.close:
+    text: 關閉
+button.continue:
+    text: 繼續
+button.copy:
+    text: 複製...
+button.delete:
+    text: 刪除
+button.edit:
+    text: 編輯
+button.help:
+    text: 說明
+button.load.file:
+    text: 載入檔案
+button.next:
+    text: 下一個
+button.no:
+    text: 否
+button.no.for.all:
+    text: 全否 (&O)
+button.ok:
+    text: 確定
+button.remove:
+    text: 刪除(&R)
+button.remove.r:
+    text: 刪除
+button.reset:
+    text: 重設
+button.retry:
+    text: 重試
+button.skip:
+    text: 跳過
+button.yes:
+    text: 是
+button.yes.for.all:
+    text: 全是 (&A)
+cannot.redo.dialog.title:
+    text: 不能重做
+cannot.redo.message:
+    text: 不能重做
+cannot.undo.dialog.title:
+    text: 不能還原
+cannot.undo.error.contains.nonundoable.changes.message:
+    text: '以下檔案具有不能還原的變更:'
+cannot.undo.error.other.affected.files.changed.message:
+    text: '已變更此操作影響的下列檔案:'
+cannot.undo.message:
+    text: 不能還原
+checkbox.remember.password:
+    text: 記住(&R)
+close.action.name:
+    text: 關閉
+comparison.policy.default.name:
+    text: 預設值
+comparison.policy.ignore.spaces.name:
+    text: 忽略空格
+comparison.policy.trim.space.name:
+    text: 刪除空格
+data.error.cyclic.redundancy.check.error.message:
+    text: 資料錯誤（循環備援檢查）。
+dialog.ioexception.proxy:
+    text: 設定 HTTP 代理伺服器設定
+dialog.ioexception.tryagain:
+    text: 再試一次
+dialog.options.do.not.ask:
+    text: 請記住，不要再問(&R)
+dialog.options.do.not.show:
+    text: 以後不顯示此對話方塊
+dialog.title.choose.date:
+    text: 選取日期
+drop.undo.history.command.name:
+    text: 樣本
+editbox.login:
+    text: '登入:'
+editbox.password:
+    text: '密碼:'
+error.reading.color.scheme.from.file.error.message:
+    text: 錯誤閱讀配色專案 {0}
+exception.directory.can.not.create:
+    text: 不能建立目錄 {0}
+exception.directory.is.invalid:
+    text: 目錄是無效的 {0}
+exception.directory.is.not.readable:
+    text: 目錄是不可讀的 {0}
+failed.to.make.file.writeable.error.message:
+    text: 設定 {0} 為可寫入失敗
+failed.to.make.the.following.files.writable.error.message:
+    text: 設定以下檔案為可寫入失敗:{0}
+incorrect.function.error.message:
+    text: 不正確的函數
+local.vcs.action.name.redo.command:
+    text: 重做{0}
+local.vcs.action.name.undo.command:
+    text: 還原{0}
+name.label.text:
+    text: '名稱:'
+not.enough.storage.is.available.to.complete.this.operation.error.message:
+    text: 存儲空間不足，無法處理此操作。
+not.enough.storage.is.available.to.process.this.command.error.message:
+    text: 存儲空間不足，無法處理此命令。
+redo.command.confirmation.text:
+    text: 重做{0}
+redo.confirmation.title:
+    text: 重做
+safe.write.backup:
+    text: |-
+        無法儲存 {0}。
+        無法創建備份檔案 ({1})。
+        該檔案將保持不變。
+safe.write.drop.temp:
+    text: 不能刪除臨時檔案 {0}.
+safe.write.failed:
+    text: |-
+        不能儲存 {0}.
+        無法建立一個臨時檔案 ({1}).
+        檔案沒有改變.
+safe.write.junk:
+    text: |-
+        無法儲存 {0}。
+        無法寫入資料。
+        該檔案可能已損壞。
+safe.write.junk.backup:
+    text: |-
+        無法儲存 {0}。
+        無法寫入資料。
+        該檔案可能已損壞；已在 {1} 中創建備份。
+safe.write.open:
+    text: |-
+        無法儲存 {0}。
+        無法開啟檔案進行寫入。
+safe.write.rename.backup:
+    text: |-
+        不能儲存 {0}.
+        檔案被重新命名 {1}.
+        您的變更被寫入 {2}.
+safe.write.rename.original:
+    text: |-
+        不能儲存 {0}.
+        檔案不變.
+        您的變更被寫入 {1}.
+safe.write.restored:
+    text: |-
+        無法儲存 {0}。
+        無法寫入資料。
+        已從備份還原原始內容。
+smth.already.exist.error.message:
+    text: "{0}的名稱 ''{1}'' 已存在"
+the.access.code.is.invalid.error.message:
+    text: 存取代碼是無效的。
+the.data.is.invalid.error.message:
+    text: 資料無效。
+the.device.does.not.recognize.the.command.error.message:
+    text: 該設備無法辨識的命令。
+the.device.is.not.ready.error.message:
+    text: 設備未就緒。
+the.directory.cannot.be.removed.error.message:
+    text: 該目錄不能被刪除。
+the.drive.cannot.find.the.sector.requested.error.message:
+    text: 磁碟機無法找到需要的扇區。
+the.drive.cannot.locate.a.specific.area.or.track.on.the.disk.error.message:
+    text: 該磁碟機無法在磁盤上找到特定扇區或磁道。
+the.environment.is.incorrect.error.message:
+    text: 環境不正確。
+the.handle.is.invalid.error.message:
+    text: 該句柄無效。
+the.media.is.write.protected.error.message:
+    text: 媒體被寫保護。
+the.program.issued.a.command.but.the.command.length.is.incorrect.error.message:
+    text: 程式發出命令，但命令長度不正確。
+the.specified.disk.or.diskette.cannot.be.accessed.error.message:
+    text: 指定的磁盤或軟盤不能被存取。
+the.storage.control.block.address.is.invalid.error.message:
+    text: 存儲控制區塊位址無效。
+the.storage.control.blocks.were.destroyed.error.message:
+    text: 存儲控制區塊被毀壞了。
+the.system.cannot.find.the.device.specified.error.message:
+    text: 系統找不到指定的裝置。
+the.system.cannot.find.the.drive.specified.error.message:
+    text: 系統找不到指定的磁盤磁碟機。
+the.system.cannot.find.the.file.specified.error.message:
+    text: 系統找不到指定的檔案
+the.system.cannot.find.the.path.specified.error.message:
+    text: 系統找不到指定的路徑
+the.system.cannot.move.the.file.to.a.different.disk.drive.error.message:
+    text: 檔案系統無法移動到一個不同的磁盤磁碟機。
+the.system.cannot.open.the.file.error.message:
+    text: 系統無法開啟檔案
+there.are.no.more.files.error.message:
+    text: 沒有更多的檔案。
+title.error:
+    text: 錯誤
+title.settings:
+    text: 設定
+title.settings.mac:
+    text: 首選項
+title.warning:
+    text: 警告
+tree.node.loading:
+    text: 正在載入...
+undo.command.confirmation.text:
+    text: 還原{0}
+undo.dialog.title:
+    text: 還原
+vfs.broken.link:
+    text: 無效連結

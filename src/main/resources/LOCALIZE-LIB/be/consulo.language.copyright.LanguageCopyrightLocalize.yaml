@@ -1,0 +1,168 @@
+action.DumbAware.CopyrightProfilesPanel.description.copy:
+    text: Капіраваць
+action.DumbAware.CopyrightProfilesPanel.description.import:
+    text: Імпартаваць
+action.DumbAware.CopyrightProfilesPanel.text.copy:
+    text: Капіраваць
+action.DumbAware.CopyrightProfilesPanel.text.import:
+    text: Імпартаваць
+action.GenerateCopyright.description:
+    text: Стварыць/абнавіць паведамленне аб аўтарскіх правах.
+action.GenerateCopyright.text:
+    text: Аўтарскія правы
+action.add.profile.text:
+    text: Дадаць профіль
+action.local.text:
+    text: Локальный
+action.shared.text:
+    text: Агульны
+action.stored.in.ide.description:
+    text: Захоўваецца ў IDE
+action.stored.in.project.description:
+    text: Захоўваецца ў праекце
+before.checkin.update.copyright:
+    text: Абнавіць аўтарскія правы
+button.validate:
+    text: Праверыць
+checkbox.text.update.existing.copyrights:
+    text: Абнавіць існуючыя аўтарскія правы
+checkbox.update.copyright.notice:
+    text: Абнавіць паведамленне аб аўтарскіх правах
+command.name.update.copyright:
+    text: Абнавіць аўтарскія правы
+configurable.CopyrightFormattingConfigurable.display.name:
+    text: Фарматаванне
+configurable.CopyrightProfilesPanel.display.name:
+    text: Профілі аўтарскіх правоў
+configurable.CopyrightProjectConfigurable.display.name:
+    text: Аўтарскія правы
+copy.copyright.profile:
+    text: Капіраваць профіль аўтарскіх правоў
+copyright.copyright.column:
+    text: Аўтарскія правы
+copyright.default.project.copyright:
+    text: 'Аўтарскія правы праекта па змаўчанні [&P]:'
+copyright.file.chooser.label:
+    text: XML|IML файлы
+copyright.file.chooser.title:
+    text: Выберыце файл з паведамленнем аб аўтарскіх правах
+copyright.local.description:
+    text: Локальный
+copyright.no.text:
+    text: Няма аўтарскіх правоў
+copyright.profiles.add.profile:
+    text: Дадаць профіль
+copyright.profiles.empty:
+    text: Профілі аўтарскіх правоў не дададзены.
+copyright.profiles.select.profile:
+    text: Выберыце профіль для прагляду або рэдагавання яго параметраў
+copyright.scope.column:
+    text: Вобласць дзеяння
+copyright.select.scopes.label:
+    text: Выберыце "Вобласць дзеяння" для дадання новых або змены існуючых абласцей
+copyright.shared.description:
+    text: Агульны
+create.copyright.profile:
+    text: Стварыць профіль аўтарскіх правоў
+detect.copyright.regexp.is.incorrect.configuration.error:
+    text: 'Некарэктны рэгулярны выраз для выяўлення аўтарскіх правоў:'
+dialog.message.duplicate.copyright.profile.name:
+    text: "Дублюючае імя профілю аўтарскіх правоў: ''{0}''"
+dialog.message.new.copyright.profile.name:
+    text: 'Імя новага профілю аўтарскіх правоў:'
+dialog.message.no.copyright.configured:
+    text: Для бягучага файла не настроены аўтарскія правы. Хочаце змяніць налады?
+dialog.message.the.copyright.settings.imported:
+    text: Налады аўтарскіх правоў паспяхова імпартаваны.
+dialog.message.the.selected.file.copyright.settings:
+    text: Выбраны файл не змяшчае налад аўтарскіх правоў.
+dialog.message.velocity.template.contains.error.0:
+    text: |-
+        Шаблон Velocity змяшчае памылку:
+        {0}
+dialog.message.velocity.template.is.valid:
+    text: Шаблон Velocity корректен.
+dialog.title.import.complete:
+    text: Імпарт завершаны
+dialog.title.import.failure:
+    text: Памылка імпарту
+dialog.title.no.copyright.available:
+    text: Няма даступных аўтарскіх правоў
+dialog.title.validation:
+    text: Проверка
+import.copyright.profile:
+    text: Імпарт профілю аўтарскіх правоў
+label.allow.replacing.copyright.if.old.copyright.matches:
+    text: 'Дазволіць замену аўтарскіх правоў, калі старыя правы супадаюць:'
+label.copyright.text.may.contain.velocity.templates:
+    text: 'Тэкст аўтарскіх правоў (можа змяшчаць шаблоны Velocity):'
+label.no.copyright.configured:
+    text: Аўтарскія правы не настроены
+label.regexp.to.detect.copyright.in.comments:
+    text: 'Рэгулярны выраз для выяўлення аўтарскіх правоў у каментарах:'
+label.updates.existing.copyrights.e.g.changes.year.or.updated.notice:
+    text: Абнаўляе тэкст аўтарскіх правоў, год і іншыя ўласцівасці
+link.label.configure.copyright.settings:
+    text: Наладзіць…
+popup.title.choose.profile.to.import:
+    text: Выберыце профіль для імпарту
+radio.location.in.file.before.class:
+    text: Перед классом
+radio.location.in.file.before.doctype:
+    text: Перед doctype
+radio.location.in.file.before.imports:
+    text: Перад імпартамі
+radio.location.in.file.before.package:
+    text: Перед пакетом
+radio.location.in.file.before.root.tag:
+    text: Перед корневым тегом
+replace.copyright.regexp.is.incorrect.configuration.error:
+    text: 'Некарэктны рэгулярны выраз для замены аўтарскіх правоў:'
+settings.copyright.formatting.add.blank.line.after:
+    text: Дадаць пусты радок пасля [&D]
+settings.copyright.formatting.add.blank.line.before:
+    text: Дадаць пусты радок перад [&B]
+settings.copyright.formatting.after.other.comments:
+    text: Пасля іншых каментараў [&R]
+settings.copyright.formatting.before.other.comments:
+    text: Перад іншымі каментарамі [&O]
+settings.copyright.formatting.borders:
+    text: Межы
+settings.copyright.formatting.box:
+    text: Рамка
+settings.copyright.formatting.comment.type:
+    text: Тып каментара
+settings.copyright.formatting.length:
+    text: 'Даўжыня:'
+settings.copyright.formatting.location.in.file:
+    text: Размяшчэнне ў файле
+settings.copyright.formatting.no.copyright:
+    text: Няма аўтарскіх правоў
+settings.copyright.formatting.prefix.each.line:
+    text: Дадаць прэфікс да кожнага радка
+settings.copyright.formatting.relative.location:
+    text: Адноснае размяшчэнне
+settings.copyright.formatting.separator:
+    text: 'Падзельнік:'
+settings.copyright.formatting.separator.after:
+    text: Падзельнік пасля
+settings.copyright.formatting.separator.before:
+    text: Падзельнік перад
+settings.copyright.formatting.use.block.comment:
+    text: Выкарыстоўваць блочны каментар
+settings.copyright.formatting.use.custom.formatting.options:
+    text: Выкарыстоўваць карыстальніцкія параметры фарматавання
+settings.copyright.formatting.use.default.settings:
+    text: Выкарыстоўваць налады па змаўчанні
+settings.copyright.formatting.use.line.comment:
+    text: Выкарыстоўваць аднарадковы каментар
+share.profile.checkbox.title:
+    text: Падзяліцца праз СКВ
+share.profile.context.help:
+    text: <html>Агульныя профілі захоўваюцца ў дырэкторыі <code>.idea</code><br>і даступны іншым членам каманды праз СКВ.<br><br>Калі профілі не агульныя, яны захоўваюцца<br>на ўзроўні IDE і прымяняюцца да ўсіх праектаў.</html>
+task.title.prepare.copyright:
+    text: Падрыхтоўка аўтарскіх правоў…
+update.copyright.progress.title:
+    text: Абнаўленне аўтарскіх правоў
+updating.copyrights.progress.message:
+    text: Абнаўленне аўтарскіх правоў…

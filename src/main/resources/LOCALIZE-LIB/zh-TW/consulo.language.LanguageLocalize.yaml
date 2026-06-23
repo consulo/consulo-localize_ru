@@ -1,0 +1,303 @@
+0.expected:
+    text: '{0}是預期的'
+PerFileConfigurableBase.empty.text:
+    text: 新映射 $addShortcut
+PerFileConfigurableBase.label.project:
+    text: 專案
+PerFileConfigurableBase.mapping.title:
+    text: 映射
+PerFileConfigurableBase.null.text:
+    text: <無>
+PerFileConfigurableBase.project.mapping:
+    text: 專案 {0}
+PerFileConfigurableBase.target.title:
+    text: 路徑
+action.set.system.default.encoding.text:
+    text: <系統預設值>
+anonymous.class.context.display:
+    text: 匿名在{0}
+anonymous.class.derived.display:
+    text: 匿名類別派生從{0}
+anonymous.class.display:
+    text: 匿名類別
+button.do.not.override:
+    text: 不覆寫
+button.override:
+    text: 覆寫
+cannot.delete.a.read.only.file:
+    text: "無法刪除唯讀檔案 ''{0}''."
+cannot.modify.a.read.only.directory:
+    text: "無法修改唯讀目錄 ''{0}''."
+cannot.modify.a.read.only.file:
+    text: "無法修改唯讀檔案 ''{0}''."
+cannot.resolve.symbol:
+    text: "不能解決符號 ''{0}''"
+code.display:
+    text: 代碼
+code.from.context.display:
+    text: 代碼源自 {0}
+codestyle.cannot.save.scheme.file:
+    text: 不能儲存代碼風格專案{0}.{1}
+codestyle.cannot.save.settings.directory.cant.be.created.message:
+    text: 不能儲存代碼風格專案， 目錄 {0} 未能建立。
+codestyle.cannot.save.settings.directory.cant.be.created.title:
+    text: 無法儲存設定
+color.name:
+    text: 顏色名稱:\&nbsp; {0}
+color.preview:
+    text: '<table cellpadding=0 cellspacing=0 border=0><tr><td>顏色預覽:\&nbsp;</td><td style="background-color: #000000; padding: 1px">{0}</td></tr></table>'
+color.rgb:
+    text: 顏色 RGB:\&nbsp; {0}
+command.name.change.language:
+    text: 更改語言
+command.name.navigate:
+    text: 導航
+completion.dot.etc.ad:
+    text: 點,分號和一些鍵也會關閉這個搜尋,並插入到編輯器中
+completion.no.suggestions:
+    text: 沒有建議
+completion.quick.implementations.ad:
+    text: 你是否知道快速定義檢視({0})在自動完成和搜尋裡也有?
+completion.quick.javadoc.ad:
+    text: 你是否知道快速文件檢視({0})在自動完成和搜尋裡也有?
+completion.smart.enter.ad:
+    text: 在輸入代碼後,使用{0}讓代碼語法正確(如閉合括號等.)
+compound.run.configuration.cycle:
+    text: "{0} ''{1}'' 導致依賴循環和不能新增"
+default.path.evaluator.option:
+    text: 告訴基準提供程式,如何評估給定檔案的預設路徑
+default.visibility.presentation:
+    text: 預設的
+dialog.message.duplicate.live.templates.in.group:
+    text: '{1} 組中存在重複的 `{0}` 活動模板'
+dialog.message.live.template.with.empty.abbreviation:
+    text: "在 ''{0}'' 組中找到了帶有空縮寫的活動模板，不允許使用此類活動模板"
+dialog.message.live.template.with.empty.text:
+    text: "在 ''{1}'' 組中找到了帶有空文本的活動模板 ''{0}''，此類活動模板沒有意義"
+dialog.message.template.with.name.already.exists:
+    text: "名稱為 ''{0}'' 的模板已存在。請指定其他模板名稱"
+dialog.message.valid.identifier:
+    text: "''{0}'' 不是有效的關鍵字"
+dialog.template.data.language.caption:
+    text: <html><body>  範本語言是方塊架或範本檔案的基本語言.<br>  (為檔案/目錄/項目)改變範本語言的設定{0}.   選取一項,然後選取範本語言.<br><br>  說明:<br>  如果沒指定,將繼承目前檔案的範本語言.<br></body></html>
+el.cannot.resolve.function:
+    text: "不能解決函數 ''{0}'' #loc"
+el.cannot.resolve.method:
+    text: "不能解決方法 ''{0}''() #loc"
+el.cannot.resolve.namespace:
+    text: "不能解決命名空間 ''{0}'' #loc"
+el.cannot.resolve.property:
+    text: "能解決屬性或方法''{0}''(動態屬性嗎?) #loc"
+el.cannot.resolve.variable:
+    text: "不能解決變數 ''{0}'' #loc"
+el.colon.expected:
+    text: "':'是預期的"
+el.declare.variable.find.acceptable.class:
+    text: 找到可接受的類別
+el.declare.variable.intention.family:
+    text: 宣告變數作為外部資料
+el.declare.variable.via.comment.annotation.intention.name:
+    text: 宣告外部變數在註解
+el.declare.variable.via.usebean.intention.name:
+    text: 宣告外部變數作為<jsp:useBean />
+el.expression.expected:
+    text: 運算式是預期的
+el.identifier.expected:
+    text: 標識符是預期的
+el.lparen.expected:
+    text: ( 是預期的
+el.mismatched.parameters.count:
+    text: 不同數量的正式和實際參數
+el.rbracket.expected:
+    text: '] 是預期的'
+el.rparen.expected:
+    text: ) 是預期的
+el.unexpected.end.of.file:
+    text: 意外的檔案結尾
+el.value.expected:
+    text: 值是預期的
+enum.constant.context:
+    text: "枚舉常數 ''{0}'' 在 ''{1}''"
+hint.text.can.t.modify.decompiled.code:
+    text: 無法修改反編譯程式碼
+hint.text.couldn.t.find.surround:
+    text: 無法找到適用於當前上下文的“環繞方式”變體
+incorrect.name:
+    text: 不正確的名稱
+indent.option.detected:
+    text: 已檢測
+indent.status.bar.indent.tooltip:
+    text: '縮排:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0} 個空格|2#{0} 個空格}'
+indent.status.bar.tab:
+    text: 制表符
+invalid.regular.expression.message:
+    text: 無效的規則運算式{0}
+java.terms.annotation.interface:
+    text: '@介面'
+java.terms.anonymous.class:
+    text: 匿名類別
+java.terms.class:
+    text: 類別
+java.terms.constructor:
+    text: 構造函數
+java.terms.enum:
+    text: 枚舉
+java.terms.exception:
+    text: 異常
+java.terms.expression:
+    text: 運算式
+java.terms.field:
+    text: 域
+java.terms.instance.initializer:
+    text: 實例初始化
+java.terms.interface:
+    text: 介面
+java.terms.label:
+    text: 標籤
+java.terms.method:
+    text: 方法
+java.terms.of.annotation.type:
+    text: '{0}的註解類型{1}'
+java.terms.of.anonymous.class:
+    text: '{0}的匿名類別'
+java.terms.of.class:
+    text: '{0}的類別{1}'
+java.terms.of.enum:
+    text: '{0}的列舉{1}'
+java.terms.of.interface:
+    text: '{0}的介面{1}'
+java.terms.package:
+    text: 包
+java.terms.parameter:
+    text: 參數
+java.terms.static.initializer:
+    text: 靜態初始值設定
+java.terms.type.parameter:
+    text: 類型參數
+java.terms.variable:
+    text: 變數
+java.terms.variable.of.method:
+    text: '{1}的{0}'
+jsf.el.out.of.attribute:
+    text: 'JSF EL在屬性外 #loc'
+jsf.method.call.is.nonstd.extension:
+    text: '方法呼叫是標準擴充 #loc'
+jsp.documentation.message.can.have.runtime.value:
+    text: '可以執行時的值: {0}'
+jsp.documentation.message.custom.attribute.name:
+    text: 自訂屬性名稱
+jsp.documentation.message.custom.function.name:
+    text: 自訂函數名稱
+jsp.documentation.message.custom.tag.name:
+    text: 自訂標籤名稱
+jsp.documentation.message.description:
+    text: 描述:\&nbsp;{0}
+jsp.documentation.message.example.of.use:
+    text: 舉例\&nbsp;of\&nbsp;use:<br><pre>{0}</pre>
+jsp.documentation.message.fragment:
+    text: 碎片:\&nbsp;{0}
+jsp.documentation.message.required:
+    text: 必需的:\&nbsp;{0}
+jsp.documentation.message.type:
+    text: 類型:\&nbsp;{0}
+jsp.taglib.method.reference.error.class.is.not.public:
+    text: 類別不是公開的
+jsp.taglib.method.reference.error.class.is.not.valid:
+    text: 類別是無效的
+jsp.taglib.method.reference.error.different.return.type:
+    text: 不同的返回類型
+jsp.taglib.method.reference.error.method.should.be.public.or.static:
+    text: 方法應該是公開的或靜態的
+jsp.taglib.method.reference.error.no.such.method:
+    text: 沒有該方法
+jsp.taglib.method.reference.error.signature.is.different:
+    text: 簽名是不同的
+local.class.preposition:
+    text: 本機
+native.visibility.presentation:
+    text: 本機的
+package.component.installing.suffix:
+    text: (正在安裝)
+popup.title.copy:
+    text: 複製
+psi.decompiled.text.header:
+    text: |-
+        // 用於 Scala 語言的 IntelliJ API 反編譯器
+        // 根據類檔案生成的存根源
+        // 功能實作不可用
+psi.scanning.files.progress:
+    text: 掃瞄檔案中...
+psi.search.in.non.java.files.progress:
+    text: 分析代碼無關的用法...
+psi.search.inheritors.of.class.progress:
+    text: 尋找{0}的繼承者...
+psi.search.inheritors.progress:
+    text: 尋找繼承者...
+psi.search.scope.intersection:
+    text: '{0}和{1}的交叉點'
+psi.search.scope.libraries:
+    text: 庫
+psi.search.scope.production.files:
+    text: 項目成品檔案
+psi.search.scope.project:
+    text: 項目檔案
+psi.search.scope.project.and.libraries:
+    text: 項目和庫
+psi.search.scope.test.files:
+    text: 項目測試檔案
+psi.search.scope.union:
+    text: '{0}和{1}的接合'
+qualified.resolve.class.reference.provider.option:
+    text: 告訴基準提供程式,過程只有合格類別參照(如:不解決字串作為java.lang.String)
+quickfix.change.template.data.language.text:
+    text: 變更{0}範本資料的語言...
+search.scope.module:
+    text: "模組 ''{0}''"
+search.scope.module.runtime:
+    text: "模組 ''{0}'' 執行時範圍"
+status.bar.text.reference.has.been.copied:
+    text: '{0} 已複製'
+strictfp.visibility.presentation:
+    text: 嚴格的
+synchronized.visibility.presentation:
+    text: 同步的
+tab.title.build.output:
+    text: 建置輸出
+tab.title.more:
+    text: '{0} 和其他 {1} 個'
+template.data.language.configurable:
+    text: 範本資料語言
+template.data.language.configurable.tree.table.title:
+    text: 語言
+template.data.language.override.warning.text:
+    text: 在子目錄中有指定語言的範本資料，確定要覆寫嗎？
+template.data.language.override.warning.title:
+    text: 覆寫子目錄的範本資料語言
+terms.directory:
+    text: 目錄
+terms.file:
+    text: 檔案
+terms.property:
+    text: 特性
+transient.visibility.presentation:
+    text: 短暫的
+unexpected.eof:
+    text: 意外檔案結尾
+unexpected.token:
+    text: 異常標記
+volatile.visibility.presentation:
+    text: 不穩定的
+xml.terms.attribute:
+    text: 屬性
+xml.terms.attribute.value:
+    text: 屬性值
+xml.terms.entity:
+    text: 實體
+xml.terms.tag:
+    text: 標籤
+xml.terms.variable:
+    text: 變數
+xml.terms.xml.tag:
+    text: XML標籤

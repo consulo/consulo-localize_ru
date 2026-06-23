@@ -1,0 +1,204 @@
+action.expand.static.import.text:
+    text: 展開靜態匯入
+add.property:
+    text: 添加 @property
+annotation.types.cannot.be.inlined:
+    text: 註解類型無法內聯
+cannot.perform.the.refactoring:
+    text: 不能執行重構。
+choose.destination.package.label:
+    text: 選擇目標軟體套件
+class.cannot.be.inlined.because.a.call.to.its.constructor.is.unresolved:
+    text: 無法內聯類，因為其構造函數的調用未解析
+class.cannot.be.inlined.because.an.interface.implemented.by.it.cannot.be.resolved:
+    text: 無法內聯類，因為無法解析其實作的一個接口
+class.cannot.be.inlined.because.it.has.static.fields.with.non.constant.initializers:
+    text: 無法內聯類，因為其具有帶非常數初始設定式的 static 欄位
+class.cannot.be.inlined.because.it.has.static.initializers:
+    text: 無法內聯類，因為其具有 static 初始設定式
+class.cannot.be.inlined.because.it.has.static.inner.classes:
+    text: 無法內聯類，因為其具有 static 內部類
+class.cannot.be.inlined.because.it.has.static.methods:
+    text: 無法內聯類，因為其具有 static 方法
+class.cannot.be.inlined.because.it.has.static.non.final.fields:
+    text: 無法內聯類，因為其具有 static 非 final 欄位
+class.cannot.be.inlined.because.it.has.usages.of.fields.not.inherited.from.its.superclass:
+    text: 無法內聯類，因為其具有未從自身超類繼承的欄位的用法
+class.cannot.be.inlined.because.it.has.usages.of.its.class.literal:
+    text: 無法內聯類，因為其具有自身類文字的用法
+class.cannot.be.inlined.because.it.has.usages.of.its.inner.classes:
+    text: 無法內聯類，因為其具有自身內部類的用法
+class.cannot.be.inlined.because.it.is.used.as.a.this.qualifier:
+    text: "無法內聯類，因為其用作 'this' 限定符"
+class.cannot.be.inlined.because.it.is.used.in.a.catch.clause:
+    text: "無法內聯類，因為其用於 'catch' 子句"
+class.cannot.be.inlined.because.it.is.used.in.a.throws.clause:
+    text: "無法內聯類，因為其用於 'throws' 子句"
+class.cannot.be.inlined.because.its.constructor.contains.return.statements:
+    text: "無法內聯類，因為其構造函數包含 'return' 語句"
+class.cannot.be.inlined.because.its.superclass.cannot.be.resolved:
+    text: 無法內聯類，因為無法解析其超類
+class.cannot.be.inlined.because.there.are.usages.of.its.methods.not.inherited.from.its.superclass.or.interface:
+    text: 無法內聯類，因為其方法的部分用法並非繼承自其超類或接口
+constructor.returns.can.not.be.wrapped:
+    text: 無法包裝構造函數返回值。
+could.not.find.selected.wrapping.class:
+    text: 找不到所選包裝類
+declare.generated.annotations:
+    text: 產生註解(&G)
+declare.static.pass.fields.checkbox:
+    text: 宣告 &static (通過域作為參數)
+dialog.message.nothing.found.to.extract:
+    text: 未找到要提取的內容
+enums.cannot.be.inlined:
+    text: 枚舉無法內聯
+exposed.delegation.command.name:
+    text: 已將委託公開給 {0}
+extract.class.depends.on.0.from.1.tooltip:
+    text: 依賴 {1} 的 {0}
+extract.class.depends.on.0.from.new.class:
+    text: 依賴新類 {1} 的 {0}
+extract.class.from.label:
+    text: 從{0}提取委託
+extract.class.title:
+    text: 提取委託
+extract.delegate.as.enum.checkbox:
+    text: 提取為枚舉
+extract.delegate.create.nested.checkbox:
+    text: 創建嵌套類
+extract.delegate.generate.accessors.checkbox:
+    text: 生成存取器
+extract.delegate.unable.create.warning.message:
+    text: 無法創建包含給定名稱的類
+extracted.class.command.name:
+    text: 已提取類 {0}
+extracted.class.should.have.unique.name:
+    text: "已提取類應具有唯一名稱。已有一個內部類使用名稱 ''{0}''"
+extracting.from.class:
+    text: '正在從類提取:'
+field.selected.is.not.used.as.a.delegate:
+    text: 所選欄位不用作委託。
+inline.anonymous.conflict.progress:
+    text: 正在搜尋類 "{0}" 繼承者…
+inline.conflicts.progress:
+    text: 檢查是否可以內聯…
+inline.constant.field.not.supported.for.enum.constants:
+    text: 枚舉常數不支持 {0}
+inline.field.used.in.javadoc:
+    text: 已內聯欄位用於 javadoc
+inline.field.used.in.reflection:
+    text: 已內聯欄位以反射形式使用
+inline.local.unable.try.catch.warning.message:
+    text: 無法在 try/catch 語句外內聯
+inline.local.variable.declared.outside.cannot.refactor.message:
+    text: 變數在程式碼塊外宣告
+inline.method.multiline.method.in.ctor.call:
+    text: 內聯不能在構造函數調用中應用於多行方法
+inline.method.qualifier.usage.side.effect:
+    text: 已內聯方法用於方法引用，限定符具有副作用
+inline.method.used.in.javadoc:
+    text: 已內聯方法用於 javadoc
+inline.method.used.in.reflection:
+    text: 已內聯方法以反射形式使用
+inline.parameter.cannot.find.initializer.warning.message:
+    text: 無法為參數找到常數初始設定式
+inline.parameter.no.usages.warning.message:
+    text: 方法沒有用法
+inline.parameter.not.accessible.warning.message:
+    text: 在方法體內無法存取常數初始設定式
+inline.super.class:
+    text: 內聯超類
+inline.super.class.action.name:
+    text: 內聯超類…
+inline.super.class.label:
+    text: 類{0}
+inline.super.no.anonymous.class:
+    text: 無法內聯到匿名類中。
+inline.super.no.inner.class:
+    text: "無法內聯到內部類中。將 ''{0}'' 移動到上一級別"
+inline.super.non.project.class.warning.message:
+    text: 無法內聯非專案類
+interfaces.cannot.be.inlined:
+    text: 接口無法內聯
+introduce.parameter.object:
+    text: 引入參數物件
+introduce.type.parameter:
+    text: 引入類型參數
+invalid.extracted.class.name:
+    text: "''{0}'' 是無效的已提取類名"
+library.classes.cannot.be.inlined:
+    text: 庫類無法內聯
+members.to.extract.label:
+    text: 要提取的成員(&B)
+method.selected.has.no.parameters:
+    text: 選定方法沒有參數。
+method.selected.returns.void:
+    text: "所選方法返回 'void'。"
+method.to.wrap.returns.from.label:
+    text: '從中包裝返回值的方法:'
+method.whose.return.are.to.wrapped:
+    text: 要包裝其返回值的方法
+name.for.new.class.label:
+    text: '新類的名稱(&N):'
+package.for.new.class.label:
+    text: '軟體套件名稱(&P):'
+parameter:
+    text: 參數
+preview:
+    text: 預覽
+refactor:
+    text: 重構
+reference:
+    text: 引用
+references.to.be.modified.usage.view:
+    text: 要修改的引用{0, choice, 0#(找不到)|1#{0} 個引用|2#{0} 個引用}{1, choice, 0#|1#位於 {1} 個檔案中|2#位於 {1} 個檔案中}
+references.to.expose.usage.view:
+    text: 要顯示的引用{0, choice, 0#(找不到)|1#{0} 個引用|2#{0} 個引用}{1, choice, 0#|1#位於 {1} 個檔案中|2#位於 {1} 個檔案中}
+references.to.extract:
+    text: 要提取的引用( {0, choice, 0#(找不到)|1#{0} 個引用|2#{0} 個引用}{1, choice, 0#|1#位於 {1} 個檔案中|2#位於 {1} 個檔案中})
+remove.middleman:
+    text: 移除中間人
+remove.middleman.column.header:
+    text: 刪除
+remove.middleman.deleted.hierarchy.conflict:
+    text: '{0} 將被刪除。層次結構將被破壞'
+remove.middleman.field.header:
+    text: '移除中間人欄位:'
+remove.middleman.methods.to.inline.title:
+    text: 要內聯的方法(&M)
+remove.middleman.title:
+    text: 移除中間人
+remove.middleman.tooltip.warning:
+    text: 刪除將破壞類型層次結構
+rename.overloads:
+    text: 重新命名 &overloads
+select.wrapper.class:
+    text: 選擇參數類
+the.caret.should.be.positioned.at.the.name.of.the.field.to.be.refactored:
+    text: 文字游標應置於要重構的欄位的名稱處。
+the.caret.should.be.positioned.within.a.class.to.be.refactored:
+    text: 文字游標應置於要重構的類內。
+the.refactoring.is.not.supported.on.non.static.inner.classes:
+    text: 非 static 內部類上不支持重構。
+the.selected.class.has.no.members.to.extract:
+    text: 選定類沒有要提取的成員。
+the.selected.class.is.an.annotation.type:
+    text: 選定類是註解類型。
+the.selected.class.is.an.enumeration:
+    text: 選定類是枚舉。
+the.selected.class.is.an.interface:
+    text: 選定類是接口。
+the.selected.method.cannot.be.wrapped.because.it.is.defined.in.a.non.project.class:
+    text: 不能包裝選定方法，因為它在非專案類中定義
+there.already.exists.a.class.with.the.chosen.name:
+    text: 已存在一個具有所選名稱的類。
+there.already.exists.a.class.with.the.selected.name:
+    text: 採用所選名稱的類已存在
+type.parameters.cannot.be.inlined:
+    text: 類型參數無法內聯
+wrap.return.value:
+    text: 包裝返回值
+wrap.return.value.title:
+    text: 包裝返回值
+wrapped.return.command.name:
+    text: 將返回值包裝為 {1}() 的{0}

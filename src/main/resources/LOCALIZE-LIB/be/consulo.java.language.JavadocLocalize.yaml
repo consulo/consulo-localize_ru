@@ -1,0 +1,36 @@
+javadoc.candidates:
+    text: <html>Кандыдаты для выкліку метаду <b>{0}</b>:<br><br>{1}</html>
+javadoc.candidates.not.found:
+    text: <html>Не знойдзена кандыдатаў для выкліку метаду <b>{0}</b>.</html>
+javadoc.constructor.candidates:
+    text: <html>Кандыдаты для new <b>{0}</b>() гэта:<br>{1}</html>
+javadoc.generate.arguments:
+    text: 'Аргументы каманднага радка:'
+javadoc.generate.exited:
+    text: |4-
+
+        "javadoc" завяршыўся з кодам выхаду $EXIT_CODE$
+javadoc.generate.heap.size:
+    text: '&Максімальны памер кучы:'
+javadoc.generate.locale:
+    text: '&Локаль:'
+javadoc.generate.no.classes.in.selected.packages.error:
+    text: Выбраная вобласць не змяшчае Java-класаў
+javadoc.generate.open.in.browser:
+    text: Адкрыць з&генераваную дакументацыю ў браўзеры
+javadoc.generate.options.hierarchy:
+    text: Генераваць дрэва іерархіі
+javadoc.generate.options.index:
+    text: Генераваць індэкс
+javadoc.generate.options.index.per.letter:
+    text: Асобны індэкс для кожнай літары
+javadoc.generate.options.navigator:
+    text: Генераваць панэль навігацыі
+javadoc.generate.output.directory:
+    text: 'Каталог вывода  [&D]:'
+javadoc.generate.output.directory.browse:
+    text: Выбрать каталог вывода
+javadoc.generate.tag.list.deprecated:
+    text: Спіс састарэлых элементаў
+javadoc.generate.title:
+    text: Згенераваць JavaDoc

@@ -1,0 +1,126 @@
+tools.add.button:
+    text: 添加...
+tools.add.title:
+    text: 创建工具
+tools.after.commit.description:
+    text: '运行工具:'
+tools.before.run.description:
+    text: "外部工具 ''{0}''{1, choice, 0# (禁用)|1#}"
+tools.before.run.provider.name:
+    text: 运行外部工具
+tools.caption:
+    text: '工具:'
+tools.completed.message:
+    text: "外部工具 ''{0}'' 完成，退出代码为 {1}"
+tools.copy.button:
+    text: 复制(&C)
+tools.copy.title:
+    text: 复制工具
+tools.delete.confirmation:
+    text: 是否要删除外部工具?
+tools.description.column:
+    text: 说明
+tools.description.label:
+    text: '描述:'
+tools.dialog.title:
+    text: 外部工具
+tools.edit.button:
+    text: 编辑...
+tools.edit.title:
+    text: 编辑工具
+tools.failed.to.save.changes.0:
+    text: 无法保存更改：{0}
+tools.filters.add.button:
+    text: 添加...
+tools.filters.add.description.label:
+    text: '描述:'
+tools.filters.add.macro.tooltip:
+    text: 按下鼠标右键，查看可用宏的列表
+tools.filters.add.name.label:
+    text: '名称:'
+tools.filters.add.name.required.error:
+    text: 筛选器名称没有定义
+tools.filters.add.regex.invalid.title:
+    text: 无效的正则表达式
+tools.filters.add.regex.label:
+    text: '正则表达式匹配输出:'
+tools.filters.add.regex.required.error:
+    text: 正则表达式必须定义
+tools.filters.add.title:
+    text: 添加筛选器
+tools.filters.button:
+    text: 输出筛选器...
+tools.filters.edit.button:
+    text: 编辑...
+tools.filters.edit.title:
+    text: 编辑过滤器
+tools.filters.move.down.button:
+    text: 下移(&D)
+tools.filters.move.up.button:
+    text: 上移(&U)
+tools.filters.name.default:
+    text: 无名称
+tools.filters.name.template:
+    text: 筛选器
+tools.filters.remove.button:
+    text: 删除(&R)
+tools.filters.title:
+    text: 输出筛选器
+tools.group.column:
+    text: 组
+tools.group.label:
+    text: '组:'
+tools.insert.macro.button:
+    text: 插入宏(&M)...
+tools.insert.macro.button.a:
+    text: 插入宏(&M)...
+tools.insert.macro.button.c:
+    text: 插入宏(&M)...
+tools.list.item.none:
+    text: <无>
+tools.menu.editor.checkbox:
+    text: 编辑器菜单
+tools.menu.group:
+    text: 在显示
+tools.menu.main.checkbox:
+    text: 主菜单
+tools.menu.project.checkbox:
+    text: 项目视图
+tools.menu.search.checkbox:
+    text: 搜索结果
+tools.move.down.button:
+    text: 下移(&D)
+tools.move.up.button:
+    text: 上移(&U)
+tools.name.column:
+    text: 名称
+tools.name.label:
+    text: '名称:'
+tools.not.configured:
+    text: 未配置外部工具
+tools.open.console.checkbox:
+    text: 打开控制台
+tools.options.group:
+    text: 选项
+tools.parameters.label:
+    text: '参数:'
+tools.process.start.error:
+    text: 无法启动进程
+tools.program.label:
+    text: '程序:'
+tools.remove.button:
+    text: 删除(&R)
+tools.settings:
+    text: 工具
+tools.settings.title:
+    text: 外部工具
+tools.synchronize.files.checkbox:
+    text: 执行后同步文件
+tools.tool.group:
+    text: 工具设置
+tools.unknown.external.tool:
+    text: 未知外部工具
+tools.unnamed.group:
+    text: '[未命名组]'
+tools.working.directory.label:
+    text: '工作目录:'

@@ -1,0 +1,168 @@
+action.analysis.noun:
+    text: 分析
+action.analyze.verb:
+    text: 分析する
+action.analyzing.cyclic.dependencies.in.scope:
+    text: '{0} の循環依存'
+action.backward.dependency.analysis:
+    text: 逆方向の依存関係分析
+action.close.dependency.description:
+    text: 依存関係ビューアを閉じる
+action.close.modules.dependencies.description:
+    text: モジュール依存関係ビューアを閉じる
+action.cyclic.dependency.title:
+    text: 循環依存分析
+action.edit.rules:
+    text: ルールの編集
+action.edit.rules.description:
+    text: 依存関係ルールの編集
+action.flatten.packages:
+    text: パッケージのフラット表示
+action.forward.dependency.analysis:
+    text: 依存関係分析
+action.group.by.scope.type:
+    text: スコープ タイプ別にグループ化
+action.group.by.scope.type.description:
+    text: スコープ タイプ別にグループ化 (製品、テスト、ライブラリ)
+action.module.dependencies.direction:
+    text: 依存関係の参照方向
+action.rerun.dependency:
+    text: 依存関係分析に戻る
+action.select.in.left.tree:
+    text: 左側のツリーから選択
+action.select.in.left.tree.description:
+    text: 左側のツリーから選択 (依存関係を参照)
+action.show.files:
+    text: ファイルの表示
+action.show.files.description:
+    text: ファイルの表示/非表示
+action.show.illegals.only:
+    text: 不正のみ表示
+action.show.illegals.only.description:
+    text: 不正な依存関係を持つファイルのみ表示
+action.show.modules:
+    text: モジュールの表示
+action.show.modules.description:
+    text: モジュールの表示/非表示
+analysis.scope.title:
+    text: '{0} スコープ'
+analyzing.project:
+    text: プロジェクトの分析
+backward.dependencies.progress.text:
+    text: 逆方向に依存関係を分析しています
+backward.dependencies.toolwindow.title:
+    text: '{0} の逆方向の依存関係'
+backward.dependencies.usage.view.initial.text:
+    text: 右側ツリーで検索する場所、左側ツリーで検索する内容を選択してください。
+backward.dependencies.usage.view.root.node.text:
+    text: 右側ツリーのスコープ選択における左側ツリーのスコープ選択の使用
+checking.class.files:
+    text: クラスファイルの確認
+cyclic.dependencies.progress.text:
+    text: 依存関係グラフをビルドしています
+cyclic.dependencies.scope.dialog.module.button:
+    text: "モジュール ''{1}'' を {0}(&M)"
+cyclic.dependencies.scope.dialog.project.button:
+    text: プロジェクト全体を {0}(&P)
+cyclic.dependencies.scope.dialog.title:
+    text: '{0} スコープの指定'
+cyclic.dependencies.tree.cycle.node.text:
+    text: 循環
+cyclic.dependencies.usage.view.initial.text:
+    text: 左側のツリーから分析するパッケージを選択してください
+cyclic.dependencies.usage.view.root.node.text:
+    text: "パッケージ ''{1}'' でのパッケージ ''{0}'' の使用"
+dependencies.libraries.node.text:
+    text: ライブラリ
+dependencies.tree.node.default.package.abbreviation:
+    text: <デフォルト パッケージ>
+dependency.configurable.allow.table.column1:
+    text: 使用を許可する
+dependency.configurable.deny.table.column1:
+    text: 使用を許可しない
+dependency.configurable.display.name:
+    text: 依存関係の検証
+error.packageset.pattern.expectations:
+    text: パッケージ パターンが必要
+error.packageset.position.parsing.error:
+    text: 位置 {1} の {0}
+error.packageset.token.expectations:
+    text: "予期しない ''{0}''"
+find.dependencies.progress.text:
+    text: 使用箇所を検索しています :{0}
+forward.dependencies.usage.view.initial.text:
+    text: 左側ツリーで検索する場所、右側ツリーで検索する内容を選択してください。
+forward.dependencies.usage.view.root.node.text:
+    text: 左側ツリーのスコープ選択における右側ツリーのスコープ選択の使用
+mark.dependency.illegal.text:
+    text: 不正をマーク
+module.dependencies.cycle.node.text:
+    text: 循環 {0}
+module.dependencies.scope.dialog.module.button:
+    text: "モジュール ''{0}'' の検査(&M)"
+module.dependencies.scope.dialog.project.button:
+    text: プロジェクト全体の検査(&P)
+module.dependencies.scope.dialog.title:
+    text: 分析スコープの指定
+module.dependencies.toolwindow.title:
+    text: '{0} のモジュール依存関係'
+package.dependencies.build.process.title:
+    text: パッケージを検索していす
+package.dependencies.build.progress.text:
+    text: パッケージを検索しています
+package.dependencies.library.node.text:
+    text: ライブラリ クラス
+package.dependencies.production.node.text:
+    text: 製品クラス
+package.dependencies.progress.text:
+    text: パッケージ依存関係を分析しています
+package.dependencies.progress.title:
+    text: 依存関係を分析しています
+package.dependencies.test.node.text:
+    text: テスト クラス
+package.dependencies.toolwindow.title:
+    text: '{0} の依存関係'
+scope.directory:
+    text: "ディレクトリ ''{0}''"
+scope.display.name.allow.scope:
+    text: "スコープ ''{1}'' でのスコープ ''{0}'' の使用を許可する"
+scope.display.name.deny.scope:
+    text: "スコープ ''{1}'' でのみスコープ ''{0}'' の使用を許可しない"
+scope.file:
+    text: "ファイル ''{0}''(&F)"
+scope.option.custom:
+    text: カスタム スコープ(&S)
+scope.option.include.test.sources:
+    text: テスト ソースを含める(&T)
+scope.option.module:
+    text: "モジュール ''{0}''"
+scope.option.module.with.mnemonic:
+    text: "モジュール ''{0}''(&M)"
+scope.option.uncommited.files:
+    text: コミットされていないファイル
+scope.option.uncommitted.files:
+    text: コミットされていないファイル
+scope.option.uncommitted.files.all.changelists.choice:
+    text: すべて
+scope.option.whole.project:
+    text: プロジェクト全体(&W)
+scope.package:
+    text: パッケージ {0}
+scope.project:
+    text: "プロジェクト ''{0}''"
+scope.selected.files:
+    text: 選択したファイル
+scope.virtual.files:
+    text: 選択
+skip.import.statements.checkbox.title:
+    text: import文をスキップ
+specify.analysis.scope:
+    text: '{0} スコープの指定'
+status.bar.no.rule.violation.message:
+    text: ルール違反はありません
+unknown.node.text:
+    text: <不明>
+update.module.tree.progress.title:
+    text: モジュールツリーを更新
+usage.view.canceled:
+    text: キャンセルしました

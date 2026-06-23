@@ -1,0 +1,72 @@
+index.content.diagnostic.dumping:
+    text: 색인이 생성된 파일 경로 및 기타 메타데이터 덤프 중…
+index.content.diagnostic.reading:
+    text: 색인이 생성된 파일 메타데이터 읽는 중…
+index.corrupted.notification.text:
+    text: 디스크의 색인 파일이 손상되었습니다. 색인이 다시 빌드됩니다.
+index.format.changed.notification.text:
+    text: '{0} 색인의 색인 파일 형식이 변경되었습니다. 이러한 색인이 다시 빌드됩니다.'
+index.rebuild.notification.title:
+    text: 색인 다시 빌드
+indexable.files.provider.indexing.additional.dependencies:
+    text: 종속성 색인 생성 중
+indexable.files.provider.indexing.fileOrDir.name:
+    text: "''{0}'' 색인 생성 중"
+indexable.files.provider.indexing.internal.module.name:
+    text: 색인 생성 중
+indexable.files.provider.indexing.library.name:
+    text: "''{0}'' 라이브러리 색인 생성 중"
+indexable.files.provider.indexing.module.name:
+    text: "''{0}'' 모듈 색인 생성 중"
+indexable.files.provider.indexing.named.provider:
+    text: "''{0}'' 색인 생성 중"
+indexable.files.provider.indexing.sdk:
+    text: "{0} ''{1}'' 색인 생성 중"
+indexable.files.provider.scanning.additional.dependencies:
+    text: 종속성 스캔 중
+indexable.files.provider.scanning.fileOrDir.name:
+    text: "''{0}'' 스캔 중"
+indexable.files.provider.scanning.files.contributor:
+    text: "''{0}'' 스캔 중"
+indexable.files.provider.scanning.internal.module.name:
+    text: 스캔 중
+indexable.files.provider.scanning.library.name:
+    text: "''{0}'' 라이브러리 스캔 중"
+indexable.files.provider.scanning.module.name:
+    text: "''{0}'' 모듈 스캔 중"
+indexable.files.provider.scanning.sdk:
+    text: "{0} ''{1}'' 스캔 중"
+indexes.preparing.to.shutdown.message:
+    text: 종료를 위해 색인 준비 중…
+indexes.reloading:
+    text: 색인 다시 로드 중…
+notification.group.ide.caches:
+    text: IDE 캐시 손상 감지됨
+progress.indexing:
+    text: 스마트 기능을 활성화하기 위해 프로젝트 분석 중
+progress.indexing.scanning:
+    text: 파일 스캔 중…
+progress.indexing.started.as.suspended:
+    text: 색인 생성을 시작하려면 버튼을 누르세요
+progress.indexing.updating:
+    text: 프로젝트 분석 중…
+psi.scanning.files.progress:
+    text: 파일 스캔 중…
+psi.search.for.word.progress:
+    text: '{1,choice,1#1개의 파일|1<{1}개의 파일}에서 {0} 검색 중…'
+psi.search.in.non.java.files.progress:
+    text: 코드 외 사용처 분석 중…
+psi.search.scope.project.and.libraries:
+    text: 프로젝트 및 라이브러리
+removing.indexable.set.project.handler:
+    text: 프로젝트 파일에 대한 색인 지우는 중
+search.scope.module:
+    text: "''{0}'' 모듈"
+search.scope.module.runtime:
+    text: "''{0}'' 모듈 런타임 범위"
+terms.directory:
+    text: 디렉터리
+terms.file:
+    text: 파일
+toggled.dumb.mode:
+    text: 덤 모드로 실행 중…

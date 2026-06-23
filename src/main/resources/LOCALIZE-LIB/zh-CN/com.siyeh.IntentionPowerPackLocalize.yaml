@@ -1,0 +1,266 @@
+0.already.extends.1.and.will.not.compile.after.converting.2.to.a.class:
+    text: 实现{2}的{0}已扩展{1}并且在将{2}转换为类后不会编译
+0.is.declared.in.1.but.when.public.should.be.declared.in.a.file.named.2:
+    text: '{0} 已在 {1} 中声明，但 public 应在名称为 {2} 的文件中声明'
+0.will.have.incompatible.access.privileges.with.overriding.1:
+    text: '{0} 的访问权限与重写 {1} 不兼容'
+0.will.have.incompatible.access.privileges.with.super.1:
+    text: '{0} 的访问权限与超级{1}不兼容'
+0.will.no.longer.be.visible.from.overriding.1:
+    text: '{0}将不再可以从重写{1}可见'
+adapter.to.listener.intention.family.name:
+    text: 将适配器扩展替换为侦听器实现
+adapter.to.listener.intention.name:
+    text: "将 ''{0}'' 的扩展替换为 ''Listener'' 实现"
+annotate.overridden.methods.intention.family.name:
+    text: 注解重写方法及其形参
+annotate.overridden.methods.intention.method.name:
+    text: "将重写方法注解为 ''{0}''"
+annotate.overridden.methods.intention.parameters.name:
+    text: "将重写方法的相同形参注解为 ''{0}''"
+change.to.c.style.comment.intention.family.name:
+    text: 替换为块注释
+change.to.c.style.comment.intention.name:
+    text: 替换为块注释
+change.to.end.of.line.comment.intention.family.name:
+    text: 替换为行尾注释
+change.to.end.of.line.comment.intention.name:
+    text: 替换为行尾注释
+change.variable.type.to.rhs.type.intention.family.name:
+    text: 将变量类型更改为初始值设定项的类型
+change.variable.type.to.rhs.type.intention.name:
+    text: "使用类型 ''{1}'' 声明 ''{0}''"
+char.to.string.intention.family.name:
+    text: 将字符替换为字符串
+char.to.string.intention.name:
+    text: 将字符文字替换为字符串
+constant.expression.intention.name:
+    text: "计算 ''{0}'' 的常量值"
+constant.subexpression.intention.family.name:
+    text: 计算子表达式的常量值
+convert.catch.to.throws.intention.family.name:
+    text: 将 catch 部分替换为 throws 声明
+convert.catch.to.throws.intention.name:
+    text: "将 'catch' 部分替换为 'throws' 声明"
+convert.integer.to.binary.intention.family.name:
+    text: 转换为二进制
+convert.integer.to.binary.intention.name:
+    text: 转换为二进制
+convert.integer.to.decimal.intention.family.name:
+    text: 转换为十进制
+convert.integer.to.decimal.intention.name:
+    text: 转换为十进制
+convert.integer.to.hex.intention.family.name:
+    text: 转换为十六进制
+convert.integer.to.hex.intention.name:
+    text: 转换为十六进制
+convert.integer.to.octal.intention.family.name:
+    text: 转换为八进制
+convert.integer.to.octal.intention.name:
+    text: 转换为八进制
+convert.interface.to.class.intention.family.name:
+    text: 将接口转换为类
+convert.interface.to.class.intention.name:
+    text: "转换为 'class'"
+convert.to.nested.if.intention.family.name:
+    text: 将布尔扩展为多个 if
+convert.to.nested.if.intention.name:
+    text: "转换为多个 'if'"
+copy.concatenated.string.to.clipboard.intention.family.name:
+    text: 将字符串串联文本复制到剪贴板
+copy.concatenated.string.to.clipboard.intention.name:
+    text: 将字符串串联文本复制到剪贴板
+create.assert.intention.family.name:
+    text: 创建 JUnit 断言
+create.assert.intention.name:
+    text: 创建 JUnit 断言
+demorgans.intention.family.name:
+    text: 德摩根定律
+demorgans.intention.name1:
+    text: "将 '\\&\\&' 替换为 '||'"
+demorgans.intention.name2:
+    text: "将 '||' 替换为 '\\&\\&'"
+detail.exceptions.intention.family.name:
+    text: 详细异常
+detail.exceptions.intention.name:
+    text: 详细异常
+expand.boolean.intention.family.name:
+    text: 扩展布尔
+extract.increment.intention.family.name:
+    text: 提取增量
+extract.increment.intention.name:
+    text: "提取 ''{0}''"
+extract.while.loop.condition.to.if.statement.intention.family.name:
+    text: 将 while 循环条件提取到内部 if 语句中
+extract.while.loop.condition.to.if.statement.intention.name:
+    text: "将条件提取到内部 'if' 语句中"
+flip.assert.literal.intention.family.name:
+    text: 翻转断言文字
+flip.commutative.method.call.intention.family.name:
+    text: 翻转可交换方法调用
+flip.commutative.method.call.intention.name:
+    text: "翻转 ''.{0}()''"
+flip.commutative.method.call.intention.name1:
+    text: "翻转 ''.{0}()'' (可能更改语义)"
+flip.comparison.intention.family.name:
+    text: 翻转比较
+flip.comparison.intention.name:
+    text: "将 ''{0}'' 翻转为 ''{1}''"
+flip.conditional.intention.family.name:
+    text: 翻转条件
+flip.conditional.intention.name:
+    text: "翻转 '?:'"
+flip.conjunction.intention.family.name:
+    text: 翻转合取操作数
+flip.expression.intention.family.name:
+    text: 翻转二元表达式
+flip.setter.call.intention.family.name:
+    text: 翻转 setter 调用
+flip.setter.call.intention.name:
+    text: 翻转 Setter 调用
+flip.smth.intention.name:
+    text: "翻转 ''{0}''"
+flip.smth.intention.name1:
+    text: "翻转 ''{0}'' (更改语义)"
+intention.category.annotations:
+    text: Java/注解
+intention.category.comments:
+    text: Java/注释
+intention.category.conditional.operator:
+    text: Java/条件
+intention.category.control.flow:
+    text: Java/控制流
+intention.category.declaration:
+    text: Java/声明
+intention.category.imports:
+    text: Java/导入
+intention.category.other:
+    text: 其他
+intention.category.strings:
+    text: Java/字符串
+join.concatenated.string.literals.intention.family.name:
+    text: 联接串联的字符串文字
+join.concatenated.string.literals.intention.name:
+    text: 联接串联的字符串文字
+make.call.chain.into.call.sequence.intention.family.name:
+    text: 将方法链扩展为调用序列
+make.call.chain.into.call.sequence.intention.name:
+    text: 将方法调用链扩展为调用序列
+merge.call.sequence.to.chain.intention.family.name:
+    text: 将顺序方法调用合并到调用链中
+merge.call.sequence.to.chain.intention.name:
+    text: 将连续的方法调用合并到调用链中
+merge.else.if.intention.family.name:
+    text: 合并 else if
+merge.else.if.intention.name:
+    text: "合并 'else if'"
+merge.if.and.intention.family.name:
+    text: "合并嵌套的 'if' 语句"
+merge.if.and.intention.name:
+    text: "合并嵌套的 'if' 语句"
+merge.if.or.intention.family.name:
+    text: "合并连续的 'if' 语句"
+merge.if.or.intention.name:
+    text: "合并连续的 'if' 语句"
+merge.nested.try.statements.intention.family.name:
+    text: 合并嵌套 try 语句
+merge.nested.try.statements.intention.name:
+    text: "合并嵌套的 'try' 语句"
+merge.parallel.ifs.intention.family.name:
+    text: 合并并行的 if
+merge.parallel.ifs.intention.name:
+    text: "合并 'if'"
+move.comment.to.separate.line.intention.family.name:
+    text: 将注释移至单独的行
+move.comment.to.separate.line.intention.name:
+    text: 将注释移至单独的行
+negate.comparison.intention.family.name:
+    text: 求反比较
+negate.comparison.intention.name:
+    text: "求反 ''{0}''"
+negate.comparison.intention.name1:
+    text: "将 ''{0}'' 求反为 ''{1}''"
+obscure.thrown.exceptions.intention.family.name:
+    text: 将 throws 子句中的异常替换为单个更普通的异常
+press.escape.to.remove.highlighting.message:
+    text: 按 Esc 移除高亮显示
+replace.arm.with.try.finally.intention.family.name:
+    text: 将 try-with-resources 替换为 try-finally
+replace.arm.with.try.finally.intention.name:
+    text: "将 'try-with-resources' 替换为 'try finally'"
+replace.assert.literal.with.assert.equals.intention.family.name:
+    text: 将 assertTrue、assertFalse 或 assertNull 替换为 assertEquals
+replace.assert.literal.with.assert.equals.intention.name:
+    text: "将 ''{0}()'' 替换为 ''assertEquals({1}, ...)''"
+replace.assert.literal.with.assert.equals.intention.name1:
+    text: "将 ''{0}()'' 替换为 ''assertEquals(..., {1}, ...)''"
+replace.assert.literal.with.assert.equals.intention.name2:
+    text: "将 ''{0}()'' 替换为 ''assertEquals()''"
+replace.assignment.with.postfix.expression.intention.family.name:
+    text: 将赋值替换为后缀表达式
+replace.concatenation.with.format.string.intention.family.name:
+    text: 将字符串串联替换为 String.format()
+replace.concatenation.with.format.string.intention.name:
+    text: "将 '+' 替换为 'String.format()'"
+replace.concatenation.with.string.buffer.intention.family.name:
+    text: 将 + 替换为 StringBuilder.append()
+replace.concatenation.with.string.buffer.intention.name:
+    text: "将 '+' 替换为 'StringBuffer.append()'"
+replace.concatenation.with.string.builder.intention.name:
+    text: "将 '+' 替换为 'StringBuilder.append()'"
+replace.do.while.loop.with.while.loop.intention.family.name:
+    text: 将 do while 循环替换为 while 循环
+replace.do.while.loop.with.while.loop.intention.name:
+    text: "将 'do while' 循环替换为 'while' 循环"
+replace.for.each.loop.with.indexed.for.loop.intention.family.name:
+    text: 将 for-each 循环替换为带索引的 for 循环
+replace.for.each.loop.with.indexed.for.loop.intention.name:
+    text: "将 for-each 循环替换为带索引的 'for' 循环"
+replace.for.each.loop.with.iterator.for.loop.intention.family.name:
+    text: 将 for-each 循环替换为迭代器 for 循环
+replace.for.each.loop.with.iterator.for.loop.intention.name:
+    text: "将 for-each 循环替换为迭代器 'for' 循环"
+replace.for.each.loop.with.optimized.indexed.for.loop.intention.family.name:
+    text: 将 for-each 循环替换为优化的带索引 for 循环
+replace.for.each.loop.with.optimized.indexed.for.loop.intention.name:
+    text: "将 for-each 循环替换为优化的带索引 'for' 循环"
+replace.multiply.with.shift.intention.family.name:
+    text: 将乘法替换为移位
+replace.on.demand.import.intention.family.name:
+    text: 将按需导入替换为单个类导入
+replace.on.demand.import.intention.name:
+    text: 替换为单个类导入
+replace.operator.assignment.with.assignment.intention.family.name:
+    text: 将运算符赋值替换为赋值
+replace.operator.assignment.with.postfix.expression.intention.family.name:
+    text: 将运算符赋值替换为后缀表达式
+replace.postfix.expression.with.assignment.intention.family.name:
+    text: 将后缀表达式替换为赋值
+replace.postfix.expression.with.operator.assignment.intention.family.name:
+    text: 将后缀表达式替换为运算符赋值
+replace.shift.with.multiply.intention.family.name:
+    text: 将移位替换为乘法
+replace.switch.with.if.intention.family.name:
+    text: 将 switch 替换为 if
+replace.switch.with.if.intention.name:
+    text: "将 'switch' 替换为 'if'"
+replace.while.loop.with.do.while.loop.intention.family.name:
+    text: 将 while 循环替换为 do while 循环
+replace.while.loop.with.do.while.loop.intention.name:
+    text: "将 'while' 循环替换为 'do while' 循环"
+reverse.for.loop.direction.intention.family.name:
+    text: 反转 for 循环的方向
+reverse.for.loop.direction.intention.name:
+    text: 反转 for 循环的方向
+split.declaration.and.initialization.intention.family.name:
+    text: 拆分声明和初始化
+split.declaration.and.initialization.intention.name:
+    text: 拆分为声明和初始化
+split.else.if.intention.family.name:
+    text: 拆分 else if
+split.else.if.intention.name:
+    text: "拆分 'else if'"
+wrap.vararg.arguments.with.explicit.array.intention.family.name:
+    text: 用显式数组创建包装 vararg 实参
+wrap.vararg.arguments.with.explicit.array.intention.name:
+    text: 用显式数组创建包装 vararg 实参

@@ -1,0 +1,771 @@
+action.Runner.ToggleTabLabels.text:
+    text: 显示选项卡标签
+action.name.save.as.configuration:
+    text: 另存为
+action.name.save.configuration:
+    text: 保存配置
+action.terminating.process.progress.kill.description:
+    text: 终止进程
+add.new.run.configuration.action.name:
+    text: 添加新的"{0}"配置
+add.new.run.configuration.action2.name:
+    text: 添加新配置
+all.tests.scope.presentable.text:
+    text: 所有测试
+applet.configuration.applet.class.border:
+    text: Applet类
+applet.configuration.applet.class.label:
+    text: 'Applet类:'
+applet.configuration.applet.class.option:
+    text: '&Applet类'
+applet.configuration.applet.parameters.label:
+    text: Applet参数
+applet.configuration.description:
+    text: Applet 配置
+applet.configuration.height.label:
+    text: '高度:'
+applet.configuration.parameter.name.column:
+    text: 名字
+applet.configuration.parameter.value.column:
+    text: 值
+applet.configuration.policy.file.label:
+    text: '策略文件(&P):'
+applet.configuration.url.html.file.label:
+    text: 'URL/HTML文件:'
+applet.configuration.vm.parameters.for.appletviewer.label:
+    text: 'Appletviewer &VM 设置 :'
+applet.configuration.width.label:
+    text: '宽度:'
+application.configuration.main.class.label:
+    text: 主类(&C)：
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 使用模块的类路径(&D)：
+apply.action.name:
+    text: 应用(&A)
+before.launch.compile.step:
+    text: 构建
+before.launch.compile.step.no.error.check:
+    text: 构建，不进行错误检查
+before.launch.panel.cyclic_dependency_warning:
+    text: |-
+        "{0}"已被配置为在{1}之前启动。
+        不允许此类循环依赖。
+before.launch.panel.empty:
+    text: 启动前没有要运行的任务
+before.launch.panel.title:
+    text: 启动前(&B)
+before.launch.run.another.configuration:
+    text: 运行另一个配置
+before.launch.run.another.configuration.choose:
+    text: 选择配置来执行
+before.launch.run.certain.configuration:
+    text: 运行"{0}"
+before.launch.run.unknown.task:
+    text: 未知任务
+before.run.property.make:
+    text: 标记
+button.add:
+    text: 添加
+button.disconnect:
+    text: 断开连接(&D)
+button.remove:
+    text: 删除(&R)
+button.terminate:
+    text: 终止(&T)
+cannot.browse.method.dialog.title:
+    text: 无法浏览方法
+cannot.browse.test.inheritors.dialog.title:
+    text: 无法浏览TestCase继承器
+choose.applet.class.dialog.title:
+    text: 选择Applet类
+choose.html.file.dialog.title:
+    text: 选择HTML文件
+choose.main.class.dialog.title:
+    text: 选择主类
+choose.package.dialog.title:
+    text: 选择包
+choose.run.configuration.action.description:
+    text: 打开运行/调试配置下拉菜单
+choose.test.class.dialog.title:
+    text: 选择测试类
+choose.test.method.dialog.title:
+    text: 选择测试方法
+class.does.not.exists.error.message:
+    text: 类{0}不存在
+class.isnt.inheritor.of.testcase.error.message:
+    text: '{0}没有继承人的TestCase'
+class.isnt.test.class.error.message:
+    text: '{0}不是测试类'
+class.not.found.in.module.error.message:
+    text: 在模块"{1}"中未找到类"{0}"
+class.not.specified.error.message:
+    text: 类没有指定。
+clear.all.from.console.action.name:
+    text: 全部清除
+close.tab.action.name:
+    text: 关闭
+combobox.console.default.encoding.label:
+    text: '默认编码:'
+combobox.console.favorites.separator.label:
+    text: 收藏夹
+combobox.console.more.separator.label:
+    text: 更多
+configuration.edit.before.run:
+    text: 显示此页面
+configuration.not.speficied.message:
+    text: 配置测试类型没有指定
+configuration.singleton:
+    text: 检查是否有其他实例正在运行
+confirm.background.process.stop:
+    text: 确认停止后台进程
+confirm.process.stop:
+    text: 确认停止进程
+copy.configuration.action.name:
+    text: 复制配置
+copy.content.action.name:
+    text: 复制内容
+copy.selected.content.action.name:
+    text: 复制选中内容
+coverage.tab.title:
+    text: 代码覆盖率
+create.run.configuration.action.name:
+    text: 修改运行配置…
+create.run.configuration.for.item.action.name:
+    text: "创建 ''{0}''"
+create.run.configuration.for.item.dialog.title:
+    text: 创建运行配置："{0}"
+default.junit.config.name.all.in.module:
+    text: '{0}中的所有'
+default.junit.config.name.all.in.package.in.module:
+    text: '{1}中的{0}'
+default.junit.configuration.name:
+    text: <无名称>
+default.package.configuration.name:
+    text: 默认包
+default.package.presentable.name:
+    text: <默认>
+default.runner.start.action.text:
+    text: 运行(&U)
+default.settings.editor.dialog.title:
+    text: 默认设置
+delete.confirmation.dialog.title:
+    text: 删除确认
+diff.content.actual.title:
+    text: 实际
+diff.content.actual.title.with.file.url:
+    text: 实际 ({0})
+diff.content.expected.for.file.title:
+    text: 预期：
+diff.content.expected.title:
+    text: 预期
+diff.content.expected.title.with.file.url:
+    text: 预期 ({0})
+disconnect.process.confirmation.text:
+    text: "你确定要断开进程 ''{0}''?"
+down.the.stack.trace:
+    text: 向下遍历堆栈跟踪
+edit.configuration.action:
+    text: 编辑配置(&E)
+edit.run.configuration.for.item.dialog.title:
+    text: 编辑运行配置："{0}"
+edit.run.configuration.run.configuration.name.label:
+    text: 名称(&N)：
+empty.run.configuration.panel.text.label1:
+    text: 按
+empty.run.configuration.panel.text.label3:
+    text: 按钮来创建一个新的{0}基于默认设置
+enable.coverage.with.emma:
+    text: 记录代码覆盖率信息
+encoding.name.system.default:
+    text: '<系统默认: {0}>'
+env.vars.checkbox.title:
+    text: 包括父环境变量(&I)
+env.vars.show.system:
+    text: 显示
+environment.variables.component.title:
+    text: 环境变量(&E)
+environment.variables.dialog.title:
+    text: 环境变量
+environment.variables.helper.use.arguments.label:
+    text: <html><body>使用以下命令行参数来运行远程JVM</body></html>
+environment.variables.system.dialog.title:
+    text: 系统环境
+error.common.title:
+    text: 错误
+error.running.configuration.message:
+    text: 运行"{0}"时出错
+execute.before.run.debug.dialog.title:
+    text: 运行/调试前执行{0}
+export.test.results.custom.template.chooser.title:
+    text: 选择自定义模板
+export.test.results.custom.template.not.found:
+    text: 未找到用户自定义模板文件"{0}"
+export.test.results.custom.template.path.empty:
+    text: 用户自定义模板路径为空
+export.test.results.dialog.title:
+    text: 导出测试结果
+export.test.results.failed:
+    text: 测试结果导出失败：{0}
+export.test.results.file.exists.message:
+    text: |-
+        文件"{0}"已存在。
+        是否要覆盖它？
+export.test.results.file.exists.title:
+    text: 导出测试结果
+export.test.results.filename:
+    text: 测试结果 - {0}
+export.test.results.footer:
+    text: 由{0}生成，时间{1}
+export.test.results.open.browser:
+    text: 在浏览器中打开导出的文件(&P)
+export.test.results.open.editor:
+    text: 在编辑器中打开导出的文件(&P)
+export.test.results.output.filename.empty:
+    text: 输出文件名为空
+export.test.results.output.folder.chooser.title:
+    text: 选择输出文件夹
+export.test.results.output.path.empty:
+    text: 输出路径为空
+export.test.results.succeeded:
+    text: <html>测试结果已成功导出到<a href="#a">{0}</a></html>
+export.test.results.task.name:
+    text: 正在导出测试结果
+failed.to.create.output.file:
+    text: 创建输出文件"{0}"失败
+failed.to.generate.wrapper.error.message:
+    text: 为applet类生成临时HTML包装器失败
+fix.run.configuration.problem.button:
+    text: 修复
+home.directory.not.specified.for.jdk.error.message:
+    text: 未指定JDK主目录
+html.file.not.specified.error.message:
+    text: 没有指定HTML文件
+incompatible.configuration.is.running.dialog.title:
+    text: 不兼容的配置{0, choice, 1#正在运行|2#正在运行}
+invalid.data.dialog.title:
+    text: 无效数据
+jdk.is.bad.configured.error.message:
+    text: '"{0}"配置错误'
+jdk.not.configured.error.message:
+    text: "JDK ''{0}'' 没有配置"
+jnit.configuration.all.tests.in.package.radio:
+    text: 所有的测试在包
+jre.not.valid.error.message:
+    text: "''{0}'' 不是有效的 JRE 根目录"
+junit.actual.text.label:
+    text: 实际   ：
+junit.auto.scroll.to.source.action.name:
+    text: 自动滚动到源
+junit.configuration.across.module.dependencies.radio:
+    text: 跨模块依赖项
+junit.configuration.all.in.package.radio:
+    text: 所有在包
+junit.configuration.class.label:
+    text: '类:'
+junit.configuration.configure.junit.test.kind.label:
+    text: 测试类型(&T)：
+junit.configuration.configure.junit.test.label:
+    text: 测试：
+junit.configuration.description:
+    text: JUnit 测试配置
+junit.configuration.in.single.module.radio:
+    text: 在单一模块
+junit.configuration.in.whole.project.radio:
+    text: 在整个项目
+junit.configuration.method.label:
+    text: '方法:'
+junit.configuration.package.label:
+    text: '包:'
+junit.configuration.search.for.tests.label:
+    text: '搜索测试:'
+junit.configuration.test.border:
+    text: 测试
+junit.configuration.test.class.radio:
+    text: 测试类
+junit.configuration.test.method.radio:
+    text: 测试方法
+junit.configuration.test.runner.parameters.label:
+    text: '测试运行参数:'
+junit.jar.not.found.in.module.class.path.error.message:
+    text: "junit.jar 没有发现在 ''{0}'' 类路径中"
+junit.not.found.in.module.error.message:
+    text: "在模块''{0}''中未找到JUnit"
+junit.open.text.in.editor.action.name:
+    text: 在编辑器中打开选中的测试
+junit.runing.info.assertion.tree.node:
+    text: 声明
+junit.runing.info.error.tree.node:
+    text: 错误
+junit.runing.info.hide.successful.config.action.name:
+    text: 隐藏成功安装/拆卸
+junit.runing.info.ignored.console.message:
+    text: "测试 ''{0}.{1}'' 被忽略"
+junit.runing.info.ignored.label:
+    text: 被忽略
+junit.runing.info.include.non.started.in.rerun.failed.action.name:
+    text: 包括无法启动测试的运行失败
+junit.runing.info.loading.tree.node.text:
+    text: 加载中
+junit.runing.info.passed.label:
+    text: 通过
+junit.runing.info.results.column.name:
+    text: 结果
+junit.runing.info.running.label:
+    text: 运行中
+junit.runing.info.starting.label:
+    text: 启动...
+junit.runing.info.terminated.label:
+    text: 终止
+junit.runing.info.test.column.name:
+    text: 测试
+junit.runing.info.tests.failed.label:
+    text: 测试失败
+junit.runing.info.tests.passed.label:
+    text: 测试通过
+junit.runing.info.time.elapsed.column.name:
+    text: 耗时
+junit.runing.info.total.label:
+    text: '共计:'
+junit.runing.info.usage.after.column.name:
+    text: 使用之后
+junit.runing.info.usage.before.column.name:
+    text: 使用之前
+junit.runing.info.usage.delta.column.name:
+    text: 使用变化
+junit.running.info.failed.to.start.error.message:
+    text: 启动失败
+junit.running.info.tests.failed.label:
+    text: 测试失败
+junit.running.info.tests.failed.with.test.name.label:
+    text: 测试失败 {0}
+junit.running.info.tests.passed.label:
+    text: 测试通过
+junit.running.info.tests.passed.with.test.name.label:
+    text: 测试通过 {0}
+log.console.filter.show.all:
+    text: 所有
+log.console.filter.show.errors:
+    text: 错误
+log.console.filter.show.errors.and.warnings:
+    text: 警告
+log.console.filter.show.errors.warnings.and.infos:
+    text: 信息
+log.monitor.add.button:
+    text: 添加
+log.monitor.edit.aliases.location:
+    text: '日志文件位置(&L):'
+log.monitor.edit.aliases.name:
+    text: '别名(&A):'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: 显示可由模式覆盖的所有文件(&S)
+log.monitor.edit.aliases.title:
+    text: 编辑日志文件别名
+log.monitor.group:
+    text: 将显示在控制台中的日志文件
+log.monitor.is.active.column:
+    text: 处于活动状态
+log.monitor.is.skipped.column:
+    text: 跳过内容
+log.monitor.log.file.column:
+    text: 日志文件条目
+log.monitor.no.files:
+    text: 未附加任何日志文件
+log.monitor.remove.button:
+    text: 移除(&R)
+logs.show.console.on.stderr:
+    text: 当消息打印到标准错误流时显示控制台
+logs.show.console.on.stdout:
+    text: 当消息打印到标准输出流时显示控制台
+logs.tab.title:
+    text: 日志
+main.class.is.not.specified.error.message:
+    text: 未指定主类或JAR路径
+main.method.not.found.in.class.error.message:
+    text: 在类{0}中未找到main方法
+merge.coverage.data:
+    text: 合并下面选择套件收集的代码覆盖率
+message.cannot.find.file.0:
+    text: 找不到文件{0}
+method.name.not.specified.error.message:
+    text: 未指定方法名称
+module.does.not.exist.error.message:
+    text: 模块"{0}"不存在
+module.does.not.exists:
+    text: "模块''{0}''不存在于项目''{1}''"
+module.doesn.t.exist.in.project.error.text:
+    text: 模块"{0}"在项目中不存在
+module.is.unloaded.from.project.error.text:
+    text: 模块"{0}"已从项目中卸载
+module.not.specified.error.text:
+    text: 未指定模块
+move.down.action.name:
+    text: 下移
+move.up.action.name:
+    text: 上移
+multiple.specified:
+    text: 已指定多个
+next.faled.test.action.name:
+    text: 下一个失败的测试
+no.applet.class.specified.error.message:
+    text: 没有指定applet类
+no.jdk.for.module.error.message:
+    text: 模块"{0}"缺少JDK
+no.jdk.specified..error.message:
+    text: 未指定JDK
+no.jdk.specified.for.module.warning.text:
+    text: 未为模块"{0}"指定JDK
+no.junit.error.message:
+    text: 缺少junit.jar
+no.junit.in.scope.error.message:
+    text: '{0}中缺少junit.jar'
+no.main.class.specified.error.text:
+    text: 未指定主类
+no.module.defined.error.message:
+    text: 未定义模块
+no.parameters:
+    text: 没有参数
+no.test.class.specified.error.text:
+    text: 未指定测试类
+no.tests.found.in.package.error.message:
+    text: "包 ''{0}'' 中未发现测试用例"
+no.user.process.input.error.message:
+    text: 无进程输入
+node.default:
+    text: <默认>
+open.message.view:
+    text: 打开消息视图
+output.tab.title:
+    text: 输出
+package.does.not.exist.error.message:
+    text: "软件包 ''{0}'' 不存在"
+package.not.found.error.message:
+    text: 未找到包"{0}"
+perform.action.with.context.configuration.action.name:
+    text: '{0}上下文配置'
+popup.title.choose.target.file:
+    text: 选择目标文件
+prev.faled.test.action.name:
+    text: 上一个失败的测试
+process.is.running.dialog.title:
+    text: 进程"{0}"正在运行
+project.has.no.jdk.configured.error.message:
+    text: 项目未配置JDK。
+project.has.no.jdk.error.message:
+    text: 项目没有JDK
+record.coverage.filters.title:
+    text: 记录包和类覆盖率数据
+remote.configuration.attach.radio:
+    text: 附加
+remote.configuration.debugger.mode.label:
+    text: '调试模式:'
+remote.configuration.host.label:
+    text: '主机:'
+remote.configuration.listen.radio:
+    text: 监听
+remote.configuration.port.label:
+    text: '端口:'
+remote.configuration.remote.debugging.allows.you.to.connect.idea.to.a.running.jvm.label:
+    text: 运行远程JVM的命令行参数(&C)
+remote.configuration.settings.border:
+    text: 设置
+remote.configuration.shared.memory.address.label:
+    text: '共享内存地址:'
+remote.configuration.shared.memory.radio:
+    text: 共享内存
+remote.configuration.socket.radio:
+    text: 套接字(Socket)
+remote.configuration.transport.label:
+    text: '传输层:'
+remote.debug.configuration.description:
+    text: 远程调试配置
+remote.debug.configuration.display.name:
+    text: 远程JVM调试
+remove.run.configuration.action.name:
+    text: 移除配置
+rerun.configuration.action.name:
+    text: 重新运行"{0}"
+rerun.confirmation.button.text:
+    text: 停止并重新运行
+rerun.confirmation.checkbox:
+    text: 确认重新运行过程终止
+rerun.singleton.confirmation.message:
+    text: |-
+        "{0}"不允许并行运行。
+        是否要停止{1, choice, 1#正在运行的实例|2#{1, number}个正在运行的实例}？
+restart.error.message.title:
+    text: 重启错误
+run.button.on.toolbar.tooltip.current.file.no.focused.editor:
+    text: 无法运行当前文件：编辑器未处于焦点状态
+run.button.on.toolbar.tooltip.current.file.not.runnable:
+    text: 编辑器中的文件不可运行
+run.configurable.display.name:
+    text: 运行
+run.configuration.arguments.help.panel.copy.action.name:
+    text: 复制
+run.configuration.cannot.find.vm.executable:
+    text: 找不到VM可执行文件
+run.configuration.configuration.tab.title:
+    text: 配置
+run.configuration.create.folder.description:
+    text: 创建新文件夹
+run.configuration.create.folder.description.move:
+    text: 移入新文件夹
+run.configuration.create.folder.text:
+    text: 创建新文件夹
+run.configuration.default.type.description:
+    text: 配置
+run.configuration.display.settings.checkbox:
+    text: 启动前显示配置
+run.configuration.dump.threads.action.name:
+    text: 转储线程
+run.configuration.edit.default.configuration.settings.description:
+    text: 编辑模板
+run.configuration.edit.default.configuration.settings.text:
+    text: 编辑模板
+run.configuration.error.dialog.title:
+    text: 运行配置错误
+run.configuration.error.no.jdk.specified:
+    text: 未指定JDK
+run.configuration.exit.action.name:
+    text: 退出
+run.configuration.java.vm.parameters.label:
+    text: VM选项(&V)：
+run.configuration.no.name:
+    text: <无名称>
+run.configuration.norunner.selected.label:
+    text: 没有选择运行器
+run.configuration.pause.output.action.name:
+    text: 暂停输出
+run.configuration.program.parameters:
+    text: 程序参数(&R)：
+run.configuration.rename.folder:
+    text: "重命名文件夹 ''{0}''"
+run.configuration.rename.folder.disclaimer:
+    text: 注意：空文件夹不会被保存
+run.configuration.select.alternate.jre.label:
+    text: 选择备用JRE
+run.configuration.select.jre.dir.label:
+    text: 选择要运行的JRE目录
+run.configuration.show.command.line.action.name:
+    text: 显示控制台提示符
+run.configuration.singleton:
+    text: 只用单一实例
+run.configuration.startup.connection.rab.title:
+    text: 启动/连接
+run.configuration.stop.action.name:
+    text: 停止
+run.configuration.store.place.option:
+    text: 共享
+run.configuration.unnamed.name.prefix:
+    text: 未命名
+run.configuration.use.alternate.jre.checkbox:
+    text: '使用替代JRE:'
+run.configuration.working.directory.label:
+    text: 工作目录(&W)：
+run.configurations.combo.run.current.file.description:
+    text: 运行焦点编辑器中打开的文件
+run.configurations.combo.run.current.file.item.in.dropdown:
+    text: 当前文件
+run.configurations.combo.run.current.file.selected:
+    text: 当前文件
+run.configurations.popup.edit.run.config.and.run.current.file:
+    text: 带参数运行…
+run.configurations.popup.edit.run.config.and.run.current.file.description:
+    text: 编辑运行器参数并运行焦点编辑器中打开的文件
+run.configurations.popup.existing.configurations.separator.text:
+    text: 运行配置
+run.dashboard.configurable.types.panel.hint:
+    text: 选择一个或多个类型
+run.dashboard.configurations.message:
+    text: 启动/停止所选配置
+run.dashboard.configured.group.name:
+    text: 未启动
+run.dashboard.debug.action.description:
+    text: 调试所选配置
+run.dashboard.debug.action.name:
+    text: 调试
+run.dashboard.edit.configuration.dialog.title:
+    text: 编辑配置
+run.dashboard.failed.group.name:
+    text: 失败
+run.dashboard.remove.run.configuration.type.confirmation:
+    text: 从服务中移除{0}？
+run.dashboard.remove.run.configuration.types.confirmation:
+    text: 从服务中移除{0}个配置类型？
+run.dashboard.rerun.action.description:
+    text: 重新运行所选配置
+run.dashboard.rerun.action.name:
+    text: 重新运行
+run.dashboard.restart.debugger.action.description:
+    text: 以调试模式重新运行所选配置
+run.dashboard.restart.debugger.action.name:
+    text: 以调试模式重新运行
+run.dashboard.run.action.description:
+    text: 运行所选配置
+run.dashboard.run.action.name:
+    text: 运行
+run.dashboard.started.group.name:
+    text: 正在运行
+run.dashboard.stopped.group.name:
+    text: 已完成
+run.debug.dialog.title:
+    text: 运行/调试配置
+run.error.message.title:
+    text: 运行错误
+run.toolbar.widget.all.configurations:
+    text: 所有配置 {0}
+runner.content.tooltip.layout.settings:
+    text: 布局设置
+save.run.configuration.for.item.action.name:
+    text: "保存 ''{0}''"
+save.temporary.run.configuration.action.name:
+    text: 保存"{0}"配置(&S)
+script.execution.timeout:
+    text: 脚本执行时间超过 {0} 秒。
+searching.test.progress.title:
+    text: 正在搜索测试…
+select.0.1:
+    text: 选择{0} "{1}"
+select.applet.policy.file.dialog.title:
+    text: 选择 applet 策略文件
+select.run.configuration.for.item.action.name:
+    text: "选择 ''{0}''"
+select.working.directory.message:
+    text: 选择工作目录
+service.view.activate.tool.window.action.description:
+    text: 激活服务窗口
+service.view.activate.tool.window.action.name:
+    text: '{0}（服务）'
+service.view.add.service.action.name:
+    text: 添加服务
+service.view.all.services:
+    text: 所有服务
+service.view.configure.dialog.description:
+    text: 排除某个服务可将其显示为单独的工具窗口。<br>  排除某个运行配置类型可将其输出显示在运行/调试工具窗口中。
+service.view.configure.dialog.title:
+    text: 配置服务工具窗口
+service.view.configure.exclude.button.text:
+    text: 排除(&E) >
+service.view.configure.excluded.label.text:
+    text: 单独的工具窗口：
+service.view.configure.include.button.text:
+    text: < 包含(&I)
+service.view.configure.included.label.text:
+    text: 服务工具窗口：
+service.view.configure.run.configuration.types:
+    text: 运行/调试配置类型
+service.view.configure.run.tool.windows:
+    text: 运行/调试
+service.view.delete.confirmation:
+    text: 删除{0}？
+service.view.empty.selection.text:
+    text: 选择服务以查看详情
+service.view.empty.tab.text:
+    text: 无可用内容
+service.view.empty.tree.text:
+    text: 未配置任何服务。
+service.view.group.label:
+    text: 分组名称：
+service.view.group.title:
+    text: 分组服务
+service.view.include.into.services.action.text:
+    text: 添加到服务工具窗口
+service.view.items:
+    text: '{0, choice, 1#1项|1<{0,number,integer}项}'
+service.view.open.in.new.tab.ad.text:
+    text: 将节点拖到工具窗口标题上以打开新选项卡
+service.view.scroll.from.editor.action.description:
+    text: 选择活动编辑器中打开的服务
+service.view.scroll.from.editor.action.name:
+    text: 选择已打开的服务
+set.class.name.message:
+    text: 请先设置类名
+show.irrelevant.configurations.action.name:
+    text: 另外{0}项…
+show.running.list.action.description:
+    text: 显示正在运行的运行配置列表
+show.running.list.action.name:
+    text: 显示运行列表
+show.running.list.balloon.hint:
+    text: 点击导航
+show.running.list.balloon.nothing:
+    text: 无内容显示
+show.running.list.balloon.title:
+    text: 正在运行的列表
+show.swing.inspector:
+    text: 启用快照捕获
+show.swing.inspector.disabled:
+    text: 启用快照捕获 (requires JRE 5.0 or higher)
+sm.test.runner.magnitude.assertion.failed.title:
+    text: 断言失败
+sm.test.runner.magnitude.completed.failed.title:
+    text: 已完成
+sm.test.runner.magnitude.ignored.failed.title:
+    text: 已忽略
+sm.test.runner.magnitude.not.run.failed.title:
+    text: 未运行
+sm.test.runner.magnitude.passed.title:
+    text: 已通过
+sm.test.runner.magnitude.running.failed.title:
+    text: 正在运行…
+sm.test.runner.magnitude.skipped.failed.title:
+    text: 已跳过
+sm.test.runner.magnitude.terminated.failed.title:
+    text: 已终止
+sm.test.runner.magnitude.testerror.title:
+    text: 错误
+some.modules.has.circular.dependency.error.message:
+    text: 存在模块循环依赖。
+standard.runner.description:
+    text: 运行所选配置
+statistics.tab.title:
+    text: 统计
+stop.all:
+    text: 全部停止 ({0})
+stop.background.process:
+    text: 停止后台进程
+stop.configuration.action.name:
+    text: 停止"{0}"
+stop.incompatible.confirmation.button.text:
+    text: 停止不兼容的
+stop.incompatible.confirmation.message:
+    text: |-
+        "{0}"运行配置与{2, choice, 1#当前正在运行的{1}配置不兼容。|2#以下正在运行的配置不兼容：
+        {1}}
+        是否确定要停止{2, choice, 1#不兼容的运行实例|2#{2, number}个不兼容的运行实例}？
+stop.process:
+    text: 停止进程
+strings.equal.failed.dialog.title:
+    text: 比较失败
+template.settings.configurable.display.name:
+    text: 模板设置
+terminate.after.disconnect.checkbox:
+    text: 在断开后，终止该进程
+terminate.process.confirmation.text:
+    text: 是否要终止进程"{0}"？
+terminating.process.progress.kill:
+    text: 终止进程
+terminating.process.progress.title:
+    text: 正在终止"{0}"
+test.cases.count.message:
+    text: '{0}的测试实例)'
+test.in.scope.presentable.text:
+    text: '"{0}"中的测试'
+test.method.doesnt.exist.error.message:
+    text: "测试方法''{0}''不存在"
+test.not.started.progress.text:
+    text: 测试未启动
+tests.passed.with.warnings.message:
+    text: 测试通过(有警告)
+title.cannot.open.file:
+    text: 无法打开文件
+title.submitting.error.report:
+    text: 提交错误报告
+tool.window.name.run:
+    text: 运行
+up.the.stack.trace:
+    text: 向上遍历堆栈跟踪
+waiting.for.vm.detach.progress.text:
+    text: 正在等待进程分离
+warning.common.title:
+    text: 警告

@@ -1,0 +1,24 @@
+browser.error:
+    text: Error del navegador
+browser.select.in.default.name:
+    text: Navegador web
+browsers.settings:
+    text: Navegadores web y vista previa
+chooser.title.select.profiles.ini.file:
+    text: Seleccionar archivo "profiles.ini"
+display.name.firefox.settings:
+    text: Configuración de Firefox
+error.0.browser.path.not.specified:
+    text: No se ha especificado la ruta del navegador {0}.
+error.file.does.not.exist:
+    text: El archivo {0} no existe.
+error.malformed.url:
+    text: 'URL mal formada: {0}'
+error.please.specify.path.to.web.browser:
+    text: Especifique la ruta al navegador web en {0} | Navegadores web
+label.text.path.to.profiles.ini:
+    text: 'Ruta a "profiles.ini":'
+label.text.profile:
+    text: '&Perfil:'
+title.select.path.to.browser:
+    text: Seleccionar la ruta del navegador

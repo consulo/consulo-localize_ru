@@ -1,0 +1,426 @@
+access.static.via.class.reference.family:
+    text: クラス参照により静的にアクセスする
+access.static.via.class.reference.text:
+    text: "クラス ''{2}'' 参照により静的 ''{1}.{0}' にアクセスする"
+add.catch.clause.family:
+    text: キャッチ句への例外の追加
+add.catch.clause.text:
+    text: キャッチ句の追加
+add.class.to.extends.list:
+    text: "''{0}'' が ''{1}'' を拡張するようにする"
+add.constructor.parameter.name:
+    text: コンストラクタのパラメータを追加
+add.default.constructor.family:
+    text: デフォルト コンストラクタの追加
+add.default.constructor.text:
+    text: '{0} へのパブリックな引数がないコンストラクタの追加'
+add.docTag.to.custom.tags:
+    text: カスタムタグに{0}を追加する
+add.exception.from.field.initializer.to.constructor.throws.family.text:
+    text: クラスコンストラクタの署名に例外を追加する
+add.exception.to.throws.family:
+    text: メソッド シグネチャに例外を追加
+add.exception.to.throws.inherited.method.warning.text:
+    text: "メソッド ''{0}'' は継承されています。\n  メソッド階層全体でメソッド シグネチャに例外を追加しますか ?"
+add.exception.to.throws.text:
+    text: メソッド シグネチャに例外を追加
+add.import:
+    text: インポートの追加
+add.interface.to.implements.list:
+    text: "''{0}'' が ''{1}'' を実装するようにする"
+add.library.copy.files.to.radio.button:
+    text: "'' {0} ''ライブラリファイルをにコピーしてください"
+add.library.description.choose.folder:
+    text: ライブラリをコピーするディレクトリを選択してください
+add.library.error.not.found:
+    text: "ライブラリファイル'' {0}''は存在しません"
+add.library.title.choose.folder:
+    text: ディレクトリを選択
+add.library.title.dialog:
+    text: プロジェクトにライブラリを追加
+add.library.use.bundled.library.radio.button:
+    text: "{1}分布からの '' {0} ''を使用"
+add.method.body.text:
+    text: メソッドのボディの追加
+add.method.family:
+    text: メソッドの追加
+add.method.qualifier.fix.family:
+    text: メソッド修飾子を追加する
+add.method.qualifier.fix.text:
+    text: メソッドに修飾子{0}を追加する
+add.method.text:
+    text: "クラス ''{1}'' へのメソッド ''{0}'' の追加"
+add.missing.annotation.parameters.fix:
+    text: 欠落している注釈パラメータを追加する -  {0}
+add.missing.annotation.single.parameter.fix:
+    text: "不足している注釈パラメータ '' {0} ''を追加"
+add.modifier.fix:
+    text: "''{0}'' を {1} にする"
+add.new.array.family:
+    text: 見つからない新規の式を追加する
+add.new.array.text:
+    text: "''new {0}[]'' を追加する"
+add.qualifier:
+    text: 修飾子を追加
+add.return.statement.text:
+    text: return 文の追加
+add.runtime.exception.to.throws.family:
+    text: メソッド シグネチャにランタイム例外を追加
+add.runtime.exception.to.throws.text:
+    text: メソッド シグネチャにランタイム例外を追加
+add.typecast.family:
+    text: TypeCast の追加
+add.typecast.text:
+    text: "''{0}'' にキャストする"
+adjust.package.family:
+    text: パッケージ名の調整
+adjust.package.text:
+    text: "パッケージ名を ''{0}'' に設定する"
+annotations.fix:
+    text: 注釈
+anonymous.class.presentation:
+    text: '{0} から派生した匿名クラス'
+bring.variable.to.scope.family:
+    text: 変数をスコープに入れる
+bring.variable.to.scope.text:
+    text: "''{0}'' をスコープに入れる"
+cannot.change.field.exception:
+    text: "フィールド ''{0}'' の型を変更できません。\n理由 : {1}"
+cannot.create.java.file.error.text:
+    text: '{1} で {0}.java を作成できません : {2}'
+cannot.create.java.file.error.title:
+    text: ファイル作成失敗
+cast.parameter.text:
+    text: "{0, choice, 1#1st|2#2nd|3#3rd|4#{0,number}th} パラメータを ''{1}'' にキャストする"
+cast.single.parameter.text:
+    text: "パラメータを ''{0}'' にキャストする"
+change.extends.list.family:
+    text: クラスの拡張
+change.inheritors.visibility.warning.text:
+    text: 継承の可視性をベース メソッドの可視性に変更しますか ?
+change.inheritors.visibility.warning.title:
+    text: 継承の変更
+change.method.signature.from.usage.family:
+    text: 使用箇所からメソッド シグネチャを変更する
+change.method.signature.from.usage.text:
+    text: "''{0}'' のシグネチャを ''{1}({2})'' に変更する"
+change.parameter.class.family:
+    text: パラメータ クラスの変更
+change.to.append.family:
+    text: StringBuilderのAPPENDを修正
+change.to.append.text:
+    text: "''{0}''に変更"
+class.initializer.presentation:
+    text: '{0} クラス初期化子'
+collection.addall.can.be.replaced.with.constructor.fix.description:
+    text: "'' {0}（） ''メソッドはパラメータ化されたコンストラクタで置き換えることができます"
+collection.addall.can.be.replaced.with.constructor.fix.options.title:
+    text: 確認するクラス
+collection.addall.can.be.replaced.with.constructor.fix.title:
+    text: "'addAll / putAll'メソッドをパラメータ化されたコンストラクタ呼び出しで置き換える"
+collection.to.array.family.name:
+    text: "変換を適用する'toArray（） '"
+collection.to.array.text:
+    text: "変換を適用する '' .toArray（{0}） ''"
+convert.method.to.constructor:
+    text: メソッドをコンストラクタにする
+convert.to.string.family:
+    text: 文字リテラル修正
+convert.to.string.text:
+    text: リテラル文字列に変換
+create.accessor.for.unused.field.family:
+    text: 未使用フィールドのアクセッサの作成
+create.class.from.new.family:
+    text: 新規からのクラスの作成
+create.class.from.new.text:
+    text: "クラス ''{0}'' の作成"
+create.class.from.usage.family:
+    text: 使用箇所からのクラスの作成
+create.class.text:
+    text: クラス{0}を作成
+create.class.title:
+    text: クラスの作成
+create.constant.from.usage.family:
+    text: 使用箇所からの定数の作成
+create.constant.from.usage.text:
+    text: 定数フィールド {0} の作成
+create.constructor.from.new.family:
+    text: 新規からのコンストラクタの作成
+create.constructor.from.new.text:
+    text: コンストラクタの作成
+create.constructor.from.super.call.family:
+    text: super() 呼び出しからのコンストラクタの作成
+create.constructor.from.this.call.family:
+    text: this() 呼び出しからのコンストラクタの作成
+create.constructor.matching.super:
+    text: スーパーと一致するコンストラクタを作成する
+create.constructor.text:
+    text: "''{0}'' でのコンストラクタの作成"
+create.field.from.usage.family:
+    text: 使用箇所からのフィールドの作成
+create.field.from.usage.text:
+    text: "フィールド ''{0}'' の作成"
+create.field.text:
+    text: フィールド{0}の作成
+create.getter:
+    text: Getter の作成
+create.getter.and.setter.for.field:
+    text: "''{0}'' の getter と setter を作成する"
+create.getter.for.field:
+    text: "''{0}'' の getter を作成する"
+create.interface.text:
+    text: インターフェース{0}を作成
+create.local.from.instanceof.usage.family:
+    text: instanceof の使用箇所からローカル変数を作成
+create.local.from.instanceof.usage.text:
+    text: "''({0}){1}'' 宣言を挿入する"
+create.local.from.usage.family:
+    text: 使用箇所からのローカルの作成
+create.local.from.usage.text:
+    text: "ローカル変数 ''{0}'' の作成"
+create.method.from.usage.family:
+    text: 使用箇所からのメソッドの作成
+create.method.from.usage.text:
+    text: "メソッド ''{0}'' の作成"
+create.package.text:
+    text: パッケージ{0}を作成
+create.parameter.from.usage.family:
+    text: 使用箇所からのパラメータの作成
+create.parameter.from.usage.text:
+    text: "パラメータ ''{0}'' の作成"
+create.property.from.usage.family:
+    text: 使用箇所からのプロパティの作成
+create.property.text:
+    text: プロパティ{0}の作成
+create.readable.property:
+    text: "''{0}''のゲッターを作成"
+create.readable.property.with.field:
+    text: "''{0}''のgetterメソッドとフィールドを作成"
+create.readable.writable.property.with.field:
+    text: "''{0}''のgetter、setterメソッドとフィールドを作成"
+create.setter:
+    text: Setter の作成
+create.setter.for.field:
+    text: "''{0}'' の setter を作成する"
+create.writable.property:
+    text: "''{0}''のセッターを作成"
+create.writable.property.with.field:
+    text: "''{0}''のsetterメソッドとフィールドを作成"
+defer.final.assignment.with.temp.family:
+    text: temp を使用して最終代入を延期する
+defer.final.assignment.with.temp.text:
+    text: "temp 変数を使用して ''{0}'' への代入を延期する"
+delete.body.text:
+    text: ボディの削除
+delete.catch.family:
+    text: キャッチの削除
+delete.catch.text:
+    text: "''{0}'' のキャッチを削除する"
+delete.element.fix.text:
+    text: 要素を削除する
+delete.reference.fix.text:
+    text: 参照の削除
+enable.optimize.imports.on.the.fly:
+    text: '[設定] - [エディタ] - [オンザフライでインポートを最適化する] を有効にする'
+exchange.extends.implements.keyword:
+    text: "''{0} {2}'' を ''{1} {2}'' に変更する"
+field.to.import.chooser.title:
+    text: インポートするフィールド
+fix.argument.family:
+    text: 引数を修正
+fix.javadoc.family:
+    text: Javadoc の修復
+fix.modifiers.family:
+    text: 修飾子の修復
+fix.parameter.type.family:
+    text: パラメータの型の修復
+fix.parameter.type.text:
+    text: "''{0}'' が型 ''{1}'' のパラメータをここで使用するようにする"
+fix.return.type.family:
+    text: 戻り型の修復
+fix.return.type.text:
+    text: "''{0}'' が ''{1}'' を返すようにする"
+fix.super.method.return.type.family:
+    text: スーパー メソッドの戻り型の修復
+fix.super.method.return.type.text:
+    text: "''{0}'' が ''{1}'' を返すようにする"
+fix.throws.list.add.exception:
+    text: "''{1}'' スロー リストに ''{0}'' を追加する"
+fix.throws.list.family:
+    text: スロー リストの修復
+fix.throws.list.remove.exception:
+    text: "''{1}'' スロー リストから ''{0}'' を削除する"
+fix.variable.type.family:
+    text: 変数の型の修復
+fix.variable.type.text:
+    text: "''{0}'' の型を ''{1}'' に変更する"
+generalize.catch.family:
+    text: キャッチの一般化
+generalize.catch.text:
+    text: "''{0}'' のキャッチを ''{1}'' に一般化する"
+generify.family:
+    text: ファイルの一般化
+generify.text:
+    text: "''{0}'' を一般化する"
+implement.methods.fix:
+    text: メソッドの実装
+import.class.fix:
+    text: クラスのインポート
+initialize.final.field.in.constructor.name:
+    text: コンストラクタで初期化
+insert.new.fix:
+    text: 新規の挿入
+insert.sam.method.call.fix.family.name:
+    text: 単一の抽象メソッド呼び出しを挿入する
+insert.sam.method.call.fix.name:
+    text: "''。{0} ''を挿入して機能的インタフェースのメソッドを呼び出す"
+insert.super.constructor.call.family:
+    text: ベース制御呼び出し
+insert.super.constructor.call.text:
+    text: "'super();' の挿入"
+make.class.an.interface.family:
+    text: クラスをインターフェイスにする
+make.class.an.interface.text:
+    text: "''{0}'' をインターフェイスにする"
+make.final.copy.to.temp:
+    text: "''{0}'' を temp final 変数にコピーする"
+make.final.family:
+    text: Final にする
+make.final.text:
+    text: "''{0}'' を final にする"
+make.final.transform.to.one.element.array:
+    text: "''{0}'' を final の 1 つの要素配列に変形する"
+make.vararg.parameter.last.family:
+    text: vararg パラメータを最後にする
+make.vararg.parameter.last.text:
+    text: "''{0}'' をリストの最後に移動する"
+method.to.import.chooser.title:
+    text: インポートする方法
+module.info.add.requires.family.name:
+    text: "module-info.javaに 'requires'ステートメントを追加する"
+module.info.add.requires.name:
+    text: "''をmodule-info.javaに追加するには{0} ''文が必要です"
+move.bound.class.to.front.fix.text:
+    text: "境界 ''{0}'' を型パラメータ ''{1}'' の境界リストの先頭に移動する"
+move.catch.up.family:
+    text: キャッチを上に移動
+move.catch.up.text:
+    text: "''{0}'' のキャッチを ''{1}'' の前に移動する"
+move.class.in.extend.list.family:
+    text: 拡張リストのクラスの移動
+move.class.to.package.family:
+    text: パッケージへのクラスの移動
+move.class.to.package.text:
+    text: "パッケージ ''{0}'' に移動する"
+move.class.to.separate.file.family:
+    text: セパレータ ファイルへのクラスの移動
+move.class.to.separate.file.text:
+    text: "クラス ''{0}'' を ''{0}.java'' に移動する"
+move.file.to.source.root.text:
+    text: ファイルをソースルートに移動する
+negation.broader.scope.family:
+    text: より広いコープの否定
+negation.broader.scope.text:
+    text: "''!({0})'' に変更する"
+new.method.body.template.error.text:
+    text: '"新規メソッド ボディ" テンプレートを修正してください'
+new.method.body.template.error.title:
+    text: ファイル テンプレート エラー
+optimize.imports.fix:
+    text: インポートの最適化
+orderEntry.fix.add.dependency.on.module.choose:
+    text: モジュールに依存関係を追加...
+orderEntry.fix.add.library.to.classpath:
+    text: "クラスパスに'' {0}''ライブラリを追加"
+orderEntry.fix.choose.module.to.add.dependency.on:
+    text: モジュールを選択して依存関係を追加する
+orderEntry.fix.family.add.library.to.classpath:
+    text: クラスパスにライブラリを追加
+orderEntry.fix.family.add.module.dependency:
+    text: モジュールの依存関係を追加する
+remove.class.from.extends.list:
+    text: "''{0}'' が ''{1}'' を拡張しないようにする"
+remove.interface.from.implements.list:
+    text: "''{0}'' が ''{1}'' を実装しないようにする"
+remove.modifier.fix:
+    text: "''{0}'' を {1} でないようにする"
+remove.qualifier.action.text:
+    text: 修飾子を削除
+remove.qualifier.fix:
+    text: 限定子の削除
+remove.redundant.arguments.family:
+    text: 冗長な引数を削除
+remove.redundant.arguments.text:
+    text: "''{0}''呼び出すために冗長な引数を削除します"
+remove.redundant.else.fix:
+    text: "冗長な 'else' の削除"
+remove.unused.field:
+    text: "フィールド ''{0}'' の削除"
+remove.unused.parameter.family:
+    text: 未使用パラメータの削除
+remove.unused.parameter.text:
+    text: "パラメータ ''{0}'' の削除"
+remove.unused.variable:
+    text: "変数 ''{0}'' の削除"
+remove.unused.variable.family:
+    text: 未使用変数の削除
+rename.wrong.reference.family:
+    text: 不正な参照名の変更
+rename.wrong.reference.text:
+    text: 参照名の変更
+reuse.variable.declaration.family:
+    text: 変数宣言の再使用
+reuse.variable.declaration.text:
+    text: "以前の変数 ''{0}'' 宣言の再使用"
+safe.delete.family:
+    text: セーフ デリート
+safe.delete.text:
+    text: "''{0}'' のセーフ デリート"
+searching.for.usages.progress.title:
+    text: 使用箇所を検索しています...
+setup.jdk.location.family:
+    text: JDK の場所の設定
+setup.jdk.location.text:
+    text: JDK の設定
+side.effect.action.cancel:
+    text: キャンセル(&C)
+side.effect.action.remove:
+    text: 削除(&R)
+side.effect.action.transform:
+    text: 変形(&T)
+side.effect.message1:
+    text: "<html><body>  変数 ''{0}'' に代入された式で可能性のある副作用が見つかりました。<br>  次のことができます :<ul><li>含まれているすべての式と共に変数の使用箇所を<b>削除</b>する。</li>  </body></html>"
+side.effects.warning.dialog.title:
+    text: 見つかった副作用
+simplify.boolean.expression.family:
+    text: Boolean 式を簡略化する
+simplify.boolean.expression.text:
+    text: "''{0}'' を {1} に簡略化する"
+static.import.method.choose.method.to.import:
+    text: インポートするメソッドの選択
+super.class.constructors.chooser.title:
+    text: スーパー クラス コンストラクタの選択
+surround.with.try.catch.fix:
+    text: try/catch で囲む
+target.class.chooser.title:
+    text: ターゲット クラスの選択
+uidesigner.change.bound.field.type:
+    text: 結合フィールドの型を変更する
+uidesigner.change.gui.component.type:
+    text: GUI コンポーネントの型を変更する
+wrap.array.to.arrays.as.list.single.parameter.text:
+    text: "'Arrays.asList（）'を使用して折り返す"
+wrap.expression.using.static.accessor.family:
+    text: 式の折り返し
+wrap.expression.using.static.accessor.text:
+    text: "''{1}'' を使用して ''{0}'' を折り返す"
+wrap.long.with.math.to.int.parameter.single.text:
+    text: "'Math.toIntExact（）'を使用してパラメータを折り返します。"
+wrap.long.with.math.to.int.text:
+    text: "'Math.toIntExact（）'を使用して折り返す"
+wrap.with.java.io.file.parameter.single.text:
+    text: "'new File（）'を使用してパラメータを折り返します。"
+wrap.with.java.io.file.text:
+    text: "'new File（）'を使用して折り返す"
+wrap.with.optional.single.parameter.text:
+    text: "'java.util.Optional'を使用して折り返す"

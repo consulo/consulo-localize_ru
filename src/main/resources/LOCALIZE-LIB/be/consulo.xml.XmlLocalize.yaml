@@ -1,0 +1,216 @@
+any.dialog.status:
+    text: Статус
+browse.button.tooltip:
+    text: Обзор локальных файлов
+browser.error:
+    text: Памылка браўзера
+browser.select.in.default.name:
+    text: Вэб-браўзер
+button.text.settings:
+    text: Налады…
+cant.delete.file:
+    text: Немагчыма выдаліць файл {0}
+cant.rename.file:
+    text: Немагчыма перайменаваць {0} у {1}
+chooser.title.select.profiles.ini.file:
+    text: Выберыце файл «profiles.ini».
+color.name:
+    text: імя колеру
+display.name.firefox.settings:
+    text: Налады Firefox
+emmet.expand.abbreviation.with:
+    text: Разгарнуць скарачэнне [&A]
+error:
+    text: Памылка
+file.doesnt.exist:
+    text: Файл {0} не існуе
+generate.instance.document.from.schema.dialog.title:
+    text: Згенераваць дакумент-экзэмпляр са схемы
+generate.schema.from.instance.document.dialog.title:
+    text: Згенераваць схему з дакумента-экзэмпляра
+global.elements.local.types.option.name:
+    text: Глабальныя элементы/лакальныя тыпы
+html.inspections.check.deprecated.tag:
+    text: Састарэлы тэг
+html.inspections.check.empty.script.message:
+    text: Пусты тэг несапраўдны ў некаторых браўзерах
+html.inspections.check.empty.script.tag.fix.message:
+    text: Развернуть тег
+html.inspections.check.empty.tag:
+    text: Пустой тег
+html.inspections.check.image.height.fix.message:
+    text: Усталяваць значэнне вышыні {0}
+html.inspections.check.image.height.message:
+    text: Зыходная вышыня выявы {0}
+html.inspections.check.image.size:
+    text: Неадпаведнасць памеру выявы
+html.inspections.check.image.width.fix.message:
+    text: Усталяваць значэнне шырыні {0}
+html.inspections.check.image.width.message:
+    text: Зыходная шырыня выявы {0}
+html.inspections.check.presentational.tag:
+    text: Прэзентацыйны тэг
+html.inspections.check.valid.script.tag:
+    text: "Няправільнае змесціва тэга 'script'"
+html.inspections.create.label.from.text.after.action:
+    text: Стварыць новую метку з тэксту пасля элемента {0}
+html.inspections.create.label.from.text.before.action:
+    text: Стварыць новую метку з тэксту перад элементам {0}
+html.inspections.create.new.label:
+    text: Связать новую метку с элементом {0}
+html.inspections.form.input.without.label:
+    text: Отсутствует связанная метка
+html.inspections.non.existent.internet.resource.name:
+    text: Неразрешённая веб-ссылка
+html.inspections.unknown.anchor:
+    text: Неразрешённый фрагмент в ссылке
+html.inspections.unknown.attribute:
+    text: Невядомы атрыбут
+html.inspections.unknown.boolean.attribute:
+    text: Некарэктны булеў атрыбут
+html.inspections.unknown.tag:
+    text: Невядомы тэг
+html.inspections.unknown.tag.attribute.checkbox.title:
+    text: 'Карыстальніцкія HTML-атрыбуты:'
+html.inspections.unknown.tag.boolean.attribute.checkbox.title:
+    text: 'Карыстальніцкія лагічныя HTML-атрыбуты:'
+html.inspections.unknown.tag.checkbox.title:
+    text: 'Карыстальніцкія HTML-тэгі:'
+html.inspections.unknown.target:
+    text: Неразрешённый файл в ссылке
+html.quickdoc.additional.template:
+    text: Дадатковая інфармацыя на <a href="{0}">сайце MDN</a>.
+html.replace.tag.with.another.quickfix.text:
+    text: Замяніць тэг {0} на тэг {1}
+html.replace.tag.with.css.quickfix.text:
+    text: Замяніць тэг {0} на CSS
+html5.outline.mode:
+    text: HTML5 структура
+instance.document.file.is.not.exist:
+    text: Файл дакумента-экзэмпляра не існуе
+instance2schema.dialog.design.type:
+    text: 'Тып дызайну:'
+instance2schema.dialog.detect.enumerations.limit:
+    text: 'Ліміт выяўлення пералічэнняў:'
+instance2schema.dialog.detect.simple.content.type:
+    text: 'Выяўляць просты тып змесціва:'
+instance2schema.dialog.instance.document.path:
+    text: 'Путь к документу-экземпляру:'
+invalid.number.validation.problem:
+    text: Недапушчальны лік
+label.text.path.to.profiles.ini:
+    text: 'Шлях да "profiles.ini":'
+label.text.profile:
+    text: 'Профіль [&P]:'
+local.elements.global.complex.types.option.name:
+    text: Лакальныя элементы/глабальныя складаныя тыпы
+local.elements.types.option.name:
+    text: Лакальныя элементы/тыпы
+negative.number.validation.problem:
+    text: Адмоўны лік
+no.class.in.selected.text.editor.error.message:
+    text: Нет класса в выбранном текстовом редакторе
+result.schema.file.name.is.empty.validation.problem:
+    text: Імя файла схемы выніку пустое
+schema2.instance.no.valid.root.element.name.validation.error:
+    text: Недапушчальнае імя каранёвага элемента
+schema2.instance.output.file.name.is.empty.validation.problem:
+    text: Недапушчальнае імя выхаднога файла
+schema2instance.dialog.element.name:
+    text: 'Імя элемента:'
+schema2instance.dialog.enable.restriction.check:
+    text: Уключыць праверку абмежаванняў
+schema2instance.dialog.enable.unique.check:
+    text: Уключыць праверку ўнікальнасці
+schema2instance.dialog.instance.document.name:
+    text: 'Імя дакумента экзэмпляра:'
+schema2instance.dialog.schema.path:
+    text: 'Путь к схеме:'
+select.xml.document.dialog.title:
+    text: Выбрать XML-документ
+select.xsd.schema.dialog.title:
+    text: Выбрать XSD-схему
+settings.enable.html.xml.tag.tree.highlighting:
+    text: Уключыць падсветку дрэва тэгаў HTML/XML
+settings.levels.to.highlight:
+    text: 'Узроўні для падсветкі:'
+settings.opacity:
+    text: 'Прозрачность:'
+tag.name.completion.display.name:
+    text: Аўтадапаўненне імя тэга
+tag.name.completion.hint:
+    text: Націсніце {0} для прагляду тэгаў у іншых прасторах імёнаў
+url.is.empty.validation.problem:
+    text: URL пуст
+webservice.status.tooltip:
+    text: Бягучы статус налад, памылкі ўводу і г.д.
+xml.dtd.create.dtd.element.intention.name:
+    text: "Стварыць аб'яўленне элемента {0}"
+xml.dtd.create.entity.intention.name:
+    text: "Стварыць аб'яўленне сутнасці {0}"
+xml.inspections.check.dtd.references:
+    text: Невырашаныя спасылкі DTD
+xml.inspections.check.file.with.xerces:
+    text: Памылка знешняй валідацыі
+xml.inspections.check.tag.empty.body:
+    text: Пустое змесціва элемента
+xml.inspections.duplicate.id:
+    text: "Дублюючы атрыбут 'id'"
+xml.inspections.invalid.id:
+    text: "Неразрешённая ссылка 'id'"
+xml.inspections.path.resolve:
+    text: Неразрешённая ссылка на файл
+xml.inspections.tag.empty.body:
+    text: XML-тэг мае пустое цела
+xml.inspections.unbound.prefix:
+    text: Незвязаны прэфікс прасторы імёнаў
+xml.inspections.unused.schema:
+    text: "Нявыкарыстанае аб'яўленне схемы"
+xml.inspections.unused.schema.declaration:
+    text: "Аб'яўленне прасторы імёнаў ніколі не выкарыстоўваецца"
+xml.inspections.unused.schema.location:
+    text: Размяшчэнне прасторы імёнаў ніколі не выкарыстоўваецца
+xml.javadoc.complex.type.message:
+    text: Складаны тып
+xml.javadoc.description.message:
+    text: Апісанне
+xml.javadoc.enumeration.value.message:
+    text: Значэнне пералічэння
+xml.javadoc.tag.name.message:
+    text: Імя тэга
+xml.javadoc.version.message:
+    text: Версія
+xml.validate.no.errors.detected.status.message:
+    text: Памылак не выяўлена
+xml.validate.tab.content.title:
+    text: Валідацыя {0}
+xml.validate.validation.is.running.terminate.confirmation.text:
+    text: Перарваць валідацыю?
+xml.validate.validation.is.running.terminate.confirmation.title:
+    text: Выконваецца валідацыя
+xml2xsd.generator.error:
+    text: Памылка генератара Instance 2 Schema
+xml2xsd.generator.error.message:
+    text: Не ўдалося згенераваць схему з дакумента экзэмпляра. Праверце ваш xml-дакумент
+xmlbeans.designtype.tooltip:
+    text: XMLSchema тып дызайну
+xmlbeans.enumerations.tooltip:
+    text: Выяўленне пералічэнняў з агульнай колькасці
+xmlbeans.instance.document.name.tooltip:
+    text: Імя файла дакумента экзэмпляра для генерацыі
+xmlbeans.instance2schema.result.schema.name:
+    text: Імя файла выніковай схемы
+xmlbeans.instance2schema.url.tooltip:
+    text: Путь к документу экземпляра
+xmlbeans.particle.valid.tooltip:
+    text: Уключыць правілы валіднасці часціц (абмежаванні)
+xmlbeans.rootelement.tooltip:
+    text: Каранёвы элемент для генерацыі дакумента экзэмпляра
+xmlbeans.schema2instance.url.tooltip:
+    text: Путь к схеме
+xmlbeans.simplecontenttype.tooltip:
+    text: Вызначэнне простых тыпаў змесціва (лісцявы тэкст)
+xmlbeans.unique.particle.tooltip:
+    text: Уключыць правіла ўнікальнасці часціц
+xmlbeans.url.tooltip:
+    text: Шлях да схемы або WSDL, якая выкарыстоўваецца для генерацыі з дапамогай XMLBeans

@@ -1,0 +1,162 @@
+anonymous.class.context.display:
+    text: '{0} の匿名'
+anonymous.class.derived.display:
+    text: '{0} から派生した匿名クラス'
+anonymous.class.display:
+    text: 匿名クラス
+code.display:
+    text: コード
+code.from.context.display:
+    text: '{0} からのコード'
+codestyle.cannot.save.scheme.file:
+    text: コード スタイル スキーム {0} を保存できません。 {1}
+codestyle.cannot.save.settings.directory.cant.be.created.message:
+    text: コード スタイル スキームを保存できません。 ディレクトリ {0} は作成できません。
+codestyle.cannot.save.settings.directory.cant.be.created.title:
+    text: 設定を保存できません
+codestyle.export.display.name:
+    text: コード スタイル スキーム
+color.name:
+    text: カラー名:\&nbsp; {0}
+color.rgb:
+    text: カラーRGB:\&nbsp; {0}
+compound.run.configuration.cycle:
+    text: "{0} '' {1} ''は依存関係のサイクルを引き起こし、追加できません"
+default.package.presentation:
+    text: <デフォルト>
+el.cannot.resolve.function:
+    text: 関数を解決できません
+el.cannot.resolve.namespace:
+    text: 名前空間を解決できません
+el.cannot.resolve.property:
+    text: プロパティを解決できません (ダイナミック プロパティ ?)
+el.colon.expected:
+    text: ': が必要です'
+el.expression.expected:
+    text: 式が必要です
+el.identifier.expected:
+    text: 識別子が必要です
+el.lparen.expected:
+    text: ( が必要です
+el.rbracket.expected:
+    text: '] が必要です'
+el.rparen.expected:
+    text: ) が必要です
+el.unexpected.end.of.file:
+    text: 不要な EOF です
+el.value.expected:
+    text: 値が必要です
+incorrect.name:
+    text: 不適切な名前
+java.terms.anonymous.class:
+    text: 匿名クラス
+java.terms.class:
+    text: クラス
+java.terms.constructor:
+    text: コンストラクタ
+java.terms.exception:
+    text: 例外
+java.terms.field:
+    text: フィールド
+java.terms.instance.initializer:
+    text: インスタンス初期化子
+java.terms.interface:
+    text: インターフェイス
+java.terms.label:
+    text: ラベル
+java.terms.method:
+    text: メソッド
+java.terms.of.annotation.type:
+    text: 注釈型 {1} の {0}
+java.terms.of.anonymous.class:
+    text: 匿名クラスの {0}
+java.terms.of.class:
+    text: クラス {1} の {0}
+java.terms.of.enum:
+    text: enum {1} の {0}
+java.terms.of.interface:
+    text: インターフェイス {1} の {0}
+java.terms.package:
+    text: パッケージ
+java.terms.parameter:
+    text: パラメータ
+java.terms.static.initializer:
+    text: 静的初期化子
+java.terms.type.parameter:
+    text: 型パラメータ
+java.terms.variable:
+    text: 変数
+java.terms.variable.of.method:
+    text: '{1} の {0}'
+jsp.documentation.message.can.have.runtime.value:
+    text: ランタイム値 :&nbsp;{0}
+jsp.documentation.message.custom.attribute.name:
+    text: カスタム属性名
+jsp.documentation.message.custom.tag.name:
+    text: カスタム タグ名
+jsp.documentation.message.description:
+    text: 説明 :&nbsp;{0}
+jsp.documentation.message.example.of.use:
+    text: 使用&nbsp;の&nbsp;例 :<br>{0}
+jsp.documentation.message.fragment:
+    text: フラグメント :&nbsp;{0}
+jsp.documentation.message.required:
+    text: 必要 :&nbsp;{0}
+jsp.documentation.message.type:
+    text: 型 :&nbsp;{0}
+jsp.taglib.method.reference.error.class.is.not.public:
+    text: クラスがパブリックではありません
+jsp.taglib.method.reference.error.class.is.not.valid:
+    text: クラスが有効ではありません
+jsp.taglib.method.reference.error.different.return.type:
+    text: 異なる戻り型
+jsp.taglib.method.reference.error.method.should.be.public.or.static:
+    text: メソッドはパブリックまたは静的でなければなりません
+jsp.taglib.method.reference.error.no.such.method:
+    text: そのメソッドはありません
+jsp.taglib.method.reference.error.signature.is.different:
+    text: シグネチャが異なります
+local.class.preposition:
+    text: ローカル
+psi.error.incorroect.class.template.message:
+    text: '{0} を作成できません - {1} テンプレートが正しくありません。'
+psi.scanning.files.in.folder.progress:
+    text: '{0} でファイルをスキャンしています...'
+psi.scanning.files.progress:
+    text: ファイルをスキャンしています...
+psi.search.in.non.java.files.progress:
+    text: 非 java ファイルの使用箇所を分析しています...
+psi.search.inheritors.of.class.progress:
+    text: '{0} の継承を検索しています...'
+psi.search.inheritors.progress:
+    text: 継承を検索しています...
+psi.search.scope.intersection:
+    text: '{0} と {1} の交点'
+psi.search.scope.libraries:
+    text: 図書館
+psi.search.scope.production.files:
+    text: プロジェクト製品ファイル
+psi.search.scope.project:
+    text: プロジェクト ファイル
+psi.search.scope.project.and.libraries:
+    text: プロジェクトとライブラリ
+psi.search.scope.test.files:
+    text: プロジェクト テスト ファイル
+psi.search.scope.union:
+    text: '{0} と {1} のユニオン'
+terms.directory:
+    text: ディレクトリ
+terms.file:
+    text: ファイル
+terms.property:
+    text: プロパティ
+xml.terms.attribute:
+    text: 属性
+xml.terms.attribute.value:
+    text: 属性値
+xml.terms.tag:
+    text: タグ
+xml.terms.variable:
+    text: 変数
+xml.terms.xml.tag:
+    text: XML タグ

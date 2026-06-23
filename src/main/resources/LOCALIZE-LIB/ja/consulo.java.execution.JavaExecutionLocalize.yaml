@@ -1,0 +1,12 @@
+application.configuration.description:
+    text: アプリケーション設定
+application.configuration.main.class.label:
+    text: 'メイン クラス(&C):'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 'クラスパスと JDK (&O):'
+jar.application.configuration.description:
+    text: "'java -jar'コマンドを使用してJARファイルを実行する設定"
+jar.application.configuration.name:
+    text: JARアプリケーション
+jre.path.is.not.valid.jre.home.error.message:
+    text: "'' {0} ''は有効なJREホームではありません"

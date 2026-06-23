@@ -1,0 +1,38 @@
+error.connection.failed.redirects:
+    text: 'Error de conexión: demasiadas redirecciones'
+http.proxy.configurable:
+    text: Proxy HTTP
+proxy.direct.rb:
+    text: Sin proxy
+proxy.manual.auth:
+    text: A&utenticación de proxy
+proxy.manual.exclude:
+    text: 'Sin proxy para:'
+proxy.manual.exclude.example:
+    text: 'Ejemplo: *.example.com, 192.168.*'
+proxy.manual.host:
+    text: 'Nombre de &host:'
+proxy.manual.port:
+    text: '&Número de puerto:'
+proxy.manual.rb:
+    text: Configuración manual de proxy
+proxy.pac.pw.clear.button:
+    text: Borrar contraseñas
+proxy.pac.rb:
+    text: Detectar automáticamente la configuración del proxy
+proxy.pac.rb.tt:
+    text: Esto intentará usar la configuración de su sistema y es útil si su sistema utiliza un archivo de configuración automática de proxy (.pac).
+proxy.pac.url.example:
+    text: 'Ejemplo: https://example.com/wpad.pac'
+proxy.pac.url.label:
+    text: 'URL de configuración automática de proxy:'
+proxy.settings.override.by.plugin.checkbox:
+    text: "Ajustes de proxy proporcionados por el complemento ''{0}''"
+proxy.system.label:
+    text: <html>Tiene la propiedad JVM <tt>java.net.useSystemProxies</tt> establecida en <tt>true</tt>. Esto hará que algunas llamadas de red se realicen a través del proxy definido por el sistema operativo. Si no tiene intención de usar el proxy definido por el sistema, desactive esta propiedad.</html>
+proxy.system.proxy.settings:
+    text: Configuración de proxy del &sistema…
+proxy.test.button:
+    text: Comprobar conexión
+proxy.tunneling.disabled.warning:
+    text: <html>La autenticación de proxy básica está desactivada actualmente para las conexiones HTTPS. Es posible que las conexiones HTTPS fallen si el proxy requiere autenticación. Para permitir la autenticación de proxy básica, añada <tt>-Djdk.http.auth.tunneling.disabledSchemes=""</tt> a su archivo de opciones de VM y reinicie.</html>

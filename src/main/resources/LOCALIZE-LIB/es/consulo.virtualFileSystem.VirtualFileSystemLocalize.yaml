@@ -1,0 +1,60 @@
+cannot.create.local.file:
+    text: 'No se puede crear el archivo local: {0}'
+cannot.delete.root.directory:
+    text: "No se puede eliminar el directorio raíz ''{0}''"
+cannot.load.remote.file:
+    text: "No se puede cargar ''{0}'': {1}"
+cannot.rename.root.directory:
+    text: "No se puede renombrar el directorio raíz ''{0}''"
+dialog.title.clear.read.only.file.status:
+    text: Quitar el estado de solo lectura
+dir.already.exists.error:
+    text: "El directorio ''{0}'' ya existe."
+directory.create.wrong.parent.error:
+    text: No es un directorio. No se puede crear un nuevo directorio dentro.
+directory.invalid.name.error:
+    text: "Nombre de directorio no válido: ''{0}''"
+download.progress.connecting:
+    text: "Conectando a ''{0}''…"
+download.progress.downloading:
+    text: "Descargando ''{0}''…"
+file.already.exists.error:
+    text: "El archivo ''{0}'' ya existe."
+file.copy.error:
+    text: No se puede copiar el archivo a {0}
+file.copy.target.must.be.directory:
+    text: No se puede copiar, el destino debe ser un directorio.
+file.create.already.exists.error:
+    text: No se puede crear el archivo {0}/{1}. El archivo ya existe.
+file.create.wrong.parent.error:
+    text: No es un directorio. No se puede crear un nuevo archivo dentro.
+file.delete.root.error:
+    text: No se puede eliminar el archivo raíz {0}.
+file.invalid.name.error:
+    text: "Nombre de archivo no válido: ''{0}''"
+file.move.error:
+    text: No se puede mover el archivo a {0}
+file.read.error:
+    text: No se puede leer el archivo {0}.
+file.synchronize.progress:
+    text: Sincronizando archivos…
+file.write.error:
+    text: No se puede escribir en el archivo {0}.
+handle.ro.file.status.failed:
+    text: <html>No se pudo cambiar el estado de solo lectura de los siguientes archivos:<br>{0}</html>
+handle.ro.file.status.type.using.file.system:
+    text: usando el sistema de archivos
+invalid.directory.create.files:
+    text: Directorio no válido. No se pueden crear archivos.
+jar.modification.not.supported.error:
+    text: No se puede modificar el archivo {0}
+url.parse.error:
+    text: No se puede analizar la URL {0}
+url.parse.unhandled.exception:
+    text: No se pudo analizar la URL, se produjo una excepción no controlada
+vfs.file.not.exist.error:
+    text: "''{0}'' no existe en VFS"
+vfs.target.already.exists.error:
+    text: "''{0}'' ya existe en el VFS"
+vfs.target.not.directory.error:
+    text: "''{0}'' no es un directorio en VFS"

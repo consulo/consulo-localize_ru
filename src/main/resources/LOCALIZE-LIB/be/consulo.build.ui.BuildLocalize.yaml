@@ -1,0 +1,52 @@
+action.filters.text:
+    text: Фільтры
+build.event.message.0.at.1:
+    text: '{0} да {1}'
+build.event.message.at:
+    text: у {0}
+build.event.message.errors:
+    text: '{0} {0,choice,1#памылка|2#памылкі|5#памылак}'
+build.event.message.successful:
+    text: Успешно
+build.event.message.syncing:
+    text: Сінхранізацыя...
+build.event.message.up.to.date:
+    text: Ток
+build.event.message.warnings:
+    text: '{0} {0,choice,1#папярэджанне|2#папярэджанні|5#папярэджанняў}'
+build.event.title.build.issues:
+    text: Праблемы зборкі
+build.event.title.kotlin.compiler:
+    text: Плагін кампілятара Kotlin
+build.event.title.other.messages:
+    text: Іншыя паведамленні
+build.messages.cancelled:
+    text: '{0} отменено'
+build.messages.failed:
+    text: '{0} не удалось'
+build.messages.finished:
+    text: '{0} завершено'
+build.status.cancelled:
+    text: Отменено
+build.status.failed:
+    text: Не удалось
+build.status.finished:
+    text: Завершено
+build.status.running:
+    text: Выполняется...
+build.tree.filters.show.warnings:
+    text: Паказаць папярэджанні
+error.can.t.append.to.closed.stream:
+    text: 'Немагчыма дадаць радок у закрытую плынь: {0}'
+error.can.t.read.from.closed.stream:
+    text: Немагчыма прачытаць з закрытага патоку
+sync.view.title:
+    text: Сінхранізацыя
+tab.title.build:
+    text: зборка
+tab.title.build.output:
+    text: Зборачны выхад
+tab.title.more:
+    text: '{0}, а таксама {1}'
+thread.name.reader.thread.for.buildoutputinstantreaderimpl.0:
+    text: Паток чытання для BuildOutputInstantReaderImpl@{0}

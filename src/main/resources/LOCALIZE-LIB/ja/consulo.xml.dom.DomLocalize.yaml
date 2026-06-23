@@ -1,0 +1,32 @@
+abstract.class.not.allowed:
+    text: 抽象クラスは使用できません
+add.attribute.fix.name:
+    text: '"{0}" 属性の追加'
+add.element.fix.name:
+    text: <{0}> 要素の追加
+choose.file:
+    text: ファイルを選択
+class.decorator.or.has.default.constructor:
+    text: "''{0}'' はデフォルトコンストラクタを持つか、デコレーターパターンを実装する必要があります"
+class.has.no.default.constructor:
+    text: "''{0}'' はデフォルトコンストラクタを持っていません"
+class.is.not.a.subclass:
+    text: "''{0}'' を ''{1}'' に代入できません"
+class.is.not.concrete:
+    text: "''{0}'' は具象クラスでありません"
+class.is.not.public:
+    text: "''{0}'' はpublicでありません"
+dom.usage.type:
+    text: XMLディスクリプタの使用
+enum.not.allowed:
+    text: Enum は使用できません
+interface.not.allowed:
+    text: 使用できないインタフェース
+message.invalid.value.quotation:
+    text: "''{0}''のクオーテーションが間違っています"
+quick.fixes.family:
+    text: Dom Quickの修正
+remove.attribute.fix.name:
+    text: '"{0}" 属性の削除'
+remove.element.fix.name:
+    text: <{0}> 要素の削除

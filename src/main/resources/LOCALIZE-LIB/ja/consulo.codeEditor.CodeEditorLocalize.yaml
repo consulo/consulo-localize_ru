@@ -1,0 +1,58 @@
+attempt.to.modify.read.only.document.error.message:
+    text: 読み取り専用ファイルは変更できません
+checkbox.show.editor.preview.popup:
+    text: スクロールバーのホバーにコードレンズを表示する
+close.editor.annotations.action.name:
+    text: 注釈を閉じる
+customize.highlighting.level.menu.item:
+    text: 強調表示レベルのカスタマイズ
+editing.read.only.file.hint:
+    text: ファイルは読み取り専用です
+editing.viewer.hint:
+    text: このビューは読み取り専用です
+editor.annotations.action.group.name:
+    text: 注釈
+editor.notification.default.action.name:
+    text: 通知アクション
+editor.notification.settings.option.name:
+    text: 設定...
+editor.open.file.progress:
+    text: '{0}を開く'
+errors.panel.go.to.errors.first.radio:
+    text: エラー箇所に移動する
+errors.panel.go.to.next.error.warning.radio:
+    text: 次のエラー/警告に移動する
+file.not.found:
+    text: 'ファイルが見つかりません: {0}'
+forced.soft.wrap.dont.show.again.message:
+    text: 再度表示しない
+forced.soft.wrap.hide.message:
+    text: 通知を非表示
+forced.soft.wrap.message:
+    text: この文書には非常に長い行が含まれています。
+guarded.block.modification.attempt.error.message:
+    text: 現在のファイルは読み取り専用のため、処理を実行できません
+guarded.block.modification.attempt.error.title:
+    text: 保護ブロックへの変更
+hector.highlighting.level.title:
+    text: 強調表示レベル
+hector.import.popup.checkbox:
+    text: ポップアップのインポート(&P)
+hector.inspections.slider.label:
+    text: 検査
+hector.none.slider.label:
+    text: なし
+hector.syntax.slider.label:
+    text: 構文
+move.caret.command.name:
+    text: キャレットの移動
+move.cursor.command.name:
+    text: カーソルの移動
+move.selection.command.name:
+    text: 選択範囲の移動
+paste.command.name:
+    text: 貼り付け
+typing.command.name:
+    text: 入力
+typing.in.editor.command.name:
+    text: 入力

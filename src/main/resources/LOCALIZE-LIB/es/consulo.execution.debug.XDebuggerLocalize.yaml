@@ -1,0 +1,316 @@
+action.StreamTracerAction.text:
+    text: Rastrear cadena de streams actual
+action.calculating.chains.background.progress.title:
+    text: Calculando cadenas
+action.freeze.thread.text:
+    text: Congelar
+action.inspect.text:
+    text: Inspeccionar
+action.interrupt.thread.text:
+    text: Interrumpir
+action.memory.view.settings.text:
+    text: Configuración de la vista de memoria
+action.next.frame.text:
+    text: Siguiente fotograma
+action.previous.frame.text:
+    text: Fotograma anterior
+action.resume.thread.text:
+    text: Reanudar
+ad.extra.selection.shortcut:
+    text: Seleccionar un elemento con {0}
+breakpoints.dialog.create.new.group:
+    text: Crear nuevo…
+breakpoints.dialog.edit.description:
+    text: Editar descripción
+breakpoints.dialog.new.group:
+    text: Nuevo grupo
+breakpoints.dialog.new.group.name:
+    text: Nombre del nuevo grupo
+breakpoints.dialog.no.group:
+    text: <Sin grupo>
+breakpoints.dialog.set.as.default:
+    text: Establecer como predeterminado
+breakpoints.dialog.unset.as.default:
+    text: Quitar como predeterminado
+button.text.code.fragment.mode:
+    text: '&Modo fragmento de código'
+button.text.expression.mode:
+    text: '&Modo de expresión'
+debugger.configurable.display.name:
+    text: Depurador
+debugger.dataViews.display.name:
+    text: Vistas de datos
+debugger.evaluate.expression.or.add.a.watch.hint:
+    text: Evaluar expresión ({0}) o añadir una inspección ({1})
+debugger.frames.not.available:
+    text: Los marcos no están disponibles
+debugger.no.watches:
+    text: Sin inspecciones
+debugger.result.node.name:
+    text: resultado
+debugger.runner.start.action.text:
+    text: '&Depurar'
+debugger.session.tab.console.content.name:
+    text: Consola
+debugger.session.tab.frames.title:
+    text: Marcos
+debugger.session.tab.threads.title:
+    text: Hilos
+debugger.session.tab.watches.title:
+    text: Inspecciones
+debugger.state.message.connected:
+    text: Conectado
+debugger.state.message.connecting:
+    text: Conectando
+debugger.state.message.disconnected:
+    text: Desconectado
+debugger.stepping.display.name:
+    text: Paso a paso
+debugger.threads.not.available:
+    text: Los hilos no están disponibles
+debugger.variables.not.available:
+    text: Variables no disponibles
+dialog.title.evaluate.code.fragment:
+    text: Evaluar fragmento de código
+done.action.text:
+    text: Listo
+evaluation.in.progress:
+    text: Evaluación en curso
+exception.label:
+    text: Causa
+exception.tab.name:
+    text: Excepción
+inspect.value.dialog.title:
+    text: "Inspeccionar ''{0}''"
+invalid.frame:
+    text: <fotograma no válido>
+load.value.task.error:
+    text: 'No se puede cargar el valor: {0}'
+load.value.task.text:
+    text: Cargando valor
+memory.instances.close.text:
+    text: Cerrar
+memory.unable.to.get.instances.of.class:
+    text: No se pueden obtener las instancias de la clase {0}
+memory.view.empty.running:
+    text: Deténgase en un punto de interrupción para cargar la lista de clases
+memory.view.empty.stopped:
+    text: Las clases no están disponibles
+memory.view.instances.dialog.title:
+    text: Instancias de {0}
+memory.view.instances.dialog.title.warning:
+    text: 'Instancias de {0}. Advertencia: {1}'
+memory.view.instances.warning.not.all.loaded:
+    text: No se cargarán todas las instancias (solo {0})
+memory.view.load.classes:
+    text: Cargar clases
+memory.view.no.classes.loaded:
+    text: No se han cargado clases.
+memory.view.table.column.name.class:
+    text: Clase
+memory.view.table.column.name.count:
+    text: Recuento
+memory.view.table.column.name.diff:
+    text: Diferencia
+multiple.chains.popup.title:
+    text: Múltiples cadenas encontradas
+node.test.show.full.value:
+    text: … Ver
+node.text.ellipsis.0.more.nodes.double.click.to.show:
+    text: … ({0} {0, choice, 1#elemento|2#elementos} más. Haga doble clic para ver)
+node.text.ellipsis.0.unknown.more.nodes.double.click.to.show:
+    text: … (Doble clic para ver más elementos)
+node.text.ellipsis.truncated:
+    text: '… (longitud: {0})'
+rule.name.group.by.file:
+    text: Agrupar por archivo
+scope.block:
+    text: Bloque
+scope.catch:
+    text: Captura
+scope.class:
+    text: Clase
+scope.closure:
+    text: Clausura
+scope.instance:
+    text: Instancia
+scope.library:
+    text: Biblioteca
+scope.unknown:
+    text: Desconocido
+scope.with:
+    text: Bloque With
+setting.enable.auto.expressions.label:
+    text: Habilitar expresiones automáticas en la vista Variables
+setting.focus.app.on.breakpoint.label:
+    text: Enfocar la aplicación en el punto de interrupción
+setting.hide.window.label:
+    text: Ocultar la ventana de depuración al finalizar el proceso (&W)
+setting.sort.alphabetically.label:
+    text: Ordenar valores a&lfabéticamente
+setting.value.tooltip.delay.label:
+    text: 'Retraso de la descripción emergente del &valor (ms):'
+settings.scroll.to.center:
+    text: Desplazar el punto de ejecución al centro
+settings.show.tooltip.on.selection:
+    text: Mostrar tooltip de valor al seleccionar código
+settings.show.value.tooltip:
+    text: Mostrar información sobre herramientas del valor.
+settings.show.values.inline:
+    text: Mostrar valores en línea
+settings.show.window.label:
+    text: Mostrar la ventana de &depuración en el punto de interrupción
+settings.tooltip.label:
+    text: Si se deshabilita, use "{0}" para mostrar u ocultar la información sobre herramientas
+showReferring.dialog.title:
+    text: Objetos referentes para {0}
+stack.frame.loading.text:
+    text: Cargando…
+stream.debugger.dialog.flat.mode.button:
+    text: Modo plano
+stream.debugger.dialog.split.mode.button:
+    text: Modo dividido
+stream.debugger.dialog.title:
+    text: Rastreo de streams
+stream.debugger.dialog.with.exception.title:
+    text: Seguimiento de flujo (se produjo una excepción)
+stream.debugger.evaluation.failed:
+    text: 'Error de evaluación: {0}'
+stream.debugger.evaluation.failed.cannot.interpret.result:
+    text: No se puede interpretar el resultado del seguimiento. {0}
+stream.debugger.evaluation.failed.no.suspend.context:
+    text: La ejecución del programa se ha reanudado.
+stream.debugger.evaluation.failed.unexpected.value:
+    text: Se recibió un valor inesperado.
+stream.debugger.evaluation.failed.unknown.type:
+    text: Tipo de valor de resultado desconocido.
+stream.debugger.evaluation.failed.with.exception:
+    text: 'La evaluación falló: se produjo la excepción {0}'
+stream.debugger.evaluation.failed.with.exception.and.message:
+    text: 'Error de evaluación: se lanzó la excepción {0}: {1}'
+string.debugger.runner.description:
+    text: Depurar la configuración seleccionada
+suspend.policy.panel.all:
+    text: '&Todo'
+suspend.policy.panel.makeDefault:
+    text: Establecer por de&fecto
+suspend.policy.panel.suspend:
+    text: '&Suspender:'
+suspend.policy.panel.thread:
+    text: '&Hilo'
+suspend.policy.panel.title:
+    text: Política de suspensión
+tab.content.exception.thrown:
+    text: No hay resultados (se lanzó una excepción)
+tab.content.no.result:
+    text: No hay resultados para esta cadena de flujo
+xbreakpoint.default.display.text:
+    text: '{1}:{0,number,#}'
+xbreakpoint.label.after.breakpoint.was.hit:
+    text: 'Después de la activación:'
+xbreakpoint.label.empty:
+    text: Seleccionar un punto de interrupción
+xbreakpoint.master.breakpoint.description:
+    text: 'Desactivar hasta alcanzar el siguiente punto de interrupción:'
+xbreakpoint.master.breakpoint.none:
+    text: <Ninguno>
+xbreakpoint.radio.disable.again:
+    text: Desactivar de nuevo
+xbreakpoint.radio.leave.enabled:
+    text: Mantener habilitado
+xbreakpoint.reached.text:
+    text: 'Punto de interrupción alcanzado:'
+xbreakpoint.tooltip.condition:
+    text: 'Condición:'
+xbreakpoint.tooltip.depends.on:
+    text: 'Depende de:'
+xbreakpoint.tooltip.log.expression:
+    text: 'Expresión de registro:'
+xbreakpoint.tooltip.log.message:
+    text: 'Registrar mensaje: sí'
+xbreakpoint.tooltip.suspend.policy.all:
+    text: 'Suspender: todos'
+xbreakpoint.tooltip.suspend.policy.none:
+    text: 'Suspender: ninguno'
+xbreakpoint.tooltip.suspend.policy.thread:
+    text: 'Suspender: hilo'
+xbreakpoints.condition.checkbox:
+    text: '&Condición:'
+xbreakpoints.dialog.title:
+    text: Puntos de interrupción
+xbreakpoints.enabled.label:
+    text: Habilita&do
+xbreakpoints.log.expression.checkbox:
+    text: '&Evaluar y registrar:'
+xbreakpoints.log.message.checkbox:
+    text: Mensaje de "Punto de interrupción alcanzado" (&M)
+xbreakpoints.properties.actions.group.title:
+    text: Acciones
+xdebugger.attach.action:
+    text: Adjuntar al proceso…
+xdebugger.attach.action.collectingItems:
+    text: Recopilando elementos para adjuntar…
+xdebugger.attach.action.description:
+    text: Adjuntar al proceso con un depurador disponible
+xdebugger.attach.action.items.error.message:
+    text: No se pudo obtener la lista de procesos en ejecución en el host. Consulte el registro del IDE para obtener más detalles.
+xdebugger.attach.action.items.error.title:
+    text: Error al obtener los procesos
+xdebugger.attach.host.popup.title:
+    text: Ver procesos de {0}
+xdebugger.attach.popup.emptyText:
+    text: No hay procesos a los que adjuntar
+xdebugger.attach.popup.selectDebugger.title:
+    text: Depurador
+xdebugger.attach.popup.title:
+    text: Adjuntar con {0} a
+xdebugger.attach.popup.title.default:
+    text: Adjuntar a
+xdebugger.attach.toLocal.popup.recent:
+    text: Recientes
+xdebugger.building.tree.node.message:
+    text: Recopilando datos…
+xdebugger.button.evaluate:
+    text: E&valuar
+xdebugger.colors.page.name:
+    text: Depurador
+xdebugger.debugger.tab.title:
+    text: Depurador
+xdebugger.default.content.title:
+    text: Depurar
+xdebugger.dialog.title.evaluate.expression:
+    text: Evaluar expresión
+xdebugger.disable.breakpoint.action.text:
+    text: Desactivar punto de interrupción
+xdebugger.drag.text.0.elements:
+    text: '{0} elementos'
+xdebugger.drop.text.add.to.watches:
+    text: Añadir a inspecciones
+xdebugger.enable.breakpoint.action.text:
+    text: Habilitar punto de interrupción
+xdebugger.evaluate.addtowatches.hint:
+    text: Use {0} para añadir a Inspecciones
+xdebugger.evaluate.dialog.close:
+    text: Cerrar
+xdebugger.evaluate.label.expression:
+    text: 'Expresión:'
+xdebugger.evaluate.label.result:
+    text: '&Resultado:'
+xdebugger.evaluate.language.hint:
+    text: Haga clic para cambiar el idioma
+xdebugger.evaluate.result:
+    text: resultado
+xdebugger.evaluate.stack.frame.has.not.evaluator:
+    text: No se puede evaluar, el marco de pila actual no admite la evaluación
+xdebugger.evaluating.expression.node.message:
+    text: Evaluando…
+xdebugger.label.text.code.fragment:
+    text: 'Fragmento de código:'
+xdebugger.modifiyng.value.node.message:
+    text: Modificando el valor…
+xdebugger.popup.value.tree.set.root.action.tooltip:
+    text: Establecer como raíz
+xdebugger.remove.line.breakpoint.action.text:
+    text: Eliminar punto de interrupción
+xdebugger.reset.frame.title:
+    text: Reiniciar marco

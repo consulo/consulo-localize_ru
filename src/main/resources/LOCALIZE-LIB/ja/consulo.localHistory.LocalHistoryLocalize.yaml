@@ -1,0 +1,94 @@
+action.create.patch:
+    text: パッチを作成...
+action.revert:
+    text: 元に戻す
+action.revert.selection:
+    text: 選択を元に戻す
+action.show.difference:
+    text: 差を表示
+config.dialog.title:
+    text: ローカルヒストリー
+config.period:
+    text: 地域の履歴を保存する（有効な就業日）
+config.put.label.group:
+    text: 自動ラベル貼付
+config.put.label.on.file.package.compilation:
+    text: ファイル/パッケージのコンパイル
+config.put.label.on.project.compilation:
+    text: プロジェクトのコンパイル
+config.put.label.on.project.make:
+    text: プロジェクトビルド
+config.put.label.on.project.opening:
+    text: プロジェクトの開始
+config.put.label.on.running.debugging:
+    text: 実行/デバッグ
+config.put.label.on.unit.tests.failed:
+    text: ユニットテストに失敗しました
+config.put.label.on.unit.tests.passed:
+    text: ユニットテストに合格した
+content.not.available:
+    text: ファイルの内容は利用できません
+create.patch.dialog.title:
+    text: パッチを作成
+current.revision:
+    text: 現在
+file.does.not.exist:
+    text: ファイルが存在しません
+message.cannot.create.patch.because.of.unavailable.content:
+    text: パッチを作成できません
+message.cannot.revert.because:
+    text: '{0}が原因で元に戻せません'
+message.error.during.create.patch:
+    text: パッチ作成中のエラー：{0}
+message.error.during.revert:
+    text: 復帰中のエラー：{0}
+message.patch.created:
+    text: パッチファイルが作成されました
+message.processing.left.revision:
+    text: 左のリビジョンを処理中...
+message.processing.revisions:
+    text: リビジョンの処理中...
+message.processing.right.revision:
+    text: 正しい改訂を処理中...
+put.label.dialog.title:
+    text: ラベルを貼る
+put.label.name:
+    text: ラベル名：
+recent.changes.popup.title:
+    text: 最近の変化
+recent.changes.to.changes:
+    text: 変更はありません
+revert.error.directory.was.moved:
+    text: ディレクトリが移動された
+revert.error.file.already.exists:
+    text: 同じ名前のファイルが既に存在します
+revert.error.files.already.exist:
+    text: いくつかのファイルが既に存在する
+revert.error.files.are.read.only:
+    text: 一部のファイルは読み取り専用です
+revert.error.files.were.moved:
+    text: 一部のファイルがディレクトリの外部に移動した
+revert.error.parent.was.renamed:
+    text: 親の名前が変更されました
+revert.message.some.files.have.unversioned.content:
+    text: 次のファイルにはバージョン管理されていない大きなコンテンツがありました。
+revisions.table.date:
+    text: 日付
+revisions.table.filesCount:
+    text: '{0}ファイル'
+revisions.table.period.old:
+    text: 古い変更
+revisions.table.period.older:
+    text: 古い
+revisions.table.period.recent:
+    text: 最後の{0}時間
+revisions.table.revision:
+    text: リビジョン
+system.label.external.change:
+    text: 外部変更
+system.label.project.open:
+    text: プロジェクトオープン
+system.label.revert.to.change.date:
+    text: '{1}の「{0}」に戻りました'
+system.label.revert.to.date:
+    text: '{0}に戻りました'

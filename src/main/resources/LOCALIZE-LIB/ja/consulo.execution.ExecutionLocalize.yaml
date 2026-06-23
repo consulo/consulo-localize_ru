@@ -1,0 +1,492 @@
+action.name.save.configuration:
+    text: 保存設定
+all.tests.scope.presentable.text:
+    text: すべてのテスト
+applet.configuration.applet.class.border:
+    text: アプレット クラス
+applet.configuration.applet.class.label:
+    text: 'アプレット クラス(&C):'
+applet.configuration.applet.parameters.label:
+    text: アプレット パラメータ
+applet.configuration.description:
+    text: アプレット設定
+applet.configuration.height.label:
+    text: '高さ(&H):'
+applet.configuration.name:
+    text: アプレット
+applet.configuration.parameter.name.column:
+    text: 名前
+applet.configuration.parameter.value.column:
+    text: 値
+applet.configuration.policy.file.label:
+    text: 'ポリシー ファイル(&P):'
+applet.configuration.url.html.file.label:
+    text: 'URL/HTML ファイル(&F):'
+applet.configuration.vm.parameters.for.appletviewer.label:
+    text: 'アプレット ビューアの VM パラメータ(&O):'
+applet.configuration.width.label:
+    text: '幅(&W):'
+application.configuration.main.class.label:
+    text: 'メイン クラス(&C):'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 'クラスパスと JDK (&O):'
+apply.action.name:
+    text: 適用(&A)
+button.add:
+    text: 追加
+button.disconnect:
+    text: 切断
+button.remove:
+    text: 削除する
+cannot.browse.method.dialog.title:
+    text: メソッドを参照できません
+cannot.browse.test.inheritors.dialog.title:
+    text: テストケースの継承者を参照できません
+choose.applet.class.dialog.title:
+    text: アプレット クラスの選択
+choose.html.file.dialog.title:
+    text: HTML ファイルの選択
+choose.main.class.dialog.title:
+    text: メイン クラスの選択
+choose.package.dialog.title:
+    text: パッケージの選択
+choose.run.configuration.action.description:
+    text: 実行/デバッグ設定ドロップダウンを開く
+choose.test.class.dialog.title:
+    text: テスト クラスの選択
+choose.test.method.dialog.title:
+    text: テスト メソッドの選択
+class.does.not.exists.error.message:
+    text: クラス {0} は存在しません
+class.isnt.inheritor.of.testcase.error.message:
+    text: '{0} はテストケースの継承者ではありません'
+class.isnt.test.class.error.message:
+    text: '{0} はテスト クラスではありません'
+class.not.found.in.module.error.message:
+    text: クラス "{0}" がモジュール "{1}" にありません
+class.not.specified.error.message:
+    text: クラスが指定されていません
+clear.all.from.console.action.name:
+    text: すべて削除
+configuration.not.speficied.message:
+    text: テスト タイプの設定が指定されていません
+copy.configuration.action.name:
+    text: 設定のコピー
+copy.content.action.name:
+    text: 内容のコピー
+copy.selected.content.action.name:
+    text: 選択した内容をコピー
+create.run.configuration.action.name:
+    text: 実行時設定の作成
+create.run.configuration.for.item.action.name:
+    text: '{0} の作成'
+create.run.configuration.for.item.dialog.title:
+    text: '{0} の作成'
+default.junit.configuration.name:
+    text: <名前未設定>
+default.package.presentable.name:
+    text: <デフォルト>
+default.run.configuration.name:
+    text: <名前未設定>
+default.runner.start.action.text:
+    text: 実行(&U)
+default.settings.editor.dialog.title:
+    text: '{0} デフォルト設定'
+delete.confirmation.dialog.title:
+    text: 削除確認
+diff.content.actual.title:
+    text: 実際
+diff.content.expected.for.file.title:
+    text: '予想 :'
+diff.content.expected.title:
+    text: 予想
+disconnect.process.confirmation.text:
+    text: プロセス "{0}" から切断しますか ?
+edit.configuration.action:
+    text: 設定の編集(&E)
+edit.run.configuration.run.configuration.name.label:
+    text: '名前 :'
+env.vars.show.system:
+    text: ショー
+environment.variables.helper.use.arguments.label:
+    text: 次のコマンド ライン引数を使用してリモート JVM を実行します (コピー＆ペーストしてください)
+environment.variables.system.dialog.title:
+    text: システム環境
+error.common.title:
+    text: エラー
+failed.to.generate.wrapper.error.message:
+    text: アプレット クラスのテンポラリ html ラッパーの生成に失敗しました
+fix.run.configuration.problem.button:
+    text: 修復
+home.directory.not.specified.for.jdk.error.message:
+    text: JDK のホーム ディレクトリが指定されていません
+html.file.not.specified.error.message:
+    text: Html ファイルが指定されていません
+instantiating.tests.progress.text:
+    text: テストをインスタンス化しています...
+invalid.data.dialog.title:
+    text: 無効なデータ
+jdk.is.bad.configured.error.message:
+    text: '"{0}" の設定が不正です'
+jdk.not.configured.error.message:
+    text: JDK "{0}" が未設定です
+jnit.configuration.all.tests.in.package.radio:
+    text: パッケージ内のすべてのテスト
+jre.not.valid.error.message:
+    text: "''{0}'' は有効な JRE ホームではありません"
+jre.path.is.not.valid.jre.home.error.mesage:
+    text: "''{0}'' は有効な JRE ホームではありません"
+junit.all.tests.passed.label:
+    text: すべてのテストに合格
+junit.auto.scroll.to.source.action.name:
+    text: ソースに自動スクロール
+junit.configuration.across.module.dependencies.radio:
+    text: モジュール依存の全域
+junit.configuration.all.in.package.radio:
+    text: パッケージ内のすべて(&P)
+junit.configuration.class.label:
+    text: 'クラス(&C):'
+junit.configuration.class.radio:
+    text: クラス(&L)
+junit.configuration.configure.junit.test.label:
+    text: 'テスト :'
+junit.configuration.description:
+    text: JUnit テスト設定
+junit.configuration.in.single.module.radio:
+    text: シングル モジュール(&S)
+junit.configuration.in.whole.project.radio:
+    text: プロジェクト全体(&J)
+junit.configuration.method.label:
+    text: 'メソッド(&E):'
+junit.configuration.method.radio:
+    text: メソッド(&T)
+junit.configuration.package.label:
+    text: 'パッケージ(&G):'
+junit.configuration.search.for.tests.label:
+    text: 'テストの検索 :'
+junit.configuration.test.border:
+    text: テスト
+junit.configuration.test.class.radio:
+    text: テスト クラス
+junit.configuration.test.method.radio:
+    text: テスト メソッド
+junit.configuration.test.runner.parameters.label:
+    text: 'テスト ランナ パラメータ(&R):'
+junit.jar.not.found.in.module.class.path.error.message:
+    text: junit.jar がモジュール "{0}" クラス パスにありません。
+junit.not.found.in.module.error.message:
+    text: JUnit がモジュール "{0}" にありません
+junit.open.text.in.editor.action.name:
+    text: 線足したテストをエディタで開く
+junit.runing.info.assertion.tree.node:
+    text: アサーション
+junit.runing.info.error.tree.node:
+    text: エラー
+junit.runing.info.errors.count.message:
+    text: エラー :{0}
+junit.runing.info.failed.count.message:
+    text: 不合格 :{0}
+junit.runing.info.failed.to.start.error.message:
+    text: 起動に失敗
+junit.runing.info.hide.successful.config.action.name:
+    text: 成功したsetUp / tearDownを隠す
+junit.runing.info.include.non.started.in.rerun.failed.action.name:
+    text: 起動されていないテストを再実行に含めない
+junit.runing.info.left.to.run.count.tree.node:
+    text: '左 : {0}'
+junit.runing.info.loading.tree.node.text:
+    text: 読み込み中
+junit.runing.info.passed.count.message:
+    text: 合格 :{0}
+junit.runing.info.passed.label:
+    text: 合格
+junit.runing.info.results.column.name:
+    text: 結果
+junit.runing.info.running.label:
+    text: 実行中
+junit.runing.info.starting.label:
+    text: 起動中...
+junit.runing.info.status.completed.from.total:
+    text: '{1} の {0}'
+junit.runing.info.status.completed.from.total.failed:
+    text: '{1} の {0}    不合格 : {2}'
+junit.runing.info.status.running.number.with.name:
+    text: '実行中 : {0}      {1}'
+junit.runing.info.terminated.label:
+    text: 中止
+junit.runing.info.test.column.name:
+    text: テスト
+junit.runing.info.tests.failed.label:
+    text: テスト不合格
+junit.runing.info.tests.in.progress.done.tree.node:
+    text: 'テストが進行中です : 終了'
+junit.runing.info.tests.in.progress.terminated.tre.node:
+    text: 'テストが進行中です : 中止'
+junit.runing.info.tests.passed.label:
+    text: テスト合格
+junit.runing.info.time.elapsed.column.name:
+    text: 経過時間
+junit.runing.info.time.sec.message:
+    text: '{0} 秒'
+junit.runing.info.total.label:
+    text: '合計 :'
+junit.runing.info.usage.after.column.name:
+    text: テスト後使用箇所
+junit.runing.info.usage.before.column.name:
+    text: テスト前使用箇所
+junit.runing.info.usage.delta.column.name:
+    text: 差分使用箇所
+junit.running.info.failed.to.start.error.message:
+    text: 起動に失敗しました
+log.monitor.add.button:
+    text: 追加(&D)
+log.monitor.edit.aliases.location:
+    text: 'ログ ファイルの場所 :'
+log.monitor.edit.aliases.name:
+    text: 'エイリアス :'
+log.monitor.edit.aliases.title:
+    text: ログ ファイル エイリアスの編集
+log.monitor.group:
+    text: コンソールで表示するログ ファイル
+log.monitor.is.active.column:
+    text: アクティブ
+log.monitor.is.skipped.column:
+    text: 内容のスキップ
+log.monitor.log.file.column:
+    text: ログ ファイル エントリ
+log.monitor.remove.button:
+    text: 削除(&R)
+main.class.is.not.specified.error.message:
+    text: メイン クラスが指定されていません
+main.method.not.found.in.class.error.message:
+    text: メイン メソッドがクラス {0} にありません
+method.name.not.specified.error.message:
+    text: メソッド名が指定されていません
+module.does.not.exist.error.message:
+    text: モジュール "{0}" は存在しません
+module.does.not.exists:
+    text: モジュール "{0}" はプロジェクト "{1}" に存在しません
+module.doesn.t.exist.in.project.error.text:
+    text: モジュール "{0}" はプロジェクトに存在しません
+module.not.specified.error.text:
+    text: モジュールが指定されていません
+next.faled.test.action.name:
+    text: 次の不合格のテストへ
+no.applet.class.specified.error.message:
+    text: アプレット クラスが指定されていません
+no.jdk.for.module.error.message:
+    text: モジュール "{0}" の JDK がありません
+no.jdk.specified..error.message:
+    text: JDK が指定されていません
+no.jdk.specified.for.module.warning.text:
+    text: モジュール "{0}" の JDK が指定されていません
+no.junit.error.message:
+    text: junit.jar がありません
+no.junit.in.scope.error.message:
+    text: 'junit.jar がありません : {0}'
+no.main.class.specified.error.text:
+    text: メイン クラスが指定されていません
+no.module.defined.error.message:
+    text: モジュールが定義されていません
+no.test.class.specified.error.text:
+    text: テスト クラスが指定されていません
+no.tests.found.in.package.error.message:
+    text: パッケージ "{0}" にテストがありません
+no.user.process.input.error.message:
+    text: プロセス入力がありません
+node.default:
+    text: <デフォルト>
+output.tab.title:
+    text: 出力
+package.does.not.exist.error.message:
+    text: パッケージ "{0}" は存在しません
+package.not.found.error.message:
+    text: パッケージ "{0}" がありません
+perform.action.with.context.configuration.action.name:
+    text: '{0} コンテキスト設定'
+prev.faled.test.action.name:
+    text: 前の不合格のテストへ
+process.is.running.dialog.title:
+    text: プロセス "{0}" は起動しています
+project.has.no.jdk.configured.error.message:
+    text: プロジェクトに JDK が未設定です。
+project.has.no.jdk.error.message:
+    text: プロジェクトに JDK がありません
+remote.configuration.attach.radio:
+    text: アタッチ
+remote.configuration.debugger.mode.label:
+    text: 'デバッグ モード :'
+remote.configuration.host.label:
+    text: 'ホスト :'
+remote.configuration.listen.radio:
+    text: リスナ
+remote.configuration.port.label:
+    text: 'ポート :'
+remote.configuration.remote.debugging.allows.you.to.connect.idea.to.a.running.jvm.label:
+    text: リモート デバッグでは IDEA に接続して JVM を実行できます。
+remote.configuration.settings.border:
+    text: 設定
+remote.configuration.shared.memory.address.label:
+    text: '共有メモリ アドレス :'
+remote.configuration.shared.memory.radio:
+    text: 共有メモリ
+remote.configuration.socket.radio:
+    text: ソケット
+remote.configuration.transport.label:
+    text: 'トランスポート :'
+remote.debug.configuration.description:
+    text: リモート デバッグ設定
+remote.debug.configuration.display.name:
+    text: リモート
+remove.run.configuration.action.name:
+    text: 設定の削除
+rerun.configuration.action.name:
+    text: '{0} を返す'
+restart.error.message.title:
+    text: 再起動エラー
+run.configurable.display.name:
+    text: 実行
+run.configuration.arguments.help.panel.copy.action.name:
+    text: コピー
+run.configuration.configuration.tab.title:
+    text: 設定
+run.configuration.display.settings.checkbox:
+    text: 実行/デバッグ前に設定を表示する
+run.configuration.dump.threads.action.name:
+    text: ダンプ スレッド
+run.configuration.error.dialog.title:
+    text: 実行時設定エラー
+run.configuration.exit.action.name:
+    text: 終了
+run.configuration.norunner.selected.label:
+    text: ランナが未選択です
+run.configuration.pause.output.action.name:
+    text: 出力の中断
+run.configuration.program.parameters:
+    text: 'プログラム パラメータ(&R):'
+run.configuration.select.alternate.jre.label:
+    text: 代替 JRE の選択
+run.configuration.select.jre.dir.label:
+    text: 実行する JRE のディレクトリ選択
+run.configuration.startup.connection.rab.title:
+    text: スタートアップ/接続
+run.configuration.stop.action.name:
+    text: 停止
+run.configuration.unnamed.name.prefix:
+    text: 名前未設定
+run.configuration.use.alternate.jre.checkbox:
+    text: '代替 JRE を使用 :'
+run.dashboard.debug.action.description:
+    text: デバッグモードで選択した実行コンフィギュレーションを実行します。
+run.dashboard.debug.action.name:
+    text: （再）デバッグモードで実行
+run.dashboard.edit.configuration.action.name:
+    text: 設定の編集
+run.dashboard.edit.configuration.dialog.title:
+    text: 実行コンフィギュレーションの編集
+run.dashboard.empty.selection.message:
+    text: 詳細を表示するにはツリー内の実行コンフィギュレーションを選択してください
+run.dashboard.failed.group.name:
+    text: 失敗
+run.dashboard.group.by.folder.action.name:
+    text: フォルダ単位でグループ化する
+run.dashboard.group.by.status.action.name:
+    text: ステータス別のグループ化
+run.dashboard.group.by.type.action.name:
+    text: グループ別
+run.dashboard.not.started.configuration.message:
+    text: 実行コンフィギュレーションが開始されていません
+run.dashboard.remove.configuration.action.description:
+    text: 実行構成を削除する
+run.dashboard.remove.configuration.action.name:
+    text: 実行構成を削除する
+run.dashboard.remove.configuration.dialog.message:
+    text: 選択した実行コンフィギュレーションを削除してもよろしいですか？
+run.dashboard.remove.configuration.dialog.title:
+    text: 実行構成を削除する
+run.dashboard.run.action.description:
+    text: （再）選択された実行構成を実行する
+run.dashboard.run.action.name:
+    text: （再）実行
+run.dashboard.started.group.name:
+    text: 始めた
+run.dashboard.stop.action.description:
+    text: 選択した実行構成を停止する
+run.dashboard.stop.action.name:
+    text: やめる
+run.dashboard.stopped.group.name:
+    text: 停止
+run.debug.dialog.title:
+    text: 実行/デバッグ設定
+run.error.message.title:
+    text: 実行エラー
+save.run.configuration.for.item.action.name:
+    text: '{0} の保存'
+save.temporary.run.configuration.action.name:
+    text: '{0} 設定の保存(&S)'
+seaching.test.progress.title:
+    text: テストを検索しています...
+searching.test.progress.title:
+    text: テストの検索中...
+select.applet.policy.file.dialog.title:
+    text: アプレット ポリシー ファイルの選択
+select.run.configuration.for.item.action.name:
+    text: '{0} の選択'
+set.class.name.message:
+    text: クラス名を最初に設定
+show.running.list.action.description:
+    text: 現在実行されている実行コンフィギュレーションのリストを表示する
+show.running.list.action.name:
+    text: 実行リストを表示する
+show.running.list.balloon.hint:
+    text: クリックしてナビゲートする
+show.running.list.balloon.nothing:
+    text: 表示するものは何もない
+show.running.list.balloon.title:
+    text: ランニングリスト
+sm.test.runner.magnitude.assertion.failed.title:
+    text: アサーション失敗
+sm.test.runner.magnitude.completed.failed.title:
+    text: 完了
+sm.test.runner.magnitude.ignored.failed.title:
+    text: 無視
+sm.test.runner.magnitude.terminated.failed.title:
+    text: 終了
+sm.test.runner.magnitude.testerror.title:
+    text: エラー
+some.modules.has.circular.dependency.error.message:
+    text: いくつかのモジュールは循環依存しています。
+standard.runner.description:
+    text: 選択した設定を実行
+starting.jvm.progress.text:
+    text: JVM を開始しています...
+statistics.tab.title:
+    text: 出力統計情報
+stop.configuration.action.name:
+    text: "停止 '' {0} ''"
+stop.incompatible.confirmation.button.text:
+    text: 互換性のない停止
+strings.equal.failed.dialog.title:
+    text: assertEquals(String, String) は失敗しました
+template.settings.configurable.display.name:
+    text: テンプレート設定
+terminate.after.disconnect.checkbox:
+    text: 切断後にプロセスを中止
+terminating.process.progress.title:
+    text: "'{0}'' を中止しています"
+test.cases.count.message:
+    text: '{0} テスト ケース'
+test.in.scope.presentable.text:
+    text: '"{0}" のテスト'
+test.method.doesnt.exist.error.message:
+    text: テスト メソッド "{0}" は存在しません
+test.not.started.progress.text:
+    text: テストは開始しませんでした
+tests.passed.with.warnings.message:
+    text: テスト合格 (警告あり)
+title.cannot.open.file:
+    text: ファイルが開けません
+waiting.for.vm.detach.progress.text:
+    text: VM をデタッチしています
+warning.common.title:
+    text: 警告

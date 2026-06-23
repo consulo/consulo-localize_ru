@@ -1,0 +1,92 @@
+label.macro.preview:
+    text: 宏预览
+label.macros:
+    text: 宏
+macro.class.name:
+    text: 类名
+macro.classpath.entry:
+    text: 该元素所属的类路径中的条目
+macro.column.number:
+    text: 列号
+macro.file.dir.relative.to.root:
+    text: 相对于文件所属的模块内容根的文件目录
+macro.file.dir.relative.to.root.fwd.slash:
+    text: 相对于文件所属的模块内容根的文件目录(带正斜杠)
+macro.file.dir.relative.to.sourcepath.root:
+    text: 相对于文件所属的源路径根的文件目录
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: 相对于文件所属的源路径根的文件目录(带正斜杠)
+macro.file.directory:
+    text: 文件目录
+macro.file.directory.from.parent:
+    text: 父目录中 $FileDir$ 的路径与名称作为形参传递
+macro.file.directory.name:
+    text: 文件目录名称
+macro.file.directory.relative:
+    text: 相对于项目文件的文件目录
+macro.file.directory.relative.fwd.slash:
+    text: 相对于项目文件的文件目录(带正斜杠)
+macro.file.encoding:
+    text: 文件编码
+macro.file.extension:
+    text: 文件扩展名
+macro.file.fully.qualified.package:
+    text: 文件完全合格软件包
+macro.file.name:
+    text: 文件名
+macro.file.name.without.all.extensions:
+    text: 不带所有扩展名的文件名
+macro.file.name.without.extension:
+    text: 文件名不带扩展名
+macro.file.package:
+    text: 文件软件包
+macro.file.parent.directory:
+    text: 文件父目录。获取一个可选形参(名称)以查找父目录
+macro.file.path:
+    text: 文件路径
+macro.file.path.relative:
+    text: 相对于项目文件的文件路径
+macro.file.path.relative.fwd.slash:
+    text: 相对于项目文件的文件路径(带正斜杠)
+macro.file.path.relative.to.root:
+    text: 相对于文件所属的模块内容根的文件路径
+macro.file.path.relative.to.root.fwd.slash:
+    text: 相对于文件所属的模块内容根的文件路径(带正斜杠)
+macro.file.path.relative.to.sourcepath.root:
+    text: 相对于文件所属的源路径根的文件路径
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: 相对于文件所属的源路径根的文件路径(带正斜杠)
+macro.javadoc.output.directory:
+    text: JavaDoc输出目录
+macro.line.number:
+    text: 行号
+macro.module.file.directory:
+    text: 模块文件的目录
+macro.module.file.name:
+    text: 模块文件的名称，不带扩展名
+macro.module.file.path:
+    text: 模块文件的路径
+macro.module.source.path:
+    text: 模块源路径
+macro.output.path:
+    text: 输出路径
+macro.project.classpath:
+    text: 项目的类路径
+macro.project.file.directory:
+    text: 项目文件的目录
+macro.project.file.name:
+    text: 项目文件的名称，不带扩展名
+macro.project.file.path:
+    text: 项目文件的路径
+macro.project.source.path:
+    text: 项目源路径
+macro.project.sourcepath:
+    text: 项目源路径
+macro.prompt:
+    text: 显示一个字符串输入对话框
+macro.sourcepath.entry:
+    text: 元素所属的源路径中的条目
+prompt.enter.parameters:
+    text: '输入形参:'
+title.input:
+    text: 输入

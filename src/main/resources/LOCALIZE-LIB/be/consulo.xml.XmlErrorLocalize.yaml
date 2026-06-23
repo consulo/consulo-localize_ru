@@ -1,0 +1,70 @@
+attribute.value.expected:
+    text: Чакаецца значэнне атрыбута
+cannot.resolve.taglib.uri:
+    text: Не ўдаецца вырашыць taglib з uri {0}
+create.tagfile.attribute.family:
+    text: Стварыць атрыбут файла тэга
+create.tagfile.attribute.text:
+    text: Стварыць атрыбут файла тэга {0}
+dtd.parser.message.left.paren.or.entityref.or.empty.or.any.expected:
+    text: Чакаецца (, entityref, EMPTY або ANY
+dtd.parser.message.literal.public.system.expected:
+    text: Чакаецца літарал, PUBLIC або SYSTEM
+dtd.parser.message.name.expected:
+    text: Чакаецца XML-імя
+dtd.parser.message.name.or.entity.ref.expected:
+    text: Чакаецца XML-імя або спасылка на сутнасць
+dtd.parser.message.whitespace.expected:
+    text: Чакаецца прабел
+element.is.not.closed:
+    text: Элемент не закрыт
+expected.attribute.eq.sign:
+    text: "Чакаецца знак '='"
+jsp.directive.end.expected:
+    text: Чакаецца канец дырэктывы
+quote.expected:
+    text: Чакаецца двукоссе
+rename.end.tag.name.intention:
+    text: "Перайменаваць закрывальны тэг ''{0}'' у ''{1}''"
+rename.start.tag.name.intention:
+    text: "Перайменаваць адкрывальны тэг ''{0}'' у ''{1}''"
+tag.has.wrong.closing.tag.name:
+    text: Адкрывальны тэг мае няправільны закрывальны тэг
+unknown.encoding.0:
+    text: "Невядомая кадыроўка: ''{0}''"
+xml.parsing.absent.root.tag:
+    text: Карэктны XML дакумент павінен мець каранёвы тэг
+xml.parsing.attribute.value.expected:
+    text: Чакаецца значэнне атрыбута
+xml.parsing.bad.character:
+    text: Некарэктны сімвал
+xml.parsing.closing.tag.is.not.done:
+    text: Закрывальны тэг не завершаны
+xml.parsing.closing.tag.matches.nothing:
+    text: Закрывальны тэг ні з чым не супадае
+xml.parsing.closing.tag.name.missing:
+    text: Адсутнічае імя закрывальнага тэга
+xml.parsing.multiple.root.tags:
+    text: Множныя каранёвыя тэгі
+xml.parsing.processing.instruction.name.expected:
+    text: Чакаецца імя інструкцыі апрацоўкі
+xml.parsing.tag.name.expected:
+    text: Чакаецца імя тэга
+xml.parsing.unclosed.attribute.value:
+    text: Незакрытае значэнне атрыбута
+xml.parsing.unexpected.end.of.file:
+    text: Нечаканы канец файла
+xml.parsing.unexpected.token:
+    text: Нечаканы токен
+xml.parsing.unexpected.tokens:
+    text: Нечаканыя токены
+xml.parsing.unterminated.processing.instruction:
+    text: Незавершаная інструкцыя апрацоўкі
+xml.schema.validation.attr.not.allowed.with.ref:
+    text: Атрыбут {0} не дазволены тут пры выкарыстанні спасылкі на элемент
+xml.schema.validation.default.or.fixed.should.be.specified.but.not.both:
+    text: "Атрыбуты 'default' і 'fixed' не павінны прысутнічаць адначасова"
+xml.schema.validation.max.occurs.should.be.not.less.than.min.occurs:
+    text: Значэнне maxOccurs павінна быць больш за значэнне minOccurs
+xml.schema.validation.name.or.ref.should.present:
+    text: "Павінен прысутнічаць атрыбут 'name' або 'ref'"

@@ -1,0 +1,262 @@
+0.occurrences.replaced:
+    text: '{0,choice,0#일치 항목 없음|1#{0}개 일치 항목} 교체됨'
+button.exclude:
+    text: 제외
+button.include:
+    text: 포함
+cannot.search.for.usages.title:
+    text: 사용처를 검색할 수 없음
+empty.text.searching:
+    text: 검색 중…
+find.button:
+    text: 찾기
+find.case.sensitive:
+    text: 대소문자 구분(&C)
+find.context.anywhere.scope.label:
+    text: 모든 곳
+find.context.combo.label:
+    text: '컨텍스트(&X):'
+find.context.except.comments.and.literals.scope.label:
+    text: 주석 및 문자열 리터럴 제외
+find.context.except.comments.scope.label:
+    text: 주석 제외
+find.context.except.literals.scope.label:
+    text: 문자열 리터럴 제외
+find.context.in.comments.scope.label:
+    text: 주석 내
+find.context.in.literals.scope.label:
+    text: 문자열 리터럴 내
+find.dialog.find.button:
+    text: 찾기
+find.direction.backward.radio:
+    text: 뒤로(&B)
+find.direction.forward.radio:
+    text: 앞으로(&O)
+find.direction.group:
+    text: 방향
+find.directory.not.found.error:
+    text: 디렉터리를 찾을 수 없습니다
+find.empty.match.regular.expression.error:
+    text: 정규식이 빈 문자열과 일치합니다
+find.empty.search.text.error:
+    text: 검색어가 입력되지 않았습니다
+find.excessive.total.size.prompt:
+    text: 총 크기가 {0}인 파일에서 일치 항목이 발견되었습니다. 계속하면 {1}이(가) 응답하지 않거나 OutOfMemoryError가 발생할 수 있습니다. 계속하시겠습니까?
+find.filter.empty.file.mask.error:
+    text: 빈 파일 마스크
+find.filter.file.mask.checkbox:
+    text: 파일 마스크(&K)
+find.filter.file.name.group:
+    text: 파일 이름 필터
+find.filter.invalid.file.mask.error:
+    text: 잘못된 파일 마스크 "{0}"
+find.highlight.no.more.highlights.found:
+    text: 더 이상 강조 표시된 항목이 없습니다
+find.in.path.dialog.title:
+    text: 파일에서 찾기
+find.invalid.regular.expression.error:
+    text: '잘못된 패턴 "{0}": {1}'
+find.new.line:
+    text: 새 줄(New Line)
+find.no.usages.at.cursor.error:
+    text: |-
+        이 위치에서는 사용처를 검색할 수 없습니다.
+        사용처를 찾을 요소에 캐럿을 놓고 다시 시도하세요.
+find.open.in.new.tab.action:
+    text: 새 탭에서 결과 열기(&B)
+find.open.in.new.tab.checkbox:
+    text: 새 탭에서 결과 열기(&B)
+find.options.case.sensitive:
+    text: 대소문자 구분(&C)
+find.options.group:
+    text: 일반
+find.options.replace.preserve.case:
+    text: 대소문자 보존(&E)
+find.options.search.for.text.occurrences.checkbox:
+    text: 텍스트 일치 항목(&O)
+find.options.skip.results.tab.with.one.usage.checkbox:
+    text: 사용처가 하나인 경우 결과 탭 건너뛰기(&K)
+find.pointcut.applications.not.found.title:
+    text: 정보
+find.popup.case.sensitive:
+    text: 대소문자 구분(&C)
+find.popup.filemask:
+    text: '파일 마스크(&K):'
+find.popup.find.button:
+    text: 찾기 창에서 열기
+find.popup.replace.all.button:
+    text: 모두 바꾸기(&A)
+find.popup.replace.selected.button:
+    text: '{0,choice,0#바꾸기|1#바꾸기|2# {0}개 일치 항목 바꾸기}'
+find.popup.scope.directory:
+    text: 디렉터리(&D)
+find.popup.scope.module:
+    text: 모듈(&M)
+find.popup.scope.project:
+    text: 프로젝트 내(&P)
+find.popup.scope.scope:
+    text: 범위(&S)
+find.popup.show.filter.popup:
+    text: 검색 결과 필터링
+find.progress.search.completed:
+    text: 검색 완료
+find.progress.searching.message:
+    text: '{0}에서 검색 중…'
+find.progress.stop.title:
+    text: 중지
+find.recursively.hint:
+    text: 하위 디렉터리에서 재귀적으로 검색
+find.regex:
+    text: 정규식(&X)
+find.replace.accessible.name:
+    text: 바꾸기
+find.replace.all.action:
+    text: 모두 바꾸기(&A)
+find.replace.all.confirmation:
+    text: "<html><body>{2}개의 파일에 걸쳐 있는 {0}개의 ''{1}'' 일치 항목을<br>''{3}''(으)로 바꾸시겠습니까?"
+find.replace.all.confirmation.title:
+    text: 모두 바꾸기
+find.replace.command:
+    text: 바꾸기
+find.replace.dialog.title:
+    text: 바꾸기
+find.replace.history:
+    text: 바꾸기 기록
+find.replace.in.project.dialog.title:
+    text: 파일에서 바꾸기
+find.replace.invalid.replacement.string:
+    text: '잘못된 형식의 바꿀 문자열: {0}'
+find.replace.invalid.replacement.string.title:
+    text: 바꾸기 오류
+find.replace.selected.action:
+    text: '{0,choice,0#바꾸기|1#바꾸기|2# {0}개 일치 항목 바꾸기}(&R)'
+find.replace.text.dialog.title:
+    text: 텍스트 바꾸기
+find.scope.all.project.classes:
+    text: 모든 프로젝트 클래스
+find.scope.custom.radio:
+    text: '사용자 정의(&S):'
+find.scope.directory.radio:
+    text: '디렉토리(&O):'
+find.scope.directory.recursive.checkbox:
+    text: 하위 디렉터리 포함(&Y)
+find.scope.directory.title:
+    text: 디렉터리 {0}
+find.scope.files.with.mask:
+    text: "마스크 ''{0}'' 포함"
+find.scope.global.radio:
+    text: 글로벌(&G)
+find.scope.group:
+    text: 범위
+find.scope.label:
+    text: '범위(&S):'
+find.scope.module.radio:
+    text: '모듈(&M):'
+find.scope.module.title:
+    text: "모듈 ''{0}''"
+find.scope.project.radio:
+    text: 프로젝트(&J)
+find.scope.project.title:
+    text: 프로젝트
+find.search.accessible.name:
+    text: 검색
+find.search.again.from.bottom.action.message:
+    text: '{0}, 끝에서부터 검색하려면 "이전 찾기"를 다시 실행하세요'
+find.search.again.from.bottom.hotkey.message:
+    text: '{0}, 끝에서부터 검색하려면 {1}을(를) 누르세요'
+find.search.again.from.top.action.message:
+    text: '{0}, 처음부터 검색하려면 "다음 찾기"를 다시 실행하세요'
+find.search.again.from.top.hotkey.message:
+    text: '{0}, 처음부터 검색하려면 {1}을(를) 누르세요'
+find.search.history:
+    text: 검색 기록
+find.search.string.not.found.message:
+    text: '"{0}"을(를) 찾을 수 없습니다'
+find.searched.elements.have.been.changed.error:
+    text: |-
+        검색된 요소가 변경되었습니다.
+        사용처를 검색할 수 없습니다.
+find.searching.for.string.in.file.occurrences.progress:
+    text: 현재까지 {0,choice,0#일치 항목 없음|1#{0}개 일치 항목} 발견됨
+find.searching.for.string.in.file.progress:
+    text: "{1}에서 ''{0}'' 검색 중…"
+find.selection.only:
+    text: 선택 영역에서 검색
+find.super.method.warning.action.verb:
+    text: '다음에 대한 사용처 찾기:'
+find.text.dialog.title:
+    text: 텍스트 찾기
+find.usage.view.tab.text:
+    text: "''{0}''의 일치 항목{1}"
+find.usage.view.toolwindow.title:
+    text: "{1}{2} 내의 ''{0}'' 일치 항목"
+find.usages.ambiguous.title:
+    text: 다음에 대한 사용처 찾기
+find.usages.dialog.title:
+    text: 사용처 찾기
+find.usages.in.file.dialog.title:
+    text: 파일에서 사용처 찾기
+find.usages.of.element.in.scope.panel.title:
+    text: '{1} 내의 {0}'
+find.usages.of.element.tab.name:
+    text: '{1}의 {0}'
+find.usages.of.element_type.element_name.not.found.message:
+    text: '{0} {1}의 사용처를 찾을 수 없습니다'
+find.usages.panel.title.separator:
+    text: 또는
+find.usages.panel.title.usages:
+    text: 사용 사례
+find.what.group:
+    text: '찾기:'
+find.what.overriding.methods.checkbox:
+    text: 메소드 대체(&R)
+find.what.usages.checkbox:
+    text: 사용처(&U)
+find.whole.words:
+    text: 단어 단위로(&W)
+found.occurrences:
+    text: 일치 항목 발견됨
+label.use.0.and.1.to.select.usages:
+    text: 사용처를 선택하려면 {0} 및 {1}을(를) 사용하세요
+link.click.to.highlight:
+    text: 클릭하여 강조 표시
+message.file.masks.should.be.comma.separated:
+    text: 파일 마스크는 쉼표로 구분해야 합니다
+message.nothingFound:
+    text: 결과를 찾을 수 없습니다
+message.nothingFound.clearAll:
+    text: 모든 옵션 지우기
+message.nothingFound.used.options:
+    text: '사용된 검색 옵션:'
+notification.content.one.or.more.malformed.replacement.strings:
+    text: 하나 이상의 바꿀 문자열 형식이 잘못되었습니다
+notification.find.usages.is.not.available.during.indexing:
+    text: "'사용처 찾기'는 프로젝트 분석이 완료된 후 사용할 수 있습니다"
+notification.title.regular.expression.failed.to.match:
+    text: 정규식 일치 실패
+progress.text.scanning.indexed.files:
+    text: 인덱싱된 파일 스캔 중…
+progress.text.scanning.non.indexed.files:
+    text: 인덱싱되지 않은 파일 스캔 중…
+progress.title.finding.usages:
+    text: 사용처 찾는 중
+progress.title.updating.usage.view:
+    text: 사용처 뷰 업데이트 중…
+recent.find.usages.action.nothing:
+    text: 최근 사용처 찾기 항목 없음
+recent.find.usages.action.popup:
+    text: "{2} 내의 {0} ''{1}''"
+recent.find.usages.action.title:
+    text: 최근 사용처 찾기
+se.text.header.action.all.filetypes:
+    text: 모든 파일 유형
+search.everywhere.group.name:
+    text: 텍스트
+select.next.occurence.not.found.message:
+    text: 찾을 수 없습니다. 처음부터 검색하려면 다시 시도하세요
+show.in.find.window.button.description:
+    text: 찾기 도구 창에서 검색 결과 열기
+show.in.find.window.button.name:
+    text: 찾기 도구 창에서 열기
+tooltip.close.search.bar.escape:
+    text: 검색바 닫기 (Escape)

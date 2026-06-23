@@ -1,0 +1,32 @@
+filetype.chooser.file.pattern:
+    text: 'Шаблон файла [&P]:'
+filetype.chooser.prompt:
+    text: "Файл ''{0}'' не звязаны ні з адным тыпам файлаў. Вызначце асацыяцыю:"
+filetype.chooser.title:
+    text: Рэгістрацыя новай асацыяцыі тыпу файла
+filetype.edit.add.pattern.exists.error:
+    text: "Гэты шаблон зарэзерваваны для тыпу файлаў ''{0}'' і не можа быць пераназначаны"
+filetype.edit.add.pattern.exists.message:
+    text: "Гэты шаблон ужо зарэгістраваны для тыпу ''{0}''"
+filetype.edit.add.pattern.exists.title:
+    text: Дадаць шаблон
+filetype.edit.add.pattern.prompt:
+    text: "Увядзіце новы шаблон (дазволены '*' і '?') [&W]:"
+filetype.edit.add.pattern.reassign.button:
+    text: Пераназначыць шаблон [&R]
+filetype.edit.add.pattern.title:
+    text: Дадаць шаблон
+filetype.edit.edit.pattern.title:
+    text: Рэдагаваць шаблон
+filetype.edit.existing.title:
+    text: Рэдагаваць тып файла
+filetype.edit.new.title:
+    text: Новы тып файла
+filetype.plaintext.description:
+    text: Текст
+filetype.registered.patterns.group:
+    text: 'Шаблоны імёнаў файлаў:'
+filetype.settings.no.patterns:
+    text: Няма зарэгістраваных шаблонаў файлаў
+filetype.settings.title:
+    text: Тыпы файлаў

@@ -1,0 +1,2131 @@
+FileChooser.detailsViewActionLabelText:
+    text: 細節訊息
+FileChooser.listViewActionLabelText:
+    text: 清單
+FileChooser.newFolderActionLabelText:
+    text: 新增資料夾
+FileChooser.refreshActionLabelText:
+    text: 更新
+FileChooser.viewMenuLabelText:
+    text: 檢視
+action.Anonymous.text.add.abbreviation:
+    text: 添加縮寫
+action.Anonymous.text.add.keyboard.shortcut:
+    text: 添加鍵盤快捷鍵
+action.Anonymous.text.add.mouse.shortcut:
+    text: 添加滑鼠快捷鍵
+action.Anonymous.text.live.templates:
+    text: 實時模板
+action.Anonymous.text.new.group:
+    text: 新建組…
+action.Anonymous.text.rename:
+    text: 重命名
+action.Anonymous.text.reset.shortcuts:
+    text: 重置快捷鍵
+action.DumbAware.CopyrightProfilesPanel.description.stop:
+    text: 停止
+action.ToggleAction.text.filter:
+    text: 篩選
+action.ToggleAction.text.toggle.view:
+    text: 切換檢視
+action.abbreviate.qualified.package.names:
+    text: 合格的包名稱縮寫
+action.add:
+    text: 新增
+action.add.all.open.tabs.to.new.favorites.list:
+    text: 新增所有開啟的標籤到新的收藏夾清單
+action.add.repository:
+    text: 添加儲存庫
+action.add.to.new.favorites.list:
+    text: 新增到新的收藏清單
+action.append:
+    text: 追加
+action.base.on.this.class:
+    text: 在此類別基礎上
+action.base.on.this.interface:
+    text: 在此介面基礎上
+action.base.on.this.method:
+    text: 在此基礎上的方法
+action.browse.call.hierarchy:
+    text: 瀏覽呼叫層次結構
+action.browse.method.hierarchy:
+    text: 瀏覽方法層次
+action.browse.type.hierarchy:
+    text: 瀏覽類型層次結構
+action.callee.methods.hierarchy:
+    text: 被呼叫方法的層次架構
+action.caller.methods.hierarchy:
+    text: 呼叫方法的層次結構
+action.choose.actions.to.add:
+    text: 選取操作要新增
+action.clear.list:
+    text: 清除清單
+action.close:
+    text: 關閉
+action.close.all.editors:
+    text: 全部關閉
+action.close.all.editors.in.tab.group:
+    text: 關閉_All在組
+action.close.all.unmodified.editors:
+    text: 關閉未修改的
+action.close.all.unmodified.editors.in.tab.group:
+    text: 關閉組中未修改的
+action.close.all.unpinned.editors:
+    text: 關閉所有非寄存狀態的
+action.close.all.unpinned.editors.in.tab.group:
+    text: 關閉組中所有非寄存狀態的
+action.collapse.all:
+    text: 全部折疊
+action.compact.empty.middle.packages:
+    text: 收起空的包
+action.continue.searching:
+    text: 繼續搜索
+action.copy.path:
+    text: 複製路徑
+action.copy.paths:
+    text: 複製路徑
+action.copy.template:
+    text: 複製範本
+action.create.annotation.type:
+    text: 建立 @interface
+action.create.new.class.name.field:
+    text: 名稱
+action.create.new.directory.or.package:
+    text: 建立新的目錄或包
+action.create.new.enum:
+    text: 建立新的枚舉
+action.create.new.file:
+    text: 建立新檔案
+action.create.new.file.description:
+    text: 建立新檔案
+action.create.new.interface:
+    text: 建立新介面
+action.create.template:
+    text: 建立範本
+action.delete:
+    text: 刪除
+action.delete.all.favorites.lists.but.this:
+    text: "刪除所有使用者自訂清單，除了 ''{0}''"
+action.delete.ellipsis:
+    text: 刪除...
+action.delete.favorites.list:
+    text: "刪除收藏夾清單 ''{0}''"
+action.description.create.new.module.group:
+    text: 建立新的模組組
+action.description.create.new.package:
+    text: 建立新的包
+action.description.group.by.scope:
+    text: 按作用範圍類型群組(產品,測試,類別庫)
+action.description.show.files:
+    text: 顯示/隱藏檔案
+action.description.show.included.only:
+    text: 只顯示檔案包含到目前選取的作用範圍
+action.description.show.modules:
+    text: 顯示/隱藏模組
+action.description.show.structure:
+    text: 顯示結構檢視
+action.description.todo.show.all:
+    text: 顯示所有待辦事項
+action.description.view.class.hierarchy:
+    text: 切換到類別層次結構
+action.description.view.subtypes.hierarchy:
+    text: 切換到子類型層次結構
+action.description.view.supertypes.hierarchy:
+    text: 切換到超類型層次結構
+action.descriptor.action:
+    text: '動作: {0}'
+action.descriptor.keystroke:
+    text: '按鍵: "{0}"'
+action.descriptor.typing:
+    text: '打字: "{0}"'
+action.directory:
+    text: 目錄
+action.do.not.mark:
+    text: 不標記
+action.edit.file.templates:
+    text: 編輯檔案範本...
+action.edit.repository.url:
+    text: 編輯儲存庫 URL
+action.expand.all:
+    text: 全部展開
+action.flatten.packages:
+    text: 拼合包
+action.flatten.view:
+    text: 平展檢視
+action.fn.keys.text:
+    text: Fn 鍵
+action.from.file.template:
+    text: 從檔案範本 ...
+action.group.by.modules:
+    text: 按模組群組
+action.group.by.packages:
+    text: 按包群組
+action.group.by.scope.type:
+    text: 按作用範圍類型群組
+action.help:
+    text: 說明
+action.hide.empty.middle.packages:
+    text: 隱藏空的包
+action.hide.non.implementations:
+    text: 隱藏在那裡的不合法的實現類別方法
+action.hide.warnings:
+    text: 隱藏警告
+action.implement.method:
+    text: 實現方法
+action.implement.methods:
+    text: 實現方法
+action.manual.order:
+    text: 手動排序
+action.mark:
+    text: 標記
+action.move.module.new.top.level.group:
+    text: 新頂級組...
+action.move.module.outside.any.group:
+    text: 外任意組
+action.move.module.to.new.sub.group:
+    text: 要新增子組...
+action.move.module.to.this.group:
+    text: 該組
+action.new.package:
+    text: 新增包...
+action.next.message:
+    text: 下一個訊息
+action.next.problem:
+    text: 下一個問題
+action.next.tip:
+    text: 下一個竅門
+action.override.method:
+    text: 覆寫方法
+action.override.methods:
+    text: 覆寫方法
+action.overwrite:
+    text: 覆寫
+action.package:
+    text: 包
+action.pin.active.tab:
+    text: 固定活動標籤
+action.pin.tab:
+    text: 固定標籤頁
+action.presentation.EncodingPanel.text:
+    text: 檔案編碼
+action.previous.message:
+    text: 上一個訊息
+action.previous.problem:
+    text: 上一個問題
+action.previous.tip:
+    text: 前一個竅門
+action.refresh:
+    text: 更新
+action.remove:
+    text: 刪除(&R)
+action.remove.from.current.favorites:
+    text: 從目前收藏夾中刪除
+action.remove.repository.from.list:
+    text: 從列表中移除儲存庫
+action.remove.template:
+    text: 刪除範本
+action.rename.favorites.list:
+    text: 重新命名收藏夾清單
+action.reset.to.default:
+    text: 重設為預設
+action.select.none:
+    text: 取消選取
+action.send.to.new.favorites.list:
+    text: 傳送到新的收藏夾清單
+action.show.classes:
+    text: 顯示類別
+action.show.compact.empty.middle.packages:
+    text: 顯示/收起空的包
+action.show.excluded.files:
+    text: 顯示排除的檔案
+action.show.files:
+    text: 顯示檔案
+action.show.hide.empty.middle.packages:
+    text: 顯示/隱藏空的包
+action.show.hide.excluded.files:
+    text: 顯示/隱藏排除的檔案
+action.show.hide.library.contents:
+    text: 顯示/隱藏目錄庫
+action.show.hide.members:
+    text: 顯示/隱藏成員
+action.show.included.only:
+    text: 顯示僅包括
+action.show.infos:
+    text: 顯示資訊訊息
+action.show.libraries.contents:
+    text: 顯示庫內容
+action.show.members:
+    text: 顯示成員
+action.show.modules:
+    text: 顯示模組
+action.show.structure:
+    text: 顯示結構
+action.show.warnings:
+    text: 顯示警告
+action.sort.alphabetically:
+    text: 按字母順序排序
+action.sort.by.type:
+    text: 按類型
+action.split.horizontally:
+    text: 水平的分割
+action.split.vertically:
+    text: 垂直的分割
+action.start.macro.recording:
+    text: 開始巨集記錄
+action.stop:
+    text: 停止
+action.stop.macro.recording:
+    text: 停止巨集記錄
+action.stop.searching:
+    text: 停止搜索(&S)
+action.structureview.group.methods.by.defining.type:
+    text: 通過定義類型組的方法
+action.structureview.show.fields:
+    text: 顯示欄位
+action.structureview.show.inherited:
+    text: 顯示繼承
+action.structureview.show.non.public:
+    text: 顯示非公用
+action.structureview.show.properties:
+    text: 顯示屬性
+action.structureview.sort.by.visibility:
+    text: 排序方式能見度
+action.sync.completed.successfully:
+    text: '{0}已成功完成。'
+action.synchronize.file:
+    text: "同步 ''{0}''"
+action.synchronize.selected.files:
+    text: 同步選擇的檔案
+action.text.remove.0:
+    text: 移除 {0}
+action.text.remove.abbreviation.0:
+    text: "移除縮寫 ''{0}''"
+action.todo.edit.filters:
+    text: 編輯過濾器
+action.todo.show.all:
+    text: 全部顯示
+action.unpin.active.tab:
+    text: Unp_in活動標籤
+action.unpin.tab:
+    text: Unp_in標籤
+action.unpin.tab.tooltip:
+    text: 取消固定頁籤
+action.view.class.hierarchy:
+    text: 類別層次結構
+action.view.subtypes.hierarchy:
+    text: 子類型層次結構
+action.view.supertypes.hierarchy:
+    text: 超類型層次結構
+add.BOM:
+    text: 添加 BOM
+add.byte.order.mark.to:
+    text: 向 {0} 添加字節順序標記
+add.local.scope.action.text:
+    text: 局部
+add.scope.dialog.title:
+    text: 新增新作用範圍
+add.scope.name.label:
+    text: 名稱
+add.scope.popup.title:
+    text: 新增作用範圍
+add.shared.scope.action.text:
+    text: 共用
+alphabetical.mode.is.on.warning:
+    text: 為 ON 時按字母順序排列標籤。是否轉為 OFF？
+attribute.0.should.be.defined:
+    text: "''{0}'' 屬性需要定義"
+available.packages.dialog.title:
+    text: 可用軟體套件
+bean.property:
+    text: Bean屬性
+browsers.settings:
+    text: 網頁瀏覽器
+bundled.jre.version.message:
+    text: 請考慮切換到更適合 IDE 的自帶 Java 執行環境(您目前的 Java 執行環境為 {0} )。
+button.add:
+    text: 新增...
+button.add.action.after:
+    text: 新增後(&F)...
+button.add.d:
+    text: 新增...
+button.add.separator:
+    text: 新增分隔符號
+button.cancel:
+    text: 取消
+button.change.directory:
+    text: 變更目錄...
+button.configure:
+    text: 設定...
+button.configure.e:
+    text: 設定...
+button.convert:
+    text: 轉換
+button.convert.anyway:
+    text: 仍然轉換
+button.copy:
+    text: 複製
+button.create:
+    text: 建立
+button.delete:
+    text: 刪除
+button.edit:
+    text: 編輯...
+button.edit.action.icon:
+    text: 編輯操作圖示(&I)...
+button.edit.t:
+    text: 編輯...
+button.exclude:
+    text: 排除
+button.exclude.recursively:
+    text: 遞歸排除
+button.existingframe:
+    text: 此視窗(&T)
+button.facet.quickfix.text:
+    text: 糾正
+button.finish:
+    text: 完成
+button.go.to:
+    text: 轉到
+button.http.proxy.settings:
+    text: HTTP代理設定(&H)...
+button.include:
+    text: 包含
+button.include.recursively:
+    text: 包括遞歸
+button.insert:
+    text: 插入
+button.mark.all:
+    text: 標記全部(&M)
+button.move.down:
+    text: 下移(&D)
+button.move.down.d:
+    text: 下移(&D)
+button.move.up:
+    text: 上移(&U)
+button.move.up.u:
+    text: 上移(&U)
+button.newframe:
+    text: 新增視窗(&W)
+button.no:
+    text: 否
+button.ok:
+    text: 確定
+button.reload:
+    text: 重新載入(&R)
+button.reload.anyway:
+    text: 仍然重新載入
+button.remove:
+    text: 刪除(&R)
+button.remove.action:
+    text: 刪除動作
+button.remove.all:
+    text: 全部刪除
+button.remove.m:
+    text: 刪除(&R)
+button.rename:
+    text: 重新命名
+button.save:
+    text: 儲存
+button.set.icon:
+    text: 設定圖示(&S)
+button.stop.searching:
+    text: 停止搜索(&S)
+button.unmark.all:
+    text: 取消標記全部(&U)
+button.view.source:
+    text: 檢視來源檔案(&V)
+button.wizard.next:
+    text: 下一步
+button.wizard.previous:
+    text: 上一步
+button.yes:
+    text: 是
+change.encoding.command.name:
+    text: "更改 ''{0}'' 的編碼"
+checkboox.cyclic.scrolling.in.lists:
+    text: 循環捲動清單
+checkbox.allow.line.numbers:
+    text: 允許行號
+checkbox.allow.status.bar:
+    text: 允許狀態列
+checkbox.allow.vcs.annotations:
+    text: 允許VCS註解
+checkbox.animate.windows:
+    text: 視窗動畫
+checkbox.confirm.application.exit:
+    text: 確認應用程式結束
+checkbox.copy.javadoc:
+    text: 複製JavaDoc(&J)
+checkbox.customfiletype.ignore.case:
+    text: 忽略大小寫(&I)
+checkbox.customfiletype.support.paired.braces:
+    text: 支援成對花括號(&R)
+checkbox.customfiletype.support.paired.brackets:
+    text: 支援成對方括號(&C)
+checkbox.customfiletype.support.paired.parens:
+    text: 支援配對圓括號(&P)
+checkbox.customfiletype.support.string.escapes:
+    text: 支援轉義字串(&E)
+checkbox.disabled.included:
+    text: 包含禁用的動作(&D)
+checkbox.enable.live.templates:
+    text: 啟用動態範本(&L)
+checkbox.errortree.export.details:
+    text: 細節訊息
+checkbox.include.non.project.classes:
+    text: 包括非項目類別(&N)
+checkbox.include.non.project.files:
+    text: 包括非項目檔案(&N)
+checkbox.include.non.project.items:
+    text: 包括非{0}項
+checkbox.include.non.project.symbols:
+    text: 包括非項目符號(&N)
+checkbox.insert.at.override:
+    text: 插入@覆寫(&O)
+checkbox.left.toolwindow.layout:
+    text: 側由端在左邊佈局
+checkbox.narrow.down.on.typing:
+    text: 在輸入時縮小 (&N)
+checkbox.narrow.down.the.list.on.typing:
+    text: 在輸入時縮小清單 (&N)
+checkbox.other.included:
+    text: 包括非選單操作(&N)
+checkbox.override.default.laf.fonts:
+    text: '覆寫預設字體（不推薦）:'
+checkbox.position.cursor.on.default.button:
+    text: <html>在預設按鈕位置自動定位游標（滑鼠移動預設按鈕位置）</html>
+checkbox.reformat.according.to.style:
+    text: 根據樣式重新格式化(&R)
+checkbox.reopen.last.project.on.startup:
+    text: 重啟時開啟最後一個項目
+checkbox.right.toolwindow.layout:
+    text: 側並排在右側佈局
+checkbox.safe.delete.with.usage.search:
+    text: 安全刪除（包括用法搜索）(&F)
+checkbox.save.files.automatically:
+    text: 自動儲存檔案，如果申請的是閒置
+checkbox.save.files.on.frame.deactivation:
+    text: 節省幀失活的檔案
+checkbox.search.in.comments.and.strings:
+    text: 在註解和字串搜索(&S)
+checkbox.search.in.non.java.files:
+    text: 搜索非代碼的用法(&E)
+checkbox.show.editor.preview.popup:
+    text: 在卷軸顯示代碼局部
+checkbox.show.icons.in.menu.items:
+    text: 圖示顯示在選單項
+checkbox.show.icons.in.quick.navigation:
+    text: 在快速導航中顯示圖示
+checkbox.show.memory.indicator:
+    text: 顯示記憶體指示
+checkbox.show.tips.on.startup:
+    text: 在啟動時顯示提示
+checkbox.show.tool.window.bars:
+    text: 顯示工具視窗方塊
+checkbox.show.tool.window.numbers:
+    text: 顯示工具視窗數
+checkbox.synchronize.files.on.frame.activation:
+    text: 同步目前方塊架或編輯器裡的檔案
+checkbox.transparent.native.to.ascii.conversion:
+    text: 轉換本機語言為ascii
+checkbox.use.antialiased.font.in.editor:
+    text: 使用反鋸齒字體
+checkbox.use.preview.window:
+    text: 導航到預覽
+checkbox.use.transparent.mode.for.floating.windows:
+    text: 使用透明模式下的浮動視窗
+checkbox.widescreen.tool.window.layout:
+    text: 寬屏工具視窗佈局
+child.tag.0.should.be.defined:
+    text: "''{0}'' 子標籤需要定義"
+code.folding.settings:
+    text: 代碼折疊設定
+column.description:
+    text: 說明
+combobox.console.default.encoding.label:
+    text: '預設編碼:'
+combobox.look.and.feel:
+    text: '主題:'
+command.close.active.editor:
+    text: 關閉目前編輯器
+command.close.all.editors:
+    text: 關閉所有編輯器
+command.close.all.unmodified.editors:
+    text: 關閉所有未修改編輯
+command.create.class.from.template:
+    text: 建立類別從範本
+command.create.directory:
+    text: 建立目錄
+command.create.enum:
+    text: 建立枚舉
+command.create.file:
+    text: 建立檔案
+command.create.file.from.template:
+    text: 建立檔案從範本
+command.create.interface:
+    text: 建立介面
+command.create.new.package:
+    text: 建立新的包
+command.create.new.subdirectory:
+    text: 建立新的子目錄
+command.create.package:
+    text: 建立包
+command.find.next:
+    text: 搜尋下一個
+command.find.previous:
+    text: 搜尋上一個
+command.fixing.line.separators:
+    text: 修正行分隔符
+command.go.to.line:
+    text: 轉到行
+command.go.to.next.split:
+    text: 轉到一個分割體
+command.go.to.prev.split:
+    text: 轉到上分割
+command.pasting.reference:
+    text: 貼上參考
+command.reload.from.disk:
+    text: 從磁盤重新載入
+command.renaming.module:
+    text: 重新命名模組{0}
+command.select.all:
+    text: 全選
+command.switch.active.editor:
+    text: 切換活動編輯器
+confirm.set.look.and.feel:
+    text: 變更主題(&T)
+conversion.dialog.text.1:
+    text: "該項目'' {0}''有一個較舊的格式，將被轉換。你可能無法開啟用早期版本的{1}的項目。"
+conversion.dialog.text.2:
+    text: "<b> </b><a href=\"details\">詳情...</a><br/><br/>舊版本的項目檔案將被儲存: ''{0}''"
+copy.reference:
+    text: 複製引用(&Y)
+copy.references:
+    text: 複製引用(&Y)
+copy.relative.path:
+    text: 複製相對路徑(&Y)
+copy.relative.paths:
+    text: 複製相對路徑(&Y)
+custom.icon.validation.message:
+    text: 圖示放在選單太大
+custom.icon.validation.title:
+    text: 圖示大小無效
+description.copy.text.to.clipboard:
+    text: 複製文字到剪貼簿
+description.select.module.file.location:
+    text: 該模組檔案會被儲存在選擇的目錄
+description.select.project.file.directory:
+    text: '{0}的檔案將存儲在這個目錄中'
+detach.library:
+    text: 分離庫
+detach.library.from.module:
+    text: "分離庫 '' {0}'' 從模組 ''{1}''？\n沒有磁盤上的檔案會受到傷害。"
+dialog.message.cannot.save.the.file.0:
+    text: 無法儲存檔案 {0}
+dialog.message.incompatible.encoding:
+    text: "您選擇的編碼(''{0}'')可能會更改 ''{1}'' 的內容。<br>是否要<br>1. 以新的編碼 ''{0}'' 從磁碟<b>重新載入</b>檔案，並覆蓋編輯器內容或<br>2. <b>轉換</b>文本並以新編碼覆蓋檔案?"
+dialog.title.abbreviation:
+    text: 縮寫
+dialog.title.choose.color:
+    text: 選擇顏色
+dialog.title.clear.read.only.file.status:
+    text: 清除唯讀狀態
+dialog.title.color.picker:
+    text: 取色器
+dialog.title.convert.module:
+    text: 轉換模組
+dialog.title.convert.project:
+    text: 轉換項目(&C)
+dialog.title.error.writing.file:
+    text: 寫入檔案時錯誤
+dialog.title.file.0.can.t.be.reloaded:
+    text: "無法以 ''{1}'' 編碼重新載入檔案 ''{0}''。{2}"
+dialog.title.file.0.most.likely.isn.t.stored:
+    text: "檔案 ''{0}'' 可能未以 ''{1}'' 編碼存儲。{2}"
+dialog.title.go.to.line.column:
+    text: 轉到行:列
+dialog.title.unable.to.save:
+    text: 無法儲存
+diff.dialog.title:
+    text: "''{0}''和''{1}''之間的差異"
+directory.module.content.root:
+    text: |
+        模組內容根
+directory.module.file:
+    text: |
+        該模組檔案目錄
+directory.project.file.directory:
+    text: |
+        {0}檔案目錄
+display.balloon.notifications:
+    text: 顯示氣球通知
+dnd.with.alt.pressed.only:
+    text: 僅按下 ALT 時拖放
+dom.elements.tree.childs.contain.errors:
+    text: 子類別有錯誤
+double.ctrl.or.shift.shortcut:
+    text: 雙擊 {0}
+editbox.customfiletype.block.comment.end:
+    text: '區塊註解結束:'
+editbox.customfiletype.block.comment.start:
+    text: '區塊註解開始:'
+editbox.customfiletype.description:
+    text: '描述:'
+editbox.customfiletype.hex.prefix:
+    text: '十六進位的前置字元:'
+editbox.customfiletype.line.comment:
+    text: '行註解:'
+editbox.customfiletype.name:
+    text: '名稱:'
+editbox.customfiletype.number.postfixes:
+    text: '後置字元編號:'
+editbox.default.encoding.for.properties.files:
+    text: '屬性檔案的預設編碼:'
+editbox.export.settings.to:
+    text: '匯出設定:'
+editbox.export.to.file:
+    text: '匯出到檔案中:'
+editbox.ignore.files.and.folders:
+    text: 忽略檔案和資料夾
+editbox.keyword:
+    text: '關鍵字:'
+editbox.license.license.key:
+    text: '授權密鑰:'
+editbox.license.user.name:
+    text: '使用者名:'
+empty.text.drop.files.to.open:
+    text: 將檔案拖放到此處以開啟
+empty.text.go.to.file:
+    text: 轉到檔案
+empty.text.navigation.bar:
+    text: 導航欄
+empty.text.project.view:
+    text: 專案檢視
+empty.text.recent.files:
+    text: 最近的檔案
+empty.text.search.everywhere:
+    text: 隨處搜尋
+encoding.do.not.convert.message:
+    text: "請勿轉換到 ''{0}''。"
+encoding.not.available:
+    text: 不適用
+encoding.unsupported.characters.message:
+    text: "編碼 ''{0}'' 不支持文本中的某些字符。"
+encodings.dialog.caption:
+    text: <html>改變檔案或目錄編碼 $productName,點擊一個項目,然後選取從清單預設編碼編碼。<br><br>內置檔案編碼(例如JSP、HTML或XML)覆寫你在這裡指定的編碼。<br>如果沒有指定,檔案和目錄繼承父目錄的編碼設定或從項目編碼。</html>
+error.0.browser.path.not.specified:
+    text: '{0} 瀏覽器路徑沒有指定'
+error.adding.action.without.icon.to.toolbar:
+    text: 要新增一個動作沒有圖示到工具列。預設圖示將被新增到這個動作。
+error.adding.module.to.project:
+    text: 錯誤新增模組項目：{0}
+error.cannot.convert.project:
+    text: 無法轉換項目：{0}
+error.cannot.create.temp.dir:
+    text: "無法建立臨時目錄 ''{0}''"
+error.cannot.find.file:
+    text: 無法找到檔案{0}
+error.cannot.load.project:
+    text: 無法載入的項目：{0}
+error.cannot.set.look.and.feel:
+    text: <html><body>無法設定{0}主題：<br> {1} </body></html>
+error.connection.failed.redirects:
+    text: '連接失敗: 太多的重定向'
+error.connection.failed.with.http.code.N:
+    text: 連接失敗，HTTP代碼{0}
+error.content.root.already.defined.for.module:
+    text: |-
+        內容根「{0}」已定義的模組「{1}」。
+        兩個模組中的一個項目不能共用相同的內容根。
+error.correct.pattern.syntax.errors.first:
+    text: 正確的模式語法錯誤第一
+error.failed.to.create.directory:
+    text: 無法建立目錄「{0}」
+error.favorites.list.already.exists:
+    text: "收藏清單中名稱為'' {0}''已存在"
+error.file.contains.no.settings.to.import:
+    text: |-
+        檔案{0}沒有設定匯入。
+        {1}
+error.file.does.not.exist:
+    text: 檔案{0}不存在。
+error.file.download.failed:
+    text: "無法下載 ''{0}'':\n{1}"
+error.file.not.found.message:
+    text: "檔案 ''{0}'' 未找到"
+error.files.of.this.type.cannot.be.opened:
+    text: 這種類型的檔案不能在開啟{0}
+error.invalid.template.file.name.or.extension:
+    text: 無效的範本檔案名或副檔名
+error.keyword.cannot.be.empty:
+    text: 關鍵字必須輸入
+error.keyword.may.not.contain.spaces:
+    text: 關鍵字不能包含空格
+error.license.collision:
+    text: |-
+        該授權被網路上其他地方的{0}使用。
+        一次只有一個活躍的計算機可以使用授權。
+        你想重新啟用，或者關閉。
+error.loading.package.list:
+    text: '載入軟體套件列表時出錯: {0}'
+error.malformed.url:
+    text: 非法的URL：{0}
+error.message.cannot.make.files.writable:
+    text: |-
+        不能使下列檔案可寫入:
+        {0}
+error.message.cannot.modify.file.0:
+    text: "不能修改檔案 ''{0}''"
+error.message.unable.to.create.file:
+    text: "無法建立檔案 ''{0}''"
+error.module.already.exists:
+    text: "模組命名為 ''{0}'' 已經存在"
+error.module.file.does.not.exist:
+    text: 指定的路徑到模組檔案不存在
+error.module.not.iml:
+    text: |-
+        在「{0}」
+        不是{1}模組檔案(.iml)
+error.module.with.name.already.exists:
+    text: 模組名稱為「{0}」已存在於項目
+error.name.cannot.be.empty:
+    text: 名稱必須輸入
+error.name.should.be.specified:
+    text: 必須指定名稱
+error.occurred.please.check.your.internet.connection:
+    text: 出錯了。請檢查您的網絡連接。
+error.parsing.file.template:
+    text: 錯誤剖析檔案範本：{0}
+error.please.enter.a.file.name:
+    text: 請輸入檔案名
+error.please.specify.module.file.location:
+    text: 請指定模組檔案的位置
+error.please.specify.new.name.for.schema:
+    text: "請指定計劃'' {0}''新名稱。"
+error.please.specify.path.to.module.file:
+    text: 請指定路徑為{0}模組檔案(.iml)
+error.please.specify.path.to.web.browser:
+    text: 請指定Web瀏覽器{0}的路徑
+error.please.specify.template.extension:
+    text: 請註明範本擴充
+error.please.specify.template.name:
+    text: 請指定範本名稱
+error.project.file.does.not.exist:
+    text: 無法載入{0}。該檔案不存在。
+error.project.file.is.corrupted:
+    text: 項目檔案已損壞
+error.reading.settings.file:
+    text: |-
+        讀取檔案時錯誤{0}。
+        有{1}
+
+        {2}
+error.reading.settings.file.2:
+    text: |-
+        讀取檔案時錯誤{0}。
+
+        {1}
+error.saving.license.data:
+    text: |-
+        錯誤儲存授權資料。
+        {0}
+error.saving.statistic.failed.to.create.folder:
+    text: 無法建立資料夾 {0} 儲存系統訊息。
+error.saving.statistics:
+    text: 儲存系統訊息錯誤：{0}
+error.source.directory.should.be.under.module.content.root.directory:
+    text: 源目錄應該是模組內容根目錄下
+error.text.file.already.exists:
+    text: |-
+        檔案{0}已存在
+        你想覆寫它還是追加？
+error.tips.not.found:
+    text: 沒有找到竅門。確保您安裝{0}正確地做出。
+error.unable.to.parse.template.message:
+    text: |-
+        無法分析範本「{0}」
+        錯誤訊息：{1}
+error.unable.to.read.tip.of.the.day:
+    text: <html><body>無法讀取每日提示（{0}）。確保{1}已正確安裝。</body></html>
+error.updating.package.list:
+    text: '更新軟體套件列表時出錯: {0}'
+error.writing.settings:
+    text: |-
+        錯誤寫入設定。
+
+        {0}
+error.writing.to.file:
+    text: 寫入檔案時錯誤：{0}
+errortree.error:
+    text: '錯誤:'
+errortree.information:
+    text: '訊息:'
+errortree.note:
+    text: '備註:'
+errortree.prefix.line:
+    text: 行（{0}）
+errortree.warning:
+    text: '警告:'
+exception.missing.data:
+    text: 無資料：{0}
+fail.open.project.message:
+    text: "無法從 ''{0}'' 開啟項目"
+failed.to.install.package.dialog.title:
+    text: "無法安裝 ''{0}''"
+failed.to.install.packages.dialog.title:
+    text: 無法安裝軟體套件
+favorites.empty.screen:
+    text: 沒有什麼可以顯示。要新增項目到收藏夾清單的使用：主選單 -> 檢視 -> 新增到收藏夾
+favorites.list.unnamed:
+    text: 未命名的{0}
+file.changed.externally.message:
+    text: 檔案已經被改變了。
+file.changed.externally.reload:
+    text: 更新
+file.chooser.completion.ad.text:
+    text: 使用{0}，以保持路徑的尾巴
+file.chooser.completion.no.suggestions:
+    text: 沒有建議
+file.chooser.completion.path.variables.text:
+    text: 路徑變數
+file.chooser.hide.path:
+    text: 隱藏路徑
+file.chooser.hide.path.tooltip.text:
+    text: 顯示/隱藏路徑文字欄位
+file.chooser.show.path:
+    text: 顯示路徑
+file.encoding.option.create.utf8.files:
+    text: '創建 UTF-8 檔案:'
+file.encoding.option.encoding.column:
+    text: 編碼
+file.encoding.option.global.encoding:
+    text: 全域編碼
+file.encoding.option.path.column:
+    text: 路徑
+file.encoding.option.project.encoding:
+    text: 專案編碼
+file.encoding.option.properties.files:
+    text: 屬性檔案 (*.properties)
+file.encoding.option.warning.always:
+    text: <html> {0} 會將 <a>UTF-8 BOM</a> 添加到以 UTF-8 編碼的每個已創建檔案中</html>
+file.encoding.option.warning.never:
+    text: <html> {0} 不會將 <a>UTF-8 BOM</a> 添加到以 UTF-8 編碼的每個已創建檔案中</html>
+file.encoding.option.warning.windows.only:
+    text: <html>只有在 Windows 下執行時，{0} 才會將 <a>UTF-8 BOM</a> 添加到創建的每個 UTF-8 檔案中。</html>
+file.encodings.configurable:
+    text: 檔案編碼
+file.encodings.not.configured:
+    text: 編碼未設定
+file.structure.toggle.show.inherited:
+    text: 顯示繼承的成員(&S)
+filetype.description.ant:
+    text: ANT的構建檔案
+filetype.description.class:
+    text: Java類別檔案
+filetype.description.dtd:
+    text: XML文件類型定義
+filetype.description.gui.designer.form:
+    text: GUI設計形式
+filetype.description.html:
+    text: HTML檔案
+filetype.description.idea.module:
+    text: 創意模組
+filetype.description.idea.project:
+    text: 創意項目
+filetype.description.idea.workspace:
+    text: 創意工作區
+filetype.description.java:
+    text: Java來源檔案
+filetype.description.jsp:
+    text: Java伺服器頁面檔案
+filetype.description.jspx:
+    text: JSPx檔案
+filetype.description.unknown:
+    text: 未知
+filetype.description.xhtml:
+    text: XHTML檔案
+filetype.description.xml:
+    text: XML檔案
+filter.all.file.types:
+    text: 所有檔案類型
+finished.with.exit.code.text.message:
+    text: 程式完成向後出代碼{0}
+general.settings:
+    text: 設定
+go.to.class.action.description:
+    text: 快速導航到 {0}
+go.to.class.dumb.mode.message:
+    text: 轉到類別動作不可用,使用轉到檔案代替
+go.to.class.toolwindow.title:
+    text: 類別符合模式
+go.to.file.toolwindow.title:
+    text: 檔案符合模式
+goto.custom.region.command:
+    text: 去自訂的折疊
+goto.custom.region.menu.item:
+    text: 自訂的折疊...
+goto.custom.region.message.unavailable:
+    text: 目前檔案中沒有自訂折疊區域。
+goto.inspection.action.text:
+    text: 執行檢驗按名稱(&R)...
+group.antialiasing.mode:
+    text: 反混淆
+group.customfiletype.syntax.highlighting:
+    text: 語法高亮
+group.general.options:
+    text: 常規選項
+group.http.proxy:
+    text: HTTP代理
+group.presentation.mode:
+    text: 試用模式
+group.transparency:
+    text: 透明度
+group.ui.options:
+    text: UI選項
+group.vendor:
+    text: 供應商
+group.view.options:
+    text: 檢視選項
+group.web.browser:
+    text: 網頁瀏覽器
+group.window.options:
+    text: 視窗選項
+handle.ro.file.status.type.using.file.system:
+    text: 使用檔案系統
+help.topic.not.found.error:
+    text: 說明主題「{0}」未找到
+hierarchy.call.next.occurence.name:
+    text: 轉到下一個呼叫
+hierarchy.call.prev.occurence.name:
+    text: 轉到上一個呼叫
+hierarchy.legend.method.defined.in.superclass:
+    text: 方法不是定義在類別中，但在超類別中有定義
+hierarchy.legend.method.is.defined.in.class:
+    text: 方法是定義在類別中
+hierarchy.legend.method.should.be.defined:
+    text: 方法應該是自訂的類別不是抽像的
+hierarchy.method.next.occurence.name:
+    text: 轉到下一個方法
+hierarchy.method.prev.occurence.name:
+    text: 轉到上一個方法
+hierarchy.scope.all:
+    text: 全部
+hierarchy.scope.project:
+    text: 生產
+hierarchy.scope.test:
+    text: 測試
+hierarchy.scope.this.class:
+    text: 這個類別
+hierarchy.type.next.occurence.name:
+    text: 轉到下一個類型
+hierarchy.type.prev.occurence.name:
+    text: 轉到上一個類型
+ide.postpone.action:
+    text: 推遲
+ide.restart.action:
+    text: 重啟
+ide.set.hidpi.mode:
+    text: 您可能需要手動設定 HiDPI 模式以防止 UI 縮放的問題。
+ide.shutdown.action:
+    text: 關閉
+incompatible.encoding.dialog.title:
+    text: '不相容的編碼: {0}'
+install.package.failure:
+    text: "安裝軟體套件 ''{0}'' 時發生錯誤。<a href=\"xxx\">詳細資訊…</a>"
+item.file.templates:
+    text: 檔案範本
+jar.build.include.in.jar.file:
+    text: '包括JAR檔案:'
+jar.build.module.0.jar.settings:
+    text: "''{0}''模組 JAR 設定"
+jar.build.modules.to.jar:
+    text: 選取模組打包為jar
+jar.build.on.make:
+    text: 打包為 JARs
+label.appearance.caret.blinking:
+    text: '外觀: 文字游標閃爍'
+label.appearance.show.inner.whitespaces:
+    text: '外觀: 顯示內部空格'
+label.appearance.show.leading.whitespaces:
+    text: '外觀: 顯示前導空格'
+label.appearance.show.right.margin:
+    text: '外觀: 顯示右邊距'
+label.appearance.show.trailing.whitespaces:
+    text: '外觀: 顯示尾隨空格'
+label.choosebyname.no.matches.found:
+    text: 沒有找到符合的
+label.choosebyname.searching:
+    text: 搜索...
+label.component.file.location:
+    text: '{0}檔案位置(&L):'
+label.description:
+    text: 說明
+label.did.you.know:
+    text: 你知道嗎... ？
+label.enter.new.abbreviation:
+    text: '輸入新縮寫:'
+label.extension:
+    text: '副檔名:'
+label.file.name:
+    text: '檔案名:'
+label.font.name:
+    text: '名稱:'
+label.font.size:
+    text: '大小:'
+label.icon.path:
+    text: '圖示路徑(&I):'
+label.inactive.timeout.sec:
+    text: 秒.
+label.java.source.files.have.been.found:
+    text: |-
+        來源檔案為你的模組已被發現。請選取目錄即會
+        被標記為源路徑。這些路徑對應為預設（根，無名，頂級）封裝。
+        註：該計劃將只承認那些來源檔案，位於下源目錄。
+label.library.will.be.created.description.text:
+    text: '{0} level library <b>{1}</b> with {2} {2, choice, 1#file|2#files} 將被建立'
+label.line.column:
+    text: '[行] [:列]:'
+label.macro.preview:
+    text: 巨集預覽
+label.macros:
+    text: 巨集
+label.missed.libraries.prefix:
+    text: '下面的庫遺失:'
+label.missed.libraries.text:
+    text: "''{0}'' 中的模組依賴關係清單中沒有發現庫"
+label.module.file.will.be.saved.in:
+    text: '模組檔案將被儲存在:'
+label.name:
+    text: '名稱:'
+label.no.actions.found:
+    text: 沒有找到行動
+label.no.enabled.actions.found:
+    text: 未找到啟用的操作
+label.no.files.found:
+    text: 沒有找到的檔案
+label.no.inspections.found:
+    text: 沒有找到檢驗
+label.no.matches.found:
+    text: 沒有找到符合項
+label.no.matches.found.in.project:
+    text: 沒有在項目中發現符合
+label.no.menu.actions.found:
+    text: 在主選單中沒有發現行動
+label.no.non.java.files.found:
+    text: 沒有在項目中發現符合
+label.offset:
+    text: '偏移:'
+label.option.appearance:
+    text: '外觀: {0}'
+label.override.laf.font:
+    text: '字體:'
+label.path.to.module.file:
+    text: '路徑{0}模組檔案（IML）:'
+label.please.enter.project.name:
+    text: 請輸入一個名稱來建立一個新的{0} {1}。
+label.project.jdk:
+    text: '項目的SDK:'
+label.project.roots.have.been.found:
+    text: |-
+        來源檔案為您的項目已被發現。請選取目錄即會
+        要新增到項目的根。這些路徑對應為預設（根，無名，頂級）封裝。
+        註：該計劃將只承認那些來源檔案，位於下這些目錄。
+label.project.roots.not.found:
+    text: 找不到來源檔案為您的項目。
+label.scope:
+    text: '作用範圍:'
+label.scope.contains.files:
+    text: 範圍包含{0} ，共{1}檔案
+label.scope.editor.caret.position:
+    text: '位置: {0}'
+label.scope.pattern:
+    text: '模式:'
+label.select.compiler.output.path:
+    text: '選取編譯器的輸出路徑(&O):'
+label.select.module.type:
+    text: '模組類型:'
+label.source.directory:
+    text: '下面的目錄將被標記為源代碼目錄:'
+label.text.antialiasing.scope.editor:
+    text: '編輯器:'
+label.transparency.delay.ms:
+    text: '延時（ms）:'
+label.transparency.ratio:
+    text: '比例:'
+license.panel.buildit.evaluation.expires.in.many:
+    text: 不到{0}天
+license.panel.buildit.evaluation.expires.in.one:
+    text: 剩下1天
+license.panel.current.floating.ticket.description:
+    text: 獲得浮動證書
+license.panel.current.permanent.ticket.description:
+    text: 獲得永久性證書
+license.panel.default.server.discover:
+    text: 發現
+license.panel.discover.license.server.error.message:
+    text: 無法發現授權伺服器的URL
+license.panel.expirable.license.description:
+    text: '{0,date,MMMM dd, yyyy} 授權將到期'
+license.panel.maintenance.aware.license.description:
+    text: 享有免費的更新和升級，直到 {0,date,MMMM dd, yyyy}
+license.panel.perpetual.license.description:
+    text: 有效期為{0}版本{1}
+license.panel.ping.license.server.error.message:
+    text: 自動驗證的授權伺服器沒有響應{0}
+license.panel.ping.license.server.error.title:
+    text: 伺服器無響應
+link.click.here.to.license.server.info:
+    text: 更多訊息
+link.purchase.commercial.license:
+    text: 購買商業授權請登陸
+listbox.customfiletype.keywords:
+    text: 關鍵字
+loading.editors:
+    text: 開啟編輯器...
+loading.in.progress:
+    text: "<html><body style='text-align: center;padding-top:20px;'>正在載入…</body></html>"
+local.scopes.node.text:
+    text: 局部作用範圍
+low.disk.space.message:
+    text: 在{0}系統目錄分區的磁盤空間不足
+macro.class.name:
+    text: 類別名
+macro.classpath.entry:
+    text: 在類別路徑中的元素屬於
+macro.column.number:
+    text: 列數
+macro.file.dir.relative.to.root:
+    text: 相對於檔案目錄的模組內容根檔案屬於
+macro.file.dir.relative.to.root.fwd.slash:
+    text: 相對於模組內容根檔案目錄的檔案屬於（正斜槓）
+macro.file.dir.relative.to.sourcepath.root:
+    text: 相對於檔案目錄到源路徑根目錄的檔案屬於
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: 相對於源路徑的根檔案目錄的檔案屬於（正斜槓）
+macro.file.directory:
+    text: 檔案目錄
+macro.file.directory.from.parent:
+    text: $FileDir$ 路徑的父目錄的名稱作為一個參數傳遞
+macro.file.directory.name:
+    text: 檔案目錄名
+macro.file.directory.relative:
+    text: 相對於項目檔案檔案目錄
+macro.file.directory.relative.fwd.slash:
+    text: 檔案目錄相對於項目檔案（使用正斜槓）
+macro.file.encoding:
+    text: 檔案編碼
+macro.file.extension:
+    text: 檔案副檔名
+macro.file.fully.qualified.package:
+    text: 檔案完全限定的包
+macro.file.name:
+    text: 檔案名
+macro.file.name.without.all.extensions:
+    text: 檔案名不帶所有副檔名
+macro.file.name.without.extension:
+    text: 檔案名不帶副檔名
+macro.file.package:
+    text: 檔案包
+macro.file.parent.directory:
+    text: 檔案的父目錄。有一個可選的參數（名稱）找到父目錄
+macro.file.path:
+    text: 檔案路徑
+macro.file.path.relative:
+    text: 相對於項目檔案的檔案路徑
+macro.file.path.relative.fwd.slash:
+    text: 檔案路徑相對於項目檔案（使用正斜槓）
+macro.file.path.relative.to.root:
+    text: 檔案路徑相對於模組內容根檔案屬於
+macro.file.path.relative.to.root.fwd.slash:
+    text: 相對於模組內容根檔案路徑的檔案屬於（正斜槓）
+macro.file.path.relative.to.sourcepath.root:
+    text: 檔案路徑相對於源路徑根目錄下的檔案屬於
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: 相對於源路徑的根檔案路徑的檔案屬於（正斜槓）
+macro.javadoc.output.directory:
+    text: JavaDoc的輸出目錄
+macro.line.number:
+    text: 行號
+macro.module.file.directory:
+    text: 該模組檔案的目錄
+macro.module.file.name:
+    text: 未擴充的模組檔案名
+macro.module.file.path:
+    text: 該模組檔案的路徑
+macro.module.source.path:
+    text: 模組的源路徑
+macro.output.path:
+    text: 輸出路徑
+macro.project.classpath:
+    text: 項目的類別路徑
+macro.project.file.directory:
+    text: 項目檔案的目錄
+macro.project.file.name:
+    text: 未擴充的項目檔案的名稱
+macro.project.file.path:
+    text: 項目檔案的路徑
+macro.project.source.path:
+    text: 項目源路徑
+macro.project.sourcepath:
+    text: 項目的源路徑
+macro.prompt:
+    text: 顯示一個字串輸入對話方塊
+macro.sourcepath.entry:
+    text: 輸入的源路徑的元素屬於
+manage.repositories.dialog.title:
+    text: 管理儲存庫
+maven.repository.presentable.name:
+    text: Maven倉庫
+message.educational.license:
+    text: 1年期教育授權。 {0}
+message.evaluation.N.days:
+    text: '{0}天'
+message.evaluation.has.expired:
+    text: 您的{0}評估已過期。您的會話將被限制在30分鐘。<BR> {1}
+message.evaluation.less.than.one.day:
+    text: 少於1天
+message.evaluation.one.day:
+    text: 1 天
+message.evaluation.will.expire:
+    text: 感謝您的評價{0}。搜尋在{1}有限公司您評估授權過期{2}
+message.expiration.date:
+    text: 截止日期：{0}
+message.macro.exists:
+    text: "已經有一個叫做'' {0}''巨集。覆寫它嗎？"
+message.module:
+    text: "模組 ''{0}''"
+message.module.file.has.an.older.format.do.you.want.to.convert.it:
+    text: 模組檔案有一個較舊的格式。你要轉換呢？
+message.modules:
+    text: 模組
+message.move.modules.to.group:
+    text: 移動{0}的組{1}
+message.no.targets.available:
+    text: 沒有在這方面可用的目標
+message.non.commercial.use.only:
+    text: 只有非商業用途
+message.nothing.to.show.in.structure.view:
+    text: 沒有在結構檢視顯示
+message.occurrence.N.of.M:
+    text: 發現{0} {1}
+message.open.file.is.project:
+    text: |-
+        {0} 是一個項目檔案。
+        你確認開啟這個項目嗎?
+message.open.source.project.license:
+    text: 開源項目授權。 {0}
+message.path.to.fqn.has.been.copied:
+    text: "''{0}'' 已複製。"
+message.personal.license:
+    text: 個人授權
+message.please.ensure.correct.settings:
+    text: 請確保您已使用「檔案|匯出設定」產生的檔案的功能。
+message.please.select.element.for.javadoc:
+    text: 請選取您想要的元素，以檢視文件
+message.purchase.or.upgrade:
+    text: 有關如何升級評估軟體訊息，請拜訪{0}
+message.reference.to.fqn.has.been.copied:
+    text: "參考 ''{0}'' 已被複製。"
+message.server.no.licenses:
+    text: 留在許可伺服器上沒有合適的授權
+message.server.not.available:
+    text: 無法聯繫授權伺服器
+message.server.protocol.hijacked:
+    text: '授權伺服器響應沒有通過資料完整性檢查: {0}'
+message.settings.exported.successfully:
+    text: "您的設定已成功匯出。\n你可以使用 ''檔案|匯入設定'' 匯入"
+message.settings.imported.successfully:
+    text: |-
+        設定成功匯入。你必須重新啟動{0}重新載入設定。
+        關機{1}？
+message.settings.imported.successfully.restart:
+    text: |-
+        設定成功匯入。你必須重新啟動{0}重新載入設定。
+        重新啟動{1}？
+message.text.creating.deployment.descriptor:
+    text: 建立部署描述符
+message.text.error.creating.deployment.descriptor:
+    text: 錯誤建立部署項目：{0}
+message.text.unlock.read.only.files:
+    text: <html><body>以下檔案是唯讀的。 {0}將解鎖。<br> {1} </body></html>
+message.upgrade.from.previous.required:
+    text: 您的授權無效與此版本的{0}使用。 <BR/>有關如何升級您的許可訊息，請拜訪{1} <BR/>您也可以選取一個空閒時間限制的評估。
+message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
+    text: "<html><body>你的模組轉換成功。<br> 舊版本被儲存為 ''{0}''</body></html>"
+model.highlighting.identity:
+    text: 名稱 {0} 已經存在
+model.highlighting.identity.in.other.file:
+    text: "{0} 該名稱已經存在於檔案 ''{1}''"
+new.library.file.chooser.description:
+    text: 在本機庫類別中選取JAR檔案
+new.library.file.chooser.title:
+    text: 新的庫檔案
+no.charset.set.reason.charset.auto.detected.by.bom:
+    text: 字符集被 BOM 自動檢出
+no.charset.set.reason.charset.auto.detected.from.content:
+    text: 字符集從內容中自動檢出
+no.charset.set.reason.charset.hard.coded.in.file:
+    text: 字符集在檔案中硬編碼
+no.charset.set.reason.disabled.for.binary.file:
+    text: 對二進制檔案禁用
+no.charset.set.reason.disabled.for.directory:
+    text: 對目錄禁用
+no.charset.set.reason.disabled.for.file.type:
+    text: 為 {0} 禁用
+no.information.available:
+    text: 無可用資訊
+node.call.hierarchy.N.usages:
+    text: ({0} 的用法)
+node.call.hierarchy.unknown.jsp:
+    text: 未知的jsp
+node.hierarchy.invalid:
+    text: '[無效]'
+node.hierarchy.java.lang.object:
+    text: 所有的類別都是從java.lang.Object中的派生
+node.memberchooser.all.classes:
+    text: 全部類別
+node.projectview.external.libraries:
+    text: 外部庫
+node.projectview.libraries:
+    text: 庫
+node.projectview.library:
+    text: '{0}庫'
+open.url.in.browser.tooltip:
+    text: 瀏覽器中開啟
+option.hide.tool.window.bars:
+    text: 隱藏工具視窗欄
+outdated.jre.version.message1:
+    text: IDE 的 Java 執行環境 ({0}) 可能會導致不穩定。請切換到軟體自帶的 Java 執行環境，或更新到 {1} 或更高版本。
+outdated.jre.version.message2:
+    text: IDE 的 Java 執行環境 ({0}) 可能會導致不穩定。請更新到 {1} 或更高版本。
+package.0.installed.successfully:
+    text: "已成功安裝軟體套件 ''{0}''"
+package.installed.successfully:
+    text: 已成功安裝軟體套件
+package.successfully.uninstalled:
+    text: "已成功解除安裝軟體套件 ''{0}''"
+package.successfully.upgraded:
+    text: 已成功升級軟體套件 {0}
+packages.settings.latest.version:
+    text: 最新版本
+packages.settings.loading:
+    text: 正在載入軟體套件列表
+packages.settings.package:
+    text: 軟體套件
+packages.settings.version:
+    text: 版本
+packages.successfully.uninstalled:
+    text: 已成功解除安裝軟體套件
+packages.title:
+    text: 軟體套件
+please.edit.repository.url:
+    text: 請編輯儲存庫 URL
+please.input.repository.url:
+    text: 請輸入儲存庫 URL
+popup.title.edit.shortcuts:
+    text: 編輯快捷鍵
+popup.title.play.saved.macros:
+    text: 播放儲存的巨集
+popup.title.select.library.type:
+    text: 選取庫類型
+predefined.scope.problems.name:
+    text: 問題
+predefined.scope.production.name:
+    text: 作品
+predefined.scope.tests.name:
+    text: 測試
+presentation.mode.fon.size:
+    text: '字體大小:'
+progress.creating.directory:
+    text: 建立目錄{0} {1} {2}
+progress.creating.file:
+    text: 建立檔案{0} {1} {2}
+progress.creating.interface:
+    text: 建立介面{0} {1}
+progress.creating.package:
+    text: 建立包{0} {1}
+progress.deleting:
+    text: 正在刪除
+progress.deleting.class:
+    text: 刪除類別{0}
+progress.locate.file.text:
+    text: "定位'' {0}''..."
+progress.looking.for.todos:
+    text: 尋找待辦事項...
+progress.searching:
+    text: 搜索...
+progress.searching.for.sources:
+    text: 在{0}搜索代碼中，請稍候。
+progress.text.clickToViewProgressWindow:
+    text: 點擊開啟工作視窗
+progress.text.reloading.file:
+    text: 正在重新載入檔案…
+progress.text.reloading.files:
+    text: 正在重新載入檔案…
+progress.text.stopping:
+    text: 正在停止 - {0}
+progress.title.reload.files:
+    text: 重新載入檔案
+progress.window.empty.text:
+    text: 有沒有積極的後台工作
+progress.window.title:
+    text: 後台工作
+project.directory.is.not.writable:
+    text: "目錄 ''{0}'' 似乎不可寫。請選擇其他位置。"
+project.import.default.name.dotIdea:
+    text: 從 {0} 匯入的
+project.import.open.existing:
+    text: "現有{1}在 ''{2}''中. 是否開啟現有項目或者刪除它,然後匯入 ''{3}''?"
+project.import.open.existing.openExisting:
+    text: 開啟現有項目
+project.import.open.existing.reimport:
+    text: 刪除現有的項目和匯入
+project.import.select.title:
+    text: 選取要匯入的{0}項目
+project.import.show.settings.after:
+    text: 開啟項目結構後進口(&O)
+project.import.wizard.title:
+    text: 從{0}匯入
+prompt.browse.icon.for.selected.action:
+    text: 瀏覽圖示選取的動作(*.png)
+prompt.check.components.to.import:
+    text: '請檢查所有部件的進口:'
+prompt.choose.base.class.of.the.hierarchy:
+    text: 在選取的層次結構基類別中搜索
+prompt.choose.export.settings.file.path:
+    text: 選取匯出檔案路徑或目錄下建立新檔案
+prompt.choose.import.file.path:
+    text: 選取設定檔案匯入或檔案所在的目錄位於
+prompt.confirm.project.no.jdk:
+    text: |-
+        你想建立一個沒有指定SDK的項目？
+        編譯，診斷和執行應用程式 SDK 是必需的
+        而且是標準的SDK類別。
+prompt.create.non.existing.package:
+    text: |-
+        包{0}不存在。
+        你想建立它嗎？
+prompt.delete.elements:
+    text: 刪除{0}?
+prompt.delete.it.anyway:
+    text: 確定刪除它？
+prompt.directory.contains.read.only.files:
+    text: 目錄{0}包含唯讀檔案。還要刪除嗎？
+prompt.enter.a.new.package.name:
+    text: '輸入新的包名稱:'
+prompt.enter.annotation.type.name:
+    text: '輸入一個新的介面名稱:'
+prompt.enter.macro.name:
+    text: 輸入巨集的名稱（如果巨集是暫時的可以為空）
+prompt.enter.new.class.name:
+    text: '輸入新的類別名:'
+prompt.enter.new.file.name:
+    text: '輸入新的檔案名:'
+prompt.enter.new.interface.name:
+    text: '輸入一個新的介面名稱:'
+prompt.enter.new.library.name:
+    text: 輸入新的庫名
+prompt.enter.new.module.name:
+    text: 輸入新的模組名稱
+prompt.enter.new.name:
+    text: 輸入新名稱
+prompt.enter.parameters:
+    text: '輸入參數:'
+prompt.enter.project.file.location:
+    text: 輸入{0}檔案位置
+prompt.enter.relative.path.to.module.content.root:
+    text: '輸入相對路徑模組內容根目錄（例如：java {0} SRC）:'
+prompt.filechooser.enter.file.name:
+    text: '輸入檔案名:'
+prompt.goto.inspection.enter.name:
+    text: '輸入檢驗名稱:'
+prompt.gotoaction.enter.action:
+    text: '進入訴訟或選項名稱:'
+prompt.gotoclass.enter.class.name:
+    text: '輸入類別名:'
+prompt.gotofile.enter.file.name:
+    text: '輸入檔案名:'
+prompt.gotosymbol.enter.symbol.name:
+    text: '輸入符號名稱:'
+prompt.input.favorites.list.new.name:
+    text: "重新命名收藏夾清單 ''{0}'' 為:"
+prompt.input.new.favorites.list.name:
+    text: 輸入新的收藏清單名稱
+prompt.new.project.file.name:
+    text: 輸入一個檔案名來建立一個新的{0} {1}
+prompt.open.project.in.new.frame:
+    text: <html><body>新項目可以在新視窗中開啟或替換項目在現有的視窗。<br>你想如何開啟項目?</body></html>
+prompt.overwrite.project.folder:
+    text: |-
+        {0}資料夾已經在{1}存在。
+        其內容可能會被覆寫。
+        要繼續嗎？
+prompt.overwrite.settings.file:
+    text: "覆寫'' {0}''？"
+prompt.please.check.all.components.to.export:
+    text: '請檢查輸出設定:'
+prompt.please.select.module.jdk:
+    text: 請選取{0}要為這個模組設定
+prompt.please.select.project.jdk:
+    text: |-
+        請選取項目的SDK。
+        該SDK將使用預設的所有項目模組。
+prompt.please.specify.java.sources.directory:
+    text: |-
+        請指定一個目錄在哪裡可以找到適合您的項目的來源檔案。
+        此路徑應該對應為預設（根，無名，頂級）封裝。
+        註：該計劃將只承認那些來源檔案，位於此目錄下。
+prompt.please.specify.module.name:
+    text: 請指定模組名
+prompt.please.specify.module.name.and.content.root:
+    text: |-
+        請指定模組名和模組的上​​下文根。
+        一個模組的內容根本就是屬於該模組的檔案存儲在目錄中。
+prompt.relative.path.to.sources.empty:
+    text: |-
+        相對路徑來源為空。
+        你想標記模組內容根
+        「{0}」
+        作為源目錄？
+prompt.reload.file.from.disk:
+    text: 從磁盤重新載入"{0}"，失去所有的修改？
+prompt.reset.to.original.template:
+    text: 重設為原始範本？
+prompt.select.module.file.to.import:
+    text: 選取{0}模組檔案（IML），以進口
+prompt.select.source.directory:
+    text: 選取源目錄
+prompt.specify.module.group.name:
+    text: |+
+        指定{0}將根據被顯示群組組名稱。
+
+prompt.specify.name.of.module.subgroup:
+    text: |+
+        指定的名稱{0}子群組{1}將根據顯示。
+
+prompt.stop.searching.for.sources:
+    text: '{0}正在尋找來源。你想停止搜索？'
+quick.lists.presentable.name:
+    text: 快速清單
+radio.create.new.module:
+    text: 建立新模組(&C)
+radio.create.source.directory:
+    text: 建立源目錄(&C)
+radio.default.license.server:
+    text: 預設的授權伺服器(&D)
+radio.do.not.create.source.directory:
+    text: 不要建立源目錄(&D)
+radio.evaluate:
+    text: 評估免費為{0}天(&E)
+radio.import.existing.module:
+    text: 匯入現有的模組(&I)
+radio.license.data:
+    text: 輸入許可資料(&D)
+radio.license.server.address:
+    text: 輸入授權伺服器位址(&S)
+radio.process.close.disconnect:
+    text: 斷開連接
+recent.files.checkbox.label:
+    text: 僅顯示已編輯的內容
+recent.locations.changed.locations:
+    text: 最近編輯的位置
+recent.locations.popup.empty.file.text:
+    text: 空行
+recent.locations.popup.empty.text:
+    text: 未找到最近的位置
+recent.locations.popup.title:
+    text: 最近的位置
+recent.locations.title.text:
+    text: 僅顯示已編輯的內容
+remove.BOM:
+    text: 移除 BOM
+repository.url.title:
+    text: 儲存庫 URL
+run.anything.action.tooltip.text:
+    text: '執行指令: 開啟專案，啟動執行設定，執行 Gradle 或 Maven 任務，執行終端指令等。'
+run.anything.context.browse.directory:
+    text: 瀏覽目錄…
+run.anything.context.project:
+    text: 專案
+run.anything.context.separator.directories:
+    text: 目錄
+run.anything.context.separator.modules:
+    text: 模組
+run.anything.context.title.working.directory:
+    text: 執行上下文
+run.anything.context.tooltip:
+    text: 選擇將在其中執行當前指令的上下文
+run.anything.group.settings.title:
+    text: "顯示 ''{0}''"
+run.anything.help.list.empty.secondary.text:
+    text: 選取命令
+run.anything.hint.initial.text:
+    text: 按 {0} 或 {1} 瀏覽建議列表
+run.anything.indexing.mode.not.supported:
+    text: 在索引更新期間，“執行任何內容”不可用
+run.anything.main.list.empty.primary.text:
+    text: 執行命令或設定
+run.anything.notification.warning.title:
+    text: 命令執行失敗
+run.anything.recent.group.title:
+    text: 最近的
+run.anything.recent.project.command.placeholder:
+    text: 開啟 <project name>
+run.anything.recent.project.completion.group.title:
+    text: 最近的項目
+run.anything.recent.project.help.group.title:
+    text: 最近的項目
+run.anything.run.configurations.group.title:
+    text: 執行設定
+run.canceled.by.user.message:
+    text: 執行被使用者取消
+run.configuration.error.executable.not.specified:
+    text: 未指定可執行檔案
+scope.banner.text:
+    text: "作用範圍 ''{0}''"
+scope.class.hierarchy:
+    text: 類別層次結構
+scope.current.file:
+    text: 目前檔案
+scope.editor.legend.partly.included.label:
+    text: 部份包括
+scope.editor.legend.recursively.included.label:
+    text: 包括遞歸
+scope.files.in.previous.search.result:
+    text: 上一個搜尋結果的檔案
+scope.hierarchy:
+    text: '{0}的層次結構'
+scope.modified.files:
+    text: 變更的檔案
+scope.open.files:
+    text: 開啟檔案
+scope.previous.search.results:
+    text: 上一個搜尋結果
+scope.selection:
+    text: 所選內容
+scope.unable.to.save.scope.message:
+    text: 你要儲存的作用範圍為共用？
+scope.unable.to.save.scope.title:
+    text: 無法使用局部作用範圍
+scope.view.title:
+    text: 作用範圍
+scopes.display.name:
+    text: 作用範圍
+scopes.no.scoped:
+    text: 沒有作用範圍
+scopes.save.dialog.title.local:
+    text: 另存為局部作用範圍
+scopes.save.dialog.title.shared:
+    text: 另存為共用作用範圍
+scratches.and.consoles:
+    text: 臨時檔案和主控台
+scripting.lib.add:
+    text: 新增...
+scripting.lib.attach:
+    text: 附屬應用程式(&A)...
+scripting.lib.detach:
+    text: 分離
+scripting.lib.docUrl.remove:
+    text: 刪除(&R)
+scripting.lib.docUrl.specify:
+    text: 指定(&S)...
+scripting.lib.docUrl.title:
+    text: 文件的URLs
+scripting.lib.edit:
+    text: 編輯...
+scripting.lib.file.location:
+    text: 位置
+scripting.lib.file.name:
+    text: 名稱
+scripting.lib.file.title:
+    text: 檔案
+scripting.lib.file.type:
+    text: 類型
+scripting.lib.invalid.name:
+    text: 無效的庫名
+scripting.lib.name:
+    text: '名稱:'
+scripting.lib.remove:
+    text: 刪除(&R)
+scripting.lib.select.root:
+    text: 選取庫檔案或目錄
+scripting.lib.usageScope:
+    text: 使用作用範圍
+scripting.lib.usageScope.caption:
+    text: <html>指定哪個庫中使用特定的檔案和/或目錄</html>
+scripting.lib.usageScope.override.question:
+    text: 覆寫子目錄和檔案中的庫設定？
+scripting.lib.usageScope.override.title:
+    text: 覆寫庫設定
+scripting.lib.usageScope.tableTitle:
+    text: 庫
+search.for.usages.and.delete.elements:
+    text: 搜尋慣例和刪除{0}？
+search.in.the.background:
+    text: 在後台搜索
+search.textfield.title:
+    text: '搜索:'
+searcheverywhere.commands.tab.name:
+    text: 指令
+searcheverywhere.indexing.incomplete.results:
+    text: "在 {1} 更新索引期間，''{0}'' 中的搜尋結果可能不完整"
+searcheverywhere.indexing.mode.not.supported:
+    text: "在 {1} 更新索引期間，無法在 ''{0}'' 中搜尋"
+searcheverywhere.run.configs.tab.name:
+    text: 執行設定
+searcheverywhere.runconfigurations.command.debug.description:
+    text: 在“偵錯”模式下開始執行設定
+searcheverywhere.runconfigurations.command.run.description:
+    text: 在“執行”模式下開始執行設定
+searcheverywhere.textfield.hint:
+    text: 輸入 {0} 以查看指令
+select.in.aspects:
+    text: 方面
+select.in.commander:
+    text: 命令
+select.in.favorites:
+    text: 收藏夾
+select.in.file.structure:
+    text: 檔案結構
+select.in.nav.bar:
+    text: 導航列
+select.in.packages:
+    text: 包
+select.in.project:
+    text: 項目
+select.in.project.settings:
+    text: 項目結構
+select.in.scope:
+    text: 作用範圍
+select.in.title.project.view:
+    text: 項目檢視
+settings.entry.point.tooltip:
+    text: IDE 和專案設定
+settings.entry.point.widget.name:
+    text: IDE 和專案設定
+setup.library.dialog.title:
+    text: 庫設定
+share.scope.checkbox.title:
+    text: 共用作用範圍
+shared.scopes.node.text:
+    text: 共用作用範圍
+show.in.find.window.button.description:
+    text: 在“尋找工具”視窗中開啟搜尋結果
+show.in.find.window.button.name:
+    text: 在“尋找工具”視窗中開啟
+show.main.toolbar:
+    text: 顯示主工具欄
+show.navigation.bar:
+    text: 顯示導航欄
+show.status.bar:
+    text: 顯示狀態欄
+small.labels.in.editor.tabs:
+    text: 編輯器頁籤中的小標籤
+status.bar.text.file.encoding:
+    text: '檔案編碼: {0}'
+sys.health.acknowledge.link:
+    text: <br/><a href="ack">不要再顯示</a>.
+tab.chooser.project:
+    text: 項目
+tab.chooser.search.by.name:
+    text: 按名稱搜索
+tab.filetemplates.code:
+    text: 代碼
+tab.filetemplates.includes:
+    text: 包括
+tab.filetemplates.j2ee:
+    text: 其它
+tab.filetemplates.templates:
+    text: 檔案
+team.server.license.not.found:
+    text: 這個 IDEA 的分發是使用JetBrains TeamCity的授權。
+template.copy.N.of.T:
+    text: 複製 {1} 的 {0}
+template.unnamed:
+    text: 未命名
+title.add.module:
+    text: 新增模組
+title.add.new.favorites.list:
+    text: 新增新收藏夾清單
+title.add.new.keyword:
+    text: 新增新的關鍵字
+title.appearance:
+    text: 外觀
+title.browse.icon:
+    text: 瀏覽圖示
+title.browser.not.found:
+    text: 瀏覽器未找到
+title.cannot.convert.project:
+    text: 不能轉換項目
+title.cannot.create.annotation.type:
+    text: 無法建立@interface
+title.cannot.create.enum:
+    text: 無法建立枚舉
+title.cannot.create.file:
+    text: 不能建立檔案
+title.cannot.create.interface:
+    text: 無法建立介面
+title.cannot.load.project:
+    text: 無法載入項目
+title.cannot.open.file:
+    text: 無法開啟檔案
+title.cannot.save.current.template:
+    text: 無法儲存目前範本
+title.choose.action.icon:
+    text: 選取操作圖示
+title.choose.destination.directory:
+    text: 選取目標目錄
+title.customizations:
+    text: 選單和工具列
+title.delete:
+    text: 刪除
+title.directory.does.not.exist:
+    text: 目錄不存在
+title.edit.file.template:
+    text: 編輯檔案範本
+title.edit.keyword:
+    text: 編輯關鍵字
+title.edit.macros:
+    text: 編輯巨集
+title.enter.license.data:
+    text: 輸入{0}授權
+title.enter.macro.name:
+    text: 輸入巨集的名稱
+title.error.reading.file:
+    text: 讀檔案錯誤
+title.error.writing.file:
+    text: 寫檔案錯誤
+title.evaluation.license.expired:
+    text: 評估授權過期
+title.export.file.location:
+    text: 匯出檔案的位置
+title.export.preview:
+    text: 匯出預覽
+title.export.successful:
+    text: 匯出完成
+title.file.already.exists:
+    text: 檔案已經存在
+title.file.not.found:
+    text: 檔案未找到
+title.file.templates:
+    text: 檔案和代碼範本
+title.general:
+    text: 系統設定
+title.hierarchy.callees.of:
+    text: 被呼叫者的{0}
+title.hierarchy.callers.of:
+    text: 呼叫者{0}
+title.hierarchy.class:
+    text: 類別{0}
+title.hierarchy.method:
+    text: 方法{0}
+title.hierarchy.subtypes:
+    text: '{0}的子類型'
+title.hierarchy.supertypes:
+    text: '{0}的超類型'
+title.import.file.location:
+    text: 匯入檔案的位置
+title.incorrect.file.type:
+    text: 不正確的檔案類型
+title.input:
+    text: 輸入
+title.invalid.file:
+    text: 無效的檔案
+title.invalid.license.data:
+    text: 無效的授權資料
+title.license.collision.detected:
+    text: 授權碰撞偵測
+title.license.corrupt:
+    text: 牌照腐敗
+title.license.expired:
+    text: 授權過期
+title.license.will.expire:
+    text: '{0}授權即將過期'
+title.macro.name.already.used:
+    text: 巨集名已被使用
+title.macros:
+    text: 巨集
+title.mark.source.directory:
+    text: 標記源代碼目錄
+title.module.already.exists:
+    text: 模組已經存在
+title.module.content.root.already.exists:
+    text: 模組內容根已存在
+title.module.file.does.not.exist:
+    text: 模組檔案不存在：{0}
+title.module.file.location.not.specified:
+    text: 模組檔案位置未指定
+title.module.file.path.not.specified:
+    text: 模組檔案路徑未指定
+title.module.group:
+    text: 模組組
+title.module.name.not.specified:
+    text: 模組名稱未指定
+title.module.sub.group:
+    text: 模組群組
+title.new.annotation.type:
+    text: 新增 @interface
+title.new.class:
+    text: 新類別
+title.new.directory:
+    text: 新增目錄
+title.new.enum:
+    text: 新的枚舉
+title.new.file:
+    text: 新增檔案
+title.new.from.template:
+    text: 新的{0}
+title.new.interface:
+    text: 新增介面
+title.new.package:
+    text: 新增包
+title.new.project:
+    text: 新項目
+title.no.element.selected:
+    text: 沒有選取的元素
+title.no.jdk.specified:
+    text: 沒有指定的SDK
+title.open.project:
+    text: 開啟項目
+title.package.not.found:
+    text: 包未找到
+title.packages:
+    text: 包
+title.popup.new.element:
+    text: 新增
+title.popup.new.element.same.place:
+    text: 在目前目錄新增
+title.popup.recent.files:
+    text: 最近的檔案
+title.popup.select.target:
+    text: 選取目標
+title.popup.views:
+    text: 檢視
+title.product.evaluation:
+    text: '{0}評估'
+title.project:
+    text: 項目
+title.question:
+    text: 問題
+title.reload.file:
+    text: 重裝檔案
+title.rename.favorites.list:
+    text: 重新命名
+title.rename.library:
+    text: 重新命名庫
+title.rename.macro:
+    text: 重新命名巨集
+title.rename.module:
+    text: 重新命名模組
+title.reset.template:
+    text: 重置範本
+title.restart.needed:
+    text: 需要重新啟動
+title.select.compiler.output.path:
+    text: 選取編譯器的輸出路徑
+title.select.components.to.export:
+    text: 匯出設定
+title.select.components.to.import:
+    text: 選取要匯入的組件
+title.select.jdk:
+    text: 選取JDK
+title.select.module.content.root:
+    text: 選取模組內容根
+title.select.module.file.location:
+    text: 選取模組檔案位置
+title.select.path.to.browser:
+    text: 選取瀏覽器路徑
+title.select.project.file.directory:
+    text: 選取{0}檔案目錄
+title.select.template:
+    text: 選取範本
+title.server.no.licenses:
+    text: 在伺服器上無授權
+title.server.not.available:
+    text: 授權伺服器連接錯誤
+title.server.protocol.hijacked:
+    text: 與授權伺服器響應的問題
+title.system.error:
+    text: 系統錯誤
+title.tip.of.the.day:
+    text: 每日提示
+title.unable.to.add.action.without.icon.to.toolbar:
+    text: 不能新增沒有圖示的動作到工具列
+title.unable.to.add.favorites.list:
+    text: 無法新增收藏夾清單
+title.unable.to.save.data:
+    text: 無法儲存資料
+title.upgrade.needed:
+    text: 授權升級所需
+title.velocity.error:
+    text: 速度誤差
+title.warning:
+    text: 警告
+tooltip.line.separator:
+    text: '行分隔符: {0}'
+tooltip.module.group:
+    text: 模組組
+tooltip.ui.designer.form:
+    text: UI設計師表格
+toolwindow.palette:
+    text: 調色板
+treenode.loading:
+    text: 載入中...
+uninstall.packages.failed:
+    text: 無法解除安裝軟體套件。<a href="xxx">詳細信息…</a>
+uninstall.packages.failed.dialog.title:
+    text: 解除安裝軟體套件失敗
+unknown.error:
+    text: 未知錯誤
+unscramble.dialog.title:
+    text: 分析堆疊追蹤
+unscramble.log.path.label:
+    text: '日誌檔案:'
+unscramble.no.unscrambler.item:
+    text: <不整理>
+unscramble.normalize.button:
+    text: 標準(&N)
+unscramble.stacktrace.caption:
+    text: '把一個堆疊追蹤或在這裡完整的執行緒轉儲:'
+unscramble.unscrambled.deadlock.tab:
+    text: <死鎖>
+unscramble.unscrambled.stacktrace.tab:
+    text: <堆疊追蹤>
+unscramble.unscrambled.threaddump.tab:
+    text: <執行緒>
+unscramble.unscrambler.combobox:
+    text: '解讀器(&S):'
+unscramble.use.unscrambler.checkbox:
+    text: 解讀堆疊追蹤(&U)
+unsupported.jvm.ea.message:
+    text: 使用早期的Java版本可能會導致相容性問題。請使用穩定版本。
+upgrade.package.failed.title:
+    text: 升級軟體套件失敗。
+upgrade.packages.failed:
+    text: 無法升級軟體套件。<a href="xxx">詳細資訊…</a>
+upgrade.packages.failed.dialog.title:
+    text: 升級軟體套件失敗
+value.must.be.identifier:
+    text: 值必須是標識符
+value.must.not.be.empty:
+    text: 值必須輸入
+value.should.be.integer:
+    text: 值應為整數
+vmoptions.warn.message:
+    text: '{0} MB 的代碼快取太小了。增大到 {1} MB 或以上以避免性能問題。'
+warning.delete.all.files.and.subdirectories:
+    text: |4-
+
+        中的所有檔案和子目錄「{0}」，將被刪除。
+        你可能無法完全還原此操作！
+warning.delete.all.files.and.subdirectories.in.the.selected.directory:
+    text: |4-
+
+        選擇的目錄中的所有檔案和子目錄都將被刪除。
+        你可能無法完全還原此操作！
+warning.message.the.module.file.0.already.exist.and.will.be.overwritten:
+    text: "該模組檔案''{0}''已經存在。"
+warning.text.0.do.you.want.to.overwrite.these.files:
+    text: |-
+        {0}
+        你想覆寫 {1,choice,1#it|2#these files} 嗎？

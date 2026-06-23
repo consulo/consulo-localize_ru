@@ -1,0 +1,20 @@
+expected.colon:
+    text: "應為 ':'"
+expected.comma:
+    text: "應為 ','"
+expected.identifier:
+    text: 應為關鍵字
+expected.lbrace:
+    text: "應為 '{'"
+expected.lparen:
+    text: "應為 '('"
+expected.rbrace:
+    text: "應為 '}'"
+expected.rbracket:
+    text: "應為 ']'"
+expected.rparen:
+    text: "應為 ')'"
+expected.semicolon:
+    text: "應為 ';'"
+unexpected.token:
+    text: 異常標記

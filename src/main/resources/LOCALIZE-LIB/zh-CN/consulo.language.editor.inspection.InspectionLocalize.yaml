@@ -1,0 +1,1000 @@
+access.static.via.instance:
+    text: 通过实例引用访问 static 成员
+annotate.overridden.methods.as.notnull:
+    text: 注释覆盖方法为"@{0}"
+annotate.overridden.methods.parameters:
+    text: "将被重写的方法形参注解为 ''@{0}''"
+assignment.to.declared.variable.problem.descriptor:
+    text: "变量''{0}''是自我赋值初始化"
+assignment.to.itself.problem.descriptor:
+    text: "变量''{0}''是分配给自己"
+boolean.method.is.always.inverted.display.name:
+    text: 布尔方法总是反向的
+boolean.method.is.always.inverted.problem.descriptor:
+    text: "始终反转对布尔方法 '#ref()' 的调用"
+cleanup.in.file:
+    text: 清理代码
+cleanup.in.scope:
+    text: 清理代码...
+configure.annotations.option:
+    text: 配置注解…
+configure.checker.option.assert.false.add.method.checker.dialog.title:
+    text: 添加断言 False 方法
+configure.checker.option.assert.false.method.panel.title:
+    text: 断言 False 方法
+configure.checker.option.assert.isNotNull.add.method.checker.dialog.title:
+    text: 添加断言 IsNotNull 方法
+configure.checker.option.assert.isNotNull.method.panel.title:
+    text: 断言IsNotNull方法
+configure.checker.option.assert.isNull.add.method.checker.dialog.title:
+    text: 添加断言 IsNull 方法
+configure.checker.option.assert.isNull.method.panel.title:
+    text: 断言IsNull方法
+configure.checker.option.assert.true.add.method.checker.dialog.title:
+    text: 添加断言 True 方法
+configure.checker.option.assert.true.method.panel.title:
+    text: 断言 True 方法
+configure.checker.option.button:
+    text: 配置维护/检查方法
+configure.checker.option.isNotNull.add.method.checker.dialog.title:
+    text: 添加IsNotNull检查方法
+configure.checker.option.isNotNull.method.panel.title:
+    text: IsNotNull检查方法
+configure.checker.option.isNull.add.method.checker.dialog.title:
+    text: 添加IsNull检查方法
+configure.checker.option.isNull.method.panel.title:
+    text: IsNull检查方法
+configure.checker.option.main.dialog.title:
+    text: 维护/检查方法配置
+configure.checker.option.overlap.error.msg:
+    text: 配置冲突
+configure.checker.option.overlap.error.title:
+    text: 重叠检查
+dataflow.message.assigning.null:
+    text: <code>null</code> 被分配到一个是注解变量 @NotNull
+dataflow.message.assigning.nullable:
+    text: 表达式 <code>#ref</code> 的求值结果可能为 null，但是它被分配了注解 @NotNull
+dataflow.message.initializing.field.with.null:
+    text: 字段标注为 @NotNull 是隐式初始化与 <code>null</code>
+dataflow.message.passing.null.argument:
+    text: 正在将 <code>null</code> 实参传递到注解为 @NotNull 的形参
+dataflow.message.passing.nullable.argument:
+    text: '实参 <code>#ref</code> #loc 可能为null'
+default.file.template.description:
+    text: 默认文件模板
+default.file.template.display.name:
+    text: 默认文件模板的使用
+default.file.template.edit.template:
+    text: 编辑模板...
+default.file.template.replace.with.actual.file.template:
+    text: 替换为实际文件模板
+default.file.template.report.catch.section:
+    text: 报告默认抓住部分
+default.file.template.report.file.header:
+    text: 报告默认文件头
+default.file.template.report.method.body:
+    text: 报告默认创建/覆盖/实现方法主体
+default.ide.profile.label.text:
+    text: '默认的IDE配置文件:'
+dependency.injection.annotations.list:
+    text: 附加依赖项注入注释
+deprecated.symbol:
+    text: "''{0}'' 已弃用"
+detach.library.quickfix.name:
+    text: 分离库
+detach.library.roots.quickfix.name:
+    text: 分离未使用的库根
+disable.inspection.action.name:
+    text: 禁用检查
+duplicate.property.diff.key.option:
+    text: 重复的键值不同(&D)
+duplicate.property.diff.key.problem.descriptor:
+    text: "重复的属性键 ''{0}'' 具有不同的值 #treeend :<br>"
+duplicate.property.diff.key.progress.indicator.text:
+    text: 处理重复的属性键:{0}
+duplicate.property.display.name:
+    text: 重复属性
+duplicate.property.file.scope.option:
+    text: 文件
+duplicate.property.key.option:
+    text: 重复键(&K)
+duplicate.property.key.problem.descriptor:
+    text: "重复的属性键 ''{0}'' #treeend 具有值:<br>"
+duplicate.property.key.progress.indicator.text:
+    text: 处理重复的属性键:{0}
+duplicate.property.module.scope.option:
+    text: 模块
+duplicate.property.project.scope.option:
+    text: 项目
+duplicate.property.value.option:
+    text: 重复的值(&V)
+duplicate.property.value.problem.descriptor:
+    text: "重复的属性值''{0}'' #treeend 对应键：<br>"
+duplicate.property.value.progress.indicator.text:
+    text: 处理重复的属性值:{0}
+edit.dependency.rules.family:
+    text: 编辑依赖关系规则
+edit.inspection.options:
+    text: "编辑 ''{0}'' 选项"
+edit.options.of.reporter.inspection.family:
+    text: 编辑报告程序检查选项
+edit.options.of.reporter.inspection.text:
+    text: 编辑检查配置文件设置
+error.analysis.is.in.progress:
+    text: 错误分析正在运行
+errors.single.profile.title:
+    text: 错误:"{0}"检查配置文件
+group.names.abstraction.issues:
+    text: 抽象问题
+group.names.assignment.issues:
+    text: 赋值问题
+group.names.bitwise.operation.issues:
+    text: 按位运算问题
+group.names.class.metrics:
+    text: 类指标
+group.names.class.structure:
+    text: 类结构
+group.names.cloning.issues:
+    text: 克隆问题
+group.names.code.maturity.issues:
+    text: 代码成熟度
+group.names.code.style.issues:
+    text: 代码样式问题
+group.names.compiler.issues:
+    text: 编译器问题
+group.names.concurrency.annotation.issues:
+    text: 并发注解问题
+group.names.control.flow.issues:
+    text: 控制流问题
+group.names.data.flow.issues:
+    text: 数据流
+group.names.declaration.redundancy:
+    text: 声明冗余
+group.names.dependency.issues:
+    text: 依赖性问题
+group.names.encapsulation.issues:
+    text: 封装
+group.names.error.handling:
+    text: 错误处理
+group.names.finalization.issues:
+    text: 完成
+group.names.imports:
+    text: 导入
+group.names.inheritance.issues:
+    text: 继承问题
+group.names.initialization.issues:
+    text: 初始化
+group.names.internationalization.issues:
+    text: 国际化
+group.names.j2me.issues:
+    text: 嵌入式
+group.names.javabeans.issues:
+    text: JavaBeans 问题
+group.names.logging.issues:
+    text: 记录
+group.names.memory.issues:
+    text: 内存
+group.names.method.metrics:
+    text: 方法指标
+group.names.modularization.issues:
+    text: 模块化问题
+group.names.naming.conventions:
+    text: 命名约定
+group.names.numeric.issues:
+    text: 数值问题
+group.names.packaging.issues:
+    text: 打包问题
+group.names.performance.issues:
+    text: 性能
+group.names.portability.issues:
+    text: 可移植性
+group.names.potentially.confusing.code.constructs:
+    text: 可能引起混淆的代码结构
+group.names.probable.bugs:
+    text: 可能的 bug
+group.names.properties.files:
+    text: 属性文件
+group.names.resource.management.issues:
+    text: 资源管理
+group.names.security.issues:
+    text: 安全性
+group.names.serialization.issues:
+    text: 序列化问题
+group.names.threading.issues:
+    text: 线程问题
+group.names.verbose.or.redundant.code.constructs:
+    text: 详细或冗余的代码结构
+group.names.visibility.issues:
+    text: 可见性
+highlight.severity.create.dialog.name.label:
+    text: 名称
+highlight.severity.create.dialog.title:
+    text: 编辑严重性名称
+illegal.package.dependencies:
+    text: 非法的包依赖关系
+inconsistent.bundle.property.error:
+    text: "不一致的属性 ''{0}''。必须在父文件 ''{1}'' 中定义。"
+inconsistent.bundle.property.inherited.with.the.same.value:
+    text: "属性继承了''{0}''文件相同的值"
+inconsistent.bundle.report.duplicate.properties.values:
+    text: 报表属性覆盖与相同的值(&O)
+inconsistent.bundle.report.inconsistent.properties:
+    text: 报告不一致的属性(&I)
+inconsistent.bundle.report.missing.translations:
+    text: 报告失踪的翻译(&M)
+inconsistent.bundle.untranslated.property.error:
+    text: "未翻译的属性 ''{0}''。应在 ''{1}'' 中重写。"
+inconsistent.line.separators:
+    text: 行分隔符不一致
+inconsistent.resource.bundle.display.name:
+    text: 不一致的资源包
+inspection.action.apply.quickfix:
+    text: 应用快速修复
+inspection.action.apply.quickfix.description:
+    text: 应用检查快速修复
+inspection.action.edit.settings:
+    text: 编辑设置
+inspection.action.export.html:
+    text: 导出
+inspection.action.export.popup.title:
+    text: 导出到
+inspection.action.go.next:
+    text: 转到下一个问题
+inspection.action.group.by.directory:
+    text: 按目录分组
+inspection.action.group.by.severity:
+    text: 按严重性分组
+inspection.action.group.by.severity.description:
+    text: 按严重性将检查分组
+inspection.action.noun:
+    text: 检查
+inspection.action.profile.label:
+    text: '检查配置文件:'
+inspection.action.rerun:
+    text: 重新运行检查(&R)
+inspection.action.title:
+    text: 检查
+inspection.actiongo.prev:
+    text: 上一个问题
+inspection.annotate.quickfix.implements:
+    text: 实现
+inspection.annotate.quickfix.overridden.method.messages:
+    text: |-
+        方法 {0} {1}方法 {2}。
+        同时注解基方法?
+inspection.annotate.quickfix.overridden.method.warning:
+    text: 重写的方法警告
+inspection.annotate.quickfix.overrides:
+    text: 重写
+inspection.application.cannot.convert.project.0:
+    text: '无法转换项目: {0}'
+inspection.application.cannot.convert.the.project.the.following.files.are.read.only.0:
+    text: '无法转换项目。以下文件为只读文件: {0}'
+inspection.application.directory.cannot.be.found:
+    text: 找不到目录 {0}
+inspection.application.file.cannot.be.found:
+    text: 未找到文件 {0}
+inspection.application.initializing.project:
+    text: 正在初始化项目…
+inspection.application.opening.project:
+    text: 正在打开项目…
+inspection.application.project.has.older.format.and.will.be.converted:
+    text: 项目的格式较旧，将被转换。
+inspection.application.project.was.succesfully.converted.old.project.files.were.saved.to.0:
+    text: 项目成功转换.老项目文件被保存到{0}
+inspection.application.starting.up:
+    text: 正在启动 {0}…
+inspection.as:
+    text: 作为 {0}
+inspection.assert.quickfix:
+    text: "断言''{0}''"
+inspection.can.be.final.display.name:
+    text: "声明可以有 'final' 修饰符"
+inspection.can.be.final.option:
+    text: 报告类
+inspection.can.be.final.option1:
+    text: 报告方法
+inspection.can.be.final.option2:
+    text: 报告字段
+inspection.can.be.local.parameter.problem.descriptor:
+    text: 形参 <code>#ref</code> 可以具有 <code>final</code> 修饰符
+inspection.can.be.local.variable.problem.descriptor:
+    text: 变量 <code>#ref</code> 可以具有 <code>final</code> 修饰符
+inspection.capitalized.done:
+    text: 完成。
+inspection.command.line.explanation:
+    text: |-
+        预期形参: <project_file_path> <inspection_profile> <output_path> [<options>]
+        <inspection_profile> -- 在项目中或本地配置的配置文件名称或检查配置文件的路径；使用 -e|-profileName|-profilePath 之一时可以跳过
+        可用选项包括:
+         -d <directory_path>  --  要检查的目录，默认为整个项目
+        -e                   --  使用为项目设置的检查配置文件
+        -v[0|1|2]            --  详细级别。 0 - 静默，1 - 详细，2 - 最详细
+        -profileName         --  项目中定义的配置文件的名称
+        -profilePath         --  配置文件的绝对路径
+        -format              --  报告输出格式。xml|json|plain 之一，默认值为 xml
+        -changes             --  检查未提交的更改并报告新问题
+inspection.comparing.references.problem.descriptor:
+    text: '可疑的比较 #ref #loc'
+inspection.comparing.references.use.quickfix:
+    text: 使用 equals()
+inspection.compiler.javac.quirks.anno.array.comma.fix:
+    text: 移除尾随逗号
+inspection.compiler.javac.quirks.anno.array.comma.problem:
+    text: 注解数组初始值设定项中的尾随逗号可能会在某些 Javac 版本(例如 JDK 5 和 JDK 6)中导致编译错误。
+inspection.compiler.javac.quirks.name:
+    text: Javac 杂项
+inspection.compiler.javac.quirks.qualifier.type.args.fix:
+    text: 移除泛型形参
+inspection.compiler.javac.quirks.qualifier.type.args.problem:
+    text: 在某些 Javac 版本(例如 JDK 5 和 JDK 6)中，限定符引用中的泛型可能会导致编译错误。
+inspection.convert.to.local.quickfix:
+    text: 转换为当地
+inspection.data.flow.simplify.boolean.expression.quickfix:
+    text: 简化布尔表达式
+inspection.data.flow.simplify.to.assignment.quickfix.name:
+    text: 简化正常作业
+inspection.dead.code.comment:
+    text: // --注释掉检查
+inspection.dead.code.comment.quickfix:
+    text: 注释掉
+inspection.dead.code.date.comment:
+    text: '// --注释掉检查 ({0}):'
+inspection.dead.code.display.name:
+    text: 未使用的声明
+inspection.dead.code.entry.point.quickfix:
+    text: 添加作为入口点
+inspection.dead.code.entry.points.display.name:
+    text: 入口点
+inspection.dead.code.export.results.instantiated.from.heading:
+    text: 实例化
+inspection.dead.code.export.results.no.instantiations.found:
+    text: 找不到实例化。
+inspection.dead.code.problem.synopsis:
+    text: 字段从未被赋值。
+inspection.dead.code.problem.synopsis1:
+    text: 字段无用法。
+inspection.dead.code.problem.synopsis10:
+    text: 匿名类声明上下文无法从入口点到达。类从未实例化。
+inspection.dead.code.problem.synopsis11:
+    text: 未发现类引用。类 static 初始值设定项不可到达。
+inspection.dead.code.problem.synopsis12:
+    text: 类有一个实例化，但无法从入口点到达。
+inspection.dead.code.problem.synopsis13:
+    text: 类未实例化。
+inspection.dead.code.problem.synopsis14:
+    text: <ul><li>abstract 方法没有实现，或</li><li>实现类从未实例化，或</li><li>一个实例化无法从入口点到达。</li></ul>
+inspection.dead.code.problem.synopsis15:
+    text: <ul><li>方法所有者类没有实例化，或</li><li>一个实例化无法从入口点到达。</li></ul>
+inspection.dead.code.problem.synopsis16:
+    text: 方法从未使用。
+inspection.dead.code.problem.synopsis18:
+    text: 方法无法从入口点到达。
+inspection.dead.code.problem.synopsis19:
+    text: 类和{0, choice, 1#它的实现|2#它的 {0,number} 个实现}从未实例化。
+inspection.dead.code.problem.synopsis2:
+    text: 字段已被分配，从未被访问。
+inspection.dead.code.problem.synopsis20:
+    text: 类有 {0, choice, 1#1 个实例化|2#{0,number} 个实例化}，但实例化无法从入口点到达。
+inspection.dead.code.problem.synopsis21:
+    text: 方法从未用作此{0}的成员，但仅作为实现类的成员。如果从{0}中移除该方法，项目将保持兼容。
+inspection.dead.code.problem.synopsis22:
+    text: 方法重写某个库方法，但<ul><li>其{0}从未实例化，或者</li><li>其{0}实例化无法从入口点到达。</li></ul>
+inspection.dead.code.problem.synopsis23:
+    text: '{0}未被实现。'
+inspection.dead.code.problem.synopsis24:
+    text: '{0} 有一个实现但 <ul><li>这是从来没有实例化或</li><li>没有实例化从入口点是可及的.</li></ul>'
+inspection.dead.code.problem.synopsis26.constructor:
+    text: 构造函数从未使用过。
+inspection.dead.code.problem.synopsis26.method:
+    text: 方法从未使用。
+inspection.dead.code.problem.synopsis28.constructor:
+    text: 构造函数有一个用法，但无法从入口点到达。
+inspection.dead.code.problem.synopsis28.method:
+    text: 方法有一个用法，但无法从入口点到达。
+inspection.dead.code.problem.synopsis29.constructor:
+    text: 构造函数有 {0, choice, 1#1 个用法|2#{0,number} 个用法}，但无法从入口点到达。
+inspection.dead.code.problem.synopsis29.method:
+    text: 方法有 {0, choice, 1#1 个用法|2#{0,number} 个用法}，但无法从入口点到达。
+inspection.dead.code.problem.synopsis3:
+    text: 字段有一个用法，但无法从入口点到达。
+inspection.dead.code.problem.synopsis4:
+    text: 字段有 {0, choice, 1#1 个用法|2#{0,number} 个用法}，但无法从入口点到达。
+inspection.dead.code.problem.synopsis6:
+    text: 可到达。在项目代码中发现{0, choice, 1#1 个用法|2#{0, number} 个用法}。
+inspection.dead.code.problem.synopsis6.suspicious:
+    text: 不可到达。在项目代码中发现{0, choice, 1#1 个用法|2#{0, number} 个用法}。
+inspection.dead.code.problem.synopsis7:
+    text: 具有可到达的实例化。在项目代码中发现 {0, choice, 1#1 个实例化|2#{0, number} 个实例化}。
+inspection.dead.code.problem.synopsis8:
+    text: 具有可到达的实现实例化。在项目代码中发现 {0, choice, 1#1 个实例化|2#{0, number} 个实例化}。
+inspection.dead.code.problem.synopsis8.suspicious:
+    text: 没有可到达的实现实例化。在项目代码中找到 {0, choice, 1#1 个实例化|2#{0, number} 个实例化}。
+inspection.dead.code.problem.synopsis9:
+    text: 在项目代码中发现{0, choice, 1#1|2#{0, number}}个实例化。
+inspection.dead.code.problem.synopsis9.suspicious:
+    text: 匿名类上下文不可达。类未被实例化。在项目代码中找到{0, choice, 1#1|2#{0, number}}个实例化。
+inspection.dead.code.remove.from.entry.point.quickfix:
+    text: 移除从入口点
+inspection.dead.code.safe.delete.quickfix:
+    text: 安全删除
+inspection.dead.code.start.comment:
+    text: |
+        // --注释掉检查 START ({0}):
+inspection.dead.code.stop.comment:
+    text: |
+        // --注释掉检查 STOP ({0})
+inspection.dependency.configure.button.text:
+    text: 配置依赖规则
+inspection.dependency.violator.problem.descriptor:
+    text: 依赖规则"{0}."是违反
+inspection.deprecated.display.name:
+    text: 弃用的 API 用法
+inspection.description.title:
+    text: 描述
+inspection.diff.format.error:
+    text: '必需的形参: <old_file> <new_file> [<delta_file_name>]'
+inspection.disabled.error:
+    text: "检查 ''{0}'' 被禁用: {1}。"
+inspection.disabled.title:
+    text: 检查禁用
+inspection.disabled.wrong.id:
+    text: "检查 ''{0}'' 被禁用: ID ''{1}'' 与 ''{2}'' 模式不匹配。"
+inspection.done:
+    text: 完成。
+inspection.duplicate.throws.display.name:
+    text: 重复抛出
+inspection.duplicate.throws.ignore.subclassing.option:
+    text: 忽略子类化其他异常的异常
+inspection.duplicate.throws.more.general.problem:
+    text: "throws 列表中已经存在一个更一般的异常 ''{0}''。"
+inspection.duplicate.throws.problem:
+    text: throws 重复
+inspection.duplicates.display.name:
+    text: 复制字符串文字
+inspection.duplicates.message:
+    text: <html><body>重复的字符串在<br>{0}</body></html>
+inspection.duplicates.message.in.this.file:
+    text: (在此文件中)
+inspection.duplicates.message.more:
+    text: … ({0}更多)
+inspection.duplicates.option:
+    text: '最小字符串长度(&M):'
+inspection.duplicates.option.report.propertykey.expressions:
+    text: 忽略 @PropertyKey 表达式 (&I)
+inspection.duplicates.replace.family.quickfix:
+    text: 替换
+inspection.duplicates.replace.quickfix:
+    text: "替换为 ''{0}''"
+inspection.empty.method.delete.quickfix:
+    text: 删除不必要的方法
+inspection.empty.method.display.name:
+    text: 空方法
+inspection.empty.method.problem.descriptor:
+    text: 方法只调用它的 super
+inspection.empty.method.problem.descriptor1:
+    text: 空方法重写空方法
+inspection.empty.method.problem.descriptor2:
+    text: 该方法为空
+inspection.empty.method.problem.descriptor4:
+    text: 此方法的所有实现都为空
+inspection.equals.hashcode.display.name:
+    text: "'equals()' 和 'hashCode()' 未配对"
+inspection.equals.hashcode.only.one.defined.problem.descriptor:
+    text: 类定义了 {0}，但没有定义 {1}
+inspection.error.level.popup.menu.title:
+    text: 选择错误级别
+inspection.error.loading.message:
+    text: 读取检查配置文件错误 {0, choice, 0#来自 {1}|1#}
+inspection.errors.occurred.dialog.title:
+    text: 出错了
+inspection.export.dialog.title:
+    text: 导出
+inspection.export.generating.html.for:
+    text: '正在生成 HTML: {0}'
+inspection.export.inspections.link.text:
+    text: 检查
+inspection.export.open.option:
+    text: 在浏览器中打开生成的 HTML(&B)
+inspection.export.open.source.link.text:
+    text: 打开源文件
+inspection.export.options.panel.title:
+    text: 选项
+inspection.export.results.abstract.class:
+    text: 抽象类
+inspection.export.results.anonymous.ref.in.owner:
+    text: 位于
+inspection.export.results.at.line:
+    text: 行
+inspection.export.results.callees:
+    text: 调用链
+inspection.export.results.can.be.final.description:
+    text: 声明可以具有 final 修饰符
+inspection.export.results.capitalized.abstract.class:
+    text: 抽象类
+inspection.export.results.capitalized.class:
+    text: 类
+inspection.export.results.capitalized.interface:
+    text: 接口
+inspection.export.results.capitalized.location:
+    text: 位置
+inspection.export.results.class:
+    text: 类
+inspection.export.results.constructor:
+    text: 构造函数
+inspection.export.results.dead.code:
+    text: 未使用的声明
+inspection.export.results.derived.methods:
+    text: 派生方法
+inspection.export.results.description.tag:
+    text: 描述
+inspection.export.results.error.title:
+    text: 检验结果出口
+inspection.export.results.extended:
+    text: 延长
+inspection.export.results.extended.implemented:
+    text: 继承/实现
+inspection.export.results.extends.implements:
+    text: 继承/实现
+inspection.export.results.field:
+    text: 字段
+inspection.export.results.file:
+    text: 文件
+inspection.export.results.implicit.constructor:
+    text: 隐式构造函数 -
+inspection.export.results.initializer:
+    text: 初始值设定项
+inspection.export.results.interface:
+    text: 接口
+inspection.export.results.invalidated.item:
+    text: 失效的条目
+inspection.export.results.method:
+    text: 方法
+inspection.export.results.no.problems.found:
+    text: 没有发现错误或警告
+inspection.export.results.overrides.implements:
+    text: 重写/实现
+inspection.export.results.overrides.library.methods:
+    text: 重写库方法
+inspection.export.results.package:
+    text: 软件包
+inspection.export.results.problem.element.tag:
+    text: 问题类
+inspection.export.results.suppress:
+    text: 抑制
+inspection.export.results.type.references:
+    text: 以下使用这种类型
+inspection.export.results.used.from:
+    text: 使用从
+inspection.export.results.uses:
+    text: 使用以下
+inspection.export.save.button:
+    text: 保存
+inspection.export.title:
+    text: 代码检查结果
+inspection.field.can.be.local.display.name:
+    text: 可以为本地字段
+inspection.field.can.be.local.problem.descriptor:
+    text: 字段可以被转换为一个局部变量
+inspection.filter.resolved.action.text:
+    text: 筛选已解决的条目
+inspection.filter.show.diff.action.text:
+    text: 显示差异
+inspection.filter.show.diff.only.action.text:
+    text: 只显示差异
+inspection.general.tools.group.name:
+    text: 常规
+inspection.generating.html.progress.title:
+    text: 正在生成 HTML…
+inspection.generating.xml.progress.title:
+    text: 正在转储 XML…
+inspection.javadoc.dialog.title:
+    text: 编辑附加的JavaDoc标签
+inspection.javadoc.display.name:
+    text: 声明有Javadoc问题
+inspection.javadoc.html.not.required.dialog.title:
+    text: 编辑其他不是必须的 Html 属性
+inspection.javadoc.html.not.required.label.text:
+    text: '附加非必要 html 特性:'
+inspection.javadoc.label.text:
+    text: '附加 Javadoc 标记:'
+inspection.javadoc.method.problem.descriptor:
+    text: 参数{1}的描述丢失{0}标记
+inspection.javadoc.method.problem.missing.tag.description:
+    text: '{0}标签说明已丢失'
+inspection.javadoc.option.ignore.deprecated:
+    text: 忽略标记为 @deprecated 的元素
+inspection.javadoc.option.ignore.period:
+    text: 忽略期问题
+inspection.javadoc.option.tab.title:
+    text: 类
+inspection.javadoc.option.tab.title.field:
+    text: 字段
+inspection.javadoc.option.tab.title.inner.class:
+    text: 内部类
+inspection.javadoc.option.tab.title.method:
+    text: 方法
+inspection.javadoc.problem.add.param.tag:
+    text: "为形参''{0}''添加标签 @param"
+inspection.javadoc.problem.add.tag:
+    text: 添加标签 @{0}{1}
+inspection.javadoc.problem.add.tag.family:
+    text: 添加缺少的 Javadoc 标签
+inspection.javadoc.problem.cannot.resolve:
+    text: 无法解析符号{0}
+inspection.javadoc.problem.descriptor:
+    text: 要求Javadoc不在
+inspection.javadoc.problem.descriptor1:
+    text: 文档中缺少句号。Javadoc 工具使用该句号生成概述页面的注释
+inspection.javadoc.problem.duplicate.param:
+    text: "重复的形参''{0}'' @param 标记"
+inspection.javadoc.problem.duplicate.tag:
+    text: 重复的 @{0} 标记
+inspection.javadoc.problem.duplicate.throws:
+    text: "重复 @throws 或 @exception 标记为异常''{0}''"
+inspection.javadoc.problem.missing.tag:
+    text: 需要标记{0}是缺失的
+inspection.javadoc.problem.name.expected:
+    text: 应为名称
+inspection.javadoc.problem.pointing.to.itself:
+    text: Javadoc指向本身
+inspection.javadoc.problem.wrong.tag:
+    text: 错误标签{0}
+inspection.javadoc.ref.display.name:
+    text: 声明在Javadoc引用中有问题
+inspection.javadoc.required.tags.option.title:
+    text: 必须的标签
+inspection.javadoc.throws.or.exception.option:
+    text: '@throws或@exception'
+inspection.local.can.be.final.display.name:
+    text: "局部变量或形参可以是 'final'"
+inspection.local.can.be.final.option:
+    text: 报告局部变量
+inspection.local.can.be.final.option1:
+    text: 报告方法形参
+inspection.marked.for.removal.display.name:
+    text: 使用API标记为删除
+inspection.new.profile.dialog.title:
+    text: 创建新的配置文件
+inspection.new.profile.ide.to.project.warning.message:
+    text: 你想保存选定的IDE配置文件作为项目配置文件?
+inspection.new.profile.ide.to.project.warning.title:
+    text: 无法设置IDE剖面为范围
+inspection.new.profile.text:
+    text: 新的配置文件名称
+inspection.no.jdk.error.message:
+    text: 没有为此项目正确配置 JDK。无法进行检查。
+inspection.no.modules.error.message:
+    text: 此项目不包含模块。无法进行检查。
+inspection.no.problems.dialog.title:
+    text: 代码检查
+inspection.nullable.problems.annotated.field.constructor.parameter.not.annotated:
+    text: '@{0} 字段的构造函数形参可能会使用 @{0} 自身注解'
+inspection.nullable.problems.annotated.field.getter.conflict:
+    text: '@{0}字段的Getter已经注解 @{1}'
+inspection.nullable.problems.annotated.field.getter.not.annotated:
+    text: '@{0}字段的Getter可能会注解 @{0}本身'
+inspection.nullable.problems.annotated.field.setter.parameter.conflict:
+    text: '@{0} 字段的 setter 形参使用 @{1} 注解'
+inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
+    text: '@{0} 字段的 setter 形参可能会使用 @{0} 自身注解'
+inspection.nullable.problems.display.name:
+    text: '@NotNull/@Nullable 问题'
+inspection.offline.view.tool.display.name.title:
+    text: 名字
+inspection.options.action.text:
+    text: "检查''{0}''选项"
+inspection.parameter.can.be.local.display.name:
+    text: 从不读取作为形参传递的值
+inspection.parameter.can.be.local.problem.descriptor:
+    text: 形参可以被转化为一个局部变量
+inspection.problem.descriptor.count:
+    text: '{0, choice, 0#|1#(1 项)|2#({0,number,integer} 项)}'
+inspection.problem.resolution:
+    text: 解决问题
+inspection.problem.synopsis:
+    text: 问题摘要
+inspection.problems:
+    text: 问题
+inspection.processing.job.descriptor:
+    text: 正在处理以下位置中的项目用法
+inspection.processing.job.descriptor1:
+    text: 处理外部使用
+inspection.processing.job.descriptor2:
+    text: 分析代码
+inspection.profile.unnamed:
+    text: 未命名
+inspection.progress.title:
+    text: 检查代码...
+inspection.quickfix.assert.family:
+    text: 断言
+inspection.redirect.template:
+    text: '<html><body>注入元素存在问题: {0} (在<a href="#navigation/{1}:{2}">{3}</a> 中)。</body></html>'
+inspection.redundant.array.creation.display.name:
+    text: 冗余数组创建
+inspection.redundant.array.creation.for.varargs.call.descriptor:
+    text: 调用 vararg 方法的冗余数组创建
+inspection.redundant.array.creation.quickfix:
+    text: 移除显式数组创建
+inspection.redundant.cast.display.name:
+    text: 冗余类型转换
+inspection.redundant.cast.problem.descriptor:
+    text: '将 <code>{0}</code> 转换为 <code>#ref</code> #loc 是冗余的'
+inspection.redundant.cast.remove.quickfix:
+    text: 移除多余的转换
+inspection.redundant.suppression.description:
+    text: 冗余禁止
+inspection.redundant.suppression.name:
+    text: 冗余禁止
+inspection.redundant.throws.problem.descriptor:
+    text: 声明的异常 <code>#ref</code> 从不在任何方法实现中抛出
+inspection.redundant.throws.problem.descriptor1:
+    text: 声明的异常 <code>#ref</code> 从不在此方法或其重写方法中抛出
+inspection.redundant.throws.problem.descriptor2:
+    text: 声明的异常 <code>#ref</code> 从不抛出
+inspection.redundant.type.display.name:
+    text: 冗余类型实参
+inspection.redundant.type.problem.descriptor:
+    text: 显式类型实参可以推断
+inspection.reference.anonymous:
+    text: 匿名
+inspection.reference.anonymous.name:
+    text: 匿名 ({0})
+inspection.replace.ternary.quickfix:
+    text: "替换为''{0}!= null吗?''"
+inspection.required.attributes.display.name:
+    text: 缺少必需的属性
+inspection.results.title:
+    text: 结果通过编辑器设置
+inspection.root.node.title:
+    text: 检查
+inspection.same.parameter.display.name:
+    text: 方法形参始终具有相同的值
+inspection.same.parameter.fix.name:
+    text: "内联形参 ''{0}'' 的值 ''{1}''"
+inspection.same.parameter.problem.descriptor:
+    text: "形参 <code>#ref</code> 的实际值始终为 ''{0}''"
+inspection.same.return.value.display.name:
+    text: 方法始终返回相同的值
+inspection.same.return.value.problem.descriptor:
+    text: 方法 <code>#ref()</code> 始终返回 <code>{0}</code>
+inspection.same.return.value.problem.descriptor1:
+    text: 方法 <code>#ref()</code> 及其所有重写方法始终返回 <code>{0}</code>
+inspection.same.return.value.problem.descriptor2:
+    text: 方法 <code>#ref()</code> 的所有实现始终返回 <code>{0}</code>
+inspection.scope.for.title:
+    text: 作用域
+inspection.severity:
+    text: '严重性(&V):'
+inspection.surround.if.family:
+    text: 使用 if 包围
+inspection.suspicious.collections.method.calls.display.name:
+    text: 可疑的集合方法调用
+inspection.suspicious.collections.method.calls.problem.descriptor1:
+    text: "可疑的调用''{0}''"
+inspection.test.only.problems.test.only.method.call:
+    text: 测试只有在生产代码中调用方法
+inspection.tool.availability.in.tree.node:
+    text: (编辑高亮显示)
+inspection.tool.availability.in.tree.node1:
+    text: (可用于“代码 | 检查代码”)
+inspection.tool.description.under.construction.text:
+    text: 正在构建
+inspection.tool.in.browser.description.title:
+    text: 描述
+inspection.tools.action.show.global.inspections.description:
+    text: 隐藏全局检查设置
+inspection.tools.action.show.global.inspections.text:
+    text: 隐藏全局检查
+inspection.tree.popup.title:
+    text: 接受解决方法
+inspection.unable.to.create.profile.dialog.title:
+    text: 无法创建新的配置文件
+inspection.unable.to.create.profile.message:
+    text: 检查配置文件与名称"{0}"已经存在.
+inspection.unused.assignment.display.name:
+    text: 未使用的赋值
+inspection.unused.assignment.option:
+    text: 报告可被替换为二元表达式的前缀表达式
+inspection.unused.assignment.option1:
+    text: 报告未使用更改后的值的后缀表达式
+inspection.unused.assignment.option2:
+    text: 报告冗余的初始值设定项
+inspection.unused.assignment.problem.descriptor1:
+    text: '变量 <code>#ref</code> #loc 从未使用'
+inspection.unused.assignment.problem.descriptor2:
+    text: '变量 <code>{0}</code> 初始值设定项 <code>#ref</code> #loc 冗余'
+inspection.unused.assignment.problem.descriptor3:
+    text: '赋给 <code>#ref</code> #loc 的值 <code>{0}</code> 从未使用'
+inspection.unused.assignment.problem.descriptor4:
+    text: '在 <code>#ref</code> #loc 更改的值从未使用'
+inspection.unused.assignment.problem.descriptor5:
+    text: '模式变量 <code>#ref</code> #loc 的值从未使用'
+inspection.unused.assignment.problem.descriptor6:
+    text: 'foreach 迭代形参 <code>#ref</code> #loc 的值从未使用'
+inspection.unused.assignment.remove.quickfix:
+    text: 移除冗余的初始值设定项
+inspection.unused.parameter.composer:
+    text: 形参 <code>#ref</code> 未用于任何实现
+inspection.unused.parameter.composer1:
+    text: 形参 <code>#ref</code> 未在此方法中使用，也未在其重写方法中使用
+inspection.unused.parameter.delete.quickfix:
+    text: "安全删除未使用的形参 ''{0}''"
+inspection.unused.parameter.display.name:
+    text: 未使用的形参
+inspection.unused.return.value.problem.descriptor:
+    text: 方法的返回值从未使用过
+inspection.unused.symbol.public.method.parameters:
+    text: "在非私有方法中检查参数(N)\r (&N)"
+inspection.variable.assigned.to.itself.display.name:
+    text: 变量被赋值给自己
+inspection.visibility.accept.quickfix:
+    text: 接受建议的访问级别
+inspection.visibility.compose.suggestion:
+    text: 可以是 {0}
+inspection.visibility.display.name:
+    text: 声明访问可能较弱
+inspection.visibility.option2:
+    text: <html>建议为私有内部类的成员是，只有引用外部类</html>
+inspections.dead.code.entry.points.annotations.list.title:
+    text: 额外的入口点注释
+inspections.view.options.title:
+    text: 检查{0}选项
+introduce.constant.across.the.project:
+    text: 跨项目引入常量
+lossy.encoding:
+    text: 有损编码
+no.errors.found.in.this.file:
+    text: 在此文件中未找到错误
+nothing.found:
+    text: 未找到任何内容
+nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
+    text: 被重写的方法形参不会被注解
+nullable.stuff.problems.overridden.methods.are.not.annotated:
+    text: 重写的方法不是注释
+offline.inspections.jdk.not.found:
+    text: 找不到 {0}
+offline.inspections.library.was.not.resolved:
+    text: "请配置库''{0}''用于模块''{1}''"
+offline.inspections.module.jdk.not.found:
+    text: "请指定模块 ''{1}'' 的 sdk ''{0}''"
+offline.view.editor.settings.title:
+    text: 编辑器设置
+offline.view.parse.exception.title:
+    text: 解析 XML 时出错
+offline.view.title:
+    text: 离线查看
+parsing.inspections.dump.progress.title:
+    text: 正在解析检查 XML 转储
+processing.progress.text:
+    text: 正在处理 {0}
+profile.activate.action.text:
+    text: 设置为项目默认
+profile.assignment.repeatable.scope.warning:
+    text: 可复用的范围。正确的作业。
+profile.assignments.browse.profile.scopes.dialog.title:
+    text: 配置文件范围
+profile.assignments.browse.scope.button.title:
+    text: 浏览(&B)...
+profile.assignments.display.name:
+    text: 错误
+profile.assignments.table.title:
+    text: 项目检查配置文件作业
+profile.banner.text:
+    text: '项目配置文件: {0} {1, choice, 0#(inactive)|1#}'
+profile.default.profile.title:
+    text: 默认项目概要
+profile.ide.profile.radiobutton.title:
+    text: IDE配置
+profile.ide.settings.banner:
+    text: IDE配置文件设置
+profile.ide.tree.text:
+    text: IDE配置文件
+profile.lock.action.text:
+    text: 锁定
+profile.mapping.inspection.profile.column.title:
+    text: 检查配置文件
+profile.mapping.scope.column.title:
+    text: 作用域
+profile.project.activate.action.text:
+    text: 设置为IDE默认
+profile.project.display.name:
+    text: 项目配置文件
+profile.project.radiobutton.title:
+    text: 项目配置
+profile.project.settings.banner:
+    text: 项目配置文件设置
+profile.project.settings.disable.text:
+    text: < 使用IDE配置文件 >
+profile.quick.change.suggestion.dialog.title:
+    text: 无法切换配置文件
+profile.quick.change.suggestion.message:
+    text: <html>存在配置的项目数范围。你想对他们编辑配置文件分配？</html>
+profile.save.as.ide.checkbox.title:
+    text: 另存 IDE 配置
+profile.save.as.project.checkbox.title:
+    text: 另存项目配置
+profile.unlock.action.text:
+    text: 解锁
+redundant.throws.declaration:
+    text: 冗余抛出声明
+rename.inspection.profile:
+    text: 重命名检查配置文件
+rename.message.prefix.inspection.profile:
+    text: 检查配置文件
+report.suspicious.but.possibly.correct.method.calls:
+    text: 报告可疑的，但可能是正确的方法调用 (&R)
+run.inspection.on.file.intention.text:
+    text: 运行检查…
+run.with.choosen.profile.dialog.option:
+    text: 选择运行配置文件(&C)
+run.with.editor.settings.dialog.option:
+    text: 运行与编辑设置(&E)
+severities.default.settings.message:
+    text: 编辑设置 | 颜色和字体
+severities.editor.dialog.title:
+    text: 严重性编辑器
+special.annotations.annotations.list:
+    text: '附加特殊注解:'
+special.annotations.list.add.annotation.class:
+    text: 添加注解类
+special.annotations.list.annotation.class:
+    text: 注解类
+special.annotations.list.annotation.pattern:
+    text: 添加注解模式
+special.annotations.list.remove.annotation.class:
+    text: 移除注解类
+suppress.all.for.class:
+    text: 禁止类的所有检查
+suppress.inspection.annotation.syntax.error:
+    text: 注解语法不正确：{0}
+suppress.inspection.class:
+    text: 对类禁止
+suppress.inspection.family:
+    text: 禁止检查
+suppress.inspection.field:
+    text: 对字段禁止
+suppress.inspection.method:
+    text: 对方法禁止
+suppress.inspection.problem:
+    text: 禁止
+suppress.inspection.statement:
+    text: 对语句禁止
+suspicious.name.combination.add.titile:
+    text: 添加组名字
+suspicious.name.combination.display.name:
+    text: 可疑的变量/形参名称组合
+suspicious.name.combination.edit.title:
+    text: 编辑群名称
+suspicious.name.combination.options.prompt:
+    text: 输入一个逗号分隔的列表的名称：
+suspicious.name.combination.options.title:
+    text: '名称组(逗号分隔):'
+unchecked.warning:
+    text: 未经检查的警告
+unhandled.exception.in.jsp.name:
+    text: 未处理的异常在JSP
+unnecessary.module.dependency.display.name:
+    text: 不必要的模块依赖
+unsupported.character.for.the.charset:
+    text: "字符集 ''{0}'' 存在不受支持的字符"
+unused.import.statement:
+    text: 未使用的 import 语句
+unused.library.backward.analysis.job.description:
+    text: 执行反分析
+unused.library.display.name:
+    text: 未使用的库
+unused.library.problem.descriptor:
+    text: "未使用的库''{0}''"
+unused.library.roots.problem.descriptor:
+    text: "未使用的根{0}从库''{1}''"
+unused.symbol:
+    text: 未使用的符号
+wrong.package.statement:
+    text: 错误的 package 语句
+xml.suppressable.all.for.file.title:
+    text: 对文件全部禁止
+xml.suppressable.for.file.title:
+    text: 对文件禁止
+xml.suppressable.for.tag.title:
+    text: 对标记禁止

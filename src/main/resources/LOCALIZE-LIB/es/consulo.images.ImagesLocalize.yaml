@@ -1,0 +1,36 @@
+black.cell.color.descriptor:
+    text: "Celda 'negra'"
+chessboard.cell.size:
+    text: '&Tamaño de celda del tablero (píxeles):'
+error.broken.image.file.format:
+    text: <html><b>Imagen no cargada</b><br>Intente abrirla externamente para corregir el problema de formato</html>
+error.title.launching.external.editor:
+    text: Problema al iniciar el ejecutable externo
+external.editor.border.title:
+    text: Editor externo
+external.editor.executable.path:
+    text: 'Ruta:'
+grid.line.color.descriptor:
+    text: Línea de la cuadrícula
+icons.count:
+    text: '{0,choice, 0#sin imágenes|1#1 imagen|2#{0,number} imágenes|100# > 100 imágenes}'
+image.info:
+    text: '{0}x{1} {2} (color de {3} bits) {4}'
+select.external.executable.message:
+    text: Seleccionar editor de gráficos externo
+select.external.executable.title:
+    text: Seleccionar editor
+settings.page.name:
+    text: Imágenes
+show.grid.every:
+    text: 'Mostrar línea de cuadrícula cada (píxeles) (&E):'
+show.grid.lines:
+    text: Mostrar líneas de &cuadrícula por defecto
+show.grid.zoom.limit:
+    text: 'Mostrar líneas de cuadrícula &solo si el factor de zoom es igual o superior a:'
+show.transparency.chessboard:
+    text: Mostrar el tablero de &transparencia por defecto
+unknown.format:
+    text: Formato desconocido
+white.cell.color.descriptor:
+    text: "Celda 'blanca'"

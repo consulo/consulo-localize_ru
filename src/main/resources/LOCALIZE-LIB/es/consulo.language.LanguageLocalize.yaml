@@ -1,0 +1,258 @@
+0.expected:
+    text: Se esperaba {0}
+PerFileConfigurableBase.empty.text:
+    text: Nueva asignación $addShortcut
+PerFileConfigurableBase.label.project:
+    text: Proyecto
+PerFileConfigurableBase.mapping.title:
+    text: Mapeo
+PerFileConfigurableBase.null.text:
+    text: <Ninguno>
+PerFileConfigurableBase.project.mapping:
+    text: Proyecto {0}
+PerFileConfigurableBase.target.title:
+    text: Ruta
+abstract.visibility.presentation:
+    text: abstracto
+action.set.system.default.encoding.text:
+    text: <Predeterminado>
+anonymous.class.context.display:
+    text: Anónima en {0}
+anonymous.class.derived.display:
+    text: Clase anónima derivada de {0}
+aux.context.display:
+    text: de {0}
+button.do.not.override:
+    text: No sobrescribir
+button.override:
+    text: Sobrescribir
+cannot.delete.a.read.only.file:
+    text: "No se puede eliminar el archivo de solo lectura ''{0}''."
+cannot.modify.a.read.only.directory:
+    text: "No se puede modificar un directorio de solo lectura ''{0}''."
+cannot.modify.a.read.only.file:
+    text: "No se puede modificar el archivo de solo lectura ''{0}''."
+cannot.resolve.symbol:
+    text: "No se puede resolver el símbolo ''{0}''"
+class.context.display:
+    text: '{0} en {1}'
+color.name:
+    text: nombre del color
+command.name.change.language:
+    text: Cambiar idioma
+command.name.navigate:
+    text: Navegar
+completion.dot.etc.ad:
+    text: El punto, el espacio y algunas otras teclas también cerrarán esta búsqueda y se insertarán en el editor
+completion.no.suggestions:
+    text: No hay sugerencias
+completion.quick.implementations.ad:
+    text: ¿Sabía que la Vista de definición rápida ({0}) también funciona en las búsquedas de completado?
+completion.quick.javadoc.ad:
+    text: ¿Sabía que la Vista de documentación rápida ({0}) también funciona en las búsquedas de completado?
+completion.smart.enter.ad:
+    text: Use {0} para corregir sintácticamente el código tras completarlo (ajuste de paréntesis, etc.)
+compound.run.configuration.cycle:
+    text: "{0} ''{1}'' causa un ciclo de dependencias y no se puede añadir"
+default.path.evaluator.option:
+    text: Indica al proveedor de referencias cómo evaluar la ruta predeterminada para el archivo dado
+dialog.message.duplicate.live.templates.in.group:
+    text: Plantillas activas `{0}` duplicadas en el grupo {1}
+dialog.message.live.template.with.empty.abbreviation:
+    text: "Se ha encontrado una plantilla activa con una abreviatura vacía en el grupo ''{0}''; no se permiten este tipo de plantillas activas"
+dialog.message.live.template.with.empty.text:
+    text: "Se ha encontrado una plantilla activa ''{0}'' con texto vacío en el grupo ''{1}''; tales plantillas activas no tienen sentido"
+dialog.message.template.with.name.already.exists:
+    text: "Ya existe una plantilla con el nombre ''{0}''. Especifique un nombre de plantilla diferente."
+dialog.message.valid.identifier:
+    text: "''{0}'' no es un identificador válido"
+dialog.template.data.language.caption:
+    text: Los lenguajes de datos de plantilla son los lenguajes subyacentes en archivos de plantilla como los de los frameworks FreeMarker/Velocity. Para cambiar la configuración del lenguaje de datos de plantilla que {0} utiliza para un archivo, un directorio o todo el proyecto, añada su ruta si es necesario y seleccione un lenguaje de la lista desplegable.
+el.cannot.resolve.function:
+    text: "No se puede resolver la función ''{0}''"
+el.cannot.resolve.method:
+    text: "No se puede resolver el método ''{0}''()"
+el.cannot.resolve.namespace:
+    text: "No se puede resolver el espacio de nombres ''{0}''"
+el.cannot.resolve.property:
+    text: "No se puede resolver la propiedad o el método ''{0}'' (¿propiedad dinámica?)"
+el.cannot.resolve.variable:
+    text: "No se puede resolver la variable ''{0}''"
+el.declare.variable.find.acceptable.class:
+    text: Buscar clase aceptable
+el.declare.variable.intention.family:
+    text: Declarar variable como datos externos
+el.declare.variable.via.comment.annotation.intention.name:
+    text: Declarar variable externa en anotación de comentario
+el.declare.variable.via.usebean.intention.name:
+    text: Declarar variable externa como <jsp:useBean />
+el.mismatched.parameters.count:
+    text: Diferente número de parámetros formales y reales
+enum.constant.context:
+    text: "Constante de enumeración ''{0}'' en ''{1}''"
+hint.text.can.t.modify.decompiled.code:
+    text: No se puede modificar el código descompilado
+hint.text.couldn.t.find.surround:
+    text: No se han podido encontrar variantes de "Rodear con" aplicables al contexto actual
+incorrect.name:
+    text: Nombre incorrecto
+indent.status.bar.indent.tooltip:
+    text: 'Sangría:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0} espacio|2#{0} espacios}'
+indent.status.bar.tab:
+    text: Tabulador
+java.terms.class:
+    text: clase
+java.terms.enum:
+    text: enumeración
+java.terms.exception:
+    text: excepción
+java.terms.field:
+    text: campo
+java.terms.instance.initializer:
+    text: inicializador de instancia
+java.terms.interface:
+    text: interfaz
+java.terms.method:
+    text: método
+java.terms.of.annotation.type:
+    text: '{0} del tipo de anotación {1}'
+java.terms.of.anonymous.class:
+    text: '{0} de la clase anónima'
+java.terms.of.class:
+    text: '{0} de la clase {1}'
+java.terms.of.enum:
+    text: '{0} de la enumeración {1}'
+java.terms.of.interface:
+    text: '{0} de la interfaz {1}'
+java.terms.package:
+    text: paquete
+java.terms.parameter:
+    text: parámetro
+java.terms.static.initializer:
+    text: inicializador estático
+java.terms.type.parameter:
+    text: parámetro de tipo
+java.terms.variable.of.method:
+    text: '{0} de {1}'
+jsf.el.out.of.attribute:
+    text: JSF EL fuera del atributo
+jsf.method.call.is.nonstd.extension:
+    text: La llamada al método es una extensión no estándar
+jsp.documentation.message.can.have.runtime.value:
+    text: Puede tener un valor de tiempo de ejecución:{0}
+jsp.documentation.message.custom.attribute.name:
+    text: Nombre del atributo personalizado
+jsp.documentation.message.custom.function.name:
+    text: Nombre de la función personalizada
+jsp.documentation.message.custom.tag.name:
+    text: Nombre de etiqueta personalizada
+jsp.documentation.message.description:
+    text: Descripción:{0}
+jsp.documentation.message.example.of.use:
+    text: Ejemplodeuso:<br><pre>{0}</pre>
+jsp.documentation.message.fragment:
+    text: Fragmento:{0}
+jsp.documentation.message.required:
+    text: Obligatorio:{0}
+jsp.documentation.message.type:
+    text: Tipo:{0}
+jsp.taglib.method.reference.error.class.is.not.public:
+    text: La clase no es pública
+jsp.taglib.method.reference.error.class.is.not.valid:
+    text: La clase no es válida
+jsp.taglib.method.reference.error.different.return.type:
+    text: Tipo de retorno diferente
+jsp.taglib.method.reference.error.method.should.be.public.or.static:
+    text: El método debe ser public o static
+jsp.taglib.method.reference.error.no.such.method:
+    text: No existe tal método
+jsp.taglib.method.reference.error.signature.is.different:
+    text: La firma es diferente
+method.context.display:
+    text: '{0}() en {1}'
+native.visibility.presentation:
+    text: nativo
+package.component.installing.suffix:
+    text: (instalando)
+popup.title.copy:
+    text: Copiar
+private.visibility.presentation:
+    text: privado
+protected.visibility.presentation:
+    text: protegido
+psi.scanning.files.progress:
+    text: Escaneando archivos…
+psi.search.in.non.java.files.progress:
+    text: Analizando usos fuera del código…
+psi.search.inheritors.of.class.progress:
+    text: Buscando herederos de {0}…
+psi.search.inheritors.progress:
+    text: Buscando herederos…
+psi.search.scope.intersection:
+    text: Intersección de {0} y {1}
+psi.search.scope.libraries:
+    text: Bibliotecas
+psi.search.scope.production.files:
+    text: Archivos de producción del proyecto
+psi.search.scope.project:
+    text: Archivos del proyecto
+psi.search.scope.project.and.libraries:
+    text: Proyecto y bibliotecas
+psi.search.scope.test.files:
+    text: Archivos de prueba del proyecto
+psi.search.scope.union:
+    text: Unión de {0} y {1}
+public.visibility.presentation:
+    text: público
+quickfix.change.template.data.language.text:
+    text: Cambiar el lenguaje de datos de la plantilla {0} a…
+search.scope.module:
+    text: En un solo módulo
+search.scope.module.runtime:
+    text: "Ámbito de tiempo de ejecución del módulo ''{0}''"
+search.scope.unknown:
+    text: <ámbito desconocido>
+static.visibility.presentation:
+    text: estático
+status.bar.text.reference.has.been.copied:
+    text: '{0} se ha copiado'
+synchronized.visibility.presentation:
+    text: sincronizado
+tab.title.build.output:
+    text: Salida de compilación
+tab.title.more:
+    text: '{0} y {1} más'
+template.data.language.configurable:
+    text: Idiomas de datos de plantilla
+template.data.language.configurable.tree.table.title:
+    text: Idioma
+template.data.language.override.warning.text:
+    text: Se han especificado idiomas de datos de plantilla para los subdirectorios. ¿Desea sobrescribirlos?
+template.data.language.override.warning.title:
+    text: Sobrescribir lenguajes de datos de plantilla de subdirectorios
+terms.directory:
+    text: directorio
+terms.file:
+    text: archivo
+terms.property:
+    text: propiedad
+transient.visibility.presentation:
+    text: transitorio
+unexpected.eof:
+    text: Fin de archivo inesperado
+unexpected.token:
+    text: Token inesperado
+volatile.visibility.presentation:
+    text: volátil
+xml.terms.attribute:
+    text: atributo
+xml.terms.attribute.value:
+    text: valor del atributo
+xml.terms.entity:
+    text: entidad
+xml.terms.tag:
+    text: etiqueta
+xml.terms.xml.tag:
+    text: Etiqueta XML

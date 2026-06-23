@@ -1,0 +1,186 @@
+action.ShowSettings.show.find.usages.settings.dialog.description:
+    text: Mostrar el diálogo de configuración de buscar usos
+action.ShowSettings.show.settings.for.description:
+    text: Mostrar configuración de {0}
+action.close:
+    text: Cerrar
+action.description.rerun:
+    text: Volver a ejecutar la búsqueda
+action.group.by.file.structure:
+    text: Estructura de archivos
+action.group.by.module:
+    text: Módulo
+action.group.by.package:
+    text: Paquete
+action.group.by.title:
+    text: Agrupar por
+action.group.by.usage.type:
+    text: Tipo de uso
+action.merge.same.line:
+    text: Fusionar usos de la misma línea
+action.next.occurrence:
+    text: Siguiente coincidencia
+action.previous.occurrence:
+    text: Coincidencia anterior
+action.rerun:
+    text: Volver a ejecutar
+action.text.usage.view.settings:
+    text: Configuración…
+all.usages.are.in.this.line:
+    text: Todos los usos de {0} en {1} están en esta línea
+button.text.abort:
+    text: Abortar
+button.text.continue:
+    text: Continuar
+changes.detected.error.title:
+    text: Cambios detectados
+default.package.presentable.name:
+    text: <predeterminado>
+dialog.rerun.search:
+    text: ¿Desea volver a ejecutar la búsqueda ahora?
+files.are.too.large.large.and.cannot.be.scanned:
+    text: '{0,choice, 1#El archivo|2#Los archivos} {1} {0,choice, 1#es demasiado grande y no se puede escanear|2#son demasiado grandes y no se pueden escanear}'
+find.excessive.usage.count.prompt:
+    text: Se han encontrado demasiados resultados. ¿Está seguro de que desea continuar?
+find.excessive.usages.title:
+    text: Demasiados resultados
+large.files.were.ignored:
+    text: '{0,choice, 0#Ninguno|1#1 archivo demasiado grande fue ignorado|2#{0,number} archivos demasiado grandes fueron ignorados}'
+link.display.name.find.options:
+    text: Opciones de búsqueda…
+link.display.name.search.in.project:
+    text: Buscar en el proyecto
+message.include.them:
+    text: Incluirlos
+message.occurrences.in.project.configuration.files.are.skipped:
+    text: Se omiten las coincidencias en los archivos de configuración del proyecto.
+message.only.one.usage.found:
+    text: Solo se encontró un uso.
+message.part.large.number.of.unloaded.modules:
+    text: '{0} módulos descargados: {1} y otros {2} módulos descargados'
+message.part.number.of.unloaded.modules:
+    text: '{0} módulos descargados'
+message.part.small.number.of.unloaded.modules:
+    text: '{0} módulos descargados: {1}'
+message.part.unloaded.module.0:
+    text: "módulo ''{0}'' descargado"
+message.usage.search.was.canceled:
+    text: Se canceló la búsqueda de usos
+no.usages.found.in:
+    text: No se encontraron usos en {0}
+node.found.usages:
+    text: Usos
+node.group.code.usages:
+    text: Usos de código
+node.group.module:
+    text: 'Módulo: {0}'
+node.invalid:
+    text: Inválido
+node.non.code.usages:
+    text: Usos fuera del código
+node.readonly:
+    text: Solo lectura
+node.targets:
+    text: Objetivos
+notification.title.find.usages.finished:
+    text: Búsqueda de usos finalizada
+notification.usage.search.is.not.available.until.indices.are.ready:
+    text: La búsqueda de usos no está disponible hasta que los índices estén listos
+occurence.info.occurence:
+    text: '{0,choice, 0#No se encontraron coincidencias|1#1 coincidencia|2#{0,number} coincidencias}{1,choice, 0#|1# en 1 archivo|2# en {1,number} archivos}'
+occurence.info.reference:
+    text: '{0,choice, 0#No se encontraron|1#1 referencia|2#{0,number} referencias}{1,choice, 0#|1# en 1 archivo|2# en {1,number} archivos}'
+occurrences.found.in.comments.strings.and.non.java.files:
+    text: Coincidencias encontradas en comentarios, cadenas y archivos que no son de código
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+    text: Coincidencias encontradas en comentarios, cadenas, archivos que no son de código y código generado
+preview.usages.action.text:
+    text: Vista previa de la fuente
+references.to.be.changed:
+    text: Referencias a cambiar {0}
+select.the.usage.to.preview:
+    text: Seleccionar elemento para previsualizar
+several.occurrences.selected:
+    text: |-
+        Se seleccionaron varios archivos.
+        Seleccione las coincidencias de un archivo para previsualizarlas.
+show.usages.advertisement:
+    text: "Presione {0} de nuevo para buscar en ''{1}''"
+show.usages.only.usage:
+    text: Es el único uso en {0}
+sort.alphabetically.action.text:
+    text: Ordenar miembros alfabéticamente
+usage.excluded:
+    text: excluido
+usage.name:
+    text: '{0, choice, 1#uso|2#usos}'
+usage.target.exception:
+    text: Excepción
+usage.target.package.in.directory:
+    text: '{0} (en {1})'
+usage.type.annotation:
+    text: Anotación
+usage.type.cast.target:
+    text: Uso en el tipo de destino de la conversión
+usage.type.catch.declaration:
+    text: Declaración de parámetro de cláusula catch
+usage.type.class.object:
+    text: Uso en .class
+usage.type.comment:
+    text: Uso en comentarios
+usage.type.delegate.to.another.instance.method:
+    text: Delegar a otro método de instancia
+usage.type.delegate.to.another.instance.method.parameters.changed:
+    text: Delegar a otro método de instancia, parámetros cambiados
+usage.type.delegate.to.super.method:
+    text: Delegación en el método super
+usage.type.delegate.to.super.method.parameters.changed:
+    text: Delegar al supermétodo, parámetros cambiados
+usage.type.extends:
+    text: Uso en la cláusula extends/implements
+usage.type.field.declaration:
+    text: Declaración de campo
+usage.type.import:
+    text: Uso en importación
+usage.type.instanceof:
+    text: Uso en instanceof
+usage.type.local.declaration:
+    text: Declaración de variable local
+usage.type.nested.class:
+    text: Acceso a clase anidada
+usage.type.new:
+    text: Creación de nueva instancia
+usage.type.new.anonymous:
+    text: Creación de nuevo heredero anónimo
+usage.type.new.array:
+    text: Creación de nuevo array
+usage.type.parameter.declaration:
+    text: Declaración de parámetro de método
+usage.type.read:
+    text: Valor leído
+usage.type.recursion:
+    text: Recursividad
+usage.type.return:
+    text: Tipo de retorno del método
+usage.type.static.member:
+    text: Acceso a miembro estático de clase
+usage.type.string.constant:
+    text: Uso en constantes de cadena
+usage.type.throws.list:
+    text: Lista de throws del método
+usage.type.type.parameter:
+    text: Parámetro de tipo
+usage.type.unclassified:
+    text: Sin clasificar
+usage.type.write:
+    text: Escritura de valor
+usage.view.cancel.button:
+    text: '&Cancelar'
+usage.view.counter:
+    text: '{0} {0, choice, 1#resultado|2#resultados}'
+usages.n:
+    text: '{0,choice, 0#no se encontraron usos|1#se encontró 1 uso|2#se encontraron {0,number} usos}'
+usages.title:
+    text: Usos
+usages.were.filtered.out:
+    text: '{0,number} {0,choice, 1#uso fue filtrado|2#usos fueron filtrados}'

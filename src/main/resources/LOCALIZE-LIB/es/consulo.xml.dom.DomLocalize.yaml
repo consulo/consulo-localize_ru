@@ -1,0 +1,18 @@
+choose.file:
+    text: Seleccionar archivo
+class.decorator.or.has.default.constructor:
+    text: "''{0}'' debe tener un constructor predeterminado o implementar el patrón ''Decorator''"
+class.has.no.default.constructor:
+    text: "''{0}'' no tiene un constructor predeterminado"
+class.is.not.a.subclass:
+    text: "''{0}'' no es asignable a ''{1}''"
+class.is.not.concrete:
+    text: "''{0}'' no es una clase concreta"
+class.is.not.public:
+    text: "''{0}'' no es público"
+dom.usage.type:
+    text: En el descriptor XML
+enum.not.allowed:
+    text: No se permiten enumeraciones
+interface.not.allowed:
+    text: Interfaz no permitida para beans no abstractos

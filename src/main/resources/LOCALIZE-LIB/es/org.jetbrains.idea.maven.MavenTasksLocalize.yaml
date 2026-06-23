@@ -1,0 +1,18 @@
+maven.tasks.action.group.name:
+    text: Maven
+maven.tasks.before.run:
+    text: "Ejecutar objetivo de Maven ''{0}''"
+maven.tasks.before.run.empty:
+    text: Ejecutar objetivo de Maven
+maven.tasks.executing:
+    text: Ejecutando objetivo de Maven
+maven.tasks.goal:
+    text: Objetivo de Maven
+maven.tasks.goal.after.compile:
+    text: Después de la construcción
+maven.tasks.goal.before.compile:
+    text: Antes de la compilación
+maven.tasks.goal.before.run:
+    text: Antes de la ejecución
+maven.tasks.select.goal.title:
+    text: Seleccionar objetivo de Maven

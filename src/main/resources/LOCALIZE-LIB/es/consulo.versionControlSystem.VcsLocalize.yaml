@@ -1,0 +1,791 @@
+action.NotificationAction.VcsRootProblemNotifier.text.configure:
+    text: Configurar…
+action.NotificationAction.VcsRootProblemNotifier.text.enable.integration:
+    text: Habilitar integración
+action.NotificationAction.VcsRootProblemNotifier.text.ignore:
+    text: Ignorar
+action.description.compare:
+    text: Comparar versiones
+action.description.create.patch.for.selected.revisions:
+    text: Crea un parche para la(s) revisión(es) seleccionada(s)
+action.display.name.check.scope.status:
+    text: Comprobar el estado de {0}
+action.display.name.integrate.scope:
+    text: Integrar {0}
+action.display.name.update:
+    text: Actualizar
+action.display.name.update.scope:
+    text: Actualizar {0}
+action.enable.version.control.integration.text:
+    text: Habilitar la integración del control de versiones…(_E)
+action.force.push:
+    text: '&Forzar push'
+action.force.push.confirmation.text:
+    text: Vas a realizar un push forzado. Esto puede sobrescribir los commits en el remoto. ¿Estás seguro de que deseas continuar?
+action.force.push.is.prohibited.description:
+    text: El push forzado a {0} está prohibido
+action.force.push.to.confirmation.text:
+    text: Está a punto de realizar un push forzado a <b>{0}</b>. Podría sobrescribir los commits en el remoto. ¿Seguro que desea continuar?
+action.include.text:
+    text: Incluir…
+action.name.check.scope.status:
+    text: Comprobar estado de {0}(_K)
+action.name.check.status:
+    text: Comprobar estado(_K)
+action.name.compare:
+    text: Comparar
+action.name.get.file.content.from.repository:
+    text: Obtener de la revisión
+action.name.group.by.packages:
+    text: Agrupar por paquetes
+action.name.integrate:
+    text: Inte_grar
+action.name.integrate.scope:
+    text: Inte_grar {0}
+action.name.refresh:
+    text: Actualizar
+action.name.show.difference:
+    text: Mostrar diferencias
+action.name.show.files.as.tree:
+    text: Mostrar como árbol
+action.name.show.history.for.class:
+    text: Clase
+action.name.show.history.for.code.block:
+    text: Bloque de código
+action.name.show.history.for.field:
+    text: Campo
+action.name.show.history.for.function:
+    text: Función
+action.name.show.history.for.method:
+    text: Método
+action.name.show.history.for.selection:
+    text: Selección
+action.name.show.history.for.statement:
+    text: Sentencia
+action.name.show.history.for.tag:
+    text: Etiqueta
+action.name.show.history.for.text:
+    text: Texto
+action.name.update:
+    text: Actualizar(_U)
+action.name.update.scope:
+    text: Actualizar {0}(_U)
+acton.name.get.revision:
+    text: Obtener revisión
+amend.commit.load.message.error.text:
+    text: No se pudo cargar el mensaje del commit a enmendar.
+amend.commit.load.message.error.title:
+    text: Mensaje de commit no cargado
+amend.commit.load.message.task.title:
+    text: Cargando el mensaje de confirmación
+annotate.action.description:
+    text: Anotar archivo
+annotate.action.name:
+    text: Anotar
+annotation.commit.number:
+    text: Número de commit
+annotation.original.revision.text:
+    text: 'Revisión: {0}'
+annotation.switch.to.merged.text:
+    text: Mostrar orígenes de combinación
+annotation.switch.to.original.text:
+    text: Ocultar orígenes de fusión
+annotation.wrong.line.number.notification.text:
+    text: <html>El número de líneas anotadas por {0} no coincide con el número de líneas del archivo. Compruebe la codificación del archivo y los separadores de línea.</html>
+before.checkin.cleanup.code:
+    text: '&Limpiar'
+before.checkin.new.todo.check:
+    text: Comprobar TODO ({0})
+before.checkin.standard.options.check.smells:
+    text: '&Analizar código'
+before.commit.files.contain.code.smells.edit.them.confirm.text:
+    text: |-
+        {0} archivos contienen problemas.
+        {1,choice, 0#Sin errores|1#Un error|2#{1} errores} y {2,choice, 0#sin advertencias|1#una advertencia|2#{2} advertencias} encontrados.
+        ¿Desea revisarlos?
+border.changes.filter.change.number.filter:
+    text: Cambio
+border.changes.filter.date.filter:
+    text: Fecha
+border.selected.revision.commit.message:
+    text: Mensaje de confirmación
+border.standard.after.checkin.options.group:
+    text: Después de {0}
+browse.changes.action:
+    text: Explorar cambios
+browse.changes.content.title:
+    text: Cambios en {0}
+browse.changes.error.message:
+    text: 'Problema al acceder al VCS: {0}'
+browse.changes.error.title:
+    text: No se pueden mostrar los cambios
+browse.changes.filter.title:
+    text: Especificar criterios de búsqueda
+browse.changes.no.filter.prompt:
+    text: No ha especificado ningún criterio de filtrado. ¿Está seguro de que desea ver todo el historial del proyecto?
+browse.changes.nothing.found:
+    text: No se encontraron cambios que coincidan con los criterios
+browse.changes.nothing.found.title:
+    text: No se encontraron cambios
+browse.changes.progress.title:
+    text: Buscando cambios
+browse.changes.scope:
+    text: Cambios que afectan a {0}
+browse.changes.show.all.button:
+    text: Mostrar todos los cambios
+browse.changes.show.recent.button:
+    text: Mostrar cambios recientes
+browse.changes.title:
+    text: Examinar cambios
+button.search.again:
+    text: Buscar de nuevo
+button.text.overwrite.modified.file:
+    text: '&Sobrescribir archivo modificado'
+button.text.overwrite.modified.files:
+    text: '&Sobrescribir archivos modificados'
+cache.settings.dialog.title:
+    text: Configuración de la caché del historial de VCS
+cannot.apply.file.already.exists:
+    text: 'No se puede aplicar el parche al archivo {0}: ya existe.'
+cannot.find.file.to.patch:
+    text: 'No se puede encontrar el archivo para aplicar el parche: {0}'
+change.file.copied.from.text:
+    text: '- copiado de {0}'
+change.file.moved.from.text:
+    text: '- movido desde {0}'
+change.file.moved.to.text:
+    text: '- movido a {0}'
+change.file.renamed.from.text:
+    text: '- renombrado desde {0}'
+change.file.renamed.to.text:
+    text: '- renombrado a {0}'
+change.file.replaced.text:
+    text: '- reemplazado'
+change.lists.manager.add.unversioned:
+    text: Agregar archivos sin versión
+change.nodetitle.change.is.outdated:
+    text: El archivo ha cambiado en el servidor
+changelist.details.committed.format:
+    text: Confirmado por {0} {1}
+changelist.details.title:
+    text: Detalles de la lista de cambios
+changes.action.rollback.custom.title:
+    text: Cambios de {0}
+changes.action.rollback.text:
+    text: Revertir
+changes.action.rollback.title:
+    text: '{0} cambios'
+changes.browser.details.marker:
+    text: más…
+changes.checkbox.delete.locally.added.files:
+    text: '&Eliminar copias locales de los archivos añadidos'
+changes.default.changelist.name:
+    text: Cambios
+changes.dialog.editchangelist.error.already.exists:
+    text: "Ya existe una lista de cambios llamada ''{0}''"
+changes.dialog.editchangelist.title:
+    text: Editar lista de cambios
+changes.dialog.newchangelist.title:
+    text: Nueva lista de cambios
+changes.nodetitle.changecount:
+    text: '{0,choice, 0#Sin archivos|1#1 archivo|2#{0} archivos}'
+changes.nodetitle.directory.changecount:
+    text: '{0,choice, 0#0 directorios|1#1 directorio|2#{0} directorios}'
+changes.nodetitle.directory.file.changecount:
+    text: '{0,choice, 0#0 directorios|1#1 directorio|2#{0} directorios} y {1,choice, 0#0 archivos|1#1 archivo|2#{1} archivos}'
+changes.nodetitle.have.outdated.files:
+    text: Algunos archivos se han modificado en el servidor
+changes.nodetitle.ignored.files:
+    text: Archivos ignorados
+changes.nodetitle.locally.deleted.files:
+    text: Archivos eliminados localmente
+changes.nodetitle.locked.folders:
+    text: Carpetas de copia de trabajo bloqueadas
+changes.nodetitle.locked.folders.tooltip:
+    text: Algunas carpetas están bloqueadas; no se permiten operaciones de VCS para ellas. Se debe realizar una limpieza.
+changes.nodetitle.logicallt.locked.folders:
+    text: Archivos bloqueados explícitamente
+changes.nodetitle.modified.without.editing:
+    text: Modificado sin checkout
+changes.nodetitle.switched.files:
+    text: Archivos conmutados
+changes.nodetitle.switched.roots:
+    text: Cambio de raíces
+changes.nodetitle.unversioned.files:
+    text: Archivos sin versión
+changes.nodetitle.updating:
+    text: actualizando…
+changes.remove.active.empty.prompt:
+    text: 'Seleccione la lista de cambios para activar:'
+changes.remove.active.prompt:
+    text: 'Seleccione la lista de cambios a la que se deben mover los cambios:'
+changes.remove.active.title:
+    text: Eliminar lista de cambios activa
+changes.removechangelist.multiple.warning.text:
+    text: |-
+        ¿Está seguro de que desea eliminar {0} listas de cambios?
+        Todos los cambios se moverán a la lista de cambios activa.
+changes.removechangelist.warning.text:
+    text: "¿Seguro que desea eliminar la lista de cambios ''{0}''?\nTodos los cambios se moverán a la lista de cambios activa."
+changes.removechangelist.warning.title:
+    text: Eliminar lista de cambios
+checkbox.checkin.options.optimize.imports:
+    text: '&Optimizar importaciones'
+checkbox.checkin.options.rearrange.code:
+    text: Reorga&nizar código
+checkbox.checkin.options.reformat.code:
+    text: '&Reformatear código'
+checkbox.show.changed.revisions.only:
+    text: Solo cambios
+checkbox.show.changes.after.date:
+    text: '&Después'
+checkbox.show.changes.after.num:
+    text: '&Desde'
+checkbox.show.changes.before.date:
+    text: '&Antes'
+checkbox.show.changes.before.num:
+    text: 'Has&ta:'
+checkbox.show.clear.read.only.status.dialog:
+    text: Preguntar si desea desbloquear los archivos de solo lectura al intentar editarlos
+checking.code.smells.progress.title:
+    text: Realizando análisis de código
+close.tab.action.name:
+    text: Cerrar
+code.smells.error.messages.tab.name:
+    text: Análisis de código
+code.smells.review.button:
+    text: '&Revisar análisis de código'
+column.info.configure.vcses.directory:
+    text: Directorio
+column.name.revision.date:
+    text: Fecha
+column.name.revision.list.author:
+    text: Autor
+column.name.revision.list.committer:
+    text: Usuario
+column.name.revision.list.date:
+    text: Fecha
+column.name.revision.list.description:
+    text: Descripción
+column.name.revision.list.number:
+    text: Número
+column.name.revision.list.revision:
+    text: Revisión
+column.name.revision.version:
+    text: Versión
+column.name.revisions.list.branch:
+    text: Rama
+column.name.revisions.list.filter:
+    text: Fecha
+column.name.type:
+    text: Tipo
+command.name.open.error.message.view:
+    text: Abrir vista de mensajes
+commit.dialog.changelist.label:
+    text: 'Lista de cambios(&T):'
+commit.dialog.include.action.name:
+    text: '&Incluir en el commit'
+commit.dialog.no.changes.detected.text:
+    text: No se detectaron cambios
+commit.dialog.no.changes.detected.title:
+    text: Nada que confirmar
+commit.dialog.refresh.files:
+    text: Sincronizando archivos…
+commit.dialog.title:
+    text: Confirmar cambios
+commit.legend.deleted:
+    text: eliminado
+commit.legend.modified:
+    text: modificado
+commit.legend.new:
+    text: añadido
+commit.wait.util.synched.text:
+    text: Realizando actualización de VCS…
+committed.changes.empty.comment:
+    text: <sin comentario>
+committed.changes.empty.message:
+    text: No hay cambios confirmados en el repositorio
+committed.changes.filter.all:
+    text: Todos
+committed.changes.filter.none:
+    text: <ninguno>
+committed.changes.filter.title:
+    text: Filtrar por
+committed.changes.group.title:
+    text: Agrupar por
+committed.changes.incorrect.regex.message:
+    text: La expresión regular utilizada en el filtro no es válida
+committed.changes.not.loaded.message:
+    text: Presione el botón Actualizar para cargar los cambios del repositorio
+committed.changes.partial.list:
+    text: '[parcial]'
+committed.changes.refresh.progress:
+    text: Actualizando el historial de VCS
+committed.changes.regex.title:
+    text: Expresión re&gular
+composite.change.provider.include.vcs.checkbox:
+    text: Incluir cambios de {0}
+confirmation.text.add.file:
+    text: |-
+        ¿Desea programar la adición del siguiente archivo a Subversion?
+        {0}
+confirmation.title.add.file:
+    text: Programar para añadir
+create.patch.commit.action.title:
+    text: Crear parche
+create.patch.encoding:
+    text: '&Codificación:'
+create.patch.error.title:
+    text: 'Error al crear el parche: {0}'
+create.patch.file.path:
+    text: 'Al &archivo:'
+create.patch.loading.content.progress:
+    text: Cargando revisiones de contenido
+create.patch.reverse.checkbox:
+    text: Inverti&r parche
+create.patch.success.confirmation:
+    text: Se ha creado correctamente el parche {0}
+current.version.text:
+    text: '{4}<br/><br/>La versión actual es {3}.<br/>Modificado por {0}<br/>{1}<br/>{2}'
+date.group.last.week:
+    text: Semana pasada
+date.group.title:
+    text: Fecha
+date.group.today:
+    text: Hoy
+dialog.enable.version.control.integration.hint.text:
+    text: Los ajustes del control de versiones se pueden configurar en
+dialog.enable.version.control.integration.select.vcs.label.text:
+    text: 'Seleccione un sistema de control de versiones para asociar con {0}:'
+dialog.enable.version.control.integration.title:
+    text: Habilitar la integración del control de versiones
+dialog.title.changes.browser:
+    text: Explorador de cambios
+dialog.title.clear.read.only.file.status:
+    text: Quitar el estado de solo lectura
+diff.content.title.current.range:
+    text: Actual
+diff.content.title.revision.number:
+    text: Revisión {0}
+diff.content.title.up.to.date:
+    text: Revisión base
+directory.mapping.add.title:
+    text: Agregar mapeo de directorio de VCS
+directory.mapping.remove.title:
+    text: Editar mapeo de directorios de VCS
+edit.changelist.description:
+    text: '&Comentario:'
+edit.changelist.name:
+    text: '&Nombre:'
+edit.errors:
+    text: Editar errores
+error.adding.files.prompt:
+    text: 'Se han producido los siguientes problemas al agregar los archivos:'
+error.adding.files.title:
+    text: Error al añadir archivos
+error.executing.commit:
+    text: "Error al ejecutar ''{0}'': {1}"
+error.updating.changes:
+    text: 'Error al actualizar los cambios: {0}'
+exception.text.internal.error.method.should.not.be.called:
+    text: No se debería llamar
+exception.text.internal.errror.could.not.implement.method:
+    text: No se pudo implementar
+exception.text.unknown.error:
+    text: Error desconocido
+file.status.name.added:
+    text: Agregado
+file.status.name.deleted:
+    text: Eliminado
+file.status.name.deleted.from.file.system:
+    text: Eliminado del sistema de archivos
+file.status.name.hijacked:
+    text: Secuestrado
+file.status.name.ignored:
+    text: Ignorado
+file.status.name.merged:
+    text: Fusionado
+file.status.name.merged.with.both.conflicts:
+    text: Fusionado con conflictos de texto y propiedades
+file.status.name.merged.with.conflicts:
+    text: Fusionado con conflictos
+file.status.name.merged.with.property.conflicts:
+    text: Fusionado con conflictos de propiedades
+file.status.name.modified:
+    text: Modificado
+file.status.name.obsolete:
+    text: Obsoleto
+file.status.name.suppressed:
+    text: Suprimido
+file.status.name.switched:
+    text: Cambiado
+file.status.name.unknown:
+    text: Desconocido
+file.status.name.up.to.date:
+    text: Actualizado
+file.status.name.up.to.date.immediate.children:
+    text: Tiene elementos secundarios directos modificados
+file.status.name.up.to.date.recursive.children:
+    text: Tiene descendientes modificados
+filter.structure.name:
+    text: Estructura
+group.name.version.control:
+    text: Control de &versiones
+handle.ro.file.status.type.using.file.system:
+    text: usando el sistema de archivos
+handle.ro.file.status.type.using.vcs:
+    text: usando {0}
+history.empty:
+    text: El historial está vacío
+incoming.changes.empty.message:
+    text: No hay cambios entrantes
+incoming.changes.indicator.tooltip:
+    text: '{0} listas de cambios entrantes disponibles'
+incoming.changes.not.loaded.message:
+    text: Presione el botón Actualizar para cargar los cambios entrantes
+issue.link.add.title:
+    text: Añadir enlace de navegación de incidencia
+issue.link.delete.prompt:
+    text: ¿Eliminar el enlace de navegación seleccionado?
+issue.link.delete.title:
+    text: Eliminar enlace de navegación de la incidencia
+issue.link.edit.title:
+    text: Editar enlace de navegación de la incidencia
+issue.link.issue.column:
+    text: Incidencia
+issue.link.link.column:
+    text: Enlace
+issue.link.no.patterns:
+    text: No se han configurado patrones
+label.commit.comment:
+    text: '&Mensaje de commit'
+label.relative.project.path.presentation:
+    text: <Proyecto>/{0}
+label.selected.revision.commit.message:
+    text: Mensaje de commit
+line.annotation.aspect.author:
+    text: Autor
+line.annotation.aspect.date:
+    text: Fecha
+line.annotation.aspect.revision:
+    text: Revisión
+loading.file.history.progress:
+    text: Cargando el historial de archivos
+local.history.update.from.vcs:
+    text: Actualizar desde VCS
+local.version.title:
+    text: Versión local
+lookup.title.vcs.file.revisions:
+    text: Revisiones de archivo
+message.text.all.files.are.up.to.date:
+    text: Todos los archivos están actualizados.
+message.text.cannot.edit.file:
+    text: 'No se puede editar el archivo: {0}'
+message.text.cannot.load.revision:
+    text: 'No se puede cargar la revisión: {0}'
+message.text.cannot.open.editor:
+    text: No se puede abrir el editor de texto para el archivo {0}
+message.text.cannot.save.content:
+    text: 'No se puede guardar el contenido: {0}'
+message.text.cannot.show.differences:
+    text: 'No se pueden mostrar las diferencias: {0}'
+message.text.could.not.load.virtual.file.content:
+    text: 'No se pudo cargar el contenido del archivo {0}: {1}'
+message.text.file.is.up.to.date:
+    text: El archivo está actualizado
+message.text.file.locally.modified:
+    text: El archivo {0} se ha modificado localmente.
+message.text.several.files.locally.modified:
+    text: Algunos archivos se modificaron localmente.
+message.title.annotate:
+    text: Anotar
+message.title.cannot.open.editor:
+    text: No se puede abrir el editor
+message.title.could.not.load.content:
+    text: No se pudo cargar el contenido
+message.title.could.not.load.file.history:
+    text: Problemas al cargar el historial del archivo
+message.title.edit.files:
+    text: Editar archivos
+message.title.get.revision.content:
+    text: Obtener contenido de la revisión
+message.title.get.version:
+    text: Obtener versión
+message.title.show.differences:
+    text: Mostrar diferencias
+message.title.vcs.update.errors:
+    text: '{0} errores'
+move.to.changelist:
+    text: "&Mover cambios a la lista de cambios activa (''{0}'')"
+multiple.file.merge.accept.theirs:
+    text: Acep&tar lo de ellos
+multiple.file.merge.accept.yours:
+    text: Aceptar lo tu&yo
+multiple.file.merge.column.name:
+    text: Nombre
+multiple.file.merge.loading.progress.title:
+    text: Cargando revisiones de fusión…
+multiple.file.merge.merge:
+    text: '&Combinar…'
+multiple.file.merge.request.title:
+    text: Fusionar revisiones de {0}
+multiple.file.merge.title:
+    text: Conflictos
+new.changelist.duplicate.name.error:
+    text: Ya existe una lista de cambios con ese nombre
+new.changelist.make.active.checkbox:
+    text: Establecer como &activa
+no.ignored.files:
+    text: No hay archivos ignorados
+none.vcs.presentation:
+    text: <ninguno>
+notification.title.vcs.name.repository.repositories.found:
+    text: '{0} {1, choice, 1#repositorio encontrado|2#repositorios encontrados}'
+open.repository.version.description:
+    text: Abrir la revisión seleccionada del archivo en el editor
+open.repository.version.text:
+    text: Abrir versión del repositorio
+operation.name.annotate:
+    text: Anotar
+outdated.version.show.diff.action:
+    text: Mostrar diferencias
+outdated.version.text:
+    text: 'Versión desactualizada. {3,choice,0#Modificado|1#Eliminado} por {0} {1}: {2}'
+outdated.version.update.project.action:
+    text: Actualizar proyecto
+patch.apply.already.applied:
+    text: Todos los cambios del parche especificado ya están incluidos en el código
+patch.apply.analyze.from.clipboard.on.the.fly.checkbox:
+    text: Analizar y aplicar parche del portapapeles sobre la marcha
+patch.apply.cannot.apply.now:
+    text: No se puede aplicar el parche ahora
+patch.apply.changes.in.patch.resolve:
+    text: '{0} en la resolución del parche'
+patch.apply.command:
+    text: Aplicar parche
+patch.apply.conflict.local.version:
+    text: Versión local
+patch.apply.conflict.merged.version:
+    text: Resultado de la fusión
+patch.apply.conflict.patch:
+    text: Parche
+patch.apply.conflict.patched.somehow.version:
+    text: Resultado
+patch.apply.conflict.patched.version:
+    text: Versión parcheada
+patch.apply.conflict.title:
+    text: Conflicto de parche
+patch.apply.dialog.title:
+    text: Aplicar parche
+patch.apply.file.name.field:
+    text: 'Nombre del archivo de &parche:'
+patch.apply.partially.applied:
+    text: Algunos de los cambios del parche especificado se han omitido porque ya se encuentran en el código
+patch.apply.select.title:
+    text: Seleccionar archivo de parche
+patch.apply.somehow.diff.name:
+    text: Aplicar parche de alguna manera
+patch.apply.success.applied.text:
+    text: Parche aplicado con éxito
+paths.affected.in.revision:
+    text: Cambios en {0}
+progress.text.searching.for.modified.files:
+    text: Buscando archivos modificados
+progress.text.synchronizing.files:
+    text: Sincronizando archivos…
+progress.text.updating.canceled:
+    text: Actualización cancelada
+progress.text.updating.done:
+    text: Actualización completada
+progress.title.version.control.processing.changed.files:
+    text: 'Control de versiones: Procesando archivos modificados'
+push.dialog.push.commits.title:
+    text: Hacer push de los commits
+push.process.pushing:
+    text: Enviando…
+radio.after.creation.add.silently:
+    text: Añadir silenciosamente
+radio.after.creation.do.not.add:
+    text: No añadir
+radio.after.creation.show.options:
+    text: Preguntar
+radio.after.deletion.do.not.remove:
+    text: No eliminar
+radio.after.deletion.remove.silently:
+    text: Eliminar silenciosamente
+radio.after.deletion.show.options:
+    text: Preguntar
+refresh.failed.message:
+    text: 'Error al actualizar: {0}'
+retrieving.annotations:
+    text: Cargando anotaciones
+rollback.modified.without.checkout.error.tab:
+    text: '{0} modificado sin checkout'
+rollback.modified.without.editing.confirm.multiple:
+    text: ¿Desea {0} los cambios en los {1} archivos seleccionados?
+rollback.modified.without.editing.confirm.single:
+    text: ¿Desea {0} los cambios en {1}?
+rolling.back.file:
+    text: Revirtiendo {0}
+roots.notification.content.directory.registered.as.root.but.no.repositories.were.found.there:
+    text: El directorio {0} está registrado como una raíz de {1}, pero no se han encontrado repositorios de {1} allí.
+roots.notification.title.invalid.vcs.root.choice.mapping.mappings:
+    text: '{0, choice, 1#Mapeo de raíz de VCS no válido|2#Mapeos de raíz de VCS no válidos}'
+roots.notification.title.vcs.name.integration.enabled:
+    text: Integración con {0} habilitada
+roots.notification.title.vcs.root.configuration.problems:
+    text: Problemas de configuración de la raíz de VCS
+roots.the.following.directories.are.registered.as.vcs.roots.but.they.are.not:
+    text: 'Los siguientes directorios están registrados como raíces de VCS, pero no lo son:'
+scope.name.changelist.all.changed.files:
+    text: Todos los archivos modificados
+searching.for.code.smells.processing.file.progress.text:
+    text: Procesando {0}
+settings.filter.update.project.info.by.scope:
+    text: Filtrar la información de actualización del proyecto por ámbito
+shelve.changes.action:
+    text: Suspender cambios(_S)
+shelve.changes.only.directories:
+    text: Los cambios seleccionados afectan solo a directorios y no a archivos, por lo que no se pueden poner en reserva
+shelved.version.name:
+    text: Versión guardada
+show.diff.from.annotation.action.error.can.not.load.data.to.show.diff:
+    text: No se pueden cargar los datos para mostrar las diferencias
+show.diff.progress.title:
+    text: Cargando contenido
+show.diff.progress.title.detailed:
+    text: Cargando contenido de {0}
+show.history.action.name.template:
+    text: Mostrar historial de {0}…(_F)
+show.history.dialog.title.template:
+    text: Historial de {0}
+status.group.name.changed:
+    text: Cambiado
+status.group.name.changed.on.server:
+    text: Cambiado en el servidor
+status.group.name.created:
+    text: Creado
+status.group.name.deleted:
+    text: Eliminado
+status.group.name.locally.added:
+    text: Añadido localmente
+status.group.name.locally.removed:
+    text: Eliminado localmente
+status.group.name.modified:
+    text: Modificado
+status.group.name.not.in.repository:
+    text: No está en el repositorio
+status.group.name.skipped:
+    text: Omitido
+status.group.name.switched:
+    text: Cambiado
+status.group.name.will.be.merged:
+    text: Se fusionará
+status.group.name.will.be.merged.with.conflicts:
+    text: Se fusionará con conflictos
+status.group.name.will.be.merged.with.property.conflicts:
+    text: Se fusionará con conflictos de propiedades
+status.group.name.will.be.merged.with.tree.conflicts:
+    text: Se fusionará con conflictos de árbol
+status.group.name.will.be.restored:
+    text: Se restaurará
+switch.to.changelist:
+    text: "Cambiar a la &lista de cambios (''{0}'')"
+todo.handler.only.added:
+    text: <html><body>{0,choice, 0#|1#Se encontró un|2#Se encontraron {0}} TODO {0,choice, 0#|1#elemento añadido/editado|2#elementos añadidos/editados}.<br/>¿Desea revisar{0,choice,1#lo|2#los}?<br/>{1,choice, 0#|1#Se omitió un archivo.|2#Se omitieron {1} archivos.}</body></html>
+todo.handler.only.both:
+    text: <html><body>{0, choice, 1#Se ha añadido/editado 1|2#Se han añadido/editado {0}} {0, choice, 1#elemento|2#elementos} TODO,<br/>y se {1, choice, 1#ha encontrado 1 elemento|2#han encontrado {1} elementos} en fragmentos modificados.<br/>¿Desea revisarlos?<br/>{2, choice, 0#|1#Se ha omitido 1 archivo.|2#Se han omitido {2} archivos.}</body></html>
+todo.handler.only.in.changed:
+    text: <html><body>{0,choice, 1#Se encontró un elemento|2#Se encontraron {0} elementos} TODO en fragmentos modificados.<br/>¿Desea {0,choice, 1#revisarlo|2#revisarlos}?<br/>{1,choice, 0#|1#Se omitió un archivo.|2#Se omitieron {1} archivos.}</body></html>
+todo.handler.only.skipped:
+    text: |-
+        <html><body>La comprobación de TODO ha omitido {0,choice, 0#|1#un archivo|2#{0} archivos}.<br/>
+        No se han encontrado elementos TODO nuevos o editados, ni elementos situados en fragmentos de texto modificados.</body></html>
+todo.in.new.review.button:
+    text: '&Revisar TODO'
+toolwindow.title.update.project:
+    text: Actualizar proyecto ({0})
+unknown.vcs.presentation:
+    text: <VCS desconocido> ({0})
+unshelve.changelist.chooser.title:
+    text: Desaplicar cambios a la lista de cambios
+unshelve.changes.dialog.title:
+    text: Restaurar cambios de la estantería
+update.directories.scope.name:
+    text: Directorios
+update.directory.scope.name:
+    text: Directorio
+update.file.scope.name:
+    text: Archivo
+update.files.scope.name:
+    text: Archivos
+update.group.name.created:
+    text: Creado
+update.group.name.deleted:
+    text: Eliminado
+update.group.name.locally.added:
+    text: Agregado localmente
+update.group.name.locally.removed:
+    text: Eliminado localmente
+update.group.name.merged:
+    text: Fusionado
+update.group.name.merged.with.conflicts:
+    text: Fusionado con conflictos
+update.group.name.merged.with.property.conflicts:
+    text: Fusionado con conflictos de propiedades
+update.group.name.merged.with.tree.conflicts:
+    text: Fusionado con conflictos de árbol
+update.group.name.modified:
+    text: Modificado
+update.group.name.not.in.repository:
+    text: No está en el repositorio
+update.group.name.restored:
+    text: Restaurado
+update.group.name.skipped:
+    text: Omitidos
+update.group.name.switched:
+    text: Cambiado
+update.group.name.updated:
+    text: Actualizado
+update.group.name.updated.from.server:
+    text: Actualizado desde el servidor
+update.info.group.by.changelist:
+    text: Agrupar por lista de cambios
+update.info.loading.changelists:
+    text: Cargando listas de cambios…
+update.project.scope.name:
+    text: Proyecto
+update.tree.node.size.statistics:
+    text: '{0,choice, 0#ningún elemento|1#1 elemento|2#{0, number} elementos}'
+user.group.title:
+    text: Usuario
+vcs.command.name.add:
+    text: Añadir
+vcs.command.name.checkin:
+    text: Confirmar(_I)
+vcs.command.name.edit:
+    text: Editar
+vcs.command.name.remove:
+    text: Eliminar
+vcs.command.name.status:
+    text: Estado
+vcs.command.name.update:
+    text: Actualizar
+vcs.config.track.changed.on.server:
+    text: Comprobar si hay conflictos con el servidor cada
+vcs.console.toolwindow.display.name:
+    text: Consola
+vcs.generic.name.with.mnemonic:
+    text: Ver_sionado
+vcs.quicklist.popup.title:
+    text: Operaciones de VCS
+vcs.revision.name.current:
+    text: Actual
+vcs.shelf.action.restore.description:
+    text: Restaurar {0, choice, 1#la lista de cambios eliminada recientemente|2#las listas de cambios eliminadas recientemente}
+vcs.shelf.action.restore.text:
+    text: Restaurar
+version.control.main.configurable.name:
+    text: Control de versiones
+waiting.changelists.update.for.show.commit.dialog.message:
+    text: Confirmar

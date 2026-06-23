@@ -1,0 +1,106 @@
+action.sort.alphabetically:
+    text: 按字母顺序
+action.structureview.show.inherited:
+    text: 已继承
+command.close.active.editor:
+    text: 关闭当前编辑器
+file.structure.toggle.show.inherited:
+    text: 继承的成员
+large.file.editor.action.description.search.entire.file.and.show.toolwindow:
+    text: 从头搜索整个文件，并在工具窗口中显示匹配的字符串
+large.file.editor.cant.launch.searching.because.of.unexpected.error:
+    text: 由于发生意外错误，无法启动搜索。
+large.file.editor.encoding.widget.name:
+    text: 大文件编码
+large.file.editor.find.backward.action.description:
+    text: 从当前位置一直搜索到开头，并在工具窗口中显示匹配的字符串
+large.file.editor.find.backward.action.text:
+    text: 向后搜索
+large.file.editor.find.forward.action.description:
+    text: 从当前位置一直搜索到结尾，并在工具窗口中显示匹配的字符串
+large.file.editor.find.forward.action.text:
+    text: 向前搜索
+large.file.editor.find.further.backward.action.description:
+    text: 搜索匹配项至文件开头，并将其添加到现有结果中
+large.file.editor.find.further.backward.action.text:
+    text: 查找并添加之前的匹配项
+large.file.editor.find.further.forward.action.description:
+    text: 搜索匹配项至文件末尾，并将其添加到现有结果中
+large.file.editor.find.further.forward.action.text:
+    text: 查找并添加之后的匹配项
+large.file.editor.match.case.action.mnemonic.text:
+    text: 区分大小写(&C)
+large.file.editor.message.cant.change.encoding.because.it.has.bom.byte.order.mark:
+    text: 此文件有一个 BOM(字节顺序标记)。
+large.file.editor.message.cant.change.encoding.because.search.is.working.now:
+    text: 正在搜索。
+large.file.editor.message.cant.open.file.because.file.not.found:
+    text: 找不到文件。
+large.file.editor.message.cant.open.large.file.editor.for.target.file:
+    text: 无法为目标文件打开大型文件编辑器。
+large.file.editor.message.cant.show.file.in.the.editor:
+    text: 无法在编辑器中显示文件
+large.file.editor.message.error.while.searching:
+    text: 搜索时出错。
+large.file.editor.message.error.while.working.with.file.try.to.reopen.it:
+    text: 处理文件时出错。请尝试重新打开。
+large.file.editor.message.found.some.matches:
+    text: 到目前为止找到了 {0} 个匹配项。
+large.file.editor.message.found.some.matches.in.some.bounds.of.file:
+    text: 在文件的 {1}% 至 {2}% 中找到 {0} 个匹配项。
+large.file.editor.message.found.some.matches.in.the.whole.file:
+    text: 在整个文件中找到 {0} 个匹配项。
+large.file.editor.message.search.complete:
+    text: 搜索完成。
+large.file.editor.message.search.is.completed.and.no.more.matches:
+    text: 搜索完成。不再有匹配项。
+large.file.editor.message.search.stopped.because.something.went.wrong:
+    text: 由于发生了错误，因此已停止搜索。
+large.file.editor.message.search.stopped.because.too.many.results.were.found:
+    text: 由于找到的结果太多，因此已停止搜索。
+large.file.editor.message.searching.at.some.percent.of.file:
+    text: 已搜索文件的 {0}%…
+large.file.editor.message.some.string.not.found:
+    text: 找不到“{0}”
+large.file.editor.message.stopped.by.user:
+    text: 已被用户停止。
+large.file.editor.message.working.with.file.error:
+    text: 正在处理文件错误。
+large.file.editor.notification.text.the.file.is.too.large.so.showing.in.read.only.mode:
+    text: '文件太大: {0}。只读模式。'
+large.file.editor.regex.action.mnemonic.text:
+    text: 正则表达式(&X)
+large.file.editor.some.string.not.found.perform.some.action.again.to.search.from.end:
+    text: 找不到“{0}”。再次执行“{1}”操作以从结尾搜索。
+large.file.editor.some.string.not.found.perform.some.action.again.to.search.from.start:
+    text: 找不到“{0}”。再次执行“{1}”操作以从开头搜索。
+large.file.editor.some.string.not.found.press.some.shortcut.to.search.from.the.end:
+    text: 找不到“{0}”。按 {1} 从结尾搜索。
+large.file.editor.some.string.not.found.press.some.shortcut.to.search.from.the.start:
+    text: 找不到“{0}”。按 {1} 从开头搜索。
+large.file.editor.stop.searching.action.text:
+    text: 停止搜索
+large.file.editor.tab.name.some.string.in.some.file:
+    text: “{0}”位于 {1} 中
+large.file.editor.text.find.next.matches:
+    text: 查找之后的匹配项
+large.file.editor.text.find.previous.matches:
+    text: 查找之前的匹配项
+large.file.editor.title:
+    text: 大文件编辑器
+large.file.editor.title.cant.change.encoding:
+    text: 无法更改编码
+large.file.editor.title.search.error:
+    text: 搜索错误
+large.file.editor.title.searching.for.some.string.in.some.file:
+    text: 正在文件“{1}”中搜索“{0}”
+large.file.editor.title.show.match.problem:
+    text: 显示匹配问题
+large.file.editor.title.warning:
+    text: 警告
+large.file.editor.tooltip.file.encoding.is.some:
+    text: '文件编码: {0}'
+large.file.editor.words.action.mnemonic.text:
+    text: 单词(&O)
+message.warning.about.regex.search.limitations:
+    text: 正则表达式搜索找不到长度大于 {0} Kb 的匹配项

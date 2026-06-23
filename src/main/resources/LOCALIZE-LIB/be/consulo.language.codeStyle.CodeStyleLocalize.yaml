@@ -1,0 +1,446 @@
+action.stop:
+    text: Стоп
+arrangement.action.rule.add.description:
+    text: Дадаць новае правіла размяшчэння
+arrangement.action.rule.add.text:
+    text: Дадаць правіла
+arrangement.action.rule.edit.description:
+    text: Рэдагаваць выбранае правіла размяшчэння
+arrangement.action.rule.edit.text:
+    text: Рэдагаваць правіла
+arrangement.action.rule.move.down.description:
+    text: Перамясціць выбранае правіла размяшчэння ўніз
+arrangement.action.rule.move.down.text:
+    text: Перамясціць уніз
+arrangement.action.rule.move.up.description:
+    text: Перамясціць выбранае правіла размяшчэння ўверх
+arrangement.action.rule.move.up.text:
+    text: Перамясціць уверх
+arrangement.action.rule.remove.description:
+    text: Выдаліць выбранае правіла размяшчэння
+arrangement.action.rule.remove.text:
+    text: Выдаліць правіла
+arrangement.settings.additional.force.combobox.name:
+    text: 'Прымусовае пераўпарадкаванне:'
+arrangement.settings.additional.force.rearrange.according.to.dialog:
+    text: Выкарыстоўваць бягучы рэжым (у дыялогу "Перафарматаваць код")
+arrangement.settings.additional.force.rearrange.always:
+    text: Всегда
+arrangement.settings.additional.force.rearrange.never:
+    text: Ніколі
+arrangement.settings.additional.title:
+    text: Дадатковыя налады
+arrangement.settings.groups.dependent.methods:
+    text: Трымаць залежныя метады разам
+arrangement.settings.groups.getters.and.setters.together:
+    text: Трымаць гетары і сетары разам
+arrangement.settings.groups.overridden.methods:
+    text: Держать переопределённые методы вместе
+arrangement.settings.groups.property.field:
+    text: Групаваць палі ўласцівасцей з адпаведнымі гетарамі/сетарамі
+arrangement.settings.order.type.breadth.first:
+    text: Сартаванне ўшырыню
+arrangement.settings.order.type.by.name:
+    text: Па імені
+arrangement.settings.order.type.depth.first:
+    text: Сартаванне ўглыбіню
+arrangement.settings.order.type.keep:
+    text: Захаваць парадак
+arrangement.settings.section.groups:
+    text: 'Правілы групавання:'
+arrangement.settings.section.match:
+    text: 'Правілы супастаўлення:'
+arrangement.settings.text.entry.type.xml.attribute:
+    text: Атрыбут
+arrangement.settings.text.entry.type.xml.tag:
+    text: Тег
+arrangement.settings.text.general.modifier:
+    text: 'Мадыфікатар:'
+arrangement.settings.text.general.name:
+    text: 'Імя:'
+arrangement.settings.text.general.order:
+    text: 'Порядок:'
+arrangement.settings.text.general.text:
+    text: 'Текст:'
+arrangement.settings.text.general.type:
+    text: 'Тып:'
+arrangement.text.empty.rule:
+    text: <пустое правіла>
+arrangement.title.settings.tab:
+    text: Размяшчэнне
+button.delete:
+    text: Выдаліць
+checkbox.align.multiline.fields.groups:
+    text: "Групаваць аб'яўленні"
+checkbox.block.comment.at.first.column:
+    text: Блочныя каментарыі з першай калонкі
+checkbox.indent.smart.tabs:
+    text: Разумныя табуляцыі
+checkbox.indent.use.tab.character:
+    text: Выкарыстоўваць сімвал табуляцыі
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: Кіравальныя канструкцыі ў адзін радок
+checkbox.line.comment.add.space:
+    text: Дадаваць прабел у пачатку радковага каментарыя
+checkbox.line.comment.at.first.column:
+    text: Радковыя каментарыі з першай калонкі
+checkbox.spaces.additive.operators:
+    text: Адытыўныя аператары (+, -)
+checkbox.spaces.after.colon:
+    text: "После ':'"
+checkbox.spaces.after.comma:
+    text: После запятой
+checkbox.spaces.after.question:
+    text: "После '?'"
+checkbox.spaces.after.semicolon:
+    text: "Пасля кропкі з коскай у 'for'"
+checkbox.spaces.after.type.cast:
+    text: Пасля прывядзення тыпу
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: Левая фігурная дужка ініцыялізатара масіва анатацыі
+checkbox.spaces.annotation.parameters:
+    text: Параметры анатацыі
+checkbox.spaces.annotation.parentheses:
+    text: Круглыя дужкі анатацыі
+checkbox.spaces.around.lambda.arrow:
+    text: Стрелка лямбды
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: "Двайное двукроп'е спасылкі на метад"
+checkbox.spaces.around.unary.operator:
+    text: Унарные операторы (!, -, +, ++, --)
+checkbox.spaces.array.initializer.left.brace:
+    text: Левая фігурная дужка ініцыялізатара масіва
+checkbox.spaces.assignment.operators:
+    text: Аператары прысвойвання (=, +=, …)
+checkbox.spaces.before.colon:
+    text: "Перед ':'"
+checkbox.spaces.before.comma:
+    text: Перед запятой
+checkbox.spaces.before.opening.angle.bracket:
+    text: Перад адкрывальнай вуглавой дужкай
+checkbox.spaces.before.question:
+    text: "Перед '?'"
+checkbox.spaces.before.semicolon:
+    text: "Перед точкой с запятой в 'for'"
+checkbox.spaces.bitwise.operators:
+    text: Пабітавыя аператары (&, |, ^)
+checkbox.spaces.catch.keyword:
+    text: "Ключевое слово 'catch'"
+checkbox.spaces.catch.left.brace:
+    text: "Левая фігурная дужка 'catch'"
+checkbox.spaces.catch.parentheses:
+    text: "Круглыя дужкі 'catch'"
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: Пустыя круглыя дужкі выкліку метаду
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: "Пустыя круглыя дужкі аб'яўлення метаду"
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: Круглыя дужкі выкліку метаду
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: "Круглыя дужкі аб'яўлення метаду"
+checkbox.spaces.class.left.brace:
+    text: Левая фігурная дужка класа
+checkbox.spaces.do.left.brace:
+    text: "Левая фігурная дужка 'do'"
+checkbox.spaces.else.keyword:
+    text: "Ключевое слово 'else'"
+checkbox.spaces.else.left.brace:
+    text: "Левая фігурная дужка 'else'"
+checkbox.spaces.equality.operators:
+    text: Операторы равенства (==, !=)
+checkbox.spaces.finally.keyword:
+    text: "Ключевое слово 'finally'"
+checkbox.spaces.finally.left.brace:
+    text: "Левая фігурная дужка 'finally'"
+checkbox.spaces.for.left.brace:
+    text: "Левая фігурная дужка 'for'"
+checkbox.spaces.for.parentheses:
+    text: "Круглыя дужкі 'for'"
+checkbox.spaces.if.left.brace:
+    text: "Левая фігурная дужка 'if'"
+checkbox.spaces.if.parentheses:
+    text: "Круглыя дужкі 'if'"
+checkbox.spaces.logical.operators:
+    text: Лагічныя аператары (&&, ||)
+checkbox.spaces.method.call.parentheses:
+    text: Круглыя дужкі выкліку метаду
+checkbox.spaces.method.declaration.parentheses:
+    text: "Круглыя дужкі аб'яўлення метаду"
+checkbox.spaces.method.left.brace:
+    text: Левая фігурная дужка метаду
+checkbox.spaces.multiplicative.operators:
+    text: Мультыплікатыўныя аператары (*, /, %)
+checkbox.spaces.relational.operators:
+    text: Аператары адносін (<, >, <=, >=)
+checkbox.spaces.shift.operators:
+    text: Аператары зруху (<<, >>, >>>)
+checkbox.spaces.switch.left.brace:
+    text: "Левая фігурная дужка 'switch'"
+checkbox.spaces.switch.parentheses:
+    text: "Круглыя дужкі 'switch'"
+checkbox.spaces.synchronized.left.brace:
+    text: "Левая фігурная дужка 'synchronized'"
+checkbox.spaces.synchronized.parentheses:
+    text: "Круглыя дужкі 'synchronized'"
+checkbox.spaces.try.left.brace:
+    text: "Левая фігурная дужка 'try'"
+checkbox.spaces.try.parentheses:
+    text: "Круглыя дужкі 'try'"
+checkbox.spaces.type.cast.parentheses:
+    text: Круглыя дужкі прывядзення тыпу
+checkbox.spaces.while.keyword:
+    text: "Ключевое слово 'while'"
+checkbox.spaces.while.left.brace:
+    text: "Левая фігурная дужка 'while'"
+checkbox.spaces.while.parentheses:
+    text: "Круглыя дужкі 'while'"
+checkbox.spaces.within.array.initializer.braces:
+    text: Унутры фігурных дужак ініцыялізатара масіва
+checkbox.spaces.within.braces:
+    text: Унутры фігурных дужак кода
+checkbox.spaces.within.brackets:
+    text: Унутры квадратных дужак
+checkbox.spaces.within.empty.array.initializer.braces:
+    text: Унутры пустых фігурных дужак ініцыялізатара масіва
+checkbox.spaces.within.parentheses:
+    text: Унутры круглых дужак групавання
+code.style.other.label:
+    text: 'Тэкставыя і непадтрымлівальныя файлы:'
+code.style.scheme.import.unnamed:
+    text: Без імя
+editbox.blanklines.around.field.in.interface:
+    text: 'Вакол поля ў інтэрфейсе:'
+editbox.blanklines.around.method.in.interface:
+    text: 'Вакол метаду ў інтэрфейсе:'
+editbox.blanklines.before.class.end:
+    text: 'Перед концом класса:'
+editbox.indent.continuation.indent:
+    text: 'Водступ працягу:'
+editbox.indent.indent:
+    text: 'Отступ:'
+editbox.indent.tab.size:
+    text: 'Памер табуляцыі:'
+editbox.right.margin.columns:
+    text: 'Пазіцыя пераносу радкоў:'
+group.spaces.after.right.brace:
+    text: Перад ключавымі словамі
+group.spaces.around.operators:
+    text: Вокруг операторов
+group.spaces.before.left.brace:
+    text: Перад левай фігурнай дужкай
+group.spaces.before.parentheses:
+    text: Перад дужкамі
+group.spaces.in.ternary.operator:
+    text: В тернарном операторе (?:)
+group.spaces.in.type.arguments:
+    text: У аргументах тыпу
+group.spaces.in.type.arguments.block:
+    text: Аргументы тыпу
+group.spaces.in.type.parameters.block:
+    text: Параметры тыпу
+group.spaces.other:
+    text: Прочее
+group.spaces.within:
+    text: Унутры
+import.scheme.shared:
+    text: Агульныя схемы
+indent.status.bar.indent.tooltip:
+    text: 'Отступ:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0} пробел|2#{0} пробела|5#{0} пробелов}'
+indent.status.bar.tab:
+    text: Табуляцыя
+label.loading.page.please.wait:
+    text: Загрузка…
+message.code.style.scheme.import.failure:
+    text: '{0} не ўдалося імпартаваць, памылка: {1}'
+message.code.style.scheme.import.success:
+    text: Налады {0} будуць імпартаваны ў схему {1}. {2}
+settings.code.style.default.general:
+    text: Па змаўчанні
+settings.default.value.prefix:
+    text: 'Па змаўчанні: {0}'
+settings.soft.margins.empty.list:
+    text: Нет
+title.blank.lines:
+    text: Пустыя радкі
+title.import.scheme.chooser:
+    text: Імпарт схемы
+title.keep.blank.lines:
+    text: Максімум пустых радкоў
+title.minimum.blank.lines:
+    text: Мінімум пустых радкоў
+title.naming.comment.code:
+    text: Каментаванне кода
+title.settings:
+    text: Налады
+wrapping.after.modifier.list:
+    text: Пераносіць пасля спіса мадыфікатараў
+wrapping.align.fields.in.columns:
+    text: Выраўноўваць палі ў слупках
+wrapping.align.in.columns:
+    text: Выраўноўваць па калонках
+wrapping.align.parenthesised.when.multiline:
+    text: Выраўноўваць дужкі пры пераносе
+wrapping.align.simple.methods.in.columns:
+    text: Выраўноўваць простыя метады ў слупках
+wrapping.align.throws.keyword:
+    text: "Выраўноўваць 'throws' па пачатку метаду"
+wrapping.align.variables.in.columns:
+    text: Выраўноўваць пераменныя ў слупках
+wrapping.align.when.multiline:
+    text: Выраўноўваць пры пераносе
+wrapping.array.initializer:
+    text: Спісы ініцыялізацыі
+wrapping.assert.statement:
+    text: Оператор assert
+wrapping.assignment.sign.on.next.line:
+    text: Знак прысвойвання на наступным радку
+wrapping.assignment.statement:
+    text: Аператар прысвойвання
+wrapping.binary.operations:
+    text: Бінарныя выразы
+wrapping.brace.placement:
+    text: Размяшчэнне фігурных дужак
+wrapping.brace.placement.class.declaration:
+    text: У класах і структурах
+wrapping.brace.placement.end.of.line:
+    text: У канцы радка
+wrapping.brace.placement.lambda:
+    text: "У аб'яўленні lambda"
+wrapping.brace.placement.method.declaration:
+    text: "У аб'яўленні метаду"
+wrapping.brace.placement.next.line:
+    text: На наступным радку
+wrapping.brace.placement.next.line.each.shifted:
+    text: На наступным радку са зрухам
+wrapping.brace.placement.next.line.if.wrapped:
+    text: На наступным радку (калі перанос)
+wrapping.brace.placement.next.line.shifted:
+    text: На наступным радку (зрух)
+wrapping.brace.placement.other:
+    text: Прочее
+wrapping.case.statements.on.one.line:
+    text: "Каждый 'case' на отдельной строке"
+wrapping.catch.on.new.line:
+    text: "'catch' на новой строке"
+wrapping.chained.method.call.first.on.new.line:
+    text: Пераносіць першы выклік
+wrapping.chained.method.calls:
+    text: Ланцугі выклікаў метадаў
+wrapping.chop.down.if.long:
+    text: Разбіваць, калі доўгі радок
+wrapping.classes.annotation:
+    text: Анатацыі класаў
+wrapping.colon.signs.on.next.line:
+    text: "Знакі ':' на наступным радку"
+wrapping.comments:
+    text: Каментарыі
+wrapping.comments.wrap.at.right.margin:
+    text: Пераносіць па правым краі
+wrapping.do.not.wrap:
+    text: Не пераносіць
+wrapping.dowhile.statement:
+    text: "Оператор 'do ... while()'"
+wrapping.else.on.new.line:
+    text: "'else' з новага радка"
+wrapping.enum.constants:
+    text: Константы enum
+wrapping.extends.implements.keyword:
+    text: Ключевые слова extends/implements/permits
+wrapping.extends.implements.list:
+    text: Спіс extends/implements/permits
+wrapping.fields.annotation:
+    text: Анатацыі палёў
+wrapping.finally.on.new.line:
+    text: "'finally' з новага радка"
+wrapping.for.statement:
+    text: "Оператор 'for()'"
+wrapping.force.braces:
+    text: Прымусовыя фігурныя дужкі
+wrapping.force.braces.always:
+    text: Всегда
+wrapping.force.braces.do.not.force:
+    text: Не прымусова
+wrapping.force.braces.when.multiline:
+    text: Пры пераносе
+wrapping.if.statement:
+    text: "Оператор 'if()'"
+wrapping.indent.break.from.case:
+    text: "Отступ 'break' от 'case'"
+wrapping.indent.case.from.switch:
+    text: "Отступ веток 'case'"
+wrapping.keep.comment.at.first.column:
+    text: Каментарыі ў першай калонцы
+wrapping.keep.line.breaks:
+    text: Переносы строк
+wrapping.keep.multiple.expressions.in.one.line:
+    text: Некалькі выразаў на адным радку
+wrapping.keep.simple.blocks.in.one.line:
+    text: Простые лямбды в одной строке
+wrapping.keep.simple.classes.in.one.line:
+    text: Простые классы на одной строке
+wrapping.keep.simple.lambdas.in.one.line:
+    text: Простые lambda на одной строке
+wrapping.keep.simple.methods.in.one.line:
+    text: Простыя функцыі ў адным радку
+wrapping.keep.when.reformatting:
+    text: Захоўваць пры перафарматаванні
+wrapping.local.variables.annotation:
+    text: Анатацыі лакальных пераменных
+wrapping.long.lines:
+    text: Не превышать правый край
+wrapping.method.arguments:
+    text: Аргументы вызова метода
+wrapping.method.parameters:
+    text: "Параметры аб'яўлення метаду"
+wrapping.method.parentheses:
+    text: Круглыя дужкі метаду
+wrapping.methods.annotation:
+    text: Анатацыі метадаў
+wrapping.modifier.list:
+    text: Спіс мадыфікатараў
+wrapping.new.line.after.lbrace:
+    text: "Новая строка после '{'"
+wrapping.new.line.after.lpar:
+    text: "Новая строка после '('"
+wrapping.operation.sign.on.next.line:
+    text: Знак аперацыі на наступным радку
+wrapping.parameters.annotation:
+    text: Анатацыі параметраў
+wrapping.quest.and.colon.signs.on.next.line:
+    text: "Знакі '?' і ':' на наступным радку"
+wrapping.rbrace.on.new.line:
+    text: "'}' на новой строке"
+wrapping.rpar.on.new.line:
+    text: "')' на новой строке"
+wrapping.special.else.if.braces.treatment:
+    text: "Особая обработка 'else if'"
+wrapping.switch.statement:
+    text: "Оператор 'switch'"
+wrapping.take.priority.over.call.chain.wrapping:
+    text: Прыярытэт над пераносам ланцуга выклікаў
+wrapping.ternary.operation:
+    text: Тэрнарная аперацыя
+wrapping.throws.keyword:
+    text: Ключевое слово throws
+wrapping.throws.list:
+    text: Спіс throws
+wrapping.try.statement:
+    text: "Оператор 'try'"
+wrapping.while.on.new.line:
+    text: "'while' з новага радка"
+wrapping.while.statement:
+    text: "Оператор 'while()'"
+wrapping.wrap.always:
+    text: Заўсёды пераносіць
+wrapping.wrap.if.long:
+    text: Пераносіць доўгія радкі
+wrapping.wrap.on.typing:
+    text: Перанос пры ўводзе
+wrapping.wrap.on.typing.default:
+    text: Па змаўчанні
+wrapping.wrap.on.typing.no.wrap:
+    text: Нет
+wrapping.wrap.on.typing.wrap:
+    text: Да

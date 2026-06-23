@@ -1,0 +1,32 @@
+action.NewElement.ProjectView.text:
+    text: Nuevo archivo o directorio…
+action.ProjectView.FileNesting.description:
+    text: Configurar el anidamiento de archivos
+action.ProjectView.FileNesting.text:
+    text: Anidamiento de archivos…
+child.file.suffix.column.name:
+    text: Sufijo de archivo hijo
+dialog.message.child.file.suffix.must.be.empty.see.row:
+    text: El sufijo del archivo secundario no debe estar vacío (ver fila {0})
+dialog.message.parent.child.file.suffixes.must.be.equal.see.row:
+    text: "Los sufijos de archivo padre e hijo no deben ser iguales (''{0}'', ver fila {1})"
+dialog.message.parent.file.suffix.must.be.empty.see.row:
+    text: El sufijo del archivo primario no puede estar vacío (consulte la fila {0})
+file.nesting.dialog.title:
+    text: Anidamiento de archivos
+file.nesting.feature.enabled.checkbox:
+    text: Mo&strar archivos con el mismo nombre como anidados
+file.nesting.reset.to.default.button:
+    text: '&Restablecer valores predeterminados'
+file.nesting.table.title:
+    text: 'Reglas de anidamiento:'
+parent.file.suffix.column.name:
+    text: Sufijo del archivo padre
+select.in.favorites:
+    text: Favoritos
+select.in.packages:
+    text: Paquetes
+select.in.project:
+    text: Proyecto
+select.in.scope:
+    text: Ámbito

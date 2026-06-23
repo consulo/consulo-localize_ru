@@ -1,0 +1,506 @@
+action.stop:
+    text: 停止
+arrangement.action.rule.add.description:
+    text: 添加新的排列规则
+arrangement.action.rule.add.text:
+    text: 添加规则
+arrangement.action.rule.edit.description:
+    text: 编辑所选排列规则
+arrangement.action.rule.edit.text:
+    text: 编辑规则
+arrangement.action.rule.move.down.description:
+    text: 向下移动所选排列规则
+arrangement.action.rule.move.down.text:
+    text: 向下移动
+arrangement.action.rule.move.up.description:
+    text: 向上移动所选排列规则
+arrangement.action.rule.move.up.text:
+    text: 向上移动
+arrangement.action.rule.remove.description:
+    text: 移除所选排列规则
+arrangement.action.rule.remove.text:
+    text: 移除规则
+arrangement.order.name:
+    text: 顺序
+arrangement.settings.additional.force.combobox.name:
+    text: '强制重新排列:'
+arrangement.settings.additional.force.rearrange.according.to.dialog:
+    text: 使用当前模式(在“重新设置代码格式”对话框中)
+arrangement.settings.additional.force.rearrange.always:
+    text: 始终
+arrangement.settings.additional.force.rearrange.never:
+    text: 从不
+arrangement.settings.additional.title:
+    text: 附加设置
+arrangement.settings.groups.dependent.methods:
+    text: 保持依赖方法在一起
+arrangement.settings.groups.getters.and.setters.together:
+    text: 保持 getter 和 setter 在一起
+arrangement.settings.groups.overridden.methods:
+    text: 保持重写方法在一起
+arrangement.settings.groups.property.field:
+    text: 将属性字段按相应 getter/setter 分组
+arrangement.settings.order.type.breadth.first:
+    text: 宽度排序优先
+arrangement.settings.order.type.by.name:
+    text: 按名称排序
+arrangement.settings.order.type.depth.first:
+    text: 深度排序优先
+arrangement.settings.order.type.keep:
+    text: 保持排序
+arrangement.settings.section.groups:
+    text: '分组规则:'
+arrangement.settings.section.match:
+    text: '匹配规则:'
+arrangement.settings.text.entry.type.xml.attribute:
+    text: 特性
+arrangement.settings.text.entry.type.xml.tag:
+    text: 标记
+arrangement.settings.text.general.modifier:
+    text: '修饰符:'
+arrangement.settings.text.general.name:
+    text: '名称:'
+arrangement.settings.text.general.order:
+    text: '顺序:'
+arrangement.settings.text.general.text:
+    text: '文本:'
+arrangement.settings.text.general.type:
+    text: '类型:'
+arrangement.settings.text.general.xml.namespace:
+    text: '命名空间:'
+arrangement.text.empty.rule:
+    text: <空规则>
+arrangement.text.modifier:
+    text: 修饰符
+arrangement.text.name:
+    text: 名字
+arrangement.text.type:
+    text: 类型
+arrangement.title.settings.tab:
+    text: 排列
+button.delete:
+    text: 删除
+button.save.as:
+    text: 另存为...
+checkbox.align.multiline.array.initializer:
+    text: 数组初始化
+checkbox.align.multiline.assignments:
+    text: 赋值
+checkbox.align.multiline.binary.operation:
+    text: 二元运算
+checkbox.align.multiline.call.arguments:
+    text: 调用参数
+checkbox.align.multiline.chained.methods:
+    text: 链式方法
+checkbox.align.multiline.extends.list:
+    text: 扩展列表
+checkbox.align.multiline.fields.groups:
+    text: 组声明
+checkbox.align.multiline.for.statement:
+    text: For 语句
+checkbox.align.multiline.method.parameters:
+    text: 方法参数
+checkbox.align.multiline.parenthesized.expression:
+    text: 带括号表达式
+checkbox.align.multiline.ternary.operation:
+    text: 三元操作
+checkbox.align.multiline.throws.list:
+    text: 异常列表
+checkbox.block.comment.at.first.column:
+    text: 注释块在第一列
+checkbox.indent.smart.tabs:
+    text: 智能制表符
+checkbox.indent.use.tab.character:
+    text: 使用制表符
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: 控制语句在同一行
+checkbox.line.comment.add.space:
+    text: 在行注释开始处添加空格
+checkbox.line.comment.at.first.column:
+    text: 行注释在第一列
+checkbox.spaces.additive.operators:
+    text: 加法运算符(+、-)
+checkbox.spaces.after.colon:
+    text: "在 ':' 后"
+checkbox.spaces.after.colon.in.label.declaration:
+    text: " ':' 在标签声明之后"
+checkbox.spaces.after.comma:
+    text: 在逗号后
+checkbox.spaces.after.question:
+    text: "在 '?' 后"
+checkbox.spaces.after.semicolon:
+    text: "'for' 分号之后"
+checkbox.spaces.after.type.cast:
+    text: 在类型转换后
+checkbox.spaces.annotation.array.initializer.left.brace:
+    text: 注解数组初始值设定项左大括号
+checkbox.spaces.annotation.parameters:
+    text: 注解形参
+checkbox.spaces.annotation.parentheses:
+    text: 注解圆括号
+checkbox.spaces.around.lambda.arrow:
+    text: Lambda 箭头
+checkbox.spaces.around.method.ref.dbl.colon.arrow:
+    text: 方法引用双冒号
+checkbox.spaces.around.unary.operator:
+    text: 一元运算符(!、-、+、++、--)
+checkbox.spaces.array.initializer.left.brace:
+    text: 数组初始值设定项左大括号
+checkbox.spaces.assignment.operators:
+    text: 赋值运算符(=、+=、…)
+checkbox.spaces.before.colon:
+    text: "在 ':' 前"
+checkbox.spaces.before.comma:
+    text: 在逗号前
+checkbox.spaces.before.opening.angle.bracket:
+    text: 在左尖括号前
+checkbox.spaces.before.question:
+    text: "在 '?' 前"
+checkbox.spaces.before.semicolon:
+    text: "'for' 分号之前"
+checkbox.spaces.bitwise.operators:
+    text: 按位运算符(\&、|、^)
+checkbox.spaces.catch.keyword:
+    text: "'catch' 关键字"
+checkbox.spaces.catch.left.brace:
+    text: "'catch' 左大括号"
+checkbox.spaces.catch.parentheses:
+    text: "'catch' 圆括号"
+checkbox.spaces.checkbox.spaces.empty.method.call.parentheses:
+    text: 空方法调用圆括号
+checkbox.spaces.checkbox.spaces.empty.method.declaration.parentheses:
+    text: 空方法声明圆括号
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: 方法调用圆括号
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: 方法声明圆括号
+checkbox.spaces.class.left.brace:
+    text: 类左大括号
+checkbox.spaces.do.left.brace:
+    text: "'do' 左大括号"
+checkbox.spaces.else.keyword:
+    text: "'else' 关键字"
+checkbox.spaces.else.left.brace:
+    text: "'else' 左大括号"
+checkbox.spaces.equality.operators:
+    text: 相等运算符(==、!=)
+checkbox.spaces.finally.keyword:
+    text: "'finally' 关键字"
+checkbox.spaces.finally.left.brace:
+    text: "'finally' 左大括号"
+checkbox.spaces.for.left.brace:
+    text: "'for' 左大括号"
+checkbox.spaces.for.parentheses:
+    text: "'for' 圆括号"
+checkbox.spaces.if.left.brace:
+    text: "'if' 左大括号"
+checkbox.spaces.if.parentheses:
+    text: "'if' 圆括号"
+checkbox.spaces.logical.operators:
+    text: 逻辑运算符(\&\&、||)
+checkbox.spaces.method.call.parentheses:
+    text: 方法调用圆括号
+checkbox.spaces.method.declaration.parentheses:
+    text: 方法声明圆括号
+checkbox.spaces.method.left.brace:
+    text: 方法左大括号
+checkbox.spaces.multiplicative.operators:
+    text: 乘法运算符(*、/、%)
+checkbox.spaces.relational.operators:
+    text: 关系运算符(<、>、<=、>=)
+checkbox.spaces.shift.operators:
+    text: 移位运算符(<<、>>、>>>)
+checkbox.spaces.switch.left.brace:
+    text: "'switch' 左大括号"
+checkbox.spaces.switch.parentheses:
+    text: "'switch' 圆括号"
+checkbox.spaces.synchronized.left.brace:
+    text: "'synchronized' 左大括号"
+checkbox.spaces.synchronized.parentheses:
+    text: "'synchronized' 括号"
+checkbox.spaces.try.left.brace:
+    text: "'try' 左大括号"
+checkbox.spaces.try.parentheses:
+    text: "'try' 圆括号"
+checkbox.spaces.type.cast.parentheses:
+    text: 类型转换圆括号
+checkbox.spaces.while.keyword:
+    text: "'while' 关键字"
+checkbox.spaces.while.left.brace:
+    text: "'while' 左大括号"
+checkbox.spaces.while.parentheses:
+    text: "'while' 圆括号"
+checkbox.spaces.within.array.initializer.braces:
+    text: 数组初始值设定项大括号
+checkbox.spaces.within.braces:
+    text: 代码大括号
+checkbox.spaces.within.brackets:
+    text: 中括号
+checkbox.spaces.within.empty.array.initializer.braces:
+    text: 空数组初始值设定项大括号
+checkbox.spaces.within.parentheses:
+    text: 分组圆括号
+code.style.other.label:
+    text: '文本文件和不支持的文件类型:'
+code.style.scheme.import.unnamed:
+    text: 未命名
+editbox.blanklines.around.field.in.interface:
+    text: '接口中的字段周围:'
+editbox.blanklines.around.method.in.interface:
+    text: '接口中的方法周围:'
+editbox.blanklines.before.class.end:
+    text: '在类结尾前:'
+editbox.indent.continuation.indent:
+    text: '连续缩进:'
+editbox.indent.indent:
+    text: '缩进:'
+editbox.indent.tab.size:
+    text: '制表符大小:'
+editbox.right.margin.columns:
+    text: '强制换行位置:'
+editbox.scheme.name:
+    text: '方案:'
+group.spaces.after.right.brace:
+    text: 关键字之前
+group.spaces.around.operators:
+    text: 运算符周围
+group.spaces.before.left.brace:
+    text: 左大括号之前
+group.spaces.before.parentheses:
+    text: 括号之前
+group.spaces.in.ternary.operator:
+    text: 在三元运算符(?:)中
+group.spaces.in.type.arguments:
+    text: 在类型实参中
+group.spaces.in.type.arguments.block:
+    text: 类型实参
+group.spaces.in.type.parameters.block:
+    text: 类型形参
+group.spaces.other:
+    text: 其他
+group.spaces.within:
+    text: 内部
+html.project.uses.own.code.style:
+    text: <html><body>当前项目配置为使用自己的代码风格，<br>对全局代码样式设置所做的更改不会影响当前项目中的格式设置。<br>请参见项目设置 | 代码风格。<br>按  \&quot; 编辑全局设置 \&quot;下面的按钮，如果你仍然想要编辑全局设置。</body></html>
+import.scheme.shared:
+    text: 共享方案
+indent.status.bar.indent.tooltip:
+    text: '缩进:'
+indent.status.bar.spaces:
+    text: '{0, choice, 1#{0} 个空格|2#{0} 个空格}'
+indent.status.bar.tab:
+    text: 制表符
+label.loading.page.please.wait:
+    text: 正在加载…
+message.code.style.scheme.already.exists:
+    text: 方案 {0} 已存在。覆盖设置吗？
+message.code.style.scheme.import.failure:
+    text: '{0} 导入失败，错误信息: {1}'
+message.code.style.scheme.import.success:
+    text: '{0} 设置将要导入到方案 {1} 中。{2}'
+settings.code.style.default.general:
+    text: 默认
+settings.default.value.prefix:
+    text: '默认: {0}'
+settings.soft.margins.empty.list:
+    text: 无
+title.blank.lines:
+    text: 空行
+title.braces.placement:
+    text: 括号布置
+title.code.style.settings.import:
+    text: 设置导入
+title.edit.global.settings:
+    text: 编辑全局设置(&G)
+title.global.code.style:
+    text: 全局代码样式
+title.import.scheme.chooser:
+    text: 导入方案
+title.import.scheme.from:
+    text: 导入源
+title.keep.blank.lines:
+    text: 保持最大的空白行
+title.minimum.blank.lines:
+    text: 最小的空白行
+title.naming.comment.code:
+    text: 注释代码
+title.place.on.new.line:
+    text: 在新行上放置
+title.save.code.style.scheme.as:
+    text: 复制代码样式方案为
+title.settings:
+    text: 设置
+wrapping.after.modifier.list:
+    text: 在修饰符列表后换行
+wrapping.align.fields.in.columns:
+    text: 对齐列中的字段
+wrapping.align.in.columns:
+    text: 在列中对齐
+wrapping.align.parenthesised.when.multiline:
+    text: 多行时对齐圆括号
+wrapping.align.simple.methods.in.columns:
+    text: 在列中对齐简单的方法
+wrapping.align.throws.keyword:
+    text: "将 'throws' 对齐到方法开始"
+wrapping.align.variables.in.columns:
+    text: 对齐列中的变量
+wrapping.align.when.multiline:
+    text: 多行时对齐
+wrapping.and.braces:
+    text: 自动换行和括号
+wrapping.array.initializer:
+    text: 初始值设定项列表
+wrapping.assert.statement:
+    text: 断言语句
+wrapping.assignment.sign.on.next.line:
+    text: 赋值符号置于下一行
+wrapping.assignment.statement:
+    text: 赋值语句
+wrapping.assignment.variables.groups:
+    text: 字段/变量组
+wrapping.binary.operations:
+    text: 二元表达式
+wrapping.brace.placement:
+    text: 大括号位置
+wrapping.brace.placement.class.declaration:
+    text: 在类和结构中
+wrapping.brace.placement.end.of.line:
+    text: 行尾
+wrapping.brace.placement.lambda:
+    text: 在 lambda 声明中
+wrapping.brace.placement.method.declaration:
+    text: 在方法声明中
+wrapping.brace.placement.next.line:
+    text: 下一行
+wrapping.brace.placement.next.line.each.shifted:
+    text: 下一行，每次移位
+wrapping.brace.placement.next.line.if.wrapped:
+    text: 下一行(如果换行)
+wrapping.brace.placement.next.line.shifted:
+    text: 下一行(移位)
+wrapping.brace.placement.other:
+    text: 其他
+wrapping.case.statements.on.one.line:
+    text: "各 'case' 在单独的行中"
+wrapping.catch.on.new.line:
+    text: "'catch' 在新行"
+wrapping.chained.method.call.first.on.new.line:
+    text: 换行第一个调用
+wrapping.chained.method.calls:
+    text: 链式方法调用
+wrapping.chop.down.if.long:
+    text: 如果过长则截断
+wrapping.classes.annotation:
+    text: 类注解
+wrapping.colon.signs.on.next.line:
+    text: "':' 符号置于下一行"
+wrapping.comments:
+    text: 注释
+wrapping.comments.wrap.at.right.margin:
+    text: 在右边距处换行
+wrapping.do.not.wrap:
+    text: 不换行
+wrapping.dowhile.statement:
+    text: "'do ... while()' 语句"
+wrapping.else.on.new.line:
+    text: "'else' 在新行"
+wrapping.enum.constants:
+    text: 枚举常量
+wrapping.extends.implements.keyword:
+    text: extends/implements/permits 关键字
+wrapping.extends.implements.list:
+    text: extends/implements/permits 列表
+wrapping.fields.annotation:
+    text: 字段注解
+wrapping.finally.on.new.line:
+    text: "'finally' 在新行"
+wrapping.for.statement:
+    text: "'for()' 语句"
+wrapping.force.braces:
+    text: 强制加大括号
+wrapping.force.braces.always:
+    text: 始终
+wrapping.force.braces.do.not.force:
+    text: 不强制
+wrapping.force.braces.when.multiline:
+    text: 当多行时
+wrapping.if.statement:
+    text: "'if()' 语句"
+wrapping.indent.break.from.case:
+    text: "从 'case' 缩进 'break'"
+wrapping.indent.case.from.switch:
+    text: "缩进 'case' 分支"
+wrapping.keep.comment.at.first.column:
+    text: 注释在第一列
+wrapping.keep.line.breaks:
+    text: 换行符
+wrapping.keep.multiple.expressions.in.one.line:
+    text: 多个表达式在同一行
+wrapping.keep.simple.blocks.in.one.line:
+    text: 简单的 lambda 在同一行
+wrapping.keep.simple.classes.in.one.line:
+    text: 简单的类在同一行
+wrapping.keep.simple.lambdas.in.one.line:
+    text: 简单的 lambda 在同一行
+wrapping.keep.simple.methods.in.one.line:
+    text: 简单函数在同一行
+wrapping.keep.when.reformatting:
+    text: 重新设置格式时保持
+wrapping.local.variables.annotation:
+    text: 局部变量注解
+wrapping.long.lines:
+    text: 确保不超过右边距
+wrapping.method.arguments:
+    text: 方法调用实参
+wrapping.method.parameters:
+    text: 方法声明形参
+wrapping.method.parentheses:
+    text: 方法圆括号
+wrapping.methods.annotation:
+    text: 方法注解
+wrapping.modifier.list:
+    text: 修饰符列表
+wrapping.new.line.after.lbrace:
+    text: "在 '{' 后换行"
+wrapping.new.line.after.lpar:
+    text: "在 '(' 后换行"
+wrapping.operation.sign.on.next.line:
+    text: 运算符号置于下一行
+wrapping.parameters.annotation:
+    text: 形参注解
+wrapping.quest.and.colon.signs.on.next.line:
+    text: "'?' 和 ':' 符号置于下一行"
+wrapping.rbrace.on.new.line:
+    text: "将 '}' 置于新行中"
+wrapping.rpar.on.new.line:
+    text: "将 ')' 置于新行中"
+wrapping.special.else.if.braces.treatment:
+    text: "特殊的 'else if' 对待"
+wrapping.switch.statement:
+    text: "'switch' 语句"
+wrapping.take.priority.over.call.chain.wrapping:
+    text: 优先于调用链换行
+wrapping.ternary.operation:
+    text: 三元运算
+wrapping.throws.keyword:
+    text: throws 关键字
+wrapping.throws.list:
+    text: Throws 列表
+wrapping.try.statement:
+    text: "'try' 语句"
+wrapping.while.on.new.line:
+    text: "'while' 在新行"
+wrapping.while.statement:
+    text: "'while()' 语句"
+wrapping.wrap.always:
+    text: 始终换行
+wrapping.wrap.if.long:
+    text: 过长则换行
+wrapping.wrap.on.typing:
+    text: 键入时换行
+wrapping.wrap.on.typing.default:
+    text: 默认
+wrapping.wrap.on.typing.no.wrap:
+    text: 否
+wrapping.wrap.on.typing.wrap:
+    text: 是

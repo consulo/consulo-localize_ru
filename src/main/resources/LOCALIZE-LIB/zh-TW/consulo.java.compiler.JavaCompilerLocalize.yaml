@@ -1,0 +1,14 @@
+add.notnull.assertions:
+    text: 為非空註解方法和參數新增執行時斷言(&a)
+eclipse.options.group.title:
+    text: Eclipse 選項
+generate.ant.build.progress.message:
+    text: 產生 Ant 構建...
+generate.ant.build.title:
+    text: 產生 Ant 構建
+javac.error.jdk.home.missing:
+    text: "找不到 JDK ''{0}'' 的主目錄 ''{1}''。\n更新 JDK 設定。"
+javac.error.unknown.jdk.version:
+    text: |-
+        無法確定 JDK {0} 的版本。
+        更新 JDK 設定。

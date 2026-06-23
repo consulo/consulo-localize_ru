@@ -1,0 +1,18 @@
+application.configuration.description:
+    text: Configuración de la aplicación Java
+application.configuration.include.provided.scope:
+    text: Añadir dependencias con alcance "provided" al classpath
+application.configuration.main.class.label:
+    text: '&Clase principal:'
+application.configuration.name:
+    text: Aplicación
+application.configuration.shorten.command.line.label:
+    text: 'Acortar &línea de comandos:'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 'Usar el classpath del m&ódulo:'
+jar.application.configuration.description:
+    text: "Configuración para ejecutar un archivo JAR mediante el comando 'java-jar'"
+jar.application.configuration.name:
+    text: Aplicación JAR
+jre.path.is.not.valid.jre.home.error.message:
+    text: "''{0}'' no es un JRE home válido"

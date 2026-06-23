@@ -1,0 +1,138 @@
+AddCloudConnectionAction.description:
+    text: Añadir conexión {0}
+CloudModuleWizardStep.title.account:
+    text: Cuenta
+CloudModuleWizardStep.title.application:
+    text: Aplicación
+ConnectionStatus.connected:
+    text: Conectado
+ConnectionStatus.connecting:
+    text: Conectando
+ConnectionStatus.disconnected:
+    text: Desconectado
+DeployToServerRunConfiguration.error.deployment.not.selected:
+    text: No se ha seleccionado el despliegue
+DeployToServerRunConfiguration.error.server.not.found:
+    text: No se encontró el servidor {0}
+DeployToServerRunConfiguration.error.server.required:
+    text: No se ha especificado el servidor
+DeployToServerRunConfiguration.tab.title.deployment:
+    text: Despliegue
+DeploymentStatus.deployed:
+    text: Desplegado
+DeploymentStatus.deploying:
+    text: Desplegando
+DeploymentStatus.not.deployed:
+    text: No desplegado
+DeploymentStatus.undeploying:
+    text: Deshaciendo el despliegue
+ServerConnectionImpl.error.cannot.obtain.deployments:
+    text: 'No se pueden obtener los despliegues: {0}'
+ServersTreeStructure.RemoteServerNode.popup.title.deploy.configuration:
+    text: Desplegar configuración
+ServersTreeStructure.RemoteServerNode.popup.title.deploy.debug.configuration:
+    text: Desplegar y depurar configuración
+action.RemoteServers.ChooseServerDeployment.description:
+    text: Desplegar un elemento elegido en el servidor remoto seleccionado
+action.RemoteServers.ChooseServerDeployment.text:
+    text: Desplegar
+action.RemoteServers.ChooseServerDeploymentWithDebug.description:
+    text: Desplegar y depurar un elemento elegido en el servidor remoto seleccionado
+action.RemoteServers.ChooseServerDeploymentWithDebug.text:
+    text: Depurar
+action.RemoteServers.ConnectServer.description:
+    text: Conectarse al servidor remoto seleccionado
+action.RemoteServers.ConnectServer.text:
+    text: Conectar
+action.RemoteServers.DisconnectServer.description:
+    text: Desconectarse del servidor remoto seleccionado
+action.RemoteServers.DisconnectServer.text:
+    text: Desconectar
+action.RemoteServers.EditDeploymentConfig.description:
+    text: Editar la configuración de ejecución de despliegue seleccionada
+action.RemoteServers.EditDeploymentConfig.text:
+    text: Editar configuración
+action.RemoteServers.EditServerConfig.description:
+    text: Editar la configuración del servidor remoto seleccionado
+action.RemoteServers.EditServerConfig.text:
+    text: Editar configuración
+action.Servers.Deploy.description:
+    text: Desplegar el elemento seleccionado
+action.Servers.Deploy.text:
+    text: Desplegar
+action.Servers.DeployWithDebug.description:
+    text: Desplegar y depurar el elemento seleccionado
+action.Servers.DeployWithDebug.text:
+    text: Depurar
+action.Servers.Undeploy.description:
+    text: Anular el despliegue del elemento seleccionado
+action.Servers.Undeploy.text:
+    text: Anular despliegue
+action.presentation.DeployAction.description:
+    text: Vuelve a desplegar el elemento seleccionado
+action.presentation.DeployAction.text:
+    text: Redesplegar
+button.cloud.new:
+    text: Nuevo…
+cloud.status.cannot.connect:
+    text: 'No se puede conectar: {0}'
+cloud.status.connecting:
+    text: Conectando…
+cloud.status.connection.successful:
+    text: Conexión exitosa
+cloud.status.double.click.to.connect:
+    text: Haga doble clic en el nodo del servidor para conectar
+clouds.configure.empty.selection.string:
+    text: "Para configurar la integración con {0}, haga clic en ''+''"
+configurable.display.name.clouds:
+    text: Nubes
+create.new.deployment.configuration.for.singleton.type:
+    text: Crear despliegue de {0}…
+create.new.deployment.configuration.generic:
+    text: Crear…
+deploy.to.server.configuration.type.description:
+    text: Desplegar en la configuración de ejecución {0}
+dialog.message.account.required:
+    text: Cuenta requerida
+dialog.message.email.required:
+    text: Correo electrónico requerido
+dialog.message.password.required:
+    text: Se requiere contraseña
+dialog.title.create.deployment.configuration:
+    text: Crear configuración de despliegue
+dialog.title.edit.deployment.configuration:
+    text: Editar configuración de despliegue
+group.RemoteServers.AddCloudConnectionGroup.text:
+    text: Conexión a la nube
+group.RemoteServersViewToolbar.text:
+    text: Servidores remotos
+group.action.AddRemoteServerGroup.text:
+    text: Añadir
+label.text.deployment:
+    text: 'Despliegue:'
+label.text.server:
+    text: 'Servidor:'
+module.builder.description.java.module.of.paas.cloud.application:
+    text: Módulo Java de aplicación en la nube PAAS
+new.cloud.connection.configurable.title:
+    text: Nueva conexión de {0}
+popup.title.new.account:
+    text: Nueva cuenta
+presentable.name.clouds:
+    text: Nubes
+remote.server.combo.auto.detected.server:
+    text: '<{0}: Servidor detectado automáticamente>'
+remote.server.combo.create.new.server:
+    text: Crear nuevo…
+remote.server.combo.message.test.connection.failed:
+    text: No se pudieron detectar los ajustes automáticamente, se requiere configuración manual
+remote.server.combo.message.test.connection.in.progress:
+    text: Validando la conexión detectada automáticamente…
+remote.server.combo.no.servers:
+    text: <Sin servidores>
+run.configuration.name:
+    text: Quarkus
+server.type.deployment.configuration.typ.presentable.name.0.deployment:
+    text: Despliegue de {0}
+task.title.connecting:
+    text: Conectando…

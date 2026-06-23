@@ -1,0 +1,976 @@
+access.package.local:
+    text: "''{0}'' no es público en ''{1}''. No se puede acceder desde fuera del paquete"
+access.private:
+    text: "''{0}'' tiene acceso privado en ''{1}''"
+access.protected:
+    text: "''{0}'' tiene acceso protegido en ''{1}''"
+annotation.attribute.duplicate:
+    text: "Atributo duplicado ''{0}''"
+annotation.attribute.illegal.array.initializer:
+    text: "Inicializador no válido para ''{0}''"
+annotation.attribute.incompatible.type:
+    text: "Tipos incompatibles. Encontrado: ''{1}'', requerido: ''{0}''"
+annotation.attribute.name.missing:
+    text: "Se esperaba un atributo de anotación de la forma 'name=value'"
+annotation.attribute.non.class.literal:
+    text: El valor del atributo debe ser un literal de clase
+annotation.attribute.non.constant:
+    text: El valor del atributo debe ser constante
+annotation.attribute.non.enum.constant:
+    text: El valor del atributo debe ser una constante de enumeración
+annotation.attribute.unknown.method:
+    text: "No se puede encontrar el método @interface ''{0}()''"
+annotation.cannot.be.local:
+    text: No se permiten anotaciones locales
+annotation.container.abstract:
+    text: "La anotación de contenedor ''{0}'' no tiene un valor predeterminado para ''{1}''"
+annotation.container.bad.type:
+    text: "Anotación de contenedor ''{0}'' no válida: el método ''value'' debe tener el tipo ''{1}''"
+annotation.container.low.retention:
+    text: "La anotación de contenedor ''{0}'' tiene una retención (''{1}'') menor que la de la anotación contenida"
+annotation.container.missed.annotation:
+    text: "La anotación de contenedor ''{0}'' no tiene la anotación @{1} requerida"
+annotation.container.no.value:
+    text: "Anotación de contenedor ''{0}'' no válida: no se ha declarado el método ''value''"
+annotation.container.not.applicable:
+    text: "La anotación de contenedor ''@{0}'' no es aplicable a {1}"
+annotation.container.wide.target:
+    text: "El destino de la anotación de contenedor ''{0}'' no es un subconjunto del destino de esta anotación"
+annotation.container.wrong.place:
+    text: "La anotación de contenedor ''{0}'' no debe estar presente al mismo tiempo que el elemento que contiene"
+annotation.cyclic.element.type:
+    text: Tipo de elemento de anotación cíclico
+annotation.duplicate:
+    text: Anotación duplicada
+annotation.duplicate.explained:
+    text: Anotación duplicada. {0}
+annotation.duplicate.non.repeatable:
+    text: "Anotación duplicada. La declaración de ''{0}'' no tiene una anotación java.lang.annotation.Repeatable válida."
+annotation.may.not.have.extends.list:
+    text: "@interface no puede tener una lista 'extends'"
+annotation.member.clash:
+    text: "el miembro @interface entra en conflicto con ''{0}'' en {1}"
+annotation.member.invalid.type:
+    text: "Tipo ''{0}'' no válido para el miembro de la anotación"
+annotation.member.may.not.have.parameters:
+    text: los miembros de @interface no pueden tener parámetros
+annotation.member.may.not.have.throws.list:
+    text: "No se permite 'throws' en métodos de @interface"
+annotation.missing.attribute:
+    text: Falta {0}, pero es obligatorio
+annotation.not.allowed.class:
+    text: El tipo literal de clase no puede ser anotado
+annotation.not.allowed.here:
+    text: Las anotaciones no están permitidas aquí
+annotation.not.allowed.in.permit.list:
+    text: "No se permiten anotaciones en la lista 'permits'"
+annotation.not.allowed.on.package:
+    text: "Las anotaciones de paquete solo están permitidas en un archivo 'package-info.java'"
+annotation.not.allowed.ref:
+    text: Anotación no aplicable a este tipo de referencia
+annotation.not.allowed.static:
+    text: El tipo calificador de un miembro estático no puede estar anotado
+annotation.not.allowed.var:
+    text: "el tipo 'var' no puede ser anotado"
+annotation.not.allowed.void:
+    text: "el tipo 'void' no puede ser anotado"
+annotation.not.applicable:
+    text: "''@{0}'' no es aplicable a {1}"
+annotation.permits:
+    text: "'permits' no se permite en @interface"
+annotation.repeated.target:
+    text: Destino de anotación repetido
+annotation.type.expected:
+    text: Se esperaba un tipo de anotación
+array.empty.diamond:
+    text: "No se permite la creación de arrays con '<>'"
+array.generic:
+    text: No se permite la creación de arrays genéricos
+array.illegal.initializer:
+    text: "Inicializador ilegal para ''{0}''"
+array.initializer.not.allowed:
+    text: No se permite un inicializador de matriz aquí
+array.too.many.dimensions:
+    text: Demasiadas dimensiones de matriz
+array.type.arguments:
+    text: No se permite la creación de arrays con argumentos de tipo
+array.type.expected:
+    text: "Se esperaba un tipo de array; se encontró: ''{0}''"
+assignment.declared.outside.guard:
+    text: "No se puede asignar un valor a la variable ''{0}'' porque está declarada fuera del guard"
+assignment.to.final.variable:
+    text: "No se puede asignar un valor a la variable final ''{0}''"
+binary.operator.not.applicable:
+    text: "El operador ''{0}'' no se puede aplicar a ''{1}'', ''{2}''"
+break.out.of.switch.expression:
+    text: No se permite break fuera de una expresión switch
+break.outside.switch.or.loop:
+    text: "Sentencia 'break' fuera de un switch o bucle"
+call.ambiguous:
+    text: "Llamada a método ambigua: tanto ''{0}'' como ''{1}'' coinciden"
+call.ambiguous.no.match:
+    text: "No se puede resolver el método ''{0}'' en ''{1}''"
+call.ambiguous.tooltip:
+    text: <html><body><table border=0><tr><td colspan={0}>Llamada a método ambigua. Ambos</td></tr><tr>{1}<td>en <b>{2}</b>y</td></tr><tr>{3}<td>en <b>{4}</b>coinciden</td></tr></table></body></html>
+call.constructor.duplicate:
+    text: Solo se permite una llamada explícita al constructor en un constructor
+call.constructor.must.be.first.statement:
+    text: "La llamada a ''{0}'' debe ser la primera sentencia en el cuerpo del constructor"
+call.constructor.must.be.top.level.statement:
+    text: "La llamada a ''{0}'' debe ser una instrucción de nivel superior en el cuerpo del constructor"
+call.constructor.only.allowed.in.constructor:
+    text: "Llamada a ''{0}'' solo permitida en el cuerpo del constructor"
+call.constructor.record.in.canonical:
+    text: El constructor canónico no puede delegar en otro constructor
+call.constructor.recursive:
+    text: Llamada recursiva al constructor
+call.direct.abstract.method.access:
+    text: "No se puede acceder directamente al método abstracto ''{0}''"
+call.expected:
+    text: Se esperaba una llamada al método
+call.formal.varargs.element.type.inaccessible.here:
+    text: El tipo de elemento de varargs formal {0} es inaccesible desde aquí
+call.member.before.constructor:
+    text: "No se puede llamar a ''{0}'' antes de que se llame al constructor de la superclase"
+call.parsed.as.deconstruction.pattern:
+    text: Se requiere una expresión constante, un patrón o null
+call.qualifier.primitive:
+    text: "No se pueden llamar a métodos en el tipo ''{0}''"
+call.static.interface.method.qualifier:
+    text: El método estático solo se puede invocar en la interfaz que lo contiene
+call.super.enum.constructor:
+    text: "No se permite la llamada a 'super' en el constructor de la enumeración"
+call.super.qualifier.not.inner.class:
+    text: "No se permite el calificador porque la superclase ''{0}'' no es una clase interna no estática"
+call.unresolved:
+    text: "No se puede resolver el método ''{0}''"
+call.unresolved.name:
+    text: "No se puede resolver el método ''{0}''"
+call.wrong.arguments:
+    text: "''{0}'' en ''{1}'' no se puede aplicar a ''{2}''"
+call.wrong.arguments.count.mismatch:
+    text: Se esperaba {0, choice, 0#ningún argumento|1#1 argumento|1<{0} argumentos}, pero se encontró {1}
+cast.inconvertible:
+    text: "Tipos inconvertibles; no se puede convertir ''{0}'' a ''{1}''"
+cast.intersection.inheritance.clash:
+    text: '{0} no se puede heredar con argumentos diferentes: {1} y {2}'
+cast.intersection.not.interface:
+    text: Se esperaba una interfaz aquí
+cast.intersection.repeated.interface:
+    text: Interfaz repetida
+cast.intersection.unexpected.type:
+    text: 'Tipo inesperado: se esperaba una clase'
+catch.type.parameter:
+    text: No se pueden capturar parámetros de tipo
+clash.methods.message:
+    text: "''{0}'' entra en conflicto con ''{1}''"
+clash.methods.message.show.classes:
+    text: "''{0}'' en ''{2}'' entra en conflicto con ''{1}'' en ''{3}''"
+class.already.imported:
+    text: "''{0}'' ya está definido en esta unidad de compilación"
+class.anonymous.extends.sealed:
+    text: Las clases anónimas no deben extender clases selladas
+class.cannot.be.referenced.from.static.context:
+    text: "No se puede hacer referencia a ''{0}'' desde un contexto estático"
+class.cannot.extend.multiple.classes:
+    text: La clase no puede extender múltiples clases
+class.clashes.with.package:
+    text: "La clase ''{0}'' entra en conflicto con un paquete del mismo nombre"
+class.cyclic.inheritance:
+    text: "Herencia cíclica que involucra a ''{0}''"
+class.duplicate:
+    text: "Clase duplicada: ''{0}''"
+class.duplicate.in.other.file:
+    text: "Se encontró una clase duplicada en el archivo ''{0}''"
+class.extends.final:
+    text: "No se puede heredar de {1, choice, 1#la clase final|2#la enumeración|3#el registro|4#la clase de valor no abstracta} ''{0}''"
+class.extends.interface:
+    text: No se esperaba una interfaz aquí
+class.extends.prohibited.class:
+    text: "Las clases no pueden extender directamente ''{0}''"
+class.extends.sealed.another.module:
+    text: No se permite que una clase extienda una clase sellada de otro módulo
+class.extends.sealed.another.package:
+    text: "{0} ''{1}'' de otro paquete no tiene permitido extender {2} sellado ''{3}'' en un módulo sin nombre"
+class.extends.sealed.local:
+    text: Las clases locales no deben extender clases selladas
+class.extends.sealed.not.permitted:
+    text: "No se permite ''{0}'' en la jerarquía sellada"
+class.generic.extends.exception:
+    text: "La clase genérica no puede extender 'java.lang.Throwable'"
+class.implements.class:
+    text: Se esperaba una interfaz aquí
+class.implicit.initializer:
+    text: No se permiten inicializadores en archivos fuente compactos
+class.implicit.invalid.file.name:
+    text: El nombre de un archivo fuente compacto no es un identificador válido
+class.implicit.no.main.method:
+    text: "El archivo fuente compacto no contiene el método 'main'"
+class.implicit.package.statement:
+    text: La sentencia package no se permite en archivos fuente compactos
+class.inheritance.different.type.arguments:
+    text: "''{0}'' no se puede heredar con diferentes argumentos de tipo: ''{1}'' y ''{2}''"
+class.inheritance.method.clash:
+    text: Los métodos {0} de {1} y {2} de {3} se heredan con la misma firma
+class.inheritance.raw.and.generic:
+    text: "''{0}'' no se puede heredar como un tipo raw y con argumentos de tipo genérico ''{1}''"
+class.inherits.abstract.and.default:
+    text: '{0} hereda los métodos abstracto y predeterminado para {1} de los tipos {2} y {3}'
+class.inherits.type.parameter:
+    text: La clase no puede heredar de su parámetro de tipo
+class.inherits.unrelated.defaults:
+    text: '{0} hereda valores predeterminados no relacionados para {1} de los tipos {2} y {3}'
+class.initializer.must.complete.normally:
+    text: El inicializador debe poder finalizar normalmente
+class.must.implement.method:
+    text: "La clase ''{0}'' debe implementar el método abstracto ''{1}'' en ''{2}''"
+class.must.implement.method.enum.constant:
+    text: "La constante de enumeración ''{0}'' debe implementar el método abstracto ''{1}'' en ''{2}''"
+class.must.implement.method.or.abstract:
+    text: "La clase ''{0}'' debe declararse como abstracta o implementar el método abstracto ''{1}'' en ''{2}''"
+class.not.accessible:
+    text: No se puede acceder a {0}
+class.not.enclosing:
+    text: "''{0}'' no es una clase contenedora"
+class.or.package.expected:
+    text: Se esperaba una clase o un paquete
+class.permitted.must.have.modifier:
+    text: Todas las subclases de una clase sellada deben ser final, sealed o non-sealed
+class.permitted.not.direct.subclass:
+    text: "Cláusula ''permits'' no válida: ''{0}'' debe {1, choice, 1#extender|2#implementar} directamente a ''{2}''"
+class.reference.list.duplicate:
+    text: "Referencia duplicada a ''{0}'' en la lista ''{1}''"
+class.reference.list.inner.private:
+    text: "''{0}'' tiene acceso privado en ''{1}''"
+class.reference.list.name.expected:
+    text: Se esperaba un nombre de clase
+class.reference.list.no.enclosing.instance:
+    text: "No hay ninguna instancia envolvente del tipo ''{0}'' en el ámbito"
+class.sealed.incomplete.permits:
+    text: La cláusula permits de una clase sellada debe contener todas las subclases
+class.sealed.inheritor.expected.modifiers:
+    text: "Se esperaba el modificador 'sealed' o 'non-sealed'"
+class.sealed.inheritor.expected.modifiers.can.be.final:
+    text: "Se esperaba el modificador 'sealed', 'non-sealed' o 'final'"
+class.sealed.no.inheritors:
+    text: La clase sellada debe tener subclases
+class.sealed.permits.on.non.sealed:
+    text: "Cláusula ''permits'' no válida: ''{0}'' debe ser sealed"
+class.wrong.filename:
+    text: "La clase ''{0}'' es pública, debe declararse en un archivo llamado ''{0}.java''"
+comment.shebang.java.file:
+    text: El mecanismo Shebang en archivos .java no está permitido
+comment.unclosed:
+    text: Comentario sin cerrar
+constructor.ambiguous.implicit.call:
+    text: "Llamada implícita al constructor ambigua: tanto ''{0}'' como ''{1}'' coinciden"
+constructor.in.implicit.class:
+    text: No se permite un constructor explícito en una clase declarada implícitamente de un archivo fuente compacto
+constructor.no.default:
+    text: "No hay ningún constructor sin argumentos disponible en ''{0}''"
+continue.out.of.switch.expression:
+    text: "No se permite 'continue' fuera de una expresión switch"
+continue.outside.loop:
+    text: "sentencia 'continue' fuera del bucle"
+enum.constant.illegal.access.in.constructor:
+    text: No se permite acceder a {0, choice, 1#un campo estático|2#una constante de enumeración} desde {1, choice, 1#el constructor|2#el inicializador de campo de instancia|3#el inicializador de instancia} de la enumeración
+enum.constant.modifier:
+    text: No se permiten modificadores para las constantes de enumeración
+enum.extends:
+    text: "no se permite 'extends' en enumeraciones"
+enum.permits:
+    text: "'permits' no está permitido en una enumeración"
+exception.already.caught:
+    text: "La excepción ''{0}'' ya ha sido capturada"
+exception.must.be.disjoint:
+    text: "Los tipos en multi-catch deben ser disjuntos: ''{0}'' es una subclase de ''{1}''"
+exception.never.thrown.try:
+    text: "La excepción ''{0}'' nunca se lanza en el bloque try correspondiente"
+exception.never.thrown.try.multi:
+    text: "La excepción ''{0}'' nunca se lanza en el bloque try correspondiente"
+exception.unhandled:
+    text: '{1, choice, 0#Excepción no controlada|2#Excepciones no controladas}: {0}'
+exception.unhandled.close:
+    text: '{1, choice, 0#Excepción no manejada|2#Excepciones no manejadas} del recurso auto-closeable: {0}'
+expression.class.parameterized.type:
+    text: No se puede acceder al objeto de clase de un tipo parametrizado
+expression.class.type.parameter:
+    text: No se puede acceder al objeto de clase de un parámetro de tipo
+expression.expected:
+    text: Se esperaba una expresión
+expression.qualified.class.expected:
+    text: Se espera un nombre de clase aquí
+expression.super.bad.qualifier.method.overridden:
+    text: 'Calificador de tipo incorrecto en la llamada super predeterminada: el método {0} se ha sobrescrito en {1}'
+expression.super.bad.qualifier.redundant.extended:
+    text: 'Calificador de tipo incorrecto en la llamada super predeterminada: la interfaz redundante {0} es extendida por {1}'
+expression.super.dot.expected:
+    text: "Se esperaba '.'"
+expression.super.no.enclosing.instance:
+    text: "No hay ninguna instancia envolvente de tipo ''{0}'' en el ámbito"
+expression.super.not.enclosing.class:
+    text: "''{0}'' no es una clase envolvente"
+expression.super.unqualified.default.method:
+    text: No se permite una referencia super no calificada en un método de extensión
+field.initialized.before.constructor.call:
+    text: "No se puede asignar el campo inicializado ''{0}'' antes de llamar al constructor de la superclase"
+field.not.initialized:
+    text: "El campo ''{0}'' podría no haber sido inicializado"
+foreach.not.applicable:
+    text: "Foreach no es aplicable al tipo ''{0}''"
+guard.evaluated.to.false:
+    text: "La etiqueta case tiene una guarda que es una expresión constante con valor 'false'"
+guard.misplaced:
+    text: Solo se permite guard después de patrones
+identifier.restricted:
+    text: "''{0}'' es un identificador restringido y no se puede utilizar para declaraciones de tipos"
+illegal.character:
+    text: 'Carácter no válido: {0}'
+illegal.unicode.escape:
+    text: Secuencia de escape Unicode ilegal
+import.list.extra.semicolon:
+    text: No se permiten puntos y coma adicionales entre las sentencias import
+import.single.class.conflict:
+    text: "''{0}'' ya está definido en una importación de tipo único"
+import.single.static.class.already.defined:
+    text: "La clase ''{0}'' ya está definida en una importación estática única"
+import.single.static.class.ambiguous:
+    text: "La clase ''{0}'' es ambigua en una importación estática única"
+import.single.static.field.already.defined:
+    text: "El campo ''{0}'' ya está definido en una importación estática única"
+import.single.static.field.ambiguous:
+    text: "El campo ''{0}'' es ambiguo en una única importación estática"
+import.static.on.demand.resolves.to.class:
+    text: No se encontró la clase {0}
+incomplete.project.state.pending.reference:
+    text: No se resolverá hasta que el proyecto esté completamente cargado
+instanceof.illegal.generic.type:
+    text: Tipo genérico no válido para instanceof
+instanceof.type.parameter:
+    text: Se esperaba una clase o un array
+instanceof.unsafe.cast:
+    text: "''{0}'' no se puede convertir de forma segura a ''{1}''"
+instantiation.abstract:
+    text: "''{0}'' es abstracto; no se puede instanciar"
+instantiation.enum:
+    text: No se pueden instanciar tipos enumerados
+instantiation.local.class.wrong.static.context:
+    text: "La clase local ''{0}'' no se puede instanciar desde un contexto estático diferente"
+insufficient.language.level:
+    text: "{0} no se admiten en el nivel de lenguaje ''{1}''"
+interface.class.initializer:
+    text: No se permite el inicializador de clase en la interfaz
+interface.constructor:
+    text: No se permiten constructores en la interfaz
+interface.extends.class:
+    text: Se esperaba una interfaz aquí
+interface.implements:
+    text: "'implements' no está permitido en la interfaz"
+label.duplicate:
+    text: "La etiqueta ''{0}'' ya está en uso"
+label.must.be.loop:
+    text: "el destino de ''continue'' debe ser una etiqueta de bucle: ''{0}''"
+label.unresolved:
+    text: "Etiqueta no definida: ''{0}''"
+label.without.statement:
+    text: Etiqueta sin sentencia
+lambda.incompatible.parameter.types:
+    text: 'Tipos de parámetros incompatibles en la expresión lambda: se esperaba {0} pero se encontró {1}'
+lambda.multiple.sam.candidates:
+    text: Se encontraron múltiples métodos abstractos que no sobrescriben en {0}
+lambda.no.target.method.found:
+    text: No se encontró el método de destino
+lambda.not.a.functional.interface:
+    text: '{0} no es una interfaz funcional'
+lambda.not.expected:
+    text: Expresión lambda inesperada
+lambda.parameters.inconsistent.var:
+    text: "No se pueden mezclar 'var' y parámetros con tipos explícitos en una expresión lambda"
+lambda.sam.generic:
+    text: El método de destino es genérico
+lambda.sealed:
+    text: Lambda no puede implementar una interfaz sellada
+lambda.sealed.functional.interface:
+    text: "La interfaz funcional no se puede declarar como 'sealed'"
+lambda.target.not.interface:
+    text: El tipo de destino de una conversión lambda debe ser una interfaz
+lambda.type.inference.failure:
+    text: No se puede inferir el tipo de la interfaz funcional
+lambda.wrong.number.of.parameters:
+    text: 'Número incorrecto de parámetros en la expresión lambda: se esperaban {0} pero se encontraron {1}'
+literal.binary.no.digits:
+    text: Los números binarios deben contener al menos un dígito binario
+literal.character.empty:
+    text: Literal de carácter vacío
+literal.character.illegal.escape:
+    text: Carácter de escape ilegal en el literal de carácter
+literal.character.too.long:
+    text: Demasiados caracteres en el literal de carácter
+literal.character.unclosed:
+    text: Literal de carácter sin cerrar
+literal.floating.malformed:
+    text: Literal de punto flotante mal formado
+literal.floating.too.large:
+    text: Número de coma flotante demasiado grande
+literal.floating.too.small:
+    text: Número de punto flotante demasiado pequeño
+literal.hexadecimal.no.digits:
+    text: Los números hexadecimales deben contener al menos un dígito hexadecimal.
+literal.illegal.underscore:
+    text: Guion bajo ilegal
+literal.integer.too.large:
+    text: Número entero demasiado grande
+literal.long.too.large:
+    text: Número long demasiado grande
+literal.string.illegal.escape:
+    text: Carácter de escape ilegal en el literal de cadena
+literal.string.illegal.line.end:
+    text: No se permite el fin de línea en literales de cadena
+literal.text.block.no.new.line:
+    text: 'Inicio de bloque de texto no válido: falta un salto de línea después de las comillas de apertura'
+literal.text.block.unclosed:
+    text: Bloque de texto sin cerrar
+lvalue.variable.expected:
+    text: Se esperaba una variable
+lvti.array:
+    text: "no se permite 'var' como tipo de elemento de un array"
+lvti.compound:
+    text: "'var' no está permitido en una declaración compuesta"
+lvti.lambda:
+    text: 'No se puede inferir el tipo: la expresión lambda requiere un tipo de destino explícito'
+lvti.method.reference:
+    text: 'No se puede inferir el tipo: la referencia de método requiere un tipo de destino explícito'
+lvti.no.initializer:
+    text: "No se puede inferir el tipo: 'var' en una variable sin inicializador"
+lvti.null:
+    text: "No se puede inferir el tipo: el inicializador de la variable es 'null'"
+lvti.self.referenced:
+    text: "No se puede inferir el tipo de ''{0}'', se utiliza en su propio inicializador de variable"
+lvti.void:
+    text: "No se puede inferir el tipo: el inicializador de la variable es 'void'"
+method.abstract.body:
+    text: Los métodos abstractos no pueden tener cuerpo
+method.abstract.in.non.abstract.class:
+    text: Método abstracto en una clase no abstracta
+method.default.in.class:
+    text: Los métodos de extensión solo se pueden utilizar dentro de una interfaz
+method.default.overrides.object.member:
+    text: "El método predeterminado ''{0}'' sobrescribe un miembro de ''java.lang.Object''"
+method.default.should.have.body:
+    text: El método de extensión debe tener un cuerpo
+method.duplicate:
+    text: "''{0}'' ya está definido en ''{1}''"
+method.generic.same.erasure:
+    text: '{0}; ambos métodos tienen el mismo borrado'
+method.generic.same.erasure.hide:
+    text: '{0}; ambos métodos tienen el mismo borrado, pero ninguno oculta al otro'
+method.generic.same.erasure.override:
+    text: '{0}; ambos métodos tienen el mismo borrado (erasure), pero ninguno de los dos sobrescribe al otro'
+method.inheritance.clash.does.not.throw:
+    text: "{0}; el método sobrescrito no lanza ''{1}''"
+method.inheritance.clash.incompatible.return.types:
+    text: '{0}; tipo de retorno incompatible'
+method.inheritance.clash.unrelated.return.types:
+    text: '{0}; los métodos tienen tipos de retorno no relacionados'
+method.inheritance.weaker.privileges:
+    text: "{0}; intentando asignar privilegios de acceso más débiles (''{1}''); era ''{2}''"
+method.instance.overrides.static:
+    text: "El método de instancia ''{0}'' en ''{1}'' no puede sobrescribir el método estático ''{2}'' en ''{3}''"
+method.interface.body:
+    text: Los métodos abstractos de una interfaz no pueden tener cuerpo
+method.missing.return.type:
+    text: Falta el tipo de retorno del método o el nombre del constructor no coincide con el nombre de la clase
+method.missing.return.type.not.constructor:
+    text: Falta el tipo de retorno del método
+method.native.body:
+    text: Los métodos nativos no pueden tener cuerpo
+method.no.parameter.list:
+    text: Se esperaba una lista de parámetros
+method.overrides.final:
+    text: "''{0}'' no puede sobrescribir ''{1}'' en ''{2}''; el método sobrescrito es final"
+method.private.in.interface.should.have.body:
+    text: Los métodos privados en las interfaces deben tener un cuerpo
+method.reference.abstract.method:
+    text: "No se puede acceder directamente al método abstracto ''{0}''"
+method.reference.enclosing.instance.not.in.scope:
+    text: Una instancia envolvente de tipo {0} no está en el ámbito
+method.reference.non.static.method.in.static.context:
+    text: No se puede hacer referencia a un método no estático desde un contexto estático
+method.reference.not.expected:
+    text: No se esperaba una expresión de referencia a método aquí
+method.reference.parameterized.qualifier:
+    text: Calificador parametrizado en referencia a método estático
+method.reference.qualifier.class.unresolved:
+    text: No se puede encontrar la clase {0}
+method.reference.qualifier.wildcard:
+    text: Comodín inesperado
+method.reference.raw.constructor:
+    text: Referencia a constructor raw con parámetros de tipo explícitos para el constructor
+method.reference.sealed:
+    text: La referencia a método no puede implementar una interfaz sellada
+method.reference.static.method.non.static.qualifier:
+    text: Método estático referenciado a través de un calificador no estático
+method.reference.static.method.receiver:
+    text: Método estático referenciado mediante un receptor
+method.reference.unresolved.constructor:
+    text: "No se puede resolver el constructor ''{0}''"
+method.reference.unresolved.method:
+    text: "No se puede resolver el método ''{0}''"
+method.should.have.body:
+    text: Se esperaba el cuerpo del método
+method.should.have.body.or.abstract:
+    text: "Se espera un cuerpo de método o el modificador 'abstract'"
+method.static.in.interface.should.have.body:
+    text: Los métodos estáticos en las interfaces deben tener un cuerpo
+method.static.overrides.instance:
+    text: "El método estático ''{0}'' en ''{1}'' no puede sobrescribir el método de instancia ''{2}'' en ''{3}''"
+method.throws.class.name.expected:
+    text: Se esperaba un nombre de clase
+modifier.incompatible:
+    text: "Combinación ilegal de modificadores ''{0}'' y ''{1}''"
+modifier.not.allowed:
+    text: "El modificador ''{0}'' no está permitido aquí"
+modifier.not.allowed.local.class:
+    text: "El modificador ''{0}'' no está permitido en clases locales"
+modifier.not.allowed.non.sealed:
+    text: "El modificador 'non-sealed' no está permitido en clases que no tienen una superclase 'sealed'"
+modifier.repeated:
+    text: "Modificador repetido ''{0}''"
+module.access.bad.name:
+    text: "El paquete ''{0}'' se ha declarado en el módulo con un nombre no válido (''{1}'')"
+module.access.does.not.read:
+    text: "El paquete ''{0}'' está declarado en el módulo ''{1}'', pero el módulo ''{2}'' no lo lee"
+module.access.from.named:
+    text: "El paquete ''{0}'' está declarado en el módulo ''{1}'', que no lo exporta al módulo ''{2}''"
+module.access.from.unnamed:
+    text: "El paquete ''{0}'' está declarado en el módulo ''{1}'', que no lo exporta al módulo sin nombre"
+module.access.jps.dependency.problem:
+    text: "No se ha especificado la dependencia de módulo para ''{0}'' en la estructura del proyecto"
+module.access.not.in.graph:
+    text: "El módulo ''{0}'' no se encuentra en el grafo de módulos"
+module.access.package.bad.name:
+    text: "El paquete ''{0}'' está declarado en un módulo con un nombre no válido (''{1}'')"
+module.access.package.does.not.read:
+    text: "El paquete ''{0}'' está declarado en el módulo ''{1}'', pero el módulo ''{2}'' no lo lee"
+module.access.package.not.in.graph:
+    text: "El paquete ''{0}'' está declarado en el módulo ''{1}'', que no se encuentra en el grafo de módulos"
+module.access.to.unnamed:
+    text: "El paquete ''{0}'' está declarado en el módulo sin nombre, pero el módulo ''{1}'' no lo lee"
+module.conflicting.packages:
+    text: "El paquete ''{0}'' existe en otro módulo: {1}"
+module.conflicting.reads:
+    text: "El módulo ''{0}'' lee el paquete ''{1}'' tanto de ''{2}'' como de ''{3}''"
+module.cyclic.dependence:
+    text: 'Dependencia cíclica: {0}'
+module.duplicate.exports:
+    text: "''exports'' duplicados: {0}"
+module.duplicate.exports.target:
+    text: "Destino ''exports'' duplicado: {0}"
+module.duplicate.implementation:
+    text: 'Implementación duplicada: {0}'
+module.duplicate.opens:
+    text: "''opens'' duplicado: {0}"
+module.duplicate.opens.target:
+    text: "Destino ''opens'' duplicado: {0}"
+module.duplicate.provides:
+    text: "''provides'' duplicado: {0}"
+module.duplicate.requires:
+    text: "''requires'' duplicado: {0}"
+module.duplicate.uses:
+    text: "''uses'' duplicado: {0}"
+module.file.duplicate:
+    text: "'module-info.java' ya existe en el módulo"
+module.file.wrong.location:
+    text: La declaración del módulo debe estar ubicada en la raíz de fuentes del módulo
+module.file.wrong.name:
+    text: "Las declaraciones de módulo solo están permitidas en un archivo 'module-info.java'"
+module.import.not.allowed:
+    text: No se permite la importación de módulos
+module.no.package:
+    text: "Un archivo de módulo no debe tener la declaración 'package'"
+module.not.found:
+    text: 'Módulo no encontrado: {0}'
+module.not.on.path:
+    text: 'El módulo no está en las dependencias: {0}'
+module.opens.in.weak.module:
+    text: "'opens' no está permitido en un módulo abierto"
+module.reference.package.empty:
+    text: 'El paquete está vacío: {0}'
+module.reference.package.not.found:
+    text: 'Paquete no encontrado: {0}'
+module.service.abstract:
+    text: 'La implementación del servicio es una clase abstracta: {0}'
+module.service.alien:
+    text: La implementación del servicio debe definirse en el mismo módulo que la directiva provides
+module.service.enum:
+    text: 'La definición del servicio es una enumeración: {0}'
+module.service.implementation.type:
+    text: "El tipo de implementación del servicio debe ser un subtipo del tipo de interfaz del servicio o tener un método 'provider' público y estático sin argumentos."
+module.service.inner:
+    text: 'La implementación del servicio es una clase interna: {0}'
+module.service.no.constructor:
+    text: 'La implementación del servicio no tiene un constructor público predeterminado: {0}'
+module.service.provider.type:
+    text: "El tipo de retorno del método ''provider'' debe ser un subtipo del tipo de interfaz del servicio: {0}"
+new.expression.anonymous.implements.interface.with.type.arguments:
+    text: La clase anónima implementa una interfaz; no puede tener argumentos de tipo
+new.expression.diamond.anonymous.inner.non.private:
+    text: "No se puede usar '<>' debido a un método no privado que no sobrescribe ni implementa un método de un supertipo"
+new.expression.diamond.not.allowed:
+    text: El operador diamante no está permitido aquí
+new.expression.diamond.not.applicable:
+    text: El operador diamante no es aplicable a tipos no parametrizados
+new.expression.qualified.anonymous.implements.interface:
+    text: Calificador inesperado para una clase anónima que implementa una interfaz
+new.expression.qualified.malformed:
+    text: new cualificado no válido
+new.expression.qualified.qualified.class.reference:
+    text: "No se permite una referencia de clase calificada en un 'new' calificado"
+new.expression.qualified.static.class:
+    text: New calificado de clase estática
+new.expression.type.parameter:
+    text: "El parámetro de tipo ''{0}'' no se puede instanciar directamente"
+new.expression.unresolved.constructor:
+    text: "No se puede resolver el constructor ''{0}''"
+override.on.static.method:
+    text: Los métodos estáticos no pueden anotarse con @Override
+package.clashes.with.class:
+    text: "El paquete ''{0}'' entra en conflicto con una clase del mismo nombre"
+pattern.cannot.infer.type:
+    text: 'No se puede inferir el tipo de patrón: {0}'
+pattern.deconstruction.annotation:
+    text: No se permiten anotaciones en los tipos de patrones de deconstrucción
+pattern.deconstruction.count.mismatch:
+    text: 'Número incorrecto de patrones anidados: se esperaba {0} pero se encontró {1}'
+pattern.deconstruction.requires.record:
+    text: "El patrón de deconstrucción solo se puede aplicar a un registro, ''{0}'' no es un registro"
+pattern.deconstruction.variable:
+    text: No se permite un identificador aquí
+pattern.expected.class.or.array.type:
+    text: Se requiere un tipo de clase o de array
+pattern.instanceof.equals:
+    text: "El tipo de patrón ''{0}'' es el mismo que el tipo de la expresión"
+pattern.instanceof.supertype:
+    text: "El tipo de patrón ''{0}'' es un supertipo del tipo de expresión ''{1}''"
+pattern.not.exhaustive:
+    text: "El patrón ''{0}'' no es exhaustivo en ''{1}''"
+pattern.type.pattern.expected:
+    text: Se esperaba un patrón de tipo
+pattern.unsafe.cast:
+    text: "''{0}'' no se puede convertir de forma segura a ''{1}''"
+preview.api.usage:
+    text: '{0} es una API de vista previa y está deshabilitada de forma predeterminada'
+receiver.name.mismatch:
+    text: El nombre del receptor no coincide con el tipo de la clase envolvente
+receiver.static.context:
+    text: El receptor no se puede utilizar en un contexto estático
+receiver.type.mismatch:
+    text: El tipo del receptor no coincide con el tipo de la clase contenedora
+receiver.wrong.context:
+    text: No se permiten receptores fuera de la lista de parámetros del método
+receiver.wrong.position:
+    text: El receptor debe ser el primer parámetro
+record.accessor:
+    text: Accesor de componente de record
+record.accessor.non.public:
+    text: "El accessor del componente de record debe ser 'public'"
+record.accessor.wrong.return.type:
+    text: "Tipo de retorno de accesor de componente incorrecto. Se esperaba: ''{0}'', se encontró: ''{1}''"
+record.canonical.constructor:
+    text: Constructor canónico
+record.canonical.constructor.wrong.parameter.name:
+    text: "Los nombres de los parámetros del constructor canónico deben coincidir con los nombres de los componentes del record. Esperado: ''{0}'', encontrado: ''{1}''"
+record.canonical.constructor.wrong.parameter.type:
+    text: "Tipo de parámetro incorrecto para el componente de registro ''{0}''. Se esperaba: ''{1}'', se encontró: ''{2}''"
+record.compact.constructor:
+    text: Constructor compacto
+record.component.cstyle.declaration:
+    text: No se permite la declaración de arrays estilo C en un componente de registro
+record.component.not.initialized:
+    text: "El componente de registro ''{0}'' podría no estar inicializado en el constructor canónico"
+record.component.restricted.name:
+    text: "Nombre de componente de registro ilegal ''{0}''"
+record.component.vararg.not.last:
+    text: El componente de registro vararg debe ser el último de la lista
+record.constructor.stronger.access:
+    text: "El nivel de acceso de {0} no puede ser más restrictivo que el nivel de acceso del registro (''{1}'')"
+record.extends:
+    text: "'extends' no se permite en registros"
+record.header.regular.class:
+    text: Cabecera de record declarada para una clase que no es un record
+record.instance.field:
+    text: No se permite un campo de instancia en el registro
+record.instance.initializer:
+    text: No se permite un inicializador de instancia en los registros
+record.no.constructor.call.in.non.canonical:
+    text: El constructor de registro no canónico debe delegar en otro constructor
+record.no.header:
+    text: El registro no tiene un encabezado declarado
+record.permits:
+    text: "no se permite 'permits' en los registros"
+record.special.method.throws:
+    text: '{0} no puede declarar excepciones lanzadas'
+record.special.method.type.parameters:
+    text: '{0} no puede tener parámetros de tipo'
+reference.ambiguous:
+    text: "La referencia a ''{0}'' es ambigua, tanto ''{1}'' como ''{2}'' coinciden"
+reference.class.in.default.package:
+    text: "La clase ''{0}'' está en el paquete predeterminado"
+reference.enum.forward:
+    text: "No se puede hacer referencia a la constante de enumeración ''{0}'' antes de su definición"
+reference.enum.self:
+    text: "No se puede hacer referencia a la constante de enumeración ''{0}'' desde su propia definición"
+reference.field.forward:
+    text: "No se puede leer el valor del campo ''{0}'' antes de la definición del campo"
+reference.field.self:
+    text: "No se puede leer el valor del campo ''{0}'' desde el interior de la propia definición del campo"
+reference.implicit.class:
+    text: "No se puede referenciar la clase declarada implícitamente del archivo fuente compacto ''{0}''"
+reference.local.class.other.switch.branch:
+    text: "No se puede hacer referencia a la clase local ''{0}'' desde otra rama de switch"
+reference.member.before.constructor:
+    text: "No se puede hacer referencia a ''{0}'' antes de que se llame al constructor de la superclase"
+reference.non.static.from.static.context:
+    text: "No se puede hacer referencia al {0} no estático ''{1}'' desde un contexto estático"
+reference.outer.type.parameter.from.static.context:
+    text: "No se puede hacer referencia a ''{0}'' desde un contexto estático"
+reference.package.not.found:
+    text: 'No se encontró el paquete: {0}'
+reference.qualifier.not.expression:
+    text: El calificador debe ser una expresión
+reference.qualifier.primitive:
+    text: "No se puede acceder a los campos en el tipo ''{0}''"
+reference.select.from.type.parameter:
+    text: No se puede seleccionar de un parámetro de tipo
+reference.type.argument.static.class:
+    text: "No se permiten argumentos de tipo aquí porque la clase ''{0}'' es estática"
+reference.type.needs.type.arguments:
+    text: "Tipo con formato incorrecto: ''{0}'' requiere argumentos de tipo porque su calificador tiene argumentos de tipo"
+reference.unresolved:
+    text: "No se puede resolver el símbolo ''{0}''"
+resource.declaration.or.variable.expected:
+    text: Se esperaba una declaración, una variable final o efectivamente final
+return.before.explicit.constructor.call:
+    text: "no se permite ''return'' antes de la llamada a ''{0}''"
+return.compact.constructor:
+    text: "la sentencia 'return' no se permite en un constructor compacto"
+return.from.constructor:
+    text: No se puede devolver un valor desde un constructor
+return.from.void.method:
+    text: No se puede devolver un valor desde un método con tipo de resultado void
+return.missing:
+    text: Falta la sentencia return
+return.outside.method:
+    text: return fuera del método
+return.outside.switch.expression:
+    text: return fuera de la expresión switch envolvente
+return.value.missing:
+    text: Falta el valor de retorno
+safe.varargs.on.fixed.arity:
+    text: '@SafeVarargs no se permite en métodos con aridad fija'
+safe.varargs.on.non.final.method:
+    text: '@SafeVarargs no está permitido en métodos de instancia que no sean final'
+safe.varargs.on.record.component:
+    text: No se permite @SafeVarargs en un componente de registro
+statement.bad.expression:
+    text: No es una sentencia
+statement.case.outside.switch:
+    text: "Sentencia 'case' fuera de 'switch'"
+statement.declaration.not.allowed:
+    text: Declaración no permitida aquí
+statement.invalid:
+    text: Sentencia no válida
+statement.unreachable:
+    text: Sentencia inalcanzable
+statement.unreachable.loop.body:
+    text: La condición del bucle siempre es false, lo que hace que el cuerpo del bucle sea inalcanzable
+string.template.processor.missing:
+    text: Falta el procesador en la expresión de plantilla de cadena
+string.template.raw.processor:
+    text: 'No se permite el tipo de procesador raw: {0}'
+string.template.void.not.allowed.in.embedded:
+    text: "No se permite una expresión de tipo 'void' como expresión incrustada en una plantilla de cadena"
+switch.default.and.boolean:
+    text: "'switch' tiene todos los valores booleanos y una etiqueta default"
+switch.default.label.contains.case:
+    text: "La etiqueta para el caso por defecto debe utilizar solo la palabra clave 'default', sin 'case'"
+switch.default.label.not.allowed:
+    text: "No se permite la etiqueta predeterminada aquí: 'default' solo puede usarse como una etiqueta de caso única o emparejada únicamente con 'null'"
+switch.default.null.order:
+    text: "Orden de etiquetas case no válido: 'null' debe ser la primera y 'default' debe ser la segunda"
+switch.different.case.kinds:
+    text: "Se utilizan diferentes tipos de 'case' en el 'switch'"
+switch.dominance.violation:
+    text: "La etiqueta está dominada por una etiqueta case precedente ''{0}''"
+switch.empty:
+    text: "''switch'' {0} no tiene ninguna cláusula case"
+switch.expression.cannot.be.void:
+    text: El tipo de destino para la expresión switch no puede ser void
+switch.expression.incompatible.type:
+    text: 'Tipo incorrecto en la expresión switch: {0} no se puede convertir a {1}'
+switch.expression.no.result:
+    text: "la expresión 'switch' no tiene ninguna expresión de resultado"
+switch.expression.should.produce.result:
+    text: La expresión switch debe producir un resultado en todas las rutas de ejecución
+switch.fallthrough.to.pattern:
+    text: Salto directo ilegal a un patrón
+switch.incomplete:
+    text: "''switch'' {0} no cubre todos los posibles valores de entrada"
+switch.label.combination.constants.and.patterns:
+    text: 'Combinación de etiquetas case no válida: una etiqueta case debe constar de una lista de constantes de case o de un único patrón de case'
+switch.label.combination.constants.and.patterns.unnamed:
+    text: 'Combinación de etiquetas case no válida: una etiqueta case debe constar de una lista de constantes case o de una lista de patrones case'
+switch.label.constant.expected:
+    text: Se requiere una expresión constante
+switch.label.duplicate:
+    text: "Etiqueta ''{0}'' duplicada"
+switch.label.duplicate.default:
+    text: "Etiqueta 'default' duplicada"
+switch.label.duplicate.unconditional.pattern:
+    text: Patrón incondicional duplicado
+switch.label.expected:
+    text: La sentencia debe ir precedida de una etiqueta case
+switch.label.multiple.patterns:
+    text: 'Combinación de etiquetas case no válida: una etiqueta case no debe constar de más de un patrón case'
+switch.label.multiple.patterns.unnamed:
+    text: 'Combinación de etiquetas case no válida: solo se permiten múltiples patrones si ninguno de ellos declara variables de patrón'
+switch.label.pattern.expected:
+    text: "Se esperaba un patrón para el tipo de selector switch ''{0}''"
+switch.label.qualified.enum:
+    text: Una etiqueta de caso de un switch de enumeración debe ser el nombre no cualificado de una constante de enumeración
+switch.label.unexpected:
+    text: Se requiere una expresión constante, patrón o null
+switch.multiple.labels.with.pattern.variables:
+    text: Solo se permiten múltiples etiquetas switch para un grupo de sentencias con etiqueta switch si ninguna de ellas declara variables de patrón
+switch.null.label.not.allowed:
+    text: "Combinación de etiquetas 'case' no válida: 'null' solo se puede usar como una única etiqueta 'case' o emparejada únicamente con 'default'"
+switch.null.type.incompatible:
+    text: "''null'' no se puede convertir a ''{0}''"
+switch.rule.should.produce.result:
+    text: La regla de la expresión switch debe producir un resultado en todas las rutas de ejecución
+switch.selector.type.invalid:
+    text: "No se admite el tipo de selector de ''{0}''"
+switch.selector.type.invalid.level:
+    text: "El tipo de selector ''{0}'' no es compatible con el nivel de lenguaje ''{1}''"
+switch.unconditional.pattern.and.boolean:
+    text: "'switch' tiene todos los valores booleanos y un patrón incondicional"
+switch.unconditional.pattern.and.default:
+    text: "'switch' tiene tanto un patrón incondicional como una etiqueta 'default'"
+type.argument.in.permits.list:
+    text: No se permiten genéricos en la lista permits
+type.argument.not.allowed:
+    text: No se permiten parámetros de referencia aquí
+type.argument.on.raw.method:
+    text: Argumentos de tipo proporcionados en un método raw
+type.argument.on.raw.type:
+    text: Argumentos de tipo proporcionados en un tipo raw
+type.argument.primitive:
+    text: El argumento de tipo no puede ser de un tipo primitivo
+type.inaccessible:
+    text: "''{0}'' es inaccesible desde aquí"
+type.incompatible:
+    text: "Tipos incompatibles. Encontrado: ''{1}'', requerido: ''{0}''"
+type.incompatible.reason.ambiguous.method.reference:
+    text: "razón: la referencia a método es ambigua: tanto ''{0}'' como ''{1}'' coinciden"
+type.incompatible.reason.inference:
+    text: 'razón: {0}'
+type.incompatible.tooltip.provided.type:
+    text: 'Proporcionado:'
+type.incompatible.tooltip.required.type:
+    text: 'Tipo requerido:'
+type.parameter.absent.class:
+    text: "El tipo ''{0}'' no tiene parámetros de tipo"
+type.parameter.absent.method:
+    text: "El método ''{0}'' no tiene parámetros de tipo"
+type.parameter.actual.inferred.mismatch:
+    text: El argumento de tipo real y el tipo inferido se contradicen entre sí
+type.parameter.cannot.be.followed.by.other.bounds:
+    text: El parámetro de tipo no puede ir seguido de otros límites
+type.parameter.count.mismatch:
+    text: 'Número incorrecto de argumentos de tipo: {0}; se requieren: {1}'
+type.parameter.duplicate:
+    text: "Parámetro de tipo duplicado: ''{0}''"
+type.parameter.extends.interface.expected:
+    text: Se espera una interfaz aquí
+type.parameter.incompatible.upper.bounds:
+    text: 'El parámetro de tipo {0} tiene límites superiores incompatibles: {1}'
+type.parameter.inferred.type.not.within.extend.bound:
+    text: "El tipo inferido ''{2}'' para el parámetro de tipo ''{0}'' no está dentro de su límite; debería extender ''{1}''"
+type.parameter.inferred.type.not.within.implement.bound:
+    text: "El tipo inferido ''{2}'' para el parámetro de tipo ''{0}'' no está dentro de sus límites; debe implementar ''{1}''"
+type.parameter.on.annotation:
+    text: '@interface no puede tener parámetros de tipo'
+type.parameter.on.annotation.member:
+    text: los miembros de @interface no pueden tener parámetros de tipo
+type.parameter.on.enum:
+    text: Un enum no puede tener parámetros de tipo
+type.parameter.type.not.within.extend.bound:
+    text: "El parámetro de tipo ''{0}'' no está dentro de sus límites; debe extender ''{1}''"
+type.parameter.type.not.within.implement.bound:
+    text: "El parámetro de tipo ''{0}'' no está dentro de su límite; debe implementar ''{1}''"
+type.restricted.identifier:
+    text: "Referencia no válida al tipo restringido ''{0}''"
+type.unknown.class:
+    text: "Clase desconocida: ''{0}''"
+type.void.illegal:
+    text: "Tipo no válido: 'void'"
+type.void.not.allowed:
+    text: "el tipo 'void' no está permitido aquí"
+type.wildcard.cannot.be.instantiated:
+    text: "El tipo comodín ''{0}'' no se puede instanciar directamente"
+type.wildcard.may.be.used.only.as.reference.parameters:
+    text: Los comodines solo pueden usarse como parámetros de referencia
+type.wildcard.not.expected:
+    text: No se esperaba un comodín
+unary.operator.not.applicable:
+    text: "El operador ''{0}'' no se puede aplicar a ''{1}''"
+underscore.identifier:
+    text: "Desde Java 9, '_' es una palabra clave y no puede usarse como identificador"
+underscore.identifier.lambda:
+    text: "No se permite el uso de '_' como nombre de parámetro lambda"
+underscore.identifier.unnamed:
+    text: "No se permite el uso de '_' como referencia"
+unnamed.field.not.allowed:
+    text: No se permite un campo sin nombre
+unnamed.method.parameter.not.allowed:
+    text: No se permiten parámetros de método sin nombre
+unnamed.variable.brackets:
+    text: No se permiten corchetes después de una declaración de variable sin nombre
+unnamed.variable.not.allowed.in.this.context:
+    text: No se permite la declaración de variables sin nombre en este contexto
+unnamed.variable.without.initializer:
+    text: La declaración de variable sin nombre debe tener un inicializador
+value.class.extends.non.abstract:
+    text: "Las clases de valor solo pueden extender clases de valor abstractas o 'java.lang.Object'"
+vararg.cstyle.array.declaration:
+    text: No se permite la declaración de arrays al estilo C en parámetros vararg
+vararg.not.last.parameter:
+    text: El parámetro vararg debe ser el último de la lista
+variable.already.assigned:
+    text: "Es posible que la variable ''{0}'' ya haya sido asignada"
+variable.already.assigned.constructor:
+    text: "No se puede asignar el campo final ''{0}'' {1, choice, 1#antes|2#después} de la llamada al constructor encadenado"
+variable.already.assigned.field:
+    text: "El campo final ''{0}'' ya está inicializado en otro inicializador de campo"
+variable.already.assigned.initializer:
+    text: "El campo final ''{0}'' ya se ha inicializado en un inicializador de clase"
+variable.already.defined:
+    text: "La variable ''{0}'' ya está definida en el ámbito"
+variable.assigned.in.loop:
+    text: "La variable ''{0}'' podría ser asignada en un bucle"
+variable.must.be.effectively.final:
+    text: "La variable ''{0}'' se accede desde una clase interna, debe ser final o efectivamente final"
+variable.must.be.effectively.final.guard:
+    text: La variable utilizada en la expresión de guarda debe ser final o efectivamente final
+variable.must.be.effectively.final.lambda:
+    text: La variable usada en una expresión lambda debe ser final o efectivamente final
+variable.must.be.final:
+    text: "Se accede a la variable ''{0}'' desde una clase interna; debe ser declarada final"
+variable.must.be.final.resource:
+    text: La variable utilizada como recurso try-with-resources debe ser final o efectivamente final
+variable.not.initialized:
+    text: "La variable ''{0}'' podría no haber sido inicializada"
+yield.unexpected:
+    text: Yield fuera de la expresión switch
+yield.void:
+    text: "El tipo de expresión no debe ser 'void'"

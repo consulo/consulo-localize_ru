@@ -1,0 +1,84 @@
+action.I18nize.description:
+    text: 将 Java 字符串文字或 JSP 文本替换为国际化表达式
+action.I18nize.text:
+    text: 国际化(_Z)…
+create.property.quickfix.text:
+    text: 创建属性
+duplicate.property.diff.key.option:
+    text: 重复的键值不同(&D)
+duplicate.property.diff.key.problem.descriptor:
+    text: "重复的属性键 ''{0}'' 具有不同的值 #treeend :<br>"
+duplicate.property.diff.key.progress.indicator.text:
+    text: 处理重复的属性键:{0}
+duplicate.property.display.name:
+    text: 重复属性
+duplicate.property.file.scope.option:
+    text: 文件
+duplicate.property.key.error.message:
+    text: 属性键重复
+duplicate.property.key.option:
+    text: 重复键(&K)
+duplicate.property.key.problem.descriptor:
+    text: "重复的属性键 ''{0}'' #treeend 具有值:<br>"
+duplicate.property.key.progress.indicator.text:
+    text: 处理重复的属性键:{0}
+duplicate.property.module.scope.option:
+    text: 模块
+duplicate.property.project.scope.option:
+    text: 项目
+duplicate.property.value.option:
+    text: 重复的值(&V)
+duplicate.property.value.problem.descriptor:
+    text: "重复的属性值''{0}'' #treeend 对应键：<br>"
+duplicate.property.value.progress.indicator.text:
+    text: 处理重复的属性值:{0}
+inspection.javadoc.throws.or.exception.option:
+    text: '@throws或@exception'
+no.property.selected.panel.label:
+    text: <html><body><center>请选择左侧的属性名称以编辑其值</body></html>
+project.view.resource.bundle.tree.node.text:
+    text: "资源包 ''{0}''"
+properties.files.inspection.group.display.name:
+    text: 属性文件
+property.key.expected.parsing.error.message:
+    text: 应为属性键
+remove.property.intention.text:
+    text: 移除属性
+remove.property.quick.fix.name:
+    text: 移除属性
+rename.bundle.enter.new.resource.bundle.base.name.prompt.text:
+    text: 输入新的资源包基名称
+rename.prefix.based.property.key.error.message:
+    text: "无法基于名称 ''{2}'' 的前缀 ''{0}'' 重命名属性键 ''{1}''，请先更改前缀"
+rename.resource.bundle.dialog.title:
+    text: 重命名资源包
+searching.for.property.key.progress.text:
+    text: 正在搜索 {0}
+select.property.separator.dialog.text:
+    text: 选择分隔符
+select.property.separator.dialog.title:
+    text: 属性键分隔符
+select.separator.action.with.empty.separator.name:
+    text: 其他…
+structure.view.group.by.prefixes.action.description:
+    text: 按通用键前缀对属性进行分组
+structure.view.group.by.prefixes.action.name:
+    text: 按前缀
+trail.spaces.property.inspection.display.name:
+    text: 属性中有尾随空格
+unescape:
+    text: 非转义
+unresolved.property.key:
+    text: 无法解析属性键
+unused.message.format.parameter.display.name:
+    text: 缺少消息格式形参
+unused.message.format.parameter.problem.descriptor:
+    text: '在 <code>#ref<code> 中使用形参 {0}，而不使用形参 {1} #loc'
+unused.property.inspection.display.name:
+    text: 未使用的属性
+unused.property.problem.descriptor.name:
+    text: 未使用的属性
+unused.property.suppress.for.file:
+    text: 对整个文件禁止
+unused.property.suppress.for.property:
+    text: 对此属性禁止

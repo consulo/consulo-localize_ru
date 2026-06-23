@@ -1,0 +1,36 @@
+action.NewElement.ProjectView.text:
+    text: 新建文件或目录…
+action.show.excluded.files:
+    text: 显示排除的文件
+action.show.hide.excluded.files:
+    text: 显示/隐藏排除的文件
+child.file.suffix.column.name:
+    text: 子文件后缀
+dialog.message.child.file.suffix.must.be.empty.see.row:
+    text: 子文件后缀不得为空(请参见行 {0})
+dialog.message.parent.child.file.suffixes.must.be.equal.see.row:
+    text: "父文件和子文件后缀不能相等(''{0}''，请参见行 {1})"
+dialog.message.parent.file.suffix.must.be.empty.see.row:
+    text: 父文件后缀不得为空(请参见行 {0})
+file.nesting.dialog.title:
+    text: 文件嵌套
+file.nesting.feature.enabled.checkbox:
+    text: '&显示同名文件为嵌套'
+file.nesting.reset.to.default.button:
+    text: '&恢复默认'
+file.nesting.table.title:
+    text: '嵌套规则:'
+parent.file.suffix.column.name:
+    text: 父文件后缀
+select.in.aspects:
+    text: 方面
+select.in.favorites:
+    text: 收藏夹
+select.in.nav.bar:
+    text: 导航栏
+select.in.packages:
+    text: 包
+select.in.project:
+    text: 项目
+select.in.scope:
+    text: 范围

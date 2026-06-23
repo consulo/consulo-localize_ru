@@ -1,0 +1,34 @@
+action.structureview.show.non.public:
+    text: Не public
+action.structureview.show.properties:
+    text: Свойства
+file.structure.toggle.show.anonymous.classes:
+    text: Ананімныя класы
+file.structure.toggle.show.collapse.show.lambdas:
+    text: Лямбды
+generate.equals.hashcode.accept.sublcasses:
+    text: Прымаць падкласы як параметр метаду equals() [&S]
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>Хоць звычайна гэта не адпавядае кантракту Object.equals(),<br>прыняцце падкласаў можа быць неабходна для карэктнай працы<br>згенераванага метаду з фрэймворкамі, якія генеруюць проксі-падкласы, такімі як Hibernate.</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: Выберыце палі для ўключэння ў equals() [&F]
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: Выберыце палі для ўключэння ў hashCode() [&F]
+generate.equals.hashcode.internal.error:
+    text: Унутраная памылка
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: Выбраць усе палі, што не дапускаюць null [&F]
+generate.equals.hashcode.template:
+    text: 'Шаблон [&T]:'
+generate.equals.hashcode.use.getters:
+    text: Выкарыстоўваць гетары, дзе магчыма [&G]
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: hashCode() не падтрымліваецца для масіваў
+generate.equals.hashcode.wizard.title:
+    text: Згенераваць equals() і hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals() не падтрымліваецца для ўкладзеных масіваў
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: Згенераваны equals() для Object[] можа быць некарэктным
+static.class.initializer:
+    text: '{0}ініцыялізатар класа'

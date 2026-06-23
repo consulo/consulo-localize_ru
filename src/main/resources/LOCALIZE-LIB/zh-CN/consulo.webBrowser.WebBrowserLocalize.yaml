@@ -1,0 +1,26 @@
+browser.error:
+    text: 浏览器错误
+browser.select.in.default.name:
+    text: Web浏览器
+browsers.settings:
+    text: Web浏览器和预览
+chooser.title.select.profiles.ini.file:
+    text: 选择"profiles.ini"文件
+display.name.firefox.settings:
+    text: Firefox设置
+error.0.browser.path.not.specified:
+    text: '{0}浏览器路径未指定。'
+error.file.does.not.exist:
+    text: 文件{0}不存在。
+error.malformed.url:
+    text: 'URL格式错误: {0}'
+error.please.specify.path.to.web.browser:
+    text: 请在{0} | Web浏览器中指定Web浏览器的路径
+label.text.path.to.profiles.ini:
+    text: '"profiles.ini"的路径:'
+label.text.profile:
+    text: '配置文件(&P):'
+title.browser.not.found:
+    text: 浏览器未找到
+title.select.path.to.browser:
+    text: 选择浏览器路径

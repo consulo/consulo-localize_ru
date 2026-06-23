@@ -1,0 +1,524 @@
+action.description.remove.packaging.elements:
+    text: 選択した要素を削除する
+action.name.extract.artifact:
+    text: アーティファクトを抽出...
+action.name.facet.navigate:
+    text: ナビゲートする
+action.name.inline.artifact:
+    text: インラインアーティファクト
+action.name.remove.packaging.element:
+    text: 削除する
+action.name.rename.packaging.element:
+    text: 名前を変更する
+add.action.name:
+    text: 新しく追加する ...
+add.external.annotations.path.description:
+    text: モジュールソースの外部注釈が配置されているパスを選択します。
+add.external.annotations.path.title:
+    text: 外部注釈へのパスを追加する
+add.new.global.library.text:
+    text: 新しいグローバルライブラリ
+add.new.header.text:
+    text: 追加
+add.new.module.text.full:
+    text: モジュール
+add.new.project.library.text:
+    text: 新しいプロジェクトライブラリ
+artifacts.add.copy.action:
+    text: コピーを追加する
+artifacts.create.action:
+    text: '{0}を作成する'
+banner.slogan.artifact.0:
+    text: "アーティファクト{0} ''"
+button.add:
+    text: 追加
+button.remove:
+    text: 削除する
+button.text.attach.files:
+    text: 添付ファイルまたはディレクトリ...
+button.text.ignore.selected:
+    text: 選択を無視する
+button.text.keep.all:
+    text: すべて保ちます
+button.text.remove.selected:
+    text: 削除選択
+checkbox.text.build.on.make:
+    text: プロジェクトビルドに含める
+choose.modules.dialog.description:
+    text: "ライブラリ '' {0} ''が選択されたモジュールに追加されます。"
+choose.modules.dialog.title:
+    text: モジュールを選択
+classpath.add.library.action:
+    text: としょうかん...
+classpath.add.module.dependency.action:
+    text: モジュールの依存関係...
+classpath.add.new.library.action:
+    text: 新しい図書館...
+classpath.add.simple.module.library.action:
+    text: JARまたはディレクトリ...
+classpath.chooser.description.add.module.dependency:
+    text: 現在のモジュールが依存するモジュールを選択します。
+classpath.chooser.title.add.module.dependency:
+    text: モジュールを選択
+classpath.message.library.already.added:
+    text: "ライブラリ '' {0} ''は既にこのモジュールに追加されています"
+classpath.panel.analyze:
+    text: 分析する
+classpath.panel.navigate.action.text:
+    text: ナビゲートする
+classpath.title.adding.dependency:
+    text: 依存関係の追加
+combobox.item.global.library:
+    text: グローバルライブラリ
+combobox.item.module.library:
+    text: モジュールライブラリ
+combobox.item.project.library:
+    text: プロジェクトライブラリ
+confirmation.message.would.you.like.to.ignore.facet:
+    text: "ファセット '' {0} ''をモジュール '' {1} ''から無視しますか？"
+copy.module.dialog.title:
+    text: コピーモジュール
+dependencies.used.in.popup.title:
+    text: で使われる
+dialog.title.add.framework.0.support:
+    text: '{0}サポートを追加'
+dialog.title.add.frameworks.support:
+    text: フレームワークのサポートを追加する
+dialog.title.extract.artifact:
+    text: アーティファクトを抽出する
+dialog.title.library.downloading.settings:
+    text: ライブラリのダウンロード設定
+dialog.title.packaging.choose.library:
+    text: ライブラリを選択
+dialog.title.packaging.choose.module:
+    text: モジュールを選択
+display.name.artifacts:
+    text: アーティファクト
+drag.n.drop.text.0.packaging.elements:
+    text: '{0}要素'
+element.kind.name.facet:
+    text: ファセット
+element.kind.name.module:
+    text: モジュール
+empty.module.selection.string:
+    text: ここでその詳細を表示または編集するモジュールを選択する
+enter.module.copy.name.error.message:
+    text: モジュールコピー名を入力
+error.adding.module.to.project:
+    text: 'モジュールのプロジェクト追加エラー : {0}'
+error.message.0.cannot.be.placed.under.1:
+    text: '{0}は{1}の下に置くことはできません'
+error.message.0.facet.must.be.placed.under.1.facet:
+    text: '{0}ファセットは{1}ファセットの下に配置する必要があります'
+error.message.0.facets.are.not.allowed.in.1:
+    text: '{0}ファセットは{1}で使用できません'
+error.message.configuration.cannot.load:
+    text: ロードすることはできません
+error.message.facet.type.isn.t.specified:
+    text: ファセットタイプが指定されていません
+error.message.unknown.facet.type.0:
+    text: "不明なファセットタイプ： '' {0} ''"
+external.annotation.prompt:
+    text: 外部注釈プロンプト
+external.annotations.external.option:
+    text: 外部から追加する
+external.annotations.in.code.option:
+    text: コードを追加
+external.annotations.root.chooser.description:
+    text: 外部注釈は適切なフォルダに保存されます
+external.annotations.root.chooser.title:
+    text: '{0}の外部アノテーションルートを選択します。'
+file.chooser.directory.for.downloaded.libraries.description:
+    text: ダウンロードしたライブラリは選択したディレクトリにコピーされます
+file.chooser.directory.for.downloaded.libraries.title:
+    text: ダウンロードされたライブラリのディレクトリ
+find.usages.action.text:
+    text: 用途を探す
+label.text.0.cannot.be.loaded.ignore:
+    text: '{0}はロードできません。'
+label.text.0.cannot.be.loaded.remove:
+    text: '{0}はロードできません。'
+label.text.no.frameworks.detected:
+    text: フレームワークは検出されませんでした。
+label.text.output.directory:
+    text: 出力ディレクトリ：
+label.text.specify.artifact.name:
+    text: 案件名を指定：
+library.attach.files.action:
+    text: ファイルまたはディレクトリの添付
+library.attach.files.description:
+    text: ライブラリのクラス、ソース、ドキュメントが配置されているファイルまたはディレクトリを選択する
+library.attach.files.to.library.action:
+    text: "ファイルまたはディレクトリをライブラリ '' {0} 'に添付"
+library.attach.sources.action:
+    text: ソースを添付
+library.attach.sources.action.busy.text:
+    text: アタッチする...
+library.attach.sources.description:
+    text: ライブラリソースがあるJAR / ZIPファイルまたはディレクトリを選択する
+library.configure.global.title:
+    text: グローバルライブラリを構成する
+library.configure.module.title:
+    text: モジュールライブラリの設定
+library.configure.project.title:
+    text: プロジェクトライブラリを設定する
+library.configure.title:
+    text: ライブラリの設定
+library.docs.node:
+    text: ドキュメンテーション
+library.empty.library.item:
+    text: 空のライブラリ
+library.global.settings:
+    text: グローバルライブラリ
+library.name.already.exists.error:
+    text: ライブラリ "{0}"は既に存在します
+library.name.already.exists.title:
+    text: ライブラリが既に存在する
+library.name.not.specified.error:
+    text: 図書館の名前を入力してください
+library.name.not.specified.title:
+    text: 指定されていないライブラリ名
+library.remove.action:
+    text: 削除する
+library.root.node:
+    text: ルート
+library.sources.node:
+    text: ソース
+loading.components.for:
+    text: "'' {0} ''のコンポーネントの読み込み中..."
+message.no.module.dependency.candidates:
+    text: 依存するモジュールが見つかりませんでした
+message.text.stop.searching.for.frameworks:
+    text: '{0}は現在フレームワークを探しています。'
+module.0.already.exists.error.message:
+    text: "モジュール '' {0} ''は既に存在します"
+module.add.action:
+    text: 追加
+module.add.error.message:
+    text: プロジェクトにモジュールを追加できません：{0}
+module.add.error.title:
+    text: モジュールの追加
+module.already.exists.error:
+    text: "モジュール '' {0} ''はプロジェクトに既に存在します。"
+module.cannot.load.error:
+    text: "モジュールファイル '' {0} ''を読み込めません："
+module.classpath.button.edit:
+    text: 編集...
+module.classpath.button.move.down:
+    text: 下に移動
+module.classpath.button.move.up:
+    text: 上に移動
+module.group.banner.text:
+    text: "モジュールグループ '' {0} ''"
+module.javadoc.add.path.prompt:
+    text: モジュールのjavadocドキュメントがあるJAR / zipファイルまたはディレクトリを選択する
+module.javadoc.add.path.title:
+    text: JavaDocへのパスを追加する
+module.javadoc.add.url.button:
+    text: JavaDoc URLを追加...
+module.libraries.attach.sources.button:
+    text: ソースを添付...
+module.libraries.exclude.all.button:
+    text: すべてを除外する
+module.libraries.include.all.button:
+    text: すべてを含める
+module.libraries.javadoc.url.button:
+    text: ドキュメントのURLを指定...
+module.module.language.level:
+    text: 言語レベル：
+module.new.action:
+    text: 新しいモジュール
+module.new.action.description:
+    text: 新しいモジュールをプロジェクトに追加する
+module.paths.add.content.action:
+    text: コンテンツルートを追加する
+module.paths.add.content.action.description:
+    text: モジュールにコンテンツルートを追加する
+module.paths.add.content.already.exists.error:
+    text: コンテンツルート "{0}"は既に存在します
+module.paths.add.content.dominate.error:
+    text: コンテンツルートが "{0}"に追加されています
+module.paths.add.content.duplicate.error:
+    text: コンテンツルート "{0}"はモジュール "{1}"に対して既に定義されています。
+module.paths.add.content.intersect.error:
+    text: コンテンツルートが "{0}"に追加されています
+module.paths.add.content.prompt:
+    text: コンテンツルートは、このモジュールに関連するすべてのファイルを含むディレクトリです
+module.paths.add.content.title:
+    text: コンテンツルートディレクトリを選択
+module.paths.exclude.output.checkbox:
+    text: 出力パスを除外する
+module.paths.excluded.group:
+    text: 除外されたフォルダ
+module.paths.include.excluded.tooltip:
+    text: 含める
+module.paths.output.label:
+    text: 出力パス：
+module.paths.output.title:
+    text: 出力パスを選択
+module.paths.remove.content.prompt:
+    text: コンテンツルート "{0}"を削除しますか？
+module.paths.remove.content.title:
+    text: コンテンツルートを削除する
+module.paths.remove.content.tooltip:
+    text: コンテンツエントリを削除する
+module.paths.remove.tooltip:
+    text: 削除する
+module.paths.searching.source.roots.progress:
+    text: '{0}でソースルートを検索しています'
+module.paths.searching.source.roots.title:
+    text: ソースルートを追加する
+module.paths.sources.group:
+    text: ソースフォルダ
+module.paths.test.output.label:
+    text: テスト出力パス：
+module.paths.test.output.title:
+    text: テスト出力パスを選択
+module.paths.test.sources.group:
+    text: テストソースフォルダ
+module.paths.title:
+    text: ソース
+module.paths.validation.duplicate.content.error:
+    text: コンテンツルート "{0}"はモジュール "{1}"および "{2}"に対して定義されています。
+module.paths.validation.duplicate.source.root.error:
+    text: モジュール "{0}"
+module.paths.validation.source.root.belongs.to.another.module.error:
+    text: ソースルート "{0}"
+module.remove.action:
+    text: 削除する
+module.remove.command:
+    text: モジュールをプロジェクトから切り離す
+module.remove.from.project.confirmation:
+    text: "モジュール '' {0} ''をプロジェクトから削除しますか？"
+module.sdk.not.defined:
+    text: モジュールSDKが定義されていません
+module.toggle.excluded.action:
+    text: 除外
+module.toggle.excluded.action.description:
+    text: モジュールからのディレクトリのインクルード/除外
+module.toggle.sources.action:
+    text: ソース
+module.toggle.test.sources.action:
+    text: テストソース
+module.type.empty.description:
+    text: ダイアログ構造のプロジェクト構造が開き、プロジェクト構造の構築に役立ちます
+module.type.empty.name:
+    text: 空のプロジェクト
+modules.classpath.title:
+    text: 依存関係
+modules.order.export.export.column:
+    text: 輸出する
+modules.order.export.scope.column:
+    text: 範囲
+modules.order.export.title:
+    text: 注文/輸出
+output.tab.title:
+    text: 出力
+path.0.is.invalid.error.message:
+    text: "パス '' {0} ''は無効です"
+progress.text.searching.frameworks:
+    text: フレームワークの検索
+project.configuration.save.file.not.found:
+    text: '{0}が見つかりません'
+project.configure.path.variables.description.title:
+    text: 説明：
+project.configure.path.variables.no.description.text:
+    text: 説明はありません
+project.configure.path.variables.title:
+    text: パス変数の設定
+project.convert.javadoc.paths.error:
+    text: JavaDocパスは変換できません。
+project.convert.multiple.output.paths.error:
+    text: プロジェクトは複数の出力パスを使用します。
+project.convert.old.prompt:
+    text: 開いているプロジェクト{0}は古い形式です。
+project.convert.problems.detected:
+    text: プロジェクトの変換中に、以下の問題が検出されました：
+project.convert.problems.help:
+    text: 詳細は、「ヘルプを表示」を押してください。
+project.convert.problems.help.button:
+    text: ヘルプを表示
+project.convert.problems.title:
+    text: プロジェクト変換の問題
+project.convert.source.roots.not.under.project.roots.error:
+    text: プロジェクトの根底にないソースルートがあります。
+project.index.building.exclude.roots.progress:
+    text: 除外ルートの構築...
+project.index.processing.library.classes.progress:
+    text: 処理モジュール "{0}"のライブラリクラス...
+project.index.processing.library.sources.progress:
+    text: 処理モジュール "{0}"のライブラリソース...
+project.index.processing.module.content.progress:
+    text: 処理モジュール "{0}"のコンテンツ...
+project.index.processing.module.sources.progress:
+    text: 処理モジュール "{0}"のソース...
+project.index.scanning.files.progress:
+    text: ファイルのスキャン中...
+project.inherit.compile.output.path:
+    text: プロジェクトを継承して出力パスをコンパイルする
+project.language.level.reload.prompt:
+    text: 言語レベルの変更は、プロジェクトのリロードに反映されます。
+project.language.level.reload.title:
+    text: 言語レベルが変更されました
+project.load.default.error:
+    text: 既定のプロジェクトを読み込む際のエラー
+project.load.new.version.warning:
+    text: あなたが開こうとしているプロジェクト{0}は、新しいバージョンの{1}によって作成されました。
+project.load.progress:
+    text: プロジェクトを読み込む
+project.load.undefined.path.variables.all.needed:
+    text: すべてのパス変数を定義する必要があります
+project.load.undefined.path.variables.error:
+    text: プロジェクトファイルに未定義のパス変数があります
+project.load.undefined.path.variables.message:
+    text: プロジェクト構成ファイルには未定義のパス変数があります。
+project.load.undefined.path.variables.title:
+    text: 定義されていないパス変数
+project.load.waiting.watcher:
+    text: プロジェクトディレクトリのスキャン中...
+project.macros.cancel.button:
+    text: プロジェクト負荷をキャンセルする
+project.macros.name.column:
+    text: マクロ名
+project.macros.path.column:
+    text: パス
+project.macros.prompt:
+    text: TODO：メッセージ
+project.macros.variable.missing.error:
+    text: パス変数 "{0}"の値が定義されていません
+project.macros.variable.missing.title:
+    text: 未定義パス変数
+project.module.compile.output.path:
+    text: モジュールコンパイル出力パスを使用する
+project.new.wizard.description.title:
+    text: 説明
+project.new.wizard.from.existent.sources.title:
+    text: 既存のソースから{0}を作成する
+project.new.wizard.from.template.error:
+    text: '{0}タイプは選択されていません'
+project.new.wizard.from.template.title:
+    text: テンプレートから{0}を作成する
+project.new.wizard.import.title:
+    text: 外部モデルから{0}をインポートする
+project.new.wizard.module.content.root.chooser.description:
+    text: 選択されたディレクトリはモジュールコンテンツルートとしてマークされます
+project.new.wizard.module.content.root.chooser.title:
+    text: モジュールコンテンツルートを選択
+project.new.wizard.module.file.chooser.title:
+    text: モジュールファイルの親ディレクトリの選択
+project.new.wizard.module.file.description:
+    text: モジュールの.imlファイルは、選択されたディレクトリ
+project.new.wizard.module.file.title:
+    text: モジュールファイルの場所：
+project.new.wizard.module.name.title:
+    text: モジュール名：
+project.new.wizard.module.root.title:
+    text: コンテンツルート：
+project.new.wizard.progress.title:
+    text: K補まに스터補うま補ねまう補にまに補ねまう
+project.new.wizard.select.type.label:
+    text: タイプを選択
+project.reload.failed:
+    text: 外部変更をロード中にエラーが発生しました：{0}。
+project.reload.failed.title:
+    text: リロードエラー
+project.reload.write.failed:
+    text: "ファイル '' {0} 'に書き込み中にエラーが発生しました。"
+project.reload.write.failed.title:
+    text: 書き込みエラー
+project.roots.classpath.format.label:
+    text: 依存関係格納形式：
+project.roots.display.name:
+    text: モジュール
+project.roots.external.annotations.tab.title:
+    text: 外部注釈
+project.roots.library.problem.message:
+    text: "依存リスト内の無効なアイテム '' {0} ''"
+project.roots.module.banner.text:
+    text: "モジュール '' {0} ''"
+project.roots.module.duplicate.name.message:
+    text: モジュール名が重複しています
+project.roots.module.groups.text:
+    text: モジュールグループは、プロジェクトモジュールを論理的に整理するために使用されます。
+project.roots.module.jdk.problem.message:
+    text: モジュールSDKが定義されていません
+project.roots.output.compiler.title:
+    text: コンパイラの出力
+project.roots.path.tab.title:
+    text: パス
+project.roots.plain.mode.action.text.disabled:
+    text: モジュールグループを非表示にする
+project.roots.plain.mode.action.text.enabled:
+    text: モジュールグループを表示する
+project.roots.project.banner.text:
+    text: "プロジェクト '' {0} 'の一般設定"
+project.roots.project.display.name:
+    text: プロジェクト
+project.roots.project.jdk.inherited:
+    text: プロジェクトSDK
+project.roots.replace.library.entry.message:
+    text: "本当に古いライブラリ '' {0} ''を置き換えますか？"
+project.roots.replace.library.entry.title:
+    text: 既に追加されたライブラリ
+project.save.error:
+    text: プロジェクトを保存できませんでした：
+project.settings.display.name:
+    text: プロジェクトの構造
+prompt.open.project.in.new.frame:
+    text: 新規フレームでプロジェクトを開きますか ?
+rename.message.prefix.module:
+    text: モジュール
+rename.message.prefix.scope:
+    text: 範囲
+rename.scope.title:
+    text: スコープの名前を変更します。
+sdk.configuration.exception:
+    text: "SDK '' {0} ''は無効です。"
+sdk.configure.annotations.tab:
+    text: 注釈
+sdk.configure.editor.title:
+    text: SDKエディタ
+sdk.configure.general.home.path:
+    text: SDKのホームパス：
+sdk.configure.home.file.invalid.error:
+    text: 選択したファイルは{0}の有効なホームではありません
+sdk.configure.home.invalid.error:
+    text: 選択したディレクトリは{0}の有効なホームではありません
+sdk.configure.home.title:
+    text: '{0}のホームディレクトリを選択します。'
+sdk.configure.javadoc.url.prompt:
+    text: ドキュメントURLを入力：
+sdk.configure.javadoc.url.title:
+    text: ドキュメントのURLを指定する
+sdk.configure.save.settings.error:
+    text: 設定を保存できません
+sdk.configure.title:
+    text: SDKの設定
+sdk.configure.type.home.path:
+    text: '{0}ホームパス：'
+sdk.java.corrupt.error:
+    text: "おそらく、 '' {0} ''にインストールされたSDKが壊れています"
+sdk.java.corrupt.title:
+    text: SDKのバージョンを検出できません
+sdk.java.name.template:
+    text: Javaバージョン "{0}"
+sdk.java.unknown.name:
+    text: 未知の
+sdk.list.name.required.error:
+    text: SDK名を指定してください
+sdk.list.unique.name.required.error:
+    text: 別のSDK名を指定してください
+sdk.paths.specify.url.button:
+    text: URLを指定...
+sdk.table.settings:
+    text: SDKテーブル
+sdk.unknown.name:
+    text: 不明なSDK
+title.add.module:
+    text: モジュールの追加
+title.new.project:
+    text: 新規プロジェクト
+title.open.project:
+    text: プロジェクトを開く
+warning.message.some.required.libraries.wasn.t.downloaded:
+    text: 必要なライブラリがダウンロードされていませんでした。

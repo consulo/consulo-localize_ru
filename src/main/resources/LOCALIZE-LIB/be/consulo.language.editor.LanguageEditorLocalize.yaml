@@ -1,0 +1,42 @@
+inlay.hints.show.settings:
+    text: "Адключыць падказкі для метаду ''{0}''"
+settings.hints:
+    text: Убудаваныя падказкі
+settings.hints.group.annotations:
+    text: Анатацыі
+settings.hints.group.annotations.description:
+    text: Паказваць анатацыі, адсутныя ў кодзе.
+settings.hints.group.code.author:
+    text: Автор кода
+settings.hints.group.code.author.description:
+    text: Паказваць аўтара кода на аснове запісаў у СКВ.<br><br>Аўтарам лічыцца апошні, хто рэдагаваў клас, метад або функцыю. Калі ёсць некалькі коммітаў ад розных аўтараў, аўтарам лічыцца той, хто змяніў больш радкоў.
+settings.hints.group.lambdas.description:
+    text: Паказваць няяўныя дэталі ў вобласці дзеяння lambda.
+settings.hints.group.method.chains:
+    text: Ланцугі метадаў
+settings.hints.group.other:
+    text: Прочее
+settings.hints.group.parameters:
+    text: Імёны параметраў
+settings.hints.group.parameters.description:
+    text: Дапамагае перадаваць правільныя аргументы, адлюстроўваючы імёны параметраў у пунктах выкліку.
+settings.hints.group.types:
+    text: Тыпы
+settings.hints.group.types.description:
+    text: Прадастаўляе інфармацыю пра тыпы ў няяўных месцах.
+settings.hints.group.url.path:
+    text: URL-шляхі
+settings.hints.group.url.path.description:
+    text: Дазваляе хутка атрымаць доступ да аперацый з URL, напрыклад тэставанню эндпоінтаў.
+settings.hints.group.values:
+    text: Значэнні
+settings.hints.group.values.description:
+    text: Адзначае месцы выкарыстання спецыяльных значэнняў (напрыклад, NULL).
+settings.hints.new.group.code.vision.description:
+    text: 'Прадастаўляе інфармацыю на аснове аналізу праекта: дэталі іерархіі, праблемы і выкарыстанне.'
+settings.inlay.hints.panel.name:
+    text: Убудаваныя падказкі
+settings.inlay.java.exclude.list:
+    text: Спіс выключэнняў...
+settings.inlay.parameter.hints.panel.name:
+    text: Падказкі па параметрах

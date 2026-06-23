@@ -1,0 +1,630 @@
+action.description.remove.packaging.elements:
+    text: 移除所選元素
+action.name.extract.artifact:
+    text: 擷取 Artifact...
+action.name.facet.navigate:
+    text: 導航
+action.name.inline.artifact:
+    text: 內聯 Artifact
+action.name.remove.packaging.element:
+    text: 移除
+action.name.rename.packaging.element:
+    text: 重新命名
+add.action.name:
+    text: 新增新的 ...
+add.external.annotations.path.description:
+    text: 選取模組源的外部註解所在的路徑
+add.external.annotations.path.title:
+    text: 新增外部註解的路徑
+add.new.global.library.text:
+    text: 新全局庫
+add.new.header.text:
+    text: 新增
+add.new.module.text.full:
+    text: 模組
+add.new.project.library.text:
+    text: 新項目庫
+artifact.source.items.tree.tooltip:
+    text: <html>雙擊元素以放入預設位置<br>拖放元素新增到所需的位置<br>快顯功能表中有更多操作可用</html>
+artifacts.add.copy.action:
+    text: 新增副本
+artifacts.create.action:
+    text: 建立 {0}
+banner.slogan.artifact.0:
+    text: "工件 ''{0}''"
+button.add:
+    text: 新增
+button.existingframe:
+    text: 此視窗(&T)
+button.newframe:
+    text: 新增視窗(&W)
+button.remove:
+    text: 刪除(&R)
+button.text.attach.files:
+    text: 附加檔案或目錄...(&F)
+button.text.ignore.selected:
+    text: 忽略所選
+button.text.keep.all:
+    text: 保留全部
+button.text.remove.selected:
+    text: 移除所選
+checkbox.text.build.on.make:
+    text: 包括在項目構建中(&B)
+choose.modules.dialog.description:
+    text: "庫 ''{0}'' 將被新增到所選模組。"
+choose.modules.dialog.title:
+    text: 選取模組
+classpath.add.library.action:
+    text: 庫...
+classpath.add.module.dependency.action:
+    text: 模組依賴關係...
+classpath.add.new.library.action:
+    text: 新庫...
+classpath.add.simple.module.library.action:
+    text: JARs 或目錄...
+classpath.chooser.description.add.module.dependency:
+    text: 選取目前模組應該依賴的模組：
+classpath.chooser.title.add.module.dependency:
+    text: 選取模組
+classpath.message.library.already.added:
+    text: "庫 ''{0}'' 已經新增到此模組中"
+classpath.panel.analyze:
+    text: 分析
+classpath.panel.navigate.action.text:
+    text: 導航
+classpath.title.adding.dependency:
+    text: 新增依賴關係
+combobox.item.global.library:
+    text: 全局庫
+combobox.item.module.library:
+    text: 模組庫
+combobox.item.project.library:
+    text: 項目庫
+command.deleting.files:
+    text: 正在刪除檔案
+command.finish:
+    text: 完成
+confirmation.message.would.you.like.to.ignore.facet:
+    text: "你想忽略模組 ''{1}'' 的 facet ''{0}'' 嗎？"
+copy.module.dialog.title:
+    text: 複印模組
+dependencies.used.in.popup.title:
+    text: 用於
+dialog.title.add.framework.0.support:
+    text: 新增 {0} 支援
+dialog.title.add.frameworks.support:
+    text: 新增方塊架支援
+dialog.title.extract.artifact:
+    text: 擷取 Artifact
+dialog.title.library.downloading.settings:
+    text: 庫下載設定
+dialog.title.packaging.choose.library:
+    text: 選取庫
+dialog.title.packaging.choose.module:
+    text: 選取模組
+drag.n.drop.text.0.packaging.elements:
+    text: '{0} 元素'
+dumb.service.indexing.paused.due.to:
+    text: 由於{0}，索引編制暫停
+element.kind.name.module:
+    text: 模組
+empty.module.selection.string:
+    text: 在此處選取一個模組以檢視或編輯其細節訊息
+enter.module.copy.name.error.message:
+    text: 輸入模組複製名稱
+error.adding.module.to.project:
+    text: 錯誤新增模組項目：{0}
+error.message.0.cannot.be.placed.under.1:
+    text: '{0} 無法放在 {1} 之下'
+error.message.0.facet.must.be.placed.under.1.facet:
+    text: '{0} facet 必須放在 {1} facet 下面'
+error.message.0.facets.are.not.allowed.in.1:
+    text: '{0} facets 在 {1} 中不允許'
+error.message.configuration.cannot.load:
+    text: 無法載入
+error.message.facet.type.isn.t.specified:
+    text: Facet 類型未指定
+error.message.unknown.facet.type.0:
+    text: "未知 facet 類型:''{0}''"
+external.annotation.prompt:
+    text: 外部註解提示
+external.annotations.external.option:
+    text: 從外部新增(&E)
+external.annotations.in.code.option:
+    text: 新增代碼(&C)
+external.annotations.root.chooser.description:
+    text: 外部註解將儲存在適當的資料夾中
+external.annotations.root.chooser.title:
+    text: 選取 {0} 的外部註解根
+external.annotations.suggestion.message:
+    text: <html><body>如果您不想在代碼中註解，則可以使用外部存儲。<br> 要設定外部註解，請指定將放置註解的檔案的根目錄</body></html>
+file.chooser.directory.for.downloaded.libraries.description:
+    text: 下載的庫將被複製到選擇的目錄
+file.chooser.directory.for.downloaded.libraries.title:
+    text: 下載的庫的目錄
+find.usages.action.text:
+    text: 搜尋使用
+framework.detected.info.text:
+    text: '{0} 個方塊架偵測到。'
+global.library.display.name:
+    text: 全局庫
+label.text.0.cannot.be.loaded.ignore:
+    text: '{0} 無法載入。您可以將其標記為被忽略以禁止此錯誤通知。'
+label.text.0.cannot.be.loaded.remove:
+    text: '{0} 無法載入。您可以將它們從項目中移除(不會刪除任何檔案)。'
+label.text.no.frameworks.detected:
+    text: 沒有偵測到方塊架。
+label.text.output.directory:
+    text: '輸出目錄:'
+label.text.please.select.desired.technologies:
+    text: <html>請選取所需的技術。<br>這將下載所有需要的庫，並在項目設定中建立 Facet 。</html>
+label.text.specify.artifact.name:
+    text: 指定 artifact 名:(&N)
+label.text.the.following.frameworks.are.detected:
+    text: <html><body>在項目中偵測到幾個方塊架。請檢查以下項目，並排除錯誤偵測。</body></html>
+libraries.node.text.ide:
+    text: 庫包含可以將各種功能新增到應用程式的類別。庫還包括可以協助您開發項目的來源檔案和 JavaDoc。<br><br> IntelliJ IDEA 使用庫來協助您完成代碼，驗證，錯誤高亮等。<br><br>全局庫可以在整個項目參照，並可以在所有模組中使用。此外，它們可用於在您的計算機上本機建立的所有項目。<br><br>請注意，全局庫不可用於與您共用項目的任何人。如果您與團隊共用項目，請改用項目庫。<br><br>展開節點並選取子項以管理全局庫。<br><br>要將庫附加到模組，請選取該模組，點擊「依賴關係」選項卡，點擊「新增」並指定庫位置。
+libraries.node.text.module:
+    text: 庫包含可以將各種功能新增到應用程式的類別。庫還包括可以協助您開發項目的來源檔案和 JavaDoc。<br><br> IntelliJ IDEA 使用庫來協助您完成代碼，驗證，錯誤高亮等。<br><br>模組庫僅從他們附加的模組參照。展開節點並選取子項目以管理項目庫。<br><br>要將庫附加到模組，請選取該模組，點擊依賴關係選項卡，點擊新增並指定庫位置。
+libraries.node.text.project:
+    text: 庫包含可以將各種功能新增到應用程式的類別。庫還包括可以協助您開發項目的來源檔案和 JavaDoc。<br><br> IntelliJ IDEA 使用庫來協助您完成代碼，驗證，錯誤高亮等。<br><br>項目庫可以在整個項目參照，並可以在所有模組中使用。此外，它們可以與您共用項目的每個人一起使用。<br><br>展開節點並選取子項目以管理項目庫。<br><br>要將庫附加到模組，請選取該模組，點擊依賴關係選項卡，點擊新增並指定庫位置。
+library.attach.files.action:
+    text: 附加檔案或目錄
+library.attach.files.description:
+    text: 選取庫類別，源和文件所在的檔案或目錄
+library.attach.files.to.library.action:
+    text: "將檔案或目錄附加到庫 ''{0}''"
+library.attach.sources.action:
+    text: 附加源
+library.attach.sources.action.busy.text:
+    text: 附加...
+library.attach.sources.description:
+    text: 選取庫源所在的 JAR/ZIP 檔案或目錄
+library.configure.global.title:
+    text: 設定全局庫
+library.configure.module.title:
+    text: 設定模組庫
+library.configure.project.title:
+    text: 設定項目庫
+library.configure.title:
+    text: 設定庫
+library.docs.node:
+    text: 文件
+library.empty.item:
+    text: <空庫>
+library.empty.library.item:
+    text: 空庫
+library.global.settings:
+    text: 全局庫
+library.name.already.exists.error:
+    text: 庫 "{0}" 已經存在
+library.name.already.exists.title:
+    text: 庫已經存在
+library.name.not.specified.error:
+    text: 請輸入庫名稱
+library.name.not.specified.title:
+    text: 庫名稱未指定
+library.remove.action:
+    text: 移除
+library.root.node:
+    text: 根
+library.sources.node:
+    text: 源碼
+library.sources.not.attached:
+    text: 未附加原始碼
+library.sources.not.found:
+    text: 找不到原始碼
+loading.components.for:
+    text: "為 ''{0}'' 載入組件..."
+message.no.module.dependency.candidates:
+    text: 沒有找到要依賴的模組
+message.text.stop.searching.for.frameworks:
+    text: '{0} 目前正在搜索方塊架。你想停止搜索嗎？'
+module.0.already.exists.error.message:
+    text: "模組 ''{0}'' 已經存在"
+module.add.action:
+    text: 新增
+module.add.error.message:
+    text: '將模組新增到項目中時錯誤: {0}'
+module.add.error.title:
+    text: 新增模組
+module.already.exists.error:
+    text: "模組 ''{0}'' 已經存在於項目中。"
+module.cannot.load.error:
+    text: "無法載入模組檔案 ''{0}''：\n{1}"
+module.circular.dependency.warning.description:
+    text: <html><b>存在循環依賴關係:</b> {0}</html>
+module.circular.dependency.warning.short:
+    text: '{0} 之間存在循環依賴關係'
+module.classpath.button.edit:
+    text: 編輯...(&I)
+module.classpath.button.move.down:
+    text: 下移
+module.classpath.button.move.up:
+    text: 上移
+module.group.banner.text:
+    text: "模組組 ''{0}''"
+module.javadoc.add.path.prompt:
+    text: 選取模組 javadoc 文件所在的 JAR/zip 檔案或目錄
+module.javadoc.add.path.title:
+    text: 新增到 JavaDoc 的路徑
+module.javadoc.add.url.button:
+    text: 新增 JavaDoc URL ...
+module.libraries.attach.sources.button:
+    text: 附加源...(&S)
+module.libraries.attach.sources.immediately.button:
+    text: 附加源…
+module.libraries.exclude.all.button:
+    text: 排除全部
+module.libraries.include.all.button:
+    text: 包括全部
+module.libraries.javadoc.url.button:
+    text: 指定文件網址...(&U)
+module.library.display.name:
+    text: 模組庫
+module.module.language.level:
+    text: 語言級別：(&L)
+module.new.action:
+    text: 新增模組
+module.new.action.description:
+    text: 向項目新增新模組
+module.paths.add.content.action:
+    text: 新增內容根目錄(_C)
+module.paths.add.content.action.description:
+    text: 將內容根目錄新增到模組
+module.paths.add.content.already.exists.error:
+    text: 內容根目錄 "{0}" 已經存在
+module.paths.add.content.dominate.error:
+    text: |-
+        被新增的內容根目錄 "{0}"
+        控制現有內容根目錄 "{1}"。
+        內容項目不應相交。
+module.paths.add.content.duplicate.error:
+    text: |-
+        已為模組 "{1}" 定義內容根 "{0}"。
+        項目中的兩個模組不能共用相同的內容根。
+module.paths.add.content.intersect.error:
+    text: |-
+        被新增的內容根目錄 "{0}"
+        位於現有內容根目錄 "{1}" 之下。
+        內容項目不應相交。
+module.paths.add.content.prompt:
+    text: 內容根目錄是包含與此模組相關的所有檔案的目錄
+module.paths.add.content.title:
+    text: 選取內容根目錄
+module.paths.empty.node:
+    text: <空>
+module.paths.exclude.output.checkbox:
+    text: 排除輸出路徑
+module.paths.excluded.group:
+    text: 排除的資料夾
+module.paths.include.excluded.tooltip:
+    text: 包含
+module.paths.output.label:
+    text: 輸出路徑：
+module.paths.output.title:
+    text: 選取輸出路徑
+module.paths.remove.content.prompt:
+    text: 移除內容根目錄 "{0}"？
+module.paths.remove.content.title:
+    text: 移除內容根目錄
+module.paths.remove.content.tooltip:
+    text: 移除內容項目
+module.paths.remove.tooltip:
+    text: 移除
+module.paths.searching.source.roots.progress:
+    text: 搜索 {0} 中的源碼根目錄
+module.paths.searching.source.roots.title:
+    text: 新增源碼根目錄
+module.paths.sources.group:
+    text: 來源資料夾
+module.paths.test.output.label:
+    text: 測試輸出路徑：
+module.paths.test.output.title:
+    text: 選取測試輸出路徑
+module.paths.test.sources.group:
+    text: 測試來源資料夾
+module.paths.title:
+    text: 源碼
+module.paths.validation.duplicate.content.error:
+    text: |-
+        內容根目錄 "{0}" 被模組 "{1}" 和 "{2}" 定義。
+        項目中的兩個模組不能共用相同的內容根。
+module.paths.validation.duplicate.source.root.error:
+    text: |-
+        模組 "{0}"
+        不能包含源碼根目錄 "{1}"。
+        根目錄已經屬於模組 "{2}"
+module.paths.validation.source.root.belongs.to.another.module.error:
+    text: |-
+        源碼根目錄 "{0}"
+        不能在模組 "{1}" 中定義，因為它屬於巢狀模組 "{2}" 的內容
+module.remove.action:
+    text: 移除
+module.remove.command:
+    text: 從項目中分離模組
+module.remove.confirmation:
+    text: "從項目移除 {1, choice, 1#module ''''{0}''''|2#{1} 個模組} ?\n磁碟上不會刪除任何檔案。"
+module.remove.confirmation.prompt:
+    text: |-
+        從項目中移除模組 {0} ?
+        沒有檔案將被刪除。
+module.remove.confirmation.title:
+    text: 移除模組
+module.remove.from.project.confirmation:
+    text: "您要從項目中移除模組 ''{0}'' 嗎？"
+module.remove.last.confirmation:
+    text: |-
+        你確定要從項目中移除{0, choice, 1#唯一一個|2#所有的}模組嗎？
+        磁碟上不會刪除任何檔案。
+module.sdk.not.defined:
+    text: 模組 SDK 未定義
+module.toggle.excluded.action:
+    text: 排除
+module.toggle.excluded.action.description:
+    text: 從模組中包含/排除目錄
+module.toggle.sources.action:
+    text: 源碼
+module.toggle.test.sources.action:
+    text: 測試源
+module.type.empty.description:
+    text: 項目結構對話方塊將開啟，以協助您構建項目結構
+module.type.empty.name:
+    text: 空項目
+modules.classpath.title:
+    text: 依賴
+modules.order.export.export.column:
+    text: 匯出
+modules.order.export.scope.column:
+    text: 範圍
+modules.order.export.title:
+    text: 排序/匯出
+output.tab.title:
+    text: 輸出
+path.0.is.invalid.error.message:
+    text: "路徑 ''{0}'' 無效"
+progress.indexing.scanning:
+    text: 掃瞄檔案索引...
+progress.indexing.updating:
+    text: 索引...
+progress.performing.indexing.tasks:
+    text: 正在執行編制索引任務
+progress.text.searching.frameworks:
+    text: 搜索方塊架。請等待。
+progress.title.deleting.files:
+    text: 正在刪除檔案…
+project.compiler.output:
+    text: <html><b>項目編譯輸出:</b><br>此路徑用於存儲所有項目編譯結果。<br>在此路徑下建立與每個模組對應的目錄。<br>此目錄分別包含兩個子目錄：生產和測試生產代碼和測試源。<br>可以根據需要為每個模組設定特定於模組的編譯器輸出路徑。</html>
+project.configuration.save.file.not.found:
+    text: '{0} 未找到'
+project.configure.path.variables.description.title:
+    text: '描述:'
+project.configure.path.variables.no.description.text:
+    text: 沒有描述
+project.configure.path.variables.title:
+    text: 設定路徑變數
+project.convert.javadoc.paths.error:
+    text: JavaDoc 路徑無法轉換。
+project.convert.multiple.output.paths.error:
+    text: 該項目使用多個輸出路徑。
+project.convert.old.prompt:
+    text: |-
+        您即將開啟的項目 {0} 具有較舊的格式。
+        {1} 將自動將其轉換為新格式。
+        您將無法透過早期版本開啟它。
+        舊的項目檔案將儲存到 {2}。
+        繼續轉換？
+project.convert.problems.detected:
+    text: 在項目轉換期間，偵測到以下問題：
+project.convert.problems.help:
+    text: "\n\n按 '顯示說明' 瞭解更多訊息。"
+project.convert.problems.help.button:
+    text: 顯示說明
+project.convert.problems.title:
+    text: 項目轉換問題
+project.convert.source.roots.not.under.project.roots.error:
+    text: 源碼根目錄不在項目根目錄之下。
+project.index.building.exclude.roots.progress:
+    text: 構建排除根...
+project.index.processing.library.classes.progress:
+    text: 處理模組 "{0}" 庫類別...
+project.index.processing.library.sources.progress:
+    text: 處理模組 "{0}" 庫源碼...
+project.index.processing.module.content.progress:
+    text: 處理模組 "{0}" 內容...
+project.index.processing.module.sources.progress:
+    text: 處理模組 "{0}" 源碼...
+project.index.scanning.files.progress:
+    text: 掃瞄檔案...
+project.inherit.compile.output.path:
+    text: 繼承項目編譯輸出路徑
+project.language.level.reload.prompt:
+    text: |-
+        語言級別變更將在項目重新載入時生效。
+        你現在要重新載入項目 "{0}" 嗎？
+project.language.level.reload.title:
+    text: 語言級別變更
+project.library.display.name:
+    text: 項目庫
+project.load.default.error:
+    text: 載入預設項目時錯誤
+project.load.new.version.warning:
+    text: 您即將開放的項目 {0} 由 {1} 的較新版本建立。如果您開啟它，您的項目可能會被損壞。繼續？
+project.load.progress:
+    text: 載入項目
+project.load.undefined.path.variables.all.needed:
+    text: 應定義所有路徑變數
+project.load.undefined.path.variables.error:
+    text: 項目檔案中有未定義的路徑變數
+project.load.undefined.path.variables.message:
+    text: 項目設定檔案中有未定義的路徑變數。
+project.load.undefined.path.variables.title:
+    text: 路徑變數未定義
+project.load.waiting.watcher:
+    text: 掃瞄項目目錄...
+project.macros.cancel.button:
+    text: 取消項目載入
+project.macros.name.column:
+    text: 巨集名稱
+project.macros.path.column:
+    text: 路徑
+project.macros.prompt:
+    text: 'TODO: 訊息'
+project.macros.variable.missing.error:
+    text: 路徑變數 "{0}" 的值未定義
+project.macros.variable.missing.title:
+    text: 未定義的路徑變數
+project.module.compile.output.path:
+    text: 使用模組編譯輸出路徑
+project.new.wizard.description.title:
+    text: 描述
+project.new.wizard.from.existent.sources.description:
+    text: <html>從現有源建立 {0} {1}</html>
+project.new.wizard.from.existent.sources.title:
+    text: 從現有源建立 {0}(&E)
+project.new.wizard.from.template.description:
+    text: <html>建立 {0} 預定義的支援為您喜歡的方塊架/技術</html>
+project.new.wizard.from.template.error:
+    text: '{0} 類型未選取'
+project.new.wizard.from.template.title:
+    text: 從範本建立 {0}(&T)
+project.new.wizard.import.description:
+    text: <html>從外部模型 ({2}) 建立 {0} {1}</html>
+project.new.wizard.import.title:
+    text: 從外部模型匯入 {0}(&M)
+project.new.wizard.module.content.root.chooser.description:
+    text: 所選目錄將被標記為模組內容根
+project.new.wizard.module.content.root.chooser.title:
+    text: 選取模組內容根
+project.new.wizard.module.file.chooser.title:
+    text: 選取模組檔案父目錄
+project.new.wizard.module.file.description:
+    text: 模組 .iml 檔案將被放置在選擇的目錄中
+project.new.wizard.module.file.title:
+    text: 模組檔案位置：(&U)
+project.new.wizard.module.name.title:
+    text: 模組名：(&M)
+project.new.wizard.module.root.title:
+    text: 內容根:(&R)
+project.new.wizard.progress.title:
+    text: 初始化...
+project.new.wizard.select.type.label:
+    text: 選取類型
+project.order.entry.project:
+    text: <項目>
+project.reload.failed:
+    text: 載入外部變更時錯誤：{0}。項目將重新載入。
+project.reload.failed.title:
+    text: 重新載入錯誤
+project.reload.write.failed:
+    text: "寫入檔案錯誤 ''{0}''。項目可能未正確重載入。"
+project.reload.write.failed.title:
+    text: 寫錯誤
+project.root.module.source:
+    text: <模組源>
+project.roots.classpath.format.label:
+    text: 依賴存儲格式：
+project.roots.display.name:
+    text: 模組
+project.roots.error.message.invalid.roots:
+    text: 無效的 {0} 個根目錄
+project.roots.external.annotations.description:
+    text: <html>管理附加到此模組的外部註解。</html>
+project.roots.external.annotations.tab.title:
+    text: 外部註解
+project.roots.javadoc.tab.description:
+    text: <html>管理附加到此模組的外部 JavaDocs。外部 JavaDoc 覆寫您可能在您的模組中的 JavaDoc 註解。</html>
+project.roots.library.problem.message:
+    text: "依賴關係清單中的無效項 ''{0}''"
+project.roots.module.banner.text:
+    text: "模組 ''{0}''"
+project.roots.module.duplicate.name.message:
+    text: 重複模組名稱
+project.roots.module.groups.text:
+    text: 模組組用於邏輯組織項目模組。
+project.roots.module.jdk.problem.message:
+    text: 模組 SDK 未定義
+project.roots.output.compiler.title:
+    text: 編譯器輸出
+project.roots.path.tab.title:
+    text: 路徑
+project.roots.plain.mode.action.text.disabled:
+    text: 隱藏模組組
+project.roots.plain.mode.action.text.enabled:
+    text: 顯示模組組
+project.roots.project.banner.text:
+    text: "項目 ''{0}'' 的一般設定"
+project.roots.project.jdk.inherited:
+    text: 項目 SDK
+project.roots.replace.library.entry.message:
+    text: "你真的想取代舊的庫 ''{0}'' 嗎？"
+project.roots.replace.library.entry.title:
+    text: 庫已經新增
+project.roots.tooltip.library.has.broken.paths:
+    text: "庫有 ''{0}'' 有損壞的路徑。"
+project.save.error:
+    text: |-
+        無法儲存項目：
+        {0}
+project.settings.display.name:
+    text: 項目結構
+prompt.open.project.in.new.frame:
+    text: <html><body>新項目可以在新視窗中開啟或替換項目在現有的視窗。<br>你想如何開啟項目?</body></html>
+rename.message.prefix.module:
+    text: 模組
+rename.message.prefix.scope:
+    text: 範圍
+rename.module.title:
+    text: 重新命名模組(&M)
+rename.scope.title:
+    text: 重新命名範圍。
+sdk.configuration.exception:
+    text: "SDK ''{0}'' 無效。"
+sdk.configure.annotations.tab:
+    text: 註解
+sdk.configure.editor.title:
+    text: SDK 編輯器
+sdk.configure.general.home.path:
+    text: SDK 主路徑：
+sdk.configure.home.file.invalid.error:
+    text: 所選檔案不是 {0} 的有效主路徑
+sdk.configure.home.invalid.error:
+    text: 所選目錄不是 {0} 的有效主路徑
+sdk.configure.home.title:
+    text: 選取 {0} 的主目錄
+sdk.configure.javadoc.url.prompt:
+    text: 輸入文件 URL：
+sdk.configure.javadoc.url.title:
+    text: 指定文件 URL
+sdk.configure.save.settings.error:
+    text: 無法儲存設定
+sdk.configure.title:
+    text: 設定 SDK
+sdk.configure.type.home.path:
+    text: '{0} 主路徑:'
+sdk.java.corrupt.error:
+    text: "可能在 ''{0}'' 中安裝的 SDK 已損壞"
+sdk.java.corrupt.title:
+    text: 無法偵測 SDK 版本
+sdk.java.name.template:
+    text: java 版本 "{0}"
+sdk.java.unknown.name:
+    text: 未知的
+sdk.list.name.required.error:
+    text: 請指定 SDK 名稱
+sdk.list.unique.name.required.error:
+    text: 請指定不同的 SDK 名稱
+sdk.paths.specify.url.button:
+    text: 指定 URL...
+sdk.table.settings:
+    text: SDK 表
+sdk.unknown.name:
+    text: 未知 SDK
+title.add.module:
+    text: 新增模組
+title.new.project:
+    text: 新項目
+title.open.project:
+    text: 開啟項目
+warning.message.some.required.libraries.wasn.t.downloaded:
+    text: 某些必需的庫未被下載。你要沒有它也繼續嗎？

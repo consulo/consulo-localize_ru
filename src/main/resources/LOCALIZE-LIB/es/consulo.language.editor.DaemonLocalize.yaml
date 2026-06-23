@@ -1,0 +1,92 @@
+analysis.suspended:
+    text: Se ha suspendido el análisis de código
+class.is.subclassed.by.header:
+    text: Es heredada por<br>
+class.is.subclassed.too.many:
+    text: Tiene subclases
+heavyProcess.type.indexing:
+    text: Indexando…
+heavyProcess.type.processing:
+    text: Procesando…
+heavyProcess.type.syncing:
+    text: Sincronizando…
+import.popup.hint.text:
+    text: <html><body><a href="action">Importar {0}…</a> {1}? <span style="color:#{3}">{2}</span></body></html>
+import.popup.multiple:
+    text: ¿{0}? (múltiples opciones…)
+import.popup.text:
+    text: ¿{0}?
+inspection.collapse.description:
+    text: menos…
+inspection.extended.description:
+    text: más…
+interface.is.implemented.by.header:
+    text: Implementada por<br>
+interface.is.implemented.too.many:
+    text: Tiene implementaciones
+iw.status.analyzing:
+    text: Analizando…
+iw.status.off:
+    text: DESACTIVADO
+iw.status.paused:
+    text: Pausado…
+method.implements:
+    text: Implementa el método en <a href="#javaClass/{1}">{1}</a>
+method.implements.in:
+    text: "Implementa el método ''{0}'' en <a href=\"#javaClass/{1}\">{1}</a>"
+method.is.implemented.header:
+    text: Se implementa en <br>
+method.is.implemented.too.many:
+    text: Tiene implementaciones
+method.is.overridden.too.many:
+    text: Se sobrescribe en las subclases
+method.is.overriden.header:
+    text: Se sobrescribe en <br>
+method.overrides:
+    text: Sobrescribe el método en <a href="#javaClass/{1}">{1}</a>
+method.overrides.in:
+    text: "Sobrescribe el método ''{0}'' en <a href=\"#javaClass/{1}\">{1}</a>"
+navigation.findUsages.title.super.method:
+    text: Supermétodos de {0}
+navigation.title.implementation.method:
+    text: <html><body>Seleccionar implementación de <b>{0}</b> ({1, choice, 1#1 método encontrado|2#{1,number} métodos encontrados})</body></html>
+navigation.title.overrider.method:
+    text: <html><body>Elija el método para sobrescribir de <b>{0}</b> ({1, choice, 1#1 método|2#{1,number} métodos} encontrados)</body></html>
+navigation.title.subclass:
+    text: <html><body>Seleccionar subclase de <b>{0}</b> ({1, choice, 1#1 clase encontrada|2#{1,number} clases encontradas}{2})</body></html>
+navigation.title.super.method:
+    text: Elegir supermétodo de {0}
+no.analysis.performed:
+    text: No se ha realizado ningún análisis
+no.errors.or.warnings.found:
+    text: No se encontraron errores ni advertencias
+pass.inspection:
+    text: Inspecciones
+pass.syntax:
+    text: Análisis sintáctico
+pass.wolf:
+    text: Comprobando archivos rojos
+performing.code.analysis:
+    text: Realizando análisis de código
+popup.title.configure.highlighting.level:
+    text: Nivel de resaltado para {0}
+process.title.file.is.binary:
+    text: El archivo es binario
+process.title.file.is.decompiled:
+    text: Archivo descompilado
+process.title.file.is.generated:
+    text: Archivo generado
+process.title.highlighting.is.disabled.for.this.file:
+    text: El resaltado está desactivado para este archivo
+process.title.highlighting.is.paused.temporarily:
+    text: Resaltado pausado temporalmente
+process.title.highlighting.level.is.none:
+    text: Resaltado desactivado
+process.title.no.file:
+    text: Sin archivo
+process.title.project.is.disposed:
+    text: El proyecto se ha eliminado
+shallow.analysis.completed:
+    text: Análisis superficial completado
+shallow.analysis.completed.details:
+    text: Los resultados completos estarán disponibles una vez que se complete el análisis del proyecto

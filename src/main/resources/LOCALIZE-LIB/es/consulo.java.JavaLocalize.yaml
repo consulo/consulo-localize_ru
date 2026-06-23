@@ -1,0 +1,142 @@
+code.vision.implementations.hint:
+    text: "{0, choice, 1#1 implementación|2#{0,number}'{1,choice,0#|1#+}' implementaciones}"
+code.vision.inheritors.hint:
+    text: "{0, choice, 1#1 heredero|2#{0,number}'{1,choice,0#|1#+}' herederos}"
+code.vision.overrides.hint:
+    text: "{0, choice, 1#1 sobrescritura|2#{0,number}'{1,choice,0#|1#+}' sobrescrituras}"
+usages.telescope:
+    text: '{0,choice, 0#0 usos|1#1 uso|2#{0,number} usos}'
+action.go.to.implementation.text:
+    text: Ir a la(s) implementación(es)
+action.go.to.overriding.methods.text:
+    text: Ir a los métodos sobrescritos
+action.go.to.subclass.text:
+    text: Ir a subclase(s)
+action.go.to.super.method.text:
+    text: Ir al supermétodo
+action.migrate.text:
+    text: Sí
+checkbox.collapse.annotations:
+    text: Anotaciones
+checkbox.collapse.anonymous.classes:
+    text: Clases anónimas
+checkbox.collapse.closures:
+    text: '"Closures" (clases anónimas que implementan un método, antes de Java 8)'
+checkbox.collapse.end.of.line.comments:
+    text: Secuencia de comentarios al final de la línea
+checkbox.collapse.file.header:
+    text: Cabecera de archivo
+checkbox.collapse.generic.constructor.parameters:
+    text: Parámetros de métodos y constructores genéricos
+checkbox.collapse.html.style.attribute:
+    text: "Atributo 'style' de HTML"
+checkbox.collapse.i18n.messages:
+    text: Cadenas I18n
+checkbox.collapse.inner.classes:
+    text: Clases internas
+checkbox.collapse.one.line.methods:
+    text: Métodos de una sola línea
+checkbox.collapse.simple.property.accessors:
+    text: Accesores de propiedades simples
+class.file.decompiled.text:
+    text: Archivo .class descompilado
+class.file.open.source.action:
+    text: Abrir archivo fuente
+class.not.found.error.message:
+    text: "No se encontró la clase ''{0}''"
+dependencies.tree.node.default.package.abbreviation:
+    text: <paquete predeterminado>
+error.package.already.contains.package.html:
+    text: "El paquete ''{0}'' ya tiene un archivo ''package.html''. ¿Desea crear ''package-info.java'' de todos modos?"
+error.package.html.found.title:
+    text: "Se encontró 'package.html'"
+gutter.implemented.method:
+    text: Método implementado
+gutter.implementing.method:
+    text: Implementando método
+gutter.overridden.method:
+    text: Método sobrescrito
+gutter.overriding.method:
+    text: Método que sobrescribe
+gutter.service:
+    text: Servicio
+gutter.sibling.inherited.method:
+    text: Método heredado hermano
+inlay.MethodChainsInlayProvider.description:
+    text: Tipos de retorno de métodos en cadenas de llamadas.
+inspection.default.annotation.param:
+    text: Valor predeterminado del parámetro de anotación
+java.method.chains.inlay.provider.name:
+    text: Cadenas de métodos
+label.method:
+    text: "Método ''{0}''"
+library.choose.one.to.attach:
+    text: |-
+        Seleccionar bibliotecas para adjuntar fuentes
+        library.choose.one.to.attach=<html><body>Varias bibliotecas contienen el archivo.<br>Seleccionar bibliotecas para adjuntar fuentes</body></html>
+notification.navigation.to.overriding.classes:
+    text: No es posible navegar a las clases que sobrescriben durante la actualización del índice
+notification.navigation.to.overriding.methods:
+    text: La navegación a los métodos de sobreescritura no es posible durante la actualización del índice
+nullable.notnull.annotation.used.label:
+    text: 'Anotación utilizada para la generación de código:'
+nullable.notnull.annotations.panel.title:
+    text: 'Anotaciones {0}:'
+nullable.notnull.annotations.runtime.instrumentation.tooltip:
+    text: Añadir aserciones en tiempo de ejecución para métodos y parámetros anotados con notnull
+nullable.notnull.configuration.dialog.title:
+    text: Configuración de Nullable/NotNull
+options.java.attribute.descriptor.instance.final.field:
+    text: Campos de clase//Campo final de instancia
+options.java.attribute.descriptor.lambda.parameter:
+    text: Parámetros
+project.roots.native.library.node.text:
+    text: Ubicaciones de bibliotecas nativas
+quickfix.family.remove.redundant.parameter:
+    text: Eliminar parámetro redundante
+settings.inlay.java.annotations:
+    text: Anotaciones
+settings.inlay.java.builder.like.methods:
+    text: Métodos de tipo builder
+settings.inlay.java.complex.expressions.binary.functional.array.access.and.other:
+    text: Expresiones complejas como argumentos
+settings.inlay.java.enum.constants:
+    text: Constantes de enumeración
+settings.inlay.java.external.annotations:
+    text: Anotaciones externas
+settings.inlay.java.implicit.types.lambda:
+    text: Tipos de lambda
+settings.inlay.java.implicit.types.lambda.description:
+    text: Mostrar pistas integradas para los tipos de parámetros lambda.
+settings.inlay.java.implicit.types.local:
+    text: Tipos implícitos
+settings.inlay.java.implicit.types.local.description:
+    text: Variables locales declaradas con la palabra clave var cuando el tipo inferido puede no estar claro a partir de la parte derecha de la asignación, por ejemplo, al usar un método de fábrica.
+settings.inlay.java.inferred.annotations:
+    text: Anotaciones inferidas
+settings.inlay.java.inheritors:
+    text: Herederos
+settings.inlay.java.methods.with.same.named.numbered.parameters:
+    text: Métodos con parámetros numerados con el mismo nombre
+settings.inlay.java.new.expressions:
+    text: "Expresiones 'new'"
+settings.inlay.java.non.literals.in.case.of.multiple.parameters.with.the.same.type:
+    text: No literales en caso de múltiples parámetros con el mismo tipo
+settings.inlay.java.parameters.with.names.that.are.contained.in.the.method.name:
+    text: Parámetros con nombres contenidos en el nombre del método
+settings.inlay.java.show.hints.for:
+    text: 'Mostrar sugerencias para:'
+settings.inlay.java.show.parameter.hints.for:
+    text: 'Mostrar sugerencias de parámetros para:'
+settings.inlay.java.show.parameter.hints.when.expression.type.is.clear.description:
+    text: Expresiones de inicializador de array, switch, condicional, referencia, instance of, asignación, llamada, calificada, conversión de tipo y acceso a objetos de clase.
+settings.inlay.java.turn.off.showExternal.annotations:
+    text: Desactivar anotaciones externas
+settings.inlay.java.turn.off.showInferred.annotations:
+    text: Desactivar anotaciones inferidas
+settings.inlay.java.turn.on.showExternal.annotations:
+    text: Activar anotaciones externas
+settings.inlay.java.turn.on.showInferred.annotations:
+    text: Activar anotaciones inferidas
+settings.inlay.java.usages:
+    text: Usos

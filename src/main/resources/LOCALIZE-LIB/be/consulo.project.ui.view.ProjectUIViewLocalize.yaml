@@ -1,0 +1,30 @@
+action.ProjectView.FileNesting.description:
+    text: Наладзьце ўкладзенасць файла
+action.ProjectView.FileNesting.text:
+    text: Укладанне файла...
+child.file.suffix.column.name:
+    text: Суфікс даччынага файла
+dialog.message.child.file.suffix.must.be.empty.see.row:
+    text: Суфікс даччынага файла не павінен быць пустым (гл. радок {0})
+dialog.message.parent.child.file.suffixes.must.be.equal.see.row:
+    text: "Суфіксы бацькоўскага і даччынага файлаў не могуць быць аднолькавымі (''{0}'', гл. радок {1})"
+dialog.message.parent.file.suffix.must.be.empty.see.row:
+    text: Суфікс бацькоўскага файла не павінен быць пустым (гл. радок {0})
+file.nesting.dialog.title:
+    text: Укладзенасць файла
+file.nesting.feature.enabled.checkbox:
+    text: Паказаць файлы з аднолькавымі назвамі, укладзеныя [&S]
+file.nesting.reset.to.default.button:
+    text: Скінуць [&R] па змаўчанні
+file.nesting.table.title:
+    text: 'Правілы ўкладання:'
+parent.file.suffix.column.name:
+    text: Суфікс бацькоўскага файла
+select.in.favorites:
+    text: Выбранае
+select.in.packages:
+    text: Пакеты
+select.in.project:
+    text: Праект
+select.in.scope:
+    text: Рэгіён

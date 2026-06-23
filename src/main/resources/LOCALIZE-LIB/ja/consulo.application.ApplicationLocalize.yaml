@@ -1,0 +1,921 @@
+action.add:
+    text: 追加
+action.apply.editor.font.settings:
+    text: エディタのフォント設定を適用する
+action.remove:
+    text: 削除
+application.save.settings.error:
+    text: 'アプリケーション設定を保存できません : {0}'
+arrangement.settings.text.general.text:
+    text: テキスト：
+bulk.reformat.prepare.progress.text:
+    text: 準備...
+bulk.reformat.process.progress.text:
+    text: 処理...
+button.add:
+    text: 追加(&A)...
+button.add.blank:
+    text: 空白の追加(&B)
+button.add.package:
+    text: パッケージの追加(&G)
+button.add.package.p:
+    text: パッケージの追加(&P)
+button.delete:
+    text: 削除
+button.edit.global.settings:
+    text: グローバル設定の編集...
+button.edit.scopes:
+    text: スコープの編集...
+button.export:
+    text: エクスポート...
+button.import:
+    text: インポート...
+button.move.down:
+    text: 下へ移動(&D)
+button.move.up:
+    text: 上へ移動(&U)
+button.remove:
+    text: 削除する
+button.save.as:
+    text: 名前を付けて保存...
+checkbox.add.unambiguous.imports.on.the.fly:
+    text: 明確なインポートの場合はオンザフライで追加する
+checkbox.after.description:
+    text: 説明の後
+checkbox.after.parameter.descriptions:
+    text: パラメータ説明の後
+checkbox.after.return.tag:
+    text: return タグの後
+checkbox.align.attributes:
+    text: 属性の位置合わせをする
+checkbox.align.multiline.array.initializer:
+    text: 配列初期化子
+checkbox.align.multiline.assignments:
+    text: 代入
+checkbox.align.multiline.binary.operation:
+    text: バイナリ演算
+checkbox.align.multiline.call.arguments:
+    text: 引数呼び出し
+checkbox.align.multiline.extends.list:
+    text: リストの拡張
+checkbox.align.multiline.for.statement:
+    text: ステートメント
+checkbox.align.multiline.method.parameters:
+    text: メソッド パラメータ
+checkbox.align.multiline.parenthesized.expression:
+    text: 小括弧付きの式
+checkbox.align.multiline.ternary.operation:
+    text: 三項演算
+checkbox.align.multiline.throws.list:
+    text: スロー リスト
+checkbox.align.parameter.descriptions:
+    text: パラメータ説明の位置を合わせる
+checkbox.align.text:
+    text: テキストの位置合わせをする
+checkbox.align.thrown.exception.descriptions:
+    text: スローされた例外の説明の位置を合わせる
+checkbox.allow.placement.of.caret.after.end.of.line:
+    text: 行末以降へのキャレット移動を許可する
+checkbox.allow.placement.of.caret.inside.tabs:
+    text: タブ文字内へのキャレット移動を許可する
+checkbox.autocomplete.basic:
+    text: ベーシック
+checkbox.autocomplete.common.prefix:
+    text: 共通の接頭辞をオートコンプリートする
+checkbox.autocomplete.smart.type:
+    text: スマート タイプ
+checkbox.block.comment.at.first.column:
+    text: 最初の列にブロック コメントを入れる
+checkbox.caret.blinking.ms:
+    text: 'キャレットの点滅間隔 (ミリ秒):'
+checkbox.collapse.file.header:
+    text: ファイル ヘッダー
+checkbox.collapse.inner.classes:
+    text: 内部クラス
+checkbox.collapse.javadoc.comments:
+    text: <html>JavaDoc コメント</html>
+checkbox.collapse.method.bodies:
+    text: メソッド ボディ
+checkbox.collapse.simple.property.accessors:
+    text: <html>単一プロパティ アクセッサ<html>
+checkbox.collapse.title.imports:
+    text: インポート
+checkbox.collapse.xml.tags:
+    text: XML タグ
+checkbox.color.background:
+    text: 背景
+checkbox.color.effects:
+    text: 効果
+checkbox.color.error.stripe.mark:
+    text: エラー表示マーク
+checkbox.color.foreground:
+    text: 前景
+checkbox.do.not.indent.top.level.class.members:
+    text: <html>トップ レベルのクラス メンバに対して<br>インデントしない</html>
+checkbox.do.not.wrap.one.line.comments:
+    text: 1 行のコメントは折り返さない
+checkbox.editor.tabs.in.single.row:
+    text: エディタ タブを 1 行で表示する
+checkbox.enable.ctrl.mousewheel.changes.font.size:
+    text: <html>Ctrl+マウスホイールでフォントのサイズ変更を可能にする</html>
+checkbox.enable.drag.n.drop.functionality.in.editor:
+    text: <html>エディタ内でのドラッグ＆ドロップを可能にする</html>
+checkbox.enable.javadoc.formatting:
+    text: JavaDoc フォーマットを使用する
+checkbox.enable.leading.asterisks:
+    text: 行頭のアスタリスク (*) を許可する
+checkbox.font.bold:
+    text: 太字
+checkbox.font.italic:
+    text: 斜体
+checkbox.generate.p.on.empty.lines:
+    text: 空白行に "<p/>" を生成する
+checkbox.hide.file.extension.in.editor.tabs:
+    text: エディタ タブでファイル拡張子は表示しない
+checkbox.highlight.current.scope:
+    text: 現在のスコープを強調表示する
+checkbox.highlight.matched.brace:
+    text: 組になる中括弧を強調表示する
+checkbox.honor.camelhumps.words.settings.on.double.click:
+    text: <html><body>ダブルクリックで選択したときに<br>"キャメル ケース" (ラクダ型表記) を有効にする</body></html>
+checkbox.indent.absolute.label.indent:
+    text: 絶対ラベル インデント
+checkbox.indent.keep.indents.on.empty.lines:
+    text: 空行にインデントを残す
+checkbox.indent.smart.tabs:
+    text: スマート タブ
+checkbox.indent.use.same.settings.for.all.file.types:
+    text: すべてのファイル タイプに同じ設定を使用する
+checkbox.indent.use.tab.character:
+    text: タブ文字を使用する
+checkbox.indenting.backspace:
+    text: バックスペーススマートインデント
+checkbox.insert.both.parentheses.when.no.arguments:
+    text: "引数がないとき '()' を挿入する"
+checkbox.insert.imports.for.inner.classes:
+    text: インナークラスのインポートを挿入する
+checkbox.insert.pair.bracket:
+    text: 組になる大括弧を挿入する
+checkbox.insert.pair.curly.brace:
+    text: "組になる '}' を挿入する"
+checkbox.insert.pair.percent.gt.in.jsp:
+    text: "JSP で 組になる '%>' を挿入する"
+checkbox.insert.pair.quote:
+    text: 組になる引用符を挿入する
+checkbox.javadoc.stub.after.slash.star.star:
+    text: "'/**' の後に JavaDoc スタブを挿入する"
+checkbox.keep.empty.lines:
+    text: 空白行を維持する
+checkbox.keep.empty.param.tags:
+    text: 空の @param タグを維持する
+checkbox.keep.empty.return.tags:
+    text: 空の @return タグを維持する
+checkbox.keep.empty.throws.tags:
+    text: 空の @throws タグを維持する
+checkbox.keep.invalid.tags:
+    text: 無効なタグを維持する
+checkbox.keep.line.breaks:
+    text: 行ブレイクを維持する
+checkbox.keep.when.reformatting.control.statement.in.one.line:
+    text: 制御文を 1 行にする
+checkbox.keep.white.spaces:
+    text: 空白を維持する
+checkbox.line.comment.add.space:
+    text: コメント開始時にスペースを追加する
+checkbox.line.comment.at.first.column:
+    text: 最初の列に行コメントを入れる
+checkbox.make.generated.local.variables.final:
+    text: 生成したローカル変数を final とする
+checkbox.make.generated.parameters.final:
+    text: 生成したパラメータを final とする
+checkbox.mark.modified.tabs.with.asterisk:
+    text: 変更したタグをアスタリスク (*) でマークする
+checkbox.next.error.action.goes.to.errors.first:
+    text: "'次のエラー' 選択時はエラー箇所にのみ移動する"
+checkbox.optimize.imports.on.the.fly:
+    text: オンザフライでインポートを最適化する
+checkbox.prefer.longer.names:
+    text: 長い名前を使用する
+checkbox.reformat.on.typing.rbrace:
+    text: "入力時にブロックの再フォーマット '}'"
+checkbox.right.margin:
+    text: 右余白 ([コード スタイル] オプションで設定)
+checkbox.show.breadcrumbs:
+    text: ブレッドクラムを表示する
+checkbox.show.code.folding.outline:
+    text: コードの折りたたみアウトラインを表示する
+checkbox.show.full.signatures:
+    text: 完全なシグネチャを表示する
+checkbox.show.gutter.icons:
+    text: ガターアイコンを表示する
+checkbox.show.import.popup:
+    text: インポート ポップアップを表示する
+checkbox.show.line.numbers:
+    text: 行番号を表示する
+checkbox.show.method.separators:
+    text: メソッド セパレータを表示する
+checkbox.show.only.monospaced.fonts:
+    text: 等幅フォントのみ表示する
+checkbox.show.parameter.name.hints:
+    text: パラメータ名のヒントを表示する
+checkbox.show.signatures:
+    text: シグネチャを表示する
+checkbox.show.static.members.after.instance.qualifier:
+    text: インスタンス限定子の後に静的メンバを表示する
+checkbox.show.tabs.tooltips:
+    text: タブのツールチップを表示する
+checkbox.show.virtual.space.at.file.bottom:
+    text: ファイルの最後に仮想スペースを表示する
+checkbox.show.whitespaces:
+    text: 空白を表示する
+checkbox.smart.end.on.blank.line:
+    text: 空白行での End キー
+checkbox.smart.home:
+    text: Home キー
+checkbox.smart.indent:
+    text: スマート インデント
+checkbox.smooth.scrolling:
+    text: スクロールを滑らかにする
+checkbox.spaces.additive.operators:
+    text: 加法演算子 (+、-)
+checkbox.spaces.after.colon:
+    text: "':' の後"
+checkbox.spaces.after.colon.in.label.declaration:
+    text: "ラベル宣言の ':' の後"
+checkbox.spaces.after.comma:
+    text: カンマの後
+checkbox.spaces.after.question:
+    text: "'?' の後"
+checkbox.spaces.after.semicolon:
+    text: セミコロンの後
+checkbox.spaces.after.type.cast:
+    text: 型キャストの後
+checkbox.spaces.annotation.parameters:
+    text: 注釈パラメータ
+checkbox.spaces.annotation.parentheses:
+    text: 注釈の小括弧
+checkbox.spaces.around.equals.in.attribute:
+    text: 属性の "=" の周囲
+checkbox.spaces.around.tag.name:
+    text: タグ名の周囲
+checkbox.spaces.array.initializer.left.brace:
+    text: 配列初期化子の左中括弧
+checkbox.spaces.assignment.operators:
+    text: 代入演算子 (=、+=、...)
+checkbox.spaces.before.colon:
+    text: "':' の前"
+checkbox.spaces.before.comma:
+    text: カンマの前
+checkbox.spaces.before.question:
+    text: "'?' の前"
+checkbox.spaces.before.semicolon:
+    text: セミコロンの前
+checkbox.spaces.bitwise.operators:
+    text: ビット演算子 (\&、|、^)
+checkbox.spaces.catch.left.brace:
+    text: '"catch" の左中括弧'
+checkbox.spaces.catch.parentheses:
+    text: '"catch" の小括弧'
+checkbox.spaces.checkbox.spaces.method.call.parentheses:
+    text: メソッド呼び出しの小括弧
+checkbox.spaces.checkbox.spaces.method.declaration.parentheses:
+    text: メソッド宣言の小括弧
+checkbox.spaces.class.left.brace:
+    text: クラスの左中括弧
+checkbox.spaces.do.left.brace:
+    text: '"do" の左中括弧'
+checkbox.spaces.else.left.brace:
+    text: '"else" の左中括弧'
+checkbox.spaces.equality.operators:
+    text: 等価演算子 (==、!=)
+checkbox.spaces.finally.left.brace:
+    text: '"finally" の左中括弧'
+checkbox.spaces.for.left.brace:
+    text: '"for" の左中括弧'
+checkbox.spaces.for.parentheses:
+    text: '"for" の小括弧'
+checkbox.spaces.if.left.brace:
+    text: '"if" の左中括弧'
+checkbox.spaces.if.parentheses:
+    text: '"if" の小括弧'
+checkbox.spaces.in.empty.tag:
+    text: 空のタグ内
+checkbox.spaces.logical.operators:
+    text: 論理演算子 (\&\&、||)
+checkbox.spaces.method.call.parentheses:
+    text: メソッド呼び出しの小括弧
+checkbox.spaces.method.declaration.parentheses:
+    text: メソッド宣言の小括弧
+checkbox.spaces.method.left.brace:
+    text: メソッドの左中括弧
+checkbox.spaces.multiplicative.operators:
+    text: 乗法演算子 (*、/、%)
+checkbox.spaces.relational.operators:
+    text: 比較演算子 (<、>、<=、>=)
+checkbox.spaces.shift.operators:
+    text: シフト演算子 (<<、>>、>>>)
+checkbox.spaces.switch.left.brace:
+    text: '"switch" の左中括弧'
+checkbox.spaces.switch.parentheses:
+    text: '"switch" の小括弧'
+checkbox.spaces.synchronized.left.brace:
+    text: '"synchronized" の左中括弧'
+checkbox.spaces.synchronized.parentheses:
+    text: '"synchronized" の小括弧'
+checkbox.spaces.try.left.brace:
+    text: '"try" の左中括弧'
+checkbox.spaces.type.cast.parentheses:
+    text: 型キャストの小括弧
+checkbox.spaces.while.left.brace:
+    text: '"while" の左中括弧'
+checkbox.spaces.while.parentheses:
+    text: '"while" の小括弧'
+checkbox.spaces.within.array.initializer.braces:
+    text: 配列初期化子の中括弧内
+checkbox.spaces.within.brackets:
+    text: 大括弧内
+checkbox.suppress.with.suppresswarnings:
+    text: '@SuppressWarnings で抑止する (Java SDK 5.0 のみ)'
+checkbox.use.block.caret:
+    text: ブロック キャレットを使用する
+checkbox.use.camelhumps.words:
+    text: '"キャメル ケース" (ラクダ型表記) を使用する'
+checkbox.use.fully.qualified.class.names:
+    text: 完全修飾クラス名を使用する
+checkbox.use.fully.qualified.class.names.in.javadoc:
+    text: javadoc で完全修飾クラス名を使用する
+checkbox.use.single.class.import:
+    text: シングル クラス インポートを使用する
+checkbox.use.throws.rather.than.exception:
+    text: '@exception の代わりに @throws を使用する'
+checkbox.wrap.at.right.margin:
+    text: 右余白で折り返す
+checkbox.wrap.text:
+    text: テキストを折り返す
+code.style.detector.use.spaces:
+    text: '{0}個のスペースでインデント'
+code.style.detector.use.tabs:
+    text: タブでインデント
+code.style.different.indent.size.detected:
+    text: このファイルは、{1}ではなく{0}スペースでインデントされています
+code.style.indents.detector.show.settings:
+    text: 設定を表示
+code.style.other.file.types:
+    text: その他のファイルタイプ
+code.style.space.indent.detected:
+    text: このファイルは、タブ文字の代わりに{0}個のスペースでインデントされています
+code.style.tab.usage.detected:
+    text: このファイルはスペース{0}ではなくタブでインデントされています
+column.name:
+    text: 名前
+column.value:
+    text: 値
+combobox.case.sensitive.completion:
+    text: '大文字/小文字を区別する補完:'
+combobox.crlf.system.dependent:
+    text: システム依存
+combobox.editor.tab.placement:
+    text: 'エディタ タブの配置 :'
+combobox.effect.bordered:
+    text: 境界線付き
+combobox.effect.strikeout:
+    text: 取り消し線付き
+combobox.effect.underscored:
+    text: 下線付き
+combobox.effect.underwaved:
+    text: 波線付き
+combobox.insert.imports.all:
+    text: すべて
+combobox.insert.imports.ask:
+    text: 確認する
+combobox.insert.imports.none:
+    text: なし
+combobox.line.separator.for.new.files:
+    text: '行セパレータ (新規行):'
+combobox.paste.insert.imports:
+    text: 'インポートの挿入 :'
+combobox.paste.reformat:
+    text: '再フォーマット :'
+combobox.paste.reformat.indent.block:
+    text: ブロックにインデントする
+combobox.paste.reformat.indent.each.line:
+    text: 各行にインデントする
+combobox.paste.reformat.none:
+    text: なし
+combobox.paste.reformat.reformat.block:
+    text: ブロックを再フォーマットする
+combobox.richcopy.color.scheme:
+    text: カラースキーム
+combobox.richcopy.color.scheme.active:
+    text: アクティブなスキーム
+combobox.scheme.name:
+    text: 'スキーム名 :'
+combobox.smart.backspace:
+    text: インデントされない：
+combobox.smart.backspace.off:
+    text: 無効
+combobox.smart.backspace.simple:
+    text: 最も近いインデント位置まで
+combobox.smart.backspace.smart:
+    text: 適切な字下げ位置にする
+combobox.strip.all:
+    text: すべて
+combobox.strip.modified.lines:
+    text: 変更行のみ
+combobox.strip.none:
+    text: なし
+combobox.strip.trailing.spaces.on.save:
+    text: 保存時に行末のスペースを削除する
+combobox.tab.placement.bottom:
+    text: 下
+combobox.tab.placement.left:
+    text: 左
+combobox.tab.placement.none:
+    text: なし
+combobox.tab.placement.right:
+    text: 右
+combobox.tab.placement.top:
+    text: 上
+command.exit:
+    text: 終了
+config.import.invalid.directory.error:
+    text: '{0} はディレクトリではありません'
+date.format.a.few.moments.ago:
+    text: 数分前
+date.format.in.a.few.moments:
+    text: 少しの間
+date.format.in.n.days:
+    text: '{0,choice, 0#0 日間|1#1 日間|2#{0,number} 日間}'
+date.format.in.n.hours:
+    text: '{0,choice, 0#0 時間|1#1 時間|2#{0,number} 時間}'
+date.format.in.n.minutes:
+    text: '{0,choice, 0#0 分間|1#1 分間|2#{0,number} 分間}'
+date.format.in.n.months:
+    text: '{0,choice, 0#0 か月間|1#1 か月間|2#{0,number} か月間}'
+date.format.in.n.weeks:
+    text: '{0,choice, 0#0 週間|1#1 週間|2#{0,number} 週間}'
+date.format.in.n.years:
+    text: '{0,choice, 0#0 年間|1#1 年間|2#{0,number} 年間}'
+date.format.less.than.a.minute:
+    text: 1 分未満
+date.format.n.days:
+    text: '{0,choice, 0#0 日|1#1 日|2#{0,number} 日}'
+date.format.n.days.ago:
+    text: '{0,choice, 0#0 日|1#1 日|2#{0,number} 日}前'
+date.format.n.hours:
+    text: '{0,choice, 0#0 時間|1#1 時間|2#{0,number} 時間}'
+date.format.n.hours.ago:
+    text: '{0,choice, 0#0 時間|1#1 時間|2#{0,number} 時間}前'
+date.format.n.minutes:
+    text: '{0,choice, 0#0 分|1#1 分|2#{0,number} 分}'
+date.format.n.minutes.ago:
+    text: '{0,choice, 0#0 分|1#1 分|2#{0,number} 分}前'
+date.format.n.months:
+    text: '{0,choice, 0#0 か月|1#1 か月|2#{0,number} か月}'
+date.format.n.months.ago:
+    text: '{0,choice, 0#0 か月|1#1 か月|2#{0,number} か月}前'
+date.format.n.weeks:
+    text: '{0,choice, 0#0 週間|1#1 週間|2#{0,number} 週間}'
+date.format.n.weeks.ago:
+    text: '{0,choice, 0#0 週間|1#1 週間|2#{0,number} 週間}前'
+date.format.n.years:
+    text: '{0,choice, 0#0 年間|1#1 年間|2#{0,number} 年間}'
+date.format.n.years.ago:
+    text: '{0,choice, 0#0 年|1#1 年|2#{0,number} 年}前'
+date.format.right.now:
+    text: 現在
+date.format.today:
+    text: 今日
+date.format.yesterday:
+    text: 昨日
+date.frequency:
+    text: '{0} に 1 回'
+editbox.autopopup.in.ms:
+    text: '自動ポップアップ間隔 (ミリ秒):'
+editbox.autopopup.javadoc.in.ms:
+    text: 'JavaDoc の自動ポップアップ間隔 (ミリ秒):'
+editbox.autoreparse.delay.ms:
+    text: '自動解析までの間隔 (ミリ秒):'
+editbox.blanklines.after.class.header:
+    text: 'クラス ヘッダーの後 :'
+editbox.blanklines.after.imports:
+    text: 'import の後 :'
+editbox.blanklines.after.package.statement:
+    text: 'package 文の後 :'
+editbox.blanklines.around.class:
+    text: 'class の周囲 :'
+editbox.blanklines.around.field:
+    text: 'フィールドの周囲 :'
+editbox.blanklines.around.method:
+    text: 'メソッドの周囲 :'
+editbox.blanklines.before.imports:
+    text: 'import の前 :'
+editbox.blanklines.before.package.statement:
+    text: 'package 文の前 :'
+editbox.class.count.to.use.import.with.star:
+    text: "'*' でインポートに使用するクラス数 :"
+editbox.enter.tag.name:
+    text: 'タグ名称を入力してください :'
+editbox.error.stripe.mark.min.height.pixels:
+    text: 'エラー表示マークの高さ (ピクセル):'
+editbox.font.size:
+    text: 'サイズ :'
+editbox.indent.continuation.indent:
+    text: 連続インデントの文字数
+editbox.indent.indent:
+    text: インデント
+editbox.indent.label.indent:
+    text: ラベル インデント
+editbox.indent.tab.size:
+    text: タブの文字数
+editbox.installation.home:
+    text: IntelliJ IDEA の旧バージョンのインストール ホームを指定してください
+editbox.keep.blank.lines:
+    text: '空白行の維持 :'
+editbox.keep.blanklines.before.rbrace:
+    text: "'}' の前 :"
+editbox.keep.blanklines.in.code:
+    text: 'コード内 :'
+editbox.keep.blanklines.in.declarations:
+    text: 宣言内
+editbox.line.spacing:
+    text: '行スペース :'
+editbox.lookup.height:
+    text: 'ルックアップの高さ (アイテム):'
+editbox.maximum.number.of.contents.to.keep.in.clipboard:
+    text: <html>クリップボードに保持するコンテンツの最大数 :</html>
+editbox.names.count.to.use.static.import.with.star:
+    text: "'*' で static インポートに使用する名前数 :"
+editbox.path.macro.name:
+    text: '名前 :'
+editbox.path.macro.value:
+    text: '値 :'
+editbox.recent.files.limit:
+    text: '最近使ったファイルの表示制限 :'
+editbox.right.margin.columns:
+    text: '右余白 (列):'
+editbox.scheme.name:
+    text: 'スキーム名 :'
+editbox.tab.limit:
+    text: 'タブ数の制限 :'
+editorsearch.matches:
+    text: '{0, choice, 0#一致なし|1#一つ一致|2#{0}個の一致}'
+editorsearch.toomuch:
+    text: '{0}以上の一致'
+error.a.scheme.with.this.name.already.exists.or.was.deleted.without.applying.the.changes:
+    text: この名前のスキームは、既に存在するか変更を適用せずに削除されています。
+error.does.not.appear.to.be.installation.home:
+    text: '{0} は {1} インストール ホームではありません'
+error.illegal.scheme.name:
+    text: 不正なスキーム名
+error.invalid.installation.home:
+    text: "設定をインポートできません ''{0}'' は有効な {1} インストール ホームではありません"
+error.monitor.too.many.errors:
+    text: 多数の IDE の致命的なエラー モニタは停止しました。
+error.no.read.permissions:
+    text: '{0} の使用許諾書を読んでください'
+error.no.settings.path:
+    text: 設定をインポートできません {0} は存在しません
+error.path.variable.is.undefined:
+    text: パス変数 "{0}" は定義されていません
+error.please.select.previous.installation.home:
+    text: 旧 {0} インストール ホームを選択してください
+error.plugins.should.not.have.cyclic.dependencies:
+    text: |
+        プラグインは循環依存できません :
+error.scheme.must.have.a.name:
+    text: スキームには名前の指定が必要です
+error.selected.current.installation.home:
+    text: |-
+        現在の {0} インストール ホームを選択しました。
+        旧 {1} インストール ホームを選択してください
+error.unable.to.import.settings:
+    text: 設定をインポートできません {0}
+error.variable.already.exists:
+    text: 変数名 {0} は既に存在します
+exit.confirm.prompt:
+    text: '{0} を終了します。よろしいですか ?'
+exit.confirm.title:
+    text: 終了確認
+fs.case.sensitivity.mismatch.message:
+    text: このプロジェクトは、ケース{0,choice,0#|1#内の}機密ファイルシステムに置かれているようです。<br> これはIDE設定と一致しません（"<tt>idea.case.sensitive.fs</tt>"プロパティによって制御されます)<br> <a href="https://confluence.jetbrains.com/display/IDEADEV/Filesystem+Case-Sensitivity+Mismatch">もっと見る</a>
+fs.case.sensitivity.mismatch.title:
+    text: ファイルシステムの大文字と小文字の区別
+group.advanced.mouse.usages:
+    text: マウス動作の詳細
+group.brace.highlighting:
+    text: 中括弧の強調表示
+group.code.folding:
+    text: コードの折りたたみ
+group.editor.font:
+    text: エディタのフォント
+group.error.highlighting:
+    text: エラーの強調表示
+group.javadoc.alignment:
+    text: 位置合わせ
+group.javadoc.blank.lines:
+    text: 空白行
+group.javadoc.invalid.tags:
+    text: 無効なタグ
+group.javadoc.other:
+    text: その他
+group.limits:
+    text: 表示制限
+group.richcopy:
+    text: リッチテキストコピー
+group.smart.keys:
+    text: スマート キー
+group.spaces.around.operators:
+    text: 演算子の周囲
+group.spaces.before.left.brace:
+    text: 左中括弧の前
+group.spaces.before.parentheses:
+    text: 小括弧の前
+group.spaces.in.ternary.operator:
+    text: 三項演算子 (?:) 内
+group.spaces.in.type.arguments.block:
+    text: 型引数
+group.spaces.in.type.parameters.block:
+    text: 型パラメータ
+group.spaces.other:
+    text: その他
+group.tab.appearance:
+    text: タブの外観
+group.tab.closing.policy:
+    text: タブの終了ルール
+group.tabs.and.indents:
+    text: タブとインデント
+group.virtual.space:
+    text: 仮想スペース
+groupbox.display:
+    text: 表示
+html.project.uses.own.code.style:
+    text: <html><body>現在のプロジェクトは、独自のコード スタイルを使用するように設定されています。<br>グローバル コード スタイル設定への変更は、現在のプロジェクトに反映しません。<br>[プロジェクト設定] - [コード スタイル] を参照してください。<br>グローバル設定を編集するには、以下の \&quot;Edit Global Settings&quot; ボタンを押してください。</body></html>
+import.scheme.chooser.destination:
+    text: に：
+import.scheme.chooser.source:
+    text: から：
+label.autocomplete.when.only.one.choice:
+    text: '選択が 1 つのときのオートコンプリート :'
+label.collapse.by.default:
+    text: デフォルトで収縮する項目の指定
+label.complete.autopopup:
+    text: '自動ポップアップ :'
+label.complete.brackets:
+    text: '大括弧 :'
+label.do.not.indent.children.of:
+    text: '次のタグの子はインデントしない :'
+label.edit.per.project.or.global.code.style:
+    text: <html><body>上記のオプションにより、プロジェクト単位のコード スタイル設定<br>または、グローバル コード スタイルを使用するか指定してください。 グローバル コード スタイルは<br>[IDE 設定] - [グローバル コード スタイル] で設定できます。</body></html>
+label.font.name:
+    text: 'フォント名 :'
+label.font.type:
+    text: 'フォント タイプ :'
+label.inherit.attributes:
+    text: 継承された属性を使用する
+label.insert.new.line.before:
+    text: '次のタグの直前に新規行を挿入する :'
+label.keep.white.spaces.inside:
+    text: '内側に空白を維持する :'
+label.lines:
+    text: 行
+label.loading.page.please.wait:
+    text: ページを読み込んでいます。 しばらくお待ちください。
+label.name:
+    text: '名前 :'
+label.name.prefix:
+    text: '名前の接頭辞 :'
+label.name.suffix:
+    text: '名前の接尾辞 :'
+label.naming.field:
+    text: 'フィールド :'
+label.naming.local.variable:
+    text: 'ローカル変数 :'
+label.naming.parameter:
+    text: 'パラメータ :'
+label.naming.static.field:
+    text: '静的フィールド :'
+label.or.if.tag.size.more.than:
+    text: 'またはタグが次のサイズ以上の場合 :'
+label.remove.new.line.before:
+    text: '次のタグの直前の新規行は削除する :'
+label.smart.enter:
+    text: 'Enter キー :'
+label.when.closing.active.editor:
+    text: 'アクティブなエディタを閉じるとき :'
+label.when.number.of.opened.editors.exceeds.tab.limit:
+    text: <html>開いたエディタ数が表示タブ数の制限を超えたとき :</html>
+label.wrap.attributes:
+    text: '属性の折り返し :'
+label.you.can.import:
+    text: IntelliJ IDEA の旧バージョンから設定をインポートできます
+launcher.script.title:
+    text: ランチャースクリプトの作成
+listbox.import.all.other.imports:
+    text: <その他すべてのインポート>
+listbox.import.blank.line:
+    text: <空白行>
+listbox.import.package:
+    text: パッケージ
+listbox.import.with.subpackages:
+    text: サブパッケージを含む
+listbox.members.order.constructors:
+    text: コンストラクタ
+listbox.members.order.fields:
+    text: フィールド
+listbox.members.order.inner.classes:
+    text: 内部クラス
+listbox.members.order.methods:
+    text: メソッド
+message.duplicate.plugin.id:
+    text: '重複プラグイン ID:'
+option.table.sizing.text:
+    text: 長い場合に切り捨てる
+primary.font:
+    text: プライマリフォント：
+progress.analysing.font:
+    text: 'フォントを分析しています : {0}'
+progress.analyzing.fonts:
+    text: フォントを分析しています
+radio.activate.left.neighbouring.tab:
+    text: <html>左に隣接したタブをアクティブにする</html>
+radio.activate.most.recently.opened.tab:
+    text: <html>最後に開いたタブをアクティブにする</html>
+radio.close.less.frequently.used.files:
+    text: 使用頻度の低いファイルを閉じる
+radio.close.non.modified.files.first:
+    text: 未変更のファイルを最初に閉じる
+radio.do.not.import:
+    text: IntelliJ IDEA の旧バージョンがインストールされていない、または旧バージョンの設定をインポートしない
+radio.import:
+    text: 設定をインポートする
+radio.insert.both.parentheses:
+    text: "'()' を挿入する"
+radio.insert.left.parenthesis:
+    text: "'(' を挿入する"
+radio.prefer.comma.separated.import.list:
+    text: カンマ区切りのインポート リストを使用する
+radio.prefer.one.import.statement.per.page.directive:
+    text: ページ ディレクティブごとに import 文を使用する
+radio.use.global.code.style:
+    text: グローバル コード スタイルを使用する
+radio.use.per.project.code.style.scheme:
+    text: プロジェクト単位のコード スタイル スキームを使用する
+reformat.changed.text.file.too.big.notification.groupId:
+    text: 変更されたテキストの再フォーマット
+reformat.changed.text.file.too.big.notification.text:
+    text: ファイル{0}が大きすぎるか、変更が多すぎます
+reformat.changed.text.file.too.big.notification.title:
+    text: 変更された範囲を計算できませんでした
+remote.desktop.detected.message:
+    text: アニメーションが無効
+remote.desktop.detected.title:
+    text: リモートデスクトップが検出されました
+secondary.font:
+    text: セカンダリフォント：
+settings.code.style.general.autodetect.indents:
+    text: 編集に既存のファイルインデントを検出して使用する
+settings.code.style.general.default.options:
+    text: デフォルトオプション
+settings.code.style.general.enable.formatter.tags:
+    text: コメントにフォーマッタマーカーを有効にする
+settings.code.style.general.formatter.control:
+    text: フォーマッタ制御
+settings.code.style.general.formatter.marker.invalid.regexp:
+    text: 正規表現が無効です
+settings.code.style.general.formatter.marker.options.title:
+    text: オプション
+settings.code.style.general.formatter.marker.regexp:
+    text: 正規表現
+settings.code.style.general.formatter.marker.title:
+    text: マーカー
+settings.code.style.general.formatter.off.tag:
+    text: フォーマッターオフ：
+settings.code.style.general.formatter.on.tag:
+    text: フォーマッター：
+settings.code.style.general.indents.detection:
+    text: インデント検出
+tab.editor.settings.appearance:
+    text: 外観
+tab.editor.settings.behavior:
+    text: 動作
+tab.indent.other:
+    text: その他
+title.add.variable:
+    text: 変数の追加
+title.blank.lines:
+    text: 空白行
+title.braces.placement:
+    text: 中括弧の配置
+title.choose.code.style.scheme:
+    text: コード スタイル スキームの選択
+title.code.completion:
+    text: コード補完
+title.code.generation:
+    text: コード生成
+title.colors.and.fonts:
+    text: 色とフォント
+title.complete.installation:
+    text: 完全インストール
+title.diff:
+    text: 差分
+title.do.not.indent.children.of:
+    text: 次のタグの子はインデントしない
+title.edit.global.settings:
+    text: グローバル設定の編集(&G)
+title.edit.variable:
+    text: 変数の編集
+title.editor:
+    text: エディタ
+title.file.status:
+    text: ファイルのステータス
+title.general:
+    text: 一般
+title.global.code.style:
+    text: |-
+        グローバル
+        コード スタイル
+title.import.layout:
+    text: レイアウトのインポート
+title.imports:
+    text: インポート
+title.insert.new.line.before.tags:
+    text: タグの前に新規行を挿入する
+title.installation.home.required:
+    text: インストール ホームが必要です
+title.jsp.imports.layout:
+    text: JSP インポート レイアウト
+title.keep.blank.lines:
+    text: 空白行の指定
+title.keep.whitespaces.inside:
+    text: 内側に空白を維持する
+title.lookup.list:
+    text: ルックアップ リスト
+title.naming:
+    text: 命名
+title.naming.comment.code:
+    text: コメント コード
+title.naming.final.modifier:
+    text: Final 修飾子
+title.order.of.members:
+    text: メンバの順序
+title.packages.to.use.import.with:
+    text: "'*' でインポートに使用するパッケージ"
+title.parameter.info:
+    text: パラメータ情報
+title.path.variables:
+    text: パス変数
+title.place.on.new.line:
+    text: 新規行の配置
+title.preview:
+    text: プレビュー
+title.project.code.style:
+    text: |-
+        プロジェクト
+        コード スタイル
+title.remove.line.breaks.before.tags:
+    text: タグの前の行ブレイクを削除する
+title.save.code.style.scheme.as:
+    text: コード スタイル スキームの保存
+title.save.color.scheme.as:
+    text: カラー スキームの保存
+title.scope.based:
+    text: スコープ ベース
+title.select.font:
+    text: フォントの選択
+title.settings.import.failed:
+    text: 設定をインポートできません
+title.spaces:
+    text: スペース
+title.tag.name:
+    text: タグ名称
+title.warning:
+    text: 警告
+tooltip.indent.must.be.multiple.of.tab.size.for.smart.tabs.to.operate:
+    text: インデントは、操作するスマート タブのタブ文字数の倍数にする必要があります
+use.ligatures:
+    text: フォントの合字を有効にする
+watcher.exe.not.exists:
+    text: ネイティブファイルウォッチャーはこのプラットフォームではサポートされていません
+wrapping.align.fields.in.columns:
+    text: 列のフィールドを整列する
+wrapping.align.simple.methods.in.columns:
+    text: 列内の単純なメソッドを整列する
+wrapping.align.variables.in.columns:
+    text: 列の変数を整列する
+wrapping.chained.method.call.first.on.new.line:
+    text: ラップファーストコール
+wrapping.comments:
+    text: コメント
+wrapping.comments.wrap.at.right.margin:
+    text: 右マージンで折り返す
+wrapping.keep.simple.lambdas.in.one.line:
+    text: 単純なラムダを1行に
+wrapping.wrap.on.typing:
+    text: 入力をラップする
+wrapping.wrap.on.typing.default:
+    text: デフォルト
+wrapping.wrap.on.typing.no.wrap:
+    text: いいえ
+wrapping.wrap.on.typing.wrap:
+    text: はい

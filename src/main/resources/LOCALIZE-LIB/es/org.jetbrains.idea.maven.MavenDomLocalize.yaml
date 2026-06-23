@@ -1,0 +1,60 @@
+MavenDuplicateDependenciesInspection.has.duplicates:
+    text: '<html><body>La dependencia está duplicada en el/los archivo(s)#treeend: {0} </body></html>'
+all.dependencies:
+    text: Todas las dependencias
+children.poms.title:
+    text: Navegar a los proyectos hijos
+choose.project:
+    text: Seleccionar proyecto
+chooser.show.project.files:
+    text: Archivos del proyecto
+dependencies.chooser.title:
+    text: Seleccionar dependencia
+fix.create.module:
+    text: Crear módulo
+fix.create.module.with.parent:
+    text: Crear módulo con el elemento primario
+fix.open.file:
+    text: "Abrir ''{0}''"
+fix.parent.path:
+    text: Corregir ruta relativa
+fix.update.indices:
+    text: Actualizar índices de Maven
+generate.dependency:
+    text: Generar dependencia
+generate.dependency.template:
+    text: Plantilla de dependencia
+generate.managed.dependency:
+    text: Dependencia gestionada
+generate.parent:
+    text: Padre
+generate.plugin.template:
+    text: Plantilla de plugin
+generate.repository.template:
+    text: Plantilla de repositorio
+inspection.duplicate.dependencies.name:
+    text: Dependencias duplicadas
+inspection.group:
+    text: Seguridad
+inspection.name:
+    text: Enlace con protocolo no cifrado
+inspection.redundant.groupId.name:
+    text: groupId redundante
+intention.choose.file:
+    text: Seleccionar archivo
+navigate.children.poms.title:
+    text: Seleccionar proyecto
+navigate.parent.dependency.title:
+    text: Seleccionar dependencia a la que navegar
+navigate.parent.plugin.title:
+    text: Seleccionar el plugin al que navegar
+overriden.plugin.title:
+    text: "Navegar a la sección 'pluginManagement'"
+overriding.dependency.title:
+    text: Navegar a los usos de la dependencia
+overriding.plugin.title:
+    text: Navegar a los usos del plugin
+parent.pom.title:
+    text: Navegar al padre
+refactoring.introduce.property:
+    text: Introducir propiedad

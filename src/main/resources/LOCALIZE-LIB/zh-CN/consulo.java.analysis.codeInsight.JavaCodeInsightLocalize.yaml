@@ -1,0 +1,32 @@
+action.structureview.show.non.public:
+    text: 非 public
+action.structureview.show.properties:
+    text: 属性
+file.structure.toggle.show.anonymous.classes:
+    text: 匿名类
+generate.equals.hashcode.accept.sublcasses:
+    text: 接受子类作为 equals() 方法的形参(&S)
+generate.equals.hashcode.accept.sublcasses.explanation:
+    text: <html><body>虽然通常不符合 Object.equals() 的约定，<br>但要使生成的方法与生成代理子类的框架(如 Hibernate)一起正常工作，<br>可能需要接受子类。</body></html>
+generate.equals.hashcode.equals.fields.chooser.title:
+    text: 选择要包含在 equals() 中的字段(&F)
+generate.equals.hashcode.hashcode.fields.chooser.title:
+    text: 选择要包含在 hashCode() 中的字段(&F)
+generate.equals.hashcode.internal.error:
+    text: 内部错误
+generate.equals.hashcode.non.null.fields.chooser.title:
+    text: 选择所有非 null 字段(&F)
+generate.equals.hashcode.template:
+    text: '模板(&T):'
+generate.equals.hashcode.use.getters:
+    text: 在代码生成过程中使用 &getters
+generate.equals.hashcode.warning.hashcode.for.arrays.is.not.supported:
+    text: hashCode()不支持数组
+generate.equals.hashcode.wizard.title:
+    text: 生成 equals() 和 hashCode()
+generate.equals.warning.equals.for.nested.arrays.not.supported:
+    text: equals()不支持嵌套的数组
+generate.equals.warning.generated.equals.could.be.incorrect:
+    text: 生成的Object[]的equals()可能不正确
+static.class.initializer:
+    text: '{0}类初始值设定项'

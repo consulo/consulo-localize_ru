@@ -1,0 +1,482 @@
+action.description.remove.packaging.elements:
+    text: 移除选定元素
+action.name.extract.artifact:
+    text: 提取工件…
+action.name.facet.navigate:
+    text: 导航
+action.name.inline.artifact:
+    text: 内联原型
+action.name.remove.packaging.element:
+    text: 移除
+action.name.rename.packaging.element:
+    text: 重命名
+add.external.annotations.path.description:
+    text: 选择模块源的外部注解所在的路径
+add.external.annotations.path.title:
+    text: 为外部注解添加路径
+add.new.global.library.text:
+    text: 新建全局库
+add.new.header.text:
+    text: 添加
+add.new.module.text.full:
+    text: 模块
+add.new.project.library.text:
+    text: 新建项目库
+artifact.source.items.tree.tooltip:
+    text: <html>双击元素放入默认位置<br>拖放元素添加到所需位置<br>弹出菜单中有更多操作可用</html>
+artifacts.add.copy.action:
+    text: 添加副本
+artifacts.create.action:
+    text: 创建 {0}
+banner.slogan.artifact.0:
+    text: "工件''{0}''"
+button.add:
+    text: 添加
+button.existingframe:
+    text: 此窗口(&T)
+button.newframe:
+    text: 新建窗口(&W)
+button.remove:
+    text: 删除(&R)
+button.text.attach.files:
+    text: 附加文件或目录(&F)…
+button.text.ignore.selected:
+    text: 忽略所选
+button.text.keep.all:
+    text: 全部保留
+button.text.remove.selected:
+    text: 移除所选
+checkbox.text.build.on.make:
+    text: 包含在项目构建中 (&B)
+choose.modules.dialog.description:
+    text: "库 ''{0}'' 将被添加到所选模块中。"
+choose.modules.dialog.title:
+    text: 选择模块
+classpath.add.library.action:
+    text: 库…
+classpath.add.module.dependency.action:
+    text: 模块依赖…
+classpath.add.simple.module.library.action:
+    text: JAR 或目录…
+classpath.chooser.description.add.module.dependency:
+    text: '选择当前模块应该依赖的模块:'
+classpath.chooser.title.add.module.dependency:
+    text: 选择模块
+classpath.message.library.already.added:
+    text: "库''{0}''已经添加到此模块中"
+classpath.panel.navigate.action.text:
+    text: 导航
+classpath.title.adding.dependency:
+    text: 添加依赖关系…
+combobox.item.global.library:
+    text: 全局库
+combobox.item.module.library:
+    text: 模块库
+combobox.item.project.library:
+    text: 项目库
+command.deleting.files:
+    text: 正在删除文件
+command.finish:
+    text: 完成
+confirmation.message.would.you.like.to.ignore.facet:
+    text: "您想忽略模块''{1}''中的原型''{0}''吗?"
+copy.module.dialog.title:
+    text: 复制模块
+dependencies.used.in.popup.title:
+    text: 用于
+dialog.title.add.framework.0.support:
+    text: 添加 {0} 支持
+dialog.title.add.frameworks.support:
+    text: 添加框架支持
+dialog.title.extract.artifact:
+    text: 提取工件
+dialog.title.packaging.choose.library:
+    text: 选择库
+dialog.title.packaging.choose.module:
+    text: 选择模块
+display.name.artifacts:
+    text: 工件
+drag.n.drop.text.0.packaging.elements:
+    text: '{0}元素'
+dumb.service.indexing.paused.due.to:
+    text: '索引已暂停，原因: {0}'
+empty.module.selection.string:
+    text: 在此处选择一个模块以查看或编辑其详细信息
+enter.module.copy.name.error.message:
+    text: 输入模块复制的名称
+error.adding.module.to.project:
+    text: '向项目添加模块时出错: {0}'
+error.message.configuration.cannot.load:
+    text: 无法加载 {0}
+error.message.unknown.facet.type.0:
+    text: "未知的 facet类型: ''{0}''"
+external.annotation.prompt:
+    text: 外部注解提示
+external.annotations.external.option:
+    text: 从外部添加(&E)
+external.annotations.in.code.option:
+    text: 添加代码(&C)
+external.annotations.root.chooser.description:
+    text: 外部注解将被保存在相应的文件夹
+external.annotations.root.chooser.title:
+    text: 选择{0}的外部注解根
+external.annotations.suggestion.message:
+    text: <html><body>如果您的代码中不需要注解，可以使用外部存储。<br>要配置外部注解，请指定放置包含注解的文件的根目录</body></html>
+file.chooser.directory.for.downloaded.libraries.description:
+    text: 下载的库将被复制到选定的目录
+file.chooser.directory.for.downloaded.libraries.title:
+    text: 下载的库的目录
+find.usages.action.text:
+    text: 查找用法
+framework.detected.info.text:
+    text: 检测到 {0} {1, choice, 1#框架|2#框架}。
+global.library.display.name:
+    text: 全局{0, choice, 1#库 |2#库}
+label.text.0.cannot.be.loaded.ignore:
+    text: '{0} 无法加载。您可以将其标记为忽略以禁止此错误通知。'
+label.text.0.cannot.be.loaded.remove:
+    text: '{0} 无法加载。您可以将其从项目中移除(不会删除任何文件)。'
+label.text.no.frameworks.detected:
+    text: 未检测到框架。
+label.text.output.directory:
+    text: '输出目录:'
+label.text.please.select.desired.technologies:
+    text: <html>请选择所需技术。<br>这将下载所有需要的库，并在项目配置中创建 Facet。</html>
+label.text.specify.artifact.name:
+    text: '指定工件名称(&N):'
+label.text.the.following.frameworks.are.detected:
+    text: <html>在项目中检测到多个框架。请检查以下条目并排除错误检测到的条目。</html>
+libraries.node.text.ide:
+    text: 库包含将各种功能添加到您的应用程序的类。库还包含源文件和 JavaDoc，它们可以帮助您开发项目。<br><br>IntelliJ IDEA 使用库协助您完成代码补全、验证、错误高亮显示等。<br><br>全局库在整个项目中引用，并且可以在所有模块中使用。此外，它们也可用于在计算机上本地创建的所有项目。<br><br>请注意，您与之共享项目的任何人都无法使用全局库。如果要与团队共享项目，请改为使用项目库。<br><br>展开节点并选择子项来管理全局库。<br><br>要将库附加到模块，请选择该模块，点击“依赖关系”标签页，点击“添加”并指定库位置。
+libraries.node.text.module:
+    text: 库包含将各种功能添加到您的应用程序的类。库还包含源文件和 JavaDoc，它们可以帮助您开发项目。<br><br>IntelliJ IDEA 使用库协助您完成代码补全、验证、错误高亮显示等。<br><br>模块库只能从它们所附加到的模块引用。展开节点并选择子项来管理模块库。<br><br>要将库附加到模块，请选择该模块，点击“依赖关系”标签页，点击“添加”并指定库位置。
+libraries.node.text.project:
+    text: 库包含将各种功能添加到您的应用程序的类。库还包含源文件和 JavaDoc，它们可以帮助您开发项目。<br><br>IntelliJ IDEA 使用库协助您完成代码补全、验证、错误高亮显示等。<br><br>项目库在整个项目中引用，并且可以在所有模块中使用。此外，您与之共享项目的任何人都可以使用项目库。<br><br>展开节点并选择子项来管理项目库。<br><br>要将库附加到模块，请选择该模块，点击“依赖关系”标签页，点击“添加”并指定库位置。
+library.attach.files.action:
+    text: 附加文件或目录
+library.attach.files.description:
+    text: 选择库类、源和文档所在的文件或目录
+library.attach.files.to.library.action:
+    text: "附加文件或目录到库''{0}''"
+library.attach.sources.action:
+    text: 附加源
+library.attach.sources.action.busy.text:
+    text: 附加…
+library.attach.sources.description:
+    text: 选择库源所在的JAR/ZIP文件或目录
+library.configure.global.title:
+    text: 配置全局库
+library.configure.module.title:
+    text: 配置模块库
+library.configure.project.title:
+    text: 配置项目库
+library.configure.title:
+    text: 配置库
+library.docs.node:
+    text: 文档
+library.name.already.exists.error:
+    text: "库 ''{0}'' 已存在"
+library.name.already.exists.title:
+    text: 库已经存在
+library.name.not.specified.error:
+    text: 请输入库名
+library.name.not.specified.title:
+    text: 库名未指定
+library.remove.action:
+    text: 移除
+library.root.node:
+    text: 根
+library.sources.node:
+    text: 源
+message.no.module.dependency.candidates:
+    text: 未发现要依赖的模块
+message.text.stop.searching.for.frameworks:
+    text: '{0} 目前正在搜索框架。要停止搜索吗?'
+module.0.already.exists.error.message:
+    text: "模块''{0}''已存在"
+module.add.error.message:
+    text: '向项目添加模块时出错: {0}'
+module.add.error.title:
+    text: 添加模块
+module.already.exists.error:
+    text: "模块 ''{0}'' 在项目中已存在。"
+module.cannot.load.error:
+    text: "无法载入模块文件''{0}'':\n{1}"
+module.circular.dependency.warning.description:
+    text: '以下项之间存在循环依赖关系:'
+module.circular.dependency.warning.short:
+    text: '{0}之间存在循环依赖关系'
+module.classpath.button.edit:
+    text: 编辑… (&I)
+module.group.banner.text:
+    text: "模块组 ''{0}''"
+module.javadoc.add.path.prompt:
+    text: 选择模块javadoc文档的JAR/zip文件或目录
+module.javadoc.add.path.title:
+    text: 添加路径到JavaDoc
+module.javadoc.add.url.button:
+    text: 添加 JavaDoc URL…
+module.libraries.attach.sources.button:
+    text: 附加源 (&S)…
+module.libraries.javadoc.url.button:
+    text: 指定文档 URL(&U)…
+module.library.display.name:
+    text: 模块{0, choice, 1#库|2#库}
+module.module.language.level:
+    text: '语言级别(&L):'
+module.new.action:
+    text: '{0, choice, 0#新建 |1#}{1, choice, 0#Java |1#}模块…...'
+module.new.action.description:
+    text: 向项目添加新模块
+module.paths.add.content.action:
+    text: 添加内容根 (_C)
+module.paths.add.content.action.description:
+    text: 添加内容根到该模块
+module.paths.add.content.already.exists.error:
+    text: 内容根“{0}”已经存在
+module.paths.add.content.dominate.error:
+    text: |-
+        正在添加的内容根“{0}”
+        支配现有内容根“{1}”。
+        内容条目不应相交。
+module.paths.add.content.duplicate.error:
+    text: |-
+        已为模块“{1}”定义内容根“{0}”。
+        项目中的两个模块不能共享相同的内容根。
+module.paths.add.content.intersect.error:
+    text: |-
+        正在添加的内容根“{0}”
+        位于现有内容根“{1}”下。
+        内容条目不应相交。
+module.paths.add.content.prompt:
+    text: 内容根目录是包含与此模块相关的所有文件的目录
+module.paths.add.content.title:
+    text: 选择内容根目录
+module.paths.exclude.output.checkbox:
+    text: 排除输出目录
+module.paths.excluded.group:
+    text: 排除的文件夹
+module.paths.include.excluded.tooltip:
+    text: 包含
+module.paths.output.label:
+    text: '输出目录:'
+module.paths.output.title:
+    text: 选择输出目录
+module.paths.remove.content.prompt:
+    text: 移除内容根“{0}”?
+module.paths.remove.content.title:
+    text: 移除内容根
+module.paths.remove.content.tooltip:
+    text: 移除内容条目
+module.paths.remove.tooltip:
+    text: 移除
+module.paths.searching.source.roots.progress:
+    text: 搜索{0}中的源根
+module.paths.searching.source.roots.title:
+    text: 添加源根
+module.paths.sources.group:
+    text: 源文件夹
+module.paths.test.output.label:
+    text: '测试输出目录:'
+module.paths.test.output.title:
+    text: 选择测试输出目录
+module.paths.test.sources.group:
+    text: 测试源文件夹
+module.paths.title:
+    text: 源
+module.paths.validation.duplicate.content.error:
+    text: "为 ''{1}'' 和 ''{2}'' 定义了内容根 ''{0}''。\n项目中的两个模块不能共享相同的内容根。"
+module.paths.validation.duplicate.source.root.error:
+    text: "模块 ''{0}''\n不得包含源根 ''{1}''。\n该根已属于模块 ''{2}''"
+module.paths.validation.source.root.belongs.to.another.module.error:
+    text: "源根 ''{0}''\n无法在模块 ''{1}'' 中定义，因为它属于嵌套模块 ''{2}'' 的内容"
+module.remove.command:
+    text: 从项目中分离模块
+module.remove.confirmation:
+    text: |-
+        从项目中移除{1, choice, 1#模块“{0}”|2#{1} 个模块}?
+        不会删除磁盘上的文件。
+module.remove.confirmation.prompt:
+    text: |-
+        从项目中移除{1, choice, 1#模块|2#模块} {0}?
+        将不会删除文件。
+module.remove.confirmation.title:
+    text: 移除{0, choice, 1#模块|2#模块}
+module.remove.from.project.confirmation:
+    text: "您想从该项目中移除模块''{0}'' 吗?"
+module.remove.last.confirmation:
+    text: |-
+        确定要从此项目中移除{0, choice, 1#唯一的模块|2#所有模块}吗?
+        不会删除磁盘上的文件。
+module.sdk.not.defined:
+    text: 未定义模块 JDK
+module.toggle.excluded.action:
+    text: 排除的
+module.toggle.excluded.action.description:
+    text: 从模块中包含/排除目录
+module.toggle.sources.action:
+    text: 源代码
+module.toggle.test.sources.action:
+    text: 测试源代码
+module.type.empty.description:
+    text: 项目结构对话框将打开，以帮助您构建项目结构
+module.type.empty.name:
+    text: 多模块项目
+modules.classpath.title:
+    text: 依赖
+modules.order.export.export.column:
+    text: 导出
+modules.order.export.scope.column:
+    text: 作用域
+output.tab.title:
+    text: 输出
+path.0.is.invalid.error.message:
+    text: "路径 ''{0}'' 无效"
+progress.indexing.scanning:
+    text: 正在扫描要建立索引的文件…
+progress.indexing.updating:
+    text: 索引…
+progress.performing.indexing.tasks:
+    text: 正在执行索引任务
+progress.text.searching.frameworks:
+    text: 正在搜索框架。请稍候。
+progress.title.deleting.files:
+    text: 正在删除文件…
+project.configuration.save.file.not.found:
+    text: 找不到 {0}
+project.configure.path.variables.title:
+    text: 配置路径变量
+project.inherit.compile.output.path:
+    text: 继承项目编译输出路径
+project.library.display.name:
+    text: 项目{0, choice, 1#库 |2#库}
+project.load.default.error:
+    text: 载入默认项目失败
+project.load.undefined.path.variables.message:
+    text: 项目配置文件中有未定义的路径变量。
+project.module.compile.output.path:
+    text: 使用模块编译输出路径
+project.new.wizard.import.description:
+    text: <html>从外部模型({2})创建{0} {1}</html>
+project.new.wizard.import.title:
+    text: 从外部模型导入{0} (&M)
+project.new.wizard.module.content.root.chooser.description:
+    text: 所选目录将被标记为模块内容根
+project.new.wizard.module.content.root.chooser.title:
+    text: 选择模块内容根
+project.new.wizard.module.file.chooser.title:
+    text: 选择模块文件父目录
+project.new.wizard.module.file.description:
+    text: 模块 .iml 文件将被放置在所选目录中
+project.new.wizard.module.file.title:
+    text: '模块文件位置 (&U):'
+project.new.wizard.module.name.title:
+    text: '模块名称(&M):'
+project.new.wizard.module.root.title:
+    text: '内容根 (&R):'
+project.new.wizard.progress.title:
+    text: 初始化 …
+project.reload.failed:
+    text: '加载外部更改时出错: {0}。项目将重新加载。'
+project.reload.failed.title:
+    text: 重新加载错误
+project.root.module.source:
+    text: <模块源>
+project.roots.classpath.format.label:
+    text: '依赖存储格式:'
+project.roots.display.name:
+    text: 模块
+project.roots.error.message.invalid.roots:
+    text: 无效 {0} {1, choice, 1#根|2#根}
+project.roots.external.annotations.description:
+    text: <html>管理附加到此模块的外部注解。</html>
+project.roots.external.annotations.tab.title:
+    text: 外部注解
+project.roots.javadoc.tab.description:
+    text: <html>管理附加到此模块的外部 JavaDoc。外部 JavaDoc 重写模块中可能具有的 JavaDoc 注解。</html>
+project.roots.library.problem.message:
+    text: "依赖关系列表中的无效项''{0}''"
+project.roots.module.banner.text:
+    text: "模块 ''{0}''"
+project.roots.module.duplicate.name.message:
+    text: 重复的模块名称
+project.roots.module.groups.text:
+    text: 模块组用于逻辑组织项目模块。
+project.roots.module.jdk.problem.message:
+    text: 模块SDK未定义
+project.roots.output.compiler.title:
+    text: 编译器输出
+project.roots.path.tab.title:
+    text: 路径
+project.roots.plain.mode.action.text.disabled:
+    text: 隐藏模块分组
+project.roots.plain.mode.action.text.enabled:
+    text: 显示模块分组
+project.roots.project.banner.text:
+    text: "项目 ''{0}'' 的常规设置"
+project.roots.project.display.name:
+    text: 项目
+project.roots.project.jdk.inherited:
+    text: 项目SDK
+project.roots.replace.library.entry.message:
+    text: "您真的想替换旧的图书馆''{0}''吗?"
+project.roots.replace.library.entry.title:
+    text: 库已经添加
+project.roots.tooltip.library.has.broken.paths:
+    text: "库 ''{0}'' 具有中断的{1, choice, 1#路径|2#路径}。"
+project.settings.display.name:
+    text: 项目结构
+prompt.open.project.in.new.frame:
+    text: <html><body>您想在哪里打开项目?</body></html>
+rename.message.prefix.module:
+    text: 模块
+rename.message.prefix.scope:
+    text: 作用域
+rename.module.title:
+    text: 重命名模块(&M)
+rename.scope.title:
+    text: 重命名作用域。
+sdk.configuration.exception:
+    text: "SDK ''{0}'' 无效。"
+sdk.configure.annotations.tab:
+    text: 注解
+sdk.configure.editor.title:
+    text: SDK编辑器
+sdk.configure.home.file.invalid.error:
+    text: 所选文件不是{0}的有效主路径
+sdk.configure.home.invalid.error:
+    text: 所选目录不是{0}的有效主路径
+sdk.configure.home.title:
+    text: 选择{0}的主目录
+sdk.configure.javadoc.url.prompt:
+    text: '输入文档URL:'
+sdk.configure.javadoc.url.title:
+    text: 指定文档 URL
+sdk.configure.save.settings.error:
+    text: 无法保存设置
+sdk.configure.title:
+    text: 配置SDK
+sdk.configure.type.home.path:
+    text: '{0}主路径:'
+sdk.java.corrupt.error:
+    text: "可能在''{0}''中安装的SDK已损坏"
+sdk.java.corrupt.title:
+    text: 无法检测SDK版本
+sdk.list.name.required.error:
+    text: 请指定SDK名称
+sdk.list.unique.name.required.error:
+    text: 请指定不同的SDK名称
+sdk.paths.specify.url.button:
+    text: 指定URL…
+sdk.table.settings:
+    text: SDK 表
+sdk.unknown.name:
+    text: 未知 SDK
+title.add.module:
+    text: 新建模块
+title.new.project:
+    text: 新建项目
+title.open.project:
+    text: 打开项目
+warning.message.some.required.libraries.wasn.t.downloaded:
+    text: 某些必需库未被下载。是否要在缺少这些库的情况下继续?

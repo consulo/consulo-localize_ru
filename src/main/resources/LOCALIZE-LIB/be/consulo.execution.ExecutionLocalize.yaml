@@ -1,0 +1,598 @@
+action.Runner.ToggleTabLabels.text:
+    text: Паказаць меткі ўкладак
+action.name.save.as.configuration:
+    text: Захаваць як
+action.name.save.configuration:
+    text: Захаваць канфігурацыю
+action.terminating.process.progress.kill.description:
+    text: Завяршэнне працэсу
+add.new.run.configuration.action.name:
+    text: "Дадаць новую канфігурацыю ''{0}''"
+add.new.run.configuration.action2.name:
+    text: Дадайце новую канфігурацыю
+all.tests.scope.presentable.text:
+    text: Все тесты
+application.configuration.main.class.label:
+    text: 'Асноўны клас [&C]:'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 'Выкарыстоўвайце шлях да класаў модуля [&O]:'
+apply.action.name:
+    text: Прымяніць [&A]
+before.launch.compile.step:
+    text: зборка
+before.launch.compile.step.no.error.check:
+    text: Зборка без праверкі памылак
+before.launch.panel.cyclic_dependency_warning:
+    text: "''{0}'' наладжаны для запуску да {1}.\nТакія цыклічныя залежнасці недапушчальныя."
+before.launch.panel.empty:
+    text: Няма задач для выканання перад запускам
+before.launch.panel.title:
+    text: Перад пачаткам [&B]
+before.launch.run.another.configuration:
+    text: Запусціце іншую канфігурацыю
+before.launch.run.certain.configuration:
+    text: "Запусціць ''{0}''"
+before.launch.run.unknown.task:
+    text: Невядомая задача
+button.add:
+    text: Дадаць
+button.disconnect:
+    text: Адключыць
+button.remove:
+    text: Выдаліць [&R]
+button.terminate:
+    text: Завяршыць [&T]
+cannot.browse.method.dialog.title:
+    text: Немагчыма праглядзець метад
+cannot.browse.test.inheritors.dialog.title:
+    text: Немагчыма праглядзець нашчадкаў TestCase
+choose.main.class.dialog.title:
+    text: Выберыце асноўны клас
+choose.package.dialog.title:
+    text: Выберыце пакет
+choose.run.configuration.action.description:
+    text: Адкрыць выпадальны спіс канфігурацый запуску/адладкі
+choose.test.class.dialog.title:
+    text: Выберыце тэставы клас
+choose.test.method.dialog.title:
+    text: Выберыце метад тэставання
+class.does.not.exists.error.message:
+    text: Клас {0} не існуе
+class.isnt.inheritor.of.testcase.error.message:
+    text: "{0} не з'яўляецца нашчадкам TestCase"
+class.isnt.test.class.error.message:
+    text: "{0} не з'яўляецца тэставым класам"
+class.not.found.in.module.error.message:
+    text: "Клас ''{0}'' не знойдзены ў модулі ''{1}''"
+clear.all.from.console.action.name:
+    text: Ачысціць усё
+close.tab.action.name:
+    text: Блізка
+combobox.console.default.encoding.label:
+    text: 'Кадаванне па змаўчанні:'
+combobox.console.favorites.separator.label:
+    text: Абранае
+combobox.console.more.separator.label:
+    text: Яшчэ
+configuration.edit.before.run:
+    text: Паказаць гэту старонку
+confirm.background.process.stop:
+    text: Пацвердзіце спыненне фонавага працэсу
+confirm.process.stop:
+    text: Пацвердзіце спыненне працэсу
+copy.configuration.action.name:
+    text: Скапіраваць канфігурацыю
+copy.content.action.name:
+    text: Капіяваць кантэнт
+copy.selected.content.action.name:
+    text: Вылучэнне копіі
+coverage.tab.title:
+    text: Пакрыццё кода
+create.run.configuration.action.name:
+    text: Змяніць канфігурацыю запуску...
+create.run.configuration.for.item.dialog.title:
+    text: "Стварыць канфігурацыю запуску: ''{0}''"
+default.junit.config.name.all.in.module:
+    text: Все в {0}
+default.junit.config.name.all.in.package.in.module:
+    text: '{0} в {1}'
+default.junit.configuration.name:
+    text: <без імя>
+default.package.presentable.name:
+    text: <па змаўчанні>
+default.runner.start.action.text:
+    text: Запусціць [&U]
+delete.confirmation.dialog.title:
+    text: Пацвярджэнне выдалення
+diff.content.actual.title:
+    text: Фактычны
+diff.content.actual.title.with.file.url:
+    text: Фактычны ({0})
+diff.content.expected.for.file.title:
+    text: 'Чакаецца:'
+diff.content.expected.title:
+    text: Чакаецца
+diff.content.expected.title.with.file.url:
+    text: Чакаецца ({0})
+down.the.stack.trace:
+    text: Уніз па стэку выклікаў
+edit.configuration.action:
+    text: Рэдагаваць канфігурацыю [&E]
+edit.run.configuration.for.item.dialog.title:
+    text: "Рэдагаваць канфігурацыю запуску: ''{0}''"
+edit.run.configuration.run.configuration.name.label:
+    text: 'Імя [&N]:'
+encoding.name.system.default:
+    text: '<Сістэмнае змаўчанне: {0}>'
+environment.variables.component.title:
+    text: Зменныя асяроддзя [&E]
+environment.variables.dialog.title:
+    text: Зменныя асяроддзя
+environment.variables.helper.use.arguments.jdk13.label:
+    text: <html><body>Для JDK 1.3.x або раней</body></html>
+environment.variables.helper.use.arguments.jdk14.label:
+    text: <html><body>Для JDK 1.4.x</body></html>
+environment.variables.helper.use.arguments.label:
+    text: <html><body>Запусціце выдаленую JVM з наступнымі аргументамі каманднага радка</body></html>
+error.common.title:
+    text: Памылка
+error.running.configuration.message:
+    text: "Памылка пры запуску ''{0}''"
+execute.before.run.debug.dialog.title:
+    text: Выканайце {0} перад запускам/адладкай
+export.test.results.custom.template.chooser.title:
+    text: Выберыце карыстацкі шаблон
+export.test.results.custom.template.not.found:
+    text: "Файл карыстальніцкага шаблону ''{0}'' не знойдзены"
+export.test.results.custom.template.path.empty:
+    text: Шлях да карыстацкага шаблону пусты
+export.test.results.dialog.title:
+    text: Экспартаваць вынікі тэстаў
+export.test.results.failed:
+    text: 'Не ўдалося экспартаваць вынікі тэсту: {0}'
+export.test.results.file.exists.message:
+    text: |-
+        Файл «{0}» ужо існуе.
+        Жадаеце перазапісаць яго?
+export.test.results.file.exists.title:
+    text: Экспартаваць вынікі тэстаў
+export.test.results.filename:
+    text: Вынікі выпрабаванняў -{0}
+export.test.results.footer:
+    text: Створана ад {0} да {1}
+export.test.results.open.browser:
+    text: Адкрыць экспартаваны файл у браўзеры [&P]
+export.test.results.open.editor:
+    text: Адкрыйце экспартаваны файл у рэдактары [&P]
+export.test.results.output.filename.empty:
+    text: Імя выходнага файла пустое
+export.test.results.output.folder.chooser.title:
+    text: Выберыце тэчку вываду
+export.test.results.output.path.empty:
+    text: Вывадны шлях пусты
+export.test.results.succeeded:
+    text: <html>Вынікі тэстаў паспяхова экспартаваныя ў <a href="#a">{0}</a></html>
+export.test.results.task.name:
+    text: Экспартаваць вынікі тэстаў
+failed.to.create.output.file:
+    text: "Не ўдалося стварыць выходны файл ''{0}''"
+fix.run.configuration.problem.button:
+    text: Выправіць
+home.directory.not.specified.for.jdk.error.message:
+    text: Хатні каталог для JDK не пазначаны
+incompatible.configuration.is.running.dialog.title:
+    text: Несумяшчальная канфігурацыя{0, choice, 1# выконваецца|2#і выконваюцца}
+invalid.data.dialog.title:
+    text: Няправільныя даныя
+jdk.is.bad.configured.error.message:
+    text: «{0}» наладжаны няправільна
+jnit.configuration.all.tests.in.package.radio:
+    text: Усе тэсты ў пакеце
+junit.actual.text.label:
+    text: 'Насамрэч:'
+junit.click.to.see.diff.link:
+    text: <Націсніце, каб убачыць адрозненні>
+junit.configuration.across.module.dependencies.radio:
+    text: Па залежнасцях модуляў
+junit.configuration.class.label:
+    text: 'Класс:'
+junit.configuration.configure.junit.test.kind.label:
+    text: 'Тып тэсту [&T]:'
+junit.configuration.configure.junit.test.label:
+    text: 'Тэст:'
+junit.configuration.description:
+    text: Канфігурацыя тэста JUnit
+junit.configuration.in.single.module.radio:
+    text: В одном модуле
+junit.configuration.in.whole.project.radio:
+    text: Во всем проекте
+junit.configuration.method.label:
+    text: 'Метод:'
+junit.configuration.package.label:
+    text: 'Пакет:'
+junit.configuration.search.for.tests.label:
+    text: 'Пошук тэстаў:'
+junit.configuration.test.class.radio:
+    text: Тэставы клас
+junit.configuration.test.method.radio:
+    text: Метад выпрабаванняў
+junit.configuration.test.runner.parameters.label:
+    text: 'Параметры тест-раннера:'
+junit.not.found.in.module.error.message:
+    text: "JUnit не найден в модуле ''{0}''"
+junit.open.text.in.editor.action.name:
+    text: Адкрыйце абраны тэст у рэдактары
+junit.runing.info.folders.on.top.action.description:
+    text: Сартаваць наборы зверху
+junit.runing.info.folders.on.top.action.name:
+    text: Камплекты заўсёды на вышыні
+junit.runing.info.hide.successful.config.action.name:
+    text: Схаваць паспяховую наладу/разборку
+junit.runing.info.include.non.started.in.rerun.failed.action.name:
+    text: Уключыць невыкананыя тэсты пры перазапуску няўдалых
+junit.runing.info.sort.group.name:
+    text: Параметры сартавання
+junit.runing.info.starting.label:
+    text: Запуск...
+junit.runing.info.test.runner.options.group.name:
+    text: Налады тэставага запуску
+junit.running.info.failed.to.start.error.message:
+    text: Не ўдалося пачаць
+junit.running.info.tests.failed.label:
+    text: Тэсты праваліліся
+junit.running.info.tests.failed.with.test.name.label:
+    text: Тэсты не прайшлі {0}
+junit.running.info.tests.passed.label:
+    text: Выпрабаванні пройдзены
+junit.running.info.tests.passed.with.test.name.label:
+    text: Тэсты прайшлі {0}
+log.console.filter.show.all:
+    text: Все
+log.console.filter.show.errors:
+    text: Памылкі
+log.console.filter.show.errors.and.warnings:
+    text: Папярэджанні
+log.console.filter.show.errors.warnings.and.infos:
+    text: Інфармацыя
+log.monitor.edit.aliases.location:
+    text: 'Размяшчэнне файла лога [&L]:'
+log.monitor.edit.aliases.name:
+    text: 'Псеўданім [&A]:'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: Показать все файлы, которые могут соответствовать шаблону [&S]
+log.monitor.edit.aliases.title:
+    text: Рэдагаваць псеўданімы файлаў логаў
+log.monitor.group:
+    text: Файлы логаў для адлюстравання ў кансолі
+log.monitor.is.active.column:
+    text: Актыўна
+log.monitor.is.skipped.column:
+    text: Прапушчана змесціва
+log.monitor.log.file.column:
+    text: Запіс файла лога
+log.monitor.no.files:
+    text: Няма прымацаваных файлаў логаў
+logs.show.console.on.stderr:
+    text: Паказваць кансоль пры вывадзе ў stderr
+logs.show.console.on.stdout:
+    text: Паказваць кансоль пры вывадзе ў стандартны вывад
+logs.tab.title:
+    text: Лагі
+main.class.is.not.specified.error.message:
+    text: Асноўны клас або шлях да JAR не ўказаны
+main.method.not.found.in.class.error.message:
+    text: Асноўны метад не знойдзены ў класе {0}
+message.cannot.find.file.0:
+    text: Немагчыма знайсці файл {0}
+method.name.not.specified.error.message:
+    text: Імя метаду не ўказана
+module.does.not.exist.error.message:
+    text: "Модуль ''{0}'' не існуе"
+module.does.not.exists:
+    text: "Модуль ''{0}'' не існуе ў праекце ''{1}''"
+module.doesn.t.exist.in.project.error.text:
+    text: "Модуль ''{0}'' не існуе ў праекце"
+module.is.unloaded.from.project.error.text:
+    text: "Модуль ''{0}'' выгружаны з праекта"
+module.not.specified.error.text:
+    text: Модуль не ўказаны
+move.down.action.name:
+    text: Уніз
+move.up.action.name:
+    text: Вверх
+multiple.specified:
+    text: Пазначана некалькі
+next.faled.test.action.name:
+    text: Наступны няўдалы тэст
+no.jdk.for.module.error.message:
+    text: "Для модуля ''{0}'' не вызначаны JDK"
+no.jdk.specified..error.message:
+    text: JDK не ўказаны
+no.jdk.specified.for.module.warning.text:
+    text: "Для модуля ''{0}'' не вызначаны JDK"
+no.junit.error.message:
+    text: junit.jar адсутнічае
+no.junit.in.scope.error.message:
+    text: junit.jar адсутнічае ў {0}
+no.main.class.specified.error.text:
+    text: Асноўны клас не пазначаны
+no.module.defined.error.message:
+    text: Модуль не вызначаны
+no.test.class.specified.error.text:
+    text: Тестовый класс не указан
+no.user.process.input.error.message:
+    text: Няма ўводу працэсу
+node.default:
+    text: <Па змаўчанні>
+open.message.view:
+    text: Адкрыць акно паведамлення
+output.tab.title:
+    text: Вывод
+package.does.not.exist.error.message:
+    text: "Пакет ''{0}'' не існуе"
+package.not.found.error.message:
+    text: "Пакет ''{0}'' не знойдзены"
+perform.action.with.context.configuration.action.name:
+    text: Канфігурацыя кантэксту {0}
+popup.title.choose.target.file:
+    text: Выберыце мэтавы файл
+prev.faled.test.action.name:
+    text: Папярэдні няўдалы тэст
+process.is.running.dialog.title:
+    text: Працэс «{0}» працуе
+project.has.no.jdk.configured.error.message:
+    text: У праекце не настроены JDK
+remote.configuration.remote.debugging.allows.you.to.connect.idea.to.a.running.jvm.label:
+    text: 'Аргументы каманднага радка для запуску выдаленай JVM [&C]:'
+remote.debug.configuration.description:
+    text: Канфігурацыя аддаленай адладкі
+remote.debug.configuration.display.name:
+    text: Аддаленая адладка JVM
+remove.run.configuration.action.name:
+    text: Выдаліць канфігурацыю
+rerun.configuration.action.name:
+    text: "Перазапусціць ''{0}''"
+rerun.confirmation.button.text:
+    text: Спыніць і перазапусціць
+rerun.singleton.confirmation.message:
+    text: "Паралельны запуск ''{0}'' не дазволены.\nВы ўпэўнены, што хочаце спыніць {1, choice, 1#1 запушчаны экзэмпляр|2#{1, number} запушчаныя экзэмпляры|3#{1, number} запушчаных экзэмпляраў}?"
+restart.error.message.title:
+    text: Памылка перазапуску
+run.button.on.toolbar.tooltip.current.file.no.focused.editor:
+    text: 'Немагчыма запусціць бягучы файл: рэдактар ​​па-за фокусам'
+run.button.on.toolbar.tooltip.current.file.not.runnable:
+    text: Немагчыма адкрыць файл у рэдактары
+run.configurable.display.name:
+    text: Запуск
+run.configuration.arguments.help.panel.copy.action.name:
+    text: Копія
+run.configuration.cannot.find.vm.executable:
+    text: Немагчыма знайсці выкананы файл VM
+run.configuration.configuration.tab.title:
+    text: Канфігурацыя
+run.configuration.create.folder.description:
+    text: Стварыце новую тэчку
+run.configuration.create.folder.description.move:
+    text: Перамясціць у новую тэчку
+run.configuration.create.folder.text:
+    text: Стварыце новую тэчку
+run.configuration.dump.threads.action.name:
+    text: Дамп тэмы
+run.configuration.edit.default.configuration.settings.description:
+    text: Рэдагаваць шаблон
+run.configuration.edit.default.configuration.settings.text:
+    text: Рэдагаваць шаблон
+run.configuration.error.dialog.title:
+    text: Памылка канфігурацыі запуску
+run.configuration.error.no.jdk.specified:
+    text: JDK не ўказаны
+run.configuration.exit.action.name:
+    text: Выхад
+run.configuration.java.vm.parameters.label:
+    text: 'Параметры &VM:'
+run.configuration.no.name:
+    text: <без імя>
+run.configuration.norunner.selected.label:
+    text: Бягун не выбраны
+run.configuration.pause.output.action.name:
+    text: Прыпыніць зняцце
+run.configuration.program.parameters:
+    text: 'Аргументы праграмы [&R]:'
+run.configuration.rename.folder.disclaimer:
+    text: 'Заўвага: Пустыя папкі не захоўваюцца'
+run.configuration.select.alternate.jre.label:
+    text: Выберыце альтэрнатыўны JRE
+run.configuration.select.jre.dir.label:
+    text: Выберыце каталог JRE для запуску
+run.configuration.show.command.line.action.name:
+    text: Паказаць падказку кансолі
+run.configuration.startup.connection.rab.title:
+    text: Запуск/Падключэнне
+run.configuration.stop.action.name:
+    text: Стоп
+run.configuration.unnamed.name.prefix:
+    text: Няма імя
+run.configuration.working.directory.label:
+    text: 'Працоўны каталог [&W]:'
+run.configurations.combo.run.current.file.description:
+    text: Запусціце файл, адкрыты ў актыўным рэдактары
+run.configurations.combo.run.current.file.item.in.dropdown:
+    text: Бягучы файл
+run.configurations.combo.run.current.file.selected:
+    text: Бягучы файл
+run.configurations.popup.edit.run.config.and.run.current.file:
+    text: Запуск з параметрамі...
+run.configurations.popup.edit.run.config.and.run.current.file.description:
+    text: Адрэдагуйце параметры бягуна і запусціце файл, адкрыты ў актыўным рэдактары
+run.configurations.popup.existing.configurations.separator.text:
+    text: Запуск канфігурацый
+run.dashboard.configurable.types.panel.hint:
+    text: Выберыце адзін або некалькі тыпаў
+run.dashboard.configurations.message:
+    text: Запуск/спын выбраных канфігурацый
+run.dashboard.configured.group.name:
+    text: Не працуе
+run.dashboard.debug.action.description:
+    text: Адладзіць выбраныя канфігурацыі
+run.dashboard.debug.action.name:
+    text: Адладка
+run.dashboard.edit.configuration.dialog.title:
+    text: Рэдагаваць канфігурацыю
+run.dashboard.failed.group.name:
+    text: Збой
+run.dashboard.remove.run.configuration.type.confirmation:
+    text: Выдаліць {0} са службаў?
+run.dashboard.remove.run.configuration.types.confirmation:
+    text: Выдаліць {0} тыпы канфігурацыі са службаў?
+run.dashboard.rerun.action.description:
+    text: Перазапусціць выбраныя канфігурацыі
+run.dashboard.rerun.action.name:
+    text: Перазапуск
+run.dashboard.restart.debugger.action.description:
+    text: Перазапусціць выбраныя канфігурацыі ў рэжыме адладкі
+run.dashboard.restart.debugger.action.name:
+    text: Перазапусціць у рэжыме адладкі
+run.dashboard.run.action.description:
+    text: Запусціце выбраныя канфігурацыі
+run.dashboard.run.action.name:
+    text: Запуск
+run.dashboard.started.group.name:
+    text: У рабоце
+run.dashboard.stopped.group.name:
+    text: Завершана
+run.debug.dialog.title:
+    text: Запуск/адладка канфігурацый
+run.toolbar.widget.all.configurations:
+    text: Усе канфігурацыі {0}
+runner.content.tooltip.layout.settings:
+    text: Налады макета
+save.temporary.run.configuration.action.name:
+    text: "Захаваць канфігурацыю ''{0}'' [&S]"
+script.execution.timeout:
+    text: Выкананне скрыпта перавысіла {0} секунд.
+searching.test.progress.title:
+    text: Пошук тэстаў...
+select.0.1:
+    text: "Выберыце {0} ''{1}''"
+select.working.directory.message:
+    text: Выберыце працоўны каталог
+service.view.activate.tool.window.action.description:
+    text: Актываваць акно паслуг
+service.view.activate.tool.window.action.name:
+    text: '{0} (Паслугі)'
+service.view.add.service.action.name:
+    text: Дадаць паслугу
+service.view.all.services:
+    text: Усе паслугі
+service.view.configure.dialog.description:
+    text: Выключыце службы для адлюстравання іх у асобных вокнах.<br>Выключыце тыпы канфігурацыі выканання для адлюстравання іх вынікаў у акне "Выкананне/адладка".
+service.view.configure.dialog.title:
+    text: Настройка акна паслуг
+service.view.configure.exclude.button.text:
+    text: Выключыць [&E] >
+service.view.configure.excluded.label.text:
+    text: 'Асобныя вокны:'
+service.view.configure.include.button.text:
+    text: < Уключыць [&I]
+service.view.configure.included.label.text:
+    text: 'Інструментальнае акно "Службы":'
+service.view.configure.run.configuration.types:
+    text: Тыпы канфігурацый запуску/адладкі
+service.view.configure.run.tool.windows:
+    text: Запуск/адладка
+service.view.delete.confirmation:
+    text: Выдаліць {0}?
+service.view.empty.selection.text:
+    text: Выберыце паслугу, каб праглядзець падрабязную інфармацыю
+service.view.empty.tab.text:
+    text: Няма даступнага кантэнту
+service.view.empty.tree.text:
+    text: Паслугі не настроены.
+service.view.group.label:
+    text: 'Назва групы:'
+service.view.group.title:
+    text: Групавыя паслугі
+service.view.include.into.services.action.text:
+    text: Дадаць у Toolbox "Сэрвісы"
+service.view.items:
+    text: '{0, choice, 1#1 элемент|1<{0,number,integer} элементов}'
+service.view.open.in.new.tab.ad.text:
+    text: Перацягніце вузел у загаловак акна інструмента, каб адкрыць новую ўкладку
+service.view.scroll.from.editor.action.description:
+    text: Выберыце сэрвіс, адкрыты ў актыўным рэдактары
+service.view.scroll.from.editor.action.name:
+    text: Выберыце адкрыты сэрвіс
+set.class.name.message:
+    text: Спачатку задайце імя класа
+show.irrelevant.configurations.action.name:
+    text: Яшчэ {0} паведамленняў...
+show.running.list.action.description:
+    text: Паказаць спіс запушчаных канфігурацый
+show.running.list.action.name:
+    text: Паказаць спіс запушчаных
+show.running.list.balloon.hint:
+    text: Націсніце для навігацыі
+show.running.list.balloon.nothing:
+    text: Няма чаго паказаць
+show.running.list.balloon.title:
+    text: Спіс запушчаных
+sm.test.runner.magnitude.assertion.failed.title:
+    text: Памылка сцвярджэння
+sm.test.runner.magnitude.completed.failed.title:
+    text: Завершана
+sm.test.runner.magnitude.ignored.failed.title:
+    text: Прамахнуўся
+sm.test.runner.magnitude.not.run.failed.title:
+    text: Не працуе
+sm.test.runner.magnitude.passed.title:
+    text: Прайшлі
+sm.test.runner.magnitude.running.failed.title:
+    text: Выконваецца...
+sm.test.runner.magnitude.skipped.failed.title:
+    text: Прамахнуўся
+sm.test.runner.magnitude.terminated.failed.title:
+    text: Перапынены
+sm.test.runner.magnitude.testerror.title:
+    text: Памылка
+some.modules.has.circular.dependency.error.message:
+    text: Некаторыя модулі маюць цыклічныя залежнасці.
+standard.runner.description:
+    text: Запусціце выбраную канфігурацыю
+stop.all:
+    text: Спыніць усё ({0})
+stop.background.process:
+    text: Спыніць фонавы працэс
+stop.configuration.action.name:
+    text: "Спыніць ''{0}''"
+stop.incompatible.confirmation.button.text:
+    text: Стоп несумяшчальнае
+stop.incompatible.confirmation.message:
+    text: "Канфігурацыя запуску ''{0}'' несумяшчальная з {2, choice, 1#бягучай запушчанай канфігурацыяй {1}.|2#наступнымі запушчанымі канфігурацыямі:{1}} Вы ўпэўнены, што хочаце спыніць {2, choice, 1#несумяшчальны запушчаны экзэмпляр|2#{2, number} несумяшчальных запушчаных экзэмпляраў}?"
+stop.process:
+    text: Спыніць працэс
+strings.equal.failed.dialog.title:
+    text: Параўнанне не атрымалася
+terminate.process.confirmation.text:
+    text: Спыніць працэс «{0}»?
+terminating.process.progress.kill:
+    text: Завяршэнне працэсу
+terminating.process.progress.title:
+    text: "Завяршэнне ''{0}''"
+test.in.scope.presentable.text:
+    text: "Тэсты ў ''{0}''"
+test.method.doesnt.exist.error.message:
+    text: "Тэставы метад ''{0}'' не існуе"
+test.not.started.progress.text:
+    text: Тэст не працуе
+title.cannot.open.file:
+    text: Немагчыма адкрыць файл
+title.submitting.error.report:
+    text: Адпраўка справаздачы пра памылку
+tool.window.name.run:
+    text: Запуск
+up.the.stack.trace:
+    text: Уверх па стэку выклікаў
+waiting.for.vm.detach.progress.text:
+    text: Чаканне працэсу адлучэння
+warning.common.title:
+    text: Папярэджанне

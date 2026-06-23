@@ -1,0 +1,34 @@
+filetype.chooser.file.pattern:
+    text: '파일 패턴(&P):'
+filetype.chooser.prompt:
+    text: "''{0}'' 파일이 어떤 파일 유형과도 연결되어 있지 않습니다. 연결을 정의해 주세요:"
+filetype.chooser.title:
+    text: 새 파일 유형 연결 등록
+filetype.description.archive.files:
+    text: 아카이브
+filetype.edit.add.pattern.exists.error:
+    text: "이 와일드카드는 ''{0}'' 파일 유형용으로 예약되어 있어 다시 할당할 수 없습니다"
+filetype.edit.add.pattern.exists.message:
+    text: "이 와일드카드는 이미 ''{0}'' 파일 유형에 등록되어 있습니다"
+filetype.edit.add.pattern.exists.title:
+    text: 와일드카드 추가
+filetype.edit.add.pattern.prompt:
+    text: "새 와일드카드 입력('*' 및 '?' 허용)(&W):"
+filetype.edit.add.pattern.reassign.button:
+    text: 와일드카드 재할당(&R)
+filetype.edit.add.pattern.title:
+    text: 와일드카드 추가
+filetype.edit.edit.pattern.title:
+    text: 와일드카드 편집
+filetype.edit.existing.title:
+    text: 파일 유형 편집
+filetype.edit.new.title:
+    text: 새 파일 유형
+filetype.plaintext.description:
+    text: 텍스트
+filetype.registered.patterns.group:
+    text: '파일 이름 패턴:'
+filetype.settings.no.patterns:
+    text: 등록된 파일 패턴 없음
+filetype.settings.title:
+    text: 파일 유형

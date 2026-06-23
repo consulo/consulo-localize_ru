@@ -1,0 +1,108 @@
+action.close:
+    text: 閉じる
+action.description.rerun:
+    text: 検索の再実行
+action.group.by.file.structure:
+    text: ファイル構造でグループ化する
+action.group.by.module:
+    text: モジュールでグループ化する
+action.group.by.package:
+    text: パッケージでグループ化する
+action.group.by.usage.type:
+    text: 使用箇所の型でグループ化する
+action.merge.same.line:
+    text: 同じ行の使用箇所をマージする
+action.next.occurrence:
+    text: 次の対象
+action.previous.occurrence:
+    text: 前の対象
+action.rerun:
+    text: 再実行
+action.show.import.statements:
+    text: インポート文を表示する
+action.show.read.access:
+    text: 読み込みアクセスを表示する
+action.show.write.access:
+    text: 書き込みアクセスを表示する
+default.package.presentable.name:
+    text: <デフォルト>
+dialog.no.usages.found.in:
+    text: '{1} で {0} は見つかりません'
+dialog.rerun.search:
+    text: 検索を再実行しますか ?
+dialog.title.information:
+    text: 情報
+node.found.usages:
+    text: 見つかった使用箇所
+node.group.code.usages:
+    text: コードの使用箇所
+node.group.module:
+    text: 'モジュール :'
+node.invalid:
+    text: 無効
+node.non.code.usages:
+    text: 対象は非 java ファイルで見つかりました
+node.readonly:
+    text: 読み取り専用
+node.targets:
+    text: ターゲット
+node.usages.in.generated.code:
+    text: 生成されたコードでの使用
+occurrences.found.in.comments.strings.and.non.java.files:
+    text: 対象はコメント、文字列および非 java ファイルで見つかりました
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+    text: コメント、文字列、非コードファイル、および生成されたコードに出現する
+progress.searching.for:
+    text: '{0} を検索しています...'
+progress.searching.for.in:
+    text: '{1} で {0} を検索しています...'
+references.to.be.changed:
+    text: 変更された {0} となる参照
+usage.name:
+    text: 使用箇所
+usage.target.exception:
+    text: 例外
+usage.target.xml.tag.of.file:
+    text: ファイル {1} の {0}
+usage.type.annotation:
+    text: アノテーション
+usage.type.cast.target:
+    text: ターゲット型のキャストでの使用箇所
+usage.type.catch.declaration:
+    text: catch 句パラメータ宣言
+usage.type.class.object:
+    text: .class での使用箇所
+usage.type.comment:
+    text: コメントでの使用箇所
+usage.type.extends:
+    text: extends/implements 句での使用箇所
+usage.type.field.declaration:
+    text: フィールド宣言
+usage.type.import:
+    text: インポートでの使用箇所
+usage.type.instanceof:
+    text: instanceof での使用箇所
+usage.type.local.declaration:
+    text: ローカル変数宣言
+usage.type.new:
+    text: 新しいインスタンスの作成
+usage.type.new.array:
+    text: 新しい配列の作成
+usage.type.parameter.declaration:
+    text: メソッド パラメータ宣言
+usage.type.return:
+    text: メソッドの戻り型
+usage.type.static.member:
+    text: クラス静的メンバのアクセス
+usage.type.string.constant:
+    text: 文字列定数での使用箇所
+usage.type.throws.list:
+    text: メソッド スロー リスト
+usage.type.type.parameter:
+    text: 型引数
+usage.type.unclassified:
+    text: 未分類の使用箇所
+usage.view.cancel.button:
+    text: キャンセル(&C)
+usages.title:
+    text: 使用箇所

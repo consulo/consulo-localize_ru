@@ -1,0 +1,752 @@
+action.add.field.watchpoint.text:
+    text: Agregar punto de observación de campo
+action.auto.variables.mode:
+    text: Mostrar solo las variables cerca del punto de ejecución
+action.auto.variables.mode.description:
+    text: Mostrar solo las variables utilizadas cerca del punto de ejecución
+action.enable.text:
+    text: Habilitar
+action.interrupt.thread.text:
+    text: Interrumpir
+action.remove.text:
+    text: Elimina&r
+action.resume.thread.text.resume:
+    text: Reanudar
+action.watch.method.return.value.description:
+    text: Permite observar el valor de retorno del último método ejecutado
+action.watches.method.return.value.enable:
+    text: Mostrar valores de retorno del método
+action.watches.method.return.value.unavailable.reason:
+    text: La función no es compatible con la VM de destino
+add.exception.breakpoint.classchooser.title:
+    text: Introducir clase de excepción
+add.field.breakpoint.dialog.classchooser.title:
+    text: Seleccionar clase del campo
+add.field.breakpoint.dialog.field.chooser.title:
+    text: '{0,choice, 0#La clase no tiene campos|1#Seleccionar campo}'
+add.field.breakpoint.dialog.title:
+    text: Añadir punto de inspección de campo
+add.instance.filter.dialog.error.numeric.value.expected:
+    text: "El ID de instancia debe ser un valor numérico de tipo 'long'"
+add.instance.filter.dialog.prompt:
+    text: 'Introduzca el ID de la instancia:'
+add.instance.filter.dialog.title:
+    text: Añadir filtro de instancia
+async.stacktraces.configurable.display.name:
+    text: Trazas de pila asíncronas
+breakpoint.any.exception.display.name:
+    text: Cualquier excepción
+breakpoint.properties.panel.option.catch.class.filters:
+    text: 'Filtros de clase de &captura:'
+breakpoint.properties.panel.option.class.filters:
+    text: 'Filtros de c&lase:'
+breakpoint.properties.panel.option.instance.filters:
+    text: '&Filtros de instancia:'
+breakpoint.properties.panel.option.pass.count:
+    text: 'Contador de &pasadas:'
+breakpoint.property.name.class.filters:
+    text: 'Filtros de clase:'
+breakpoint.property.name.instance.filters:
+    text: 'Filtros de instancia:'
+breakpoint.property.name.pass.count:
+    text: 'Recuento de pases:'
+button.add:
+    text: Añadir
+button.copy:
+    text: Copiar
+button.debugger.settings:
+    text: Configuración del depurador…
+button.drop.anyway:
+    text: No ejecutar
+button.evaluate:
+    text: Evaluar
+button.execute.finally:
+    text: Ejecutar bloques finally
+button.move.down:
+    text: Mover a&bajo
+button.move.up:
+    text: Mover &arriba
+button.remove:
+    text: Elimina&r
+button.save:
+    text: Guardar
+class.filters.dialog.exclusion.filters.group:
+    text: Excluir
+class.filters.dialog.inclusion.filters.group:
+    text: Incluir
+class.filters.dialog.title:
+    text: Filtros de clase
+debugger.jdi.bootstrap.error:
+    text: '{0}. Compruebe la instalación de su JDK.'
+debugger.runner.start.action.text:
+    text: '&Depurar'
+debugger.session.tab.threads.title:
+    text: Hilos
+default.package.name:
+    text: <Predeterminado>
+drop.frame.error.no.information:
+    text: La información sobre el marco no está disponible
+editor.notification.alternative.source:
+    text: Fuente alternativa disponible para la clase {0}
+error.absent.exception.breakpoint.class.name:
+    text: Falta el nombre de clase para el punto de interrupción de excepción
+error.array.renderer.configurable.end.index.less.than.start:
+    text: El índice final es menor que el índice inicial
+error.array.renderer.configurable.start.index.less.than.zero:
+    text: El índice de inicio es menor que 0
+error.breakpoint.file.not.found:
+    text: "No se encontró el archivo ''{0}''; se ignorarán los puntos de interrupción para este archivo."
+error.cannot.create.expression.from.code.fragment:
+    text: No se puede crear la expresión a partir del fragmento de código.
+error.cannot.load.breakpoint.file:
+    text: "No se puede cargar el archivo ''{0}''; se ignorarán los puntos de interrupción de este archivo"
+error.cannot.open.debugger.port:
+    text: No se puede abrir el puerto del depurador
+error.class.circularity.error:
+    text: 'Error de circularidad de clase: {0}'
+error.class.def.not.found:
+    text: 'No se encontró la definición de clase: {0}'
+error.class.format.error:
+    text: 'Error de formato de clase : {0}'
+error.class.not.loaded:
+    text: 'Clase no cargada: {0}'
+error.context.has.changed:
+    text: El contexto ha cambiado, no es posible realizar la operación
+error.corrupt.debug.info:
+    text: 'La información de depuración podría estar corrupta: {0}'
+error.debug.connector.not.found:
+    text: "No se encontró el conector requerido ''{0}''. Compruebe la instalación de su JDK."
+error.debugger.already.listening:
+    text: El depurador ya está escuchando
+error.early.return:
+    text: 'Error al realizar el retorno anticipado: {0}'
+error.evaluating.breakpoint.condition.or.action:
+    text: "Problema al procesar el evento de la VM:\nPunto de interrupción: ''{0}''\nError: {1}\n¿Desea detenerse en el punto de interrupción?"
+error.exception.while.connecting:
+    text: |-
+        Error al conectar con el proceso remoto.
+        Se produjo una excepción: {0}
+        Mensaje de la excepción: {1}
+error.exception.while.reloading:
+    text: 'Excepción al recargar las clases : {0} : {1}'
+error.executing.finally:
+    text: 'Error al ejecutar bloques finally: {0}'
+error.failed.evaluating.breakpoint.condition:
+    text: "Error al evaluar la condición del punto de interrupción\n''{0}''\nMotivo: {1}"
+error.field.breakpoint.class.name.not.specified:
+    text: 'No se puede añadir el punto de inspección: no se ha especificado un nombre de clase'
+error.field.breakpoint.class.sources.not.found:
+    text: "No se puede crear un punto de observación de campo para ''{0}.{1}''.\nNo hay fuentes para la clase ''{2}''"
+error.field.breakpoint.field.name.not.specified:
+    text: 'No se puede añadir el punto de inspección: no se ha especificado ningún nombre de campo'
+error.field.breakpoint.field.not.found:
+    text: "No se puede crear un punto de vigilancia de campo para ''{0}.{1}''.\nNo se encontró el campo ''{2}''"
+error.field.not.found.in.class:
+    text: No existe el campo {0} en {1}
+error.inconsistent.debug.info:
+    text: Información de depuración inconsistente
+error.invalid.argument:
+    text: '{0,choice, 1#Argumento no válido|2#Argumentos no válidos}'
+error.invalid.breakpoint.method.not.found:
+    text: No se encontró el método en la clase {0}
+error.invalid.breakpoint.missing.field.in.class:
+    text: "No se puede encontrar el campo ''{0}'' en la clase ''{1}''"
+error.invalid.breakpoint.no.executable.code:
+    text: No se ha encontrado código ejecutable en la línea {0} de la clase {1}
+error.invalid.breakpoint.no.line.info:
+    text: La información de números de línea no está disponible en la clase {0}
+error.invalid.breakpoint.source.changed:
+    text: El archivo fuente ha cambiado o el archivo fuente encontrado no corresponde al archivo del punto de interrupción
+error.invalid.breakpoint.source.not.found:
+    text: La clase {0}, encontrada en el classpath del proyecto, no tiene archivos fuente asociados
+error.invalid.field.name:
+    text: "Nombre de campo no válido ''{0}''"
+error.invalid.local.variable.name:
+    text: "Nombre de variable local no válido ''{0}''"
+error.invalid.stackframe:
+    text: Excepción interna - marco de pila no válido
+error.invalid.type.name:
+    text: "Nombre de tipo no válido ''{0}''"
+error.io.error:
+    text: Error de E/S
+error.jdk.not.specified:
+    text: No se ha especificado el JDK
+error.native.method.exception:
+    text: Ninguno de los marcos hasta el marco inclusive puede ser nativo
+error.no.debug.attach.port:
+    text: No se ha especificado el puerto al que conectarse
+error.no.debug.listen.port:
+    text: No se ha especificado el puerto de escucha
+error.no.shmem.address:
+    text: Dirección de memoria compartida no especificada
+error.operation.canceled:
+    text: Operación cancelada
+error.operation.not.supported.by.vm:
+    text: 'Operación no soportada por la VM: {0}'
+error.pop.bottom.stackframe:
+    text: No se puede extraer el marco inferior
+error.pop.stackframe:
+    text: 'Se produjo un error al extraer el marco de la pila: {0}'
+error.running.to.cursor.no.executable.code:
+    text: No hay código ejecutable en {0}:{1}
+error.text.invalid.port:
+    text: No se ha especificado el puerto
+error.unable.to.evaluate.capture.expression:
+    text: 'No se pudo evaluar la expresión de la clave de captura: {0}'
+error.unable.to.evaluate.expression:
+    text: No se puede evaluar la expresión
+error.unable.to.evaluate.insert.expression:
+    text: 'No se puede evaluar la expresión de la clave de inserción: {0}'
+error.unknown.host:
+    text: No se puede conectar al proceso remoto. El host es desconocido.
+error.unsupported.class.version:
+    text: 'Versión de clase no compatible: {0}'
+error.verification.error:
+    text: 'Error de verificación : {0}'
+error.vm.disconnected:
+    text: VM desconectada. La máquina virtual de destino cerró la conexión.
+evaluation.error.anonymous.class.evaluation.not.supported:
+    text: No se admite la evaluación de clases anónimas
+evaluation.error.array.collected:
+    text: El array ha sido recolectado
+evaluation.error.array.dimention.numeric.value.expected:
+    text: Se esperaba un valor numérico como dimensión del array
+evaluation.error.array.reference.expected:
+    text: Se esperaba una referencia de array
+evaluation.error.array.type.expected:
+    text: Se esperaba un tipo de array
+evaluation.error.boolean.condition.expected:
+    text: "se esperaba un valor 'boolean' en la condición"
+evaluation.error.boolean.expected:
+    text: Se esperaba un valor booleano
+evaluation.error.boolean.value.expected.in.condition:
+    text: "Se esperaba un valor 'boolean' en la condición"
+evaluation.error.cannot.cast.boolean:
+    text: "No se puede convertir el valor booleano a ''{0}''"
+evaluation.error.cannot.cast.char:
+    text: "No se puede convertir el valor char a ''{0}''"
+evaluation.error.cannot.cast.null:
+    text: "No se puede convertir null a ''{0}''"
+evaluation.error.cannot.cast.numeric:
+    text: "No se puede convertir el valor numérico a ''{0}''"
+evaluation.error.cannot.cast.object:
+    text: "No se puede convertir ''{0}'' a ''{1}''"
+evaluation.error.cannot.evaluate.array.initializer:
+    text: No se puede evaluar el inicializador de array
+evaluation.error.cannot.evaluate.class.type:
+    text: No se puede evaluar el tipo de clase
+evaluation.error.cannot.evaluate.qualifier:
+    text: "No se puede evaluar el calificador ''{0}''"
+evaluation.error.cannot.evaluate.tostring:
+    text: No se puede evaluar {0}.toString()
+evaluation.error.cannot.find.stackframe.source:
+    text: No se puede encontrar la clase de origen para el marco de pila actual
+evaluation.error.cannot.initialize.array:
+    text: No se puede inicializar el array
+evaluation.error.cannot.resolve.constructor:
+    text: "No se puede resolver el constructor ''{0}''"
+evaluation.error.cannot.resolve.field.class:
+    text: "No se puede resolver la clase que contiene el campo ''{0}''"
+evaluation.error.cannot.sources.for.field.class:
+    text: "No se pueden encontrar las fuentes de la clase que contiene el campo ''{0}''"
+evaluation.error.class.not.loaded:
+    text: "La clase ''{0}'' no está cargada"
+evaluation.error.class.or.array.expected:
+    text: "Se esperaba un tipo de clase o matriz al evaluar el campo ''{0}''"
+evaluation.error.debug.info.unavailable:
+    text: Información de depuración no disponible
+evaluation.error.empty.code.fragment:
+    text: Se esperaba un fragmento de código
+evaluation.error.evaluating.field:
+    text: "Error al evaluar el campo: ''{0}''"
+evaluation.error.evaluating.method:
+    text: "Error al evaluar el método: ''{0}''"
+evaluation.error.identifier.expected:
+    text: "Se esperaba un identificador en lugar de ''{0}''"
+evaluation.error.incompatible.array.initializer.type:
+    text: El tipo del inicializador no es compatible con la asignación al tipo de componente del array
+evaluation.error.incompatible.types:
+    text: "Tipos incompatibles para la operación ''{0}''"
+evaluation.error.incompatible.variable.initializer.type:
+    text: "El inicializador de ''{0}'' tiene un tipo incompatible"
+evaluation.error.inconsistent.debug.info:
+    text: La información de depuración es inconsistente
+evaluation.error.integer.expected:
+    text: Se esperaba un valor entero
+evaluation.error.invalid.array.dimension.expression:
+    text: 'Expresión no válida para la dimensión del array: {0}'
+evaluation.error.invalid.array.size:
+    text: Tamaño de array no válido
+evaluation.error.invalid.expression:
+    text: 'Expresión no válida : {0}'
+evaluation.error.invalid.index.expression:
+    text: Expresión de índice no válida
+evaluation.error.invalid.this.expression:
+    text: "No se puede sustituir ''{0}'' en ''{1}'' como ''this''"
+evaluation.error.invalid.type.name:
+    text: "Nombre de tipo no válido: ''{0}''"
+evaluation.error.lambda.evaluation.not.supported:
+    text: No se admite la evaluación de lambdas
+evaluation.error.lebeled.loops.not.found:
+    text: "No se encontraron sentencias de bucle con la etiqueta ''{0}''"
+evaluation.error.local.variable.declarations.not.supported:
+    text: Las declaraciones de variables locales no se admiten aquí.
+evaluation.error.local.variable.missing:
+    text: "No se puede encontrar la variable local ''{0}''"
+evaluation.error.local.variable.missing.from.class.closure:
+    text: "No se ha encontrado la variable local ''{0}'' en la clausura de la clase"
+evaluation.error.method.exception:
+    text: "El método lanzó la excepción ''{0}''."
+evaluation.error.method.reference.evaluation.not.supported:
+    text: No se admite la evaluación de referencias de métodos
+evaluation.error.multi.dimensional.arrays.creation.not.supported:
+    text: No se admite la creación de arreglos multidimensionales
+evaluation.error.nested.evaluation:
+    text: No se admite la evaluación durante la evaluación de otro método
+evaluation.error.no.instance.field:
+    text: "No existe el campo de instancia: ''{0}''"
+evaluation.error.no.instance.method:
+    text: "No existe el método de instancia: ''{0}''"
+evaluation.error.no.stackframe:
+    text: 'No se puede evaluar: el marco de pila no está disponible'
+evaluation.error.no.static.field:
+    text: "No existe el campo estático: ''{0}''"
+evaluation.error.no.static.method:
+    text: "No existe el método estático: ''{0}''"
+evaluation.error.not.lvalue:
+    text: La parte izquierda de la asignación no es un lvalue
+evaluation.error.not.rvalue:
+    text: La parte derecha de la asignación no es un valor
+evaluation.error.numeric.expected:
+    text: Se esperaba un valor numérico
+evaluation.error.object.collected:
+    text: El objeto ha sido recolectado
+evaluation.error.object.reference.expected:
+    text: Se esperaba una referencia de objeto
+evaluation.error.operation.not.supported:
+    text: "La operación ''{0}'' no es compatible"
+evaluation.error.process.exited:
+    text: 'No se puede evaluar: el proceso ha finalizado'
+evaluation.error.sources.out.of.sync:
+    text: Las fuentes no corresponden al código en ejecución
+evaluation.error.stack.frame.unavailable:
+    text: Marco de pila no disponible
+evaluation.error.statement.not.supported:
+    text: "La sentencia ''{0}'' no es compatible"
+evaluation.error.surrounded.expression.null:
+    text: La expresión rodeada es null
+evaluation.error.this.not.avalilable:
+    text: "'this' no está disponible"
+evaluation.error.thread.collected:
+    text: El hilo ha sido recolectado
+evaluation.error.thread.not.at.breakpoint:
+    text: "No se pudo evaluar la expresión después de 'Pausar programa'. Considere suspender el programa con un punto de interrupción."
+evaluation.error.thread.resumed:
+    text: El hilo ha sido reanudado
+evaluation.error.type.mismatch:
+    text: Discrepancia de tipos
+evaluation.error.unknown.expression.operand:
+    text: 'Operando de expresión desconocido: {0}'
+evaluation.error.unknown.expression.type:
+    text: 'Tipo de expresión desconocido: {0}'
+evaluation.error.unknown.method.return.type:
+    text: 'No se puede resolver el tipo de retorno del método: {0}'
+evaluation.error.unsupported.declaration:
+    text: 'Declaración no válida : {0} Solo se admiten declaraciones de variables locales.'
+evaluation.error.unsupported.expression.type:
+    text: Tipo de expresión no compatible
+evaluation.error.variable.already.declared:
+    text: "La variable ''{0}'' ya está declarada"
+evaluation.error.variable.not.declared:
+    text: "La variable ''{0}'' no está declarada"
+exception.breakpoint.console.message:
+    text: "Se ha producido la excepción ''{0}'' en {1}({2})"
+exception.breakpoint.console.message.location.info.absent:
+    text: Sin información de depuración
+exception.breakpoint.console.message.with.thread.info:
+    text: "Se produjo la excepción ''{0}'' en el hilo ''{1}'' en {2}({3})"
+exception.breakpoints.tab.title:
+    text: Puntos de interrupción de excepciones Java
+field.watchpoints.tab.title:
+    text: Puntos de vigilancia de campos de Java
+frame.panel.frames.not.available:
+    text: Marcos no disponibles para hilos no suspendidos
+hotswap.dialog.hang.warning:
+    text: |-
+        La JVM está suspendida actualmente.
+        Recargar clases con agentes de JVM de terceros activos puede causar que la JVM se bloquee.
+hotswap.dialog.run.prompt:
+    text: Algunas clases han sido modificadas. ¿Recargar las clases modificadas ahora?
+hotswap.dialog.title:
+    text: Recargar clases modificadas
+hotswap.dialog.title.with.session:
+    text: Recargar clases modificadas para {0}
+instance.filters.dialog.title:
+    text: Filtros de instancia
+internal.error.locations.of.line:
+    text: "Error interno al cargar la información de depuración de ''{0}''. Los puntos de interrupción no estarán disponibles en esta clase."
+label.add.field.breakpoint.dialog.field.name:
+    text: 'Nombre del campo:'
+label.add.field.breakpoint.dialog.fq.name:
+    text: 'Nombre completo de la clase:'
+label.array.renderer.configurable.end.index:
+    text: 'índice final (&D):'
+label.array.renderer.configurable.max.count1:
+    text: Mostrar &máximo
+label.array.renderer.configurable.max.count2:
+    text: elementos de array
+label.array.renderer.configurable.start.index:
+    text: 'Índice de inicio del a&rreglo:'
+label.base.renderer.configurable.all.overriding:
+    text: "Para todas las clases que sobrescriben el método 'toString()'"
+label.base.renderer.configurable.alternate.view:
+    text: Habilitar vista alternativa para clases de cole&cciones
+label.base.renderer.configurable.autoscroll:
+    text: Desplazar automáticamente a las nuevas variables &locales
+label.base.renderer.configurable.classes.from.list:
+    text: 'Para las clases de la lista:'
+label.base.renderer.configurable.enable.toString:
+    text: "Habilitar la vista de objeto 't&oString()':"
+label.base.renderer.configurable.hide.null.array.elements:
+    text: Ocultar elementos &null en matrices y colecciones
+label.base.renderer.configurable.show.declared.type:
+    text: '&Tipo declarado'
+label.base.renderer.configurable.show.fq.names:
+    text: Nombres totalmente cualificados (&Q)
+label.base.renderer.configurable.show.hex.value:
+    text: Mostrar valor hexadecimal para primitivos
+label.base.renderer.configurable.show.object.id:
+    text: '&ID de objeto'
+label.base.renderer.configurable.show.static.fields:
+    text: Campos estáticos (&S)
+label.base.renderer.configurable.show.static.final.fields:
+    text: Campos static &final
+label.base.renderer.configurable.show.strings.type:
+    text: Mostrar tipo para cadenas
+label.base.renderer.configurable.show.synthetic.fields:
+    text: Campos s&intéticos
+label.base.renderer.configurable.show.val.fields.as.locals:
+    text: Campos $val como &variables locales
+label.capture.configurable.capture.variables:
+    text: Capturar variables locales (puede ralentizar significativamente la ejecución)
+label.compound.renderer.configurable.append.default.children:
+    text: Añadir hijos predeterminados
+label.compound.renderer.configurable.apply.to:
+    text: 'Aplicar el renderizador a objetos del tipo (nombre completo calificado):'
+label.compound.renderer.configurable.ondemand:
+    text: Bajo demanda
+label.compound.renderer.configurable.show.type:
+    text: Mostrar tipo e ID de objeto
+label.compound.renderer.configurable.table.header.expression:
+    text: Expresión
+label.compound.renderer.configurable.table.header.name:
+    text: Nombre
+label.compound.renderer.configurable.table.header.ondemand:
+    text: Bajo demanda
+label.compound.renderer.configurable.test.can.expand:
+    text: 'Comprobar si un nodo se puede expandir (opcional):'
+label.compound.renderer.configurable.use.default.renderer:
+    text: Usar renderizador predeterminado
+label.compound.renderer.configurable.use.expression:
+    text: 'Usar la siguiente expresión:'
+label.compound.renderer.configurable.use.expression.list:
+    text: 'Usar lista de expresiones:'
+label.compound.renderer.configurable.when.expanding:
+    text: Al expandir un nodo
+label.compound.renderer.configurable.when.rendering:
+    text: Al renderizar un nodo
+label.debugger.general.configurable.evaluate.finally.always:
+    text: Siempre (&A)
+label.debugger.general.configurable.evaluate.finally.ask:
+    text: Preguntar (&K)
+label.debugger.general.configurable.evaluate.finally.never:
+    text: '&Nunca'
+label.debugger.general.configurable.evaluate.finally.on.pop:
+    text: 'Evaluar bloques finally al extraer el marco y en el retorno anticipado:'
+label.debugger.general.configurable.kill.immediately:
+    text: Finalizar el proceso de depuración inmediatamente
+label.debugger.general.configurable.resume.only.current.thread:
+    text: Reanudar solo el hilo actual
+label.debugger.general.configurable.show.alternative.source:
+    text: Mostrar el conmutador de fuentes alternativas
+label.debugger.general.configurable.skip.classLoaders:
+    text: Omitir cargad&ores de clases
+label.debugger.general.configurable.skip.constructors:
+    text: Omitir &constructores
+label.debugger.general.configurable.skip.simple.getters:
+    text: Omitir &getters simples
+label.debugger.general.configurable.skip.synthetic.methods:
+    text: Omitir métodos sintéticos (&P)
+label.debugger.general.configurable.step.filters.list.header:
+    text: No entrar &en las clases
+label.debugger.hotswap.configurable.always:
+    text: '&Siempre'
+label.debugger.hotswap.configurable.ask:
+    text: Preguntar (&K)
+label.debugger.hotswap.configurable.compile.before.hotswap:
+    text: Compilar el proyecto antes de recargar las clases
+label.debugger.hotswap.configurable.enable.vm.hang.warning:
+    text: "Habilitar la advertencia 'la JVM se colgará'"
+label.debugger.hotswap.configurable.never:
+    text: '&Nunca'
+label.debugger.hotswap.configurable.reload.classes:
+    text: 'Recargar clases después de la compilación:'
+label.debugger.launching.configurable.debugger.transport:
+    text: 'Transporte:'
+label.debugger.launching.configurable.shmem:
+    text: '&Memoria compartida'
+label.exception.breakpoint.properties.panel.caught.exception:
+    text: Excepció&n capturada
+label.exception.breakpoint.properties.panel.group.notifications:
+    text: Notificaciones
+label.exception.breakpoint.properties.panel.uncaught.exception:
+    text: Excepción n&o capturada
+label.generic.debugger.parameters.patcher.configurable.port:
+    text: 'Puerto:'
+label.generic.debugger.parameters.patcher.configurable.shmem:
+    text: Memoria co&mpartida
+label.generic.debugger.parameters.patcher.configurable.shmem.address:
+    text: 'Dirección de memoria compartida:'
+label.generic.debugger.parameters.patcher.configurable.transport:
+    text: 'Transporte:'
+label.group.watch.events:
+    text: Vigilancia
+label.method.breakpoint.properties.panel.emulated:
+    text: Em&ulado
+label.method.breakpoint.properties.panel.method.entry:
+    text: Entrada al método (&Y)
+label.method.breakpoint.properties.panel.method.exit:
+    text: Salida del método (&X)
+label.method.breakpoints.processing.classes:
+    text: Procesando clases para puntos de interrupción de métodos emulados
+label.method.breakpoints.setting.breakpoints:
+    text: Configurando puntos de interrupción de método emulados
+label.thread.group.node:
+    text: Grupo de hilos "{0}"@{1}
+label.thread.group.node.group.collected:
+    text: El grupo de hilos "{0}" ha sido recolectado por el recolector de basura
+label.thread.node.in.group:
+    text: '"{0}"@{1} en el grupo "{3}": {2}'
+label.thread.node.thread.collected:
+    text: "El hilo ''{0}'' ha sido recolectado por el recolector de basura"
+label.threads.view.configurable.current.thread.on.top:
+    text: Mover el hilo actual a la parte superior
+label.threads.view.configurable.show.class.name:
+    text: Mostrar nombre de clase
+label.threads.view.configurable.show.line.number:
+    text: Mostrar número de &línea
+label.threads.view.configurable.show.package:
+    text: Mostrar nombre del paquete
+label.threads.view.configurable.show.prams.types:
+    text: Mostrar tipos de argumentos del método
+label.threads.view.configurable.show.source.file.name:
+    text: Mostrar nombre del archivo fuente
+label.threads.view.configurable.show.stack.frames.for.synthetic.methods:
+    text: Mostrar &marcos de pila para métodos sintéticos
+label.threads.view.configurable.show.thread.groups:
+    text: Mostrar &grupos de hilos
+label.undefined:
+    text: <no definido>
+label.unknown.value:
+    text: <desconocido>
+label.user.renderers.configurable.renderer.name:
+    text: 'Nombre del renderizador:'
+line.breakpoint.display.name:
+    text: Línea {0,number,#}
+line.breakpoint.display.name.with.class.or.method:
+    text: Línea {0,number,#} en {1}
+line.breakpoints.tab.title:
+    text: Puntos de interrupción de línea Java
+message.node.all.array.elements.null:
+    text: Todos los elementos en el rango ({0}, {1}) son null
+message.node.all.elements.null:
+    text: Todos los elementos son null
+message.node.class.has.no.fields:
+    text: La clase no tiene campos
+message.node.class.no.fields.to.display:
+    text: No hay campos para mostrar
+message.node.debug.info.not.available:
+    text: Información de depuración no disponible
+message.node.elements.null.hidden:
+    text: No se muestran los elementos null
+message.node.empty.array:
+    text: Vacío
+message.node.evaluate:
+    text: … Evaluar
+message.node.evaluation.not.possible:
+    text: La VM de destino no está pausada por una solicitud de punto de interrupción. La evaluación de métodos no es posible en este modo.
+message.node.filtered:
+    text: 'Filtrado por:'
+message.node.local.variables.capture.disabled:
+    text: Las variables locales no se capturaron, puede cambiarlo en
+message.node.local.variables.debug.info.not.available:
+    text: Información de depuración de variables no disponible
+message.node.local.variables.not.captured:
+    text: Las variables locales no se capturan para métodos sintéticos, de puente, etc.
+message.node.navigate:
+    text: … Navegar
+message.node.object.collected:
+    text: El objeto ha sido recolectado por el recolector de basura durante la invocación del método
+message.node.show.icon:
+    text: … Mostrar icono
+message.node.show.image:
+    text: … Mostrar imagen
+message.node.thread.has.no.frames:
+    text: El hilo no tiene marcos
+message.node.thread.running:
+    text: El hilo se está ejecutando
+message.remote.jre.version.mismatch:
+    text: 'La versión del JRE de destino ({0}) no coincide con la versión del JDK del proyecto ({1}), se utilizarán las fuentes del JDK: {2}'
+method.breakpoints.slowness.warning:
+    text: Los puntos de interrupción de método pueden ralentizar drásticamente la depuración
+method.breakpoints.tab.title:
+    text: Puntos de interrupción de método Java
+progress.evaluating:
+    text: Evaluando {0}
+progress.hot.swap.title:
+    text: HotSwap
+progress.hotswap.reloading:
+    text: Recargando clases…
+progress.hotswap.scanning.classes:
+    text: Escaneando clases para recargar…
+progress.hotswap.scanning.path:
+    text: 'Escaneando: {0}'
+rule.name.group.by.class:
+    text: Agrupar por clase
+rule.name.group.by.package:
+    text: Agrupar por paquete
+status.app.running:
+    text: La aplicación se está ejecutando
+status.breakpoint.invalid:
+    text: INVÁLIDO
+status.breakpoint.reached.in.thread:
+    text: Punto de interrupción alcanzado en el hilo {0}
+status.breakpoint.reached.in.thread.switch:
+    text: <a href="#">Cambiar de hilo</a>
+status.classes.not.all.versions.reloaded:
+    text: Para {0} de {1} {1,choice, 1#clase|2#clases} no se recargaron todas las versiones
+status.classes.reloaded:
+    text: '{0,number} {0,choice, 0#clases recargadas|1#clase recargada|2#clases recargadas}'
+status.connect.failed:
+    text: 'No se pudo establecer la conexión con la VM de destino, dirección: {0}'
+status.connected:
+    text: 'Conectado a la VM de destino, dirección: {0}'
+status.connecting:
+    text: 'Conectando con la VM de destino, dirección: {0}'
+status.debug.stopped:
+    text: Depuración detenida
+status.disconnected:
+    text: 'Desconectado de la VM de destino, dirección: {0}'
+status.generic.breakpoint.reached:
+    text: Punto de interrupción alcanzado
+status.hot.swap.completed.restart:
+    text: Reiniciar sesión
+status.hot.swap.completed.stop:
+    text: Detener sesión
+status.hot.swap.completed.with.errors:
+    text: HotSwap falló
+status.hot.swap.completed.with.warnings:
+    text: HotSwap completado con advertencias
+status.hotswap.loaded.classes.up.to.date:
+    text: Las clases cargadas están actualizadas. No hay nada que recargar
+status.hotswap.uptodate:
+    text: Las clases cargadas están actualizadas. No hay nada que recargar.
+status.invalid.breakpoint.out.of.class:
+    text: El punto de interrupción no pertenece a ninguna clase
+status.line.breakpoint.reached:
+    text: Punto de interrupción alcanzado en {0}({1}:{2,number,#})
+status.line.breakpoint.reached.full.trace:
+    text: Punto de interrupción alcanzado
+status.listening:
+    text: 'Escuchando la conexión, dirección: {0}'
+status.method.entry.breakpoint.reached:
+    text: "Se ha entrado en el método ''{0}'' en {1}({2}:{3,number,#})"
+status.method.exit.breakpoint.reached:
+    text: "Se ha alcanzado un punto de interrupción de método. El método ''{0}'' está a punto de finalizar en {1}({2}:{3,number,#})"
+status.paused:
+    text: Pausado
+status.paused.in.another.thread:
+    text: Pausado en otro hilo
+status.process.resumed:
+    text: Proceso reanudado
+status.process.started:
+    text: Proceso iniciado
+status.process.terminated:
+    text: Proceso terminado
+status.run.to.cursor:
+    text: Ejecutar hasta el cursor
+status.step.into:
+    text: Entrando en
+status.step.out:
+    text: Saliendo
+status.step.over:
+    text: Pasando por encima
+status.stopped.at.cursor:
+    text: Detenido en el cursor
+status.thread.blocked.by:
+    text: El paso a paso en el hilo {0} está bloqueado por el hilo {1}
+status.thread.blocked.by.resume:
+    text: <a href="#">Reanudar {0}</a>
+status.thread.not.started:
+    text: No iniciado(_S)
+status.thread.running:
+    text: EN EJECUCIÓN
+status.thread.sleeping:
+    text: DURMIENDO
+status.thread.undefined:
+    text: Indefinido
+status.thread.unknown:
+    text: DESCONOCIDO
+status.thread.wait:
+    text: ESPERA
+status.waiting.attach:
+    text: El depurador está esperando a que se inicie la aplicación
+status.waiting.evaluation.result:
+    text: Esperando a que finalice el último comando del depurador
+string.debugger.runner.description:
+    text: Depurar la configuración seleccionada
+string.file.line.position:
+    text: Clase en {0}:{1}
+string.null.context:
+    text: contexto nulo
+text.user.renderers.configurable.no.renderers:
+    text: Sin renderizadores
+threads.view.configurable.display.name:
+    text: Personalizar la vista de hilos
+title.compound.renderer.configurable.choose.renderer.reference.type:
+    text: Tipo de referencia de renderizador
+title.customize.data.views:
+    text: Personalizar vistas de datos
+title.error.evaluating.breakpoint.action:
+    text: Error de la acción del punto de interrupción
+title.error.evaluating.breakpoint.condition:
+    text: Error en la condición del punto de interrupción
+title.evaluating:
+    text: Evaluando…
+title.jdk140.unstable:
+    text: Advertencia de versión de VM
+title.range.too.big:
+    text: Rango demasiado grande
+title.set.value:
+    text: Establecer valor
+title.smart.step.popup:
+    text: Método para entrar
+transport.name.shared.memory:
+    text: memoria compartida
+user.renderers.configurable.button.description.copy:
+    text: Copiar renderizador seleccionado
+user.renderers.configurable.display.name:
+    text: Renderizadores de tipos Java
+warning.finally.block.detected:
+    text: 'Se detectaron bloques finally no vacíos:'
+warning.jdk140.unstable:
+    text: |-
+        La versión de la VM depurada es "1.4.0".
+        Los errores documentados de J2SDK 1.4.0 pueden causar un comportamiento inestable del depurador.
+        Se recomienda utilizar J2SDK 1.4.0_01 o superior.
+warning.range.too.big:
+    text: El rango especificado es demasiado grande. {0} requiere demasiados recursos para realizar la operación solicitada. ¿Está seguro de que desea continuar?
+warning.recalculate:
+    text: Se recalculará el valor
+warning.source.code.not.match:
+    text: El código fuente no coincide con el bytecode

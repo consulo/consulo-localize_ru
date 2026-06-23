@@ -1,0 +1,69 @@
+action.attach.external.project.description:
+    text: Vincular el proyecto {0} al proyecto actual del IDE
+action.attach.external.project.text:
+    text: Vincular proyecto {0}
+action.detach.external.project.description:
+    text: Desvincular el proyecto seleccionado
+action.detach.external.project.text:
+    text: Desvincular proyecto {0}
+error.cannot.parse.project:
+    text: No se puede analizar el proyecto {0}
+error.project.already.registered:
+    text: El proyecto ya está registrado
+error.project.undefined:
+    text: No se ha definido ningún archivo de configuración de proyecto externo
+error.resolve.already.running:
+    text: "Ya se está ejecutando otra tarea de ''Sincronizar proyecto'' para el proyecto: {0}"
+error.resolve.generic:
+    text: Error de resolución
+error.resolve.with.reason:
+    text: |-
+        {0}
+
+        Consulte el registro del IDE para obtener más detalles (Ayuda | Mostrar registro)
+module.type.description:
+    text: Los módulos {0} se utilizan para desarrollar aplicaciones <b>basadas en la JVM</b> con dependencias gestionadas por <b>{0}</b>
+notification.messages.project.sync.tab.name:
+    text: Sincronización de {0}
+notification.project.refresh.fail.title:
+    text: "Falló la sincronización del proyecto {0} ''{1}''"
+orphan.modules.text:
+    text: Los siguientes módulos de IDE se eliminaron mediante la sincronización del proyecto {0}:<p>{1}</p><br/>Puede <a href="#">abrir un cuadro de diálogo</a> para seleccionar los que desee restaurar.
+progress.import.text:
+    text: "Construyendo información del proyecto ''{0}'' {1}"
+progress.refresh.text:
+    text: "Importando el proyecto {1} ''{0}''"
+run.configuration.description:
+    text: Aplicación Quarkus
+run.configuration.settings.label.project:
+    text: '{0} proyecto:'
+run.configuration.settings.label.tasks:
+    text: 'Tareas:'
+run.configuration.settings.label.vmoptions:
+    text: 'Opciones de VM:'
+run.configuration.title.choose.registered.project:
+    text: Seleccionar proyecto {0}
+run.configuration.tooltip.choose.registered.project:
+    text: Seleccione uno de los proyectos {0} registrados
+setting.type.location.deduced:
+    text: Se ha deducido la ubicación de {0}
+setting.type.location.explicit.correct:
+    text: Se ha definido la ubicación de {0}
+setting.type.location.explicit.incorrect:
+    text: La ubicación de {0} es incorrecta
+setting.type.location.unknown:
+    text: La ubicación de {0} es desconocida
+settings.label.project.format:
+    text: 'Formato del proyecto:'
+settings.label.select.project:
+    text: 'Proyecto {0}:'
+settings.title.system.settings:
+    text: Configuración general
+tasks.before.run:
+    text: "Ejecutar tarea {0} ''{1}''"
+tasks.before.run.empty:
+    text: Ejecutar tarea {0}
+tasks.edit.task.title:
+    text: Editar tarea {0}
+tasks.select.task.title:
+    text: Seleccionar tarea {0}

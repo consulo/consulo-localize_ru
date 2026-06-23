@@ -1,0 +1,36 @@
+action.BranchActionGroupPopup.Anonymous.text.restore.size:
+    text: Restaurar tamaño de la ventana emergente
+action.BranchActionGroupPopup.settings.text:
+    text: Configuración
+branch.popup.vcs.name.branches:
+    text: '{0} Ramas'
+branch.popup.vcs.name.branches.in.repo:
+    text: '{0} ramas en {1}'
+branch.popup.warning.branches.have.diverged:
+    text: Las ramas han divergido
+clone.button:
+    text: Clonar
+clone.destination.directory.error.access:
+    text: No se pudo crear el directorio de destino<br/>Compruebe sus permisos de acceso
+clone.parent.dir:
+    text: 'Directorio &padre:'
+clone.parent.missing.error:
+    text: La ruta padre {0} debe existir.
+clone.repository.url.test.failed.message:
+    text: La prueba del repositorio falló<br/>{0}
+clone.test.success.message:
+    text: Conexión exitosa
+clone.testing:
+    text: Probando {0}
+clone.title:
+    text: Clonar repositorio
+cloning.repository:
+    text: Clonando el repositorio de origen {0}
+sync.setting:
+    text: Ejecutar operaciones de ramas en todas las raíces
+sync.setting.description:
+    text: Si se selecciona, podrá realizar el checkout, comparar, eliminar o crear nuevas ramas en todas las raíces de {0} con una sola acción. También afectará al comportamiento del diálogo de push.
+tooltip.branch.widget.root.name.text:
+    text: 'Raíz: {0}'
+tooltip.branch.widget.vcs.branch.name.text:
+    text: '{0} Rama: {1}'

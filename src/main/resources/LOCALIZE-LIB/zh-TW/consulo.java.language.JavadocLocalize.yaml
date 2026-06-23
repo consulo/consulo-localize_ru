@@ -1,0 +1,38 @@
+javadoc.candidates:
+    text: <html>候選方法呼叫 <b>{0}</b> 是:<br><br>{1}</html>
+javadoc.candidates.not.found:
+    text: <html>沒有候選人發現方法呼叫<b>{0}</b>.</html>
+javadoc.constructor.candidates:
+    text: <html>新的候選 <b>{0}</b>() 是:<br>{1}</html>
+javadoc.generate.arguments:
+    text: '命令行實參:'
+javadoc.generate.exited:
+    text: |4
+
+        javadoc退出,退出程式碼$EXIT_CODE$
+javadoc.generate.heap.size:
+    text: '最大堆大小(&M):'
+javadoc.generate.locale:
+    text: '區域設定(&L):'
+javadoc.generate.no.classes.in.selected.packages.error:
+    text: 選定的範圍不包含Java類
+javadoc.generate.open.in.browser:
+    text: 生成文檔並用瀏覽器開啟 (&G)
+javadoc.generate.options.hierarchy:
+    text: 生成層次結構樹
+javadoc.generate.options.index:
+    text: 生成索引
+javadoc.generate.options.index.per.letter:
+    text: 每個字母單獨的索引
+javadoc.generate.options.navigator:
+    text: 生成導航欄
+javadoc.generate.output.directory:
+    text: '輸出目錄 (&D):'
+javadoc.generate.output.directory.browse:
+    text: 瀏覽輸出目錄
+javadoc.generate.tag.list.deprecated:
+    text: 棄用列表
+javadoc.generate.title:
+    text: 生成JavaDoc
+javadoc.resolved.value:
+    text: '剖析值:'

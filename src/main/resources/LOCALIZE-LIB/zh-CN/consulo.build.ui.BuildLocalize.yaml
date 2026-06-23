@@ -1,0 +1,52 @@
+action.filters.text:
+    text: 筛选
+build.event.message.0.at.1:
+    text: 在 {1} 的 {0}
+build.event.message.at:
+    text: 在 {0}
+build.event.message.errors:
+    text: '{0} {0,choice, 1#个错误|2#个错误}'
+build.event.message.successful:
+    text: 成功
+build.event.message.syncing:
+    text: 正在同步…
+build.event.message.up.to.date:
+    text: 最新
+build.event.message.warnings:
+    text: '{0} {0,choice, 1#个警告|2#个警告}'
+build.event.title.build.issues:
+    text: 构建问题
+build.event.title.kotlin.compiler:
+    text: Kotlin 编译器插件
+build.event.title.other.messages:
+    text: 其他消息
+build.messages.cancelled:
+    text: '{0}已取消'
+build.messages.failed:
+    text: '{0} 失败'
+build.messages.finished:
+    text: '{0} 已完成'
+build.status.cancelled:
+    text: 已取消
+build.status.failed:
+    text: 已失败
+build.status.finished:
+    text: 已完成
+build.status.running:
+    text: 正在运行…
+build.tree.filters.show.warnings:
+    text: 显示警告
+error.can.t.append.to.closed.stream:
+    text: '无法将以下行追加到封闭流: {0}'
+error.can.t.read.from.closed.stream:
+    text: 无法从封闭流读取
+sync.view.title:
+    text: 同步
+tab.title.build:
+    text: 构建
+tab.title.build.output:
+    text: 构建输出
+tab.title.more:
+    text: '{0} 和其他 {1} 个'
+thread.name.reader.thread.for.buildoutputinstantreaderimpl.0:
+    text: BuildOutputInstantReaderImpl@{0} 的阅读器线程

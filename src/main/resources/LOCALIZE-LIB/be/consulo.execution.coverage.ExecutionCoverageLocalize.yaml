@@ -1,0 +1,192 @@
+action.ImportCoverage.description:
+    text: Імпартаваць справаздачу, сабраную ў CI, з дыска
+action.ImportCoverage.text:
+    text: Імпартаваць знешнюю справаздачу пра пакрыццё…
+action.name.cover:
+    text: Покрыть
+branch.coverage.message:
+    text: |-
+        Трапленняў: {0}
+        Пакрыта {1}/{2} галін
+cannot.show.coverage.reports.from.different.engines:
+    text: Немагчыма паказаць справаздачы пра пакрыццё з розных рухавікоў.
+choose.coverage.suite.to.display:
+    text: Выберыце набор пакрыцця для адлюстравання
+code.coverage:
+    text: Пакрыццё кода
+configurable.CoverageOptionsConfigurable.display.name:
+    text: Пакрыццё
+configurable.name.editor.colors.page:
+    text: Редактор | {0} | {1}
+coverage.add.to.active.suites:
+    text: Дадаць да актыўных набораў [&A]
+coverage.collecting.data:
+    text: Збор дадзеных пра пакрыццё
+coverage.data.no.coverage.button:
+    text: Няма пакрыцця [&N]
+coverage.data.not.found:
+    text: Дадзеныя пра пакрыццё не знойдзены
+coverage.data.outdated:
+    text: Дадзеныя пра пакрыццё састарэлі
+coverage.data.runner.name:
+    text: Пакрыццё {0}
+coverage.data.show.selected.button:
+    text: Показать выбранное
+coverage.do.not.apply.collected.coverage:
+    text: Не прымяняць сабранае пакрыццё [&C]
+coverage.edit.colors.action.name:
+    text: Рэдагаваць колеры пакрыцця
+coverage.edit.colors.description:
+    text: Рэдагаваць колеры пакрыцця
+coverage.error.collecting.data:
+    text: Памылка збору дадзеных пра пакрыццё
+coverage.error.collecting.data.text:
+    text: Памылка збору дадзеных пра пакрыццё
+coverage.error.loading.report:
+    text: Памылка загрузкі справаздачы пра пакрыццё
+coverage.files:
+    text: файлы
+coverage.files.capitalised:
+    text: Файлы
+coverage.filter.branch.gotit:
+    text: Паказаны толькі {0}, змененыя ў бягучай галіне. Вы можаце наладзіць фільтрацыю тут.
+coverage.filter.gotit:
+    text: Паказаны толькі {0} з незафіксаванымі зменамі. Вы можаце наладзіць фільтрацыю тут.
+coverage.flatten.packages:
+    text: Сплюшчыць пакеты
+coverage.hide.coverage.link.name:
+    text: Схаваць пакрыццё
+coverage.hide.fully.covered.elements:
+    text: Скрыть полностью покрытые {0}
+coverage.import.report.toolwindow.empty.text:
+    text: Імпартаваць справаздачу, сабраную ў CI, з дыска
+coverage.info.string.file:
+    text: '{0,choice,1#файл|2#файла|5#файлов}'
+coverage.is.not.importable:
+    text: "Пакрыццё не можа быць імпартавана ў гэта асяроддзе. {0} coverage.py або {1} ''{2}'' у Налады | Зборка, выкананне, разгортванне | Пакрыццё."
+coverage.is.not.importable.option.enable:
+    text: уключыць
+coverage.is.not.importable.option.install:
+    text: Усталяваць
+coverage.next.change.fully.covered:
+    text: Полностью покрыто
+coverage.next.change.partial.covered:
+    text: Часткова пакрыта
+coverage.next.change.uncovered:
+    text: Не покрыто
+coverage.next.mark:
+    text: Наступная метка пакрыцця
+coverage.next.place:
+    text: Наступны {0}
+coverage.previous.mark:
+    text: Папярэдняя метка пакрыцця
+coverage.previous.place:
+    text: Папярэдні {0}
+coverage.replace.active.suites:
+    text: Замяніць актыўныя наборы [&R]
+coverage.results.suite.name:
+    text: Вынікі пакрыцця {0}
+coverage.show.fully.covered.elements:
+    text: Показать полностью покрытые {0}
+coverage.show.only.elements.in.feature.branch:
+    text: Паказаць толькі змененыя {0} (адносна галіны {1})
+coverage.show.only.modified.elements:
+    text: Паказаць толькі {0} з незакаміленымі зменамі
+coverage.show.unmodified.elements:
+    text: Паказаць {0} без незакаміленых зменаў
+coverage.tab.title:
+    text: Пакрыццё кода
+coverage.view.configuration.was.not.found:
+    text: "Канфігурацыя ''{0}'' не знойдзена."
+coverage.view.edit.run.configuration.0:
+    text: Націсніце
+coverage.view.edit.run.configuration.1:
+    text: Змяніць
+coverage.view.edit.run.configuration.2:
+    text: каб выправіць налады канфігурацыі.
+coverage.view.element:
+    text: Элемент
+coverage.view.filters.group:
+    text: Фільтры
+coverage.view.loading.data:
+    text: Загрузка дадзеных пакрыцця
+coverage.view.no.coverage.results:
+    text: Няма вынікаў пакрыцця.
+coverage.view.packages.root:
+    text: все
+coverage.view.text.covered:
+    text: покрыто
+coverage.view.text.files.covered:
+    text: '{0}% файлов'
+coverage.view.text.lines.covered:
+    text: '{0}% строк покрыто'
+coverage.view.title:
+    text: Пакрыццё
+delete.file:
+    text: Выдаліць файл
+dialog.message.would.you.like.to.delete.file.on.disk:
+    text: "Выдаліць файл ''{0}'' з дыска?"
+dialog.title.find.tests.by.names:
+    text: Пошук тэстаў па імёнах
+display.coverage.prompt:
+    text: "Паказаць дадзеныя пакрыцця для ''{0}''?"
+extract.information.about.tests:
+    text: Выняць інфармацыю пра тэсты
+following.test.could.not.be.found.1:
+    text: 'Не ўдалося знайсці {0, choice, 1#тэст|2#тэсты}: {1}'
+generate.coverage.report.for:
+    text: "Стварыць справаздачу пра пакрыццё для: ''{0}''"
+hint.text.failed.to.load.covered.tests:
+    text: Не ўдалося загрузіць пакрытыя тэсты
+hits.message:
+    text: 'трапленні: {0}'
+hits.title:
+    text: 'Трапленні: {0}'
+lines.covered.info.less.than.one.percent:
+    text: <1% строк покрыто
+lines.covered.info.no.lines.covered:
+    text: нет покрытых строк
+lines.covered.info.not.covered:
+    text: не покрыто
+lines.covered.info.percent.lines.covered:
+    text: '% строк покрыто'
+link.label.close:
+    text: Закрыть
+marker.code.coverage:
+    text: 'маркер: пакрыццё кода'
+no.coverage.runner.available.for:
+    text: Няма даступнага выканаўцы пакрыцця для {0}
+no.coverage.suites.configured:
+    text: Наборы пакрыцця не настроены.
+node.summary.coverage.statistic:
+    text: "{0} в ''{1}''"
+node.summary.no.coverage:
+    text: "Няма пакрыцця ў ''{0}''"
+popup.title.tests.covering.line:
+    text: Тэсты, якія пакрываюць радок {0}:{1}
+remote.suites.node:
+    text: Удалённые
+run.selected.configuration.with.coverage.enabled:
+    text: Запусціць выбраную канфігурацыю з уключаным пакрыццём
+run.with.coverage:
+    text: Запусціць з пакрыццём [_V]
+run.with.coverage.mnemonic:
+    text: "Запусціць '%s' з пакрыццём [_V]"
+settings.coverage.activate.coverage.view:
+    text: Актываваць акно пакрыцця [&V]
+settings.coverage.add.to.the.active.suites:
+    text: Дадаць да актыўных набораў [&D]
+settings.coverage.do.not.apply.collected.coverage:
+    text: Не прымяняць сабранае пакрыццё [&N]
+settings.coverage.replace.active.suites.with.the.new.one:
+    text: Замяніць актыўныя наборы новым [&R]
+settings.coverage.show.options.before.applying.coverage.to.the.editor:
+    text: Паказваць параметры перад прымяненнем пакрыцця да рэдактара [&S]
+settings.coverage.when.new.coverage.is.gathered:
+    text: Пры зборы новага пакрыцця
+show.coverage.per.test.action.description:
+    text: Паказаць пакрыццё для кожнага тэста
+show.coverage.per.test.action.text:
+    text: Паказаць пакрыццё для кожнага тэста
+table.column.name.statistics:
+    text: Статыстыка, %

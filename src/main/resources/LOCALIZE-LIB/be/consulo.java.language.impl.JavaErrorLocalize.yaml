@@ -1,0 +1,192 @@
+ambiguous.method.html.tooltip:
+    text: <html><body><table border=0><tr><td colspan={0}>Неадназначны выклік метаду. Падыходзяць</td></tr><tr>{1}<td>у <b>{2}</b>\&nbsp;і</td></tr><tr>{3}<td>у <b>{4}</b></td></tr></table></body></html>
+annotation.missing.method:
+    text: "Не ўдаецца знайсці метад ''{0}''"
+annotation.unknown.method:
+    text: "Не ўдаецца вырашыць метад ''{0}''"
+call.to.super.is.not.allowed.in.enum.constructor:
+    text: Вызов super не разрешен в конструкторе enum
+cannot.select.dot.class.from.type.variable:
+    text: "Немагчыма атрымаць доступ да аб'екта класа параметра тыпу"
+cannot.select.from.parameterized.type:
+    text: "Немагчыма атрымаць доступ да аб'екта класа параметрызаванага тыпу"
+class.cannot.be.inherited.with.different.arguments:
+    text: '{0} не можа быць успадкаваны з іншымі аргументамі: {1}'
+class.is.not.used:
+    text: "Клас ''{0}'' ніколі не выкарыстоўваецца"
+constructor.is.not.used:
+    text: "Канструктар ''{0}'' ніколі не выкарыстоўваецца"
+declaration.or.variable.expected:
+    text: "Чакаецца аб'яўленне, final або effectively final пераменная"
+different.case.kinds.in.switch:
+    text: У switch выкарыстоўваюцца розныя віды case
+direct.abstract.method.access:
+    text: "Абстрактный метод ''{0}'' не может быть вызван напрямую"
+exception.already.caught.warn:
+    text: "Недасягальная секцыя: {1, choice, 0#выключэнне|2#выключэнні} ''{0}'' {1, choice, 0#ужо было|2#ужо былі} перахоплена"
+exception.is.never.thrown:
+    text: "Выключэнне ''{0}'' ніколі не выкідваецца ў метадзе"
+expression.expected:
+    text: Чакаецца выраз
+extends.after.enum:
+    text: Для enum не дазволена выкарыстанне extends
+field.is.not.used:
+    text: "Поле ''{0}'' ніколі не выкарыстоўваецца"
+generics.holder.method:
+    text: Метод
+generics.holder.type:
+    text: Тып
+generics.select.static.class.from.parameterized.type:
+    text: "Аргументы тыпу тут не дапускаюцца, бо клас ''{0}'' з'яўляецца статычным"
+generics.type.argument.cannot.be.of.primitive.type:
+    text: Аргумент тыпу не можа быць прымітыўным тыпам
+generics.type.or.method.does.not.have.type.parameters:
+    text: "{0} ''{1}'' не мае параметраў тыпу"
+generics.unchecked.assignment:
+    text: "Неправеранае прысвойванне: ''{0}'' да ''{1}''"
+generics.unchecked.call:
+    text: "Непроверенный вызов метода ''{0}''"
+generics.unchecked.call.to.member.of.raw.type:
+    text: "Неправераны выклік ''{0}'' як члена сырога тыпу ''{1}''"
+generics.unchecked.cast:
+    text: "Неправеранае прывядзенне тыпаў: ''{0}'' да ''{1}''"
+generics.wildcards.may.be.used.only.as.reference.parameters:
+    text: Wildcards могуць выкарыстоўвацца толькі як параметры-спасылкі
+illegal.forward.reference:
+    text: Недапушчальная апераджальная спасылка
+illegal.line.end.in.string.literal:
+    text: Канец радка не дазволены ў радковых літаралах
+illegal.self.reference:
+    text: Недапушчальная самаспасылка
+illegal.to.access.static.member.from.enum.constructor.or.instance.initializer:
+    text: "Недапушчальна звяртацца да статычнага члена ''{0}'' з {1, choice, 1#канструктара enum|2#ініцыялізатара поля экзэмпляра|3#ініцыялізатара экзэмпляра}"
+implements.after.interface:
+    text: Для інтэрфейсу не дазволена канструкцыя implements
+inaccessible.type:
+    text: "''{0}'' недоступен здесь"
+incompatible.return.type:
+    text: спроба выкарыстаць несумяшчальны тып вяртаемага значэння
+incompatible.types.html.tooltip:
+    text: "<html><body><table><tr><td style=''padding: 0px 16px 8px 4px;color: {5}''>Патрабаваны тып: </td><td style=''padding: 0px 4px 8px 0px;''>{0}</td>{1}</tr><tr><td style=''padding: 0px 16px 0px 4px;color: {5}''>Прадастаўлены: </td><td style=''padding: 0px 4px 0px 0px;''>{2}</td>{3}</tr></table>{4}</body></html>"
+inheritance.from.final.class:
+    text: "Невозможно наследовать от {1} ''{0}''"
+interface.expected:
+    text: Тут чакаецца інтэрфейс
+interface.methods.cannot.have.body:
+    text: Абстрактныя метады інтэрфейсу не могуць мець цела
+invalid.package.annotation.containing.file:
+    text: Анатацыі пакета павінны знаходзіцца ў файле package-info.java
+is.not.an.enclosing.class:
+    text: "''{0}'' не з'яўляецца ўключальным класам"
+local.class.is.not.used:
+    text: "Лакальны клас ''{0}'' ніколі не выкарыстоўваецца"
+local.variable.is.never.used:
+    text: "Пераменная ''{0}'' ніколі не выкарыстоўваецца"
+local.variable.is.not.assigned:
+    text: "Пераменнай ''{0}'' ніколі не прысвойваецца значэнне"
+local.variable.is.not.used.for.reading:
+    text: "Пераменнай ''{0}'' прысвойваецца значэнне, але яна ніколі не выкарыстоўваецца"
+member.referenced.before.constructor.called:
+    text: "Немагчыма звярнуцца да ''{0}'' да выкліку канструктара супертыпу"
+method.is.not.used:
+    text: "Метад ''{0}'' ніколі не выкарыстоўваецца"
+missing.method.body:
+    text: "Адсутнічае цела метаду, або аб'явіце яго як abstract"
+missing.package.statement:
+    text: "Отсутствует оператор package: ''{0}''"
+missing.return.type:
+    text: "Недапушчальнае аб'яўленне метаду; патрабуецца тып вяртаемага значэння"
+modifiers.for.enum.constants:
+    text: Мадыфікатары не дазволены для канстант enum
+module.ambiguous:
+    text: 'Неоднозначная ссылка на модуль: {0}'
+module.not.in.requirements:
+    text: "Модуль ''{0}'' не змяшчае модуль ''{1}'' у патрабаваннях"
+module.not.on.path:
+    text: 'Модуль адсутнічае ў залежнасцях: {0}'
+module.open.duplicate.text:
+    text: Перайсці да дубліката
+module.opens.in.weak.module:
+    text: "'opens' не разрешен в открытом модуле"
+module.package.not.exported:
+    text: "Модуль ''{0}'' не экспортует пакет ''{1}'' в модуль ''{2}''"
+module.service.unused:
+    text: Інтэрфейс сэрвісу прадастаўлены, але не экспартаваны і не выкарыстоўваецца
+no.default.constructor.available:
+    text: "У ''{0}'' няма даступнага канструктара па змаўчанні"
+not.loop.label:
+    text: "Не метка цыкла: ''{0}''"
+package.local.symbol:
+    text: "''{0}'' не з'яўляецца public у ''{1}''. Няма доступу звонку пакета"
+package.name.file.path.mismatch:
+    text: "Імя пакета ''{0}'' не адпавядае шляху да файла ''{1}''"
+package.not.found:
+    text: 'Пакет не найден: {0}'
+parameter.is.not.used:
+    text: "Параметр ''{0}'' ніколі не выкарыстоўваецца"
+private.constructor.is.not.used:
+    text: "Private канструктар ''{0}'' ніколі не выкарыстоўваецца"
+private.field.is.not.assigned:
+    text: "Private полю ''{0}'' ніколі не прысвойваецца значэнне"
+private.field.is.not.used:
+    text: "Private поле ''{0}'' ніколі не выкарыстоўваецца"
+private.inner.class.is.not.used:
+    text: "Private унутраны клас ''{0}'' ніколі не выкарыстоўваецца"
+private.inner.interface.is.not.used:
+    text: "Private унутраны інтэрфейс ''{0}'' ніколі не выкарыстоўваецца"
+private.method.is.not.used:
+    text: "Private метад ''{0}'' ніколі не выкарыстоўваецца"
+private.symbol:
+    text: "''{0}'' мае private доступ у ''{1}''"
+protected.symbol:
+    text: "''{0}'' мае protected доступ у ''{1}''"
+public.class.should.be.named.after.file:
+    text: "Клас ''{0}'' з'яўляецца public, павінен быць аб'яўлены ў файле ''{0}.java''"
+qualified.enum.constant.in.switch:
+    text: Метка case ў switch па enum павінна быць некваліфікаваным імем канстанты пералічэння
+resource.variable.must.be.final:
+    text: Пераменная, якая выкарыстоўваецца як рэсурс try-with-resources, павінна быць final або effectively final
+safevararg.annotation.cannot.be.applied.for.record.component:
+    text: '@SafeVarargs не разрешен для компонента record'
+safevarargs.not.allowed.non.final.instance.methods:
+    text: '@SafeVarargs не дазволены для нефінальных метадаў экзэмпляра'
+safevarargs.not.allowed.on.methods.with.fixed.arity:
+    text: '@SafeVarargs не дазволены для метадаў з фіксаванай арнасцю'
+safevarargs.not.applicable.for.reifiable.types:
+    text: '@SafeVarargs не дастасавальны да рэіфікавальных тыпаў'
+safevarargs.not.suppress.potentially.unsafe.operations:
+    text: '@SafeVarargs не падаўляе патэнцыяльна небяспечныя аперацыі'
+single.import.class.conflict:
+    text: "''{0}'' ужо вызначаны ў імпарце адзіночнага тыпу"
+statement.must.be.prepended.with.case.label:
+    text: Перед оператором должна быть метка case
+static.interface.method.call.qualifier:
+    text: Статычны метад можа быць выкліканы толькі ў інтэрфейсе, які яго змяшчае
+static.member.accessed.via.instance.reference:
+    text: "Доступ да статычнага члена ''{0}.{1}'' праз спасылку на экзэмпляр"
+static.method.cannot.override.instance.method:
+    text: "Статычны метад ''{0}'' у ''{1}'' не можа пераазначыць метад экзэмпляра ''{2}'' у ''{3}''"
+switch.expr.empty:
+    text: "У выразе 'switch' адсутнічаюць блокі case"
+switch.expr.incomplete:
+    text: "Выраз 'switch' не ахоплівае ўсе магчымыя ўваходныя значэнні"
+text.class.inherits.unrelated.defaults:
+    text: '{0} наследуе незвязаныя default для {1} з тыпаў {2}'
+text.improper.formed.type:
+    text: 'Няправільна сфарміраваны тып: адсутнічаюць некаторыя параметры тыпу'
+type.parameter.is.not.used:
+    text: "Параметр тыпу ''{0}'' ніколі не выкарыстоўваецца"
+unchecked.overriding.incompatible.return.type:
+    text: "Неправеранае пераазначэнне: тып вяртаемага значэння патрабуе неправеранага прывядзення. Знойдзена ''{0}'', патрабуецца ''{1}''"
+unrelated.overriding.methods.return.types:
+    text: метады маюць незвязаныя тыпы вяртаемых значэнняў
+valid.switch.1_7.selector.types:
+    text: char, byte, short, int, Character, Byte, Short, Integer, String або enum
+valid.switch.selector.types:
+    text: byte, char, short або int
+visibility.access.problem:
+    text: "Нет доступа к ''{0}'' в ''{1}''"
+weaker.privileges:
+    text: "{0}; спроба прызначыць больш слабыя правы доступу (''{1}''); было ''{2}''"
+wrong.constructor.arguments:
+    text: "''{0}'' не можа быць ужыты да ''{1}''"

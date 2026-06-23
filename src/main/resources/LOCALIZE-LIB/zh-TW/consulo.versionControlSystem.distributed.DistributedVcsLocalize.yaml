@@ -1,0 +1,44 @@
+action.BranchActionGroupPopup.Anonymous.text.restore.size:
+    text: 恢復大小
+action.BranchActionGroupPopup.settings.text:
+    text: 設定
+branch.popup.maximum.branch.length.sample:
+    text: 'VCS: 變基自定義開發分支中的功能-12345'
+branch.popup.vcs.name.branches:
+    text: '{0} 分支'
+branch.popup.vcs.name.branches.in.repo:
+    text: '{1} 中的 {0} 分支'
+branch.popup.warning.branches.have.diverged:
+    text: 分支已出現分叉
+clone.button:
+    text: 克隆
+clone.destination.directory.error.access:
+    text: 無法建立目標目錄<br/>檢查你的存取權限
+clone.parent.dir:
+    text: '父目錄(&P):'
+clone.parent.missing.error:
+    text: 父路徑{0}必須存在。
+clone.repository.url.test.failed.message:
+    text: 倉庫測試失敗<br/>{0}
+clone.test.success.message:
+    text: 連接成功
+clone.testing:
+    text: 測試{0}
+clone.title:
+    text: 克隆倉庫
+cloning.repository:
+    text: 克隆源倉庫{0}
+commit.amend:
+    text: 修改提交
+commit.amend.tooltip:
+    text: <html>將此提交與前一個</html>合併
+push.force.confirmation.text:
+    text: 您將強制推送{0}。它可能會覆寫遠端的提交。你確定要繼續嗎？
+sync.setting:
+    text: 在所有根上執行分支操作
+sync.setting.description:
+    text: 如果選取，您將可以透過一個操作檢出，比較，刪除和建立所有{0}根目錄中的新分支。這也會影響推送對話方塊的行為。
+tooltip.branch.widget.root.name.text:
+    text: '根: {0}'
+tooltip.branch.widget.vcs.branch.name.text:
+    text: '{0} 分支: {1}'

@@ -1,0 +1,253 @@
+button.exclude:
+    text: 除外
+button.include:
+    text: 追加
+cannot.search.for.usages.title:
+    text: 使用箇所を検索できません
+find.all.button:
+    text: すべて検索(&A)
+find.button:
+    text: 検索(&F)
+find.context.anywhere.scope.label:
+    text: どこでも
+find.context.combo.label:
+    text: コンテキスト：
+find.context.except.comments.and.literals.scope.label:
+    text: コメントと文字列リテラルを除く
+find.context.except.comments.scope.label:
+    text: コメントを除く
+find.context.except.literals.scope.label:
+    text: 文字列リテラルを除く
+find.context.in.comments.scope.label:
+    text: コメントに
+find.context.in.literals.scope.label:
+    text: 文字列リテラルで
+find.dialog.find.button:
+    text: 検索
+find.direction.backward.radio:
+    text: 前へ(&B)
+find.direction.forward.radio:
+    text: 次へ(&O)
+find.direction.group:
+    text: 方向
+find.directory.not.found.error:
+    text: ディレクトリ {0} は見つかりません
+find.excessive.total.size.prompt:
+    text: 合計サイズ {0} のファイル内の使用箇所が見つかりました。 続行すると、{1} は応答しないかメモリ不足エラーになる可能性があります。 続行しますか ?
+find.field.accessors.prompt:
+    text: "''{0}'' のアクセッサを検索しますか ?"
+find.field.accessors.title:
+    text: アクセッサの検索
+find.filter.empty.file.mask.error:
+    text: 空のファイル マスク
+find.filter.file.mask.checkbox:
+    text: ファイル マスク(&M)
+find.filter.file.name.group:
+    text: ファイル名フィルタ
+find.filter.invalid.file.mask.error:
+    text: 不正なファイル マスク "{0}"
+find.highlight.no.more.highlights.found:
+    text: 強調表示はこれ以上見つかりません。
+find.in.path.dialog.title:
+    text: パスの検索
+find.invalid.regular.expression.error:
+    text: 不正なパターン "{0}"
+find.no.usages.at.cursor.error:
+    text: |-
+        使用箇所を検索できません。
+        検索したい要素にキャレットを位置づけて再度実行してください。
+find.open.in.new.tab.checkbox:
+    text: 新規タブで開く(&B)
+find.options.case.sensitive:
+    text: 大文字/小文字を区別する(&C)
+find.options.group:
+    text: オプション
+find.options.include.overloaded.methods.checkbox:
+    text: オーバーロードされたメソッドを含める(&V)
+find.options.regular.expressions:
+    text: 正規表現(&E)
+find.options.replace.preserve.case:
+    text: 大文字/小文字を保持する(&P)
+find.options.skip.results.tab.with.one.occurrence.checkbox:
+    text: 1つのオカレンスしか見つからない場合は、[結果のスキップ]タブ
+find.options.skip.results.tab.with.one.usage.checkbox:
+    text: 使用箇所で結果タブをスキップする(&K)
+find.options.whole.words.only:
+    text: 完全一致(&W)
+find.origin.entire.scope.radio:
+    text: すべてのスコープ(&N)
+find.origin.from.cursor.radio:
+    text: カーソルから(&M)
+find.origin.group:
+    text: 元
+find.parameter.usages.in.overriding.methods.prompt:
+    text: "オーバーライドされたメソッド内のパラメータ ''{0}'' の使用箇所を検索しますか ?"
+find.parameter.usages.in.overriding.methods.title:
+    text: オーバーライドするメソッド内の検索
+find.pointcut.applications.not.found.title:
+    text: 情報
+find.popup.case.sensitive:
+    text: マッチケース
+find.popup.filemask:
+    text: ファイルマスク：
+find.popup.find.button:
+    text: 検索ウィンドウで開く
+find.popup.regex:
+    text: 正規表現
+find.popup.scope.directory:
+    text: ディレクトリ
+find.popup.scope.module:
+    text: モジュール
+find.popup.scope.project:
+    text: プロジェクトで
+find.popup.scope.scope:
+    text: 範囲
+find.popup.show.filter.popup:
+    text: フィルタポップアップを表示
+find.popup.whole.words:
+    text: 言葉
+find.progress.search.completed:
+    text: 検索が終了しました
+find.progress.searching.message:
+    text: '{0} を検索しています...'
+find.progress.stop.background.button:
+    text: バックグラウンド検索を停止
+find.progress.stop.title:
+    text: 停止
+find.replace.all.action:
+    text: すべてを置換
+find.replace.command:
+    text: 置換
+find.replace.dialog.title:
+    text: 置換
+find.replace.found.usage.title:
+    text: '{1} の使用箇所 {0} の置換が見つかりました'
+find.replace.in.project.dialog.title:
+    text: プロジェクト内の置換
+find.replace.invalid.replacement.string:
+    text: 入力した置換文字列は不正な形式です
+find.replace.invalid.replacement.string.title:
+    text: 置換エラー
+find.replace.occurrences.found.in.read.only.files.status:
+    text: 対象は読み取り専用ファイルで見つかりました
+find.replace.occurrences.in.read.only.files.prompt:
+    text: |-
+        対象は読み取り専用ファイル内に見つかりました。
+        操作はそれらに影響しません。
+        強制的に続行しますか ?
+find.replace.occurrences.in.read.only.files.title:
+    text: 読み取り専用ファイルが見つかりました
+find.replace.select.on.editor.command:
+    text: エディタで選択
+find.replace.selected.action:
+    text: 選択範囲を置換(&L)
+find.replace.text.dialog.title:
+    text: 文字列の置換
+find.replace.with.label:
+    text: '置換後の文字列(&R):'
+find.scope.all.project.classes:
+    text: すべてのプロジェクト クラス
+find.scope.directory.radio:
+    text: 'ディレクトリ(&D):'
+find.scope.directory.recursive.checkbox:
+    text: 再帰(&R)
+find.scope.directory.title:
+    text: ディレクトリ {0}
+find.scope.files.with.mask:
+    text: マスク {1} の {0} ファイル
+find.scope.global.radio:
+    text: グローバル(&G)
+find.scope.group:
+    text: スコープ
+find.scope.label:
+    text: 'スコープ(&S):'
+find.scope.module.radio:
+    text: 'モジュール(&O):'
+find.scope.module.title:
+    text: モジュール {0}
+find.scope.project.title:
+    text: プロジェクト
+find.scope.selected.text.radio:
+    text: 選択した文字列(&S)
+find.scope.whole.project.radio:
+    text: プロジェクト全体(&P)
+find.search.again.from.bottom.action.message:
+    text: '{0}、"前を検索" を再実行して最後から検索します'
+find.search.again.from.bottom.hotkey.message:
+    text: '{0}、{1} を押して最後から検索します'
+find.search.again.from.top.action.message:
+    text: '{0}、"次を検索" を再実行して最初から検索します'
+find.search.again.from.top.hotkey.message:
+    text: '{0}、{1} を押して最初から検索します'
+find.search.string.not.found.message:
+    text: '"{0}" は見つかりません'
+find.searched.elements.have.been.changed.error:
+    text: |-
+        検索した要素は変更されています。
+        使用箇所を検索できません。
+find.searching.for.references.to.class.progress:
+    text: クラス {0} への参照を検索しています...
+find.searching.for.string.in.file.progress:
+    text: '{0} を {1} から検索しています...'
+find.super.method.warning.action.verb:
+    text: 次の使用箇所を検索
+find.text.dialog.title:
+    text: 文字列の検索
+find.text.to.find.label:
+    text: '検索する文字列(&T):'
+find.usage.view.no.usages.text:
+    text: 使用箇所は見つかりません
+find.usage.view.tab.text:
+    text: "''{0}'' の対象"
+find.usage.view.usages.text:
+    text: "''{0}'' の対象"
+find.usages.dialog.title:
+    text: 使用箇所の検索
+find.usages.in.file.dialog.title:
+    text: ファイル内の使用箇所の検索
+find.usages.of.element_type.element_name.not.found.message:
+    text: '{0} {1} の使用箇所は見つかりません'
+find.usages.panel.title.derived.classes:
+    text: 派生クラス
+find.usages.panel.title.derived.interfaces:
+    text: 派生インターフェイス
+find.usages.panel.title.implementing.classes:
+    text: クラスの実装
+find.usages.panel.title.implementing.methods:
+    text: メソッドの実装
+find.usages.panel.title.overloaded.methods.usages:
+    text: オーバーロードされたメソッドの使用箇所
+find.usages.panel.title.overriding.methods:
+    text: メソッドのオーバーライド
+find.usages.panel.title.separator:
+    text: または
+find.usages.panel.title.usages:
+    text: 使用箇所
+find.what.derived.classes.checkbox:
+    text: 派生クラス(&D)
+find.what.derived.interfaces.checkbox:
+    text: 派生インターフェイス(&D)
+find.what.fields.usages.checkbox:
+    text: フィールドの使用箇所(&F)
+find.what.group:
+    text: 検索
+find.what.implementing.classes.checkbox:
+    text: クラスの実装(&I)
+find.what.implementing.methods.checkbox:
+    text: メソッドの実装(&I)
+find.what.methods.usages.checkbox:
+    text: メソッドの使用箇所(&M)
+find.what.overriding.methods.checkbox:
+    text: メソッドのオーバーライド(&O)
+find.what.usages.checkbox:
+    text: 使用箇所(&U)
+find.what.usages.of.classes.and.interfaces:
+    text: クラスとインターフェイスの使用箇所(&C)
+found.occurrences:
+    text: '{0}に一致が見つかりました'
+occurrence:
+    text: 一致
+results.options.group:
+    text: 結果オプション
+select.next.occurence.not.found.message:
+    text: 見つからない、もう一度上から検索する

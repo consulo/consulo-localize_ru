@@ -1,0 +1,1174 @@
+access.static.via.instance:
+    text: Доступ к static члену через ссылку на экземпляр
+annotate.overridden.methods.parameters:
+    text: "Анатаваць параметры пераазначальнага метаду як ''@{0}''"
+annotate.overridden.methods.parameters.family.name:
+    text: Анатаваць параметры пераазначальнага метаду
+assignment.to.declared.variable.problem.descriptor:
+    text: "Пераменная ''{0}'' ініцыялізуецца самапрысвойваннем"
+assignment.to.itself.problem.descriptor:
+    text: "Пераменнай ''{0}'' прысвойваецца яе ж значэнне"
+assignment.to.itself.quickfix.name:
+    text: Выдаліць самапрысвойванне
+boolean.method.is.always.inverted.display.name:
+    text: Булеў метад заўсёды інвертуецца
+boolean.method.is.always.inverted.problem.descriptor:
+    text: "Выклікі булева метаду '#ref()' заўсёды інвертуюцца"
+cleanup.in.file:
+    text: Ачысціць код
+cleanup.in.scope:
+    text: Ачысціць код...
+configure.annotations.option:
+    text: Наладзіць анатацыі…
+dataflow.message.array.index.out.of.bounds:
+    text: Індэкс масіва выходзіць за межы
+dataflow.message.assigning.null:
+    text: <code>null</code> прысвойваецца пераменнай з анатацыяй @NotNull
+dataflow.message.assigning.nullable:
+    text: Выраз <code>#ref</code> можа вярнуць null, але прысвойваецца пераменнай з анатацыяй @NotNull
+dataflow.message.constant.method.reference:
+    text: "Вынік спасылкі на метад заўсёды ''{0}''"
+dataflow.message.passing.null.argument:
+    text: Перадача аргумента <code>null</code> параметру з анатацыяй @NotNull
+dataflow.message.passing.nullable.argument:
+    text: 'Аргумент <code>#ref</code> #loc может быть null'
+dataflow.message.passing.nullable.argument.methodref:
+    text: Аргумент спасылкі на метад можа быць null
+dataflow.message.pointless.assignment.expression:
+    text: 'Умова <code>#ref</code> #loc у левай частцы выразу прысвойвання заўсёды <code>{0}</code>. Можна спрасціць'
+dataflow.message.return.null.from.notnull:
+    text: "<code>null</code> вяртаецца метадам, аб'яўленым як @{0}"
+dataflow.message.return.null.from.notnullable:
+    text: "<code>null</code> вяртаецца метадам, не аб'яўленым як @{0}"
+dataflow.message.return.nullable.from.notnull:
+    text: "Выраз <code>#ref</code> можа вярнуць null, але вяртаецца метадам, аб'яўленым як @{0}"
+dataflow.message.return.nullable.from.notnull.function:
+    text: Функцыя можа вярнуць null, але тут гэта не дазволена
+dataflow.message.return.nullable.from.notnullable:
+    text: "Выраз <code>#ref</code> можа вярнуць null, але вяртаецца метадам, не аб'яўленым як @{0}"
+dataflow.message.storing.array.null:
+    text: <code>null</code> захоўваецца ў масіў элементаў @NotNull
+dataflow.message.storing.array.nullable:
+    text: Выраз <code>#ref</code> можа вярнуць null, але захоўваецца ў масіў элементаў @NotNull
+dataflow.message.unreachable.switch.label:
+    text: 'Метка switch <code>#ref</code> #loc недасягальна'
+dataflow.method.fails.with.null.argument:
+    text: Метад выкіне выключэнне, калі параметр роўны null
+default.file.template.description:
+    text: Шаблон файла па змаўчанні
+deprecated.symbol:
+    text: "''{0}'' пазначаны як састарэлы"
+detach.library.quickfix.name:
+    text: Адлучыць бібліятэку
+detach.library.roots.quickfix.name:
+    text: Адлучыць невыкарыстоўваемыя карані бібліятэкі
+disable.inspection.action.name:
+    text: Адключыць інспекцыю
+duplicate.property.diff.key.option:
+    text: Дублюючыя ключы з рознымі значэннямі [&D]
+duplicate.property.diff.key.progress.indicator.text:
+    text: Апрацоўка дублюючага ключа ўласцівасці:{0}
+duplicate.property.display.name:
+    text: Дублюючая ўласцівасць
+duplicate.property.file.scope.option:
+    text: Файл
+duplicate.property.key.option:
+    text: Дублюючыя ключы [&K]
+duplicate.property.key.progress.indicator.text:
+    text: Апрацоўка дублюючага ключа ўласцівасці:{0}
+duplicate.property.module.scope.option:
+    text: Модуль
+duplicate.property.project.scope.option:
+    text: Проект
+duplicate.property.value.option:
+    text: Дублюючыя значэнні [&V]
+duplicate.property.value.progress.indicator.text:
+    text: Апрацоўка дублюючага значэння ўласцівасці:{0}
+edit.inspection.options:
+    text: "Рэдагаваць параметры ''{0}''"
+edit.options.of.reporter.inspection.family:
+    text: Рэдагаваць параметры інспекцыі справаздач
+edit.options.of.reporter.inspection.text:
+    text: Рэдагаваць налады профілю інспекцый
+error.analysis.is.in.progress:
+    text: Выконваецца аналіз памылак
+exports.to.itself.delete.module.ref.fix:
+    text: "Выдаліць спасылку на модуль ''{0}''"
+exports.to.itself.delete.statement.fix:
+    text: Выдаліць дырэктыву
+group.names.abstraction.issues:
+    text: Праблемы абстракцыі
+group.names.assignment.issues:
+    text: Праблемы прысвойвання
+group.names.bitwise.operation.issues:
+    text: Праблемы пабітавых аперацый
+group.names.class.metrics:
+    text: Метрыкі класаў
+group.names.class.structure:
+    text: Структура классов
+group.names.cloning.issues:
+    text: Праблемы кланавання
+group.names.code.maturity.issues:
+    text: Зрелость кода
+group.names.code.style.issues:
+    text: Праблемы стылю кода
+group.names.compiler.issues:
+    text: Праблемы кампілятара
+group.names.concurrency.annotation.issues:
+    text: Праблемы анатацый шматпаточнасці
+group.names.control.flow.issues:
+    text: Праблемы патоку кіравання
+group.names.data.flow.issues:
+    text: Поток данных
+group.names.declaration.redundancy:
+    text: "Лішнасць аб'яўленняў"
+group.names.dependency.issues:
+    text: Праблемы залежнасцей
+group.names.encapsulation.issues:
+    text: Інкапсуляцыя
+group.names.error.handling:
+    text: Апрацоўка памылак
+group.names.finalization.issues:
+    text: Фіналізацыя
+group.names.imports:
+    text: Імпарты
+group.names.inheritance.issues:
+    text: Праблемы наследавання
+group.names.initialization.issues:
+    text: Ініцыялізацыя
+group.names.internationalization.issues:
+    text: Інтэрнацыяналізацыя
+group.names.j2me.issues:
+    text: Убудаваныя сістэмы
+group.names.javabeans.issues:
+    text: Проблемы JavaBeans
+group.names.logging.issues:
+    text: Лагіраванне
+group.names.memory.issues:
+    text: Память
+group.names.method.metrics:
+    text: Метрыкі метадаў
+group.names.modularization.issues:
+    text: Праблемы мадулярызацыі
+group.names.naming.conventions:
+    text: Пагадненні аб найменні
+group.names.numeric.issues:
+    text: Лікавыя праблемы
+group.names.packaging.issues:
+    text: Праблемы пакавання
+group.names.performance.issues:
+    text: Прадукцыйнасць
+group.names.portability.issues:
+    text: Пераноснасць
+group.names.potentially.confusing.code.constructs:
+    text: Патэнцыяльна заблытаныя канструкцыі кода
+group.names.probable.bugs:
+    text: Магчымыя памылкі
+group.names.properties.files:
+    text: Файлы свойств
+group.names.reflective.access.issues:
+    text: Рэфлексіўны доступ
+group.names.resource.management.issues:
+    text: Кіраванне рэсурсамі
+group.names.security.issues:
+    text: Безопасность
+group.names.serialization.issues:
+    text: Серыялізацыя
+group.names.threading.issues:
+    text: Многопоточность
+group.names.toString.issues:
+    text: Проблемы toString()
+group.names.verbose.or.redundant.code.constructs:
+    text: Шматслоўныя або лішнія канструкцыі кода
+group.names.visibility.issues:
+    text: Бачнасць
+highlight.severity.create.dialog.name.label:
+    text: Імя
+highlight.severity.create.dialog.title:
+    text: Рэдагаваць імя ўзроўню важнасці
+inconsistent.bundle.property.error:
+    text: "Неўзгодненая ўласцівасць ''{0}''. Павінна быць вызначана ў бацькоўскім файле ''{1}''."
+inconsistent.bundle.property.inconsistent.end:
+    text: "Неўзгодненае заканчэнне значэння ўласцівасці ''{0}''"
+inconsistent.bundle.property.inconsistent.end.parent.end.from.check.symbols:
+    text: "Неўзгодненае заканчэнне значэння ўласцівасці ''{0}'', але знойдзена ''{1}'' у ''{2}''"
+inconsistent.bundle.property.inconsistent.placeholders:
+    text: "Неўзгодненая колькасць запаўняльнікаў: знойдзена {0} у ''{1}''"
+inconsistent.bundle.property.inherited.with.the.same.value:
+    text: "Уласцівасць успадкавана з файла ''{0}'' з тым жа значэннем"
+inconsistent.bundle.report.duplicate.properties.values:
+    text: Паведамляць пра ўласцівасці, пераазначаныя з тым жа значэннем [&O]
+inconsistent.bundle.report.inconsistent.properties:
+    text: Паведамляць пра неўзгодненыя ўласцівасці [&I]
+inconsistent.bundle.report.inconsistent.properties.ends:
+    text: Паведамляць пра ўласцівасці з неўзгодненымі заканчэннямі [&E]
+inconsistent.bundle.report.inconsistent.properties.placeholders:
+    text: Паведамляць пра ўласцівасці з неўзгодненымі запаўняльнікамі [&P]
+inconsistent.bundle.report.missing.translations:
+    text: Паведамляць пра адсутныя пераклады [&M]
+inconsistent.bundle.untranslated.property.error:
+    text: "Непереведенное свойство ''{0}''. Должно быть переопределено в ''{1}''."
+inconsistent.line.separators:
+    text: Непаслядоўныя падзельнікі радкоў
+inconsistent.resource.bundle.display.name:
+    text: Несогласованный ресурсный пакет
+inspection.action.apply.quickfix:
+    text: Прымяніць хуткае выпраўленне
+inspection.action.apply.quickfix.description:
+    text: Прымяніць хуткае выпраўленне інспекцыі
+inspection.action.edit.settings:
+    text: Рэдагаваць налады
+inspection.action.export.html:
+    text: Экспорт
+inspection.action.export.popup.title:
+    text: Экспорт в
+inspection.action.go.next:
+    text: Перайсці да наступнай праблемы
+inspection.action.group.by.severity:
+    text: Групаваць па важнасці
+inspection.action.group.by.severity.description:
+    text: Групаваць інспекцыі па важнасці
+inspection.action.noun:
+    text: Інспекцыя
+inspection.action.profile.label:
+    text: 'Профіль інспекцый:'
+inspection.action.rerun:
+    text: Перазапусціць інспекцыі [&R]
+inspection.action.suppress:
+    text: "Падавіць інспекцыю ''{0}''"
+inspection.action.title:
+    text: Інспекцыя
+inspection.annotate.method.quickfix.family.name:
+    text: Анатаваць метад
+inspection.annotate.overridden.method.and.self.quickfix.family.name:
+    text: Анатаваць пераазначальныя метады і бягучы
+inspection.annotate.overridden.method.quickfix.family.name:
+    text: Анатаваць пераазначальныя метады
+inspection.annotate.quickfix.implements:
+    text: рэалізуе
+inspection.annotate.quickfix.overridden.method.messages:
+    text: |-
+        Метад {0} {1} метад {2}.
+        Анатаваць таксама базавы метад?
+inspection.annotate.quickfix.overridden.method.warning:
+    text: Папярэджанне пераазначанага метаду
+inspection.annotate.quickfix.overrides:
+    text: переопределяет
+inspection.application.cannot.convert.project.0:
+    text: 'Немагчыма канвертаваць праект: {0}'
+inspection.application.cannot.convert.the.project.the.following.files.are.read.only.0:
+    text: 'Немагчыма канвертаваць праект. Наступныя файлы толькі для чытання: {0}'
+inspection.application.chosen.profile.log.message:
+    text: "Выкарыстоўваецца профіль ''{0}'' для інспекцый"
+inspection.application.directory.cannot.be.found:
+    text: Каталог {0} не найден
+inspection.application.file.cannot.be.found:
+    text: Файл {0} не найден
+inspection.application.initializing.project:
+    text: Ініцыялізацыя праекта…
+inspection.application.opening.project:
+    text: Адкрыццё праекта…
+inspection.application.project.has.older.format.and.will.be.converted:
+    text: Праект мае стары фармат і будзе канвертаваны.
+inspection.application.starting.up:
+    text: Запуск {0}…
+inspection.assert.quickfix:
+    text: "Праверыць ''{0}''"
+inspection.can.be.final.accept.quickfix:
+    text: Сделать final
+inspection.can.be.final.display.name:
+    text: "Аб'яўленне можа мець мадыфікатар 'final'"
+inspection.can.be.final.option:
+    text: Паведамляць пра класы
+inspection.can.be.final.option1:
+    text: Паведамляць пра метады
+inspection.can.be.final.option2:
+    text: Паведамляць пра палі
+inspection.can.be.local.parameter.problem.descriptor:
+    text: Параметр <code>#ref</code> можа мець мадыфікатар <code>final</code>
+inspection.can.be.local.variable.problem.descriptor:
+    text: Пераменная <code>#ref</code> можа мець мадыфікатар <code>final</code>
+inspection.capitalized.done:
+    text: Готово.
+inspection.collection.factories.fix.family.name:
+    text: Замяніць на выклік фабрыкі калекцый
+inspection.collection.factories.fix.name:
+    text: "Замяніць на выклік ''{0}.{1}()''"
+inspection.collection.factories.message:
+    text: "Можна замяніць на выклік ''{0}.{1}()''"
+inspection.collection.factories.option.ignore.non.constant:
+    text: Паведамляць толькі калі змесціва канстантнае
+inspection.command.line.explanation:
+    text: |-
+        Чаканыя параметры: <project_file_path> <inspection_profile> <output_path> [<options>]
+        <inspection_profile> -- імя профілю ў праекце або лакальнай канфігурацыі або шлях да профілю інспекцый; можа быць прапушчаны пры выкарыстанні -e|-profileName|-profilePath
+        Даступныя опцыі:
+        -d <directory_path>  --  дырэкторыя для праверкі, па змаўчанні ўвесь праект
+        -e                   --  выкарыстоўваць профіль інспекцый, настроены для праекта
+        -v[0|1|2]            --  узровень падрабязнасці. 0 - ціхі, 1 - падрабязны, 2 - максімальна падрабязны
+        -profileName         --  імя профілю, вызначанага ў праекце
+        -profilePath         --  абсалютны шлях да профілю
+        -format              --  фармат вываду справаздачы. адзін з xml|json|plain, па змаўчанні xml
+        -changes             --  праверыць незакамічаныя змены і паведаміць пра новыя праблемы
+inspection.comparator.result.comparison.display.name:
+    text: Падазронае выкарыстанне метаду compare
+inspection.comparator.result.comparison.fix.family.name:
+    text: Выправіць параўнанне выніку кампаратара
+inspection.comparator.result.comparison.problem.display.name:
+    text: Параўнанне выніку метаду compare з канкрэтнай канстантай
+inspection.comparing.references.problem.descriptor:
+    text: 'Падазронае параўнанне #ref #loc'
+inspection.comparing.references.use.quickfix:
+    text: Выкарыстоўваць equals()
+inspection.compiler.javac.quirks.anno.array.comma.fix:
+    text: Выдаліць замыкальную коску
+inspection.compiler.javac.quirks.anno.array.comma.problem:
+    text: Замыкальная коска ў ініцыялізатарах масіваў анатацый можа выклікаць памылкі кампіляцыі пры выкарыстанні старых версій javac (напрыклад, JDK 5 і JDK 6)
+inspection.compiler.javac.quirks.name:
+    text: Асаблівасці Javac
+inspection.compiler.javac.quirks.qualifier.type.args.fix:
+    text: Выдаліць параметр абагульнення
+inspection.compiler.javac.quirks.qualifier.type.args.problem:
+    text: Абагульненні ў спасылках на кваліфікатары могуць выклікаць памылкі кампіляцыі пры выкарыстанні старых версій javac (напрыклад, JDK 5 і JDK 6)
+inspection.contract.display.name:
+    text: Праблемы з кантрактамі
+inspection.convert.to.local.quickfix:
+    text: Преобразовать в локальную переменную
+inspection.data.flow.filter.notnull.quickfix:
+    text: "Уставіць крок 'filter(Objects::nonNull)'"
+inspection.data.flow.ignore.assert.statements:
+    text: Ігнараваць assert-сцвярджэнні
+inspection.data.flow.report.not.null.required.parameter.with.null.literal.argument.usages:
+    text: Паведамляць пра not-null параметры з null-літараламі ў якасці аргументаў
+inspection.data.flow.report.nullable.methods.that.always.return.a.non.null.value:
+    text: Паведамляць пра nullable метады, якія заўсёды вяртаюць не-null значэнне
+inspection.data.flow.report.problems.that.happen.only.on.some.code.paths:
+    text: Паведамляць пра праблемы, што ўзнікаюць толькі на некаторых шляхах выканання
+inspection.data.flow.simplify.boolean.expression.quickfix:
+    text: Спрасціць лагічны выраз
+inspection.data.flow.simplify.to.assignment.quickfix.name:
+    text: Спрасціць да звычайнага прысвойвання
+inspection.data.flow.treat.non.annotated.members.and.parameters.as.nullable:
+    text: Разглядаць неанатаваныя члены і параметры як @Nullable
+inspection.data.flow.use.computeifpresent.quickfix:
+    text: "Замяніць 'compute' на 'computeIfPresent'"
+inspection.dead.code.comment:
+    text: // --Закаментаваная інспекцыя
+inspection.dead.code.comment.quickfix:
+    text: Закаментаваць
+inspection.dead.code.date.comment:
+    text: '// --Закаментаваная інспекцыя ({0}):'
+inspection.dead.code.display.name:
+    text: "Нявыкарыстаныя аб'яўленні"
+inspection.dead.code.entry.point.quickfix:
+    text: Дадаць як пункт уваходу
+inspection.dead.code.entry.points.display.name:
+    text: Пункты ўваходу
+inspection.dead.code.export.results.instantiated.from.heading:
+    text: Інстанцыявана з
+inspection.dead.code.export.results.no.instantiations.found:
+    text: Інстанцыяванні не знойдзены.
+inspection.dead.code.option.applet:
+    text: Апплеты
+inspection.dead.code.option.external:
+    text: Класы з выкарыстаннем у не-Java файлах
+inspection.dead.code.option.main:
+    text: <html>Методы <code>void main(String args[])</code></html>
+inspection.dead.code.option.servlet:
+    text: Сервлеты
+inspection.dead.code.problem.synopsis:
+    text: Полю ніколі не прысвойваецца значэнне.
+inspection.dead.code.problem.synopsis1:
+    text: Поле ніколі не выкарыстоўваецца.
+inspection.dead.code.problem.synopsis10:
+    text: Кантэкст ананімнага класа недасягальны з пунктаў уваходу. Клас ніколі не інстанцыюецца.
+inspection.dead.code.problem.synopsis11:
+    text: '{0} ніколі не выкарыстоўваецца.'
+inspection.dead.code.problem.synopsis12:
+    text: '{0} мае экзэмпляр, але экзэмпляр недаступны з пунктаў уваходу.'
+inspection.dead.code.problem.synopsis13:
+    text: '{0} не інстанцыюецца.'
+inspection.dead.code.problem.synopsis14:
+    text: <ul><li>абстрактны метад не рэалізаваны, або</li><li>рэалізавальны клас ніколі не інстанцыюецца, або</li><li>усе інстанцыяванні недасягальны з пунктаў уваходу.</li></ul>
+inspection.dead.code.problem.synopsis15:
+    text: <ul><li>клас-уладальнік метаду ніколі не інстанцыюецца, або</li><li>усе інстанцыяванні недасягальны з пунктаў уваходу.</li></ul>
+inspection.dead.code.problem.synopsis16:
+    text: Метад ніколі не выкарыстоўваецца.
+inspection.dead.code.problem.synopsis18:
+    text: Метад недасягальны з пунктаў уваходу.
+inspection.dead.code.problem.synopsis19:
+    text: Клас і {0, choice, 1#яго рэалізацыя|2#яго {0,number} рэалізацыі} ніколі не інстанцыююцца.
+inspection.dead.code.problem.synopsis2:
+    text: Полю прысвойваецца значэнне, але яно ніколі не чытаецца.
+inspection.dead.code.problem.synopsis20:
+    text: '{1} мае {0, choice, 1#1 інстанцыяванне|2#{0,number} інстанцыяванні}, але інстанцыяванні недасягальны з пунктаў уваходу.'
+inspection.dead.code.problem.synopsis21:
+    text: Метад ніколі не выкарыстоўваецца як член {0}, а толькі як член рэалізавальных класаў. Праект застанецца сумяшчальным пры выдаленні метаду з {0}.
+inspection.dead.code.problem.synopsis22:
+    text: Метад пераазначае бібліятэчны метад, але <ul><li>яго {0} ніколі не інстанцыюецца, або</li><li>інстанцыяванні яго {0} недасягальны з пунктаў уваходу.</li></ul>
+inspection.dead.code.problem.synopsis23:
+    text: '{0} не рэалізаваны.'
+inspection.dead.code.problem.synopsis24:
+    text: '{0} мае рэалізацыю, але <ul><li>рэалізацыя ніколі не інстанцыюецца, або</li><li>ніводнае інстанцыяванне не дасягальна з пунктаў уваходу.</li></ul>'
+inspection.dead.code.problem.synopsis26.constructor:
+    text: Канструктар ніколі не выкарыстоўваецца.
+inspection.dead.code.problem.synopsis26.method:
+    text: Метад ніколі не выкарыстоўваецца.
+inspection.dead.code.problem.synopsis28.constructor:
+    text: Канструктар мае адно выкарыстанне, але яно недасягальна з пунктаў уваходу.
+inspection.dead.code.problem.synopsis28.method:
+    text: Метад мае адно выкарыстанне, але яно недасягальна з пунктаў уваходу.
+inspection.dead.code.problem.synopsis29.constructor:
+    text: Канструктар мае {0, choice, 1#1 выкарыстанне|2#{0,number} выкарыстанні}, але выкарыстанні недасягальны з пунктаў уваходу.
+inspection.dead.code.problem.synopsis29.method:
+    text: Метад мае {0, choice, 1#1 выкарыстанне|2#{0,number} выкарыстанні}, але выкарыстанні недасягальны з пунктаў уваходу.
+inspection.dead.code.problem.synopsis3:
+    text: Поле мае адно выкарыстанне, але яно недасягальна з пунктаў уваходу.
+inspection.dead.code.problem.synopsis4:
+    text: Поле мае {0, choice, 1#1 выкарыстанне|2#{0,number} выкарыстанні}, але выкарыстанні недасягальны з пунктаў уваходу.
+inspection.dead.code.problem.synopsis6:
+    text: Дасягальна. Знойдзена {0, choice, 1#1 выкарыстанне|2#{0, number} выкарыстанні} у кодзе праекта.
+inspection.dead.code.problem.synopsis6.suspicious:
+    text: Недасягальна. Знойдзена {0, choice, 1#1 выкарыстанне|2#{0, number} выкарыстанні} у кодзе праекта.
+inspection.dead.code.problem.synopsis7:
+    text: Маюцца дасягальныя экзэмпляры. Знойдзена {0, choice, 1#1 экзэмпляр|2#{0, number} экзэмпляра} у кодзе праекта.
+inspection.dead.code.problem.synopsis8:
+    text: Маюцца дасягальныя рэалізацыі. Знойдзена {0, choice, 1#1 экзэмпляр|2#{0, number} экзэмпляра} у кодзе праекта.
+inspection.dead.code.problem.synopsis8.suspicious:
+    text: Маюцца недасягальныя рэалізацыі. Знойдзена {0, choice, 1#1 экзэмпляр|2#{0, number} экзэмпляра} у кодзе праекта.
+inspection.dead.code.problem.synopsis9:
+    text: Інстанцыявана. Знойдзена {0, choice, 1#1 экзэмпляр|2#{0, number} экзэмпляра} у кодзе праекта.
+inspection.dead.code.problem.synopsis9.suspicious:
+    text: Кантэкст ананімнага класа недасягальны. Клас не інстанцыяваны. Знойдзена {0, choice, 1#1 экзэмпляр|2#{0, number} экзэмпляра} у кодзе праекта.
+inspection.dead.code.remove.user.defined.entry.point.quickfix:
+    text: Выдаліць карыстальніцкі пункт уваходу
+inspection.dead.code.safe.delete.quickfix:
+    text: Бяспечнае выдаленне
+inspection.dead.code.start.comment:
+    text: |
+        // --Закаментаваная інспекцыя ПАЧАТАК ({0}):
+inspection.dead.code.stop.comment:
+    text: |
+        // --Закаментаваная інспекцыя КАНЕЦ ({0})
+inspection.default.annotation.param:
+    text: Значэнне параметра анатацыі па змаўчанні
+inspection.deprecated.display.name:
+    text: Выкарыстанне састарэлага API
+inspection.diff.format.error:
+    text: 'Неабходныя параметры: <old_file> <new_file> [<delta_file_name>]'
+inspection.disabled.error:
+    text: "Інспекцыя ''{0}'' адключана: {1}."
+inspection.disabled.wrong.id:
+    text: "Інспекцыя ''{0}'' адключана: ID ''{1}'' не адпавядае шаблону ''{2}''."
+inspection.done:
+    text: Готово.
+inspection.duplicate.throws.display.name:
+    text: Дублюючыя throws
+inspection.duplicate.throws.ignore.subclassing.option:
+    text: Ігнараваць выключэнні, якія наследуюць іншыя
+inspection.duplicate.throws.more.general.problem:
+    text: "У спісе throws ужо ёсць больш агульнае выключэнне ''{0}''."
+inspection.duplicate.throws.problem:
+    text: Дублюючыя throws
+inspection.duplicates.display.name:
+    text: Паўторны радковы літарал
+inspection.duplicates.message:
+    text: <html><body>Знойдзены паўторны радковы літарал у<br>{0}</body></html>
+inspection.duplicates.message.in.this.file:
+    text: (в этом файле)
+inspection.duplicates.message.more:
+    text: … (яшчэ {0})
+inspection.duplicates.navigate.to.occurrences:
+    text: Перайсці да ўваходжанняў
+inspection.duplicates.occurrences.view.title:
+    text: "Дублікаты для ''{0}''"
+inspection.duplicates.option:
+    text: 'Мінімальная даўжыня радка [&M]:'
+inspection.duplicates.option.report.propertykey.expressions:
+    text: Ігнараваць выразы @PropertyKey [&I]
+inspection.duplicates.replace.family.quickfix:
+    text: Замяніць
+inspection.duplicates.replace.quickfix:
+    text: "Замяніць на ''{0}''"
+inspection.empty.method.delete.quickfix:
+    text: Выдаліць непатрэбныя метады
+inspection.empty.method.display.name:
+    text: Пустой метод
+inspection.empty.method.problem.descriptor:
+    text: Метод только вызывает свой super
+inspection.empty.method.problem.descriptor1:
+    text: Пустой метод переопределяет пустой метод
+inspection.empty.method.problem.descriptor2:
+    text: Метод пуст
+inspection.empty.method.problem.descriptor4:
+    text: Усе рэалізацыі гэтага метаду пустыя
+inspection.equals.hashcode.display.name:
+    text: "'equals()' і 'hashCode()' не ўзгоднены"
+inspection.equals.hashcode.generate.equals.quickfix:
+    text: "Згенераваць 'equals()'"
+inspection.equals.hashcode.generate.hashcode.quickfix:
+    text: "Згенераваць 'hashCode()'"
+inspection.equals.hashcode.only.one.defined.problem.descriptor:
+    text: В классе определен {0}, но не определен {1}
+inspection.error.loading.message:
+    text: Памылка чытання профілю інспекцый {0, choice, 0#з {1}|1#}
+inspection.errors.occurred.dialog.title:
+    text: Адбыліся памылкі
+inspection.excessive.lambda.fix.family.name:
+    text: Замяніць лямбду канстантай
+inspection.excessive.lambda.fix.name:
+    text: "Выкарыстоўваць метад ''{0}'' без лямбды"
+inspection.excessive.lambda.message:
+    text: Лішняе выкарыстанне лямбды
+inspection.export.dialog.title:
+    text: Экспорт
+inspection.export.generating.html.for:
+    text: 'Генерацыя HTML: {0}'
+inspection.export.open.option:
+    text: Адкрыць згенераваны HTML у браўзеры [&B]
+inspection.export.results.abstract.class:
+    text: абстрактный класс
+inspection.export.results.anonymous.ref.in.owner:
+    text: в
+inspection.export.results.at.line:
+    text: строка
+inspection.export.results.callees:
+    text: Цепочка вызовов
+inspection.export.results.can.be.final.description:
+    text: "Аб'яўленне можа мець мадыфікатар final"
+inspection.export.results.capitalized.abstract.class:
+    text: Абстрактный класс
+inspection.export.results.capitalized.class:
+    text: Класс
+inspection.export.results.capitalized.interface:
+    text: Інтэрфейс
+inspection.export.results.capitalized.location:
+    text: Размяшчэнне
+inspection.export.results.class:
+    text: класс
+inspection.export.results.constructor:
+    text: конструктор
+inspection.export.results.dead.code:
+    text: "Нявыкарыстаныя аб'яўленні"
+inspection.export.results.derived.methods:
+    text: Вытворныя метады
+inspection.export.results.extended:
+    text: пашыраны
+inspection.export.results.extended.implemented:
+    text: пашыраны/рэалізаваны
+inspection.export.results.extends.implements:
+    text: пашырае/рэалізуе
+inspection.export.results.field:
+    text: Поле
+inspection.export.results.file:
+    text: Файл
+inspection.export.results.implicit.constructor:
+    text: неявный конструктор
+inspection.export.results.initializer:
+    text: Ініцыялізатар
+inspection.export.results.interface:
+    text: Інтэрфейс
+inspection.export.results.invalidated.item:
+    text: несапраўдны элемент
+inspection.export.results.method:
+    text: Метод
+inspection.export.results.no.problems.found:
+    text: Памылак і папярэджанняў не знойдзена
+inspection.export.results.overrides.implements:
+    text: Пераазначае/Рэалізуе
+inspection.export.results.overrides.library.methods:
+    text: Пераазначае метады бібліятэкі
+inspection.export.results.package:
+    text: пакет
+inspection.export.results.type.references:
+    text: Наступныя выкарыстоўваюць гэты тып
+inspection.export.results.used.from:
+    text: Выкарыстоўваецца з
+inspection.export.results.uses:
+    text: Выкарыстоўвае
+inspection.export.save.button:
+    text: Захаваць
+inspection.field.can.be.local.display.name:
+    text: Поле может быть локальным
+inspection.field.can.be.local.problem.descriptor:
+    text: Поле может быть преобразовано в локальную переменную
+inspection.filter.resolved.action.text:
+    text: Фільтраваць вырашаныя элементы
+inspection.general.tools.group.name:
+    text: Агульныя
+inspection.generating.html.progress.title:
+    text: Генерацыя HTML…
+inspection.generating.xml.progress.title:
+    text: Дамп XML…
+inspection.handle.signature.change.type.fix.name:
+    text: "Змяніць тып на ''{0}''"
+inspection.handle.signature.field.cannot.resolve:
+    text: "Немагчыма вырашыць поле ''{0}''"
+inspection.handle.signature.field.not.static:
+    text: "Поле ''{0}'' не з'яўляецца статычным"
+inspection.handle.signature.field.static:
+    text: "Поле ''{0}'' з'яўляецца статычным"
+inspection.handle.signature.field.type:
+    text: "Тып поля ''{0}'' - ''{1}''"
+inspection.handle.signature.method.not.static:
+    text: "Метад ''{0}'' не з'яўляецца статычным"
+inspection.handle.signature.method.static:
+    text: "Метад ''{0}'' з'яўляецца статычным"
+inspection.handle.signature.name:
+    text: Неадпаведнасць тыпаў MethodHandle/VarHandle
+inspection.handle.signature.use.constructor.fix.family.name:
+    text: Выкарыстоўваць адну з перагрузак канструктара
+inspection.handle.signature.use.constructor.fix.name:
+    text: "Выкарыстоўваць канструктар ''{0}''"
+inspection.handle.signature.use.method.fix.family.name:
+    text: Выкарыстоўваць адну з перагрузак метаду
+inspection.handle.signature.use.method.fix.name:
+    text: "Выкарыстоўваць метад ''{0}''"
+inspection.illegal.character:
+    text: Недапушчальны сімвал
+inspection.implicit.subclass.display.forClass:
+    text: "Клас ''{0}'' можа быць няяўна ўспадкаваны і не павінен быць final"
+inspection.implicit.subclass.display.name:
+    text: "Final-аб'яўленне не можа быць пераазначана падчас выканання"
+inspection.implicit.subclass.extendable:
+    text: "Сделать ''{0}'' переопределяемым"
+inspection.implicit.subclass.make.class.extendable:
+    text: "Зрабіць клас ''{0}'' {1,choice,0#|1#і метад {2} |1<і {1} патрабаваных метадаў }пашыральным"
+inspection.java.module.naming:
+    text: Імя модуля Java супярэчыць пагадненню
+inspection.java.module.naming.terminal.digits:
+    text: "Кампанент імя модуля ''{0}'' не павінен заканчвацца лічбамі"
+inspection.javadoc.html.not.required.label.text:
+    text: 'Дадатковыя неабавязковыя html-атрыбуты:'
+inspection.javadoc.label.text:
+    text: 'Дадатковыя тэгі Javadoc:'
+inspection.javadoc.lint.display.name:
+    text: Проблемы HTML в Javadoc (DocLint)
+inspection.javadoc.method.problem.missing.tag.description:
+    text: Адсутнічае апісанне тэга {0}
+inspection.javadoc.option.ignore.deprecated:
+    text: Ігнараваць элементы, пазначаныя як @deprecated
+inspection.javadoc.option.ignore.period:
+    text: Ігнараваць праблемы з кропкамі
+inspection.javadoc.option.tab.title:
+    text: Класс
+inspection.javadoc.option.tab.title.field:
+    text: Поле
+inspection.javadoc.option.tab.title.inner.class:
+    text: Унутраны клас
+inspection.javadoc.option.tab.title.method:
+    text: Метод
+inspection.javadoc.option.tab.title.package:
+    text: Пакет
+inspection.javadoc.problem.add.param.tag:
+    text: "Дадаць тэг @param для параметра ''{0}''"
+inspection.javadoc.problem.add.param.tag.family:
+    text: Дадаць адсутны тэг параметра Javadoc
+inspection.javadoc.problem.add.tag:
+    text: Дадаць тэг @{0} {1}
+inspection.javadoc.problem.add.tag.family:
+    text: Дадаць адсутны тэг Javadoc
+inspection.javadoc.problem.cannot.resolve:
+    text: Не ўдаецца вырашыць сімвал {0}
+inspection.javadoc.problem.descriptor:
+    text: Отсутствует обязательный Javadoc
+inspection.javadoc.problem.descriptor1:
+    text: У дакументацыі адсутнічае кропка. Кропка выкарыстоўваецца інструментам Javadoc для генерацыі каментара на старонцы агляду
+inspection.javadoc.problem.duplicate.param:
+    text: "Дублюючы тэг @param для параметра ''{0}''"
+inspection.javadoc.problem.duplicate.tag:
+    text: Дублюючы тэг @{0}
+inspection.javadoc.problem.duplicate.throws:
+    text: "Дублюючы тэг @throws або @exception для выключэння ''{0}''"
+inspection.javadoc.problem.missing.tag:
+    text: Отсутствует обязательный тег {0}
+inspection.javadoc.problem.missing.tag.description:
+    text: '{0} отсутствует после тега @{1}'
+inspection.javadoc.problem.name.expected:
+    text: Чакаецца імя
+inspection.javadoc.problem.pointing.to.itself:
+    text: Javadoc указывает на себя
+inspection.javadoc.problem.see.tag.expecting.ref:
+    text: Пасля тэга @see чакаецца спасылка на клас/метад, цытаваны тэкст або HTML-спасылка
+inspection.javadoc.problem.wrong.tag:
+    text: Неверный тег {0}
+inspection.javadoc.ref.display.name:
+    text: "Праблемы ў спасылках Javadoc у аб'яўленні"
+inspection.lambda.to.method.call.fix.family.name:
+    text: Замяніць лямбда-выраз выклікам метаду
+inspection.lambda.to.method.call.fix.name:
+    text: "Замяніць лямбда-выраз на ''{0}''"
+inspection.local.can.be.final.display.name:
+    text: "Лакальная пераменная або параметр могуць быць 'final'"
+inspection.local.can.be.final.option:
+    text: Паведамляць пра лакальныя пераменныя
+inspection.local.can.be.final.option1:
+    text: Паведамляць пра параметры метаду
+inspection.local.can.be.final.option2:
+    text: Паведамляць пра параметры catch
+inspection.local.can.be.final.option3:
+    text: Паведамляць пра параметры foreach
+inspection.local.can.be.final.option4:
+    text: <html>Паведамляць пра пераменныя, якія няяўна final<br/>(параметры multi-catch або try-with-resources)</html>
+inspection.map.foreach.option.no.loops:
+    text: Не паведамляць пра цыклы
+inspection.marked.for.removal.display.name:
+    text: Выкарыстанне API, пазначанага для выдалення
+inspection.message.redundant.default.parameter.value.assignment:
+    text: Лішняе прысвойванне значэння параметру па змаўчанні
+inspection.module.exports.package.to.itself:
+    text: Модуль экспортует/открывает пакет самому себе
+inspection.no.jdk.error.message:
+    text: JDK настроены няправільна для гэтага праекта. Інспекцыя не можа быць выканана.
+inspection.no.modules.error.message:
+    text: Гэты праект не змяшчае модуляў. Інспекцыя не можа быць выканана.
+inspection.null.value.for.optional.context.assignment:
+    text: прысвойванне
+inspection.null.value.for.optional.context.declaration:
+    text: "аб'яўленне"
+inspection.null.value.for.optional.context.lambda:
+    text: лямбда-выраз
+inspection.null.value.for.optional.context.parameter:
+    text: параметр
+inspection.null.value.for.optional.context.return:
+    text: оператор return
+inspection.null.value.for.optional.fix.family.name:
+    text: Замяніць на метад пустога Optional
+inspection.null.value.for.optional.message:
+    text: "Null выкарыстоўваецца для тыпу ''Optional'' у {0}"
+inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
+    text: Параметр з анатацыяй @{0} не павінен пераазначаць параметр з @{1}
+inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
+    text: Параметр з анатацыяй @{0} не павінен пераазначаць неанатаваны параметр
+inspection.nullable.problems.Nullable.NotNull.conflict:
+    text: Нельга выкарыстоўваць адначасова анатацыі @{0} і @{1}
+inspection.nullable.problems.Nullable.method.overrides.NotNull:
+    text: Метад з анатацыяй @{0} не павінен пераазначаць метад з @{1}
+inspection.nullable.problems.annotated.field.constructor.parameter.not.annotated:
+    text: Параметр канструктара для поля з @{0} можа быць анатаваны @{0}
+inspection.nullable.problems.annotated.field.getter.conflict:
+    text: Гетар для поля з @{0} анатаваны @{1}
+inspection.nullable.problems.annotated.field.getter.not.annotated:
+    text: Гетар для поля з @{0} можа быць анатаваны @{0}
+inspection.nullable.problems.annotated.field.setter.parameter.conflict:
+    text: Параметр сетара для поля з @{0} анатаваны @{1}
+inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
+    text: Параметр сетара для поля з @{0} можа быць анатаваны @{0}
+inspection.nullable.problems.display.name:
+    text: Проблемы @NotNull/@Nullable
+inspection.nullable.problems.method.overrides.NotNull:
+    text: Неанатаваны метад пераазначае метад з анатацыяй @{0}
+inspection.nullable.problems.parameter.overrides.NotNull:
+    text: Неанатаваны параметр пераазначае параметр з @{0}
+inspection.nullable.problems.primitive.type.annotation:
+    text: Прымітыўныя тыпы не могуць быць анатаваны
+inspection.options.action.text:
+    text: "Параметры праверкі ''{0}''"
+inspection.parameter.can.be.local.display.name:
+    text: Значэнне, перададзенае як параметр, ніколі не чытаецца
+inspection.parameter.can.be.local.problem.descriptor:
+    text: Параметр может быть преобразован в локальную переменную
+inspection.problem.descriptor.count:
+    text: '{0, choice, 0#|1#(1 элемент)|2#({0,number,integer} элементов)}'
+inspection.problem.resolution:
+    text: Рашэнне праблемы
+inspection.problem.synopsis:
+    text: Кароткае апісанне праблемы
+inspection.processing.job.descriptor:
+    text: Апрацоўка выкарыстання праекта ў
+inspection.processing.job.descriptor1:
+    text: Апрацоўка знешніх выкарыстанняў
+inspection.processing.job.descriptor2:
+    text: Аналіз кода
+inspection.profile.unnamed:
+    text: Без імя
+inspection.redirect.template:
+    text: '<html><body>Праблема ў інжектаваным элеменце: {0} (у <a href="#navigation/{1}:{2}">{3}</a>).</body></html>'
+inspection.redundant.array.creation.display.name:
+    text: Лішняе стварэнне масіва
+inspection.redundant.array.creation.for.varargs.call.descriptor:
+    text: Лішняе стварэнне масіва пры выкліку varargs метаду
+inspection.redundant.array.creation.quickfix:
+    text: Выдаліць яўнае стварэнне масіва
+inspection.redundant.cast.display.name:
+    text: Лішняе прывядзенне тыпу
+inspection.redundant.cast.problem.descriptor:
+    text: 'Прывядзенне <code>{0}</code> да <code>#ref</code> #loc лішняе'
+inspection.redundant.cast.remove.quickfix:
+    text: Выдаліць лішняе прывядзенне тыпу
+inspection.redundant.requires.statement.description:
+    text: "Лішняя дырэктыва ''requires {0}''."
+inspection.redundant.requires.statement.fix.family:
+    text: "Выдаліць лішнюю дырэктыву 'requires'"
+inspection.redundant.requires.statement.fix.name:
+    text: "Выдаліць дырэктыву ''requires {0}''"
+inspection.redundant.stream.optional.call.explanation.distinct:
+    text: "у ланцужку ёсць папярэдні выклік 'distinct()'"
+inspection.redundant.stream.optional.call.explanation.filter:
+    text: "прэдыкат заўсёды 'true'"
+inspection.redundant.stream.optional.call.explanation.parallel:
+    text: "існуе наступны выклік ''{0}()'', які пераазначае гэты выклік"
+inspection.redundant.stream.optional.call.explanation.sorted:
+    text: "наступны выклік ''{0}()'' не залежыць ад парадку сартавання"
+inspection.redundant.stream.optional.call.explanation.unordered:
+    text: "у ланцужку ёсць папярэдні выклік 'unordered()'"
+inspection.redundant.stream.optional.call.fix.family.name:
+    text: Выдаліць лішні выклік у ланцужку
+inspection.redundant.stream.optional.call.fix.name:
+    text: "Выдаліць выклік ''{0}()''"
+inspection.redundant.stream.optional.call.option.streamboxing:
+    text: Паведамляць пра лішнюю ўпакоўку ў Stream.map()
+inspection.redundant.suppression.description:
+    text: Лішняе падаўленне
+inspection.redundant.suppression.name:
+    text: Лішняе падаўленне
+inspection.redundant.throws.problem.descriptor:
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца ні ў адной рэалізацыі метаду"
+inspection.redundant.throws.problem.descriptor1:
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца ў гэтым метадзе або яго пераазначальных метадах"
+inspection.redundant.throws.problem.descriptor2:
+    text: "Аб'яўленае выключэнне <code>#ref</code> ніколі не выкідваецца"
+inspection.redundant.type.display.name:
+    text: Лішнія аргументы тыпу
+inspection.redundant.type.problem.descriptor:
+    text: Яўныя аргументы тыпу могуць быць выведзены
+inspection.reference.anonymous:
+    text: <ананімны>
+inspection.reference.anonymous.class:
+    text: ананімны клас
+inspection.reference.anonymous.name:
+    text: ананімны ({0})
+inspection.reference.default.lambda.name:
+    text: лямбда
+inspection.reference.default.method.reference.name:
+    text: ссылка на метод
+inspection.reference.default.package:
+    text: <па змаўчанні>
+inspection.reference.implicit.class:
+    text: "неявный класс в файле ''{0}''"
+inspection.reference.implicit.constructor.name:
+    text: неявный конструктор {0}
+inspection.reference.jsp.holder.method.anonymous.name:
+    text: <% змесціва старонкі %>
+inspection.reference.lambda.name:
+    text: лямбда ({0})
+inspection.reference.method.reference.name:
+    text: ссылка на метод ({0})
+inspection.reflect.handle.invocation.argument.not.array:
+    text: "Аргумент не з'яўляецца масівам"
+inspection.reflect.handle.invocation.argument.not.exact:
+    text: "Тып аргумента павінен быць дакладна ''{0}''"
+inspection.reflect.handle.invocation.primitive.argument.null:
+    text: "Аргумент тыпу ''{0}'' не можа быць ''null''"
+inspection.reflect.handle.invocation.receiver.incompatible:
+    text: "Тып атрымальніка выкліку несумяшчальны: чакаецца ''{0}''"
+inspection.reflect.handle.invocation.receiver.null:
+    text: "Получатель вызова равен 'null'"
+inspection.reflect.handle.invocation.result.not.assignable:
+    text: "Павінна быць прыведзена да ''{0}'' або яго суперкласа"
+inspection.reflect.handle.invocation.result.not.exact:
+    text: "Павінна быць прыведзена да ''{0}''"
+inspection.reflect.handle.invocation.result.null:
+    text: "Вяртаемае значэнне заўсёды 'null'"
+inspection.reflect.handle.invocation.result.void:
+    text: "Тып вяртаемага значэння 'void'"
+inspection.reflection.invocation.argument.count:
+    text: Чакаецца {0,choice,0#0 аргументаў|1#1 аргумент|1<{0} аргументаў}
+inspection.reflection.invocation.argument.not.assignable:
+    text: "Аргумент не можа быць прысвоены тыпу ''{0}''"
+inspection.reflection.invocation.array.not.assignable:
+    text: Элемент{0,choice,1#|1#ы} масіва ма{0,choice,1#е|1#юць} несумяшчальны{0,choice,1# тып|1#я тыпы}
+inspection.reflection.invocation.item.count:
+    text: Чакаецца {0,choice,0#пусты масіў|1#масіў з аднаго элемента|1<масіў з {0} элементаў}
+inspection.reflection.invocation.item.not.assignable:
+    text: "Элемент масіва не можа быць прысвоены тыпу ''{0}''"
+inspection.reflection.invocation.name:
+    text: Неадпаведнасць аргументаў рэфлексіўнага выкліку
+inspection.reflection.member.access.cannot.resolve.constructor.arguments:
+    text: Не ўдаецца знайсці канструктар з указанымі тыпамі аргументаў
+inspection.reflection.member.access.cannot.resolve.field:
+    text: "Не ўдаецца знайсці поле ''{0}''"
+inspection.reflection.member.access.cannot.resolve.method:
+    text: "Не ўдаецца знайсці метад ''{0}''"
+inspection.reflection.member.access.cannot.resolve.method.arguments:
+    text: "Не ўдаецца знайсці метад ''{0}'' з указанымі тыпамі аргументаў"
+inspection.reflection.member.access.check.exists:
+    text: Правяраць існаванне поля/метаду ў не-final класах
+inspection.reflection.member.access.check.exists.exclude.chooser:
+    text: Клас для выключэння
+inspection.reflection.member.access.constructor.not.public:
+    text: Конструктор не является public
+inspection.reflection.member.access.field.not.in.class:
+    text: "Поле ''{0}'' не аб'яўлена ў класе ''{1}''"
+inspection.reflection.member.access.field.not.public:
+    text: "Поле ''{0}'' не является public"
+inspection.reflection.member.access.method.not.in.class:
+    text: "Метад ''{0}'' не аб'яўлены ў класе ''{1}''"
+inspection.reflection.member.access.method.not.public:
+    text: "Метод ''{0}'' не является public"
+inspection.reflection.member.access.name:
+    text: Рэфлексіўны доступ да неіснуючага або нябачнага члена класа
+inspection.reflection.visibility.name:
+    text: Праблемы рэфлексіўнага доступу паміж модулямі
+inspection.replace.methodref.ternary.quickfix:
+    text: Замяніць на лямбду з праверкай на null
+inspection.replace.ternary.quickfix:
+    text: "Замяніць на ''{0} != null ?:''"
+inspection.replace.with.bulk.fix.family.name:
+    text: Замяніць на масавы выклік метаду
+inspection.replace.with.bulk.fix.name:
+    text: "Замяніць ітэрацыю на масавы выклік ''{0}()''"
+inspection.replace.with.bulk.message:
+    text: "Ітэрацыю можна замяніць масавым выклікам ''{0}()''"
+inspection.replace.with.bulk.wrap.arrays:
+    text: "Выкарыстоўваць 'Arrays.asList()' для абгортвання масіваў"
+inspection.replace.with.enhanced.switch.statement.fix.name:
+    text: "Замяніць на пашыраны аператар 'switch'"
+inspection.replace.with.switch.expression.fix.family.name:
+    text: Перайсці на пашыраны switch
+inspection.replace.with.switch.expression.fix.name:
+    text: "Замяніць на выраз 'switch'"
+inspection.replace.with.trivial.lambda.fix.family.name:
+    text: Замяніць на трывіяльную лямбду
+inspection.replace.with.trivial.lambda.fix.name:
+    text: "Замяніць на лямбду, што вяртае ''{0}''"
+inspection.requires.auto.module:
+    text: Залежнасці ад аўтаматычных модуляў
+inspection.requires.auto.module.message:
+    text: "Дырэктыва 'requires' для аўтаматычнага модуля"
+inspection.requires.auto.module.option:
+    text: Падсвечваць толькі транзітыўныя залежнасці
+inspection.requires.auto.module.transitive:
+    text: "Дырэктыва 'requires transitive' для аўтаматычнага модуля"
+inspection.results.for.inspection.toolwindow.title:
+    text: "Інспекцыя ''{0}'' у {1}"
+inspection.return.separated.from.computation.descriptor:
+    text: "Return аддзелены ад вылічэння значэння ''{0}''"
+inspection.return.separated.from.computation.family.quickfix:
+    text: "Перамясціць 'return' бліжэй да вылічэння выніку"
+inspection.return.separated.from.computation.name:
+    text: "'return' аддзелены ад вылічэння выніку"
+inspection.return.separated.from.computation.quickfix:
+    text: "Перамясціць ''return'' бліжэй да вылічэння значэння ''{0}''"
+inspection.root.node.title:
+    text: Інспекцыі
+inspection.same.parameter.display.name:
+    text: Параметр метаду заўсёды мае адно і тое ж значэнне
+inspection.same.parameter.fix.family.name:
+    text: Убудаваць параметр як канстантнае значэнне
+inspection.same.parameter.fix.name:
+    text: "Убудаваць значэнне ''{1}'' для параметра ''{0}''"
+inspection.same.parameter.problem.descriptor:
+    text: "Значэнне параметра <code>#ref</code> заўсёды роўна ''{0}''"
+inspection.same.return.value.display.name:
+    text: Метад заўсёды вяртае адно і тое ж значэнне
+inspection.same.return.value.problem.descriptor:
+    text: Метад <code>#ref()</code> заўсёды вяртае <code>{0}</code>
+inspection.same.return.value.problem.descriptor1:
+    text: Метад <code>#ref()</code> і ўсе яго пераазначальныя метады заўсёды вяртаюць <code>{0}</code>
+inspection.same.return.value.problem.descriptor2:
+    text: Усе рэалізацыі метаду <code>#ref()</code> заўсёды вяртаюць <code>{0}</code>
+inspection.severity:
+    text: 'Серьезность [&V]:'
+inspection.simplify.collector.fix.family.name:
+    text: Спрасціць каскадны калектар
+inspection.simplify.collector.fix.name:
+    text: "Выкарыстоўваць калектар ''Collectors.{0}()''"
+inspection.simplify.collector.message:
+    text: "Можна спрасціць, выкарыстоўваючы калектар ''{0}()''"
+inspection.surround.if.family:
+    text: Обернуть в if
+inspection.surround.requirenonnull.quickfix:
+    text: "Замяніць на ''Objects.requireNonNull({0})''"
+inspection.suspicious.array.method.call.display.name:
+    text: "Падазроны выклік метаду 'Arrays'"
+inspection.suspicious.array.method.call.problem.arrays:
+    text: 'Тыпы масіваў несумяшчальныя: масівы заўсёды розныя'
+inspection.suspicious.array.method.call.problem.element:
+    text: Тып элемента несумяшчальны з тыпам масіва
+inspection.suspicious.collections.method.calls.display.name:
+    text: Падазроны выклік метаду калекцыі
+inspection.suspicious.collections.method.calls.problem.descriptor1:
+    text: "Падазроны выклік ''{0}''"
+inspection.switch.expression.migration.expression.max.statements:
+    text: Максімальная колькасць аператараў у адной галіне для пераўтварэння ў выраз switch
+inspection.switch.expression.migration.inspection.switch.description:
+    text: "Аператар switch можна замяніць на палепшаны 'switch'"
+inspection.switch.expression.migration.option.expression.max.statements:
+    text: Не паведамляць пра switch з больш чым {0} {0, choice, 1#аператарам|2#аператарамі} у адной галіне
+inspection.switch.expression.migration.warn.only.on.expression:
+    text: Паказваць папярэджанне толькі калі магчыма пераўтварэнне ў выраз
+inspection.tool.availability.in.tree.node1:
+    text: (Даступна ў "Код | Праверыць код")
+inspection.tool.description.under.construction.text:
+    text: В разработке
+inspection.tool.in.browser.description.title:
+    text: Апісанне
+inspection.tool.window.dialog.no.options:
+    text: "Інспекцыя ''{0}'' не мае наладжвальных параметраў"
+inspection.tool.window.inspection.dialog.title:
+    text: "Параметры інспекцыі ''{0}''"
+inspection.tree.popup.title:
+    text: Прыняць рашэнне
+inspection.unused.assignment.display.name:
+    text: Нявыкарыстанае прысвойванне
+inspection.unused.assignment.option:
+    text: Паведамляць пра прэфіксныя выразы, якія можна замяніць бінарным выразам
+inspection.unused.assignment.option1:
+    text: Паведамляць пра постфіксныя выразы, дзе змененае значэнне не выкарыстоўваецца
+inspection.unused.assignment.option2:
+    text: Паведамляць пра лішнія ініцыялізатары
+inspection.unused.assignment.problem.descriptor1:
+    text: 'Пераменная <code>#ref</code> #loc ніколі не выкарыстоўваецца'
+inspection.unused.assignment.problem.descriptor2:
+    text: 'Ініцыялізатар <code>#ref</code> #loc пераменнай <code>{0}</code> лішні'
+inspection.unused.assignment.problem.descriptor3:
+    text: 'Значэнне <code>{0}</code>, прысвоенае <code>#ref</code> #loc, ніколі не выкарыстоўваецца'
+inspection.unused.assignment.problem.descriptor4:
+    text: 'Значэнне, змененае ў <code>#ref</code> #loc, ніколі не выкарыстоўваецца'
+inspection.unused.assignment.problem.descriptor5:
+    text: 'Значэнне пераменнай шаблона <code>#ref</code> #loc ніколі не выкарыстоўваецца'
+inspection.unused.assignment.remove.assignment.quickfix:
+    text: Выдаліць лішняе прысвойванне
+inspection.unused.parameter.composer:
+    text: Параметр <code>#ref</code> не выкарыстоўваецца ні ў адной рэалізацыі
+inspection.unused.parameter.composer1:
+    text: Параметр <code>#ref</code> не выкарыстоўваецца ні ў гэтым метадзе, ні ў яго пераазначальных метадах
+inspection.unused.parameter.delete.quickfix:
+    text: "Бяспечна выдаліць нявыкарыстаны параметр ''{0}''"
+inspection.unused.parameter.display.name:
+    text: Нявыкарыстаны параметр
+inspection.unused.return.value.problem.descriptor:
+    text: Вяртаемае значэнне метаду ніколі не выкарыстоўваецца
+inspection.unused.symbol.check.accessors:
+    text: Геттеры/сеттеры
+inspection.unused.symbol.check.inner.classes:
+    text: 'Унутраныя класы:'
+inspection.variable.assigned.to.itself.display.name:
+    text: Пераменнай прысвойваецца яна сама
+inspection.view.invalid.scope.message:
+    text: Вобласць інспекцыі несапраўдная.
+inspection.visibility.accept.quickfix:
+    text: Прыняць прапанаваны ўзровень доступу
+inspection.visibility.compose.suggestion:
+    text: Может быть {0}
+introduce.constant.across.the.project:
+    text: Создать константу в проекте
+long.line.display.name:
+    text: Даўжыня радка перавышае ліміт стылю кода
+lossy.encoding:
+    text: Страта дадзеных падчас кадавання
+module.not.in.requirements:
+    text: "Модуль ''{0}'' не змяшчае модуль ''{1}'' у патрабаваннях"
+module.package.not.exported:
+    text: "Модуль ''{0}'' не экспортует пакет ''{1}'' в модуль ''{2}''"
+module.package.not.open:
+    text: "Модуль ''{0}'' не открывает пакет ''{1}'' для модуля ''{2}''"
+no.errors.found.in.this.file:
+    text: У гэтым файле памылак не знойдзена
+non.ascii.characters:
+    text: Не-ASCII сімвалы
+nothing.found:
+    text: Нічога не знойдзена
+nullable.stuff.inspection.navigate.null.argument.usages.fix.family.name:
+    text: "Перайсці да выкарыстання аргумента 'null'"
+nullable.stuff.inspection.navigate.null.argument.usages.view.name:
+    text: "Выкарыстанні аргумента ''null'' для параметра {0}"
+nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
+    text: Параметры пераазначальнага метаду не анатаваны
+nullable.stuff.problems.overridden.methods.are.not.annotated:
+    text: Пераазначальныя метады не анатаваны
+offline.inspections.jdk.not.found:
+    text: Не найден {0}
+offline.inspections.library.was.not.resolved:
+    text: "Калі ласка, настройце бібліятэку ''{0}'', якая выкарыстоўваецца ў модулі ''{1}''"
+offline.inspections.module.jdk.not.found:
+    text: "Укажыце sdk ''{0}'' для модуля ''{1}''"
+offline.view.editor.settings.title:
+    text: Налады рэдактара
+offline.view.parse.exception.title:
+    text: Памылка пры разборы XML
+offline.view.title:
+    text: Автономный просмотр
+parsing.inspections.dump.progress.title:
+    text: Разбор XML-дампа інспекцый
+preparing.for.apply.fix:
+    text: Падрыхтоўка да прымянення выпраўлення...
+problematic.whitespace.display.name:
+    text: Праблемныя прасторы
+problematic.whitespace.show.whitespaces.quickfix:
+    text: Пераключыць адлюстраванне прабелаў у рэдактары
+problematic.whitespace.spaces.problem.descriptor:
+    text: "Файл ''{0}'' выкарыстоўвае прабелы для водступу"
+problematic.whitespace.tabs.problem.descriptor:
+    text: "Файл ''{0}'' выкарыстоўвае табуляцыю для водступу"
+psi.search.overriding.progress:
+    text: Пошук пераазначальных метадаў…
+report.suspicious.but.possibly.correct.method.calls:
+    text: Паведамляць пра падазроныя, але магчыма правільныя выклікі метадаў  [&R]
+run.inspection.on.file.intention.text:
+    text: Запусціць інспекцыю...
+severities.default.settings.message:
+    text: Налады | Колеры і шрыфты
+severities.editor.dialog.title:
+    text: Рэдактар важнасці
+special.annotations.annotations.list:
+    text: 'Дадатковыя спецыяльныя анатацыі:'
+special.annotations.list.add.annotation.class:
+    text: Дадаць клас анатацыі
+special.annotations.list.annotation.class:
+    text: Клас анатацыі
+special.annotations.list.annotation.pattern:
+    text: Дадаць шаблон анатацый
+suppress.all.for.class:
+    text: Падавіць усе інспекцыі для класа
+suppress.inspection.class:
+    text: Падавіць для класа
+suppress.inspection.family:
+    text: Падавіць інспекцыю
+suppress.inspection.field:
+    text: Падавіць для поля
+suppress.inspection.member:
+    text: Падавіць для члена
+suppress.inspection.method:
+    text: Падавіць для метаду
+suppress.inspection.module:
+    text: Падавіць для модуля
+suppress.inspection.problem:
+    text: Падавіць
+suppress.inspection.statement:
+    text: Падавіць для аператара
+suspected.module.dependency.problem.descriptor:
+    text: "Модуль ''{0}'' не залежыць ад модуля ''{1}''. Пры гэтым ''{1}'' не правяраўся на экспартаваныя залежнасці, неабходныя для вобласці ''{2}''"
+suspicious.name.combination.display.name:
+    text: Падазроная камбінацыя імёнаў пераменных/параметраў
+suspicious.name.combination.options.title:
+    text: 'Групы імёнаў (падзеленыя коскамі):'
+todo.comment.display.name:
+    text: TODO каментарыі
+todo.comment.problem.descriptor:
+    text: 'TODO каментарый <code>#ref</code> #loc'
+unhandled.exception.in.jsp.name:
+    text: Неапрацаванае выключэнне ў JSP
+unnecessary.module.dependency.display.name:
+    text: Непатрэбная залежнасць модуля
+unnecessary.module.dependency.problem.descriptor:
+    text: "Зыходны код модуля ''{0}'' не залежыць ад зыходнага кода модуля ''{1}''"
+unsupported.character.for.the.charset:
+    text: "Непадтрымлівальны сімвал для кадавання ''{0}''"
+unused.import.display.name:
+    text: Невыкарыстаны імпарт
+unused.library.display.name:
+    text: Нявыкарыстаная бібліятэка
+unused.library.problem.descriptor:
+    text: "Нявыкарыстаная бібліятэка ''{0}''"
+unused.library.roots.problem.descriptor:
+    text: "Нявыкарыстаныя карані {0} з бібліятэкі ''{1}''"
+wrong.package.statement:
+    text: Неверный оператор package
+xml.suppressable.all.for.file.title:
+    text: Падавіць усё для файла
+xml.suppressable.for.file.title:
+    text: Падавіць для файла
+xml.suppressable.for.tag.title:
+    text: Падавіць для тэга

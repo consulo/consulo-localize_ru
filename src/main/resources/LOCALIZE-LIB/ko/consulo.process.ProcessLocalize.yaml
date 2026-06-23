@@ -1,0 +1,8 @@
+finished.with.exit.code.text.message:
+    text: 종료 코드 {0}(으)로 프로세스 완료됨
+run.configuration.error.executable.not.specified:
+    text: 실행 파일이 지정되지 않았습니다
+run.configuration.error.working.directory.does.not.exist:
+    text: "프로세스를 시작할 수 없습니다. 작업 디렉터리 ''{0}''이(가) 존재하지 않습니다."
+run.configuration.error.working.directory.not.directory:
+    text: "프로세스를 시작할 수 없습니다. 작업 디렉터리 ''{0}''이(가) 디렉터리가 아닙니다."

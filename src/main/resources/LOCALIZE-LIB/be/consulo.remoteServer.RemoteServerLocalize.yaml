@@ -1,0 +1,136 @@
+AddCloudConnectionAction.description:
+    text: Дадаць падключэнне {0}
+CloudModuleWizardStep.title.account:
+    text: Аккаунт
+CloudModuleWizardStep.title.application:
+    text: Прыкладанне
+ConnectionStatus.connected:
+    text: Подключено
+ConnectionStatus.connecting:
+    text: Падключэнне
+ConnectionStatus.disconnected:
+    text: Отключено
+DeployToServerRunConfiguration.error.deployment.not.selected:
+    text: Разгортванне не выбрана
+DeployToServerRunConfiguration.error.server.not.found:
+    text: Сервер {0} не найден
+DeployToServerRunConfiguration.error.server.required:
+    text: Сервер не указан
+DeployToServerRunConfiguration.tab.title.deployment:
+    text: Разгортванне
+DeploymentStatus.deployed:
+    text: Развернуто
+DeploymentStatus.deploying:
+    text: Разгортванне
+DeploymentStatus.not.deployed:
+    text: Не развернуто
+DeploymentStatus.undeploying:
+    text: Адмена разгортвання
+ServerConnectionImpl.error.cannot.obtain.deployments:
+    text: 'Не ўдалося атрымаць разгортванні: {0}'
+ServersTreeStructure.RemoteServerNode.popup.title.deploy.configuration:
+    text: Канфігурацыя разгортвання
+ServersTreeStructure.RemoteServerNode.popup.title.deploy.debug.configuration:
+    text: Канфігурацыя разгортвання і адладкі
+action.RemoteServers.ChooseServerDeployment.description:
+    text: Развернуть выбранный элемент на выбранном удалённом сервере
+action.RemoteServers.ChooseServerDeployment.text:
+    text: Развернуть
+action.RemoteServers.ChooseServerDeploymentWithDebug.description:
+    text: Разгарнуць і адладзіць выбраны элемент на выбраным аддаленым серверы
+action.RemoteServers.ChooseServerDeploymentWithDebug.text:
+    text: Отладка
+action.RemoteServers.ConnectServer.description:
+    text: Падключыцца да выбранага аддаленага сервера
+action.RemoteServers.ConnectServer.text:
+    text: Падключыць
+action.RemoteServers.DisconnectServer.description:
+    text: Адключыцца ад выбранага аддаленага сервера
+action.RemoteServers.DisconnectServer.text:
+    text: Адключыць
+action.RemoteServers.EditDeploymentConfig.description:
+    text: Змяніць канфігурацыю выбранага разгортвання
+action.RemoteServers.EditDeploymentConfig.text:
+    text: Змяніць канфігурацыю
+action.RemoteServers.EditServerConfig.description:
+    text: Змяніць канфігурацыю выбранага аддаленага сервера
+action.RemoteServers.EditServerConfig.text:
+    text: Змяніць канфігурацыю
+action.Servers.Deploy.description:
+    text: Развернуть выбранный элемент
+action.Servers.Deploy.text:
+    text: Развернуть
+action.Servers.DeployWithDebug.description:
+    text: Разгарнуць і адладзіць выбраны элемент
+action.Servers.DeployWithDebug.text:
+    text: Отладка
+action.Servers.Undeploy.description:
+    text: Выдаліць разгортванне выбранага элемента
+action.Servers.Undeploy.text:
+    text: Выдаліць разгортванне
+action.presentation.DeployAction.description:
+    text: Повторно развернуть выбранные элементы
+action.presentation.DeployAction.text:
+    text: Повторно развернуть
+button.cloud.new:
+    text: Создать…
+cloud.status.cannot.connect:
+    text: 'Не ўдаецца падключыцца: {0}'
+cloud.status.connecting:
+    text: Падключэнне…
+cloud.status.connection.successful:
+    text: Падключэнне паспяховае
+cloud.status.double.click.to.connect:
+    text: Двойчы пстрыкніце вузел сервера для падключэння
+clouds.configure.empty.selection.string:
+    text: "Для налады інтэграцыі з {0} націсніце ''+''"
+configurable.display.name.clouds:
+    text: Облака
+create.new.deployment.configuration.for.singleton.type:
+    text: Стварыць разгортванне {0}…
+create.new.deployment.configuration.generic:
+    text: Создать…
+deploy.to.server.configuration.type.description:
+    text: Канфігурацыя разгортвання на {0}
+dialog.message.account.required:
+    text: Требуется аккаунт
+dialog.message.email.required:
+    text: Требуется email
+dialog.message.password.required:
+    text: Требуется пароль
+dialog.title.create.deployment.configuration:
+    text: Стварыць канфігурацыю разгортвання
+dialog.title.edit.deployment.configuration:
+    text: Рэдагаваць канфігурацыю разгортвання
+group.RemoteServers.AddCloudConnectionGroup.text:
+    text: Воблачнае падключэнне
+group.RemoteServersViewToolbar.text:
+    text: Удалённые серверы
+group.action.AddRemoteServerGroup.text:
+    text: Дадаць
+label.text.deployment:
+    text: 'Разгортванне:'
+label.text.server:
+    text: 'Сервер:'
+module.builder.description.java.module.of.paas.cloud.application:
+    text: Java модуль воблачнага прыкладання PAAS
+new.cloud.connection.configurable.title:
+    text: Новае падключэнне {0}
+popup.title.new.account:
+    text: Новый аккаунт
+presentable.name.clouds:
+    text: Облака
+remote.server.combo.auto.detected.server:
+    text: '<{0}: аўтаматычна выяўлены сервер>'
+remote.server.combo.create.new.server:
+    text: Создать…
+remote.server.combo.message.test.connection.failed:
+    text: Не ўдалося аўтаматычна вызначыць налады, патрабуецца ручная налада
+remote.server.combo.message.test.connection.in.progress:
+    text: Праверка аўтаматычна выяўленага падключэння…
+remote.server.combo.no.servers:
+    text: <нет серверов>
+server.type.deployment.configuration.typ.presentable.name.0.deployment:
+    text: Разгортванне {0}
+task.title.connecting:
+    text: Падключэнне…

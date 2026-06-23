@@ -1,0 +1,112 @@
+action.LoadContextAction.Anonymous.text.load:
+    text: Загрузіць
+action.LoadContextAction.Anonymous.text.remove:
+    text: Выдаліць
+action.add.changelist.for.text:
+    text: "Дадаць спіс змен для ''{0}''"
+action.context.clear.text:
+    text: Ачысціць кантэкст [_C]
+action.context.load.text:
+    text: Загрузіць кантэкст [_L]…
+action.context.save.text:
+    text: Захаваць кантэкст [_S]…
+action.create.changelist.for.text:
+    text: "Стварыць спіс змен для ''{0}''"
+action.edit.text.with.mnemonic:
+    text: Рэдагаваць [&E]
+action.open.in.browser.text:
+    text: "Открыть ''{0}'' в браузере [_B]"
+action.remove.text:
+    text: Выдаліць [&R]
+action.switch.to.text:
+    text: Пераключыцца на [&S]
+action.tasks.analyze.stacktrace.text:
+    text: Аналізаваць stack trace з задачы [_S]…
+action.tasks.close.text:
+    text: Закрыць актыўную задачу [_C]…
+action.tasks.create.changelist.text:
+    text: Стварыць спіс змен [_L]…
+action.tasks.open.in.browser.text:
+    text: Открыть в браузере [_B]
+action.tasks.show.task.description.text:
+    text: Паказаць апісанне
+action.tasks.switch.text:
+    text: Пераключыць задачу [_S]…
+bugzilla.failure.malformed.response:
+    text: Не ўдалося дэкадаваць адказ сервера. Праверце, ці ўключаны плагін XML-RPC.
+bugzilla.failure.no.version:
+    text: Версія Bugzilla не знойдзена. Пераканайцеся, што URL заканчваецца на "xmlrpc.cgi".
+command.name.load.context:
+    text: Загрузіць кантэкст {0}
+create.new.task.0:
+    text: "Создать новую задачу ''{0}''"
+dialog.message.changelist.associated.with.not.empty:
+    text: "Спіс змен, звязаны з ''{0}'', не пусты.\nВыдаліць яго і перамясціць змены ў актыўны спіс?"
+dialog.message.changelist.name:
+    text: 'Імя спісу змен:'
+dialog.message.default.task.cannot.be.removed:
+    text: Задача па змаўчанні не можа быць выдалена
+dialog.title.cannot.remove:
+    text: Немагчыма выдаліць
+dialog.title.cannot.set.state.for.issue:
+    text: Немагчыма ўсталяваць стан для задачы
+dialog.title.changelist.not.empty:
+    text: Спіс змен не пусты
+dialog.title.choose.stacktrace.to.analyze:
+    text: Выберыце stack trace для аналізу
+dialog.title.close.task:
+    text: Закрыть задачу
+dialog.title.create.changelist:
+    text: Стварыць спіс змен
+dialog.title.open.task:
+    text: Открыть задачу
+enter.task.name:
+    text: 'Увядзіце імя задачы:'
+failure.configuration:
+    text: Не настроено.
+failure.http.error:
+    text: 'Запыт не выкананы, HTTP памылка: {0,number} {1}.'
+failure.login:
+    text: Памылка ўваходу. Праверце вашы ўліковыя даныя.
+failure.permissions:
+    text: Запыт не выкананы. Праверце вашы правы доступу.
+failure.server.message:
+    text: 'Запыт не выкананы. Прычына: {0}'
+group.tasks.and.contexts.text:
+    text: Задачы і кантэксты [&T]
+group.tasks.internal.text:
+    text: Задачы [&T]
+jira.failure.captcha:
+    text: Памылка ўваходу. Увядзіце captcha ў веб-інтэрфейсе.
+jira.failure.no.REST:
+    text: JIRA версіі ніжэй 4.2.0 не мае REST API і больш не падтрымліваецца.
+jira.failure.no.state.update:
+    text: Статус задачы не можа быць абноўлены ў версіях JIRA да 4.2.
+jira.failure.no.time.spent:
+    text: Затрачаны час не можа быць абноўлены ў версіях JIRA да 5.0.
+label.commented.by:
+    text: Пракаментавана {0} ({1})
+label.description:
+    text: Апісанне
+label.include.closed.tasks:
+    text: Уключыць закрытыя задачы
+open.task.action.menu.text:
+    text: Открыть задачу…
+popup.advertisement.html.press.shift.to.merge.with.current.context.br.pressing.would.show.task.description.comments.html:
+    text: "<html>Націсніце SHIFT для аб'яднання з бягучым кантэкстам<br/>Націсніце {0} для прагляду апісання задачы і каментараў</html>"
+popup.advertisement.press.shift.to.merge.with.current.context:
+    text: "Націсніце SHIFT для аб'яднання з бягучым кантэкстам"
+popup.title.load.context:
+    text: Загрузіць кантэкст
+popup.title.merge.with.current.context:
+    text: "Аб'яднаць з бягучым кантэкстам"
+popup.title.switch.to.task:
+    text: Пераключыцца на задачу
+separator.recently.closed.tasks:
+    text: Нядаўна закрытыя задачы
+task.clear.context.action.name:
+    text: Ачысціць кантэкст
+task.save.context.action.message:
+    text: 'Увядзіце каментар (неабавязкова):'
+task.save.context.action.name:
+    text: Захаваць кантэкст

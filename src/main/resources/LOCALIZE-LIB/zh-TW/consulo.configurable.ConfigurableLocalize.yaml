@@ -1,0 +1,398 @@
+cannot.save.settings.default.dialog.title:
+    text: 無法儲存設定
+color.settings.console.name:
+    text: 主控台的顏色
+color.settings.console.output:
+    text: IRB輸出
+configurable.current.project.tooltip:
+    text: 目前項目
+configurable.default.project.tooltip:
+    text: 預設項目
+control.panel.classic.view.button:
+    text: 經典檢視
+explorer.panel.default.view.button:
+    text: 預設檢視(&v)
+ide.settings.display.name:
+    text: IDE 設定
+options.apply.button:
+    text: 套用
+options.custom.attribute.descriptor.block.comment:
+    text: 區塊註解
+options.custom.attribute.descriptor.invalid.string.escape:
+    text: 無效的字串轉義
+options.custom.attribute.descriptor.keyword1:
+    text: 關鍵字1
+options.custom.attribute.descriptor.keyword2:
+    text: 關鍵字2
+options.custom.attribute.descriptor.keyword3:
+    text: 關鍵字3
+options.custom.attribute.descriptor.keyword4:
+    text: 關鍵字4
+options.custom.attribute.descriptor.line.comment:
+    text: 行註解
+options.custom.attribute.descriptor.number:
+    text: 數字
+options.custom.attribute.descriptor.string:
+    text: 字串
+options.custom.attribute.descriptor.valid.string.escape:
+    text: 有效字串轉義
+options.custom.display.name:
+    text: 自訂
+options.general.attribute.descriptior.identifier.under.caret:
+    text: 游標標識符
+options.general.attribute.descriptior.identifier.under.caret.write:
+    text: 游標標識符(寫)
+options.general.attribute.descriptor.live.template:
+    text: 範本//線上範本
+options.general.color.descriptor.background.in.readonly.files:
+    text: 文字//唯讀檔案背景
+options.general.color.descriptor.bookmarks:
+    text: 編輯器//書籤
+options.general.color.descriptor.caret:
+    text: 編輯器//游標位置
+options.general.color.descriptor.caret.row:
+    text: 編輯器//游標所在行
+options.general.color.descriptor.console.background:
+    text: 主控台//背景
+options.general.color.descriptor.console.expired:
+    text: 日誌主控台//已過期的項目
+options.general.color.descriptor.console.logError:
+    text: 日誌主控台//錯誤
+options.general.color.descriptor.console.stderr:
+    text: 主控台//錯誤輸出
+options.general.color.descriptor.console.stdin:
+    text: 主控台//使用者輸入
+options.general.color.descriptor.console.stdout:
+    text: 主控台//標準輸出
+options.general.color.descriptor.console.system.output:
+    text: 主控台//系統輸出
+options.general.color.descriptor.console.warning:
+    text: 日誌主控台//警告
+options.general.color.descriptor.gutter.background:
+    text: 編輯器//Gutter background
+options.general.color.descriptor.hyperlink.followed:
+    text: 超連結//已存取過的
+options.general.color.descriptor.hyperlink.new:
+    text: 超連結//Unfollowed
+options.general.color.descriptor.indent.guide:
+    text: 代碼//垂直縮進指南
+options.general.color.descriptor.indent.guide.selected:
+    text: 代碼//選取垂直縮進指南
+options.general.color.descriptor.injected.language.fragment:
+    text: 注入的語言片段
+options.general.color.descriptor.line.number:
+    text: 代碼//行號
+options.general.color.descriptor.popups.tooltip:
+    text: 彈出視窗和提示//工具提示
+options.general.color.descriptor.readonly.fragment.background:
+    text: 文字//唯讀片段背景
+options.general.color.descriptor.reference.hyperlink:
+    text: 超連結//參照
+options.general.color.descriptor.right.margin:
+    text: 編輯器//右邊距
+options.general.color.descriptor.selection.background:
+    text: 編輯器//選取的文字背景色
+options.general.color.descriptor.selection.foreground:
+    text: 編輯器//選取的文字前景色
+options.general.color.descriptor.separator.above:
+    text: 編輯器//分隔線上方
+options.general.color.descriptor.separator.below:
+    text: 編輯器//分隔線下方
+options.general.color.descriptor.tearline:
+    text: 編輯器//Tear line
+options.general.color.descriptor.tearline.selected:
+    text: 編輯器//Tear line selection
+options.general.color.descriptor.todo.defaults:
+    text: 代碼//TODO 預設值
+options.general.color.descriptor.vcs.annotations:
+    text: VCS 批注//前景
+options.general.color.descriptor.vcs.diff.separator.background:
+    text: 折疊的未變更片斷//背景
+options.general.color.descriptor.vcs.diff.separator.bottom_border:
+    text: 折疊的未變更片斷//底部邊界
+options.general.color.descriptor.vcs.diff.separator.top_border:
+    text: 折疊的未變更片斷//頂部邊界
+options.general.color.descriptor.vcs.diff.type.tag.prefix:
+    text: 變更的行//
+options.general.color.descriptor.visual.guides:
+    text: 編輯器//指導//可視化指導
+options.general.color.descriptor.whitespaces:
+    text: 文字//空白
+options.general.color.soft.wrap.sign:
+    text: 文字//Soft wrap sign
+options.general.display.name:
+    text: 常規
+options.html.attribute.descriptor.attribute.name:
+    text: 屬性名稱
+options.html.attribute.descriptor.attribute.value:
+    text: 屬性值
+options.html.attribute.descriptor.code:
+    text: HTML 代碼
+options.html.attribute.descriptor.comment:
+    text: 註解
+options.html.attribute.descriptor.entity.reference:
+    text: 實體參照
+options.html.attribute.descriptor.tag:
+    text: 標記
+options.html.attribute.descriptor.tag.name:
+    text: 標籤名稱
+options.html.attribute.descriptor.tag.tree:
+    text: 標籤樹(水平{0})
+options.java.attribute.descriptor.abstract.class:
+    text: 類別和介面//抽像類別
+options.java.attribute.descriptor.abstract.method:
+    text: 抽像方法
+options.java.attribute.descriptor.annotation.attribute.name:
+    text: 註解屬性名稱
+options.java.attribute.descriptor.annotation.name:
+    text: 註解名稱
+options.java.attribute.descriptor.anonymous.class:
+    text: 類別和介面//匿名類別
+options.java.attribute.descriptor.bad.character:
+    text: 壞字元
+options.java.attribute.descriptor.block.comment:
+    text: 註解//區塊註解
+options.java.attribute.descriptor.braces:
+    text: 括號與運算符//花括號
+options.java.attribute.descriptor.brackets:
+    text: 括號與運算符//方括號
+options.java.attribute.descriptor.breakpoint.line:
+    text: 斷點行
+options.java.attribute.descriptor.class:
+    text: 類別和介面//類別
+options.java.attribute.descriptor.comma:
+    text: 括號與運算符//逗號
+options.java.attribute.descriptor.deprecated.symbol:
+    text: 錯誤和警告//棄用符號
+options.java.attribute.descriptor.dot:
+    text: 括號與運算符//圓點
+options.java.attribute.descriptor.enum:
+    text: 類別和介面//枚舉(Enum)
+options.java.attribute.descriptor.error:
+    text: 錯誤和警告//錯誤
+options.java.attribute.descriptor.errors.group:
+    text: 錯誤和警告//{0}
+options.java.attribute.descriptor.evaluated.expression:
+    text: 計算的運算式的文字
+options.java.attribute.descriptor.evaluated.expression.execution.line:
+    text: 執行行的計算運算式文字
+options.java.attribute.descriptor.execution.point:
+    text: 執行點
+options.java.attribute.descriptor.implicit.anonymous.parameter:
+    text: 參數//隱式的匿名類別參數
+options.java.attribute.descriptor.inherited.method:
+    text: 繼承的方法
+options.java.attribute.descriptor.inline.parameter.hint.highlighted:
+    text: 內聯參數提示//高亮的
+options.java.attribute.descriptor.inlined.values:
+    text: 內聯的值
+options.java.attribute.descriptor.inlined.values.execution.line:
+    text: 為斷點行內聯值
+options.java.attribute.descriptor.inlined.values.modified:
+    text: 內聯修改後的值
+options.java.attribute.descriptor.interface:
+    text: 類別和介面//介面
+options.java.attribute.descriptor.invalid.escape.in.string:
+    text: 字串//轉義序列//無效的
+options.java.attribute.descriptor.javadoc.comment:
+    text: 註解//JavaDoc//文字
+options.java.attribute.descriptor.javadoc.markup:
+    text: 註解//JavaDoc//標記
+options.java.attribute.descriptor.javadoc.tag:
+    text: 註解//JavaDoc//標籤
+options.java.attribute.descriptor.javadoc.tag.value:
+    text: 註解//JavaDoc//標籤值
+options.java.attribute.descriptor.keyword:
+    text: 關鍵詞
+options.java.attribute.descriptor.line.comment:
+    text: 註解//行註解
+options.java.attribute.descriptor.local.variable:
+    text: 變數//局部變數
+options.java.attribute.descriptor.marked.for.removal.symbol:
+    text: 錯誤和警告//棄用的符號標記為移除
+options.java.attribute.descriptor.not.top.frame:
+    text: 沒有頂部方塊架
+options.java.attribute.descriptor.number:
+    text: 數字
+options.java.attribute.descriptor.parentheses:
+    text: 括號與運算符//圓括號
+options.java.attribute.descriptor.reassigned.local.variable:
+    text: 變數//重定義的本機變數
+options.java.attribute.descriptor.reassigned.parameter:
+    text: 參數//Reassigned parameter
+options.java.attribute.descriptor.recursive.call:
+    text: 遞歸呼叫突出
+options.java.attribute.descriptor.semicolon:
+    text: 括號與運算符//分號
+options.java.attribute.descriptor.server.problems:
+    text: 伺服器問題
+options.java.attribute.descriptor.string:
+    text: 字串//文字字串
+options.java.attribute.descriptor.type.parameter:
+    text: 參數//類型參數
+options.java.attribute.descriptor.unknown.symbol:
+    text: 錯誤和警告//未知符號
+options.java.attribute.descriptor.unused.symbol:
+    text: 錯誤和警告//未使用的符號
+options.java.attribute.descriptor.valid.escape.in.string:
+    text: 字串//轉義序列//有效的
+options.java.attribute.descriptor.warning:
+    text: 錯誤和警告//警告
+options.java.color.descriptor.full.coverage:
+    text: 行覆寫率//完全覆寫
+options.java.color.descriptor.method.separator.color:
+    text: 代碼//Method separator color
+options.java.color.descriptor.none.coverage:
+    text: 行覆寫率//無覆寫的
+options.java.color.descriptor.partial.coverage:
+    text: 行覆寫率//部份蓋率
+options.jsp.attribute.descriptor.attribute.name:
+    text: 屬性名稱
+options.jsp.attribute.descriptor.attribute.value:
+    text: 屬性值
+options.jsp.attribute.descriptor.directive.background:
+    text: 行動和指令內容
+options.jsp.attribute.descriptor.directive.name:
+    text: 行動和指令名稱
+options.jsp.attribute.descriptor.el.background:
+    text: 運算式//背景色
+options.jsp.attribute.descriptor.el.bounds:
+    text: 運算式//邊界
+options.jsp.attribute.descriptor.el.brackets:
+    text: 運算式//方括號
+options.jsp.attribute.descriptor.el.comma:
+    text: 運算式//逗號
+options.jsp.attribute.descriptor.el.dot:
+    text: 運算式//點
+options.jsp.attribute.descriptor.el.identifier:
+    text: 運算式//標識符
+options.jsp.attribute.descriptor.el.keyword:
+    text: 運算式//關鍵詞
+options.jsp.attribute.descriptor.el.number:
+    text: 運算式//數字
+options.jsp.attribute.descriptor.el.parens:
+    text: 運算式//圓括號
+options.jsp.attribute.descriptor.el.string:
+    text: 運算式//字串
+options.jsp.attribute.descriptor.scripting.background:
+    text: 指令碼
+options.language.defaults.block.comment:
+    text: 註解//區塊註解
+options.language.defaults.braces:
+    text: 括號與運算符//花括號
+options.language.defaults.brackets:
+    text: 括號與運算符//方括號
+options.language.defaults.class.name:
+    text: 類別//類別名
+options.language.defaults.class.reference:
+    text: 類別//Class 參照
+options.language.defaults.comma:
+    text: 括號與運算符//逗號
+options.language.defaults.constant:
+    text: 標識符//常數
+options.language.defaults.display.name:
+    text: 語言預設值
+options.language.defaults.doc.comment:
+    text: 註解//文件註解//文字
+options.language.defaults.doc.markup:
+    text: 註解//文件註解//標記(mark)
+options.language.defaults.doc.tag:
+    text: 註解//文件註解//標籤(tag)
+options.language.defaults.doc.tag.value:
+    text: 註解//文件註解//標籤值
+options.language.defaults.dot:
+    text: 括號與運算符//圓點
+options.language.defaults.function.call:
+    text: 標識符//函數呼叫
+options.language.defaults.function.declaration:
+    text: 標識符//函數說明
+options.language.defaults.global.variable:
+    text: 標識符//全局變數
+options.language.defaults.identifier:
+    text: 標識符//預設
+options.language.defaults.instance.field:
+    text: 類別//實例域
+options.language.defaults.instance.method:
+    text: 類別//實例方法
+options.language.defaults.interface.name:
+    text: 類別//介面名稱
+options.language.defaults.invalid.esc.seq:
+    text: 字串//轉義序列//無效的
+options.language.defaults.keyword:
+    text: 關鍵詞
+options.language.defaults.label:
+    text: 標識符//標籤
+options.language.defaults.line.comment:
+    text: 註解//行註解
+options.language.defaults.local.variable:
+    text: 標識符//局部變數
+options.language.defaults.markup.attribute:
+    text: 標記//屬性
+options.language.defaults.markup.entity:
+    text: 標記//實體
+options.language.defaults.markup.tag:
+    text: 標記//標籤
+options.language.defaults.metadata:
+    text: 中繼資料
+options.language.defaults.number:
+    text: 數字
+options.language.defaults.operation:
+    text: 括號與運算符//運算符號
+options.language.defaults.parameter:
+    text: 標識符//參數
+options.language.defaults.parentheses:
+    text: 括號與運算符//圓括號
+options.language.defaults.predefined:
+    text: 括號與運算符//預先定義的符號
+options.language.defaults.semicolon:
+    text: 括號與運算符//分號
+options.language.defaults.shebang.comment:
+    text: 註解//Shebang comment
+options.language.defaults.static.field:
+    text: 類別//靜態域
+options.language.defaults.static.method:
+    text: 類別//靜態方法
+options.language.defaults.string:
+    text: 字串//文字字串
+options.language.defaults.template.language:
+    text: 範本語言
+options.language.defaults.valid.esc.seq:
+    text: 字串//轉義序列//有效的
+options.page.modified.save.message.text:
+    text: 頁面已被修改，是否儲存已變更的頁面？
+options.properties.attribute.descriptor.comment:
+    text: 註釋
+options.properties.attribute.descriptor.invalid.string.escape:
+    text: 無效的 Unicode 程式碼點
+options.properties.attribute.descriptor.key.value.separator:
+    text: 鍵/值分隔符
+options.properties.attribute.descriptor.property.key:
+    text: 屬性鍵
+options.properties.attribute.descriptor.property.value:
+    text: 屬性值
+options.properties.attribute.descriptor.valid.string.escape:
+    text: 有效字串轉義
+options.save.changes.message.title:
+    text: 儲存變更
+options.xml.attribute.descriptor.attribute.name:
+    text: 屬性名稱
+options.xml.attribute.descriptor.attribute.value:
+    text: 屬性值
+options.xml.attribute.descriptor.comment:
+    text: 註解
+options.xml.attribute.descriptor.prologue:
+    text: 序言
+options.xml.attribute.descriptor.tag:
+    text: 標籤
+options.xml.attribute.descriptor.tag.data:
+    text: 標籤資料
+options.xml.attribute.descriptor.tag.name:
+    text: 標籤名稱
+project.file.read.only.error.message:
+    text: |-
+        項目檔案是唯讀的。
+        該設定導致無法儲存，直到你修改檔案為可寫入的。
+settings.panel.title:
+    text: 設定
+template.project.settings.display.name:
+    text: 範本項目設定

@@ -1,0 +1,1262 @@
+access.static.via.instance:
+    text: 存取靜態成員通過實例參考
+annotate.overridden.methods.parameters:
+    text: 重寫方法參數註解"@{0}"
+assignment.to.declared.variable.problem.descriptor:
+    text: 變數"{0}"是自我賦值初始化
+assignment.to.itself.problem.descriptor:
+    text: 變數"{0}"是分配給自己
+boolean.method.is.always.inverted.display.name:
+    text: 布林方法總是倒
+boolean.method.is.always.inverted.problem.descriptor:
+    text: 布林方法 <code>#ref</code> 總是反向的
+cleanup.in.file:
+    text: 清除代碼
+cleanup.in.scope:
+    text: 清除代碼……
+configure.annotations.option:
+    text: 設定註解
+configure.checker.option.assert.false.add.method.checker.dialog.title:
+    text: 新增斷言 False 方法
+configure.checker.option.assert.false.method.panel.title:
+    text: 斷言 False 方法
+configure.checker.option.assert.isNotNull.add.method.checker.dialog.title:
+    text: 新增斷言 IsNotNull 方法
+configure.checker.option.assert.isNotNull.method.panel.title:
+    text: 斷言IsNotNull方法
+configure.checker.option.assert.isNull.add.method.checker.dialog.title:
+    text: 新增斷言 IsNull 方法
+configure.checker.option.assert.isNull.method.panel.title:
+    text: 斷言IsNull方法
+configure.checker.option.assert.true.add.method.checker.dialog.title:
+    text: 新增斷言 True 方法
+configure.checker.option.assert.true.method.panel.title:
+    text: 斷言 True 方法
+configure.checker.option.button:
+    text: 設定維護/檢查方法
+configure.checker.option.isNotNull.add.method.checker.dialog.title:
+    text: 新增IsNotNull檢查方法
+configure.checker.option.isNotNull.method.panel.title:
+    text: IsNotNull檢查方法
+configure.checker.option.isNull.add.method.checker.dialog.title:
+    text: 新增IsNull檢查方法
+configure.checker.option.isNull.method.panel.title:
+    text: IsNull檢查方法
+configure.checker.option.main.dialog.title:
+    text: 維護/檢查方法設定
+configure.checker.option.overlap.error.msg:
+    text: 設定衝突
+configure.checker.option.overlap.error.title:
+    text: 重疊檢查
+dataflow.message.array.index.out.of.bounds:
+    text: 陣列索引越界
+dataflow.message.assigning.null:
+    text: <code>null</code> 被分配到一個是註解變數 @NotNull
+dataflow.message.assigning.nullable:
+    text: 運算式 <code>#ref</code> might evaluate to null but is assigned to a variable that is annotated with @NotNull
+dataflow.message.constant.method.reference:
+    text: "方法參照結果總是 ''{0}''"
+dataflow.message.loop.on.empty.array:
+    text: 陣列 <code>#ref</code> 總是空
+dataflow.message.loop.on.empty.collection:
+    text: 集合 <code>#ref</code> 總是空
+dataflow.message.passing.null.argument:
+    text: 通過 <code>null</code> 參數註解為 @NotNull
+dataflow.message.passing.nullable.argument:
+    text: '論點 <code>#ref</code> #loc might be null'
+dataflow.message.passing.nullable.argument.methodref:
+    text: 方法參照參數可能為空
+dataflow.message.pointless.assignment.expression:
+    text: '條件 <code>#ref</code> #loc 在賦值表達式的左側是永遠 <code>{0}</code>. 可以簡化'
+dataflow.message.return.null.from.notnull:
+    text: <code>null</code> 由宣告為 @{0} 的方法返回
+dataflow.message.return.null.from.notnullable:
+    text: <code>null</code> 由未被宣告為 @{0} 的方法返回
+dataflow.message.return.nullable.from.notnull:
+    text: 表達式 <code>#ref</code> 可能會評估為 null，但由宣告為 @{0} 的方法返回
+dataflow.message.return.nullable.from.notnull.function:
+    text: 函數可能返回 null ，但這裡不允許
+dataflow.message.return.nullable.from.notnullable:
+    text: 表達式 <code>#ref</code> 可能會評估為 null，但由未被宣告為 @{0} 的方法返回
+dataflow.message.storing.array.null:
+    text: <code>null</code> 儲存到元素 @NotNull 的陣列
+dataflow.message.storing.array.nullable:
+    text: 運算式 <code>#ref</code> 可能計算為空，卻儲存到元素 @NotNull 的陣列
+dataflow.message.unreachable.switch.label:
+    text: 'Switch 標籤 <code>#ref</code> #loc 不可到達'
+dataflow.too.complex.class:
+    text: 類別初始化器過於複雜，無法透過資料資料流算法進行分析
+default.file.template.description:
+    text: 預設檔案範本
+default.file.template.display.name:
+    text: 預設檔案範本的使用
+default.file.template.edit.template:
+    text: 編輯範本...
+default.file.template.replace.with.actual.file.template:
+    text: 替換為實際檔案範本
+default.file.template.report.catch.section:
+    text: 報告預設抓住部份
+default.file.template.report.file.header:
+    text: 報告預設檔案頭
+default.file.template.report.method.body:
+    text: 報告預設建立/覆寫/實現方法主體
+default.ide.profile.label.text:
+    text: '預設的IDE設定檔案:'
+dependency.injection.annotations.list:
+    text: 附加依賴項注入註解
+deprecated.symbol:
+    text: 棄用符號
+detach.library.quickfix.name:
+    text: 分離庫
+detach.library.roots.quickfix.name:
+    text: 分離未使用的庫根
+disable.inspection.action.name:
+    text: 禁用檢查
+duplicate.property.diff.key.option:
+    text: 重複的鍵值不同(&D)
+duplicate.property.diff.key.progress.indicator.text:
+    text: 處理重複的屬性鍵:{0}
+duplicate.property.display.name:
+    text: 複製屬性
+duplicate.property.file.scope.option:
+    text: 檔案範圍(&F)
+duplicate.property.key.option:
+    text: 重複鍵(&K)
+duplicate.property.key.progress.indicator.text:
+    text: 處理重複的屬性鍵:{0}
+duplicate.property.module.scope.option:
+    text: 模組範圍(&M)
+duplicate.property.project.scope.option:
+    text: 項目範圍(&P)
+duplicate.property.value.option:
+    text: 重複的值(&V)
+duplicate.property.value.progress.indicator.text:
+    text: 處理重複的屬性值:{0}
+edit.dependency.rules.family:
+    text: 編輯依賴關係規則
+edit.inspection.options:
+    text: "編輯 ''{0}'' 選項"
+edit.options.of.reporter.inspection.family:
+    text: 編輯選項的記者檢驗
+edit.options.of.reporter.inspection.text:
+    text: 編輯檢查設定檔案設定
+error.analysis.is.in.progress:
+    text: 錯誤分析是在進步
+errors.single.profile.title:
+    text: 錯誤:"{0}"檢查設定檔案
+group.names.abstraction.issues:
+    text: 抽像問題
+group.names.assignment.issues:
+    text: 賦值問題
+group.names.bitwise.operation.issues:
+    text: 按位運算的問題
+group.names.class.metrics:
+    text: 類別指標
+group.names.class.structure:
+    text: 類別結構
+group.names.cloning.issues:
+    text: 克隆問題
+group.names.code.maturity.issues:
+    text: 代碼成熟度問題
+group.names.code.style.issues:
+    text: 代碼風格問題
+group.names.compiler.issues:
+    text: 編譯器問題
+group.names.concurrency.annotation.issues:
+    text: 並發註解問題
+group.names.control.flow.issues:
+    text: 控制資料流問題
+group.names.data.flow.issues:
+    text: 資料資料流問題
+group.names.declaration.redundancy:
+    text: 宣告備援
+group.names.dependency.issues:
+    text: 依賴性問題
+group.names.encapsulation.issues:
+    text: 封裝問題
+group.names.error.handling:
+    text: 錯誤處理
+group.names.finalization.issues:
+    text: 終結問題
+group.names.imports:
+    text: 匯入
+group.names.inheritance.issues:
+    text: 繼承問題
+group.names.initialization.issues:
+    text: 初始化問題
+group.names.internationalization.issues:
+    text: 國際化問題
+group.names.j2me.issues:
+    text: J2ME問題
+group.names.javabeans.issues:
+    text: JavaBeans問題
+group.names.javadoc.issues:
+    text: Javadoc 問題
+group.names.javaee.issues:
+    text: Java EE 問題
+group.names.junit.issues:
+    text: JUnit問題
+group.names.logging.issues:
+    text: 測井問題
+group.names.memory.issues:
+    text: 記憶體問題
+group.names.method.metrics:
+    text: 方法度量
+group.names.modularization.issues:
+    text: 模組化問題
+group.names.naming.conventions:
+    text: 命名約定
+group.names.numeric.issues:
+    text: 數值問題
+group.names.packaging.issues:
+    text: 打包問題
+group.names.performance.issues:
+    text: 性能問題
+group.names.portability.issues:
+    text: 可移植性問題
+group.names.potentially.confusing.code.constructs:
+    text: 可能引起混淆的代碼結構
+group.names.probable.bugs:
+    text: 可能的錯誤
+group.names.properties.files:
+    text: 屬性檔案
+group.names.reflective.access.issues:
+    text: 反射存取
+group.names.resource.management.issues:
+    text: 資源管理問題
+group.names.security.issues:
+    text: 安全問題
+group.names.serialization.issues:
+    text: 序列化問題
+group.names.threading.issues:
+    text: 執行緒問題
+group.names.verbose.or.redundant.code.constructs:
+    text: 備援的代碼結構
+group.names.visibility.issues:
+    text: 可見性問題
+highlight.severity.create.dialog.name.label:
+    text: 名字
+highlight.severity.create.dialog.title:
+    text: 新的嚴重高亮
+illegal.package.dependencies:
+    text: 非法的包依賴關係
+inconsistent.bundle.property.error:
+    text: 不相同的財產"{0}".必須定義在父檔案"{1}".
+inconsistent.bundle.property.inconsistent.end:
+    text: 不相同的屬性值結束「{0}」
+inconsistent.bundle.property.inconsistent.end.parent.end.from.check.symbols:
+    text: 不相同的屬性值結束「{0}」,但發現「{1}」在「{2}」
+inconsistent.bundle.property.inconsistent.placeholders:
+    text: 不相同的佔位符:{0}在「{1}」
+inconsistent.bundle.property.inherited.with.the.same.value:
+    text: 財產繼承了"{0}"檔案相同的值
+inconsistent.bundle.report.duplicate.properties.values:
+    text: 報表屬性覆寫與相同的值(&O)
+inconsistent.bundle.report.inconsistent.properties:
+    text: 報告不相同的屬性(&I)
+inconsistent.bundle.report.inconsistent.properties.ends:
+    text: 報表屬性不相同的目的(&E)
+inconsistent.bundle.report.inconsistent.properties.placeholders:
+    text: 報表屬性不相同的佔位符(&P)
+inconsistent.bundle.report.missing.translations:
+    text: 報告失蹤的翻譯(&M)
+inconsistent.bundle.untranslated.property.error:
+    text: 未翻譯屬性"{0}".應該被覆寫在"{1}".
+inconsistent.line.separators:
+    text: 不相同的行分隔符號
+inconsistent.resource.bundle.display.name:
+    text: 不相同的資源包
+inspection.1.7.problem.descriptor:
+    text: 泛型的使用後,會造成1.6 API編譯問題與JDK{0}
+inspection.1.8.problem.descriptor:
+    text: 預設 {0, choice, 0#|1#method is|2# methods are} 不重寫。它會導致JDK編譯問題 {1}
+inspection.1.8.problem.single.descriptor:
+    text: "預設的方法 ''{0}'' 不重寫。它會導致JDK編譯問題 {1}"
+inspection.action.apply.quickfix:
+    text: 套用一個補丁
+inspection.action.apply.quickfix.description:
+    text: 套用一個檢驗過的補丁
+inspection.action.edit.settings:
+    text: 修改設定
+inspection.action.export.html:
+    text: 匯出
+inspection.action.export.popup.title:
+    text: 匯出到
+inspection.action.go.next:
+    text: 下一個問題
+inspection.action.group.by.severity:
+    text: 按嚴重程度群組
+inspection.action.group.by.severity.description:
+    text: 集團檢查根據嚴重程度
+inspection.action.noun:
+    text: 檢查
+inspection.action.profile.label:
+    text: 檢查設定檔案
+inspection.action.rerun:
+    text: 重新檢查
+inspection.action.title:
+    text: 檢查
+inspection.actiongo.prev:
+    text: 上一個問題
+inspection.annotate.overridden.method.and.self.quickfix.family.name:
+    text: 註解重寫的方法及自己
+inspection.annotate.overridden.method.quickfix.family.name:
+    text: 註解重寫的方法
+inspection.annotate.quickfix.implements:
+    text: 實現
+inspection.annotate.quickfix.overridden.method.messages:
+    text: 方法{0}{1}{2}方法.註解基本方法?
+inspection.annotate.quickfix.overridden.method.warning:
+    text: 重寫的方法警告
+inspection.annotate.quickfix.overrides:
+    text: 重寫
+inspection.application.cannot.convert.project.0:
+    text: 無法轉換項目：{0}
+inspection.application.cannot.convert.the.project.the.following.files.are.read.only.0:
+    text: 不能轉換項目.以下檔案是唯讀:{0}
+inspection.application.directory.cannot.be.found:
+    text: 目錄 {0} 未找到
+inspection.application.file.cannot.be.found:
+    text: 檔案 {0} 未找到
+inspection.application.initializing.project:
+    text: 正在初始化項目...
+inspection.application.opening.project:
+    text: 開啟項目...
+inspection.application.project.has.older.format.and.will.be.converted:
+    text: 項目有一個年長的格式和將被轉換.
+inspection.application.project.was.succesfully.converted.old.project.files.were.saved.to.0:
+    text: 項目成功轉換.老項目檔案被儲存到{0}
+inspection.application.starting.up:
+    text: 啟動{0}...
+inspection.as:
+    text: 作為 {0}
+inspection.assert.quickfix:
+    text: "維護 ''{0}''"
+inspection.can.be.final.accept.quickfix:
+    text: 設為 final
+inspection.can.be.final.display.name:
+    text: 宣告可以有final修飾符
+inspection.can.be.final.option:
+    text: 報告類別
+inspection.can.be.final.option1:
+    text: 報告方法
+inspection.can.be.final.option2:
+    text: 報告欄位
+inspection.can.be.local.parameter.problem.descriptor:
+    text: 參數<code>#ref</code>可以有<code>最終</code>修飾符
+inspection.can.be.local.variable.problem.descriptor:
+    text: 變數<code>#ref</code>可以有<code>final</code>修飾符
+inspection.capitalized.done:
+    text: 完成。
+inspection.collection.factories.fix.family.name:
+    text: 用集合工廠調用取代
+inspection.collection.factories.fix.name:
+    text: "用 ''{0}.{1}'' 調用取代"
+inspection.collection.factories.message:
+    text: "可以取代為 ''{0}.{1}'' 調用"
+inspection.collection.factories.option.ignore.non.constant:
+    text: 當內容不是常數時不警告
+inspection.command.line.explanation:
+    text: "預計參數: <project_file_path> <inspection_profile> <output_path> <inspections_profile> -- use here profile name configured in the project or locally or path to the inspection profile; can be stabbed when one of the -e|-profileName|-profilePath is used\n[<options>]\n Available options are:\n -d <directory_path>  --  directory to be inspected. Optional. Whole project is inspected by default.\n -e                   --  skip  \n-v[0|1|2]            --  verbose level. 0 - silent, 1 - verbose, 2 - most verbose. \n-profileName         --  name of a profile defined in project \n -profilePath         --  absolute path to the profile file"
+inspection.comparator.result.comparison.display.name:
+    text: 比較方法的可疑用法
+inspection.comparator.result.comparison.fix.family.name:
+    text: 修復比較器結果比較
+inspection.comparator.result.comparison.problem.display.name:
+    text: 比較方法的結果是特定常數
+inspection.comparing.references.problem.descriptor:
+    text: '可疑的比較#ref #loc'
+inspection.comparing.references.use.quickfix:
+    text: 使用equals()
+inspection.compiler.javac.quirks.anno.array.comma.fix:
+    text: 刪除尾隨逗號
+inspection.compiler.javac.quirks.anno.array.comma.problem:
+    text: 在註解陣列初始值設定項拖曳逗號可能導致編譯錯誤在某些Javac版本(例如.JDK 5和JDK 6).
+inspection.compiler.javac.quirks.name:
+    text: Javac怪癖
+inspection.compiler.javac.quirks.qualifier.type.args.fix:
+    text: 移除泛型參數
+inspection.compiler.javac.quirks.qualifier.type.args.problem:
+    text: 仿製藥在預選賽參考可能導致編譯錯誤在某些Javac版本(例如.JDK 5和JDK 6).
+inspection.contract.display.name:
+    text: 合同的問題
+inspection.convert.to.local.quickfix:
+    text: 轉換為當地
+inspection.data.flow.filter.notnull.quickfix:
+    text: "插入 'filter(Objects::nonNull)' 步驟"
+inspection.data.flow.ignore.assert.statements:
+    text: 忽略 assert 語句
+inspection.data.flow.report.not.null.required.parameter.with.null.literal.argument.usages:
+    text: 報告使用 null 文字實參用法的非 null 必需參數
+inspection.data.flow.report.nullable.methods.that.always.return.a.non.null.value:
+    text: 報告始終返回非 null 值的可 null 方法
+inspection.data.flow.report.problems.that.happen.only.on.some.code.paths:
+    text: 報告僅在某些程式碼路徑上發生的問題
+inspection.data.flow.simplify.boolean.expression.quickfix:
+    text: 簡化邏輯運算式
+inspection.data.flow.simplify.to.assignment.quickfix.name:
+    text: 簡化正常作業
+inspection.data.flow.treat.non.annotated.members.and.parameters.as.nullable:
+    text: 將未註解的成員和參數視為 @Nullable
+inspection.data.flow.use.computeifpresent.quickfix:
+    text: "將 'compute' 取代為 'computeIfPresent'"
+inspection.dead.code.comment:
+    text: // --註解掉檢查
+inspection.dead.code.comment.quickfix:
+    text: 註解掉
+inspection.dead.code.date.comment:
+    text: '// --註解掉檢查 ({0}):'
+inspection.dead.code.display.name:
+    text: 未使用的宣告
+inspection.dead.code.entry.point.quickfix:
+    text: 新增作為入口點
+inspection.dead.code.entry.points.display.name:
+    text: 入口點
+inspection.dead.code.export.results.instantiated.from.heading:
+    text: 實例化
+inspection.dead.code.export.results.no.instantiations.found:
+    text: 沒有實例化發現.
+inspection.dead.code.option.external:
+    text: 非 Java 檔案中使用的類別
+inspection.dead.code.problem.synopsis:
+    text: 欄位從未分配。
+inspection.dead.code.problem.synopsis1:
+    text: 現場沒有使用.
+inspection.dead.code.problem.synopsis10:
+    text: 匿名類別宣告內容從入口點是不可到達的.類別是從來沒有實例化.
+inspection.dead.code.problem.synopsis11:
+    text: 沒有類別參照已經被發現.類別的靜態初始化器是不可到達的.
+inspection.dead.code.problem.synopsis12:
+    text: 類別有一個實例化但它無法存取從入口點.
+inspection.dead.code.problem.synopsis13:
+    text: 類別是不實例化.
+inspection.dead.code.problem.synopsis14:
+    text: <ul><li>抽像方法沒有實現，或</li><li>實現類別沒有實例化，或</li><li>一個實例是不是從入口點到達。</li></ul>
+inspection.dead.code.problem.synopsis15:
+    text: <ul><li>方法所有者類別沒有實例化，或</li><li>一個實例是不是從入口點到達。</li></ul>
+inspection.dead.code.problem.synopsis16:
+    text: 變數從未使用
+inspection.dead.code.problem.synopsis18:
+    text: 方法從入口點是不可到達的.
+inspection.dead.code.problem.synopsis19:
+    text: 無論是類別或 {0, choice, 1#its implementation|2#{0,number} its implementations} 被實例化。
+inspection.dead.code.problem.synopsis2:
+    text: 欄位被指定,但無法存取.
+inspection.dead.code.problem.synopsis20:
+    text: 類別有 {0, choice, 1#instantiation|2#{0,number} instantiations} 但他們是不可達的切入點。
+inspection.dead.code.problem.synopsis21:
+    text: 方法是從未使用過的一員這{0},但只是作為一個成員的實現類別(es).該項目將保持compilable如果方法是刪除從{0}.
+inspection.dead.code.problem.synopsis22:
+    text: 方法覆寫一個庫方法但<ul><li>其{0}是從來沒有實例化或</li><li>其{0}實例從入口點是不可到達的..</li></ul>
+inspection.dead.code.problem.synopsis23:
+    text: '{0}是沒有實現.'
+inspection.dead.code.problem.synopsis24:
+    text: '{0} 有一個實現但 <ul><li>這是從來沒有實例化或</li><li>沒有實例化從入口點是可及的.</li></ul>'
+inspection.dead.code.problem.synopsis26.constructor:
+    text: 構造函數從未使用過。
+inspection.dead.code.problem.synopsis26.method:
+    text: 變數從未使用
+inspection.dead.code.problem.synopsis28.constructor:
+    text: 構造函數有一個用法,但它是不可到達的從入口點.
+inspection.dead.code.problem.synopsis28.method:
+    text: 方法有一個使用但它無法存取從入口點.
+inspection.dead.code.problem.synopsis29.constructor:
+    text: 構造函數有 {0, choice, 1#使用|2#{0,number} 使用} 但他們是不可達的切入點。
+inspection.dead.code.problem.synopsis29.method:
+    text: 方法有 {0, choice, 1#使用|2#{0,number} 使用} 但他們是不可達的切入點。
+inspection.dead.code.problem.synopsis3:
+    text: 場有一個用法,但它是不可到達的從入口點.
+inspection.dead.code.remove.from.entry.point.quickfix:
+    text: 移除從入口點
+inspection.dead.code.start.comment:
+    text: |
+        // --註解掉檢查 START ({0}):
+inspection.dead.code.stop.comment:
+    text: |
+        // --註解掉檢查 STOP ({0})
+inspection.default.annotation.param:
+    text: 預設的註解參數值
+inspection.dependency.configure.button.text:
+    text: 設定依賴規則
+inspection.dependency.violator.problem.descriptor:
+    text: 依賴規則"{0}."是違反
+inspection.deprecated.display.name:
+    text: 過時的API使用
+inspection.description.title:
+    text: 描述
+inspection.diff.format.error:
+    text: '要求參數: <old_file> <new_file> [<delta_file_name>]'
+inspection.disabled.error:
+    text: 檢查"{0}"是禁用:{1}.
+inspection.disabled.title:
+    text: 檢查禁用
+inspection.disabled.wrong.id:
+    text: 檢查"{0}"是禁用:ID"{1}"不符合"{2}"模式.
+inspection.done:
+    text: 完成。
+inspection.duplicate.throws.display.name:
+    text: 重複投
+inspection.duplicate.throws.ignore.subclassing.option:
+    text: 忽略例外子類別化別人
+inspection.duplicate.throws.more.general.problem:
+    text: 有一個更一般的異常,"{0}",已在轉換清單.
+inspection.duplicate.throws.problem:
+    text: 重複投
+inspection.duplicated.code.display.name:
+    text: 重複的代碼
+inspection.duplicates.display.name:
+    text: 複製字串文字
+inspection.duplicates.message:
+    text: <html><body>重複的字串在<br>{0}</body></html>
+inspection.duplicates.message.in.this.file:
+    text: (在此檔案中)
+inspection.duplicates.message.more:
+    text: '... ({0}更多)'
+inspection.duplicates.navigate.to.occurrences:
+    text: 導航到符合項
+inspection.duplicates.occurrences.view.title:
+    text: "重複的 ''{0}''"
+inspection.duplicates.option:
+    text: 最小字串長度：(&M)
+inspection.duplicates.option.report.propertykey.expressions:
+    text: 忽略 @PropertyKey 運算式 (&I)
+inspection.duplicates.replace.family.quickfix:
+    text: 替換
+inspection.duplicates.replace.quickfix:
+    text: 替換為「{0}」
+inspection.empty.method.display.name:
+    text: 空方法
+inspection.empty.method.problem.descriptor:
+    text: 方法只呼叫它的超級
+inspection.empty.method.problem.descriptor1:
+    text: 空方法重寫空方法
+inspection.empty.method.problem.descriptor2:
+    text: 該方法為空
+inspection.empty.method.problem.descriptor4:
+    text: 此方法的所有實現都為空
+inspection.equals.hashcode.display.name:
+    text: equals()和hashCode()沒有配對
+inspection.equals.hashcode.generate.equals.quickfix:
+    text: "產生 'equals()'"
+inspection.equals.hashcode.generate.hashcode.quickfix:
+    text: "產生 'hashCode()'"
+inspection.equals.hashcode.only.one.defined.problem.descriptor:
+    text: 類別有{0}定義但沒有定義{1}
+inspection.error.level.popup.menu.title:
+    text: 選取錯誤級別
+inspection.errors.occurred.dialog.title:
+    text: 發生錯誤
+inspection.export.dialog.title:
+    text: 匯出
+inspection.export.generating.html.for:
+    text: 產生HTML:{0}
+inspection.export.inspections.link.text:
+    text: 檢查
+inspection.export.open.option:
+    text: 在瀏覽器中開啟產生的HTML
+inspection.export.open.source.link.text:
+    text: 開啟來源檔案
+inspection.export.options.panel.title:
+    text: 選項
+inspection.export.results.abstract:
+    text: 抽像的
+inspection.export.results.abstract.class:
+    text: 抽像類別 (&N)
+inspection.export.results.at.line:
+    text: 行
+inspection.export.results.callees:
+    text: 呼叫鏈
+inspection.export.results.can.be.final.description:
+    text: 宣告可以有final修飾符
+inspection.export.results.capitalized.abstract.class:
+    text: 抽像類別 (&N)
+inspection.export.results.capitalized.class:
+    text: 類別
+inspection.export.results.capitalized.interface:
+    text: 介面
+inspection.export.results.capitalized.location:
+    text: 位置
+inspection.export.results.class:
+    text: 類別
+inspection.export.results.constructor:
+    text: 構造函數
+inspection.export.results.dead.code:
+    text: 未使用的宣告
+inspection.export.results.derived.methods:
+    text: 派生方法
+inspection.export.results.description.tag:
+    text: 描述
+inspection.export.results.error.title:
+    text: 檢驗結果出口
+inspection.export.results.extended:
+    text: 延長
+inspection.export.results.extended.implemented:
+    text: 繼承/實現
+inspection.export.results.extends.implements:
+    text: 繼承/實現
+inspection.export.results.field:
+    text: 欄位
+inspection.export.results.file:
+    text: 檔案
+inspection.export.results.implicit.constructor:
+    text: 隱式的構造函數
+inspection.export.results.initializer:
+    text: 初始化操作
+inspection.export.results.interface:
+    text: 介面
+inspection.export.results.invalidated.item:
+    text: 失效項目
+inspection.export.results.method:
+    text: 方法
+inspection.export.results.no.problems.found:
+    text: 未發現問題
+inspection.export.results.overrides.implements:
+    text: 重寫/實現
+inspection.export.results.overrides.library.methods:
+    text: 重寫庫方法
+inspection.export.results.package:
+    text: 包
+inspection.export.results.problem.element.tag:
+    text: 問題類別
+inspection.export.results.static:
+    text: 靜態的
+inspection.export.results.suppress:
+    text: 隱藏
+inspection.export.results.type.references:
+    text: 以下使用這種類型
+inspection.export.results.used.from:
+    text: 使用從
+inspection.export.results.uses:
+    text: 使用以下
+inspection.export.save.button:
+    text: 儲存
+inspection.export.title:
+    text: 代碼檢查結果
+inspection.field.can.be.local.display.name:
+    text: 可以為本機欄位
+inspection.field.can.be.local.problem.descriptor:
+    text: 欄位可以被轉換為一個局部變數
+inspection.filter.resolved.action.text:
+    text: 濾波器解決項目
+inspection.filter.show.diff.action.text:
+    text: 顯示差異
+inspection.filter.show.diff.only.action.text:
+    text: 只顯示差異
+inspection.general.tools.group.name:
+    text: 常規
+inspection.generating.html.progress.title:
+    text: 產生 HTML...
+inspection.generating.xml.progress.title:
+    text: 轉存 XML...
+inspection.handle.signature.change.type.fix.name:
+    text: "變更類型為 ''{0}''"
+inspection.handle.signature.field.cannot.resolve:
+    text: "無法剖析欄位 ''{0}''"
+inspection.handle.signature.field.not.static:
+    text: "欄位 ''{0}'' 是非靜態的"
+inspection.handle.signature.field.static:
+    text: "欄位 ''{0}'' 是靜態的"
+inspection.handle.signature.field.type:
+    text: "欄位 ''{0}'' 的類型是 ''{1}''"
+inspection.handle.signature.method.not.static:
+    text: "方法 ''{0}'' 是非靜態的"
+inspection.handle.signature.method.static:
+    text: "方法 ''{0}'' 是靜態的"
+inspection.handle.signature.name:
+    text: MethodHandle/VarHandle 類型不符合
+inspection.handle.signature.replace.with.fix.name:
+    text: "取代為 ''{0}''"
+inspection.handle.signature.use.constructor.fix.family.name:
+    text: 使用構造函數重載之一
+inspection.handle.signature.use.constructor.fix.name:
+    text: "使用構造函數 ''{0}''"
+inspection.handle.signature.use.method.fix.family.name:
+    text: 使用方法重載之一
+inspection.handle.signature.use.method.fix.name:
+    text: "使用方法 ''{0}''"
+inspection.implicit.subclass.display.forClass:
+    text: "類別 ''{0}'' 可以隱式的子類別化且不能為 final"
+inspection.implicit.subclass.display.forMethod:
+    text: "方法 ''{0}'' 應可重寫"
+inspection.implicit.subclass.display.name:
+    text: Final 宣告無法在執行時重寫
+inspection.implicit.subclass.extendable:
+    text: "使 ''{0}'' 可重寫"
+inspection.implicit.subclass.make.class.extendable:
+    text: "使 ''{0}'' {1,choice,0#|1#和方法 {2} |1<和 {1} 個所需方法 }可繼承"
+inspection.javadoc.dialog.title:
+    text: 編輯附加的JavaDoc標籤
+inspection.javadoc.display.name:
+    text: 宣告有Javadoc問題
+inspection.javadoc.html.not.required.dialog.title:
+    text: 編輯其他不是必須的 Html 屬性
+inspection.javadoc.html.not.required.label.text:
+    text: '其它不是必需的Html屬性:'
+inspection.javadoc.label.text:
+    text: 額外的Javadoc標籤：
+inspection.javadoc.method.problem.descriptor:
+    text: 參數{1}的描述遺失{0}標記
+inspection.javadoc.method.problem.missing.tag.description:
+    text: '{0}標籤描述已遺失'
+inspection.javadoc.option.ignore.deprecated:
+    text: 忽略標記為@deprecated的元素
+inspection.javadoc.option.ignore.period:
+    text: 忽略週期問題
+inspection.javadoc.option.tab.title:
+    text: 類別
+inspection.javadoc.option.tab.title.field:
+    text: 欄位
+inspection.javadoc.option.tab.title.inner.class:
+    text: 內部類別
+inspection.javadoc.option.tab.title.method:
+    text: 方法
+inspection.javadoc.option.tab.title.package:
+    text: 包
+inspection.javadoc.problem.add.param.tag:
+    text: "為參數''{0}''新增標籤@param"
+inspection.javadoc.problem.add.param.tag.family:
+    text: 新增缺少的 Javadoc 參數標籤
+inspection.javadoc.problem.add.tag:
+    text: 新增標籤@{0} {1}
+inspection.javadoc.problem.add.tag.family:
+    text: 新增缺少的 Javadoc 標籤
+inspection.javadoc.problem.cannot.resolve:
+    text: 無法剖析符號{0}
+inspection.javadoc.problem.descriptor:
+    text: 必須的Javadoc缺席
+inspection.javadoc.problem.descriptor1:
+    text: 期在文件缺失.使用期間由工具產生的Javadoc註解的概述頁面
+inspection.javadoc.problem.duplicate.param:
+    text: 重複 @param 標記參數"{0}"
+inspection.javadoc.problem.duplicate.tag:
+    text: 重複的 @{0} 標記
+inspection.javadoc.problem.duplicate.throws:
+    text: 重複 @throws 或 @exception 標記為異常"{0}"
+inspection.javadoc.problem.missing.tag:
+    text: 需要標記{0}是缺失的
+inspection.javadoc.problem.name.expected:
+    text: 名字預期
+inspection.javadoc.problem.pointing.to.itself:
+    text: Javadoc指向本身
+inspection.javadoc.problem.wrong.tag:
+    text: 不適當的標籤{0}
+inspection.javadoc.ref.display.name:
+    text: 宣告有Javadoc參照問題
+inspection.javadoc.required.tags.option.title:
+    text: 必須的標籤
+inspection.javadoc.throws.or.exception.option:
+    text: '@throws或@exception'
+inspection.local.can.be.final.display.name:
+    text: 局部變數或參數可以最終
+inspection.local.can.be.final.option:
+    text: 報告局部變數
+inspection.local.can.be.final.option1:
+    text: 報告方法參數
+inspection.local.can.be.final.option2:
+    text: 報告抓參數
+inspection.local.can.be.final.option3:
+    text: 報告foreach參數
+inspection.local.can.be.final.option4:
+    text: 報告隱式 final 的變數
+inspection.marked.for.removal.display.name:
+    text: 已標記為刪除的 API 的使用
+inspection.message.redundant.default.parameter.value.assignment:
+    text: 冗餘的預設參數值賦值
+inspection.new.profile.dialog.title:
+    text: 建立新的設定檔案
+inspection.new.profile.ide.to.project.warning.message:
+    text: 你想儲存選擇的IDE設定檔案作為項目設定檔案?
+inspection.new.profile.ide.to.project.warning.title:
+    text: 無法設定IDE剖面為範圍
+inspection.new.profile.text:
+    text: 新的設定檔案名稱
+inspection.no.jdk.error.message:
+    text: JDK設定不正確為這個項目.不能進行檢查.
+inspection.no.modules.error.message:
+    text: 這個項目不包含模組.不能進行檢查.
+inspection.no.problems.dialog.title:
+    text: 代碼檢查
+inspection.null.value.for.optional.context.assignment:
+    text: 賦值
+inspection.null.value.for.optional.context.declaration:
+    text: 宣告
+inspection.null.value.for.optional.context.lambda:
+    text: lambda 運算式
+inspection.null.value.for.optional.context.parameter:
+    text: 參數
+inspection.null.value.for.optional.context.return:
+    text: return 語句
+inspection.null.value.for.optional.fix.family.name:
+    text: 用空 Optional 方法取代
+inspection.null.value.for.optional.fix.name:
+    text: "取代為 ''{0}''"
+inspection.null.value.for.optional.message:
+    text: "Null 用於 ''Optional'' 類型在 {0} 中"
+inspection.nullable.problems.NotNull.parameter.overrides.Nullable:
+    text: 使用 @{0} 註解的參數不得覆寫 @{1} 參數
+inspection.nullable.problems.NotNull.parameter.overrides.not.annotated:
+    text: 參數標注 @{0} 不應該覆寫非註解參數
+inspection.nullable.problems.Nullable.NotNull.conflict:
+    text: 不能同時使用 @{0} 和 @{1} 註解
+inspection.nullable.problems.Nullable.method.overrides.NotNull:
+    text: '@Nullable 註解的方法不能覆寫為 @NotNull 方法'
+inspection.nullable.problems.annotated.field.constructor.parameter.not.annotated:
+    text: 構造函數參數 @{0} 的領域可能會註解 @{0} 本身
+inspection.nullable.problems.annotated.field.getter.conflict:
+    text: Getter 為 @{0} 欄位註解 @{1}
+inspection.nullable.problems.annotated.field.getter.not.annotated:
+    text: Getter為 @{0} 的領域可能會註解 @{0} 本身
+inspection.nullable.problems.annotated.field.setter.parameter.conflict:
+    text: Setter 參數 @{0} 欄位註解 @{1}
+inspection.nullable.problems.annotated.field.setter.parameter.not.annotated:
+    text: Setter 參數 @{0} 的領域可能會註解 @{0} 本身
+inspection.nullable.problems.display.name:
+    text: '@NotNull / @Nullable 問題'
+inspection.nullable.problems.method.overrides.NotNull:
+    text: 未註解的方法覆寫為 @NotNull 註解的方法
+inspection.nullable.problems.parameter.overrides.NotNull:
+    text: 未註解的參數覆寫 @{0} 參數
+inspection.nullable.problems.primitive.type.annotation:
+    text: 不能註解基元類型成員
+inspection.offline.view.tool.display.name.title:
+    text: 名字
+inspection.options.action.text:
+    text: 檢查"{0}"選項
+inspection.parameter.can.be.local.display.name:
+    text: 參數可以是局部的
+inspection.parameter.can.be.local.problem.descriptor:
+    text: 參數可以被轉化為一個局部變數
+inspection.problem.resolution:
+    text: 解決問題
+inspection.problem.synopsis:
+    text: 問題概觀
+inspection.problems:
+    text: 問題
+inspection.processing.job.descriptor:
+    text: 處理項目用法在
+inspection.processing.job.descriptor1:
+    text: 處理外部使用
+inspection.processing.job.descriptor2:
+    text: 分析代碼
+inspection.profile.unnamed:
+    text: 未命名
+inspection.progress.title:
+    text: 檢查代碼...
+inspection.quickfix.assert.family:
+    text: 維護
+inspection.redirect.template:
+    text: '<html><body>注入單元有問題: {0} (in <a href="#navigation/{1}:{2}">{3}</a>). </body></html>'
+inspection.redundant.array.creation.display.name:
+    text: 建立備援陣列
+inspection.redundant.array.creation.for.varargs.call.descriptor:
+    text: 建立備援陣列叫可變參數的方法
+inspection.redundant.array.creation.quickfix:
+    text: 移除陣列建立顯式
+inspection.redundant.cast.display.name:
+    text: 多餘的類型轉換
+inspection.redundant.cast.problem.descriptor:
+    text: 拋出{0},{1}是備援的
+inspection.redundant.cast.remove.quickfix:
+    text: 移除多餘的轉換
+inspection.redundant.suppression.description:
+    text: 備援隱藏
+inspection.redundant.suppression.name:
+    text: 備援隱藏
+inspection.redundant.throws.problem.descriptor:
+    text: 宣告的異常{0}在方法中從未拋出
+inspection.redundant.throws.problem.descriptor1:
+    text: 宣告的異常{0}是從不扔在這個方法中,還是在其derivables
+inspection.redundant.throws.problem.descriptor2:
+    text: 宣告的異常{0}從未拋出
+inspection.redundant.type.display.name:
+    text: 備援類型參數
+inspection.redundant.type.problem.descriptor:
+    text: 顯式的類型參數可以推斷
+inspection.reference.anonymous:
+    text: 匿名
+inspection.reference.anonymous.name:
+    text: 匿名的 ({0})
+inspection.reference.default.method.reference.name:
+    text: 方法引用
+inspection.reference.implicit.constructor.name:
+    text: 隱式的構造函數{0}
+inspection.reference.method.reference.name:
+    text: 方法引用({0})
+inspection.reference.noname:
+    text: 無名
+inspection.reflect.handle.invocation.argument.not.array:
+    text: 參數不是陣列類型
+inspection.reflect.handle.invocation.argument.not.exact:
+    text: "參數類型應該完全是 ''{0}''"
+inspection.reflect.handle.invocation.primitive.argument.null:
+    text: "''{0}'' 類型的參數不能為 ''null''"
+inspection.reflect.handle.invocation.receiver.incompatible:
+    text: "調用接收器類型不相容：期望 ''{0}''"
+inspection.reflect.handle.invocation.receiver.null:
+    text: "調用接收器是 'null'"
+inspection.reflect.handle.invocation.result.not.assignable:
+    text: "應該轉換為 ''{0}'' 或它的超類別"
+inspection.reflect.handle.invocation.result.not.exact:
+    text: "應該轉換為 ''{0}''"
+inspection.reflect.handle.invocation.result.null:
+    text: "返回類型總是 'null'"
+inspection.reflect.handle.invocation.result.void:
+    text: "返回類型是 'void'"
+inspection.reflection.invocation.argument.count:
+    text: 期望 {0} 個參數
+inspection.reflection.invocation.argument.not.assignable:
+    text: "參數不能賦給 ''{0}''"
+inspection.reflection.invocation.array.not.assignable:
+    text: 陣列元素不相容
+inspection.reflection.invocation.item.count:
+    text: 期望 {0,choice,0#空|1#單元素|1<{0} 元素} 陣列
+inspection.reflection.invocation.item.not.assignable:
+    text: "數線元素不能賦值給 ''{0}''"
+inspection.reflection.invocation.name:
+    text: 反射調用參數不符合
+inspection.reflection.member.access.cannot.resolve.constructor.arguments:
+    text: 無法用指定的參數類型剖析構造方法
+inspection.reflection.member.access.cannot.resolve.field:
+    text: "無法剖析欄位 ''{0}''"
+inspection.reflection.member.access.cannot.resolve.method:
+    text: "無法剖析方法 ''{0}''"
+inspection.reflection.member.access.cannot.resolve.method.arguments:
+    text: "無法用指定的參數類型剖析方法 ''{0}''"
+inspection.reflection.member.access.check.exists:
+    text: 檢查該欄位/方法是否存在於非 final 類別中
+inspection.reflection.member.access.check.exists.exclude:
+    text: 排除類別
+inspection.reflection.member.access.check.exists.exclude.chooser:
+    text: 要排除的類別
+inspection.reflection.member.access.constructor.not.public:
+    text: 構造方法不是公共的
+inspection.reflection.member.access.field.not.in.class:
+    text: "欄位 ''{0}'' 未在類別 ''{1}'' 中宣告"
+inspection.reflection.member.access.field.not.public:
+    text: "欄位 ''{0}'' 不是公共的"
+inspection.reflection.member.access.method.not.in.class:
+    text: "方法 ''{0}'' 未在類別 ''{1}'' 中宣告"
+inspection.reflection.member.access.method.not.public:
+    text: "方法 ''{0}'' 不是公共的"
+inspection.reflection.member.access.name:
+    text: 對不存在/不可見類別成員的反射存取
+inspection.reflection.visibility.name:
+    text: 跨模組反射存取問題
+inspection.replace.methodref.ternary.quickfix:
+    text: 用空檢查的 lambda 取代
+inspection.replace.ternary.quickfix:
+    text: "使用 ''{0} != null ?:'' 替換"
+inspection.replace.with.enhanced.switch.statement.fix.name:
+    text: "取代為增強的 'switch' 語句"
+inspection.replace.with.switch.expression.fix.name:
+    text: "取代為 'switch' 表達式"
+inspection.replace.with.trivial.lambda.fix.family.name:
+    text: 用瑣碎的 lambda 取代
+inspection.replace.with.trivial.lambda.fix.name:
+    text: "用返回 ''{0}'' 的 lambda 取代"
+inspection.required.attributes.display.name:
+    text: 缺少必需的屬性
+inspection.requires.auto.module:
+    text: 依賴於自動模組
+inspection.requires.auto.module.message:
+    text: "對自動模組的 'requires' 指令"
+inspection.requires.auto.module.option:
+    text: 僅高亮傳遞依賴
+inspection.requires.auto.module.transitive:
+    text: "對自動模組的 'requires transitive' 指令"
+inspection.results.title:
+    text: 結果通過編輯器設定
+inspection.root.node.title:
+    text: 檢查
+inspection.same.parameter.display.name:
+    text: 實際的方法的參數是相同的
+inspection.same.parameter.fix.name:
+    text: 內聯值"{1}"參數"{0}"
+inspection.same.parameter.problem.descriptor:
+    text: "實際的參數值 ''{0}'' 永遠是 ''{1}''"
+inspection.same.return.value.display.name:
+    text: 方法返回相同的值
+inspection.same.return.value.problem.descriptor:
+    text: 方法總是返回{0}
+inspection.same.return.value.problem.descriptor1:
+    text: 方法和它的所有變數總是返回{0}
+inspection.same.return.value.problem.descriptor2:
+    text: 此方法的所有實現始終都返回{0}
+inspection.scope.for.title:
+    text: 作用範圍
+inspection.severity:
+    text: '嚴重:'
+inspection.surround.if.family:
+    text: 使用 if 包裹
+inspection.surround.requirenonnull.quickfix:
+    text: "用 ''Objects.requireNonNull({0})'' 取代"
+inspection.suspicious.array.method.call.display.name:
+    text: 可疑陣列方法調用
+inspection.suspicious.array.method.call.problem.arrays:
+    text: 陣列類型不相容：陣列總是不同的
+inspection.suspicious.array.method.call.problem.element:
+    text: 元素類型與陣列類型不相容
+inspection.suspicious.collections.method.calls.display.name:
+    text: 可疑集合方法呼叫
+inspection.suspicious.collections.method.calls.problem.descriptor1:
+    text: 可疑的叫"{0}"
+inspection.switch.expression.migration.inspection.switch.description:
+    text: "Switch 語句可取代為增強的 'switch'"
+inspection.switch.expression.migration.warn.only.on.expression:
+    text: 僅在可以轉換為表達式時顯示警告
+inspection.test.only.problems.test.only.class.reference:
+    text: 測試類別是在生產代碼參照
+inspection.test.only.problems.test.only.method.call:
+    text: 測試只有在生產代碼中呼叫方法
+inspection.tool.availability.in.tree.node:
+    text: (編輯高亮顯示)
+inspection.tool.availability.in.tree.node1:
+    text: (用於分析|檢查代碼)
+inspection.tool.description.under.construction.text:
+    text: 正在構建
+inspection.tool.in.browser.description.title:
+    text: 描述
+inspection.tools.action.show.global.inspections.description:
+    text: 隱藏全局檢查設定
+inspection.tools.action.show.global.inspections.text:
+    text: 隱藏全局檢查
+inspection.tree.popup.title:
+    text: 接受決議
+inspection.unable.to.create.profile.dialog.title:
+    text: 無法建立新的設定檔案
+inspection.unable.to.create.profile.message:
+    text: 檢查設定檔案與名稱"{0}"已經存在.
+inspection.unused.assignment.display.name:
+    text: 未使用的賦值
+inspection.unused.assignment.option2:
+    text: 報告備援的初始化
+inspection.unused.assignment.problem.descriptor1:
+    text: 變數 {0} 從未使用
+inspection.unused.assignment.problem.descriptor2:
+    text: 變數初始化{0}{1}是備援的
+inspection.unused.assignment.problem.descriptor3:
+    text: '{0}的值分配給{1}是從未使用過'
+inspection.unused.assignment.problem.descriptor4:
+    text: 值改變在{0}是從未使用過
+inspection.unused.assignment.problem.descriptor5:
+    text: 變數 {0} 從未使用
+inspection.unused.assignment.remove.assignment.quickfix:
+    text: 刪除備援分配
+inspection.unused.assignment.remove.quickfix:
+    text: 移除備援的初始化器
+inspection.unused.parameter.display.name:
+    text: 未使用的方法參數
+inspection.unused.return.value.problem.descriptor:
+    text: 方法的返回值是從未使用過
+inspection.unused.symbol.check.inner.classes:
+    text: '內部類別:'
+inspection.unused.symbol.public.method.parameters:
+    text: "在非私有方法中檢查參數(N)\r (&N)"
+inspection.variable.assigned.to.itself.display.name:
+    text: 變數是分配給自己
+inspection.view.invalid.scope.message:
+    text: 檢查範圍無效。
+inspection.visibility.accept.quickfix:
+    text: 接受建議的存取級別
+inspection.visibility.compose.suggestion:
+    text: 可以{0}
+inspection.visibility.display.name:
+    text: 宣告存取可能較弱
+inspection.visibility.option2:
+    text: <html>建議為私有內部類別的成員是，只有參照外部類別</html>
+inspections.dead.code.entry.points.annotations.list.title:
+    text: 額外的入口點註解
+inspections.view.options.title:
+    text: 檢查{0}選項
+introduce.constant.across.the.project:
+    text: 跨項目引入常數
+long.line.display.name:
+    text: 代碼風格行超過允許行
+lossy.encoding:
+    text: 有損編碼
+module.not.in.requirements:
+    text: "模組 ''{0}'' 在要求中沒有模組 ''{1}''"
+module.package.not.exported:
+    text: "模組 ''{0}'' 沒有將包 ''{1}'' 匯出到模組 ''{2}''"
+module.package.not.open:
+    text: "模組 ''{0}'' 未開啟包 ''{1}'' 給模組 ''{2}''"
+no.errors.found.in.this.file:
+    text: 在這個檔案中沒有發現的錯誤
+non.ascii.characters:
+    text: 非 ASCII 字元
+nothing.found:
+    text: 沒有發現
+nullable.stuff.problems.overridden.method.parameters.are.not.annotated:
+    text: 覆寫方法參數不會被註解
+nullable.stuff.problems.overridden.methods.are.not.annotated:
+    text: 重寫的方法不是註解
+offline.inspections.jdk.not.found:
+    text: '{0}未找到'
+offline.inspections.library.was.not.resolved:
+    text: 請設定庫"{0}"用於模組"{1}"
+offline.inspections.module.jdk.not.found:
+    text: 請指定sdk"{0}"模組"{1}"
+offline.view.editor.settings.title:
+    text: 編輯器設定
+offline.view.parse.exception.title:
+    text: 沒有發現顯示
+offline.view.title:
+    text: 離線檢視
+parsing.inspections.dump.progress.title:
+    text: 分析檢查XML
+problematic.whitespace.display.name:
+    text: 有問題的空白
+problematic.whitespace.show.whitespaces.quickfix:
+    text: 在編輯器中切換顯示空白
+problematic.whitespace.spaces.problem.descriptor:
+    text: "檔案 ''{0}'' 使用空格縮進"
+problematic.whitespace.tabs.problem.descriptor:
+    text: "檔案 ''{0}'' 使用製表符縮進"
+profile.activate.action.text:
+    text: 設定為項目預設
+profile.assignment.repeatable.scope.warning:
+    text: 可復用的範圍。正確的作業。
+profile.assignments.browse.profile.scopes.dialog.title:
+    text: 設定檔案範圍
+profile.assignments.browse.scope.button.title:
+    text: 瀏覽(&B)...
+profile.assignments.display.name:
+    text: 錯誤
+profile.assignments.table.title:
+    text: 項目檢查設定檔案作業
+profile.banner.text:
+    text: '項目設定檔案: {0} {1, choice, 0#(inactive)|1#}'
+profile.default.profile.title:
+    text: 預設項目概要
+profile.ide.profile.radiobutton.title:
+    text: IDE設定
+profile.ide.settings.banner:
+    text: IDE設定檔案設定
+profile.ide.tree.text:
+    text: IDE設定檔案
+profile.lock.action.text:
+    text: 鎖定
+profile.mapping.inspection.profile.column.title:
+    text: 檢查設定檔案
+profile.mapping.scope.column.title:
+    text: 作用範圍
+profile.project.activate.action.text:
+    text: 設定為IDE預設
+profile.project.display.name:
+    text: 項目設定檔案
+profile.project.radiobutton.title:
+    text: 項目設定
+profile.project.settings.banner:
+    text: 項目設定檔案設定
+profile.project.settings.disable.text:
+    text: < 使用IDE設定檔案 >
+profile.quick.change.suggestion.dialog.title:
+    text: 無法切換設定檔案
+profile.quick.change.suggestion.message:
+    text: <html>存在設定的項目數範圍。你想對他們編輯設定檔案分配？</html>
+profile.save.as.ide.checkbox.title:
+    text: 另存 IDE 設定
+profile.save.as.project.checkbox.title:
+    text: 另存項目設定
+profile.unlock.action.text:
+    text: 解鎖
+psi.search.overriding.progress:
+    text: 搜索重寫方法
+redundant.throws.declaration:
+    text: 備援拋出宣告
+rename.inspection.profile:
+    text: 重新命名檢查設定檔案
+rename.message.prefix.inspection.profile:
+    text: 檢查設定檔案
+report.suspicious.but.possibly.correct.method.calls:
+    text: 報告可疑的，但可能是正確的方法呼叫 (&R)
+run.inspection.on.file.intention.text:
+    text: 執行檢查...
+run.with.choosen.profile.dialog.option:
+    text: 選取執行設定檔案(&C)
+run.with.editor.settings.dialog.option:
+    text: 執行與編輯設定(&E)
+severities.default.settings.message:
+    text: 編輯設定|顏色和字體
+severities.editor.dialog.title:
+    text: 清規戒律編輯
+special.annotations.annotations.list:
+    text: 額外的特別註解
+special.annotations.list.add.annotation.class:
+    text: 新增註解類別
+special.annotations.list.annotation.class:
+    text: 註解類別
+special.annotations.list.annotation.pattern:
+    text: 新增註解模式
+special.annotations.list.remove.annotation.class:
+    text: 移除註解類別
+suppress.all.for.class:
+    text: 隱藏所有上課檢查
+suppress.inspection.annotation.syntax.error:
+    text: '不正確的註解語法: {0}'
+suppress.inspection.class:
+    text: 隱藏上課
+suppress.inspection.family:
+    text: 隱藏檢查
+suppress.inspection.field:
+    text: 隱藏實地
+suppress.inspection.method:
+    text: 隱藏方法
+suppress.inspection.module:
+    text: 隱藏模組宣告
+suppress.inspection.problem:
+    text: 隱藏
+suppress.inspection.statement:
+    text: 隱藏for語句
+suspected.module.dependency.problem.descriptor:
+    text: "模組''{0}''不依賴於模組''{1}''. 雖然''{2}''不需要為輸出依賴關係檢查''{1}''"
+suspicious.name.combination.add.titile:
+    text: 新增組名字
+suspicious.name.combination.display.name:
+    text: 可疑的變數/參數名稱組合
+suspicious.name.combination.edit.title:
+    text: 編輯群組名稱
+suspicious.name.combination.options.prompt:
+    text: 輸入一個逗號分隔的清單的名稱：
+suspicious.name.combination.options.title:
+    text: 組名稱
+todo.comment.display.name:
+    text: TODO 註解
+todo.comment.problem.descriptor:
+    text: 'TODO 註解 <code>#ref</code> #loc'
+unchecked.warning:
+    text: 未經檢查的警告
+unhandled.exception.in.jsp.name:
+    text: 未處理的例外在JSP
+unnecessary.module.dependency.display.name:
+    text: 不必要的模組依賴
+unnecessary.module.dependency.exported.problem.descriptor:
+    text: 模組「{0}」不依賴於「{1}」。儘管「{2}」取決於「{1}」通過這個出口的依賴
+unnecessary.module.dependency.exported.problem.descriptor1:
+    text: 模組「{0}」不依賴於「{1}」。儘管「{0}」取決於「{2}」通過「{1}」的出口依賴
+unnecessary.module.dependency.problem.descriptor:
+    text: "模組''{0}''源不依賴於模組''{1}''源"
+unsupported.character.for.the.charset:
+    text: 不支援的字元的字元集"{0}"
+unused.import.display.name:
+    text: 未使用的匯入
+unused.import.statement:
+    text: 未使用的匯入語句
+unused.library.backward.analysis.job.description:
+    text: 執行反分析
+unused.library.display.name:
+    text: 未使用的庫
+unused.library.problem.descriptor:
+    text: "未使用的庫''{0}''"
+unused.library.roots.problem.descriptor:
+    text: 未使用的根{0}從圖書館"{1}"
+unused.symbol:
+    text: 未使用的符號
+wrong.package.statement:
+    text: 錯誤的包語句
+xml.suppressable.all.for.file.title:
+    text: 隱藏所有檔案
+xml.suppressable.for.file.title:
+    text: 隱藏檔案
+xml.suppressable.for.tag.title:
+    text: 隱藏對標籤

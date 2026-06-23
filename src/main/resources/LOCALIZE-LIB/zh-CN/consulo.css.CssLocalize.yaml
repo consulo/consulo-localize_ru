@@ -1,0 +1,20 @@
+expected.colon:
+    text: "应为 ':'"
+expected.comma:
+    text: "应为 ','"
+expected.identifier:
+    text: 应为标识符
+expected.lbrace:
+    text: "应为 '{'"
+expected.lparen:
+    text: "应为 '('"
+expected.rbrace:
+    text: "应为 '}'"
+expected.rbracket:
+    text: "应为 ']'"
+expected.rparen:
+    text: "应为 ')'"
+expected.semicolon:
+    text: "应为 ';'"
+unexpected.token:
+    text: 意外的标记

@@ -1,0 +1,180 @@
+action.analysis.noun:
+    text: Аналіз
+action.analyze.verb:
+    text: Прааналізаваць
+action.analyzing.cyclic.dependencies.in.scope:
+    text: Цыклічныя залежнасці {0}
+action.backward.dependency.analysis:
+    text: Аналіз зваротнай залежнасці
+action.close.dependency.description:
+    text: Закрыць прагляд залежнасцей
+action.cyclic.dependency.title:
+    text: Аналіз цыклічных залежнасцей
+action.edit.rules:
+    text: Рэдагаваць правілы
+action.edit.rules.description:
+    text: Рэдагаваць правілы залежнасці
+action.flatten.packages:
+    text: Плоскі выгляд пакетаў
+action.forward.dependency.analysis:
+    text: Аналіз залежнасцей
+action.group.by.scope.type:
+    text: Групаваць па тыпе вобласці бачнасці
+action.group.by.scope.type.description:
+    text: Групаванне па тыпу вобласці (вытворчасць, тэст, бібліятэкі)
+action.module.dependencies.direction:
+    text: Напрамак залежнасці
+action.rerun.dependency:
+    text: Паўтарыце аналіз залежнасці
+action.select.in.left.tree:
+    text: Выберыце ў дрэве злева
+action.select.in.left.tree.description:
+    text: Выберыце ў дрэве злева (агляд залежнасцей)
+action.show.files:
+    text: Паказаць файлы
+action.show.files.description:
+    text: Паказаць/схаваць файлы
+action.show.illegals.only:
+    text: Паказваць толькі нелегальныя
+action.show.illegals.only.description:
+    text: Паказаць толькі недапушчальныя залежнасці файлаў
+action.show.modules:
+    text: Паказаць модулі
+action.show.modules.description:
+    text: Паказаць/схаваць модулі
+analysis.scope.title:
+    text: Плошча {0}
+analyzing.project:
+    text: Аналіз праекта
+backward.dependencies.progress.text:
+    text: Аналіз зваротнай залежнасці
+backward.dependencies.toolwindow.title:
+    text: Адваротныя залежнасці для {0}
+backward.dependencies.usage.view.initial.text:
+    text: Выберыце, дзе шукаць у правым дрэве і што шукаць у левым дрэве.
+backward.dependencies.usage.view.root.node.text:
+    text: Выкарыстанні вылучанага ў левым дрэве ў вылучаным у правым дрэве
+checking.class.files:
+    text: Проверка class-файлов
+cyclic.dependencies.progress.text:
+    text: Пабудова графа залежнасцей
+cyclic.dependencies.scope.dialog.module.button:
+    text: "{0} модуль ''{1}''  [&M]"
+cyclic.dependencies.scope.dialog.project.button:
+    text: '{0} весь проект [&P]'
+cyclic.dependencies.scope.dialog.title:
+    text: Укажыце вобласць {0}
+cyclic.dependencies.tree.cycle.node.text:
+    text: цыкл
+cyclic.dependencies.usage.view.initial.text:
+    text: Выберыце пакет для аналізу з дрэва злева
+cyclic.dependencies.usage.view.root.node.text:
+    text: "Выкарыстанні пакета ''{0}'' у пакеце ''{1}''"
+dependencies.libraries.node.text:
+    text: Бібліятэкі
+dependencies.tree.node.default.package.abbreviation:
+    text: <пакет па змаўчанні>
+dependency.configurable.allow.table.column1:
+    text: Дазволіць выкарыстанне
+dependency.configurable.allow.table.column2:
+    text: Толькі ў
+dependency.configurable.deny.table.column1:
+    text: Забараніць выкарыстанне
+dependency.configurable.deny.table.column2:
+    text: У
+dependency.configurable.display.name:
+    text: Праверка залежнасцей
+find.dependencies.progress.text:
+    text: 'Пошук ужыванняў: {0}'
+forward.dependencies.usage.view.initial.text:
+    text: Выберыце, дзе шукаць у левым дрэве і што шукаць у правым дрэве.
+forward.dependencies.usage.view.root.node.text:
+    text: Выкарыстанні вылучанага ў правым дрэве ў вылучаным у левым дрэве
+local.scopes.node.text:
+    text: Лакальныя вобласці
+mark.dependency.illegal.text:
+    text: Няправільная маска
+module.dependencies.cycle.node.text:
+    text: Цыкл {0}
+module.dependencies.scope.dialog.module.button:
+    text: "Праверце модуль ''{0}'' [&M]"
+module.dependencies.scope.dialog.project.button:
+    text: Праверце ўвесь праект [&P]
+module.dependencies.scope.dialog.title:
+    text: "Укажыце аб'ём аналізу"
+no.dependencies.found.message:
+    text: Залежнасці {0} для {1} не знойдзены.
+package.dependencies.build.process.title:
+    text: Сканаванне пакетаў
+package.dependencies.build.progress.text:
+    text: Сканаванне пакетаў
+package.dependencies.library.node.text:
+    text: Бібліятэчныя класы
+package.dependencies.node.items.count:
+    text: '{0, choice, 1#1 элемент|2#{0, number} элементов}'
+package.dependencies.on.toolwindow.title:
+    text: Залежнасці {0} ад {1}
+package.dependencies.production.node.text:
+    text: Вытворчыя класы
+package.dependencies.progress.text:
+    text: Аналіз залежнасцей пакетаў
+package.dependencies.progress.title:
+    text: Аналіз залежнасцей
+package.dependencies.test.node.text:
+    text: Тестовые классы
+package.dependencies.toolwindow.title:
+    text: Залежнасці {0}
+predefined.scope.problems.name:
+    text: Проблемы
+project.is.out.of.date:
+    text: Проект устарел
+scanning.scope.progress.title:
+    text: Сканіраванне вобласці...
+scope.directory:
+    text: "Дырэкторыя ''{0}''"
+scope.display.name.allow.scope:
+    text: "Дазволіць выкарыстанне вобласці ''{0}'' у вобласці ''{1}''"
+scope.display.name.deny.scope:
+    text: "Забараніць выкарыстанне вобласці ''{0}'' у вобласці ''{1}''"
+scope.module.list:
+    text: '{1, choice, 1#Модуль|2#Модулі} {0}'
+scope.option.analyze.injected.code:
+    text: Праверце ўбудаваны код [&J]
+scope.option.custom:
+    text: 'Вобласць карыстальніка [&C]:'
+scope.option.include.test.sources:
+    text: У тым ліку тэставы код [&T]
+scope.option.module:
+    text: "Модуль ''{0}''"
+scope.option.module.with.mnemonic:
+    text: "Модуль ''{0}'' [&M]"
+scope.option.uncommitted.files:
+    text: Незамацаваныя файлы [&U]
+scope.option.uncommitted.files.all.changelists.choice:
+    text: Усе
+scope.option.whole.project:
+    text: Увесь праект [&P]
+scope.package:
+    text: Пакет {0}
+scope.project:
+    text: "Проект ''{0}''"
+scope.selected.files:
+    text: Выбранные {0,choice,1#файл|2#файлы}
+scope.virtual.files:
+    text: Выбор
+skip.import.statements.checkbox.title:
+    text: Прапусціць аператары імпарту
+specify.analysis.scope:
+    text: Укажыце вобласць {0}
+status.bar.no.rule.violation.message:
+    text: Парушэнняў правілаў няма
+status.bar.rule.violation.message:
+    text: 'Былі парушаны наступныя правілы: {1}'
+unknown.node.text:
+    text: <невядома>
+update.module.tree.progress.text:
+    text: "Цыклы модуля апрацоўкі ''{0}''"
+update.module.tree.progress.title:
+    text: Абнаўленне дрэва модуляў
+usage.view.canceled:
+    text: Адменена

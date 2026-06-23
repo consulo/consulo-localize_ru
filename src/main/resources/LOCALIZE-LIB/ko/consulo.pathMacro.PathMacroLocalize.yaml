@@ -1,0 +1,72 @@
+label.macro.preview:
+    text: 매크로 미리보기
+label.macros:
+    text: 매크로
+macro.column.number:
+    text: 열 번호
+macro.file.dir.relative.to.root:
+    text: 파일이 속한 모듈 콘텐츠 루트에 상대적인 파일 디렉터리
+macro.file.dir.relative.to.root.fwd.slash:
+    text: 파일이 속한 모듈 콘텐츠 루트에 상대적인 파일 디렉터리(슬래시 포함)
+macro.file.dir.relative.to.sourcepath.root:
+    text: 파일이 속한 소스 경로 루트에 상대적인 파일 디렉터리
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: 파일이 속한 소스 경로 루트에 상대적인 파일 디렉터리(슬래시 포함)
+macro.file.directory:
+    text: 파일 디렉터리
+macro.file.directory.from.parent:
+    text: 매개변수로 전달된 이름의 상위 디렉터리에서 $FileDir$까지의 경로
+macro.file.directory.name:
+    text: 파일 디렉터리 이름
+macro.file.directory.relative:
+    text: 프로젝트 파일에 상대적인 파일 디렉터리
+macro.file.directory.relative.fwd.slash:
+    text: 프로젝트 파일에 상대적인 파일 디렉터리(슬래시 포함)
+macro.file.encoding:
+    text: 파일 인코딩
+macro.file.extension:
+    text: 파일 확장자
+macro.file.name.without.all.extensions:
+    text: 모든 확장자가 없는 파일 이름
+macro.file.parent.directory:
+    text: 파일 상위 디렉터리. 상위 디렉터리를 찾기 위해 선택적 매개변수(이름)를 취합니다
+macro.file.path:
+    text: 파일 경로
+macro.file.path.relative:
+    text: 프로젝트 파일에 상대적인 파일 경로
+macro.file.path.relative.fwd.slash:
+    text: 프로젝트 파일에 상대적인 파일 경로(슬래시 포함)
+macro.file.path.relative.to.root:
+    text: 파일이 속한 모듈 콘텐츠 루트에 상대적인 파일 경로
+macro.file.path.relative.to.root.fwd.slash:
+    text: 파일이 속한 모듈 콘텐츠 루트에 상대적인 파일 경로(슬래시 포함)
+macro.file.path.relative.to.sourcepath.root:
+    text: 파일이 속한 소스 경로 루트에 상대적인 파일 경로
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: 파일이 속한 소스 경로 루트에 상대적인 파일 경로(슬래시 포함)
+macro.line.number:
+    text: 줄 번호
+macro.module.file.directory:
+    text: 모듈 파일의 디렉터리
+macro.module.file.name:
+    text: 확장자가 없는 모듈 파일의 이름
+macro.module.file.path:
+    text: 모듈 파일의 경로
+macro.module.source.path:
+    text: 모듈 소스 경로
+macro.project.file.directory:
+    text: 프로젝트 파일의 디렉터리
+macro.project.file.name:
+    text: 확장자가 없는 프로젝트 파일의 이름
+macro.project.source.path:
+    text: 프로젝트 소스 경로
+macro.project.sourcepath:
+    text: 프로젝트 소스 경로
+macro.prompt:
+    text: 문자열 입력 대화상자 표시
+macro.sourcepath.entry:
+    text: 요소가 속한 소스 경로의 항목
+prompt.enter.parameters:
+    text: '매개변수 입력:'
+title.input:
+    text: 입력

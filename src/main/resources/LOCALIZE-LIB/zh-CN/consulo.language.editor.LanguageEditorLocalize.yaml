@@ -1,0 +1,42 @@
+inlay.hints.show.settings:
+    text: "禁用方法 ''{0}'' 的提示"
+settings.hints:
+    text: 嵌入提示
+settings.hints.group.annotations:
+    text: 注解
+settings.hints.group.annotations.description:
+    text: 显示代码中不存在的注解。
+settings.hints.group.code.author:
+    text: 代码作者
+settings.hints.group.code.author.description:
+    text: 根据 VCS 中的记录显示代码作者。<br><br>作者是最后编辑类、方法或函数的人。如果有来自不同作者的多个提交，拥有最多行的那个会被视为作者。
+settings.hints.group.lambdas.description:
+    text: 在 lambda 的作用域中显示隐式详细信息。
+settings.hints.group.method.chains:
+    text: 方法链
+settings.hints.group.other:
+    text: 其他
+settings.hints.group.parameters:
+    text: 形参名称
+settings.hints.group.parameters.description:
+    text: 通过在调用点处显示形参名称来帮助您传递正确的实参。
+settings.hints.group.types:
+    text: 类型
+settings.hints.group.types.description:
+    text: 在非显式的地方提供类型信息。
+settings.hints.group.url.path:
+    text: URL 路径
+settings.hints.group.url.path.description:
+    text: 允许您快速访问 URL 相关操作，例如，测试端点。
+settings.hints.group.values:
+    text: 值
+settings.hints.group.values.description:
+    text: 标识使用特殊值(例如，NULL)的位置。
+settings.hints.new.group.code.vision.description:
+    text: '提供派生自项目分析的信息: 层次结构详细信息、问题和用法。'
+settings.inlay.hints.panel.name:
+    text: 嵌入提示
+settings.inlay.java.exclude.list:
+    text: 排除列表…
+settings.inlay.parameter.hints.panel.name:
+    text: 形参提示

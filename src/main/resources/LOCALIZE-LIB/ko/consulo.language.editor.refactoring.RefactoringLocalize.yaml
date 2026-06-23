@@ -1,0 +1,192 @@
+0.already.contains.field.1:
+    text: '{0}에 이미 {1} 필드가 포함되어 있습니다'
+0.already.contains.inner.class.named.1:
+    text: '{0}에 {1}(이)라는 이름의 내부 클래스가 이미 포함되어 있습니다'
+0.is.not.initialized.in.declaration.such.fields.are.not.allowed.in.interfaces:
+    text: 선언에서 {0}이(가) 초기화되지 않았습니다. 이러한 필드는 인터페이스에서 허용되지 않습니다.
+0.is.not.static.it.cannot.be.moved.to.the.interface:
+    text: '{0}은(는) static이 아닙니다. 인터페이스로 이동할 수 없습니다'
+analyze.and.replace.usages:
+    text: 사용처 분석 및 바꾸기
+anonymous.class.text:
+    text: 익명 클래스
+cannot.introduce.variable.in.super.constructor.call:
+    text: 상위 생성자 호출에서 변수를 추출할 수 없습니다
+changeClassSignature.parameters.panel.border.title:
+    text: 매개 변수
+changeSignature.default.value.column:
+    text: '기본값:'
+changeSignature.no.return.type:
+    text: 반환 타입이 지정되지 않았습니다
+changeSignature.no.type.for.parameter:
+    text: "''{1}'' 매개변수에 대한 {0} 타입을 지정하세요"
+changeSignature.wrong.return.type:
+    text: "잘못된 반환 타입: ''{0}''"
+changeSignature.wrong.type.for.parameter:
+    text: "잘못된 타입: ''{1}'' 매개변수에 대한 ''{0}''"
+checkbox.safe.delete.with.usage.search:
+    text: 안전하게 삭제(사용처 검색 포함)(&F)
+class.0.already.exists:
+    text: '{0} 클래스가 이미 존재합니다'
+class.0.not.found:
+    text: '{0} 클래스를 찾을 수 없습니다.'
+class.has.been.successfully.created:
+    text: 클래스 {0}이(가) 성공적으로 만들어졌습니다
+copy.class.copy.0.1:
+    text: '{0} {1} 복사'
+copy.handler.copy.class:
+    text: 클래스 복사
+current.class:
+    text: 현재 클래스
+declare.static.checkbox:
+    text: static으로 선언(&S)
+destination.package:
+    text: '대상 패키지(&P):'
+edit.migration.entry.title:
+    text: 클래스/패키지 마이그레이션 설명 편집
+edit.migration.map.title:
+    text: 마이그레이션 맵 편집
+encapsulate.fields.field.column.name:
+    text: 필드
+encapsulate.fields.options.border.title:
+    text: 옵션
+entity.name.constructor.parameter:
+    text: 매개변수
+entity.name.inheritor:
+    text: 상속자
+entity.name.test:
+    text: 테스트
+entity.name.variable:
+    text: 변수
+extract.method.method.panel.border:
+    text: 메소드
+extract.subclass.command:
+    text: 하위 클래스 추출
+extractSuper.rename.original.class.to:
+    text: '원본 클래스 이름 바꾸기(&R):'
+factory.method.name.label:
+    text: '팩터리 메서드 이름:'
+ignore.button:
+    text: 무시
+information.title:
+    text: 정보
+inline.to.anonymous.border.title:
+    text: 인라인
+inner.class.0.is.already.defined.in.class.1:
+    text: |-
+        내부 클래 {0}이(가) {1} 클래스에 이미 정의되어 있습니다.
+        그래도 계속하시겠습니까?
+inner.class.exists:
+    text: "''{0}''이라는 이름의 내부 클래스가\n''{1}'' 클래스에 이미 정의되어 있습니다"
+interface.0.does.not.have.inheritors:
+    text: 인터페이스 {0}에 상속자가 없습니다
+interface.has.been.successfully.created:
+    text: 인터페이스 {0}이(가) 성공적으로 만들어졌습니다
+interface.member.dependency.required.by.interfaces:
+    text: '{0,choice,1#인터페이스|2#인터페이스}에서 필요'
+invalid.target.package.name.specified:
+    text: 잘못된 대상 패키지 이름이 지정되었습니다
+invocations.to.be.inlined:
+    text: 인라인될 호출 {0}
+javadoc.for.abstracts:
+    text: 추상에 대한 JavaDoc
+method.column:
+    text: 메소드
+method.is.not.a.constructor:
+    text: 메소드가 생성자가 아닙니다.
+migration.add.button:
+    text: 추가...
+migration.class:
+    text: 클래스
+migration.dialog.ok.button.text:
+    text: 실행
+migration.edit.button:
+    text: 편집(&E)...
+migration.entry.class:
+    text: 클래스
+migration.entry.new.name:
+    text: '새 이름:'
+migration.entry.old.name:
+    text: '이전 이름:'
+migration.entry.package:
+    text: 패키지
+migration.map.description.label:
+    text: '맵 설명:'
+migration.map.name.prompt:
+    text: '맵 이름:'
+migration.move.down.button:
+    text: 아래로 이동
+migration.move.up.button:
+    text: 위로 이동
+migration.new.name.column.header:
+    text: 새 이름
+migration.no.usages.found.in.the.project:
+    text: 프로젝트에서 사용처를 찾을 수 없음
+migration.old.name.column.header:
+    text: 이전 이름
+migration.package:
+    text: 패키지
+migration.remove.button:
+    text: 제거
+migration.title:
+    text: 마이그레이션
+migration.type.column.header:
+    text: 타입
+no.class.name.specified:
+    text: 지정된 클래스 이름이 없음
+no.parameter.name.specified:
+    text: 지정된 매개변수 이름이 없음
+occurences.string:
+    text: ({0,choice,1#1개 발생|2#{0,number}개 발생})
+ok.button:
+    text: 확인
+press.the.do.migrate.button:
+    text: |
+        검색 결과 패널 하단에 있는 "마이그레이션 실행" 버튼을 눌러
+        "{0}" 마이그레이션 맵을 사용하여 마이그레이션하세요
+process.duplicates.title:
+    text: 중복 처리
+process.methods.duplicates.title:
+    text: '{2} 메서드 중복 처리 ({1}개 중 {0}번째)'
+prompt.delete.and:
+    text: 및
+prompt.delete.directory:
+    text: '{0,choice,1#디렉터리|2#디렉터리}'
+prompt.delete.directory.paren:
+    text: ({0} {0,choice,1#디렉터리|2#디렉터리})
+prompt.delete.elements:
+    text: '{0}을(를) 삭제하시겠습니까?'
+prompt.delete.file:
+    text: '{0,choice,1#파일|2#파일}'
+prompt.delete.property:
+    text: '{0,choice,1#속성|2#속성}'
+prompt.delete.symlink:
+    text: '{0,choice,1#심볼릭 링크|2#심볼릭 링크}'
+references.in.code.to.elements.from.migration.map:
+    text: 마이그레이션 맵 "{0}"의 요소에 대한 코드 참조 {1}
+rename.inheritors.with.the.following.names.to:
+    text: '다음 이름의 상속자 이름을 다음으로 바꾸기:'
+rename.variables:
+    text: 변수 이름 바꾸기(&V)
+rename.variables.title:
+    text: 변수 이름 바꾸기
+rename.variables.with.the.following.names.to:
+    text: '다음 이름의 변수 이름을 다음으로 바꾸기:'
+replace.button:
+    text: 바꾸기
+replace.constructor.with.factory.target.fq.name:
+    text: '(정규화된 이름) 내:'
+search.for.usages.and.delete.elements:
+    text: 사용처를 검색하고 {0}을(를) 삭제하시겠습니까?
+superclass.cannot.be.extracted.from.an.enum:
+    text: 슈퍼 클래스는 enum에서 추출할 수 없습니다
+there.are.multiple.output.values.for.the.selected.code.fragment:
+    text: '선택한 코드 조각에 대한 여러 출력 값이 있습니다:'
+type.migration.exclude.action.text:
+    text: 제외(&E)
+type.migration.include.action.text:
+    text: 포함(&I)
+type.migration.migrate.button.text:
+    text: 이주(&M)
+use.super.references.prompt:
+    text: "이 단계에서 {0}은(는) {1}의 사용처를 분석하고 \n가능한 경우 {2}의 사용처로 바꿀 수 있습니다.\n계속하시겠습니까?"

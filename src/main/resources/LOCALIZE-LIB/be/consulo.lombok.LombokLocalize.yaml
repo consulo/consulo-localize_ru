@@ -1,0 +1,272 @@
+checkbox.settings.jps.fix:
+    text: "Аўтаматычна дадаваць опцыю кампіляцыі '-Djps.track.ap.dependencies=false' для старых (<1.18.16) версій Lombok"
+checkbox.settings.version.warning:
+    text: Уключыць папярэджанне пра версію для старых версій Lombok
+color.settings.clear:
+    text: Ачысціць
+color.settings.comment:
+    text: Каментарый
+color.settings.key:
+    text: Ключ
+color.settings.separator:
+    text: Падзельнік
+color.settings.value:
+    text: Значэнне
+config.warn.dependency.outdated.message:
+    text: <br>Падобна, у праекце "{0}" выкарыстоўваецца састарэлая версія Lombok.<br>Бягучая версія "{1}", але ўжо даступна версія "{2}"<br><a href="https://projectlombok.org/download">Магчыма, варта абнавіць?</a> <br>
+config.warn.dependency.outdated.title:
+    text: Магчыма, залежнасць Lombok састарэла
+configurable.name.lombok.config:
+    text: Канфігурацыя Lombok
+dialog.message.logger.field.s.not.private.sfinal.field.named.s.refactor.anyway:
+    text: "Поле логера: \"{0}\" не з'яўляецца private {1, choice, 0#|1#static }final полем з імем \"{2}\". Працягнуць рэфактарынг?"
+dialog.message.this.element.cannot.be.renamed:
+    text: Гэты элемент нельга перайменаваць.
+dialog.title.attention:
+    text: Увага!
+filetype.lombok.config.description:
+    text: Файл канфігурацыі Lombok
+inspection.deprecated.lombok.display.name:
+    text: Састарэлыя анатацыі Lombok
+inspection.lombok.display.name:
+    text: Анатацыі Lombok
+inspection.lombok.getter.may.be.used.display.class.message:
+    text: "Клас ''{0}'' можа выкарыстоўваць Lombok @Getter"
+inspection.lombok.getter.may.be.used.display.field.message:
+    text: "Поле ''{0}'' можа мець Lombok @Getter"
+inspection.lombok.getter.may.be.used.display.fix.family.name:
+    text: Замяніць яўны метад getter на Lombok @Getter
+inspection.lombok.getter.may.be.used.display.fix.name:
+    text: "Выкарыстоўваць Lombok @Getter для ''{0}''"
+inspection.lombok.getter.may.be.used.display.name:
+    text: Можна выкарыстоўваць Lombok @Getter
+inspection.lombok.group.name.redundant.definitions:
+    text: Лішнія вызначэнні
+inspection.lombok.group.name.redundant.modifiers:
+    text: Лішнія мадыфікатары
+inspection.lombok.setter.may.be.used.display.class.message:
+    text: "Клас ''{0}'' можа выкарыстоўваць Lombok @Setter"
+inspection.lombok.setter.may.be.used.display.field.message:
+    text: "Поле ''{0}'' можа мець Lombok @Setter"
+inspection.lombok.setter.may.be.used.display.fix.family.name:
+    text: Замяніць яўны метад setter на Lombok @Setter
+inspection.lombok.setter.may.be.used.display.fix.name:
+    text: "Выкарыстоўваць Lombok @Setter для ''{0}''"
+inspection.lombok.setter.may.be.used.display.name:
+    text: Можна выкарыстоўваць Lombok @Setter
+inspection.message.annotation.copy.duplicate:
+    text: "Анатацыя ''{0}'' ужо прысутнічае ў полі і будзе прадубліравана канфігурацыяй onX"
+inspection.message.annotation.not.lombok.copyable:
+    text: "Lombok не капіруе анатацыю ''{0}'' у канструктар"
+inspection.message.annotation.only.supported.on.class.or.enum.type:
+    text: '{0} падтрымліваецца толькі для класа або enum.'
+inspection.message.builder.default.requires.initializing.expression:
+    text: "@Builder.Default патрабуе выразу ініцыялізацыі (' = something;')."
+inspection.message.builder.default.singular.cannot.be.mixed:
+    text: '@Builder.Default і @Singular нельга выкарыстоўваць разам.'
+inspection.message.can.t.singularize.this.name:
+    text: "Немагчыма прывесці да адзіночнага ліку: ''{0}''; укажыце форму адзіночнага ліку яўна (напрыклад, @Singular(\"sheep\"))"
+inspection.message.cleanup.legal.only.on.local.variable.declaration.inside.block:
+    text: "@Cleanup: дапушчальна толькі для аб'яўлення лакальнай пераменнай унутры блока"
+inspection.message.cleanup.legal.only.on.local.variable.declarations:
+    text: "@Cleanup дапушчальна толькі для аб'яўленняў лакальных пераменных"
+inspection.message.cleanup.method.s.not.found.on.target.class:
+    text: "@Cleanup: метод ''{0}()'' не найден в целевом классе"
+inspection.message.cleanup.value.cannot.be.empty.string:
+    text: '@Cleanup: значэнне не можа быць пустым радком'
+inspection.message.cleanup.variable.declarations.need.to.be.initialized:
+    text: Пераменныя з @Cleanup павінны быць ініцыялізаваны.
+inspection.message.constructor.noargs.needs.to.be.forced:
+    text: Клас змяшчае абавязковыя палі, неабходна фарсіраваць NoArgsConstructor.
+inspection.message.constructor.with.d.parameters.already.defined:
+    text: "Канструктар з ''{0}'' параметрамі ўжо вызначаны"
+inspection.message.constructor.without.parameters.already.defined:
+    text: Конструктор без параметров уже определен
+inspection.message.custom.log.does.not.allow.topic:
+    text: '@CustomLog не падтрымлівае topic.'
+inspection.message.custom.log.not.configured.correctly:
+    text: '@CustomLog настроены няправільна; усталюйце log.custom.declaration у lombok.config.'
+inspection.message.custom.log.requires.topic:
+    text: '@CustomLog патрабуе ўказання topic.'
+inspection.message.data.only.supported.on.class.type:
+    text: '@Data падтрымліваецца толькі для тыпу класа'
+inspection.message.default.constructor.doesn.t.exist:
+    text: Канструктар па змаўчанні не існуе
+inspection.message.delegate.can.only.use.concrete.class.types:
+    text: "@Delegate можа выкарыстоўваць толькі канкрэтныя тыпы класаў, але не wildcards, масівы, пераменныя тыпу або прымітывы. ''{0}'' з'яўляецца няправільным тыпам класа"
+inspection.message.delegate.does.not.support.recursion.delegating:
+    text: "@Delegate не падтрымлівае рэкурсію (дэлегаванне тыпу, які сам мае члены @Delegate). Член ''{0}'' з'яўляецца @Delegate у тыпе ''{1}''"
+inspection.message.delegate.legal.only.on.instance.fields:
+    text: '@Delegate дапушчальны толькі для палёў экзэмпляра або метадаў экзэмпляра без аргументаў.'
+inspection.message.delegate.legal.only.on.no.argument.methods:
+    text: '@Delegate дапушчальны толькі для метадаў без аргументаў.'
+inspection.message.equals.and.hashcode.only.supported.on.class.type:
+    text: '@EqualsAndHashCode падтрымліваецца толькі для тыпу class'
+inspection.message.exclude.are.mutually.exclusive.exclude.parameter.will.be.ignored:
+    text: "Параметры 'exclude' і 'of' з'яўляюцца ўзаемавыключальнымі; параметр 'exclude' будзе праігнараваны"
+inspection.message.existing.builder.must.be.abstract.static.inner.class:
+    text: Існуючы Builder павінен быць абстрактным статычным унутраным класам.
+inspection.message.field.name.constants.inner.type:
+    text: Унутраны тып @FieldNameConstants ужо існуе, але asEnum={0} не адпавядае існуючаму тыпу
+inspection.message.field.name.constants.only.supported.on.class.enum.or.field.type:
+    text: '@FieldNameConstants падтрымліваецца толькі для тыпу class, enum, record або field'
+inspection.message.field.name.constants.only.supported.on.class.or.enum:
+    text: '@FieldNameConstants падтрымліваецца толькі для class, enum або record.'
+inspection.message.field.s.does.not.exist:
+    text: "Поле ''{0}'' не існуе."
+inspection.message.field.s.does.not.exist.exclude:
+    text: "Поле ''{0}'' не існуе"
+inspection.message.field.s.does.not.exist.field:
+    text: "Поле ''{0}'' не існуе"
+inspection.message.field.s.would.have.been.excluded.anyway:
+    text: "Поле ''{0}'' у любым выпадку было б выключана"
+inspection.message.generating.equals.hashcode.implementation:
+    text: "Генеруецца рэалізацыя equals/hashCode без выкліку суперкласа, хоць гэты клас не наследуецца ад java.lang.Object. Калі гэта зроблена наўмысна, дадайце '(callSuper=false)' да вашага тыпу."
+inspection.message.generating.equals.hashcode.with.super.call:
+    text: Генерацыя equals/hashCode з выклікам super для java.lang.Object бессэнсоўная.
+inspection.message.getter.only.supported.on.class.enum.or.field.type:
+    text: '@Getter падтрымліваецца толькі для тыпу class, enum або field'
+inspection.message.jacksonized.builder.on.abstract.classes:
+    text: "Builder'ы ў абстрактных класах не могуць быць @Jacksonized (builder ніколі не будзе выкарыстаны)."
+inspection.message.jacksonized.cannot.process.both.builder.superbuilder:
+    text: '@Jacksonized не можа апрацоўваць адначасова @Builder і @SuperBuilder у адным класе.'
+inspection.message.jacksonized.jsondeserialize.already.exists:
+    text: '@JsonDeserialize ужо існуе ў класе. Або выдаліце @JsonDeserialize, або выдаліце @Jacksonized і настройце Jackson уручную.'
+inspection.message.jacksonized.requires.builder.superbuilder:
+    text: '@Jacksonized патрабуе @Builder або @SuperBuilder для асэнсаванага выкарыстання.'
+inspection.message.lazy.does.not.work.with.access.level.none:
+    text: "'lazy' не работает с AccessLevel.NONE."
+inspection.message.lazy.not.supported.for.getter.on.type:
+    text: "'lazy' не падтрымліваецца для @Getter на ўзроўні тыпу"
+inspection.message.lazy.requires.field.initialization:
+    text: "'lazy' патрабуе ініцыялізацыі поля."
+inspection.message.lazy.requires.field.to.be.private.final:
+    text: "'lazy' патрабуе, каб поле было private і final"
+inspection.message.lombok.annotation.deprecated.not.supported:
+    text: "Анатацыя Lombok ''{0}'' састарэла і больш не падтрымліваецца плагінам Lombok. Выкарыстоўвайце ''{1}'' замест яе."
+inspection.message.lombok.annotations.are.not.allowed.on.builder.class:
+    text: Анатацыі Lombok не дазволены ў builder-класе.
+inspection.message.lombok.builder.needs.proper.constructor.for.this.class:
+    text: Lombok @Builder патрабуе прыдатны канструктар для гэтага класа
+inspection.message.lombok.does.not.know:
+    text: "Lombok не можа згенераваць builder-метады ў адзіночным ліку для тыпу ''{0}''"
+inspection.message.lombok.needs.default.constructor.in.base.class:
+    text: Lombok патрабуе канструктар па змаўчанні ў базавым класе
+inspection.message.method.s.matched.static.constructor.name.already.defined:
+    text: "Метад ''{0}'', які адпавядае staticConstructorName, ужо вызначаны"
+inspection.message.method.s.with.d.parameters.matched.static.constructor.name.already.defined:
+    text: "Метад ''{0}'' з ''{1}'' параметрамі, які адпавядае staticConstructorName, ужо вызначаны"
+inspection.message.not.allowed.in.old.style.for.loops:
+    text: "''{0}'' не дазволена выкарыстоўваць у цыклах for старога стылю"
+inspection.message.not.allowed.with.lambda.expressions:
+    text: "''{0}'' не дазволена выкарыстоўваць з лямбда-выразамі."
+inspection.message.not.compatible.with.array.initializer.expressions:
+    text: "''{0}'' несумяшчальны з ініцыялізатарамі масіваў. Выкарыстоўвайце поўную форму (new int[] '{' ... '}' замест проста '{' ... '}')"
+inspection.message.not.generated.s.method.with.same.name.already.exists:
+    text: "Не згенераваны ''{0}()'': Метад з такім імем ужо існуе"
+inspection.message.not.generated.s.method.with.similar.name.s.already.exists:
+    text: "Не згенераваны ''{0}()'': Метад з падобным імем ''{0}'' ужо існуе"
+inspection.message.not.generating.constant:
+    text: 'Канстанта для гэтага поля не генеруецца: Імя канстанты супала б з імем поля.'
+inspection.message.not.generating.equals.hashcode:
+    text: 'Не генеруюцца equals і hashCode: Метад з адным з гэтых імёнаў ужо існуе. (Будуць згенераваны або абодва метады, або ніводнага).'
+inspection.message.not.generating.field.s.field.with.same.name.already.exists:
+    text: "Поле ''{0}'' не генеруецца: Поле з такім імем ужо існуе"
+inspection.message.not.generating.getter.for.this.field:
+    text: 'Гетар для гэтага поля не генеруецца: Яно не адпавядае спісу прэфіксаў @Accessors.'
+inspection.message.not.generating.s.method.with.that.name.already.exists:
+    text: "Не згенераваны ''{0}()'': Метад з такім імем ужо існуе"
+inspection.message.not.generating.setter.for.this.field.it:
+    text: 'Сетар для гэтага поля не генеруецца: Яно не адпавядае спісу прэфіксаў @Accessors.'
+inspection.message.not.generating.setter.for.this.field.setters:
+    text: 'Сетар для гэтага поля не генеруецца: Сетары не могуць быць згенераваны для final палёў.'
+inspection.message.not.generating.wither:
+    text: "Wither для гэтага поля не генеруецца: Wither'ы не могуць быць згенераваны для static палёў."
+inspection.message.not.generating.wither.for.this.field.withers:
+    text: "Wither для гэтага поля не генеруецца: Wither'ы не могуць быць згенераваны для палёў, якія пачынаюцца з $."
+inspection.message.not.generating.wither.for.this.field.withers.cannot.be.generated:
+    text: "Wither для гэтага поля не генеруецца: Wither'ы не могуць быць згенераваны для ініцыялізаваных final палёў."
+inspection.message.obtain.via.is.static.true.not.valid.unless.method.has.been.set:
+    text: "@ObtainVia(isStatic = true) несапраўдны, калі не ўсталяваны 'method'."
+inspection.message.on.local.variable.requires.initializer.expression:
+    text: "''{0}'' для лакальнай пераменнай патрабуе выраз ініцыялізацыі"
+inspection.message.s.legal.only.on.classes.enums:
+    text: "''@{0}'' дапушчальны толькі для класаў і пералічэнняў"
+inspection.message.s.not.valid.identifier:
+    text: "''{0}'' не з'яўляецца дапушчальным ідэнтыфікатарам"
+inspection.message.slf4j.logger.defined.explicitly:
+    text: Slf4j Logger вызначаны яўна. Выкарыстоўвайце анатацыю Lombok @Slf4j.
+inspection.message.standardexception.accesslevel.none.not.valid:
+    text: AccessLevel.NONE тут недапушчальны
+inspection.message.standardexception.class.only.supported.on.class:
+    text: '@StandardException падтрымліваецца толькі для класа'
+inspection.message.standardexception.should.extend.throwable:
+    text: '@StandardException патрабуе наследавання ад тыпу Throwable'
+inspection.message.synchronized.field.is.not.static:
+    text: "Поле ''{0}'' не з'яўляецца static і не можа выкарыстоўвацца ў гэтым статычным метадзе"
+inspection.message.synchronized.legal.only.on.concrete.methods:
+    text: '@Synchronized дапушчальна толькі для канкрэтных метадаў.'
+inspection.message.synchronized.legal.only.on.methods.in.classes.enums:
+    text: '@Synchronized дапушчальна толькі для метадаў у класах і пералічэннях.'
+inspection.message.syntax.either.obtain.via.field:
+    text: 'Сінтаксіс: @ObtainVia(field = "fieldName") або @ObtainVia(method = "methodName").'
+inspection.message.to.string.only.supported.on.class.or.enum.type:
+    text: '@ToString падтрымліваецца толькі для класа або пералічэння'
+inspection.message.utility.class.already.marks.class.final:
+    text: '@UtilityClass уже помечает класс как final.'
+inspection.message.utility.class.already.marks.fields.static:
+    text: '@UtilityClass уже помечает поля как static.'
+inspection.message.utility.class.already.marks.inner.classes.static:
+    text: '@UtilityClass ужо пазначае ўнутраныя класы як static.'
+inspection.message.utility.class.already.marks.methods.static:
+    text: '@UtilityClass уже помечает методы как static.'
+inspection.message.utility.class.automatically.makes.class.static:
+    text: '@UtilityClass аўтаматычна робіць клас статычным, аднак гэты клас не можа быць static.'
+inspection.message.utility.class.cannot.be.placed:
+    text: '@UtilityClass нельга размяшчаць у лакальным класе метаду, ананімным унутраным класе або любым укладзеным у такі клас.'
+inspection.message.utility.class.only.supported.on.class:
+    text: '@UtilityClass падтрымліваецца толькі для класа (не можа быць інтэрфейсам, пералічэннем або анатацыяй).'
+inspection.message.utility.classes.cannot.have.declared.constructors:
+    text: "@UtilityClasses не могуць мець аб'яўленых канструктараў."
+inspection.message.val.already.marks.variables.final:
+    text: "'val' уже помечает переменные как final."
+inspection.message.val.works.only.on.local.variables:
+    text: "'val' працуе толькі з лакальнымі пераменнымі і цыкламі foreach"
+inspection.message.value.already.marks.class.final:
+    text: '@Value уже помечает класс как final.'
+inspection.message.value.already.marks.non.static.fields.final:
+    text: '@Value ужо пазначае нестатычныя палі як final.'
+inspection.message.value.already.marks.non.static.package.local.fields.private:
+    text: '@Value ужо пазначае нестатычныя package-local палі як private.'
+inspection.message.value.only.supported.on.class.type:
+    text: '@Value падтрымліваецца толькі для тыпу класа'
+inspection.message.var.works.only.on.local.variables.on.for.foreach.loops:
+    text: "'var' працуе толькі з лакальнымі пераменнымі і цыкламі for/foreach"
+inspection.message.wither.needs.constructor.for.all.fields.d.parameters:
+    text: "@Wither требует конструктор для всех полей (''{0}'' параметров)"
+inspection.message.wither.only.supported.on.class.or.field:
+    text: '@Wither падтрымліваецца толькі для класа або поля.'
+inspection.redundant.modifiers.utility.class.lombok.display.name:
+    text: Мадыфікатары @UtilityClass
+inspection.redundant.modifiers.val.lombok.display.name:
+    text: "Лішні мадыфікатар final перад 'val'"
+inspection.redundant.modifiers.value.lombok.display.name:
+    text: Мадыфікатары @Value
+inspection.springqualifiercopyable.lombok.display.name:
+    text: '@Qualifier не можа быць скапіраваны праз Lombok'
+intention.name.create.new.field.s:
+    text: "Создать новое поле ''{0}''"
+intention.name.replace.with.lombok:
+    text: Замяніць на Lombok
+notification.enable.annotation.processing:
+    text: Уключыць апрацоўку анатацый
+notification.group.lombok:
+    text: Праблема інтэграцыі Lombok
+popup.content.java.annotation.processing.has.been.enabled:
+    text: Апрацоўка Java-анатацый уключана
+replace.0.with.explicit.type.lombok:
+    text: "Замяніць ''{0}'' на яўны тып (Lombok)"
+replace.explicit.type.with.0.lombok:
+    text: "Замяніць яўны тып на ''{0}'' (Lombok)"
+replace.with.annotations.lombok:
+    text: Замяніць на анатацыі (Lombok)

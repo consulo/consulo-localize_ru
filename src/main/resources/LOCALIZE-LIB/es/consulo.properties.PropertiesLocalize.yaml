@@ -1,0 +1,82 @@
+action.I18nize.description:
+    text: Reemplazar el literal de cadena Java o el texto JSP con una expresión internacionalizada
+action.I18nize.text:
+    text: Internacionali_zar…
+create.property.quickfix.text:
+    text: Crear propiedad
+duplicate.property.diff.key.option:
+    text: Claves &duplicadas con valores diferentes
+duplicate.property.diff.key.problem.descriptor:
+    text: "Clave de propiedad duplicada ''{0}'' con diferentes valores #treeend :<br>"
+duplicate.property.diff.key.progress.indicator.text:
+    text: 'Procesando clave de propiedad duplicada: {0}'
+duplicate.property.display.name:
+    text: Propiedad duplicada
+duplicate.property.file.scope.option:
+    text: Archivo
+duplicate.property.key.error.message:
+    text: Clave de propiedad duplicada
+duplicate.property.key.option:
+    text: Claves duplicadas (&K)
+duplicate.property.key.problem.descriptor:
+    text: "Clave de propiedad duplicada ''{0}'' #treeend con valores:<br>"
+duplicate.property.key.progress.indicator.text:
+    text: 'Procesando clave de propiedad duplicada: {0}'
+duplicate.property.module.scope.option:
+    text: Módulo
+duplicate.property.project.scope.option:
+    text: Proyecto
+duplicate.property.value.option:
+    text: '&Valores duplicados'
+duplicate.property.value.problem.descriptor:
+    text: "Valor de propiedad duplicado ''{0}'' #treeend Con las claves:<br>"
+duplicate.property.value.progress.indicator.text:
+    text: 'Procesando valor de propiedad duplicado: {0}'
+no.property.selected.panel.label:
+    text: <html><body><center>Seleccione el nombre de la propiedad a la izquierda para editar sus valores</body></html>
+project.view.resource.bundle.tree.node.text:
+    text: "Paquete de recursos ''{0}''"
+properties.files.inspection.group.display.name:
+    text: Archivos de propiedades
+property.key.expected.parsing.error.message:
+    text: Se esperaba una clave de propiedad
+remove.property.intention.text:
+    text: Eliminar propiedad
+remove.property.quick.fix.name:
+    text: Eliminar propiedad
+rename.bundle.enter.new.resource.bundle.base.name.prompt.text:
+    text: Introduzca el nuevo nombre base del paquete de recursos
+rename.prefix.based.property.key.error.message:
+    text: "No se pudo cambiar el nombre de la clave de propiedad ''{1}'' basándose en el prefijo ''{0}'' por el nombre ''{2}'', cambie primero el prefijo"
+rename.resource.bundle.dialog.title:
+    text: Renombrar paquete de recursos
+searching.for.property.key.progress.text:
+    text: Buscando {0}
+select.property.separator.dialog.text:
+    text: Seleccionar separador
+select.property.separator.dialog.title:
+    text: Separador de claves de propiedad
+select.separator.action.with.empty.separator.name:
+    text: Otro…
+structure.view.group.by.prefixes.action.description:
+    text: Agrupa las propiedades por prefijos de clave comunes
+structure.view.group.by.prefixes.action.name:
+    text: Por prefijos
+trail.spaces.property.inspection.display.name:
+    text: Espacios finales en la propiedad
+unescape:
+    text: Desescapar
+unresolved.property.key:
+    text: No se puede resolver la clave de propiedad
+unused.message.format.parameter.display.name:
+    text: Parámetro de formato de mensaje faltante
+unused.message.format.parameter.problem.descriptor:
+    text: Uso del parámetro {0} sin usar el parámetro {1} en <code>#ref<code>
+unused.property.inspection.display.name:
+    text: Propiedad no utilizada
+unused.property.problem.descriptor.name:
+    text: Propiedad no utilizada
+unused.property.suppress.for.file:
+    text: Omitir para todo el archivo
+unused.property.suppress.for.property:
+    text: Suprimir para esta propiedad

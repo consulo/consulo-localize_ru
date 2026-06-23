@@ -1,0 +1,242 @@
+are.you.sure.you.want.to.delete.selected.file.confirmation.message:
+    text: 選択したファイルを削除してもよろしいですか ?
+are.you.sure.you.want.to.delete.selected.files.and.directories.confirmation.message:
+    text: 選択したファイルとディレクトリを削除してもよろしいですか ?
+are.you.sure.you.want.to.delete.selected.files.and.files.confirmation.message:
+    text: 選択したファイルとフォルダを削除してもよろしいですか ?
+are.you.sure.you.want.to.delete.selected.folder.confirmation.message:
+    text: 選択したフォルダを削除してもよろしいですか ?
+are.you.sure.you.want.to.delete.selected.folders.confirmation.message:
+    text: 選択したフォルダを削除してもよろしいですか ?
+autoscroll.from.source.action.description:
+    text: ソースから自動スクロール
+autoscroll.from.source.action.name:
+    text: ソースから自動スクロール
+autoscroll.to.source.action.description:
+    text: ソースに自動スクロール
+autoscroll.to.source.action.name:
+    text: ソースに自動スクロール
+button.add.class:
+    text: クラスの追加...
+button.add.pattern:
+    text: パターンの追加...
+button.remove:
+    text: 削除する
+cannot.save.files.dialog.message:
+    text: 'ファイル保存時に以下のエラーが発声しました:'
+cannot.save.files.dialog.title:
+    text: ファイルを保存出来ません
+choose.class:
+    text: クラスの選択
+choose.content.to.paste.dialog.title:
+    text: 貼り付ける内容の選択
+class.filter.editor.add.dialog.title:
+    text: 新しいフィルター
+class.filter.editor.choose.class.title:
+    text: クラスの選択
+collapsible.panel.collapsed.state.tooltip.text:
+    text: パネルの展開
+collapsible.panel.expanded.state.tooltip.text:
+    text: パネルの収縮
+color.panel.right.click.to.customize.tooltip.suffix:
+    text: 右クリックしてカスタマイズします
+color.panel.select.color.dialog.description:
+    text: カラーを選択する
+component.with.browse.button.browse.button.tooltip.text:
+    text: クリックまたは Alt-Enter を押す
+create.new.file.could.not.create.file.error.message:
+    text: "''{0}'' のファイルを作成できません"
+create.new.file.enter.new.file.name.prompt.text:
+    text: '新規ファイル名を入力してください:'
+create.new.file.file.name.cannot.be.empty.error.message:
+    text: ファイル名を入力して下さい
+create.new.folder.could.not.create.folder.error.message:
+    text: "フォルダ ''{0}'' を作成できませんでした"
+create.new.folder.enter.new.folder.name.prompt.text:
+    text: '新規フォルダ名を入力してください:'
+create.new.folder.folder.name.cannot.be.empty.error.message:
+    text: 空のフォルダ名は指定できません
+delete.dialog.title:
+    text: 削除
+error.dialog.title:
+    text: エラー
+file.cache.conflict.action:
+    text: ディスクから更新
+file.cache.conflict.dialog.title:
+    text: ファイル キャッシュの競合
+file.cache.conflict.diff.content.file.system.content:
+    text: ファイル システムの内容
+file.cache.conflict.diff.content.memory.content:
+    text: メモリの内容
+file.cache.conflict.for.file.dialog.title:
+    text: ファイル キャッシュの競合 {0}
+file.cache.conflict.keep.memory.changes.button:
+    text: メモリの変更を保持(&K)
+file.cache.conflict.load.fs.changes.button:
+    text: FS 変更をロード(&L)
+file.cache.conflict.message.text:
+    text: |-
+        メモリとディスク上の "{0}" が
+        変更されました。
+file.cache.conflict.save.changes.button:
+    text: 変更の保存
+file.cache.conflict.show.difference.button:
+    text: 差分の表示(&S)
+file.chooser.create.new.file.command.name:
+    text: 新規ファイルの作成
+file.chooser.create.new.folder.command.name:
+    text: 新規フォルダの作成
+file.chooser.default.title:
+    text: パスの選択
+file.chooser.save.dialog.confirmation:
+    text: |-
+        {0} は既に存在します
+        上書きしますか?
+file.chooser.save.dialog.default.title:
+    text: 保存ファイルを選択
+file.chooser.save.dialog.file.name:
+    text: 'ファイル名:'
+file.chooser.select.object.title:
+    text: '{0} の選択'
+file.is.read.only.message.text:
+    text: ファイル {0} は読み取り専用です。
+files.are.read.only.message.text:
+    text: ファイル {0} は読み取り専用です
+go.to.line.command.name:
+    text: 行に移動
+got.it:
+    text: とった！
+idea.blue.metal.theme.name:
+    text: 青にする
+insert.file.path.to.text.action.name:
+    text: パスの挿入
+invalid.user.input.dialog.title:
+    text: 入力エラー
+label.class.filter.editor.add.dialog.filter.pattern:
+    text: 'ファイルパターンを入力して下さい:'
+memory.usage.panel.run.garbage.collector.action.description:
+    text: ガベージ コレクタの実行
+memory.usage.panel.run.garbage.collector.action.name:
+    text: ガベージ コレクタの実行
+memory.usage.panel.statistics.message:
+    text: '合計ヒープ サイズ: {0}M   使用: {1}M'
+message.noMatchesFound:
+    text: 一致するものは見つかりません
+message.nothingToShow:
+    text: 表示するものがありません
+new.file.dialog.title:
+    text: 新規ファイル
+new.folder.dialog.title:
+    text: 新規フォルダ
+no.help.available.dialog.title:
+    text: ヘルプはありません
+order.entries.panel.export.column.name:
+    text: エクスポート
+popup.hints.panel.click.to.configure.highlighting.tooltip.text:
+    text: クリックしてこのファイルの強調表示を設定します
+position.panel.caret.count:
+    text: '{0}のキャレット'
+read.only.attr.panel.double.click.to.toggle.attr.tooltip.text:
+    text: ダブルクリックして読み取り専用属性を切り替えます
+replace.prompt.all.button:
+    text: すべて(&A)
+replace.prompt.all.files.action:
+    text: すべてのファイル(&A)
+replace.prompt.all.in.this.file.button:
+    text: このファイル内(&F)
+replace.prompt.replace.button:
+    text: 置換(&R)
+replace.prompt.skip.button:
+    text: スキップ(&S)
+search.popup.search.for.label:
+    text: '検索:'
+splitter.center.tooltip.text:
+    text: 中央
+splitter.down.tooltip.text:
+    text: 下へ
+splitter.left.tooltip.text:
+    text: 左
+splitter.right.tooltip.text:
+    text: 右
+splitter.up.tooltip.text:
+    text: 上へ
+status.bar.column.status.text:
+    text: 列
+status.bar.insert.status.text:
+    text: 挿入
+status.bar.overwrite.status.text:
+    text: 上書き
+tabbed.pane.close.all.action.name:
+    text: すべて閉じる
+tabbed.pane.close.all.but.this.action.name:
+    text: これ以外をすべて閉じる
+tabbed.pane.close.all.tabs.but.this.action.name:
+    text: これ以外のタブをすべて閉じる
+tabbed.pane.close.tab.action.name:
+    text: タブを閉じる
+tabbed.pane.pin.tab.action.description:
+    text: ツール ウィンドウ タブを固定する
+tabbed.pane.pin.tab.action.name:
+    text: タブを固定する
+there.is.no.help.for.this.dialog.error.message:
+    text: このダイアログのヘルプはありません
+tool.window.hide.action.name:
+    text: 非表示
+tool.window.move.to.action.group.name:
+    text: 移動
+tool.window.move.to.bottom.action.name:
+    text: 下
+tool.window.move.to.left.action.name:
+    text: 左
+tool.window.move.to.right.action.name:
+    text: 右
+tool.window.move.to.top.action.name:
+    text: 上
+tool.window.name.ant.build:
+    text: Ant ビルド
+tool.window.name.commander:
+    text: コマンダ
+tool.window.name.dependency.viewer:
+    text: 依存関係ビューア
+tool.window.name.documentation:
+    text: ドキュメンテーション
+tool.window.name.favorites:
+    text: お気に入り
+tool.window.name.find:
+    text: 検索
+tool.window.name.hierarchy:
+    text: 階層
+tool.window.name.inspection:
+    text: 検査
+tool.window.name.messages:
+    text: メッセージ
+tool.window.name.module.dependencies:
+    text: モジュール依存関係
+tool.window.name.module.duplicates:
+    text: 重複
+tool.window.name.preview:
+    text: プレビュー
+tool.window.name.project:
+    text: プロジェクト
+tool.window.name.run.dashboard:
+    text: ダッシュボードの実行
+tool.window.name.version.control:
+    text: バージョン管理
+tool.window.quick.access.message:
+    text: ツールウィンドウにアクセスするには、下のアイコンの上にカーソルを置きます
+tool.window.quick.access.title:
+    text: ツールWindowsクイックアクセス
+tree.view.collapse.all.action.name:
+    text: すべて収縮
+tree.view.expand.all.action.name:
+    text: すべて展開
+treenode.loading:
+    text: 読み込み中...
+welcome.screen.get.from.vcs.action.checkout.from.list.popup.title:
+    text: 次からチェックアウト
+welcome.screen.get.from.vcs.action.no.vcs.plugins.with.check.out.action.installed.action.name:
+    text: チェックアウト アクションを使用する VCS プラグインはインストールされていません。
+welcome.screen.plugins.panel.learn.more.tooltip.text:
+    text: 詳細...
+welcome.screen.recent.projects.action.no.recent.projects.to.display.action.name:
+    text: 最近開いたプロジェクトはありません。

@@ -1,0 +1,18 @@
+application.configuration.description:
+    text: Канфігурацыя прыкладання Java
+application.configuration.include.provided.scope:
+    text: Дадайце залежнасці з "прадастаўленай" вобласцю ў шлях да класаў
+application.configuration.main.class.label:
+    text: 'Асноўны клас [&C]:'
+application.configuration.name:
+    text: Ужыванне
+application.configuration.shorten.command.line.label:
+    text: 'Скароціце камандны радок [&L]:'
+application.configuration.use.classpath.and.jdk.of.module.label:
+    text: 'Выкарыстоўвайце шлях да класаў модуля [&O]:'
+jar.application.configuration.description:
+    text: Канфігурацыя для запуску файла JAR з дапамогай каманды «java -jar».
+jar.application.configuration.name:
+    text: Прыкладанне JAR
+jre.path.is.not.valid.jre.home.error.message:
+    text: "«{0}» не з'яўляецца сапраўдным хатнім каталогам JRE"

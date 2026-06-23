@@ -1,0 +1,266 @@
+action.download.and.install.plugin:
+    text: 下载并安装
+action.uninstall.plugin:
+    text: 卸载
+action.update.plugin:
+    text: 更新插件
+column.plugins.category:
+    text: 类别
+column.plugins.date:
+    text: 日期
+column.plugins.downloads:
+    text: 下载
+column.plugins.name:
+    text: 名称
+column.plugins.rate:
+    text: 评级
+diagnostic.error.report.additional.info.label:
+    text: '附加信息(当发生异常时,你的操作步骤是): (&A)'
+diagnostic.error.report.description:
+    text: 如果您想得知您所报告的问题的处理结果, 请填写您的JetBrains登录账号和密码.
+diagnostic.error.report.include.attachment.warning:
+    text: "报告将包括附件: ''<a>{0}</a>''."
+diagnostic.error.report.include.attachments.warning:
+    text: 报告将包括附件 <a>{0}</a>.
+diagnostic.error.report.login.name:
+    text: '用户名:'
+diagnostic.error.report.login.password:
+    text: '密码:'
+diagnostic.error.report.send:
+    text: 发送
+diagnostic.error.report.submit.error.anonymously:
+    text: <html>匿名提交或使用 <a>JetBrains Account</a></html>
+diagnostic.error.report.submit.report.as:
+    text: <html>以 <b>{0}</b> 身份提交或<a>更改帐户</a></html>
+diagnostic.out.of.memory.continue:
+    text: 继续
+diagnostic.out.of.memory.currentValue:
+    text: '(当前值: {0})'
+diagnostic.out.of.memory.currentValue.unknown:
+    text: 未知的
+diagnostic.out.of.memory.dump:
+    text: 内存转储
+diagnostic.out.of.memory.error:
+    text: <html>没有足够的内存来执行请求的操作。<br>请增加{0}设置并重庆IDE使更改生效。</html>
+diagnostic.out.of.memory.title:
+    text: 内存溢出
+diagnostic.out.of.memory.willBeSavedTo:
+    text: "<html><b>修改将被保存到</b> ''{0}''</html>"
+error.attachments.tab.title:
+    text: 附件
+error.cannot.create.temp.dir:
+    text: "无法创建临时目录 ''{0}''"
+error.comments.tab.title:
+    text: 注释
+error.details.tab.title:
+    text: 详情
+error.dialog.attachment.include.column.title:
+    text: 包含
+error.dialog.attachment.path.column.title:
+    text: 路径
+error.dialog.clear.action:
+    text: 清除(&C)
+error.dialog.clear.all.action:
+    text: 全部清除(&C)
+error.dialog.comment.prompt:
+    text: 填写当异常发生时您在做什么
+error.dialog.conflict.plugin.button.disable.all:
+    text: 全部禁用并重启
+error.dialog.conflict.plugin.button.enable.and.restart:
+    text: 启用并重启
+error.dialog.conflict.plugin.disable.all:
+    text: 无，禁用上面的所有插件
+error.dialog.conflict.plugin.header.each.other:
+    text: '<html><p style="line-height: 150%;">以下插件无法同时运行。选择要启用的插件:</p></html>'
+error.dialog.conflict.plugin.header.platform:
+    text: '以下插件{0,choice,1#|2#}与{0,choice,1#|2#} IDE 冲突:'
+error.dialog.conflict.plugin.title:
+    text: 冲突的插件
+error.dialog.disable.plugin.action.disable:
+    text: 禁用(&D)
+error.dialog.disable.plugin.action.disableAndRestart:
+    text: 禁用并重启(&R)
+error.dialog.disable.plugin.norestart:
+    text: 禁用插件后,请重启{0}应用插件配置的更改
+error.dialog.disable.plugin.prompt:
+    text: <html>确实要禁用插件<b>{0}</b>？<br/>该插件提供的功能将不再可用。</html>
+error.dialog.disable.plugin.prompt.dependants:
+    text: <html>您确实想要禁用插件<b>{0}</b>吗？<br/>该插件提供的功能将不再可用。</html>
+error.dialog.disable.plugin.restart:
+    text: '{0}重启后,插件配置更改才生效.'
+error.dialog.disable.plugin.title:
+    text: 禁用插件
+error.dialog.error.prompt:
+    text: 错误消息(
+error.dialog.filecontent.title:
+    text: 文件内容
+error.dialog.foreign.plugin.warning.text:
+    text: 该插件不是JetBrains的产品。请将问题报告给插件供应商。
+error.dialog.foreign.plugin.warning.text.vendor:
+    text: 该插件不是JetBrains的产品。请将问题报告给插件供应商：
+error.http.result.code:
+    text: 'HTTP 结果代码: {0}'
+error.itn.returns.wrong.data:
+    text: ITN 返回错误的数据
+error.list.back.action:
+    text: 后退
+error.list.clear.action:
+    text: 清理并关闭
+error.list.close.action:
+    text: 关闭
+error.list.disable.plugin:
+    text: 禁用插件…
+error.list.disable.plugin.0:
+    text: 禁用插件 {0}
+error.list.forward.action:
+    text: 前进
+error.list.message.blame.core:
+    text: <b>{0} 核心</b>中存在异常。
+error.list.message.blame.plugin:
+    text: 插件 <b>{0}</b> 中存在异常。
+error.list.message.blame.unknown.plugin:
+    text: <b>未知插件</b>中存在异常。
+error.list.message.duplicate:
+    text: '[重复]'
+error.list.message.info:
+    text: '{0}，发生 {1,choice,1#1 次|2#{1} 次}'
+error.list.message.submission.failed:
+    text: 提交失败
+error.list.message.submitted:
+    text: 已提交
+error.list.message.submitted.as.link:
+    text: 已作为<a href="{0}">{1}</a>提交
+error.list.message.unread:
+    text: 未读取的.
+error.list.of.plugins.was.not.loaded:
+    text: |-
+        无法从服务器更新插件列表： {0}
+
+        可能是下面的错误造成的：
+        {1}
+error.list.popup.immediately.checkbox:
+    text: 下次发生内部错误时,立即弹出这个窗口
+error.list.restart.action:
+    text: 重启
+error.list.shutdown.action:
+    text: 关闭
+error.list.submit.action:
+    text: 提交
+error.monitor.too.many.errors:
+    text: IDE 内部错误过多。监控已停止。
+error.new.notification.link:
+    text: 查看详细信息并提交报告
+error.new.notification.title:
+    text: 发生了 IDE 错误
+error.notification.empty.text:
+    text: 没有IDE致命错误
+error.notification.tooltip:
+    text: <html><body>发生 IDE 内部错误<br>查看详细信息并提交报告</body></html>
+error.plugin.download.failed:
+    text: 插件下载失败
+error.report.authentication.failed:
+    text: JetBrains账户认证失败.你想再试一次吗?
+error.report.exception.title:
+    text: 错误报告
+error.report.failure.message:
+    text: 错误报告发送失败。
+error.report.gratitude:
+    text: 感谢您的反馈!
+error.report.new.eap.build.message:
+    text: 新构建{0}是可用的.
+error.report.posting.failed:
+    text: 报告发布失败:{0}.你想再试一次吗?
+error.report.sending.failure:
+    text: 发送失败了。你想再试一次吗？
+error.report.title:
+    text: 错误报告
+log.console.filter.show.all:
+    text: 所有
+log.console.filter.show.errors:
+    text: 错误
+log.console.filter.show.errors.and.warnings:
+    text: 警告
+log.console.filter.show.errors.warnings.and.infos:
+    text: 信息
+log.monitor.add.button:
+    text: 添加
+log.monitor.edit.aliases.location:
+    text: '日志文件位置(&L):'
+log.monitor.edit.aliases.name:
+    text: '别名(&A):'
+log.monitor.edit.aliases.show.all.checkbox.title:
+    text: 显示可由模式覆盖的所有文件(&S)
+log.monitor.edit.aliases.title:
+    text: 编辑日志文件别名
+log.monitor.group:
+    text: 将显示在控制台中的日志文件
+log.monitor.is.active.column:
+    text: 处于活动状态
+log.monitor.is.skipped.column:
+    text: 跳过内容
+log.monitor.log.file.column:
+    text: 日志文件条目
+log.monitor.no.files:
+    text: 未附加任何日志文件
+log.monitor.remove.button:
+    text: 移除(&R)
+plugin.info.unknown:
+    text: 未知
+plugin.manager.incompatible.deps.tooltip:
+    text: 必须的 {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} 未启用
+plugin.manager.incompatible.not.loaded.tooltip:
+    text: 该插件未加载
+plugin.status.not.specified:
+    text: (未指定)
+progress.connecting.to.plugin.manager:
+    text: 正在连接到{0}
+progress.download.plugins:
+    text: 正在下载插件
+progress.downloading.list.of.plugins:
+    text: 正在从{0}下载插件列表
+progress.downloading.plugin:
+    text: "正在下载插件''{0}''"
+prompt.download.and.install.plugin:
+    text: "你想下载并安装插件 ''{0}''?"
+prompt.install.several.plugins:
+    text: 安装或更新{0}插件?
+prompt.uninstall.plugin:
+    text: "确定要卸载插件''{0}''{1, choice, 0#|1# 更新}吗?"
+prompt.uninstall.several.plugins:
+    text: 确定要卸载这{0}个插件吗?
+prompt.update.plugin:
+    text: "你想更新插件 ''{0}''?"
+several.plugins.depend.on.0.continue.to.remove:
+    text: 几个插件依赖于{0}。继续删除吗？
+title.plugin.uninstall:
+    text: 卸载插件{0, choice, 0#|1# 更新}?
+title.plugins:
+    text: 插件
+title.plugins.changed:
+    text: 插件已改变
+title.submitting.error.report:
+    text: 提交错误报告
+unknown.error:
+    text: 未知错误
+virus.scanning.dont.show.again:
+    text: 不再显示
+virus.scanning.dont.show.again.this.project:
+    text: 不再为此项目显示
+virus.scanning.fix.automatically:
+    text: 自动配置
+virus.scanning.fix.explanation:
+    text: <html> 为了提高性能，{0} 可以更新 Windows Defender 配置以从实时扫描中排除项目目录。<br> 这将需要运行具有管理员权限的命令。<br> 或者，您可以配置 Windows Defender 根据 <a href="{1}">说明</a> 手动操作。
+virus.scanning.fix.failed:
+    text: 无法更新 Windows Defender 配置：{0}
+virus.scanning.fix.manually:
+    text: 手动配置
+virus.scanning.fix.success.notification:
+    text: Windows Defender 配置已更新
+virus.scanning.fix.title:
+    text: 配置 Windows Defender
+virus.scanning.warn.message:
+    text: Windows Defender 可能会影响您的构建性能。{0} 检查了以下目录：<br>{1}
+whatsnew.action.custom.description:
+    text: 了解 {0} 最新版本中的新功能和改进
+whatsnew.action.custom.text:
+    text: '{0} 有什么更新'

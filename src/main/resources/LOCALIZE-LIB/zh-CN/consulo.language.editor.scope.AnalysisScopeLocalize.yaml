@@ -1,0 +1,182 @@
+action.analysis.noun:
+    text: 分析
+action.analyze.verb:
+    text: 分析
+action.analyzing.cyclic.dependencies.in.scope:
+    text: '{0}的循环依赖'
+action.backward.dependency.analysis:
+    text: 分析反向依赖
+action.close.dependency.description:
+    text: 关闭依赖视图
+action.cyclic.dependency.title:
+    text: 分析循环依赖
+action.edit.rules:
+    text: 编辑规则
+action.edit.rules.description:
+    text: 编辑依赖规则
+action.flatten.packages:
+    text: 扁平化包
+action.forward.dependency.analysis:
+    text: 依赖性分析
+action.group.by.scope.type:
+    text: 按作用域类型分组
+action.group.by.scope.type.description:
+    text: 按作用域类型分组(生产、测试、库)
+action.module.dependencies.direction:
+    text: 依赖方向
+action.rerun.dependency:
+    text: 重新运行依赖关系分析
+action.select.in.left.tree:
+    text: 在左侧的树中选择
+action.select.in.left.tree.description:
+    text: 在左侧的树中选择(浏览依赖)
+action.show.files:
+    text: 显示文件
+action.show.files.description:
+    text: 显示/隐藏文件
+action.show.illegals.only:
+    text: 仅显示非法移民
+action.show.illegals.only.description:
+    text: 只显示文件非法依赖
+action.show.modules:
+    text: 显示模块
+action.show.modules.description:
+    text: 显示/隐藏模块
+analyzing.project:
+    text: 正在分析项目
+backward.dependencies.progress.text:
+    text: 分析反向依赖
+backward.dependencies.toolwindow.title:
+    text: '{0}的反向依赖'
+backward.dependencies.usage.view.initial.text:
+    text: 选择在右侧树中搜索的位置以及在左侧树中搜索的内容。
+backward.dependencies.usage.view.root.node.text:
+    text: 左侧树作用域选区在右侧树作用域选区中的用法
+checking.class.files:
+    text: 正在检查类文件
+cyclic.dependencies.progress.text:
+    text: 正在构建依赖关系图
+cyclic.dependencies.scope.dialog.module.button:
+    text: "{0}模块''{1}'' (&M)"
+cyclic.dependencies.scope.dialog.project.button:
+    text: '{0}整个项目(&P)'
+cyclic.dependencies.scope.dialog.title:
+    text: 指定{0}作用域
+cyclic.dependencies.tree.cycle.node.text:
+    text: 循环
+cyclic.dependencies.usage.view.initial.text:
+    text: 从左边树选择分析的软件包
+cyclic.dependencies.usage.view.root.node.text:
+    text: "在软件包 ''{1}'' 中使用软件包 ''{0}''"
+dependencies.libraries.node.text:
+    text: 库
+dependencies.tree.node.default.package.abbreviation:
+    text: <默认软件包>
+dependency.configurable.allow.table.column1:
+    text: 允许使用
+dependency.configurable.allow.table.column2:
+    text: 仅位于
+dependency.configurable.deny.table.column1:
+    text: 拒绝使用
+dependency.configurable.deny.table.column2:
+    text: 位置
+dependency.configurable.display.name:
+    text: 依赖验证
+find.dependencies.progress.text:
+    text: '正在搜索用法: {0}'
+forward.dependencies.usage.view.initial.text:
+    text: 在左侧树中选择搜索位置，在右侧树中选择搜索内容。
+forward.dependencies.usage.view.root.node.text:
+    text: 右侧树作用域选区在左侧树作用域选区中的用法
+local.scopes.node.text:
+    text: 局部作用域
+mark.dependency.illegal.text:
+    text: 非法掩码
+module.dependencies.cycle.node.text:
+    text: 循环{0}
+module.dependencies.scope.dialog.module.button:
+    text: "检查模块''{0}'' (&M)"
+module.dependencies.scope.dialog.project.button:
+    text: 检查整个项目(&P)
+module.dependencies.scope.dialog.title:
+    text: 指定分析作用域
+no.dependencies.found.message:
+    text: 在 {1} 上找不到 {0} 的依赖项。
+package.dependencies.build.process.title:
+    text: 正在扫描软件包
+package.dependencies.build.progress.text:
+    text: 正在扫描软件包
+package.dependencies.library.node.text:
+    text: 库类
+package.dependencies.node.items.count:
+    text: '{0, choice, 1#1 条|2#{0, number} 条}'
+package.dependencies.on.toolwindow.title:
+    text: 在{1}上{0}的依赖
+package.dependencies.production.node.text:
+    text: 生产类
+package.dependencies.progress.text:
+    text: 正在分析软件包依赖项
+package.dependencies.progress.title:
+    text: 正在分析依赖关系
+package.dependencies.test.node.text:
+    text: 测试类
+package.dependencies.toolwindow.title:
+    text: '{0}的依赖'
+predefined.scope.problems.name:
+    text: 问题
+project.is.out.of.date:
+    text: 项目已过期
+recompile.confirmation.message:
+    text: |-
+        工程类文件是过期的.你要在DSM分析之前继续编译一个项目?
+        没有编译可能导致不完全或不正确的数据.
+scanning.scope.progress.title:
+    text: 正在扫描作用域…
+scope.directory:
+    text: "目录 ''{0}''"
+scope.display.name.allow.scope:
+    text: "在作用域''{1}''启用作用域''{0}''的使用"
+scope.display.name.deny.scope:
+    text: "在作用域 ''{1}'' 拒绝作用域 ''{0}'' 的用法"
+scope.file:
+    text: 文件
+scope.module.list:
+    text: '{1, choice, 1#模块|2#模块} {0}'
+scope.option.analyze.injected.code:
+    text: 检查注入的代码(&J)
+scope.option.custom:
+    text: '自定义作用域(&C):'
+scope.option.include.test.sources:
+    text: 包含测试代码(&T)
+scope.option.module:
+    text: "模块 ''{0}''"
+scope.option.module.with.mnemonic:
+    text: "模块''{0}'' (&M)"
+scope.option.uncommitted.files:
+    text: 未提交的文件(&U)
+scope.option.uncommitted.files.all.changelists.choice:
+    text: 所有
+scope.option.whole.project:
+    text: 整个项目(&P)
+scope.package:
+    text: 软件包 {0}
+scope.project:
+    text: "项目 ''{0}''"
+scope.selected.files:
+    text: 已选择的{0,choice,1#个文件|2#个文件}
+scope.virtual.files:
+    text: 选择
+skip.import.statements.checkbox.title:
+    text: 跳过 import 语句
+status.bar.no.rule.violation.message:
+    text: 没有违反规则
+status.bar.rule.violation.message:
+    text: '违反以下规则{0, choice, 1#|2#}: {1}'
+unknown.node.text:
+    text: <未知>
+update.module.tree.progress.text:
+    text: "处理模块''{0}''循环"
+update.module.tree.progress.title:
+    text: 更新模块树
+usage.view.canceled:
+    text: 已取消

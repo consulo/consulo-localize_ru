@@ -1,0 +1,340 @@
+action.compiler.properties.text:
+    text: 編譯器屬性
+action.description.package.file:
+    text: 更新對應構件中的檔案
+action.make.selected.modules.text:
+    text: 構建所選模組(_M)
+action.name.exclude.from.validation:
+    text: 從驗證中排除
+action.name.package.file:
+    text: 包檔案
+action.name.package.files:
+    text: 包檔案
+actions.exclude.from.compile.text:
+    text: 從編譯中排除
+artifact.type.plain:
+    text: 其他
+artifacts.menu.item.all:
+    text: 所有工件
+artifacts.menu.item.build:
+    text: 建置
+artifacts.menu.item.clean:
+    text: 清理
+artifacts.menu.item.edit:
+    text: 編輯…
+artifacts.menu.item.rebuild:
+    text: 重新建置
+bad.resource.patterns.dialog.title:
+    text: 異常資源模式
+build.artifacts.before.run.description.empty:
+    text: 構建構件
+build.artifacts.before.run.description.multiple:
+    text: 構建 {0} 構件
+build.artifacts.before.run.description.single:
+    text: "構建 ''{0}'' 構件"
+build.artifacts.before.run.selector.title:
+    text: 選取構件
+chooser.description.select.output.directory.for.0.artifact:
+    text: "為 ''{0}'' 構件選取輸出目錄"
+classes.up.to.date.check:
+    text: 類最新狀態檢查
+command.name.package.file:
+    text: 包檔案
+compile.progress.title:
+    text: 編譯進度
+compiler.configurable.display.name:
+    text: 編譯器
+compiler.content.name.compile:
+    text: 重建
+compiler.content.name.make:
+    text: 構建
+compiler.error.exception:
+    text: '錯誤: {0}'
+compiler.error.failed.to.delete:
+    text: 刪除 {0} 失敗
+compiler.results.export.text.prefix:
+    text: 行({0})
+compiler.running.dialog.title:
+    text: 編譯器執行中
+dialog.message.output.dir.artifact:
+    text: "''{0}'' 工件(''{1}'')"
+dialog.message.output.dir.contains.source.roots:
+    text: "''{1}'' 工件的輸出目錄 ''{0}'' 包含專案的源根。是否繼續並將其清除?"
+dialog.message.output.dirs.contain.source.roots:
+    text: |-
+        以下工件的輸出目錄包含源根:
+        {0}是否繼續並清除這些目錄?
+dialog.title.choose.artifacts:
+    text: 選取構件
+dialog.title.output.directory.for.artifact:
+    text: 構件輸出目錄
+element.type.name.artifact:
+    text: 構件
+element.type.name.directory:
+    text: 目錄
+element.type.name.library.files:
+    text: 庫檔案
+element.type.name.module.output:
+    text: 模組輸出
+element.type.name.module.test.output:
+    text: 模組測試輸出
+error.ant.files.backup.failed:
+    text: 無法備份檔案 {0}
+error.ant.files.generate.failed:
+    text: '無法產生 Ant 構建指令碼: {0}'
+error.bad.class.file.format:
+    text: |-
+        錯誤的類別檔案格式:
+        {0}
+error.bad.resource.patterns:
+    text: 下面的資源模式異常的:{0}
+error.chunk.modules.must.have.same.jdk:
+    text: |-
+        以下模組必須指定相同的 JDK，因為它們之間的循環依賴關係
+        {0}
+        請更新模組設定
+error.chunk.modules.must.have.same.language.level:
+    text: |-
+        以下模組必須具有相同的語言級別，因為它們之間的循環依賴關係:
+        {0}
+        請更新模組設定
+error.compiler.configurable.malformed.patterns:
+    text: |-
+        以下資源模式格式錯誤：
+        {0}
+error.compiler.internal.error:
+    text: 編譯器內部錯誤。進程以結束代碼 {0} 終止
+error.copying:
+    text: |-
+        複製錯誤 {0}
+        到 {1}:
+        {2}
+error.failed.to.create.directory:
+    text: 建立目錄失敗 {0}
+error.javac.out.of.memory:
+    text: 記憶體不足。在 Project Properties|Compiler （項目屬性|編譯器）設定中增加最大堆大小。
+error.jdk.not.specified:
+    text: |-
+        無法啟動編譯器：沒有為 {0,choice, 1#module|2#modules
+        } {1} 模組指定 SDK。
+        在「項目結構」對話方塊中指定 SDK。
+error.output.not.specified:
+    text: |-
+        無法啟動編譯器：沒有為 {0,choice, 1#module|2#modules
+        } {1} 模組指定輸出路徑。
+        在設定項目中指定輸出路徑。
+exclude.from.compile.table.path.column.name:
+    text: 路徑
+exclude.from.compile.table.recursively.column.name:
+    text: 遞歸
+file.copying.compiler.description:
+    text: 檔案複製編譯
+generate.ant.build.custom.compiler.conflict.message:
+    text: <html>下面列出的區塊使用多個自訂編譯器。<br/>你需要為它們手動解決編譯器<br/>衝突。編譯工作還將包含<br/>失敗工作。<ul>{0}</ul></html>
+generate.ant.build.custom.compiler.conflict.title:
+    text: 衝突的自訂編譯器區塊
+generate.ant.build.dialog.cyclic.modules.table.description:
+    text: |-
+        某些模組具有循環依賴性。
+        為了產生 ant 構建指令碼，請為每個依賴循環選取 "主"(代表)模組。
+        循環中所有模組的源代碼將被編譯到主模組的輸出資料夾中;
+        循環中的所有模組將使用分配給主模組的 JDK;
+        任何建立的 JAR 檔案將以主模組的名稱命名。
+generate.ant.build.dialog.cyclic.modules.table.name.column.header:
+    text: 主模組
+generate.ant.build.dialog.cyclic.modules.table.number.column.header:
+    text: 循環
+generate.ant.build.dialog.cyclic.modules.table.title:
+    text: 循環模組依賴
+generated.ant.build.bootclasspath.comment:
+    text: 路徑被列入編譯 bootclasspath
+generated.ant.build.build.all.modules.target.name:
+    text: 構建所有模組
+generated.ant.build.build.all.target.name:
+    text: 構建所有
+generated.ant.build.building.concrete.module.section.title:
+    text: 模組 {0}
+generated.ant.build.clean.all.task.comment:
+    text: 清理所有
+generated.ant.build.cleanup.module.task.comment:
+    text: 清理模組
+generated.ant.build.compile.modules.fail.custom.compilers:
+    text: 自訂編譯器之間的衝突要手動解決。
+generated.ant.build.compile.modules.main.target.comment:
+    text: 編輯 {0,choice, 1#模組|2#模組} {1}
+generated.ant.build.compile.modules.production.classes.target.comment:
+    text: 編譯 {0,choice, 1#模組|2#模組} {1}; 生產類別
+generated.ant.build.compile.modules.tests.target.comment:
+    text: 編譯 {0,choice, 1#模組|2#模組} {1}; 測試類別
+generated.ant.build.compiler.options.comment:
+    text: 編譯器選項
+generated.ant.build.custom.compilers.comment:
+    text: 註冊自訂的編譯器工作定義
+generated.ant.build.disable.tests.property.comment:
+    text: 如果不需要測試編譯，請取消註解以下屬性
+generated.ant.build.global.libraries.comment:
+    text: 全局庫
+generated.ant.build.initialization.section.comment:
+    text: 在這個目標中執行任何構建初始化
+generated.ant.build.initialization.section.title:
+    text: 構建初始化
+generated.ant.build.jdk.definitions.comment:
+    text: JDK 定義
+generated.ant.build.modules.section.title:
+    text: 模組
+generated.ant.build.project.libraries.comment:
+    text: 項目庫
+java.compiler.description:
+    text: Java 編譯器
+java.compiler.option.additional.command.line.parameters:
+    text: '附加命令列參數:'
+java.compiler.option.generate.debugging.info:
+    text: 產生診斷訊息
+java.compiler.option.generate.no.warnings:
+    text: 不產生警告
+java.compiler.option.report.deprecated:
+    text: 報告使用已棄用的功能
+javac.error.jdk.home.missing:
+    text: "找不到 JDK ''{0}'' 的主目錄 ''{1}''。\n更新 JDK 設定。"
+javac.error.unknown.jdk.version:
+    text: |-
+        無法確定 JDK {0} 的版本。
+        更新 JDK 設定。
+javac.option.max.heap.size:
+    text: '最大堆大小 (MB):'
+javac.options.group.title:
+    text: Javac 選項
+label.generate.ant.script.backup.files:
+    text: 備份以前產生的檔案
+label.generate.ant.script.enable.ui.forms.compilation:
+    text: 啟用 UI 形式編譯 (需要從 IDEA 分配 "javac2" Ant 工作)
+label.generate.ant.script.filename:
+    text: '輸出檔案名:'
+label.generate.ant.script.generate.idea.home:
+    text: 為 idea.home 屬性使用目前的 IDEA 實例
+label.generate.ant.script.generate.multiple.files:
+    text: 產生多個檔案 Ant 構建 (需要 Ant 1.6或更高版本來執行)
+label.generate.ant.script.inline.runtime.classpaths:
+    text: 內聯執行時類別路徑
+label.generate.ant.script.overwrite.files:
+    text: 覆寫以前產生的檔案
+label.generate.ant.script.single.file:
+    text: 產生單檔案 Ant 構建
+label.generate.ant.script.use.jdk.definitions:
+    text: 使用項目檔案定義的 JDK
+label.option.autoshow.first.error:
+    text: 自動顯示編輯器中的第一個錯誤(&e)
+label.option.clear.output.directory.on.rebuild:
+    text: 在重建時清除輸出目錄(&l)
+label.option.compile.in.background:
+    text: 在後台編譯(&o)
+label.option.resource.patterns.text:
+    text: 資源模式：
+label.text.class.path:
+    text: 類別路徑:(&P)
+label.text.main.class:
+    text: 主要類別:(&M)
+mesage.text.deployment.descriptor.file.not.exist:
+    text: "部署描述符檔案 ''{0}'' 不存在"
+message.ant.files.generated.ok:
+    text: |-
+        Ant 構建檔案成功產生:
+        {0}
+message.category.error:
+    text: 錯誤
+message.category.information:
+    text: 訊息
+message.category.statistics:
+    text: 統計
+message.category.warning:
+    text: 警告
+message.resource.patterns.format.changed:
+    text: "資源範本的格式發生了變化。\n{0} 無法轉換現有的規則運算式模式:\n{1}\n請輸入新格式的模式。\n每個資源的模式可能包含以下萬用字元：\n?- 一個字元\n* - 0個或更多字元\n!-  否定模式（僅在模式開始處允許）\nUse ; (分號) 來分隔資源模式;\n使用反斜槓(\"\\\")來轉義 \"!\" 字元。\n您可能還需要修改範本項目設定。\n按 ''{2}'' 接受輸入的模式，''{3}'' 以新格式載入預設模式。"
+message.text.compiling.item.deployment.descriptor.could.not.be.found:
+    text: "編譯 {0}：無法找到部署項目 ''{1}''"
+message.text.compiling.module.message:
+    text: '編譯 {0}: {1}'
+message.text.deployment.description.invalid.file:
+    text: 無效檔案
+message.text.destination.is.directory:
+    text: '{0} 目標是一個目錄。'
+message.text.error.copying.file.to.file:
+    text: "複製 ''{0}'' 到 ''{1}'' 錯誤。"
+message.text.xml.file.invalid:
+    text: "XML 檔案 ''{0}'' 無效"
+no.excludes:
+    text: 不排除
+no.validators:
+    text: 沒有驗證可用
+node.text.0.directory.content:
+    text: "''{0}'' 目錄內容"
+node.text.0.with.dependencies:
+    text: "''{0}'' 有依賴關係"
+option.use.compiler.text:
+    text: '使用編譯器:'
+pattern.conversion.dialog.title:
+    text: 模式轉換
+popup.title.chosen.artifact.action:
+    text: '{0,choice,0#{0} 工件|1#|2# {0} 工件}的操作'
+progress.checking.dependencies:
+    text: 檢查依賴...
+progress.compiling.class:
+    text: 編譯 {0}...
+progress.executing.postcompile.tasks:
+    text: 執行編譯後的工作...
+progress.executing.precompile.tasks:
+    text: 執行預編譯工作...
+progress.found.dependent.files:
+    text: 找到 {0} 個依賴檔案
+progress.loading.classes:
+    text: 載入類別...
+progress.parsing.file:
+    text: 剖析 {0}...
+progress.updating.caches:
+    text: 更新快取...
+rebuild.lvcs.label.no.errors:
+    text: "''{0}'' 沒有任何錯誤"
+rebuild.lvcs.label.with.errors:
+    text: "''{0}'' 有錯誤"
+resource.compiler.description:
+    text: 資源編譯器
+rmi.compiler.description:
+    text: RMI 編譯器
+rmic.option.enable.rmi.stubs:
+    text: 啟用 RMI 存根產生
+rmic.option.generate.iiop.stubs:
+    text: 產生 IIOP 存根
+statistics.error.count:
+    text: '{0} {0,choice, 0#個錯誤|1#個錯誤|2#個錯誤}'
+statistics.files.classes:
+    text: '檔案: {0} -類別: {1}'
+statistics.warnings.count:
+    text: '{0} {0,choice, 0#個警告|1#個警告|2#個警告}'
+status.all.up.to.date:
+    text: 所有檔案都是最新的
+status.compilation.aborted:
+    text: 編譯中止
+status.compilation.completed.successfully:
+    text: 編譯成功完成
+status.compilation.completed.successfully.with.warnings:
+    text: 編譯完成有 {0} {0,choice, 0#個警告|1#個警告|2#個警告}
+status.compilation.completed.successfully.with.warnings.and.errors:
+    text: 編譯完成有 {0} {0,choice, 0#個錯誤|1#個錯誤|2#個錯誤} 和 {1} {1,choice, 0#個警告|1#個警告|2#個警告}
+status.text.file.has.been.packaged:
+    text: '{0, choice, 1#檔案|2#檔案} {1} {0, choice, 1#已經|2#已經} 打包在 {2} 裡。'
+validation.display.name:
+    text: 驗證
+value.undefined:
+    text: 未定義
+warning.compiler.running.on.project.close:
+    text: 編譯器正在執行。繼續進行項目關閉？
+warning.compiler.running.on.toolwindow.close:
+    text: 編譯器正在執行。終止它？
+warning.sources.under.output.paths:
+    text: |-
+        編譯器選項 "重建時清除輸出目錄" 目前處於開啟狀態。
+        但是，來源檔案可能存在於以下輸出路徑中
+        {0}
+        編譯將在不清除輸出目錄的情況下進行。
+warning.text.file.has.been.changed:
+    text: 編譯期間檔案已變更，檢查驗證跳過

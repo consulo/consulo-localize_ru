@@ -1,0 +1,48 @@
+filetype.chooser.file.pattern:
+    text: 'ファイル パターン:'
+filetype.chooser.prompt:
+    text: "拡張子 ''{0}'' は登録したファイル タイプと関連付けられていません 1 つ選択してください :"
+filetype.chooser.title:
+    text: 拡張子の登録
+filetype.description.archive.files:
+    text: アーカイブ ファイル
+filetype.edit.add.pattern.exists.error:
+    text: "このワイルドカードは、''{0}'' ファイルタイプ用に割当されており、再割り当てすることはできません"
+filetype.edit.add.pattern.exists.title:
+    text: ワイルドカードを追加
+filetype.edit.add.pattern.reassign.button:
+    text: ワイルドカードの再割り当て
+filetype.edit.add.pattern.title:
+    text: ワイルドカードを追加
+filetype.edit.edit.pattern.title:
+    text: ワイルドカード編集
+filetype.edit.existing.title:
+    text: ファイル タイプの編集
+filetype.edit.new.title:
+    text: 新規ファイル タイプ
+filetype.plaintext.description:
+    text: テキスト ファイル
+filetype.registered.pattern.add.button:
+    text: 追加...
+filetype.registered.pattern.remove.button:
+    text: 削除
+filetype.registered.patterns.group:
+    text: 登録されたパターン
+filetype.settings.cannot.save.error:
+    text: 'ファイル タイプを保存できません : {0}'
+filetype.settings.cannot.save.title:
+    text: 設定の保存エラー
+filetype.settings.component:
+    text: ファイル タイプ
+filetype.settings.no.patterns:
+    text: 登録されたファイル パターンはありません
+filetype.settings.title:
+    text: ファイル タイプ
+filetypes.recognized.add.button:
+    text: 追加(&D)...
+filetypes.recognized.edit.button:
+    text: 編集(&E)...
+filetypes.recognized.group:
+    text: '認識されたファイル タイプ :'
+filetypes.recognized.remove.button:
+    text: 削除(&R)

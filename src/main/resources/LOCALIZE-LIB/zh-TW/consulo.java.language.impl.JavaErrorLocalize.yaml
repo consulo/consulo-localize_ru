@@ -1,0 +1,190 @@
+ambiguous.method.html.tooltip:
+    text: <html><body><table border=0><tr><td colspan={0}>方法調用不明確。<b>{2}</b> 中的 </td></tr><tr>{1}<td>\&nbsp;和 <b>{4}</b> 中的 </td></tr><tr>{3}<td>\&nbsp;均符合</td></tr></table></body></html>
+annotation.missing.method:
+    text: "無法找到方法 ''{0}''"
+annotation.unknown.method:
+    text: "無法解析方法 ''{0}''"
+call.to.super.is.not.allowed.in.enum.constructor:
+    text: 枚舉構造函數中不允許調用 super
+cannot.select.dot.class.from.type.variable:
+    text: 無法從類型變數中選擇
+cannot.select.from.parameterized.type:
+    text: 無法從參數化類型中選擇
+class.cannot.be.inherited.with.different.arguments:
+    text: '{0} 不能用不同的參數繼承: {1}'
+class.is.not.used:
+    text: "類 ''{0}'' 從未使用"
+constructor.is.not.used:
+    text: "構造函數 ''{0}'' 從未使用"
+declaration.or.variable.expected:
+    text: 應為宣告、final 或 effectively final 變數
+different.case.kinds.in.switch:
+    text: switch 中使用了不同的 case 種類
+direct.abstract.method.access:
+    text: "無法直接存取 abstract 方法 ''{0}''"
+exception.already.caught.warn:
+    text: "無法存取的部分: {1, choice, 0#已|2#已經} 捕獲 {1, choice, 0# 個異常|2# 個異常} ''{0}''"
+exception.is.never.thrown:
+    text: "此方法中從未拋出異常 ''{0}''"
+expression.expected:
+    text: 應為表達式
+extends.after.enum:
+    text: 不允許對枚舉使用 extends 子句
+field.is.not.used:
+    text: "欄位 ''{0}'' 從未使用"
+generics.holder.method:
+    text: 方法
+generics.holder.type:
+    text: 類型
+generics.select.static.class.from.parameterized.type:
+    text: "無法從參數化類型選擇 static 類 ''{0}''"
+generics.type.argument.cannot.be.of.primitive.type:
+    text: 類型實參不能為基元類型
+generics.type.or.method.does.not.have.type.parameters:
+    text: "{0} ''{1}'' 沒有類型參數"
+generics.unchecked.assignment:
+    text: "未檢查的賦值: ''{0}'' 賦值給 ''{1}''"
+generics.unchecked.call:
+    text: "未檢查的方法 ''{0}'' 調用"
+generics.unchecked.call.to.member.of.raw.type:
+    text: "作為原始類型 ''{1}'' 的成員對 ''{0}'' 的未檢查的調用"
+generics.unchecked.cast:
+    text: "未檢查的轉換: ''{0}'' 轉換為 ''{1}''"
+generics.wildcards.may.be.used.only.as.reference.parameters:
+    text: 萬用字元只能用作引用參數
+illegal.forward.reference:
+    text: 非法前向引用
+illegal.line.end.in.string.literal:
+    text: 字符文字中的行尾非法
+illegal.self.reference:
+    text: 非法自引用
+illegal.to.access.static.member.from.enum.constructor.or.instance.initializer:
+    text: "從枚舉構造函數或實例初始設定式存取 static 成員 ''{0}'' 是非法的"
+implements.after.interface:
+    text: 不允許對接口使用 implements 子句
+inaccessible.type:
+    text: "類 ''{0}'' 在此處無法存取"
+incompatible.return.type:
+    text: 嘗試使用不相容的返回類型
+incompatible.types.html.tooltip:
+    text: "<html><body><table><tr><td style=''padding: 0px 16px 8px 4px;color: {5}''>需要的類型: </td><td style=''padding: 0px 4px 8px 0px;''>{0}</td>{1}</tr><tr><td style=''padding: 0px 16px 0px 4px;color: {5}''>提供的類型: </td><td style=''padding: 0px 4px 0px 0px;''>{2}</td>{3}</tr></table>{4}</body></html>"
+inheritance.from.final.class:
+    text: "無法從{1} ''{0}'' 繼承"
+interface.expected:
+    text: 此處應為接口
+interface.methods.cannot.have.body:
+    text: 接口 abstract 方法不能有主體
+invalid.package.annotation.containing.file:
+    text: 軟體套件註解應位於檔案 package-info.java 中
+is.not.an.enclosing.class:
+    text: "''{0}'' 不是封閉類"
+local.class.is.not.used:
+    text: "本地類 ''{0}'' 從未使用"
+local.variable.is.never.used:
+    text: "''{0}'' 從未使用變數"
+local.variable.is.not.assigned:
+    text: "變數 ''{0}'' 從未被賦值"
+local.variable.is.not.used.for.reading:
+    text: "''{0}'' 已被賦值，但從未存取"
+member.referenced.before.constructor.called:
+    text: "在調用父類型構造函數之前無法引用 ''{0}''"
+method.is.not.used:
+    text: "方法 ''{0}'' 從未使用"
+missing.method.body:
+    text: 缺少方法體，或宣告為 abstract
+missing.package.statement:
+    text: "缺少 package 語句: ''{0}''"
+missing.return.type:
+    text: 方法宣告無效；需要返回類型
+modifiers.for.enum.constants:
+    text: 不允許對枚舉常數使用修飾符
+module.ambiguous:
+    text: '不明確的模組引用: {0}'
+module.not.in.requirements:
+    text: "模組 ''{0}'' 在要求中沒有模組 ''{1}''"
+module.not.on.path:
+    text: '模組不在依賴項中: {0}'
+module.open.duplicate.text:
+    text: 轉到重複項
+module.opens.in.weak.module:
+    text: "開啟的模組中不允許 'opens'"
+module.package.not.exported:
+    text: "模組 ''{0}'' 沒有將包 ''{1}'' 匯出到模組 ''{2}''"
+module.service.unused:
+    text: 提供了服務接口，但未匯出或使用
+no.default.constructor.available:
+    text: "''{0}'' 中沒有可用的預設構造函數。"
+not.loop.label:
+    text: "不是迴圈標籤: ''{0}''"
+package.local.symbol:
+    text: "''{0}'' 在 ''{1}'' 中不為 public。無法從外部軟體套件存取"
+package.name.file.path.mismatch:
+    text: "軟體套件名稱 ''{0}'' 與檔案路徑 ''{1}'' 不對應"
+package.not.found:
+    text: '找不到軟體套件: {0}'
+parameter.is.not.used:
+    text: "參數 ''{0}'' 從未使用"
+private.constructor.is.not.used:
+    text: "private 構造函數 ''{0}'' 從未使用"
+private.field.is.not.assigned:
+    text: "private 欄位 ''{0}'' 從未分配"
+private.field.is.not.used:
+    text: "private 欄位 ''{0}'' 從未使用"
+private.inner.class.is.not.used:
+    text: "private 內部類 ''{0}'' 從未使用"
+private.inner.interface.is.not.used:
+    text: "private 內部接口 ''{0}'' 從未使用"
+private.method.is.not.used:
+    text: "private 方法 ''{0}'' 從未使用"
+private.symbol:
+    text: "''{0}'' 在 ''{1}'' 中具有 private 存取權限"
+protected.symbol:
+    text: "''{0}'' 在 ''{1}'' 中具有 protected 存取權限"
+public.class.should.be.named.after.file:
+    text: "類 ''{0}'' 為 public，應在檔案 ''{0}.java'' 中宣告"
+qualified.enum.constant.in.switch:
+    text: 枚舉 switch case 標籤必須是枚舉常數的非限定名稱
+resource.variable.must.be.final:
+    text: 用作 try-with-resources 資源的變數應為 final 或有效 final
+safevararg.annotation.cannot.be.applied.for.record.component:
+    text: '@SafeVarargs 註解不能應用於記錄組件'
+safevarargs.not.allowed.non.final.instance.methods:
+    text: 非 final 實例方法中不允許 @SafeVarargs
+safevarargs.not.allowed.on.methods.with.fixed.arity:
+    text: 具有固定元數的方法不允許使用 @SafeVarargs
+safevarargs.not.applicable.for.reifiable.types:
+    text: '@SafeVarargs 不適用於可具體化的類型'
+safevarargs.not.suppress.potentially.unsafe.operations:
+    text: '@SafeVarargs 不禁止潛在的不安全操作'
+single.import.class.conflict:
+    text: "已在單類型匯入中定義 ''{0}''"
+statement.must.be.prepended.with.case.label:
+    text: 必須在語句前面預置 case 標籤
+static.interface.method.call.qualifier:
+    text: 只能在包含接口類時調用 static 方法
+static.member.accessed.via.instance.reference:
+    text: "通過實例引用存取 static 成員 ''{0}.{1}''"
+static.method.cannot.override.instance.method:
+    text: "''{1}'' 中的 static 方法 ''{0}'' 無法覆寫 ''{3}'' 中的實例方法 ''{2}''"
+switch.expr.empty:
+    text: "'switch' 表達式沒有任何 case 子句"
+switch.expr.incomplete:
+    text: "'switch' 表達式未涵蓋所有可能的輸入值"
+text.class.inherits.unrelated.defaults:
+    text: '{0} 從類型 {2} 繼承 {1} 的不相關預設值'
+text.improper.formed.type:
+    text: 成型類型不正確；部分類型參數丟失
+type.parameter.is.not.used:
+    text: "類型參數 ''{0}'' 從未使用"
+unchecked.overriding.incompatible.return.type:
+    text: "未檢查的覆寫: 返回類型需要未經檢查的轉換。實際為 ''{0}''，需要 ''{1}''"
+unrelated.overriding.methods.return.types:
+    text: 方法有不相關的返回類型
+valid.switch.selector.types:
+    text: byte、char、short 或 int
+visibility.access.problem:
+    text: "無法存取 ''{1}'' 中的 ''{0}''"
+weaker.privileges:
+    text: "{0}；嘗試分配較弱的存取權限(''{1}'')；曾為 ''{2}''"
+wrong.constructor.arguments:
+    text: "''{0}'' 無法應用於 ''{1}''"

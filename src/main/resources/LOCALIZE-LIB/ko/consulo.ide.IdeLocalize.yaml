@@ -1,0 +1,1513 @@
+FileChooser.detailsViewActionLabelText:
+    text: 세부 정보
+FileChooser.listViewActionLabelText:
+    text: 목록
+FileChooser.newFolderActionLabelText:
+    text: 새 폴더
+FileChooser.refreshActionLabelText:
+    text: 새로고침
+FileChooser.viewMenuLabelText:
+    text: 뷰
+action.Anonymous.text.add.abbreviation:
+    text: 약어 추가
+action.Anonymous.text.add.keyboard.shortcut:
+    text: 키보드 단축키 추가
+action.Anonymous.text.add.mouse.shortcut:
+    text: 마우스 단축키 추가
+action.Anonymous.text.live.templates:
+    text: 라이브 템플릿
+action.Anonymous.text.new.group:
+    text: 새 그룹…
+action.Anonymous.text.rename:
+    text: 이름 바꾸기
+action.Anonymous.text.reset.shortcuts:
+    text: 단축키 재설정
+action.DumbAware.CopyrightProfilesPanel.description.stop:
+    text: 중지
+action.ToggleAction.text.filter:
+    text: 필터
+action.ToggleAction.text.toggle.view:
+    text: 뷰 토글
+action.add:
+    text: 추가
+action.add.all.open.tabs.to.new.favorites.list:
+    text: 열려 있는 모든 탭을 새 즐겨찾기 목록에 추가
+action.add.repository:
+    text: 저장소 추가
+action.add.to.new.favorites.list:
+    text: 새 즐겨찾기 목록에 추가(_N)
+action.append:
+    text: 덧붙이기
+action.browse.call.hierarchy:
+    text: 호출 계층 구조 찾아보기
+action.browse.method.hierarchy:
+    text: 메서드 계층 구조 찾아보기
+action.browse.type.hierarchy:
+    text: 타입 계층 구조 찾아보기
+action.callee.methods.hierarchy:
+    text: 피호출자 메서드 계층 구조
+action.caller.methods.hierarchy:
+    text: 호출자 메서드 계층 구조
+action.choose.actions.to.add:
+    text: 액션 추가
+action.close:
+    text: 닫기
+action.close.all.editors:
+    text: 모두 닫기(_A)
+action.close.all.editors.in.tab.group:
+    text: 그룹의 모든 탭 닫기(_A)
+action.close.all.unmodified.editors:
+    text: 수정되지 않은 탭 닫기(_U)
+action.close.all.unmodified.editors.in.tab.group:
+    text: 그룹의 수정되지 않은 탭 닫기(_U)
+action.close.all.unpinned.editors:
+    text: 고정된 탭을 제외하고 모두 닫기
+action.close.all.unpinned.editors.in.tab.group:
+    text: 그룹의 고정된 탭을 제외하고 모두 닫기
+action.close.project:
+    text: 프로젝트 닫기(_J)
+action.collapse.all:
+    text: 모두 축소
+action.compact.empty.middle.packages:
+    text: 비어 있는 중간 패키지 압축
+action.copy.path:
+    text: 절대 경로 복사(_O)
+action.copy.paths:
+    text: 절대 경로 복사(_O)
+action.copy.template:
+    text: 템플릿 복사
+action.create.new.class.name.field:
+    text: 이름
+action.create.new.file:
+    text: 새 파일 작성
+action.create.template:
+    text: 템플릿 만들기
+action.delete:
+    text: 삭제(_D)
+action.delete.ellipsis:
+    text: 삭제(_D)…
+action.description.create.new.module.group:
+    text: 새 모듈 그룹 만들기
+action.description.create.new.package:
+    text: 새 패키지 만들기
+action.description.show.files:
+    text: 파일 표시/숨기기
+action.description.show.included.only:
+    text: 현재 선택한 범위에 포함된 파일만 표시
+action.description.show.modules:
+    text: 모듈 표시/숨기기
+action.description.todo.show.all:
+    text: 모든 TODO 항목 표시
+action.description.view.class.hierarchy:
+    text: 클래스 계층 구조로 전환
+action.description.view.subtypes.hierarchy:
+    text: 서브 타입 계층 구조로 전환
+action.description.view.supertypes.hierarchy:
+    text: 슈퍼 타입 계층 구조로 전환
+action.descriptor.action:
+    text: '액션: {0}'
+action.descriptor.keystroke:
+    text: '키 입력: "{0}"'
+action.descriptor.typing:
+    text: '입력: "{0}"'
+action.directory:
+    text: 디렉터리
+action.edit.file.templates:
+    text: 파일 템플릿 편집…
+action.edit.repository.url:
+    text: 저장소 URL 편집
+action.expand.all:
+    text: 모두 확장
+action.flatten.packages:
+    text: 패키지 병합
+action.flatten.view:
+    text: 뷰 병합
+action.fn.keys.text:
+    text: FN 키
+action.from.file.template:
+    text: 파일 템플릿에서…
+action.group.by.modules:
+    text: 모듈
+action.group.by.packages:
+    text: 패키지
+action.group.by.scope.type:
+    text: 범위 타입별 그룹화
+action.help:
+    text: 도움말
+action.hide.empty.middle.packages:
+    text: 비어 있는 중간 패키지 숨기기
+action.hide.non.implementations:
+    text: 메서드가 유효하게 구현되지 않은 클래스 숨기기
+action.manual.order:
+    text: 수동 순서
+action.move.module.new.top.level.group:
+    text: 새 최상위 그룹…
+action.move.module.outside.any.group:
+    text: 모든 그룹 외부로
+action.move.module.to.new.sub.group:
+    text: 새 하위 그룹으로…
+action.move.module.to.this.group:
+    text: 이 그룹으로
+action.new.package:
+    text: 새 패키지…
+action.next.message:
+    text: 다음 메시지
+action.next.problem:
+    text: 다음 문제
+action.next.tip:
+    text: 다음(&N)
+action.overwrite:
+    text: 덮어쓰기
+action.package:
+    text: 패키지
+action.pin.tab:
+    text: 탭 고정(_I)
+action.presentation.EncodingPanel.text:
+    text: 파일 인코딩
+action.previous.message:
+    text: 이전 메시지
+action.previous.problem:
+    text: 이전 문제
+action.previous.tip:
+    text: 뒤로(&B)
+action.refresh:
+    text: 새로고침
+action.remove:
+    text: 제거
+action.remove.repository.from.list:
+    text: 목록에서 저장소 제거
+action.remove.template:
+    text: 템플릿 제거
+action.reset.to.default:
+    text: 원본 템플릿으로 되돌리기
+action.select.none:
+    text: 선택 안 함(&N)
+action.send.to.new.favorites.list:
+    text: 새 즐겨찾기 목록으로 보내기
+action.show.classes:
+    text: 클래스 표시
+action.show.compact.empty.middle.packages:
+    text: 중간 패키지 표시/압축
+action.show.files:
+    text: 파일 표시
+action.show.hide.empty.middle.packages:
+    text: 비어 있는 중간 패키지 표시/숨기기
+action.show.included.only:
+    text: 포함된 항목만 표시
+action.show.infos:
+    text: 정보 메시지 표시
+action.show.members:
+    text: 멤버 표시
+action.show.modules:
+    text: 모듈 표시
+action.show.warnings:
+    text: 경고 표시
+action.start.macro.recording:
+    text: 매크로 기록 시작(_M)
+action.stop:
+    text: 중지
+action.stop.macro.recording:
+    text: 매크로 기록 중지(_M)
+action.structureview.show.non.public:
+    text: public이 아닌 항목 표시
+action.sync.completed.successfully:
+    text: 파일 동기화가 성공적으로 완료되었습니다.
+action.synchronize.file:
+    text: "''{0}'' 동기화"
+action.synchronize.selected.files:
+    text: 선택한 파일 동기화
+action.text.remove.0:
+    text: '{0} 제거'
+action.text.remove.abbreviation.0:
+    text: "약어 ''{0}'' 제거"
+action.todo.edit.filters:
+    text: 필터 편집
+action.todo.show.all:
+    text: 모두 표시
+action.unpin.tab:
+    text: 탭 고정 해제(_I)
+action.unpin.tab.tooltip:
+    text: 탭 고정 해제
+action.view.class.hierarchy:
+    text: 클래스 계층 구조
+action.view.subtypes.hierarchy:
+    text: 서브 타입 계층 구조
+action.view.supertypes.hierarchy:
+    text: 슈퍼 타입 계층 구조
+add.byte.order.mark.to:
+    text: '{0}에 바이트 순서 표시 추가'
+add.local.scope.action.text:
+    text: 로컬
+add.scope.dialog.title:
+    text: 새 범위 추가
+add.scope.name.label:
+    text: 이름
+add.scope.popup.title:
+    text: 범위 추가
+add.shared.scope.action.text:
+    text: 공유됨
+alphabetical.mode.is.on.warning:
+    text: 탭의 알파벳순 정렬이 켜져 있습니다. 끄시겠습니까?
+available.packages.dialog.title:
+    text: 사용 가능한 패키지
+browsers.settings:
+    text: 웹 브라우저 및 미리보기
+bundled.jre.version.message:
+    text: "IDE에 더 적합한 번들 Java 런타임으로 전환하는 것이 좋습니다   (현재 Java 런타임은 ''{2}''의 {1} {0}입니다)."
+button.add:
+    text: 추가(&A)...
+button.add.d:
+    text: 추가(&D)...
+button.add.separator:
+    text: 구분 기호 추가(&S)
+button.cancel:
+    text: 취소(&C)
+button.convert:
+    text: 변환
+button.convert.anyway:
+    text: 무조건 변환
+button.copy:
+    text: 복사(&C)
+button.create:
+    text: 만들기(&C)
+button.delete:
+    text: 삭제
+button.edit:
+    text: 편집(&E)...
+button.edit.action.icon:
+    text: 아이콘 편집(&I)…
+button.edit.t:
+    text: 편집(&E)...
+button.exclude:
+    text: 제외
+button.exclude.recursively:
+    text: 재귀적으로 제외
+button.facet.quickfix.text:
+    text: 수정(&F)
+button.finish:
+    text: 마침(&F)
+button.fix:
+    text: 수정…
+button.go.to:
+    text: 이동(&G)
+button.http.proxy.settings:
+    text: HTTP 프록시 설정(&H)…
+button.include:
+    text: 포함
+button.include.recursively:
+    text: 재귀적으로 포함
+button.insert:
+    text: 삽입
+button.move.down:
+    text: 아래로 이동(&D)
+button.move.down.d:
+    text: 아래로 이동(&D)
+button.move.up:
+    text: 위로 이동(&U)
+button.move.up.u:
+    text: 위로 이동(&U)
+button.no:
+    text: 아니요(&N)
+button.ok:
+    text: 확인(&O)
+button.reload:
+    text: 다시 로드
+button.reload.anyway:
+    text: 무조건 다시 로드
+button.remove:
+    text: 제거(&R)
+button.remove.all:
+    text: 모두 제거(&A)
+button.remove.m:
+    text: 제거(&M)
+button.rename:
+    text: 이름 바꾸기
+button.save:
+    text: 저장
+button.wizard.next:
+    text: 다음(&N)
+button.wizard.previous:
+    text: 이전(&P)
+button.yes:
+    text: 예(_Y)
+change.encoding.command.name:
+    text: "''{0}''에 대한 인코딩 변경"
+checkbox.confirm.application.exit:
+    text: IDE를 종료하기 전에 확인
+checkbox.copy.javadoc:
+    text: JavaDoc 복사(&J)
+checkbox.customfiletype.ignore.case:
+    text: 대소문자 무시(&I)
+checkbox.customfiletype.support.paired.braces:
+    text: 쌍을 이루는 중괄호 지원(&R)
+checkbox.customfiletype.support.paired.brackets:
+    text: 쌍을 이루는 대괄호 지원(&C)
+checkbox.customfiletype.support.paired.parens:
+    text: 쌍을 이루는 괄호 지원(&P)
+checkbox.customfiletype.support.string.escapes:
+    text: 문자열 이스케이프 지원(&E)
+checkbox.disabled.included:
+    text: 비활성화된 액션 포함(&D)
+checkbox.enable.live.templates:
+    text: 라이브 템플릿 활성화(&L)
+checkbox.errortree.export.details:
+    text: 세부 정보
+checkbox.insert.at.override:
+    text: '@Override 삽입(&O)'
+checkbox.left.toolwindow.layout:
+    text: 왼쪽 병렬 레이아웃
+checkbox.narrow.down.on.typing:
+    text: 입력 시 좁히기(&N)
+checkbox.narrow.down.the.list.on.typing:
+    text: 입력 시 목록 좁히기(&N)
+checkbox.override.default.laf.fonts:
+    text: '사용자 지정 글꼴 사용:'
+checkbox.reformat.according.to.style:
+    text: 스타일에 따라 서식 다시 지정(&R)
+checkbox.right.toolwindow.layout:
+    text: 오른쪽 병렬 레이아웃
+checkbox.safe.delete.with.usage.search:
+    text: 안전하게 삭제(사용처 검색 포함)(&F)
+checkbox.save.files.automatically:
+    text: 'IDE가 다음 시간 동안 유휴 상태일 때 파일 저장:'
+checkbox.save.files.on.frame.deactivation:
+    text: 다른 애플리케이션이나 내장 터미널로 전환할 때 파일 저장
+checkbox.show.editor.preview.popup:
+    text: 스크롤 막대에 호버 시 코드 렌즈 표시
+checkbox.show.icons.in.menu.items:
+    text: 메뉴 항목에 아이콘 표시
+checkbox.show.tips.on.startup:
+    text: 시작 시 팁 표시 안 함
+checkbox.show.tool.window.bars:
+    text: 도구 창 막대 표시
+checkbox.show.tool.window.numbers:
+    text: 도구 창 번호 표시
+checkbox.support.screen.readers:
+    text: 화면 판독기 지원
+checkbox.synchronize.files.on.frame.activation:
+    text: IDE 창으로 전환하거나 에디터 탭을 열 때
+checkbox.transparent.native.to.ascii.conversion:
+    text: 기본 코드를 ASCII로 투명하게 변환
+checkbox.use.transparent.mode.for.floating.windows:
+    text: 플로팅 창에 투명 모드 사용
+checkbox.widescreen.tool.window.layout:
+    text: 와이드 스크린 도구 창 레이아웃
+column.description:
+    text: 설명
+combobox.console.default.encoding.label:
+    text: '기본 인코딩:'
+combobox.look.and.feel:
+    text: '테마:'
+command.close.all.editors:
+    text: 모든 에디터 닫기
+command.close.all.unmodified.editors:
+    text: 수정되지 않은 모든 에디터 닫기
+command.create.directory:
+    text: 디렉터리 만들기
+command.create.file:
+    text: 파일 만들기
+command.create.file.from.template:
+    text: 템플릿에서 파일 만들기
+command.create.new.package:
+    text: 새 패키지 만들기
+command.create.new.subdirectory:
+    text: 새 하위 디렉터리 만들기
+command.create.package:
+    text: 패키지 만들기
+command.find.next:
+    text: 다음 찾기
+command.find.previous:
+    text: 이전 찾기
+command.fixing.line.separators:
+    text: 줄 구분 기호 수정 중
+command.go.to.line:
+    text: 줄로 이동
+command.pasting.reference:
+    text: 참조 붙여넣기
+command.renaming.module:
+    text: 모듈 {0} 이름 바꾸는 중
+command.select.all:
+    text: 모두 선택
+conversion.dialog.text.1:
+    text: "''{0}'' 프로젝트의 형식이 오래되어 변환됩니다.   이전 버전의 {1}에서는 프로젝트를 열지 못할 수 있습니다."
+conversion.dialog.text.2:
+    text: "<b> </b><a href=\"details\">세부 정보...</a><br/><br/>이전 버전의 프로젝트 파일은 다음 위치에 저장됩니다: ''{0}''"
+copy.reference:
+    text: 참조 복사(&Y)
+copy.references:
+    text: 참조 복사(&Y)
+copy.relative.path:
+    text: 상대 경로 복사(&Y)
+copy.relative.paths:
+    text: 상대 경로 복사(&Y)
+description.copy.text.to.clipboard:
+    text: 클립보드로 텍스트 복사
+description.select.project.file.directory:
+    text: '{0} 파일이 이 디렉터리에 저장됩니다'
+detach.library:
+    text: 라이브러리 분리
+detach.library.from.module:
+    text: "''{1}'' 모듈에서 ''{0}'' 라이브러리를 분리하시겠습니까?\n디스크의 파일은 손상되지 않습니다."
+dialog.directory.for.downloaded.files.title:
+    text: 다운로드 디렉터리
+dialog.message.cannot.save.the.file.0:
+    text: '{0} 파일을 저장할 수 없습니다'
+dialog.message.incompatible.encoding:
+    text: "선택한 인코딩(''{0}'')으로 인해 ''{1}''의 내용이 변경될 수 있습니다.<br>어떻게 하시겠습니까?<br>  1. 새 인코딩 ''{0}''으로 디스크에서 파일을 <b>다시 로드</b>하고 에디터 내용을 덮어씁니다.<br>  2. 텍스트를 <b>변환</b>하고 새 인코딩으로 파일을 덮어씁니다."
+dialog.title.abbreviation:
+    text: 약어
+dialog.title.clear.read.only.file.status:
+    text: 읽기 전용 상태 지우기
+dialog.title.color.picker:
+    text: 색상 선택기
+dialog.title.convert.module:
+    text: 모듈 변환
+dialog.title.convert.project:
+    text: 프로젝트 변환
+dialog.title.error.writing.file:
+    text: 파일 쓰기 오류
+dialog.title.file.0.can.t.be.reloaded:
+    text: "''{0}'' 파일은 ''{1}'' 인코딩으로 다시 로드할 수 없습니다.{2}"
+dialog.title.file.0.most.likely.isn.t.stored:
+    text: "''{0}'' 파일은 ''{1}'' 인코딩으로 저장되지 않았을 가능성이 큽니다.{2}"
+dialog.title.go.to.line.column:
+    text: 줄:열로 이동
+dialog.title.unable.to.save:
+    text: 저장할 수 없음
+diff.dialog.title:
+    text: "''{0}'' 및 ''{1}'' 간의 Diff"
+directory.project.file.directory:
+    text: |
+        {0} 디렉터리
+display.balloon.notifications:
+    text: 풍선 알림 표시
+display.name.firefox.settings:
+    text: Firefox 설정
+dnd.with.alt.pressed.only:
+    text: Alt 키를 누른 상태에서만 드래그 앤 드롭
+double.ctrl.or.shift.shortcut:
+    text: '{0} 두 번 누르기'
+editbox.customfiletype.block.comment.end:
+    text: '블록 주석 끝:'
+editbox.customfiletype.block.comment.start:
+    text: '블록 주석 시작:'
+editbox.customfiletype.description:
+    text: '설명:'
+editbox.customfiletype.hex.prefix:
+    text: '16진수 접두사:'
+editbox.customfiletype.line.comment:
+    text: '줄 주석:'
+editbox.customfiletype.name:
+    text: '이름:'
+editbox.customfiletype.number.postfixes:
+    text: '숫자 접미사:'
+editbox.default.encoding.for.properties.files:
+    text: '프로퍼티 파일의 기본 인코딩:'
+editbox.export.settings.to:
+    text: '설정 내보내기 위치:'
+editbox.export.to.file:
+    text: '파일로 내보내기:'
+editbox.keyword:
+    text: '키워드:'
+editbox.license.user.name:
+    text: '사용자 이름:'
+element.method:
+    text: 메소드
+empty.text.drop.files.to.open:
+    text: 파일을 열려면 여기에 놓으세요
+empty.text.go.to.file:
+    text: 파일로 이동
+empty.text.navigation.bar:
+    text: 탐색 표시줄
+empty.text.project.view:
+    text: 프로젝트 뷰
+empty.text.recent.files:
+    text: 최근 파일
+empty.text.search.everywhere:
+    text: 전체 검색
+encoding.do.not.convert.message:
+    text: "''{0}''(으)로 변환하지 마세요."
+encoding.name.system.default:
+    text: '<시스템 기본값: {0}>'
+encoding.not.available:
+    text: 해당 없음
+encoding.unsupported.characters.message:
+    text: "''{0}'' 인코딩은 텍스트의 일부 문자를 지원하지 않습니다."
+encodings.dialog.caption:
+    text: 파일 또는 디렉터리 경로를 추가하고 {0}에서 사용할 인코딩을 선택하세요.<br>파일 및 디렉터리는 상위 디렉터리 또는 프로젝트 인코딩에서 인코딩을 상속합니다.<br>JSP, HTML 및 XML 파일의 내장 파일 인코딩은 이 설정을 재정의합니다.
+error.0.browser.path.not.specified:
+    text: '{0} 브라우저 경로가 지정되지 않았습니다.'
+error.adding.module.to.project:
+    text: '프로젝트에 모듈을 추가하는 중 오류 발생: {0}'
+error.cannot.convert.project:
+    text: '프로젝트를 변환할 수 없음: {0}'
+error.cannot.find.file:
+    text: 파일 {0}을(를) 찾을 수 없습니다.
+error.cannot.load.project:
+    text: '프로젝트를 로드할 수 없음: {0}'
+error.cannot.set.look.and.feel:
+    text: <html><body>{0} 테마를 설정할 수 없습니다:<br>{1}</body></html>
+error.connection.failed.redirects:
+    text: '연결 실패: 너무 많은 리디렉션'
+error.failed.to.create.directory:
+    text: '"{0}" 디렉터리를 만들지 못했습니다'
+error.favorites.list.already.exists:
+    text: "''{0}'' 즐겨찾기 목록이 이미 존재합니다"
+error.file.does.not.exist:
+    text: '{0} 파일이 존재하지 않습니다.'
+error.file.download.failed:
+    text: "''{0}''을(를) 다운로드하지 못했습니다:\n{1}"
+error.file.not.found.message:
+    text: "''{0}'' 파일을 찾을 수 없습니다"
+error.files.of.this.type.cannot.be.opened:
+    text: 이 타입의 파일은 {0}에서 열 수 없습니다
+error.invalid.template.file.name.or.extension:
+    text: 잘못된 템플릿 파일 이름 또는 확장자
+error.loading.package.list:
+    text: 패키지 목록 로드 오류:{0}
+error.malformed.url:
+    text: '잘못된 URL: {0}'
+error.message.cannot.make.files.writable:
+    text: |-
+        다음 파일의 잠금을 해제할 수 없습니다:
+        {0}
+error.message.cannot.modify.file.0:
+    text: "''{0}'' 파일을 수정할 수 없습니다"
+error.message.unable.to.create.file:
+    text: "''{0}'' 파일을 만들 수 없습니다"
+error.module.already.exists:
+    text: "''{0}''이라는 이름의 모듈이 이미 존재합니다"
+error.name.cannot.be.empty:
+    text: 이름은 비워 둘 수 없습니다
+error.name.should.be.specified:
+    text: 이름을 지정해야 합니다
+error.occurred.please.check.your.internet.connection:
+    text: 오류가 발생했습니다. 인터넷 연결을 확인해 주세요.
+error.parsing.file.template:
+    text: '파일 템플릿 파싱 오류: {0}'
+error.please.enter.a.file.name:
+    text: 파일 이름을 지정하세요
+error.please.specify.path.to.web.browser:
+    text: '{0} | 웹 브라우저에서 웹 브라우저 경로를 지정하세요'
+error.please.specify.template.name:
+    text: 템플릿 이름을 지정하세요
+error.project.file.does.not.exist:
+    text: '{0}을(를) 로드할 수 없습니다. 파일이 존재하지 않습니다.'
+error.reading.settings.file:
+    text: "파일 {0}을(를) 읽는 중 오류가 발생했습니다.\n''파일 | IDE 설정 관리 | 설정 내보내기...'' 기능으로 생성되었는지 확인하세요.\n\n{1}"
+error.reading.settings.file.2:
+    text: |-
+        파일 {0}을(를) 읽는 중 오류가 발생했습니다.
+
+        {1}
+error.saving.statistics:
+    text: '시스템 정보를 저장하는 중 오류 발생: {0}'
+error.text.file.already.exists:
+    text: |-
+        {0} 파일이 이미 존재합니다.
+        덮어쓰시겠습니까, 아니면 덧붙이시겠습니까?
+error.tips.not.found:
+    text: 팁을 찾을 수 없습니다. {0}을(를) 올바르게 설치했는지 확인하세요.
+error.unable.to.parse.template.message:
+    text: |-
+        "{0}" 템플릿을 파싱할 수 없습니다
+        오류 메시지: {1}
+error.unable.to.read.tip.of.the.day:
+    text: <html><body>오늘의 팁({0})을 읽을 수 없습니다. {1}이(가) 올바르게 설치되었는지 확인하세요.</body></html>
+error.updating.package.list:
+    text: '패키지 목록 업데이트 오류: {0}'
+error.writing.settings:
+    text: |-
+        설정 기록 중 오류가 발생했습니다.
+
+        {0}
+error.writing.to.file:
+    text: '파일에 쓰는 중 오류 발생: {0}'
+errortree.error:
+    text: '오류:'
+errortree.information:
+    text: '정보:'
+errortree.note:
+    text: '참고:'
+errortree.prefix.line:
+    text: 줄 ({0})
+errortree.warning:
+    text: '경고:'
+failed.to.install.package.dialog.title:
+    text: "''{0}'' 설치 실패"
+failed.to.install.packages.dialog.title:
+    text: 패키지 설치 실패
+favorites.list.unnamed:
+    text: 이름 없음{0}
+file.changed.externally.message:
+    text: 디스크에서 파일이 변경되었습니다.
+file.changed.externally.reload:
+    text: 새로고침
+file.chooser.completion.ad.text:
+    text: 경로의 끝을 유지하려면 {0}을(를) 사용하세요
+file.chooser.completion.no.suggestions:
+    text: 제안 없음
+file.chooser.completion.path.variables.text:
+    text: 경로 변수
+file.chooser.hide.path:
+    text: 경로 숨기기
+file.chooser.show.path:
+    text: 경로 표시
+file.encoding.option.create.utf8.files:
+    text: 'UTF-8 파일 만들기:'
+file.encoding.option.encoding.column:
+    text: 인코딩
+file.encoding.option.global.encoding:
+    text: 전역 인코딩
+file.encoding.option.path.column:
+    text: 경로
+file.encoding.option.project.encoding:
+    text: 프로젝트 인코딩
+file.encoding.option.warning.always:
+    text: '{0}은(는) UTF-8 인코딩으로 생성된 모든 파일에 <a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">UTF-8 BOM</a>을 추가합니다'
+file.encoding.option.warning.never:
+    text: '{0}은(는) UTF-8 인코딩으로 생성된 모든 파일에 <a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">UTF-8 BOM</a>을 추가하지 않습니다'
+file.encoding.option.warning.windows.only:
+    text: '{0}은(는) Windows에서 실행할 때만 생성된 모든 UTF-8 파일에 <a href="https://en.wikipedia.org/wiki/Byte_order_mark#UTF-8">UTF-8 BOM</a>을 추가합니다'
+file.encodings.configurable:
+    text: 파일 인코딩
+file.encodings.not.configured:
+    text: 인코딩이 구성되지 않음
+filetype.description.unknown:
+    text: 알 수 없음
+finished.with.exit.code.text.message:
+    text: 종료 코드 {0}(으)로 프로세스 완료됨
+go.to.class.action.description:
+    text: 이름으로 {0}에 빠르게 탐색
+go.to.class.dumb.mode.message:
+    text: "프로젝트 분석 중에는 ''{0}(으)로 이동'' 액션을 사용할 수 없습니다. 대신 ''파일로 이동''을 사용하세요"
+go.to.class.kind.text:
+    text: 클래스
+go.to.file.toolwindow.title:
+    text: 패턴과 일치하는 파일
+goto.custom.region.command:
+    text: 사용자 지정 접기로 이동
+goto.custom.region.menu.item:
+    text: 사용자 지정 접기…
+goto.custom.region.message.dumb.mode:
+    text: 프로젝트 분석이 완료된 후 사용자 지정 접기 탐색을 사용할 수 있습니다.
+goto.custom.region.message.unavailable:
+    text: 현재 파일에 사용자 지정 접기가 없습니다.
+goto.inspection.action.text:
+    text: 이름으로 검사 실행(&R)…
+group.antialiasing.mode:
+    text: 안티앨리어싱
+group.customfiletype.syntax.highlighting:
+    text: 구문 강조
+group.general.options:
+    text: 일반 옵션
+group.presentation.mode:
+    text: 프레젠테이션 모드
+group.settings.process.tab.close:
+    text: '실행 중인 프로세스가 있는 도구 창을 닫을 때:'
+group.transparency:
+    text: 투명도
+group.ui.options:
+    text: UI 옵션
+group.vendor:
+    text: 공급업체
+group.view.options:
+    text: 뷰 옵션
+group.web.browser:
+    text: 웹 브라우저
+group.window.options:
+    text: 도구 창
+handle.ro.file.status.failed:
+    text: <html>다음 파일에 대한 읽기 전용 상태를 변경하지 못했습니다:<br>{0}</html>
+handle.ro.file.status.type.using.file.system:
+    text: 파일 시스템 사용
+hierarchy.call.next.occurence.name:
+    text: 다음 호출로 이동
+hierarchy.call.prev.occurence.name:
+    text: 이전 호출로 이동
+hierarchy.legend.method.defined.in.superclass:
+    text: 메서드가 클래스에 정의되지 않았지만 슈퍼 클래스에 정의됨
+hierarchy.legend.method.is.defined.in.class:
+    text: 메서드가 클래스에 정의됨
+hierarchy.legend.method.should.be.defined:
+    text: 클래스가 추상이 아니므로 메서드를 정의해야 함
+hierarchy.method.next.occurence.name:
+    text: 다음 메서드로 이동
+hierarchy.method.prev.occurence.name:
+    text: 이전 메서드로 이동
+hierarchy.scope.all:
+    text: 모두
+hierarchy.scope.test:
+    text: 테스트
+hierarchy.type.next.occurence.name:
+    text: 다음 타입으로 이동
+hierarchy.type.prev.occurence.name:
+    text: 이전 타입으로 이동
+ide.postpone.action:
+    text: 연기
+ide.restart.action:
+    text: 다시 시작
+ide.shutdown.action:
+    text: 종료
+idea.intellij.look.and.feel:
+    text: IntelliJ Light 레거시
+incompatible.encoding.dialog.title:
+    text: '호환되지 않는 인코딩: {0}'
+install.package.failure:
+    text: "''{0}'' 패키지를 설치하는 중 오류가 발생했습니다. <a href=\"xxx\">세부 정보...</a>"
+label.appearance.caret.blinking:
+    text: '모양: 캐럿 깜빡임'
+label.appearance.show.inner.whitespaces:
+    text: '모양: 내부 공백 표시'
+label.appearance.show.leading.whitespaces:
+    text: '모양: 선행 공백 표시'
+label.appearance.show.right.margin:
+    text: '모양: 오른쪽 여백 표시'
+label.appearance.show.trailing.whitespaces:
+    text: '모양: 후행 공백 표시'
+label.choosebyname.no.matches.found:
+    text: 일치하는 항목 없음
+label.choosebyname.searching:
+    text: 검색 중…
+label.enter.new.abbreviation:
+    text: '새 약어 입력:'
+label.extension:
+    text: '확장자(&E):'
+label.font.name:
+    text: '글꼴:'
+label.font.size:
+    text: '크기:'
+label.icon.path:
+    text: '아이콘(&I):'
+label.inactive.timeout.sec:
+    text: 초
+label.line.column:
+    text: '[줄] [:열]:'
+label.macro.preview:
+    text: 매크로 미리보기
+label.macros:
+    text: 매크로
+label.missed.libraries.text:
+    text: "모듈 종속성 목록에서 ''{0}'' 라이브러리를 찾을 수 없습니다"
+label.name:
+    text: '이름(&N):'
+label.no.actions.found:
+    text: 액션을 찾을 수 없음
+label.no.enabled.actions.found:
+    text: 활성화된 액션을 찾을 수 없음
+label.no.files.found:
+    text: 파일을 찾을 수 없음
+label.no.matches.found:
+    text: 일치하는 항목 없음
+label.offset:
+    text: '오프셋:'
+label.option.appearance:
+    text: '모양: {0}'
+label.project.jdk:
+    text: '프로젝트 SDK:'
+label.scope:
+    text: '범위(&S):'
+label.scope.contains.files:
+    text: 범위에 총 {1}개의 파일 중 {0}개가 포함됨
+label.scope.editor.caret.position:
+    text: 위치:{0}
+label.scope.pattern:
+    text: '패턴(&P):'
+label.text.antialiasing.scope.editor:
+    text: '에디터:'
+label.transparency.delay.ms:
+    text: '지연(ms):'
+label.transparency.ratio:
+    text: '비율:'
+listbox.customfiletype.keywords:
+    text: 키워드
+loading.in.progress:
+    text: "<html><body style='text-align: center;padding-top:20px;'>로드 중...</body></html>"
+local.scopes.node.text:
+    text: 로컬 범위
+low.disk.space.message:
+    text: 시스템 디렉터리 파티션({0})에 50MiB 미만의 공간이 남았습니다
+macro.column.number:
+    text: 열 번호
+macro.file.dir.relative.to.root:
+    text: 파일이 속한 모듈 콘텐츠 루트에 상대적인 파일 디렉터리
+macro.file.dir.relative.to.root.fwd.slash:
+    text: 파일이 속한 모듈 콘텐츠 루트에 상대적인 파일 디렉터리(슬래시 포함)
+macro.file.dir.relative.to.sourcepath.root:
+    text: 파일이 속한 소스 경로 루트에 상대적인 파일 디렉터리
+macro.file.dir.relative.to.sourcepath.root.fwd.slash:
+    text: 파일이 속한 소스 경로 루트에 상대적인 파일 디렉터리(슬래시 포함)
+macro.file.directory:
+    text: 파일 디렉터리
+macro.file.directory.from.parent:
+    text: 매개변수로 전달된 이름의 상위 디렉터리에서 $FileDir$까지의 경로
+macro.file.directory.name:
+    text: 파일 디렉터리 이름
+macro.file.directory.relative:
+    text: 프로젝트 파일에 상대적인 파일 디렉터리
+macro.file.directory.relative.fwd.slash:
+    text: 프로젝트 파일에 상대적인 파일 디렉터리(슬래시 포함)
+macro.file.encoding:
+    text: 파일 인코딩
+macro.file.extension:
+    text: 파일 확장자
+macro.file.name.without.all.extensions:
+    text: 모든 확장자가 없는 파일 이름
+macro.file.parent.directory:
+    text: 파일 상위 디렉터리. 상위 디렉터리를 찾기 위해 선택적 매개변수(이름)를 취합니다
+macro.file.path:
+    text: 파일 경로
+macro.file.path.relative:
+    text: 프로젝트 파일에 상대적인 파일 경로
+macro.file.path.relative.fwd.slash:
+    text: 프로젝트 파일에 상대적인 파일 경로(슬래시 포함)
+macro.file.path.relative.to.root:
+    text: 파일이 속한 모듈 콘텐츠 루트에 상대적인 파일 경로
+macro.file.path.relative.to.root.fwd.slash:
+    text: 파일이 속한 모듈 콘텐츠 루트에 상대적인 파일 경로(슬래시 포함)
+macro.file.path.relative.to.sourcepath.root:
+    text: 파일이 속한 소스 경로 루트에 상대적인 파일 경로
+macro.file.path.relative.to.sourcepath.root.fwd.slash:
+    text: 파일이 속한 소스 경로 루트에 상대적인 파일 경로(슬래시 포함)
+macro.line.number:
+    text: 줄 번호
+macro.module.file.directory:
+    text: 모듈 파일의 디렉터리
+macro.module.file.name:
+    text: 확장자가 없는 모듈 파일의 이름
+macro.module.file.path:
+    text: 모듈 파일의 경로
+macro.module.source.path:
+    text: 모듈 소스 경로
+macro.project.file.directory:
+    text: 프로젝트 파일의 디렉터리
+macro.project.file.name:
+    text: 확장자가 없는 프로젝트 파일의 이름
+macro.project.source.path:
+    text: 프로젝트 소스 경로
+macro.project.sourcepath:
+    text: 프로젝트 소스 경로
+macro.prompt:
+    text: 문자열 입력 대화상자 표시
+macro.sourcepath.entry:
+    text: 요소가 속한 소스 경로의 항목
+manage.repositories.dialog.title:
+    text: 저장소 관리
+maven.repository.presentable.name:
+    text: Maven 저장소
+message.macro.exists:
+    text: "매크로 ''{0}''이(가) 이미 존재합니다. 덮어쓰시겠습니까?"
+message.module:
+    text: "''{0}'' 모듈"
+message.module.file.has.an.older.format.do.you.want.to.convert.it:
+    text: 모듈 파일의 형식이 오래되었습니다. 변환하시겠습니까?
+message.modules:
+    text: 모듈
+message.move.modules.to.group:
+    text: '{0}을(를) {1} 그룹으로 이동'
+message.no.targets.available:
+    text: 이 컨텍스트에서 사용 가능한 대상이 없습니다
+message.occurrence.N.of.M:
+    text: 발생 {0} / {1}
+message.open.file.is.project:
+    text: |-
+        {0}은(는) 프로젝트 파일입니다.
+        프로젝트를 여시겠습니까?
+message.path.to.fqn.has.been.copied:
+    text: "''{0}''이(가) 복사되었습니다."
+message.please.select.element.for.javadoc:
+    text: 문서를 볼 요소를 선택하세요
+message.reference.to.fqn.has.been.copied:
+    text: "''{0}''에 대한 참조가 복사되었습니다."
+message.settings.exported.successfully:
+    text: "설정이 성공적으로 내보내졌습니다.\n'파일 | IDE 설정 관리 | 설정 가져오기...'를 사용하여 설정을 가져올 수 있습니다."
+message.settings.imported.successfully:
+    text: 설정을 성공적으로 가져왔습니다. 설정을 다시 로드하기 위해 {0} {1}하시겠습니까?
+message.text.unlock.read.only.files:
+    text: <html><body>다음 파일은 읽기 전용입니다. {0}에서 파일의 잠금을 해제합니다.<br>{1}</body></html>
+message.your.module.was.successfully.converted.br.old.version.was.saved.to.0:
+    text: "<html><body>모듈이 성공적으로 변환되었습니다. <br>  이전 버전은 ''{0}''에 저장되었습니다.</body></html>"
+no.charset.set.reason.charset.auto.detected.by.bom:
+    text: BOM에 의해 문자 집합이 자동 감지됨
+no.charset.set.reason.charset.auto.detected.from.content:
+    text: 콘텐츠에서 문자 집합이 자동 감지됨
+no.charset.set.reason.charset.hard.coded.in.file:
+    text: 문자 집합이 파일에 하드 코딩되어 있음
+no.charset.set.reason.disabled.for.binary.file:
+    text: 바이너리 파일에 대해 비활성화됨
+no.charset.set.reason.disabled.for.directory:
+    text: 디렉터리에 대해 비활성화됨
+no.charset.set.reason.disabled.for.file.type:
+    text: '{0}에 대해 비활성화됨'
+no.information.available:
+    text: 사용 가능한 정보 없음
+node.call.hierarchy.N.usages:
+    text: ({0}개 사용)
+node.call.hierarchy.unknown.jsp:
+    text: 알 수 없는 jsp
+node.default:
+    text: <기본값>
+node.default.package:
+    text: <기본 패키지>
+node.hierarchy.invalid:
+    text: '[잘못됨]'
+node.memberchooser.all.classes:
+    text: 모든 클래스
+node.projectview.external.libraries:
+    text: 외부 라이브러리
+node.projectview.libraries:
+    text: 라이브러리
+node.projectview.library:
+    text: '{0} 라이브러리'
+open.url.in.browser.tooltip:
+    text: 브라우저에서 열기
+option.hide.tool.window.bars:
+    text: 도구 창 막대 숨기기
+package.0.installed.successfully:
+    text: "''{0}'' 패키지가 성공적으로 설치되었습니다"
+package.installed.successfully:
+    text: 패키지가 성공적으로 설치되었습니다
+package.successfully.uninstalled:
+    text: "''{0}'' 패키지가 성공적으로 제거되었습니다"
+package.successfully.upgraded:
+    text: '{0} 패키지가 성공적으로 업그레이드되었습니다'
+packages.settings.latest.version:
+    text: 최신 버전
+packages.settings.loading:
+    text: 패키지 목록 로드 중
+packages.settings.package:
+    text: 패키지
+packages.settings.version:
+    text: 버전
+packages.successfully.uninstalled:
+    text: 패키지가 성공적으로 제거되었습니다
+packages.title:
+    text: 패키지
+please.edit.repository.url:
+    text: 저장소 URL을 편집하세요
+please.input.repository.url:
+    text: 저장소 URL을 입력하세요
+popup.title.edit.shortcuts:
+    text: 단축키 편집
+popup.title.play.saved.macros:
+    text: 저장된 매크로 재생
+predefined.scope.problems.name:
+    text: 문제
+predefined.scope.production.name:
+    text: 프로덕션
+presentation.mode.fon.size:
+    text: '글꼴 크기:'
+progress.creating.directory:
+    text: 디렉터리 {0}{1}{2} 만드는 중
+progress.creating.file:
+    text: 파일 {0}{1}{2} 만드는 중
+progress.creating.package:
+    text: 패키지 {0}.{1} 만드는 중
+progress.deleting:
+    text: 삭제 중
+progress.deleting.class:
+    text: '{0} 클래스 삭제 중'
+progress.text.clickToViewProgressWindow:
+    text: 실행 중인 모든 프로세스를 보려면 클릭하세요
+progress.text.reloading.file:
+    text: 파일 다시 로드 중…
+progress.text.reloading.files:
+    text: 파일 다시 로드 중…
+progress.text.stopping:
+    text: 중지 중 - {0}
+progress.title.reload.files:
+    text: 파일 다시 로드
+progress.window.empty.text:
+    text: 실행 중인 프로세스가 없습니다.
+progress.window.title:
+    text: 프로세스
+project.import.open.existing:
+    text: "''{1}''에 {0}이(가) 있습니다.\n기존 프로젝트를 여시겠습니까, 아니면 삭제하고 ''{2}''을(를) 가져오시겠습니까?"
+project.import.open.existing.openExisting:
+    text: 기존 프로젝트 열기
+project.import.open.existing.reimport:
+    text: 기존 프로젝트 삭제 및 가져오기
+prompt.browse.icon.for.selected.action:
+    text: SVG 또는 PNG 형식의 아이콘 찾아보기
+prompt.check.components.to.import:
+    text: '가져올 모든 구성 요소를 확인하세요:'
+prompt.choose.export.settings.file.path:
+    text: 내보낼 파일 경로 또는 새 파일을 생성할 디렉터리를 선택하세요.
+prompt.choose.import.file.path:
+    text: 가져올 설정 파일 또는 파일이 위치한 디렉터리를 선택하세요.
+prompt.create.non.existing.package:
+    text: |-
+        {0} 패키지가 존재하지 않습니다.
+        만드시겠습니까?
+prompt.delete.and:
+    text: 및
+prompt.delete.directory:
+    text: '{0,choice,1#디렉터리|2#디렉터리}'
+prompt.delete.directory.paren:
+    text: ({0} {0,choice,1#디렉터리|2#디렉터리})
+prompt.delete.elements:
+    text: '{0}을(를) 삭제하시겠습니까?'
+prompt.delete.file:
+    text: '{0,choice,1#파일|2#파일}'
+prompt.delete.it.anyway:
+    text: 그래도 삭제하시겠습니까?
+prompt.delete.property:
+    text: '{0,choice,1#속성|2#속성}'
+prompt.delete.symlink:
+    text: '{0,choice,1#심볼릭 링크|2#심볼릭 링크}'
+prompt.directory.contains.read.only.files:
+    text: '{0} 디렉터리에 읽기 전용 파일이 포함되어 있습니다. 그래도 삭제하시겠습니까?'
+prompt.enter.a.new.package.name:
+    text: '새 패키지 이름 입력:'
+prompt.enter.macro.name:
+    text: 매크로 이름을 입력하세요. 임시 매크로인 경우 비워두세요.
+prompt.enter.new.class.name:
+    text: '새 클래스 이름 입력:'
+prompt.enter.new.file.name:
+    text: '새 파일 이름 지정:'
+prompt.enter.new.library.name:
+    text: 새 라이브러리 이름 입력
+prompt.enter.new.module.name:
+    text: 새 모듈 이름 입력
+prompt.enter.new.name:
+    text: 새 이름 입력
+prompt.enter.parameters:
+    text: '매개변수 입력:'
+prompt.enter.project.file.location:
+    text: '{0} 파일 위치 입력'
+prompt.filechooser.enter.file.name:
+    text: '파일 이름 입력:'
+prompt.goto.inspection.enter.name:
+    text: '검사 이름 입력:'
+prompt.gotoaction.enter.action:
+    text: '액션 또는 옵션 이름 입력:'
+prompt.gotoclass.enter.class.name:
+    text: '{0} 이름 입력:'
+prompt.gotofile.enter.file.name:
+    text: '파일 이름 입력:'
+prompt.gotosymbol.enter.symbol.name:
+    text: '기호 이름 입력:'
+prompt.input.favorites.list.new.name:
+    text: "''{0}'' 즐겨찾기 목록의 새 이름:"
+prompt.input.new.favorites.list.name:
+    text: 새 즐겨찾기 목록의 이름을 입력하세요
+prompt.new.project.file.name:
+    text: 새 {0} {1}을(를) 만들 파일 이름을 입력하세요
+prompt.overwrite.settings.file:
+    text: "''{0}''을(를) 덮어쓰시겠습니까?"
+prompt.please.check.all.components.to.export:
+    text: '내보낼 설정을 확인하세요:'
+prompt.reset.to.original.template:
+    text: 원본 템플릿으로 재설정하시겠습니까?
+prompt.specify.module.group.name:
+    text: |+
+        {0}이(가) 표시될 그룹 이름을 지정하세요.
+
+prompt.specify.name.of.module.subgroup:
+    text: |+
+        {1}이(가) 표시될 {0} 하위 그룹의 이름을 지정하세요.
+
+quick.lists.presentable.name:
+    text: 빠른 목록
+radio.process.close.ask:
+    text: 물어보기
+radio.process.close.disconnect:
+    text: 연결 끊기
+radio.process.close.terminate:
+    text: 프로세스 종료
+recent.files.checkbox.label:
+    text: 편집된 파일만 표시
+recent.locations.changed.locations:
+    text: 최근 편집된 위치
+recent.locations.popup.empty.file.text:
+    text: 빈 줄
+recent.locations.popup.empty.text:
+    text: 최근 위치를 찾을 수 없음
+recent.locations.popup.title:
+    text: 최근 위치
+recent.locations.title.text:
+    text: 편집된 파일만 표시
+repository.url.title:
+    text: 저장소 URL
+run.anything.action.tooltip.text:
+    text: '명령 실행: 프로젝트 열기, 실행 구성 시작, Gradle 또는 Maven 작업 실행,   터미널 명령 실행 등.'
+run.anything.actions.undefined:
+    text: 정의되지 않음
+run.anything.ad.command.delete:
+    text: 최근 명령을 삭제하려면 {0} 키를 누르세요
+run.anything.ad.run.action.with.default.settings:
+    text: 기본 설정으로 실행하려면 {0} 키를 누르세요
+run.anything.ad.run.in.context:
+    text: 현재 파일 컨텍스트에서 실행하려면 {0} 키를 누르세요
+run.anything.ad.run.with.debug:
+    text: 디버그하려면 {0} 키를 누르세요
+run.anything.console.error.title:
+    text: 명령을 실행할 수 없음
+run.anything.console.process.finished:
+    text: |4-
+
+        프로세스가 종료 코드 {0}(으)로 완료되었습니다.
+run.anything.context.browse.directory:
+    text: 디렉터리 찾아보기…
+run.anything.context.project:
+    text: 프로젝트
+run.anything.context.separator.directories:
+    text: 디렉터리
+run.anything.context.separator.modules:
+    text: 모듈
+run.anything.context.title.working.directory:
+    text: 실행 컨텍스트
+run.anything.context.tooltip:
+    text: 현재 명령이 실행될 컨텍스트 선택
+run.anything.custom.activity.notification.group.id:
+    text: Run Anything 명령이 실행됨
+run.anything.custom.activity.rollback.action:
+    text: 롤백
+run.anything.general.group.title:
+    text: 일반
+run.anything.help.list.empty.secondary.text:
+    text: 명령 선택
+run.anything.hint.initial.text:
+    text: 제안 목록을 탐색하려면 {0} 또는 {1} 키를 누르세요
+run.anything.indexing.mode.not.supported:
+    text: Run Anything은 프로젝트 분석 중에는 사용할 수 없습니다
+run.anything.main.list.empty.primary.text:
+    text: 명령 또는 구성 실행
+run.anything.main.list.empty.secondary.text:
+    text: 모든 명령을 보려면 "?"를 입력하세요
+run.anything.notification.warning.content:
+    text: "''{0}'' 명령을 실행하지 못했습니다."
+run.anything.notification.warning.title:
+    text: 명령 실행 실패
+run.anything.recent.group.title:
+    text: 최근
+run.anything.recent.project.completion.group.title:
+    text: 최근 프로젝트
+run.anything.recent.project.help.group.title:
+    text: 최근 프로젝트
+run.anything.run.configurations.group.title:
+    text: 실행 구성
+run.anything.run.debug.title:
+    text: '디버그:'
+run.anything.run.in.context.debug.title:
+    text: '디버그로 컨텍스트에서 실행:'
+run.anything.run.in.context.title:
+    text: '컨텍스트에서 실행:'
+run.configuration.error.executable.not.specified:
+    text: 실행 파일이 지정되지 않았습니다
+run.configuration.error.working.directory.does.not.exist:
+    text: "프로세스를 시작할 수 없습니다. 작업 디렉터리 ''{0}''이(가) 존재하지 않습니다."
+run.configuration.error.working.directory.not.directory:
+    text: "프로세스를 시작할 수 없습니다. 작업 디렉터리 ''{0}''이(가) 디렉터리가 아닙니다."
+scope.banner.text:
+    text: "''{0}'' 범위"
+scope.class.hierarchy:
+    text: 클래스 계층 구조
+scope.current.file:
+    text: 현재 파일
+scope.editor.legend.partly.included.label:
+    text: 부분적으로 포함됨
+scope.editor.legend.recursively.included.label:
+    text: 재귀적으로 포함됨
+scope.files.in.previous.search.result:
+    text: 이전 검색 결과의 파일
+scope.open.files:
+    text: 열려 있는 파일
+scope.previous.search.results:
+    text: 이전 검색 결과
+scope.selection:
+    text: 선택 영역
+scope.unable.to.save.scope.message:
+    text: 범위를 공유로 저장하시겠습니까?
+scope.unable.to.save.scope.title:
+    text: 로컬 범위를 사용할 수 없음
+scope.view.title:
+    text: 범위
+scopes.display.name:
+    text: 범위
+scopes.no.scoped:
+    text: 추가된 범위가 없습니다.
+scopes.save.dialog.title.local:
+    text: 로컬 범위로 저장
+scopes.save.dialog.title.shared:
+    text: 공유 범위로 저장
+scratches.and.consoles:
+    text: 스크래치 및 콘솔
+scripting.lib.add:
+    text: 추가(&A)...
+scripting.lib.docUrl.remove:
+    text: 제거(&R)
+scripting.lib.edit:
+    text: 편집(&E)...
+scripting.lib.file.location:
+    text: 위치
+scripting.lib.file.name:
+    text: 이름
+scripting.lib.file.title:
+    text: 파일
+scripting.lib.file.type:
+    text: 유형
+scripting.lib.name:
+    text: '이름(&N):'
+scripting.lib.remove:
+    text: 제거(&R)
+scripting.lib.usageScope.tableTitle:
+    text: 라이브러리
+search.for.usages.and.delete.elements:
+    text: 사용처를 검색하고 {0}을(를) 삭제하시겠습니까?
+search.textfield.title:
+    text: '검색(&S):'
+searcheverywhere.allelements.tab.name:
+    text: 모두
+searcheverywhere.commands.tab.name:
+    text: 명령
+searcheverywhere.found.matches.title:
+    text: "[{1}]의 ''{0}''에 대한 일치 항목"
+searcheverywhere.found.targets.title:
+    text: 정렬되지 않은 결과
+searcheverywhere.history.shortcuts.hint:
+    text: 검색 기록을 탐색하려면 {0} 또는 {1} 키를 누르세요
+searcheverywhere.indexing.incomplete.results:
+    text: "''{0}'' 검색 결과가 불완전할 수 있습니다. 프로젝트 분석 중…"
+searcheverywhere.indexing.mode.not.supported:
+    text: "''{0}''에서의 검색은 프로젝트 분석이 완료된 후 사용할 수 있습니다"
+searcheverywhere.nothing.found.for.all:
+    text: 아무 것도 찾지 못했습니다.
+searcheverywhere.nothing.found.for.all.anywhere:
+    text: 아무것도 찾을 수 없습니다
+searcheverywhere.nothing.found.for.contributor.anywhere:
+    text: 이름이 같은 {0}을(를) 찾을 수 없습니다
+searcheverywhere.run.configs.tab.name:
+    text: 실행 구성
+searcheverywhere.runconfigurations.command.debug.description:
+    text: "'디버그' 모드에서 실행 구성 시작"
+searcheverywhere.runconfigurations.command.run.description:
+    text: "'실행' 모드에서 실행 구성 시작"
+searcheverywhere.textfield.hint:
+    text: 명령을 보려면 {0}을(를) 입력하세요
+select.in.commander:
+    text: 커맨더
+select.in.favorites:
+    text: 즐겨찾기
+select.in.file.structure:
+    text: 파일 구조
+select.in.packages:
+    text: 패키지
+select.in.project:
+    text: 프로젝트
+select.in.scope:
+    text: 범위
+settings.entry.point.tooltip:
+    text: IDE 및 프로젝트 설정
+settings.entry.point.widget.name:
+    text: IDE 및 프로젝트 설정
+share.scope.checkbox.title:
+    text: VCS를 통해 공유
+shared.scopes.node.text:
+    text: 공유 범위
+show.in.find.window.button.description:
+    text: 찾기 도구 창에서 검색 결과 열기
+show.in.find.window.button.name:
+    text: 찾기 도구 창에서 열기
+show.main.toolbar:
+    text: 기본 도구 모음 표시
+show.navigation.bar:
+    text: 탐색 표시줄 표시
+show.status.bar:
+    text: 상태 표시줄 표시
+small.labels.in.editor.tabs:
+    text: 에디터 탭의 작은 레이블
+status.bar.text.file.encoding:
+    text: '파일 인코딩: {0}'
+tab.chooser.project:
+    text: 프로젝트
+tab.chooser.search.by.name:
+    text: 이름으로 검색
+tab.filetemplates.code:
+    text: 코드
+tab.filetemplates.includes:
+    text: 포함
+tab.filetemplates.j2ee:
+    text: 기타
+tab.filetemplates.templates:
+    text: 파일
+template.copy.N.of.T:
+    text: '{1}의 복사본{0}'
+template.unnamed:
+    text: 이름 없음
+text.not.applicable:
+    text: <해당사항 없음>
+title.add.module:
+    text: 새 모듈
+title.add.new.favorites.list:
+    text: 새 즐겨찾기 목록 추가
+title.appearance:
+    text: 모양
+title.browse.icon:
+    text: 아이콘 찾아보기
+title.cannot.convert.project:
+    text: 프로젝트를 변환할 수 없음
+title.cannot.create.file:
+    text: 파일을 만들 수 없음
+title.cannot.load.project:
+    text: 프로젝트를 로드할 수 없음
+title.cannot.open.file:
+    text: 파일을 열 수 없음
+title.cannot.save.current.template:
+    text: 현재 템플릿을 저장할 수 없음
+title.choose.action.icon:
+    text: 액션 아이콘 선택
+title.choose.destination.directory:
+    text: 대상 디렉터리 선택
+title.customizations:
+    text: 메뉴 및 도구 모음
+title.delete:
+    text: 삭제
+title.edit.file.template:
+    text: 파일 템플릿 편집
+title.edit.macros:
+    text: 매크로 편집
+title.enter.macro.name:
+    text: 매크로 이름 입력
+title.error.reading.file:
+    text: 파일 읽기 오류
+title.error.writing.file:
+    text: 파일 쓰기 오류
+title.export.file.location:
+    text: 내보낼 파일 위치
+title.export.preview:
+    text: 내보내기 미리보기
+title.export.successful:
+    text: 내보내기 완료
+title.file.already.exists:
+    text: 파일이 이미 존재함
+title.file.not.found:
+    text: 파일을 찾을 수 없음
+title.file.templates:
+    text: 파일 및 코드 템플릿
+title.general:
+    text: 시스템 설정
+title.hierarchy.callees.of:
+    text: '{0}의 피호출자'
+title.hierarchy.callers.of:
+    text: '{0}의 호출자'
+title.hierarchy.class:
+    text: 클래스 {0}
+title.hierarchy.method:
+    text: 메서드 {0}
+title.hierarchy.subtypes:
+    text: '{0}의 서브 타입'
+title.hierarchy.supertypes:
+    text: '{0}의 슈퍼 타입'
+title.import.file.location:
+    text: 가져올 파일 위치
+title.input:
+    text: 입력
+title.invalid.file:
+    text: 유효하지 않은 파일
+title.macro.name.already.used:
+    text: 이미 사용 중인 매크로 이름
+title.macros:
+    text: 매크로
+title.module.file.does.not.exist:
+    text: '모듈 파일이 존재하지 않습니다: {0}'
+title.module.group:
+    text: 모듈 그룹
+title.module.sub.group:
+    text: 모듈 하위 그룹
+title.new.class:
+    text: 새 클래스
+title.new.directory:
+    text: 새 디렉터리
+title.new.file:
+    text: 새 파일
+title.new.from.template:
+    text: 새 {0}
+title.new.package:
+    text: 새 패키지
+title.no.element.selected:
+    text: 선택된 요소 없음
+title.no.jdk.specified:
+    text: 지정된 SDK가 없음
+title.package.not.found:
+    text: 패키지를 찾을 수 없음
+title.packages:
+    text: 패키지
+title.popup.new.element:
+    text: 새로 만들기
+title.popup.new.element.same.place:
+    text: 현재 디렉터리에 새로 만들기
+title.popup.recent.files:
+    text: 최근 파일
+title.popup.select.target:
+    text: 다음에서 선택
+title.popup.views:
+    text: 보기
+title.project:
+    text: 프로젝트
+title.question:
+    text: 질문
+title.rename.favorites.list:
+    text: 이름 바꾸기
+title.rename.library:
+    text: 라이브러리 이름 바꾸기
+title.rename.macro:
+    text: 매크로 이름 바꾸기
+title.rename.module:
+    text: 모듈 이름 바꾸기
+title.reset.template:
+    text: 템플릿 재설정
+title.restart.needed:
+    text: 다시 시작 필요
+title.select.components.to.export:
+    text: 설정 내보내기
+title.select.components.to.import:
+    text: 가져올 구성 요소 선택
+title.select.path.to.browser:
+    text: 브라우저 경로 선택
+title.select.project.file.directory:
+    text: '{0} 파일 디렉터리 선택'
+title.select.template:
+    text: 템플릿 선택
+title.tip.of.the.day:
+    text: 오늘의 팁
+title.unable.to.add.favorites.list:
+    text: 즐겨찾기 목록을 추가할 수 없음
+title.velocity.error:
+    text: Velocity 오류
+title.warning:
+    text: 경고
+tooltip.line.separator:
+    text: '줄 구분 기호: {0}'
+tooltip.module.group:
+    text: 모듈 그룹
+tooltip.ui.designer.form:
+    text: UI 디자이너 폼
+toolwindow.palette:
+    text: 팔레트
+treenode.loading:
+    text: 로드 중…
+uninstall.packages.failed:
+    text: 패키지 제거 실패. <a href="xxx">세부 정보...</a>
+uninstall.packages.failed.dialog.title:
+    text: 패키지 제거 실패
+unknown.error:
+    text: 알 수 없는 오류
+unscramble.dialog.title:
+    text: 스택 트레이스 분석
+upgrade.package.failed.title:
+    text: 패키지 업그레이드 실패.
+upgrade.packages.failed:
+    text: 패키지 업그레이드 실패. <a href="xxx">세부 정보...</a>
+upgrade.packages.failed.dialog.title:
+    text: 패키지 업그레이드 실패
+warning.delete.all.files.and.subdirectories:
+    text: |4-
+
+        "{0}"의 모든 파일 및 하위 디렉터리가 삭제됩니다.
+          이 작업은 완전히 실행 취소하지 못할 수도 있습니다!
+warning.delete.all.files.and.subdirectories.in.the.selected.directory:
+    text: |4-
+
+        선택한 디렉터리의 모든 파일 및 하위 디렉터리가 삭제됩니다.
+          이 작업은 완전히 실행 취소하지 못할 수도 있습니다!

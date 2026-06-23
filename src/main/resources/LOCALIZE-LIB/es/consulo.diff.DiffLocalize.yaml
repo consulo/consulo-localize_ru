@@ -1,0 +1,126 @@
+action.presentation.diff.accept.text:
+    text: Aceptar
+action.presentation.diff.append.text:
+    text: Anexar
+action.presentation.diff.revert.text:
+    text: Revertir
+apply.partially.resolved.merge.dialog.title:
+    text: Aplicar cambios
+apply.patch.partially.resolved.changes.confirmation.message:
+    text: |-
+        {0, choice, 1#Queda un fragmento|2#Quedan {0, number} fragmentos} sin procesar.
+        ¿Guardar los cambios y finalizar la resolución?
+apply.somehow.status.message.all.applied:
+    text: Se han resuelto todos los fragmentos
+apply.somehow.status.message.already.applied:
+    text: '{0, number} {0, choice, 1#fragmento ya se ha|2#fragmentos ya se han} aplicado'
+apply.somehow.status.message.cant.apply.some:
+    text: No se pueden aplicar {0, number} de {1, number} fragmentos
+binary.file.viewer:
+    text: Visor de archivos binarios
+cancel.visual.merge.dialog.title:
+    text: Cancelar fusión de archivos
+collapse.unchanged.fragments:
+    text: Contraer fragmentos sin cambios
+diff.all.differences.ignored.text:
+    text: Diferencias ignoradas
+diff.application.usage.parameters.and.description:
+    text: 'Uso: {0} diff <archivo izquierdo> <archivo derecho> [<archivo base>]'
+diff.clipboard.vs.editor.dialog.title:
+    text: Portapapeles vs. Editor
+diff.clipboard.vs.value.dialog.title:
+    text: Portapapeles vs. valor seleccionado
+diff.content.clipboard.content.title:
+    text: Desde el portapapeles
+diff.content.selected.value:
+    text: Valor seleccionado
+diff.content.selection.from.file.content.title:
+    text: Selección de {0}
+diff.contents.are.identical.message.text:
+    text: Los contenidos son idénticos
+diff.contents.have.differences.only.in.charset.and.line.separators.message.text:
+    text: El contenido solo tiene diferencias en los separadores de línea y la codificación
+diff.contents.have.differences.only.in.charset.message.text:
+    text: Los contenidos solo tienen diferencias en la codificación
+diff.contents.have.differences.only.in.line.separators.message.text:
+    text: El contenido solo presenta diferencias en los separadores de línea
+diff.element.qualified.name.vs.element.qualified.name.dialog.title:
+    text: '{0} frente a {1}'
+diff.highlighting.disabled.text:
+    text: El resaltado de diferencias está desactivado
+diff.type.changed.name:
+    text: Modificado
+diff.type.conflict.name:
+    text: Conflicto
+diff.type.deleted.name:
+    text: Eliminado
+diff.type.inserted.name:
+    text: Insertado
+directory.viewer:
+    text: Visor de directorios
+error.message.cannot.show.diff:
+    text: No se puede mostrar el diff
+error.viewer:
+    text: Visor de errores
+highlighting.level:
+    text: Nivel de resaltado
+merge.all.changes.processed.message.text:
+    text: Guardar cambios y finalizar la fusión
+merge.application.usage.parameters.and.description:
+    text: 'Uso: {0} merge <archivo izquierdo> <archivo derecho> [<archivo base>] <archivo de salida>'
+merge.color.options.dialog.title:
+    text: Opciones de combinación de colores
+merge.color.options.ignored.color.label:
+    text: Ignorado
+merge.continue.button:
+    text: '&Continuar'
+merge.dialog.all.conflicts.resolved.message.text:
+    text: Todos los conflictos resueltos
+merge.dialog.apply.non.conflicted.changes.command:
+    text: Aplicar cambios sin conflictos
+merge.dialog.apply.partially.resolved.changes.confirmation.message:
+    text: "{0, choice, 0#'{1, choice, 1#Queda|2#Quedan}'|1#Queda|2#Quedan} {0, choice, 0#|1#un cambio|2#{0, number} cambios}{0, choice, 0#|1#'{1, choice, 0#|1# y }'}{1, choice, 0#|1#un conflicto|2#{1, number} conflictos} sin procesar.\n¿Guardar los cambios y marcar el conflicto como resuelto de todos modos?"
+merge.dialog.ignore.change.command:
+    text: Ignorar cambio
+merge.files.dialog.title:
+    text: Combinar
+merge.save.and.finish.button:
+    text: Guardar y &finalizar
+message.do.in.merge.command:
+    text: '{0} durante la fusión'
+message.init.merge.content.command:
+    text: Inicializar contenido de la fusión
+message.replace.change.command:
+    text: Reemplazar cambio
+message.use.selected.changes.command:
+    text: '{0} cambios seleccionados'
+option.highlighting.level.inspections:
+    text: Inspecciones
+option.highlighting.level.none:
+    text: Ninguno
+option.highlighting.level.syntax:
+    text: Sintaxis
+option.highlighting.policy.none:
+    text: No resaltar
+option.highlighting.policy.symbols:
+    text: Resaltar caracteres
+option.highlighting.policy.words:
+    text: Resaltar palabras
+option.ignore.policy.none:
+    text: No ignorar
+option.ignore.policy.trim:
+    text: Recortar espacios en blanco
+option.ignore.policy.whitespaces:
+    text: Ignorar espacios en blanco
+option.ignore.policy.whitespaces.empty.lines:
+    text: Ignorar espacios en blanco y líneas vacías
+option.inherit.ignored.color:
+    text: Heredar color ignorado
+side.by.side.viewer:
+    text: Visor en paralelo
+synchronize.document.and.its.fragment:
+    text: Sincronizar el documento y su fragmento
+synchronize.scrolling:
+    text: Sincronizar desplazamiento
+unified.viewer:
+    text: Visor unificado

@@ -1,0 +1,353 @@
+annotation.name.is.missing:
+    text: "Атрыбут анатацыі павінен мець фармат 'name=value'"
+anonymous.class.context.display:
+    text: Ананімны ў {0}
+anonymous.class.derived.display:
+    text: Ананімны клас, вытворны ад {0}
+aux.context.display:
+    text: з {0}
+bad.return.type.in.lambda.expression:
+    text: 'Няправільны тып вяртаемага значэння ў лямбда-выразе: {0} немагчыма пераўтварыць у {1}'
+bad.return.type.in.lambda.expression1:
+    text: 'Няправільны тып вяртаемага значэння ў лямбда-выразе: {0} немагчыма пераўтварыць у void'
+bad.return.type.in.method.reference:
+    text: 'Няправільны тып вяртаемага значэння ў method reference: немагчыма пераўтварыць {0} у {1}'
+bound.not.expected:
+    text: Нечаканая мяжа
+catch.without.try:
+    text: "'catch' без 'try'"
+class.context.display:
+    text: '{0} в {1}'
+class.literal.expected:
+    text: Чакаецца .class
+conflicting.conjuncts:
+    text: '{0} і {1}'
+context.type.java.comment:
+    text: Каментарый
+context.type.string:
+    text: Строка
+default.language.level.description:
+    text: Па змаўчанні SDK
+diamond.error.anonymous.inner.classes:
+    text: "Нельга выкарыстоўваць '<>' з ананімнымі ўнутранымі класамі"
+diamond.error.anonymous.inner.classes.non.private:
+    text: "Нельга выкарыстоўваць '<>' з-за non-private метаду, які не пераазначае і не рэалізуе метад з супертыпу"
+diamond.error.cannot.infer.arguments:
+    text: Немагчыма вывесці аргументы
+diamond.error.cannot.infer.arguments.unable.to.resolve.constructor:
+    text: Немагчыма вывесці аргументы (не ўдаецца вырашыць канструктар)
+diamond.error.cannot.infer.type.arguments:
+    text: Немагчыма вывесці аргументы тыпу для {0}
+diamond.error.explicit.type.parameters.for.constructor:
+    text: Нельга выкарыстоўваць diamond з яўнымі параметрамі тыпу для канструктара
+else.without.if:
+    text: "'else' без 'if'"
+enum.constant.context:
+    text: "Константа enum ''{0}'' в ''{1}''"
+error.incompatible.type:
+    text: '{0} несумяшчальны з {1}'
+error.incompatible.type.bad.lambda.return.type:
+    text: 'Няправільны тып вяртаемага значэння ў лямбда-выразе: {0} немагчыма пераўтварыць у {1}'
+error.incompatible.type.declaration.for.the.method.reference.not.found:
+    text: "Не знойдзена аб'яўленне часу кампіляцыі для method reference"
+error.incompatible.type.expected.non.void.got.void.method.reference:
+    text: "Несумяшчальныя тыпы: чакаецца не void, але аб'яўленне часу кампіляцыі для method reference мае тып вяртаемага значэння void"
+error.incompatible.type.expected.value.lambda:
+    text: "Несумяшчальныя тыпы: чакаецца не void, але цела лямбды з'яўляецца блокам, несумяшчальным са значэннем"
+error.incompatible.type.failed.to.resolve.argument:
+    text: Не ўдалося вырашыць аргумент
+error.incompatible.type.incompatible.equality.constraint:
+    text: 'Несумяшчальнае абмежаванне роўнасці: {0} і {1}'
+error.incompatible.type.incompatible.parameter.types.in.lambda:
+    text: 'Няправільная колькасць параметраў лямбды: чакалася {0}, але знойдзена {1}'
+error.incompatible.type.incompatible.parameter.types.in.method.reference:
+    text: Несумяшчальныя тыпы параметраў у выразе method reference
+error.incompatible.type.incompatible.types.expected.not.void.got.void.method.reference:
+    text: "Несумяшчальныя тыпы: чакаецца не void, але аб'яўленне часу кампіляцыі для method reference мае тып вяртаемага значэння void"
+error.incompatible.type.incompatible.types.expected.void.lambda:
+    text: "Несумяшчальныя тыпы: чакаецца void, але цела лямбды не з'яўляецца ні выразам-аператарам, ні void-сумяшчальным блокам"
+error.incompatible.type.no.type.variable:
+    text: не існуе экзэмпляраў пераменнай(ых) тыпу, каб {0}
+error.incompatible.type.no.type.variable.0:
+    text: не існуе экзэмпляраў пераменнай(ых) тыпу {0}, каб {1}
+error.incompatible.type.no.valid.function.type.found:
+    text: Не знойдзены дапушчальны тып функцыі для {0}
+error.incompatible.type.not.a.functional.interface:
+    text: "{0} не з'яўляецца функцыянальным інтэрфейсам"
+error.incompatible.type.not.convertible:
+    text: 'Несумяшчальныя тыпы: {0} немагчыма пераўтварыць у {1}'
+error.incompatible.type.parameter.type.is.not.yet.inferred:
+    text: 'Тып параметра яшчэ не выведзены: {0}'
+error.incompatible.type.return.type.is.not.yet.inferred:
+    text: 'Тып вяртаемага значэння яшчэ не выведзены: {0}'
+error.incompatible.type.unhandled.exception:
+    text: 'Неапрацаванае выключэнне: {0}'
+error.incompatible.upper.bounds:
+    text: 'Несумяшчальныя верхнія межы: {0}'
+error.inference.variable.has.incompatible.bounds:
+    text: |-
+        Выводная пераменная {0} мае несумяшчальныя межы:
+         {1}: {2}
+        {3}: {4}
+error.message.wildcard.not.expected:
+    text: Нечаканы wildcard
+expected.array.initializer:
+    text: Чакаецца ініцыялізатар масіва
+expected.boolean.expression:
+    text: Чакаецца лагічны выраз
+expected.catch.or.finally:
+    text: "Чакаецца 'catch' або 'finally'"
+expected.class.or.interface:
+    text: "Чакаецца 'class' або 'interface'"
+expected.class.reference:
+    text: 'Чакаецца: спасылка на клас'
+expected.colon:
+    text: "Чакаецца ':'"
+expected.comma:
+    text: "Чакаецца ','"
+expected.comma.or.rparen:
+    text: "Чакаецца ',' або ')'"
+expected.comma.or.semicolon:
+    text: "Чакаецца ',' або ';'"
+expected.dot:
+    text: "Чакаецца '.'"
+expected.eq:
+    text: "Чакаецца '='"
+expected.expression:
+    text: 'Чакаецца: выраз'
+expected.gt:
+    text: "Чакаецца '>'"
+expected.gt.or.comma:
+    text: "Чакаецца '>' або ','"
+expected.identifier:
+    text: Чакаецца ідэнтыфікатар
+expected.identifier.or.type:
+    text: Чакаецца ідэнтыфікатар або тып
+expected.lbrace:
+    text: "Чакаецца '{'"
+expected.lbrace.or.semicolon:
+    text: "Чакаецца '{' або ';'"
+expected.lbracket:
+    text: "Чакаецца '['"
+expected.lparen:
+    text: "Чакаецца '('"
+expected.lparen.or.lbracket:
+    text: "Чакаецца '(' або '['"
+expected.lt.or.lparen:
+    text: "Чакаецца '<' або '('"
+expected.module.declaration:
+    text: "Чакаецца аб'яўленне модуля"
+expected.module.statement:
+    text: Чакаецца дырэктыва модуля
+expected.package.reference:
+    text: Чакаецца спасылка на пакет
+expected.parameter:
+    text: Чакаецца параметр
+expected.rbrace:
+    text: "Чакаецца '}'"
+expected.rbracket:
+    text: "Чакаецца ']'"
+expected.resource:
+    text: Чакаецца вызначэнне рэсурсу
+expected.rparen:
+    text: "Чакаецца ')'"
+expected.semicolon:
+    text: "Чакаецца ';'"
+expected.statement:
+    text: Аператара чакалі
+expected.string:
+    text: Чакаецца радковы літарал
+expected.switch.label:
+    text: "Чакаецца 'case', 'default' або '}'"
+expected.switch.rule:
+    text: Чакаецца выраз, блок або аператар throw
+expected.type:
+    text: Чакаецца тып
+expected.type.parameter:
+    text: Чакаецца параметр тыпу
+expected.value:
+    text: Чакаецца значэнне
+expected.while:
+    text: "Чакаецца 'while'"
+expected.with:
+    text: "Чакаецца 'with'"
+feature.advanced.collection.api:
+    text: Lambda-метады ў калекцыях
+feature.annotations:
+    text: Анатацыі
+feature.binary.literals:
+    text: Двайковыя літаралы
+feature.collection.factories:
+    text: Фабрычныя метады калекцый
+feature.diamond.types:
+    text: Diamond-тыпы
+feature.effectively.final:
+    text: Effectively final переменные
+feature.enhanced.switch:
+    text: "Пашыраны 'switch'"
+feature.enum.qualified.name.in.switch:
+    text: Qualified enum константы в switch
+feature.extension.methods:
+    text: Метады-пашырэнні
+feature.for.each:
+    text: For-each цыклы
+feature.foreign.functions:
+    text: Foreign Functions і Memory API
+feature.hex.fp.literals:
+    text: Шаснаццатковыя літаралы з плавальнай кропкай
+feature.implicit.classes:
+    text: "Няяўна аб'яўленыя класы"
+feature.inner.statics:
+    text: Static в inner классах
+feature.intersections.in.casts:
+    text: Перасячэнні тыпаў у прывядзеннях
+feature.javadoc.snippets:
+    text: '@snippet в Javadoc'
+feature.lambda.expressions:
+    text: Lambda-выразы
+feature.local.enums:
+    text: Локальные enum
+feature.local.interfaces:
+    text: Лакальныя інтэрфейсы
+feature.lvti:
+    text: Вывад тыпаў лакальных пераменных
+feature.method.references:
+    text: Спасылкі на метады
+feature.modules:
+    text: Модулі
+feature.multi.catch:
+    text: Мульты-catch
+feature.nestmates:
+    text: Nestmate контроль доступа
+feature.no.this.capture:
+    text: "Без захопу 'this' ва ўнутраных класах"
+feature.override.interface:
+    text: '@Override у інтэрфейсах'
+feature.pattern.guard.and.record.patterns:
+    text: Pattern guards і record patterns
+feature.patterns.in.switch:
+    text: Patterns в switch
+feature.patterns.instanceof:
+    text: "Patterns в 'instanceof'"
+feature.private.interface.methods:
+    text: Private метады інтэрфейсаў
+feature.record.patterns.in.for.each:
+    text: Record patterns у for-each цыклах
+feature.sealed.classes:
+    text: Sealed классы
+feature.sequenced.collections:
+    text: Упарадкаваныя калекцыі
+feature.serial.annotation:
+    text: '@Serial анатацыя'
+feature.statements.before.super:
+    text: Операторы перед super()
+feature.static.interface.calls:
+    text: Выклікі static метадаў інтэрфейсу
+feature.stream.and.optional.api:
+    text: Stream і Optional API
+feature.strictfp:
+    text: Строгая семантыка лікаў з плаваючай кропкай
+feature.string.switch:
+    text: "Радкі ў 'switch'"
+feature.string.templates:
+    text: Строковые шаблоны
+feature.structured.concurrency:
+    text: Структураваная канкурэнтнасць
+feature.switch.expressions:
+    text: "'Switch' выразы"
+feature.text.blocks:
+    text: Text block літаралы
+feature.try.with.resources.refs:
+    text: Спасылкі на рэсурсы
+feature.type.annotations:
+    text: Анатацыі тыпаў
+feature.type.receivers:
+    text: Параметры-прыёмнікі
+feature.underscores.in.literals:
+    text: Падкрэсліванні ў літаралах
+feature.unnamed.vars:
+    text: Безыменныя patterns і пераменныя
+feature.var.lambda.parameter:
+    text: "'var' в параметрах lambda"
+feature.varargs:
+    text: Метады са зменным лікам аргументаў
+feature.virtual.threads:
+    text: Віртуальныя патокі
+finally.without.try:
+    text: "'finally' без 'try'"
+import.statement.identifier.or.asterisk.expected.:
+    text: "Чакаецца ідэнтыфікатар або '*'"
+java.terms.anonymous.class.base.ref:
+    text: ананімны {0}
+javadoc.exception.tag.class.is.not.throwable:
+    text: "Клас {0} не з'яўляецца нашчадкам Throwable"
+javadoc.exception.tag.exception.is.not.thrown:
+    text: "{0} не аб'яўлены як выкідваемы метадам {1}"
+javadoc.exception.tag.wrong.tag.value:
+    text: Няправільнае значэнне тэга
+javadoc.param.tag.parameter.name.expected:
+    text: Чакаецца імя параметра
+javadoc.param.tag.type.parameter.gt.expected:
+    text: "Чакаецца '>'"
+javadoc.param.tag.type.parameter.name.expected:
+    text: Чакаецца імя параметра тыпу
+javadoc.ref.tag.class.ref.expected:
+    text: Чакаецца спасылка на клас
+javadoc.value.field.required:
+    text: Тег @value должен ссылаться на поле
+javadoc.value.field.with.initializer.required:
+    text: Тэг @value павінен спасылацца на поле з канстантным ініцыялізатарам
+javadoc.value.static.field.required:
+    text: Тэг @value павінен спасылацца на статычнае поле
+javadoc.value.tag.jdk15.required:
+    text: Тэг @value не можа мець аргументаў пры выкарыстанні JDK 1.4 або больш ранняй версіі
+jdk.21.preview.language.level.description:
+    text: 21 (Preview) - Радковыя шаблоны, безыменныя класы і метады instance main і г.д.
+jdk.22.preview.language.level.description:
+    text: 22 (Preview) - Аператары перад super(), радковыя шаблоны (другі preview) і інш.
+jdk.23.language.level.description:
+    text: 23 - Markdown дакументацыя
+jdk.23.preview.language.level.description:
+    text: "23 (Preview) - Прымітыўныя тыпы ў patterns, няяўна аб'яўленыя класы і інш."
+jdk.unsupported.preview.language.level.description:
+    text: '{0} (Preview) - не падтрымліваецца'
+lambda.body.must.be.a.statement.expression:
+    text: Цела лямбды павінна быць выразам-аператарам
+list.item.no.module:
+    text: <нет модуля>
+local.class.preposition:
+    text: локальный
+method.context.display:
+    text: '{0}() в {1}'
+missing.return.value.lambda:
+    text: Адсутнічае вяртаемае значэнне
+node.annotation.tooltip:
+    text: Анатацыя
+node.anonymous.class.tooltip:
+    text: Ананімны клас
+node.class.tooltip:
+    text: Класс
+node.exception.tooltip:
+    text: Выключэнне
+node.field.tooltip:
+    text: Поле
+node.interface.tooltip:
+    text: Інтэрфейс
+node.junit.test.tooltip:
+    text: JUnit тест
+node.method.tooltip:
+    text: Метод
+node.runnable.class.tooltip:
+    text: Runnable класс
+type.can.be.converted:
+    text: '{0} может быть преобразован в {1}'
+type.conforms.to.constraint:
+    text: '{0} соответствует {1}'
+unexpected.identifier:
+    text: Нечаканы ідэнтыфікатар
+unexpected.return.value:
+    text: Нечаканае вяртаемае значэнне
+unexpected.token:
+    text: Нечаканы токен
+unexpected.tokens:
+    text: Нечаканыя жэтоны

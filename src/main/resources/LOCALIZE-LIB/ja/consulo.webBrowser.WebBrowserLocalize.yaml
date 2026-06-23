@@ -1,0 +1,16 @@
+browser.error:
+    text: ブラウザエラー
+browser.select.in.default.name:
+    text: ウェブブラウザ
+error.0.browser.path.not.specified:
+    text: '{0}ブラウザパスが指定されていません。'
+error.malformed.url:
+    text: '不正な URL です : {0}'
+error.please.specify.path.to.web.browser:
+    text: '[ファイル] - [設定] - [一般] から Web ブラウザのパスを指定してください'
+title.browser.not.found:
+    text: ブラウザが見つかりません
+title.browser.path.not.found:
+    text: ブラウザのパスが見つかりません
+title.select.path.to.browser:
+    text: ブラウザへのパス選択

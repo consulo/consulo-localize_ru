@@ -1,0 +1,84 @@
+analysis.suspended:
+    text: 코드 분석이 일시 중단됨
+class.is.subclassed.by.header:
+    text: 하위 클래스<br>
+class.is.subclassed.too.many:
+    text: 하위 클래스가 있음
+import.popup.hint.text:
+    text: <html><body><a href="action">{0} 가져오기...</a> \&nbsp;{1}? \&nbsp;\&nbsp;<span style="color:#{3}">{2}</span></body></html>
+import.popup.multiple:
+    text: '{0}? (여러 선택 사항...)'
+inspection.collapse.description:
+    text: 간략히…
+inspection.extended.description:
+    text: 더 보기…
+interface.is.implemented.by.header:
+    text: 구현자<br>
+interface.is.implemented.too.many:
+    text: 구현이 있음
+iw.status.analyzing:
+    text: 분석 중…
+iw.status.off:
+    text: 꺼짐
+iw.status.paused:
+    text: 일시 정지됨…
+method.implements:
+    text: <a href="#javaClass/{1}">{1}</a>의 메서드를 구현함
+method.implements.in:
+    text: "<a href=\"#javaClass/{1}\">{1}</a>의 ''{0}'' 메서드를 구현함"
+method.is.implemented.header:
+    text: 다음에 구현됨 <br>
+method.is.implemented.too.many:
+    text: 구현이 있음
+method.is.overridden.too.many:
+    text: 하위 클래스에서 재정의됨
+method.is.overriden.header:
+    text: 다음에 재정의됨 <br>
+method.overrides:
+    text: <a href="#javaClass/{1}">{1}</a>의 메서드를 재정의함
+method.overrides.in:
+    text: "<a href=\"#javaClass/{1}\">{1}</a>의 ''{0}'' 메서드를 재정의함"
+navigation.findUsages.title.super.method:
+    text: '{0}의 상위 메서드'
+navigation.title.implementation.method:
+    text: <html><body><b>{0}</b>의 구현 선택({1, choice, 1#1개 메서드|2#{1,number}개 메서드} 발견됨)</body></html>
+navigation.title.overrider.method:
+    text: <html><body><b>{0}</b>의 재정의 메서드 선택({1, choice, 1#1개 메서드|2#{1,number}개 메서드} 발견됨)</body></html>
+navigation.title.subclass:
+    text: <html><body><b>{0}</b>의 하위 클래스 선택({1, choice, 1#1개 클래스|2#{1,number}개 클래스} 발견됨{2})</body></html>
+navigation.title.super.method:
+    text: '{0}의 상위 메서드 선택'
+no.analysis.performed:
+    text: 수행된 분석이 없음
+no.errors.or.warnings.found:
+    text: 문제가 발견되지 않음
+pass.inspection:
+    text: 검사
+pass.syntax:
+    text: 구문 분석
+pass.wolf:
+    text: 오류 파일 확인 중
+performing.code.analysis:
+    text: 코드 분석 수행 중
+popup.title.configure.highlighting.level:
+    text: '{0}의 강조 수준'
+process.title.file.is.binary:
+    text: 파일이 바이너리임
+process.title.file.is.decompiled:
+    text: 파일이 디컴파일됨
+process.title.file.is.generated:
+    text: 파일이 생성됨
+process.title.highlighting.is.disabled.for.this.file:
+    text: 이 파일에 대해 강조 표시가 비활성화됨
+process.title.highlighting.is.paused.temporarily:
+    text: 강조 표시가 일시적으로 정지됨
+process.title.highlighting.level.is.none:
+    text: 강조 표시 비활성화됨
+process.title.no.file:
+    text: 파일 없음
+process.title.project.is.disposed:
+    text: 프로젝트가 삭제됨
+shallow.analysis.completed:
+    text: 단순 분석 완료
+shallow.analysis.completed.details:
+    text: 프로젝트 분석이 완료된 후 전체 결과를 사용할 수 있습니다

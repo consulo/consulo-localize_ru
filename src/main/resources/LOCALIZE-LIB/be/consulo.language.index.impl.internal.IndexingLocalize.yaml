@@ -1,0 +1,72 @@
+index.content.diagnostic.dumping:
+    text: Дамп шляхоў індэксных файлаў і іншых метаданых...
+index.content.diagnostic.reading:
+    text: Чытанне метаданых індэксных файлаў...
+index.corrupted.notification.text:
+    text: Індэксныя файлы на дыску пашкоджаны. Індэксы будуць перабудаваны.
+index.format.changed.notification.text:
+    text: Фармат індэксных файлаў змяніўся для {0} індэксаў. Гэтыя індэксы будуць перабудаваны.
+index.rebuild.notification.title:
+    text: Перабудова індэксаў
+indexable.files.provider.indexing.additional.dependencies:
+    text: Індэксацыя залежнасцей
+indexable.files.provider.indexing.fileOrDir.name:
+    text: "Індэксацыя ''{0}''"
+indexable.files.provider.indexing.internal.module.name:
+    text: Індэксацыя
+indexable.files.provider.indexing.library.name:
+    text: "Індэксацыя бібліятэкі ''{0}''"
+indexable.files.provider.indexing.module.name:
+    text: "Індэксацыя модуля ''{0}''"
+indexable.files.provider.indexing.named.provider:
+    text: "Індэксацыя ''{0}''"
+indexable.files.provider.indexing.sdk:
+    text: "Індэксацыя {0} ''{1}''"
+indexable.files.provider.scanning.additional.dependencies:
+    text: Сканіраванне залежнасцей
+indexable.files.provider.scanning.fileOrDir.name:
+    text: "Сканіраванне ''{0}''"
+indexable.files.provider.scanning.files.contributor:
+    text: "Сканіраванне ''{0}''"
+indexable.files.provider.scanning.internal.module.name:
+    text: Сканіраванне
+indexable.files.provider.scanning.library.name:
+    text: "Сканіраванне бібліятэкі ''{0}''"
+indexable.files.provider.scanning.module.name:
+    text: "Сканіраванне модуля ''{0}''"
+indexable.files.provider.scanning.sdk:
+    text: "Сканіраванне {0} ''{1}''"
+indexes.preparing.to.shutdown.message:
+    text: Падрыхтоўка індэксаў да завяршэння работы...
+indexes.reloading:
+    text: Перазагрузка індэксаў...
+notification.group.ide.caches:
+    text: Выяўлена пашкоджанне кэша IDE
+progress.indexing:
+    text: Абнаўленне індэксаў
+progress.indexing.scanning:
+    text: Сканіраванне файлаў для індэксацыі...
+progress.indexing.started.as.suspended:
+    text: Націсніце кнопку для пачатку індэксацыі
+progress.indexing.updating:
+    text: Індэксацыя...
+psi.scanning.files.progress:
+    text: Сканіраванне файлаў...
+psi.search.for.word.progress:
+    text: Пошук {0} у {1,choice,1#файле|1<{1} файлах}...
+psi.search.in.non.java.files.progress:
+    text: Аналіз выкарыстанняў па-за кодам...
+psi.search.scope.project.and.libraries:
+    text: Праект і бібліятэкі
+removing.indexable.set.project.handler:
+    text: Выдаленне індэксаў файлаў праекта
+search.scope.module:
+    text: В одном модуле
+search.scope.module.runtime:
+    text: "Runtime область модуля ''{0}''"
+terms.directory:
+    text: Каталог
+terms.file:
+    text: Файл
+toggled.dumb.mode:
+    text: Работа ў рэжыме абнаўлення індэксаў...

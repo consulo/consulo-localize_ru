@@ -1,0 +1,296 @@
+action.StreamTracerAction.text:
+    text: Адсачыць бягучы ланцуг Stream
+action.interrupt.thread.text:
+    text: Прервать
+action.memory.view.settings.text:
+    text: Налады прагляду памяці
+action.next.frame.text:
+    text: Наступны фрэйм
+action.previous.frame.text:
+    text: Папярэдні фрэйм
+ad.extra.selection.shortcut:
+    text: Выбрать элементы с {0}
+breakpoints.dialog.create.new.group:
+    text: Создать...
+breakpoints.dialog.edit.description:
+    text: Рэдагаваць апісанне
+breakpoints.dialog.new.group:
+    text: Новая группа
+breakpoints.dialog.new.group.name:
+    text: Імя новай групы
+breakpoints.dialog.no.group:
+    text: <Без группы>
+breakpoints.dialog.set.as.default:
+    text: Усталяваць па змаўчанні
+breakpoints.dialog.unset.as.default:
+    text: Прыбраць усталяванне па змаўчанні
+button.text.code.fragment.mode:
+    text: Рэжым фрагмента кода [&M]
+button.text.expression.mode:
+    text: Рэжым выразу [&M]
+debugger.configurable.display.name:
+    text: Адладчык
+debugger.dataViews.display.name:
+    text: Прадстаўленні дадзеных
+debugger.evaluate.expression.or.add.a.watch.hint:
+    text: Вылічыць выраз ({0}) або дадаць у назіранне ({1})
+debugger.frames.not.available:
+    text: Фреймы недоступны
+debugger.no.watches:
+    text: Няма назіранняў
+debugger.result.node.name:
+    text: Результат
+debugger.runner.start.action.text:
+    text: Отладка [&D]
+debugger.session.tab.console.content.name:
+    text: Консоль
+debugger.session.tab.frames.title:
+    text: Фреймы
+debugger.session.tab.threads.title:
+    text: Патокі
+debugger.session.tab.variables.title:
+    text: Переменные
+debugger.session.tab.watches.title:
+    text: Назіранні
+debugger.state.message.connected:
+    text: Подключено
+debugger.state.message.connecting:
+    text: Падключэнне
+debugger.state.message.disconnected:
+    text: Отключено
+debugger.stepping.display.name:
+    text: Пакрокавае выкананне
+debugger.threads.not.available:
+    text: Патокі недаступныя
+debugger.variables.not.available:
+    text: Переменные недоступны
+dialog.title.evaluate.code.fragment:
+    text: Вылічыць фрагмент кода
+done.action.text:
+    text: Готово
+exception.label:
+    text: Прычына
+exception.tab.name:
+    text: Выключэнне
+inspect.value.dialog.title:
+    text: "Даследаваць ''{0}''"
+invalid.frame:
+    text: <Несапраўдны фрэйм>
+load.value.task.error:
+    text: 'Не ўдалося загрузіць значэнне: {0}'
+load.value.task.text:
+    text: Загрузка значэння
+memory.instances.close.text:
+    text: Закрыть
+memory.unable.to.get.instances.of.class:
+    text: Не ўдалося атрымаць экзэмпляры класа {0}
+memory.view.empty.running:
+    text: Спыніцеся на брэйкпоінце для загрузкі спіса класаў
+memory.view.empty.stopped:
+    text: Классы недоступны
+memory.view.instances.dialog.title:
+    text: Экземпляры {0}
+memory.view.instances.dialog.title.warning:
+    text: 'Экзэмпляры {0}. Папярэджанне: {1}'
+memory.view.instances.warning.not.all.loaded:
+    text: Загружены не все экземпляры (только {0})
+memory.view.load.classes:
+    text: Загрузіць класы
+memory.view.no.classes.loaded:
+    text: Классы не загружены.
+memory.view.table.column.name.class:
+    text: Класс
+memory.view.table.column.name.count:
+    text: Колькасць
+memory.view.table.column.name.diff:
+    text: Розніца
+multiple.chains.popup.title:
+    text: Найдено несколько цепочек
+node.test.show.full.value:
+    text: '...(показать)'
+node.text.ellipsis.0.more.nodes.double.click.to.show:
+    text: …(яшчэ {0} элемент{0,choice, 1#|2#ы|5#аў}. Двайны пстрычок для прагляду)
+node.text.ellipsis.0.unknown.more.nodes.double.click.to.show:
+    text: …(двайны пстрычок для прагляду дадатковых элементаў)
+node.text.ellipsis.truncated:
+    text: '…(даўжыня: {0})'
+rule.name.group.by.file:
+    text: Групаваць па файлах
+scope.block:
+    text: Блок
+scope.class:
+    text: Класс
+scope.closure:
+    text: Замыканне
+scope.global:
+    text: Глобальный
+scope.instance:
+    text: Экземпляр
+scope.library:
+    text: Бібліятэка
+scope.local:
+    text: Локальный
+scope.script:
+    text: Скрыпт
+scope.unknown:
+    text: Невядома
+scope.with:
+    text: Блок with
+setting.enable.auto.expressions.label:
+    text: Уключыць аўтаматычныя выразы ў прадстаўленні "Пераменныя"
+setting.focus.app.on.breakpoint.label:
+    text: Факусаваць прыкладанне на брэйкпоінце
+setting.hide.window.label:
+    text: Хаваць акно адладкі пры завяршэнні працэсу [&W]
+setting.sort.alphabetically.label:
+    text: Сартаваць значэнні па алфавіце [&L]
+setting.value.tooltip.delay.label:
+    text: 'Затрымка падказкі (мс) [&V]:'
+settings.scroll.to.center:
+    text: Пракручваць пункт выканання да цэнтра
+settings.show.tooltip.on.selection:
+    text: Паказваць падказкі значэнняў пры вылучэнні кода
+settings.show.value.tooltip:
+    text: Паказваць падказкі значэнняў
+settings.show.values.inline:
+    text: Паказваць значэнні ўбудавана
+settings.show.window.label:
+    text: Паказваць акно адладкі на брэйкпоінце [&D]
+settings.tooltip.label:
+    text: Калі адключана, выкарыстоўвайце "{0}" для паказу/хавання падказак
+showReferring.dialog.title:
+    text: "Аб'екты, якія спасылаюцца, для {0}"
+stack.frame.loading.text:
+    text: Загрузка...
+stream.debugger.dialog.flat.mode.button:
+    text: Плоскі рэжым
+stream.debugger.dialog.split.mode.button:
+    text: Раздзельны рэжым
+stream.debugger.dialog.title:
+    text: Трасіроўка Stream
+stream.debugger.dialog.with.exception.title:
+    text: Трасіроўка Stream (Узнікла выключэнне)
+string.debugger.runner.description:
+    text: Адладка выбранай канфігурацыі
+suspend.policy.panel.all:
+    text: Все [&A]
+suspend.policy.panel.makeDefault:
+    text: Зрабіць па змаўчанні [&F]
+suspend.policy.panel.suspend:
+    text: 'Прыпыненне [&S]:'
+suspend.policy.panel.thread:
+    text: Поток [&T]
+suspend.policy.panel.title:
+    text: Палітыка прыпынення
+tab.content.exception.thrown:
+    text: Няма выніку (выкінута выключэнне)
+tab.content.no.result:
+    text: Няма выніку для такога ланцуга Stream
+xbreakpoint.label.after.breakpoint.was.hit:
+    text: 'Пасля спрацоўвання:'
+xbreakpoint.label.empty:
+    text: Выберыце брэйкпоінт
+xbreakpoint.master.breakpoint.description:
+    text: 'Адключаны да спрацоўвання наступнага брэйкпоінта:'
+xbreakpoint.master.breakpoint.none:
+    text: <Нет>
+xbreakpoint.radio.disable.again:
+    text: Адключыць зноў
+xbreakpoint.radio.leave.enabled:
+    text: Пакінуць уключаным
+xbreakpoint.reached.text:
+    text: 'Дасягнуты брэйкпоінт:'
+xbreakpoint.tooltip.condition:
+    text: 'Умова:'
+xbreakpoint.tooltip.depends.on:
+    text: 'Залежыць ад:'
+xbreakpoint.tooltip.log.expression:
+    text: 'Выраз для лога:'
+xbreakpoint.tooltip.log.message:
+    text: 'Лагіраваць паведамленне: так'
+xbreakpoint.tooltip.suspend.policy.all:
+    text: 'Прыпыніць: усе'
+xbreakpoint.tooltip.suspend.policy.none:
+    text: 'Прыпыніць: не'
+xbreakpoint.tooltip.suspend.policy.thread:
+    text: 'Прыпыніць: паток'
+xbreakpoints.condition.checkbox:
+    text: 'Умова [&C]:'
+xbreakpoints.dialog.title:
+    text: Брэйкпоінты
+xbreakpoints.enabled.label:
+    text: Включен [&D]
+xbreakpoints.log.expression.checkbox:
+    text: 'Вылічыць і запісаць [&E]:'
+xbreakpoints.log.message.checkbox:
+    text: Паведамленне пра дасягненне брэйкпоінта [&M]
+xbreakpoints.properties.actions.group.title:
+    text: Дзеянні
+xdebugger.attach.action:
+    text: Далучыцца да працэсу…
+xdebugger.attach.action.collectingItems:
+    text: Збор элементаў для далучэння…
+xdebugger.attach.action.description:
+    text: Далучыцца да працэсу з дапамогай даступных адладчыкаў
+xdebugger.attach.action.items.error.message:
+    text: Не ўдалося атрымаць спіс запушчаных працэсаў на хосце. Падрабязнасці глядзіце ў логах IDE.
+xdebugger.attach.action.items.error.title:
+    text: Не ўдалося атрымаць працэсы
+xdebugger.attach.host.popup.title:
+    text: Просмотр процессов {0}
+xdebugger.attach.popup.emptyText:
+    text: Няма працэсаў для далучэння
+xdebugger.attach.popup.selectDebugger.title:
+    text: Адладчык
+xdebugger.attach.popup.title:
+    text: Далучыць з дапамогай {0}
+xdebugger.attach.popup.title.default:
+    text: Далучыцца да
+xdebugger.attach.toLocal.popup.recent:
+    text: Нядаўнія
+xdebugger.building.tree.node.message:
+    text: Сбор данных…
+xdebugger.button.evaluate:
+    text: Вылічыць [&V]
+xdebugger.colors.page.name:
+    text: Адладчык
+xdebugger.debugger.tab.title:
+    text: Адладчык
+xdebugger.default.content.title:
+    text: Отладка
+xdebugger.dialog.title.evaluate.expression:
+    text: Вылічыць выраз
+xdebugger.disable.breakpoint.action.text:
+    text: Адключыць брэйкпоінт
+xdebugger.drag.text.0.elements:
+    text: '{0} элементов'
+xdebugger.drop.text.add.to.watches:
+    text: Дадаць у назіранне
+xdebugger.enable.breakpoint.action.text:
+    text: Уключыць брэйкпоінт
+xdebugger.evaluate.addtowatches.hint:
+    text: Выкарыстоўвайце {0} для дадання ў назіранне
+xdebugger.evaluate.dialog.close:
+    text: Закрыть
+xdebugger.evaluate.label.expression:
+    text: 'Выраз:'
+xdebugger.evaluate.label.result:
+    text: 'Результат [&R]:'
+xdebugger.evaluate.language.hint:
+    text: Націсніце для змены мовы
+xdebugger.evaluate.result:
+    text: Результат
+xdebugger.evaluate.stack.frame.has.not.evaluator:
+    text: Немагчыма вылічыць, бягучы фрэйм стэка не падтрымлівае вылічэнне
+xdebugger.evaluating.expression.node.message:
+    text: Вылічэнне…
+xdebugger.label.text.code.fragment:
+    text: 'Фрагмент кода:'
+xdebugger.modifiyng.value.node.message:
+    text: Змяненне значэння…
+xdebugger.popup.value.tree.set.root.action.tooltip:
+    text: Усталяваць як корань
+xdebugger.remove.line.breakpoint.action.text:
+    text: Выдаліць брэйкпоінт
+xdebugger.reset.frame.title:
+    text: Скінуць фрэйм

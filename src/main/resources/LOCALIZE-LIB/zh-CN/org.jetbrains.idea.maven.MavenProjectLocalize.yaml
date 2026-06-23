@@ -1,0 +1,107 @@
+maven.action.download.sources:
+    text: 下载源代码
+maven.action.download.sources.busy.text:
+    text: 正在下载源…
+maven.downloading:
+    text: 正在下载 Maven 库源代码和文档…
+maven.downloading.docs:
+    text: 正在下载 Maven 库文档…
+maven.downloading.plugins:
+    text: 正在下载 Maven 插件…
+maven.downloading.pom.plugins:
+    text: 正在下载 {0} 的插件…
+maven.downloading.sources:
+    text: 正在下载 Maven 库源代码…
+maven.ignore:
+    text: 忽略项目
+maven.ignore.edit:
+    text: 编辑忽略的文件…
+maven.import.incompatible.modules:
+    text: <html>以下{0,choice,1#模块|2#模块}的类型不正确，{0,choice,1#需要|2#需要}重新创建:<br><br>{1}<br><br>如果您不想重新创建{0,choice,1#模块|2#模块}，相应的 Maven 项目将被标记为已忽略，<br>之后，您可以在 Maven 项目工具窗口中取消忽略它们。</html>
+maven.import.incompatible.modules.ignore:
+    text: 忽略这些项目
+maven.import.incompatible.modules.recreate:
+    text: 重新创建
+maven.import.message.delete.obsolete:
+    text: |-
+        这些模块已从 Maven 结构中移除:
+        {0}
+
+        是否同时希望将它们从项目中移除?
+maven.import.title.module.dir:
+    text: 选择 IDEA 模块文件(*.iml)的目录
+maven.locating.files:
+    text: 正在定位 Maven 项目文件…
+maven.navigator.nothing.to.display:
+    text: |-
+        没有要显示的 Maven 项目。
+
+        您可以使用 {0} 添加一个项目，或者使用 {1} 让插件在项目根下找到所有 pom.xml 文件并重新加载
+maven.post.processing:
+    text: 正在配置 Maven 项目
+maven.profile.activate:
+    text: 激活
+maven.profile.deactivate:
+    text: 停用
+maven.profile.default:
+    text: 使用默认值
+maven.project.import.title:
+    text: 重新加载 Maven 项目
+maven.project.importing:
+    text: 正在导入 Maven 项目
+maven.project.problem.moduleNotFound:
+    text: "找不到模块 ''{0}''"
+maven.project.problem.parentHasProblems:
+    text: "父级 ''{0}'' 有问题"
+maven.project.problem.parentNotFound:
+    text: "未找到父级 ''{0}''"
+maven.project.problem.recursiveInheritance:
+    text: 已找到递归继承
+maven.project.problem.selfInheritance:
+    text: 已找到自继承
+maven.project.problem.unresolvedDependency:
+    text: "未解析的依赖项: ''{0}''"
+maven.project.problem.unresolvedExtension:
+    text: "未解析的构建扩展: ''{0}''"
+maven.project.problem.unresolvedPlugin:
+    text: "未解析的插件: ''{0}''"
+maven.reading:
+    text: 正在读取 Maven 项目…
+maven.reading.pom:
+    text: 正在读取 {0}…
+maven.resolving:
+    text: 正在解析 Maven 依赖项…
+maven.resolving.pom:
+    text: 正在解析 {0} 的依赖项…
+maven.scanning.projects:
+    text: 正在扫描 Maven 项目…
+maven.select.local.repository:
+    text: 选择本地仓库
+maven.select.maven.home.directory:
+    text: 选择 Maven 主目录
+maven.select.maven.settings.file:
+    text: 选择用户设置文件
+maven.tab.ignored.files:
+    text: 已忽略的文件
+maven.tab.importing:
+    text: 正在导入
+maven.testRunning:
+    text: 正在运行测试
+maven.unignore:
+    text: 取消忽略项目
+maven.updating.folders:
+    text: 正在生成 Maven 源…
+maven.updating.folders.pom:
+    text: 正在生成 {0} 的源…
+view.node.dependencies:
+    text: 依赖项
+view.node.lifecycle:
+    text: 生命周期
+view.node.modules:
+    text: 模块
+view.node.plugins:
+    text: 插件
+view.node.profiles:
+    text: 配置文件
+view.node.run.configurations:
+    text: 运行配置

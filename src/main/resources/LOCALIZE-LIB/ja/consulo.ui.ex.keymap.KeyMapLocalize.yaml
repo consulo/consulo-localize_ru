@@ -1,0 +1,164 @@
+action.column.name:
+    text: アクション
+action.description.ide.border.factory.title:
+    text: アクションの説明
+actions.tree.external.tools.group:
+    text: 外部ツール
+add.keyboard.shortcut.button:
+    text: キーボード ショートカットの追加(&K)
+add.keymap.label:
+    text: 追加(&D)
+add.mouse.shortcut.button:
+    text: マウス ショートカットの追加(&M)
+all.actions.group.title:
+    text: すべてのアクション
+ant.targets.group.title:
+    text: Ant ターゲット
+assigned.to.info.message:
+    text: '{0} に割り当て'
+based.on.keymap.label:
+    text: 'ベースのキーマップ : {0}'
+commender.view.popup.menu.title:
+    text: コマンダ ビュー ポップアップ メニュー
+configuration.all.keymaps.should.have.unique.names.error.message:
+    text: すべてのキーマップは一意の名前にする必要があります
+conflict.shortcut.dialog.cancel.button:
+    text: キャンセル
+conflict.shortcut.dialog.leave.button:
+    text: そのまま
+conflict.shortcut.dialog.message:
+    text: ショートカットは既に他のアクションに割り当てられています。他への割り当てを削除しますか ?
+conflict.shortcut.dialog.remove.button:
+    text: 削除
+conflict.shortcut.dialog.title:
+    text: 警告
+conflicts.ide.border.factory.title:
+    text: 競合
+copy.keymap.button:
+    text: コピー(&C)
+debugger.actions.group.title:
+    text: デバッガのアクション
+delete.keymap.button:
+    text: 削除(&L)
+delete.keymap.dialog.message:
+    text: キーマップを削除しますか ?
+delete.keymap.dialog.title:
+    text: 警告
+dialog.conflicts.text:
+    text: 既に割り当てられている：
+disable.mnemonic.in.menu.check.box:
+    text: メニューのニーモニックを無効にする(&M)
+edit.quick.list.dialog.title:
+    text: クイック リストの編集
+editor.actions.group.title:
+    text: エディタのアクション
+editor.popup.menu.title:
+    text: エディタ ポップアップ メニュー
+editor.shortcut:
+    text: エディタ {0}
+editor.tab.popup.menu.title:
+    text: エディタ タブ ポップアップ メニュー
+enable.second.keystroke.check.box:
+    text: '有効 :'
+favorites.popup.title:
+    text: お気に入りビュー ポップアップ メニュー
+filter.clear.action.text:
+    text: フィルタリングをクリア
+filter.enable.second.stroke.checkbox:
+    text: 有効
+filter.settings.popup.title:
+    text: フィルタ設定
+first.stroke.panel.title:
+    text: 最初のストローク
+j2ee.view.popup.menu.title:
+    text: J2EE ビュー ポップアップ メニュー
+key.maps.name:
+    text: キー マップ
+keyboard.shortcut.dialog.title:
+    text: キーボード ショートカットの入力
+keymap.display.name:
+    text: キーマップ
+keymap.no.name:
+    text: <名前なし>
+keymap.noname.presentable.name:
+    text: <名前未設定>
+keymaps.border.factory.title:
+    text: キーマップ
+macros.group.title:
+    text: マクロ
+main.menu.action.title:
+    text: メイン メニュー
+main.toolbar.title:
+    text: メイン ツールバー
+mouse.click.shortcut.text:
+    text: '{0}ボタン{1} クリック'
+mouse.double.click.shortcut.text:
+    text: '{0}ボタン{1} ダブルクリック'
+mouse.shortcut.dialog.assigned.to.area:
+    text: '{0} に割り当て'
+mouse.shortcut.dialog.click.count.border:
+    text: クリック回数
+mouse.shortcut.dialog.click.pad.border:
+    text: クリック パッド
+mouse.shortcut.dialog.conflicts.border:
+    text: 競合
+mouse.shortcut.dialog.double.click.radio:
+    text: ダブル クリック
+mouse.shortcut.dialog.no.conflicts.area:
+    text: 競合なし
+mouse.shortcut.dialog.shortcut.preview.border:
+    text: ショートカット プレビュー
+mouse.shortcut.dialog.single.click.radio:
+    text: シングル クリック
+mouse.shortcut.dialog.title:
+    text: マウス ショートカットの入力
+mouse.shortcut.label:
+    text: ここをクリックしてマウス ショートカットを入力します
+new.indexed.keymap.name:
+    text: 名称未設定{0}
+new.keymap.name:
+    text: 名前未設定
+no.conflict.info.message:
+    text: 競合なし
+other.group.title:
+    text: その他
+parent.keymap.label:
+    text: '親キーマップ :'
+plugins.group.title:
+    text: プラグイン
+prefix.key.pressed.message:
+    text: 接頭辞キーが押されました。
+project.view.popup.menu.title:
+    text: プロジェクト ビュー ポップアップ メニュー
+quick.list.panel.add.separator.button:
+    text: セパレータの追加
+quick.list.panel.description.label:
+    text: 説明
+quick.list.panel.display.name.label:
+    text: 表示名
+quick.list.panel.move.down.button:
+    text: 下へ移動(&D)
+quick.list.panel.move.up.button:
+    text: 上へ移動(&U)
+quick.lists.group.title:
+    text: クイック リスト
+quick.lists.ide.border.factory.title:
+    text: クイック リスト
+remove.keymap.label:
+    text: 削除(&V)
+remove.shortcut.button:
+    text: 削除(&R)
+second.stroke.panel.title:
+    text: 2 番目のストローク
+shortcut.preview.ide.border.factory.title:
+    text: ショートカット プレビュー
+shortcuts.column.name:
+    text: ショートカット
+shortcuts.keymap.label:
+    text: 'ショートカット(&U):'
+unnamed.list.display.name:
+    text: 名前未設定
+use.non.english.keyboard.layout.support:
+    text: レイアウトサポート
+version.control.group.title:
+    text: バージョン管理システム

@@ -1,0 +1,182 @@
+action.analysis.noun:
+    text: Análisis
+action.analyze.verb:
+    text: Analizar
+action.analyzing.cyclic.dependencies.in.scope:
+    text: Dependencias cíclicas de {0}
+action.backward.dependency.analysis:
+    text: Análisis de dependencias inversas
+action.close.dependency.description:
+    text: Cerrar visor de dependencias
+action.cyclic.dependency.title:
+    text: Análisis de dependencias cíclicas
+action.edit.rules:
+    text: Editar reglas
+action.edit.rules.description:
+    text: Editar reglas de dependencia
+action.flatten.packages:
+    text: Aplanar paquetes
+action.forward.dependency.analysis:
+    text: Análisis de dependencias
+action.group.by.scope.type:
+    text: Agrupar por tipo de ámbito
+action.group.by.scope.type.description:
+    text: Agrupar por tipo de ámbito (producción, prueba, bibliotecas)
+action.module.dependencies.direction:
+    text: Dependencias inversas (usos)
+action.rerun.dependency:
+    text: Reejecutar análisis de dependencias
+action.select.in.left.tree:
+    text: Seleccionar en el árbol de la izquierda
+action.select.in.left.tree.description:
+    text: Seleccionar en el árbol izquierdo (para explorar dependencias)
+action.show.files:
+    text: Mostrar archivos
+action.show.files.description:
+    text: Mostrar/Ocultar archivos
+action.show.illegals.only:
+    text: Mostrar solo ilegales
+action.show.illegals.only.description:
+    text: Mostrar solo archivos que tienen dependencias ilegales
+action.show.modules:
+    text: Mostrar módulos
+action.show.modules.description:
+    text: Mostrar/ocultar módulos
+analysis.scope.title:
+    text: Ámbito {0}
+analyzing.project:
+    text: Analizando proyecto
+backward.dependencies.progress.text:
+    text: Analizando dependencias inversas
+backward.dependencies.toolwindow.title:
+    text: Dependencias inversas de {0}
+backward.dependencies.usage.view.initial.text:
+    text: Seleccione dónde buscar en el árbol de la derecha y qué buscar en el árbol de la izquierda.
+backward.dependencies.usage.view.root.node.text:
+    text: Usos de la selección del alcance del árbol izquierdo en la selección del alcance del árbol derecho
+checking.class.files:
+    text: Comprobando archivos de clase
+cyclic.dependencies.progress.text:
+    text: Construyendo el grafo de dependencias
+cyclic.dependencies.scope.dialog.module.button:
+    text: "{0} &módulo ''{1}''"
+cyclic.dependencies.scope.dialog.project.button:
+    text: '{0} todo el &proyecto'
+cyclic.dependencies.scope.dialog.title:
+    text: Especificar el ámbito {0}
+cyclic.dependencies.tree.cycle.node.text:
+    text: ciclo
+cyclic.dependencies.usage.view.initial.text:
+    text: Seleccione el paquete para analizar en el árbol de la izquierda
+cyclic.dependencies.usage.view.root.node.text:
+    text: "Usos del paquete ''{0}'' en el paquete ''{1}''"
+dependencies.libraries.node.text:
+    text: Bibliotecas
+dependencies.tree.node.default.package.abbreviation:
+    text: <paquete predeterminado>
+dependency.configurable.allow.table.column1:
+    text: Permitir usos de
+dependency.configurable.allow.table.column2:
+    text: Solo en
+dependency.configurable.deny.table.column1:
+    text: Denegar el uso de
+dependency.configurable.deny.table.column2:
+    text: Ubicación
+dependency.configurable.display.name:
+    text: Validación de dependencias
+find.dependencies.progress.text:
+    text: 'Buscando usos en: {0}'
+forward.dependencies.usage.view.initial.text:
+    text: Seleccione dónde buscar en el árbol de la izquierda y qué buscar en el árbol de la derecha.
+forward.dependencies.usage.view.root.node.text:
+    text: Usos de la selección del ámbito del árbol derecho en la selección del ámbito del árbol izquierdo
+local.scopes.node.text:
+    text: Ámbitos locales
+mark.dependency.illegal.text:
+    text: Marcar como ilegal
+module.dependencies.cycle.node.text:
+    text: Ciclo {0}
+module.dependencies.scope.dialog.module.button:
+    text: "Inspeccionar &módulo ''{0}''"
+module.dependencies.scope.dialog.project.button:
+    text: Inspeccionar todo el &proyecto
+module.dependencies.scope.dialog.title:
+    text: Especificar el alcance del análisis
+no.dependencies.found.message:
+    text: No se encontraron dependencias de {0} en {1}.
+package.dependencies.build.process.title:
+    text: Escaneando paquetes
+package.dependencies.build.progress.text:
+    text: Escaneando paquetes
+package.dependencies.library.node.text:
+    text: Clases de biblioteca
+package.dependencies.node.items.count:
+    text: '{0, choice, 1#1 entrada|2#{0, number} entradas}'
+package.dependencies.on.toolwindow.title:
+    text: Dependencias de {0} en {1}
+package.dependencies.production.node.text:
+    text: Clases de producción
+package.dependencies.progress.text:
+    text: Analizando las dependencias del paquete
+package.dependencies.progress.title:
+    text: Analizando dependencias
+package.dependencies.test.node.text:
+    text: Clases de prueba
+package.dependencies.toolwindow.title:
+    text: Dependencias de {0}
+predefined.scope.problems.name:
+    text: Problemas
+project.is.out.of.date:
+    text: El proyecto está desactualizado
+scanning.scope.progress.title:
+    text: Escaneando el ámbito…
+scope.directory:
+    text: "Directorio ''{0}''"
+scope.display.name.allow.scope:
+    text: "Permitir el uso del ámbito ''{0}'' en el ámbito ''{1}''"
+scope.display.name.deny.scope:
+    text: "Denegar el uso del ámbito ''{0}'' en el ámbito ''{1}''"
+scope.file:
+    text: archivo
+scope.module.list:
+    text: '{1, choice, 1#Módulo|2#Módulos} {0}'
+scope.option.analyze.injected.code:
+    text: Inspeccionar código inyectado (&J)
+scope.option.custom:
+    text: 'Ámbito personalizado(&C):'
+scope.option.include.test.sources:
+    text: Incluir fuentes de &test
+scope.option.module:
+    text: "Módulo ''{0}''"
+scope.option.module.with.mnemonic:
+    text: "&Módulo ''{0}''"
+scope.option.uncommitted.files:
+    text: Archivos &sin confirmar
+scope.option.uncommitted.files.all.changelists.choice:
+    text: Todos
+scope.option.whole.project:
+    text: Todo el &proyecto
+scope.package:
+    text: Paquete {0}
+scope.project:
+    text: "Proyecto ''{0}''"
+scope.selected.files:
+    text: '{0,choice,1#archivo seleccionado|2#archivos seleccionados}'
+scope.virtual.files:
+    text: selección
+skip.import.statements.checkbox.title:
+    text: Omitir sentencias de importación
+specify.analysis.scope:
+    text: Especificar el alcance de {0}
+status.bar.no.rule.violation.message:
+    text: No se han infringido reglas
+status.bar.rule.violation.message:
+    text: '{0, choice, 1#Se ha infringido la siguiente regla|2#Se han infringido las siguientes reglas}: {1}'
+unknown.node.text:
+    text: <desconocido>
+update.module.tree.progress.text:
+    text: "Procesando ciclos del módulo ''{0}''"
+update.module.tree.progress.title:
+    text: Actualizando árbol de módulos
+usage.view.canceled:
+    text: Cancelado

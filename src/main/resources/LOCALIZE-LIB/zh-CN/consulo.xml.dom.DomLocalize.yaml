@@ -1,0 +1,42 @@
+abstract.class.not.allowed:
+    text: 抽象类不允许
+add.attribute.fix.name:
+    text: 添加 "{0}" 属性
+add.element.fix.name:
+    text: 添加 <{0}> 元素
+choose.file:
+    text: 选择文件
+class.decorator.or.has.default.constructor:
+    text: "''{0}'' 应具有默认构造函数或者实现 ''Decorator'' 模式"
+class.has.no.default.constructor:
+    text: "''{0}'' 没有默认的构造函数"
+class.is.not.a.subclass:
+    text: "''{0}'' 未分配到 ''{1}''"
+class.is.not.concrete:
+    text: "''{0}'' 不是一个具体类"
+class.is.not.public:
+    text: "''{0}'' 不为 public"
+create.new.element:
+    text: "新建 {0} ''{1}''"
+dom.usage.type:
+    text: 在 XML 描述符中
+enum.not.allowed:
+    text: 枚举不被允许
+error.cannot.convert.default.message:
+    text: "无效的值：''{0}''"
+error.unknown.enum.value.message:
+    text: "未知的枚举值''{0}''"
+interface.not.allowed:
+    text: 非抽象 Bean 不允许接口
+message.invalid.value.quotation:
+    text: "坏的引用 ''{0}''"
+remove.attribute.fix.name:
+    text: 移除 "{0}" 属性
+remove.element.fix.name:
+    text: 移除 <{0}> 元素
+value.converter.format.exception:
+    text: "无法转换字符串''{0}''为目标类''{1}''"
+value.converter.format.exception.empty.string:
+    text: "无法转换到目标类的空字符串'' {0}''"
+value.should.be.integer:
+    text: 值应为整数

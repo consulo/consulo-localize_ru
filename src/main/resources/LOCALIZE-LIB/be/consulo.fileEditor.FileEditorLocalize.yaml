@@ -1,0 +1,104 @@
+action.sort.alphabetically:
+    text: Па алфавіце
+action.structureview.show.inherited:
+    text: Унаследованные
+file.structure.toggle.show.inherited:
+    text: Унаследованные члены
+large.file.editor.action.description.search.entire.file.and.show.toolwindow:
+    text: Шукаць па ўсім файле з пачатку і паказаць супадзенні ў інструментальным акне
+large.file.editor.cant.launch.searching.because.of.unexpected.error:
+    text: Немагчыма пачаць пошук з-за нечаканай памылкі.
+large.file.editor.encoding.widget.name:
+    text: Кадаванне вялікага файла
+large.file.editor.find.backward.action.description:
+    text: Шукаць ад бягучай пазіцыі да пачатку і паказаць супадзенні ў інструментальным акне
+large.file.editor.find.backward.action.text:
+    text: Шукаць назад
+large.file.editor.find.forward.action.description:
+    text: Шукаць ад бягучай пазіцыі да канца і паказаць супадзенні ў інструментальным акне
+large.file.editor.find.forward.action.text:
+    text: Шукаць наперад
+large.file.editor.find.further.backward.action.description:
+    text: Шукаць супадзенні да пачатку файла і дадаць да існуючых вынікаў
+large.file.editor.find.further.backward.action.text:
+    text: Знайсці і дадаць папярэднія супадзенні
+large.file.editor.find.further.forward.action.description:
+    text: Шукаць супадзенні да канца файла і дадаць да існуючых вынікаў
+large.file.editor.find.further.forward.action.text:
+    text: Знайсці і дадаць наступныя супадзенні
+large.file.editor.match.case.action.mnemonic.text:
+    text: Улічваць рэгістр [&C]
+large.file.editor.message.cant.change.encoding.because.it.has.bom.byte.order.mark:
+    text: Файл мае BOM (Byte Order Mark).
+large.file.editor.message.cant.change.encoding.because.search.is.working.now:
+    text: Ідзе пошук.
+large.file.editor.message.cant.open.file.because.file.not.found:
+    text: Файл не найден.
+large.file.editor.message.cant.open.large.file.editor.for.target.file:
+    text: Немагчыма адкрыць рэдактар вялікіх файлаў для мэтавага файла.
+large.file.editor.message.cant.show.file.in.the.editor:
+    text: Невозможно показать файл в редакторе
+large.file.editor.message.error.while.searching:
+    text: Памылка пры пошуку.
+large.file.editor.message.error.while.working.with.file.try.to.reopen.it:
+    text: Памылка пры рабоце з файлам. Паспрабуйце адкрыць яго зноў.
+large.file.editor.message.found.some.matches:
+    text: Знойдзена {0} супадзенняў да гэтага часу.
+large.file.editor.message.found.some.matches.in.some.bounds.of.file:
+    text: Знойдзена {0} супадзенняў паміж {1}% і {2}% файла.
+large.file.editor.message.found.some.matches.in.the.whole.file:
+    text: Знойдзена {0} супадзенняў ва ўсім файле.
+large.file.editor.message.search.complete:
+    text: Пошук завершаны.
+large.file.editor.message.search.is.completed.and.no.more.matches:
+    text: Пошук завершаны. Больш супадзенняў няма.
+large.file.editor.message.search.stopped.because.something.went.wrong:
+    text: Пошук спынены з-за памылкі.
+large.file.editor.message.search.stopped.because.too.many.results.were.found:
+    text: Пошук спынены з-за занадта вялікай колькасці вынікаў.
+large.file.editor.message.searching.at.some.percent.of.file:
+    text: Пошук выкананы на {0}% файла…
+large.file.editor.message.some.string.not.found:
+    text: '"{0}" не найдено'
+large.file.editor.message.stopped.by.user:
+    text: Остановлено пользователем.
+large.file.editor.message.working.with.file.error:
+    text: Памылка пры рабоце з файлам.
+large.file.editor.notification.text.the.file.is.too.large.so.showing.in.read.only.mode:
+    text: 'Файл занадта вялікі: {0}. Рэжым толькі для чытання.'
+large.file.editor.regex.action.mnemonic.text:
+    text: Рэгулярныя выразы [&X]
+large.file.editor.some.string.not.found.perform.some.action.again.to.search.from.end:
+    text: '"{0}" не знойдзена. Выканайце дзеянне "{1}" зноў для пошуку з канца.'
+large.file.editor.some.string.not.found.perform.some.action.again.to.search.from.start:
+    text: '"{0}" не знойдзена. Выканайце дзеянне "{1}" зноў для пошуку з пачатку.'
+large.file.editor.some.string.not.found.press.some.shortcut.to.search.from.the.end:
+    text: '"{0}" не знойдзена. Націсніце {1} для пошуку з канца.'
+large.file.editor.some.string.not.found.press.some.shortcut.to.search.from.the.start:
+    text: '"{0}" не знойдзена. Націсніце {1} для пошуку з пачатку.'
+large.file.editor.stop.searching.action.text:
+    text: Спыніць пошук
+large.file.editor.tab.name.some.string.in.some.file:
+    text: '"{0}" в {1}'
+large.file.editor.text.find.next.matches:
+    text: Знайсці наступныя супадзенні
+large.file.editor.text.find.previous.matches:
+    text: Знайсці папярэднія супадзенні
+large.file.editor.title:
+    text: Рэдактар вялікіх файлаў
+large.file.editor.title.cant.change.encoding:
+    text: Немагчыма змяніць кадаванне
+large.file.editor.title.search.error:
+    text: Памылка пошуку
+large.file.editor.title.searching.for.some.string.in.some.file:
+    text: Пошук "{0}" у файле "{1}"
+large.file.editor.title.show.match.problem:
+    text: Паказаць праблему супадзення
+large.file.editor.title.warning:
+    text: Папярэджанне
+large.file.editor.tooltip.file.encoding.is.some:
+    text: 'Кадаванне файла: {0}'
+large.file.editor.words.action.mnemonic.text:
+    text: Слова [&O]
+message.warning.about.regex.search.limitations:
+    text: Пошук па рэгулярных выразах не можа знайсці супадзенні даўжэйшыя за {0} Кб
