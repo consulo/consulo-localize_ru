@@ -4,8 +4,22 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-23T21:55:09.666155756Z",
+  "generatedAt" : "2026-06-26T08:46:59.751338408Z",
   "documents" : {
+    "consulo-apache-ant/consulo.apache.ant.impl.ApacheAntImplLocalize" : {
+      "source" : {
+        "revision" : 1,
+        "sig" : "869c6487b6106b8a7d21091c18795722"
+      },
+      "translations" : {
+        "en-US" : {
+          "sig" : "1e4318fc84c42bf80de7007cc499e9a4",
+          "state" : "Approved",
+          "total" : 189,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    },
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
         "revision" : 1,
@@ -830,15 +844,15 @@
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenRunnerLocalize" : {
       "source" : {
-        "revision" : 1,
-        "sig" : "252e5f23f1879906ede9488c9a7223d1"
+        "revision" : 2,
+        "sig" : "88e8fb6cffeafead27c2d0de5384a884"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "8f62ab28647f3f0b01922ecb7f00d726",
+          "sig" : "104775a66cee34e6f7816cf64e1ca992",
           "state" : "Approved",
-          "total" : 67,
-          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+          "total" : 69,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>", "github <github@no-reply.com>" ]
         },
         "ru" : {
           "sig" : "8f62ab28647f3f0b01922ecb7f00d726",
@@ -884,6 +898,20 @@
           "sig" : "91a32fbdfd1a2818f22b96da0dcd3722",
           "state" : "Approved",
           "total" : 9,
+          "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
+        }
+      }
+    },
+    "consulo-msbuild/consulo.msbuild.MSBuildLocalize" : {
+      "source" : {
+        "revision" : 1,
+        "sig" : "da3f98ca8e6cbd18fbb08ddd913f17fa"
+      },
+      "translations" : {
+        "en-US" : {
+          "sig" : "44816d4b6e6c422322c4fd4dc6701782",
+          "state" : "Approved",
+          "total" : 1,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
         }
       }
