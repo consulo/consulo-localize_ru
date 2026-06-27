@@ -1,0 +1,212 @@
+ambiguous.method.html.tooltip:
+    text: <html><body><table border=0><tr><td colspan={0}>Неоднозначный вызов метода. Подходит как</td></tr><tr>{1}<td>в <b>{2}</b>, так и</td></tr><tr>{3}<td>в <b>{4}</b></td></tr></table></body></html>
+annotation.missing.method:
+    text: Не найден метод «{0}»
+annotation.unknown.method:
+    text: Не нахожу метод «{0}»
+argument.mismatch.html.tooltip:
+    text: <html><body><table border=0><tr><td><b>{1}</b></td>{3}<td colspan={0}>в <b>{2}</b>\&nbsp;не может быть применён</td></tr><tr><td>к</td>{4}</tr></table></body></html>
+bad.qualifier.in.super.method.reference:
+    text: 'Недопустимый квалификатор типа в ссылке на супер-метод: {0}'
+call.to.super.is.not.allowed.in.enum.constructor:
+    text: Вызов «super» недопустим в конструкторе перечисления
+cannot.select.dot.class.from.type.variable:
+    text: Нельзя выбрать из переменной типа
+cannot.select.from.parameterized.type:
+    text: Нельзя получить доступ к объекту класса параметризованного типа
+class.cannot.be.inherited.with.different.arguments:
+    text: '{0} не может быть унаследован с другими аргументами: {1}'
+class.is.not.used:
+    text: Класс «{0}» никогда не используется
+classes.extends.enum:
+    text: Классы не могут напрямую наследовать от «java.lang.Enum»
+constructor.is.not.used:
+    text: Конструктор «{0}» никогда не используется
+declaration.or.variable.expected:
+    text: Ожидается объявление, final- или фактически final-переменная
+different.case.kinds.in.switch:
+    text: В операторе «switch» используются разные типы «case»
+direct.abstract.method.access:
+    text: Абстрактный метод «{0}» не может быть доступен напрямую
+exception.already.caught.warn:
+    text: 'Недостижимый раздел: исключение «{0}» {1, choice, 0#уже поймано|2#уже пойманы}'
+exception.is.never.thrown:
+    text: Исключение «{0}» никогда не выбрасывается в методе
+expression.expected:
+    text: Ожидалось выражение
+extends.after.enum:
+    text: В перечислении не разрешено использовать оператор «extends»
+field.is.not.used:
+    text: Поле «{0}» никогда не используется
+generics.holder.method:
+    text: Метод
+generics.holder.type:
+    text: Тип
+generics.select.static.class.from.parameterized.type:
+    text: Нельзя выбрать статический класс «{0}» из параметризованного типа
+generics.type.argument.cannot.be.of.primitive.type:
+    text: Аргумент типа не может быть примитивным типом
+generics.type.or.method.does.not.have.type.parameters:
+    text: '{0} «{1}» не имеет параметров типа'
+generics.unchecked.assignment:
+    text: 'Непроверенное присваивание: «{0}» к «{1}»'
+generics.unchecked.call:
+    text: Непроверенный вызов метода «{0}»
+generics.unchecked.call.to.member.of.raw.type:
+    text: Непроверенный вызов «{0}» как члена «сырого» типа «{1}»
+generics.unchecked.cast:
+    text: 'Непроверенное приведение типа: «{0}» к «{1}»'
+generics.wildcards.may.be.used.only.as.reference.parameters:
+    text: Символы подстановки могут использоваться только как параметры ссылки
+illegal.forward.reference:
+    text: Недопустимая опережающая ссылка
+illegal.line.end.in.character.literal:
+    text: Недопустимый конец строки в символьном литерале
+illegal.line.end.in.string.literal:
+    text: Недопустимый конец строки в строковом литерале
+illegal.self.reference:
+    text: Нельзя прочитать значение поля «{0}» изнутри определения поля
+illegal.to.access.static.member.from.enum.constructor.or.instance.initializer:
+    text: Нельзя обращаться к статическому члену «{0}» из конструктора перечисления или инициализатора экземпляра
+implements.after.interface:
+    text: Для интерфейса не разрешено использовать оператор «implements»
+inaccessible.type:
+    text: «{0}» недоступен здесь
+incompatible.call.types:
+    text: 'Неправильный тип {0, choice, 1#1-го|2#2-го|3#3-го|4#{0,number}th} аргумента. Найден: «{2}», требуется: «{1}»'
+incompatible.return.type:
+    text: Попытка использовать несовместимый тип возвращаемого значения
+incompatible.types.html.tooltip:
+    text: <html><body>Несовместимые типы.<table><tr><td>Требуется:</td><td>{0}</td>{1}</tr><tr><td>Указано:</td><td>{2}</td>{3}</tr></table></body></html>
+inheritance.from.final.class:
+    text: Нельзя наследовать от final-класса «{0}»
+interface.cannot.be.local:
+    text: Модификатор «interface» здесь недопустим
+interface.expected:
+    text: Ожидался интерфейс
+interface.methods.cannot.have.body:
+    text: Методы интерфейса не могут иметь тело
+invalid.package.annotation.containing.file:
+    text: Аннотации пакета должны находиться в файле package-info.java
+is.not.an.enclosing.class:
+    text: «{0}» не является окружающим классом
+local.class.is.not.used:
+    text: Локальный класс «{0}» никогда не используется
+local.enum:
+    text: Перечисление не может быть локальным
+local.variable.is.never.used:
+    text: Переменная «{0}» никогда не используется
+local.variable.is.not.assigned:
+    text: Переменная «{0}» никогда не присваивается
+local.variable.is.not.used.for.reading:
+    text: Переменная «{0}» присваивается, но нигде не используется
+member.referenced.before.constructor.called:
+    text: Нельзя сослаться на «{0}» до вызова конструктора супер-типа
+method.is.not.used:
+    text: Метод «{0}» никогда не используется
+missing.method.body:
+    text: Отсутствует тело метода; либо объявите как абстрактный
+missing.package.statement:
+    text: 'Отсутствует объявление пакета: «{0}»'
+missing.return.type:
+    text: Недопустимое объявление метода; требуется тип возвращаемого значения
+modifiers.for.enum.constants:
+    text: Для констант перечисления не разрешены модификаторы
+module.ambiguous:
+    text: 'Неоднозначная ссылка на модуль: {0}'
+module.not.in.requirements:
+    text: Модуль «{0}» не имеет модуля «{1}» в своих требованиях
+module.not.on.path:
+    text: 'Модуль отсутствует в зависимостях: {0}'
+module.open.duplicate.text:
+    text: Перейти к дубликату
+module.opens.in.weak.module:
+    text: «opens» не разрешен в открытом модуле
+module.package.not.exported:
+    text: Модуль «{0}» не экспортирует пакет «{1}» в модуль «{2}»
+module.package.on.classpath:
+    text: Именованный модуль не может получить доступ к пакетам безымянного
+module.service.unused:
+    text: Сервисный интерфейс предоставлен, но не экспортирован или не используется
+no.default.constructor.available:
+    text: В «{0}» отсутствует конструктор по умолчанию
+not.loop.label:
+    text: 'Не является меткой цикла: «{0}»'
+package.local.symbol:
+    text: «{0}» не является public в «{1}». Не может быть доступен извне пакета
+package.name.file.path.mismatch:
+    text: Название пакета «{0}» не соответствует пути к файлу «{1}»
+package.not.found:
+    text: 'Пакет не найден: {0}'
+parameter.is.not.used:
+    text: Параметр «{0}» никогда не используется
+private.constructor.is.not.used:
+    text: Приватный конструктор «{0}» никогда не используется
+private.field.is.not.assigned:
+    text: Приватное поле «{0}» никогда не присваивается
+private.field.is.not.used:
+    text: Приватное поле «{0}» никогда не используется
+private.field.is.not.used.for.reading:
+    text: Приватному полю «{0}» присваивается значение, но оно никогда не используется
+private.inner.class.is.not.used:
+    text: Приватный внутренний класс «{0}» никогда не используется
+private.inner.interface.is.not.used:
+    text: Приватный внутренний интерфейс «{0}» никогда не используется
+private.method.is.not.used:
+    text: Приватный метод «{0}» никогда не используется
+private.symbol:
+    text: «{0}» имеет приватный доступ в «{1}»
+protected.symbol:
+    text: «{0}» имеет защищенный доступ в «{1}»
+public.class.should.be.named.after.file:
+    text: Класс «{0}» является public, он должен быть объявлен в файле с именем «{0}.java»
+qualified.enum.constant.in.switch:
+    text: В случае перечисления в «switch» после «case» должно следовать название константы перечисления без указания типа
+resource.variable.must.be.final:
+    text: Переменная, используемая в try с ресурсами, должна быть final или фактически final
+safevararg.annotation.cannot.be.applied.for.record.component:
+    text: '@SafeVarargs не разрешён для компонента записи'
+safevarargs.not.allowed.non.final.instance.methods:
+    text: '@SafeVarargs не разрешён для не-final методов экземпляра'
+safevarargs.not.allowed.on.methods.with.fixed.arity:
+    text: '@SafeVarargs не разрешён для методов с фиксированным числом аргументов'
+safevarargs.not.applicable.for.reifiable.types:
+    text: '@SafeVarargs неприменим для переводимых типов'
+safevarargs.not.suppress.potentially.unsafe.operations:
+    text: '@SafeVarargs не подавляет потенциально небезопасные операции'
+single.import.class.conflict:
+    text: «{0}» уже определено в импорте одного типа
+statement.must.be.prepended.with.case.label:
+    text: Перед выражением должен стоять оператор «case»
+static.declaration.in.inner.class:
+    text: Внутренние классы не могут иметь статических объявлений
+static.interface.method.call.qualifier:
+    text: Статический метод может быть вызван только для содержащего его класса интерфейса
+static.member.accessed.via.instance.reference:
+    text: Статический член «{0}.{1}» доступен через ссылку на экземпляр
+static.method.cannot.override.instance.method:
+    text: Статический метод «{0}» в «{1}» не может переопределять экземплярный метод «{2}» в «{3}»
+switch.expr.empty:
+    text: У «switch» отсутствуют операторы «case»
+switch.expr.incomplete:
+    text: «switch» не охватывает все возможные входные значения
+text.class.inherits.unrelated.defaults:
+    text: '{0} наследует не связанные «default» для {1} из типов {2}'
+text.improper.formed.type:
+    text: Неправильно сформированный тип; некоторые параметры типа отсутствуют
+type.parameter.is.not.used:
+    text: Параметр типа «{0}» никогда не используется
+unchecked.overriding.incompatible.return.type:
+    text: 'Непроверенное переопределение: тип возвращаемого значения требует непроверенного преобразования. Найдено «{0}», требуется «{1}»'
+unrelated.overriding.methods.return.types:
+    text: методы имеют не связанные типы возвращаемого значения
+valid.switch.1_7.selector.types:
+    text: char, byte, short, int, Character, Byte, Short, Integer, String, или enum
+valid.switch.selector.types:
+    text: byte, char, short или int
+visibility.access.problem:
+    text: Нельзя получить доступ к «{0}» в «{1}»
+weaker.privileges:
+    text: '{0}; попытка присвоить более слабые привилегии доступа («{1}»); было «{2}»'
+wrong.constructor.arguments:
+    text: «{0}» не может быть применён к «{1}»

@@ -1,0 +1,279 @@
+access.is.denied.error.message:
+    text: Доступ запрещён.
+action.close:
+    text: '&Закрыть'
+action.collapse:
+    text: Свернуть
+action.expand:
+    text: Развернуть
+action.help:
+    text: Помощь
+action.refresh:
+    text: Обновить
+action.rerun:
+    text: Повторить
+action.settings:
+    text: Настройки…
+action.settings.description:
+    text: Изменить настройки приложения
+action.settings.description.mac:
+    text: Изменить настройки приложения
+action.settings.mac:
+    text: Предпочтения…
+action.settings.path:
+    text: Файл | Настройки
+action.settings.path.mac:
+    text: Настройки
+an.attempt.was.made.to.load.a.program.with.an.incorrect.format.error.message:
+    text: Сделана попытка загрузить программу в неверном формате.
+button.add:
+    text: Добавить
+button.add.a:
+    text: '&Добавить'
+button.apply:
+    text: '&Применить'
+button.back:
+    text: Назад
+button.background:
+    text: '&Фон'
+button.cancel:
+    text: Отмена
+button.close:
+    text: '&Закрыть'
+button.continue:
+    text: Продолжить
+button.copy:
+    text: Копировать…
+button.delete:
+    text: Удалить
+button.edit:
+    text: Изменить
+button.help:
+    text: Помощь
+button.load.file:
+    text: Загрузить файл
+button.next:
+    text: Далее
+button.no:
+    text: '&Нет'
+button.no.for.all:
+    text: '&Нет для всех'
+button.ok:
+    text: ОК
+button.remove:
+    text: Удалить
+button.remove.r:
+    text: '&Удалить'
+button.reset:
+    text: '&Сброс'
+button.reset.to.default:
+    text: '&Восстановить значения по умолчанию'
+button.retry:
+    text: '&Повторить'
+button.skip:
+    text: Пропустить
+button.yes:
+    text: '&Да'
+button.yes.for.all:
+    text: '&Да для всех'
+cannot.redo.dialog.title:
+    text: Не удалось повторить
+cannot.redo.message:
+    text: Не удалось повторить
+cannot.start.other.instance.is.running.error.message:
+    text: |-
+        {0} не смог создать локальное соединение, чтобы проверить,
+        другой экземпляр {0} в настоящее время работает на том же компьютере.
+        Запуск нескольких экземпляров {0} на одном компьютере может вызвать непредсказуемые
+        результаты из-за совместного использования системных папок.
+        Пожалуйста, устраните неполадки в конфигурации TCP/IP и/или настройках локального брандмауэра.
+        и прикрепите {1}
+cannot.undo.dialog.title:
+    text: Не удалось отменить
+cannot.undo.error.contains.nonundoable.changes.message:
+    text: 'В следующих файлах есть изменения, которые нельзя отменить:'
+cannot.undo.error.other.affected.files.changed.message:
+    text: 'Следующие файлы, затронутые этим действием, уже были изменены:'
+cannot.undo.message:
+    text: Не удалось отменить
+captured.memory.snapshot.placed.in.user.home.directory.message.text:
+    text: "Записанный снимок памяти: '{0}' помещается в домашний каталог пользователя."
+checkbox.remember.password:
+    text: '&Запомнить пароль'
+close.action.name:
+    text: Закрыть
+comparison.ignore.whitespace.acton.name:
+    text: 'Игнорировать пробелы:'
+comparison.policy.default.name:
+    text: По умолчанию
+comparison.policy.ignore.spaces.name:
+    text: Игнорировать пробелы
+comparison.policy.trim.space.name:
+    text: Обрезать пространство
+corrupted.scheme.file.message.title:
+    text: Поврежденный файл
+data.error.cyclic.redundancy.check.error.message:
+    text: Ошибка данных (циклический контроль избыточности).
+dialog.ioexception.proxy:
+    text: Настройка параметров прокси-сервера HTTP
+dialog.ioexception.tryagain:
+    text: Попробуйте ещё раз
+dialog.options.do.not.ask:
+    text: Запомнить, больше не спрашивать
+dialog.options.do.not.show:
+    text: Не показывать этот диалог в будущем
+dialog.options.do.not.show.short:
+    text: Не показывать в будущем
+dialog.title.choose.date:
+    text: Выберите дату
+drop.undo.history.command.name:
+    text: Пустышка
+editbox.login:
+    text: '&Логин:'
+editbox.password:
+    text: '&Пароль:'
+error.reading.color.scheme.from.file.error.message:
+    text: Ошибка чтения цветовой схемы из {0}
+exception.directory.can.not.create:
+    text: Не удаётся создать каталог {0}
+exception.directory.is.invalid:
+    text: Каталог недействителен {0}
+exception.directory.is.not.readable:
+    text: Каталог не читается {0}
+failed.to.make.file.writeable.error.message:
+    text: Не удалось сделать {0} доступным для записи.
+failed.to.make.the.following.files.writable.error.message:
+    text: 'Не удалось сделать следующие файлы доступными для записи: {0}'
+format.file.size.bytes:
+    text: '{0} Б'
+format.file.size.kbytes:
+    text: '{0} КБ'
+format.file.size.mbytes:
+    text: '{0} МБ'
+incorrect.function.error.message:
+    text: Неправильная функция.
+information.dialog.title:
+    text: Информация
+link.reset:
+    text: Сброс
+local.vcs.action.name.redo.command:
+    text: Повторить {0}
+local.vcs.action.name.undo.command:
+    text: Отменить {0}
+name.label.text:
+    text: '&Название:'
+not.enough.storage.is.available.to.complete.this.operation.error.message:
+    text: Недостаточно памяти для выполнения операции.
+not.enough.storage.is.available.to.process.this.command.error.message:
+    text: Недостаточно памяти для обработки этой команды.
+profiling.captured.allocations.snapshot.message.text:
+    text: "Снимок захваченного распределения: '{0}' помещается в домашний каталог пользователя."
+profiling.captured.cpu.snapshot.message.text:
+    text: "Захваченный снимок ЦП: '{0}' помещается в домашний каталог пользователя."
+redo.command.confirmation.text:
+    text: Повторить {0}
+redo.confirmation.title:
+    text: Повторить
+safe.write.backup:
+    text: |-
+        Не удаётся сохранить {0}.
+        Не удаётся создать файл резервной копии ({1}).
+        Файл остался без изменений.
+safe.write.drop.temp:
+    text: Не удаётся удалить временный файл {0}.
+safe.write.failed:
+    text: |-
+        Не удаётся сохранить {0}.
+        Не удаётся создать файл резервной копии ({1}).
+        Файл остался без изменений.
+safe.write.junk:
+    text: |-
+        Не удаётся сохранить {0}.
+        Не удаётся записать данные.
+        Возможно, файл повреждён.
+safe.write.junk.backup:
+    text: |-
+        Не удаётся сохранить {0}.
+        Не удаётся записать данные.
+        Файл может быть повреждён; резервная копия была создана в {1}.
+safe.write.open:
+    text: |-
+        Не удаётся сохранить {0}.
+        Не удаётся открыть файл для записи.
+safe.write.rename.backup:
+    text: |-
+        Не удаётся сохранить {0}.
+        Файл был переименован в {1}.
+        Ваши изменения были записаны в {2}.
+safe.write.rename.original:
+    text: |-
+        Не удаётся сохранить {0}.
+        Файл остался без изменений.
+        Ваши изменения были записаны в {1}.
+safe.write.restored:
+    text: |-
+        Не удаётся сохранить {0}.
+        Не удаётся записать данные.
+        Исходный контент был восстановлен из резервной копии.
+smth.already.exist.error.message:
+    text: '{0} с названием «{1}» уже существует.'
+the.access.code.is.invalid.error.message:
+    text: Код доступа недействителен.
+the.data.is.invalid.error.message:
+    text: Данные некорректны.
+the.device.does.not.recognize.the.command.error.message:
+    text: устройство не распознает команду.
+the.device.is.not.ready.error.message:
+    text: Устройство не готово.
+the.directory.cannot.be.removed.error.message:
+    text: Каталог не может быть удалён.
+the.drive.cannot.find.the.sector.requested.error.message:
+    text: Привод не может найти запрошенный сектор.
+the.drive.cannot.locate.a.specific.area.or.track.on.the.disk.error.message:
+    text: Привод не может найти определённую область или дорожку на диске.
+the.environment.is.incorrect.error.message:
+    text: Среда неверна.
+the.handle.is.invalid.error.message:
+    text: Дескриптор недействителен.
+the.media.is.write.protected.error.message:
+    text: Носитель защищён от записи.
+the.program.issued.a.command.but.the.command.length.is.incorrect.error.message:
+    text: Программа выдала команду, но длина команды неверна.
+the.specified.disk.or.diskette.cannot.be.accessed.error.message:
+    text: К указанному диску или дискете нет доступа.
+the.storage.control.block.address.is.invalid.error.message:
+    text: Недопустимый адрес блока управления хранилищем.
+the.storage.control.blocks.were.destroyed.error.message:
+    text: Блоки управления хранилищем были уничтожены.
+the.system.cannot.find.the.device.specified.error.message:
+    text: Система не может найти указанное устройство.
+the.system.cannot.find.the.drive.specified.error.message:
+    text: Система не может найти указанный диск.
+the.system.cannot.find.the.file.specified.error.message:
+    text: Система не может найти указанный файл.
+the.system.cannot.find.the.path.specified.error.message:
+    text: Система не может найти указанный путь.
+the.system.cannot.move.the.file.to.a.different.disk.drive.error.message:
+    text: Система не может переместить файл на другой диск.
+the.system.cannot.open.the.file.error.message:
+    text: Система не может открыть файл.
+there.are.no.more.files.error.message:
+    text: Больше нет файлов.
+title.error:
+    text: Ошибка
+title.settings:
+    text: Настройки
+title.settings.mac:
+    text: Настройки
+title.warning:
+    text: Предупреждение
+tree.node.loading:
+    text: Загрузка…
+undo.command.confirmation.text:
+    text: Отменить {0}
+undo.dialog.title:
+    text: Отменить
+vcs.configurable.general.tab.title:
+    text: Общие
+vfs.broken.link:
+    text: Неработающая ссылка

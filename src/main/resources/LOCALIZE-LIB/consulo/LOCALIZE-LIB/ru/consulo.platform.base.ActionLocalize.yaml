@@ -1,0 +1,2360 @@
+action.$Copy.description:
+    text: Скопировать в буфер обмена
+action.$Copy.text:
+    text: _Скопировать
+action.$Cut.description:
+    text: Вырезать в буфер обмена
+action.$Cut.text:
+    text: Выреза_ть
+action.$Delete.description:
+    text: Удалить выбранный элемент
+action.$Delete.text:
+    text: _Удалить
+action.$Paste.description:
+    text: Вставить из буфера обмена
+action.$Paste.text:
+    text: _Вставить
+action.$SearchWeb.0.description:
+    text: Искать в выделенном фрагменте с помощью {0}
+action.$SearchWeb.0.text:
+    text: _Поиск с помощью {0}
+action.$SelectAll.description:
+    text: Выбрать всё
+action.$SelectAll.text:
+    text: Выбрать _всё
+action.About.description:
+    text: Показать информацию об IDE
+action.About.text:
+    text: _О программе
+action.ActivateNavBar.description:
+    text: активировать панель навигации
+action.ActivateNavBar.text:
+    text: Активировать парель _навигации
+action.Add to migration roots.description:
+    text: Добавить выбранный элемент в корни миграции
+action.Add to migration roots.text:
+    text: _Добавить в корни миграции
+action.AddFrameworkSupport.text:
+    text: Добавить поддержку платформы…
+action.AddNewFavoritesList.description:
+    text: Добавить новый список избранного
+action.AddNewFavoritesList.text:
+    text: Добавить новый список избранного
+action.AddToFavoritesPopup.description:
+    text: Добавить выбранный узел в избранное
+action.AddToFavoritesPopup.text:
+    text: Добавить в избранное
+action.Annotate.description:
+    text: Показать информацию о дате последнего изменения и авторе для каждой строки
+action.Annotate.text:
+    text: _Аннотировать
+action.AssociateWithFileType.description:
+    text: связать выбранный файл с одним из типов файлов
+action.AssociateWithFileType.text:
+    text: Связать с типом файла
+action.AutoIndentLines.description:
+    text: Установить отступ текущей строки или выделенного блока в соответствии с настройками стиля кода
+action.AutoIndentLines.text:
+    text: _Автоотступ
+action.AutoShowProcessWindow.description:
+    text: Показывать окно фоновых задач при запуске любого прогресса
+action.AutoShowProcessWindow.text:
+    text: Автопоказ
+action.Back.description:
+    text: Отменить последнюю операцию навигации
+action.Back.text:
+    text: _Назад
+action.BuildAllArtifacts.text:
+    text: Собрать все артефакты
+action.CallHierarchy.BaseOnThisType.description:
+    text: Показать иерархию вызовов для выбранного метода
+action.CallHierarchy.BaseOnThisType.text:
+    text: Основываясь на этом методе
+action.CallHierarchy.description:
+    text: Просмотреть иерархию вызовов для выбранного метода
+action.CallHierarchy.text:
+    text: Иерархия _вызовов
+action.CaptureAllocations.description:
+    text: Захват данных о распределении памяти
+action.CaptureAllocations.text:
+    text: Захват распределения
+action.CaptureCPUUsageData.description:
+    text: Сбор данных об использовании ЦП
+action.CaptureCPUUsageData.text:
+    text: Начать профилирование использования ЦП
+action.CaptureMemorySnapShot.description:
+    text: Сделать снимок памяти
+action.CaptureMemorySnapShot.text:
+    text: Сделать снимок памяти
+action.ChangeCodeStyleScheme.description:
+    text: Выбрать текущую схему стиля кода
+action.ChangeCodeStyleScheme.text:
+    text: Сменить стиль кода
+action.ChangeColorScheme.description:
+    text: Выбрать текущую цветовую схему
+action.ChangeColorScheme.text:
+    text: Сменить цветовую схему
+action.ChangeCustomizationSchema.description:
+    text: Изменить текущую схему настройки
+action.ChangeCustomizationSchema.text:
+    text: Сменить схему настройки
+action.ChangeFileEncodingAction.description:
+    text: Изменить кодировку файла
+action.ChangeFileEncodingAction.text:
+    text: Кодировка файла
+action.ChangeFileEncodingGroupAction.description:
+    text: Изменить кодировку файла
+action.ChangeFileEncodingGroupAction.text:
+    text: Изменить кодировку файла
+action.ChangeInspectionProfile.description:
+    text: Выбрать текущий профиль проверки редактора
+action.ChangeInspectionProfile.text:
+    text: Сменить подсветку ошибок
+action.ChangeKeymap.description:
+    text: Выбрать другую схему горячих клавиш
+action.ChangeKeymap.text:
+    text: Сменить схему горячих клавиш
+action.ChangeLaf.description:
+    text: Выбрать другой стиль интерфейса
+action.ChangeLaf.text:
+    text: Сменить стиль интерфейса
+action.ChangeLocalization.text:
+    text: Сменить язык интерфейса
+action.ChangeSignature.description:
+    text: Изменить сигнатуру выбранного метода или класса и поправить все ссылки
+action.ChangeSignature.text:
+    text: Изменить _сигнатуру метода…
+action.ChangeSplitOrientation.description:
+    text: Изменяет ориентацию разделителя
+action.ChangeSplitOrientation.text:
+    text: Изменить _ориентацию разделителя
+action.ChangeTemplateDataLanguage.text:
+    text: Изменить язык данных шаблона
+action.ChangeToThisFileTypeAction.description:
+    text: Переопределить тип файла на «{0}»
+action.ChangeTypeSignature.description:
+    text: Изменить тип возвращаемого методом значения, поля, параметра, переменной или класса и исправить все ссылки
+action.ChangeTypeSignature.text:
+    text: Миграция типов…
+action.ChangesView.AddUnversioned.From.Dialog.description:
+    text: Запланировать добавление выбранных файлов в VCS
+action.ChangesView.AddUnversioned.From.Dialog.text:
+    text: Добавить в VCS
+action.ChangesView.AddUnversioned.description:
+    text: Запланировать добавление выбранных файлов в VCS
+action.ChangesView.AddUnversioned.text:
+    text: Добавить в VCS
+action.ChangesView.ApplyPatch.description:
+    text: Применить патч к исходникам проекта
+action.ChangesView.ApplyPatch.text:
+    text: Применить патч…
+action.ChangesView.ApplyPatchFromClipboard.description:
+    text: Применить патч к источникам проекта
+action.ChangesView.ApplyPatchFromClipboard.text:
+    text: Применить патч из буфера обмена…
+action.ChangesView.Browse.description:
+    text: Просмотреть историю зафиксированных изменений
+action.ChangesView.Browse.text:
+    text: Просмотр изменений…
+action.ChangesView.Commit.description:
+    text: Зафиксировать изменения в выбранном списке изменений
+action.ChangesView.Commit.text:
+    text: _Зафиксировать изменения
+action.ChangesView.CreatePatch.description:
+    text: Создать патч из выбранных изменений
+action.ChangesView.CreatePatch.text:
+    text: Создать патч…
+action.ChangesView.CreatePatchFromChanges.description:
+    text: Создать патч из выбранных изменений
+action.ChangesView.CreatePatchFromChanges.text:
+    text: Создать патч…
+action.ChangesView.DeleteUnversioned.description:
+    text: Удалить
+action.ChangesView.DeleteUnversioned.text:
+    text: Удалить
+action.ChangesView.Edit.description:
+    text: Проверить выбранные файлы для редактирования
+action.ChangesView.Edit.text:
+    text: Проверить
+action.ChangesView.Ignore.description:
+    text: Не показывать выбранные файлы как неверсионированные
+action.ChangesView.Ignore.text:
+    text: Игнорировать…
+action.ChangesView.Move.description:
+    text: переместить выбранные изменения в другой список изменений
+action.ChangesView.Move.text:
+    text: Перейти к другому списку изменений
+action.ChangesView.NewChangeList.description:
+    text: Создать новый список изменений
+action.ChangesView.NewChangeList.text:
+    text: Новый Changelist
+action.ChangesView.Refresh.description:
+    text: Обновить изменения VCS
+action.ChangesView.Refresh.text:
+    text: Обновить
+action.ChangesView.RemoveChangeList.description:
+    text: Удалить список изменений и переместить все изменения в значения по умолчанию
+action.ChangesView.RemoveChangeList.text:
+    text: Удалить список изменений
+action.ChangesView.Rename.description:
+    text: Редактировать название и описание выбранного списка изменений
+action.ChangesView.Rename.text:
+    text: Изменить список правок…
+action.ChangesView.Revert.description:
+    text: Откат выбранных изменений
+action.ChangesView.Revert.text:
+    text: Откат
+action.ChangesView.SetDefault.description:
+    text: установить список изменений, в который по умолчанию помещаются новые изменения.
+action.ChangesView.SetDefault.text:
+    text: Установить активного Changelist
+action.ChangesView.Shelve.description:
+    text: Сохранить изменения во внешний файл патча и удалить их из кода
+action.ChangesView.Shelve.text:
+    text: Отложить изменения…
+action.CheckForUpdate.description:
+    text: Проверить наличие доступных обновлений
+action.CheckForUpdate.text:
+    text: _Проверить наличие обновлений…
+action.ClassNameCompletion.description:
+    text: Полное название класса и добавление импорта для него
+action.ClassNameCompletion.text:
+    text: _Завершить название класса
+action.CloneElement.description:
+    text: Создать копию выбранного класса, файла или каталога в том же пакете/каталоге
+action.CloneElement.text:
+    text: _Дублировать…
+action.CloseActiveTab.description:
+    text: Закрыть вкладку активного инструментального окна
+action.CloseActiveTab.text:
+    text: _Закрыть активную вкладку
+action.CloseAllEditors.description:
+    text: Закрыть все редакторы в активной группе вкладок
+action.CloseAllEditors.text:
+    text: Закрыть _всё
+action.CloseAllEditorsButActive.description:
+    text: Закрыть все открытые редакторы, кроме активного
+action.CloseAllEditorsButActive.text:
+    text: Закрыть _остальные
+action.CloseAllUnmodifiedEditors.description:
+    text: Закрыть все не изменённые редакторы
+action.CloseAllUnmodifiedEditors.text:
+    text: Закрыть не изменённые
+action.CloseAllUnpinnedEditors.description:
+    text: Закрыть все редакторы, кроме закреплённых
+action.CloseAllUnpinnedEditors.text:
+    text: Закрыть все, кроме закреплённых
+action.CloseContent.description:
+    text: Закрыть текущий редактор
+action.CloseContent.text:
+    text: _Закрыть
+action.CloseEditor.description:
+    text: Закрыть активный редактор
+action.CloseEditor.text:
+    text: _Закрыть активный редактор
+action.CloseProject.description:
+    text: Закрыть текущий проект
+action.CloseProject.text:
+    text: _Закрыть проект
+action.CloseWindow.text:
+    text: Закрыть активное окно
+action.CodeCompletion.description:
+    text: Дополнение кода
+action.CodeCompletion.text:
+    text: _Базовое
+action.CodeInspection.OnEditor.description:
+    text: Проверить код с настройками редактора
+action.CodeInspection.OnEditor.text:
+    text: Проверить код с настройками _редактора
+action.CollapseAll.text:
+    text: Свернуть всё
+action.CollapseAllRegions.description:
+    text: Свернуть все сворачивающиеся области
+action.CollapseAllRegions.text:
+    text: Свернуть _всё
+action.CollapseBlock.description:
+    text: Свернуть текущий блок кода
+action.CollapseBlock.text:
+    text: Свернуть _блок кода
+action.CollapseDocComments.description:
+    text: Свернуть все документирующие комментарии
+action.CollapseDocComments.text:
+    text: _Свернуть документирующие комментарии
+action.CollapseRegion.description:
+    text: Свернуть сворачивающуюся область под курсором
+action.CollapseRegion.text:
+    text: _Свернуть
+action.CollapseSelection.description:
+    text: Свернуть выбранный блок
+action.CollapseSelection.text:
+    text: Свернуть _выделение / Удалить регион
+action.CollapseTreeNode.text:
+    text: Свернуть узел дерева
+action.CommentByBlockComment.description:
+    text: Закомментировать/раскомментировать выделенный код блочным комментарием
+action.CommentByBlockComment.text:
+    text: Закомментировать _блочным Комментарием
+action.CommentByLineComment.description:
+    text: Закомментировать/раскомментировать текущую строку или выбранный блок строчными комментариями
+action.CommentByLineComment.text:
+    text: Закомментировать _строчным комментарием
+action.CommittedChanges.Clear.description:
+    text: Удалить закэшированные ревизии
+action.CommittedChanges.Clear.text:
+    text: Очистить
+action.CommittedChanges.Details.description:
+    text: Просмотр полной информации о выбранном списке изменений
+action.CommittedChanges.Details.text:
+    text: Показать детали
+action.CommittedChanges.Filter.description:
+    text: Изменить критерии фильтрации
+action.CommittedChanges.Filter.text:
+    text: Фильтр
+action.CommittedChanges.Refresh.description:
+    text: Обновить список зафиксированных изменений
+action.CommittedChanges.Refresh.text:
+    text: Обновить
+action.CommittedChanges.Revert.description:
+    text: Применить к рабочей копии, обратную выбранным изменениям.
+action.CommittedChanges.Revert.text:
+    text: Отменить изменения
+action.Compare.Selected.text:
+    text: _Сравнить с…
+action.CompareClipboardWithSelection.description:
+    text: Сравнить текущий выбор с буфером обмена
+action.CompareClipboardWithSelection.text:
+    text: Сравнить с _буфером обмена
+action.CompareFileWithEditor.description:
+    text: Сравнить выбранный файл с редактором
+action.CompareFileWithEditor.text:
+    text: _Сравнить файл с редактором
+action.CompareTwoFiles.description:
+    text: Сравнить два выбранных файла
+action.CompareTwoFiles.text:
+    text: Сравнить два _файла
+action.ConfigureFileDefaultEncoding.description:
+    text: Настроить кодировку по умолчанию для файлов, файлов в каталогах или во всем проекте.
+action.ConfigureFileDefaultEncoding.text:
+    text: Настроить кодировку по умолчанию…
+action.ConfigureTemplatesAction.text:
+    text: Настроить живые шаблоны…
+action.Console.Execute.description:
+    text: Выполнить текущий оператор в консоли
+action.Console.Execute.text:
+    text: Выполнить текущий оператор
+action.Console.History.Browse.description:
+    text: Просмотр истории консоли
+action.Console.History.Browse.text:
+    text: Обзор истории
+action.Console.History.Next.description:
+    text: Следующая запись в истории консоли
+action.Console.History.Next.text:
+    text: Далее
+action.Console.History.Previous.description:
+    text: Предыдущая запись в истории консоли
+action.Console.History.Previous.text:
+    text: Предыдущий
+action.Console.SplitLine.text:
+    text: Разбить строку
+action.ContextHelp.description:
+    text: Показать контекстную справку
+action.ContextHelp.text:
+    text: Контекстная _справка
+action.ConvertIndentsToSpaces.description:
+    text: Преобразовать отступы в файле или выбранном блоке, чтобы использовать пробелы вместо знаков табуляции
+action.ConvertIndentsToSpaces.text:
+    text: В пробелы
+action.ConvertIndentsToTabs.description:
+    text: Преобразовать отступы в файле или выбранном блоке, чтобы использовать знаки табуляции вместо пробелов
+action.ConvertIndentsToTabs.text:
+    text: В табуляцию
+action.ConvertProject.description:
+    text: Преобразовать проект в новый формат. Вы не сможете открыть проект в более ранних версиях IDEA.
+action.ConvertProject.text:
+    text: '&Преобразовать проект'
+action.CopyAbsolutePath.text:
+    text: Абсолютный путь
+action.CopyContentRootPath.text:
+    text: Путь из корня содержимого
+action.CopyElement.description:
+    text: Создать копию выбранного класса, файла(ов) или каталога(ов)
+action.CopyElement.text:
+    text: _Копировать…
+action.CopyFileName.text:
+    text: Название файла
+action.CopyPathWithLineNumber.text:
+    text: Путь с номером строки
+action.CopyPaths.description:
+    text: Копировать пути, соответствующие выбранным файлам или каталогам
+action.CopyPaths.text:
+    text: Копировать _пути
+action.CopyReference.description:
+    text: Скопировать ссылку на выбранный класс, метод или функцию
+action.CopyReference.text:
+    text: Копировать _ссылку
+action.CopySourceRootPath.text:
+    text: Путь из корня источника
+action.CreateDesktopEntry.description:
+    text: Создать запись на рабочем столе для интеграции с меню системного приложения
+action.CreateDesktopEntry.text:
+    text: Создать запись на рабочем столе…
+action.CreateLauncherScript.description:
+    text: Создать скрипт для открытия файлов и проектов из командной строки
+action.CreateLauncherScript.text:
+    text: Создать программу запуска из командной строки…
+action.CreateLibraryFromFile.text:
+    text: Добавить как библиотеку…
+action.CreateRunConfiguration.description:
+    text: Создать конфигурацию запуска из контекста
+action.CreateRunConfiguration.text:
+    text: Создать конфигурацию запуска
+action.DebugListen.text:
+    text: Выбросить исключение отладки
+action.DecodeBytesAction.text:
+    text: Декодировать байты
+action.DecrementWindowHeight.text:
+    text: Уменьшить высоту
+action.DecrementWindowWidth.text:
+    text: Уменьшить ширину
+action.DelegateMethods.description:
+    text: "Создать метод делегата для поля/getter'а"
+action.DelegateMethods.text:
+    text: _Методы делегата…
+action.Diff.AppendLeftSide.text:
+    text: Добавить левую сторону
+action.Diff.AppendRightSide.text:
+    text: Добавить правую сторону
+action.Diff.ApplyLeftSide.text:
+    text: Принять левую сторону
+action.Diff.ApplyNonConflicts.Left.text:
+    text: Применить неконфликтующие изменения с левой стороны
+action.Diff.ApplyNonConflicts.Right.text:
+    text: Применить неконфликтующие изменения с правой стороны
+action.Diff.ApplyNonConflicts.text:
+    text: Применить все неконфликтующие изменения
+action.Diff.ApplyRightSide.text:
+    text: Принять правую сторону
+action.Diff.ComparePartial.Base.Left.text:
+    text: Левый и средний
+action.Diff.ComparePartial.Base.Right.text:
+    text: Средний и правый
+action.Diff.ComparePartial.Generic:
+    text: '{0,choice,0#Левый|1#Средний|2#Правый} и {1,choice,0#левый|1#средний|2#правый}'
+action.Diff.ComparePartial.Left.Right.text:
+    text: Левый и правый
+action.Diff.CompareWithBase.Left.text:
+    text: Базовый и левый
+action.Diff.CompareWithBase.Result.text:
+    text: Базовый и средний
+action.Diff.CompareWithBase.Right.text:
+    text: Базовый и правый
+action.Diff.FocusOppositePane.description:
+    text: Выбрать противоположную панель в представлении различий
+action.Diff.FocusOppositePane.text:
+    text: выберите противоположную панель в режиме просмотра различий
+action.Diff.FocusOppositePaneAndScroll.description:
+    text: Выбрать ту же позицию в противоположной панели в представлении различий
+action.Diff.FocusOppositePaneAndScroll.text:
+    text: Выбрать позицию в противоположной панели различий
+action.Diff.IgnoreLeftSide.text:
+    text: Игнорировать левую сторону
+action.Diff.IgnoreRightSide.text:
+    text: Игнорировать правую сторону
+action.Diff.IgnoreWhitespace.text:
+    text: Включить/выключить игнорирование пробелов в Diff
+action.Diff.MagicResolveConflicts.text:
+    text: Разрешить простые конфликты
+action.Diff.NextChange.text:
+    text: Сравнить следующий файл
+action.Diff.NextConflict.description:
+    text: Перейти к следующему неразрешенному конфликту
+action.Diff.NextConflict.text:
+    text: Следующий конфликт
+action.Diff.PrevChange.text:
+    text: Сравнить предыдущий файл
+action.Diff.PreviousConflict.description:
+    text: Перейти к предыдущему неразрешенному конфликту
+action.Diff.PreviousConflict.text:
+    text: Предыдущий конфликт
+action.Diff.ResolveConflict.text:
+    text: Разрешить автоматически
+action.Diff.SelectedChange.text:
+    text: Выберите файл для сравнения
+action.Diff.ShowDiff.description:
+    text: Сравнить файлы или ревизии
+action.Diff.ShowDiff.text:
+    text: Показать разницу
+action.DropAnError.text:
+    text: Выбросить ошибку
+action.DropAnOutOfMemoryError.text:
+    text: Выбросить OutOfMemoryError
+action.DropAnOutOfPermGenMemoryError.text:
+    text: Отбросить перманентное поколение OutOfMemoryError
+action.DumpInspectionDescriptions.text:
+    text: Описание осмотра свалки
+action.DumpIntentionsDescriptions.text:
+    text: Дамп описания намерений
+action.DumpPsiMemoryCaches.text:
+    text: Дамп того, что кэшировано в PSI
+action.EditBreakpoint.text:
+    text: Редактировать точку останова
+action.EditFavorites.description:
+    text: Изменить
+action.EditFavorites.text:
+    text: Изменить
+action.EditMacros.description:
+    text: Настроить существующие макросы
+action.EditMacros.text:
+    text: _Редактировать макросы
+action.EditSource.description:
+    text: Открыть редактор для выбранного элемента и сфокусировать его
+action.EditSource.text:
+    text: _Перейти к источнику
+action.EditSourceInNewWindow.description:
+    text: Открыть редактор для выбранного элемента в новом окне и установить на него фокус
+action.EditSourceInNewWindow.text:
+    text: Открыть исходный код в новом окне
+action.EditorConsoleScrollToTheEnd.text:
+    text: Прокрутить до конца
+action.EmacsStyleIndent.text:
+    text: Отступ в стиле Emacs
+action.ExcludeFromProject.text:
+    text: Исключить из проекта…
+action.Exit.description:
+    text: Выйти из IDE
+action.Exit.text:
+    text: _Выход
+action.ExpandAll.text:
+    text: Развернуть всё
+action.ExpandAllRegions.description:
+    text: Развернуть все области сворачивания
+action.ExpandAllRegions.text:
+    text: _Развернуть всё
+action.ExpandDocComments.description:
+    text: Развернуть все документирующие комментарии
+action.ExpandDocComments.text:
+    text: _Развернуть документирующие комментарии
+action.ExpandRegion.description:
+    text: Развернуть сворачивающуюся область под курсором
+action.ExpandRegion.text:
+    text: _Развернуть
+action.ExpandTreeNode.text:
+    text: Развернуть узел дерева
+action.ExportSettings.description:
+    text: Экспорт глобальных настроек
+action.ExportSettings.text:
+    text: _Экспорт настроек…
+action.ExportTestResults.description:
+    text: Экспорт результатов тестирования в файл
+action.ExportTestResults.text:
+    text: Экспорт результатов тестирования…
+action.ExportThreads.description:
+    text: Сохранить всю информацию о нитях в текстовый файл или буфер обмена
+action.ExportThreads.text:
+    text: Экспортировать _нити…
+action.ExportToEclipse.description:
+    text: Создать Eclipse-проекты для каждого модуля
+action.ExportToEclipse.text:
+    text: Экспорт в Eclipse…
+action.ExportToHTML.description:
+    text: Сохранить содержимое файла в формате HTML с подсветкой синтаксиса
+action.ExportToHTML.text:
+    text: Экспорт в _HTML…
+action.ExportToTextFile.text:
+    text: Экспорт в текстовый файл
+action.ExpressionTypeInfo.description:
+    text: Показать тип выбранного выражения
+action.ExpressionTypeInfo.text:
+    text: _Тип выражения
+action.ExternalJavaDoc.description:
+    text: Открыть браузер с документацией по выбранному элементу
+action.ExternalJavaDoc.text:
+    text: _Внешняя документация
+action.ExtractClass.description:
+    text: Выделить класс-делегат
+action.ExtractClass.text:
+    text: Класс…
+action.ExtractInclude.description:
+    text: Превратить выделенный фрагмент кода во подключённый файл
+action.ExtractInclude.text:
+    text: _Include-файл…
+action.ExtractInterface.description:
+    text: Выделить интерфейс из выбранного класса
+action.ExtractInterface.text:
+    text: _Интерфейс…
+action.ExtractMethod.description:
+    text: Превратить выделенный фрагмент кода в метод
+action.ExtractMethod.text:
+    text: _Метод…
+action.ExtractModule.description:
+    text: Выделить модуль из выбранного класса
+action.ExtractModule.text:
+    text: _Модуль…
+action.ExtractSuperclass.description:
+    text: Выделить класс-родитель из выбранного класса
+action.ExtractSuperclass.text:
+    text: Класс-_родитель…
+action.FileChooser.Delete.text:
+    text: Удалить…
+action.FileChooser.Delete.text.description:
+    text: Удалить
+action.FileChooser.GotoDesktop.description:
+    text: Перейти в каталог рабочего стола
+action.FileChooser.GotoDesktop.text:
+    text: Каталог рабочего стола
+action.FileChooser.GotoHome.description:
+    text: Перейти в домашний каталог
+action.FileChooser.GotoHome.text:
+    text: Главная
+action.FileChooser.GotoModule.description:
+    text: Перейти в каталог модуля
+action.FileChooser.GotoModule.text:
+    text: Модуль
+action.FileChooser.GotoProject.description:
+    text: Перейти в каталог проекта
+action.FileChooser.GotoProject.text:
+    text: Проект
+action.FileChooser.NewFile.description:
+    text: Создать новый файл
+action.FileChooser.NewFile.text:
+    text: Создать файл…
+action.FileChooser.NewFolder.description:
+    text: Создать новую папку
+action.FileChooser.NewFolder.text:
+    text: Создать папку…
+action.FileChooser.Refresh.description:
+    text: Обновить дерево файловой системы
+action.FileChooser.Refresh.text:
+    text: Обновить
+action.FileChooser.ShowHiddens.description:
+    text: Показать скрытые файлы и каталоги
+action.FileChooser.ShowHiddens.text:
+    text: Показать скрытые файлы и каталоги
+action.FileChooser.TogglePathShowing.text:
+    text: Показать/скрыть текст пути
+action.FileStructurePopup.description:
+    text: Всплывающая структура текущего файла для быстрой навигации
+action.FileStructurePopup.text:
+    text: _Файловая структура
+action.Find.description:
+    text: Поиск строки в активном редакторе
+action.Find.text:
+    text: _Поиск…
+action.FindInPath.description:
+    text: Найти строку в нескольких файлах
+action.FindInPath.text:
+    text: Найти в _пути…
+action.FindJoinpointsByPointcutAction.description:
+    text: Найти точку соединения, обозначенную pointcut
+action.FindJoinpointsByPointcutAction.text:
+    text: Найти точку _соединения, идентифицированную Pointcut
+action.FindModal.description:
+    text: Найти строку в активном редакторе, показать модальный диалог
+action.FindModal.text:
+    text: _Найти…
+action.FindNext.description:
+    text: Повторить последнюю операцию Поиска/Замены
+action.FindNext.text:
+    text: Найти _далее
+action.FindPrevious.description:
+    text: Повторить последнюю операцию Поиска/Замены в обратном направлении
+action.FindPrevious.text:
+    text: Найти _предыдущее
+action.FindUsages.description:
+    text: Найти варианты использования символа у курсора
+action.FindUsages.text:
+    text: Найти _использования
+action.FindUsagesInFile.description:
+    text: Поиск использований символа при вставке в активном редакторе
+action.FindUsagesInFile.text:
+    text: _Поиск использований в файле
+action.FindWordAtCaret.description:
+    text: Найти следующее вхождение слова у курсора
+action.FindWordAtCaret.text:
+    text: Найти _слово у курсора
+action.FixDocComment.description:
+    text: Создать или исправить комментарий документа для текущего контекста
+action.FixDocComment.text:
+    text: Исправить комментарий документа
+action.Forward.description:
+    text: Вернуть последнюю отменённую операцию навигации
+action.Forward.text:
+    text: _Вперёд
+action.FullyExpandTreeNode.text:
+    text: Полностью развернуть узел дерева
+action.Generate.description:
+    text: Сгенерировать конструктор, метод получения или установки и т. д.
+action.Generate.text:
+    text: Сгенерировать…
+action.GenerateAntBuild.description:
+    text: Создать файл сборки Ant из проекта
+action.GenerateAntBuild.text:
+    text: _Сгенерировать Ant-файл…
+action.GenerateSuperMethodCall.text:
+    text: Вызов супер-метода
+action.GoToLinkTarget.description:
+    text: Открывает цель этой символической ссылки в панели проекта
+action.GoToLinkTarget.text:
+    text: Перейти к цели ссылки
+action.GotoAction.description:
+    text: Быстрый переход к действию по названию
+action.GotoAction.text:
+    text: _Найти действие…
+action.GotoAspect.description:
+    text: Перейти к объявлению совета, ошибки или предупреждения, которое влияет на точку соединения у курсора
+action.GotoAspect.text:
+    text: _Аспект
+action.GotoClass.description:
+    text: Быстро перейти к классу по названию
+action.GotoClass.text:
+    text: _Класс…
+action.GotoDeclaration.description:
+    text: Перейти к объявлению символа у курсора
+action.GotoDeclaration.text:
+    text: _Объявление
+action.GotoFile.description:
+    text: Быстрый переход к файлу по названию
+action.GotoFile.text:
+    text: _Файл…
+action.GotoImplementation.description:
+    text: Перейти к реализации(ям) выбранного класса или метода
+action.GotoImplementation.text:
+    text: _Реализация(и)
+action.GotoLine.description:
+    text: Перейти к строке в редакторе по её номеру
+action.GotoLine.text:
+    text: _Строка…
+action.GotoNextError.description:
+    text: Переход к следующей подсвеченной ошибке в активном редакторе
+action.GotoNextError.text:
+    text: _Следующая подсвеченная ошибка
+action.GotoPreviousError.description:
+    text: Перейти к предыдущей подсвеченной ошибке в активном редакторе
+action.GotoPreviousError.text:
+    text: _Предыдущая подсвеченная ошибка
+action.GotoRelated.description:
+    text: Перейдите к одному из связанных или связанных файлов
+action.GotoRelated.text:
+    text: _Связанный файл…
+action.GotoSuperMethod.description:
+    text: Перейдите к объявлению метода, который текущий метод переопределяет или реализует
+action.GotoSuperMethod.text:
+    text: _Супер-метод
+action.GotoSymbol.description:
+    text: Быстро перехйти к любому символу по названию
+action.GotoSymbol.text:
+    text: _Символ…
+action.GotoTest.description:
+    text: Перейти к юнит-тесту выбранного класса
+action.GotoTest.text:
+    text: _Тест
+action.GotoTestSubject.description:
+    text: Перейти к элементу выбранного теста
+action.GotoTestSubject.text:
+    text: _Элемент теста
+action.GotoTypeDeclaration.description:
+    text: Перейти к объявлению типа символа у курсора
+action.GotoTypeDeclaration.text:
+    text: _Объявление типа
+action.Graph.Current.Node.Dependencies.Filter.text:
+    text: Показать выбранные узлы с зависимостями
+action.Graph.choose.directory:
+    text: Выберите каталог
+action.Graph.export.to.file:
+    text: Экспорт в файл…
+action.Graph.export.to.file.dialog.caption:
+    text: Экспорт в файл
+action.Graph.fit.content:
+    text: Вписать содержимое
+action.Graph.grid.hide:
+    text: Скрыть сетку
+action.Graph.grid.show:
+    text: Показать сетку
+action.Graph.grid.snap:
+    text: Привязать к сетке
+action.Graph.layout.apply.current:
+    text: применить текущий макет
+action.Graph.layout.balloon:
+    text: Макет воздушного шара
+action.Graph.layout.circular:
+    text: Круговой макет
+action.Graph.layout.directed.orthogonal:
+    text: Направленная ортогональная компоновка
+action.Graph.layout.fit.content:
+    text: Подогнать содержимое после макета
+action.Graph.layout.hierarchic.group:
+    text: Иерархическая структура группы
+action.Graph.layout.organic:
+    text: Органический макет
+action.Graph.layout.orthogonal:
+    text: Ортогональная компоновка
+action.Graph.layout.tree:
+    text: Макет дерева
+action.Graph.print:
+    text: Распечатать график
+action.Graph.print.preview:
+    text: Предварительный просмотр
+action.Graph.print.reset:
+    text: Сброс
+action.Graph.show.edge.label:
+    text: Показать метки краев
+action.Graph.show.selected.node.dependencies.label:
+    text: Показать выбранные узлы с зависимостями
+action.Graph.zoom.actual:
+    text: Фактический размер
+action.Graph.zoom.in:
+    text: Увеличить
+action.Graph.zoom.out:
+    text: Уменьшить
+action.Help.JoinDiscordChannel.text:
+    text: Присоединиться к Discord-каналу
+action.Help.KeymapReference.description:
+    text: Открыть PDF-файл со справкой по горячим клавишам по умолчанию.
+action.Help.KeymapReference.text:
+    text: _Справка по горячим клавишам
+action.Help.Youtube.description:
+    text: Посмотреть короткие живые демонстрации, знакомящие с функциями Consulo.
+action.Help.Youtube.text:
+    text: Смотреть видео на _YouTube
+action.HelpTopics.description:
+    text: Показать содержание справки
+action.HelpTopics.text:
+    text: _Справка
+action.HideActiveWindow.description:
+    text: Скрыть активное инструментальное окно
+action.HideActiveWindow.text:
+    text: Скрыть активное инструментальное окно
+action.HideAllWindows.description:
+    text: Скрыть все инструментальные окна
+action.HideAllWindows.text:
+    text: Скрыть _все инструментальные окна
+action.HideSideWindows.description:
+    text: Скрыть все инструментальные окна с этой стороны
+action.HideSideWindows.text:
+    text: Скрыть боковые инструментальные окна
+action.HighlightUsagesInFile.description:
+    text: Выделить использование символа курсором в активном редакторе
+action.HighlightUsagesInFile.not.ready:
+    text: Этот поиск использования требует индексов и не может быть выполнен, пока они не построены
+action.HighlightUsagesInFile.text:
+    text: _Выделить использование в файле
+action.HippieBackwardCompletion.description:
+    text: Циклическое раскрытие слова (назад)
+action.HippieBackwardCompletion.text:
+    text: Циклический _Expand Word (назад)
+action.HippieCompletion.description:
+    text: Циклическое раскрытие слова
+action.HippieCompletion.text:
+    text: Циклический _Expand Word
+action.IdeScriptingConsole.description:
+    text: Открыть консоль сценариев IDE
+action.IdeScriptingConsole.text:
+    text: Консоль сценариев IDE
+action.Images.EditExternaly.description:
+    text: Открыть изображение во внешнем редакторе
+action.Images.EditExternaly.text:
+    text: Открыть во внешнем редакторе
+action.Images.Editor.ActualSize.description:
+    text: Изменение масштаба изображения до фактического
+action.Images.Editor.ActualSize.text:
+    text: Фактический размер
+action.Images.Editor.ToggleGrid.description:
+    text: Переключить показ линий сетки
+action.Images.Editor.ToggleGrid.text:
+    text: Сетка
+action.Images.Editor.ZoomIn.description:
+    text: Увеличить просмотр изображения
+action.Images.Editor.ZoomIn.text:
+    text: Увеличить
+action.Images.Editor.ZoomOut.description:
+    text: Уменьшить просмотр изображения
+action.Images.Editor.ZoomOut.text:
+    text: Уменьшить
+action.Images.ShowThumbnails.description:
+    text: Показать эскизы для текущего каталога
+action.Images.ShowThumbnails.text:
+    text: Показать миниатюры изображений
+action.Images.Thumbnails.EnterAction.description:
+    text: Обзор каталога
+action.Images.Thumbnails.EnterAction.text:
+    text: Обзор
+action.Images.Thumbnails.Hide.description:
+    text: Закрыть окно эскизов
+action.Images.Thumbnails.Hide.text:
+    text: Закрыть эскизы
+action.Images.Thumbnails.ToggleRecursive.description:
+    text: Переключить рекурсивный просмотр
+action.Images.Thumbnails.ToggleRecursive.text:
+    text: Рекурсивно
+action.Images.Thumbnails.UpFolder.description:
+    text: Уровень выше
+action.Images.Thumbnails.UpFolder.text:
+    text: Уровень выше
+action.Images.ToggleTransparencyChessboard.description:
+    text: Переключить фон шахматной доской для показа прозрачности
+action.Images.ToggleTransparencyChessboard.text:
+    text: Фон шахматной доской
+action.ImplementMethods.description:
+    text: Реализовать базовый интерфейс/члены класса в текущем классе
+action.ImplementMethods.text:
+    text: _Реализовать члены…
+action.ImportFromEclipse.description:
+    text: Создать проект из Eclipse-проектов
+action.ImportFromEclipse.text:
+    text: Импорт из Eclipse…
+action.ImportFromJBuilder.description:
+    text: Загрузить модули из JBuilder-проекта
+action.ImportFromJBuilder.text:
+    text: Импорт из _JBuilder…
+action.ImportModule.description:
+    text: Импортировать модуль из каталога с существующими исходниками или из существующей модели проекта
+action.ImportModule.text:
+    text: Создать модуль из исходников…
+action.ImportModuleFromImlFile.description:
+    text: Импортировать iml-файл как модуль в проект
+action.ImportModuleFromImlFile.text:
+    text: Модуль импорта
+action.ImportProject.description:
+    text: Создать структуру проекта для каталога с существующими исходниками или преобразовать существующую модель проекта
+action.ImportSettings.description:
+    text: Импорт глобальных настроек
+action.ImportSettings.text:
+    text: Импорт настроек…
+action.IncomingChanges.Get.description:
+    text: Получить последнюю версию файлов, изменённых в выбранном списке изменений
+action.IncomingChanges.Get.text:
+    text: Получить Changelist
+action.IncomingChanges.Refresh.description:
+    text: Обновить список входящих изменений
+action.IncomingChanges.Refresh.text:
+    text: Обновить
+action.IncrementWindowHeight.text:
+    text: Увеличить высоту
+action.IncrementWindowWidth.text:
+    text: Увеличить ширину
+action.IncrementalSearch.description:
+    text: Запуск инкрементного поиска (поиск строки по мере ввода)
+action.IncrementalSearch.text:
+    text: _Инкрементальный поиск
+action.Inline.description:
+    text: Встроить выбранный метод или переменную
+action.Inline.text:
+    text: _Встроить…
+action.InsertLiveTemplate.description:
+    text: Показать всплывающий список Live Template, начинающихся с указанного префикса
+action.InsertLiveTemplate.text:
+    text: Вставить Live _Template…
+action.InspectCode.description:
+    text: Проверить код
+action.InspectCode.text:
+    text: _Проверить код…
+action.IntroduceConstant.description:
+    text: Создать константу из выбранного выражения (static final поле)
+action.IntroduceConstant.text:
+    text: _Константа…
+action.IntroduceField.description:
+    text: Создать поле класса из выбранного выражения
+action.IntroduceField.text:
+    text: _Поле…
+action.IntroduceParameter.description:
+    text: Превратить выбранное выражение в параметр метода
+action.IntroduceParameter.text:
+    text: _Параметр…
+action.IntroduceParameterObject.description:
+    text: Заменяет список параметров метода на объект
+action.IntroduceParameterObject.text:
+    text: Объект-_параметр…
+action.IntroduceVariable.description:
+    text: Создать переменную из выбранного выражения
+action.IntroduceVariable.text:
+    text: _Переменная…
+action.InvalidateCaches.description:
+    text: Принудительно пересобрать все кеши и индексы при следующем запуске
+action.InvalidateCaches.norestart.text:
+    text: Сбросить кеши…
+action.InvalidateCaches.text:
+    text: Перезапустить со сбросом кешей…
+action.JumpToLastChange.description:
+    text: Переход по самым последним точкам изменения
+action.JumpToLastChange.text:
+    text: Место последней _правки
+action.JumpToLastWindow.description:
+    text: Активировать последнее выделенное инструментальное окно
+action.JumpToLastWindow.text:
+    text: _Перейти к последнему инструментальному окну
+action.LocalVcs.ShowRepHistory.text:
+    text: История репозитория
+action.LocalVcs.ShowStatistics.description:
+    text: Показать статистику локальной VCS
+action.LocalVcs.ShowStatistics.text:
+    text: Показать статистику локальной VCS…
+action.LocalizePlugin.text:
+    text: Локализация расширения
+action.Lvcs.RollbackFileAction.description:
+    text: Откатить
+action.Lvcs.RollbackFileAction.text:
+    text: Откатить файл
+action.Lvcs.ShowLvcsDiffAction.description:
+    text: Показать правки
+action.Lvcs.ShowLvcsDiffAction.text:
+    text: Сравнить версии
+action.ManageRecentProjects.text:
+    text: Управление проектами…
+action.MarkAsOriginalTypeAction.text:
+    text: Отметить как
+action.MarkAsPlainTextAction.text:
+    text: Отметить как обычный текст
+action.MemberPushDown.description:
+    text: Спустить элементы класса в его прямых классов-наследников
+action.MemberPushDown.text:
+    text: Спустить элементы вниз…
+action.MembersPullUp.description:
+    text: Поднять элементы класса в родительский класс или интерфейс
+action.MembersPullUp.text:
+    text: _Поднять элементы наверх…
+action.Merge3Files.text:
+    text: Слияние
+action.MethodDown.description:
+    text: Перейти к следующему методу в активном редакторе
+action.MethodDown.text:
+    text: _Следующий метод
+action.MethodHierarchy.BaseOnThisType.description:
+    text: Показать иерархию для метода выбранного класса / интерфейса
+action.MethodHierarchy.BaseOnThisType.text:
+    text: На основе этого типа
+action.MethodHierarchy.ImplementMethodAction.description:
+    text: Реализовать метод (из иерархии методов)
+action.MethodHierarchy.ImplementMethodAction.text:
+    text: Метод реализации
+action.MethodHierarchy.OverrideMethodAction.description:
+    text: Переопределить метод (из иерархии методов)
+action.MethodHierarchy.OverrideMethodAction.text:
+    text: Метод переопределения
+action.MethodHierarchy.description:
+    text: Просмотреть иерархию методов для выбранного метода
+action.MethodHierarchy.text:
+    text: Иерархия _методов
+action.MethodUp.description:
+    text: Перейти к предыдущему методу в активном редакторе
+action.MethodUp.text:
+    text: _Предыдущий метод
+action.MinimizeCurrentWindow.description:
+    text: Свернуть текущее окно
+action.MinimizeCurrentWindow.text:
+    text: Свернуть
+action.ModuleSettings.description:
+    text: Открыть диалог настроек для выбранного модуля
+action.ModuleSettings.text:
+    text: Настройки _модуля
+action.Move.description:
+    text: Переместить выбранный класс, метод, пакет или статический элемент в другой пакет или класс и исправить все ссылки
+action.Move.text:
+    text: _Переместить…
+action.MoveEditorToOppositeTabGroup.description:
+    text: Переместить редактор в противоположную группу вкладок
+action.MoveEditorToOppositeTabGroup.text:
+    text: _Перенести в противоположную группу вкладок
+action.MoveElementLeft.description:
+    text: Переместить текущий элемент(ы) на предыдущую позицию в списке
+action.MoveElementLeft.text:
+    text: Переместить элемент влево
+action.MoveElementRight.description:
+    text: Переместить текущий элемент(ы) на следующую позицию в списке
+action.MoveElementRight.text:
+    text: Переместить элемент вправо
+action.MoveLineDown.description:
+    text: Переместить выделенные строки на одну строку вниз
+action.MoveLineDown.text:
+    text: Переместить строку вниз
+action.MoveLineUp.description:
+    text: Переместить выделенные строки на одну строку вверх
+action.MoveLineUp.text:
+    text: Переместить строку _вверх
+action.MoveStatementDown.description:
+    text: Переместить выбранное выражение на одну строку вниз
+action.MoveStatementDown.text:
+    text: Переместить выражение в_низ
+action.MoveStatementUp.description:
+    text: Переместить выбранное выражение на одну строку вверх
+action.MoveStatementUp.text:
+    text: Переместить выражение _вверх
+action.MoveToTheLeft.description:
+    text: Переместить параметр влево
+action.MoveToTheLeft.text:
+    text: Переместить параметр влево
+action.MoveToTheRight.description:
+    text: Переместить параметр вправо
+action.MoveToTheRight.text:
+    text: Переместить параметр вправо
+action.NewDir.text:
+    text: Каталог/Пакет
+action.NewDirectoryProject.description:
+    text: Создать новый проект
+action.NewDirectoryProject.text:
+    text: Новый проект…
+action.NewElement.description:
+    text: Создать новый класс, интерфейс, файл или каталог
+action.NewElement.text:
+    text: _Создать…
+action.NewElementSamePlace.description:
+    text: Создать новый класс, интерфейс, файл или каталог
+action.NewElementSamePlace.text:
+    text: _Новый…
+action.NewElementToolbarAction.text:
+    text: Создать новый файл
+action.NewFile.text:
+    text: Файл
+action.NewFromTemplate.text:
+    text: Из шаблона
+action.NewInspectionsInLatestVersion.description:
+    text: Показать новые проверки в Consulo
+action.NewInspectionsInLatestVersion.text:
+    text: Что нового в Consulo
+action.NewModule.description:
+    text: Создать новый модуль с нуля и добавить его в проект
+action.NewModule.text:
+    text: Новый _модуль…
+action.NewModuleInGroup.text:
+    text: Модуль
+action.NewProject.description:
+    text: Создать новый проект с нуля
+action.NewProject.text:
+    text: _Новый проект…
+action.NewScratchBuffer.description:
+    text: Создает новый или повторно использует существующий буфер памяти
+action.NewScratchBuffer.text:
+    text: Новый буфер
+action.NewScratchFile.description:
+    text: Создаёт новый рабочий файл с выбранным языком
+action.NewScratchFile.text:
+    text: Временный файл
+action.NewScratchFile.text.with.new:
+    text: Временный файл
+action.NextDiff.description:
+    text: К следующему различию
+action.NextDiff.text:
+    text: К следующему различию
+action.NextEditorTab.text:
+    text: Выбрать следующую вкладку в файле с несколькими редакторами
+action.NextOccurence.description:
+    text: Перейти к следующему вхождению
+action.NextOccurence.text:
+    text: _Следующее вхождение
+action.NextParameter.text:
+    text: Следующий параметр
+action.NextProjectWindow.description:
+    text: Перейти к следующему окну проекта
+action.NextProjectWindow.text:
+    text: Следующее окно проекта
+action.NextSplitter.description:
+    text: Перейти к следующему окну разделителя
+action.NextSplitter.text:
+    text: _Перейти к следующему раздителю
+action.NextTab.description:
+    text: Активировать следующую вкладку
+action.NextTab.text:
+    text: Выбрать следующую вкладку
+action.NextTemplateParameter.text:
+    text: Следующий параметр
+action.NextTemplateVariable.text:
+    text: Следующая переменная шаблона или завершить рефакторинг на месте
+action.OnlineDocAction.description:
+    text: Показать онлайн-документацию
+action.OnlineDocAction.text:
+    text: _Онлайн-документация
+action.OpenDirectoryProject.description:
+    text: Начать редактирование кода в указанном каталоге
+action.OpenDirectoryProject.text:
+    text: Открыть каталог…
+action.OpenFile.description:
+    text: Открыть проект или файл в редакторе
+action.OpenFile.text:
+    text: _Открыть…
+action.OpenInRightSplit.description:
+    text: Разделить область редактора на 2 группы вкладок и открыть текущий файл в правой группе
+action.OpenInRightSplit.text:
+    text: Открыть в правой части
+action.OpenModuleSettings.text:
+    text: Открыть настройки модуля
+action.OpenProject.description:
+    text: Открыть имеющийся проект
+action.OpenProject.text:
+    text: Открыть проект…
+action.OverrideFileTypeAction.description:
+    text: Обрабатывать текущий файл как файл другого типа
+action.OverrideFileTypeAction.text:
+    text: Переопределить тип файла
+action.OverrideFileTypeAction.verbose.description:
+    text: Обрабатывать файл «{0}»{1,choice,0#|1# (и ещё {1} файлов)} как файл другого типа файла
+action.OverrideMethods.description:
+    text: Переопределить члены базового класса в текущем классе
+action.OverrideMethods.text:
+    text: _Переопределить члены…
+action.ParameterInfo.description:
+    text: Показать параметры вызова метода при вставке
+action.ParameterInfo.text:
+    text: _Информация о параметрах
+action.PasteMultiple.description:
+    text: Вставить из недавнего буфера обмена
+action.PasteMultiple.text:
+    text: Вставить из _истории…
+action.PerformanceReport.text:
+    text: Отправить отчет об эффективности
+action.PinActiveTab.description:
+    text: Закрепить активное инструментальное окно или вкладку редактора
+action.PinActiveTab.text:
+    text: За_крепить активную вкладку
+action.PlaySavedMacrosAction.description:
+    text: Воспроизвести сохраненные макросы
+action.PlaySavedMacrosAction.text:
+    text: Воспроизвести сохраненные макросы…
+action.PlaybackLastMacro.description:
+    text: Воспроизвести последний использованный макрос
+action.PlaybackLastMacro.text:
+    text: _Запустить последний макрос
+action.PopupHector.description:
+    text: Показать панель для настройки режима выделения для текущего файла
+action.PopupHector.text:
+    text: Настроить текущий анализ файлов…
+action.PrevParameter.text:
+    text: Предыдущий параметр
+action.PrevSplitter.description:
+    text: Перейти к предыдущему окну разделителя
+action.PrevSplitter.text:
+    text: Перейти к предыдущему разделителю
+action.PrevTemplateParameter.text:
+    text: Предыдущий параметр
+action.PreviousDiff.description:
+    text: К предыдущему различию
+action.PreviousDiff.text:
+    text: К предыдущему различию
+action.PreviousEditorTab.text:
+    text: Выбрать предыдущую вкладку в файле с несколькими редакторами
+action.PreviousOccurence.description:
+    text: Перейти к предыдущему вхождению
+action.PreviousOccurence.text:
+    text: _Предыдущее вхождение
+action.PreviousProjectWindow.description:
+    text: Перейти к предыдущему окну проекта
+action.PreviousProjectWindow.text:
+    text: Предыдущее окно проекта
+action.PreviousTab.description:
+    text: Активировать предыдущую вкладку
+action.PreviousTab.text:
+    text: Выбрать предыдущую вкладку
+action.PreviousTemplateVariable.text:
+    text: Предыдущая переменная шаблона
+action.Print.description:
+    text: Распечатать файл
+action.Print.text:
+    text: _Печать…
+action.ProductivityGude.description:
+    text: Показать статистику использования функций производительности
+action.ProductivityGude.text:
+    text: _Руководство по продуктивности
+action.ProjectViewChangeView.description:
+    text: Выберите дерево Проекта, Sourcepath или Classpath в панели проекта.
+action.ProjectViewChangeView.text:
+    text: Изменить вид…
+action.ProjectViewEditSource.text:
+    text: Редактировать источник
+action.PsiViewer.text:
+    text: _Просмотр стрктуры PSI…
+action.PsiViewerForContext.text:
+    text: Просмотр PSI-структуры _текущего файла…
+action.QuickChangeScheme.description:
+    text: Изменение текущей схемы стиля кода, схемы цвета и шрифтов, раскладки клавиатуры или стиля интерфейса
+action.QuickChangeScheme.text:
+    text: _Схема быстрого переключения…
+action.QuickDocCopy.text:
+    text: Быстрое копирование документации
+action.QuickEvaluateExpression.description:
+    text: Вычислить выбранное выражение
+action.QuickEvaluateExpression.text:
+    text: _Быстрое вычисление выражения
+action.QuickImplementations.description:
+    text: Показать всплывающее окно с содержанием символа (и его реализаций)
+action.QuickImplementations.text:
+    text: Быстрое _определение
+action.QuickJavaDoc.description:
+    text: Показать всплывающее окно с документацией для символа под курсором
+action.QuickJavaDoc.text:
+    text: Быстрая _документация
+action.RearrangeCode.description:
+    text: Изменить код
+action.RearrangeCode.text:
+    text: Изменить порядок кода
+action.RecentChangedFiles.description:
+    text: Показать список недавно изменённых файлов
+action.RecentChangedFiles.text:
+    text: Недавно изменённые файлы
+action.RecentChanges.text:
+    text: _Недавние изменения
+action.RecentFiles.description:
+    text: Показать список недавно просмотренных файлов
+action.RecentFiles.text:
+    text: _Недавние файлы
+action.RecentLocations.description:
+    text: Показать список недавно просмотренных / изменённых местоположений
+action.RecentLocations.text:
+    text: Недавние местоположения
+action.Refactorings.QuickListPopupAction.description:
+    text: Контекстно-зависимое всплывающее окно со списком действий по рефакторингу
+action.Refactorings.QuickListPopupAction.text:
+    text: Отрефакторить…
+action.ReformatCode.description:
+    text: Переформатировать код
+action.ReformatCode.text:
+    text: _Переформатировать код…
+action.Refresh.text:
+    text: _Обновить
+action.ReloadFromDisk.description:
+    text: Перезагрузить текущий файл с диска и потерять все изменения
+action.ReloadFromDisk.text:
+    text: Перезагрузить с _диска
+action.ReloadProjectAction.text:
+    text: Обновить проект
+action.RemoveAllFavoritesListsButThis.description:
+    text: Удалить всё избранное, кроме этих
+action.RemoveAllFavoritesListsButThis.text:
+    text: Удалить весь список избранного, кроме этого
+action.RemoveFavoritesList.description:
+    text: Удалить всё избранное, к которому принадлежит выбранный узел
+action.RemoveFavoritesList.text:
+    text: Удалить список избранного
+action.RemoveFromFavorites.description:
+    text: Удалить выбранный узел из избранного
+action.RemoveFromFavorites.text:
+    text: Удалить из избранного
+action.RemoveStripeButton.description:
+    text: Удалить кнопку инструментального окна с боковой панели
+action.RemoveStripeButton.text:
+    text: Удалить с боковой панели
+action.RenameElement.description:
+    text: Переименовать выбранный элемент и поправить все ссылки
+action.RenameElement.text:
+    text: _Переименовать…
+action.RenameFavoritesList.description:
+    text: переименовать список избранного, к которому принадлежит выбранный узел
+action.RenameFavoritesList.text:
+    text: Переименовать список избранного
+action.ReopenClosedTab.text:
+    text: Переоткрыть закрытую вкладку
+action.Replace.description:
+    text: Наменить строку в активном редакторе другой строкой
+action.Replace.text:
+    text: _Заменить…
+action.ReplaceInPath.description:
+    text: Заменить строку в нескольких файлах другой строкой
+action.ReplaceInPath.text:
+    text: _Заменить в пути…
+action.RerunFailedTests.description:
+    text: Запускать только те тесты, которые не прошли / завершились сбоем после последнего запуска
+action.RerunFailedTests.text:
+    text: Перезапустить упавшие тесты
+action.ResizeToolWindowDown.description:
+    text: Сдвинуть вниз границу активного инструментального окна
+action.ResizeToolWindowDown.text:
+    text: Растянуть вниз
+action.ResizeToolWindowLeft.description:
+    text: Сдвинуть влево границу активного инструментального окна
+action.ResizeToolWindowLeft.text:
+    text: Растянуть влево
+action.ResizeToolWindowMaximize.text:
+    text: Развернуть инструментальное окно
+action.ResizeToolWindowMaximize.text.alternative:
+    text: Восстановить размер инструментального окна
+action.ResizeToolWindowRight.description:
+    text: Сдвинуть вправо границу активного инструментального окна
+action.ResizeToolWindowRight.text:
+    text: Растянуть вправо
+action.ResizeToolWindowUp.description:
+    text: Сдвинуть вверх границу активного инструментального окна
+action.ResizeToolWindowUp.text:
+    text: Растянуть вверх
+action.RestoreDefaultLayout.description:
+    text: Восстановить схему расположения по умолчанию
+action.RestoreDefaultLayout.text:
+    text: Восстановить схему расположения по _умолчанию
+action.RevealIn.name.mac:
+    text: Показать в Finder
+action.RevealIn.name.other:
+    text: Показать в {0}
+action.RevealIn.text:
+    text: Показать в проводнике/Finder/Konqueror/Nautilus
+action.ReverteOverrideFileTypeAction.description:
+    text: Отменить действие «Переопределить тип файла» и восстановить старый тип файла
+action.ReverteOverrideFileTypeAction.text:
+    text: Отменить переопределение типа файла
+action.ReverteOverrideFileTypeAction.verbose.description:
+    text: Отменить действие «Переопределить тип файла» и восстановить старый тип файла для файла «{0}»{1,choice,0#|1# (и ещё {1} файлов)}
+action.RunAnything.description:
+    text: Запустить любую команду
+action.RunAnything.text:
+    text: Запустить что угодно
+action.RunConfiguration.description:
+    text: Выбрать конфигурацию запуска/отладки
+action.RunConfiguration.text:
+    text: Выбрать конфигурацию запуска/отладки
+action.RunDashboard.AddType.text:
+    text: Тип конфигурации запуска…
+action.RunDashboard.ClearContent.text:
+    text: Очистить содержимое
+action.RunDashboard.CopyConfiguration.text:
+    text: Копировать конфигурацию
+action.RunDashboard.Debug.text:
+    text: Отладить
+action.RunDashboard.EditConfiguration.text:
+    text: Изменить конфигурацию
+action.RunDashboard.GroupByStatus.text:
+    text: Статус
+action.RunDashboard.GroupByType.text:
+    text: Тип
+action.RunDashboard.GroupConfigurations.text:
+    text: Групповые конфигурации
+action.RunDashboard.HideConfiguration.text:
+    text: Скрыть конфигурацию
+action.RunDashboard.OpenRunningConfigInNewTab.text:
+    text: Открыть текущую конфигурацию в новой вкладке
+action.RunDashboard.RemoveType.text:
+    text: Удалить тип конфигурации из служб
+action.RunDashboard.RestoreConfiguration.text:
+    text: Восстановить конфигурацию
+action.RunDashboard.RestoreHiddenConfigurations.text:
+    text: Восстановить скрытое Конфигурации
+action.RunDashboard.Run.text:
+    text: Запустить
+action.RunDashboard.Stop.text:
+    text: Остановить действие
+action.RunDashboard.UngroupConfigurations.text:
+    text: Разгруппировать конфигурации
+action.RunGc.text:
+    text: Запустить сборщик мусора
+action.Runner.AttachCell.description:
+    text: прикрепить выбранные представления к инструментальному окну отладчика
+action.Runner.AttachCell.text:
+    text: Прикрепить
+action.Runner.AttachCells.text:
+    text: Прикрепить {0} представления
+action.Runner.CloseAllViews.description:
+    text: Закрыть все представления
+action.Runner.CloseAllViews.text:
+    text: Закрыть всё
+action.Runner.CloseOtherViews.description:
+    text: закрыть другие представления
+action.Runner.CloseOtherViews.text:
+    text: Закрыть другие
+action.Runner.CloseView.description:
+    text: Закрыть просмотр
+action.Runner.CloseView.text:
+    text: Закрыть
+action.Runner.DetachCell.description:
+    text: Отсоединить выбранные представления в отдельные окна
+action.Runner.DetachCell.text:
+    text: Отсоединить
+action.Runner.DetachCells.text:
+    text: Отключить {0} просмотры
+action.Runner.FocusOnStartup.description:
+    text: Сфокусировать это представление по умолчанию, когда отображается пользовательский интерфейс
+action.Runner.FocusOnStartup.text:
+    text: Сфокусировать при запуске
+action.Runner.MinimizeView.description:
+    text: Скрыть вид
+action.Runner.MinimizeView.text:
+    text: Скрыть
+action.Runner.MoveViewToGrid.description:
+    text: Переместить представление в контейнер сетки отладчика
+action.Runner.MoveViewToGrid.text:
+    text: Переместить в сетку
+action.Runner.MoveViewToTab.description:
+    text: Переместить представление в контейнер вкладки отладчика
+action.Runner.MoveViewToTab.text:
+    text: Перейти на вкладку
+action.Runner.RestoreLayout.description:
+    text: Восстановить визуальные элементы отладчика до состояния по умолчанию
+action.Runner.RestoreLayout.text:
+    text: Восстановить схему расположения
+action.Runner.RestoreView.description:
+    text: Восстановить представление в сетке отладчика
+action.Runner.RestoreView.text:
+    text: Восстановить окошко «{0}»
+action.Runner.ToggleToolbarLayout.description:
+    text: Переключает горизонтальную/вертикальную ориентацию панели инструментов
+action.Runner.ToggleToolbarLayout.text:
+    text: Горизонтальные панели инструментов
+action.SafeDelete.description:
+    text: Удалить выбранный класс, метод или поле, проверив, что он не используется
+action.SafeDelete.text:
+    text: Безопасное _удаление…
+action.SaveAll.description:
+    text: Сохранить все файлы и настройки
+action.SaveAll.text:
+    text: _Сохранить всё
+action.SaveAsTemplate.description:
+    text: Сохранить выделенный текст как live template
+action.SaveAsTemplate.text:
+    text: Сохранить как L_ive Template…
+action.SaveDocument.description:
+    text: Сохраняет только файл, открытый в текущем редакторе
+action.SaveDocument.text:
+    text: Сохранить документ
+action.SaveFileAsTemplate.description:
+    text: Сохранить текущий файл как шаблон
+action.SaveFileAsTemplate.text:
+    text: Сохранить файл как _шаблон…
+action.ScopeView.EditScopes.description:
+    text: Изменить области
+action.ScopeView.EditScopes.text:
+    text: _Изменить области
+action.Scratch.ChangeLanguage.description:
+    text: Изменить язык файла
+action.Scratch.ChangeLanguage.text:
+    text: Изменить язык файла
+action.ScrollTreeToCenter.text:
+    text: Прокрутить дерево в центр
+action.SearchEverywhere.text:
+    text: Поиск везде
+action.SelectAllOccurrences.text:
+    text: Выбрать все вхождения
+action.SelectIn.description:
+    text: Выберите текущий класс или метод в любом представлении
+action.SelectIn.text:
+    text: Выбрать в…
+action.SelectNextOccurrence.text:
+    text: Добавить следующее вхождение в выделение
+action.ServiceView.ConfigureServices.text:
+    text: Настроить инструментальное окно служб
+action.ServiceView.GroupByContributor.text:
+    text: Тип службы
+action.ServiceView.GroupByServiceGroups.text:
+    text: Группы служб
+action.ServiceView.JumpToServices.text:
+    text: Перейти к службам
+action.ServiceView.OpenEachInNewTab.text:
+    text: Открыть каждую в новой Вкладка
+action.ServiceView.OpenInNewTab.text:
+    text: Открыть в новой вкладке
+action.ServiceView.OpenInToolWindow.text:
+    text: Открыть в отдельном инструментальном окне
+action.ServiceView.SelectActiveService.text:
+    text: Всегда
+action.ServiceView.ShowServices.text:
+    text: Показать дерево служб
+action.ServiceView.SplitByType.text:
+    text: Открыть каждый тип в новой вкладке
+action.ShelvedChanges.DeleteDeleted.text:
+    text: Удалить применённые изменения Shelve
+action.ShelvedChanges.Diff.description:
+    text: Показать разницу для выбранного изменения
+action.ShelvedChanges.Diff.text:
+    text: Показать разницу
+action.ShelvedChanges.Rename.description:
+    text: Переименовать отложенный список изменений
+action.ShelvedChanges.Rename.text:
+    text: Переименовать…
+action.ShelvedChanges.Restore.text:
+    text: Восстановить применённое изменение Shelve
+action.ShelvedChanges.ShowHideDeleted.description:
+    text: Показать/скрыть применённые отложенные изменения
+action.ShelvedChanges.ShowHideDeleted.text:
+    text: Показать/скрыть применённые отложенные изменения
+action.ShelvedChanges.Unshelve.description:
+    text: Применить сохраненные изменения к текущей кодовой базе
+action.ShelvedChanges.Unshelve.text:
+    text: Применить отложенные изменения
+action.ShowBackwardPackageDeps.description:
+    text: Просмотреть код, в котором используется выбранный элемент анализа
+action.ShowBackwardPackageDeps.text:
+    text: _Обратные зависимости…
+action.ShowColorPicker.text:
+    text: Показать выбор цветов
+action.ShowContent.description:
+    text: Показать всплывающее окно со списком вкладок инструментального окна
+action.ShowContent.text:
+    text: Показать список вкладок
+action.ShowContent.views.text:
+    text: Показать список представлений
+action.ShowDiagram.text:
+    text: Показать диаграмму
+action.ShowErrorDescription.description:
+    text: Показать описание ошибки или предупреждения при вставке
+action.ShowErrorDescription.text:
+    text: Описание _ошибки
+action.ShowFilePath.description:
+    text: Путь к текущему файлу для открытия во внешнем файловом менеджере
+action.ShowFilePath.text:
+    text: _Путь к файлу
+action.ShowFilePath.tuned:
+    text: Путь к {0,choice,0#файлу|1#каталогу}
+action.ShowFilterAction.description:
+    text: Показать всплывающее окно фильтрации
+action.ShowFilterAction.popup.button.all:
+    text: Всё
+action.ShowFilterAction.popup.button.invert:
+    text: Инвертировать
+action.ShowFilterAction.popup.button.none:
+    text: Ничего
+action.ShowFilterAction.text:
+    text: Фильтр
+action.ShowIntentionActions.text:
+    text: Показать контекстные действия
+action.ShowLog.description:
+    text: Открывает папку с лог-файлом
+action.ShowLog.text:
+    text: Открыть лог-файл
+action.ShowModulesDependencies.description:
+    text: Показать зависимости между модулями в проекте
+action.ShowModulesDependencies.text:
+    text: Зависимости _модуля…
+action.ShowNavBar.text:
+    text: _Перейти к панели навигации
+action.ShowPackageDeps.description:
+    text: Просмотреть код, от которого зависит выбранный элемент анализа
+action.ShowPackageDeps.text:
+    text: _Зависимости…
+action.ShowPopupMenu.text:
+    text: Показать контекстное меню
+action.ShowProcessWindow.description:
+    text: Показать/скрыть окно фоновых задач
+action.ShowProcessWindow.double.click:
+    text: Щёлкните, чтобы показать/скрыть окно фоновых задач
+action.ShowProcessWindow.text:
+    text: Показать
+action.ShowProjectStructureSettings.description:
+    text: Настроить структуру проекта
+action.ShowProjectStructureSettings.text:
+    text: Структура проекта…
+action.ShowQuickDocAtPinnedWindowFromTooltip.description:
+    text: Показать полную документацию в закреплённом окне
+action.ShowQuickDocAtPinnedWindowFromTooltip.text:
+    text: Полная документация в закреплённом окне
+action.ShowReformatFileDialog.text:
+    text: Переформатировать файл…
+action.ShowRegistry.text:
+    text: Реестр
+action.ShowSettingsAndFindUsages.description:
+    text: Выбрать область действия и отредактировать параметры действия «Найти использования».
+action.ShowSettingsAndFindUsages.text:
+    text: Найти настройки использования…
+action.ShowStartupManagerAction.description:
+    text: Выбор темы
+action.ShowStartupManagerAction.text:
+    text: Менеджер настройки
+action.ShowTips.description:
+    text: Показать советы дня
+action.ShowTips.text:
+    text: Совет _дня
+action.ShowUsages.description:
+    text: Показать использования символа у курсора
+action.ShowUsages.text:
+    text: _Показать использования
+action.ShowUserActivities.text:
+    text: Показать действия
+action.SmartTypeCompletion.description:
+    text: Полный код на основе ожидаемого типа
+action.SmartTypeCompletion.text:
+    text: _SmartType
+action.SplitHorizontally.description:
+    text: Разделить область редактора на 2 группы вкладок и переместить текущую вкладку в нижнюю группу
+action.SplitHorizontally.text:
+    text: Разделить по горизонтали
+action.SplitVertically.description:
+    text: Разделить область редактора на 2 группы вкладок и переместить текущую вкладку в правую группу
+action.SplitVertically.text:
+    text: Разделить по вертикали
+action.StartStopMacroRecording.description:
+    text: Начать/остановить запись нового макроса
+action.StartStopMacroRecording.text:
+    text: Пуск/стоп _записи макроса
+action.StartupWizard.description:
+    text: Запустить мастер для выбора набора включённых расширений
+action.StartupWizard.text:
+    text: Настроить дополнения…
+action.Stop.description:
+    text: Остановить процесс
+action.Stop.text:
+    text: Стоп
+action.StopBackgroundProcesses.description:
+    text: Остановить фоновые процессы
+action.StopBackgroundProcesses.text:
+    text: Остановить фоновые процессы…
+action.StoreDefaultLayout.description:
+    text: Сохранить текущую схему расположения как умолчальную
+action.StoreDefaultLayout.text:
+    text: Сохранить текущую _схему расположения как умолчальную
+action.SurroundWith.description:
+    text: Окружить выбранный фрагмент кода if, while, try/catch или другой конструкцией
+action.SurroundWith.text:
+    text: _Окружить…
+action.SurroundWithLiveTemplate.description:
+    text: окружает выделение одним из шаблонов
+action.SurroundWithLiveTemplate.text:
+    text: Окружить при помощи Live Tem_plate…
+action.Switcher.text:
+    text: Переключатель
+action.Synchronize.description:
+    text: Обнаружить все изменённые вовне файлы и перезагрузить их с диска
+action.Synchronize.text:
+    text: _Синхронизировать
+action.SynchronizeCurrentFile.text:
+    text: Синхронизировать выбранный файл
+action.TabList.description:
+    text: Показать раскрывающийся список со списком всех вкладок в однострочном макете вкладок
+action.TabList.text:
+    text: Показать все вкладки
+action.TabsAlphabeticalMode.text:
+    text: Сортировать вкладки по названию файла
+action.TabsPlacementBottom.text:
+    text: Снизу
+action.TabsPlacementLeft.text:
+    text: Слева
+action.TabsPlacementNone.text:
+    text: Нигде
+action.TabsPlacementRight.text:
+    text: Справа
+action.TabsPlacementTop.text:
+    text: Сверху
+action.TechnicalSupport.description:
+    text: Доступ к технической поддержке на веб-сайте Consulo
+action.TechnicalSupport.text:
+    text: Связаться с командой _техподдержки
+action.TemplateProjectProperties.description:
+    text: настройка параметров по умолчанию для всех новых проектов.
+action.TemplateProjectProperties.text:
+    text: Настройки по _умолчанию…
+action.TemplateProjectStructure.description:
+    text: Настроить структуру по умолчанию для всех новых проектов
+action.TemplateProjectStructure.text:
+    text: Структура проекта по умолчанию…
+action.TextComponent.ClearAction.description:
+    text: Очистить текст в текстовых компонентах
+action.TextComponent.ClearAction.text:
+    text: Открытый текст
+action.ToggleBreakpointEnabled.description:
+    text: Включить/отключить точку останова на текущей строке
+action.ToggleBreakpointEnabled.text:
+    text: Включить/отключить _точку останова
+action.ToggleContentUiTypeMode.description:
+    text: Переключение между табуляцией и комбинированным представлением содержимого
+action.ToggleContentUiTypeMode.text:
+    text: Групповые вкладки
+action.ToggleDockMode.description:
+    text: Не сворачивать инструментальное окно при активации другого окна
+action.ToggleDockMode.text:
+    text: _Не сворачивать
+action.ToggleFloatingMode.description:
+    text: Открепить активное инструментальное окно и сделать его плавающим
+action.ToggleFloatingMode.text:
+    text: _Плавающий режим
+action.ToggleFullScreen.description:
+    text: Переключить полноэкранный режим
+action.ToggleFullScreen.text:
+    text: Переключить полноэкранный режим
+action.ToggleFullScreen.text.enter:
+    text: Войти в полноэкранный режим
+action.ToggleFullScreen.text.exit:
+    text: Выйти из полноэкранного режима
+action.TogglePinnedMode.description:
+    text: Прикрепить активное инструментальное окно к границе экрана
+action.TogglePinnedMode.text:
+    text: _Прикреплённый режим
+action.TogglePopupHints.text:
+    text: Переключить всплывающие подсказки для текущего файла
+action.TogglePowerSave.description:
+    text: Режим энергосбережения отключает фоновый анализ кода и другие фоновые операции
+action.TogglePowerSave.text:
+    text: Режим энергосбережения
+action.TogglePresentationAssistant.text:
+    text: Показ горячих клавиш и действий мыши на экране
+action.TogglePresentationMode.description:
+    text: Переключить режим презентации
+action.TogglePresentationMode.text:
+    text: Переключить режим презентации
+action.TogglePresentationMode.text.enter:
+    text: Войти в режим презентации
+action.TogglePresentationMode.text.exit:
+    text: Выйти из режима презентации
+action.ToggleReadOnlyAttribute.description:
+    text: переключить атрибут текущего файла только для чтения
+action.ToggleReadOnlyAttribute.files:
+    text: Сделать {1,choice,1#файл|2#файлы} {0,choice,0#только для чтения|1#записываемым}
+action.ToggleReadOnlyAttribute.text:
+    text: Переключить атрибут только для чтения
+action.ToggleSideMode.description:
+    text: Включить/выключить режим разделения окон инструментов
+action.ToggleSideMode.text:
+    text: Режим разделения
+action.ToggleWindowedMode.description:
+    text: Окно активного окна / без окна
+action.ToggleWindowedMode.text:
+    text: _Оконный режим
+action.Type Migration.description:
+    text: Заменить один тип на другой
+action.Type Migration.text:
+    text: Замена типов…
+action.TypeHierarchy.BaseOnThisType.text:
+    text: На основе этого типа
+action.TypeHierarchy.Class.text:
+    text: Иерархия классов
+action.TypeHierarchy.Subtypes.text:
+    text: Иерархия подтипов
+action.TypeHierarchy.Supertypes.text:
+    text: Иерархия супертипов
+action.TypeHierarchy.description:
+    text: Просмотреть иерархию для выбранного класса
+action.TypeHierarchy.text:
+    text: Иерархия _типов
+action.UnmarkRoot.text:
+    text: Снять отметку о корне
+action.UnselectPreviousOccurrence.text:
+    text: Снять выделение с предыдущего вхождения
+action.Unsplit.description:
+    text: Убрать разделитель окон
+action.Unsplit.text:
+    text: _Убрать разделитель
+action.UnsplitAll.description:
+    text: Убрать все разделители окон
+action.UnsplitAll.text:
+    text: _Убрать все разделители
+action.Unwrap.description:
+    text: Безопасно разворачивает или удаляет выбранную область
+action.Unwrap.text:
+    text: _Раскрыть/Удалить…
+action.UpdateRunningApplication.text:
+    text: Обновить запущенное приложение
+action.UsageView.Exclude.description:
+    text: Исключить это использование(я) из обработки
+action.UsageView.Exclude.text:
+    text: Исключить
+action.UsageView.Include.description:
+    text: Включить это использование в обработку
+action.UsageView.Include.text:
+    text: Включить
+action.UsageView.Rerun.description:
+    text: Искать заново
+action.UsageView.Rerun.text:
+    text: Искать заново
+action.UsageView.ShowRecentFindUsages.description:
+    text: Выбрать и повторно запустить недавний поиск использований
+action.UsageView.ShowRecentFindUsages.text:
+    text: _Последние найденные использования
+action.Vcs.ChangesView.description:
+    text: Показать окно для управления изменениями и списками изменений
+action.Vcs.ChangesView.text:
+    text: Показать вид изменений
+action.Vcs.CheckCommitMessageSpelling.description:
+    text: Переключить проверку орфографических ошибок в сообщениях фиксации
+action.Vcs.CheckCommitMessageSpelling.text:
+    text: Проверить правописание сообщения фиксации
+action.Vcs.EditSourceAction.description:
+    text: Изменить источник
+action.Vcs.EditSourceAction.text:
+    text: Изменить источник
+action.Vcs.ExcludeAction.description:
+    text: Исключить из фиксации
+action.Vcs.ExcludeAction.text:
+    text: Исключить из фиксации
+action.Vcs.FileView.description:
+    text: Показать информацию, связанную с контролем версий, для всех локальных файлов.
+action.Vcs.FileView.text:
+    text: Показать файловый вид
+action.Vcs.ProjectStatus.text:
+    text: _Проверить статус проекта
+action.Vcs.Push.text:
+    text: Отправить…
+action.Vcs.RollbackChangedLines.description:
+    text: Откат изменений в выбранных строках
+action.Vcs.RollbackChangedLines.text:
+    text: Откатить
+action.Vcs.RollbackChanges.description:
+    text: Откатить правки
+action.Vcs.RollbackChanges.text:
+    text: Откатить правки
+action.Vcs.ShowDiffAction.description:
+    text: Показать правки
+action.Vcs.ShowDiffAction.text:
+    text: Показать правки
+action.Vcs.ShowHistoryForBlock.description:
+    text: Показать историю выбора редактора
+action.Vcs.ShowHistoryForBlock.text:
+    text: Показать историю _для выбора
+action.Vcs.UpdateProject.text:
+    text: _Обновить проект
+action.VcsHistory.ShowAllAffected.description:
+    text: Показать все изменения, сделанные в выбранной ревизии
+action.VcsHistory.ShowAllAffected.text:
+    text: Показать все затронутые файлы
+action.ViewImportPopups.description:
+    text: Переключить отображение всплывающих окон импорта в текущем файле
+action.ViewImportPopups.text:
+    text: Показать всплывающие окна импорта
+action.ViewNavigationBar.description:
+    text: Показать/скрыть панель навигации
+action.ViewNavigationBar.text:
+    text: Панель _навигации
+action.ViewOfflineInspection.description:
+    text: Загрузить результаты автономной проверки
+action.ViewOfflineInspection.text:
+    text: Просмотреть результаты _автономной проверки…
+action.ViewSource.description:
+    text: Открыть редактор для выбранного элемента
+action.ViewSource.text:
+    text: Показать _источник
+action.ViewStatusBar.description:
+    text: Показать/скрыть строку состояния
+action.ViewStatusBar.text:
+    text: _Панель статуса
+action.ViewToolBar.description:
+    text: Показать/скрыть главную панель инструментов
+action.ViewToolBar.text:
+    text: _Панель инструментов
+action.ViewToolButtons.description:
+    text: Показать/скрыть кнопки инструментальных окон
+action.ViewToolButtons.text:
+    text: _Панели инструментальных окон
+action.VirtualFileInfo.text:
+    text: Информация о виртуальном файле
+action.WelcomeScreen.Configure.DesktopEntry.description:
+    text: Создать запись на рабочем столе для интеграции с меню системного приложения
+action.WelcomeScreen.Configure.DesktopEntry.text:
+    text: Создать запись на рабочем столе
+action.WelcomeScreen.Configure.Export.text:
+    text: Настройки экспорта
+action.WelcomeScreen.Configure.Import.text:
+    text: Параметры импорта
+action.WelcomeScreen.CreateDirectoryProject.description:
+    text: Создать новый проект.
+action.WelcomeScreen.CreateDirectoryProject.text:
+    text: Создать новый проект
+action.WelcomeScreen.CreateNewProject.description:
+    text: Запустите мастер «Новый проект», который проведет вас через шаги, необходимые для создания нового проекта.
+action.WelcomeScreen.CreateNewProject.text:
+    text: Создать новый проект
+action.WelcomeScreen.DevelopPlugins.description:
+    text: Начните разработку подключаемых модулей для {0}.
+action.WelcomeScreen.DevelopPlugins.text:
+    text: Разработка расширений
+action.WelcomeScreen.GetFromVcs.description:
+    text: Вы можете получить весь проект из системы контроля версий. Щёлкните значок или ссылку, чтобы выбрать свою VCS.
+action.WelcomeScreen.GetFromVcs.text:
+    text: Извлечь из системы контроля версий
+action.WelcomeScreen.ImportProject.description:
+    text: Создать структуру проекта {0} для каталога с существующими источниками или преобразовать существующую модель проекта.
+action.WelcomeScreen.ImportProject.text:
+    text: Импортировать проект
+action.WelcomeScreen.OpenDirectoryProject.description:
+    text: Начать редактирование кода в указанном каталоге.
+action.WelcomeScreen.OpenDirectoryProject.text:
+    text: Открыть каталог
+action.WelcomeScreen.OpenProject.description:
+    text: Откройте проект {0}. Вы также можете открыть проект, перетащив его на экран приветствия.
+action.WelcomeScreen.OpenProject.text:
+    text: Открыть или импортировать проект
+action.WelcomeScreen.Plugins.description:
+    text: управлять установленными расширениями и загружать новые из каталога
+action.WelcomeScreen.Plugins.text:
+    text: Расширения
+action.WelcomeScreen.ReadHelp.description:
+    text: Откройте {0} «Разделы справки» в новом окне.
+action.WelcomeScreen.ReadHelp.text:
+    text: Читать справку
+action.WelcomeScreen.ReopenRecent.description:
+    text: Вы можете открыть один из последних проектов, над которыми вы работали. Щёлкните значок или ссылку, чтобы выбрать проект из списка.
+action.WelcomeScreen.ReopenRecent.text:
+    text: Открыть последний проект
+action.WelcomeScreen.ShowTips.description:
+    text: Узнайте, как повысить продуктивность программирования.
+action.WelcomeScreen.ShowTips.text:
+    text: Советы дня
+action.WelcomeScreen.Youtube.text:
+    text: Смотрите видео на _YouTube
+action.WhatsNewAction.description:
+    text: Узнайте о новых функциях в этой версии IDE
+action.WhatsNewAction.text:
+    text: Что _нового?
+action.editRunConfigurations.description:
+    text: Открыть диалоговое окно редактирования конфигураций запуска/отладки
+action.editRunConfigurations.text:
+    text: Редактировать _конфигурации…
+action.mark.as.excluded.confirm.message:
+    text: Вы действительно хотите исключить {0} из проекта? Вы можете восстановить исключенные каталоги позже, используя диалоговое окно «Структура проекта».
+action.openAssertEqualsDiff.text:
+    text: Просмотр разницы assertEquals
+action.redo.description:
+    text: Повторить {0}
+action.redo.description.empty:
+    text: последнюю отменённую операцию
+action.redo.text:
+    text: _Повторить {0}
+action.serviceview.groupbyservicegroup.text:
+    text: Группы служб
+action.undo.description:
+    text: Отменить {0}
+action.undo.description.empty:
+    text: последнюю операцию
+action.undo.text:
+    text: _Отменить {0}
+geView.Include.text:
+    text: Включить
+group.$LRU.description:
+    text: Список недавно открытых проектов
+group.$LRU.text:
+    text: Открыть _недавние
+group.ActiveToolwindowGroup.text:
+    text: Активное инструментальное окно
+group.AddAllToFavorites.text:
+    text: Добавить всё в избранное
+group.AddToFavorites.text:
+    text: Добавить в _избранное
+group.AnalyzeJavaMenu.description:
+    text: Анализ меню Java
+group.AnalyzeJavaMenu.text:
+    text: Анализ меню Java
+group.AnalyzeMenu.text:
+    text: А_нализ
+group.BackgroundTasks.text:
+    text: Фоновые задачи
+group.Bookmarks.text:
+    text: Закладки
+group.ChangeLineSeparators.text:
+    text: Переводы строк
+group.ChangesViewPopupMenu.text:
+    text: Просмотр изменений
+group.ChangesViewToolbar.text:
+    text: Просмотр изменений
+group.CloseEditorsGroup.text:
+    text: Действия при закрытии редактора
+group.CodeCompletionGroup.text:
+    text: _Дополнение кода
+group.CodeEditorBaseGroup.text:
+    text: Действия редактора/просмотра кода
+group.CodeEditorViewGroup.text:
+    text: Действия просмотра кода
+group.CodeFormatGroup.text:
+    text: Действия по форматированию кода
+group.CodeMenu.text:
+    text: _Код
+group.CommanderViewPopupMenu.text:
+    text: Всплывающее меню файлового менеджера
+group.CommentGroup.text:
+    text: Действия комментирования
+group.CommittedChangesToolbar.text:
+    text: Панель инструментов закомиченных изменений
+group.CompareActions.text:
+    text: Сравнить
+group.ConvertIndentsGroup.text:
+    text: Преобразовать отступы
+group.Copy.Paste.Special.description:
+    text: Действия «Вставить как» для редактора
+group.Copy.Paste.Special.text:
+    text: Копировать / Вставить как
+group.CopyReferencePopupGroup.text:
+    text: Копировать путь…
+group.CutCopyPasteGroup.text:
+    text: Действия Вырезать/Копировать/Вставить
+group.DebugMainMenu.text:
+    text: Действия отладчика
+group.EditBookmarksGroup.text:
+    text: _Закладки
+group.EditCreateDeleteGroup.text:
+    text: Действия Создать/Удалить в редакторе
+group.EditMenu.text:
+    text: Пр_авка
+group.EditSelectGroup.text:
+    text: Выделение в редакторе
+group.EditSelectWordGroup.text:
+    text: Действия выделения слова
+group.EditSmartGroup.text:
+    text: Действия редактирования кода
+group.EditorActions.text:
+    text: Действия редактора
+group.EditorBidiTextDirection.description:
+    text: Основное направление для смешанного текста LTR / RTL
+group.EditorBidiTextDirection.text:
+    text: Основное направление текста со смешанной ориентацией
+group.EditorGutterPopupMenu.text:
+    text: Всплывающее меню желоба редактора
+group.EditorLangPopupMenu.text:
+    text: Действия во всплывающем меню редактора (2)
+group.EditorPopupMenu.GoTo.description:
+    text: Перейти к группе всплывающих меню редактора
+group.EditorPopupMenu.GoTo.text:
+    text: Перейти
+group.EditorPopupMenu.Run.text:
+    text: Компиляция/Выполнение действий
+group.EditorPopupMenu.description:
+    text: Контекстное меню редактора
+group.EditorPopupMenu.text:
+    text: Контекстное меню редактора
+group.EditorPopupMenu1.text:
+    text: Действия во всплывающем меню редактора (1)
+group.EditorPopupMenuDebug.text:
+    text: Действия отладки
+group.EditorTabPopupMenu.text:
+    text: Контекстное меню вкладки редактора
+group.EditorTabPopupMenuEx.text:
+    text: Действия всплывающего меню вкладки редактора (1)
+group.EditorTabsGroup.text:
+    text: Вкладки _редакторов
+group.EditorToggleActions.text:
+    text: Активный редактор
+group.ExportImportGroup.text:
+    text: Экспорт/импорт действий
+group.ExternalToolsGroup.text:
+    text: Внешние инструменты
+group.FavoritesViewPopupMenu.text:
+    text: Избранное Посмотреть всплывающее меню
+group.FilSettingsGroup.text:
+    text: Настройки Действия
+group.FileMainSettingsGroup.text:
+    text: Настройки Действия
+group.FileMenu.text:
+    text: _Файл
+group.FileOpenGroup.text:
+    text: Действия при открытии файла
+group.FileOtherSettingsGroup.text:
+    text: Другие настройки
+group.FilePropertiesGroup.text:
+    text: Свойства файла
+group.FindMenuGroup.text:
+    text: _Поиск
+group.FoldingGroup.text:
+    text: Сворачивание
+group.GenerateGroup.text:
+    text: _Сгенерировать
+group.GoToCodeGroup.text:
+    text: Перейти к действиям по ссылке
+group.GoToErrorGroup.text:
+    text: Перейти к ошибке/закладке
+group.GoToMenu.text:
+    text: Пере_йти
+group.GoToMenuEx.text:
+    text: Действия при навигации по методу
+group.GoToTargetEx.text:
+    text: Перейти по имени действия
+group.HelpMenu.text:
+    text: _Справка
+group.HierarchyGroup.text:
+    text: Действия иерархии
+group.IncomingChangesToolbar.text:
+    text: Входящие изменения
+group.IntroduceActionsGroup.text:
+    text: _Выделить
+group.Macros.description:
+    text: Просмотр, изменение, запись, воспроизведение макросов
+group.Macros.text:
+    text: _Макросы
+group.MacrosGroup.text:
+    text: Макросы действий
+group.MainMenu.text:
+    text: Главное меню
+group.MainToolBar.text:
+    text: Главная панель инструментов
+group.MarkFileAs.text:
+    text: Отметить файл как
+group.MarkRootGroup.text:
+    text: Отметить каталог как
+group.MemoryManagement.text:
+    text: Управление памятью
+group.MoveModuleToGroup.description:
+    text: _Переместить модуль
+group.MoveModuleToGroup.text:
+    text: Переместить модуль в группу
+group.NavbarPopupMenu.text:
+    text: Панель навигации
+group.NewElementInMenu.text:
+    text: _Создать
+group.NewGroup.text:
+    text: _Создать
+group.NewGroup1.text:
+    text: Новая группа (1)
+group.NewGroup2.text:
+    text: Новая группа (2)
+group.OpenProjectGroup.text:
+    text: Открыть действия проекта
+group.OpenProjectWindows.text:
+    text: Открыть окна проекта
+group.OtherMenu.description:
+    text: Действия, которые не зарегистрированы должным образом
+group.OtherMenu.text:
+    text: Другой
+group.OverrideFileTypeAction.bundledPlugin:
+    text: bundled
+group.OverrideFileTypeAction.fromNamedPlugin:
+    text: из расширения «{0}»
+group.OverrideFileTypeAction.title:
+    text: Выбрать тип файла
+group.PairFileActions.text:
+    text: Действия с парами файлов
+group.PasteGroup.text:
+    text: Вставить
+group.PrintExportGroup.text:
+    text: Действия печати/экспорта
+group.ProjectImport.text:
+    text: Импортировать _проекты
+group.ProjectViewAnalysisGroup.text:
+    text: Действия анализа
+group.ProjectViewCompileGroup.text:
+    text: Действия при компиляции/отладке
+group.ProjectViewGroup.text:
+    text: Действия просмотра проекта
+group.ProjectViewPopupMenu.text:
+    text: Всплывающее меню просмотра проекта
+group.ProjectViewPopupMenuModifyGroup.text:
+    text: Всплывающее меню «Проект» — Изменить группу
+group.ProjectViewPopupMenuRefactoringGroup.text:
+    text: Группа рефакторинга всплывающих окон Project View
+group.ProjectViewPopupMenuRunGroup.text:
+    text: Всплывающее меню просмотра проекта Группа выполнения
+group.ProjectViewPopupMenuSettingsGroup.text:
+    text: Группа настроек всплывающего меню просмотра проекта
+group.RefactoringMenu.text:
+    text: _Рефакторинг
+group.RefactoringMenu1.text:
+    text: Действия по рефакторингу (1)
+group.RefactoringMenu2.text:
+    text: Действия по рефакторингу (2)
+group.RefactoringMenu3.text:
+    text: Действия по рефакторингу (3)
+group.ResizeToolWindowGroup.text:
+    text: Изменить размер
+group.RevealGroup.text:
+    text: Открыть в
+group.RunContextPopupGroup.text:
+    text: Выполнить конфигурации
+group.RunDashboard.Filter.text:
+    text: Состояние конфигурации
+group.RunDashboard.GroupBy.text:
+    text: Конфигурация
+group.RunMenu.text:
+    text: _Запуск
+group.Runner.Layout.description:
+    text: Конфигурация схемы расположения
+group.Runner.Layout.text:
+    text: Схема расположения
+group.RunnerActions.text:
+    text: Запуск/Отладка
+group.RunnerActionsTouchbar.text:
+    text: Действия запуска/отладки сенсорной палени
+group.SendToFavoritesGroup.text:
+    text: _Отправить в избранное
+group.ServiceView.AddService.text:
+    text: Добавить службу
+group.ServiceView.Filter.text:
+    text: Фильтр
+group.ServiceView.GroupBy.text:
+    text: Группировать по
+group.ServiceView.OpenInNewTabGroup.text:
+    text: Открыть в новой вкладке
+group.Shelve.KeymapGroup.text:
+    text: Отложить
+group.ShelvedChangesPopupMenu.text:
+    text: Отложенные изменения
+group.ShowAnnotateOperationsPopupGroup.text:
+    text: Аннотированная строка
+group.ShowRecentFindUsagesGroup.description:
+    text: Выбрать и повторно запустить недавний поиск использований
+group.ShowRecentFindUsagesGroup.text:
+    text: Последние найденные использования
+group.StandardMacroActions.text:
+    text: Стандартные макрокоманды
+group.TabsPlacementGroup.text:
+    text: Разместить вкладки
+group.TemplateParametersNavigation.text:
+    text: Навигация по параметрам шаблона
+group.TodoMainGroup.text:
+    text: TODO
+group.TodoViewGroupByGroup.text:
+    text: Группировать по
+group.ToggleBreakpointAction.text:
+    text: Действия точки останова
+group.ToggleFullScreenGroup.text:
+    text: Полноэкранный режим
+group.ToolWindowsGroup.text:
+    text: _Инструментальные окна
+group.ToolbarFindGroup.text:
+    text: Панель инструментов Найти Действия
+group.ToolbarMakeGroup.text:
+    text: Панель инструментов Make
+group.ToolbarNewElement.text:
+    text: Панель инструментов Новая группа элементов
+group.ToolbarRunGroup.text:
+    text: Панель инструментов «Запуск»
+group.ToolsBasicGroup.description:
+    text: Основная группа инструментов
+group.ToolsBasicGroup.text:
+    text: Основная группа инструментов
+group.ToolsMenu.text:
+    text: С_ервис
+group.ToolsXmlGroup.text:
+    text: Действия XML
+group.TouchBar.text:
+    text: Сенсорная панель
+group.TouchBarDebug.ForceStepButtons.text:
+    text: Отладчик ForceStep Действия
+group.TouchBarDebug.StepButtons.text:
+    text: Отладчик Step Действия
+group.TouchBarDebug.text:
+    text: Отладчик
+group.TouchBarDebug_alt.text:
+    text: Отладчик с клавишей Alt
+group.TouchBarDefault.text:
+    text: По умолчанию
+group.TouchBarDefaultOptionalGroup.text:
+    text: Дополнительные действия
+group.TouchBarDefault_alt.text:
+    text: По умолчанию с клавишей Alt
+group.TouchBarDefault_cmd.alt.text:
+    text: По умолчанию с клавишей Alt+Cmd
+group.TouchBarDefault_cmd.text:
+    text: По умолчанию с клавишей Cmd
+group.TouchBarDefault_ctrl.text:
+    text: По умолчанию с клавишей Ctrl
+group.TouchBarDefault_shift.text:
+    text: По умолчанию с клавишей Shift
+group.UIToggleActions.text:
+    text: Действия-переключатели
+group.Unversioned.Files.Dialog.text:
+    text: Диалог неверсионированных файлов
+group.ViewMenu.text:
+    text: _Вид
+group.ViewRecentActions.text:
+    text: Просмотреть группу недавних действий
+group.ViewStatusBarWidgetsGroup.description:
+    text: Показать/скрыть виджеты строки состояния
+group.ViewStatusBarWidgetsGroup.text:
+    text: Виджеты строки состояния
+group.ViewToolbarNewGroup.text:
+    text: Главная панель инструментов
+group.WeighingNewGroup.text:
+    text: _Создать
+group.WindowMenu.text:
+    text: _Окно
+group.XDebugger.AttachGroup.description:
+    text: Вложение
+group.XDebugger.settings.description:
+    text: Настройки
+group.XDebugger.settings.text:
+    text: Настройки
+group.XmlGenerateToolsGroup.text:
+    text: Создание действий XML
+group.reopen.mac.text:
+    text: Открыть _недавнее
+group.reopen.win.text:
+    text: _Переоткрыть
+inline.actions.more.actions.text:
+    text: Другие действия
+not.action.OptimizeImports.description:
+    text: Удалить неиспользуемый импорт и переупорядочить/реорганизовать импорты
+not.action.OptimizeImports.text:
+    text: Оптимизировать _импорты…
+show.log.in.action.text:
+    text: Показать лог-файл в {0}
+stop.capture.allocations.usage.data.action.description:
+    text: Прекратить сбор данных о распределении
+stop.capture.allocations.usage.data.action.name:
+    text: Захват данных о распределении, теперь захват
+stop.capture.cpu.usage.data.action.description:
+    text: Прекратить сбор данных об использовании ЦП
+stop.capture.cpu.usage.data.action.name:
+    text: Остановить профилирование использования ЦП

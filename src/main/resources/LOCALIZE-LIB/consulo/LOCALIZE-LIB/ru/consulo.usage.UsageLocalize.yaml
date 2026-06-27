@@ -1,0 +1,216 @@
+action.ShowSettings.show.find.usages.settings.dialog.description:
+    text: Показать диалог настроек поиска использований
+action.ShowSettings.show.settings.for.description:
+    text: Показать настройки для {0}
+action.close:
+    text: Закрыть
+action.description.rerun:
+    text: Повторить поиск
+action.group.by.file.structure:
+    text: Группировать по структуре файла
+action.group.by.module:
+    text: Группировать по модулю
+action.group.by.package:
+    text: Группировать по пакету
+action.group.by.title:
+    text: Группировать по
+action.group.by.usage.type:
+    text: Группировать по типу использования
+action.merge.same.line:
+    text: Объединить использования из одной строки
+action.next.occurrence:
+    text: К следующему вхождению
+action.previous.occurrence:
+    text: К предыдущему вхождению
+action.rerun:
+    text: Повторить
+action.show.import.statements:
+    text: Показать операторы импорта
+action.show.read.access:
+    text: Показать доступ для чтения
+action.show.write.access:
+    text: Показать доступ для записи
+action.text.usage.view.settings:
+    text: Настройки…
+all.usages.are.in.this.line:
+    text: Все {0} использований в {1} находятся в этой строке
+button.text.abort:
+    text: Прервать
+button.text.continue:
+    text: Продолжить
+changes.detected.error.title:
+    text: Обнаружены изменения
+default.package.presentable.name:
+    text: <по умолчанию>
+dialog.button.ok:
+    text: ОК
+dialog.no.usages.found.in:
+    text: Не найдено {0} в {1}
+dialog.rerun.search:
+    text: Хотите повторить поиск?
+dialog.title.information:
+    text: Информация
+files.are.too.large.large.and.cannot.be.scanned:
+    text: '{0,choice, 1#Файл|2#Файлы} {1} слишком больш{0,choice, 1#ой|2#ие} и не мо{0,choice, 1#жет|2#гут} быть просканирован{0,choice, 1#|2#ы}'
+find.excessive.usage.count.prompt:
+    text: Пока найдено {0} использований. Хотите продолжить?
+find.excessive.usages.title:
+    text: Слишком много использований
+find.file.size.megabytes:
+    text: '{0} мегабайт'
+large.files.were.ignored:
+    text: '{0,choice, 0#Нет|1#1 слишком большой файл был проигнорирован|2#{0,number} слишком больших файлов были проигнорированы}'
+link.display.name.find.options:
+    text: Свойства поиска…
+link.display.name.search.in.project:
+    text: Искать в проекте
+message.include.them:
+    text: Включить их
+message.occurrences.in.project.configuration.files.are.skipped:
+    text: Вхождения в файлах конфигурации проекта пропускаются.
+message.only.one.usage.found:
+    text: Найдено только одно использование.
+message.part.large.number.of.unloaded.modules:
+    text: '{0} выгруженных модулей: {1} и {2} других выгруженных модулей'
+message.part.number.of.unloaded.modules:
+    text: '{0} выгруженных модулей'
+message.part.small.number.of.unloaded.modules:
+    text: '{0} выгруженных модулей: {1}'
+message.part.unloaded.module.0:
+    text: выгруженный модуль «{0}»
+message.there.may.be.usages.in.0.load.all.modules.and.repeat:
+    text: В {0} могут быть использования. Загрузите все модули и повторите рефакторинг, чтобы убедиться, что все использования будут обновлены.
+message.usage.search.was.canceled:
+    text: Поиск использований был отменён
+no.usages.found.in:
+    text: Не найдено использований в {0}
+node.found.usages:
+    text: Найденные использования
+node.group.code.usages:
+    text: Использование кода
+node.group.module:
+    text: 'Модуль:'
+node.invalid:
+    text: НЕДЕЙСТВИТЕЛЬНО
+node.non.code.usages:
+    text: Использования в текстовых файлах
+node.readonly:
+    text: Только для чтения
+node.targets:
+    text: Цели
+node.usages.in.generated.code:
+    text: Использования в сгенерированном коде
+notification.n.usages.found:
+    text: '{0, plural, =0{Ни одного использования не} one{# использование} few{# использования} other{# использований}} найдено'
+notification.title.find.usages.finished:
+    text: Поиск использований завершён
+notification.usage.search.is.not.available.until.indices.are.ready:
+    text: Поиск использований недоступен, пока не будут готовы индексы.
+occurence.info.occurence:
+    text: '{0,choice, 0#Не найдено|1#1 вхождение|2#{0,number} вхождений}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах}'
+occurence.info.reference:
+    text: '{0,choice, 0#Не найдено|1#1 ссылка|2#{0,number} ссылок}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах} files}'
+occurence.info.usage:
+    text: '{0,choice, 0#Не найдено|1#1 использование|2#{0,number} использований}{1,choice, 0#|1# в 1 файле|2# в {1,number} файлах}'
+occurrences.found.in.comments.strings.and.non.java.files:
+    text: Вхождения, найденные в комментариях, строках и текстовых файлах
+occurrences.found.in.comments.strings.non.java.files.and.generated.code:
+    text: Вхождения, найденные в комментариях, строках, текстовых файлах и сгенерированном коде
+preview.usages.action.text:
+    text: Предварительный просмотр использований
+progress.searching.for:
+    text: Ищем {0}…
+progress.searching.for.in:
+    text: Ищем {0} в {1}{2}…
+references.to.be.changed:
+    text: Ссылки, которые будут изменены {0}
+select.the.usage.to.preview:
+    text: Выберите использование для предварительного просмотра
+several.occurrences.selected:
+    text: |-
+        Выбрано несколько файлов.
+        Выберите вхождения из одного файла для предварительного просмотра.
+show.usages.advertisement:
+    text: Нажмите {0} ещё раз, чтобы искать по «{1}»
+show.usages.only.usage:
+    text: Это единственное использование в {0}
+sort.alphabetically.action.text:
+    text: Сортировать элементы по алфавиту
+usage.element.without.name:
+    text: <анонимный>
+usage.excluded:
+    text: исключено
+usage.name:
+    text: использование
+usage.target.exception:
+    text: Исключение
+usage.target.package.in.directory:
+    text: '{0} (в {1})'
+usage.target.xml.tag.of.file:
+    text: '{0} файла {1}'
+usage.type.annotation:
+    text: Аннотация
+usage.type.cast.target:
+    text: Использование в типе цели приведения
+usage.type.catch.declaration:
+    text: Объявление параметра выражения «catch»
+usage.type.class.object:
+    text: Использование в .class
+usage.type.comment:
+    text: Использование в комментариях
+usage.type.delegate.to.another.instance.method:
+    text: Делегирование другому методу экземпляра
+usage.type.delegate.to.another.instance.method.parameters.changed:
+    text: Делегирование другому методу экземпляра, параметры изменены
+usage.type.delegate.to.super.method:
+    text: Делегирование суперметоду
+usage.type.delegate.to.super.method.parameters.changed:
+    text: Делегирование суперметоду, параметры изменены
+usage.type.extends:
+    text: Использование в «extends/implements»
+usage.type.field.declaration:
+    text: Объявление поля
+usage.type.import:
+    text: Использование в импортах
+usage.type.instanceof:
+    text: Использование в «instanceof»
+usage.type.local.declaration:
+    text: Объявление локальной переменной
+usage.type.nested.class:
+    text: Доступ к вложенному классу
+usage.type.new:
+    text: Создание нового экземпляра
+usage.type.new.anonymous:
+    text: Создание нового анонимного наследника
+usage.type.new.array:
+    text: Создание нового массива
+usage.type.parameter.declaration:
+    text: Объявление параметра метода
+usage.type.read:
+    text: Чтение значения
+usage.type.recursion:
+    text: Рекурсия
+usage.type.return:
+    text: Тип возвращаемого значения метода
+usage.type.static.member:
+    text: Доступ к статическому члену класса
+usage.type.string.constant:
+    text: Использование в строковых константах
+usage.type.throws.list:
+    text: Список вызовов метода
+usage.type.type.parameter:
+    text: Параметр типа
+usage.type.unclassified:
+    text: Неклассифицированное использование
+usage.type.write:
+    text: Запись значения
+usage.view.cancel.button:
+    text: '&Отмена'
+usage.view.counter:
+    text: '{0, plural, one{# результат} few{# результата} other{# результатов}}'
+usages.n:
+    text: '{0, plural, =0{Ни одного использования не} one{# использование} few{# использования}  other{# использований}} найдено'
+usages.title:
+    text: Использования
+usages.were.filtered.out:
+    text: '{0, plural, one{# использование было отфильтровано} few{# использования были отфильтрованы} other{# использований были отфильтрованы}}'

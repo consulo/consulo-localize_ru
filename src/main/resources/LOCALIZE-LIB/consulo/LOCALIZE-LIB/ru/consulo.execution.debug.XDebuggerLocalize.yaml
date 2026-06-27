@@ -1,0 +1,542 @@
+action.StreamTracerAction.text:
+    text: Отследить текущую цепочку Stream
+action.add.to.watch.text:
+    text: Добавить в отслеживания
+action.adjust.array.range.text:
+    text: Настроить диапазон…
+action.auto.renderer.text:
+    text: Авто
+action.auto.tooltip.description:
+    text: Переключает автоматический показ подсказки значения при наведении курсора мыши
+action.auto.tooltip.on.selection.description:
+    text: Переключает автоматическое отображение всплывающей подсказки значения при изменении выделения в редакторе
+action.auto.tooltip.on.selection.text:
+    text: Показать значение при изменении выбора
+action.auto.tooltip.text:
+    text: Автоматическая подсказка значения
+action.calculating.chains.background.progress.title:
+    text: Расчет цепочек
+action.choose.debug.configuration.popup.description:
+    text: Выбрать и отладить конфигурацию
+action.choose.debug.configuration.popup.text:
+    text: Отладить…
+action.compare.value.with.clipboard.description:
+    text: Сравнить значение выбранного узла с текстом из буфера обмена
+action.compare.value.with.clipboard.text:
+    text: Сравнить значение с буфером обмена
+action.copy.name.description:
+    text: Скопировать название выбранного узла в буфер обмена
+action.copy.name.text:
+    text: Копировать название
+action.copy.value.description:
+    text: Скопировать значение выбранного узла в буфер обмена
+action.copy.value.text:
+    text: Копировать значение
+action.copy.watch.text:
+    text: Копировать отслеживание
+action.customize.context.view.text:
+    text: Настроить представления данных…
+action.customize.threads.view.text:
+    text: Настроить просмотр цепочек…
+action.edit.breakpoint.text:
+    text: Изменить
+action.edit.frame.source.text:
+    text: EditFrameSource
+action.edit.node.source.text:
+    text: EditNodeSource
+action.edit.type.source.text:
+    text: Перейти к источнику объекта
+action.edit.watch.text:
+    text: Редактировать отслеживание
+action.evaluate.expression.description:
+    text: Вычислить произвольное выражение
+action.evaluate.expression.text:
+    text: _Вычислить выражение…
+action.evaluate.in.console.text:
+    text: Вычислить в консоли
+action.focus.on.breakpoint.description:
+    text: По умолчанию сфокусировать это представление при достижении точки останова
+action.focus.on.breakpoint.text:
+    text: Фокус на точке останова
+action.force.run.to.cursor.description:
+    text: Исполнять код, пока не дойдёт до строки под курсором, игнорируя точки останова
+action.force.run.to.cursor.text:
+    text: Принудительно исполнять до курсора
+action.force.step.into.description:
+    text: Войти внутрь, игнорируя фильтры входа для библиотек, конструкторов и т. д.
+action.force.step.into.text:
+    text: Войти внутрь
+action.force.step.over.description:
+    text: Перейти через строку, игнорируя точки останова.
+action.force.step.over.text:
+    text: Принудительно перейти через строку
+action.freeze.thread.text:
+    text: Заморозить
+action.inline.description:
+    text: Показать доступные значения сеанса отладчика внутри редактора
+action.inline.text:
+    text: Показать значения в строке
+action.inspect.text:
+    text: Осмотреть…
+action.interrupt.thread.text:
+    text: Прервать
+action.jump.to.source.description:
+    text: Открытый исходный код выбранного элемента
+action.jump.to.source.text:
+    text: Перейти к источнику
+action.jump.to.type.source.description:
+    text: Открытый исходный код выбранного типа значения
+action.jump.to.type.source.text:
+    text: Перейти к типу источника
+action.mark.object.description:
+    text: Отметить/снять отметку с объекта, чтобы его можно было визуально различить в представлениях отладчика
+action.mark.object.text:
+    text: Отметить объект…
+action.mark.object.unmark.text:
+    text: Снять отметку с объекта
+action.memory.view.settings.text:
+    text: Настройки просмотра памяти
+action.mute.breakpoints.description:
+    text: Игнорировать все точки останова
+action.mute.breakpoints.text:
+    text: Отключить точки останова
+action.new.watch.text:
+    text: Новое отслеживание…
+action.next.frame.text:
+    text: Следующий кадр
+action.pause.description:
+    text: Приостановить выполнение программы и включить отладку
+action.pause.text:
+    text: _Приостановить программу
+action.pop.frame.description:
+    text: Перемещает точку выполнения обратно к вызову метода, удаляя текущие кадры метода из стека
+action.pop.frame.text:
+    text: Сбросить _кадр
+action.previous.frame.text:
+    text: Предыдущий кадр
+action.remove.all.watches.text:
+    text: Удалить все отслеживания
+action.remove.watch.text:
+    text: Удалить отслеживание
+action.resume.description:
+    text: Возобновить исполнение программы
+action.resume.text:
+    text: Возобновить _исполнение
+action.resume.thread.text:
+    text: Возобновить
+action.run.to.cursor.description:
+    text: Исполнять код, пока не дойдёт до текущей строки под курсором
+action.run.to.cursor.text:
+    text: Исполнять до _курсора
+action.set.value.description:
+    text: Изменить значение выбранного узла
+action.set.value.text:
+    text: Установить значение…
+action.show.execution.point.description:
+    text: Показать текущую точку выполнения программы
+action.show.execution.point.text:
+    text: Показать место _исполнения
+action.show.frame.text:
+    text: Показать рамку
+action.show.referring.text:
+    text: Показать ссылающиеся объекты
+action.smart.step.into.description:
+    text: Войти внутрь определённого метода
+action.smart.step.into.text:
+    text: Войти внутрь с _умом
+action.step.into.description:
+    text: Войти внутрь исполняемого метода
+action.step.into.text:
+    text: Войти внутрь
+action.step.out.description:
+    text: Перейти к первой строке, выполняемой после возврата из этого метода
+action.step.out.text:
+    text: _Выйти
+action.step.over.description:
+    text: Перейти к следующей строке файла
+action.step.over.text:
+    text: Перейти _через строку
+action.toggle.line.breakpoint.description:
+    text: Включить/отключить точку останова на строке под курсором
+action.toggle.line.breakpoint.text:
+    text: Включить/отключить точку останова на _строке
+action.toggle.sort.values.description:
+    text: Сортировать значения по алфавиту в представлениях отладчика
+action.toggle.sort.values.text:
+    text: Сортировать значения по алфавиту
+action.toggle.temporary.line.breakpoint.description:
+    text: Включить/отключить временную точку останова на строке под курсором
+action.toggle.temporary.line.breakpoint.text:
+    text: Включить/отключить временную точку останова строки
+action.tree.add.to.watches.text:
+    text: Добавить в отслеживания
+action.tree.evaluate.in.console.text:
+    text: Оценить в консоли
+action.unmute.on.stop.description:
+    text: Отменить выключение точек останова по окончании сеанса отладки
+action.unmute.on.stop.text:
+    text: Включить точки останова по окончании сеанса
+action.view.as.group.text:
+    text: Просмотреть как
+action.view.breakpoints.description:
+    text: Просмотр и управление всеми точками останова и наблюдения
+action.view.breakpoints.text:
+    text: Просмотреть точки останова…
+action.view.text.description:
+    text: Просмотреть текстовое значение выбранного узла на отдельной панели
+action.view.text.text:
+    text: Просмотр текста
+ad.extra.selection.shortcut:
+    text: 'Вы также можете выбрать элемент с помощью: {0}'
+breakpoints.dialog.create.new.group:
+    text: Создать новую…
+breakpoints.dialog.edit.description:
+    text: Редактировать описание
+breakpoints.dialog.new.group:
+    text: Новая группа
+breakpoints.dialog.new.group.name:
+    text: Название новой группы
+breakpoints.dialog.no.group:
+    text: <Без группы>
+breakpoints.dialog.set.as.default:
+    text: Установить как стандартное
+breakpoints.dialog.unset.as.default:
+    text: Снять как стандартное
+button.text.code.fragment.mode:
+    text: Фрагмент кода и режим
+button.text.expression.mode:
+    text: Выражение и режим
+debugger.configurable.display.name:
+    text: Отладчик
+debugger.dataViews.display.name:
+    text: Представления данных
+debugger.evaluate.expression.or.add.a.watch.hint:
+    text: Вычислить выражение ({0}) или добавить отслеживание ({1})
+debugger.frames.not.available:
+    text: Кадры недоступны
+debugger.hotswap.display.name:
+    text: HotSwap
+debugger.no.breakpoints:
+    text: Нет точек останова
+debugger.no.results:
+    text: Введите выражение и нажмите «Enter»
+debugger.no.watches:
+    text: Нет отслеживаний
+debugger.result.node.name:
+    text: результат
+debugger.runner.start.action.text:
+    text: '&Отладка'
+debugger.runner.start.action.text.0:
+    text: '&Отладка {0}'
+debugger.session.tab.console.content.name:
+    text: Консоль
+debugger.session.tab.frames.title:
+    text: Кадры
+debugger.session.tab.log.content.name:
+    text: 'Лог: {0}'
+debugger.session.tab.show.watches.in.variables:
+    text: Показать отслеживания на вкладке переменных
+debugger.session.tab.threads.title:
+    text: Потоки
+debugger.session.tab.variables.title:
+    text: Переменные
+debugger.session.tab.watches.title:
+    text: Отслеживания
+debugger.session.tab.watches.title.with.size:
+    text: Отслеживания ({0})
+debugger.state.message.connected:
+    text: Подключено
+debugger.state.message.connecting:
+    text: Подключение
+debugger.state.message.disconnected:
+    text: Отключено
+debugger.stepping.display.name:
+    text: Пошаговое выполнение
+debugger.threads.not.available:
+    text: Потоки недоступны
+debugger.variables.not.available:
+    text: Переменные недоступны
+dialog.title.evaluate.code.fragment:
+    text: Вычислить фрагмент кода
+done.action.text:
+    text: Готово
+evaluation.in.progress:
+    text: Вычисление в процессе
+exception.label:
+    text: Причина
+exception.tab.name:
+    text: Исключение
+inspect.value.dialog.title:
+    text: Инспектировать «{0}»
+invalid.frame:
+    text: <некорректный кадр>
+load.value.task.error:
+    text: 'Не удаётся загрузить значение: {0}'
+load.value.task.text:
+    text: Загрузка значения
+memory.instances.close.text:
+    text: Закрыть
+memory.unable.to.get.instances.of.class:
+    text: Не удаётся получить экземпляры класса {0}
+memory.view.empty.running:
+    text: Остановитесь на точке останова, чтобы загрузить список класса
+memory.view.empty.stopped:
+    text: Классы недоступны
+memory.view.instances.dialog.title:
+    text: Экземпляры {0}
+memory.view.instances.dialog.title.warning:
+    text: 'Экземпляры {0}. Предупреждение: {1}'
+memory.view.instances.warning.not.all.loaded:
+    text: Не все экземпляры будут загружены (только {0})
+memory.view.load.classes:
+    text: Загрузить классы
+memory.view.no.classes.loaded:
+    text: Классы не загружены.
+memory.view.table.column.name.class:
+    text: Класс
+memory.view.table.column.name.count:
+    text: Количество
+memory.view.table.column.name.diff:
+    text: Diff
+multiple.chains.popup.title:
+    text: Найдено несколько цепочек
+node.test.show.full.value:
+    text: … Просмотр
+node.text.ellipsis.0.more.nodes.double.click.to.show:
+    text: … ({0} ещё {0, choice, 1#элемент|2#элементов}. Дважды нажмите, чтобы увидеть)
+node.text.ellipsis.0.unknown.more.nodes.double.click.to.show:
+    text: … (Дважды щёлкните, чтобы увидеть больше элементов)
+node.text.ellipsis.truncated:
+    text: '… (длина: {0})'
+rule.name.group.by.file:
+    text: Группировать по файлу
+scope.block:
+    text: Блок
+scope.catch:
+    text: Перехват
+scope.class:
+    text: Класс
+scope.closure:
+    text: Замыкание
+scope.global:
+    text: Глобальный
+scope.instance:
+    text: Экземпляр
+scope.library:
+    text: Библиотека
+scope.local:
+    text: Локальный
+scope.script:
+    text: Скрипт
+scope.unknown:
+    text: Неизвестно
+scope.with:
+    text: С блоком
+setting.enable.auto.expressions.label:
+    text: Включить автоматические выражения в представлении переменных
+setting.focus.app.on.breakpoint.label:
+    text: Сфокусировать приложение на точке останова
+setting.hide.window.label:
+    text: Скрыть отладочное &окно при завершении процесса
+setting.single.click.for.disabling.breakpoint:
+    text: Одно нажатие для отключения точки останова
+setting.sort.alphabetically.label:
+    text: Сортировать значения по &алфавиту
+setting.value.tooltip.delay.label:
+    text: '&Задержка перед показом подсказки со значением (мс):'
+settings.scroll.to.center:
+    text: Прокрутить точку выполнения в центр
+settings.show.tooltip.on.selection:
+    text: Показать подсказку со значением при выделении кода
+settings.show.value.tooltip:
+    text: Показать подсказку со значением.
+settings.show.values.inline:
+    text: Показать значения в той же строке
+settings.show.window.label:
+    text: Показать окно &отладки на точке останова
+settings.tooltip.label:
+    text: Если отключено, используйте «{0}», чтобы показать/скрыть подсказки
+showReferring.dialog.title:
+    text: Объекты, ссылающиеся на {0}
+stack.frame.loading.text:
+    text: Загрузка…
+stream.debugger.dialog.flat.mode.button:
+    text: Плоский режим
+stream.debugger.dialog.split.mode.button:
+    text: Разделённый режим
+stream.debugger.dialog.title:
+    text: Отслеживание Stream
+stream.debugger.dialog.with.exception.title:
+    text: Отслеживание Stream (произошло исключение)
+stream.debugger.evaluation.failed:
+    text: 'Вычисление не удалось: {0}'
+stream.debugger.evaluation.failed.cannot.interpret.result:
+    text: Не удалось интерпретировать результат трассировки. {0}
+stream.debugger.evaluation.failed.no.suspend.context:
+    text: Выполнение программы возобновлено.
+stream.debugger.evaluation.failed.unexpected.value:
+    text: Получено неожиданное значение.
+stream.debugger.evaluation.failed.unknown.type:
+    text: Неизвестный тип значения результата.
+stream.debugger.evaluation.failed.with.exception:
+    text: 'Вычисление не удалось: выброшено исключение {0}'
+stream.debugger.evaluation.failed.with.exception.and.message:
+    text: 'Вычисление не удалось: выброшено исключение {0}: {1}'
+string.debugger.runner.description:
+    text: Отладка выбранной конфигурации
+suspend.policy.panel.all:
+    text: '&Все'
+suspend.policy.panel.makeDefault:
+    text: Установить по умолч&анию
+suspend.policy.panel.suspend:
+    text: '&Приостановить'
+suspend.policy.panel.thread:
+    text: '&Поток'
+suspend.policy.panel.title:
+    text: Приостановить политику
+tab.content.exception.thrown:
+    text: Результата нет (выброшено исключение)
+tab.content.no.result:
+    text: Нет результата для данной цепочки Stream
+xbreakpoint.default.display.text:
+    text: Строка {0} в {1}
+xbreakpoint.group.depends.on:
+    text: Зависит от
+xbreakpoint.label.after.breakpoint.was.hit:
+    text: После срабатывания точки останова
+xbreakpoint.label.empty:
+    text: Выберите точку останова
+xbreakpoint.master.breakpoint.description:
+    text: 'Отключено до достижения выбранной точки останова:'
+xbreakpoint.master.breakpoint.none:
+    text: <Нет>
+xbreakpoint.radio.disable.again:
+    text: Отключить снова
+xbreakpoint.radio.leave.enabled:
+    text: Оставить включённым
+xbreakpoint.reached.text:
+    text: 'Достигнута точка останова:'
+xbreakpoint.tooltip.condition:
+    text: 'Условие:'
+xbreakpoint.tooltip.depends.on:
+    text: 'Зависит от:'
+xbreakpoint.tooltip.log.expression:
+    text: 'Логировать выражение:'
+xbreakpoint.tooltip.log.message:
+    text: 'Логировать сообщение: да'
+xbreakpoint.tooltip.suspend.policy.all:
+    text: 'Приостановить: всё'
+xbreakpoint.tooltip.suspend.policy.none:
+    text: 'Приостановить: нет'
+xbreakpoint.tooltip.suspend.policy.thread:
+    text: 'Приостановить: поток'
+xbreakpoints.condition.checkbox:
+    text: '&Условие:'
+xbreakpoints.conditions.group.title:
+    text: Условия
+xbreakpoints.dialog.button.add:
+    text: '&Добавить…'
+xbreakpoints.dialog.button.goto:
+    text: '&Перейти к'
+xbreakpoints.dialog.button.remove:
+    text: '&Удалить'
+xbreakpoints.dialog.button.view.source:
+    text: '&Просмотреть исходный код'
+xbreakpoints.dialog.title:
+    text: Точки останова
+xbreakpoints.enabled.label:
+    text: Включить
+xbreakpoints.log.expression.checkbox:
+    text: 'Запись &выражения:'
+xbreakpoints.log.message.checkbox:
+    text: Запись &сообщения на консоль
+xbreakpoints.properties.actions.group.title:
+    text: Действия
+xdebugger.attach.action:
+    text: Подключиться к процессу…
+xdebugger.attach.action.collectingItems:
+    text: Сбор элементов для подключения…
+xdebugger.attach.action.description:
+    text: Подключитья к процессу с доступным отладчиком
+xdebugger.attach.action.items.error.message:
+    text: Не удалось получить список процессов, запущенных на хосте
+xdebugger.attach.action.items.error.title:
+    text: Не удалось получить процессы
+xdebugger.attach.host.popup.title:
+    text: Просмотреть {0} процессов
+xdebugger.attach.popup.emptyText:
+    text: Нет процессов для подключения
+xdebugger.attach.popup.recent:
+    text: Недавние
+xdebugger.attach.popup.selectDebugger.title:
+    text: Отладчик
+xdebugger.attach.popup.title:
+    text: Подключить с помощью {0} к
+xdebugger.attach.popup.title.default:
+    text: Подключить к
+xdebugger.attach.toLocal.action:
+    text: Подключиться к локальному процессу…
+xdebugger.attach.toLocal.action.collectingProcesses:
+    text: Получаем список процессов…
+xdebugger.attach.toLocal.action.description:
+    text: Подключиться к локально запущенному процессу с доступным отладчиком
+xdebugger.attach.toLocal.popup.recent:
+    text: Недавние
+xdebugger.attach.toLocal.popup.selectDebugger.title:
+    text: Отладчик
+xdebugger.attach.toRemote.popup.title:
+    text: Показать {0} процессов
+xdebugger.building.tree.node.message:
+    text: Сбор данных…
+xdebugger.button.evaluate:
+    text: В&ычислить
+xdebugger.colors.page.name:
+    text: Отладчик
+xdebugger.debugger.tab.title:
+    text: Отладчик
+xdebugger.default.content.title:
+    text: Отладка
+xdebugger.dialog.title.evaluate.expression:
+    text: Вычислить выражение
+xdebugger.disable.breakpoint.action.text:
+    text: Отключить точку останова
+xdebugger.drag.text.0.elements:
+    text: '{0} элементов'
+xdebugger.drop.text.add.to.watches:
+    text: Добавить в отслеживания
+xdebugger.enable.breakpoint.action.text:
+    text: Включить точку останова
+xdebugger.evaluate.addtowatches.hint:
+    text: Используйте Control+Shift+Enter для добавления в отслеживания
+xdebugger.evaluate.dialog.close:
+    text: Закрыть
+xdebugger.evaluate.history.hint:
+    text: Показать историю
+xdebugger.evaluate.label.expression:
+    text: 'Выражение:'
+xdebugger.evaluate.label.result:
+    text: '&Результат:'
+xdebugger.evaluate.language.hint:
+    text: Нажмите, чтобы изменить язык
+xdebugger.evaluate.result:
+    text: результат
+xdebugger.evaluate.stack.frame.has.not.evaluator:
+    text: Не удаётся вычислить, текущий стековый кадр не поддерживает вычисление
+xdebugger.evaluating.expression.node.message:
+    text: Вычисляем…
+xdebugger.label.text.code.fragment:
+    text: 'Фрагмент кода:'
+xdebugger.modifiyng.value.node.message:
+    text: Изменение значения…
+xdebugger.popup.value.tree.set.root.action.tooltip:
+    text: Установить как корневой
+xdebugger.remove.line.breakpoint.action.text:
+    text: Удалить точку останова
+xdebugger.reset.frame.title:
+    text: Сбросить кадр
+xdebugger.view.breakpoint.edit.action:
+    text: Изменить
+xdebugger.view.breakpoint.properties.action:
+    text: Свойства
+xdebugger.view.breakpoint.reveal.action:
+    text: Показать диалоговое окно точек останова
