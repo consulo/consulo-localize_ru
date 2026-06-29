@@ -360,34 +360,6 @@ changes.newchangelist.warning.already.exists.text:
     text: Список изменений «{0}» уже существует.
 changes.newchangelist.warning.already.exists.title:
     text: Неверное название списка изменений
-changes.nodetitle.changecount:
-    text: ({0,choice, 0#Нет файлов|1#1 файл|2#{0} файлов})
-changes.nodetitle.directory.changecount:
-    text: ({0,choice, 0#Нет каталогов|1#1 каталог|2#{0} каталогов})
-changes.nodetitle.directory.file.changecount:
-    text: ({0,choice, 0#Нет каталогов|1#1 каталог|2#{0} каталогов} и {1,choice, 0#Нет файлов|1#1 файл|2#{1} файлов})
-changes.nodetitle.have.outdated.files:
-    text: Некоторые файлы изменены на сервере
-changes.nodetitle.ignored.files:
-    text: Игнорируемые файлы
-changes.nodetitle.locally.deleted.files:
-    text: Локально удалённые файлы
-changes.nodetitle.locked.folders:
-    text: Заблокированные каталоги рабочей копии
-changes.nodetitle.locked.folders.tooltip:
-    text: Некоторые каталоги заблокированы; операции VCS для них запрещены. Необходимо выполнить очистку.
-changes.nodetitle.logicallt.locked.folders:
-    text: Явно заблокированные файлы
-changes.nodetitle.modified.without.editing:
-    text: Изменено без извлечения
-changes.nodetitle.switched.files:
-    text: Переключённые файлы
-changes.nodetitle.switched.roots:
-    text: Переключения корней
-changes.nodetitle.unversioned.files:
-    text: Неверсионированные файлы
-changes.nodetitle.updating:
-    text: (обновление…)
 changes.remove.active.empty.prompt:
     text: 'Выберите список изменений, который нужно сделать активным:'
 changes.remove.active.prompt:
