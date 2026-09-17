@@ -621,16 +621,12 @@ label.enter.the.new.group.name:
     text: 'Введите новое название группы:'
 lightbulb.tooltip:
     text: Нажмите или клавишу {0}
-link.live.template.change.context:
-    text: Изменить
-link.live.template.define.context:
-    text: Выбрать
+livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
+    text: Обернуть в секцию CDATA
 livetemplate.description.surround.tag:
     text: Обернуть в <tag></tag>
 livetemplate.description.surround.tag.in.htmlorjsp:
     text: Обернуть в <tag></tag> в HTML/JSP
-livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
-    text: Обернуть в секцию CDATA
 macro.array.variable:
     text: arrayVariable()
 macro.capitalize.string:
