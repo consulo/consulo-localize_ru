@@ -1,0 +1,80 @@
+description.geti:
+    text: Вставляет метод-одиночку getInstance
+description.if.not.null:
+    text: Вставляет условие «если не null»
+description.if.null:
+    text: Вставляет условие «если null»
+description.inst:
+    text: Проверяет тип объекта через instanceof и приводит тип
+description.itar:
+    text: Перебирает элементы массива
+description.itco:
+    text: Перебирает элементы java.util.Collection
+description.iten:
+    text: Перебирает java.util.Enumeration
+description.iter:
+    text: Перебирает Iterable при помощи foreach
+description.itit:
+    text: Перебирает java.util.Iterator
+description.itli:
+    text: Перебирает элементы java.util.List
+description.itover:
+    text: Перебирает Iterable или массив при помощи foreach
+description.ittok:
+    text: Перебирает токены из строки
+description.itve:
+    text: Перебирает элементы java.util.Vector
+description.lazy:
+    text: Выполняет отложенную инициализацию
+description.lst:
+    text: Получает последний элемент массива
+description.mn:
+    text: Присваивает переменной меньшее значение
+description.mx:
+    text: Присваивает переменной большее значение
+description.psf:
+    text: public static final
+description.psfi:
+    text: public static final int
+description.psfs:
+    text: public static final String
+description.psvm:
+    text: Объявление метода main()
+description.ritar:
+    text: Перебирает элементы массива в обратном порядке
+description.serr:
+    text: Выводит строку в System.err
+description.souf:
+    text: Выводит форматированную строку в System.out
+description.sout:
+    text: Выводит строку в System.out
+description.soutm:
+    text: Выводит названия текущих класса и метода в System.out
+description.soutp:
+    text: Выводит названия и значения параметров метода в System.out
+description.soutv:
+    text: Выводит значение в System.out
+description.st:
+    text: String
+description.surround.with.callable:
+    text: Обернуть в Callable
+description.surround.with.read.lock:
+    text: Обернуть в ReadWriteLock.readLock
+description.surround.with.write.lock:
+    text: Обернуть в ReadWriteLock.writeLock
+description.tag.pair:
+    text: Пара тегов
+description.thr:
+    text: throw new
+description.toar:
+    text: Сохраняет элементы java.util.Collection в массив
+group.name.java.iterations:
+    text: Java, итерации
+group.name.java.other:
+    text: Java, разное
+group.name.java.output:
+    text: Java, вывод
+group.name.java.plain:
+    text: Java, декларации
+group.name.java.surround:
+    text: Java, окружить
