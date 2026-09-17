@@ -1,3 +1,39 @@
+certificate.accept.non.trusted.certificates.automatically:
+    text: Автоматически принимать недоверенные сертификаты
+certificate.accepted.certificates:
+    text: Принятые сертификаты
+certificate.cannot.add.certificate:
+    text: Не удалось добавить сертификат
+certificate.cannot.add.certificate.for:
+    text: Не удалось добавить сертификат для {0}
+certificate.cannot.remove.certificate:
+    text: Не удалось удалить сертификат
+certificate.cannot.remove.certificate.for:
+    text: Не удалось удалить сертификат для {0}
+certificate.certificate.already.exists:
+    text: Сертификат уже существует
+certificate.choose.certificate:
+    text: Выберите сертификат
+certificate.display.name:
+    text: Серверные сертификаты
+certificate.label.root:
+    text: <корень>
+certificate.malformed.x509.server.certificate:
+    text: Некорректный серверный сертификат X509
+certificate.no.certificate.selected:
+    text: Сертификат не выбран
+certificate.no.certificates:
+    text: Нет сертификатов
+certificate.not.imported:
+    text: Не импортировано
+downloading.file.cancelled:
+    text: Скачивание отменено
+downloading.file.change.http.proxy.settings:
+    text: Изменить настройки HTTP-прокси…
+downloading.file.started:
+    text: Скачивание запущено
+downloading.file.try.again.button:
+    text: Повторить попытку
 error.connection.failed.redirects:
     text: 'Сбой подключения: слишком много перенаправлений'
 error.connection.failed.with.http.code.N:
