@@ -621,90 +621,12 @@ label.enter.the.new.group.name:
     text: 'Введите новое название группы:'
 lightbulb.tooltip:
     text: Нажмите или клавишу {0}
-link.change.context:
-    text: Изменить
-link.define.context:
-    text: Определить
-livetemplate.description.geti:
-    text: Вставляет метод-одиночку getInstance
-livetemplate.description.if.not.null:
-    text: Вставляет условие «если не null»
-livetemplate.description.if.null:
-    text: Вставляет условие «если null»
-livetemplate.description.inst:
-    text: Проверяет тип объекта через instanceof и приводит тип
-livetemplate.description.itar:
-    text: Перебирает элементы массива
-livetemplate.description.itco:
-    text: Перебирает элементы java.util.Collection
-livetemplate.description.iten:
-    text: Перебирает java.util.Enumeration
-livetemplate.description.iter:
-    text: Перебирает Iterable | массив в синтаксисе J2SDK5.0
-livetemplate.description.itit:
-    text: Перебирает java.util.Iterator
-livetemplate.description.itli:
-    text: Перебирает элементы java.util.List
-livetemplate.description.itover:
-    text: Перебирает Iterable или массив в синтаксисе JDK 5.0
-livetemplate.description.ittok:
-    text: Перебирает токены из строки
-livetemplate.description.itve:
-    text: Перебирает элементы java.util.Vector
-livetemplate.description.lazy:
-    text: Выполняет отложенную инициализацию
-livetemplate.description.lst:
-    text: Получает последний элемент массива
-livetemplate.description.mn:
-    text: Присваивает переменной меньшее значение
-livetemplate.description.mx:
-    text: Присваивает переменной большее значение
-livetemplate.description.psf:
-    text: public static final
-livetemplate.description.psfi:
-    text: public static final int
-livetemplate.description.psfs:
-    text: public static final String
-livetemplate.description.psvm:
-    text: Объявление метода main()
-livetemplate.description.ritar:
-    text: Перебирает элементы массива в обратном порядке
-livetemplate.description.serr:
-    text: Выводит строку в System.err
-livetemplate.description.souf:
-    text: Выводит форматированную строку в System.out
-livetemplate.description.sout:
-    text: Выводит строку в System.out
-livetemplate.description.soutm:
-    text: Выводит названия текущих класса и метода в System.out
-livetemplate.description.soutp:
-    text: Выводит названия и значения параметров метода в System.out
-livetemplate.description.soutv:
-    text: Выводит значение в System.out
-livetemplate.description.st:
-    text: String
-livetemplate.description.surround.braces:
-    text: "Обернуть в '{''}'"
 livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
     text: Обернуть в секцию CDATA
-livetemplate.description.surround.parens:
-    text: Обернуть в ()
 livetemplate.description.surround.tag:
     text: Обернуть в <tag></tag>
 livetemplate.description.surround.tag.in.htmlorjsp:
     text: Обернуть в <tag></tag> в HTML/JSP
-livetemplate.description.surround.with.callable:
-    text: Обернуть в Callable
-livetemplate.description.surround.with.read.lock:
-    text: Обернуть в ReadWriteLock.readLock
-livetemplate.description.surround.with.write.lock:
-    text: Обернуть в ReadWriteLock.writeLock
-livetemplate.description.tag.pair:
-    text: Пара тегов
-livetemplate.description.thr:
-    text: throw new
-livetemplate.description.toar:
-    text: Сохраняет элементы java.util.Collection в массив
 macro.array.variable:
     text: arrayVariable()
 macro.capitalize.string:

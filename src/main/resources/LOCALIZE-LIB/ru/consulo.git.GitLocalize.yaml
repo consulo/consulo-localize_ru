@@ -3,11 +3,11 @@ action.Annotate.with.Blame.text:
 action.Git.Pull.text:
     text: Получить (Pull)…
 action.Git.Stash.Silently.text:
-    text: Припрятать бесшумно (Stash)
+    text: Спрятать бесшумно (Stash)
 action.Git.Stash.UnstashAs.description:
-    text: Pop или применить выбранный stash как новую ветку с индексом или без него
+    text: Достать или применить выбранные спрятанные изменения (stash) как новую ветку с индексом или без него
 action.Git.Stash.UnstashAs.text:
-    text: Достать припрятанное (Unstash)…
+    text: Достать спрятанное (Unstash)…
 action.add.text:
     text: Добавить
 action.branches.text:
@@ -65,9 +65,9 @@ action.selected.directory.text:
 action.selected.file.text:
     text: Выбран{0,choice,1# файл|2#ы файлы}
 action.stash.name:
-    text: Припрятать (Stash)
+    text: Спрятать (Stash)
 action.stash.text:
-    text: Припрятать изменения (Stash)…
+    text: Спрятать изменения (Stash)…
 action.tag.name:
     text: Тег
 action.tag.text:
@@ -75,9 +75,9 @@ action.tag.text:
 action.text.show.all.submitted:
     text: Показать все файлы, измененные этим коммитом
 action.unstash.name:
-    text: Достать припрятанное (Unstash)
+    text: Достать спрятанное (Unstash)
 action.unstash.text:
-    text: Достать припрятанные изменения (Unstash)…
+    text: Достать спрятанные изменения (Unstash)…
 add.action.name:
     text: Добавить
 add.adding:
@@ -425,13 +425,13 @@ git.status.bar.widget.text.rebase:
 git.status.bar.widget.text.revert:
     text: Откатывание в {0} (Revert)
 git.unstash.clear.confirmation.message:
-    text: Удалить все припрятанные изменения (Stash)? Это действие нельзя отменить.
+    text: Удалить все спрятанные изменения (Stash)? Это действие нельзя отменить.
 git.unstash.clear.confirmation.title:
-    text: Удалить все припрятанные изменения (Stash)?
+    text: Удалить все спрятанные изменения (Stash)?
 git.unstash.drop.confirmation.message:
     text: <html>Вы хотите удалить {0}?<br/>"{1}"</html>
 git.unstash.drop.confirmation.title:
-    text: Удалить припрятанные изменения {0} (Stash)?
+    text: Удалить спрятанные изменения {0} (Stash)?
 git.vcs.config.convert.ask:
     text: Спрашивать перед конвертацией
 git.vcs.config.convert.crlf:
@@ -587,9 +587,9 @@ push.action.name:
 push.active.action.name:
     text: Отправка активных веток (Push)
 push.active.autostash:
-    text: '&Авто-припрятывание (Stash)'
+    text: '&Авто-спрятывание (Stash)'
 push.active.autostash.tooltip:
-    text: Авто-припрятывание (Stash) незакоммиченных изменений перед перебазированием (Rebase)
+    text: Авто-спрятывание (Stash) незакоммиченных изменений перед перебазированием (Rebase)
 push.active.commit.node.merge:
     text: (коммит слияния)
 push.active.commits:
@@ -909,7 +909,7 @@ select.branch.to.checkout:
 settings.auto.update.on.push.rejected:
     text: Автоматически обновлять, если &push текущей ветки был отклонен
 settings.commit.automatically.on.cherry.pick:
-    text: Автоматически коммитить при Cherry-pick
+    text: Автоматически коммитить при забирании (Cherry-pick)
 settings.crlf:
     text: Предупреждать, если собираются коммитить разделители строк CRLF
 settings.detached.head:
@@ -945,7 +945,7 @@ ssh.password.message:
 ssh.password.title:
     text: Вход по паролю SSH
 stash.button:
-    text: Припрятать (Stash)
+    text: Спрятать (Stash)
 stash.keep.index:
     text: Сохранить &индекс
 stash.keep.index.tooltip:
@@ -953,11 +953,11 @@ stash.keep.index.tooltip:
 stash.message:
     text: '&Сообщение:'
 stash.message.tooltip:
-    text: Введите сообщение для припрятывания (Stash)
+    text: Введите сообщение для спрятывания (Stash)
 stash.title:
-    text: Припрятывание (Stash)
+    text: Спрятывание (Stash)
 stashing.title:
-    text: Припрятываем изменения (Stash)…
+    text: Прячем изменения (Stash)…
 tag.button:
     text: Создать тег
 tag.commit.label:
@@ -1009,53 +1009,53 @@ unindexed.files.changlelist.name:
 unstash.branch.label:
     text: 'Как новую &ветку:'
 unstash.branch.tooltip:
-    text: Если введено непустое название, припрятанные изменения (Stash) будут помещены в новую ветку
+    text: Если введено непустое название, спрятанные изменения (Stash) будут помещены в новую ветку
 unstash.button.apply:
-    text: Достать припрятанное (Unstash)
+    text: Достать спрятанное (Unstash)
 unstash.button.branch:
     text: Ветка
 unstash.button.pop:
-    text: Извлечь припрятанное (Pop Stash)
+    text: Извлечь спрятанное (Pop Stash)
 unstash.clear:
     text: '&Очистить'
 unstash.clear.tooltip:
-    text: Удалить все припрятанные изменения (Stash) в репозитории.
+    text: Удалить все спрятанные изменения (Stash) в репозитории.
 unstash.clearing.stashes:
-    text: Очистка припрятанного (Stash)…
+    text: Очистка спрятанного (Stash)…
 unstash.drop:
     text: '&Удалить'
 unstash.drop.tooltip:
-    text: Удалить выбранное припрятанное изменение (Stash)
+    text: Удалить выбранное спрятанное изменение (Stash)
 unstash.dropping.stash:
-    text: Удаление припрятанного {0} (Stash)…
+    text: Удаление спрятанного {0} (Stash)…
 unstash.error.branch.exists:
     text: Указанная ветка уже существует
 unstash.error.invalid.branch.name:
     text: Недопустимое название ветки
 unstash.pop.stash:
-    text: '&Извлечь припрятанное (Pop Stash)'
+    text: '&Извлечь спрятанное (Pop Stash)'
 unstash.pop.stash.tooltip:
-    text: Если выбрано, Stash будет удалён после применения.
+    text: Если выбрано, спрятанное (Stash) будет удалено после применения.
 unstash.reinstate.index:
     text: Восстановить &индекс
 unstash.reinstate.index.tooltip:
     text: Попытаться восстановить индекс, а также изменения в рабочей копии.
 unstash.stashes:
-    text: '&Припрятанное (Stashes):'
+    text: '&Спрятанное (Stashes):'
 unstash.stashes.item:
     text: '<html><b><tt>{0}</tt></b>:<i>{1}</i>: {2}</html>'
 unstash.stashes.tooltip:
-    text: Выберите припрятанное (Stash).
+    text: Выберите спрятанное (Stash).
 unstash.title:
-    text: Достать припрятанное (Unstash)
+    text: Достать спрятанное (Unstash)
 unstash.unstashing:
-    text: Достаём припрятанное (Unstash)…
+    text: Достаём спрятанное (Unstash)…
 unstash.view:
     text: '&Просмотр'
 unstash.view.tooltip:
-    text: Просмотреть выбранное припрятанное изменение (Stash)
+    text: Просмотреть выбранное спрятанное изменение (Stash)
 unstashing.title:
-    text: Достаём припрятанные изменения (Unstash)…
+    text: Достаём спрятанные изменения (Unstash)…
 update.locally.modified.files:
     text: '&Файлы:'
 update.locally.modified.files.tooltip:
@@ -1063,7 +1063,7 @@ update.locally.modified.files.tooltip:
 update.locally.modified.git.root:
     text: 'Git Root:'
 update.locally.modified.message:
-    text: '<html><p>Следующие файлы под этим корнем локально изменены.<br/>Возможные причины: незакоммиченные изменения; проблема с преобразованием CRLF; автосохранение файла конфигурации {0}.</p><p><ul><li>Нажмите <b>Отменить изменения в файлах</b>, чтобы отменить эти локальные изменения и продолжить процесс обновления.</li><li>Нажмите <b>Отмена</b>, чтобы отменить процесс обновления.<br/>Используйте опцию Авто-Stash, чтобы сохранить локальные изменения перед обновлением и восстановить их после.</li></ul></p> </html>'
+    text: '<html><p>Следующие файлы под этим корнем локально изменены.<br/>Возможные причины: незакоммиченные изменения; проблема с преобразованием CRLF; автосохранение файла конфигурации {0}.</p><p><ul><li>Нажмите <b>Отменить изменения в файлах</b>, чтобы отменить эти локальные изменения и продолжить процесс обновления.</li><li>Нажмите <b>Отмена</b>, чтобы отменить процесс обновления.<br/>Используйте опцию Авто-спрятывание (Auto-Stash), чтобы сохранить локальные изменения перед обновлением и восстановить их после.</li></ul></p> </html>'
 update.locally.modified.rescan:
     text: Повторное &сканирование
 update.locally.modified.rescan.tooltip:
@@ -1087,9 +1087,9 @@ update.options.save.shelve:
 update.options.save.shelve.tooltip:
     text: Использовать Shelve {0} для сохранения изменений (файлы будут восстановлены после обновления)
 update.options.save.stash:
-    text: Использовать S&tash
+    text: Использовать &прятание (Stash)
 update.options.save.stash.tooltip:
-    text: Использовать Git Stash для сохранения изменений (файлы будут восстановлены после обновления)
+    text: Прятать изменения (Git Stash) (файлы будут восстановлены после обновления)
 update.options.type:
     text: Тип обновления
 update.options.type.default:
