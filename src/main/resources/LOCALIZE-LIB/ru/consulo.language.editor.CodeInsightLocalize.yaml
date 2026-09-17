@@ -4,12 +4,28 @@ action.ToggleInlineHintsAction.description:
     text: Переключить подсказки названий параметров
 action.ToggleInlineHintsAction.text:
     text: Переключить подсказки названий параметров
+action.invoke.live.template.action.text.mnemonic.and.description:
+    text: '{0}. {1}'
 action.show.dependencies.on.target.on.scope.text:
     text: Анализ зависимостей модуля «{0}» от {1}
 action.show.dependencies.on.target.text:
     text: Анализ зависимостей от указанной цели
+action.text.disable.live.template:
+    text: Отключить шаблон «{0}»
+action.text.disable.postfix.template:
+    text: Отключить шаблон «{0}»
+action.text.edit.live.template.settings:
+    text: Редактировать настройки живых шаблонов
+action.text.edit.postfix.templates.settings:
+    text: Редактировать настройки постфиксных живых шаблонов
+action.text.live.templates:
+    text: Живые шаблоны
 action.text.move:
     text: Переместить
+action.text.new.group:
+    text: Новая группа…
+action.text.rename:
+    text: Переименовать
 block.comment.intersects.existing.comment:
     text: Выделение частично пересекается с существующим комментарием
 block.comment.nested.comment:
@@ -196,6 +212,10 @@ disable.intention.action:
     text: Отключить «{0}»
 display.coverage.prompt:
     text: Вы хотите отобразить данные покрытия для «{0}»?
+doc.render.copy.action.text:
+    text: Копировать выделение
+doc.render.not.available.text:
+    text: <i>Недоступно</i>
 documentation.message.documentation.is.not.available:
     text: Документация недоступна до построения индексов.
 enable.intention.action:
@@ -625,12 +645,14 @@ link.live.template.change.context:
     text: Изменить
 link.live.template.define.context:
     text: Выбрать
+livetemplate.abbreviation.placeholder:
+    text: <аббревиатура>
+livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
+    text: Обернуть в секцию CDATA
 livetemplate.description.surround.tag:
     text: Обернуть в <tag></tag>
 livetemplate.description.surround.tag.in.htmlorjsp:
     text: Обернуть в <tag></tag> в HTML/JSP
-livetemplate.description.surround.cdata.in.xmlorhtmlorjsp:
-    text: Обернуть в секцию CDATA
 macro.array.variable:
     text: arrayVariable()
 macro.capitalize.string:
