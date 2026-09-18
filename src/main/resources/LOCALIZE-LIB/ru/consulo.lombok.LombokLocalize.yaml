@@ -2,26 +2,6 @@ action.data.description:
     text: Заменить методы getter/setter/equals/hashcode/toString Lombok-аннотацией @Data
 action.data.text:
     text: Стандартное @Data
-action.equals.and.hash.code.description:
-    text: Заменить методы equals и hashCode Lombok-аннотацией @EqualsAndHashcode
-action.equals.and.hash.code.text:
-    text: Стандартное @EqualsAndHashCode
-action.getter.description:
-    text: Заменить все методы getter Lombok-аннотацией @Getter
-action.getter.text:
-    text: Стандартный @Getter
-action.logger.description:
-    text: Заменить логгер Lombok-аннотацией @Log
-action.logger.text:
-    text: '@Log (и аналоги)'
-action.setter.description:
-    text: Заменить все методы setter Lombok-аннотацией @Setter
-action.setter.text:
-    text: Стандартный @Setter
-action.to.string.description:
-    text: Заменить метод toString Lombok-аннотацией @ToString
-action.to.string.text:
-    text: Стандартный @ToString
 action.delombok.any.description:
     text: Заменить все Lombok-аннотации обычными Java-методами
 action.delombok.any.text:
@@ -86,6 +66,26 @@ action.delombok.wither.description:
     text: Заменить Lombok-аннотацию @Wither обычными Java-методами
 action.delombok.wither.text:
     text: '@Wither'
+action.equals.and.hash.code.description:
+    text: Заменить методы equals и hashCode Lombok-аннотацией @EqualsAndHashcode
+action.equals.and.hash.code.text:
+    text: Стандартное @EqualsAndHashCode
+action.getter.description:
+    text: Заменить все методы getter Lombok-аннотацией @Getter
+action.getter.text:
+    text: Стандартный @Getter
+action.logger.description:
+    text: Заменить логгер Lombok-аннотацией @Log
+action.logger.text:
+    text: '@Log (и аналоги)'
+action.setter.description:
+    text: Заменить все методы setter Lombok-аннотацией @Setter
+action.setter.text:
+    text: Стандартный @Setter
+action.to.string.description:
+    text: Заменить метод toString Lombok-аннотацией @ToString
+action.to.string.text:
+    text: Стандартный @ToString
 checkbox.settings.jps.fix:
     text: Автоматически добавить опцию компиляции «-Djps.track.ap.dependencies=false» для старой (<1.18.16) версии Lombok
 checkbox.settings.version.warning:

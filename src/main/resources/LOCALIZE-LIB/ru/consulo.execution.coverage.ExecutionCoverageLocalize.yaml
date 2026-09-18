@@ -1,3 +1,7 @@
+action.ImportCoverage.description:
+    text: Импортировать с диска отчёт, собранный в CI
+action.ImportCoverage.text:
+    text: Импортировать внешний отчёт о покрытии…
 action.generate.coverage.report.description:
     text: Экспортировать отчёт о покрытии в HTML
 action.generate.coverage.report.text:
@@ -6,20 +10,16 @@ action.hide.coverage.description:
     text: Закрыть все открытые отчёты о покрытии
 action.hide.coverage.text:
     text: Скрыть покрытие кода
-action.ImportCoverage.description:
-    text: Импортировать с диска отчёт, собранный в CI
-action.ImportCoverage.text:
-    text: Импортировать внешний отчёт о покрытии…
-action.switch.coverage.description:
-    text: Проверить ранее открытые отчёты о покрытии
-action.switch.coverage.text:
-    text: Управление отчётами о покрытии…
 action.name.cover:
     text: Покрытие
 action.show.tests.covering.line.description:
     text: Показать тесты, покрывающие строку
 action.show.tests.covering.line.text:
     text: Показать тесты, покрывающие строку
+action.switch.coverage.description:
+    text: Проверить ранее открытые отчёты о покрытии
+action.switch.coverage.text:
+    text: Управление отчётами о покрытии…
 branch.coverage.message:
     text: |-
         Попаданий: {0}

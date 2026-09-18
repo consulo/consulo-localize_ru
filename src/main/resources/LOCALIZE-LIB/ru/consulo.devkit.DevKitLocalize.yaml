@@ -410,6 +410,8 @@ no.java.sdk.for.idea.sdk.found:
     text: Не найден Java SDK соответствующей версии. В дополнение к Consulo Plugin SDK необходимо определить JDK с той же версией Java ({0}).
 plugin.descriptor:
     text: Описание расширения Consulo
+plugin.module.extension.provider.name:
+    text: Расширение Consulo
 prepare.for.deployment:
     text: Подготовка модуля расширения «{0}» для развертывания
 prepare.for.deployment.all:
@@ -470,5 +472,3 @@ test.run.configuration.title:
     text: Consulo в песочнице (тест)
 vm.parameters:
     text: '&Параметры VM'
-plugin.module.extension.provider.name:
-    text: Расширение Consulo
