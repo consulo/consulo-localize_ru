@@ -13,9 +13,9 @@ action.changes.view.remove.deleted.description:
 action.changes.view.remove.deleted.text:
     text: Удалить из VCS
 action.check.in.directories.0.text:
-    text: '{1, plural, one{# каталог} few{# каталога} other{# каталогов}} {0}'
+    text: '{0} {1, plural, one{# каталог} few{# каталога} other{# каталогов}}'
 action.check.in.files.0.text:
-    text: '{1, plural, one{# файл} few{# файла} other{# файлов}} {0}'
+    text: '{0} {1, plural, one{# файл} few{# файла} other{# файлов}}'
 action.check.in.files.text:
     text: _Закоммитить
 action.check.in.project.text:
