@@ -90,16 +90,10 @@ maven.profile.deactivate:
     text: Деактивировать
 maven.profile.default:
     text: Использовать по умолчанию
-maven.project.changed:
-    text: Проекты Maven необходимо импортировать
-maven.project.enableAutoImport:
-    text: Включить автоимпорт
 maven.project.import.title:
     text: Импорт проектов Maven
 maven.project.import.waiting.for.active.process:
     text: Ожидание активного процесса
-maven.project.importChanged:
-    text: Импортировать изменения
 maven.project.importing:
     text: Импорт проектов Maven
 maven.project.importing.finished:
