@@ -484,8 +484,6 @@ progress.title.loading.modules:
     text: Загрузка модулей…
 progress.title.preparing.workspace:
     text: Подготовка рабочего пространства…
-project.compiler.output:
-    text: '<html><b>Выходные данные компилятора проекта:</b/><br>Этот путь используется для хранения всех результатов компиляции проекта.<br/>По этому пути создается каталог, соответствующий каждому модулю.<br/>Этот каталог содержит два подкаталога: Production и Test для производственного кода и тестовых исходников соответственно.<br/>Для каждого из модулей можно настроить путь вывода компилятора, специфичный для модуля, по мере необходимости</html>'
 project.configuration.save.file.not.found:
     text: '{0} не найдено'
 project.configure.path.variables.description.title:

@@ -93,7 +93,7 @@ error.dialog.conflict.plugin.disable.all:
 error.dialog.conflict.plugin.header.each.other:
     text: '<html><p style="line-height: 150%;">Расширения ниже не могут работать одновременно. Выберите, что включить:</p></html>'
 error.dialog.conflict.plugin.header.platform:
-    text: 'Следующ{0,choice,1#ее|2#ие} расширени{0,choice,1#е|2#я} конфликту{0,choice,1#ет|2#ют} с IDE:'
+    text: '{0, plural, =1{Следующее расширение конфликтует} other{Следующие расширения конфликтуют}} с IDE:'
 error.dialog.conflict.plugin.title:
     text: Конфликтующие расширения
 error.dialog.disable.plugin.action.disable:
@@ -147,7 +147,7 @@ error.list.message.duplicate:
 error.list.message.index.count:
     text: '{0} из {1}'
 error.list.message.info:
-    text: '{0}. Произошло {1,choice,1#1 раз|2#{1} раз} с момента последней очистки.'
+    text: '{0}. Произошло {1, plural, few{# раза} other{# раз}} с момента последней очистки.'
 error.list.message.submission.failed:
     text: Отправка не удалась
 error.list.message.submitted:
@@ -253,11 +253,11 @@ message.successfully.logged.in.as.0:
 notification.group.platform.or.plugins.update.display.name:
     text: Обновление расширений или платформы
 plugin.advestiser.notification.install.link:
-    text: Установить {0, choice, 1#расширение|2#расширений}
+    text: Установить {0, plural, =1{расширение} one{# расширение} few{# расширения} other{# расширений}}
 plugin.advestiser.notification.install.plugin.link:
     text: Установить «{0}»
 plugin.advestiser.notification.text:
-    text: Найдены {0, choice, 1#расширение, поддерживающее|2#расширений, поддерживающих} текущий файл
+    text: Найдено {0, plural, =1{расширение, поддерживающее} one{# расширение, поддерживающее} few{# расширения, поддерживающих} other{# расширений, поддерживающих}} текущий файл
 plugin.following.will.be.downloaded.label:
     text: Следующие расширения будут скачаны и установлены
 plugin.info.unknown:
@@ -265,7 +265,7 @@ plugin.info.unknown:
 plugin.install.dialog.title:
     text: Установить расширение
 plugin.manager.incompatible.deps.tooltip:
-    text: Требуется {0, choice, 1#plugin|2#plugins} {1} {0, choice, 1#is|2#are} не включено
+    text: '{0, plural, one{Требуемое расширение} other{Требуемые расширения}} {1} не {0, plural, one{включено} other{включены}}'
 plugin.manager.incompatible.not.loaded.tooltip:
     text: Расширение не загружено
 plugin.manager.wrong.platform.not.loaded.tooltip:
@@ -293,7 +293,7 @@ prompt.install.several.plugins:
 prompt.uninstall.plugin:
     text: Вы действительно хотите удалить расширение «{0}»?
 prompt.uninstall.several.plugins:
-    text: Вы действительно хотите удалить эти {0} расширений?
+    text: 'Вы действительно хотите удалить {0, plural, =1{это расширение} one{это # расширение} few{эти # расширения} other{эти # расширений}}?'
 prompt.update.plugin:
     text: Хотите обновить расширение «{0}»?
 settings.update.channel.label:
@@ -306,6 +306,60 @@ settings.update.group.repository.settings.label:
     text: Настройки репозитория
 several.plugins.depend.on.0.continue.to.remove:
     text: Несколько расширений зависят от {0}. Продолжить удаление?
+startup.customize.finish.nothing:
+    text: Всё настроено. Детали можно изменить позже вручную в настройках.
+startup.customize.finish.plugins:
+    text: '{0, plural, one{# расширение} few{# расширения} other{# расширений}} будет загружено и установлено, после чего {1} перезапустится.'
+startup.customize.finish.title:
+    text: Готово
+startup.customize.install.failed:
+    text: 'Не удалось установить {0}: {1}'
+startup.customize.installing:
+    text: Устанавливаем расширения
+startup.customize.keymap.header:
+    text: Выберите раскладку клавиш
+startup.customize.keymap.title:
+    text: Раскладка клавиш
+startup.customize.language.downloading:
+    text: Загрузка языкового пакета…
+startup.customize.language.header:
+    text: Выберите язык интерфейса
+startup.customize.language.title:
+    text: Язык
+startup.customize.loading:
+    text: Соединение с хранилищем расширений…
+startup.customize.login.header:
+    text: Настройте с нуля или восстановите свои настройки из учётной записи хаба
+startup.customize.login.hub:
+    text: Войти
+startup.customize.login.hub.description:
+    text: Восстановить плагины из моей учётной записи на хабе
+startup.customize.login.scratch:
+    text: С нуля
+startup.customize.login.scratch.description:
+    text: Я новичок и хочу настроить всё самостоятельно
+startup.customize.login.title:
+    text: Учётная запись
+startup.customize.login.waiting:
+    text: Ожидание браузера…
+startup.customize.plugin.sets.header:
+    text: Выберите, над чем вы собираетесь работать
+startup.customize.plugin.sets.title:
+    text: Наборы расширений
+startup.customize.plugins.group.other:
+    text: Другие
+startup.customize.plugins.header:
+    text: Выберите расширения для скачивания
+startup.customize.plugins.title:
+    text: Расширения
+startup.customize.start:
+    text: Начать использование {0}
+startup.customize.theme.header:
+    text: Выберите внешний вид интерфейса
+startup.customize.theme.title:
+    text: Тема
+startup.customize.title:
+    text: Настроить {0}
 task.requesting.oauth.token:
     text: Запрос OAuth-токена...
 title.plugin.notification.title:
@@ -337,7 +391,7 @@ virus.scanning.dont.show.again.this.project:
 virus.scanning.fix.automatically:
     text: Настроить автоматически
 virus.scanning.fix.explanation:
-    text: <html>Чтобы повысить производительность, {0} можете обновить конфигурацию Защитника Windows, чтобы исключить каталоги проектов из сканирования в реальном времени.<br>Для этого потребуется выполнить команду с правами администратора.<br>Кроме того, вы можете настроить Защитник Windows вручную, следуя <a href="{1}">инструкциям</a>.
+    text: <html>Чтобы повысить производительность, {0} может обновить конфигурацию Защитника Windows, чтобы исключить каталоги проектов из сканирования в реальном времени.<br>Для этого потребуется выполнить команду с правами администратора.<br>Кроме того, вы можете настроить Защитник Windows вручную, следуя <a href="{1}">инструкциям</a>.
 virus.scanning.fix.failed:
     text: 'Не удалось обновить конфигурацию Защитника Windows: {0}'
 virus.scanning.fix.manually:
