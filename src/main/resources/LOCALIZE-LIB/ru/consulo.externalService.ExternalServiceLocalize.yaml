@@ -252,6 +252,10 @@ message.successfully.logged.in.as.0:
     text: Успешно выполнен вход как {0}
 notification.group.platform.or.plugins.update.display.name:
     text: Обновление расширений или платформы
+plugin.advestiser.notification.ignore.by.file.extension:
+    text: Игнорировать по расширению
+plugin.advestiser.notification.ignore.by.file.name:
+    text: Игнорировать по названию файла
 plugin.advestiser.notification.install.link:
     text: Установить {0, plural, =1{расширение} one{# расширение} few{# расширения} other{# расширений}}
 plugin.advestiser.notification.install.plugin.link:
