@@ -3,7 +3,7 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-10-18T10:00:54.206464001Z",
+  "generatedAt" : "2026-10-30T11:46:19.760764585Z",
   "documents" : {
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
@@ -20,11 +20,11 @@
     },
     "consulo-devkit/consulo.devkit.DevKitLocalize" : {
       "source" : {
-        "sig" : "b6968a900fed4f9ceb18518ad6bd9434"
+        "sig" : "9e518c81fbf6945262ad60262d5c174c"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "5602deff9a5b94731717882bc6ec4290"
+          "sig" : "badd96c4c3585e8f04db621530ac675b"
         },
         "ru" : {
           "sig" : "48be6cc5cc7f02a3a67ec4ad2b8f0f2c"
@@ -33,24 +33,24 @@
     },
     "consulo-git/consulo.git.GitBranchesLocalize" : {
       "source" : {
-        "sig" : "743c5b835ed44e27be3c534154a5cd19"
+        "sig" : "f313a9d68dff95986686c9ebe51e5b55"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "501834d39a5fee602aee377b1c738b14"
+          "sig" : "1b7d0b33d840acb7679b05adf6442978"
         },
         "ru" : {
-          "sig" : "257d737e072d7277238295c3c3c7dbfa"
+          "sig" : "9402a764556cb6643a1f2202fd1fab94"
         }
       }
     },
     "consulo-git/consulo.git.GitLocalize" : {
       "source" : {
-        "sig" : "bbb6d86a6f2727d2628c6d5e196f42bc"
+        "sig" : "424bae71758c5a50ca3cc865f170a269"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "b58131bc8cd27176ca5db91f28fb4cbd"
+          "sig" : "401332ae14820dd2e1099db2acc9e897"
         },
         "ru" : {
           "sig" : "ed62b5cccdaae4319243f9c6ac2e1507"
@@ -202,11 +202,11 @@
     },
     "consulo-java/consulo.java.execution.JavaExecutionLocalize" : {
       "source" : {
-        "sig" : "8cecf6a0d0c58415ed0a54a8750755e3"
+        "sig" : "a5c080911b1902157545b6b120b2a5cf"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "a10b40583e0e84697f29ec89174bb702"
+          "sig" : "9f76e3b2dd6599a2eb9d9a043f29f067"
         },
         "ru" : {
           "sig" : "b9b35eae2aa2d390ef029f1bb053a172"
@@ -345,11 +345,11 @@
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenRunnerLocalize" : {
       "source" : {
-        "sig" : "c04f320efb5e84c3354c5fdf8be2aaa7"
+        "sig" : "916472ff5a85dbf9ddf0c9627c5c163c"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "d5a3b33ce62c5c0e46f5d85d49e80d52"
+          "sig" : "5bd11a1f91979bc4cf60ebb744498f5b"
         },
         "ru" : {
           "sig" : "328debd596ec9024a1af2aa5bb6e71e6"
@@ -488,11 +488,11 @@
     },
     "consulo/consulo.diff.DiffLocalize" : {
       "source" : {
-        "sig" : "0f121b213259eacdbe951953e90c1817"
+        "sig" : "61249795f4f4343868b2094bdf0eea64"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "059f20a627c436d5754f18f0cdbbfd30"
+          "sig" : "8188fb22a4af63a51c2a7f7d495ffc3e"
         },
         "ru" : {
           "sig" : "e65acacf1bbc29db6bef88261a81bbe8"
@@ -501,11 +501,11 @@
     },
     "consulo/consulo.execution.ExecutionLocalize" : {
       "source" : {
-        "sig" : "5c47b1c1ff4f523ab5d81ee363275b76"
+        "sig" : "89d37642f55c1c2a5a6a107a6e85348d"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "a00bb449ab730818f1aed70a2af80d7c"
+          "sig" : "a6b5f4961bbd7f4abdbce86615d7cdc7"
         },
         "ru" : {
           "sig" : "229664976ca263799b60b8f31c4e66a0"
@@ -514,11 +514,11 @@
     },
     "consulo/consulo.execution.coverage.ExecutionCoverageLocalize" : {
       "source" : {
-        "sig" : "d0003e1fa00b08d67d955f77b08bf505"
+        "sig" : "89ab1a8b3c8d2dd270cbd5b862e41dc5"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "75e1351ae6127bb0be30a68fd01b0b8e"
+          "sig" : "78282931439ec1fff23462d8a3d74be6"
         },
         "ru" : {
           "sig" : "2bb319f606367410d6bd50f2d55d9762"
@@ -566,11 +566,11 @@
     },
     "consulo/consulo.externalService.ExternalServiceLocalize" : {
       "source" : {
-        "sig" : "5bce5b151e3de643e965dec3be2b10a2"
+        "sig" : "169ac6734f92091ea176825efbc67e50"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "e342e174dc8d98cb0874208893c8ec0d"
+          "sig" : "d5491e802ee04cb4adaa50ecf05d1b6f"
         },
         "ru" : {
           "sig" : "f78abc8ec1bd29f4ad7ff117e8d659b5"
@@ -592,11 +592,11 @@
     },
     "consulo/consulo.http.HttpLocalize" : {
       "source" : {
-        "sig" : "3bd0db0f5440fbca55dddd973f8a9d44"
+        "sig" : "664aafa3cc94af347ad6af558184d30d"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "de7b7869807c545fc8857f3ff0d2ea0a"
+          "sig" : "5e2526b5214839c575c2f1005a8f06ec"
         },
         "ru" : {
           "sig" : "e3f17030557b25873e4e77e922d6068b"
@@ -605,14 +605,14 @@
     },
     "consulo/consulo.ide.IdeLocalize" : {
       "source" : {
-        "sig" : "4257f9a7d4239ff439b473c73e430ed4"
+        "sig" : "79632b947e03740cb8a83c8f9c4537a9"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "077cc04234b420bbdbc30a1087b91824"
+          "sig" : "195cd4a9b2f176bf31cd92683408057a"
         },
         "ru" : {
-          "sig" : "9b4f7b30e6b03df577d7f5a1b0f8fa12"
+          "sig" : "5e66e5a8200b305ed712ca547dfbd5ac"
         }
       }
     },
@@ -800,14 +800,14 @@
     },
     "consulo/consulo.pathMacro.PathMacroLocalize" : {
       "source" : {
-        "sig" : "046853d058e79e1f1d29ea3914f7e9ee"
+        "sig" : "352eb2cf544f7d35842e0af0978234c8"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "80b180d943ae156ebda7942bedc9120f"
+          "sig" : "f4b2284cfa01df89fe97026ae35afa93"
         },
         "ru" : {
-          "sig" : "80b180d943ae156ebda7942bedc9120f"
+          "sig" : "f4b2284cfa01df89fe97026ae35afa93"
         }
       }
     },
@@ -930,11 +930,11 @@
     },
     "consulo/consulo.versionControlSystem.VcsLocalize" : {
       "source" : {
-        "sig" : "20b0ed9c1923e97da78c631d9230cd12"
+        "sig" : "73a95ba92310306428ddb04fecd37b81"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "9b9cf3c9de8918ec8e59cd5ec18de032"
+          "sig" : "60377702188b40606d37ca16fdb47dd8"
         },
         "ru" : {
           "sig" : "95b4e4284b523a0d7d779e3dc7ffe077"
@@ -943,24 +943,24 @@
     },
     "consulo/consulo.versionControlSystem.distributed.DistributedVcsLocalize" : {
       "source" : {
-        "sig" : "3e69e2545ca0a2b02f1ba8825883262a"
+        "sig" : "5bbdec65bebf332e5796280a09e4fd25"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "1228c06bd10a538f2d172098a9ccdce1"
+          "sig" : "1a1ada07bcec2c9ce72e795d52f942a0"
         },
         "ru" : {
-          "sig" : "52077b4ad6f88fdc032a92085997a7d9"
+          "sig" : "669ed3338c51b62361fc48bedcb4b8f6"
         }
       }
     },
     "consulo/consulo.versionControlSystem.log.VersionControlSystemLogLocalize" : {
       "source" : {
-        "sig" : "008bedeeee6699688bc6c91acb2660ba"
+        "sig" : "09b37d975b9be2e076baf2f993aedc34"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "98e25d6a0ba22894dd0377be7f241d01"
+          "sig" : "1fdd2ffb0f3faa40c4b2603b1ef20202"
         },
         "ru" : {
           "sig" : "9aec349552dc0cf64dd6deb8d37b3c9e"
