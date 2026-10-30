@@ -24,8 +24,6 @@ clone.destination.directory.error.access:
     text: Не удалось создать {0}<br/>Проверьте права доступа
 clone.destination.directory.title:
     text: Родительский каталог
-clone.destination.exists.error:
-    text: Путь {0} существует. Репозиторий не может быть клонирован в существующий каталог.
 clone.dir.name:
     text: 'Название &каталога:'
 clone.invalid.url:
