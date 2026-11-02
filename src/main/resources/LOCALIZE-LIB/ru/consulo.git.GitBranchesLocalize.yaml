@@ -1,7 +1,5 @@
 action.checkout.as.new.branch.text:
     text: Переключиться как на новую ветку
-action.checkout.as.new.local.branch.text:
-    text: Переключиться как на новую локальную ветку
 action.checkout.tag.or.revision.impossible.description:
     text: Нельзя переключиться до первого коммита
 action.checkout.tag.or.revision.text:
@@ -40,16 +38,8 @@ action.tags.in.repo.text:
     text: Теги в {0}
 dialog.message.enter.reference.branch.tag.name.or.commit.hash:
     text: 'Введите название ветки или тега, или хеш коммита:'
-dialog.message.new.branch.name:
-    text: 'Название новой ветки:'
-dialog.message.new.name.for.the.branch.0:
-    text: 'Новое название для ветки «{0}»:'
 dialog.title.checkout:
     text: Переключиться
-dialog.title.checkout.new.branch.from.0:
-    text: Переключиться на новую ветку из {0}
-dialog.title.checkout.remote.branch:
-    text: Переключиться на удалённую ветку
 dialog.title.create.new.branch:
     text: Создать новую ветку
 dialog.title.rename.branch.0:

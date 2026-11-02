@@ -3,57 +3,57 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-09-17T20:00:03.190491351Z",
+  "generatedAt" : "2026-11-02T13:59:47.349681483Z",
   "documents" : {
     "consulo-csharp/consulo.csharp.api.CSharpLocalize" : {
       "source" : {
-        "sig" : "ba93e7adc971c679f23d0624397a9fb5"
+        "sig" : "10c9f8137e7512f996c0b56ca1dbbc00"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "b8acc8d8dcd8d6f6f1fdd1b41cddb59d"
+          "sig" : "e2984be089c757a7b342ea77b2adf25e"
         },
         "ru" : {
-          "sig" : "a6a3d57b81c2bde0514a9cc0e5a81324"
+          "sig" : "0ef7e3208f70ac4953f1421402254acc"
         }
       }
     },
     "consulo-devkit/consulo.devkit.DevKitLocalize" : {
       "source" : {
-        "sig" : "a9b29ed4ebd443bf7cbfb6baf4080b4d"
+        "sig" : "9e518c81fbf6945262ad60262d5c174c"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "cfa7df1ebf953458f8d55443386b0cbe"
+          "sig" : "badd96c4c3585e8f04db621530ac675b"
         },
         "ru" : {
-          "sig" : "586a71510c80d3669bacff9f43b14bc4"
+          "sig" : "48be6cc5cc7f02a3a67ec4ad2b8f0f2c"
         }
       }
     },
     "consulo-git/consulo.git.GitBranchesLocalize" : {
       "source" : {
-        "sig" : "743c5b835ed44e27be3c534154a5cd19"
+        "sig" : "f313a9d68dff95986686c9ebe51e5b55"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "501834d39a5fee602aee377b1c738b14"
+          "sig" : "1b7d0b33d840acb7679b05adf6442978"
         },
         "ru" : {
-          "sig" : "501834d39a5fee602aee377b1c738b14"
+          "sig" : "9402a764556cb6643a1f2202fd1fab94"
         }
       }
     },
     "consulo-git/consulo.git.GitLocalize" : {
       "source" : {
-        "sig" : "d30dca8b730c1b46a24e4086e486f946"
+        "sig" : "424bae71758c5a50ca3cc865f170a269"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "113a6a555460c19978893d02bbaedc25"
+          "sig" : "401332ae14820dd2e1099db2acc9e897"
         },
         "ru" : {
-          "sig" : "40ae908983362b43a6bef2204ac9445d"
+          "sig" : "ed62b5cccdaae4319243f9c6ac2e1507"
         }
       }
     },
@@ -66,7 +66,7 @@
           "sig" : "f73979f25a633744e740c4b8af19d2ca"
         },
         "ru" : {
-          "sig" : "f73979f25a633744e740c4b8af19d2ca"
+          "sig" : "e6f31466392d8a3c1cbfe9c747d7fda3"
         }
       }
     },
@@ -79,33 +79,46 @@
           "sig" : "22a077921030e6af3b5c6f4cc9a558be"
         },
         "ru" : {
-          "sig" : "22a077921030e6af3b5c6f4cc9a558be"
+          "sig" : "833da7b4bc31fb3193a4f168180f346e"
+        }
+      }
+    },
+    "consulo-java/consulo.java.JavaLiveTemplateLocalize" : {
+      "source" : {
+        "sig" : "e5ea28bcc07b239a0bf9ae442db88d85"
+      },
+      "translations" : {
+        "en-US" : {
+          "sig" : "17eb294e81fe6de6c4162c9226b73053"
+        },
+        "ru" : {
+          "sig" : "873841b6a372b2b38c3a583181e440f4"
         }
       }
     },
     "consulo-java/consulo.java.JavaLocalize" : {
       "source" : {
-        "sig" : "a88b0d176cfb230187349958bc55c94f"
+        "sig" : "dc0222cff68ca0ce0ff557d8b4facba2"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "f2fb9221562d5f32364ddeb2e30a2a7c"
+          "sig" : "864563191d4766b06abbc26ef237b5da"
         },
         "ru" : {
-          "sig" : "5b086d7bf63b293858860b02f4dc0e6b"
+          "sig" : "272119e6a7fa60bf816b2be5b0aca14e"
         }
       }
     },
     "consulo-java/consulo.java.JavaRefactoringLocalize" : {
       "source" : {
-        "sig" : "a0097133db99f6246f5885816f8a0c83"
+        "sig" : "cd248dc7dc10dd8a1d77a819316f2585"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "067d05ab22b2ba1ea229e3c41399a15c"
+          "sig" : "eee564973281230deeda7c04a33ca1a4"
         },
         "ru" : {
-          "sig" : "1fe7db5e9b36012ba1b1dfc692826543"
+          "sig" : "0b86f42e8bf2625da398c16396255e0d"
         }
       }
     },
@@ -118,7 +131,7 @@
           "sig" : "3dc2eea888de63361d423d6fa52be2cb"
         },
         "ru" : {
-          "sig" : "7d8ab78562d19eee5716ce5df1fb98b3"
+          "sig" : "9c97a4566d8680760ecad03eabd0ae6e"
         }
       }
     },
@@ -131,7 +144,7 @@
           "sig" : "07cca20a8b1b9ef760d7174e988a14d0"
         },
         "ru" : {
-          "sig" : "584b619168177d112491a50d221c0d99"
+          "sig" : "53bb86262a98c7df047db449e8c8c9cf"
         }
       }
     },
@@ -144,7 +157,7 @@
           "sig" : "60bbfec6a892b57174691d563f6668fb"
         },
         "ru" : {
-          "sig" : "e5a4bedb3a7c909975d2b253e797e1c5"
+          "sig" : "75813d49b88b724546fdda69c6a81590"
         }
       }
     },
@@ -157,7 +170,7 @@
           "sig" : "8496029b3be8cdfb3f394f181ae5bbe1"
         },
         "ru" : {
-          "sig" : "d9dac438bd7fc3997182fbda24aeece2"
+          "sig" : "8be94a0d2b2419bedff9506f97e771cc"
         }
       }
     },
@@ -170,33 +183,33 @@
           "sig" : "fe2ea7587a2c3cbbd5c246f452ce0f08"
         },
         "ru" : {
-          "sig" : "c47d2dc0e34b203965169610c725ee24"
+          "sig" : "299fbf6deb87f53038d6f3a2e92681d5"
         }
       }
     },
     "consulo-java/consulo.java.coverage.JavaCoverageLocalize" : {
       "source" : {
-        "sig" : "22debe12e43ce8e92b5b3386a37dda11"
+        "sig" : "f0b567de2f7498116a3d6c04c6e95360"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "9d0f73ce8b26db18d6a84c8dc77ec5e2"
+          "sig" : "59ba1030662cf63d562a954743255eb4"
         },
         "ru" : {
-          "sig" : "9d0f73ce8b26db18d6a84c8dc77ec5e2"
+          "sig" : "59bea4db539c8f4a3a758d165ee5b431"
         }
       }
     },
     "consulo-java/consulo.java.execution.JavaExecutionLocalize" : {
       "source" : {
-        "sig" : "36f8a362c9f34e5d024e0f599be255ce"
+        "sig" : "a5c080911b1902157545b6b120b2a5cf"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "28ce15c1e72397d4ec2203fb763f0b53"
+          "sig" : "9f76e3b2dd6599a2eb9d9a043f29f067"
         },
         "ru" : {
-          "sig" : "e4641e4ff69b531c3d33cc1ac528e30c"
+          "sig" : "b9b35eae2aa2d390ef029f1bb053a172"
         }
       }
     },
@@ -209,7 +222,7 @@
           "sig" : "d3157b37855cb8fab7d257e13350b0d0"
         },
         "ru" : {
-          "sig" : "d3157b37855cb8fab7d257e13350b0d0"
+          "sig" : "87e312fa30b36a14fb34b829f70b89ab"
         }
       }
     },
@@ -222,7 +235,7 @@
           "sig" : "c88bc833d5ef40c0ff96e3efee5da4bc"
         },
         "ru" : {
-          "sig" : "7f83ad3913bdb2f3cb2222a8974f6af7"
+          "sig" : "417d70452593ead2e6392b5a1aec3071"
         }
       }
     },
@@ -235,7 +248,7 @@
           "sig" : "e1dd4a694b5a8e6d0b6719ef718c8602"
         },
         "ru" : {
-          "sig" : "9356d6665912456e56c1048f936c2619"
+          "sig" : "66e518b595502ad240b194b9f55cd2fc"
         }
       }
     },
@@ -248,7 +261,7 @@
           "sig" : "8bfdaac3e51f3854857e213590689391"
         },
         "ru" : {
-          "sig" : "fd1cb3d70805428a2a47248ff7680bc4"
+          "sig" : "02515b34eb80482b3f02b26bcefd27c9"
         }
       }
     },
@@ -261,7 +274,7 @@
           "sig" : "71f639a3a1f48f0ac9f3f69f90057478"
         },
         "ru" : {
-          "sig" : "23888db55fd8ee98fcfe825fded6c278"
+          "sig" : "9bc4a3ea2bec011b3072e078b0cd84d9"
         }
       }
     },
@@ -274,7 +287,7 @@
           "sig" : "d362cb5994e11365e917699e8440b4bd"
         },
         "ru" : {
-          "sig" : "d362cb5994e11365e917699e8440b4bd"
+          "sig" : "34c79ea8edf1b10457dbcfdcd026c4d6"
         }
       }
     },
@@ -287,20 +300,20 @@
           "sig" : "ab72607951f3fcbbcd38465d6aa4af74"
         },
         "ru" : {
-          "sig" : "ab72607951f3fcbbcd38465d6aa4af74"
+          "sig" : "449c7f8593e650d77ce8bf128f699a13"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenIndicesLocalize" : {
       "source" : {
-        "sig" : "a59999389f1b35dc3b51ba2ddcd14860"
+        "sig" : "26a3672d7d4e51c24fa80e82626257f8"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "b34c3ab3ba5dff1806c454fd62e34633"
+          "sig" : "8f175b594e3f1143a2cd5db01d49bc93"
         },
         "ru" : {
-          "sig" : "b34c3ab3ba5dff1806c454fd62e34633"
+          "sig" : "deb38ba32f3ea18ac326e03033d56d45"
         }
       }
     },
@@ -313,33 +326,33 @@
           "sig" : "229f7e37f09e49bf016aeb1b8150a0fd"
         },
         "ru" : {
-          "sig" : "229f7e37f09e49bf016aeb1b8150a0fd"
+          "sig" : "efe394708351d6d2f6f261c411802879"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenProjectLocalize" : {
       "source" : {
-        "sig" : "50bcc0fad96f8816b436ab42fe759fba"
+        "sig" : "883131fa3002b25eebe97bc8ecdcc093"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "4b7c63b52e3b8d1af6f07501d3305516"
+          "sig" : "0b87e105530663cba5727884c146a816"
         },
         "ru" : {
-          "sig" : "183515fc19b70249565a05290928c974"
+          "sig" : "d68c1fff8af0bc54b854021d8a67441d"
         }
       }
     },
     "consulo-maven/org.jetbrains.idea.maven.MavenRunnerLocalize" : {
       "source" : {
-        "sig" : "3f4dccd16eb02ded3137f6785f106b22"
+        "sig" : "916472ff5a85dbf9ddf0c9627c5c163c"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "357bfc334bb1a501a93de9421c5c5bb9"
+          "sig" : "5bd11a1f91979bc4cf60ebb744498f5b"
         },
         "ru" : {
-          "sig" : "8f62ab28647f3f0b01922ecb7f00d726"
+          "sig" : "328debd596ec9024a1af2aa5bb6e71e6"
         }
       }
     },
@@ -352,7 +365,7 @@
           "sig" : "1167dbc8fc1bf0de13c0f79356afadd2"
         },
         "ru" : {
-          "sig" : "1167dbc8fc1bf0de13c0f79356afadd2"
+          "sig" : "19a3e1ce90659d943194820389aff753"
         }
       }
     },
@@ -365,20 +378,7 @@
           "sig" : "91a32fbdfd1a2818f22b96da0dcd3722"
         },
         "ru" : {
-          "sig" : "91a32fbdfd1a2818f22b96da0dcd3722"
-        }
-      }
-    },
-    "consulo-spellchecker/consulo.spellchecker.SpellCheckerLocalize" : {
-      "source" : {
-        "sig" : "9161bc69eff07d34ba1eaa2b809de6dc"
-      },
-      "translations" : {
-        "en-US" : {
-          "sig" : "454713cffbedaee7df52980ed0881fb0"
-        },
-        "ru" : {
-          "sig" : "454713cffbedaee7df52980ed0881fb0"
+          "sig" : "10dc37348dc686467958f2c483dc7c11"
         }
       }
     },
@@ -391,7 +391,7 @@
           "sig" : "ff303c8ed4ea7df98c47200e4b1aedf8"
         },
         "ru" : {
-          "sig" : "b492eed9b2063e4a7b8f61a896f316d4"
+          "sig" : "905064b9dc5c4bfa235da5af0fdeaf8d"
         }
       }
     },
@@ -404,20 +404,20 @@
           "sig" : "ab2fdf7d1cd4deff2715624aca8a5258"
         },
         "ru" : {
-          "sig" : "036d11ed18f34d2a0adfb1d32feb37e5"
+          "sig" : "bae60c67b1890b1cfd3f348022652c0f"
         }
       }
     },
     "consulo/consulo.application.ApplicationLocalize" : {
       "source" : {
-        "sig" : "e1c6cf530e29e3ab11e349cba950c21a"
+        "sig" : "dac467ef60fe790db87b5f23d540baad"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "59e87f0df84100c79cc5ee21421e4756"
+          "sig" : "859eeb815c6ed99046d2e5779b6a0de8"
         },
         "ru" : {
-          "sig" : "280f6483897926b11ff6452a2c0326b1"
+          "sig" : "1264adefd787c3bb72193739fb642f06"
         }
       }
     },
@@ -430,7 +430,7 @@
           "sig" : "0086a55dcb15357f1e3249c0ba950284"
         },
         "ru" : {
-          "sig" : "87b67c03fd7a181c3ff623dd57576e94"
+          "sig" : "fddb5e371c711813a735fddd6c2793dc"
         }
       }
     },
@@ -443,7 +443,7 @@
           "sig" : "d6300f56f0babfee0bdede2228d0bad9"
         },
         "ru" : {
-          "sig" : "8e102f757aa3c76530218061061ef759"
+          "sig" : "d6300f56f0babfee0bdede2228d0bad9"
         }
       }
     },
@@ -456,72 +456,72 @@
           "sig" : "c94235e520dd817920ace52bdc81519a"
         },
         "ru" : {
-          "sig" : "91c817a706588afcf30f6937c64f304b"
+          "sig" : "abea0e325790f9ca2ec796964baec552"
         }
       }
     },
     "consulo/consulo.compiler.CompilerLocalize" : {
       "source" : {
-        "sig" : "c49fd53786b570f35f70b32da2a4b6bc"
+        "sig" : "c90b6483b2dac91b1d2fb6d835c1715b"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "d8e5203a812b1cc26b7d71f8975d62f4"
+          "sig" : "e5122fb56bded49d800cc89550c490b0"
         },
         "ru" : {
-          "sig" : "2aaaca5e2f4741d340d6caffd793d322"
+          "sig" : "024018e217611c9e08f6364a2c965cde"
         }
       }
     },
     "consulo/consulo.diff.DiffLocalize" : {
       "source" : {
-        "sig" : "0f121b213259eacdbe951953e90c1817"
+        "sig" : "61249795f4f4343868b2094bdf0eea64"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "059f20a627c436d5754f18f0cdbbfd30"
+          "sig" : "8188fb22a4af63a51c2a7f7d495ffc3e"
         },
         "ru" : {
-          "sig" : "d1861b5d16bf9d0d6dc828d9f214eedd"
+          "sig" : "e65acacf1bbc29db6bef88261a81bbe8"
         }
       }
     },
     "consulo/consulo.execution.ExecutionLocalize" : {
       "source" : {
-        "sig" : "19c1e544c695b154fc07481afbff6c27"
+        "sig" : "89d37642f55c1c2a5a6a107a6e85348d"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "7873ab38a1a4e04dd7ebc19cf0d0f724"
+          "sig" : "a6b5f4961bbd7f4abdbce86615d7cdc7"
         },
         "ru" : {
-          "sig" : "37ca48cd9d8e6bcc004f6fe145ae319b"
+          "sig" : "229664976ca263799b60b8f31c4e66a0"
         }
       }
     },
     "consulo/consulo.execution.coverage.ExecutionCoverageLocalize" : {
       "source" : {
-        "sig" : "a42e1a2cd9aa54e6f68677543be15b92"
+        "sig" : "89ab1a8b3c8d2dd270cbd5b862e41dc5"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "e6da4827e946ae99cd66566566b5652b"
+          "sig" : "78282931439ec1fff23462d8a3d74be6"
         },
         "ru" : {
-          "sig" : "5e161f6fdbad8e3f21fcefd900121bfe"
+          "sig" : "2bb319f606367410d6bd50f2d55d9762"
         }
       }
     },
     "consulo/consulo.execution.debug.XDebuggerLocalize" : {
       "source" : {
-        "sig" : "566d5881c7df0f889f2dfcc0d5321f93"
+        "sig" : "2b81c4578b2387b23fc343f7b9132098"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "487443cf4cf1e9c18085d35a3c3d41b3"
+          "sig" : "0da26bdd4ebba13f39fdd3e03b575e2f"
         },
         "ru" : {
-          "sig" : "13a9c413805efb620512bdbc86a45078"
+          "sig" : "047dcf872bbf6421ee0c91f3361a2987"
         }
       }
     },
@@ -534,7 +534,7 @@
           "sig" : "fc2a5cd2c28c2ee19982c30a263e0892"
         },
         "ru" : {
-          "sig" : "cd289b64e2122e3f37b10ced33e37244"
+          "sig" : "fc2a5cd2c28c2ee19982c30a263e0892"
         }
       }
     },
@@ -547,59 +547,59 @@
           "sig" : "b2d619dc8ef256e10db98a0e78f79410"
         },
         "ru" : {
-          "sig" : "893eceff4c0d62678ed2bcaf20cf7bc0"
+          "sig" : "b2d619dc8ef256e10db98a0e78f79410"
         }
       }
     },
     "consulo/consulo.externalService.ExternalServiceLocalize" : {
       "source" : {
-        "sig" : "b9ddf146209505094200bc9d1a422d66"
+        "sig" : "169ac6734f92091ea176825efbc67e50"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "6ce0cf6474aed9589a7387e3492088da"
+          "sig" : "d5491e802ee04cb4adaa50ecf05d1b6f"
         },
         "ru" : {
-          "sig" : "7371a9a3a654089e62a3fc1af80d7860"
+          "sig" : "f78abc8ec1bd29f4ad7ff117e8d659b5"
         }
       }
     },
     "consulo/consulo.find.FindLocalize" : {
       "source" : {
-        "sig" : "20a48c74d6131591b84a7e74a46b2613"
+        "sig" : "a1344c38ce8a9bc24d2ed5cc2b607957"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "91593f8f09937fa4d29fcbb8cb76514b"
+          "sig" : "dc0620f009f26e25a05e5135c3a389e9"
         },
         "ru" : {
-          "sig" : "eb3d6edba9f778142eae1b0bd0abcefd"
+          "sig" : "3c3b4c19111b946cd1a5b22566b0c8ec"
         }
       }
     },
     "consulo/consulo.http.HttpLocalize" : {
       "source" : {
-        "sig" : "3bd0db0f5440fbca55dddd973f8a9d44"
+        "sig" : "664aafa3cc94af347ad6af558184d30d"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "de7b7869807c545fc8857f3ff0d2ea0a"
+          "sig" : "5e2526b5214839c575c2f1005a8f06ec"
         },
         "ru" : {
-          "sig" : "9fe58eeab84648cb3d679679d1b28d1a"
+          "sig" : "e3f17030557b25873e4e77e922d6068b"
         }
       }
     },
     "consulo/consulo.ide.IdeLocalize" : {
       "source" : {
-        "sig" : "468e895eda614e94cdf634eafd4df5ef"
+        "sig" : "79632b947e03740cb8a83c8f9c4537a9"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "14c0f285d45c5336fb48828540288d8d"
+          "sig" : "195cd4a9b2f176bf31cd92683408057a"
         },
         "ru" : {
-          "sig" : "8e1072d212175dc2e05950037d98db46"
+          "sig" : "5e66e5a8200b305ed712ca547dfbd5ac"
         }
       }
     },
@@ -612,7 +612,7 @@
           "sig" : "4832a2bdae10fa727db70729f4dee406"
         },
         "ru" : {
-          "sig" : "fa9c86851585114ca1da3a608606d7a4"
+          "sig" : "83efd92c602aa1ab592e7890249cba56"
         }
       }
     },
@@ -625,7 +625,7 @@
           "sig" : "f774c004c6915c317695efec4b9ba425"
         },
         "ru" : {
-          "sig" : "ba08020a443982d42bf1f466e8419496"
+          "sig" : "a14993122091b333214b893e44d5aa65"
         }
       }
     },
@@ -638,20 +638,20 @@
           "sig" : "ae78bda89ebbd375a3cbf61c4ed0a9d6"
         },
         "ru" : {
-          "sig" : "f3a9ea6bf488c9629f46d4666e5a85ae"
+          "sig" : "8a4a79346ab3bb99ee7d4ecd02490902"
         }
       }
     },
     "consulo/consulo.language.editor.CodeInsightLocalize" : {
       "source" : {
-        "sig" : "d393c045d1da14e5afd1dfd0d7a960d7"
+        "sig" : "ba4ba89626508dd2af15b655010aa4a7"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "df4c971d6a9c1dc5cce5db44a4f94369"
+          "sig" : "1ee38eba110f25a64242e787328c5af6"
         },
         "ru" : {
-          "sig" : "3f4cd22a0ce3259677a5131a4fc0dd49"
+          "sig" : "c988680a21304612c895561298853c77"
         }
       }
     },
@@ -664,46 +664,46 @@
           "sig" : "3a17e728b72514afebe3e8c26721c7af"
         },
         "ru" : {
-          "sig" : "d2bceb4bc3951a5219f90a0c80e607af"
+          "sig" : "a68d55874bb5065740be919be4c4817a"
         }
       }
     },
     "consulo/consulo.language.editor.LanguageEditorLocalize" : {
       "source" : {
-        "sig" : "b62b86315b65659ff6868b205d54ff4d"
+        "sig" : "76d8e545b225041d83d3445c76a611ca"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "01922f31f55810d838c81739b8f1c72a"
+          "sig" : "7764653340f885eccb8019c5f2c6c110"
         },
         "ru" : {
-          "sig" : "e7cc31bc912becbdcbed041fd71b7a87"
+          "sig" : "0daa162ec99960a145eec41c7bf5c614"
         }
       }
     },
     "consulo/consulo.language.editor.inspection.InspectionLocalize" : {
       "source" : {
-        "sig" : "cb79928b091068bc8c16b54a6d9451eb"
+        "sig" : "114c5d98c6f9a54307c684b9d8a6690f"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "9082502911c43cc2da37a9a58418612c"
+          "sig" : "df3de5a9a595eb9e7972aa63ce1344ca"
         },
         "ru" : {
-          "sig" : "a14082c7890bd16ea75a3e5381649ca5"
+          "sig" : "516ddc144b7ab0e40826187d2f37b0b3"
         }
       }
     },
     "consulo/consulo.language.editor.scope.AnalysisScopeLocalize" : {
       "source" : {
-        "sig" : "c2d18ab08bc946e7e83911405e1db6b0"
+        "sig" : "ff4f0f4cb70f57d598f8ac5485ed85fd"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "e3a7899b8319172869bde075712d0be4"
+          "sig" : "2293f305213dc474b26883ff46ec8a0b"
         },
         "ru" : {
-          "sig" : "1ca15495a6349c2a9496083bdcc763c5"
+          "sig" : "002d88805ea89a5eea87774afd05e830"
         }
       }
     },
@@ -716,7 +716,7 @@
           "sig" : "e7d19a493bf948f1b72310074b89a164"
         },
         "ru" : {
-          "sig" : "462d2d725417898505cf0cdaaad5876e"
+          "sig" : "e7d19a493bf948f1b72310074b89a164"
         }
       }
     },
@@ -729,7 +729,7 @@
           "sig" : "fddb47d93b098fcd5cf27acfba6d3dd0"
         },
         "ru" : {
-          "sig" : "e21dbc33dbc42288f2f9cbaacdfe7c4f"
+          "sig" : "fce4dfb8a7605e89d3fd6c6e145167ef"
         }
       }
     },
@@ -742,7 +742,7 @@
           "sig" : "ad269f015d46fe2820e3267d2bb1c1e9"
         },
         "ru" : {
-          "sig" : "2dafe70b1f9be48263f32750a3674abd"
+          "sig" : "37e35e61438bc8280052a273f24fc37f"
         }
       }
     },
@@ -755,7 +755,7 @@
           "sig" : "ae101aee1056de1d403dcdced9ee89f8"
         },
         "ru" : {
-          "sig" : "d43c445178ce625a4377b4481bcef5d5"
+          "sig" : "ae101aee1056de1d403dcdced9ee89f8"
         }
       }
     },
@@ -768,7 +768,7 @@
           "sig" : "33834ec348da64162664703591305066"
         },
         "ru" : {
-          "sig" : "636497e00a8fa5e7f63b3d9ef5b6476b"
+          "sig" : "33834ec348da64162664703591305066"
         }
       }
     },
@@ -781,20 +781,20 @@
           "sig" : "28d0ed251e6298b9eb43b7437c1d7d29"
         },
         "ru" : {
-          "sig" : "3613f090b8ece4f474428bfc45c4ef8e"
+          "sig" : "0c9955ebe6c77e1552e405a3c6d47b29"
         }
       }
     },
     "consulo/consulo.pathMacro.PathMacroLocalize" : {
       "source" : {
-        "sig" : "046853d058e79e1f1d29ea3914f7e9ee"
+        "sig" : "352eb2cf544f7d35842e0af0978234c8"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "80b180d943ae156ebda7942bedc9120f"
+          "sig" : "f4b2284cfa01df89fe97026ae35afa93"
         },
         "ru" : {
-          "sig" : "04262a9e6340b8517659833331f20776"
+          "sig" : "f4b2284cfa01df89fe97026ae35afa93"
         }
       }
     },
@@ -807,7 +807,7 @@
           "sig" : "99e86cd9a6a7a46adf96ee3ca4ca9419"
         },
         "ru" : {
-          "sig" : "87563e846cae273e9e0b078a299ef9df"
+          "sig" : "e720526b717c1b7265b8f5719f9a920a"
         }
       }
     },
@@ -820,33 +820,33 @@
           "sig" : "78b455a37a0bedbbb6333ad886da0167"
         },
         "ru" : {
-          "sig" : "cb4b428017a4a8602f64aa4353b1d013"
+          "sig" : "ec2aa5c3f88773ae210b5044e76f8abc"
         }
       }
     },
     "consulo/consulo.project.ProjectLocalize" : {
       "source" : {
-        "sig" : "6468f810ab72fd0c1704ad91f0da7b08"
+        "sig" : "d16f30c2fa961aa0ca8a31bf90e48e36"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "f8dbc47941a18402e662abbb22cd4e89"
+          "sig" : "b0987452211e75f78384003087098ba3"
         },
         "ru" : {
-          "sig" : "3488a5c8f61bf6b498c0930d44504b46"
+          "sig" : "52885f9c7022083da1fcae87d718e64a"
         }
       }
     },
     "consulo/consulo.project.ui.ProjectUILocalize" : {
       "source" : {
-        "sig" : "079592eef99ad56d331a6041060e7607"
+        "sig" : "2615c673ab393e09b7753195e6aabf6b"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "9cf6a32ff477804efb424f18548fb7e7"
+          "sig" : "f365f56d6cabbedf7ae8bb526536855a"
         },
         "ru" : {
-          "sig" : "696c7ab2aa26445443c0177425594b65"
+          "sig" : "649d698caf815f74012fdfeee7e658b5"
         }
       }
     },
@@ -859,7 +859,7 @@
           "sig" : "6c5269734db7481b18672fb9f82b7ed3"
         },
         "ru" : {
-          "sig" : "c6986d295ea89095a22ac35ac860a58f"
+          "sig" : "50e4ab5d623df05434da90f7a8fb59a6"
         }
       }
     },
@@ -872,20 +872,20 @@
           "sig" : "cf21fe67e1ad060928dbeeb6a2481b26"
         },
         "ru" : {
-          "sig" : "4431737f8aae2fa3ed262c96d78cf278"
+          "sig" : "4804412bdba885761b1a2028d86d2f08"
         }
       }
     },
     "consulo/consulo.ui.ex.UILocalize" : {
       "source" : {
-        "sig" : "b3045acd2370814f083b0d2a8fa497a6"
+        "sig" : "7f6af92fad113bf84d669240a561d760"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "e4c7b1516f3b515889ad5af169a30547"
+          "sig" : "984c91066e260b0956f4dd78ccba3c7a"
         },
         "ru" : {
-          "sig" : "8b0fa4023e2494739cc7ac86d9867bf8"
+          "sig" : "5cb59ddc7691c1088b09b9e9ccc7e1ad"
         }
       }
     },
@@ -898,59 +898,59 @@
           "sig" : "52a502320da5f2af46fbf199fc02113f"
         },
         "ru" : {
-          "sig" : "673b79b80e84faa770c04816edefd3cd"
+          "sig" : "dde6d6ec4c97da31234913e5a97b7c18"
         }
       }
     },
     "consulo/consulo.usage.UsageLocalize" : {
       "source" : {
-        "sig" : "5c7752dac933eacd8faaae2e6fdd7afd"
+        "sig" : "adcba24f93d2f1460d82a296f93df453"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "057e43b0424981cf2287c58530498a37"
+          "sig" : "c177ed9da3b280ddd1b53ac3a5ab5341"
         },
         "ru" : {
-          "sig" : "539b52f60ec8eb014e8e2a6823af9bcf"
+          "sig" : "0282800cdcd578300d44f8373a520c7f"
         }
       }
     },
     "consulo/consulo.versionControlSystem.VcsLocalize" : {
       "source" : {
-        "sig" : "0c16ff3e4ff45d6b52278b9d226da4c1"
+        "sig" : "73a95ba92310306428ddb04fecd37b81"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "75685cdc1e88527de7614279b41108d4"
+          "sig" : "60377702188b40606d37ca16fdb47dd8"
         },
         "ru" : {
-          "sig" : "84b685950fd823e4b89903f93998d313"
+          "sig" : "95b4e4284b523a0d7d779e3dc7ffe077"
         }
       }
     },
     "consulo/consulo.versionControlSystem.distributed.DistributedVcsLocalize" : {
       "source" : {
-        "sig" : "2fe40f645409060db431f4e938eb975f"
+        "sig" : "5bbdec65bebf332e5796280a09e4fd25"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "49adde3dfcc80fd1ea7e4ccf30ed3346"
+          "sig" : "1a1ada07bcec2c9ce72e795d52f942a0"
         },
         "ru" : {
-          "sig" : "801ea36fb59be7a6f41020b897665f63"
+          "sig" : "669ed3338c51b62361fc48bedcb4b8f6"
         }
       }
     },
     "consulo/consulo.versionControlSystem.log.VersionControlSystemLogLocalize" : {
       "source" : {
-        "sig" : "008bedeeee6699688bc6c91acb2660ba"
+        "sig" : "09b37d975b9be2e076baf2f993aedc34"
       },
       "translations" : {
         "en-US" : {
-          "sig" : "98e25d6a0ba22894dd0377be7f241d01"
+          "sig" : "1fdd2ffb0f3faa40c4b2603b1ef20202"
         },
         "ru" : {
-          "sig" : "9813eb32d4131ebf55e5b7825b9722c7"
+          "sig" : "9aec349552dc0cf64dd6deb8d37b3c9e"
         }
       }
     },
@@ -963,7 +963,7 @@
           "sig" : "06d6aa517255683a21e99666b5fc5fb5"
         },
         "ru" : {
-          "sig" : "a613e9f1dfd5d48b09e0965742d682a9"
+          "sig" : "734af109e378cef5a16020a738877784"
         }
       }
     }

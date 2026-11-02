@@ -77,7 +77,7 @@ coverage.hide.fully.covered.elements:
 coverage.import.report.toolwindow.empty.text:
     text: Импортировать с диска отчет, собранный в CI
 coverage.info.string.file:
-    text: '{0,choice,1#файл|2#файлов}'
+    text: '{0, plural, one{# файл} few{# файла} other{# файлов}}'
 coverage.is.not.importable:
     text: Покрытие не может быть импортировано в эту среду. {0} coverage.py или {1} «{2}» в Настройках | Сборка, Выполнение, Развертывание | Покрытие.
 coverage.is.not.importable.option.enable:
@@ -85,11 +85,11 @@ coverage.is.not.importable.option.enable:
 coverage.is.not.importable.option.install:
     text: Установить
 coverage.next.change.fully.covered:
-    text: Полностью охвачено
+    text: Полностью покрыто
 coverage.next.change.partial.covered:
-    text: Частично охвачено
+    text: Частично покрыто
 coverage.next.change.uncovered:
-    text: Не охвачено
+    text: Не покрыто
 coverage.next.mark:
     text: Следующая отметка покрытия
 coverage.next.place:
@@ -159,17 +159,17 @@ group.coverage.menu.text:
 hint.text.failed.to.load.covered.tests:
     text: Не удалось загрузить покрытые тесты
 hits.message:
-    text: 'попадания: {0}'
+    text: '{0, plural, =0{ни одного вызова} one{# вызов} few{# вызова} other{# вызовов}}'
 hits.title:
-    text: 'Попадания: {0}'
+    text: '{0, plural, =0{Ни одного вызова} one{# вызов} few{# вызова} other{# вызовов}}'
 lines.covered.info.less.than.one.percent:
     text: <1% покрытых строк
 lines.covered.info.no.lines.covered:
     text: нет покрытых строк
 lines.covered.info.not.covered:
-    text: не охвачено
+    text: не покрыто
 lines.covered.info.percent.lines.covered:
-    text: '% строк охвачено'
+    text: '% строк покрыто'
 link.label.close:
     text: Закрыть
 marker.code.coverage:
