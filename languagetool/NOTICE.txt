@@ -1,0 +1,14 @@
+Russian LanguageTool language plugin for Consulo
+Copyright 2013-2026 consulo.io
+
+This plugin bundles the Russian language module of LanguageTool (https://languagetool.org) as a separate library
+(language-ru), licensed under the GNU Lesser General Public License, version 2.1 or later
+(see licenses/LanguageTool-LGPL-2.1.txt).
+
+Copyright (C) LanguageTool contributors.
+
+The bundled LanguageTool library is built from a fork with Consulo specific changes. Its source code is available at:
+https://github.com/consulo/languagetool
+
+LanguageTool depends on further libraries under their own licenses (e.g. morfologik-stemming, hunspell);
+see the LanguageTool repository for details.

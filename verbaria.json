@@ -8,5 +8,5 @@
         "ru"
     ],
     "excludes": "**/target/**",
-    "transDir": "src/main/resources/LOCALIZE-LIB"
+    "transDir": "plugin/src/main/resources/LOCALIZE-LIB"
 }
