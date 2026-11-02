@@ -1,0 +1,10 @@
+<consulo-plugin url="https://github.com/consulo/consulo-localize_ru">
+    <id>consulo.language.tool.spelling.ru</id>
+    <name>LanguageTool Spellchecker – Russian</name>
+    <version>SNAPSHOT</version>
+    <vendor>consulo.io</vendor>
+    <depends>consulo.language.tool.spelling</depends>
+    <tags>
+        <tag>editor.spelling</tag>
+    </tags>
+</consulo-plugin>
