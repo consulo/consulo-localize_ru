@@ -24,10 +24,10 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <groupId>consulo.plugin</groupId>
-    <artifactId>consulo.language.tool.spelling.ru</artifactId>
+    <groupId>consulo.plugin.localize</groupId>
+    <artifactId>consulo.localize_ru.languagetool</artifactId>
     <version>3-SNAPSHOT</version>
-    <packaging>consulo-plugin</packaging>
+    <packaging>jar</packaging>
 
 
     <dependencies>
@@ -62,15 +62,6 @@
                         <version>${build.number}</version>
                     </packaging>
                 </configuration>
-                <executions>
-                    <execution>
-                        <id>pack</id>
-                        <phase>package</phase>
-                        <goals>
-                            <goal>workspace</goal>
-                        </goals>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
