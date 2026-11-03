@@ -1580,8 +1580,6 @@ node.projectview.library:
     text: '{0} библиотека'
 node.structureview.invalid:
     text: <некорректно>
-open.url.in.browser.tooltip:
-    text: Открыть в браузере
 option.hide.tool.window.bars:
     text: Скрыть панели инструментов
 options.locale.auto.locale:
@@ -1877,88 +1875,6 @@ remove.BOM:
     text: Убрать BOM
 repository.url.title:
     text: URL репозитория
-run.anything.action.tooltip.text:
-    text: 'Выполнение операций: открытие проектов, запуск конфигураций выполнения, выполнение заданий Maven или Gradle, выполнение команд терминала и т.д.'
-run.anything.actions.undefined:
-    text: Не определено
-run.anything.ad.command.delete:
-    text: '{0} для удаления последней команды'
-run.anything.ad.run.action.with.default.settings:
-    text: Нажмите {0}, чтобы запустить с настройками по умолчанию
-run.anything.ad.run.in.context:
-    text: Нажмите {0} для запуска в текущем контексте файла
-run.anything.ad.run.with.debug:
-    text: '{0} для отладки'
-run.anything.command.empty.list.title:
-    text: Нажмите ENTER, чтобы выполнить команду ввода
-run.anything.console.error.title:
-    text: Не удаётся запустить команду
-run.anything.console.process.finished:
-    text: |4-
-
-        Процесс завершён с кодом выхода {0}.
-run.anything.console.title:
-    text: Запустить любую команду
-run.anything.context.browse.directory:
-    text: Обзор каталога…
-run.anything.context.project:
-    text: Проект
-run.anything.context.separator.directories:
-    text: Каталоги
-run.anything.context.separator.modules:
-    text: Модули
-run.anything.context.title.working.directory:
-    text: Рабочий каталог
-run.anything.context.tooltip:
-    text: Выберите контекст, в котором будет выполнена текущая команда
-run.anything.custom.activity.notification.group.id:
-    text: Выполнить что угодно
-run.anything.custom.activity.rollback.action:
-    text: Откат
-run.anything.double.ctrl.shortcut:
-    text: Двойной {0}
-run.anything.general.group.title:
-    text: Общие
-run.anything.group.settings.title:
-    text: Показать «{0}»
-run.anything.group.title.commands:
-    text: Последние команды
-run.anything.group.title.permanent:
-    text: Постоянные конфигурации
-run.anything.group.title.temporary:
-    text: Временные конфигурации
-run.anything.help.list.empty.secondary.text:
-    text: Выберите команду
-run.anything.hint.initial.text:
-    text: Нажмите {0} или {1} для навигации по списку предложений
-run.anything.indexing.mode.not.supported:
-    text: Действие «Выполнить что угодно» недоступно во время обновления индексов
-run.anything.main.list.empty.primary.text:
-    text: Выполнить команду или конфигурацию
-run.anything.main.list.empty.secondary.text:
-    text: Введите «?» для просмотра всех команд
-run.anything.notification.warning.content:
-    text: Не удалось выполнить команду «{0}».
-run.anything.notification.warning.title:
-    text: Неудачное выполнение команды
-run.anything.recent.group.title:
-    text: Последние
-run.anything.recent.project.command.placeholder:
-    text: открыть <название проекта>
-run.anything.recent.project.completion.group.title:
-    text: Последние проекты
-run.anything.recent.project.help.group.title:
-    text: Последние проекты
-run.anything.run.anything.title:
-    text: Выполнить что угодно
-run.anything.run.configurations.group.title:
-    text: Конфигурации запуска
-run.anything.run.debug.title:
-    text: 'Отладка:'
-run.anything.run.in.context.debug.title:
-    text: 'Запустить в контексте с отладкой:'
-run.anything.run.in.context.title:
-    text: 'Запустить в контексте:'
 run.canceled.by.user.message:
     text: Запуск отменён пользователем
 run.configuration.error.executable.not.specified:
