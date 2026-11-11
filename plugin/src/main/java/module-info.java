@@ -5,4 +5,5 @@
 module consulo.localize.ru {
     requires consulo.localize.api;
     requires consulo.application.api;
+    requires consulo.configurable.api;
 }

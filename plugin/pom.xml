@@ -128,6 +128,12 @@
         <!--required for deploy-->
         <dependency>
             <groupId>consulo</groupId>
+            <artifactId>consulo-configurable-api</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>consulo</groupId>
             <artifactId>consulo-application-api</artifactId>
             <version>${project.version}</version>
             <scope>provided</scope>
